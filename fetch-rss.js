@@ -26,6 +26,7 @@ async function fetchAndProcessFeed() {
 
   for (const item of parsedFeed.items) {
     try {
+      // Get article link
       const itemArticleContent= item['content:encoded'];
       const itemArticleLink = extractHrefFromContent(itemArticleContent);
       
