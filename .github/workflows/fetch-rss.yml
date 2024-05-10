@@ -1,0 +1,44 @@
+name: Fetch and Update RSS
+
+on:
+  schedule:
+    # Runs every 3 hours
+    - cron: "0 */3 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4.1.5
+        
+      - name: Set up Node.js
+        uses: actions/setup-node@v4.0.2
+        with:
+          node-version: '18'
+
+      - name: Cache Node.js Dependencies
+        uses: actions/cache@v4.0.2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Run RSS Fetch Script
+        run: node fetch-rss.js
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.email "lgenio88@gmail.com"
+          git config --global user.name "genio"
+          git add gaming.xml
+          TIMESTAMP=$(date +"%Y-%m-%d %H:%M:%S")
+          git commit -m "Auto-update RSS feed at $TIMESTAMP"
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
