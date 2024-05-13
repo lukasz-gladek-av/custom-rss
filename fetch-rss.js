@@ -44,7 +44,7 @@ async function fetchAndProcessFeed() {
           title: item.title,
           id: item.link,
           link: item.link,
-          content: article.content,
+          content: itemArticleContent + '<br/>' + article.content,
           author: [{ name: item.author || 'Unknown' }],
         });
       } else {
