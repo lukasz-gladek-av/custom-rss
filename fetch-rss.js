@@ -13,7 +13,38 @@ const feed = new Feed({
 });
 
 function extractHrefFromContent(htmlContent) {
-  const dom = new JSDOM(htmlContent);
+  const dom = new JSDOM(htmlContent, {
+    resources: "usable",  // Ensures that some resources like images or frames are loaded
+    includeNodeLocations: true,
+    pretendToBeVisual: true,  // Makes JSDOM behave like a visual browser
+    features: {
+        FetchExternalResources: false, // Prevents loading of external resources like stylesheets
+        ProcessExternalResources: false // Prevents processing of external scripts and styles
+    },
+    beforeParse(window) {
+        // This disables all CSS processing
+        window.document.styleSheets = {
+            length: 0,
+            item: () => null
+        };
+        // This disables all CSS processing by setting dummy functions and ignoring style elements
+        window.document.createElement = (function (nativeCreateElement) {
+          return function (tagName) {
+              if (tagName.toLowerCase() === 'style') {
+                  const element = nativeCreateElement.call(window.document, 'style');
+                  // These are dummy functions to avoid any parsing
+                  element.sheet = {
+                      cssRules: [],
+                      insertRule: function() {},
+                      deleteRule: function() {},
+                  };
+                  return element;
+              }
+              return nativeCreateElement.call(window.document, tagName);
+          };
+      })(window.document.createElement);
+    }
+});
   const document = dom.window.document;
   const anchor = document.querySelector('a');
   
@@ -27,7 +58,7 @@ async function fetchAndProcessFeed() {
   for (const item of parsedFeed.items) {
     try {
       // Get article link
-      const itemArticleContent= item['content:encoded'];
+      const itemArticleContent = item['content:encoded'];
       const itemArticleLink = extractHrefFromContent(itemArticleContent);
       
       // Fetch the article content
@@ -48,10 +79,10 @@ async function fetchAndProcessFeed() {
           author: [{ name: item.author || 'Unknown' }],
         });
       } else {
-        console.warn(`Failed to parse content for ${itemArticleLink}`);
+        console.warn(`Failed to parse content for ${itemArticleContent || itemArticleLink}`);
       }
     } catch (err) {
-      console.error(`Error processing ${itemArticleLink}:`, err);
+      console.error(`Error processing ${item}:`, err);
     }
   }
 
