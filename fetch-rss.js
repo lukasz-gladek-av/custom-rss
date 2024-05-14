@@ -65,10 +65,10 @@ async function fetchAndProcessFeed() {
       // Fetch the article content
       const response = await axios.get(itemArticleLink);
       const html = response.data;
-      const htmlWithoutCSS = removeStyles(html);
+      const filteredHtml = removeStylesAndImages(html);
 
       // Use JSDOM and Readability to extract the main content
-      const doc = new JSDOM(htmlWithoutCSS, { url: itemArticleLink });
+      const doc = new JSDOM(filteredHtml, { url: itemArticleLink });
       const reader = new Readability(doc.window.document);
       const article = reader.parse();
 
@@ -93,10 +93,11 @@ async function fetchAndProcessFeed() {
   require('fs').writeFileSync('gaming.xml', rssXml);
 }
 
-function removeStyles(html) {
+function removeStylesAndImages(html) {
   const $ = cheerio.load(html);
   // Remove all <style> tags
   $('style').remove();
+  $('img').remove();
   // Remove all <link rel="stylesheet"> tags
   $('link[rel="stylesheet"]').remove();
   // Remove all inline styles
