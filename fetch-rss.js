@@ -3,6 +3,7 @@ const { JSDOM } = require('jsdom');
 const { Readability } = require('@mozilla/readability');
 const { Feed } = require('feed');
 const axios = require('axios');
+const cheerio = require('cheerio');
 
 const rssParser = new RSSParser();
 const originalFeedUrl = 'https://www.resetera.com/forums/gaming-headlines.54/index.rss';
@@ -64,9 +65,10 @@ async function fetchAndProcessFeed() {
       // Fetch the article content
       const response = await axios.get(itemArticleLink);
       const html = response.data;
+      const htmlWithoutCSS = removeStyles(html);
 
       // Use JSDOM and Readability to extract the main content
-      const doc = new JSDOM(html, { url: itemArticleLink });
+      const doc = new JSDOM(htmlWithoutCSS, { url: itemArticleLink });
       const reader = new Readability(doc.window.document);
       const article = reader.parse();
 
@@ -88,6 +90,17 @@ async function fetchAndProcessFeed() {
 
   const rssXml = feed.rss2();
   require('fs').writeFileSync('gaming.xml', rssXml);
+}
+
+function removeStyles(html) {
+  const $ = cheerio.load(html);
+  // Remove all <style> tags
+  $('style').remove();
+  // Remove all <link rel="stylesheet"> tags
+  $('link[rel="stylesheet"]').remove();
+  // Remove all inline styles
+  $('[style]').removeAttr('style');
+  return $.html();
 }
 
 fetchAndProcessFeed();
