@@ -57,6 +57,9 @@ async function fetchAndProcessFeed() {
   const parsedFeed = await rssParser.parseURL(originalFeedUrl);
 
   for (const item of parsedFeed.items) {
+    if (item.title?.startsWith('How to')) {
+      continue;
+    }
     try {
       // Get article link
       const itemArticleContent = item['content:encoded'];
