@@ -76,12 +76,13 @@ async function fetchAndProcessFeed() {
         feed.addItem({
           title: item.title,
           id: item.link,
-          link: item.link,
+          link: itemArticleLink,
           content: itemArticleLink + '<br/>' + article.content,
           author: [{ name: item.author || 'Unknown' }],
         });
       } else {
         console.warn(`Failed to parse content for ${itemArticleContent || itemArticleLink}`);
+        feed.addItem(item)
       }
     } catch (err) {
       console.error(`Error processing ${item}:`, err);
