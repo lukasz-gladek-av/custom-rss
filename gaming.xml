@@ -4,9 +4,383 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Wed, 22 May 2024 19:05:42 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 May 2024 19:16:34 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Hellblade II Gets First Mods to Play in VR or Remove Black Bars, Chromatic Aberration, Film Grain and More]]></title>
+            <link>https://wccftech.com/hellblade-ii-gets-first-mods-to-play-in-vr-or-remove-black-bars-chromatic-aberration-film-grain-and-more/</link>
+            <guid>https://www.resetera.com/threads/hellblade-ii-gets-first-mods-to-play-in-vr-or-remove-black-bars-chromatic-aberration-film-grain-and-more.878700/</guid>
+            <content:encoded><![CDATA[https://wccftech.com/hellblade-ii-gets-first-mods-to-play-in-vr-or-remove-black-bars-chromatic-aberration-film-grain-and-more/<br/><div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>It's been just a day since the official launch of Senua's Saga: Hellblade II, and PC gamers can already improve their experience with the first few mods.</p>
+<p>First, the Flat2VR community showed off a Virtual Reality mod for the single player cinematic game released by Ninja Theory. Thanks to Praydog's <a href="https://wccftech.com/uevr-public-beta-makes-dozens-of-thousands-of-unreal-engine-games-vr-compatible/" target="_blank" rel="noopener">UEVR tool</a>, Hellblade II already works with full 6DOF VR and can be played in first-person or third-person view.</p>
+<p>You will need to grab the profile from the <a href="https://discord.com/invite/ZFSCSDe" target="_blank" rel="noopener">Flat2VR Discord</a> to get it properly set up. Also, make sure you're using a powerful PC.</p>
+<p><iframe title="Hellblade 2 VR Mod Out Now!" width="500" height="281" src="https://www.youtube.com/embed/8YLX6B-9nRA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+<p>Senua's Saga: Hellblade II is full of postprocessing effects like depth of field, motion blur, chromatic aberration, lens distortion, film grain, and forced letterboxing (black bars). While most of those are essential to the artistic vision devised by Ninja Theory, they may also be distasteful or even sickening (in the case of motion blur especially) to some gamers.</p>
+<p>Thankfully, there's already an easy-to-use mod to remove them all available for download <a href="https://www.nexusmods.com/senuassagahellblade2/mods/3" target="_blank" rel="noopener">on Nexus Mods</a>. These are the simple steps required for installation:</p>
+<p><em><span>1. Download the zip file and extract it.<br>
+2. Copy/cut the files to this location:<br>
+</span></em></p>
+<figure>
+<blockquote><p><em>%LOCALAPPDATA%\Hellblade2\Saved\Config\Windows\</em></p></blockquote>
+</figure>
+<p><em><span>3. Replace the file.</span></em></p>
+<p>However, for players interested in disabling only specific effects, here's how to do it manually. You will have to open the Engine.ini file located in the %LOCALAPPDATA%\Hellblade2\Saved\Config\Windows\ folder.</p>
+<p>Then, add the following text at the bottom of the file, depending on which effects you want to disable.</p>
+<pre>[SystemSettings]
+r.FilmGrain=0
+r.NT.Lens.Distortion.Intensity=0
+r.NT.Lens.Distortion.Stretch=0
+r.NT.Lens.ChromaticAberration.Intensity=0
+r.NT.DOF.RotationalBokeh=0
+r.NT.DOF.NTBokehTransform=0
+r.MotionBlurQuality=0
+r.NT.AllowAspectRatioHorizontalExtension=0
+r.NT.EnableConstrainAspectRatio=0
+r.AntiAliasingMethod=0
+</pre>
+<p>Do note that removing the forced letterboxing (the black bars) has two side effects. The first and most obvious one is a decrease in performance since those pixels will have to be rendered after the tweak. The second is a zoomed-in camera effect due to the lack of a proper field of view slider.</p>
+<p>You can find my Senua's Saga: Hellblade II review <a href="https://wccftech.com/review/senuas-saga-hellblade-ii-the-perfect-game-pass-experience/" target="_blank" rel="noopener">here</a>. Earlier today, Ninja Theory <a href="https://wccftech.com/samsung-galaxy-ring-price-leak/" target="_blank" rel="noopener">sent out a thank you message</a> to the community for the 'incredible response' to the game.</p>
+
+				
+
+			
+
+		</div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Evil Does Not Exist’s director unpacks its strange, controversial ending]]></title>
+            <link>https://www.polygon.com/24162032/evil-does-not-exists-ending-explained-by-director-ryusuke-hamaguchi</link>
+            <guid>https://www.resetera.com/threads/evil-does-not-exist%E2%80%99s-director-unpacks-its-strange-controversial-ending.878697/</guid>
+            <content:encoded><![CDATA[https://www.polygon.com/24162032/evil-does-not-exists-ending-explained-by-director-ryusuke-hamaguchi<br/><div id="readability-page-1" class="page"><div>
+  <p id="u8wN8S">You don’t even have to watch <a href="https://www.polygon.com/reviews/24153139/evil-does-not-exist-review-ryusuke-hamaguchi">Ryûsuke Hamaguchi’s <em>Evil Does Not Exist</em></a> to consider it a conversation-starter: The debate begins with that title, a bold, unlikely statement that may feel at odds with most experiences of the world. Watching the movie complicates that response even further, given some of the choices its characters make, and the harm they bring to others. And then there’s that abrupt, surprising ending, the kind that will leave viewers arguing over what they actually saw on screen almost as much as they’re arguing about what it means. </p>
+<p id="yqpj2e">Hamaguchi is no stranger to elliptical, unpackable, or discussable endings: His Best Picture Oscar nominee <a href="https://www.polygon.com/22947711/drive-my-car-deserves-best-picture-oscar"><em>Drive My Car</em></a> wraps with a long sequence where the audience is just watching the protagonist perform onstage in a multilingual production of Anton Chekhov’s <em>Uncle Vanya</em>, followed by a wordless sequence of another character going about mundane tasks. There’s a great deal of meaning there, but it takes thought, time, and attention to the film’s 179-minute length to access. <em>Evil Does Not Exist</em> is shorter and tighter, but it still <a href="https://slate.com/culture/2024/05/evil-does-not-exist-ryusuke-hamaguchi-movie-drive-my-car.html">centers on a 20-minute scene</a> where residents of a small community politely raise objections about a planned luxury development in the area.</p>
+<p id="vWEAOU">What is Hamaguchi getting at with <em>Evil Does Not Exist</em>? From its title to its mysterious opening tracking shot to that what’s-going-on-here? ending, Polygon had a lot of questions about the movie. Speaking through a translator, we sat down with Hamaguchi to unpack the film.  </p>
+<p id="AXiwvH">[<strong>Ed. note:</strong> End spoilers ahead for <em>Evil Does Not Exist</em>.]</p>
+<h2 id="cqx7yV"><strong>First: on the ending Evil Does Not Exist</strong></h2>
+<div id="HA3KxF"><p><iframe src="https://www.youtube.com/embed/zVY4lWfrbME?rel=0" allowfullscreen="" scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"></iframe></p></div>
+<p id="A6aUWS"><em>Evil Does Not Exist</em> centers on a small rural village, Mizubiki, that’s about to be disrupted by developers building a site for luxury camping, or “glamping.” At a town-hall meeting, the locals object, and their thoughtful, thorough analysis of the project’s flaws impresses the presenters, Takahashi (Ryuji Kosaka) and Mayuzumi (Ayaka Shibutani). But when they share the objections with their boss, they learn he doesn’t actually care about making the project sustainable or even profitable. He just cares about the pandemic-era development grants he’ll earn if he gets the proposal in ahead of a deadline.</p>
+<p id="F3VX5s">Takahashi and Mayuzumi connect with Takumi (Hitoshi Omika), a widower and odd-job man in Mizubiki, who’s raising a young daughter, Hana (Ryo Nishikawa), on his own. Takumi is a quiet man who’s closely connected with nature, and Takahashi envies him and wants to move out to Mizubiki and live in nature himself. But then Hana goes missing, and the town rallies to find her. Takahashi and Takumi are together when they find her lying in a field, where she’s been attacked by a wounded deer. Takumi suddenly turns on Takahashi and brutally strangles him, then grabs Hana’s body and runs. Takahashi gets up and stumbles across the field, then falls again and lies still.</p>
+<p id="foTe67">Is Takahashi dead? Is Hana dead? Hamaguchi says he wants to leave those things up to interpretation, to invite people to discuss the ending and what it means. “In order to be able to make this happen, I think two things are necessary,” he told Polygon. “The first part is to end in this abrupt manner, almost leaving the audience behind. But that in itself, I don’t think is enough to create conversations and create different interpretations. It really relies on what the characters do up until that point.”</p>
+<h2 id="tmC1ES"><strong>Why does Takumi attack Takahashi in Evil Does Not Exist?</strong></h2>
+<p>  <figure>
+  <span>
+    
+    <span data-original="https://cdn.vox-cdn.com/uploads/chorus_asset/file/25458979/MCDEVDO_EC006.jpg">
+      
+        <picture data-cid="site/picture_element-1716404404_2257_27462" data-cdata="{&quot;asset_id&quot;:25458979,&quot;ratio&quot;:&quot;*&quot;}">
+  
+
+
+  <source srcset="https://cdn.vox-cdn.com/thumbor/en_-HWIR6lWcilGGlyrxuV5Mvqs=/0x0:2777x1579/320x0/filters:focal(0x0:2777x1579):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25458979/MCDEVDO_EC006.jpg 320w, https://cdn.vox-cdn.com/thumbor/ylRXLyCq-M-gIwmjiQz9DYsVf-8=/0x0:2777x1579/520x0/filters:focal(0x0:2777x1579):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25458979/MCDEVDO_EC006.jpg 520w, https://cdn.vox-cdn.com/thumbor/TshwBBuw-61QLw655IJThLCluUw=/0x0:2777x1579/720x0/filters:focal(0x0:2777x1579):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25458979/MCDEVDO_EC006.jpg 720w, https://cdn.vox-cdn.com/thumbor/5-4e06MdUH9c2zu3Up3XUWWPdTU=/0x0:2777x1579/920x0/filters:focal(0x0:2777x1579):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25458979/MCDEVDO_EC006.jpg 920w, https://cdn.vox-cdn.com/thumbor/yCJ_XbqU_ugM_ZjCOdojogKUcxQ=/0x0:2777x1579/1120x0/filters:focal(0x0:2777x1579):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25458979/MCDEVDO_EC006.jpg 1120w, https://cdn.vox-cdn.com/thumbor/htfJL_vEYG7FENC3lfwZU6lW3Sg=/0x0:2777x1579/1320x0/filters:focal(0x0:2777x1579):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25458979/MCDEVDO_EC006.jpg 1320w, https://cdn.vox-cdn.com/thumbor/2NUARWxyh_lkdc2PD7iaqPqeFi0=/0x0:2777x1579/1520x0/filters:focal(0x0:2777x1579):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25458979/MCDEVDO_EC006.jpg 1520w, https://cdn.vox-cdn.com/thumbor/sAEhDfoZOIWcUCKEe5SlUzCYI6w=/0x0:2777x1579/1720x0/filters:focal(0x0:2777x1579):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25458979/MCDEVDO_EC006.jpg 1720w, https://cdn.vox-cdn.com/thumbor/_cDs6K1wMvPvAfUSupXVso26Rfg=/0x0:2777x1579/1920x0/filters:focal(0x0:2777x1579):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25458979/MCDEVDO_EC006.jpg 1920w" sizes="90vw" type="image/webp">
+
+
+
+
+</picture>
+
+      
+    </span>
+    
+  </span>
+  
+    <span>
+      
+      
+        <cite>Image: Sideshow and Janus Films</cite>
+      
+    </span>
+  
+</figure>
+
+
+</p>
+<p id="40Y8OT">To some degree, the end of the film is foreshadowed in something Takumi tells his city visitors during the film: Deer aren’t ordinarily dangerous to humans, but a gutshot deer will lash out violently, particularly to protect its young. This is what happened to Hana: In what appears to be either a flashback or Takumi’s quick mental reconstruction when he sees her lying in the field, we see that she encountered a pair of deer, one of which had been shot. She attempted to approach them, and the wounded deer attacked her.</p>
+<p id="7ZTZy0">In the same way, Takumi is symbolically a “gutshot deer.” He’s metaphorically wounded, both by the imminent destruction of his community and the natural world around him by predatory outsiders, and by the hurt done to his daughter, in part because of his own neglect. As we learn early in the movie, Takumi was sometimes a unreliable father: Hana is only out in the woods alone because she’s taken to walking home from school by herself, since he didn’t always remember to pick her up from school. Like the deer, Takumi lashes out irrationally, not at the source of his pain, but at the nearest available target.</p>
+<p id="2n3KyN">“I do think he’s acting out of desperation,” Hamaguchi says. “In that moment, I think he does realize in [seeing Hana’s body] that he’s not able to be the kind of father he maybe wanted to be. And I think there are certain clues within the film where we see that.”</p>
+<p id="SgtsXn">While Takumi’s behavior may seem extreme and difficult to understand, Hamaguchi hopes viewers will go back and watch the movie again, and see how his response fits in with other behavior we’ve seen from him.</p>
+<p id="ezUQB1">“What I hope I’m achieving is that people feel that each character that appears in the film all have their own individual lives,” he says. “The way they act and what we see in the film are just moments that the cameras happened to capture, of life they each live outside of the film. And once people can feel that these characters actually do exist, then when we see them do something that is not quite understandable, the audience can still feel it’s still possible that they <em>could</em> do these things.”</p>
+<p id="mLtjNT">He considers the movie’s ending an invitation to analyze and sit with the story: “When this kind of ending happens, I feel it causes the audience to reflect back on what they experienced before that, to rethink what they just watched, and to reflect upon whether their worldview of what they just saw is in was in fact correct,” he says. “That effect to me is a very interesting way to experience a film, and can result in a lot of interpretations. And so if that’s what it is doing, then I’m very grateful.”</p>
+<h2 id="I08gpN"><strong>Why would Takumi respond to grief by trying to murder a near-stranger?</strong></h2>
+<p>  <figure>
+  <span>
+    
+    <span data-original="https://cdn.vox-cdn.com/uploads/chorus_asset/file/25458980/MCDEVDO_EC005.jpg">
+      
+        <picture data-cid="site/picture_element-1716404404_7999_27463" data-cdata="{&quot;asset_id&quot;:25458980,&quot;ratio&quot;:&quot;*&quot;}">
+  
+
+
+  <source srcset="https://cdn.vox-cdn.com/thumbor/k9AV8FsG0Z9wmqsxuZRXEK3rs_s=/0x0:2775x1577/320x0/filters:focal(0x0:2775x1577):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25458980/MCDEVDO_EC005.jpg 320w, https://cdn.vox-cdn.com/thumbor/jEzH1Qba87DYY702AwYx5SvY7Tg=/0x0:2775x1577/520x0/filters:focal(0x0:2775x1577):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25458980/MCDEVDO_EC005.jpg 520w, https://cdn.vox-cdn.com/thumbor/ftwI9ogBoYNfwLAgmVLZfmrkd4U=/0x0:2775x1577/720x0/filters:focal(0x0:2775x1577):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25458980/MCDEVDO_EC005.jpg 720w, https://cdn.vox-cdn.com/thumbor/CkYW8HTn7cIXP_h6VpVX_UuYHQY=/0x0:2775x1577/920x0/filters:focal(0x0:2775x1577):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25458980/MCDEVDO_EC005.jpg 920w, https://cdn.vox-cdn.com/thumbor/hA-XyhIHePe6DmTLCUaoRkdwAu4=/0x0:2775x1577/1120x0/filters:focal(0x0:2775x1577):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25458980/MCDEVDO_EC005.jpg 1120w, https://cdn.vox-cdn.com/thumbor/a9dSiIQslbJOUYRR5aik-dxkFGE=/0x0:2775x1577/1320x0/filters:focal(0x0:2775x1577):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25458980/MCDEVDO_EC005.jpg 1320w, https://cdn.vox-cdn.com/thumbor/v4SPBeQaOlZJ27_UOj9DKveBokg=/0x0:2775x1577/1520x0/filters:focal(0x0:2775x1577):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25458980/MCDEVDO_EC005.jpg 1520w, https://cdn.vox-cdn.com/thumbor/4dlYPWIEJOO4kzNn7DqASAa21dM=/0x0:2775x1577/1720x0/filters:focal(0x0:2775x1577):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25458980/MCDEVDO_EC005.jpg 1720w, https://cdn.vox-cdn.com/thumbor/sjNgsrw0jI1nE5biqlRpktztmfY=/0x0:2775x1577/1920x0/filters:focal(0x0:2775x1577):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25458980/MCDEVDO_EC005.jpg 1920w" sizes="90vw" type="image/webp">
+
+
+
+
+</picture>
+
+      
+    </span>
+    
+  </span>
+  
+    <span>
+      
+      
+        <cite>Image: Sideshow and Janus Films</cite>
+      
+    </span>
+  
+</figure>
+
+
+</p>
+<p id="SsOU3R">In terms of understanding Takumi’s attack, Hamaguchi suggests looking back at his 2018 movie <a href="https://www.youtube.com/watch?v=5l7uzLZBXLY"><em>Asako I &amp; II</em></a>, about a woman who falls for two physically identical men (played by the same actor) with radically different personas, and has to decide which one to stay with. “In that, a protagonist also makes choices,” Hamaguchi says. “And I think from the perspective of the wider society in which she lives, perhaps the choice she makes can be viewed as a bad choice. But I think from her perspective, it was the only choice she could make.”</p>
+<p id="qk70mP">He says the decision helps Asako see herself more clearly, and learn more about what she values. “It’s my perspective of living and the worldview that I have in some ways,” he says. “I think there are moments in our lives where we suddenly understand something about ourselves through the choices we just made.”</p>
+<p id="fR1JXF">Similarly, Hamaguchi says that when Takumi sees Hana lying in the field, he understands where his own choices have led. “I think in that moment, he realizes through the failures he has had,” he says. “That leads him to try to figure out desperately about what to do. That action might be read as absurd from the surroundings, or from people around him. But I think to me, this choice that he makes is something that for this particular character, could happen.”</p>
+<p id="EjDraW">Put another way: Takumi has been a passive, quiet character throughout the process of the development plan, to the point where Takahashi and Mayuzumi try to hire him as a liaison with the community, a manager for the site who could also quell local tensions. In attacking Takahashi, he’s violently pushing back against the idea that he could be drawn to take their side against his community’s. He’s also defending his territory from outsiders, as a wild animal might. And like a wild animal, he’s acting without thinking about the consequences, or even about whether that action might plausibly achieve his goals. But that’s just one interpretation. </p>
+<h2 id="5w96Wt"><strong>What does the title of Evil Does Not Exist mean?</strong></h2>
+<p>  <figure>
+  <span>
+    
+    <span data-original="https://cdn.vox-cdn.com/uploads/chorus_asset/file/25459054/EvilDoesNotExist_Still6.jpg">
+      
+        <picture data-cid="site/picture_element-1716404404_8122_27464" data-cdata="{&quot;asset_id&quot;:25459054,&quot;ratio&quot;:&quot;*&quot;}">
+  
+
+
+  <source srcset="https://cdn.vox-cdn.com/thumbor/XFZ-JXPC4pK3WJdQW4zRklSIWOY=/0x0:1790x1080/320x0/filters:focal(0x0:1790x1080):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25459054/EvilDoesNotExist_Still6.jpg 320w, https://cdn.vox-cdn.com/thumbor/YpzvkFgIhHX19X0pzxWuKpYLd88=/0x0:1790x1080/520x0/filters:focal(0x0:1790x1080):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25459054/EvilDoesNotExist_Still6.jpg 520w, https://cdn.vox-cdn.com/thumbor/JMEmezOp2bcuUNaAVPXjf3Dfc2c=/0x0:1790x1080/720x0/filters:focal(0x0:1790x1080):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25459054/EvilDoesNotExist_Still6.jpg 720w, https://cdn.vox-cdn.com/thumbor/yxi1Lg0KoUgfalIw83w4DozjnN4=/0x0:1790x1080/920x0/filters:focal(0x0:1790x1080):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25459054/EvilDoesNotExist_Still6.jpg 920w, https://cdn.vox-cdn.com/thumbor/zZES6BvTB0gl4KcKVqk3JmIq4j8=/0x0:1790x1080/1120x0/filters:focal(0x0:1790x1080):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25459054/EvilDoesNotExist_Still6.jpg 1120w, https://cdn.vox-cdn.com/thumbor/aGWRG6Ta2EjKjbqVbQ8mNyu-Cm8=/0x0:1790x1080/1320x0/filters:focal(0x0:1790x1080):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25459054/EvilDoesNotExist_Still6.jpg 1320w, https://cdn.vox-cdn.com/thumbor/OdKUOejmxObTZJk7G_rnqqOW2dw=/0x0:1790x1080/1520x0/filters:focal(0x0:1790x1080):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25459054/EvilDoesNotExist_Still6.jpg 1520w, https://cdn.vox-cdn.com/thumbor/tvPmweSHx1Gg7q46Uz_y8ZH34pg=/0x0:1790x1080/1720x0/filters:focal(0x0:1790x1080):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25459054/EvilDoesNotExist_Still6.jpg 1720w, https://cdn.vox-cdn.com/thumbor/wx5E91DVtoZQw62FUv9DzMiux3M=/0x0:1790x1080/1920x0/filters:focal(0x0:1790x1080):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25459054/EvilDoesNotExist_Still6.jpg 1920w" sizes="90vw" type="image/webp">
+
+
+
+
+</picture>
+
+      
+    </span>
+    
+  </span>
+  
+    <span>
+      
+      
+        <cite>Image: Sideshow and Janus Films</cite>
+      
+    </span>
+  
+</figure>
+
+
+</p>
+<p id="A0s1x9"><em>Evil Does Not Exist </em>was <a href="https://www.worldofreel.com/blog/2023/8/1/02j6ly234psb45yl5pyexs8ee9724d">originally planned</a> as a wordless 30-minute short film, a visual accompaniment for new music by Eiko Ishibashi, who also composed the score for <em>Drive My Car</em>. But Hamaguchi says her music and his location scouting inspired the story of the film — and the title came before that story was locked down. </p>
+<p id="EuV0hC">“Before writing the script, when I was thinking about what I could shoot, I went out to where Eiko Ishibashi makes her music,” he says. “She makes her music amongst this very rich natural landscape. It was winter when I was there, and when I looked out into the winter landscape, these words popped up. I thought, <em>OK, it’s very cold right now. Standing here, I feel like I’m going to freeze to death. And yet it’s not that I feel any evil intentions here.</em>”</p>
+<p id="fox68M">Hamaguchi says part of that insight<em> </em>came from living in an urban environment, where it’s rare to be far away from other people. The isolated community in <em>Evil Does Not Exist</em> lives far away from that kind of constant engagement, and the people in that community are often alone in nature — which can be a dangerous environment, but not a purposefully or consciously inimical one. As the film’s story developed, Hamaguchi added characters that do live in urban environments, and do act in deliberately harmful ways, but he kept the title throughout. “Looking back at the film that we had made,” he says, “it made me think that watching this particular film against this title is probably an interesting experience together.”</p>
+<p id="DMWlpX">But doesn’t the developer bringing chaos to a community for profit act in an evil way? “I think it’s actually a very difficult question to answer properly,” Hamaguchi says. “Say for now, we say that there is no evil in nature. Then the question becomes, <em>Is human society not natural? </em>I think we can say humans are a part of nature. But I think what’s also true about humans is that there might be more choices available.</p>
+<p id="ysEjkc">“We can reflect back on our choices and say, <em>I should have chosen this way</em> or <em>I should have chosen this or that</em>, and sometimes make these decisions of whether those are good or bad choices. As human beings, when we’re living our lives, sometimes we think something is bad, or something was a bad choice. But when you interpret this as desire, I think you can also see that was part of nature as well. This is just how I honestly feel at the current moment.”</p>
+<h2 id="eSNqbN"><strong>Why Evil Does Not Exist opens on a four-minute tracking shot of a camera looking up at trees</strong></h2>
+<p>  <figure>
+  <span>
+    
+    <span data-original="https://cdn.vox-cdn.com/uploads/chorus_asset/file/25458982/MCDEVDO_EC003.jpg">
+      
+        <picture data-cid="site/picture_element-1716404404_8519_27465" data-cdata="{&quot;asset_id&quot;:25458982,&quot;ratio&quot;:&quot;*&quot;}">
+  
+
+
+  <source srcset="https://cdn.vox-cdn.com/thumbor/f0zLNTJ_W_cg2SJ8-xP7OokGdnw=/0x0:2776x1583/320x0/filters:focal(0x0:2776x1583):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25458982/MCDEVDO_EC003.jpg 320w, https://cdn.vox-cdn.com/thumbor/8zFmK9_zzgmnoE6oAABh-B2W3s8=/0x0:2776x1583/520x0/filters:focal(0x0:2776x1583):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25458982/MCDEVDO_EC003.jpg 520w, https://cdn.vox-cdn.com/thumbor/KiX2V3J9QLon42aNBhA7HCXV0wo=/0x0:2776x1583/720x0/filters:focal(0x0:2776x1583):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25458982/MCDEVDO_EC003.jpg 720w, https://cdn.vox-cdn.com/thumbor/idsYsHqWqYJCPXG1FYZ-naNqkXs=/0x0:2776x1583/920x0/filters:focal(0x0:2776x1583):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25458982/MCDEVDO_EC003.jpg 920w, https://cdn.vox-cdn.com/thumbor/8D_wCNfY7QZIiGhxFB-gwpOZl4U=/0x0:2776x1583/1120x0/filters:focal(0x0:2776x1583):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25458982/MCDEVDO_EC003.jpg 1120w, https://cdn.vox-cdn.com/thumbor/qDF_iNi08-V8Te_uZSj_qWw6a7w=/0x0:2776x1583/1320x0/filters:focal(0x0:2776x1583):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25458982/MCDEVDO_EC003.jpg 1320w, https://cdn.vox-cdn.com/thumbor/EIPuBsimVklM5XKcs-0FJ2m-tds=/0x0:2776x1583/1520x0/filters:focal(0x0:2776x1583):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25458982/MCDEVDO_EC003.jpg 1520w, https://cdn.vox-cdn.com/thumbor/sUCqAQq0AkkMvg6puzI04mg6o3Y=/0x0:2776x1583/1720x0/filters:focal(0x0:2776x1583):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25458982/MCDEVDO_EC003.jpg 1720w, https://cdn.vox-cdn.com/thumbor/G7_boZ3dEAZrPTqBrs39RhLDVT4=/0x0:2776x1583/1920x0/filters:focal(0x0:2776x1583):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/25458982/MCDEVDO_EC003.jpg 1920w" sizes="90vw" type="image/webp">
+
+
+
+
+</picture>
+
+      
+    </span>
+    
+  </span>
+  
+    <span>
+      
+      
+        <cite>Image: Sideshow and Janus Films</cite>
+      
+    </span>
+  
+</figure>
+
+
+</p>
+<p id="SdzUiF">While the opening of <em>Evil Does Not Exist </em>doesn’t seem like it’d offer much inside on the ending, it actually ties directly into Hamaguchi’s point about perspective, understanding, and the natural world. </p>
+<p id="MLjdMN">“That particular perspective that we see at the beginning is a perspective that only a camera can manage to capture,” he says. “Because as human beings, even if you look up and keep looking, it’s not possible to have your point of axis not moving, the way it does within that tracking shot. To be seeing that, with [the camera moving at] a very steady speed […] this vision is not necessarily a vision humans can have. </p>
+<p id="kswtsG">“And I think through watching through this perspective, this vision for four minutes, my hope was that the people who are looking can acquire a slightly different way of perceiving, or a different way of thinking. Perhaps it’s closer to how a machine sees, or perhaps how nature sees. This is something that I wouldn’t know. But I think the fact that we, the audience, can acquire a different way of looking, perhaps, can lead the audience into understanding the rest of the film in a deeper level. And that’s why I wanted to start the film in that way.”</p>
+<p id="QVKPWU"><small><em>Evil Does Not Exist</em></small><small> is in theaters now.</small></p>
+  
+</div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Rise of the Ronin Is Getting New Features And Missions This Week]]></title>
+            <link>https://insider-gaming.com/rise-of-the-ronin-is-getting-new-features-and-missions-this-week/</link>
+            <guid>https://www.resetera.com/threads/rise-of-the-ronin-is-getting-new-features-and-missions-this-week.878694/</guid>
+            <content:encoded><![CDATA[https://insider-gaming.com/rise-of-the-ronin-is-getting-new-features-and-missions-this-week/<br/><div id="readability-page-1" class="page"><div>
+																										
+<p>Two months after its launch, Rise of the Ronin is set to get new features and missions from developer Team Ninja. The news was announced via a <a href="https://blog.playstation.com/2024/05/22/team-ninja-how-ninja-gaiden-and-nioh-connect-to-rise-of-the-ronin/" target="_blank" rel="noreferrer noopener">post on the PlayStation Blog</a>.</p>
+
+
+
+<p>In his post on the blog, Team Ninja game producer and director&nbsp;Fumihiko Yasuda said that studio is adding new content to the game this week. This new content includes new Ally Missions, level sync, and more.</p>
+
+
+
+<p>You can check out the full list of upcoming content below. &nbsp;</p>
+
+
+
+<h2 id="h-new-and-expanded-content">New and expanded content</h2>
+
+
+
+<ul>
+<li>5 new Ally Missions added.</li>
+
+
+
+<li>When replaying a world in Midnight, you can choose to have Public Order deteriorate again.</li>
+
+
+
+<li>Level sync selection feature added to missions from Testament of the Soul.</li>
+
+
+
+<li>Two new Set Bonuses added to Midnight difficulty.</li>
+
+
+
+<li>Addition of dojo training partners.</li>
+
+
+
+<li>Add Martial Skill type bonus and raise limit of target score.</li>
+</ul>
+
+
+
+<h2>Gameplay Improvements</h2>
+
+
+
+<ul>
+<li>When equipped with the same weapon type on weapons 1 and 2, the number of styles can be expanded to a maximum of 6.</li>
+
+
+
+<li>Changed the specifications so that special equipment will be given even if the player does not confess.</li>
+
+
+
+<li>Changed the specifications so that greetings with characters after a breakup will return to normal over time.</li>
+
+
+
+<li>Adjusted to make it easier for asynchronous characters to be selected.</li>
+</ul>
+
+
+
+<p>Rise of the Ronin is available now, exclusively on PlayStation 5.</p>
+
+
+
+<hr>
+
+
+
+<p>What do you think of the new features and missions for Rise of the Ronin? For more Insider Gaming, read about the latest claims on&nbsp;<a href="https://insider-gaming.com/new-claims-on-what-xbox-on-every-screen-means/" target="_blank" rel="noreferrer noopener">what an “Xbox on every screen” means for Microsoft</a>, and don’t forget to&nbsp;<a href="https://insider-gaming.com/visit/newsletter/">subscribe to the Insider Gaming Newsletter</a>.</p>
+
+									</div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[First Blurry Black Ops 6 Key Art Leaks Online]]></title>
+            <link>https://insider-gaming.com/black-ops-6-key-art-leak/</link>
+            <guid>https://www.resetera.com/threads/first-blurry-black-ops-6-key-art-leaks-online.878691/</guid>
+            <content:encoded><![CDATA[https://insider-gaming.com/black-ops-6-key-art-leak/<br/><div id="readability-page-1" class="page"><div>
+																										
+<p>As a part of the Call of Duty leaking cycle, the first key art image of Black Ops 6 has leaked online… But of course, it’s blurry.</p>
+
+
+
+<p>The image comes courtesy of <a href="https://x.com/billbil_kun" target="_blank" rel="noreferrer noopener">Billbil-kun</a>, with an unwatermarked version soon coming after from <a href="https://x.com/TheFrenchHench/status/1793346168153346489" target="_blank" rel="noreferrer noopener">TheFrenchHench</a>. You can see the image below:</p>
+
+
+
+<figure></figure>
+
+
+
+<p>Both users obtain the majority of their information via data mining, which suggests that images of the game have been uploaded, ready for its impending announcement. Earlier today, the first <a href="https://insider-gaming.com/black-ops-6-first-teaser-arrived/" target="_blank" rel="noreferrer noopener">Black Ops 6 teasers were revealed</a> officially online. </p>
+
+
+
+<p>It’s understood that this year’s Call of Duty title, <a href="https://insider-gaming.com/call-of-duty-black-ops-6-to-release-october-25/" target="_blank" rel="noreferrer noopener">Black Ops 6, will launch in late October</a> (presumably October 25). </p>
+
+
+
+<p>The game will have an in-depth deepdive following the Xbox Games Showcase on June 9, where more details on the game will be revealed.</p>
+
+
+
+<p>Are you looking forward to Black Ops 6? Let us know in the comments below!</p>
+
+
+
+<hr>
+
+
+
+<p>For more Insider Gaming, read about the latest claims on&nbsp;<a href="https://insider-gaming.com/new-claims-on-what-xbox-on-every-screen-means/" target="_blank" rel="noreferrer noopener">what an “Xbox on every screen” means for Microsoft</a>, and don’t forget to&nbsp;<a href="https://insider-gaming.com/visit/newsletter/">subscribe to the Insider Gaming Newsletter</a>.</p>
+
+
+
+
+
+
+
+
+
+									</div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[The Best Pocket-Sized Board Games (2024)]]></title>
+            <link>https://www.ign.com/articles/best-pocket-sized-board-games</link>
+            <guid>https://www.resetera.com/threads/the-best-pocket-sized-board-games-2024.878688/</guid>
+            <content:encoded><![CDATA[https://www.ign.com/articles/best-pocket-sized-board-games<br/><div id="readability-page-1" class="page"><section><p>The great appeal of pocket-sized board games is the ability to take them anywhere. A <a href="https://www.ign.com/articles/best-family-board-games">family</a> get-together, office lunch room, or group camping trip–just toss a game in your pocket or bag and everyone is sure to be entertained. The portability of these smaller games allows you to carry them around just in case the opportunity for play arises.</p><p>One of the really wonderful things about this hobby is the sheer variety of styles on offer. This quality extends to these tiny boxes. This list is comprised of 10 titles that offer a wide range of mechanisms and playstyles, all while containing those experiences into a modest package. Some may require cargo pants, but all of these offerings are modest in profile and easy to transport.</p><p><strong>TL;DR: The Best Pocket-Sized Board Games</strong></p><ul data-cy="list"><li><a href="https://zdcs.link/GdD0K" target="_blank">Art Robbery</a></li><li><a href="https://zdcs.link/Od4q7" target="_blank">Trio</a></li><li><a href="https://zdcs.link/bP7Nx" target="_blank">Love Letter</a></li><li><a href="https://zdcs.link/le8Lx" target="_blank">Radlands</a></li><li><a href="https://zdcs.link/3djY3" target="_blank">Friday</a></li><li><a href="https://zdcs.link/mLP8y" target="_blank">For Sale</a></li><li><a href="https://zdcs.link/G15q8" target="_blank">That’s Not a Hat</a></li><li><a href="https://zdcs.link/GdDqq" target="_blank">Regicide</a></li><li><a href="https://zdcs.link/2jYP1" target="_blank">The Mind</a></li><li><a href="https://zdcs.link/2e3gD" target="_blank">Werewords</a></li></ul><h2>Art Robbery</h2><div id="200973"><p><h3>Art Robbery Card Game</h3></p></div><p>This stylish wonder arrives courtesy of prolific designer Reiner Knizia. The pitch is enticing: in the aftermath of an art heist, players bicker and fight over splitting the loot. This conflict is resolved through card play. You alternate taking turns by playing a single card, with these cards mapping to loot tokens in the center of the table. By playing a card you snatch the corresponding token and place it in front of you. The twist is that you can steal a token from another player instead of taking it from the middle. The second twist is that some of the lower scoring tokens offer alibis. At the end of the game, the player with the fewest amount of alibis is eliminated from play, regardless of their final score. The result is an entertaining back and forth where you gank loot from others yet must balance high scoring options with those that offer protection.</p><h2>Trio</h2><div id="200974"><p><h3>Trio</h3></p></div><p>Everyone is familiar with the <a href="https://www.ign.com/articles/best-classic-board-games">classic board games</a> Go Fish and Memory. Trio splices the two, asking players to flip over three cards of the same number. These cards are facedown on the table, but some are also spread among the hands of the players. When flipping a card from a player’s hand, however, you can only ask them to reveal their highest or lowest card. The goal is to claim three of these trios or just the set of sevens. It’s a simple thing, but it’s one that elicits little moments of drama where a player has flipped two of the same number and is trying to remember where the third card is. It features hand management and surprisingly clever play. </p><h2>Love Letter</h2><div id="198214"><p><h3>Love Letter</h3></p></div><p>When Love Letter hit the market in 2012 it created quite the stir. This little 16-card game has players holding and playing only a single card on their turn. It’s maddeningly simple, but it works, capturing a degree of bluffing and risk management. Love Letter is fun and flexible, but it’s particularly noteworthy as it kicked off the microgame movement that spawned dozens and dozens of offspring. Most of those titles have long since faded, while Love Letter remains a clever and engaging experience. There are now a bevy of different versions of this game, including a <a href="https://www.ign.com/articles/best-star-wars-board-games">Star Wars</a>, <a href="https://zdcs.link/Jdnqm" target="_blank">Batman</a>, and wedding-themed set. They all play similarly, so you can’t go wrong whichever you choose.</p><h2>Radlands</h2><div id="155159"><p><h3>Radlands</h3></p></div><p>Radlands is one of the best head-to-head card games in recent years. Each player draws from a shared deck of mutants, raiders, and weirdos, playing these fighters down into one of three lanes on their side of the table. Each lane corresponds to a base that must be protected. The goal is to vanquish your opponent’s defenders and destroy their bases. The magic is in the multi-use aspect of each card. Beyond using them for the characters depicted, they can also be discarded for a card-specific resource. Performing well requires strong tactical intuition and judicious play you'd use in all the <a href="https://www.ign.com/articles/the-best-strategy-board-games">best strategy board games</a>. All of the interlocking abilities and effects collide to produce a swift-playing and tense battler.   </p><h2>Friday</h2><div id="200975"><p><h3>Friday: A Solo Adventure</h3></p></div><p>This small box is unique in that it’s for <a href="https://www.ign.com/articles/best-solo-board-games">solo board game</a> play only. This card game is based on the story of Robinson Crusoe. You take on the role of his companion Friday, attempting to help Robinson survive and prepare him for the impending pirate attack. This is a <a href="https://www.ign.com/articles/best-deck-building-board-games">deckbuilding game</a> where you add cards to your deck during play. Each turn you confront a jungle hazard and then play fight cards from your hand in order to overcome the challenge. If you do, the hazard is then added to your deck and may be used in a later fight. You must pick your battles wisely, as you can’t win them all and must be careful in how you shape your deck for the big finale. This is a difficult game that offers a tremendous amount of play and strategic depth. </p><h2>For Sale</h2><div id="165423"><p><h3>For Sale</h3></p></div><p>For Sale crams the buying and selling of real estate into a brief yet satisfying 30 minutes. In the first phase of the game, players bid on a set of buildings by using a limited pool of personal currency. You must bid higher than all previous bids on each of your turns, or bow out of the round and claim the lowest value property available. Determining how long to hang in the auction depends on the value of the property on offer, as well as how stubborn your opponents are. The second portion of the game reverses the process with money cards worth various amounts flipped faceup in the middle of the table. Players secretly select a property they’ve purchased from their hand in an attempt to secure these monetary bids. You all reveal simultaneously and the money is split. It’s an exceedingly easy game to learn, but it’s one full of subtle play that relies on intuition. It’s paramount to squeeze every ounce of value out of your resources, and the player who manages their assets most judiciously will secure victory.  </p><h2>That’s Not a Hat</h2><div id="197491"><p><h3>That's Not a Hat</h3></p></div><p>This is the type of game that is both maddening and hilarious. Each player is dealt a card that sits out in front of them faceup. Cards depict simple objects with black and white line art. These are common things such as a basketball, lava lamp, or a hat. Once play begins, players take turns flipping their card facedown and passing it to an adjacent player. Soon, all cards are hidden and players are trying to track which is which. When you pass a card to a neighbor, you claim what the object is. The receiver of the card may challenge your claim, creating a confrontation of memory. It’s simple but sparks moments of laughter as it’s surprisingly easy to lose track of what card sits in front of you. Eventually someone messes up and the game begins again. This is a wonderful design that consistently delivers joy. </p><h2>Regicide</h2><div id="200976"><p><h3>Regicide: A Challenging Cooperative Card Game</h3></p></div><p>Regicide is a fully <a href="https://www.ign.com/articles/best-cooperative-board-games">cooperative board game</a> where players work together to overthrow the royal line and claim victory. Each of the 12 enemies must be dealt with one at a time. These bosses map to the face cards in a standard set of playing cards. They are shuffled together and one is revealed. Players then take turns placing a single card on the table to attack the enemy and deal damage. The value on the played card is the strength of the attack with the suit triggering a special power. There’s a fairly thoughtful decision point here in weighing the needed attack versus the desired effect that would most help the other players. It’s a fairly intuitive card game where hand management and timing is everything. The strongest trait is that it’s full of tension as the group is constantly on the brink of defeat. Often, it will appear hopeless until another player tosses out the exact card the group needs, allowing everyone to refill their hands and persist. Regicide is an intriguing experience with a distinct feel. It’s a wonderful little pocket game. </p><h2>The Mind</h2><div id="157808"><p><h3>The Mind</h3></p></div><p>The Mind is a special game. Players are dealt a hand from a deck of cards numbered 1 to 100, with a portion of the cards left out and unknown. Play then flows in real-time. The player with the lowest card in hand must play it on the table. Then the next lowest card must be played atop the previous, and so on. The enormous twist is that players cannot communicate. You can’t talk or nod or gesture. You can just look into each other’s eyes and try to divine the proper time to play your card. It sounds ridiculous, but I assure you, there is a game here. It’s about pausing and feeling out the situation, eventually playing the proper card when it feels like enough time has passed. If approached with the right attitude it can brush up against a metaphysical element, achieving a playstate with similar vibes to a Ouija board. This may not have universal appeal, but it’s a game that presents a singular vision that is capable of achieving transcendent entertainment. </p><h2>Werewords</h2><div id="200977"><p><h3>Werewords: The Hidden Identity Word Game</h3></p></div><p>This small box is basically the classic 20 Questions with the inclusion of a traitor. One player receives a word they must get the group to guess, and everyone else is allowed to only throw out “yes or no” questions. At least one person in the group is a werewolf trying to trip up the villagers. They know the word before play begins and can attempt to mislead or stall the group. If everyone fails to figure out the correct word, however, they get to vote as a group to hang a player they suspect to be the werewolf. If they select the villain, the villagers win regardless of failing to land on the proper word. This strongly mimics the structure of social deduction games such as <a href="https://zdcs.link/weAZR" target="_blank">One Night Ultimate Werewolf</a> and <a href="https://zdcs.link/Od41j" target="_blank">The Resistance: Avalon</a>, but it allows for a more simple and streamlined process with a broadly enjoyable classic game at its core. It’s frankly surprising how effective this concoction is, but it manages to offer inspired play with all kinds of players and tastes. This is one of the most reliably fun pocket-sized games ever designed. </p></section></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Helldivers 2: How to kill a Bile Titan]]></title>
+            <link>https://www.destructoid.com/helldivers-2-how-to-kill-a-bile-titan/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=helldivers-2-how-to-kill-a-bile-titan</link>
+            <guid>https://www.resetera.com/threads/helldivers-2-how-to-kill-a-bile-titan.878682/</guid>
+            <content:encoded><![CDATA[https://www.destructoid.com/helldivers-2-how-to-kill-a-bile-titan/?utm_source=rss&utm_medium=rss&utm_campaign=helldivers-2-how-to-kill-a-bile-titan<br/><div id="readability-page-1" class="page"><div>
+<p data-characters="245" data-injectable="true" data-video="true">The Bile Titan is akin to the general of the Terminid army in <em>Helldivers 2</em>. It’s a massive beast, towering over everything on four tall legs. There are multiple ways to kill the Bile Titan in <em>Helldivers 2</em>, one of which is quick. Sometimes.</p> <p data-characters="293" data-current-count="293" data-injectable="false"><strong>The best way to kill a Bile Titan in <em>Helldivers 2</em> is by turning it to mulch with a powerful Secondary Weapon or Stratagem</strong>. Weapons like the EAT-17 and Quasar Cannon do a ton of damage to the hulking monstrosity, especially if you aim at its head — the Bile Titan’s primary weak point. </p> <h2 id="h-how-to-kill-a-bile-titan-in-helldivers-2" data-injectable="false">How to kill a Bile Titan in <em>Helldivers 2</em></h2> <p data-characters="338" data-current-count="631" data-injectable="true">It’s up for debate how much damage a Bile Titan must take before toppling over like a stack of lawn chairs. A couple of shots to the face with an EAT can do it, but the bug may need more before you can convince it to give up the ghost. No, you can’t fire away with the Railgun until its head explodes — not anymore, that is.</p>
+ <p data-characters="447" data-current-count="447" data-injectable="true">As far as Stratagems go, the Bile Titan isn’t a fan of the Eagle 500kg Bomb or the Orbital Railgun. The latter is a better idea if you want to go for the kill shot, but keep in mind that the Titan may shrug off the first slug. Yes, it’s a bit inconsistent. My favorite methods are the 500kg Bomb and the Orbital Laser. Keep in mind that the bomb beacon must be dropped in the Bile Titan’s path. You can be smart about it, though.</p>
+ <figure data-current-count="300" data-injectable="false"><figcaption>Screenshot by Destructoid</figcaption></figure> <p data-characters="62" data-current-count="362" data-injectable="false">The best method to kill a Bile Titan with an Eagle 500kg Bomb:</p> <ul data-found-items="3" data-current-count="482" data-injectable="true"> <li>Get the Bile Titan’s attention by shooting it or entering its view</li> <li>Allow the Titan to get close and prepare a bile spew</li> <li>As it begins the above, drop the beacon under the Titan and run</li> </ul>
+ <h3 id="h-helldivers-2-bile-titan-weak-points" data-injectable="false"><em>Helldivers 2</em>: Bile Titan weak points</h3> <p data-characters="259" data-current-count="259" data-injectable="false">The Bile Titan is a Heavy enemy and, <a href="https://www.destructoid.com/helldivers-2-how-to-kill-a-charger/" target="_blank" rel="noreferrer noopener">like the Charger</a>, is coated in heavy carapace that acts as armor save for a couple of squishy spots. For the Titan, the soft, green belly is a smart target for you and your team to take advantage of, and here’s why. </p> <p data-characters="297" data-current-count="556" data-injectable="true"><strong>The Bile Titan has two attacks based on distance</strong>. When close, the Bile Titan will stomp on you with its massive legs. If you’re out of reach, it spews a jet stream of green bile that can kill you in seconds. That’s why you’ll want to target its belly to stop it from firing acid.</p>
+ <p data-characters="158" data-current-count="158" data-injectable="false"><strong>Use medium and heavy weapons to inflict damage to its abdomen</strong>. After a while, you can destroy its belly and the Bile Titan will lose its ability to spew acid.</p> <figure data-current-count="458" data-injectable="true"><figcaption>Screenshot by Destructoid</figcaption></figure>
+ <h3 id="h-best-weapons-to-use-on-the-bile-titan-in-helldivers-2" data-injectable="false">Best weapons to use on the Bile Titan in <em>Helldivers 2</em></h3> <p data-characters="60" data-current-count="60" data-injectable="false">Consider using these Support Weapons to kill the Bile Titan:</p> <ul data-found-items="5" data-current-count="260" data-injectable="false"> <li>EAT-17</li> <li>Quasar Cannon</li> <li>Recoilless Rifle</li> <li>Autocannon</li> <li>Spear</li> </ul> <p data-characters="168" data-current-count="428" data-injectable="true">Against the Titan’s armor, the EAT-17 Expendable Anti-Tank works well. Try it as well as the Quasar Cannon, as they dish out the most damage quickly and reliably.</p>
+ <p data-characters="300" data-current-count="300" data-injectable="false"><strong>The sleeper hit from this list may be the Arc Thrower</strong>. It penetrates armor and can be fired from a considerable distance. The only drawback is that it can result in friendly-fire killings or prioritize smaller fries beneath it. You’d only want to use this weapon if the Bile Titan is by itself.</p> <p data-characters="11" data-current-count="311" data-injectable="false"><strong>Do <em>not </em>use:</strong></p> <ul data-found-items="3" data-current-count="431" data-injectable="true"> <li>Flamethrower</li> <li>Incendiary Grenade</li> <li>Stun Grenade</li> </ul>
+ <figure data-current-count="300" data-injectable="false"><figcaption>Screenshot by Destructoid</figcaption></figure> <h3 id="h-best-stratagems-to-use-on-the-bile-titan-in-helldivers-2" data-injectable="false">Best Stratagems to use on the Bile Titan in <em>Helldivers 2</em></h3> <p data-characters="51" data-current-count="351" data-injectable="false">The best Stratagems for killing the Bile Titan are:</p> <ul data-found-items="7" data-current-count="631" data-injectable="true"> <li>Eagle 500kg Bomb</li> <li>Orbital Laser</li> <li>Orbital Railcannon Strike</li> <li>Orbital 380MM HE Barrage</li> <li>Rocket Sentry</li> <li>Autocannon Sentry</li> <li>Patriot Exosuit</li> </ul>
+ <p data-characters="141" data-current-count="141" data-injectable="false">Other Stratagems that aren’t listed here have reportedly worked for other players, but the ones here have been more consistent overall.</p> <p data-characters="204" data-current-count="345" data-injectable="false"><strong>You can also take down a Bile Titan using a sentry and some good planning</strong>. A Rocket or Autocannon sentry both do work against the beast, but you’ll need to drop them well outside of its acid range. </p> <p data-characters="283" data-current-count="628" data-injectable="true">The Exosuit mech is equipped with a heavy machine gun and rocket launcher. <strong>Three to four blasts with its rockets can take down a Bile Titan with ease</strong>. If you’re ever in a pinch and need some fast clearing, this glass cannon can be just what you need to turn the tide in battle.</p>
+ <h2 id="h-can-you-kill-a-bile-titan-with-a-hellpod" data-injectable="false">Can you kill a Bile Titan with a Hellpod?</h2> <p data-characters="320" data-current-count="320" data-injectable="false">Sadly, killing a Bile Titan with a Hellpod doesn’t seem like a good idea unless it has already taken significant damage or has exposed flesh. Body shots don’t seem to faze it, meaning your only shot to take it down during a drop is by clipping it in the head. It’s a lot to ask from a human cannonball.</p> <figure data-current-count="620" data-injectable="true"><figcaption>Screenshot by Destructoid</figcaption></figure>
+ <p data-characters="123" data-current-count="123" data-injectable="false">What else works against the Bile Titan? Well, for one lucky Helldiver, <a href="https://www.destructoid.com/lucky-helldivers-2-player-kills-a-bile-titan-with-ragdoll-physics/" target="_blank" rel="noreferrer noopener">a Charger is a potent projectile</a> when used properly.</p>
+
+<hr>
+<p><i data-stringify-type="italic"> Destructoid is supported by our audience. When you purchase through links on our site, we may earn a small affiliate commission.&nbsp;</i><i data-stringify-type="italic"><a href="https://destructoid.com/affiliate-policy" target="_blank" rel="noopener noreferrer" data-stringify-link="https://destructoid.com/affiliate-policy" data-sk="tooltip_parent">Learn more</a></i> </p>
+</div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Divinity: Original Sin The Board Game Expansions Showcase]]></title>
             <link>https://techraptor.net/tabletop/features/divinity-original-sin-board-game-expansions-showcase</link>
@@ -224,7 +598,7 @@
     
     <span data-original="https://cdn.vox-cdn.com/uploads/chorus_asset/file/25460030/Hellblade_2_bardarvik_puzzle_2.jpg">
       
-        <picture data-cid="site/picture_element-1716401697_9041_20036" data-cdata="{&quot;asset_id&quot;:25460030,&quot;ratio&quot;:&quot;*&quot;}">
+        <picture data-cid="site/picture_element-1716405300_5551_41681" data-cdata="{&quot;asset_id&quot;:25460030,&quot;ratio&quot;:&quot;*&quot;}">
   
 
 
@@ -257,7 +631,7 @@
     
     <span data-original="https://cdn.vox-cdn.com/uploads/chorus_asset/file/25460031/Hellblade_2_bardarvik_puzzle_3.jpg">
       
-        <picture data-cid="site/picture_element-1716401697_1065_20037" data-cdata="{&quot;asset_id&quot;:25460031,&quot;ratio&quot;:&quot;*&quot;}">
+        <picture data-cid="site/picture_element-1716405300_2154_41682" data-cdata="{&quot;asset_id&quot;:25460031,&quot;ratio&quot;:&quot;*&quot;}">
   
 
 
@@ -289,7 +663,7 @@
     
     <span data-original="https://cdn.vox-cdn.com/uploads/chorus_asset/file/25460033/Hellblade_2_bardarvik_puzzle_4.jpg">
       
-        <picture data-cid="site/picture_element-1716401697_2696_20038" data-cdata="{&quot;asset_id&quot;:25460033,&quot;ratio&quot;:&quot;*&quot;}">
+        <picture data-cid="site/picture_element-1716405300_6683_41683" data-cdata="{&quot;asset_id&quot;:25460033,&quot;ratio&quot;:&quot;*&quot;}">
   
 
 
@@ -322,7 +696,7 @@
     
     <span data-original="https://cdn.vox-cdn.com/uploads/chorus_asset/file/25460034/Hellblade_2_bardarvik_puzzle_5.jpg">
       
-        <picture data-cid="site/picture_element-1716401697_3901_20039" data-cdata="{&quot;asset_id&quot;:25460034,&quot;ratio&quot;:&quot;*&quot;}">
+        <picture data-cid="site/picture_element-1716405300_3612_41684" data-cdata="{&quot;asset_id&quot;:25460034,&quot;ratio&quot;:&quot;*&quot;}">
   
 
 
@@ -354,7 +728,7 @@
     
     <span data-original="https://cdn.vox-cdn.com/uploads/chorus_asset/file/25460035/Hellblade_2_bardarvik_puzzle_6.jpg">
       
-        <picture data-cid="site/picture_element-1716401697_8141_20040" data-cdata="{&quot;asset_id&quot;:25460035,&quot;ratio&quot;:&quot;*&quot;}">
+        <picture data-cid="site/picture_element-1716405300_8598_41685" data-cdata="{&quot;asset_id&quot;:25460035,&quot;ratio&quot;:&quot;*&quot;}">
   
 
 
@@ -386,7 +760,7 @@
     
     <span data-original="https://cdn.vox-cdn.com/uploads/chorus_asset/file/25460037/Hellblade_2_bardarvik_puzzle_7.jpg">
       
-        <picture data-cid="site/picture_element-1716401697_9485_20041" data-cdata="{&quot;asset_id&quot;:25460037,&quot;ratio&quot;:&quot;*&quot;}">
+        <picture data-cid="site/picture_element-1716405300_9654_41686" data-cdata="{&quot;asset_id&quot;:25460037,&quot;ratio&quot;:&quot;*&quot;}">
   
 
 
@@ -419,7 +793,7 @@
     
     <span data-original="https://cdn.vox-cdn.com/uploads/chorus_asset/file/25460038/Hellblade_2_bardarvik_puzzle_8.jpg">
       
-        <picture data-cid="site/picture_element-1716401697_9950_20042" data-cdata="{&quot;asset_id&quot;:25460038,&quot;ratio&quot;:&quot;*&quot;}">
+        <picture data-cid="site/picture_element-1716405300_7781_41687" data-cdata="{&quot;asset_id&quot;:25460038,&quot;ratio&quot;:&quot;*&quot;}">
   
 
 
@@ -451,7 +825,7 @@
     
     <span data-original="https://cdn.vox-cdn.com/uploads/chorus_asset/file/25460041/Hellblade_2_bardarvik_puzzle_9.jpg">
       
-        <picture data-cid="site/picture_element-1716401697_5724_20043" data-cdata="{&quot;asset_id&quot;:25460041,&quot;ratio&quot;:&quot;*&quot;}">
+        <picture data-cid="site/picture_element-1716405300_6212_41688" data-cdata="{&quot;asset_id&quot;:25460041,&quot;ratio&quot;:&quot;*&quot;}">
   
 
 
@@ -485,7 +859,7 @@
     
     <span data-original="https://cdn.vox-cdn.com/uploads/chorus_asset/file/25460049/Hellblade_2_bardarvik_shipwreck_puzzle_1.jpg">
       
-        <picture data-cid="site/picture_element-1716401697_2543_20044" data-cdata="{&quot;asset_id&quot;:25460049,&quot;ratio&quot;:&quot;*&quot;}">
+        <picture data-cid="site/picture_element-1716405300_2439_41689" data-cdata="{&quot;asset_id&quot;:25460049,&quot;ratio&quot;:&quot;*&quot;}">
   
 
 
@@ -517,7 +891,7 @@
     
     <span data-original="https://cdn.vox-cdn.com/uploads/chorus_asset/file/25460050/Hellblade_2_bardarvik_shipwreck_puzzle_2.jpg">
       
-        <picture data-cid="site/picture_element-1716401697_2680_20045" data-cdata="{&quot;asset_id&quot;:25460050,&quot;ratio&quot;:&quot;*&quot;}">
+        <picture data-cid="site/picture_element-1716405300_8010_41690" data-cdata="{&quot;asset_id&quot;:25460050,&quot;ratio&quot;:&quot;*&quot;}">
   
 
 
@@ -550,7 +924,7 @@
     
     <span data-original="https://cdn.vox-cdn.com/uploads/chorus_asset/file/25460051/Hellblade_2_bardarvik_shipwreck_puzzle_3.jpg">
       
-        <picture data-cid="site/picture_element-1716401697_7751_20046" data-cdata="{&quot;asset_id&quot;:25460051,&quot;ratio&quot;:&quot;*&quot;}">
+        <picture data-cid="site/picture_element-1716405300_3901_41691" data-cdata="{&quot;asset_id&quot;:25460051,&quot;ratio&quot;:&quot;*&quot;}">
   
 
 
@@ -582,7 +956,7 @@
     
     <span data-original="https://cdn.vox-cdn.com/uploads/chorus_asset/file/25460052/Hellblade_2_bardarvik_shipwreck_puzzle_4.jpg">
       
-        <picture data-cid="site/picture_element-1716401697_7969_20047" data-cdata="{&quot;asset_id&quot;:25460052,&quot;ratio&quot;:&quot;*&quot;}">
+        <picture data-cid="site/picture_element-1716405300_2797_41692" data-cdata="{&quot;asset_id&quot;:25460052,&quot;ratio&quot;:&quot;*&quot;}">
   
 
 
@@ -614,7 +988,7 @@
     
     <span data-original="https://cdn.vox-cdn.com/uploads/chorus_asset/file/25460053/Hellblade_2_bardarvik_shipwreck_puzzle_5.jpg">
       
-        <picture data-cid="site/picture_element-1716401697_7186_20048" data-cdata="{&quot;asset_id&quot;:25460053,&quot;ratio&quot;:&quot;*&quot;}">
+        <picture data-cid="site/picture_element-1716405300_4888_41693" data-cdata="{&quot;asset_id&quot;:25460053,&quot;ratio&quot;:&quot;*&quot;}">
   
 
 
@@ -646,7 +1020,7 @@
     
     <span data-original="https://cdn.vox-cdn.com/uploads/chorus_asset/file/25460055/Hellblade_2_bardarvik_shipwreck_puzzle_7.jpg">
       
-        <picture data-cid="site/picture_element-1716401697_3404_20049" data-cdata="{&quot;asset_id&quot;:25460055,&quot;ratio&quot;:&quot;*&quot;}">
+        <picture data-cid="site/picture_element-1716405300_9524_41694" data-cdata="{&quot;asset_id&quot;:25460055,&quot;ratio&quot;:&quot;*&quot;}">
   
 
 
@@ -679,7 +1053,7 @@
     
     <span data-original="https://cdn.vox-cdn.com/uploads/chorus_asset/file/25460056/Hellblade_2_bardarvik_shipwreck_puzzle_8.jpg">
       
-        <picture data-cid="site/picture_element-1716401697_8277_20050" data-cdata="{&quot;asset_id&quot;:25460056,&quot;ratio&quot;:&quot;*&quot;}">
+        <picture data-cid="site/picture_element-1716405300_6394_41695" data-cdata="{&quot;asset_id&quot;:25460056,&quot;ratio&quot;:&quot;*&quot;}">
   
 
 
@@ -711,7 +1085,7 @@
     
     <span data-original="https://cdn.vox-cdn.com/uploads/chorus_asset/file/25460057/Hellblade_2_bardarvik_shipwreck_puzzle_9.jpg">
       
-        <picture data-cid="site/picture_element-1716401697_2448_20051" data-cdata="{&quot;asset_id&quot;:25460057,&quot;ratio&quot;:&quot;*&quot;}">
+        <picture data-cid="site/picture_element-1716405300_7450_41696" data-cdata="{&quot;asset_id&quot;:25460057,&quot;ratio&quot;:&quot;*&quot;}">
   
 
 
@@ -743,7 +1117,7 @@
     
     <span data-original="https://cdn.vox-cdn.com/uploads/chorus_asset/file/25460058/Hellblade_2_bardarvik_shipwreck_puzzle_10.jpg">
       
-        <picture data-cid="site/picture_element-1716401697_5423_20052" data-cdata="{&quot;asset_id&quot;:25460058,&quot;ratio&quot;:&quot;*&quot;}">
+        <picture data-cid="site/picture_element-1716405300_7926_41697" data-cdata="{&quot;asset_id&quot;:25460058,&quot;ratio&quot;:&quot;*&quot;}">
   
 
 
@@ -776,7 +1150,7 @@
     
     <span data-original="https://cdn.vox-cdn.com/uploads/chorus_asset/file/25460059/Hellblade_2_bardarvik_shipwreck_puzzle_11.jpg">
       
-        <picture data-cid="site/picture_element-1716401697_1582_20053" data-cdata="{&quot;asset_id&quot;:25460059,&quot;ratio&quot;:&quot;*&quot;}">
+        <picture data-cid="site/picture_element-1716405300_6737_41698" data-cdata="{&quot;asset_id&quot;:25460059,&quot;ratio&quot;:&quot;*&quot;}">
   
 
 
@@ -808,7 +1182,7 @@
     
     <span data-original="https://cdn.vox-cdn.com/uploads/chorus_asset/file/25460060/Hellblade_2_bardarvik_shipwreck_puzzle_12.jpg">
       
-        <picture data-cid="site/picture_element-1716401697_5100_20054" data-cdata="{&quot;asset_id&quot;:25460060,&quot;ratio&quot;:&quot;*&quot;}">
+        <picture data-cid="site/picture_element-1716405300_1998_41699" data-cdata="{&quot;asset_id&quot;:25460060,&quot;ratio&quot;:&quot;*&quot;}">
   
 
 
@@ -840,7 +1214,7 @@
     
     <span data-original="https://cdn.vox-cdn.com/uploads/chorus_asset/file/25460061/Hellblade_2_bardarvik_shipwreck_puzzle_14.jpg">
       
-        <picture data-cid="site/picture_element-1716401697_9124_20055" data-cdata="{&quot;asset_id&quot;:25460061,&quot;ratio&quot;:&quot;*&quot;}">
+        <picture data-cid="site/picture_element-1716405300_8766_41700" data-cdata="{&quot;asset_id&quot;:25460061,&quot;ratio&quot;:&quot;*&quot;}">
   
 
 
@@ -879,7 +1253,7 @@
             <title><![CDATA[Gamers Are Becoming Less Interested in Games With Deep Strategy, Study Finds]]></title>
             <link>https://www.ign.com/articles/gamers-are-becoming-less-interested-in-games-with-deep-strategy-study-finds</link>
             <guid>https://www.resetera.com/threads/gamers-are-becoming-less-interested-in-games-with-deep-strategy-study-finds.878658/</guid>
-            <content:encoded><![CDATA[https://www.ign.com/articles/gamers-are-becoming-less-interested-in-games-with-deep-strategy-study-finds<br/><div id="readability-page-1" class="page"><section><p>Video games with deep levels of strategy are becoming increasingly unappealing, according to a new study.</p><p>The report from <a href="https://quanticfoundry.com/2024/05/21/strategy-decline/" target="_blank" rel="noopener noreferrer">Quantic Foundry</a> collected nine years of data from the researcher's own Gamer Motivation Profile tool, which tracks how appealing different aspects of games are to different people. Categories include Destruction, Excitement, Competition, Community, Challenge, Strategy, Completion, Power, Fantasy, Story, Discovery, and Design.</p><p>Quantic Foundry looked back on what's motivated gamers across the years and found all of these have remained relatively consistent except one: Strategy. "Gamers who score high on this component enjoy games that require careful decision-making and planning," its summary states. "They like to think through their options and likely outcomes.</p><p>"These may be decisions related to balancing resources and competing goals, managing foreign diplomacy, or finding optimal long term strategies. They tend to enjoy both the tactical combat in games like <a href="https://www.ign.com/articles/xcom-chimera-squad-review">XCOM</a> or <a href="https://www.ign.com/articles/fire-emblem-engage-review">Fire Emblem</a>, as well as seeing their carefully devised plans come to fruition in games like <a href="https://www.ign.com/articles/2016/10/26/sid-meiers-civilization-vi-review">Civilization</a>, <a href="https://www.ign.com/articles/cities-skylines-2-review">Cities: Skylines</a>, or Europa Universalis."</p><a href="https://assets-prd.ignimgs.com/2024/05/22/img-4108-1716395391389.jpg" target="_blank" rel="noopener noreferrer"><output><figure><span></span></figure></output></a><p>But across its 1.7 million surveys, Quantic Foundry found that two thirds of strategy fans worldwide (except China, where gamers "have a very different gaming motivation profile") have lost interest in this element of video games. "67% of gamers today care less about strategic thinking and planning when playing games than the average gamer back in June 2015," the report reads.</p><p>"When we looked for long-term trends across the 12 motivations, we found that many motivations were stable or experienced minor deviations over the past nine years," Quantic Foundry said. "Strategy was the clear exception; it had substantially declined over the past nine years and the magnitude of this change was more than twice the size of the next largest change."</p><p>The trend was analysed but Quantic Foundry couldn't find any distinct separations between, for example, men and women or gamers based in or out of the U.S. It was likened to other trends related to a decrease in attention span, like shorter YouTube videos now generating more views and shorter lengths of time between cuts in films, but Quantic Foundry admitted "it's difficult to pin down cause and effect" and said there's a lack of evidence to solely blame social media, as many do.</p><div data-cy="quoteBox"><p>"67% of gamers today care less about strategic thinking and planning when playing games.</p></div><p>The likes of Facebook, X/Twitter, TikTok, and other social media apps could have "accelerated the underlying trend", however. "Another potential hypothesis is that the increasing negativity, polarization, intrusiveness, and emotional manipulation in social media has created a persistent cognitive overload on the finite cognitive resources we have," Quantic Foundry said. "Put simply, we may be too worn out by social media to think deeply about things."</p><p>Regardless of the cause, Quantic Foundry said "it's clear that gamers have become less interested in strategic thinking over the past nine years," which "implies that gamers are now more easily cognitively overloaded when they play games and are more likely to avoid strategic complexity."</p><p>This trend may even affect how developers create and market games, though there are still plenty of strategy titles on the way. Capes, <a href="https://www.ign.com/articles/hand-of-fate-developers-capes-superhero-tactical-rpg-spitfire">a gritty turn-based strategy role-playing game about villains ruling the streets</a> and a new batch of superheroes having to rise up, launches just one week after this report was released on May 29, 2024.</p><p>Firaxis Games, the developer behind <a href="https://www.ign.com/articles/xcom-chimera-squad-review">XCOM: Chimera Squad</a> and <a href="https://www.ign.com/articles/marvels-midnight-suns-review">Marvel's Midnight Suns</a>, is also <a href="https://www.ign.com/articles/next-civilization-game-officially-announced-by-firaxis">developing a new Civilization game</a> but there's no word on a release date yet. <a href="https://www.ign.com/articles/stormgate-rts-announced">A team of former Blizzard developers are working on Stormgate too</a>, a real-time strategy game set in a post-apocalyptic future due out in the third quarter of 2024.</p><p><em>Ryan Dinsdale is an IGN freelance reporter. He'll talk about The Witcher all day.</em></p></section><div><h3 data-cy="object-summary-embed-title">In This Article</h3></div></div>]]></content:encoded>
+            <content:encoded><![CDATA[https://www.ign.com/articles/gamers-are-becoming-less-interested-in-games-with-deep-strategy-study-finds<br/><div id="readability-page-1" class="page"><section><p>Video games with deep levels of strategy are becoming increasingly unappealing, according to a new study.</p><p>The report from <a href="https://quanticfoundry.com/2024/05/21/strategy-decline/" target="_blank" rel="noopener noreferrer">Quantic Foundry</a> collected nine years of data from the researcher's own Gamer Motivation Profile tool, which tracks how appealing different aspects of games are to different people. Categories include Destruction, Excitement, Competition, Community, Challenge, Strategy, Completion, Power, Fantasy, Story, Discovery, and Design.</p><p>Quantic Foundry looked back on what's motivated gamers across the years and found all of these have remained relatively consistent except one: Strategy. "Gamers who score high on this component enjoy games that require careful decision-making and planning," its summary states. "They like to think through their options and likely outcomes.</p><p>"These may be decisions related to balancing resources and competing goals, managing foreign diplomacy, or finding optimal long term strategies. They tend to enjoy both the tactical combat in games like <a href="https://www.ign.com/articles/xcom-chimera-squad-review">XCOM</a> or <a href="https://www.ign.com/articles/fire-emblem-engage-review">Fire Emblem</a>, as well as seeing their carefully devised plans come to fruition in games like <a href="https://www.ign.com/articles/2016/10/26/sid-meiers-civilization-vi-review">Civilization</a>, <a href="https://www.ign.com/articles/cities-skylines-2-review">Cities: Skylines</a>, or Europa Universalis."</p><a href="https://assets-prd.ignimgs.com/2024/05/22/img-4108-1716395391389.jpg" target="_blank" rel="noopener noreferrer"><output><figure><span></span></figure></output></a><p>But across its 1.7 million surveys, Quantic Foundry found that two thirds of strategy fans worldwide (except China, where gamers "have a very different gaming motivation profile") have lost interest in this element of video games. "67% of gamers today care less about strategic thinking and planning when playing games than the average gamer back in June 2015," the report reads.</p><p>"When we looked for long-term trends across the 12 motivations, we found that many motivations were stable or experienced minor deviations over the past nine years," Quantic Foundry said. "Strategy was the clear exception; it had substantially declined over the past nine years and the magnitude of this change was more than twice the size of the next largest change."</p><p>The trend was analysed but Quantic Foundry couldn't find any distinct separations between, for example, men and women or gamers based in or out of the U.S. It was likened to other trends related to a decrease in attention span, like shorter YouTube videos now generating more views and shorter lengths of time between cuts in films, but Quantic Foundry admitted "it's difficult to pin down cause and effect" and said there's a lack of evidence to solely blame social media, as many do.</p><div data-cy="quoteBox"><p>"67% of gamers today care less about strategic thinking and planning when playing games.</p></div><p>The likes of Facebook, X/Twitter, TikTok, and other social media apps could have "accelerated the underlying trend", however. "Another potential hypothesis is that the increasing negativity, polarization, intrusiveness, and emotional manipulation in social media has created a persistent cognitive overload on the finite cognitive resources we have," Quantic Foundry said. "Put simply, we may be too worn out by social media to think deeply about things."</p><p>Regardless of the cause, Quantic Foundry said "it's clear that gamers have become less interested in strategic thinking over the past nine years," which "implies that gamers are now more easily cognitively overloaded when they play games and are more likely to avoid strategic complexity."</p><p>This trend may even affect how developers create and market games, though there are still plenty of strategy titles on the way. Capes, <a href="https://www.ign.com/articles/hand-of-fate-developers-capes-superhero-tactical-rpg-spitfire">a gritty turn-based strategy role-playing game about villains ruling the streets</a> and a new batch of superheroes having to rise up, launches just one week after this report was released on May 29, 2024.</p><p>Firaxis Games, the developer behind <a href="https://www.ign.com/articles/xcom-chimera-squad-review">XCOM: Chimera Squad</a> and <a href="https://www.ign.com/articles/marvels-midnight-suns-review">Marvel's Midnight Suns</a>, is also <a href="https://www.ign.com/articles/next-civilization-game-officially-announced-by-firaxis">developing a new Civilization game</a> but there's no word on a release date yet. <a href="https://www.ign.com/articles/stormgate-rts-announced">A team of former Blizzard developers are working on Stormgate too</a>, a real-time strategy game set in a post-apocalyptic future due out in the third quarter of 2024.</p><p><em>Ryan Dinsdale is an IGN freelance reporter. He'll talk about The Witcher all day.</em></p></section></div>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Everything Announced at tinyBuild Connect 2024]]></title>
@@ -1316,7 +1690,7 @@ Image credit:          <cite>Warner Bros</cite>
     
   <div>
 
-    <div tabindex="0" data-id="662761551" data-promo-id="0" data-user-has-ads="1" data-video="{&quot;id&quot;:6463877,&quot;title&quot;:&quot;Overwatch%202%20-%20Season%2010%3A%20%22Venture%20Forth%22%20Official%20Trailer&quot;,&quot;lengthSeconds&quot;:144,&quot;startTime&quot;:0,&quot;autoplay&quot;:true,&quot;share&quot;:{&quot;linkUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/overwatch-2-season-10-venture-forth-official-trailer\/2300-6463877\/&quot;,&quot;embedUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/embed\/6463877\/&quot;,&quot;embedHtml&quot;:{&quot;640&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6463877\/\&quot; height=\&quot;360\&quot; width=\&quot;640\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;,&quot;480&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6463877\/\&quot; height=\&quot;270\&quot; width=\&quot;480\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;}},&quot;device&quot;:&quot;other&quot;,&quot;isDevice&quot;:false,&quot;isLiveStream&quot;:false,&quot;videoType&quot;:&quot;video-on-demand&quot;,&quot;countdownTime&quot;:0,&quot;guid&quot;:&quot;gs-2300-6463877&quot;,&quot;ageGateCookieName&quot;:&quot;videoAgeGateBirthday&quot;,&quot;watchedCookieName&quot;:&quot;watchedVideoIds&quot;,&quot;watchedCookieDays&quot;:1,&quot;postPlayMax&quot;:100,&quot;adCall&quot;:{&quot;host&quot;:&quot;http:\/\/pubads.g.doubleclick.net\/gampad\/ads?&quot;,&quot;params&quot;:{&quot;iu&quot;:&quot;\/5441\/vaw-gamespot\/desktop\/gamespot.com&quot;,&quot;impl&quot;:&quot;s&quot;,&quot;gdfp_req&quot;:1,&quot;env&quot;:&quot;vp&quot;,&quot;output&quot;:&quot;xml_vmap1&quot;,&quot;unviewed_position_start&quot;:1,&quot;url&quot;:&quot;[referrer_url]&quot;,&quot;correlator&quot;:&quot;[timestamp]&quot;,&quot;description_url&quot;:&quot;[description_url]&quot;,&quot;cmsid&quot;:2566084,&quot;vid&quot;:6463877,&quot;pp&quot;:&quot;vpaid_js&quot;},&quot;custParams&quot;:{&quot;ptype&quot;:&quot;news_article&quot;,&quot;cid&quot;:&quot;gs-1100-6523644&quot;,&quot;game&quot;:&quot;overwatch-2&quot;,&quot;genre&quot;:&quot;action,first-person,shooter,tactical&quot;,&quot;con&quot;:&quot;pc,xbox-one,playstation-4,nintendo-switch,xbox-series-x,playstation-5&quot;,&quot;publisher&quot;:&quot;blizzard-entertainment,activision&quot;,&quot;embed&quot;:&quot;autoplay&quot;,&quot;category&quot;:&quot;games&quot;,&quot;partner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;vid&quot;:6463877},&quot;soundBasedSize&quot;:{&quot;normal&quot;:&quot;640x480&quot;,&quot;muted&quot;:&quot;640x483&quot;,&quot;none&quot;:&quot;640x480&quot;},&quot;daiSsbUrl&quot;:&quot;https:\/\/dai.google.com\/ondemand\/hls\/content\/2572465\/vid\/6463877\/master.m3u8&quot;,&quot;daiMidRollHost&quot;:2500176},&quot;uvpHi5Ima&quot;:&quot;https:\/\/s0.2mdn.net\/instream\/html5\/ima3.js&quot;,&quot;cuePoints&quot;:null,&quot;uvpc&quot;:&quot;&quot;,&quot;partner&quot;:&quot;gamespot&quot;,&quot;adPartner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;desktopAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;mobileAdPartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;,&quot;mapp&quot;:&quot;gamespot&quot;,&quot;cms&quot;:&quot;pi&quot;,&quot;seekablePlaybacks&quot;:[&quot;html5&quot;,&quot;uvpjs&quot;],&quot;tracking&quot;:[{&quot;name&quot;:&quot;SiteCatalyst&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;charSet&quot;,&quot;value&quot;:&quot;UTF-8&quot;},{&quot;name&quot;:&quot;currencyCode&quot;,&quot;value&quot;:&quot;USD&quot;},{&quot;name&quot;:&quot;siteType&quot;,&quot;value&quot;:&quot;responsive web&quot;},{&quot;name&quot;:&quot;trackingServer&quot;,&quot;value&quot;:&quot;saa.gamespot.com&quot;},{&quot;name&quot;:&quot;visitorNamespace&quot;,&quot;value&quot;:&quot;cbsinteractive&quot;},{&quot;name&quot;:&quot;heartbeatTrackingServer&quot;,&quot;value&quot;:&quot;newimagitasinc.hb.omtrdc.net&quot;},{&quot;name&quot;:&quot;heartbeatVisitorMarketingCloudOrgId&quot;,&quot;value&quot;:&quot;3C66570E5FE1A4AB0A495FFC@AdobeOrg&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;siteCode&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;brand&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;account&quot;,&quot;value&quot;:&quot;cbsigamespotsite&quot;},{&quot;name&quot;:&quot;edition&quot;,&quot;value&quot;:&quot;us&quot;}]},{&quot;name&quot;:&quot;ComScore_ss&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;c2&quot;,&quot;value&quot;:&quot;31824268&quot;},{&quot;name&quot;:&quot;publishersSecret&quot;,&quot;value&quot;:&quot;2cb08ca4d095dd734a374dff8422c2e5&quot;},{&quot;name&quot;:&quot;c3&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;c4&quot;,&quot;value&quot;:&quot;gamespot&quot;}]},{&quot;name&quot;:&quot;NielsenTracking&quot;,&quot;category&quot;:&quot;tracking&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;host&quot;,&quot;value&quot;:&quot;https:\/\/secure-us.imrworldwide.com\/cgi-bin\/m?&quot;},{&quot;name&quot;:&quot;scCI&quot;,&quot;value&quot;:&quot;us-200330&quot;},{&quot;name&quot;:&quot;scC6&quot;,&quot;value&quot;:&quot;vc,c01&quot;}]},{&quot;name&quot;:&quot;MuxQOSPluginJS&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;propertyKey&quot;,&quot;value&quot;:&quot;b7d6e48b7461a61cb6e863a62&quot;}]}],&quot;trackingAccount&quot;:&quot;cbsigamespotsite&quot;,&quot;trackingSiteCode&quot;:&quot;gs&quot;,&quot;trackingPrimaryId&quot;:&quot;cbsigamespotsite&quot;,&quot;videoAssetSource&quot;:&quot;Publisher Asset&quot;,&quot;uvpjsHostname&quot;:&quot;\/\/www.gamespot.com&quot;,&quot;siteType&quot;:&quot;responsive web&quot;,&quot;startMuted&quot;:false,&quot;screenMediumThumb&quot;:&quot;https:\/\/www.gamespot.com\/a\/uploads\/screen_medium\/1574\/15746725\/4286454-33.jpg&quot;,&quot;videoStreams&quot;:{&quot;adaptive_stream&quot;:&quot;https:\/\/cdn.jwplayer.com\/manifests\/lSn7BmMq.m3u8&quot;},&quot;userId&quot;:0,&quot;premium&quot;:false,&quot;datePublished&quot;:1712852820,&quot;videoAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;videoAdMobilePartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;}" data-non-iframe-embed="1" data-jw-context-name="gamespot" data-jw-media-id="lSn7BmMq" data-jw-player-url="https://cdn.jwplayer.com/libraries/VXc5h4Tf.js" data-jw-video-token="" data-has-youtube="" data-youtube-icon-path="https://www.gamespot.com/a/bundles/phoenixsite/images/core/loose/icn-youtube-30x30.png" id="video-rectangle"><div><p>
+    <div tabindex="0" data-id="1963641626" data-promo-id="0" data-user-has-ads="1" data-video="{&quot;id&quot;:6463877,&quot;title&quot;:&quot;Overwatch%202%20-%20Season%2010%3A%20%22Venture%20Forth%22%20Official%20Trailer&quot;,&quot;lengthSeconds&quot;:144,&quot;startTime&quot;:0,&quot;autoplay&quot;:true,&quot;share&quot;:{&quot;linkUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/overwatch-2-season-10-venture-forth-official-trailer\/2300-6463877\/&quot;,&quot;embedUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/embed\/6463877\/&quot;,&quot;embedHtml&quot;:{&quot;640&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6463877\/\&quot; height=\&quot;360\&quot; width=\&quot;640\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;,&quot;480&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6463877\/\&quot; height=\&quot;270\&quot; width=\&quot;480\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;}},&quot;device&quot;:&quot;other&quot;,&quot;isDevice&quot;:false,&quot;isLiveStream&quot;:false,&quot;videoType&quot;:&quot;video-on-demand&quot;,&quot;countdownTime&quot;:0,&quot;guid&quot;:&quot;gs-2300-6463877&quot;,&quot;ageGateCookieName&quot;:&quot;videoAgeGateBirthday&quot;,&quot;watchedCookieName&quot;:&quot;watchedVideoIds&quot;,&quot;watchedCookieDays&quot;:1,&quot;postPlayMax&quot;:100,&quot;adCall&quot;:{&quot;host&quot;:&quot;http:\/\/pubads.g.doubleclick.net\/gampad\/ads?&quot;,&quot;params&quot;:{&quot;iu&quot;:&quot;\/5441\/vaw-gamespot\/desktop\/gamespot.com&quot;,&quot;impl&quot;:&quot;s&quot;,&quot;gdfp_req&quot;:1,&quot;env&quot;:&quot;vp&quot;,&quot;output&quot;:&quot;xml_vmap1&quot;,&quot;unviewed_position_start&quot;:1,&quot;url&quot;:&quot;[referrer_url]&quot;,&quot;correlator&quot;:&quot;[timestamp]&quot;,&quot;description_url&quot;:&quot;[description_url]&quot;,&quot;cmsid&quot;:2566084,&quot;vid&quot;:6463877,&quot;pp&quot;:&quot;vpaid_js&quot;},&quot;custParams&quot;:{&quot;ptype&quot;:&quot;news_article&quot;,&quot;cid&quot;:&quot;gs-1100-6523644&quot;,&quot;game&quot;:&quot;overwatch-2&quot;,&quot;genre&quot;:&quot;action,first-person,shooter,tactical&quot;,&quot;con&quot;:&quot;pc,xbox-one,playstation-4,nintendo-switch,xbox-series-x,playstation-5&quot;,&quot;publisher&quot;:&quot;blizzard-entertainment,activision&quot;,&quot;embed&quot;:&quot;autoplay&quot;,&quot;category&quot;:&quot;games&quot;,&quot;partner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;vid&quot;:6463877},&quot;soundBasedSize&quot;:{&quot;normal&quot;:&quot;640x480&quot;,&quot;muted&quot;:&quot;640x483&quot;,&quot;none&quot;:&quot;640x480&quot;},&quot;daiSsbUrl&quot;:&quot;https:\/\/dai.google.com\/ondemand\/hls\/content\/2572465\/vid\/6463877\/master.m3u8&quot;,&quot;daiMidRollHost&quot;:2500176},&quot;uvpHi5Ima&quot;:&quot;https:\/\/s0.2mdn.net\/instream\/html5\/ima3.js&quot;,&quot;cuePoints&quot;:null,&quot;uvpc&quot;:&quot;&quot;,&quot;partner&quot;:&quot;gamespot&quot;,&quot;adPartner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;desktopAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;mobileAdPartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;,&quot;mapp&quot;:&quot;gamespot&quot;,&quot;cms&quot;:&quot;pi&quot;,&quot;seekablePlaybacks&quot;:[&quot;html5&quot;,&quot;uvpjs&quot;],&quot;tracking&quot;:[{&quot;name&quot;:&quot;SiteCatalyst&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;charSet&quot;,&quot;value&quot;:&quot;UTF-8&quot;},{&quot;name&quot;:&quot;currencyCode&quot;,&quot;value&quot;:&quot;USD&quot;},{&quot;name&quot;:&quot;siteType&quot;,&quot;value&quot;:&quot;responsive web&quot;},{&quot;name&quot;:&quot;trackingServer&quot;,&quot;value&quot;:&quot;saa.gamespot.com&quot;},{&quot;name&quot;:&quot;visitorNamespace&quot;,&quot;value&quot;:&quot;cbsinteractive&quot;},{&quot;name&quot;:&quot;heartbeatTrackingServer&quot;,&quot;value&quot;:&quot;newimagitasinc.hb.omtrdc.net&quot;},{&quot;name&quot;:&quot;heartbeatVisitorMarketingCloudOrgId&quot;,&quot;value&quot;:&quot;3C66570E5FE1A4AB0A495FFC@AdobeOrg&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;siteCode&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;brand&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;account&quot;,&quot;value&quot;:&quot;cbsigamespotsite&quot;},{&quot;name&quot;:&quot;edition&quot;,&quot;value&quot;:&quot;us&quot;}]},{&quot;name&quot;:&quot;ComScore_ss&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;c2&quot;,&quot;value&quot;:&quot;31824268&quot;},{&quot;name&quot;:&quot;publishersSecret&quot;,&quot;value&quot;:&quot;2cb08ca4d095dd734a374dff8422c2e5&quot;},{&quot;name&quot;:&quot;c3&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;c4&quot;,&quot;value&quot;:&quot;gamespot&quot;}]},{&quot;name&quot;:&quot;NielsenTracking&quot;,&quot;category&quot;:&quot;tracking&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;host&quot;,&quot;value&quot;:&quot;https:\/\/secure-us.imrworldwide.com\/cgi-bin\/m?&quot;},{&quot;name&quot;:&quot;scCI&quot;,&quot;value&quot;:&quot;us-200330&quot;},{&quot;name&quot;:&quot;scC6&quot;,&quot;value&quot;:&quot;vc,c01&quot;}]},{&quot;name&quot;:&quot;MuxQOSPluginJS&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;propertyKey&quot;,&quot;value&quot;:&quot;b7d6e48b7461a61cb6e863a62&quot;}]}],&quot;trackingAccount&quot;:&quot;cbsigamespotsite&quot;,&quot;trackingSiteCode&quot;:&quot;gs&quot;,&quot;trackingPrimaryId&quot;:&quot;cbsigamespotsite&quot;,&quot;videoAssetSource&quot;:&quot;Publisher Asset&quot;,&quot;uvpjsHostname&quot;:&quot;\/\/www.gamespot.com&quot;,&quot;siteType&quot;:&quot;responsive web&quot;,&quot;startMuted&quot;:false,&quot;screenMediumThumb&quot;:&quot;https:\/\/www.gamespot.com\/a\/uploads\/screen_medium\/1574\/15746725\/4286454-33.jpg&quot;,&quot;videoStreams&quot;:{&quot;adaptive_stream&quot;:&quot;https:\/\/cdn.jwplayer.com\/manifests\/lSn7BmMq.m3u8&quot;},&quot;userId&quot;:0,&quot;premium&quot;:false,&quot;datePublished&quot;:1712852820,&quot;videoAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;videoAdMobilePartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;}" data-non-iframe-embed="1" data-jw-context-name="gamespot" data-jw-media-id="lSn7BmMq" data-jw-player-url="https://cdn.jwplayer.com/libraries/VXc5h4Tf.js" data-jw-video-token="" data-has-youtube="" data-youtube-icon-path="https://www.gamespot.com/a/bundles/phoenixsite/images/core/loose/icn-youtube-30x30.png" id="video-rectangle"><div><p>
         Want us to remember this setting for all your devices?
       </p><p><a href="https://www.gamespot.com/signup/">Sign up</a> or <a href="https://www.gamespot.com/login/">Sign in</a> now!
       </p></div><p>
@@ -1572,178 +1946,13 @@ Image credit:          <cite>Activision</cite>
             <title><![CDATA[Valve's New Hero Shooter Is Leaking All Over The Place And Fans Are Confused]]></title>
             <link>https://kotaku.com/valve-next-game-new-shooter-deadlock-neon-prime-moba-pc-1851493739</link>
             <guid>https://www.resetera.com/threads/valves-new-hero-shooter-is-leaking-all-over-the-place-and-fans-are-confused.878547/</guid>
-            <content:encoded><![CDATA[https://kotaku.com/valve-next-game-new-shooter-deadlock-neon-prime-moba-pc-1851493739<br/><div id="readability-page-1" class="page"><div><p><span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://kotaku.com/microsoft-buy-nintendo-net-worth-valve-steam-email-1850852461&quot;,{&quot;metric25&quot;:1}]]" href="https://kotaku.com/microsoft-buy-nintendo-net-worth-valve-steam-email-1850852461">Valve</a></span>—the company behind <em>Half-Life </em>and Steam—is working on a new game likely named <em>Deadlock.</em> It’s<em>&nbsp;</em>probably a third-person team-based hero-shooter with MOBA and tower defense elements. And people are playing it right now via a closed and private beta. However, some of those same people have started leaking footage of the yet-unannounced game online and the reaction has been...mixed, to say the least. </p><div data-video-id="193974" data-monetizable="true" data-position="sidebar" data-video-title="The Top Ten Most Played Games On Steam Deck: February 2023 Edition" data-video-blog-id="9" data-video-network="kotaku" data-video-duration="194" data-playlist="193974,196131,195189" data-current="193974"><div><p>The Top Ten Most Played Games On Steam Deck: February 2023 Edition</p></div><video disablepictureinpicture="" muted="" playsinline="" width="100%" height="100%" crossorigin="anonymous" preload="none"><source data-src="https://vid.kinja.com/prod/193974/193974_240p.mp4" label="240p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/193974/193974_480p.mp4" label="480p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/193974/193974_720p.mp4" label="720p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/193974/193974_1080p.mp4" label="1080p" type="video/mp4"><track kind="captions" label="English" src="https://kinja.com/api/videoupload/caption/19440.vtt" srclang="en"></video><div><ul><li data-label="">Off</li><li data-label="English">English</li></ul></div></div><p>We’ve known about <em>Deadlock </em>for years now, based on leaks and datamined information from other Valve games. The project was likely codenamed <em>Citadel </em>and was at one point <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://www.reddit.com/r/NEONPRIME/comments/10f9hkx/neon_prime_collated_leaksinfo/&quot;,{&quot;metric25&quot;:1}]]" href="https://www.reddit.com/r/NEONPRIME/comments/10f9hkx/neon_prime_collated_leaksinfo/" target="_blank" rel="noopener noreferrer">known internally as <em>Neon Prime</em>.</a></span> It likely started development some time in 2018, and has gone through a lot of changes according to <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://youtu.be/T7KuuJO_lqw&quot;,{&quot;metric25&quot;:1}]]" href="https://youtu.be/T7KuuJO_lqw" target="_blank" rel="noopener noreferrer">previous leaks</a></span>, though it was always an online team-based shooter with <em>DOTA</em>-like elements. At one point, <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://youtu.be/k8MqhEz6N_k&quot;,{&quot;metric25&quot;:1}]]" href="https://youtu.be/k8MqhEz6N_k" target="_blank" rel="noopener noreferrer">it was reportedly going to be set in the <em>Half-Lif</em>e universe</a></span>, but that seems to have changed, as shown in the recently leaked gameplay. </p><p>So what is <em>Deadlock </em>today? Well, based on <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://x.com/gabefollower/status/1791311128422748285&quot;,{&quot;metric25&quot;:1}]]" href="https://x.com/gabefollower/status/1791311128422748285" target="_blank" rel="noopener noreferrer">gameplay and screenshots</a></span> from the closed alpha test, <em>Deadlock </em>will be a hero-based online third-person shooter featuring maps with MOBA-like lanes, mobs to kill, and <em>Bioshock Infinite</em>-like rails that you can grind around to get to areas quickly. </p><p>In the alpha test footage that has leaked online, it seems the game currently has <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://x.com/pDylan002/status/1793301907223535857&quot;,{&quot;metric25&quot;:1}]]" href="https://x.com/pDylan002/status/1793301907223535857" target="_blank" rel="noopener noreferrer">19 characters</a></span>, and all of them share a similar steampunk-meets-fantasy style, similar to the rest of the game’s vibes. </p><p><em>Kotaku </em>has reached out to Valve about <em>Deadlock</em>. </p><p>It should be noted that this build of <em>Deadlock </em>is likely still early and the game will change in looks and gameplay as it gets closer to an official launch, the reaction to leaked gameplay and screenshots of Valve’s next big thing has been fairly muted, with most fans more confused than anything else. </p><h2 id="h24599"><a id=""></a>The reaction to Valve’s next game hasn’t been great</h2><p>While I’ve spotted some folks excited to see what Valve is working on next, the majority of online chatter around <em>Deadlock </em>is focused on how “late” this game feels. The hero shooter craze has mostly died out, and the demand for another one, with MOBA-elements no less, seems lacking. The game’s generic, IP-less style and world have also confused fans who have long wanted a new <em>Half-Life</em> or <em>Portal </em>game from Valve, but are instead getting something more akin to <em>Valorant </em>meets <em>Overwatch</em>. </p><p><span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://insider-gaming.com/new-details-on-valves-new-game-deadlock/&quot;,{&quot;metric25&quot;:1}]]" href="https://insider-gaming.com/new-details-on-valves-new-game-deadlock/" target="_blank" rel="noopener noreferrer">According to details from <em>Insider Gaming</em></a></span>, people who have reportedly played <em>Deadlock </em>say that it plays very much like a MOBA, with creeps running around maps. Killing these weaker NPCs (possibly known as <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://www.reddit.com/r/DeadlockTheGame/comments/1cxttrj/deadlocks_creeps_are_candle_men/&quot;,{&quot;metric25&quot;:1}]]" href="https://www.reddit.com/r/DeadlockTheGame/comments/1cxttrj/deadlocks_creeps_are_candle_men/" target="_blank" rel="noopener noreferrer">candles or candlemen</a></span>) will reward players with a currency that can be used to upgrade their hero during that match. It’s also reported that a giant boss spawns in the middle of the map and can be killed for more upgrade currency. </p><figure id="" data-id="e46928f12d270ed7e528d6c0f97025f6" data-recommend-id="image://e46928f12d270ed7e528d6c0f97025f6" data-format="jpg" data-width="1024" data-height="576" data-lightbox="true" data-alt="A screenshot of Gordon shooting a heli with an SMG in Half-Life 2. " data-recommended="false" data-hide="false" contenteditable="false" draggable="false"><div contenteditable="false" data-alt="A screenshot of Gordon shooting a heli with an SMG in Half-Life 2. " data-link-reference="" data-link-target="" data-syndicationrights="true" data-imagerights="other-license" data-hide="false" data-hidecredit="false"><p><figcaption><em>Half-Life 2</em></figcaption><figcaption>Screenshot<!-- -->: <!-- -->Valve</figcaption></p></div><span data-id="e46928f12d270ed7e528d6c0f97025f6" data-recommend-id="image://e46928f12d270ed7e528d6c0f97025f6" data-format="jpg" data-width="1024" data-height="576" data-lightbox="true" data-alt="A screenshot of Gordon shooting a heli with an SMG in Half-Life 2. " data-recommended="false" data-hide="false"></span></figure><p>I’m still excited about Valve making another game, but I’m not sure this is what I (and many others) wanted from the company famous for developing <em>Half-Life 2</em> and <em>Left 4 Dead. </em>I’ve seen some people suggest that, in the end, this will work out. Valve is good at making games. And sure, that’s generally true, but keep in mind that when it comes to original, internally designed multiplayer games, well, Valve’s track record is far from great.<br></p><p>Yes, <em>DOTA 2, CSGO, </em>and <em>TF2 </em>are wonderful, but those are all games Valve inherited from outside developers and modders and then built upon and expanded. When it comes to <em>wholly </em>original online games, Valve has released stuff like <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://kotaku.com/valves-card-game-is-officially-dead-1846410290&quot;,{&quot;metric25&quot;:1}]]" href="https://kotaku.com/valves-card-game-is-officially-dead-1846410290"><em>Artifact</em></a></span><em>&nbsp;</em>(a now-dead card game), <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://store.steampowered.com/app/60/Ricochet/&quot;,{&quot;metric25&quot;:1}]]" href="https://store.steampowered.com/app/60/Ricochet/" target="_blank" rel="noopener noreferrer"><em>Ricochet</em></a></span> (a bad <em>HL1</em>-era esport thing), <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://store.steampowered.com/app/1046930/Dota_Underlords/&quot;,{&quot;metric25&quot;:1}]]" href="https://store.steampowered.com/app/1046930/Dota_Underlords/" target="_blank" rel="noopener noreferrer"><em>DOTA Underlords</em></a></span><em> </em>(an <em>Auto Chess </em>clone that fizzled out after a few months), and <em>Half-Life Deathmatch</em> which... okay, that was alright. </p><p>But yeah, I’m not confident in Valve’s next game setting the world on fire, and the online reaction to it seems to back up those concerns. We’ll have to wait and see how Valve reacts to this feedback and how it affects (or doesn’t affect) <em>Deadlock.</em></p><p><em>.</em><br></p></div></div>]]></content:encoded>
+            <content:encoded><![CDATA[https://kotaku.com/valve-next-game-new-shooter-deadlock-neon-prime-moba-pc-1851493739<br/><div id="readability-page-1" class="page"><div><p><span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://kotaku.com/microsoft-buy-nintendo-net-worth-valve-steam-email-1850852461&quot;,{&quot;metric25&quot;:1}]]" href="https://kotaku.com/microsoft-buy-nintendo-net-worth-valve-steam-email-1850852461">Valve</a></span>—the company behind <em>Half-Life </em>and Steam—is working on a new game likely named <em>Deadlock.</em> It’s<em>&nbsp;</em>probably a third-person team-based hero-shooter with MOBA and tower defense elements. And people are playing it right now via a closed and private beta. However, some of those same people have started leaking footage of the yet-unannounced game online and the reaction has been...mixed, to say the least. </p><div data-video-id="193974" data-monetizable="true" data-position="sidebar" data-video-title="The Top Ten Most Played Games On Steam Deck: February 2023 Edition" data-video-blog-id="9" data-video-network="kotaku" data-video-duration="194" data-playlist="193974,196131,195189" data-current="193974"><div><p>The Top Ten Most Played Games On Steam Deck: February 2023 Edition</p></div><video disablepictureinpicture="" muted="" playsinline="" width="100%" height="100%" crossorigin="anonymous" preload="none"><source data-src="https://vid.kinja.com/prod/193974/193974_240p.mp4" label="240p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/193974/193974_480p.mp4" label="480p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/193974/193974_720p.mp4" label="720p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/193974/193974_1080p.mp4" label="1080p" type="video/mp4"><track kind="captions" label="English" src="https://kinja.com/api/videoupload/caption/19440.vtt" srclang="en"></video><div><ul><li data-label="">Off</li><li data-label="English">English</li></ul></div></div><p>We’ve known about <em>Deadlock </em>for years now, based on leaks and datamined information from other Valve games. The project was likely codenamed <em>Citadel </em>and was at one point <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://www.reddit.com/r/NEONPRIME/comments/10f9hkx/neon_prime_collated_leaksinfo/&quot;,{&quot;metric25&quot;:1}]]" href="https://www.reddit.com/r/NEONPRIME/comments/10f9hkx/neon_prime_collated_leaksinfo/" target="_blank" rel="noopener noreferrer">known internally as <em>Neon Prime</em>.</a></span> It likely started development some time in 2018, and has gone through a lot of changes according to <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://youtu.be/T7KuuJO_lqw&quot;,{&quot;metric25&quot;:1}]]" href="https://youtu.be/T7KuuJO_lqw" target="_blank" rel="noopener noreferrer">previous leaks</a></span>, though it was always an online team-based shooter with <em>DOTA</em>-like elements. At one point, <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://youtu.be/k8MqhEz6N_k&quot;,{&quot;metric25&quot;:1}]]" href="https://youtu.be/k8MqhEz6N_k" target="_blank" rel="noopener noreferrer">it was reportedly going to be set in the <em>Half-Lif</em>e universe</a></span>, but that seems to have changed, as shown in the recently leaked gameplay. </p><p>So what is <em>Deadlock </em>today? Well, based on <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://x.com/gabefollower/status/1791311128422748285&quot;,{&quot;metric25&quot;:1}]]" href="https://x.com/gabefollower/status/1791311128422748285" target="_blank" rel="noopener noreferrer">gameplay and screenshots</a></span> from the closed alpha test, <em>Deadlock </em>will be a hero-based online third-person shooter featuring maps with MOBA-like lanes, mobs to kill, and <em>Bioshock Infinite</em>-like rails that you can grind around to get to areas quickly. </p><p>In the alpha test footage that has leaked online, it seems the game currently has <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://x.com/pDylan002/status/1793301907223535857&quot;,{&quot;metric25&quot;:1}]]" href="https://x.com/pDylan002/status/1793301907223535857" target="_blank" rel="noopener noreferrer">19 characters</a></span>, and all of them share a similar steampunk-meets-fantasy style, similar to the rest of the game’s vibes. </p><p><em>Kotaku </em>has reached out to Valve about <em>Deadlock</em>. </p><p>It should be noted that this build of <em>Deadlock </em>is likely still early and the game will change in looks and gameplay as it gets closer to an official launch, the reaction to leaked gameplay and screenshots of Valve’s next big thing has been fairly muted, with most fans more confused than anything else. </p><h2 id="h26782"><a id=""></a>The reaction to Valve’s next game hasn’t been great</h2><p>While I’ve spotted some folks excited to see what Valve is working on next, the majority of online chatter around <em>Deadlock </em>is focused on how “late” this game feels. The hero shooter craze has mostly died out, and the demand for another one, with MOBA-elements no less, seems lacking. The game’s generic, IP-less style and world have also confused fans who have long wanted a new <em>Half-Life</em> or <em>Portal </em>game from Valve, but are instead getting something more akin to <em>Valorant </em>meets <em>Overwatch</em>. </p><p><span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://insider-gaming.com/new-details-on-valves-new-game-deadlock/&quot;,{&quot;metric25&quot;:1}]]" href="https://insider-gaming.com/new-details-on-valves-new-game-deadlock/" target="_blank" rel="noopener noreferrer">According to details from <em>Insider Gaming</em></a></span>, people who have reportedly played <em>Deadlock </em>say that it plays very much like a MOBA, with creeps running around maps. Killing these weaker NPCs (possibly known as <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://www.reddit.com/r/DeadlockTheGame/comments/1cxttrj/deadlocks_creeps_are_candle_men/&quot;,{&quot;metric25&quot;:1}]]" href="https://www.reddit.com/r/DeadlockTheGame/comments/1cxttrj/deadlocks_creeps_are_candle_men/" target="_blank" rel="noopener noreferrer">candles or candlemen</a></span>) will reward players with a currency that can be used to upgrade their hero during that match. It’s also reported that a giant boss spawns in the middle of the map and can be killed for more upgrade currency. </p><figure id="" data-id="e46928f12d270ed7e528d6c0f97025f6" data-recommend-id="image://e46928f12d270ed7e528d6c0f97025f6" data-format="jpg" data-width="1024" data-height="576" data-lightbox="true" data-alt="A screenshot of Gordon shooting a heli with an SMG in Half-Life 2. " data-recommended="false" data-hide="false" contenteditable="false" draggable="false"><div contenteditable="false" data-alt="A screenshot of Gordon shooting a heli with an SMG in Half-Life 2. " data-link-reference="" data-link-target="" data-syndicationrights="true" data-imagerights="other-license" data-hide="false" data-hidecredit="false"><p><figcaption><em>Half-Life 2</em></figcaption><figcaption>Screenshot<!-- -->: <!-- -->Valve</figcaption></p></div><span data-id="e46928f12d270ed7e528d6c0f97025f6" data-recommend-id="image://e46928f12d270ed7e528d6c0f97025f6" data-format="jpg" data-width="1024" data-height="576" data-lightbox="true" data-alt="A screenshot of Gordon shooting a heli with an SMG in Half-Life 2. " data-recommended="false" data-hide="false"></span></figure><p>I’m still excited about Valve making another game, but I’m not sure this is what I (and many others) wanted from the company famous for developing <em>Half-Life 2</em> and <em>Left 4 Dead. </em>I’ve seen some people suggest that, in the end, this will work out. Valve is good at making games. And sure, that’s generally true, but keep in mind that when it comes to original, internally designed multiplayer games, well, Valve’s track record is far from great.<br></p><p>Yes, <em>DOTA 2, CSGO, </em>and <em>TF2 </em>are wonderful, but those are all games Valve inherited from outside developers and modders and then built upon and expanded. When it comes to <em>wholly </em>original online games, Valve has released stuff like <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://kotaku.com/valves-card-game-is-officially-dead-1846410290&quot;,{&quot;metric25&quot;:1}]]" href="https://kotaku.com/valves-card-game-is-officially-dead-1846410290"><em>Artifact</em></a></span><em>&nbsp;</em>(a now-dead card game), <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://store.steampowered.com/app/60/Ricochet/&quot;,{&quot;metric25&quot;:1}]]" href="https://store.steampowered.com/app/60/Ricochet/" target="_blank" rel="noopener noreferrer"><em>Ricochet</em></a></span> (a bad <em>HL1</em>-era esport thing), <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://store.steampowered.com/app/1046930/Dota_Underlords/&quot;,{&quot;metric25&quot;:1}]]" href="https://store.steampowered.com/app/1046930/Dota_Underlords/" target="_blank" rel="noopener noreferrer"><em>DOTA Underlords</em></a></span><em> </em>(an <em>Auto Chess </em>clone that fizzled out after a few months), and <em>Half-Life Deathmatch</em> which... okay, that was alright. </p><p>But yeah, I’m not confident in Valve’s next game setting the world on fire, and the online reaction to it seems to back up those concerns. We’ll have to wait and see how Valve reacts to this feedback and how it affects (or doesn’t affect) <em>Deadlock.</em></p><p><em>.</em><br></p></div></div>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Obituary: Judgement actor Akira Nakao passed away at age 81]]></title>
             <link>https://www.gamedeveloper.com/business/obituary-judgement-actor-akira-nakao-passed-away-at-age-81</link>
             <guid>https://www.resetera.com/threads/obituary-judgement-actor-akira-nakao-passed-away-at-age-81.878544/</guid>
             <content:encoded><![CDATA[https://www.gamedeveloper.com/business/obituary-judgement-actor-akira-nakao-passed-away-at-age-81<br/><div id="readability-page-1" class="page"><div data-module="content" data-testid="article-base-body-content"><p data-testid="content-paragraph"><span data-testid="content-text">Akira Nakao, a film and TV actor who appeared in Sega's Judgment series, died on May 16. He was 81.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Spotted by </span><span data-testid="content-text"><a target="_blank" href="https://game.watch.impress.co.jp/docs/news/1593601.html">Game.Watch,</a></span><span data-testid="content-text"> he reportedly passed from heart failure. Family and friends have already held a service for him.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Born August 11, 1942, Nakao had just two video games to his resume. In the Judgement series (a spinoff of the Like a Dragon games), he played Ryuzo Genda, the mentor of series lead Takayuki Yagami.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Outside of games, he was best known for his roles in Japanese period and contemporary dramas. His first movie appearance was in 1964's Getsuyōbi no Yuka.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">In film, he was a recurring player in the Godzilla films, first appearing in 1993's Godzilla vs. MechaGodzilla II and through 2004's Godzilla: Final Wars. His final film role was the 2023 TV series Sanctuary.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">At the time of writing, neither Sega nor Judgment developer Ryo Ga Gatoku has commented on Nakao's passing.</span></p></div><div><h2>About the Author(s)</h2><div data-component="contributor-summary"><p data-testid="contributor-summary-subtitle">Contributing Editor, GameDeveloper.com</p><div><p data-testid="content-paragraph"><span data-testid="content-text">A Kansas City, MO native, Justin Carter has written for numerous sites including IGN, Polygon, and SyFy Wire. In addition to Game Developer, his writing can be found at io9 over on Gizmodo. Don't ask him about how much gum he's had, because the answer will be more than he's willing to admit.</span></p></div></div></div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[The Witcher Season 4 Teaser Provides First Look At Liam Hemsworth As Geralt]]></title>
-            <link>https://www.gameinformer.com/gamer-culture/2024/05/22/the-witcher-season-4-teaser-provides-first-look-at-liam-hemsworth-as</link>
-            <guid>https://www.resetera.com/threads/the-witcher-season-4-teaser-provides-first-look-at-liam-hemsworth-as-geralt.878541/</guid>
-            <content:encoded><![CDATA[https://www.gameinformer.com/gamer-culture/2024/05/22/the-witcher-season-4-teaser-provides-first-look-at-liam-hemsworth-as<br/><div id="readability-page-1" class="page"><div property="schema:text"><p>We’ve known <a href="https://www.gameinformer.com/gamer-culture/2022/10/31/the-witcher-henry-cavill-out-after-season-3-liam-hemsworth-to-play-geralt">since October 2022</a> that Season 3 of Netflix’s <em>The Witcher</em> would be actor Henry Cavill’s last as Geralt of Rivia and that Liam Hemsworth would don the silvery mane going forward. Today, Netflix released the first teaser trailer for Season 4 giving fans their first look at Hemsworth in the role.</p>
-
-<p><iframe allow="autoplay" allowfullscreen="" frameborder="0" height="360" src="https://www.youtube.com/embed/kr3br-3i8TY" width="640"></iframe></p>
-
-<p>Unfortunately, Hemsworth doesn’t speak in the brief clip, so we still don’t know how his Geralt voice compares to Cavill’s (or the games, for that matter). But he definitely doesn’t look out of place as the White Wolf and, hopefully, won’t be too much of a distraction in this new season.</p>
-
-<p>Season 4 is currently in production in the UK and will be filmed back-to-back with Season 5, which will also be the show's finale. It has no release date but is speculated to premiere in 2025. These last two seasons will cover the three remaining Witcher books: <em>Baptism of Fire</em>, <em>The Tower of the Swallow,</em> and <em>Lady of the Lake</em>. The returning cast includes Anya Chalotra (Yennifer) and&nbsp;Freya Allan&nbsp;(Ciri).&nbsp;</p>
-
-<p>For more on The Witcher games, The Witcher 3: Wild Hunt got its official PC mod tools this week. Read all about it <a href="https://www.gameinformer.com/news/2024/05/07/cdpr-working-on-free-witcher-3-mod-editor-to-allow-players-to-create-your-own">here</a>.&nbsp;</p>
-</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[XDefiant roadmap: New weapons, more Factions, and Practice Zones]]></title>
-            <link>https://www.destructoid.com/xdefiant-roadmap/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=xdefiant-roadmap</link>
-            <guid>https://www.resetera.com/threads/xdefiant-roadmap-new-weapons-more-factions-and-practice-zones.878538/</guid>
-            <content:encoded><![CDATA[https://www.destructoid.com/xdefiant-roadmap/?utm_source=rss&utm_medium=rss&utm_campaign=xdefiant-roadmap<br/><div id="readability-page-1" class="page"><div>
-<p data-characters="386" data-injectable="true" data-video="true">If you’ve spent some time blasting in a few rounds, you may have already gotten accustomed to&nbsp;<a href="https://www.destructoid.com/all-xdefiant-weapons-and-how-to-unlock-them/" target="_blank" rel="noreferrer noopener"><em>XDefiant’s</em>&nbsp;weapon</a> and map collection. There’s not a lot of content compared to some first-person shooters, primarily due to its recent launch. Fortunately, players can expect new features based on the&nbsp;<em>XDefiant&nbsp;</em>roadmap, showcasing new locations, weapons, and many more.&nbsp;</p> <h2 id="h-xdefiant-roadmap-explained" data-injectable="false">XDefiant roadmap explained </h2> <p data-characters="131" data-current-count="131" data-injectable="false">According to the&nbsp;<a href="https://www.ubisoft.com/en-us/game/xdefiant/news/4QANGHLnnUfq0x4mcZeie7/xdefiant-ubiforward-whats-next" target="_blank" rel="noreferrer noopener"><em>XDefiant&nbsp;</em>Year 1 Roadmap</a>, you can look forward to new seasonal content and features. Here’s what to expect:</p> <h3 id="h-seasonal-content" data-injectable="false">Seasonal Content</h3> <ul data-found-items="16" data-items-injection="true" data-current-count="771" data-injectable="true"> <li><strong>Season 1:</strong> <ul> <li data-index="0">New Faction – Ruby</li> <li data-index="1">3 New weapons</li> <li data-index="2">3 New maps</li> <li data-index="3">90 tiers in the Battle Pass</li> </ul> </li> <li><strong>Season 2: </strong> <ul> <li data-index="4">New Faction – Buzz</li> <li data-index="5">3 New weapons</li> <li data-index="6">3 New maps</li> <li data-index="7">90 tiers in the Battle Pass</li> </ul> </li> <li><strong>Season 3: </strong> <ul> <li data-index="8">New Faction – Orchard</li> <li data-index="9">3 New weapons</li> <li data-index="10">3 New maps</li> <li data-index="11">90 tiers in the Battle Pass</li> </ul> </li> <li><strong>Season 4:</strong> <ul> <li data-index="12">New Faction – Horde</li> <li data-index="13">3 New weapons</li> <li data-index="14">3 New maps</li> <li data-index="15">90 tiers in the Battle Pass</li> </ul> </li> </ul>
- <h3 id="h-new-content" data-injectable="false">New content</h3> <ul data-found-items="6" data-current-count="240" data-injectable="false"> <li>New Arena</li> <li>Progression Modes</li> <li>Ranked Mode</li> <li>Private Matches</li> <li>Caster Cams</li> <li>Practice Zones</li> </ul> <p data-characters="243" data-current-count="483" data-injectable="true">The new <a href="https://www.destructoid.com/xdefiant-all-factions-and-their-abilities-explained/" target="_blank" rel="noreferrer noopener">Factions</a> are one of the most exciting new features for&nbsp;<em>XDefiant,</em><strong><em>&nbsp;</em></strong>offering unique abilities and playstyles. However, there isn’t much information about these groups, so we don’t know what abilities they will have just yet.</p>
- <p data-characters="248" data-current-count="248" data-injectable="false">Ranked Mode will also be officially released later down the line. Currently, <em>XDefiant&nbsp;</em>only presents a Trial Run version to give players a small taste. Ubisoft will likely take the feedback of this mode to&nbsp;improve Ranked Mode in the near future.&nbsp;</p> <figure data-current-count="548" data-injectable="true"><figcaption>Image via Ubisoft</figcaption></figure>
- <p data-characters="291" data-current-count="291" data-injectable="false"><a href="https://www.destructoid.com/how-to-fix-xdefiant-practice-zone-not-working/" target="_blank" rel="noreferrer noopener">Practice Zones</a>, a much-awaited feature, will soon be available in&nbsp;<em>XDefiant</em>. These zones will serve as a perfect platform for players to test their weapons and strategies. While the current version may seemingly have this feature, it’s not accessible yet, but stay tuned for updates.&nbsp;</p> <p data-characters="217" data-current-count="508" data-injectable="true">If you want more variety in&nbsp;<em>XDefiant,</em>&nbsp;the upcoming seasons will bring forth new weapons and maps. It will make the game much less tedious once these roll out, especially if you’re gunning for another weapon.&nbsp;</p>
- <p data-characters="309" data-current-count="309" data-injectable="false">Ubisoft will also improve <em>XDefiant</em> altogether by maintaining a balanced experience for all players. This mission goes along with their choice of not including&nbsp;<a href="https://www.destructoid.com/does-xdefiant-have-sbmm-skill-based-matchmaking/" target="_blank" rel="noreferrer noopener">SBMM</a>, which has become a controversial topic in shooter games. More pushes like this will likely come up more and more to keep things fair in-game.&nbsp;</p>
-
-<hr>
-<p><i data-stringify-type="italic"> Destructoid is supported by our audience. When you purchase through links on our site, we may earn a small affiliate commission.&nbsp;</i><i data-stringify-type="italic"><a href="https://destructoid.com/affiliate-policy" target="_blank" rel="noopener noreferrer" data-stringify-link="https://destructoid.com/affiliate-policy" data-sk="tooltip_parent">Learn more</a></i> </p>
-</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Diablo 4 Hanged Man’s Hall location to summon Echo of Andariel]]></title>
-            <link>https://www.destructoid.com/diablo-4-hanged-mans-hall-location-to-summon-echo-of-andariel/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=diablo-4-hanged-mans-hall-location-to-summon-echo-of-andariel</link>
-            <guid>https://www.resetera.com/threads/diablo-4-hanged-man%E2%80%99s-hall-location-to-summon-echo-of-andariel.878535/</guid>
-            <content:encoded><![CDATA[https://www.destructoid.com/diablo-4-hanged-mans-hall-location-to-summon-echo-of-andariel/?utm_source=rss&utm_medium=rss&utm_campaign=diablo-4-hanged-mans-hall-location-to-summon-echo-of-andariel<br/><div id="readability-page-1" class="page"><div>
-<p data-characters="302" data-injectable="true" data-video="true">Andariel returns in <em><a href="https://www.destructoid.com/reviews/review-diablo-4/" target="_blank" rel="noreferrer noopener">Diablo 4’s</a></em> Season 4 update, and taking her on is a tall order. You should be packing some excellent gear and be at or above level 100 to take on Echo of Andariel. But before you can even attempt it, you’re going to need how to get where she can be summoned: Hanged Man’s Hall.</p> <p data-characters="167" data-current-count="167" data-injectable="false">Getting right into the meat of what you need to know, the <strong>Hanged Man’s Hall lair is found East of Tarsarak</strong> in Kehjistan. It’s not all that far. Here’s a picture:</p> <figure data-current-count="467" data-injectable="true"><figcaption>Screenshot by Destructoid</figcaption></figure>
- <p data-characters="339" data-current-count="339" data-injectable="false">Working backwards, in order to summon the Echo of Andariel, you’re going to need <strong>two Pincushioned Dolls and two Sandscorched Shackles</strong>. Pincushioned Dolls are gained from The Beast in the Ice and Sandscorched Shackles are dropped by Lord Zir. These are endgame bosses if that isn’t already clear. You need to fight them in World Tier 4.</p> <p data-characters="123" data-current-count="462" data-injectable="true">You’ve probably learned this, but the Pincushioned Dolls and Sanscorched Shackles you use in the summon will be consumed.</p>
- <p data-characters="125" data-current-count="125" data-injectable="false">Andariel is pretty analogous to her brother Duriel. That’s in terms of power level, but also in the loot that gets dropped.</p> <p data-characters="301" data-current-count="426" data-injectable="false">Also note that you can now fight Tormented versions of the bosses, if you feel prepared. These are level 200 versions that have better chances at rare loot. In order to summon the tormented version, you need <a href="https://www.destructoid.com/how-to-get-sygian-stone-in-diablo-4-season-4/">Stygian Stones</a>, as well as six Sandsorched Shackles and six Pincushioned Dolls. Good hunting.</p>
-
-<hr>
-<p><i data-stringify-type="italic"> Destructoid is supported by our audience. When you purchase through links on our site, we may earn a small affiliate commission.&nbsp;</i><i data-stringify-type="italic"><a href="https://destructoid.com/affiliate-policy" target="_blank" rel="noopener noreferrer" data-stringify-link="https://destructoid.com/affiliate-policy" data-sk="tooltip_parent">Learn more</a></i> </p>
-</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Can you remove the black bars in Hellblade 2?]]></title>
-            <link>https://www.destructoid.com/can-you-remove-the-black-bars-in-hellblade-2/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=can-you-remove-the-black-bars-in-hellblade-2</link>
-            <guid>https://www.resetera.com/threads/can-you-remove-the-black-bars-in-hellblade-2.878532/</guid>
-            <content:encoded><![CDATA[https://www.destructoid.com/can-you-remove-the-black-bars-in-hellblade-2/?utm_source=rss&utm_medium=rss&utm_campaign=can-you-remove-the-black-bars-in-hellblade-2<br/><div id="readability-page-1" class="page"><div>
-<p data-characters="429" data-injectable="true" data-video="true"><em>Hellblade 2 </em>is a visual feast no matter where you look. Whether it be the <a href="https://www.destructoid.com/how-to-open-the-village-gate-in-hellblade-2/">environmental details</a> offering gorgeous vistas, the more supernatural elements being surprisingly grotesque, or the smooth transitions between cutscenes and gameplay, your eyes never want to look away. Though for all its beauty, the mandatory black bars on the game aren’t the best. Here’s whether you can remove the black bars in <em>Hellblade 2</em>.</p> <h2 id="h-is-it-possible-to-get-rid-of-the-black-bars-in-hellblade-2" data-injectable="false">Is it possible to get rid of the black bars in Hellblade 2?</h2> <p data-characters="385" data-current-count="385" data-injectable="false">If you’re playing <em>Hellblade 2</em> on Xbox,<strong> removing the black bars is impossible</strong>. No settings let you remove them, and you can’t tweak anything about your install either. This is the case for the PC version as well, but it isn’t technically impossible to remove the black bars there. You’ll just need to seek outside help through a mod, rather than the game itself.</p> <p data-characters="273" data-current-count="658" data-injectable="true">The <a href="https://www.nexusmods.com/senuassagahellblade2/mods/6">No Black Bars (Letterboxing fix) No Zoom mod</a> by Giodga removes the black bars without affecting image quality and lets you get a better look at the world. If you’re willing to take the plunge, then you’ll want to take the following steps to install the mod:</p>
- <figure data-current-count="300" data-injectable="false"><figcaption>Image via Destructoid.</figcaption></figure> <ul data-found-items="5" data-current-count="500" data-injectable="true"> <li>Download the mod through Nexus Mods. <ul> <li>Whether you download the standard mod or the one with no Chromatic Aberration and Film Grain is up to you.</li> </ul> </li> <li>Open the Run program on your PC.</li> <li>Type in %LocalAppData% and hit Enter.</li> <li>Open the Hellblade2 folder, followed by the Saved, Config, and WinGDK/Windows folders.</li> <li>Drag and drop the Engine.ini file from the mod into this folder.</li> </ul>
- <p data-characters="198" data-current-count="198" data-injectable="false">With that done, launch the game again and the black bars should be gone. If they aren’t or there’s a major issue, you may want to <strong>check the mod page again</strong> for troubleshooting assistance.</p>
-
-<hr>
-<p><i data-stringify-type="italic"> Destructoid is supported by our audience. When you purchase through links on our site, we may earn a small affiliate commission.&nbsp;</i><i data-stringify-type="italic"><a href="https://destructoid.com/affiliate-policy" target="_blank" rel="noopener noreferrer" data-stringify-link="https://destructoid.com/affiliate-policy" data-sk="tooltip_parent">Learn more</a></i> </p>
-</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Does XDefiant have Search and Destroy?]]></title>
-            <link>https://www.destructoid.com/does-xdefiant-have-search-and-destroy/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=does-xdefiant-have-search-and-destroy</link>
-            <guid>https://www.resetera.com/threads/does-xdefiant-have-search-and-destroy.878526/</guid>
-            <content:encoded><![CDATA[https://www.destructoid.com/does-xdefiant-have-search-and-destroy/?utm_source=rss&utm_medium=rss&utm_campaign=does-xdefiant-have-search-and-destroy<br/><div id="readability-page-1" class="page"><div>
-<p data-characters="148" data-injectable="true" data-video="true">Search and Destroy is a staple in <em>Call of Duty</em> and its competitive scene, and players may want to know if there is a similar game mode in <em>XDefiant</em>. </p> <p data-characters="546" data-current-count="546" data-injectable="true">Since the start of <em>Call of Duty</em>, Search and Destroy has been in every title. The goal of the game mode is for the attacking side to either eliminate the defending team, or arm and detonate one of the two bomb sites. Meanwhile, the defending team can either defuse the bomb (once planted) or take out all of the attackers. Players only have one life per round, and the first team who wins six rounds emerges victorious. Along the way, there have been a few different variations of the game mode, but the core principles have always been the same. </p>
- <p data-characters="108" data-current-count="108" data-injectable="false">Other FPS titles have similar game modes, leading to the question of whether or not it will be in <em>XDefiant</em>. </p> <h2 id="h-is-search-and-destroy-in-xdefiant" data-injectable="false">Is Search and Destroy in <em>XDefiant</em>? </h2> <figure data-current-count="408" data-injectable="true"><figcaption>Image via Ubisoft </figcaption></figure>
- <p data-characters="266" data-current-count="266" data-injectable="false"><strong>There is no Search</strong> <strong>and Destroy mode in <em>XDefiant</em> or any similar game mode</strong>. However, a player <a href="https://x.com/ItsMagicT/status/1792939283659288641" target="_blank" rel="noreferrer noopener">asked</a> on Twitter if a search-and-destroy mode would ever be added, and XDefiant executive producer Mark Rubin <a href="https://x.com/PixelsofMark/status/1792939592162939219" target="_blank" rel="noreferrer noopener">confirmed </a>that the game mode <strong>would be added</strong> in a future update. </p> <p data-characters="271" data-current-count="537" data-injectable="true">After a six-week pre-season period, <em>XDefiant</em> will release a new seasonal update every three months to add new weapons, maps, events, and factions. Throughout the title’s first year, there will be four new factions, 12 weapons, 12 maps, and more modes and features. </p>
- <p data-characters="248" data-current-count="248" data-injectable="false">Ubisoft also confirmed that an official Ranked Mode will be added in a future update. With that in mind, a Search and Destroy game mode could potentially be the perfect game mode to complement the other potential offerings in a competitive setting.</p>
-
-<hr>
-<p><i data-stringify-type="italic"> Destructoid is supported by our audience. When you purchase through links on our site, we may earn a small affiliate commission.&nbsp;</i><i data-stringify-type="italic"><a href="https://destructoid.com/affiliate-policy" target="_blank" rel="noopener noreferrer" data-stringify-link="https://destructoid.com/affiliate-policy" data-sk="tooltip_parent">Learn more</a></i> </p>
-</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Call of Duty 2024's likely teaser site sets the mood by blindfolding Mount Rushmore]]></title>
-            <link>https://www.eurogamer.net/call-of-duty-2024s-likely-teaser-site-sets-the-mood-by-blindfolding-mount-rushmore</link>
-            <guid>https://www.resetera.com/threads/call-of-duty-2024s-likely-teaser-site-sets-the-mood-by-blindfolding-mount-rushmore.878514/</guid>
-            <content:encoded><![CDATA[https://www.eurogamer.net/call-of-duty-2024s-likely-teaser-site-sets-the-mood-by-blindfolding-mount-rushmore<br/><div id="readability-page-1" class="page"><div id="content_above">
-
-
-
-<p>
-If you click on a link and make a purchase we may receive a small commission.  <a href="https://www.eurogamer.net/editorial-policy">Read our editorial policy</a>.
-</p>
-    <div>
-        <article data-ads="true" data-article-type="news" data-paywalled="false" data-premium="false" data-type="article">
-
-
-<header>
-  
-
-    <div>
-        
-
-        <p>Ahead of reported June reveal.</p>
-
-    </div>
-
-
-  <p>
-  <figure>
-  <a href="https://assetsio.gnwcdn.com/cod-2024-mount-rushmore.jpg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
-  
-  </a>
-
-      <figcaption>
-        <span>
-Image credit:          <cite>Activision/Microsoft</cite>
-        </span>
-      </figcaption>
-  </figure>
-  </p>
-
-    
-
-</header>    <div>
-
-
-
-            <p>
-A new year means a new Call of Duty, meaning Activision Blizzard is going to have to get around to unveiling it at some point. Reports are suggesting that 'some point' will almost certainly be during Microsoft's Xbox showcase this June, but before then, the first teaser has seemingly now been spotted in an unassuming corner of the internet.
-</p>
-<p>
-More specifically, a likely new Call of Duty 2024 teaser site has emerged (thanks <a href="https://x.com/charlieINTEL/status/1793301871429382299">Charlie Intel</a>) at <a href="https://thetruthlies.com/1/">TheTruthLies.com</a>, where visitors are able to fiddle with some buttons on a TV set and watch a quick blast of mysterious footage.
-</p>
-<p>
-Currently, only one of the TV's six channels shows footage when selected, and there's no explicit Call of Duty branding to definitively confirm the connection - but it's an easy enough leap to make given the distinctive orange logo that appears in various places around the site.
-</p>
-<figure>
-<p>
-<a aria-label="Call of Duty 2024: the truth lies teaser" data-lightbox="false" data-platform="youtube" href="https://www.youtube.com/embed/1mXJ3S3bLL4?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
-<span>Call of Duty 2024: the truth lies teaser</span>
-<template>
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/1mXJ3S3bLL4?autoplay=1" frameborder="0" loading="lazy" src="https://www.youtube-nocookie.com/embed/1mXJ3S3bLL4?autoplay=1">
-</iframe> </template>
-</a>
-</p>
-<figcaption>TheTruthLies.com's first bit of mysterious footage.<a href="https://www.youtube.com/watch?v=1mXJ3S3bLL4" rel="noopener" target="_blank">Watch on YouTube</a></figcaption></figure>
-<p>
-Starting with the footage, though, it's a short jigglycam sequence - more The Blair Witch Project than Call of Duty, to be honest - that features a group of (gasp) activists scurrying through the woods at night. "This'll wake them up", somone says at one point, and we eventually see the results of their scheming when the footage cuts to daylight - revealing Mount Rushmore's four presidential faces now festooned with blindfolds and adorned with the words, "The truth lies".
-</p>
-<p>
-Incidentally, the site's metadata has a longer version of that slogan, reading, "You might remember a better time. But it was false. Trust no one. Open your eyes. Find the truth."
-</p>
-<p>
-It's the big orange logo squirted across Abraham Lincoln's noggin (and used as the site's favicon) that ties things together, of course; it's the same logo - a three headed dog - Microsoft previously used to <a href="https://www.eurogamer.net/xbox-games-showcase-announced-for-june-with-mystery-game-direct">tease the mystery Direct event</a> that'll immediately follow its Xbox Games Showcase on Sunday, 9th June. Last year, it was reported Call of Duty 2024 was being developed by Treyarch under the codename Cerebrus, so there's your link.
-</p>
-<p>
-As it turns out, we might know a fair bit about Call of Duty 2024 already. A report last November claimed it would be a <a href="https://www.eurogamer.net/call-of-duty-2024-a-black-ops-title-set-in-the-gulf-war-new-report-claims">Black Ops title set in the Gulf War</a> and featuring 'traditional combat technology' - one supposedly attempting "explore a nuanced narrative of the Gulf War, with a critical focus on different participants within the conflict."
-</p>
-<p>
-More details will likely arrive on 9th June, and we can seemingly expect at least five more TheTruthLies.com teases ahead of then. There's no hint of a release date for Call of Duty 2024 yet - beyond claims of a "late fall, early winter" launch - but whenever it shows up, it'll reportedly be a <a href="https://www.eurogamer.net/call-of-duty-2024-will-launch-into-xbox-game-pass-microsoft-has-reportedly-decided">day-one title on Game Pass</a>.
-</p>
-
-
-
-        </div>
-
-
-        </article>
-
-  
-    </div>
-
-
-  
-      </div></div>]]></content:encoded>
         </item>
     </channel>
 </rss>
