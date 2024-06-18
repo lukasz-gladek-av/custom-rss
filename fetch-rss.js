@@ -61,7 +61,7 @@ async function fetchAndProcessFeed() {
       item.title?.startsWith('How to')
       || item.title?.startsWith('Where to find')
       || item.title?.endsWith('? Explained')
-      || (item.title?.includes('Save') && (item.title?.includes('Off'))
+      || (item.title?.includes('Save') && (item.title?.includes('Off')))
     ) {
       continue;
     }
