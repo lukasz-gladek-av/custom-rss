@@ -57,7 +57,12 @@ async function fetchAndProcessFeed() {
   const parsedFeed = await rssParser.parseURL(originalFeedUrl);
 
   for (const item of parsedFeed.items) {
-    if (item.title?.startsWith('How to')) {
+    if (
+      item.title?.startsWith('How to')
+      || item.title?.startsWith('Where to find')
+      || item.title?.endsWith('? Explained')
+      || (item.title?.includes('Save') && (item.title?.includes('Off'))
+    ) {
       continue;
     }
     try {
