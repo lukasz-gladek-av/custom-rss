@@ -69,6 +69,10 @@ async function fetchAndProcessFeed() {
       // Get article link
       const itemArticleContent = item['content:encoded'];
       const itemArticleLink = extractHrefFromContent(itemArticleContent);
+
+      if (itemArticleLink.includes('destructoid')) {
+        continue;
+      }
       
       // Fetch the article content
       const response = await axios.get(itemArticleLink);
