@@ -13,7 +13,7 @@ const feed = new Feed({
   link: 'https://lukasz-gladek-av.github.io/custom-rss/gaming.xml',
 });
 
-const skipSitesMatches = ['destructoid.com', 'polygon.com'), 'gamesindustry.biz', 'vgbees.com']
+const skipSitesMatches = ['destructoid.com', 'polygon.com', 'gamesindustry.biz', 'vgbees.com']
 
 function extractHrefFromContent(htmlContent) {
   const dom = new JSDOM(htmlContent, {
