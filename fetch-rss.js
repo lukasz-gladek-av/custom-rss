@@ -13,6 +13,8 @@ const feed = new Feed({
   link: 'https://lukasz-gladek-av.github.io/custom-rss/gaming.xml',
 });
 
+const skipSitesMatches = ['destructoid.com', 'polygon.com'), 'gamesindustry.biz', 'vgbees.com']
+
 function extractHrefFromContent(htmlContent) {
   const dom = new JSDOM(htmlContent, {
     resources: "usable",  // Ensures that some resources like images or frames are loaded
@@ -70,7 +72,7 @@ async function fetchAndProcessFeed() {
       const itemArticleContent = item['content:encoded'];
       const itemArticleLink = extractHrefFromContent(itemArticleContent);
 
-      if (itemArticleLink.includes('destructoid')) {
+      if (skipSitesMatches.some(site => itemArticleLink.includes(site))) {
         continue;
       }
       
