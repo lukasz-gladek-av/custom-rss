@@ -59,11 +59,14 @@ async function fetchAndProcessFeed() {
   const parsedFeed = await rssParser.parseURL(originalFeedUrl);
 
   for (const item of parsedFeed.items) {
+    const itemTitleLower = item.title.toLowerCase();
     if (
-      item.title?.startsWith('How to')
-      || item.title?.startsWith('Where to find')
-      || item.title?.endsWith('? Explained')
-      || (item.title?.includes('Save') && (item.title?.includes('Off')))
+      itemTitleLower?.startsWith('how to')
+      || itemTitleLower?.startsWith('where to find')
+      || itemTitleLower?.startsWith('daily deals')
+      || itemTitleLower?.endsWith('? explained')
+      || itemTitleLower?.endsWith('- answered')
+      || (itemTitleLower?.includes('save') && (itemTitleLower?.includes('off')))
     ) {
       continue;
     }
