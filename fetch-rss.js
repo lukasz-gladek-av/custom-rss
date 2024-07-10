@@ -62,10 +62,12 @@ async function fetchAndProcessFeed() {
     const itemTitleLower = item.title.toLowerCase();
     if (
       itemTitleLower?.startsWith('how to')
+      || itemTitleLower?.includes(': how to')
       || itemTitleLower?.startsWith('where to find')
       || itemTitleLower?.startsWith('daily deals')
       || itemTitleLower?.endsWith('? explained')
       || itemTitleLower?.endsWith('- answered')
+      || itemTitleLower?.endsWith('– answered')
       || (itemTitleLower?.includes('save') && (itemTitleLower?.includes('off')))
     ) {
       continue;
