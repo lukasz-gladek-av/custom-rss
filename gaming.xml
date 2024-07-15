@@ -4,9 +4,231 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Mon, 15 Jul 2024 16:20:34 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 15 Jul 2024 16:38:20 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[GDC 2024 Dial Up the Diegetics: Musical Sound Effects]]></title>
+            <link>https://www.gamedeveloper.com/audio/gdc-2024-dial-up-the-diegetics-musical-sound-effects</link>
+            <guid>https://www.resetera.com/threads/gdc-2024-dial-up-the-diegetics-musical-sound-effects.927600/</guid>
+            <content:encoded><![CDATA[https://www.gamedeveloper.com/audio/gdc-2024-dial-up-the-diegetics-musical-sound-effects<br/><div id="readability-page-1" class="page"><div data-module="content" data-testid="article-base-body-content"><p data-testid="content-paragraph"><span data-testid="content-text">Hello everyone!&nbsp; I’m video game composer Winifred Phillips – my latest is the music for the bestselling remake of&nbsp;</span><span data-testid="content-text"><a target="_blank" href="https://www.digitaleclipse.com/games/wizardry">Wizardry: Proving Grounds of the Mad Overlord!</a></span><span data-testid="content-text">&nbsp;</span><span data-testid="content-text"><span>(</span></span><span data-testid="content-text"><a target="_blank" href="https://open.spotify.com/album/0CR7BXMJIrhGx7XCP1GYiy">Listen</a></span><span data-testid="content-text">&nbsp;</span><span data-testid="content-text"><span>and</span></span><span data-testid="content-text">&nbsp;</span><span data-testid="content-text"><a target="_blank" href="https://winifredphillips.bandcamp.com/album/wizardry-proving-grounds-of-the-mad-overlord-original-game-soundtrack">download</a></span><span data-testid="content-text">&nbsp;</span><span data-testid="content-text"><span>the</span></span><span data-testid="content-text">&nbsp;</span><span data-testid="content-text"><a target="_blank" href="https://www.facebook.com/winifred.phillips.3/posts/pfbid02pafknZJ5ZA5iVXBMzQeAjQuFu1QT7fGb8U6SC2xoJuSC9XoHfzqf2aipkT8uwbcbl">award-winning</a></span><span data-testid="content-text">&nbsp;</span><span data-testid="content-text"><span>soundtrack for free, and vote for the Wizardry soundtrack in the</span></span><span data-testid="content-text">&nbsp;</span><span data-testid="content-text"><a target="_blank" href="https://www.worldsoundtrackawards.com/news/vote-for-the-wsa-game-music-awards-2024">public voting of the World Soundtrack Awards</a></span><span data-testid="content-text"><span>)</span></span></p><p data-testid="content-paragraph"><span data-testid="content-text">Last March I was pleased to give a lecture at the Game Developers Conference 2024 — it’s a top industry event where experts in various game development disciplines share tips and techniques related to their fields. My presentation was called “</span><span data-testid="content-text"><a target="_blank" href="https://schedule.gdconf.com/session/dial-up-the-diegetics-musical-sound-effects/898557">Dial Up the Diegetics: Musical Sound Effects</a></span><span data-testid="content-text">.” Every year, after I give my lecture at GDC, I include most of the lecture content in an article series (for the benefit of those who couldn’t attend the conference). So with this article, I’m kicking off a six-part series based on my 2024 GDC presentation! In these articles you’ll find all of the discussion from my GDC lecture, supported by many of the videos and illustrations that I used to support the ideas explored in my talk.&nbsp; So let’s get started!</span></p><p data-testid="content-paragraph"><span data-testid="content-text">This discussion is going to focus on sound assets, and we tend to split these into two distinct groups. On one side we’ve got composer assets – acoustic instruments, bands and ensembles, orchestras, vocals, tonal and rhythmic samples, synthetic musical sounds, etc. On the other side, we’ve got sound designer assets – environmental ambience from weather and wildlife, incidental sound effects from tools and technology, and all those sounds we make as human beings.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">It’s understood that the music isn’t actually there. It’s non-diegetic – it’s detached – outside the world of the game.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">But having said that, let’s now ask ourselves – what if we could tie our music more closely to the rest of the game’s soundscape? Yes, our music doesn’t actually exist in the game world, but what if our music incorporated sound design that seemed to come from that environment? Would that offer players more narrative immersion? More emotional connection? Would the music seem more intrinsically attached to the game?</span></p><h2 data-testid="content-text" id="Sound design for composers">Sound design for composers</h2><p data-testid="content-paragraph"><span data-testid="content-text">Let’s now explore what happens when we game composers use the tools of sound design in our music. By integrating sound effects into our tracks, we can give our music a character and flavor that is strongly associated with the diegetics of the game. It helps our music contribute better to overall immersion. Plus, it’s a lot of fun for us as game composers!</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Over the course of these six articles, I’m going to be drawing examples from the music I composed for thirteen of my previous game projects.&nbsp; These include titles from some famous and popular franchises.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">We’ll be considering ways in which different categories of sound design can function best from within the structure of a musical composition:</span></p><p data-testid="content-paragraph"><span data-testid="content-text">We’ll also be considering how each of these categories can make our music feel more evocative. So let’s start with the first item on our list:</span></p><h2 data-testid="content-text" id="Environmental diegetics">Environmental diegetics</h2><p data-testid="content-paragraph"><span data-testid="content-text">This is the ground floor of sound design – the audio of our surroundings in the game – and these audio assets can be sorted into three varieties.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">The first two focus on short, discrete sounds such as the spontaneous noises that are generated by an indoor or outdoor location, and the brief sounds that would be triggered by a person or creature while moving through that unique space. The third category covers the general ambience of the area, which typically includes more lengthy audio sources.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Sound designers are naturally thinking about all three of these categories, but we game composers can use them too. So let’s start by looking at all those little noises that come from our surroundings – and here’s a good example that will show how useful they can be.</span></p><h2 data-testid="content-text" id="Sounds of an underwater world">Sounds of an underwater world</h2><p data-testid="content-paragraph"><span data-testid="content-text">Developed by Sumo Digital, Sackboy: A Big Adventure is a whimsical platformer that lets gamers jump, swing, and fly through the colorful and zany realms of Craftworld. As a member of the music composition team, I was hired to compose the music for Sackboy’s underwater adventures in the Kingdom of Crablantis. My whole job centered on musically evoking the wonder and beauty of subaquatic exploration – which is the reason why I decided to use water sounds in my music. So first I had to consider – what do we hear when we’re underwater? Something like this?</span></p><p><iframe title="Embedded content" src="https://www.youtube.com/embed/ZXBHlvds4_g?si=Lcb-OkYHJ9S63Qsu" height="450px" width="100%" allowfullscreen="" data-testid="iframe-video"></iframe></p><p data-testid="content-paragraph"><span data-testid="content-text">Unfortunately, that didn’t seem right – too busy and chaotic to be a good musical tool. So, what other kinds of water sounds might be useful?</span></p><p><iframe title="Embedded content" src="https://www.youtube.com/embed/IYtqb3ffkcU?si=k66ba9ygCzNLtX0Q" height="450px" width="100%" allowfullscreen="" data-testid="iframe-video"></iframe></p><p data-testid="content-paragraph"><span data-testid="content-text">Now, that’s better. I took a long recording of water dripping, loaded it into Pro Tools and edited all the individual drips into separate WAV files. Then I created a virtual instrument, applied some reverb and delay, and spread the sounds across my keyboard so that I could play them musically, like this:</span></p><p><iframe title="Embedded content" src="https://www.youtube.com/embed/gL2Ge39_KsI?si=Mcpie38GlvR7bMn3" height="450px" width="100%" allowfullscreen="" data-testid="iframe-video"></iframe></p><p data-testid="content-paragraph"><span data-testid="content-text">That seemed to be working. But I was still thinking about those bubbles, and I started experimenting with sounds that were like bubbles, but not so chaotic – until I stumbled onto this:</span></p><p><iframe title="Embedded content" src="https://www.youtube.com/embed/bMRwf2PDpLc?si=0AZ5KQliQTcHYyhe" height="450px" width="100%" allowfullscreen="" data-testid="iframe-video"></iframe></p><p data-testid="content-paragraph"><span data-testid="content-text">It’s just the mouth of a bottle being flicked with your thumb, creating a nice ‘pop’ sound, like a bursting bubble. Seemed to work, so I gave this little ‘pop’ the same treatment that I’d given the drips, so that I could play them like an instrument:</span></p><p><iframe title="Embedded content" src="https://www.youtube.com/embed/ucXUX5ptKFI?si=M1mG68HgbbUNE5gC" height="450px" width="100%" allowfullscreen="" data-testid="iframe-video"></iframe></p><p data-testid="content-paragraph"><span data-testid="content-text">Now that I had all these tools, I could use them in my music compositions for the Kingdom of Crablantis. Here’s what that was like:</span></p><p><iframe title="Embedded content" src="https://www.youtube.com/embed/nt7b7Z8ib8A?si=s4iYLgkEzOK42ZUw" height="450px" width="100%" allowfullscreen="" data-testid="iframe-video"></iframe></p><p data-testid="content-paragraph"><span data-testid="content-text">As you can see, short, succinct environmental sounds can be really useful to us as composers.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">In part two of this series, we’ll be further exploring environmental sounds, and then we’ll consider the utility of sounds derived from the animal kingdom.&nbsp; Until then, thanks for reading!</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Winifred Phillips is a BAFTA-nominated video game composer whose latest project is the original musical score for the video game&nbsp;</span><span data-testid="content-text"><a target="_blank" href="https://www.digitaleclipse.com/games/wizardry">Wizardry: Proving Grounds of the Mad Overlord</a></span><span data-testid="content-text">(official soundtrack available now on&nbsp;</span><span data-testid="content-text"><a target="_blank" href="https://open.spotify.com/album/1AHuFjOuQfvQ3v4MeA1ipi">Spotify</a></span><span data-testid="content-text"> and as a free album download on&nbsp;</span><span data-testid="content-text"><a target="_blank" href="https://winifredphillips.bandcamp.com/album/wizardry-proving-grounds-of-the-mad-overlord-original-game-soundtrack">Bandcamp</a></span><span data-testid="content-text">).&nbsp;Music from her latest album release,&nbsp;</span><span data-testid="content-text"><a target="_blank" href="https://open.spotify.com/album/3iOuZnHjHZcZhuQYIsHbbP">Ancient Heroes,</a></span><span data-testid="content-text"> is currently nominated for a Hollywood Independent Music Award, and is now available&nbsp;</span><span data-testid="content-text"><a target="_blank" href="https://music.apple.com/au/album/ancient-heroes/1721478696">from the BMG record label&nbsp;</a></span><span data-testid="content-text"><a target="_blank" href="https://music.apple.com/au/album/ancient-heroes/1721478696">1 Revolution</a></span><span data-testid="content-text">.&nbsp;Phillips is known for composing music for games in many of the most famous and popular franchises in gaming:&nbsp;</span><span data-testid="content-text"><span>Assassin’s Creed, God of War, Total War,&nbsp;The Sims, LittleBigPlanet, Lineage, Jurassic World, </span></span><span data-testid="content-text">and&nbsp;</span><span data-testid="content-text"><span>Wizardry</span></span><span data-testid="content-text">.&nbsp;Phillips’ awards include the D.I.C.E. Award, six Game Audio Network Guild Awards (including Music of the Year), and four Hollywood Music in Media Awards. She is the author of the award-winning bestseller&nbsp;</span><span data-testid="content-text"><a target="_blank" href="http://a.co/jhK0uR6">A COMPOSER’S GUIDE TO GAME MUSIC</a></span><span data-testid="content-text">, published by the MIT Press. An interview with her has been published as a part of the Routledge text,&nbsp;</span><span data-testid="content-text"><a target="_blank" href="https://www.amazon.com/Womens-Music-Screen-Diverse-Narratives-dp-0367210266/dp/0367210266/ref=mt_other?_encoding=UTF8&amp;me=&amp;qid=1622484186">Women’s Music for the Screen: Diverse Narratives in Sound</a></span><span data-testid="content-text">, which collects the viewpoints of the most esteemed female composers in film, television, and games.&nbsp; Follow her on&nbsp;</span><span data-testid="content-text"><a target="_blank" href="http://www.twitter.com/winphillips">Twitter</a></span><span data-testid="content-text">,&nbsp;</span><span data-testid="content-text"><a target="_blank" href="https://www.facebook.com/winifredphillips">Facebook</a></span><span data-testid="content-text">, and&nbsp;</span><span data-testid="content-text"><a target="_blank" href="https://www.instagram.com/winifred_phillips/">Instagram</a></span><span data-testid="content-text">.</span></p></div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[The Witcher 4 is the ‘Most Advanced’ Out of All Current CD Projekt Red Games]]></title>
+            <link>https://insider-gaming.com/the-witcher-4-is-the-most-advanced-out-of-all-current-cd-projekt-red-games/</link>
+            <guid>https://www.resetera.com/threads/the-witcher-4-is-the-%E2%80%98most-advanced%E2%80%99-out-of-all-current-cd-projekt-red-games.927597/</guid>
+            <content:encoded><![CDATA[https://insider-gaming.com/the-witcher-4-is-the-most-advanced-out-of-all-current-cd-projekt-red-games/<br/><div id="readability-page-1" class="page"><div>
+																										
+<p>CD Projekt Red, a revered development studio in the gaming industry, has captivated fans with its back-to-back RPG blockbusters. Their ability to craft compelling RPGs, whether set in a dystopian future or a medieval past, is unparalleled. </p>
+
+
+
+<p>However, since 2020, the studio has been quiet on the game release front, leaving fans eagerly anticipating their next move. The projects currently in development at CD Projekt Red, including the next Cyberpunk game and the Witcher 4, have been the subject of much speculation. The recent discussion about the latter has only heightened the excitement.&nbsp;</p>
+
+
+
+<p>During an interview with The Flow podcast, the CD Projekt Red’s associate game director, Pawel Sasko, spoke about their upcoming project. Sasko clarified to the fans that all the games currently being developed are in the “early stages,” so we shouldn’t expect to hear about them anytime soon. The one that is the “most advanced” out of all the CD Projekt Red games would be Witcher 4. This is not a surprise, as most developers in the studio are currently involved in the upcoming Witcher game.&nbsp;</p>
+
+
+
+<figure><p>
+<iframe title="The Witcher 3: Wild Hunt - Killing Monsters Cinematic Trailer" width="1200" height="675" src="about:blank" data-lazy-src="https://www.youtube.com/embed/c0i88t0Kacs?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<p>The next installment in the Witcher series, codenamed Polaris, is set to start active production in 2024. This ambitious project, the first in a brand-new trilogy, promises to introduce many new elements while staying true to the core experience that fans love. </p>
+
+
+
+<p>One of the most significant changes is CD Projekt Red<a href="https://insider-gaming.com/the-witcher-polaris-production/" target="_blank" rel="noreferrer noopener"> confirming that Geralt of Rivia will not be the protagonist of the next game</a>, hinting at a fresh direction for the series is sure to pique fans’ interest.&nbsp;</p>
+
+
+
+<p>On the topic of Witcher, a <a href="https://insider-gaming.com/witcher-3-character-creator-mod/" target="_blank" rel="noreferrer noopener">create-your-own</a> Witcher 3 character mod surfaced online recently. Also, the live-action Witcher series has been renewed for <a href="https://insider-gaming.com/the-witcher-final-season/" target="_blank" rel="noreferrer noopener">a fifth and final season</a>, with Liam Hemsworth replacing Henry Cavill as Geralt of Rivia. What do you think about Witcher 4 being the ‘most advanced’ CD Projekt Game? Let us know in the comments.&nbsp;</p>
+
+
+
+<hr>
+
+
+
+<p>For more of the latest gaming industry news, you can read about recent claims that Ubisoft plans to release a lineup of&nbsp;<a href="https://insider-gaming.com/ubisoft-xdefiant-anime-skins/">anime skins in XDef</a><a href="https://insider-gaming.com/ubisoft-xdefiant-anime-skins/" target="_blank" rel="noreferrer noopener">i</a><a href="https://insider-gaming.com/ubisoft-xdefiant-anime-skins/">ant</a>, and sign up to receive the&nbsp;<a href="https://insider-gaming.com/visit/newsletter/">Insider Gaming newsletter</a>.</p>
+
+									</div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Ducky Zero 6108 Review: Versatile, But Not Innovative]]></title>
+            <link>https://insider-gaming.com/ducky-zero-6108-review/</link>
+            <guid>https://www.resetera.com/threads/ducky-zero-6108-review-versatile-but-not-innovative.927591/</guid>
+            <content:encoded><![CDATA[https://insider-gaming.com/ducky-zero-6108-review/<br/><div id="readability-page-1" class="page"><div>
+																										
+<p>The Ducky Zero 6108 is a no-frills mechanical keyboard that’ll get the job done whether you’re playing an intense first-person shooter or typing up a review for the Ducky Zero 6108 mechanical keyboard. It’s a relatively unassuming piece of equipment that’s well-built but offers almost nothing in the way of serious innovation.</p>
+
+
+
+<p>I’ve been playing around with the keyboard for a few days now – here’s my full Ducky Zero 6108 review.</p>
+
+
+
+<hr>
+
+
+
+<h2 id="h-i-expected-more">I Expected More</h2>
+
+
+
+<p>Recently, I picked up a Ducky x Fallout keyboard with silent Cherry MX switches and was blown away by the quality of the device. From the on-point colourisation and theme of the keyboard to the super-soft touch of the switches under the resilient, textured keys, everything about it won me over. The RGB popped, it had a nice weight to it, and the keys were well-spaced to accommodate my giant hands.</p>
+
+
+
+<p>However, when I secured this latest keyboard for a Ducky Zero 6108 review, I was left disappointed. It’s a little narrower than the Fallout keyboard, which means that the keys are cramped together with almost no spacing that you’d expect from a full-sized keyboard. It also has less attractive RGB functions, while the Fallout keyboard lights up brightly enough to make an impression.</p>
+
+
+
+<p>The layout is mostly the same, with the Ducky Zero 6108 opting for traditional keys as media control inputs rather than sliders or knobs, which is always a negative for me. The only noticeable difference is the relocation of the lock indicators – they’re now above the arrow keys, whereas on the Fallout keyboard, they were above the numpad. </p>
+
+
+
+<figure><figcaption>Dragons, I guess</figcaption></figure>
+
+
+
+
+
+
+
+<p>The Ducky Zero 6108 I ordered came in black with a swappable spacebar featuring an image of a dragon – for some reason. It also has a small text flash imprinted on the top of the keyboard that represents the brand. Aside from that, it’s as plain a keyboard as you could ever hope to receive. It’s not particularly heavy, but it still has that issue I’ve found with Ducky keyboards where the legs collapse too quickly under pressure.</p>
+
+
+
+<h2 id="h-facts-and-figures">Facts and Figures</h2>
+
+
+
+<p>At the heart of this Ducky Zero 6108 review sits the cold, hard facts.</p>
+
+
+
+<p>My keyboard came with Cherry MX2A Red switches, and they’re nice – but I do prefer the Silent switches. Even with the Q-bounce pad designed to dampen sound, it’s still not quiet enough for me. Thanks to the hot-swap technology in the board, you’re free to do what you want with the switches, replacing them with 3-pin or 5-pin switches without expending too much effort. </p>
+
+
+
+<p>Regardless of the switches you opt for, you’ll be getting the same keycaps – double-shot PBT caps that are synonymous with the Ducky brand. The shining gem in the feature line-up of the Ducky Zero 6108 is the fact that it now has tri-mode connectivity. If you want to use it as a wired keyboard, then go right ahead – but you can also make use of Bluetooth connectivity or a 2.4 GHz, dongle-backed connection.</p>
+
+
+
+<figure></figure>
+
+
+
+
+
+
+
+<p>Those relying on a wireless connection shouldn’t worry too much about the battery failing, as it’s a 2500 mAh unit, which is substantial for many hours of gaming – or work. </p>
+
+
+
+<p>In the United Kingdom, the Ducky Zero 6108 retails for around £100, which seems a bit steep, in my opinion. To be honest, there are better options out there for that price point, but if you like the assurable quality that you’ll find in every Ducky keyboard, perhaps it’s worth your money. </p>
+
+
+
+<hr>
+
+
+
+<p>For more Insider Gaming Tech, check out the <a href="https://insider-gaming.com/nvidia-geforce-rtx-5000-series-gpu-power-leaked-by-seasonic/">latest RTX 5000 series leak</a></p>
+
+									</div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[EA Sports FC 25 Reveal Happening This Week]]></title>
+            <link>https://insider-gaming.com/ea-sports-fc-25-reveal-happening-this-week/</link>
+            <guid>https://www.resetera.com/threads/ea-sports-fc-25-reveal-happening-this-week.927588/</guid>
+            <content:encoded><![CDATA[https://insider-gaming.com/ea-sports-fc-25-reveal-happening-this-week/<br/><div id="readability-page-1" class="page"><div>
+																										
+<p>EA Sports has announced that the full reveal of EA Sports FC 25 <a href="https://www.youtube.com/watch?v=pBM2xyco_Kg" target="_blank" rel="noreferrer noopener nofollow">will be happening</a> on Wednesday, July 17 at 11:57 AM ET.</p>
+
+
+
+<p>In addition to the announcement of the game’s reveal, <a href="https://insider-gaming.com/ea-sports-fc-25-cover-star/" target="_blank" rel="noreferrer noopener">it was confirmed</a> that England’s Jude Bellingham will be the cover athlete of the game. The Ultimate Edition will also feature David Beckham, Zinedine Zidane, Aitana Bonmatí, and Gianluigi Buffon on the cover.</p>
+
+
+
+<p>Other than the announcement of the reveal and the game’s Ultimate Edition cover, no other details of the game were released. Things like the first in-game look, screenshots, features, and more will come as part of the game’s reveal on Wednesday.</p>
+
+
+
+<figure></figure>
+
+
+
+<p>EA Sports FC 25 will launch on September 27. The game’s Ultimate Edition is <a href="https://insider-gaming.com/ea-fc-25-release-date-leaked/" target="_blank" rel="noreferrer noopener">expected to come with seven days</a> of early access for players starting on September 20. </p>
+
+
+
+<p>The game’s platforms haven’t been confirmed just yet. However, it’s expected that they will be on both current- and last-gen systems as well as PC and Nintendo Switch. </p>
+
+
+
+<hr>
+
+
+
+<p>What are you hoping to see new from EA Sports FC 25 with the game’s reveal? For more Insider Gaming, read the <a href="https://insider-gaming.com/exocross-preview-a-new-gamble-on-racing/" target="_blank" rel="noreferrer noopener">final preview of ExoCross</a> from iRacing ahead of the game’s late July release. Also, <a href="https://www.youtube.com/@insider_gaming?sub_confirmation=1" target="_blank" rel="noreferrer noopener">subscribe to our YouTube channel</a>&nbsp;for exclusive shows, news, interviews, reviews, and more.</p>
+
+									</div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[9 R.I.P. launches October 15 in the west]]></title>
+            <link>https://www.gematsu.com/2024/07/9-rip-launches-october-15-in-the-west</link>
+            <guid>https://www.resetera.com/threads/9-r-i-p-launches-october-15-in-the-west.927585/</guid>
+            <content:encoded><![CDATA[https://www.gematsu.com/2024/07/9-rip-launches-october-15-in-the-west<br/><div id="readability-page-1" class="page"><div>
+
+    <ul>
+    <li><a href="https://www.gematsu.com/platforms/nintendo/switch">Switch</a></li>    </ul>
+
+    
+    <p><span>Otome visual novel dated.</span>
+      </p></div><div><p><a title="Genres > Otome [90 articles]" href="https://www.gematsu.com/genres/visual-novel/otome">Otome visual novel</a> <em><a title="Games > 9 R.I.P. [5 articles]" href="https://www.gematsu.com/games/9-rip">9 R.I.P.</a></em> will launch for <a title="Platforms > Switch [15,657 articles]" href="https://www.gematsu.com/platforms/nintendo/switch">Switch</a> on October 15 in the west, publisher <a title="Companies > Idea Factory International [376 articles]" href="https://www.gematsu.com/companies/idea-factory/idea-factory-international">Idea Factory International</a> announced. It will be available both physically and digitally. <a href="https://ifi.store/products/9RIP-Standard-Edition/" rel="noopener" target="_blank">Standard</a> and <a href="https://ifi.store/products/9RIP-Limited-Edition/" rel="noopener" target="_blank">limited editions</a> are available to pre-order now at IFI’s Online Store. <span id="more-899112"></span></p><p>Here is an overview of the game, via Idea Factory International:</p><blockquote><p><strong>About</strong></p><p>Struggling with the burdens of life and questions about the future, you crave an escape. You’ve heard about prowling ghosts and people disappearing to places mysterious, strange, and maybe even a little scary. That’s when fate offers you a hand. Will you take the chance and step into the unknown?</p><p><strong>Story</strong></p><p>In this town, there is a long-standing rumor about people being spirited away… They also say that people with lots of anxiety or those who are struggling are more likely to get spirited away. You think you’ll be okay…?</p><!-- AD: content -->
+        <p>In the beginning of autumn, during her second year of high school, that’s what Misa Isshiki, was told by her best friend, causing her heart to skip a beat.</p><p>I’ll be fine, I don’t really believe in any of that stuff anyway.</p><p>That’s right… She doesn’t believe in that kind of thing… It’s just… Her life had been filled with so much stress, all related to what her future would hold…</p><p>That’s when an eerie voice reached out to her…</p><p>Why don’t we take a look and see what you should do with your life! Let’s put you on the right path…</p><p>And that’s when all the strange things around Misa began to happen…</p><p><strong>Key Features</strong></p><ul><li><strong>Over Our Dead Bodies</strong> – School Ghost Stories, Urban Legends, the Other Realm, and the Spirit World. Get spirited away to an alternate reality or uncover tragic and thrilling truths in the real world, offering a unique mix of <a title="Genres > Horror [437 articles]" href="https://www.gematsu.com/genres/horror">horror</a> and romance with 8 romance options to explore.</li><li><strong>Nightmare on Otome Street</strong> – For those wanting something a little spookier in their Otome, the School Ghost Stories route sees you trapped in a school where you hear whispers of gruesome murders having occurred. The presence of ghosts won’t make this any easier. Can you survive, and maybe even find romance in the face of horror?</li><li><strong>Insane in the Membrane</strong> – Being in a realm filled with ghosts and evil spirits will have an effect on you. Throughout the game, your choices will impact not only your affection with the characters you meet with the Love Catch system, but your psyche as well. Making the wrong choices can lead to insanity and even change you into something else entirely.</li><li><strong>Drop Dead Gorgeous</strong> – Witness rich environments and alluring characters designs. Beloved character artist from <a title="Games > Cupid Parasite [7 articles]" href="https://www.gematsu.com/games/cupid-parasite">Cupid Parasite</a>, Yuuya, stuns again with gorgeous visuals.</li></ul></blockquote><p>Watch the latest trailer below.</p><h2><span><a title="Platforms > Anime [316 articles]" href="https://www.gematsu.com/platforms/anime">Anime</a> Expo 2024 Trailer</span></h2><p><iframe title="9 R.I.P. - Anime Expo 2024 Trailer" width="500" height="281" src="https://www.youtube.com/embed/ecVVh48oxw4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p></div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Apple’s restrictions hold back the first PC emulator on the iOS App Store]]></title>
+            <link>https://arstechnica.com/?p=2037072</link>
+            <guid>https://www.resetera.com/threads/apple%E2%80%99s-restrictions-hold-back-the-first-pc-emulator-on-the-ios-app-store.927582/</guid>
+            <content:encoded><![CDATA[https://arstechnica.com/?p=2037072<br/><div id="readability-page-1" class="page"><div>
+            <h4>
+      It works, technically    —
+</h4>
+            
+            <h2 itemprop="description">UTM SE's lack of JIT compilation means "SE stands for Slow Edition."</h2>
+                    </div><div itemprop="articleBody">
+                                    
+<figure>
+  
+      <figcaption><p><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/utmse.png" data-height="505" data-width="742">Enlarge</a> <span>/</span> <em>Space Cadet Pinball</em> has never been so portable... or so tiny!</p></figcaption>  </figure>
+
+  
+
+
+
+
+<!-- cache hit 2:single/related:00745f29fe880a42986a9b2b2e9888fc --><!-- empty -->
+<p>One month after PC emulator UTM was <a href="https://arstechnica.com/gaming/2024/06/apple-rejects-pc-emulators-on-the-ios-app-store/">rejected from the iOS App Store</a>, the developers have <a href="https://x.com/UTMapp/status/1812238024220238180">announced</a> that a new "UTM SE" version is <a href="https://apps.apple.com/us/app/utm-se-retro-pc-emulator/id1564628856">now available for free on the App Store</a>. But the app's performance is severely hampered by Apple's restrictions on so-called "just-in-time" (JIT) compilation, limiting the app's suitability for effectively emulating many PC games.
+</p><p>Built on <a href="https://www.qemu.org/">the generic command-line emulation layer QEMU</a>, the <a href="https://github.com/utmapp/UTM">open-source UTM</a> boasts support for "30+ processors," from x86 and PowerPC to RISC-V and ARM64. The App Store listing promises you can "run classic software and old-school games" through both a VGA graphics mode and text-based terminal.</p>
+<p>Don't expect a seamless, RetroArch-style path to playing <em>Space Cadet Pinball</em> on your iPhone, though. The UTM developers <a href="https://mac.getutm.app/gallery/">link to pre-configured settings downloads</a> for versions of Windows going back to XP, alongside guides for getting those OSes up and running on iOS. But users will need to bring their own legitimate Windows installation ISO and go through the cumbersome process of installing the OS as well as <a href="https://www.spice-space.org/">a version of SPICE tools</a> to help coordinate access through iOS (downloading pre-built, UTM-compatible Linux builds seems more straightforward).</p>                                                                        
+                                                                                
+<h2>Slow by design</h2>
+<p>Even after that, don't expect high-level performance from this new emulator. That's because UTM SE must abide by App Store restrictions prohibiting&nbsp;apps that "install executable code." As such, the App Store version <a href="https://x.com/UTMapp/status/1812241740172263663">is a "JIT-less" build</a> that uses a Tiny-Code Threaded Interpreter (TCTI) to interpret each original line of code being run rather than fully recompiling it at runtime for smoother performance.</p>
+<figure><p><iframe type="text/html" width="640" height="360" src="https://www.youtube.com/embed/aM_jIDCSMcc?start=0&amp;wmode=transparent" frameborder="0" allowfullscreen=""></iframe></p><figcaption><p>A video shows how the lack of JIT recompilation slows down GameCube emulation on DolphiniOS.</p></figcaption></figure>
+<p>The lack of that JIT recompilation means the "SE [in UTM SE] stands for Slow Edition," as moderator CZ <a href="https://discord.com/channels/674683213217792078/674683213653737474/1262230627630055524">pithily put it in the UTM Discord</a>. "This is us telling you gaming on UTM SE is not happening." At least one user who tested running Linux via UTM SE <a href="https://www.omgubuntu.co.uk/2024/07/utm-se-qemu-pc-emulator-apple-app-store">confirmed</a> it is "dog slow" and "a gloopy experience." Those who want full performance out of UTM can still install the regular, non-SE version of the app via sideloading or an alt store.</p>
+<p>You may remember that the developers of GameCube/Wii emulator DolphiniOS cited the lack of JIT recompilation as the reason their app <a href="https://arstechnica.com/gaming/2024/04/why-a-gamecube-wii-emulator-may-not-be-possible-on-the-ios-app-store/">can't run at a functional frame rate through the iOS App Store</a>. But similar restrictions haven't stopped <a href="https://arstechnica.com/gaming/2024/04/a-touchscreen-of-nostalgia-delta-brings-classic-nintendo-consoles-to-ios/">emulators like Delta</a> from running classic gaming consoles up through the Nintendo DS at a playable frame rate, suggesting that UTM SE might be sufficient for older MS-DOS or Windows 95-era titles.
+
+                                                </p></div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Takeda Joins The Mortal Kombat 1 Roster Next Week, First Gameplay Revealed]]></title>
             <link>https://www.gameinformer.com/2024/07/15/takeda-joins-the-mortal-kombat-1-roster-next-week-first-gameplay-revealed</link>
@@ -80,7 +302,7 @@ Image credit:          <cite>Netherealm / Warner Bros.</cite>
             <title><![CDATA[Supacell Episode 2 Review: Internal Changes, External Impact]]></title>
             <link>https://kotaku.com/supacell-episode-2-two-review-tazer-1851592704</link>
             <guid>https://www.resetera.com/threads/supacell-episode-2-review-internal-changes-external-impact.927555/</guid>
-            <content:encoded><![CDATA[https://kotaku.com/supacell-episode-2-two-review-tazer-1851592704<br/><div id="readability-page-1" class="page"><div><p>The second episode of Netflix’s&nbsp;<em>Supacell</em>, “Tazer,” explores the stress and anxiety  some of the superheroes experience as they discover their powers and test their limits. While some superhero narratives follow characters who experience their powers in secret, <em>Supacell </em>shows what happens when the discovery takes place around loved ones, friends, foes, and observing strangers.<br></p><div><h4>Suggested Reading</h4></div><div data-video-id="195369" data-monetizable="true" data-position="sidebar" data-video-title="Netflix's One Piece Live-Action Trailer Has A Treasure Trove Of Anime Easter Eggs" data-video-blog-id="9" data-video-network="kotaku" data-video-duration="118" data-playlist="195369,193144,193799" data-current="195369"><div><p>Netflix's One Piece Live-Action Trailer Has A Treasure Trove Of Anime Easter Eggs</p></div><video disablepictureinpicture="" muted="" playsinline="" width="100%" height="100%" crossorigin="anonymous" preload="none"><source data-src="https://vid.kinja.com/prod/195369/195369_240p.mp4" label="240p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/195369/195369_480p.mp4" label="480p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/195369/195369_720p.mp4" label="720p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/195369/195369_1080p.mp4" label="1080p" type="video/mp4"><track kind="captions" label="English" src="https://kinja.com/api/videoupload/caption/20838.vtt" srclang="en"></video><div><ul><li data-label="">Off</li><li data-label="English">English</li></ul></div></div><div><h4>Suggested Reading</h4></div><p>This is akin to how the Marvel Cinematic Universe films opened up during and after <em>The Avengers.</em> The stories became more interesting when we started to learn about how superheroes also affect everyday people, a crucial factor in creator Rapman’s <em>Supacell</em>. I appreciate that <em>Supacell</em> went in this direction. It feels more realistic and grounded in the actual world.</p><h2 id="h399"><a id=""></a><em>Supacell </em>and the internal narrative</h2><p>This focus on the wider world contrasts with the internal feelings, secrets, and activities multiple characters feel, such as when Michael (Tosin Cole) keeps the secret of Dionne (Adelayo Adedayo)’s future death from her, though he shares with her the names he learned when visiting the future.</p><p>The theme of internal instinct versus external impact is also prominent in this episode. As Michael explores his powers, knowing they could save his fiancee, he has to decide whether he believes the truth about what he experienced and what Dionne saw, or his friend’s doubts about whether it was possible—and therefore, whether those in the hood are coming after him.</p><p>Rodney (Calvin Demba) also faces doubt from his friend, who of course doesn’t believe Rodney’s run from London to Scotland and back. As he gains control of his abilities, however, his self-confidence remains undeterred (even though women aren’t exactly interested in his rude catcalling, an action which makes him a bit difficult to like or empathize with).</p><h2 id="h400"><a id=""></a>Superpower as self-Defense and retribution</h2><p>For Tazer (Josh Tedeku), who has already been injured and traumatized, his superpower of invisibility has become his self-defense. Not only can he move unseen to avoid recognition, he makes a power move that stops his enemies. He characterizes his goals as “money, power, respect.” His friends start calling him “The Ghost.” He gets cocky quickly.<br></p><figure id="" data-id="1f6f0425c91fdeda4b89f3d8b81277cd" data-recommend-id="image://1f6f0425c91fdeda4b89f3d8b81277cd" data-format="jpg" data-width="3839" data-height="2160" data-lightbox="true" data-recommended="false" data-hide="false" contenteditable="false" draggable="false"><div contenteditable="false" data-link-reference="" data-link-target="" data-syndicationrights="false" data-imagerights="other-license" data-hide="false" data-hidecredit="false"><p><figcaption>Photo<!-- -->: <!-- -->Netflix</figcaption></p></div><span data-id="1f6f0425c91fdeda4b89f3d8b81277cd" data-recommend-id="image://1f6f0425c91fdeda4b89f3d8b81277cd" data-format="jpg" data-width="3839" data-height="2160" data-lightbox="true" data-recommended="false" data-hide="false"></span></figure><p>Sabrina (Nadine Mills) displays a reaction of fear and bewilderment after she uses her own powers. Speaking with her sister, she asks to be comforted while they’re doing hair. Here, Sabrina talks about her oldest sibling role, which could be part of why her ability manifests as a force to physically defend herself and others. As that power increases, she needs to find comfort for balance.<br></p><p>Michael, like Sabrina, experiences some shock and a period of denial, also doing his best to convince Dionne that he doesn’t have powers because he couldn’t use them on demand. Understandably, he does not trust the police and doesn’t want to go to them with this information.</p><h2 id="h401"><a id=""></a>“These powers are upon me”</h2><p>Michael says this to Dionne when he describes the condition of having superpowers—but she’s convinced they have something to do with whatever happens when he’s around Tazer. He’s also describing the weight of the responsibility he feels for preventing her murder. These layered statements appear more and more as the episode moves on. It’s masterful writing to make the more cerebral Michael the first primary character introduced, because he brings layers to the mysterious connections the superheroes share.</p><p>Initially, I wasn’t sure why each episode bears one character’s name as its title when the episodes, in some instances, give equal time to each main character. However, it becomes evident at the close of episode 2: Michael’s experience connects him to Tazer first, and Tazer’s the one making big moves that shake and move the narrative.</p><p>Again, the episode somewhat sidelined the stories of its women, which often center around what the male characters are doing. We see women cleaning up physical and emotional messes that men make, but we have yet to see a strong narrative for the women in this story. Hopefully Sabrina’s episode will reveal something more complex and empowering for the sole main female character out of the four.</p></div></div>]]></content:encoded>
+            <content:encoded><![CDATA[https://kotaku.com/supacell-episode-2-two-review-tazer-1851592704<br/><div id="readability-page-1" class="page"><div><p>The second episode of Netflix’s&nbsp;<em>Supacell</em>, “Tazer,” explores the stress and anxiety  some of the superheroes experience as they discover their powers and test their limits. While some superhero narratives follow characters who experience their powers in secret, <em>Supacell </em>shows what happens when the discovery takes place around loved ones, friends, foes, and observing strangers.<br></p><div><h4>Suggested Reading</h4></div><div data-video-id="195369" data-monetizable="true" data-position="sidebar" data-video-title="Netflix's One Piece Live-Action Trailer Has A Treasure Trove Of Anime Easter Eggs" data-video-blog-id="9" data-video-network="kotaku" data-video-duration="118" data-playlist="195369,193144,193799" data-current="195369"><div><p>Netflix's One Piece Live-Action Trailer Has A Treasure Trove Of Anime Easter Eggs</p></div><video disablepictureinpicture="" muted="" playsinline="" width="100%" height="100%" crossorigin="anonymous" preload="none"><source data-src="https://vid.kinja.com/prod/195369/195369_240p.mp4" label="240p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/195369/195369_480p.mp4" label="480p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/195369/195369_720p.mp4" label="720p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/195369/195369_1080p.mp4" label="1080p" type="video/mp4"><track kind="captions" label="English" src="https://kinja.com/api/videoupload/caption/20838.vtt" srclang="en"></video><div><ul><li data-label="">Off</li><li data-label="English">English</li></ul></div></div><div><h4>Suggested Reading</h4></div><p>This is akin to how the Marvel Cinematic Universe films opened up during and after <em>The Avengers.</em> The stories became more interesting when we started to learn about how superheroes also affect everyday people, a crucial factor in creator Rapman’s <em>Supacell</em>. I appreciate that <em>Supacell</em> went in this direction. It feels more realistic and grounded in the actual world.</p><h2 id="h3131"><a id=""></a><em>Supacell </em>and the internal narrative</h2><p>This focus on the wider world contrasts with the internal feelings, secrets, and activities multiple characters feel, such as when Michael (Tosin Cole) keeps the secret of Dionne (Adelayo Adedayo)’s future death from her, though he shares with her the names he learned when visiting the future.</p><p>The theme of internal instinct versus external impact is also prominent in this episode. As Michael explores his powers, knowing they could save his fiancee, he has to decide whether he believes the truth about what he experienced and what Dionne saw, or his friend’s doubts about whether it was possible—and therefore, whether those in the hood are coming after him.</p><p>Rodney (Calvin Demba) also faces doubt from his friend, who of course doesn’t believe Rodney’s run from London to Scotland and back. As he gains control of his abilities, however, his self-confidence remains undeterred (even though women aren’t exactly interested in his rude catcalling, an action which makes him a bit difficult to like or empathize with).</p><h2 id="h3132"><a id=""></a>Superpower as self-Defense and retribution</h2><p>For Tazer (Josh Tedeku), who has already been injured and traumatized, his superpower of invisibility has become his self-defense. Not only can he move unseen to avoid recognition, he makes a power move that stops his enemies. He characterizes his goals as “money, power, respect.” His friends start calling him “The Ghost.” He gets cocky quickly.<br></p><figure id="" data-id="1f6f0425c91fdeda4b89f3d8b81277cd" data-recommend-id="image://1f6f0425c91fdeda4b89f3d8b81277cd" data-format="jpg" data-width="3839" data-height="2160" data-lightbox="true" data-recommended="false" data-hide="false" contenteditable="false" draggable="false"><div contenteditable="false" data-link-reference="" data-link-target="" data-syndicationrights="false" data-imagerights="other-license" data-hide="false" data-hidecredit="false"><p><figcaption>Photo<!-- -->: <!-- -->Netflix</figcaption></p></div><span data-id="1f6f0425c91fdeda4b89f3d8b81277cd" data-recommend-id="image://1f6f0425c91fdeda4b89f3d8b81277cd" data-format="jpg" data-width="3839" data-height="2160" data-lightbox="true" data-recommended="false" data-hide="false"></span></figure><p>Sabrina (Nadine Mills) displays a reaction of fear and bewilderment after she uses her own powers. Speaking with her sister, she asks to be comforted while they’re doing hair. Here, Sabrina talks about her oldest sibling role, which could be part of why her ability manifests as a force to physically defend herself and others. As that power increases, she needs to find comfort for balance.<br></p><p>Michael, like Sabrina, experiences some shock and a period of denial, also doing his best to convince Dionne that he doesn’t have powers because he couldn’t use them on demand. Understandably, he does not trust the police and doesn’t want to go to them with this information.</p><h2 id="h3133"><a id=""></a>“These powers are upon me”</h2><p>Michael says this to Dionne when he describes the condition of having superpowers—but she’s convinced they have something to do with whatever happens when he’s around Tazer. He’s also describing the weight of the responsibility he feels for preventing her murder. These layered statements appear more and more as the episode moves on. It’s masterful writing to make the more cerebral Michael the first primary character introduced, because he brings layers to the mysterious connections the superheroes share.</p><p>Initially, I wasn’t sure why each episode bears one character’s name as its title when the episodes, in some instances, give equal time to each main character. However, it becomes evident at the close of episode 2: Michael’s experience connects him to Tazer first, and Tazer’s the one making big moves that shake and move the narrative.</p><p>Again, the episode somewhat sidelined the stories of its women, which often center around what the male characters are doing. We see women cleaning up physical and emotional messes that men make, but we have yet to see a strong narrative for the women in this story. Hopefully Sabrina’s episode will reveal something more complex and empowering for the sole main female character out of the four.</p></div></div>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Riyadh Masters: Who Will Claim The $1.5 Million Grand Prize?]]></title>
@@ -199,7 +421,7 @@ Image credit:          <cite>Netherealm / Warner Bros.</cite>
 
   <p>
   <figure>
-  <a href="https://assetsio.gnwcdn.com/the-finals-crossplay-header.jpg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
+  <a href="https://assetsio.gnwcdn.com/the-finals-crossplay-header.jpg?width=1200&amp;height=1200&amp;fit=bounds&amp;quality=70&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
   
   </a>
 
@@ -332,7 +554,7 @@ Image credit:          <cite>Embark Studios</cite>
             <title><![CDATA[All Shadow Of The Erdtree Duplication Coffin Locations]]></title>
             <link>https://kotaku.com/elden-ring-shadow-erdtree-duplication-remembrance-1851592524</link>
             <guid>https://www.resetera.com/threads/all-shadow-of-the-erdtree-duplication-coffin-locations.927510/</guid>
-            <content:encoded><![CDATA[https://kotaku.com/elden-ring-shadow-erdtree-duplication-remembrance-1851592524<br/><div id="readability-page-1" class="page"><div><p><em>Elden Ring</em>’s <em>Shadow of the Erdtree</em> expansion brings so much new content to the game that it nearly feels like a sequel. But it also reimagines a handful of ideas from the base game to maintain a sense of familiarity. One of these features is the ability to duplicate the Remembrances you earn from defeating bosses in the DLC—but this time you won’t be taking down massive turtle-like mausoleums to duplicate them.</p><div><h4>Suggested Reading</h4></div><div data-video-id="195502" data-monetizable="true" data-position="sidebar" data-video-title="The Most Sought After Elden Ring Sword Has A Storied History" data-video-blog-id="9" data-video-network="kotaku" data-video-duration="307" data-playlist="195502,195624,196773" data-current="195502"><div><p>The Most Sought After Elden Ring Sword Has A Storied History</p></div><video disablepictureinpicture="" muted="" playsinline="" width="100%" height="100%" crossorigin="anonymous" preload="none"><source data-src="https://vid.kinja.com/prod/195502/195502_240p.mp4" label="240p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/195502/195502_480p.mp4" label="480p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/195502/195502_720p.mp4" label="720p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/195502/195502_1080p.mp4" label="1080p" type="video/mp4"><track kind="captions" label="English" src="https://kinja.com/api/videoupload/caption/20979.vtt" srclang="en"></video><div><ul><li data-label="">Off</li><li data-label="English">English</li></ul></div></div><div><h4>Suggested Reading</h4></div><p>In <em>Shadow of the Erdtree</em>, you’ll need to find three unique coffins in the overworld to make copies of your Remembrances. And yes, that’s correct: <strong>You can only duplicate three Remembrances in the expansion.</strong> Once you’ve exhausted the seven base game mausoleums and the three DLC coffins, you’ll have to start a NG+ cycle to gain further duplication opportunities. </p><p>Since each Remembrance normally only offers a tough choice between two boss-specific rewards, carefully consider which Remembrances provide you with the right weapons or spells to complement your build before duplicating them. When you’ve made your decision, take the two identical Remembrances to Finger Reader Enia in Roundtable Hold to exchange them for <em>both</em> boss rewards.</p><h2 id="h1494"><a id=""></a><em>Shadow of the Erdtree</em> duplication coffin locations</h2><h3 id="h1495"><a id="1"></a>Scadu Altus Coffin: Cathedral of Manus Metyr </h3><figure id="" data-id="4ba9e9044311a71493628f2165560db2" data-recommend-id="image://4ba9e9044311a71493628f2165560db2" data-format="jpg" data-width="1920" data-height="1080" data-lightbox="true" data-alt="A map shows a location of a coffin." data-recommended="false" data-hide="false" contenteditable="false" draggable="false"><div contenteditable="false" data-alt="A map shows a location of a coffin." data-link-reference="" data-link-target="" data-syndicationrights="true" data-imagerights="fair-use" data-hide="false" data-hidecredit="false"><p><figcaption>Screenshot<!-- -->: <!-- -->FromSoftware / Kotaku</figcaption></p></div><span data-id="4ba9e9044311a71493628f2165560db2" data-recommend-id="image://4ba9e9044311a71493628f2165560db2" data-format="jpg" data-width="1920" data-height="1080" data-lightbox="true" data-alt="A map shows a location of a coffin." data-recommended="false" data-hide="false"></span></figure><p>The first Remembrance duplication coffin is located in Scadu Altus at the Cathedral of Manus Metyr. From the Cathedral of Manus Metyr Site of Grace, simply walk outside and check the water-filled behind the cathedral. You’ll find the coffin in plain view here.</p><hr><h3 id="h1496"><a id="2"></a>Southern Shore Coffin: Finger Ruins of Rhia </h3><figure id="" data-id="da8b2686cbe4fec9bc9eed2771df8a20" data-recommend-id="image://da8b2686cbe4fec9bc9eed2771df8a20" data-format="jpg" data-width="1920" data-height="1080" data-lightbox="true" data-alt="A map shows the location of a coffin." data-recommended="false" data-hide="false" contenteditable="false" draggable="false"><div contenteditable="false" data-alt="A map shows the location of a coffin." data-link-reference="" data-link-target="" data-syndicationrights="true" data-imagerights="fair-use" data-hide="false" data-hidecredit="false"><p><figcaption>Screenshot<!-- -->: <!-- -->FromSoftware / Kotaku</figcaption></p></div><span data-id="da8b2686cbe4fec9bc9eed2771df8a20" data-recommend-id="image://da8b2686cbe4fec9bc9eed2771df8a20" data-format="jpg" data-width="1920" data-height="1080" data-lightbox="true" data-alt="A map shows the location of a coffin." data-recommended="false" data-hide="false"></span></figure><p>The second Remembrance duplication coffin is found in the Finger Ruins of Rhia. From the Finger Ruins of Rhia Site of Grace, head forward into the ruins while hugging the right wall and fending off any terrifying Fingercreeper enemies that get in your way Eventually, a path will open along this cliffside that will lead up a bit. At the end of this area is the coffin.</p><hr><h3 id="h1497"><a id="3"></a>Scaduview Coffin: Finger Ruins of Dheo</h3><figure id="" data-id="ed3725a8590c6fa9bb0c20b54d8ce897" data-recommend-id="image://ed3725a8590c6fa9bb0c20b54d8ce897" data-format="jpg" data-width="1920" data-height="1080" data-lightbox="true" data-alt="A map shows the location of a coffin." data-recommended="false" data-hide="false" contenteditable="false" draggable="false"><div contenteditable="false" data-alt="A map shows the location of a coffin." data-link-reference="" data-link-target="" data-syndicationrights="true" data-imagerights="fair-use" data-hide="false" data-hidecredit="false"><p><figcaption>Screenshot<!-- -->: <!-- -->FromSoftware / Kotaku</figcaption></p></div><span data-id="ed3725a8590c6fa9bb0c20b54d8ce897" data-recommend-id="image://ed3725a8590c6fa9bb0c20b54d8ce897" data-format="jpg" data-width="1920" data-height="1080" data-lightbox="true" data-alt="A map shows the location of a coffin." data-recommended="false" data-hide="false"></span></figure><p>You’ll find the third Remembrance duplication coffin in the Finger Ruins of Dheo. From the Fingerstone Hill Site of Grace, descend into the ruins for a while until you can safely proceed north — some of the drops here can be deadly, so take your time. Eventually, you’ll find a path that will lead northwest. When you reach the northern cliff edge and can’t go any further, scan the area to find the coffin near some Fingercreeper enemies.</p><hr><p>Hopefully, you’ve chosen wisely and feel confident with your Remembrance duplication choices. If not, here’s to a safe and fun NG+ run!<br>.</p></div></div>]]></content:encoded>
+            <content:encoded><![CDATA[https://kotaku.com/elden-ring-shadow-erdtree-duplication-remembrance-1851592524<br/><div id="readability-page-1" class="page"><div><p><em>Elden Ring</em>’s <em>Shadow of the Erdtree</em> expansion brings so much new content to the game that it nearly feels like a sequel. But it also reimagines a handful of ideas from the base game to maintain a sense of familiarity. One of these features is the ability to duplicate the Remembrances you earn from defeating bosses in the DLC—but this time you won’t be taking down massive turtle-like mausoleums to duplicate them.</p><div><h4>Suggested Reading</h4></div><div data-video-id="195502" data-monetizable="true" data-position="sidebar" data-video-title="The Most Sought After Elden Ring Sword Has A Storied History" data-video-blog-id="9" data-video-network="kotaku" data-video-duration="307" data-playlist="195502,195624,196773" data-current="195502"><div><p>The Most Sought After Elden Ring Sword Has A Storied History</p></div><video disablepictureinpicture="" muted="" playsinline="" width="100%" height="100%" crossorigin="anonymous" preload="none"><source data-src="https://vid.kinja.com/prod/195502/195502_240p.mp4" label="240p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/195502/195502_480p.mp4" label="480p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/195502/195502_720p.mp4" label="720p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/195502/195502_1080p.mp4" label="1080p" type="video/mp4"><track kind="captions" label="English" src="https://kinja.com/api/videoupload/caption/20979.vtt" srclang="en"></video><div><ul><li data-label="">Off</li><li data-label="English">English</li></ul></div></div><div><h4>Suggested Reading</h4></div><p>In <em>Shadow of the Erdtree</em>, you’ll need to find three unique coffins in the overworld to make copies of your Remembrances. And yes, that’s correct: <strong>You can only duplicate three Remembrances in the expansion.</strong> Once you’ve exhausted the seven base game mausoleums and the three DLC coffins, you’ll have to start a NG+ cycle to gain further duplication opportunities. </p><p>Since each Remembrance normally only offers a tough choice between two boss-specific rewards, carefully consider which Remembrances provide you with the right weapons or spells to complement your build before duplicating them. When you’ve made your decision, take the two identical Remembrances to Finger Reader Enia in Roundtable Hold to exchange them for <em>both</em> boss rewards.</p><h2 id="h3529"><a id=""></a><em>Shadow of the Erdtree</em> duplication coffin locations</h2><h3 id="h3530"><a id="1"></a>Scadu Altus Coffin: Cathedral of Manus Metyr </h3><figure id="" data-id="4ba9e9044311a71493628f2165560db2" data-recommend-id="image://4ba9e9044311a71493628f2165560db2" data-format="jpg" data-width="1920" data-height="1080" data-lightbox="true" data-alt="A map shows a location of a coffin." data-recommended="false" data-hide="false" contenteditable="false" draggable="false"><div contenteditable="false" data-alt="A map shows a location of a coffin." data-link-reference="" data-link-target="" data-syndicationrights="true" data-imagerights="fair-use" data-hide="false" data-hidecredit="false"><p><figcaption>Screenshot<!-- -->: <!-- -->FromSoftware / Kotaku</figcaption></p></div><span data-id="4ba9e9044311a71493628f2165560db2" data-recommend-id="image://4ba9e9044311a71493628f2165560db2" data-format="jpg" data-width="1920" data-height="1080" data-lightbox="true" data-alt="A map shows a location of a coffin." data-recommended="false" data-hide="false"></span></figure><p>The first Remembrance duplication coffin is located in Scadu Altus at the Cathedral of Manus Metyr. From the Cathedral of Manus Metyr Site of Grace, simply walk outside and check the water-filled behind the cathedral. You’ll find the coffin in plain view here.</p><hr><h3 id="h3531"><a id="2"></a>Southern Shore Coffin: Finger Ruins of Rhia </h3><figure id="" data-id="da8b2686cbe4fec9bc9eed2771df8a20" data-recommend-id="image://da8b2686cbe4fec9bc9eed2771df8a20" data-format="jpg" data-width="1920" data-height="1080" data-lightbox="true" data-alt="A map shows the location of a coffin." data-recommended="false" data-hide="false" contenteditable="false" draggable="false"><div contenteditable="false" data-alt="A map shows the location of a coffin." data-link-reference="" data-link-target="" data-syndicationrights="true" data-imagerights="fair-use" data-hide="false" data-hidecredit="false"><p><figcaption>Screenshot<!-- -->: <!-- -->FromSoftware / Kotaku</figcaption></p></div><span data-id="da8b2686cbe4fec9bc9eed2771df8a20" data-recommend-id="image://da8b2686cbe4fec9bc9eed2771df8a20" data-format="jpg" data-width="1920" data-height="1080" data-lightbox="true" data-alt="A map shows the location of a coffin." data-recommended="false" data-hide="false"></span></figure><p>The second Remembrance duplication coffin is found in the Finger Ruins of Rhia. From the Finger Ruins of Rhia Site of Grace, head forward into the ruins while hugging the right wall and fending off any terrifying Fingercreeper enemies that get in your way Eventually, a path will open along this cliffside that will lead up a bit. At the end of this area is the coffin.</p><hr><h3 id="h3532"><a id="3"></a>Scaduview Coffin: Finger Ruins of Dheo</h3><figure id="" data-id="ed3725a8590c6fa9bb0c20b54d8ce897" data-recommend-id="image://ed3725a8590c6fa9bb0c20b54d8ce897" data-format="jpg" data-width="1920" data-height="1080" data-lightbox="true" data-alt="A map shows the location of a coffin." data-recommended="false" data-hide="false" contenteditable="false" draggable="false"><div contenteditable="false" data-alt="A map shows the location of a coffin." data-link-reference="" data-link-target="" data-syndicationrights="true" data-imagerights="fair-use" data-hide="false" data-hidecredit="false"><p><figcaption>Screenshot<!-- -->: <!-- -->FromSoftware / Kotaku</figcaption></p></div><span data-id="ed3725a8590c6fa9bb0c20b54d8ce897" data-recommend-id="image://ed3725a8590c6fa9bb0c20b54d8ce897" data-format="jpg" data-width="1920" data-height="1080" data-lightbox="true" data-alt="A map shows the location of a coffin." data-recommended="false" data-hide="false"></span></figure><p>You’ll find the third Remembrance duplication coffin in the Finger Ruins of Dheo. From the Fingerstone Hill Site of Grace, descend into the ruins for a while until you can safely proceed north — some of the drops here can be deadly, so take your time. Eventually, you’ll find a path that will lead northwest. When you reach the northern cliff edge and can’t go any further, scan the area to find the coffin near some Fingercreeper enemies.</p><hr><p>Hopefully, you’ve chosen wisely and feel confident with your Remembrance duplication choices. If not, here’s to a safe and fun NG+ run!<br>.</p></div></div>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Like a Dragon: Yakuza Live-Action Actor Talks About Playing Kazuma Kiryu in Upcoming Amazon Prime Series]]></title>
@@ -514,181 +736,6 @@ Image credit:          <cite>Embark Studios</cite>
             <link>https://kotaku.com/legend-of-zelda-echoes-of-wisdom-link-playable-1851592535</link>
             <guid>https://www.resetera.com/threads/looks-like-link-is-playable-in-zelda-echoes-of-wisdom-after-all.927456/</guid>
             <content:encoded><![CDATA[https://kotaku.com/legend-of-zelda-echoes-of-wisdom-link-playable-1851592535<br/><div id="readability-page-1" class="page"><div><figure id="" data-id="dae7845e470632cef353e277a35be887" data-recommend-id="image://dae7845e470632cef353e277a35be887" data-format="jpg" data-width="1200" data-height="675" data-lightbox="true" data-alt="Zelda stands at the end of a bridge next to two soldiers." data-recommended="false" data-hide="false" contenteditable="false" draggable="false"><div contenteditable="false" data-alt="Zelda stands at the end of a bridge next to two soldiers." data-link-reference="" data-link-target="" data-syndicationrights="true" data-imagerights="other-license" data-hide="false" data-hidecredit="false"><p><figcaption>Image<!-- -->: <!-- -->Nintendo</figcaption></p></div><span data-id="dae7845e470632cef353e277a35be887" data-recommend-id="image://dae7845e470632cef353e277a35be887" data-format="jpg" data-width="1200" data-height="675" data-lightbox="true" data-alt="Zelda stands at the end of a bridge next to two soldiers." data-recommended="false" data-hide="false"></span></figure><div><p><em>The Legend of Zelda: Echoes of Wisdom </em>is <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://kotaku.com/nintendo-direct-switch-2-2024-games-zelda-mario-metroid-1851546854&quot;,{&quot;metric25&quot;:1}]]" href="https://kotaku.com/nintendo-direct-switch-2-2024-games-zelda-mario-metroid-1851546854">coming to Switch</a></span> on September 26, and it’s giving the titular princess <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://kotaku.com/new-legend-of-zelda-nintendo-direct-echoes-of-wisdom-1851546292&quot;,{&quot;metric25&quot;:1}]]" href="https://kotaku.com/new-legend-of-zelda-nintendo-direct-echoes-of-wisdom-1851546292">a long overdue starring role</a></span>. However, it sounds like you might not be playing solely as Zelda, despite her being the headliner. According to the game’s ESRB rating, Link will be playable for at least some of the game.<br></p><div><h4>Suggested Reading</h4></div><div data-video-id="196923" data-monetizable="true" data-position="sidebar" data-video-title="Kotaku’s Hopes For Spyro The Dragon’s (Reported) Comeback" data-video-blog-id="9" data-video-network="kotaku" data-video-duration="355" data-playlist="196923,196922,196918" data-current="196923"><div><p>Kotaku’s Hopes For Spyro The Dragon’s (Reported) Comeback</p></div><video disablepictureinpicture="" muted="" playsinline="" width="100%" height="100%" crossorigin="anonymous" preload="none"><source data-src="https://vid.kinja.com/prod/196923/196923_240p.mp4" label="240p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/196923/196923_480p.mp4" label="480p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/196923/196923_720p.mp4" label="720p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/196923/196923_1080p.mp4" label="1080p" type="video/mp4"><track kind="captions" label="English" src="https://kinja.com/api/videoupload/caption/22494.vtt" srclang="en"></video><div><ul><li data-label="">Off</li><li data-label="English">English</li></ul></div></div><div><h4>Suggested Reading</h4></div><p><em>Echoes of Wisdom </em>has <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://www.esrb.org/ratings/39983/the-legend-of-zelda-echoes-of-wisdom/&quot;,{&quot;metric25&quot;:1}]]" href="https://www.esrb.org/ratings/39983/the-legend-of-zelda-echoes-of-wisdom/" target="_blank" rel="noopener noreferrer">been rated E10+</a></span>.. The write-up reveals some gameplay details, outlining some things we’ve already seen, like Zelda’s use of magic to summon creatures, but also mentions that players will use a sword and arrows to fight “as Link.” This was probably not how Nintendo hoped folks would find out, but at least ESRB doesn’t give any real context for how much of the game you play as Link. The reveal trailer’s opening moments show that there will be a point where Zelda is trapped, and it looks like there’s a playable segment in which Link must save her, so it’s entirely possible that the game starts with Link as the hero, only to shift perspectives after an opening level. The full description reads as follows:</p><blockquote data-type="BlockQuote"><p>“This is an adventure game in which players assume the role of Zelda as she attempts to dispel rifts throughout Hyrule and rescue Link. From a ¾-overhead perspective, players explore various environments while fighting stylized enemies (e.g., humans, creatures). As Link, players use a sword and arrows to defeat enemies; Zelda can use a magic wand to summon creatures (e.g., wind-up knights, pig soldiers, slime) for battle. Some enemies can be defeated by being set on fire; other creatures dissolve into mist when defeated. Battle sequences are somewhat frenetic, with several enemies attacking/fighting at once.”</p></blockquote><p>Some are speculating that <em>Echoes of Wisdom </em>may shift between Link and Zelda throughout the game, as Link disappears into a dark rift that overtakes part of Hyrule, and may have his own journey happening in tandem with Zelda’s above-ground. But whatever the case, it does sound like Link will be playable for at least <em>some </em>of the new game. While we can only speculate about how much of a role Link will play, we can also ponder things like where <em>Echoes of Wisdom </em>takes place in <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://kotaku.com/this-might-actually-be-the-official-zelda-timeline-5869993&quot;,{&quot;metric25&quot;:1}]]" href="https://kotaku.com/this-might-actually-be-the-official-zelda-timeline-5869993">the <em>Zelda </em>timeline</a></span>. Some fans already have a few ideas <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://kotaku.com/legend-of-zelda-echoes-of-wisdom-timeline-link-to-past-1851551343&quot;,{&quot;metric25&quot;:1}]]" href="https://kotaku.com/legend-of-zelda-echoes-of-wisdom-timeline-link-to-past-1851551343">based on clues in the trailer</a></span>.<br></p></div></div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Crash 4 Artist Claims There’s a Crash Bandicoot 5 ‘That Never Was’]]></title>
-            <link>https://insider-gaming.com/crash-4-artist-claims-theres-a-crash-bandicoot-5-that-never-was/</link>
-            <guid>https://www.resetera.com/threads/crash-4-artist-claims-there%E2%80%99s-a-crash-bandicoot-5-%E2%80%98that-never-was%E2%80%99.927450/</guid>
-            <content:encoded><![CDATA[https://insider-gaming.com/crash-4-artist-claims-theres-a-crash-bandicoot-5-that-never-was/<br/><div id="readability-page-1" class="page"><div>
-																										
-<p>In a recent <a href="https://x.com/FromHappyRock/status/1812003288193335509" target="_blank" rel="noreferrer noopener">post on X</a>, industry veteran and artist Nicholas Kole claimed that a fifth Crash Bandicoot game was in the works and ultimately cancelled some time ago.</p>
-
-
-
-<p>This claim appeared in a thread about Project Dragon, the codename for an original IP. The embargo on its portfolio only just lifted. One fan asked if Project Dragon was related to Spyro, and Kole replied with the surprising claim about Crash Bandicoot.</p>
-
-
-
-<p>Kole states that “some day folks will hear about the Crash 5 that never was and it’s gonna break hearts.” They did not offer further details about the game.</p>
-
-
-
-<figure><div>
-<blockquote data-width="550" data-dnt="true"><p lang="en" dir="ltr">It is not Spyro, but some day folks will hear about the Crash 5 that never was and it’s gonna break hearts</p>— Nicholas Kole (@FromHappyRock) <a href="https://twitter.com/FromHappyRock/status/1812003288193335509?ref_src=twsrc%5Etfw">July 13, 2024</a></blockquote>
-</div></figure>
-
-
-
-
-
-
-
-<p>In another reply, they add that Project Dragon and Crash Bandicoot 5 are separate cancelled projects. They clarify these were “two totally separate cancelled projects at two different studios.”</p>
-
-
-
-<p>In May 2024, Toys For Bob did appear to gear up <a href="https://insider-gaming.com/toys-for-bob-crash-bandicoot/" target="_blank" rel="noreferrer noopener">for a major announcement</a>. Its official site updated with a new logo, teasing a Tiki Mask. This is possibly a nod to the Crash Bandicoot series, but some speculate it’s a reference to Spyro instead.</p>
-
-
-
-<p>Toys For Bob recently secured a <a href="https://insider-gaming.com/toys-for-bob-xbox/" target="_blank" rel="noreferrer noopener">publishing partnership with Xbox</a> for its next game, but it still hasn’t announced the nature of the title.</p>
-
-
-
-<p>Last April, Crash Bandicoot 4: It’s About Time crossed <a href="https://insider-gaming.com/crash-bandicoot-4-its-about-time-sold-over-5-million-copies/" target="_blank" rel="noreferrer noopener">5 million copies sold</a> since its original launch in 2020.</p>
-
-
-
-<hr>
-
-
-
-<p>For more of the latest gaming industry news, you can read about NetherRealm Studios revealing an official <a href="https://insider-gaming.com/mortal-kombat-1-takeda-gameplay-trailer-revealed/" target="_blank" rel="noreferrer noopener">Takeda gameplay trailer</a> ahead of next week’s release, and sign up for the <a href="https://insider-gaming.com/visit/newsletter/" target="_blank" rel="noreferrer noopener">Insider Gaming newsletter</a>.</p>
-
-									</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[A Grand Theft Auto Cheat Code Has Appeared In An Unexpected Place]]></title>
-            <link>https://www.gamespot.com/articles/a-grand-theft-auto-cheat-code-has-appeared-in-an-unexpected-place/1100-6524956/?ftag=CAD-01-10abi2f</link>
-            <guid>https://www.resetera.com/threads/a-grand-theft-auto-cheat-code-has-appeared-in-an-unexpected-place.927447/</guid>
-            <content:encoded><![CDATA[https://www.gamespot.com/articles/a-grand-theft-auto-cheat-code-has-appeared-in-an-unexpected-place/1100-6524956/?ftag=CAD-01-10abi2f<br/><div id="readability-page-1" class="page"><p>
-    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
-  </p><article itemscope="" data-type-id="1100" data-guid="1100-6524956">
-
-            
-            
-  
-
-
-        
-
-  
-
-
-        
-        
-              <section>
-
-                  
-          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
-                <p dir="ltr">Terrence Shannon Jr., a rookie for the Minnesota Timberwolves, sports a classic video game cheat code tattoo on his left shooting forearm. The first-round draft pick has the PlayStation inputs for infinite ammo inked on his body from Grand Theft Auto: San Andreas.</p><p dir="ltr">The official Minnesota Timberwolves account <a href="https://x.com/Timberwolves/status/1812153021184496085?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1812153021184496085%7Ctwgr%5Ebfaf33b200057a01ce3f3e943d2e4995ac5ceb38%7Ctwcon%5Es1_&amp;ref_url=https%3A%2F%2Fwww.si.com%2Fnba%2Ftimberwolves%2Fminnesota-timberwolves-news%2Fwolves-rookie-terrence-shannon-jr-is-literally-a-walking-cheat-code-01j2pm8nmwgg" data-target="true" target="_blank" rel="noopener nofollow">on X</a> (formerly known as Twitter) confirmed the GTA cheat code tattoo after another user asked about it on the social media platform. Shannon Jr. is currently playing in the NBA Summer League after being drafted from the University of Illinois Urbana-Champaign.</p><p dir="ltr">This isn't the first time a basketball player has been spotted with ink for the GTA cheat code. For instance, <a href="https://www.kotaku.com.au/2019/03/here-is-a-nicegrand-theft-auto-cheat-code-tattoo/" data-target="true" target="_blank" rel="noopener nofollow">Kotaku</a> reported that Indiana University guard Devonte Green had the infinite ammo tattoo back in 2019. In fact, <a href="https://x.com/ChefBoyArGreen/status/1812186994228785565" data-target="true" target="_blank" rel="noopener nofollow">Green commented </a>on the Timberwolves post, calling himself a "trendsetter." In a fun coincidence, both Shannon Jr. and Green played in the Big Ten Conference in college.</p><p dir="ltr">The inputs might be different now, but <a href="https://www.gamespot.com/articles/gta-5-cheats-and-secrets-for-ps4-xbox-one-and-pc/1100-6414789/" data-ref-id="1100-6414789">GTA V also has cheats and secrets</a>. In fact, GameSpot has a guide on how to unlock max health and armor, weapons and extra ammo, drunk mode, and more.</p><p dir="ltr">In addition, <a href="https://www.gamespot.com/articles/take-two-wins-nba-2k-lawsuit-involving-lebron-james-tattoos/1100-6522878/" data-ref-id="1100-6522878">Take-Two won a NBA 2K lawsuit earlier this year</a> involving digital tattoos appearing on professional basketball players in the video game series. A tattoo artist for LeBron James was at the forefront of the case, arguing they weren't compensated for their art appearing in the basketball game. However, an Ohio federal jury reportedly rejected that argument.</p>
-  
-                        
-    
-        
-        
-  
-                                  </div>
-
-          
-        
-  
-  
-                    
-  
-    
-          
-            
-  <div>
-    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
-
-    
-      </div>
-        
-      </section>
-    
-            
-    </article></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Pokémon Go event saw five proposals, including couples who met while playing the game]]></title>
-            <link>https://www.eurogamer.net/pokemon-go-event-saw-five-proposals-including-couples-who-met-while-playing-the-game</link>
-            <guid>https://www.resetera.com/threads/pok%C3%A9mon-go-event-saw-five-proposals-including-couples-who-met-while-playing-the-game.927432/</guid>
-            <content:encoded><![CDATA[https://www.eurogamer.net/pokemon-go-event-saw-five-proposals-including-couples-who-met-while-playing-the-game<br/><div id="readability-page-1" class="page"><div>
-
-
-
-            <p>
-Five couples got engaged at this summer's Pokémon Go Fest, some of whom met through playing the popular smartphone game. 
-</p>
-<p>
-The proposals took place at the event's big weekend in Madrid - the year's main European meetup for Pokémon Go fans, which <a href="https://www.eurogamer.net/pokemon-go-director-discusses-avatar-backlash-and-a-course-correct-needed-on-the-slowdown-of-new-species">Eurogamer recently attended</a>. Happily, all players who popped the question received a 'yes'. 
-</p>
-<p>
-Pokémon Go developer Niantic asked fans ahead of time if any couples were planning to get engaged at the event, after hearing reports of players getting down on one knee at previous Go Fests. 
-</p>
-<figure>
-<p>
-<a aria-label="Newscast: Does the loss of day one launches make Xbox Game Pass pointless?" data-lightbox="false" data-platform="youtube" href="https://www.youtube.com/embed/lEc8ghseTIk?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
-<span>Newscast: Does the loss of day one launches make Xbox Game Pass pointless?</span>
-<template>
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/lEc8ghseTIk?autoplay=1" frameborder="0" loading="lazy" src="https://www.youtube-nocookie.com/embed/lEc8ghseTIk?autoplay=1">
-</iframe> </template>
-</a>
-</p>
-<figcaption>Newscast: Does the loss of day one launches make Xbox Game Pass pointless?<a href="https://www.youtube.com/watch?v=lEc8ghseTIk" rel="noopener" target="_blank">Watch on YouTube</a></figcaption></figure>
-<p>
-Five fans responded and were then invited to secretly surprise their other half by popping the question at a Pikachu and Eevee 'Meet and Greet' photo opportunity - meaning the moment could be captured on camera, with the aforementioned Pokémon celebrating/lurking in the background.
-</p>
-<p>
-After meeting while playing Pokémon Go in a London park, Martina and Shaun (pictured above) got engaged at Go Fest after being together for eight years. Several years of that time had been spent long-distance, between England and Spain, before Shaun moved out to live together with Martina in Barcelona this year.
-</p>
-<p>
-"It was just the right time," Martina said, after popping the question. "After eight years of relationship, the last six of them being long-distance, we have finally managed to settle in the same place.
-</p>
-<p>
-"The game has helped us discover new places where we live and wherever we go and we really enjoy going for Pokémon Go walks (so does our dog)," she continued. "We share a passion for the game and we enjoy being outdoors a lot. It has also connected us to other local players that have now become essential in our lives."
-</p>
-<p>
-Other couples who got engaged included Dutch couple Joris and Louise, the former of whom moved up his plans to pop the question when he saw Go Fest on the schedule.
-</p>
-<p>
-"I told Louise we had won a VIP meet and greet with Pikachu and Eevee, but as the day went by I got more and more nervous and hoped she didn't see anything, as I was carrying the ring with me," Joris said. "She didn't expect anything and it was a real surprise!"
-</p>
-<figure>
-<a data-lightbox="true" href="https://assetsio.gnwcdn.com/Untitled-2_oUHY2CQ.jpg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank">
- </a>
-<figcaption>Joris and Louise (left), and Ana and Daniel (right). | <span>Image credit: <cite>Niantic</cite></span></figcaption>
-</figure>
-<p>
-Meanwhile, for Benidorm couple Ana and Daniel, it was third time lucky. The pair have known each other since 2018, and in 2020, amidst the Covid pandemic, Ana discovered she was pregnant with their now-three-year-old daughter. 
-</p>
-<p>
-"When I told him I was pregnant, he asked me to marry him, but I didn't want to because I didn't feel ready, and didn't want to do it because of the baby."
-</p>
-<p>
-Ana later reciprocated the proposal, but the couple decided to settle - until now - without labels for their relationship. 
-</p>
-<p>
-"I wanted to surprise him!" Ana said about proposing again at Go Fest. "In the end, Pokémon Go has given me a good boyfriend (hopefully husband!), a three-year-old daughter, many friends in Benidorm and even others around the world."
-</p>
-<p>
-After this <a href="https://www.eurogamer.net/pokemon-go-fest-2024-dates-start-time-ticket-price-global-activities-9404">past weekend's Go Fest Global</a>, next up for Pokémon Go is the summer's Ultra Unlock events, which are set to see the launch of new species Tandemaus and the long-awaited debut of Mega Lucario.
-</p>
-
-
-
-        </div></div>]]></content:encoded>
         </item>
     </channel>
 </rss>
