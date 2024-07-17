@@ -4,9 +4,563 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Wed, 17 Jul 2024 14:54:23 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 17 Jul 2024 15:07:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[No Man’s Sky Worlds Part I update adds major world improvements]]></title>
+            <link>https://www.thesixthaxis.com/2024/07/17/no-mans-sky-worlds-part-i-update-adds-major-world-improvements/</link>
+            <guid>https://www.resetera.com/threads/no-man%E2%80%99s-sky-worlds-part-i-update-adds-major-world-improvements.929709/</guid>
+            <content:encoded><![CDATA[https://www.thesixthaxis.com/2024/07/17/no-mans-sky-worlds-part-i-update-adds-major-world-improvements/<br/><div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>No Man’s Sky Worlds Part I, aka update 5.0, is the first step in another major overhaul for Hello Games’ space faring adventure. This is a universal refresh that will add new technology, new plant life, new animals, and much more diversity of planet environments and types. Worlds Part I also sees improvements in the visuals and behaviours of water and the sky too. Watch Sean explain in the video below.</p>
+<p><iframe title="No Man's Sky Worlds Part I Deep Dive" width="780" height="439" src="https://www.youtube.com/embed/XmU3_6BK-Ro?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+
+
+<p>No Man’s Sky Worlds Part I has seen the water and cloud rendering overhauled completely. Water is now functioning on a mesh system which allows for more realistic waves and foam generation, while in the sky cloud coverage will vary between planets and be impacted by weather conditions. It will no longer rain if there is not enough cloud cover. The skies will be more varied with the colours of day and night based much more on an individual planet’s atmosphere. There are new frozen, lush, desert, scorched, radioactive and toxic worlds dotted around the universe. Winds will also be more realistic as will storm effects on plant and animal life.</p>
+<p>The full patch notes for No Man’s Sky Worlds Part I, aka update 5.0, can be read below.</p>
+<h3>SKY AND CLOUD RENDERING</h3>
+<ul>
+<li>The atmospheric and volumetric cloud rendering system has been completely rewritten for vastly increased detail and definition.</li>
+<li>Planets now exhibit a greater range of cloud coverage: over time; from planet-to-planet; and in response to weather conditions.</li>
+</ul>
+<ul>
+<li>Planets with rain will no longer use the ambient rain effect when cloud coverage is insufficient.</li>
+<li>Daytime sky colours are now significantly more varied.</li>
+<li>Night-time ambient lighting is no longer always blue, and can vary according to the planet’s natural environment.</li>
+<li>Night-time darkness levels now vary as the night progresses.</li>
+<li>Night-time darkness now varies from planet-to-planet, with some being significantly darker than others.</li>
+</ul>
+<h3>WATER RENDERING</h3>
+<ul>
+<li>Water rendering has been completely overhauled, and now uses a mesh-based system that allows for true wave and foam generation.</li>
+<li>Water conditions vary over time in response to both local weather and the depth of the water at any particular location, producing effects from stormy seas and huge ocean swells to tranquil still ponds.</li>
+<li>Water now reflects the sun and features ambient planetary reflections for dramatically increased visual quality.</li>
+<li>Water colour variety has been significantly increased.</li>
+</ul>
+<ul>
+<li>Base parts with glass now accurately render the water conditions outside.</li>
+<li>Sealed underwater base parts will no longer “leak” water into the base.</li>
+<li>Ships now leave splashes and trails in the water when flying low.</li>
+<li>Underwater jetpack effects have been significantly improved.</li>
+<li>Swimming effects have been significantly improved.</li>
+</ul>
+<ul>
+<li>Starships can now be fitted with aquatic landing jets, allowing them to land or be summoned just above the surface of the ocean.</li>
+<li>A biological equivalent of this technology has been added for living ships.</li>
+</ul>
+<h3>GENERAL ENGINE IMPROVEMENTS</h3>
+<ul>
+<li>The shadow-rendering system has been reworked to take advantage of screenspace shadowing techniques, resulting in more richly lit planets and more accurate and more detailed shadows.</li>
+</ul>
+<ul>
+<li>The rendering of planetary objects such as trees, rocks, and grass has been rewritten and moved to a more modern GPU-based system, allowing for more objects at a better performance.</li>
+<li>Distant planetary objects now look significantly more detailed and realistic.</li>
+</ul>
+<ul>
+<li>Terrain generation has been rewritten to incorporate dual marching cubes voxel meshing, which reduces vertex count, increases terrain generation speed, improves framerate and saves significant amounts of memory.</li>
+</ul>
+<ul>
+<li>The component system has been reworked for increased speed and improved memory usage.</li>
+</ul>
+<ul>
+<li>Networking systems have been improved for reduced bandwidth usage.</li>
+</ul>
+<ul>
+<li>Significant memory and performance optimisations have been made across the entire game, particularly in metadata usage, texture streaming, LOD generation and procedural mesh generation.</li>
+</ul>
+<h3>DLSS3</h3>
+<ul>
+<li>Deep Learning Super Sampling (DLSS) is an NVIDIA technology, available to</li>
+<li>PC players with compatible RTX cards, which uses a deep learning neural network to boost frame rates and generate beautiful, sharp images.</li>
+<li>Support for the latest iteration, DLSS3, has been added to No Man’s Sky.</li>
+<li>DLSS3 multiplies performance by up to 4X compared to traditional rendering, while retaining great image quality. Learn more on the NVIDIA site.</li>
+</ul>
+<h3>PLANETARY VARIETY</h3>
+<ul>
+<li>Planetary variety and diversity has been increased all across the universe.</li>
+<li>New frozen, lush, desert, scorched, radioactive and toxic worlds await discovery and exploration.</li>
+<li>Underlying terrain shapes have not been reset and existing planetary bases will not be moved.</li>
+</ul>
+<ul>
+<li>The chance of a world having ancient bones or salvageable scrap has been increased.</li>
+<li>Worlds with salvageable scrap occasionally feature additional rusted remnants to collect.</li>
+</ul>
+<h3>ENVIRONMENTAL EFFECTS</h3>
+<ul>
+<li>The wind simulation has been reworked to bring planets to life and provide a consistent effect across each world, moving trees and leaves, smoke effects, rain, fog, and snow all in a unified system.</li>
+</ul>
+<ul>
+<li>Fogging and particle systems have been improved for increased fidelity and better performance.</li>
+<li>All ambient planetary environment effects have been totally reworked.</li>
+<li>Storm effects have been completely overhauled.</li>
+<li>Planets can now have a range of additional atmospheric effects that match their ambient weather and hazard conditions.</li>
+</ul>
+<ul>
+<li>The visual effects for the jetpack have been overhauled.</li>
+<li>The visual effects for storm crystals have been reworked and improved.</li>
+<li>Footstep effect colouring has been improved.</li>
+<li>Fixed an issue that caused starship contrails to display a low speed.</li>
+</ul>
+<h3>CREATURES</h3>
+<ul>
+<li>A new type of procedurally-generated arthropod-style creature has been added and may appear on any world.</li>
+<li>New types of procedurally-generated plant/animal hybrids have been added and may appear on any world.</li>
+<li>New types of procedurally-generated synthetic constructs can now be found on selected worlds…</li>
+</ul>
+<ul>
+<li>A new type of hostile creature has been added – the Brood Mother.</li>
+<li>Some worlds have become infested with the Vile Brood. On such worlds, players can now find juicy grubs. Structurally harming these grubs will summon the Brood</li>
+<li>Mother to project their young…</li>
+<li>A new multiplayer mission has been added to the Nexus to find and destroy the vile brood.</li>
+<li>Players who defeat brood mothers in combat may earn a variety of new titles and insectoid-themed helmet customisation options.</li>
+</ul>
+<ul>
+<li>Over 40 new cooking recipes have been added, making use of products harvested from new creatures.</li>
+<li>Biological horrors now drop cookable meat when killed.</li>
+<li>When under AI pilot control, the Minotaur will now target and exterminate biological horrors.</li>
+<li>The camera shake generated by the footsteps of colossal creatures has been reduced.</li>
+</ul>
+<ul>
+<li>The “boss battle” style UI used when fighting capital ships is now also used when fighting Sentinel Walkers and the Vessel of Many Mouths, giving extra details about their health and status.</li>
+<li>The Vessel of Many Mouths has been given additional ranged attacks, increasing the challenge of their encounter.</li>
+<li>Fixed an issue that prevented the acquisition of worm-cult story documents from the titan worm’s vile spawn.</li>
+</ul>
+<h3>LIQUIDATORS EXPEDITION</h3>
+<ul>
+<li>Expedition Fourteen, Liquidators, will begin shortly and run for approximately six weeks.</li>
+<li>This expedition invites players to join the force of the Liquidator Vanguard as they seek to purge the universe of biological horrors old and new, including the infestations of the vile brood…</li>
+<li>Rewards include new posters; custom bug-hunting trophies; a unique arthropod-themed jetpack and full set of matching armour.</li>
+</ul>
+<ul>
+<li>All those who do their part and contribute to the community-wide efforts to exterminate the vile brood will earn pieces of the new Liquidator Heavy Exomech Hybrid, a set of heavy-duty armour for the Minotaur.</li>
+<li>Among the enhancements available to the Liquidator Mech is a bespoke flamethrower unit, perfect for heavy damage at close range.</li>
+<li>As the community makes progress in the expedition, the Liquidator Mech will become available at the Quicksilver Synthesis Companion for those unable to take part.</li>
+</ul>
+<h3>TWITCH CAMPAIGN</h3>
+<ul>
+<li>A new package of Twitch drops will begin shortly. Sign up and link your platform accounts on the Twitch Drops page, then tune in to Twitch to earn exotic base parts, high-tech starships, fireworks, appearance modifications, and more.</li>
+</ul>
+<h3>SOLAR SHIP CUSTOMISATION</h3>
+<ul>
+<li>The space station’s Starship Fabricator has been expanded to include the ability to craft Solar-class starships.</li>
+</ul>
+<h3>BASE PARTS</h3>
+<ul>
+<li>A set of slanted skylight-style roof parts have been added for the timber, alloy, and stone construction sets.</li>
+<li>Fixed an issue that could cause base parts to pop in just after loading or warping.</li>
+</ul>
+<h3>BUG FIXES</h3>
+<ul>
+<li>Fixed an issue that caused the Blaze Javelin to always aim at the floor when shooting at Sentinel Quads.</li>
+<li>Fixed an issue that caused the Quicksilver Synthesis Companion to chatter constantly whilst being interacted with.</li>
+<li>Fixed a rare issue that could cause player ships to fly extremely slowly while attempting to dock with the Space Anomaly.</li>
+<li>Fixed a number of visual issues with the origin point of the player torch that could cause the Multi-Tool or parts of the player to be lit up inappropriately.</li>
+<li>Fixed an issue that prevented the inventory page from correctly re-opening on your last selected inventory if that inventory was the freighter or any exocraft.</li>
+<li>Fixed a rare issue that could cause bad characters to be written into the user settings data, potentially leading to unexpected behaviour.</li>
+<li>Fixed an issue that caused the player to collide with harvested oxygen-rich plants.</li>
+</ul>
+<ul>
+<li>Fixed an issue that could cause volcanoes to block the ship or player start location when starting a new game on a volcanic world.</li>
+<li>Fixed an issue that could prevent NPCs from spawning on freighters.</li>
+<li>Fixed an issue that prevented New Beginnings entries from appearing in the Stories catalogue.</li>
+<li>Fixed an issue that caused the Gamma option to appear on PC or Mac while using an OS-level graphics configuration that prevented it from doing anything.</li>
+<li>Fixed an issue that could cause the Assembled Construct aboard the Space Anomaly to produce an inappropriate prop while idling.</li>
+<li>Fixed a number of visual issues with Korvax helmets.</li>
+</ul>
+<ul>
+<li>Fixed a number of issues that could cause procedural textures to appear too light.</li>
+<li>Fixed a memory leak that could occur when changing resolution on PC.</li>
+<li>Fixed a memory trample related to wind generation.</li>
+<li>Fixed a number of rare memory tramples.</li>
+<li>Fixed a number of rare crashes related to reading player stats.</li>
+<li>Fixed a number of issues related to synching freighters in multiplayer.</li>
+<li>Fixed a memory trample related to texture generation.</li>
+<li>Fixed a number of issues related to reloading the current save.</li>
+<li>Fixed a large number of issues related to invalid numbers being used in physics calculations.</li>
+</ul>
+<ul>
+<li>Fixed an issue that could cause some specific space-only markers to appear when not in space.</li>
+<li>Fixed an issue that could cause discoveries made during an expedition to fail to transfer correctly to (or to overwrite) the discoveries list in the main save.</li>
+<li>Fixed a rare issue that could cause expeditions to begin with incorrect data, blocking progress.</li>
+<li>Fixed an issue that could prevent fleet frigates from being repaired when damaged.</li>
+<li>Fixed a number of collision issues aboard combat frigates.</li>
+<li>Fixed an issue in the base Armourer mission that could prevent progress if space combat is disabled.</li>
+<li>Fixed a large number of input bugs when using touch screen interfaces such as the SteamDeck or Switch.</li>
+<li>Fixed a large number of issues that prevented various controls from being correctly remapped.</li>
+</ul>
+<h3>UI AND QUALITY OF LIFE</h3>
+<ul>
+<li>Previously named / uploaded discoveries can now be renamed and reuploaded.</li>
+<li>Fixed a large number of camera and animation issues when getting in or out of starship cockpits in first person.</li>
+<li>Several new gestures have been added to the Quick Menu, including an additional dance.</li>
+</ul>
+<ul>
+<li>The hazardous flora that litter some worlds have been tweaked for better visibility, better damage messaging, more consistent labelling, and more appropriate amounts of camera shake.</li>
+<li>The camera shake menu setting will now correctly reduce the shake from damage impacts.</li>
+<li>The active Multi-Tool mode can now be cycled while reloading (which will cancel any active reload in progress).</li>
+<li>Fixed an issue with the Target Sweep system that, when searching for planetary objects, would fail to detect many viable options and instead display “Signal too weak for distance estimate”.</li>
+</ul>
+<ul>
+<li>Space station and freighter docking has been reworked for a more pleasant docking experience, with less unnecessary rotation and smoother movement.</li>
+<li>Refiner slots can now be quick-filled with an entire stack, as an alternative to using the drag and drop system that allows fine control over the amount placed.</li>
+<li>When core chargeable technology (such as hazard protection) has been damaged, it is now added as a Quick Repair option to the Quick Menu.</li>
+</ul>
+<ul>
+<li>Maintenance and repair interactions have had their UI improved for visual polish and improved visibility.</li>
+<li>The interaction labels have been reworked for visual polish and responsiveness.</li>
+<li>The text and font usage on the starship’s targeting reticle has been improved.</li>
+<li>Input when using touch screen interfaces such as the SteamDeck or Switch has been refined across the board.</li>
+<li>Missions that suggest summoning the Space Anomaly from the quick menu will now always use the correct icon.</li>
+<li>Multiplayer missions will now use their correct icon for the hand-in stage at the Nexus.</li>
+<li>Improved the text colouring in detailed mission messages.</li>
+<li>The text chat message sent automatically when in need of resources now correctly reflects if this need is for repairing an item.</li>
+<li>Fixed a number of text clipping issues.</li>
+</ul>
+<ul>
+<li>Fixed an issue that prevented Cream Fingers from being edible.</li>
+<li>Fixed an issue that caused biscuit recipes (and a number of additional niche items) to be absent from the catalogue.</li>
+</ul>
+<p><em>Source: <a href="https://www.nomanssky.com/worlds-part-i-update/">Hello Games</a></em></p>
+
+
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Nintendo's Emio Is the First New Famicom Detective Club Game in 35 Years]]></title>
+            <link>https://techraptor.net/gaming/news/nintendo-emio-famicom-detective-club</link>
+            <guid>https://www.resetera.com/threads/nintendos-emio-is-the-first-new-famicom-detective-club-game-in-35-years.929706/</guid>
+            <content:encoded><![CDATA[https://techraptor.net/gaming/news/nintendo-emio-famicom-detective-club<br/><div id="readability-page-1" class="page"><div><p>Nintendo has revealed what's behind the mysterious&nbsp;<em>Emio&nbsp;</em>trailer that appeared on the studio's official YouTube channel last week, and it's actually a new entry in a long-dormant (well, sort of) franchise.</p>
+<p>It turns out that&nbsp;<em>Emio - The Smiling Man: Famicom Detective Club</em>, to give it its full name, is the long-awaited third entry in the&nbsp;<em>Famicom Detective Club&nbsp;</em>series, which began all the way back in 1988 with&nbsp;<em>The Missing Heir</em>.</p>
+<p>The first two games in the series were <a href="https://techraptor.net/gaming/news/nintendo-and-mages-working-on-famicom-detective-club-remakes">remade for the Switch in 2021</a>, but&nbsp;<em>Emio&nbsp;</em>represents the first completely new title in the franchise for 35 years, so it's a cause for excitement if you're a fan of detective-themed visual novel adventure games.</p>
+<figure role="group"><picture><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/emio-the-smiling-man-famicom-detective-club-gameplay.jpg?itok=UPPoZUQt 1x" media="(min-width: 992px)" type="image/jpeg"><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/emio-the-smiling-man-famicom-detective-club-gameplay.jpg?itok=8ckW22B7 1x" media="(max-width: 991px)" type="image/jpeg"></picture><figcaption><em>Emio&nbsp;</em>is actually a new entry in the&nbsp;<em>Famicom Detective Club&nbsp;</em>series.</figcaption></figure><p><em>Emio</em>'s identity as a&nbsp;<em>Famicom Detective Club&nbsp;</em>game was revealed in a new teaser released on the Nintendo YouTube channel earlier today, which sees series producer Yoshio Sakamoto (who's also known as the director of seminal classics like&nbsp;<em>Super Metroid</em>) discussing his latest work.</p>
+<p>In the new teaser, Sakamoto says the aforementioned remakes of the first two&nbsp;<em>Famicom Detective Club&nbsp;</em>games were what spurred him on to make this newest installment.&nbsp;</p>
+<p>Per the teaser, it's very much Sakamoto's work; he says he worked on everything from the game's visuals through to its script, its cutscenes, and "even all the smaller details".</p>
+<p>He also teases the game's plot, which revolves around a creepy-sounding urban legend about girls who meet a sinister figure and agree to exchange their lives for a paper bag with a drawn-on smile. You can check out that trailer, in which Sakamoto speaks very endearingly about the project, right here.</p>
+
+<p><em>Emio - The Smiling Man: Famicom Detective Club&nbsp;</em>launches exclusively for Nintendo Switch on August 29th. You can <a href="https://www.nintendo.com/us/store/products/emio-the-smiling-man-famicom-detective-club-switch/" rel="noopener" target="_blank">pre-order the game right here</a> if you think it's the kind of thing you could lose sleep over. I certainly do.</p>
+</div><div><p><span><div>
+
+<p>Joe has been writing for TechRaptor for several years, and in those years has learned a lot about the gaming industry and its foibles. He’s originally an… <a href="https://techraptor.net/author/joseph-allen">More about Joseph</a></p>
+</div></span></p></div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Orcs Must Die! Deathtrap to continue killing Orcs in 2025 with new co-op thrills and roguelite progression]]></title>
+            <link>https://www.rockpapershotgun.com/orcs-must-die-deathtrap-to-continue-killing-orcs-in-2025-with-new-co-op-thrills-and-roguelite-progression</link>
+            <guid>https://www.resetera.com/threads/orcs-must-die-deathtrap-to-continue-killing-orcs-in-2025-with-new-co-op-thrills-and-roguelite-progression.929703/</guid>
+            <content:encoded><![CDATA[https://www.rockpapershotgun.com/orcs-must-die-deathtrap-to-continue-killing-orcs-in-2025-with-new-co-op-thrills-and-roguelite-progression<br/><div id="readability-page-1" class="page"><div>
+  
+
+    <div>
+  
+
+        <p>But what if we could talk to the spike pits</p>
+
+    </div>
+
+
+  <p>
+  <figure>
+  <a href="https://assetsio.gnwcdn.com/1_GCD8WNO.jpg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
+  
+  </a>
+
+      <figcaption>
+        <span>
+Image credit:          <cite>Robot Entertainment</cite>
+        </span>
+      </figcaption>
+  </figure>
+  </p>
+
+    
+
+</div><div>
+
+
+
+            <p>
+Back in 2011, Robot Entertainment released tower defender Orcs Must Die!, adding an exclamation mark to spark some urgency and also, irritate anybody who has to write about video games for a living, though not as much as the absolute maniacs behind Tom Clancy's H.A.W.X. Evidently, players did not sufficiently meet their demand for wanton Orc-massacring, for Robot were forced to release two sequels, which I personally would have titled Orcs Must Die!! and Orcs Must Die!!! or perhaps Orcs Must Die !!?, to indicate a mounting existential crisis.</p>
+<p>Now, Robot have stepped things up by announcing <a href="https://www.rockpapershotgun.com/games/orcs-must-die-deathtrap">Orcs Must Die! Deathtrap</a>, a newly roguelite, four-player spin on the goblin-farming formula, whose subheading throws bumbling Orc murderers a bone by specifying that you might try building a trap of some kind, a deathtrap possibly. Please find below a suspiciously innocent trailer, which I promise you isn't covering a wall of arrow traps or similar.
+</p><!--more-->
+<figure>
+<p>
+<a aria-label="Orcs Must Die! Deathtrap - Official Reveal Trailer" data-lightbox="false" data-platform="youtube" href="https://www.youtube.com/embed/i2PNXZ_Ea7Y?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
+<span>Orcs Must Die! Deathtrap - Official Reveal Trailer</span>
+<template>
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/i2PNXZ_Ea7Y?autoplay=1" frameborder="0" loading="lazy" src="https://www.youtube-nocookie.com/embed/i2PNXZ_Ea7Y?autoplay=1">
+</iframe> </template>
+</a>
+</p>
+<a href="https://www.youtube.com/watch?v=i2PNXZ_Ea7Y" rel="noopener" target="_blank">Watch on YouTube</a></figure>
+<p>
+According to monsieur press release, Deathtrap "stays true to the beloved humor, personality, and charm of the series". We can expect "witty orc chatter", "over-the-top physics" and "a strong guitar- and drum-heavy soundtrack".</p>
+<p>They're also promising randomised buffs and debuffs for heroes, traps, weapons, stats and levels. Weather and time of day will further influence the odds. As for the roguelike stuff, you can choose to push forward against the hordes, stacking buffs and debuffs, or return to your castle hub to spend some points on persistent progression. The combat has apparently been tightened up, with a perspective and controls that remind me of Plants Vs Zombies: Garden Warfare.</p>
+<p>It certainly sounds like an advance upon the first Orcs Must Die!, which Alec Meer (RPS in peace) <a href="https://www.rockpapershotgun.com/orcs-must-die-review">described</a> as "about as good-natured a game as I've played this year: a one trick pony that makes the absolute best of what's a very good trick indeed." 
+</p>
+<p>
+Alec was less keen on the second game, <a href="https://www.rockpapershotgun.com/wot-i-think-orcs-must-die-2">noting</a> that it "does share its predecessor's sins as well as its successes, which means repetitive and somewhat annoying speech and music, a puddle-deep plot and an expanded but still small pool of enemy types".</p>
+<p>As for the third game, I can't find a review on here. All I can find is a blood trail leading to a pit full of stakes. There is a bedraggled, desperate man in the pit who insists that he's Alec Meer, but I will not heed his filthy, Orkish lies, and nor should you. Instead, let's all head over to <a href="https://store.steampowered.com/app/2273980/Orcs_Must_Die_Deathtrap/">Steam</a> or the <a href="https://store.epicgames.com/en-US/p/orcs-must-die-deathtrap-3f67fb">Epic Games Store</a> to wishlist Deathtrap - it launches in early 2025. Go on, go on, I swear those links don't lead to any spike pits. I'll just be standing over here, next to this lever.
+</p>
+
+
+
+        </div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Xbox unveils Deadpool bum controller as competition prize for one lucky recipient]]></title>
+            <link>https://www.eurogamer.net/xbox-unveils-deadpool-bum-controller-as-competition-prize-for-one-lucky-recipient</link>
+            <guid>https://www.resetera.com/threads/xbox-unveils-deadpool-bum-controller-as-competition-prize-for-one-lucky-recipient.929700/</guid>
+            <content:encoded><![CDATA[https://www.eurogamer.net/xbox-unveils-deadpool-bum-controller-as-competition-prize-for-one-lucky-recipient<br/><div id="readability-page-1" class="page"><div>
+        <article data-ads="true" data-article-type="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
+
+
+<header>
+  
+
+    
+
+
+  <p>
+  <figure>
+  <a href="https://assetsio.gnwcdn.com/Deadpool-Double_Controller-DP_16x9-FINAL-91c067ffa6e5f5a587c4.jpg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
+  
+  </a>
+
+      <figcaption>
+        <span>
+Image credit:          <cite>Xbox</cite>
+        </span>
+      </figcaption>
+  </figure>
+  </p>
+
+    
+
+</header>
+    <div>
+
+
+
+            <p>
+Xbox has revealed a new "Cheeky Controller" in a Deadpool design to celebrate the new Deadpool &amp; Wolverine Marvel film, with a rather prominent behind.
+</p>
+<p>
+A peachy pair of these controllers will be part of the grand prize in a global sweepstakes, alongside other custom Xbox hardware - <a href="https://x.com/Xbox/status/1813559436818227580">details of how to enter</a> have been shared on social media site X.
+
+</p>
+<p>
+It's in Deadpool's fetching red colour and seemingly offers a firm grip. Just mind where you put your fingers.
+</p>
+<figure>
+<p>
+<a aria-label="Newscast: Does the loss of day one launches make Xbox Game Pass pointless?" data-lightbox="false" data-platform="youtube" href="https://www.youtube.com/embed/lEc8ghseTIk?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
+<span>Newscast: Does the loss of day one launches make Xbox Game Pass pointless?</span>
+<template>
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/lEc8ghseTIk?autoplay=1" frameborder="0" loading="lazy" src="https://www.youtube-nocookie.com/embed/lEc8ghseTIk?autoplay=1">
+</iframe> </template>
+</a>
+</p>
+<figcaption>Newscast: Does the loss of day one launches make Xbox Game Pass pointless?<a href="https://www.youtube.com/watch?v=lEc8ghseTIk" rel="noopener" target="_blank">Watch on YouTube</a></figcaption></figure>
+<p>
+
+The winner will also receive a custom Deadpool-inspired Xbox Series X and stand, featuring his katanas Bea and Arthur - made of foam, of course.
+</p>
+<p>
+In addition, a Deadpool-themed controller holder (by EXG Pro) will be available for the first 1000 fans to purchase an Xbox Elite Wireless Controller Series 2 on 22nd July, though only in North America and Canada.
+</p>
+<figure>
+<a data-lightbox="true" href="https://assetsio.gnwcdn.com/XPL_Deadpool_V1_16x9_02-befbf3cbd90b01c4c9d7.jpg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank">
+ </a>
+<figcaption><span>Image credit: <cite>Xbox</cite></span></figcaption>
+</figure>
+<p>
+Further details can be found on <a href="https://news.xbox.com/en-us/2024/07/17/deadpool-wolverine-xbox-controller-deadpool-design/">Xbox Wire</a>, including how to watch the Deadpool &amp; Wolverine red carpet premiere on Twitch.
+
+</p>
+<p>
+The news of this controller comes almost a year to the day after the <a href="https://www.eurogamer.net/xbox-announces-pizza-scented-controller-in-collaboration-with-teenage-mutant-ninja-turtles">infamous pizza-scented controller in collaboration with Teenage Mutant Ninja Turtles</a>.
+
+</p>
+<p>
+And Xbox will be keen to move on from its <a href="https://www.eurogamer.net/xbox-rushes-to-fix-feel-the-burn-controller-promotion-following-studio-closures">"feel the burn" controller campaign</a> from May, shortly after it closed a number of Bethesda studios.
+
+</p>
+<p>
+What weird ass controller could we see next?
+</p> <div>
+
+<p><span data-type="targeting">
+<span>To see this content please enable targeting cookies.</span>
+</span>
+</p></div>
+
+
+
+
+        </div>
+
+
+
+        </article>
+
+  
+    </div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Like a Dragon Developer Next Game To Be Revealed During This Year’s Tokyo Game Show]]></title>
+            <link>https://wccftech.com/like-a-dragon-developer-next-game/</link>
+            <guid>https://www.resetera.com/threads/like-a-dragon-developer-next-game-to-be-revealed-during-this-year%E2%80%99s-tokyo-game-show.929697/</guid>
+            <content:encoded><![CDATA[https://wccftech.com/like-a-dragon-developer-next-game/<br/><div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>The next game from the Like a Dragon series developer Ryu Ga Gotoku will be revealed in over two months.</p>
+<p>As reported today by <a href="https://www.videogameschronicle.com/news/the-next-ryu-ga-gotoku-game-will-be-revealed-at-tgs-2024/">VGC</a>, the Japanese development studio confirmed it will reveal its next game during this year's Tokyo Game Show, which will be held from September 26th until September 29th at Makuhari Messe in Mihama-ku, Chiba City, Chiba Prefecture. Previously, the studio teased that this game would<a href="https://wccftech.com/like-a-dragon-next-surprise/">&nbsp;surprise</a> fans, so it will be very interesting to see what the studio has come up with to make their game so.</p>
+<p>In some ways, the latest main entries in the Like a Dragon series surprised fans of the franchise, as they did away with the brawler combat system featured in the vast majority of the series, replacing it with a <a href="https://wccftech.com/review/yakuza-like-a-dragon-quest/">turn-based combat system</a>. The brawler combat system, however, wasn't put to the side entirely, as it was featured in the<a href="https://wccftech.com/review/lost-judgment-better-call-yagami/"> Judgment</a> series, as well as in the spin-off<a href="https://wccftech.com/review/like-a-dragon-gaiden-the-man-who-erased-his-name-what-is-dead-may-never-die/"> Like a Dragon Gaiden: The Man Who Erased His Name</a>, which brought Kazuma Kiryu back as the sole protagonist.</p>
+<p>The latest entry in the series is Like a Dragon: Infinite Wealth. You can learn more about the game, now out on PC and consoles, by checking out Kai's <a href="https://wccftech.com/review/like-a-dragon-infinite-wealth-end-of-yakuza/">review.</a></p>
+
+				
+
+			
+
+		</div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Once Human Interactive Map is Now Available]]></title>
+            <link>https://www.ign.com/articles/once-human-interactive-map</link>
+            <guid>https://www.resetera.com/threads/once-human-interactive-map-is-now-available.929688/</guid>
+            <content:encoded><![CDATA[https://www.ign.com/articles/once-human-interactive-map<br/><div id="readability-page-1" class="page"><div><h2 data-cy="article-sub-headline">Find loot, Teleportation Towers, and more with ease using our interactive map.</h2></div><section><p>IGN's Once Human map is here! Our interactive map tracks essential collectibles across the post-apocalyptic world of Nalcott, including <a href="https://www.ign.com/wikis/once-human/Mystical_Crate_Locations">Mystical Crates</a>, Weapon Crates, and <a href="https://www.ign.com/wikis/once-human/How_to_Find_Brookham_Weapon_and_Armor_Crates">Gear Crates</a> for those who want to farm Blueprint Shards. It also shows Teleportation Tower locations, so you know exactly where to go to activate fast travel.</p><p>Note that our interactive map isn't 100% complete yet, but our dedicated guides team is hard at work to ensure it's complete as quickly as possible. So, if an area you're exploring isn't fully covered yet, check back later!</p><h2><a href="https://www.ign.com/maps/once-human/nalcott">Once Human Interactive Map</a></h2><output><figure><a target="_blank" rel="noopener noreferrer" href="https://www.ign.com/maps/once-human/nalcott"></a><figcaption>Click on the image above to go to our Once Human interactive map!</figcaption></figure></output><p>The available map filters on our Once Human interactive map include:</p><ul data-cy="list"><li><strong>Locations</strong>, including Teleportation Towers, Hamlets, and Union Strongholds.</li><li><strong>Items</strong>, including <a href="https://www.ign.com/wikis/once-human/Mystical_Crate_Locations">Mystical Crates</a>, <a href="https://www.ign.com/wikis/once-human/Treasure_Chest_Locations">Treasure Chests</a>, and Weapon and Gear Crates.</li><li><strong>Activities</strong>, such as Side Quests, Events, and Bounties.</li><li><strong>Personnel Files</strong>, such as NPCs and Vendors.</li><li><strong>Hazards</strong>, including Elite Enemies and Bosses.</li><li>Other notable map markers, such as Rift Anchor locations and Deviants.</li></ul><a href="https://assets-prd.ignimgs.com/2024/07/17/once-human-brookham-weapon-crate-1721223800244.jpg" target="_blank" rel="noopener noreferrer"><output><figure><span></span></figure></output></a><h2>Once Human Mystical Crates</h2><p>While you're using <a href="https://www.ign.com/maps/once-human/nalcott">IGN's Once Human interactive map</a> to aid you in your adventure through the land of Nalcott, don't forget to hunt down Mystical Crates. These elusive treasure caches contain rare loot, such as Blueprint Fragments, weapons, and Weapon and Gear Mods, meaning you'll want to farm them to make upgrading your kit easier.</p><p>Our <a href="https://www.ign.com/wikis/once-human/Mystical_Crate_Locations">Once Human Mystical Crate Locations guide</a> includes hard-to-find ones, such as:</p><ul data-cy="list"><li><a href="https://www.ign.com/wikis/once-human/How_to_Find_Sutherland_Family_Orchard_Weapon,_Armor,_and_Mystical_Crates">Sutherland Family Orchard Mystical Crate</a></li><li><a href="https://www.ign.com/wikis/once-human/How_to_Find_Monolith_of_Greed_Mystical_Crate">Monolith of Greed Mystical Crate</a></li><li><a href="https://www.ign.com/wikis/once-human/How_to_Find_High_Banks_Weapon,_Armor,_and_Mystical_Crates">High Banks Mystical Crate</a></li><li><a href="https://www.ign.com/wikis/once-human/How_to_Find_Hearst_Industries_Mystical_Crate">Hearst Industries Mystical Crate</a></li></ul><a href="https://assets-prd.ignimgs.com/2024/07/17/once-human-sunderland-family-orchard-weapon-mystical-crates-1721223775947.jpg" target="_blank" rel="noopener noreferrer"><output><figure><span></span></figure></output></a></section><div><h3 data-cy="object-summary-embed-title">In This Article</h3></div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Microsoft Has Made an Xbox Controller Shaped Like Deadpool’s Ass]]></title>
+            <link>https://www.ign.com/articles/microsoft-has-made-an-xbox-controller-shaped-like-deadpools-ass</link>
+            <guid>https://www.resetera.com/threads/microsoft-has-made-an-xbox-controller-shaped-like-deadpool%E2%80%99s-ass.929685/</guid>
+            <content:encoded><![CDATA[https://www.ign.com/articles/microsoft-has-made-an-xbox-controller-shaped-like-deadpools-ass<br/><div id="readability-page-1" class="page"><section><p>To coincide with the upcoming Marvel movie <a href="https://www.ign.com/movies/deadpool-wolverine">Deadpool &amp; Wolverine</a>, Microsoft has made a new Xbox controller shaped like Deadpool’s ass.</p><p>Revealed on <a href="https://news.xbox.com/en-us/2024/07/17/deadpool-wolverine-xbox-controller-deadpool-design/" target="_blank" rel="noopener noreferrer">Xbox Wire</a>, the new Xbox Wireless Controller is modeled after “Deadpool’s much-discussed, perfectly rounded tush.”</p><p>Microsoft called this new Xbox pad the “Cheeky Controller” and said it “channels Deadpool’s buns of steel in its firm (yet surprisingly comfortable) grip.” Check it out in all its glory in the image below:</p><a href="https://assets-prd.ignimgs.com/2024/07/17/single-controller-hero-16x9-1721212259452.jpg" target="_blank" rel="noopener noreferrer"><output><figure><span></span></figure></output></a><p>Annoyingly, Microsoft is making this Deadpool ass Xbox controller available only to competition winners, as it’s done repeatedly with previous eye-catching accessories. Fans aged 18+ worldwide can enter for a chance to win this Deadpool collectible by following Xbox on X and retweeting the official Xbox sweepstakes tweet.</p><p>There's more to the collaboration. On July 22, the first 1,000 fans to buy an Xbox Elite Wireless Controller Series 2 – Core from the Microsoft store get an exclusive Cable Guys Deadpool Controller Holder by EXG Pro to "enhance" their gaming setup.</p><a href="https://assets-prd.ignimgs.com/2024/07/17/mic517-deadpool-16x9-1920x1080px-4d63983a61a0a3dd488c-1721221328995.jpg" target="_blank" rel="noopener noreferrer"><output><figure><span></span></figure></output></a><p>And there's a custom Deadpool-inspired Xbox Series X and stand featuring foam versions of Deadpool’s katanas, Bea and Arthur, and two Xbox Wireless Controllers. This one's a competition prize, also.</p><a href="https://assets-prd.ignimgs.com/2024/07/17/xpl-deadpool-v1-16x9-02-1721221399501.jpg" target="_blank" rel="noopener noreferrer"><output><figure><span></span></figure></output></a><p>As for Deadpool &amp; Wolverine, <a href="https://www.ign.com/articles/deadpool-wolverine-teaser-glimpse-lady-deadpool-cowboy-deadpool">its latest teaser trailer offered a sneak peek at Lady Deadpool</a> and other Deadpool Corps members, including Dogpool and Cowboy Deadpool, who make their big screen debuts. Marvel has yet to announce who plays Lady Deadpool.</p><p>We'll have to wait and see what else Deadpool &amp; Wolverine has in store when <a href="https://www.ign.com/articles/deadpool-and-wolverine-release-date-trailer-cast-and-latest-news"><u>it debuts on July 26</u></a> — but if the first 35 minutes are anything to go by, <a href="https://www.ign.com/articles/weve-seen-35-minutes-of-deadpool-wolverine-and-its-going-to-reignite-the-mcu"><u>it could be the movie to reignite the MCU</u></a> as it enters <a href="https://www.ign.com/articles/upcoming-new-next-marvel-movies-2024-tv-shows-release-dates"><u>the second half of Phase 5</u></a>.</p><p><em>Wesley is the UK News Editor for IGN. Find him on Twitter at @wyp100. You can reach Wesley at wesley_yinpoole@ign.com or confidentially at wyp100@proton.me.</em></p></section></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Make Your Steam Deck Even Better With These Prime Day Deals On Useful Accessories]]></title>
+            <link>https://www.gamespot.com/articles/make-your-steam-deck-even-better-with-these-prime-day-deals-on-useful-accessories/1100-6525038/?ftag=CAD-01-10abi2f</link>
+            <guid>https://www.resetera.com/threads/make-your-steam-deck-even-better-with-these-prime-day-deals-on-useful-accessories.929682/</guid>
+            <content:encoded><![CDATA[https://www.gamespot.com/articles/make-your-steam-deck-even-better-with-these-prime-day-deals-on-useful-accessories/1100-6525038/?ftag=CAD-01-10abi2f<br/><div id="readability-page-1" class="page"><p>
+    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
+  </p><article itemscope="" data-type-id="1100" data-guid="1100-6525038">
+
+            
+            
+  
+
+
+        
+
+  
+
+
+        
+        
+              <section>
+
+                  
+          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
+                <p>Steam Deck owners looking to grab some accessories for their handheld gaming PC are in luck, as <a href="https://www.gamespot.com/amazon-prime-day-deals/">Prime Day</a> has some neat add-ons available at a discounted price. First off, there's the <a href="https://www.amazon.com/JSAUX-PC0104-Detachable-Accessories-Protective/dp/B0BRXHK2QL?tag=gamespot-primeday-20" rel="nofollow ">Jsaux Modcase</a>, a protective back case with its own metal stand, a strap to attach other accessories, and a protective front cover.</p><p>This is an all-in-one protective shell for your Steam Deck, kind of like that optional armored mode for the Batmobile that was used in Tim Burton's Batman movies. You can never have too much protection for a valuable piece of gaming hardware, and at $24, this is a stylish way to keep your Steam Deck safe.</p><h2>Prime Day Steam Deck Accessories Deals</h2><figure data-align="center" data-size="large" data-img-src="https://www.gamespot.com/a/uploads/original/1601/16018044/4335769-steam-deck-stuff.jpg" data-ref-id="1300-4335769" data-ratio="0.5625" data-width="1280" data-embed-type="image"><a href="https://www.gamespot.com/a/uploads/original/1601/16018044/4335769-steam-deck-stuff.jpg" data-ref-id="1300-4335769"></a><img src="https://www.gamespot.com/a/uploads/original/1601/16018044/4335769-steam-deck-stuff.jpg"></figure><ul><li><a href="https://www.amazon.com/JSAUX-PC0104-Detachable-Accessories-Protective/dp/B0BRXHK2QL?tag=gamespot-primeday-20" rel="nofollow ">Jsaux Modcase Bundle</a> -- $24 ($<strike>34</strike>)</li><li><a href="https://www.amazon.com/Satisfye-StylthGrip-Compatible-Thumbpads-StylthGlass-PC/dp/B0BJ79RDDN?tag=gamespot-primeday-20" rel="nofollow ">StylthGrip Bundle</a> -- $64 ($<strike>80</strike>)</li><li><a href="https://www.amazon.com/Spigen-Protective-Shock-Absorption-Anti-Scratch-Accessories/dp/B0BYD5VTNM?tag=gamespot-primeday-20" rel="nofollow ">Spigen Thin Fit Pro</a> -- $21 ($<strike>30</strike>)</li><li><a href="https://www.amazon.com/Antank-Magnetic-Compatible-16000mAh-Detechable/dp/B0BNQFMQP5?tag=gamespot-primeday-20" rel="nofollow ">Steam Deck magnetic battery pack</a> -- $40 ($<strike>50</strike>)</li><li><a href="https://www.amazon.com/Carrying-Accessories-Protective-Lightweight-nintendo-wii/dp/B09ZYFV1GD?tag=gamespot-primeday-20" rel="nofollow ">Steam Deck travel bag</a> -- $40($<strike>50</strike>)</li></ul><p>Another protective option to consider is the <a href="https://www.amazon.com/Satisfye-StylthGrip-Compatible-Thumbpads-StylthGlass-PC/dp/B0BJ79RDDN?tag=gamespot-primeday-20" data-target="true" target="_blank" rel="noopener nofollow">StylthGrip Bundle</a> for both the regular and OLED Steam Decks. This deal is for a hard shell cover, thumbpads, and a glass screen protector. The cool thing about this shell is that it adds comfortable grips to your Steam Deck, making it much more comfortable to use, and there are also cutouts for all the ports so you can easily recharge it without needing to remove the protective case.</p><p>If the sharp angular lines of the StylthGrip don't appeal to you, the <a href="https://www.amazon.com/Spigen-Protective-Shock-Absorption-Anti-Scratch-Accessories/dp/B0BYD5VTNM?tag=gamespot-primeday-20" data-target="true" target="_blank" rel="noopener nofollow">Spigen Thin Fit Pro</a> offers a more rounded solution. This case is 0.2mm thick, has soft rubber for the extra grips, and has its own kickstand. Some of the other noteworthy accessories available at Amazon include a <a href="https://www.amazon.com/Antank-Magnetic-Compatible-16000mAh-Detechable/dp/B0BNQFMQP5?tag=gamespot-primeday-20" data-target="true" target="_blank" rel="noopener nofollow">huge 45W 20000mAh powerbank</a> that can magnetically attach to your Steam Deck, and for when you're on the move, you can never go wrong with a <a href="https://www.amazon.com/Carrying-Accessories-Protective-Lightweight-nintendo-wii/dp/B09ZYFV1GD?tag=gamespot-primeday-20" rel="nofollow ">trendy travel bag</a>.</p><p>There are plenty of other tech deals on right now if you're looking to splurge for Prime Day. For example, the <span data-embed-type="buylink" data-size="buylink__embed" data-collection="%7B%22text%22:%22Asus%20ROG%20Ally%22,%22monetizedUrl%22:%22%22,%22rawUrl%22:%22https://shop-links.co/1820028407127445674?u1=subid_value%22%7D">           <a href="https://clicks.trx-hub.com/xid/fandom_32094_gamespot?q=https%3A%2F%2Fshop-links.co%2F1820028407127445674%3Fu1%3Dsubid_value&amp;p=https%3A%2F%2Fwww.gamespot.com%2Farticles%2Fmake-your-steam-deck-even-better-with-these-prime-day-deals-on-useful-accessories%2F1100-6525038%2F%3Fftag%3DCAD-01-10abi2f&amp;event_type=click" target="_blank" data-event-tracking="{&quot;destUrl&quot;:&quot;https:\/\/clicks.trx-hub.com\/xid\/fandom_32094_gamespot?q=https%3A%2F%2Fshop-links.co%2F1820028407127445674%3Fu1%3Dsubid_value&amp;p=https%3A%2F%2Fwww.gamespot.com%2Farticles%2Fmake-your-steam-deck-even-better-with-these-prime-day-deals-on-useful-accessories%2F1100-6525038%2F%3Fftag%3DCAD-01-10abi2f&amp;event_type=click&quot;,&quot;dwLinkTag&quot;:&quot;buylink|embedded-link&quot;,&quot;leadType&quot;:&quot;deal&quot;,&quot;linkLocation&quot;:&quot;BuyButton&quot;,&quot;merchantName&quot;:&quot;&quot;,&quot;seamlessScrollPage&quot;:&quot;1&quot;,&quot;searchDim&quot;:&quot;buylink|embedded-link&quot;}" data-track-page-event="{&quot;eventName&quot;:&quot;Monetization Link Clicked&quot;,&quot;merchantName&quot;:&quot;&quot;,&quot;merchantPrice&quot;:&quot;&quot;}" data-vars-buy-link="https://clicks.trx-hub.com/xid/fandom_32094_gamespot?q=https%3A%2F%2Fshop-links.co%2F1820028407127445674%3Fu1%3Dsubid_value&amp;p=https%3A%2F%2Fwww.gamespot.com%2Farticles%2Fmake-your-steam-deck-even-better-with-these-prime-day-deals-on-useful-accessories%2F1100-6525038%2F%3Fftag%3DCAD-01-10abi2f&amp;event_type=click">Asus ROG Ally</a> </span> is available for as low as $400 and the <span data-embed-type="buylink" data-size="buylink__embed" data-collection="%7B%22text%22:%22Lenovo%20Legion%20Go%22,%22monetizedUrl%22:%22%22,%22rawUrl%22:%22https://shop-links.co/1818472663284293893?u1=subid_value%22%7D">           <a href="https://clicks.trx-hub.com/xid/fandom_32094_gamespot?q=https%3A%2F%2Fshop-links.co%2F1818472663284293893%3Fu1%3Dsubid_value&amp;p=https%3A%2F%2Fwww.gamespot.com%2Farticles%2Fmake-your-steam-deck-even-better-with-these-prime-day-deals-on-useful-accessories%2F1100-6525038%2F%3Fftag%3DCAD-01-10abi2f&amp;event_type=click" target="_blank" data-event-tracking="{&quot;destUrl&quot;:&quot;https:\/\/clicks.trx-hub.com\/xid\/fandom_32094_gamespot?q=https%3A%2F%2Fshop-links.co%2F1818472663284293893%3Fu1%3Dsubid_value&amp;p=https%3A%2F%2Fwww.gamespot.com%2Farticles%2Fmake-your-steam-deck-even-better-with-these-prime-day-deals-on-useful-accessories%2F1100-6525038%2F%3Fftag%3DCAD-01-10abi2f&amp;event_type=click&quot;,&quot;dwLinkTag&quot;:&quot;buylink|embedded-link&quot;,&quot;leadType&quot;:&quot;deal&quot;,&quot;linkLocation&quot;:&quot;BuyButton&quot;,&quot;merchantName&quot;:&quot;&quot;,&quot;seamlessScrollPage&quot;:&quot;1&quot;,&quot;searchDim&quot;:&quot;buylink|embedded-link&quot;}" data-track-page-event="{&quot;eventName&quot;:&quot;Monetization Link Clicked&quot;,&quot;merchantName&quot;:&quot;&quot;,&quot;merchantPrice&quot;:&quot;&quot;}" data-vars-buy-link="https://clicks.trx-hub.com/xid/fandom_32094_gamespot?q=https%3A%2F%2Fshop-links.co%2F1818472663284293893%3Fu1%3Dsubid_value&amp;p=https%3A%2F%2Fwww.gamespot.com%2Farticles%2Fmake-your-steam-deck-even-better-with-these-prime-day-deals-on-useful-accessories%2F1100-6525038%2F%3Fftag%3DCAD-01-10abi2f&amp;event_type=click">Lenovo Legion Go</a> </span> is on sale for $600. Walmart's <a href="https://clicks.trx-hub.com/xid/fandom_32094_gamespot?q=https%3A%2F%2Fgoto.walmart.com%2Fc%2F1804712%2F565706%2F9383%3Fveh%3Daff%26sourceid%3Dimp_000011112222333344%26u%3Dhttps%3A%2F%2Fwww.walmart.com%2Fip%2FNintendo-Switch-Lite-Timmy-Tommy-s-Aloha-Edition-Animal-Crossing-New-Horizons-Bundle-Full-Game-Download-Included%2F3162541096%3F%26subId1%3Dsubid_value&amp;p=http%3A%2F%2Fwww.gamespot.com%2Farticles%2Fmake-your-steam-deck-even-better-with-these-prime-day-deals-on-useful-accessories%2F1100-6525038%2F%3Fftag%3DCAD-01-10abi2f&amp;event_type=click" data-target="true" target="_blank" rel="noopener nofollow">Nintendo Switch Lite</a> promotion offers you an adorable gaming console and the relaxing game Animal Crossing: New Horizons for only $159, and for Apple fans, the <a href="https://clicks.trx-hub.com/xid/fandom_32094_gamespot?q=https%3A%2F%2Fwww.amazon.com%2FApple-iPad-Air-11-inch-Landscape%2Fdp%2FB0D3J6VB4J%3Ftag%3Dgamespot-primeday-20&amp;p=http%3A%2F%2Fwww.gamespot.com%2Fgallery%2Fbest-amazon-prime-day-deals%2F2900-5592%2F&amp;event_type=click&amp;trx-iid=iid1721216553577bde" rel="nofollow ">2024 iPad Pro with M4 chip</a> is on sale for up to $200 off at Amazon.</p><hr>
+  
+                        
+    
+        
+        
+  
+                                  </div>
+
+          
+        
+                              
+            <span>
+        <a itemprop="reviewer" href="https://plus.google.com/108490194306897153177?rel=author">Darryn Bonthuys</a> on Google+
+      </span>
+      
+                    
+  
+    
+          
+            
+  <div>
+    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
+
+    
+      </div>
+        
+      </section>
+    
+            
+    </article></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[FC 25's Cover Star Revealed, And He's Unlike Any Previous Star In Franchise History]]></title>
+            <link>https://www.gamespot.com/articles/fc-25s-cover-star-revealed-and-hes-unlike-any-previous-star-in-franchise-history/1100-6525049/?ftag=CAD-01-10abi2f</link>
+            <guid>https://www.resetera.com/threads/fc-25s-cover-star-revealed-and-hes-unlike-any-previous-star-in-franchise-history.929679/</guid>
+            <content:encoded><![CDATA[https://www.gamespot.com/articles/fc-25s-cover-star-revealed-and-hes-unlike-any-previous-star-in-franchise-history/1100-6525049/?ftag=CAD-01-10abi2f<br/><div id="readability-page-1" class="page"><p>
+    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
+  </p><article itemscope="" data-type-id="1100" data-guid="1100-6525049">
+
+            
+            
+  
+
+
+        
+
+  
+
+
+        
+        
+              <section>
+
+                  
+          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
+                <p>EA Sports has officially announced FC 25, the newest entry in its professional football/soccer series, and has confirmed 21-year-old star Jude Bellingham as the global cover star. </p><p>Bellingham, an English midfielder who plays for Real Madrid, is the youngest star of an EA Sports football game to date, and he'll also be on the cover of EA Sports FC Mobile. The cover art depicts Bellingham doing his popular Belligol celebration, inspired by the time he <a href="https://www.goal.com/en-us/lists/jude-bellingham-king-el-clasico-winners-losers-real-madrid-barcelona-la-liga-lamine-yamal-ghost-goal/blt02011861bcc922d9" data-target="true" target="_blank" rel="noopener nofollow">scored the stoppage time winner at El Clasico in April this year.</a></p><p data-embed-type="video" data-src="https://www.youtube.com/watch?v=pBM2xyco_Kg" data-width="100%" data-height="100%">          <iframe src="https://www.youtube-nocookie.com/embed/pBM2xyco_Kg" height="100%" width="100%" scrolling="no" frameborder="" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></p><p>Bellingham is not the only cover star for FC 25, as the game's <a href="https://www.gamespot.com/articles/fc-25-tries-something-different-with-its-ultimate-edition-cover/1100-6525005/" data-ref-id="1100-6525005">Ultimate Edition</a> features Bellingham, alongside Aitana Bonmatí, David Beckham, Zinedine Zidane, and Gianluigi Buffon.</p><p>Bellingham helped England advance to the Euro 2024 final, though the team ultimately came up short and lost to Spain by a score of 2-1.</p><p>FC 25 is expected to release sometime in September for console, PC, and mobile, and the first trailer is coming today, July 17, at 9 AM PT / 12 PM ET. It'll be just the latest major sports game from EA, following the launches of <a href="https://www.gamespot.com/games/ea-sports-college-football-25/" data-ref-id="5000-618409">College Football 25</a> and <a href="https://www.gamespot.com/games/madden-nfl-25/" data-ref-id="5000-629476">Madden NFL 25</a>.</p>
+  
+                        
+    
+        
+        
+  
+                                  </div>
+
+          
+        
+  
+  
+                    
+  
+    
+          
+            
+  <div>
+    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
+
+    
+      </div>
+        
+      </section>
+    
+            
+    </article></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Clickolding Is Weird In A Very Good Way]]></title>
+            <link>https://aftermath.site/clickolding-review-impressions-pc</link>
+            <guid>https://www.resetera.com/threads/clickolding-is-weird-in-a-very-good-way.929667/</guid>
+            <content:encoded><![CDATA[https://aftermath.site/clickolding-review-impressions-pc<br/><div id="readability-page-1" class="page"><div><p>As a teen, I had this unnecessary job at the town pool where I kept track of attendance by clicking a silver counter when people came in. When it was slow, I’d entertain myself by noting what number the clicker was on and then clicking back around to it. Despite the similarities, <em>Clickolding</em>, a new game by Strange Scaffold, is very much not like that.</p><p>In <a href="https://store.steampowered.com/app/3011440/CLICKOLDING/" target="_blank" rel="noreferrer noopener"><em>Clickolding</em></a><em>,</em> you play as a person meeting a guy in a mask in a dingy room. You need money, and the guy will give you money if you click a clicker 10,000 times. He talks, you listen, sometimes you move around on his orders, and you click.&nbsp;&nbsp;</p><div><figure><p><iframe title="CLICKOLDING - LAUNCH TRAILER" width="710" height="399" src="https://www.youtube.com/embed/V62f-PsKhyY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p></figure></div><p>Putting aside the embarrassment of how long it took me to get the wordplay of the title when the game was first announced, there’s clearly meant to be something sexual about the encounter, but the game isn’t prurient or judgmental about what’s brought both of you to this room, the way transactional encounters like this are often treated in games. The vibe is mostly unsettling: the guy’s weird mask, the way he asks you to come closer or move where you can’t see him, the way his dialogue grows introspective or menacing. If you, like me, are a horror wuss, it’s not scary in any traditional sense, but the tension definitely ratchets up the closer you get to 10,000. It’s a short game, taking me about an hour, and as such I won’t spoil much of what happens in it for you, since that not-knowing is key to the vibe the game is going for.</p><p>The fact that you have a goal to reach on the clicker is a good choice, the sense of a looming ending giving some structure to what could otherwise be a game about giving yourself a repetitive stress injury. You could experiment with the clicker, going faster or slower or stopping to see what the guy will do. You could invent a backstory for your character, or fill in the gaps about the guy and his attachment to this clicker. Because I am this sort of person, I had some small existential crises as I clicked, thinking about the nature of clicker games and the fact that really <em>all</em> my PC games are clicker games, and is all this clicking going to break my mouse and do PC mice have a lifespan based on clicks, and is clicking buttons how I should be spending my life. I don’t think this was the wrong way to approach <em>Clickolding</em>; despite the small room the game takes place in, there’s a real sense of roominess between the slim narrative and the one mechanic, letting you fill it with whatever you bring to the experience.</p><p>It seems like there’s more bubbling under the game’s straightforward surface–I was delighted to see players already spinning theories in the Steam forums, or <a href="https://x.com/MarioPrime/status/1813396641736523896" target="_blank" rel="noreferrer noopener">devising strategies for clicking</a> or <a href="https://x.com/WritNelson/status/1813432582115045754" target="_blank" rel="noreferrer noopener">going for records</a>. Strange Scaffold makes <em>weird</em> games, but they’re also deeply specific, doing their thing for exactly as long as they need to. It feels like an antidote to our age of sprawling live-service: an odd little game that’s just trying to be what it is, and totally worth your time (but maybe do some <a href="https://kotaku.com/physical-therapists-are-helping-esports-pros-play-more-1793007981" target="_blank" rel="noreferrer noopener">hand stretches</a> first).</p></div><div><h2>Stay in touch</h2><p>Sign up for our free newsletter</p></div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Emio The Smiling Man: Famicom Detective Club has been revealed]]></title>
             <link>https://www.thesixthaxis.com/2024/07/17/emio-the-smiling-man-famicom-detective-club-has-been-revealed/</link>
@@ -231,7 +785,7 @@
     
   <div>
 
-    <div tabindex="0" data-id="1135120179" data-promo-id="0" data-user-has-ads="1" data-video="{&quot;id&quot;:6464606,&quot;title&quot;:&quot;Emio%20%E2%80%93%20The%20Smiling%20Man%3A%20Famicom%20Detective%20Club%20%7C%20Producer%20Overview%20Trailer&quot;,&quot;lengthSeconds&quot;:173,&quot;startTime&quot;:0,&quot;autoplay&quot;:true,&quot;share&quot;:{&quot;linkUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/emio-the-smiling-man-famicom-detective-club-producer-overview-trailer\/2300-6464606\/&quot;,&quot;embedUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/embed\/6464606\/&quot;,&quot;embedHtml&quot;:{&quot;640&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6464606\/\&quot; height=\&quot;360\&quot; width=\&quot;640\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;,&quot;480&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6464606\/\&quot; height=\&quot;270\&quot; width=\&quot;480\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;}},&quot;device&quot;:&quot;other&quot;,&quot;isDevice&quot;:false,&quot;isLiveStream&quot;:false,&quot;videoType&quot;:&quot;video-on-demand&quot;,&quot;countdownTime&quot;:0,&quot;guid&quot;:&quot;gs-2300-6464606&quot;,&quot;ageGateCookieName&quot;:&quot;videoAgeGateBirthday&quot;,&quot;watchedCookieName&quot;:&quot;watchedVideoIds&quot;,&quot;watchedCookieDays&quot;:1,&quot;postPlayMax&quot;:100,&quot;adCall&quot;:{&quot;host&quot;:&quot;http:\/\/pubads.g.doubleclick.net\/gampad\/ads?&quot;,&quot;params&quot;:{&quot;iu&quot;:&quot;\/5441\/vaw-gamespot\/desktop\/gamespot.com&quot;,&quot;impl&quot;:&quot;s&quot;,&quot;gdfp_req&quot;:1,&quot;env&quot;:&quot;vp&quot;,&quot;output&quot;:&quot;xml_vmap1&quot;,&quot;unviewed_position_start&quot;:1,&quot;url&quot;:&quot;[referrer_url]&quot;,&quot;correlator&quot;:&quot;[timestamp]&quot;,&quot;description_url&quot;:&quot;[description_url]&quot;,&quot;cmsid&quot;:2566084,&quot;vid&quot;:6464606,&quot;pp&quot;:&quot;vpaid_js&quot;},&quot;custParams&quot;:{&quot;ptype&quot;:&quot;news_article&quot;,&quot;cid&quot;:&quot;gs-1100-6525046&quot;,&quot;game&quot;:&quot;famicom-detective-club-the-missing-heir-famicom-detective-club-the-girl-who-stands-behind&quot;,&quot;genre&quot;:&quot;compilation&quot;,&quot;con&quot;:&quot;nintendo-switch&quot;,&quot;publisher&quot;:&quot;nintendo&quot;,&quot;embed&quot;:&quot;autoplay&quot;,&quot;franchise&quot;:&quot;famicom-tantei-club&quot;,&quot;category&quot;:&quot;games&quot;,&quot;franchiseRoot&quot;:&quot;famicom-tantei-club&quot;,&quot;partner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;vid&quot;:6464606},&quot;soundBasedSize&quot;:{&quot;normal&quot;:&quot;640x480&quot;,&quot;muted&quot;:&quot;640x483&quot;,&quot;none&quot;:&quot;640x480&quot;},&quot;daiSsbUrl&quot;:&quot;https:\/\/dai.google.com\/ondemand\/hls\/content\/2572465\/vid\/6464606\/master.m3u8&quot;,&quot;daiMidRollHost&quot;:2500176},&quot;uvpHi5Ima&quot;:&quot;https:\/\/s0.2mdn.net\/instream\/html5\/ima3.js&quot;,&quot;cuePoints&quot;:null,&quot;uvpc&quot;:&quot;&quot;,&quot;partner&quot;:&quot;gamespot&quot;,&quot;adPartner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;desktopAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;mobileAdPartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;,&quot;mapp&quot;:&quot;gamespot&quot;,&quot;cms&quot;:&quot;pi&quot;,&quot;seekablePlaybacks&quot;:[&quot;html5&quot;,&quot;uvpjs&quot;],&quot;tracking&quot;:[{&quot;name&quot;:&quot;SiteCatalyst&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;charSet&quot;,&quot;value&quot;:&quot;UTF-8&quot;},{&quot;name&quot;:&quot;currencyCode&quot;,&quot;value&quot;:&quot;USD&quot;},{&quot;name&quot;:&quot;siteType&quot;,&quot;value&quot;:&quot;responsive web&quot;},{&quot;name&quot;:&quot;trackingServer&quot;,&quot;value&quot;:&quot;saa.gamespot.com&quot;},{&quot;name&quot;:&quot;visitorNamespace&quot;,&quot;value&quot;:&quot;cbsinteractive&quot;},{&quot;name&quot;:&quot;heartbeatTrackingServer&quot;,&quot;value&quot;:&quot;newimagitasinc.hb.omtrdc.net&quot;},{&quot;name&quot;:&quot;heartbeatVisitorMarketingCloudOrgId&quot;,&quot;value&quot;:&quot;3C66570E5FE1A4AB0A495FFC@AdobeOrg&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;siteCode&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;brand&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;account&quot;,&quot;value&quot;:&quot;cbsigamespotsite&quot;},{&quot;name&quot;:&quot;edition&quot;,&quot;value&quot;:&quot;us&quot;}]},{&quot;name&quot;:&quot;ComScore_ss&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;c2&quot;,&quot;value&quot;:&quot;31824268&quot;},{&quot;name&quot;:&quot;publishersSecret&quot;,&quot;value&quot;:&quot;2cb08ca4d095dd734a374dff8422c2e5&quot;},{&quot;name&quot;:&quot;c3&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;c4&quot;,&quot;value&quot;:&quot;gamespot&quot;}]},{&quot;name&quot;:&quot;NielsenTracking&quot;,&quot;category&quot;:&quot;tracking&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;host&quot;,&quot;value&quot;:&quot;https:\/\/secure-us.imrworldwide.com\/cgi-bin\/m?&quot;},{&quot;name&quot;:&quot;scCI&quot;,&quot;value&quot;:&quot;us-200330&quot;},{&quot;name&quot;:&quot;scC6&quot;,&quot;value&quot;:&quot;vc,c01&quot;}]},{&quot;name&quot;:&quot;MuxQOSPluginJS&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;propertyKey&quot;,&quot;value&quot;:&quot;b7d6e48b7461a61cb6e863a62&quot;}]}],&quot;trackingAccount&quot;:&quot;cbsigamespotsite&quot;,&quot;trackingSiteCode&quot;:&quot;gs&quot;,&quot;trackingPrimaryId&quot;:&quot;cbsigamespotsite&quot;,&quot;videoAssetSource&quot;:&quot;Publisher Asset&quot;,&quot;uvpjsHostname&quot;:&quot;\/\/www.gamespot.com&quot;,&quot;siteType&quot;:&quot;responsive web&quot;,&quot;startMuted&quot;:false,&quot;screenMediumThumb&quot;:&quot;https:\/\/www.gamespot.com\/a\/uploads\/screen_medium\/1574\/15746725\/4335790-11.jpg&quot;,&quot;videoStreams&quot;:{&quot;adaptive_stream&quot;:&quot;https:\/\/cdn.jwplayer.com\/manifests\/elU1aexx.m3u8&quot;},&quot;userId&quot;:0,&quot;premium&quot;:false,&quot;datePublished&quot;:1721222880,&quot;videoAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;videoAdMobilePartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;}" data-non-iframe-embed="1" data-jw-context-name="gamespot" data-jw-media-id="elU1aexx" data-jw-player-url="https://cdn.jwplayer.com/libraries/VXc5h4Tf.js" data-jw-video-token="" data-has-youtube="" data-youtube-icon-path="https://www.gamespot.com/a/bundles/phoenixsite/images/core/loose/icn-youtube-30x30.png" id="video-rectangle"><div><p>
+    <div tabindex="0" data-id="1947773456" data-promo-id="0" data-user-has-ads="1" data-video="{&quot;id&quot;:6464606,&quot;title&quot;:&quot;Emio%20%E2%80%93%20The%20Smiling%20Man%3A%20Famicom%20Detective%20Club%20%7C%20Producer%20Overview%20Trailer&quot;,&quot;lengthSeconds&quot;:173,&quot;startTime&quot;:0,&quot;autoplay&quot;:true,&quot;share&quot;:{&quot;linkUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/emio-the-smiling-man-famicom-detective-club-producer-overview-trailer\/2300-6464606\/&quot;,&quot;embedUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/embed\/6464606\/&quot;,&quot;embedHtml&quot;:{&quot;640&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6464606\/\&quot; height=\&quot;360\&quot; width=\&quot;640\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;,&quot;480&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6464606\/\&quot; height=\&quot;270\&quot; width=\&quot;480\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;}},&quot;device&quot;:&quot;other&quot;,&quot;isDevice&quot;:false,&quot;isLiveStream&quot;:false,&quot;videoType&quot;:&quot;video-on-demand&quot;,&quot;countdownTime&quot;:0,&quot;guid&quot;:&quot;gs-2300-6464606&quot;,&quot;ageGateCookieName&quot;:&quot;videoAgeGateBirthday&quot;,&quot;watchedCookieName&quot;:&quot;watchedVideoIds&quot;,&quot;watchedCookieDays&quot;:1,&quot;postPlayMax&quot;:100,&quot;adCall&quot;:{&quot;host&quot;:&quot;http:\/\/pubads.g.doubleclick.net\/gampad\/ads?&quot;,&quot;params&quot;:{&quot;iu&quot;:&quot;\/5441\/vaw-gamespot\/desktop\/gamespot.com&quot;,&quot;impl&quot;:&quot;s&quot;,&quot;gdfp_req&quot;:1,&quot;env&quot;:&quot;vp&quot;,&quot;output&quot;:&quot;xml_vmap1&quot;,&quot;unviewed_position_start&quot;:1,&quot;url&quot;:&quot;[referrer_url]&quot;,&quot;correlator&quot;:&quot;[timestamp]&quot;,&quot;description_url&quot;:&quot;[description_url]&quot;,&quot;cmsid&quot;:2566084,&quot;vid&quot;:6464606,&quot;pp&quot;:&quot;vpaid_js&quot;},&quot;custParams&quot;:{&quot;ptype&quot;:&quot;news_article&quot;,&quot;cid&quot;:&quot;gs-1100-6525046&quot;,&quot;game&quot;:&quot;famicom-detective-club-the-missing-heir-famicom-detective-club-the-girl-who-stands-behind&quot;,&quot;genre&quot;:&quot;compilation&quot;,&quot;con&quot;:&quot;nintendo-switch&quot;,&quot;publisher&quot;:&quot;nintendo&quot;,&quot;embed&quot;:&quot;autoplay&quot;,&quot;franchise&quot;:&quot;famicom-tantei-club&quot;,&quot;category&quot;:&quot;games&quot;,&quot;franchiseRoot&quot;:&quot;famicom-tantei-club&quot;,&quot;partner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;vid&quot;:6464606},&quot;soundBasedSize&quot;:{&quot;normal&quot;:&quot;640x480&quot;,&quot;muted&quot;:&quot;640x483&quot;,&quot;none&quot;:&quot;640x480&quot;},&quot;daiSsbUrl&quot;:&quot;https:\/\/dai.google.com\/ondemand\/hls\/content\/2572465\/vid\/6464606\/master.m3u8&quot;,&quot;daiMidRollHost&quot;:2500176},&quot;uvpHi5Ima&quot;:&quot;https:\/\/s0.2mdn.net\/instream\/html5\/ima3.js&quot;,&quot;cuePoints&quot;:null,&quot;uvpc&quot;:&quot;&quot;,&quot;partner&quot;:&quot;gamespot&quot;,&quot;adPartner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;desktopAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;mobileAdPartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;,&quot;mapp&quot;:&quot;gamespot&quot;,&quot;cms&quot;:&quot;pi&quot;,&quot;seekablePlaybacks&quot;:[&quot;html5&quot;,&quot;uvpjs&quot;],&quot;tracking&quot;:[{&quot;name&quot;:&quot;SiteCatalyst&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;charSet&quot;,&quot;value&quot;:&quot;UTF-8&quot;},{&quot;name&quot;:&quot;currencyCode&quot;,&quot;value&quot;:&quot;USD&quot;},{&quot;name&quot;:&quot;siteType&quot;,&quot;value&quot;:&quot;responsive web&quot;},{&quot;name&quot;:&quot;trackingServer&quot;,&quot;value&quot;:&quot;saa.gamespot.com&quot;},{&quot;name&quot;:&quot;visitorNamespace&quot;,&quot;value&quot;:&quot;cbsinteractive&quot;},{&quot;name&quot;:&quot;heartbeatTrackingServer&quot;,&quot;value&quot;:&quot;newimagitasinc.hb.omtrdc.net&quot;},{&quot;name&quot;:&quot;heartbeatVisitorMarketingCloudOrgId&quot;,&quot;value&quot;:&quot;3C66570E5FE1A4AB0A495FFC@AdobeOrg&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;siteCode&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;brand&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;account&quot;,&quot;value&quot;:&quot;cbsigamespotsite&quot;},{&quot;name&quot;:&quot;edition&quot;,&quot;value&quot;:&quot;us&quot;}]},{&quot;name&quot;:&quot;ComScore_ss&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;c2&quot;,&quot;value&quot;:&quot;31824268&quot;},{&quot;name&quot;:&quot;publishersSecret&quot;,&quot;value&quot;:&quot;2cb08ca4d095dd734a374dff8422c2e5&quot;},{&quot;name&quot;:&quot;c3&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;c4&quot;,&quot;value&quot;:&quot;gamespot&quot;}]},{&quot;name&quot;:&quot;NielsenTracking&quot;,&quot;category&quot;:&quot;tracking&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;host&quot;,&quot;value&quot;:&quot;https:\/\/secure-us.imrworldwide.com\/cgi-bin\/m?&quot;},{&quot;name&quot;:&quot;scCI&quot;,&quot;value&quot;:&quot;us-200330&quot;},{&quot;name&quot;:&quot;scC6&quot;,&quot;value&quot;:&quot;vc,c01&quot;}]},{&quot;name&quot;:&quot;MuxQOSPluginJS&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;propertyKey&quot;,&quot;value&quot;:&quot;b7d6e48b7461a61cb6e863a62&quot;}]}],&quot;trackingAccount&quot;:&quot;cbsigamespotsite&quot;,&quot;trackingSiteCode&quot;:&quot;gs&quot;,&quot;trackingPrimaryId&quot;:&quot;cbsigamespotsite&quot;,&quot;videoAssetSource&quot;:&quot;Publisher Asset&quot;,&quot;uvpjsHostname&quot;:&quot;\/\/www.gamespot.com&quot;,&quot;siteType&quot;:&quot;responsive web&quot;,&quot;startMuted&quot;:false,&quot;videoStreams&quot;:{&quot;adaptive_stream&quot;:&quot;https:\/\/cdn.jwplayer.com\/manifests\/elU1aexx.m3u8&quot;},&quot;userId&quot;:0,&quot;premium&quot;:false,&quot;datePublished&quot;:1721222880,&quot;videoAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;videoAdMobilePartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;}" data-non-iframe-embed="1" data-jw-context-name="gamespot" data-jw-media-id="elU1aexx" data-jw-player-url="https://cdn.jwplayer.com/libraries/VXc5h4Tf.js" data-jw-video-token="" data-has-youtube="" data-youtube-icon-path="https://www.gamespot.com/a/bundles/phoenixsite/images/core/loose/icn-youtube-30x30.png" id="video-rectangle"><div><p>
         Want us to remember this setting for all your devices?
       </p><p><a href="https://www.gamespot.com/signup/">Sign up</a> or <a href="https://www.gamespot.com/login/">Sign in</a> now!
       </p></div><p>
@@ -388,7 +942,7 @@ Still, Pokémon merchandise always seems to sell well, and the <a href="https://
             <title><![CDATA[No Man's Sky Is Getting A Complete Universal Refresh In One Of Its Biggest Updates Ever]]></title>
             <link>https://kotaku.com/no-man-sky-patch-5-0-free-helldivers-mechs-1851596276</link>
             <guid>https://www.resetera.com/threads/no-mans-sky-is-getting-a-complete-universal-refresh-in-one-of-its-biggest-updates-ever.929601/</guid>
-            <content:encoded><![CDATA[https://kotaku.com/no-man-sky-patch-5-0-free-helldivers-mechs-1851596276<br/><div id="readability-page-1" class="page"><div><p>As <em>No Man’s Sky</em> nears its eight anniversary, it’s clear the open-world survival crafting sim isn’t slowing down. <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://kotaku.com/no-mans-sky-adrift-update-expedition-horror-abandoned-1851506331&quot;,{&quot;metric25&quot;:1}]]" href="https://kotaku.com/no-mans-sky-adrift-update-expedition-horror-abandoned-1851506331">A cavalcade of free updates</a></span> continues to transform the game from what it once was at launch, and the latest of those is no different. Today, Hello Games revealed  Worlds Part 1, a complete overhaul of planetary weather that’s dropping alongside a major balancing patch and a new expedition that will see the community collectively fight against the threat of alien bugs. Anyone else ready for some <em>No Man’s Helldivers</em>?<br></p><div><h4>Suggested Reading</h4></div><div data-video-id="196923" data-monetizable="true" data-position="sidebar" data-video-title="Kotaku’s Hopes For Spyro The Dragon’s (Reported) Comeback" data-video-blog-id="9" data-video-network="kotaku" data-video-duration="355" data-playlist="196923,196922,196918" data-current="196923"><div><p>Kotaku’s Hopes For Spyro The Dragon’s (Reported) Comeback</p></div><video disablepictureinpicture="" muted="" playsinline="" width="100%" height="100%" crossorigin="anonymous" preload="none"><source data-src="https://vid.kinja.com/prod/196923/196923_240p.mp4" label="240p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/196923/196923_480p.mp4" label="480p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/196923/196923_720p.mp4" label="720p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/196923/196923_1080p.mp4" label="1080p" type="video/mp4"><track kind="captions" label="English" src="https://kinja.com/api/videoupload/caption/22494.vtt" srclang="en"></video><div><ul><li data-label="">Off</li><li data-label="English">English</li></ul></div></div><div><h4>Suggested Reading</h4></div><p>“When we started <em>No Man’s Sky</em>, we wanted people to feel like they had stepped into a science fiction book cover,” director Sean Murray wrote in an email announcing Worlds Part 1. “To bring us closer to that we’ve had to create a lot of new technology.” He said that technology will now make possible things in the game that “the community has almost given up hope on ever happening.” <br></p><p>Instead of a universal reset as some predicted, Hello Games is calling this a “universal refresh.” Here’s a summary of some of the major changes to how <em>No Man’s Sky</em> will generate planets and what players experience on them:</p><ul data-type="List" data-style="Bullet"><li>New water technology for waves and reflections</li><li>Waves are dynamic and will react to wind</li><li>Ships can land on water</li><li>New cloud tech for detailed skies with changing weather conditions</li><li>Volumetrics and atmospherics on planet surfaces for rolling fog, rain, blizzards, lava sparks, and other phenomenon</li><li>Weather systems that interact and develop in real time as players explore</li><li>New biomes and more creatures to discover with more variety, all of which can become pets and mounts</li></ul><p>Alongside this overhaul,<em> No Man’s Sky</em> will also be launching a new expedition that revolves around fighting alien bugs. Murray describes it as “S<em>tarship Troopers</em> inspired” and says players’ fight against these bugs across the new planets they explore will be “community driven” and come with a new heavy armor mech that has a flame thrower for an arm. It sounds like the unofficial <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://kotaku.com/helldivers-2-mechs-tien-kwan-1851317710&quot;,{&quot;metric25&quot;:1}]]" href="https://kotaku.com/helldivers-2-mechs-tien-kwan-1851317710"><em>Helldivers 2</em> crossover no one expected</a></span>, and also a great idea for a new mech stratagem in Arrowhead’s hit shooter.</p><p>Murray had been <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://kotaku.com/no-mans-sky-light-no-fire-sean-murray-tease-update-1851593519&quot;,{&quot;metric25&quot;:1}]]" href="https://kotaku.com/no-mans-sky-light-no-fire-sean-murray-tease-update-1851593519">teasing this update for several days</a></span>, with fans speculating about all the different things that could still be added to <em>No Man’s Sky</em> this many years later. Some hoped for custom space stations, others guessed a complete universal reset, and a few wondered if Hello Games might finally be ready to share more information about it’s other upcoming project, the fantasy survival RPG <em>Light No Fire</em>. We didn’t end up getting a new trailer for that game, but it did come up in today’s update. </p><p>“Six months ago we announced<em> Light No Fire</em>,” Murray wrote. “It’s this insanely ambitious game. Over the last five years making game, we’ve learnt new things, and we’re feeding that back into <em>No Man’s Sky</em>. It feels like we’re bringing technology back from the future!” That’s effectively another way of saying that the new planetary features players can now experience in No Man’s Sky also act as a teaser, and potentially an early preview, of what they can expect from the look and feel of<em> Light No Fire</em>. The game doesn’t have a release date but here’s hoping we hear more about it at one of the gaming showcases coming later this year.</p><p> For now, here’s a <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://www.nomanssky.com/worlds-part-I-update/&quot;,{&quot;metric25&quot;:1}]]" href="https://www.nomanssky.com/worlds-part-I-update/" target="_blank" rel="noopener noreferrer">full list of every change in the 5.0 patch notes</a></span>: </p><blockquote data-type="BlockQuote"><h3 id="h1563"><a id=""></a><strong>SKY AND CLOUD RENDERING</strong></h3><ul data-type="List" data-style="Bullet"><li>The atmospheric and volumetric cloud rendering system has been completely rewritten for vastly increased detail and definition.</li><li>Planets now exhibit a greater range of cloud coverage: over time; from planet-to-planet; and in response to weather conditions.</li><li>Planets with rain will no longer use the ambient rain effect when cloud coverage is insufficient.</li><li>Daytime sky colours are now significantly more varied.</li><li>Night-time ambient lighting is no longer always blue, and can vary according to the planet’s natural environment.</li><li>Night-time darkness levels now vary as the night progresses.</li><li>Night-time darkness now varies from planet-to-planet, with some being significantly darker than others.</li></ul><h3 id="h1564"><a id=""></a><strong>WATER RENDERING</strong></h3><ul data-type="List" data-style="Bullet"><li>Water rendering has been completely overhauled, and now uses a mesh-based system that allows for true wave and foam generation.</li><li>Water conditions vary over time in response to both local weather and the depth of the water at any particular location, producing effects from stormy seas and huge ocean swells to tranquil still ponds.</li><li>Water now reflects the sun and features ambient planetary reflections for dramatically increased visual quality.</li><li>Water colour variety has been significantly increased.</li><li>Base parts with glass now accurately render the water conditions outside.</li><li>Sealed underwater base parts will no longer “leak” water into the base.</li><li>Ships now leave splashes and trails in the water when flying low.</li><li>Underwater jetpack effects have been significantly improved.</li><li>Swimming effects have been significantly improved.</li><li>Starships can now be fitted with aquatic landing jets, allowing them to land or be summoned just above the surface of the ocean.</li><li>A biological equivalent of this technology has been added for living ships.</li></ul><h3 id="h1565"><a id=""></a><strong>GENERAL ENGINE IMPROVEMENTS</strong></h3><ul data-type="List" data-style="Bullet"><li>The shadow-rendering system has been reworked to take advantage of screenspace shadowing techniques, resulting in more richly lit planets and more accurate and more detailed shadows.</li><li>The rendering of planetary objects such as trees, rocks, and grass has been rewritten and moved to a more modern GPU-based system, allowing for more objects at a better performance.</li><li>Distant planetary objects now look significantly more detailed and realistic.</li><li>Terrain generation has been rewritten to incorporate dual marching cubes voxel meshing, which reduces vertex count, increases terrain generation speed, improves framerate and saves significant amounts of memory.</li><li>The component system has been reworked for increased speed and improved memory usage.</li><li>Networking systems have been improved for reduced bandwidth usage.</li><li>Significant memory and performance optimisations have been made across the entire game, particularly in metadata usage, texture streaming, LOD generation and procedural mesh generation.</li></ul><h3 id="h1566"><a id=""></a><strong>DLSS3</strong></h3><ul data-type="List" data-style="Bullet"><li>Deep Learning Super Sampling (DLSS) is an NVIDIA technology, available to</li><li>PC players with compatible RTX cards, which uses a deep learning neural network to boost frame rates and generate beautiful, sharp images.</li><li>Support for the latest iteration, DLSS3, has been added to No Man’s Sky.</li><li>DLSS3 multiplies performance by up to 4X compared to traditional rendering, while retaining great image quality. Learn more on the NVIDIA site.</li></ul><h3 id="h1567"><a id=""></a><strong>PLANETARY VARIETY</strong></h3><ul data-type="List" data-style="Bullet"><li>Planetary variety and diversity has been increased all across the universe.</li><li>New frozen, lush, desert, scorched, radioactive and toxic worlds await discovery and exploration.</li><li>Underlying terrain shapes have not been reset and existing planetary bases will not be moved.</li><li>The chance of a world having ancient bones or salvageable scrap has been increased.</li><li>Worlds with salvageable scrap occasionally feature additional rusted remnants to collect.</li></ul><h3 id="h1568"><a id=""></a><strong>ENVIRONMENTAL EFFECTS</strong></h3><ul data-type="List" data-style="Bullet"><li>The wind simulation has been reworked to bring planets to life and provide a consistent effect across each world, moving trees and leaves, smoke effects, rain, fog, and snow all in a unified system.</li><li>Fogging and particle systems have been improved for increased fidelity and better performance.</li><li>All ambient planetary environment effects have been totally reworked.</li><li>Storm effects have been completely overhauled.</li><li>Planets can now have a range of additional atmospheric effects that match their ambient weather and hazard conditions.</li><li>The visual effects for the jetpack have been overhauled.</li><li>The visual effects for storm crystals have been reworked and improved.</li><li>Footstep effect colouring has been improved.</li><li>Fixed an issue that caused starship contrails to display a low speed.</li></ul><h3 id="h1569"><a id=""></a><strong>CREATURES</strong></h3><ul data-type="List" data-style="Bullet"><li>A new type of procedurally-generated arthropod-style creature has been added and may appear on any world.</li><li>New types of procedurally-generated plant/animal hybrids have been added and may appear on any world.</li><li>New types of procedurally-generated synthetic constructs can now be found on selected worlds…</li><li>A new type of hostile creature has been added – the Brood Mother.</li><li>Some worlds have become infested with the Vile Brood. On such worlds, players can now find juicy grubs. Structurally harming these grubs will summon the Brood</li><li>Mother to project their young…</li><li>A new multiplayer mission has been added to the Nexus to find and destroy the vile brood.</li><li>Players who defeat brood mothers in combat may earn a variety of new titles and insectoid-themed helmet customisation options.</li><li>Over 40 new cooking recipes have been added, making use of products harvested from new creatures.</li><li>Biological horrors now drop cookable meat when killed.</li><li>When under AI pilot control, the Minotaur will now target and exterminate biological horrors.</li><li>The camera shake generated by the footsteps of colossal creatures has been reduced.</li><li>The “boss battle” style UI used when fighting capital ships is now also used when fighting Sentinel Walkers and the Vessel of Many Mouths, giving extra details about their health and status.</li><li>The Vessel of Many Mouths has been given additional ranged attacks, increasing the challenge of their encounter.</li><li>Fixed an issue that prevented the acquisition of worm-cult story documents from the titan worm’s vile spawn.</li></ul><h3 id="h1570"><a id=""></a><strong>LIQUIDATORS EXPEDITION</strong></h3><ul data-type="List" data-style="Bullet"><li>Expedition Fourteen, Liquidators, will begin shortly and run for approximately six weeks.</li><li>This expedition invites players to join the force of the Liquidator Vanguard as they seek to purge the universe of biological horrors old and new, including the infestations of the vile brood…</li><li>Rewards include new posters; custom bug-hunting trophies; a unique arthropod-themed jetpack and full set of matching armour.</li><li>All those who do their part and contribute to the community-wide efforts to exterminate the vile brood will earn pieces of the new Liquidator Heavy Exomech Hybrid, a set of heavy-duty armour for the Minotaur.</li><li>Among the enhancements available to the Liquidator Mech is a bespoke flamethrower unit, perfect for heavy damage at close range.</li><li>As the community makes progress in the expedition, the Liquidator Mech will become available at the Quicksilver Synthesis Companion for those unable to take part.</li></ul><h3 id="h1571"><a id=""></a><strong>TWITCH CAMPAIGN</strong></h3><ul data-type="List" data-style="Bullet"><li>A new package of Twitch drops will begin shortly. Sign up and link your platform accounts on the Twitch Drops page, then tune in to Twitch to earn exotic base parts, high-tech starships, fireworks, appearance modifications, and more.</li></ul><h3 id="h1572"><a id=""></a><strong>SOLAR SHIP CUSTOMISATION</strong></h3><ul data-type="List" data-style="Bullet"><li>The space station’s Starship Fabricator has been expanded to include the ability to craft Solar-class starships.</li></ul><h3 id="h1573"><a id=""></a><strong>BASE PARTS</strong></h3><ul data-type="List" data-style="Bullet"><li>A set of slanted skylight-style roof parts have been added for the timber, alloy, and stone construction sets.</li><li>Fixed an issue that could cause base parts to pop in just after loading or warping.</li></ul><h3 id="h1574"><a id=""></a><strong>BUG FIXES</strong></h3><ul data-type="List" data-style="Bullet"><li>Fixed an issue that caused the Blaze Javelin to always aim at the floor when shooting at Sentinel Quads.</li><li>Fixed an issue that caused the Quicksilver Synthesis Companion to chatter constantly whilst being interacted with.</li><li>Fixed a rare issue that could cause player ships to fly extremely slowly while attempting to dock with the Space Anomaly.</li><li>Fixed a number of visual issues with the origin point of the player torch that could cause the Multi-Tool or parts of the player to be lit up inappropriately.</li><li>Fixed an issue that prevented the inventory page from correctly re-opening on your last selected inventory if that inventory was the freighter or any exocraft.</li><li>Fixed a rare issue that could cause bad characters to be written into the user settings data, potentially leading to unexpected behaviour.</li><li>Fixed an issue that caused the player to collide with harvested oxygen-rich plants.</li><li>Fixed an issue that could cause volcanoes to block the ship or player start location when starting a new game on a volcanic world.</li><li>Fixed an issue that could prevent NPCs from spawning on freighters.</li><li>Fixed an issue that prevented New Beginnings entries from appearing in the Stories catalogue.</li><li>Fixed an issue that caused the Gamma option to appear on PC or Mac while using an OS-level graphics configuration that prevented it from doing anything.</li><li>Fixed an issue that could cause the Assembled Construct aboard the Space Anomaly to produce an inappropriate prop while idling.</li><li>Fixed a number of visual issues with Korvax helmets.</li><li>Fixed a number of issues that could cause procedural textures to appear too light.</li><li>Fixed a memory leak that could occur when changing resolution on PC.</li><li>Fixed a memory trample related to wind generation.</li><li>Fixed a number of rare memory tramples.</li><li>Fixed a number of rare crashes related to reading player stats.</li><li>Fixed a number of issues related to synching freighters in multiplayer.</li><li>Fixed a memory trample related to texture generation.</li><li>Fixed a number of issues related to reloading the current save.</li><li>Fixed a large number of issues related to invalid numbers being used in physics calculations.</li><li>Fixed an issue that could cause some specific space-only markers to appear when not in space.</li><li>Fixed an issue that could cause discoveries made during an expedition to fail to transfer correctly to (or to overwrite) the discoveries list in the main save.</li><li>Fixed a rare issue that could cause expeditions to begin with incorrect data, blocking progress.</li><li>Fixed an issue that could prevent fleet frigates from being repaired when damaged.</li><li>Fixed a number of collision issues aboard combat frigates.</li><li>Fixed an issue in the base Armourer mission that could prevent progress if space combat is disabled.</li><li>Fixed a large number of input bugs when using touch screen interfaces such as the SteamDeck or Switch.</li><li>Fixed a large number of issues that prevented various controls from being correctly remapped.</li></ul><h3 id="h1575"><a id=""></a><strong>UI AND QUALITY OF LIFE</strong></h3><ul data-type="List" data-style="Bullet"><li>Previously named / uploaded discoveries can now be renamed and reuploaded.</li><li>Fixed a large number of camera and animation issues when getting in or out of starship cockpits in first person.</li><li>Several new gestures have been added to the Quick Menu, including an additional dance.</li><li>The hazardous flora that litter some worlds have been tweaked for better visibility, better damage messaging, more consistent labelling, and more appropriate amounts of camera shake.</li><li>The camera shake menu setting will now correctly reduce the shake from damage impacts.</li><li>The active Multi-Tool mode can now be cycled while reloading (which will cancel any active reload in progress).</li><li>Fixed an issue with the Target Sweep system that, when searching for planetary objects, would fail to detect many viable options and instead display “Signal too weak for distance estimate”.</li><li>Space station and freighter docking has been reworked for a more pleasant docking experience, with less unnecessary rotation and smoother movement.</li><li>Refiner slots can now be quick-filled with an entire stack, as an alternative to using the drag and drop system that allows fine control over the amount placed.</li><li>When core chargeable technology (such as hazard protection) has been damaged, it is now added as a Quick Repair option to the Quick Menu.</li><li>Maintenance and repair interactions have had their UI improved for visual polish and improved visibility.</li><li>The interaction labels have been reworked for visual polish and responsiveness.</li><li>The text and font usage on the starship’s targeting reticle has been improved.</li><li>Input when using touch screen interfaces such as the SteamDeck or Switch has been refined across the board.</li><li>Missions that suggest summoning the Space Anomaly from the quick menu will now always use the correct icon.</li><li>Multiplayer missions will now use their correct icon for the hand-in stage at the Nexus.</li><li>Improved the text colouring in detailed mission messages.</li><li>The text chat message sent automatically when in need of resources now correctly reflects if this need is for repairing an item.</li><li>Fixed a number of text clipping issues.</li><li>Fixed an issue that prevented Cream Fingers from being edible.</li></ul></blockquote><blockquote data-type="BlockQuote"><ul data-type="List" data-style="Bullet"><li>Fixed an issue that caused biscuit recipes (and a number of additional niche items) to be absent from the catalogue.</li></ul></blockquote></div></div>]]></content:encoded>
+            <content:encoded><![CDATA[https://kotaku.com/no-man-sky-patch-5-0-free-helldivers-mechs-1851596276<br/><div id="readability-page-1" class="page"><div><p>As <em>No Man’s Sky</em> nears its eight anniversary, it’s clear the open-world survival crafting sim isn’t slowing down. <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://kotaku.com/no-mans-sky-adrift-update-expedition-horror-abandoned-1851506331&quot;,{&quot;metric25&quot;:1}]]" href="https://kotaku.com/no-mans-sky-adrift-update-expedition-horror-abandoned-1851506331">A cavalcade of free updates</a></span> continues to transform the game from what it once was at launch, and the latest of those is no different. Today, Hello Games revealed  Worlds Part 1, a complete overhaul of planetary weather that’s dropping alongside a major balancing patch and a new expedition that will see the community collectively fight against the threat of alien bugs. Anyone else ready for some <em>No Man’s Helldivers</em>?<br></p><div><h4>Suggested Reading</h4></div><div data-video-id="196923" data-monetizable="true" data-position="sidebar" data-video-title="Kotaku’s Hopes For Spyro The Dragon’s (Reported) Comeback" data-video-blog-id="9" data-video-network="kotaku" data-video-duration="355" data-playlist="196923,196922,196918" data-current="196923"><div><p>Kotaku’s Hopes For Spyro The Dragon’s (Reported) Comeback</p></div><video disablepictureinpicture="" muted="" playsinline="" width="100%" height="100%" crossorigin="anonymous" preload="none"><source data-src="https://vid.kinja.com/prod/196923/196923_240p.mp4" label="240p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/196923/196923_480p.mp4" label="480p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/196923/196923_720p.mp4" label="720p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/196923/196923_1080p.mp4" label="1080p" type="video/mp4"><track kind="captions" label="English" src="https://kinja.com/api/videoupload/caption/22494.vtt" srclang="en"></video><div><ul><li data-label="">Off</li><li data-label="English">English</li></ul></div></div><div><h4>Suggested Reading</h4></div><p>“When we started <em>No Man’s Sky</em>, we wanted people to feel like they had stepped into a science fiction book cover,” director Sean Murray wrote in an email announcing Worlds Part 1. “To bring us closer to that we’ve had to create a lot of new technology.” He said that technology will now make possible things in the game that “the community has almost given up hope on ever happening.” <br></p><p>Instead of a universal reset as some predicted, Hello Games is calling this a “universal refresh.” Here’s a summary of some of the major changes to how <em>No Man’s Sky</em> will generate planets and what players experience on them:</p><ul data-type="List" data-style="Bullet"><li>New water technology for waves and reflections</li><li>Waves are dynamic and will react to wind</li><li>Ships can land on water</li><li>New cloud tech for detailed skies with changing weather conditions</li><li>Volumetrics and atmospherics on planet surfaces for rolling fog, rain, blizzards, lava sparks, and other phenomenon</li><li>Weather systems that interact and develop in real time as players explore</li><li>New biomes and more creatures to discover with more variety, all of which can become pets and mounts</li></ul><p>Alongside this overhaul,<em> No Man’s Sky</em> will also be launching a new expedition that revolves around fighting alien bugs. Murray describes it as “S<em>tarship Troopers</em> inspired” and says players’ fight against these bugs across the new planets they explore will be “community driven” and come with a new heavy armor mech that has a flame thrower for an arm. It sounds like the unofficial <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://kotaku.com/helldivers-2-mechs-tien-kwan-1851317710&quot;,{&quot;metric25&quot;:1}]]" href="https://kotaku.com/helldivers-2-mechs-tien-kwan-1851317710"><em>Helldivers 2</em> crossover no one expected</a></span>, and also a great idea for a new mech stratagem in Arrowhead’s hit shooter.</p><p>Murray had been <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://kotaku.com/no-mans-sky-light-no-fire-sean-murray-tease-update-1851593519&quot;,{&quot;metric25&quot;:1}]]" href="https://kotaku.com/no-mans-sky-light-no-fire-sean-murray-tease-update-1851593519">teasing this update for several days</a></span>, with fans speculating about all the different things that could still be added to <em>No Man’s Sky</em> this many years later. Some hoped for custom space stations, others guessed a complete universal reset, and a few wondered if Hello Games might finally be ready to share more information about it’s other upcoming project, the fantasy survival RPG <em>Light No Fire</em>. We didn’t end up getting a new trailer for that game, but it did come up in today’s update. </p><p>“Six months ago we announced<em> Light No Fire</em>,” Murray wrote. “It’s this insanely ambitious game. Over the last five years making game, we’ve learnt new things, and we’re feeding that back into <em>No Man’s Sky</em>. It feels like we’re bringing technology back from the future!” That’s effectively another way of saying that the new planetary features players can now experience in No Man’s Sky also act as a teaser, and potentially an early preview, of what they can expect from the look and feel of<em> Light No Fire</em>. The game doesn’t have a release date but here’s hoping we hear more about it at one of the gaming showcases coming later this year.</p><p> For now, here’s a <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://www.nomanssky.com/worlds-part-I-update/&quot;,{&quot;metric25&quot;:1}]]" href="https://www.nomanssky.com/worlds-part-I-update/" target="_blank" rel="noopener noreferrer">full list of every change in the 5.0 patch notes</a></span>: </p><blockquote data-type="BlockQuote"><h3 id="h247720"><a id=""></a><strong>SKY AND CLOUD RENDERING</strong></h3><ul data-type="List" data-style="Bullet"><li>The atmospheric and volumetric cloud rendering system has been completely rewritten for vastly increased detail and definition.</li><li>Planets now exhibit a greater range of cloud coverage: over time; from planet-to-planet; and in response to weather conditions.</li><li>Planets with rain will no longer use the ambient rain effect when cloud coverage is insufficient.</li><li>Daytime sky colours are now significantly more varied.</li><li>Night-time ambient lighting is no longer always blue, and can vary according to the planet’s natural environment.</li><li>Night-time darkness levels now vary as the night progresses.</li><li>Night-time darkness now varies from planet-to-planet, with some being significantly darker than others.</li></ul><h3 id="h247721"><a id=""></a><strong>WATER RENDERING</strong></h3><ul data-type="List" data-style="Bullet"><li>Water rendering has been completely overhauled, and now uses a mesh-based system that allows for true wave and foam generation.</li><li>Water conditions vary over time in response to both local weather and the depth of the water at any particular location, producing effects from stormy seas and huge ocean swells to tranquil still ponds.</li><li>Water now reflects the sun and features ambient planetary reflections for dramatically increased visual quality.</li><li>Water colour variety has been significantly increased.</li><li>Base parts with glass now accurately render the water conditions outside.</li><li>Sealed underwater base parts will no longer “leak” water into the base.</li><li>Ships now leave splashes and trails in the water when flying low.</li><li>Underwater jetpack effects have been significantly improved.</li><li>Swimming effects have been significantly improved.</li><li>Starships can now be fitted with aquatic landing jets, allowing them to land or be summoned just above the surface of the ocean.</li><li>A biological equivalent of this technology has been added for living ships.</li></ul><h3 id="h247722"><a id=""></a><strong>GENERAL ENGINE IMPROVEMENTS</strong></h3><ul data-type="List" data-style="Bullet"><li>The shadow-rendering system has been reworked to take advantage of screenspace shadowing techniques, resulting in more richly lit planets and more accurate and more detailed shadows.</li><li>The rendering of planetary objects such as trees, rocks, and grass has been rewritten and moved to a more modern GPU-based system, allowing for more objects at a better performance.</li><li>Distant planetary objects now look significantly more detailed and realistic.</li><li>Terrain generation has been rewritten to incorporate dual marching cubes voxel meshing, which reduces vertex count, increases terrain generation speed, improves framerate and saves significant amounts of memory.</li><li>The component system has been reworked for increased speed and improved memory usage.</li><li>Networking systems have been improved for reduced bandwidth usage.</li><li>Significant memory and performance optimisations have been made across the entire game, particularly in metadata usage, texture streaming, LOD generation and procedural mesh generation.</li></ul><h3 id="h247723"><a id=""></a><strong>DLSS3</strong></h3><ul data-type="List" data-style="Bullet"><li>Deep Learning Super Sampling (DLSS) is an NVIDIA technology, available to</li><li>PC players with compatible RTX cards, which uses a deep learning neural network to boost frame rates and generate beautiful, sharp images.</li><li>Support for the latest iteration, DLSS3, has been added to No Man’s Sky.</li><li>DLSS3 multiplies performance by up to 4X compared to traditional rendering, while retaining great image quality. Learn more on the NVIDIA site.</li></ul><h3 id="h247724"><a id=""></a><strong>PLANETARY VARIETY</strong></h3><ul data-type="List" data-style="Bullet"><li>Planetary variety and diversity has been increased all across the universe.</li><li>New frozen, lush, desert, scorched, radioactive and toxic worlds await discovery and exploration.</li><li>Underlying terrain shapes have not been reset and existing planetary bases will not be moved.</li><li>The chance of a world having ancient bones or salvageable scrap has been increased.</li><li>Worlds with salvageable scrap occasionally feature additional rusted remnants to collect.</li></ul><h3 id="h247725"><a id=""></a><strong>ENVIRONMENTAL EFFECTS</strong></h3><ul data-type="List" data-style="Bullet"><li>The wind simulation has been reworked to bring planets to life and provide a consistent effect across each world, moving trees and leaves, smoke effects, rain, fog, and snow all in a unified system.</li><li>Fogging and particle systems have been improved for increased fidelity and better performance.</li><li>All ambient planetary environment effects have been totally reworked.</li><li>Storm effects have been completely overhauled.</li><li>Planets can now have a range of additional atmospheric effects that match their ambient weather and hazard conditions.</li><li>The visual effects for the jetpack have been overhauled.</li><li>The visual effects for storm crystals have been reworked and improved.</li><li>Footstep effect colouring has been improved.</li><li>Fixed an issue that caused starship contrails to display a low speed.</li></ul><h3 id="h247726"><a id=""></a><strong>CREATURES</strong></h3><ul data-type="List" data-style="Bullet"><li>A new type of procedurally-generated arthropod-style creature has been added and may appear on any world.</li><li>New types of procedurally-generated plant/animal hybrids have been added and may appear on any world.</li><li>New types of procedurally-generated synthetic constructs can now be found on selected worlds…</li><li>A new type of hostile creature has been added – the Brood Mother.</li><li>Some worlds have become infested with the Vile Brood. On such worlds, players can now find juicy grubs. Structurally harming these grubs will summon the Brood</li><li>Mother to project their young…</li><li>A new multiplayer mission has been added to the Nexus to find and destroy the vile brood.</li><li>Players who defeat brood mothers in combat may earn a variety of new titles and insectoid-themed helmet customisation options.</li><li>Over 40 new cooking recipes have been added, making use of products harvested from new creatures.</li><li>Biological horrors now drop cookable meat when killed.</li><li>When under AI pilot control, the Minotaur will now target and exterminate biological horrors.</li><li>The camera shake generated by the footsteps of colossal creatures has been reduced.</li><li>The “boss battle” style UI used when fighting capital ships is now also used when fighting Sentinel Walkers and the Vessel of Many Mouths, giving extra details about their health and status.</li><li>The Vessel of Many Mouths has been given additional ranged attacks, increasing the challenge of their encounter.</li><li>Fixed an issue that prevented the acquisition of worm-cult story documents from the titan worm’s vile spawn.</li></ul><h3 id="h247727"><a id=""></a><strong>LIQUIDATORS EXPEDITION</strong></h3><ul data-type="List" data-style="Bullet"><li>Expedition Fourteen, Liquidators, will begin shortly and run for approximately six weeks.</li><li>This expedition invites players to join the force of the Liquidator Vanguard as they seek to purge the universe of biological horrors old and new, including the infestations of the vile brood…</li><li>Rewards include new posters; custom bug-hunting trophies; a unique arthropod-themed jetpack and full set of matching armour.</li><li>All those who do their part and contribute to the community-wide efforts to exterminate the vile brood will earn pieces of the new Liquidator Heavy Exomech Hybrid, a set of heavy-duty armour for the Minotaur.</li><li>Among the enhancements available to the Liquidator Mech is a bespoke flamethrower unit, perfect for heavy damage at close range.</li><li>As the community makes progress in the expedition, the Liquidator Mech will become available at the Quicksilver Synthesis Companion for those unable to take part.</li></ul><h3 id="h247728"><a id=""></a><strong>TWITCH CAMPAIGN</strong></h3><ul data-type="List" data-style="Bullet"><li>A new package of Twitch drops will begin shortly. Sign up and link your platform accounts on the Twitch Drops page, then tune in to Twitch to earn exotic base parts, high-tech starships, fireworks, appearance modifications, and more.</li></ul><h3 id="h247729"><a id=""></a><strong>SOLAR SHIP CUSTOMISATION</strong></h3><ul data-type="List" data-style="Bullet"><li>The space station’s Starship Fabricator has been expanded to include the ability to craft Solar-class starships.</li></ul><h3 id="h247730"><a id=""></a><strong>BASE PARTS</strong></h3><ul data-type="List" data-style="Bullet"><li>A set of slanted skylight-style roof parts have been added for the timber, alloy, and stone construction sets.</li><li>Fixed an issue that could cause base parts to pop in just after loading or warping.</li></ul><h3 id="h247731"><a id=""></a><strong>BUG FIXES</strong></h3><ul data-type="List" data-style="Bullet"><li>Fixed an issue that caused the Blaze Javelin to always aim at the floor when shooting at Sentinel Quads.</li><li>Fixed an issue that caused the Quicksilver Synthesis Companion to chatter constantly whilst being interacted with.</li><li>Fixed a rare issue that could cause player ships to fly extremely slowly while attempting to dock with the Space Anomaly.</li><li>Fixed a number of visual issues with the origin point of the player torch that could cause the Multi-Tool or parts of the player to be lit up inappropriately.</li><li>Fixed an issue that prevented the inventory page from correctly re-opening on your last selected inventory if that inventory was the freighter or any exocraft.</li><li>Fixed a rare issue that could cause bad characters to be written into the user settings data, potentially leading to unexpected behaviour.</li><li>Fixed an issue that caused the player to collide with harvested oxygen-rich plants.</li><li>Fixed an issue that could cause volcanoes to block the ship or player start location when starting a new game on a volcanic world.</li><li>Fixed an issue that could prevent NPCs from spawning on freighters.</li><li>Fixed an issue that prevented New Beginnings entries from appearing in the Stories catalogue.</li><li>Fixed an issue that caused the Gamma option to appear on PC or Mac while using an OS-level graphics configuration that prevented it from doing anything.</li><li>Fixed an issue that could cause the Assembled Construct aboard the Space Anomaly to produce an inappropriate prop while idling.</li><li>Fixed a number of visual issues with Korvax helmets.</li><li>Fixed a number of issues that could cause procedural textures to appear too light.</li><li>Fixed a memory leak that could occur when changing resolution on PC.</li><li>Fixed a memory trample related to wind generation.</li><li>Fixed a number of rare memory tramples.</li><li>Fixed a number of rare crashes related to reading player stats.</li><li>Fixed a number of issues related to synching freighters in multiplayer.</li><li>Fixed a memory trample related to texture generation.</li><li>Fixed a number of issues related to reloading the current save.</li><li>Fixed a large number of issues related to invalid numbers being used in physics calculations.</li><li>Fixed an issue that could cause some specific space-only markers to appear when not in space.</li><li>Fixed an issue that could cause discoveries made during an expedition to fail to transfer correctly to (or to overwrite) the discoveries list in the main save.</li><li>Fixed a rare issue that could cause expeditions to begin with incorrect data, blocking progress.</li><li>Fixed an issue that could prevent fleet frigates from being repaired when damaged.</li><li>Fixed a number of collision issues aboard combat frigates.</li><li>Fixed an issue in the base Armourer mission that could prevent progress if space combat is disabled.</li><li>Fixed a large number of input bugs when using touch screen interfaces such as the SteamDeck or Switch.</li><li>Fixed a large number of issues that prevented various controls from being correctly remapped.</li></ul><h3 id="h247732"><a id=""></a><strong>UI AND QUALITY OF LIFE</strong></h3><ul data-type="List" data-style="Bullet"><li>Previously named / uploaded discoveries can now be renamed and reuploaded.</li><li>Fixed a large number of camera and animation issues when getting in or out of starship cockpits in first person.</li><li>Several new gestures have been added to the Quick Menu, including an additional dance.</li><li>The hazardous flora that litter some worlds have been tweaked for better visibility, better damage messaging, more consistent labelling, and more appropriate amounts of camera shake.</li><li>The camera shake menu setting will now correctly reduce the shake from damage impacts.</li><li>The active Multi-Tool mode can now be cycled while reloading (which will cancel any active reload in progress).</li><li>Fixed an issue with the Target Sweep system that, when searching for planetary objects, would fail to detect many viable options and instead display “Signal too weak for distance estimate”.</li><li>Space station and freighter docking has been reworked for a more pleasant docking experience, with less unnecessary rotation and smoother movement.</li><li>Refiner slots can now be quick-filled with an entire stack, as an alternative to using the drag and drop system that allows fine control over the amount placed.</li><li>When core chargeable technology (such as hazard protection) has been damaged, it is now added as a Quick Repair option to the Quick Menu.</li><li>Maintenance and repair interactions have had their UI improved for visual polish and improved visibility.</li><li>The interaction labels have been reworked for visual polish and responsiveness.</li><li>The text and font usage on the starship’s targeting reticle has been improved.</li><li>Input when using touch screen interfaces such as the SteamDeck or Switch has been refined across the board.</li><li>Missions that suggest summoning the Space Anomaly from the quick menu will now always use the correct icon.</li><li>Multiplayer missions will now use their correct icon for the hand-in stage at the Nexus.</li><li>Improved the text colouring in detailed mission messages.</li><li>The text chat message sent automatically when in need of resources now correctly reflects if this need is for repairing an item.</li><li>Fixed a number of text clipping issues.</li><li>Fixed an issue that prevented Cream Fingers from being edible.</li></ul></blockquote><blockquote data-type="BlockQuote"><ul data-type="List" data-style="Bullet"><li>Fixed an issue that caused biscuit recipes (and a number of additional niche items) to be absent from the catalogue.</li></ul></blockquote></div></div>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[VALORANT Champions 2024 Drops And How To Get Them]]></title>
@@ -737,353 +1291,6 @@ Still, Pokémon merchandise always seems to sell well, and the <a href="https://
     
             
     </article></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[The next No Man’s Sky update makes planets feel more real]]></title>
-            <link>https://www.theverge.com/2024/7/17/24200072/no-mans-sky-next-update-worlds-part-1</link>
-            <guid>https://www.resetera.com/threads/the-next-no-man%E2%80%99s-sky-update-makes-planets-feel-more-real.929550/</guid>
-            <content:encoded><![CDATA[https://www.theverge.com/2024/7/17/24200072/no-mans-sky-next-update-worlds-part-1<br/><div id="readability-page-1" class="page"><div><p>The developers of <a href="https://www.theverge.com/2024/5/29/24166275/no-mans-sky-adrift-update"><em>No Man’s Sky</em></a> have announced their next update, which is dubbed Worlds Part&nbsp;I. According to Hello Games founder <a href="https://www.theverge.com/2016/3/3/11152396/no-mans-sky-preview-sean-murray-interview-ps4-pc">Sean Murray</a>, this update will be one of the game’s prettiest yet, literally changing the way players see the universe. “In <em>No Man’s Sky</em>, what you see on screen is generated by the computer,” Murray wrote. “The level of variety we are achieving is far beyond what was possible before.”</p><p>The update is largely graphical, adding a host of new weather and terrain features designed to make planets feel even more real. Water will produce waves and reflections, waves will now respond to different weather phenomena, and the game will finally let ships land directly on the water. Worlds Part I will add new atmospheric conditions as well. Lava flows will belch sparks into the air while fog, blizzards, rain, and clouds make the procedurally generated locations feel more like living planets.</p><p>According to Murray, creating realistic clouds presented a unique challenge to the team. With the Worlds Part I update, new cloud technology — no, <a href="https://www.theverge.com/2024/6/27/24187164/xbox-cloud-gaming-tv-app-fire-tv-stick-amazon-launch">not that kind</a> — will introduce even more variety to planets. He also shared that the update will have a <em>Starship Troopers</em> vibe featuring a new mech players are going to need to fight off enemies.</p><p>Murray wrote about how new technology and work on Hello Games’ next project, <a href="https://www.theverge.com/23990841/hello-games-light-no-fire-trailer"><em>Light No Fire</em></a><em>,</em> has allowed the team to go back and work on <em>No Man’s Sky</em>. “Over the last five years making the game, we’ve learnt new things, and we’re feeding that back into No Man’s Sky,” Murray said. </p><p>The update is available today, but with a name like World’s Part I, you can naturally be sure that a part two won’t be far behind.</p></div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Nintendo's mysterious, creepy horror game revealed]]></title>
-            <link>https://www.eurogamer.net/nintendos-mysterious-creepy-horror-game-revealed</link>
-            <guid>https://www.resetera.com/threads/nintendos-mysterious-creepy-horror-game-revealed.929547/</guid>
-            <content:encoded><![CDATA[https://www.eurogamer.net/nintendos-mysterious-creepy-horror-game-revealed<br/><div id="readability-page-1" class="page"><div>
-  
-
-    <div>
-        
-
-        <p>And it's a new Famicom Detective Club instalment.</p>
-
-    </div>
-
-
-  <p>
-  <figure>
-  <a href="https://assetsio.gnwcdn.com/Screenshot_17-7-2024_141125_x.com.jpeg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
-  
-  </a>
-
-      <figcaption>
-        <span>
-Image credit:          <cite>Nintendo / Eurogamer</cite>
-        </span>
-      </figcaption>
-  </figure>
-  </p>
-
-    
-
-</div><div>
-
-
-
-            <p>
-Nintendo's mysterious horror game - <a href="https://www.eurogamer.net/nintendo-just-uploaded-a-bizarre-horror-game-teaser">glimpsed last week via a brief and bizarre teaser trailer</a> - is in fact a new entry in the Famicom Detective Club series. 
-</p>
-<p>
-Emio - The Smiling Man: Famicom Detective Club will launch on 29th August, Nintendo confirmed today, showing off a first look at the game's artwork, featuring its creepy paper bag-headed villain.
-</p>
-<p>
-If you're unfamiliar with the retro adventure series, this is a Nintendo-developed franchise originally released in the late 1980s. Two games were released, but only in Japan. And there they remained for more than 30 years, until a Nintendo Switch remake of the pair launched worldwide in 2021.
-</p>
-<figure>
-<p>
-<a aria-label="Emio – The Smiling Man: Famicom Detective Club – A chat with producer Yoshio Sakamoto" data-lightbox="false" data-platform="youtube" href="https://www.youtube.com/embed/WpFWGeMLhjw?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
-<span>Emio – The Smiling Man: Famicom Detective Club – A chat with producer Yoshio Sakamoto</span>
-<template>
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/WpFWGeMLhjw?autoplay=1" frameborder="0" loading="lazy" src="https://www.youtube-nocookie.com/embed/WpFWGeMLhjw?autoplay=1">
-</iframe> </template>
-</a>
-</p>
-<figcaption>Nintendo design legend Yoshio Sakamoto discusses Emio - The Smiling Man: Famicom Detective Club.<a href="https://www.youtube.com/watch?v=WpFWGeMLhjw" rel="noopener" target="_blank">Watch on YouTube</a></figcaption></figure>
-<p>
-Nintendo veteran designer Yoshio Sakamoto, of Metroid fame, is returning to the series for Emio - The Smiling Man, Nintendo confirmed today. </p>
-<p>
-In a brief developer interview, Sakamoto said the game's creepy villain will pop up in-game after previously being thought of as an urban legend. It's up to you to investigate a murder and discover the truth behind the paper bag-wearing myth.
-</p><p>
-
-More concrete detail on the game from a Nintendo press release reveals that you will play the role of a junior private investigator aiding local police with a murder case. A student has been found dead, his head covered with a paper bag bearing the same smiling face as the legendary Smiling Man, who was also linked to other murders in the past. 
- 
-"Has a serial killer returned, or is this the work of a copycat? Are these crimes inspired by the Smiling Man story, or the origin of it? Players will discover the answers and more as they investigate in Emio – The Smiling Man: Famicom Detective Club," Nintendo writes. 
-
-</p>
-
-
-
-        </div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Nintendo Announces Emio The Smiling Man: Famicom Detective Club; First New Game in the Series in 35 Years]]></title>
-            <link>https://wccftech.com/nintendo-announces-emio-the-smiling-man-famicom-detective-club-first-new-game-in-the-series-in-35-years/</link>
-            <guid>https://www.resetera.com/threads/nintendo-announces-emio-the-smiling-man-famicom-detective-club-first-new-game-in-the-series-in-35-years.929544/</guid>
-            <content:encoded><![CDATA[https://wccftech.com/nintendo-announces-emio-the-smiling-man-famicom-detective-club-first-new-game-in-the-series-in-35-years/<br/><div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			<p>Nintendo has announced Emio The Smiling Man: Famicom Detective Club - the first new game in the series in 35 years.</p>
-<p>Last week, <a href="https://www.youtube.com/watch?v=Hq_NGMM2FWE" target="_blank" rel="noopener">Nintendo uploaded a teaser</a> for what looked like to be some kind of horror title. Some suggested that this teaser was related to a new game from Bloober Team, but as it turned out, this wasn't the case. Fast forward one week and Nintendo has now officially revealed a new entry in the Famicom Detective Club series - Emio – The Smiling Man: Famicom Detective Club. We've included the official announcement trailer below:</p>
-<p><iframe title="Emio – The Smiling Man: Famicom Detective Club – A Chat with Producer Yoshio Sakamoto" width="500" height="281" src="https://www.youtube.com/embed/AHBtMQaj7w0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
-<p><em>A student has been found dead! His head was covered with a paper bag with an eerie smiling face drawn on it—much like the victims of Emio, the Smiling Man—a killer of urban legend who is said to place such a bag over his victims’ heads.</em></p>
-<p><em>As an assistant private investigator, you are tasked with helping police solve this crime, which is reminiscent of a series of unsolved murders from 18 years ago. Has a serial killer returned, or is this the work of a copycat? Are these crimes inspired by the Smiling Man story, or the origin of it?</em></p>
-<p><em>Discover the answers to these questions and more as a member of the Utsugi Detective Agency in this intense story of suspicion, isolation, and fragility.</em></p>
-<p>In the game, players take on the role of an assistant private investigator with Utsugi Detective Agency. Players are tasked with helping police solve a crime. Along the way, scrutinize the clues and testimonies you gather for potential connections to the gruesome events of the past.</p>
-<p>Emio – The Smiling Man: Famicom Detective Club launches for the Nintendo Switch next month on August 29. As said, this is the first new entry in the series in 35 years - the most recent game (The Girl Who Stands Behind) was released in 1989.</p>
-
-				
-
-			
-
-		</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Nintendo Announces August Release Date for Mysterious ‘Emio’ Game]]></title>
-            <link>https://insider-gaming.com/nintendo-announces-august-release-date-for-mysterious-emio-game/</link>
-            <guid>https://www.resetera.com/threads/nintendo-announces-august-release-date-for-mysterious-%E2%80%98emio%E2%80%99-game.929541/</guid>
-            <content:encoded><![CDATA[https://insider-gaming.com/nintendo-announces-august-release-date-for-mysterious-emio-game/<br/><div id="readability-page-1" class="page"><div>
-																										
-<p>In a new <a href="https://x.com/NintendoUK/status/1813560024750321730" target="_blank" rel="noreferrer noopener">post on X</a>, Nintendo officially announced that Emio – The Smiling Man: Famicom Detective Club has a release date for August 29, 2024.</p>
-
-
-
-<p>Today’s announcement included a very brief trailer, which again featured the titular Emio. However, the grainy footage transitions from <a href="https://insider-gaming.com/nintendo-reveals-trailer-for-m-rated-game-teases-creepy-emio/" target="_blank" rel="noreferrer noopener">the previous teaser</a> into the art style fans might expect to see in-game.</p>
-
-
-
-<p>It also confirms that Emio is part of the Famicom Detective Club IP. This classic Nintendo IP originally released in the late 80’s with two memorable games. </p>
-
-
-
-<figure></figure>
-
-
-
-
-
-
-
-<p>Currently, fans can play Famicom Detective Club: The Two-Case Collection, which released in 2021. The collection includes both The Girl Who Stands Behind and The Missing Heir. Both titles currently have strong user ratings on Metacritic, respectively 8.1 and 7.9.</p>
-
-
-
-<p>Emio was just <a href="https://insider-gaming.com/emio-has-been-rated-in-australia/" target="_blank" rel="noreferrer noopener">rated in Australia</a> last week, signaling that the release date was coming soon. The existing trailer gained an enormous amount of interest from Nintendo fans due to its horror atmosphere and M Rating by the ESRB.</p>
-
-
-
-<p>The Nintendo brand is often family-friendly, but its connection to Famicom Detective Club reveals the tone players should expect.</p>
-
-
-
-<p>Nintendo recently held <a href="https://insider-gaming.com/nintendo-direct-june-2024-everything-announced/">a massive direct</a> showcase that lasted about 40 minutes. It revealed many games coming in 2024, though Emio was not among them. Some highlights included Mario &amp; Luigi Brothership, Marvel vs. Capcom Fighting Collection, and The Legend of Zelda: Echoes of Wisdom.</p>
-
-
-
-<hr>
-
-
-
-<p>For more of the latest gaming industry news, you can read about Anger Foot publisher Devolver Digital revealing plans for a <a href="https://insider-gaming.com/anger-foot-publisher-devolver-digital-planning-new-game-announcement-this-week/" target="_blank" rel="noreferrer noopener">new game announcement</a> this week, and sign up to receive the <a href="https://insider-gaming.com/visit/newsletter/" target="_blank" rel="noreferrer noopener">Insider Gaming newsletter</a>.</p>
-
-									</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Emio – The Smiling Man: Famicom Detective Club announced for Switch]]></title>
-            <link>https://www.gematsu.com/2024/07/emio-the-smiling-man-famicom-detective-club-announced-for-switch</link>
-            <guid>https://www.resetera.com/threads/emio-%E2%80%93-the-smiling-man-famicom-detective-club-announced-for-switch.929538/</guid>
-            <content:encoded><![CDATA[https://www.gematsu.com/2024/07/emio-the-smiling-man-famicom-detective-club-announced-for-switch<br/><div id="readability-page-1" class="page"><div>
-
-    <ul>
-    <li><a href="https://www.gematsu.com/platforms/nintendo/switch">Switch</a></li>    </ul>
-
-    
-    <p><span>Due out on August 29.</span>
-      </p></div><div><p>Following a teaser last week, <a title="Platforms > Nintendo [20,475 articles]" href="https://www.gematsu.com/platforms/nintendo">Nintendo</a> has <a href="https://www.businesswire.com/news/home/20240717664592/en/" rel="noopener" target="_blank">announced</a> mystery <a title="Genres > Adventure [1,619 articles]" href="https://www.gematsu.com/genres/adventure">adventure game</a> <em><a title="Games > Emio - The Smiling Man: Famicom Detective Club" href="https://www.gematsu.com/games/emio-the-smiling-man-famicom-detective-club">Emio – The Smiling Man: Famicom Detective Club</a></em> for <a title="Platforms > Switch [15,662 articles]" href="https://www.gematsu.com/platforms/nintendo/switch">Switch</a>. It is the first new <em>Famicom Detective Club</em> story in 35 years, following the previously released first and second installments in the series. It will launch both physically and digitally on August 29 worldwide for $49.99. <span id="more-899543"></span></p><p>Here is an overview of the game, via <a href="https://www.nintendo.com/us/store/products/emio-the-smiling-man-famicom-detective-club-switch/" rel="noopener" target="_blank">Nintendo.com</a>:</p><blockquote><p><strong>About</strong></p><p>Investigate a brutal death and its connection to an urban legend.</p><p>A student has been found dead! His head was covered with a paper bag with an eerie smiling face drawn on it—much like the victims of Emio, the Smiling Man—a killer of urban legend who is said to place such a bag over his victims’ heads.</p><p>As an assistant private investigator, you are tasked with helping police solve this crime, which is reminiscent of a series of unsolved murders from 18 years ago. Has a serial killer returned, or is this the work of a copycat? Are these crimes inspired by the Smiling Man story, or the origin of it?</p><!-- AD: content -->
-        <p>Discover the answers to these questions and more as a member of the Utsugi Detective Agency in this intense story of suspicion, isolation, and fragility.</p></blockquote><div id="carousel_899547"><ul><li><span>❮</span></li><li><span>❯</span></li></ul></div><blockquote><p><strong>Explore an Interactive Drama Full of Interesting Characters</strong></p><p>Continue the adventures of the Utsugi Detective Agency with the return of familiar characters—including the returning protagonist from previous games, and Ayumi Tachibana, who is now playable in certain sections of the game for the first time in the series!</p><p>Playing as the investigative duo, you’ll need to learn a lot about the personalities and backstories of the other characters if you want to discover the truth. Who is harmless, and who is keeping important secrets? Ask questions, reference your notes, and make connections—you’ll have to order your thoughts and examine your leads carefully to draw the right conclusions.</p></blockquote><p>Watch a video message from producer Yoshio Sakamoto below. View the first screenshots <a href="https://www.gematsu.com/gallery/emio-the-smiling-man-famicom-detective-club/july-17-2024/">at the gallery</a>.</p><h2><span>A Chat with Producer Yoshio Sakamoto</span></h2><p><strong>English</strong></p><p><iframe title="Emio – The Smiling Man: Famicom Detective Club – A Chat with Producer Yoshio Sakamoto" width="500" height="281" src="https://www.youtube.com/embed/AHBtMQaj7w0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p><p><strong>Japanese</strong></p><p><iframe title="プロデューサー坂本 賀勇が語る『ファミコン探偵倶楽部 笑み男』" width="500" height="281" src="https://www.youtube.com/embed/b69IglV4RVA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p></div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[College Football 25 Passes 700,000 Concurrent Players During Early Access]]></title>
-            <link>https://www.gamespot.com/articles/college-football-25-passes-700000-concurrent-players-during-early-access/1100-6525040/?ftag=CAD-01-10abi2f</link>
-            <guid>https://www.resetera.com/threads/college-football-25-passes-700-000-concurrent-players-during-early-access.929535/</guid>
-            <content:encoded><![CDATA[https://www.gamespot.com/articles/college-football-25-passes-700000-concurrent-players-during-early-access/1100-6525040/?ftag=CAD-01-10abi2f<br/><div id="readability-page-1" class="page"><p>
-    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
-  </p><article itemscope="" data-type-id="1100" data-guid="1100-6525040">
-
-            
-            
-  
-
-
-        
-
-  
-
-
-        
-        
-              <section>
-
-                  
-          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
-                <p>After 10 years away, EA's college football video game series has returned with <a href="https://www.gamespot.com/articles/ea-sports-college-football-25-release-date-trailer-news/1100-6523761/" data-ref-id="1100-6523761">EA Sports College Football 25</a>, and it seems like the game is off to a hot start.</p><p>The game launched on July 15 for people who bought the $100 deluxe edition or jumped in via the EA Play 10-hour trial, and more than 700,000 people were logged in concurrently right away. College Football 25 supports cross-play on PS5 and Xbox Series X|S, so presumably this number includes players on both platforms.</p><p>College Football 25 is exclusive to PS5 and Xbox Series X|S, and anecdotal evidence seems to point to the game helping lift console sales. One social media user pointed out there appears to be an uptick in Xbox Series S sales on Walmart, though whether or not this is connected to College Football 25's release is unknown.</p><div data-embed-type="tweet" data-src="https://x.com/Welfare_JBP/status/1813045727578272096" data-has-image="true"><blockquote data-conversation="none" data-mce-disable-toolbar="true"><p dir="ltr">Yeeeah EA College Football is absolutely for sure, positively a console mover.<br>Xbox Series S is never touching +1000 today at Walmart otherwise, outside a price cut. Jumped from +100 yesterday to +1000 today. <a href="https://t.co/IGRxxnlxSA" rel="nofollow ">pic.twitter.com/IGRxxnlxSA</a></p>  — John Welfare (@Welfare_JBP) <a href="https://twitter.com/Welfare_JBP/status/1813045727578272096?ref_src=twsrc%5Etfw">July 16, 2024</a></blockquote>              </div><p>Circana analyst Mat Piscatella <a href="https://x.com/MatPiscatella/status/1812859429462868383" data-target="true" target="_blank" rel="noopener nofollow">said</a> he expects College Football 25 to be among the top 20 best-selling games of 2024 in the US, and potentially reach the top 10. He also <a href="https://x.com/MatPiscatella/status/1812860264846631416" data-target="true" target="_blank" rel="noopener nofollow">predicted</a> that College Football 25's release will help drive an uptick in hardware sales in the US.</p><p>Growth in hardware sales in the US would be a welcome change for the industry. For May 2024, spending on video game hardware slumped by 40% compared to May 2023, dropping to $202 million. Spending on hardware year-to-date in the US is 30% lower than this time last year. Through May 2024, PS5, Xbox Series X|S, and Switch all displayed double-digit percent declines year-over-year, with the Switch being the biggest loser of the bunch with the most significant drop.</p><p>College Football 25 is available now through the $100 deluxe edition or via the 10-hour trial available to EA Play subscribers. The game launches for everyone else on July 19.</p>
-  
-                        
-    
-        
-        
-  
-                                  </div>
-
-          
-        
-  
-  
-                    
-  
-    
-          
-            
-  <div>
-    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
-
-    
-      </div>
-        
-      </section>
-    
-            
-    </article></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Teenage Mutant Ninja Turtles: Splintered Fate Review]]></title>
-            <link>https://www.thesixthaxis.com/2024/07/17/tmnt-splintered-fate-review-nintendo-switch/</link>
-            <guid>https://www.resetera.com/threads/teenage-mutant-ninja-turtles-splintered-fate-review.929520/</guid>
-            <content:encoded><![CDATA[https://www.thesixthaxis.com/2024/07/17/tmnt-splintered-fate-review-nintendo-switch/<br/><div id="readability-page-1" class="page"><div itemprop="text">
-			
-			<p>Let’s get the obvious out of the way: Teenage Mutant Ninja Turtles: Splintered Fate is an awful lot like <a href="https://www.thesixthaxis.com/2020/09/17/hades-review-switch-pc/">Hades</a>. Instead of venturing through the Greek underworld as a demigod, you’re fighting through New York City as the Teenage Mutant Ninja Turtles. TMNT: Splintered Fate is a roguelike action RPG where each run is a little bit different, partly thanks to having four playable characters instead of one.</p>
-<p><iframe title="Teenage Mutant Ninja Turtles: Splintered Fate - Release Date Announcement Trailer" width="780" height="439" src="https://www.youtube.com/embed/fIaR93sOHRQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
-<p>TMNT: Splintered Fate’s story begins with Leonardo training, only to be ambushed the Foot Clan and Shredder, who breaks the news that Splinter has been kidnapped. This starts a chain of the Teenage Mutant Ninja Turtles facing off against the Foot Clan, as well as some other groups that have it out for the Turtles.</p>
-
-
-<p>As a roguelike, progress is made through repetition. At the start of a run you can choose which of the four turtles you want to play as, with each having their own unique specials and skills. Michelango has the largest attack area size and has the most chance to deal multi-damage. His tool is taunting, which damages enemies and briefly stuns them when they are hit. Leonardo has a master strike that hits at the end of a combo, and his base tool is throwing three shuriken. Raphael has increased chances to deal critical hits, and his tools are a turtle line that pulls enemies towards him while dealing damage. Finally, Donatello has a shield blast that deals damage and briefly makes him immune to damage. His tools also charge 80% faster than the others, and at the start of each level he regains some health.</p>
-<p>While all of them have these unique abilities and own weapons, the basic combat remains the same for all. That is getting in close and dealing damage to multi enemies in various ways. Even so, my personal preference was Donatello purely because of the health advantage, and being able to use tools faster than others.</p>
-
-
-<p>Of course, picking your Turtle of choice is just the first step. Every run is different due to the random nature of the bonuses you can acquire. You may get bonuses that deal flame or water damage, and others that allow you to move faster. Some of the elements, which are flame, water, electricity, ooze, astral light, and astral dark, can be combined together to improve the damage you deal. However, there are also times when one selection can replace another bonus. This could be a good or bad thing. For example, I had an unstable ooze container tool that dealt decent area damage, and accidentally replaced it with a shuriken storm, which dealt less overall damage. If you get lucky, you will have higher powered versions of these abilities appear at the end of each level, which can lead to attacks becoming more powerful.</p>
-<p>Like any roguelike, you lose all of your acquired abilities at the end of a run, but can unlock permanent upgrades through the Dragon and Dreamer bonuses. These unlock after a few levels, once you hit that skill brick wall where you cannot advance without permanent buffs. Dragon bonuses focus on direct effects, like increasing attack power, health, and improved rates for critical attacks. Dreamer bonuses impact the intangible aspects of the game, increasing chances of various drops and items appearing during a run. To unlock these you have to collect Dragon and Dreamer coins, which can then be spent back at base.</p>
-<p>On top of these, there are artifacts which are unlocked for completing specific events and tasks in a run, like beating specific bosses. You can change which artifact you want to equip between attempts. Some artifacts increase the likelihood of specific element ability options appearing for you to select while others increase odds of dodging an attack.</p>
-
-<p>There are four stages within TMNT: Splintered Fate, with these being The Sewers, The Docks, The Streets, and The Rooftops. These areas follow the same pattern with rooms of enemies to power through, with a miniboss battle taking place halfway through, and a boss battle at the end of the stage. What TMNT: Splintered Fate does well is mix up the mid boss and boss level fights. The mid bosses switch between each run, and a couple of the bosses grow stronger following the end of a successful run. Completing your first successful run is satisfying but it also really marks the true start of the game.</p>
-<p>At the end of this run optional Dreamer and Gauntlet challenges are added to the game. Dreamer portals grant boons but can require some sacrifice to obtain those bonuses. Gauntlet challenges are the true tests of TMNT: Splintered Fate. These challenges are available for midboss and end boss fights for every stage, making bosses stronger and introducing additional strong enemies. For example, in one boss fight, the boss gains more powerful elemental abilities while also being accompanied by elite enemies that are essentially mini bosses themselves.</p>
-<p>One of the issues with TMNT: Splintered Fate is that while it is entertaining, it starts to feel repetitive and the story is really not that gripping. The voice actors do a very good job, but the story feels elongated to pad the game out. After my fourth successful run, April exclaimed we were likely halfway through the process to rescue Splinter. It is supposed to come across as encouraging, but instead I asked out loud if the game was serious. There is only so many times you can go through the same four stages and bosses, even if they have tweaks each time, before wanting to stop.</p>
-
-
-<!-- CONTENT END 1 -->
-
-			
-		</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Nintendo World Championship: NES Edition Review]]></title>
-            <link>https://www.thesixthaxis.com/2024/07/17/nintendo-world-championship-nes-edition-review/</link>
-            <guid>https://www.resetera.com/threads/nintendo-world-championship-nes-edition-review.929514/</guid>
-            <content:encoded><![CDATA[https://www.thesixthaxis.com/2024/07/17/nintendo-world-championship-nes-edition-review/<br/><div id="readability-page-1" class="page"><div itemprop="text">
-			
-			<p>The Nintendo Entertainment System is a true industry icon, but has a somewhat more diminished role in the memories of many British gamers. Unlike in the US and Japan where it reigned supreme, the NES was less ubiquitous over here, and I personally found myself more immersed in the Amiga and Atari wars, before Mario-mania took over with the Super Nintendo. I did have a mate with a NES and so had some time with the little grey box, but not enough for it to be deeply embedded in my childhood memories. However, Nintendo’s focus on legacy franchises and rereleasing its most famous titles has resulted in a kind of second hand nostalgia.</p>
-<p><iframe title="Nintendo World Championships: NES Edition — Overview Trailer — Nintendo Switch" width="780" height="439" src="https://www.youtube.com/embed/wW3rNlfRgyM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
-<p>Inspired by the occasional real world championships, Nintendo World Championship: NES Edition brings a competitive tilt to retro NES gaming on the Switch as you are challenged to take on bite-sized sections of the console’s most famous titles and complete them in the fastest possible time. With a sizeable line-up of games and dozens of individual missions across each, this is a veritable playable museum of Nintendo’s first console.</p>
-
-
-<p>Booting up Nintendo World Championship: NES Edition brings you to a menu offering solo and local multiplayer modes. The former contains three main game modes – Speedrun, World Championships, and Survival. The latter two here require a Nintendo Switch Online membership, and with servers only opening at the start of the week, the bulk of my time with the game has therefore been spent on the Speedrun mode. There are 169 micro challenges here to challenge and master, serving as training for the online sections as well as being compulsive in their own right. These challenges are spread across 13 games but not equally as some have over 20, whilst poor Ice Climbers and Excite Bike only have 6 each.</p>
-<p>The lineup includes most of the system’s iconic titles, but the lack of games by Capcom and Konami is a missed opportunity. Instead we have Nintendo’s first party range fully represented with four Marios, both Zeldas, Metroid, Kirby, Kid Icarus, Donkey Kong, Balloon Fight and the aforementioned Ice Climbers and Excite Bike. Throughout each set of challenges, you’ll be taking on timed boss fights, tricky platforming sections or even micro tasks befitting a WarioWare game, like collecting the first mushroom in Super Mario Bros in the quickest time possible. The thrill and addictiveness comes from refining your technique to shave off milliseconds each time and aim for the coveted S ranking.</p>
-
-
-<p>After unlocking all of an individual game’s challenges, your final obstacle will be a more lengthy and involved Legend level. These vary depending on each game but include completing the whole first Mario game using the level skips and completing the first dungeon of Zelda. For anyone outside the <a href="https://gamesdonequick.com/">Games Done Quick</a> crew, the Legend challenges include a useful Classified Information page that looks like a guide straight out of an Official Nintendo Magazine. To further encourage replayability (if beating your own time was not enough) every task is ranked and an in-game pin is awarded if you get an A rank or higher. As I write this review I’ve successfully finished all the main challenges and am working on the Legend ones.</p>
-<p>One aspect of the game I found a little unnecessary was the coin system. Finishing a challenge opens up the opportunity to purchase the next one for 100 coins (300 for the Legend ones), but while coins are plentiful to begin with there aren’t enough to unlock everything, even if you succeed each time, meaning some grinding is needed. With a handful of levels taking less than two seconds to complete, this grinding isn’t hugely time consuming but it takes away from the feeling of progress.</p>
-
-<p>Online modes are where you’ll be testing your skills against players around the world. First up in Survival you’ll be taking on ghost data uploaded by other players in a series of three challenges randomly picked from the full range. The first round sees eight players whittled down to four and then a final head-to-head for victory. These are fun and there are silver and gold divisions to offer varying levels challenge. If nothing else, seeing how the very best scores are obtained is useful training for your own skills even in defeat. That being said, the default view has eight individual screens showing all your competitors and that is very difficult to focus on when playing on handheld.</p>
-<p>World Championship mode contains 5 missions and you can continuously repeat these with only your best time being recorded. New Championships take place every week but there is no indication of how well you are doing until the results come in. This means that there is a nagging compulsion to go back and try and get the time down a little bit more, but doesn’t have the same effect as a traditional high score table.</p>
-<p>The other nagging feeling, though, is that it’s a bit rich to demand a Nintendo Switch Online subscription to play these modes. There’s no direct online head-to-head competition, so you’re always just playing against ghost data in glorified leaderboards. Locking fairly minimal online features behind a subscription is pretty cheeky.</p>
-
-<p>Finally there is a local multiplayer mode that allows for up to eight players to take on levels competitively. Obviously I’d recommend only doing this hooked up to a TV as visibility becomes an issue with more than two players. This mode really brings back the glory days of playing with/against my brother and triggered waves of nostalgia, even if the actual games were different from my own experience. My kids enjoyed the micro challenges and I’m hopeful that this will be a gateway into them trying some of the full original games too.</p>
-
-
-<!-- CONTENT END 1 -->
-
-			
-		</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[New Wartales Roadmap Promises Drop-In, Drop-Out Co-Op and More]]></title>
-            <link>https://techraptor.net/gaming/news/new-wartales-roadmap-july-2024</link>
-            <guid>https://www.resetera.com/threads/new-wartales-roadmap-promises-drop-in-drop-out-co-op-and-more.929511/</guid>
-            <content:encoded><![CDATA[https://techraptor.net/gaming/news/new-wartales-roadmap-july-2024<br/><div id="readability-page-1" class="page"><div><p>Shiro Games has released another updated&nbsp;<em>Wartales&nbsp;</em>roadmap, showing what's coming to the gritty low fantasy RPG across the remainder of 2024.</p>
-<p>In <a href="https://store.steampowered.com/news/app/1527950/view/4365760492630422412" rel="noopener" target="_blank">a post on Steam</a>, Shiro looks ahead to major&nbsp;<em>Wartales&nbsp;</em>content drops for August and October, with more to come in the fourth quarter of 2024 as well. Suffice it to say you're eating well if you're a&nbsp;<em>Wartales&nbsp;</em>fan.</p>
-<p>First up, if you felt like&nbsp;<em>Wartales</em>' <a href="https://techraptor.net/gaming/news/wartales-dlc-the-tavern-opens-release-date">recent tavern DLC</a> was too combat-light for your tastes, you'll be pleased to know a more battle-focused DLC pack is coming in August.&nbsp;<em>The Pits&nbsp;</em>promises 25 uniquely-designed battles across five distinct locations, and you'll need your wits about you to prevail.</p>
-<figure role="group"><picture><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/wartales-roadmap-new-combat.jpg?itok=AE-EDLl0 1x" media="(min-width: 992px)" type="image/jpeg"><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/wartales-roadmap-new-combat.jpg?itok=Ps_C0WhL 1x" media="(max-width: 991px)" type="image/jpeg"></picture><figcaption><em>Wartales</em>' new&nbsp;<em>The Pits&nbsp;</em>DLC will offer plenty of new combat challenges.</figcaption></figure><p>Following that, a fourth community update will arrive in October, bringing lots of new additions to the game. Unlike&nbsp;<em>The Pits</em>, the update will be free for all players.</p>
-<p>Community Update 4 will offer the chance to engage in drop-in, drop-out co-op with your friends, so you can join an in-progress&nbsp;<em>Wartales&nbsp;</em>game whenever you feel like it and leave when things are getting too hairy for you.</p>
-<p>Additionally, you can look forward to a new champion and several new places of interest to explore, as well as some balance changes to smooth out your&nbsp;<em>Wartales&nbsp;</em>experience.</p>
-<p>Beyond that, another DLC is apparently planned for the fourth quarter of 2024, although Shiro is remaining quiet as to what you can expect from that DLC. We'll likely learn more in the coming months.</p>
-<figure role="group"><picture><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/wartales-roadmap-new-bears.jpg?itok=tJ2YkeYt 1x" media="(min-width: 992px)" type="image/jpeg"><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/wartales-roadmap-new-bears.jpg?itok=WPIVD14j 1x" media="(max-width: 991px)" type="image/jpeg"></picture><figcaption>More&nbsp;<em>Wartales&nbsp;</em>DLC could be on the way before the year is out.</figcaption></figure><p>If you're not familiar with&nbsp;<em>Wartales</em>, it's a low fantasy RPG in which "you are not the hero" of the story; rather, you're a mercenary just trying to survive in a cruel and cold world.</p>
-<p>As such, you can expect a gritty story filled with gray morality, as well as tough turn-based combat that will challenge your strategic planning and forward thinking skills.</p>
-<p>You can check out&nbsp;<em>Wartales&nbsp;</em>right now on <a href="https://store.steampowered.com/app/1527950/Wartales/?curator_clanid=6754604&amp;utm_source=TechRaptor" rel="noopener" target="_blank">PC</a>, <a href="https://www.xbox.com/en-US/games/store/wartales/9nwq686jb33g" rel="noopener" target="_blank">Xbox</a>, and <a href="https://www.nintendo.com/us/store/products/wartales-switch/" rel="noopener" target="_blank">Nintendo Switch</a>. Stay tuned for more.</p>
-</div><div><p><span><div>
-
-<p>Joe has been writing for TechRaptor for several years, and in those years has learned a lot about the gaming industry and its foibles. He’s originally an… <a href="https://techraptor.net/author/joseph-allen">More about Joseph</a></p>
-</div></span></p></div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[England talisman Jude Bellingham is EA Sports FC 25 cover star]]></title>
-            <link>https://www.eurogamer.net/england-talisman-jude-bellingham-is-ea-sports-fc-25-cover-star</link>
-            <guid>https://www.resetera.com/threads/england-talisman-jude-bellingham-is-ea-sports-fc-25-cover-star.929505/</guid>
-            <content:encoded><![CDATA[https://www.eurogamer.net/england-talisman-jude-bellingham-is-ea-sports-fc-25-cover-star<br/><div id="readability-page-1" class="page"><div>
-
-
-
-            <p>
-England superstar Jude Bellingham makes the box art of EA Sports FC this year. 
-</p>
-<p>
-Fresh from unpacking his bags after England's attempt at glory in the Euros, Bellingham was announced today as having taken the coveted cover slot. 
-</p>
-<p>
-It's not a huge surprise. Bellingham also features on the EA Sports FC 25 Ultimate Edition cover, alongside football/product placement legend David Beckham and Spanish star Aitana Bonmatí. Zinedine Zidane and Gianluigi Buffon also appear.
-</p>
-<figure>
-<p>
-<a aria-label="Newscast: Does the loss of day one launches make Xbox Game Pass pointless?" data-lightbox="false" data-platform="youtube" href="https://www.youtube.com/embed/lEc8ghseTIk?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
-<span>Newscast: Does the loss of day one launches make Xbox Game Pass pointless?</span>
-<template>
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/lEc8ghseTIk?autoplay=1" frameborder="0" loading="lazy" src="https://www.youtube-nocookie.com/embed/lEc8ghseTIk?autoplay=1">
-</iframe> </template>
-</a>
-</p>
-<figcaption>Newscast: Does the loss of day one launches make Xbox Game Pass pointless?<a href="https://www.youtube.com/watch?v=lEc8ghseTIk" rel="noopener" target="_blank">Watch on YouTube</a></figcaption></figure>
-<p>
-"I played this game with my brother all the time growing up," Bellingham said of the series once called FIFA. "I've always thought about how incredible it would be to one day be featured on the cover. 
-</p>
-<p>
-"There have been so many iconic players on the cover over the years, and I am delighted to be the most recent English player to be bestowed with this honour since 2011."
-</p>
-<p>
-2011 featured Wayne Rooney, if you recall.
-</p>
-<figure>
-<a data-lightbox="true" href="https://assetsio.gnwcdn.com/EA_FC25_Ultimate-FCPro_HorizontalAlt1_16-9_3840x2160.jpg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank">
- </a>
-<figcaption><span>Image credit: <cite>EA Sports</cite></span></figcaption>
-</figure>
-<p>
-EA appears to be taking a simpler approach to its Ultimate Edition cover art this year with a regular photo, after a <a href="https://www.eurogamer.net/ea-sports-responds-to-fc-24-cover-art-criticism">decidedly mixed response to its in-game artwork used for EA Sports FC 24</a>.
-</p>
-<p>According to an earlier leak, <a href="https://www.eurogamer.net/ea-sports-fc-25-will-release-in-september-leaker-suggests">EA Sports FC 25 will release in September 2024</a>, with a seven-day early-access period expected to launch on 20th September.</p>
-
-
-
-        </div></div>]]></content:encoded>
         </item>
     </channel>
 </rss>
