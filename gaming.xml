@@ -4,9 +4,96 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Thu, 25 Jul 2024 12:43:31 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Jul 2024 12:58:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Surprise! Massive Fallout 4 Mod Fallout: London Is Available Now]]></title>
+            <link>https://techraptor.net/gaming/news/fallout-london-out-now</link>
+            <guid>https://www.resetera.com/threads/surprise-massive-fallout-4-mod-fallout-london-is-available-now.936399/</guid>
+            <content:encoded><![CDATA[https://techraptor.net/gaming/news/fallout-london-out-now<br/><div id="readability-page-1" class="page"><div><p>Team FOLON and GOG have announced the&nbsp;<em>Fallout: London&nbsp;</em>release date, and, well, it's today. That's right: the hotly-anticipated&nbsp;<em>Fallout 4&nbsp;</em>mod, which lets you explore post-apocalyptic London, is available right now.</p>
+<p>The mod is technically downloadable via GOG; Team FOLON says it's hosted on GOG because the project was "incredibly massive" and "too large for popular mod hosting sites". GOG offered to step in and provide a custom launcher for the experience, so you'll need to download it via GOG if you want to play.</p>
+<p>However, you don't need to worry; the mod is compatible with both the GOG and Steam versions of&nbsp;<em>Fallout 4</em>, although if you're playing Bethesda's open-world RPG on Steam, you might have a few more hoops to jump through before you can play.</p>
+<figure role="group"><picture><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/fallout-4-mod-fallout-london-release-date-city_0.jpg?itok=GX0FUCoi 1x" media="(min-width: 992px)" type="image/jpeg"><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/fallout-4-mod-fallout-london-release-date-city_0.jpg?itok=sf0tP8HD 1x" media="(max-width: 991px)" type="image/jpeg"></picture><figcaption>Post-apocalyptic London awaits you in&nbsp;<em>Fallout: London</em>.</figcaption></figure><p>If you're playing the GOG version, you won't need to do anything else, because the <a href="https://techraptor.net/gaming/news/fallout-4-ps5-xbox-series-update-release-date">infamous next-gen update</a>, which broke many&nbsp;<em>Fallout 4&nbsp;</em>mods, hasn't been applied to the GOG version yet. You also won't need to worry if you haven't patched your Steam&nbsp;<em>Fallout 4&nbsp;</em>version beyond v1.10.163.0.</p>
+<p>Unfortunately, if you have applied the next-gen update, you'll need to follow some pretty detailed steps to get&nbsp;<em>Fallout: London&nbsp;</em>to work with your Steam copy. A next-gen version of the mod is in the works, but its creators haven't revealed a time frame for that version's release yet.</p>
+<h2>How to downgrade&nbsp;<em>Fallout 4&nbsp;</em>on Steam so you can play&nbsp;<em>Fallout: London</em></h2>
+<p>While the steps to downgrade&nbsp;<em>Fallout 4&nbsp;</em>on Steam are pretty involved, they're not too difficult, and you should be able to achieve them without any kind of external tools. Here's what you need to do.</p>
+<p>First, open the Steam console in your browser. You can do this by typing "steam://open/console" (without quotation marks) into your web browser.</p>
+<p>After doing this, download&nbsp;<em>Fallout 4: Game of the Year Edition&nbsp;</em>by entering the following commands.</p>
+<ul><li>Part A:&nbsp;download_depot 377160 377161 7497069378349273908</li>
+<li>Part B:&nbsp;download_depot 377160 377163 5819088023757897745</li>
+<li>Executable:&nbsp;download_depot 377160 377162 5847529232406005096</li>
+<li>English version:&nbsp;download_depot 377160 377164 2178106366609958945</li>
+</ul><p>You can also use the following commands to download any&nbsp;<em>Fallout 4&nbsp;</em>DLC you might own. Bear in mind you'll need these DLCs to play&nbsp;<em>Fallout: London</em>.</p>
+<ul><li>HD Texture Pack:&nbsp;download_depot 377160 540810 1558929737289295473</li>
+<li><em>Automatron</em>:&nbsp;download_depot 377160 435870 1691678129192680960</li>
+<li><em>Automatron&nbsp;</em>English-language pack:&nbsp;download_depot 377160 435871 5106118861901111234</li>
+<li><em>Wasteland Workshop</em>:&nbsp;download_depot 377160 435880 1255562923187931216</li>
+<li><em>Far Harbor</em>:&nbsp;download_depot 377160 435881 1207717296920736193</li>
+<li><em>Far Harbor&nbsp;</em>English-language pack:&nbsp;download_depot 377160 435882 8482181819175811242</li>
+<li><em>Contraptions Workshop</em>:&nbsp;download_depot 377160 480630 5527412439359349504</li>
+<li><em>Vault-Tec Workshop</em>:&nbsp;download_depot 377160 480631 6588493486198824788</li>
+<li><em>Vault-Tec Workshop&nbsp;</em>English-language pack:&nbsp;download_depot 377160 393885 5000262035721758737</li>
+<li><em>Nuka World</em>:&nbsp;download_depot 377160 490650 4873048792354485093</li>
+<li><em>Nuka World&nbsp;</em>English-language pack:&nbsp;download_depot 377160 393895 7677765994120765493</li>
+</ul><p>Whew! That's all the files. These files will be downloaded into your Steam library, which, by default, can be found in C:\Program Files (x86)\Steam\steamapps\content\app_377160. You'll find the files in a series of folders numbered after the six-digit strings following "377160" above.</p>
+<p>Create a new folder on your desktop, then copy and paste the files from each of the above directories into that folder, replacing files as you go. Once you're done, you'll have downloaded&nbsp;<em>Fallout 4: Game of the Year Edition&nbsp;</em>as it was before the next-gen update.</p>
+<p>Now, all you need to do is delete everything in your current&nbsp;<em>Fallout 4&nbsp;</em>installation folder and replace it with what's in the folder you just created. Et voila! You're now ready to play&nbsp;<em>Fallout: London</em>.</p>
+
+<p>This project has been a long time in the making. Originally <a href="https://techraptor.net/gaming/news/fallout-london-mod-brings-nuclear-war-across-pond">revealed in 2021</a>, it's a huge passion project that aims to recreate the city of London as it would appear in the post-apocalyptic world of&nbsp;<em>Fallout</em>.</p>
+<p>The mod is such a huge undertaking that one of its lead writers <a href="https://techraptor.net/gaming/news/head-writer-for-fallout-london-mod-joins-bethesda">left in August 2021 to join Bethesda</a>, which should give you a good idea of the pedigree behind the mod.&nbsp;<em>Fallout: London&nbsp;</em>is available to <a href="https://www.gog.com/en/game/fallout_london" rel="sponsored" target="_blank">download right now via GOG</a>.</p>
+</div><div><p><span><div>
+
+<p>Joe has been writing for TechRaptor for several years, and in those years has learned a lot about the gaming industry and its foibles. He’s originally an… <a href="https://techraptor.net/author/joseph-allen">More about Joseph</a></p>
+</div></span></p></div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Crimson Desert playable at Gamescom 2024]]></title>
+            <link>https://www.gematsu.com/2024/07/crimson-desert-playable-at-gamescom-2024</link>
+            <guid>https://www.resetera.com/threads/crimson-desert-playable-at-gamescom-2024.936396/</guid>
+            <content:encoded><![CDATA[https://www.gematsu.com/2024/07/crimson-desert-playable-at-gamescom-2024<br/><div id="readability-page-1" class="page"><div role="main">
+  
+  <article>
+
+    
+<header>
+
+  <div>
+
+    <ul>
+    <li><a href="https://www.gematsu.com/platforms/pc">PC</a></li>    </ul>
+
+    
+    <p><span>Open-world action adventure game's first public appearance.</span>
+      </p></div>
+
+  
+
+</header>  
+
+<!-- Moved from templates/posts/default.php -->
+
+    <div><p>Open-world <a title="Genres > Action [2,032 articles]" href="https://www.gematsu.com/genres/action">action</a> <a title="Genres > Adventure [1,635 articles]" href="https://www.gematsu.com/genres/adventure">adventure game</a> <a title="Games > Crimson Desert [9 articles]" href="https://www.gematsu.com/games/crimson-desert">Crimson Desert</a> will be playable at Gamescom 2024, which will run from August 21 to 25 at Koelenmesse in Cologne, Germany, developer <a title="Companies > Pearl Abyss [30 articles]" href="https://www.gematsu.com/companies/pearl-abyss">Pearl Abyss</a> <a href="https://crimsondesert.pearlabyss.com/en-us/Board/Detail?_boardNo=340" rel="noopener" target="_blank">announced</a>. <span id="more-901278"></span></p><p>“For the very first time, <strong>Crimson Desert</strong> will be open to the public and playable at Pearl Abyss’ own <em>Crimson Desert</em> booth in Cologne, Germany,” said Pearl Abyss in the announcement. “We’re counting down the days until we can meet those of you who will be attending gamescom as well as gamers from all over the world who are looking forward to <em>Crimson Desert</em>.”</p><p><em>Crimson Desert</em> was <a href="https://www.gematsu.com/2019/11/pearl-abyss-announces-mmo-shooter-plan-8-mmorpgs-crimson-desert-and-dokev">first announced</a> in November 2019 and last seen with <a href="https://www.gematsu.com/2023/08/crimson-desert-gamescom-2023-opening-night-live-gameplay-trailer-screenshots">a new trailer</a> at Gamescom 2023.</p></div>
+
+        
+    
+  </article>
+</div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[The Legend of Heroes: Kai no Kiseki – Farewell, O Zemuria details Grim Garten]]></title>
+            <link>https://www.gematsu.com/2024/07/the-legend-of-heroes-kai-no-kiseki-farewell-o-zemuria-details-grim-garten</link>
+            <guid>https://www.resetera.com/threads/the-legend-of-heroes-kai-no-kiseki-%E2%80%93-farewell-o-zemuria-details-grim-garten.936393/</guid>
+            <content:encoded><![CDATA[https://www.gematsu.com/2024/07/the-legend-of-heroes-kai-no-kiseki-farewell-o-zemuria-details-grim-garten<br/><div id="readability-page-1" class="page"><div>
+
+    <ul>
+    <li><a href="https://www.gematsu.com/platforms/playstation/ps4">PS4</a></li><li><a href="https://www.gematsu.com/platforms/playstation/ps5">PS5</a></li>    </ul>
+
+    
+    <p><span>Enter the castle and capture each area!</span>
+      </p></div><div><p><a title="Companies > Nihon Falcom [696 articles]" href="https://www.gematsu.com/companies/nihon-falcom">Falcom</a> has released new information and screenshots for <em><a title="Games > The Legend of Heroes: Kai no Kiseki - Farewell, O Zemuria [7 articles]" href="https://www.gematsu.com/games/the-legend-of-heroes-kai-no-kiseki-farewell-o-zemuria">The Legend of Heroes: Kai no Kiseki – Farewell, O Zemuria</a></em> introducing the game’s “Grim Garten” element. <span id="more-901241"></span></p><p>Get the details below.</p><blockquote><p><strong>■ Grim Garten</strong></p><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2024/07/The-Legend-of-Heroes-Kai-no-Kiseki-Farewell-O-Zemuria_2024_07-25-24_001.png"></a></figure><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2024/07/The-Legend-of-Heroes-Kai-no-Kiseki-Farewell-O-Zemuria_2024_07-25-24_002.jpg"></a></figure><p>In order to recapture the virtual world that the Society—“Ouroboros”—took over, form a party with members that are available for battle. Enter the castle and capture each area!</p><!-- AD: content -->
+        <p>In each area are avatars placed on the stage that represent the members of your party. Like a chess piece, you must capture the area by moving the avatars forward every turn.</p><p>By defeating the “Guardian” at the end of the stage, the area that can be captured will expand. Furthermore, access to various types of service that can be used within the virtual world will also be unlocked.</p><p>Additionally, as you further capture more areas, members of each party will be able to access “Grim Garten,” which may trigger dialogue events between characters from different parties and organizations.</p><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2024/07/The-Legend-of-Heroes-Kai-no-Kiseki-Farewell-O-Zemuria_2024_07-25-24_003.jpg"></a></figure><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2024/07/The-Legend-of-Heroes-Kai-no-Kiseki-Farewell-O-Zemuria_2024_07-25-24_004.jpg"></a></figure><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2024/07/The-Legend-of-Heroes-Kai-no-Kiseki-Farewell-O-Zemuria_2024_07-25-24_005.jpg"></a></figure><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2024/07/The-Legend-of-Heroes-Kai-no-Kiseki-Farewell-O-Zemuria_2024_07-25-24_006.jpg"></a></figure><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2024/07/The-Legend-of-Heroes-Kai-no-Kiseki-Farewell-O-Zemuria_2024_07-25-24_007.jpg"></a></figure><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2024/07/The-Legend-of-Heroes-Kai-no-Kiseki-Farewell-O-Zemuria_2024_07-25-24_008.jpg"></a></figure><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2024/07/The-Legend-of-Heroes-Kai-no-Kiseki-Farewell-O-Zemuria_2024_07-25-24_009.jpg"></a></figure><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2024/07/The-Legend-of-Heroes-Kai-no-Kiseki-Farewell-O-Zemuria_2024_07-25-24_010.jpg"></a></figure><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2024/07/The-Legend-of-Heroes-Kai-no-Kiseki-Farewell-O-Zemuria_2024_07-25-24_011.jpg"></a></figure><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2024/07/The-Legend-of-Heroes-Kai-no-Kiseki-Farewell-O-Zemuria_2024_07-25-24_012.jpg"></a></figure><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2024/07/The-Legend-of-Heroes-Kai-no-Kiseki-Farewell-O-Zemuria_2024_07-25-24_013.jpg"></a></figure><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2024/07/The-Legend-of-Heroes-Kai-no-Kiseki-Farewell-O-Zemuria_2024_07-25-24_014.jpg"></a></figure><p><strong>Be Wary of Ouroboros Activity at the Grim Garten</strong></p><p>As you liberate more and more areas of Grim Garten, Ouroboros—the Society that hacked the virtual world—will begin to interfere with your party members in various ways. Through Grim Garten, you may be able to find out information about the Society. There may be some truths that you may not expect to hear!</p><p><strong>■ Grimoire Deciphering</strong></p><p>While capturing the castle, you can find “Grim Tokens,” which can be used to decipher grimoires.</p><p>By deciphering more grimoires, you will be able to obtain useful materials for each element, such as Sepiths, Holo Cures, Quartz, and Accessories.</p><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2024/07/The-Legend-of-Heroes-Kai-no-Kiseki-Farewell-O-Zemuria_2024_07-25-24_015.jpg"></a></figure><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2024/07/The-Legend-of-Heroes-Kai-no-Kiseki-Farewell-O-Zemuria_2024_07-25-24_016.jpg"></a></figure><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2024/07/The-Legend-of-Heroes-Kai-no-Kiseki-Farewell-O-Zemuria_2024_07-25-24_017.jpg"></a></figure><p><strong>■ Pedestal of <a title="Companies > Reminisce [4 articles]" href="https://www.gematsu.com/companies/reminisce">Reminisce</a>nce</strong></p><p>In Grim Garten, you can receive special and sacred gems called “Memento Orbs.” Past events that happened in the continent of Zemuria are recorded on these gems, and you can view its contents by placing the gem onto the “Pedestal of Reminiscence.”</p><p>Everything that is recorded onto the Memento Orbs is “extremely important” information regarding the <em>Trails</em> series, such as the past of a main character or events that lead you closer to the truth about Zemuria. </p><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2024/07/The-Legend-of-Heroes-Kai-no-Kiseki-Farewell-O-Zemuria_2024_07-25-24_018.jpg"></a></figure><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2024/07/The-Legend-of-Heroes-Kai-no-Kiseki-Farewell-O-Zemuria_2024_07-25-24_019.jpg"></a></figure><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2024/07/The-Legend-of-Heroes-Kai-no-Kiseki-Farewell-O-Zemuria_2024_07-25-24_020.jpg"></a></figure><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2024/07/The-Legend-of-Heroes-Kai-no-Kiseki-Farewell-O-Zemuria_2024_07-25-24_021.jpg"></a></figure><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2024/07/The-Legend-of-Heroes-Kai-no-Kiseki-Farewell-O-Zemuria_2024_07-25-24_022.jpg"></a></figure></blockquote><p><em><a title="Series > Trails [56 articles]" href="https://www.gematsu.com/series/trails">The Legend of Heroes</a>: Kai no Kiseki – Farewell O Zemuria</em> is due out for <a title="Platforms > PS5 [7,519 articles]" href="https://www.gematsu.com/platforms/playstation/ps5">PlayStation 5</a> and <a title="Platforms > PS4 [26,973 articles]" href="https://www.gematsu.com/platforms/playstation/ps4">PlayStation 4</a> on September 26 in Japan.</p><p>If you missed our previous coverage, read more about the game’s characters, story, and new battle system elements <a href="https://www.gematsu.com/2024/04/the-legend-of-heroes-kai-no-kiseki-farewell-o-zemuria-details-characters-story-and-new-battle-system-elements">here</a>, <a href="https://www.gematsu.com/2024/05/the-legend-of-heroes-kai-no-kiseki-farewell-o-zemuria-web-commercial-more-characters-and-locations-detailed">here</a>, <a href="https://www.gematsu.com/2024/06/the-legend-of-heroes-kai-no-kiseki-farewell-o-zemuria-second-web-commercial-more-characters-and-locations-detailed">here</a>, and <a href="https://www.gematsu.com/2024/07/the-legend-of-heroes-kai-no-kiseki-farewell-o-zemuria-details-trails-of-cold-steel-series-returning-characters">here</a>.</p><p>View the screenshots <a href="https://www.gematsu.com/gallery/the-legend-of-heroes-kai-no-kiseki-farewell-o-zemuria/july-25-2024/">at the gallery</a>.</p><h2><span>Screenshots</span></h2><div id="carousel_901244"><ul><li><span>❮</span></li><li><span>❯</span></li></ul></div></div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Nintendo death threats suspect sentenced to year in prison]]></title>
             <link>https://www.eurogamer.net/nintendo-death-threats-suspect-sentenced-to-year-in-prison</link>
@@ -24,7 +111,7 @@
 
   <p>
   <figure>
-  <a href="https://assetsio.gnwcdn.com/Splatoon-3-screenshot.jpg?width=1200&amp;height=1200&amp;fit=bounds&amp;quality=70&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
+  <a href="https://assetsio.gnwcdn.com/Splatoon-3-screenshot.jpg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
   
   </a>
 
@@ -795,7 +882,7 @@ Do you like a silent protagonist, or would you prefer main characters to all spe
     
   <div>
 
-    <div tabindex="0" data-id="2135476030" data-promo-id="0" data-user-has-ads="1" data-video="{&quot;id&quot;:6464637,&quot;title&quot;:&quot;Angst%3A%20A%20Tale%20Of%20Survival%20-%20Official%20Exclusive%20Cinematic%20Reveal%20Trailer&quot;,&quot;lengthSeconds&quot;:98,&quot;startTime&quot;:0,&quot;autoplay&quot;:true,&quot;share&quot;:{&quot;linkUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/angst-a-tale-of-survival-official-exclusive-cinematic-reveal-trailer\/2300-6464637\/&quot;,&quot;embedUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/embed\/6464637\/&quot;,&quot;embedHtml&quot;:{&quot;640&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6464637\/\&quot; height=\&quot;360\&quot; width=\&quot;640\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;,&quot;480&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6464637\/\&quot; height=\&quot;270\&quot; width=\&quot;480\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;}},&quot;device&quot;:&quot;other&quot;,&quot;isDevice&quot;:false,&quot;isLiveStream&quot;:false,&quot;videoType&quot;:&quot;video-on-demand&quot;,&quot;countdownTime&quot;:0,&quot;guid&quot;:&quot;gs-2300-6464637&quot;,&quot;ageGateCookieName&quot;:&quot;videoAgeGateBirthday&quot;,&quot;watchedCookieName&quot;:&quot;watchedVideoIds&quot;,&quot;watchedCookieDays&quot;:1,&quot;postPlayMax&quot;:100,&quot;adCall&quot;:{&quot;host&quot;:&quot;http:\/\/pubads.g.doubleclick.net\/gampad\/ads?&quot;,&quot;params&quot;:{&quot;iu&quot;:&quot;\/5441\/vaw-gamespot\/desktop\/gamespot.com&quot;,&quot;impl&quot;:&quot;s&quot;,&quot;gdfp_req&quot;:1,&quot;env&quot;:&quot;vp&quot;,&quot;output&quot;:&quot;xml_vmap1&quot;,&quot;unviewed_position_start&quot;:1,&quot;url&quot;:&quot;[referrer_url]&quot;,&quot;correlator&quot;:&quot;[timestamp]&quot;,&quot;description_url&quot;:&quot;[description_url]&quot;,&quot;cmsid&quot;:2566084,&quot;vid&quot;:6464637,&quot;pp&quot;:&quot;vpaid_js&quot;},&quot;custParams&quot;:{&quot;ptype&quot;:&quot;news_article&quot;,&quot;cid&quot;:&quot;gs-1100-6525241&quot;,&quot;con&quot;:&quot;pc,playstation-5,xbox-series-x,ios-iphoneipad,android,mobile&quot;,&quot;embed&quot;:&quot;autoplay&quot;,&quot;category&quot;:&quot;games&quot;,&quot;partner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;vid&quot;:6464637},&quot;soundBasedSize&quot;:{&quot;normal&quot;:&quot;640x480&quot;,&quot;muted&quot;:&quot;640x483&quot;,&quot;none&quot;:&quot;640x480&quot;},&quot;daiSsbUrl&quot;:&quot;https:\/\/dai.google.com\/ondemand\/hls\/content\/2572465\/vid\/6464637\/master.m3u8&quot;,&quot;daiMidRollHost&quot;:2500176},&quot;uvpHi5Ima&quot;:&quot;https:\/\/s0.2mdn.net\/instream\/html5\/ima3.js&quot;,&quot;cuePoints&quot;:null,&quot;uvpc&quot;:&quot;&quot;,&quot;partner&quot;:&quot;gamespot&quot;,&quot;adPartner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;desktopAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;mobileAdPartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;,&quot;mapp&quot;:&quot;gamespot&quot;,&quot;cms&quot;:&quot;pi&quot;,&quot;seekablePlaybacks&quot;:[&quot;html5&quot;,&quot;uvpjs&quot;],&quot;tracking&quot;:[{&quot;name&quot;:&quot;SiteCatalyst&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;charSet&quot;,&quot;value&quot;:&quot;UTF-8&quot;},{&quot;name&quot;:&quot;currencyCode&quot;,&quot;value&quot;:&quot;USD&quot;},{&quot;name&quot;:&quot;siteType&quot;,&quot;value&quot;:&quot;responsive web&quot;},{&quot;name&quot;:&quot;trackingServer&quot;,&quot;value&quot;:&quot;saa.gamespot.com&quot;},{&quot;name&quot;:&quot;visitorNamespace&quot;,&quot;value&quot;:&quot;cbsinteractive&quot;},{&quot;name&quot;:&quot;heartbeatTrackingServer&quot;,&quot;value&quot;:&quot;newimagitasinc.hb.omtrdc.net&quot;},{&quot;name&quot;:&quot;heartbeatVisitorMarketingCloudOrgId&quot;,&quot;value&quot;:&quot;3C66570E5FE1A4AB0A495FFC@AdobeOrg&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;siteCode&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;brand&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;account&quot;,&quot;value&quot;:&quot;cbsigamespotsite&quot;},{&quot;name&quot;:&quot;edition&quot;,&quot;value&quot;:&quot;us&quot;}]},{&quot;name&quot;:&quot;ComScore_ss&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;c2&quot;,&quot;value&quot;:&quot;31824268&quot;},{&quot;name&quot;:&quot;publishersSecret&quot;,&quot;value&quot;:&quot;2cb08ca4d095dd734a374dff8422c2e5&quot;},{&quot;name&quot;:&quot;c3&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;c4&quot;,&quot;value&quot;:&quot;gamespot&quot;}]},{&quot;name&quot;:&quot;NielsenTracking&quot;,&quot;category&quot;:&quot;tracking&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;host&quot;,&quot;value&quot;:&quot;https:\/\/secure-us.imrworldwide.com\/cgi-bin\/m?&quot;},{&quot;name&quot;:&quot;scCI&quot;,&quot;value&quot;:&quot;us-200330&quot;},{&quot;name&quot;:&quot;scC6&quot;,&quot;value&quot;:&quot;vc,c01&quot;}]},{&quot;name&quot;:&quot;MuxQOSPluginJS&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;propertyKey&quot;,&quot;value&quot;:&quot;b7d6e48b7461a61cb6e863a62&quot;}]}],&quot;trackingAccount&quot;:&quot;cbsigamespotsite&quot;,&quot;trackingSiteCode&quot;:&quot;gs&quot;,&quot;trackingPrimaryId&quot;:&quot;cbsigamespotsite&quot;,&quot;videoAssetSource&quot;:&quot;Publisher Asset&quot;,&quot;uvpjsHostname&quot;:&quot;\/\/www.gamespot.com&quot;,&quot;siteType&quot;:&quot;responsive web&quot;,&quot;startMuted&quot;:false,&quot;screenMediumThumb&quot;:&quot;https:\/\/www.gamespot.com\/a\/uploads\/screen_medium\/1574\/15746725\/4336662-11.jpg&quot;,&quot;videoStreams&quot;:{&quot;adaptive_stream&quot;:&quot;https:\/\/cdn.jwplayer.com\/manifests\/w9V1adkj.m3u8&quot;},&quot;userId&quot;:0,&quot;premium&quot;:false,&quot;datePublished&quot;:1721905200,&quot;videoAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;videoAdMobilePartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;}" data-non-iframe-embed="1" data-jw-context-name="gamespot" data-jw-media-id="w9V1adkj" data-jw-player-url="https://cdn.jwplayer.com/libraries/VXc5h4Tf.js" data-jw-video-token="" data-has-youtube="" data-youtube-icon-path="https://www.gamespot.com/a/bundles/phoenixsite/images/core/loose/icn-youtube-30x30.png" id="video-rectangle"><div><p>
+    <div tabindex="0" data-id="807184537" data-promo-id="0" data-user-has-ads="1" data-video="{&quot;id&quot;:6464637,&quot;title&quot;:&quot;Angst%3A%20A%20Tale%20Of%20Survival%20-%20Official%20Exclusive%20Cinematic%20Reveal%20Trailer&quot;,&quot;lengthSeconds&quot;:98,&quot;startTime&quot;:0,&quot;autoplay&quot;:true,&quot;share&quot;:{&quot;linkUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/angst-a-tale-of-survival-official-exclusive-cinematic-reveal-trailer\/2300-6464637\/&quot;,&quot;embedUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/embed\/6464637\/&quot;,&quot;embedHtml&quot;:{&quot;640&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6464637\/\&quot; height=\&quot;360\&quot; width=\&quot;640\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;,&quot;480&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6464637\/\&quot; height=\&quot;270\&quot; width=\&quot;480\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;}},&quot;device&quot;:&quot;other&quot;,&quot;isDevice&quot;:false,&quot;isLiveStream&quot;:false,&quot;videoType&quot;:&quot;video-on-demand&quot;,&quot;countdownTime&quot;:0,&quot;guid&quot;:&quot;gs-2300-6464637&quot;,&quot;ageGateCookieName&quot;:&quot;videoAgeGateBirthday&quot;,&quot;watchedCookieName&quot;:&quot;watchedVideoIds&quot;,&quot;watchedCookieDays&quot;:1,&quot;postPlayMax&quot;:100,&quot;adCall&quot;:{&quot;host&quot;:&quot;http:\/\/pubads.g.doubleclick.net\/gampad\/ads?&quot;,&quot;params&quot;:{&quot;iu&quot;:&quot;\/5441\/vaw-gamespot\/desktop\/gamespot.com&quot;,&quot;impl&quot;:&quot;s&quot;,&quot;gdfp_req&quot;:1,&quot;env&quot;:&quot;vp&quot;,&quot;output&quot;:&quot;xml_vmap1&quot;,&quot;unviewed_position_start&quot;:1,&quot;url&quot;:&quot;[referrer_url]&quot;,&quot;correlator&quot;:&quot;[timestamp]&quot;,&quot;description_url&quot;:&quot;[description_url]&quot;,&quot;cmsid&quot;:2566084,&quot;vid&quot;:6464637,&quot;pp&quot;:&quot;vpaid_js&quot;},&quot;custParams&quot;:{&quot;ptype&quot;:&quot;news_article&quot;,&quot;cid&quot;:&quot;gs-1100-6525241&quot;,&quot;con&quot;:&quot;pc,playstation-5,xbox-series-x,ios-iphoneipad,android,mobile&quot;,&quot;embed&quot;:&quot;autoplay&quot;,&quot;category&quot;:&quot;games&quot;,&quot;partner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;vid&quot;:6464637},&quot;soundBasedSize&quot;:{&quot;normal&quot;:&quot;640x480&quot;,&quot;muted&quot;:&quot;640x483&quot;,&quot;none&quot;:&quot;640x480&quot;},&quot;daiSsbUrl&quot;:&quot;https:\/\/dai.google.com\/ondemand\/hls\/content\/2572465\/vid\/6464637\/master.m3u8&quot;,&quot;daiMidRollHost&quot;:2500176},&quot;uvpHi5Ima&quot;:&quot;https:\/\/s0.2mdn.net\/instream\/html5\/ima3.js&quot;,&quot;cuePoints&quot;:null,&quot;uvpc&quot;:&quot;&quot;,&quot;partner&quot;:&quot;gamespot&quot;,&quot;adPartner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;desktopAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;mobileAdPartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;,&quot;mapp&quot;:&quot;gamespot&quot;,&quot;cms&quot;:&quot;pi&quot;,&quot;seekablePlaybacks&quot;:[&quot;html5&quot;,&quot;uvpjs&quot;],&quot;tracking&quot;:[{&quot;name&quot;:&quot;SiteCatalyst&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;charSet&quot;,&quot;value&quot;:&quot;UTF-8&quot;},{&quot;name&quot;:&quot;currencyCode&quot;,&quot;value&quot;:&quot;USD&quot;},{&quot;name&quot;:&quot;siteType&quot;,&quot;value&quot;:&quot;responsive web&quot;},{&quot;name&quot;:&quot;trackingServer&quot;,&quot;value&quot;:&quot;saa.gamespot.com&quot;},{&quot;name&quot;:&quot;visitorNamespace&quot;,&quot;value&quot;:&quot;cbsinteractive&quot;},{&quot;name&quot;:&quot;heartbeatTrackingServer&quot;,&quot;value&quot;:&quot;newimagitasinc.hb.omtrdc.net&quot;},{&quot;name&quot;:&quot;heartbeatVisitorMarketingCloudOrgId&quot;,&quot;value&quot;:&quot;3C66570E5FE1A4AB0A495FFC@AdobeOrg&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;siteCode&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;brand&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;account&quot;,&quot;value&quot;:&quot;cbsigamespotsite&quot;},{&quot;name&quot;:&quot;edition&quot;,&quot;value&quot;:&quot;us&quot;}]},{&quot;name&quot;:&quot;ComScore_ss&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;c2&quot;,&quot;value&quot;:&quot;31824268&quot;},{&quot;name&quot;:&quot;publishersSecret&quot;,&quot;value&quot;:&quot;2cb08ca4d095dd734a374dff8422c2e5&quot;},{&quot;name&quot;:&quot;c3&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;c4&quot;,&quot;value&quot;:&quot;gamespot&quot;}]},{&quot;name&quot;:&quot;NielsenTracking&quot;,&quot;category&quot;:&quot;tracking&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;host&quot;,&quot;value&quot;:&quot;https:\/\/secure-us.imrworldwide.com\/cgi-bin\/m?&quot;},{&quot;name&quot;:&quot;scCI&quot;,&quot;value&quot;:&quot;us-200330&quot;},{&quot;name&quot;:&quot;scC6&quot;,&quot;value&quot;:&quot;vc,c01&quot;}]},{&quot;name&quot;:&quot;MuxQOSPluginJS&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;propertyKey&quot;,&quot;value&quot;:&quot;b7d6e48b7461a61cb6e863a62&quot;}]}],&quot;trackingAccount&quot;:&quot;cbsigamespotsite&quot;,&quot;trackingSiteCode&quot;:&quot;gs&quot;,&quot;trackingPrimaryId&quot;:&quot;cbsigamespotsite&quot;,&quot;videoAssetSource&quot;:&quot;Publisher Asset&quot;,&quot;uvpjsHostname&quot;:&quot;\/\/www.gamespot.com&quot;,&quot;siteType&quot;:&quot;responsive web&quot;,&quot;startMuted&quot;:false,&quot;screenMediumThumb&quot;:&quot;https:\/\/www.gamespot.com\/a\/uploads\/screen_medium\/1574\/15746725\/4336662-11.jpg&quot;,&quot;videoStreams&quot;:{&quot;adaptive_stream&quot;:&quot;https:\/\/cdn.jwplayer.com\/manifests\/w9V1adkj.m3u8&quot;},&quot;userId&quot;:0,&quot;premium&quot;:false,&quot;datePublished&quot;:1721905200,&quot;videoAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;videoAdMobilePartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;}" data-non-iframe-embed="1" data-jw-context-name="gamespot" data-jw-media-id="w9V1adkj" data-jw-player-url="https://cdn.jwplayer.com/libraries/VXc5h4Tf.js" data-jw-video-token="" data-has-youtube="" data-youtube-icon-path="https://www.gamespot.com/a/bundles/phoenixsite/images/core/loose/icn-youtube-30x30.png" id="video-rectangle"><div><p>
         Want us to remember this setting for all your devices?
       </p><p><a href="https://www.gamespot.com/signup/">Sign up</a> or <a href="https://www.gamespot.com/login/">Sign in</a> now!
       </p></div><p>
@@ -929,7 +1016,7 @@ Do you like a silent protagonist, or would you prefer main characters to all spe
 
   <p>
   <figure>
-  <a href="https://assetsio.gnwcdn.com/AMD-Ryzen-9000-render.jpg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
+  <a href="https://assetsio.gnwcdn.com/AMD-Ryzen-9000-render.jpg?width=1200&amp;height=1200&amp;fit=bounds&amp;quality=70&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
   
   </a>
 
@@ -1351,83 +1438,6 @@ Image credit:          <cite>EA</cite>
 
 
         </div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Fallout: London fan-made mod out today]]></title>
-            <link>https://www.eurogamer.net/fallout-london-fan-made-mod-out-today</link>
-            <guid>https://www.resetera.com/threads/fallout-london-fan-made-mod-out-today.936243/</guid>
-            <content:encoded><![CDATA[https://www.eurogamer.net/fallout-london-fan-made-mod-out-today<br/><div id="readability-page-1" class="page"><div>
-
-
-
-            <p>
-Fallout: London, the fan-made game-sized mod for Fallout 4, will be released today. The mod's creators confirmed the release to <a href="https://www.inverse.com/gaming/fallout-london-bethesda-mod-tomorrow">Inverse</a> - saying the date was now definite, "unless nuclear war happens".
-</p>
-<p>
-Developed by Team Folon, the mod has been over five years in the making and transports the post-apocalyptic game to England's capital city, with a whole new story, environments, characters, factions, weapons, and gameplay elements.
-</p>
-<p>
-Due to its size it won't be available on popular mod hosting sites, so is instead <a href="https://www.gog.com/en/game/fallout_london">available on GOG</a> with a custom launcher.
-</p>
-<figure>
-<p>
-<a aria-label="Fallout London - Official Release Announcement" data-lightbox="false" data-platform="youtube" href="https://www.youtube.com/embed/8PuzpblWpVM?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
-<span>Fallout London - Official Release Announcement</span>
-<template>
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/8PuzpblWpVM?autoplay=1" frameborder="0" loading="lazy" src="https://www.youtube-nocookie.com/embed/8PuzpblWpVM?autoplay=1">
-</iframe> </template>
-</a>
-</p>
-<figcaption>Fallout London official release announcement.<a href="https://www.youtube.com/watch?v=8PuzpblWpVM" rel="noopener" target="_blank">Watch on YouTube</a></figcaption></figure>
-<p>
-
-Note, however, the <a href="https://www.eurogamer.net/youll-need-to-downgrade-fallout-4s-next-gen-version-to-play-that-massive-fallout-london-mod">mod is currently not compatible with the next-gen version</a> of the game, so players will need the pre-patched version (1.10.163.0). For this reason, players on Steam will need to downgrade before installation. As previously reported, the <a href="https://www.eurogamer.net/fallout-london-mod-will-work-with-fallout-4-on-gog-and-steam-but-not-epic">mod is not compatible with Epic</a> due to lack of rollback features.
-
-
-</p>
-<p>
-The <a href="https://www.eurogamer.net/fan-made-fallout-london-finally-gets-a-release-date">mod was originally set for release on April 23rd this year</a> (fittingly, St. George's Day), but the <a href="https://www.eurogamer.net/fallout-4s-next-gen-update-delays-the-release-of-dlc-sized-fan-mod-fallout-london">release was delayed due to Bethesda's next-gen upgrade</a>.
-
-
-</p>
-<p>
-Eurogamer has followed development of Fallout: London for some time. Most recently, it was announced <a href="https://www.eurogamer.net/fallout-london-mod-cast-will-include-former-speaker-of-the-house-john-bercow">former Speaker of the House John Bercow would be lending his voice</a> to an AI robot, while <a href="https://www.eurogamer.net/fallout-london-mod-adds-baldurs-gate-3-actor-to-its-cast">Neil Newbon - voice of Astarion in Baldur's Gate 3 - is also in the cast</a>.
-
-
-</p>
-<p>
-The release of the Fallout: London mod will likely be boosted by the popularity of Amazon's Fallout TV show. It was <a href="https://www.eurogamer.net/amazons-fallout-tv-show-was-watched-by-65m-people-in-its-first-two-weeks">watched by 65 million people in its first two weeks</a> and has just recently been <a href="https://www.eurogamer.net/amazons-fallout-tv-adaptation-nominated-for-16-emmy-awards">nominated for 16 Emmy Awards</a>.
-
-
-
-</p>
-
-
-
-        </div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Dragon Quest Series Creator Talks About The Unexpected Challenges Posed By More Realistic Graphics]]></title>
-            <link>https://wccftech.com/dragon-quest-series-realistic-graphics/</link>
-            <guid>https://www.resetera.com/threads/dragon-quest-series-creator-talks-about-the-unexpected-challenges-posed-by-more-realistic-graphics.936240/</guid>
-            <content:encoded><![CDATA[https://wccftech.com/dragon-quest-series-realistic-graphics/<br/><div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			<p>The Dragon Quest series is facing some unexpected challenges posed by more realistic graphics, according to the series' creator Yuji Horii.</p>
-<p>Speaking with<a href="https://news.denfaminicogamer.jp/interview/240722m" target="_blank" rel="noopener"> Denfaminicogamer</a>, as translated by <a href="https://automaton-media.com/en/game-development/dragon-quest-creator-talks-about-an-unexpected-challenge-the-series-is-facing-due-to-graphics-becoming-more-realistic/" target="_blank" rel="noopener">Automaton</a>, the popular RPG series creator talked about some unexpected challenges for the franchise posed by more realistic graphics. As now character models have become more expressive and detailed, having a silent protagonist, or "symbolic protagonist," as Horii-san calls it, who allows players to be the main character of the story has become more difficult. With more realistic and detailed graphics, a character that just stands there will look like an idiot.</p>
-<p>The Dragon Quest series creator feels there is no easy way to address this, as making the character react to events would ruin immersion. This, according to Yuji Horii, will become even more of a challenge in the future, so the day that the series will feature a different sort of protagonist may not be too far off in the future.</p>
-<p>For the time being, however, things are remaining as they have always been. The next entry in the series, the long-anticipated Dragon Quest III HD-2D remake, will feature a silent protagonist and many of the features that have always defined the series. You can learn more about the remake launching later this year on PC, PlayStation 5, Xbox Series X, Xbox Series S, and Nintendo Switch by checking out Kai's <a href="https://wccftech.com/dragon-quest-iii-hd-2d-hands-on-impressions/">preview.</a></p>
-
-				
-
-						
-			
-
-		</div></div>]]></content:encoded>
         </item>
     </channel>
 </rss>
