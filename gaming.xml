@@ -4,9 +4,166 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Sat, 14 Sep 2024 21:46:33 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 14 Sep 2024 21:55:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[One Million Checkboxes players hid binary, QR codes and rickrolls among the boxes during its two week war]]></title>
+            <link>https://www.rockpapershotgun.com/one-million-checkboxes-players-hid-binary-qr-codes-and-rickrolls-among-the-boxes-during-its-two-week-war</link>
+            <guid>https://www.resetera.com/threads/one-million-checkboxes-players-hid-binary-qr-codes-and-rickrolls-among-the-boxes-during-its-two-week-war.981297/</guid>
+            <content:encoded><![CDATA[https://www.rockpapershotgun.com/one-million-checkboxes-players-hid-binary-qr-codes-and-rickrolls-among-the-boxes-during-its-two-week-war<br/><div id="readability-page-1" class="page"><div>
+  
+
+    
+
+
+  <p>
+  <figure>
+  <a href="https://assetsio.gnwcdn.com/one-million-checkboxes-3.jpg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
+  
+  </a>
+
+      <figcaption>
+        <span>
+Image credit:          <cite>Rock Paper Shotgun</cite>
+        </span>
+      </figcaption>
+  </figure>
+  </p>
+
+    
+
+</div><div>
+
+
+
+            <p>Back in June, <a href="https://www.rockpapershotgun.com/a-game-called-one-million-checkboxes-has-sparked-a-terrible-online-war">Edwin covered One Million Checkboxes</a>, a website with one million checkboxes that players could check or uncheck, with any change visible to all other visitors of the site. It became an obsession for some in the two weeks the website was online, as players fought to fill all the boxes, or undo the work of their peers.
+</p>
+<p>The fight was far more complicated than it seemed, as the developer recently explained, with some players finding ways to encode hidden messages in the checkboxes.
+</p>
+<!--more-->
+<p>"Half a million people visited the site within days of launch. Folks checked 650,000,000 boxes in the 2 weeks I kept the site online," wrote Nolen Royalty <a href="https://x.com/itseieio/status/1829268247105138764">in a recent Twitter thread</a>. 
+</p>
+<p>With so many people playing, Nolen was concerned that people would use the checkboxes to spell out offensive messages on such a vast public canvas. His solution was to make the rows of checkboxes scale to the size of your browser, meaning messages spelled out via checked boxes would only align and be readable at certain widths. 
+</p>
+<p>"This meant that if you drew something on your phone it wouldn't show up for me on my laptop and vice-versa. I think this worked well; we didn't get bogged down in gross graffiti and since the constraint was subtle most people didn't even notice," he writes.
+</p>
+<p>This wasn't the only way to create messages in the checkboxes, however. Each checkbox was effectively a bit - the most basic unit of information in computing. A bit is either a 0 or a 1, much like a checkbox is unchecked or checked. 
+</p>
+<p>At some point, Nolen re-wrote the backend to keep the website online while so many players were using it simultaneously, and he decided "dump the database in ASCII." ASCII is basically the code that stores text in computers. "I have no idea why I did this. I just did it."
+</p>
+<p>What you'd normally expect to see in this situation is total gibberish, as the checkboxes are converted to random strings of letters and numbers. Instead Nolen found messages - specifically website URLs.
+</p>
+<p>"A URL with 'catgirls' in it was sitting there in my database and I PANICKED. I thought I'd been hacked! I started searching through my code, searching through my logs, trying to find the problem."
+</p>
+<p>The website hadn't been hacked, however. Instead, while some players were battling one another to check and uncheck boxes, some others were using the checkboxes to spell out messages in binary. Seemingly they'd written a bot to recreate these message should anyone come along and check or uncheck a vital box. The URL? It pointed to a Discord called "Checking Boxes", where a small number of players had gathered. The players are understandably excited when suddenly the game's creator showed up in their server.
+</p>
+<p>One of the Discord members then asks Nolen if he's looked at the game as a 1000x1000 image yet. When he did, it looked like this:
+</p>
+<div data-domain="twitter.com"><blockquote data-conversation="none"><p dir="ltr" lang="en">So there's a lot going on here! In addition to the drawings, we've got some secrets. There's the binary message I found, but above that is a base64 version of the same message. And we've also got a QR code (with full error correction) that linked to the discord. <a href="https://t.co/DWXhY4yRQq">pic.twitter.com/DWXhY4yRQq</a></p>— nolen (@itseieio) <a href="https://twitter.com/itseieio/status/1829270474964304284?ref_src=twsrc%5Etfw">August 29, 2024</a></blockquote></div> <p><span data-type="targeting">
+<span>To see this content please enable targeting cookies.</span>
+</span>
+<span data-position="2"></span></p><p>"The Discord was full of very sharp teens, and they were writing this message in secret to gather other very sharp teens," writes Nolen. "And it totally worked!! There were 15 people when I joined the discord but over 60 by the time I shut down the site. (the discord is now hidden)"
+</p>
+<p>Over the course of the two weeks, these players used their bots to create a blue screen of death image that <a href="https://x.com/itseieio/status/1829270643596292230">almost filled the entire play area</a>, covered it <a href="https://x.com/itseieio/status/1829270706405638560">in other memes and logos</a>, and even managed to create an animated rickroll:
+</p>
+ <p><span data-type="targeting">
+<span>To see this content please enable targeting cookies.</span>
+</span></p><p>"It was sick. It was so cool. And I found this so moving," writes Nolen. "I spent my childhood doing dumb stuff on the computer. People mostly didn't get mad at me when I, for example, repeatedly broke my school mail server.
+</p>
+<p>"There's no way I'd be doing what I do now without that encouragement.
+</p>
+<p>"So getting to provide some encouragement of my own - providing a playground like this and seeing what folks were doing and telling them how much I loved it - was so deeply meaningful to me."
+</p>
+<p>"Many people were mad about bots on OMCB. I totally get that. Bots can be frustrating. But the people in this discord were so creative, so talented, so cool! The mischief makers of today will make the games of tomorrow," he concluded. "I can't wait to see what this discord goes on to make".
+</p>
+<p>I'm a big fan of <a href="https://eieio.games/">Nolen's work</a>, which includes the <a href="https://www.rockpapershotgun.com/lets-have-a-staring-contest">staring game</a> we've written about previously, because it evokes an older, more experimental, more playful version of the internet. The tagline of his site is "The internet can still be fun!" and players doing dumb, mischievous stuff is part of that same spirit. Well done, everybody.</p></div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Team Liquid Move On to TI13 Finals, as Tundra Esports Move to Next Bracket]]></title>
+            <link>https://insider-gaming.com/team-liquid-move-on-to-ti13-finals-as-tundra-esports-move-to-next-bracket/</link>
+            <guid>https://www.resetera.com/threads/team-liquid-move-on-to-ti13-finals-as-tundra-esports-move-to-next-bracket.981294/</guid>
+            <content:encoded><![CDATA[https://insider-gaming.com/team-liquid-move-on-to-ti13-finals-as-tundra-esports-move-to-next-bracket/<br/><div id="readability-page-1" class="page"><div>
+		
+<p>Team Liquid is officially the first team to advance to The International 2024 (TI13) Grand Finals after the team swept Gaimin Gladiators with a 2-0 score. While they may be headed to the Finals, other teams, such as Tundra Esports, are still fighting as the gaming organization officially moved towards the Lower Bracket Finals.</p>
+
+
+
+<p>For Tundra Esports, the chance of winning The International twice is in their grasp. Team Liquid, however, is proving to put up a worthy fight against any and all of their opponents.</p>
+
+
+
+<hr>
+
+
+
+<h2 id="h-team-liquid-advance-to-ti13-finals-winning-against-gaimin-gladiators">Team Liquid Advance to TI13 Finals, Winning Against Gaimin Gladiators</h2>
+
+
+
+<p>It was a glorious day for Team Liquid in Dota 2 competition, after the esports team was victorious against the Gaimin Gladiators, winning 2-0. The competition was a best-of-three, with Team Liquid’s win advancing them to the Grand Finals.</p>
+
+
+
+<p>As of now, we do not know who they will be competing against for the Finals, which is set to take place tomorrow, September 15.</p>
+
+
+
+<p>However, the competition may not be settled between Team Liquid and Gaimin Gladiators, as the Gladiators are set to play against Tundra Esports in the Lower Bracket Final later today.</p>
+
+
+
+
+
+
+
+<hr>
+
+
+
+<h2 id="h-tundra-esports-advance-to-lower-bracket-finals">Tundra Esports Advance to Lower Bracket Finals</h2>
+
+
+
+<p>Tundra Esports also began the day strong, with a victory against Team Falcons, sending the popular esports team back home. Like Team Liquid’s victory today, Tundra Esports also swept the floor, winning 2-0.</p>
+
+
+
+<p>But since this was the Lower Bracket, it did not automatically move Tundra Esports to the Grand Finals. The team now has to play against Gaimin Gladiators in the Lower Bracket Finals. </p>
+
+
+
+<figure></figure>
+
+
+
+<p>The good news? Tundra Esports is one step away from the Grand Finals. The bad news? Gaimin Gladiators are not going to want to lose again, making their momentum increasingly strong. </p>
+
+
+
+<p>Tundra Esports will have to put up quite the fight if they want to make it to tomorrow’s Grand Finals. </p>
+
+
+
+<p>Will we see Gaimin Gladiators make a comeback? Or is this it for the popular Dota 2 team?</p>
+
+
+
+<p>Stay tuned to Insider Gaming for more <a href="https://insider-gaming.com/category/esports/">esports news.</a></p>
+
+
+
+<hr>
+    <div id="ig-newsletter-holder">
+            <p><span>
+                    Subscribe to our newsletter to receive the latest news and exclusive leaks every week! No Spam.
+                </span>
+            </p>
+            
+        </div>
+
+	</div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Cosy life sim Tales Of The Shire needs more time in the oven, delayed until 2025]]></title>
             <link>https://www.rockpapershotgun.com/cosy-life-sim-tales-of-the-shire-needs-more-time-in-the-oven-delayed-until-2025</link>
