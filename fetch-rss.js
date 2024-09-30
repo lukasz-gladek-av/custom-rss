@@ -65,6 +65,8 @@ async function fetchAndProcessFeed() {
       || itemTitleLower?.includes(': how to')
       || itemTitleLower?.startsWith('where to find')
       || itemTitleLower?.startsWith('daily deals')
+      || itemTitleLower?.startsWith('PSA')
+      || itemTitleLower?.startsWith('The Maw')
       || itemTitleLower?.endsWith('? explained')
       || itemTitleLower?.endsWith('- answered')
       || itemTitleLower?.endsWith('– answered')
