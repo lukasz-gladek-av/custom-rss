@@ -4,9 +4,178 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Mon, 07 Oct 2024 11:08:25 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Oct 2024 11:21:33 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Silent Hill 2 Remake Supports AMD FSR 3 Frame Generation, NVIDIA DLSS Ray Reconstruction Via Settings File Tweaks; New Mod Improves Cutscenes]]></title>
+            <link>https://wccftech.com/silent-hill-2-remake-fsr-3-frame-generation-nvidia-dlss-ray-reconstruction-mod/</link>
+            <guid>https://www.resetera.com/threads/silent-hill-2-remake-supports-amd-fsr-3-frame-generation-nvidia-dlss-ray-reconstruction-via-settings-file-tweaks-new-mod-improves-cutscenes.1002399/</guid>
+            <content:encoded><![CDATA[https://wccftech.com/silent-hill-2-remake-fsr-3-frame-generation-nvidia-dlss-ray-reconstruction-mod/<br/><div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>Though they are not officially supported, both AMD FSR 3 frame generation and NVIDIA DLSS 3.5 Ray Reconstruction can be easily enabled in the Silent Hill 2 remake by Bloober Team, which is now available in early access for those who pre-ordered the game's Deluxe Edition.</p>
+<p>As reported by Deck Wizard, to enable AMD FSR 3 frame generation in the game, users need only add the r.FidelityFX.FI.Enabled=1 line under [SystemSettings] in the game's engine.ini file. While it shows some ghosting issues, frame generation can definitely make the game feel smoother, especially for those who are playing on an underpowered system or on Steam Deck.</p>
+<p><iframe title="How To Enable FSR 3 Frame Generation In Silent Hill 2 Remake On Steam Deck" width="500" height="281" src="https://www.youtube.com/embed/JIQYatT9jxA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+<p>Those with an RTX 4000 series card can also enable NVIDIA DLSS 3.5 Ray Reconstruction in the Silent Hill 2 remake using a similar method to enhance the quality of ray tracing. All that needs to be done is adding the following lines to the game's engine.ini file under [SystemSettings], as reported by Aren on <a href="https://x.com/Aren2ouioui">X.</a></p>
+<blockquote><p><em>r.NGX.DLSS.denoisermode=1 </em></p>
+<p><em>r.Lumen.Reflections.BilateralFilter=0 </em></p>
+<p><em>r.Lumen.Reflections.ScreenSpaceReconstruction=0 </em></p>
+<p><em>r.lumen.Reflections.Temporal=0 </em></p>
+<p><em>r.Shadow.Denoiser=0</em></p></blockquote>
+<p>Further improvements to the game are provided by a new mod that enhances cutscenes by removing the black bars that display in any aspect ratio beyond 16:9 and the 30 FPS cap. This mod can be downloaded <a href="https://github.com/RoseTheFlower/UltrawideIndex/releases/tag/silenthill2remake">here.</a></p>
+<p>Even in its vanilla state, the Silent Hill 2 remake is more than worthy of any fan's time. Bloober Team not only managed to remake the iconic original in the best possible way but also created its best game to date, as Chris highlighted in his <a href="https://wccftech.com/review/silent-hill-2-restless-dreams-town/">review.</a></p>
+<p>The Silent Hill 2 remake launches for everyone tomorrow, October 8th, on PC and PlayStation 5.</p>
+
+				
+
+						
+			
+
+		</div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Epic detail plans for Unreal Engine 6 and share vision of a metaverse spanning "Roblox, Minecraft, and Fortnite"]]></title>
+            <link>https://www.rockpapershotgun.com/epic-detail-plans-for-unreal-engine-6-and-share-vision-of-a-metaverse-spanning-roblox-minecraft-and-fortnite</link>
+            <guid>https://www.resetera.com/threads/epic-detail-plans-for-unreal-engine-6-and-share-vision-of-a-metaverse-spanning-roblox-minecraft-and-fortnite.1002396/</guid>
+            <content:encoded><![CDATA[https://www.rockpapershotgun.com/epic-detail-plans-for-unreal-engine-6-and-share-vision-of-a-metaverse-spanning-roblox-minecraft-and-fortnite<br/><div id="readability-page-1" class="page"><div>
+  
+
+    <div>
+  
+
+        <p>"Let the best ecosystem win"</p>
+
+    </div>
+
+
+  <p>
+  <figure>
+  <a href="https://assetsio.gnwcdn.com/fortnite-tacos.jpg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
+  
+  </a>
+
+      <figcaption>
+        <span>
+Image credit:          <cite>Epic Games</cite>
+        </span>
+      </figcaption>
+  </figure>
+  </p>
+
+    
+
+</div><div>
+
+
+
+            <p>
+Epic Games <a href="https://www.rockpapershotgun.com/epic-lay-off-830-people-thanks-to-unrealistic-metaverse-ambitions">laid off over 800 people a year ago</a>, following what CEO Tim Sweeney confessed was an "unrealistic" period of investment designed to "grow Fortnite as a metaverse-inspired ecosystem for creators". Now, it's time to start talking about brighter, metaversal tomorrows and hopefully, not do the whole thing all over again. Epic have detailed early plans for Unreal Engine 6, which Sweeney says will combine Unreal Engine with Fortnite's easy-to-use Unreal Editor to create a gigantic, "interoperable" metaverse platform that lets developers sell stuff that can seamlessly be transferred to other games, whether they run on Unreal Engine or not. Stealth blockchain post? Genuinely, I can neither confirm nor deny.
+</p><!--more-->
+<p>
+All this comes from <a href="https://www.theverge.com/2024/10/5/24262376/epic-unreal-engine-6-fortnite-metaverse-plans">a new Verge interview</a> with Sweeney and Epic executive vice-president Saxs Persson, which follows this year's Unreal Fest conference in Seattle. Regarding the layoffs, Sweeney told the site that Epic are now financially stable. 
+</p>
+<p>
+"Last year, before Unreal Fest, we were spending about a billion dollars a year more than we were making," he said. "Now, we're spending a bit more than we're making." 
+</p>
+<p>
+Epic "have a very robust amount of funding relative to pretty much any company in the industry and are making forward investments really judiciously that we could throttle up or down as our fortunes change," Sweeney went on. "We feel we're in a perfect position to execute for the rest of this decade and achieve all of our plans at our size."
+</p><p>
+Foremost among those grand plans is the blueprint for Unreal Engine 6, which will take several years to arrive, and is built around the philosophy of "interoperable content" that can be transferred between any game running on the engine. Epic's principal testcase for this idea is <a href="https://www.rockpapershotgun.com/disney-buy-15-billion-stake-in-fortnite-publisher-epic-announce-new-games-and-entertainment-universe">the Manhattan-Project-ish "games and entertainment universe" they're making for Disney</a>, which will smoosh together the Disney and Fortnite communities to produce a hellish, hybrid race of monsters I call "Disnites", who raid our dwellings by the light of the full moon aboard flying, bus-shaped princesses. I mean, it will supposedly let devs and players move and ferry their digital belongings easily between Fortnite and Unreal Engine worlds based on Disney properties. A battle royale map based on Disneyland seems like an easy win, tbh.
+</p>
+<p>
+In the meantime, Epic are about to open the Fab digital assets marketplace, which will apparently host assets that can work even in non-Unreal-Engine games like Minecraft and Roblox, and is the first step on the road towards a scenario in which Fab creators sell exactly "one logical asset that has different file formats that work in different contexts", meaning you won't have to buy it separately for any other game that supports "interoperability". Sweeney's example in the Verge piece is "a forest mesh set that has different content optimized for Unreal Engine, Unity, Roblox, and Minecraft". 
+</p>
+<p>
+Sweeney's view is that "having seamless movement of content from place to place is going to be one of the critical things that makes the metaverse work without duplication." 
+</p>
+<p>
+I have a couple of fairly predictable comments in response to all this. Firstly: what exactly is "the metaverse" these days? Is it still a loose buzzword for a bunch of ostensibly transformative technologies like VR, and if so, does it still include dodgy prospects like the blockchain and <a href="https://www.rockpapershotgun.com/if-nfts-are-worthless-how-come-i-have-written-a-third-novel-about-nfts-saving-the-future">NFTs</a>, which promise a similar "interoperability" of materials between games?
+</p><p>
+Secondly: why would Microsoft want Epic selling stuff that people can bring into Minecraft, rather than just selling those things themselves, as they currently do? Sweeney conceded to the Verge that Epic haven't had any "discussions" about interoperability with other publishers beyond Disney yet, "but we will, over time". He basically thinks companies should set up a revenue sharing scheme, so that all can prosper from 'the same' asset being sold for use in several games.
+</p>
+<p>
+Persson, meanwhile, noted that "people are not dogmatic about where they play," and as such, "there's no reason why we couldn't have a federated way to flow between Roblox, Minecraft, and Fortnite." He added: "From our perspective, that would be amazing, because it keeps people together and lets the best ecosystem win."
+</p>
+<p>
+"Let the best ecosystem win" is possibly a poor choice of words here, inasmuch as it suggests that, goodness gracious, some partners might actually <em>lose out</em> on "interoperability" with Epic's platform. As The Verge notes, Sweeney's vision of "interoperability" between worlds, whether Unreal or no, makes perfect sense for Epic - it means they can pump a little indirect revenue from the increasingly besieged group of games that refuse to use Unreal Engine. But other companies might wish to avoid a scenario in which all their artists are, strictly speaking, making stuff for the Unreal Engine marketplace, rather than the games they're supposed to be working on.
+</p>
+<p>
+I don't know. I'm an idiot non-businessy know-nothing: feel free to give me an education in the comments. Epic are being pretty militant about increasing their returns from third-party platforms at present. In other news, they're still <a href="https://www.eurogamer.net/epic-launches-major-new-lawsuit-in-app-store-fight-this-time-against-samsung-and-google">picking legal fights with the likes of Google</a> over how easily players can access Fortnite on their phones.
+</p></div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Silent Hill 2 Remake Global Release Times Confirmed]]></title>
+            <link>https://www.ign.com/articles/silent-hill-2-remake-global-release-times-confirmed</link>
+            <guid>https://www.resetera.com/threads/silent-hill-2-remake-global-release-times-confirmed.1002393/</guid>
+            <content:encoded><![CDATA[https://www.ign.com/articles/silent-hill-2-remake-global-release-times-confirmed<br/><div id="readability-page-1" class="page"><section><p>Konami has revealed the global release times for the <a href="https://www.ign.com/games/silent-hill-2-remake">Silent Hill 2 Remake</a> across PlayStation 5 and PC via Steam.</p><p>The publisher shared launch times for each region in an X/Twitter post, below, across its October 8 release date, confirming exactly when survival horror fans can get their hands on the highly anticipated remake.</p><p>It sees players take on the role of protagonist James Sunderland as he follows a mysterious letter from his late wife to the terrifying town of Silent Hill, which teems with nightmarish monsters out for blood. "Silent Hill 2 is a great way to visit (or revisit) one of the most dread-inducing destinations in the history of survival horror," <a href="https://www.ign.com/articles/silent-hill-2-2024-review">IGN said in our 8/10 review</a>.</p><blockquote data-theme="light"><p lang="en" dir="ltr">Here are the global launch times of SILENT HILL 2 for October 8th! <a href="https://twitter.com/hashtag/SILENTHILL?src=hash&amp;ref_src=twsrc%5Etfw" target="_blank" rel="noopener noreferrer">#SILENTHILL</a> <a href="https://twitter.com/hashtag/KONAMI?src=hash&amp;ref_src=twsrc%5Etfw" target="_blank" rel="noopener noreferrer">#KONAMI</a> <a href="https://twitter.com/hashtag/BlooberTeam?src=hash&amp;ref_src=twsrc%5Etfw" target="_blank" rel="noopener noreferrer">#BlooberTeam</a> <a href="https://t.co/noFaYGnSfQ" target="_blank" rel="noopener noreferrer">pic.twitter.com/noFaYGnSfQ</a></p>— Bloober Team (@BlooberTeam) <a href="https://twitter.com/BlooberTeam/status/1841812001464455336?ref_src=twsrc%5Etfw" target="_blank" rel="noopener noreferrer">October 3, 2024</a></blockquote> <h2>Silent Hill 2 Remake PS5 Release Times</h2><ul data-cy="list"><li>Los Angeles - 9pm PDT (on October 7)</li><li>New York - 0am EDT</li><li>São Paulo - 0am GMT-3</li><li>London - 0am BST</li><li>Paris - 0am CEST</li><li>Warsaw - 0am CEST</li><li>Istanbul - 0am GMT+3</li><li>Riyadh - 0am GMT+3</li><li>Hong Kong - 0am HKT</li><li>Tokyo - 0am JST</li><li>Sydney - 0am AEST</li></ul><h2>Silent Hill 2 Remake PC via Steam Release Times</h2><ul data-cy="list"><li>Los Angeles - 9pm PDT (on October 7)</li><li>New York - 0am EDT</li><li>São Paulo - 1am GMT-3</li><li>London - 5am BST</li><li>Paris - 6am CEST</li><li>Warsaw - 6am CEST</li><li>Istanbul - 7am GMT+3</li><li>Riyadh - 7am GMT+3</li><li>Hong Kong - 12pm HKT</li><li>Tokyo - 1pm JST</li><li>Sydney - 3pm AEST</li></ul><p>Those on Xbox will have to wait a tad longer, as Sony itself has confirmed <a href="https://www.ign.com/articles/silent-hill-2-remake-console-exclusive-to-ps5-for-1-year">Silent Hill 2 is a PS5 console exclusive for one year</a>. And some fans seemingly upset with the remake's release <a href="https://www.ign.com/articles/silent-hill-2-remake-wikipedia-page-locked-down-after-persistent-disruptive-editing-lowers-review-scores">took to Wikipedia to falsify lower review scores than Silent Hill 2 actually received</a>, to the point where the website itself had to lock down the page.</p><p><em>Ryan Dinsdale is an IGN freelance reporter. He'll talk about The Witcher all day.</em></p></section></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Silent Hill 2 Remake Wikipedia Page Locked Down After ‘Persistent Disruptive Editing’ Lowers Review Scores]]></title>
+            <link>https://www.ign.com/articles/silent-hill-2-remake-wikipedia-page-locked-down-after-persistent-disruptive-editing-lowers-review-scores</link>
+            <guid>https://www.resetera.com/threads/silent-hill-2-remake-wikipedia-page-locked-down-after-%E2%80%98persistent-disruptive-editing%E2%80%99-lowers-review-scores.1002390/</guid>
+            <content:encoded><![CDATA[https://www.ign.com/articles/silent-hill-2-remake-wikipedia-page-locked-down-after-persistent-disruptive-editing-lowers-review-scores<br/><div id="readability-page-1" class="page"><section><p>The Silent Hill 2 Remake Wikipedia page was locked down after its list of review scores from the press was edited to make them lower.</p><p>Silent Hill 2 is Bloober Team’s well-received remake of Konami’s classic 2001 psychological horror game for PC and PS5 (<a href="https://www.ign.com/articles/silent-hill-2-remake-console-exclusive-to-ps5-for-1-year">it’s console exclusive to PS5 for one year, Sony has confirmed</a>). It sees protagonist James Sunderland following a mysterious letter from his late wife, Mary, and a search for clues in the terrifying namesake town, which is teeming with nightmarish monsters.</p><p>As reported by <a href="https://www.eurogamer.net/silent-hill-2-remake-wikipedia-page-locked-after-salty-fans-try-to-rewrite-its-critically-acclaimed-reception" target="_blank" rel="noopener noreferrer">Eurogamer</a>, admins were forced to make <a href="https://en.wikipedia.org/wiki/Silent_Hill_2_(2024_video_game)" target="_blank" rel="noopener noreferrer">Wikipedia’s Silent Hill 2 Remake page</a> ‘semi-protected’ after what was called “persistent disruptive editing.”</p><p>Wikipedia’s rules state that semi-protection is sometimes necessary “to prevent vandalism” to popular pages, and that’s exactly what happened here, with admins issuing a number of updates that changelog entries said were “to fix trolling.”</p><p>IGN’s was among the review scores tampered with. <a href="https://www.ign.com/articles/silent-hill-2-2024-review">IGN’s Silent Hill 2 Remake review</a> returned an 8/10, but it was lowered to 6/10. Eurogamer’s score dropped down to 0/5 after <a href="https://www.eurogamer.net/silent-hill-2-remake-review" target="_blank" rel="noopener noreferrer">awarding the game a five-star review</a>. At the time of this article’s publication, the review scores were accurate.</p><p>Why did this happen? Eurogamer speculates it may be driven by trolls who are upset about changes made to the character’s faces and clothes.</p><p>Silent Hill 2 Remake is having a better time of it over on Steam, where it currently enjoys an ‘overwhelmingly positive’ user review rating from over 3,000 reviews. (Silent Hill 2 Remake’s global release date is October 8, but advanced access is available now.)</p><p>Wikipedia’s Silent Hill 2 Remake page protection is set to expire on October 9, although admins may need to keep an eye on it in the near-term at least.</p><p><em>Wesley is the UK News Editor for IGN. Find him on Twitter at @wyp100. You can reach Wesley at wesley_yinpoole@ign.com or confidentially at wyp100@proton.me.</em></p></section></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Silent Hill 2 HD Collection's Comic Sans ranch sign is in the Remake… but not in the way you might think it is]]></title>
+            <link>https://www.eurogamer.net/silent-hill-2-hd-collections-comic-sans-ranch-sign-is-in-the-remake-but-not-in-the-way-you-might-think-it-is</link>
+            <guid>https://www.resetera.com/threads/silent-hill-2-hd-collections-comic-sans-ranch-sign-is-in-the-remake%E2%80%A6-but-not-in-the-way-you-might-think-it-is.1002387/</guid>
+            <content:encoded><![CDATA[https://www.eurogamer.net/silent-hill-2-hd-collections-comic-sans-ranch-sign-is-in-the-remake-but-not-in-the-way-you-might-think-it-is<br/><div id="readability-page-1" class="page"><div>
+  
+
+    
+
+
+  <p>
+  <figure>
+  <a href="https://assetsio.gnwcdn.com/Screenshot-2024-10-07-at-11.13.57.png?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
+  
+  </a>
+
+      <figcaption>
+        <span>
+Image credit:          <cite>Gmanlives / Konami</cite>
+        </span>
+      </figcaption>
+  </figure>
+  </p>
+
+    
+
+</div><div>
+
+
+
+            <p>A nod to <a data-keyword="true" href="https://www.eurogamer.net/games/silent-hill-2">Silent Hill 2</a>'s disastrous HD Collection remake is hidden away in <a data-keyword="true" href="https://www.eurogamer.net/games/silent-hill-2-remake">Silent Hill 2 Remake</a>: the infamous Silent Hill Ranch sign.</p>
+<p>Along with <a href="https://www.neogaf.com/threads/silent-hill-hd-collection-ot-programmed-in-smoke-signals.464801/page-45#post-36489999">Maria's nightmare-fuel orthodontic rearrangement</a>, one of the most egregious things to come out of the 2012 version for some was the tragically comical Silent Hill Ranch sign, which <a href="https://x.com/dark1x/status/1779975148818362787">was written in Comic Sans</a>.</p>
+<figure>
+<p>
+<a aria-label="Silent Hill 2 Review" data-lightbox="false" data-platform="youtube" href="https://www.youtube.com/embed/vOv1JTfPnuQ?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
+<span>Silent Hill 2 Review</span>
+<template>
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/vOv1JTfPnuQ?autoplay=1" frameborder="0" loading="lazy" src="https://www.youtube-nocookie.com/embed/vOv1JTfPnuQ?autoplay=1">
+</iframe> </template>
+</a>
+</p>
+<figcaption>Silent Hill 2 Review.<a href="https://www.youtube.com/watch?v=vOv1JTfPnuQ" rel="noopener" target="_blank">Watch on YouTube</a></figcaption></figure>
+<p>No one's entirely sure if it was an intentional change or merely leftover placeholder text, but it became emblematic of the HD Collection's wider quality and performance issues.</p>
+<p>Whilst <a data-keyword="true" href="https://www.eurogamer.net/companies/bloober-team">Bloober Team</a> has addressed many of these problems with its outstanding Remake, it seems the team was keen to honour the game's legacy in more ways than one… including by keeping this silly sign in the new game.</p>
+<p>It'll take a little work to see it, though:</p> <div>
+
+<p><span data-type="targeting">
+<span>To see this content please enable targeting cookies.</span>
+</span>
+</p></div>
+<p>"So if you clip through the ranch at the start of the Silent Hill 2 remake you can find the Comic Sans font sign hidden away inside. GOTY," GmanLives posted on X/Twitter.</p>
+<p>"I'm waiting for someone to make a mod that replaces the Silent Hill Ranch sign with Comic Sans version," <a href="https://x.com/moleslaw_/status/1842984765039022476">quipped</a> one commenter.</p>
+<p>Yesterday, <a href="https://www.eurogamer.net/silent-hill-2-remake-wikipedia-page-locked-after-salty-fans-try-to-rewrite-its-critically-acclaimed-reception">Wikipedia had to lock down the Silent Hill 2 Remake page after repeated vandalism</a> from editors who refuse to accept that the remake of Konami's seminal horror game released to critical acclaim last week.</p>
+<p>Outright lies around the games reception and metacritic score - including one edit that said the game had "received the worst reviews imaginable" - means the page has now been put into a semi-protected state to stop unregistered users from making wild, unsubstantiated claims.</p><p>"It doesn't matter if you've never played Silent Hill 2 before. It also doesn't matter if you have. Silent Hill 2 Remake's heady blend of old and new delivers the best horror I've played for years, and I suspect that will hold true even for those meeting James for the first time," I wrote in <a href="https://www.eurogamer.net/silent-hill-2-remake-review">Eurogamer's Silent Hill 2 Remake review</a>, awarding it 5 out of 5 stars.</p>
+<p>Silent Hill 2 Remake releases on PC and PS5 tomorrow, Tuesday 8th October.</p></div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Dino Crisis Unreal Engine 5 Fan-made Remake Demo Is Now Available for Download]]></title>
             <link>https://wccftech.com/dino-crisis-unreal-engine-5-remake-download/</link>
@@ -55,7 +224,7 @@
 <p>There was also some highly ignorable twattery around Maria’s new character design not being suitably jorkable doing the rounds, which is very funny if you know where the story goes. The nonsense has even found it’s way to series artist Masahiro Ito, <a href="https://x.com/adsk4/status/1843210691492422049">who Xeetered</a> “This is NOT the account to take it out on. I decided to block all of them who did it to me IMMEDIATELY from now on,” presumably in response to general trolling.</p>
 <p>I did briefly check Wikipedia just to see how easy it was to edit a page, since I’d never done it before. Turns out, yep, it takes mere seconds. Don't worry, I changed it back. </p>
 <figure>
-<a data-lightbox="true" href="https://assetsio.gnwcdn.com/deep-rock-2.png?width=1200&amp;height=1200&amp;fit=bounds&amp;quality=70&amp;format=jpg&amp;auto=webp" target="_blank">
+<a data-lightbox="true" href="https://assetsio.gnwcdn.com/deep-rock-2.png?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank">
  </a>
 <figcaption><span>Image credit: <cite>Wikipedia/Rock Paper Shotgun</cite></span></figcaption>
 </figure>
@@ -139,7 +308,7 @@ It is, as ever, a very busy time for Epic Games, following this past weekend's <
 
   <p>
   <figure>
-  <a href="https://assetsio.gnwcdn.com/Kay-and-Nixx-in-Star-Wars-Outlaws.jpg?width=1200&amp;height=1200&amp;fit=bounds&amp;quality=70&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
+  <a href="https://assetsio.gnwcdn.com/Kay-and-Nixx-in-Star-Wars-Outlaws.jpg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
   
   </a>
 
@@ -172,7 +341,7 @@ Image credit:          <cite>Ubisoft/Eurogamer</cite>
 <p>"Ubisoft has noted recent press speculation regarding potential interests around the Company," the company wrote. "It regularly reviews all its strategic options in the interest of its stakeholders and will inform the market if and when appropriate.</p>
 <p>"The company reiterates that management is currently focused on executing its strategy, centred on two core verticals - open world adventures and GaaS [Games as a Service]-native experiences."</p>
 <figure>
-<a data-lightbox="true" href="https://assetsio.gnwcdn.com/image-(396).png?width=1200&amp;height=1200&amp;fit=bounds&amp;quality=70&amp;format=jpg&amp;auto=webp" target="_blank">
+<a data-lightbox="true" href="https://assetsio.gnwcdn.com/image-(396).png?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank">
  </a>
 <figcaption><span>Image credit: <cite>companiesmarketcap.com</cite></span></figcaption>
 </figure>
@@ -803,7 +972,7 @@ So, when will these new Halo games materialise? Not just yet, it sounds like.
   
 
 </div>
-                      <meta itemprop="seamless-content-list-items" data-list-items="[{&quot;guid&quot;:&quot;1100-6526933&quot;,&quot;url&quot;:&quot;\/articles\/retro-pokemon-mega-bloks-target-circle-week\/1100-6526933\/&quot;},{&quot;guid&quot;:&quot;1100-6526935&quot;,&quot;url&quot;:&quot;\/articles\/target-circle-week-includes-deals-on-rarely-discounted-lego-sets\/1100-6526935\/&quot;},{&quot;guid&quot;:&quot;1100-6526928&quot;,&quot;url&quot;:&quot;\/articles\/dragon-ball-super-limited-edition-steelbook-collection-crunchyroll-prime-big-deal-days\/1100-6526928\/&quot;},{&quot;guid&quot;:&quot;1100-6526799&quot;,&quot;url&quot;:&quot;\/articles\/lord-of-the-rings-hoodies-and-t-shirts-featured-in-early-prime-big-deal-days-sale\/1100-6526799\/&quot;},{&quot;guid&quot;:&quot;1100-6526808&quot;,&quot;url&quot;:&quot;\/articles\/epic-is-suing-google-and-samsung-over-auto-blocker-feature\/1100-6526808\/&quot;},{&quot;guid&quot;:&quot;1100-6526817&quot;,&quot;url&quot;:&quot;\/articles\/the-original-john-wick-film-is-getting-an-epic-4k-steelbook-edition\/1100-6526817\/&quot;},{&quot;guid&quot;:&quot;1100-6526834&quot;,&quot;url&quot;:&quot;\/articles\/nintendo-intensifies-crackdown-on-youtube-emulator-channels-report\/1100-6526834\/&quot;},{&quot;guid&quot;:&quot;1100-6526833&quot;,&quot;url&quot;:&quot;\/articles\/fortnite-now-allows-parents-to-set-time-limits-on-how-much-their-kids-play\/1100-6526833\/&quot;},{&quot;guid&quot;:&quot;1100-6526836&quot;,&quot;url&quot;:&quot;\/articles\/microsoft-discontinues-hololens-for-consumers-but-remains-committed-to-selling-it-to-the-military\/1100-6526836\/&quot;},{&quot;guid&quot;:&quot;1100-6526802&quot;,&quot;url&quot;:&quot;\/articles\/pokemon-go-october-2024-events-raids-spotlight-hours-community-day-and-more\/1100-6526802\/&quot;},{&quot;guid&quot;:&quot;1100-6526839&quot;,&quot;url&quot;:&quot;\/articles\/destiny-2-revenant-brings-a-new-onslaught-mode-and-a-big-focus-on-stasis\/1100-6526839\/&quot;},{&quot;guid&quot;:&quot;1100-6526841&quot;,&quot;url&quot;:&quot;\/articles\/destiny-2-armor-gets-an-overhaul-with-set-bonuses-and-new-stats\/1100-6526841\/&quot;},{&quot;guid&quot;:&quot;1100-6526823&quot;,&quot;url&quot;:&quot;\/articles\/arcade1up-home-claw-machine-at-amazon\/1100-6526823\/&quot;},{&quot;guid&quot;:&quot;1100-6526868&quot;,&quot;url&quot;:&quot;\/articles\/diablo-4-vessel-of-hatred-preorders-ultimate-edition-cost-and-bonuses\/1100-6526868\/&quot;},{&quot;guid&quot;:&quot;1100-6526800&quot;,&quot;url&quot;:&quot;\/articles\/diablo-4-vessel-of-hatred-launch-and-preload-times-revealed\/1100-6526800\/&quot;},{&quot;guid&quot;:&quot;1100-6526159&quot;,&quot;url&quot;:&quot;\/articles\/lego-batmobile-tumbler-from-the-dark-knight-is-back-on-sale-at-amazon\/1100-6526159\/&quot;},{&quot;guid&quot;:&quot;1100-6526871&quot;,&quot;url&quot;:&quot;\/articles\/will-smiths-fart-led-to-men-in-black-set-evacuation\/1100-6526871\/&quot;},{&quot;guid&quot;:&quot;1100-6526864&quot;,&quot;url&quot;:&quot;\/articles\/amazon-celebrates-diablo-4s-first-expansion-with-steep-discounts-on-collectible-figures\/1100-6526864\/&quot;},{&quot;guid&quot;:&quot;1100-6526873&quot;,&quot;url&quot;:&quot;\/articles\/documentary-shows-stalker-2-is-an-element-of-resistance-amid-russian-invasion-of-ukraine\/1100-6526873\/&quot;},{&quot;guid&quot;:&quot;1100-6526893&quot;,&quot;url&quot;:&quot;\/articles\/new-sims-4-life-death-expansion-lets-you-reap-souls-plan-funerals-and-unmask-the-grim-reaper\/1100-6526893\/&quot;}]">
+                      <meta itemprop="seamless-content-list-items" data-list-items="[{&quot;guid&quot;:&quot;1100-6526933&quot;,&quot;url&quot;:&quot;\/articles\/retro-pokemon-mega-bloks-target-circle-week\/1100-6526933\/&quot;},{&quot;guid&quot;:&quot;1100-6526935&quot;,&quot;url&quot;:&quot;\/articles\/target-circle-week-includes-deals-on-rarely-discounted-lego-sets\/1100-6526935\/&quot;},{&quot;guid&quot;:&quot;1100-6526928&quot;,&quot;url&quot;:&quot;\/articles\/dragon-ball-super-limited-edition-steelbook-collection-crunchyroll-prime-big-deal-days\/1100-6526928\/&quot;},{&quot;guid&quot;:&quot;1100-6526530&quot;,&quot;url&quot;:&quot;\/articles\/lord-of-the-rings-collectors-edition-books-2024\/1100-6526530\/&quot;},{&quot;guid&quot;:&quot;1100-6526799&quot;,&quot;url&quot;:&quot;\/articles\/lord-of-the-rings-hoodies-and-t-shirts-featured-in-early-prime-big-deal-days-sale\/1100-6526799\/&quot;},{&quot;guid&quot;:&quot;1100-6526826&quot;,&quot;url&quot;:&quot;\/articles\/cod-warzone-and-mw3-patch-notes-include-more-buffs-for-mw2-weapons\/1100-6526826\/&quot;},{&quot;guid&quot;:&quot;1100-6526833&quot;,&quot;url&quot;:&quot;\/articles\/fortnite-now-allows-parents-to-set-time-limits-on-how-much-their-kids-play\/1100-6526833\/&quot;},{&quot;guid&quot;:&quot;1100-6526830&quot;,&quot;url&quot;:&quot;\/articles\/scream-7-is-set-for-an-early-2026-release-date\/1100-6526830\/&quot;},{&quot;guid&quot;:&quot;1100-6526606&quot;,&quot;url&quot;:&quot;\/articles\/like-a-dragon-pirate-yakuza-in-hawaii-preorders-are-now-live\/1100-6526606\/&quot;},{&quot;guid&quot;:&quot;1100-6526808&quot;,&quot;url&quot;:&quot;\/articles\/epic-is-suing-google-and-samsung-over-auto-blocker-feature\/1100-6526808\/&quot;},{&quot;guid&quot;:&quot;1100-6526825&quot;,&quot;url&quot;:&quot;\/articles\/two-more-horror-legends-are-coming-to-fortnite\/1100-6526825\/&quot;},{&quot;guid&quot;:&quot;1100-6525283&quot;,&quot;url&quot;:&quot;\/articles\/super-mario-world-lego-set-has-arrived-get-it-at-amazon-sold-out-at-walmart\/1100-6525283\/&quot;},{&quot;guid&quot;:&quot;1100-6526803&quot;,&quot;url&quot;:&quot;\/articles\/starfield-shattered-space-save-30-on-the-dlc-and-get-bonus-in-game-content\/1100-6526803\/&quot;},{&quot;guid&quot;:&quot;1100-6526812&quot;,&quot;url&quot;:&quot;\/articles\/the-office-remakes-new-star-says-ricky-gervais-approved-of-female-lead\/1100-6526812\/&quot;},{&quot;guid&quot;:&quot;1100-6526805&quot;,&quot;url&quot;:&quot;\/articles\/kiryu-cant-escape-his-past-in-yakuza-like-a-dragons-new-trailer\/1100-6526805\/&quot;},{&quot;guid&quot;:&quot;1100-6526802&quot;,&quot;url&quot;:&quot;\/articles\/pokemon-go-october-2024-events-raids-spotlight-hours-community-day-and-more\/1100-6526802\/&quot;},{&quot;guid&quot;:&quot;1100-6526839&quot;,&quot;url&quot;:&quot;\/articles\/destiny-2-revenant-brings-a-new-onslaught-mode-and-a-big-focus-on-stasis\/1100-6526839\/&quot;},{&quot;guid&quot;:&quot;1100-6526817&quot;,&quot;url&quot;:&quot;\/articles\/the-original-john-wick-film-is-getting-an-epic-4k-steelbook-edition\/1100-6526817\/&quot;},{&quot;guid&quot;:&quot;1100-6526834&quot;,&quot;url&quot;:&quot;\/articles\/nintendo-intensifies-crackdown-on-youtube-emulator-channels-report\/1100-6526834\/&quot;},{&quot;guid&quot;:&quot;1100-6526851&quot;,&quot;url&quot;:&quot;\/articles\/baldurs-gate-3-best-characters-are-now-dungeons-dragons-miniatures\/1100-6526851\/&quot;}]">
             </div>
               
     </div></div>]]></content:encoded>
@@ -1006,156 +1175,6 @@ So, when will these new Halo games materialise? Not just yet, it sounds like.
     <p><span>Disney Pixel RPG, Europa, Starship Troopers: Extermination, etc.</span>
       </p></div><div><p><em><a title="Games > Metaphor: ReFantazio [33 articles]" href="https://www.gematsu.com/games/metaphor-refantazio">Metaphor: ReFantazio</a></em> for <a title="Platforms > PS5 [8,121 articles]" href="https://www.gematsu.com/platforms/playstation/ps5">PlayStation 5</a>, <a title="Platforms > PS4 [27,296 articles]" href="https://www.gematsu.com/platforms/playstation/ps4">PlayStation 4</a>, <a title="Platforms > Xbox Series [6,205 articles]" href="https://www.gematsu.com/platforms/xbox/xbox-series">Xbox Series</a>, and <a title="Platforms > PC [21,406 articles]" href="https://www.gematsu.com/platforms/pc">PC</a>, <em><a title="Games > Silent Hill 2 (2024) [8 articles]" href="https://www.gematsu.com/games/silent-hill-2-2024">Silent Hill 2</a></em> for PlayStation 5 and PC, and <em><a title="Games > Dragon Ball: Sparking! ZERO [16 articles]" href="https://www.gematsu.com/games/dragon-ball-sparking-zero">Dragon Ball: Sparking! ZERO</a></em> for PlayStation 5, Xbox Series, and PC are the highlights of this week’s Japanese video game releases. <span id="more-919707"></span></p><p>Also due out this week is <em><a title="Games > Disney Pixel RPG [3 articles]" href="https://www.gematsu.com/games/disney-pixel-rpg">Disney Pixel RPG</a></em> for iOS and Android, <em><a title="Games > Europa [7 articles]" href="https://www.gematsu.com/games/europa">Europa</a></em> for Switch and PC, and <em><a title="Games > Starship Troopers: Extermination [3 articles]" href="https://www.gematsu.com/games/starship-troopers-extermination">Starship Troopers: Extermination</a></em> for PlayStation 5, Xbox Series, and PC.</p><p>Get the full list of this week’s Japanese game releases below. It should be noted that <a title="Companies > Gematsu" href="https://www.gematsu.com/companies/gematsu">Gematsu</a> will receive a small percentage of money from purchases made through Play-Asia links. You can also save five percent with our multi-use “<strong>GEMATSU24</strong>” coupon code.</p><h2><span>Physical and Digital</span></h2><ul><li><em>Dragon Ball: Sparking! ZERO</em> (<a href="https://www.play-asia.com/dragon-ball-sparking-zero/13/70gx7x?tagid=578221" target="_blank" rel="noopener">PS5</a>) – Launching worldwide.<ul><li>North American Version<!-- AD: content -->
         <ul><li>Standard Edition (<a href="https://www.play-asia.com/dragon-ball-sparking-zero/13/70gu7f?tagid=578221" target="_blank" rel="noopener">PS5</a>, <a href="https://www.play-asia.com/dragon-ball-sparking-zero/13/70gu7h?tagid=578221" target="_blank" rel="noopener">Xbox Series</a>)</li><li>Ultimate Edition (<a href="https://www.play-asia.com/dragon-ball-sparking-zero-ultimate-edition/13/70hc0r?tagid=578221" target="_blank" rel="noopener">PS5</a>, <a href="https://www.play-asia.com/dragon-ball-sparking-zero-ultimate-edition/13/70hc0t?tagid=578221" target="_blank" rel="noopener">Xbox Series</a>)</li></ul></li><li>European Version<ul><li>Standard Edition (<a href="https://www.play-asia.com/dragon-ball-sparking-zero/13/70gu7j?tagid=578221" target="_blank" rel="noopener">PS5</a>, <a href="https://www.play-asia.com/dragon-ball-sparking-zero/13/70gu7l?tagid=578221" target="_blank" rel="noopener">Xbox Series</a>)</li><li>Ultimate Edition (<a href="https://www.play-asia.com/dragon-ball-sparking-zero-collectors-edition/13/70hcd9?tagid=578221" target="_blank" rel="noopener">PS5</a>, <a href="https://www.play-asia.com/dragon-ball-sparking-zero-collectors-edition/13/70hcdb?tagid=578221" target="_blank" rel="noopener">Xbox Series</a>)</li></ul></li><li>Asian Version<ul><li>Standard Edition (<a href="https://www.play-asia.com/dragon-ball-sparking-zero-multi-language/13/70gx7j?tagid=578221" target="_blank" rel="noopener">PS5</a>)</li><li>Premium Collector’s Edition (<a href="https://www.play-asia.com/dragon-ball-sparking-zero-premium-collectors-edition-multi-langu/13/70hc5j?tagid=578221" target="_blank" rel="noopener">PS5</a>)</li></ul></li></ul></li><li><em>Metaphor: ReFantazio</em> (<a href="https://www.play-asia.com/metaphor-refantazio-multi-language/13/70gsi9?tagid=578221" target="_blank" rel="noopener">PS5</a>, <a href="https://www.play-asia.com/metaphor-refantazio-multi-language/13/70gsif?tagid=578221" target="_blank" rel="noopener">PS4</a>) – Launching worldwide.<ul><li><a title="Companies > ATLUS [2,034 articles]" href="https://www.gematsu.com/companies/atlus">ATLUS</a> Brand 35th Anniversary Edition (<a href="https://www.play-asia.com/metaphor-refantazio-atlus-brand-35th-anniversary-edition-limited/13/70h5q3?tagid=578221" target="_blank" rel="noopener">PS5</a>, <a href="https://www.play-asia.com/metaphor-refantazio-atlus-brand-35th-anniversary-edition-limited/13/70h5qd?tagid=578221" target="_blank" rel="noopener">PS4</a>)</li><li>North American Version<ul><li>Standard Edition (<a href="https://www.play-asia.com/metaphor-refantazio/13/70h5qh?tagid=578221" target="_blank" rel="noopener">PS5</a>, <a href="https://www.play-asia.com/metaphor-refantazio/13/70h5ql?tagid=578221" target="_blank" rel="noopener">Xbox Series</a>)</li><li>Collector’s Edition (<a href="https://www.play-asia.com/metaphor-refantazio-collectors-edition/13/70h5qn?tagid=578221" target="_blank" rel="noopener">PS5</a>, <a href="https://www.play-asia.com/metaphor-refantazio-collectors-edition/13/70h5qr?tagid=578221" target="_blank" rel="noopener">Xbox Series</a>, <a href="https://www.play-asia.com/metaphor-refantazio-collectors-edition/13/70hcah?tagid=578221" target="_blank" rel="noopener">PC</a>)</li></ul></li><li>European Version<ul><li>Standard Edition (<a href="https://www.play-asia.com/metaphor-refantazio/13/70hds3?tagid=578221" target="_blank" rel="noopener">PS5</a>, <a href="https://www.play-asia.com/metaphor-refantazio/13/70hds5?tagid=578221" target="_blank" rel="noopener">Xbox Series</a>)</li></ul></li><li>Asian Version<ul><li>Standard Edition (<a href="https://www.play-asia.com/metaphor-refantazio-multi-language/13/70gsin?tagid=578221" target="_blank" rel="noopener">PS5</a>, <a href="https://www.play-asia.com/metaphor-refantazio-multi-language/13/70gsip?tagid=578221" target="_blank" rel="noopener">PS4</a>)</li><li>ATLUS Brand 35th Anniversary Edition (<a href="https://www.play-asia.com/metaphor-refantazio-atlus-brand-35th-anniversary-edition-limited/13/70h8m5?tagid=578221" target="_blank" rel="noopener">PS5</a>, <a href="https://www.play-asia.com/metaphor-refantazio-atlus-brand-35th-anniversary-edition-limited/13/70h8md?tagid=578221" target="_blank" rel="noopener">PS4</a>)</li></ul></li></ul></li><li><em>Silent Hill 2</em> (<a href="https://www.play-asia.com/silent-hill-2-remake/13/70fsqn?tagid=578221" target="_blank" rel="noopener">PS5</a>) – Launching worldwide.<ul><li>North American Version (<a href="https://www.play-asia.com/silent-hill-2-remake/13/70fsrn?tagid=578221" target="_blank" rel="noopener">PS5</a>)</li><li>European Version (<a href="https://www.play-asia.com/silent-hill-2-remake/13/70fsrr?tagid=578221" target="_blank" rel="noopener">PS5</a>)</li><li>Asian Version (<a href="https://www.play-asia.com/silent-hill-2-remake-multi-language/13/70fsqp?tagid=578221" target="_blank" rel="noopener">PS5</a>)</li></ul></li><li><em><a title="Games > SUNSOFT is Back! Retro Game Selection [3 articles]" href="https://www.gematsu.com/games/sunsoft-is-back-retro-game-selection">SUNSOFT is Back! Retro Game Selection</a></em> (<a href="https://www.play-asia.com/sunsoft-is-back-retro-game-selection/13/70har1?tagid=578221" target="_blank" rel="noopener">Switch</a>)<ul><li>Limited Edition (<a href="https://www.play-asia.com/sunsoft-is-back-retro-game-selection-limited-edition/13/70harb?tagid=578221" target="_blank" rel="noopener">Switch</a>)</li></ul></li><li><em><a title="Games > Wizardry: Proving Grounds of the Mad Overlord (2023) [3 articles]" href="https://www.gematsu.com/games/wizardry-proving-grounds-of-the-mad-overlord-2023">Wizardry: Proving Grounds of the Mad Overlord</a></em> (PS5, Switch)<ul><li>Deluxe Edition (PS5, Switch)</li></ul></li></ul><h2><span>Digital-Only</span></h2><ul><li><em><a title="Games > Amanda the Adventurer [2 articles]" href="https://www.gematsu.com/games/amanda-the-adventurer">Amanda the Adventurer</a></em> (PS5, Xbox Series, PS4, <a title="Platforms > Xbox One [13,547 articles]" href="https://www.gematsu.com/platforms/xbox/xbox-one">Xbox One</a>) – Launching worldwide.</li><li><em><a title="Games > Diablo IV [25 articles]" href="https://www.gematsu.com/games/diablo-iv">Diablo IV</a></em> Expansion “Vessel of Hatred” (PS5, Xbox Series, PS4, Xbox One, PC [<a href="https://store.steampowered.com/app/3043530/Diablo_IV_Vessel_of_Hatred/" target="_blank" rel="noopener">Steam</a>, <a href="https://us.shop.battle.net/en-us/product/diablo-iv" target="_blank" rel="noopener">Battle.net</a>]) – Launching worldwide.</li><li><em>Disney Pixel RPG</em> (iOS [<a href="https://apps.apple.com/us/app/disney-pixel-rpg/id6502584695" target="_blank" rel="noopener">App Store</a>], Android [<a href="https://play.google.com/store/apps/details?id=jp.gungho.tri" target="_blank" rel="noopener">Google Play</a>]) – Launching worldwide.</li><li><em>Dragon Ball: Sparking! ZERO</em> (Xbox Series, PC [<a href="https://store.steampowered.com/app/1790600/DRAGON_BALL_Sparking_ZERO/" target="_blank" rel="noopener">Steam</a>]) – Launching worldwide.</li><li><em>Europa</em> (Switch, PC [<a href="https://store.steampowered.com/app/2214880/Europa/" target="_blank" rel="noopener">Steam</a>]) – Launching worldwide.</li><li><em><a title="Games > Kill The Crows [1 article]" href="https://www.gematsu.com/games/kill-the-crows">Kill The Crows</a></em> (Switch) – Launching worldwide.</li><li><em><a title="Games > MASH VP! Re:VISION [1 article]" href="https://www.gematsu.com/games/mash-vp-revision">MASH VP! Re:VISION</a></em> Early Access (PC [<a href="https://store.steampowered.com/app/2928330/MASH_VP_ReVISION/" target="_blank" rel="noopener">Steam</a>]) – Launching worldwide.</li><li><em>Metaphor: ReFantazio</em> (Xbox Series, PC [<a href="https://store.steampowered.com/app/2679460/Metaphor_ReFantazio/" target="_blank" rel="noopener">Steam</a>]) – Launching worldwide.</li><li><em><a title="Platforms > GBA [1 article]" href="https://www.gematsu.com/platforms/nintendo/gba">Game Boy Advance</a> – <a title="Platforms > Switch [16,145 articles]" href="https://www.gematsu.com/platforms/nintendo/switch">Nintendo Switch</a> Online</em> (Switch)<ul><li><em>F-Zero: GP Legend</em></li><li><em>F-Zero Climax</em></li></ul></li><li><em>Silent Hill 2</em> (PC [<a href="https://store.steampowered.com/app/2124490/SILENT_HILL_2/" target="_blank" rel="noopener">Steam</a>]) – Launching worldwide.</li><li><em>Starship Troopers: Extermination</em> (PS5, Xbox Series, PC [<a href="https://store.steampowered.com/app/1268750/Starship_Troopers_Extermination/" target="_blank" rel="noopener">Steam</a>]) – Launching worldwide.<ul><li>North American Version (<a href="https://www.play-asia.com/starship-troopers-extermination/13/70hbsj?tagid=578221" target="_blank" rel="noopener">PS5</a>, <a href="https://www.play-asia.com/starship-troopers-extermination/13/70hbsl?tagid=578221" target="_blank" rel="noopener">Xbox Series</a>)</li><li>European Version (<a href="https://www.play-asia.com/starship-troopers-extermination/13/70hbsp?tagid=578221" target="_blank" rel="noopener">PS5</a>, <a href="https://www.play-asia.com/starship-troopers-extermination/13/70hbsr?tagid=578221" target="_blank" rel="noopener">Xbox Series</a>)</li></ul></li><li><em><a title="Games > Tsugunohi: Supernatural Supermarket [1 article]" href="https://www.gematsu.com/games/tsugunohi-supernatural-supermarket">Tsugunohi: Supernatural Supermarket</a></em> (PS4, Switch) – Launching worldwide.</li><li><em><a title="Games > Undisputed [3 articles]" href="https://www.gematsu.com/games/undisputed">Undisputed</a></em> (PS5, Xbox Series, PC [<a href="https://store.steampowered.com/app/1451190/Undisputed/" target="_blank" rel="noopener">Steam</a>]) – Launching worldwide.<ul><li>North American Version<ul><li>Standard Edition (<a href="https://www.play-asia.com/undisputed/13/70h8sl?tagid=578221" target="_blank" rel="noopener">PS5</a>, <a href="https://www.play-asia.com/undisputed/13/70h8sr?tagid=578221" target="_blank" rel="noopener">Xbox Series</a>)</li></ul></li><li>European Version<ul><li>Standard Edition (<a href="https://www.play-asia.com/undisputed/13/70h8sz?tagid=578221" target="_blank" rel="noopener">PS5</a>, <a href="https://www.play-asia.com/undisputed/13/70h8t1?tagid=578221" target="_blank" rel="noopener">Xbox Series</a>)</li><li>WBC Edition (<a href="https://www.play-asia.com/undisputed-wbc-edition/13/70h8t5?tagid=578221" target="_blank" rel="noopener">PS5</a>, <a href="https://www.play-asia.com/undisputed-wbc-edition/13/70h8t9?tagid=578221" target="_blank" rel="noopener">Xbox Series</a>)</li></ul></li></ul></li><li><em><a title="Games > Wingspan [3 articles]" href="https://www.gematsu.com/games/wingspan">Wingspan</a></em> (PS5, PS4) – Launching worldwide.</li></ul><p>The PlayStation 5, PlayStation 4, and Switch titles listed above can be purchased through Japanese <a title="Platforms > PlayStation [46,181 articles]" href="https://www.gematsu.com/platforms/playstation">PlayStation</a> Network and <a title="Platforms > Nintendo [20,960 articles]" href="https://www.gematsu.com/platforms/nintendo">Nintendo</a> accounts using prepaid cards:</p><ul><li>PlayStation Store cards (yen): <a href="https://www.play-asia.com/psn-card-1100-yen-playstation-network-japan/13/70dc0b?tagid=578221" target="_blank" rel="noopener noreferrer">1,100</a> / <a href="https://www.play-asia.com/psn-card-3000-yen-playstation-network-japan/13/703xk5?tagid=578221" target="_blank" rel="noopener noreferrer">3,000</a> / <a href="https://www.play-asia.com/psn-card-5000-yen-playstation-network-japan/13/703xk4?tagid=578221" target="_blank" rel="noopener noreferrer">5,000</a> / <a href="https://www.play-asia.com/psn-card-10000-yen-playstation-network-japan/13/703xk3?tagid=578221" target="_blank" rel="noopener noreferrer">10,000</a></li><li>Nintendo eShop cards (yen): <a href="https://www.play-asia.com/nintendo-eshop-card-1000-yen-japan-account/13/704a2v?tagid=578221" target="_blank" rel="noopener noreferrer">1,000</a> / <a href="https://www.play-asia.com/nintendo-eshop-card-1500-yen-japan-account/13/70cte9?tagid=578221" target="_blank" rel="noopener noreferrer">1,500</a> / <a href="https://www.play-asia.com/nintendo-eshop-card-3000-yen-japan-account/13/704a2w?tagid=578221" target="_blank" rel="noopener noreferrer">3,000</a> / <a href="https://www.play-asia.com/nintendo-eshop-card-5000-yen-japan-account/13/705239?tagid=578221" target="_blank" rel="noopener noreferrer">5,000</a> / <a href="https://www.play-asia.com/nintendo-eshop-card-9000-yen-japan-account/13/70bkw5?tagid=578221" target="_blank" rel="noopener noreferrer">9,000</a></li></ul></div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Until Dawn PC Remake Has a Broken Ray Tracing Experience, AMD FSR 3 Doesn’t Work At All]]></title>
-            <link>https://wccftech.com/until-dawn-pc-remake-has-a-broken-ray-tracing-experience-amd-fsr-3-doesnt-work-at-all/</link>
-            <guid>https://www.resetera.com/threads/until-dawn-pc-remake-has-a-broken-ray-tracing-experience-amd-fsr-3-doesn%E2%80%99t-work-at-all.1002054/</guid>
-            <content:encoded><![CDATA[https://wccftech.com/until-dawn-pc-remake-has-a-broken-ray-tracing-experience-amd-fsr-3-doesnt-work-at-all/<br/><div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			<p>Until Dawn Remake on PC is reportedly filled with several bugs. Users report that ray traced settings are completely broken, and some upscaling technologies aren't effective at all.</p>
-<p>For those unaware, the studio Ballistic Moon, a new team founded by former leads at Supermassive Games, was selected to <a href="https://wccftech.com/until-dawn-pc-specs-released-nvidia-dlss-3-amd-fsr-3-and-ray-tracing-are-supported/">release Until Dawn Remake on PC</a> (and PlayStation 5), which did excite fans considering that the title's stunning visuals were being held back by inferior platforms, but now it is being disclosed that the game's graphical state is entire of bugs and that users are utterly disappointed by how the PC port isn't working with RT like it was <a href="https://wccftech.com/until-dawn-pc-specs-released-nvidia-dlss-3-amd-fsr-3-and-ray-tracing-are-supported/">originally advertised to be</a>.</p>
-<p>A report from <a href="https://www.dsogaming.com/news/until-dawn-remake-amd-fsr-3-0-frame-generation-ray-tracing-hdr-are-not-working-on-pc/">DSOgaming</a> claims that Until Dawn Remake on PC sees no visual change when ray-tracing is enabled and that the image quality is exactly the same. This is a surprising fact, given that not having RT on a PC port makes it completely useless. Here's a look at the game before vs. after RT is enabled, and by first impressions, there are no changes to the overall graphics.</p>
-<figure>
-<div>
-
-<div>
-		
-		
-		<p><span>2 of 9</span>
-	</p></div></div>
-</figure>
-
-
-<p>Well, the non-functionality of RT isn't the only disappointment here, as it is said that the title isn't working with AMD's FSR 3.0, however, NVIDIA's DLSS works just fine. The developers promised that all upscaling technologies would support the PC port; however, for AMD users, it is a disappointment that a crucial feature wasn't working for them. Overall, the title feels rushed, and several other bugs make the PC port a failure when it comes to addressing the graphical capabilities that the PC platform holds.</p>
-<p>We expect the developers to push out an optimization update to get the PC port up and running since, in this state, it won't prove to be much of a success.</p>
-
-				
-
-			
-	<div>
-		<h2>Products mentioned in this post</h2>
-		
-		<!--<p class="story-notice text-center">The links above are affiliate links. As an Amazon Associate, Wccftech.com may earn from qualifying purchases.</p>-->
-	</div>
-
-			
-			
-
-		</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Five Nights at Freddy's 2 movie is "much bigger" and "scarier" than its predecessor]]></title>
-            <link>https://www.eurogamer.net/five-nights-at-freddys-2-movie-is-much-bigger-and-scarier-than-its-predecessor</link>
-            <guid>https://www.resetera.com/threads/five-nights-at-freddys-2-movie-is-much-bigger-and-scarier-than-its-predecessor.1002048/</guid>
-            <content:encoded><![CDATA[https://www.eurogamer.net/five-nights-at-freddys-2-movie-is-much-bigger-and-scarier-than-its-predecessor<br/><div id="readability-page-1" class="page"><div>
-  
-
-    <div>
-        
-
-        <p>"I think the fans are gonna flip for it. It's gonna be scarier, too, actually."</p>
-
-    </div>
-
-
-  <p>
-  <figure>
-  <a href="https://assetsio.gnwcdn.com/Five-Nights-at-Freddys-film-screenshot-showing-golden-freddy.jpg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
-  
-  </a>
-
-      <figcaption>
-        <span>
-Image credit:          <cite>Universal Pictures</cite>
-        </span>
-      </figcaption>
-  </figure>
-  </p>
-
-    
-
-</div><div>
-
-
-
-            <p><a data-keyword="true" href="https://www.eurogamer.net/games/five-nights-at-freddys">Five Nights at Freddy's</a> star Josh Hutcherson says the second Freddy-themed movie is "much bigger" and "scarier" than its predecessor.</p>
-<p>Talking to <a href="https://www.esquire.com/style/mens-fashion/a62490388/josh-hutcherson-ritz-carlton-late-checkout-interview-2024/">Esquire</a>, as spotted by <a href="http://v/">TheGamer</a>, Hutcherson talked about the "higher stakes" and teased that there will be "more" and "different" animatronics, with the Freddy universe "opening up in a big way".</p>
-<figure>
-<p>
-<a aria-label="Five Nights At Freddy's | Official Trailer" data-lightbox="false" data-platform="youtube" href="https://www.youtube.com/embed/0VH9WCFV6XQ?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
-<span>Five Nights At Freddy's | Official Trailer</span>
-<template>
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/0VH9WCFV6XQ?autoplay=1" frameborder="0" loading="lazy" src="https://www.youtube-nocookie.com/embed/0VH9WCFV6XQ?autoplay=1">
-</iframe> </template>
-</a>
-</p>
-<figcaption>Five Nights At Freddy's | Official Trailer.<a href="https://www.youtube.com/watch?v=0VH9WCFV6XQ" rel="noopener" target="_blank">Watch on YouTube</a></figcaption></figure>
-<p>"We're finding the balance right now of building this world and expanding it in a really cool way but also making sure the characters stay really grounded," Hutcherson said. "That's something that I really think that we all fought for in the first film, because this world that was created in Five Nights at Freddy's, it's so out-there.</p><p>"It's so over-the-top and wacky, in a way, that to find the emotional truth of the characters was gonna be what was gonna work. I think the fans are gonna flip for it. It's gonna be a lot of fun with the source. It's gonna be scarier, too, actually."</p>
-<p>Talking about how much he enjoys working in the Freddy-centric world, Hutcherson says the possibilities with his character, Mike, "are endless".</p>
-<p>Does that mean a third movie could be on the way?</p>
-<p>"This could have a very potentially long run and it could be a lot of fun, but at this point we're focusing on the second movie. We'll see what comes after that," Hutcherson teased.</p>
-<p>Universal Pictures and Blumhouse Productions <a href="https://www.eurogamer.net/five-nights-at-freddys-movie-sequel-officially-in-the-works">announced the sequel back in April at CinemaCon</a>.</p>
-<p>On its release, <a href="https://www.eurogamer.net/five-nights-at-freddys-movie-sees-second-largest-video-game-adaptation-debut-of-all-time">Five Nights at Freddy's scored the second-largest debut of all time for a video game adaptation in the US</a>, coming only behind that of <a href="https://www.eurogamer.net/the-super-mario-bros-movie-is-the-biggest-video-game-adaptation-ever">Nintendo and Illumination's animated Super Mario Bros. Movie</a>.</p></div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Silent Hill 2 Remake Wikipedia page locked after salty fans try to rewrite its critically-acclaimed reception]]></title>
-            <link>https://www.eurogamer.net/silent-hill-2-remake-wikipedia-page-locked-after-salty-fans-try-to-rewrite-its-critically-acclaimed-reception</link>
-            <guid>https://www.resetera.com/threads/silent-hill-2-remake-wikipedia-page-locked-after-salty-fans-try-to-rewrite-its-critically-acclaimed-reception.1002024/</guid>
-            <content:encoded><![CDATA[https://www.eurogamer.net/silent-hill-2-remake-wikipedia-page-locked-after-salty-fans-try-to-rewrite-its-critically-acclaimed-reception<br/><div id="readability-page-1" class="page"><div>
-  
-
-    
-
-
-  <p>
-  <figure>
-  <a href="https://assetsio.gnwcdn.com/SH2R_3.jpg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
-  
-  </a>
-
-      <figcaption>
-        <span>
-Image credit:          <cite>Eurogamer / Konami</cite>
-        </span>
-      </figcaption>
-  </figure>
-  </p>
-
-    
-
-</div><div>
-
-
-
-            <p>Wikipedia has had to lock down the <a data-keyword="true" href="https://www.eurogamer.net/games/silent-hill-2-remake">Silent Hill 2 Remake</a> page after repeated vandalism from editors who refuse to accept that the remake of Konami's seminal horror game released to critical acclaim earlier this week.</p>
-<p>Outright lies around the games reception and metacritic score - including one edit that said the game had "received the worst reviews imaginable" - means the page has now been put into a semi-protected state to stop unregistered users from making wild, unsubstantiated claims, including one that said Eurogamer had awarded it 0/5 stars when, in fact, it got top marks.</p>
-<figure>
-<p>
-<a aria-label="Silent Hill 2 Review" data-lightbox="false" data-platform="youtube" href="https://www.youtube.com/embed/vOv1JTfPnuQ?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
-<span>Silent Hill 2 Review</span>
-<template>
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/vOv1JTfPnuQ?autoplay=1" frameborder="0" loading="lazy" src="https://www.youtube-nocookie.com/embed/vOv1JTfPnuQ?autoplay=1">
-</iframe> </template>
-</a>
-</p>
-<figcaption>Silent Hill 2 Remake<a href="https://www.youtube.com/watch?v=vOv1JTfPnuQ" rel="noopener" target="_blank">Watch on YouTube</a></figcaption></figure>
-<p>It's unclear what's motivating the edits, although its presumed by some to have been fuelled by the nauseating discourse that the game is "woke" because of changes made to the characters facial features and clothing.</p>
-<p>Alternatively, it may stem from some fans' dismayed that <a data-keyword="true" href="https://www.eurogamer.net/games/silent-hill-2">Silent Hill 2</a> has been remade by <a data-keyword="true" href="https://www.eurogamer.net/companies/bloober-team">Bloober Team</a> or, indeed, at all.</p> <div>
-<div data-domain="twitter.com"><blockquote><p dir="ltr" lang="en">the silent hill 2 remake's positive reception didn't fit their narrative so the "antiwoke" dorks had to vandalize the wikipedia review scores <a href="https://t.co/Qcl0nj3q0R">pic.twitter.com/Qcl0nj3q0R</a></p>— kate bush's husband (@airbagged) <a href="https://twitter.com/airbagged/status/1842644442433700020?ref_src=twsrc%5Etfw">October 5, 2024</a></blockquote></div>
-<p><span data-type="targeting">
-<span>To see this content please enable targeting cookies.</span>
-</span>
-</p></div>
-<p>Though its still early days and the only people who've got their hands on the game so far have stumped up for the deluxe edition that comes with early access - which naturally may lead to a positive bias - Silent Hill 2 Remake is sitting on an "overwhelming positive" user score on <a href="https://store.steampowered.com/app/2124490/SILENT_HILL_2/">Steam</a>, too.</p>
-<blockquote data-embed-height="740"><a href="https://www.reddit.com/r/silenthill/comments/1fwvmqb/seriously_trolls_cant_handle_sh2rs_success_so/">Seriously? Trolls can't handle SH2R's success so they vandalized the Wikipedia review scores</a><br> by<a href="https://www.reddit.com/user/Sea-Measurement5025/">u/Sea-Measurement5025</a> in<a href="https://www.reddit.com/r/silenthill/">silenthill</a></blockquote><p><span data-type="targeting">
-<span>To see this content please enable targeting cookies.</span>
-</span></p><p>"It doesn't matter if you've never played Silent Hill 2 before. It also doesn't matter if you have. Silent Hill 2 Remake's heady blend of old and new delivers the best horror I've played for years, and I suspect that will hold true even for those meeting James for the first time," wrote in <a href="https://www.eurogamer.net/silent-hill-2-remake-review">Eurogamer's Silent Hill 2 Remake review</a>, awarding it an impressive 5 out of 5 stars.</p><p>"A little light padding and some minor grumbling about the combat aside, there's nothing - not a single thing - I wish Bloober had done differently. How it looks, how it sounds, how it plays, how it iterates and modernises whilst honouring its cherished source material. Silent Hill 2 Remake is as close to perfect as I could have ever hoped. And my hopes were high, my friend."</p></div></div>]]></content:encoded>
         </item>
     </channel>
 </rss>
