@@ -4,9 +4,125 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Wed, 09 Oct 2024 09:23:50 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 09 Oct 2024 09:35:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Silent Hill 2 Mods Add DLSS Frame Generation, Various Graphics Tweaks, and Remove 30FPS Lock in Cutscenes]]></title>
+            <link>https://wccftech.com/silent-hill-2-mods-add-dlss-frame-generation-various-graphics-tweaks-and-remove-30fps-lock-in-cutscenes/</link>
+            <guid>https://www.resetera.com/threads/silent-hill-2-mods-add-dlss-frame-generation-various-graphics-tweaks-and-remove-30fps-lock-in-cutscenes.1004679/</guid>
+            <content:encoded><![CDATA[https://wccftech.com/silent-hill-2-mods-add-dlss-frame-generation-various-graphics-tweaks-and-remove-30fps-lock-in-cutscenes/<br/><div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>The Silent Hill 2 remake is officially out, and plenty of mods have already been released to improve the game in various ways on PC. We've <a href="https://wccftech.com/silent-hill-2-remake-fsr-3-frame-generation-nvidia-dlss-ray-reconstruction-mod/" target="_blank" rel="noopener">reported</a> on the AMD FSR Frame Generation and NVIDIA Ray Reconstruction tweak, and now there's also an NVIDIA DLSS Frame Generation mod released by none other than PureDark. As usual with his DLSS Frame Generation mods, you'll have to be a <a href="https://www.patreon.com/PureDark" target="_blank" rel="noopener">Patreon</a> backer to get it.</p>
+<p>There are also several mods that improve various graphics and technical aspects of the Silent Hill 2 remake. For example, modder SammiLucia already <a href="https://www.nexusmods.com/silenthill2/mods/24" target="_blank" rel="noopener">posted</a> their 'Ultra Plus' overhaul, which we've previously seen in games like <a href="https://wccftech.com/hogwarts-legacy-ultra-plus-comparison/" target="_blank" rel="noopener">Hogwarts Legacy</a>, Days Gone, <a href="https://wccftech.com/cyberpunk-2077-ultra-path-tracing-8k/" target="_blank" rel="noopener">Cyberpunk 2077</a>, Robocop: Rogue City, and Star Wars Jedi: Survivor. Here's an overview of the improvements:</p>
+<ul>
+<li>Copies some settings from Cinematic to Epic quality so they're active in-game</li>
+<li>Reduced black point slightly to glue the game together</li>
+<li>Located and fixed major stalls being caused by Lumen surface draws by distributing the draws over several frames</li>
+<li>Forces Ray Reconstruction for DLSS. You don't need an ini, and you shouldn't need to copy the DLSSD DLL</li>
+<li>Forced DirectX Flip frame presentation to try and fix screen strobing people are seeing in the vanilla game. If you don't have a VRR-capable monitor and want VSync, you will now need to force VSync in your GPU's control panel</li>
+<li>Disabled Chroma64 DLL, which is only used for Razer hardware LED light synchronisation and is known to cause stutters.</li>
+<li>Fixed James' oily hair</li>
+<li>Sped up disk streaming by enabling DirectX 12 PSO disk cache</li>
+<li>Sped up Lumen by a few FPS</li>
+<li>Reduced hair pixelation by increasing MSAA</li>
+<li>Enabled separation between materials for subsurface scattering</li>
+<li>Enabled iris mapping</li>
+<li>Enabled anisotropic filtering for virtual textures</li>
+<li>Increased anisotropic filtering from 8 to 16</li>
+<li>Enabled light UE realtime texture sharpening</li>
+<li>Switched from Kraken to Selkie texture compression</li>
+<li>Adjusted in-game graphics menu settings (Low, Mid, High, Epic) to better balance options</li>
+<li>Increased temp CPU memory from 50MB to 2048MB</li>
+<li>Corrected configuration bugs in DLSS and TSR</li>
+<li>Forced DLSS preset A preset E due to popular incorrect demand</li>
+<li>Enabled Ultra Quality Plus in XeSS upscaler</li>
+<li>Increased disk requests from 1MB to 16MB each</li>
+<li>Increased streamer parallelism</li>
+<li>Fixed a hitch by disabling up to 15ms additional frame time for loading</li>
+<li>Fixed white flashes at the edge of the screen</li>
+<li>Enabled IO dispatcher system</li>
+<li>Enabled the prestreamer system for smoother streaming</li>
+<li>Fixed a hitch by disabling texture pre-tiling</li>
+<li>Reduced virtual texture uploads from 8 per frame to 4</li>
+<li>Enabled downsampled occlusion queries</li>
+<li>Added sphere bounding to frustum culls</li>
+<li>Increased lens flare quality at Epic setting</li>
+<li>Increased bloom quality at Epic setting</li>
+<li>Increased water reflection quality (non-RT) at Epic setting</li>
+<li>Disabled half-resolution water refractions</li>
+<li>Increased grass system parallelism to prevent hitches</li>
+<li>Disabled shader energy conservation</li>
+<li>Disabled some debugging still active in the shipped game</li>
+<li>Enabled saving of found user PSOs to disk for later caching</li>
+<li>Fixed mip cache sizing (was '7', needs to be '14' for 4096x textures)</li>
+<li>Enabled mesh streaming</li>
+<li>Fixed some pop-ins by increasing LOD and shadow fade time from 0.25s to 2s</li>
+<li>Fixed a hitch by correcting shadow predraw resolution</li>
+<li>Disabled unbuilt shadows to prevent them being drawn in game</li>
+<li>Possibly fixed fog jitter noise by increasing fog history weight to prevent jittering</li>
+<li>Improved performance of fog by slightly reducing Z resolution from 128 voxels to 96</li>
+<li>Fixed a hitch by limiting shader batch time from 16ms per frame to 1.5ms</li>
+<li>Prevented particles from running on the RHI</li>
+</ul>
+<p>Last but not least, the <a href="https://www.nexusmods.com/silenthill2/mods/45" target="_blank" rel="noopener">Cutscene Improvements mod</a> removes the default 30FPS lock in Silent Hill 2 cutscenes and the black bars when using a display format other than 16:9.</p>
+<p>For our full review of the Silent Hill 2 remake, head to this <a href="https://wccftech.com/review/silent-hill-2-restless-dreams-town/" target="_blank" rel="noopener">article</a>.</p>
+
+				
+
+			
+	<div>
+		<h2>Products mentioned in this post</h2>
+		
+		<!--<p class="story-notice text-center">The links above are affiliate links. As an Amazon Associate, Wccftech.com may earn from qualifying purchases.</p>-->
+	</div>
+
+			
+			
+
+		</div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[The simmering emotions of cosy tea-brewing sim Wanderstop have been repressed until next year]]></title>
+            <link>https://www.rockpapershotgun.com/the-simmering-emotions-of-cosy-tea-brewing-sim-wanderstop-have-been-repressed-until-next-year</link>
+            <guid>https://www.resetera.com/threads/the-simmering-emotions-of-cosy-tea-brewing-sim-wanderstop-have-been-repressed-until-next-year.1004676/</guid>
+            <content:encoded><![CDATA[https://www.rockpapershotgun.com/the-simmering-emotions-of-cosy-tea-brewing-sim-wanderstop-have-been-repressed-until-next-year<br/><div id="readability-page-1" class="page"><div>
+  
+
+    
+
+
+  <p>
+  <figure>
+  <a href="https://assetsio.gnwcdn.com/wanderstop-release-date-delayed-1.jpg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
+  
+  </a>
+
+      <figcaption>
+        <span>
+Image credit:          <cite>Annapurna Interactive</cite>
+        </span>
+      </figcaption>
+  </figure>
+  </p>
+
+    
+
+</div><div>
+
+
+
+            <p>The cosy (but maybe not so cosy) tea-brewing adventure <a href="https://www.rockpapershotgun.com/games/wanderstop">Wanderstop</a> has been delayed until next year, say developers Ivy Road. The colourful game about a troubled arena fighter retiring into a life of lapsang souchong and repressed urges to do sudden violence had previously been planned for a release some time in 2024, according to <a href="https://x.com/IvyRoadGames/status/1799200272046297261">the developer's original announcement</a>. But game development is, as ever, a fickle destroyer of plans.  "Reading the tea leaves, it has become clear that Wanderstop needs a tiny bit more time to fully bloom," they said in <a href="https://store.steampowered.com/news/app/1299460/view/4685523041289318334">a Steam post</a> yesterday, adding that their new estimate is "early 2025". </p>
+<!--more-->
+<p>The game is being published by Annapurna Interactive, which recently <a href="https://www.rockpapershotgun.com/annapurna-interactive-has-splintered-into-two-groups-both-of-which-are-now-working-to-pick-up-the-pieces-says-new-report">imploded like a sad submarine after all its crew angrily fired themselves into the sea via the torpedo bays</a>. Although we don't know the exact details of how the publisher's ongoing difficulty is affecting studios linked to it, it's likely not helping. It's worth emphasising, however, that Ivy Road don't state whether this particular hiccup has contributed to the delay. For all I know it could just be that they simply need more time to make the character look <a href="https://x.com/IvyRoadGames/status/1803086838027944073">even more angry</a>. </p>
+<p>The head honchos at Ivy Road include Davey Wreden, co-confuser of the <a href="https://www.rockpapershotgun.com/games/the-stanley-parable">Stanley Parable</a>, and Karla Zimonja, feelings eliciter of <a href="https://www.rockpapershotgun.com/games/tacoma">Tacoma</a> and <a href="https://www.rockpapershotgun.com/games/gone-home">Gone Home</a>. These two narrative-focused names should tip you off about an impending flipping-of-the-script (if the above trailer doesn't). Wanderstop is being marketed partly as a "cosy" life simulator game along the lines of <a href="https://www.rockpapershotgun.com/games/my-time-at-portia">My Time At Portia</a> and the like. But it's clear a deeper level of introspection is intended. </p>
+<p>All good in my books. The "cosy game" has been left uninterrogated for too long. After all, who could interrogate that <em>adorable widdle facey-wace</em>? Well, probably these people. In an <a href="https://www.theguardian.com/games/article/2024/aug/14/wanderstop-challenging-cosy-fantasies-davey-wreden-pc-ps5-game">interview with the Guardian</a>, Wreden said at some point in development he realised that the characters were "in real conflict and very much not OK... They wouldn’t be magically healed by drinking tea in the middle of the woods.”</p></div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Tequila Works Cancels Game and Lays Off a Few Employees]]></title>
             <link>https://wccftech.com/tequila-works-cancels-game-and-lays-off-a-few-employees/</link>
