@@ -65,12 +65,13 @@ async function fetchAndProcessFeed() {
       || itemTitleLower?.includes(': how to')
       || itemTitleLower?.startsWith('where to find')
       || itemTitleLower?.startsWith('daily deals')
-      || itemTitleLower?.startsWith('PSA')
-      || itemTitleLower?.startsWith('The Maw')
+      || itemTitleLower?.startsWith('psa')
+      || itemTitleLower?.startsWith('the maw')
       || itemTitleLower?.endsWith('? explained')
       || itemTitleLower?.endsWith('- answered')
       || itemTitleLower?.endsWith('– answered')
-      || (itemTitleLower?.includes('save') && (itemTitleLower?.includes('off')))
+      || (itemTitleLower?.includes('save') && (itemTitleLower?.includes('off'))
+      || itemTitleLower.includes('guide:')
     ) {
       continue;
     }
