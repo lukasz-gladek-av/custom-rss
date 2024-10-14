@@ -70,7 +70,7 @@ async function fetchAndProcessFeed() {
       || itemTitleLower?.endsWith('? explained')
       || itemTitleLower?.endsWith('- answered')
       || itemTitleLower?.endsWith('– answered')
-      || (itemTitleLower?.includes('save') && (itemTitleLower?.includes('off'))
+      || (itemTitleLower?.includes('save') && (itemTitleLower?.includes('off')))
       || itemTitleLower.includes('guide:')
     ) {
       continue;
