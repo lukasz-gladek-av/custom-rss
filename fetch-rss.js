@@ -12,6 +12,7 @@ const feed = new Feed({
   description: 'A cleaned-up version of the original gaming feed',
   link: 'https://lukasz-gladek-av.github.io/custom-rss/gaming.xml',
 });
+const domainFeeds = new Map();
 
 const skipSitesMatches = ['destructoid.com', 'polygon.com', 'gamesindustry.biz', 'vgbees.com']
 
@@ -95,13 +96,27 @@ async function fetchAndProcessFeed() {
       const article = reader.parse();
 
       if (article) {
-        feed.addItem({
+        const articleItem = {
           title: item.title,
           id: item.link,
           link: itemArticleLink,
-          content: itemArticleLink + '<br/>' + article.content,
-          author: [{ name: item.author || 'Unknown' }],
-        });
+          content: itemArticleLink + '<br/><br/>' + article.content,
+          author: [{ name: item.author || item.creator || 'Unknown' }],
+        };
+        feed.addItem(articleItem);
+
+        // Per domain
+        const linkDomain = getDomainFromUrl(itemArticleLink)
+                             .replace('www.', '')
+                             .replace('.', '_');
+        if (!domainFeeds.get(linkDomain)) {
+          domainFeeds.set(linkDomain, new Feed({
+                             title: 'maGaming RSS Feed - ' + linkDomain,
+                             description: 'A cleaned-up version of the original gaming feed for ' + linkDomain,
+                             link: 'https://lukasz-gladek-av.github.io/custom-rss/' + linkDomain + ".xml",
+                           }));
+        }
+        domainFeeds.get(linkDomain).addItem(articleItem);
       } else {
         console.warn(`Failed to parse content for ${itemArticleContent || itemArticleLink}`);
         feed.addItem(item)
@@ -113,6 +128,11 @@ async function fetchAndProcessFeed() {
 
   const rssXml = feed.rss2();
   require('fs').writeFileSync('gaming.xml', rssXml);
+  domainFeeds.forEach((domainFeed, domainUrl) => {
+  console.log('domain', domainUrl);
+    const domainRssXml = domainFeed.rss2();
+    require('fs').writeFileSync(domainUrl + '.xml', domainRssXml);
+  });
 }
 
 function removeStylesAndImages(html) {
@@ -125,6 +145,11 @@ function removeStylesAndImages(html) {
   // Remove all inline styles
   $('[style]').removeAttr('style');
   return $.html();
+}
+
+function getDomainFromUrl(url) {
+    const domain = new URL(url).hostname;
+    return domain;
 }
 
 fetchAndProcessFeed();
