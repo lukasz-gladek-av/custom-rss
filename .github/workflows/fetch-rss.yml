@@ -39,7 +39,7 @@ jobs:
         run: |
           git config --global user.email "github@example.com"
           git config --global user.name "githubbot"
-          git add *
+          git add ./\*.xml
           TIMESTAMP=$(date +"%Y-%m-%d %H:%M:%S")
           git commit -m "Auto-update RSS feed at $TIMESTAMP"
           git push origin main
