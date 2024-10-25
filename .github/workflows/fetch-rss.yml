@@ -33,7 +33,7 @@ jobs:
         run: node fetch-rss.js
 
       - name: Run Eurogamer.pl RSS Fetch Script
-        run: node fetch-rss.js
+        run: node fetch-eurogamer-rss.js
 
       - name: Commit and Push Changes
         run: |
