@@ -4,9 +4,274 @@
         <title>maGaming RSS Feed - insider-gaming_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/insider-gaming_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for insider-gaming_com</description>
-        <lastBuildDate>Tue, 29 Oct 2024 14:32:33 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 29 Oct 2024 14:44:49 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Intel Core Ultra 9 285K Review: A New Era for Efficiency, But Is It Right for You?]]></title>
+            <link>https://insider-gaming.com/intel-core-ultra-9-285k-review-a-new-era-for-efficiency-but-is-it-right-for-you/</link>
+            <guid>https://www.resetera.com/threads/intel-core-ultra-9-285k-review-a-new-era-for-efficiency-but-is-it-right-for-you.1021995/</guid>
+            <content:encoded><![CDATA[https://insider-gaming.com/intel-core-ultra-9-285k-review-a-new-era-for-efficiency-but-is-it-right-for-you/<br/><br/><div id="readability-page-1" class="page"><div>
+		
+<p>The Intel Core Ultra 9 285K represents a shift in Intel’s strategy, focusing on power efficiency over raw performance. It’s part of the new Core Ultra 200S series, bringing promises of lower energy consumption, cooler temperatures, and improved productivity. However, early adopters may encounter unexpected hurdles. </p>
+
+
+
+<p>After spending time using the new CPU exclusively, let’s explore what this new chip offers, where it shines, and whether it’s the right upgrade for you.</p>
+
+
+
+<h2 id="h-what-s-new-a-fresh-start-and-new-challenges">What’s New: A Fresh Start and New Challenges</h2>
+
+
+
+<h3 id="h-new-naming-convention-and-socket-requirements">New Naming Convention and Socket Requirements</h3>
+
+
+
+<p>The Core Ultra 9 285K introduces Intel’s new naming scheme, replacing the old “Core i” branding. This chip is comparable to the Core i9 series but brings more than just a new name. It’s built using TSMC’s manufacturing process, the same foundry behind AMD and Nvidia chips. </p>
+
+
+
+<p>The Core Ultra 200S series also require the new LGA 1851 socket, meaning you’ll need a compatible motherboard to make the jump. And while Intel’s new approach looks to the future, the switch to the Core Ultra platform isn’t entirely seamless, especially for early adopters.</p>
+
+
+
+<h3 id="h-pc-build-and-specifications">PC Build and Specifications</h3>
+
+
+
+<p>Before getting into the actual review of the CPU, it’s important to note the hardware used for this review. The CPU is, as you’d expect, the Intel Core Ultra 9 285K. It’s sitting on an MSI MPG z890 Carbon WiFi motherboard with 48GB of G.Skill Trident Z5 CK CU-DIMM&nbsp;DDR5-8200 RAM and a Nvidia RTX 4090 FE graphics card. For cooling the CPU, the machine is using the&nbsp;<a href="http://go.corsair.com/4PZZrM" target="_blank" rel="noreferrer noopener">Corsair H150i iCue Link LCD AIO</a>&nbsp;along with six iCue Link fans. The entire PC is sitting in a <a href="http://go.corsair.com/4PZZrM" target="_blank" rel="noreferrer noopener">Corsair iCue 5000D RGB</a> Airflow ATX mid-tower case.</p>
+
+
+
+<figure><table><thead><tr><th><strong>Specification</strong></th><th><strong>Details</strong></th></tr></thead><tbody><tr><td>Architecture</td><td>Arrow Lake-S</td></tr><tr><td>Cores</td><td>24 (8 P-cores/16 E-cores)</td></tr><tr><td>Threads</td><td>24</td></tr><tr><td>Base Clock</td><td>3.7 P-core/3.2 E-core (GHz)</td></tr><tr><td>Max Clock</td><td>6/4.4 GHz</td></tr><tr><td>Socket</td><td>LGA 1851</td></tr><tr><td>Process</td><td>3nm</td></tr><tr><td>L3 Cache</td><td>36mb</td></tr><tr><td>L2 Cache</td><td>40mb</td></tr><tr><td>Price</td><td>$589</td></tr></tbody></table></figure>
+
+
+
+<h2 id="h-installation-issues-a-frustrating-experience">Installation Issues: A Frustrating Experience</h2>
+
+
+
+<p>Setting up the Core Ultra 9 285K proved more frustrating than it should have. After building the machine, I was faced with numerous boot issues that left the system stuck at the BIOS splash screen in a frustrating boot loop. The machine would work fine through the Windows 11 installation, but would then have issues arise after going through the initial setup.</p>
+
+
+
+<p>It took reaching out directly to our motherboard manufacturer — in this case, MSI — to figure out the actual cause and a workaround.</p>
+
+
+
+<p>From what I was told, there was an issue with Windows 11 and its  24H2 update. Specifically, it came down to connecting a discrete graphics card — something that almost everyone will do when building a PC — and trying to boot up. If you tried to use your AMD, Nvidia, or Intel GPU, you’re likely to run into this problem. Luckily, there’s a temporary fix.</p>
+
+
+
+<h3 id="h-our-workaround">Our Workaround</h3>
+
+
+
+<p>If you’re installing one of these new Intel Core Ultra CPUs with integrated graphics, follow these steps to avoid the headaches I encountered:</p>
+
+
+
+<ol>
+<li>Connect your monitor to the motherboard’s integrated graphics first.</li>
+
+
+
+<li>Download and install all necessary drivers from the manufacturer’s website, as Windows updates won’t help just yet.</li>
+
+
+
+<li>Turn off the PC, disconnect from the integrated graphics, and connect your discrete GPU.</li>
+
+
+
+<li>Boot into Bios</li>
+
+
+
+<li>Disable integrated graphics in the BIOS to avoid conflicts.</li>
+</ol>
+
+
+
+<p>These steps worked for me, but the process feels cumbersome, especially for anyone spending a premium on early adoption. I was told fixes are on the way, but for now, installation may be more frustrating than it’s worth.</p>
+
+
+
+<h2 id="h-everyday-performance-quiet-cool-and-efficient">Everyday Performance: Quiet, Cool, and Efficient</h2>
+
+
+
+<p>Once set up, the Core Ultra 9 285K impresses with its efficiency and thermal management. Power consumption remains low during everyday tasks, and temperatures stay well within safe limits.</p>
+
+
+
+<ul>
+<li>Average power usage during light tasks: 45 to 55 watts (W)</li>
+
+
+
+<li>Maximum power during heavy benchmarking: 145W</li>
+
+
+
+<li>Typical temperatures: between 43°C and 50°C</li>
+
+
+
+<li>Peak temperature during stress tests: 87°C</li>
+</ul>
+
+
+
+<p>When looking back at <a href="https://insider-gaming.com/intel-i9-14900k-cpu-review/" target="_blank" rel="noreferrer noopener">the Intel Core i9 14900K</a>, you can see just how big of a drop that is. The 14900K saw temperatures that maxed at 108°C and a max wattage of 304W when in the heaviest use. That saw drops of 52% in max power consumption and 19.4% in max temperature. And that comes with no change in the cooling or case being used from the last review.</p>
+
+
+
+<p>This chip offers excellent stability for daily use, making it a great option for users who value quiet operation and energy efficiency.</p>
+
+
+
+<h2 id="h-gaming-performance-a-step-to-the-side">Gaming Performance: A Step to the Side</h2>
+
+
+
+<p>In gaming, the Core Ultra 9 285K offers performance comparable to Intel’s previous generations. While games run smoothly and look good, there’s no significant improvement over recent chips like the 13th or 14th-gen models.</p>
+
+
+
+<ul>
+<li>Games performed well without relying on upscaling technologies like DLSS or FSR.</li>
+
+
+
+<li>Power and temperatures remained low during gaming sessions, even under extended play.</li>
+</ul>
+
+
+
+<p>However, gamers with recent hardware won’t see major gains by upgrading to the 285K. Games like Cyberpunk 2077 and F1 23 had solid performances, but nothing stood out after regular play time. </p>
+
+
+
+<figure></figure>
+
+
+
+<h2 id="h-productivity-performance-a-strong-contender">Productivity Performance: A Strong Contender</h2>
+
+
+
+<p>For productivity tasks, the Core Ultra 9 285K shines. It handles video rendering and 3D modeling efficiently, with stable performance across various benchmarks.</p>
+
+
+
+<ul>
+<li>DaVinci Resolve rendering times:
+<ul>
+<li>1080p60: 1 minute 53 seconds</li>
+
+
+
+<li>1440p60: 3 minutes 16 seconds</li>
+
+
+
+<li>4K60: 6 minutes 9 seconds</li>
+</ul>
+</li>
+
+
+
+<li>Blender rendering saw power usage peak at 132 watts, but most tasks kept it under 90 watts.</li>
+</ul>
+
+
+
+<p>This level of performance makes the 285K ideal for content creators who need reliable rendering power without excessive heat or energy consumption. </p>
+
+
+
+<figure><table><thead><tr><th><strong>Benchmark</strong></th><th><strong>Results</strong></th></tr></thead><tbody><tr><td>Blender</td><td>6:33 Render Time</td></tr><tr><td>7-Zip Compression</td><td>166,784 MIPS</td></tr><tr><td>Geekbench 6 Multi-Core</td><td>19930</td></tr><tr><td>Geekbench 6 Single-Core</td><td>2658</td></tr><tr><td>Cinebench 2024 Multi-Core</td><td>2282</td></tr><tr><td>Cinebench 2024 Single-Core</td><td>131</td></tr><tr><td>CPU Profile (3D Mark)</td><td>17,579</td></tr></tbody></table></figure>
+
+
+
+<h2 id="h-is-the-core-ultra-9-285k-worth-it">Is the Core Ultra 9 285K Worth It?</h2>
+
+
+
+<p>The Core Ultra 9 285K brings meaningful improvements in efficiency, but it feels like the starting point for Intel’s next chapter rather than a revolutionary leap forward. Here’s our take on who should consider it and who might be better off waiting.</p>
+
+
+
+<h3 id="h-who-should-buy-it">Who Should Buy It?</h3>
+
+
+
+<ul>
+<li>Users upgrading from older systems (5+ years) looking for better efficiency and future-proofing</li>
+
+
+
+<li>Content creators and professionals focused on video editing, 3D rendering, or other CPU-heavy tasks</li>
+
+
+
+<li>Energy-conscious users who prioritize quiet, efficient setups</li>
+</ul>
+
+
+
+<h3 id="h-who-should-wait">Who Should Wait?</h3>
+
+
+
+<ul>
+<li>Gamers with recent Intel or AMD hardware, as performance gains are minimal</li>
+
+
+
+<li>Those interested in AMD’s upcoming Ryzen 7 9800X3D, which may offer better value</li>
+
+
+
+<li>Budget-conscious upgraders waiting for 14th-gen Intel CPUs to drop in price</li>
+</ul>
+
+
+
+<h2 id="h-final-thoughts-a-glimpse-of-the-future-with-a-few-hiccups">Final Thoughts: A Glimpse of the Future with a Few Hiccups</h2>
+
+
+
+<p>The Intel Core Ultra 9 285K is a solid introduction to Intel’s next era, offering improved efficiency and stable performance. However, the installation issues and lack of noticeable gaming gains make it hard to recommend to everyone.</p>
+
+
+
+<p>If you’re overdue for an upgrade or need reliable productivity performance, the 285K could be a good choice. But for gamers or those already using recent hardware, it’s worth waiting for better stability, more driver support, and potential price drops. </p>
+
+
+
+<p>This chip lays the foundation for Intel’s future, but it’s not yet the must-have upgrade many were hoping for. Early adopters should expect some challenges, but the long-term potential is promising.</p>
+
+
+
+<hr>
+
+
+
+<p><em><strong>NOTE</strong>: When you purchase through links on our site, we may earn an affiliate commission to help support our continued independent journalism.</em></p>
+    <div id="ig-newsletter-holder">
+            <p><span>
+                    Subscribe to our newsletter to receive the latest news and exclusive leaks every week! No Spam.
+                </span>
+            </p>
+            
+        </div>
+
+	</div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[SAG-AFTRA Signs Deal With AI Company Ethovox]]></title>
             <link>https://insider-gaming.com/sag-aftra-signs-deal-with-ai-company-ethovox/</link>
