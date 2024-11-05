@@ -4,9 +4,70 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Tue, 05 Nov 2024 11:19:09 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 05 Nov 2024 11:28:12 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Elden Ring Gets Free AMD FSR 3 Frame Generation Mod]]></title>
+            <link>https://wccftech.com/elden-ring-gets-free-amd-fsr-3-frame-generation-mod/</link>
+            <guid>https://www.resetera.com/threads/elden-ring-gets-free-amd-fsr-3-frame-generation-mod.1027698/</guid>
+            <content:encoded><![CDATA[https://wccftech.com/elden-ring-gets-free-amd-fsr-3-frame-generation-mod/<br/><br/><div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>It's been a year and a half since PureDark <a href="https://wccftech.com/dlss-3-mod-for-elden-ring-is-out-now-delivering-substantial-performance-increase/" target="_blank" rel="noopener">released</a> his Elden Ring NVIDIA DLSS 3 Frame Generation mod. The paid mod allowed GeForce RTX 40 Series owners a significant performance boost in the notoriously badly optimized game developed by FromSoftware.</p>
+<p>However, everyone else without an RTX 40 Series GPU has been out of luck so far. That changes with the recently released free <a href="https://www.nexusmods.com/eldenring/mods/6794?tab=description" target="_blank" rel="noopener">AMD FSR Frame Generation and Temporal Super Resolution (ERSS-FG) mod</a> by Nexus Mods user huutaiii.</p>
+<p>This mod supports AMD FSR 3 Super Resolution and Frame Generation, NVIDIA DLSS Super Resolution and DLAA, and even Intel XeSS. The modder shared a few caveats: this is mutually exclusive with their previous ERSS2 mod (which did not support Frame Generation); the Frame Generation feature is not compatible with ReShade; and, most importantly, you can't play online on official servers with this mod enabled.</p>
+
+<figure></figure>
+
+<p>Here's the recommended installation method for this Elden Ring AMD FSR 3 mod:</p>
+<ul>
+<li><em>Extract the attached file's content into the ELDEN RING\Game\ directory (including ERSS-FG.dll, dxgi.dll and the folder ERSS2; the file ERSSReShadeStub.addon can be removed).</em></li>
+<li><em>Disable Easy Anti-Cheat, either by putting cmd /c start eldenring.exe &amp; rem %command% in launch options in Steam or by using some other tool.</em></li>
+<li><em>For Steam Deck (Linux) users: cmd=(%command%); cmd[-1]="eldenring.exe"; WINEDLLOVERRIDES="dinput8=n,b;dxgi=n,b" "${cmd[@]}"</em></li>
+<li><em>Set Resolution in the game's Graphics menu to <span>.</span>r target resolution (i.e. your monitor's resolution)</em></li>
+<li><em>Open the mod's configuration overlay with the Home key, set Frame Generation method to AMD FSR then restart, and set Super Sampling setting to the upscaling technology of your choice</em></li>
+</ul>
+<p>There are several known issues with the current release of this Elden Ring AMD FSR 3 mod, though:</p>
+<ul>
+<li><em>Flickering global illumination, most visible in shaded areas</em><br>
+<em><strong>Workarounds</strong>:</em>
+<ul>
+<li><em>Restarting the game may make it go away temporarily</em></li>
+<li><em>Using the GI Glitch Mitigation options in Advanced Settings -&gt; Frame Generation (which may reduce frame rate slightly depending on which option you select)</em></li>
+<li><em>Rolling back NVIDIA GPU drivers to version 552.12</em></li>
+<li><em>Using DXVK + VKD3D (doesn't support DLSS on Windows)</em></li>
+<li><em>Setting Global Illumination to Low can reduce the intensity</em></li>
+<li><em>Some reported that turning on Ray tracing can make the issue go away.</em></li>
+</ul>
+</li>
+<li><em>Game UI color is slightly off &amp; requires manual configuration in HDR</em></li>
+<li><em>There may be some glitches on non-16:9 resolutions outside of the main 16:9 screen area</em></li>
+<li><em>Conflicts with other overlay mods (using standalone installation method)</em></li>
+<li><em>Cannot be loaded by adding to Special K plug-ins. It can run alongside SK with the included DXGI.dll loader albeit with some issues</em></li>
+<li><em>FSR FG + Special K: if Elden Ring's screen mode is set to Full-screen, the game will constantly try to reset it's output swap chain causing flashes</em></li>
+<li><em>The Special K overlay is invisible</em></li>
+</ul>
+<p>Even with these caveats and issues, this might still be useful for those who have been waiting for the right time to dive back into Elden Ring and play the <a href="https://wccftech.com/review/elden-ring-shadow-of-the-erdtree-worthy-of-the-greater-wills-blessing/" target="_blank" rel="noopener">Shadow of the Erdtree expansion</a>.</p>
+
+				
+
+			
+	<div>
+		<h2>Products mentioned in this post</h2>
+		
+		<!--<p class="story-notice text-center">The links above are affiliate links. As an Amazon Associate, Wccftech.com may earn from qualifying purchases.</p>-->
+	</div>
+
+			
+			
+
+		</div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Call of Duty: Black Ops 6 Witnesses 52% Of Total US Xbox Players Checking It Out, a New Record]]></title>
             <link>https://wccftech.com/call-of-duty-black-ops-6-witnesses-52-of-total-us-xbox-players-checking-it-out-a-new-record/</link>
@@ -144,33 +205,6 @@ strive to invigorate the platform by continually introducing new titles in addit
 <figure><a href="https://cdn.wccftech.com/wp-content/uploads/2024/10/20241031122458_1-scaled.jpg"></a></figure>
 
 <p>If you want to make dealing with humans armed to the teeth in Slitterhead even easier, you should have one of your Rarities learn the Possession Rush passive skill. This skill, which is always active as long as a Rarity who has learned it is present, allows any possessed character, whether it's a Rarity or a Civilian, to unleash a powerful attack after being possessed by Hyoki as long as the enemy is in front of the camera. By hopping from one character to the next, you can easily deal with multiple enemies easily as long as you handle the camera properly. This is an excellent strategy to deal with S.P.E.U. members armed with shields. Possess an NPC located behind their backs, unleash the Possession Rush skill, and watch them fall dead.</p>
-
-				
-
-						
-			
-
-		</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Kingdom Come Deliverance 2 Sets Dev Stream for Tomorrow; First Game Reaches 8 Million Sales]]></title>
-            <link>https://wccftech.com/kingdom-come-deliverance-2-sets-dev-stream-for-tomorrow-first-game-reaches-8-million-sales/</link>
-            <guid>https://www.resetera.com/threads/kingdom-come-deliverance-2-sets-dev-stream-for-tomorrow-first-game-reaches-8-million-sales.1027443/</guid>
-            <content:encoded><![CDATA[https://wccftech.com/kingdom-come-deliverance-2-sets-dev-stream-for-tomorrow-first-game-reaches-8-million-sales/<br/><br/><div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			<p>Today, Warhorse Studios announced that the first Kingdom Come Deliverance 2 developer stream will air tomorrow at 17:00 GMT / 18:00 CET <a href="http://twitch.tv/warhorsestudios" target="_blank" rel="noopener">on Twitch</a> from Kuttenberg, one of the two main cities featured in the game. During the stream, the developers will hold a special live Q&amp;A session, during which they will reveal more information about the upcoming game.</p>
-<p>Moreover, the studio has announced a four-part live-action video series starring Tom McKay and Luke Dale, who play Henry of Skalitz (the main character) and his noble friend Hans Capon. The debut episode set in Kutná Hora will go live on Thursday, November 7, at 17:00 GMT / 18:00 CET on the developer's <a href="http://youtube.com/warhorsestudios" target="_blank" rel="noopener">YouTube channel</a>.</p>
-<p>Kingdom Come Deliverance 2 is now set to launch on February 11, 2025. When the game was first unveiled earlier this year, the goal was to release it before the end of 2024. However, a short delay was <a href="https://wccftech.com/kingdom-come-deliverance-2-delay/" target="_blank" rel="noopener">announced</a> at Gamescom 2024. That's where we had the chance to <a href="https://wccftech.com/kingdom-come-deliverance-2-qa-half-of-the-voiced-lines-arent-related-to-the-story-at-all/" target="_blank" rel="noopener">interview</a> Warhorse Executive Producer Martin Klima, who was all too happy to dive into the game's features for our readers.</p>
-<p>By the way, Warhorse also announced today a major milestone for the first installment. It was only this February that Kingdom Come Deliverance <a href="https://wccftech.com/kingdom-come-deliverance-passes-6-million-sales-on-its-6th-anniversary/" target="_blank" rel="noopener">reached</a> six million units sold on its sixth anniversary; nine months later, it has surpassed 8 million units. It's likely due to major discounts ahead of the sequel, but it's still an impressive accomplishment.</p>
-<p>Speaking of Kingdom Come Deliverance 2, the developers published a blog post <a href="https://store.steampowered.com/news/app/1771300/view/4514388158400430393" target="_blank" rel="noopener">on Steam</a> where Senior Game Designer Ondřej Bittner talked about the inner workings of survival in the game.</p>
-<p><em>The game has survival elements to it because you have to eat and you have to sleep. But that’s for the immersion. It's not hard to be rested and well fed and so on. The food spoils over time, so if you’re going somewhere far away it’s good to have dried fruit or dried meat jerky because it lasts longer. You can be vulnerable when you’re asleep. You can be robbed, or you can be attacked, depending on the circumstances. We even have it in the executioner’s historical records that someone might rob a house, get drunk, and then pass out on the bed - the perfect crime…</em></p>
-<p><em>But generally, if you’re found somewhere you’re not supposed to be, you’ll be woken up. Or if someone’s looking for you because you did something wrong and they find you asleep, they’ll wake you up. You’ll need to pay your fine, or you’ll be arrested, whipped, or whatever.</em></p>
-<p>Overall, the design philosophy is said to differ from the average game. Rather than asking players to focus on tasks, Kingdom Come Deliverance 2 will encourage players to pay attention to their surroundings.</p>
 
 				
 
