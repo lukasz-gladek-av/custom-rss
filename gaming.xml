@@ -4,16 +4,242 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Fri, 08 Nov 2024 14:18:59 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 08 Nov 2024 14:31:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[PS5 Pro Is a Smaller Leap Than PS4 Pro, Says Dev; PSSR Is Better Than AMD FSR, on Par with DLSS/XeSS]]></title>
+            <link>https://wccftech.com/ps5-pro-is-a-smaller-leap-than-ps4-pro-says-dev-pssr-is-better-than-amd-fsr-on-par-with-dlss-xess/</link>
+            <guid>https://www.resetera.com/threads/ps5-pro-is-a-smaller-leap-than-ps4-pro-says-dev-pssr-is-better-than-amd-fsr-on-par-with-dlss-xess.1030872/</guid>
+            <content:encoded><![CDATA[https://wccftech.com/ps5-pro-is-a-smaller-leap-than-ps4-pro-says-dev-pssr-is-better-than-amd-fsr-on-par-with-dlss-xess/<br/><br/><div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>Gaijin Entertainment has not one but two games enhanced for <a href="https://wccftech.com/review/playstation-5-pro-hardware-the-next-gen-graphics-upgrade/" target="_blank" rel="noopener">Sony's newly released PS5 Pro console</a> at launch: the first-person tactical multiplayer WWII shooter <a href="https://wccftech.com/military-online-shooter-enlisted-open-beta-is-now-available-on-pc-and-consoles/" target="_blank" rel="noopener">Enlisted</a>, originally released in 2020, and the vehicle combat multiplayer game <a href="https://wccftech.com/cross-play-between-pc-ps4-xb1-is-finally-out-in-war-thunder-after-over-a-year-of-talks-with-sony/" target="_blank" rel="noopener">War Thunder</a>, which has been continuously updated since 2013.</p>
+<p>To learn how both games have been improved to leverage the most powerful console hardware currently on the market, we interviewed Gergo Horvath, a Graphics Programmer on Gaijin's proprietary Dagor Engine for over four years. Horvath admitted that the PlayStation 5 Pro's improvement over the PS5 is smaller than that seen in the previous generation between PS4 Pro and PS4, but he believes the console achieves its goal anyway, mainly thanks to PSSR, which he reckons is superior to AMD FSR and on the same level of NVIDIA DLSS and Intel XeSS.</p>
+<p>Keep scrolling to read the full Q&amp;A.</p>
+<p><iframe title="Enlisted — PS5 Pro Enhanced" width="500" height="281" src="https://www.youtube.com/embed/ob08o1dN_PE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+<p><strong>What do you think of the PS5 Pro's hardware? What's the single feature you were most impressed with?</strong></p>
+<p>While the ~45% faster rendering is impressive alone, the real game changer, in my opinion, is the addition of the Machine Learning Architecture that made PSSR possible. By being able to render in lower resolutions and yet get the same visual fidelity we can free up a tremendous amount of resources. This tech will be especially useful when paired with ray tracing.</p>
+<p><strong>Compared to the jump between PS4 Pro and PS4, would you say the PS5 Pro-PS5 difference is similar or reduced (e.g., the advancement is more or less significant)?</strong></p>
+<p>I’d say the difference between the PS5 Pro and the PS5 is less substantial compared to the difference between the last-gen console and its Pro counterpart. In the PS5 Pro, we have little to no change in CPU performance, and while the GPU got a nice boost, the difference is much less significant: the PS4 Pro had more than doubled the nominal power of its predecessor's GPU (in terms of TFLOPS). With that being said, back then, the goal was to achieve 4K gaming. This time, it looks like the main focus was on providing substantially better ray tracing. Goal achieved in both cases.</p>
+<p><strong>How much of an improvement is there between the PS5 and PS5 Pro versions of the game? Can you share specific details on the target resolution and frame rate and whether there will be multiple modes to choose from?</strong></p>
+<p>For the PS5 Pro’s release of Enlisted, we have switched from a fixed resolution to using dynamic resolution together with upscaling techniques for both the Base and the Pro version of the console to make sure we have a stable frame rate at all times while the internal rendering resolution is automatically adjusted. This made 4K@120FPS gaming possible for PS5 Pro players. On the PS5 Pro, this will mean higher rendering resolution, which will lead to more detail rich and sharper visuals. With the faster memory, we could use higher resolution textures and better looking global illumination, which together enhance details even further.</p>
+<p>Upscaling from the internal rendering resolution to the display’s resolution is taken care of by our own TAAU implementation for Base PS5, but we are using PSSR for the Pro version. PSSR, of course, does a better job. For the PS5 Pro’s release of War Thunder we’ll offer the opportunity to play the game at 4K@120FPS resolution from day one. More visual updates will follow with the next major update release in a week, and even more are under development.</p>
+<p><strong>Are you using PSSR? What do you think about it compared to other upscalers like NVIDIA DLSS, AMD FSR, and Intel XeSS?</strong></p>
+<p>We’re currently using it in Enlisted. During development and playtesting, we’ve found PSSR to be on par with NVIDIA DLSS and Intel XeSS, the other two ML based super resolution methods. While in my opinion PSSR produces less blur, ghosting, and unwanted flicker compared to AMD FSR. These technologies are constantly improving, so I find it impressive that the first version of PSSR is already head-to-head with other more mature solutions.</p>
+<p><strong>How does the PS5 Pro version stack with the maxed-out PC game? Will the PS5 Pro version feature the highest graphics settings available on PC?</strong></p>
+<p>Let’s say we are about 75% to being maxed-out for Enlisted. We’ll give our estimate for War Thunder later when we’ll have all our visual updates implemented.</p>
+<p><strong>The big controversy about Sony's new console is pricing. Based on the hardware, do you believe it to be fair or excessive?</strong></p>
+<p>It’s always up to the gamers to decide whether the console pricing is up to their expectations or not. Calculating a “fair price” by assessing hardware alone does not make much sense, as gamers usually make their decision based on new experiences offered by a device, and not based on the hardware alone.</p>
+<p><strong>Thank you for your time.</strong></p>
+
+				
+
+						
+			
+
+		</div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Genshin Impact Version 5.2 Release Date and New Content Revealed]]></title>
+            <link>https://techraptor.net/gaming/news/genshin-impact-version-52-release-date</link>
+            <guid>https://www.resetera.com/threads/genshin-impact-version-5-2-release-date-and-new-content-revealed.1030869/</guid>
+            <content:encoded><![CDATA[https://techraptor.net/gaming/news/genshin-impact-version-52-release-date<br/><br/><div id="readability-page-1" class="page"><div><p>HoYoverse has announced the&nbsp;<em>Genshin Impact&nbsp;</em>Version 5.2 release date, as well as what new characters and features you can expect when the update arrives.</p>
+
+<p>Following on from <a href="https://techraptor.net/gaming/news/genshin-impact-version-51-release-date">last month's Version 5.1</a>,&nbsp;<em>Genshin Impact&nbsp;</em>Version 5.2 officially arrives on November 20th, alongside the long-awaited Xbox Series X|S version of the game. There's still no word on when - or, at this point, whether - the game will be appearing on Switch, however.</p>
+
+<p>In any case, Version 5.2 will introduce two new Saurians to get to grips with: Qucusaurs and Iktomisaurs. They'll help you to reach new areas, find hidden treasure, and even engage enemies in combat, and they'll be introduced alongside two new Natlan clans, the Flower-Feather Clan and the Masters of the Night Wind.</p>
+<figure role="group"><picture><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/genshin-impact-version-5.2-release-date-iktomisaur.jpg?itok=BM4koSco 1x" media="(min-width: 992px)" type="image/jpeg"><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/genshin-impact-version-5.2-release-date-iktomisaur.jpg?itok=2_tjJBUa 1x" media="(max-width: 991px)" type="image/jpeg"></picture><figcaption>Adorable new Saurians are waiting for you to discover them when&nbsp;<em>Genshin Impact&nbsp;</em>Version 5.2 arrives later this month.</figcaption></figure><p>As you've probably guessed, this update's two new characters each hail from one of the above clans. Chasca, the Peacemaker of the Flower-Feather Clan, is a five-star Anemo bow user who can "float and attack mid-air".</p>
+
+<p>She's joined by Ororon, a four-star bow user who wields the Electro element. He can deal damage, taunt enemies, and even boost your team's gliding speed, making him invaluable in exploration as well as combat.</p>
+
+<p>Both characters will debut as part of the first half of Version 5.2's Event Wishes, alongside a rerun of <a href="https://techraptor.net/gaming/news/genshin-impact-celebrates-version-40-release-with-lyneys-gameplay-trailer">Lyney</a>. In the second half of the update's cycle, you can expect reruns of <a href="https://techraptor.net/gaming/news/zhongli-conducts-in-lovely-genshin-impact-anime-style-trailer-teasing-upcoming-concert">Zhongli</a> and <a href="https://techraptor.net/gaming/news/genshin-impact-reveals-handsome-new-characters-neuvillette-wriothesley">Neuvillette</a>.</p>
+
+<p>Naturally, you can also look forward to new story quests, a brand new boss to take on, and "an array of quality-of-life updates" to make your&nbsp;<em>Genshin Impact&nbsp;</em>gameplay experience smoother.</p>
+
+
+
+
+<p>Don't worry; I haven't forgotten today's codes, either. Here's what you need to input to get some free stuff following today's&nbsp;<em>Genshin Impact&nbsp;</em>Special Program.</p>
+
+<ul><li>100 Primogems, 10 Mystic Enhancement Ore:&nbsp;6ALMWAVKLK35</li>
+	<li>100 Primogems, 5 Hero's Wit:&nbsp;7TLMXSD243JR</li>
+	<li>100 Primogems, 50,000 Mora:&nbsp;JS45ETDJLKMD</li>
+</ul><p><em>Genshin Impact&nbsp;</em>is available for free right now on <a href="https://genshin.hoyoverse.com/" rel="noopener" target="_blank">PC, PlayStation, and mobile devices</a>. The game, along with its 5.2 update, will be heading to <a href="https://www.xbox.com/en-US/games/store/genshin-impact/9N7TFFRRZCC9/0010" rel="noopener" target="_blank">Xbox Series X|S</a> on November 20th.</p>
+</div><div><p><span><div>
+       
+    <p>Joe has been writing for TechRaptor for several years, and in those years has learned a lot about the gaming industry and its foibles. He’s originally an… <a href="https://techraptor.net/author/joseph-allen">More about Joseph</a></p>
+  </div></span></p></div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Humankind Developer Amplitude Studios Splits from Sega and Goes Indie]]></title>
+            <link>https://techraptor.net/gaming/news/amplitude-studios-sega-split-indie</link>
+            <guid>https://www.resetera.com/threads/humankind-developer-amplitude-studios-splits-from-sega-and-goes-indie.1030866/</guid>
+            <content:encoded><![CDATA[https://techraptor.net/gaming/news/amplitude-studios-sega-split-indie<br/><br/><div id="readability-page-1" class="page"><div><p><em>Humankind&nbsp;</em>and&nbsp;<em>Endless Dungeon&nbsp;</em>developer Amplitude Studios has announced that it's split from Sega and gone independent, with the studio describing the move as a return to its "roots".</p>
+
+<p>In&nbsp;<a href="https://store.steampowered.com/news/app/1124300/view/4465975096247320950" rel="noopener" target="_blank">a post on Steam</a>&nbsp;(which can be seen across all of Amplitude's games on the platform), Amplitude says its journey with Sega "has been amazing", but that ownership of the studio has returned "to some of our original founders and members of the team".</p>
+
+<p>According to Amplitude, its parting with Sega happened on "good terms", and the studio remains committed to "working closely with our players", which it says is still very much at the "heart of our philosophy".</p>
+<figure role="group"><picture><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/amplitude-studios-sega-split-endless-legend.jpg?itok=q48AdpjT 1x" media="(min-width: 992px)" type="image/jpeg"><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/amplitude-studios-sega-split-endless-legend.jpg?itok=ZeWbq08T 1x" media="(max-width: 991px)" type="image/jpeg"></picture><figcaption><em>Endless Legend&nbsp;</em>developer Amplitude Studios has said goodbye to its former owner Sega.</figcaption></figure><p>In the aforementioned Steam post, Amplitude founder Romain de Waubert de Genlis says the studio currently has two projects in development, describing them as "exciting", although he doesn't elaborate on what they might be.</p>
+
+<p>He also says Amplitude is "backed by strong and meaningful franchises", and that the decision to go independent allows the studio to "be more agile in our approach".</p>
+
+<p>Amplitude Studios was first founded back in 2011, with ex-Ubisoft staffers de Waubert de Genlis and Mathieu Girard setting up the company. The first game released by Amplitude was 2012's&nbsp;<em>Endless Space</em>, which kicked off the&nbsp;<em>Endless&nbsp;</em>series of strategy-focused games.</p>
+
+<p>Said series continued with 2014's turn-based 4X game&nbsp;<em>Endless Legend</em>&nbsp;and tower defense roguelike&nbsp;<em>Dungeon of the Endless</em>, which was released in the same year. Following these releases, Sega snapped up Amplitude in 2016.</p>
+<figure role="group"><picture><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/amplitude-studios-sega-split-dungeon-of-the-endless.jpg?itok=WdVRWsbJ 1x" media="(min-width: 992px)" type="image/jpeg"><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/amplitude-studios-sega-split-dungeon-of-the-endless.jpg?itok=h_pO6JOy 1x" media="(max-width: 991px)" type="image/jpeg"></picture><figcaption>Amplitude Studios is working on two new games, although we don't know what they are yet.</figcaption></figure><p>Amplitude's first game under Sega's wing was 2017's&nbsp;<em>Endless Space 2</em>, a followup to the developer's debut game, and that was followed up by an experimental visual novel,&nbsp;<em>Love Thyself - A Horatio Story</em>, which is again set in the&nbsp;<em>Endless&nbsp;</em>universe.</p>
+
+<p>It wouldn't take long for Amplitude to return to strategy development, though, with 2021's&nbsp;<em><a href="https://techraptor.net/games/humankind">Humankind</a>&nbsp;</em>(not to be confused with&nbsp;<a href="https://techraptor.net/games/ancestors-humankind-odyssey"><em>Ancestors: The Humankind Odyssey</em></a>) attempting to rival&nbsp;<em>Civilization&nbsp;</em>in terms of scope and system complexity.</p>
+
+<p>The studio's most recent project is&nbsp;<em>Endless Dungeon</em>, a successor to-come-reimagining of <i>Dungeon of the Endless&nbsp;</i>that features a new 3D art style and plenty of additional mechanics to wrap your brain around.</p>
+</div><div><p><span><div>
+       
+    <p>Joe has been writing for TechRaptor for several years, and in those years has learned a lot about the gaming industry and its foibles. He’s originally an… <a href="https://techraptor.net/author/joseph-allen">More about Joseph</a></p>
+  </div></span></p></div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[The PS5 Pro made us sit closer to the screen]]></title>
+            <link>https://www.theverge.com/2024/11/8/24291250/apple-mac-mini-macbook-pro-ps5-pro-vergecast</link>
+            <guid>https://www.resetera.com/threads/the-ps5-pro-made-us-sit-closer-to-the-screen.1030863/</guid>
+            <content:encoded><![CDATA[https://www.theverge.com/2024/11/8/24291250/apple-mac-mini-macbook-pro-ps5-pro-vergecast<br/><br/><div id="readability-page-1" class="page"><div><p>Think about how you like to play video games. Are you the type to sink into your couch, controller in hand, TV across the living room, for a few hours of <em>Madden? </em>If so, <a href="https://www.theverge.com/reviews/24289319/ps5-pro-review">Sony’s new PlayStation 5 Pro is not for you</a>. But if you find yourself leaning forward, creeping ever closer to the screen, looking for every clue hidden in the grass or every tiny twitchy graphical advantage, a $700 console might not be such a silly idea.</p><p>On <a href="https://link.chtbl.com/vergecast">this episode of <em>The Vergecast</em></a>,<em> The Verge</em>’s <a href="https://www.theverge.com/authors/sean-hollister">Sean Hollister</a> joins the show to talk about his experience with the PS5 Pro. We go through what you can expect from this super-powered new gaming machine, which games and which gamers might get the most from it, and why the PS5 Pro might have more in common with a gaming PC than a standard console.</p><p>But before we get to that, there’s some news this week to talk about. After a hotly contested election, and looking ahead to <a href="https://www.theverge.com/2024/11/6/24287838/donald-trump-wins-2024-presidential-election">the upcoming Trump presidency</a>, we spend a few minutes talking through <a href="https://www.theverge.com/2024/11/6/24289649/big-tech-leaders-donald-trump-presidential-election">our plans to cover</a> the new administration — and how we’re thinking differently than we did in 2016. Once we’re done with that, we talk about our reviews of the new <a href="https://www.theverge.com/24289730/apple-mac-mini-m4-review">Mac Mini</a> and <a href="https://www.theverge.com/24289831/apple-macbook-pro-m4-review-14-2024-laptop-specs-benchmarks">MacBook Pro</a>, and the way they seem to nicely simplify the process of buying a Mac. For the first time in a long time, the lineup makes a lot of sense.</p><p>Then it’s gaming time. In addition to the PS5 Pro, Sean talks us through the news that Nintendo’s next console <a href="https://www.theverge.com/2024/11/6/24289674/nintendo-switch-2-next-generation-backward-compatibility">will be backwards compatible</a> with Switch games, but cautions that the announcement isn’t necessarily unequivocally good news. Then he gives us an update on <a href="https://www.theverge.com/games/24272743/nintendo-retro-game-corps-russ-crandall-profile-youtube-emulation-dmca-takedown-copyright-strike">Nintendo’s fight against emulators</a>, which has taken a bit of a confusing turn.</p><p>Finally, in the lightning round, we talk about <a href="https://www.theverge.com/2024/11/6/24289768/openai-chat-chatgpt-sam-altman-hubspot">the ultra-expensive new domain name</a> for ChatGPT, and why .coms are still so important. We also talk about <a href="https://www.theverge.com/2024/11/7/24289443/nvidia-geforce-now-monthly-playtime-caps-performance-membership-1440p">the new cap</a> on Nvidia’s GeForce Now cloud gaming service, and the good and bad news <a href="https://www.theverge.com/2024/11/7/24289972/matter-smart-home-standard-1-4-spec-new-features-device-types">in the Matter 1.4 standard</a>. Matter: it’ll be great next year. Every year. Forever.</p><p>If you want to know more about everything we discuss in this episode, here are some links to get you started, beginning with Apple and gadget news:</p><p>And in gaming news:</p><p>And in the lightning round:</p></div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Palworld Developer Reveals The Pokémon Patents Nintendo Claims It's Violating]]></title>
+            <link>https://kotaku.com/nintendo-pokemon-palworld-patents-lawsuit-pocketpair-1851692965</link>
+            <guid>https://www.resetera.com/threads/palworld-developer-reveals-the-pok%C3%A9mon-patents-nintendo-claims-its-violating.1030857/</guid>
+            <content:encoded><![CDATA[https://kotaku.com/nintendo-pokemon-palworld-patents-lawsuit-pocketpair-1851692965<br/><br/><div id="readability-page-1" class="page"><div><p>The reason patent attorneys get paid so much money is that no one in their right mind would ever want to be a patent attorney. Thus, we can all nod and smile as if we understand as <em>Palworld</em> developers Pocketpair <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://www.pocketpair.jp/news/20241108&quot;,{&quot;metric25&quot;:1}]]" href="https://www.pocketpair.jp/news/20241108" target="_blank" rel="noopener noreferrer">releases a statement</a></span> about precisely which patents Nintendo is claiming the <em>Pokémon</em>-alike game is violating.</p><div><h4>Suggested Reading</h4></div><div data-video-id="196165" data-monetizable="true" data-position="sidebar" data-video-title="What’s Coming Out Beyond Pokémon: The Indigo Disk | The Week In Games" data-video-blog-id="9" data-video-network="kotaku" data-video-duration="95" data-playlist="196165,192873,196663" data-current="196165"><div><p>What’s Coming Out Beyond Pokémon: The Indigo Disk | The Week In Games</p></div><video disablepictureinpicture="" muted="" playsinline="" width="100%" height="100%" crossorigin="anonymous" preload="none"><source data-src="https://vid.kinja.com/prod/196165/196165_240p.mp4" label="240p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/196165/196165_480p.mp4" label="480p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/196165/196165_720p.mp4" label="720p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/196165/196165_1080p.mp4" label="1080p" type="video/mp4"><track kind="captions" label="English" src="https://kinja.com/api/videoupload/caption/21711.vtt" srclang="en"></video><div><ul><li data-label="">Off</li><li data-label="English">English</li></ul></div></div><div><h4>Suggested Reading</h4></div><p>The statement also includes details on the damages Nintendo is seeking, for what it’s claiming is a violation of it intellectual property. The company wants 10 million yen to be equally split between Nintendo Co., Ltd., and The Pokémon Company. That works out to just under $33,000 each.</p><p><strong>Read More:</strong> <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://kotaku.com/pokemon-nintendo-palworld-pocketpair-lawsuit-patent-1851652489&quot;,{&quot;metric25&quot;:1}]]" href="https://kotaku.com/pokemon-nintendo-palworld-pocketpair-lawsuit-patent-1851652489">The Internet Reacts To <em>Pokémon</em> Suing <em>Palworld</em></a></span></p><p><span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://kotaku.com/nintendo-pokemon-palworld-lawsuit-pocketpair-patent-1851654149&quot;,{&quot;metric25&quot;:1}]]" href="https://kotaku.com/nintendo-pokemon-palworld-lawsuit-pocketpair-patent-1851654149">We reported in September</a></span> that it was likely this would come to down to patents. What’s so peculiar here, other than the paltry damages sought, is that all three patents cited by Nintendo’s lawyers in the lawsuit, as revealed by Pocketpair, were registered between May and August of <em>this year</em>. <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://kotaku.com/tag/palworld&quot;,{&quot;metric25&quot;:1}]]" href="https://kotaku.com/tag/palworld"><em>Palworld</em></a></span> came out, <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://kotaku.com/pokemon-palworld-ai-art-copyright-law-pocketpair-1851186580&quot;,{&quot;metric25&quot;:1}]]" href="https://kotaku.com/pokemon-palworld-ai-art-copyright-law-pocketpair-1851186580">to rather enormous attention</a></span>, in January. So what’s going on?</p><p>“The Plaintiffs,” says Pocketpair, “claim that ‘<em>Palworld</em>,’ released by us on January 19, 2024, infringes upon the following three patents held by the Plaintiffs, and are seeking an injunction against the game and compensation for a portion of the damages incurred between the date of registration of the patents and the date of filing of this lawsuit.”</p><p>They then list them as follows:</p><blockquote data-type="BlockQuote"><p><strong>Patent No. 7545191</strong></p><p>[Patent application date: July 30, 2024]</p><p>[Patent registration date: August 27, 2024]</p><p><strong>Patent No. 7493117</strong></p><p>[Patent application date: February 26, 2024]</p><p>[Patent registration date: May 22, 2024]</p><p><strong>Patent No. 7528390</strong></p><p>[Patent application date: March 5, 2024]</p><p>[Patent registration date: July 26, 2024]</p></blockquote><p>Looking up those patents, <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://patents.google.com/patent/JP7545191B1/en&quot;,{&quot;metric25&quot;:1}]]" href="https://patents.google.com/patent/JP7545191B1/en" target="_blank" rel="noopener noreferrer">the first</a></span> alludes to a system where a player aims and fires an “item” toward a character in a field, and in doing so triggers combat, and then dives into extraordinary intricacies about switching between modes within this. <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://patents.google.com/patent/JP7493117B2/en?oq=7493117&quot;,{&quot;metric25&quot;:1}]]" href="https://patents.google.com/patent/JP7493117B2/en?oq=7493117" target="_blank" rel="noopener noreferrer">The second</a></span> is very similar, but seems more directly focused on tweaking previous patents to including being able to capture Pokémon in the wild, rather than only during battle. <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://patents.google.com/patent/JP7528390B2/en?oq=7528390&quot;,{&quot;metric25&quot;:1}]]" href="https://patents.google.com/patent/JP7528390B2/en?oq=7528390" target="_blank" rel="noopener noreferrer">The third</a></span>, rather wildly, seems to be trying to claim a modification to the invention of riding creatures in an open world and being able to transition between them easily.</p><p>All three patents are successful requests to modify previously established patents, each noticeably designed to match the newer features in more recent <em>Pokémon </em>games. Given the first games to feature these details—<em>Pokémon Legends: Arceus</em> and <em>Scarlet</em> and <em>Violet</em> came out in 2022—these might be thought of as belated changes. However, <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://automaton-media.com/en/news/whats-the-killer-patent-nintendo-is-suing-palworld-for-japanese-patent-attorney-offers-in-depth-analysis/&quot;,{&quot;metric25&quot;:1}]]" href="https://automaton-media.com/en/news/whats-the-killer-patent-nintendo-is-suing-palworld-for-japanese-patent-attorney-offers-in-depth-analysis/" target="_blank" rel="noopener noreferrer">according to one Japanese patent lawyer</a></span>, these changes would have been added in order to better frame the previously established inventions, rushed through in order the pursue the case.</p><p>Breaking news: patenting ideas is grotesque.</p><p>Pocketpair adds, “We will continue to assert our position in this case through future legal proceedings,” so show no signs of backing down in the face of the behemothic rival.</p><p>It’s obviously of some significant note that this <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://kotaku.com/palworld-pokemon-company-lawsuit-nintendo-pocketpair-1851652124&quot;,{&quot;metric25&quot;:1}]]" href="https://kotaku.com/palworld-pokemon-company-lawsuit-nintendo-pocketpair-1851652124">legal action was announced</a></span> just two months after Pocketpair <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://kotaku.com/palworld-merch-plush-pokemon-nintendo-pocketpair-1851584507&quot;,{&quot;metric25&quot;:1}]]" href="https://kotaku.com/palworld-merch-plush-pokemon-nintendo-pocketpair-1851584507">announced it had teamed up with Sony</a></span> to create a new company to merchandize the game’s Pals. The indie developer has always been <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://kotaku.com/palworld-pokemon-lawsuit-pocketpair-nintendo-pc-xbox-1851184907&quot;,{&quot;metric25&quot;:1}]]" href="https://kotaku.com/palworld-pokemon-lawsuit-pocketpair-nintendo-pc-xbox-1851184907">enormously confident it isn’t violating any Nintendo copyright</a></span>, while at the same time <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://kotaku.com/palworld-tencent-pokemon-nintendo-clone-mobile-1851415602&quot;,{&quot;metric25&quot;:1}]]" href="https://kotaku.com/palworld-tencent-pokemon-nintendo-clone-mobile-1851415602">loudly encouraging others to copy and clone its game</a></span>.</p><p>.</p></div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Sonic Wings Reunion announced for PS5, Switch, PC, and arcade]]></title>
+            <link>https://www.gematsu.com/2024/11/sonic-wings-reunion-announced-for-ps5-switch-pc-and-arcade</link>
+            <guid>https://www.resetera.com/threads/sonic-wings-reunion-announced-for-ps5-switch-pc-and-arcade.1030854/</guid>
+            <content:encoded><![CDATA[https://www.gematsu.com/2024/11/sonic-wings-reunion-announced-for-ps5-switch-pc-and-arcade<br/><br/><div id="readability-page-1" class="page"><div>
+
+    <ul>
+    <li><a href="https://www.gematsu.com/platforms/arcade">Arcade</a></li><li><a href="https://www.gematsu.com/platforms/pc">PC</a></li><li><a href="https://www.gematsu.com/platforms/playstation/ps5">PS5</a></li><li><a href="https://www.gematsu.com/platforms/nintendo/switch">Switch</a></li>    </ul>
+
+    
+    <p><span>Due out on May 29, 2025 with English language support.</span>
+      </p></div><div><p><a title="Companies > SUCCESS Corporation [91 articles]" href="https://www.gematsu.com/companies/success-corporation">SUCCESS Corporation</a> has announced <em><a title="Games > Sonic Wings Reunion [1 article]" href="https://www.gematsu.com/games/sonic-wings-reunion">Sonic Wings Reunion</a></em>, a new entry in the <em>Aero Fighters</em> <a title="Genres > Shoot 'Em Up [742 articles]" href="https://www.gematsu.com/genres/shoot-em-up">shoot ’em up</a> series, for <a title="Platforms > PS5 [8,329 articles]" href="https://www.gematsu.com/platforms/playstation/ps5">PlayStation 5</a>, <a title="Platforms > Switch [16,290 articles]" href="https://www.gematsu.com/platforms/nintendo/switch">Switch</a>, <a title="Platforms > PC [21,660 articles]" href="https://www.gematsu.com/platforms/pc">PC</a> (Steam), and Japanese <a title="Platforms > Arcade [374 articles]" href="https://www.gematsu.com/platforms/arcade">arcades</a>. It will launch on May 29, 2025 in Japan with support for English, French. German, Portuguese, Japanese, Traditional Chinese, and Simplified Chinese language options. <span id="more-926503"></span></p><p>In Japan, the PlayStation 5 and Switch versions will be available both physically and digitally. It will cost 6,380 yen for the standard edition, and 10,780 yen for the limited edition. The latter includes an acrylic stand of series character Mao Mao, the single CD “Reunion” featuring the theme song sung by Mao Mao (voiced by SUZUKA), and a Project Blue Mao Mao Day-One Commander Commemorative Patch.</p><p>Get the first details below.</p><blockquote><p><strong>About</strong></p><p>The first new <em>Sonic Wings</em> (<em>Aero Fighters</em>) game in 26 years, with original staff members from the series involved in its planning, production, and oversight. This all-new installment in the classic vertical-scrolling shoot ’em up series is designed for all fans of the genre to enjoy.</p><p><strong>Story</strong></p><!-- AD: content -->
+        <p>In the year 20XX, cities around the world come under attack. “Fata Morgana,” a mysterious organization wielding super weapons and the unknown technology to control the world’s military arsenal, has returned. “Project Blue,” an international secret rescue team of knights that soar the skies, rises to stand against this threat to the world. What awaits them in their fight against these formidable foes…?</p><p><strong>Gameplay</strong></p><p>Choose from eight popular characters from the series, including Mao Mao and Hien, as you aim to clear eight stages set in real-life cities. The game allows you to select your difficulty at the start and also includes local two-player <a title="Genres > Co-Op [211 articles]" href="https://www.gematsu.com/genres/multiplayer/co-op">cooperative</a> play.</p><p><strong>Staff</strong></p><ul><li><strong>Chief Producer:</strong> Shinya Nagatomo (SUCCESS Corporation)</li><li><strong>Character Design:</strong> Fumihiko Nantoka</li><li><strong>Cooperation:</strong> Hiroko Yokoyama</li><li><strong>Advisor:</strong> Shinsuke Nakamura</li><li><strong>Sound Director:</strong> Soushi Hosoi</li><li><strong>Production:</strong> SUCCESS Corporation</li></ul></blockquote><p>Watch the announcement event archive below. Visit the official website <a href="https://swr.success-corp.co.jp/" target="_blank" rel="noopener">here</a>.</p><h2><span>Announcement Presentation</span></h2><p><iframe title="ソニックウィングス新作発表記者会見　2024/11/08" width="500" height="375" src="https://www.youtube.com/embed/CIiQPuJx3As?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p></div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Black Ops 6 On Game Pass Helped Bring Back Lapsed Players, Activision Boss Says]]></title>
+            <link>https://www.gamespot.com/articles/black-ops-6-on-game-pass-helped-bring-back-lapsed-players-activision-boss-says/1100-6527653/?ftag=CAD-01-10abi2f</link>
+            <guid>https://www.resetera.com/threads/black-ops-6-on-game-pass-helped-bring-back-lapsed-players-activision-boss-says.1030851/</guid>
+            <content:encoded><![CDATA[https://www.gamespot.com/articles/black-ops-6-on-game-pass-helped-bring-back-lapsed-players-activision-boss-says/1100-6527653/?ftag=CAD-01-10abi2f<br/><br/><div id="readability-page-1" class="page"><p>
+    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
+  </p><article itemscope="" data-type-id="1100" data-guid="1100-6527653">
+
+            
+            
+  
+
+
+        
+
+  
+
+
+        
+        
+              <section>
+
+                  
+          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
+                <p>Call of Duty: Black Ops 6's creative director has commented on how Game Pass positively affected the game's launch, saying it helped improve player numbers in multiple ways.</p><p>Speaking to the <a href="https://www.bbc.com/news/articles/cev90rmyel2o?xtor=AL-72-%5Bpartner%5D-%5Bbbc.news.twitter%5D-%5Bheadline%5D-%5Bnews%5D-%5Bbizdev%5D-%5Bisapi%5D&amp;at_link_id=67BD7544-9D06-11EF-9772-A1520462CD00&amp;at_link_type=web_link&amp;at_campaign=Social_Flow&amp;at_format=link&amp;at_campaign_type=owned&amp;at_ptr_name=twitter&amp;at_bbc_team=editorial&amp;at_link_origin=BBCNews&amp;at_medium=social" data-target="true" target="_blank" rel="noopener nofollow">BBC</a>, Miles Leslie said Game Pass helped convince people who were "on the fence" or "had some of that friction" to consider playing the game. He added that some people who might not have played a Call of Duty game in some time might have been convinced to "come back and try the game" thanks to Game Pass.</p><p>"We've gotten to the point now where Black Ops and Call of Duty have been around so long--I've been working on it for 16 years," Leslie said. "And really the challenge for us is how do you bring along the fans that love Call of Duty, but how do you create an environment where you can welcome new fans in?"</p><p>Black Ops 6 launched on October 25 and <a href="https://www.gamespot.com/articles/black-ops-6-had-a-record-setting-debut-thanks-in-part-to-game-pass/1100-6527498/" data-ref-id="1100-6527498">set a number of records for number of players</a>, and Microsoft CEO Satya Nadella specifically mentioned Black Ops 6 helping to drive Game Pass subscribers at launch. Anyone who has Game Pass Ultimate ($20/month) or PC Game Pass ($12/month) can play Black Ops 6 as part of their subscription for as long as their membership remains active. The game is also available for direct purchase on Xbox, as well as PlayStation and PC.</p><p>Before this, Take-Two boss Strauss Zelnick said he anticipated Call of Duty helping to drive Game Pass subscribers for Microsoft, but <a href="https://www.gamespot.com/articles/take-two-boss-says-call-of-duty-on-game-pass-will-help-drive-memberships-for-a-period-of-time/1100-6525664/" data-ref-id="1100-6525664">only for a period of time.</a> As Zelnick sees it, releasing a major new game into a subscription service <a href="https://www.gamespot.com/articles/take-two-boss-says-call-of-duty-on-game-pass-will-help-drive-memberships-for-a-period-of-time/1100-6525664/" data-ref-id="1100-6525664">makes little sense and is a "lost opportunity" for sales.</a> Zelnick, of course, runs a third-party publisher and has his own set of unique opinions for his business that might not compare directly to Microsoft's own business objectives.</p><p>Wedbush analyst Michael Pachter told <a href="https://www.gamesindustry.biz/call-of-duty-black-ops-6-could-boost-game-pass-subscribers-by-25m-to-4m" data-target="true" target="_blank" rel="noopener nofollow">GI.biz</a> that Microsoft putting Black Ops 6 could lead to up to six million in lost sales; he estimated that 25% of existing Game Pass subscribers would have bought it anyway. Pachter said Microsoft could see as many as four million new Game Pass subscribers thanks to Black Ops 6.</p><p>Microsoft has not yet provided any specifics on Black Ops 6 unit sales. The game is also available on PlayStation and PC, where it's <a href="https://www.gamespot.com/articles/black-ops-6-had-a-record-setting-debut-thanks-in-part-to-game-pass/1100-6527498/" data-ref-id="1100-6527498">enjoying strong year-over-year sales compared to 2023's Modern Warfare III.</a></p><p>Black Ops 6 welcomes its first major update, the Season 1 launch, on November 14. It adds new multiplayer maps and modes, along with more guns and even a <a href="https://www.gamespot.com/articles/black-ops-6-lets-you-become-a-gruesome-killer-with-power-drill-melee-weapon/1100-6527640/" data-ref-id="1100-6527640">power drill melee weapon</a>. November 14 is also the day when Black Ops 6 gets integrated into Call of Duty: Warzone, and when the new Warzone map, Area 99, arrives.</p>
+  
+                        
+    
+        
+        
+  
+                                  </div>
+
+          
+        
+  
+  
+                    
+  
+    
+          
+            
+  <div>
+    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
+
+    
+      </div>
+        
+      </section>
+    
+            
+    </article></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Sims Competitor InZOI Has Been Delayed, But It Finally Has An Official Release Date]]></title>
+            <link>https://www.gamespot.com/articles/sims-competitor-inzoi-has-been-delayed-but-it-finally-has-an-official-release-date/1100-6527652/?ftag=CAD-01-10abi2f</link>
+            <guid>https://www.resetera.com/threads/sims-competitor-inzoi-has-been-delayed-but-it-finally-has-an-official-release-date.1030848/</guid>
+            <content:encoded><![CDATA[https://www.gamespot.com/articles/sims-competitor-inzoi-has-been-delayed-but-it-finally-has-an-official-release-date/1100-6527652/?ftag=CAD-01-10abi2f<br/><br/><div id="readability-page-1" class="page"><p>
+    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
+  </p><article itemscope="" data-type-id="1100" data-guid="1100-6527652">
+
+            
+            
+  
+
+
+        
+
+  
+
+
+        
+        
+              <section>
+
+                  
+          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
+                <p dir="ltr">There's good news and bad news for fans of the life-sim genre. The bad news? <a href="https://www.gamespot.com/games/the-sims-4/">The Sims 4</a> competitor <a href="https://www.gamespot.com/games/inzoi/">inZOI</a>--a wildly detailed life sim with high-quality graphics--has been delayed. The good news? It now has an official release date, and that date is just a few months away.</p><p dir="ltr">InZOI, which was set to launch in early access for PC sometime in late 2024, is now set to launch on March 28, 2025. In the wake of the delay, inZOI's developers at South Korean video game publisher Krafton--yes, the same Krafton that gave us <a href="https://www.gamespot.com/games/playerunknowns-battlegrounds/">PUBG</a>--released a statement regarding the game's future.</p><div tabindex="0" data-id="1102288023" data-promo-id="0" data-user-has-ads="1" data-video="{&quot;id&quot;:6464871,&quot;title&quot;:&quot;inZOI%20-%20Official%20Gameplay%20And%20Character%20Studio%20Reveal%20Trailer%20%7C%20Gamescom%202024&quot;,&quot;lengthSeconds&quot;:62,&quot;startTime&quot;:0,&quot;autoplay&quot;:false,&quot;share&quot;:{&quot;linkUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/inzoi-official-gameplay-and-character-studio-reveal-trailer-gamescom-2024\/2300-6464871\/&quot;,&quot;embedUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/embed\/6464871\/&quot;,&quot;embedHtml&quot;:{&quot;640&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6464871\/\&quot; height=\&quot;360\&quot; width=\&quot;640\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;,&quot;480&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6464871\/\&quot; height=\&quot;270\&quot; width=\&quot;480\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;}},&quot;device&quot;:&quot;other&quot;,&quot;isDevice&quot;:false,&quot;isLiveStream&quot;:false,&quot;videoType&quot;:&quot;video-on-demand&quot;,&quot;countdownTime&quot;:0,&quot;guid&quot;:&quot;gs-2300-6464871&quot;,&quot;ageGateCookieName&quot;:&quot;videoAgeGateBirthday&quot;,&quot;watchedCookieName&quot;:&quot;watchedVideoIds&quot;,&quot;watchedCookieDays&quot;:1,&quot;postPlayMax&quot;:100,&quot;adCall&quot;:{&quot;host&quot;:&quot;http:\/\/pubads.g.doubleclick.net\/gampad\/ads?&quot;,&quot;params&quot;:{&quot;iu&quot;:&quot;\/5441\/vaw-gamespot\/desktop\/gamespot.com&quot;,&quot;impl&quot;:&quot;s&quot;,&quot;gdfp_req&quot;:1,&quot;env&quot;:&quot;vp&quot;,&quot;output&quot;:&quot;xml_vmap1&quot;,&quot;unviewed_position_start&quot;:1,&quot;url&quot;:&quot;[referrer_url]&quot;,&quot;correlator&quot;:&quot;[timestamp]&quot;,&quot;description_url&quot;:&quot;[description_url]&quot;,&quot;cmsid&quot;:2566084,&quot;vid&quot;:6464871,&quot;pp&quot;:&quot;vpaid_js&quot;},&quot;custParams&quot;:{&quot;ptype&quot;:&quot;news_article&quot;,&quot;cid&quot;:&quot;gs-1100-6527652&quot;,&quot;game&quot;:&quot;inzoi,the-sims-4&quot;,&quot;genre&quot;:&quot;simulation&quot;,&quot;con&quot;:&quot;pc,macintosh,playstation-4,xbox-one,xbox-series-x,linux,playstation-5&quot;,&quot;publisher&quot;:&quot;krafton-inc&quot;,&quot;franchise&quot;:&quot;the-sims&quot;,&quot;category&quot;:&quot;games&quot;,&quot;franchiseRoot&quot;:&quot;maxis-sims&quot;,&quot;partner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;vid&quot;:6464871},&quot;soundBasedSize&quot;:{&quot;normal&quot;:&quot;640x480&quot;,&quot;muted&quot;:&quot;640x483&quot;,&quot;none&quot;:&quot;640x480&quot;},&quot;daiSsbUrl&quot;:&quot;https:\/\/dai.google.com\/ondemand\/hls\/content\/2572465\/vid\/6464871\/master.m3u8&quot;,&quot;daiMidRollHost&quot;:2500176},&quot;uvpHi5Ima&quot;:&quot;https:\/\/s0.2mdn.net\/instream\/html5\/ima3.js&quot;,&quot;cuePoints&quot;:null,&quot;uvpc&quot;:&quot;&quot;,&quot;partner&quot;:&quot;gamespot&quot;,&quot;adPartner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;desktopAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;mobileAdPartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;,&quot;mapp&quot;:&quot;gamespot&quot;,&quot;cms&quot;:&quot;pi&quot;,&quot;seekablePlaybacks&quot;:[&quot;html5&quot;,&quot;uvpjs&quot;],&quot;tracking&quot;:[{&quot;name&quot;:&quot;SiteCatalyst&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;charSet&quot;,&quot;value&quot;:&quot;UTF-8&quot;},{&quot;name&quot;:&quot;currencyCode&quot;,&quot;value&quot;:&quot;USD&quot;},{&quot;name&quot;:&quot;siteType&quot;,&quot;value&quot;:&quot;responsive web&quot;},{&quot;name&quot;:&quot;trackingServer&quot;,&quot;value&quot;:&quot;saa.gamespot.com&quot;},{&quot;name&quot;:&quot;visitorNamespace&quot;,&quot;value&quot;:&quot;cbsinteractive&quot;},{&quot;name&quot;:&quot;heartbeatTrackingServer&quot;,&quot;value&quot;:&quot;newimagitasinc.hb.omtrdc.net&quot;},{&quot;name&quot;:&quot;heartbeatVisitorMarketingCloudOrgId&quot;,&quot;value&quot;:&quot;3C66570E5FE1A4AB0A495FFC@AdobeOrg&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;siteCode&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;brand&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;account&quot;,&quot;value&quot;:&quot;cbsigamespotsite&quot;},{&quot;name&quot;:&quot;edition&quot;,&quot;value&quot;:&quot;us&quot;}]},{&quot;name&quot;:&quot;ComScore_ss&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;c2&quot;,&quot;value&quot;:&quot;31824268&quot;},{&quot;name&quot;:&quot;publishersSecret&quot;,&quot;value&quot;:&quot;2cb08ca4d095dd734a374dff8422c2e5&quot;},{&quot;name&quot;:&quot;c3&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;c4&quot;,&quot;value&quot;:&quot;gamespot&quot;}]},{&quot;name&quot;:&quot;NielsenTracking&quot;,&quot;category&quot;:&quot;tracking&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;host&quot;,&quot;value&quot;:&quot;https:\/\/secure-us.imrworldwide.com\/cgi-bin\/m?&quot;},{&quot;name&quot;:&quot;scCI&quot;,&quot;value&quot;:&quot;us-200330&quot;},{&quot;name&quot;:&quot;scC6&quot;,&quot;value&quot;:&quot;vc,c01&quot;}]},{&quot;name&quot;:&quot;MuxQOSPluginJS&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;propertyKey&quot;,&quot;value&quot;:&quot;b7d6e48b7461a61cb6e863a62&quot;}]}],&quot;trackingAccount&quot;:&quot;cbsigamespotsite&quot;,&quot;trackingSiteCode&quot;:&quot;gs&quot;,&quot;trackingPrimaryId&quot;:&quot;cbsigamespotsite&quot;,&quot;videoAssetSource&quot;:&quot;Publisher Asset&quot;,&quot;uvpjsHostname&quot;:&quot;\/\/www.gamespot.com&quot;,&quot;siteType&quot;:&quot;responsive web&quot;,&quot;startMuted&quot;:false,&quot;screenMediumThumb&quot;:&quot;https:\/\/www.gamespot.com\/a\/uploads\/screen_medium\/1574\/15746725\/4353210-22.jpg&quot;,&quot;videoStreams&quot;:{&quot;adaptive_stream&quot;:&quot;https:\/\/cdn.jwplayer.com\/manifests\/wXQwRT3A.m3u8&quot;},&quot;userId&quot;:0,&quot;premium&quot;:false,&quot;datePublished&quot;:1724176560,&quot;videoAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;videoAdMobilePartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;}" data-non-iframe-embed="1" data-jw-context-name="gamespot" data-jw-media-id="wXQwRT3A" data-jw-player-url="https://cdn.jwplayer.com/libraries/VXc5h4Tf.js" data-jw-video-token="" data-has-youtube="" data-youtube-icon-path="https://www.gamespot.com/a/bundles/phoenixsite/images/core/loose/icn-youtube-30x30.png" id="video-rectangle" data-embed-type="video" data-ref-id="2300-6464871" data-src="/videos/inzoi-official-gameplay-and-character-studio-reveal-trailer-gamescom-2024/2300-6464871/" data-width="100%" data-height="100%" data-video-start="0"><div><p>inZOI - Official Gameplay And Character Studio Reveal Trailer | Gamescom 2024</p><div><p>         Want us to remember this setting for all your devices?       </p><p><a href="https://www.gamespot.com/signup/">Sign up</a> or <a href="https://www.gamespot.com/login/">Sign in</a> now!       </p></div></div><p>       Please use a html5 video capable browser to watch videos.     </p><p>       This video has an invalid file format.     </p><p>Sorry, but you can't access this content!</p></div><p dir="ltr">InZOI director and producer Hyungjun "Kjun" Kim shared an explanation--and an apology--for the game's delay on the <a href="https://t.co/azHqjVVSAu" rel="nofollow ">official inZOI Discord server</a>.</p><p dir="ltr">"First, I want to express my sincerest gratitude to inZOI fans around the world. Your immense love and interest mean everything to us. I was especially touched by <a href="https://www.gamespot.com/videos/inzoi-blew-us-away-with-just-how-much-stuff-you-can-do-gamescom-2024/2300-6464969/">the wonderful reception we received at Gamescom</a>, and it was incredible to see everyone creating such unique Zois during our 'inZOI: Character Studio' demo period," Kim said.</p><p dir="ltr">After expressing gratitude to the many players who tried out <a href="https://www.gamespot.com/articles/inzoi-upcoming-the-sims-competitor-shares-dev-roadmap-and-stunning-character-creator/1100-6523036/">the game's Zoi creator</a> during a community test-run of the feature, Kim detailed the reasons behind the delay.</p><p dir="ltr">"After reviewing your feedback from inZOI: Character Studio and analyzing a wealth of data from our various play tests, we have decided to release inZOI in early access on March 28, 2025," Kim revealed. "We apologize that we couldn't bring you the game sooner, but this decision reflects our commitment to giving inZOI the best possible start.</p><p dir="ltr">"It's said that among primates, raising a human child to adulthood takes the longest time because humans must be prepared to endure and adapt to their ever-changing surroundings. The extra love and care required to nurture a child to adulthood is how I see our journey with inZOI--a game that we will be nurturing together from its early access birth. This change in our release date reflects our commitment to building a stronger foundation for inZOI, so we can embark on this journey in the best way possible."</p><p dir="ltr">As incredible as it looks, inZOI has several other competitors in the life-sim genre. Although <a href="https://www.gamespot.com/games/life-by-you/">Life By You</a> was recently <a href="https://www.gamespot.com/articles/life-by-you-the-highly-anticipated-life-sim-has-been-canceled/1100-6524334/">canceled</a>, another life sim called <a href="https://store.steampowered.com/app/1118520/Paralives/" rel="nofollow ">Paralives</a> is set to enter early access sometime in early 2025, and EA has reaffirmed <a href="https://www.gamespot.com/articles/ea-wont-drop-sims-4-support-when-project-rene-comes-out/1100-6526534/">its commitment to improving The Sims 4</a> while also working on <a href="https://www.gamespot.com/games/the-sims-project-rene/">Project Rene</a>, a multiplayer Sims-like experience. Still, inZOI includes a <a href="https://www.gamespot.com/articles/inzoi-gamescom-trailer-shows-the-joy-and-pain-of-everyday-life/1100-6525913/">plethora of interesting features</a>, from <a href="https://www.gamespot.com/articles/in-life-sim-inzoi-you-can-crash-cars-ride-rollercosters-and-commune-with-ghosts/1100-6526125/">Zois crashing their cars to communing with ghosts</a>, that--combined with its stunning visuals--have players eager to get their hands on the game. But Kim says the wait will be worth it.</p><p dir="ltr">"Until the release date, we'll continue working to improve any areas that need attention, striving to create a game that truly captures the essence of life simulation," he explained.</p><p dir="ltr">Kim ended his letter with a promise to keep fans updated on the game's future, and said the development stream is striving to create a life sim with a healthy lifespan.</p><p dir="ltr">"Our goal is to deliver an experience fans can enjoy for a long time to come."</p>
+  
+                        
+    
+        
+        
+  
+                                  </div>
+
+          
+        
+        
+  
+                    
+  
+    
+          
+            
+  <div>
+    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
+
+    
+      </div>
+        
+      </section>
+    
+            
+    </article></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Dragon Ball Sparking Zero’s 90% of Sales Came From Europe and NA]]></title>
             <link>https://insider-gaming.com/dragon-ball-sparking-zeros-90-of-sales-came-from-europe-and-na/</link>
             <guid>https://www.resetera.com/threads/dragon-ball-sparking-zero%E2%80%99s-90-of-sales-came-from-europe-and-na.1030842/</guid>
             <content:encoded><![CDATA[https://insider-gaming.com/dragon-ball-sparking-zeros-90-of-sales-came-from-europe-and-na/<br/><br/><div id="readability-page-1" class="page"><div>
 		
-<p>During the QA Section of Bandai Namco’s latest earnings call, it was revealed that the maximum sales for Dragon Ball Sparking Zero came from Europe and North America.&nbsp;</p>
+<p>During the QA Section of Bandai Namco’s latest earnings call, it was revealed that most of the sales for Dragon Ball Sparking Zero came from Europe and North America.&nbsp;</p>
 
 
 
@@ -65,11 +291,11 @@
             <content:encoded><![CDATA[https://www.gematsu.com/2024/11/pocketpair-details-lawsuit-filed-against-it-by-nintendo-and-the-pokemon-company<br/><br/><div id="readability-page-1" class="page"><div>
 
     <ul>
-    <li><a href="https://www.gematsu.com/platforms/pc">PC</a></li><li><a href="https://www.gematsu.com/platforms/playstation/ps5">PS5</a></li><li><a href="https://www.gematsu.com/platforms/xbox/xbox-one">Xbox One</a></li><li><a href="https://www.gematsu.com/platforms/xbox/xbox-series">Xbox Series</a></li>    </ul>
+        </ul>
 
     
     <p><span>Palworld allegedly infringes upon three patents held by the companies.</span>
-      </p></div><div><p><a title="Companies > Pocketpair [33 articles]" href="https://www.gematsu.com/companies/pocketpair">Pocketpair</a> has <a href="https://www.pocketpair.jp/news/20241108" rel="noopener" target="_blank">shared</a> details about the lawsuit <a href="https://www.gematsu.com/2024/09/nintendo-and-the-pokemon-company-file-lawsuit-against-pocketpair-for-palworld">filed against it</a> by <a title="Platforms > Nintendo [21,106 articles]" href="https://www.gematsu.com/platforms/nintendo">Nintendo</a> and <a title="Companies > The Pokemon Company [401 articles]" href="https://www.gematsu.com/companies/the-pokemon-company">The Pokemon Company</a> in Tokyo District Court on September 18. <span id="more-926554"></span></p><p>According to the details, Nintendo and The Pokemon Company claim that Pocketpair’s <em><a title="Games > Palworld [27 articles]" href="https://www.gematsu.com/games/palworld">Palworld</a></em>&gt; game infringes upon three patents held by the companies, and are seeking a payment of five million yen plus late damages per company.</p><p>Get the details below.</p><blockquote><p>As announced on September 19, 2024, The Pokemon Company and Nintendo Co., Ltd. (hereinafter referred to as the “Plaintiffs”) have filed a patent infringement lawsuit against us. We have received inquiries from various media outlets regarding the status of the lawsuit, and we would like to report the details and current status of this case as follows:</p><p><strong>1. Details of the Lawsuit</strong></p><p>The Plaintiffs claim that <em>Palworld</em>, released by us on January 19, 2024, infringes upon the following three patents held by the Plaintiffs, and are seeking an injunction against the game and compensation for a portion of the damages incurred between the date of registration of the patents and the date of filing of this lawsuit.</p><!-- AD: content -->
+      </p></div><div><p><a title="Companies > Pocketpair [33 articles]" href="https://www.gematsu.com/companies/pocketpair">Pocketpair</a> has <a href="https://www.pocketpair.jp/news/20241108" rel="noopener" target="_blank">shared</a> details about the lawsuit <a href="https://www.gematsu.com/2024/09/nintendo-and-the-pokemon-company-file-lawsuit-against-pocketpair-for-palworld">filed against it</a> by Nintendo and <a title="Companies > The Pokemon Company [401 articles]" href="https://www.gematsu.com/companies/the-pokemon-company">The Pokemon Company</a> in Tokyo District Court on September 18. <span id="more-926554"></span></p><p>According to the details, Nintendo and The Pokemon Company claim that Pocketpair’s <em><a title="Games > Palworld [27 articles]" href="https://www.gematsu.com/games/palworld">Palworld</a></em>&gt; game infringes upon three patents held by the companies, and are seeking a payment of five million yen plus late damages per company.</p><p>Get the details below.</p><blockquote><p>As announced on September 19, 2024, The Pokemon Company and Nintendo Co., Ltd. (hereinafter referred to as the “Plaintiffs”) have filed a patent infringement lawsuit against us. We have received inquiries from various media outlets regarding the status of the lawsuit, and we would like to report the details and current status of this case as follows:</p><p><strong>1. Details of the Lawsuit</strong></p><p>The Plaintiffs claim that <em>Palworld</em>, released by us on January 19, 2024, infringes upon the following three patents held by the Plaintiffs, and are seeking an injunction against the game and compensation for a portion of the damages incurred between the date of registration of the patents and the date of filing of this lawsuit.</p><!-- AD: content -->
         <p><strong>2. Target Patents</strong></p><ul><li><strong><a href="https://patents.google.com/patent/JP7545191B1/en" target="_blank" rel="noopener">Patent No. 7545191</a></strong><ul><li><strong>Patent Application Date:</strong> July 30, 2024</li><li><strong>Patent Registration Date:</strong> August 27, 2024</li></ul></li><li><strong><a href="https://patents.google.com/patent/JP7493117/en" target="_blank" rel="noopener">Patent No. 7493117</a></strong><ul><li><strong>Patent Application Date:</strong> February 26, 2024</li><li><strong>Patent Registration Date:</strong> May 22, 2024</li></ul></li><li><strong><a href="https://patents.google.com/patent/JP7528390/en" target="_blank" rel="noopener">Patent No. 7528390</a></strong><ul><li><strong>Patent Application Date:</strong> March 5, 2024</li><li><strong>Patent Registration Date:</strong> July 26, 2024</li></ul></li></ul><p><strong>3. Summary of the Claim</strong></p><ul><li>An injunction against <em>Palworld</em></li><li>Payment of five million yen plus late payment damages to The Pokémon Company</li><li>Payment of five million yen plus late payment damages to Nintendo Co., Ltd.</li></ul><p>We will continue to assert our position in this case through future legal proceedings.</p><p>Please note that we will refrain from responding individually to inquiries regarding this case. If any matters arise that require public notice, we will announce them on our website, etc.</p></blockquote></div></div>]]></content:encoded>
         </item>
         <item>
@@ -956,269 +1182,6 @@ Image credit:          <cite>Pocketpair</cite>
             <link>https://www.gamedeveloper.com/business/unity-spent-205-million-eliminating-25-percent-of-its-workforce</link>
             <guid>https://www.resetera.com/threads/unity-spent-205-million-eliminating-25-percent-of-its-workforce.1030740/</guid>
             <content:encoded><![CDATA[https://www.gamedeveloper.com/business/unity-spent-205-million-eliminating-25-percent-of-its-workforce<br/><br/><div id="readability-page-1" class="page"><div data-module="content" data-testid="article-base-body-content"><p data-testid="content-paragraph"><span data-testid="content-text">Unity has confirmed the </span><span data-testid="content-text"><a target="_blank" href="https://www.gamedeveloper.com/business/unity-says-laying-off-25-percent-of-staff-was-about-reigniting-revenue-growth-">mass layoffs it announced in January</a></span><span data-testid="content-text"> incurred around $205 million in separation and restructuring costs over the past nine months.</span></p><p data-testid="content-paragraph"><span data-testid="content-text"><a target="_blank" href="https://d18rn0p25nwr6d.cloudfront.net/CIK-0001810806/16c99346-58d4-4022-924d-7cfefa4f7054.pdf">In its latest fiscal report</a></span><span data-testid="content-text">, the company explained those costs included $127 million in incremental stock-based compensation.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">"Of the incremental employee separation costs, $15 million are within cost of revenue, $46 million are within research and development, $52 million are within sales and marketing, and $92 million are within general and administrative," said Unity.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">"Additionally, in November 2023, we committed to a plan to reassess our real estate footprint. We incurred $45 million of restructuring costs, primarily related to office closures in the nine months ended September 30, 2024."</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Unity is currently attempting to turn around its business after invoking the wrath of game developers with the calamitous introduction of the (now scrapped) Runtime Fee. The botched rollout resulted in a huge backlash and eventually </span><span data-testid="content-text"><a target="_blank" href="https://www.gamedeveloper.com/business/unity-ceo-and-president-john-riccitiello-is-leaving-the-company">led to the departure of key executives including CEO John Riccitiello</a></span><span data-testid="content-text">, who left his post in October 2023.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Riccitiello was </span><span data-testid="content-text"><a target="_blank" href="https://www.gamedeveloper.com/business/former-zynga-coo-matthew-bromberg-is-the-new-ceo-of-unity">replaced by current CEO Matt Bromberg</a></span><span data-testid="content-text">, who </span><span data-testid="content-text"><a target="_blank" href="https://www.gamedeveloper.com/business/unity-is-killing-its-controversial-runtime-fee">killed the Runtime Fee outright</a></span><span data-testid="content-text"> and appointed a new C-suite in a bid to </span><span data-testid="content-text"><a target="_blank" href="https://www.gamedeveloper.com/business/unity-ceo-matt-bromberg-says-runtime-fee-reversal-is-part-of-bid-to-become-a-fundamentally-different-company-">repair the company's reputation</a></span><span data-testid="content-text"> within the development community.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">In November last year, interim CEO Jim Whitehurst told Unity investors the company planned to </span><span data-testid="content-text"><a target="_blank" href="https://www.gamedeveloper.com/business/unity-is-reviewing-its-product-portfolio-and-says-layoffs-are-likely-">implement a "customer-first" business model</a></span><span data-testid="content-text"> and establish a "clear focus." That plan quickly resulted in redundancies that Unity claimed would reignite revenue growth and deliver "healthy financials."</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Looking at Unity's earnings for the quarter ended September 30, 2024, revenue dropped to $446.5 million from 544.2 million year-over-year. Operating expenses decreased to 461.6 million from 520.3 million over the same period. The company posted a net loss of 124.5 million during Q3, with that figure remaining relatively flat year-on-year.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Unity explained it had 1,242 and 1,230 customers contributing more than $100,000 during the trailing 12 months of September 30, 2024, and 2023 respectively.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">It said that marginal increase was largely a result of "subscriptions growth," and noted that while those customers represented the "substantial majority" of revenue for the nine months ended September 30, 2024 and 2023, respectively, "no one customer accounted for more than 10 percent of our revenue for either period."</span></p></div><div><h2>About the Author</h2><div data-component="contributor-summary"><p data-testid="contributor-summary-subtitle">News Editor, GameDeveloper.com</p><div><p data-testid="content-paragraph"><span data-testid="content-text">Game Developer news editor Chris Kerr is an award-winning journalist and reporter with over a decade of experience in the game industry. His byline has appeared in notable print and digital publications including Edge, Stuff, Wireframe, International Business Times, and&nbsp;</span><span data-testid="content-text"><a target="_blank" href="http://pocketgamer.biz/">PocketGamer.biz</a></span><span data-testid="content-text">. Throughout his career, Chris has covered major industry events including GDC, PAX Australia, Gamescom, Paris Games Week, and Develop Brighton. He has featured on the judging panel at The Develop Star Awards on multiple occasions and appeared on BBC Radio 5 Live to discuss breaking news.</span></p></div></div></div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[PS5 console sales top 65m as Astro Bot sells 1.5m copies in first month]]></title>
-            <link>https://www.eurogamer.net/ps5-console-sales-top-65m-as-astro-bot-sells-15m-copies-in-first-month</link>
-            <guid>https://www.resetera.com/threads/ps5-console-sales-top-65m-as-astro-bot-sells-1-5m-copies-in-first-month.1030734/</guid>
-            <content:encoded><![CDATA[https://www.eurogamer.net/ps5-console-sales-top-65m-as-astro-bot-sells-15m-copies-in-first-month<br/><br/><div id="readability-page-1" class="page"><div>
-  
-
-    <div>
-        
-
-        <p>PlayStation Plus subscriptions, however, have stalled.</p>
-
-    </div>
-
-
-  <p>
-  <figure>
-  <a href="https://assetsio.gnwcdn.com/astro-bot-rides-controller.jpg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
-  
-  </a>
-
-      <figcaption>
-        <span>
-Image credit:          <cite>Team Asobi / Eurogamer</cite>
-        </span>
-      </figcaption>
-  </figure>
-  </p>
-
-    
-
-</div><div>
-
-
-
-            <p>Sales of Sony's PS5 consoles have now passed 65m units.</p>
-<p>Sony says the growth in its game and network services division can be attributed to rising sales of its third party games, DLC, and PlayStation Plus subscriptions.</p>
-<figure>
-<p>
-<a aria-label="Newscast: Will we buy PlayStation 5 Pro?" data-lightbox="false" data-platform="youtube" href="https://www.youtube.com/embed/AwbAWxbmsXY?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
-<span>Newscast: Will we buy PlayStation 5 Pro?</span>
-<template>
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/AwbAWxbmsXY?autoplay=1" frameborder="0" loading="lazy" src="https://www.youtube-nocookie.com/embed/AwbAWxbmsXY?autoplay=1">
-</iframe> </template>
-</a>
-</p>
-<figcaption>Newscast: Will we buy the PS5 Pro?<a href="https://www.youtube.com/watch?v=AwbAWxbmsXY" rel="noopener" target="_blank">Watch on YouTube</a></figcaption></figure>
-<p>Despite hardware sales falling, however - compared to the same quarter last year, console sales dropped from 8.2m to 6.2m - PlayStation is reporting better hardware profitability.</p>
-<p>Software sales are up, too. 131.3m games shipped in the first half of the financial year, of which 11.3m were first-party games. 1.5m of those alone come from Astro Bot, which only debuted at the beginning of September. <a data-keyword="true" href="https://www.eurogamer.net/games/ghost-of-tsushima">Ghost of Tsushima</a> has sold 13m copies across both PS5 and PC.</p>
-<p>The report also attributed its earnings boost to "a new sports title" - thought to be <a data-keyword="true" href="https://www.eurogamer.net/games/ea-sports-fc-25">EA Sports FC 25</a> - and "an action RPG title from China", which is likely <a data-keyword="true" href="https://www.eurogamer.net/games/black-myth-wukong">Black Myth: Wukong</a>.</p>
-<p>PlayStation Plus subscriptions, however, have stalled at 116m. Whilst that's up from 107m year-over-year, there has been no additional growth since last quarter.</p>
-<p>"We intend to build on an optimum title portfolio during the current mid-range plan period, that combines single-player games, which are our strength and which have a higher predictability of becoming hits due to our proven IP, with live service games that pursue upside, while taking on a certain amount of risk upon release," Sony said.</p>
-<p>Don't forget, <a href="https://www.eurogamer.net/sony-announces-digital-only-playstation-5-pro-costs-700">PS5 Pro is out now,</a> and we recently learned that <a href="https://www.eurogamer.net/sony-was-already-working-on-ps5-pro-before-playstation-5-launch">Sony was working on the PS5 Pro console before it released the base PlayStation 5</a>.</p>
-<p> You can check out all the games <a href="https://www.eurogamer.net/every-ps5-pro-enhanced-games-listed">currently confirmed to get that PS5 Pro Enhanced label right here</a>.</p></div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Toads Of The Bayou is Into The Breach but with aristocratic, pipe smokin’ toads (of the bayou)]]></title>
-            <link>https://www.rockpapershotgun.com/toads-of-the-bayou-is-into-the-breach-but-with-aristocratic-pipe-smokin-toads-of-the-bayou</link>
-            <guid>https://www.resetera.com/threads/toads-of-the-bayou-is-into-the-breach-but-with-aristocratic-pipe-smokin%E2%80%99-toads-of-the-bayou.1030728/</guid>
-            <content:encoded><![CDATA[https://www.rockpapershotgun.com/toads-of-the-bayou-is-into-the-breach-but-with-aristocratic-pipe-smokin-toads-of-the-bayou<br/><br/><div id="readability-page-1" class="page"><div>
-  
-
-    <div>
-  
-
-        <p>I was going to do a ‘Kermit/Commit’ bit, but then you’d all just be insufferable about frogs and toads</p>
-
-    </div>
-
-
-  <p>
-  <figure>
-  <a href="https://assetsio.gnwcdn.com/toads-of-the-bayou-1.jpg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
-  
-  </a>
-
-      <figcaption>
-        <span>
-Image credit:          <cite>Fireshine/Rock Paper Shotgun</cite>
-        </span>
-      </figcaption>
-  </figure>
-  </p>
-
-    
-
-</div><div>
-
-
-
-            <p>In all honesty, <a href="https://www.rockpapershotgun.com/games/toads-of-the-bayou">Toads Of The Bayou</a> could have been several notches less ribbet-ing than its <a href="https://store.steampowered.com/app/2190400/Toads_of_the_Bayou/">Steam demo</a> ended up being, because its stylised pixel fly-snatchers are just that good. There’s only one of the three characters available in the freebie (one of the others is a toad nun with a shotgun), but he’s got a little cutlass, a flintlock pistol, and a can-do attitude - at least when it comes to either stabbing or shooting things. The game itself is a little bit deckbuilder, a little bit <a href="https://www.rockpapershotgun.com/games/into-the-breach">Into The Breach</a>: turn based <a href="https://www.rockpapershotgun.com/the-best-strategy-games-on-pc">strategy</a> with perfect information and various tricks you can pull to make enemies hit each other instead of the thing you’re trying to protect. Indulge yourself on the gourmet tray-tray below.</p>
-<!--more-->
-<figure>
-<p>
-<a aria-label="Toads of the Bayou | Release Date Trailer" data-lightbox="false" data-platform="youtube" href="https://www.youtube.com/embed/aNOGLhv5aXE?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
-<span>Toads of the Bayou | Release Date Trailer</span>
-<template>
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/aNOGLhv5aXE?autoplay=1" frameborder="0" loading="lazy" src="https://www.youtube-nocookie.com/embed/aNOGLhv5aXE?autoplay=1">
-</iframe> </template>
-</a>
-</p>
-<a href="https://www.youtube.com/watch?v=aNOGLhv5aXE" rel="noopener" target="_blank">Watch on YouTube</a></figure>
-<p>Toads Of The Bayou loves shops, is the first thing I found out about it. There’s four different ones in your home base, where you’ll lead a rebellion against Haitian Vodou figure Baron Samedi. You’ll select missions from a map, gather resources, then spent them on either more combat cards, companions, or single use traps and various other bufo-buffs. You’ve also got your own inventory of consumable items, and your starting toad generates barricades by killing enemies, which you can plonk down on a map - helpful, since most maps have an objective to project.</p>
-<p>If you fail an objective, you’ll get ‘curse cards’ put into your deck, which can then show up randomly and ruin your day. Allegedly anyway, I was simply too good to have this happen. Cards cost action points, and there’s a few neat twists even in the small slice I played. Your movement card, for example, is free to play, but loses one movement per card you’ve played before it. So you can attack before moving, but you’ll be less effective. Some cards push enemies into obstacles for extra damage, and some let you switch places with them, which you can use to your advantage since they’ll be locked into their attacks by then. </p><p>There’s also permadeath, but it’s the fun kind that gives you upgrades for the next run. It all seems a fair bit more thoughtful and expansive than what I’d originally suspected, which was rote turn-based combat coasting on the back of its very good toads. But it does not coast, and the toads are better for it. It’s also out this month if you like the demo - 19th November.</p></div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Nvidia are slapping a 100-hour monthly cap on GeForce Now streaming, with charges for extra time]]></title>
-            <link>https://www.rockpapershotgun.com/nvidia-are-slapping-a-100-hour-monthly-cap-on-geforce-now-streaming-with-charges-for-extra-time</link>
-            <guid>https://www.resetera.com/threads/nvidia-are-slapping-a-100-hour-monthly-cap-on-geforce-now-streaming-with-charges-for-extra-time.1030722/</guid>
-            <content:encoded><![CDATA[https://www.rockpapershotgun.com/nvidia-are-slapping-a-100-hour-monthly-cap-on-geforce-now-streaming-with-charges-for-extra-time<br/><br/><div id="readability-page-1" class="page"><div>
-  
-
-    <div>
-  
-
-        <p>Applies to new signups from January 2025, existing users from 2026</p>
-
-    </div>
-
-
-  <p>
-  <figure>
-  <a href="https://assetsio.gnwcdn.com/Steam-Deck-streaming.JPG?width=1200&amp;height=1200&amp;fit=bounds&amp;quality=70&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
-  
-  </a>
-
-      <figcaption>
-        <span>
-Image credit:          <cite>Rock Paper Shotgun</cite>
-        </span>
-      </figcaption>
-  </figure>
-  </p>
-
-    
-
-</div><div>
-
-
-
-            <p><a href="https://www.rockpapershotgun.com/topics/geforce-now">GeForce Now</a>, Nvidia’s PC-focused game streaming service, will begin calling time on its most muscular of power users. A <a href="https://www.reddit.com/r/GeForceNOW/comments/1glr3yc/gfn_thursday_updates_november_7_2024/">post on the GFN subreddit</a> announced the introduction of a 100-hour monthly cap (or "allowance"), effective from January 1st 2025 for anyone who signs up after that date. Existing streamists, or anyone who signs up by the end of 2024, will get a year’s grace period before the limit kicks in from January 2026.</p>
-<!--more-->
-<p>Nvidia claim the vital importance of this hitherto completely unnecessary limit involves "providing exceptional quality and speed — as well as shorter queue times", and that 100 hours per month will "comfortably" accommodate 94% of current users. Obviously, if you are part of that remaining 6%, your newfound constraints won’t be reflected in any kind of subscription price cut or discount. But hey, you can always pay Nvidia <em>more</em> cash to unlock extra time. $6 for 15 hours on the Ultimate tier, to be exact, or $3 for 15 hours on the Priority tier, which is being renamed Performance.</p>
-<p>15 hours of any unused time will also carry over each month, though even with these small concessions, I’m not sure that they’ll be enough to convince both heavy users and potential new customers to get on board. Would you sign up for <em>any</em> subscription service knowing it’s going to become materially worse in a year’s time? And for what purpose? Nvidia cite the relatively small proportion of users who’d exceed a 100-hour limit as justification for imposing it, but by that same logic, it’s only a handful of people jostling for that extra bandwidth. Anecdotally, I sometimes <a href="https://www.rockpapershotgun.com/steam-deck-streaming">use GeForce Now for playing Steam Deck games</a> that the handheld itself can’t handle, and I’ve never had trouble with queue times or streaming quality. If these 6% are a drain on the system, they’re being awfully polite about it.</p>
-<p>What’s also a shame is that this "allowance" is being foisted alongside a range of other changes that, largely, sound quite good. The Performance-née-Priority membership will start offering 2560x1440 and <a href="https://www.rockpapershotgun.com/should-you-bother-with-ultrawide-gaming-monitors">ultrawide</a> resolution options, with ultrawide previously being exclusive to the Ultimate tier, and both types are gaining the ability to save custom graphics setting configurations across different streaming sessions. Alas, the march of service decay continues, with the only way to continue enjoying unlimited streaming time being a GeForce Now Founders subscription – and those haven’t been available for new signups since 2021.</p>
-<p>In other news, Nvidia this week <a href="https://www.reuters.com/technology/nvidia-surpasses-36-trillion-market-value-after-trump-win-2024-11-07/">surpassed a market value of $3.6 trillion</a>, a global first that cemented their position above Apple as the world’s most valuable company.</p></div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Astro Bot Sells 1.5 Million Units 2 Months After Launch]]></title>
-            <link>https://insider-gaming.com/astro-bot-million-units/</link>
-            <guid>https://www.resetera.com/threads/astro-bot-sells-1-5-million-units-2-months-after-launch.1030719/</guid>
-            <content:encoded><![CDATA[https://insider-gaming.com/astro-bot-million-units/<br/><br/><div id="readability-page-1" class="page"><div>
-		
-<p>Sony has announced that the PlayStation-exclusive Astro Bot has sold 1.5 million units in its first two months.</p>
-
-
-
-<p>The news came via the company’s <a href="https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/24q2_supplement.pdf" target="_blank" rel="noreferrer noopener nofollow">Q2 earnings results</a>, which revealed that Astro Bot sold 1.5 million units as of November 3, putting the number just shy of two months from its September 6, 2024 release date.</p>
-
-
-
-<p>Astro Bot received universal acclaim on review aggregator Metacritic, with the game receiving a 94 out of 100 according to 138 reviews.  Users also felt the same way, giving the game a 9.3 out of 10. Its universal acclaim has put the game at the forefront of being a likely winner for this years Game of The Year at The Game Awards, which takes place in December 2024.</p>
-
-
-
-<p>Whether 1.5 million units sold is where Team Asobi and PlayStation hoped the game would be, remains to be seen, as either has yet to comment.</p>
-
-
-
-<p>Nonetheless, Team Asobi has continued to support the game post-launch, offering <a href="https://insider-gaming.com/astro-bot-is-getting-a-new-speedrun-level-tomorrow/" target="_blank" rel="noreferrer noopener">weekly speedrun levels and new bots to collect</a>. </p>
-
-
-
-<p>Astro Bot released on September 6, 2024 exclusively on the PlayStation 5.</p>
-
-
-
-<p>What do you think of Astro Bot selling 1.5 million units in its first two months? Do you think its impressive or do you think it could have done better? Join the discussion in the official&nbsp;<a href="https://insider-gaming.com/forum/" target="_blank" rel="noreferrer noopener">Insider Gaming Forums</a>.</p>
-
-
-
-<hr>
-
-
-
-<p>For more Insider Gaming, check out the&nbsp;<a href="https://insider-gaming.com/hogwarts-legacy-2-in-production-at-warner-bros-games/" target="_blank" rel="noreferrer noopener">latest on the Hogwarts Legacy sequel</a>&nbsp;from Warner Bros. Games. And don’t forget to&nbsp;<a href="https://insider-gaming.com/subscribe">sign up for our weekly newsletter</a>.</p>
-
-
-
-<p>Subscribe to our newsletter to receive the latest news and exclusive leaks every week! No Spam.</p>
-    <div id="ig-newsletter-holder">
-            <p><span>
-                    Subscribe to our newsletter to receive the latest news and exclusive leaks every week! No Spam.
-                </span>
-            </p>
-            
-        </div>
-
-	</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Sony reflects on Concord's failed launch and removal after two weeks]]></title>
-            <link>https://www.eurogamer.net/sony-reflects-on-concords-failed-launch-and-removal-after-two-weeks</link>
-            <guid>https://www.resetera.com/threads/sony-reflects-on-concords-failed-launch-and-removal-after-two-weeks.1030713/</guid>
-            <content:encoded><![CDATA[https://www.eurogamer.net/sony-reflects-on-concords-failed-launch-and-removal-after-two-weeks<br/><br/><div id="readability-page-1" class="page"><div>
-  
-
-    <div>
-        
-
-        <p>"We are still in the process of learning."</p>
-
-    </div>
-
-
-  <p>
-  <figure>
-  <a href="https://assetsio.gnwcdn.com/Concord-trailer-screenshot-showing-player-characters-running-into-battle.jpg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
-  
-  </a>
-
-      <figcaption>
-        <span>
-Image credit:          <cite>Sony</cite>
-        </span>
-      </figcaption>
-  </figure>
-  </p>
-
-    
-
-</div><div>
-
-
-
-            <p>Sony's president Hiroki Totoki has reflected on the brief release and failure of the company's live-service flop, Concord.</p>
-<p>Concord was the <a href="https://www.eurogamer.net/playstation-exclusive-pvp-shooter-concord-is-firewalk-studios-first-game">debut game from FireWalk Studios</a>, which on its announcement promised  players a "unique universe of vibrant worlds, and its rich cast of colourful characters". However, despite high hopes from Sony, the game failed to take off, and after <a href="https://www.eurogamer.net/concord-sales-fail-to-lift-off-on-steam-where-just-660-people-played-at-launch">a lacklustre launch</a>, the sci-fi shooter was <a href="https://www.eurogamer.net/concord-pulled-from-sale-as-sony-admits-our-initial-launch-didnt-land">taken offline just two weeks after its PS5 and PC debut</a>.</p>
-<p>In a Q&amp;A following Sony's latest financial report, management was asked more about Concord, and the company's live service push. Here, Totoki said events from recent months had been a learning experience.</p>
-<figure>
-<div>
-<p><span data-type="targeting">
-<span>To see this content please enable targeting cookies.</span>
-</span> </p>
-</div>
-<figcaption>Newscast: PlayStation's Astro Bot success can't distract from Concord's failure.<a href="https://www.youtube.com/watch?v=IY5O8yx_rNw" rel="noopener" target="_blank">Watch on YouTube</a></figcaption>
-</figure>
-<p>"Currently, we are still in the process of learning," Totoki said via an interpreter (thanks, <a href="https://www.videogameschronicle.com/news/sony-president-reflects-on-why-concord-failed/">VGC</a>). "And basically, with regards to new IP, of course, you don't know the result until you actually try it.</p>
-<p>"So for us, for our reflection, we probably need to have a lot of gates, including user testing or internal evaluation, and the timing of such gates. And then we need to bring them forward, and we should have done those gates much earlier than we did.</p>
-<p>"Also, we have a siloed organisation, so going beyond the boundaries of those organisations in terms of development, and also sales, I think that could have been much smoother.</p>
-<p>"And then going forward, in our own titles and in third-party titles, we do have many different windows. And we want to be able to select the right and optimal window so that we can deploy them on our own platform without cannibalisation, so that we can maximise our performance in terms of title launches.</p>
-<p>"That's all I have."</p>
-<figure>
-<a data-lightbox="true" href="https://assetsio.gnwcdn.com/Concord-review-header.png?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank">
- </a>
-<figcaption><span>Image credit: <cite>Sony Interactive Entertainment</cite></span></figcaption>
-</figure>
-<p>Elsewhere during the same call, senior vice president for finance and IR at Sony, Sadahiko Hayakawa, noted the company had released two live service games, each with very different levels of success</p>
-<p>"<a data-keyword="true" href="https://www.eurogamer.net/games/helldivers-2">Helldivers 2</a> was a huge hit, while Concord ended up being shut down. We gained a lot of experience and learned a lot from both," the executive said.</p>
-<p>"We intend to share the lessons learned from our successes and failures across our studios, including in the areas of title development management as well as the process of continually adding expanded content and scaling the service after its release so as to strengthen our development management system.</p><p>"We intend to build on an optimum title portfolio during the current mid-range plan period that combines single-player games - which are our strengths and which have a higher predictability of becoming hits due to our proven IP - with live-service games that pursue upside while taking on a certain amount of risk upon release."</p>
-<p>On its release in February, Helldivers 2 soon became beloved by swathes of players wanting to do their bit for liberty by squashing Terminids and, on occasion, each other. On <a href="https://steamdb.info/app/553850/charts/">Steam</a>, it reached a peak player count of 458,709. In contrast, Concord's <a href="https://steamdb.info/app/2443720/charts/">Steam</a> all-time peak sits at just 697.</p>
-<p>Sony <a href="https://www.eurogamer.net/sony-shuts-down-concord-developer-firewalk-studios-game-will-remain-permanently-offline">shut down Concord developer Firewalk Studios in October</a>, extinguishing hopes for any kind of revival.</p>
-<p>In September, Totoki said <a href="https://www.eurogamer.net/as-concord-flops-sony-exec-says-company-doesnt-have-enough-original-ip">Sony didn't have enough original franchises</a> which it has "fostered from the beginning".</p></div></div>]]></content:encoded>
         </item>
     </channel>
 </rss>

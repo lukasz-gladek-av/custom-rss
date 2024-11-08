@@ -4,9 +4,46 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Fri, 08 Nov 2024 14:18:59 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 08 Nov 2024 14:31:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[PS5 Pro Is a Smaller Leap Than PS4 Pro, Says Dev; PSSR Is Better Than AMD FSR, on Par with DLSS/XeSS]]></title>
+            <link>https://wccftech.com/ps5-pro-is-a-smaller-leap-than-ps4-pro-says-dev-pssr-is-better-than-amd-fsr-on-par-with-dlss-xess/</link>
+            <guid>https://www.resetera.com/threads/ps5-pro-is-a-smaller-leap-than-ps4-pro-says-dev-pssr-is-better-than-amd-fsr-on-par-with-dlss-xess.1030872/</guid>
+            <content:encoded><![CDATA[https://wccftech.com/ps5-pro-is-a-smaller-leap-than-ps4-pro-says-dev-pssr-is-better-than-amd-fsr-on-par-with-dlss-xess/<br/><br/><div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>Gaijin Entertainment has not one but two games enhanced for <a href="https://wccftech.com/review/playstation-5-pro-hardware-the-next-gen-graphics-upgrade/" target="_blank" rel="noopener">Sony's newly released PS5 Pro console</a> at launch: the first-person tactical multiplayer WWII shooter <a href="https://wccftech.com/military-online-shooter-enlisted-open-beta-is-now-available-on-pc-and-consoles/" target="_blank" rel="noopener">Enlisted</a>, originally released in 2020, and the vehicle combat multiplayer game <a href="https://wccftech.com/cross-play-between-pc-ps4-xb1-is-finally-out-in-war-thunder-after-over-a-year-of-talks-with-sony/" target="_blank" rel="noopener">War Thunder</a>, which has been continuously updated since 2013.</p>
+<p>To learn how both games have been improved to leverage the most powerful console hardware currently on the market, we interviewed Gergo Horvath, a Graphics Programmer on Gaijin's proprietary Dagor Engine for over four years. Horvath admitted that the PlayStation 5 Pro's improvement over the PS5 is smaller than that seen in the previous generation between PS4 Pro and PS4, but he believes the console achieves its goal anyway, mainly thanks to PSSR, which he reckons is superior to AMD FSR and on the same level of NVIDIA DLSS and Intel XeSS.</p>
+<p>Keep scrolling to read the full Q&amp;A.</p>
+<p><iframe title="Enlisted — PS5 Pro Enhanced" width="500" height="281" src="https://www.youtube.com/embed/ob08o1dN_PE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+<p><strong>What do you think of the PS5 Pro's hardware? What's the single feature you were most impressed with?</strong></p>
+<p>While the ~45% faster rendering is impressive alone, the real game changer, in my opinion, is the addition of the Machine Learning Architecture that made PSSR possible. By being able to render in lower resolutions and yet get the same visual fidelity we can free up a tremendous amount of resources. This tech will be especially useful when paired with ray tracing.</p>
+<p><strong>Compared to the jump between PS4 Pro and PS4, would you say the PS5 Pro-PS5 difference is similar or reduced (e.g., the advancement is more or less significant)?</strong></p>
+<p>I’d say the difference between the PS5 Pro and the PS5 is less substantial compared to the difference between the last-gen console and its Pro counterpart. In the PS5 Pro, we have little to no change in CPU performance, and while the GPU got a nice boost, the difference is much less significant: the PS4 Pro had more than doubled the nominal power of its predecessor's GPU (in terms of TFLOPS). With that being said, back then, the goal was to achieve 4K gaming. This time, it looks like the main focus was on providing substantially better ray tracing. Goal achieved in both cases.</p>
+<p><strong>How much of an improvement is there between the PS5 and PS5 Pro versions of the game? Can you share specific details on the target resolution and frame rate and whether there will be multiple modes to choose from?</strong></p>
+<p>For the PS5 Pro’s release of Enlisted, we have switched from a fixed resolution to using dynamic resolution together with upscaling techniques for both the Base and the Pro version of the console to make sure we have a stable frame rate at all times while the internal rendering resolution is automatically adjusted. This made 4K@120FPS gaming possible for PS5 Pro players. On the PS5 Pro, this will mean higher rendering resolution, which will lead to more detail rich and sharper visuals. With the faster memory, we could use higher resolution textures and better looking global illumination, which together enhance details even further.</p>
+<p>Upscaling from the internal rendering resolution to the display’s resolution is taken care of by our own TAAU implementation for Base PS5, but we are using PSSR for the Pro version. PSSR, of course, does a better job. For the PS5 Pro’s release of War Thunder we’ll offer the opportunity to play the game at 4K@120FPS resolution from day one. More visual updates will follow with the next major update release in a week, and even more are under development.</p>
+<p><strong>Are you using PSSR? What do you think about it compared to other upscalers like NVIDIA DLSS, AMD FSR, and Intel XeSS?</strong></p>
+<p>We’re currently using it in Enlisted. During development and playtesting, we’ve found PSSR to be on par with NVIDIA DLSS and Intel XeSS, the other two ML based super resolution methods. While in my opinion PSSR produces less blur, ghosting, and unwanted flicker compared to AMD FSR. These technologies are constantly improving, so I find it impressive that the first version of PSSR is already head-to-head with other more mature solutions.</p>
+<p><strong>How does the PS5 Pro version stack with the maxed-out PC game? Will the PS5 Pro version feature the highest graphics settings available on PC?</strong></p>
+<p>Let’s say we are about 75% to being maxed-out for Enlisted. We’ll give our estimate for War Thunder later when we’ll have all our visual updates implemented.</p>
+<p><strong>The big controversy about Sony's new console is pricing. Based on the hardware, do you believe it to be fair or excessive?</strong></p>
+<p>It’s always up to the gamers to decide whether the console pricing is up to their expectations or not. Calculating a “fair price” by assessing hardware alone does not make much sense, as gamers usually make their decision based on new experiences offered by a device, and not based on the hardware alone.</p>
+<p><strong>Thank you for your time.</strong></p>
+
+				
+
+						
+			
+
+		</div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Monster Hunter Wilds Open Beta Client Includes References Unrevealed Monsters and More]]></title>
             <link>https://wccftech.com/monster-hunter-wilds-unrevealed-monsters/</link>
