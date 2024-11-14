@@ -4,7 +4,7 @@
         <title>maGaming RSS Feed - insider-gaming_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/insider-gaming_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for insider-gaming_com</description>
-        <lastBuildDate>Thu, 14 Nov 2024 14:44:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 Nov 2024 14:54:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -255,7 +255,163 @@
 
 
 
+<h4>Gunsmith&nbsp;&nbsp;</h4>
 
+
+
+<ul>
+<li>Various updates to weapon descriptions.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue that was sometimes equipping Stickers to the wrong slot or incorrectly equipping as a Large Decal.</li>
+
+
+
+<li>Players will now go directly to the Perk Greed tab instead of Perk 1 tab when trying to edit the bonus Perk slot when the Perk Greed Wildcard is equipped.</li>
+</ul>
+
+
+
+<h4>Perks</h4>
+
+
+
+<ul>
+<li>Slight reduction to Ninja footstep volume.
+<ul>
+<li>Additionally we’ve made a slight reduction to default footstep volume.</li>
+</ul>
+</li>
+
+
+
+<li>Addressed&nbsp;an issue that prevented Gearhead from being able to booby-trap enemy Care Packages.</li>
+
+
+
+<li>Addressed&nbsp;an issue that prevented Equipment from replenishing with the Scavenger Perk.</li>
+</ul>
+
+
+
+<h4>Scorestreaks&nbsp;</h4>
+
+
+
+<ul>
+<li><strong>Archangel&nbsp;</strong>
+<ul>
+<li>Addressed&nbsp;an issue where the rocket would sometimes explode immediately when firing near a wall.&nbsp;</li>
+</ul>
+</li>
+</ul>
+
+
+
+<h4>Ranks &amp; Prestige</h4>
+
+
+
+<ul>
+<li>Added Prestige Master Hub that shows the player’s progress through Prestige Master and all Prestige Master rewards, including hidden redactions for Level 1000 rewards.</li>
+
+
+
+<li>Addressed an issue where Prestige Wallpaper rewards weren’t previewing properly.</li>
+
+
+
+<li>Prestige rewards now display names, descriptions, and other information when browsing Prestige screens.</li>
+</ul>
+
+
+
+<h4>Challenges&nbsp;</h4>
+
+
+
+<ul>
+<li>Addressed&nbsp;an issue where some Daily Challenges were not tracking properly.&nbsp;</li>
+</ul>
+
+
+
+<h4>Movement Updates&nbsp;</h4>
+
+
+
+<ul>
+<li>Addressed&nbsp;a bug causing player to be slowed when shot while mantling.&nbsp;</li>
+</ul>
+
+
+
+<h4>Theater&nbsp;</h4>
+
+
+
+<ul>
+<li>Added Nuketown and Private Match recordings.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;various stability issues when viewing matches.&nbsp;</li>
+</ul>
+
+
+
+<h4>UI&nbsp;</h4>
+
+
+
+<ul>
+<li>Added Mastery Badge Category Calling Card reward previews to the Mastery Badge Hub.</li>
+
+
+
+<li>Players will no longer back all the way out of the Calling Card menu when they choose “Back,” and will instead move back to the previous Calling Card Challenge screen.</li>
+
+
+
+<li>Closed an exploit that allowed players to equip Operators they had not unlocked.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where the AAR could close when entering the Scoreboard tab.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue earned and unearned medals would not display correctly in Collections.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where the option to select an attachment skin would not be visible for some players.&nbsp;</li>
+</ul>
+
+
+
+<h4>Graphics&nbsp;</h4>
+
+
+
+<ul>
+<li>Addressed&nbsp;an issue where some weapon effects would persist on the character after changing weapons.&nbsp;</li>
+</ul>
+
+
+
+<h4>Stability&nbsp;</h4>
+
+
+
+<ul>
+<li>Added numerous stability fixes.&nbsp;</li>
+
+
+
+<li>&nbsp;</li>
+</ul>
 
 
 
@@ -358,6 +514,366 @@
 
 
 <p>Additionally, the HE-1 Launcher has gotten a buff to become more useful at stopping hordes of zombies. When Pack-a-Punched, it will now have more stock ammo and a larger explosion with more overall damage.&nbsp;</p>
+
+
+
+<h4>Bug Fixes&nbsp;</h4>
+
+
+
+<ul>
+<li>Addressed&nbsp;an issue where camos were not being applied to Zombie Builds.&nbsp;</li>
+
+
+
+<li>Closed an exploit that allowed players to have 3 weapons.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where Wallbuy rarity would reset when loading into a save.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where yellow damage numbers would appear when hitting a critical spot with the Ray Gun.&nbsp;</li>
+</ul>
+
+
+
+<h4>Perks</h4>
+
+
+
+<ul>
+<li><strong>Quick Revive</strong>
+<ul>
+<li>Dying Wish Augment
+<ul>
+<li>Addressed&nbsp;an issue where Dying Wish could activate when diving from large heights while protected from fall damage.&nbsp;</li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+
+<li><strong>Elemental Pop&nbsp;</strong>
+<ul>
+<li>Addressed&nbsp;an issue where Elemental Pop would prevent normal Ammo Mod activations.&nbsp;</li>
+</ul>
+</li>
+
+
+
+<li><strong>Jugger-nog&nbsp;</strong>
+<ul>
+<li>Turtle Shell Augment
+<ul>
+<li>Turtle Shell will now apply damage mitigation when being grabbed by an Amalgam.&nbsp;&nbsp;</li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+
+<li><strong>PHD Flopper&nbsp;</strong>
+<ul>
+<li>Addressed&nbsp;an issue where diving onto an elevated or inclined surface, such as stairs or up a hill, would not activate the perk.&nbsp;</li>
+</ul>
+</li>
+</ul>
+
+
+
+<h4>GobbleGums&nbsp;</h4>
+
+
+
+<ul>
+<li>Addressed&nbsp;an issue that prevented players revived by Near Death Experience from keeping all their Perks.&nbsp;</li>
+</ul>
+
+
+
+<h4>Field Upgrades&nbsp;</h4>
+
+
+
+<ul>
+<li>Adjusted the description for the Energy Mine to no longer say it deals Electrical damage to accurately reflect the damage type.&nbsp;</li>
+
+
+
+<li>Increased Dark Flare damage from 20% to 40% of the base zombie max health per tick.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where an extra charge on Field Upgrades would be lost when loading a save.&nbsp;</li>
+</ul>
+
+
+
+<p><strong>Support</strong></p>
+
+
+
+<ul>
+<li>Addressed&nbsp;an issue that could cause the Mutant Injection to end early when near water.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue that allowed the player to pick up a Sentry Turret while using Mutant Injection.&nbsp;</li>
+
+
+
+<li>Reduced self-damage from the LDBR.&nbsp;</li>
+</ul>
+
+
+
+<h4>Save &amp; Load&nbsp;</h4>
+
+
+
+<ul>
+<li>Closed an exploit that allowed keeping a save file after it had already been loaded.&nbsp;</li>
+</ul>
+
+
+
+<h4>Enemies&nbsp;</h4>
+
+
+
+<ul>
+<li>Addressed&nbsp;an issue where zombies charmed by Brain Rot could prevent the player from completing an exfil.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where loading a save would disable the rampage inducer if it was active.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where zombies would throw guts at the end camera if the player leaves the match to end the game.&nbsp;</li>
+
+
+
+<li>Terminus
+<ul>
+<li>Addressed&nbsp;an issue where rarely the round would not end after killing all zombies.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where the Amalgam could grab the player while slowed.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where the Amalgam could pull players into walls causing them to get stuck.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where diving while being hit by knockback from Patient 13 could push the player further than intended.&nbsp;</li>
+</ul>
+</li>
+
+
+
+<li>Liberty Falls
+<ul>
+<li>Addressed&nbsp;an issue that prevented the Abomination from spawning inside Fuller’s Liberty Lanes.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where the Abomination could fire off a beam attack before leaving a spawn closet.&nbsp;</li>
+</ul>
+</li>
+</ul>
+
+
+
+<h4>Activities&nbsp;</h4>
+
+
+
+<ul>
+<li>Addressed&nbsp;an issue that would prevent one elite from spawning consistently during exfil from rounds 16 onward&nbsp;</li>
+
+
+
+<li>Updated S.A.M. Trials that required the player to not take damage to display a progress bar instead of a timer.&nbsp;</li>
+
+
+
+<li>Terminus.
+<ul>
+<li>Addressed&nbsp;an issue where players would be able to use Equipment, Scorestreaks, and fire weapons during the Boat Race awards sequence.&nbsp;</li>
+</ul>
+</li>
+</ul>
+
+
+
+<h4>XP Earn Rates&nbsp;</h4>
+
+
+
+<ul>
+<li>Addressed&nbsp;an issue where XP was being awarded to all weapons being used in an assist instead of just the last one.
+<ul>
+<li>If two weapons were used in an assist only the last one used by the players getting the assist will be awarded XP.&nbsp;</li>
+</ul>
+</li>
+</ul>
+
+
+
+<h4>Challenges&nbsp;</h4>
+
+
+
+<ul>
+<li>Addressed&nbsp;an issue where Wall Buys would not progress the Prestige 8 Challenge Value Town.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where Legendary GobbleGums would progress the Ultra Prestige 8 Challenge Full Power instead of Ultra GobbleGums.&nbsp;</li>
+
+
+
+<li>Addressed an issue where the Liberated Challenge could be completed by saving and quitting before starting the final encounter.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue that would complete the Social Distancing and Invincible Challenges by joining a game in progress.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue that would complete the Harbinger of Doom Challenge when loading into a saved game and using a Scorestreak.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where the Prestige 5 Challenge Fire &amp; Forget would mention needing a Bombing Run medal instead a Lethality medal.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where the player would not complete Outrageous Challenge until Round 16 instead of Round 15.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where loading a save past Round 25 would complete the Sticks N’ Stones Challenge.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where the Dark Journey Challenge could show as not complete when unlocking Nebula on 33 weapons and being awarded the Calling Card.&nbsp;</li>
+</ul>
+
+
+
+<h4>AFK Detection&nbsp;&nbsp;</h4>
+
+
+
+<ul>
+<li>We have updated the detection logic to determine if a player is AFK during an active match.
+<ul>
+<li>This should reduce the amount of false positive AFK kicks in Zombies.&nbsp;</li>
+</ul>
+</li>
+
+
+
+<li>Added AFK Kick warning UI to ZM&nbsp;</li>
+</ul>
+
+
+
+<h4>UI&nbsp;</h4>
+
+
+
+<ul>
+<li>Updated visuals on all GobbleGums to improve readability.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where the Boat UI would overlap with the Map with the Central Command HUD preset.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where the Drop Node Connecter prompt during the Terminus Main Quest would overlap with the Map with the Central Command HUD preset.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where the Round number would initially be displayed incorrectly when loading a save.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where the Weapon Stats on the AAR would show the loadout players started with instead of the loadout they ended with.</li>
+
+
+
+<li>Addressed&nbsp;an issue where some items would show the wrong text on the Tac Map when pinged.&nbsp;</li>
+
+
+
+<li>Removed Multiplayer information from Melee Weapon descriptions.&nbsp;</li>
+
+
+
+<li>Added a Highest Round icon to the AAR when reaching a new personal highest round.&nbsp;</li>
+
+
+
+<li>Added a timer to the scoreboard.&nbsp;</li>
+
+
+
+<li>Added a notification when picking up Intel.&nbsp;</li>
+</ul>
+
+
+
+<h4>Graphics&nbsp;</h4>
+
+
+
+<ul>
+<li>Addressed an issue on PS4 where some effects would stop rendering at higher rounds.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where some effects for the Mutant Injection were not working when Sprinting.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where the character effects from Brutus would be present during Mutant Injection.&nbsp;</li>
+
+
+
+<li>Liberty Falls
+<ul>
+<li>Addressed&nbsp;an issue where some damaged vehicles would not have smoke effects.&nbsp;</li>
+</ul>
+</li>
+</ul>
+
+
+
+<h4>Stability&nbsp;</h4>
+
+
+
+<ul>
+<li>Addressed&nbsp;an issue where the game could crash when attempting to start a solo match after playing in splitscreen.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where sometimes the player would be unable to Save &amp; Quit with the error “The game failed to save for an unknown reason. Try again later.”&nbsp;</li>
+
+
+
+<li>Added numerous stability fixes.&nbsp;</li>
+</ul>
 
 
 

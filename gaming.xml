@@ -4,7 +4,7 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Thu, 14 Nov 2024 14:44:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 Nov 2024 14:54:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -329,7 +329,163 @@
 
 
 
+<h4>Gunsmith&nbsp;&nbsp;</h4>
 
+
+
+<ul>
+<li>Various updates to weapon descriptions.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue that was sometimes equipping Stickers to the wrong slot or incorrectly equipping as a Large Decal.</li>
+
+
+
+<li>Players will now go directly to the Perk Greed tab instead of Perk 1 tab when trying to edit the bonus Perk slot when the Perk Greed Wildcard is equipped.</li>
+</ul>
+
+
+
+<h4>Perks</h4>
+
+
+
+<ul>
+<li>Slight reduction to Ninja footstep volume.
+<ul>
+<li>Additionally we’ve made a slight reduction to default footstep volume.</li>
+</ul>
+</li>
+
+
+
+<li>Addressed&nbsp;an issue that prevented Gearhead from being able to booby-trap enemy Care Packages.</li>
+
+
+
+<li>Addressed&nbsp;an issue that prevented Equipment from replenishing with the Scavenger Perk.</li>
+</ul>
+
+
+
+<h4>Scorestreaks&nbsp;</h4>
+
+
+
+<ul>
+<li><strong>Archangel&nbsp;</strong>
+<ul>
+<li>Addressed&nbsp;an issue where the rocket would sometimes explode immediately when firing near a wall.&nbsp;</li>
+</ul>
+</li>
+</ul>
+
+
+
+<h4>Ranks &amp; Prestige</h4>
+
+
+
+<ul>
+<li>Added Prestige Master Hub that shows the player’s progress through Prestige Master and all Prestige Master rewards, including hidden redactions for Level 1000 rewards.</li>
+
+
+
+<li>Addressed an issue where Prestige Wallpaper rewards weren’t previewing properly.</li>
+
+
+
+<li>Prestige rewards now display names, descriptions, and other information when browsing Prestige screens.</li>
+</ul>
+
+
+
+<h4>Challenges&nbsp;</h4>
+
+
+
+<ul>
+<li>Addressed&nbsp;an issue where some Daily Challenges were not tracking properly.&nbsp;</li>
+</ul>
+
+
+
+<h4>Movement Updates&nbsp;</h4>
+
+
+
+<ul>
+<li>Addressed&nbsp;a bug causing player to be slowed when shot while mantling.&nbsp;</li>
+</ul>
+
+
+
+<h4>Theater&nbsp;</h4>
+
+
+
+<ul>
+<li>Added Nuketown and Private Match recordings.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;various stability issues when viewing matches.&nbsp;</li>
+</ul>
+
+
+
+<h4>UI&nbsp;</h4>
+
+
+
+<ul>
+<li>Added Mastery Badge Category Calling Card reward previews to the Mastery Badge Hub.</li>
+
+
+
+<li>Players will no longer back all the way out of the Calling Card menu when they choose “Back,” and will instead move back to the previous Calling Card Challenge screen.</li>
+
+
+
+<li>Closed an exploit that allowed players to equip Operators they had not unlocked.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where the AAR could close when entering the Scoreboard tab.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue earned and unearned medals would not display correctly in Collections.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where the option to select an attachment skin would not be visible for some players.&nbsp;</li>
+</ul>
+
+
+
+<h4>Graphics&nbsp;</h4>
+
+
+
+<ul>
+<li>Addressed&nbsp;an issue where some weapon effects would persist on the character after changing weapons.&nbsp;</li>
+</ul>
+
+
+
+<h4>Stability&nbsp;</h4>
+
+
+
+<ul>
+<li>Added numerous stability fixes.&nbsp;</li>
+
+
+
+<li>&nbsp;</li>
+</ul>
 
 
 
@@ -432,6 +588,366 @@
 
 
 <p>Additionally, the HE-1 Launcher has gotten a buff to become more useful at stopping hordes of zombies. When Pack-a-Punched, it will now have more stock ammo and a larger explosion with more overall damage.&nbsp;</p>
+
+
+
+<h4>Bug Fixes&nbsp;</h4>
+
+
+
+<ul>
+<li>Addressed&nbsp;an issue where camos were not being applied to Zombie Builds.&nbsp;</li>
+
+
+
+<li>Closed an exploit that allowed players to have 3 weapons.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where Wallbuy rarity would reset when loading into a save.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where yellow damage numbers would appear when hitting a critical spot with the Ray Gun.&nbsp;</li>
+</ul>
+
+
+
+<h4>Perks</h4>
+
+
+
+<ul>
+<li><strong>Quick Revive</strong>
+<ul>
+<li>Dying Wish Augment
+<ul>
+<li>Addressed&nbsp;an issue where Dying Wish could activate when diving from large heights while protected from fall damage.&nbsp;</li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+
+<li><strong>Elemental Pop&nbsp;</strong>
+<ul>
+<li>Addressed&nbsp;an issue where Elemental Pop would prevent normal Ammo Mod activations.&nbsp;</li>
+</ul>
+</li>
+
+
+
+<li><strong>Jugger-nog&nbsp;</strong>
+<ul>
+<li>Turtle Shell Augment
+<ul>
+<li>Turtle Shell will now apply damage mitigation when being grabbed by an Amalgam.&nbsp;&nbsp;</li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+
+<li><strong>PHD Flopper&nbsp;</strong>
+<ul>
+<li>Addressed&nbsp;an issue where diving onto an elevated or inclined surface, such as stairs or up a hill, would not activate the perk.&nbsp;</li>
+</ul>
+</li>
+</ul>
+
+
+
+<h4>GobbleGums&nbsp;</h4>
+
+
+
+<ul>
+<li>Addressed&nbsp;an issue that prevented players revived by Near Death Experience from keeping all their Perks.&nbsp;</li>
+</ul>
+
+
+
+<h4>Field Upgrades&nbsp;</h4>
+
+
+
+<ul>
+<li>Adjusted the description for the Energy Mine to no longer say it deals Electrical damage to accurately reflect the damage type.&nbsp;</li>
+
+
+
+<li>Increased Dark Flare damage from 20% to 40% of the base zombie max health per tick.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where an extra charge on Field Upgrades would be lost when loading a save.&nbsp;</li>
+</ul>
+
+
+
+<p><strong>Support</strong></p>
+
+
+
+<ul>
+<li>Addressed&nbsp;an issue that could cause the Mutant Injection to end early when near water.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue that allowed the player to pick up a Sentry Turret while using Mutant Injection.&nbsp;</li>
+
+
+
+<li>Reduced self-damage from the LDBR.&nbsp;</li>
+</ul>
+
+
+
+<h4>Save &amp; Load&nbsp;</h4>
+
+
+
+<ul>
+<li>Closed an exploit that allowed keeping a save file after it had already been loaded.&nbsp;</li>
+</ul>
+
+
+
+<h4>Enemies&nbsp;</h4>
+
+
+
+<ul>
+<li>Addressed&nbsp;an issue where zombies charmed by Brain Rot could prevent the player from completing an exfil.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where loading a save would disable the rampage inducer if it was active.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where zombies would throw guts at the end camera if the player leaves the match to end the game.&nbsp;</li>
+
+
+
+<li>Terminus
+<ul>
+<li>Addressed&nbsp;an issue where rarely the round would not end after killing all zombies.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where the Amalgam could grab the player while slowed.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where the Amalgam could pull players into walls causing them to get stuck.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where diving while being hit by knockback from Patient 13 could push the player further than intended.&nbsp;</li>
+</ul>
+</li>
+
+
+
+<li>Liberty Falls
+<ul>
+<li>Addressed&nbsp;an issue that prevented the Abomination from spawning inside Fuller’s Liberty Lanes.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where the Abomination could fire off a beam attack before leaving a spawn closet.&nbsp;</li>
+</ul>
+</li>
+</ul>
+
+
+
+<h4>Activities&nbsp;</h4>
+
+
+
+<ul>
+<li>Addressed&nbsp;an issue that would prevent one elite from spawning consistently during exfil from rounds 16 onward&nbsp;</li>
+
+
+
+<li>Updated S.A.M. Trials that required the player to not take damage to display a progress bar instead of a timer.&nbsp;</li>
+
+
+
+<li>Terminus.
+<ul>
+<li>Addressed&nbsp;an issue where players would be able to use Equipment, Scorestreaks, and fire weapons during the Boat Race awards sequence.&nbsp;</li>
+</ul>
+</li>
+</ul>
+
+
+
+<h4>XP Earn Rates&nbsp;</h4>
+
+
+
+<ul>
+<li>Addressed&nbsp;an issue where XP was being awarded to all weapons being used in an assist instead of just the last one.
+<ul>
+<li>If two weapons were used in an assist only the last one used by the players getting the assist will be awarded XP.&nbsp;</li>
+</ul>
+</li>
+</ul>
+
+
+
+<h4>Challenges&nbsp;</h4>
+
+
+
+<ul>
+<li>Addressed&nbsp;an issue where Wall Buys would not progress the Prestige 8 Challenge Value Town.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where Legendary GobbleGums would progress the Ultra Prestige 8 Challenge Full Power instead of Ultra GobbleGums.&nbsp;</li>
+
+
+
+<li>Addressed an issue where the Liberated Challenge could be completed by saving and quitting before starting the final encounter.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue that would complete the Social Distancing and Invincible Challenges by joining a game in progress.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue that would complete the Harbinger of Doom Challenge when loading into a saved game and using a Scorestreak.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where the Prestige 5 Challenge Fire &amp; Forget would mention needing a Bombing Run medal instead a Lethality medal.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where the player would not complete Outrageous Challenge until Round 16 instead of Round 15.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where loading a save past Round 25 would complete the Sticks N’ Stones Challenge.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where the Dark Journey Challenge could show as not complete when unlocking Nebula on 33 weapons and being awarded the Calling Card.&nbsp;</li>
+</ul>
+
+
+
+<h4>AFK Detection&nbsp;&nbsp;</h4>
+
+
+
+<ul>
+<li>We have updated the detection logic to determine if a player is AFK during an active match.
+<ul>
+<li>This should reduce the amount of false positive AFK kicks in Zombies.&nbsp;</li>
+</ul>
+</li>
+
+
+
+<li>Added AFK Kick warning UI to ZM&nbsp;</li>
+</ul>
+
+
+
+<h4>UI&nbsp;</h4>
+
+
+
+<ul>
+<li>Updated visuals on all GobbleGums to improve readability.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where the Boat UI would overlap with the Map with the Central Command HUD preset.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where the Drop Node Connecter prompt during the Terminus Main Quest would overlap with the Map with the Central Command HUD preset.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where the Round number would initially be displayed incorrectly when loading a save.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where the Weapon Stats on the AAR would show the loadout players started with instead of the loadout they ended with.</li>
+
+
+
+<li>Addressed&nbsp;an issue where some items would show the wrong text on the Tac Map when pinged.&nbsp;</li>
+
+
+
+<li>Removed Multiplayer information from Melee Weapon descriptions.&nbsp;</li>
+
+
+
+<li>Added a Highest Round icon to the AAR when reaching a new personal highest round.&nbsp;</li>
+
+
+
+<li>Added a timer to the scoreboard.&nbsp;</li>
+
+
+
+<li>Added a notification when picking up Intel.&nbsp;</li>
+</ul>
+
+
+
+<h4>Graphics&nbsp;</h4>
+
+
+
+<ul>
+<li>Addressed an issue on PS4 where some effects would stop rendering at higher rounds.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where some effects for the Mutant Injection were not working when Sprinting.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where the character effects from Brutus would be present during Mutant Injection.&nbsp;</li>
+
+
+
+<li>Liberty Falls
+<ul>
+<li>Addressed&nbsp;an issue where some damaged vehicles would not have smoke effects.&nbsp;</li>
+</ul>
+</li>
+</ul>
+
+
+
+<h4>Stability&nbsp;</h4>
+
+
+
+<ul>
+<li>Addressed&nbsp;an issue where the game could crash when attempting to start a solo match after playing in splitscreen.&nbsp;</li>
+
+
+
+<li>Addressed&nbsp;an issue where sometimes the player would be unable to Save &amp; Quit with the error “The game failed to save for an unknown reason. Try again later.”&nbsp;</li>
+
+
+
+<li>Added numerous stability fixes.&nbsp;</li>
+</ul>
 
 
 
@@ -544,7 +1060,7 @@
 
                   
           <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
-                <p dir="ltr">Oftentimes, video games are delayed because the project hasn't fully come together, riddled with performance issues or game-breaking bugs. But that's not the case with Avowed, according to Xbox head honcho Phil Spencer. He pushed back Obsidian's upcoming RPG because this holiday season was too crowded for the company.</p><p dir="ltr">Speaking with <a href="https://www.gamefile.news/p/xbox-phil-spencer-blizzard-avowed-south-of-midnight" data-target="true" target="_blank" rel="noopener nofollow">Game File</a> (via <a href="https://www.videogameschronicle.com/news/phil-spencer-says-avowed-wasnt-delayed-due-to-quality-concerns/" data-target="true" target="_blank" rel="noopener nofollow">VGC</a>), Spencer discussed <a href="https://www.gamespot.com/articles/avowed-delayed-to-february-2025-graciously-making-2024-a-little-less-crowded/1100-6525519/" data-ref-id="1100-6525519">Avowed's delay to February</a>, noting Xbox currently has the benefit of a packed holiday season with Call of Duty: Black Ops 6, <a href="https://www.gamespot.com/reviews/diablo-4-vessel-of-hatred-review-piercing-the-veil/1900-6418298/" data-ref-id="1900-6418298">Diablo 4: Vessel of Hate</a>, and next month's Indiana Jones and the Great Circle (not to mention Microsoft Flight Simulator 2024). This allowed Xbox to space out releases and give Avowed its own time to shine next year.</p><p dir="ltr">"We didn't move it because Obsidian needed the time," Spencer said. "They'll use the time."</p><div tabindex="0" data-id="1806170615" data-promo-id="0" data-user-has-ads="1" data-video="{&quot;id&quot;:6464966,&quot;title&quot;:&quot;Avowed%20Refreshes%20The%20Fantasy%20Action%20Genre%20%7C%20GameSpot%20Preview%20%7C%20gamescom%202024&quot;,&quot;lengthSeconds&quot;:564,&quot;startTime&quot;:0,&quot;autoplay&quot;:false,&quot;share&quot;:{&quot;linkUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/avowed-refreshes-the-fantasy-action-genre-gamespot-preview-gamescom-2024\/2300-6464966\/&quot;,&quot;embedUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/embed\/6464966\/&quot;,&quot;embedHtml&quot;:{&quot;640&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6464966\/\&quot; height=\&quot;360\&quot; width=\&quot;640\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;,&quot;480&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6464966\/\&quot; height=\&quot;270\&quot; width=\&quot;480\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;}},&quot;device&quot;:&quot;other&quot;,&quot;isDevice&quot;:false,&quot;isLiveStream&quot;:false,&quot;videoType&quot;:&quot;video-on-demand&quot;,&quot;countdownTime&quot;:0,&quot;guid&quot;:&quot;gs-2300-6464966&quot;,&quot;ageGateCookieName&quot;:&quot;videoAgeGateBirthday&quot;,&quot;watchedCookieName&quot;:&quot;watchedVideoIds&quot;,&quot;watchedCookieDays&quot;:1,&quot;postPlayMax&quot;:100,&quot;adCall&quot;:{&quot;host&quot;:&quot;http:\/\/pubads.g.doubleclick.net\/gampad\/ads?&quot;,&quot;params&quot;:{&quot;iu&quot;:&quot;\/5441\/vaw-gamespot\/desktop\/gamespot.com&quot;,&quot;impl&quot;:&quot;s&quot;,&quot;gdfp_req&quot;:1,&quot;env&quot;:&quot;vp&quot;,&quot;output&quot;:&quot;xml_vmap1&quot;,&quot;unviewed_position_start&quot;:1,&quot;url&quot;:&quot;[referrer_url]&quot;,&quot;correlator&quot;:&quot;[timestamp]&quot;,&quot;description_url&quot;:&quot;[description_url]&quot;,&quot;cmsid&quot;:2566084,&quot;vid&quot;:6464966,&quot;pp&quot;:&quot;vpaid_js&quot;},&quot;custParams&quot;:{&quot;ptype&quot;:&quot;news_article&quot;,&quot;cid&quot;:&quot;gs-1100-6527757&quot;,&quot;game&quot;:&quot;avowed&quot;,&quot;genre&quot;:&quot;role-playing&quot;,&quot;con&quot;:&quot;xbox-series-x,pc&quot;,&quot;publisher&quot;:&quot;xbox-game-studios&quot;,&quot;franchise&quot;:&quot;pillars-of-eternity&quot;,&quot;category&quot;:&quot;games&quot;,&quot;franchiseRoot&quot;:&quot;pillars-of-eternity&quot;,&quot;partner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;vid&quot;:6464966},&quot;soundBasedSize&quot;:{&quot;normal&quot;:&quot;640x480&quot;,&quot;muted&quot;:&quot;640x483&quot;,&quot;none&quot;:&quot;640x480&quot;},&quot;daiSsbUrl&quot;:&quot;https:\/\/dai.google.com\/ondemand\/hls\/content\/2572465\/vid\/6464966\/master.m3u8&quot;,&quot;daiMidRollHost&quot;:2500176},&quot;uvpHi5Ima&quot;:&quot;https:\/\/s0.2mdn.net\/instream\/html5\/ima3.js&quot;,&quot;cuePoints&quot;:null,&quot;uvpc&quot;:&quot;&quot;,&quot;partner&quot;:&quot;gamespot&quot;,&quot;adPartner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;desktopAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;mobileAdPartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;,&quot;mapp&quot;:&quot;gamespot&quot;,&quot;cms&quot;:&quot;pi&quot;,&quot;seekablePlaybacks&quot;:[&quot;html5&quot;,&quot;uvpjs&quot;],&quot;tracking&quot;:[{&quot;name&quot;:&quot;SiteCatalyst&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;charSet&quot;,&quot;value&quot;:&quot;UTF-8&quot;},{&quot;name&quot;:&quot;currencyCode&quot;,&quot;value&quot;:&quot;USD&quot;},{&quot;name&quot;:&quot;siteType&quot;,&quot;value&quot;:&quot;responsive web&quot;},{&quot;name&quot;:&quot;trackingServer&quot;,&quot;value&quot;:&quot;saa.gamespot.com&quot;},{&quot;name&quot;:&quot;visitorNamespace&quot;,&quot;value&quot;:&quot;cbsinteractive&quot;},{&quot;name&quot;:&quot;heartbeatTrackingServer&quot;,&quot;value&quot;:&quot;newimagitasinc.hb.omtrdc.net&quot;},{&quot;name&quot;:&quot;heartbeatVisitorMarketingCloudOrgId&quot;,&quot;value&quot;:&quot;3C66570E5FE1A4AB0A495FFC@AdobeOrg&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;siteCode&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;brand&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;account&quot;,&quot;value&quot;:&quot;cbsigamespotsite&quot;},{&quot;name&quot;:&quot;edition&quot;,&quot;value&quot;:&quot;us&quot;}]},{&quot;name&quot;:&quot;ComScore_ss&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;c2&quot;,&quot;value&quot;:&quot;31824268&quot;},{&quot;name&quot;:&quot;publishersSecret&quot;,&quot;value&quot;:&quot;2cb08ca4d095dd734a374dff8422c2e5&quot;},{&quot;name&quot;:&quot;c3&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;c4&quot;,&quot;value&quot;:&quot;gamespot&quot;}]},{&quot;name&quot;:&quot;NielsenTracking&quot;,&quot;category&quot;:&quot;tracking&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;host&quot;,&quot;value&quot;:&quot;https:\/\/secure-us.imrworldwide.com\/cgi-bin\/m?&quot;},{&quot;name&quot;:&quot;scCI&quot;,&quot;value&quot;:&quot;us-200330&quot;},{&quot;name&quot;:&quot;scC6&quot;,&quot;value&quot;:&quot;vc,c01&quot;}]},{&quot;name&quot;:&quot;MuxQOSPluginJS&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;propertyKey&quot;,&quot;value&quot;:&quot;b7d6e48b7461a61cb6e863a62&quot;}]}],&quot;trackingAccount&quot;:&quot;cbsigamespotsite&quot;,&quot;trackingSiteCode&quot;:&quot;gs&quot;,&quot;trackingPrimaryId&quot;:&quot;cbsigamespotsite&quot;,&quot;videoAssetSource&quot;:&quot;GameSpot&quot;,&quot;uvpjsHostname&quot;:&quot;\/\/www.gamespot.com&quot;,&quot;siteType&quot;:&quot;responsive web&quot;,&quot;startMuted&quot;:false,&quot;screenMediumThumb&quot;:&quot;https:\/\/www.gamespot.com\/a\/uploads\/screen_medium\/1823\/18237460\/4356331-preview_avowed_thumb2.jpg&quot;,&quot;videoStreams&quot;:{&quot;adaptive_stream&quot;:&quot;https:\/\/cdn.jwplayer.com\/manifests\/aUN4pVVG.m3u8&quot;},&quot;userId&quot;:0,&quot;premium&quot;:false,&quot;datePublished&quot;:1724439960,&quot;videoAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;videoAdMobilePartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;}" data-non-iframe-embed="1" data-jw-context-name="gamespot" data-jw-media-id="aUN4pVVG" data-jw-player-url="https://cdn.jwplayer.com/libraries/VXc5h4Tf.js" data-jw-video-token="" data-has-youtube="" data-youtube-icon-path="https://www.gamespot.com/a/bundles/phoenixsite/images/core/loose/icn-youtube-30x30.png" id="video-rectangle" data-embed-type="video" data-ref-id="2300-6464966" data-src="/videos/avowed-refreshes-the-fantasy-action-genre-gamespot-preview-gamescom-2024/2300-6464966/" data-width="100%" data-height="100%" data-video-start="0"><div><p>Avowed Refreshes The Fantasy Action Genre | GameSpot Preview | gamescom 2024</p><div><p>         Want us to remember this setting for all your devices?       </p><p><a href="https://www.gamespot.com/signup/">Sign up</a> or <a href="https://www.gamespot.com/login/">Sign in</a> now!       </p></div></div><p>       Please use a html5 video capable browser to watch videos.     </p><p>       This video has an invalid file format.     </p><p>Sorry, but you can't access this content!</p></div><p dir="ltr">As such, Spencer worked with Xbox Game Studios head Matt Booty on scheduling out game releases and working with the Game Pass team. "We said, 'OK, let's make sure we pace this out a little better.'”</p><p dir="ltr">Avowed is now slated to launch on PC and Xbox Series X|S on February 18, 2025. <a href="https://www.gamespot.com/articles/2025-upcoming-games-release-schedule/1100-6526471/" data-ref-id="1100-6526471">It's not a barren month</a> by any means, as other big games scheduled then include Civilization VII and Monster Hunter Wilds.</p><p dir="ltr">Earlier this year, Obsidian revealed that <a href="https://www.gamespot.com/articles/avowed-will-be-30fps-on-xbox-series-x-allowing-for-juicier-visual-effects/1100-6526077/" data-ref-id="1100-6526077">Avowed will run at 30fps on Xbox Series X</a>, enabling "juicier visuals." The developer is promising <a href="https://www.gamespot.com/articles/avowed-possible-endings-number-in-the-double-digits/1100-6526049/" data-ref-id="1100-6526049">possible endings in Avowed that "number in the double digits."</a> GameSpot got an hour with the RPG in August, coming away with the impression that <a href="https://www.gamespot.com/articles/xbox-exclusive-avowed-is-like-skyrim-plus-one-of-the-last-decades-best-sci-fi-movies/1100-6526088/" data-ref-id="1100-6526088">Avowed is like Skyrim mixed with Annihilation</a>.</p>
+                <p dir="ltr">Oftentimes, video games are delayed because the project hasn't fully come together, riddled with performance issues or game-breaking bugs. But that's not the case with Avowed, according to Xbox head honcho Phil Spencer. He pushed back Obsidian's upcoming RPG because this holiday season was too crowded for the company.</p><p dir="ltr">Speaking with <a href="https://www.gamefile.news/p/xbox-phil-spencer-blizzard-avowed-south-of-midnight" data-target="true" target="_blank" rel="noopener nofollow">Game File</a> (via <a href="https://www.videogameschronicle.com/news/phil-spencer-says-avowed-wasnt-delayed-due-to-quality-concerns/" data-target="true" target="_blank" rel="noopener nofollow">VGC</a>), Spencer discussed <a href="https://www.gamespot.com/articles/avowed-delayed-to-february-2025-graciously-making-2024-a-little-less-crowded/1100-6525519/" data-ref-id="1100-6525519">Avowed's delay to February</a>, noting Xbox currently has the benefit of a packed holiday season with Call of Duty: Black Ops 6, <a href="https://www.gamespot.com/reviews/diablo-4-vessel-of-hatred-review-piercing-the-veil/1900-6418298/" data-ref-id="1900-6418298">Diablo 4: Vessel of Hate</a>, and next month's Indiana Jones and the Great Circle (not to mention Microsoft Flight Simulator 2024). This allowed Xbox to space out releases and give Avowed its own time to shine next year.</p><p dir="ltr">"We didn't move it because Obsidian needed the time," Spencer said. "They'll use the time."</p><div tabindex="0" data-id="2127143211" data-promo-id="0" data-user-has-ads="1" data-video="{&quot;id&quot;:6464966,&quot;title&quot;:&quot;Avowed%20Refreshes%20The%20Fantasy%20Action%20Genre%20%7C%20GameSpot%20Preview%20%7C%20gamescom%202024&quot;,&quot;lengthSeconds&quot;:564,&quot;startTime&quot;:0,&quot;autoplay&quot;:false,&quot;share&quot;:{&quot;linkUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/avowed-refreshes-the-fantasy-action-genre-gamespot-preview-gamescom-2024\/2300-6464966\/&quot;,&quot;embedUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/embed\/6464966\/&quot;,&quot;embedHtml&quot;:{&quot;640&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6464966\/\&quot; height=\&quot;360\&quot; width=\&quot;640\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;,&quot;480&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6464966\/\&quot; height=\&quot;270\&quot; width=\&quot;480\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;}},&quot;device&quot;:&quot;other&quot;,&quot;isDevice&quot;:false,&quot;isLiveStream&quot;:false,&quot;videoType&quot;:&quot;video-on-demand&quot;,&quot;countdownTime&quot;:0,&quot;guid&quot;:&quot;gs-2300-6464966&quot;,&quot;ageGateCookieName&quot;:&quot;videoAgeGateBirthday&quot;,&quot;watchedCookieName&quot;:&quot;watchedVideoIds&quot;,&quot;watchedCookieDays&quot;:1,&quot;postPlayMax&quot;:100,&quot;adCall&quot;:{&quot;host&quot;:&quot;http:\/\/pubads.g.doubleclick.net\/gampad\/ads?&quot;,&quot;params&quot;:{&quot;iu&quot;:&quot;\/5441\/vaw-gamespot\/desktop\/gamespot.com&quot;,&quot;impl&quot;:&quot;s&quot;,&quot;gdfp_req&quot;:1,&quot;env&quot;:&quot;vp&quot;,&quot;output&quot;:&quot;xml_vmap1&quot;,&quot;unviewed_position_start&quot;:1,&quot;url&quot;:&quot;[referrer_url]&quot;,&quot;correlator&quot;:&quot;[timestamp]&quot;,&quot;description_url&quot;:&quot;[description_url]&quot;,&quot;cmsid&quot;:2566084,&quot;vid&quot;:6464966,&quot;pp&quot;:&quot;vpaid_js&quot;},&quot;custParams&quot;:{&quot;ptype&quot;:&quot;news_article&quot;,&quot;cid&quot;:&quot;gs-1100-6527757&quot;,&quot;game&quot;:&quot;avowed&quot;,&quot;genre&quot;:&quot;role-playing&quot;,&quot;con&quot;:&quot;xbox-series-x,pc&quot;,&quot;publisher&quot;:&quot;xbox-game-studios&quot;,&quot;franchise&quot;:&quot;pillars-of-eternity&quot;,&quot;category&quot;:&quot;games&quot;,&quot;franchiseRoot&quot;:&quot;pillars-of-eternity&quot;,&quot;partner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;vid&quot;:6464966},&quot;soundBasedSize&quot;:{&quot;normal&quot;:&quot;640x480&quot;,&quot;muted&quot;:&quot;640x483&quot;,&quot;none&quot;:&quot;640x480&quot;},&quot;daiSsbUrl&quot;:&quot;https:\/\/dai.google.com\/ondemand\/hls\/content\/2572465\/vid\/6464966\/master.m3u8&quot;,&quot;daiMidRollHost&quot;:2500176},&quot;uvpHi5Ima&quot;:&quot;https:\/\/s0.2mdn.net\/instream\/html5\/ima3.js&quot;,&quot;cuePoints&quot;:null,&quot;uvpc&quot;:&quot;&quot;,&quot;partner&quot;:&quot;gamespot&quot;,&quot;adPartner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;desktopAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;mobileAdPartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;,&quot;mapp&quot;:&quot;gamespot&quot;,&quot;cms&quot;:&quot;pi&quot;,&quot;seekablePlaybacks&quot;:[&quot;html5&quot;,&quot;uvpjs&quot;],&quot;tracking&quot;:[{&quot;name&quot;:&quot;SiteCatalyst&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;charSet&quot;,&quot;value&quot;:&quot;UTF-8&quot;},{&quot;name&quot;:&quot;currencyCode&quot;,&quot;value&quot;:&quot;USD&quot;},{&quot;name&quot;:&quot;siteType&quot;,&quot;value&quot;:&quot;responsive web&quot;},{&quot;name&quot;:&quot;trackingServer&quot;,&quot;value&quot;:&quot;saa.gamespot.com&quot;},{&quot;name&quot;:&quot;visitorNamespace&quot;,&quot;value&quot;:&quot;cbsinteractive&quot;},{&quot;name&quot;:&quot;heartbeatTrackingServer&quot;,&quot;value&quot;:&quot;newimagitasinc.hb.omtrdc.net&quot;},{&quot;name&quot;:&quot;heartbeatVisitorMarketingCloudOrgId&quot;,&quot;value&quot;:&quot;3C66570E5FE1A4AB0A495FFC@AdobeOrg&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;siteCode&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;brand&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;account&quot;,&quot;value&quot;:&quot;cbsigamespotsite&quot;},{&quot;name&quot;:&quot;edition&quot;,&quot;value&quot;:&quot;us&quot;}]},{&quot;name&quot;:&quot;ComScore_ss&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;c2&quot;,&quot;value&quot;:&quot;31824268&quot;},{&quot;name&quot;:&quot;publishersSecret&quot;,&quot;value&quot;:&quot;2cb08ca4d095dd734a374dff8422c2e5&quot;},{&quot;name&quot;:&quot;c3&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;c4&quot;,&quot;value&quot;:&quot;gamespot&quot;}]},{&quot;name&quot;:&quot;NielsenTracking&quot;,&quot;category&quot;:&quot;tracking&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;host&quot;,&quot;value&quot;:&quot;https:\/\/secure-us.imrworldwide.com\/cgi-bin\/m?&quot;},{&quot;name&quot;:&quot;scCI&quot;,&quot;value&quot;:&quot;us-200330&quot;},{&quot;name&quot;:&quot;scC6&quot;,&quot;value&quot;:&quot;vc,c01&quot;}]},{&quot;name&quot;:&quot;MuxQOSPluginJS&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;propertyKey&quot;,&quot;value&quot;:&quot;b7d6e48b7461a61cb6e863a62&quot;}]}],&quot;trackingAccount&quot;:&quot;cbsigamespotsite&quot;,&quot;trackingSiteCode&quot;:&quot;gs&quot;,&quot;trackingPrimaryId&quot;:&quot;cbsigamespotsite&quot;,&quot;videoAssetSource&quot;:&quot;GameSpot&quot;,&quot;uvpjsHostname&quot;:&quot;\/\/www.gamespot.com&quot;,&quot;siteType&quot;:&quot;responsive web&quot;,&quot;startMuted&quot;:false,&quot;screenMediumThumb&quot;:&quot;https:\/\/www.gamespot.com\/a\/uploads\/screen_medium\/1823\/18237460\/4356331-preview_avowed_thumb2.jpg&quot;,&quot;videoStreams&quot;:{&quot;adaptive_stream&quot;:&quot;https:\/\/cdn.jwplayer.com\/manifests\/aUN4pVVG.m3u8&quot;},&quot;userId&quot;:0,&quot;premium&quot;:false,&quot;datePublished&quot;:1724439960,&quot;videoAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;videoAdMobilePartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;}" data-non-iframe-embed="1" data-jw-context-name="gamespot" data-jw-media-id="aUN4pVVG" data-jw-player-url="https://cdn.jwplayer.com/libraries/VXc5h4Tf.js" data-jw-video-token="" data-has-youtube="" data-youtube-icon-path="https://www.gamespot.com/a/bundles/phoenixsite/images/core/loose/icn-youtube-30x30.png" id="video-rectangle" data-embed-type="video" data-ref-id="2300-6464966" data-src="/videos/avowed-refreshes-the-fantasy-action-genre-gamespot-preview-gamescom-2024/2300-6464966/" data-width="100%" data-height="100%" data-video-start="0"><div><p>Avowed Refreshes The Fantasy Action Genre | GameSpot Preview | gamescom 2024</p><div><p>         Want us to remember this setting for all your devices?       </p><p><a href="https://www.gamespot.com/signup/">Sign up</a> or <a href="https://www.gamespot.com/login/">Sign in</a> now!       </p></div></div><p>       Please use a html5 video capable browser to watch videos.     </p><p>       This video has an invalid file format.     </p><p>Sorry, but you can't access this content!</p></div><p dir="ltr">As such, Spencer worked with Xbox Game Studios head Matt Booty on scheduling out game releases and working with the Game Pass team. "We said, 'OK, let's make sure we pace this out a little better.'”</p><p dir="ltr">Avowed is now slated to launch on PC and Xbox Series X|S on February 18, 2025. <a href="https://www.gamespot.com/articles/2025-upcoming-games-release-schedule/1100-6526471/" data-ref-id="1100-6526471">It's not a barren month</a> by any means, as other big games scheduled then include Civilization VII and Monster Hunter Wilds.</p><p dir="ltr">Earlier this year, Obsidian revealed that <a href="https://www.gamespot.com/articles/avowed-will-be-30fps-on-xbox-series-x-allowing-for-juicier-visual-effects/1100-6526077/" data-ref-id="1100-6526077">Avowed will run at 30fps on Xbox Series X</a>, enabling "juicier visuals." The developer is promising <a href="https://www.gamespot.com/articles/avowed-possible-endings-number-in-the-double-digits/1100-6526049/" data-ref-id="1100-6526049">possible endings in Avowed that "number in the double digits."</a> GameSpot got an hour with the RPG in August, coming away with the impression that <a href="https://www.gamespot.com/articles/xbox-exclusive-avowed-is-like-skyrim-plus-one-of-the-last-decades-best-sci-fi-movies/1100-6526088/" data-ref-id="1100-6526088">Avowed is like Skyrim mixed with Annihilation</a>.</p>
   
                         
     
@@ -644,7 +1160,7 @@
 
     
     <p><span>New story focused on Sakuna's close friend Princess Kokorowa.</span>
-      </p></div><div><p>Publishers <a title="Companies > Marvelous [1,326 articles]" href="https://www.gematsu.com/companies/marvelous">Marvelous</a>, <a title="Companies > XSEED Games [495 articles]" href="https://www.gematsu.com/companies/marvelous/xseed-games">XSEED Games</a>, and <a title="Companies > Marvelous Europe [146 articles]" href="https://www.gematsu.com/companies/marvelous/marvelous-europe">Marvelous Europe</a>, and developer <a title="Companies > Edelweiss [30 articles]" href="https://www.gematsu.com/companies/edelweiss">Edelweiss</a> have announced <em><a title="Games > Sakuna Chronicles: Kokorowa and the Gears of Creation [1 article]" href="https://www.gematsu.com/games/sakuna-chronicles-kokorowa-and-the-gears-of-creation">Sakuna Chronicles: Kokorowa and the Gears of Creation</a></em>, a spin-off of <em><a title="Games > Sakuna: Of Rice and Ruin [31 articles]" href="https://www.gematsu.com/games/sakuna-of-rice-and-ruin">Sakuna: Of Rice and Ruin</a></em>. Platforms and a release date were not announced. <span id="more-927727"></span></p><p>The press release reads, “Currently in development by Edelweiss, developers of the smash-hit indie <a title="Genres > Action [2,305 articles]" href="https://www.gematsu.com/genres/action">action</a> <a title="Genres > Platformer [571 articles]" href="https://www.gematsu.com/genres/platformer">platformer</a> and rice-farming sim <em>Sakuna: Of Rice and Ruin</em>, [<em>Sakuna Chronicles: Kokorowa and the Gears of Creation</em>] is the first entry in an expanding <em>Sakuna</em> franchise. The game will tell a spin-off story focused on the brilliant Princess Kokorowa, Sakuna’s close friend, who is a high-ranking goddess presiding over wheels and inventions from her heavenly home.”</p><p>More information will be announced at a later date. </p><p>Watch the teaser trailer below. View the first artwork <a href="https://www.gematsu.com/gallery/sakuna-chronicles-kokorowa-and-the-gears-of-creation/november-14-2024/">at the gallery</a>. Visit the official website here: <a href="https://na.sakuna-game.com/kokorowa/" rel="noopener" target="_blank">English</a>, <a href="https://sakuna-game.com/kokorowa/" rel="noopener" target="_blank">Japanese</a>.</p><h2><span>Teaser Trailer</span></h2><p><strong>English</strong></p><!-- AD: content -->
+      </p></div><div><p>Publishers <a title="Companies > Marvelous [1,326 articles]" href="https://www.gematsu.com/companies/marvelous">Marvelous</a>, <a title="Companies > XSEED Games [495 articles]" href="https://www.gematsu.com/companies/marvelous/xseed-games">XSEED Games</a>, and <a title="Companies > Marvelous Europe [146 articles]" href="https://www.gematsu.com/companies/marvelous/marvelous-europe">Marvelous Europe</a>, and developer <a title="Companies > Edelweiss [30 articles]" href="https://www.gematsu.com/companies/edelweiss">Edelweiss</a> have announced <em><a title="Games > Sakuna Chronicles: Kokorowa and the Gears of Creation [1 article]" href="https://www.gematsu.com/games/sakuna-chronicles-kokorowa-and-the-gears-of-creation">Sakuna Chronicles: Kokorowa and the Gears of Creation</a></em>, a spin-off of <em><a title="Games > Sakuna: Of Rice and Ruin [31 articles]" href="https://www.gematsu.com/games/sakuna-of-rice-and-ruin">Sakuna: Of Rice and Ruin</a></em>. Platforms and a release date were not announced. <span id="more-927727"></span></p><p>The press release reads, “Currently in development by Edelweiss, developers of the smash-hit indie <a title="Genres > Action [2,305 articles]" href="https://www.gematsu.com/genres/action">action</a> <a title="Genres > Platformer [571 articles]" href="https://www.gematsu.com/genres/platformer">platformer</a> and rice-farming sim <em>Sakuna: Of Rice and Ruin</em>, [<em>Sakuna Chronicles: Kokorowa and the Gears of Creation</em>] is the first entry in an expanding <em>Sakuna</em> franchise. The game will tell a spin-off story focused on the brilliant Princess Kokorowa, Sakuna’s close friend, who is a high-ranking goddess presiding over wheels and inventions from her heavenly home.”</p><p>More information will be announced at a later date. In related news, a continuation of the <em>Sakuna: Of Rice and Ruin</em> television anime and an untitled smartphone game were also <a href="https://sakuna-anime.com/news/detail_241114_01.html" rel="noopener" target="_blank">confirmed</a>.</p><p>Watch the teaser trailer below. View the first artwork <a href="https://www.gematsu.com/gallery/sakuna-chronicles-kokorowa-and-the-gears-of-creation/november-14-2024/">at the gallery</a>. Visit the official website here: <a href="https://na.sakuna-game.com/kokorowa/" rel="noopener" target="_blank">English</a>, <a href="https://sakuna-game.com/kokorowa/" rel="noopener" target="_blank">Japanese</a>.</p><h2><span>Teaser Trailer</span></h2><p><strong>English</strong></p><!-- AD: content -->
         <p><iframe title="Sakuna Chronicles: Kokorowa and the Gears Of Creation - Teaser Trailer" width="500" height="281" src="https://www.youtube.com/embed/lEp2xZvEz70?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p><p><strong>Japanese</strong></p><p><iframe title="『サクナヒメ外伝 ココロワと想世の歯車』ティザートレーラー" width="500" height="281" src="https://www.youtube.com/embed/yBmca65E_jo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p><h2><span>Artwork</span></h2><div id="carousel_927778"><ul><li><span>❮</span></li><li><span>❯</span></li></ul></div></div></div>]]></content:encoded>
         </item>
         <item>
@@ -905,9 +1421,9 @@
 
 
   <p>
-    <a href="https://arstechnica.com/gaming/2024/11/dragon-age-the-veilguard-and-the-choices-you-make-while-saving-the-world/#comments" title="4 comments">
+    <a href="https://arstechnica.com/gaming/2024/11/dragon-age-the-veilguard-and-the-choices-you-make-while-saving-the-world/#comments" title="7 comments">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><defs><clipPath id="bubble-zero_svg__a"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath><clipPath id="bubble-zero_svg__b"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath></defs><g clip-path="url(#bubble-zero_svg__a)"><g fill="currentColor" clip-path="url(#bubble-zero_svg__b)"><path d="M80 40c0 22.09-17.91 40-40 40S0 62.09 0 40 17.91 0 40 0s40 17.91 40 40"></path><path d="M40 40 .59 76.58C-.67 77.84.22 80 2.01 80H40z"></path></g></g></svg>
-    4 Comments
+    7 Comments
   </a>
       </p>
 
@@ -951,7 +1467,7 @@
 
                   
           <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
-                <p>It's a big day for Call of Duty, as November 14 marks the launch of Call of Duty: Black Ops 6 Season 1, which also includes the debut of a new Call of Duty: Warzone map, Area 99.</p><p>Season 1 is a big update, coming in at 74GB on Xbox and 50GB on PlayStation, according to CharlieIntel. Players can pre-load the update now so they can jump in when Season 1 officially goes live today at 9 AM PT / 12 PM ET. [<strong>Update: Season 1 went live early, it seems, as it's now available for everyone]</strong></p><div data-embed-type="tweet" data-src="https://x.com/charlieintel/status/1857034936911265908?s=46&amp;t=gp9HY1NQP1eeZxZoq0Xxsw" data-has-image="false"><blockquote data-conversation="none" data-mce-disable-toolbar="true"><p dir="ltr">Call of Duty: Black Ops 6 Season 01 pre-load should be live for Xbox and PlayStation players. <br>Xbox: around 74GB <br>PlayStation around 50GB<br>Season begins 9am PT.</p>  — CharlieIntel (@charlieINTEL) <a href="https://twitter.com/charlieINTEL/status/1857034936911265908?ref_src=twsrc%5Etfw">November 14, 2024</a></blockquote>              </div><p>Call of Duty updates are known to be massive in file size, and the Season 1 launch continues this trend. To help combat the growing file sizes, Activision has <a href="https://www.gamespot.com/articles/call-of-duty-file-sizes-are-getting-smaller-including-black-ops-6/1100-6525832/" data-ref-id="1100-6525832">undergone efforts to decrease Call of Duty file sizes</a>, including streaming some assets and other means. Despite this, given the size of the Black Ops 6 Season 1 update, players may need to delete some files to make room.</p><p>Black Ops 6 Season 1 adds new multiplayer maps, modes, and weapons, while the in-game store gets fleshed out with a host of store bundles, including one that <a href="https://www.gamespot.com/gallery/cod-black-ops-6-and-warzone-season-1-battle-pass-includes-dlc-weapons-sev-operator-and-new-blackcell/2900-5944/" data-ref-id="2900-5944">turns you into a shark</a>. The in-game store also welcomes the <a href="https://www.gamespot.com/articles/black-ops-6-blackcell-trailer-shows-off-one-of-cods-most-impressive-operators-yet/1100-6527752/" data-ref-id="1100-6527752">first Black Ops 6 BlackCell bundle, which includes the Goliath operator.</a></p><p>For Warzone, the <a href="https://www.gamespot.com/articles/new-cod-warzone-map-area-99-is-where-nuketown-was-born/1100-6526171/" data-ref-id="1100-6526171">new Area 99 map takes players to the place Nuketown was born</a>. The Season 1 update also marks the introduction of Black Ops 6 content in Warzone, including the Omnimovement system.</p>
+                <p>It's a big day for Call of Duty, as November 14 marks the launch of Call of Duty: Black Ops 6 Season 1, which also includes the debut of a new Call of Duty: Warzone map, Area 99.</p><p>Season 1 is a big update, coming in at 74GB on Xbox and 50GB on PlayStation, according to CharlieIntel. Players can pre-load the update now so they can jump in when Season 1 officially goes live today at 9 AM PT / 12 PM ET.</p><div data-embed-type="tweet" data-src="https://x.com/charlieintel/status/1857034936911265908?s=46&amp;t=gp9HY1NQP1eeZxZoq0Xxsw" data-has-image="false"><blockquote data-conversation="none" data-mce-disable-toolbar="true"><p dir="ltr">Call of Duty: Black Ops 6 Season 01 pre-load should be live for Xbox and PlayStation players. <br>Xbox: around 74GB <br>PlayStation around 50GB<br>Season begins 9am PT.</p>  — CharlieIntel (@charlieINTEL) <a href="https://twitter.com/charlieINTEL/status/1857034936911265908?ref_src=twsrc%5Etfw">November 14, 2024</a></blockquote>              </div><p>Call of Duty updates are known to be massive in file size, and the Season 1 launch continues this trend. To help combat the growing file sizes, Activision has <a href="https://www.gamespot.com/articles/call-of-duty-file-sizes-are-getting-smaller-including-black-ops-6/1100-6525832/" data-ref-id="1100-6525832">undergone efforts to decrease Call of Duty file sizes</a>, including streaming some assets and other means. Despite this, given the size of the Black Ops 6 Season 1 update, players may need to delete some files to make room.</p><p>Black Ops 6 Season 1 adds new multiplayer maps, modes, and weapons, while the in-game store gets fleshed out with a host of store bundles, including one that <a href="https://www.gamespot.com/gallery/cod-black-ops-6-and-warzone-season-1-battle-pass-includes-dlc-weapons-sev-operator-and-new-blackcell/2900-5944/" data-ref-id="2900-5944">turns you into a shark</a>. The in-game store also welcomes the <a href="https://www.gamespot.com/articles/black-ops-6-blackcell-trailer-shows-off-one-of-cods-most-impressive-operators-yet/1100-6527752/" data-ref-id="1100-6527752">first Black Ops 6 BlackCell bundle, which includes the Goliath operator.</a></p><p>For Warzone, the <a href="https://www.gamespot.com/articles/new-cod-warzone-map-area-99-is-where-nuketown-was-born/1100-6526171/" data-ref-id="1100-6526171">new Area 99 map takes players to the place Nuketown was born</a>. The Season 1 update also marks the introduction of Black Ops 6 content in Warzone, including the Omnimovement system.</p>
   
                         
     
@@ -1197,7 +1713,7 @@ Sadly, there's no new behind-the-scenes video to accompany this latest soundtrac
             <title><![CDATA[Brace Yourself: The Call of Duty: Black Ops 6 Season 1 Update Is 40 GB]]></title>
             <link>https://www.ign.com/articles/brace-yourself-the-call-of-duty-black-ops-6-season-1-update-is-40-gb</link>
             <guid>https://www.resetera.com/threads/brace-yourself-the-call-of-duty-black-ops-6-season-1-update-is-40-gb.1035594/</guid>
-            <content:encoded><![CDATA[https://www.ign.com/articles/brace-yourself-the-call-of-duty-black-ops-6-season-1-update-is-40-gb<br/><br/><div id="readability-page-1" class="page"><div data-cy="page-header"><h2 data-cy="article-sub-headline">Hit the payload.</h2></div><section data-cy="article-content"><p data-cy="paragraph">Black Ops 6 Season 1 launches today, November 14, and with it comes a mammoth update that has become a Call of Duty trademark.</p><p data-cy="paragraph">The Season 1 update, which brings Call of Duty up to version 1.061.000, is available to download now and weighs in at a gargantuan 40.422 GB on PS5 and 38.724 GB on PS4.</p><p data-cy="paragraph">This is an enforced update for Call of Duty, the all-encompassing app that houses Black Ops 6, Warzone, and prior Call of Duty games. You need to download the 40 GB update for the base game even if you don’t have Black Ops 6.</p><p data-cy="paragraph">Season 1, which goes live at 9am Pacific / 5pm UK time, makes a number of significant changes to Black Ops 6, adding new Multiplayer maps, skins, a battle pass, and big balance changes. <a data-cy="styled-link" href="https://www.ign.com/articles/call-of-duty-black-ops-6-and-warzone-season-1-patch-notes-details-complete-update-list-and-how-its-handling-bots">Activision published the Season 1 patch notes overnight</a>. New updates are also coming for the Black Ops 6 campaign and Modern Warfare 3, if you have those downloaded.</p><output data-cy="article-video"></output><p data-cy="paragraph">Call of Duty, with its various evolving modes like Multiplayer and Zombies alongside yearly releases on top of separate games like Warzone, is not only messy but takes up a big slice of your storage. For this year’s game, Activision made a number of changes designed to streamline the Call of Duty interface, offering more direct access to games and more control over downloads.</p><p data-cy="paragraph">Taking on Zombies mode? We've got <a data-cy="styled-link" href="https://www.ign.com/wikis/call-of-duty-black-ops-6/Essential_Zombies_Tips_and_Tricks">Essential Zombies Tips and Tricks</a> to help you get started, plus a guide on <a data-cy="styled-link" href="https://www.ign.com/wikis/call-of-duty-black-ops-6/How_to_Exfil_in_BO6_Zombies">How to Exfil</a>. Both Zombies maps are full of easter eggs and secrets; here's everything we've found in both <a data-cy="styled-link" href="https://www.ign.com/wikis/call-of-duty-black-ops-6/Terminus_Easter_Eggs_and_Secrets">Terminus</a> and <a data-cy="styled-link" href="https://www.ign.com/wikis/call-of-duty-black-ops-6/Liberty_Falls_Secrets_and_Easter_Eggs">Liberty Falls</a>, including <a data-cy="styled-link" href="https://www.ign.com/wikis/call-of-duty-black-ops-6/How_to_Pack-a-Punch_in_Liberty_Falls">How to Pack-a-Punch in Liberty Falls </a>and <a data-cy="styled-link" href="https://www.ign.com/wikis/call-of-duty-black-ops-6/How_to_Get_the_Meteor_Easter_Egg">How to Get the Meteor Easter Egg</a> in Terminus.</p><p data-cy="paragraph"><em>Wesley is the UK News Editor for IGN. Find him on Twitter at @wyp100. You can reach Wesley at wesley_yinpoole@ign.com or confidentially at wyp100@proton.me.</em></p></section></div>]]></content:encoded>
+            <content:encoded><![CDATA[https://www.ign.com/articles/brace-yourself-the-call-of-duty-black-ops-6-season-1-update-is-40-gb<br/><br/><div id="readability-page-1" class="page"><div data-cy="page-header"><h2 data-cy="article-sub-headline">Hit the payload.</h2></div><section data-cy="article-content"><p data-cy="paragraph"><strong>UPDATE:</strong> Call of Duty: Black Ops 6 and Warzone Season 1 is live now.</p><p data-cy="paragraph"><strong>ORIGINAL STORY:</strong> Black Ops 6 Season 1 launches today, November 14, and with it comes a mammoth update that has become a Call of Duty trademark.</p><p data-cy="paragraph">The Season 1 update, which brings Call of Duty up to version 1.061.000, is available to download now and weighs in at a gargantuan 40.422 GB on PS5 and 38.724 GB on PS4.</p><p data-cy="paragraph">This is an enforced update for Call of Duty, the all-encompassing app that houses Black Ops 6, Warzone, and prior Call of Duty games. You need to download the 40 GB update for the base game even if you don’t have Black Ops 6.</p><p data-cy="paragraph">Season 1, which goes live at 9am Pacific / 5pm UK time, makes a number of significant changes to Black Ops 6, adding new Multiplayer maps, skins, a battle pass, and big balance changes. <a data-cy="styled-link" href="https://www.ign.com/articles/call-of-duty-black-ops-6-and-warzone-season-1-patch-notes-details-complete-update-list-and-how-its-handling-bots">Activision published the Season 1 patch notes overnight</a>. New updates are also coming for the Black Ops 6 campaign and Modern Warfare 3, if you have those downloaded.</p><output data-cy="article-video"></output><p data-cy="paragraph">Call of Duty, with its various evolving modes like Multiplayer and Zombies alongside yearly releases on top of separate games like Warzone, is not only messy but takes up a big slice of your storage. For this year’s game, Activision made a number of changes designed to streamline the Call of Duty interface, offering more direct access to games and more control over downloads.</p><p data-cy="paragraph">Taking on Zombies mode? We've got <a data-cy="styled-link" href="https://www.ign.com/wikis/call-of-duty-black-ops-6/Essential_Zombies_Tips_and_Tricks">Essential Zombies Tips and Tricks</a> to help you get started, plus a guide on <a data-cy="styled-link" href="https://www.ign.com/wikis/call-of-duty-black-ops-6/How_to_Exfil_in_BO6_Zombies">How to Exfil</a>. Both Zombies maps are full of easter eggs and secrets; here's everything we've found in both <a data-cy="styled-link" href="https://www.ign.com/wikis/call-of-duty-black-ops-6/Terminus_Easter_Eggs_and_Secrets">Terminus</a> and <a data-cy="styled-link" href="https://www.ign.com/wikis/call-of-duty-black-ops-6/Liberty_Falls_Secrets_and_Easter_Eggs">Liberty Falls</a>, including <a data-cy="styled-link" href="https://www.ign.com/wikis/call-of-duty-black-ops-6/How_to_Pack-a-Punch_in_Liberty_Falls">How to Pack-a-Punch in Liberty Falls </a>and <a data-cy="styled-link" href="https://www.ign.com/wikis/call-of-duty-black-ops-6/How_to_Get_the_Meteor_Easter_Egg">How to Get the Meteor Easter Egg</a> in Terminus.</p><p data-cy="paragraph"><em>Wesley is the UK News Editor for IGN. Find him on Twitter at @wyp100. You can reach Wesley at wesley_yinpoole@ign.com or confidentially at wyp100@proton.me.</em></p></section></div>]]></content:encoded>
         </item>
     </channel>
 </rss>
