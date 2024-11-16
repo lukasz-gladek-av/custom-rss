@@ -4,9 +4,173 @@
         <title>maGaming RSS Feed - thesixthaxis_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/thesixthaxis_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for thesixthaxis_com</description>
-        <lastBuildDate>Sat, 16 Nov 2024 11:28:08 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 16 Nov 2024 11:37:11 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Half-Life 2 Anniversary update improves graphics and adds content]]></title>
+            <link>https://www.thesixthaxis.com/2024/11/16/half-life-2-anniversary-update-improves-graphics-and-adds-content/</link>
+            <guid>https://www.resetera.com/threads/half-life-2-anniversary-update-improves-graphics-and-adds-content.1037475/</guid>
+            <content:encoded><![CDATA[https://www.thesixthaxis.com/2024/11/16/half-life-2-anniversary-update-improves-graphics-and-adds-content/<br/><br/><div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>Valve has released the Half-Life 2 Anniversary update to celebrate the game’s 20th anniversary, adding developer commentary, improved the graphics and lighting in the game, Steam Workshop support, and bundled in Episode One, Episode Two, and Lost Coast all into Half Life 2. You can also grab <a href="https://store.steampowered.com/agecheck/app/220/">Half-Life 2 and all of this content for free from Steam</a>. There is also a new 20th anniversary documentary that explores the game’s history and development.</p>
+<p><iframe title="Half-Life 2: 20th Anniversary Documentary" width="780" height="439" src="https://www.youtube.com/embed/YCjNT9qGjh4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+
+
+<p>The full patch notes for Half-Life 2 Anniversary Edition are as follows:</p>
+<ul aria-label="Content">
+<li>Added 3.5 hours of Developer Commentary by members of the Half-Life 2 team.</li>
+<li>Half-Life 2: Episode One and Episode Two are now playable from the Half-Life 2 main menu.</li>
+<li>Half-Life 2: Lost Coast has been added to the Extras menu.</li>
+<li>Added Steam Workshop support. Play entire campaigns or replace weapons, enemies, UI, and more with content created by the community.</li>
+<li>Added custom Steam Game Recording gameplay events and phases throughout the game.</li>
+</ul>
+<ul aria-label="Rendering and Graphics">
+<li>Fixed issues causing props or entire maps to be fully bright or fully dark depending on settings.</li>
+<li>Added bicubic filtering for lightmaps to produce smoother shadows. It can be enabled by setting Shader Detail to Very High.</li>
+<li>Fixed missing grass detail sprites in many maps.</li>
+<li>Added settings to enable Classic Effects that were originally in Half-Life 2. These effects can also be enabled using r_classic_blood or r_classic_fire.</li>
+<li>Added support for radial fog.</li>
+<li>Specular reflectivity has been adjusted throughout Half-Life 2 to better match the original release.</li>
+<li>Updated models for the Crossbow and RPG weapons to support ultrawide displays.</li>
+<li>Fixed camera clipping into vehicles at high FOV settings.</li>
+<li>Fixed lambda cache indicators and other decals vanishing when backtracking through map transitions.</li>
+<li>Setting Model Detail to High will now always display the highest detail version of a model and never swap for a lower level-of-detail.</li>
+<li>Set Antialiasing to 4x MSAA by default.</li>
+<li>Fixed teeth shader rendering fully white on some GPUs.</li>
+</ul>
+<ul aria-label="UI and Options">
+<li>The UI now scales to support higher resolutions.</li>
+<li>Launching the game in Steam Big Picture mode will now use the gamepad-friendly UI previously available on Steam Deck. You can also launch this mode with the “-gamepadui” launch option.</li>
+<li>The High Dynamic Range setting has been moved to the main Video settings page.</li>
+<li>Commentary mode can now be enabled on the New Game screen.</li>
+<li>Fixed display of greyscale art for locked achievement icons to match their behavior in steam.</li>
+<li>Improved legibility of gamepad button icons.</li>
+<li>Button hints will now prefer to display standard face buttons and trigger icons only. This behavior can be disabled with the “sc_prefer_basic_origin_hints” convar.</li>
+<li>Replaced instances of system fonts like Verdana throughout the UI with a new font, GorDIN.</li>
+<li>Added a new font renderer that provides more consistent rendering between platforms.</li>
+<li>Fixed edges of certain font characters being cut off with antialiasing enabled.</li>
+<li>Fixed scrollbars and button animations using inverted colors.</li>
+<li>Removed the non-functional “Use ‘bloom’ effect when available” setting.</li>
+<li>Added Rich Presence info while playing Half-Life 2.</li>
+</ul>
+<ul aria-label="Input">
+<li>Updated the default Steam Input configuration.</li>
+<li>Added a Gamepad settings menu.</li>
+<li>Added the ability to select a weapon selection UI style while using a gamepad.</li>
+<li>Added settings for separate Aim-Assist modes for mouse/keyboard and gamepad. The new Aim-Assist “Enhanced” mode now attempts to track enemies and snap-to-target while driving vehicles.</li>
+<li>If using toggle crouch, pressing sprint will now make the player stand.</li>
+<li>Legacy joystick settings have been removed from the Mouse settings menu.</li>
+</ul>
+<ul aria-label="Gameplay">
+<li>Reduced chances of birds getting stuck in the world.</li>
+<li>Fixed Combine crouching behavior during door assault scene.</li>
+<li>Fixed Combine not firing in some cases during the finale.</li>
+<li>Game sounds and music now pause while the game is paused.</li>
+<li>Fix crash that can occur if the player gets too far ahead of the helicopter in canals.</li>
+<li>Fixed Dr. Breen not looking at the camera in certain broadcasts.</li>
+<li>Fixed smooth friction sounds not playing.</li>
+</ul>
+<ul aria-label="General Map Updates">
+<li>Full HDR lighting and tonemapping pass across every map in Half-Life 2 and Half-Life 2: Deathmatch.</li>
+<li>Increased lightmap resolution in most maps.</li>
+<li>Adjusted rendering distances across the game so details and objects remain visible much further away.</li>
+<li>Removed Far-Z clip plane from most maps.</li>
+<li>Increased window and door fade distances.</li>
+<li>Improved lighting and world detail inconsistencies during many map transitions.</li>
+<li>Tuned fog and skyboxes for every map with water on the horizon for better horizon blending.</li>
+<li>Replaced instances of simple reflective water with fully reflective water in nearly every map.</li>
+<li>Fixed many instances of floating props across the game.</li>
+<li>Sewed up holes, aligned textures, and fixed seams on many displacements throughout the game.</li>
+<li>Swapped some distant trees out for higher detail models.</li>
+<li>Enabled shadows on many static props that were missing them.</li>
+<li>Added glow sprites to all lights that were missing them.</li>
+<li>Fixed lightmapping for many large static prop structures.</li>
+<li>Added simple rooftop geometry to background buildings that were missing them.</li>
+<li>Added background displacement geometry to areas which are now exposed by removed the clipping plane.</li>
+</ul>
+<ul aria-label="Specific Map Updates">
+<li>The introduction sequence has been adjusted to closely match the original sequence, including fixing specular highlights on the G-Man’s eyes.</li>
+<li>Fixed various texture seams on train station wall</li>
+<li>All fences now properly cast shadows.</li>
+<li>Fixed issues with level transitions setting fog values improperly.</li>
+<li>Removed emissive value from base of lighting prop which was glowing in strange places.</li>
+<li>Fixed a bug with Eli’s idle animations during the teleport sequence.</li>
+<li>Fixed lightmapping of train cars in Red Letter Day and Route Kanal.</li>
+<li>Fixed a rendering bug in Route Kanal where world geometry would pop in and out of view when looking down the tracks.</li>
+<li>Aligned pipe and canal wall textures in a few areas to reduce seams and misalignment in Route Kanal.</li>
+<li>Added and adjusted canal wall brushes where level geometry was conspicuously missing.</li>
+<li>Adjusted brightness and falloff of ambient lights in darker sections of the canals.</li>
+<li>Added small grates as dim light sources of ambient light in a few places in the canals.</li>
+<li>Fixed an issue where the splash for Manhack Matt’s jump into the water would be out of sync.</li>
+<li>Fixed a bug where the large brick smokestacks were popping in and out depending on the player’s position in Water Hazard.</li>
+<li>Added missing cables to utility poles in various canal maps.</li>
+<li>Fixed lighting and shadows on the dock and electric tower outside of Black Mesa East.</li>
+<li>Added displacements and water plane to 3D skybox near the dam entrance to replace simple brush cliff face.</li>
+<li>Fixed the lighting on the rocks and props in and around the Ravenholm graveyard.</li>
+<li>Fixed players being able to trap themselves in the graveyard by closing the gate after Gregori would open it.</li>
+<li>Added radial fog to all coast maps in the Highway 17 chapter.</li>
+<li>Removed area portals from many of the smaller structures along Highway 17.</li>
+<li>Fixed a crash that would occur if you parked the buggy in certain areas before entering the bridge level.</li>
+<li>Fixed a bug where Vortigaunts could fall through the world.</li>
+<li>Added simple 3D skybox representation of the next map visible from the top of the lighthouse in Sandtraps.</li>
+<li>Fixed lighting issues during the basement flare sequence in Nova Prospekt.</li>
+<li>Added additional geometry to various windows throughout the levels to cast more detailed shadows in Nova Prospekt.</li>
+<li>Fixed a bug in teleport sequence in Entanglement ending too early leaving Gordon and Alyx standing around while the teleporter reached its destination.</li>
+<li>Fixed the catwalk explosion detonating at the wrong time in Anticitizen One.</li>
+<li>Fixed the building dome having no polygons on the outstide in Follow Freeman.</li>
+<li>Fixed the ship visibly flying through the building dome in Follow Freeman.</li>
+<li>Fixed Barney being left behind during a level transition or nagging the player too early to “roll a grenade” in Follow Freeman.</li>
+<li>Improved resolution of portal render texture during finale.</li>
+<li>Added soundscape to all menu background maps</li>
+<li>Darkened parts of the skyboxes that fall behind Half-Life 2 logo to help with text legibility.</li>
+<li>Added geometry to menu background maps for Ultrawide support.</li>
+<li>Added smoke to the Ravenholm and Follow Freeman background maps.</li>
+<li>Fixed a bug where you could hear the player’s bones break in the Citadel menu background map.</li>
+</ul>
+<ul aria-label="Half-Life 2: Deathmatch Fixes">
+<li>Fixed player model selection in the options menu.</li>
+<li>Fixed slam not being able to be detonated if you were too close to a wall</li>
+<li>Fixed view bob with the SMG equipped.</li>
+<li>Fixed using the Gravity Gun to yo-yo grenades, sometimes causing the server to disconnect or crash.</li>
+<li>Fixed missing sound effects for the Gravity Gun.</li>
+<li>Fixed characters playing a missing animation when switching weapons while jumping and moving.</li>
+<li>Fix weapons being invisible when being given another weapon of the same class.</li>
+</ul>
+<ul aria-label="Half-Life 2: Deathmatch Maps">
+<li>Increased player spawn point count in many maps.</li>
+<li>Fixed prop placement in maps that would allow players to escape the world.</li>
+<li>Fixed floating props in dm_runoff.</li>
+<li>Fixed the area portal on the blast door in dm_runoff causing the world to no longer render when the door was shut.</li>
+<li>Added geometry to many maps where the player could see outside of bounds.</li>
+<li>Fixed several areas where the player could see out of the world.</li>
+<li>Moved the blue barrels in dm_resistance that you could pick up with the Gravity Gun through the chainlink doors.</li>
+</ul>
+<ul aria-label="Other">
+<li>Improved quality of the Valve intro movie when launching the game.</li>
+<li>Fixed playback of the the post-credits movie at the end of Episode One and the intro movie at the start of Episode Two.</li>
+<li>The achievements for Episode One and Two have been added to Half-Life 2. When launching the game it will attempt to read data from installed standalone Episodes to re-grant those duplicated achievements.</li>
+<li>Hammer: Show detail sprite preview on non-displacement surfaces.</li>
+<li>Hammer: Fixed bug where orphaned entities added additional data on each map load.</li>
+<li>Hammer: Fixed the ability to render cubemaps.</li>
+<li>Hammer: Increased many limits for BSP data. Models 1024 -&gt; 2048, Brushes 8192 -&gt; 16384, TexInfo 12288 -&gt; 16384,&nbsp;TexData 2048 -&gt; 8096,&nbsp;DispInfo 2048 -&gt; 8096.</li>
+<li>Added save_transition_music convar that allows streaming music to continue to play in between level transitions.</li>
+<li>Localization files updated.</li>
+<li>Miscellaneous security fixes.</li>
+</ul>
+<ul aria-label="Notes">
+<li>The previous version of the game has been archived to a publicly visible Beta branch named “steam_legacy”, with the description “Pre-20th Anniversary Build.” If a mod or feature is behaving in an unexpected way, you may need to run this archived build until the issue is resolved in the default build.</li>
+<li>With the Episodes and Lost Coast now contained within Half-Life 2 itself, we’ll be reducing the visibility of the standalone versions on the Steam Store. The old standalone applications will remain available to ensure community projects that rely on them still function properly but they will now appear within the Tools menu on your Steam Library.</li>
+</ul>
+<p>Additionally, Valve has also announced that it will be reprinting Raising The Bar, an expanded edition of the original book that was first printed in 2004. This second edition of Raising The Bar adds new concept art from Episode One and Episode Two, plus a look at the never released third episode. It will be released in 2025.</p>
+<p><em>Source: <a href="https://www.half-life.com/en/halflife2/20th">Half Life website</a></em></p>
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Something for the Weekend – 16/11/24]]></title>
             <link>https://www.thesixthaxis.com/2024/11/16/something-for-the-weekend-16-11-24/</link>
