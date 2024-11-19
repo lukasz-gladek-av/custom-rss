@@ -4,7 +4,7 @@
         <title>maGaming RSS Feed - rockpapershotgun_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/rockpapershotgun_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for rockpapershotgun_com</description>
-        <lastBuildDate>Tue, 19 Nov 2024 17:54:27 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 19 Nov 2024 18:08:32 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -138,101 +138,6 @@ Homeworld 3 has been a severe disappointment for series enthusiasts and space si
 <p>
  There's a closing note on the post which makes arch mention of "beginning a new chapter". What would you like them do next? I wouldn't say no to a <a data-keyword="true" href="https://www.rockpapershotgun.com/games/hardspace-shipbreaker">Hardspace: Shipbreaker</a> follow-up.
 </p></div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[How Microsoft Flight Simulator 2024 uses machine learning AI, and how much of your data it might need]]></title>
-            <link>https://www.rockpapershotgun.com/how-microsoft-flight-simulator-2024-uses-machine-learning-ai-and-how-much-of-your-data-it-might-need</link>
-            <guid>https://www.resetera.com/threads/how-microsoft-flight-simulator-2024-uses-machine-learning-ai-and-how-much-of-your-data-it-might-need.1039560/</guid>
-            <content:encoded><![CDATA[https://www.rockpapershotgun.com/how-microsoft-flight-simulator-2024-uses-machine-learning-ai-and-how-much-of-your-data-it-might-need<br/><br/><div id="readability-page-1" class="page"><div>
-  
-
-    <div>
-  
-
-        <p>An interview with the project head for release day</p>
-
-    </div>
-
-
-  <p>
-  <figure>
-  <a href="https://assetsio.gnwcdn.com/dreamlifter.jpg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
-  
-  </a>
-
-      <figcaption>
-        <span>
-Image credit:          <cite>Microsoft</cite>
-        </span>
-      </figcaption>
-  </figure>
-  </p>
-
-    
-
-</div><div>
-
-
-
-            <p>
-<a data-keyword="true" href="https://www.rockpapershotgun.com/games/microsoft-flight-simulator-2024">Microsoft Flight Simulator 2024</a> launches on Steam and the Microsoft Store today. Developed once again by Asobo - otherwise celebrated for their <a href="https://www.rockpapershotgun.com/games/a-plague-tale-requiem">stinking rat hordes</a> - it builds upon <a href="https://www.rockpapershotgun.com/games/microsoft-flight-simulator-2020">the 2020 game</a> by "[taking] advantage of the latest technologies in simulation, cloud, machine learning, graphics and gaming", in the words of the launch announcement release.</p>
-<p>We've got a review in the works, but code has landed late, so our write-up might take a while. In the shorter term, I thought you might like to know how, exactly, MFS 2024 makes use of "machine learning" technologies, taking into account the energy cost of such wacky gadgetry and <a href="https://www.rockpapershotgun.com/microsoft-and-zenimax-union-reach-first-of-its-kind-agreement-over-usage-of-ai-tools-in-gamedev">the creeping relationship between increased reliance on automated tools and laying people off</a>. More immediately, you might like to know how much of your internet package it'll devour as you play.
-</p><!--more-->
-<p>
-Microsoft Flight Simulator 2024 shares many of its moving parts with the 2020 game, which made use of tech from Blackshark.ai, Microsoft's Azure tools and Bing Maps to analyse satellite and aerial imagery and generate <a href="https://www.rockpapershotgun.com/all-341-photorealistic-cities-in-microsoft-flight-simulator-2020">terrain maps and objects such as buildings</a>. While a lot of this is delivered by the initial download, some of it is streamed to you on demand. 
-</p>
-<p>
-The major change with MFS 2024 is that it streams a lot more, while simultaneously trying to offer a lot more visual opulence. "We did surveys and asked people, how can we do this - what can we improve?" MFS head Jorg Neumann told me in an interview earlier this month. "And one of the areas that was very consistent was well, it would be nice if the ground would look a little bit better. Because in MFS 2020 we had the whole world and it looked good from a certain altitude, but once you landed, it didn't look super-detailed."
-</p>
-<figure>
-<p>
-<a aria-label="Microsoft Flight Simulator 2024 - Official Xbox Game Pass Trailer" data-lightbox="false" data-platform="youtube" href="https://www.youtube.com/embed/jwI5VZo-wNc?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
-<span>Microsoft Flight Simulator 2024 - Official Xbox Game Pass Trailer</span>
-<template>
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/jwI5VZo-wNc?autoplay=1" frameborder="0" loading="lazy" src="https://www.youtube-nocookie.com/embed/jwI5VZo-wNc?autoplay=1">
-</iframe> </template>
-</a>
-</p>
-<a href="https://www.youtube.com/watch?v=jwI5VZo-wNc" rel="noopener" target="_blank">Watch on YouTube</a></figure>
-<p>
-MFS 2024 tries to address this by way of a new online machine learning platform that generates terrain detail on demand, based on rules given by the developers. "So we looked at the textures, basically, and the way it works is we had a team that marked up 28,000 tiles," Neumann explained. "So we picked some tiles that were representative of Earth - some of them were forest, some of them were desert, some of them were rivers, those types of things, and then we mark them up and say, 'this is gravel, this is low grass, this is bush'. 
-</p><p>
-"And then you feed that into a machine learning system, and you say 'this type of colour and this type of pattern is this' - you feed it in, and you get everything back, you look at the results, and then you have human intervention again. You basically say: 'Oh OK, got this wrong.' And then you retrain it. We did that in four different stages."</p>
-<p>What does that process of human intervention look like in practice, I asked? What's the trick to avoiding the kind of uncanny distortion we often see in <a href="https://www.rockpapershotgun.com/to-understand-the-future-of-generative-ai-we-need-better-language-to-describe-it">today's prompt-based generated art</a>, to say nothing of the previous game's <a href="https://www.rockpapershotgun.com/a-perfectly-normal-abyss-has-appeared-in-microsoft-flight-sim">cosmically horrible terrain deformations</a>?
-</p>
-<p>
-"It's just picture analysis, really," Neumann said. "It's just a lookup table and you say, is this sand? We defined, I think, 26 different surface types - red sand or brown sand to asphalts, those types of things. And I don't know about distortion but you know, you basically say, 'oh this one is this, and this one is this', and it got some stuff wrong sometimes, you know - it understood gravel to be sand. And then you have to retrain it a little bit." 
-</p>
-<p>
-Once generated in response to one player's movements, MFS 2024's terrain data is then available to other pilots - it's streamed into their games when they're close by. This makes the system more efficient, and gives rise to the peculiar thought that when you fly over a remote area in the game you are bringing that location to life for everybody else.
-</p><p>
-One inevitable fear I had, on hearing about this system, is whether the expanded role of machine learning has come at the cost of jobs. While it varies by the tool, discipline and company, there's a link between today's AI tools and corporate cost-cutting, with larger video game publishers such as Microsoft <a href="https://www.rockpapershotgun.com/microsoft-have-aligned-on-the-best-opportunities-for-growth-by-firing-nearly-two-thousand-people">dismissing tens of thousands of people</a> even as they <a href="https://www.rockpapershotgun.com/after-huge-layoffs-last-week-microsoft-are-now-chucking-billions-of-dollars-into-openai">spend billions</a> on software that theoretically automates aspects of game development, such as the creation of art assets for buildings and vehicles.
-</p>
-<p>
-According to Neumann, however, MFS 2024's expanded usage of machine learning has had "no impact" on the workforce. "The only thing we've done is grow," he went on. "Flight Simulator 2020, it was a team of 100. Flight Simulator 2024 is 200 people at Asobo, a total of 800 people [at supporting studios]." It would not have been possible to mark up the game's map for the generator 'by hand', Neumann insisted. "We would have spent our entire lives and then some just marking up terrain, which is not really the core of the thing. So it's just a tool that helps us."
-</p>
-<p>
-The more immediate concern is that the reliance on streaming will require the beefiest of broadband connections. A few months ago, there was a <a href="https://www.tweaktown.com/news/101112/microsoft-flight-simulator-2024-uses-up-to-81gb-of-downloads-per-hour-play-the-game/index.html">report</a> that MFS 2024 would require you to stream as much as 81GB an hour. Neumann told me that this was a calculation based on an unoptimised build running on the most demanding settings, and that the average data use would be "way, way less than that" - not least because most players will spend the bulk of their time high up, coasting through already-loaded "aerial data" that doesn't have to be streamed. Asked to give a rough average figure for a player's data use, he suggested a relatively modest 5GB an hour.
-</p>
-<p>
-While 5GB an hour is still quite a chunk, Neumann feels the expanded streaming system is more efficient from the player's perspective, because it means the <a href="https://www.rockpapershotgun.com/microsoft-flight-simulators-latest-patch-halves-the-games-download-size">initial download</a> can be a lot smaller - around 50GB. It also means you won't have to download massive expansions over the next few years - instead, the game's representation of Earth can be overhauled and expanded remotely, with the new bits being streamed to each player as required. 
-</p><p>
-"Flight Simulator 2020 was around 120 gig, and then we added all these world updates, and each world update hovers between 10 gigs and 30 gigs, so we're now at hundreds of gigs," he said. "And we're going to keep going. So just imagine world update 38 in 2028, or something. A terabyte download - it just doesn't scale."
-</p>
-<p>
-In practice, Nuemann noted, many MFS 2020 players didn't feel inclined to visit the vast majority of its simulated Earth. "An airport is two gigabytes, and we have a ton of airports, right," he said. "Under the old scheme, you had to download every airport, even though you had no intention of ever visiting this place. I know a lot of people that just fly from their local hometown to where they grew up in college. And they don't want to explore the entire planet. They just want to hang out in the area that they know. 
-</p>
-<p>
-"Their data consumption [in MFS 2024] is going to be tiny. So we actually think we've saved a bunch, and that's actually much better. The brute force huge client thing - I don't think this really scales. Just imagine if our texture resolution goes up again."
-</p>
-<p>
-While Neumann's arguments about efficiency sound reasonable to me in the abstract, it's obviously unclear right now how players will play Microsoft Flight Simulator 2024, and how they might use or abuse its dependence on streaming generated terrain. One, more whimsical scenario that occurs to me is that disreputable pilots might decide to troll the developers by carrying out low-altitude flights en masse, increasing the burdens on the machine learning and streaming systems. 
-</p><p>
-That open-endedness is worrisome because generative AI at large has a mounting energy and emissions cost, and Microsoft especially are trying to walk the line between adhering to <a href="https://blogs.microsoft.com/blog/2020/01/16/microsoft-will-be-carbon-negative-by-2030/">relatively ambitious carbon negative plans</a> while also plunging inordinate sums into technologies such as OpenAI's various roided-up chatbots and Microsoft's flagship Copilot app.</p>
-<p>The most prominent generative AI tools soak up <a href="https://arxiv.org/pdf/1906.02243">a lot of power</a>, both in the course of "training" them on datasets with human oversight, and when actually running them on data centres. For all their rhetoric, Microsoft's greenhouse gas emissions were actually <a href="https://www.theverge.com/2024/5/15/24157496/microsoft-ai-carbon-footprint-greenhouse-gas-emissions-grow-climate-pledge">30 per cent higher in fiscal year 2023</a> than the previous year.
-</p>
-<p>
-While Neumann didn't share any estimates about overall energy usage in our chat, I doubt that Microsoft Flight Simulator 2024's new machine learning and streaming systems will have an emissions footprint on par with, say, <a href="https://www.rockpapershotgun.com/microsoft-are-adding-a-dedicated-ai-button-to-windows-keyboards-as-they-call-2024-the-year-of-the-ai-pc">giving your keyboard a Copilot button</a>. But it's all part of the picture. Look out for more on the subject in a piece later this month, in which Neumann and I discuss the philosophy of flight simulation, future community-driven features, and the sheer weirdness of generating an entire planet in real time.</p></div></div>]]></content:encoded>
         </item>
     </channel>
 </rss>
