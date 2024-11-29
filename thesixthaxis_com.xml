@@ -4,9 +4,173 @@
         <title>maGaming RSS Feed - thesixthaxis_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/thesixthaxis_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for thesixthaxis_com</description>
-        <lastBuildDate>Fri, 29 Nov 2024 20:21:22 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 29 Nov 2024 20:35:53 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[STALKER 2 patch 1.0.1 promises over 650 fixes on PC and Xbox]]></title>
+            <link>https://www.thesixthaxis.com/2024/11/29/stalker-2-patch-1-0-1-promises-over-650-fixes-on-pc-and-xbox/</link>
+            <guid>https://www.resetera.com/threads/stalker-2-patch-1-0-1-promises-over-650-fixes-on-pc-and-xbox.1048377/</guid>
+            <content:encoded><![CDATA[https://www.thesixthaxis.com/2024/11/29/stalker-2-patch-1-0-1-promises-over-650-fixes-on-pc-and-xbox/<br/><br/><div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>GSC Game Worlds has released <a href="https://www.thesixthaxis.com/tag/stalker-2">STALKER 2</a> patch 1.0.1, the studio working hard to patch out the wide array of bugs, quirks, progress blockers and glitches that players have encountered with the long-awaited sequel.</p>
+<p>This is the first post-launch patch with over 650 different bugs and issues addressed across both <a href="https://www.thesixthaxis.com/tag/xbox-series-x">Xbox Series X|S</a> and PC, though the studio acknowledges that there’s a good bit more work still to do. In particular, they highlight fixes for the A-Life bugs, which have affected the ambient interactions with creatures and different factions in the game.</p>
+
+
+<p>Still, this is a great first step for the studio, and it must be said that the issues we encountered while reviewing were not game-breaking, but more on the amusing quirks end of the spectrum. See our <a href="https://www.thesixthaxis.com/2024/11/21/stalker-2-review-heart-of-chornobyl/">STALKER 2 review</a> here.</p>
+<p>Here’s the full patch notes for STALKER 2 update 1.0.1:</p>
+<h3>AI fixes:</h3>
+<ul>
+<li>Fixed groups of NPCs getting stuck and dying near Shelter during active Emission.</li>
+<li>Fixed issue when Burer could drop any mission items out of the player’s hands.</li>
+<li>Added missing sound effects for Burer’s ‘Telekinesis’ ability.</li>
+<li>Fixed issues with NPCs occasionally getting stuck and not reaching the mission location. This might have caused inability to interact with NPC or progress to the next mission stage due to idle behavior of mission NPC.</li>
+<li>Fixed issues with performance drops/potential out-of-memory crashes in hubs and locations crowded with NPCs during long play sessions.</li>
+<li>Fixed issue when NPCs would move to A-pose or start flying after death.</li>
+<li>Fixed issue when NPCs could not track whether a target in cover was covered from shots, which caused them to shoot into cover.</li>
+</ul>
+<p>And other, more than 20 different issues with AI.</p>
+
+<h3>Optimization fixes:</h3>
+<ul>
+<li>Fixed issue with invisible NPC/Mutants appearing in FOV while the Player is scoping.</li>
+<li>Fixed fire visual effects that were not rendering at certain camera angles.</li>
+</ul>
+<p>Also, we fixed approximately 100 different crashes, including potential memory leaks and EXCEPTION_ACCESS_VIOLATION issues.</p>
+<h3>Audio &amp; Sound fixes:</h3>
+<ul>
+<li>Fixed issue when combat music was still playing while combat was finished.</li>
+</ul>
+<p>And 7 other minor audio &amp; sound bugs.</p>
+<h3>Balance adjustments:</h3>
+<ul>
+<li>Weapons and armor repair cost is decreased.</li>
+<li>Significantly increased cost of artifacts (more revenue from selling).</li>
+<li>Money reward for most missions is increased from 2 to 3 times.</li>
+<li>Rookie difficulty armor and weapons buffs.</li>
+<li>Damage from mutants is moderately decreased on Rookie difficulty (more mutant health balance changes in Combat Balance section).</li>
+<li>Damage to player’s weapon is decreased by 23 percent on Rookie difficulty.</li>
+<li>Armor durability is increased by 12.5 percent.</li>
+<li>Added silencer attachment for PTM to specific stash on Lesser Zone.</li>
+<li>Fixed sell prices for Exoskeletons, they are now more expensive to sell.</li>
+<li>Fixed sell price of upgraded weapons.</li>
+<li>Rebalanced Hercules consumable: player speed debuff removed; increased the effect parameters (now more weight could be carried by player after consuming).</li>
+</ul>
+<p>Some additional minor bugfixes.</p>
+<h3>Combat Balance:</h3>
+<ul>
+<li>Reduced some mission items’ weight (including weight of scanners)</li>
+<li>Slightly rebalanced Bloodsucker’s damage.</li>
+<li>Decreased Bloodsucker’s strike protection rank (more damage from guns).</li>
+<li>Reduced Boodsucker’s HP regeneration outside the combat.</li>
+<li>Controller HP is moderately reduced.</li>
+<li>Burer HP is moderately reduced.</li>
+<li>Boar HP is moderately reduced.</li>
+<li>Flesh HP is moderately reduced.</li>
+<li>Damage to Boar from headshots changed to 100% of body damage.</li>
+<li>Damage to Boar from shots to the limbs is increased.</li>
+<li>Damage to Flesh from shots to the limbs is increased.</li>
+<li>Significantly increased weapon melee distance.</li>
+<li>Slightly increased knife melee distance.</li>
+</ul>
+<h3>Gamepad Input:</h3>
+<ul>
+<li>Increased gamepad dead zones</li>
+</ul>
+<h3>Characters:</h3>
+<ul>
+<li>Fixed eyes and teeth on NPC models.</li>
+<li>Some minor fixes of NPC models and animations.</li>
+</ul>
+<h3>Cutscenes:</h3>
+<ul>
+<li>Added missing footage to TV displays in the final cutscene.</li>
+<li>Fixed issue with deer animation in the opening cutscene.</li>
+</ul>
+<p>And 20 other different bugs in the cutscenes.</p>
+<h3>Game Settings &amp; Menus:</h3>
+<ul>
+<li>Adjusted unreadable text at the bottom of the Shader Compilation screen.</li>
+<li>Fixed issue with the ‘Nvidia Reflex Low Latency’ option not being saved on subsequent boots of the game.</li>
+</ul>
+<p>And 10 more minor issues.</p>
+<h3>Interactable Objects:</h3>
+<ul>
+<li>Fixed physics issues with destructible and movable objects, including those floating in the air.</li>
+<li>Fixed interaction prompt with glass doors in SIRCAA’s inner yard, which caused a walkthrough blocker.</li>
+<li>Fixed missing inner doors in the X-11 laboratory elevator.</li>
+</ul>
+<p>And more minor bugs.</p>
+<h3>Main and Side Missions:</h3>
+<p>Resolved numerous mission blockers and bugs encountered under specific conditions. Key fixes include:</p>
+<ul>
+<li>Fixed missing interaction with dead Blind dogs in the Nightingale’s Hunt mission.</li>
+<li>Fixed uncompletable objectives in the Seek, and You Shall Find mission.</li>
+<li>Fixed multiple issues in the There and Back Again mission, including one where the artifact couldn’t be found.</li>
+<li>Resolved dialog loop with Zotov during the A Needle in a Haystack mission.</li>
+<li>Fixed progression blockers in the Answers Come at a Price mission, including issues with bandits after an emission and missing the Heavy Key item.</li>
+<li>Corrected mission markers for NPC locations in Hot on the Trail mission.</li>
+<li>Fixed door-related issues in the In Search of a Guide mission and The Side Hustle mission.</li>
+<li>Fixed issue when cutscene does not start during the Just Like the Good Old Days mission.</li>
+<li>Fixed issue when Lodochka is missing in Quite’s Camp during the Just Like the Good Old Days mission.</li>
+<li>Fixed an issue during Just Like the Good Old Days when Lodochka acts aggressively after bringing him the Emitter.</li>
+<li>It is now possible to turn off electricity in the flooded area during the To the Last Drop of Blood mission.</li>
+<li>Fixed multiple issues in the On the Edge mission, including idle NPCs, stuck doors, and the Monolith attack progression.</li>
+<li>Fixed progression blockers in the A Minor Incident mission, including issues with Bayun’s collar and locked doors.</li>
+<li>Addressed performance drops and confusing objectives in the In Search of Past Glory mission.</li>
+<li>Fixed issues in the Visions of Truth mission, including stuck NPCs and blocked progression after dialogs.</li>
+<li>Resolved stuck cutscenes and blocked progression in the Dangerous Visitors. Gray’s Last Hunt, and The Eternal Shining missions.</li>
+<li>Corrected spawn behaviors for NPCs and enemies in The Boundary and Escape from the Cage missions.</li>
+<li>Tweaked missions like Down Below, Budmo!, and A Big Score to resolve stuck NPCs, misaligned markers, and missing dialog options.</li>
+</ul>
+<p>And approximately 120 other issues within the main line, side missions, and encounters.</p>
+<h3>Open World Experience:</h3>
+<ul>
+<li>Fixed stretched or missing limbs on humanoid corpses.</li>
+<li>Fixed missing fast travel routes, including to the Concrete Plant for Toadstool.</li>
+<li>Resolved issues with loudspeakers, fast travel, and NPC interactions in various locations, such as the Scientists’ Bunker, and Chemical Plant.</li>
+<li>Adjusted hostile NPC behavior during the Arena missions, including bandits’ tactics and increased ammo for the Tyrant fight.</li>
+<li>Corrected mission progression in the Black Sheep and The Key to Freedom missions.</li>
+</ul>
+<p>And approximately 50 other issues were fixed.</p>
+<h3>Player Guidance, Gear, and Weapons:</h3>
+<ul>
+<li>Fixed a bug that allows to sell items to the trader for more money that they actually cost.</li>
+<li>Fixed input blocking issues with the PDA, inventory, and attachments when interacting with artifacts.</li>
+<li>Corrected flashlight behavior after saving/loading.</li>
+<li>Resolved issues with grenade type selection, compass marker overlaps, and missing mission markers.</li>
+<li>Fixed inconsistencies with weapon and armor upgrade effects, including pricing and upgrade reversals.</li>
+<li>Improved HUD behavior and prolonged the duration of “Point of No Return” hints during Down Below mission.</li>
+<li>Fixed a bug where player could sell mission items using gamepad.</li>
+</ul>
+<p>And approximately 50 minor “anomalies”.</p>
+<h3>Voiceover and Facial Animations:</h3>
+<ul>
+<li>Restored missing facial animations for Sava in the Hot on the Trail mission and Mugwort in The Eternal Shining mission.</li>
+<li>Fixed missing voice lines during the Let No One Leave Unsatisfied mission.</li>
+<li>Corrected radio call effects so NPC voices properly reflect distance during communication.</li>
+</ul>
+<p>And a couple more things are fixed.</p>
+<h3>World:</h3>
+<ul>
+<li>Fixed flickering textures in various locations, including the Sphere, Military Base and Chemical Plant.</li>
+<li>Resolved movement issues, including getting stuck in certain locations during missions like Once More Unto the Breach and A Tough Awakening.</li>
+<li>Corrected artifact spawn points in some areas.</li>
+<li>Fixed NPC behavior during encounters.</li>
+<li>Adjusted voice volume during storm weather for improved audio balance.</li>
+</ul>
+<p>And approximately 50 more bugs.</p>
+<hr>
+<p><em>Phew!</em></p>
+<p>GSC Game Worlds ask players to continue to share feedback and opinions on forums and social media, while also pointing you to the <a href="https://support.stalker2.com/hc">Technical Support Hub</a> if there’s something that needs more nuanced support.</p>
+<p><em>Source: <a href="https://store.steampowered.com/news/app/1643320/view/4455844537830474602">Steam</a></em></p>
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Slow Game Club is a new subscription service modelled like a book club]]></title>
             <link>https://www.thesixthaxis.com/2024/11/29/slow-game-club-is-a-new-subscription-service-modelled-like-a-book-club/</link>
