@@ -4,7 +4,7 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Mon, 02 Dec 2024 18:40:50 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 02 Dec 2024 18:54:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -29,61 +29,6 @@
 				
 
 						
-			
-
-		</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Warhammer 40K Darktide PS5 Q&A – Pro Runs 4K@60FPS with High Settings; Ray Tracing Cost/Benefit Wasn’t Favorable]]></title>
-            <link>https://wccftech.com/warhammer-40k-darktide-ps5-q-ray-tracing-cost-benefit-wasnt-favorable/</link>
-            <guid>https://www.resetera.com/threads/warhammer-40k-darktide-ps5-q-a-%E2%80%93-pro-runs-4k-60fps-with-high-settings-ray-tracing-cost-benefit-wasn%E2%80%99t-favorable.1049721/</guid>
-            <content:encoded><![CDATA[https://wccftech.com/warhammer-40k-darktide-ps5-q-ray-tracing-cost-benefit-wasnt-favorable/<br/><br/><div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			<p>Two years after the PC launch and one year after the Xbox launch, Fatshark is <a href="https://wccftech.com/warhammer-40k-darktide-is-coming-to-ps5-next-month-will-run-at-4k60fps-on-ps5-pro/" target="_blank" rel="noopener">preparing</a> for the launch of Warhammer 40K Darktide <a href="https://store.playstation.com/en-us/product/EP4122-PPSA21255_00-0888672453602469" target="_blank" rel="noopener">on PlayStation 5</a>. The PS5 debut is scheduled for Thursday, but tomorrow, the studio will also <a href="https://wccftech.com/warhammer-40000-darktides-free-update-releases-december-3/" target="_blank" rel="noopener">release</a> the Grim Protocols free update that adds a new endgame mode, a new mission, three new weapon families, a dedicated event for the second anniversary, and even a few quality of life enhancements.</p>
-<p>Despite the busy time at the Swedish studio, Fatshark was kind enough to let us have a chat with Chief Technology Officer Mikael Hansson. We discussed the PlayStation 5 launch, the studio's experience with the PS5 Pro hardware, and whether the game will support ray tracing on the enhanced console or cross-progression across all platforms.</p>
-<p><iframe title="Warhammer 40,000: Darktide - Announcement Trailer | PS5 Games" width="500" height="281" src="https://www.youtube.com/embed/zWWPeN3lWG0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
-<p><strong>Why did it take so long for Darktide to get on PlayStation 5? Was there an exclusivity deal in place with Microsoft?</strong></p>
-<p>Yes! It was no secret that we had an exclusivity deal in place with Microsoft extending for a certain period of time after the Darktide Xbox release. That said, this exclusivity window had expired long before the release date of Darktide on PS5. The current PS5 launch date of December 3rd is the result of the development team establishing a robust timeline by the end of which we could have a solid PS5 version of the game ready.</p>
-<p><strong>You confirmed that the PS5 version will launch with cross-play. Was it complicated to set up with the other platforms? Also, would you consider adding cross-progression?</strong></p>
-<p>The most complicated parts of launching with cross-play support for PS5 were handled during the initial stage of Darktide as a project. We decided quite early not to rely on any platform-specific networking solutions. This work enabled us to deliver crossplay for Xbox and Steam and is what allows us to seamlessly integrate PS5 into our environment as well.</p>
-<p>Most of the technical challenges are fairly similar from one platform to another, such as supporting various parental control features and the ability to opt out of crossplay. Here, Steam stands out a bit as it does not require any such features to be supported. As for cross-progression, we are not currently planning to introduce it to Darktide.</p>
-<p><strong>You mentioned that the PS5 version is getting haptic feedback. Can you share for which events/actions? Also, any chance you'll be adding support for adaptive triggers, too?</strong></p>
-<p>The haptic feedback is implemented for a variety of actions related to weapon handling and character abilities, as well as for some environmental effects and events. The feeling of blasting heretics with a full auto Recon Lasgun or revving the Chainsword are particular favorites. And yes, the adaptive triggers do play a big part in tying this all together. This work will make it in time for the wider launch of Darktide on PS5 and its Grim Protocols update on December 3rd.</p>
-<p><strong>Would you update the PC version so that DualSense controller users can get haptic feedback on this version as well?</strong></p>
-<p>The PC version support for DualSense controllers with haptic feedback is not something we are currently working on at the moment.</p>
-<p><strong>How long did it take for you to enhance Darktide for the PS5 Pro?</strong></p>
-<p>Once the bulk of the work to bring Darktide to PS5 was nearing completion, enhancing Darktide for PS5 Pro was relatively easy. We already supported features like DLSS/FSR/XESS on PC, so adding PSSR didn’t require too much work. Now, we have more horsepower to get players blasting heretics with bigger frames and faster.</p>
-<p><strong>What do you think of the PS5 Pro's hardware? What is the single feature you were most impressed with?</strong></p>
-<p>The addition of PSSR is definitely a game changer to get those frame rates up while keeping the image quality as good as possible. That said, PSSR is not purely hardware related so I would have to say that the beefier GPU is the single hardware feature that left us really impressed.</p>
-<p><strong>Compared to the jump between PS4 Pro and PS4, would you say the PS5 Pro- PS5 difference is similar or reduced (e.g., the advancement is more or less significant)?</strong></p>
-<p>The difference between PS4 - PS4 Pro is more significant hardware wise than the PS5 - PS5 Pro. That said, that leap had both benefits and disadvantages. The PS4 Pro enjoyed more CPU and RAM compared to the PS5 Pro’s GPU increase. The problem is that, in order to fully use that extra hardware, a developer needed to do so much more than when working on generating more frames at a higher resolution. Adding too many/vastly different pieces of hardware might incur the different “generations” to diverge more than one would like, which could result in a game being bottlenecked by the slower of the two consoles.</p>
-<p>We had this problem with Vermintide 2, where consoles couldn’t push as many enemies as the PC version could. This caused us to have vastly different enemy numbers and the games were tweaked differently on each platform, which prevented crossplay from being a thing for Vermintide 2. The PS4 Pro solved this problem to an extent, but since we need to support all players, including PS4 users who experienced technical limitations, we were never able to fully utilize all that extra horsepower.</p>
-<p><iframe title="Warhammer 40,000: Darktide - Havoc Endgame Mode | Gameplay Trailer" width="500" height="281" src="https://www.youtube.com/embed/oUzMxKl9qqM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
-<p><strong>How much faster does the PS5 Pro hardware run your engine compared to the PS5?</strong></p>
-<p>It is really hard to put a number on this, but fast enough for us to be able to hit a comfortable 60 FPS in PSSR-enhanced 4K.</p>
-<p><strong>Are you using PSSR? What do you think about it compared to other upscalers like NVIDIA DLSS, AMD FSR, and Intel XeSS?</strong></p>
-<p>Yes, we are using PSSR, likewise, we have NVIDIA DLSS, AMD FSR, and Intel XeSS all integrated on PC as well. It’s really hard to compare as we cannot run PSSR and any of the other alternatives on the same platform and hardware. From what we have seen so far PSSR seems to be able to slug it out with the best of them and provide the expected benefit for the game.</p>
-<p><strong>How does the PS5 Pro version stack with the maxed-out PC game? Does the PS5 Pro version feature the highest graphics settings available on PC?</strong></p>
-<p>The PS5 Pro version runs PSSR-assisted 4K at 60fps with most settings in what would equal PC High mode. We are running PSSR in the balanced mode equivalent, which puts the internal resolution at 2258x1270.</p>
-<p><strong>The Xbox Series X version of Darktide does not support ray tracing, so I expect the same will be true for PS5. The new PS5 Pro adds enhanced ray tracing capabilities, though. Were you able to port any ray-tracing features from the PC version?</strong></p>
-<p>We did not put focus on porting any of the raytracing solutions on PC to PS5 or PS5 Pro for that matter. The cost versus benefit wasn’t deemed favorable. Darktide already looks pretty darn good even without raytracing features and our focus for PS5 Pro was to deliver the 60fps performance at the PS5 quality mode equivalent. We just find that the prospect of additional frames appeals to Darktide players more than the addition of slightly better looks.</p>
-<p><strong>Thank you for your time.</strong></p>
-
-				
-
-			
-	<div>
-		<h2>Products mentioned in this post</h2>
-		
-		<!--<p class="story-notice text-center">The links above are affiliate links. As an Amazon Associate, Wccftech.com may earn from qualifying purchases.</p>-->
-	</div>
-
-			
 			
 
 		</div></div>]]></content:encoded>
