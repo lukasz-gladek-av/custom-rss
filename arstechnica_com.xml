@@ -4,29 +4,24 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Tue, 03 Dec 2024 20:36:52 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Dec 2024 21:19:33 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[The Raspberry Pi 5 now works as a smaller, faster kind of Steam Link]]></title>
-            <link>https://arstechnica.com/gaming/2024/12/the-raspberry-pi-5-now-works-as-a-smaller-faster-kind-of-steam-link/</link>
-            <guid>https://www.resetera.com/threads/the-raspberry-pi-5-now-works-as-a-smaller-faster-kind-of-steam-link.1050930/</guid>
-            <content:encoded><![CDATA[https://arstechnica.com/gaming/2024/12/the-raspberry-pi-5-now-works-as-a-smaller-faster-kind-of-steam-link/<br/><br/><div id="readability-page-1" class="page"><div>
+            <title><![CDATA[Intel’s second-generation Arc B580 GPU beats Nvidia’s RTX 4060 for $249]]></title>
+            <link>https://arstechnica.com/gaming/2024/12/intel-targets-budget-friendly-1440p-gaming-with-249-and-219-arc-b500-gpus/</link>
+            <guid>https://www.resetera.com/threads/intel%E2%80%99s-second-generation-arc-b580-gpu-beats-nvidia%E2%80%99s-rtx-4060-for-249.1051116/</guid>
+            <content:encoded><![CDATA[https://arstechnica.com/gaming/2024/12/intel-targets-budget-friendly-1440p-gaming-with-249-and-219-arc-b500-gpus/<br/><br/><div id="readability-page-1" class="page"><div>
                       
                       
-          <p>The Steam Link was <a href="https://arstechnica.com/gaming/2015/10/steams-living-room-hardware-blitz-gets-off-to-a-muddy-start/#page-3">a little box ahead of its time</a>. It streamed games from a PC to a TV, ran 1,500 0f them natively, offered a strange (if somewhat lovable) little controller, and essentially required a great network, Ethernet cables, and a good deal of fiddling.</p>
-<p>Valve <a href="https://arstechnica.com/gaming/2018/11/valve-quietly-discontinues-steam-link-hardware-production/">quietly discontinued the Steam Link gear in November 2018</a>, but it didn't give up. These days, a Steam Link app can be found on most platforms, and Valve's sustained effort to move Linux-based (i.e., non-Windows-controlled) gaming forward has <a href="https://arstechnica.com/gaming/2024/08/valves-bespoke-steam-deck-os-will-be-officially-available-on-asus-rog-ally/">paid real dividends</a>. If you still want a dedicated device to stream Steam games, however? A Raspberry Pi 5 (with some help from Valve) can be a Substitute Steam Link.</p>
-<p>As <a href="https://www.raspberrypi.com/news/valves-steam-link-on-raspberry-pi/">detailed in the Raspberry Pi blog</a>, there were previously means of getting Steam Link working on Raspberry Pi devices, but the platform's move away from proprietary Broadcom libraries—and from X to Wayland display systems—required "a different approach." <a href="https://steamcommunity.com/id/slouken">Sam Lantinga from Valve</a> worked with the Raspberry Pi team on optimizing for the Raspberry Pi 5 hardware. As of <a href="https://steamcommunity.com/app/353380/discussions/6/4629231777834100224/">Steam Link 1.3.13</a> for the little board, Raspberry Pi 5 units could support up to 1080p at 144 frames per second (FPS) on the H.264 protocol and 4k at 60 FPS or 1080p at 240 FPS, presuming your primary gaming computer and network can support that.</p>
-<figure><p><iframe allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/19WMSEc9sHc?start=0&amp;wmode=transparent"></iframe></p><div>
-    
-    <p>
-      Jeff Geerling's test of Steam Link on Raspberry Pi 5, showing some rather smooth <em>Red Dead</em> movement.
+          <p><a href="https://arstechnica.com/gadgets/2024/12/intel-ceo-pat-gelsinger-steps-down-after-terrible-no-good-very-bad-year/">Turnover at the top of the company</a> isn't stopping Intel from launching new products: Today the company is announcing the first of its next-generation B-series Intel Arc GPUs, the Arc B580 and Arc B570.</p>
+<p>Both are decidedly midrange graphics cards that will compete with the likes of Nvidia's GeForce RTX 4060 and AMD's RX 7600 series, but Intel is pricing them competitively: $249 for a B580 with 12GB of RAM and $219 for a B570 with 10GB of RAM. The B580 launches on December 13, while the B570 won't be available until January 16.</p>
+<p>The two cards are Intel's first dedicated GPUs based on its next-generation "Battlemage" architecture, a successor to the "Alchemist" architecture used in the A-series cards. Intel's Core Ultra 200 laptop processors were its first products to ship with Battlemage, though they used an integrated version with fewer of Intel's Xe cores and no dedicated memory. Both B-series GPUs use silicon manufactured on a 5 nm TSMC process, an upgrade from the 6 nm process used for the A-series; as of this writing, no integrated <em>or</em> dedicated Arc GPUs have been manufactured by one of Intel's factories.</p>
+<p>Both cards use a single 8-pin power connector, at least in Intel's reference design; Intel is offering a first-party limited-edition version of the B580, while it looks like partners like Asus, ASRock, Gunnir, Maxsun, Onix, and Sparkle will be responsible for the B570.</p>
 
-          </p>
-  </div>
-</figure>
-<p>I have a documented preference for <a href="https://arstechnica.com/gaming/2023/04/nvidias-gamestream-is-dead-sunshine-and-moonlight-are-better-replacements/">a Moonlight/Sunshine game streaming setup</a> over Steam Link because I have better luck getting games streaming at their best on it. But it's hard to beat Steam Link for ease of setup, given that it only requires Steam to be running on the host PC, plus a relatively simple configuration on the client screen. A Raspberry Pi 5 is an easy device to hide near your TV. And, of course, if you don't end up using it, you only have 450 other things you can do with it.</p>
 
+<p>Compared to the original Arc GPUs, both Battlemage cards should benefit from <a href="https://arstechnica.com/gaming/2023/08/intel-brags-about-directx-performance-improvements-in-latest-arc-gpu-drivers/">the work Intel has put into its graphics drivers</a> over the last two years—a combination of performance improvements plus translation layers for older versions of DirectX have all improved Arc's performance quite a bit in older games since late 2022. Hopefully buyers won't need to wait months or years to get good performance out of the Battlemage cards.</p>
+<p>The new cards also come with XeSS 2, the next-generation version of Intel's upscaling technology (analogous to DLSS for Nvidia cards and FSR for AMD's). Like DLSS 3 and FSR 3, one of XeSS 2's main additions is a frame-generation feature that can interpolate additional frames to insert between the frames that are actually being rendered by the graphics card. These kinds of technologies tend to work best when the cards are already running at a reasonably high frame rate, but when they're working well, they can lead to smoother-looking gameplay. A related technology, Xe Low Latency, aims to reduce the increase in latency that comes with frame-generation technologies, similar to Nvidia's Reflex and AMD's Anti-Lag.</p>
 
           
                       
