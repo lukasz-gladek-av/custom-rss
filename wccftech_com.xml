@@ -4,9 +4,70 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Sun, 08 Dec 2024 20:21:20 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 08 Dec 2024 20:35:40 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Skyrim Gets True PBR with Community Shaders 1.0]]></title>
+            <link>https://wccftech.com/skyrim-gets-true-pbr-with-community-shaders-1-0/</link>
+            <guid>https://www.resetera.com/threads/skyrim-gets-true-pbr-with-community-shaders-1-0.1055274/</guid>
+            <content:encoded><![CDATA[https://wccftech.com/skyrim-gets-true-pbr-with-community-shaders-1-0/<br/><br/><div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>The Elder Scrolls V: Skyrim may have celebrated its thirteenth birthday around a month ago, but its modding community is more alive than ever. The last few days brought several exciting developments, starting with the long-awaited release of <a href="https://www.nexusmods.com/skyrimspecialedition/mods/86492?tab=description" target="_blank" rel="noopener">Community Shaders 1.0</a>, a plugin that introduces advanced graphics features to the open world roleplaying game.</p>
+<p>Historically, Boris Vorontsov's ENB has been the <a href="https://wccftech.com/the-elder-scrolls-v-skyrim-visuals-natural-culminated/" target="_blank" rel="noopener">go-to graphics enhancement framework for Skyrim</a> and many other PC games. However, at least when it comes to Bethesda's best-selling game, CS 1.0 has arguably surpassed it with the latest release, mainly due to the introduction of PBR - also known as Physically Based Rendering.</p>
+<p>PBR was a major advancement that was introduced to new games in late 2015 and early 2016. One of the first titles to adopt physically based rendering <a href="http://wccftech.com/the-division-features-pbr-dynamic-gi-realtime-bounce-lighting-completely-dynamic-light-sources/" target="_blank" rel="noopener">was Ubisoft Massive's Tom Clancy The Division</a>. With PBR, materials are realistically influenced by lighting, making for a dramatic visual improvement.</p>
+<p>While main Community Shaders modder doodlum (the same author of the <a href="https://wccftech.com/skyrim-light-mod-greatly-improves-visuals-starfield/" target="_blank" rel="noopener">Light Limit Fix mod</a> that backported Starfield's clustered shading to introduce limitless dynamic light sources to Skyrim) worked on this major new release, some of the most active texture modders began adapting their work to the new graphics feature. I'm told by RealExist, one of the texture modders who already produced several PBR mods, that it was not easy as the game's lighting did not work well at first with PBR (it was not built for it, after all). The modders also had to come up with a mesh patcher (<a href="https://www.nexusmods.com/skyrimspecialedition/mods/120946" target="_blank" rel="noopener">ParallaxGen</a>) that enables meshes to be compatible with the new PBR textures.</p>
+<p>As they say, a picture is worth a thousand words, so you can take a look at the first examples below, with several mods already available on Nexus and others to follow.</p>
+<figure>
+<div>
+
+<div>
+		
+		
+		<p><span>2 of 9</span>
+	</p></div></div>
+</figure>
+
+
+<p>Community Shaders 1.0 added more than just PBR to Skyrim. The full changelog shared by doodlum mentions:</p>
+<ul>
+<li>'extremely higher performance' when using the aforementioned Light Limit Fix</li>
+<li>deferred rendering for global illumination, reflections, and subsurface scattering</li>
+<li>native support for DLAA and Native FSR 3.1 AA</li>
+<li>improved shadow rendering performance whilst significantly improving quality.</li>
+<li>optimized subsurface scattering</li>
+<li>optimized parallax</li>
+<li>improved water reflections for water which look much more realistic</li>
+<li>improved water performance by removing unneeded depth samples</li>
+<li>optimized water parallax</li>
+<li>directional shadows support for water and all transparent objects, such as eyes and glass</li>
+<li>significantly optimized Dynamic Cubemaps (up to 16x faster)</li>
+<li>optimized Water Caustics</li>
+<li>improved grass shading model<br>
+improved grass SSS and SSS on foliage, glaciers, etc.</li>
+<li>significantly improved particle light scalability by restricting contact and parallax shadows.</li>
+<li>new contact shadows algorithm</li>
+<li>unlocked internal game HDR rendering</li>
+<li>massively increased SSR (screen space reflections) visibility and range</li>
+<li>Redone wetness and puddle build-up that is now consistent across Skyrim saves</li>
+</ul>
+
+<figure></figure>
+
+<p>There's more. CS 1.0 also supports <a href="https://www.nexusmods.com/skyrimspecialedition/mods/135817" target="_blank" rel="noopener">Terrain Shadows</a>, a new feature developed by modder ProfJack that enables rough terrain shadows with infinite distance, both in Skyrim and on the game's world map. You can check out a preview in the impressive GIF above.</p>
+<p>Last but certainly not least, Community Shaders 1.0 supports <a href="https://www.nexusmods.com/skyrimspecialedition/mods/127557" target="_blank" rel="noopener">Light Placer</a>, the latest framework developed by powerofthree, the author of several key frameworks for Skyrim (Spell Perk Item Distributor, Base Object Swapper, and Keyword Item Distributor, to name a few). With Light Placer, modders can manually add real light bulbs with unlimited range and brightness to actors and objects. These lights can flicker, affect detection, change color based on the time of day, and so on. Light Placer has great potential to improve lighting by allowing modders to add many more lights across the whole game as they see fit.</p>
+<p>Version 1.0 is far from the final release of Community Shaders. The author is already testing new big features such as Screen Space Global Illumination (SSGI), Skylighting, Cloud Shadows, proper support for HDR displays, built-in Frame Generation, Capsule Shadows/Ambient Occlusion, sharper textures when using anti-aliasing, and more.</p>
+<p>I plan to delve deeper into the realm of Skyrim modding soon. Stay tuned for a much more detailed article on everything that's going on in this vibrant mod scene.</p>
+
+				
+
+		</div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Apple’s Stalling Vision Pro Sales Prompt Partnership With Sony To Add PlayStation VR2 Controller Support]]></title>
             <link>https://wccftech.com/apple-partnership-with-sony-for-playstation-vr2-controller-support-for-vision-pro/</link>
