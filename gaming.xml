@@ -4,9 +4,254 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Mon, 09 Dec 2024 13:32:32 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 09 Dec 2024 13:46:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Indiana Jones and the Great Circle launch day update adds full ray tracing on PC]]></title>
+            <link>https://www.thesixthaxis.com/2024/12/09/indiana-jones-and-the-great-circle-launch-day-update-adds-full-ray-tracing-on-pc/</link>
+            <guid>https://www.resetera.com/threads/indiana-jones-and-the-great-circle-launch-day-update-adds-full-ray-tracing-on-pc.1055658/</guid>
+            <content:encoded><![CDATA[https://www.thesixthaxis.com/2024/12/09/indiana-jones-and-the-great-circle-launch-day-update-adds-full-ray-tracing-on-pc/<br/><br/><div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>The first update for <a href="https://www.thesixthaxis.com/tag/indiana-jones-and-the-great-circle">Indiana Jones and the Great Circle</a> is now available alongside today’s full launch of the game. It’s a big one for PC gamers, with the addition of path tracing (AKA full ray tracing) for NVidia GPUs, but there’s also bug fixes across the game.</p>
+<p>Path tracing completely replaces the game’s lighting and reflections using the ray tracing tech built into Nvidia GPUs, where the fallback mode is a hybrid that includes ray traced global illumination and more traditional techniques for light, reflections, shadows and the like. It will be equivalent to the path tracing option that was patched in for <a href="https://www.thesixthaxis.com/tag/cyberpunk-2077">Cyberpunk 2077</a>… and it’s similarly expensive on the GPU, with <a href="https://www.thesixthaxis.com/2024/12/04/indiana-jones-and-the-giant-circle-minimum-specs-recommended-ultra-pc-requirements-4k-ray-tracing/">MachineGames recommending GeForce RTX 40 Series cards</a> and requiring the use of upscaling.</p>
+
+
+<p>Speaking of which, the only upscaling techniques are currently Nvidia’s DLSS and a generic TAAU, but AMD FSR will be added in a future update. Oh, and a pesky dynamic resolution bug that affected us when playing with an AMD GPU has also been fixed by this update.</p>
+<p>Out now across PC, <a href="https://www.thesixthaxis.com/tag/xbox-series-x">Xbox Series X|S</a> and via certain tiers of <a href="https://www.thesixthaxis.com/tag/xbox-game-pass">Game Pass</a>, Indiana Jones and the Great Circle is a great adaptation that defies the expectations of gun-heavy Uncharted-alike in favour of something more considered and true to the films. In <a href="https://www.thesixthaxis.com/2024/12/06/indiana-jones-and-the-great-circle-review/">our review</a> I said, “Indiana Jones and the Great Circle forges its own, distinctive path as an archeological adventure, excellently capturing the feel of the films with its visuals and performances. There’s a fun new story here as well, wrapped around its blend of exploration, puzzles and pugilism.”</p>
+
+<p>Here’s the full patch notes:</p>
+<p><strong>NEW FEATURES</strong></p>
+<ul>
+<li>Added Full Ray Tracing (Path Tracing) feature on supported NVIDIA video cards. A minimum of 12GB VRAM is required to make use of this feature. Please note that we’re also working to support AMD FSR in a future game update.</li>
+</ul>
+<p><strong>GENERAL</strong></p>
+<ul>
+<li>Fix for a rare crash that could occur while saving the game.</li>
+<li>Fix for an issue where you could temporarily lose Pre-Order/Deluxe outfit entitlements.</li>
+<li>Fix to ensure your photographs appear more quickly when inspecting them from the journal.</li>
+</ul>
+<p><strong>GAMEPLAY</strong></p>
+<ul>
+<li>Fix for a broken animation that could occur if you equip the rebreather immediately upon jumping into water.</li>
+<li>Fix for a situation where you may not be able to interact with objects temporarily if you tried to push an enemy with your revolver while stamina is exhausted.</li>
+<li>Fix for an issue that could prevent you from being able to block punches while looking at a nearby pickup object.</li>
+<li>Fix for issue where you may not be able to change your disguise after leaving the Sukhothai village via a fast-travel signpost.</li>
+<li>Fix for several places where the whip may detach unexpectedly when swinging.</li>
+<li>Fix for an issue where Indy’s legs may unexpectedly snap into place when swinging across the gap in the bridge in Nepal.</li>
+<li>Fix to prevent enemies from being unaware of Indy when reloading a checkpoint made very close to soldiers that are guarding the entrance to a restricted location.</li>
+<li>Fix for an issue that may result in Gina not appearing near your docked boat when expected.</li>
+<li>Fix for camera shaking unexpectedly when dying to scorpions near the end of the Gizeh level.</li>
+<li>Fix for an issue where first shot made from a temporary gun would be silent.</li>
+<li>Fix for an issue where enemies may have a delayed response after you have stolen valuables from them.</li>
+<li>Fix for an issue that might make you appear in a broken animation state if restarting a checkpoint after using a zipline while the game is saving.</li>
+<li>Fix for an issue that might result in being unable to use your whip if you were performing a whip crack while saving the game, and then reloaded that save.</li>
+<li>Fix for an issue where you may become stuck in the “Lucky Hat” recovery state.</li>
+</ul>
+<p><strong>UI</strong></p>
+<ul>
+<li>Added “Reset to Default” selection in the Options menu.</li>
+<li>Fix for a situation where rapid cycling of the Quick Equip menu might result in the wrong item being shown in the menu.</li>
+<li>Added explanation of the Blue Suitcase revisit icon on maps to the in-game manual.</li>
+<li>Prevent map location titles from overlapping with photo opportunity names.</li>
+<li>Fix for intermittent text flicker during the credits.</li>
+<li>Ensure the player’s Adventure Book list is updated immediately after unlocking a new book.</li>
+</ul>
+<p>GRAPHICS</p>
+<ul>
+<li>Fix for bottles appearing overly blurred when moving around with an equipped bottle.</li>
+<li>Fix for an issue where Indy’s right arm might look pinched above the wrist when in a bare-armed costume.</li>
+<li>Fix for occasional stuttering that might be seen in cutscenes.</li>
+<li>Fix to make Indy’s whip behave more naturally when attached to his belt.</li>
+</ul>
+<p><strong>MISSIONS AND QUESTS – <em>PLEASE NOTE THIS SECTION CONTAINS SOME SMALL SPOILERS</em></strong></p>
+<ul>
+<li>Ensure several photo opportunities are still available when revisiting levels or after completing sections of the game.</li>
+<li>Ensure several journal notes are still available to be collected when revisiting levels or after completing sections of the game.</li>
+<li>Ensure several Adventure Books are shown correctly on the map after purchasing map information booklets.</li>
+<li>Fix to prevent player from getting stuck when dropping Giuseppe’s Key, rather than stashing it, in A Savage Predicament.</li>
+<li>Fix to prevent rare issue where Gina may not path to the open door after the fire trap in the Chamber of Fire – Silver Trial mission in the Vatican.</li>
+<li>Fix to prevent rare issue where Gina may not use the levers or may get stuck when pathing to an elevator in Wat Si Sawai in Sukhothai.</li>
+<li>Fix for an issue where Gina may not help open the Game Room door at the Sukhothai Ziggurat.</li>
+<li>Fix for an issue where Gina may not enter a co-op vault or climb when she has recently been in combat.</li>
+<li>Fix for an issue where pieces of the Vatican fountain puzzle may keep moving slowly, that could prevent its completion if left for a very long time.</li>
+<li>Fix for an issue that could prevent the “Finish Forging the Gold Key” quest objective from ever being cleared in your journal in the Vatican.</li>
+<li>Fix for an issue where dying shortly after opening the safe in the Sukhothai HQ may result in player being unable to pick up all of the gold.</li>
+<li>Fix for an issue where gates may be locked inside the caves if restarting a checkpoint while sneaking into the Nazi Compound in Gizeh.</li>
+<li>Fix for an issue that prevent player from picking up an important book in Voss’ office inside the Nazi Compound in Gizeh.</li>
+<li>Fix for an issue that might result in Antonio or Ventura being stuck in a “cower” state while you are in Antonio’s office in the Vatican.</li>
+</ul>
+<p><strong>PC SPECIFIC FIXES</strong></p>
+<ul>
+<li>Improved performance on larger game levels if using an 8GB VRAM video-card.</li>
+<li>Fix an issue where Alt-Tabbing might prevent you from being able to open your inventory.</li>
+<li>Fix to make sure that the “Revert” option works correctly when you change video modes.</li>
+<li>Fix for torch or lighter flames flickering when playing the game at a high refresh rate.</li>
+<li>Fix for Sand Pouring and Torch flame effects not rendering correctly in Peru level on AMD video-cards.</li>
+<li>Fix for issue where enabling HDR and DLSS simultaneously might result in a moiré effect on plain white walls.</li>
+<li>Fix for an issue where black artifacts may appear in Indy’s eye during cutscenes inside the cave in Peru.</li>
+<li>Fix for issue where black squares may appear intermittently on screen if renderscale is used at certain resolutions on AMD video-cards.</li>
+<li>Fix to ensure that your Photos can be exported correctly from Steam cloud saves if you decide to switch to using Xbox cloud saves.</li>
+<li>Please note that AMD FSR support will be added in a future game update.</li>
+</ul>
+<p><strong>KNOWN ISSUES</strong></p>
+<ul>
+<li>We are aware some players may experience reduced performance if launching the game with DLSS enabled and we are looking into it. Players encountering this issue can try:
+<ul>
+<li>Navigate to the Options Menu after loading the game</li>
+<li>Select Graphics Options</li>
+<li>Switch from DLSS to TAA</li>
+<li>Switch back to DLSS and exit the menu. Performance should return to normal shortly after</li>
+</ul>
+</li>
+</ul>
+<p><em>Source: <a href="https://bethesda.net/en/article/ZKn6jyPTe2ElFSJ0yZ2WA/indiana-jones-and-the-great-circle-tm-update-1?linkId=100000316950846">Bethesda</a></em></p>
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Bloodborne Emulation Continues to Get Improved With RAM and VRAM Usage Fixes and Dynamic Shadows Mod]]></title>
+            <link>https://wccftech.com/bloodborne-reduced-vram-dynamic-shadows/</link>
+            <guid>https://www.resetera.com/threads/bloodborne-emulation-continues-to-get-improved-with-ram-and-vram-usage-fixes-and-dynamic-shadows-mod.1055655/</guid>
+            <content:encoded><![CDATA[https://wccftech.com/bloodborne-reduced-vram-dynamic-shadows/<br/><br/><div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>Bloodborne's emulation on PC is continuing to get improved almost daily, thanks to new updates to the ShadPS4 emulator and mods that improve the game's visuals to provide a truly remastered experience.</p>
+<p>The latest work-in-progress build of the ShadPS4 emulator, version 0.4.1, addresses some of the issues that have been causing frequent crashing while playing the PlayStation 4 exclusive on PC, such as RAM usage spikes, and excessive VRAM usage, as reported in a new video shared by tabeneru on <a href="https://www.youtube.com/@tabeneru" target="_blank" rel="noopener">YouTube</a>. The new version of the emulator seems to reduce VRAM usage considerably, so the game should now run better on a variety of system configurations.</p>
+<p><iframe title="ShadPS4 0.4.1 WIP - Bloodborne PC Huge Improvement (RAM SPIKE FIX &amp; VRAM USAGE REDUCED)" width="500" height="281" src="https://www.youtube.com/embed/FYN56lE-Fi0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+<p>Besides general emulation improvements that are also benefiting the game, Bloodborne is getting improved by the hard work of modders. Today, a new version of the Enable Dynamic Shadow mod was released on <a href="https://www.nexusmods.com/bloodborne/mods/160?tab=description" target="_blank" rel="noopener">Nexus Mods</a>, further improving the dynamic shadows the mod introduces. While <a href="https://wccftech.com/bloodborne-remaster-visual-improvements-video/">fromsoftserve's remastering project</a> also does the same, this mod is being manually tuned for the best results. You can check out how much dynamic shadows improve the game's visuals in the screenshots below.</p>
+<figure>
+<div>
+
+<div>
+		
+		
+		<p><span>2 of 9</span>
+	</p></div></div>
+</figure>
+
+
+<p>Bloodborne is only one of the games that the ShadPS4 emulator can run reasonably well on PC. More information on the emulator that is making it possible to enjoy the popular PS4 exclusive at its best can be found on its <a href="https://shadps4.net/" target="_blank" rel="noopener">official website.</a></p>
+
+				
+
+		</div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Tekken 8's next character will be revealed this week, and clues point to a certain lady in red]]></title>
+            <link>https://www.rockpapershotgun.com/tekken-8s-next-character-will-be-revealed-this-week-and-clues-point-to-a-certain-lady-in-red</link>
+            <guid>https://www.resetera.com/threads/tekken-8s-next-character-will-be-revealed-this-week-and-clues-point-to-a-certain-lady-in-red.1055652/</guid>
+            <content:encoded><![CDATA[https://www.rockpapershotgun.com/tekken-8s-next-character-will-be-revealed-this-week-and-clues-point-to-a-certain-lady-in-red<br/><br/><div id="readability-page-1" class="page"><div data-component="article-header">
+  
+
+    <div>
+  
+
+        <p>We're Anna-lyzing the trailer</p>
+
+    </div>
+
+
+  <p>
+  <figure>
+  <a href="https://assetsio.gnwcdn.com/tekken-7-anna-williams-in-tekken-8-soon.jpg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
+  
+  </a>
+
+      <figcaption>
+        <span>
+Image credit:          <cite>Bandai Namco Entertainment</cite>
+        </span>
+      </figcaption>
+  </figure>
+  </p>
+
+    
+
+</div><div data-component="article-content">
+
+
+
+            <p>The big question a Tekken player always wants to know is: which DLC character is coming next? Well, you'll know by the end of the week, as the studio is planning to reveal this at Geoff Keighley's winter festival of expensive advertising, the Game Awards. However, there may already be some clues in a trailer they've just released, which suggests some sisterful slapping is overdue. The trailer also promises new moves for all characters in a Season 2 update next spring, along with some minor presents in a winter update due sooner than that. But yes, come see for yourself.
+
+<!--more-->
+</p><figure>
+<p>
+<a aria-label="TEKKEN 8 - Winter Update &amp; Season 2 Announcement Trailer" data-lightbox="false" data-platform="youtube" href="https://www.youtube.com/embed/o_aT3tCBHD4?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
+<span>TEKKEN 8 - Winter Update &amp; Season 2 Announcement Trailer</span>
+<template>
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/o_aT3tCBHD4?autoplay=1" frameborder="0" loading="lazy" src="https://www.youtube-nocookie.com/embed/o_aT3tCBHD4?autoplay=1">
+</iframe> </template>
+</a>
+</p>
+<a href="https://www.youtube.com/watch?v=o_aT3tCBHD4" rel="noopener" target="_blank">Watch on YouTube</a></figure>
+<p>You see the helicopter chasing Nina Williams at 2:12? It has a lipsticky kiss mark on the missile, a nod to scrappy sister Anna Williams, the red roughhouser to Nina's purple pugilist. That puts Anna a good bet for the reveal, but who knows? It could all be a scarlet red herring. The developers are planning to reveal all on Thursday evening (that's the wee hours of Friday morning for us in the UK).</p>
+<p>More concretely, the trailer promises new moves for every chracter, in case the hundred attacks of the average character aren't enough for you (I see my favourite coffee baroness Azucena performing a freshly brewed sweepy kick). There's also going to be a "major balance update", which for Tekken often means a lot of changes to frame data for various attacks across all characters. Finally, the trailer pumps up the Tekken World Tour - the annual fraternal fisticuffs that is often interesting but I most fondly remember for 	<a href="https://www.rockpapershotgun.com/the-best-tekken-player-in-the-world-is-a-panda">crowning a Panda as the globe's best bare-knuckle brawler</a>.</p><p>But that's all Season 2 stuff. Players will get the winter update before all that, and it is slightly less dramatic. It'll offer the gift of extra photo mode features, for example. This will let you add "wetness" and "grime" to fighters' faces (it's just what I always wanted!). You'll also soon be able to search for other players online by username. Extra slots for customised characters will get added early next year too, say the devs.</p>
+<p>The latest entry in the Iron Fist Tournament is pretty slick, as I judged in our <a href="https://www.rockpapershotgun.com/tekken-8-review">Tekken 8 review</a>. But it's also missing the characters I love most (Lei, Miguel, Josie), which is ultimately why <a href="https://www.rockpapershotgun.com/games/tekken-7">Tekken 7</a> is the bruiser that got onto our list of the best games, aka <a href="https://www.rockpapershotgun.com/the-rps-100-2024">the RPS 100</a>. Anna, she's cool and all. But can she pretend to be drunk and roll around on the ground to freak out her opponent? No. </p>
+
+
+
+        </div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Hunter X Hunter Nen X Impact Banned in Australia]]></title>
+            <link>https://insider-gaming.com/hunter-x-hunter-nen-x-impact-refused-classification-in-australia/</link>
+            <guid>https://www.resetera.com/threads/hunter-x-hunter-nen-x-impact-banned-in-australia.1055649/</guid>
+            <content:encoded><![CDATA[https://insider-gaming.com/hunter-x-hunter-nen-x-impact-refused-classification-in-australia/<br/><br/><div id="readability-page-1" class="page"><div>
+		
+<p>The Australian Classification Board has refused to classify Hunter X Hunter Nen X Impact.</p>
+
+
+
+<p>If you head to the Australian Classification Board <a href="https://www.classification.gov.au/titles/hunterhunter-nenimpact" target="_blank" rel="noreferrer noopener nofollow">website</a>, you will see that Hunter x Hunter Nen x Impact has been classified as ‘RC’ or ‘Refused Classification’. The website has not provided a reason for refusing classification and has asked fans to contact them for further clarification on their decision.&nbsp;</p>
+
+
+
+<p>The Australian Classification Board provided a statement to <a href="https://www.polygon.com/news/489089/hunter-x-hunter-nen-x-impact-refused-classification-australia-ban-rating" target="_blank" rel="noreferrer noopener nofollow">Polygon</a> regarding the classification of Hunter x Hunter Nen X Impact, explaining that the game was refused classification due to “a visual depiction of implied sexual violence, where an adult male exposes himself to persons under the age of 18 years.”&nbsp;</p>
+
+
+
+<p><strong>The Australian Classification Board added:&nbsp;</strong></p>
+
+
+
+<blockquote>
+<p>“The Board noted in its report that the implied sexual violence is implicitly condoned as appropriate due to a lack of resolution of the act through the game’s narrative and that it is not justified by context. Implied sexual violence that is visually depicted, interactive, not justified by context, or related to incentives or rewards is not permitted.”&nbsp;</p>
+</blockquote>
+
+
+
+<p>Currently, Hunter X Hunter Nen X Impact does not have a concrete release date, but it is scheduled to arrive at some point in 2025 for PlayStation 5, Nintendo Switch, and PC.&nbsp;</p>
+
+
+
+<p>In other news, Palworld has changed <a href="https://insider-gaming.com/palworld-has-changed-how-pal-spheres-work-in-the-game/" target="_blank" rel="noreferrer noopener">how Pal Spheres work in the game</a>. Also, <a href="https://insider-gaming.com/apple-and-sony-partnering-up-for-vision-pro-controllers-its-claimed/" target="_blank" rel="noreferrer noopener">Apple and Sony are reportedly partnering up</a> to create Vision Pro controllers. What are your thoughts on Hunter X Hunter Nen x Impact being banned in Australia?&nbsp;Let us know in the comments or our new&nbsp;<a href="https://insider-gaming.com/forum/" target="_blank" rel="noreferrer noopener">community forum</a>!</p>
+
+
+
+<hr>
+
+
+
+<p>For more information from Insider Gaming, read about&nbsp;<a href="https://insider-gaming.com/marvel-rivals-leaks-reveals-details-about-ultron-and-the-thing/" target="_blank" rel="noreferrer noopener">Marvel Rivals leaks revealing details about The Thing and Ultron</a>. Don’t forget to&nbsp;<a href="https://insider-gaming.com/subscribe" target="_blank" rel="noreferrer noopener">sign up for our weekly newsletter</a>.&nbsp;&nbsp;</p>
+    <div id="ig-newsletter-holder">
+            <p><span>
+                    Subscribe to our newsletter to receive the latest news and exclusive leaks every week! No Spam.
+                </span>
+            </p>
+            
+        </div>
+
+	</div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Call of Duty Fans Give Black Ops 6's Zombie Santa Loading Screen the Finger Amid 'AI Slop' Backlash]]></title>
             <link>https://www.ign.com/articles/call-of-duty-fans-give-black-ops-6s-zombie-santa-loading-screen-the-finger-amid-ai-slop-backlash</link>
@@ -55,7 +300,7 @@
 
   <p>
   <figure>
-  <a href="https://assetsio.gnwcdn.com/Screenshot-2024-12-09-at-12.55.08.png?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
+  <a href="https://assetsio.gnwcdn.com/Screenshot-2024-12-09-at-12.55.08.png?width=1200&amp;height=1200&amp;fit=bounds&amp;quality=70&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
   
   </a>
 
@@ -201,25 +446,7 @@ Later, Dark Space mocks up a rumoured cutscene, where players will apparently ho
 </p><p>
 There's also a section where we see the estimated size of <a data-keyword="true" href="https://www.eurogamer.net/gta-6-everything-we-know-so-far-9357">GTA 6</a>'s map from above, as a plane flies over both it and the GTA 5 map at the same speed. The inferrance here is that GTA 6's map will be bigger than its predecessor's - though this was to be expected, and exact measurements are likely best saved for the final game. 
 </p>
-<figure data-count="4" role="group">
-<figure>
-<a data-lightbox="true" href="https://assetsio.gnwcdn.com/I-made-GTA-6-Before-GTA-6-1-36-screenshot.png?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank">
- </a>
-</figure>
-<figure>
-<a data-lightbox="true" href="https://assetsio.gnwcdn.com/I-made-GTA-6-Before-GTA-6-6-51-screenshot.png?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank">
- </a>
-</figure>
-<figure>
-<a data-lightbox="true" href="https://assetsio.gnwcdn.com/I-made-GTA-6-Before-GTA-6-7-8-screenshot.png?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank">
- </a>
-</figure>
-<figure>
-<a data-lightbox="true" href="https://assetsio.gnwcdn.com/I-made-GTA-6-Before-GTA-6-6-55-screenshot.png?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank">
- </a>
-</figure>
-<figcaption><span>Image credit: <cite>Dark Space</cite></span></figcaption>
-</figure>
+
 <p>
 Rockstar publisher Take-Two has <a href="https://www.eurogamer.net/take-two-doubles-down-on-gta-6-release-date-after-delay-rumours">GTA 6 set to launch in late 2025</a>. Next year is a big one for the company, with Borderlands 4 and Mafia: The Old Country both also set to arrive between April 2025 and the end of March 2026.
 </p>
@@ -851,104 +1078,6 @@ Image credit:          <cite>Bethesda/Eurogamer</cite>
 
 		
 	</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Marvel Rivals opening weekend sees 10m players join in]]></title>
-            <link>https://www.eurogamer.net/marvel-rivals-opening-weekend-sees-10m-players-join-in</link>
-            <guid>https://www.resetera.com/threads/marvel-rivals-opening-weekend-sees-10m-players-join-in.1055508/</guid>
-            <content:encoded><![CDATA[https://www.eurogamer.net/marvel-rivals-opening-weekend-sees-10m-players-join-in<br/><br/><div id="readability-page-1" class="page"><div data-component="article-content">
-
-
-
-            <p>
-Well shatter my Infinity Stones. <a href="https://www.eurogamer.net/free-to-play-hero-shooter-marvel-rivals-off-to-heroic-start-on-steam">Marvel Rivals' supercharged start</a> has now seen an astonishing 10 million players assemble over the game's opening weekend. 
-</p>
-<p>
-A free-to-play six-on-six team shooter from Chinese giant NetEase, Marvel Rivals launched last Friday for PC via Steam and the Epic Games Store, on PlayStation 5 and on Xbox Series X/S. 
-</p>
-<p>
-As of midnight last night, NetEase <a href="https://x.com/MarvelRivals/status/1865909229070016851">announced</a> that 10 million players had joined in across the game's various platforms. Excelsior!
-</p>
-<figure>
-<p>
-<a aria-label="Marvel Rivals | Launch Trailer" data-lightbox="false" data-platform="youtube" href="https://www.youtube.com/embed/-b0veB7q9P4?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
-<span>Marvel Rivals | Launch Trailer</span>
-<template>
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/-b0veB7q9P4?autoplay=1" frameborder="0" loading="lazy" src="https://www.youtube-nocookie.com/embed/-b0veB7q9P4?autoplay=1">
-</iframe> </template>
-</a>
-</p>
-<figcaption>Marvel Rivals launch trailer.<a href="https://www.youtube.com/watch?v=-b0veB7q9P4" rel="noopener" target="_blank">Watch on YouTube</a></figcaption></figure>
-<p>
-Marvel Rivals' roster of current and upcoming characters includes Marvel Cinematic Universe stalwarts such as Iron Man, Hulk, Scarlet Witch, Black Widow, Wolverine and Groot, along with other fan favourites such as Iron Fist, Cloak and Dagger and, of course, Squirrel Girl. (Seriously, when is she getting her MCU debut?)
-</p> <div>
-<div data-domain="twitter.com"><blockquote><div dir="ltr" lang="en"><p>🎉 In just 72 hours, we’ve reached an incredible milestone of 10 million players worldwide! 🎉</p><p>We want to extend our heartfelt thanks to each and every one of you. 🫶</p><p>Let’s ignite the battle together! 💖<a href="https://twitter.com/hashtag/MarvelRivals?src=hash&amp;ref_src=twsrc%5Etfw">#MarvelRivals</a> <a href="https://t.co/5njTulx24e">pic.twitter.com/5njTulx24e</a></p></div>— Marvel Rivals (@MarvelRivals) <a href="https://twitter.com/MarvelRivals/status/1865909229070016851?ref_src=twsrc%5Etfw">December 9, 2024</a></blockquote></div>
-<p><span data-type="targeting">
-<span>To see this content please enable targeting cookies.</span>
-</span>
-</p></div>
-<p>
-As for how it plays, well, Marvel Rivals has been compared to Blizzard's hero shooter <a data-keyword="true" href="https://www.eurogamer.net/games/overwatch">Overwatch</a>. 
-</p>
-<p>
-Indeed, over the weekend, Blizzard's former boss - the ever-chatty Mike Ybarra - suggested Marvel Rivals was as much of an Overwatch copycat as the widely-discussed <a href="https://www.eurogamer.net/tencents-horizon-clone-light-of-motiram-also-coming-to-ps5-of-all-platforms">Horizon Zero Dawn clone Light of Motiram</a>. 
-</p>
-<p>
-Unfortunately, <a href="https://www.eurogamer.net/former-blizzard-boss-blasts-marvel-rivals-similarity-to-overwatch">Ybarra also seemed to suggest Marvel Rivals had copied Overwatch's character of Widowmaker</a> for Black Widow. The character - played by Scarlett Johansson in the MCU - was created by Marvel legend Stan Lee in 1964.
-</p>
-</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA["Bogus phishing report" from Funko takes indie game platform itch.io offline]]></title>
-            <link>https://www.eurogamer.net/bogus-phishing-report-from-funko-takes-indie-game-platform-itchio-offline</link>
-            <guid>https://www.resetera.com/threads/bogus-phishing-report-from-funko-takes-indie-game-platform-itch-io-offline.1055505/</guid>
-            <content:encoded><![CDATA[https://www.eurogamer.net/bogus-phishing-report-from-funko-takes-indie-game-platform-itchio-offline<br/><br/><div id="readability-page-1" class="page"><div data-component="article-header">
-  
-
-    <div>
-        
-
-        <p>"Every minute is lost revenue."</p>
-
-    </div>
-
-
-  <p>
-  <figure>
-  <a href="https://assetsio.gnwcdn.com/itchio-logo-header-textless_9X029em.png?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
-  
-  </a>
-
-      <figcaption>
-        <span>
-Image credit:          <cite>Itch.io</cite>
-        </span>
-      </figcaption>
-  </figure>
-  </p>
-
-    
-
-</div><div data-component="article-content">
-
-
-
-            <p>Indie game platform itch.io has been taken offline after Funko allegedly logged a "bogus phishing report" to the website's registrar.</p>
-<p>In a brief message posted this morning to Bluesky, the itch.io team said that Funko used "trash" AI-powered brand protection system Brand Shield and despite responding to challenge the phishing report, the site's domain has instead been disabled.</p>
-<figure><div>
-<p><span data-type="targeting">
-<span>To see this content please enable targeting cookies.</span>
-</span> </p>
-</div><figcaption>Is Sony buying FromSoftware's parent company the next big games industry acquisition?<a href="https://www.youtube.com/watch?v=qvqusIyhV2M" rel="noopener" target="_blank">Watch on YouTube</a></figcaption></figure>
-<p>"I kid you not, itch.io has been taken down by Funko of 'Funko Pop' because they use some trash 'AI Powered' Brand Protection Software called Brand Shield that created some bogus Phishing report to our registrar, iwantmyname, who ignored our response and just disabled the domain," the message said.</p>
-<p>"I hope you're all having a nice Sunday evening."</p>
-<blockquote data-bluesky-cid="bafyreiginvwbfjau6624ym5ouawvkcd5fzvcud5atr7dfj6p5okm5cxvqa" data-bluesky-uri="at://did:plc:oy37ivqnriw6nx3lrbcht2u3/app.bsky.feed.post/3lcu6h465bs2n"><p lang="en">I kid you not, @itch.io has been taken down by Funko of "Funko Pop" because they use some trash "AI Powered" Brand Protection Software called Brand Shield that created some bogus Phishing report to our registrar, iwantmyname, who ignored our response and just disabled the domain</p>— itch.io (<a href="https://bsky.app/profile/did:plc:oy37ivqnriw6nx3lrbcht2u3?ref_src=embed">@itch.io</a>) <a href="https://bsky.app/profile/did:plc:oy37ivqnriw6nx3lrbcht2u3/post/3lcu6h465bs2n?ref_src=embed">December 9, 2024 at 7:13 AM</a></blockquote><p><span data-type="targeting">
-<span>To see this content please enable targeting cookies.</span>
-</span></p><p>"Sue them," <a href="https://bsky.app/profile/leafytail.bsky.social/post/3lcugqbsfek2o">said</a> one respondent. "Every minute is lost revenue. As someone who hosts games on itch.io I'm pissed at this nonsense."</p>
-<p>"Itch should sue Funko, their registrar, and the BrandShield for loss of business on behalf of their own interests and the interest of their users, developers, and buyers," added <a href="https://bsky.app/profile/alexvallimusic.bsky.social/post/3lcue2fp3qs2w">another</a>. "Because this is something that not only affects itch, but also everyone that hosts jams and releases software and games on there."</p>
-<p>At the time of writing, itch.io remains offline.</p>
-<p>Itch.io recently announced that it now <a href="https://www.eurogamer.net/indie-game-platform-itchio-now-requires-developers-to-tag-ai-content">requires developers to disclose whether generative AI has been used in their work.</a></p>
-<p>In a statement, the platform detailed its new tagging requirement, specifying it is a required field for asset creator pages "to ensure buyers are aware of the origins of the material they are obtaining".</p></div></div>]]></content:encoded>
         </item>
     </channel>
 </rss>
