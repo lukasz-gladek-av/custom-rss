@@ -4,9 +4,375 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Wed, 18 Dec 2024 15:54:43 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 18 Dec 2024 16:08:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[The Mark Cerny Q&A – We Ask About VRR Improvements, PSSR FG, Path Tracing, and the ML Project with AMD]]></title>
+            <link>https://wccftech.com/the-mark-cerny-qa-we-ask-about-vrr-improvements-pssr-fg-path-tracing-and-ml-project-with-amd/</link>
+            <guid>https://www.resetera.com/threads/the-mark-cerny-q-a-%E2%80%93-we-ask-about-vrr-improvements-pssr-fg-path-tracing-and-the-ml-project-with-amd.1064451/</guid>
+            <content:encoded><![CDATA[https://wccftech.com/the-mark-cerny-qa-we-ask-about-vrr-improvements-pssr-fg-path-tracing-and-ml-project-with-amd/<br/><br/><div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>Last month, Wccftech was invited to join a small and exclusive number of outlets for <a href="https://wccftech.com/ps5-pro-lead-architect-mark-cerny-unveils-codename-amethyst-ml-collaboration-with-amd/" target="_blank" rel="noopener">an exclusive presentation</a> hosted by PS5 Pro Lead System Architect Mark Cerny. While the main topic was, of course, the <a href="https://wccftech.com/review/playstation-5-pro-hardware-the-next-gen-graphics-upgrade/" target="_blank" rel="noopener">new console</a>, there was even an exciting announcement regarding a collaboration with AMD on a machine learning project called 'Codename Amethyst.'</p>
+<p>Following the presentation, we had a one-on-one chat with the legendary programmer and game designer (in case you didn't know, he worked on the first Crash Bandicoot and Spyro installments, as well as the Jak &amp; Daxter franchise and, more recently, directed Knack and its <a href="https://wccftech.com/knack-2-demo-available-european-psn/" target="_blank" rel="noopener">sequel</a>). Since this event took place ahead of the launch of the PlayStation 5 Pro, some of the topics discussed may have been revealed and/or confirmed by the publication of this article.</p>
+<p>However, we also asked him a lot of future-facing questions, such as if PSSR would get a frame generation component, whether variable refresh rate on the console would be updated to support Low Framerate Compensation, and we also inquired about the feasibility of path tracing on PS5 Pro, among other things. Keep scrolling for the full transcription of our interview with Sony Interactive Entertainment's Mark Cerny.</p>
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2024/10/PSSR-2-scaled.jpg"></a></figure>
+
+<p><strong>The main focus of your presentation was arguably PlayStation Spectral Super Resolution (PSSR), so let's kick off with that. You previously commented on when the PlayStation 5 Pro project started internally, but when did you begin working on PSSR?</strong></p>
+<p><strong>Mark Cerny: </strong>We started on PlayStation Spectral Super Resolution at roughly the same time as we started on the hardware itself. Though, the neural network we are using today is something that we came up with, I believe, in late 2021.</p>
+<p><strong>How has the development of the PlayStation 5 Pro hardware evolved over the past few years in tandem with PSSR?</strong></p>
+<p><strong>Mark Cerny: </strong>The hardware definitely came first, because you can't know that your neural network is implementable unless you understand a bit about the hardware that it's going to be running on top of. So, simply put, in 2020 we did early hardware work. In 2021, we did more detailed hardware work and fully kicked off the PSSR project.</p>
+<p><strong>How do you see PSSR evolving after the launch of the console?</strong></p>
+<p><strong>Mark Cerny: </strong>We're definitely going to continue our work in this space. There are so many ways that we can take that, though, right? We could continue to improve PSSR or start working on some of the other targets that I mentioned, like frame generation, frame extrapolation, ray tracing, denoising, and the like. I think it'll be interesting to see over the next few months what the full reaction from the development community is.</p>
+<p><strong>Are there any plans to maybe add a frame generation component to PSSR?</strong></p>
+<p><strong>Mark Cerny: </strong>Well, at the current moment, our focus is definitely on Super Resolution. I'm just saying that there are a number of other very attractive targets out there.</p>
+<p><strong>Speaking about Super Resolution, does it require per-game training as the first version of NVIDIA Deep Learning Super Sampling, or is it more of a general model like DLSS 2.0 and later?</strong></p>
+<p><strong>Mark Cerny: </strong>It's generalized training.</p>
+<p><strong>Can you talk about roughly how long it takes to implement PSSR compared to NVIDIA DLSS, AMD FSR, or Intel XeSS?</strong></p>
+<p><strong>Mark Cerny: </strong>It's almost a drop-in replacement for the other strategies. The difficulty is that game engines tend to evolve along with the Super Resolution or the upscaling strategy that they're using. So, if you're trying to add something in after the fact that the game was not developed with, then there's a bit of rejiggering of the game engine that may be needed. Much of the time I think the developers spent bringing it over was the logistics of where in their pipeline they're going to insert PSSR.</p>
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2024/09/Sony-PlayStation-5-Pro-_-AMD-SoC-_7.png"></a></figure>
+
+<p><strong>Moving on from PSSR to the PlayStation 5 Pro hardware, the new SSD's size has obviously been greatly increased from the 768 GB of the PlayStation 5. Did the SSD's speed&nbsp;also improve in the PS5 Pro?</strong></p>
+<p><strong>Mark Cerny: </strong>No, the speed of the SSD on PS5 Pro is the same as the speed of the SSD on PS5.</p>
+<p><strong>OK. Did Sony ever consider expanding the RAM during the development of the PS5 Pro?</strong></p>
+<p><strong>Mark Cerny: </strong>Well, definitely more RAM is needed to implement those new features because PSSR needs a bit of RAM, and the ray tracing implementation definitely needs RAM. The question was just how much RAM is needed. We worked out that probably a gigabyte or so would be enough to support the big three that I was talking about.</p>
+<p>We have GDDR 6, which is very fast memory—16 gigabytes of it. Then we added slow DDR5 RAM and started moving over to that from the fast RAM. That frees up fast RAM for the games, and that's the one or so GB I was talking about.</p>
+<p><strong>I know that during Remote Play, the PlayStation 5 disables some of the video capture capabilities. Are those enabled on the PlayStation 5 Pro, or does it have the same limitations in this regard?</strong></p>
+<p><strong>Mark Cerny: </strong>The same limitations. There are many features that the gamer can use that require&nbsp;memory, and not all of them can be used simultaneously simply because there isn't enough memory on the system side. We want to get the bulk of the memory to the games, and the limitation set is the same on PS5 Pro.</p>
+<p><strong>Will Sony add Low Framerate Compensation or LFC to improve the Variable Refresh Rate (VRR) experience on PS5 and PS5 Pro?</strong></p>
+<p><strong>Mark Cerny: </strong>There are ongoing discussions about where we should be taking VRR, and that's definitely part of those discussions.</p>
+<p><strong>Another major advancement of the PlayStation 5 Pro is in the ray tracing capability. Will that enable the console to run full path tracing, like we see on PC with games like Cyberpunk 2077, Alan Wake 2, and Indiana Jones and the Great Circle?</strong></p>
+<p><strong>Mark Cerny: </strong>One difficulty in answering your question is that there are so many strategies for doing ray tracing or path tracing. Just to give an example, the engine that drives Alan Wake 2 is very, very different from the engine that drives Cyberpunk 2077.</p>
+<p>There were talks on both of these at the Game Developers Conference that I went to. I really hesitate to say that PlayStation 5 Pro can or can't do path tracing, but you need to have a highly optimized strategy for doing it if you're going to do it on PlayStation 5 Pro.</p>
+<p><strong>Some PS5 Pro titles have implemented AMD Fidelity FX Super Resolution Frame Generation. Have there been any complications with that running in tandem with PSSR?</strong></p>
+<p><strong>Mark Cerny: </strong>No, PSSR is Super Resolution, so whatever strategy a game has for frame generation should be completely orthogonal.</p>
+<p><strong>Alright. This is something I was curious about. At the launch of PS5, there were some PlayStation 4 titles like Bloodborne and The Last Guardian that, throughout their life cycle, were patched to have a locked 30 frames per second mode. If you go back to the 1.0 version of the disk, they also feature an unlocked frame rate. Has Sony been in conversations to kind of revisit that to unlock those frame rates on the PS5 Pro?</strong></p>
+<p><strong>Mark Cerny: </strong>I'm afraid I can't say anything about Bloodborne or that other title that you mentioned on PS5 Pro. Typically, the games on PS5 Pro are running in what we're calling Boost Mode. In this mode, we do give the game the entire GPU and faster memory to use, but whatever limitations it had are still there on the PS5 Pro version. So there's things that are definitely going to get better and things that will stay the same. I will say if your game has VRR, you should see substantially higher frame rates on PS5 Pro.</p>
+<p><strong>Will the PlayStation 5 Pro substantially boost PlayStation VR 2 games compared to the original console?</strong></p>
+<p><strong>Mark Cerny: </strong>PS VR 2 titles are definitely being boosted on PS5 Pro. There's a couple of different rendering strategies that VR titles take, depending on the strategy. PSSR is either something that works out of the box or something that needs a little bit more care and handling to be functional, and I think right now, we're at the point where we're getting pretty good uptake across the portfolio on PS VR2 for PlayStation Spectral Super Resolution.</p>
+<p><strong>Forgive me if you have mentioned this before - is PSSR going to be a toggle in the system settings for players who may want to play the title as it was originally developed?</strong></p>
+<p><strong>Mark Cerny: </strong>It's all whatever the developer would like to do. It's what they feel is best for their game. Some of the developers, like Naughty Dog, are offering the PS5 modes on PS5 Pro, so you can pick Performance Pro or you can pick the original Performance or Fidelity modes, but other developers decided that what is best is that you would have strictly Pro modes when playing their game on the PlayStation 5 Pro.</p>
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2024/12/54019804270_efe78076f5_h-HD-scaled.jpg"></a></figure>
+
+<p><strong>The big surprise of today's presentation was the Amethyst machine learning project with AMD. What are the first steps of that collaboration going to look like?</strong></p>
+<p><strong>Mark Cerny: </strong>Well, we've already started talking. Pretty much when PlayStation 5 Pro was wrapping up, we began discussions and development of those various aspects of Amethyst. To get more specific, I think we were getting pretty good momentum by the end of 2023. But as you know, it takes a phenomenally long amount of time to go from discussions and concepting to actually having a piece of hardware out in the marketplace.</p>
+<p><strong>One thing you touched on during the presentation was the democratization and standard libraries between SIE and AMD, which would be developed in&nbsp;parallel. Can you talk about how that partnership is going to be built out?</strong></p>
+<p><strong>Mark Cerny: </strong>Certainly. Well, for hardware first, really this is not about PlayStation proprietary hardware. We're looking to co-develop performant new AI architectures that can be used freely in any space that anybody chooses to use them, whether that is PC, console, or cloud.</p>
+<p>For the software, if I look at it today, we have games that run on a TV and there's a certain set of developers that make them, and AMD for PC has games that run on PC monitors that have a somewhat overlapping set of developers that make games for them. There are different needs and different relationships there, so really what we're looking to do is to co-develop those network architectures and those training strategies that can then be freely used in both contexts.</p>
+<p><strong>Another keyword from the presentation was discovering the holy grail of graphics through fully fused neural networks. What does that look like in your mind?</strong></p>
+<p><strong>Mark Cerny: </strong>Ultimately, what you would see is really high quality libraries based on CNN's (convolutional neural networks) for game graphics. To me, that's a bit of a prerequisite. You need to have hardware that is capable of doing that.</p>
+<p><strong>Game developers are using so many different engines to say the least, between Decima, Unreal, Frostbite, and many more. How does machine learning tie those together? Is there kind of a unified path for the architecture here, whether it's PSSR or the other features on the PS5 Pro, to kind of mold itself to the requirements of those different engines?</strong></p>
+<p><strong>Mark Cerny: </strong>I think we look out there globally, NVIDIA DLSS and AMD FSR are doing a pretty good job supporting a broad variety of game engines. So, yes, I believe that with sufficient care taken in meeting the needs of the individual game developers, it's definitely possible to create these broadly usable libraries,</p>
+<p><strong>So much of the focus has been obviously on the graphics and the visual aspect of the new PS5 Pro console. Does it also feature any additional capabilities for the audio component or anything else in the hardware, though?</strong></p>
+<p><strong>Mark Cerny: </strong>Largely, the key improvements on the PS5 Pro are those big three. There are a few smaller features. The audio clock is a bit higher in case anybody wanted to use that. They can do a few more convolution reverbs; that is in there. Probably more significantly, you can run the CPU at a 10% higher frequency if you want to do so. By and large, though, the focus was on the big three key improvements.</p>
+<p><strong>To wrap up our chat, is there one title that you feel is the standout centerpiece that shows players what the PS5 Pro can do at launch?</strong></p>
+<p><strong>Mark Cerny: </strong>There have been a number of pretty amazing titles on PlayStation 5 Pro, so I would really hate to pick one. I did personally enjoy seeing the eleven games we had at our hands-on event. On a personal note, that was really fun because I got to, in advance of that event, play and experience pretty much every game that was in development on PS5 Pro.</p>
+<p><strong>Wonderful. As always, thank you so much for your time.</strong></p>
+
+			
+		</div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[PS5 Pro Lead Architect Mark Cerny Unveils ‘Codename Amethyst’ ML Collaboration with AMD]]></title>
+            <link>https://wccftech.com/ps5-pro-lead-architect-mark-cerny-unveils-codename-amethyst-ml-collaboration-with-amd/</link>
+            <guid>https://www.resetera.com/threads/ps5-pro-lead-architect-mark-cerny-unveils-%E2%80%98codename-amethyst%E2%80%99-ml-collaboration-with-amd.1064448/</guid>
+            <content:encoded><![CDATA[https://wccftech.com/ps5-pro-lead-architect-mark-cerny-unveils-codename-amethyst-ml-collaboration-with-amd/<br/><br/><div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>Ahead of the <a href="https://wccftech.com/review/playstation-5-pro-hardware-the-next-gen-graphics-upgrade/" target="_blank" rel="noopener">launch of the PS5 Pro</a> last month, Sony invited Wccftech as part of a very select number of media outlets and analysts to get an early look at the console and a soon-to-be-released deep dive into the system architecture by none other than the Lead Architect of the console, Mark Cerny. The event also included an exclusive Q&amp;A with Mr. Cerny himself afterward, which you can read <a href="https://wccftech.com/the-mark-cerny-qa-we-ask-about-vrr-improvements-pssr-fg-path-tracing-and-ml-project-with-amd/" target="_blank" rel="noopener">here</a>.</p>
+<p>Mark Cerny started off the presentation as a sort of ‘bits and bytes’ talk to principally focus on the GPU for the PlayStation 5 Pro and why it matters. As it’s been some seven years since the beginning of the PlayStation 5 journey, it’s been more than enough time for the technology advances to need that additional power to make the most of the console generation. With the PlayStation 5 already having been on the market for more than four years, Mark Cerny admitted that it’s taken time for game creators to get up to speed (unless you’re one of Sony’s first-party studios like Naughty Dog or Sony Santa Monica).</p>
+<p>Much of the PS5 Pro presentation focused on what Mark Cerny called the Big Three: a larger GPU, advanced ray tracing features, and upscaling games through artificial intelligence and PlayStation Super Spectral Resolution, or PSSR.</p>
+<p>The first focus was on the larger GPU present in the PlayStation 5 Pro which features a unique AMD architecture that Sony was branding as RDNA2.X. This was a hybrid variant of RDNA 2 while featuring both custom and future RDNA versions present in RDNA 3 and beyond. This is combined with a GPU that featured 66% more Work Group Processors, or WGP, compared to the graphics solution present in the existing PlayStation 5.</p>
+<p>Sony wanted to emphasize that they decided against fully upgrading the system architecture to RDNA 3 because they did not want to have two separate game packages or versions between the PlayStation 5's base and Pro models, not unlike Microsoft’s Xbox Series S and X solution.</p>
+<p>Secondly, Sony made a point of refuting the 335 Teraflop number that was present in the lead-up to the PlayStation 5 Pro’s launch. Mark commented that it would have been a nice bonus to have twice the ‘flops,’ but it wouldn’t double the real-world performance and would have instead led to something he dubbed ‘Flopflation.’ He once again reiterated the increase from 18 WGPs (workgroup processors, or compute units) to 30 WGPs while also introducing 67% higher ‘flops’. In terms of real world gains, this meant upwards of a 45% improvement in performance.</p>
+<p>One example given was how a frame taking 16 milliseconds to render on PlayStation 5 could instead be done in only 11 milliseconds on PlayStation 5 Pro, and those extra 5ms could instead be spent on adding ray tracing. These additional WGPs were primarily focused on ray calculations and the divergence associated. By improving the ease of use, Mark Cerny hoped that ray tracing would continue to be adopted at an increasing rate.</p>
+<figure><figcaption>PS5 Pro's Big Three</figcaption></figure>
+<p>Lastly, Sony made a point to touch on the machine learning or AI present in the PlayStation 5 Pro architecture. By utilizing ML, it’s possible to give games a graphical boost by having a game render fewer pixels and then using the PSSR neural network to fill in the gaps. This was bookended with the intent that this would not necessarily result in rendering a smaller resolution to begin with. By way of extrapolation and frame generation, the possibility exists to have PSSR insert frames between key frames and reduce the choppiness that’s commonly seen in games running at a reduced frame rate. This type of adjusted rendering would not necessarily be the be-all, end-all in terms of graphical processing. Sure, the possibility exists for developers to use the neural processing units to initially render a title at 540P or 720P, but ultimately, it comes down to the matrix math as Cerny called it and integer operations at play, namely the TOPS, or Trillions of integer Operations per Second. These TOPS are the real numbers that Sony wanted to focus on for rendering efficiency and the actual bandwidth of the PS5 Pro hardware.</p>
+<p>Sony ended their presentation on the PlayStation 5 Pro deep dive by talking about the future potential for what the next PlayStation could achieve and also a unique collaboration with AMD that they’re calling Codename Amethyst. While much of the machine learning architecture on the PlayStation 5 Pro pushes the hardware to its limits, there is still a bottleneck at play in terms of system memory access. This is an opportunity for growth and perhaps to achieve a fully fused network with PSSR and the overall potential for growth with machine learning as a whole. Through the PlayStation 5 Pro, Mark Cerny and his team have developed a good understanding of what the current system architecture is capable of and what is to come in a future console.</p>
+<p>While details are somewhat scarce compared to the rest of the PlayStation 5 Pro deep dive, Amethyst is the culmination of a unique collaboration with AMD to create a democratized library for machine learning, built upon multiple generations of RDNA and Sony Interactive Entertainment’s research and development. Mark Cerny likened the potential of this collaboration to developing a sort of neural network focused on graphics for gaming.</p>
+<p>This is where future hardware architectures for both machine learning and AI would be integrated and allow developers to use these resources and perhaps guide the technology into unanticipated directions. Sony made a key point that this collaboration would be developed in parallel between the two companies, with developers having the ability to draw from libraries. Rather than this being some matter of proprietary technology solely for Sony, Amethyst is intended to bring broad machine learning across a variety of devices. It's definitely an intriguing initiative, though it's unclear when we'll see it bearing fruit in actual games.</p>
+
+			
+		</div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Sonic 3 Reviews Make It Sound Very Messy But Still Lots Of Fun]]></title>
+            <link>https://kotaku.com/sonic-3-reviews-jim-carrey-keanu-reeves-shadow-1851724029</link>
+            <guid>https://www.resetera.com/threads/sonic-3-reviews-make-it-sound-very-messy-but-still-lots-of-fun.1064439/</guid>
+            <content:encoded><![CDATA[https://kotaku.com/sonic-3-reviews-jim-carrey-keanu-reeves-shadow-1851724029<br/><br/><div id="readability-page-1" class="page"><div><p><em>Sonic 3</em> arrives in theaters on December 19 (<span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://kotaku.com/sonic-hedgehog-3-post-credit-scene-leak-video-recording-1851721820&quot;,{&quot;metric25&quot;:1}]]" href="https://kotaku.com/sonic-hedgehog-3-post-credit-scene-leak-video-recording-1851721820">watch out for the leaked post-credits reveal</a></span>) and seems like what you’d expect from a star-studded, blockbuster adaptation of a classic gaming franchise that straddles the divide between traditional family movie and faithful blue blur fanservice. It’s the biggest movie yet in the trilogy, and potentially the most unwieldy. But most reviewers say its still plenty of fun. </p><div><h4>Suggested Reading</h4></div><div data-video-id="196123" data-monetizable="true" data-position="sidebar" data-video-title="What’s Coming Out Beyond The Day Before | The Week In Games" data-video-blog-id="9" data-video-network="kotaku" data-video-duration="125" data-playlist="196123,195859,197298" data-current="196123"><div><p>What’s Coming Out Beyond The Day Before | The Week In Games</p></div><video disablepictureinpicture="" muted="" playsinline="" width="100%" height="100%" crossorigin="anonymous" preload="none"><source data-src="https://vid.kinja.com/prod/196123/196123_240p.mp4" label="240p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/196123/196123_480p.mp4" label="480p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/196123/196123_720p.mp4" label="720p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/196123/196123_1080p.mp4" label="1080p" type="video/mp4"><track kind="captions" label="English" src="https://kinja.com/api/videoupload/caption/21655.vtt" srclang="en"></video><div><ul><li data-label="">Off</li><li data-label="English">English</li></ul></div></div><div><h4>Suggested Reading</h4></div><p>Starring Ben Schwartz as Sonic, Colleen O’Shaughnessey as Tails, Idris Elba as Knuckles, and Jim Carrey as Dr. Robotnik, <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://kotaku.com/sonic-3-trailer-shadow-gun-rouge-eggman-gerald-moon-1851707554&quot;,{&quot;metric25&quot;:1}]]" href="https://kotaku.com/sonic-3-trailer-shadow-gun-rouge-eggman-gerald-moon-1851707554">the CGI furries must navigate new threats and new alliances</a></span> when a military industrial complex experiment named Shadow, played by Keanu Reeves, decides to try to destroy the planet. If that wasn’t enough, Shadow was actually created by Robotnik’s grandfather, also played by Carrey, with classic Carrey hijinks ensuing. </p><p>“Sonic 3 feels authentic to the games, then, and as a result, the human characters from the previous two films are mostly sidelined,” <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://www.eurogamer.net/sonic-the-hedgehog-3-film-review&quot;,{&quot;metric25&quot;:1}]]" href="https://www.eurogamer.net/sonic-the-hedgehog-3-film-review" target="_blank" rel="noopener noreferrer">writes <em>Eurogamer</em></a></span>’s Ed Nightingale, who adds that the movie prioritizes slick action over absurd comedy. <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://variety.com/2024/film/reviews/sonic-the-hedgehog-3-review-jim-carrey-1236250284/&quot;,{&quot;metric25&quot;:1}]]" href="https://variety.com/2024/film/reviews/sonic-the-hedgehog-3-review-jim-carrey-1236250284/" target="_blank" rel="noopener noreferrer"><em>Variety</em></a></span>’s Owen Gleiberman lauds the movie as at once a fun spectacle and sendup of comic book movie excess. “It’s like a late Marvel extravaganza that never loses sight of the fact that it’s preposterous,” he writes, attributing the success to director Jeff Fowler’s film making, “which is deft enough to revel in blockbuster overkill and skewer it at the same time.”</p><p><span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://www.gamesradar.com/entertainment/family-movies/sonic-the-hedgehog-3-review/&quot;,{&quot;metric25&quot;:1}]]" href="https://www.gamesradar.com/entertainment/family-movies/sonic-the-hedgehog-3-review/" target="_blank" rel="noopener noreferrer"><em>Gamesradar</em></a></span>’s Jack Shepherd, meanwhile, was underwhelmed with Reeve’s performance in the movie as Shadow, the movie’s big bad as well as its newest recruit. He writes that, outside of a John Wick-like set piece and emotive flashback, the black hedgehog basically just repeats Knuckle’s arc from the second movie. “Considering Shadow has been front-and-center of the marketing, as well as being a key character in the games, it’s a somewhat disappointing turn,” Shepherd explains. </p><p>Carrey, on the other hand, sounds like he’s only managed to top his contributions to the first two movies. <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://www.theguardian.com/film/2024/dec/18/sonic-the-hedgehog-3-review-jim-carrey-supplies-laughs-and-energy-for-hedgehog-threequel&quot;,{&quot;metric25&quot;:1}]]" href="https://www.theguardian.com/film/2024/dec/18/sonic-the-hedgehog-3-review-jim-carrey-supplies-laughs-and-energy-for-hedgehog-threequel" target="_blank" rel="noopener noreferrer"><em>The Guardian</em></a></span>’s Andrew Pulver, which calls <em>Sonic 3</em> “a not unenjoyable experience,” argues that the film essentially rests on the ‘90s comedy icon’s shoulders. “Carrey, though, is very good value, getting off a couple of lines that might actually make grownups laugh, and generally putting himself about to decent effect,” he writes, calling the other casting matchups a “chemistry free zone.” Without [Carrey], this film could have been a lot, lot worse.”</p><p><span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://www.polygon.com/review/498909/sonic-3-movie-review&quot;,{&quot;metric25&quot;:1}]]" href="https://www.polygon.com/review/498909/sonic-3-movie-review" target="_blank" rel="noopener noreferrer"><em>Polygon</em></a></span>’s Jesse Hassenger concludes that <em>Sonic 3</em> ultimately succeeds despite being a “speedrun through the franchise scrapyard.” “The series may actually be subject to a bizarre formula: The looser and more disparate the parts of a Sonic movie are, the better the whole somehow holds together,”  he writes. “At least that would explain why <em>Sonic the Hedgehog 3</em> is, improbably, the best of the lot so far.” <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://www.slashfilm.com/1741398/sonic-the-hedgehog-3-review/&quot;,{&quot;metric25&quot;:1}]]" href="https://www.slashfilm.com/1741398/sonic-the-hedgehog-3-review/" target="_blank" rel="noopener noreferrer"><em>Slashfilm</em></a></span>’s BJ Colangelo was even more blown away, writing that the movie caters to both grown Sonic fans and yet-to-be-Sonic-pilled kids in a sequel “that’s is bigger, bolder, and better than ever.”</p><p>But not everyone was so impressed. <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://www.indiewire.com/criticism/movies/sonic-the-hedgehog-3-review-1235078147/&quot;,{&quot;metric25&quot;:1}]]" href="https://www.indiewire.com/criticism/movies/sonic-the-hedgehog-3-review-1235078147/" target="_blank" rel="noopener noreferrer"><em>IndieWire</em></a></span>’s Christian Zilko, an admitted hater of the first two <em>Sonic</em> movies as well, writes that “the trilogy ends on a low note by doubling down on everything that had already failed twice before.” He continues, </p><blockquote data-type="BlockQuote"><p>Carrey seems admirably game for all of the asininity that the script throws at him, but watching him do bits with himself in front of unconvincing CGI backdrops feels like something closer to brain-rotting children’s TikTok content than anything worth projecting on the big screen. Whether he’s torching his own birthday cake with a flamethrower or dancing with himself through a field of lasers, it’s never easy to shake the sense that the movie was more focused on achieving GIF-able moments than telling any kind of coherent story.﻿<br></p></blockquote><p>In the end, Zilko’s assessment is that <em>Sonic 3</em> might be fun for young kids and diehard fans, but it can’t end soon enough for everyone else. He might be right. But as the perfect mark for a Sega nostalgia cash-in with Sonic-loving kids of his own, I’m ready to revel in the franchise brain rot no matter what. </p><p>.</p></div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Here's How To Enjoy Pokemon TCG Pocket Without Spending A Dime]]></title>
+            <link>https://kotaku.com/pokemon-tcg-pocket-free-player-spend-money-1851723336</link>
+            <guid>https://www.resetera.com/threads/heres-how-to-enjoy-pokemon-tcg-pocket-without-spending-a-dime.1064433/</guid>
+            <content:encoded><![CDATA[https://kotaku.com/pokemon-tcg-pocket-free-player-spend-money-1851723336<br/><br/><div id="readability-page-1" class="page"><div><p><span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://kotaku.com/pokemon-tcg-pocket-marvel-snap-1851653373&quot;,{&quot;metric25&quot;:1}]]" href="https://kotaku.com/pokemon-tcg-pocket-marvel-snap-1851653373"><em>Pokemon Trading Card Game Pocket</em></a></span><em> </em>is the hottest <em>Pokemon</em>-related thing to come out this year. That said, <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://kotaku.com/pokemon-tcg-pocket-gacha-loot-box-gambling-1851690838&quot;,{&quot;metric25&quot;:1}]]" href="https://kotaku.com/pokemon-tcg-pocket-gacha-loot-box-gambling-1851690838">it is also very much a gacha game</a></span>, which means that it is built to compel you to drop potentially hundreds, or even thousands of dollars into the game to complete your digital collection. How is anyone determined to keep their money in their pocket supposed to enjoy a game designed like that?</p><div><h4>Suggested Reading</h4></div><div data-video-id="193406" data-monetizable="true" data-position="sidebar" data-video-title="12 Marvel Snap Cards That Can Go Into Any Deck" data-video-blog-id="9" data-video-network="kotaku" data-video-duration="242" data-playlist="193406,196663,193974" data-current="193406"><div><p>12 Marvel Snap Cards That Can Go Into Any Deck</p></div><video disablepictureinpicture="" muted="" playsinline="" width="100%" height="100%" crossorigin="anonymous" preload="none"><source data-src="https://vid.kinja.com/prod/193406/193406_240p.mp4" label="240p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/193406/193406_480p.mp4" label="480p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/193406/193406_720p.mp4" label="720p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/193406/193406_1080p.mp4" label="1080p" type="video/mp4"><track kind="captions" label="English" src="https://kinja.com/api/videoupload/caption/18864.vtt" srclang="en"></video><div><ul><li data-label="">Off</li><li data-label="English">English</li></ul></div></div><div><h4>Suggested Reading</h4></div><p>Fortunately, the ebb and flow of gacha games have been thoroughly documented, especially since <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://kotaku.com/star-wars-battlefront-ii-lets-you-pay-real-money-for-mu-1820333246&quot;,{&quot;metric25&quot;:1}]]" href="https://kotaku.com/star-wars-battlefront-ii-lets-you-pay-real-money-for-mu-1820333246">that whole <em>Star Wars Battlefront II</em> mess happened</a></span> years ago. And equipped with that knowledge, you <em>can </em>succeed in <em>Pokemon Trading Card Game Pocket </em>and even compete against the biggest whales in the game without spending money.,With that said, here’s what free-to-play players should expect out of their experience and how they can make the most of it.</p><figure id="" data-id="90fc8dd7e49fb28bb741ae79dcd6c74a" data-recommend-id="image://90fc8dd7e49fb28bb741ae79dcd6c74a" data-format="jpg" data-width="1920" data-height="1080" data-lightbox="true" data-alt="A screenshot shows an incomplete collection in Pokemon Trading Card Game Pocket." data-recommended="false" data-hide="false" contenteditable="false" draggable="false"><div contenteditable="false" data-alt="A screenshot shows an incomplete collection in Pokemon Trading Card Game Pocket." data-link-reference="" data-link-target="" data-syndicationrights="true" data-imagerights="fair-use" data-hide="false" data-hidecredit="false"><p><figcaption>Screenshot<!-- -->: <!-- -->The Pokemon Company / Kotaku</figcaption></p></div><span data-id="90fc8dd7e49fb28bb741ae79dcd6c74a" data-recommend-id="image://90fc8dd7e49fb28bb741ae79dcd6c74a" data-format="jpg" data-width="1920" data-height="1080" data-lightbox="true" data-alt="A screenshot shows an incomplete collection in Pokemon Trading Card Game Pocket." data-recommended="false" data-hide="false"></span></figure><h2 id="h27558"><a id=""></a>Accept that you won’t get everything</h2><p>The first rule of every gacha game is to completely turn off any part of your brain that tells you you’re a completionist. While you do get free booster packs every day in <em>Pokemon TCG Pocket</em>, sheer economics will tell you that you won’t open enough booster packs to actually complete your card collection. After all, if you could get every card for free, what would you spend money on?</p><p>New cards will inevitably come out faster than you can collect them with the free resources the game provides. Naturally, this means you need to lower your expectations of what you should chase. Immersive three star cards have a paltry 0.222% chance of showing up in a pack. Crown rares only have a 0.040% chance! This doesn’t mean you’ll <em>never </em>get these cards, of course. It’s just that you shouldn’t necessarily choose which pack to open in hopes you’ll get a card that has a 1 in 2500 chance of appearing.</p><p>Instead, set your sight on cards that will help you win battles. This will help you get the most rewards during events, which will in turn help you collect even more cards. </p><h2 id="h27559"><a id=""></a>Chase cards that will help you build decks of each element</h2><p><em>Pokemon Trading Card Game Pocket</em> doesn’t give you many options to chase down specific cards as of writing, but you can exert <em>some </em>control over which cards you can get. Right now, the three Genetic Apex card sets each contain distinct pools of cards. The fewer cards you own from a certain set, the greater the chance you’ll find a new card in your next pack.</p><p>As a free-to-play player, your first goal is to collect enough cards to build a competent deck of each element. You don’t need to make a <em>meta </em>deck of each element, mind you. Charizard EX and Moltres EX have great synergy, but if you played during the <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://kotaku.com/pokemon-pocket-tcg-mass-outbreak-fire-type-bonus-rare-1851706732&quot;,{&quot;metric25&quot;:1}]]" href="https://kotaku.com/pokemon-pocket-tcg-mass-outbreak-fire-type-bonus-rare-1851706732">Fire Pokemon Mass Outbreak Event</a></span>, you already have a strong deck in Blaine, Ninetails, and Rapidash. Pick the packs you choose to pull strategically, with the goal of selecting packs that will most likely strengthen whichever elemental deck is weakest. For instance, if you can’t build a strong Dark deck, Genetic Apex Mewtwo has a strong core of Ekans, Grimer, Zubat, and Koffing evolution lines you can add to your collection.</p><figure id="" data-id="de7f9b869e45eb3d7f4ad24c090e6021" data-recommend-id="image://de7f9b869e45eb3d7f4ad24c090e6021" data-format="jpg" data-width="1920" data-height="1080" data-lightbox="true" data-alt="A screenshot shows a battle against the CPU in Pokemon Trading Card Game Pocket. The player is using Vulpix and Ponyta." data-recommended="false" data-hide="false" contenteditable="false" draggable="false"><div contenteditable="false" data-alt="A screenshot shows a battle against the CPU in Pokemon Trading Card Game Pocket. The player is using Vulpix and Ponyta." data-link-reference="" data-link-target="" data-syndicationrights="true" data-imagerights="fair-use" data-hide="false" data-hidecredit="false"><p><figcaption>Screenshot<!-- -->: <!-- -->The Pokemon Company / Kotaku</figcaption></p></div><span data-id="de7f9b869e45eb3d7f4ad24c090e6021" data-recommend-id="image://de7f9b869e45eb3d7f4ad24c090e6021" data-format="jpg" data-width="1920" data-height="1080" data-lightbox="true" data-alt="A screenshot shows a battle against the CPU in Pokemon Trading Card Game Pocket. The player is using Vulpix and Ponyta." data-recommended="false" data-hide="false"></span></figure><h2 id="h27560"><a id=""></a>Take stock of what you have to build out your “main” deck</h2><p>Once you have strong elemental coverage under your belt, you’ll want to build a deck to take into online PvP battles. While online battling can feel intimidating at first, matches are mostly low-stakes in <em>Pokemon Trading Card Game Pocket</em>, and there’s no way for your opponent to send you mean messages about how you’re a bad player for not using the mythical Dunsparce card. I typically stay far away from PvP modes myself, so I can assure you that online battling isn’t nearly as scary as it sounds.</p><p>Look at the cards you already have and figure out which deck you can realistically build that can win online battles. Sure, in the game’s current meta, cards like Mewtwo EX and Gardevoir rule the roost when used together. However, if you don’t have any copies of either card, you’ll need a lot of luck with your card pulls to make that deck work. However, if you already have, say, two Exeggutor EX cards, you might be close to putting together a strong Grass deck bolstered by the Erika trainer card. Maybe your deck won’t be “meta,” but at least you’ll have a solid foundation to work with as you continue to collect cards.</p><p>On the plus side, less popular decks can thrive online <em>because</em> they aren’t meta. After all, if everyone uses decks with Pikachu EXs, then most players will learn how to best counter them. However, if you roll up with a Marowak EX deck, you may leave your opponent scrambling to come up with a counterplay. Just remember that <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://kotaku.com/pokemon-tcg-pocket-battles-first-turn-rules-energy-1851693195&quot;,{&quot;metric25&quot;:1}]]" href="https://kotaku.com/pokemon-tcg-pocket-battles-first-turn-rules-energy-1851693195">success in <em>Pokemon Trading Card Game Pocket</em> battles often comes down to sheer luck</a></span>, so don’t feel like your deck is bad just because you’re struggling to win!</p><h2 id="h27561"><a id=""></a>Show up for the daily grind</h2><p>With solid decks to play the game under your belt, or at least enough cards to get your feet wet, it’s time to do what every free-to-play game devolves into: daily grinding. To the game’s credit, <em>Pokemon Trading Card Game Pocket </em>is light on this front. Your literal “daily missions” can be completed in about 10 minutes. That said, if you want to collect as many free resources as you can as you play, participate in the following:</p><ul data-type="List" data-style="Bullet"><li>Use your <strong>free booster packs</strong> when they become available.</li><li>Check your <strong>Wonder Picks</strong>, especially if your Wonder Stamina is almost full. Events may dish out free Wonder Picks throughout the day, so check in whenever you open the game.</li><li><strong>Participate in any ongoing single-player events</strong>, and don’t sit on a full Event Stamina bar. You can often repeat these battles to grind out bonus hourglasses and unique event cards.</li><li>Battle other players in Versus mode. <strong>You can get up to five shop tickets a day from players who press the “thanks” button after battle </strong>(make sure to return the favor and thank them too!). Remember, Shop Tickets can be used to buy Hourglasses, which means more cards.</li><li><strong>You can also give Shop Tickets to your friends by liking their Showcases</strong>. Thank all your friends and they might return the favor, as long as you’ve set up your own showcase!</li></ul><figure id="" data-id="fd1283c2be463c0d30fceee43b0d1469" data-recommend-id="image://fd1283c2be463c0d30fceee43b0d1469" data-format="jpg" data-width="1920" data-height="1080" data-lightbox="true" data-alt="A screenshot shows the Pack Hourglass item in Pokemon Trading Card Game Pocket." data-recommended="false" data-hide="false" contenteditable="false" draggable="false"><div contenteditable="false" data-alt="A screenshot shows the Pack Hourglass item in Pokemon Trading Card Game Pocket." data-link-reference="" data-link-target="" data-syndicationrights="true" data-imagerights="fair-use" data-hide="false" data-hidecredit="false"><p><figcaption>Screenshot<!-- -->: <!-- -->The Pokemon Company / Kotaku</figcaption></p></div><span data-id="fd1283c2be463c0d30fceee43b0d1469" data-recommend-id="image://fd1283c2be463c0d30fceee43b0d1469" data-format="jpg" data-width="1920" data-height="1080" data-lightbox="true" data-alt="A screenshot shows the Pack Hourglass item in Pokemon Trading Card Game Pocket." data-recommended="false" data-hide="false"></span></figure><h2 id="h27562"><a id=""></a>Stockpile your resources once you have enough</h2><p>Admittedly, stockpiling resources somewhat relies on assumptions, since there’s no way to predict the future in a live service game. While we know that some resources will eventually expire (such as Pack Points used to get a card of your choice), nothing indicates that hourglasses can’t be used for future expansions. So if you’ve collected all the cards you need to win battles and have fulfilled most of your collection-based missions, consider following the advice of your elders who grew up in a much better economy and start saving for the future.</p><p>At the end of the day, there’s no hard science to playing games like <em>Pokemon Trading Card Game Pocket</em>. No one’s going to knock on your door and take your phone away because you didn’t manage your free-to-play account optimally. But when shiny new cards drop and players begin to rack up hundreds of dollars on their credit cards chasing them, you’ll be happy to have a handful of pulls in reserve so you can enjoy the new stuff too. You’ll never own as many cards as a hardcore spender does. But you can at least rest easy knowing that you worked for the cards you got..</p><p>Video games are meant to be fun, so hopefully using your resources to best fill out your collection will help you get the most out of <em>Pokemon Trading Card Game Pocket</em>. And if you aren’t having fun… well, <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://kotaku.com/infinity-nikki-release-date-dress-up-rpg-ps5-register-1851699258&quot;,{&quot;metric25&quot;:1}]]" href="https://kotaku.com/infinity-nikki-release-date-dress-up-rpg-ps5-register-1851699258"><em>Infinity Nikki</em></a></span> looks pretty good. </p><p><em>Pokemon Trading Card Game Pocket </em>is available now for iOS and Android devices.</p></div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[The Witcher 4’s Map Size is ‘More or Less’ the Same as Previous Title]]></title>
+            <link>https://insider-gaming.com/the-witcher-4s-map-size-and-quests-are-more-or-less-the-same-as-previous-title/</link>
+            <guid>https://www.resetera.com/threads/the-witcher-4%E2%80%99s-map-size-is-%E2%80%98more-or-less%E2%80%99-the-same-as-previous-title.1064430/</guid>
+            <content:encoded><![CDATA[https://insider-gaming.com/the-witcher-4s-map-size-and-quests-are-more-or-less-the-same-as-previous-title/<br/><br/><div id="readability-page-1" class="page"><div>
+		
+<p>During a recent interview, CD Projekt Red revealed that Witcher 4 will have “more or less” the same map size and number of quests as The Witcher 3.&nbsp;</p>
+
+
+
+<p>In conversation with the <a href="https://www.youtube.com/watch?v=MiYBje1qeaA" target="_blank" rel="noreferrer noopener nofollow">Skill Up</a> podcast (via <a href="https://gameranx.com/updates/id/521172/article/the-witcher-4-map-size-confirmed-to-be-similar-to-the-witcher-3/" target="_blank" rel="noreferrer noopener nofollow">Gameranx</a>), CD Projekt RED VPs Sebastian Kalemba and Małgorzata Mitrega revealed new details about The Witcher 4’s map and quests. When asked whether they wanted to make the sequel larger in scale or more condensed than the previous title, the developers replied that the map is “more or less” similar in size to The Witcher 3, and the number of quests is “more or less the same,” too.&nbsp;</p>
+
+
+
+<p>However, the answer is not that simple. The developers revealed that The Witcher 4 will be a big game, and the team’s ambition with the title is “huge”. They want to “deliver a super compelling experience,” and they will prioritise quality over quantity. At the same time, they can promise that the game is “going to be pretty big.”&nbsp;</p>
+
+
+
+<p>During the same interview, the developers also stated that The Witcher 4 will take place a few years after the events of The Witcher 3: Wild Hunt. With the sequel, they aim to create an inviting experience for newcomers while fulfilling the existing community’s expectations. Hence, they have asked the fans to trust the process, as they are trying to build a universal experience.</p>
+
+
+
+<p>In other news, Geralt will be in The Witcher 4, <a href="https://insider-gaming.com/geralt-witcher-4-nobody-say-how/" target="_blank" rel="noreferrer noopener">but nobody is allowed to say how</a>. Also, here is <a href="https://insider-gaming.com/everything-we-know-about-the-witcher-4/" target="_blank" rel="noreferrer noopener">everything we know about the upcoming title</a>, including platforms, characters and more. What are your thoughts on The Witcher 4 having a map size and number of quests similar to the previous game?&nbsp;Let us know in the comments or our&nbsp;<a href="https://insider-gaming.com/forum/" target="_blank" rel="noreferrer noopener">community forum</a>!</p>
+
+
+
+<hr>
+
+
+
+<p>For more information from Insider Gaming, read about&nbsp;<a href="https://insider-gaming.com/marvel-rivals-celebrates-20-million-players-with-a-free-reward/" target="_blank" rel="noreferrer noopener">Marvel Rivals celebrating 20 million players with a free gift</a>. Don’t forget to&nbsp;<a href="https://insider-gaming.com/subscribe" target="_blank" rel="noreferrer noopener">sign up for our weekly newsletter</a>.&nbsp;</p>
+
+
+
+
+    <div id="ig-newsletter-holder">
+            <p><span>
+                    SUBSCRIBE to our newsletter to WIN PRIZES this Xmas and receive the latest news and exclusive leaks every week! No Spam.
+                </span>
+            </p>
+            
+        </div>
+
+	</div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[The Best Xbox Game of 2024]]></title>
+            <link>https://www.ign.com/articles/the-best-xbox-game-of-2024</link>
+            <guid>https://www.resetera.com/threads/the-best-xbox-game-of-2024.1064424/</guid>
+            <content:encoded><![CDATA[https://www.ign.com/articles/the-best-xbox-game-of-2024<br/><br/><div id="readability-page-1" class="page"><section data-cy="article-subtitle"><p data-cy="paragraph">It’s been a strange console generation for Team Xbox so far. It started during a pandemic and resulted in <a data-cy="styled-link" href="https://www.ign.com/articles/xbox-series-x-s-shortages-2021-microsoft-continue"><u>supply chain issues</u></a> that made the Xbox Series X hard to get for months, the potential-killer-app launch title (Halo Infinite) suffered an embarrassing but much needed yearlong <a data-cy="styled-link" href="https://www.ign.com/articles/halo-infinite-delayed-to-2021-for-xbox-series-x-pc-xbox-one"><u>delay</u></a>, Microsoft tried to <a data-cy="styled-link" href="https://www.ign.com/articles/xbox-activision-blizzard-buy-acquisition-acquired"><u>buy Activision-Blizzard for SIXTY-NINE BILLION DOLLARS</u></a> only to see <a data-cy="styled-link" href="https://www.ign.com/articles/a-verdict-has-been-reached-in-the-microsoft-vs-ftc-trial"><u>regulatory agencies</u></a> <a data-cy="styled-link" href="https://www.ign.com/articles/phil-spencer-calls-cma-decision-disappointing-disputes-cloud-gaming-reasoning"><u>around the world</u></a> challenge it before the deal ultimately <a data-cy="styled-link" href="https://www.ign.com/articles/microsofts-69-billion-activision-blizzard-buyout-imminent-after-stock-halted-and-uk-clears-deal"><u>went through</u></a>, the company shipped one bona fide <a data-cy="styled-link" href="https://www.ign.com/articles/game-of-the-year-2021"><u>Game of the Year</u></a> (<a data-cy="styled-link" href="https://www.ign.com/articles/forza-horizon-5-review"><u>Forza Horizon 5</u></a>) and also started <a data-cy="styled-link" href="https://www.ign.com/articles/xbox-vision-of-the-future"><u>publishing its first-party games on PlayStation 5 and Nintendo Switch</u></a>, and Xbox boss Phil Spencer even <a data-cy="styled-link" href="https://www.ign.com/articles/microsoft-confirms-plans-to-release-an-xbox-handheld-but-its-years-away"><u>confirmed</u></a> that a handheld Xbox is in the works, even if we might not see it during this hardware generation.</p><p data-cy="paragraph">All the while, outside of a kickass 2021 that saw the release of the aforementioned Halo Infinite and Forza Horizon 5 along with Psychonauts 2, Microsoft Flight Simulator, and Tunic, Xbox players have been waiting (and waiting) for a steady flow of first-party games. And it was looking a bit bleak this year – <em>again </em>– with Avowed getting pushed to February 2025 and the potential-packed pixel-art indie action-adventure exclusive Replaced slipping out of 2024. But Microsoft turned in all its homework right as the bell rang at the end of class, with STALKER 2, Microsoft Flight Simulator 2024, and Indiana Jones and the Great Circle all landing in the final six weeks of the year – and all three getting A’s on the assignment. Let’s discuss the honorable mentions, runners-up, and Best Xbox Game of 2024.</p><output data-cy="article-slideshow"><div data-cy="slideshow-view-trigger"><h3 data-cy="slideshow-preview-title">The Best Xbox Game of 2024</h3></div></output><h2 data-cy="title2">Honorable Mentions</h2><p data-cy="paragraph"><a data-cy="styled-link" href="https://www.ign.com/articles/senuas-saga-hellblade-ii-review">Senua’s Saga: Hellblade 2</a> and <a data-cy="styled-link" href="https://www.ign.com/games/dungeons-of-hinterberg">Dungeons of Hinterberg</a> both just missed making the top of our list but are very worthy of honorable mentions. The psychologically focused sequel to Hellblade was the <a data-cy="styled-link" href="https://www.ign.com/articles/2019/12/13/senuas-saga-hellblade-2-announced-for-xbox-series-x"><u>first-ever officially announced Xbox Series X game</u></a>, and when it finally shipped this year, it can lay claim to at least one title: <a data-cy="styled-link" href="https://www.ign.com/articles/senuas-saga-hellblade-ii-review"><u>best-looking Xbox game ever made</u></a>. Ninja Theory’s Unreal Engine 5-powered narrative-driven adventure is a technical showpiece, a powerhouse of pixels that leverages all 10.2 teraflops of power that the Series X is packing. It’s a bit light in the gameplay department – more akin to a walking simulator than a proper action-adventure – but it is nevertheless beautifully acted and stunningly presented. It’s very much worth taking the time to go on this journey with Senua.</p><p data-cy="paragraph">Meanwhile, Dungeons of Hinterberg’s hooky concept – a European town becomes a hotspot for visitors to come and make friends and drink beers at night after a long day of monster slaying in the dungeons below – translates into <a data-cy="styled-link" href="https://www.ign.com/articles/dungeons-of-hinterberg-the-final-preview"><u>a super enjoyable mix</u></a> of action-RPG and social sim gameplay. Its comic book-style visuals only enhanced the entire experience. This was a refreshing summer release in a season where we typically complain about the lack of interesting new games to play. But this year’s virtual summer trip to Europe to crush a bunch of monsters and collect loot while chatting with the locals about it at the pub afterwards proved to be just the kind of vacation we needed.</p><h2 data-cy="title2">Runner-Up: Call of Duty: Black Ops 6</h2><a href="https://assets-prd.ignimgs.com/2024/12/18/codblops6-1725926226920-1734501135279.jpg" data-cy="styled-link" target="_blank" rel="noopener noreferrer"><output><figure><span></span></figure></output></a><p data-cy="paragraph">It may not be an Xbox exclusive, but Microsoft owns Call of Duty now, and the biggest first-person shooter franchise in the world bounced back in a big way this year. And Xbox owners did get to play <a data-cy="styled-link" href="https://www.ign.com/games/call-of-duty-black-ops-6">Black Ops 6</a> on day one via Xbox Game Pass Ultimate, so there’s that. </p><p data-cy="paragraph">More importantly, Treyarch, Raven, and the myriad Activision support studios that put in yeoman’s work on this series every year came together to craft the <a data-cy="styled-link" href="https://www.ign.com/articles/call-of-duty-black-ops-6-campaign-review"><u>best single-player Call of Duty campaign</u></a> in years. Historically underrated developer Raven understood that the key to a great Call of Duty campaign is variety, and in Black Ops 6 you get to do all kinds of incredibly fun stuff, from going undercover at a casino to freely roaming an open-world desert to hobnobbing at a Bill Clinton fundraiser and so much more. Its story doesn’t quite punch you in the face with a twist as good as Black Ops 1’s JFK moment, but it’s a damn fine story nevertheless that positively reinforces the excellent and unpredictable campaign gameplay. </p><p data-cy="paragraph">Add in a <a data-cy="styled-link" href="https://www.ign.com/articles/call-of-duty-black-ops-6-multiplayer-review"><u>great, focused multiplayer mode</u></a> and an <a data-cy="styled-link" href="https://www.ign.com/articles/call-of-duty-black-ops-6-zombies-review"><u>excellent return of Zombies</u></a>, and Call of Duty: Black Ops 6 is one of the best overall gaming packages you can get in 2024.</p><h2 data-cy="title2">Runner-Up: STALKER 2: Heart of Chornobyl</h2><a href="https://assets-prd.ignimgs.com/2024/12/18/stalkerthumb-1723559698961-1734501135279.png" data-cy="styled-link" target="_blank" rel="noopener noreferrer"><output><figure><span></span></figure></output></a><p data-cy="paragraph">The developers of <a data-cy="styled-link" href="https://www.ign.com/articles/stalker-2-heart-of-chornobyl-review">STALKER 2: Heart of Chornobyl</a> went through a literal version of Hell on Earth in order to get this deeply personal game about their home country of Ukraine made after Russia invaded it midway through development. That it got done at all is an incredible testament to their perseverance and human spirit, and how lucky we are that they did finish it, because <a data-cy="styled-link" href="https://www.ign.com/articles/stalker-2-heart-of-chornobyl-review"><u>it is fantastic</u></a>. (Side note: the 90-minute documentary about the making of this game is an incredible human story that’s well worth watching. Find it on <a href="https://www.youtube.com/watch?v=Fg620kmD6Dc" data-cy="styled-link" target="_blank" rel="noopener noreferrer"><u>Xbox’s YouTube channel</u></a>.)</p><p data-cy="paragraph">This first-person shooter sequel mixes punishing survival gameplay with brutal combat in a brooding sci-fi atmosphere to create a gameplay loop that feels refreshingly old-school yet delightfully new and modern all at the same time. Though its initial launch was marred by a host of technical issues, its fixes and updates came so frequently that it’s impossible to hold its launch day against it. And if you’re just jumping in now, you’ll only ever see the current, more polished version of the Exclusion Zone. Enjoy playing in the world it creates, as its developers clearly did when building it.</p><h2 data-cy="title2">Runner-Up: Microsoft Flight Simulator 2024</h2><a href="https://assets-prd.ignimgs.com/2024/12/18/microsoft-flight-simulator-2024-blogroll-1732662931258-1734501135279.jpg" data-cy="styled-link" target="_blank" rel="noopener noreferrer"><output><figure><span></span></figure></output></a><p data-cy="paragraph">A <a data-cy="styled-link" href="https://www.ign.com/articles/as-microsoft-flight-simulator-2024-steam-reviews-collapse-to-overwhelmingly-negative-dev-admits-it-completely-underestimated-excitement-for-the-game"><u>rough takeoff put passengers in a sour mood</u></a>, but things quickly smoothed out as developer Asobo Studio reached cruising altitude with the <a data-cy="styled-link" href="https://www.ign.com/articles/microsoft-flight-simulator-2024-review"><u>latest version</u></a> of its <a data-cy="styled-link" href="https://www.ign.com/articles/microsoft-flight-simulator-review"><u>masterpiece</u></a> aviation simulator. The team somehow made Flight Simulator even more gorgeous, rendering an even more beautiful and realistic Earth than the one from 2021. They also added a lot more to do, from wildlife photo shoots to inconceivably dotting the in-game planet with every single helipad in the real world. Physics were improved, as were numerous other under-the-hood systems. </p><p data-cy="paragraph">In all, <a data-cy="styled-link" href="https://www.ign.com/games/microsoft-flight-simulator-2024">Microsoft Flight Simulator 2024</a> may not be a “game” for everyone (hence the “simulator” in the title), but what it sets out to do it does brilliantly. It is a love letter to anyone and everyone who loves aviation, in the same way that Forza Horizon 5 was a love letter to anyone who loved cars and driving.</p><h2 data-cy="title2">Winner: Indiana Jones and the Great Circle</h2><a href="https://assets-prd.ignimgs.com/2024/12/18/indianajones-xboxpc-performancereview-blogroll-1734193646590-1734501135278.jpg" data-cy="styled-link" target="_blank" rel="noopener noreferrer"><output><figure><span></span></figure></output></a><p data-cy="paragraph">Lucasfilm chose wisely when partnering with MachineGames to make a AAA Indiana Jones video game. The talented studio revived and modernized Wolfenstein, and before that made one of the greatest licensed video games of all time and one of the best original Xbox games ever in The Chronicles of Riddick: Escape from Butcher Bay. And so it is high praise when we say that <a data-cy="styled-link" href="https://www.ign.com/articles/indiana-jones-and-the-great-circle-review">Indiana Jones and the Great Circle</a> is the <a data-cy="styled-link" href="https://www.ign.com/articles/indiana-jones-and-the-great-circle-review"><u>best game</u></a> this group of developers has ever made – not to mention the best Indiana Jones <em>anything </em>since The Last Crusade, 35 years ago.</p><p data-cy="paragraph">Some gamers were skeptical when we found out back in January that Indy’s latest interactive adventure would be played primarily in first-person. But once everyone played it, MachineGames’s choice was quickly validated. The Great Circle completely immerses you as Indiana Jones, from the shadow of your fedora on a wall to the versatile whip in your hand to the leather jacket that squeaks as you walk – not to mention the absolutely S-tier performance of veteran voice actor Troy Baker, who completely disappears into the role of Indiana Jones and convinces your ears and brain that you’re somehow anachronistically listening to a 40-something Harrison Ford. </p><p data-cy="paragraph">The Great Circle has action, sure, but that action occurs as a complement to the real heart of it: adventure. Your whip can be used to stun enemies – or knock the gun out of their hands – but it’s mostly used for traversal as a makeshift rope to help you navigate the crypts, tombs, cities, and dig sites you’ll visit around the world. And the swelling orchestral score makes the big moments feel extra big, just as it did in the Indiana Jones movies. The writing is also spot-on, with humor being used to punctuate various scenes and make sure the tone always stays fun without ever getting too dark or serious. Oh, and you’ll be solving puzzles too. So, so many puzzles both big and small. And they’re all really enjoyable to figure out.</p><output data-cy="article-video"></output><p data-cy="paragraph">In short, Indiana Jones and the Great Circle isn’t just the best Xbox game of the year, <a data-cy="styled-link" href="https://www.ign.com/videos/indiana-jones-and-the-great-circle-brings-back-the-magic-of-xbox-exclusives-unlocked-clips"><u>it’s the best game that Microsoft has shipped under any of its banners</u></a> since IGN’s 2021 overall Game of the Year winner, Forza Horizon 5. It’s a globe-trotting adventure-action romp that eschews shooting in favor of punching, puzzles, whips, quips, story, sidequests, and setpieces. It is brilliant, impossible to put down, and it plays unlike any other first-person game out there. It easily and deservedly wins IGN’s Best Xbox Game of 2024 award.</p><p data-cy="paragraph">For more discussion on all of your favorite Xbox games, don’t miss our weekly Xbox show, Podcast Unlocked. And for everything else in the world of video games, you’re already in the right place right here at IGN.</p></section></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[The Best RPG of 2024]]></title>
+            <link>https://www.ign.com/articles/the-best-rpg-of-2024</link>
+            <guid>https://www.resetera.com/threads/the-best-rpg-of-2024.1064421/</guid>
+            <content:encoded><![CDATA[https://www.ign.com/articles/the-best-rpg-of-2024<br/><br/><div id="readability-page-1" class="page"><section data-cy="article-subtitle"><p data-cy="paragraph">Throughout 2024, it felt as if a new amazin RPG was right around the corner at every moment. The year kicked off with a bang when Like A Dragon: Infinite Wealth launched just before Persona 3 Reload showed us why the original is a timeless story. And we only had to wait until February to return to Final Fantasy VII when Rebirth expanded the horizons of a beloved classic. </p><p data-cy="paragraph">Those may have been the headliners early in the year, but Unicorn Overlord worked its way into our hearts with its captivating art style and tactical depth, before Dragon’s Dogma 2 proved why the cult classic deserved a sequel. It was more than enough to hold us over until the big hitters like Metaphor: ReFantazio and Dragon Age: The Veilguard landed toward the end of the year, showing how two iconic RPG development teams can forge a new path in their own ways. </p><p data-cy="paragraph">It was an embarrassment of riches for the RPG sickos here at IGN, especially considering the aforementioned games weren’t the only RPGs that stuck with us throughout the year. We can only highlight a handful of them, however, so here’s our list of the best RPGs of 2024.</p><output data-cy="article-slideshow"><div data-cy="slideshow-view-trigger"><h3 data-cy="slideshow-preview-title">The Best RPG of 2024</h3></div></output><h2 data-cy="title2">Honorable Mentions</h2><p data-cy="paragraph">Two RPGs from this year received an Honorable Mention, which we'd like to highlight before getting into our runner-up and winner.</p><p data-cy="paragraph">You can spot a Vanillaware game from a mile away thanks to its painterly art style and expressive anime-inspired character designs. It's what gives Unicorn Overlord such a distinct fantasy aesthetic, but it’s the unique mix of real-time strategy and tactical gameplay that makes it stand out among a sea of great RPGs. Creating squads composed of different classes and deploying them strategically filled that Ogre Battle-sized void in our lives, and exploring the overworld to build up towns that join your cause brought all its mechanics together. Its story of political drama has intriguing twists and turns, but it’s the squad members we made along the way that left a lasting impression in Unicorn Overlord.</p><p data-cy="paragraph">Despite it partly being a Hawaiian getaway for the crew from RGG Studio’s RPG debut Yakuza: Like A Dragon in 2020, the follow-up Like A Dragon: Infinite Wealth was rather heavy. It’s an examination of family, legacy, and what you do with the time you have left. Series-long protagonist Kazuma Kiryu teaming up with his successor in Kasuga Ichiban made for a beautiful passing of the torch. I came for the detailed and nuanced recreation of Waikiki, but it’s the bittersweet and inspiring moments in Infinite Wealth that reminded us why there’s just nothing like the Yakuza franchise.</p><h2 data-cy="title2">Runner-Up: Dragon’s Dogma 2</h2><a href="https://assets-prd.ignimgs.com/2024/03/04/dd2-oo-ign-thumbnail-v1-1709594709352.png" data-cy="styled-link" target="_blank" rel="noopener noreferrer"><output><figure><span></span></figure></output></a><p data-cy="paragraph">Many would consider the original Dragon’s Dogma from 2012 a cult classic for the ways it thrusts you into a harsh fantasy world with very little to guide you. And the sequel in Dragon's Dogma 2 did not forget that. Capcom didn’t sand off the edges, streamline systems, or make its dark world any more inviting, and that’s why it was able to stand out in 2024 despite being one of the biggest years for the genre.</p><p data-cy="paragraph">Dragon’s Dogma 2 is all about its organic emergent moments. There is a main quest to follow, of course, but NPCs will tap you for sidequests and you never know what you run into along the way. Its mechanics may seem inelegant, but after giving it time, you realize how flexible and deep it is from a gameplay perspective, especially once you grasp how reactive the in-game physics are. The Pawn system adds another layer, letting you customize your own AI-controlled party members, or borrow members from others online to make the goofiest band of heroes. Dragon’s Dogma 2 is not a clean experience and it thrives off of a unique friction that’s tough to find in games these days. When you reflect on how much work you put into surviving in its massive and harsh world, the consequential world-altering events and its message are nothing short of awe-inspiring.</p><h2 data-cy="title2">Runner-Up: Final Fantasy VII Rebirth</h2><a href="https://assets-prd.ignimgs.com/2024/11/05/ff7rebirth-vcms-1730774234294.jpg" data-cy="styled-link" target="_blank" rel="noopener noreferrer"><output><figure><span></span></figure></output></a><p data-cy="paragraph">After playing Remake in 2020, it felt as if there were endless possibilities for what the rest of Final Fantasy VII would look like for a new generation. Stepping out into the Grasslands for the first time in Final Fantasy VII Rebirth, when Aerith takes in the scenic view and shows excitement about a world worth fighting for, captures the exact feeling. The musical motifs played on our nostalgia and the recreation of its original world was undoubtedly impressive while evoking a sense of wistfulness – it felt like Final Fantasy VII grew up with us.</p><p data-cy="paragraph">We have our qualms with how Rebirth ends and sets up part three in this remade trilogy, but that doesn’t necessarily define the entire game. Tucked within its reinvention of the existing story are moments that elevate beloved characters to feel like brand new heroes who’ve inspired us in new ways. Its open regions are a beautiful expansion of the original’s overworld, and they’re filled with things to do that are often more than just busy work – and don’t ask us about how many hours we sunk into the new card game Queen’s Blood. In many respects, Rebirth connected us to a world we thought we knew on a deeper level – it made for one of the year’s best RPGs and it has us incredibly eager for what’s next.</p><h2 data-cy="title2">Runner-Up: Dragon Age: The Veilguard</h2><a href="https://assets-prd.ignimgs.com/2024/06/10/da-1718021093156.jpg" data-cy="styled-link" target="_blank" rel="noopener noreferrer"><output><figure><span></span></figure></output></a><p data-cy="paragraph">It’s been 10 years since Dragon Age: Inquisition, and the way in which series fans were <em>thirsty </em>for anything related to Dragon Age in that time was wild to see. With a tumultuous development cycle, it’s kind of a miracle that The Veilguard exists at all, but it turned out to be a worthy successor and one of the best RPGs of the year. Through the lens of Rook, our new customizable protagonist, we get to pick up on the story of Solas that left us hanging from Inquisition and its DLC. Yet, The Veilguard was still able to establish a new direction that stayed true to the core concepts of a series so steeped in its own lore. Its warmer tone may not be what you remember from previous Dragon Age games, but you roll with a party full of bright personalities who create a sense of purpose reminiscent of the BioWare games of yore.</p><p data-cy="paragraph">Combat will be familiar for anyone who has played a modern action game without sacrificing the kind of depth you’d expect from an action-RPG. Every class feels great to play and retains a unique playstyle while being viable – which is important considering you only control Rook throughout the game. While your party members still play an important role in combat, it's their presence and where you stand with them that makes the journey worth seeing through. Either way, you’ll be treated to some great conclusions that show how The Veilguard carves its own path with confidence.</p><h2 data-cy="title2">Winner: Metaphor: ReFantazio</h2><a href="https://assets-prd.ignimgs.com/2024/06/28/metaphor-re-fantazio-key-art-1719595744252.png" data-cy="styled-link" target="_blank" rel="noopener noreferrer"><output><figure><span></span></figure></output></a><p data-cy="paragraph">With a pedigree of the last three Persona games, I came into Metaphor: ReFantazio with high expectations, and even then, developer Atlus found a way to exceed them. To call it fantasy Persona isn’t necessarily inaccurate (and is a pretty good indication of what you’re getting into), but that would also undersell the nuances that make Metaphor the best RPG of the year.</p><p data-cy="paragraph">Using the context of a daily calendar system, Metaphor wields familiar mechanics to usher you through its fantasy political drama. Deciding how to spend your limited time makes those choices intriguing, whether it’s spending time with followers to level up bonds, explore dungeons for sidequests, or better yourself by increasing virtue stats – it’s the small moments like these that connect you to its world on the ground level. That’s the social sim element that leaves you naturally invested, and it gives its big moments more weight. So, when you see a character overcome their trauma or push themselves to do what’s right, it feels like it comes from a genuine place.</p><p data-cy="paragraph">More than anything, Metaphor is the game of the moment. It doesn’t shy away from themes such as racism, inequality, religious extremism, and abuse of power and demonstrates an understanding of the material it's working with through a powerful story. Every character, every bond and follower, and every major story beat feeds into a thoughtful representation of our real world, showing us the ugliest parts of humanity but also what it takes to create a brighter future. Metaphor is very upfront about its message from beginning to end, and yet, what it says about the power of fiction might be the most inspiring part of it all. There’s just nothing like Metaphor: ReFantazio, and it represents the best of what games can offer, especially in 2024.</p></section></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Alien: Rogue Incursion Review]]></title>
+            <link>https://www.ign.com/articles/alien-rogue-incursion-review</link>
+            <guid>https://www.resetera.com/threads/alien-rogue-incursion-review.1064415/</guid>
+            <content:encoded><![CDATA[https://www.ign.com/articles/alien-rogue-incursion-review<br/><br/><div id="readability-page-1" class="page"><div data-cy="article-content"><section data-cy="article-subtitle"><p data-cy="paragraph">Of all the series most ripe for a virtual reality adaptation, few have greater potential than Alien. I mean, who aside from Ellen Ripley herself wouldn’t want to experience the thrill of being hunted by the perfect organism without that whole “risk of being dismembered” thing? Alien: Rogue Incursion is an admirable first attempt at delivering just that, with a compelling story, memorable characters, terrifying Xenomorphs, and a perfectly crafted world that couldn’t be mistaken for anything but the iconic Alien universe. There’s plenty of room to improve in its already-in-the-works sequel, however, especially when it comes to the simplistic combat, not-so-clever Xenomorphic foes, and occasional jankiness that could use some smoothing over. Even so, Rogue Incursion is a strong opening act for a series I’m already eager to play more of.</p><output data-cy="article-slideshow"><div data-cy="slideshow-view-trigger"><h3 data-cy="slideshow-preview-title">Alien: Rogue Incursion Gameplay Screenshots (PSVR 2)</h3></div></output><p data-cy="paragraph">If you’ve read the Alien comics, like Aliens: Defiance, then you’ll already be familiar with the badass protagonist whose boots you’ll be filling: Zula Hendricks. And if that name doesn’t ring a bell, Rogue Incursion does a great job of introducing you to her in short order so you don’t have to do any homework beforehand. An ex-colonial marine with a rough upbringing and chronic back problems, you’re sent to a classically deserted planet overrun by the most evil creatures imaginable, and accompanied by your trusty synthetic companion, Davis – don’t worry, he’s reformed, and not the type to betray you to please his corporate overlords… anymore. What follows is an extremely formulaic Alien tale that apes all the same beats for which the series is known, but thanks to interesting dialogue, great characters, and a relatively short runtime that doesn’t overstay its welcome, that familiarity doesn’t end up being such a bad thing. Zula and her relationship with her robot bestie is genuinely touching, oftentimes offsetting an otherwise relentlessly bleak situation, and the story has a few twists in store and an ending that sets up a sequel nicely.</p><div data-cy="quoteBox"><p>Zula's relationship with her robot bestie is genuinely touching.</p></div><p data-cy="paragraph">Over the eight-hour story, you’ll tiptoe through the dark corridors and frozen wastes of a forgotten colony world while looking over your shoulder every few seconds for those eye-free freak shows that are never far off, and then painting the walls with their acidic blood whenever one pops out of a vent or sneaks up behind you. Going through each area slowly and doing your best to keep quiet can keep them off your back for slightly longer, but since ammo isn’t particularly scarce and Xenomorphs aren’t all that hard to kill on anything but the hardest difficulty, I found that running through areas and getting things done quickly could work just as well, so long as you’re up for a slightly more regular fight. And, of course, you’ll have to solve complicated engineering problems in a world where every piece of technology breaks as soon as a Xenomorph so much as looks at it, and then makes as much noise as possible anytime you try to troubleshoot, just in case those aliens in the next room over hadn’t heard you yet.</p><p data-cy="paragraph">Combat is rather simple, in that 95% of the time you’ll be attacked by Xenomorphs who climb out of vents seemingly installed for the explicit purpose of helping them get around, pull out one of your three weapons to make short work of them, and then move on. These encounters are divided nearly equally into either exciting sections that have some kind of unique tension or twist, and completely monotonous annoyances. For example, finding yourself cornered by a trio of Xenos and frantically trying to reload your weapon before you’re toast is extremely memorable, and setting traps as you hold off an onslaught of double-jawed monsters while performing IT support for some broken communications relays is an action-packed good time. But then you’ll go a long stretch of walking down some of the same hallways you’ve visited already, stopping every 30 seconds to kill a few monsters that run straight at you, completely devoid of any kind of intelligent attack strategy, then carefully reload your weapons before moving on and repeating the process moments later. These sections tend to make combat feel pretty mundane, and take away a lot of the initial fear when confronting a Xenomorph, which begin to feel quite commonplace after the first couple hours.</p><div data-cy="quoteBox"><p>Initially scary Xenomorphs can soon begin to feel commonplace.</p></div><p data-cy="paragraph">Probably the weakest part of combat is your limited and mostly unremarkable arsenal, which consists of a pulse rifle, a pump-action shotgun, and a six-shooter revolver. The pulse rifle, an automatic weapon that’s usually the most overall reliable choice for a variety of situations, is really the only weapon that feels recognizable in the Alien universe, while the shotgun and revolver seem oddly generic and low-tech for a sci-fi setting. Your only other tools are proximity grenades that can be set to go off when an alien draws near and a motion scanner that you won’t need to use very often, since Xenomorphs loudly scurry about and hiss at you to announce their presence most of the time. These items feel pretty par for the course for VR shooters, with little to set them apart. It’s also a bit weird that you don’t have a last resort melee weapon to fall back on, so if a facehugger jumps on your head, you’d better hope you can get your pistol pointed at an awkward angle to kill it.</p><output data-cy="article-video"></output><p data-cy="paragraph">This is an Alien game, so perhaps unsurprisingly, the enemy variety isn’t very strong either. You’ll go at least several hours before seeing a single enemy that isn’t a Xenomorph, and even when you do, it’ll be a facehugger or two before going right back to more Xenos. The good news is that these aliens can be pretty intimidating foes, killing in just a hit or two and rushing at you by crawling on walls, leaping great distances, and moving erratically to make them hard to pin down. Unfortunately, despite their best effort, their menacing appearance doesn’t always translate to them being particularly crafty foes, and after you’ve learned their small bag of tricks in the first hour or two, they begin to feel downright dim as they mozy on out through a vent before pausing in front of you for a few seconds, giving you ample time to score the kill while they stand in place helplessly. Between the first Alien movie’s depiction of the Xenomorph as an all-powerful monstrosity that can scarcely be beaten, and the second movie’s tendency to blast through dozens of the creatures within the span of a few minutes, Rogue Incursion certainly finds itself in the latter camp.</p><div data-cy="playlist-view-trigger"><h3 data-cy="title3">TieGuyTravis' Alien Recommendations</h3><p>If you love Ridley Scott's pessimistic galaxy filled with things that want to kill you, here are my top recommendations!</p></div><p data-cy="paragraph">It also suffers from minor, but noteworthy enough to be annoying, bugs. Sometimes characters will repeat the same lines of dialogue multiple times in a row, Xenomorphs will move through objects in bizarre ways, and your controls aren’t always as precise and responsive as you’d hope when you’re staring down a room full of facehuggers. None of these issues are particularly troublesome, but they do add a slight lack of polish that I hope they’ll work on for the sequel.</p><p data-cy="paragraph">And while this isn’t the fault of Alien: Rogue Incursion alone, one especially annoying PSVR 2 issue that felt like a particular problem here is that the little PlayStation logo buttons are a tad too easy to hit, especially when you’re clamoring for your handgun after a Xenomorph surprises you. Most of the times I died were due to a menu popping up at exactly the wrong moment, sending me scrambling to back out before I was killed, which I was rarely successful at. That added an extra level of stress in the wrong kind of way. Again, this is a controller design problem at the end of the day, but it came up enough here that there really ought to be some built-in protection against it – maybe make me hold the menu button down for a second or two before you cause me to get impaled on an alien’s tail, guys?</p></section><div data-cy="verdict"><h3 data-cy="title3">Verdict</h3><p data-cy="article-verdict-paragraph">Alien: Rogue Incursion is a faithful and entertaining stab at bringing Alien to virtual reality. The excellent story, spot-on Alien environments, and creepy Xenomorphs keep the horrifying times going throughout its eight-hour duration, even when repetitive combat, predictable AI, and the odd bug here and there make it clear this is the first attempt that it is. But while there’s plenty of room for this budding series to grow, I can already happily recommend Rogue Incursion as a strong proof of concept to Alien fans and newcomers alike – one that’s left me eagerly awaiting part two.</p></div></div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Fisch Brings Phase 2 of Its Winter Update, With New Fish, Items and More]]></title>
+            <link>https://www.ign.com/articles/fisch-brings-phase-2-of-its-winter-update-with-new-fish-items-and-more</link>
+            <guid>https://www.resetera.com/threads/fisch-brings-phase-2-of-its-winter-update-with-new-fish-items-and-more.1064412/</guid>
+            <content:encoded><![CDATA[https://www.ign.com/articles/fisch-brings-phase-2-of-its-winter-update-with-new-fish-items-and-more<br/><br/><div id="readability-page-1" class="page"><div data-cy="page-header"><h2 data-cy="article-sub-headline">There's never been a better time to get interesting in Fisching with your friends.</h2></div><section data-cy="article-content"><p data-cy="paragraph">There's nothing quite like waking up in the morning to discover that a new update has been dropped for your favorite Roblox experience. Anyone who has given <a href="https://www.roblox.com/games/16732694052/UPD-Fisch" data-cy="styled-link" target="_blank" rel="noopener noreferrer">Fisch</a> a try knows exactly what they're in for. And if you're on the fence, the latest Phase 2 Winter Update brings plenty of new features to the game to make it better than ever before.</p><p data-cy="paragraph">Alongside several buffs and nerfs for some of our <a data-cy="styled-link" href="https://www.ign.com/wikis/fisch-roblox/Best_Fishing_Rods_-_Locations_and_Stats">favorite fishing rods</a>, we can also look forward to a new Winter-themed quest. This is a pretty hefty update, so get ready to see what's waiting for you below.</p><h2 data-cy="title2">Fisch Winter Update Phase 2 Patch Notes &amp; Hotfixes</h2><output><figure><a href="https://assets-prd.ignimgs.com/2024/12/16/fisch-update-ign-1734372088087.jpg" target="_blank" rel="noopener noreferrer"></a><figcaption data-cy="caption">An image from the Roblox Page for Fisch (Image credit: Fisching</figcaption></figure></output><p data-cy="paragraph">Below, you'll find all of the patch notes for the Winter Update Phase 2, alongside some additional hotfixes pushed out by the development team behind FISCH:</p><h3 data-cy="title3"><strong>Game Content</strong></h3><ul data-cy="list"><li>New limited Winter Village world, teleport there using the new free Magical Snow Globe!</li><li>15 New limited fish</li><li>2 New limited rods</li><li>2 New limited boats</li><li>6 New limited bobbers</li><li>3 New limited mutations</li><li>1 New permanent mutation</li><li>New rod skins feature with skincrates</li><li>3 New skincrates</li><li>19 New rod skins</li></ul><h3 data-cy="title3"><strong>Rebalances</strong></h3><ul data-cy="list"><li>Buffed Clever Enchant</li><li>Buffed Destiny Rod</li><li>Buffed Phoenix Rod</li><li>Buffed Wisdom Rod</li><li>Buffed Seasons Rod</li><li>Buffed Celestial Rod</li><li>Buffed The Lost Rod</li><li>Buffed Voyager Rod</li><li>Buffed Riptide Rod</li><li>Buffed Rod Of The Eternal King</li><li>Buffed Rod Of The Forgotten Fang</li><li>Buffed Sunken Rod</li><li>Nerfed No-Life Rod</li></ul><h3 data-cy="title3"><strong>Patch Notes</strong></h3><ul data-cy="list"><li>More major improvements to performance</li><li>Tons of bug fixes</li></ul><h3 data-cy="title3"><strong>Other</strong></h3><ul data-cy="list"><li>No-Life Rod has received a remodel</li><li>Added pages to inventory (Might have some small issues which will be hotfixed!)</li></ul><h3 data-cy="title3"><strong>Hotfix #1</strong></h3><p data-cy="paragraph">No-Life Rod:</p><ul data-cy="list"><li>Lure Speed: 70% -&gt; 90%</li><li>Luck: 100% -&gt; 105%</li><li>Control: 0.25 -&gt; 0.23</li><li>Resilience: 12% -&gt; 10%</li></ul><h3 data-cy="title3"><strong>C$ Crates:</strong></h3><ul data-cy="list"><li>Moosewood Collection: C$50,000 -&gt; C$25,000</li><li>Desolate Collection: C$150,000 -&gt; C$75,000</li><li>Ancient Isles Collection: C$350,000 -&gt; C$175,000</li></ul><h3 data-cy="title3">Hotfix #2</h3><ul data-cy="list"><li>Major FPS improvements</li><li>Crash rates significantly curbed</li><li>Gameplay pauses should no longer occur frequently. If they do occur, it is now extremely momentarily and will only pause your gameplay if you are moving too fast in the ocean for the map to render</li><li>Inventory system was not the main cause of performance issues. We've reverted the pages system and will be maintaining the original inventory system.</li></ul><h3 data-cy="title3">Hotfix #3</h3><ul data-cy="list"><li>Fixed limited bestiaries not showing their contents</li><li>Hid limited fish in the "All" bestiary</li></ul><p data-cy="paragraph">All of these updates make Fisch all the better. It's already one of the most enthralling experiences that you can play on the platform, but the additon of Rod buffs make the grind even more worth it. Get ready to start exploring the seven seas while searching out these new items.</p><p data-cy="paragraph"><em>Shaun Cichacki is a Freelance Contributor with IGN, covering features, guides, and news. When he isn't writing about games, he's likely diving into the latest indie, the biggest AAA games, or pampering his extensive collection of retro games. You can find him on social media on Bluesky @shauncichacki.bsky.social</em></p></section></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Get A 24-Inch Asus Gaming Monitor For Only $100 At Best Buy]]></title>
+            <link>https://www.gamespot.com/articles/get-a-24-inch-asus-gaming-monitor-for-only-100-at-best-buy/1100-6528540/?ftag=CAD-01-10abi2f</link>
+            <guid>https://www.resetera.com/threads/get-a-24-inch-asus-gaming-monitor-for-only-100-at-best-buy.1064409/</guid>
+            <content:encoded><![CDATA[https://www.gamespot.com/articles/get-a-24-inch-asus-gaming-monitor-for-only-100-at-best-buy/1100-6528540/?ftag=CAD-01-10abi2f<br/><br/><div id="readability-page-1" class="page"><div id="site-main">
+
+      
+                    
+  
+              <header id="masthead"><nav></nav></header>      
+                            <div id="site-wrapper" role="main">
+          <div id="default-content">
+        
+          <p>
+    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
+  </p>
+  
+    <article itemscope="" data-type-id="1100" data-guid="1100-6528540">
+
+            
+            
+  
+
+
+        
+
+  
+
+
+        
+        
+              <section>
+
+                  
+          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
+                <p>A decent PC monitor doesn't need to cost as much as your rent, and if you're shopping for a last-minute gift, Best Buy has a pretty good deal on right now for an Asus TUF display. Normally $180, <a href="https://howl.link/iwyhi91zmxzvf?article_name=Gamespot&amp;article_url=https://www.gamespot.com/1734528222729?u1=subid_value" data-target="true" target="_blank" rel="noopener nofollow">this 23.8-inch monitor is on sale for only $100</a> right now.</p><figure data-align="center" data-size="large" data-img-src="https://www.gamespot.com/a/uploads/original/1601/16018044/4417643-sus-tuf.jpg" data-ref-id="1300-4417643" data-ratio="0.5625" data-width="1280" data-embed-type="image"><a href="https://www.gamespot.com/a/uploads/original/1601/16018044/4417643-sus-tuf.jpg" data-ref-id="1300-4417643"></a><figcaption>Asus Tuf 23.8-inch 1080p Gaming Monitor</figcaption><img src="https://www.gamespot.com/a/uploads/original/1601/16018044/4417643-sus-tuf.jpg"></figure><p>This is a 1080p PC monitor, and it has a 1ms response time, a 180Hz refresh rate, and AMD FreeSync. If you don't "settling" for 1080p high-definition resolution, this is a great monitor for the price. With its 180Hz refresh rate, you can focus on maximizing your frame rate while keeping your games at 1080p.</p><p>If you're looking for something else in this department that's still affordable but has higher specs, then you'll want to check out the 1440p monitors on sale. This is the sweet spot for PC gaming, as you'll typically find a good balance between high-quality graphics and frame rates while not having to worry too much about the strain on your graphics card. While these monitors do cost more, they're worth it for the jump in quality, and we've rounded up several options below.</p><p>A good one here would be the <a href="https://howl.link/6yx1ruro3qkcy?article_name=Gamespot&amp;article_url=https://www.gamespot.com/17345290751219?u1=subid_value" data-target="true" target="_blank" rel="noopener nofollow">Samsung Odyssey BG65</a>, as this curved monitor is 27-inches big and has an impressive 240Hz refresh rate. There's also the always-reliable LG Ultragear range, and if you feel like splurging, you can get a <a href="https://www.amazon.com/LG-45GS95QE-UltraGear-DisplayHDR-DisplayPort/dp/B0CV1WNF1Q?tag=gamespot-promos-20" data-target="true" target="_blank" rel="noopener nofollow">45-inch OLED monitor</a> for $997 (was $1,700) at Amazon.</p><p>If you want an even larger monitor, there are a few terrific deals on Samsung's 49-inch G9 super ultrawide monitors. The <a href="https://www.amazon.com/SAMSUNG-Odyssey-DisplayHDR-FreeSync-LS49CG950ENXZA/dp/B0DHJBWY52?tag=gamespot-promos-20" data-target="true" target="_blank" rel="noopener nofollow">G95C</a> with 240Hz refresh rate, 1ms response time, and a 1440p panel is discounted to $770 (was $1,000) at Amazon. You can make the jump to the <a href="https://www.amazon.com/SAMSUNG-DisplayHDR-FreeSync-Adjustable-LS49CG932SNXZA/dp/B0CDQMQQS2?tag=gamespot-promos-20" data-target="true" target="_blank" rel="noopener nofollow">Samsung 49-inch OLED panel</a> with 240Hz refresh rate and 0.03ms response time for $950 (was $1,600). If you're okay with dialing it back to 144Hz, you can get last year's <strong><a href="https://howl.link/0t5w43qsoea36?u1=subid_value" data-target="true" target="_blank" rel="noopener nofollow">49-inch OLED</a> and for $900 (was $1,300) <em>and </em>get a free 2TB Samsung 990 Pro NVMe SSD with heatsink</strong>. This awesome M.2 2280 SSD has a list price of $265 and is currently selling for <a href="https://www.amazon.com/SAMSUNG-Expansion-Compatible-Playstation5-MZ-V9P2T0CW/dp/B0BHJDY57J?tag=gamespot-promos-20" data-target="true" target="_blank" rel="noopener nofollow">$180 at Amazon</a>. It's compatible with PS5, too.</p><ul><li><a href="https://howl.link/0t5w43qsoea36?u1=subid_value" data-target="true" target="_blank" rel="noopener nofollow">Samsung Odyssey G91SD OLED Curved (49-inch, 144Hz) + 2TB 990 Pro SSD with heatsink</a> -- $900 (<del>$1,300</del>)</li><li><a href="https://www.amazon.com/SAMSUNG-DisplayHDR-FreeSync-Adjustable-LS49CG932SNXZA/dp/B0CDQMQQS2?tag=gamespot-promos-20" data-target="true" target="_blank" rel="noopener nofollow">Samsung Odyssey G93SC OLED Curved (49-inch, 240Hz)</a> -- $950 (<del>$1,600</del>)</li><li><a href="https://www.amazon.com/SAMSUNG-Odyssey-DisplayHDR-FreeSync-LS49CG950ENXZA/dp/B0DHJBWY52?tag=gamespot-promos-20" data-target="true" target="_blank" rel="noopener nofollow">Samsung Odyssey G95C 1440p Curved (49-inch, 240Hz)</a> -- $770 (<del>$1,000</del>)</li><li><a href="https://howl.link/6yx1ruro3qkcy?article_name=Gamespot&amp;article_url=https://www.gamespot.com/17345290751219?u1=subid_value" data-target="true" target="_blank" rel="noopener nofollow">Samsung Odyssey BG65 (27-inch, 240Hz)</a> -- $300 (<del>$600</del>)</li><li><a href="https://www.amazon.com/LG-45GS95QE-UltraGear-DisplayHDR-DisplayPort/dp/B0CV1WNF1Q?tag=gamespot-promos-20" data-target="true" target="_blank" rel="noopener nofollow">LG Ultragear OLED (45-inch, 240Hz)</a> -- $997 (<del>$1,700</del>)</li><li><a href="https://howl.link/3avv6omcrfppe?article_name=Gamespot&amp;article_url=https://www.gamespot.com/17345290791066?u1=subid_value" data-target="true" target="_blank" rel="noopener nofollow">LG Ultragear (27-inch, 144Hz) </a>-- $190 (<del>$300</del>)</li><li><a href="https://howl.link/xarngk7z19fnn?article_name=Gamespot&amp;article_url=https://www.gamespot.com/17345290808755?u1=subid_value" data-target="true" target="_blank" rel="noopener nofollow">HP Omen VA Curved (34-inch, 165Hz)</a> -- $300 (<del>$480</del>)</li><li><a href="https://howl.link/xarngk7z19fnn?article_name=Gamespot&amp;article_url=https://www.gamespot.com/17345290808755?u1=subid_value" data-target="true" target="_blank" rel="noopener nofollow">HP Omen Curved (34-inch, 165Hz)</a> -- $300 (<del>$480</del>)</li><li><a href="https://howl.link/kj72pxgo56766?article_name=Gamespot&amp;article_url=https://www.gamespot.com/17345291878489?u1=subid_value" data-target="true" target="_blank" rel="noopener nofollow">HP Omen (27-inch, 240Hz)</a> -- $280 (<del>$430</del>)</li><li><a href="https://howl.link/2795iu06an5yw?article_name=Gamespot&amp;article_url=https://www.gamespot.com/17345291895358?u1=subid_value" data-target="true" target="_blank" rel="noopener nofollow">Asus ROG Strix Curved (27-inch, 180Hz)</a> -- $200 (<del>$300</del>)</li><li><a href="https://howl.link/96aac79ej4e79?article_name=Gamespot&amp;article_url=https://www.gamespot.com/17345291921269?u1=subid_value" data-target="true" target="_blank" rel="noopener nofollow">Dell S3222DGM (32-inch, 165Hz)</a> -- $200 (<del>$330</del>)</li><li><a href="https://howl.link/yohtejc1i8h2w?article_name=Gamespot&amp;article_url=https://www.gamespot.com/17345291960356?u1=subid_value" data-target="true" target="_blank" rel="noopener nofollow">Acer Nitro (27-inch, 180Hz)</a> -- $170 (<del>$350</del>)</li></ul><div data-embed-type="pinbox" data-ref-id="4304">  <ul>                              <li><a href="https://www.gamespot.com/articles/the-lord-of-the-rings-the-war-of-the-rohirrim-4k-blu-ray-limited-edition-steelbook-preorders/1100-6528224/">The Lord Of The Rings: The War Of The Rohirrim 4K Blu-Ray Steelbook Up For Preorder At Amazon</a></li>                         <li><a href="https://www.gamespot.com/articles/metaphor-refantazios-massive-official-strategy-guide-up-for-preorder-at-amazon/1100-6528507/">Metaphor: ReFantazio Is Getting A Nearly 600-Page Official Strategy Guide</a></li>                         <li><a href="https://www.gamespot.com/articles/elden-ring-strategy-guides-finally-restocked-at-amazon-get-all-three-while-you-can/1100-6524739/">Elden Ring Strategy Guides Finally Restocked At Amazon - Get All Three While You Can</a></li>                          <li>         <span>+ Show More More Gaming, Tech, and Entertainment Deals &amp; Preorders Links (5)</span>       </li>          <li><a href="https://www.gamespot.com/articles/xbox-elite-series-2-controller-discounted-to-124-at-walmart-and-amazon-lowest-price-ever-at-both/1100-6528306/">Xbox Elite Series 2 Controller On Sale For Best-Ever Price At Walmart And Amazon</a></li>                         <li><a href="https://www.gamespot.com/articles/akira-4k-blu-ray-steelbook-edition-revealed-preorder-the-anime-classic-at-amazon/1100-6528513/">Akira 4K Blu-Ray Steelbook Edition Revealed - Preorder The Anime Classic At Amazon</a></li>                         <li><a href="https://www.gamespot.com/articles/walmart-has-two-super-mario-bros-movie-4k-steelbooks-in-stock-for-28-each/1100-6528298/">Walmart Has Two Super Mario Bros. Movie 4K Steelbooks In Stock For $28 Each</a></li>                         <li><a href="https://www.gamespot.com/articles/final-fantasy-pixel-remaster-anniversary-collection-gets-big-discount-at-amazon/1100-6527670/">Final Fantasy Pixel Remaster Anniversary Collection Gets Big Discount At Amazon</a></li>                         <li><a href="https://www.gamespot.com/gallery/microsofts-xbox-wireless-controllers-are-on-sale-for-as-low-as-35-at-amazon/2900-5946/">Microsoft's Xbox Wireless Controllers Are On Sale For As Low As $35 At Amazon</a></li>   </ul> </div>
+  
+                        
+    
+        
+        
+  
+                                  </div>
+
+          
+        
+                              
+            <span>
+        <a itemprop="reviewer" href="https://plus.google.com/108490194306897153177?rel=author">Darryn Bonthuys</a> on Google+
+      </span>
+      
+                    
+  
+    
+          
+            
+  <div>
+    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
+
+    
+      </div>
+        
+      </section>
+    
+            
+    </article>
+
+    
+  
+
+</div>
+                      <meta itemprop="seamless-content-list-items" data-list-items="[{&quot;guid&quot;:&quot;1100-6526471&quot;,&quot;url&quot;:&quot;\/articles\/2025-upcoming-games-release-schedule\/1100-6526471\/&quot;},{&quot;guid&quot;:&quot;1100-6527670&quot;,&quot;url&quot;:&quot;\/articles\/final-fantasy-pixel-remaster-anniversary-collection-gets-big-discount-at-amazon\/1100-6527670\/&quot;},{&quot;guid&quot;:&quot;1100-6528185&quot;,&quot;url&quot;:&quot;\/articles\/playstation-portal-30th-anniversary-edition-back-in-stock-at-ps-direct-december-17\/1100-6528185\/&quot;},{&quot;guid&quot;:&quot;1100-6528532&quot;,&quot;url&quot;:&quot;\/articles\/marvel-rivals-is-celebrating-another-milestone-with-a-free-limited-time-reward\/1100-6528532\/&quot;},{&quot;guid&quot;:&quot;1100-6507171&quot;,&quot;url&quot;:&quot;\/articles\/disney-dreamlight-valley-recipes-list\/1100-6507171\/&quot;},{&quot;guid&quot;:&quot;1100-6528427&quot;,&quot;url&quot;:&quot;\/articles\/borderlands-4s-seamless-world-and-movement-mechanics-will-make-it-hard-for-players-to-go-back\/1100-6528427\/&quot;},{&quot;guid&quot;:&quot;1100-6528458&quot;,&quot;url&quot;:&quot;\/articles\/helldivers-2-limited-edition-dualsense-controller-revealed-preorders-live-december-20\/1100-6528458\/&quot;},{&quot;guid&quot;:&quot;1100-6528507&quot;,&quot;url&quot;:&quot;\/articles\/metaphor-refantazios-massive-official-strategy-guide-up-for-preorder-at-amazon\/1100-6528507\/&quot;},{&quot;guid&quot;:&quot;1100-6528387&quot;,&quot;url&quot;:&quot;\/articles\/path-of-exile-2-best-mercenary-build-guide\/1100-6528387\/&quot;},{&quot;guid&quot;:&quot;1100-6528503&quot;,&quot;url&quot;:&quot;\/articles\/helldivers-2-and-killzone-crossover-seemingly-leaked\/1100-6528503\/&quot;},{&quot;guid&quot;:&quot;1100-6528511&quot;,&quot;url&quot;:&quot;\/articles\/cd-projekt-red-recast-the-witcher-4s-leading-role\/1100-6528511\/&quot;},{&quot;guid&quot;:&quot;1100-6523601&quot;,&quot;url&quot;:&quot;\/articles\/tomb-raider-remastered-deluxe-collection-drops-to-30-get-steelbook-case-exploration-book-and-more\/1100-6523601\/&quot;},{&quot;guid&quot;:&quot;1100-6528530&quot;,&quot;url&quot;:&quot;\/articles\/former-starfield-dev-surprised-by-the-number-of-loading-screens-it-could-have-existed-without-those\/1100-6528530\/&quot;},{&quot;guid&quot;:&quot;1100-6528510&quot;,&quot;url&quot;:&quot;\/articles\/marvel-rivals-will-have-cross-platform-progression-just-not-anytime-soon\/1100-6528510\/&quot;},{&quot;guid&quot;:&quot;1100-6518504&quot;,&quot;url&quot;:&quot;\/articles\/2024-upcoming-games-release-schedule\/1100-6518504\/&quot;},{&quot;guid&quot;:&quot;1100-6528386&quot;,&quot;url&quot;:&quot;\/articles\/amazon-exclusive-pokemon-tcg-holiday-premium-collection-gets-big-discount\/1100-6528386\/&quot;},{&quot;guid&quot;:&quot;1100-6528354&quot;,&quot;url&quot;:&quot;\/articles\/path-of-exile-2-best-sorceress-build-guide\/1100-6528354\/&quot;},{&quot;guid&quot;:&quot;1100-6528497&quot;,&quot;url&quot;:&quot;\/articles\/stellar-blade-gets-a-cheerful-holiday-update-this-week-with-new-minigame\/1100-6528497\/&quot;},{&quot;guid&quot;:&quot;1100-6528476&quot;,&quot;url&quot;:&quot;\/articles\/baldurs-gate-3-advent-calendar-offers-rewards-and-puzzles-from-now-until-christmas\/1100-6528476\/&quot;},{&quot;guid&quot;:&quot;1100-6528491&quot;,&quot;url&quot;:&quot;\/articles\/balatro-dev-clowns-on-pegi-ratings-criteria-as-games-with-actual-gambling-are-sold-to-kids\/1100-6528491\/&quot;}]">
+            </div>
+              
+    </div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Helldivers 2's First Crossover Is Officially Killzone 2, And The DLC Is Out Now]]></title>
+            <link>https://www.gamespot.com/articles/helldivers-2s-first-crossover-is-officially-killzone-2-and-the-dlc-is-out-now/1100-6528541/?ftag=CAD-01-10abi2f</link>
+            <guid>https://www.resetera.com/threads/helldivers-2s-first-crossover-is-officially-killzone-2-and-the-dlc-is-out-now.1064403/</guid>
+            <content:encoded><![CDATA[https://www.gamespot.com/articles/helldivers-2s-first-crossover-is-officially-killzone-2-and-the-dlc-is-out-now/1100-6528541/?ftag=CAD-01-10abi2f<br/><br/><div id="readability-page-1" class="page"><p>
+    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
+  </p><article itemscope="" data-type-id="1100" data-guid="1100-6528541">
+
+            
+            
+  
+
+
+        
+
+  
+
+
+        
+        
+              <section>
+
+                  
+          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
+                <p>After <a href="https://www.gamespot.com/articles/helldivers-2-and-killzone-crossover-seemingly-leaked/1100-6528503/" data-ref-id="1100-6528503">leaking earlier this week</a>, <a href="https://www.gamespot.com/games/helldivers-2/" data-ref-id="5000-589428">Helldivers 2</a> is officially getting a crossover with PlayStation sci-fi shooter <a href="https://www.gamespot.com/games/killzone-2/" data-ref-id="5000-24443">Killzone 2</a>, with the first batch of cosmetics for the multiplayer shooter available today.</p><p>Helldivers 2 will feature two waves of Killzone 2 content, with the first featuring cosmetics including a Helghan uniform for your freedom-toting trooper, a StA-52 assault rifle, and an assortment of capes, banners, and player titles. This is the first crossover of this kind in Helldivers 2, after developer <a href="https://www.gamespot.com/articles/helldivers-2-devs-are-open-to-crossovers-but-only-if-they-make-sense/1100-6522756/" data-ref-id="1100-6522756">Arrowhead said it was open to the idea</a> if it "makes sense". Given the shared genres between the two games, Killzone seems like a good fit.</p><p>In <a href="https://store.steampowered.com/news/app/553850/view/516322672418750491" data-target="true" target="_blank" rel="noopener nofollow">a blog post</a>, developer Arrowhead stressed that this content belongs to a new premium tier of content. The new weapon costs 615 Super Credits, about $6-7, while the individual armor pieces are 310-500 Super Credits each.</p><p>With the release of the first wave of Killzone 2 cosmetics, Arrowhead also explained that it's testing out longer rotations in the game's Superstore. "Right now, many of you feel the items are in rotation for too short a time, and that you sometimes miss out on that killer look you had your eyes on," the post reads. "At the same time, the more things we add to the store the longer it takes to come back into rotation."</p><p>This means that this first wave of cosmetics will stick around for five days, while the second batch will arrive on December 23 for the same amount of time. Arrowhead says it'll then return to shorter rotation times as it determines whether or not the experiment has yield better results via feedback from players.</p><p>This Killzone 2 crossover comes hot on the heels of a big update to Helldivers 2 less than a week ago. <a href="https://www.gamespot.com/articles/helldivers-2-players-crush-illuminate-invaders-in-under-a-week/1100-6528505/" data-ref-id="1100-6528505">The Omens of Tyranny</a> update introduced the zombie-like Illuminate faction to the shooter, as well as new urban environments to wage skirmishes in. It's capped off a big year for Arrowhead's sequel, which was the <a href="https://www.gamespot.com/articles/helldivers-2-is-fastest-selling-playstation-game-ever/1100-6523423/" data-ref-id="1100-6523423">fastest-selling PlayStation game ever</a> having sold over 12 million copies in its first three months on the market.</p>
+  
+                        
+    
+        
+        
+  
+                                  </div>
+
+          
+        
+        
+  
+                    
+  
+    
+          
+            
+  <div>
+    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
+
+    
+      </div>
+        
+      </section>
+    
+            
+    </article></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Ubisoft Wants To Reinvent The Far Cry Series With Its Next Two Games - Report]]></title>
+            <link>https://www.gamespot.com/articles/ubisoft-wants-to-reinvent-the-far-cry-series-with-its-next-two-games-report/1100-6528543/?ftag=CAD-01-10abi2f</link>
+            <guid>https://www.resetera.com/threads/ubisoft-wants-to-reinvent-the-far-cry-series-with-its-next-two-games-report.1064400/</guid>
+            <content:encoded><![CDATA[https://www.gamespot.com/articles/ubisoft-wants-to-reinvent-the-far-cry-series-with-its-next-two-games-report/1100-6528543/?ftag=CAD-01-10abi2f<br/><br/><div id="readability-page-1" class="page"><p>
+    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
+  </p><article itemscope="" data-type-id="1100" data-guid="1100-6528543">
+
+            
+            
+  
+
+
+        
+
+  
+
+
+        
+        
+              <section>
+
+                  
+          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
+                <p>Ubisoft is reportedly trying to break away from the typical open-world formula that the Far Cry series is known for with the next two entries.</p><p>According to <a href="https://insider-gaming.com/ubisoft-far-cry-7-and-maverick/" data-target="true" target="_blank" rel="noopener nofollow">Insider Gaming</a>,  there are two Far Cry games in the works: a mainline game codenamed Blackbird and an extraction shooter spin-off codenamed Maverick. Ubisoft is also reportedly switching proprietary engines, now opting for the Snowdrop engine that was used for games like The Division instead of Dunia, the usual engine that the Far Cry series uses.</p><p>In Maverick, players reportedly are placed in the Alaskan wilderness where they have to fight against other players, animals, and weather. In Blackbird, the story reportedly revolves around the main character having to rescue his family from a cult. Apparently, players have 24 real-life hours, which translates to 72 in-game hours, to rescue the family and the time can be seen on the character's wristwatch.</p><p>The two games reportedly also have similar movement mechanics, such as tactical sprinting, sliding, and vaulting, due to both projects previously being part of the same game, which was codenamed Talisker. Internally, Ubisoft has reportedly pushed back the release dates for the games from 2025 to 2026 due to development complications.</p><p>Ubisoft has been in a tight spot recently. The founders, the Guillemot family, are reportedly trying to <a href="https://www.gamespot.com/articles/ubisoft-co-founders-want-to-maintain-control-as-talks-with-tencent-continue-report/1100-6528283/" data-ref-id="1100-6528283">retain control of the company</a> while seeking a buyout from others such as Tencent. Ubisoft also recently announced that it would be shutting down its Call of Duty competitor <a href="https://www.gamespot.com/articles/xdefiant-shuts-down-in-june-2025-ubisoft-closes-two-offices/1100-6528210/" data-ref-id="1100-6528210">XDefiant in June 2025</a>, but will continue to <a href="https://www.gamespot.com/articles/ubisoft-still-dedicated-to-live-service-after-its-call-of-duty-competitor-came-up-short/1100-6528215/" data-ref-id="1100-6528215">pour resources into live-service games</a>.</p>
+  
+                        
+    
+        
+        
+  
+                                  </div>
+
+          
+        
+                              
+            <span>
+        <a itemprop="reviewer" href="https://plus.google.com/115776530127739146123?rel=author">George Yang</a> on Google+
+      </span>
+      
+                    
+  
+    
+          
+            
+  <div>
+    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
+
+    
+      </div>
+        
+      </section>
+    
+            
+    </article></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[EA Sports College Football 25 Is Now the Best-Selling Sports Game in US History]]></title>
             <link>https://techraptor.net/gaming/news/ea-sports-college-football-25-best-selling-sports-game</link>
@@ -342,7 +708,7 @@ Image credit:          <cite>Ultizero Games</cite>
 
                   
           <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
-                <p>Industry analysis firm DFC Intelligence has released its 2024 market report and forecast, and despite the past two years of uncertainty, <a href="https://www.gamespot.com/articles/video-game-industry-layoffs-are-worse-than-ever-how-did-we-get-here/1100-6521799/" data-ref-id="1100-6521799">sweeping layoffs</a>, and studio closures, the industry is set to rebound. After two years of major growth fueled by the pandemic, and its subsequent slump, DFC predicts the industry will return to growth in 2025 and beyond.</p><p>As of 2024, the number of gamers worldwide is around 3.8 billion, a figure DFC expects to reach 4 billion--around half the global population--by 2028. Of that number, 10% are considered core gamers and account for 65% of video game spending, while the rest are considered casual gamers, many of whom only game on mobile devices and don't own any dedicated hardware.</p><p>Nintendo is set to be a major winner in the next few years, with its next console (<a href="https://www.gamespot.com/articles/switch-2-release-date-specs-display-price/1100-6520278/" data-ref-id="1100-6520278">colloquially known as the Switch 2</a>) expected to release in 2025 with little competition from Sony or Microsoft. DFC predicts that the Switch 2 will sell 15-17 million units in 2025, and more than 80 million by 2028.</p><div tabindex="0" data-id="1323506270" data-promo-id="0" data-user-has-ads="1" data-video="{&quot;id&quot;:6465173,&quot;title&quot;:&quot;Switch%202%2C%20PS5%20Pro%2C%20Next%20Xbox%3A%20The%20State%20Of%20Console%20Gaming%20%7C%20Spot%20On&quot;,&quot;lengthSeconds&quot;:657,&quot;startTime&quot;:0,&quot;autoplay&quot;:false,&quot;share&quot;:{&quot;linkUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/switch-2-ps5-pro-next-xbox-the-state-of-console-gaming-spot-on\/2300-6465173\/&quot;,&quot;embedUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/embed\/6465173\/&quot;,&quot;embedHtml&quot;:{&quot;640&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6465173\/\&quot; height=\&quot;360\&quot; width=\&quot;640\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;,&quot;480&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6465173\/\&quot; height=\&quot;270\&quot; width=\&quot;480\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;}},&quot;device&quot;:&quot;other&quot;,&quot;isDevice&quot;:false,&quot;isLiveStream&quot;:false,&quot;videoType&quot;:&quot;video-on-demand&quot;,&quot;countdownTime&quot;:0,&quot;guid&quot;:&quot;gs-2300-6465173&quot;,&quot;ageGateCookieName&quot;:&quot;videoAgeGateBirthday&quot;,&quot;watchedCookieName&quot;:&quot;watchedVideoIds&quot;,&quot;watchedCookieDays&quot;:1,&quot;postPlayMax&quot;:100,&quot;adCall&quot;:{&quot;host&quot;:&quot;http:\/\/pubads.g.doubleclick.net\/gampad\/ads?&quot;,&quot;params&quot;:{&quot;iu&quot;:&quot;\/5441\/vaw-gamespot\/desktop\/gamespot.com&quot;,&quot;impl&quot;:&quot;s&quot;,&quot;gdfp_req&quot;:1,&quot;env&quot;:&quot;vp&quot;,&quot;output&quot;:&quot;xml_vmap1&quot;,&quot;unviewed_position_start&quot;:1,&quot;url&quot;:&quot;[referrer_url]&quot;,&quot;correlator&quot;:&quot;[timestamp]&quot;,&quot;description_url&quot;:&quot;[description_url]&quot;,&quot;cmsid&quot;:2566084,&quot;vid&quot;:6465173,&quot;pp&quot;:&quot;vpaid_js&quot;},&quot;custParams&quot;:{&quot;ptype&quot;:&quot;news_article&quot;,&quot;cid&quot;:&quot;gs-1100-6528534&quot;,&quot;con&quot;:&quot;pc,mobile,playstation-5,nintendo-switch&quot;,&quot;category&quot;:&quot;games&quot;,&quot;partner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;vid&quot;:6465173},&quot;soundBasedSize&quot;:{&quot;normal&quot;:&quot;640x480&quot;,&quot;muted&quot;:&quot;640x483&quot;,&quot;none&quot;:&quot;640x480&quot;},&quot;daiSsbUrl&quot;:&quot;https:\/\/dai.google.com\/ondemand\/hls\/content\/2572465\/vid\/6465173\/master.m3u8&quot;,&quot;daiMidRollHost&quot;:2500176},&quot;uvpHi5Ima&quot;:&quot;https:\/\/s0.2mdn.net\/instream\/html5\/ima3.js&quot;,&quot;cuePoints&quot;:null,&quot;uvpc&quot;:&quot;&quot;,&quot;partner&quot;:&quot;gamespot&quot;,&quot;adPartner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;desktopAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;mobileAdPartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;,&quot;mapp&quot;:&quot;gamespot&quot;,&quot;cms&quot;:&quot;pi&quot;,&quot;seekablePlaybacks&quot;:[&quot;html5&quot;,&quot;uvpjs&quot;],&quot;tracking&quot;:[{&quot;name&quot;:&quot;SiteCatalyst&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;charSet&quot;,&quot;value&quot;:&quot;UTF-8&quot;},{&quot;name&quot;:&quot;currencyCode&quot;,&quot;value&quot;:&quot;USD&quot;},{&quot;name&quot;:&quot;siteType&quot;,&quot;value&quot;:&quot;responsive web&quot;},{&quot;name&quot;:&quot;trackingServer&quot;,&quot;value&quot;:&quot;saa.gamespot.com&quot;},{&quot;name&quot;:&quot;visitorNamespace&quot;,&quot;value&quot;:&quot;cbsinteractive&quot;},{&quot;name&quot;:&quot;heartbeatTrackingServer&quot;,&quot;value&quot;:&quot;newimagitasinc.hb.omtrdc.net&quot;},{&quot;name&quot;:&quot;heartbeatVisitorMarketingCloudOrgId&quot;,&quot;value&quot;:&quot;3C66570E5FE1A4AB0A495FFC@AdobeOrg&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;siteCode&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;brand&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;account&quot;,&quot;value&quot;:&quot;cbsigamespotsite&quot;},{&quot;name&quot;:&quot;edition&quot;,&quot;value&quot;:&quot;us&quot;}]},{&quot;name&quot;:&quot;ComScore_ss&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;c2&quot;,&quot;value&quot;:&quot;31824268&quot;},{&quot;name&quot;:&quot;publishersSecret&quot;,&quot;value&quot;:&quot;2cb08ca4d095dd734a374dff8422c2e5&quot;},{&quot;name&quot;:&quot;c3&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;c4&quot;,&quot;value&quot;:&quot;gamespot&quot;}]},{&quot;name&quot;:&quot;NielsenTracking&quot;,&quot;category&quot;:&quot;tracking&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;host&quot;,&quot;value&quot;:&quot;https:\/\/secure-us.imrworldwide.com\/cgi-bin\/m?&quot;},{&quot;name&quot;:&quot;scCI&quot;,&quot;value&quot;:&quot;us-200330&quot;},{&quot;name&quot;:&quot;scC6&quot;,&quot;value&quot;:&quot;vc,c01&quot;}]},{&quot;name&quot;:&quot;MuxQOSPluginJS&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;propertyKey&quot;,&quot;value&quot;:&quot;b7d6e48b7461a61cb6e863a62&quot;}]}],&quot;trackingAccount&quot;:&quot;cbsigamespotsite&quot;,&quot;trackingSiteCode&quot;:&quot;gs&quot;,&quot;trackingPrimaryId&quot;:&quot;cbsigamespotsite&quot;,&quot;videoAssetSource&quot;:&quot;GameSpot&quot;,&quot;uvpjsHostname&quot;:&quot;\/\/www.gamespot.com&quot;,&quot;siteType&quot;:&quot;responsive web&quot;,&quot;startMuted&quot;:false,&quot;screenMediumThumb&quot;:&quot;https:\/\/www.gamespot.com\/a\/uploads\/screen_medium\/1823\/18237460\/4370432-spoton_newconsoles_20240919v2.jpg&quot;,&quot;videoStreams&quot;:{&quot;adaptive_stream&quot;:&quot;https:\/\/cdn.jwplayer.com\/manifests\/2cCkiwqf.m3u8&quot;},&quot;userId&quot;:0,&quot;premium&quot;:false,&quot;datePublished&quot;:1726863540,&quot;videoAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;videoAdMobilePartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;}" data-non-iframe-embed="1" data-jw-context-name="gamespot" data-jw-media-id="2cCkiwqf" data-jw-player-url="https://cdn.jwplayer.com/libraries/VXc5h4Tf.js" data-jw-video-token="" data-has-youtube="" data-youtube-icon-path="https://www.gamespot.com/a/bundles/phoenixsite/images/core/loose/icn-youtube-30x30.png" id="video-rectangle" data-embed-type="video" data-ref-id="2300-6465173" data-src="/videos/switch-2-ps5-pro-next-xbox-the-state-of-console-gaming-spot-on/2300-6465173/" data-width="100%" data-height="100%" data-video-start="0"><div><p>Switch 2, PS5 Pro, Next Xbox: The State Of Console Gaming | Spot On</p><div><p>         Want us to remember this setting for all your devices?       </p><p><a href="https://www.gamespot.com/signup/">Sign up</a> or <a href="https://www.gamespot.com/login/">Sign in</a> now!       </p></div></div><p>       Please use a html5 video capable browser to watch videos.     </p><p>       This video has an invalid file format.     </p><p>Sorry, but you can't access this content!</p></div><p>The sales of Nintendo's upcoming console will add to an ongoing trend of high spending on gaming hardware, which surpassed PC and console software sales in 2023. The category includes not only video game consoles, but PC parts and accessories, and handheld devices like the Steam Deck. This trend is driven by the core gaming audience, especially PC players who see high-end gaming hardware as a status symbol. Despite the cost of some video game accessories and hardware, DFC points out that it is still far more affordable than other hobbies like "sports cars, arts/antique collecting, travel, skiing, golf etc."</p><p>Despite the favorable outlook for hardware sales, DFC is predicting that there will be a major loser in the next generation of console wars--which could be either Sony or Microsoft depending on a number of variables. Getting in early is likely to be the deciding factor, but DFC also says a portability feature, like the Switch's, could make a difference. At this point Sony has a slight advantage thanks to its loyal user base, while Microsoft could pivot to focus on software and distribution as the largest software publisher in the industry.</p><p>"Overall, 2025 is also shaping up to be one of the best years ever for new game releases," DFC adds, singling out the highly anticipated release of <a href="https://www.gamespot.com/games/grand-theft-auto-vi/" data-ref-id="5000-569323">GTA 6</a>, which is expected to break records. The firm also expects that new consoles from Microsoft and Sony will release sometime between 2026 and 2028, contributing to DFC's prediction that PC and console revenue will reach $200 billion a year by 2028.</p>
+                <p>Industry analysis firm DFC Intelligence has released its 2024 market report and forecast, and despite the past two years of uncertainty, <a href="https://www.gamespot.com/articles/video-game-industry-layoffs-are-worse-than-ever-how-did-we-get-here/1100-6521799/" data-ref-id="1100-6521799">sweeping layoffs</a>, and studio closures, the industry is set to rebound. After two years of major growth fueled by the pandemic, and its subsequent slump, DFC predicts the industry will return to growth in 2025 and beyond.</p><p>As of 2024, the number of gamers worldwide is around 3.8 billion, a figure DFC expects to reach 4 billion--around half the global population--by 2028. Of that number, 10% are considered core gamers and account for 65% of video game spending, while the rest are considered casual gamers, many of whom only game on mobile devices and don't own any dedicated hardware.</p><p>Nintendo is set to be a major winner in the next few years, with its next console (<a href="https://www.gamespot.com/articles/switch-2-release-date-specs-display-price/1100-6520278/" data-ref-id="1100-6520278">colloquially known as the Switch 2</a>) expected to release in 2025 with little competition from Sony or Microsoft. DFC predicts that the Switch 2 will sell 15-17 million units in 2025, and more than 80 million by 2028.</p><div tabindex="0" data-id="1029654130" data-promo-id="0" data-user-has-ads="1" data-video="{&quot;id&quot;:6465173,&quot;title&quot;:&quot;Switch%202%2C%20PS5%20Pro%2C%20Next%20Xbox%3A%20The%20State%20Of%20Console%20Gaming%20%7C%20Spot%20On&quot;,&quot;lengthSeconds&quot;:657,&quot;startTime&quot;:0,&quot;autoplay&quot;:false,&quot;share&quot;:{&quot;linkUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/switch-2-ps5-pro-next-xbox-the-state-of-console-gaming-spot-on\/2300-6465173\/&quot;,&quot;embedUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/embed\/6465173\/&quot;,&quot;embedHtml&quot;:{&quot;640&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6465173\/\&quot; height=\&quot;360\&quot; width=\&quot;640\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;,&quot;480&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6465173\/\&quot; height=\&quot;270\&quot; width=\&quot;480\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;}},&quot;device&quot;:&quot;other&quot;,&quot;isDevice&quot;:false,&quot;isLiveStream&quot;:false,&quot;videoType&quot;:&quot;video-on-demand&quot;,&quot;countdownTime&quot;:0,&quot;guid&quot;:&quot;gs-2300-6465173&quot;,&quot;ageGateCookieName&quot;:&quot;videoAgeGateBirthday&quot;,&quot;watchedCookieName&quot;:&quot;watchedVideoIds&quot;,&quot;watchedCookieDays&quot;:1,&quot;postPlayMax&quot;:100,&quot;adCall&quot;:{&quot;host&quot;:&quot;http:\/\/pubads.g.doubleclick.net\/gampad\/ads?&quot;,&quot;params&quot;:{&quot;iu&quot;:&quot;\/5441\/vaw-gamespot\/desktop\/gamespot.com&quot;,&quot;impl&quot;:&quot;s&quot;,&quot;gdfp_req&quot;:1,&quot;env&quot;:&quot;vp&quot;,&quot;output&quot;:&quot;xml_vmap1&quot;,&quot;unviewed_position_start&quot;:1,&quot;url&quot;:&quot;[referrer_url]&quot;,&quot;correlator&quot;:&quot;[timestamp]&quot;,&quot;description_url&quot;:&quot;[description_url]&quot;,&quot;cmsid&quot;:2566084,&quot;vid&quot;:6465173,&quot;pp&quot;:&quot;vpaid_js&quot;},&quot;custParams&quot;:{&quot;ptype&quot;:&quot;news_article&quot;,&quot;cid&quot;:&quot;gs-1100-6528534&quot;,&quot;con&quot;:&quot;pc,mobile,playstation-5,nintendo-switch&quot;,&quot;category&quot;:&quot;games&quot;,&quot;partner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;vid&quot;:6465173},&quot;soundBasedSize&quot;:{&quot;normal&quot;:&quot;640x480&quot;,&quot;muted&quot;:&quot;640x483&quot;,&quot;none&quot;:&quot;640x480&quot;},&quot;daiSsbUrl&quot;:&quot;https:\/\/dai.google.com\/ondemand\/hls\/content\/2572465\/vid\/6465173\/master.m3u8&quot;,&quot;daiMidRollHost&quot;:2500176},&quot;uvpHi5Ima&quot;:&quot;https:\/\/s0.2mdn.net\/instream\/html5\/ima3.js&quot;,&quot;cuePoints&quot;:null,&quot;uvpc&quot;:&quot;&quot;,&quot;partner&quot;:&quot;gamespot&quot;,&quot;adPartner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;desktopAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;mobileAdPartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;,&quot;mapp&quot;:&quot;gamespot&quot;,&quot;cms&quot;:&quot;pi&quot;,&quot;seekablePlaybacks&quot;:[&quot;html5&quot;,&quot;uvpjs&quot;],&quot;tracking&quot;:[{&quot;name&quot;:&quot;SiteCatalyst&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;charSet&quot;,&quot;value&quot;:&quot;UTF-8&quot;},{&quot;name&quot;:&quot;currencyCode&quot;,&quot;value&quot;:&quot;USD&quot;},{&quot;name&quot;:&quot;siteType&quot;,&quot;value&quot;:&quot;responsive web&quot;},{&quot;name&quot;:&quot;trackingServer&quot;,&quot;value&quot;:&quot;saa.gamespot.com&quot;},{&quot;name&quot;:&quot;visitorNamespace&quot;,&quot;value&quot;:&quot;cbsinteractive&quot;},{&quot;name&quot;:&quot;heartbeatTrackingServer&quot;,&quot;value&quot;:&quot;newimagitasinc.hb.omtrdc.net&quot;},{&quot;name&quot;:&quot;heartbeatVisitorMarketingCloudOrgId&quot;,&quot;value&quot;:&quot;3C66570E5FE1A4AB0A495FFC@AdobeOrg&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;siteCode&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;brand&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;account&quot;,&quot;value&quot;:&quot;cbsigamespotsite&quot;},{&quot;name&quot;:&quot;edition&quot;,&quot;value&quot;:&quot;us&quot;}]},{&quot;name&quot;:&quot;ComScore_ss&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;c2&quot;,&quot;value&quot;:&quot;31824268&quot;},{&quot;name&quot;:&quot;publishersSecret&quot;,&quot;value&quot;:&quot;2cb08ca4d095dd734a374dff8422c2e5&quot;},{&quot;name&quot;:&quot;c3&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;c4&quot;,&quot;value&quot;:&quot;gamespot&quot;}]},{&quot;name&quot;:&quot;NielsenTracking&quot;,&quot;category&quot;:&quot;tracking&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;host&quot;,&quot;value&quot;:&quot;https:\/\/secure-us.imrworldwide.com\/cgi-bin\/m?&quot;},{&quot;name&quot;:&quot;scCI&quot;,&quot;value&quot;:&quot;us-200330&quot;},{&quot;name&quot;:&quot;scC6&quot;,&quot;value&quot;:&quot;vc,c01&quot;}]},{&quot;name&quot;:&quot;MuxQOSPluginJS&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;propertyKey&quot;,&quot;value&quot;:&quot;b7d6e48b7461a61cb6e863a62&quot;}]}],&quot;trackingAccount&quot;:&quot;cbsigamespotsite&quot;,&quot;trackingSiteCode&quot;:&quot;gs&quot;,&quot;trackingPrimaryId&quot;:&quot;cbsigamespotsite&quot;,&quot;videoAssetSource&quot;:&quot;GameSpot&quot;,&quot;uvpjsHostname&quot;:&quot;\/\/www.gamespot.com&quot;,&quot;siteType&quot;:&quot;responsive web&quot;,&quot;startMuted&quot;:false,&quot;screenMediumThumb&quot;:&quot;https:\/\/www.gamespot.com\/a\/uploads\/screen_medium\/1823\/18237460\/4370432-spoton_newconsoles_20240919v2.jpg&quot;,&quot;videoStreams&quot;:{&quot;adaptive_stream&quot;:&quot;https:\/\/cdn.jwplayer.com\/manifests\/2cCkiwqf.m3u8&quot;},&quot;userId&quot;:0,&quot;premium&quot;:false,&quot;datePublished&quot;:1726863540,&quot;videoAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;videoAdMobilePartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;}" data-non-iframe-embed="1" data-jw-context-name="gamespot" data-jw-media-id="2cCkiwqf" data-jw-player-url="https://cdn.jwplayer.com/libraries/VXc5h4Tf.js" data-jw-video-token="" data-has-youtube="" data-youtube-icon-path="https://www.gamespot.com/a/bundles/phoenixsite/images/core/loose/icn-youtube-30x30.png" id="video-rectangle" data-embed-type="video" data-ref-id="2300-6465173" data-src="/videos/switch-2-ps5-pro-next-xbox-the-state-of-console-gaming-spot-on/2300-6465173/" data-width="100%" data-height="100%" data-video-start="0"><div><p>Switch 2, PS5 Pro, Next Xbox: The State Of Console Gaming | Spot On</p><div><p>         Want us to remember this setting for all your devices?       </p><p><a href="https://www.gamespot.com/signup/">Sign up</a> or <a href="https://www.gamespot.com/login/">Sign in</a> now!       </p></div></div><p>       Please use a html5 video capable browser to watch videos.     </p><p>       This video has an invalid file format.     </p><p>Sorry, but you can't access this content!</p></div><p>The sales of Nintendo's upcoming console will add to an ongoing trend of high spending on gaming hardware, which surpassed PC and console software sales in 2023. The category includes not only video game consoles, but PC parts and accessories, and handheld devices like the Steam Deck. This trend is driven by the core gaming audience, especially PC players who see high-end gaming hardware as a status symbol. Despite the cost of some video game accessories and hardware, DFC points out that it is still far more affordable than other hobbies like "sports cars, arts/antique collecting, travel, skiing, golf etc."</p><p>Despite the favorable outlook for hardware sales, DFC is predicting that there will be a major loser in the next generation of console wars--which could be either Sony or Microsoft depending on a number of variables. Getting in early is likely to be the deciding factor, but DFC also says a portability feature, like the Switch's, could make a difference. At this point Sony has a slight advantage thanks to its loyal user base, while Microsoft could pivot to focus on software and distribution as the largest software publisher in the industry.</p><p>"Overall, 2025 is also shaping up to be one of the best years ever for new game releases," DFC adds, singling out the highly anticipated release of <a href="https://www.gamespot.com/games/grand-theft-auto-vi/" data-ref-id="5000-569323">GTA 6</a>, which is expected to break records. The firm also expects that new consoles from Microsoft and Sony will release sometime between 2026 and 2028, contributing to DFC's prediction that PC and console revenue will reach $200 billion a year by 2028.</p>
   
                         
     
@@ -370,612 +736,6 @@ Image credit:          <cite>Ultizero Games</cite>
     
             
     </article></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[College Football 25 Remains 2024’s Best-Selling Video Game]]></title>
-            <link>https://insider-gaming.com/college-football-25-remains-2024s-best-selling-video-game/</link>
-            <guid>https://www.resetera.com/threads/college-football-25-remains-2024%E2%80%99s-best-selling-video-game.1064295/</guid>
-            <content:encoded><![CDATA[https://insider-gaming.com/college-football-25-remains-2024s-best-selling-video-game/<br/><br/><div id="readability-page-1" class="page"><div>
-		
-<p>Despite a push from Call of Duty: Black Ops 6, College Football 25 remains 2024 best-selling video game. According to the latest data from <a href="https://bsky.app/profile/matpiscatella.bsky.social/post/3ldljezrbnk2o" target="_blank" rel="noreferrer noopener nofollow">Circana</a>, it remained at the top despite a push from Call of Duty: Black Ops 6.</p>
-
-
-
-<p>Since its release in July, College Football 25 has remained at the top of the list. When it launched, it knocked Helldivers 2 from the spot, and has yet to give it up.</p>
-
-
-
-<p>The good news doesn’t stop their for EA Sports, either. It was also revealed that College Football 25 has passed NBA 2K21 to become the best-selling sports game in US history. It’s even entered the top 50 best-selling games of all time in dollars.</p>
-
-
-
-<h6>RELATED: <a href="https://insider-gaming.com/call-of-duty-black-ops-6-was-novembers-best-selling-video-game/" target="_blank" rel="noreferrer noopener">Call Of Duty: Black Ops 6 Was November’s Best-Selling Video Game</a></h6>
-
-
-
-<p>Elsewhere on the chart, Black Ops 6 moved from third to second, bumping Helldivers 2 down one spot.  Marvel’s Spider-Man 2 also made a jump to 20, knocking Suicide Squad: Kill the Justice League out.</p>
-
-
-
-<p>You can check out the full list of the best-selling games of 2024 as of November 30, below:</p>
-
-
-
-<h2 id="h-best-selling-games-of-2024">Best-Selling Games Of 2024</h2>
-
-
-
-<ol>
-<li>EA Sports College Football 25</li>
-
-
-
-<li>Call of Duty: Black Ops 6</li>
-
-
-
-<li>Helldivers II</li>
-
-
-
-<li>Dragon Ball: Sparking! Zero</li>
-
-
-
-<li>Call of Duty: Modern Warfare III (2023)</li>
-
-
-
-<li>Madden NFL 25</li>
-
-
-
-<li>EA Sports FC 25</li>
-
-
-
-<li>EA Sports MVP Bundle</li>
-
-
-
-<li>Elden Ring</li>
-
-
-
-<li>Dragon’s Dogma II</li>
-
-
-
-<li>MLB: The Show 24</li>
-
-
-
-<li>WWE 2K24</li>
-
-
-
-<li>Hogwarts Legacy</li>
-
-
-
-<li>Grand Theft Auto V</li>
-
-
-
-<li>Final Fantasy VII: Rebirth</li>
-
-
-
-<li>Tekken 8</li>
-
-
-
-<li>NBA 2K24</li>
-
-
-
-<li>Minecraft</li>
-
-
-
-<li>Madden NFL 24</li>
-
-
-
-<li>Marvel’s Spider-Man 2</li>
-</ol>
-
-
-
-<p>What do you think of College Football 25 still being the best-selling game of 2024 in the US? Let us know down below, and join the discussion in the official&nbsp;<a href="https://insider-gaming.com/forum/threads/1336/" target="_blank" rel="noreferrer noopener">Insider Gaming forums</a>.</p>
-
-
-
-<hr>
-
-
-
-<p>For more Insider Gaming, check out our&nbsp;<a href="https://insider-gaming.com/revenge-of-the-savage-planet-preview/" target="_blank" rel="noreferrer noopener">preview of the upcoming Revenge of the Savage Planet</a>.&nbsp;And don’t forget to&nbsp;<a href="https://insider-gaming.com/subscribe">sign up for our weekly newsletter</a>.</p>
-    <div id="ig-newsletter-holder">
-            <p><span>
-                    SUBSCRIBE to our newsletter to WIN PRIZES this Xmas and receive the latest news and exclusive leaks every week! No Spam.
-                </span>
-            </p>
-            
-        </div>
-
-	</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Call Of Duty: Black Ops 6 Was November’s Best-Selling Video Game]]></title>
-            <link>https://insider-gaming.com/call-of-duty-black-ops-6-was-novembers-best-selling-video-game/</link>
-            <guid>https://www.resetera.com/threads/call-of-duty-black-ops-6-was-november%E2%80%99s-best-selling-video-game.1064292/</guid>
-            <content:encoded><![CDATA[https://insider-gaming.com/call-of-duty-black-ops-6-was-novembers-best-selling-video-game/<br/><br/><div id="readability-page-1" class="page"><div>
-		
-<p>For the second month in a row, Call of Duty: Black Ops 6 was the best-selling video game in the United States for November 2024. Per the latest data from <a href="https://bsky.app/profile/matpiscatella.bsky.social/post/3ldljeujij22o" target="_blank" rel="noreferrer noopener nofollow">Circana</a>, Black Ops 6 remained at the top after also being the best-selling <a href="https://insider-gaming.com/call-of-duty-black-ops-6-october-2024-best-selling-game/" target="_blank" rel="noreferrer noopener">game in October</a>.</p>
-
-
-
-<p>Following Black Ops 6 up front were Madden 25, EA Sports FC 25, College Football 25 and Dragon Ball: Sparking! Zero at two through five, respectively.</p>
-
-
-
-<p>As far as the entire top 20 list, three made their debut after releasing between November 3-30. The debuting games include Mario &amp; Luigi: Brothership, Dragon Quest 3, and My Sims: Cozy Bundle. Marvel’s Spider-Man 2 and Marvel vs. Capcom Fighting Collection: Arcade Classics also re-joined the top 20 after being on the outside for October. </p>
-
-
-
-<h6>RELATED: <a href="https://insider-gaming.com/college-football-25-remains-2024s-best-selling-video-game/" target="_blank" rel="noreferrer noopener">College Football 25 Remains 2024’s Best-Selling Video Game</a></h6>
-
-
-
-<p>With five games either returning or debuting in the list, that means games had to leave. Falling out of the top 20 for November were Elden Ring, Life is Strange: Double Exposure, NHL 25, Finial Fantasy I-VI Bundle, and The Legend of Zelda: Echoes of Wisdom.</p>
-
-
-
-<p>You can check out the full list of the best-selling games from November 2024 below.</p>
-
-
-
-<h2 id="h-top-20-best-selling-games-for-november-2024">Top 20 Best-Selling Games For November 2024</h2>
-
-
-
-<ol>
-<li>Call of Duty: Black Ops 6</li>
-
-
-
-<li>Madden NFL 25</li>
-
-
-
-<li>EA Sports FC 25</li>
-
-
-
-<li>EA Sports College Football 25</li>
-
-
-
-<li>Dragon Ball: Sparking! Zero</li>
-
-
-
-<li>Super Mario Party Jamboree</li>
-
-
-
-<li>Mario &amp; Luigi: Brothership</li>
-
-
-
-<li>Sonic X Shadow Generations</li>
-
-
-
-<li>NBA 2K25</li>
-
-
-
-<li>Dragon Age: The Veilguard</li>
-
-
-
-<li>Hogwarts Legacy</li>
-
-
-
-<li>DRAGON QUEST III</li>
-
-
-
-<li>Astro Bot</li>
-
-
-
-<li>Marvel’s Spider-Man 2</li>
-
-
-
-<li>Silent Hill 2 (2024)</li>
-
-
-
-<li>Undisputed</li>
-
-
-
-<li>Metaphor: ReFantazio</li>
-
-
-
-<li>Minecraft</li>
-
-
-
-<li>My Sims: Cozy Bundle</li>
-
-
-
-<li>Marvel vs. Capcom Fighting Collection: Arcade Classics</li>
-</ol>
-
-
-
-<p>What do you think of Call of Duty: Black Ops 6 being the best-selling game of November 2024? &nbsp;Let us know down below, and join the discussion in the official&nbsp;<a href="https://insider-gaming.com/forum/https://insider-gaming.com/forum/threads/1335/" target="_blank" rel="noreferrer noopener">Insider Gaming forums</a>.</p>
-
-
-
-<hr>
-
-
-
-<p>For more Insider Gaming, check out Ubisoft’s plans to <a href="https://insider-gaming.com/ubisoft-far-cry-7-and-maverick/" target="_blank" rel="noreferrer noopener">reshape the future</a> of the Far Cry franchise. And don’t forget to&nbsp;<a href="https://insider-gaming.com/subscribe">sign up for our weekly newsletter</a>.</p>
-    <div id="ig-newsletter-holder">
-            <p><span>
-                    SUBSCRIBE to our newsletter to WIN PRIZES this Xmas and receive the latest news and exclusive leaks every week! No Spam.
-                </span>
-            </p>
-            
-        </div>
-
-	</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Alien: Rogue Incursion Review]]></title>
-            <link>https://www.thesixthaxis.com/2024/12/18/alien-rogue-incursion-review/</link>
-            <guid>https://www.resetera.com/threads/alien-rogue-incursion-review.1064268/</guid>
-            <content:encoded><![CDATA[https://www.thesixthaxis.com/2024/12/18/alien-rogue-incursion-review/<br/><br/><div id="readability-page-1" class="page"><div itemprop="text">
-			
-			<p>An Alien VR game seems like a no brainer, especially as the <a href="https://www.thesixthaxis.com/2014/10/03/alien-isolation-review/">Alien Isolation’s</a> VR prototype has become a cornerstone myth of virtual reality gaming. This is one of the biggest sci-fi horror franchise of all time with iconic enemies, locations and weapons, and even the tracker ping is iconic. It’s a world just begging to be jammed in to a fancy headset. Alien: Rogue Incursion gets the the atmosphere right, but it’s more frustrating than scary to actually play.</p>
-<p><iframe title="Alien: Rogue Incursion | Launch Trailer" width="780" height="439" src="https://www.youtube.com/embed/bSTJ9RnDGfc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
-<p>The game starts strong with ex-Colonial Marine Zula Hendricks literally in the hot seat of a transporter as it hurtles towards the planet Purdan – a planet which unsurprisingly looks a lot like LV-426. It’s cold and snowy with an abandoned Gemini Exoplanet Solutions research facility doing a very good impression of the colony from Aliens. You get a few moments peace before something dislodges some snow from a roof and there it is, a glistening black xenomorph, visible in the night for a few brief seconds before it skitters off in to the darkness with that classic terrifying scream.</p>
-
-
-<p>The first encounter with a xenomorph is truly exhilarating as it scampers from the shadows, crawling around the sides of buildings before dropping to the ground and towering over you just as it should. Some well placed shots from the classic Pulse Rifle and you also learn the first annoying thing about the game: the Pulse Rifle kicks like a mule. Hold the trigger down and after less than a second it is firing bullets in the ceiling. This is because you are meant to be using two hands to steady the rifle, which is fine, but you need to hold the tracker in your other hand to work out where the xenomorphs are coming from, or have the map out to know where to go.</p>
-<p>You’ll soon have other tools and extra weapons to juggle as you settle into a rhythm of moving between locations while fighting a few enemies,&nbsp;solving a fairly simple wiring puzzle, surviving a wave of creatures and moving on. The game is billed as having “most cunning Xenomorphs ever encountered” but it doesn’t take too long to realise that’s not true.</p>
-
-<p>They will stalk you, scampering around in the ceiling and popping out of vents but when they decided to get close they always take a few seconds to hiss at you before they attack. They just stand there, arms outstretched like they’re coming in for a hug and always giving you a window of opportunity to unload a shotgun in their direction. You will also learn that, apart from a few key sequences, the xenos come in pairs so you know exactly how many there will be and how easy they are to kill, robbing them of their fear factor and making them more of a nuisance than anything else. You can also just away – they aren’t fast enough to catch up and kill you, so you can just leg it round most of the corridors and listen to them snarl in the distance.</p>
-
-<p>If an encounter with an Alien gets a bit too close it will result in death (as it should) and there’s some delightfully gory sequences including watching an Alien tail burst through your stomach. If you die then you had better have manually saved your game in a Panic Room because the checkpointing is atrocious, you can lose a good twenty minutes of progress. Just to add to the annoyance, if you do try to run back to the nearest Panic Room the game may spawn a few extra xenomorphs so you have to lose precious ammo just to get a save. The game is tense, but it’s not because of the Aliens, it’s because you are worried you haven’t manually saved for a half an hour and die.</p>
-<p>The game does have moments of brilliance though. One sequence in particular was genuinely sickening, and it’s followed by an exceptionally creepy stroll that was absolutely gripping. It does feel very much like you are in an Alien movie at this point – it’s wet and squelchy with things skittering overhead and hissing at your from ventilation shafts. It looks and sounds great with lots of effects for smoke and steam and some excellent heart racing music when you are being stalked.</p>
-<p>Zula is partnered with Davis, an android who accompanies her physically for a short time, adding much needed firepower, before becoming the classic quest advisor on the radio. Their dialogue is mostly functional but we do occasionally get a little more of their personality so that they feel like firm friends by the end of the game.</p>
-
-<p>The play area is fairly large which plenty of options to explore and uncover more the story via emails on terminals. However, as every single room and corridor is of the same general design it is very easy to get lost, especially when the map is so bad. Which reminds me, all the icons the map that show if there’s a terminal or a lift or a closed door, if you zoom out a bit and they all become plain white dots. There’s no way to know if you are running towards a lift that will save you from marauding creatures, or a locked door. What would have really helped is simple but effective sign posting in the world to telling you Medical is down the corridor to the right, then you don’t need to keep bringing up the map.</p>
-<p>As you enter the end of the game it does pad things out by bringing you back to your ship then sending you out to the furthest reaches of the facility to complete an objective and there’s a lot of cycling through air locks and trying to remember where lifts are.</p>
-<p>I did encounter a few bugs of the video game kind. Crawling into a vent got me completely stuck one time, an important object clipped through the floor and vanished, both requiring me to go back to a previous save, and my head was always level with the floor on the pause screen.</p>
-<p>What is rather more annoying is the inaccuracy of the quest descriptions and map. Davis usually gives you a quick briefing on the next step, but the quest summary on your pad is very brief and missing important details, and the map markers are frequently wrong. I spent half an hour trying to deposit some canisters inside the loading bay on my ship, only to discover that you’re meant to go outside to a nondescript panel and punch a button before the canister receptacle will appear. The following mission had me go to Operations… but not the part of the map that’s clearly marked “Operations” a completely different place.</p>
-
-<p>There’s a good game here – it looks and sounds fantastic and really captures the feel of the films – but there are so many little annoyances that it’s hard to like it. Rogue Incursion has you constantly juggling two-handed weapons, the motion tracker, mission object, and the touch screen map that requires two hands to use, and it’s just clumsy going back and forth all the time. Heck, the map doesn’t even auto-track your location, so you need to drop whatever else you’re holding just to scroll it.</p>
-<p>All of this is probably fine when it’s a quick button press away, but annoying in VR. Not to mention that Zula is an ex-Marine. Give her a helmet with the tracker, an auto-scrolling map and the mission briefing on a HUD and you fix the vast majority of problems with the game and free up your hands for the important things – like aiming straight.</p>
-
-
-<!-- CONTENT END 1 -->
-
-			
-		</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Sony China Hero Project Game Lost Soul Aside Gets 2025 Release Window]]></title>
-            <link>https://techraptor.net/gaming/news/lost-soul-aside-release-window-2025</link>
-            <guid>https://www.resetera.com/threads/sony-china-hero-project-game-lost-soul-aside-gets-2025-release-window.1064265/</guid>
-            <content:encoded><![CDATA[https://techraptor.net/gaming/news/lost-soul-aside-release-window-2025<br/><br/><div id="readability-page-1" class="page"><div><p>Sony and developer Ultizero Games have announced that long-awaited hack-and-slash action game <i>Lost Soul Aside&nbsp;</i>finally has a release window, and they've given us a fresh glimpse at some gameplay as well.</p>
-
-<p>In a new trailer, the two studios confirm that the game is set for release on PC and PlayStation 5 in 2025, so let's hope that this time, we're finally going to be able to get our hands on this one.</p>
-
-<p><em>Lost Soul Aside&nbsp;</em>has had a very lengthy development process indeed. It was <a href="https://techraptor.net/gaming/news/impressive-one-man-project-lost-soul-aside-will-be-timed-exclusive-for-ps4" rel="nofollow">first announced</a> as part of the inaugural round of games in Sony's China Hero Project all the way back in 2016, at which point it was to be a timed exclusive on PS4.</p>
-<figure role="group"><picture><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/lost-soul-aside-2025-release-window-boss.jpg?itok=4lC5Mr5U 1x" media="(min-width: 992px)" type="image/jpeg"><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/lost-soul-aside-2025-release-window-boss.jpg?itok=Wv2kdiym 1x" media="(max-width: 991px)" type="image/jpeg"></picture><figcaption><em>Lost Soul Aside&nbsp;</em>finally has a release window.</figcaption></figure><p>We got to hear more from the game last year, when a <a href="https://techraptor.net/gaming/news/lost-soul-aside-shows-gorgeous-graphics-amazing-action-in-new-rtx-trailer" rel="nofollow">new trailer was released during the ChinaJoy event in July</a>. That trailer was all about the ray tracing that will be featured in&nbsp;<em>Lost Soul Aside</em>, so perhaps we'll see this one get some <a href="https://techraptor.net/gaming/news/ps5-pro-announced-november" rel="nofollow">PS5 Pro enhancements</a> as well.</p>
-
-<p>As for details regarding the game's plot and moment-to-moment gameplay, Sony and Ultizero are remaining fairly tight-lipped for now. It'll be a hack-and-slash "action-adventure RPG", according to Ultizero, and it'll be a single-player game too.</p>
-
-<p>Narrative-wise, you're out to "save your sister and the whole of humankind from dimensional invaders", so you can perhaps think of this one as a sort of cousin to&nbsp;<em>Stellar Blade</em>, albeit one with perhaps less of an emphasis on <a href="https://techraptor.net/gaming/news/festive-stellar-blade-update" rel="nofollow">the main character's costumes</a>.</p>
-
-<p>You can check out the new release window announcement trailer for&nbsp;<em>Lost Soul Aside&nbsp;</em>right here. It's got some nice stylish action for you to look at as well.</p>
-
-
-
-
-<p><em>Lost Soul Aside&nbsp;</em>is due to arrive on PlayStation 5 and <a href="https://store.steampowered.com/app/3378960/Lost_Soul_Aside/?curator_clanid=6754604&amp;utm_source=TechRaptor" rel="nofollow" target="_blank">PC via Steam</a> sometime next year. Stay tuned for more on this one.</p>
-</div><div><p><span><div>
-       
-    <p>Joe has been writing for TechRaptor for several years, and in those years has learned a lot about the gaming industry and its foibles. He’s originally an… <a href="https://techraptor.net/author/joseph-allen">More about Joseph</a></p>
-  </div></span></p></div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Marvel Rivals Celebrates 20 Million Players With a Free Reward]]></title>
-            <link>https://insider-gaming.com/marvel-rivals-celebrates-20-million-players-with-a-free-reward/</link>
-            <guid>https://www.resetera.com/threads/marvel-rivals-celebrates-20-million-players-with-a-free-reward.1064259/</guid>
-            <content:encoded><![CDATA[https://insider-gaming.com/marvel-rivals-celebrates-20-million-players-with-a-free-reward/<br/><br/><div id="readability-page-1" class="page"><div>
-		
-<p>Marvel Rivals, Netease’s new free-to-play hero shooter, has been a massive success, attracting over 20 million players within the first two weeks.&nbsp;</p>
-
-
-
-<p><span>The official Marvel Rivals&nbsp;<a href="https://x.com/MarvelRivals/status/1869080172814848471" target="_blank">X</a>&nbsp;account revealed that</span> 20 million players have joined the game. As a token of their gratitude, the developers are offering a free reward to the community. If players log in between December 20, 2024, and January 10, 2025, they can grab a free spray that features the 20 million milestone.&nbsp;</p>
-
-
-
-<p>Marvel Rivals, released on December 6, 2024, was surprisingly quick to hit the 20 million milestone. The game has been making waves since its release, pulling in <a href="https://insider-gaming.com/marvel-rivals-10-million-players-count/" target="_blank" rel="noreferrer noopener">10 million players within the first three days</a>.&nbsp;</p>
-
-
-
-<p>Marvel Rivals features a massive roster of characters, with several iconic heroes and villains from Avengers, Guardians of the Galaxy, X-Men, and more joining the fray. It features fast-paced 6v6 action where players must strategize together to combine their powers and turn the tide in their favour. The game also features iconic maps such as Asgard, Tokyo 2099, Intergalactic Empire of Wakanda: Hall of Djalia, and more.</p>
-
-
-
-<p>In other news, Marvel Rivals’ <a href="https://insider-gaming.com/marvel-rivals-winter-celebration/" target="_blank" rel="noreferrer noopener">Winter Celebration event</a> is live now; here are more details. Also, here’s <a href="https://insider-gaming.com/how-to-change-crosshair-in-marvel-rivals/" target="_blank" rel="noreferrer noopener">how to change crosshairs</a> in the game.&nbsp;What are your thoughts on Marvel Rivals amassing 20 million players? Let us know in the comments or our&nbsp;<a href="https://insider-gaming.com/forum/" target="_blank" rel="noreferrer noopener">community forum</a>!</p>
-
-
-
-<hr>
-
-
-
-<p>For more information from Insider Gaming, read about <a href="https://insider-gaming.com/helldivers-2-x-killzone-cosmetics-are-now-available/" target="_blank" rel="noreferrer noopener">the new Helldivers 2 x Killzone cosmetics released today</a>. Don’t forget to&nbsp;<a href="https://insider-gaming.com/subscribe" target="_blank" rel="noreferrer noopener">sign up for our weekly newsletter</a>.&nbsp;&nbsp;</p>
-    <div id="ig-newsletter-holder">
-            <p><span>
-                    SUBSCRIBE to our newsletter to WIN PRIZES this Xmas and receive the latest news and exclusive leaks every week! No Spam.
-                </span>
-            </p>
-            
-        </div>
-
-	</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Tarkov Pre-Wipe Event Gives Cultists Marked Keys and 100% Spawn Rates]]></title>
-            <link>https://insider-gaming.com/tarkov-new-pre-wipe-event-cultists/</link>
-            <guid>https://www.resetera.com/threads/tarkov-pre-wipe-event-gives-cultists-marked-keys-and-100-spawn-rates.1064256/</guid>
-            <content:encoded><![CDATA[https://insider-gaming.com/tarkov-new-pre-wipe-event-cultists/<br/><br/><div id="readability-page-1" class="page"><div>
-		
-<p>Battlestate Games has rolled out another pre-wipe event for Escape from Tarkov, introducing a 100% spawn rate (at night) for Cultists across their main maps: Shoreline, Customs, and Woods. The latest update has equipped many of these Cultists with Marked Keys, which as you might know, open doors to some of the most high-value locations in the game.</p>
-
-
-
-<p>Most recently, players were tackling a pre-wipe event in Escape from Tarkov that required them to kill 30 enemies on the Factory map to unlock Kappa, one of the most sought-after items in the game.</p>
-
-
-
-<hr>
-
-
-
-<h2 id="h-kill-cultists-make-gains">Kill Cultists, Make Gains</h2>
-
-
-
-<p>This latest pre-wipe event for Tarkov comes with the following description on social media:</p>
-
-
-
-<blockquote>
-<p>The losses of both PMC factions during night-time operations have increased. The old-timers believe that this is due to the pilgrimage of the so-called “witnesses” to their marked circles. </p>
-
-
-
-<p>There are reports of many of those hooded people carrying marked keys. Despite the increased danger, PMCs are now preparing for night raids and taking advantage of the fact that Mechanic started selling NVGs at a great discount.</p>
-</blockquote>
-
-
-
-<p>Now, the large maps that accommodate Cultists (so, not Ground Zero or Factory) will have a 100% spawn rate for the faction <strong>at night only</strong>. Also, Mechanic has massively discounted NVGs like the GPNVG-18, which is selling for just 43,000 roubles at the moment.</p>
-
-
-
-<p>When you kill Cultists, you’ll have a solid chance of picking up a range of Marked Keys from their bodies, which you can then turn into some great loot. Bear in mind that you’ll be competing with thousands of other players to access these locations, though.</p>
-
-
-
-<p>As expected, this pre-wipe event is only available for PvP players, because the game’s PvE mode doesn’t accommodate forced wipes, so a <strong>pre-wipe event </strong>doesn’t make much sense.</p>
-
-
-
-<p>As a bonus, you can secure Cultist Knives and trade them with Mechanic for coloured keycards.</p>
-
-
-
-<p>It’s expected that the next Escape from Tarkov wipe will arrive around Christmas. Are you ready? Let us know on the <a href="https://insider-gaming.com/forum/">Insider Gaming forum</a>.</p>
-
-
-
-<hr>
-
-
-
-<p>For more Insider Gaming coverage, check out the news that the <a href="https://insider-gaming.com/helldivers-2-x-killzone-cosmetics-are-now-available/">Killzone content is live now in Helldivers 2</a></p>
-    <div id="ig-newsletter-holder">
-            <p><span>
-                    SUBSCRIBE to our newsletter to WIN PRIZES this Xmas and receive the latest news and exclusive leaks every week! No Spam.
-                </span>
-            </p>
-            
-        </div>
-
-	</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Pokémon TCG Pocket Meta May Have a New Champ as Celebi ex Dominates]]></title>
-            <link>https://www.ign.com/articles/pokmon-tcg-pocket-meta-may-have-a-new-champ-as-celebi-ex-dominates</link>
-            <guid>https://www.resetera.com/threads/pok%C3%A9mon-tcg-pocket-meta-may-have-a-new-champ-as-celebi-ex-dominates.1064253/</guid>
-            <content:encoded><![CDATA[https://www.ign.com/articles/pokmon-tcg-pocket-meta-may-have-a-new-champ-as-celebi-ex-dominates<br/><br/><div id="readability-page-1" class="page"><section data-cy="article-content"><p data-cy="paragraph"><a data-cy="styled-link" href="https://www.ign.com/games/pokemon-tcg-pocket">Pokémon Trading Card Game Pocket</a> received its first expansion yesterday in Mythical Island and the collection of new cards has shaken up the meta, seemingly pushing newcomer Celebi ex to the top.</p><p data-cy="paragraph">Celebi ex is one of five ex Pokémon added in Mythical Island, a Themed Booster which brought 68 unique new cards to the digital trading card game. It's a basic Grass type with 130 Hit Points and a Weakness to Fire and a one Energy Retreat Cost.</p><p data-cy="paragraph">Its single attack is called Power Bloom and costs one Grass Energy and one Colorless Energy, with the following effect: "Flip a coin for each Energy attached to this Pokémon. This attack does 50 damage for each heads."</p><output><figure><a href="https://assets-prd.ignimgs.com/2024/12/18/celebi-1734525066409.png" target="_blank" rel="noopener noreferrer"></a><figcaption data-cy="caption">Image credit: Creatures Inc.</figcaption></figure></output><p data-cy="paragraph">This is okay by itself; it's on par with one meta leader Mewtwo ex's smaller attack, essentially averaging 50 damage for two Energy, but increasing it to, say four Energy, means it averages 100 damage. There is potential there for some devastating attacks, with four coin flips potentially presenting 200 (or zero) damage, but it's another Mythical Island card that boosts Celebi to the top.</p><p data-cy="paragraph">Serperior is a Stage 2 Grass type with 110 HP, a weakness to Fire, and two Energy retreat cost. It has a single attack called Solar Beam which deals 70 damage for one Grass Energy and three Colorless Energy, which is well below the standard rate of damage.</p><p data-cy="paragraph">But it also comes with an Ability, Jungle Totem: "Each Grass Energy attached to your Grass Pokémon procides two Grass Energy. This effect doesn't stack." This "stack" clause simply means that if two Serperior are on the board at the same time then only one of these effects will activate, but it otherwise doubles the value of every energy attached to other Grass Pokémon, including Celebi ex.</p><output><figure><a href="https://assets-prd.ignimgs.com/2024/12/18/serp-1734525066410.png" target="_blank" rel="noopener noreferrer"></a><figcaption data-cy="caption">Image credit: Creatures Inc.</figcaption></figure></output><p data-cy="paragraph">Having Serperior on the bench, which will take a while given its a Stage 2 Pokémon and needs to be evolved twice, therefore essentially makes Celebi's Power Bloom card half the cost. One Grass Energy attached to it will result in two coin flips, for between zero and 100 damage, two Grass Energy will mean four coin flips for between zero and 200 damage, and so on.</p><p data-cy="paragraph">Exactly what cards are best around these two core pieces will be figured out by players in the coming days and weeks, but Lilligant from original set Genetix Apex may be a valuable inclusion. It's a Stage 1 Pokémon evolving from Petilil that has a two Grass Energy, 50 damage attack that also grants a Bench Pokémon a free Grass Energy.</p><p data-cy="paragraph">Putting it in play with a Celebi ex on the Bench, and building up to a Serperior at the same time, would let players pile Energy onto Celebi ex and then switch it in with the threat of doing serious damage, enough to take down the likes of Mewtwo ex and Charizard ex in one turn.</p><output><figure><a href="https://assets-prd.ignimgs.com/2024/12/18/lil-1734525172640.png" target="_blank" rel="noopener noreferrer"></a><figcaption data-cy="caption">Image credit: Creatures Inc.</figcaption></figure></output><p data-cy="paragraph">This is the first deck from Mythical Island to emerge as a meta leader, capable of stacking up to these other dominant decks, but there are other changes already in place, including some that push down Pikachu ex.</p><p data-cy="paragraph"><a data-cy="styled-link" href="https://www.ign.com/articles/pokmon-tcg-pocket-reveals-mew-led-set-coming-next-week-and-60-million-download-milestone">Mythical Island arrived December 17 and as a Themed Booster is a smaller set</a> compared to the debut Genetic Apex, containing a total of 86 cards. Creatures Inc. has still added myriad new missions and solo battles for players to interact with though, which somewhat recreates that opening day feeling of the digital trading card game.</p><p data-cy="paragraph">Pokémon TCG Pocket arrived October 30 and is a certified hit for Creatures Inc. and The Pokémon Company, <a data-cy="styled-link" href="https://www.ign.com/articles/pokmon-tcg-pocket-estimated-to-have-crossed-200-million-mark-already-outperforming-pokmon-sleep-and-unite">having earned an estimated $200 million in its first month</a> across more than 60 million downloads.</p><output data-cy="article-slideshow"><div data-cy="slideshow-view-trigger"><h3 data-cy="slideshow-preview-title">Every Alternate Art 'Secret' Card in Pokémon TCG Pocket: Mythical Island</h3></div></output><p data-cy="paragraph">This huge amount of money comes as Pokémon TCG Pocket follows the standard mobile and free to play game model, flooding players with rewards in the first few days before soon drying up, with spending real world money the only real way to re-experience that early thrill outside of the occasional set drop like this.</p><p data-cy="paragraph">Completing Genetic Apex, the first set of cards which totals 226 officially but also contains 60 rare alternate art cards, <a data-cy="styled-link" href="https://www.ign.com/articles/it-takes-almost-2-years-to-complete-just-the-first-pokmon-tcg-pocket-set-unless-you-spend-money">will take players not spending money around two years according to one estimate</a>, while <a data-cy="styled-link" href="https://www.ign.com/articles/pokmon-tcg-pocket-player-reveals-exactly-how-long-it-takes-to-complete-the-first-set-after-spending-1500">those looking to make it rain can wrap up the collection after dropping around $1,500</a>.</p><p data-cy="paragraph"><em>Ryan Dinsdale is an IGN freelance reporter. He'll talk about The Witcher all day.</em></p></section></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[High-speed mech action game Project Six for PC officially titled OMEGA PHENEX COMMENCED PROJECT SIX]]></title>
-            <link>https://www.gematsu.com/2024/12/high-speed-mech-action-game-project-six-for-pc-officially-titled-omega-phenex-commenced-project-six</link>
-            <guid>https://www.resetera.com/threads/high-speed-mech-action-game-project-six-for-pc-officially-titled-omega-phenex-commenced-project-six.1064250/</guid>
-            <content:encoded><![CDATA[https://www.gematsu.com/2024/12/high-speed-mech-action-game-project-six-for-pc-officially-titled-omega-phenex-commenced-project-six<br/><br/><div id="readability-page-1" class="page"><div role="main">
-  
-  <article>
-
-    
-<header>
-
-  <div>
-
-    <ul>
-    <li><a href="https://www.gematsu.com/platforms/pc">PC</a></li>    </ul>
-
-    
-    <p><span>From independent Japanese developer Surume Koubou.</span>
-      </p></div>
-
-  
-
-</header>  
-
-<!-- Moved from templates/posts/default.php -->
-
-    <div><p>High-speed mech <a title="Genres > Action [2,380 articles]" href="https://www.gematsu.com/genres/action">action game</a> <em>Project Six</em> is officially titled <em><a title="Games > OMEGA PHENEX COMMENCED PROJECT SIX" href="https://www.gematsu.com/games/omega-phenex-commenced-project-six">OMEGA PHENEX COMMENCED PROJECT SIX</a></em>, independent Japanese developer <a title="Companies > Surume Koubou" href="https://www.gematsu.com/companies/surume-koubou">Surume Koubou</a> announced. It will be available for <a title="Platforms > PC [22,011 articles]" href="https://www.gematsu.com/platforms/pc">PC</a> via <a href="https://store.steampowered.com/app/3392040/OMEGA_PHENEX_COMMENCED_PROJECT_SIX/" rel="noopener" target="_blank">Steam</a> when it launches. A release date has not been announced. <span id="more-935214"></span></p><p>Here is an overview of the game, via its <a href="https://store.steampowered.com/app/3392040/OMEGA_PHENEX_COMMENCED_PROJECT_SIX/" rel="noopener" target="_blank">Steam page</a>:</p><blockquote><p><strong>About</strong></p><p>You will become a pilot of the mech “Icarus,” which has tremendous maneuverability. You will enjoy a fight and face large powerful armies and rivals by moving from skimming the surface of the sea to the cloud with Icarus. This game is a high-speed mech shooting game capable of firing massive amounts of missiles.</p><p><strong>Key Features</strong></p><ul><li><strong>Immerse Yourself in Tactile Mech Action at Overwhelming Speeds</strong><!-- AD: content -->
-        <ul><li>This work is characterized by an overwhelming sense of speed. There are no restrictions on turning speed, and the consumption of the boost gauge required for high-speed movement and flight is set to a moderate level. Enemy bullets are easy to avoid, making it easy to enjoy high-speed combat.</li><li>Aim controls follow those of general shooting games such as <a title="Genres > First-Person Shooter [2,584 articles]" href="https://www.gematsu.com/genres/shooter/fps">FPS</a> and <a title="Genres > Third-Person Shooter [1,264 articles]" href="https://www.gematsu.com/genres/shooter/tps">TPS</a>, so that even those unfamiliar with robot games will find the game easy to play.</li></ul></li><li><strong>Mechanical Customization System for Both Appearance and Performance</strong><ul><li>It also features the mech’s customization functions, such as changing parts and painting capabilities. The performance of each part varies slightly, but the performance of the mechs is largely determined by the “Tune” function. This “Tune” can be used to enhance any parameter of your choice, such as durability value, mobility, or weapon performance by spending a limited predefined amount of the cost.</li><li>This allows you to customize your mechs’ to your preferred appearance while pursuing your preferred fighting style.</li></ul></li><li><strong>More Than 30 Missions, Plus an “Arena Mode” for One-on-One Battles</strong><ul><li>The game includes a wide variety of missions, such as extermination, exploration missions, boss battles and escort missions (we are considering a less stressful specification for the escort missions). In addition, there is an “Arena Mode” for one-on-one combat with the enemy “Icarus.”</li></ul></li></ul></blockquote><p>Watch a new trailer below.</p><h2><span>Title Announce Trailer</span></h2><p><iframe title="PROJECT SIX official title announcement and opening of the steam store." width="500" height="281" src="https://www.youtube.com/embed/hsu5cxQB_4s?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p></div>
-
-        
-    
-  </article>
-</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[CD Projekt Red stays coy on whether The Witcher 4 can run on current-gen consoles, including Xbox Series S]]></title>
-            <link>https://www.eurogamer.net/cd-projekt-red-stays-coy-on-whether-the-witcher-4-can-run-on-current-gen-consoles-including-xbox-series-s</link>
-            <guid>https://www.resetera.com/threads/cd-projekt-red-stays-coy-on-whether-the-witcher-4-can-run-on-current-gen-consoles-including-xbox-series-s.1064247/</guid>
-            <content:encoded><![CDATA[https://www.eurogamer.net/cd-projekt-red-stays-coy-on-whether-the-witcher-4-can-run-on-current-gen-consoles-including-xbox-series-s<br/><br/><div id="readability-page-1" class="page"><div data-component="article-header">
-  
-
-    <div>
-        
-
-        <p>"Obviously we want to support all the platforms…"</p>
-
-    </div>
-
-
-  <p>
-  <figure>
-  <a href="https://assetsio.gnwcdn.com/2_Jc1JhcH.jpeg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
-  
-  </a>
-
-      <figcaption>
-        <span>
-Image credit:          <cite>CD Projekt Red</cite>
-        </span>
-      </figcaption>
-  </figure>
-  </p>
-
-    
-
-</div><div data-component="article-content">
-
-
-
-            <p>Since <a href="https://www.eurogamer.net/the-witcher-4-gets-its-a-first-trailer-and-yes-ciri-is-the-star">The Witcher 4's impressive, ultra-high-fidelity debut trailer at The Game Awards</a> last week, there's been a fair bit of consternation from fans as to whether it'll actually be playable on current-gen hardware. That's something only compounded by the mention, in the trailer's small print and a brief <a href="https://press.cdprojektred.com/en/news/1702/the-witcher-iv-revealed-at-the-game-awards">official blog</a>, that the trailer was pre-rendered on a mysterious, "unannounced Nvidia GeForce RTX" graphics card, "using assets and models from the game itself" - suggesting at least some minor level of similarity to what the game will look like on arrival.</p>
-<p>Developer CD Projekt Red also has some history with older console struggles of course, with the last-gen consoles of the PlayStation 4 and Xbox One proving hugely problematic for <a data-keyword="true" href="https://www.eurogamer.net/games/cyberpunk-2077">Cyberpunk 2077</a>'s launch. The studio ultimately dropped them for the <a data-keyword="true" href="https://www.eurogamer.net/games/cyberpunk-2077-phantom-liberty">Phantom Liberty</a> expansion that arrived in 2023.</p>
-<p><a href="https://www.eurogamer.net/the-witcher-4-dev-cd-projekt-red-talks-ciri-fan-reaction-playable-geralt-coyness-and-if-the-game-will-honour-your-previous-choices">Speaking with CDPR in a new interview this week</a>, Eurogamer asked whether the studio could reassure console owners that they could actually run it - and whether it could run on, say, an Xbox Series S, which as things stand is still required for any game releasing on the Xbox Series X. The developers were a little coy in response.</p>
-<p>"You know, first of all, this is good to say: this is not a kind of 'beginning of marketing' campaign," said <a data-keyword="true" href="https://www.eurogamer.net/games/the-witcher-4">The Witcher 4</a>'s game director, Sebastian Kalemba, referring to the trailer. "We firstly wanted to showcase and share with the entire world that: Ciri is the main protagonist; it's The Witcher 4; and she's mutated; and she's on The Path, definitely, right?"</p>
-<p>Rather than specifically referencing concerns about certain consoles, Kalemba elaborated a little more, but only went as far as to mention it would be coming to the key platforms more broadly.</p>
-<p>"The second thing is that, yes, we are working on a new engine right now, together with Epic's engineers, and there is a great synergy and a great collaboration between us. And currently we're working on Unreal Engine 5 and our custom build. And obviously we want to support all the platforms - meaning PC, Xbox and Sony, right? - but I cannot, right now, tell you more specifics regarding that."</p>
-<p>He also stressed for a second time that this trailer was just a technical showpiece and "good benchmark" for now.</p>
-<p>"For sure, it's definitely worth remembering [that for this] first time, we created the cinematic, pre-rendered, without post production piece, that we want to [show that we're] simply aspiring to achieve such quality in cinematics as much as possible. That's my opinion: it's a good benchmark."</p><p>The emphasis on this just being an early showcase, rather than a true 'beginning of marketing' campaign, brings to mind some comments from CDPR joint CEO Michał Nowakowski to Eurogamer recently, detailed more fully in our recent report on <a href="https://www.eurogamer.net/technical-ambition-optimism-and-timeframes-what-we-learned-about-the-witcher-4-from-speaking-to-cd-projekt-red">what we can expect from The Witcher 4</a>.</p>
-<p>Speaking to Eurogamer earlier this summer, Nowakowski explained that while Phantom Liberty had a more truncated, six-month marketing campaign before its launch, "for a new game, we would still expect a slightly longer - but not two-year - lasting campaign." (The two years it took for Cyberpunk 2077 was down to its delays, he explained, with the studio originally planning something closer to 12 to 18 months from its big Keanu Reeves moment at E3 to launch.)</p>
-<p>Nowakowski also referred to as a marketing "mass attack" being the main kick-off point for that less-than-two-year run up to launch. "Having said that, I want to stress: it doesn't mean we would not tease or drop some cool assets before [a full reveal]. Because the marketing campaign, slightly earlier before the launch of the game, that's different than the actual, say, 'mass attack'. Mass attack is when you announce the date, you start collecting the pre-orders and it really is that race from that point, that moment, to the moment you launch the game."</p>
-<p>For example, he continued at the time, "If I ask you, what do you know about The Witcher 4? The answer is not much, probably - yes, there's theories and so on. But there's nothing really specific. So we want to drop the crumbs here and there so that people - and the media as well - can, you know, pick up on it and try to figure out what it is we're trying to say this time. So that [is something] we can start doing a little bit earlier." That would involve aspects such as "having some video assets, or something to whet the appetite of the fans - not even to create the hype so much," he said, as to simply get the early conversations flowing.</p><p>More simply: it might be reasonable to infer that this first trailer would count as one of those "cool assets" releasing as an earlier tease - establishing we're playing as Ciri, and some basic foundations of lore such as her having become a fully fledged witcher - but still coming a little way before that roughly 18-month countdown.</p>
-<p>Coming back to the consoles, there's also some interesting context in the form of CDPR vice president of technology Charles Tremblay's comments to Eurogamer earlier this year. There, Tremblay noted that the studio's next game likely wouldn't launch on just PC. "I don't think this is a strategy we want to adopt right now. That being said, will it mean that we will have - let's say there were 20 platforms available - we'll have 20 at launch? Maybe not. But at least PC only, and then scattered, it's not necessarily the approach we want to go forward, for sure."</p>
-<p>He also noted that the studio now develops all of its games on the "lowest" spec hardware, such as consoles, at the same time as it does on PC, rather than its old method of working to PCs first and going backwards from there - one of the many causes for Cyberpunk's launch woes.</p>
-<p>Console versions "working super late" are now "unacceptable," he explained. "It's part of our process; we do the reviews on console so we know exactly where we are on all the platforms, [including] the lowest [spec] platform we have, rather than saying, 'PC's fine, we can go forward'."</p><p>With the process applied across all of the studio's upcoming games, it makes for an interesting situation with The Witcher 4. If the studio's hesitant to commit to its viability on current-gen platforms (albeit not ruling that out of course), and it also now develops games on the lowest-spec platforms alongside high end PCs, what might those platforms be here? Going from what CD Projekt Red's said so far, we might be waiting a fair bit longer to find out.</p>
-<p>In the meantime, our <a href="https://www.eurogamer.net/the-witcher-4-dev-cd-projekt-red-talks-ciri-fan-reaction-playable-geralt-coyness-and-if-the-game-will-honour-your-previous-choices">full interview with CD Projekt Red about The Witcher 4</a> has more crumbs of detail, while our report on <a href="https://www.eurogamer.net/technical-ambition-optimism-and-timeframes-what-we-learned-about-the-witcher-4-from-speaking-to-cd-projekt-red">the studio's technical ambition, optimism, and development timeframes</a> and our full long read on <a href="https://www.eurogamer.net/saving-cyberpunk-2077-how-cd-projekt-red-recovered-from-one-of-video-games-most-disastrous-launches">what went wrong with Cyberpunk 2077 and how the studio responded</a> offer plenty more context on how CDPR works today.</p></div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Path of Exile 2 Update 0.1.0e Brings Checkpoint Fast Travel and Much More]]></title>
-            <link>https://techraptor.net/gaming/news/path-of-exile-2-update-010e</link>
-            <guid>https://www.resetera.com/threads/path-of-exile-2-update-0-1-0e-brings-checkpoint-fast-travel-and-much-more.1064238/</guid>
-            <content:encoded><![CDATA[https://techraptor.net/gaming/news/path-of-exile-2-update-010e<br/><br/><div id="readability-page-1" class="page"><div><p>Grinding Gear Games has released&nbsp;<em>Path of Exile&nbsp;</em><em>2&nbsp;</em>update 0.1.0e, and it's designed to introduce several oft-requested quality-of-life features to the action RPG, including checkpoint fast travel and more.</p>
-
-<p>The update introduces the ability to travel between an area's checkpoints, and more checkpoints have also been added to areas "generally at all the entrances and exits", so traveling around an area should be a little less painful now.</p>
-
-<p>On the whole, this update is focused on adding lots of little changes to make your&nbsp;<em>Path of Exile 2&nbsp;</em>experience smoother, rather than one or two bigger additions. It's all in keeping with the promise made by Grinding Gear last week to&nbsp;<a href="https://techraptor.net/gaming/news/path-of-exile-2-devs-feedback-early-access" rel="nofollow">address user feedback and implement changes</a>.</p>
-<figure role="group"><picture><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/path-of-exile-2-update-0.1.0e-forest.jpg?itok=-Cr6spvP 1x" media="(min-width: 992px)" type="image/jpeg"><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/path-of-exile-2-update-0.1.0e-forest.jpg?itok=8tSksYdi 1x" media="(max-width: 991px)" type="image/jpeg"></picture><figcaption><em>Path of Exile 2</em>'s latest update adds a ton of quality-of-life features.</figcaption></figure><p>Various changes have been made to&nbsp;<em>Path of Exile 2</em>'s endgame content as well, and its monster balance has also been addressed. Monsters will now deal 40% less bonus damage from critical strikes, for instance, while higher-tier maps no longer have extra elemental resistance penalties.</p>
-
-<p>You'll also find a ton of changes to individual classes and skills, with lots of abilities' damage values and effects being changed to improve the difficulty curve.</p>
-
-<p>There are far too many tweaks in update 0.1.0e to list here, but you can check out the full&nbsp;<em>Path of Exile 2&nbsp;</em><a href="https://www.pathofexile.com/forum/view-thread/3645467" rel="nofollow" target="_blank">patch notes</a> if you want to read everything that's new. If you're a buildcraft hound, I'd recommend doing so.</p>
-
-<p>If you're not familiar with&nbsp;<em>Path of Exile 2</em>, it's an action RPG that serves as a followup to 2013's popular&nbsp;<em>Path of Exile</em>. Originally planned as a major expansion of the original game, it was instead <a href="https://techraptor.net/gaming/news/path-of-exile-2-will-be-standalone-game-closed-beta-date-gameplay-revealed" rel="nofollow">revealed to be a full sequel in July last year</a>.</p>
-
-
-
-
-<p>The sequel released in Early Access <a href="https://techraptor.net/gaming/news/path-of-exile-2-early-access-release-delayed" rel="nofollow">earlier this month</a>, proving so popular that its developers <a href="https://techraptor.net/gaming/news/path-of-exile-2-early-access-server-issues-warning" rel="nofollow">expressed concern</a> regarding whether or not the game's servers would be able to hold up. Luckily, it seems those issues didn't manifest to any significant degree at launch.</p>
-
-<p>You can check out&nbsp;<em>Path of Exile 2&nbsp;</em>right now on PC <a href="https://store.steampowered.com/app/2694490/Path_of_Exile_2/?curator_clanid=6754604&amp;utm_source=TechRaptor" rel="nofollow" target="_blank">via Steam Early Access</a>, as well as <a href="https://www.playstation.com/en-gb/games/path-of-exile-2/" rel="nofollow" target="_blank">PlayStation 5</a> and <a href="https://www.xbox.com/en-US/games/store/path-of-exile-2/9ND8N4RW5GHX" rel="nofollow" target="_blank">Xbox Series X|S</a>. If you want a sense of how this action RPG sequel is shaping up, you can take a look at our <a href="https://techraptor.net/gaming/previews/path-of-exile-2-hands-on-preview-pax-east-2024" rel="nofollow">pre-release hands-on preview right here</a>.</p>
-</div><div><p><span><div>
-       
-    <p>Joe has been writing for TechRaptor for several years, and in those years has learned a lot about the gaming industry and its foibles. He’s originally an… <a href="https://techraptor.net/author/joseph-allen">More about Joseph</a></p>
-  </div></span></p></div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Amazon’s ‘Secret Level’ Has Been Renewed for a Second Season]]></title>
-            <link>https://insider-gaming.com/secret-level-season-2/</link>
-            <guid>https://www.resetera.com/threads/amazon%E2%80%99s-%E2%80%98secret-level%E2%80%99-has-been-renewed-for-a-second-season.1064235/</guid>
-            <content:encoded><![CDATA[https://insider-gaming.com/secret-level-season-2/<br/><br/><div id="readability-page-1" class="page"><div>
-		
-<p>Amazon’s game-inspired animated anthology Secret Level has been renewed for a second season.</p>
-
-
-
-<p>First reported by <a href="https://variety.com/2024/tv/news/secret-level-season-2-amazon-prime-video-1236251726/" target="_blank" rel="noreferrer noopener nofollow">Variety</a>, Secret Level was Amazon’s most-watched animated series debut of all time, with an estimated 155.3 million minutes watched in the US alone, equalling around 1.4 million full 109-minute views. </p>
-
-
-
-<p>The outlet reports that although the series has been renewed for a second season, the games that will be covered are a closely-guarded secret for the moment.</p>
-
-
-
-<p>Season 1 of Secret Level included Dungeons and Dragons, Sifu, Pac-Man, Armored Core, The Outer Worlds, Concord, and more. The series’ cast included a star-studded cast, including Arnold Schwarzenegger, Kevin Hart, Keanu Reeves, Temuera Morrison, Ariana Greenblatt, Heaven Hart, Emily Swallow, Gabriel Luna, Ricky Whittle, Patrick Schwarzenegger, Merle Dandridge, Claudia Doumit, Adewale Akinnuoye-Agbaje, Clive Standen, Laura Bailey and Michael Beach.</p>
-
-
-
-<p>It’s said that series creator Tim Miller, who also directed the first Deadpool movie will continue for Season 2.</p>
-
-
-
-<p>Which games would you like to see in Secret Level season 2? Let us know in the comments or our&nbsp;<a href="https://insider-gaming.com/forum/threads/888/" target="_blank" rel="noreferrer noopener">community forum</a>!</p>
-
-
-
-<hr>
-
-
-
-<p>For more from Insider Gaming, read <a href="https://insider-gaming.com/borderlands-4-humor/" target="_blank" rel="noreferrer noopener">Borderlands 4 Will Cut Back on ‘Toilet Humor’ Says Gearbox</a>.<br></p>
-    <div id="ig-newsletter-holder">
-            <p><span>
-                    SUBSCRIBE to our newsletter to WIN PRIZES this Xmas and receive the latest news and exclusive leaks every week! No Spam.
-                </span>
-            </p>
-            
-        </div>
-
-	</div></div>]]></content:encoded>
         </item>
     </channel>
 </rss>
