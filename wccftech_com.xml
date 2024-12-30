@@ -4,9 +4,30 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Mon, 30 Dec 2024 11:06:06 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 30 Dec 2024 11:18:12 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Complete RT Shader 1.6 Promises 3x Faster Performance]]></title>
+            <link>https://wccftech.com/complete-rt-shader-1-6-promises-3x-faster-performance/</link>
+            <guid>https://www.resetera.com/threads/complete-rt-shader-1-6-promises-3x-faster-performance.1071171/</guid>
+            <content:encoded><![CDATA[https://wccftech.com/complete-rt-shader-1-6-promises-3x-faster-performance/<br/><br/><div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>Graphics modder NiceGuy has just updated his<a href="https://wccftech.com/rtgi-and-complete-rt-shaders-get-major-updates-with-sky-color/" target="_blank" rel="noopener"> Complete RT</a> ReShade shader to <a href="https://www.patreon.com/posts/complete-rt-1-6-118832379" target="_blank" rel="noopener">version 1.6</a>, claiming many improvements, such as up to three times faster performance.&nbsp;As shown in the video, running the Global Illumination mode at native resolution (100% on the slider) takes just 4ms versus the 13.5 ms of the previous Complete RT 1.5. This translates into much higher frame rates (71 FPS versus 49 FPS). Of course, this may vary depending on the game and the scene.</p>
+<p>There's more, as the internal upscaler has received several updates. CompleteRT is now capable of dynamically adjusting the Global Illumination resolution with floating-point scales from 33% to 100%, and it can even automatically match the rendering resolution when using all the industry-standard upscalers from NVIDIA (DLSS), AMD (FSR), Intel XeSS, and even Epic's own Unreal Engine TSR. Additionally, this reportedly helps with performance, reduces flickering, and improves overall quality.</p>
+<p>Complete RT's implementation of <a href="https://wccftech.com/unreal-engine-5-nvrtx-branch-has-been-updated-with-experimental-restir-gi-support/" target="_blank" rel="noopener">ReSTIR GI</a> was also enhanced. NiceGuy says both performance and quality have received an upgrade, and the accuracy is now close to the ground truth image. Lastly, the new shader has better specular reflections, too, thanks to a fix for the flickering that used to appear when using low roughness values. The precision of the reflections and their performance was also improved.</p>
+<p><iframe title="Complete RT 1.6 | Teaser Update: 3x faster RAY TRACING! better Upscaling &amp; ReSTIR GI, new NiceHancer" width="500" height="281" src="https://www.youtube.com/embed/O9gEk1j_j6Y?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+<p>NiceGuy also announced a brand new shader called eLITE RT. This is meant to be a much lighter screen space ray traced GI shader that could potentially run even on low-end or handheld hardware. The modder says he spent months of research and development on this project, essentially swapping priorities compared to Complete RT. While the latter focuses on quality while still targeting solid performance, eLITE RT focuses on performance while trying to achieve good quality.</p>
+<p>Both shaders are only available to his Patreon subscribers. While Complete RT is unlocked on the second tier, which costs $6 monthly, the new eLITE RT is currently only available for subscribers of the third tier, priced at $11.50 monthly. That's because it is still in beta and requires more testing and feedback; it will eventually be moved to the same tier of Complete RT once it's ready.</p>
+
+			
+		</div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Disney Wants More Indiana Jones Titles After the Massive Hype Brought in By Great Circle]]></title>
             <link>https://wccftech.com/disney-wants-more-indiana-jones-titles-after-the-massive-hype-brought-in-by-great-circle/</link>
