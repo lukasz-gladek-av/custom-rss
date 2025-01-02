@@ -4,21 +4,20 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Thu, 02 Jan 2025 20:20:34 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 02 Jan 2025 22:06:37 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Final Reminder: Donate today to win swag in our annual Charity Drive sweepstakes]]></title>
-            <link>https://arstechnica.com/gaming/2025/01/final-reminder-donate-today-to-win-swag-in-our-annual-charity-drive-sweepstakes-2/</link>
-            <guid>https://www.resetera.com/threads/final-reminder-donate-today-to-win-swag-in-our-annual-charity-drive-sweepstakes.1072785/</guid>
-            <content:encoded><![CDATA[https://arstechnica.com/gaming/2025/01/final-reminder-donate-today-to-win-swag-in-our-annual-charity-drive-sweepstakes-2/<br/><br/><div id="readability-page-1" class="page"><div>
+            <title><![CDATA[Someone made a CAPTCHA where you play Doom on Nightmare difficulty]]></title>
+            <link>https://arstechnica.com/gaming/2025/01/someone-made-a-captcha-where-you-play-doom-on-nightmare-difficulty/</link>
+            <guid>https://www.resetera.com/threads/someone-made-a-captcha-where-you-play-doom-on-nightmare-difficulty.1073034/</guid>
+            <content:encoded><![CDATA[https://arstechnica.com/gaming/2025/01/someone-made-a-captcha-where-you-play-doom-on-nightmare-difficulty/<br/><br/><div id="readability-page-1" class="page"><div>
           
           
-<h2>How it works</h2>
-<p>Donating is easy. Simply <a href="https://childsplay.salsalabs.org/Donate/index.html">donate to Child's Play</a> using a credit card or PayPal or <a href="http://eff.org/AT2014">donate to the EFF</a> using PayPal, credit card, or cryptocurrency. You can also support Child's Play directly by using <a href="https://my.onecause.com/fundraiser/organizations/8534d777-53ce-4d94-a537-c8e0cbb7acb0/fundraisers/fundraiser:ae0c129c-94ac-4e63-a265-20b71ac4bd03">this Ars Technica campaign page</a> or by picking an item from the Amazon wish list of a specific hospital on <a href="https://childsplaycharity.org/get-involved#hospital-map">its donation page</a>. Donate as much or as little as you feel comfortable with—every bit helps.</p>
-<p>Once that's done, it's time to register your entry in our sweepstakes. Just grab a digital copy of your receipt (a forwarded email, a screenshot, or simply a cut-and-paste of the text) and send it to <a href="mailto:ArsCharityDrive@gmail.com">ArsCharityDrive@gmail.com</a> with your name, postal address, daytime telephone number, and email address by 11:59 pm ET Thursday, January 2, 2025.</p>
-<p>One entry per person, and each person can only win up to one prize. US residents only. NO PURCHASE NECESSARY. <a href="https://arstechnica.com/2024-ars-technica-charity-drive-official-rules/">See the official rules</a> for more information, including how to enter without making a donation. Also, refer to the <a href="http://www.condenast.com/privacy-policy#privacypolicy">Ars Technica privacy policy (https://www.condenast.com/privacy-policy)</a>.</p>
-<p>We'll then contact the winners and have them choose their prize by January 31, 2025 (choosing takes place in the order the winners are drawn). Good luck!</p>
+<p>It's a WebAssembly application, but it was made via a human language, prompt-driven web development tool called <a href="https://v0.dev/">v0</a> that's part of a suite of features offered as part of Vercel, a cloud-based developer tool service, of which Rauch is the CEO. You can see the LLM bot chat history with the <a href="https://v0.dev/chat/4X85A52Dzde#vZBwKTIde4ZPopW5ExYEzIi38oM6vJzm">series of prompts</a> that produced this CAPTCHA game on the v0 website.</p>
+<p>Strangely enough, there has been a past attempt at making a <em>Doom</em> CAPTCHA. In 2021, developer Miquel Camps Orteza made <a href="https://vivirenremoto.github.io/doomcaptcha/">an approximation of one</a>—though not all the assets matched <em>Doom</em>, and it was more <em>Doom</em>-adjacent. That one was made directly by hand, and its source code is available on GitHub. Its developer noted that it's not secure; it's just for fun.</p>
+<p>Rauch's attempt is no more serious as a CAPTCHA, but it at least resembles <em>Doom</em> more closely.</p>
+<p>Don't expect to be playing this to verify at real websites anytime soon, though. It's not secure, and its legality is fuzzy at best. While the <a href="https://github.com/id-Software/DOOM">code</a> for <em>Doom</em> is open source, the assets from the game like enemy sprites and environment textures—which feature prominently in this application—are not.</p>
 
 
           
