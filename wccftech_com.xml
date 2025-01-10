@@ -4,9 +4,43 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Fri, 10 Jan 2025 12:53:42 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Jan 2025 13:09:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Lossless Scaling Frame Generation Gets 3.0 Beta Update, Reducing Artifacts and Improving Latency]]></title>
+            <link>https://wccftech.com/lossless-scaling-frame-generation-gets-3-0-beta-update-reducing-artifacts-and-improving-latency/</link>
+            <guid>https://www.resetera.com/threads/lossless-scaling-frame-generation-gets-3-0-beta-update-reducing-artifacts-and-improving-latency.1078926/</guid>
+            <content:encoded><![CDATA[https://wccftech.com/lossless-scaling-frame-generation-gets-3-0-beta-update-reducing-artifacts-and-improving-latency/<br/><br/><div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>The software Lossless Scaling has just <a href="https://store.steampowered.com/news/app/993090/view/527583114757669394?snr=1_5_9_" target="_blank" rel="noopener">received</a> a major update from developer THS. The Frame Generation component that was <a href="https://wccftech.com/lossless-scaling-adds-universal-frame-generation-feature/" target="_blank" rel="noopener">released</a> exactly one year ago has been upgraded to version 3.0 (beta), introducing what the developer has described as major improvements across the board in quality, latency, and performance.</p>
+<p>Flickering and border artifacts have been reduced, benefiting motion clarity and smoothness alike. GPU load has also shrunk by a sizable 40% compared to <a href="https://wccftech.com/lossless-scaling-universal-frame-generation-2-0-out-now-improves-efficiency-noticeably-reduces-artifacts/" target="_blank" rel="noopener">LSFG 2</a> x2 in non-Performance Mode, while multipliers above x2 have had their GPU load reduced by over 45% compared to the previous version of the software. Perhaps the most welcome enhancements are those in the latency area. According to the developer's latency test, Lossless Scaling Frame Generation 3.0 has 24% lower latency than 2.0.</p>
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2025/01/Picture5-HD-scaled.jpg"></a></figure>
+
+<p>There's more. This new release unlocks frame rate generation multipliers up to x20. However, the developer shared some recommendations to get optimal results:</p>
+<p><em>Base frame rate: A minimum of 30 FPS is required (40 FPS or higher is preferred, with 60 FPS being ideal) at 1080p. </em><em>For best overall experience, locking the game frame rate is recommended. This helps to avoid 100% GPU load (reducing its impact on latency) and ensures smoother frame pacing.</em></p>
+<p><em>For higher resolution, use at higher than recommended frame rates or use the "Resolution Scale" option to downscale input to 1080p:</em><br>
+<em>For 1440p, set it to 75%.</em><br>
+<em>For 4K, set it to 50%.</em></p>
+<p><em>Higher multipliers (e.g., X5 or above) are best suited for high refresh rate setups, such as:</em></p>
+<p><em>48 FPS × X5 for 240Hz.</em><br>
+<em>60 FPS × X6 for 360Hz.</em><br>
+<em>60 FPS × X8 for 480Hz.</em></p>
+<p>While new and recent PC games support natively integrated frame generation (and <a href="https://wccftech.com/nvidia-dlss-4-8x-faster-dlss-3-multi-frame-generation-enhanced-upscaling-rtx-20-above/" target="_blank" rel="noopener">multi-frame generation</a>) technologies from NVIDIA and/or AMD, older games can still benefit from this tool, especially when heavily modded.</p>
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2025/01/LSFGUI3-HD-scaled.jpg"></a></figure>
+
+<p>THS also announced that an opt-in Lossless Scaling User Interface 3.0 beta can now be selected by going into your Steam library, right-clicking on the software, selecting properties and then beta from the Betas tab. Last but not least, Windows 11 24H2 users can once again select the DXGI Capture API thanks to Microsoft's recent KB5046617 update.</p>
+
+			
+		</div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Nintendo Switch 2 Could Support Some Sort of Dynamic AI-Upscaling; Ports May Be Scaled Down From Xbox Series S Versions]]></title>
             <link>https://wccftech.com/nintendo-switch-2-dynamic-ai-upscaling-ports-xbox-series-s/</link>
