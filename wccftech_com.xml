@@ -4,9 +4,32 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Sat, 18 Jan 2025 10:30:34 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Jan 2025 10:44:06 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Skyrim Gets Dynamic Cloud Shadows Thanks to New Mod]]></title>
+            <link>https://wccftech.com/skyrim-gets-dynamic-cloud-shadows-thanks-to-new-mod/</link>
+            <guid>https://www.resetera.com/threads/skyrim-gets-dynamic-cloud-shadows-thanks-to-new-mod.1085865/</guid>
+            <content:encoded><![CDATA[https://wccftech.com/skyrim-gets-dynamic-cloud-shadows-thanks-to-new-mod/<br/><br/><div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>That Unreal Engine 5.5 recreation of The Elder Scrolls V: Skyrim we <a href="https://wccftech.com/skyrim-unreal-engine-5-5-remaster-lumen-nanite/" target="_blank" rel="noopener">covered</a> yesterday certainly looks cool, but it's not really practical. It's not optimized, for one thing, and it's also not really playable, being more of a proof-of-concept or a demo than anything else.</p>
+<p>Thankfully, there are plenty of options for anyone actually interested in playing the game with modernized graphics. The Community Shaders graphics enhancement suite recently made big advancements, such as the <a href="https://wccftech.com/skyrim-gets-true-pbr-with-community-shaders-1-0/" target="_blank" rel="noopener">introduction of Physically Based Rendering (PBR)</a>, and its development continues at an impressive pace.</p>
+<p>The newest feature released yesterday is called <a href="https://www.nexusmods.com/skyrimspecialedition/mods/139185" target="_blank" rel="noopener">Cloud Shadows</a>. As you might easily guess, it adds dynamic cloud shadows to Skyrim. According to author ProfJack (the same who released Terrain Shadows), who worked on Cloud Shadows with main Community Shaders author doodlum, it's a custom technique where cloud shadows are aligned to the sun and use the game's built-in cloud system. The clouds are rendered from the player's perspective, with the texture itself rendered as a side effect of the cubemap reflection rendering. Because of this, there are no additional draw calls that the GPU has to deal with.</p>
+<p>Cloud shadows are also used for volumetric lighting, so the sun's rays can be obscured. When clouds cover the ground, the player is shrouded in darkness. When the sun does pop between the clouds, though, the result can be striking, says ProfJack.</p>
+
+<figure></figure>
+
+<p>The Cloud Shadows CS feature is compatible with all weather mods, but it won't work perfectly with weather systems that 'fake' overcast clouds using the sky color. When it comes to Skyrim compatibility, this will work on all versions of the game: Special Edition, Anniversary Edition, and even on Skyrim VR. Based on what the author said, there shouldn't be any major performance drawbacks, which are always worth considering when adding a mod to the VR version.</p>
+
+			
+		</div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Nintendo Switch 2 Reveal Hit All the Right Notes, According to Analyst]]></title>
             <link>https://wccftech.com/nintendo-switch-2-reveal-hit-all-the-right-notes-according-to-analyst/</link>
