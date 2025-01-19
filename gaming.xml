@@ -4,9 +4,95 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Sun, 19 Jan 2025 20:19:12 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 19 Jan 2025 20:28:53 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[NVIDIA DLSS Boss Doesn’t Rule Out Possible Frame Generation Support for RTX 30 Series]]></title>
+            <link>https://wccftech.com/nvidia-dlss-boss-doesnt-rule-out-possible-frame-generation-support-for-rtx-30-series/</link>
+            <guid>https://www.resetera.com/threads/nvidia-dlss-boss-doesn%E2%80%99t-rule-out-possible-frame-generation-support-for-rtx-30-series.1086555/</guid>
+            <content:encoded><![CDATA[https://wccftech.com/nvidia-dlss-boss-doesnt-rule-out-possible-frame-generation-support-for-rtx-30-series/<br/><br/><div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>At CES 2025, Digital Foundry <a href="https://www.youtube.com/watch?v=uyxXRXDtcPA" target="_blank" rel="noopener">interviewed</a> Bryan Catanzaro, VP of Applied Deep Learning Research, about the announcement of <a href="https://wccftech.com/nvidia-dlss-4-8x-faster-dlss-3-multi-frame-generation-enhanced-upscaling-rtx-20-above/" target="_blank" rel="noopener">NVIDIA DLSS 4</a> and&nbsp;its many improvements to Super Resolution, Ray Reconstruction, and Frame Generation.</p>
+<p>Catanzaro talked about the new transformer models that are replacing CNN (convolutional neural networks) for Super Resolution and Ray Reconstruction. These are simply much smarter, can be trained on larger datasets and make better choices as a result, improving historic NVIDIA DLSS shortcomings like shimmering or ghosting. The new Super Resolution model, for instance, has four times more compute compared to the previous one. Catanzaro didn't provide an estimate on how much more rendering time it will cost, but he did say NVIDIA believes it's the best way to play on the new Blackwell-powered GeForce RTX 50 graphics cards that are launching later this month.</p>
+<p>Frame Generation is also being overhauled, abandoning the previous model based on the Optical Flow hardware accelerator for an entirely AI-powered solution. Here's why NVIDIA is doing that:</p>
+<p><em>When we built NVIDIA DLSS 3 Frame Generation, we absolutely needed hardware acceleration to compute Optical Flow. We didn't have enough Tensor Cores and we didn't have an Optical Flow algorithm that was good enough. We hadn't developed a real-time Optical Flow algorithm that ran on Tensor Cores that could fit our compute budget. We had the Optical Flow accelerator, which NVIDIA had been building for years as an evolution of our video encoder technology, and it's also been a part of our automotive computer vision acceleration for self-driving cars.</em></p>
+<p><em>It made sense for us to use that for NVIDIA DLSS 3 Frame Generation. But the difficult part about any sort of hardware implementation of an algorithm like Optical Flow is that it's really difficult to improve it. It is kind of what it is and the failures that arose from that hardware Optical Flow, we couldn't undo them with a smarter neural network until we decided to just replace it and go with a fully AI-based solution, so that's what we've done for Frame Generation in DLSS 4.</em></p>
+<p>The new Frame Generation model is heavier on Tensor Cores, but it uses less VRAM, offers improved image quality (which Catanzaro deemed critical, especially for the new Multi Frame Generation available on the new RTX 50 GPUs), and is also more efficient as the cost has been amortized over multiple frames.</p>
+
+<figure></figure>
+
+<p>DF's Alex Battaglia asked then whether the new model could be ported to older hardware like the GeForce RTX 30 Series, and the head of NVIDIA DLSS didn't close that door.</p>
+<p><em>I think this is primarily a question of optimization and also engineering and then the ultimate user experience. We're launching this Frame Generation, the best Multi Frame Generation technology, with the 50 Series, and we'll see what we're able to squeeze out of older hardware in the future.</em></p>
+<p>As a reminder, when NVIDIA introduced Frame Generation with the GeForce RTX 40 graphics cards, Catanzaro himself <a href="https://wccftech.com/nvidia-engineer-says-dlss-3-on-older-rtx-gpus-could-theoretically-happen-teases-rtx-i-o-news/" target="_blank" rel="noopener">explained</a> that the feature was exclusive to then-new GPUs because they had a much improved Optical Flow hardware accelerator than the RTX 30 Series. Back then, he also said it was theoretically possible to port it to older hardware, although it probably wouldn't be as beneficial.</p>
+<p>With the new model removing the Optical Flow hardware accelerator, it seems like the door might be open for that to happen. However, Catanzaro also said the Tensor Core requirements are higher, and obviously, the older GPU architecture has worse Tensor Core performance. We'll see if NVIDIA can really make it happen.</p>
+<p>Elsewhere in the interview, Bryan Catanzaro highlighted the importance of decoupling the updated flip metering from the CPU to reduce frame time variability (and, therefore, improve frame pacing) by a factor of five to ten compared to before. Last but not least, he claimed that playing a game with <a href="https://wccftech.com/nvidia-reflex-2-will-reduce-latency-in-games-by-up-to-75-coming-soon-to-the-finals-and-valorant/" target="_blank" rel="noopener">Reflex 2</a> (which is also AI-based) feels much more 'connected' and he believes that especially latency-sensitive gamers will love it.</p>
+<p>Stay tuned for more NVIDIA DLSS 4 coverage on Wccftech as we get closer to the launch of the new GeForce RTX 50 graphics cards.</p>
+
+			
+		</div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Marvel Snap Gets Caught Up In TikTok Ban, Currently Unavailable In The US]]></title>
+            <link>https://www.gamespot.com/articles/marvel-snap-gets-caught-up-in-tiktok-ban-currently-unavailable-in-the-us/1100-6528894/?ftag=CAD-01-10abi2f</link>
+            <guid>https://www.resetera.com/threads/marvel-snap-gets-caught-up-in-tiktok-ban-currently-unavailable-in-the-us.1086552/</guid>
+            <content:encoded><![CDATA[https://www.gamespot.com/articles/marvel-snap-gets-caught-up-in-tiktok-ban-currently-unavailable-in-the-us/1100-6528894/?ftag=CAD-01-10abi2f<br/><br/><div id="readability-page-1" class="page"><p>
+    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
+  </p><article itemscope="" data-type-id="1100" data-guid="1100-6528894">
+
+            
+            
+  
+
+
+        
+
+  
+
+
+        
+        
+              <section>
+
+                  
+          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
+                <p>Marvel Snap was made unavailable in the US shortly after the TikTok ban went into effect on January 19. This was presumably because the game's publisher, Nuverse, was owned at the time of its release by TikTok parent company Bytedance. However, TikTok has now come back online, but Marvel Snap hasn't yet.</p><p>"Unfortunately, Marvel Snap is temporarily unavailable in U.S. app stores and is unavailable to play in the US. This outage is a surprise to us and wasn't planned," said <a href="https://x.com/seconddinner/status/1880861537981944300?ref_src=twsrc%5Etfw" data-target="true" target="_blank" rel="noopener nofollow">Marvel Snap developer Second Dinner</a>. "Marvel Snap isn’t going anywhere. We’re actively working on getting the game up as soon as possible and will update you once we have more to share."</p><figure data-align="center" data-size="large" data-img-src="https://www.gamespot.com/a/uploads/original/1646/16465123/4430142-image_2025-01-19_140012780.png" data-ref-id="1300-4430142" data-ratio="2.1686746987952" data-width="332" data-embed-type="image"><a href="https://www.gamespot.com/a/uploads/original/1646/16465123/4430142-image_2025-01-19_140012780.png" data-ref-id="1300-4430142"></a><figcaption>Marvel Snap has also disappeared from app stores and even if you have it installed, you can't currently play it.</figcaption><img src="https://www.gamespot.com/a/uploads/original/1646/16465123/4430142-image_2025-01-19_140012780.png"></figure><p>In under 24 hours since its ban in the US, <a href="https://x.com/tiktokpolicy/status/1881030712188346459?s=46&amp;fbclid=IwY2xjawH6KBpleHRuA2FlbQIxMAABHTeGSycEs2MFkZgSe5pnEyfEg21riV6-1KpBT9fGgEAhlDJj-SDIODWdcA_aem_G-ZYXJlvWXJlPsa5NZQ4sQ" data-target="true" target="_blank" rel="noopener nofollow">TikTok has restored service</a>. Marvel Snap, at this time, however, is still unavailable for US players. It's unknown when and if the game will come back online.</p><p>Last week, the <a href="https://www.gamespot.com/articles/united-states-supreme-court-upholds-tiktok-ban/1100-6528877/" data-ref-id="1100-6528877">US Supreme Court voted to uphold</a> the ban of TikTok and the app subsequently shut its service down in the country. Bytedance <a href="https://www.gamespot.com/articles/marvel-snap-publisher-suffers-layoffs-could-shut-down-report/1100-6519484/" data-ref-id="1100-6519484">previously divested from Nuverse</a> in 2023, so it's unclear why Marvel Snap went offline in the US or if it was intentional.</p><p>Marvel Snap has been a success, both critically and commercially. The free-to-play card game reportedly made <a href="https://www.gamespot.com/articles/marvel-snap-made-2-million-in-first-week-report/1100-6508694/" data-ref-id="1100-6508694">2 million in revenue during its first week after launch</a>. In GameSpot's <a href="https://www.gamespot.com/reviews/marvel-snap-review-mccgu/1900-6417991/" data-ref-id="1900-6417991">Marvel Snap review</a>, we said, "Marvel Snap is an elegantly simple and inventive approach to digital CCGs that emphasizes adaptation and creativity."</p>
+  
+                        
+    
+        
+        
+  
+                                  </div>
+
+          
+        
+                              
+            <span>
+        <a itemprop="reviewer" href="https://plus.google.com/115776530127739146123?rel=author">George Yang</a> on Google+
+      </span>
+      
+                    
+  
+    
+          
+            
+  <div>
+    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
+
+    
+      </div>
+        
+      </section>
+    
+            
+    </article></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Never-before-seen Astro Bot level debuts at weekend PlayStation Tournament]]></title>
             <link>https://www.eurogamer.net/never-before-seen-astro-bot-level-debuts-at-weekend-playstation-tournament</link>
@@ -329,7 +415,7 @@ Image credit:          <cite>Activision</cite>
             <title><![CDATA[Kai Cenat And Mark Phillips Among Streamers Named In Drake's Lawsuit Against UMG]]></title>
             <link>https://kotaku.com/kai-cenat-mark-phillips-drake-kendrick-not-like-us-1851742975</link>
             <guid>https://www.resetera.com/threads/kai-cenat-and-mark-phillips-among-streamers-named-in-drakes-lawsuit-against-umg.1086390/</guid>
-            <content:encoded><![CDATA[https://kotaku.com/kai-cenat-mark-phillips-drake-kendrick-not-like-us-1851742975<br/><br/><div id="readability-page-1" class="page"><div><p>That <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://www.theroot.com/drakes-label-umg-responds-to-his-lawsuit-with-the-most-1851741323?_gl=1*1myq97s*_ga*NjkwMjIzMzYzLjE3MzEwNzE2NTU.*_ga_V4QNJTT5L0*MTczNzIwMTgxNC41Mi4xLjE3MzcyMDM1ODguNjAuMC4w&quot;,{&quot;metric25&quot;:1}]]" href="https://www.theroot.com/drakes-label-umg-responds-to-his-lawsuit-with-the-most-1851741323?_gl=1*1myq97s*_ga*NjkwMjIzMzYzLjE3MzEwNzE2NTU.*_ga_V4QNJTT5L0*MTczNzIwMTgxNC41Mi4xLjE3MzcyMDM1ODguNjAuMC4w">Drake filed an official defamation lawsuit against Universal Music Group</a></span> (UMG), accusing the company of spreading the false narrative that he is a pedophile through Kendrick Lamar’s now-legendary diss track, “<span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://www.theroot.com/kendrick-lamar-finally-opens-up-about-the-true-meaning-1851677609&quot;,{&quot;metric25&quot;:1}]]" href="https://www.theroot.com/kendrick-lamar-finally-opens-up-about-the-true-meaning-1851677609">Not Like Us</a></span>” has annoyed many in the Hip-Hop community.</p><div><h4>Suggested Reading</h4></div><div data-video-id="197298" data-monetizable="true" data-position="sidebar" data-video-title="Live Forever in the Universe of 'New World: Aeternum'" data-video-blog-id="9" data-video-network="kotaku" data-video-duration="108" data-playlist="197298,197284,197260" data-current="197298"><div><p>Live Forever in the Universe of 'New World: Aeternum'</p></div><video disablepictureinpicture="" muted="" playsinline="" width="100%" height="100%" crossorigin="anonymous" preload="none"><source data-src="https://vid.kinja.com/prod/197298/197298_240p.mp4" label="240p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/197298/197298_480p.mp4" label="480p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/197298/197298_720p.mp4" label="720p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/197298/197298_1080p.mp4" label="1080p" type="video/mp4"></video></div><div><h4>Suggested Reading</h4></div><p>But a group of individuals who happen to be named deep in the complaint are particularly annoyed. On pages 52 and 53 of the <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://storage.courtlistener.com/recap/gov.uscourts.nysd.635046/gov.uscourts.nysd.635046.1.0_1.pdf&quot;,{&quot;metric25&quot;:1}]]" href="https://storage.courtlistener.com/recap/gov.uscourts.nysd.635046/gov.uscourts.nysd.635046.1.0_1.pdf" target="_blank" rel="noopener noreferrer">lengthy suit</a></span>, the Toronto rapper’s attorneys name several content creators and alleged that UMG allowed these personalities to monetize reactions to Lamar’s diss track without enforcing copyright claims.</p><p>Drake believes that this helped spread the false claims that he’s a child predator and is an example of the company prioritizing money over the 6-God’s reputation.</p><p>The content creators implicated in the suit are some of the most popular online. They include <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://www.theroot.com/from-offset-to-chris-brown-to-kevin-hart-kai-cenat-is-1851706462&quot;,{&quot;metric25&quot;:1}]]" href="https://www.theroot.com/from-offset-to-chris-brown-to-kevin-hart-kai-cenat-is-1851706462">Kai Cenat</a></span>, NoLifeShaq, RDC Gaming, Cartier Family, and Zias.</p><p>Their reactions to Lamar’s diss track garnered millions of views, with the lowest gaining 2 million (Cartier Family) and the highest gaining 9 million (Kai Cenat).</p><h2 id="h196"><a id=""></a><strong>Reactions from content creators</strong></h2><p>Naturally, the creators named (and many who weren’t) are unhappy with Drizzy and have criticized him on social media and other online platforms.</p><p>The loudest may have been No Life Shaq, who posted a 10-minute long YouTube video titled, “DRAKE SNITCHED ON ME!”</p><p>In the video, he says, “This n***a Drake done snitched on the reaction community! N***a we chillin’, having fun, and you got us listed in a case? This gotta be the softest n***a ever, dog.”</p><p><span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://www.tiktok.com/t/ZT2excKoA/&quot;,{&quot;metric25&quot;:1}]]" href="https://www.tiktok.com/t/ZT2excKoA/" target="_blank" rel="noopener noreferrer">RDC Gaming responded while on stream </a></span>by simply saying, “One thing I learned in my life is this dawg… The biggest ‘Ls’ come from not knowing how to take an ‘L.’ Some n****s just got a take an L and move on.”</p><p>Zias likely had the most explosive reaction when he learned that he was named in the lawsuit, and even jokingly called a lawyer on stream to let them know that he was counter-suing Drake.</p><p>Now, remember these are just reactions from people named in the suit. Several other content creators who reacted to “Not Like Us” (and Drake’s diss tracks) shared similar sentiments and continued criticizing the Toronto rapper for his decision to name content creators in his suit. </p><h2 id="h197"><a id=""></a><strong>Reaction from social media</strong></h2><p><strong>&nbsp;</strong>Frustrated hip-hop fans on X pointed out that Drake only named Black streamers who reacted to “Not Like Us, and not the white ones.</p><p><span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://x.com/AllKeeks/status/1879908832530551147&quot;,{&quot;metric25&quot;:1}]]" href="https://x.com/AllKeeks/status/1879908832530551147" target="_blank" rel="noopener noreferrer">One user wrote</a></span>, “HOLD UP LOL I just realized Drake snitched on the Black streamers that reacted to his video and not the white ones lol.”</p><p><span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://x.com/_Zeets/status/1879714231161114627&quot;,{&quot;metric25&quot;:1}]]" href="https://x.com/_Zeets/status/1879714231161114627" target="_blank" rel="noopener noreferrer">Another user added</a></span>, “Drake named all the Black streamers in his case and now he’s doing sweepstakes with Adin Ross.”</p><p>This just adds to the long list of reasons why Drake should not have taken legal action and we are seeing in real-time the consequences of his actions, going back to nearly a year ago when he begged Lamar to “<span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://www.youtube.com/results?search_query=push+ups+drake&quot;,{&quot;metric25&quot;:1}]]" href="https://www.youtube.com/results?search_query=push+ups+drake" target="_blank" rel="noopener noreferrer">drop, drop, drop, dro</a></span>p.”</p><p><em>This story originally appeared on The Root, our sister site, on January 18.</em></p><p>.</p></div></div>]]></content:encoded>
+            <content:encoded><![CDATA[https://kotaku.com/kai-cenat-mark-phillips-drake-kendrick-not-like-us-1851742975<br/><br/><div id="readability-page-1" class="page"><div><p>That <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://www.theroot.com/drakes-label-umg-responds-to-his-lawsuit-with-the-most-1851741323?_gl=1*1myq97s*_ga*NjkwMjIzMzYzLjE3MzEwNzE2NTU.*_ga_V4QNJTT5L0*MTczNzIwMTgxNC41Mi4xLjE3MzcyMDM1ODguNjAuMC4w&quot;,{&quot;metric25&quot;:1}]]" href="https://www.theroot.com/drakes-label-umg-responds-to-his-lawsuit-with-the-most-1851741323?_gl=1*1myq97s*_ga*NjkwMjIzMzYzLjE3MzEwNzE2NTU.*_ga_V4QNJTT5L0*MTczNzIwMTgxNC41Mi4xLjE3MzcyMDM1ODguNjAuMC4w">Drake filed an official defamation lawsuit against Universal Music Group</a></span> (UMG), accusing the company of spreading the false narrative that he is a pedophile through Kendrick Lamar’s now-legendary diss track, “<span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://www.theroot.com/kendrick-lamar-finally-opens-up-about-the-true-meaning-1851677609&quot;,{&quot;metric25&quot;:1}]]" href="https://www.theroot.com/kendrick-lamar-finally-opens-up-about-the-true-meaning-1851677609">Not Like Us</a></span>” has annoyed many in the Hip-Hop community.</p><div><h4>Suggested Reading</h4></div><div data-video-id="197298" data-monetizable="true" data-position="sidebar" data-video-title="Live Forever in the Universe of 'New World: Aeternum'" data-video-blog-id="9" data-video-network="kotaku" data-video-duration="108" data-playlist="197298,197284,197260" data-current="197298"><div><p>Live Forever in the Universe of 'New World: Aeternum'</p></div><video disablepictureinpicture="" muted="" playsinline="" width="100%" height="100%" crossorigin="anonymous" preload="none"><source data-src="https://vid.kinja.com/prod/197298/197298_240p.mp4" label="240p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/197298/197298_480p.mp4" label="480p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/197298/197298_720p.mp4" label="720p" type="video/mp4"><source data-src="https://vid.kinja.com/prod/197298/197298_1080p.mp4" label="1080p" type="video/mp4"></video></div><div><h4>Suggested Reading</h4></div><p>But a group of individuals who happen to be named deep in the complaint are particularly annoyed. On pages 52 and 53 of the <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://storage.courtlistener.com/recap/gov.uscourts.nysd.635046/gov.uscourts.nysd.635046.1.0_1.pdf&quot;,{&quot;metric25&quot;:1}]]" href="https://storage.courtlistener.com/recap/gov.uscourts.nysd.635046/gov.uscourts.nysd.635046.1.0_1.pdf" target="_blank" rel="noopener noreferrer">lengthy suit</a></span>, the Toronto rapper’s attorneys name several content creators and alleged that UMG allowed these personalities to monetize reactions to Lamar’s diss track without enforcing copyright claims.</p><p>Drake believes that this helped spread the false claims that he’s a child predator and is an example of the company prioritizing money over the 6-God’s reputation.</p><p>The content creators implicated in the suit are some of the most popular online. They include <span><a data-ga="[[&quot;Embedded Url&quot;,&quot;Internal link&quot;,&quot;https://www.theroot.com/from-offset-to-chris-brown-to-kevin-hart-kai-cenat-is-1851706462&quot;,{&quot;metric25&quot;:1}]]" href="https://www.theroot.com/from-offset-to-chris-brown-to-kevin-hart-kai-cenat-is-1851706462">Kai Cenat</a></span>, NoLifeShaq, RDC Gaming, Cartier Family, and Zias.</p><p>Their reactions to Lamar’s diss track garnered millions of views, with the lowest gaining 2 million (Cartier Family) and the highest gaining 9 million (Kai Cenat).</p><h2 id="h317493"><a id=""></a><strong>Reactions from content creators</strong></h2><p>Naturally, the creators named (and many who weren’t) are unhappy with Drizzy and have criticized him on social media and other online platforms.</p><p>The loudest may have been No Life Shaq, who posted a 10-minute long YouTube video titled, “DRAKE SNITCHED ON ME!”</p><p>In the video, he says, “This n***a Drake done snitched on the reaction community! N***a we chillin’, having fun, and you got us listed in a case? This gotta be the softest n***a ever, dog.”</p><p><span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://www.tiktok.com/t/ZT2excKoA/&quot;,{&quot;metric25&quot;:1}]]" href="https://www.tiktok.com/t/ZT2excKoA/" target="_blank" rel="noopener noreferrer">RDC Gaming responded while on stream </a></span>by simply saying, “One thing I learned in my life is this dawg… The biggest ‘Ls’ come from not knowing how to take an ‘L.’ Some n****s just got a take an L and move on.”</p><p>Zias likely had the most explosive reaction when he learned that he was named in the lawsuit, and even jokingly called a lawyer on stream to let them know that he was counter-suing Drake.</p><p>Now, remember these are just reactions from people named in the suit. Several other content creators who reacted to “Not Like Us” (and Drake’s diss tracks) shared similar sentiments and continued criticizing the Toronto rapper for his decision to name content creators in his suit. </p><h2 id="h317494"><a id=""></a><strong>Reaction from social media</strong></h2><p><strong>&nbsp;</strong>Frustrated hip-hop fans on X pointed out that Drake only named Black streamers who reacted to “Not Like Us, and not the white ones.</p><p><span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://x.com/AllKeeks/status/1879908832530551147&quot;,{&quot;metric25&quot;:1}]]" href="https://x.com/AllKeeks/status/1879908832530551147" target="_blank" rel="noopener noreferrer">One user wrote</a></span>, “HOLD UP LOL I just realized Drake snitched on the Black streamers that reacted to his video and not the white ones lol.”</p><p><span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://x.com/_Zeets/status/1879714231161114627&quot;,{&quot;metric25&quot;:1}]]" href="https://x.com/_Zeets/status/1879714231161114627" target="_blank" rel="noopener noreferrer">Another user added</a></span>, “Drake named all the Black streamers in his case and now he’s doing sweepstakes with Adin Ross.”</p><p>This just adds to the long list of reasons why Drake should not have taken legal action and we are seeing in real-time the consequences of his actions, going back to nearly a year ago when he begged Lamar to “<span><a data-ga="[[&quot;Embedded Url&quot;,&quot;External link&quot;,&quot;https://www.youtube.com/results?search_query=push+ups+drake&quot;,{&quot;metric25&quot;:1}]]" href="https://www.youtube.com/results?search_query=push+ups+drake" target="_blank" rel="noopener noreferrer">drop, drop, drop, dro</a></span>p.”</p><p><em>This story originally appeared on The Root, our sister site, on January 18.</em></p><p>.</p></div></div>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Our Reactions To The Switch 2 Reveal And More Of The Week's Takes]]></title>
@@ -797,58 +883,6 @@ Image credit:          <cite>Rock Paper Shotgun/Endnight Games</cite>
 <p>If you make the mistake of ever coming back to land, there are apparently impprovements to aiming with the crossbow, compound bow, crafted bow, shotgun and slingshot, all of which you'll see while scrabbling to survive against the cannibals.
 </p>
 <p>The full <a href="https://store.steampowered.com/news/app/1326470/view/526458302147592280">patch notes are available over on Steam</a>. We already liked the game plenty when it hit 1.0 early last year, as Matt Cox (RPS in peace) explained in his <a href="https://www.rockpapershotgun.com/sons-of-the-forest-review">Sons Of The Forest review</a>.</p></div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Genshin Impact maker will pay a $20 million fine to settle FTC charges that allege they misled players about lootbox odds]]></title>
-            <link>https://www.rockpapershotgun.com/genshin-impact-maker-will-pay-a-20-million-fine-to-settle-ftc-charges-that-allege-they-misled-players-about-lootbox-odds</link>
-            <guid>https://www.resetera.com/threads/genshin-impact-maker-will-pay-a-20-million-fine-to-settle-ftc-charges-that-allege-they-misled-players-about-lootbox-odds.1086195/</guid>
-            <content:encoded><![CDATA[https://www.rockpapershotgun.com/genshin-impact-maker-will-pay-a-20-million-fine-to-settle-ftc-charges-that-allege-they-misled-players-about-lootbox-odds<br/><br/><div id="readability-page-1" class="page"><div data-component="article-header">
-  
-
-    <div>
-  
-
-        <p>They'll also be banned from selling lootboxes to teens under 16</p>
-
-    </div>
-
-
-  <p>
-  <figure>
-  <a href="https://assetsio.gnwcdn.com/genshin-impact-caution-in-confidence-june-2023.jpg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
-  
-  </a>
-
-      <figcaption>
-        <span>
-Image credit:          <cite>HoYoverse</cite>
-        </span>
-      </figcaption>
-  </figure>
-  </p>
-
-    
-
-</div><div data-component="article-content">
-
-
-
-            <p><a data-keyword="true" href="https://www.rockpapershotgun.com/games/genshin-impact">Genshin Impact</a>'s developers have agreed to pay a $20 million (around £16.4m) fine to settle charges brought by the US Federal Trade Commission. The FTC allege that HoYoverse "unfairly marketed loot boxes to children that obscured real costs and misled all players about the odds of obtaining prizes." HoYoverse will also be banned from selling lootboxes to children under 16 without parental consent.
-</p>
-<!--more-->
-<p>The <a href="https://www.ftc.gov/system/files/ftc_gov/pdf/cognosphere_complaint.pdf">complaint</a> (PDF) alleges that Genshin Impact's warren of different currencies is "challenging and confusing, particularly for children and teens.
-</p>
-<p>"Players must exchange real dollars for bundles of virtual currency that then have to be re-exchanged multiple times to open loot boxes, with exchange rates in unusual denominations. This complicated system, according to the complaint, misleads consumers about the amount of money that players spend on loot boxes on an ongoing basis, and the amount of money that players would likely need to spend to obtain certain prizes."
-</p>
-<p>The same complaint also alleges that HoYoverse collected personal information about children in violation of the Children's Online Privacy Protection Rule (COPPA). 
-</p>
-<p>The allegation that Genshin Impact misleads children about the odds of winning "Five-Star Prizes" in part relates to the Event Banners and "influencer campaigns", which the FTC says "give players the impression that they will have better odds of obtaining the five-star prize being promoted than they have in reality."
-</p>
-<p>The ruling which would see HoYoverse pay the fine, delete the data held about children aged under 13, and no longer sell lootbnoxes to children under 16, requires approval by a federal judge before it can go into effect.
-</p>
-<p>"Genshin Impact deceived children, teens, and other players into spending hundreds of dollars on prizes they stood little chance of winning," said Samuel Levine, Director of the FTC’s Bureau of Consumer Protection in a <a href="https://www.ftc.gov/news-events/news/press-releases/2025/01/genshin-impact-game-developer-will-be-banned-selling-lootboxes-teens-under-16-without-parental">press release</a>. "Companies that deploy these dark-pattern tactics will be held accountable if they deceive players, particularly kids and teens, about the true costs of in-game transactions."
-</p>
-<p>You love to see it. </p></div></div>]]></content:encoded>
         </item>
     </channel>
 </rss>

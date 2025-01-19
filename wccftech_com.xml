@@ -4,9 +4,39 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Sun, 19 Jan 2025 20:19:12 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 19 Jan 2025 20:28:53 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[NVIDIA DLSS Boss Doesn’t Rule Out Possible Frame Generation Support for RTX 30 Series]]></title>
+            <link>https://wccftech.com/nvidia-dlss-boss-doesnt-rule-out-possible-frame-generation-support-for-rtx-30-series/</link>
+            <guid>https://www.resetera.com/threads/nvidia-dlss-boss-doesn%E2%80%99t-rule-out-possible-frame-generation-support-for-rtx-30-series.1086555/</guid>
+            <content:encoded><![CDATA[https://wccftech.com/nvidia-dlss-boss-doesnt-rule-out-possible-frame-generation-support-for-rtx-30-series/<br/><br/><div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>At CES 2025, Digital Foundry <a href="https://www.youtube.com/watch?v=uyxXRXDtcPA" target="_blank" rel="noopener">interviewed</a> Bryan Catanzaro, VP of Applied Deep Learning Research, about the announcement of <a href="https://wccftech.com/nvidia-dlss-4-8x-faster-dlss-3-multi-frame-generation-enhanced-upscaling-rtx-20-above/" target="_blank" rel="noopener">NVIDIA DLSS 4</a> and&nbsp;its many improvements to Super Resolution, Ray Reconstruction, and Frame Generation.</p>
+<p>Catanzaro talked about the new transformer models that are replacing CNN (convolutional neural networks) for Super Resolution and Ray Reconstruction. These are simply much smarter, can be trained on larger datasets and make better choices as a result, improving historic NVIDIA DLSS shortcomings like shimmering or ghosting. The new Super Resolution model, for instance, has four times more compute compared to the previous one. Catanzaro didn't provide an estimate on how much more rendering time it will cost, but he did say NVIDIA believes it's the best way to play on the new Blackwell-powered GeForce RTX 50 graphics cards that are launching later this month.</p>
+<p>Frame Generation is also being overhauled, abandoning the previous model based on the Optical Flow hardware accelerator for an entirely AI-powered solution. Here's why NVIDIA is doing that:</p>
+<p><em>When we built NVIDIA DLSS 3 Frame Generation, we absolutely needed hardware acceleration to compute Optical Flow. We didn't have enough Tensor Cores and we didn't have an Optical Flow algorithm that was good enough. We hadn't developed a real-time Optical Flow algorithm that ran on Tensor Cores that could fit our compute budget. We had the Optical Flow accelerator, which NVIDIA had been building for years as an evolution of our video encoder technology, and it's also been a part of our automotive computer vision acceleration for self-driving cars.</em></p>
+<p><em>It made sense for us to use that for NVIDIA DLSS 3 Frame Generation. But the difficult part about any sort of hardware implementation of an algorithm like Optical Flow is that it's really difficult to improve it. It is kind of what it is and the failures that arose from that hardware Optical Flow, we couldn't undo them with a smarter neural network until we decided to just replace it and go with a fully AI-based solution, so that's what we've done for Frame Generation in DLSS 4.</em></p>
+<p>The new Frame Generation model is heavier on Tensor Cores, but it uses less VRAM, offers improved image quality (which Catanzaro deemed critical, especially for the new Multi Frame Generation available on the new RTX 50 GPUs), and is also more efficient as the cost has been amortized over multiple frames.</p>
+
+<figure></figure>
+
+<p>DF's Alex Battaglia asked then whether the new model could be ported to older hardware like the GeForce RTX 30 Series, and the head of NVIDIA DLSS didn't close that door.</p>
+<p><em>I think this is primarily a question of optimization and also engineering and then the ultimate user experience. We're launching this Frame Generation, the best Multi Frame Generation technology, with the 50 Series, and we'll see what we're able to squeeze out of older hardware in the future.</em></p>
+<p>As a reminder, when NVIDIA introduced Frame Generation with the GeForce RTX 40 graphics cards, Catanzaro himself <a href="https://wccftech.com/nvidia-engineer-says-dlss-3-on-older-rtx-gpus-could-theoretically-happen-teases-rtx-i-o-news/" target="_blank" rel="noopener">explained</a> that the feature was exclusive to then-new GPUs because they had a much improved Optical Flow hardware accelerator than the RTX 30 Series. Back then, he also said it was theoretically possible to port it to older hardware, although it probably wouldn't be as beneficial.</p>
+<p>With the new model removing the Optical Flow hardware accelerator, it seems like the door might be open for that to happen. However, Catanzaro also said the Tensor Core requirements are higher, and obviously, the older GPU architecture has worse Tensor Core performance. We'll see if NVIDIA can really make it happen.</p>
+<p>Elsewhere in the interview, Bryan Catanzaro highlighted the importance of decoupling the updated flip metering from the CPU to reduce frame time variability (and, therefore, improve frame pacing) by a factor of five to ten compared to before. Last but not least, he claimed that playing a game with <a href="https://wccftech.com/nvidia-reflex-2-will-reduce-latency-in-games-by-up-to-75-coming-soon-to-the-finals-and-valorant/" target="_blank" rel="noopener">Reflex 2</a> (which is also AI-based) feels much more 'connected' and he believes that especially latency-sensitive gamers will love it.</p>
+<p>Stay tuned for more NVIDIA DLSS 4 coverage on Wccftech as we get closer to the launch of the new GeForce RTX 50 graphics cards.</p>
+
+			
+		</div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Wccftech’s Most Anticipated Sports and Racing Games of 2025 – In The Fast Lane]]></title>
             <link>https://wccftech.com/wccftechs-most-anticipated-sports-and-racing-games-of-2025-in-the-fast-lane/</link>
