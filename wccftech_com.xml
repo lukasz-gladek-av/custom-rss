@@ -4,9 +4,31 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Fri, 31 Jan 2025 11:54:19 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 31 Jan 2025 12:10:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Skyrim Gets Free DLSS Frame Generation Mod]]></title>
+            <link>https://wccftech.com/skyrim-gets-free-dlss-frame-generation-mod/</link>
+            <guid>https://www.resetera.com/threads/skyrim-gets-free-dlss-frame-generation-mod.1096788/</guid>
+            <content:encoded><![CDATA[https://wccftech.com/skyrim-gets-free-dlss-frame-generation-mod/<br/><br/><div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>It's been nearly two years since PureDark started <a href="https://wccftech.com/dlss-3-mod-for-tes-v-skyrim-is-out-now-alpha-build/" target="_blank" rel="noopener">releasing</a> his DLSS Frame Generation mods with The Elder Scrolls V: Skyrim. While the regular DLSS mod is available for free, the Frame Generation one was locked to his Patreon subscribers.</p>
+<p>At last, the Community Shaders team has <a href="https://www.nexusmods.com/skyrimspecialedition/mods/140199" target="_blank" rel="noopener">released</a> a free version of DLSS FG for Skyrim. This is based on the NVIDIA Streamline plugin; however, due to a long-standing DX11 bug that exists for DLSS FG and Reflex, NVIDIA's technology isn't actually lowering the latency. According to the CS team, this isn't a big issue if your frame rate is already running over 60 frames per second, though, of course, they still hope NVIDIA will eventually fix that bug.</p>
+<p>There are a few more caveats. The mod does not support Skyrim VR (you've got space warp there, which they say is even better), is not compatible with the SSE ReShade Helper mod, and also isn't fully compatible with ReShade itself. From the mod's description:</p>
+<p><em>Effects will run twice as slow, and depth effects are not supported. Basic effects are fine.</em></p>
+<p>To ensure that everything is working as intended, you'll need to set the frame rate limit via SSE Display Tweaks (which is also a requirement) to half your refresh rate (rounded down).</p>
+<p>The Community Shaders team acknowledged the sudden release of <a href="https://wccftech.com/nvidia-adds-smooth-motion-a-driver-based-frame-generation-ai-model-for-rtx-50-gpus/" target="_blank" rel="noopener">NVIDIA Smooth Motion</a> as a potential better way to add frame generation for the new GeForce RTX 50 Series graphics cards; however, this mod remains useful for GeForce RTX 40 Series owners.</p>
+<p>As a reminder, the Community Shaders suite was recently updated with some major graphics enhancements for Skyrim, such as <a href="https://wccftech.com/skyrim-gets-true-pbr-with-community-shaders-1-0/" target="_blank" rel="noopener">support for Physically Based Rendering (PBR)</a>, <a href="https://wccftech.com/skyrim-gets-dynamic-cloud-shadows-thanks-to-new-mod/" target="_blank" rel="noopener">dynamic cloud shadows and skylighting</a>, just to name a few. There's more on the way, too, including a fix to unlock the amount of draw calls so that more of these graphics features can be enabled at once without crashes.</p>
+
+			
+		</div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Alan Wake 2 RTX Mega Geometry Comparison Video Highlights Significant Performance and VRAM Usage Improvements, Even On RTX 40 Series]]></title>
             <link>https://wccftech.com/alan-wake-2-rtx-mega-geometry-performance-vram-improvements/</link>
