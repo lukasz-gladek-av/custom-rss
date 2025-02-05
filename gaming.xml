@@ -4,9 +4,229 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Wed, 05 Feb 2025 13:09:58 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 05 Feb 2025 13:24:46 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Marvel’s Spider-Man 2 on PC – Is it really a public menace?]]></title>
+            <link>https://www.thesixthaxis.com/2025/02/05/spider-man-2-pc-review/</link>
+            <guid>https://www.resetera.com/threads/marvel%E2%80%99s-spider-man-2-on-pc-%E2%80%93-is-it-really-a-public-menace.1100745/</guid>
+            <content:encoded><![CDATA[https://www.thesixthaxis.com/2025/02/05/spider-man-2-pc-review/<br/><br/><div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>Spider-Man 2 had a bit of a rough landing on PC last week, the game getting <a href="https://www.thesixthaxis.com/2025/02/01/spider-man-2-pc-port-gets-a-rough-reception-over-performance-and-graphical-issues/">a resoundingly ‘mixed’ reception</a> in the community-led Steam reviews, but is it really as bad as that made it sound?</p>
+<p>With <a href="https://www.thesixthaxis.com/2025/02/04/second-spider-man-2-pc-hotfix-targets-crashes-frame-rate-blockers-and-missing-achievements/">two hotfix updates</a> on either side of the weekend, the most significant game crashing bugs should have been stamped out already, and awareness over the need to install the latest GPU drivers (even the sneaky optional ones) has also spread. That should leave performance as the main bugbear to address,</p>
+<p><iframe title="Marvel’s Spider-Man 2 - Launch Trailer | PC Games" width="780" height="439" src="https://www.youtube.com/embed/HdzlOQoG8TE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+
+
+<p>We’ve tested the game across two configurations. For one it’s a Ryzen 5900X paired with a Radeon RX 6800, and in the other a Ryzen 5800X with a GeForce RTX 3070, both combinations that’s are step ahead of the base PS5 and one dose of PSSR behind the PS5 Pro for the RX 6800. From the system requirements table, it’s good for 1440p at high graphics settings, without ray tracing, but from a couple hours of experimentation, it’s far more capable and flexible than that.</p>
+<p>The first hurdle before getting into the game, though, was needing to update the graphics drivers. The most recent standard drivers from AMD are from December 2024, but Spider-Man 2 support comes in the “optional” 25.1.1 update that isn’t offered up by default in the Radeon software. Without that you get a mean looking warning screen when trying to launch the game!</p>
+
+<p>But once in the game and with the default 1440p and high preset, the game runs at a nice and pretty much locked 60fps, thanks in no small part to the excellent dynamic resolution scaling used to hit a frame rate target, using any of FSR, DLSS, XeSS or Insomniac’s own IGTI to upscale. Disable dynamic resolutions and upscaling and the RX 6800 still does a solid job of staying above 60, only really dipping to the mid-high 50s during the most stressful moments.</p>
+
+<p>Adding ray tracing into the mix – there’s settings for ray-traced reflections, interiors, shadows and ambient occlusion, as well as object range, and Nvidia’s ray reconstruction &nbsp;– and that naturally pushes things harder. Without upscaling, performance on the RX 6800 with ‘High’ ray tracing at 1440p dropped the lower parts of the curve to the 40s, while ‘Very High’ is better thought of as a 30fps mode here – it often clings to the upper 20s.</p>
+<p>It is worth it, if you have a beefy enough GPU. The ‘High’ preset is amusingly named as the minimum bar for ray tracing effects, adding RT reflections and RT interiors for the game’s cunning building interior trick. The problem is that it’s a rather fuzzy looking effect that shimmers a lot on window edges and affects even the shiny chrome on cars, regardless of resolution or upscaling technique. Once you switch to ‘Very High’ the reflection quality is improved dramatically, but you also get RT shadows and RT ambient occlusion, which much better place objects in the world. Still, bumping up just RT reflections to Very High is the most impactful improvement.</p>
+
+<p>If performance is on the cusp, you can step the resolution down to 1080p and get a bit of a frame rate bump, or just let the dynamic resolution take over with a target of 60fps, maintaining the 1440p highs for whenever the engine can handle it, and making up the difference with upscaling.</p>
+<p>It’s a similar story with the RTX 3070, where 60fps is readily achievable on the ‘High’ preset without ray tracing, though the introduction of ‘High’ ray tracing seems to come at a greater cost than that seen with the RX 6800, dropping into the 30s when the on-screen action is at its most hectic – we’d suspect that the 8GB of VRAM on this card is having an impact here, in tandem with DirectStorage using the GPU to decompress textures from the SSD.</p>
+<p>Either way there’s still greater headroom and more incremental control in Spider-Man 2 on PC to outperform the base PS5 version, and the PS5 Pro update, if your rig is capable of it. That’s similar to that found in the PC port of the original Spider-Man, but it’s fair to say that the baseline has been raised.</p>
+<p>One of the great things about Spider-Man 2 is being able to quickly toggle between all manner of graphical settings with a rendered scene shown in the background of the menu. It is near instantaneous when toggling on PS5 Pro, but on PC and with so many hardware variables, it triggers a shader recompilation step with any significant changes – if you don’t let these process, there can also be shader compilation hitches during gameplay, and it will take a while for RT effects to actually start rendering.</p>
+
+		
+		<div id="gallery-1"><dl>
+			<dt>
+				<a href="https://www.thesixthaxis.com/2025/02/05/spider-man-2-pc-review/spider-man-2-pc-scraper-off/" data-slb-active="1" data-slb-asset="1463934084" data-slb-internal="456732" data-slb-group="456638"></a>
+			</dt>
+				<dd id="gallery-1-456732">
+				RT Off
+				</dd></dl><dl>
+			<dt>
+				<a href="https://www.thesixthaxis.com/2025/02/05/spider-man-2-pc-review/spider-man-2-pc-scraper-rth/" data-slb-active="1" data-slb-asset="60743749" data-slb-internal="456730" data-slb-group="456638"></a>
+			</dt>
+				<dd id="gallery-1-456730">
+				RT High
+				</dd></dl><dl>
+			<dt>
+				<a href="https://www.thesixthaxis.com/2025/02/05/spider-man-2-pc-review/spider-man-2-pc-scraper-rtvh/" data-slb-active="1" data-slb-asset="1200821715" data-slb-internal="456733" data-slb-group="456638"></a>
+			</dt>
+				<dd id="gallery-1-456733">
+				RT Very High
+				</dd></dl><dl>
+			<dt>
+				<a href="https://www.thesixthaxis.com/2025/02/05/spider-man-2-pc-review/spider-man-2-pc-scraper-rtu/" data-slb-active="1" data-slb-asset="553273672" data-slb-internal="456731" data-slb-group="456638"></a>
+			</dt>
+				<dd id="gallery-1-456731">
+				RT Ultimate
+				</dd></dl><br>
+		</div>
+
+<p>While it comes with a performance cost, I would definitely recommend at least turning on ray traced reflections. There’s fewer fallback cube map reflections in Spider-Man 2, since playing without RT is not an option on PS5. Cars do have a minimal skybox reflection, but there’s basically no reflections on building windows and sky scrapers, making them look very flat and lifeless when the mirror-like buildings are so much a part of New York’s identity.</p>
+<p>In general, we haven’t found anywhere near the kinds of issues that have seen the game receive a wash of negative reviews on Steam. Some of those were due to game crashes that a hotfix was released to address by the weekend, while others complained about performance. Of course, we’ve been talking and playing with 60fps in mind throughout here, purely from the age and specs of our GPUs, but anyone with an RTX 4080, RTX 4090, or Radeon 7900 XT is going to be expecting frame rates pushing toward triple figures, and that colours the perspective.</p>
+<p>In our experience, you’re not relying too heavily on dynamic resolutions and upscaling to high the graphics presets provided by Sony, but there’s plenty of scope to tweak settings and apply some upscaling to get core ray tracing features and a solid 60fps performance that matches or betters the game on PS5. All in all, Spider-Man 2 on PC has proven to be a reliable performer in both of our use cases.</p>
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Ninja Gaiden 2 Black – Five Essential Techniques to Master the Game]]></title>
+            <link>https://wccftech.com/how-to/ninja-gaiden-2-black-five-essential-techniques-to-master-the-game/</link>
+            <guid>https://www.resetera.com/threads/ninja-gaiden-2-black-%E2%80%93-five-essential-techniques-to-master-the-game.1100742/</guid>
+            <content:encoded><![CDATA[https://wccftech.com/how-to/ninja-gaiden-2-black-five-essential-techniques-to-master-the-game/<br/><br/><div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>Ninja Gaiden 2 has been long considered among the finest character action games ever released, but a complete newcomer to the series will hardly feel the same when playing any of the game's iterations, including the recently released <a href="https://wccftech.com/review/ninja-gaiden-2-black-the-edge-of-the-dragon-sword/">Ninja Gaiden 2 Black</a>. The game developed by Team NINJA is unlike action games from other studios like Devil May Cry or Bayonetta, as it is a game that pushes players to play as optimally as possible, not just to hit high scores as in the Bayonetta series but to actually survive combat encounters, which can get hectic fast.</p>
+<p>As such, the best way to understand the brilliance of the Ninja Gaiden 2 Black experience is to learn and master the game, starting with some essential techniques that will help you during your first playthrough and teach you how to handle the game's many challenges to take on higher difficulty settings.</p>
+<h2>Stand Your Ground</h2>
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2025/02/20250127184908_1-scaled.jpg"></a></figure>
+
+<p>Unlike other action games, blocking in Ninja Gaiden 2 Black is an extremely powerful defensive technique that is way more effective than dodging in the vast majority of combat scenarios. As such, don't hesitate to keep the block button pushed down as enemies come at you, as you will be able to negate all damage safely. Sometimes, your guard may be broken, but you can easily avoid damage by pushing the left stick in the direction you want to dodge. Blocking will also become available as soon as the dodging animation is complete, allowing you to continue negating damage.</p>
+<p>By just defending, however, you aren't going to defeat your enemies, so you should use blocking to learn enemy patterns and unleash combos and special techniques when it is safe to do so. Think of offense and defense in Ninja Gaiden 2 as in a fighting game, where some moves are safe on block and some aren't.</p>
+<h2>Master Flying Swallow and Izuna Drop</h2>
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2025/02/20250205135242_1-scaled.jpg"></a></figure>
+
+<p>While each weapon has tons of combos and special techniques, which are further expanded with upgrades, there are some techniques that are absolutely essential to master. The first one is the Flying Swallow, a special aerial attack that can be used by jumping and pressing heavy attack and a direction to safely attack enemies and quickly reposition if needed. The second one is the iconic Izuna Drop, which is unleashed with select weapons by launching an enemy in the air and hitting them with three light attacks and one heavy attack. What makes this technique so useful is the fact that it instantly kills enemies.</p>
+<p>The best thing about these two techniques is that they are available for use right from the very beginning of the game, as it is possible to perform them with Ryu's starting weapon, the Dragon Sword. They can be used with other weapons as well, so experiment with them to find which works best for you.</p>
+<h2>Take Advantage of Ninpo Spells' Invincibility</h2>
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2025/02/20250205135610_1-scaled.jpg"></a></figure>
+
+<p>Ninpo Spells are another important part of Ryu Hayabusa's arsenal in Ninja Gaiden 2 Black, as they can be used to unleash some rather powerful attacks. What makes them more useful than they may look at a glance is the invincibility some of them grant before the spell goes off. Use this invincibility window to get some heat off of you.</p>
+<h2>Learn When to Use Ultimate Techniques Properly</h2>
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2025/02/20250205135327_1-scaled.jpg"></a></figure>
+
+<p>Ultimate Techniques are among the least used combat techniques in Ninja Gaiden 2 Black by beginners, as they can be difficult to use properly with little knowledge of enemies' patterns and abilities as they require charging. However, you really should learn how to use them properly if you want to truly master the game, as they are extremely powerful and they can clear enemy groups in very little time.</p>
+<p>The best way to use Ultimate Techniques properly is to start charging them when there's Essence floating around, which speeds up the charging process considerably once absorbed. As such, you will want to not absorb the resource right after an enemy is defeated, and there are two ways to do this: you either keep yourself away from it as much as possible, or you keep blocking. Position yourself properly by jumping and then blocking as soon as you land, start charging your Ultimate Attack, and watch your enemies explode in a glorious, gory mess.</p>
+<h2>Watch and Adapt</h2>
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2025/02/20250129191059_1-scaled.jpg"></a></figure>
+
+<p>Despite the general high speed of the experience, Ninja Gaiden 2 Black wants players to really look at enemies and not just to learn their attack patterns. After dealing some damage, Ryu may cut limbs from enemies, which not only limits their abilities, although they get access to desperate and damaging new attacks,&nbsp; but makes them susceptible to dismemberment, which can be accomplished by hitting them with a heavy attack. Given how important it is to reduce enemy numbers as quickly as possible, always keep an eye on the enemy's current state, and unleash insta-kill attacks as soon as possible!</p>
+
+			
+		</div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[EA Boss Willing to Move Battlefield Release Date to Account for 'Nuanced Year Relative to Competition' (*Cough* GTA 6 *Cough*)]]></title>
+            <link>https://www.ign.com/articles/ea-boss-willing-to-move-battlefield-release-date-to-account-for-nuanced-year-relative-to-competition-cough-gta-6-cough</link>
+            <guid>https://www.resetera.com/threads/ea-boss-willing-to-move-battlefield-release-date-to-account-for-nuanced-year-relative-to-competition-cough-gta-6-cough.1100736/</guid>
+            <content:encoded><![CDATA[https://www.ign.com/articles/ea-boss-willing-to-move-battlefield-release-date-to-account-for-nuanced-year-relative-to-competition-cough-gta-6-cough<br/><br/><div id="readability-page-1" class="page"><section data-cy="article-content"><p data-cy="paragraph">2025 looks like a stacked year for triple-A video games. Not only do we have the launch of the <a data-cy="styled-link" href="https://www.ign.com/articles/nintendo-says-its-taking-all-possible-measures-to-beat-switch-2-scalpers">Nintendo Switch 2</a> and its exclusive games to contend with, but we’ve got a long list of big hitters set for later in 2025, such as <a data-cy="styled-link" href="https://www.ign.com/games/borderlands-4">Borderlands 4</a>, <a data-cy="styled-link" href="https://www.ign.com/games/mafia-the-old-country">Mafia: The Old Country</a>, and <a data-cy="styled-link" href="https://www.ign.com/games/ghost-of-yotei">Ghost of Yōtei</a>. And then there’s the inevitable new Call of Duty from Activision, no doubt set for October or November.</p><p data-cy="paragraph">But the big one is Rockstar’s guaranteed behemoth <a data-cy="styled-link" href="https://www.ign.com/games/grand-theft-auto-vi">Grand Theft Auto 6</a>, which is still down for release in fall 2025 on PlayStation 5 and Xbox Series X and S. Will it be delayed? Parent company Take-Two is so far sticking to the fall 2025 release window, but it’s that uncertainty coupled with all the other huge shooters coming out that means EA’s <a data-cy="styled-link" href="https://www.ign.com/articles/first-official-look-at-new-battlefield-gameplay-as-ea-reveals-battlefield-labs">Battlefield</a> may face a tricky job carving out some space for itself.</p><p data-cy="paragraph">EA has the next Battlefield down for its 2026 fiscal year, which means before April 2026. That’s prime GTA 6 territory right there, and maybe even prime Call of Duty and Borderlands 4 territory. So, how much does EA have to consider release dates from competing games when it comes to working out when to launch Battlefield?</p><p data-cy="paragraph">A fair bit, EA CEO Andrew Wilson admitted in a recent financial call — and it may even be willing to delay Battlefield if it has to.</p><p data-cy="paragraph">“Certainly we exist in a competitive marketplace,” Wilson said in response to a question from an analyst on this exact topic. “I've had the great fortune to be in this company for 25 years and we have done a great job of competing with all of our great franchises over time.</p><p data-cy="paragraph">“That being said, we've invested more in this Battlefield than any Battlefield before. We have four studios. We've had a meaningful amount of time. We're looking for this to be the biggest Battlefield we've ever made. And we of course want to make sure that we launch that into a window where we can deliver on the fullness of the promise of what Battlefield can be and grow the community to a level that is commensurate with the size of the game that we're making.</p><p data-cy="paragraph">“I do believe that this year might be a nuanced year relative to competition. There may be some things happening in the year that may cause us to think differently about our launch timing. We have an FY 26 launch window that the team is targeting. We believe the game will be great and ready at that time, but if we got close to that timeframe and believed that this wasn't going to be a great window for us, then we would take a look at what an alternate window might be that would give us the appropriate time, energy, and player acquisition opportunity for this Battlefield to be all that it needed to be.”</p><output data-cy="article-slideshow"><div data-cy="slideshow-view-trigger"><h3 data-cy="slideshow-preview-title">99 Details in the GTA 6 Trailer - Slideshow</h3></div></output><p data-cy="paragraph">As it stands, the new Battlefield will be out before April 2026. Let’s say November 2025 (Battlefield 2042 came out November 2021 and Battlefield 5 came out November 2018). What if GTA 6 launches in or around then? Perhaps EA will, in response, push Battlefield back to the first quarter of 2026, still making its fiscal year.</p><p data-cy="paragraph">But what if it intends to release Battlefield Q1 2026 already, and then Rockstar announces a GTA 6 delay to Q1 2026? Could EA bring Battlefield forward? Or maybe it would, in that case, push Battlefield out of the fiscal year and into the next. That would be a big decision, but based on Wilson's comments, something EA is prepared for.</p><p data-cy="paragraph">You can see why EA, and, we’ve heard, many other third-party publishers are holding their breath as they wait for Rockstar to announce the news the entire industry is hanging on: the GTA 6 release date. Once that’s out in the open, whether it’s for this fall as planned or a delay into 2026, all the other pieces will fall no doubt into place.</p><p data-cy="paragraph"><em>Wesley is the UK News Editor for IGN. Find him on Twitter at @wyp100. You can reach Wesley at wesley_yinpoole@ign.com or confidentially at wyp100@proton.me.</em></p></section></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[EA Says Madden and FC Might Find ‘Real Energy’ on Nintendo Switch 2]]></title>
+            <link>https://www.ign.com/articles/ea-says-madden-and-fc-might-find-real-energy-on-nintendo-switch-2</link>
+            <guid>https://www.resetera.com/threads/ea-says-madden-and-fc-might-find-%E2%80%98real-energy%E2%80%99-on-nintendo-switch-2.1100730/</guid>
+            <content:encoded><![CDATA[https://www.ign.com/articles/ea-says-madden-and-fc-might-find-real-energy-on-nintendo-switch-2<br/><br/><div id="readability-page-1" class="page"><section data-cy="article-content"><p data-cy="paragraph">As you’d expect, EA is eyeing the Nintendo Switch 2 as a platform for its games. In a recent financial call, CEO Andrew Wilson was asked directly about Nintendo’s next-gen console, and he replied to suggest the company has plans to release many of its games there.</p><p data-cy="paragraph">Wilson singled out EA's money-spinning sports franchises, Madden and FC, as potentially finding “real energy” on Nintendo Switch 2, and also pointed to The Sims as a game that could do well on the console.</p><p data-cy="paragraph">“Anytime a new console comes into the marketplace that's of a benefit to us, it gives us the ability to access and acquire new players,” Wilson said. “Typically, we've had franchises perform very well on Nintendo platforms. Certainly our expectation is that products like FC and Madden and others might find real energy on the platform as they have done in the past.</p><p data-cy="paragraph">“When you think about something like The Sims and the My Sims cozy bundle, which performed well ahead of our expectations, 50% of all players were new to EA. That represents a great opportunity for us. </p><p data-cy="paragraph">“So again, nothing in our models at this juncture, but our expectation is that anytime a great new console comes in the marketplace that gives us access to new players and new communities, that we have the IP that will benefit from that.”</p><p data-cy="paragraph">While it comes as little surprise to hear the likes of Madden and FC will be released on Nintendo Switch 2, fans will be wondering what version of those games they can expect on the console. Historically, EA has released what it calls “legacy” versions of FIFA on Nintendo Switch, but in recent years it has aimed for feature parity for the rebranded FC franchise. Given the Switch 2 will be a more powerful console than its predecessor, perhaps FC 26, say, will be closer to the FC 26 on PlayStation, Xbox, and PC.</p><p data-cy="paragraph">Now <a data-cy="styled-link" href="https://www.ign.com/articles/nintendo-finally-reveals-its-next-gen-console-confirms-switch-2-name">Nintendo has announced the Switch 2</a>, we’re starting to build a picture of what to expect on it in terms of games. There is <a data-cy="styled-link" href="https://www.ign.com/articles/all-the-games-reportedly-set-for-release-on-nintendo-switch-2">a long list of rumored third-party titles coming to the console</a>, and in an interview with IGN, <a data-cy="styled-link" href="https://www.ign.com/articles/civilization-7-dev-firaxis-remains-coy-on-nintendo-switch-2-mouse-joy-con">Civilization 7 developer Firaxis called Switch 2’s apparent Joy-Con mouse mode "definitely intriguing</a>." French video game and accessories maker Nacon, publisher of the likes of Greedfall 2, Test Drive Unlimited, and RoboCop: Rogue City, <a data-cy="styled-link" href="https://www.ign.com/articles/nintendo-switch-2-expected-between-april-and-september-2025-greedfall-publisher-says">has said it has Switch 2 games ready to go</a>. The long-awaited Hollow Knight: Silksong is also rumored to be set for Switch 2.</p><p data-cy="paragraph">As for Nintendo, we know it’s working on <a data-cy="styled-link" href="https://www.ign.com/articles/mario-kart-9-every-character-track-and-vehicle-confirmed-for-the-nintendo-switch-2-game">a new Mario Kart</a>. Expect to find out more at a <a data-cy="styled-link" href="https://www.ign.com/articles/nintendo-switch-2-direct-announced-for-april">Nintendo Direct in April</a>.</p><p data-cy="paragraph"><em>Wesley is the UK News Editor for IGN. Find him on Twitter at @wyp100. You can reach Wesley at wesley_yinpoole@ign.com or confidentially at wyp100@proton.me.</em></p></section></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Apex Legends Isn’t Doing the Business for EA, So It’s Making Apex Legends 2.0 to Come Out After Battlefield]]></title>
+            <link>https://www.ign.com/articles/apex-legends-isnt-doing-the-business-for-ea-so-its-making-apex-legends-20-to-come-out-after-battlefield</link>
+            <guid>https://www.resetera.com/threads/apex-legends-isn%E2%80%99t-doing-the-business-for-ea-so-it%E2%80%99s-making-apex-legends-2-0-to-come-out-after-battlefield.1100727/</guid>
+            <content:encoded><![CDATA[https://www.ign.com/articles/apex-legends-isnt-doing-the-business-for-ea-so-its-making-apex-legends-20-to-come-out-after-battlefield<br/><br/><div id="readability-page-1" class="page"><section data-cy="article-content"><p data-cy="paragraph">As Respawn’s battle royale <a data-cy="styled-link" href="https://www.ign.com/games/apex-legends">Apex Legends</a> nears its sixth birthday, EA has said it’s failing to do the business for the company, and outlined plans for what it called Apex Legends 2.0.</p><p data-cy="paragraph">Speaking in a financial call on its third quarter results, EA said that Apex Legends net bookings (revenue) were down year-over-year, but performed in-line with the company’s expectations.</p><p data-cy="paragraph">During a question and answers session with analysts, EA CEO Andrew Wilson was asked for an update on the performance of Apex Legends, and his response was clear: Apex Legends is a huge game with millions of players, but it’s simply not making enough money for EA.</p><p data-cy="paragraph">“Apex is probably one of the great new launches in our industry over the last decade and has been loved by that core cohort and we've had over 200 million people play the game,” Wilson began. “However, the trajectory of the business of that franchise has not been headed in the direction that we have wanted for some time. We have been trying, tuning, and testing many things in the context of the ongoing support of the community.</p><p data-cy="paragraph">“As we think about Apex today, I really think about the development happening across three core vectors. The first is how do we continue to support this incredible community that plays the game day-in and day-out, which numbers tens of millions of people, and that's both quality-of-life, anti-cheat, and all of the things that make the core experience great as well as the creation of new content for that community.</p><p data-cy="paragraph">“And we continue to try and test and develop more and great content for that community. And I would say we have seen some progress in that, but probably not as much as we would have liked.”</p><p data-cy="paragraph">So, what’s EA going to do to turn Apex Legends around in financial terms? Wilson said it’s working on a major update to the game, what he called Apex Legends 2.0, that sounds designed to reinvigorate the franchise, bring more people into the game, and, yes, make more money.</p><p data-cy="paragraph">However, Wilson said he doesn’t want to release Apex Legends 2.0 on top of <a data-cy="styled-link" href="https://www.ign.com/articles/first-official-look-at-new-battlefield-gameplay-as-ea-reveals-battlefield-labs">the next Battlefield</a>, which is due out before April 2026. It’ll come out after that, so, probably, at some point during EA’s 2027 fiscal year ending March 2027.</p><p data-cy="paragraph">“We do believe there will be a time where we need to do a more meaningful update of Apex as a broad game experience, and the team is diligently working on that,” Wilson said. “You should imagine we probably wouldn't drop that on top of a Battlefield launch. And so from a timing standpoint, our thinking right now is that that would exist post-Battlefield.</p><p data-cy="paragraph">“And then on a longer-term time horizon, again, these franchises that exist at this level and have this much fan love don't come along all that often. What I think we've demonstrated as a company is an ability to build franchises that last 10, 20, 30 years and growing. </p><p data-cy="paragraph">“Our expectation is that Apex will also be one of those franchises and that sometime on a longer-term time horizon, there will be an even bigger, more meaningful update to that broader game experience, an Apex 2.0, if you will. This will not be the final incarnation of Apex.</p><p data-cy="paragraph">“So the team remains incredibly committed. We continue to invest behind the core community who continues to play, that numbers in the tens of millions of players. We do believe that there should be a more major update that will probably happen after a Battlefield launch just in terms of timing, and the team is diligently working through what that would be.</p><p data-cy="paragraph">“And then longer-term, our expectation is that we'll continue to expand what this franchise is and how we support a core community of highly competitive players and new communities that want to come and experience all the greatness that Apex has to offer.”</p><p data-cy="paragraph">Apex Legends 2.0 sounds a bit like what Activision tried with Call of Duty battle royale Warzone, which rebooted somewhat with a 2.0 version in 2022. The jury is still out on whether that was the right move, with fans of the free-to-play shooter often reminiscing about Warzone as it was in the first two years of its life. The situation with Apex Legends is different, of course, but EA will be mindful of how its competitors in the battle royale market have fared as they work to grow its player base.</p><p data-cy="paragraph">Speaking of which, Apex Legends remains one of the top-played games on Steam via concurrent player count (Microsoft and Sony do not make player numbers public). However, it is well past its peak on Valve’s platform, and is on a trajectory to hit record lows.</p><p data-cy="paragraph"><em>Wesley is the UK News Editor for IGN. Find him on Twitter at @wyp100. You can reach Wesley at wesley_yinpoole@ign.com or confidentially at wyp100@proton.me.</em></p></section></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Get Immortals Of Aveum And 7 Other Games For Just $12 At Humble This Month]]></title>
+            <link>https://www.gamespot.com/articles/get-immortals-of-aveum-and-7-other-games-for-just-12-at-humble-this-month/1100-6529163/?ftag=CAD-01-10abi2f</link>
+            <guid>https://www.resetera.com/threads/get-immortals-of-aveum-and-7-other-games-for-just-12-at-humble-this-month.1100724/</guid>
+            <content:encoded><![CDATA[https://www.gamespot.com/articles/get-immortals-of-aveum-and-7-other-games-for-just-12-at-humble-this-month/1100-6529163/?ftag=CAD-01-10abi2f<br/><br/><div id="readability-page-1" class="page"><p>
+    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
+  </p><article itemscope="" data-type-id="1100" data-guid="1100-6529163">
+
+            
+            
+  
+
+
+        
+
+  
+
+
+        
+        
+              <section>
+
+                  
+          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
+                <p>Humble has revealed its February 2025 Humble Choice lineup of PC games, giving subscribers a selection of classic and recently released titles to check out. If you're unfamiliar with it, <a href="https://clicks.trx-hub.com/xid/fandom_32094_gamespot?q=https%3A%2F%2Fhumblebundleinc.sjv.io%2Fc%2F1804712%2F2059850%2F25796%3FsubId1%3Dsubid_value%26u%3Dhttps%3A%2F%2Fwww.humblebundle.com%2Fmembership&amp;p=https%3A%2F%2Fwww.gamespot.com%2Farticles%2Fkick-off-2025-with-8-games-for-just-12-at-humble-this-month%2F1100-6528685%2F&amp;event_type=click&amp;trx-iid=iid1738317477392hgb" data-target="true" target="_blank" rel="noopener nofollow">Humble Choice is a $12 monthly subscription service</a> that offers a monthly batch of PC games that are yours to keep forever, even if you cancel your membership. You'll also get several other benefits, like exclusive discounts at the Humble store and access to the Humble Vault--an additional rotating library of games exclusive to members.</p><h2>Humble Choice February 2025 Games</h2><ul><li>Immortals of Aveum</li><li>Trepang 2</li><li>Total War: Pharoah Dynasties</li><li>Fabledom</li><li>Griftlands</li><li>Tales and Tactics</li><li>Naheulbeuk's Dungeon Master</li><li>My Little Universe</li></ul><p><strong>Immortals of Aveum</strong> is the big draw this month, as this first-person fantasy game is a fun combo of magic and action. Sadly, <a href="https://www.gamespot.com/articles/immortals-of-aveum-devs-address-its-struggles-truly-awful-idea-in-todays-market/1100-6521037/">it didn't set the world on fire when it was first released</a>, but if you're looking for a AAA single-player shooter that offers exciting challenges, tons of lore to explore, and breathtaking visuals, then you'll want to check out this underrated gem.</p><p>Another fun--and gory--FPS game available through Humble Choice this month is <strong>Trepang 2</strong>. It's a fast-paced shooter that lets you unleash an arsenal of powers against enemies, as you can utilize super-speed, intangibility, and super-strength to bulldoze your way through anything standing in your way. For something a little bit more cerebral, you can command ancient armies in <strong>Total War: Pharoah Dynasties</strong>, and <strong>Fabletown</strong> is a relaxing game where you can build the fairy-tale kingdom of your dreams.</p><p>You can also pick up the deck-building roguelike <strong>Griftlands</strong> this month while <strong>Tales and Tactics</strong> is a blender of genres like squad-based auto-battling, strategy, and roguelike elements. Sticking with fantasy, <strong>Dungeon Master</strong> is a fun satire of tabletop gaming, and <strong>My Little Universe</strong> takes you to the stars for a session of sci-fi survival.</p><p>As a reminder, all these games are available at no additional to Humble Choice members as part of their $12/month subscription. You can sign up now and gain immediate access to them all, and they're yours to download and keep forever. You'll also get all the other membership perks, including the Humble Vault and exclusive Humble Store discounts. As an additional goodwill bonus, 5% of every Humble Choice membership is donated to charity, and this month, proceeds will go to the United Negro College Fund.</p><h2>Humble Game Bundle Deals</h2><ul><li><a href="https://clicks.trx-hub.com/xid/fandom_32094_gamespot?q=https%3A%2F%2Fhumblebundleinc.sjv.io%2Fc%2F1804712%2F2059850%2F25796%3FsubId1%3Dsubid_value%26u%3Dhttps%3A%2F%2Fwww.humblebundle.com%2Fgames%2Fdestiny-2-story-so-far-2025&amp;p=http%3A%2F%2Fwww.gamespot.com%2Farticles%2Fget-immortals-of-aveum-and-7-other-games-for-just-12-at-humble-this-month%2F1100-6529163%2F&amp;event_type=click" data-target="true" target="_blank" rel="noopener nofollow">Destiny 2: The story so far</a> -- $30</li></ul>
+  
+                        
+    
+        
+        
+  
+                                  </div>
+
+          
+        
+                        
+            <span>
+        <a itemprop="reviewer" href="https://plus.google.com/108490194306897153177?rel=author">Darryn Bonthuys</a> on Google+
+      </span>
+      
+                    
+  
+    
+          
+            
+  <div>
+    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
+
+    
+      </div>
+        
+      </section>
+    
+            
+    </article></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Japanese gacha boss under fire for huge Nintendo-esque salary, as Puzzle & Dragons sees rapid decline]]></title>
+            <link>https://www.eurogamer.net/japanese-gacha-boss-under-fire-for-huge-nintendo-esque-salary-as-puzzle-dragons-sees-rapid-decline</link>
+            <guid>https://www.resetera.com/threads/japanese-gacha-boss-under-fire-for-huge-nintendo-esque-salary-as-puzzle-dragons-sees-rapid-decline.1100721/</guid>
+            <content:encoded><![CDATA[https://www.eurogamer.net/japanese-gacha-boss-under-fire-for-huge-nintendo-esque-salary-as-puzzle-dragons-sees-rapid-decline<br/><br/><div id="readability-page-1" class="page"><div data-component="article-content">
+
+
+
+            <p>Puzzle &amp; Dragons developer Gung Ho has come under fire from its shareholders, who have complained about the extremely high salary of its president and poor returns on their investments.</p>
+<p>Strategic Capital, an investment advisory firm, has submitted a <a href="https://stracap.jp/english/3765-GUNGHO.pdf">report</a> on behalf of company shareholders requesting Gung Ho "up its game" as it highlights a number of issues (thanks <a href="https://automaton-media.com/en/news/all-youve-done-is-waste-100-billion-yen-japanese-gacha-game-giant-put-on-blast-by-shareholders-for-milking-same-hit-for-13-years-while-releasing-failures/">Automaton</a>).</p>
+<p>The biggest is the salary of president Kazuki Morishita, who received 340m yen (£1.77m) in 2023. That's similar to the total remuneration of Nintendo president Shuntaro Furukawa (360m yen), and above similar figures at <a data-keyword="true" href="https://www.eurogamer.net/companies/square-enix">Square Enix</a>, Sony, Capcom, Konami, and Bandai Namco.</p>
+<figure>
+<p>
+<a aria-label="Puzzle &amp; Dragons Official Trailer" data-lightbox="false" data-platform="youtube" href="https://www.youtube.com/embed/zCX-Tz8KpXE?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
+<span>Puzzle &amp; Dragons Official Trailer</span>
+<template>
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/zCX-Tz8KpXE?autoplay=1" frameborder="0" loading="lazy" src="https://www.youtube-nocookie.com/embed/zCX-Tz8KpXE?autoplay=1">
+</iframe> </template>
+</a>
+</p>
+<figcaption>Puzzle &amp; Dragons Official Trailer<a href="https://www.youtube.com/watch?v=zCX-Tz8KpXE" rel="noopener" target="_blank">Watch on YouTube</a></figcaption></figure>
+<p>That's despite Gung Ho relying on mobile gacha game Puzzle &amp; Dragons - its biggest hit - for revenue since its release in 2012, despite its revenue declining since 2014. Indeed, the report states Gung Ho has made less than a 10th of Nintendo's profits, despite their presidents having similar salaries.</p>
+<p>While the company has released 20 games since 2012, including based on popular IPs from Disney and Yo-kai Watch, the company has reportedly not been able to shake its dependence on Puzzle &amp; Dragons.</p>
+<p>The report estimates Gung Ho has spent over 100bn yen developing new titles, but these have collectively earned less than 10bn yen.</p>
+<figure data-count="2" role="group">
+<figure>
+<a data-lightbox="true" href="https://assetsio.gnwcdn.com/gung-ho-remuneration.PNG?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank">
+ </a>
+</figure>
+<figure>
+<a data-lightbox="true" href="https://assetsio.gnwcdn.com/gung-ho-decliningprofits.PNG?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank">
+ </a>
+</figure>
+<figcaption><span>Image credit: <cite>Strategic Capital</cite></span></figcaption>
+</figure>
+<p>To summarise, then, Gung Ho has a single but gradually fading hit game, has struggled to release another success, and is led by a president taking home an extortionate salary that far exceeds company profits. And now there's friction between company leaders and shareholders.</p>
+<p>Gung Ho did see huge success with Puzzle &amp; Dragons, a free-to-play match-three puzzle game that was the first mobile game to gross $1bn in revenue. In Japan, Nintendo even licensed a <a href="https://www.eurogamer.net/nintendo-licenses-mario-version-of-free-to-play-mobile-money-spinner-puzzle-and-dragons">Mario-themed version of the game for 3DS</a>.</p>
+<p>Strategic Capital's report suggests reform by going private and a review of the remuneration system. It also states the company has "excessive" cash reserves, which (unlike Nintendo) is viewed negatively due to low value.</p></div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Vendrán Las Aves is a short free game about burnout from Red String Club developers Deconstructeam]]></title>
             <link>https://www.rockpapershotgun.com/vendran-las-aves-is-a-short-free-game-about-burnout-from-red-string-club-developers-deconstructeam</link>
@@ -1062,274 +1282,6 @@ Image credit:          <cite>Lilith Walther</cite>
     </section>
 
   </div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Where is Canker’s Camp in Kingdom Come Deliverance 2? (Answered)]]></title>
-            <link>https://insider-gaming.com/cankers-camp-location-kingdom-come-deliverance-2/</link>
-            <guid>https://www.resetera.com/threads/where-is-canker%E2%80%99s-camp-in-kingdom-come-deliverance-2-answered.1100580/</guid>
-            <content:encoded><![CDATA[https://insider-gaming.com/cankers-camp-location-kingdom-come-deliverance-2/<br/><br/><div id="readability-page-1" class="page"><div>
-		
-<p>In Kingdom Come Deliverance 2, you’ll eventually come across a quest named ‘Canker’. It’s a side quest given to you by Gules in Semine, and it requires you to head to the camp of a former associate of Gules and ‘get rid of’ the band occupying it. However, all you’re given by way of a location is a large, open area on the map.</p>
-
-
-
-<p>In this guide, I’ll help you find Canker’s camp in Kingdom Come Deliverance 2 and teach you what to do with it when you get there.</p>
-
-
-
-<hr>
-
-
-
-<h2 id="h-how-to-find-canker-s-camp-in-kingdom-come">How to Find Canker’s Camp in Kingdom Come</h2>
-
-
-
-<p>Canker’s Camp is located north of Nebakov, in the lower half of the game world. It’s in a densely wooded area, set back under a rocky outcrop alongside a stream.</p>
-
-
-
-<p>Here’s the map location for the camp:</p>
-
-
-
-<figure><figcaption>Canker’s Camp location in Kingdom Come</figcaption></figure>
-
-
-
-
-
-
-
-<h2 id="h-how-to-deal-with-canker-in-kingdom-come-deliverance-2">How to Deal with Canker in Kingdom Come Deliverance 2</h2>
-
-
-
-<p>Once you’ve tracked down the camp, you’ll want to take it slow and silent, especially if you plan on killing all the camp’s occupants.</p>
-
-
-
-<p>The easiest way to deal with Canker is to approach the camp in the dead of night with a dagger. There will be one guard roaming the nearby area with a torch, making him easy to identify. Try to lead him away from the main camp, taking him out swiftly before he can raise the alarm.</p>
-
-
-
-<p>Every other member of Canker’s camp – including Canker himself – will be asleep on the beds scattered around the camp, making it easy to stealth kill them with the dagger.</p>
-
-
-
-<p><strong>Note: You MUST have a dagger to perform a stealth kill</strong>.</p>
-
-
-
-<p>Once you’ve killed every bandit in the camp, you can secure Canker’s mace, which is the core goal of this quest. Then, loot the area and leave when you’re satisfied with the quest completion, heading back to Semine in your own time.</p>
-
-
-
-<p>If you like Canker’s mace, you’ll have the option to keep it after the quest. Just ask Gules if you can hang onto it.</p>
-
-
-
-<p>For more Kingdom Come Deliverance 2 guides, check out how to complete <a href="https://insider-gaming.com/for-whom-the-bell-tolls-guide-kingdom-come-2/">For Whom The Bell Tolls</a>.</p>
-
-
-
-<hr>
-
-
-
-<p>Learn how to <a href="https://insider-gaming.com/how-to-make-saviour-schnapps-kingdom-come-deliverance-2/">make Saviour Schnapps</a> in Kingdom Come, or flick through our guide <a href="https://insider-gaming.com/how-to-lockpick-in-kingdom-come-deliverance-2/">to lockpicking in the game</a></p>
-    <div id="ig-newsletter-holder">
-            <p><span>
-                    SUBSCRIBE to our newsletter to receive the latest news and exclusive leaks every week! No Spam.
-                </span>
-            </p>
-            
-        </div>
-
-	</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[‘Nostalgic’ escape adventure game CLASS 3, THIRD GRADE announced for PC]]></title>
-            <link>https://www.gematsu.com/2025/02/nostalgic-escape-adventure-game-class-3-third-grade-announced-for-pc</link>
-            <guid>https://www.resetera.com/threads/%E2%80%98nostalgic%E2%80%99-escape-adventure-game-class-3-third-grade-announced-for-pc.1100574/</guid>
-            <content:encoded><![CDATA[https://www.gematsu.com/2025/02/nostalgic-escape-adventure-game-class-3-third-grade-announced-for-pc<br/><br/><div id="readability-page-1" class="page"><div>
-
-    <ul>
-    <li><a href="https://www.gematsu.com/platforms/pc">PC</a></li>    </ul>
-
-    
-    <p><span>A game for the "ice age generation."</span>
-      </p></div><div><p>Yamaguchi City-based developer <a title="Companies > Jacob Honda" href="https://www.gematsu.com/companies/jacob-honda">Jacob Honda</a> has announced <em><a title="Games > CLASS 3, THIRD GRADE" href="https://www.gematsu.com/games/class-3-third-grade">CLASS 3, THIRD GRADE</a></em>, a “nostalgic” first-person escape <a title="Genres > Adventure [2,022 articles]" href="https://www.gematsu.com/genres/adventure">adventure game</a> coming to <a title="Platforms > PC [22,262 articles]" href="https://www.gematsu.com/platforms/pc">PC</a> via <a href="https://store.steampowered.com/app/3443030/CLASS_3_THIRD_GRADE/" target="_blank">Steam</a> in March for $4.99 / 680 yen. A specific release date was not announced. It will support English and Japanese language options. <span id="more-942276"></span></p><p>“<em>CLASS 3, THIRD GRADE</em> is a work for the ‘ice age generation,'” said development team leader Makoto Nishizaki in a press release. “We created it for those who feel a lead weight in their stomach when they hear ‘end-of-day meeting.’ We hope you’ll experience the reality of the 80s children’s world, both heartwarming and cruel, while reminiscing about the suddenly vanished chicken in the school’s animal shed after summer vacation.”</p><p>Here is an overview of the game, via Jacob Honda:</p><blockquote><p><strong>About</strong></p><p>In the midst of a boring, unchanging “ordinary” life, the protagonist “I” inexplicably begins to frequently dream of childhood. The elementary school days, with no particular memories, are so distant that not even class reunion notices reach them.</p><p>One day, on an ordinary morning during the commute, “I” mysteriously stumbles into the childhood bedroom. It’s a world where the boundary between dream and reality is blurred. Memories of childhood, which had become vague and idyllic over the years, begin to vividly regain their original form.</p><!-- AD: content -->
-        <p>Amidst a mix of nostalgia and anxiety, “I” is forced to confront the past. Can “I” return to the real world from this labyrinth of memories? And how will this encounter with the past change “I”‘s life?</p><p><strong>Gameplay</strong></p><p><em>CLASS 3, THIRD GRADE</em> is a 3D first-person perspective escape game. Players take on the role of the protagonist, “I,” exploring a nostalgic childhood room, collecting items necessary for escape, and solving various puzzles in order to return to the real world.</p><p><strong>Key Features</strong></p><ul><li>A game world that faithfully recreates the atmosphere of the 1980s.</li><li><a title="Companies > Experience [210 articles]" href="https://www.gematsu.com/companies/experience">Experience</a> a childhood where nostalgia and reality intersect.</li><li>Multiple endings: The truth changes depending on your choices.</li><li>This game is not only “my” story but also “your” story.</li></ul></blockquote><p>Watch the official trailer below. View the first screenshots <a href="https://www.gematsu.com/gallery/class-3-third-grade/february-4-2025/">at the gallery</a>.</p><h2><span>Official Trailer</span></h2><p><strong>English</strong></p><p><iframe title="CLASS 3, THIRD GRADE - Escape Adventure Unraveling 80s Memories | Official Trailer" width="500" height="281" src="https://www.youtube.com/embed/NFjQQWz69kA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p><p><strong>Japanese</strong></p><p><iframe title="なごやか3組 - 80年代の記憶を紐解く脱出アドベンチャー | 公式トレーラー" width="500" height="281" src="https://www.youtube.com/embed/XislCl1qjTU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p><h2><span>Screenshots</span></h2><div id="carousel_942280"><ul><li><span>❮</span></li><li><span>❯</span></li></ul></div></div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Where is Nikvard in Kingdom Come Deliverance 2? – Magnum Opus Quest]]></title>
-            <link>https://insider-gaming.com/find-nikvard-kingdom-come-deliverance-quest/</link>
-            <guid>https://www.resetera.com/threads/where-is-nikvard-in-kingdom-come-deliverance-2-%E2%80%93-magnum-opus-quest.1100559/</guid>
-            <content:encoded><![CDATA[https://insider-gaming.com/find-nikvard-kingdom-come-deliverance-quest/<br/><br/><div id="readability-page-1" class="page"><div>
-		
-<p>In Kingdom Come Deliverance 2, you’ll pick up a quest relatively early on called ‘Magnum Opus’, but it’s a lengthy one that’ll sit in your quest log for quite some time. It could be many hours until you finish it, and there are quite a few steps along the way to resolving it.</p>
-
-
-
-<p>Fortunately, I’ve put together a Magnum Opus quest guide, designed to help you conquer the most troublesome objective – finding Nikvard in Kingdom Come Deliverance. He’s a slippery character, but in this guide, you’ll learn Nikvard’s location in just a few steps.</p>
-
-
-
-<hr>
-
-
-
-<h2 id="h-finding-nikvard-in-kingdom-come">Finding Nikvard in Kingdom Come</h2>
-
-
-
-<p>Magnum Opus will be handed to you by the Lower Semine Miller if you follow his quest line.</p>
-
-
-
-<p>It requires Henry of Skalitz to find his way into Trosky Castle and liberate a book that’s hidden somewhere within, but details are sparse. As the quest pieces itself together, Henry concocts a plan to get himself inside, but things quickly turn awry.</p>
-
-
-
-<p>Once you’ve made your way into Trosky Castle (against your will), you’ll find yourself facing the objective with almost nothing to guide you on your quest. Talking to the Scribe and some of the castle’s occupants doesn’t reveal much, and ultimately, you learn that Nikvard has the book, <strong>but nobody knows where he is</strong>.</p>
-
-
-
-<h3 id="h-where-to-find-nikvard-for-magnum-opus">Where to Find Nikvard for Magnum Opus</h3>
-
-
-
-<p>Nikvard has the book – that much is obvious.</p>
-
-
-
-<p>If you want to go through the various speech checks and minor actions to advance the quest and level up some skills, feel free to follow the quest as it was designed. If you’d rather skip that and head straight to Nikvard’s location to force the completion of the quest, then you’ll need to go here:</p>
-
-
-
-<figure><figcaption>Look for the red flag!</figcaption></figure>
-
-
-
-<p><strong>The red and yellow flag marker is where you’ll find Nikvard in KCD2</strong>.</p>
-
-
-
-<p>The location of the Magnum Opus in Kingdom Come Deliverance 2 is actually <strong>outside </strong>the castle grounds. It seems that Nikvard had a spot of bother with his digestive health and the book ended up falling down a latrine, passing through the sewer pipe and landing on the floor outside the castle.</p>
-
-
-
-<p>It’s sitting immediately alongside Nikvard’s dead body, which is a shame. He seemed like he would have been a nice guy.</p>
-
-
-
-<p>Don’t worry, the guard standing nearby commenting on the dead body won’t mind you taking the book – but the Miller will comment on how badly it smells when you take it back to him.</p>
-
-
-
-<p>For more Kingdom Come guides, check out how to <a href="https://insider-gaming.com/cankers-camp-location-kingdom-come-deliverance-2/">find Canker’s camp</a>, and if you’re still stuck on it, learn how to complete <a href="https://insider-gaming.com/for-whom-the-bell-tolls-guide-kingdom-come-2/">For Whom The Bell Tolls</a>.</p>
-    <div id="ig-newsletter-holder">
-            <p><span>
-                    SUBSCRIBE to our newsletter to receive the latest news and exclusive leaks every week! No Spam.
-                </span>
-            </p>
-            
-        </div>
-
-	</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[EA says next Battlefield "expected" to release before April 2026]]></title>
-            <link>https://www.eurogamer.net/ea-says-next-battlefield-expected-to-release-before-april-2026</link>
-            <guid>https://www.resetera.com/threads/ea-says-next-battlefield-expected-to-release-before-april-2026.1100547/</guid>
-            <content:encoded><![CDATA[https://www.eurogamer.net/ea-says-next-battlefield-expected-to-release-before-april-2026<br/><br/><div id="readability-page-1" class="page"><div data-component="article-header">
-  
-
-    <div>
-        
-
-        <p>Following playtest initiative launch.</p>
-
-    </div>
-
-
-  <p>
-  <figure>
-  <a href="https://assetsio.gnwcdn.com/bf-ca-1726271105698.png?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
-  
-  </a>
-
-      <figcaption>
-        <span>
-Image credit:          <cite>EA/IGN</cite>
-        </span>
-      </figcaption>
-  </figure>
-  </p>
-
-    
-
-</div><div data-component="article-content">
-
-
-
-            <p>
-We might not have seen a whole lot of EA's next Battlefield game beyond the few seconds of pre-alpha footage shared this week, but it turns out it's probably not all that far away. The publisher has confirmed it expect the series' latest instalment to arrive before April next year.
-</p>
-<p>
-EA shared the news as part of its third-quarter financial earnings report, saying its new Battlefield is "expected fiscal year 2026 release". That means the game should - all being well - arrive sometime between 1st April this year and 31st of March 2026.
-</p>
-<p>
-Specifics remain limited, but EA last year confirmed the long-running multiplayer shooter series would be <a href="https://www.eurogamer.net/ea-says-next-battlefield-is-modern-day-brings-back-classes-and-more-focused-maps">returning to the modern era</a> for its next outing, and that it'd feature traditional classes and more focused maps - a clear indication it would be revisiting a tried-and-tested formula after shaking things up in 2021's <a href="https://www.eurogamer.net/battlefield-2042-is-now-one-of-steams-worst-reviewed-games-of-all-time">poorly received Battlefield 2042</a>.
-</p>
-<figure>
-<p>
-<a aria-label="Introducing Battlefield Labs | Battlefield Studios" data-lightbox="false" data-platform="youtube" href="https://www.youtube.com/embed/_fGteYuaNxA?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
-<span>Introducing Battlefield Labs | Battlefield Studios</span>
-<template>
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/_fGteYuaNxA?autoplay=1" frameborder="0" loading="lazy" src="https://www.youtube-nocookie.com/embed/_fGteYuaNxA?autoplay=1">
-</iframe> </template>
-</a>
-</p>
-<figcaption>EA launches Battlefield Labs.<a href="https://www.youtube.com/watch?v=_fGteYuaNxA" rel="noopener" target="_blank">Watch on YouTube</a></figcaption></figure>
-<p>
-Last year's announcement also revealed EA was planning a series of playtests for Battlefield's next instalment, in order to "get the community back on [its] side" - and that initiative, now known as Battlefield Labs, was <a href="https://www.eurogamer.net/next-battlefield-game-glimpsed-as-ea-announces-big-community-playtest-plans">officially unveiled this week</a> alongside brief early gameplay.
-</p>
-<p>
-The next Battlefield game is being developed by a <a href="https://www.eurogamer.net/ea-amassing-largest-battlefield-team-in-franchise-history-to-double-down-on-live-service-multiplayer">huge group spread across four major EA teams</a>, now working under the umbrella name of Battlefield Studios. That includes series creator DICE, splinter studio Ripple Effect, Dead Space Remake developer Motive, and Criterion - the veteran UK studio, which, as Eurogamer reported earlier this week, has now <a href="https://www.eurogamer.net/next-battlefield-game-glimpsed-as-ea-announces-big-community-playtest-plans">paused work on its next Need for Speed game</a> in order to pitch in with the new Battlefield.
-</p>
-<p>
-EA will be wanting to hit the ground running with the next Battlefield entry after it was <a href="https://www.eurogamer.net/ea-admits-battlefield-2042-flopped-but-would-have-been-less-than-10-percent-of-annual-revenue-anyway">forced to admit 2042 "did not meet expectations"</a>. The publisher also had a difficult 2024, and last month said <a href="https://www.eurogamer.net/ea-says-ea-sports-fc-25-and-dragon-age-the-veilguard-underperformed-as-it-lowers-financial-forecast">EA Sports FC 25 and Dragon Age: The Veilguard "underperformed"</a> as it lowered its financial forecast for the year.
-</p></div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Medabots Survivors launches February 10 in Japan]]></title>
-            <link>https://www.gematsu.com/2025/02/medabots-survivors-launches-february-10-in-japan</link>
-            <guid>https://www.resetera.com/threads/medabots-survivors-launches-february-10-in-japan.1100532/</guid>
-            <content:encoded><![CDATA[https://www.gematsu.com/2025/02/medabots-survivors-launches-february-10-in-japan<br/><br/><div id="readability-page-1" class="page"><div>
-
-    <ul>
-    <li><a href="https://www.gematsu.com/platforms/mobile/smartphone">Smartphone</a></li>    </ul>
-
-    
-    <p><span>Free-to-play survival action game dated.</span>
-      </p></div><div><p><em>Medabots</em> series first survival <a title="Genres > Action [2,459 articles]" href="https://www.gematsu.com/genres/action">action game</a> <em><a title="Games > Medabots Survivors [1 article]" href="https://www.gematsu.com/games/medabots-survivors">Medabots Survivors</a></em> will launch for iOS via <a href="https://apps.apple.com/jp/app/%E3%83%A1%E3%83%80%E3%83%AD%E3%83%83%E3%83%88%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%BC/id6736600841" rel="noopener" target="_blank">App Store</a> and Android via <a href="https://play.google.com/store/apps/details?id=jp.co.imagineer.medarotsurvivors" rel="noopener" target="_blank">Google Play</a> as a <a title="Genres > Free-to-Play [362 articles]" href="https://www.gematsu.com/genres/free-to-play">free-to-play game</a> with in-app purchases on February 10, developer <a title="Companies > Imagineer [47 articles]" href="https://www.gematsu.com/companies/imagineer">Imagineer</a> <a href="https://twitter.com/medarot_sv/status/1886733688341406069" target="_blank">announced</a>. <span id="more-942230"></span></p><p>Here is an overview of the game, via its store pages:</p><blockquote><p><strong>About</strong></p><p>Recruit Medabots with unique skills and survive against waves of enemies. Both fan-favorite and brand-new Medabots appear in the series’ first-ever survival action game.</p><p><strong>The First-Ever <em>Medabots</em> <a title="Genres > Survival [372 articles]" href="https://www.gematsu.com/genres/survival">Survival</a> Action Game</strong></p><p>Control a variety Medabots with simple controls and survive against waves of incoming enemies. Player decisions such as which Medabots to recruit from your limited forces are your key to victory.</p><!-- AD: content -->
-        <p><strong>Medabots With Various Skills</strong></p><p>Over 30 Medabots will be playable at launch.</p><ul><li>Eradicate enemies with missiles.</li><li>Mow down nearby enemies.</li><li>Set traps to intercept enemies.</li></ul><p>Each Medabot possesses its own unique skills to combat the horde. <a title="Companies > Experience [210 articles]" href="https://www.gematsu.com/companies/experience">Experience</a> thrilling battles with dramatic turnarounds.</p><p>Which skills will the Medabots from the series possess in the game? Stay tuned for future updates!</p><p><strong>New Medabots by Popular Illustrators</strong></p><p>The protagonist Medabot of <em>Medabots Survivors</em> is designed by <em>Medabots S</em> main illustrator tyuga.</p><p>Additionally, the Chang’e-inspired Medabot “Kouga Senjo” designed by Mine Yoshizaki and dark knight-inspired Medabot “Shadow Armor” designed by K-SUWABE also appear.</p><p>Additional new Medabots designed by popular illustrators will be be added in the future.</p></blockquote></div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Sonic Wings Reunion adds PS4 version; debut trailer]]></title>
-            <link>https://www.gematsu.com/2025/02/sonic-wings-reunion-adds-ps4-version-debut-trailer</link>
-            <guid>https://www.resetera.com/threads/sonic-wings-reunion-adds-ps4-version-debut-trailer.1100520/</guid>
-            <content:encoded><![CDATA[https://www.gematsu.com/2025/02/sonic-wings-reunion-adds-ps4-version-debut-trailer<br/><br/><div id="readability-page-1" class="page"><div>
-
-    <ul>
-    <li><a href="https://www.gematsu.com/platforms/arcade">Arcade</a></li><li><a href="https://www.gematsu.com/platforms/pc">PC</a></li><li><a href="https://www.gematsu.com/platforms/playstation/ps4">PS4</a></li><li><a href="https://www.gematsu.com/platforms/playstation/ps5">PS5</a></li><li><a href="https://www.gematsu.com/platforms/nintendo/switch">Switch</a></li>    </ul>
-
-    
-    <p><span>Hamster Corporation-developed shoot 'em up due out on May 29.</span>
-      </p></div><div><p>Publisher <a title="Companies > SUCCESS Corporation [97 articles]" href="https://www.gematsu.com/companies/success-corporation">SUCCESS Corporation</a> and developer <a title="Companies > Hamster Corporation [49 articles]" href="https://www.gematsu.com/companies/hamster-corporation">Hamster Corporation</a> have released the first trailer for <a title="Genres > Shoot 'Em Up [762 articles]" href="https://www.gematsu.com/genres/shoot-em-up">shoot ’em up game</a> <em><a title="Games > Sonic Wings Reunion [2 articles]" href="https://www.gematsu.com/games/sonic-wings-reunion">Sonic Wings Reunion</a></em>, as well as announced that it will launch for <a title="Platforms > PS4 [27,656 articles]" href="https://www.gematsu.com/platforms/playstation/ps4">PlayStation 4</a> alongside its <a href="https://www.gematsu.com/2024/11/sonic-wings-reunion-announced-for-ps5-switch-pc-and-arcade">previously announced</a> <a title="Platforms > PS5 [8,767 articles]" href="https://www.gematsu.com/platforms/playstation/ps5">PlayStation 5</a>, <a title="Platforms > Switch [16,598 articles]" href="https://www.gematsu.com/platforms/nintendo/switch">Switch</a>, <a title="Platforms > PC [22,262 articles]" href="https://www.gematsu.com/platforms/pc">PC</a> (<a href="https://store.steampowered.com/app/3477860/SONIC_WINGS_REUNION/" target="_blank">Steam</a>), and <a title="Genres > Arcade [68 articles]" href="https://www.gematsu.com/genres/arcade">arcade</a> versions on May 29. <span id="more-941810"></span></p><p>In Japan, the PlayStation 5 and Switch versions will be available both physically and digitally, while the PlayStation 4 version will be digital-only. The game will support English, French, German, Spanish, Portuguese, Japanese, Korean, Traditional Chinese, and Simplified Chinese language options.</p><p>Here is an overview of the game, via its <a href="https://store.steampowered.com/app/3477860/SONIC_WINGS_REUNION/" target="_blank">Steam page</a>:</p><blockquote><p><strong>About</strong></p><p>In the year 20XX, cities around the world were attacked.</p><p>The mysterious organization “Fata Morgana,” which possesses superweapons and controls the world’s military arsenal with unknown technology, has returned.</p><!-- AD: content -->
-        <p>The international secret rescue team “Project Blue,” a group of sky-riding knights, stands up against this global threat.</p><p>What awaits them as they take the fight to a powerful enemy for various reasons? ……!</p><p><em>Sonic Wings Reunion</em> is a sequel to the arcade-style <a title="Genres > Shooter [3,992 articles]" href="https://www.gematsu.com/genres/shooter">shooter</a> <em>Sonic Wings</em>. The previous version was sold in 1998.</p><p>Choose from eight characters and destroy the mysterious organization “Fata Morgana” that has progressed into the modern world. The scenario changes depending on the combination of characters.</p></blockquote><div id="carousel_942237"><ul><li><span>❮</span></li><li><span>❯</span></li></ul></div><blockquote><p><strong>Key Features</strong></p><ul><li>Eight initial characters, with hidden characters unlocked under certain conditions.</li><li>Eight stages (including bonus stages) to fight in cities and locations in the modern world.</li><li>Eight stages (including bonus stages) in which players fight in cities and locations in the modern world.</li><li>Giant futuristic weapons from the original game.</li><li>Local <a title="Genres > Co-Op [229 articles]" href="https://www.gematsu.com/genres/multiplayer/co-op">cooperative</a> play is supported. Conversation scenarios change with cooperative play.</li><li>The co-op scenarios can be enjoyed in single-player mode as well.</li><li>Three sound modes are available.</li><li>The original sound mode is composed by Sonic Wings series sound composer Soshi Hosoi.</li><li>In the Arrange Sound Mode, the music of previous titles is completely arranged by Japan’s most renowned sound creator. The user can set the music to be played.</li><li>In Mao Mao mode, Mao Mao’s song is played as background music.</li><li>The user can select the level of difficulty, invincibility mode, practice mode, and other detailed settings.</li><li>Support for achievements, leaderboards, and cloud saving.</li></ul></blockquote><p>Watch the trailer below. View a set of screenshots <a href="https://www.gematsu.com/gallery/sonic-wings-reunion/february-4-2025/">at the gallery</a>.</p><h2><span>Trailer #1</span></h2><p><iframe title="【公式】シューティング『SONIC WINGS REUNION』第一弾PV(90秒) #ソニックウィングスリユニオン" width="500" height="281" src="https://www.youtube.com/embed/L43K3ymQa2Y?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p></div></div>]]></content:encoded>
         </item>
     </channel>
 </rss>
