@@ -4,25 +4,58 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Thu, 06 Feb 2025 08:08:58 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 07 Feb 2025 19:18:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[AMD promises “mainstream” 4K gaming with next-gen GPUs as current-gen GPU sales tank]]></title>
-            <link>https://arstechnica.com/gadgets/2025/02/amd-promises-mainstream-4k-gaming-with-next-gen-gpus-as-current-gen-gpu-sales-tank/</link>
-            <guid>https://www.resetera.com/threads/amd-promises-%E2%80%9Cmainstream%E2%80%9D-4k-gaming-with-next-gen-gpus-as-current-gen-gpu-sales-tank.1101375/</guid>
-            <content:encoded><![CDATA[https://arstechnica.com/gadgets/2025/02/amd-promises-mainstream-4k-gaming-with-next-gen-gpus-as-current-gen-gpu-sales-tank/<br/><br/><div id="readability-page-1" class="page"><div>
-                      
-                      
-          <p>AMD announced its fourth-quarter earnings yesterday, and the numbers were <a href="https://ir.amd.com/news-events/press-releases/detail/1236/amd-reports-fourth-quarter-and-full-year-2024-financial">mostly rosy</a>: $7.7 billion in revenue and a 51 percent profit margin, compared to $6.2 billion and 47 percent <a href="https://ir.amd.com/news-events/press-releases/detail/1180/amd-reports-fourth-quarter-and-full-year-2023-financial">a year ago</a>. The biggest winner was the data center division, which made $3.9 billion thanks to Epyc server processors and Instinct AI accelerators, and Ryzen CPUs are also selling well, helping the company's client segment earn $2.3 billion.</p>
-<p>But if you were looking for a dark spot, you'd find it in the company's gaming division, which earned a relatively small $563 million, down 59 percent from a year ago. AMD's Lisa Su blamed this on both dedicated graphics card sales and sales from the company's "semi-custom" chips (that is, the ones created specifically for game consoles like the Xbox and PlayStation).</p>
-<p>Other data sources suggest that the response from GPU buyers to AMD's Radeon RX 7000 series, launched between late 2022 and early 2024, has been lackluster. The <a href="https://store.steampowered.com/hwsurvey/videocard/">Steam Hardware Survey</a>, a noisy but broadly useful barometer for GPU market share, shows no RX 7000-series models in the top 50; only two of the GPUs (the 7900 XTX and 7700 XT) are used in enough gaming PCs to be mentioned on the list at all, with the others all getting lumped into the "other" category. Jon Peddie Research <a href="https://www.tomshardware.com/pc-components/gpus/discrete-gpu-sales-increase-as-intels-share-drops-to-0">recently estimated</a> that AMD was selling roughly one dedicated GPU for every seven or eight sold by Nvidia.</p>
-<p>But hope springs eternal. Su confirmed on AMD's earnings call that the new Radeon RX 9000-series cards, <a href="https://arstechnica.com/gadgets/2025/01/new-radeon-rx-9000-gpus-promise-to-fix-two-of-amds-biggest-weaknesses/">announced at CES last month</a>, would be launching in early March. The Radeon RX 9070 and 9070 XT are both aimed toward the middle of the graphics card market, and Su said that both would bring "high-quality gaming to mainstream players."</p>
-<h2>An opportunity, maybe</h2>
-<p>"Mainstream" could mean a lot of things. AMD's CES slide deck positioned the 9070 series alongside Nvidia's RTX 4070 Ti ($799) and 4070 Super ($599) and its own RTX 7900 XT, 7900 GRE, and 7800 XT (between $500 and $730 as of this writing), a pretty wide price spread that is still more expensive than an entire high-end console. The GPUs could still rely heavily on upscaling algorithms like AMD's Fidelity Super Resolution (FSR) to hit playable frame rates at those resolutions, rather than targeting native 4K.</p>
+            <title><![CDATA[Donkey Kong’s famed kill screen has been cleared for the first time]]></title>
+            <link>https://arstechnica.com/gaming/2025/02/donkey-kongs-famed-kill-screen-has-been-cleared-for-the-first-time/</link>
+            <guid>https://www.resetera.com/threads/donkey-kong%E2%80%99s-famed-kill-screen-has-been-cleared-for-the-first-time.1103547/</guid>
+            <content:encoded><![CDATA[https://arstechnica.com/gaming/2025/02/donkey-kongs-famed-kill-screen-has-been-cleared-for-the-first-time/<br/><br/><div id="readability-page-1" class="page"><div>
+          
+          
+<figure><p><iframe allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/U2WxdDkxpT8?start=0&amp;wmode=transparent"></iframe></p><div>
+    
+    <p>
+      A short emulator-aided demonstration of how the broken ladder glitch works (not shown: the dozens of frame-perfect inputs needed to pull it off).
+
+          </p>
+  </div>
+</figure>
+<h2>Better to be lucky than to be good</h2>
+<p>While players have <a href="https://donkeykongforum.net/index.php?topic=325.0">theorized about using the broken ladder glitch to pass the kill screen for years</a>, it initially seemed like even this glitched shortcut was too slow for the short kill screen timer. Yet when Kosmic attempted the same trick using his own emulator-assisted setup recently, he says he was able to complete the level on his first try. What gives?</p>
+<p>As it turns out, Kosmic was the beneficiary of some significant luck. Basically, every time Donkey Kong throws a barrel, there is a 1 in 32 chance that he will wait an extra half second or so before throwing the next barrel (this random process <a href="https://pastebin.com/WXR5iy7t">is explained in way too much detail in this Pastebin</a>). Since the game's bonus timer only ticks down when Donkey Kong actually throws a barrel, the semi-rare delay can give Mario the crucial extra frames he needs to reach the top of the kill screen using the broken ladder glitch.</p>
+<p>Funnily enough, this randomized barrel-throwing delay can theoretically repeat indefinitely, provided the game's randomizer picks the same lucky 1-in-32 sequence over and over again. If Donkey Kong decides to delay his barrel throw about 19 times in a row, Mario would actually be able to complete the kill screen normally, without the broken ladder glitch (and without facing many barrels, even). Of course, the chances of that happening on unmodified arcade hardware are nearly 1 in 40 octillion (1 in 32^19, to be precise), so don't count on encountering it in the wild any time soon.</p>
+<figure>
+    <div id="caption-2075116"><p>
+              Mario dies on level 22-6, which Kosmic now considers the "true" <em>Donkey Kong</em> kill screen.
+                              </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      Mario dies on level 22-6, which Kosmic now considers the "true" <em>Donkey Kong</em> kill screen.
+
+              <span>
+          Credit:
+
+                      <a href="https://www.youtube.com/watch?v=CoTQ53iM8c0" target="_blank">
+          
+          Kosmic
+
+                      </a>
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>With the ladder glitch, though, Kosmic's emulator-assisted run needed significantly less luck to pass the kill screen at 22-1. He was even able to push the game past the next four stages (including previously unseen spring and pie factory screens) to reach level 22-6.</p>
+<p>Kosmic calls that stage the game's true kill screen, as there's currently no known way for Mario to remove all eight rivets quickly enough to overcome the glitch-shortened timer, even with emulator assistance. Then again, for decades, players assumed there was no way to complete level 22-1, either. Maybe someone will figure out a clever method for beating this new kill screen with 40 more years of sustained effort.</p>
+
 
           
-                      
                   </div></div>]]></content:encoded>
         </item>
     </channel>
