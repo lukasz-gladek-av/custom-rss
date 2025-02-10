@@ -4,9 +4,37 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Mon, 10 Feb 2025 09:54:19 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 10 Feb 2025 10:07:28 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[NVIDIA RTX Kit with Neural Shaders Is Out Now; Mega Geometry and Neural Texture Compression Demos Available]]></title>
+            <link>https://wccftech.com/nvidia-rtx-kit-with-neural-shaders-is-out-now-mega-geometry-and-neural-texture-compression-demos-available/</link>
+            <guid>https://www.resetera.com/threads/nvidia-rtx-kit-with-neural-shaders-is-out-now-mega-geometry-and-neural-texture-compression-demos-available.1104699/</guid>
+            <content:encoded><![CDATA[https://wccftech.com/nvidia-rtx-kit-with-neural-shaders-is-out-now-mega-geometry-and-neural-texture-compression-demos-available/<br/><br/><div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>A few days after the originally intended launch window of late January, the <a href="https://wccftech.com/nvidia-rtx-kit-shows-how-neural-rendering-will-power-the-next-visual-leap-in-gaming/" target="_blank" rel="noopener">NVIDIA RTX Kit</a> has finally been released to the public for the most part. NVIDIA RTX Kit can be downloaded <a href="https://github.com/NVIDIA-RTX/RTX-Kit" target="_blank" rel="noopener">via GitHub</a>, though each component also has a dedicated repository. This includes what was arguably the most exciting and future-facing technology: RTX Neural Shaders, now abbreviated as <a href="https://github.com/NVIDIA-RTX/RTXNS" target="_blank" rel="noopener">RTXNS</a>. Here's the excerpt from its dedicated GitHub page:</p>
+<p><em>The sample is intended as a starting point for developers interested in bringing Machine Learning (ML) to their graphics applications. It provides a number of examples to help the reader understand how to train their own neural networks and then use those models to perform inference alongside their normal graphics rendering.</em></p>
+<p><em>RTXNS uses the Slang shading language and it utilises the Vulkan Cooperative Vectors extension to provide access to the GPUs ML acceleration.</em></p>
+<p>RTX Neural Materials is not yet available as part of the RTX Kit suite, but practically everything else is. For example, RTX Neural Texture Compression includes a demo sample that can be compiled to demonstrate the memory-saving technology. Compusemble did just that, finding massively reduced memory consumption (from 272 to 11.37 MB), although there is a performance cost associated when enabling the NTC AI inference model.</p>
+<p><iframe title="First Look At RTX Neural Texture Compression (BETA) On RTX 4090" width="500" height="281" src="https://www.youtube.com/embed/Z9VAloduypg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+<p>Similarly, RTX Mega Geometry (<a href="https://github.com/NVIDIA-RTX/RTXMG" target="_blank" rel="noopener">RTXMG</a>) can be tested by compiling a new sample. This is the only technology that's already been used in a game (<a href="https://wccftech.com/alan-wake-2-rtx-mega-geometry-performance-vram-improvements/" target="_blank" rel="noopener">Alan Wake 2</a>), but the tech demo is nonetheless interesting.</p>
+<p><iframe title="NVIDIA RTX Mega Geometry Tech Demo" width="500" height="281" src="https://www.youtube.com/embed/Js-ps14csLM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+<p>RTX Character Rendering (<a href="https://github.com/NVIDIA-RTX/RTXCR" target="_blank" rel="noopener">RTXCR</a>) is also available, providing a sample of how to render path traced hair and skin. Hair is particularly interesting because, with the new GeForce RTX 50 graphics cards, NVIDIA introduced hardware support for a new hair data structure called Linear-Swept Sphere (LSS). According to NVIDIA, this delivers high performance in tracing and BVH updates while maintaining exceptionally low memory consumption. Compared to Disjoint Orthogonal Triangle Strips (DOTS), rendering animated hair on humans is about 2x faster with LSS and requires one-fifth of the VRAM. We'll see the first example of RTX Hair with the <a href="https://wccftech.com/indiana-jones-and-the-great-circle-to-get-dlss-4-multi-frame-generation-and-rtx-hair-with-february-update/" target="_blank" rel="noopener">Indiana Jones and the Great Circle February update</a>.</p>
+
+<figure></figure>
+
+<p>The RTX Kit also includes one technology that NVIDIA had not previously discussed at CES 2025: RTX Texture Filtering (<a href="https://github.com/NVIDIA-RTX/RTXTF" target="_blank" rel="noopener">RTXTF</a>). According to NVIDIA, RTXTF randomly samples textures after shading and filters difficult volumes, reducing artifacts and improving image quality.</p>
+<p>Lastly, NVIDIA also <a href="https://github.com/NVIDIAGameWorks/Streamline/releases/tag/v2.7.2" target="_blank" rel="noopener">updated its Streamline SDK to version 2.7.2</a>, adding support for DLSS 4 Multi Frame Generation and the new models for Ray Reconstruction, Frame Generation, and Super Resolution. This means we might soon see the first DLSS 4 mods.</p>
+
+			
+		</div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Wccftech Awards ’24 – Best Games of 2024 and Most Anticipated of 2025 from Staff and Community]]></title>
             <link>https://wccftech.com/wccftech-awards-24-best-games-of-2024-and-most-anticipated-of-2025-from-staff-and-community/</link>
@@ -598,28 +626,6 @@
 <li>Ninja Gaiden 4 (2% votes)</li>
 </ul>
 <p>Congratulations to all the winners, and see you in a year or so for the next Wccftech Awards!</p>
-
-			
-		</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[PlayStation Plus Members Will Automatically Receive An Additional Five Days of Service As Compensation For PlayStation Network Outage]]></title>
-            <link>https://wccftech.com/playstation-plus-members-will-automatically-receive-an-additional-five-days-of-service-as-compensation-for-playstation-network-outage/</link>
-            <guid>https://www.resetera.com/threads/playstation-plus-members-will-automatically-receive-an-additional-five-days-of-service-as-compensation-for-playstation-network-outage.1104339/</guid>
-            <content:encoded><![CDATA[https://wccftech.com/playstation-plus-members-will-automatically-receive-an-additional-five-days-of-service-as-compensation-for-playstation-network-outage/<br/><br/><div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			<p>All PlayStation Plus members will receive compensation for the recent <a href="https://wccftech.com/playstation-network-down/">PlayStation Network outage</a>, Sony confirmed today.</p>
-<p>In a new message shared on X, it has been confirmed that network services have fully recovered from an unspecified operational issue, and that all PlayStation Plus members will automatically receive an additional five days of service, which is definitely decent compensation, considering the outage lasted for a little over 20 hours.</p>
-<blockquote>
-<p dir="ltr" lang="en">Network services have fully recovered from an operational issue. We apologize for the inconvenience and thank the community for their patience. All PlayStation Plus members will automatically receive an additional 5 days of service.</p>
-<p>— Ask PlayStation (@AskPlayStation) <a href="https://twitter.com/AskPlayStation/status/1888454556125708758?ref_src=twsrc%5Etfw">February 9, 2025</a></p></blockquote>
-
-<p>This operational issue that caused the PlayStation Network outage on Friday couldn't have come at a worse time, as it prevented PS5 owners from trying out the Monster Hunter Wilds open beta for almost an entire day, which will unlikely get extended to compensate for the outage, at least for this phase, unless CAPCOM decides to surprise players in the next few hours. [<strong>Update:</strong> CAPCOM is <a href="https://x.com/monsterhunter/status/1888530732232134839?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1888530732232134839%7Ctwgr%5E2ad6706d083cd24cfa75efc7dd9bccba5df4fcf2%7Ctwcon%5Es1_&amp;ref_url=https%3A%2F%2Fwww.eurogamer.net%2Fmonster-hunter-wilds-beta-set-to-get-additional-day-following-global-psn-outage" target="_blank" rel="noopener">considering</a> running the open beta for an additional 24 hours to compensate for the outage at a later date.] Still, at the very least, the outage did not last over 20 days as it did in 2011 when PSN suffered a hacking attack where the personal information of users was stolen. Back then, users were compensated for the long outage with a free one-month subscription, a one-month PlayStation Plus membership extension, and two free games between five PS3 and four PSP games, which included some solid games like the first entry in the inFAMOUS series.</p>
 
 			
 		</div></div>]]></content:encoded>
