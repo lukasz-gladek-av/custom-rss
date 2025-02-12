@@ -4,9 +4,101 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Wed, 12 Feb 2025 18:08:35 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 12 Feb 2025 18:23:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Assassin’s Creed Shadows Shows Off the Improved Anvil Engine, Shares New Tech Info]]></title>
+            <link>https://wccftech.com/assassins-creed-shadows-shows-off-the-improved-anvil-engine-shares-new-tech-info/</link>
+            <guid>https://www.resetera.com/threads/assassin%E2%80%99s-creed-shadows-shows-off-the-improved-anvil-engine-shares-new-tech-info.1107063/</guid>
+            <content:encoded><![CDATA[https://wccftech.com/assassins-creed-shadows-shows-off-the-improved-anvil-engine-shares-new-tech-info/<br/><br/><div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>Today, Ubisoft <a href="https://www.youtube.com/watch?v=Xs2w3qSEBCs" target="_blank" rel="noopener">shared</a> a new Assassin's Creed Shadows video to showcase the improvements of the latest Anvil Engine. This is largely what we covered <a href="https://wccftech.com/assassins-creed-shadows-gamescom-preview-the-most-visually-advanced-assassins-creed-to-date/" target="_blank" rel="noopener">in our Gamescom 2024 article</a> and the recent <a href="https://wccftech.com/assassins-creed-shadows-pc-requirements-revealed-rtx-4090-for-4k60-with-max-ray-tracing/" target="_blank" rel="noopener">PC specs reveal</a>, albeit in a video format.</p>
+<p>Assassin's Creed Shadows features dynamic seasons, environmental destruction, dynamic wind and environmental particles, ray traced global illumination and reflections, and Nanite-like virtualized geometry. On PC, players will enjoy uncapped frame rate, Ultra-wide resolution support, dynamic resolution scaling support, an in-game benchmark tool, high customization for both graphics and gameplay, 'wide support for low and medium end' configurations, as well as all available upscaling and frame generation technologies. Intel XeSS 2 was singled out <a href="https://wccftech.com/ubisoft-intel-official-cpu-gpu-partner-assassins-creed-shadows-game-bundle-core-cpus-arc-gpus/" target="_blank" rel="noopener">as part of Ubisoft's partnership with Intel for the game</a>, which will be specially optimized for Intel Core Ultra processors.</p>
+<p><iframe title="Assassin's Creed Shadows: PC &amp; New-Gen Features Trailer" width="500" height="281" src="https://www.youtube.com/embed/Xs2w3qSEBCs?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+<p>Ubisoft also <a href="https://www.ubisoft.com/en-gb/game/assassins-creed/news/4XbPPtFyQEtIMWrA9xVDmZ/assassins-creed-shadows-tech-qa" target="_blank" rel="noopener">answered</a> several technical questions from Reddit fans:</p>
+<ul>
+<li>The PlayStation 5 and Xbox Series S|X versions of the game will both have a 4K upscaled, 60 FPS Performance Mode. There was no mention of PS5 Pro enhancements.</li>
+<li>The Selective ray tracing preset will only apply ray traced effects to the Hideouts rather than the open world.</li>
+<li>The new Atmos physics-based weather system lets Ubisoft simulate natural, dynamic cloud formations where transitions between weather states are more fluid. For example, after a storm, clouds dissipate naturally.</li>
+<li>The dynamic weather and seasons can affect stealth. When it's raining, the sound covers your footsteps so you can move around without being heard as much. It also changes enemy patrols, as the higher classes will seek shelter from the rain. Seasons have an even greater effect, as some bushes/vegetation simply disappear in the winter months. Agriculture changes with the seasons, creating new hiding places, and snow can slow down Naoe, but not Yasuke. Finally, icicles can fall from roofs, creating noise distractions that enemies can actually hear and react to.</li>
+<li>The environmental destructibility has been optimized in the latest Anvil engine by automatically merging objects into a single object as part of the build generation process, which limits CPU processing costs as a single object in the engine represents perhaps a dozen objects in the world. Furthermore, Ubisoft have offset the increased cost in physics simulation by making greater use of the GPU instance renderer, which is the Anvil engine's state-of-the-art system for offloading objects to the GPU for rendering.</li>
+<li>On PC, the Field of View (FOV) can be tweaked from 85% to 115%. Motion blur can be toggled on and off.</li>
+<li>The game won't be officially compatible with the Steam Deck, since Valve's handheld has lower specs than the minimum requirements.</li>
+<li>Assassin's Creed Shadows supports cross-save and cross-progression.</li>
+<li>The Ubisoft launcher won't be necessary when purchasing the game on Steam.</li>
+</ul>
+<p>Ubisoft also released the official macOS specs.</p>
+<table id="table_1">
+<tbody>
+<tr>
+<td title="Character Accurarcy=0"></td>
+<td title="Character Accurarcy=99.89"><strong>SOFTWARE</strong><br>
+<strong>SELECTIVE RAY TRACING</strong></td>
+<td title="Character Accurarcy=99.96"></td>
+<td title="Character Accurarcy=99.97"></td>
+<td title="Character Accurarcy=99.95"><strong>SELECTIVE RAY TRACING</strong></td>
+<td title="Character Accurarcy=99.97"></td>
+<td title="Character Accurarcy=0"><strong>STANDARD RAY TRACING</strong></td>
+<td title="Character Accurarcy=99.97"></td>
+<td title="Character Accurarcy=99.96"></td>
+</tr>
+<tr>
+<td title="Character Accurarcy=99.32"><strong>PRESET</strong></td>
+<td title="Character Accurarcy=99.9">LOW</td>
+<td title="Character Accurarcy=99.9">MEDIUM</td>
+<td title="Character Accurarcy=99.94">HIGH</td>
+<td title="Character Accurarcy=99.89">LOW</td>
+<td title="Character Accurarcy=99.93">MEDIUM</td>
+<td title="Character Accurarcy=99.91">LOW</td>
+<td title="Character Accurarcy=99.93">MEDIUM</td>
+<td title="Character Accurarcy=99.95">HIGH</td>
+</tr>
+<tr>
+<td title="Character Accurarcy=96.82"><strong>RESOLUTION / FPS USING DYNAMIC RESOLUTION AND METALFX</strong></td>
+<td title="Character Accurarcy=94.08">720P AT 30 FPS</td>
+<td title="Character Accurarcy=97.09">1080P AT 30 FPS</td>
+<td title="Character Accurarcy=96.66">1440P AT 30 FPS</td>
+<td title="Character Accurarcy=94.91">720P AT 30 FPS</td>
+<td title="Character Accurarcy=98.21">1080P AT 30 FPS</td>
+<td title="Character Accurarcy=94.79">1080P AT 30 FPS</td>
+<td title="Character Accurarcy=99.01">1440P AT 30 FPS</td>
+<td title="Character Accurarcy=99.44">1440P AT 30 FPS</td>
+</tr>
+<tr>
+<td title="Character Accurarcy=99.94"><strong>CHIP</strong></td>
+<td title="Character Accurarcy=98.6">M1 MAX</td>
+<td title="Character Accurarcy=98.37">M1 ULTRA</td>
+<td title="Character Accurarcy=99.44">M2 ULTRA</td>
+<td title="Character Accurarcy=99.43">M3</td>
+<td title="Character Accurarcy=99.79">M4</td>
+<td title="Character Accurarcy=88.72">M3 PRO</td>
+<td title="Character Accurarcy=96.89">M4 PRO</td>
+<td title="Character Accurarcy=99.66">M3 MAX</td>
+</tr>
+<tr>
+<td title="Character Accurarcy=0"></td>
+<td title="Character Accurarcy=99.39">M2 PRO</td>
+<td title="Character Accurarcy=97.59">M2 MAX</td>
+<td title="Character Accurarcy=0"></td>
+<td title="Character Accurarcy=0"></td>
+<td title="Character Accurarcy=0"></td>
+<td title="Character Accurarcy=0"></td>
+<td title="Character Accurarcy=0"></td>
+<td title="Character Accurarcy=99.66">M4 MAX</td>
+</tr>
+</tbody>
+</table>
+<p>Pre-orders are open ahead of the new March 20 launch date. Ubisoft has <a href="https://wccftech.com/assassins-creed-shadows-delayed-again-to-march-20-while-ubisoft-appoints-advisors-to-review-potential-company-sale/" target="_blank" rel="noopener">delayed the game</a> twice in an attempt to avoid falling into the same trap of Star Wars Outlaws and other less-than-successful games released recently by the publisher.</p>
+
+			
+		</div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[South of Midnight Hands-On Preview – Bottling Up the Trauma]]></title>
             <link>https://wccftech.com/south-of-midnight-hands-on-preview-bottling-up-the-trauma/</link>
@@ -30,37 +122,6 @@
 <p><iframe title="Deep Dive and Hands On with South of Midnight | Official Xbox Podcast" width="500" height="281" src="https://www.youtube.com/embed/RTr1wDG_2U0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
 <p><span>South of Midnight scratched a particular itch in its creative storytelling. At the same time, the combat left me wanting to drop it down to the easiest difficulty and just enjoy the ride. I’ve only just begun Hazel’s folk tale, and I’m genuinely curious to see where this story leads. South of Midnight will be available on both PC and Xbox Series S|X <a href="https://wccftech.com/south-of-midnight-is-out-on-april-8/" target="_blank" rel="noopener">come April 8th, 2025</a>, with a story that will last <a href="https://wccftech.com/south-of-midnight-is-10-to-12-hours-long-story-unfolds-over-a-day/" target="_blank" rel="noopener">between 10 and 12 hours</a>.</span></p>
 <p><em><span>[Editor’s Note: South of Midnight was played on the Xbox Series X with an advance preview code provided by the publisher.]</span></em></p>
-
-			
-		</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Elden Ring Nightreign Launches on May 30th on PC and Consoles; New Trailer Released]]></title>
-            <link>https://wccftech.com/elden-ring-nightreign-release-date/</link>
-            <guid>https://www.resetera.com/threads/elden-ring-nightreign-launches-on-may-30th-on-pc-and-consoles-new-trailer-released.1106844/</guid>
-            <content:encoded><![CDATA[https://wccftech.com/elden-ring-nightreign-release-date/<br/><br/><div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			<p><a href="https://wccftech.com/elden-ring-nightreign-announced-by-fromsoftware-for-pc-and-consoles/">Elden Ring Nightreign</a> will launch in late May on PC, PlayStation 5, Xbox Series X and Xbox Series S, publisher Bandai Namco confirmed today.</p>
-<p>The co-op survival adventure developed by FromSoftware will launch worldwide on May 30th. Besides the game's Standard Edition, multiple editions of the game will also be released on the same day, including additional goodies such as Digital Artbook and Soundtrack for the Deluxe Edition and the Seekers Edition, which will also include an additional Steelbook. The real star of the Elden Ring Nightreign special editions, however, will be the Collector's Edition, which includes every goodie included in the Deluxe Edition, the same Steelbook included in the Seekers Edition, eight Nightfarer Cards, a hardcover Artbook and a ~25 cm Wylder Nightfarer statue. Die-hard fans of Elden Ring will also be able to purchase a 1:1 scale, prop-quality replica of the Wylder character helmet. Only 9,999 pieces of the helmet will be produced, so it will be a rather exclusive item. All the game's editions and the Wylder helmet replica are also available for <a href="https://it.bandainamcoent.eu/elden-ring/elden-ring-nightreign/shop-now?utm_campaign=Preorder-EldenRingNightreign&amp;utm_medium=official_post&amp;utm_source=SM_Official" target="_blank" rel="noopener">pre-order</a>.</p>
-<figure>
-<div>
-
-<div>
-		
-		
-		<p><span>2 of 9</span>
-	</p></div></div>
-</figure>
-
-
-<p>To celebrate the release date announcement, a new Elden Ring Nightreign trailer was also released today. You can check it out below.</p>
-<p><iframe title="ELDEN RING NIGHTREIGN | Official Pre-Order Trailer" width="500" height="281" src="https://www.youtube.com/embed/Z_fmEDsQPh4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
-<p>Elden Ring Nightreign launches on May 30th on PC, PlayStation 5, Xbox Series X and Xbox Series S. Select players will be able to get a first taste of the experience this weekend with the Closed Network Test.</p>
 
 			
 		</div></div>]]></content:encoded>

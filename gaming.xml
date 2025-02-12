@@ -4,9 +4,280 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Wed, 12 Feb 2025 18:08:35 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 12 Feb 2025 18:23:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Assassin’s Creed Shadows Shows Off the Improved Anvil Engine, Shares New Tech Info]]></title>
+            <link>https://wccftech.com/assassins-creed-shadows-shows-off-the-improved-anvil-engine-shares-new-tech-info/</link>
+            <guid>https://www.resetera.com/threads/assassin%E2%80%99s-creed-shadows-shows-off-the-improved-anvil-engine-shares-new-tech-info.1107063/</guid>
+            <content:encoded><![CDATA[https://wccftech.com/assassins-creed-shadows-shows-off-the-improved-anvil-engine-shares-new-tech-info/<br/><br/><div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>Today, Ubisoft <a href="https://www.youtube.com/watch?v=Xs2w3qSEBCs" target="_blank" rel="noopener">shared</a> a new Assassin's Creed Shadows video to showcase the improvements of the latest Anvil Engine. This is largely what we covered <a href="https://wccftech.com/assassins-creed-shadows-gamescom-preview-the-most-visually-advanced-assassins-creed-to-date/" target="_blank" rel="noopener">in our Gamescom 2024 article</a> and the recent <a href="https://wccftech.com/assassins-creed-shadows-pc-requirements-revealed-rtx-4090-for-4k60-with-max-ray-tracing/" target="_blank" rel="noopener">PC specs reveal</a>, albeit in a video format.</p>
+<p>Assassin's Creed Shadows features dynamic seasons, environmental destruction, dynamic wind and environmental particles, ray traced global illumination and reflections, and Nanite-like virtualized geometry. On PC, players will enjoy uncapped frame rate, Ultra-wide resolution support, dynamic resolution scaling support, an in-game benchmark tool, high customization for both graphics and gameplay, 'wide support for low and medium end' configurations, as well as all available upscaling and frame generation technologies. Intel XeSS 2 was singled out <a href="https://wccftech.com/ubisoft-intel-official-cpu-gpu-partner-assassins-creed-shadows-game-bundle-core-cpus-arc-gpus/" target="_blank" rel="noopener">as part of Ubisoft's partnership with Intel for the game</a>, which will be specially optimized for Intel Core Ultra processors.</p>
+<p><iframe title="Assassin's Creed Shadows: PC &amp; New-Gen Features Trailer" width="500" height="281" src="https://www.youtube.com/embed/Xs2w3qSEBCs?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+<p>Ubisoft also <a href="https://www.ubisoft.com/en-gb/game/assassins-creed/news/4XbPPtFyQEtIMWrA9xVDmZ/assassins-creed-shadows-tech-qa" target="_blank" rel="noopener">answered</a> several technical questions from Reddit fans:</p>
+<ul>
+<li>The PlayStation 5 and Xbox Series S|X versions of the game will both have a 4K upscaled, 60 FPS Performance Mode. There was no mention of PS5 Pro enhancements.</li>
+<li>The Selective ray tracing preset will only apply ray traced effects to the Hideouts rather than the open world.</li>
+<li>The new Atmos physics-based weather system lets Ubisoft simulate natural, dynamic cloud formations where transitions between weather states are more fluid. For example, after a storm, clouds dissipate naturally.</li>
+<li>The dynamic weather and seasons can affect stealth. When it's raining, the sound covers your footsteps so you can move around without being heard as much. It also changes enemy patrols, as the higher classes will seek shelter from the rain. Seasons have an even greater effect, as some bushes/vegetation simply disappear in the winter months. Agriculture changes with the seasons, creating new hiding places, and snow can slow down Naoe, but not Yasuke. Finally, icicles can fall from roofs, creating noise distractions that enemies can actually hear and react to.</li>
+<li>The environmental destructibility has been optimized in the latest Anvil engine by automatically merging objects into a single object as part of the build generation process, which limits CPU processing costs as a single object in the engine represents perhaps a dozen objects in the world. Furthermore, Ubisoft have offset the increased cost in physics simulation by making greater use of the GPU instance renderer, which is the Anvil engine's state-of-the-art system for offloading objects to the GPU for rendering.</li>
+<li>On PC, the Field of View (FOV) can be tweaked from 85% to 115%. Motion blur can be toggled on and off.</li>
+<li>The game won't be officially compatible with the Steam Deck, since Valve's handheld has lower specs than the minimum requirements.</li>
+<li>Assassin's Creed Shadows supports cross-save and cross-progression.</li>
+<li>The Ubisoft launcher won't be necessary when purchasing the game on Steam.</li>
+</ul>
+<p>Ubisoft also released the official macOS specs.</p>
+<table id="table_1">
+<tbody>
+<tr>
+<td title="Character Accurarcy=0"></td>
+<td title="Character Accurarcy=99.89"><strong>SOFTWARE</strong><br>
+<strong>SELECTIVE RAY TRACING</strong></td>
+<td title="Character Accurarcy=99.96"></td>
+<td title="Character Accurarcy=99.97"></td>
+<td title="Character Accurarcy=99.95"><strong>SELECTIVE RAY TRACING</strong></td>
+<td title="Character Accurarcy=99.97"></td>
+<td title="Character Accurarcy=0"><strong>STANDARD RAY TRACING</strong></td>
+<td title="Character Accurarcy=99.97"></td>
+<td title="Character Accurarcy=99.96"></td>
+</tr>
+<tr>
+<td title="Character Accurarcy=99.32"><strong>PRESET</strong></td>
+<td title="Character Accurarcy=99.9">LOW</td>
+<td title="Character Accurarcy=99.9">MEDIUM</td>
+<td title="Character Accurarcy=99.94">HIGH</td>
+<td title="Character Accurarcy=99.89">LOW</td>
+<td title="Character Accurarcy=99.93">MEDIUM</td>
+<td title="Character Accurarcy=99.91">LOW</td>
+<td title="Character Accurarcy=99.93">MEDIUM</td>
+<td title="Character Accurarcy=99.95">HIGH</td>
+</tr>
+<tr>
+<td title="Character Accurarcy=96.82"><strong>RESOLUTION / FPS USING DYNAMIC RESOLUTION AND METALFX</strong></td>
+<td title="Character Accurarcy=94.08">720P AT 30 FPS</td>
+<td title="Character Accurarcy=97.09">1080P AT 30 FPS</td>
+<td title="Character Accurarcy=96.66">1440P AT 30 FPS</td>
+<td title="Character Accurarcy=94.91">720P AT 30 FPS</td>
+<td title="Character Accurarcy=98.21">1080P AT 30 FPS</td>
+<td title="Character Accurarcy=94.79">1080P AT 30 FPS</td>
+<td title="Character Accurarcy=99.01">1440P AT 30 FPS</td>
+<td title="Character Accurarcy=99.44">1440P AT 30 FPS</td>
+</tr>
+<tr>
+<td title="Character Accurarcy=99.94"><strong>CHIP</strong></td>
+<td title="Character Accurarcy=98.6">M1 MAX</td>
+<td title="Character Accurarcy=98.37">M1 ULTRA</td>
+<td title="Character Accurarcy=99.44">M2 ULTRA</td>
+<td title="Character Accurarcy=99.43">M3</td>
+<td title="Character Accurarcy=99.79">M4</td>
+<td title="Character Accurarcy=88.72">M3 PRO</td>
+<td title="Character Accurarcy=96.89">M4 PRO</td>
+<td title="Character Accurarcy=99.66">M3 MAX</td>
+</tr>
+<tr>
+<td title="Character Accurarcy=0"></td>
+<td title="Character Accurarcy=99.39">M2 PRO</td>
+<td title="Character Accurarcy=97.59">M2 MAX</td>
+<td title="Character Accurarcy=0"></td>
+<td title="Character Accurarcy=0"></td>
+<td title="Character Accurarcy=0"></td>
+<td title="Character Accurarcy=0"></td>
+<td title="Character Accurarcy=0"></td>
+<td title="Character Accurarcy=99.66">M4 MAX</td>
+</tr>
+</tbody>
+</table>
+<p>Pre-orders are open ahead of the new March 20 launch date. Ubisoft has <a href="https://wccftech.com/assassins-creed-shadows-delayed-again-to-march-20-while-ubisoft-appoints-advisors-to-review-potential-company-sale/" target="_blank" rel="noopener">delayed the game</a> twice in an attempt to avoid falling into the same trap of Star Wars Outlaws and other less-than-successful games released recently by the publisher.</p>
+
+			
+		</div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Marvel Rivals Launching Perfect Couples Costumes on Valentine’s Day]]></title>
+            <link>https://insider-gaming.com/marvel-rivals-launching-perfect-couples-costumes-on-valentines-day/</link>
+            <guid>https://www.resetera.com/threads/marvel-rivals-launching-perfect-couples-costumes-on-valentine%E2%80%99s-day.1107057/</guid>
+            <content:encoded><![CDATA[https://insider-gaming.com/marvel-rivals-launching-perfect-couples-costumes-on-valentines-day/<br/><br/><div id="readability-page-1" class="page"><div>
+		
+<p>If you’re only going to be married to Marvel Rivals on Valentine’s Day, then the perfect costume bundle will be there for you if no one else will be. The 60th Wedding Anniversary Combo Bundle is releasing on February 14, featuring wedding outfits for both Mister Fantastic and Invisible Woman.</p>
+
+
+
+<p>Somewhere, Namor is crying, but you can’t tell because he’s underwater.</p>
+
+
+
+<h2 id="h-mister-fantastic-amp-invisible-woman-celebrate-their-anniversary-in-marvel-rivals">Mister Fantastic &amp; Invisible Woman Celebrate Their Anniversary in Marvel Rivals</h2>
+
+
+
+<p>Inspired by The Life Fantastic series and the 2005 Wedding Special comic, the new costumes in Marvel Rivals celebrate the 60th wedding anniversary of Mister Fantastic and Invisible Woman. Both members of the Fantastic Four look their best in a stunning tuxedo and gorgeous wedding dress.</p>
+
+
+
+<p>According to Marvel Rivals insider Miller Ross, both costumes will be <a href="https://x.com/mmmmmmmmiller/status/1889706032676348258" target="_blank" rel="noreferrer noopener">permanent additions</a> to the store. Each outfit can be bought on its own for 2,200 units, and includes the costume, an MVP animation, a nameplate, a spray, and an emote. The bundle that combines both of them is surely the better value, as you get both costumes and all the add-ons for just 2,800 units.</p>
+
+
+
+<p>However, players also have the chance to pick up the bundle for free, by playing quickmatch at the same time and on the same server as a popular streamer. Streamers like Nadeshot, Emiru, and TimTheTatman <a href="https://www.marvelrivals.com/events/20250212/40956_1211432.html" target="_blank" rel="noreferrer noopener">are all participating</a> from February 12 to 13.</p>
+
+
+
+<p>In-game purchases like costumes and battle passes have been the focal point of revenue for the free-to-play game. While no official numbers have been released, Chinese outlet Gamelook <a href="http://www.gamelook.com.cn/2025/01/562110/" target="_blank" rel="noreferrer noopener">estimated</a> back in January that the game has pulled in “around 1 billion Yuan,” or around $136 million USD. This figure can be attributed to its large player base and consumer-friendly seasonal content plan, with developer NetEase <a href="https://insider-gaming.com/marvel-rivals-to-get-two-heroes-every-3-months/" target="_blank" rel="noreferrer noopener">committing to the release of two new heroes each month</a>.</p>
+
+
+
+<p>Are the Mister Fantastic and Invisible Woman wedding anniversary skins ones you’ll pick up? Let us know in the comments or on our new&nbsp;<a href="https://insider-gaming.com/forum/" target="_blank" rel="noreferrer noopener">community forum</a>!</p>
+
+
+
+<hr>
+
+
+
+<p>For more coverage from Insider Gaming, read&nbsp;about&nbsp;<a href="https://insider-gaming.com/marvel-rivals-cancels-mid-season-rank-reset/" target="_blank" rel="noreferrer noopener">NetEase’s decision to cancel mid-season rank resets in Marvel Rivals</a>.&nbsp;Don’t forget to&nbsp;<a href="https://insider-gaming.com/subscribe" target="_blank" rel="noreferrer noopener">sign up for our weekly newsletter</a>.&nbsp;</p>
+    <div id="ig-newsletter-holder">
+            <p><span>
+                    SUBSCRIBE to our newsletter to receive the latest news and exclusive leaks every week! No Spam.
+                </span>
+            </p>
+            
+        </div>
+
+	</div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[The Hungry Lamb: Traveling in the Late Ming Dynasty coming to Switch on March 13]]></title>
+            <link>https://www.gematsu.com/2025/02/the-hungry-lamb-traveling-in-the-late-ming-dynasty-coming-to-switch-on-march-13</link>
+            <guid>https://www.resetera.com/threads/the-hungry-lamb-traveling-in-the-late-ming-dynasty-coming-to-switch-on-march-13.1107051/</guid>
+            <content:encoded><![CDATA[https://www.gematsu.com/2025/02/the-hungry-lamb-traveling-in-the-late-ming-dynasty-coming-to-switch-on-march-13<br/><br/><div id="readability-page-1" class="page"><div>
+
+    <ul>
+    <li><a href="https://www.gematsu.com/platforms/nintendo/switch">Switch</a></li>    </ul>
+
+    
+    <p><span>Currently available for PC.</span>
+      </p></div><div><p>Publisher <a title="Companies > 2P Games [10 articles]" href="https://www.gematsu.com/companies/2p-games">2P Games</a> and publisher and developer <a title="Companies > Zerocreation Games" href="https://www.gematsu.com/companies/zerocreation-games">Zerocreation Games</a> will release <a title="Genres > Visual Novel [528 articles]" href="https://www.gematsu.com/genres/visual-novel">visual novel</a> <em><a title="Games > The Hungry Lamb: Traveling in the Late Ming Dynasty" href="https://www.gematsu.com/games/the-hungry-lamb-traveling-in-the-late-ming-dynasty">The Hungry Lamb: Traveling in the Late Ming Dynasty</a></em> for <a title="Platforms > Switch [16,630 articles]" href="https://www.gematsu.com/platforms/nintendo/switch">Switch</a> on March 13, the companies <a href="https://store-jp.nintendo.com/item/software/D70010000089975" target="_blank">announced</a>. It will support English, Japanese, Traditional Chinese, and Simplified Chinese language options. <span id="more-943371"></span></p><p><em>The Hungry Lamb: Traveling in the Late Ming Dynasty</em> first launched for PC via <a href="https://store.steampowered.com/app/2593370/The_Hungry_Lamb_Traveling_in_the_Late_Ming_Dynasty/" target="_blank">Steam</a> on April 22, 2024.</p><p>Here is an overview of the game, via its <a href="https://store.steampowered.com/app/2593370/The_Hungry_Lamb_Traveling_in_the_Late_Ming_Dynasty/" target="_blank">Steam page</a>:</p><blockquote><p><strong>About</strong></p><p>Trek across ancient China in a dark, boundary-pushing visual novel inspired by traditional Chinese art with modern animation. Escort four girls to the prosperous city of Luoyang in a branching narrative with themes of revenge, cannibalism, involuntary servitude, and more on a redemptive journey.</p><p><strong>A Collapsing Empire</strong></p><!-- AD: content -->
+        <p>During Chongzhen’s Reign (A.D. 1628-1644), land annexation reached unmitigated extremes, the country faced domestic issues and foreign invasions, coinciding with the catastrophic Little Ice Age. After many years of horrid disasters in succession one after another, the Ming court continued to impose inhumane policies resulting in widespread starvation and leading to the rise of multiple rebellions against the court.</p><p><strong>A Travelling with Desperados</strong></p><p>Liang the bandit, and his companion are commissioned for a job from an unsavory merchant and must escort four girls to a wealthy lord in the city of Luoyang. They must pass through Huazhou, Wenxiang, Shanzhou, and finally reach their destination of Luoyang.</p><p>Liang initially believes that the girls he is escorting will be sold to the wealthy lord as adopted daughters to begin a new life. However, one of the four girls named “Sui” reveals the hidden secret of their journey to Luoyang.</p><p>The lord is a swine demon who has practiced devouring young ladies for over a thousand years. Every year on his birthday, he dispatches human traffickers to abduct girls from Shan in celebration of his special day. Sui’s sister was among the many who have fallen victim to the demon’s appetite.</p><p>Sui is hopeful that Liang will end the escort and join her in assassinating the swine demon to avenge her sister, and those who have perished in recent years. Although Liang wants to believe Sui, there are too many inconsistencies in her story. Throughout the journey, Liang will gather information, unravel the truth, and make his decisions accordingly.</p><p><strong>Lamb that Chooses to Be a Wolf</strong></p><ul><li><strong>Liang</strong> – Play as Liang, the main character and protagonist. His family has run a successful business for years, but Liang never saw himself as his father’s successor. Instead, he would rather travel the world as a hero and visit as many new locations as possible. The day of the Great Tianqi Explosion in 1626, was the day Liang lost everything. After becoming a refugee with nothing left to his name, he turned to a life of <a title="Companies > crim [22 articles]" href="https://www.gematsu.com/companies/crim">crim</a>e. Liang became a bandit and makes a living by killing others for loot.</li><li><strong>Sui</strong> (voiced by Rie Kugimiya in Japanese, Hanser in Chinese) – Sui, a nine-year-old mute born in Luoyang. Her sister was killed by the swine demon that also dwells in Luoyang. To avenge her sister’s death, she intentionally let her self-become abducted to get close to the demon and assassinate him. Some, or all of the above statement is false, part of Sui’s untrustworthy nature.</li><li><strong>Tongue</strong> (voiced by Kazuma Horie in Japanese, Lengquan Yeyue in Chinese) Liang’s partner Tongue, the silver-tongued devil who is motivated by greed. When they work jobs together, Liang executes their target’s lives while Tongue works on securing loot.</li><li><strong>QuiongHua</strong> (voiced by Risa Shimizu in Japanese, Hualing in Chinese) – A girl from an authoritative family that was abducted by human traffickers. It is said to be a distant relative of governor general Yuan.</li><li><strong>Hong’er</strong> (voiced by Hiroko Watanabe in Japanese, Shi Yan in Chinese) – One of the two sisters from Northern Shannxi who was sold by her parents in a year of turmoil. She is full of vigor and an honest person, who cares deeply about her sister.</li><li><strong>Cui’er</strong> (voiced by Yuina Yamada in Japanese, Liu Yilei in Chinese) – One of the two sisters from Northern Shannxi, also sold by her parents. She is charming, pure of heart, and is also very dependent on her older sister.</li><li><strong>Kite</strong> (voiced by Hiroko Watanabe in Japanese, Yu Shan in Chinese) – An old friend of Liang, who owns an inn outside of Haizhou city.</li><li><strong>The Dashing King</strong> (voiced by Kazuma Horie in Japanese, Cheng Zhichao in Chinese) – In the fifth year of Chongzhen (1633), a rebel leader came to Jin from Shan and called himself the “Dashing King.”</li><li><strong>Swine Demon</strong> (voiced by Katsuya Miyamoto in Japanese, Wang Xigua in Chinese) – The swine demon disguised as a wealthy lord that devours young girls on his birthday for thousands of years, according to Sui. He is also the one who has commissioned Liang to escort the four girls to the city of Luoyang.</li></ul><p><strong>Unescapable Karma</strong></p><p>There are a variety of different endings and branch options, but good deeds cannot be rewarded during times of war. Pay for the crimes Liang has committed and suffer the consequences.</p><p>In addition to a rich storyline, our goal is to achieve the highest level of quality in a Chinese visual novel. Implementing a unique combination of traditional Chinese art and animation style, focusing on impasto painting technique. We rigorously follow the clothing, architecture, environment and other elements of the late Ming Dynasty, to bring both the historical atmosphere and visually appealing aesthetic to our audience.</p><p>We also strive to achieve the highest level of authenticity in terms of sound quality. Music and sound effects will be composed by Lin Fangzhou, alongside our producer who will also provide direction and creative input. Leng Quan Ye Yue will lead as the voice recording director, working alongside talents like Hanser, Hua Ling (<a title="Games > Genshin Impact [122 articles]" href="https://www.gematsu.com/games/genshin-impact">Genshin Impact</a>, <a title="Games > Honkai: Star Rail [35 articles]" href="https://www.gematsu.com/games/honkai-star-rail">Honkai: Star Rail</a>), and others.</p><p><strong>Key Features</strong></p><ul><li>A mystery <a title="Genres > Horror [554 articles]" href="https://www.gematsu.com/genres/horror">horror</a> story around dark themes.</li><li>features 260,000 words of non-repetitive text and nine different endings, providing players with a high degree of decision making</li><li>Full voice-over lines with a professional cast.</li><li><a title="Companies > Experience [210 articles]" href="https://www.gematsu.com/companies/experience">Experience</a> the Chinese culture by immersing yourself in the history, the art, the music &amp; the amazing voice-over acting.</li></ul><p><strong>Staff</strong></p><ul><li><strong>Production Team:</strong> Zerocreation Games</li><li><strong>Producer / Script/ Performance:</strong> Zero</li><li><strong>Character Design</strong> (for main and supporting characters): Hutao-o-Jiazi, Haishen</li><li><strong>Scene Design:</strong> fronzenX</li><li><strong>CG Director:</strong> Pazidinglu、Hutao-o-Jiazi, Huoji</li><li><strong>Character Design</strong> (for NPCs): Ziyinyin</li><li><strong>Diagram Design:</strong> Chazi</li><li><strong>Programming:</strong> Yaoshu</li><li><strong>Script / Performance Assistant:</strong> ice935, Jiuyue</li><li><strong>Art Assistant:</strong> Huoji, Xiaogutou</li><li><strong>Interface Design / Art Promotion:</strong> Xiazhongmao</li><li><strong>Sound Design:</strong> Lin Fangzhou</li><li><strong>Chinese Voice Recording Director:</strong> Lengquan Yeyue</li><li><strong>Chinese Voice Cast:</strong> hanser, Lengquan Yeyue, Hualing, Shi Yan, Liu Yile, Cheng Zhichao, Wang Xigua, Yu Shan, etc.</li></ul></blockquote></div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Fortnite May Be Gearing Up For Fast & Furious Season]]></title>
+            <link>https://www.gamespot.com/articles/fortnite-may-be-gearing-up-for-fast-furious-season/1100-6529442/?ftag=CAD-01-10abi2f</link>
+            <guid>https://www.resetera.com/threads/fortnite-may-be-gearing-up-for-fast-furious-season.1107045/</guid>
+            <content:encoded><![CDATA[https://www.gamespot.com/articles/fortnite-may-be-gearing-up-for-fast-furious-season/1100-6529442/?ftag=CAD-01-10abi2f<br/><br/><div id="readability-page-1" class="page"><p>
+    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
+  </p><article itemscope="" data-type-id="1100" data-guid="1100-6529442">
+
+            
+            
+  
+
+
+        
+
+  
+
+
+        
+        
+              <section>
+
+                  
+          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
+                <p>There have been some rumblings in the past couple weeks that Fortnite would be collaborating with the Fast &amp; Furious movie franchise in the very near future--and those leaks took on a whole new meaning on Wednesday when we saw the very first teaser image for Chapter 6 Season 2, which showed a new version of Midas wearing Dominic Toretto's signature sleeveless black tee and gold chain--alongside a new season title, Lawless, and the launch date, February 21.</p><figure data-align="center" data-size="large" data-img-src="https://www.gamespot.com/a/uploads/scale_super/1757/17577455/4442845-fortnitec6s2teaser.jpg" data-ref-id="1300-4442845" data-ratio="0.5625" data-width="2560" data-embed-type="image"><a href="https://www.gamespot.com/a/uploads/scale_super/1757/17577455/4442845-fortnitec6s2teaser.jpg" data-ref-id="1300-4442845"></a><figcaption>Fortnite's Lawless season starts very soon.</figcaption><img src="https://www.gamespot.com/a/uploads/scale_super/1757/17577455/4442845-fortnitec6s2teaser.jpg"></figure><p>You can see it there just the left of the season title--Midas Toretto right there on a wanted poster. It's an image that puts an entirely new spin on some recent leaks that had seemed pretty run of the mill initially. Specifically, there were two leaks: that Dom's Dodge Charger <a href="https://x.com/SamLeakss/status/1886129604877804000" data-target="true" target="_blank" rel="noopener nofollow">would finally be ported</a> from Rocket League to Fortnite, and that Dominic Toretto (Vin Diesel) and Han Lue (Sung Kang) <a href="https://x.com/Loolo_WRLD/status/1888663806428975496" data-target="true" target="_blank" rel="noopener nofollow">would be getting skins</a>.</p><p>Since two Fast &amp; Furious cars were just brought over from Rocket League in the fall, it wasn't that big a deal to learn that others would follow. Rocket League has released five different Fast &amp; Furious cars over the years, and it only made sense to keep porting them. But the word that we'd be getting skins for Dom and Han made it clear that this stage of the Fast &amp; Furious collab would be a bigger deal--it indicated that Han's Mazda RX-7, also in Rocket League, could arrive imminently as well, for one thing. But now we have to also wonder if we might be getting one of these new character skins in the battle pass.</p><figure data-align="center" data-size="large" data-img-src="https://www.gamespot.com/a/uploads/original/1757/17577455/4442889-dominictorettofortnite.jpg" data-ref-id="1300-4442889" data-ratio="0.5625" data-width="1600" data-embed-type="image"><a href="https://www.gamespot.com/a/uploads/original/1757/17577455/4442889-dominictorettofortnite.jpg" data-ref-id="1300-4442889"></a><figcaption>Dominic Toretto's signature look.</figcaption><img src="https://www.gamespot.com/a/uploads/original/1757/17577455/4442889-dominictorettofortnite.jpg"></figure><p>This first official teaser, now, is only going to ramp up the speculation about whether this means that Chapter 6 Season 2 is an outright Fast &amp; Furious season. It's an exciting prospect for those who enjoy Fortnite's car-based gameplay, but it might inspire fear in the folks who detested last summer's divisive Wrecked season. But since the cars in Fast &amp; Furious are not usually weapon platforms, it's doubtful this car-based season would be quite as ridiculous as that one was.</p><p>Fortnite Chapter 6 Season 2 starts on Friday, February 21, and it's very gradually starting to come into focus as the big day inches closer and closer. We're tracking <a href="https://www.gamespot.com/articles/fortnite-chapter-6-season-2-start-date-theme-battle-pass-leaks-and-rumors/1100-6529339/" data-ref-id="1100-6529339">all the rumors and leaks about upcoming content in the new season right over here</a>, so you don't have to.</p>
+  
+                        
+    
+        
+        
+  
+                                  </div>
+
+          
+        
+                        
+            <span>
+        <a itemprop="reviewer" href="https://plus.google.com/112115755814061051052?rel=author">Phil Owen</a> on Google+
+      </span>
+      
+                    
+  
+    
+          
+            
+  <div>
+    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
+
+    
+      </div>
+        
+      </section>
+    
+            
+    </article></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[PowerWash Simulator's Wallace & Gromit DLC has a release date]]></title>
+            <link>https://www.eurogamer.net/powerwash-simulators-wallace-gromit-dlc-has-a-release-date</link>
+            <guid>https://www.resetera.com/threads/powerwash-simulators-wallace-gromit-dlc-has-a-release-date.1107039/</guid>
+            <content:encoded><![CDATA[https://www.eurogamer.net/powerwash-simulators-wallace-gromit-dlc-has-a-release-date<br/><br/><div id="readability-page-1" class="page"><div data-component="article-header">
+  
+
+    
+
+
+  <p>
+  <figure>
+  <a href="https://assetsio.gnwcdn.com/powerwash-w%26g.jpg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
+  
+  </a>
+
+      <figcaption>
+        <span>
+Image credit:          <cite>FuturLab/Eurogamer</cite>
+        </span>
+      </figcaption>
+  </figure>
+  </p>
+
+    
+
+</div><div data-component="article-content">
+
+
+
+            <p>
+Wallace &amp; Gromit are trading claymation for spray-mation on 4th March, when the beloved duo gets the muck-blasting <a data-keyword="true" href="https://www.eurogamer.net/games/powerwash-simulator">PowerWash Simulator</a> treatment in a new paid DLC.
+</p>
+<p>
+PowerWash Simulator's Wallace &amp; Gromit Special Pack was announced back in January - amid praise for the duo's recent movie release, Vengeance Most Fowl - when a "cracking cleaning adventure" for nozzle-hoisters was teased, spanning 62 West Wallaby Street and beyond.
+</p>
+<p>
+Today's release date announcement - which happens to coincide with Gromit's birthday - doesn't offer much more in the way of specifics, but previous word from developer Futurlab said players would be de-griming locations including "charming British suburbs" and "cheesy celestial bodies." Some of those can be glimpsed in the <a href="https://www.youtube.com/watch?v=aoDeGKEbAMQ">release date trailer</a> below.
+</p>
+<figure>
+<p>
+<a aria-label="PowerWash Simulator | Wallace &amp; Gromit Special Pack Release Date Trailer" data-lightbox="false" data-platform="youtube" href="https://www.youtube.com/embed/aoDeGKEbAMQ?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
+<span>PowerWash Simulator | Wallace &amp; Gromit Special Pack Release Date Trailer</span>
+<template>
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/aoDeGKEbAMQ?autoplay=1" frameborder="0" loading="lazy" src="https://www.youtube-nocookie.com/embed/aoDeGKEbAMQ?autoplay=1" title="PowerWash Simulator | Wallace &amp; Gromit Special Pack Release Date Trailer">
+</iframe> </template>
+</a>
+</p>
+<a href="https://www.youtube.com/watch?v=aoDeGKEbAMQ" rel="noopener" target="_blank">Watch on YouTube</a></figure>
+<p>
+FuturLab's Wallace &amp; Gromit Special Pack brings PowerWash Simulator's paid DLC releases up to six, following on from expansions themed around Shrek, Warhammer 40K, Back to the Future, SpongeBob SquarePants, and Alice in Wonderland.
+</p>
+<p>
+PowerWash Simulator's Wallace &amp; Gromit Special Pack will be available for PlayStation 4, PS5, Xbox One, Xbox Series X/S, Switch, and PC when it launches on 4th March. It won't, however, release on Meta Quest following <a href="https://www.eurogamer.net/powerwash-sim-kills-off-vr-support-in-bid-to-provide-job-security-for-the-team">FuturLab's decision to end support for the VR version</a> in order to provide "job security" for the team.
+</p></div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Elden Ring Nightreign Considering Allowing Just Two Players]]></title>
             <link>https://insider-gaming.com/elden-ring-nightreign-considering-allowing-just-two-players/</link>
@@ -1095,272 +1366,6 @@ Image credit:          <cite>Crytek</cite>
         </div>
 
 	</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Twisted Tower demo now available]]></title>
-            <link>https://www.gematsu.com/2025/02/twisted-tower-demo-now-available</link>
-            <guid>https://www.resetera.com/threads/twisted-tower-demo-now-available.1106880/</guid>
-            <content:encoded><![CDATA[https://www.gematsu.com/2025/02/twisted-tower-demo-now-available<br/><br/><div id="readability-page-1" class="page"><div>
-
-    <ul>
-    <li><a href="https://www.gematsu.com/platforms/pc">PC</a></li>    </ul>
-
-    
-    <p><span>Play through the first couple of floors of the Twisted Tower.</span>
-      </p></div><div><p>Publisher <a title="Companies > 3D Realms [80 articles]" href="https://www.gematsu.com/companies/saber-interactive/3d-realms">3D Realms</a> and Pinstripe developer <a title="Companies > Atmos Games [1 article]" href="https://www.gematsu.com/companies/atmos-games">Atmos Games</a> have released a demo for “<em>Willy Wonka</em> meets <em>BioShock</em>” <a title="Genres > First-Person Shooter [2,599 articles]" href="https://www.gematsu.com/genres/shooter/fps">first-person shooter</a> <em><a title="Games > Twisted Tower [2 articles]" href="https://www.gematsu.com/games/twisted-tower">Twisted Tower</a></em> for <a title="Platforms > PC [22,314 articles]" href="https://www.gematsu.com/platforms/pc">PC</a> via <a href="https://store.steampowered.com/app/2506090/Twisted_Tower_Demo/" target="_blank">Steam</a>. <span id="more-943178"></span></p><p>Here is an overview of the demo and game, via Atmos:</p><blockquote><p><strong>About the Demo</strong></p><p>The <em>Twisted Tower</em> demo starts you on the beach of the Twisted Tower, and takes you through the first couple of floors of the haunting tower. You’ll encounter four twisted enemies, three unique weapons (along with their secondary fire capabilities), and a handful of characters to meet as you make your way through the haunting, twisting park.</p><p><strong>About the Game</strong></p><p>Step right up to the Twisted Tower! Careful though! Our silly mascots may be looking for a hug, and our carnival rides might need some screws tightened…</p><!-- AD: content -->
-        <p>So what do you say, chap? Are you tough enough to make it to the top of the tower and win that incredible prize?</p><p>Here’s what your ticket will get you upon entering the magical resort:</p><ul><li>Explore an abandoned 1950’s resort reminiscent of BioShock and Disney World.</li><li>Get lost in 5 hauntingly beautiful levels: the hotel, the waterpark, the clown casino, the carnival forest, and the fairy-tale castle.</li><li>Punchy, bloody gunplay with corrupted fairy-tale mascots.</li><li>Immerse yourself in a mysterious and emotional story.</li><li>Choose from dozens of unique paths, ensuring the game is unique and fresh for every player!</li><li>Upgrade your toyish arsenal, including: a whack-a mole mallet, rubber-band pistol, dart throwin’ Tommy Gun, fartin’ shotgun, bubblegum spittin’ chain-gun, sniper slingshot, skull-poppin’ magical wand, and more.</li><li>Collect bizarre toys to assist you in jumping, dashing, and grappling your way up the tower.</li></ul></blockquote><p><em>Twisted Tower</em> will be available for PC via <a href="https://store.steampowered.com/app/1575990/Twisted_Tower/" target="_blank">Steam</a>. A release date has yet to be announced.</p><p>Watch a new trailer below.</p><h2><span>Demo Trailer</span></h2><p><iframe title="Twisted Tower — Demo Trailer" width="500" height="281" src="https://www.youtube.com/embed/Ofra7536RMI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p></div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Kaleidoscope of Phantom Prison II demo now available in Japan]]></title>
-            <link>https://www.gematsu.com/2025/02/kaleidoscope-of-phantom-prison-ii-demo-now-available-in-japan</link>
-            <guid>https://www.resetera.com/threads/kaleidoscope-of-phantom-prison-ii-demo-now-available-in-japan.1106874/</guid>
-            <content:encoded><![CDATA[https://www.gematsu.com/2025/02/kaleidoscope-of-phantom-prison-ii-demo-now-available-in-japan<br/><br/><div id="readability-page-1" class="page"><div>
-
-    <ul>
-    <li><a href="https://www.gematsu.com/platforms/playstation/ps4">PS4</a></li><li><a href="https://www.gematsu.com/platforms/nintendo/switch">Switch</a></li>    </ul>
-
-    
-    <p><span>Full game due out on March 14.</span>
-      </p></div><div><p>A demo for <a title="Genres > Visual Novel [528 articles]" href="https://www.gematsu.com/genres/visual-novel">visual novel</a> sequel <em><a title="Games > Kaleidoscope of Phantom Prison II [2 articles]" href="https://www.gematsu.com/games/kaleidoscope-of-phantom-prison-ii">Kaleidoscope of Phantom Prison II</a></em> is now available for <a title="Platforms > PS4 [27,688 articles]" href="https://www.gematsu.com/platforms/playstation/ps4">PlayStation 4</a> via <a href="https://store.playstation.com/ja-jp/product/JP0741-CUSA51966_00-GEROKASU2DEMO000" target="_blank">PlayStation Store</a> and <a title="Platforms > Switch [16,630 articles]" href="https://www.gematsu.com/platforms/nintendo/switch">Switch</a> via <a title="Platforms > Nintendo [21,450 articles]" href="https://www.gematsu.com/platforms/nintendo">Nintendo</a> eShop in Japan. <span id="more-943319"></span></p><p>Here is an overview of the game, via <a title="Companies > Entergram [198 articles]" href="https://www.gematsu.com/companies/entergram">Entergram</a>:</p><blockquote><p><strong>About</strong></p><p>“Let’s have a little reunion, just the four of us.”</p><p>Remon, Shian, Murasaki, and Korone—a group of four close friends who were considered “oddballs” back in middle school.</p><p>Over time, they drifted apart, each leading their own high school lives. In the summer of their third year in high school, Korone—the lively mood maker who brought the oddballs together—reaches out after a long time.</p><!-- AD: content -->
-        <p>Looking forward to their reunion, they all arrive at the meeting place… or so they thought.</p><p>When they regain consciousness, they find themselves in a small room with no exit. The room is decorated as if themed after <em>Alice in Wonderland</em>. In each corner of the square room, there is a chair and a table for each girl, as well as a lovely tea set. And also, long chains that extend from each chair, connected to the collars around the girls’ necks…</p><p>The “reunion” has become a death game—a battle of life and death to settle the past…!</p><p><strong>Key Features</strong></p><ul><li><strong>Planned and Written by Ryukishi07</strong> – This is the second entry in Entergram’s “Girls Mental Suspense” series, following <em><a title="Games > Kaleidoscope of Phantom Prison [6 articles]" href="https://www.gematsu.com/games/kaleidoscope-of-phantom-prison">Kaleidoscope of Phantom Prison</a></em>. In this installment, the participants engage in a death game in a new setting.</li><li><strong>A Scenario That Unfolds From Each Character’s Perspective</strong> – In this game, players will experience a game of life and death set in a mysterious room, from the perspective of each character. The story depicts in depth the characters’ inner thoughts as they navigate the game’s challenges, enhancing immersion and exploring their interpersonal relationships.</li><li><strong>Take On Multiple Games</strong> – The previous game, <em>Kaleidoscope of Phantom Prison</em>, revolved around a death game with a single rule. This time, multiple games will be featured, ensuring a more varied experience.</li><li><strong>A Fully Voiced Story with an All-Star Cast</strong> – All character dialogue will be fully voiced, with additional voice performances for certain psychological descriptions and other non-dialogue elements. The voice cast will be announced soon, so stay tuned for updates!</li><li><strong>Background Music by HiguUmiSound</strong> – HiguUmiSound, known for composing music for many of Ryukishi07’s works, will once again handle the soundtrack, as it did for <em>Kaleidoscope of Phantom Prison</em>.</li></ul></blockquote><p><em>Kaleidoscope of Phantom Prison II</em> is due out for PlayStation 4 and Switch on March 14 in Japan.</p></div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[The Gaming Industry Reacts To The Death Of Duo, The Duolingo Mascot]]></title>
-            <link>https://www.gamespot.com/articles/the-gaming-industry-reacts-to-the-death-of-duo-the-duolingo-mascot/1100-6529430/?ftag=CAD-01-10abi2f</link>
-            <guid>https://www.resetera.com/threads/the-gaming-industry-reacts-to-the-death-of-duo-the-duolingo-mascot.1106871/</guid>
-            <content:encoded><![CDATA[https://www.gamespot.com/articles/the-gaming-industry-reacts-to-the-death-of-duo-the-duolingo-mascot/1100-6529430/?ftag=CAD-01-10abi2f<br/><br/><div id="readability-page-1" class="page"><p>
-    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
-  </p><article itemscope="" data-type-id="1100" data-guid="1100-6529430">
-
-            
-            
-  
-
-
-        
-
-  
-
-
-        
-        
-              <section>
-
-                  
-          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
-                <p>Language-learning app Duolingo has sadly confirmed that its owl mascot has died. In a social media post, the company confirmed the expiration of Duo, the little green owl. "It is with heavy hearts that we inform you that Duo, formally known as the Duolingo Owl, is dead," <a href="https://x.com/duolingo/status/1889328809054224698" data-target="true" target="_blank" rel="noopener nofollow">Duolingo posted on X</a>.</p><p>Naturally, the gaming industry has taken this time to mourn Duo and possibly incriminate itself with images that'll hold up quite nicely in court once the murder case gets underway. So who is responsible for the death of Duo, a noted fan of singer-songwriter Dua Lipa? One of the suspects could be the Reaper from Vampire Survivors:</p><p>Or Keit'Ehr, the Subjugator skulking around the flagship of Oryx in Destiny 2, could also be a suspect:</p><p>Police might want to also bring in Renaissance man Ezio Auditore da Firenze in for question, as people have a tendency to suffer fatal stab wounds when they get close to him:</p><p>Or maybe Duo shouldn't have dropped into a quick game of Rainbow Six Siege:</p><p>Maybe Duo's death was an accident. Such tragedies certainly do happen surprisingly often around well-tailored bald men with barcode tattoos on their neck:</p><p>Some conspiracy theorists have suggested that Duo has done an Elvis and isn't dead at all, or at the very least, might have been resurrected thanks to some gnarly viruses:</p><p>Meanwhile, some people think that Duo should have abstained from vigorous Just Dance sessions.</p><p>Is this what Master Chief meant by finishing the fight?</p><p>Like the case of Jimmy Hoffa, we'll probably never know what really happened to Duo or why there's a <a href="https://youtu.be/Fc24GNLlbLw" data-target="true" target="_blank" rel="noopener nofollow">strange lump</a> on the football field of New Jersey's Giants Stadium. We've got a few more prime suspects listed below, just to cover every angle of the crime of the century:</p><p>If you do decide to visit the Duolingo social media channels, the reality of Duo's death will be hammered home with a new app icon of a very dead-looking owl. The company says it will reveal more details this week on Duo's untimely death and the shocking truth behind it.</p>
-  
-                        
-    
-        
-        
-  
-                                  </div>
-
-          
-        
-                        
-            <span>
-        <a itemprop="reviewer" href="https://plus.google.com/108490194306897153177?rel=author">Darryn Bonthuys</a> on Google+
-      </span>
-      
-                    
-  
-    
-          
-            
-  <div>
-    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
-
-    
-      </div>
-        
-      </section>
-    
-            
-    </article></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Pokemon Developer Unveils New RPG Called Pandoland, Coming Out In April]]></title>
-            <link>https://www.gamespot.com/articles/pokemon-developer-unveils-new-rpg-called-pandoland-coming-out-in-april/1100-6529432/?ftag=CAD-01-10abi2f</link>
-            <guid>https://www.resetera.com/threads/pokemon-developer-unveils-new-rpg-called-pandoland-coming-out-in-april.1106868/</guid>
-            <content:encoded><![CDATA[https://www.gamespot.com/articles/pokemon-developer-unveils-new-rpg-called-pandoland-coming-out-in-april/1100-6529432/?ftag=CAD-01-10abi2f<br/><br/><div id="readability-page-1" class="page"><p>
-    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
-  </p><article itemscope="" data-type-id="1100" data-guid="1100-6529432">
-
-            
-            
-  
-
-
-        
-
-  
-
-
-        
-        
-              <section>
-
-                  
-          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
-                <p dir="ltr">Game Freak, best known for developing the Pokemon franchise, is working on a new smartphone RPG named Pandoland. The title is slated to arrive in late April, with pre-registration available now on <a href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbjN6T2dRUEV0VF9pcHB4Ul9GMndWcVRZaGl2d3xBQ3Jtc0trNHctMU1qVVJEcmZqRTlOdFJCcXdzRU9GRF9sMFgxcHZWRXFQUDZwdTM5bzh2ZFRndURjSVdkei1DQ1JLbVZXRDBRdW9la2ZNRnp6T3ZwUUtHXzRWdVY0YjkzcHlQakswOFM1VVVsV0txSWw4SHUycw&amp;q=https%3A%2F%2Fitunes.apple.com%2Fapp%2Fid6474245208&amp;v=a4pxFJB6mDE">iOS</a> and <a href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbWhsX0s0MV85bjR3WjFhVGZrUWNlUEFROUZVZ3xBQ3Jtc0tsU010aF9UTTdCZ0tlN1JqeS10cjI3RGlJSGxKOTYyRlJRd1BYVEVGVjBZNmozMnRqZlJQZWtxSnltTkRRUXhJQktNbVhsemxmY1pXUnhYZElpOEtVdXlWVzZNN2dzTVNrVEoxa19rMTVQRVJRNkJXbw&amp;q=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.pandoland&amp;v=a4pxFJB6mDE">Android</a>. Signing up can net you diamonds that can equate to 100 gacha pulls.</p><p dir="ltr">Pandoland is described as a casual-adventure RPG, seeing players search for treasures and explore dungeons. There are apparently over 500 characters and items to collect, and building a team of companions helps with exploration. The official trailer for the game--seen below--showcases a blocky art style as a group of characters set sail on the open seas aboard a ship. The boat passes by different islands and even a giant squid.</p>
-
-
-
-    
-  <div>
-
-    <div tabindex="0" data-id="2057657455" data-promo-id="0" data-user-has-ads="1" data-video="{&quot;id&quot;:6465684,&quot;title&quot;:&quot;PANDOLAND%20%7C%20Official%20Reveal%20Trailer&quot;,&quot;lengthSeconds&quot;:37,&quot;startTime&quot;:0,&quot;autoplay&quot;:true,&quot;share&quot;:{&quot;linkUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/pandoland-official-reveal-trailer\/2300-6465684\/&quot;,&quot;embedUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/embed\/6465684\/&quot;,&quot;embedHtml&quot;:{&quot;640&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6465684\/\&quot; height=\&quot;360\&quot; width=\&quot;640\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;,&quot;480&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6465684\/\&quot; height=\&quot;270\&quot; width=\&quot;480\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;}},&quot;device&quot;:&quot;other&quot;,&quot;isDevice&quot;:false,&quot;isLiveStream&quot;:false,&quot;videoType&quot;:&quot;video-on-demand&quot;,&quot;countdownTime&quot;:0,&quot;guid&quot;:&quot;gs-2300-6465684&quot;,&quot;ageGateCookieName&quot;:&quot;videoAgeGateBirthday&quot;,&quot;watchedCookieName&quot;:&quot;watchedVideoIds&quot;,&quot;watchedCookieDays&quot;:1,&quot;postPlayMax&quot;:100,&quot;uvpc&quot;:&quot;&quot;,&quot;partner&quot;:&quot;gamespot&quot;,&quot;adPartner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;desktopAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;mobileAdPartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;,&quot;mapp&quot;:&quot;gamespot&quot;,&quot;cms&quot;:&quot;pi&quot;,&quot;seekablePlaybacks&quot;:[&quot;html5&quot;,&quot;uvpjs&quot;],&quot;tracking&quot;:[{&quot;name&quot;:&quot;SiteCatalyst&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;charSet&quot;,&quot;value&quot;:&quot;UTF-8&quot;},{&quot;name&quot;:&quot;currencyCode&quot;,&quot;value&quot;:&quot;USD&quot;},{&quot;name&quot;:&quot;siteType&quot;,&quot;value&quot;:&quot;responsive web&quot;},{&quot;name&quot;:&quot;trackingServer&quot;,&quot;value&quot;:&quot;saa.gamespot.com&quot;},{&quot;name&quot;:&quot;visitorNamespace&quot;,&quot;value&quot;:&quot;cbsinteractive&quot;},{&quot;name&quot;:&quot;heartbeatTrackingServer&quot;,&quot;value&quot;:&quot;newimagitasinc.hb.omtrdc.net&quot;},{&quot;name&quot;:&quot;heartbeatVisitorMarketingCloudOrgId&quot;,&quot;value&quot;:&quot;3C66570E5FE1A4AB0A495FFC@AdobeOrg&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;siteCode&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;brand&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;account&quot;,&quot;value&quot;:&quot;cbsigamespotsite&quot;},{&quot;name&quot;:&quot;edition&quot;,&quot;value&quot;:&quot;us&quot;}]},{&quot;name&quot;:&quot;ComScore_ss&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;c2&quot;,&quot;value&quot;:&quot;31824268&quot;},{&quot;name&quot;:&quot;publishersSecret&quot;,&quot;value&quot;:&quot;2cb08ca4d095dd734a374dff8422c2e5&quot;},{&quot;name&quot;:&quot;c3&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;c4&quot;,&quot;value&quot;:&quot;gamespot&quot;}]},{&quot;name&quot;:&quot;NielsenTracking&quot;,&quot;category&quot;:&quot;tracking&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;host&quot;,&quot;value&quot;:&quot;https:\/\/secure-us.imrworldwide.com\/cgi-bin\/m?&quot;},{&quot;name&quot;:&quot;scCI&quot;,&quot;value&quot;:&quot;us-200330&quot;},{&quot;name&quot;:&quot;scC6&quot;,&quot;value&quot;:&quot;vc,c01&quot;}]},{&quot;name&quot;:&quot;MuxQOSPluginJS&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;propertyKey&quot;,&quot;value&quot;:&quot;b7d6e48b7461a61cb6e863a62&quot;}]}],&quot;trackingAccount&quot;:&quot;cbsigamespotsite&quot;,&quot;trackingSiteCode&quot;:&quot;gs&quot;,&quot;trackingPrimaryId&quot;:&quot;cbsigamespotsite&quot;,&quot;videoAssetSource&quot;:&quot;Publisher Asset&quot;,&quot;uvpjsHostname&quot;:&quot;\/\/www.gamespot.com&quot;,&quot;siteType&quot;:&quot;responsive web&quot;,&quot;startMuted&quot;:false,&quot;screenMediumThumb&quot;:&quot;https:\/\/www.gamespot.com\/a\/uploads\/screen_medium\/1574\/15746725\/4442827-11.jpg&quot;,&quot;videoStreams&quot;:{&quot;adaptive_stream&quot;:&quot;https:\/\/cdn.jwplayer.com\/manifests\/Fybp4yFj.m3u8&quot;},&quot;userId&quot;:0,&quot;premium&quot;:false,&quot;datePublished&quot;:1739372640,&quot;videoAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;videoAdMobilePartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;}" data-non-iframe-embed="1" data-jw-context-name="gamespot" data-jw-media-id="Fybp4yFj" data-jw-player-url="https://cdn.jwplayer.com/libraries/VXc5h4Tf.js" data-jw-video-token="" data-has-youtube="" data-youtube-icon-path="https://www.gamespot.com/a/bundles/phoenixsite/images/core/loose/icn-youtube-30x30.png" id="video-rectangle"><div><p>
-        Want us to remember this setting for all your devices?
-      </p><p><a href="https://www.gamespot.com/signup/">Sign up</a> or <a href="https://www.gamespot.com/login/">Sign in</a> now!
-      </p></div><p>
-      Please use a html5 video capable browser to watch videos.
-    </p><p>
-      This video has an invalid file format.
-    </p><p>Sorry, but you can't access this content!</p></div>
-          <p><em>Now Playing:</em> PANDOLAND | Official Reveal Trailer</p>
-      </div>
-<p dir="ltr"><a href="https://www.gamespot.com/articles/game-freak-wants-to-make-more-games-besides-pokemon/1100-6511526/" data-ref-id="1100-6511526">This isn't the only game cooking at Game Freak</a> that has nothing to do with Pokemon. In 2023, the developer <a href="https://www.gamespot.com/articles/pokemon-dev-game-freak-reveals-project-bloom-a-new-action-adventure-game/1100-6513954/" data-ref-id="1100-6513954">revealed Project Bloom, a new action-adventure game</a> that's supposed to be "bold and tonally different" from the company's past catalog. Game Freak is partnering with Private Division on Project Bloom, which previously was part of Take-Two Interactive. However, <a href="https://www.gamedeveloper.com/business/take-two-has-sold-private-division-to-an-undisclosed-buyer" rel="nofollow ">Private Division was reportedly sold to an unknown buyer</a> late last year, and it's unknown if this could affect the game.</p><p dir="ltr">Meanwhile, <a href="https://www.gamespot.com/articles/pokemon-legends-z-a-announced-for-switch-releasing-in-2025/1100-6521386/">Game Freak is also busy with Pokemon Legends Z-A</a>, which is planned to launch on Switch this year. <a href="https://www.gamespot.com/articles/pokemon-legends-z-a-release-date-trailer-news/1100-6521882/">Pokemon Legends Z-A</a> is set in Lumiose City, a hub first introduced to the franchise with Pokemon X and Y. There has been no official mention of the game possibly coming to <a href="https://www.gamespot.com/articles/switch-2-release-date-specs-display-price/1100-6520278/" data-ref-id="1100-6520278">Switch 2</a> at this point. However, Pokemon Day (February 27) is later this month and usually accompanied by a Pokemon Presents livestream, so it's a possibility we could learn more then.</p>
-  
-                        
-    
-        
-        
-  
-                                  </div>
-
-          
-        
-  
-  
-                    
-  
-    
-          
-            
-  <div>
-    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
-
-    
-      </div>
-        
-      </section>
-    
-            
-    </article></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[You Should Be Watching Common Side Effects]]></title>
-            <link>https://aftermath.site/common-side-effects-adult-swim-max-hbo</link>
-            <guid>https://www.resetera.com/threads/you-should-be-watching-common-side-effects.1106862/</guid>
-            <content:encoded><![CDATA[https://aftermath.site/common-side-effects-adult-swim-max-hbo<br/><br/><div id="readability-page-1" class="page"><div><p>With Warner Bros. owning Adult Swim, it sometimes feels like only a matter of time before the adult-oriented animation channel gets sent to the tax writeoff mines. Which makes its new show <em>Common Side Effects</em> feel all the more refreshing and precious.</p><p><em>Common Side Effects</em> follows Marshall Cuso, an animal-loving mushroom expert who has discovered a blue mushroom that cures everything from common sickness to gunshot wounds. He reveals its existence to high school classmate Frances, whom he doesn’t know works for Reutical Pharmaceuticals as an assistant to its delightfully incompetent CEO Rick (voiced by Mike Judge, so you get to hear Hank Hill call a private jet a “PJ”). Frances offers to get the mushroom for the flailing Reutical, adding her to the list of people trying to hunt Marshall down. This includes two wonderfully deadpan DEA agents, Copano and Harrington, who have maybe <a href="https://www.youtube.com/shorts/DyQ8X9OPOP4" target="_blank" rel="noreferrer noopener">the best character introduction</a> ever.&nbsp;</p><div><figure><p><iframe title="Common Side Effects | OFFICIAL TRAILER | adult swim" width="710" height="399" src="https://www.youtube.com/embed/Tdf8q2ax-Ks?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p></figure></div><p>Marshall is a strange character, seeming in some ways like a washed-out hippie and in others like an accomplished scientist. We first meet him having a comment instead of a question at a Reutical shareholder meeting, his shirt hanging open as he drones on about fungus habitats until he’s dragged out. When he runs into Frances, he rants about a shady “them,” the “people who make tons of money just from keeping us sick, from keeping us <em>unwell</em>.” It’s conspiracy theory stuff, but in the show’s world there’s truth to it: different parties go to huge lengths to keep the miracle mushroom from the public for their own gain. There’s something risque in exploring healthcare-related conspiracy theories that turn out to be true these days, but <em>Common Side Effects</em> also takes aim at an industry many people are pretty <a href="https://aftermath.site/united-healthcare-luigi-mangione" target="_blank" rel="noreferrer noopener">fed up with</a>.&nbsp;&nbsp;&nbsp;&nbsp;</p><p>My favorite part of the show is the way everything is so physical; characters’ bodies are wrinkled and strangely proportioned, all of their features too small for their heads. Rooms are full of detritus, coffee cups and takeout containers and grow lights, and it makes the world feel lived-in. It all feels very real, even with the fantastical element of an immortality-granting mushroom at its center. In many ways it’s a crime thriller, but everything moves so slowly, full of characters prone to small talk,&nbsp; and this languidness brings both a humor and a calm that give it a unique feel.</p><p><em>Common Side Effects’</em> third episode just aired on Adult Swim and Max, so it’s a good time to get into it if you haven’t checked it out yet. I’m excited to see where its plot goes, but more excited just to spend time in its weird world.&nbsp;</p></div><div><h2>Stay in touch</h2><p>Sign up for our free newsletter</p></div><div><h2><span>More from Aftermath</span></h2><div><div><a tabindex="0" href="https://aftermath.site/beyond-citadel-indie-retro-shooter"><h3>Beyond Citadel Is Gory, Obscene, And Almost A Masterpiece</h3></a><p>Inspired by Lucasarts' Outlaws and Bungie's Marathon, Beyond Citadel is mechanically one of the best indie shooters I have played in years and absolutely not for everyone.</p></div><div><a tabindex="0" href="https://aftermath.site/metaphor-refantazio-lynch"><h3>Fantasy At The End Of The World</h3></a><p>A new world is possible, but only if we log off and put in the work</p></div></div><a tabindex="0" href="https://aftermath.site/all">See all posts<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13m-6-7 7 7-7 7"></path></svg></a></div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Ninja Gaiden 2 Black update adds New Game+ and Photo Mode]]></title>
-            <link>https://www.thesixthaxis.com/2025/02/12/ninja-gaiden-2-black-update-adds-new-game-and-photo-mode/</link>
-            <guid>https://www.resetera.com/threads/ninja-gaiden-2-black-update-adds-new-game-and-photo-mode.1106847/</guid>
-            <content:encoded><![CDATA[https://www.thesixthaxis.com/2025/02/12/ninja-gaiden-2-black-update-adds-new-game-and-photo-mode/<br/><br/><div id="readability-page-1" class="page"><div itemprop="text">
-	
-		<p>Ninja Gaiden 2 Black has got a new update, bringing New Game+ and Photo mode to the game. This is update 1.003.000 on PS5, and update 1.0.7.0 on PC and Xbox Series X|S. Another addition as part of this update is the ability to hide of projectile weapons while it is being carried by Ryu’s back. You can read the full patch notes below.</p>
-<p><iframe title="NINJA GAIDEN 2 Black - Launch Trailer" width="780" height="439" src="https://www.youtube.com/embed/BwSjicduASA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
-
-
-<h2>Ninja Gaiden 2 Black patch notes:</h2>
-<h3>Additional Content:</h3>
-<ul>
-<li>New Game+<br>
-Added the ability to begin a new game on a difficulty level you have previously cleared with the weapons and Ninpo you obtained in your previous playthrough already unlocked. When starting a new game this way, your weapons and Ninpo will be reverted to level 1.</li>
-<li>Photo Mode<br>
-Added Photo Mode to the in-game Options Menu. You can move the camera around within a set limit to take screenshots.</li>
-<li>Ability to Hide Projectile Weapon<br>
-Added a “Show Projectile Weapon” option under “Game Settings” in the Options Menu, which allows you to hide your projectile weapon while it is carried on your back.</li>
-</ul>
-<h3>Adjustments:</h3>
-<ul>
-<li>Lowered the HP of enemies in Ch. 8, “City of the Fallen Goddess”</li>
-<li>Lowered the HP of enemies in Ch. 11, “Night in the City of Water”</li>
-<li>Raised the number of enemies in Ch. 13, “The Temple of Sacrifice”</li>
-<li>Raised the number of enemies in Ch. 14, “A Tempered Gravestone”</li>
-<li>Raised the damage dealt by some of Ayane’s attacks.</li>
-</ul>
-<h3>Bug Fixes:</h3>
-<ul>
-<li>Fixed control issues that occurred when playing at over 120 FPS or while under high computing load.</li>
-<li>Fixed an issue where controllers would not vibrate based on computing load or FPS settings.</li>
-<li>Fixed bugs that caused the player to go out of bounds during certain chapters.</li>
-<li>Fixed bugs that made it impossible to progress during certain chapters.</li>
-<li>Fixed a bug which caused the game to crash during long play sessions.</li>
-<li>Other minor bug fixes</li>
-</ul>
-
-<p>In our review, Adrian said, <em>“Ninja Gaiden 2 Black offers a comprehensive remake of Team Ninja’s finest game, rendered in beautiful modern visuals. Combat is as bombastically brilliant as it ever was, though the awful camera will put off many of those new to the game, it really hasn’t aged well. Still, as a reminder of how good Ninja Gaiden can be, this remake offers a tantalising taste of what we can all look forward to when Ninja Gaiden 4 is released later this year.”</em></p>
-<p><em>Source: <a href="https://teamninja-studio.com/ng2black/us/update/">Team Ninja</a></em></p>
-
-
-<!-- CONTENT END 1 -->
-
-		
-	</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Elden Ring Nightreign Launches on May 30th on PC and Consoles; New Trailer Released]]></title>
-            <link>https://wccftech.com/elden-ring-nightreign-release-date/</link>
-            <guid>https://www.resetera.com/threads/elden-ring-nightreign-launches-on-may-30th-on-pc-and-consoles-new-trailer-released.1106844/</guid>
-            <content:encoded><![CDATA[https://wccftech.com/elden-ring-nightreign-release-date/<br/><br/><div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			<p><a href="https://wccftech.com/elden-ring-nightreign-announced-by-fromsoftware-for-pc-and-consoles/">Elden Ring Nightreign</a> will launch in late May on PC, PlayStation 5, Xbox Series X and Xbox Series S, publisher Bandai Namco confirmed today.</p>
-<p>The co-op survival adventure developed by FromSoftware will launch worldwide on May 30th. Besides the game's Standard Edition, multiple editions of the game will also be released on the same day, including additional goodies such as Digital Artbook and Soundtrack for the Deluxe Edition and the Seekers Edition, which will also include an additional Steelbook. The real star of the Elden Ring Nightreign special editions, however, will be the Collector's Edition, which includes every goodie included in the Deluxe Edition, the same Steelbook included in the Seekers Edition, eight Nightfarer Cards, a hardcover Artbook and a ~25 cm Wylder Nightfarer statue. Die-hard fans of Elden Ring will also be able to purchase a 1:1 scale, prop-quality replica of the Wylder character helmet. Only 9,999 pieces of the helmet will be produced, so it will be a rather exclusive item. All the game's editions and the Wylder helmet replica are also available for <a href="https://it.bandainamcoent.eu/elden-ring/elden-ring-nightreign/shop-now?utm_campaign=Preorder-EldenRingNightreign&amp;utm_medium=official_post&amp;utm_source=SM_Official" target="_blank" rel="noopener">pre-order</a>.</p>
-<figure>
-<div>
-
-<div>
-		
-		
-		<p><span>2 of 9</span>
-	</p></div></div>
-</figure>
-
-
-<p>To celebrate the release date announcement, a new Elden Ring Nightreign trailer was also released today. You can check it out below.</p>
-<p><iframe title="ELDEN RING NIGHTREIGN | Official Pre-Order Trailer" width="500" height="281" src="https://www.youtube.com/embed/Z_fmEDsQPh4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
-<p>Elden Ring Nightreign launches on May 30th on PC, PlayStation 5, Xbox Series X and Xbox Series S. Select players will be able to get a first taste of the experience this weekend with the Closed Network Test.</p>
-
-			
-		</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Avowed Gets Cross-Buy for Battle.net and Xbox for Some Reason]]></title>
-            <link>https://techraptor.net/gaming/news/avowed-cross-buy-xbox-battle-net</link>
-            <guid>https://www.resetera.com/threads/avowed-gets-cross-buy-for-battle-net-and-xbox-for-some-reason.1106841/</guid>
-            <content:encoded><![CDATA[https://techraptor.net/gaming/news/avowed-cross-buy-xbox-battle-net<br/><br/><div id="readability-page-1" class="page"><div><p>Blizzard and Xbox have announced that if you buy Obsidian's upcoming action RPG&nbsp;<em>Avowed&nbsp;</em>on the Battle.net platform, you'll be able to play it on Xbox, and the reverse is also true.</p>
-
-<p>In a <a href="https://news.blizzard.com/en-us/article/24177681/avowed-breaks-down-barriers-with-cross-buy" rel="nofollow" target="_blank">post</a> on the Blizzard website, the company grandly proclaims that the feature "breaks down barriers with cross-buy" and confirms that&nbsp;<em>Avowed&nbsp;</em>represents the introduction of this feature between Battle.net and Xbox, suggesting more games could support it in future.</p>
-
-<p>In short, if you buy&nbsp;<em>Avowed&nbsp;</em>on Battle.net, then by linking your Xbox account with your Battle.net account, you'll be able to pick up where you left off on Xbox and won't need to buy the game again on that storefront.</p>
-<figure role="group"><picture><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/avowed-battle.net-xbox-xaurip.jpg?itok=ZpiOwGkD 1x" media="(min-width: 992px)" type="image/jpeg"><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/avowed-battle.net-xbox-xaurip.jpg?itok=vtFVgzOh 1x" media="(max-width: 991px)" type="image/jpeg"></picture><figcaption><em>Avowed&nbsp;</em>will let you play on both Battle.net and Xbox if you buy it on either platform.</figcaption></figure><p>If you're wondering why this is a thing, we've racked our brains here at TechRaptor Towers, and the only real benefit we can come up with is that this will technically allow you to play&nbsp;<em>Avowed&nbsp;</em>on both Xbox and Steam Deck.</p>
-
-<p>The Steam Deck doesn't play very nice with the Microsoft Store, but with a little fiddling under the hood, you can install Battle.net on your Deck and it'll work alright. As such, it should theoretically be possible to play&nbsp;<em>Avowed&nbsp;</em>across Xbox (or PC) and Steam Deck.</p>
-
-<p>Of course, if you're going to play the game on PC exclusively (for which you'll <a href="https://techraptor.net/gaming/news/avowed-pc-specs" rel="nofollow">probably want a pretty good machine</a>), then there's really no reason not to just pick it up on Steam, and I can't imagine any other use case where someone might find it useful to switch between Battle.net and Xbox.</p>
-
-
-
-
-<p><em>Avowed&nbsp;</em>is the latest game from&nbsp;<em>Pillars of Eternity&nbsp;</em>and&nbsp;<em>The Outer Worlds&nbsp;</em>developer Obsidian. Appropriately enough, it looks rather like a combination of those two games, marrying the first-person action of the latter with the setting of the former.</p>
-
-<p>Initially, it was announced that the game <a href="https://techraptor.net/gaming/news/avowed-30fps-xbox-target" rel="nofollow">would run at 30fps</a> on Xbox Series X|S, but Obsidian has since <a href="https://www.eurogamer.net/obisidian-confirms-avowed-60fps-mode-on-xbox-series-x-after-previously-saying-you-dont-necessarily-need-it" rel="nofollow" target="_blank">confirmed</a> that it will implement a 60fps mode for the game on consoles.</p>
-
-<p>You'll be able to check out&nbsp;<em>Avowed&nbsp;</em>when it launches on <a href="https://store.steampowered.com/app/2457220/Avowed/?curator_clanid=6754604&amp;utm_source=TechRaptor" rel="nofollow" target="_blank">PC</a> and <a href="https://www.xbox.com/en-GB/games/avowed" rel="nofollow" target="_blank">Xbox Series X|S</a> on February 18th. It'll also be available on Game Pass on day one, assuming you're signed up to the PC or Ultimate tiers.</p>
-</div><div><p><span><div>
-       
-    <p>Joe has been writing for TechRaptor for several years, and in those years has learned a lot about the gaming industry and its foibles. He’s originally an… <a href="https://techraptor.net/author/joseph-allen">More about Joseph</a></p>
-  </div></span></p></div></div>]]></content:encoded>
         </item>
     </channel>
 </rss>
