@@ -4,9 +4,99 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Thu, 13 Feb 2025 16:58:18 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 Feb 2025 17:09:16 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[NVIDIA Game Ready Driver 572.42 Is Optimized for Avowed, Indiana Jones DLSS 4 Multi Frame Generation Update]]></title>
+            <link>https://wccftech.com/nvidia-game-ready-driver-572-42-is-optimized-for-avowed-indiana-jones-dlss-4-multi-frame-generation-update/</link>
+            <guid>https://www.resetera.com/threads/nvidia-game-ready-driver-572-42-is-optimized-for-avowed-indiana-jones-dlss-4-multi-frame-generation-update.1108569/</guid>
+            <content:encoded><![CDATA[https://wccftech.com/nvidia-game-ready-driver-572-42-is-optimized-for-avowed-indiana-jones-dlss-4-multi-frame-generation-update/<br/><br/><div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>NVIDIA has released a new Game Ready driver for its GeForce graphics cards. This new version (572.42) is optimized for Obsidian's Avowed, which launches on February 18 but is available starting today through advanced access for pre-orders of the Premium Edition.</p>
+<p>By default, the game supports NVIDIA DLSS Super Resolution, Frame Generation, and Reflex, as well as ray-traced reflections. With this Game Ready driver, users will be able to unlock NVIDIA app overrides to enable DLSS 4 Multi Frame Generation, activate the Super Resolution transformer model, the latest improved Frame Generation model, and force DLAA (which isn't available from the in-game settings). We'll take a more in-depth look at visuals and performance in Avowed shortly; meanwhile, check out the <a href="https://wccftech.com/review/avowed-surprisingly-meaty-unsurprisingly-deep/" target="_blank" rel="noopener">game review posted earlier today</a>.</p>
+<p>GeForce Game Ready driver 572.42 is also optimized for the <a href="https://wccftech.com/indiana-jones-and-the-great-circle-to-get-dlss-4-multi-frame-generation-and-rtx-hair-with-february-update/" target="_blank" rel="noopener">upcoming Indiana Jones and the Great Circle DLSS 4 Multi Frame Generation update</a>, which will be released next week. The game update will introduce fully ray-traced shadows and DLSS Ray Reconstruction denoising, which, according to NVIDIA, will improve visuals, as showcased in the following picture comparison.</p>
+
+<figure></figure>
+
+<p>The game will also be updated to take advantage of the NVIDIA DLSS Super Resolution and DLAA transformer model for improved image quality, as well as the enhanced Frame Generation model for better frame rates. Lastly, DLSS 4 Multi Frame Generation will provide maximum performance on GeForce RTX 50 graphics cards. NVIDIA says that combined, all these technologies can accelerate performance by up to 4X in the excellent adventure game released two months ago by MachineGames. The new flagship GPU, the RTX 5090, averages 268.6 frames per second at 4K with Super Resolution set to Performance mode and Multi Frame Generation to 4x.</p>
+
+<figure></figure>
+
+<p>The driver also supports the new Wuthering Waves update that introduces ray tracing, DLSS Frame Generation, and Reflex. You can check out the ray tracing showcase below.</p>
+<p>Legacy: Steel &amp; Sorcery was also released <a href="https://store.steampowered.com/app/2344320/Legacy_Steel__Sorcery/" target="_blank" rel="noopener">on Steam Early Access yesterday</a> with support for DLSS Super Resolution and Frame Generation.</p>
+<p><iframe title="Wuthering Waves Full Ray Tracing Showcase" width="500" height="281" src="https://www.youtube.com/embed/9Mz9FWYxbO0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+<p>The new NVIDIA GeForce Game Ready driver also adds support for five new G-SYNC Compatible displays listed below.</p>
+<table>
+<tbody>
+<tr>
+<td>AOC</td>
+<td>27G4H</td>
+<td>Yes</td>
+<td>27</td>
+<td>IPS</td>
+<td>1920x1080 (FHD)</td>
+<td>48-200Hz</td>
+</tr>
+<tr>
+<td>AOC</td>
+<td>25G4SXU</td>
+<td>Yes</td>
+<td>24.5</td>
+<td>IPS</td>
+<td>1920x1080 (FHD)</td>
+<td>48-310Hz</td>
+</tr>
+<tr>
+<td>AOC</td>
+<td>AG275QZM</td>
+<td>Yes</td>
+<td>27</td>
+<td>IPS</td>
+<td>2560x1440 (QHD)</td>
+<td>48-180Hz</td>
+</tr>
+<tr>
+<td>AOC</td>
+<td>Q24G4</td>
+<td>Yes</td>
+<td>23.8</td>
+<td>IPS</td>
+<td>2560x1440 (QHD)</td>
+<td>48-180Hz</td>
+</tr>
+<tr>
+<td>Philips</td>
+<td>27M2N5500L</td>
+<td>Yes</td>
+<td>27</td>
+<td>IPS</td>
+<td>2560x1440 (QHD)</td>
+<td>48-180Hz</td>
+</tr>
+</tbody>
+</table>
+<p>Lastly, the <a href="https://us.download.nvidia.com/Windows/572.42/572.42-win11-win10-release-notes.pdf" target="_blank" rel="noopener">official changelog</a> reveals the following fixes:</p>
+<p><b>Gaming Bugs</b></p>
+<ul>
+<li>[Valorant] Game may crash when starting game [4951583]</li>
+<li>[Final Fantasy XVI] PC may freeze when exiting game [5083532]</li>
+<li>[Delta Force] Some PC configurations may experience performance regression when Resizable BAR is enabled [5083758]</li>
+</ul>
+<p><b>General Bugs</b></p>
+<ul>
+<li>[3DMark DXR Feature Test] Unusually low score for Blackwell GPUs [5062329]</li>
+<li>Resolved a compatibility issue caused by version mismatches between current and updated dynamic link library files. [5081921]</li>
+</ul>
+
+			
+		</div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Marvel’s Spider-Man 2 PC Patch 1.212.1.0 Improves Screen Space Reflections, Enables DLSS Ray Reconstruction For Native Resolution and More]]></title>
             <link>https://wccftech.com/marvels-spider-man-2-pc-patch-1-212-1-0-screen-space-reflections-dlss-ray-reconstruction/</link>
@@ -24,147 +114,6 @@
 <p>Marvel’s Spider-Man 2 was released two weeks ago on PC, and its launch was far from the best for PlayStation to PC ports due to stability issues and other visual issues, as highlighted by Alessio in his <a href="https://wccftech.com/marvels-spider-man-2-pc-isnt-off-to-a-great-start/">launch report</a>, which have yet to be completely fixed.</p>
 <p><em>However, in between the crashes, I also noticed a graphics issue during cutscenes with character hair flickering in a very distracting way. Between this, the crashes, and the fact that NVIDIA said DLSS Multi Frame Generation will be added soon to the game, it's best to take a rain check on the PC version for the time being.</em></p>
 <p>Marvel’s Spider-Man 2 is now available on PC and PlayStation 5 worldwide.</p>
-
-			
-		</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Metal Gear Solid Delta: Snake Eater Releases August 28 on PlayStation 5, Xbox Series X|S and PC]]></title>
-            <link>https://wccftech.com/metal-gear-solid-delta-snake-eater-releases-august-28-on-playstation-5-xbox-series-xs-and-pc/</link>
-            <guid>https://www.resetera.com/threads/metal-gear-solid-delta-snake-eater-releases-august-28-on-playstation-5-xbox-series-x-s-and-pc.1108413/</guid>
-            <content:encoded><![CDATA[https://wccftech.com/metal-gear-solid-delta-snake-eater-releases-august-28-on-playstation-5-xbox-series-xs-and-pc/<br/><br/><div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			<p>As showcased in the State of Play yesterday, Metal Gear Solid Delta: Snake Eater has an official release date of August 28, 2025. This title will be available on PlayStation 5, Xbox Series X|S, and Steam. For those in EMEA (Europe, the Middle East, and Africa) you are already able to pre-order this title on your chosen platform, with some differences in the editions that are available.</p>
-<p>Metal Gear Solid Delta: Snake Eater is set to be a faithful remake of Metal Gear Solid 3: Snake Eater, an iconic game that was originally released in 2004 for the PlayStation 2. However, with a new generation being introduced to Solid Snake, as well as loyal fans wanting more Metal Gear Solid action, a remake was the perfect way to introduce newcomers to the franchise. The remake will star the original English and Japanese voice actors, with a rich and intense storyline and some<a href="https://wccftech.com/metal-gear-solid-delta-gameplay-changes/"> new expansive features</a> of the combat system with brand-new graphics and immersive sound.</p>
-<p>If you are yet to see the trailer, here is what you missed from last night's State of Play.</p>
-<p><iframe title="METAL GEAR SOLID Δ: SNAKE EATER - Release Date Trailer 【PS5®,Steam® version】| KONAMI" width="500" height="281" src="https://www.youtube.com/embed/6WuqxGg0yek?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
-<p>This particular trailer is for the PlayStation 5 and Steam version of the game, with Xbox having a <a href="https://www.youtube.com/watch?v=yN3BdHaR6U8" target="_blank" rel="noopener">slightly different trailer</a> available. This is due to the return of Snake vs. Monkey, which is a fan-favorite game that will be making a return on PlayStation and Steam at launch, with more information to come about Snake vs. Monkey for the Xbox Series X|S version of the game later down the line.</p>
-<p>If you know that you plan on getting this game, pre-orders are already open in EMEA, as stated above. There are multiple editions available, with some of the editions providing you with DLC that can give you some extra cosmetics to play with.</p>
-<p>The Digital Deluxe Edition and Physical Deluxe Edition will both include the Sneaking DLC Pack, as well as players getting access to the game 48 hours earlier with the Digital Deluxe Edition. The Sneaking DLC includes:</p>
-<div>
-<ul>
-<li>Uniform - Battle Dress (METAL GEAR SOLID: PEACE WALKER version)</li>
-</ul>
-</div>
-<div>
-<ul>
-<li>Uniform - Sneaking suit (METAL GEAR SOLID: PEACE WALKER version)</li>
-</ul>
-</div>
-<div>
-<ul>
-<li>Uniform - Crocodile suit</li>
-</ul>
-</div>
-<div>
-<ul>
-<li>Uniform - Naked (Woodland)</li>
-</ul>
-</div>
-<div>
-<ul>
-<li>Uniform - Naked (Naked Ammunition Belt)</li>
-</ul>
-</div>
-<div>
-<ul>
-<li>Uniform - Gold</li>
-</ul>
-</div>
-<div>
-<ul>
-<li>Face - Glasses</li>
-</ul>
-</div>
-<div>
-<ul>
-<li>Face - Sunglasses</li>
-</ul>
-</div>
-<div>
-<ul>
-<li>Equipment - Kerotan mask</li>
-</ul>
-</div>
-<div>
-<ul>
-<li>Equipment – GA-KO mask</li>
-</ul>
-<p>The physical edition includes:</p>
-<div>
-<div>
-<ul>
-<li><em>METAL GEAR SOLID Δ: SNAKE EATER&nbsp;</em>Day One Edition</li>
-</ul>
-</div>
-<div>
-<ul>
-<li>Exclusive SteelBook® Case</li>
-</ul>
-</div>
-<div>
-<ul>
-<li>Metal Keyring</li>
-</ul>
-</div>
-</div>
-<div>
-<div>
-<ul>
-<li>5 Art Cards</li>
-</ul>
-</div>
-<div>
-<ul>
-<li>FOX iron-on Fabric Patch</li>
-</ul>
-</div>
-<div>
-<ul>
-<li>Custom Packaging</li>
-</ul>
-<p>For those diehard Metal Gear fans, the Metal Gear Solid Delta: Snake Eater Collector's Pack comes in custom packaging and will include:</p>
-<div>
-<ul>
-<li><em>METAL GEAR SOLID Δ: SNAKE EATER&nbsp;</em>Snake ELITE BUST (1/4 Scale Statue Bust)</li>
-</ul>
-</div>
-<div>
-<ul>
-<li><em>METAL GEAR SOLID Δ: SNAKE EATER&nbsp;</em>Original Vinyl Soundtrack</li>
-</ul>
-
-</div>
-</div>
-</div>
-</div>
-
-			
-		</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Metal Eden, New FPS from Reikon Games, Launches on May 6]]></title>
-            <link>https://wccftech.com/metal-eden-new-fps-from-reikon-games-launches-on-may-6/</link>
-            <guid>https://www.resetera.com/threads/metal-eden-new-fps-from-reikon-games-launches-on-may-6.1108365/</guid>
-            <content:encoded><![CDATA[https://wccftech.com/metal-eden-new-fps-from-reikon-games-launches-on-may-6/<br/><br/><div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			<p>During Sony's latest State of Play, Metal Eden was announced. This is a new FPS title from <a href="https://metaleden.com/ag?referer=%2F" target="_blank" rel="noopener">Reikon Games</a>. The developers of Ruiner showcased their new and upcoming FPS title, Metal Eden. Published by <a href="https://wccftech.com/plaion-restructure-planned-will-merge-with-deep-silver-prime-matter-and-ravenscourt/">Deep Silver</a>, the game will be coming to PC, PlayStation 5, and Xbox Series X|S on May 6, 2025. If you missed the trailer from the State of Play last night, you can check it out below and experience the high-octane reveal for yourself.</p>
-<p><iframe title="METAL EDEN Reveal trailer" width="500" height="281" src="https://www.youtube.com/embed/68SmDHGzu3w?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
-<p>Metal Eden is a sci-fi FPS title where you get to explore a world where humanity's consciousness is no longer being held in captivity in the flesh and now resides within robots. There will be eight missions for you to make your way through, with a handcrafted universe to explore. This game will see you plunged into an artificial world full of cybernetic warfare, where you'll be given the opportunity to take control of a hyper unit while also exploring the world and uncovering the mysteries of the futuristic world before you.</p>
-<p>In Metal Eden, you take on the role of ASKA, which is an advanced Hyper Unit android that has been built around a digitized human psyche. The architecture in the world around you is bathed in neon lights, helping to immerse you into the cyber-futuristic world in front of you, which has been named Moebius. As you explore Moebius, you will find yourself participating in the ongoing conflict over the souls of a lost human colony that are stored in cybernetic COREs.</p>
-<p>On this journey, you are accompanied by your sentient spaceship named Nexus. As you progress through the story, you will expand and upgrade your arsenal, as well as make your robotic body even stronger and more robust to be able to continue fighting off enemies in a mechanical world. By fighting the diverse roster of enemies, you will have to extract energy cores that will provide you with an advantage on the battlefield. Along with upgrading your weaponry, you'll also get to upgrade and obtain new combat abilities that will make you a force of nature.</p>
-<p>If you like parkour in your games, you'll want to keep an eye on Metal Eden, as you are able to dash, grapple, and wall-run your way through Moebius while taking on enemies in intense encounters.</p>
-<p>Metal Eden will be released on PC, Xbox Series X|S, and PlayStation 5 on May 6, 2025.</p>
 
 			
 		</div></div>]]></content:encoded>
