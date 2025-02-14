@@ -4,7 +4,7 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Fri, 14 Feb 2025 14:54:05 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 14 Feb 2025 15:06:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -23,86 +23,6 @@
 <p>Warhorse's Kingdom Come Deliverance 2 was a resounding success on all accounts. Commercially, it has already recouped costs and <a href="https://wccftech.com/kingdom-come-deliverance-2-sells-1-million-copies/" target="_blank" rel="noopener">sold over a million units</a>. Critically, it stands at 88 average score on Metacritic. This includes our <a href="https://wccftech.com/review/kingdom-come-deliverance-ii/" target="_blank" rel="noopener">10/10 score from Chris Wray</a>:</p>
 <p><em>Kingdom Come Deliverance 2 is a resounding success, delivering one of the most believable game worlds ever, layered with compelling quests, small and large alike, and enhancing the already interesting systems introduced in the original. With multiple systems layered to immerse you in the game, as well as an intriguing story and excellent polish, it makes for one of the more captivating open world RPGs.</em></p>
 <p>The release of official mod support won't be the end of Warhorse's work for this game. The Czech studio has already <a href="https://wccftech.com/kingdom-come-deliverance-ii-gets-2025-post-launch-roadmap/" target="_blank" rel="noopener">unveiled</a> its 2025 roadmap, announcing a free update for Spring (bringing barber, horse racing, and Hardcore mode), the Brushes With Death DLC for Summer, the Legacy of the Forge DLC for Autumn, and the Mysteria Ecclesiae DLC for Winter.</p>
-
-			
-		</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Avowed PC Technical Report – Solid Work from Obsidian: 4K@200FPS with DLAA and Max Settings]]></title>
-            <link>https://wccftech.com/avowed-pc-technical-report-solid-work-from-obsidian-4k200fps-with-dlaa-and-max-settings/</link>
-            <guid>https://www.resetera.com/threads/avowed-pc-technical-report-%E2%80%93-solid-work-from-obsidian-4k-200fps-with-dlaa-and-max-settings.1109439/</guid>
-            <content:encoded><![CDATA[https://wccftech.com/avowed-pc-technical-report-solid-work-from-obsidian-4k200fps-with-dlaa-and-max-settings/<br/><br/><div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			<p>Avowed may be officially slated for February 18, but owners of the Premium Edition can already play it. As such, a technical report is in order.</p>
-<p>I played the game extensively pre-release <a href="https://wccftech.com/review/avowed-surprisingly-meaty-unsurprisingly-deep/" target="_blank" rel="noopener">for the review</a> and immediately noticed the game's solid performance across the board. As far as Unreal Engine 5 games go, this may be one of the smoothest I've played to date.</p>
-<p>Sure, it isn't the most taxing. It is not, after all, an open world title, although its zones are fairly large. It also doesn't path tracing like Black Myth: Wukong, although its ray traced reflections look great on water surfaces, and the ray traced lighting and shadows definitely augment the visuals. More importantly, the stuttering is minimal, especially when you add a frame rate cap. That's always a worry for Unreal Engine games.</p>
-
-<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2025/02/Avowed-Shaders-Generation-scaled.jpg"></a></figure>
-
-<p>Thankfully, Obsidian has adopted the best practice of running shader generation when loading the game. It will take a while the first time, even with a high-end NVMe SSD like WD Black's SN850X. However, you'll only need to do it again after a driver update, otherwise the game will check them quickly and then load the main menu. The tradeoff is definitely advantageous compared to having the initial experience marred by stuttering.</p>
-<p>During the review period, we didn't have access to NVIDIA DLSS 4 or Multi Frame Generation, as the game wasn't listed as supported on the NVIDIA app for the Override feature. Still, I ended up using the DLSS Swapper tool because subtitles were affected by ghosting. By default, Avowed uses a fairly old (3.5.10.0) version of DLSS Super Resolution and Frame Generation. Updating to DLSS 4 easily fixed the problem, though Multi Frame Generation and DLAA were still unavailable.</p>
-<p>That changed with <a href="https://wccftech.com/nvidia-game-ready-driver-572-42-is-optimized-for-avowed-indiana-jones-dlss-4-multi-frame-generation-update/" target="_blank" rel="noopener">yesterday's GeForce Game Ready driver</a>. You can now select the latest DLSS 4 transformer model for Super Resolution, the improved AI-based Frame Generation model, as well as force Multi Frame Generation and DLAA through the NVIDIA app.</p>
-<p><iframe title="Avowed PC 4K@60 Gameplay - Max Settings, DLSS 4 Multi Frame Gen, GeForce RTX 5090, 9800X3D" width="500" height="281" src="https://www.youtube.com/embed/fRv4UwAC4-U?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
-<p>The game features no built-in benchmark, so I had to come up with a custom solution. I decided to record performance with NVIDIA FrameView while roaming through Paradis, by far the largest city in Avowed with the most amount of NPCs. Of course, I used 4K resolution, and every setting was turned to the max (labeled Epic, as in most Unreal Engine games):</p>
-<ul>
-<li>View Distance</li>
-<li>Shadow Quality</li>
-<li>Texture Quality</li>
-<li>Shading Quality</li>
-<li>Effects Quality</li>
-<li>Foliage Quality</li>
-<li>Post-Processing Quality</li>
-<li>Reflection Quality</li>
-<li>Global Illumination Quality</li>
-</ul>
-<p>The testing rig is:</p>
-<ul>
-<li>AMD Ryzen 7 9800X3D</li>
-<li>MSI MAG B650 TOMAHAWK WIFI</li>
-<li>32GB DDR5 6000 MHz G.SKILL Trident Z5</li>
-<li>2TB NVMe SSD Western Digital Black SN850X</li>
-<li>NVIDIA GeForce RTX 5090 Founder's Edition</li>
-</ul>
-<figure>
-<div>
-
-<div>
-		
-		
-		<p><span>2 of 9</span>
-	</p></div></div>
-</figure>
-
-
-<p>With DLSS 4 Multi Frame Generation set to 4x, I had enough headway to run DLAA at 200 average frames per second. Dropping to DLSS Quality provided a 30% boost to the average frame rate, which averaged 260FPS when upscaling from 1440p to 4K. However, the stuttering time increased from 7.30% to 13.29%, likely because of the larger difference between the maximum and minimum frame rates. Indeed, when looking at the 0.1% Low, DLAA and DLSS Quality are nearly identical (118 and 123 FPS, respectively). On the flip side, latency is lower when using DLSS Quality, though the difference is just over 8 ms (40.9 ms with DLSS Quality, 49.1 ms with DLAA).</p>
-<p>Keep in mind, though, that the frame rate variance would be far lower when capping the frame rate, which you should absolutely do when actually playing the game. Indeed, during the review period, I capped the frame rate with the in-game slider to 120FPS and had a very smooth experience even without Multi Frame Generation.</p>
-<figure>
-<div>
-
-<div>
-		
-		
-		<p><span>2 of 9</span>
-	</p></div></div>
-</figure>
-
-
-<p>Graphically, Avowed received a lot of criticism before its launch. However, the final version is nothing to complain about. In fact, it is often rather beautiful, thanks to the striking biomes and the highly detailed characters and armors. Sure, facial animations may not always be great, but only a handful of studios have really mastered that part of character rendering. As you can see above, the ray traced reflections are very pretty, though it's usually Lumen's lighting that elevates the visuals.</p>
-<p>However, I do have to criticize Obsidian for its lack of native High Dynamic Range (HDR) display support. In 2025, this is nearly inexcusable, especially when the Xbox version supports not only HDR10 but Dolby Vision, too.</p>
-<p>I had to resort to the Unreal Engine 5 HDR workaround <a href="https://www.pcgamingwiki.com/wiki/Engine:Unreal_Engine_5#High_dynamic_range_.28HDR.29" target="_blank" rel="noopener">listed on PC Gaming Wiki</a> to enable HDR. Basically, you need to add the following variables to the GameUserSettings.ini file:</p>
-<p><em>[SystemSettings]</em><br>
-<em>r.AllowHDR=1</em><br>
-<em>r.HDR.EnableHDROutput=1</em><br>
-<em>r.HDR.Display.OutputDevice=5</em><br>
-<em>r.HDR.Display.ColorGamut=2</em></p>
-<p>It's not nearly the same as having it natively supported and optimized, though. Hopefully, a patch can resolve this.</p>
-<p>Beyond that, Avowed supports the DualSense Edge controller right away despite not having any PlayStation 5 version announced. Granted, you'll have the wrong icons and no Adaptive Triggers or Haptic Feedback, but regular rumble works just fine. Lastly, I had good results with my Dolby Atmos setup when upmixing via the Dolby Access app, which I take as a sign of great surround sound implementation. The game also features sliders for Field of View (from 90 to 105) and for motion blur.</p>
-<p>When scrolling Avowed's credits, the game lists many supporting studios, including the Xbox Games Technology Group, which was created in 2023 inside The Coalition. The studio is <a href="https://wccftech.com/the-coalition-shows-stunning-ue5-demo-running-on-xbox-series-x-nanite-allows-100x-detail-lumen-is-a-total-game-changer/" target="_blank" rel="noopener">among the foremost Unreal Engine experts</a>, and I have little doubt that they were instrumental in helping Obsidian achieve their objectives with their game. In this regard, if nothing else, having the support of Xbox's teams has definitely leveled up the experience compared to The Outer Worlds.</p>
 
 			
 		</div></div>]]></content:encoded>
