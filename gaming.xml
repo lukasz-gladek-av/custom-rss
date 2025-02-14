@@ -4,9 +4,191 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Fri, 14 Feb 2025 11:54:38 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 14 Feb 2025 12:10:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Avowed PC Technical Report – Solid Work from Obsidian: 4K@200FPS with DLAA and Max Settings]]></title>
+            <link>https://wccftech.com/avowed-pc-technical-report-solid-work-from-obsidian-4k200fps-with-dlaa-and-max-settings/</link>
+            <guid>https://www.resetera.com/threads/avowed-pc-technical-report-%E2%80%93-solid-work-from-obsidian-4k-200fps-with-dlaa-and-max-settings.1109439/</guid>
+            <content:encoded><![CDATA[https://wccftech.com/avowed-pc-technical-report-solid-work-from-obsidian-4k200fps-with-dlaa-and-max-settings/<br/><br/><div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>Avowed may be officially slated for February 18, but owners of the Premium Edition can already play it. As such, a technical report is in order.</p>
+<p>I played the game extensively pre-release <a href="https://wccftech.com/review/avowed-surprisingly-meaty-unsurprisingly-deep/" target="_blank" rel="noopener">for the review</a> and immediately noticed the game's solid performance across the board. As far as Unreal Engine 5 games go, this may be one of the smoothest I've played to date.</p>
+<p>Sure, it isn't the most taxing. It is not, after all, an open world title, although its zones are fairly large. It also doesn't path tracing like Black Myth: Wukong, although its ray traced reflections look great on water surfaces, and the ray traced lighting and shadows definitely augment the visuals. More importantly, the stuttering is minimal, especially when you add a frame rate cap. That's always a worry for Unreal Engine games.</p>
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2025/02/Avowed-Shaders-Generation-scaled.jpg"></a></figure>
+
+<p>Thankfully, Obsidian has adopted the best practice of running shader generation when loading the game. It will take a while the first time, even with a high-end NVMe SSD like WD Black's SN850X. However, you'll only need to do it again after a driver update, otherwise the game will check them quickly and then load the main menu. The tradeoff is definitely advantageous compared to having the initial experience marred by stuttering.</p>
+<p>During the review period, we didn't have access to NVIDIA DLSS 4 or Multi Frame Generation, as the game wasn't listed as supported on the NVIDIA app for the Override feature. Still, I ended up using the DLSS Swapper tool because subtitles were affected by ghosting. By default, Avowed uses a fairly old (3.5.10.0) version of DLSS Super Resolution and Frame Generation. Updating to DLSS 4 easily fixed the problem, though Multi Frame Generation and DLAA were still unavailable.</p>
+<p>That changed with <a href="https://wccftech.com/nvidia-game-ready-driver-572-42-is-optimized-for-avowed-indiana-jones-dlss-4-multi-frame-generation-update/" target="_blank" rel="noopener">yesterday's GeForce Game Ready driver</a>. You can now select the latest DLSS 4 transformer model for Super Resolution, the improved AI-based Frame Generation model, as well as force Multi Frame Generation and DLAA through the NVIDIA app.</p>
+<p><iframe title="Avowed PC 4K@60 Gameplay - Max Settings, DLSS 4 Multi Frame Gen, GeForce RTX 5090, 9800X3D" width="500" height="281" src="https://www.youtube.com/embed/fRv4UwAC4-U?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+<p>The game features no built-in benchmark, so I had to come up with a custom solution. I decided to record performance with NVIDIA FrameView while roaming through Paradis, by far the largest city in Avowed with the most amount of NPCs. Of course, I used 4K resolution, and every setting was turned to the max (labeled Epic, as in most Unreal Engine games):</p>
+<ul>
+<li>View Distance</li>
+<li>Shadow Quality</li>
+<li>Texture Quality</li>
+<li>Shading Quality</li>
+<li>Effects Quality</li>
+<li>Foliage Quality</li>
+<li>Post-Processing Quality</li>
+<li>Reflection Quality</li>
+<li>Global Illumination Quality</li>
+</ul>
+<p>The testing rig is:</p>
+<ul>
+<li>AMD Ryzen 7 9800X3D</li>
+<li>MSI MAG B650 TOMAHAWK WIFI</li>
+<li>32GB DDR5 6000 MHz G.SKILL Trident Z5</li>
+<li>2TB NVMe SSD Western Digital Black SN850X</li>
+<li>NVIDIA GeForce RTX 5090 Founder's Edition</li>
+</ul>
+<figure>
+<div>
+
+<div>
+		
+		
+		<p><span>2 of 9</span>
+	</p></div></div>
+</figure>
+
+
+<p>With DLSS 4 Multi Frame Generation set to 4x, I had enough headway to run DLAA at 200 average frames per second. Dropping to DLSS Quality provided a 30% boost to the average frame rate, which averaged 260FPS when upscaling from 1440p to 4K. However, the stuttering time increased from 7.30% to 13.29%, likely because of the larger difference between the maximum and minimum frame rates. Indeed, when looking at the 0.1% Low, DLAA and DLSS Quality are nearly identical (118 and 123 FPS, respectively). On the flip side, latency is lower when using DLSS Quality, though the difference is just over 8 ms (40.9 ms with DLSS Quality, 49.1 ms with DLAA).</p>
+<p>Keep in mind, though, that the frame rate variance would be far lower when capping the frame rate, which you should absolutely do when actually playing the game. Indeed, during the review period, I capped the frame rate with the in-game slider to 120FPS and had a very smooth experience even without Multi Frame Generation.</p>
+<figure>
+<div>
+
+<div>
+		
+		
+		<p><span>2 of 9</span>
+	</p></div></div>
+</figure>
+
+
+<p>Graphically, Avowed received a lot of criticism before its launch. However, the final version is nothing to complain about. In fact, it is often rather beautiful, thanks to the striking biomes and the highly detailed characters and armors. Sure, facial animations may not always be great, but only a handful of studios have really mastered that part of character rendering. As you can see above, the ray traced reflections are very pretty, though it's usually Lumen's lighting that elevates the visuals.</p>
+<p>However, I do have to criticize Obsidian for its lack of native High Dynamic Range (HDR) display support. In 2025, this is nearly inexcusable, especially when the Xbox version supports not only HDR10 but Dolby Vision, too.</p>
+<p>I had to resort to the Unreal Engine 5 HDR workaround <a href="https://www.pcgamingwiki.com/wiki/Engine:Unreal_Engine_5#High_dynamic_range_.28HDR.29" target="_blank" rel="noopener">listed on PC Gaming Wiki</a> to enable HDR. Basically, you need to add the following variables to the GameUserSettings.ini file:</p>
+<p><em>[SystemSettings]</em><br>
+<em>r.AllowHDR=1</em><br>
+<em>r.HDR.EnableHDROutput=1</em><br>
+<em>r.HDR.Display.OutputDevice=5</em><br>
+<em>r.HDR.Display.ColorGamut=2</em></p>
+<p>It's not nearly the same as having it natively supported and optimized, though. Hopefully, a patch can resolve this.</p>
+<p>Beyond that, Avowed supports the DualSense Edge controller right away despite not having any PlayStation 5 version announced. Granted, you'll have the wrong icons and no Adaptive Triggers or Haptic Feedback, but regular rumble works just fine. Lastly, I had good results with my Dolby Atmos setup when upmixing via the Dolby Access app, which I take as a sign of great surround sound implementation. The game also features sliders for Field of View (from 90 to 105) and for motion blur.</p>
+<p>When scrolling Avowed's credits, the game lists many supporting studios, including the Xbox Games Technology Group, which was created in 2023 inside The Coalition. The studio is <a href="https://wccftech.com/the-coalition-shows-stunning-ue5-demo-running-on-xbox-series-x-nanite-allows-100x-detail-lumen-is-a-total-game-changer/" target="_blank" rel="noopener">among the foremost Unreal Engine experts</a>, and I have little doubt that they were instrumental in helping Obsidian achieve their objectives with their game. In this regard, if nothing else, having the support of Xbox's teams has definitely leveled up the experience compared to The Outer Worlds.</p>
+
+			
+		</div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Nintendo Switch 2 Units Are Reportedly Being Sold on the Black Market for $40,000]]></title>
+            <link>https://wccftech.com/nintendo-switch-2-units-sold-40000/</link>
+            <guid>https://www.resetera.com/threads/nintendo-switch-2-units-are-reportedly-being-sold-on-the-black-market-for-40-000.1109436/</guid>
+            <content:encoded><![CDATA[https://wccftech.com/nintendo-switch-2-units-sold-40000/<br/><br/><div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>Early Nintendo Switch 2 units are reportedly selling on the black market in China for an exorbitant amount of money.</p>
+<p>As reported on the <a href="https://www.reddit.com/r/NintendoSwitch2/" target="_blank" rel="noopener">Nintendo Switch 2 subreddit</a>, the Xiahongshu forums user who obtained last year a CAD model of the new Nintendo system and provided the first accurate look at its design before the official reveal last month shared a screenshot featuring a conversation with a black market seller saying that the system, complete with dock and Joy-Con controllers, costs 290,000 RMB, around $39,780. While no regular user would spend so much money to get the console, the Xiahongshu forums user is selling the opportunity to manufacturers to test accessories on a real unit, so they have something going on to earn back the money spent.</p>
+<blockquote><p><a href="https://www.reddit.com/r/NintendoSwitch2/comments/1ip50jr/chinese_cad_model_leaker_shows_a_screenshot_of/">Chinese CAD model leaker shows a screenshot of his DMs with a black market seller, saying the prices for the Switch 2 dock, joycons, and tablet will cost him $39,780</a><br> by<a href="https://www.reddit.com/user/Icy-ConcentrationC/">u/Icy-ConcentrationC</a> in<a href="https://www.reddit.com/r/NintendoSwitch2/">NintendoSwitch2</a></p></blockquote>
+
+<p>While there's no way to really know if the Xiahongshu forums user really has an actual Nintendo Switch 2, it likely won't take long to learn if it is true, considering the user did share the CAD model online after acquiring it and how people are hungering to learn more about the system ahead of the dedicated Nintendo Direct that will air on <a href="https://wccftech.com/nintendo-switch-2-officially-revealed-with-a-new-trailer-dedicated-direct-confirmed-for-april/">April 2nd.</a></p>
+<p>The Nintendo Switch 2 is scheduled to launch sometime this year. A release window has yet to be confirmed, but considering the preview events around the world will be hosted until late May, a release in the second half of the year is to be expected.</p>
+
+			
+		</div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Lies of P Overture Release Period—How to Play Prequel DLC]]></title>
+            <link>https://insider-gaming.com/lies-of-p-overture-release/</link>
+            <guid>https://www.resetera.com/threads/lies-of-p-overture-release-period%E2%80%94how-to-play-prequel-dlc.1109433/</guid>
+            <content:encoded><![CDATA[https://insider-gaming.com/lies-of-p-overture-release/<br/><br/><div id="readability-page-1" class="page"><div>
+		
+<p>We return to Krat to battle more creatures and find out where everything began. The Lies of P Overture release is an extensive prequel with the DLC aiming to trace the outbreak’s origins back to its beginning.</p>
+
+
+
+<p>Lies of P was one of 2023’s most surprising debuts. I hold my hand up and say I thought it looked like nothing but a Bloodborne clone—and a pale imitation at best. I have since gorged on humble pie and was utterly moved once I finally rolled the credits after a million and one deaths. </p>
+
+
+
+<p>Lies of P is an unbelievable addition to the Soulslike genre, and the announcement of the <a href="https://insider-gaming.com/lies-of-p-overture-prequel-announced-its-not-a-sequel/" target="_blank" rel="noreferrer noopener">Lies of P Overture</a> prequel was music to my ears.</p>
+
+
+
+<h2 id="h-lies-of-p-overture-prequel-release-period">Lies of P Overture Prequel Release Period</h2>
+
+
+
+<figure><figcaption>New possibilities await. Credit to Neowiz Games and Round8 Studio.</figcaption></figure>
+
+
+
+<p><strong>Lies of P Overture is set to release during Summer 2025, but we don’t have an exact date to go with this timeframe.</strong></p>
+
+
+
+<p>The <a href="https://insider-gaming.com/playstation-state-of-play-february-2025-everything-announced/" target="_blank" rel="noreferrer noopener">February 2025 Sony State of Play Event</a> is where we first caught a glimpse of Lies of P Overture. Again, it was surprising due to Lies of P’s ending. I won’t spoil anything, but it felt like the developers would likely be working on a fully fledged sequel.</p>
+
+
+
+<p>Neowiz Games and Round8 Studio were actually working on prequel DLC! In a <a href="https://blog.playstation.com/2025/02/12/lies-of-p-overture-launches-summer-2025-on-ps5-ps4/" target="_blank" rel="noreferrer noopener nofollow">PlayStation Blog</a>, Lies of P’s director discussed Overture and its goals.</p>
+
+
+
+<p>“Do you remember the moment when you, as Geppetto’s most ambitious masterwork, woke up in the middle of the great Puppet Frenzy, a massacre that devastated the entire city around you? Now, you will venture back in time to experience the harrowing journey that birthed that fateful moment. Through Lies of P: Overture, we aimed to fully refine, forge and complete the story as we originally envisioned it,” said Jiwon Choi.</p>
+
+
+
+<h2 id="h-do-you-need-lies-of-p-to-play-overture-prequel">Do You Need Lies of P to Play Overture Prequel?</h2>
+
+
+
+<p><strong>Yes, you need a copy of Lies of P to play the Overture prequel DLC.</strong></p>
+
+
+
+<p>Many DLCs allow you to play the content without needing the base game. That’s 100% not the case here, and you need a working physical or digital copy of Lies of P.</p>
+
+
+
+<p>What isn’t confirmed though is if this is post-game DLC, it can be started midway, or available from the second you boot Lies of P up for the first time. With Overture being a prequel, I’d lean toward the DLC being readily available, even if you’ve never played the base game of Lies of P before.</p>
+
+
+
+<p>We’ll update this hub once we learn the accurate release date, as well as what’s needed to play Overture.</p>
+
+
+
+<hr>
+
+
+
+<p>Did the Lies of P Overture DLC announcement catch you off guard too? Did you play or finish Lies of P? What have you made of the early Overture gameplay footage so far? Let us know.</p>
+
+
+
+<p>If you’re thinking about picking up Lies of P for the prequel, consider checking out the <a href="https://insider-gaming.com/lies-of-p-full-trophy-list-revealed/" target="_blank" rel="noreferrer noopener">Lies of P Trophy and Achievements List</a>.</p>
+    <div id="ig-newsletter-holder">
+            <p><span>
+                    SUBSCRIBE to our newsletter to receive the latest news and exclusive leaks every week! No Spam.
+                </span>
+            </p>
+            
+        </div>
+
+	</div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Willl There Be a Days Gone 2? Sequel Status Explained]]></title>
             <link>https://insider-gaming.com/willl-there-be-a-days-gone-2/</link>
@@ -782,85 +964,6 @@ In Dark Souls 3, for example, there is a cannibalistic monster who fights using 
             </div>
               
     </div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Mobile Suit Gundam SEED: Battle Destiny Remastered announced for Switch, PC]]></title>
-            <link>https://www.gematsu.com/2025/02/mobile-suit-gundam-seed-battle-destiny-remastered-announced-for-switch-pc</link>
-            <guid>https://www.resetera.com/threads/mobile-suit-gundam-seed-battle-destiny-remastered-announced-for-switch-pc.1109172/</guid>
-            <content:encoded><![CDATA[https://www.gematsu.com/2025/02/mobile-suit-gundam-seed-battle-destiny-remastered-announced-for-switch-pc<br/><br/><div id="readability-page-1" class="page"><div>
-
-    <ul>
-    <li><a href="https://www.gematsu.com/platforms/pc">PC</a></li><li><a href="https://www.gematsu.com/platforms/nintendo/switch">Switch</a></li>    </ul>
-
-    
-    <p><span>Due out on May 22.</span>
-      </p></div><div><p>Publisher <a title="Companies > Bandai Namco Entertainment [6,642 articles]" href="https://www.gematsu.com/companies/bandai-namco-entertainment">Bandai Namco</a> and developer <a title="Companies > B.B. Studio [224 articles]" href="https://www.gematsu.com/companies/bandai-namco-entertainment/bandai-namco-studios/bb-studio">B.B. Studio</a> have announced <em><a title="Games > Mobile Suit Gundam SEED: Battle Destiny Remastered [1 article]" href="https://www.gematsu.com/games/mobile-suit-gundam-seed-battle-destiny-remastered">Mobile Suit Gundam SEED: Battle Destiny Remastered</a></em> for <a title="Platforms > Switch [16,654 articles]" href="https://www.gematsu.com/platforms/nintendo/switch">Switch</a> and <a title="Platforms > PC [22,363 articles]" href="https://www.gematsu.com/platforms/pc">PC</a> (<a href="https://store.steampowered.com/app/1857740/MOBILE_SUIT_GUNDAM_SEED_BATTLE_DESTINY_REMASTERED/" target="_blank">Steam</a>). It will launch on May 22 worldwide. <span id="more-943419"></span></p><p><em>Mobile Suit Gundam Seed: Battle Destiny Remastered</em> is a remastered version of the <a title="Platforms > PS Vita [7,378 articles]" href="https://www.gematsu.com/platforms/playstation/ps-vita">PS Vita</a> game <em>Mobile Suit Gundam SEED: Battle Destiny</em>, which was released only in Japan on June 7, 2012.</p><p>Here is an overview of the game, via Bandai Namco:</p><blockquote><p><strong>About</strong></p><p>Become a pilot in the world of <em>Mobile Suit Gundam SEED</em>, for the first time available with English localization! Engage in thrilling, <a title="Genres > Action [2,494 articles]" href="https://www.gematsu.com/genres/action">action</a>-packed Gundam battles, complete missions, and tune up your newly acquired Mobile Suits!</p><p><strong>Key Features</strong></p><!-- AD: content -->
-        <ul><li><strong> Battle Across Turbulent Times!</strong> – Relive legendary moments from <em>Mobile Suit Gundam SEED</em> and <em>Mobile Suit Gundam SEED Destiny</em> with enhanced maps and graphics. Choose your faction from Earth Alliance Forces, ZAFT, or the Archangel, and complete missions alongside familiar pilots and Mobile Suits from the series.</li><li><strong> Over 100 Mobile Suits!</strong> – All Mobile Suits have been redesigned with high-resolution model textures. Unlock more Mobile Suits and missions from the main <em>Mobile Suit Gundam SEED</em> series, and battle into additional side stories from the <em>Mobile Suit Gundam SEED</em> universe.</li><li><strong> Tune Up Your Suits!</strong> – Strengthen your suits and weaponry in the redesigned UI menu. Tune your suits to match your playstyle as you embark on missions and take on stronger opponents!</li><li><strong> System <a title="Companies > Enhance [31 articles]" href="https://www.gematsu.com/companies/enhance">Enhance</a>ments</strong> – New lock-on modes and controller settings have been added for smoother gameplay.</li></ul><p>*Product is based on <em>Mobile Suit Gundam SEED: Battle Destiny</em> released in 2012. Some specifications may differ.</p></blockquote><p>Watch the announcement trailer below. View the first screenshots <a href="https://www.gematsu.com/gallery/mobile-suit-gundam-seed-battle-destiny-remastered/february-13-2025/">at the gallery</a>.</p><h2><span>Announce Trailer</span></h2><p><strong>English</strong></p><p><iframe title="MOBILE SUIT GUNDAM SEED BATTLE DESTINY REMASTERED - Announcement Trailer" width="500" height="281" src="https://www.youtube.com/embed/NX1GfnTWz-w?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p><p><strong>Japanese</strong></p><p><iframe title="『機動戦士ガンダムSEED BATTLE DESTINY REMASTERED』アナウンスメントトレーラー" width="500" height="281" src="https://www.youtube.com/embed/gLuVjyYn7tc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p><h2><span>Screenshots</span></h2><div id="carousel_944136"><ul><li><span>❮</span></li><li><span>❯</span></li></ul></div></div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Nvidia delays the RTX 5070 till after AMD’s reveal]]></title>
-            <link>https://www.theverge.com/news/612650/nvidia-delays-rtx-5070-after-amd-9070</link>
-            <guid>https://www.resetera.com/threads/nvidia-delays-the-rtx-5070-till-after-amd%E2%80%99s-reveal.1109148/</guid>
-            <content:encoded><![CDATA[https://www.theverge.com/news/612650/nvidia-delays-rtx-5070-after-amd-9070<br/><br/><div id="readability-page-1" class="page"><div><div><p><a href="https://www.theverge.com/authors/sean-hollister">Sean Hollister</a> <span>is a senior editor and founding member of The Verge who covers gadgets, games, and toys. He spent 15 years editing the likes of CNET, Gizmodo, and Engadget.</span></p></div><div id="zephr-anchor"><p>As always, the most important Nvidia graphics card is the one you can actually buy, and Nvidia’s talked a big game for its RTX 5070, <a href="https://www.theverge.com/2025/1/8/24338999/nvidia-rtx-5070-vs-rtx4090-performance-price">making the dubious but nuanced claim</a> it can deliver RTX 4090 performance for just $549. On February 28th, AMD will get its chance to intercept with the Radeon RX 9070 and 9070 XT, <a href="https://www.theverge.com/news/612375/amd-will-reveal-radeon-rx-9000-gpus-february-28th">in a streaming event it just announced today</a>. But Nvidia has now made its own wiggle room, delaying the launch of the RTX 5070 from February to March 5th, <a href="https://go.skimresources.com/?id=1025X1701640&amp;xs=1&amp;url=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2Fgeforce%2Fgraphics-cards%2F50-series%2Frtx-5070-family%2F" rel="sponsored">its product page reveals today</a>.</p><p>Nvidia will ship its $749 RTX 5070 Ti ahead of AMD’s event, though, on February 20th, a week from today.</p><p>AMD has telegraphed that it <a href="https://www.theverge.com/2024/9/9/24240173/amd-udna-gpu-ai-gaming-rdna-cdna-jack-huynh">won’t be competing</a> with Nvidia’s latest and greatest cards, so price is the one big lever that AMD can potentially pull in order to compete. (The AMD Radeon 9070 cards <a href="https://www.theverge.com/2025/1/6/24336246/amd-radeon-rx-9070-series-rdna-4-fsr-4-ces-2025#:~:text=in%20a%20branding%20slide%20for%20RDNA%204%2C%20AMD%20appears%20to%20suggest%20the%209070%20series%20will%20offer%20similar%20performance%20to%20the%20Nvidia%20GeForce%20RTX%204070%20Ti%20and%20RTX%204070%20Super.">appeared to be targeting</a> Nvidia 4070 Ti and 4070 Super levels of performance, not necessarily higher.) But Nvidia, a company that can now make <a href="https://www.theverge.com/2024/11/20/24301811/nvidia-just-made-nearly-20-billion-in-pure-profit-in-a-single-quarter">$20 billion in pure profit in a single quarter</a>, could theoretically counter that if it feels it needs to, and now has more room to do so.</p><p>All that said, <a href="https://videocardz.com/newz/amd-reportedly-working-on-gaming-radeon-rx-9000-gpu-with-32gb-memory">there is a rumor</a> that AMD may be working on a more potent card than its already-announced RX 9070 and 9070 XT, one with 32GB of RAM. AMD gaming marketing boss <a href="https://x.com/AzorFrank/status/1890123828367601764">Frank Azor says</a> the 9070 XT won’t be a 32GB card, but did not address the larger rumor.</p></div></div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Massive Stalker 2 Patch Has Over 1,700 Changes, Including Big Bug Fixes]]></title>
-            <link>https://www.gamespot.com/articles/massive-stalker-2-patch-has-over-1700-changes-including-big-bug-fixes/1100-6529496/?ftag=CAD-01-10abi2f</link>
-            <guid>https://www.resetera.com/threads/massive-stalker-2-patch-has-over-1-700-changes-including-big-bug-fixes.1109145/</guid>
-            <content:encoded><![CDATA[https://www.gamespot.com/articles/massive-stalker-2-patch-has-over-1700-changes-including-big-bug-fixes/1100-6529496/?ftag=CAD-01-10abi2f<br/><br/><div id="readability-page-1" class="page"><p>
-    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
-  </p><article itemscope="" data-type-id="1100" data-guid="1100-6529496">
-
-            
-            
-  
-
-
-        
-
-  
-
-
-        
-        
-              <section>
-
-                  
-          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
-                <p>Stalker 2's much-anticipated 1.2 patch is here, and it continues where the last few 1.1 updates left off--and then some. According to its announcement on <a href="https://store.steampowered.com/news/app/1643320/view/579378232238800945" data-target="true" target="_blank" rel="noopener nofollow">Steam</a>, Stalker's 1.2 patch has more than 1,700 individual fixes and improvements, including a large number of bug fixes, NPC behavioral changes, revamped visuals, and more.</p><p dir="ltr">There are truly too many changes to go over here in detail, but some of the major ones include an overhaul to NPC shooting accuracy, with reduced wall penetration and better shot randomization. The update also revamps how the game's stealth works, gives some enemies (like the Controller) new abilities, and improves NPC behavior overall. It improves performance during certain sequences, and fixes dozens of major and minor issues that could affect main story and side quests. More than 450 improvements were made to the game's map and level design, including several sections where the player could get stuck, such as X-17 Lab.</p><p dir="ltr">Stalker 2 was generally praised for its atmosphere and unique presentation when it first released last year. However, many players and critics noted its many bugs. In GameSpot's <a href="https://www.gamespot.com/reviews/stalker-2-heart-of-chornobyl-review-in-the-zone/1900-6418320/">Stalker 2 review</a>, critic Richard Wakeling listed its "torrent of technical problems," but said that it's "difficult to not to fall under its enticing spell." With the introduction of this most recent patch and its predecessors, hopefully most of those bugs are a thing of the past. Stalker 2 is also available on Xbox Series X|S.</p>
-  
-                        
-    
-        
-        
-  
-                                  </div>
-
-          
-        
-        
-  
-                    
-  
-    
-          
-            
-  <div>
-    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
-
-    
-      </div>
-        
-      </section>
-    
-            
-    </article></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Atari and Jeff Minter team on remake of classic arcade game I, Robot]]></title>
-            <link>https://www.gamedeveloper.com/business/atari-and-jeff-minter-team-on-i-robot-remake</link>
-            <guid>https://www.resetera.com/threads/atari-and-jeff-minter-team-on-remake-of-classic-arcade-game-i-robot.1109142/</guid>
-            <content:encoded><![CDATA[https://www.gamedeveloper.com/business/atari-and-jeff-minter-team-on-i-robot-remake<br/><br/><div id="readability-page-1" class="page"><div data-component="captioned-content" data-testid="featured-image"><p><span>Image via Llamasoft/Atari</span></p></div><div data-module="content" data-testid="article-base-body-content"><p data-testid="content-paragraph"><span data-testid="content-text">Game designer Jeff Minter and his studio Llamasoft are going back to the past with a remake of Atari's </span><span data-testid="content-text"><a target="_blank" href="https://www.youtube.com/watch?v=PgN3u8JtGw8">I, Robot</a></span><span data-testid="content-text"><span>.</span></span></p><p data-testid="content-paragraph"><span data-testid="content-text">For Minter and Llamasoft, </span><span data-testid="content-text"><span>I, Robot </span></span><span data-testid="content-text">will be the latest in a legacy of remakes and retro-inspired adaptations, following 2018's </span><span data-testid="content-text"><span>Minotaur Arcade Vol 1. </span></span><span data-testid="content-text">In the past, Minter has had a hand in remaking 8-bit classics </span><span data-testid="content-text"><span>Tempest </span></span><span data-testid="content-text">and </span><span data-testid="content-text"><span>Defender, </span></span><span data-testid="content-text">along with his own Atari ST/Amiga game </span><span data-testid="content-text"><span>Llamatron.</span></span></p><p data-testid="content-paragraph"><span data-testid="content-text">"Throughout his 45-year career, Jeff has retained the spirit of a true indie developer," reads a statement from Atari game VP Ethan Sterns. The remake, which is expected to release later this year for PlayStation, Xbox, Switch, PC, and Atari VCS was described by Sterns as "quintessential Minter."</span></p><p data-testid="content-paragraph"><span data-testid="content-text">The upcoming "reality-defying reinvention" of the 1984 arcade future will see players explore levels and turn red tiles to blue to escape. Changes to the original game come in reducing the level count from 126 to 55, adding in the modern magic of online leaderboards, and implementing procedural music that "builds as you excel."</span></p><h2 data-testid="content-text" id="A brief history of ">A brief history of <span>I, Robot</span></h2><p data-testid="content-paragraph"><span data-testid="content-text">Designed by </span><span data-testid="content-text"><span>Missile Command </span></span><span data-testid="content-text">and </span><span data-testid="content-text"><span>Tempest's </span></span><span data-testid="content-text">Daid Theurer, </span><span data-testid="content-text"><span>I, Robot </span></span><span data-testid="content-text">first released in June 1984 as an arcade game. At the time, it was famously the first commercially produced arcade game rendered entirely in real-time, 3D polygon graphics, and the first to feature camera control options. It's also one of Atari's final two arcade games (alongside </span><span data-testid="content-text"><span>Star Wars: Return of the Jedi </span></span><span data-testid="content-text">that same year) before the company was split up and eventually formed into its current-day incarnation.</span></p><p data-component="related-article"><span data-testid="related-article-title">Related:</span><a href="https://www.gamedeveloper.com/design/how-the-iconic-jeff-minter-stays-inspired-after-43-llama-filled-years-of-game-development" target="_self" data-discover="true">How the iconic Jeff Minter stays inspired after 43 llama-filled years of game development</a></p><p data-testid="content-paragraph"><span data-testid="content-text">Initially, the game was a financial flop and fewer than 1,000 units were created. Few are said to currently exist, and the game has since been regarded as a pioneer for its then-innovative graphics. When Atari's 50th anniversary game bundle released in 2022, </span><span data-testid="content-text"><span>I, Robot </span></span><span data-testid="content-text">was included, marking the title's first-ever re-release for non-arcade game hardware.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">If you're curious what a "quintessential Minter" reimagining of a game like </span><span data-testid="content-text"><span>I, Robot </span></span><span data-testid="content-text">could look like, </span><span data-testid="content-text"><a target="_self" href="https://www.gamedeveloper.com/design/how-the-iconic-jeff-minter-stays-inspired-after-43-llama-filled-years-of-game-development">this 2024 interview with Minter </a></span><span data-testid="content-text">offers an in-depth exploration of his game making ethos and a candid look at how--and why--he creates such distinctive games like Gridrunner, Polybius, and others mentioned above.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">As Minter explained in that 2024 chat, he's not typically the type to create games that chase a wide audience or as many people as possible. "That's a different kind of motive than what drives me, really. I'm more interested in pursuing the ideas I have, and I don't really care that much if they're wildly successful or not."</span></p><p data-testid="content-paragraph"><span data-testid="content-text">"Oh, it'd be nice if they were. I'm not saying I would turn that down. But I'm not that bothered if they're not," said Minter. "As long as I can carry on doing what I'm doing, I'm happy, you know?”</span></p></div><div><h2>About the Author</h2><div data-component="contributor-summary"><p data-testid="contributor-summary-subtitle">Contributing Editor, GameDeveloper.com</p><div><p data-testid="content-paragraph"><span data-testid="content-text">A Kansas City, MO native, Justin Carter has written for numerous sites including IGN, Polygon, and SyFy Wire. In addition to Game Developer, his writing can be found at io9 over on Gizmodo. Don't ask him about how much gum he's had, because the answer will be more than he's willing to admit.</span></p></div></div></div></div>]]></content:encoded>
         </item>
     </channel>
 </rss>
