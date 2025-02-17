@@ -4,9 +4,79 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Mon, 17 Feb 2025 10:38:13 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 17 Feb 2025 10:47:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Diablo speedrunners searched 2.2 billion random dungeon seeds to debunk a two-decade old speedrun record]]></title>
+            <link>https://www.rockpapershotgun.com/diablo-speedrunners-searched-22-billion-random-dungeon-seeds-to-debunk-a-two-decade-old-speedrun-record</link>
+            <guid>https://www.resetera.com/threads/diablo-speedrunners-searched-2-2-billion-random-dungeon-seeds-to-debunk-a-two-decade-old-speedrun-record.1111236/</guid>
+            <content:encoded><![CDATA[https://www.rockpapershotgun.com/diablo-speedrunners-searched-22-billion-random-dungeon-seeds-to-debunk-a-two-decade-old-speedrun-record<br/><br/><div id="readability-page-1" class="page"><div data-component="article-header">
+  
+
+    <div id="main-content">
+  
+
+        <p>When you said "stay a while"...</p>
+
+    </div>
+
+
+  <p>
+  <figure>
+  <a href="https://assetsio.gnwcdn.com/diablo-1-dungeon.jpg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
+  
+  </a>
+
+      <figcaption>
+        <span>
+Image credit:          <cite>Blizzard</cite>
+        </span>
+      </figcaption>
+  </figure>
+  </p>
+
+    
+
+</div><div data-component="article-content">
+
+
+
+            <p>A team of <a href="https://www.rockpapershotgun.com/games/diablo">Diablo</a> speedrunners spent months searching the 1996 <a href="https://www.rockpapershotgun.com/best-rpgs">RPG</a>'s 2.2 billion valid randomly generated dungeon seeds to find the layout used in a stupidly lucky speedrun they suspected to be illegitimate, says a new report from <a href="https://arstechnica.com/gaming/2025/02/the-diablo-hackers-that-debunked-a-record-speedrun/">Ars Technica's Kyle Orland</a>.</p>
+<p>The three minute, 12 second sorcerer run by Maciej "Groobo" Maselewski was first uploaded to Speed Demos Archive in 2009. Watching it "feels like watching someone win the lottery," writes Orland, thanks to a seemingly random streak of entrance and exit stairways right next to each other, allowing for a rapid, safe descent through the dungeon. Groobo lucked out again on the ninth floor, nabbing the <a href="https://diablo.fandom.com/wiki/Naj%27s_Puzzler_(Diablo_I)">Naj's Puzzler</a> item needed for later teleporting exploits.</p>
+<!--more-->
+<figure>
+<p>
+<a aria-label="Diablo: SPEED RUN (Sorcerer) in 3:12 by groobo - SDA (2009)" data-lightbox="false" data-platform="youtube" href="https://www.youtube.com/embed/dW8XorD9RwI?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
+<span>Diablo: SPEED RUN (Sorcerer) in 3:12 by groobo - SDA (2009)</span>
+<template>
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/dW8XorD9RwI?autoplay=1" frameborder="0" loading="lazy" src="https://www.youtube-nocookie.com/embed/dW8XorD9RwI?autoplay=1" title="Diablo: SPEED RUN (Sorcerer) in 3:12 by groobo - SDA (2009)">
+</iframe> </template>
+</a>
+</p>
+<a href="https://www.youtube.com/watch?v=dW8XorD9RwI" rel="noopener" target="_blank">Watch on YouTube</a></figure>
+<p>Beginning "in earnest last February", a team of tool assisted Diablo speedrunners started trying to recreate the run, using their own custom map generation tool built by "reverse-engineering a disassembled Diablo executable". From Ars:</p>
+<blockquote><p>That tool can take any of the game's billions of possible random seeds and quickly determine the map layout, item distribution, and quest placement available in the generated save file. A scanner built on top of that tool can then quickly look through those generated dungeons for ones that might be optimal for speedrunning.</p></blockquote>
+<p>The team's initial goal here was just to learn from Groobo's run, both for their own speedrunning and as a test case to make sure the scanner worked. The problem? The seed they were looking for didn't actually exist. Groobo had, in other words, made up the whole thing. "We just had a lot of curiosity and resentment that drove us to dig even deeper," a runner named Staphen told Ars. "Betrayal might be another way to describe it," added team member AJenbo. "To find out that this had been done illegitimately... and the person had both gotten and taken a lot of praise for their achievement."</p>
+<p>From Ars:</p>
+<blockquote><p>In their effort to find Groobo's storied run (or at least one that resembled it), the TAS team conducted a distributed search across the game's roughly 2.2 billion valid RNG seeds. Each of these seeds represents a different specific second on the system clock when a Diablo save file is created, ranging from between January 1, 1970, and December 31, 2038 (the only valid dates accepted by the game).</p></blockquote>
+<p>After comparisons failed to turn up a re-creation of Groobo's dungeon containing the level 9 Naj's Puzzler drop, they began to search "impossible seeds" - "which could only be created by using save modification tools to force a creation date after the year 2038". They eventually found dungeons with the drop in the right place, using seeds for the years 2056 and 2074.</p>
+<p>They also discovered that the original speedrun video had been spliced together from multiple different runs. "In the end we only found two levels that had come from the same run so at least 13 (probably 15) runs were spliced into one video, which is a lot for a game with just 16 levels,"  AJenbo told Ars.</p>
+<p>Other evidence (some of it quite glaring in hindsight) began to pile up afterwards, but do read Ars Technica's full piece for that. Why go to all this trouble for a 27 year old speedrun? "It did harm," speedrunner Cecil told Ars. "Groobo's alleged cheating in 2009 completely stopped interest in speedrunning this category [of Diablo]. No one tried, no one could."</p>
+<p>If that's all left you feeling exhausted at the lurking deception inherent in men's souls, Here's a <a href="https://www.rockpapershotgun.com/stay-awhile-and-play-this-free-diablo-inspired-indie-as-the-mayor-of-tristram">free Diablo-inspired indie</a> where you play as the mayor of Tristam - an upstanding chap by all counts.</p></div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA['Fallouts Like That Happen, It's Just Part of the Deal' — Mass Effect 1 and 2 Composer Jack Wall Discusses Why He Failed to Return for Mass Effect 3]]></title>
+            <link>https://www.ign.com/articles/fallouts-like-that-happen-its-just-part-of-the-deal-mass-effect-1-and-2-composer-jack-wall-discusses-why-he-failed-to-return-for-mass-effect-3</link>
+            <guid>https://www.resetera.com/threads/fallouts-like-that-happen-its-just-part-of-the-deal-%E2%80%94-mass-effect-1-and-2-composer-jack-wall-discusses-why-he-failed-to-return-for-mass-effect-3.1111233/</guid>
+            <content:encoded><![CDATA[https://www.ign.com/articles/fallouts-like-that-happen-its-just-part-of-the-deal-mass-effect-1-and-2-composer-jack-wall-discusses-why-he-failed-to-return-for-mass-effect-3<br/><br/><div id="readability-page-1" class="page"><div data-cy="page-header"><h2 data-cy="article-sub-headline">"... it was a tough time, but it is what it is."</h2></div><section data-cy="article-content"><p data-cy="paragraph">Composer Jack Wall has discussed why he failed to return for <a data-cy="styled-link" href="https://www.ign.com/games/mass-effect-3">Mass Effect 3</a> having created the much-loved music for the first two games in the series.</p><p data-cy="paragraph">Wall worked with developer BioWare to create the 80s sci-fi music-styled soundtracks for <a data-cy="styled-link" href="https://www.ign.com/games/mass-effect">Mass Effect</a>, released in 2007, and its sequel, 2010’s <a data-cy="styled-link" href="https://www.ign.com/games/mass-effect-2">Mass Effect 2</a>. Mass Effect 2 in particular is often cited as one of the greatest action role-playing games ever made, and Wall’s soundtrack, which includes the rousing ‘Suicide Mission,’ is considered a series high-point by fans.</p><p data-cy="paragraph">But Wall failed to return for 2012’s Mass Effect 3, which came as a shock to fans. Now, in a new interview with <a href="https://www.theguardian.com/games/2025/feb/14/the-making-of-mass-effect-2-music-soundtrack" data-cy="styled-link" target="_blank" rel="noopener noreferrer">The Guardian</a>, Wall discussed why, pointing to a falling out with then Mass Effect development chief Casey Hudson.</p><p data-cy="paragraph">“Casey was not particularly happy with me at the end,” Wall said. “But I’m so proud of that score. It got nominated for a Bafta, and it did really well … [even if] it didn’t go as well as Casey wanted.”</p><p data-cy="paragraph">The Guardian suggested a “creative tension” between Wall and Hudson, but Wall remained vague. “Fallouts like that happen, it’s just part of the deal,” he added. “It’s one of the few times in my career that’s happened, and it was a tough time, but it is what it is.”</p><p data-cy="paragraph">Wall did, however, go into a bit more detail on the challenges he and BioWare faced getting Mass Effect 2 out the door and Suicide Mission into the finished product, which may provide some insight into Wall and Hudson’s relationship at the end of the project.</p><p data-cy="paragraph">“It was the biggest mind-f***ing thing I’ve ever done in my entire life,” Wall said. “And there was no one available to walk me through it, because they were all freaking out trying to finish the game. I handed it in, and they had to do a lot of massaging on their end in order to get it to work, but they did it... and the result is still one of the best ending sequences to a game that I’ve ever played. It was worth all that effort.”</p><p data-cy="paragraph">After Mass Effect 2, Wall went on to make music for Call of Duty games, most recently composing the soundtrack for <a data-cy="styled-link" href="https://www.ign.com/games/call-of-duty-black-ops-6">Black Ops 6</a>. BioWare, meanwhile, is currently working on the <a data-cy="styled-link" href="https://www.ign.com/games/mass-effect-next-chapter">next Mass Effect game</a> following the release of <a data-cy="styled-link" href="https://www.ign.com/games/dragon-age-the-veilguard">Dragon Age: The Veilguard</a>. BioWare is yet to announce the composer.</p><p data-cy="paragraph"><em>Wesley is the UK News Editor for IGN. Find him on Twitter at @wyp100. You can reach Wesley at wesley_yinpoole@ign.com or confidentially at wyp100@proton.me.</em></p></section><div><h3 data-cy="object-summary-embed-title">In This Article</h3></div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Ubisoft Announces Siege X, the 'Biggest Transformation' in Rainbow Six Siege History]]></title>
+            <link>https://www.ign.com/articles/ubisoft-announces-siege-x-the-biggest-transformation-in-rainbow-six-siege-history</link>
+            <guid>https://www.resetera.com/threads/ubisoft-announces-siege-x-the-biggest-transformation-in-rainbow-six-siege-history.1111227/</guid>
+            <content:encoded><![CDATA[https://www.ign.com/articles/ubisoft-announces-siege-x-the-biggest-transformation-in-rainbow-six-siege-history<br/><br/><div id="readability-page-1" class="page"><section data-cy="article-content"><p data-cy="paragraph">Ubisoft has teased a significant evolution of <a data-cy="styled-link" href="https://www.ign.com/games/tom-clancys-rainbow-six-siege">Rainbow Six Siege</a>, promising to unveil what it calls Siege X in March.</p><p data-cy="paragraph">Siege X is described as “the biggest transformation in the game's history, including new tactical gameplay, graphical and audio upgrades, and more.” This is not Rainbow Six Siege 2, rather a significant change for Rainbow Six Siege designed to set the competitive multiplayer game for its second decade of live service.</p><p data-cy="paragraph">The Siege X teaser trailer is below.</p><output data-cy="article-video"></output><p data-cy="paragraph">Rainbow Six Siege struggled when it launched in December 2015, but Ubisoft’s work to improve the game is seen as one of the most dramatic turnarounds in video game history alongside Final Fantasy 14 and No Man’s Sky.</p><p data-cy="paragraph">In the last decade, Rainbow Six Siege has proven a reliable money-spinner even when Ubisoft’s other attempts at live service have fallen by the wayside. In recent years, when Ubisoft has found the going particularly tough, Rainbow Six Siege has helped prop up those financial reports. Now, there's even more pressure on Siege X, given <a data-cy="styled-link" href="https://www.ign.com/articles/ubisoft-investors-grill-ceo-cfo-on-potential-tencent-sale-delays-and-financial-woes">Ubisoft's high-profile troubles</a>.</p><p data-cy="paragraph">10 years is a long time for any video game to remain relevant and financially stable, and so it makes sense that Ubisoft would want to refresh Rainbow Six Siege with a headline-grabbing evolution. Ubisoft will announce more on March 13 at the Siege X Showcase.</p><p data-cy="paragraph"><em>Wesley is the UK News Editor for IGN. Find him on Twitter at @wyp100. You can reach Wesley at wesley_yinpoole@ign.com or confidentially at wyp100@proton.me.</em></p></section></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Ubisoft announce Rainbow Six Siege X with a full reveal coming in March]]></title>
             <link>https://www.thesixthaxis.com/2025/02/17/ubisoft-announce-rainbow-six-siege-x-with-a-full-reveal-coming-in-march/</link>
