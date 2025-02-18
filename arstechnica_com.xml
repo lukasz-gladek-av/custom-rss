@@ -4,45 +4,36 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Sat, 15 Feb 2025 20:47:03 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Feb 2025 14:44:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[How Diablo hackers uncovered a speedrun scandal]]></title>
-            <link>https://arstechnica.com/gaming/2025/02/the-diablo-hackers-that-debunked-a-record-speedrun/</link>
-            <guid>https://www.resetera.com/threads/how-diablo-hackers-uncovered-a-speedrun-scandal.1110381/</guid>
-            <content:encoded><![CDATA[https://arstechnica.com/gaming/2025/02/the-diablo-hackers-that-debunked-a-record-speedrun/<br/><br/><div id="readability-page-1" class="page"><div id="main">
-            <article data-id="2076158">
+            <title><![CDATA[Review: Asus’ ROG Flow Z13 tablet takes the asterisk off integrated GPUs]]></title>
+            <link>https://arstechnica.com/gadgets/2025/02/review-asus-rog-flow-z13-tablet-takes-the-asterisk-off-integrated-gpus/</link>
+            <guid>https://www.resetera.com/threads/review-asus%E2%80%99-rog-flow-z13-tablet-takes-the-asterisk-off-integrated-gpus.1112088/</guid>
+            <content:encoded><![CDATA[https://arstechnica.com/gadgets/2025/02/review-asus-rog-flow-z13-tablet-takes-the-asterisk-off-integrated-gpus/<br/><br/><div id="readability-page-1" class="page"><div id="main">
+            <article data-id="2076302">
   
   <header>
   <div>
-    <div>
-      
+      <div>
+        <p><span>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><defs><clipPath id="section-gadgets_svg__a"><path fill="none" d="M0 0h40v40H0z"></path></clipPath><clipPath id="section-gadgets_svg__b"><path fill="none" d="M0 0h40v40H0z"></path></clipPath></defs><g clip-path="url(#section-gadgets_svg__a)"><g fill="currentColor" clip-path="url(#section-gadgets_svg__b)"><path d="M38 22c1.1 0 2-.9 2-2s-.9-2-2-2h-2v-6h2c1.1 0 2-.9 2-2s-.9-2-2-2h-2V4h-4V2c0-1.1-.9-2-2-2s-2 .9-2 2v2h-6V2c0-1.1-.9-2-2-2s-2 .9-2 2v2h-6V2c0-1.1-.9-2-2-2S8 .9 8 2v2H4v4H2c-1.1 0-2 .9-2 2s.9 2 2 2h2v6H2c-1.1 0-2 .9-2 2s.9 2 2 2h2v6H2c-1.1 0-2 .9-2 2s.9 2 2 2h2v4h4v2c0 1.1.9 2 2 2s2-.9 2-2v-2h6v2c0 1.1.9 2 2 2s2-.9 2-2v-2h6v2c0 1.1.9 2 2 2s2-.9 2-2v-2h4v-4h2c1.1 0 2-.9 2-2s-.9-2-2-2h-2v-6zm-6 10H8V8h24z"></path><path d="M24.7 17.3 20 12h-7.1c-.6 0-1 .4-1 1s.4 1 1 1h6.3l4.1 4.7L20 22h8v-8z"></path><path d="m15.2 22.7 4.7 5.3H27c.6 0 1-.4 1-1s-.4-1-1-1h-6.3l-4.1-4.7 3.3-3.3h-8v8z"></path></g></g></svg>
+  </span>
+  <span>
+    Gaming tablet, but for real
+  </span>
+</p>
+      </div>
 
       
 
       <p>
-        Investigators decompiled the game to search through 2.2 billion random dungeon seeds.
+        Performance like an RTX 4060, but it's packed into a slightly heavy Surface-like.
       </p>
 
       
     </div>
-
-    <div>
-    
-    <p>
-      The word Debunk radiating flames against a demonic background
-
-              <span>
-          Credit:
-
-          
-          Aurich Lawson
-
-                  </span>
-          </p>
-  </div>
-  </div>
 </header>
 
 
@@ -55,21 +46,57 @@
                       
                       
           
-<p>For years, Maciej "Groobo" Maselewski&nbsp;stood as the undisputed champion of <em>Diablo</em> speedrunning. His <a href="https://www.youtube.com/watch?v=dW8XorD9RwI">3-minute, 12-second Sorcerer run</a> looked all but unbeatable thanks to a combination of powerful (and allowable) glitch exploits along with what seemed like some unbelievable luck in the game's randomly generated dungeon.</p>
-<p>But when a team of other speedrunners started trying and failing to replicate that luck using outside software and analysis tools, the story behind Groobo's run began to fall apart. As the inconsistencies in the run <a href="https://diablo.tas.bot/">started to mount</a>, that team would conduct an automated search through billions of legitimate <em>Diablo</em> dungeons to prove beyond a shadow of a doubt that Groobo's game couldn't have taken place in any of them.</p>
-<p>"We just had a lot of curiosity and resentment that drove us to dig even deeper," team member Staphen told Ars Technica of their investigation. "Betrayal might be another way to describe it," team member AJenbo added. "To find out that this had been done illegitimately... and the person had both gotten and taken a lot of praise for their achievement."</p>
-<h2>If we have unearned luck</h2>
-<p>If you have any familiarity with <em>Diablo</em> or speedrunning, <a href="https://www.youtube.com/watch?v=dW8XorD9RwI">watching Groobo's run</a> feels like watching someone win the lottery. First, there's the dungeon itself, which features a sequence of stairways that appear just steps from each other, forming a quick and enemy-free path down to the dungeon's deeper levels. Then there's Groobo's lucky find of <a href="https://diablo.fandom.com/wiki/Naj%27s_Puzzler_(Diablo_I)">Naj's Puzzler</a> on level 9, a unique item that enables the teleporting necessary for many of the run's late-game maneuvers.</p>
-<figure><p><iframe allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/dW8XorD9RwI?start=0&amp;wmode=transparent"></iframe></p><div>
-    
-    <p>
-      Groobo's 3:12 <em>Diablo</em> speedrun, as submitted to Speed Demos Archive in 2009
-
-          </p>
-  </div>
-</figure>
-<p>"It seemed very unusual that we would have so many levels with the upstairs and the downstairs right next to each other," Allan "DwangoAC" Cecil told Ars Technica. "We wanted to find some way of replicating this."</p>
-<p>When Cecil and a team of tool-assisted speedrunners (TAS) started that search process in earnest last February, they said they used Groobo's run as a baseline to try to improve from. While Groobo ostensibly had to rely on his own human luck in prepping his run, the TAS runners could use techniques and tools from outside the game to replicate Groobo's run (or something very similar) every time.</p>
+<div><table>
+<tbody>
+<tr>
+<th colspan="2">Specs at a glance: Asus ROG Flow Z13 (XS96 model)</th>
+</tr>
+<tr>
+<th>OS</th>
+<td>Windows 11 Pro</td>
+</tr>
+<tr>
+<th>CPU</th>
+<td>AMD Ryzen AI Max+ 395 (16 cores, 3.0 GHz)</td>
+</tr>
+<tr>
+<th>RAM</th>
+<td>32GB LPDDR5X-8000 (non-upgradeable; XS99 goes up to 128GB)</td>
+</tr>
+<tr>
+<th>GPU</th>
+<td>AMD Radeon 8060S (integrated)</td>
+</tr>
+<tr>
+<th>SSD</th>
+<td>1TB NVMe M.2 SSD 2230 (upgradeable)</td>
+</tr>
+<tr>
+<th>Battery</th>
+<td>70 WHr</td>
+</tr>
+<tr>
+<th>Display</th>
+<td>13.4-inch 2560x1600 180 Hz touchscreen</td>
+</tr>
+<tr>
+<th>Connectivity</th>
+<td>2x USB-C ports (USB4, DP 2.1, PD 3.0), 1x HDMI 2.1, 1 USB-A, microSD, 3.5 mm audio, 200W barrel charge</td>
+</tr>
+<tr>
+<th>Weight</th>
+<td>2.65 lb (1.2 kg) without keyboard, 3.51 lb (1.59 kg) with keyboard</td>
+</tr>
+<tr>
+<th>Price as tested</th>
+<td>$2,299 (pre-order at <a href="https://www.amazon.com/dp/B0DT7MNLTD">Amazon</a>, get notified at <a href="https://rog.asus.com/us/laptops/rog-flow/rog-flow-z13-2025/spec/">Asus</a>)</td>
+</tr>
+</tbody>
+</table></div>
+<p>I really like <a href="https://rog.asus.com/us/laptops/rog-flow/rog-flow-z13-2025/">Asus’ ROG Flow Z13</a> for what it is: a convertible tablet with way more gaming power than you would think. Looking at this thing, you might expect to see it propped up at an airport bar, in front of somebody talking into wireless headphones about Tim in Product. But there’s a lot of frame-rendering and multicore processing power inside this glass-fronted slab with a keyboard cover. It's an impressive showcase for AMD's leap forward in integrated power.</p>
+<p>The Z13 can rip through <i>Hitman</i> and <i>Shadow of the Tomb Raider</i> on their highest settings at its native 2560×1600 resolution. Turn the resolution down to a reasonable-for-this-size 1920×1080 and you can play <i>Cyberpunk 2077 </i>at its Ultra settings at 45–55 frames per second, depending on your power and upscaling preferences. On a device that is essentially a beefy Microsoft Surface, this is no small thing. The <a href="https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-max-plus-395.html">AMD Ryzen AI Max+ 395</a> "Strix Halo" inside the Z13, with the latest Ryzen 8060S GPU built into it, is not just capable—it's a step up from most of the gaming laptops out there.</p>
+<p>As a Windows convertible, it has some interesting tech and notable upgrades from the 2022 product that was also called the ROG Flow Z13. Its webcam works with Windows Hello and logs you in 95 percent of the time. The keyboard has decent travel, the trackpad has a pleasant smoothness, and you can prop the thing up anywhere along the solid kickstand’s 170-degree range. It’s a Copilot+ PC if that matters to you, and when you’re not pushing ray-traced gaming frames, its battery life is no slouch.</p>
+<p>But speaking of slouching, the Z13 will not feel light in your bag. At 2.65 pounds in tablet form and 3.2 pounds with keyboard—about 1.23 pounds heavier than a keyboard-attached <a href="https://arstechnica.com/gadgets/2024/07/surface-pro-11-and-laptop-7-review-an-apple-silicon-moment-for-windows/">Surface Pro 11</a>—it’s among the heaviest of modern tablets and convertibles, and that’s before you weigh in the 1.25-pound power adapter. Using it as a Windows touchscreen tablet is rather awkward. The Z13 is many things, but it is not immune to the physics of battery power and cooling.</p>
 
           
                       
@@ -81,38 +108,48 @@
     <div>
           
           
-<p>To find an RNG seed that could do just that, the TAS team <a href="https://github.com/Matthew-petroff/diablo-mapgen">created a custom-built map generation tool</a> by reverse-engineering a disassembled <em>Diablo</em> executable. That tool can take any of the game's billions of possible random seeds and quickly determine the map layout, item distribution, and quest placement available in the generated save file. A scanner built on top of that tool can then quickly look through those generated dungeons for ones that might be optimal for speedrunning.</p>
-<p>"We were working on finding the best seed for our TAS, and we were trying to identify the seed from Groobo's run, both to validate that our scanner works and to potentially straight-up use it for the run," Stephan said of the effort. "We naturally had a lot of trouble finding [that seed] because it doesn't exist."</p>
-<h2>A thorough search</h2>
-<p>In their effort to find Groobo's storied run (or at least one that resembled it), the TAS team conducted a distributed search across the game's roughly 2.2 billion valid <a href="https://stats.stackexchange.com/questions/354373/what-exactly-is-a-seed-in-a-random-number-generator">RNG seeds</a>. Each of these seeds represents a different specific second on the system clock when a <em>Diablo</em> save file is created, ranging from between January 1, 1970, and December 31, 2038 (the only valid dates accepted by the game).</p>
-<p>After comparing each of those billions of those RNG dungeons to a re-creation of the dungeon seen in Groobo's run, the team couldn't find a single example containing the crucial level 9 Naj's Puzzler drop. After that, the team started searching through "impossible" seeds, which could only be created by <a href="https://ultimatestuff.tripod.com/ultimatediablo/cheats.htm">using save modification tools</a> to force a creation date after the year 2038.</p>
-<p>The team eventually found dungeons matching Naj's Puzzler drop in Groobo's video, using seeds associated with the years 2056 and 2074.</p>
+<p>In many ways, it's an in-between device. It could be the perfect compromise for someone who wants to do work and gaming on the same machine, a machine smaller and slightly lighter than most gaming laptops. If this all-in-one minded person is out there, and they’re OK with spending more than $2,000 on their mixed-use passion, I have mostly good news for them.</p>
+<h2><b>The productivity tablet with an RGB panel</b></h2>
 <figure>
-    <div id="caption-2076359"><p>
-              After an exhaustive search, the TAS team couldn't find a dungeon with Naj's Puzzler dropped in the place Groobo's run said it should be.
-                              </p>
+    <div id="caption-2076365"><p>
+              Keyboard and trackpad on the Flow Z13.
+                              </p><p>
+                  Credit:
+                                      Kevin Purdy
+                                  </p>
                           </div>
           <figcaption>
         <div>
     
     <p>
-      After an exhaustive search, the TAS team couldn't find a dungeon with Naj's Puzzler dropped in the place Groobo's run said it should be.
+      Keyboard and trackpad on the Flow Z13.
 
               <span>
           Credit:
 
-                      <a href="https://diablo.tas.bot/" target="_blank">
           
-          Analysis of Groobo's Diablo WR Speedrun
+          Kevin Purdy
 
-                      </a>
                   </span>
           </p>
   </div>
       </figcaption>
       </figure>
 
-<p>The early presumption that Groobo's run was legitimate ended up costing the team weeks of work. "It was baffling when we couldn't find [the early Naj's Puzzler] in any of the searches we did," Cecil said. "We were always worried that the scanner might have bugs in it," Staphen added.</p>
+<p>Facing the screen and keyboard, the Z13 is a black tablet with a black detachable keyboard. Only <a href="https://online-fonts.com/fonts/asus-rog">the Asus ROG font</a> glyphs on the keys and a subtle embossed ROG ally beneath the arrow keys give away that something other than Teams and Outlook is at work here.</p>
+<p>Around back, it looks more like it came from the Republic of Gamers. Prominent vent holes are bisected by a clear diagonal cutout that lets through a bunch of RGB lights (which you can customize extensively in Asus’ pre-loaded Aura Sync software). Beneath the hinge, on the bottom half of the Z13, reside the M.2 storage slot, the battery pack, and another access port.</p>
+<div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><defs><clipPath id="arrow-blocks-right_svg__a"><path fill="none" d="M0 0h40v40H0z"></path></clipPath></defs><g fill="currentColor" clip-path="url(#arrow-blocks-right_svg__a)"><path d="M32 16h8v8h-8zm-8 8h8v8h-8zm-8 8h8v8h-8zm8-24h8v8h-8zm-8-8h8v8h-8zM0 16h16v8H0z"></path></g></svg>
+
+    <p><span>The kickstand on the Z13 Flow has 170 degrees of range and will actually hold the thing up at each of them.</span>
+                    <span>
+                      Kevin Purdy
+                  </span>
+          </p>
+  </div>
+
+<p>Let's not skip over that hinged kickstand, because it is really something. It is the right amount of strong for this not-cheap, not-light device, with a stiffness that is reassuring, if also a bit tricky to get used to. A tiny plastic tab on one side of the kickstand (why not both sides?) operates it. For a tablet that can catch some glare, and could fall glass-first onto a surface, I appreciate these solid hinges.</p>
+<p>Whether you’re using it for work or “work,” the Z13's port array is quite useful. The highlight is a full-size HDMI 2.1 port on the left side. There are two USB-C Type 4 ports next to that, each capable of 40Gbps transfer and slower charging. A microSD card insert and a rectangular barrel connector for the 200W power supply round out the left side.</p>
 
           
                   </div>
@@ -123,36 +160,112 @@
     <div>
           
           
-<p>The TAS team's thorough search also showed troubling inconsistencies in the other dungeon levels shown in Groobo's run. "Normally you would only need to identify a single level to replicate a run since all the other levels are generated from the same seed," AJenbo told Ars. But the levels seen in Groobo's run came from multiple different seeds, which would require splicing footage from multiple different saves.</p>
-<p>"At that point we also wanted to figure out how manipulated the run was," AJenbo said. "Was it a legit run except for [dungeon level] 9? Was it three good runs combined? In the end we only found two levels that had come from the same run so at least 13 (probably 15) runs were spliced into one video, which is a lot for a game with just 16 levels."</p>
+<p>On the right side, a USB-A port and headphone jack form a nostalgia nook at the bottom, while the top has buttons for power, volume, and a settings button that opens, by default, a “ScreenXpert” app with shortcuts to mic muting, window layout configurations, and a few other things. I have yet to find a way to remap that button, but I’m sure it’s possible.</p>
 
-<h2>The evidence piles up</h2>
-<p>After Groobo's dungeon generation problems came to light, other inconsistencies in his run started to become apparent. Some of these are relatively easy to spot with the naked eye once you know what you're looking for.</p>
-<p>For instance, the "1996–2001" copyright date seen on the title screen in Groobo's video is inconsistent with the v1.00 shown on the initial menu screen, suggesting Groobo's run was spliced together from runs on multiple different versions of the game. Items acquired early in the run also disappear from the inventory later on with no apparent explanation.</p>
+
 <figure>
-    <div id="caption-2076362"><p>
-              This copyright date doesn't line up with the "V1.00" seen later on the menu screen in Groobo's run.
-                              </p>
+    <div id="caption-2076370"><p>
+              Everybody wants to come along for this wild gaming ride.
+                              </p><p>
+                  Credit:
+                                      Kevin Purdy
+                                  </p>
                           </div>
           <figcaption>
-        <div><p>
-      This copyright date doesn't line up with the "V1.00" seen later on the menu screen in Groobo's run.
+        <div>
+    
+    <p>
+      Everybody wants to come along for this wild gaming ride.
 
               <span>
           Credit:
 
-                      <a href="https://diablo.tas.bot/" target="_blank">
           
-          Analysis of Groobo's Diablo WR Speedrun
+          Kevin Purdy
 
-                      </a>
                   </span>
-          </p></div>
+          </p>
+  </div>
       </figcaption>
       </figure>
 
-<p>Even months after the investigation first started, new inconsistencies are still coming to light. Groobo's final fight against Diablo, for instance, required just 19 fireballs to take him out. While that's technically possible with perfect luck for the level 12 Sorcerer seen in the footage, the TAS team found that the specific damage dealt and boss behavior only matched when they attempted the same attacks using a level 26 Sorcerer.</p>
-<p>After the TAS team compiled their many findings <a href="https://diablo.tas.bot/">into a lengthy document</a>, Groobo defended his submission in a discussion with Cecil (screenshots of which were viewed by Ars Technica). "My run is a segmented/spliced run," Groobo said. "It always has been and it was never passed off as anything else, nor was it part of any competition or leaderboards. The Speed Demos Archive [SDA] page states that outright." Indeed, <a href="https://web.archive.org/web/20091121211238/https://speeddemosarchive.com/Diablo.html">an archived version of Groobo's record-setting Speed Demos Archive submission</a> does say directly that it's made up of "27 segments appended to one file."</p>
+<p>The keyboard and trackpad attach magnetically, and, as with the hinge, these magnets are not playing. Every time I’ve set up the Z13 on a dining room table or the corner of a desk, I’ve had to pry binder clips, pens, or—one time—a cereal spoon away from the bottom. The upside is that your keyboard case will not come loose in your bag. If you prefer to type with a slight upward slope, those magnets can hold the keyboard firmly in place, propped against the bottom of the tablet screen.</p>
+<p>The keys themselves have respectable travel (1.7 mm), which is good if you’re going to use them for shooters or other keyboard games. You can backlight them, but not much light shows around the keys at taller angles, and the letters end up being fairly dim. Asus made reasonable sizing changes to the perimeter keys to fit everything, and I didn’t feel cramped typing on the keyboard. The trackpad is somewhere between serviceable and good, with better responsiveness for small gestures than I expected.</p>
+<p>I didn't get to run extensive battery tests on this model, as the firmware changed a few times during my testing period. Asus says the 70 Wh battery is rated for 10 hours, seemingly based on a PCMark 10 "Work Mode" test. You'll almost always want to use the Z13 while it's plugged in with a barrel charger for optimal gaming performance, as even the unplugged "Performance" profile pulls between 45 to 71 W in various configurations; "Turbo" wants 60 to 86 W, and you can push it even further with manual configuration.</p>
+
+          
+                  </div>
+                    
+        
+          
+    
+    <div>
+          
+          
+<h2>Tablet is its third job (maybe)</h2>
+<p>All of the preceding relates to using the Z13 as a laptop replacement, with the keyboard and trackpad attached and the screen upright on a table. How is it as a tablet? Being a pound and a half heavier than <a href="https://arstechnica.com/gadgets/2022/03/2022-ipad-air-review-m1-other-tablets-0/">the M1-model iPad Air</a> I’m used to holding for news reading, it was starting from behind. I quickly learned that this device is not meant to be held in a vertical orientation, due to the tiny bezels on the shorter sides that invite accidental touches, as well as the Z13's weight distribution.</p>
+<p>Holding it as a horizontal tablet was better, but trying to navigate Windows 11 as a touch interface made me wish for a stylus. I grabbed a generic (non-powered) stylus, used it for a bit, and decided that the best use for a Z13 without its keyboard was viewing videos—on a plane, couch, or bed, perhaps. The hinge makes it easier to use on a lap, couch arm, or other semi-flat plane. But Windows 11 still has a lot of work to do towards becoming a touch-friendly OS.</p>
+<h2><b>Screen, sounds, and Armoury</b></h2>
+<p>You would hope that the screen on a tablet from the Republic of Gamers would pop, and this one does. It’s a “2.5K” display (2560×1600), 13.4 inches diagonally at a 16:10 ratio, and can refresh at up to 180 Hz. It puts out a maximum 500 nits of brightness, covers 100 percent of the <a href="https://en.wikipedia.org/wiki/DCI-P3">DCI-P3 spectrum</a>, and has some glare resistance from its Gorilla Glass DXC screen. To me, it looked about as good and balanced as a non-OLED screen can look at this size and distance. It’s particularly impressive when driving games past 60 Hz or watching HDR video.</p>
+
+          
+                  </div>
+                    
+        
+          
+    
+    <div>
+          
+          
+<p>There are four speakers on the Z13, two embedded into the front and one on each side. They get plenty loud, which is good for a device with fans rated at 50 decibels at their top speed. As for how the speakers sound, they’re about what I expect from a tablet, if a little richer at the low end and midrange, perhaps owing to the slightly thicker case size. I didn’t get to try out the microphone array on the Z13; Asus touts it as having AI noise canceling.</p>
+<figure>
+    <div id="caption-2076377"><p>
+              Armoury Crate running on the Asus ROG Flow Z13. ("Turbo" is not available because it's not plugged in).
+                              </p><p>
+                  Credit:
+                                      Kevin Purdy
+                                  </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      Armoury Crate running on the Asus ROG Flow Z13. ("Turbo" is not available because it's not plugged in).
+
+              <span>
+          Credit:
+
+          
+          Kevin Purdy
+
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>Rounding out the experience of using this device for things outside a fullscreen game are Asus’ apps: MyAsus (device and firmware updates and support), ScreenXPert (side button pop-out bar), Armoury Crate (device performance and gaming-centered settings), and Aura Sync/Creator (RGB lighting). Like most Asus software, these are interlinked apps filled with occasionally useful shortcuts, obsessive tweaks to little things, and roughly 34 points that all want your eye focus at once.</p>
+<p>A bewildering array of ideas and priorities exist in these apps. There are tabs inside Armoury Crate named “Content Platform” and “Promotion” that seem built more for Asus executives than humans who use computers. It’s not too hard to avoid these things and stick to your apps and games, though you will likely want to keep them installed for BIOS and device-specific updates.</p>
+
+
+<h2><b>Heavyweight gaming, for its size</b></h2>
+<p>The AMD Ryzen integrated chip inside the Z13 is dubbed the “AI Max+” 395 because everything is maximum AI these days. But this is an impressive little chip in plenty of non-AI scenarios. Running at full “Turbo” settings, this little guy goes hard. It runs at 3.0 GHz and has 16 cores and 32 threads and a 32MB cache, with a unified memory architecture providing up to 96GB video RAM (I had 8GB dedicated in BIOS settings for testing). It’s not a light device, but it’s definitely punching above its weight.</p>
+
+          
+                  </div>
+                    
+        
+          
+    
+    <div>
+          
+          
+<p>To provide a broader perspective on the Z13’s chip, I'm including the last two generations of Apple’s MacBook Pro models in some of the tests. AMD’s handouts on this chip put it up <a href="https://www.tomshardware.com/pc-components/cpus/amd-slides-claim-strix-halo-can-beat-the-rtx-4070-laptop-gpu-by-up-to-68-percent-in-modern-games">against the dedicated GeForce RTX 4070 GPUs in gaming laptops</a> along with Apple's M4 Pro in benchmarks from Blender, V-Ray, and Corona. Those comparisons raised my eyebrows at first, but they're not outlandish—at least while the Z13 is plugged in and able to run its fans full blast.</p>
+<p>Heat, weight, and especially battery life, while harder to definitively test, do matter. If you don't need to worry about them, though, the Z13 can do some heavy graphics work (and maybe local AI, too, if so desired). I ran all the tests shown using the Z13's highest pre-set "Turbo" profile, to mirror how the other devices were set for maximum performance. You could technically push this thing even further with manual configurations in Asus' software; I stuck to Turbo for consistency.</p>
+
+
+<p>As for game performance, the Z13 and its new Radeon 8060S GPU show an impressive bump in integrated GPU performance. It was hard to pick devices to compare it against. Sometimes it was leaving other integrated GPUs in the dust, and performing more on the order of dedicated gaming laptop GPUs, but not always. In various benchmarks, the Radeon 8060S traded first place with a GeForce 3070 (with 8GB memory) inside a HP ZBook Studio G8 laptop.</p>
+<p>This configuration of the 8060S is darned close to—and sometimes beats—what we saw <a href="https://arstechnica.com/gadgets/2023/06/geforce-rtx-4060-review-not-thrilling-but-a-super-efficient-299-workhorse/">in the dedicated GeForce RTX 4060</a>&nbsp;and in laptops with dedicated RTX 4060 chips. Leaked 3DMark tests from last week, possibly based on earlier silicon, <a href="https://www.tomshardware.com/pc-components/gpus/amds-beastly-strix-halo-ryzen-ai-max-matches-the-rtx-4060-laptop-in-leaked-3dmark-tests">seem to back this up</a>. It's wild to think of an integrated gaming tablet GPU keeping pace with dedicated gaming laptop GPUs in heavy ray-traced <em>Cyberpunk 2077&nbsp;</em>benchmarks. But it's happening.</p>
 
           
                   </div>
@@ -166,19 +279,14 @@
         <div>
           
           
-<p>But simply splitting a run into segments doesn't explain away all of the problems the TAS team found. Getting Naj's Puzzler on dungeon level 9, for instance, still requires outside modification of a save file, which is specifically prohibited by <a href="https://kb.speeddemosarchive.com/Rules">longstanding Speed Demos Archive rules</a> that "manually editing/adding/removing game files is generally not allowed." Groobo's apparent splicing of multiple game versions and differently seeded save files also seems to go against SDA rules, which say that "there obviously needs to be continuity between segments in terms of inventory, experience points or whatever is applicable for the individual game."</p>
-<p>After being presented with the TAS team's evidence, SDA <a href="https://speeddemosarchive.com/">wrote</a> that "it has been determined that Groobo's run very likely does not stem from only legitimate techniques, and as such, has itself been banished barring new developments." But Groobo's record is <a href="https://www.guinnessworldrecords.com/world-records/110580-fastest-completion-of-an-rpg-videogame">still listed as the "Fastest completion of an RPG videogame"</a> by Guinness World Records, which has not offered a substantive response to the team's findings (Guinness has not responded to a request for comment from Ars Technica).</p>
-<figure><p><iframe allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/bXG1vW6VEKA?start=0&amp;wmode=transparent"></iframe></p><div>
-    
-    <p>
-      A recent <em>Diablo</em> speedrun on a confirmed legitimate dungeon seed.
+<p>It's not quite in the realm of dedicated&nbsp;<em>desktop</em> GPUs, of course. If you're playing at 1080p, it’s a formidable gaming device for modern titles. But if you want ray tracing or the 1600p experience, you’ll be seeing frame rates below 60 fps. The only work-around there is an eGPU setup, and that is, well, something we're not testing for here (or recommending for all but the most niche of workflows or gaming desires).</p>
 
-          </p>
-  </div>
-</figure>
-<p>This might seem like a pretty petty issue to spend weeks of time and attention debunking. But at a recent presentation attended by Ars, Cecil said he was motivated to pursue it because "it did harm. Groobo's alleged cheating in 2009 completely stopped interest in speedrunning this category [of <em>Diablo</em>]. No one tried, no one could."</p>
-<p>Because of Groobo's previously unknown modifications to make an impossible-to-beat run, "this big running community just stopped trying to run this game in that category," Cecil said. "For more than a decade, this had a chilling impact on that community." With Groobo's run out of the way, though, new runners are <a href="https://www.youtube.com/watch?v=bXG1vW6VEKA">setting new records on confirmed legitimate RNG seeds</a>, and <a href="https://www.youtube.com/watch?v=F9mn5CpQCFw">with the aid of TAS tools</a>.</p>
-<p>In the end, Cecil said he hopes the evidence regarding Groobo's run will make people look more carefully at other record submissions. "Groobo had created a number of well-respected ... speedruns," he said. "[People thought] there wasn't any good reason to doubt him. In other words, there was bias in familiarity. This was a familiar character. Why would they cheat?"</p>
+
+<h2>Wrapping up</h2>
+<p>I've played the just-released action RPG <a href="https://arstechnica.com/gaming/2025/02/avowed-review-wait-are-we-the-baddies/"><em>Avowed</em></a>, a bit of&nbsp;<em>Elden Ring</em>, some <em>Hitman: World of Assassination</em>, and the charming little game <em>SteamWorld Heist 2</em> on the Z13, using either a controller or the detachable keyboard. I've docked the Z13 to my TV, and after some typical Windows-second-screen wrangling, I found it pretty fun to play just slightly older games at 60-plus frames per second in my living room, powered by this little glowing slab underneath.</p>
+<p>I've also used the Z13 as my primary computer on a plane trip and long weekend. When there's a flat surface to type on, it's a Windows laptop with almost no lag. When I have to hold it or rest it on my lap, it's wonky, at least until I adapt to how Windows wants me to work. When it was in my backpack, it felt a bit heavier than the iPad I'm used to, but I could probably get over that after a trip or two, if I had a modern game I wanted to bring along.</p>
+<p>AMD's integrated graphics capabilities are the star of the show, pushing forward the notion of what a gaming tablet can do, all in a form that's probably as thin as thermodynamics allows.</p>
+<p><em>This post was updated at 9:20 a.m. to add some more context to the benchmarking results.</em></p>
 
 
           
@@ -196,15 +304,15 @@
     
 
     <p>
-      Kyle Orland has been the Senior Gaming Editor at Ars Technica since 2012, writing primarily about the business, tech, and culture behind video games. He has journalism and computer science degrees from University of Maryland. He once <a href="https://bossfightbooks.com/collections/books/products/minesweeper-by-kyle-orland">wrote a whole book about <em>Minesweeper</em></a>.
+      Kevin is a senior technology reporter at Ars Technica, covering open-source software, PC gaming, home automation, repairability, e-bikes, and tech history. He has previously worked at Lifehacker, Wirecutter, iFixit, and Carbon Switch.
     </p>
   </div>
 
 
   <p>
-    <a href="https://arstechnica.com/gaming/2025/02/the-diablo-hackers-that-debunked-a-record-speedrun/#comments" title="56 comments">
+    <a href="https://arstechnica.com/gadgets/2025/02/review-asus-rog-flow-z13-tablet-takes-the-asterisk-off-integrated-gpus/#comments" title="7 comments">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><defs><clipPath id="bubble-zero_svg__a"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath><clipPath id="bubble-zero_svg__b"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath></defs><g clip-path="url(#bubble-zero_svg__a)"><g fill="currentColor" clip-path="url(#bubble-zero_svg__b)"><path d="M80 40c0 22.09-17.91 40-40 40S0 62.09 0 40 17.91 0 40 0s40 17.91 40 40"></path><path d="M40 40 .59 76.58C-.67 77.84.22 80 2.01 80H40z"></path></g></g></svg>
-    56 Comments
+    7 Comments
   </a>
       </p>
               </div>
