@@ -4,7 +4,7 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Tue, 18 Feb 2025 15:36:11 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Feb 2025 15:45:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -144,26 +144,6 @@
 </li>
 </ul>
 </div>
-
-			
-		</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Unreal Engine 5 Shader Compilation Systems Designed to Prevent Stuttering Reportedly Don’t Function Properly Without Additional Work]]></title>
-            <link>https://wccftech.com/unreal-engine-5-shader-compilation-systems-prevent-stuttering-not-work-properly/</link>
-            <guid>https://www.resetera.com/threads/unreal-engine-5-shader-compilation-systems-designed-to-prevent-stuttering-reportedly-don%E2%80%99t-function-properly-without-additional-work.1112025/</guid>
-            <content:encoded><![CDATA[https://wccftech.com/unreal-engine-5-shader-compilation-systems-prevent-stuttering-not-work-properly/<br/><br/><div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			<p>The latest versions of the Unreal Engine 5 feature systems designed to prevent shader compilation issues, but they reportedly don't work well without additional work from developers.</p>
-<p>During their weekly podcast, the tech experts at Digital Foundry went over a recent <a href="https://www.unrealengine.com/en-US/tech-blog/game-engines-and-shader-stuttering-unreal-engines-solution-to-the-problem">blog post</a> shared by Epic on the Unreal Engine official website detailing why shader caching stuttering issues occur, highlighting how the shader compilation process designed in the past reached a breaking point in Direct3D 11 with the increase in shader code, and how it was addressed in modern APIs like Direct3D 12 and Vulkan with the introduction of PSOs, Pipeline State Objects, which opened up a lot of other issues, even in Unreal Engine despite the engine providing solutions for developers to compile PSOs so that game performance isn't impacted which continue to be worked on and improved. The blog post also addresses the misconception that shader compilation stuttering issues were introduced in DirectX 12, as they are a result of the increased shader code and general complexity, rather than anything the API has introduced over the previous version.</p>
-<p>Interestingly enough, these systems Epic introduced to reduce stuttering issues reportedly don't function as intended without developers' intervention. According to what technically-minded developers have told Digital Foundry's Alex Battaglia, these systems don't work properly from Unreal Engine 5.1 to 5.4 and require specialized work to actually make them function as intended. Still, Digital Foundry found what Epic has outlined in the blog post, such as addressing Global Shaders issues which cause a lot of issues in a lot of games, and working with hardware and software vendors to adapt drivers and graphics APIs very promising, so hopefully, future versions of the engine will provide better experiences on PC than the current versions do.</p>
-<p><iframe title="Here's How Epic Will Deal With UE5 #StutterStruggle" width="500" height="281" src="https://www.youtube.com/embed/Zs3ny7cuyMk?start=1&amp;feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
-<p>The latest version of Unreal Engine 5 is version 5.5, which introduces an experimental new feature dubbed the Nanite of lights called <a href="https://wccftech.com/unreal-engine-5-5-megalights-performance-improvements/">MegaLights</a>, Sequencer improvements, and much more. You can learn more about this version of the game engine on its <a href="https://www.unrealengine.com/en-US/blog/unreal-engine-5-5-is-now-available">official website.</a></p>
 
 			
 		</div></div>]]></content:encoded>
