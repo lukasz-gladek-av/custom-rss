@@ -4,7 +4,7 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Wed, 19 Feb 2025 20:21:18 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 19 Feb 2025 20:35:17 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -20,21 +20,6 @@
 <p>Much like <a href="https://arstechnica.com/ai/2024/12/googles-genie-2-world-model-reveal-leaves-more-questions-than-answers/">Google's Genie model</a> before it, WHAM starts by training on "ground truth" gameplay video and input data provided by actual players. In this case, that data comes from <a href="https://store.steampowered.com/app/1189800/Bleeding_Edge/"><em>Bleeding Edge</em></a>, a four-on-four online brawler released in 2020 by Microsoft subsidiary Ninja Theory. By collecting actual player footage since launch (as allowed under the game's user agreement), Microsoft gathered the equivalent of seven player-years' worth of gameplay video paired with real player inputs.</p>
 <p>Early in that training process, Microsoft Research's Katja Hoffman said the model would get easily confused, generating inconsistent clips that would "deteriorate [into] these blocks of color." After 1 million training updates, though, the WHAM model started showing basic understanding of complex gameplay interactions, such as a power cell item exploding after three hits from the player or the movements of a specific character's flight abilities. The results continued to improve as the researchers threw more computing resources and larger models at the problem, according to the Nature paper.</p>
 <p>To see just how well the WHAM model generated new gameplay sequences, Microsoft tested the model by giving it up to one second's worth of real gameplay footage and asking it to generate what subsequent frames would look like based on new simulated inputs. To test the model's consistency, Microsoft used actual human input strings to generate up to two minutes of new AI-generated footage, which was then compared to actual gameplay results using <a href="https://arxiv.org/abs/2407.16124">the Frechet Video Distance metric</a>.</p>
-
-          
-                      
-                  </div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Valve releases full Team Fortress 2 game code to encourage new, free versions]]></title>
-            <link>https://arstechnica.com/gaming/2025/02/valve-releases-full-team-fortress-2-game-code-to-encourage-new-free-versions/</link>
-            <guid>https://www.resetera.com/threads/valve-releases-full-team-fortress-2-game-code-to-encourage-new-free-versions.1113573/</guid>
-            <content:encoded><![CDATA[https://arstechnica.com/gaming/2025/02/valve-releases-full-team-fortress-2-game-code-to-encourage-new-free-versions/<br/><br/><div id="readability-page-1" class="page"><div>
-                      
-                      
-          <p>Valve's updates to its classic games evoke Hemingway's two kinds of going bankrupt: gradually, then suddenly. Nothing is heard, little is seen, and then, one day, <em>Half-Life 2: Deathmatch</em>,&nbsp;<em>Day of Defeat</em>, and other Source-engine-based games get a bevy of modern upgrades. Now, the entirety of <em>Team Fortress 2</em> (<em>TF2</em>) client and server game code, a boon for modders and fixers, is also being released.</p>
-<p>That <a href="https://developer.valvesoftware.com/wiki/Source_SDK_2013">source code</a> allows for more ambitious projects than have been possible thus far, <a href="https://www.teamfortress.com/post.php?id=238809">Valve wrote in a blog post</a>. "Unlike the Steam Workshop or local content mods, this SDK gives mod makers the ability to change, extend, or rewrite <em>TF2</em>, making anything from small tweaks to complete conversions possible." The SDK license restricts any resulting projects to "a non-commercial basis," but they can be published on Steam's store as their own entities.</p>
-<p>Since it had the tools out, Valve also poked around the games based on that more open source engine and spiffed them up as well. Most games got 64-bit binary support, scalable HUD graphics, borderless window options, and the like. Many of these upgrades come from <a href="https://arstechnica.com/gaming/2023/11/valve-celebrates-25-years-of-half-life-with-feature-packed-steam-update/">the big 25-year anniversary update made to&nbsp;<em>Half-Life 2</em></a>, which included "overbright lighting," gamepad configurations, Steam networking support, and the like.</p>
 
           
                       
