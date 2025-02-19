@@ -4,54 +4,22 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Wed, 19 Feb 2025 13:10:03 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 19 Feb 2025 18:08:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Nvidia’s 50-series cards drop support for PhysX, impacting older games]]></title>
-            <link>https://arstechnica.com/gadgets/2025/02/batman-arkham-games-among-those-losing-physx-powers-on-newer-nvidia-gpus/</link>
-            <guid>https://www.resetera.com/threads/nvidia%E2%80%99s-50-series-cards-drop-support-for-physx-impacting-older-games.1112841/</guid>
-            <content:encoded><![CDATA[https://arstechnica.com/gadgets/2025/02/batman-arkham-games-among-those-losing-physx-powers-on-newer-nvidia-gpus/<br/><br/><div id="readability-page-1" class="page"><div>
-          
-          
-<p>Nvidia's PhysX offerings to developers didn't always generate warm feelings. As part of its broader GamesWorks package, PhysX was cited as one of the reasons <a href="https://arstechnica.com/gaming/2015/05/amd-says-nvidias-gameworks-completely-sabotaged-witcher-3-performance/"><em>The Witcher 3</em> ran at notably sub-optimal levels</a> at launch. Protagonist Geralt's hair, rendered in PhysX-powered HairWorks, was a burden on some chipsets.</p>
-<p>PhysX started appearing in general game engines, like <a href="https://arstechnica.com/gaming/2015/03/unity-5-game-engine-brings-enhanced-graphic-tools-new-cloud-services/">Unity 5</a>, and was eventually open-sourced, first in <a href="https://web.archive.org/web/20181205103131/https://developer.nvidia.com/physx-sdk">limited computer and mobile form</a>, then <a href="https://web.archive.org/web/20230528035837/https://developer.nvidia.com/blog/open-source-simulation-expands-with-nvidia-physx-5-release/">more broadly</a>. As an application wrapped up in Nvidia's 32-bit CUDA API and platform, the PhysX engine had a built-in shelf life. Now the expiration date is known, and it is conditional on buying into Nvidia's 50-series video cards—whenever they approach reasonable human prices.</p>
-<figure>
-    <div id="caption-2076751"><p>
-              See that smoke? It's from Sweden, originally.
-                              </p><p>
-                  Credit:
-                                      Gearbox/Take 2
-                                  </p>
-                          </div>
-          <figcaption>
-        <div>
-    
-    <p>
-      See that smoke? It's from Sweden, originally.
-
-              <span>
-          Credit:
+            <title><![CDATA[Valve releases full Team Fortress 2 game code to encourage new, free versions]]></title>
+            <link>https://arstechnica.com/gaming/2025/02/valve-releases-full-team-fortress-2-game-code-to-encourage-new-free-versions/</link>
+            <guid>https://www.resetera.com/threads/valve-releases-full-team-fortress-2-game-code-to-encourage-new-free-versions.1113573/</guid>
+            <content:encoded><![CDATA[https://arstechnica.com/gaming/2025/02/valve-releases-full-team-fortress-2-game-code-to-encourage-new-free-versions/<br/><br/><div id="readability-page-1" class="page"><div>
+                      
+                      
+          <p>Valve's updates to its classic games evoke Hemingway's two kinds of going bankrupt: gradually, then suddenly. Nothing is heard, little is seen, and then, one day, <em>Half-Life 2: Deathmatch</em>,&nbsp;<em>Day of Defeat</em>, and other Source-engine-based games get a bevy of modern upgrades. Now, the entirety of <em>Team Fortress 2</em> (<em>TF2</em>) client and server game code, a boon for modders and fixers, is also being released.</p>
+<p>That <a href="https://developer.valvesoftware.com/wiki/Source_SDK_2013">source code</a> allows for more ambitious projects than have been possible thus far, <a href="https://www.teamfortress.com/post.php?id=238809">Valve wrote in a blog post</a>. "Unlike the Steam Workshop or local content mods, this SDK gives mod makers the ability to change, extend, or rewrite <em>TF2</em>, making anything from small tweaks to complete conversions possible." The SDK license restricts any resulting projects to "a non-commercial basis," but they can be published on Steam's store as their own entities.</p>
+<p>Since it had the tools out, Valve also poked around the games based on that more open source engine and spiffed them up as well. Most games got 64-bit binary support, scalable HUD graphics, borderless window options, and the like. Many of these upgrades come from <a href="https://arstechnica.com/gaming/2023/11/valve-celebrates-25-years-of-half-life-with-feature-packed-steam-update/">the big 25-year anniversary update made to&nbsp;<em>Half-Life 2</em></a>, which included "overbright lighting," gamepad configurations, Steam networking support, and the like.</p>
 
           
-          Gearbox/Take 2
-
-                  </span>
-          </p>
-  </div>
-      </figcaption>
-      </figure>
-
-<h2>The real dynamic particles were the friends we made…</h2>
-<p><a href="https://nvidia.custhelp.com/app/answers/detail/a_id/5615">Nvidia noted in mid-January</a> that 32-bit applications cannot be developed or debugged on the latest versions of its CUDA toolkit. They will still run on cards before the 50 series. Technically, you could also keep an older card installed on your system for compatibility, which is real dedication to early-2010's-era particle physics.</p>
-<p>Technically, a 64-bit game could still support PhysX on Nvidia's newest GPUs, but the heyday of PhysX, as a stand-alone technology switched on in game settings, tended to coincide with the 32-bit computing era.</p>
-<p>If you load up a 32-bit game now with PhysX enabled (or <a href="https://www.nvidia.com/en-us/geforce/forums/geforce-graphics-cards/5/557125/rtx-5090-missing-physx-support/">forced in a config file</a>) and a 50-series Nvidia GPU installed, there's a good chance the physics work will be passed to the CPU instead of the GPU, likely <a href="https://www.youtube.com/watch?v=mJGf0-tGaf4">bottlenecking the game and steeply lowering frame rates</a>. Of course, turning off PhysX entirely raised frame rates above even native GPU support levels.</p>
-<p>Demanding <em>Borderlands 2</em> keep using PhysX made it so it "runs terrible," <a href="https://www.reddit.com/r/nvidia/comments/1irs8xk/comment/mdauwh3/?utm_name=web3xcss">noted one Redditor</a>, even if the dust clouds and flapping cloth strips looked interesting. Other games with PhysX baked in, as listed by ResetEra completists, include <em>Metro 2033,&nbsp;</em><a href="https://arstechnica.com/gaming/2013/10/assassins-creed-iv-review-enormous-but-ultimately-empty/"><em>Assassin's Creed IV: Black Flag</em></a>, and <a href="https://en.wikipedia.org/wiki/Star_Trek_(2013_video_game)">the 2013&nbsp;<em>Star Trek&nbsp;</em>game</a>.</p>
-<p>Commenters on Reddit and ResetEra note that many of the games listed had performance issues with PhysX long before Nvidia forced them to either turn off or be loaded onto a CPU. For some games, however, PhysX enabled destructible environments, "dynamic bank notes" and "posters" (in the&nbsp;<em>Arkham</em> games), fluid simulations, and base gameplay physics.</p>
-<p>Anyone who works in, or cares about, game preservation has always had their work cut out for them. But it's a particularly tough challenge to see certain aspects of a game's operation lost to the forward march of the CUDA platform, something that's harder to explain than a scratched CD or Windows compatibility.</p>
-
-
-          
+                      
                   </div></div>]]></content:encoded>
         </item>
     </channel>
