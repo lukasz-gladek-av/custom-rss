@@ -4,22 +4,50 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Wed, 19 Feb 2025 23:29:23 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 20 Feb 2025 18:39:12 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Microsoft shows progress toward real-time AI-generated game worlds]]></title>
-            <link>https://arstechnica.com/gaming/2025/02/microsofts-new-interactive-ai-world-model-still-has-a-long-way-to-go/</link>
-            <guid>https://www.resetera.com/threads/microsoft-shows-progress-toward-real-time-ai-generated-game-worlds.1113726/</guid>
-            <content:encoded><![CDATA[https://arstechnica.com/gaming/2025/02/microsofts-new-interactive-ai-world-model-still-has-a-long-way-to-go/<br/><br/><div id="readability-page-1" class="page"><div>
+            <title><![CDATA[Twitch’s new storage limits will purge huge swaths of Internet gaming history]]></title>
+            <link>https://arstechnica.com/gaming/2025/02/history-evaporating-before-our-eyes-gamers-lament-twitchs-new-video-storage-limits/</link>
+            <guid>https://www.resetera.com/threads/twitch%E2%80%99s-new-storage-limits-will-purge-huge-swaths-of-internet-gaming-history.1114704/</guid>
+            <content:encoded><![CDATA[https://arstechnica.com/gaming/2025/02/history-evaporating-before-our-eyes-gamers-lament-twitchs-new-video-storage-limits/<br/><br/><div id="readability-page-1" class="page"><div>
                       
                       
-          <p>For <a href="https://arstechnica.com/gadgets/2024/03/googles-genie-model-creates-interactive-2d-worlds-from-a-single-image/">a while now</a>, many AI researchers have been <a href="https://arstechnica.com/information-technology/2024/08/new-ai-model-can-hallucinate-a-game-of-1993s-doom-in-real-time/">working</a> to integrate a so-called <a href="https://arstechnica.com/ai/2024/12/googles-genie-2-world-model-reveal-leaves-more-questions-than-answers/">"world model"</a> into their systems. Ideally, these models could infer a simulated understanding of how in-game objects and characters should behave based on video footage alone, then create fully interactive video that instantly simulates new playable worlds based on that understanding.</p>
-<p>Microsoft Research's new World and Human Action Model (WHAM), <a href="https://www.microsoft.com/en-us/research/blog/introducing-muse-our-first-generative-ai-model-designed-for-gameplay-ideation/">revealed today</a> in <a href="https://www.nature.com/articles/s41586-025-08600-3">a paper published in the journal Nature</a>, shows how quickly those models have advanced in a short time. But it also shows how much further we have to go before the dream of AI crafting complete, playable gameplay footage from just some basic prompts and sample video footage becomes a reality.</p>
-<h2>More consistent, more persistent</h2>
-<p>Much like <a href="https://arstechnica.com/ai/2024/12/googles-genie-2-world-model-reveal-leaves-more-questions-than-answers/">Google's Genie model</a> before it, WHAM starts by training on "ground truth" gameplay video and input data provided by actual players. In this case, that data comes from <a href="https://store.steampowered.com/app/1189800/Bleeding_Edge/"><em>Bleeding Edge</em></a>, a four-on-four online brawler released in 2020 by Microsoft subsidiary Ninja Theory. By collecting actual player footage since launch (as allowed under the game's user agreement), Microsoft gathered the equivalent of seven player-years' worth of gameplay video paired with real player inputs.</p>
-<p>Early in that training process, Microsoft Research's Katja Hoffman said the model would get easily confused, generating inconsistent clips that would "deteriorate [into] these blocks of color." After 1 million training updates, though, the WHAM model started showing basic understanding of complex gameplay interactions, such as a power cell item exploding after three hits from the player or the movements of a specific character's flight abilities. The results continued to improve as the researchers threw more computing resources and larger models at the problem, according to the Nature paper.</p>
-<p>To see just how well the WHAM model generated new gameplay sequences, Microsoft tested the model by giving it up to one second's worth of real gameplay footage and asking it to generate what subsequent frames would look like based on new simulated inputs. To test the model's consistency, Microsoft used actual human input strings to generate up to two minutes of new AI-generated footage, which was then compared to actual gameplay results using <a href="https://arxiv.org/abs/2407.16124">the Frechet Video Distance metric</a>.</p>
+          
+<p>Popular <a href="https://arstechnica.com/gaming/2014/08/amazon-not-google-reportedly-buying-twitch-for-1-billion/">Amazon-owned</a> game streaming platform Twitch <a href="https://help.twitch.tv/s/article/video-on-demand">announced Wednesday</a> that it will be imposing a 100-hour limit on the archived video highlights users can preserve permanently on the site. And while Twitch says that only 0.5 percent of users will be affected by these new limits, gamers are warning that the move threatens to eradicate large swaths of recent gaming history from the Internet.</p>
+<p>Highlights, in Twitch's own words, are a way for Twitch streamers to "show off your best moments to new viewers who land on your channel page." Unlike VOD recordings of full Twitch broadcasts—which are deleted automatically after seven days (or 60 days for Twitch partners)—these highlights provide a more permanent way to maintain an archive of important moments for many Twitch streamers.</p>
+<p>That seeming permanence is set to end on April 29, though, when Twitch says it will start to delete content from channels with more than 100 hours of highlights, starting with the least-viewed highlights.</p>
+<figure>
+    <div id="caption-2077171"><p>
+              Twitch headquarters in San Francisco.
+                              </p><p>
+                  Credit:
+                                      Getty Images
+                                  </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      Twitch headquarters in San Francisco.
+
+              <span>
+          Credit:
+
+          
+          Getty Images
+
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>In <a href="https://help.twitch.tv/s/article/video-on-demand">announcing the change</a>, Twitch cited the "costly" indefinite storage of these highlights, which it says are responsible for "less than 0.1% of hours watched" across the site. These highlights "haven't been very effective in driving discovery or engagement with viewers," Twitch wrote, and limiting them will "help us manage resources more efficiently... and continue to invest in new features and improvements to more effective viewer engagement tools like Clips and the mobile feed."</p>
+<h2>An “incalculable” loss</h2>
+<p>On social media, though, many Twitch users are expressing outrage over what the loss of these clips will do to the shared history of their gaming communities. "Who the hell cares about discovery or engagement?" one streamer <a href="https://x.com/MrJimmysteel25/status/1892421085418643523">wrote</a>. "People use highlights to archive, and you're destroying YEARS of speedrunning and other communities' history."</p>
+<p>The speedrunning community seems particularly likely to be negatively affected by Twitch's move. As <a href="https://en.wikipedia.org/wiki/VTuber">VTuber</a> VanityFox <a href="https://x.com/VanityyFox/status/1892588675306815995">points out</a>, "many speedrunners use highlights to document world records and important moments... the amount gaming history they are deleting to save money and shove short form content on your feed is incalculable."</p>
 
           
                       
