@@ -4,33 +4,25 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Fri, 21 Feb 2025 15:54:20 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 21 Feb 2025 16:38:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Indiana Jones and the Great Circle Update 3 Adds AMD FSR 3 Frame Generation and Path Tracing Support on AMD & Intel]]></title>
-            <link>https://wccftech.com/indiana-jones-and-the-great-circle-update-3-adds-amd-fsr-3-frame-generation-and-path-tracing-support-on-amd-intel/</link>
-            <guid>https://www.resetera.com/threads/indiana-jones-and-the-great-circle-update-3-adds-amd-fsr-3-frame-generation-and-path-tracing-support-on-amd-intel.1115343/</guid>
-            <content:encoded><![CDATA[https://wccftech.com/indiana-jones-and-the-great-circle-update-3-adds-amd-fsr-3-frame-generation-and-path-tracing-support-on-amd-intel/<br/><br/><div id="readability-page-1" class="page"><div>
+            <title><![CDATA[Kingdom Come: Deliverance II, With its Polished Day 1 Polished Experience, Feels “Old School in All the Best Ways”; Runs With Impeccable Smoothness On]]></title>
+            <link>https://wccftech.com/kingdom-come-deliverance-ii-polished-impeccable-smoothness/</link>
+            <guid>https://www.resetera.com/threads/kingdom-come-deliverance-ii-with-its-polished-day-1-polished-experience-feels-%E2%80%9Cold-school-in-all-the-best-ways%E2%80%9D-runs-with-impeccable-smoothness-on.1115562/</guid>
+            <content:encoded><![CDATA[https://wccftech.com/kingdom-come-deliverance-ii-polished-impeccable-smoothness/<br/><br/><div id="readability-page-1" class="page"><div>
 
 			
 
 			
 			
 			
-			<p>Yesterday, Indiana Jones and the Great Circle <a href="https://wccftech.com/nvidia-dlss-4-mfg-out-now-with-game-ready-driver-in-indiana-jones-and-the-great-circle-tomorrow-in-delta-force-black-hawk-down/" target="_blank" rel="noopener">received</a> integrated support for NVIDIA DLSS 4 Multi Frame Generation as part of the game's third update. The game was also updated to support the latest DLAA and DLSS Super Resolution transformer-based AI models, which offer improved quality, as well as Ray Reconstruction, which improves ray tracing. Ray traced shadows also now optionally include all light sources, significantly increasing the quality of shadows in interior locations. But the <a href="https://store.steampowered.com/news/app/2677660/view/502817574909640811" target="_blank" rel="noopener">patch notes</a> also reveal good news for AMD and Intel owners, too:</p>
-<p><em>This update brings Path Tracing to supported Intel and AMD GPUs. To use Path Tracing, your Intel or AMD graphics card must support Hardware Ray Tracing and have at least 16GB of VRAM. Please make sure to download the latest drivers from your GPU manufacturer.</em></p>
-<p><em>Note that in foliage-dense locations, such as Sukhothai, reducing Vegetation Animation Quality below the “Ultra” settings can reduce the occasional shadow “popping” that may be seen on all graphics cards using Path Tracing.</em></p>
-<p>Moreover, the third Indiana Jones and the Great Circle adds support for AMD FSR 3.1 upscaling and frame generation technology, allowing players without GeForce RTX 40 or 50 graphics cards to take advantage of frame generation in the game. Lastly, the patch&nbsp;also adds support for Intel XESS 1.4 upscaling.</p>
-<p>There are also a few technical fixes:</p>
-<ul>
-<li>Improvements have been made to environment lights to present a more natural appearance when Path Tracing is enabled</li>
-<li>Fixed an issue where Nvidia Low Latency mode would cause inconsistent frame rates</li>
-<li>Fixed issue where Nvidia Frame Generation became disabled when HDR was toggled on</li>
-<li>Fixed an issue where Indy’s hair was missing in reflections when using Path Tracing</li>
-<li>Fixed some issues with light leaks in underground locations in Gizeh when Path Tracing is enabled</li>
-</ul>
-<p>As we had assumed, the previously announced <a href="https://wccftech.com/indiana-jones-and-the-great-circle-to-get-dlss-4-multi-frame-generation-and-rtx-hair-with-february-update/" target="_blank" rel="noopener">RTX Hair feature</a> is not available in this update. Indeed, the patch notes mention it as a possible addition for future Indiana Jones and the Great Circle updates alongside HUD modification, which the community has requested.</p>
+			<p>Kingdom Come: Deliverance II has launched in a great technical state, bucking the trend of games launching in rather poor states in the 2020s, and feeling almost old-school in this, according to a new in-depth technical analysis shared online.</p>
+<p>The tech experts at <a href="https://www.youtube.com/@DigitalFoundry">Digital Foundry</a> recently took a good look at the second entry in the series by Warhorse Studios, highlighting how going with CryEngine was a winning choice. Even in its DirectX 12 form, the game engine developed by Crytek delivers an essentially stutter-free experience even on mid and low-end hardware. On a fairly old Ryzen 5 3600 CPU and RTX 4060 GPU with a truncated PCIe bus, targeting 60 FPS at 1080p resolution at medium settings, which include demanding real-time software ray-traced global illumination, smoothness was impeccable even in areas with high NPC density, with no traversal or shader compilation stuttering, which is quite impressive considering the game doesn't feature visible shader pre-compilation, likely conducted instead during load times and during the game itself in an asynchronous manner that burdens the CPU less, thus allowing even an old CPU to handle the game smoothly. Put against other open-world RPGs running on different engines, like Dragon's Dogma 2 and Avowed, Kingdom Come: Deliverance II is the definitive winner in terms not only of performance but of visual quality as well, as the two other games definitely don't deliver the same quality even at similar medium settings.</p>
+<p>Besides going over Kingdom Come: Deliverance II's smooth performance, the Digital Foundry analysis goes over the game's excellent lighting and environments, how the Ultra settings are not really worth much, some optimization tips, and more. You can check out the analysis in full below.</p>
+<p><iframe title="Kingdom Come Deliverance 2: A PC Game We Can Celebrate - DF Tech Review" width="500" height="281" src="https://www.youtube.com/embed/w31Ct25gJlI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+<p>Kingdom Come: Deliverance II is now available on PC, PlayStation 5, Xbox Series X, and Xbox Series S worldwide. You can learn more about the second entry in the series by Warhorse by reading Chris' glowing<a href="https://wccftech.com/review/kingdom-come-deliverance-ii/"> review.</a></p>
 
 			
 		</div></div>]]></content:encoded>
