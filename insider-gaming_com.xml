@@ -4,9 +4,78 @@
         <title>maGaming RSS Feed - insider-gaming_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/insider-gaming_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for insider-gaming_com</description>
-        <lastBuildDate>Tue, 25 Feb 2025 17:48:49 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 25 Feb 2025 17:57:28 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[INTERVIEW: I Sat Down With a Developer Behind Call of Duty’s SBMM]]></title>
+            <link>https://insider-gaming.com/call-of-duty-sbmm/</link>
+            <guid>https://www.resetera.com/threads/interview-i-sat-down-with-a-developer-behind-call-of-duty%E2%80%99s-sbmm.1118607/</guid>
+            <content:encoded><![CDATA[https://insider-gaming.com/call-of-duty-sbmm/<br/><br/><div id="readability-page-1" class="page"><div>
+		
+<div><p>Earlier this month, I attended the 2025 D.I.C.E (Design, Innovate, Communicate, Entertain) Summit, an annual event that see’s industry executives and leaders across the globe converge into one location to discuss the future of video games. It was an eye-opening event and I walked away with a sense that the industry has got a renewed sense of optimism, with the past few turbulent years catalysing a reinvention of creativity and technology that will undoubtedly lead to an exciting future.&nbsp;</p><p>One of my favourite conversations at the event, though, was on the four letters that strike fear in any good player who plays multiplayer games; SBMM. For those who don’t know, I started off this unorthodox journey into journalism as a Call of Duty YouTuber, who thrived and gained a following by uploading high-kill, low-death gameplay with the occasional commentary about how the next game leaked on the back of a Doritos packet. Finding ways to get around SBMM was always a part of my gaming routine and when I had the opportunity to speak with Charlie Olson,&nbsp;a veteran software programmer who spent nearly a decade at Raven Software in two stints, and wrote the&nbsp;Matchmaking Rating algorithm (MMR) for Call of Duty’s SBMM system, it was an offer I couldn’t refuse.</p><p>Olson initially wrote the MMR algorithm for China’s Call of Duty: Online in 2015, with the algorithm making its way into its first mainline entry with 2016’s Infinite Warfare.&nbsp;It’s a system that has been there ever since, with&nbsp;the matchmaker itself becoming more sophisticated over the years,&nbsp;but Olson’s rating algorithm remaining essentially unchanged. Olson would move on from Raven Software in 2020, going on to co-found&nbsp;<a href="https://www.invokation.games/" target="_blank" rel="noreferrer noopener nofollow">Invokation Games</a> in 2022;&nbsp;a development studio that provides custom skill-rating and ranking systems to games.&nbsp;</p><p>After a handshake, a brief introduction, and a joke or two, we sat down to talk the nitty gritty about SBMM, how important it is for live-service games, and whether or not there’s any solutions&nbsp;for players in higher-skilled brackets. But one thing seems for certain; SBMM is not going away in Call of Duty, and arguably, any other live-service game that wants to be successful.&nbsp;</p></div>
+
+
+
+<figure></figure>
+
+
+
+<p><br>But first, I wanted to address the elephant in the room when it came to Call of Duty’s SBMM whitepaper and its legitimacy, because as we all know, there’s always a sense of doubt when a giant company tries to be transparent. When asked, Olson told me that the whitepaper is accurate and he can attest to it based on his own analysis at Call of Duty and on other games. Live-service games need SBMM, and SBMM needs MMR, he said. He continued to explain that both are needed to ensure long-term sustainability and player engagement, which are both crucial components in ensuring a successful live-service game. “But&nbsp;that doesn’t mean everyone should just shut up and like SBMM,” said Olson.&nbsp;</p>
+
+
+
+<p>On stats, Olson explained that around half of players would be driven to stop playing without SBMM, because the “sometimes you stomp, sometimes you get stomped” narrative only applies to around 40% of players by skill, with 10% of the very top players doing 90% of the pubstomping. Olson used XDefiant as an example of churn-based matchmaking and explained that although XDefiant had team-balancing, “people don’t like being the weak link repeatedly and high-skill players don’t like carrying a team of potatoes all the time.”</p>
+
+
+
+<figure><figcaption>Ubisoft’s XDefiant announced it’s closure seven months after its release</figcaption></figure>
+
+
+
+<p>When asked for a solution to SBMM, Olson believes that it is needed to ensure long-term sustainability for a live-service game, however thinks that its solution is transparency of where players rank with their skill. “The massive problem with SBMM though is that you don’t know what league you’re in anymore. SBMM takes away the sense of skill and mastery. There’s less skill feedback, stats don’t matter as much, KD is less of a bragging right; it’s a serious design problem really.”</p>
+
+
+
+<p>He continued, “If you are trying to get better at the game, SBMM just rewards you with tougher opponents.&nbsp;I’d even say that SBMM punishes players for being good. That’s unfair, and players are right to complain about it.”</p>
+
+
+
+<div><p>Olson thinks one solution is to reward players with more XP for being better at the game. “Casual  doesn’t need to be completely about skill like Ranked&nbsp;, but you should be able to see something about the average skill of your lobby or opponents, like maybe this match is a gold tier so you get a 1.2 XP multiplier. You should be able to see your MMR (matchmaking-rating, aka skill-rating) in the combat record. You shouldn’t have to file a personal data request with Activision just to get that information.”</p><p>He went on to explain that he did pitch such a system for Call of Duty on multiple occasions, even at a meeting at Infinity Ward during 2019’s Modern Warfare development. However, Olson noted that the lack of bandwidth that studios have to consider new ideas outside of the lead studio make such pitches an up-hill battle, especially coming from a non-designer. “So, I tried, but it didn’t catch on,” he said. “The other reason I think it didn’t catch on is that most designers just don’t know much about how MMR works and therefore aren’t comfortable using it as a component for design,” he continued.</p></div>
+
+
+
+<figure><figcaption>Infinity Ward’s Office</figcaption></figure>
+
+
+
+<div><p>I asked Olson to explain SBMM in a ‘for dummies’ explanation, to which he explained that SBMM consists of three different systems;&nbsp;matchmaking, team-balancing, and MMR (matchmaking-rating or skill-rating).&nbsp;MMR is the number that the matchmaker and team-balancer uses. The MMR system takes into consideration the ratings of everyone in the match and updates your rating based on your relative performance. In CoD, Olson said that that the MMR is more volatile in the mid-range, which is an issue that could be addressed. He said that CoD players who requested their data from Activision are likely seeing that volatility too, with their MMR bouncing around without a clear indicator as to why. But that’s why Olson believes that players should openly be able to see their MMR, for transparency and so they can see what’s going on. He noted that preventing people from seeing their MMR, or making you data request it from Activision leads to a lack of faith and ultimately leads to conspiracy theories that we often see flooding the internet.</p><p>“Contrary to what some players believe, you really don’t have to try your hardest every match. If you go off-META, your MMR will adapt after a few bad games, and matches will get easier. The exception would be when you’re playing low pop modes that attract high skill players, or during Open Betas,” he said. For example, you probably shouldn’t expect a gamemode like Domination, a gamemode that traditionally attracts higher-skilled players to get much easier. Speaking of conspiracy theories, Olson also pointed out that CoD’s SBMM gets mistaken for&nbsp;“EOMM” (Engagement-Optimized Matchmaking), but it’s really just because the MMR is highly responsive and volatile.</p></div>
+
+
+
+<figure><figcaption>Marvel Rivals – A game with EOMM</figcaption></figure>
+
+
+
+<p>What’s clear is that SBMM in CoD (and other live-service games) is likely never going to go away. They are fundamental systems to keep a game alive and thriving by keeping players around and has become even more apparent recently following Activision’s clamp down on VPN’s and patching SBMM ‘get around’ methods like two boxing – a method where a player would join the session of a lower-skilled dummy account to enter a lower-skilled lobby. The issue with CoD in particular seems to be transparency and players should be rewarded for being good at the game. Be that XP bonuses as Olson suggested, or even going one step further and offering exclusive calling cards, emblems, and so on.</p>
+
+
+
+<div><p>Finding a solution to appease everyone when it comes to SBMM is definitely a complex issue, but one that should be talked about more at length.&nbsp;</p><p>Insider Gaming has also invited&nbsp;Charlie Olson to the <a href="https://www.youtube.com/watch?v=ZhWUIWZUTas" target="_blank" rel="noreferrer noopener nofollow">Insider Gaming podcast</a>, to sit down and answer some of your questions at length on the issues. </p><p>So, if you have any questions, please visit the <a href="https://insider-gaming.com/forum/threads/ama-charlie-olson-a-developer-who-wrote-call-of-dutys-sbmm.1697/" target="_blank" rel="noreferrer noopener">Insider Gaming Forum</a>, create an account, and ask away. And fingers crossed, we’ll have Olson as a guest in the coming weeks.</p></div>
+
+
+
+<hr>
+    <div id="ig-newsletter-holder">
+            <p><span>
+                    SUBSCRIBE to our newsletter to receive the latest news and exclusive leaks every week! No Spam.
+                </span>
+            </p>
+            
+        </div>
+
+	</div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Tony Hawk’s Pro Skater 3 + 4 Rating Surfaces in Singapore]]></title>
             <link>https://insider-gaming.com/tony-hawks-pro-skater-3-4-rating-surfaces-in-singapore/</link>
@@ -38,225 +107,6 @@
 
 
 <p>For more information from Insider Gaming, read&nbsp;about&nbsp;<a href="https://insider-gaming.com/fable-delayed-into-2026-by-xbox/" target="_blank" rel="noreferrer noopener">Fable being delayed to 2026</a>. Don’t forget to&nbsp;<a href="https://insider-gaming.com/subscribe" target="_blank" rel="noreferrer noopener">sign up for our weekly newsletter</a>.&nbsp;</p>
-    <div id="ig-newsletter-holder">
-            <p><span>
-                    SUBSCRIBE to our newsletter to receive the latest news and exclusive leaks every week! No Spam.
-                </span>
-            </p>
-            
-        </div>
-
-	</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Fable Delayed Into 2026 By Xbox]]></title>
-            <link>https://insider-gaming.com/fable-delayed-into-2026-by-xbox/</link>
-            <guid>https://www.resetera.com/threads/fable-delayed-into-2026-by-xbox.1118418/</guid>
-            <content:encoded><![CDATA[https://insider-gaming.com/fable-delayed-into-2026-by-xbox/<br/><br/><div id="readability-page-1" class="page"><article id="post-92426">
-
-	<header>
-        
-
-        
-
-	</header>
-
-    
-
-
-	<div>
-		
-<p>Xbox has announced that Fable has been delayed into 2026. The announcement comes via Xbox Studios head Craig Duncan during an episode of the official Xbox podcast.</p>
-
-
-
-<p>“We previously announced Fable as 2025,” <a href="https://www.youtube.com/watch?v=7r1t_oDC7z8&amp;t=853s" target="_blank" rel="noreferrer noopener nofollow">Duncan said</a> while talking about his excitement for where the game is. “We are actually going to give Fable more time. It’s going to ship in 2026 now. While I know that’s not maybe the news people want to hear, what I want is to assure people that it’s definitely worth the wait.”</p>
-
-
-
-<p>Duncan added: “I just have unequivocal confidence in the Playground team. If you think about their history and legacy for Forza Horizon—the last two games critically acclaimed…and just what they’re bringing to Fable as a franchise, just think of the visuals of what you expect of Playground Games plus amazing gameplay.”</p>
-
-
-
-<p>Lastly, Duncan said the new Fable is the “most beautifully realized version of Albion” players have ever seen.</p>
-
-
-
-<p>Fable was officially announced in 2020 but didn’t get its first proper trailer until 2023. The game’s 2025 release window was announced in June 2024.</p>
-
-
-
-<p>As far as a more specific release window for 2026, that information wasn’t revealed.</p>
-
-
-
-<p>What do you think of Fable being delayed into 2026? Let us know below, and join the discussion in the official <a href="https://insider-gaming.com/forum/" target="_blank" rel="noreferrer noopener">Insider Gaming Forums.</a> </p>
-
-
-
-<hr>
-
-
-
-<p>For more Insider Gaming, check out our full <a href="https://insider-gaming.com/two-point-museum-review-a-new-exhibit-in-fun/" target="_blank" rel="noreferrer noopener">review of Two Point Museum</a> and read <a href="https://insider-gaming.com/ubisoft-releases-statement-on-assassins-creed-shadows-leaks/" target="_blank" rel="noreferrer noopener">Ubisoft’s response</a> to Assassin’s Creed Shadows getting in the hands of players early. And don’t forget to&nbsp;<a href="https://insider-gaming.com/subscribe" target="_blank" rel="noreferrer noopener">sign up for our newsletter</a>.</p>
-    <div id="ig-newsletter-holder">
-            <p><span>
-                    SUBSCRIBE to our newsletter to receive the latest news and exclusive leaks every week! No Spam.
-                </span>
-            </p>
-            
-        </div>
-
-	</div>
-
-</article><div id="post-container">
-            
-                    <div>
-                        <a href="https://insider-gaming.com/star-wars-eclipse-release/">
-                            
-                        </a>
-
-                        <h2>
-                            <a href="https://insider-gaming.com/star-wars-eclipse-release/">Star Wars Eclipse Developer Quantic Dream Remains Unaffected by NetEase Restructuring</a>
-                        </h2>
-
-                        <p>Star Wars Eclipse developer Quantic Dream has said that the studio is unaffected by the recent restructuring by NetEase. Taking to LinkedIn, Quantic Dream CEO Guillaume de Fondaumière made a statement on the recent layoffs and studio closures from NetEase saying, “We were deeply saddened to learn about the recent layoffs and studio closures affecting […]</p>
-                    </div>
-
-                    
-                    <div>
-                        <a href="https://insider-gaming.com/first-fallout-game-ending-different-tim-cain/">
-                            
-                        </a>
-
-                        <h2>
-                            <a href="https://insider-gaming.com/first-fallout-game-ending-different-tim-cain/">Fallout Creator Reveals His Original Plan For The First Game’s Ending</a>
-                        </h2>
-
-                        <p>Tim Cain, one of the gifted minds who created Fallout, revealed his rejected proposal for the ending of the first game.</p>
-                    </div>
-
-                    
-                    <div>
-                        <a href="https://insider-gaming.com/delta-force-black-hawk-down-mostly-negative/">
-                            
-                        </a>
-
-                        <h2>
-                            <a href="https://insider-gaming.com/delta-force-black-hawk-down-mostly-negative/">Delta Force – Black Hawk Down Launches to ‘Mostly Negative’ Reviews Because It’s Too Difficult</a>
-                        </h2>
-
-                        <p>Delta Force – Black Hawk Down has been released but it’s irritating gamers worldwide because it’s just too darn difficult.</p>
-                    </div>
-
-                    
-                    <div>
-                        <a href="https://insider-gaming.com/anna-williams-tekken-3-million-copies/">
-                            
-                        </a>
-
-                        <h2>
-                            <a href="https://insider-gaming.com/anna-williams-tekken-3-million-copies/">Anna Williams Announced For Tekken 8 as Title Sells 3 Million Copies</a>
-                        </h2>
-
-                        <p>Tekken 8 has hit 3 million copies sold worldwide in a year, and Anna Williams is making her way to the game as a new DLC fighter.</p>
-                    </div>
-
-                                                </div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Is Balatro Coming To Xbox Game Pass?]]></title>
-            <link>https://insider-gaming.com/is-balatro-coming-to-xbox-game-pass/</link>
-            <guid>https://www.resetera.com/threads/is-balatro-coming-to-xbox-game-pass.1118415/</guid>
-            <content:encoded><![CDATA[https://insider-gaming.com/is-balatro-coming-to-xbox-game-pass/<br/><br/><div id="readability-page-1" class="page"><div>
-		
-<p>Microsoft continues to bring a wealth of old and new titles to Xbox Game Pass, and Balatro continues to be the talk of the town over a year after its release. Here’s the latest update on the roguelike card game being introduced to a hungry public.</p>
-
-
-
-<p>Balatro sucked me in within minutes of playing. It’s the kind of game that is instantly accessible but takes a <em>long </em>time to master. The concept of juggling Jokers and collecting cards is overwhelming at first. But it gets easier as time goes and Balatro’s core gameplay loop feeds on your time like a leech.</p>
-
-
-
-<p>It’s won countless Game of the Year awards and <a href="https://insider-gaming.com/balatro-has-announced-its-sold-5-million-units/" target="_blank" rel="noreferrer noopener">sold over 5 million copies</a>. If you’ve not had the chance to play Balatro yet, let’s see if you can through Xbox Game Pass.</p>
-
-
-
-<h2 id="h-can-you-play-balatro-on-xbox-game-pass">Can You Play Balatro on Xbox Game Pass?</h2>
-
-
-
-<figure><figcaption>We’re all friends here. Credit to LocalThunk</figcaption></figure>
-
-
-
-<p><strong>Balatro is now available to play on Xbox Game Pass if you have a valid subscription to the game offering service.</strong></p>
-
-
-
-<p>The <a href="https://insider-gaming.com/balatro-game-pass-friends-of-jimbo-pack-4/" target="_blank" rel="noreferrer noopener">February 24 Friends of Jimbo update</a> added more content and cosmetic Joker designs. The update added Bugsnax, Assassin’s Creed, Slay the Princess, Fallout, Critical Role, Rust, Dead by Daylight, and Sid Meier’s Civilization 7 variations to choose from.</p>
-
-
-
-<p>But, it also shocked everyone by shadow-dropping Balatro as an <strong>instant addition to the Xbox Game Pass catalog</strong>. That means if you have Game Pass, you can go and download Balatro for free this instant!</p>
-
-
-
-<h2 id="h-how-to-play-balatro-on-game-pass">How to Play Balatro on Game Pass</h2>
-
-
-
-<p><strong>Make sure you have an active Xbox Game Pass Subscription, search for Balatro on the Xbox Store, download it, and play Balatro.</strong></p>
-
-
-
-<p>Here’s a quick guide to playing Balatro through Microsoft’s Game Pass platform:</p>
-
-
-
-<ol>
-<li>Log in to your Microsoft account.</li>
-
-
-
-<li>Check to see if you have a valid Game Pass membership.</li>
-
-
-
-<li>If not, head to the <a href="https://www.xbox.com/en-US/xbox-game-pass?msockid=18c366288f2166303b0f72118e066724#join" target="_blank" rel="noreferrer noopener nofollow">Join Xbox Game page</a> and subscribe to one of the plans.</li>
-
-
-
-<li>Head to the <strong>Xbox Store</strong> once your membership is live.</li>
-
-
-
-<li>Search for <strong>Balatro</strong>.</li>
-
-
-
-<li>Click to acquire the game through Game Pass on its official page.</li>
-
-
-
-<li>Download the title.</li>
-
-
-
-<li>Once this process is complete, you can now play Balatro!</li>
-</ol>
-
-
-
-<hr>
-
-
-
-<p>I cannot recommend Balatro enough. It’s easy to play and very much a pick-up-and-play type of game. Have you only seen Balatro through social media clips? Or are you a Balatro expert? Let us know your best score and round performance! The <a href="https://insider-gaming.com/best-balatro-seeds/" target="_blank" rel="noreferrer noopener">Best Balatro seeds</a> go a long way to achieving this.</p>
-
-
-
-<p>If you’re scared to enter Balatro for the first time, don’t be. Here’s a ton of explainer guides to help you out: <a href="https://insider-gaming.com/how-to-unlock-throwback-joker-balatro/" target="_blank" rel="noreferrer noopener">How to unlock the Throwback Joker</a>, <a href="https://insider-gaming.com/how-to-beat-plant-boss-blind-balatro/" target="_blank" rel="noreferrer noopener">how to beat The Plant Boss Blind</a>, <a href="https://insider-gaming.com/how-to-unlock-hit-the-road-joker-balatro/" target="_blank" rel="noreferrer noopener">How to unlock the Hit The Road Joker</a>, <a href="https://insider-gaming.com/how-to-unlock-plasma-deck-balatro/" target="_blank" rel="noreferrer noopener">How to unlock the Plasma Deck</a>, <a href="https://insider-gaming.com/what-does-the-blank-voucher-do-in-balatro/" target="_blank" rel="noreferrer noopener">what the Blank Voucher does</a>, and <a href="https://insider-gaming.com/what-does-1-ante-1-hand-each-round-mean-in-balatro-hieroglyph-voucher-explained/" target="_blank" rel="noreferrer noopener">what -1 Ante -1 Hand each round means</a>.</p>
     <div id="ig-newsletter-holder">
             <p><span>
                     SUBSCRIBE to our newsletter to receive the latest news and exclusive leaks every week! No Spam.
