@@ -4,23 +4,36 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Fri, 28 Feb 2025 17:08:58 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 28 Feb 2025 17:44:13 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[AMD’s FSR 4 upscaling is exclusive to 90-series Radeon GPUs, won’t work on other cards]]></title>
-            <link>https://arstechnica.com/gadgets/2025/02/amds-fsr-4-upscaling-is-exclusive-to-90-series-radeon-gpus-wont-work-on-other-cards/</link>
-            <guid>https://www.resetera.com/threads/amd%E2%80%99s-fsr-4-upscaling-is-exclusive-to-90-series-radeon-gpus-won%E2%80%99t-work-on-other-cards.1121877/</guid>
-            <content:encoded><![CDATA[https://arstechnica.com/gadgets/2025/02/amds-fsr-4-upscaling-is-exclusive-to-90-series-radeon-gpus-wont-work-on-other-cards/<br/><br/><div id="readability-page-1" class="page"><div>
-                      
-                      
-          <p>AMD's new Radeon RX 90-series cards and the RDNA4 architecture make their official debut on March 5, and a new version of AMD's FidelityFX Super Resolution (FSR) upscaling technology is coming along with them.</p>
-<p>FSR and Nvidia's Deep Learning Super Sampling (DLSS) upscalers have the same goal: to take a lower-resolution image rendered by your graphics card, bump up the resolution, and fill in the gaps between the natively rendered pixels to make an image that looks <em>close</em> to natively rendered without making the GPU do all that rendering work. These upscalers can make errors, and they won't always look quite as good as a native-resolution image. But they're both nice alternatives to living with a blurry, non-native-resolution picture on an LCD or OLED display.</p>
-<p>FSR and DLSS are especially useful for older or cheaper 1080p or 1440p-capable GPUs that are connected to a 4K monitor, where you'd otherwise have to decide between a sharp 4K image and a playable frame rate; it's also useful for hitting higher frame rates at lower resolutions, which can be handy for high-refresh-rate gaming monitors.</p>
-<p>But unlike past versions of FSR, FSR 4 is upscaling images using hardware-backed machine-learning algorithms, hardware newly added to RDNA4 and the RX 90-series graphics cards. This mirrors Nvidia's strategy with DLSS, which has always leveraged the tensor cores found in RTX GPUs to run machine-learning models to achieve superior image quality for upscaled and AI-generated frames. If you don't have an RDNA4 GPU, you can't use FSR 4.</p>
+            <title><![CDATA[Salty game dev comments, easier mods are inside Command & Conquer’s source code]]></title>
+            <link>https://arstechnica.com/gaming/2025/02/command-conquer-source-release-promises-more-mods-and-updates-for-rts-legend/</link>
+            <guid>https://www.resetera.com/threads/salty-game-dev-comments-easier-mods-are-inside-command-conquer%E2%80%99s-source-code.1122120/</guid>
+            <content:encoded><![CDATA[https://arstechnica.com/gaming/2025/02/command-conquer-source-release-promises-more-mods-and-updates-for-rts-legend/<br/><br/><div id="readability-page-1" class="page"><div>
+          
+          
+<p>Inside the source code are some wonderful reminders of what Windows game development from 1995 to 2003 was really like. One experienced modder <a href="https://bsky.app/profile/rwtema.bsky.social/post/3lj73vvrhr226">posted some gems on Bluesky</a>, like a "HACK ALERT!" text string added just to prevent the Watcom IDE from crashing because of a "magic text heap length" crash: "Who knows why, but it works," wrote that poor soul.</p>
+<p>This writer's personal favorite is this little bit in <a href="https://github.com/electronicarts/CnC_Generals_Zero_Hour/blob/main/Generals/Code/Tools/WorldBuilder/src/RampOptions.cpp">the RampOptions.cpp file</a> in <em>Generals</em>, credited to John K. McDonald Jr., which expresses concerns about "TheRampOptions" existing with a set value:</p>
+<p><code>if (TheRampOptions) {</code><br>
+<code>// oh shit.</code><br>
+<code>return;</code><br>
+<code>}</code></p>
+<p>In addition to helping out modders and entertaining experienced coders, the GPL-licensed source code releases do a lot to help preserve these games, such that they can be reworked to run on future platforms. Projects like <a href="https://www.openra.net/">OpenRA</a> and <a href="https://opensage.github.io/">OpenSAGE</a> already offer open source reimplementations of those games' code, but having the original source can only help. <em>C&amp;C </em>community stalwart Luke "CCHyper" Feenan worked with EA leaders to get the code back into a build-ready state and said in a press release that the updated code should make the classic games easier to patch in the future.</p>
+<p>As part of the source code release, the&nbsp;<em>Command &amp; Conquer</em> team dropped off <a href="https://www.youtube.com/watch?v=qN2gryZYz6g">35 minutes of footage</a>, newly found in the archives, of alpha and archive footage from the later Sage-engine based&nbsp;<em>Generals</em> and <em>Renegade</em> games.</p>
+<figure><p><iframe allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/qN2gryZYz6g?start=0&amp;wmode=transparent"></iframe></p><div>
+    
+    <p>
+      Archival footage from alpha versions of <em>Command &amp; Conquer: Generals </em>and <em>Renegade</em>, released by EA as part of their source code release.
+
+          </p>
+  </div>
+</figure>
+<p>It's heartening to see that with the right combination of people and purpose, classic games can find renewed interest and longevity inside a big publisher.</p>
+
 
           
-                      
                   </div></div>]]></content:encoded>
         </item>
     </channel>
