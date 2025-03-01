@@ -4,37 +4,268 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Fri, 28 Feb 2025 19:34:47 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 01 Mar 2025 12:45:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Salty game dev comments, easier mods are inside Command & Conquer’s source code]]></title>
-            <link>https://arstechnica.com/gaming/2025/02/command-conquer-source-release-promises-more-mods-and-updates-for-rts-legend/</link>
-            <guid>https://www.resetera.com/threads/salty-game-dev-comments-easier-mods-are-inside-command-conquer%E2%80%99s-source-code.1122120/</guid>
-            <content:encoded><![CDATA[https://arstechnica.com/gaming/2025/02/command-conquer-source-release-promises-more-mods-and-updates-for-rts-legend/<br/><br/><div id="readability-page-1" class="page"><div>
-          
-          
-<p>Inside the source code are some wonderful reminders of what Windows game development from 1995 to 2003 was really like. One experienced modder <a href="https://bsky.app/profile/rwtema.bsky.social/post/3lj73vvrhr226">posted some gems on Bluesky</a>, like a "HACK ALERT!" text string added just to prevent the Watcom IDE from crashing because of a "magic text heap length" crash: "Who knows why, but it works," wrote that poor soul.</p>
-<p>This writer's personal favorite is this little bit in <a href="https://github.com/electronicarts/CnC_Generals_Zero_Hour/blob/main/Generals/Code/Tools/WorldBuilder/src/RampOptions.cpp">the RampOptions.cpp file</a> in <em>Generals</em>, credited to John K. McDonald Jr., which expresses concerns about "TheRampOptions" existing with a set value:</p>
-<p><code>if (TheRampOptions) {</code><br>
-<code>// oh shit.</code><br>
-<code>return;</code><br>
-<code>}</code></p>
-<p>In addition to helping out modders and entertaining experienced coders, the GPL-licensed source code releases do a lot to help preserve these games, such that they can be reworked to run on future platforms. Projects like <a href="https://www.openra.net/">OpenRA</a> and <a href="https://opensage.github.io/">OpenSAGE</a> already offer open source reimplementations of those games' code, but having the original source can only help. <em>C&amp;C </em>community stalwart Luke "CCHyper" Feenan worked with EA leaders to get the code back into a build-ready state and said in a press release that the updated code should make the classic games easier to patch in the future.</p>
-<p>As part of the source code release, the&nbsp;<em>Command &amp; Conquer</em> team dropped off <a href="https://www.youtube.com/watch?v=qN2gryZYz6g">35 minutes of footage</a>, newly found in the archives, of alpha and archive footage from the later Sage-engine based&nbsp;<em>Generals</em> and <em>Renegade</em> games.</p>
-<figure><p><iframe allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/qN2gryZYz6g?start=0&amp;wmode=transparent"></iframe></p><div>
+            <title><![CDATA[Half-Life 3 is just the hot exclusive Valve needs to propel SteamOS past Windows]]></title>
+            <link>https://arstechnica.com/gaming/2025/03/why-valve-should-make-half-life-3-a-steamos-exclusive/</link>
+            <guid>https://www.resetera.com/threads/half-life-3-is-just-the-hot-exclusive-valve-needs-to-propel-steamos-past-windows.1122696/</guid>
+            <content:encoded><![CDATA[https://arstechnica.com/gaming/2025/03/why-valve-should-make-half-life-3-a-steamos-exclusive/<br/><br/><div id="readability-page-1" class="page"><div id="main">
+            <article data-id="2079147">
+  
+  <header>
+  <div>
+    <div>
+      <div>
+        <p><span>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><defs><clipPath id="section-gaming_svg__a"><path fill="none" d="M0 0h40v40H0z"></path></clipPath><clipPath id="section-gaming_svg__b"><path fill="none" d="M0 0h40v40H0z"></path></clipPath></defs><g clip-path="url(#section-gaming_svg__a)"><g fill="none" clip-path="url(#section-gaming_svg__b)"><path fill="currentColor" d="M30.7 39.7c-.7-1.1-1.7-1.8-2.5-2.8-.9-1.2 0-2 .8-3 .6-.9 1-1.9.8-3-.6-2.7-3.4-3.3-5.8-3.6-.7-.1-1.8-.2-2.3-.7s-.5-1.4-.5-2.1v-.4l15.5-3.6c2.3-.5 3.7-2.8 3.2-5.1l-2.8-12C36.6 1.1 34.3-.3 32 .2L3.3 6.8C1 7.4-.4 9.7.1 12l2.8 12c.5 2.3 2.8 3.7 5.1 3.2l11.1-2.6c0 1 .2 2.1.7 2.9 1.7 2.7 6 .8 7.6 3.3.8 1.2-.5 2.3-1.1 3.3-.6.9-.9 2-.4 3 .4 1.1 1.4 1.8 2.2 2.6 0 .1.2.2.3.3h2.4c0-.1-.1-.2-.2-.3m.7-28.7c1.3-.3 2.7.5 3 1.9.3 1.3-.5 2.7-1.9 3-1.3.3-2.7-.5-3-1.9-.3-1.3.5-2.7 1.9-3m-6-3.7c1.3-.3 2.7.5 3 1.9.3 1.3-.5 2.7-1.9 3-1.3.3-2.7-.5-3-1.9-.3-1.3.5-2.7 1.9-3m-9.9 13.2-2.7.6-1-4.1-4.1 1-.6-2.7 4.1-1-1-4.1 2.7-.6 1 4.1 4.1-1 .6 2.7-4.1 1z"></path></g></g></svg>
+  </span>
+  <span>
+    The ultimate system seller
+  </span>
+</p>
+      </div>
+
+      
+
+      <p>
+        Opinion: Just as <em>Half-Life 2</em> helped launch Steam, a sequel could help establish non-Windows PC gaming.
+      </p>
+
+      
+    </div>
+
+    <div>
     
     <p>
-      Archival footage from alpha versions of <em>Command &amp; Conquer: Generals </em>and <em>Renegade</em>, released by EA as part of their source code release.
+      We found this logo hidden deep in an abandoned steel forge,
 
+              <span>
+          Credit:
+
+          
+          Aurich Lawson | Steam
+
+                  </span>
           </p>
   </div>
-</figure>
-<p>It's heartening to see that with the right combination of people and purpose, classic games can find renewed interest and longevity inside a big publisher.</p>
+  </div>
+</header>
+
+
+  
+
+  
+      
+    
+    <div>
+                      
+                      
+          
+<p>A little over 20 years ago, Valve was <a href="https://arstechnica.com/gaming/2024/11/how-valve-made-half-life-2-and-set-a-new-standard-for-future-games/">getting ready to release a new <em>Half-Life</em> game</a>. At the same time, the company <a href="https://www.bluesnews.com/a/337/valve-unveils-steam-at-2002-game-developer-s-conference">was trying to push Steam</a> as a new option for players to download and update games over the Internet.</p>
+<p>Requiring Steam in order to play <em>Half-Life 2</em> led to <a href="https://arstechnica.com/gaming/2024/11/how-half-life-2-helped-sell-steam-to-a-skeptical-pc-gaming-market/">plenty of grumbling from players</a> in 2004. But the high-profile Steam exclusive helped build an instant user base for Valve's fresh distribution system, setting it on a path to eventually become the unquestioned leader in the space. The link between the new game and the new platform helped promote a bold alternative to the retail game sales and distribution systems that had dominated PC gaming for decades.</p>
+<figure>
+    <div id="caption-2079185"><p>
+              Remember DVD-ROMs?
+                              </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      Remember DVD-ROMs?
+
+              <span>
+          Credit:
+
+                      <a href="https://www.reddit.com/r/HalfLife/comments/x3izty/installing_half_life_2_the_way_gabe_intended_in/" target="_blank">
+          
+          Reddit
+
+                      </a>
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>Today, all indications suggest that <a href="https://arstechnica.com/gaming/2025/02/fresh-leaks-suggest-half-life-3-development-may-be-nearing-completion/">Valve is getting ready to release a new Half-Life game</a>. At the same time, the company <a href="https://arstechnica.com/gaming/2025/01/bye-bye-windows-gaming-steamos-officially-expands-past-the-steam-deck/">is getting ready to push SteamOS</a> as a new option for <a href="https://arstechnica.com/gaming/2024/12/the-return-of-steam-machines-valve-rolls-out-new-powered-by-steamos-branding/">third-party hardware makers</a> and individual users to "download and test themselves."</p>
+<p>Requiring SteamOS to play <em>Half-Life 3</em> would definitely lead to a lot of grumbling from players. But the high-profile exclusive could help build an instant user base for Valve's fresh operating system, perhaps setting it on the path to become the unquestioned leader in the space. A link between the new game and the new platform could help promote a bold alternative to the Windows-based systems that have dominated PC gaming for decades.</p>
+<h2>Not another Steam Machine</h2>
+<p>Getting players to change the established platform they use to buy and play games (either in terms of hardware or software) usually requires some sort of instantly apparent benefit for the player. Those benefits can range from the tangible (e.g., an improved controller, better graphics performance) to the ancillary (e.g., social features, achievements) to the downright weird (e.g., a second screen on a portable). Often, though, a core reason why players switch platforms is for access to exclusive "system seller" games that aren't available any other way.</p>
+
+          
+                      
+                  </div>
+                    
+        
+          
+    
+    <div>
+          
+          
+<p><em>Half-Life 2</em>'s role in popularizing early Steam shows just how much a highly anticipated exclusive can convince otherwise reluctant players to invest time and effort in a new platform. To see what can happen without such an exclusive, we only need to look to Valve's 2015 <a href="https://arstechnica.com/gaming/2015/06/first-steam-machines-steam-link-controller-hit-stores-november-10/">launch of the Steam Machine hardware line</a>, powered by <a href="https://arstechnica.com/gaming/2013/09/valve-announces-linux-based-steamos-as-basis-for-living-room-gaming/">the first version of the Linux-based SteamOS</a>.</p>
+<figure>
+    <div id="caption-2079182"><p>
+              Valve offered players very little in the way of affirmative reasons to switch to a SteamOS-powered Steam Machine in 2015.
+                              </p><p>
+                  Credit:
+                                      Alienware
+                                  </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      Valve offered players very little in the way of affirmative reasons to switch to a SteamOS-powered Steam Machine in 2015.
+
+              <span>
+          Credit:
+
+          
+          Alienware
+
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>At the time, Valve was selling SteamOS mainly as an alternative to a new Windows 8 environment <a href="https://arstechnica.com/gaming/2012/07/steams-newell-windows-8-catastrophe-driving-valve-to-embrace-linux/">that Valve co-founder Gabe Newell saw as a "catastrophe" in the making</a> for the PC gaming world. Newell described SteamOS as a "hedging strategy" against Microsoft's potential ability to force all Windows 8 app distribution through the Windows Store, a la Apple's total control of iPhone app distribution.</p>
+<p>When Microsoft failed to impose that kind of hegemonic control over Windows apps and games, Valve was left with little else to convince players that it was worth buying a Windows-free Steam Machine (or going through <a href="https://arstechnica.com/gaming/2013/12/everything-you-need-to-know-to-install-steamos-on-your-very-own-computer/">the onerous process of installing the original SteamOS</a> on their gaming rigs). Sure, using SteamOS meant saving a few bucks on a Windows license. But it also meant being stuck with <a href="http://arstechnica.com/gaming/2015/02/the-state-of-linux-gaming-in-the-steamos-era/">an extremely limited library of Linux ports</a> (especially when it came to releases from major publishers) and <a href="http://arstechnica.com/gaming/2015/11/ars-benchmarks-show-significant-performance-hit-for-steamos-gaming/">poor technical performance compared to Windows</a> even when those ports were available.</p>
+<p>Given those obvious downsides—and the lack of any obvious upsides—it's no wonder that users <a href="https://arstechnica.com/gaming/2016/06/its-time-to-declare-valves-steam-machines-doa/">overwhelmingly ignored SteamOS and Steam Machines</a> at the time. But <a href="https://arstechnica.com/gaming/2013/09/analysis-can-steamos-drag-the-pc-game-industry-over-to-linux/">as we argued way back in 2013</a>, a major exclusive on the scale of&nbsp;<em>Half-Life 3</em> could have convinced a lot of gamers to overlook at least some of those downsides and give the new platform a chance.</p>
+
+          
+                  </div>
+                    
+        
+          
+    
+    <div>
+          
+          
+
+<h2>A little push</h2>
+<p>Fast forward to today, and the modern version of SteamOS is in a much better place than the Steam Machine-era version ever was. That's thanks in large part to Valve's <a href="https://arstechnica.com/gaming/2023/04/proton-update-gets-18-more-windows-games-running-on-linux-including-chex-quest-hd/">consistent work</a> on the <a href="https://arstechnica.com/gaming/2018/08/valves-steam-play-uses-vulkan-to-bring-more-windows-games-to-linux/">Proton compatibility layer</a>, which lets the Linux-based SteamOS run almost any game that's designed for Windows (with <a href="https://arstechnica.com/gaming/2022/03/why-the-steam-deck-might-be-too-open-for-fortnite-and-destiny-2/">only a few major exceptions</a>). That wide compatibility has been <a href="https://arstechnica.com/gaming/2021/07/valve-promises-steam-deck-will-run-the-entire-steam-library-at-30-fps/">a huge boon for the Steam Deck</a>, which offered many players easy handheld access to vast swathes of PC gaming for the first time. The Steam Deck also showed off SteamOS's major user interface and user experience benefits over <a href="https://arstechnica.com/gaming/2023/04/i-for-one-welcome-our-new-steam-deck-killing-windows-running-overlords/">clunkier Windows-based gaming portables</a>.</p>
+<figure>
+    <div id="caption-1983701"><p>
+              The Steam Deck served as an excellent proof of concept for the viability of SteamOS hardware with the gaming masses.
+                              </p><p>
+                  Credit:
+                                      Kyle Orland
+                                  </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      The Steam Deck served as an excellent proof of concept for the viability of SteamOS hardware with the gaming masses.
+
+              <span>
+          Credit:
+
+          
+          Kyle Orland
+
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>Still, the benefits of switching from Windows to SteamOS might seem a bit amorphous to many players today. If Valve is really interested in pushing its OS as an alternative to Windows gaming, a big exclusive game is just the thing to convince a critical mass of players to make the leap. And when it comes to massive PC gaming exclusives, it doesn't get much bigger than <a href="https://arstechnica.com/gaming/2016/05/celebrating-ten-years-of-half-life-2-episode-3-not-coming-out/">the long, long-awaited <em>Half-Life 3</em></a>.</p>
+<p>We know it might sound ludicrous to suggest that Valve's biggest game in years should ignore the Windows platform that's been used by practically every PC gamer for decades. Keep in mind, though, that there would be nothing stopping existing Windows gamers from downloading and installing a free copy of the Linux-based SteamOS (likely on a separate drive or partition) to get access to <em>Half-Life 3</em>.</p>
+<p>Yes, installing a new operating system (especially one based on Linux) is not exactly a plug-and-play process. But Valve has a long history of streamlining game downloads, updates, and driver installations through Steam itself. If anyone can make the process of setting up a new OS relatively seamless, it's Valve.</p>
+
+          
+                  </div>
+                    
+        
+          
+    
+    <div>
+
+        
+        <div>
+          
+          
+<p>And let's not forget that millions of gamers already have easy access to SteamOS through Steam Deck hardware. Those aging Steam Decks might not be powerful enough to run a game like <em>Half-Life 3</em> at maximum graphics settings, but Valve games have a history of <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1601540333">scaling down well</a> on <a href="https://www.youtube.com/watch?v=li4s-RUCzQs">low-end systems</a>.</p>
+<p>Valve's <a href="https://arstechnica.com/gaming/2024/12/the-return-of-steam-machines-valve-rolls-out-new-powered-by-steamos-branding/">leaked "Powered by SteamOS" initiative</a> also seems poised to let third-party hardware makers jump in with more powerful (and more <em>Half-Life 3-</em>capable) desktops, laptops, and handhelds with SteamOS pre-installed. And that's before we even consider the potential impact of a more powerful "Steam Deck 2," which Valve's Pierre-Loup&nbsp; Griffais <a href="https://arstechnica.com/gaming/2023/10/valves-leaked-steam-deck-model-1030-probably-isnt-a-full-version-2-0/">said in 2023</a> could potentially come in "the next couple of years."</p>
+<h2>Time for a bold move</h2>
+<p>Tying a major game like&nbsp;<em>Half-Life 3</em> to a completely new and largely untested operating system would surely lead to some deafening pushback from gamers happy with the Windows-based status quo. An exclusive release could also be risky if SteamOS ends up showing some technical problems as it tries to grow past its Steam Deck roots (Linux <a href="https://www.howtogeek.com/problems-youll-likely-run-into-gaming-on-linux/">doesn't exactly have the best track record</a> when it comes to things like game driver compatibility across different hardware).</p>
+<figure>
+    <div id="caption-2069639"><p>
+              The Lenovo Legion Go S will be the first non-Valve hardware to be officially "Powered by SteamOS." A Windows-sporting version will be more expensive
+                              </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      The Lenovo Legion Go S will be the first non-Valve hardware to be officially "Powered by SteamOS." A Windows-sporting version will be more expensive
+
+              <span>
+          Credit:
+
+                      <a href="https://news.lenovo.com/pressroom/press-releases/lenovo-legion-unleashes-next-gen-gaming-power-at-ces-2025/" target="_blank">
+          
+          Lenovo
+
+                      </a>
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>Despite all that, we're pretty confident that the vast majority of players interested in <em>Half-Life 3</em> would jump through a few OS-related hoops to get access to the game. And many of those players would likely stick with Valve's gaming-optimized OS going forward rather than spending money on another Windows license.</p>
+<p>Even a timed exclusivity window for <em>Half-Life 3 </em>on SteamOS could push a lot of early adopters to see what all the fuss is about without excluding those who refuse to switch away from Windows. Failing even that, maybe a non-exclusive <em>Half-Life 3</em> could be included as a pre-installed freebie with future versions of SteamOS, as an incentive for the curious to try out a new operating system.</p>
+<p>With the coming wide release of SteamOS, Valve has a rare opportunity to upend the PC gaming OS dominance that Microsoft <a href="https://arstechnica.com/gaming/2023/02/how-bill-gates-minesweeper-addiction-helped-lead-to-the-xbox/">more or less stumbled into decades ago</a>. A game like <em>Half-Life 3</em> could be just the carrot needed to get PC gaming as a whole over its longstanding Windows dependence.</p>
 
 
           
-                  </div></div>]]></content:encoded>
+                  </div>
+
+                  
+          
+
+
+
+
+
+
+  <div>
+    
+
+    <p>
+      Kyle Orland has been the Senior Gaming Editor at Ars Technica since 2012, writing primarily about the business, tech, and culture behind video games. He has journalism and computer science degrees from University of Maryland. He once <a href="https://bossfightbooks.com/collections/books/products/minesweeper-by-kyle-orland">wrote a whole book about <em>Minesweeper</em></a>.
+    </p>
+  </div>
+
+
+  <p>
+    <a href="https://arstechnica.com/gaming/2025/03/why-valve-should-make-half-life-3-a-steamos-exclusive/#comments" title="12 comments">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><defs><clipPath id="bubble-zero_svg__a"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath><clipPath id="bubble-zero_svg__b"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath></defs><g clip-path="url(#bubble-zero_svg__a)"><g fill="currentColor" clip-path="url(#bubble-zero_svg__b)"><path d="M80 40c0 22.09-17.91 40-40 40S0 62.09 0 40 17.91 0 40 0s40 17.91 40 40"></path><path d="M40 40 .59 76.58C-.67 77.84.22 80 2.01 80H40z"></path></g></g></svg>
+    12 Comments
+  </a>
+      </p>
+              </div>
+  </article>
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+
+  </div></div>]]></content:encoded>
         </item>
     </channel>
 </rss>
