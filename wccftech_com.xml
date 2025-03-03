@@ -4,7 +4,7 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Sun, 02 Mar 2025 23:55:56 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 03 Mar 2025 00:33:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -50,45 +50,6 @@
 <p><em>What most players are never going to get used to is performance, at least on PC. Just as the system requirements and the benchmark tool suggested, performance is really all over the place, reaching an acceptable level of smoothness only with Frame Generation. [...] In the heat of the hunt, I did not notice the frame rate drops too often, but watching the recording, in reality, it was very choppy instead. So, if you don't have a top-of-the-line machine, you may have to drop most settings and resolution to hit 60 FPS, which is the bare minimum for a game like this. Following the game and Dragon's Dogma 2, it's quite clear how the RE Engine may not have all it takes to handle open-world experiences properly.</em></p>
 <p>Both areas can definitely be worked on post-launch by the developers, which could lead to a drastic increase in the game's average user score on Steam. However, if Dragon's Dogma 2 is any indication, that game's equally poor performance did not significantly improve post-release. It seems like the developers may still have work to be done at an engine level to make sure the RE Engine runs well in open world games like Monster Hunter Wilds.</p>
 <p>In the meantime, you can try user-made mods and see if they make a positive difference to your gameplay experience. For instance, Nexus user Darex2094 <a href="https://www.nexusmods.com/monsterhunterwilds/mods/127" target="_blank" rel="noopener">found improvements</a> in the game's stuttering by replacing the Direct Storage.dll file with the latest version.</p>
-
-			
-		</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[New Kingdom Come Deliverance 2 Mod Greatly Improves Global Illumination]]></title>
-            <link>https://wccftech.com/new-kingdom-come-deliverance-2-mod-greatly-improves-global-illumination/</link>
-            <guid>https://www.resetera.com/threads/new-kingdom-come-deliverance-2-mod-greatly-improves-global-illumination.1122936/</guid>
-            <content:encoded><![CDATA[https://wccftech.com/new-kingdom-come-deliverance-2-mod-greatly-improves-global-illumination/<br/><br/><div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			<p>Warhorse has <a href="https://wccftech.com/kingdom-come-deliverance-2-will-get-official-mod-support-soon/" target="_blank" rel="noopener">promised</a> official mod support&nbsp;<span>for Kingdom Come Deliverance 2 soon, but in the meantime, modders continue to find ways to improve the highly successful first-person open world role-playing game that just celebrated selling</span>&nbsp;two million units in the first two weeks.</p>
-<p>Nexus user nimbul recently <a href="https://www.nexusmods.com/kingdomcomedeliverance2/mods/927" target="_blank" rel="noopener">released</a> a utility mod that loads configuration (CFG) variables correctly even after level loading. Without it, the game reverts to default variables. Thanks to this mod, Nexus user vktrfly worked on those variables to improve the global illumination quality in Kingdom Come Deliverance 2 <a href="https://www.nexusmods.com/kingdomcomedeliverance2/mods/942" target="_blank" rel="noopener">with great results</a>, as you can see in the screenshots and the footage below.</p>
-
-<figure></figure>
-
-
-<figure></figure>
-
-
-<figure></figure>
-
-
-<figure></figure>
-
-<p>According to the modder, the following two variables can be used to further enhance indirect lighting:</p>
-<ul>
-<li>e_svoTI_DiffuseConeWidth = 4 ; Reduces light leak, default is 8</li>
-<li>e_svoTI_NumberOfBounces = 2 ; Medium performance impact. Default is 2 at Ultra and above</li>
-</ul>
-<p>The latter can go up to 3 but will have a greater performance impact and may not be worth it, according to the author. Still, the game <a href="https://wccftech.com/kingdom-come-deliverance-ii-polished-impeccable-smoothness/" target="_blank" rel="noopener">is extremely well optimized</a>, so users with the latest GeForce RTX 50 graphics cards may be tempted to try it - especially if they are subscribed to PureDark's Patreon and can, therefore, access his DLSS Multi Frame Generation mod for Kingdom Come Deliverance 2.</p>
-<p><iframe title="[8K60] Kingdom Come Deliverance 2 - RTX5090 nearly REALLIFE GRAPHICS - third Person Gaming ASMR" width="500" height="281" src="https://www.youtube.com/embed/4sb84_c3iKE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
-<p>There is a downside, however: this global illumination mod cannot be used in conjunction with the previously covered <a href="https://wccftech.com/kingdom-come-deliverance-ii-async-compute-mod-performance-boost/" target="_blank" rel="noopener">Async Compute mod</a>. The author wrote:</p>
-<p><em>If you encounter strobing, flickering, or pulsing lighting effects, they are not caused by this mod. Make sure you are not using AsyncCompute Enabler and e_svoTI_AsyncCompute = 1 is not in your user.cfg. AsyncCompute causes issues with global illumination, and Enhanced GI makes those issues extremely apparent.</em></p>
-<p>Warhorse is currently preparing <a href="https://wccftech.com/kingdom-come-deliverance-ii-gets-2025-post-launch-roadmap/" target="_blank" rel="noopener">the game's first free content update</a>. Scheduled to launch in Spring, it will add barbers to change Henry's look, horse racing, and a proper Hardcore mode. Later this year, three premium DLCs will also be released.</p>
 
 			
 		</div></div>]]></content:encoded>
