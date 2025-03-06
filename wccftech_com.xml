@@ -4,9 +4,34 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Thu, 06 Mar 2025 15:07:16 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 06 Mar 2025 15:20:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Rise of the Ronin Is Yet Another Disappointing PC Port from KOEI TECMO]]></title>
+            <link>https://wccftech.com/rise-of-the-ronin-is-yet-another-disappointing-pc-port-from-koei-tecmo/</link>
+            <guid>https://www.resetera.com/threads/rise-of-the-ronin-is-yet-another-disappointing-pc-port-from-koei-tecmo.1126887/</guid>
+            <content:encoded><![CDATA[https://wccftech.com/rise-of-the-ronin-is-yet-another-disappointing-pc-port-from-koei-tecmo/<br/><br/><div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>In just five days, KOEI TECMO will publish Rise of the Ronin on PC. The action roleplaying game was originally launched nearly a year ago as a PlayStation 5 exclusive, published by Sony itself on the console. That's nearly the same amount of time that passed between the PlayStation and PC launches of Nioh, which evidently featured a similar timed exclusivity deal.</p>
+<p>Rise of the Ronin clearly has a lot in common with Nioh, although it goes for a different type of experience, more akin to something like Ubisoft's Assassin's Creed. For a full review of the game, check out <a href="https://wccftech.com/review/rise-of-the-ronin-neo-edo-open-world/" target="_blank" rel="noopener">Kai's original article</a>. Here, I'll focus on the technical aspects of the upcoming PC version.</p>
+<p>Developer Team Ninja once again used KOEI TECMO's proprietary Katana Engine, a technology already seen in previous games like <a href="https://wccftech.com/review/dynasty-warriors-9-east-west-open-world/" target="_blank" rel="noopener">Dynasty Warriors 9</a>, <a href="https://wccftech.com/review/wild-hearts-hanging-celestial-thread/" target="_blank" rel="noopener">Wild Hearts</a>, and <a href="https://wccftech.com/review/wo-long-fallen-dynasty-shadows-dont-die-twice/" target="_blank" rel="noopener">Wo Long: Fallen Dynasty</a>. All these games had something in common: huge technical issues. Unfortunately, Rise of the Ronin is no exception. Even on a top-of-the-line PC configuration, the game struggles to provide smooth frame rates, to say nothing of the mediocre visual quality.</p>
+<p>On the surface, the developer does offer support for modern features like support for the DualSense controller's Adaptive Triggers, High Dynamic Range mode for HDR displays, NVIDIA Deep Learning Super Resolution (DLSS) or Deep Learning Anti Aliasing (DLAA), AMD FidelityFX Super Resolution (FSR) 3, Intel XeSS, NVIDIA and AMD Frame Generation, and even ray tracing, though only for the reflections. There are also several graphics settings that can be used to customize the experience, including the ability to turn off annoying filters like vignette and chromatic aberration, which is appreciated. The frame rate can only go up to 120 frames per second (60 in the cutscenes), which is a shame, although Grand Theft Auto V Enhanced is guilty of the same - and modders will likely remove this limit shortly.</p>
+<figure><figcaption>Custom Benchmark While Roaming in Yokohama</figcaption></figure>
+<p>What's really disappointing is the performance. On a rig equipped with the AMD Ryzen 7 9800X3D and the NVIDIA GeForce RTX 5090, a game like Rise of the Ronin should run fast and smooth, but that's not the case at all. Simply roaming around the city of Yokohama averages just 64 frames per second at 4K resolution with every setting maxed out and NVIDIA's DLAA plus Frame Generation enabled. Worse, it feels quite stuttery, too. According to FLAT (Frame Latency Analytics Tool), over 14% of the frame time during the benchmark was spent under stuttering conditions.</p>
+<p>This is easily the worst performance I've seen since I set up this PC, and it's not like it comes with some sort of visual spectacle, either. Sure, Rise of the Ronin looks better than KOEI TECMO's previous titles and also has a larger explorable world, but that's not saying much. Even with DLAA turned on, shimmering and aliasing are still noticeable, an issue that I spotted in Nioh and Wo Long, too. Moreover, several assets are evidently in very low resolution despite the game taking up 151.6 GB of your drive's space after the installation.</p>
+<p><iframe title="Rise of the Ronin PC 4K Maxed (DLAA/RT) Gameplay on RTX 5090, 9800X3D" width="500" height="281" src="https://www.youtube.com/embed/pc8m6wVFr9I?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+<p>I wouldn't at all be surprised to see the game launch to very mixed user reviews on Steam, with technical complaints sure to be cited in the comments. It's a shame because the game itself is interesting enough, but from a technical standpoint, Assassin's Creed Shadows looks set to slaughter it. Usually, I would tell you to wait for the developer to improve the game's performance through patches, but KOEI TECMO doesn't exactly have a great track record of doing that. Of course, I'd be happy to see that trend change. On GeForce RTX 50 GPUs, it would definitely help if NVIDIA whitelisted the game to take advantage of the NVIDIA Override capability to use the latest DLSS transformer model and possibly Multi Frame Generation.</p>
+<p>However, that would just brute force through the game's worst issues. Judging from the repeated technical disappointments offered by the studio's latest games, I would recommend they switch to Unreal Engine as they did for the <a href="https://wccftech.com/review/ninja-gaiden-2-black-the-edge-of-the-dragon-sword/" target="_blank" rel="noopener">Ninja Gaiden 2 Black</a> remaster. Granted, Epic's game-making technology is not without its problems, but it's certainly far more advanced than what they have.</p>
+
+			
+		</div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[GeForce NOW Adds Monster Hunter Wilds, FragPunk, and Split Fiction]]></title>
             <link>https://wccftech.com/geforce-now-adds-monster-hunter-wilds-fragpunk-and-split-fiction/</link>
@@ -69,25 +94,6 @@
 <p>A few hours ago, modder Praydog released a new version of the REFramework mod, which significantly reduces the micro-stuttering issues caused by the game's anti-tamper tech by preventing constant scanning. The mod also addresses some crashing issues caused by DRM as well. You can find this new version of the mod on <a href="https://www.nexusmods.com/monsterhunterwilds/mods/93?tab=files" target="_blank" rel="noopener">Nexus Mods</a>, but if you're having issues with it like other users are reporting, you can use any of the previous nightly builds available on <a href="https://github.com/praydog/REFramework-nightly/releases" target="_blank" rel="noopener">GitHub</a> that seem to be more stable as of now.</p>
 <p>Performance issues aren't the only issues that impact the Monster Hunter Wilds experience, as the low challenge level for the story and a good portion of the postgame High Rank can be a little offputting for those who mastered previous generation games like <a href="https://wccftech.com/review/monster-hunter-world-iceborne-ps4-review-experienced-hunters-only/">Monster Hunter World</a> and <a href="https://wccftech.com/review/monster-hunter-rise-sunbreak-the-flame-of-kamura-burns-ever-hotter/">Monster Hunter Rise</a>. Thankfully, some mods are already available to address the low challenge level of the game, allowing hunters to<a href="https://wccftech.com/monster-hunter-wilds-new-mods-address-biggest-issues/"> increase both monsters' health and attack power.</a></p>
 <p>The above issues aside, Monster Hunter Wilds is undoubtedly among the finest entries in the series. You can learn more about the game, now out on PC, PlayStation 5, Xbox Series X, and Xbox Series S, by checking out my <a href="https://wccftech.com/review/monster-hunter-wilds-peak-hunting/">review.</a></p>
-
-			
-		</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Final Fantasy VII Rebirth PC 1.03 Patch Is Now Live; Addresses An AMD GPUs Issue and More]]></title>
-            <link>https://wccftech.com/final-fantasy-vii-rebirth-pc-1-0-3-patch/</link>
-            <guid>https://www.resetera.com/threads/final-fantasy-vii-rebirth-pc-1-03-patch-is-now-live-addresses-an-amd-gpus-issue-and-more.1126716/</guid>
-            <content:encoded><![CDATA[https://wccftech.com/final-fantasy-vii-rebirth-pc-1-0-3-patch/<br/><br/><div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			<p>A new Final Fantasy VII Rebirth patch is now live on PC, introducing a fix for an AMD Radeon GPUs-specific issue and some improvements.</p>
-<p>The 1.00.3 patch, which is around 18.3 GB big for the Steam version of the game, introduces game stability improvements, fixing several unspecified bugs. The new patch also fixes an issue that caused crashes while playing the game using certain AMD Radeon GPUs and reduces the package size when downloading on Steam Deck, which is a great improvement for those who have limited storage space on their systems. Unfortunately, this seems to be <a href="https://store.steampowered.com/news/app/2909400/view/527588008025654786?l=english" target="_blank" rel="noopener">everything the patch does</a>, so it's yet another minor patch that doesn't address the performance issue that many are experiencing.</p>
-<p>Considering how the main development team seems to have fully moved on to the development of the third and final part of the Final Fantasy VII Remake trilogy, it's not surprising to see Final Fantasy VII Rebirth not getting any new features. Thankfully, modders have come to the rescue once again, adding features not available in the vanilla game, such as a <a href="https://wccftech.com/final-fantasy-vii-rebirth-mod-cid-vincent-party/" target="_blank" rel="noopener">special menu</a> that allows quick editing of the combat party and even adding Vincent and Cid to the party, although the two characters are not playable.</p>
-<p>Final Fantasy VII Rebirth is now available on PC and PlayStation 5 worldwide. You can learn more about the game by checking out our<a href="https://wccftech.com/review/final-fantasy-vii-rebirth/"> review.</a></p>
 
 			
 		</div></div>]]></content:encoded>
