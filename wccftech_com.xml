@@ -4,9 +4,38 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Thu, 06 Mar 2025 17:31:12 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 06 Mar 2025 17:44:12 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Adaptive Frame Generation Is Lossless Scaling’s Latest Feature]]></title>
+            <link>https://wccftech.com/adaptive-frame-generation-is-lossless-scalings-latest-feature/</link>
+            <guid>https://www.resetera.com/threads/adaptive-frame-generation-is-lossless-scaling%E2%80%99s-latest-feature.1127175/</guid>
+            <content:encoded><![CDATA[https://wccftech.com/adaptive-frame-generation-is-lossless-scalings-latest-feature/<br/><br/><div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>The software Lossless Scaling was updated this week to support a new feature called Adaptive Frame Generation. As you may recall, Lossless Scaling <a href="https://wccftech.com/lossless-scaling-adds-universal-frame-generation-feature/" target="_blank" rel="noopener">made the news in early 2024</a> when it introduced a universal frame generation feature that worked practically on all GPU and PC games. The developer continued to improve the feature by adding more generated frames with <a href="https://wccftech.com/lossless-scaling-frame-generation-2-1-can-now-triple-your-frame-rate/" target="_blank" rel="noopener">X3</a> and <a href="https://wccftech.com/lossless-scaling-frame-generation-2-3-adds-x4-fg-mode-initial-nvidia-g-sync-support/" target="_blank" rel="noopener">X4 modes</a>, not to mention last month's 3.0 beta update that improved latency and reduced artifacts.</p>
+<p>Now, with beta version 3.1, Adaptive Frame Generation can be selected to dynamically adjust fractional multipliers to maintain a set frame rate picked by the user, regardless of the base game frame rate. According to the developer of Lossless Scaling, this provides a smoother frame rate than fixed multiplier mode. It is particularly beneficial for games that are hard or soft capped at framerates that aren't aligned as integer multiples of the screen refresh rate (e.g., 60 → 144, 165 Hz) or for uncapped games.</p>
+<p>There is a downside, however. Adaptive Frame Generation will generate most of the displayed frames, increasing GPU load and potentially slightly decreasing image quality compared to fixed multiplier frame generation. Latency is also very slightly increased, as seen in the comparison below.</p>
+
+<p>To support Adaptive Frame Generation, the capture engine of Lossless Scaling had to be tweaked significantly. The GDI capture mode is no longer supported, and WGC capture is no longer available before Windows 11 24H2 and will default to DXGI on earlier versions if selected.</p>
+<p>There is a 'New Queue Target' option that users will find, with the following recommendations provided by the developer:</p>
+<ul>
+<li>0 - Unbuffered capture, which always uses the last frame captured for the lowest latency. However, performance may suffer under high GPU load or with an uncapped base game frame rate.</li>
+<li>1 - (default) Buffered capture with a target frame queue of 1. Maintains low latency while better handling variations in capture performance.</li>
+<li>2 - Buffered capture with a target frame queue of 2. Best suited for scenarios with an uncapped or unstable base frame rate and high GPU load, but may introduce higher latency. It is also the recommended setting for frame generation multipliers below 2.</li>
+</ul>
+<p>Lastly, Lossless Scaling will disable frame generation when the base frame rate drops below 10 FPS. This prevents excessive artifacts during loading screens and reduces unnecessary GPU load when using AFG.</p>
+<p><iframe title="Lossless Scaling - Adaptive Frame Generation Update" width="500" height="281" src="https://www.youtube.com/embed/dB8sxLr4n3k?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+<p>According to the first user impressions, Adaptive Frame Generation offers better frame pacing compared to the fixed multiplier option. It'll never be quite as good as <a href="https://wccftech.com/nvidia-dlss-4-multi-frame-generation-support-75-games-apps-rtx-50-series/" target="_blank" rel="noopener">NVIDIA DLSS 4</a> or the new <a href="https://wccftech.com/amd-fsr-4-better-fsr3-dlss-cnn/" target="_blank" rel="noopener">AMD FSR 4</a>, but it's still impressive what the developer of Lossless Scaling has been capable of achieving without relying on any specific hardware technology.</p>
+
+			
+		</div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Assassin’s Creed Shadows Extended Ray Tracing Support Will Only Be Available On PlayStation 5 Pro; Display Modes Include 40 FPS Mode]]></title>
             <link>https://wccftech.com/assassins-creed-shadows-extended-ray-tracing-support-playstation-5-pro/</link>
