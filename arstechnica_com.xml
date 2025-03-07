@@ -4,40 +4,20 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Fri, 07 Mar 2025 11:06:51 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 07 Mar 2025 18:23:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[“Literally just a copy”—hit iOS game accused of unauthorized HTML5 code theft]]></title>
-            <link>https://arstechnica.com/gaming/2025/03/more-than-a-clone-this-viral-ios-game-allegedly-committed-wholesale-code-theft/</link>
-            <guid>https://www.resetera.com/threads/%E2%80%9Cliterally-just-a-copy%E2%80%9D%E2%80%94hit-ios-game-accused-of-unauthorized-html5-code-theft.1127676/</guid>
-            <content:encoded><![CDATA[https://arstechnica.com/gaming/2025/03/more-than-a-clone-this-viral-ios-game-allegedly-committed-wholesale-code-theft/<br/><br/><div id="readability-page-1" class="page"><div>
+            <title><![CDATA[AMD says top-tier Ryzen 9900X3D and 9950X3D CPUs arrive March 12 for $599 and $699]]></title>
+            <link>https://arstechnica.com/gadgets/2025/03/amd-says-top-tier-ryzen-9900x3d-and-9950x3d-cpus-arrive-march-12-for-599-and-699/</link>
+            <guid>https://www.resetera.com/threads/amd-says-top-tier-ryzen-9900x3d-and-9950x3d-cpus-arrive-march-12-for-599-and-699.1128414/</guid>
+            <content:encoded><![CDATA[https://arstechnica.com/gadgets/2025/03/amd-says-top-tier-ryzen-9900x3d-and-9950x3d-cpus-arrive-march-12-for-599-and-699/<br/><br/><div id="readability-page-1" class="page"><div>
           
           
-<h2>Viral success (for someone else)</h2>
-<p>VoltekPlay <a href="https://www.reddit.com/r/gamedev/comments/1j3zr6n/comment/mg4va8a/">writes on Reddit</a> that it was only alerted to the existence of <em>My Baby or Not!</em> on iOS by "a suspicious burst of traffic on our itch.io page—all coming from Google organic search." Only after adding a "where did you find our game?" player poll to the page were the developers made aware of some <a href="https://www.tiktok.com/@moonliteskye/video/7478018135375842568">popular TikTok videos</a> featuring the iOS version.</p>
-<p>"Luckily, some people in the [Tiktok] comments mentioned the real game name—<em>Diapers, Please!</em>—so a few thousand players were able to google their way to our page," VoltekPlay writes. "I can only imagine how many more ended up on the thief’s App Store page instead."</p>
-<p>Earlier this week, the $2.99 iOS release of <em>My Baby or Not!</em> was <a href="https://app.sensortower.com/overview/6742455066?country=US&amp;tab=category_rankings">quickly climbing iOS's paid games charts</a>, attracting an estimated 20,000 downloads overall, <a href="https://app.sensortower.com/publisher/ios/1758988688/?page=1&amp;page_size=25">according to Sensor Tower</a>.</p>
-<figure>
-    <div>
-            <p>
-              Marwane Benyssef's only previous iOS release, <em>Kiosk Food Night Shift</em>, also appears to be a direct copy of an itch.io release.
-                          </p>
-          </div>
-          <figcaption>
-        <div>
-    
-    <p>
-      Marwane Benyssef's only previous iOS release, <em>Kiosk Food Night Shift</em>, also appears to be a direct copy of an itch.io release.
+<p>Like the 7950X3D and 7900X3D, these new X3D chips combine a pair of AMD's CPU chiplets, one that has the extra 64MB of cache stacked underneath it and one that doesn't. For the 7950X3D, you get eight cores with extra cache and eight without; for the 7900X3D, you get eight cores with extra cache and four without.</p>
+<p>It's up to AMD's chipset software to decide what kinds of apps get to run on each kind of CPU core. Non-gaming workloads prioritize the normal CPU cores, which are generally capable of slightly higher peak clock speeds, while games that benefit disproportionately from the extra cache are run on those cores instead. AMD's software can "park" the non-V-Cache CPU cores when you're playing games to ensure they're not accidentally being run on less-suitable CPU cores.</p>
+<p>We didn't have issues with this core parking technology when we initially tested the 7950X3D and 7900X3D, and AMD has steadily made improvements since then to make sure that core parking is working properly. The new 9000-series X3D chips should benefit from that work, too. To get the best results, <a href="https://community.amd.com/t5/gaming/how-to-set-up-your-system-with-a-new-amd-ryzen-9-7950x3d-or/ba-p/589464">AMD officially recommends</a> a fresh and fully updated Windows install, along with the newest BIOS for your motherboard and the newest AMD chipset drivers; swapping out another Ryzen CPU for an X3D model (or vice versa) without reinstalling Windows can occasionally lead to CPUs being parked (or not parked) when they are supposed to be (or not supposed to be).</p>
 
-          </p>
-  </div>
-      </figcaption>
-      </figure>
-
-<p>The App Store listing credited <em>My Baby or Not!</em> to "Marwane Benyssef," a new iOS developer with no apparent history in the game development community. Benyssef's only other iOS game, <em>Kiosk Food Night Shift</em>, was released last August and appears to be a direct copy of <em>Kiosk</em>, a pay-what-you-want title that was <a href="https://vividev.itch.io/kiosk/">posted to itch.io last year</a> (with a <a href="https://store.steampowered.com/app/3126330/Kiosk/">subsequent "full" release on Steam</a> this year)</p>
-<p>In <a href="https://www.reddit.com/r/gamedev/comments/1j3zr6n/someone_stole_our_game_from_itchio_renamed_it_and/">a Reddit post</a>, the team at VoltekPlay said that they had filed a DMCA copyright claim against <em>My Baby or Not!</em> Apple subsequently shared that claim with Bennysof, VoltekPlay writes, along with a message that "Apple encourages the parties to a dispute to work directly with one another to resolve the claim."</p>
-<p>This morning, Ars reached out to Apple to request a comment on the situation. While awaiting a response (which Apple has yet to provide), Apple appears to have removed Benyssef's developer page and all traces of their games from the iOS App Store.</p>
 
           
                   </div></div>]]></content:encoded>
