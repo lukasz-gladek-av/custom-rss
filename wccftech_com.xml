@@ -4,9 +4,28 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Mon, 10 Mar 2025 17:31:27 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 10 Mar 2025 17:44:26 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Xbox Next Generation Plans Include Premium Successor to the Xbox Series X That Will Launch in 2027; Xbox-Branded Handheld System Is In The Works With ]]></title>
+            <link>https://wccftech.com/xbox-next-release-2027-premium-handheld/</link>
+            <guid>https://www.resetera.com/threads/xbox-next-generation-plans-include-premium-successor-to-the-xbox-series-x-that-will-launch-in-2027-xbox-branded-handheld-system-is-in-the-works-with.1130301/</guid>
+            <content:encoded><![CDATA[https://wccftech.com/xbox-next-release-2027-premium-handheld/<br/><br/><div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>Microsoft's Xbox next-generation plans include a premium successor to the Xbox Series X and a handheld that will reportedly launch in 2027.</p>
+<p>In a new report shared today on <a href="https://www.windowscentral.com/gaming/xbox/xbox-hardware-report-project-keenan-next-gen-xbox-2027">WindowsCentral</a>, it has been revealed that the internal successor to the Series X|S platform has been fully greenlit. As of now, Xbox next generation hardware plans include a premium successor to the Xbox Series X console that will launch in 2027, alongside a gaming handheld and multiple new controller options which will have direct-to-cloud connectivity and allow users to switch them between different devices. As previously rumored, next-generation consoles will be closer to PCs than ever before and will make it much easier for developers to port games from PC. Backward compatibility will also be available.</p>
+<p>While the handheld system that will be part of Xbox next generation plans is still two years away from release, we will get a first taste of a portable experience later this year with an Xbox-branded handheld codenamed Keenan that is in the works with a PC gaming OEM. This handheld, according to WindowsCentral's report, will look markedly Xbox with the typical guide button and design sensibilities, and will likely run full Windows with the Microsoft Store and PC Game Pass as one of its main focuses.</p>
+<p>Ever since Microsoft started releasing their former exclusives to other consoles, many have wondered if there are real Xbox next-generation plans. Judging from this report, it definitely looks like the company is not going to leave the hardware market anytime soon. If the new systems will indeed launch in 2027, it won't take long to see how they will deliver the largest technical leap <a href="https://wccftech.com/xbox-next-generation-largest-technical-leap-ever-seen/">teased</a> a while back.</p>
+
+			
+		</div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[AMD FSR 4 Will Be Used in PS5 Pro Games Next Year, Reveals Sony’s Mark Cerny]]></title>
             <link>https://wccftech.com/amd-fsr-4-will-be-used-in-ps5-pro-games-next-year-reveals-sonys-mark-cerny/</link>
@@ -44,7 +63,13 @@
 			<p>A new Control update has gone live today on PC, introducing a new ray tracing preset, official HDR support, NVIDIA DLSS updates, and more.</p>
 <p>The <a href="https://controlgame.com/control-march-2025-update-notes-pc/" target="_blank" rel="noopener">1.30 update</a> brings to all users content that was previously available only as a pre-order bonus, such as the Astral Dive Suit, the Tactical Response Gear, and the Urban Response Gear, as well as the Dr. Yoshimi Tokui's Guided Imagery Experience featuring voiceover by Hideo Kojima, which was only available as a PS4 Digital Deluxe Edition pre-order bonus.</p>
 <p>Besides making pre-order exclusive content available to all, the new Control March 2025 PC update introduces plenty of technical improvements, such as a new ultra ray tracing preset which gets the user more rays per pixel and higher temporal stability, ultrawide resolution support up to 48:9 aspect ratio, updated SDR to 10 bits to reduce visible color banding, support for resolutions higher than 4K and more. Additionally, the new update also updates NVIDIA DLSS to version 3.7 with higher temporal stability and adds DLAA and arbitrary resolutions support, among other things.</p>
-<p>The Control 1.30 update also finally brings official HDR support to the game, but <a href="https://www.resetera.com/threads/a-new-patch-for-remedys-control-just-dropped-adds-fake-hdr-despite-true-hdr-being-available-via-semi-official-mod.1129878/" target="_blank" rel="noopener">according to online reports</a>, it only caps the overall brightness value without adding additional highlight detail, so the<a href="https://wccftech.com/control-unofficial-hdr-ultrawide-patch-version-1-4-brings-hdr-and-dlss-improvements-and-more/" target="_blank" rel="noopener"> unofficial implementation</a> still continues to be the way to go for those with HDR monitors.</p>
+<p>The Control 1.30 update also finally brings official HDR support to the game, but <a href="https://www.resetera.com/threads/a-new-patch-for-remedys-control-just-dropped-adds-fake-hdr-despite-true-hdr-being-available-via-semi-official-mod.1129878/" target="_blank" rel="noopener">according to online reports</a>, it only caps the overall brightness value without adding additional highlight detail. Luckily, there's already a community <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3442062754" target="_blank" rel="noopener">workaround</a> to restore the glory of <a href="https://wccftech.com/control-unofficial-hdr-ultrawide-patch-version-1-4-brings-hdr-and-dlss-improvements-and-more/" target="_blank" rel="noopener">Filippo Tarpini's mod</a> just by opening the renderer.ini file and changing the presets according to the guide below:</p>
+<p><em>"m_eHDRPreset": 0,</em><br>
+<em>The default HDR mode out of the box after the update, seems to have 10-20% brighter highlights than SDR. Feels flat and lacking range, hovers around 250 nits average picture level or so on a 1000 nit display.</em></p>
+<p><em>"m_eHDRPreset": 1,</em><br>
+<em>Seems to be "Original Look" from the old HDR mod.</em></p>
+<p><em>"m_eHDRPreset": 2,</em><br>
+<em>Proper HDR, seems to be the default of the old HDR mod. Much greater range, massively improved. My personal favorite.</em></p>
 <p>Control is now available on PC, PlayStation 5, PlayStation 4, Xbox Series X, Xbox Series S, and Xbox One worldwide. <a href="https://wccftech.com/remedy-says-control-2-will-be-an-action-rpg-alan-wake-2-has-sold-1-8-million-units/">A sequel</a> is currently in the works, alongside a spin-off multiplayer game called FBC: Firebreak, which will launch<a href="https://wccftech.com/fbc-firebreak-multiplayer-game-set-in-the-control-world-revealed-with-new-trailer/"> later this year.</a></p>
 
 			
