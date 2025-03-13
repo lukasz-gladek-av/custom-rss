@@ -4,91 +4,336 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Wed, 12 Mar 2025 11:55:59 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 Mar 2025 13:45:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Leaked GeForce RTX 5060 and 5050 specs suggest Nvidia will keep playing it safe]]></title>
-            <link>https://arstechnica.com/gadgets/2025/03/leaked-geforce-rtx-5060-and-5050-specs-suggest-nvidia-will-keep-playing-it-safe/</link>
-            <guid>https://www.resetera.com/threads/leaked-geforce-rtx-5060-and-5050-specs-suggest-nvidia-will-keep-playing-it-safe.1131819/</guid>
-            <content:encoded><![CDATA[https://arstechnica.com/gadgets/2025/03/leaked-geforce-rtx-5060-and-5050-specs-suggest-nvidia-will-keep-playing-it-safe/<br/><br/><div id="readability-page-1" class="page"><div>
+            <title><![CDATA[Civilization VII, one month later: The community and developers chime in]]></title>
+            <link>https://arstechnica.com/gaming/2025/03/civilization-vii-one-month-later-the-community-and-developers-chime-in/</link>
+            <guid>https://www.resetera.com/threads/civilization-vii-one-month-later-the-community-and-developers-chime-in.1133265/</guid>
+            <content:encoded><![CDATA[https://arstechnica.com/gaming/2025/03/civilization-vii-one-month-later-the-community-and-developers-chime-in/<br/><br/><div id="readability-page-1" class="page"><div id="main">
+            <article data-id="2081829">
+  
+  <header>
+  <div>
+    <div>
+      
+
+      
+
+      <p>
+        Executive Producer Dennis Shirk talks with Ars about the state of the game.
+      </p>
+
+      
+    </div>
+
+    <div>
+    
+    <p><em>Civilization VII</em> has a lot of visual polish, and great gameplay systems. A flurry of patches have been improving other aspects, too.
+
+              <span>
+          Credit:
+
+          
+          2K Games
+
+                  </span>
+          </p>
+  </div>
+  </div>
+</header>
+
+
+  
+
+  
+      
+    
+    <div>
                       
                       
-          <p>Nvidia has launched all of the GeForce RTX 50-series GPUs that it announced at CES, at least technically—whether you're buying from Nvidia, AMD, or Intel, it's nearly impossible to find any of these new cards at their advertised prices right now.</p>
-<p>But hope springs eternal, and newly leaked specs for GeForce RTX 5060 and 5050-series cards suggest that Nvidia may be announcing these lower-end cards soon. These kinds of cards are rarely exciting, but Steam Hardware Survey data shows that <a href="https://arstechnica.com/gadgets/2023/06/geforce-rtx-4060-review-not-thrilling-but-a-super-efficient-299-workhorse/">these xx60</a> and xx50 cards are what the overwhelming majority of PC gamers are putting in their systems.</p>
-<p>The specs, <a href="https://x.com/kopite7kimi/status/1898951554322883046">posted</a> by a reliable leaker named Kopite and reported <a href="https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-5050-rtx-5060-and-rtx-5060-ti-specs-leak-expect-8gb-16gb-flavors-and-higher-tgps">by Tom's Hardware and others</a>, suggest a refresh that's in line with what Nvidia has done with most of the 50-series so far. Along with a move to the next-generation Blackwell architecture, the 5060 GPUs each come with a small increase to the number of CUDA cores, a jump from GDDR6 to GDDR7, and an increase in power consumption, but no changes to the amount of memory or the width of the memory bus. The 8GB versions, in particular, will probably continue to be marketed primarily as 1080p cards.</p>
-<div><table>
-<tbody>
-<tr>
-<th></th>
-<th>RTX 5060 Ti (leaked)</th>
-<th>RTX 4060 Ti</th>
-<th>RTX 5060 (leaked)</th>
-<th>RTX 4060</th>
-<th>RTX 5050 (leaked)</th>
-<th>RTX 3050</th>
-</tr>
-<tr>
-<th>CUDA Cores</th>
-<td>4,608</td>
-<td>4,352</td>
-<td>3,840</td>
-<td>3,072</td>
-<td>2,560</td>
-<td>2,560</td>
-</tr>
-<tr>
-<th>Boost Clock</th>
-<td>Unknown</td>
-<td>2,535 MHz</td>
-<td>Unknown</td>
-<td>2,460 MHz</td>
-<td>Unknown</td>
-<td>1,777 MHz</td>
-</tr>
-<tr>
-<th>Memory Bus Width</th>
-<td>128-bit</td>
-<td>128-bit</td>
-<td>128-bit</td>
-<td>128-bit</td>
-<td>128-bit</td>
-<td>128-bit</td>
-</tr>
-<tr>
-<th>Memory bandwidth</th>
-<td>Unknown</td>
-<td>288 GB/s</td>
-<td>Unknown</td>
-<td>272 GB/s</td>
-<td>Unknown</td>
-<td>224 GB/s</td>
-</tr>
-<tr>
-<th>Memory size</th>
-<td>8GB or 16GB GDDR7</td>
-<td>8GB or 16GB GDDR6</td>
-<td>8GB GDDR7</td>
-<td>8GB GDDR6</td>
-<td>8GB GDDR6</td>
-<td>8GB GDDR6</td>
-</tr>
-<tr>
-<th>TGP</th>
-<td>180 W</td>
-<td>160 W</td>
-<td>150 W</td>
-<td>115 W</td>
-<td>130 W</td>
-<td>130 W</td>
-</tr>
-</tbody>
-</table></div>
-<p>As with the 4060 Ti, the 5060 Ti is said to come in two versions, one with 8GB of RAM and one with 16GB. One of the 4060 Ti's problems was that its relatively narrow 128-bit memory bus limited its performance at 1440p and 4K resolutions even with 16GB of RAM—the bandwidth increase from GDDR7 could help with this, but we'll need to test to see for sure.</p>
+          
+<p>A month ago, <em>Civilization VII</em> launched to generally positive critical reviews, but <a href="https://www.reddit.com/r/civ/comments/1iolpfn/steam_reviews_eight_days_launch_history_civ7_vs/">user reviews on Steam</a> and Metacritic weren’t nearly so positive, at least at first.</p>
+<p>Take a look at the Civilization subreddit, and you’ll see a general consensus: The bones of this game are great, and even most of the radical changes to the classic formula (like breaking the game into much more distinct ages) are a welcome refresh.</p>
+<p>On the other hand, there’s a sentiment that players are disappointed that some expected features are missing, some gameplay elements need additional polish, and most of all, the user interface was a bit of a mess at launch.</p>
+<p>A month later, developer Firaxis has already released a few patches and has more planned. As the game’s state continues to evolve, this seems like a good time to check in on it.</p>
+<p>I spent some time in the Civ community and spoke with Dennis Shirk, the game's executive producer, to learn how the launch went, how the game has changed since launch, and what its next steps are.</p>
+<h2>Breaking with tradition</h2>
+<p><em>Civilization VII</em> broke with tradition in a few ways—splitting the game into distinct ages that each play like a separate game, allowing anachronistic leader/civilization combinations, and removing worker units, to name a few.</p>
+<p>You might have expected those to be the source of any controversy around the game’s launch, but that hasn’t really been the case. In my <a href="https://arstechnica.com/gaming/2025/02/civilization-vii-review-a-major-overhaul-solves-civs-oldest-problems/">review</a>, I wrote that those shifts take the franchise in a new direction, bring over the best ideas from competing titles, and address long-standing problems with the Civilization experience.</p>
+<p>If you want a more traditional experience, you can go back to <em>Civilization V</em>, <em>Civilization IV</em>, <em>Civilization II</em>, or whichever your favorite was. Those games are infinitely re-playable, so there’s no need to retread with a sequel.</p>
 
           
                       
-                  </div></div>]]></content:encoded>
+                  </div>
+                    
+        
+          
+    
+    <div>
+          
+          
+<p>“Our rule that we live by at Firaxis is the rule of thirds. We want to keep one-third of the game the same as previous iterations, one-third tweaked and improved upon, and one-third new,” Shirk told me. “Did we lean farther into the last third than we have in the past? We may have, but it was a risk we were willing to take to deliver a completely new part of the experience.”</p>
+<h2>A suboptimal starting position</h2>
+<p>The Civilization <a href="https://www.reddit.com/r/civ/">subreddit</a> is full of positive responses to those changes, and the large contingent of Civ geeks on the Ars editorial staff are mostly in agreement that they’re good changes, too. (The game has been a frequent discussion topic in the Ars Slack for several weeks.)</p>
+<p>The last month has seen players giving critical feedback, and Firaxis has been releasing patches to address complaints. For example, patch 1.1.0 on March 4 fixed some visual problems with the technology tree and made big changes to some victory conditions in the Modern Age, among other things.</p>
+<p>Players have noted positive changes that weren’t mentioned in patch notes, too. Reddit user <a href="https://www.reddit.com/r/civ/comments/1j46tg6/ai_is_significantly_better_in_military_after_the/">AndyNemmity posted</a> that the “AI is significantly better in Military” after a recent patch a week ago, writing:</p>
+<blockquote><p>I know most of you don't see the Military AI in the fog of war, but I work on the AI mod, and run a ton of autoplays. I am 10+ autoplays with the new patch, and the base game military AI is VASTLY improved.</p>
+<p>Before, the AI would get stuck on the map in tons of different scenarios, often dying because they have an entire army stuck on the map, and can't use it. This is fixed. Now the autoplays look like actual militaries, warring, attacking, killing independents quickly and efficiently.</p></blockquote>
+<p>The goodwill about the bones of the game and the positive responses to some patch additions are still accompanied by some consternation about the UI.</p>
+
+          
+                  </div>
+                    
+        
+          
+    
+    <div>
+          
+          
+<p>“Part of launching a game, especially when big changes are made, is figuring out what is resonating with players, and what may be an opportunity for improvement,” Shirk said when asked about the launch challenges. “In this instance, the UI did not meet players’ expectations, and we are committed to addressing that—although it will take time.”</p>
+<p>There’s still a fair bit to be done, and modders have been filling the gaps. Modder Sukritact released a UI overhaul that addressed several complaints—including showing the gains and losses players will see if they replace a tile improvement or building with another one in the city view.</p>
+<p>Players <a href="https://www.reddit.com/r/civ/comments/1ixnyfd/sukritacts_ui_mod_now_shows_the_gains_and_losses/">praised these tweaks</a>, going so far as to call that example in particular a “game changer.” A few days later, it was announced on the Civilization Discord that Firaxis had hired Sukritact as a technical artist.</p>
+<figure>
+    
+          <figcaption>
+        <div>
+    
+    <p>
+      This mod by Sukritact adds much-needed information to the city view. The modder has since been hired by Firaxis.
+
+              <span>
+          Credit:
+
+                      <a href="https://www.reddit.com/r/civ/comments/1ixnyfd/sukritacts_ui_mod_now_shows_the_gains_and_losses/" target="_blank">
+          
+          RileyTaugor
+
+                      </a>
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>The community has speculated that the game was rushed out the door before it was ready, primarily citing the UI issues.</p>
+<p>“In hindsight, our UI team needed more time and space to take the UI where it needed to go, to really expose the level of information our players expect,” Shirk admitted. “Our team has been working hard to address these issues through rapid patching, and players will continue to see support for the foreseeable future.”</p>
+<p>That said, debate about the UI is happening in the context of a wider discussion about the scope of <em>Civilization VII</em>’s launch.</p>
+
+<h2>A tale of 10 platforms</h2>
+<p>Every mainline Civilization game in the past launched on just desktop platforms like Windows or Mac, but <em>Civilization VII</em> greatly expanded that. Depending on what counts (we’ll say here that the Steam Deck counts as distinct from Linux, and the Xbox Series S is distinct from Xbox Series X), there were 10 launch platforms for <em>Civilization VII</em>:</p>
+
+          
+                  </div>
+                    
+        
+          
+    
+    <div>
+          
+          
+<ul>
+<li>Windows</li>
+<li>Linux</li>
+<li>macOS</li>
+<li>Steam Deck</li>
+<li>Nintendo Switch</li>
+<li>PlayStation 4</li>
+<li>PlayStation 5</li>
+<li>Xbox One</li>
+<li>Xbox Series S</li>
+<li>Xbox Series X</li>
+</ul>
+<p>That’s a lot to target at launch, and players in the subreddit have speculated that Firaxis was spread a bit thin here, making this part of the explanation for a relatively buggy UI on day one.</p>
+<p>Some also speculated that the classic desktop PC platform got a worse experience in order to accommodate console and Steam Deck players. For example, players lamented the lack of a drag and drop feature for views like the policy selection screen.</p>
+<p>The developers have made it crystal clear that PC is the top priority, though. “Our core audience is absolutely PC, so we always start there, and work our way outward, adapting UI systems along the way, iterating on different UX approaches,” Shirk said.</p>
+<p>He added that the controller support was developed with a partner, suggesting that supporting consoles out of the gate might not have taxed the team working on the desktop interface as much as some feared.</p>
+<p>At least in one respect, Firaxis has already publicly walked the walk: At one point it made the controversial decision to temporarily pause cross-save between PC and console so it could push updates to PC faster. Patching games on consoles requires a relatively slow and laborious certification process, but that’s not the case for updating a game on Steam.</p>
+<figure>
+    
+          <figcaption>
+        <div>
+    
+    <p>
+      Cross-loading cloud saves across PC and console was turned off for a while so Firaxis could iterate faster on PC.
+
+              <span>
+          Credit:
+
+          
+          Samuel Axon
+
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>Meanwhile, some console and handheld players have complained about their version of the interface.</p>
+<p>The most commonly named UI problem on console and handhelds is related to how the camera and hex selector could be moved across the map more efficiently. Currently, moving the camera is easy—you just use the left stick to pan around. But doing this doesn’t move the hex selector with it, so you have to drag that selector hex by hex all the way across the map.</p>
+
+          
+                  </div>
+                    
+        
+          
+    
+    <div>
+          
+          
+<p>Some similar games have a button you can press to bring the selector to where the camera is. In <em>Civilization VII</em>, the R3 button brings the camera to where the selector is, not vice versa—which isn’t useful.</p>
+<p>Shirk talked a bit about the process of developing the controller-based interface and the challenges the team faced:</p>
+<blockquote><p>We've been lucky enough to have some great partners help us develop the controller support, which added some strong console specific features like the radial menu. However, when you're working with different interfaces across different platforms, there are many assumptions that cannot be made like they can on PC. For example, a player using a mouse is not walled off from anything, but switch that to a controller, and a completely different thought process has to come into play.</p></blockquote>
+<p>As for solutions, he added:</p>
+<blockquote><p>We’re working to give all versions the attention they deserve. When it comes to UI updates, we’re having team members continue to look at the community feedback in-depth and see how we can improve the experience for players regardless of system.</p></blockquote>
+<p>When I asked about drag-and-drop on desktop, and R3’s selection functionality on console and handheld, he said that “the examples you shared are among features we are tracking and exploring how to address,” and that the March 4 1.1.0 patch that brought some UI changes was just a start. He added that a 1.1.1 coming March 25 will be when “fans will really start to see the results of their feedback.”</p>
+<p>“And to answer your original question, ‘R3’ is coming along for the ride,” he said.</p>
+
+<h2>Following the legacy path to balanced gameplay</h2>
+<p>It seems like the UI is on the right track, but some tweaks need to happen on the gameplay front too, as players and critics tell it.</p>
+
+          
+                  </div>
+                    
+        
+          
+    
+    <div>
+          
+          
+<p>There are complaints about the AI—something as old as the franchise itself, to be fair. Some improvements have already been made, but players continue to report that AI civs keep founding cities close to players’ capitals for no apparent reason, causing frustration.</p>
+<figure>
+    
+          <figcaption>
+        <div>
+    
+    <p>
+      "Ashoka traveled across the entire continent just to settle four tiles away from my capital," said DayTemporary3369, the Reddit user who posted this screenshot. They weren't alone in this complaint.
+
+              <span>
+          Credit:
+
+                      <a href="https://www.reddit.com/r/civ/comments/1ip2f5v/ashoka_travelled_across_the_entire_continent_just/" target="_blank">
+          
+          DayTemporary3369
+
+                      </a>
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>Religion gameplay needs attention, as there’s no way to stop other leaders’ missionaries, leading to unsatisfying back-and-forth conversion gameplay. Similarly, players feel there aren’t enough defenses against espionage.</p>
+<p>“If they're all allowed to target me at the same time, I should be allowed to defend myself from all of them, provided I have enough influence,” <a href="https://www.reddit.com/r/civ/comments/1ipdloa/current_civ_7_espionage_mechanic_be_like_everyone/">said</a> Reddit user Pay_No_Heed on the topic of counter-espionage. The complaint is reasonable, though a working design solution may not be as obvious as it seems.</p>
+<p>Players have also complained that ages end too abruptly, and that holds true for the end of the game, which happens when the Modern Age concludes. It’s a quibble I also shared in my review. Many players are maxing out the game’s age length setting to combat this. Past Civilization games offered a “one more turn” option to extend the game past when someone had won. Firaxis has said this is coming to the end of the modern age in a future update.</p>
+<p>There’s also the Civilopedia, the in-game database of concepts and help documentation. Players have noted it's more barebones than expected, with several key concepts lacking entries or explanation. Firaxis acknowledged this complaint and said it’s being worked on.</p>
+<p>“Yes, with each update we’re improving what’s exposed in the Civilopedia, including more gameplay data, easier navigation, et cetera. Expect much more to come in future updates,” Shirk explained.</p>
+<p>In general, the game needs to have more information exposed to players. The gap is big enough that Reddit user JordiTK posted the heavily upvoted “<a href="https://www.reddit.com/r/civ/comments/1iq3hde/the_ultimate_list_of_things_that_civilization_vii/">Ultimate List of Things That <em>Civilization VII</em> Doesn’t Tell You</a>." It's almost 5,000 words long, with more than 100 items.</p>
+
+          
+                  </div>
+                    
+        
+          
+    
+    <div>
+          
+          
+<p>Almost every prior Civilization game has had players complaining that it didn’t explain itself well enough, but the sentiment seems stronger this time. For what it’s worth, Shirk says the team recognizes this.</p>
+<p>“Internally, our primary design goal for <em>Civilization VII</em> was to focus and iterate on the new mechanics, to really make sure this design would sing,” he said. “This focus on the new probably led us to work with a few false assumptions about what base level information players would need with our legacy systems, and it wasn't something that came up as loudly as it should have in user testing.”</p>
+<h2>It’s not “We Love the Developer Day” just yet</h2>
+<p>While everyone in the community and within Firaxis agrees there’s still work to be done, the tone has improved since the launch because of these patches, and thanks to frequent engagement on Steam, Discord, and Reddit by the developer’s community manager.</p>
+<p>The launch situation was made a little worse than it needed to be because of, strangely enough, confusion around nomenclature. Players who paid for the pricier special editions of the game were given “Advanced Access” a few days before the main launch date.</p>
+<p>After it was apparent there were problems, some of the communications to players on storefronts and on Reddit called it "early access," causing a bit of a stir because until then players hadn't perceived the special edition advanced access to be the same as early access, which is a term typically used in the industry to let players know a game is incomplete and in a pre-release state.</p>
+<p>When asked about this, a spokesperson for 2K Games (the game's publisher) gave a statement to Ars that read:</p>
+<blockquote><p>Our goal is always to deliver the best product possible, including during Advanced Access periods. With a game the size and scope of Civilization VII there will always be fixes and optimizations once the entirety of the player base is able to jump in. The intent behind the Advanced Access granted to purchasers of the Deluxe Edition and Founders Edition was not to offer a work in progress product, and we take the feedback delivered during that period seriously.</p>
+<p>We’re working hard to make sure that players have the best experience in the world of 4X strategy for years to come, and player feedback remains critical in helping us grow and build the future of Civ.</p></blockquote>
+<p>That suggests the use of “early access” was just a misstatement and not an attempt to cover for a rough pre-launch access period, but it wasn’t a great start to the conversation.</p>
+
+          
+                  </div>
+                    
+        
+          
+    
+    <div>
+
+        
+        <div>
+          
+          
+<p>Since then, though, some of the most critical problems have been addressed, and the studio shared a roadmap that promised “UI updates and polish” in patches on March 4 (1.1.0, already released), March 25 (1.1.1), and sometime in April (1.2.0). The roadmap lists “additional UI updates &amp; polish” for beyond April, too, confirming this will be a lengthy process.</p>
+<figure>
+    
+          <figcaption>
+        <div>
+    
+    <p>
+      Here's the updated roadmap from Firaxis.
+
+              <span>
+          Credit:
+
+          
+          2K Games
+
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>This frequent communication, combined with the fact that players recognize there’s a good game here that needs some more polish, has meant that most of the discussions in the community during this first month have been pretty optimistic, despite the launch woes.</p>
+<p>There was a time years ago when games were marketed leading up to their launch, but then the communication with players was over. In today’s market (especially for complex games like Civilization) there’s often a need to iterate in public. Players understand that and will roll with it if it’s communicated clearly to them. Firaxis stumbled on that in the opening days, but it’s now clear the studio understands that well, and the updates are rolling out.</p>
+<p>We've seen a lot of rough launches for big games in recent years, and they often turn quite toxic. That said, the core Civilization community seems more patient and optimistic than you typically see in situations like this. That's a credit to Firaxis' years of goodwill, but it's also a credit to the moderators and other leaders in the game's community.</p>
+<p>When I reviewed <em>Civilization VII</em>, I wrote that the core systems were strong, and that the game likely has a bright future ahead of it—but I also said it might make sense to wait a few weeks to dive in because of UI and balance issues.</p>
+<p>It’s a few weeks later, and it looks like the game is on the right track, but there’s still a ways to go if you’re looking for an impeccably polished product. That hasn’t stopped me from enjoying the dozens of hours I’ve played so far, though.</p>
+
+
+          
+                  </div>
+
+                  
+          
+
+
+
+
+
+
+  <div>
+    
+
+    <p>
+      Samuel Axon is a senior editor at Ars Technica. He covers Apple, software development, gaming, AI, entertainment, and mixed reality. He has been writing about gaming and technology for nearly two decades at Engadget, PC World, Mashable, Vice, Polygon, Wired, and others. He previously ran a marketing and PR agency in the gaming industry, led editorial for the TV network CBS, and worked on social media marketing strategy for Samsung Mobile at the creative agency SPCSHP. He also is an independent software and game developer for iOS, Windows, and other platforms, and he&nbsp;is a graduate of DePaul University, where he studied interactive media and software development.
+    </p>
+  </div>
+
+
+  <p>
+    <a href="https://arstechnica.com/gaming/2025/03/civilization-vii-one-month-later-the-community-and-developers-chime-in/#comments" title="26 comments">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><defs><clipPath id="bubble-zero_svg__a"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath><clipPath id="bubble-zero_svg__b"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath></defs><g clip-path="url(#bubble-zero_svg__a)"><g fill="currentColor" clip-path="url(#bubble-zero_svg__b)"><path d="M80 40c0 22.09-17.91 40-40 40S0 62.09 0 40 17.91 0 40 0s40 17.91 40 40"></path><path d="M40 40 .59 76.58C-.67 77.84.22 80 2.01 80H40z"></path></g></g></svg>
+    26 Comments
+  </a>
+      </p>
+              </div>
+  </article>
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+
+  </div></div>]]></content:encoded>
         </item>
     </channel>
 </rss>
