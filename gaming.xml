@@ -4,7 +4,7 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Sat, 15 Mar 2025 18:09:14 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 15 Mar 2025 18:24:06 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -301,6 +301,292 @@ Image credit:          <cite>Guerrilla/Getty/Eurogamer</cite>
 	</div></div>]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Why SNES hardware is running faster than expected—and why it’s a problem]]></title>
+            <link>https://arstechnica.com/gaming/2025/03/this-small-snes-timing-issue-is-causing-big-speedrun-problems/</link>
+            <guid>https://www.resetera.com/threads/why-snes-hardware-is-running-faster-than-expected%E2%80%94and-why-it%E2%80%99s-a-problem.1135416/</guid>
+            <content:encoded><![CDATA[https://arstechnica.com/gaming/2025/03/this-small-snes-timing-issue-is-causing-big-speedrun-problems/<br/><br/><div id="readability-page-1" class="page"><div id="main">
+            <article data-id="2082339">
+  
+  <header>
+  <div>
+    <div>
+      <div>
+        <p><span>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><defs><clipPath id="section-gaming_svg__a"><path fill="none" d="M0 0h40v40H0z"></path></clipPath><clipPath id="section-gaming_svg__b"><path fill="none" d="M0 0h40v40H0z"></path></clipPath></defs><g clip-path="url(#section-gaming_svg__a)"><g fill="none" clip-path="url(#section-gaming_svg__b)"><path fill="currentColor" d="M30.7 39.7c-.7-1.1-1.7-1.8-2.5-2.8-.9-1.2 0-2 .8-3 .6-.9 1-1.9.8-3-.6-2.7-3.4-3.3-5.8-3.6-.7-.1-1.8-.2-2.3-.7s-.5-1.4-.5-2.1v-.4l15.5-3.6c2.3-.5 3.7-2.8 3.2-5.1l-2.8-12C36.6 1.1 34.3-.3 32 .2L3.3 6.8C1 7.4-.4 9.7.1 12l2.8 12c.5 2.3 2.8 3.7 5.1 3.2l11.1-2.6c0 1 .2 2.1.7 2.9 1.7 2.7 6 .8 7.6 3.3.8 1.2-.5 2.3-1.1 3.3-.6.9-.9 2-.4 3 .4 1.1 1.4 1.8 2.2 2.6 0 .1.2.2.3.3h2.4c0-.1-.1-.2-.2-.3m.7-28.7c1.3-.3 2.7.5 3 1.9.3 1.3-.5 2.7-1.9 3-1.3.3-2.7-.5-3-1.9-.3-1.3.5-2.7 1.9-3m-6-3.7c1.3-.3 2.7.5 3 1.9.3 1.3-.5 2.7-1.9 3-1.3.3-2.7-.5-3-1.9-.3-1.3.5-2.7 1.9-3m-9.9 13.2-2.7.6-1-4.1-4.1 1-.6-2.7 4.1-1-1-4.1 2.7-.6 1 4.1 4.1-1 .6 2.7-4.1 1z"></path></g></g></svg>
+  </span>
+  <span>
+    gotta go precisely the right speed
+  </span>
+</p>
+      </div>
+
+      
+
+      <p>
+        Cheap, unreliable ceramic APU resonators lead to "constant, pervasive, unavoidable" issues.
+      </p>
+
+      
+    </div>
+
+    <div>
+    
+    <p>
+      Sir, do you know how fast your SNES was going?
+
+              <span>
+          Credit:
+
+          
+          Getty Images
+
+                  </span>
+          </p>
+  </div>
+  </div>
+</header>
+
+
+  
+
+  
+      
+    
+    <div>
+                      
+                      
+          
+<p>Ideally, you'd expect any Super NES console—if properly maintained—to operate identically to any other Super NES unit ever made (in the same region, at least). Given the same base ROM file and the same set of precisely timed inputs, all those consoles should hopefully give the same gameplay output across individual hardware and across time.</p>
+<p>The <a href="https://tas.bot/wiki/Main_Page">TASBot community</a> relies on this kind of solid-state predictability when creating <a href="https://arstechnica.com/gaming/2016/01/how-a-game-playing-robot-coded-super-mario-maker-onto-an-snes-live-on-stage/">tool-assisted speedruns</a> that can be <a href="https://arstechnica.com/gaming/2020/01/inside-tasbots-semi-secret-probably-legal-effort-to-control-the-nintendo-switch/">executed</a> with <a href="https://arstechnica.com/gaming/2017/01/how-a-robot-got-super-mario-64-and-portal-running-on-an-snes/">robotic precision</a> on <a href="https://arstechnica.com/gaming/2016/07/how-to-beat-super-mario-bros-3-in-less-than-a-second/">actual console hardware</a>. But on the SNES in particular, the team has largely struggled to get <a href="https://arstechnica.com/gaming/2011/08/accuracy-takes-power-one-mans-3ghz-quest-to-build-a-perfect-snes-emulator/">emulated speedruns</a> to sync up with demonstrated results on real consoles.</p>
+<p>After significant research and testing on dozens of actual SNES units, the TASBot team now thinks that a cheap ceramic resonator used in the system's Audio Processing Unit (APU) is to blame for much of this inconsistency. While <a href="https://snes.nesdev.org/wiki/SNES_Development_Manual">Nintendo's own documentation</a> says the APU should run at a consistent rate of 24.576 Mhz (and the associated Digital Signal Processor sample rate at a flat 32,000 Hz), in practice, that rate can vary just a bit based on heat, system age, and minor physical variations that develop in different console units over time.</p>
+<p>Casual players would only notice this problem in the form of an almost imperceptibly higher pitch for in-game music and sounds. But for TASBot, Allan "dwangoAC" Cecil says this unreliable clock has become a "constant, pervasive, unavoidable" problem for getting frame-accurate consistency in hardware-verified speedruns.</p>
+<h2>Not to spec</h2>
+<figure>
+    <div id="caption-2082448"><p>
+              Cecil testing his own SNES APU in 2016.
+                              </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      Cecil testing his own SNES APU in 2016.
+
+              <span>
+          Credit:
+
+                      <a href="https://tasvideos.org/Forum/Topics/17018?CurrentPage=4&amp;Highlight=444216#444216" target="_blank">
+          
+          Allan Cecil
+
+                      </a>
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>Cecil says he first began to suspect the APU's role in TASBot's SNES problems back in 2016 when he broke open his own console to test it with an external frequency counter. He <a href="https://tasvideos.org/Forum/Topics/17018?CurrentPage=4&amp;Highlight=444216#444216">found</a> that his APU clock had "degraded substantially enough to cause problems with repeatability," causing the console to throw out unpredictable "lag frames" if and when the CPU and APU load cycles failed to line up in the expected manner. Those lag frames, in turn, are enough to "desynchronize" TASBot's input on actual hardware from the results you'd see on a more controlled emulator.</p>
+
+          
+                      
+                  </div>
+                    
+        
+          
+    
+    <div>
+          
+          
+<p>Unlike the quartz crystals used in many electronics (including the SNES's more consistent and differently timed CPU), the cheaper ceramic resonators in the SNES APU are "known to degrade over time," as Cecil put it. <a href="https://www.symmetryelectronics.com/getmedia/921363e7-f4b0-4839-ab33-e8e6365a248a/ceramics_resonators_app_manual.pdf">Documentation for the resonators used in the APU</a>&nbsp;also seems to suggest that excess heat may impact the clock cycle speed, meaning the APU might speed up a bit as a specific console heats up.</p>
+<figure>
+    <div id="caption-2082452"><p>
+              The APU resonator manual shows slight variations in operating thresholds based on heat and other factors.
+                              </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      The APU resonator manual shows slight variations in operating thresholds based on heat and other factors.
+
+              <span>
+          Credit:
+
+                      <a href="https://www.symmetryelectronics.com/getmedia/921363e7-f4b0-4839-ab33-e8e6365a248a/ceramics_resonators_app_manual.pdf" target="_blank">
+          
+          Ceralock ceramic resonator manual
+
+                      </a>
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>The TASBot team was not the first group to notice this kind of audio inconsistency in the SNES. In the early 2000s, some emulator developers <a href="https://forums.bannister.org/ubbthreads.php?ubb=showflat&amp;Number=52693#Post52693">found</a> that certain late-era SNES games don't run correctly when the emulator's Digital Signal Processor (DSP) sample rate is set to the Nintendo-specified value of precisely 32,000 Hz (a number derived from the speed of the APU clock). Developers <a href="https://web.archive.org/web/20030914232710/https://alpha-ii.com/Info/snes-spdif.html">tested actual hardware</a> at the time and found that the DSP was actually running at 32,040 Hz and that setting the emulated DSP to run at that specific rate suddenly fixed the misbehaving commercial games.</p>
+<p>That small but necessary emulator tweak implies that "the original developers who wrote those games were using hardware that... must have been running slightly faster at that point," Cecil told Ars. "Because if they had written directly to what the spec said, it may not have worked."</p>
+
+<h2>Survey says...</h2>
+<p>While research and testing confirmed the existence of these APU variations, Cecil wanted to determine just how big the problem was across actual consoles today. To do that, he <a href="https://nextcloud.tas.bot/index.php/apps/forms/s/TJDiEwP6J7HFfYbPRw4A7dHN">ran an informal online survey</a> last month, cryptically <a href="https://bsky.app/profile/tas.bot/post/3lj47u3fga22n">warning his social media followers</a> that "SNES consoles seem to be getting faster as they age." He asked respondents to <a href="https://forums.nesdev.org/viewtopic.php?t=24610">run a DSP clock measurement ROM</a> on any working SNES hardware they had lying around and to rerun the test after the console had time to warm up.</p>
+<p>After receiving 143 responses and <a href="https://docs.getgrist.com/fpwWkqDcnxXR/SNES-SMP-speed/p/1">crunching the numbers</a>, Cecil said he was surprised to find that temperature seemed to have a minimal impact on measured DSP speed; the measurement only rose an insignificant 8 Hz on average between "cold" and "warm" readings on the same console. Cecil even put his own console in a freezer to see if the DSP clock rate would change as it thawed out and found only a 32 Hz difference as it warmed back up to room temperature.</p>
+
+          
+                  </div>
+                    
+        
+          
+    
+    <div>
+          
+          
+<figure>
+    <div id="caption-2082471"><p>
+              A sample result from the DSP sample test program.
+                              </p><p>
+                  Credit:
+                                      Allan Cecil
+                                  </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      A sample result from the DSP sample test program.
+
+              <span>
+          Credit:
+
+          
+          Allan Cecil
+
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>Those heat effects paled in comparison to the natural clock variation across different consoles, though. The slowest and fastest DSPs in Cecil's sample showed a clock difference of 234 Hz, or about 0.7 percent of the 32,000 Hz specification.</p>
+<p>That difference is small enough that human players probably wouldn't notice it directly; TASBot team member Total estimated it might amount to "at most maybe a second or two [of difference] over hours of gameplay." Skilled speedrunners could notice small differences, though, if differing CPU and APU alignments cause "carefully memorized enemy pattern changes to something else" between runs, Cecil said.</p>
+<p>For a frame-perfect tool-assisted speedrun, though, the clock variations between consoles could cause innumerable headaches. As TASBot team member Undisbeliever <a href="https://undisbeliever.net/blog/20250313-smpspeed.html">explained in his detailed analysis</a>: "On one console this might take 0.126 frames to process the music-tick, on a different console it might take 0.127 frames. It might not seem like much but it is enough to potentially delay the start of song loading by 1 frame (depending on timing, lag and game-code)."</p>
+<figure>
+    <div id="caption-2082449"><p>
+              Cecil's survey found variation across consoles was much higher than the effects of heat on any single console.
+                              </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      Cecil's survey found variation across consoles was much higher than the effects of heat on any single console.
+
+              <span>
+          Credit:
+
+                      <a href="https://docs.getgrist.com/fpwWkqDcnxXR/SNES-SMP-speed/p/1" target="_blank">
+          
+          SNES SMP Speed test survey
+
+                      </a>
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>Cecil also said the survey-reported DSP clock speeds were also a bit higher than he expected, at an average rate of 32,076 Hz at room temperature. That's quite a bit higher than both the 32,000 Hz spec set by Nintendo and the 32,040 Hz rate that emulator developers settled on after sampling actual hardware in 2003.</p>
+<p>To some observers, this is evidence that SNES APUs originally produced in the '90s have been speeding up slightly as they age and could continue to get faster in the coming years and decades. But Cecil says the historical data they have is too circumstantial to make such a claim for certain.</p>
+<p>"We're all a bunch of differently skilled geeks and nerds, and it's in our nature to argue over what the results mean, which is fine," Cecil said. "The only thing we can say with certainty is the statistical significance of the responses that show the current average DSP sample rate is 32,076 Hz, faster on average than the original specification. The rest of it is up to interpretation and a certain amount of educated guessing based on what we can glean."</p>
+
+          
+                  </div>
+                    
+        
+          
+    
+    <div>
+
+        
+        <div>
+          
+          
+<h2>A first step</h2>
+<p>For the TASBot team, knowing just how much real SNES hardware timing can differ from dry specifications (and emulators) is an important step to getting more consistent results on real hardware. But that knowledge hasn't completely solved their synchronization problems. Even when Cecil replaced the ceramic APU resonator in his Super NES with a more accurate quartz version (tuned precisely to match Nintendo's written specification), the team "did not see perfect behavior like we expected," he told Ars.</p>
+<p>Beyond clock speed inconsistencies, Cecil explained to Ars that TASBot team testing has found an additional "jitter pattern" present in the APU sampling that "injects some variance in how long it takes to perform various actions" between runs. That leads to non-deterministic performance even on the same hardware, Cecil said, which means that "TASBot is likely to desync" after just a few minutes of play on most SNES games.</p>
+<figure>
+    <div id="caption-2082473"><p>
+              The order in which these components start when the SNES is reset can have a large impact on clock synchronization.
+                              </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      The order in which these components start when the SNES is reset can have a large impact on clock synchronization.
+
+              <span>
+          Credit:
+
+                      <a href="https://github.com/rasteri/TAStable?tab=readme-ov-file" target="_blank">
+          
+          Rasteri
+
+                      </a>
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p><a href="https://github.com/rasteri/TAStable">Extensive research from Rasteri</a> suggests that these inconsistencies across same-console runs are likely caused by a "very non-deterministic reset circuit" that changes the specific startup order and timing for a console's individual components every time it's powered on. That leads to essentially "infinite possibilities" for the relative place where the CPU and APU clocks start in their "synchronization cycle" for each fresh run, making it impossible to predict specifically where and when lag frames will appear, Rasteri wrote.</p>
+<p>Cecil said these kind of "butterfly effect" timing issues make the Super NES "a surprisingly complicated console [that has] resisted our attempts to fully model it and coerce it into behaving consistently." But he's still hopeful that the team will "eventually find a way to restore an SNES to the behavior game developers expected based on the documentation they were provided without making invasive changes..."</p>
+<p>In the end, though, Cecil <a href="https://bishopfox.com/blog/youre-doing-iot-rng">seems to have developed an almost grudging respect</a> for how the SNES's odd architecture leads to such unpredictable operation in practice. "If you want to deliberately create a source of randomness and non-deterministic behavior, having two clock sources that spinloop independently against one another is a fantastic choice," he said.</p>
+
+
+          
+                  </div>
+
+                  
+          
+
+
+
+
+
+
+  <div>
+    
+
+    <p>
+      Kyle Orland has been the Senior Gaming Editor at Ars Technica since 2012, writing primarily about the business, tech, and culture behind video games. He has journalism and computer science degrees from University of Maryland. He once <a href="https://bossfightbooks.com/collections/books/products/minesweeper-by-kyle-orland">wrote a whole book about <em>Minesweeper</em></a>.
+    </p>
+  </div>
+
+
+  <p>
+    <a href="https://arstechnica.com/gaming/2025/03/this-small-snes-timing-issue-is-causing-big-speedrun-problems/#comments" title="37 comments">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><defs><clipPath id="bubble-zero_svg__a"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath><clipPath id="bubble-zero_svg__b"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath></defs><g clip-path="url(#bubble-zero_svg__a)"><g fill="currentColor" clip-path="url(#bubble-zero_svg__b)"><path d="M80 40c0 22.09-17.91 40-40 40S0 62.09 0 40 17.91 0 40 0s40 17.91 40 40"></path><path d="M40 40 .59 76.58C-.67 77.84.22 80 2.01 80H40z"></path></g></g></svg>
+    37 Comments
+  </a>
+      </p>
+              </div>
+  </article>
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+
+  </div></div>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Something for the Weekend – 15/03/25]]></title>
             <link>https://www.thesixthaxis.com/2025/03/15/something-for-the-weekend-15-03-25/</link>
             <guid>https://www.resetera.com/threads/something-for-the-weekend-%E2%80%93-15-03-25.1135410/</guid>
@@ -516,39 +802,6 @@ Image credit:          <cite>Guerrilla/Getty/Eurogamer</cite>
             <link>https://aftermath.site/aftermath-hours-podcast-suikoden-book-boss-fight</link>
             <guid>https://www.resetera.com/threads/the-suikoden-series-is-as-relevant-as-ever.1135287/</guid>
             <content:encoded><![CDATA[https://aftermath.site/aftermath-hours-podcast-suikoden-book-boss-fight<br/><br/><div id="readability-page-1" class="page"><div><p>Few series continue to influence entire industries three decades down the line – fewer still if we’re talking about relatively obscure Japanese role-playing games. <em>Suikoden</em>, however, fits that bill. The recently-remastered JRPGs in which you’re able to recruit 108 characters to your cause are about far more than collecting ‘em all. On this week’s Aftermath Hours, Aidan Moher, freelance writer and author of <a href="https://bsky.app/profile/aidanis.fun/post/3ljpuq32vqc2w" target="_blank" rel="noreferrer noopener">upcoming book <em>Suikoden 1 &amp; 2</em></a>, takes us to class.</p><p>We begin by discussing the many reasons why Moher felt these games in particular were worthy of an entire book, including their pre-9/11 historical context and the specific team-based nature of their development. Then we discuss news from the eye of the pre-GDC storm: Next week, thousands of game developers will convene in San Francisco to network and exchange knowledge, but <a href="https://aftermath.site/gdc-2025-travel-visa-san-francisco-donald-trump-mahmoud-khalil" target="_blank" rel="noreferrer noopener">a growing number of non-US-based devs are dropping out</a> due to Trump’s hostile policies and erratic governance.&nbsp;</p><p>After that we talk about <a href="https://aftermath.site/playstation-ai-aloy-horizon-talk-character" target="_blank" rel="noreferrer noopener">Sony</a> and <a href="https://news.xbox.com/en-us/2025/03/13/new-copilot-for-gaming-save-time-help-get-good/" target="_blank" rel="noreferrer noopener">Microsoft</a> both introducing new unwanted AI features in the same week. Whose is worse? We’ll let you decide. Lastly, we design the one product that should include generative AI: a fucked-up private jet for rich people that definitely works just fine.</p><p>You can find this week's episode below and on <a href="https://open.spotify.com/show/7qtlX6MNeEoyNuHBU0chUJ?si=a2f12b75911f43cb" target="_blank" rel="noreferrer noopener">Spotify</a>, <a href="https://podcasts.apple.com/us/podcast/aftermath-hours/id1727407094" target="_blank" rel="noreferrer noopener">Apple</a>, or wherever else you prefer to listen to podcasts. If you like what you hear, make sure to leave a review so that we can eventually hire exactly 108 writers, reporters, and heck, maybe even some kind of battle chef to work at Aftermath.</p><p>Here’s an excerpt from our conversation (edited for length and clarity):</p><p><strong>Aidan:</strong> [The book talks about] how these things were important in the mid-90s as we were entering into a period of geo-political turmoil. We were only a few years away from 9/11 and everything that entailed. And so looking at the series contextually, we were able to have that conversation with the context of being adults who understand all of that better than we did when we first played it.</p><p><strong>Nathan: </strong>As somebody who hasn’t really played these games, I know them as the series where you can collect 108 potential party members. How does that tie into what you’ve been talking about so far: these themes of war and how it impacts people?</p><p><strong>Aidan:</strong> I think there’s two interesting angles on that: The first is that <em>Suikoden </em>bucked the trend of so many RPGs that look at exceptional people doing exceptional things. You’ll go in, and it’ll be princesses or brilliant scientists or knights who get turned into frogs; I’m describing <em>Chrono Trigger</em>. I think <em>Suikoden </em>is so remarkable because it does something the original <em>Star Wars</em> movies did really well, which is showing normal people doing exceptional things.</p><p>With a huge cast of 108 recruitable characters, not all of them have a big impact on the story. Not all of them are usable in combat. But they all fill a role in this community that you build. And so you have people who are rising up. They’re sort of powerless. There’s one woman you recruit sorta late into the game, and she’s in a poor town. She just washes clothes. She’s a washer woman. But she joins your party because she recognizes she can bring something to the community that does not exist. So she’s there with former generals of the enemy, powerful magic users – everybody across that gamut.&nbsp;</p><p>That is what war is, that is what conflict is in societies: Everybody has a role to play, everybody can bring something to that. You couldn’t do that with just a cast of nine people. You’d have to give them each a defined role in the game.&nbsp;</p><p><strong>Chris:</strong> I think what the Final Fantasies of the world do is, they get you really invested in your main character. You have this sunk cost fallacy of “Well, if my main character’s in there, he’s the important one. He’s where I put all my gear, all my stuff, all my things.” It gets in the way of storytelling, I find. In <em>Live A Live</em>, you get a completely different perspective because they don’t give you enough time to have that sense of possession over your character. <em>Saga Frontier</em> is like a bunch of little eight-hour RPGs that all intersect with each other. Oh, <em>Chrono Cross</em>! That has 49 characters in it. It’s not the same [as <em>Suikoden</em>], but you get a lot of perspective.&nbsp;</p><p>I think there’s something powerful about this thing that really limits a lot of RPG storytelling, which is “You’re the special boy.” It makes the investment in a character hurt more, like with Aerith [from <em>Final Fantasy VII</em>], but it also means you can’t have characters really die or live. <em>Final Fantasy VI</em>, in the second act, whether or not you get those characters [after the world ends] is one of the reasons why it’s one of my favorites. <em>Final Fantasy Tactics</em> – all these things. There’s a malleability to RPGs that you don’t usually see. <em>Suikoden </em>is weird, and I like a weird game.&nbsp;</p><p><strong>Aidan: </strong>It is a weird game, and it allows you to have that sort of agency within that experience, because it’s weird. It allows you to explore war in the way that you want to or what makes sense to you. That’s how you construct your party. A lot of people nowadays get caught up in the idea that there’s 108 characters, and you’ve gotta get all of them, and the only correct way to play the game is to collect every character.</p><p><strong>Nathan: </strong>The Pokemon mentality.&nbsp;&nbsp;</p><p><strong>Aidan:</strong> Exactly. And you get a special ending if you collect all 108 characters; there’s incentive for it. But [creator] Yoshitaka Murayama’s intent was always for people to go through the game and miss characters. So Nathan, you, Chris, and me would all end up with a different assortment of community – a different community we built up around ourselves. That was always the intent. Conflict and community is what you build up around yourself.</p><p>Secondarily to that, and kind of getting back to what Chris was talking about with scope, Jason [Schreier] likes to liken <em>Suikoden </em>to <em>Game of Thrones</em>, the <em>Game of Thrones</em> of JRPGs. But <em>Suikoden</em> actually predates the first <em>Game of Thrones</em> book, which I think is really remarkable. And I think it speaks to a lot of what was going on not just in video games, but epic fantasy at the time – that we were seeing this big explosion of scope where bringing in many, many viewpoints and looking at conflict through many eyes became important to fantasy. </p><p>In the ‘80s we saw a lot of sword and sorcery-style adventure fantasy. Raymond Feist, Terry Brooks. And then in the ‘90s we started to get the <em>Wheel of Times</em> and <em>Game of Thrones</em> that tried to do the same thing <em>Suikoden </em>was doing, which was [to] show that this is complex. There are many, many different sides and motivations. Sometimes they’re at odds. Sometimes they cross over. Sometimes they cross over for a little bit, and then they get pulled apart. I think that holds up really well in these games – even now, even though they’re 30 years old.</p></div><div><h2>Stay in touch</h2><p>Sign up for our free newsletter</p></div><div><h2><span>More from Aftermath</span></h2><div><div><a tabindex="0" href="https://aftermath.site/kotick-kotaku-gizmodo"><h3>Report: Bobby Kotick Files Defamation Suit Against Gizmodo And Kotaku</h3></a><p>The suit is over details in a pair of articles about Kotick's rumored interest in buying TikTok</p></div><div><a tabindex="0" href="https://aftermath.site/duolingo-gamification"><h3>Why Did No One Tell Me Duolingo Is Like This</h3></a><p>I thought it was just, you know, a learning app</p></div></div><a tabindex="0" href="https://aftermath.site/all">See all posts<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13m-6-7 7 7-7 7"></path></svg></a></div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[People Can Fly is developing Project Delta based on a Sony-owned IP]]></title>
-            <link>https://www.thesixthaxis.com/2025/03/14/people-can-fly-is-developing-project-delta-based-on-a-sony-owned-ip/</link>
-            <guid>https://www.resetera.com/threads/people-can-fly-is-developing-project-delta-based-on-a-sony-owned-ip.1135245/</guid>
-            <content:encoded><![CDATA[https://www.thesixthaxis.com/2025/03/14/people-can-fly-is-developing-project-delta-based-on-a-sony-owned-ip/<br/><br/><div id="readability-page-1" class="page"><div itemprop="text">
-	
-		<p>Developer People Can Fly has confirmed that they have entered into an agreement with Sony Interactive Entertainment, producing a prototype of a new video game codenamed Project Delta that is based on an IP owned by Sony.</p>
-<p>There’s a lot of unknowns here, of course, and while the wording seems to imply that PCF is creating a new game based on established IP – and this is also described as ‘work for hire’ contract – it can also be read to mean that Sony will own the IP of whatever PCF create. At this point, Project Delta is just a prototype project, though Sony is funding the production at this stage – as is typical for this kind of work – and it’s obviously hoped that they will get the greenlight at each stage of development to continue.</p>
-
-
-<p>Given the codename of Project Delta, though, why not rampantly speculate that this is a SOCOM reboot? Delta would obviously be an allusion to Delta Force, which is a unit of SOCOM.</p>
-<p>The announcement comes as part of an investor report, with People Can Fly a publicly listed company on the Warsaw Stock Exchange. It’s similar to why we have such detailed disclosures and roadmaps from independent studios like CD Projekt Red and Remedy Entertainment.</p>
-<p>The company has numerous codenamed projects in development though recently had to <a href="https://www.thesixthaxis.com/2024/12/11/people-can-fly-suspend-project-and-layoff-120-employees/">step back from self-publishing efforts with Project Victoria and Bifrost, leading to layoffs</a>. However, they are working on Project Gemini with Square Enix, Project Echo with Krafton and has been <a href="https://www.thesixthaxis.com/2025/01/28/people-can-fly-confirmed-as-gears-of-war-e-day-co-developers/">confirmed as co-developed on Gears of War E-Day</a> (formerly Project Maverick).</p>
-
-<p>Here’s a translation of <a href="https://peoplecanfly.com/wp-content/uploads/2025/03/20250313-raport-biezacy-nr-4-2025-zawarcie-pda-z-sony-delta-final.pdf">PCF’s investor report</a>:</p>
-<p><em>The Management Board of PCF Group S.A. with its registered office in Warsaw (the “Company”) hereby informs that on March 13, 2025, the Company entered into a production agreement (Prototype Development Agreement) (the “Production Agreement”) with Sony Interactive Entertainment LLC, with its registered office in San Mateo, California, United States of America (the “Publisher”), regarding cooperation in the production of a prototype of a new video game codenamed Project Delta (the “Product”), based on intellectual property rights belonging to Publisher.</em></p>
-<p><em>The Production Agreement provides that work on the Product will be carried out in the so-called work-for-hire model, i.e. work performed by the Company as a developer on behalf of and for the Publisher, in return for which the Company will receive an agreed remuneration from the Publisher.</em></p>
-<p><em>In accordance with the Production Agreement, work on the Product will be divided into stages (milestones). Detailed terms of cooperation between the parties regarding the implementation and payment for subsequent stages (milestones) have been specified in the annex to the Production Agreement (milestone schedule).</em></p>
-<p><em>The scope and provisions of the Production Agreement do not differ substantially from the provisions of production agreements typically concluded for such projects.</em></p>
-<p><em>The conclusion of the Production Agreement is in line with the update of the Company’s Strategy and the People Can Fly capital group announced by the Company on 31 January 2023, according to which if attractive opportunities for cooperation with renowned partners in the work-for-hire model arise, the Company will take advantage of them.</em></p>
-
-
-<!-- CONTENT END 1 -->
-
-		
-	</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Hear what Horizon Zero Dawn actor Ashly Burch thinks about Sony AI taking her job]]></title>
-            <link>https://www.theverge.com/news/630176/ashly-burch-sony-ai-horizon-aloy-tech-demo-sag-aftra-strike</link>
-            <guid>https://www.resetera.com/threads/hear-what-horizon-zero-dawn-actor-ashly-burch-thinks-about-sony-ai-taking-her-job.1135242/</guid>
-            <content:encoded><![CDATA[https://www.theverge.com/news/630176/ashly-burch-sony-ai-horizon-aloy-tech-demo-sag-aftra-strike<br/><br/><div id="readability-page-1" class="page"><div id="zephr-anchor"><div><p>Ashly Burch, the award-winning voice and performance actor behind <em>Horizon Zero Dawn</em>’s Aloy — one of the most prominent characters on PlayStation today — has some news and some very strong thoughts about <a href="https://www.theverge.com/news/626695/sony-playstation-ai-characters-aloy-horizon-forbidden-west-prototype">the leaked Sony experiment that saw her character voiced and performed by AI technology</a> instead of her or any other human being.</p></div><p>The video, originally shared with <em>The Verge</em> by a tipster and later pulled off YouTube by a copyright enforcement company that counts Sony PlayStation as a client, was of an internal prototype — not necessarily something that’s in production for actual games. Burch says <em>Horizon</em> developer Guerilla proactively confirmed to her that it is <em>not</em> actively in development. Nor did it use her voice or facial data, Guerilla claimed. </p><p>But Burch says having seen the demo, she is worried, and not just about her own career. “I feel worried about this art form,” she says. You can watch her video immediately below, or scroll down for a transcript. </p><p>The transcript:</p><div><blockquote><p>Hi. Let’s talk about AI Aloy. I saw the tech demo earlier this week. Guerilla reached out to me to let me know that the demo didn’t reflect anything that was actively in development. They didn’t use any of my performance for the demo, so none of my facial or voice data. And Guerilla owns Aloy as a character.</p><p>So all that said, I feel worried. And not worried about Guerilla specifically or <em>Horizon</em> or my performance or my career specifically, even. I feel worried about this art form. Game performance as an art form.</p><p>We are currently on strike. SAG-AFTRA is on strike against video games because of AI. Because this technology exists, because we know that game companies want to use it, we’re asking for protections.</p><p>So currently what we’re fighting for is that you have to get our consent before you make an AI version of us in any form. You have to compensate us fairly and you have to tell us how you’re using this AI double.</p><p>And I feel worried not because the technology exists. Not even because game companies want to use it. Because of course they do. They always want to use technological advancements.</p><p>I just imagine a video like this coming out that does have someone’s performance attached to it. That does have someone’s voice or face or movement. And the possibility that if we lose this fight, that person would have no recourse.</p><p>They wouldn’t have any protections. Any way to fight back. And that possibility… it makes me so sad. It hurts my heart. It scares me.</p><p>I love this industry and this art form so much and I want there to be a new generation of actors. I want there to be so many more incredible game performances.</p><p>I want to be able to continue, to do this job, and if we don’t win, then that future is really compromised.</p></blockquote></div><p>In a slightly longer TikTok version of the video, which we’ve embedded above to replace the original Instagram copy, Burch adds that “I’m genuinely not trying to put any game company specifically on blast, certainly not Guerilla. The technology isn’t the problem. Game companies wanting to use the technology is not the problem. The problem is we’re currently on strike, and the bargaining group will not agree to give us common sense protections.”</p><p>It’s unusual for performers who have such a close relationship with game companies to speak out like this, but we’re also in an unusual moment: as she points out, <a href="https://www.theverge.com/2024/8/5/24213808/video-game-voice-actor-strike-sag-aftra">video game actors are on strike right now, specifically because of AI</a><em>, </em>and the very idea that a company like Sony is explicitly building and demonstrating ways to potentially replace actors like Burch is exactly what the striking workers fear.</p><p>In addition to starring in <em>Horizon Zero Dawn</em>, Burch has had minor roles in other Sony games including <em>The Last of Us Part II</em> and <em>Spider-Man</em>, but is otherwise best known for playing Chloe Price in the <em>Life Is Strange</em> games, Tiny Tina in <em>Borderlands</em>, and from the live-action D&amp;D roleplaying series <em>Critical Role</em> and <a href="https://www.theverge.com/2020/3/13/21177373/ashly-burch-interview-mythic-quest">Apple TV Plus’s <em>Mythic Quest</em></a>, where she also serves as a writer.</p><p><em><strong>Update, March 14th:</strong></em> <em>Swapped Instagram video for Burch’s longer uncut TikTok video and added its additional context.</em></p></div></div>]]></content:encoded>
         </item>
     </channel>
 </rss>
