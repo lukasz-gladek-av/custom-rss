@@ -4,24 +4,294 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Thu, 13 Mar 2025 16:51:54 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 15 Mar 2025 11:36:12 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Epic Games is addressing one of Windows-on-Arm’s last big app compatibility gaps]]></title>
-            <link>https://arstechnica.com/gadgets/2025/03/epic-games-is-addressing-one-of-windows-on-arms-last-big-app-compatibility-gaps/</link>
-            <guid>https://www.resetera.com/threads/epic-games-is-addressing-one-of-windows-on-arm%E2%80%99s-last-big-app-compatibility-gaps.1133565/</guid>
-            <content:encoded><![CDATA[https://arstechnica.com/gadgets/2025/03/epic-games-is-addressing-one-of-windows-on-arms-last-big-app-compatibility-gaps/<br/><br/><div id="readability-page-1" class="page"><div>
+            <title><![CDATA[Why SNES hardware is running faster than expected—and why it’s a problem]]></title>
+            <link>https://arstechnica.com/gaming/2025/03/this-small-snes-timing-issue-is-causing-big-speedrun-problems/</link>
+            <guid>https://www.resetera.com/threads/why-snes-hardware-is-running-faster-than-expected%E2%80%94and-why-it%E2%80%99s-a-problem.1135416/</guid>
+            <content:encoded><![CDATA[https://arstechnica.com/gaming/2025/03/this-small-snes-timing-issue-is-causing-big-speedrun-problems/<br/><br/><div id="readability-page-1" class="page"><div id="main">
+            <article data-id="2082339">
+  
+  <header>
+  <div>
+    <div>
+      <div>
+        <p><span>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><defs><clipPath id="section-gaming_svg__a"><path fill="none" d="M0 0h40v40H0z"></path></clipPath><clipPath id="section-gaming_svg__b"><path fill="none" d="M0 0h40v40H0z"></path></clipPath></defs><g clip-path="url(#section-gaming_svg__a)"><g fill="none" clip-path="url(#section-gaming_svg__b)"><path fill="currentColor" d="M30.7 39.7c-.7-1.1-1.7-1.8-2.5-2.8-.9-1.2 0-2 .8-3 .6-.9 1-1.9.8-3-.6-2.7-3.4-3.3-5.8-3.6-.7-.1-1.8-.2-2.3-.7s-.5-1.4-.5-2.1v-.4l15.5-3.6c2.3-.5 3.7-2.8 3.2-5.1l-2.8-12C36.6 1.1 34.3-.3 32 .2L3.3 6.8C1 7.4-.4 9.7.1 12l2.8 12c.5 2.3 2.8 3.7 5.1 3.2l11.1-2.6c0 1 .2 2.1.7 2.9 1.7 2.7 6 .8 7.6 3.3.8 1.2-.5 2.3-1.1 3.3-.6.9-.9 2-.4 3 .4 1.1 1.4 1.8 2.2 2.6 0 .1.2.2.3.3h2.4c0-.1-.1-.2-.2-.3m.7-28.7c1.3-.3 2.7.5 3 1.9.3 1.3-.5 2.7-1.9 3-1.3.3-2.7-.5-3-1.9-.3-1.3.5-2.7 1.9-3m-6-3.7c1.3-.3 2.7.5 3 1.9.3 1.3-.5 2.7-1.9 3-1.3.3-2.7-.5-3-1.9-.3-1.3.5-2.7 1.9-3m-9.9 13.2-2.7.6-1-4.1-4.1 1-.6-2.7 4.1-1-1-4.1 2.7-.6 1 4.1 4.1-1 .6 2.7-4.1 1z"></path></g></g></svg>
+  </span>
+  <span>
+    gotta go precisely the right speed
+  </span>
+</p>
+      </div>
+
+      
+
+      <p>
+        Cheap, unreliable ceramic APU resonators lead to "constant, pervasive, unavoidable" issues.
+      </p>
+
+      
+    </div>
+
+    <div>
+    
+    <p>
+      Sir, do you know how fast your SNES was going?
+
+              <span>
+          Credit:
+
+          
+          Getty Images
+
+                  </span>
+          </p>
+  </div>
+  </div>
+</header>
+
+
+  
+
+  
+      
+    
+    <div>
                       
                       
-          <p>Using a Windows PC with an Arm-based Snapdragon processor in it feels a lot like using a regular-old Intel or AMD PC these days, thanks to the work developers have put in to get their apps running natively on Arm chips and the work Microsoft has done on <a href="https://arstechnica.com/gadgets/2024/05/microsoft-says-prism-translation-layer-does-for-arm-pcs-what-rosetta-did-for-macs/">Windows' Prism technology for translating x86 apps to run on Arm processors</a>. But some of the old compatibility gaps remain.</p>
-<p>For example, while many PC games will run well enough on an Arm PC without any changes from the game's developer, online multiplayer games that rely on kernel-level anti-cheat software generally don't work. Drivers and other lower-level Windows software can't be translated by Prism, and in many cases, the Arm PC user base is still small enough that developers haven't put in the work to get Arm versions of their software up and running.</p>
-<p>Epic Games is taking a step in that direction later this year—today, the company <a href="https://onlineservices.epicgames.com/en-US/news/windows-on-snapdragon-support-is-coming-to-epic-online-services-anti-cheat-and-fortnite">announced</a> that it's bringing its <a href="https://onlineservices.epicgames.com/en-US/services-games">Epic Online Services Easy Anti-Cheat</a> software to Arm PCs, along with official Windows-on-Arm support for&nbsp;<em>Fortnite</em>. Both are coming to Arm PCs "later this year."</p>
-<p>"In addition to releasing Windows on Snapdragon anti-cheat support for <em>Fortnite</em><em>,</em> we will bring this support to developers through an Epic Online Services SDK release," the company's blog post says. "This will enable developers using Easy Anti-Cheat to bring this compatibility to their own games."</p>
+          
+<p>Ideally, you'd expect any Super NES console—if properly maintained—to operate identically to any other Super NES unit ever made. Given the same base ROM file and the same set of precisely timed inputs, all those consoles should hopefully give the same gameplay output across individual hardware and across time.</p>
+<p>The <a href="https://tas.bot/wiki/Main_Page">TASBot community</a> relies on this kind of solid-state predictability when creating <a href="https://arstechnica.com/gaming/2016/01/how-a-game-playing-robot-coded-super-mario-maker-onto-an-snes-live-on-stage/">tool-assisted speedruns</a> that can be <a href="https://arstechnica.com/gaming/2020/01/inside-tasbots-semi-secret-probably-legal-effort-to-control-the-nintendo-switch/">executed</a> with <a href="https://arstechnica.com/gaming/2017/01/how-a-robot-got-super-mario-64-and-portal-running-on-an-snes/">robotic precision</a> on <a href="https://arstechnica.com/gaming/2016/07/how-to-beat-super-mario-bros-3-in-less-than-a-second/">actual console hardware</a>. But on the SNES in particular, the team has largely struggled to get <a href="https://arstechnica.com/gaming/2011/08/accuracy-takes-power-one-mans-3ghz-quest-to-build-a-perfect-snes-emulator/">emulated speedruns</a> to sync up with demonstrated results on real consoles.</p>
+<p>After significant research and testing on dozens of actual SNES units, the TASBot team now thinks that a cheap ceramic resonator used in the system's Audio Processing Unit (APU) is to blame for much of this inconsistency. While <a href="https://snes.nesdev.org/wiki/SNES_Development_Manual">Nintendo's own documentation</a> says the APU should run at a consistent rate of 24,576 Hz (and the associated Digital Signal Processor sample rate at a flat 32,000 Hz), in practice, that rate can vary just a bit based on heat, system age, and minor physical variations that develop in different console units over time.</p>
+<p>Casual players would only notice this problem in the form of an almost imperceptibly higher pitch for in-game music and sounds. But for TASbot, Allan "dwangoAC" Cecil says this unreliable clock has become a "constant, pervasive, unavoidable" problem for getting frame-accurate consistency in hardware-verified speedruns.</p>
+<h2>Not to spec</h2>
+<figure>
+    <div id="caption-2082448"><p>
+              Cecil testing his own SNES APU in 2016.
+                              </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      Cecil testing his own SNES APU in 2016.
+
+              <span>
+          Credit:
+
+                      <a href="https://tasvideos.org/Forum/Topics/17018?CurrentPage=4&amp;Highlight=444216#444216" target="_blank">
+          
+          Allan Cecil
+
+                      </a>
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>Cecil says he first began to suspect the APU's role in TASBot's SNES problems back in 2016 when he broke open his own console to test it with an external frequency counter. He <a href="https://tasvideos.org/Forum/Topics/17018?CurrentPage=4&amp;Highlight=444216#444216">found</a> that his APU ran just a bit faster than Nintendo's specifications, an inconsistency that could cause the console to throw out unpredictable "lag frames" if and when the CPU and APU load cycles failed to line up in the expected manner. Those lag frames, in turn, are enough to "desynchronize" TASBot's input on actual hardware from the results you'd see on a more controlled emulator.</p>
 
           
                       
-                  </div></div>]]></content:encoded>
+                  </div>
+                    
+        
+          
+    
+    <div>
+          
+          
+<p>Unlike the quartz crystals used in many electronics (including the SNES's more consistent and differently timed CPU), the cheaper ceramic resonators in the SNES APU are "known to degrade over time," as Cecil put it. <a href="https://www.symmetryelectronics.com/getmedia/921363e7-f4b0-4839-ab33-e8e6365a248a/ceramics_resonators_app_manual.pdf">Documentation for the resonators used in the APU</a>&nbsp;also seems to suggest that excess heat may impact the clock cycle speed, meaning the APU might speed up a bit as a specific console heats up.</p>
+<figure>
+    <div id="caption-2082452"><p>
+              The APU resonator manual shows slight variations in operating thresholds based on heart and other factors.
+                              </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      The APU resonator manual shows slight variations in operating thresholds based on heart and other factors.
+
+              <span>
+          Credit:
+
+                      <a href="https://www.symmetryelectronics.com/getmedia/921363e7-f4b0-4839-ab33-e8e6365a248a/ceramics_resonators_app_manual.pdf" target="_blank">
+          
+          Ceralock ceramic resonator manual
+
+                      </a>
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>The TASBot team was not the first group to notice this kind of audio inconsistency in the SNES. In the early 2000s, some emulator developers <a href="https://forums.bannister.org/ubbthreads.php?ubb=showflat&amp;Number=52693#Post52693">found</a> that certain late-era SNES games don't run correctly when the emulator's Digital Signal Processor (DSP) sample rate is set to the Nintendo-specified value of precisely 32,000 Hz (a number derived from the speed of the APU clock). Developers <a href="https://web.archive.org/web/20030914232710/https://alpha-ii.com/Info/snes-spdif.html">tested actual hardware</a> at the time and found that the DSP was actually running at 32,040 Hz and that setting the emulated DSP to run at that specific rate suddenly fixed the misbehaving commercial games.</p>
+<p>That small but necessary emulator tweak implies that "the original developers who wrote those games were using hardware that... must have been running slightly faster at that point," Cecil told Ars. "Because if they had written directly to what the spec said, it may not have worked."</p>
+
+<h2>Survey says...</h2>
+<p>While research and testing confirmed the existence of these APU variations, Cecil wanted to determine just how big the problem was across actual consoles today. To do that, he <a href="https://nextcloud.tas.bot/index.php/apps/forms/s/TJDiEwP6J7HFfYbPRw4A7dHN">ran an informal online survey</a> last month, cryptically <a href="https://bsky.app/profile/tas.bot/post/3lj47u3fga22n">warning his social media followers</a> that "SNES consoles seem to be getting faster as they age." He asked respondents to <a href="https://forums.nesdev.org/viewtopic.php?t=24610">run a DSP clock measurement ROM</a> on any working SNES hardware they had lying around and to rerun the test after the console had time to warm up.</p>
+<p>After receiving 143 responses and <a href="https://docs.getgrist.com/fpwWkqDcnxXR/SNES-SMP-speed/p/1">crunching the numbers</a>, Cecil said he was surprised to find that temperature seemed to have a minimal impact on measured DSP speed; the measurement only rose an insignificant 8 Hz on average between "cold" and "hot" readings on the same console. Cecil even put his own console in a freezer to see if the DSP clock rate would change as it thawed out and found only a 22 Hz difference as it warmed back up to room temperature.</p>
+
+          
+                  </div>
+                    
+        
+          
+    
+    <div>
+          
+          
+<figure>
+    <div id="caption-2082471"><p>
+              A sample result from the DSP sample test program.
+                              </p><p>
+                  Credit:
+                                      Allan Cecil
+                                  </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      A sample result from the DSP sample test program.
+
+              <span>
+          Credit:
+
+          
+          Allan Cecil
+
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>Those heat effects paled in comparison to the natural clock variation across different consoles, though. The slowest and fastest DSPs in Cecil's sample showed a clock difference of 234 Hz, or about 0.7 percent of the 32,000 Hz specification.</p>
+<p>That difference is small enough that human players probably wouldn't notice it directly; TASBot team member Total estimated it might amount to "at most maybe a second or two [of difference] over hours of gameplay." Skilled speedrunners could notice small differences, though, if differing CPU and APU alignments cause "carefully memorized enemy pattern changes to something else" between runs, Cecil said.</p>
+<p>For a frame-perfect tool-assisted speedrun, though, the clock variations between consoles could cause innumerable headaches. As TASBot team member Undisbeliever <a href="https://undisbeliever.net/blog/20250313-smpspeed.html">explained in his detailed analysis</a>: "On one console this might take 0.126 frames to process the music-tick, on a different console it might take 0.127 frames. It might not seem like much but it is enough to potentially delay the start of song loading by 1 frame (depending on timing, lag and game-code)."</p>
+<figure>
+    <div id="caption-2082449"><p>
+              Cecil's survey found variation across consoles was much higher than the effects of heat on any single console.
+                              </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      Cecil's survey found variation across consoles was much higher than the effects of heat on any single console.
+
+              <span>
+          Credit:
+
+                      <a href="https://docs.getgrist.com/fpwWkqDcnxXR/SNES-SMP-speed/p/1" target="_blank">
+          
+          SNES SMP Speed test survey
+
+                      </a>
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>Cecil also said the survey-reported DSP clock speeds were also a bit higher than he expected, at an average rate of 32,078 Hz at room temperature. That's quite a bit higher than both the 32,000 Hz spec set by Nintendo and the 32,040 Hz rate that emulator developers settled on after sampling actual hardware in 2003.</p>
+<p>To some observers, this is evidence that SNES APUs originally produced in the '90s have been speeding up slightly as they age and could continue to get faster in the coming years and decades. But Cecil says the historical data they have is too circumstantial to make such a claim for certain.</p>
+<p>"We're all a bunch of differently skilled geeks and nerds, and it's in our nature to argue over what the results mean, which is fine," Cecil said. "The only thing we can say with certainty is the statistical significance of the responses that show the current average DSP sample rate is 32,076 Hz, faster on average than the original specification. The rest of it is up to interpretation and a certain amount of educated guessing based on what we can glean."</p>
+
+          
+                  </div>
+                    
+        
+          
+    
+    <div>
+
+        
+        <div>
+          
+          
+<h2>A first step</h2>
+<p>For the TASBot team, knowing just how much real SNES hardware timing can differ from dry specifications (and emulators) is an important step to getting more consistent results on real hardware. But that knowledge hasn't completely solved their synchronization problems. Even when Cecil replaced the ceramic APU resonator in his Super NES with a more accurate quartz version (tuned precisely to match Nintendo's written specification), the team "did not see perfect behavior like we expected," he told Ars.</p>
+<p>Beyond clock speed inconsistencies, Cecil explained to Ars that TASBot team testing has found an additional "jitter pattern" present in the APU sampling that "injects some variance in how long it takes to perform various actions" between runs. That leads to non-deterministic performance even on the same hardware, Cecil said, which means that "TASBot is likely to desync" after just a few minutes of play on most SNES games.</p>
+<figure>
+    <div id="caption-2082473"><p>
+              The order in which these components start when the SNES is reset can have a large impact on clock synchronization.
+                              </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      The order in which these components start when the SNES is reset can have a large impact on clock synchronization.
+
+              <span>
+          Credit:
+
+                      <a href="https://github.com/rasteri/TAStable?tab=readme-ov-file" target="_blank">
+          
+          Rasteri
+
+                      </a>
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p><a href="https://github.com/rasteri/TAStable">Extensive research from Rasteri</a> suggests that these inconsistencies across same-console runs are likely caused by a "very non-deterministic reset circuit" that changes the specific startup order and timing for a console's individual components every time it's powered on. That leads to essentially "infinite possibilities" for the relative place where the CPU and APU clocks start in their "synchronization cycle" for each fresh run, making it impossible to predict specifically where and when lag frames will appear, Rasteri wrote.</p>
+<p>Cecil said these kind of "butterfly effect" timing issues make the Super NES "a surprisingly complicated console [that has] resisted our attempts to fully model it and coerce it into behaving consistently." But he's still hopeful that the team will "eventually find a way to restore an SNES to the behavior game developers expected based on the documentation they were provided without making invasive changes..."</p>
+<p>In the end, though, Cecil <a href="https://bishopfox.com/blog/youre-doing-iot-rng">seems to have developed an almost grudging respect</a> for how the SNES's odd architecture leads to such unpredictable operation in practice. "If you want to deliberately create a source of randomness and non-deterministic behavior, having two clock sources that spinloop independently against one another is a fantastic choice," he said.</p>
+
+
+          
+                  </div>
+
+                  
+          
+
+
+
+
+
+
+  <div>
+    
+
+    <p>
+      Kyle Orland has been the Senior Gaming Editor at Ars Technica since 2012, writing primarily about the business, tech, and culture behind video games. He has journalism and computer science degrees from University of Maryland. He once <a href="https://bossfightbooks.com/collections/books/products/minesweeper-by-kyle-orland">wrote a whole book about <em>Minesweeper</em></a>.
+    </p>
+  </div>
+
+
+  <p>
+    <a href="https://arstechnica.com/gaming/2025/03/this-small-snes-timing-issue-is-causing-big-speedrun-problems/#comments" title="2 comments">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><defs><clipPath id="bubble-zero_svg__a"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath><clipPath id="bubble-zero_svg__b"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath></defs><g clip-path="url(#bubble-zero_svg__a)"><g fill="currentColor" clip-path="url(#bubble-zero_svg__b)"><path d="M80 40c0 22.09-17.91 40-40 40S0 62.09 0 40 17.91 0 40 0s40 17.91 40 40"></path><path d="M40 40 .59 76.58C-.67 77.84.22 80 2.01 80H40z"></path></g></g></svg>
+    2 Comments
+  </a>
+      </p>
+              </div>
+  </article>
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+
+  </div></div>]]></content:encoded>
         </item>
     </channel>
 </rss>
