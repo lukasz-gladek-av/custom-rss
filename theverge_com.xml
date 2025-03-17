@@ -4,9 +4,15 @@
         <title>maGaming RSS Feed - theverge_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/theverge_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for theverge_com</description>
-        <lastBuildDate>Mon, 17 Mar 2025 14:46:49 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 17 Mar 2025 14:55:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Xbox 360 consoles can now be hacked with just a USB key]]></title>
+            <link>https://www.theverge.com/news/631102/xbox-360-hack-homebrew-badupdate-exploit-usb</link>
+            <guid>https://www.resetera.com/threads/xbox-360-consoles-can-now-be-hacked-with-just-a-usb-key.1136679/</guid>
+            <content:encoded><![CDATA[https://www.theverge.com/news/631102/xbox-360-hack-homebrew-badupdate-exploit-usb<br/><br/><div id="readability-page-1" class="page"><div><div><p><a href="https://www.theverge.com/authors/tom-warren">Tom Warren</a> <span>is a senior editor and author of <a href="https://www.theverge.com/notepad-microsoft-newsletter"><i>Notepad</i></a>, who has been covering all things Microsoft, PC, and tech for over 20 years.</span></p></div><div id="zephr-anchor"><p>Xbox 360 modders have discovered a new way to get homebrew apps and games running on the console. A new software-only exploit known as <a href="https://github.com/grimdoomer/Xbox360BadUpdate">BadUpdate</a> allows you to use a USB key to hack past Microsoft’s Hypervisor protections and run unsigned code and games.</p><p><a href="https://www.youtube.com/watch?v=IUK__yGXmds">Modern Vintage Gamer has tested</a> BadUpdate and found that you don’t even have to open up your Xbox 360 console to get it running. Unlike the RGH or JTAG exploits for the Xbox 360, this BadUpdate method just requires a USB key. If you have the time and patience to get this running successfully, you’ll be able to run the Xbox 360 homebrew store which includes games, apps, emulators, utilities, and even custom dashboards.</p><p>There are some limitations, though. If you want to take advantage of BadUpdate then you’ll also need to manually patch every executable you want to run on your Xbox 360. Modern Vintage Gamer says the exploit isn’t always reliable either, or takes some time to pull off. As this exploits Microsoft’s custom Hypervisor on the Xb0x 360, you’ll also need to run this exploit every single time you boot up the console.</p><p>You’ll just need a USB key, the exploit code, and a trial version of <em>Rock Band Blitz</em> that helps enable the bypass. <a href="https://www.youtube.com/watch?v=IUK__yGXmds">Modern Vintage Gamer walks through</a> all the steps in his detailed YouTube video, and there’s a brief guide on the <a href="https://github.com/grimdoomer/Xbox360BadUpdate">GitHub repository</a> that houses this software-only exploit.</p></div></div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Roblox’s new AI model can generate 3D objects]]></title>
             <link>https://www.theverge.com/news/630977/roblox-cube-3d-objects-mesh-ai-text-prompt</link>
