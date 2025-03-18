@@ -4,9 +4,94 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Tue, 18 Mar 2025 14:47:37 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Mar 2025 14:56:33 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[The Half-Life 2 RTX Demo Is An Excellent Showcase of RTX Remix’s Possibilities]]></title>
+            <link>https://wccftech.com/the-half-life-2-rtx-demo-is-an-excellent-showcase-of-rtx-remixs-possibilities/</link>
+            <guid>https://www.resetera.com/threads/the-half-life-2-rtx-demo-is-an-excellent-showcase-of-rtx-remix%E2%80%99s-possibilities.1137759/</guid>
+            <content:encoded><![CDATA[https://wccftech.com/the-half-life-2-rtx-demo-is-an-excellent-showcase-of-rtx-remixs-possibilities/<br/><br/><div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>Ahead of today's public debut of the <a href="https://wccftech.com/half-life-2-rtx-demo-announced-for-march-18-as-rtx-remix-is-officially-released-with-dlss-4-multi-frame-generation/" target="_blank" rel="noopener">Half-Life 2 RTX demo</a>, NVIDIA provided us with access to the first taste of this highly anticipated remaster. Let's first recap what we know about it, though.</p>
+<p>Modders have long toyed with the idea of remastering Valve's 2004 first-person shooter masterpiece using NVIDIA's RTX Remix platform. Even before RTX Remix was officially available in any capacity, modders grabbed Portal RTX (the first example of an RTX Remix-powered remaster) and <a href="https://wccftech.com/portal-rtx-dropped-into-other-games-half-life-2-max-payne-swat-4-makes-them-drop-dead-gorgeous/" target="_blank" rel="noopener">injected it into Half-Life 2</a> with promising results as early as December 2022.</p>
+<p>A few months later, when NVIDIA released the RTX Remix Runtime as open source software, modder Igor Zdrowowicz further <a href="https://wccftech.com/half-life-2-path-tracing-mod-nvidia-rtx-remix/" target="_blank" rel="noopener">demonstrated</a> the potential of the game when coupled with path tracing. However, at Gamescom 2023, we <a href="https://wccftech.com/half-life-2-rtx-is-in-development-by-a-group-of-modders-will-support-ray-tracing-dlss-3-rtx-io/" target="_blank" rel="noopener">learned</a> that a group of modders had formed Orbifold Studios specifically to create Half-Life 2 RTX with the blessing of NVIDIA (and Valve) with RTX Remix. It wouldn't be just a quick and dirty project, either - the team wanted to remaster every single asset in the game, as well as use all of NVIDIA's technologies to the fullest extent. Right away, it was announced that the game would use RTX IO, DLSS 3, and ray tracing. Over time, though, as NVIDIA updated and expanded the RTX suite, the project benefited as well.</p>
+<p>The Half-Life 2 RTX demo includes:</p>
+<ul>
+<li>NVIDIA's most advanced path tracer, featuring up to four times more bounce lights than in <a href="https://wccftech.com/minecraft-rtx-beta-primer-info-impressions/" target="_blank" rel="noopener">Minecraft RTX</a></li>
+<li><a href="https://wccftech.com/rtx-direct-illumination-shows-games-will-soon-feature-up-to-millions-of-dynamic-lights/" target="_blank" rel="noopener">RTX Direct Illumination</a>, which enables millions of dynamic lights in a game environment without major performance or resource constraints. With RTXDI, all geometry emits light, casts shadows, and moves freely and dynamically</li>
+<li><a href="https://wccftech.com/neural-radiance-cache-technique-aims-to-make-path-tracing-faster-on-nvidia-gpus-thanks-to-tensor-cores-and-ai/" target="_blank" rel="noopener">RTX Neural Radiance Cache</a>, the first implementation of <a href="https://wccftech.com/nvidia-announces-rtx-neural-shading-support-going-live-in-aprils-directx12-preview/" target="_blank" rel="noopener">neural shading</a> in a game yet. With NRC, a grid of AI neural networks is trained on a player's real-time game data to calculate indirect lighting for the scene, improving the lighting quality and also performance at the same time. NVIDIA says NRC provides up to 15% improved performance in Half-Life 2 RTX.</li>
+<li>The newly unveiled RTX Volumetrics and RTX Skin effects. The former uses a <a href="https://wccftech.com/nvidia-researchers-demonstrate-new-raytracing-algorithm-that-can-render-direct-lighting-from-millions-of-dynamic-light-sources/" target="_blank" rel="noopener">ReSTIR</a>-based algorithm to calculate volumes and accurately track how light scatters through the air, fog, smoke, and atmosphere, ensuring physically accurate volumetric shadows, light diffusion, and atmospheric depth. The latter is an enhanced form of subsurface scattering that accurately simulates how light interacts with skin.</li>
+<li>Remastered assets with PBR properties</li>
+<li>Remade particles</li>
+<li>NVIDIA DLSS 4 Multi Frame Generation support</li>
+</ul>
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2025/01/RTX-Neural-Radiance-Cache-scaled.jpg"></a></figure>
+
+<p>Needless to say, I enabled all of these effects in this test powered by AMD Ryzen 7 9800X3D and NVIDIA GeForce RTX 5090 Founder's Edition. I manually set NVIDIA DLSS Super Resolution to Quality (it was set to Auto, which likely scales to Performance mode when using 4K resolution) and cranked up Multi Frame Generation to 4x (by default, it's set at 3x). The results were excellent, to say the least.</p>
+<p><iframe title="Half-Life 2 RTX Demo Ravenholm 4K@60 Gameplay - RTX 5090, NVIDIA DLSS 4 Multi Frame Generation" width="500" height="281" src="https://www.youtube.com/embed/uBP8eEJ0Iww?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+<p>The computer averaged 190 frames per second in our Ravenholm benchmark. Moreover, stuttering was nearly nonexistent, with just 3,59% of the frame time in the red area, according to the Frame Latency Analytics Tool.</p>
+<figure>
+<div>
+
+<div>
+		
+		
+		<p><span>2 of 9</span>
+	</p></div></div>
+</figure>
+
+
+<p>The average frame rate was even higher (193 FPS) in the Nova Prospekt level, the second and last available in the Half-Life 2 RTX demo. However, this level registered a far lower minimum frame rate (down to 60 FPS); as such, due to the far larger delta between the maximum and minimum frame rate, the stuttering was significantly higher, according to the data.</p>
+<p><iframe title="Half-Life 2 RTX Nova Prospekt 4K@60 Gameplay - RTX 5090, NVIDIA DLSS 4 Multi Frame Generation" width="500" height="281" src="https://www.youtube.com/embed/k6Ml_3SyoLc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+<p>This level features a lot more fighting, which could help explain the difference. There might be some more optimization left to do, too. Even so, subjectively, that didn't bother me at all while playing it.</p>
+<figure>
+<div>
+
+<div>
+		
+		
+		<p><span>2 of 9</span>
+	</p></div></div>
+</figure>
+
+
+<p>I was so engrossed with the incredible level of visuals that I would have been hard-pressed to notice some micro-stutters, despite usually being quite sensitive to them. Half-Life 2 RTX boasts amazingly remade assets that show outstanding fidelity even when zoomed upon. In this regard, the team at Orbifold has done incredible work so far. And then, of course, there's the path tracing, boosted by RTXDI and Neural Radiance Cache. The game is completely transformed with them, almost entirely for the better, with bounce lights and indirect lighting illuminating everything they should and bringing the environments to life.</p>
+<p>Perhaps the only caveat is of an artistic nature here. If you compare the remaster with the original, in some cases, it could be said that there is a bit too much illumination coming from certain light bulbs, slightly deviating from the somber atmosphere of Half-Life 2. It's a piece of feedback that Orbifold will hopefully take to heart as they fine-tune the game's look before the full release.</p>
+<figure>
+<div>
+
+<div>
+		
+		
+		<p><span>2 of 9</span>
+	</p></div></div>
+</figure>
+
+
+<p>Of course, the RTX Remix platform does allow users extensive amounts of tweaking. However, most players will likely just want to enjoy the remastered game without having to fiddle too much with the developer settings. As such, it may be beneficial to provide a preset that sticks closer to the original game. Beyond that, while the animations were said to have been improved, they're by far the clunkiest part of the demo, standing out negatively in comparison to the great visual strides. Again, hopefully, the full game can deliver improvements in this area.</p>
+<figure>
+<div>
+
+<div>
+		
+		
+		<p><span>2 of 9</span>
+	</p></div></div>
+</figure>
+
+
+<p>Overall, though, the Half-Life 2 RTX demo is an incredibly impressive showcase of the remastering capabilities of the newly released RTX Remix tool (not to mention of NVIDIA's latest technologies, of course). Granted, it's unlikely that many other classics will receive the same level of treatment; in this case, a talented team has grouped and received the help of NVIDIA to develop a professional-grade remaster. Moreover, Valve's game lends itself well to such a remastering job due to its linearity. A game like The Elder Scrolls III: Morrowind, despite originally being among NVIDIA's RTX Remix early showcases, would be much more complicated. Still, several older PC games could be brought to modern standards with the tool, which would be great for everyone.</p>
+
+			
+		</div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Xenoblade Chronicles X: Definitive Edition Review – An Ex-skell-ent Enhancement]]></title>
             <link>https://wccftech.com/review/xenoblade-chronicles-x-definitive-edition/</link>
