@@ -4,9 +4,334 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Tue, 18 Mar 2025 20:20:06 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Mar 2025 20:31:45 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[STALKER 2 Patch 1.3 is here with another 1,200 fixes]]></title>
+            <link>https://www.thesixthaxis.com/2025/03/18/stalker-2-patch-1-3-is-here-with-another-1200-fixes/</link>
+            <guid>https://www.resetera.com/threads/stalker-2-patch-1-3-is-here-with-another-1-200-fixes.1138308/</guid>
+            <content:encoded><![CDATA[https://www.thesixthaxis.com/2025/03/18/stalker-2-patch-1-3-is-here-with-another-1200-fixes/<br/><br/><div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>One month on from the last major update, GSC Game Worlds has dropped <a href="https://www.thesixthaxis.com/tag/stalker-2">STALKER 2</a> Patch 1.3, another huge update with over 1,200 fixes.</p>
+<p>Patch 1.3 for STALKER 2 brings changes and fixes across the AI and A-Life system, game balance, story progression, game performance, locations, audio and more.</p>
+
+
+<p>On a high level, Patch 1.3 has polished animations and behaviours for mutants in combat, rebalanced some arch-artifacts and damage from anomalies for different armours and suits. If combat does go a bit awry, there’s some new death screens that vary upon death.</p>
+<p>It’s also brought fixes for dozens of mission and open world bugs, and there’s fixes for over 100 instances that trigger ‘EXCEPTION_ACCESS_VIOLATION’ errors.</p>
+<p>Looking back on our <a href="https://www.thesixthaxis.com/2024/11/21/stalker-2-review-heart-of-chornobyl/">STALKER 2 review</a>, Miguel said, “STALKER 2: Heart of Chornobyl is an immersive experience like no other. It’s a tense shooter, a gripping survival experience, an immersive explorable sandbox, and a stunning piece of art come to life despite the harrowing circumstances of the team behind it all.”</p>
+
+<p>Here’s the full patch notes high level patch notes for STALKER 2 Patch 1.3 – <a href="https://www.stalker2.com/en/news/patch-1-3">more detailed and granular patch notes are available here</a>.</p>
+
+<ul>
+<li>Made mutants movements during combat smoother.</li>
+<li>Improved the reaction of NPCs to the sound of footsteps.</li>
+<li>Polished ambush behavior for mutants, when Player is hiding behind or on top of props.</li>
+<li>Fixed an issue where mutants didn’t attack other NPCs once Player was in the safe zone.</li>
+</ul>
+
+<ul>
+<li>Arch-artifacts rebalance:
+<ul>
+<li>Weird Water: decreased radiation protection.</li>
+<li>Weird Nut: increased bleeding degeneration speed, further slowed down healing with equipped artifact.</li>
+<li>Weird Flower: Increased smell masking effect.</li>
+<li>Weird Ball: increased stamina gain, increased maximum weight of the artifact, but slowed down weight gain when being shot.</li>
+<li>Weird Kettle: Debuff received from consuming food is now not random, and corresponds to specific type of food.</li>
+<li>Non-Stop Limited Edition energy drinks now have an additional special effect when used with Weird Kettle.</li>
+</ul>
+</li>
+<li>Made A-life encounters a bit more rare on average.</li>
+<li>Nerfed base anomaly damage protections for “combat” armors</li>
+<li>Buffed anomaly damage protection for “science” suites</li>
+<li>Slightly reworked anomaly damage for different anomalies</li>
+<li>Increased damage from destructible explosive props.</li>
+<li>Fixed an issue where the Weird Flower artifact was initially in a dried state instead of an active one after being picked up.</li>
+<li>Increased overall durability for unique weapons found during missions.</li>
+</ul>
+
+<ul>
+<li>Fixed a bug that could let players permanently stack the effect of unequipped artifacts.</li>
+<li>Fixed a bug that could prevent players from being able to use sprint after chaotic movement.</li>
+<li>Fixed an issue that caused some psy-phantoms of blind dogs to have misleading trails.</li>
+<li>Fixed the crash caused by zombification of NPCs.</li>
+<li>Fixed an issue when looting some story NPCs could block the mission.</li>
+<li>Fixed an issue when players could be locked inside the Ranger Station.</li>
+<li>Fixed an issue that could permanently keep visual effects of sleepiness if the save was made during a Main Quest line.</li>
+<li>Fixed issue with light from the flashlights in cutscenes.</li>
+<li>Fixed an issue where high ranked NPCs were able to spawn at Rookie Village location.</li>
+<li>Phantom stalkers that appear under the influence of Psy-effect no longer can damage other NPCs by throwing grenades.</li>
+<li>Fixed an issue where the HUD would sometimes appear transparent after closing the inventory or finishing a cutscene.</li>
+<li>Fixed visual bugs on character costumes (texture stretching caused by awkward animation poses).</li>
+<li>Fixed memory leaks issues when navigating inventory/looting menus (e.g. opening Player stash at Rostok).</li>
+<li>Resolved issues where NPCs got stuck in one place and obstructed player movement.</li>
+<li>Fixed the issue when the output device was resetted after restart of the title.</li>
+<li>Fixed an issue where a guide NPC was missing at Yaniv hub after unlocking Prypiat region.</li>
+<li>UI Update: Fixed localization issues, improved stability, resolved visual bugs in widgets, corrected text corruption, and SFX for a smoother experience.</li>
+</ul>
+<p>Also, almost 100 crashes and EXCEPTION_ACCESS_VIOLATION errors were fixed.</p>
+
+<ul>
+<li>Fixed an issue where player could not complete Escape from the Cage mission via the stealth path due to NPCs with high perception level.</li>
+<li>Fixed an issue where the player could destroy the Jammer before the start of the In the Name of Science mission.</li>
+<li>Fixed an issue where the Escape from the Chemical Plant objective did not complete if the call from the Strelok or Scar was interrupted by a loudspeaker during the Escape from the Cage mission.</li>
+<li>Fixed an issue where no new journal objective appeared and Dark Times mission was stuck after killing Jarl NPC.</li>
+<li>Fixed an issue with Eye of the Storm mission not progressing after reaching the Generators.</li>
+<li>Fixed an issue where side mission A Big Score was not progressing if emission happened while Player was at the Car Park.</li>
+<li>Fixed an issue when Player is not able to loot Faust’s body after receiving a call from Scar during Visions of Truth mission.</li>
+<li>Fixed an issue where Foma NPC could become invincible during the Chasing Ghosts mission.</li>
+<li>Fixed an issue where an encounter mission with Headlight NPC near Bulba Arch anomaly was not starting after completion of Nightingale’s Hunt mission.</li>
+<li>Fixed an issue where Yaryk Mongoose was hostile to the player during the For Science! mission.</li>
+<li>Fixed an issue when the Snork collar was not counted as collected if snork was killed not by a player character during the “In the Name of Science” mission.</li>
+<li>Fixed an issue where Korshunov could disappear at the start of 2nd phase of bossfight during the “Down Below” mission.</li>
+<li>Fixed an issue where All That Is Left mission didn’t cancel after Mateus death, resulting in redundant markers on artifact location.</li>
+<li>Fixed an issue where Akopyan was non interactable at the car park during A Big Score mission.</li>
+<li>Fixed an issue where plank bridges leading to Faust cell were collapsed for Players first arriving at Noontide base during Hot On The Trail mission.</li>
+<li>Fixed an issue where a Chemical Plant encounter mission with wardens shooting fleshes was stuck after luring mutants out.</li>
+<li>Fixed an issue when Jumper and Bluish sometimes was dead during Hot on the Trail mission.</li>
+<li>Fixed an issue when the door to forestry was locked during Extreme Simplicity mission if Player was encountering the emission while leaving the swamps.</li>
+<li>Fixed an issue when a quest NPC was able to be distracted by A-life enemies during the Three Captains mission.</li>
+<li>Fixed an issue where the bayun in collar was at the Detention Center instead of the Boathouse location during the A Minor Incident mission.</li>
+<li>Fixed an issue where the player could not progress through the mission if Heart of Chornobyl artifact was looted directly to the artifact slot from the Strelok’s body.</li>
+<li>Fixed an issue where Richter could be non-interactable at the Slag Heap location during the Back to the Slag Heap mission.</li>
+<li>Fixed an issue where Doctorant Shcherba could be dead for some players during the In Search of Past Glory mission.</li>
+<li>Fixed errors with some mission markers being not displayed correctly.</li>
+<li>Fixed an issue that could stop the progression of Escape the Chemical Plant mission.</li>
+<li>Fixed an issue that made players able to sell the key from the Northern Checkpoint which makes it unavailable to pass through.</li>
+<li>Fixed issues with Help Solder and Talk to Solder mission objectives.</li>
+<li>Fixed an issue where interaction prompt for dialogue with Richter could be missing after defending Yaniv during the The Boundary mission.</li>
+<li>Fixed an issue when Richter stops at the beginning of the path through the river during the Through the valley of the shadow of death mission.</li>
+<li>Fixed an issue where the doors to underground tunnel and Location D could be closed during the Once More unto the Breach mission.</li>
+<li>Fixed an issue where the player could stay in a closed location after a cutscene in the Dangerous Liaisons mission.</li>
+<li>Fixed an issue where the dialogue with prof. Ozersky was unavailable if the player killed Spark NPCs during the A Minor Incident mission.</li>
+<li>Fixed an issue where Dalin could be missing at the infirmary at the Chemical Plant location during the Escape from the Cage mission.</li>
+</ul>
+
+<ul>
+<li>Added multiple new death screens that vary based on the cause of the death.</li>
+<li>Improved facial animations in the mainline.</li>
+<li>Improved audio obstruction for mutants’ sounds.</li>
+<li>Improved the positioning of various sounds.</li>
+<li>Added a new night music theme for Slag Heap.</li>
+<li>Added music for the elevator in SIRCAA.</li>
+<li>Added missing localizations for tutorials.</li>
+<li>Added descriptions that explain what is the difference between armor-piercing and expansive ammo.</li>
+<li>Improved some bullet-caused decals.</li>
+<li>Improved the visibility of enemies at nighttime by increasing the intensity of the NPC flashlights.</li>
+<li>Improved the shadows cast by the player’s flashlight.</li>
+<li>Several attachments and upgrades have been moved from “point of no returns” end game sequence to Prypiat stashes.</li>
+<li>Updates and fixes of NPC movement and shooting animations.</li>
+<li>Added option to change Melee weapon attack button in control settings.</li>
+<li>Added additional idle animations for NPCs with weapons drawn.</li>
+<li>Added new VFX animals and a new type of a visual anomaly.</li>
+</ul>
+<p><em>Source: <a href="https://store.steampowered.com/news/app/1643320/view/831582351143207687">Steam</a></em></p>
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Baldur’s Gate Fans Will Know More About the Franchise’s Future in ‘Short Order’, Says Hasbro]]></title>
+            <link>https://wccftech.com/baldurs-gate-fans-will-know-more-about-the-franchises-future-in-short-order-says-hasbro/</link>
+            <guid>https://www.resetera.com/threads/baldur%E2%80%99s-gate-fans-will-know-more-about-the-franchise%E2%80%99s-future-in-%E2%80%98short-order%E2%80%99-says-hasbro.1138305/</guid>
+            <content:encoded><![CDATA[https://wccftech.com/baldurs-gate-fans-will-know-more-about-the-franchises-future-in-short-order-says-hasbro/<br/><br/><div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>Following the <a href="https://wccftech.com/baldurs-gate-3-saw-more-players-this-year-than-its-release-in-2023/" target="_blank" rel="noopener">incredible (and continued) success of Baldur's Gate 3</a> and <a href="https://wccftech.com/baldurs-gate-4-playable-state/" target="_blank" rel="noopener">Larian's surprising decision not to pursue a sequel</a>, fans have been left wondering what will happen to the franchise next. According to Hasbro Senior Vice President of Digital Games Dan Ayoub, though, it may not be long before some sort of news is shared. <a href="https://www.ign.com/articles/well-hear-more-about-baldurs-gates-future-in-pretty-short-order-hasbro-svp-of-games-says" target="_blank" rel="noopener">Speaking to IGN</a> at GDC 2025, Ayoub said:</p>
+<p><em>A lot of people are very interested in Baldur's Gate. We're kind of working out our plans for the future and what we're going to be doing with that. And actually, in pretty short order, we're going to have some stuff to talk about around that.</em></p>
+<p><em>It's somewhat of an unenviable position. I mean, we're not in a hurry. Right? That's the thing, we're going to take a very measured approach... We've got a lot of plans, a lot of different ways to go about it. We're starting to think about, okay, yeah, we're ready to start dipping toes a little bit and talking about a few things. And I think, in really short order, like I said, again, not to over-tease that point, we're going to have some other things to talk about around that.</em></p>
+<p>That doesn't necessarily mean this announcement would be related to a new mainline installment in the franchise. From Ayoub's statement, it sounds like that is further away from even being agreed upon. However, there could be other ways to keep the interest in Baldur's Gate high.</p>
+<p>Eventually, though, what fans really want is a continuation of Baldur's Gate 3, especially with the incredibly interesting characters introduced in that game. In that regard, Hasbro's Dan Ayoub doesn't back down from the noticeable challenge of rising to that level of anticipation:</p>
+<p><em>I'm never one to shy down from a challenge. I think anything that forces us to raise our creative bar - and developers love to have a high bar to go after, and I think we've actually seen the team push some really interesting ideas that they're like, 'Okay, we need to raise our bar. We need to go bigger on this.' And things like that. So, I think that's our hope, right? We would keep raising the bar and everyone just tries to go a little higher.</em></p>
+<p>What would you like to see next in the revered fantasy RPG series?</p>
+
+			
+		</div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Counter-Strike modders are remaking the classic shooter, and they're using Valve's official Source Engine SDK to do it]]></title>
+            <link>https://www.rockpapershotgun.com/counter-strike-modders-are-remaking-the-classic-shooter-and-theyre-using-valves-official-source-engine-sdk-to-do-it</link>
+            <guid>https://www.resetera.com/threads/counter-strike-modders-are-remaking-the-classic-shooter-and-theyre-using-valves-official-source-engine-sdk-to-do-it.1138302/</guid>
+            <content:encoded><![CDATA[https://www.rockpapershotgun.com/counter-strike-modders-are-remaking-the-classic-shooter-and-theyre-using-valves-official-source-engine-sdk-to-do-it<br/><br/><div id="readability-page-1" class="page"><div data-component="article-header">
+  
+
+    
+
+
+  <p>
+  <figure>
+  <a href="https://assetsio.gnwcdn.com/counter-strike-legacy.jpg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
+  
+  </a>
+
+      <figcaption>
+        <span>
+Image credit:          <cite>CSPromod Dev Team</cite>
+        </span>
+      </figcaption>
+  </figure>
+  </p>
+
+    
+
+</div><div data-component="article-content">
+
+
+
+            <p>
+There are two shooters that I imagine will never die, because they just seem to hang on despite being incredibly old and plenty of other games coming out in the mean-time: <a href="https://www.rockpapershotgun.com/games/team-fortress-2">Team Fortress 2</a>, and <a href="https://www.rockpapershotgun.com/games/counter-strike">Counter-Strike</a> (both <a href="https://www.rockpapershotgun.com/companies/valve">Valve</a> games, funnily enough - they've clearly got the Source (sorry)). <a data-keyword="true" href="https://www.rockpapershotgun.com/games/counter-strike-two">Counter-Strike 2</a>, which came out back in 2023, is the most played shooter of all time on Steam in fact, but even now the original game is still pretty popular. There's literally more than 16,000 people playing it right now. And though it might not be official, a group of modders have come together to remake the 1.6 version of the game.
+</p>
+<!--more-->
+<p>
+Titled CS: Legacy, the team behind it want you to know that this isn't just a fancy mod of the classic shooter, but a "from the ground up" remaking made with completely custom code and original assets. It should still have that same Valve feel to it, though, as the entire thing is being made in the developer's official 2013 Source Engine SDK, albeit with some tinkering with its renderer, shaders, and a few other systems. 
+</p>
+<figure>
+<p>
+<a aria-label="CS:Legacy - Official Announcement Trailer" data-lightbox="false" data-platform="youtube" href="https://www.youtube.com/embed/PspuiHlF5dM?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
+<span>CS:Legacy - Official Announcement Trailer</span>
+<template>
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/PspuiHlF5dM?autoplay=1" frameborder="0" loading="lazy" src="https://www.youtube-nocookie.com/embed/PspuiHlF5dM?autoplay=1" title="CS:Legacy - Official Announcement Trailer">
+</iframe> </template>
+</a>
+</p>
+<a href="https://www.youtube.com/watch?v=PspuiHlF5dM" rel="noopener" target="_blank">Watch on YouTube</a></figure>
+<p>
+According to the trailer (which you can have a gander at above), it'll be coming to Steam in early access some time this year. It being a standalone thing certainly might suggest that it has the all-clear from Valve, which wouldn't be that surprising given how chill the studio is with this kind of thing - I'll remind you of that OG <a data-keyword="true" href="https://www.rockpapershotgun.com/games/half-life">Half-Life</a> remake <a href="https://www.rockpapershotgun.com/games/black-mesa">Black Mesa</a> that came out… <a href="https://www.rockpapershotgun.com/black-mesa-is-fully-launched-for-real">half a decade ago apparently</a>!
+</p>
+<p>
+I'm not much of a shooty person, nor have I ever even played Counter-Strike, but I do love a good fan project like this, and judging from the comments on the trailer, fans of the original shooter seem pretty pumped about this one.
+
+</p></div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[EA Sports Increases Payment To Players In College Football 26]]></title>
+            <link>https://insider-gaming.com/ea-sports-increases-payment-to-players-in-college-football-26/</link>
+            <guid>https://www.resetera.com/threads/ea-sports-increases-payment-to-players-in-college-football-26.1138299/</guid>
+            <content:encoded><![CDATA[https://insider-gaming.com/ea-sports-increases-payment-to-players-in-college-football-26/<br/><br/><div id="readability-page-1" class="page"><div>
+		
+<p>EA Sports is set to pay players who appear in EA Sports College Football 26 a bit more money. According to an email sent out to NCAA Football Bowl Subdivision (FBS) players (via <a href="https://www.nytimes.com/athletic/6213494/2025/03/18/ea-sports-college-football-26-nil-payments/" target="_blank" rel="noreferrer noopener nofollow">The Athletic</a>), the company is increasing payment to $1,500 per player for their inclusion in the game.</p>
+
+
+
+<p>That’s up from the $600 individual players received for College Football 25. </p>
+
+
+
+<p>Players will also get a Deluxe Edition of the game, which is similar to what players from last year’s game received. Select athletes who are brand ambassadors for the game will get additional compensation.</p>
+
+
+
+<p>The increase in player payments comes after College Football 25 became the <a href="https://insider-gaming.com/college-football-25-remains-2024s-best-selling-video-game/" target="_blank" rel="noreferrer noopener nofollow">best-selling sports game</a> in US history, surpassing NBA 2K21. According to an EA representative, again via The Athletic, the increase was done as a way to “make sure athletes feel recognized for the success of the game.”</p>
+
+
+
+<p>EA is expected to spend over $16 million on NIL rights for players to appear in the game before accounting for any extra payments for brand ambassadors as well as the cost of the game itself. </p>
+
+
+
+<p>College Football 26 is expected to launch in July. After not being a part of last year’s game, it’s anticipated that real coaches will be added to the game this year after a <a href="https://x.com/bmarcello/status/1900019548520075267?s=46&amp;t=iGRZfb8A0Ak5amUsoqdLIQ" target="_blank" rel="noreferrer noopener nofollow">leaked cover</a> from a recent EA photoshoot made its way online. No other details about the game are currently known.</p>
+
+
+
+<p>What do you think of EA increasing its payments to players who appear in College Football 26? Let us know down below and join more discussions in the official <a href="https://insider-gaming.com/forum/" target="_blank" rel="noreferrer noopener">Insider Gaming forums</a>.</p>
+
+
+
+<hr>
+
+
+
+<p>For more Insider Gaming, read why <a href="https://insider-gaming.com/ea-sources-confident-of-nfl-license-agreement/" target="_blank" rel="noreferrer noopener">EA sources are confident</a> an agreement to continue the licensing agreement between the studio and the NFL will happen. And don’t forget to&nbsp;<a href="https://insider-gaming.com/subscribe" target="_blank" rel="noreferrer noopener">sign up for our weekly newsletter</a>.&nbsp;</p>
+    <div id="ig-newsletter-holder">
+            <p><span>
+                    SUBSCRIBE to our newsletter to receive the latest news and exclusive leaks every week! No Spam.
+                </span>
+            </p>
+            
+        </div>
+
+	</div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[World of Goo 2 coming to Steam this spring]]></title>
+            <link>https://www.gematsu.com/2025/03/world-of-goo-2-coming-to-steam-this-spring</link>
+            <guid>https://www.resetera.com/threads/world-of-goo-2-coming-to-steam-this-spring.1138296/</guid>
+            <content:encoded><![CDATA[https://www.gematsu.com/2025/03/world-of-goo-2-coming-to-steam-this-spring<br/><br/><div id="readability-page-1" class="page"><div>
+
+    <ul>
+    <li><a href="https://www.gematsu.com/platforms/pc">PC</a></li>    </ul>
+
+    
+    <p><span>Currently available via Epic Games Store.</span>
+      </p></div><div><p><a title="Companies > 2DBOY [2 articles]" href="https://www.gematsu.com/companies/2dboy">2DBOY</a> and <a title="Companies > Tomorrow Corporation [2 articles]" href="https://www.gematsu.com/companies/tomorrow-corporation">Tomorrow Corporation</a> will release the <a title="Platforms > PC [22,644 articles]" href="https://www.gematsu.com/platforms/pc">PC</a> version of physics-based puzzle <a title="Genres > Platformer [636 articles]" href="https://www.gematsu.com/genres/platformer">platformer</a> <em><a title="Games > World of Goo 2 [2 articles]" href="https://www.gematsu.com/games/world-of-goo-2">World of Goo 2</a></em> via <a href="https://store.steampowered.com/app/3385670/World_of_Goo_2/" target="_blank">Steam</a> this spring, the developers announced. <span id="more-950898"></span></p><p><em>World of Goo 2</em> <a href="https://www.gematsu.com/2024/02/world-of-goo-2-launches-may-23-for-switch-pc">first launched</a> for Switch and PC via <a href="https://store.epicgames.com/p/world-of-goo-2" target="_blank">Epic Games Store</a> on August 2, 2024.</p><p>Here is an overview of the game, via its <a href="https://store.steampowered.com/app/3385670/World_of_Goo_2/" target="_blank">Steam page</a>:</p><blockquote><p><strong>About</strong></p><p>Build bridges, grow towers, terraform terrain, and fuel flying machines in the stunning followup to the multi-award winning World of Goo.</p><p>Discover realistic flowing, splashing, viscous liquid. Route the flow of liquid like a river, convert it into Goo Balls, extinguish fires, and solve puzzles.</p><!-- AD: content -->
+        <p><strong>What Strange New <a title="Companies > Creature [2 articles]" href="https://www.gematsu.com/companies/creature">Creature</a>s!</strong></p><p>Discover new species of Goo: Jelly Goo, Liquid Launchers, Growing Goo, Shrinking Goo, Explosive Goo, and more. All with mysterious new properties.</p><p><strong>It Sounds Like…</strong></p><p><em>World of Goo 2</em> has dozens of new musical tracks in a beautiful and haunting new soundtrack.</p><p><strong>Welcome to…</strong></p><p>A thrilling new story to explore over the course of 5 new chapters, bursting with over 60 new levels, each featuring additional challenges.</p><p><strong>You Are Not Alone…</strong></p><p>A powerful company has re-branded as an environmentally friendly, sustainable, green, clean, Goo processing non-profit.Help them collect as much Goo as possible. But what do they really want? Explore a new story spanning hundreds of thousands of years and watch the world change.</p><p><strong>Let’s See What Happens This Time.</strong></p><p>Be careful! The world is beautiful, but it is dangerous. Guide as many Goo Balls into the exit pipe of each area as you can… but what’s on the other end of the pipe?</p></blockquote><p>Watch the Steam announcement trailer below.</p><h2><span>Steam Announce Trailer</span></h2><p><iframe title="World of Goo 2 - Steam Wishlist Teaser" width="500" height="281" src="https://www.youtube.com/embed/bip_GGiFqec?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p></div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[EA Will Pay Student-Athletes $1500 To Appear In CFB 26, More That Double Last Year's Rate]]></title>
+            <link>https://www.gamespot.com/articles/ea-will-pay-student-athletes-1500-to-appear-in-cfb-26-more-that-double-last-years-rate/1100-6530192/?ftag=CAD-01-10abi2f</link>
+            <guid>https://www.resetera.com/threads/ea-will-pay-student-athletes-1500-to-appear-in-cfb-26-more-that-double-last-years-rate.1138293/</guid>
+            <content:encoded><![CDATA[https://www.gamespot.com/articles/ea-will-pay-student-athletes-1500-to-appear-in-cfb-26-more-that-double-last-years-rate/1100-6530192/?ftag=CAD-01-10abi2f<br/><br/><div id="readability-page-1" class="page"><p>
+    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
+  </p><article itemscope="" data-type-id="1100" data-guid="1100-6530192">
+
+            
+            
+  
+
+
+        
+
+  
+
+
+        
+        
+              <section>
+
+                  
+          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
+                <p>After paying college athletes <a href="https://www.gamespot.com/articles/ea-offering-college-athletes-600-to-appear-in-new-football-game/1100-6521289/" data-ref-id="1100-6521289">$600 to appear in College Football 25</a>, EA will pay players more than double that for this year's CFB 26. EA Sports confirmed to FBS players in an email today, obtained by <a href="https://www.nytimes.com/athletic/6213494/2025/03/18/ea-sports-college-football-26-nil-payments/" data-target="true" target="_blank" rel="noopener">The Athletic</a>, stating that players will get $1,500 if they opt in to appear in this year's game. This is no surprise, as <a href="https://www.gamespot.com/articles/ea-college-football-26-could-offer-bigger-payouts-to-players/1100-6529500/" data-ref-id="1100-6529500">this information leaked earlier this year</a>.</p><p>Additionally, players will receive a Deluxe Edition copy of the game--this was also offered in 2025. EA will pay some athletes more for appearing as brand ambassadors, just like last year.</p><p>A spokesperson for EA said, "College sports are growing and changing, and our focus at EA Sports is on continuing to put athletes first as we bring them in the game in College Football 26 and beyond."</p><p>More than 11,000 student-athletes appeared in CFB 25 through Name, Image, and Likeness (NIL) deals, with EA spending more than $6 million to cover that. A spokesperson told The Athletic that EA will double its payment to players to more than $16.5 million to help them feel recognized for the success of CFB 25. Of note, the $16.5 million figure reportedly does not include any further payments to certain players who have ambassador deals or for further payments to cover athletes. </p><p>That game was the <a href="https://www.gamespot.com/gallery/2024s-best-selling-games-in-the-us/2900-5106/#1" data-ref-id="2900-5106">No. 2 best-selling game of 2024 overall in the US</a>, only surpassed by Black Ops 6. CFB 25 was the <a href="https://www.sportsbusinessjournal.com/Articles/2024/12/18/Unpacks/ea-sports-college-football-25-best-selling-sports-video-game-all-time/" data-target="true" target="_blank" rel="noopener nofollow">best-selling sports video game in US history based on dollar sales.</a></p><p><a href="https://x.com/FOS/status/1902076294780624967" data-target="true" target="_blank" rel="noopener nofollow">According to Front Office Sports</a>, EA is also potentially going to negotiate royalty-based payments for certain players on top of the $1,500 appearance fee.</p><p>CFB 26 is in the works now and is expected to launch in July. EA Sports executive Daryl Holt told <a href="https://www.nytimes.com/athletic/6161718/2025/02/27/ea-sports-college-football-26-video-game-sales/" data-target="true" target="_blank" rel="noopener">The Athletic</a> that the team knew it was never going to be able to get everything it wanted to in 2024's game. "So there's a lot of meat left on the bone," he said.</p><p>Holt declined to get into specifics regarding new features for CFB 26, but teased, "We've got a lot of things still to come."</p><p>He added: "We release a game, we understand what's important to players and what they play and what they would like changed, improved or added. This is a game for fans built by college fans ourselves, and we want it to be that type of relationship to understand what's important to them."</p>
+  
+                        
+    
+        
+        
+  
+                                  </div>
+
+          
+        
+  
+  
+                    
+  
+    
+          
+            
+  <div>
+    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
+
+    
+      </div>
+        
+      </section>
+    
+            
+    </article></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Hold Up, Gachiakuta’s Magic System Is Actually Fire]]></title>
+            <link>https://aftermath.site/gachiakuta-magic-system-anime</link>
+            <guid>https://www.resetera.com/threads/hold-up-gachiakuta%E2%80%99s-magic-system-is-actually-fire.1138287/</guid>
+            <content:encoded><![CDATA[https://aftermath.site/gachiakuta-magic-system-anime<br/><br/><div id="readability-page-1" class="page"><div><p>I’ll let y’all in on a little secret: I do not watch every seasonal anime. As someone who was once tasked with writing up <a href="https://kotaku.com/fall-anime-guide-2023-crunchyroll-netflix-hidive-hulu-1850871611" target="_blank" rel="noreferrer noopener">long-ass slideshows</a> breaking down each anime, I no longer have time to watch every new show that crops up on the scene. I’m gonna die one day, so unless I come across a show that catches my eye or gets enough word-of-mouth recommendations from folks whose taste I trust, I’m not tuning in. This feeling is doubly true for new-age shonen anime.&nbsp;</p><p>Having served my time watching <em>One Piece</em>, <em>Bleach</em>, and <em>Naruto </em>when they were concurrently airing, I’ve no big desire to jump on new-age shonen like <em>Fire Force</em> and <em>Black Clover</em>, much less engage in sweaty online conversations about which shows will be the next <a href="https://otaku.fandom.com/wiki/Big_Three" target="_blank" rel="noreferrer noopener">shonen big three</a>. While I’m of the mind that there will <a href="https://gizmodo.com/shonen-jump-big-three-future-2000501015" target="_blank" rel="noreferrer noopener">never be another shonen big three</a>, I’ve tapped on the enclosure of anime fans ramping up their debates over which series to christen as the forerunner of the <a href="https://aftermath.site/dandadan-anime-science-saru-netflix" target="_blank" rel="noreferrer noopener">industry’s best and brightest</a> as heavy hitters like <a href="https://aftermath.site/jujutsu-kaisen-magneto-xavier-gojo-geto" target="_blank" rel="noreferrer noopener"><em>Jujutsu Kaisen</em></a>,<em> My Hero Academia</em>, and <em>Demon Slayer</em> near their end.&nbsp;</p><p>Like Babe Ruth signaling a home run, Crunchyroll has given full-throated confidence points that <a href="https://gizmodo.com/gachiakuta-anime-trailer-crunchyroll-release-date-2000575939" target="_blank" rel="noreferrer noopener"><em>Gachiakuta</em></a> will be that series when it premieres in July. Having peeked at the manga before the release of its official trailer on multiple recommendations from friends, I think it will live up to that lofty claim of the merit of its magic system alone.&nbsp;</p><div><figure><p><iframe title="Gachiakuta | OFFICIAL TRAILER" width="710" height="399" src="https://www.youtube.com/embed/3UkmWacjR7Q?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p></figure></div><p>Before I recount <em>Gachiakuta</em>’s logline, I wanna give an anecdote that’ll tie into its unique magic system and why I think it’s got the juice to be shonen anime’s next big thing. Most of the cool-looking furniture in my apartment came from spontaneous dumpster dives and pawn shop finds. Key among my finds is a perfectly good <a href="https://business.walmart.com/ip/Kings-Brand-Furniture-Kitchen-Island-Storage-Cabinet-with-Marble-Finish-Top-White/3927260608" target="_blank" rel="noreferrer noopener">kitchen island with a marble top</a>, a <a href="https://www.homedepot.com/p/BICIK-63-7-in-Black-Dimmable-Column-Floor-Lamp-with-Display-Shelves-Remote-Control-1-USB-and-1-Type-C-Ports-1-Power-Outlet-H-CJD04-US-MB/330426954?source=shoppingads&amp;locale=en-US&amp;srsltid=AfmBOoqQ4vtFw0bLM_fmfCIGM-2X3ak4DLvkqAyCILzuUbxmwSYbQZvhkqA&amp;gQT=1" target="_blank" rel="noreferrer noopener">column paper lantern floor lamp with built-in outlets and USB ports</a>, and a <a href="https://www.lg.com/us/support/product/lg-42LD520.AUS" target="_blank" rel="noreferrer noopener">42” Logitech TV</a> that I found in the alley behind my current apartment with a sticky note saying it still worked. Whether they were thrown away during a move that couldn’t consolidate space or no longer matched their previous owners' ethos, they’ve come into my possession as pretty nifty mainstays in my apartment.&nbsp;</p><p>So imagine my surprise when my partner told me we should get rid of the dingy TV we swapped out of our bedroom for the better back alley Logitech one we’ve got. Sure, she’s got a point that owning three TVs is a bit much. Plus, since swapping it out in the bedroom, it's been politely sitting by our recycling bin as a reminder that it's overstayed its welcome. But I couldn’t get myself to part with it. Despite that shitty RCA TV having a considerable blue pixel blemish in its lower third, it's been with me longer than any other object in my house. That TV has been with me since my first year of college. It also gave me comfort during hard times when I was fighting off homelessness, living in the basement of a friend of a friend as I used FYE paychecks to slowly pay my way from Cheyenne, Wyoming, back home to Chicago. It was the only TV I ever needed in my first studio apartment when I got into games journalism. If anything, the blue blemish in its lower third was a battle scar, noting how far it has come in its country-wide journey from City National Pawn for the low price of $105.&nbsp;</p><p>To make a long story short, I didn’t get rid of the TV. It's found a new home atop a bookshelf (which I also dumpster-dived for) in my home office with my “work PS5” (which my partner’s rich coworker just gave away because they didn’t want it anymore). Finding a new purpose for my old TV made my heart grow three sizes on some real sentimental shit.&nbsp;</p><p>That feeling is quite literally at the heart of <em>Gachiakuta</em>.&nbsp;</p><p><em>Gachiakuta</em>, created by Kei Urana, is a dystopian action manga. Its hero, Rudo, is a social outcast who spends his days repairing and finding new purposes for trash discarded by rich people. His life is as good as it could be living off the garbage of the rich until he's framed for the murder of his uncle and thrown from a luxurious floating city into the bottomless abyss of a landfill called The Pitt. His ultimate goal is to return to the floating city and exact revenge on the people who threw him away like trash. The only obstacles in his path are Pitt's toxic air, wasteland raiders, and giant kaiju constructed from living piles of junk. While the manga is poised to depict a generational crashout with Rudo, its magic system has me believing <em>Gachiakuta</em> might actually be the next big shonen series.&nbsp;</p><figure><figcaption>The power of friendship with inanimate objects. </figcaption></figure><p><em>Gachiakuta</em>‘s power system allows its heroes to transform sentimental objects into all-powerful weapons. These "vital instruments" can range from construction gloves to a walking cane to a dingy umbrella. While its cast of supporting characters only has one vital object, Rudo — being the main character — can turn any discarded object into a vital instrument. From the 20 chapters I've indulged in the manga ahead of its anime premiere, I've seen this ability used with the utmost emotional climax, repurposing childhood trinkets and weapons from his fallen allies. It's a simple concept, sure, but it's more intriguing than watching characters charge up and arbitrarily get stronger. Put that in the mix with the series’ worldbuilding of the rich dumping trash on the poor à la <a href="https://www.theverge.com/2019/2/1/18207027/alita-battle-angel-review-rosa-salazar-robert-rodriguez-christoph-waltz" target="_blank" rel="noreferrer noopener"><em>Battle Angel Alita</em></a>, and you’ve got pretty interesting new-age shonen on your hands.&nbsp;</p><p><em>Gachiakuta </em>tapped into a part of my brain that few new-age shonen manga have since <em>Chainsaw Man</em> hit the scene with its demons powered by the fear of concepts like death and falling. It also doesn’t hurt that the series is being adapted by <a href="https://www.animenewsnetwork.com/news/2024-10-02/studio-bones-spins-off-production-department-as-new-company-bones-film/.216251" target="_blank" rel="noreferrer noopener">Bones Film</a>, the spin-off production company behind hit anime like <em>My Hero Academia,</em> <em>Fullmetal Alchemist: Brotherhood</em>, and <em>Mob Psycho 100. </em>I’ll be watching to see if the series lives up to the hype on my RCA TV.&nbsp;</p></div><div><h2>Stay in touch</h2><p>Sign up for our free newsletter</p></div><div><h2><span>More from Aftermath</span></h2><div><div><a tabindex="0" href="https://aftermath.site/kotaku-australia-dead-inside-do-not-enter"><h3>Kotaku.com.au Would Have Been Better Off Dead</h3></a><p>A 404 would have been preferable to whatever this is</p></div><div><a tabindex="0" href="https://aftermath.site/kotick-kotaku-gizmodo"><h3>Report: Bobby Kotick Files Defamation Suit Against Gizmodo And Kotaku</h3></a><p>The suit is over details in a pair of articles about Kotick's rumored interest in buying TikTok</p></div></div><a tabindex="0" href="https://aftermath.site/all">See all posts<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13m-6-7 7 7-7 7"></path></svg></a></div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[How Big is the Assassin’s Creed Shadows Map? (Answered)]]></title>
             <link>https://insider-gaming.com/how-big-assassins-creed-shadows-map/</link>
@@ -668,140 +993,6 @@ A proper patch for all of Rise of the Ronin's issues <a href="https://store.stea
             
         </div>
 
-	</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Croc: Legend of the Gobbos remaster gets a PC and console release date]]></title>
-            <link>https://www.eurogamer.net/croc-legend-of-the-gobbos-remaster-gets-a-pc-and-console-release-date</link>
-            <guid>https://www.resetera.com/threads/croc-legend-of-the-gobbos-remaster-gets-a-pc-and-console-release-date.1138137/</guid>
-            <content:encoded><![CDATA[https://www.eurogamer.net/croc-legend-of-the-gobbos-remaster-gets-a-pc-and-console-release-date<br/><br/><div id="readability-page-1" class="page"><div data-component="article-header">
-  
-
-    
-
-
-  <p>
-  <figure>
-  <a href="https://assetsio.gnwcdn.com/croc-remaster-crop.jpg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
-  
-  </a>
-
-      <figcaption>
-        <span>
-Image credit:          <cite>Argonaut Games</cite>
-        </span>
-      </figcaption>
-  </figure>
-  </p>
-
-    
-
-</div><div data-component="article-content">
-
-
-
-            <p>
-Fans of developer Argonaut's warmly remembered 3D platformer Croc: Legend of the Gobbos are in for a blast of nostalgia; after a <a href="https://www.eurogamer.net/90s-platformer-remaster-croc-legend-of-the-gobbos-has-been-delayed-into-next-year">bit of a delay</a>, its previously announced remaster has been given a release date, and is launching for PC, Xbox, PlayStation, and Switch on 2nd April.
-</p>
-<p>
-Croc: Legend of the Gobbos, for the uninitiated (or young), launched for the original PlayStation in 1997, taking players - in the guise of the titular crocodile - on a journey through Gobbo Valley in a bid to free their friends from the evil magician Baron Dante. The resulting adventure wasn't <em>exactly</em> a classic of the genre, but it certainly had fans.
-</p>
-<p>
-And now, Argonaut - which was <a href="https://www.eurogamer.net/90s-platformer-croc-legend-of-the-gobbos-is-being-remastered-by-resurrected-argonaut-games">resurrected last year</a>, 20 years after its original closure - is revisiting Croc's first outing with a nostalgia-tweaking update. It promises "vibrant high-definition graphics, a modern control and camera system, and refined gameplay mechanics" as players venture across "beautifully recrafted" levels.
-</p>
-<figure>
-<p>
-<a aria-label="Croc Legend of the Gobbos coming April 2nd!" data-lightbox="false" data-platform="youtube" href="https://www.youtube.com/embed/bTbQv0NENaA?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
-<span>Croc Legend of the Gobbos coming April 2nd!</span>
-<template>
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/bTbQv0NENaA?autoplay=1" frameborder="0" loading="lazy" src="https://www.youtube-nocookie.com/embed/bTbQv0NENaA?autoplay=1" title="Croc Legend of the Gobbos coming April 2nd!">
-</iframe> </template>
-</a>
-</p>
-<figcaption>Croc: Legend of the Gobbos release date trailer.<a href="https://www.youtube.com/watch?v=bTbQv0NENaA" rel="noopener" target="_blank">Watch on YouTube</a></figcaption></figure>
-<p>
-That's alongside the addition of a Crocipedia - a "painstakingly curated" digital museum charting the original game's development through design documents, concept art, animation tests, pre-release music tracks, and interviews with developers past and present.
-</p>
-<p>
-If all that's filled you with the giddy warmth of memories past, Croc: Legend of the Gobbos launches digitally for PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S, Switch, and <a href="https://www.gog.com/en/game/croc_legend_of_the_gobbos">PC via GOG</a> on 2nd April, where it'll cost $29.99 USD.
-</p></div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Assassin’s Creed Shadows – How to find Legendary Chests for best gear and loot]]></title>
-            <link>https://www.thesixthaxis.com/2025/03/18/assassins-creed-shadows-how-to-find-legendary-chests-for-best-gear-and-loot/</link>
-            <guid>https://www.resetera.com/threads/assassin%E2%80%99s-creed-shadows-%E2%80%93-how-to-find-legendary-chests-for-best-gear-and-loot.1138116/</guid>
-            <content:encoded><![CDATA[https://www.thesixthaxis.com/2025/03/18/assassins-creed-shadows-how-to-find-legendary-chests-for-best-gear-and-loot/<br/><br/><div id="readability-page-1" class="page"><div itemprop="text">
-	
-		<p>Assassin’s Creed Shadows is sticking with the action RPG gameplay where gear and loot are a key part of your progression through the game. Weapons and gear come in various types and apply to different gameplay styles, but a basic tanto isn’t going to be anywhere near as good as a legendary tanto, and comes without perks.</p>
-<p>Alongside levelling up and gaining Mastery points, you’ll need to look out for legendary chests and more. Here’s what to look for to get the best gear and loot in <a href="https://www.thesixthaxis.com/tag/assassins-creed-shadows">Assassin’s Creed Shadows</a>.</p>
-<h2>In this guide</h2>
-<ul>
-<li><strong><a href="#section1">Assassin’s Creed Shadows loot tiers and perks explained</a></strong></li>
-<li><strong><a href="#section2">How to find legendary gear and legendary chests in AC Shadows</a></strong></li>
-<li><strong><a href="#section3">Levelling up weapons and gear in AC Shadows</a></strong></li>
-</ul>
-<h2 id="section1">Assassin’s Creed Shadows loot tiers and perks explained</h2>
-<p>Shadows has a loot system that uses the familiar common, uncommon, rare, epic, and legendary item tiers. The higher the tier, the more powerful the piece of equipment, generally speaking, though if you’re particularly lucky and get a good drop, an epic item could be more powerful than a legendary one.</p>
-
-
-<p>Uncommon items and up come with a perk that can make a big difference, like increaseing armour when health is full, or boosting your damage per adrenaline chunk filled, whilst rare items and better can also be inscribed with another perk of your choice at the forge in your hideout.</p>
-
-
-
-<p>Generally speaking the most consistently powerful gear you can count on finding is legendary gear. The stats are betters, the perks are better, and they probably look cooler too. The most consistent way to get it is by opening legendary chests.</p>
-<p>There are a few ways to find legendary chests, but most reliably they are found in castles. To open a castle’s legendary chest you first need to defeat all the Samurai Daisho in that castle which can be a little time consuming, but you’ll also find a bunch of resources which you can later use to upgrade your equipment and earn Mastery points, so it’s time well spent!</p>
-<p>You can also find legendary chests out in the world, and there are a few things to look out for. First, if you see some soldiers threatening a civilian and kill said soldiers, the civilian will reward you with your choice of either a scout support or some world information. The world information can sometimes give you information about a legendary chest nearby, or a kofun, which is a cave to explore with a legendary chest at the end.</p>
-<p>You can also get locations for these chests in kakuregas, which are like outposts where you can fast travel to and restock your equipment. You can get radiant missions from here as well as areas to search for nearby content, such as legendary chests and castles.</p>
-
-<h2 id="section3">Levelling up weapons and gear in Assassin’s Creed Shadows</h2>
-<p>Remember to pick up as many resources as possible as you play, as on top of the loot’s tier system, they also have levels. Once you’ve built a forge at your hideout you’ll be able to upgrade your gear’s level to ensure it’s still useful after you’ve levelled up a bit. When you upgrade the forge you’ll also be able to inscribe another perk onto rare or better equipment, giving you another modifier of your choice. These perks can be very useful and can be unlocked by completing certain challenges in-game, such as a certain amount of assassinations, as well as be rewards for completing certain quests.</p>
-<p>One of the earlier legendary items I found was a tanto for Naoe that, after using a weak point attack (by holding R1 until charged) against a vulnerable enemy, would trigger another vulnerable state afterwards, allowing me to use another weakpoint attack and deal even more damage. As she’s a character that’s much more focused on speed, a skill like this was very useful, so I’ve focused on upgrading it ever since. Once you find an item with a trait that works well for your playstyle, you can keep upgrading it like this until you find a replacement that works even better, or that is so good that it changes how you play.</p>
-<hr>
-<p>There you have it. Looting in Assassin’s Creed Shadows comes with the standard item tiers, but you need to keep a look our for Legendary chests to find the best gear, and then keep on top of upgrades to all your weapons and items.</p>
-
-
-<!-- CONTENT END 1 -->
-
-		
-	</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Assassin’s Creed Shadows – Do I have to play as Naoe and Yasuke?]]></title>
-            <link>https://www.thesixthaxis.com/2025/03/18/assassins-creed-shadows-do-i-have-to-play-as-naoe-and-yasuke/</link>
-            <guid>https://www.resetera.com/threads/assassin%E2%80%99s-creed-shadows-%E2%80%93-do-i-have-to-play-as-naoe-and-yasuke.1138110/</guid>
-            <content:encoded><![CDATA[https://www.thesixthaxis.com/2025/03/18/assassins-creed-shadows-do-i-have-to-play-as-naoe-and-yasuke/<br/><br/><div id="readability-page-1" class="page"><div itemprop="text">
-	
-		<p>With the release of <a href="https://www.thesixthaxis.com/tag/assassins-creed-shadows">Assassin’s Creed Shadows</a>, you get to play as not one, but two characters whilst assassin-ing your way around feudal Japan. Joining forces to thwart another evil plot, Naoe and Yasuke are both very different in just about every way, from their backgrounds and motivations to combat style, tools, and weaponry. As you switch between the two of them at will, you’ll need to adjust your playstyle to account for their strengths and weaknesses, and depending on your preferred playstyle you might wonder, can you play Assassin’s Creed Shadows only as Naoe or Yasuke?</p>
-<h2>In this guide</h2>
-<ul>
-<li><strong><a href="#section1">Who are Naoe and Yasuke in Assassin’s Creed Shadows?</a></strong></li>
-<li><strong><a href="#section2">Who is better in AC Shadows: Naoe or Yasuke?</a></strong></li>
-<li><strong><a href="#section3">Can I play as just one character in AC Shadows?</a></strong></li>
-</ul>
-
-<h3>Naoe – the sneaky Ninja Assassin</h3>
-<p>Naoe is a trained shinobi who is out for revenge in typical Assassin’s Creed fashion, which means she’s both stealthy and sneaky, and your go-to for anything involving either of those two things. In addition to being small, quick, and not wearing clunky, loud armour, she also has a grappling hook to help reach rooftops and vantage points, and a set of tools – kunai, shurikens, bells, and smoke bombs. Naturally this combination of things makes her ideal for sneaking into a castle and methodically assassinating every poor guard who happens to be on duty.</p>
-<p>She’s not useless in combat either. She doesn’t deal huge amounts of damage and might have a bit of a tough time taking out the implausibly giant guards, but she is capable provided you make full use of parrying and posture attacks on vulnerable enemies. She can equip two of a katana, a kusarigama, and a tanto/hidden blade combo to fight with and will need to be light on her feet to ensure she doesn’t get boxed in by enemies. The kusarigama will help with that, as its upgrades give improved crowd control.</p>
-
-
-
-<h3>Yasuke – The towering Samurai</h3>
-<p>Yasuke, meanwhile, is an actual samurai. And by actual, I mean he is based on a historical figure. The slave of a Portuguese Jesuit before Lord Oda Nobunaga took an interest in him, he became the first black samurai in history.</p>
-
-<p>Yasuke is built for combat. In addition to being head and shoulders above most other people in the game, he can absorb much more damage than Naoe can, thanks to his full suit of samurai armour, and carries more rations to quickly restore health. He can choose between a long katana, a naginata, a kanabo, a yumi bow, and a teppo, which is a shotgun-like rifle.</p>
-<p>Yasuke doesn’t have any tools, not even a grappling hook, and if you want a ranged weapon you’ll have to use one of your two weapon slots for a bow or teppo. The bow itself can be silent, but guards tend to find it a bit suspicious to see a giant pointing a bow at them. Yasuke’s biggest weakness is how profoundly un-sneaky he is – when he moves he makes more noise than Naoe, as he’s wearing a lot of armour, he climbs much more slowly, and when attempting a leap of faith he bounces right out of the haystack, though still without taking damage thankfully. However, Yasuke doesn’t need any of this. Stealth? He just wades into a camp and fights everyone at once. Climbing? Please, Yasuke can literally sprint through closed gates, breaking them into pieces.</p>
-
-<h2 id="section2">Who is better in AC Shadows: Naoe or Yasuke?</h2>
-<p>As fun as Yasuke is to play as, rushing right into the thick of the action and battering enemies, his impressive lack of stealth does make Naoe the better fit for the stealthy assassin fantasy of the Assassin’s Creed series. Naoe is the better all-rounder.&nbsp;She can climb quickly, do the leap of faith, attack from range with her tools, and she has a wrist blade so she can assassinate properly as well, whereas Yasuke can only do “his own type of assassination” which usually involves a beheading and lots of noise. More importantly, Naoe can handle herself in a fight far better than Yasuke can handle stealth. It still won’t be easy when you’re fighting off half a castle as her, but at least she can drop a smoke bomb and run away to hide again.</p>
-
-<h2 id="section3">Can I play as just one character in AC Shadows?</h2>
-<p>The game is clearly designed to necessitate the use of both characters, as Naoe and Yasuke both have important roles through the game’s story, but if you have a favourite, then you can largely stick to playing as just one or the other.</p>
-<p>You can switch at any time when in the open world, and major story missions are broken up with decision points to let you choose which character to play as for the next section, so you can simply pick to play as your favourite of the two at those points. The one sticking point is when you need to talk to specific NPCs as a particular character, forcing you to switch for at least a short time.</p>
-
-
-<!-- CONTENT END 1 -->
-
-		
 	</div></div>]]></content:encoded>
         </item>
     </channel>
