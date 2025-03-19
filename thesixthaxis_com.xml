@@ -4,7 +4,7 @@
         <title>maGaming RSS Feed - thesixthaxis_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/thesixthaxis_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for thesixthaxis_com</description>
-        <lastBuildDate>Wed, 19 Mar 2025 10:48:17 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 19 Mar 2025 10:56:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -22,132 +22,6 @@
 <p>After the minimalist top-down shenanigans of the original, Monaco 2 is much more fleshed out visually with an isometric view into 3D worlds and a painterly art style. It looks rather lovely.</p>
 
 <p>A demo of Monaco 2 was released back in February for Steam Next Fest. The demo features around 2 hours of missions that present their own unique challenges, picking from the line up of five of the thieves from the full game. The demo also featured a mode called “Unreliable Narrator”, which scrambles up the missions in interesting ways.</p>
-
-
-<!-- CONTENT END 1 -->
-
-		
-	</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[STALKER 2 Patch 1.3 is here with another 1,200 fixes]]></title>
-            <link>https://www.thesixthaxis.com/2025/03/18/stalker-2-patch-1-3-is-here-with-another-1200-fixes/</link>
-            <guid>https://www.resetera.com/threads/stalker-2-patch-1-3-is-here-with-another-1-200-fixes.1138308/</guid>
-            <content:encoded><![CDATA[https://www.thesixthaxis.com/2025/03/18/stalker-2-patch-1-3-is-here-with-another-1200-fixes/<br/><br/><div id="readability-page-1" class="page"><div itemprop="text">
-	
-		<p>One month on from the last major update, GSC Game Worlds has dropped <a href="https://www.thesixthaxis.com/tag/stalker-2">STALKER 2</a> Patch 1.3, another huge update with over 1,200 fixes.</p>
-<p>Patch 1.3 for STALKER 2 brings changes and fixes across the AI and A-Life system, game balance, story progression, game performance, locations, audio and more.</p>
-
-
-<p>On a high level, Patch 1.3 has polished animations and behaviours for mutants in combat, rebalanced some arch-artifacts and damage from anomalies for different armours and suits. If combat does go a bit awry, there’s some new death screens that vary upon death.</p>
-<p>It’s also brought fixes for dozens of mission and open world bugs, and there’s fixes for over 100 instances that trigger ‘EXCEPTION_ACCESS_VIOLATION’ errors.</p>
-<p>Looking back on our <a href="https://www.thesixthaxis.com/2024/11/21/stalker-2-review-heart-of-chornobyl/">STALKER 2 review</a>, Miguel said, “STALKER 2: Heart of Chornobyl is an immersive experience like no other. It’s a tense shooter, a gripping survival experience, an immersive explorable sandbox, and a stunning piece of art come to life despite the harrowing circumstances of the team behind it all.”</p>
-
-<p>Here’s the full patch notes high level patch notes for STALKER 2 Patch 1.3 – <a href="https://www.stalker2.com/en/news/patch-1-3">more detailed and granular patch notes are available here</a>.</p>
-
-<ul>
-<li>Made mutants movements during combat smoother.</li>
-<li>Improved the reaction of NPCs to the sound of footsteps.</li>
-<li>Polished ambush behavior for mutants, when Player is hiding behind or on top of props.</li>
-<li>Fixed an issue where mutants didn’t attack other NPCs once Player was in the safe zone.</li>
-</ul>
-
-<ul>
-<li>Arch-artifacts rebalance:
-<ul>
-<li>Weird Water: decreased radiation protection.</li>
-<li>Weird Nut: increased bleeding degeneration speed, further slowed down healing with equipped artifact.</li>
-<li>Weird Flower: Increased smell masking effect.</li>
-<li>Weird Ball: increased stamina gain, increased maximum weight of the artifact, but slowed down weight gain when being shot.</li>
-<li>Weird Kettle: Debuff received from consuming food is now not random, and corresponds to specific type of food.</li>
-<li>Non-Stop Limited Edition energy drinks now have an additional special effect when used with Weird Kettle.</li>
-</ul>
-</li>
-<li>Made A-life encounters a bit more rare on average.</li>
-<li>Nerfed base anomaly damage protections for “combat” armors</li>
-<li>Buffed anomaly damage protection for “science” suites</li>
-<li>Slightly reworked anomaly damage for different anomalies</li>
-<li>Increased damage from destructible explosive props.</li>
-<li>Fixed an issue where the Weird Flower artifact was initially in a dried state instead of an active one after being picked up.</li>
-<li>Increased overall durability for unique weapons found during missions.</li>
-</ul>
-
-<ul>
-<li>Fixed a bug that could let players permanently stack the effect of unequipped artifacts.</li>
-<li>Fixed a bug that could prevent players from being able to use sprint after chaotic movement.</li>
-<li>Fixed an issue that caused some psy-phantoms of blind dogs to have misleading trails.</li>
-<li>Fixed the crash caused by zombification of NPCs.</li>
-<li>Fixed an issue when looting some story NPCs could block the mission.</li>
-<li>Fixed an issue when players could be locked inside the Ranger Station.</li>
-<li>Fixed an issue that could permanently keep visual effects of sleepiness if the save was made during a Main Quest line.</li>
-<li>Fixed issue with light from the flashlights in cutscenes.</li>
-<li>Fixed an issue where high ranked NPCs were able to spawn at Rookie Village location.</li>
-<li>Phantom stalkers that appear under the influence of Psy-effect no longer can damage other NPCs by throwing grenades.</li>
-<li>Fixed an issue where the HUD would sometimes appear transparent after closing the inventory or finishing a cutscene.</li>
-<li>Fixed visual bugs on character costumes (texture stretching caused by awkward animation poses).</li>
-<li>Fixed memory leaks issues when navigating inventory/looting menus (e.g. opening Player stash at Rostok).</li>
-<li>Resolved issues where NPCs got stuck in one place and obstructed player movement.</li>
-<li>Fixed the issue when the output device was resetted after restart of the title.</li>
-<li>Fixed an issue where a guide NPC was missing at Yaniv hub after unlocking Prypiat region.</li>
-<li>UI Update: Fixed localization issues, improved stability, resolved visual bugs in widgets, corrected text corruption, and SFX for a smoother experience.</li>
-</ul>
-<p>Also, almost 100 crashes and EXCEPTION_ACCESS_VIOLATION errors were fixed.</p>
-
-<ul>
-<li>Fixed an issue where player could not complete Escape from the Cage mission via the stealth path due to NPCs with high perception level.</li>
-<li>Fixed an issue where the player could destroy the Jammer before the start of the In the Name of Science mission.</li>
-<li>Fixed an issue where the Escape from the Chemical Plant objective did not complete if the call from the Strelok or Scar was interrupted by a loudspeaker during the Escape from the Cage mission.</li>
-<li>Fixed an issue where no new journal objective appeared and Dark Times mission was stuck after killing Jarl NPC.</li>
-<li>Fixed an issue with Eye of the Storm mission not progressing after reaching the Generators.</li>
-<li>Fixed an issue where side mission A Big Score was not progressing if emission happened while Player was at the Car Park.</li>
-<li>Fixed an issue when Player is not able to loot Faust’s body after receiving a call from Scar during Visions of Truth mission.</li>
-<li>Fixed an issue where Foma NPC could become invincible during the Chasing Ghosts mission.</li>
-<li>Fixed an issue where an encounter mission with Headlight NPC near Bulba Arch anomaly was not starting after completion of Nightingale’s Hunt mission.</li>
-<li>Fixed an issue where Yaryk Mongoose was hostile to the player during the For Science! mission.</li>
-<li>Fixed an issue when the Snork collar was not counted as collected if snork was killed not by a player character during the “In the Name of Science” mission.</li>
-<li>Fixed an issue where Korshunov could disappear at the start of 2nd phase of bossfight during the “Down Below” mission.</li>
-<li>Fixed an issue where All That Is Left mission didn’t cancel after Mateus death, resulting in redundant markers on artifact location.</li>
-<li>Fixed an issue where Akopyan was non interactable at the car park during A Big Score mission.</li>
-<li>Fixed an issue where plank bridges leading to Faust cell were collapsed for Players first arriving at Noontide base during Hot On The Trail mission.</li>
-<li>Fixed an issue where a Chemical Plant encounter mission with wardens shooting fleshes was stuck after luring mutants out.</li>
-<li>Fixed an issue when Jumper and Bluish sometimes was dead during Hot on the Trail mission.</li>
-<li>Fixed an issue when the door to forestry was locked during Extreme Simplicity mission if Player was encountering the emission while leaving the swamps.</li>
-<li>Fixed an issue when a quest NPC was able to be distracted by A-life enemies during the Three Captains mission.</li>
-<li>Fixed an issue where the bayun in collar was at the Detention Center instead of the Boathouse location during the A Minor Incident mission.</li>
-<li>Fixed an issue where the player could not progress through the mission if Heart of Chornobyl artifact was looted directly to the artifact slot from the Strelok’s body.</li>
-<li>Fixed an issue where Richter could be non-interactable at the Slag Heap location during the Back to the Slag Heap mission.</li>
-<li>Fixed an issue where Doctorant Shcherba could be dead for some players during the In Search of Past Glory mission.</li>
-<li>Fixed errors with some mission markers being not displayed correctly.</li>
-<li>Fixed an issue that could stop the progression of Escape the Chemical Plant mission.</li>
-<li>Fixed an issue that made players able to sell the key from the Northern Checkpoint which makes it unavailable to pass through.</li>
-<li>Fixed issues with Help Solder and Talk to Solder mission objectives.</li>
-<li>Fixed an issue where interaction prompt for dialogue with Richter could be missing after defending Yaniv during the The Boundary mission.</li>
-<li>Fixed an issue when Richter stops at the beginning of the path through the river during the Through the valley of the shadow of death mission.</li>
-<li>Fixed an issue where the doors to underground tunnel and Location D could be closed during the Once More unto the Breach mission.</li>
-<li>Fixed an issue where the player could stay in a closed location after a cutscene in the Dangerous Liaisons mission.</li>
-<li>Fixed an issue where the dialogue with prof. Ozersky was unavailable if the player killed Spark NPCs during the A Minor Incident mission.</li>
-<li>Fixed an issue where Dalin could be missing at the infirmary at the Chemical Plant location during the Escape from the Cage mission.</li>
-</ul>
-
-<ul>
-<li>Added multiple new death screens that vary based on the cause of the death.</li>
-<li>Improved facial animations in the mainline.</li>
-<li>Improved audio obstruction for mutants’ sounds.</li>
-<li>Improved the positioning of various sounds.</li>
-<li>Added a new night music theme for Slag Heap.</li>
-<li>Added music for the elevator in SIRCAA.</li>
-<li>Added missing localizations for tutorials.</li>
-<li>Added descriptions that explain what is the difference between armor-piercing and expansive ammo.</li>
-<li>Improved some bullet-caused decals.</li>
-<li>Improved the visibility of enemies at nighttime by increasing the intensity of the NPC flashlights.</li>
-<li>Improved the shadows cast by the player’s flashlight.</li>
-<li>Several attachments and upgrades have been moved from “point of no returns” end game sequence to Prypiat stashes.</li>
-<li>Updates and fixes of NPC movement and shooting animations.</li>
-<li>Added option to change Melee weapon attack button in control settings.</li>
-<li>Added additional idle animations for NPCs with weapons drawn.</li>
-<li>Added new VFX animals and a new type of a visual anomaly.</li>
-</ul>
-<p><em>Source: <a href="https://store.steampowered.com/news/app/1643320/view/831582351143207687">Steam</a></em></p>
 
 
 <!-- CONTENT END 1 -->
