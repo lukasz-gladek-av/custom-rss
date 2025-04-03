@@ -4,7 +4,7 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Thu, 03 Apr 2025 15:36:25 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Apr 2025 15:44:17 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -93,7 +93,17 @@
 			
 			
 			
-			<p>Rumors about the Nintendo Switch 2 hardware supporting NVIDIA DLSS (Deep Learning Super Sampling) and ray tracing features have been circulating since 2023, based on the assumption that the underlying chipset would be the <a href="https://wccftech.com/nintendo-switch-pro-successor-rumored-nvidia-tegra239-soc-confirmed-to-be-real-to-feature-8-core-cpu/" target="_blank" rel="noopener">NVIDIA Tegra 239 SoC</a>.</p>
+			<p><strong>[UPDATE]</strong> As suggested earlier by Nintendo, NVIDIA has now <a href="https://blogs.nvidia.com/blog/nintendo-switch-2-leveled-up-with-nvidia-ai-powered-dlss-and-4k-gaming/" target="_blank" rel="noopener">shared</a> more information on the Nintendo Switch 2 hardware in a brief blog post. Granted, the details are still relatively scarce. However, here's a basic overview:</p>
+<ul>
+<li>1,000 engineer years of effort across every element (from system and chip design to a custom GPU, APIs, and world-class development tools)</li>
+<li>RT Cores that support real-time ray tracing for lighting, reflections, and shadows</li>
+<li>Tensor Cores that support NVIDIA Deep Learning Super Sampling (DLSS)</li>
+<li>Tensor Cores also enable AI-powered face tracking and background removal during video chat</li>
+<li>NVIDIA G-SYNC powered VRR in handheld mode</li>
+<li>10x the graphics performance of the Nintendo Switch</li>
+<li>Improved tools and optimized APIs for faster, more efficient game creation.</li>
+</ul>
+<p><strong>[ORIGINAL STORY]</strong> Rumors about the Nintendo Switch 2 hardware supporting NVIDIA DLSS (Deep Learning Super Sampling) and ray tracing features have been circulating since 2023, based on the assumption that the underlying chipset would be the <a href="https://wccftech.com/nintendo-switch-pro-successor-rumored-nvidia-tegra239-soc-confirmed-to-be-real-to-feature-8-core-cpu/" target="_blank" rel="noopener">NVIDIA Tegra 239 SoC</a>.</p>
 <p>Yesterday, though, Nintendo did not mention these features at all <a href="https://wccftech.com/nintendo-switch-2-launches-june-5th-120fps-4k-support/" target="_blank" rel="noopener">during the Direct</a> or in the <a href="https://wccftech.com/nintendo-switch-2-development-began-before-2019-super-nintendo-switch-was-considered-as-a-name/" target="_blank" rel="noopener">subsequent article</a> posted on the official website. After the showcase, the folks at Digital Foundry went through the released footage of Nintendo Switch 2 games and <a href="https://wccftech.com/nintendo-switch-2-footage-no-dlss-ps4-performance/" target="_blank" rel="noopener">said</a> there was no indication of NVIDIA DLSS being featured in those games, casting further doubts on what seemed like a certainty.</p>
 <p>Now, IGN <a href="https://www.ign.com/articles/nintendo-confirms-switch-2-uses-dlss-and-ray-tracing-but-is-being-super-vague-about-the-details" target="_blank" rel="noopener">has got Nintendo on the record about the subject</a>. Takuhiro Dohta, senior director at Nintendo’s Entertainment Planning &amp; Development Division and one of three people seen in the Nintendo Switch 2 Direct, revealed:</p>
 <p><em>We use DLSS upscaling technology and that's something that we need to use as we develop games. And when it comes to the hardware, it is able to output to a TV at a max of 4K. Whether the software developer is going to use that as a native resolution or get it to upscale is something that the software developer can choose. I think it opens up a lot of options for the software developer to choose from.</em></p>
