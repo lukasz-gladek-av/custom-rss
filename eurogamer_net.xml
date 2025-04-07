@@ -4,9 +4,73 @@
         <title>maGaming RSS Feed - eurogamer_net</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/eurogamer_net.xml</link>
         <description>A cleaned-up version of the original gaming feed for eurogamer_net</description>
-        <lastBuildDate>Mon, 07 Apr 2025 11:21:29 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Apr 2025 11:29:18 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Microsoft unveils Quake 2 "inspired" AI-created demo, but it's practically unplayable]]></title>
+            <link>https://www.eurogamer.net/microsoft-unveils-quake-2-inspired-ai-created-demo-but-its-practically-unplayable</link>
+            <guid>https://www.resetera.com/threads/microsoft-unveils-quake-2-inspired-ai-created-demo-but-its-practically-unplayable.1156959/</guid>
+            <content:encoded><![CDATA[https://www.eurogamer.net/microsoft-unveils-quake-2-inspired-ai-created-demo-but-its-practically-unplayable<br/><br/><div id="readability-page-1" class="page"><div data-component="article-header">
+  
+
+    <div id="main-content">
+        
+
+        <p>"I don't know what this s*** is but it ain't Quake."</p>
+
+    </div>
+
+
+  <p>
+  <figure>
+  <a href="https://assetsio.gnwcdn.com/quake-2-screenshot.png?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank" data-lightbox="true">
+  
+  </a>
+
+      <figcaption>
+        <span>
+Image credit:          <cite>id Software</cite>
+        </span>
+      </figcaption>
+  </figure>
+  </p>
+
+    
+
+</div><div data-component="article-content">
+
+
+
+            <p>Microsoft has created a playable demo "inspired" by <a data-keyword="true" href="https://www.eurogamer.net/games/quake-ii">Quake 2</a> using its new AI tool, but it's practically unplayable.</p>
+<p>Back in February, <a href="https://www.eurogamer.net/microsofts-generative-ai-model-muse-isnt-creating-games-and-its-certainly-not-going-to-solve-game-preservation-expert-says">Microsoft unveiled its Muse tool</a> that uses generative AI to aid "gameplay ideation". Now we can see it in action with something that looks like Quake 2, in a tech demo to show how Microsoft's AI tools can "simulate interactive gameplay".</p>
+<p>Hosted in Copilot Labs and <a href="https://copilot.microsoft.com/wham">playable in a web browser</a>, the demo "dynamically generates gameplay sequences inspired by the classic game Quake 2", <a href="https://copilotlabs.microsoft.com/experiment/copilot-gaming-experiences/">according to a Q&amp;A</a>. "Every input you make triggers the next AI-generated moment in the game, almost as if you were playing the original Quake 2 running on a traditional game engine."</p>
+<figure>
+<p>
+<a aria-label="Newscast: Xbox currently has more first-party games coming to PlayStation 5 this year than Sony" data-lightbox="false" data-platform="youtube" href="https://www.youtube.com/embed/NXBJ-a0iUaw?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
+<span>Newscast: Xbox currently has more first-party games coming to PlayStation 5 this year than Sony</span>
+<template>
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/NXBJ-a0iUaw?autoplay=1" frameborder="0" loading="lazy" src="https://www.youtube-nocookie.com/embed/NXBJ-a0iUaw?autoplay=1" title="Newscast: Xbox currently has more first-party games coming to PlayStation 5 this year than Sony">
+</iframe> </template>
+</a>
+</p>
+<figcaption>Xbox currently has more first-party games coming to PlayStation 5 this year than Sony.<a href="https://www.youtube.com/watch?v=NXBJ-a0iUaw" rel="noopener" target="_blank">Watch on YouTube</a></figcaption></figure>
+<p>To be clear, then, this is not running the game using id's engine. Instead, Microsoft's <a href="https://www.nature.com/articles/s41586-025-08600-3#Sec7">Human Action Model</a> (WHAM) uses generative AI to dynamically predict the next action in the game based on analysing player data.</p>
+<p>The results, though, are pretty appalling. It may resemble Quake 2, but the visuals (and enemies in particular) are blurry, the controls lag, and the frame-by-frame gameplay is enough to give you a headache.</p>
+<p>Some of these limitations have been <a href="https://www.microsoft.com/en-us/research/articles/whamm-real-time-world-modelling-of-interactive-environments/">acknowledged by Microsoft</a>, but worse of all is the context length at just 0.9 seconds of gameplay (which amounts to 9 frames at 10fps). Practically, that means the AI doesn't remember objects or level layouts, meaning if you look to the floor or ceiling and back again the view will have completely changed.</p>
+<p>Is it interesting as an example of what AI can do now? Sure. Is it a playable demo? Barely.</p>
+<figure>
+<a data-lightbox="true" href="https://assetsio.gnwcdn.com/quake-2-ai.PNG?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=80&amp;format=jpg&amp;auto=webp" target="_blank">
+ </a>
+<figcaption>It looks like Quake, but it barely plays like it | <span>Image credit: <cite>Microsoft</cite></span></figcaption>
+</figure>
+<p><a data-keyword="true" href="https://www.eurogamer.net/personas/geoff-keighley">Geoff Keighley</a> shared a video of the demo <a href="https://x.com/geoffkeighley/status/1908593030141202635">on social media</a>, which received plenty of ire in the replies.</p>
+<p>"You can play Quake on a calculator bro why are you doing this in the most resource intensive way possible," reads one response. </p>
+<p>"I don't know what this shit is but it ain't Quake," reads another.</p>
+<p>Other responses have criticised Keighley himself for sharing the video, following his words at last year's The Game Awards responding to layoffs across the industry. "This feels extremely disconnected from what you said just four months ago  about the insane and devastating developer layoffs," reads a reply.</p>
+<p>Last year, <a href="https://www.eurogamer.net/google-has-developed-an-ai-tool-that-generates-fully-playable-3d-worlds">Google also unveiled a similar tool</a> that can generate a playable 3D world.</p>
+<p><a href="https://www.eurogamer.net/how-ai-is-changing-video-game-development-forever">AI is changing video game development</a>, it's clear, but even in the past year more of these supposed advancements have been released.</p></div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[US tariffs cause Nintendo and Sony stock to plunge]]></title>
             <link>https://www.eurogamer.net/us-tariffs-cause-nintendo-and-sony-stock-to-plunge</link>
