@@ -4,9 +4,49 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Tue, 13 May 2025 11:58:14 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 May 2025 12:13:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[DOOM: The Dark Ages Gets Official List of Known Issues; Some PC Issues Will Require Driver Fixes]]></title>
+            <link>https://wccftech.com/doom-the-dark-ages-official-pc-issues/</link>
+            <guid>https://www.resetera.com/threads/doom-the-dark-ages-gets-official-list-of-known-issues-some-pc-issues-will-require-driver-fixes.1187802/</guid>
+            <content:encoded><![CDATA[https://wccftech.com/doom-the-dark-ages-official-pc-issues/<br/><br/><div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>Some of the issues found in the PC version of DOOM: The Dark Ages will require a driver fix, and thus won't be fixed with any patch that may launch once the game releases to the public later this week.</p>
+<p>Following the game's early access release for all who pre-ordered it, developer id Software shared a new FAQ, including a list of known issues on all platforms. The list of PC issues is rather substantial, and includes issues like crashing issues when playing on an RTX 50 series GPU with G-Sync or V-Sync enabled and Multi Frame Generation, game locking issues when resizing the window manually while using AMD FSR frame generation, game launching in the background if alt-tabbing on an NVIDIA GPU, OBS capturing issues and others. Some of these issues, as mentioned above, require some driver fixes and may take some more time to get fixed.</p>
+<p>You can find the full list of DOOM: The Dark Ages known PC issues and their fixes or workarounds below.</p>
+<ul>
+<li><em><b>Issue</b>: If you are playing on an RTX 50 series GPU and enable G-Sync (supported display required) or V-Sync plus Multi Frame Generation through NVIDIA Control Panel you can crash the game.</em></li>
+<li><em><b>Resolution</b>: Until a driver fix is available, the workaround for this issue is to either disable one of these options in the NVIDIA control panel or if you want both enabled, set them in-game.</em></li>
+<li><em><b>Issue</b>: If you are playing on an RTX 40 or 50 series GPU and enable Multi Frame Generation or FrameGen, V-Sync still shows as enabled.</em></li>
+<li><em><b>Resolution</b>: This is a minor cosmetic issue – the game disables V-Sync under the hood in these cases.</em></li>
+<li><em><b>Issue</b>: Users with NVIDIA GPUs may find that Alt-Tabbing while launching the game can cause the game to launch in the background and not be accessible.</em></li>
+<li><em><b>Resolution</b>: This is a known driver issue. Until a fix is available in a driver update, to avert this issue, avoid Alt-Tabbing during game launch. If encountered, it can be resolved by restarting your PC.</em></li>
+<li><em><b>Issue</b>: Users with NVIDIA 50 series GPUs may experience TDRs or system hangs when starting gameplay recording using Shadowplay with MultiFrameGen set to 3x or 4x.</em></li>
+<li><em><b>Resolution</b>: To avoid this issue, either do not use the noted MFG settings or record gameplay with a different application.</em></li>
+<li><em><b>Issue</b>: If capturing with OBS, game visuals may freeze when Alt-tabbing from Fullscreen</em></li>
+<li><em><b>Resolution</b>: Until there is an update from OBS, the workaround for the issue is to capture in Windowed or Borderless mode.</em></li>
+<li><em><b>Issue</b>: The game can lock up when manually resizing the game window with FSR FrameGen enabled.</em></li>
+<li><em><b>Resolution</b>: To avoid this issue, do not manually resize the game window with FSR FrameGen enabled.</em></li>
+<li><em><b>Issue</b>: Users who unplug a 2nd monitor during gameplay may notice that the game has frozen.</em></li>
+<li><em><b>Resolution</b>: To avoid this issue, do not unplug any monitors while playing the game.</em></li>
+<li><em><b>Issue</b>: Players running the game with the MSI Afterburner or RivaTuner overlays enabled may experience stability issues.</em></li>
+<li><em><b>Resolution</b>: To avoid this issue, do not run the game with either application running in the background.</em></li>
+<li><em><b>Issue</b>: In rare cases, players running DOOM: The Dark Ages on a supported PC spec at appropriate settings, who have the latest GPU drivers installed and also have an intel CPU model number that starts with the number 13 or 14 can run into persistent crashing.</em></li>
+<li><em><b>Resolution</b>: In such cases, you may have a corrupted CPU. Please contact intel Customer Support at&nbsp;<a href="https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Fwww.intel.com%2Fcontent%2Fwww%2Fus%2Fen%2Fsupport%2Fcontact.html" target="_blank" rel="noopener">https://www.intel.com/content/www/us/en/support/contact.html</a></em></li>
+</ul>
+<p>DOOM: The Dark Ages also has some known issues on consoles as well. Some of these issues are already being investigated and will potentially be fixed in future updates. You can find the full list <a href="https://store.steampowered.com/news/app/3017860/view/509579946274851061">here</a>.</p>
+<p>DOOM: The Dark Ages is now available on PC, PlayStation 5, Xbox Series X, and Xbox Series S for all those who pre-ordered the game. It will become available for everyone else on May 15th. You can learn more about the latest entry in the popular series by checking out Chris's<a href="https://wccftech.com/review/doom-the-dark-ages-review/"> review.</a></p>
+
+			
+		</div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Monster Hunter Wilds Sales Drive Another Record Year for CAPCOM]]></title>
             <link>https://wccftech.com/monster-hunter-wilds-sales-drive-another-record-year-for-capcom/</link>
@@ -76,31 +116,6 @@
 <p><em>Players can switch between characters in real time to unleash powerful skills and chain QTE combos. As they explore the city’s sprawling environments, they’ll dive into the scenes of crime, hunt for clues in the shadow, battle their enemies and in the process reveal more of the stories of Silvernia.</em></p>
 <p><iframe title="Silver Palace Gameplay Showcase" width="500" height="281" src="https://www.youtube.com/embed/EIUa74hDJiQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
 <p>Pre-registration for PC and mobile devices (which will likely launch before consoles, as usual with these games) can be submitted <a href="https://silverpalace.elementagames.com/en-us/" target="_blank" rel="noopener">on the official game website</a>.</p>
-
-			
-		</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Fallout TV Series Renewed for Third Season; Second Season Gets December Release Window and First New Vegas Teaser]]></title>
-            <link>https://wccftech.com/fallout-tv-series-renewed-for-third-season-second-season-gets-december-release-window-and-first-teaser/</link>
-            <guid>https://www.resetera.com/threads/fallout-tv-series-renewed-for-third-season-second-season-gets-december-release-window-and-first-new-vegas-teaser.1187634/</guid>
-            <content:encoded><![CDATA[https://wccftech.com/fallout-tv-series-renewed-for-third-season-second-season-gets-december-release-window-and-first-teaser/<br/><br/><div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			<p>Just yesterday, we <a href="https://wccftech.com/fallout-tv-show-could-run-for-5-6-seasons-says-lead-cast-member/" target="_blank" rel="noopener">reported</a> that lead cast actor Aaron Moten expects the Amazon Prime Video Fallout TV series to last five or six seasons, based on conversations with the showrunners. A few hours later, Amazon officially renewed the show for a third season, while also announcing that the second season will air on Prime Video this December.</p>
-<p>Vernon Sanders, global head of television at Amazon MGM Studios, said in a statement:</p>
-<p><em>We are absolutely thrilled that our global Prime Video customers will be able to delve deeper into the wonderfully surreal and captivating world of Fallout. Jonah Nolan, Lisa Joy, Geneva Robertson-Dworet, and Graham Wagner have done an exceptional job bringing this beloved video game franchise to vivid life on Prime Video. Together with our amazing partners at Bethesda Games and Bethesda Softworks, we are delighted to announce a third season of Fallout, well ahead of the much-anticipated debut of Season Two.</em></p>
-<p>Fallout TV series executive producers Jonathan Nolan and Lisa Joy stated:</p>
-<p><em>The holidays came a little early this year – we are thrilled to be ending the world all over again for a third season of Fallout. On behalf of our brilliant cast and crew, our showrunners Geneva and Graham, and our partners at Bethesda, we’re grateful to our incredible collaborators at Amazon MGM Studios and to the amazing fans as we continue our adventures in the wasteland together.</em></p>
-<p>Showrunners Geneva Robertson-Dworet and Graham Wagner added:</p>
-<p><em>We’re so grateful to have survived the apocalypse for another season! Thanks to the incredible team — our whole cast and crew, Kilter, and Amazon.</em></p>
-<p>The news came at Amazon Prime Video's Upfront presentation, which was held yesterday at New York’s Beacon Theater. As befitting such an announcement, we also got a season two teaser that you can see below, providing us with the first look at New Vegas in the Fallout TV series.</p>
-<p><iframe title="Fallout Season 2 Teaser" width="500" height="281" src="https://www.youtube.com/embed/tu5EN8V35JM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
-<p>As a reminder, the Fallout TV series takes place around fifteen years after the events seen in Fallout: New Vegas, and the showrunners have already clarified that fans of the game will see a much-changed location. Still, there's little doubt that the debut of season two will once again see the fan-favorite game skyrocket up the most-played charts.</p>
 
 			
 		</div></div>]]></content:encoded>
