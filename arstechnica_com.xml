@@ -4,38 +4,32 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Wed, 14 May 2025 19:59:34 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 14 May 2025 20:09:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[New Switch 2 specs show large performance dip in undocked mode]]></title>
-            <link>https://arstechnica.com/gaming/2025/05/new-switch-2-specs-show-large-performance-dip-in-undocked-mode/</link>
-            <guid>https://www.resetera.com/threads/new-switch-2-specs-show-large-performance-dip-in-undocked-mode.1189326/</guid>
-            <content:encoded><![CDATA[https://arstechnica.com/gaming/2025/05/new-switch-2-specs-show-large-performance-dip-in-undocked-mode/<br/><br/><div id="readability-page-1" class="page"><div>
-          
-          
-<p>Digital Foundry also notes that the Switch 2's stated clock speeds can be tuned to higher theoretical maximums: 1.4 GHz for the GPU and 1.7 GHz for the CPU. Nintendo could eventually make use of this headroom for improved graphical performance and faster loading screens, as <a href="https://www.eurogamer.net/digitalfoundry-2019-nintendo-switch-boost-mode-analysis">it did on the original Switch in 2019</a>. And while developers can adjust the GPU clock rate used by their games, it's unclear if they'll be able to directly overclock to the theoretical maximum themselves.</p>
-<h2>System resources</h2>
-<p>As on the original Switch, 25 percent of the CPU cores and overall memory on the Switch 2 is reserved by the system for OS features and is thus inaccessible to game developers directly. Digital Foundry also notes that some GPU resources are reserved by the system OS, though it didn't provide a precise measurement for this amount.</p>
+            <title><![CDATA[Valve takes another step toward making SteamOS a true Windows competitor]]></title>
+            <link>https://arstechnica.com/gaming/2025/05/valve-adds-steamos-compatible-game-label-as-it-prepares-to-expand-beyond-steam-deck/</link>
+            <guid>https://www.resetera.com/threads/valve-takes-another-step-toward-making-steamos-a-true-windows-competitor.1189512/</guid>
+            <content:encoded><![CDATA[https://arstechnica.com/gaming/2025/05/valve-adds-steamos-compatible-game-label-as-it-prepares-to-expand-beyond-steam-deck/<br/><br/><div id="readability-page-1" class="page"><div>
+                      
+                      
+          <p>We've known for months now that Valve is expanding its Linux-based SteamOS operating system beyond the Steam Deck to other handheld PCs, starting with <a href="https://arstechnica.com/gaming/2024/08/valves-bespoke-steam-deck-os-will-be-officially-available-on-asus-rog-ally/">some versions of the Asus ROG Ally</a>. This week, Valve began making some changes to its Steam storefront to prepare for a future when the Deck isn't the only hardware running SteamOS.</p>
+<p>A new "<a href="https://steamcommunity.com/groups/steamworks/announcements/detail/532097310616717411">SteamOS Compatible</a>" label will begin rolling out "over the next few weeks" to denote "whether a game and all of its middleware is supported on SteamOS," including "game functionality, launcher functionality, and anti-cheat support." Games that don't meet this requirement will be marked as "SteamOS Unsupported." As with current games and the Steam Deck, this label doesn't mean these games won't run, but it does mean there may be some serious compatibility issues that keep the game from running as intended.</p>
+<p>Valve says that "over 18,000 titles on Steam [will] be marked SteamOS compatible out of the gate," and that game developers won't need to do anything extra to earn the label if their titles already support the Steam Deck.</p>
 <figure>
-    <div id="caption-2094868"><p>
-              Using Game Chat on the Switch 2 could have a significant effect on system performance, according to Digital Foundry.
-                              </p><p>
-                  Credit:
-                                      Nintendo
-                                  </p>
-                          </div>
+    
           <figcaption>
         <div>
     
     <p>
-      Using Game Chat on the Switch 2 could have a significant effect on system performance, according to Digital Foundry.
+      The "SteamOS Compatible" designation that will show up for non-Steam-Deck SteamOS users.
 
               <span>
           Credit:
 
           
-          Nintendo
+          Valve
 
                   </span>
           </p>
@@ -43,12 +37,10 @@
       </figcaption>
       </figure>
 
-<p>This time around, those system-level features include <a href="https://arstechnica.com/gaming/2025/04/nintendo-offers-new-details-on-switch-2-hardware-software/">Game Chat</a>, which offers the ability to stream gameplay and/or webcam video from up to four friends to a single system. Even with significant resources set aside by the OS, though, Digital Foundry notes that Game Chat has "a significant impact on system resources," leading Nintendo to provide developers with a testing tool that "simulates API latency and L3 cache misses" that can happen when Game Chat is in use.</p>
-<p>Aside from the core pixel-pushing hardware, the Switch 2 also adds a new separate File Decompression Engine, which can handle loading game data off of the system's 256GB of on-board UFS memory and <a href="https://arstechnica.com/gadgets/2025/04/what-is-microsd-express-and-why-is-it-mandatory-for-the-nintendo-switch-2/">MicroSD Express expansion cards</a> without taxing the CPU. And while the Switch 2's portable screen includes support for variable refresh rates up to 120 Hz, there is currently no official support for VRR on HDMI displays connected to the system's dock.</p>
-<p>While it's fun to look at numbers, the real proof of the Switch 2's hardware power will be in the performance of its games. We look forward to having more direct comparisons of software performance when the console launches next month.</p>
-
+<p>SteamOS uses a collection of app translation technologies called Proton to make unmodified Windows applications run on SteamOS. This technology has dramatically improved SteamOS's game compatibility, compared to older SteamOS versions that required games to support Linux natively, but it still can't support every single game that Windows does.</p>
 
           
+                      
                   </div></div>]]></content:encoded>
         </item>
     </channel>
