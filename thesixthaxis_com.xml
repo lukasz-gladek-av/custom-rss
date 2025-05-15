@@ -4,7 +4,7 @@
         <title>maGaming RSS Feed - thesixthaxis_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/thesixthaxis_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for thesixthaxis_com</description>
-        <lastBuildDate>Thu, 15 May 2025 13:20:57 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 May 2025 13:36:06 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -24,41 +24,6 @@
 <p>Announced back in March, <a href="https://www.thesixthaxis.com/2025/03/27/ubisoft-and-tencent-create-new-subsidiary-just-for-assassins-creed-rainbow-six-far-cry/">Ubisoft is creating a new subsidiary in financial partnership with Tencent</a> to act as a new home for some of its biggest studios and franchise – specifically Assassin’s Creed, Far Cry and Rainbow Six. The expectation is that this will be fully formed by the end of this year.</p>
 <p>That comes after their “cost savings program” (read: layoffs) that took place over the last few years. Guillemot says they “are committed to going further” (read: more layoffs) and will aim to make additional savings of €100 million in the next two years. The company cut around 3,000 jobs in the last two years to save €200 million, so simple maths suggests that 1,500 more jobs will be cut in the next year or two. That’s always reassuring to hear for employees…</p>
 <p><em>Source: <a href="https://staticctf.ubisoft.com/8aefmxkxpxwl/75aGUbWM9kwnQj44Tr7d6H/ce4ca047ddadf45cf1e98cea8d1d7a78/Ubisoft_FY25_PR_English_vfinal.pdf">Ubisoft</a></em></p>
-
-
-<!-- CONTENT END 1 -->
-
-		
-	</div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Valve refutes reports of a Steam data leak – “This was NOT a breach of Steam systems”]]></title>
-            <link>https://www.thesixthaxis.com/2025/05/15/valve-refutes-reports-of-a-steam-data-leak-this-was-not-a-breach-of-steam-systems/</link>
-            <guid>https://www.resetera.com/threads/valve-refutes-reports-of-a-steam-data-leak-%E2%80%93-%E2%80%9Cthis-was-not-a-breach-of-steam-systems%E2%80%9D.1189824/</guid>
-            <content:encoded><![CDATA[https://www.thesixthaxis.com/2025/05/15/valve-refutes-reports-of-a-steam-data-leak-this-was-not-a-breach-of-steam-systems/<br/><br/><div id="readability-page-1" class="page"><div itemprop="text">
-	
-		<p>Following reports of a Steam data leak over the weekend, Valve has investigated the issue and <a href="https://store.steampowered.com/news/app/593110/view/533224478739530145?l=english">issued a statement</a> to firstly refute reports that this is a breach of their systems, and to reassure users that there is no need to change passwords or amend security settings.</p>
-<p>A <a href="https://www.linkedin.com/posts/underdark-ai_cybersecurity-databreach-steam-activity-7327022917370703872-JqN3/">LinkedIn post</a> claimed that a trove of leaked data from Steam included over 89 million user records, but while this initially appeared concerning, fears were allayed somewhat when an update explained that this related to real-time TFA SMS logs – time-sensitive codes that are sent via text message for two factor authentication. This still suggested that a hacker had infiltrated the overarching security system, but had only gained “backend access to a vendor dashboard or API, not Steam directly.”</p>
-
-
-<p>Valve has now issued a statement following their own analysis and confirmed that “was<strong> NOT</strong> a breach of Steam systems,” that details within the leak “did not associate the phone numbers with a Steam account, password information, payment information or other personal data,”&nbsp;and that users “you do not need to change your passwords or phone numbers as a result of this event.”</p>
-<p>What they do advise, however, is that users should set up the Steam Mobile Authenticator.</p>
-<p>Using SMS messages for TFA is an outdated and less secure method of providing a time-sensitive code to users. SMS messages are not encrypted, so if a bad actor were able to intercept those authentication codes in time, they would be able to use them in conjunction with account details and passwords to gain access to an account.</p>
-
-<p>Using an authenticator app with an automatically rotating and generated code from a secure key or that is reliant on encrypted push notifications is much more secure, as this requires access to a trusted device in addition to login and password. Furthermore, Steam now has a more automated login system where you can scan a QR code using the Steam Mobile Authenticator and not have to input account details at all.</p>
-<p>Even with these security options, you do still need to be wary of unexpected emails and messages prompting you to login to personal accounts. There’s always more and more advanced attempts by naughty people to try and fool you into giving them your stuff.</p>
-<p>But for now, if you’re happy and content with your Steam login set up, there’s nothing to worry about.</p>
-<p>Valve’s statement in full:</p>
-<p><em>You may have seen reports of leaks of older text messages that had previously been sent to Steam customers. We have examined the leak sample and have determined&nbsp;<b>this was NOT a breach of Steam systems.</b><wbr></em></p>
-
-<p><em>We’re still digging into the source of the leak, which is compounded by the fact that any SMS messages are unencrypted in transit, and routed through multiple providers on the way to your phone.<wbr></em></p>
-
-<p><em>The leak consisted of older text messages that included one-time codes that were only valid for 15-minute time frames and the phone numbers they were sent to. <b>The leaked data did not associate the phone numbers with a Steam account, password information, payment information or other personal data.</b> Old text messages cannot be used to breach the security of your Steam account, and whenever a code is used to change your Steam email or password using SMS, you will receive a confirmation via email and/or Steam secure messages.<wbr></em></p>
-<p><em>You do not need to change your passwords or phone numbers as a result of this event. It is a good reminder to treat any account security messages that you have not explicitly requested as suspicious. We recommend regularly checking your Steam account security at any time at&nbsp;<wbr></em></p>
-<p><em><a href="https://store.steampowered.com/account/authorizeddevices?snr=1_2108_9__2107">https://store.steampowered.com/account/authorizeddevices</a><wbr></em></p>
-
-<p><em>We also recommend setting up the Steam Mobile Authenticator if you haven’t already, as it gives us the best way to send secure messages about your account and your account’s safety.&nbsp;</em></p>
-<p><em>Source: <a href="https://store.steampowered.com/news/app/593110/view/533224478739530145?l=english">Steam</a></em></p>
 
 
 <!-- CONTENT END 1 -->
