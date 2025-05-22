@@ -4,22 +4,50 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Wed, 21 May 2025 11:28:12 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 22 May 2025 22:33:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[AMD’s $299 Radeon RX 9060 XT brings 8GB or 16GB of RAM to fight the RTX 5060]]></title>
-            <link>https://arstechnica.com/gadgets/2025/05/amds-299-radeon-rx-9060-xt-brings-8gb-or-16gb-of-ram-to-fight-the-rtx-5060/</link>
-            <guid>https://www.resetera.com/threads/amd%E2%80%99s-299-radeon-rx-9060-xt-brings-8gb-or-16gb-of-ram-to-fight-the-rtx-5060.1194747/</guid>
-            <content:encoded><![CDATA[https://arstechnica.com/gadgets/2025/05/amds-299-radeon-rx-9060-xt-brings-8gb-or-16gb-of-ram-to-fight-the-rtx-5060/<br/><br/><div id="readability-page-1" class="page"><div>
+            <title><![CDATA[Why console makers can legally brick your game console]]></title>
+            <link>https://arstechnica.com/gaming/2025/05/why-console-makers-can-legally-brick-your-game-console/</link>
+            <guid>https://www.resetera.com/threads/why-console-makers-can-legally-brick-your-game-console.1197009/</guid>
+            <content:encoded><![CDATA[https://arstechnica.com/gaming/2025/05/why-console-makers-can-legally-brick-your-game-console/<br/><br/><div id="readability-page-1" class="page"><div>
           
           
-<p>AMD didn't provide much by way of performance comparisons, but it's promising that the cards have the same number of compute units as AMD's last-generation RX 7600 series. AMD says that RDNA 4 compute units are much faster than those used for RDNA 3, particularly in games with ray-tracing effects enabled. This helped make the Radeon RX 9070 cards generally as fast or faster than the RX 7900 XTX and 7900 XT series, despite having around two-thirds as many compute units. Sticking with 32 CUs for the 9060 series isn't exciting on paper, but we should still see a respectable generation-over-generation performance bump. The RX 7600 series, by contrast, provided<a href="https://arstechnica.com/gadgets/2023/05/review-amds-269-rx-7600-is-a-good-1080p-card-but-the-rtx-4060-looms/"> a pretty modest performance improvement</a> compared to 2022's Radeon RX 6650 XT.</p>
 
+<figure>
+    <div id="caption-1297817"><p>
+              Consoles like these may get banned from Nintendo's online services, but they tend to still work offline.
+                              </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      Consoles like these may get banned from Nintendo's online services, but they tend to still work offline.
 
-<p>AMD says that the cards' total board power—the amount of power the entire graphics card, including the GPU itself, RAM, and other components—starts at 150 W for the 8GB card and 160 W for the 16GB card, with a maximum TBP of 182 W. That's a shade higher than but generally comparable to the RTX 5060 and 5060 Ti, and (depending on where actual performance ends up) quite a bit more efficient than the RX 7600 series. This partly comes down to a more efficient 4nm TSMC manufacturing process, a substantial upgrade from the 6nm process used for the 7600 series.</p>
-<p>It's unusual for a GPU maker to define a TBP range—more commonly we're just given a single default value. But this is in line with new settings we observed in our RX 9070 review; AMD officially supports a range of different user-selectable TBP numbers in its Catalyst driver package, and some GPU makers were shipping cards that used higher TBPs by default.</p>
-<p>Higher power limits can increase performance, though usually the performance increase is disproportionately small compared to the increase in power draw. These power limits should also generally mean that most 9060 XTs can be powered with a single 8-pin power connector, rather than using multiple connectors or the 12-pin 12VHPWR/12V-2x6 connector.</p>
+              <span>
+          Credit:
+
+                      <a href="https://github.com/reswitched/fusee-launcher/blob/master/report/fusee_gelee.md" target="_blank">
+          
+          Kate Temkin / ReSwitched
+
+                      </a>
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>"Unfortunately, 'bricking' personal devices to limit users’ rights and control their behavior is nothing new," Electronic Frontier Foundation attorney Victoria Noble told Ars Technica. "It would likely take selective enforcement to rise to a problematic level [in court]," attorney Richard Hoeg said.</p>
+<p>Last year, a collection of 17 consumer groups <a href="https://advocacy.consumerreports.org/research/group-letter-ftc-software-tethering">urged the Federal Trade Commission</a> to take a look at the way companies use the so-called practice of "software tethering" to control a device's hardware features after purchase. Thus far, though, the federal consumer watchdog has <a href="https://www.ftc.gov/system/files/documents/closing_letters/nid/160707nestrevolvletter.pdf">shown little interest</a> in enforcing complaints against companies that do so.</p>
+<p>"Companies should not use EULAs to strip people of rights that we normally associate with ownership, like the right to tinker with or modify their own personal devices," Noble told Ars. "[Console] owners deserve the right to make otherwise legal modifications to their own devices without fear that a company will punish them by remotely bricking their [systems]."</p>
+<h2>The court of public opinion</h2>
+<p>In the end, these kinds of draconian bricking clauses may be doing their job even if the console makers involved don't invoke them. "In practice, I expect this kind of thing is more about scaring people away from jailbreaking and modifying their systems and that Nintendo is unlikely to go about bricking large volumes of devices, even if they technically have the right to," Loiterman said.</p>
+<p>"Just because they put a remedy in the EULA doesn’t mean they will certainly use it either," attorney Mark Methenitis said. "My suspicion is this is to go after the people who eventually succeeded in jailbreaking the original Switch and try to prevent that for the Switch 2."</p>
+<p>The threat of public backlash could also hold the console makers back from limiting the offline functionality of any hacked consoles. After citing public scrutiny that companies like <a href="https://www.jalopnik.com/tesla-remotely-removes-autopilot-features-from-customer-1841472617/">Tesla</a>, <a href="https://arstechnica.com/information-technology/2015/05/keurig-stock-drops-10-percent-says-it-was-wrong-about-drm-coffee-pods/">Keurig</a>, and <a href="https://arstechnica.com/tech-policy/2023/01/john-deere-relents-says-farmers-can-fix-their-own-tractors-after-all/">John Deere</a> faced for limiting hardware via software updates, Methenitis said that he "would imagine Nintendo would suffer similar bad publicity if they push things too far."</p>
+<p>That said, legal capacities can sometimes tend to invite their own use. "If the ability is there, someone will want to 'see how it goes.'" Hoeg said.</p>
 
 
           
