@@ -4,50 +4,23 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Fri, 23 May 2025 09:41:13 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 May 2025 16:47:34 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Why console makers can legally brick your game console]]></title>
-            <link>https://arstechnica.com/gaming/2025/05/why-console-makers-can-legally-brick-your-game-console/</link>
-            <guid>https://www.resetera.com/threads/why-console-makers-can-legally-brick-your-game-console.1197009/</guid>
-            <content:encoded><![CDATA[https://arstechnica.com/gaming/2025/05/why-console-makers-can-legally-brick-your-game-console/<br/><br/><div id="readability-page-1" class="page"><div>
+            <title><![CDATA[SteamOS 3.7 brings Valve’s gaming OS to other handhelds and generic AMD PCs]]></title>
+            <link>https://arstechnica.com/gadgets/2025/05/steamos-3-7-brings-valves-gaming-os-to-other-handhelds-and-generic-amd-pcs/</link>
+            <guid>https://www.resetera.com/threads/steamos-3-7-brings-valve%E2%80%99s-gaming-os-to-other-handhelds-and-generic-amd-pcs.1197621/</guid>
+            <content:encoded><![CDATA[https://arstechnica.com/gadgets/2025/05/steamos-3-7-brings-valves-gaming-os-to-other-handhelds-and-generic-amd-pcs/<br/><br/><div id="readability-page-1" class="page"><div>
           
           
-
-<figure>
-    <div id="caption-1297817"><p>
-              Consoles like these may get banned from Nintendo's online services, but they tend to still work offline.
-                              </p>
-                          </div>
-          <figcaption>
-        <div>
-    
-    <p>
-      Consoles like these may get banned from Nintendo's online services, but they tend to still work offline.
-
-              <span>
-          Credit:
-
-                      <a href="https://github.com/reswitched/fusee-launcher/blob/master/report/fusee_gelee.md" target="_blank">
-          
-          Kate Temkin / ReSwitched
-
-                      </a>
-                  </span>
-          </p>
-  </div>
-      </figcaption>
-      </figure>
-
-<p>"Unfortunately, 'bricking' personal devices to limit users’ rights and control their behavior is nothing new," Electronic Frontier Foundation attorney Victoria Noble told Ars Technica. "It would likely take selective enforcement to rise to a problematic level [in court]," attorney Richard Hoeg said.</p>
-<p>Last year, a collection of 17 consumer groups <a href="https://advocacy.consumerreports.org/research/group-letter-ftc-software-tethering">urged the Federal Trade Commission</a> to take a look at the way companies use the so-called practice of "software tethering" to control a device's hardware features after purchase. Thus far, though, the federal consumer watchdog has <a href="https://www.ftc.gov/system/files/documents/closing_letters/nid/160707nestrevolvletter.pdf">shown little interest</a> in enforcing complaints against companies that do so.</p>
-<p>"Companies should not use EULAs to strip people of rights that we normally associate with ownership, like the right to tinker with or modify their own personal devices," Noble told Ars. "[Console] owners deserve the right to make otherwise legal modifications to their own devices without fear that a company will punish them by remotely bricking their [systems]."</p>
-<h2>The court of public opinion</h2>
-<p>In the end, these kinds of draconian bricking clauses may be doing their job even if the console makers involved don't invoke them. "In practice, I expect this kind of thing is more about scaring people away from jailbreaking and modifying their systems and that Nintendo is unlikely to go about bricking large volumes of devices, even if they technically have the right to," Loiterman said.</p>
-<p>"Just because they put a remedy in the EULA doesn’t mean they will certainly use it either," attorney Mark Methenitis said. "My suspicion is this is to go after the people who eventually succeeded in jailbreaking the original Switch and try to prevent that for the Switch 2."</p>
-<p>The threat of public backlash could also hold the console makers back from limiting the offline functionality of any hacked consoles. After citing public scrutiny that companies like <a href="https://www.jalopnik.com/tesla-remotely-removes-autopilot-features-from-customer-1841472617/">Tesla</a>, <a href="https://arstechnica.com/information-technology/2015/05/keurig-stock-drops-10-percent-says-it-was-wrong-about-drm-coffee-pods/">Keurig</a>, and <a href="https://arstechnica.com/tech-policy/2023/01/john-deere-relents-says-farmers-can-fix-their-own-tractors-after-all/">John Deere</a> faced for limiting hardware via software updates, Methenitis said that he "would imagine Nintendo would suffer similar bad publicity if they push things too far."</p>
-<p>That said, legal capacities can sometimes tend to invite their own use. "If the ability is there, someone will want to 'see how it goes.'" Hoeg said.</p>
+<p>Valve's instructions will walk you through downloading a SteamOS recovery image and copying it to a USB drive using either <a href="https://rufus.ie/en/">the Rufus tool</a> (on Windows) or <a href="https://etcher.balena.io/">Balena Etcher</a> (the preferred macOS and Linux utility). After turning Secure Boot off, you should be able to boot from the USB drive and install SteamOS as you would on a regular Steam Deck.</p>
+<p>Note that there's no simple, officially supported way to dual-boot SteamOS and Windows; if you decide to turn your handheld, laptop, or desktop into a new Steam Machine, the only way to make it back into a Windows PC is to re-enable Secure Boot and install a fresh copy from another USB drive.</p>
+<p>The SteamOS 3.7 update (officially, version 3.7.8) also includes <a href="https://store.steampowered.com/news/app/1675200/view/820329049655084700">a bunch of other updates to the underlying software</a>: version 6.11 of the Linux kernel (up from version 6.5 in SteamOS 3.6), "a newer Arch Linux base," version 6.2.5 of the Plasma interface in desktop mode, new Mesa graphics drivers, and various other tweaks and bug fixes.</p>
+<h2>A second act for SteamOS</h2>
+<p>The original version of SteamOS was designed to be&nbsp;<span>widely compatible with all kinds of PC hardware and was available both from major PC manufacturers and as a standalone OS that you could (<a href="https://arstechnica.com/gaming/2013/12/everything-you-need-to-know-to-install-steamos-on-your-very-own-computer/" target="_blank" rel="noopener">and which we did</a>) install on custom,</span>&nbsp;self-built PCs. But these computers and that version of SteamOS <a href="https://arstechnica.com/gaming/2016/06/its-time-to-declare-valves-steam-machines-doa/">mostly flopped</a>, at least in part because they only ran a small subset of games that natively supported Linux.</p>
+<p>The current version of SteamOS launched with more modest aims as the first-party operating system for a single piece of hardware. But by focusing on the game compatibility problem first and leading the way with category-defining hardware, Valve has actually built a much stronger foundation for the current version of SteamOS than it did for the original.</p>
+<p>That doesn't make SteamOS a drop-in replacement for Windows—without strong support for Intel or Nvidia hardware, it's not a great candidate for the majority of gaming PCs, or even Intel-powered gaming handhelds like <a href="https://www.msi.com/Handheld/Claw-A1MX">the MSI Claw A1M</a>. And Windows is set up to be a multi-purpose general-use operating system in ways that SteamOS isn't; Valve still <a href="https://store.steampowered.com/steamos">says</a> that, despite the presence of desktop mode, "users should not consider SteamOS as a replacement for their desktop operating system." But for certain kinds of systems that are primarily used as gaming PCs, SteamOS is a real contender.</p>
 
 
           
