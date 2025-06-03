@@ -4,7 +4,7 @@
         <title>maEurogamerPL RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/eurogamerpl.xml</link>
         <description>A cleaned-up version of the original Eurogamer.pl feed</description>
-        <lastBuildDate>Tue, 03 Jun 2025 15:35:21 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Jun 2025 15:45:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -46,8 +46,8 @@
 
 
             <p>Zgodnie z zapowiedziami, CD Projekt Red zagościł na pokazie State of Unreal 2025, by zaprezentować możliwości silnika Unreal Engine 5 na przykładzie Wiedźmina 4. Ku pozytywnemu zaskoczeniu fanów, polskie studio przygotowało nie tylko filmowy zwiastun, ale i demo technologiczne.</p>
-<p>Deweloperzy z CD Projekt Red przybyli na imprezę z imponującym demem technologicznym <strong>uruchomionym na bazowej konsoli PlayStation 5</strong>. Prezentację rozpoczęto od przejażdżki po zaśnieżonej dolinie w Kovirze - twórcy wykorzystali okazję, aby przyjrzeć się gęstej roślinności wygenerowanej za pomocą techniki Nanite Foliage.</p>
-<p>Demo przedstawia ciąg dalszy wydarzeń z zaprezentowanego wcześniej zwiastuna. Ciri wraca do wioski, by przekazać zleceniodawcy informacje o karawanie zaatakowanej przez potwora. Jazdę przerwano krótką prezentacją techniki Multi Character Motion Matching, dzięki której animacje bohaterki współgrają z ruchem zwierzęcia. Przy okazji - koń Ciri nazywa się Kelpie.</p>
+<p>Deweloperzy z CD Projekt Red przybyli na imprezę z imponującym demem technologicznym <strong>uruchomionym na bazowej konsoli PlayStation 5 w 60 klatkach i włączonym ray tracingiem</strong>. Prezentację rozpoczęto od przejażdżki po zaśnieżonej dolinie w krainie Kovir - twórcy wykorzystali okazję, aby przyjrzeć się gęstej roślinności wygenerowanej za pomocą techniki Nanite Foliage.</p>
+<p>Demo przedstawia ciąg dalszy wydarzeń z zaprezentowanego wcześniej zwiastuna. Ciri wraca do wioski, żeby przekazać zleceniodawcy informacje o karawanie zaatakowanej przez potwora. Jazdę przerwano krótką prezentacją techniki Multi Character Motion Matching, dzięki której animacje bohaterki współgrają z ruchem zwierzęcia. Przy okazji - koń Ciri nazywa się Kelpie.</p>
 <figure>
 <p>
 <a aria-label="The Witcher 4 - Gameplay UE 5.6 Tech Demo | State of Unreal 2025" data-platform="youtube" href="https://www.youtube.com/embed/FJtF3wzPSrY?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
@@ -66,8 +66,26 @@
 
 </figure>
 </figure>
-<p>Spacer po wiosce miał być przede wszystkim pokazem reaktywności postaci niezależnych. Na demie widzimy, że zamiast wejść w bezpośrednią konfrontację, Ciri delikatnie przesuwa NPC napotkanych po drodze. <strong>Warto podkreślić, że w pewnym momencie na ekranie zaprezentowano 300 postaci jednocześnie</strong>. Wygenerowanie tłumu jest mocno obciążające, dlatego studio wykorzystuje technologię Unreal Animation Framework, która pomoże w utrzymaniu płynności.</p>
-<p>Oczywiście trzeba mieć na uwadze, że patrzymy na demo technologiczne z dość wczesnego etapu prac, które ma jedynie zaprezentować, w jakim kierunku zmierza CD Projekt Red. Demo działa w 60 klatkach z włączonym ray tracingiem na bazowym PlayStation 5, co niekoniecznie musi przełożyć się na docelową wydajność pełnej wersji gry.</p>
+<h2>Technologie Unreal Engine w Wiedźminie 4</h2>
+<p>Spacer po wiosce służy przede wszystkim do pokaznia dynamicznego zachowania postaci niezależnych. Na demie widzimy, że zamiast wejść w bezpośrednią konfrontację, Ciri delikatnie przesuwa NPC napotkanych po drodze. <strong>Warto podkreślić, że w pewnym momencie na ekranie zaprezentowano 300 postaci jednocześnie</strong>. Wygenerowanie tłumu jest mocno obciążające, dlatego studio wykorzystuje technologię Unreal Animation Framework, która pomaga w utrzymaniu płynności.</p>
+<p>Każda z zaprezentowanych w demie technologii będzie obsługiwana na wszystkich platformach docelowych, na jakie trafi Wiedźmin 4. Są to między innymi:</p>
+<ul>
+<li><strong>Unreal Animation Framework</strong> - technika odpowiadająca za płynne ruchy postaci</li>
+<li><strong>FastGeo Streaming</strong> - technika umożliwiająca szybkie wczytywanie otoczenia</li>
+<li><strong>Nanite Foliage</strong> - technika pozwalająca wypełnić lasy gęstą roślinnością</li>
+<li><strong>system MASS i technologia MetaHuman</strong> - techniki pozwalające na zarządzanie dynamicznymi tłumami</li>
+<li><strong>ML Deformer</strong> - technika wzbogacająca animacje o detale dotyczące pracy mięśni</li>
+</ul>
+<figure>
+<p>
+<a aria-label="The Witcher 4 - Tech Demo Cinematic | State of Unreal 2025" data-platform="youtube" href="https://www.youtube.com/embed/i_aRhNcHryA?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
+<span>The Witcher 4 - Tech Demo Cinematic | State of Unreal 2025</span>
+<template>
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/i_aRhNcHryA?autoplay=1" frameborder="0" loading="lazy" src="https://www.youtube-nocookie.com/embed/i_aRhNcHryA?autoplay=1" title="The Witcher 4 - Tech Demo Cinematic | State of Unreal 2025">
+</iframe> </template>
+</a>
+</p>
+<a href="https://www.youtube.com/watch?v=i_aRhNcHryA" rel="noopener" target="_blank">Zobacz na YouTube</a></figure>
 <figure data-count="2" role="group">
 <figure>
 
@@ -76,7 +94,10 @@
 
 </figure>
 </figure>
-<p>Za wcześnie jednak na ujawnienie większej liczby szczegółów na temat samego gameplayu. Wiedźmin 4 znajduje się obecnie w fazie intensywnej produkcji, ale na premierę poczekamy jeszcze kilka lat. <strong>CD Projekt potwierdził, że obecny plan zakłada wydanie gry nie wcześniej niż w 2027 roku</strong>.</p></div></div>]]></content:encoded>
+<h2>Demo działa w 60 klatkach na PS5, ale to nie <em>czysty</em> gameplay</h2>
+<p>CD Projekt podkreśla, że zaprezentowany materiał nie jest gameplayem. „<em>To, co pokazaliśmy, to jest demo technologiczne i pierwsze spojrzenie na najnowocześniejszą technologię napędzającą Wiedźmina 4 - ale nie jest to prezentacja samej gry</em>” - przekazało studio w komunikacie prasowym.</p>
+<p>„<em>Demo prezentuje solidne fundamenty, które budujemy w ścisłej współpracy z Epic Games, aby popchnąć projektowanie otwartego świata dalej niż kiedykolwiek wcześniej, a także podstawowe systemy i funkcje, które opracowujemy przy użyciu silnika Unreal Engine 5</em>” - dodała firma</p>
+<p>Wiedźmin 4 znajduje się obecnie w fazie intensywnej produkcji, co oznacza, że na premierę poczekamy jeszcze kilka lat. <strong>CD Projekt potwierdził, że obecny plan zakłada wydanie gry nie wcześniej niż w 2027 roku</strong>.</p></div></div>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Przeniesienie Cyberpunk 2077 na Switcha 2 okazało się prostsze, niż przypuszczał CD Projekt]]></title>
