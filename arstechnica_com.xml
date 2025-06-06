@@ -4,285 +4,54 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Fri, 06 Jun 2025 01:43:18 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 06 Jun 2025 20:24:19 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Nvidia RTX 5060/5060 Ti review: You can have “affordable” or “future-proof.” Pick one.]]></title>
-            <link>https://arstechnica.com/gadgets/2025/06/nvidia-geforce-rtx-5060-ti-and-5060-review-putting-the-mid-in-mid-range/</link>
-            <guid>https://www.resetera.com/threads/nvidia-rtx-5060-5060-ti-review-you-can-have-%E2%80%9Caffordable%E2%80%9D-or-%E2%80%9Cfuture-proof-%E2%80%9D-pick-one.1208706/</guid>
-            <content:encoded><![CDATA[https://arstechnica.com/gadgets/2025/06/nvidia-geforce-rtx-5060-ti-and-5060-review-putting-the-mid-in-mid-range/<br/><br/><div id="readability-page-1" class="page"><div id="main">
-            <article data-id="2097293">
-  
-  <header>
-  <div>
-    
-
-    
-
-    <p>
-      An OK, but uninspiring, end to the 50-series rollout for mid-range gaming PCs.
-    </p>
-
-    
-
-    <div id="caption-2098723">
-    
-    <p>
-      One of Gigabyte's takes on the midrange GeForce RTX 5060.
-
-              <span>
-          Credit:
-
-          
-          Andrew Cunningham
-
-                  </span>
-          </p>
-  </div>
-
-    <div>
-    
-    <p>
-      One of Gigabyte's takes on the midrange GeForce RTX 5060.
-
-              <span>
-          Credit:
-
-          
-          Andrew Cunningham
-
-                  </span>
-          </p>
-  </div>
-  </div>
-</header>
-
-
-  
-
-  
-      
-    
-    <div>
-                      
-                      
-          
-<p>When it comes to Nvidia's GeForce RTX 5060 graphics card, the GPU itself is less interesting than the storm Nvidia stirred up by trying to earn it better reviews. If you don’t follow the twists and turns of graphics card launch metanarratives, allow me to recap the company's behavior for you.</p>
-<p>Though the RTX 5060 launched on May 19, Nvidia and its partners were uncharacteristically slow to ship graphics cards to reviewers. For outlets that received pre-launch hardware, Nvidia didn’t provide the pre-launch drivers that it usually sends out so that reviewers could run their own tests on the cards, informing reviewers on a call that drivers would be available to them and the public on the 19th.</p>
-<p>Except! Nvidia <em>did</em> offer advance drivers to a handful of publications on the condition that they run a few benchmarks that had been pre-selected by Nvidia and that they only report numbers from tests performed with the 50-series new DLSS Multi-Frame Generation (MFG) setting enabled.</p>
-<p>As we've already seen in multiple Nvidia press decks, the company loves to compare these DLSS MFG-inflated numbers to natively rendered frame rates from other graphics cards, because it helps make an otherwise mostly ho-hum refresh look like a much bigger performance boost than it is. This is where Nvidia CEO Jensen Huang's spurious claim that the RTX 5070 provides "4090 performance at $549" comes from. To try to strong-arm reviewers into presenting this same misleading data—DLSS MFG can be useful in some situations, but it's hardly a perfect solution for poor performance—is just to reinforce the impression that Nvidia is abusing its dominant position in the gaming GPU market (even as gaming GPUs make up a smaller and smaller piece of the company's revenue).</p>
-
-          
-                      
-                  </div>
-                    
-        
-          
-    
-    <div>
+            <title><![CDATA[Our first impressions after 48 hours with the Switch 2]]></title>
+            <link>https://arstechnica.com/gaming/2025/06/our-first-impressions-after-48-hours-with-the-switch-2/</link>
+            <guid>https://www.resetera.com/threads/our-first-impressions-after-48-hours-with-the-switch-2.1209675/</guid>
+            <content:encoded><![CDATA[https://arstechnica.com/gaming/2025/06/our-first-impressions-after-48-hours-with-the-switch-2/<br/><br/><div id="readability-page-1" class="page"><div>
           
           
-<p>It's a whole lot of commotion for a GPU that is otherwise about as ho-hum as it is possible to be. It's a noticeable but unexciting upgrade over its predecessor, and it performs a lot like a more-efficient RTX 3070 for $200 less (theoretically) than that card's original MSRP.</p>
-<p>But it's getting harder to justify spending that kind of money on a GPU with just 8GB of RAM these days, especially when the GPU would be capable of decent 1440p performance if it had enough memory. Nvidia's cheapest card that will give you more than 8GB of RAM is the 16GB version of the RTX 5060 Ti, which is supposed to start at $429 but sells for closer to $500 right now.</p>
-
-<h2>Specs, speeds, and testbed notes</h2>
-<div><table>
-<tbody>
-<tr>
-<th></th>
-<th>RTX 5060 Ti</th>
-<th>RTX 4060 Ti</th>
-<th>RTX 5060</th>
-<th>RTX 4060</th>
-<th>RTX 5050 (rumored)</th>
-<th>RTX 3050</th>
-</tr>
-<tr>
-<th>CUDA Cores</th>
-<td>4,608</td>
-<td>4,352</td>
-<td>3,840</td>
-<td>3,072</td>
-<td>2,560</td>
-<td>2,560</td>
-</tr>
-<tr>
-<th>Boost Clock</th>
-<td>2,572 MHz</td>
-<td>2,535 MHz</td>
-<td>2,497 MHz</td>
-<td>2,460 MHz</td>
-<td>Unknown</td>
-<td>1,777 MHz</td>
-</tr>
-<tr>
-<th>Memory Bus Width</th>
-<td>128-bit</td>
-<td>128-bit</td>
-<td>128-bit</td>
-<td>128-bit</td>
-<td>128-bit</td>
-<td>128-bit</td>
-</tr>
-<tr>
-<th>Memory bandwidth</th>
-<td>448GB/s</td>
-<td>288GB/s</td>
-<td>448GB/s</td>
-<td>272GB/s</td>
-<td>Unknown</td>
-<td>224GB/s</td>
-</tr>
-<tr>
-<th>Memory size</th>
-<td>8GB or 16GB GDDR7</td>
-<td>8GB or 16GB GDDR6</td>
-<td>8GB GDDR7</td>
-<td>8GB GDDR6</td>
-<td>8GB GDDR6</td>
-<td>8GB GDDR6</td>
-</tr>
-<tr>
-<th>TGP</th>
-<td>180 W</td>
-<td>160 W</td>
-<td>145 W</td>
-<td>115 W</td>
-<td>130 W</td>
-<td>130 W</td>
-</tr>
-</tbody>
-</table></div>
-<p>Both the RTX 5060 and 5060 Ti use the same GPU silicon based on Nvidia's Blackwell architecture; the 5060 Ti uses a fully enabled version of the GB206 die with 4,608 CUDA cores, a roughly 6 percent increase from the 4060 Ti. The 5060 uses a partially disabled version with 3,840 CUDA cores, a much larger 25 percent increase from the RTX 4060.</p>
-<p>The boost in computing resources is augmented with the memory bandwidth boost that comes from switching from GDDR6 to GDDR7. This shift increases power consumption a bit (as does adding CUDA cores without making significant changes to the 5nm TSMC manufacturing process, used across both the 40- and 50-series cards), but it also improves memory bandwidth by over 50 percent despite sticking with a relatively narrow 128-bit memory bus.</p>
-
-
-<p>Nvidia doesn't have Founders Edition cards for either the 5060 Ti or 5060, leaving the work of building and distributing these GPUs to its board partners. We have a total of three cards here—a Gigabyte Aero RTX 5060, an Asus Prime RTX 5060, and an Asus TUF Gaming version of the 5060 Ti with 16GB of RAM. Different manufacturers will build their cards in slightly different ways, but it's worth noting that both 5060 cards use a shorter PCB than the 5060 Ti, and both also get by with a single 8-pin power connector, while the 5060 Ti uses the 12-pin 12VHPWR/12V-2x6 connector. Make sure you get a version with the connectors you have and/or want.</p>
-
-          
-                  </div>
-                    
-        
-          
-    
-    <div>
-          
-          
-
-<p>Our GPU testbed is the same as it's been since January, powered by an eight-core Ryzen 7 9800X3D and Windows 11 24H2. At some point, when both Nvidia's and AMD's drivers have had a few months to mature, we'll re-test all the current-generation stuff with the same drivers to clean up that part of the table a bit. But that point is not today.</p>
-<h2>Performance and power</h2>
-
-
-<p>These are slightly reorganized versions of the charts we just published in <a href="https://arstechnica.com/gadgets/2025/06/review-at-349-amds-16gb-radeon-rx-9060-xt-is-the-new-midrange-gpu-to-beat/">our review of AMD's 16GB version of the RX 9060 XT</a>. The two Nvidia cards generally flank the 9060 XT on either side, with the 8GB RTX 5060 falling a bit short of its performance for a little less money and the 16GB version of the RTX 5060 Ti performing a little faster for quite a bit more money. We didn't have the 8GB version of the 5060 Ti or the 9060 XT to test, but you can look at the difference between the 16GB RX 7600 XT and the 8GB RX 7600 to get a rough idea of which games in our test suite struggle with 8GB of RAM.</p>
-<p>Taken purely on its own terms, the 5060 is a decent generational upgrade over 2023's RTX 4060, generally offering between 10 percent and 25 percent more performance at 1080p and between 20 and 40 percent (and occasionally more) at 1440p, for what is supposed to be the same retail price. Both 4060 cards were a bit starved for memory bandwidth, so it's not too surprising to see it improve disproportionately at 1440p—at least for games where the improved memory bandwidth doesn't run headlong into that 8GB RAM limit.</p>
-
-
-<p>Evidence of RAM limitations showed up even in our test suite of slightly older games at 1440p—<em>Black Myth Wukong</em> in Cinematic mode slows down to a flipbook on the 5060 over the course of a run, despite running OK on the 4060. If you're fine to stick to 1080p, you should still be able to run most things, but the performance improvement over the 4060 is also slightly less impressive at 1080p.</p>
-
-          
-                  </div>
-                    
-        
-          
-    
-    <div>
-          
-          
-<p>The 16GB version 5060 Ti helps solve that problem, and it runs somewhere between 15 and 20 percent faster than the 5060 at 1440p. But that's a 15 to 20 percent performance increase for 44 percent more money at MSRP (I know graphics cards don't really sell for MSRP these days, but the relative price differences between them all hold more or less steady, at least). The 5060 Ti has the same problem that the 4060 Ti did, which was that the 8GB version had too little RAM to be a good value, and the 16GB version cost too much to be a good value; at least the 8GB version of the 5060 has the benefit of being cheaper.</p>
-<p>The 5060 does support Nvidia's new DLSS Multi-Frame Generation feature (MFG), and Nvidia would have you use&nbsp;<em>those</em> numbers as a baseline for performance. However, as with the original version of DLSS FG, your GPU needs a decent base frame rate in the first place for games with frame-gen enabled to feel responsive and fluid. It's one reason Nvidia's review antics rankle—if you treat DLSS MFG like a big one-size-fits-all "improve performance" button, then it would be <em>more</em> useful for something like the 5060 than it is for an already-fast card like the 5080 or 5090. But because it's a slower card, the RTX 5060 is less capable of producing good results than Nvidia's other cards. As always, treat both single- and multi-frame generation as potentially useful tools in your performance-increasing toolbox, but it's not a reliably useful tool for increasing performance under all circumstances.</p>
-
-
-<p>Like all the 50-series cards, the 5060 uses more power than its immediate predecessor, a byproduct of the shift from GDDR6 to GDDR7 and adding more transistors without adopting a more efficient manufacturing process. But the increase in power consumption—roughly 25 percent in our tests—is close to commensurate with the performance increase, making efficiency roughly similar overall. Nvidia's power efficiency isn't bad, it just isn't a selling point for this generation like it was for the 40-series cards.</p>
-
-          
-                  </div>
-                    
-        
-          
-    
-    <div>
-          
-          
-
-<h2>This is... fine?</h2>
-<p>The RTX 5060 is fine, especially if you can find it for $299—it's faster than the 4060 for the same money. If it does what xx60 GPUs tend to do and rockets to the top of the Steam Hardware Survey charts, I wouldn't be surprised. If you just want to buy a GPU that will suffice for a few years and you don't want to spend a ton of money, it should be a mostly reliable workhorse. And it will doubtlessly be a popular choice for less-expensive pre-built gaming PCs.</p>
-<p>But it&nbsp;<em>is</em> hard to recommend the card to cost-conscious enthusiasts, both because 8GB of RAM is starting to be more and more limiting and because the RX 9060 XT is quite a bit better for not much more money (again, completely theoretically, assuming a world where everything is available at roughly its announced MSRP). I can't say that the RTX 5060 is <em>bad</em>, because it isn't, but it's definitely not the first thing I'd buy, and the higher you go above $299, the harder it is to justify.</p>
-<p>I feel similarly about the 16GB version of the RTX 5060 Ti, which taken by itself is a perfectly cromulent entry-level 1440p graphics card, but it's definitely hard to recommend at the current near-$500 street prices (it almost goes without saying that you should skip the 8GB version of the 5060 Ti entirely, since it asks you to spend even <em>more</em> for a card with the same skimpy allotment of RAM, and the regular 5060 is already hitting RAM limits at 1440p). If you're reading this review months in the future and the 5060 Ti is closer to $429 or $400, it's a decent, slightly faster alternative to the $349 9060 XT. But for that much money, I'd probably try to hold out or stretch my budget to an RTX 5070 or RX 9070, which will get you better 1440p performance and will be more capable of stretching to 4K.</p>
-
-          
-                  </div>
-                    
-        
-          
-    
-    <div>
-
-        
+<p>As an included freebie with the Switch 2 system, this would merely be tedious. As a game with a $10 asking price, it's a little insulting.</p>
+<h2>GameChat is cute, but screen-sharing is rough</h2>
+<p>After a lengthy initial setup, starting a casual GameChat session with people on your Switch 2 friends list is pretty simple (though, oddly, there seems to be no way to add new people to a GameChat after it starts). The system's internal microphone does a pretty good job picking up your voice even across a big room, and the head-tracking feature for the camera does a good job keeping you in frame even as you move.</p>
+<figure>
+    <div id="caption-2098407"><p>
+              The frame rate on those shared screens is rough.
+                              </p><p>
+                  Credit:
+                                      Kyle Orland
+                                  </p>
+                          </div>
+          <figcaption>
         <div>
-          
-          
-<p>Nvidia controls most of the PC gaming market, which makes it easy to cast the company as a villain. Nvidia makes this worse on the occasions when it gets caught <em>acting villainous</em>. But up until now, it has mostly been possible to look past the company's occasionally weird conduct because its products were usually better than what AMD or Intel could offer. Nvidia still has important advantages like DLSS and CUDA support, but their performance and power efficiency advantages have disappeared. I don't doubt the 5060 will sell well, but no company should act as though its reputation and consumer goodwill is an endless renewable resource.</p>
-<h3>The good</h3>
-<ul>
-<li>Decent generational performance increases at 1080p and (especially) 1440p if you don't run into RAM limits.</li>
-<li>As of this exact moment, it is currently possible to find several 5060 cards for MSRP on retail sites.</li>
-<li>DLSS upscaling still has a small edge over AMD's FSR in both quality and availability in games.</li>
-</ul>
-<h3>The bad</h3>
-<ul>
-<li>Buying a new 8GB GPU in 2025 may be asking for trouble a couple of years down the line, or sooner, depending on what you want to play.</li>
-<li>No longer head and shoulders above AMD's offerings in ray-tracing performance or power efficiency.</li>
-<li>DLSS MFG is less useful on a slower card, which will have more trouble hitting the base frame rates you need for a good frame-generation experience.</li>
-</ul>
-<h3>The ugly</h3>
-<ul>
-<li>Nvidia's review shenanigans.</li>
-</ul>
-
-
-          
-                  </div>
-
-                  
-          
-
-
-
-
-
-
-  <div>
     
-
     <p>
-      Andrew is a Senior Technology Reporter at Ars Technica, with a focus on consumer tech including computer hardware and in-depth reviews of operating systems like Windows and macOS. Andrew lives in Philadelphia and co-hosts a weekly book podcast called <a href="https://overduepodcast.com/">Overdue</a>.
-    </p>
+      The frame rate on those shared screens is rough.
+
+              <span>
+          Credit:
+
+          
+          Kyle Orland
+
+                  </span>
+          </p>
   </div>
+      </figcaption>
+      </figure>
+
+<p>GameChat struggles a bit when it comes to screen sharing, though, sending a grainy video of your gameplay at a rough-to-watch rate of about 10 or 15 fps. This is fine if you're just glancing at what your chatmate is doing occasionally to offer some hints or support. Just don't expect it to replicate the experience of watching your favorite streamer on Twitch or anything of the like.</p>
+<h2>The internal storage doesn’t go very far</h2>
+<p>The Switch 2's 256GB of built-in storage is plenty if you're mainly using it to play upgraded old Switch games; even an epic like<em> Tears of the Kingdom</em> is only about 20GB with the upgrade pack. But high-end games designed specifically for the Switch 2 can be a lot bigger: 48GB for <em>Street Fighter 6</em>, nearly 60GB for <em>Cyberpunk 2077</em>, and a whopping 69.2GB for <em>Split Fiction</em>, to cite a few examples. If you plan to download games like these, you'll need to invest in a MicroSD Express card before too long.</p>
+<h2>Switch games run a lot better</h2>
+<p>We'll have more in-depth coverage of this in the near future, but for now, suffice it to say that Switch 2 upgrades make a lot of the less performant Switch games much more bearable. This can be especially true for late-era Switch software that pushed the old hardware to its limits; after seeing <em>Tears of the Kingdom</em> running at a silky smooth 60 fps on the <em>Switch 2</em>, it will be hard to go back to playing the original version ever again.</p>
 
 
-  <p>
-    <a href="https://arstechnica.com/gadgets/2025/06/nvidia-geforce-rtx-5060-ti-and-5060-review-putting-the-mid-in-mid-range/#comments" title="49 comments">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><defs><clipPath id="bubble-zero_svg__a"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath><clipPath id="bubble-zero_svg__b"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath></defs><g clip-path="url(#bubble-zero_svg__a)"><g fill="currentColor" clip-path="url(#bubble-zero_svg__b)"><path d="M80 40c0 22.09-17.91 40-40 40S0 62.09 0 40 17.91 0 40 0s40 17.91 40 40"></path><path d="M40 40 .59 76.58C-.67 77.84.22 80 2.01 80H40z"></path></g></g></svg>
-    49 Comments
-  </a>
-      </p>
-              </div>
-  </article>
-
-
-  
-
-
-  
-
-
-  
-
-
-  
-
-  </div></div>]]></content:encoded>
+          
+                  </div></div>]]></content:encoded>
         </item>
     </channel>
 </rss>
