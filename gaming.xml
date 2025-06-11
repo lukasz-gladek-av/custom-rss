@@ -4,9 +4,173 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Wed, 11 Jun 2025 10:14:48 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 Jun 2025 10:28:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[How the Switch 2 fixed bad Switch 1 frame rates, even without patches]]></title>
+            <link>https://www.thesixthaxis.com/2025/06/11/how-the-switch-2-fixed-bad-switch-1-frame-rates-even-without-patches/</link>
+            <guid>https://www.resetera.com/threads/how-the-switch-2-fixed-bad-switch-1-frame-rates-even-without-patches.1215300/</guid>
+            <content:encoded><![CDATA[https://www.thesixthaxis.com/2025/06/11/how-the-switch-2-fixed-bad-switch-1-frame-rates-even-without-patches/<br/><br/><div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>As pioneering as the Nintendo Switch was in 2017, its hybrid design enabling a much fuller console experience than most handhelds had managed in the past, and laying the foundations for handheld PCs that have flourished in the last few years, the simple fact of is that its adapted mobile chipset was barely powerful enough for most modern games. This gave rise to a slew of “impossible” ports to the console, from Doom to The Witcher 3, while even Switch exclusives could end up seriously compromised.</p>
+<p>But now here’s the Switch 2, and just as we’ve seen with Sony and Microsoft’s consoles since 2016, there’s so much potential for the Switch 1’s back catalogue to run better on the new hardware. This comes in a number of forms, with the <a href="https://www.thesixthaxis.com/2025/04/24/nintendo-switch-2-edition-game-upgrade-prices-set-at-8-and-17-depending-on-the-game/">paid Switch 2 Editions</a>, with <a href="https://www.thesixthaxis.com/2025/05/16/nintendo-details-12-free-switch-2-game-updates-resolution-frame-rate-hdr-gameshare/">free patches</a>, and then just running basic Switch 1 game code on a more powerful system.</p>
+<p><iframe title="How Switch 2 Backward Compatibility fixes a lot of bad Switch frame rates" width="780" height="439" src="https://www.youtube.com/embed/ds3mP6OMM9w?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+
+
+<p>It’s this final category that I find particularly interesting and the focus for today. Despite both systems having ARM CPU cores and an Nvidia GPU, there’s enough difference in the hardware such that the Switch 2 doesn’t run Switch 1 games natively. It’s not emulation either, but is instead running Switch 1 games through a translation layer that remaps CPU and GPU calls to the new architecture. It’s the same methodology that allows Windows games to run in Linux via Proton on the Steam Deck. Just as there, Nintendo had to test thousands upon thousands of games <a href="https://www.thesixthaxis.com/2025/04/18/nintendo-switch-2-backwards-compatible-guide-what-switch-games-cant-be-played/">to find any compatibility errors</a>, then trying to fix those, either with patches or under-the-hood improvements for the Switch 2’s translation layer.</p>
+<p>However it’s come to pass, the improvements can straighten out some really wonky games. The focus of our comparisons is on the docked modes of these games – something that’s more viable to capture and compare, so let’s start with a real problem child on the Switch 1.</p>
+
+
+		
+		<div id="gallery-1"><dl>
+			<dt>
+				<a href="https://www.thesixthaxis.com/2025/06/11/how-the-switch-2-fixed-bad-switch-1-frame-rates-even-without-patches/switch2-bc-hyrulewarriorsaoc-nsw1/" data-slb-active="1" data-slb-asset="254844381" data-slb-internal="460703" data-slb-group="460659"></a>
+			</dt>
+				<dd id="gallery-1-460703">
+				Hyrule Warriors: Age of Calamity on Switch 1
+				</dd></dl><dl>
+			<dt>
+				<a href="https://www.thesixthaxis.com/2025/06/11/how-the-switch-2-fixed-bad-switch-1-frame-rates-even-without-patches/switch2-bc-hyrulewarriorsaoc-nsw2/" data-slb-active="1" data-slb-asset="1814220168" data-slb-internal="460702" data-slb-group="460659"></a>
+			</dt>
+				<dd id="gallery-1-460702">
+				Hyrule Warriors: Age of Calamity on Switch 2
+				</dd></dl><br>
+		</div>
+
+<p>We’ve loaded up the demo for <strong><a href="https://www.thesixthaxis.com/2020/11/18/hyrule-warriors-age-of-calamity-review/">Hyrule Warriors: Age of Calamity</a></strong>, a game that had some pretty obvious problems on Switch 1, barely holding onto 30fps and often going down to the low 20s – and that’s before considering split-screen. On Switch 2? Well, it’s a practical 30fps lock, which just makes the game feel so much better and consistent, allowing the Breath of the Wild art style to really shine.</p>
+<p>We’ll jump on over, now, to the <strong><a href="https://www.thesixthaxis.com/2022/06/21/fire-emblem-warriors-three-hopes-review-switch-musou/">Fire Emblem Warriors: Three Hopes</a></strong> demo, which came a couple years later and shows improved optimisation and balance on the Switch 1. In fact, this game came with an unlocked frame rate that very rarely dipped below 30fps. Though… since it’s in the mid-30s most of the time, it really should have had a 30fps cap at the time.</p>
+<p>But in 2025, we’re glad they chose not to, because this makes it a fantastic showcase for the Switch 2’s inherent power bump. Fire Emblem Warriors: Three Hopes is a near perfect 60fps on Switch 2!</p>
+
+<p>A similar example is <strong><a href="https://www.thesixthaxis.com/2019/07/11/dragon-quest-builders-2-review/">Dragon Quest Builders 2</a></strong>. This game could be really, really punishing on original Switch, especially with more complex custom creations shared online from more powerful platforms. Performance was generally acceptable through the campaign though, the open world gameplay being north of 30fps, but maybe in the low 20s for busy towns, flying around and when lots of NPCs are on screen.</p>
+<p>Thankfully, this also comes with an unlocked frame rate, and performance is not far off a straight doubling for Switch 2. In sparse scenes you can get 60fps, though those busier areas and if you’re flying rapidly across the world do pull the Switch 2 down to the mid-low 50s.</p>
+
+		
+		<div id="gallery-2"><dl>
+			<dt>
+				<a href="https://www.thesixthaxis.com/2025/06/11/how-the-switch-2-fixed-bad-switch-1-frame-rates-even-without-patches/switch2-bc-dqb2-nsw1/" data-slb-active="1" data-slb-asset="1861665455" data-slb-internal="460705" data-slb-group="460659"></a>
+			</dt>
+				<dd id="gallery-2-460705">
+				Dragon Quest Builders 2 on Switch 1
+				</dd></dl><dl>
+			<dt>
+				<a href="https://www.thesixthaxis.com/2025/06/11/how-the-switch-2-fixed-bad-switch-1-frame-rates-even-without-patches/switch2-bc-dqb2-nsw2/" data-slb-active="1" data-slb-asset="1965057954" data-slb-internal="460700" data-slb-group="460659"></a>
+			</dt>
+				<dd id="gallery-2-460700">
+				Dragon Quest Builders 2 on Switch 2
+				</dd></dl><br>
+		</div>
+
+<p>Those have all been 30fps target games, but what about an unsteady 60?</p>
+<p><strong><a href="https://www.thesixthaxis.com/2018/02/14/bayonetta-bayonetta-2-have-found-a-new-home-on-nintendo-switch/">Bayonetta 2</a></strong><a href="https://www.thesixthaxis.com/2018/02/14/bayonetta-bayonetta-2-have-found-a-new-home-on-nintendo-switch/"> was already pretty solid on Switch 1</a>, as a port across from the Wii U. There can be minor dips within the arena combat, and let’s just say that with rare exceptions, Switch 2 evens those minor kinks out quite nicely. It wasn’t quite as smooth in handheld though, and some areas could exhibit noticeable frame rate drops, which have seemingly been ironed out by Switch 2’s increased handheld power as well.</p>
+
+		
+		<div id="gallery-3"><dl>
+			<dt>
+				<a href="https://www.thesixthaxis.com/2025/06/11/how-the-switch-2-fixed-bad-switch-1-frame-rates-even-without-patches/switch2-bc-bayonetta2-nsw2/" data-slb-active="1" data-slb-asset="915991591" data-slb-internal="460704" data-slb-group="460659"></a>
+			</dt>
+				<dd id="gallery-3-460704">
+				Bayonetta 2 on Switch 2
+				</dd></dl><dl>
+			<dt>
+				<a href="https://www.thesixthaxis.com/2025/06/11/how-the-switch-2-fixed-bad-switch-1-frame-rates-even-without-patches/switch2-bc-bayonetta3-nsw1/" data-slb-active="1" data-slb-asset="740487688" data-slb-internal="460708" data-slb-group="460659"></a>
+			</dt>
+				<dd id="gallery-3-460708">
+				Bayonetta 3 on Switch 1
+				</dd></dl><dl>
+			<dt>
+				<a href="https://www.thesixthaxis.com/2025/06/11/how-the-switch-2-fixed-bad-switch-1-frame-rates-even-without-patches/switch2-bc-bayonetta3-nsw2/" data-slb-active="1" data-slb-asset="1282213539" data-slb-internal="460709" data-slb-group="460659"></a>
+			</dt>
+				<dd id="gallery-3-460709">
+				Bayonetta 3 on Switch 2
+				</dd></dl><dl>
+			<dt>
+				<a href="https://www.thesixthaxis.com/2025/06/11/how-the-switch-2-fixed-bad-switch-1-frame-rates-even-without-patches/switch2-bc-bayonetta3-comparison/" data-slb-active="1" data-slb-asset="1163663342" data-slb-internal="460707" data-slb-group="460659"></a>
+			</dt>
+				<dd id="gallery-3-460707">
+				Bayonetta 3 Comparison
+				</dd></dl><br>
+		</div>
+
+<p><strong><a href="https://www.thesixthaxis.com/2022/10/25/bayonetta-3-review/">Bayonetta 3</a></strong> was much more ambitious with the Switch 1 as its base platform and, surprise, surprise, it’s nowhere near to PlatinumGames’ usual 60fps target a lot of the time. We’re taking regularly dropping to the low 50s, high 40s, and the most sensational action going all the way down to the 30s – cutscenes were once again rendered at 30fps.</p>
+<p>But guess what? Switch 2 brings 60fps through and through, outside of those most cinematic moments where PlatinumGames input a 30fps frame cap.</p>
+<p>Another problem child from the first party line up was <strong><a href="https://www.thesixthaxis.com/2017/11/30/xenoblade-chronicles-2-review/">Xenoblade Chronicles 2</a></strong>. The worst of the issues in this game emerged when playing handheld where the chip stepped down to lower power modes, the dynamic resolution and upscaling getting <em>seriously</em> blurry, but there are also issues when docked, such as some severe pop-in when loading to a new area and performance that could degrade to below 30fps. Thankfully later games and ports made different technical choices to get better image quality and performance, but Xenoblade 2 has been stuck like this on Switch 1.</p>
+
+		
+		<div id="gallery-4"><dl>
+			<dt>
+				<a href="https://www.thesixthaxis.com/2025/06/11/how-the-switch-2-fixed-bad-switch-1-frame-rates-even-without-patches/switch2-bc-xenoblade2-nsw1/" data-slb-active="1" data-slb-asset="1462931489" data-slb-internal="460714" data-slb-group="460659"></a>
+			</dt>
+				<dd id="gallery-4-460714">
+				Xenoblade Chronicles 2 on Switch 1
+				</dd></dl><dl>
+			<dt>
+				<a href="https://www.thesixthaxis.com/2025/06/11/how-the-switch-2-fixed-bad-switch-1-frame-rates-even-without-patches/switch2-bc-xenoblade2-nsw2/" data-slb-active="1" data-slb-asset="2080981732" data-slb-internal="460710" data-slb-group="460659"></a>
+			</dt>
+				<dd id="gallery-4-460710">
+				Xenoblade Chronicles 2 on Switch 2
+				</dd></dl><dl>
+			<dt>
+				<a href="https://www.thesixthaxis.com/2025/06/11/how-the-switch-2-fixed-bad-switch-1-frame-rates-even-without-patches/switch2-bc-xenoblade2-comp/" data-slb-active="1" data-slb-asset="1344931834" data-slb-internal="460712" data-slb-group="460659"></a>
+			</dt>
+				<dd id="gallery-4-460712">
+				Xenoblade Chronicles 2 comparison
+				</dd></dl><br>
+		</div>
+
+<p>Playing on Switch 2 comes with a big improvement thanks to an improved frame rate, a better base resolution that’s noticeable both in handheld and docked, and faster loading of assets.</p>
+<p>But the Switch 2 can’t fix or improve everything. If a game was already pretty well attuned to a 30fps cap, then the only improvements can come from better dynamic resolution scaling.</p>
+<p><strong><a href="https://www.thesixthaxis.com/2018/06/28/wolfenstein-ii-nintendo-switch-review/">Wolfenstein 2</a>,</strong> for example, is a game that’s designed to target 60fps on PS4 and Xbox One, but was limited to 30fps on Switch and, as Panic Button’s second effort with idtech after Doom, it did a pretty good job of sticking to it. This was achieved by much more than just reducing resolution, the texture detail also being significantly reduced, combining to give gives the game a lot of almost putty-like blurriness. Add in hefty motion blur, which is much more of a smear when at 30fps than 60fps, and it makes playing this game feel compromised, regardless of Switch 1 or 2.</p>
+<p>The Switch 2 does boost the dynamic resolutions to help quite significantly with blurriness, but the loss of top end detail and being limited to 30fps just doesn’t feel as good as you’d want from this series.</p>
+
+		
+		<div id="gallery-5"><dl>
+			<dt>
+				<a href="https://www.thesixthaxis.com/2025/06/11/how-the-switch-2-fixed-bad-switch-1-frame-rates-even-without-patches/switch2-bc-wolfenstein2-comp2/" data-slb-active="1" data-slb-asset="565723256" data-slb-internal="460713" data-slb-group="460659"></a>
+			</dt>
+				<dd id="gallery-5-460713">
+				Wolfenstein 2 Comparison
+				</dd></dl><dl>
+			<dt>
+				<a href="https://www.thesixthaxis.com/2025/06/11/how-the-switch-2-fixed-bad-switch-1-frame-rates-even-without-patches/switch2-bc-wolfenstein2-comp1/" data-slb-active="1" data-slb-asset="305430487" data-slb-internal="460711" data-slb-group="460659"></a>
+			</dt>
+				<dd id="gallery-5-460711">
+				Wolfenstein 2 Comparison
+				</dd></dl><br>
+		</div>
+
+<p>It’s a shade ironic that the most tuned and optimised game for Switch can’t benefit as much from this kind of improvement on Switch 2, while those less optimised titles come good.</p>
+<p>In general, this straight backward compatibility offers a fantastic showcase of how the Switch 2 can apply its raw power to last generation games and deliver some tangible improvements. A game with an uneven frame rate can be smoothed out, something with a low dynamic resolution can be improved, and a lot of the most troubled games on Switch 1 will give a better experience on Switch 2.</p>
+<p>However, all of the games here would benefit from a Switch 2 patch or a paid Switch 2 Edition release. It would be fantastic to get Age of Calamity running at 60fps, to have Bayonetta 2 and 3 at 1080p in handheld, and Xenoblade Chronicles 2 and the rest of the series to remastered for higher resolutions. I know a lot of PlatinumGames fans are also pining for an <a href="https://www.thesixthaxis.com/2019/08/26/astral-chain-review/">Astral Chain</a> patch to lift the 30fps lock, to unchain one of the studio’s Switch highlights.</p>
+<p>We have seen these kinds of patches in other games, and the results there can be pretty fantastic as well, but that’s for another article…</p>
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Forget The PS4, Koei Tecmo Reckons Switch 2 Is Closer To Xbox Series S]]></title>
+            <link>https://www.nintendolife.com/news/2025/06/forget-the-ps4-koei-tecmo-reckons-switch-2-is-closer-to-xbox-series-s</link>
+            <guid>https://www.resetera.com/threads/forget-the-ps4-koei-tecmo-reckons-switch-2-is-closer-to-xbox-series-s.1215297/</guid>
+            <content:encoded><![CDATA[https://www.nintendolife.com/news/2025/06/forget-the-ps4-koei-tecmo-reckons-switch-2-is-closer-to-xbox-series-s<br/><br/><div id="readability-page-1" class="page"><div id="body">
+<article id="article">
+<header><section>
+<p>In terms of "raw computing power", that is</p>
+</section></header><div><section>
+<figure><a title="Switch 2 / Xbox Series S" href="https://images.nintendolife.com/0d9e139a3bed6/switch-2-xbox-series-s.large.jpg"></a><figcaption><em>Image: Nintendo Life</em></figcaption></figure><p>They say that comparison is the thief of Joy-Con — or something along those lines — but ever since Switch 2's reveal, people have been clamouring to work out how Nintendo's latest matches up against the other consoles on the market. Before launch, the tech experts over at Digital Foundry suggested the console was roughly <a href="https://www.youtube.com/watch?v=EZZAr1c0Wqg">in line with Sony's PS4</a>, but Koei Tecmo has recently estimated that it might be even beefier.</p>
+<p>That is according to producer Takuto Edagawa, who, in a recent interview with <a href="https://wccftech.com/wild-hearts-s-qa-switch-2-is-closer-to-the-series-s-than-ps4/">wccftech</a> about the upcoming Switch 2 version of <a href="https://www.nintendolife.com/games/nintendo-switch-2/wild-hearts-s">Wild Hearts S</a>, estimated that Switch 2 might be closer to the Xbox Series S in terms of "raw computing power" than Sony's last-gen system.</p>
+<p>"There are a lot of characteristics when it comes to raw computing power, so it's difficult to generalise," Edagawa told the outlet, "but I think it can be thought [of] as closer to the Series S".</p>
+<p>We suspected that Switch 2 would never be able to stand toe-to-toe with the likes of the PS5 and Series X, but hearing that developers understand it to be roughly in line with the Series S proves that there has been a pretty substantial upgrade under the hood — as if the promise of <a href="https://www.nintendolife.com/games/nintendo-switch-2/cyberpunk-2077-ultimate-edition">Cyberpunk 2077</a>, <a href="https://www.nintendolife.com/games/nintendo-switch-2/elden-ring-tarnished-edition">Elden Ring</a> and <a href="https://www.nintendolife.com/games/nintendo-switch-2/star-wars-outlaws">Star Wars Outlaws</a> wasn't proof enough.</p>
+<p>Elsewhere in the wccftech interview, Edagawa revealed that the team has not used NVIDIA's DLSS Super Resolution for the Switch 2 version of Wild Hearts S, though they <em>did</em> implement HD Rumble 2 to achieve "more nuanced vibration without additional costs for adjustments".</p>
+<p>Wild Hearts S arrives on Switch 2 on <strong>25th July</strong>, bringing the Monster Hunter-style adventure to the Nintendo hybrid with more beasts and modes, GameChat implementation, and a new four-player multiplayer option.</p>
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:182771 @ 1749635102 -->
+<p><em>What do you make of Switch 2's power so far? Is it falling roughly in line with the Series S for you? Let us know in the comments.</em></p></section>
+<p>[source <a title="External Link: https://wccftech.com/wild-hearts-s-qa-switch-2-is-closer-to-the-series-s-than-ps4/" rel="noopener" href="https://wccftech.com/wild-hearts-s-qa-switch-2-is-closer-to-the-series-s-than-ps4/">wccftech.com</a>]</p>
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-info/69b1d31e4a00cdde809c26b29239ba08 @ 1749635893 --></div></article><div><p>Jim came to Nintendo Life in 2022 and, despite his insistence that The Minish Cap is the best Zelda game and his unwavering love for the Star Wars prequels (yes, really), he has continued to write news and features on the site ever since.</p><ul><li><a href="https://www.nintendolife.com/authors/JimNorman"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/jimnormann.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('JimNorman');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
+</div></div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Switch 2 tops 3.5 million sales to deliver Nintendo's biggest console launch]]></title>
             <link>https://www.gamedeveloper.com/business/switch-2-tops-3-5-million-sales-in-four-days-to-deliver-nintendo-s-biggest-console-launch</link>
@@ -267,7 +431,7 @@ So what can we infer from seeing Dune Awakening pull this off? Well, a growth of
 <p>And that's that – game-key cards are classed as digital media by Capcom. It follows a story last week about how publishers are actually thanking Nintendo for this new option, as many companies face "rising costs to make games".</p>
 <p>Capcom last week released <a href="https://www.nintendolife.com/games/nintendo-switch-2/street-fighter-6-years-1-2-fighters-edition">Street Fighter 6</a> on the Switch 2 as a game-key card release, and while it comes with all of the Year 1 and Year 2 DLC, this part of the game is actually a download code. So the main game is on the game-key card, but you'll still need to input a code on the eShop to access the DLC.</p>
 <p>If you were to end up giving away this card in the future, it seems the next user would then have to repurchase the game's DLC.</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:182921,183387 @ 1749633458 -->
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:182921,183387 @ 1749636863 -->
 <p>What are your thoughts about Capcom's decision to class game-key cards as digital media? Will you be buying any game-key card games for the Switch 2? <em>Let us know in the comments.</em></p></section>
 <p>[source <a title="External Link: https://www.capcom.co.jp/ir/english/data/pdf/explanation/2024/full/explanation_2024_full_03.pdf" rel="noopener" href="https://www.capcom.co.jp/ir/english/data/pdf/explanation/2024/full/explanation_2024_full_03.pdf">capcom.co.jp</a>, via <a title="External Link: https://x.com/genki_jpn/status/1932640266042945887?s=46&amp;amp;t=7wMG-TAY4V0oubk814Asyg" rel="noopener" href="https://x.com/genki_jpn/status/1932640266042945887?s=46&amp;t=7wMG-TAY4V0oubk814Asyg">x.com</a>, <a title="External Link: https://www.gonintendo.com/contents/49598-capcom-will-report-game-key-card-sales-as-digital-sales" rel="noopener" href="https://www.gonintendo.com/contents/49598-capcom-will-report-game-key-card-sales-as-digital-sales">gonintendo.com</a>]</p>
 <!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-info/102a4922a46b33d6f768becfcb53ebfa @ 1749635538 --></div></article><div><p>Liam is a news writer and reviewer across Hookshot Media. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
@@ -294,7 +458,7 @@ So what can we infer from seeing Dune Awakening pull this off? Well, a growth of
 <p>So, hopefully, it's a bit clearer now – if you do go to a convention to meet Charles, you can still hear him say famous Super Mario lines, but you might not be able to record it on camera, and don't expect him to just necessarily say <em>anything</em>, as it's apparently all about maintaining the integrity of the legendary character he voiced for many years.</p>
 <p>Charles Martinet was originally given the title of "Mario Ambassador" in 2023 and <a href="https://www.nintendolife.com/news/2024/09/charles-martinet-reveals-his-favourite-super-mario-games-at-nintendo-live-2024">last year made an appearance at Nintendo Live 2024</a>. He's been officially replaced by Kevin Afghani in the video games, who most recently voiced Mario in the Switch 2 title <a href="https://www.nintendolife.com/games/nintendo-switch-2/mario-kart-world">Mario Kart World</a>.</p>
 <p>In some other Mario voice actor news, the voice of Peach last week revealed <a href="https://www.nintendolife.com/news/2025/06/princess-peachs-voice-actor-has-been-replaced-after-18-years">she was no longer voicing the princess</a> after an 18-year run.</p>
-<!-- cache: html:nintendolife.com/ssl/super-mario/related-articles:183558,154301 @ 1749633102 --></section></article><div><p>Liam is a news writer and reviewer across Hookshot Media. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
+<!-- cache: html:nintendolife.com/ssl/super-mario/related-articles:183558,154301 @ 1749636800 --></section></article><div><p>Liam is a news writer and reviewer across Hookshot Media. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
 </div></div></div>]]></content:encoded>
         </item>
         <item>
@@ -372,7 +536,7 @@ So what can we infer from seeing Dune Awakening pull this off? Well, a growth of
 <p>So that's again "over" 3.5 million units and counting. According to <a href="https://www.nintendo.co.jp/ir/en/finance/hard_soft/index.html">official Nintendo data</a>, the original Switch is currently sitting at 152 million units after an eight-year run. Other platforms like the Wii U and GameCube shifted 13 million and 21 million units respectively during their lifetimes.</p>
 <p>Mario Kart World appears to be the go-to launch title for the Switch 2 (and has even been bundled as part of a slightly more expensive Switch 2 package), so it will be interesting to see how many sales it's made from the new hardware release.</p>
 <p>Based on Nintendo's information here, Niko Partners analyst Daniel Ahmad notes how this technically makes the Switch 2 the "<a href="https://x.com/ZhugeEX/status/1932629946834563455">fastest selling home video game console of all time</a>".</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:182525,180157 @ 1749636622 -->
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:182525,180157 @ 1749636874 -->
 <p>If we hear any other updates, we'll let you know. In the meantime, tell us your thoughts about the launch figures – what were you expecting the Switch 2 to shift in its opening days and did you contribute to these sales? <em>Let us know in the comments.</em></p></section>
 <p>[source <a title="External Link: https://www.nintendo.co.jp/corporate/release/en/2025/250611.html" rel="noopener" href="https://www.nintendo.co.jp/corporate/release/en/2025/250611.html">nintendo.co.jp</a>]</p>
 <!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-info/69b1d31e4a00cdde809c26b29239ba08 @ 1749635893 --></div></article><div><p>Liam is a news writer and reviewer across Hookshot Media. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
@@ -603,7 +767,7 @@ Proulx's Summer Game Fest appearance isn't the only controversy Splitgate 2 has 
   
 
 </div>
-                      <meta itemprop="seamless-content-list-items" data-list-items="[{&quot;guid&quot;:&quot;1100-6532107&quot;,&quot;url&quot;:&quot;\/articles\/ninja-gaiden-ragebound-gets-new-footage-and-a-release-date-at-sonys-state-of-play\/1100-6532107\/&quot;},{&quot;guid&quot;:&quot;1100-6532247&quot;,&quot;url&quot;:&quot;\/articles\/ninja-gaiden-4-will-finally-be-released-this-october\/1100-6532247\/&quot;},{&quot;guid&quot;:&quot;1100-6532225&quot;,&quot;url&quot;:&quot;\/articles\/sonic-racing-crossworld-preorders-are-live-on-console-and-pc\/1100-6532225\/&quot;},{&quot;guid&quot;:&quot;1100-6532316&quot;,&quot;url&quot;:&quot;\/articles\/anno-117-pax-romana-preorders-live-on-pc-and-consoles\/1100-6532316\/&quot;},{&quot;guid&quot;:&quot;1100-6530134&quot;,&quot;url&quot;:&quot;\/articles\/silent-hill-f-preorders-guide-bonuses-editions-price-where-to-buy\/1100-6530134\/&quot;},{&quot;guid&quot;:&quot;1100-6532289&quot;,&quot;url&quot;:&quot;\/articles\/playstation-pc-games-run-on-the-new-xbox-handheld\/1100-6532289\/&quot;},{&quot;guid&quot;:&quot;1100-6531765&quot;,&quot;url&quot;:&quot;\/articles\/3-upcoming-pc-displays-to-watch-out-for-this-year\/1100-6531765\/&quot;},{&quot;guid&quot;:&quot;1100-6532086&quot;,&quot;url&quot;:&quot;\/articles\/fallout-76-fishing-guide-bait-recipes-and-how-to-catch-fish\/1100-6532086\/&quot;},{&quot;guid&quot;:&quot;1100-6531789&quot;,&quot;url&quot;:&quot;\/articles\/these-goat-sim-controllers-were-announced-on-april-fools-day-but-ewe-can-actually-buy-them\/1100-6531789\/&quot;},{&quot;guid&quot;:&quot;1100-6532085&quot;,&quot;url&quot;:&quot;\/articles\/get-the-remastered-soul-reaver-games-and-7-others-for-just-12-at-humble-this-month\/1100-6532085\/&quot;},{&quot;guid&quot;:&quot;1100-6529827&quot;,&quot;url&quot;:&quot;\/articles\/lego-bluey-is-available-now-five-adorable-playsets-starting-at-20\/1100-6529827\/&quot;},{&quot;guid&quot;:&quot;1100-6530568&quot;,&quot;url&quot;:&quot;\/articles\/joy-con-2-controllers-where-to-buy-switch-2-controllers-on-launch-day\/1100-6530568\/&quot;},{&quot;guid&quot;:&quot;1100-6532082&quot;,&quot;url&quot;:&quot;\/articles\/fortnite-is-getting-rid-of-physical-v-buck-cards\/1100-6532082\/&quot;},{&quot;guid&quot;:&quot;1100-6532084&quot;,&quot;url&quot;:&quot;\/articles\/battlefield-6-leak-shows-off-tank-vs-tank-mayhem\/1100-6532084\/&quot;},{&quot;guid&quot;:&quot;1100-6532121&quot;,&quot;url&quot;:&quot;\/articles\/oblivion-remastered-gets-its-first-update-with-a-whole-bunch-of-fixes\/1100-6532121\/&quot;},{&quot;guid&quot;:&quot;1100-6532119&quot;,&quot;url&quot;:&quot;\/articles\/final-fantasy-tactics-the-ivalice-chronicles-is-getting-a-lavish-collectors-box\/1100-6532119\/&quot;},{&quot;guid&quot;:&quot;1100-6532127&quot;,&quot;url&quot;:&quot;\/articles\/why-did-xdefiant-fail-game-director-weighs-in-as-he-quits-gaming-industry\/1100-6532127\/&quot;},{&quot;guid&quot;:&quot;1100-6532120&quot;,&quot;url&quot;:&quot;\/articles\/cd-projekt-red-talks-kingdom-come-and-baldurs-gates-influence-on-the-witcher-4\/1100-6532120\/&quot;},{&quot;guid&quot;:&quot;1100-6532116&quot;,&quot;url&quot;:&quot;\/articles\/elden-ring-nightreign-combat-director-wants-you-to-believe-in-yourself\/1100-6532116\/&quot;},{&quot;guid&quot;:&quot;1100-6532125&quot;,&quot;url&quot;:&quot;\/articles\/who-plays-james-bond-in-007-first-light-fans-believe-theyve-worked-it-out\/1100-6532125\/&quot;}]">
+                      <meta itemprop="seamless-content-list-items" data-list-items="[{&quot;guid&quot;:&quot;1100-6532107&quot;,&quot;url&quot;:&quot;\/articles\/ninja-gaiden-ragebound-gets-new-footage-and-a-release-date-at-sonys-state-of-play\/1100-6532107\/&quot;},{&quot;guid&quot;:&quot;1100-6532247&quot;,&quot;url&quot;:&quot;\/articles\/ninja-gaiden-4-will-finally-be-released-this-october\/1100-6532247\/&quot;},{&quot;guid&quot;:&quot;1100-6532225&quot;,&quot;url&quot;:&quot;\/articles\/sonic-racing-crossworld-preorders-are-live-on-console-and-pc\/1100-6532225\/&quot;},{&quot;guid&quot;:&quot;1100-6532316&quot;,&quot;url&quot;:&quot;\/articles\/anno-117-pax-romana-preorders-live-on-pc-and-consoles\/1100-6532316\/&quot;},{&quot;guid&quot;:&quot;1100-6530134&quot;,&quot;url&quot;:&quot;\/articles\/silent-hill-f-preorders-guide-bonuses-editions-price-where-to-buy\/1100-6530134\/&quot;},{&quot;guid&quot;:&quot;1100-6532289&quot;,&quot;url&quot;:&quot;\/articles\/playstation-pc-games-run-on-the-new-xbox-handheld\/1100-6532289\/&quot;},{&quot;guid&quot;:&quot;1100-6531765&quot;,&quot;url&quot;:&quot;\/articles\/3-upcoming-pc-displays-to-watch-out-for-this-year\/1100-6531765\/&quot;},{&quot;guid&quot;:&quot;1100-6532086&quot;,&quot;url&quot;:&quot;\/articles\/fallout-76-fishing-guide-bait-recipes-and-how-to-catch-fish\/1100-6532086\/&quot;},{&quot;guid&quot;:&quot;1100-6531789&quot;,&quot;url&quot;:&quot;\/articles\/these-goat-sim-controllers-were-announced-on-april-fools-day-but-ewe-can-actually-buy-them\/1100-6531789\/&quot;},{&quot;guid&quot;:&quot;1100-6532085&quot;,&quot;url&quot;:&quot;\/articles\/get-the-remastered-soul-reaver-games-and-7-others-for-just-12-at-humble-this-month\/1100-6532085\/&quot;},{&quot;guid&quot;:&quot;1100-6529827&quot;,&quot;url&quot;:&quot;\/articles\/lego-bluey-is-available-now-five-adorable-playsets-starting-at-20\/1100-6529827\/&quot;},{&quot;guid&quot;:&quot;1100-6530568&quot;,&quot;url&quot;:&quot;\/articles\/joy-con-2-controllers-where-to-buy-switch-2-controllers-on-launch-day\/1100-6530568\/&quot;},{&quot;guid&quot;:&quot;1100-6532084&quot;,&quot;url&quot;:&quot;\/articles\/battlefield-6-leak-shows-off-tank-vs-tank-mayhem\/1100-6532084\/&quot;},{&quot;guid&quot;:&quot;1100-6532121&quot;,&quot;url&quot;:&quot;\/articles\/oblivion-remastered-gets-its-first-update-with-a-whole-bunch-of-fixes\/1100-6532121\/&quot;},{&quot;guid&quot;:&quot;1100-6532119&quot;,&quot;url&quot;:&quot;\/articles\/final-fantasy-tactics-the-ivalice-chronicles-is-getting-a-lavish-collectors-box\/1100-6532119\/&quot;},{&quot;guid&quot;:&quot;1100-6532127&quot;,&quot;url&quot;:&quot;\/articles\/why-did-xdefiant-fail-game-director-weighs-in-as-he-quits-gaming-industry\/1100-6532127\/&quot;},{&quot;guid&quot;:&quot;1100-6532120&quot;,&quot;url&quot;:&quot;\/articles\/cd-projekt-red-talks-kingdom-come-and-baldurs-gates-influence-on-the-witcher-4\/1100-6532120\/&quot;},{&quot;guid&quot;:&quot;1100-6532116&quot;,&quot;url&quot;:&quot;\/articles\/elden-ring-nightreign-combat-director-wants-you-to-believe-in-yourself\/1100-6532116\/&quot;},{&quot;guid&quot;:&quot;1100-6532125&quot;,&quot;url&quot;:&quot;\/articles\/who-plays-james-bond-in-007-first-light-fans-believe-theyve-worked-it-out\/1100-6532125\/&quot;},{&quot;guid&quot;:&quot;1100-6532126&quot;,&quot;url&quot;:&quot;\/articles\/suda51-isnt-directly-saying-it-but-gta-6-is-probably-why-romeo-is-a-dead-man-wont-be-out-for-a-while\/1100-6532126\/&quot;}]">
             </div>
               
     </div></div>]]></content:encoded>
@@ -788,140 +952,6 @@ I admit there is the possibility that Herdling could end up falling into the tro
             <link>https://www.theverge.com/games/684957/splitgate-2-hat-apology</link>
             <guid>https://www.resetera.com/threads/it%E2%80%99s-more-than-just-a-hat.1215045/</guid>
             <content:encoded><![CDATA[https://www.theverge.com/games/684957/splitgate-2-hat-apology<br/><br/><div id="readability-page-1" class="page"><div id="zephr-anchor"><p>There’s a line in showbiz that goes, “There’s no such thing as bad publicity.” Ian Proulx, CEO of <em>Splitgate 2</em> developer 1047 Games, has recently learned the hard way that’s not entirely true. </p><p>Last week, during the Summer Game Fest keynote livestream, Proulx came out to promote his game wearing a black hat that read “Make FPS Great Again” — an obvious reference to Donald Trump’s Make America Great Again slogan. The <em>Splitgate 2</em> community, journalists, and regular gamers seized on the hat (and not, you know, the game), immediately calling the statement gross and tone deaf. As questions from the <em>Splitgate 2</em> community poured in, Proulx <a href="https://x.com/Splitgate/status/1931162849977442371">doubled down on social media</a>, saying that he would not apologize and that the hat wasn’t a political statement and should be taken at face value. </p><p>Today, however, he’s singing a different tune. He posted on X with the simple caption, “No excuses, I’m sorry,” accompanied by a nearly three-minute video explaining the decision to wear the hat and the intention behind it. </p><p>“We needed something to grab attention, and the honest truth is, we tried to think of something, and this is what we came up with,” Proulx said.</p><p>He acknowledged that he was aware the hat would be controversial. His apology was not for the hat itself, but the discussion surrounding the hat within the <em>Splitgate 2 </em>community. Proulx claimed he did not want the division he himself sowed. “The reason I’m sorry is because of what this has done to the community,” he said.</p><p>He continued: “We knew there would be some level of controversy, but we really saw this as a meme that was kind of stating our truth.” As Proulx was making his statement, a few miles away in Los Angeles’ fashion district, where the Summer Game Fest Play Days campus resides, US Immigration and Customs Enforcement (ICE) was conducting raids snatching up people just going about their lives, raids that led to clashes between people protecting their neighbors and defenders of a cruel regime. </p><div><p>When I reported on <a href="https://www.theverge.com/games/682033/everybody-hated-that">the Trump-evoking slogan and the backlash to it</a>, some commenters responded that “it’s just a hat.” </p></div><p>But it is not just a hat. Aping a political statement that has been used to enact state violence isn’t “a meme,” it is a continuation of that violence. I think of the people in attendance at the show and those who work at the YouTube Theater who are immigrants or have immigrant family members. I think of the worker at the City Market Social House, the venue where SGF holds its Play Days event, who told me about the protocol they have in case ICE shows up: how people can hide in a room in the basement and hand out cards so they don’t have to speak to ICE and potentially implicate themselves.</p><p>Proulx’s statement, no matter its form, isn’t just in bad taste. It is a stark reminder to those people that their lives and families are at risk. And saying “I’m sorry, it was just a meme” isn’t enough. </p></div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Mario Kart World review: Getting there is half the game]]></title>
-            <link>https://arstechnica.com/gaming/2025/06/mario-kart-world-review-getting-there-is-half-the-game/</link>
-            <guid>https://www.resetera.com/threads/mario-kart-world-review-getting-there-is-half-the-game.1215039/</guid>
-            <content:encoded><![CDATA[https://arstechnica.com/gaming/2025/06/mario-kart-world-review-getting-there-is-half-the-game/<br/><br/><div id="readability-page-1" class="page"><div>
-          
-          
-<p>While that kind of item-based back-and-forth isn't new to Mario Kart, it feels like it has been taken to a new extreme by <em>World</em>'s more crowded race track. If you're in the middle of the pack, every tranche of item boxes you pass can lead, in short order, to a flurry of near-unavoidable projectiles and item-enhanced opponents cluttering your immediate space. That's especially true in online races, where human opponents tend to be much more ruthless with their item use than even the hardest computer-controlled opponents.</p>
-<figure>
-    <div>
-            <p>
-              That blue "Kaboom!" can send you from first to 17th in a hurry.
-                          </p>
-          </div>
-          <figcaption>
-        <div>
-    
-    <p>
-      That blue "Kaboom!" can send you from first to 17th in a hurry.
-
-          </p>
-  </div>
-      </figcaption>
-      </figure>
-
-<p>The change ultimately rewards defensive driving, where you do your best to avoid other racers and utilize protective items until you have a chance to rocket into the relative safety of the top few positions. Sometimes, though, there's simply no avoiding a maddening series of bad breaks that can literally send you from first place to 19th in an instant.</p>
-
-<h2>It’s not the destination, it’s the journey</h2>
-<p>Once you've adjusted to the more crowded field of racers, you'll then have to get used to the odd structure of <em>Mario Kart World</em>'s main racing modes. Rather than racing multiple laps around the game's well-designed tracks, you'll spend the bulk of your race time in most racing modes trekking between those tracks across the great expanses of <em>Mario Kart World</em>'s, uh, world.</p>
-<figure>
-    <div id="caption-2100260"><p>
-              Get used to seeing very straight sections like this in most of the game's racing modes.
-                              </p><p>
-                  Credit:
-                                      Nintendo
-                                  </p>
-                          </div>
-          <figcaption>
-        <div>
-    
-    <p>
-      Get used to seeing very straight sections like this in most of the game's racing modes.
-
-              <span>
-          Credit:
-
-          
-          Nintendo
-
-                  </span>
-          </p>
-  </div>
-      </figcaption>
-      </figure>
-
-<p>These inter-course interludes offer a decent variety to the structure, which will see you traveling through desert wastelands, down traffic-clogged highways, along the surface of tiered waterfalls, across frozen tundra, and more. What's unavoidably similar about most of them, though, is their unbearable straightness. Players used to the undulating, crisscrossing curves of a standard Mario Kart course will marvel at just how rarely they have to powerslide around turns while shuttling between those courses in <em>World</em>.</p>
-<p>These long straightaways aren't boring, per se. The designers have done their best to dress them up with plenty of obstacles (of the stationary, vehicular, and livestock varieties), as well as jumps, dash pads, and frequent item boxes to make sure you're still paying attention. But it can still be a jarring transition to go from two or three minutes across one of these mostly straight interregnums into the usual twisty wildness of the game's more familiar pre-designed courses.</p>
-
-          
-                  </div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Invincible VS’s Gory Take On The Marvel Vs. Capcom Formula Is A Bloody Good Time]]></title>
-            <link>https://www.gamespot.com/articles/invincible-vss-gory-take-on-the-marvel-vs-capcom-formula-is-a-bloody-good-time/1100-6532331/?ftag=CAD-01-10abi2f</link>
-            <guid>https://www.resetera.com/threads/invincible-vs%E2%80%99s-gory-take-on-the-marvel-vs-capcom-formula-is-a-bloody-good-time.1215027/</guid>
-            <content:encoded><![CDATA[https://www.gamespot.com/articles/invincible-vss-gory-take-on-the-marvel-vs-capcom-formula-is-a-bloody-good-time/1100-6532331/?ftag=CAD-01-10abi2f<br/><br/><div id="readability-page-1" class="page"><p>
-    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
-  </p><article itemscope="" data-type-id="1100" data-guid="1100-6532331">
-
-            
-            
-  
-
-
-        
-
-  
-
-
-        
-        
-              <section>
-
-                  
-          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
-                <p dir="ltr">One of the 2025 Xbox Showcase's most shocking reveals was Invincible VS, a new three-on-three tag fighter from Skybound and a new startup studio called Quarter Up Games. Don't let the "new startup" descriptor fool you, however; this is a team steeped in fighting game experience, as it was responsible for bringing back a cult classic to a legion of appreciative fans over a decade ago.</p><p dir="ltr">This time, Quarter Up and Skybound are set on breathing new life not into just a franchise, but a concept--Invincible VS invokes the highly-praised Marvel vs. Capcom style of 2D fighting games that use a tag-team system to swap between multiple characters, which is a tall task to try replicating. Based on our hands-on gameplay during a recent visit to Skybound in Los Angeles, it seems that Quarter Up is well on its way to answering the call.</p>
-
-
-
-    
-  <div>
-
-    <div tabindex="0" data-id="409806126" data-promo-id="0" data-user-has-ads="1" data-video="{&quot;id&quot;:6466103,&quot;title&quot;:&quot;Invincible%20VS%20%7C%20Official%20Reveal%20Trailer%20%7C%20Xbox%20Games%20Showcase%202025&quot;,&quot;lengthSeconds&quot;:160,&quot;startTime&quot;:0,&quot;autoplay&quot;:true,&quot;share&quot;:{&quot;linkUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/invincible-vs-official-reveal-trailer-xbox-games-showcase-2025\/2300-6466103\/&quot;,&quot;embedUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/embed\/6466103\/&quot;,&quot;embedHtml&quot;:{&quot;640&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6466103\/\&quot; height=\&quot;360\&quot; width=\&quot;640\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;,&quot;480&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6466103\/\&quot; height=\&quot;270\&quot; width=\&quot;480\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;}},&quot;device&quot;:&quot;other&quot;,&quot;isDevice&quot;:false,&quot;isLiveStream&quot;:false,&quot;videoType&quot;:&quot;video-on-demand&quot;,&quot;countdownTime&quot;:0,&quot;guid&quot;:&quot;gs-2300-6466103&quot;,&quot;ageGateCookieName&quot;:&quot;videoAgeGateBirthday&quot;,&quot;watchedCookieName&quot;:&quot;watchedVideoIds&quot;,&quot;watchedCookieDays&quot;:1,&quot;postPlayMax&quot;:100,&quot;adCall&quot;:{&quot;host&quot;:&quot;http:\/\/pubads.g.doubleclick.net\/gampad\/ads?&quot;,&quot;params&quot;:{&quot;iu&quot;:&quot;\/5441\/vaw-gamespot\/desktop\/gamespot.com&quot;,&quot;impl&quot;:&quot;s&quot;,&quot;gdfp_req&quot;:1,&quot;env&quot;:&quot;vp&quot;,&quot;output&quot;:&quot;xml_vmap1&quot;,&quot;unviewed_position_start&quot;:1,&quot;url&quot;:&quot;[referrer_url]&quot;,&quot;correlator&quot;:&quot;[timestamp]&quot;,&quot;description_url&quot;:&quot;[description_url]&quot;,&quot;cmsid&quot;:2566084,&quot;vid&quot;:6466103,&quot;pp&quot;:&quot;vpaid_js&quot;},&quot;custParams&quot;:{&quot;ptype&quot;:&quot;news_article&quot;,&quot;cid&quot;:&quot;gs-1100-6532331&quot;,&quot;game&quot;:&quot;invincible-vs&quot;,&quot;genre&quot;:&quot;2d,action,fighting&quot;,&quot;con&quot;:&quot;playstation-5,pc,xbox-series-x&quot;,&quot;publisher&quot;:&quot;skybound-llc&quot;,&quot;embed&quot;:&quot;autoplay&quot;,&quot;category&quot;:&quot;games&quot;,&quot;partner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;vid&quot;:6466103},&quot;soundBasedSize&quot;:{&quot;normal&quot;:&quot;640x480&quot;,&quot;muted&quot;:&quot;640x483&quot;,&quot;none&quot;:&quot;640x480&quot;},&quot;daiSsbUrl&quot;:&quot;https:\/\/dai.google.com\/ondemand\/hls\/content\/2572465\/vid\/6466103\/master.m3u8&quot;,&quot;daiMidRollHost&quot;:2500176},&quot;uvpHi5Ima&quot;:&quot;https:\/\/s0.2mdn.net\/instream\/html5\/ima3.js&quot;,&quot;cuePoints&quot;:null,&quot;uvpc&quot;:&quot;&quot;,&quot;partner&quot;:&quot;gamespot&quot;,&quot;adPartner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;desktopAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;mobileAdPartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;,&quot;mapp&quot;:&quot;gamespot&quot;,&quot;cms&quot;:&quot;pi&quot;,&quot;seekablePlaybacks&quot;:[&quot;html5&quot;,&quot;uvpjs&quot;],&quot;tracking&quot;:[{&quot;name&quot;:&quot;SiteCatalyst&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;charSet&quot;,&quot;value&quot;:&quot;UTF-8&quot;},{&quot;name&quot;:&quot;currencyCode&quot;,&quot;value&quot;:&quot;USD&quot;},{&quot;name&quot;:&quot;siteType&quot;,&quot;value&quot;:&quot;responsive web&quot;},{&quot;name&quot;:&quot;trackingServer&quot;,&quot;value&quot;:&quot;saa.gamespot.com&quot;},{&quot;name&quot;:&quot;visitorNamespace&quot;,&quot;value&quot;:&quot;cbsinteractive&quot;},{&quot;name&quot;:&quot;heartbeatTrackingServer&quot;,&quot;value&quot;:&quot;newimagitasinc.hb.omtrdc.net&quot;},{&quot;name&quot;:&quot;heartbeatVisitorMarketingCloudOrgId&quot;,&quot;value&quot;:&quot;3C66570E5FE1A4AB0A495FFC@AdobeOrg&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;siteCode&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;brand&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;account&quot;,&quot;value&quot;:&quot;cbsigamespotsite&quot;},{&quot;name&quot;:&quot;edition&quot;,&quot;value&quot;:&quot;us&quot;}]},{&quot;name&quot;:&quot;ComScore_ss&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;c2&quot;,&quot;value&quot;:&quot;31824268&quot;},{&quot;name&quot;:&quot;publishersSecret&quot;,&quot;value&quot;:&quot;2cb08ca4d095dd734a374dff8422c2e5&quot;},{&quot;name&quot;:&quot;c3&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;c4&quot;,&quot;value&quot;:&quot;gamespot&quot;}]},{&quot;name&quot;:&quot;NielsenTracking&quot;,&quot;category&quot;:&quot;tracking&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;host&quot;,&quot;value&quot;:&quot;https:\/\/secure-us.imrworldwide.com\/cgi-bin\/m?&quot;},{&quot;name&quot;:&quot;scCI&quot;,&quot;value&quot;:&quot;us-200330&quot;},{&quot;name&quot;:&quot;scC6&quot;,&quot;value&quot;:&quot;vc,c01&quot;}]},{&quot;name&quot;:&quot;MuxQOSPluginJS&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;propertyKey&quot;,&quot;value&quot;:&quot;b7d6e48b7461a61cb6e863a62&quot;}]}],&quot;trackingAccount&quot;:&quot;cbsigamespotsite&quot;,&quot;trackingSiteCode&quot;:&quot;gs&quot;,&quot;trackingPrimaryId&quot;:&quot;cbsigamespotsite&quot;,&quot;videoAssetSource&quot;:&quot;Publisher Asset&quot;,&quot;uvpjsHostname&quot;:&quot;\/\/www.gamespot.com&quot;,&quot;siteType&quot;:&quot;responsive web&quot;,&quot;startMuted&quot;:false,&quot;screenMediumThumb&quot;:&quot;https:\/\/www.gamespot.com\/a\/uploads\/screen_medium\/1574\/15746725\/4508973-11.jpg&quot;,&quot;videoStreams&quot;:{&quot;adaptive_stream&quot;:&quot;https:\/\/cdn.jwplayer.com\/manifests\/qIKBjsTd.m3u8&quot;},&quot;userId&quot;:0,&quot;premium&quot;:false,&quot;datePublished&quot;:1749406380,&quot;videoAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;videoAdMobilePartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;}" data-non-iframe-embed="1" data-jw-context-name="gamespot" data-jw-media-id="qIKBjsTd" data-jw-player-url="https://cdn.jwplayer.com/libraries/VXc5h4Tf.js" data-jw-video-token="" data-has-youtube="" data-youtube-icon-path="https://www.gamespot.com/a/bundles/phoenixsite/images/core/loose/icn-youtube-30x30.png" id="video-rectangle"><div><p>
-        Want us to remember this setting for all your devices?
-      </p><p><a href="https://www.gamespot.com/signup/">Sign up</a> or <a href="https://www.gamespot.com/login/">Sign in</a> now!
-      </p></div><p>
-      Please use a html5 video capable browser to watch videos.
-    </p><p>
-      This video has an invalid file format.
-    </p><p>Sorry, but you can't access this content!</p></div>
-          <p><em>Now Playing:</em> Invincible VS | Official Reveal Trailer | Xbox Games Showcase 2025</p>
-      </div>
-<h2 dir="ltr">A Killer origin story</h2><p dir="ltr">In 2013, developer Double Helix brought Rare's Killer Instinct series back to the masses on Xbox One. The 2013 installment's gritty, impactful fighting system made it an instant fan favorite, but soon after it launched, the studio was snapped up by Amazon Games. Many of KI 2013's key developers went on to other projects, but Mike Willette--KI 2013 producer and the voice behind the iconic "c-c-c-combo breaker!" sound effect in the reboot--wasn't done with fighting games yet. He wanted to get the band back together.</p><p dir="ltr">"We felt like we had unfinished business," Willette told GameSpot on a recent Zoom call. "I still had that itch, so after working [as lead of the world design team] on New World [at Amazon], I reached out to a whole bunch of the oldheads and said, 'Look, I'm thinking about starting a studio. Would you guys be interested?' Immediately, a bunch of them were in. 'Yeah dude, I had so much fun. We love the people, we love the community. If you can make it happen, Mike, we'll show up.'"</p><p dir="ltr">Not long after, Willette found himself in the offices of Skybound, creators of the dark and gritty Invincible superhero franchise. "Skybound asks me, 'Mike, what game would you want to build here?' and I immediately said, 'I want to build an Invincible fighting game, and I'll build a tag fighting game,'" Willette recalled. "I was a huge fan of the show and the comics, and there's just so much rich material there. It's violent. It's brutal. It has the stakes of what happens with superheroes. I just connected with them on such a level that I said, 'This is it, this is what I want to do.'"</p><p dir="ltr">Making a three-on-three tag fighter was a no-brainer for the team, as Invincible's pantheon of superheroes, according to Willette, lends itself perfectly to that style of fighting game. Tag battle fighting games are hype. They're incredible," Willette said. "The amount of creativity, the combo systems, the different archetypes that let you build your own team, instead of just using a single character... There hadn't been a real big game since Dragon Ball FighterZ, either, so we carried over from our days in KI, plus all the learnings from the past 10 years, and that's the genesis of Quarter Up."</p><figure data-align="center" data-size="large" data-img-src="https://www.gamespot.com/a/uploads/original/3/37852/4510856-tagcombat_markeve_vs_thula.png" data-ref-id="1300-4510856" data-ratio="0.56238603803074" data-width="3839" data-embed-type="image"><a href="https://www.gamespot.com/a/uploads/original/3/37852/4510856-tagcombat_markeve_vs_thula.png" data-ref-id="1300-4510856"></a><figcaption>Invincible VS</figcaption><img src="https://www.gamespot.com/a/uploads/original/3/37852/4510856-tagcombat_markeve_vs_thula.png"></figure><figure data-embed-type="gallery" data-img-src="https://www.gamespot.com/a/uploads/original/3/37852/4510857-cinematiccombat_markbp.png,https://www.gamespot.com/a/uploads/original/3/37852/4510858-combat_thulabp.png,https://www.gamespot.com/a/uploads/original/3/37852/4510859-tagcombat_markeve_vs_bp.png,https://www.gamespot.com/a/uploads/original/3/37852/4510860-taunt_mark.png,https://www.gamespot.com/a/uploads/original/3/37852/4510861-ult_bulletproof.png" data-ref-id="1300-4510857,1300-4510858,1300-4510859,1300-4510860,1300-4510861" data-resize-urls="https://www.gamespot.com/a/uploads/square_avatar/3/37852/4510857-cinematiccombat_markbp.png,https://www.gamespot.com/a/uploads/square_avatar/3/37852/4510858-combat_thulabp.jpg,https://www.gamespot.com/a/uploads/square_avatar/3/37852/4510859-tagcombat_markeve_vs_bp.png,https://www.gamespot.com/a/uploads/square_avatar/3/37852/4510860-taunt_mark.jpg,https://www.gamespot.com/a/uploads/square_avatar/3/37852/4510861-ult_bulletproof.png"><p>Gallery</p>     <img src="https://www.gamespot.com/a/uploads/original/3/37852/4510857-cinematiccombat_markbp.png,https://www.gamespot.com/a/uploads/original/3/37852/4510858-combat_thulabp.png,https://www.gamespot.com/a/uploads/original/3/37852/4510859-tagcombat_markeve_vs_bp.png,https://www.gamespot.com/a/uploads/original/3/37852/4510860-taunt_mark.png,https://www.gamespot.com/a/uploads/original/3/37852/4510861-ult_bulletproof.png"></figure><h2 dir="ltr"><span>Becoming Invincible</span></h2><p dir="ltr">Invincible VS employs a simplified version of Marvel vs. Capcom 3's four-button control scheme for attacks: There are four attack buttons--light, medium, heavy, and special--and each has multiple special attacks that are used depending on which direction you move the left thumbstick, a la Super Smash Bros. Tapping the light attack multiple times also offers an auto-combo that will chain into a super move, should the aggressor have the meter to use it.</p><p dir="ltr">Thankfully, the team has balanced that simplified control scheme with a system that offers plenty of depth and advanced tactics to discover. Those worried about players mashing the combo button over and over again, for example, can take solace in the return of one of Killer Instinct's defining features: the combo meter, which will force a player to drop a combo if they use the same move too often.</p><p dir="ltr">Core fighting mechanics resemble those from other fighting games: Heroic Boost adds extra power or hits to special attacks similar to EX moves in Street Fighter, super meters allow for more powerful moves as you charge them up by attacking and blocking, and so on. Some are adapted in new and interesting ways, however: "snapback"--moves that force an opponent to swap characters--can also blast an opponent into an entirely different stage in Invincible VS. In doing so, the character getting knocked into a new stage will lose access to their assist characters for a brief moment--because, from a storytelling perspective, those characters have to "catch up," while the offensive team is ready to go.</p><p dir="ltr">Incorporating the Invincible franchise into this format, meanwhile, has been incredibly easy for Willette and his team--easier than his previous projects, in fact.</p><p dir="ltr">"Compared to Killer Instinct's historical files, I have a lot more access with this property," Willette explained. "The problem when we worked on KI was that all of the previous developers were gone; we did have [Xbox partner creative director] Ken Lobb, and I could always go to Ken, but here I can go right to the well, and it's a <em>deep</em> well."</p><p dir="ltr">This comes through in the pre-fight character intros, where every character pairing in the game will have unique dialogue with every other character--even if they've never interacted in official Invincible media.</p><p dir="ltr">"We've got access to decades worth of comic references, access to the show team," Willette said, "and we're always spitballing ideas back and forth with each other. It's very cool to work here."</p><h2 dir="ltr">Battle scars</h2><p dir="ltr">That authenticity also bears a more grisly side through Invincible VS' blood-and-gore factor, a trait not normally associated with tag fighters like this. The most obvious implementation of this is in Overkills, where certain special and super moves will decapitate, dismember, or even detonate an opponent's body into pieces if used as the final hit.</p><p dir="ltr">Willette says this level of violence was necessary to convey what Invincible has always been about, but there is a limit.</p><p dir="ltr">"Our goal is to be brutal, but not hyper-grotesque for shock value," he explained. "We want to show the sheer brutality of these superheroes fighting, like the ground getting torn up or costumes getting ripped and splattered with blood. If you did a killing blow, it's really important for us, especially to be authentic to the [intellectual property]."</p><p dir="ltr">Willette also reveals that the team has put a unique spin on the battle damage concept through "offensive" and "defensive" versions of it. If one character has a big lead over another, the leading character will still have blood spots on their costumes or fists caked in red--it's just the <em>other</em> character's blood rather than their own.</p><p dir="ltr">"We are really conscious of how these things would affect both fighters," Willette said. "If a character is at low health, for another example, their idle animation will be different to show how tired they are. They're saying, 'All right, I'm messed up, but I'll keep going.' We really wanted to have those as part of the storytelling of the fight action."</p><p dir="ltr">The team at Quarter Up Games wants Invincible VS to appeal to as many players as possible, and it hopes to achieve it through one simple approach: Make each player feel like an absolute badass.</p><p dir="ltr">"When you pick up that game pad for the first time and you can just mash and you feel awesome, that's great. That means you're going to stick around longer," Willette said. "If you've never played a fighting game before, I'd love for this to be your first fighting game. And if lapsed, we'd love for you to come back for this because we love fighting games. We want to make you fans.</p><p dir="ltr">"This is a love letter from us saying, 'Yeah, we love Invincible, we love fighting games and we want you to come play.'"</p><p dir="ltr">Invincible VS is set for launch in 2026 for Xbox Series X|S, PlayStation 5, and PC.</p>
-  
-                        
-    
-        
-        
-  
-                                  </div>
-
-          
-        
-                              
-            <span>
-        <a itemprop="reviewer" href="https://plus.google.com/115235460361630065469?rel=author">Jason Fanelli</a> on Google+
-      </span>
-      
-                    
-  
-    
-          
-            
-  <div>
-    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
-
-    
-      </div>
-        
-      </section>
-    
-            
-    </article></div>]]></content:encoded>
         </item>
     </channel>
 </rss>
