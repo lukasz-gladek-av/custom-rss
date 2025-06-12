@@ -4,66 +4,70 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Wed, 11 Jun 2025 10:14:48 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 12 Jun 2025 19:22:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Mario Kart World review: Getting there is half the game]]></title>
-            <link>https://arstechnica.com/gaming/2025/06/mario-kart-world-review-getting-there-is-half-the-game/</link>
-            <guid>https://www.resetera.com/threads/mario-kart-world-review-getting-there-is-half-the-game.1215039/</guid>
-            <content:encoded><![CDATA[https://arstechnica.com/gaming/2025/06/mario-kart-world-review-getting-there-is-half-the-game/<br/><br/><div id="readability-page-1" class="page"><div>
+            <title><![CDATA[Engineer creates first custom motherboard for 1990s PlayStation console]]></title>
+            <link>https://arstechnica.com/gaming/2025/06/engineer-creates-first-custom-motherboard-for-1990s-playstation-console/</link>
+            <guid>https://www.resetera.com/threads/engineer-creates-first-custom-motherboard-for-1990s-playstation-console.1217118/</guid>
+            <content:encoded><![CDATA[https://arstechnica.com/gaming/2025/06/engineer-creates-first-custom-motherboard-for-1990s-playstation-console/<br/><br/><div id="readability-page-1" class="page"><div>
           
           
-<p>While that kind of item-based back-and-forth isn't new to Mario Kart, it feels like it has been taken to a new extreme by <em>World</em>'s more crowded race track. If you're in the middle of the pack, every tranche of item boxes you pass can lead, in short order, to a flurry of near-unavoidable projectiles and item-enhanced opponents cluttering your immediate space. That's especially true in online races, where human opponents tend to be much more ruthless with their item use than even the hardest computer-controlled opponents.</p>
+<p>The nsOne project joins a growing community of homebrew PlayStation 1 hardware developments. Other recent projects include <a href="https://github.com/picostation/picostation">Picostation</a>, a Raspberry Pi Pico-based optical disc emulator (ODE) that allows PlayStation 1 consoles to load games from SD cards instead of physical discs. Other ODEs like <a href="https://shop.terraonion.com/shop/product/terraonion-mode-dreamcast-saturn-ode-ps1-install-kit-pu-18-boards/view">MODE</a> and <a href="https://psio.cybdyn-systems.com.au/">PSIO</a> have also become popular solutions for retrogaming collectors who play games on original hardware as optical drives age and fail.</p>
+<h2>From repair job to reverse-engineering project</h2>
+<p>To understand the classic console's physical architecture, Brodesco physically sanded down an original motherboard to expose its internal layers, then cross-referenced the exposed traces with component datasheets and service manuals.</p>
+<p>"I realized that detailed documentation on the original motherboard was either incomplete or entirely unavailable," Brodesco explained in his Kickstarter campaign. This discovery launched what would become a comprehensive documentation effort, including tracing every connection on the board and creating multi-layer graphic representations of the circuitry.</p>
 <figure>
-    <div>
-            <p>
-              That blue "Kaboom!" can send you from first to 17th in a hurry.
-                          </p>
-          </div>
+    
           <figcaption>
         <div>
     
     <p>
-      That blue "Kaboom!" can send you from first to 17th in a hurry.
-
-          </p>
-  </div>
-      </figcaption>
-      </figure>
-
-<p>The change ultimately rewards defensive driving, where you do your best to avoid other racers and utilize protective items until you have a chance to rocket into the relative safety of the top few positions. Sometimes, though, there's simply no avoiding a maddening series of bad breaks that can literally send you from first place to 19th in an instant.</p>
-
-<h2>It’s not the destination, it’s the journey</h2>
-<p>Once you've adjusted to the more crowded field of racers, you'll then have to get used to the odd structure of <em>Mario Kart World</em>'s main racing modes. Rather than racing multiple laps around the game's well-designed tracks, you'll spend the bulk of your race time in most racing modes trekking between those tracks across the great expanses of <em>Mario Kart World</em>'s, uh, world.</p>
-<figure>
-    <div id="caption-2100260"><p>
-              Get used to seeing very straight sections like this in most of the game's racing modes.
-                              </p><p>
-                  Credit:
-                                      Nintendo
-                                  </p>
-                          </div>
-          <figcaption>
-        <div>
-    
-    <p>
-      Get used to seeing very straight sections like this in most of the game's racing modes.
+      A photo of the nsOne PlayStation motherboard.
 
               <span>
           Credit:
 
+                      <a href="https://www.reddit.com/r/psx/comments/1l47s0o/for_the_first_time_ever_a_ps1_motherboard_not" target="_blank">
           
-          Nintendo
+          Lorentio Brodesco
 
+                      </a>
                   </span>
           </p>
   </div>
       </figcaption>
       </figure>
 
-<p>These inter-course interludes offer a decent variety to the structure, which will see you traveling through desert wastelands, down traffic-clogged highways, along the surface of tiered waterfalls, across frozen tundra, and more. What's unavoidably similar about most of them, though, is their unbearable straightness. Players used to the undulating, crisscrossing curves of a standard Mario Kart course will marvel at just how rarely they have to powerslide around turns while shuttling between those courses in <em>World</em>.</p>
-<p>These long straightaways aren't boring, per se. The designers have done their best to dress them up with plenty of obstacles (of the stationary, vehicular, and livestock varieties), as well as jumps, dash pads, and frequent item boxes to make sure you're still paying attention. But it can still be a jarring transition to go from two or three minutes across one of these mostly straight interregnums into the usual twisty wildness of the game's more familiar pre-designed courses.</p>
+<p>Using optical scanning and manual net-by-net reverse-engineering, Brodesco recreated the PlayStation 1's schematic in modern PCB design software. This process involved creating component symbols with accurate pin mappings and identifying—or in some cases creating—the correct footprints for each proprietary component that Sony had never publicly documented.</p>
+<p>Brodesco also identified what he calls the "minimum architecture" required to boot the console without BIOS modifications, streamlining the design process while maintaining full compatibility.</p>
+<p>The mock-up board shown in photos validates the footprints of chips and connectors, all redrawn from scratch. According to Brodesco, a fully routed version with complete multilayer routing and final layout is already in development.</p>
+<figure>
+    
+          <figcaption>
+        <div>
+    
+    <p>
+      A photo of the nsOne PlayStation motherboard.
+
+              <span>
+          Credit:
+
+                      <a href="https://www.reddit.com/r/psx/comments/1l47s0o/for_the_first_time_ever_a_ps1_motherboard_not" target="_blank">
+          
+          Lorentio Brodesco
+
+                      </a>
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>As Brodesco noted on Kickstarter, his project's goal is to "create comprehensive documentation, design files, and production-ready blueprints for manufacturing fully functional motherboards."</p>
+<p>Beyond repairs, the documentation and design files Brodesco is creating would preserve the PlayStation 1's hardware architecture for future generations: "It's a tribute to the PS1, to retro hardware, and to the belief that one person really can build the impossible."</p>
+
 
           
                   </div></div>]]></content:encoded>
