@@ -4,9 +4,37 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Tue, 17 Jun 2025 08:54:27 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 Jun 2025 09:03:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Nintendo Switch 2 HDR Calibration Settings Are Slammed Even Further by Expert]]></title>
+            <link>https://wccftech.com/nintendo-switch-2-hdr-calibration-settings-are-slammed-even-further-by-expert/</link>
+            <guid>https://www.resetera.com/threads/nintendo-switch-2-hdr-calibration-settings-are-slammed-even-further-by-expert.1220226/</guid>
+            <content:encoded><![CDATA[https://wccftech.com/nintendo-switch-2-hdr-calibration-settings-are-slammed-even-further-by-expert/<br/><br/><div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>We were fairly surprised when we learned that the Nintendo Switch 2 would feature HDR support, both built-in for the handheld screen and for the docked mode. However, its implementation is suboptimal, to say the least, and this is sadly not all that surprising.</p>
+<p>As <a href="https://wccftech.com/nintendo-switch-2-below-average-hdr/" target="_blank" rel="noopener">reported</a> shortly after the console's launch, the edge-lit LCD display has just about mediocre HDR capabilities due to low peak brightness (around 450 nits). Furthermore, since it's not an OLED screen, it cannot benefit from that technology's intrinsic infinite contrast, which is always a boon for HDR presentation.</p>
+<p>Docked mode doesn't have the same issues since it relies on an external display. However, it has other issues related to its calibration settings. We have already <a href="https://wccftech.com/this-nintendo-switch-2-setting-can-improve-hdr-in-tv-mode/" target="_blank" rel="noopener">covered</a> this topic following a report from YouTuber My Life in Gaming, but now, the most renowned display expert on YouTube has <a href="https://www.youtube.com/watch?v=X84e14oe6gs" target="_blank" rel="noopener">released</a> his own video to dive into the issue of Nintendo Switch 2 HDR calibration.</p>
+<p>I'm referring to Vincent Teoh of HDTVTest, widely regarded as the best YouTube channel when it comes to TV and display analysis. Teoh found several problems with HDR calibration on the new Nintendo console:</p>
+<ul>
+<li>Effective HDR calibration depends greatly on whether the user's TV supports HGIG or source-based tone mapping. The test pattern adjustment for max TML (tonemap luminance) reliably works only on HGIG-enabled displays.</li>
+<li>The adjustment steps are just too many when compared to other console HDR calibration menus, such as the PlayStation 5 and the Xbox Series S|X, and there's no numeric indicator to help.</li>
+<li>The Nintendo Switch 2's default paper white setting is brighter than the reference white level of 203 nits recommended by the ITU-R BT.2408, the standard for 1000 nits HDR10 content. This results in a perceptually flatter image where midtones are pushed too high, reducing dynamic range and leaving insufficient headroom for specular highlights, translating into a less impactful HDR presentation.</li>
+<li>Unfortunately, the adjustment steps for the paper white setting change based on the max TML previously set, further complicating accurate HDR tweaking.</li>
+</ul>
+<p><iframe title="I Measured Nintendo Switch 2's HDR Settings - No Wonder Most Games Look Awful. Here's The Fix." width="500" height="281" src="https://www.youtube.com/embed/X84e14oe6gs?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+<p>How can the Nintendo Switch 2 HDR presentation be improved in light of all these issues? First, you should get an HGIG-compatible display, as that greatly affects how accurate HDR content viewing will be. If you must stick to a display that does not support HGIG, the best compromise is to set&nbsp;the max TML at 1000 nits and paper white around 200 nits to minimize clipping while preserving contrast.</p>
+<p>Beyond that, there are a few settings to tweak. Switching the Nintendo Switch 2 console to dark theme mode reduces the influence of Automatic Brightness Limiter (ABL) when using OLED displays, preserving more consistent brightness and contrast. It's also important to set HDR output to “compatible software only” to avoid forcing HDR on SDR content. Lastly, the screen burn-in protection feature is redundant on modern OLED displays and useless on non-OLED displays, so it should be disabled.</p>
+
+			
+		</div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Lumines Arise Hands-On SGF 2025 Impressions]]></title>
             <link>https://wccftech.com/lumines-arise-hands-on-sgf-2025-impressions/</link>
