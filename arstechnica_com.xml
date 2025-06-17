@@ -4,72 +4,28 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Thu, 12 Jun 2025 22:21:47 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 Jun 2025 17:00:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Engineer creates first custom motherboard for 1990s PlayStation console]]></title>
-            <link>https://arstechnica.com/gaming/2025/06/engineer-creates-first-custom-motherboard-for-1990s-playstation-console/</link>
-            <guid>https://www.resetera.com/threads/engineer-creates-first-custom-motherboard-for-1990s-playstation-console.1217118/</guid>
-            <content:encoded><![CDATA[https://arstechnica.com/gaming/2025/06/engineer-creates-first-custom-motherboard-for-1990s-playstation-console/<br/><br/><div id="readability-page-1" class="page"><div>
-          
-          
-<p>The nsOne project joins a growing community of homebrew PlayStation 1 hardware developments. Other recent projects include <a href="https://github.com/picostation/picostation">Picostation</a>, a Raspberry Pi Pico-based optical disc emulator (ODE) that allows PlayStation 1 consoles to load games from SD cards instead of physical discs. Other ODEs like <a href="https://shop.terraonion.com/shop/product/terraonion-mode-dreamcast-saturn-ode-ps1-install-kit-pu-18-boards/view">MODE</a> and <a href="https://psio.cybdyn-systems.com.au/">PSIO</a> have also become popular solutions for retrogaming collectors who play games on original hardware as optical drives age and fail.</p>
-<h2>From repair job to reverse-engineering project</h2>
-<p>To understand the classic console's physical architecture, Brodesco physically sanded down an original motherboard to expose its internal layers, then cross-referenced the exposed traces with component datasheets and service manuals.</p>
-<p>"I realized that detailed documentation on the original motherboard was either incomplete or entirely unavailable," Brodesco explained in his Kickstarter campaign. This discovery launched what would become a comprehensive documentation effort, including tracing every connection on the board and creating multi-layer graphic representations of the circuitry.</p>
-<figure>
-    
-          <figcaption>
-        <div>
-    
-    <p>
-      A photo of the nsOne PlayStation motherboard.
-
-              <span>
-          Credit:
-
-                      <a href="https://www.reddit.com/r/psx/comments/1l47s0o/for_the_first_time_ever_a_ps1_motherboard_not" target="_blank">
-          
-          Lorentio Brodesco
-
-                      </a>
-                  </span>
-          </p>
-  </div>
-      </figcaption>
-      </figure>
-
-<p>Using optical scanning and manual net-by-net reverse-engineering, Brodesco recreated the PlayStation 1's schematic in modern PCB design software. This process involved creating component symbols with accurate pin mappings and identifying—or in some cases creating—the correct footprints for each proprietary component that Sony had never publicly documented.</p>
-<p>Brodesco also identified what he calls the "minimum architecture" required to boot the console without BIOS modifications, streamlining the design process while maintaining full compatibility.</p>
-<p>The mock-up board shown in photos validates the footprints of chips and connectors, all redrawn from scratch. According to Brodesco, a fully routed version with complete multilayer routing and final layout is already in development.</p>
-<figure>
-    
-          <figcaption>
-        <div>
-    
-    <p>
-      A photo of the nsOne PlayStation motherboard.
-
-              <span>
-          Credit:
-
-                      <a href="https://www.reddit.com/r/psx/comments/1l47s0o/for_the_first_time_ever_a_ps1_motherboard_not" target="_blank">
-          
-          Lorentio Brodesco
-
-                      </a>
-                  </span>
-          </p>
-  </div>
-      </figcaption>
-      </figure>
-
-<p>As Brodesco noted on Kickstarter, his project's goal is to "create comprehensive documentation, design files, and production-ready blueprints for manufacturing fully functional motherboards."</p>
-<p>Beyond repairs, the documentation and design files Brodesco is creating would preserve the PlayStation 1's hardware architecture for future generations: "It's a tribute to the PS1, to retro hardware, and to the belief that one person really can build the impossible."</p>
-
+            <title><![CDATA[Switch 2 users report online console bans after running personal game “backups”]]></title>
+            <link>https://arstechnica.com/gaming/2025/06/playing-personal-game-backups-could-get-your-switch-2-banned-by-nintendo/</link>
+            <guid>https://www.resetera.com/threads/switch-2-users-report-online-console-bans-after-running-personal-game-%E2%80%9Cbackups%E2%80%9D.1220871/</guid>
+            <content:encoded><![CDATA[https://arstechnica.com/gaming/2025/06/playing-personal-game-backups-could-get-your-switch-2-banned-by-nintendo/<br/><br/><div id="readability-page-1" class="page"><div>
+                      
+                      
+          <p>Earlier this week, the makers of the popular Mig Flash cartridge, which allows users to play Switch games loaded via an SD card without modifying the console itself, <a href="https://x.com/SwitchTools/status/1933967207840514159">issued a firmware update</a> enabling the cards to run original Switch games on the Switch 2. Since then, though, multiple Mig Flash users are reporting that they've seen their Switch 2 consoles banned from Nintendo's online servers, even in cases where the devices were only used to run backups of legitimate games the users purchased themselves.</p>
+<p>"My Switch 2 test has been banned after using the Mig [Flash] with perfectly legal dumps of my own cartridges, so it would seem that Nintendo can detect something," popular hacking news account Switch Tools <a href="https://x.com/SwitchTools">posted on social media Monday</a> (along with <a href="https://x.com/SwitchTools/status/1934723908676338036">a follow-up showing a stack of legitimate Switch games</a> they said they had backed up using the device). "I strongly recommend that you do not use the Mig [Flash], it was already very risky to use but it is even more so on Switch 2."</p>
+<blockquote>
+<p dir="ltr" lang="en">My Switch 2 test has been banned, after using the mig switch with perfectly legal dumps of my own cartridges, so it would seem that Nintendo can detect something<br>
+Similar reports on reddit are starting to come in.<a href="https://t.co/nbPMlRWSaP">https://t.co/nbPMlRWSaP</a><a href="https://t.co/3eq6dkbFMi">https://t.co/3eq6dkbFMi</a><br>
+I strongly… <a href="https://t.co/btzjQYJzE4">pic.twitter.com/btzjQYJzE4</a></p>
+<p>— SwitchTools (@SwitchTools) <a href="https://twitter.com/SwitchTools/status/1934637497985769875?ref_src=twsrc%5Etfw">June 16, 2025</a></p></blockquote>
+<p>The insistence that the ban came while using "perfectly legal dumps of my own cartridges" is important here. Nintendo has <a href="https://arstechnica.com/gaming/2018/06/inside-nintendos-perfect-method-for-detecting-online-switch-piracy/">long used certificates with robust cryptographic signatures</a> to identify when individual copies of Switch games are being shared for the purposes of piracy. If Nintendo notices the same cryptographic signature on security certificates being used by hundreds of different consoles and accounts, for instance, the company can be relatively sure that all those users are engaging in piracy.</p>
+<p>But the Mig Flash can also be used for backup and play of an individual's legal Switch game purchases on a personal console, which shouldn't lead to any such signature conflicts. On <a href="https://migflash.com/#/:~:text=08/01/2024,held%20responsible%20for.">the Mig Flash website</a>, the developers of the device say they "only support and guarantee your gaming with your own games backups. This applies to online, too. If you want to play online with the full Mig Flash warranty, you need to use your own dumped backups... Failure to respect this rule might end up in bans from Nintendo online service, which we won't be held responsible for."</p>
 
           
+                      
                   </div></div>]]></content:encoded>
         </item>
     </channel>
