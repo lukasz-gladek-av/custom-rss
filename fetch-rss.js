@@ -100,7 +100,7 @@ async function fetchAndProcessFeed() {
           title: item.title,
           id: item.link,
           link: itemArticleLink,
-          content: itemArticleLink + '<br/><br/>' + article.content,
+          content: article.content + '<br/><br/>' + itemArticleLink,
           author: [{ name: item.author || item.creator || 'Unknown' }],
         };
         feed.addItem(articleItem);
