@@ -4,9 +4,31 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Fri, 27 Jun 2025 13:56:32 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 27 Jun 2025 14:06:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[DayZ Badlands Expansion Announced, Adds New Desert Environment, Infected Variants, And More In 2026]]></title>
+            <link>https://wccftech.com/dayz-badlands-expansion-announced-adds-new-desert-environment-infected-variants-and-more-in-2026/</link>
+            <guid>https://www.resetera.com/threads/dayz-badlands-expansion-announced-adds-new-desert-environment-infected-variants-and-more-in-2026.1230066/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>Developer <a href="https://wccftech.com/vigor-pc-release-early-access/">Bohemia Interactive</a> has announced the next expansion for DayZ, titled Badlands, which adds a new desert environment in the Nasdara province, new variants of infected that have adapted to the harsh rule of the desert, and more when it arrives sometime in 2026.</p>
+<p>Badlands adds "<em>the largest official map in the game's history,</em>" according to Bohemia Interactive in a press release, with 267 square kilometers of desert for players to explore in Nasdara's desert. It's also not just dry sand as far as the eye can see. There are towns, ruins, oil fields, and plenty of environmental storytelling to discover in the post-war desert.</p>
+<p><iframe title="DayZ Badlands - Expansion Announcement Teaser" width="500" height="281" src="https://www.youtube.com/embed/2oad7AX7gWM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+<p>The desert also brings a few desert-specific survival elements, meaning players will need to keep an eye on how hydrated they are and stay out of the sun to keep cool and alive. And as previously mentioned, there's more to watch out for beyond the regular-world desert hazards, with new variants of infected that have all been warped by the desert.</p>
+<p>Bohemia Interactive also adds that this expansion will feature "<em>player-driven storytelling</em>," as players form factions and discover "<em>forgotten secrets.</em>"</p>
+<p>"<em>Bohemia Interactive vows to push the boundaries of what survival means in the DayZ universe with DayZ Badlands</em>," the studio writes in a press release. "<em>From the scorched cities to the silent sands, Nasdara is a land shaped by war, reset by the outbreak, now waiting for new stories to be written in its sands</em>."</p>
+<p>This is a big switch from the last major expansion for DayZ, which was<a href="https://wccftech.com/dayz-frostline-expansion-announced-livonia-dlc-free/"> Frostline</a>, taking players to the dead of winter, instead of the desert. Hopefully, we'll know more about this expansion soon, like a proper release date instead of its current release window for next year, and get a better look at what to expect when we head into the desert.</p>
+
+			
+		</div></div><br/><br/>https://wccftech.com/dayz-badlands-expansion-announced-adds-new-desert-environment-infected-variants-and-more-in-2026/]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[The CUBE Q&A – Mundfish Confirms Dungeon-Like Zones, Dynamic Events, and Regular Post-Launch Support]]></title>
             <link>https://wccftech.com/the-cube-qa-mundfish-confirms-dungeon-like-zones-dynamic-events-and-regular-post-launch-support/</link>
@@ -133,55 +155,6 @@
 
 			
 		</div></div><br/><br/>https://wccftech.com/how-to/death-stranding-2-on-the-beach-the-most-important-stat-to-level-up-as-quickly-as-possible/]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[RTGI ReShade Shader Receives Its ‘Biggest Update Yet’, Outperforming ReSTIR GI According to Its Author]]></title>
-            <link>https://wccftech.com/rtgi-reshade-shader-receives-its-biggest-update-yet-outperforming-restir-gi-according-to-its-author/</link>
-            <guid>https://www.resetera.com/threads/rtgi-reshade-shader-receives-its-%E2%80%98biggest-update-yet%E2%80%99-outperforming-restir-gi-according-to-its-author.1229877/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			<p>It had been six months since Pascal Gilcher, also known as Marty McFly, had released an update for his popular <a href="https://wccftech.com/rtgi-shader-adds-image-based-lighting-extended-ray-length-multiplier/" target="_blank" rel="noopener">RTGI ReShade shader</a>.&nbsp;However, a new version just became available to his <a href="https://www.patreon.com/mcflypg?" target="_blank" rel="noopener">Patreon</a> subscribers, and it's a big one.</p>
-<p>The modder tried to implement the <a href="https://wccftech.com/nvidia-researchers-demonstrate-new-raytracing-algorithm-that-can-render-direct-lighting-from-millions-of-dynamic-light-sources/" target="_blank" rel="noopener">ReSTIR GI</a> algorithm in his shader, but encountered several limitations, like chroma noise (because reservoir sampling can only hold light from a single direction), sample correlation that breaks denoiser variance estimation, and white noise output. Eventually, Gilcher decided to design his own sampling algorithm, which he reckons vastly outperforms ReSTIR GI in terms of quality.&nbsp;The RTGI shader has also received significant improvements to its reflections, which now trace pixel-perfect paths using HiZ Min-Max Tracing.</p>
-<p>The modder also shared future plans to split RTGI's diffuse and specular components into separate shaders to manage them more easily.</p>
-<p><iframe title="Marty's Mods | Update June 2025" width="500" height="281" src="https://www.youtube.com/embed/PImgAUIoyZw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
-<p>There were also improvements to other Gilcher's shaders, such as MXAO, which saw the fixing of the low-radius halos that manifested around objects, and especially Launchpad, whose optical flow is used by several other shaders. This new version of Launchpad introduces an innovative gradient descent-based algorithm that can handle subpixel shifts more effectively than traditional grid-based search methods.</p>
-<p>Users can now choose from two general-purpose gradient descent optimizers:</p>
-<ul>
-<li>Newton: Converges quickly, making it more suitable for lower-quality settings.</li>
-<li>SophiaG: Converges more slowly, but finds better minima, making it a good fit for high-quality settings.</li>
-</ul>
-<figure><figcaption>Launchpad - Before and After</figcaption></figure>
-<p>Lastly, Gilcher has released a brand new shader: path traced volumetric fog. It was originally built as a ground truth reference for a real-time effect, but the modder ultimately enjoyed it so much that the full path-traced version is now available in beta testing, although it's meant to be used for screenshots only. Check out the example below, which was captured in God of War.</p>
-<figure><figcaption>Before</figcaption></figure>
-<figure><figcaption>After</figcaption></figure>
-<p>The path traced volumetric fog shader is currently only available at the most expensive Patreon tier, 'Photon Mappers', which costs $20 monthly.</p>
-
-			
-		</div></div><br/><br/>https://wccftech.com/rtgi-reshade-shader-receives-its-biggest-update-yet-outperforming-restir-gi-according-to-its-author/]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Monster Hunter Wilds Title Update 2 Will Introduce NVIDIA DLSS 4, Multi Frame Generation, AMD FSR 4 Support on PC and More]]></title>
-            <link>https://wccftech.com/monster-hunter-wilds-title-update-2-nvidia-dlss-4-amd-fsr-4/</link>
-            <guid>https://www.resetera.com/threads/monster-hunter-wilds-title-update-2-will-introduce-nvidia-dlss-4-multi-frame-generation-amd-fsr-4-support-on-pc-and-more.1229862/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			<p>Besides new content, Monster Hunter Wilds Title Update 2 is introducing some new features on PC, the full update notes confirmed.</p>
-<p>Following the announcement of the update's <a href="https://wccftech.com/monster-hunter-wilds-free-title-update-2-arrives-on-monday-adds-lagiacrus-and-seregios-to-the-hunt/">release date</a> and most significant additions, which include returning monsters Lagiacrus and Seregios, the <a href="https://info.monsterhunter.com/wilds/update/en-us/Ver.1.020.00.00.html" target="_blank" rel="noopener">Title Update 2 full notes</a> have gone live, confirming it will add NVIDIA DLSS 4 and AMD FSR 4 support on PC. Multi Frame Generation support is also being added by the update, featuring an Auto option that will dynamically turn frame generation on and off depending on the load. The upscaling and frame generation options will also be separated once the title update goes live, allowing users, for example, to use NVIDIA DLSS for upscaling and AMD FSR frame generation together, or any other combination. Rounding up the PC-specific additions are a warning dialogue that warns the user they are using out-of-date GPU drivers, new customizable keyboard configuration controls, and the option of copying the Lobby ID/ Hunter ID via the Start Menu and the Squad ID via the Squad Menu. Unfortunately, the Title Update 2 notes make no mention of performance or optimization improvements, besides a reduction in VRAM usage, so most users will still have to rely on Frame Generation to hit acceptable levels of performance.</p>
-<p>As mentioned above, the Monster Hunter Wilds Title Update 2, which launches next week on June 30, introduces Lagiacrus and Seregios, a Layered Weapons system, and many other features. Next month, hunters will also be able to take on Arch-tempered Uth Duna and participate in a Fender Special Collaboration event in August. The following Title Update, which has yet to be detailed, will launch in September.</p>
-<p>Monster Hunter Wilds is now available on PC, PlayStation 5, Xbox Series X, and Xbox Series S. You can learn more about the game by checking out my <a href="https://wccftech.com/review/monster-hunter-wilds-peak-hunting/">review.</a></p>
-
-			
-		</div></div><br/><br/>https://wccftech.com/monster-hunter-wilds-title-update-2-nvidia-dlss-4-amd-fsr-4/]]></content:encoded>
         </item>
     </channel>
 </rss>
