@@ -4,7 +4,7 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Fri, 27 Jun 2025 15:30:43 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 27 Jun 2025 15:40:17 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -70,56 +70,6 @@
 
 			
 		</div></div><br/><br/>https://wccftech.com/dayz-badlands-expansion-announced-adds-new-desert-environment-infected-variants-and-more-in-2026/]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[The CUBE Q&A – Mundfish Confirms Dungeon-Like Zones, Dynamic Events, and Regular Post-Launch Support]]></title>
-            <link>https://wccftech.com/the-cube-qa-mundfish-confirms-dungeon-like-zones-dynamic-events-and-regular-post-launch-support/</link>
-            <guid>https://www.resetera.com/threads/the-cube-q-a-%E2%80%93-mundfish-confirms-dungeon-like-zones-dynamic-events-and-regular-post-launch-support.1229988/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			<p>The unveiling of <a href="https://wccftech.com/the-cube-is-an-mmorpg-shooter-set-in-the-atomic-heart-universe/" target="_blank" rel="noopener">The CUBE</a> certainly surprised fans of Atomic Heart. While a sequel was more than warranted given that over 10 million people played the original game, they definitely weren't expecting to also get an online multiplayer spin-off featuring MMORPG elements.</p>
-<p>When we contacted Mundfish to <a href="https://wccftech.com/atomic-heart-2-qa-its-a-few-years-out-were-taking-the-time-to-make-it-tighter-and-more-immersive/" target="_blank" rel="noopener">learn more about Atomic Heart 2</a>, we also set up an interview to discuss The CUBE. Once again, studio founder, CEO, and game director Robert Bagratuni kindly obliged, allowing us to craft this exclusive interview dedicated to the exciting project and the brand new split-rendering technology created specifically for it. Bagratuni also discussed the increased team size to handle all these projects, the current state of the game (internal playtesting), and the desire to support The CUBE well after launch with new content and features.</p>
-<figure><figcaption>'I was absentmindedly sketching a tic-tac-toe grid and squares on a notepad. Then a thought hit me: what if these cube tiles rotated? What if its surfaces shifted, folded, expanded? What if this structure wasn’t just abstract, but alive - a space that actually impacted traversal, physics, logic, even multiplayer behavior? That single moment sparked something.'</figcaption></figure>
-<p><strong>How many developers from Mundfish are working on The CUBE?</strong></p>
-<p>We've grown significantly since the development of Atomic Heart 1. Back then, the entire game was created by a team of around 50 developers, growing to about 80 by the time of release. Today, the structure is quite different: the team has more than doubled in size, and we now have multiple dedicated teams. One team is fully focused on DLC#4 for Atomic Heart 1, another is working on Atomic Heart 2, and a separate team is developing The CUBE.</p>
-<p>Many of those working on The CUBE joined the studio after the project received internal greenlight, especially given its multiplayer focus, which required new expertise. That said, of course, there’s crossover between teams, particularly in areas like narrative, where maintaining consistency across our universe is essential. The same goes for shared characters and cutscene production. So, while it’s difficult to give a precise headcount, what’s clear is that each current project is being developed by equally strong teams that are significantly larger than what we had during AH1.</p>
-<p><strong>How did you come up with the concept for this game?</strong></p>
-<p>It all started with a phone call - one of those long, uneventful conversations where your mind begins to drift. I was absentmindedly sketching a tic-tac-toe grid and squares on a notepad. Then a thought hit me: what if these cube tiles rotated? What if its surfaces shifted, folded, expanded?</p>
-<p>What if this structure wasn’t just abstract, but alive - a space that actually impacted traversal, physics, logic, even multiplayer behavior? That single moment sparked something. Oleg Gorodishenin, our executive producer and co-founder, and I quietly excused ourselves from the call. The next two hours were pure creative flow - and by the end of it, The CUBE was born.</p>
-<p><strong>Chronologically, does it take place before or after Atomic Heart 2?</strong></p>
-<p>Great question, but we’re being careful not to reveal too much just yet. What we can say is that The CUBE takes place after the events of Atomic Heart 1. As for how it connects to Atomic Heart 2, there’s definitely a timeline relationship, but we’ll let players piece that together as more is revealed. The CUBE isn’t just a standalone concept, it’s a key part of the evolving universe.</p>
-<p><strong>Can you discuss the split-rendering system? Why is it unique and how does it work?</strong></p>
-<p>To bring The CUBE to life, we had to develop entirely new systems that could support a world in constant motion, both structurally and technically. At the heart of this is our split-rendering system, a breakthrough method that allows thousands of objects on what we call “tiles” (or world clusters) to move and rotate in real time across massive multiplayer environments. This isn’t just visual spectacle - it directly affects gameplay, traversal, and the rules of physics inside the world.</p>
-<p>The system works by splitting how motion, rendering, and synchronization are handled between client and server, making it possible to maintain seamless transitions, dynamic gravity, and accurate object tracking, even when the entire world around you is shifting. It enables what we think of as a truly living environment, and it's currently patent-pending.</p>
-<p>The CUBE is developed on Unreal Engine 5, and we’ve implemented several custom modifications to both its physics and rendering subsystems to fully support our approach. UE5 gives us so much development freedom and the visual fidelity to match the scale and ambition of this concept. At the end of the day, this isn’t just tech for the sake of tech - it’s what allows The Cube to feel unique, unpredictable, and fully alive in the hands of the player.</p>
-<figure><figcaption>'The CUBE is not about static quest hubs or routine grinds - it’s about exploration, discovery, and adapting to a shifting, surreal environment that changes over time. Players will engage in cooperative missions, dynamic world events, and possibly confront other players in certain regions, depending on the context. The CUBE itself acts as a living system - part structure, part mystery - and what you do inside it affects both your journey and the shape of the world for others.'</figcaption></figure>
-<p><strong>You've presented the game as an MMORPG shooter. Could you share which MMORPG elements will be featured?</strong></p>
-<p>At its core, The CUBE is built around a deep narrative set in the evolving Atomic Universe. We’re calling it an MMORPG shooter because it blends that strong narrative foundation with large-scale systems: deep and persistent character progression, customizable loadouts, long-term gear upgrades, quests, and evolving objectives, like expeditions, shaped by the community. But unlike traditional MMOs, The CUBE is not about static quest hubs or routine grinds - it’s about exploration, discovery, and adapting to a shifting, surreal environment that changes over time.</p>
-<p>Players will engage in cooperative missions, dynamic world events, and possibly confront other players in certain regions, depending on the context. The CUBE itself acts as a living system - part structure, part mystery - and what you do inside it affects both your journey and the shape of the world for others.</p>
-<p><strong>Are there any extraction shooter modes or elements in the game? How does PvP work in the game?</strong></p>
-<p>While The CUBE offers a wide range of gameplay experiences from exploration and constant progression to narrative-driven quests and deep social interactions, combat is just one of the tools players use to achieve their goals. At its core, The CUBE is closer to classic MMORPGs than to extraction shooters or battle royales, which usually don’t focus on the above.</p>
-<p>That said, elements commonly associated with extraction gameplay, like venturing into dangerous zones and returning with valuable loot, are present in many RPGs such as Diablo, WoW, and Destiny, right? In that medium, The CUBE shares a similar dynamic: players will have opportunities to explore, take risks and return with meaningful rewards. But that’s only one layer or, let’s say, face of The CUBE - the overall experience will consist of a mix of many more gameplay elements. Our task is to offer players something fresh - something they really want and are not tired of yet.</p>
-<p>Even though we’re not ready to reveal everything just yet, observant players may have already noticed several hints about what’s to come on the game’s Steam page. A closer look might uncover some intriguing new details. So, stay tuned, more details about the game systems are coming soon.</p>
-<p><strong>Will there be any dungeon-like experiences?</strong></p>
-<p>Yes, as part of the exploration, players will find dungeon-like zones with high stakes, tough enemies, and unique rewards. The deeper you go, the weirder it gets.</p>
-<p><strong>What are the differences in terms of character progression with AH2?</strong></p>
-<p>It’s a great question, but it’s still too early to go into detail. We’ll share more when the time is right. But we can say that, as a multiplayer project, The CUBE will let you shape and adapt your gameplay style to respond effectively to the ever-changing world around you.</p>
-<p><strong>Can you share the business model for The CUBE (free to play or premium)?</strong></p>
-<p>We’re still finalizing the business model for The CUBE, so it’s not something we’re ready to reveal just yet. Our focus right now is on building a great game, and whatever model we choose, it will be designed to support a fair, player-first experience.</p>
-<figure><figcaption>'Right now, The CUBE is in active internal playtesting. We’re using this phase to refine core systems and ensure the experience feels right. At the same time, we’re already thinking about how to approach open testing - we definitely want to involve the community and gather feedback as early as it makes sense to fine-tune the final gaming experience. More on that soon.'</figcaption></figure>
-<p><strong>What is the current state of the game? Are you planning several beta tests to receive feedback from fans?</strong></p>
-<p>Right now, The CUBE is in active internal playtesting. We’re using this phase to refine core systems and ensure the experience feels right. At the same time, we’re already thinking about how to approach open testing - we definitely want to involve the community and gather feedback as early as it makes sense to fine-tune the final gaming experience. More on that soon.</p>
-<p><strong>What are your plans for the post-launch support of The CUBE?</strong></p>
-<p>The CUBE is designed from the ground up as a continuing experience. Post-launch, we’ll be regularly rolling out new content, quests, story beats, events, and features to keep the world evolving. This world is built to grow, impress, and surprise.</p>
-<p><strong>Thank you for your time.</strong></p>
-
-			
-		</div></div><br/><br/>https://wccftech.com/the-cube-qa-mundfish-confirms-dungeon-like-zones-dynamic-events-and-regular-post-launch-support/]]></content:encoded>
         </item>
     </channel>
 </rss>
