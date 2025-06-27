@@ -4,9 +4,39 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Fri, 27 Jun 2025 10:21:20 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 27 Jun 2025 10:35:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[RTGI ReShade Shader Receives Its ‘Biggest Update Yet’, Outperforming ReSTIR GI According to Its Author]]></title>
+            <link>https://wccftech.com/rtgi-reshade-shader-receives-its-biggest-update-yet-outperforming-restir-gi-according-to-its-author/</link>
+            <guid>https://www.resetera.com/threads/rtgi-reshade-shader-receives-its-%E2%80%98biggest-update-yet%E2%80%99-outperforming-restir-gi-according-to-its-author.1229877/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>It had been six months since Pascal Gilcher, also known as Marty McFly, had released an update for his popular <a href="https://wccftech.com/rtgi-shader-adds-image-based-lighting-extended-ray-length-multiplier/" target="_blank" rel="noopener">RTGI ReShade shader</a>.&nbsp;However, a new version just became available to his <a href="https://www.patreon.com/mcflypg?" target="_blank" rel="noopener">Patreon</a> subscribers, and it's a big one.</p>
+<p>The modder tried to implement the <a href="https://wccftech.com/nvidia-researchers-demonstrate-new-raytracing-algorithm-that-can-render-direct-lighting-from-millions-of-dynamic-light-sources/" target="_blank" rel="noopener">ReSTIR GI</a> algorithm in his shader, but encountered several limitations, like chroma noise (because reservoir sampling can only hold light from a single direction), sample correlation that breaks denoiser variance estimation, and white noise output. Eventually, Gilcher decided to design his own sampling algorithm, which he reckons vastly outperforms ReSTIR GI in terms of quality.&nbsp;The RTGI shader has also received significant improvements to its reflections, which now trace pixel-perfect paths using HiZ Min-Max Tracing.</p>
+<p>The modder also shared future plans to split RTGI's diffuse and specular components into separate shaders to manage them more easily.</p>
+<p><iframe title="Marty's Mods | Update June 2025" width="500" height="281" src="https://www.youtube.com/embed/PImgAUIoyZw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+<p>There were also improvements to other Gilcher's shaders, such as MXAO, which saw the fixing of the low-radius halos that manifested around objects, and especially Launchpad, whose optical flow is used by several other shaders. This new version of Launchpad introduces an innovative gradient descent-based algorithm that can handle subpixel shifts more effectively than traditional grid-based search methods.</p>
+<p>Users can now choose from two general-purpose gradient descent optimizers:</p>
+<ul>
+<li>Newton: Converges quickly, making it more suitable for lower-quality settings.</li>
+<li>SophiaG: Converges more slowly, but finds better minima, making it a good fit for high-quality settings.</li>
+</ul>
+<figure><figcaption>Launchpad - Before and After</figcaption></figure>
+<p>Lastly, Gilcher has released a brand new shader: path traced volumetric fog. It was originally built as a ground truth reference for a real-time effect, but the modder ultimately enjoyed so much that the full path-traced version is now available in beta testing, although it's meant to be used for screenshots only. Check out the example below, which was captured in God of War.</p>
+<figure><figcaption>Before</figcaption></figure>
+<figure><figcaption>After</figcaption></figure>
+<p>The path traced volumetric fog shader is currently only available at the most expensive Patreon tier, 'Photon Mappers', which costs $20 monthly.</p>
+
+			
+		</div></div><br/><br/>https://wccftech.com/rtgi-reshade-shader-receives-its-biggest-update-yet-outperforming-restir-gi-according-to-its-author/]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Monster Hunter Wilds Title Update 2 Will Introduce NVIDIA DLSS 4, Multi Frame Generation, AMD FSR 4 Support on PC and More]]></title>
             <link>https://wccftech.com/monster-hunter-wilds-title-update-2-nvidia-dlss-4-amd-fsr-4/</link>
