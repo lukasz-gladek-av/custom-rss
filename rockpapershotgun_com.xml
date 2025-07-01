@@ -4,9 +4,48 @@
         <title>maGaming RSS Feed - rockpapershotgun_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/rockpapershotgun_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for rockpapershotgun_com</description>
-        <lastBuildDate>Tue, 01 Jul 2025 11:27:43 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 01 Jul 2025 11:36:12 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Steam’s updated PC performance monitor is quietly clever, and not just because it digs into frame generation]]></title>
+            <link>https://www.rockpapershotgun.com/steams-updated-pc-performance-monitor-is-quietly-clever-and-not-just-because-it-digs-into-frame-generation</link>
+            <guid>https://www.resetera.com/threads/steam%E2%80%99s-updated-pc-performance-monitor-is-quietly-clever-and-not-just-because-it-digs-into-frame-generation.1232577/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-component="article-header">
+  
+
+    
+
+
+  <p>
+  <figure>
+    
+
+        <figcaption>
+          <span>Image credit: <cite>Rock Paper Shotgun/Valve</cite></span>
+        </figcaption>
+
+  </figure>
+  </p>
+
+    
+
+</div><div data-component="article-content">
+
+
+
+            <p>The latest <a href="https://www.rockpapershotgun.com/topics/steam">Steam</a> update includes a new, heavily upgraded performance monitor, stacking readouts for framerate, CPU, GPU, and memory usage data on top of the previously basic FPS overlay. It’s "a first step," <a href="https://steamcommunity.com/games/593110/announcements/detail/500576552635859540">so say Valve</a>, "towards helping Steam users more easily understand their game and system performance," and as such includes some counters and metrics that you won’t see even on game-math classics like MSI Afterburner.</p>
+<!--more-->
+<p>The most straightforward of these is the option to separate framerate counts by both traditionally rendered frames and any extras that might be served up by frame generation tech such as <a href="https://www.rockpapershotgun.com/nvidia-dlss-4-explained">DLSS 4</a> or <a href="https://www.rockpapershotgun.com/amd-fsr-3-demystified-how-the-next-gen-upscaler-could-upgrade-performance-on-any-gpu">FSR 3</a>. Existing hardware monitors can usually measure either the raw, un-generated frame count or the combined total, but to my knowledge, Steam’s the first to keep track of both separately – allowing you to see precisely how much of that on-screen smoothness is down to 'real' frames versus the generated ones. Handy stuff.</p>
+<p>This new overlay (which, by the way, can be customised to show varying degrees of details, similar to the <a href="https://www.rockpapershotgun.com/best-steam-deck-games">Steam Deck</a>/SteamOS performance monitor) offers some other convention-breaking counters too. The CPU usage monitor is one: in addition to a standard, percentage-based figure showing average CPU core usage, it can also display a second percentage that denotes the current busiest core, specifically how much it’s working relative to its base clock speed. Hence why it sometimes reads above 100% - that’s when the core is running at its higher 'boost' clock speed, to get more done when thermal headroom allows it to.</p>
+<figure>
+
+<figcaption>Idris approves. | <span>Image credit: <cite>Rock Paper Shotgun/Valve/CD Projekt Red</cite></span></figcaption>
+</figure>
+<p>This is useful info, not because anyone secretly wants to sit an arithmetic exam when they sit down to play games, but because average core usage doesn’t give the full picture when a game perhaps isn’t taking advantage of CPU cores like it should. Showing, in real time, that the busiest core is in fact working its little silicon arse off could help diagnose performance problems that may not otherwise have a clear cause.</p>
+<p>There’s a similar troubleshooting benefit to how the Steam monitor counts VRAM availability, which takes into account the amount of system RAM that temporarily holds graphics data. Some monitors, and the VRAM counters you often see in graphics settings menus, only consider the GPU’s own memory alone, so if the Steam overlay says you’re maxing out your supply, you can be more sure that you really have squeezed out every last gigabyte of possible memory. That’s my understanding, anyway. I’m still just a humanities graduate, and this thing makes an awful lot of numbers.</p>
+<p>Having played around with the monitor myself, I have noticed one bug, which you can see for yourself in that header screenshot: the generated frames counter sometimes doesn’t show in full, so what should be a count of three-hundred-and-something frames looks like 30. I sort-of fixed this by switching DLSS Multi Frame Generation from 4x to 2x and back again, but hopefully a more permanent amendment is due. Already, though, this is another mostly-great feature that Steam has almost nonchalantly slotted into itself. A repeat of the <a href="https://www.rockpapershotgun.com/how-to-record-game-clips-with-steam">Game Recording</a> launch, but for helping when things break, rather than showing off.</p></div></div><br/><br/>https://www.rockpapershotgun.com/steams-updated-pc-performance-monitor-is-quietly-clever-and-not-just-because-it-digs-into-frame-generation]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Key Fairy is a "hand-drawn, pacifist, folkloric bullet-hell",  and its demo actually lives up to how interesting that description is]]></title>
             <link>https://www.rockpapershotgun.com/key-fairy-is-a-hand-drawn-pacifist-folkloric-bullet-hell-and-its-demo-actually-lives-up-to-how-interesting-that-description-is</link>
