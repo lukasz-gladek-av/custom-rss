@@ -4,9 +4,261 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Thu, 03 Jul 2025 12:20:53 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Jul 2025 12:39:19 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Unity promises strong AI copyright 'guardrails' after employee conjures Mickey Mouse on stream]]></title>
+            <link>https://www.gamedeveloper.com/art/unity-promises-stronger-ai-copyright-guardrails-after-employee-conjures-mickey-mouse-on-stream</link>
+            <guid>https://www.resetera.com/threads/unity-promises-strong-ai-copyright-guardrails-after-employee-conjures-mickey-mouse-on-stream.1234941/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-module="content" data-testid="article-base-body-content"><p data-testid="content-paragraph"><span data-testid="content-text">Unity has told developers they should expect strong "guardrails" to be placed around its AI tools after their copyright-infringing capabilities were inadvertently tested by the engine maker on </span><span data-testid="content-text"><a target="_blank" href="https://www.twitch.tv/videos/2494707359">a now-deleted official stream</a></span><span data-testid="content-text">. Unity informed Game Developer it had taken down the stream midway through writing this story.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">On the stream, which aired on June 24, 2025, Unity senior advocate for emerging tech Manuel Sainsily accidentally confirmed the current version of Unity AI is capable of generating assets based off copyrighted content—in this case, Disney's widely recognized mascot Mickey Mouse.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Sainsily and senior community manager Jackson Stevens had been responding to a viewer who asked what would happen if a user told Unity AI to generate a sprite of Mickey Mouse. Stevens stated he'd successfully tested the existing guardrails in his own time, but Sainsily said that Unity has "no control" over the asset generation.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">"Maybe the data might show some weird stuff," he said, before prompting the tool to generate an asset based on "Disney Mickey Mouse." Four images of the squeaky-voiced mascot then appeared in the asset library.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">When asked about the incident, a Unity spokesperson stressed that one of the company's goals with its AI betas is to "make sure the right guardrails are in place to help prevent copyright issues, especially before those tools are generally available."</span></p><p data-component="related-article"><span data-testid="related-article-title">Related:</span><a href="https://www.gamedeveloper.com/art/keita-takahashi-sent-over-a-bunch-of-adorable-to-a-t-storyboard-sketches" target="_self" data-discover="true">Behind the Scenes: Check out Keita Takahashi's adorable To a T storyboard sketches</a></p><p data-testid="content-paragraph"><span data-testid="content-text">"Unity AI gives developers access to both our own first-party AI models and third-party tools (used to generate visual assets like 2D images and sprites)," the spokesperson said said, later confirming the feature shown in the stream was from a third-party tool. "Our first-party AI models are trained </span><span data-testid="content-text"><a target="_blank" href="https://url.us.m.mimecastprotect.com/s/jIKXClYvpnuPglpMGHGfDhzhoM0?domain=unity.com">only on licensed or open-source data</a></span><span data-testid="content-text">—not unlicensed assets." They noted that third-party tools are being developed by external providers who may use models like Stable Diffusion or GPT-Image, "which means there's a chance copyrighted content could show up."</span></p><p data-testid="content-paragraph"><span data-testid="content-text">The spokesperson said Unity is working with external providers to prevent such incidents, and that it is flagging the Mickey Mouse generation from last Tuesday's stream as part of that effort. "Using unlicensed IP in a commercial project would violate both copyright law and our terms of service," they added.</span></p><h2 data-testid="content-text" id="Disney is baring its fangs at AI toolmakers that replicate its characters">Disney is baring its fangs at AI toolmakers that replicate its characters</h2><p data-testid="content-paragraph"><span data-testid="content-text">Showing off Unity AI's ability to generate Mickey Mouse comes at a touchy moment for generative AI toolmakers. Mickey Mouse copyright holder Disney </span><span data-testid="content-text"><a target="_blank" href="https://www.npr.org/2025/06/12/nx-s1-5431684/ai-disney-universal-midjourney-copyright-infringement-lawsuit">sued</a></span><span data-testid="content-text"> image generation developer Midjourney in June 2025 in partnership with Universal and called the company's tool "</span><span data-testid="content-text"><a target="_blank" href="https://www.npr.org/2025/06/12/nx-s1-5431684/ai-disney-universal-midjourney-copyright-infringement-lawsuit">a bottomless pit of plagiarism</a></span><span data-testid="content-text">."</span></p><p data-component="related-article"><span data-testid="related-article-title">Related:</span><a href="https://www.gamedeveloper.com/art/bungie-apologizes-for-stolen-art-assets-in-marathon-alpha" target="_self" data-discover="true">Bungie confirms the use of stolen art assets in Marathon alpha</a></p><p data-testid="content-paragraph"><span data-testid="content-text">Even developers not intending to violate other company's copyright may face risks when using AI tools that can recreate copyrighted material, says Nixon Peabody Intellectual Property Counsel David Kocan. "The primary legal risk for developers using AI tools used to generate copyrighted images is that the output may be substantially similar to someone else's protected work," he explained in an email to Game Developer. "Even if the developer didn't intend to infringe, if it looks similar it's likely to draw unwanted attention," such as cease-and-desist letters, takedown notices, or a lawsuit.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">"Legal risk doesn't necessarily stop at the source—it can often flow downstream."</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Unity has done its best to reassure developers developers about the safety of its generative AI tools when it comes to copyright risks. Its initial rollout of Unity Muse and Unity Sentis, along with a marketplace of "AI-Verified Solutions" was meant to let developers access tools without fear of violating copyright.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">24 hours later, the company </span><span data-testid="content-text"><a target="_self" href="https://www.gamedeveloper.com/business/unity-yanks-third-party-ai-modelling-tool-atlas-from-storefront-after-one-day">removed a tool called "Atlas"</a></span><span data-testid="content-text"> from its marketplace for violating its terms of service. This was after </span><span data-testid="content-text"><a target="_blank" href="https://www.gamesindustry.biz/unity-drops-ai-partner-after-accusations-it-stole-assets">developers noticed</a></span><span data-testid="content-text"> that many of the assets provided by Atlas looked distinctly similar to 3D models found on Sketchfab.</span></p><p data-component="related-article"><span data-testid="related-article-title">Related:</span><a href="https://www.gamedeveloper.com/art/the-creator-of-tactical-breach-wizards-is-right-animate-words-not-letters-" target="_self" data-discover="true">The director of Tactical Breach Wizards is right: animate words, not letters!</a></p></div><div><h2>About the Author</h2><div data-component="contributor-summary"><p data-testid="contributor-summary-subtitle">Senior Editor, GameDeveloper.com</p><div data-testid="contributor-summary-content"><p data-testid="content-paragraph"><span data-testid="content-text">Bryant Francis is a writer, journalist, and narrative designer based in Boston, MA. He currently writes for Game Developer, a leading B2B publication for the video game industry. His credits include Proxy Studios' upcoming 4X strategy game Zephon and Amplitude Studio's 2017 game Endless Space 2.</span></p><p data-testid="content-paragraph"><span data-testid="content-text"><span>Follow Bryant Francis, Senior Editor, on </span></span><span data-testid="content-text"><a target="_blank" href="https://bsky.app/profile/bryantfrancis.me">Bluesky</a></span><span data-testid="content-text"><span> or </span></span><span data-testid="content-text"><a target="_blank" href="https://www.linkedin.com/in/bryant-francis-99898b29">LinkedIn</a></span><span data-testid="content-text"><span>.</span></span></p></div></div></div></div><br/><br/>https://www.gamedeveloper.com/art/unity-promises-stronger-ai-copyright-guardrails-after-employee-conjures-mickey-mouse-on-stream]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Microsoft Xbox layoffs June 2025 - tracking the situation as it happens]]></title>
+            <link>https://www.eurogamer.net/microsoft-xbox-layoffs-june-2025-tracking-the-situation-as-it-happens</link>
+            <guid>https://www.resetera.com/threads/microsoft-xbox-layoffs-june-2025-tracking-the-situation-as-it-happens.1234938/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-component="article">
+        <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
+
+
+<header data-component="article-header">
+  
+
+    <div id="main-content">
+        
+
+        <p>The studios and people affected, the games cancelled, and the reaction.</p>
+
+<p><span>
+  Live
+</span>    </p></div>
+
+
+  <p>
+  <figure>
+  
+
+        <figcaption>
+          <span>Image credit: <cite>Eurogamer / Microsoft</cite></span>
+        </figcaption>
+  </figure>
+  </p>
+
+    
+
+</header>
+    <div data-component="article-content">
+
+
+
+            <p>Yesterday, as widely expected based on <a href="https://www.eurogamer.net/xbox-reportedly-set-for-major-job-cuts-from-next-week">earlier reports</a>, Microsoft began another sweeping round of layoffs - its fourth in just 18 months - this time <a href="https://www.eurogamer.net/microsoft-begins-substantial-layoff-process-across-gaming-division-king-and-zenimax-impacted">affecting thousands of people across the company</a>. It's believed more than 9,000 employees have lost their jobs as a result of this most recent move, which Microsoft told Eurogamer were "necessary to position the company and teams for success in a dynamic marketplace."</p>
+<p>Since the announcement, additional reports have surfaced painting a clearer picture of the devastation wrought by Microsoft's latest cost cutting measures, as well as the substantial impact on its Xbox division. Beyond the significant human cost of the move - which Xbox boss <a href="https://www.eurogamer.net/personas/phil-spencer">Phil Spencer</a> insisted was necessary to ensure the "enduring success" of the company in a message to staff yesterday - further details on the specific studios and projects impacted have now begun to emerge.</p>
+<p>Rare's fantasy adventure Everwild, first <a href="https://www.eurogamer.net/rare-announces-everwild-its-next-big-new-ip">announced in 2019</a>, has reportedly been cancelled, for instance, leading to the <a href="https://www.eurogamer.net/sea-of-thieves-and-banjo-kazooie-director-gregg-mayles-reportedly-leaving-rare-after-35-years">departure of studio veteran Gregg Mayles</a> after 35 years. Microsoft's troubled Perfect Dark reboot, unveiled in 2020, has <a href="https://www.eurogamer.net/perfect-dark-reboot-and-new-zenimax-mmorpg-reportedly-cancelled-as-part-of-latest-microsoft-cuts">reportedly also ceased production</a> and its first party developer, The Initiative, closed. Microsoft is also said to have terminated its partnership with Crystal Dynamics, which was called in to help on the beleaguered project back in 2022, raising questions around how that team may also have been impacted by yesterday's news.</p>
+<p>Elsewhere, an unannounced ZeniMax MMO has reportedly been cancelled, while 200 people are said to have lost their jobs at the Microsoft-owned <a href="https://www.eurogamer.net/games/candy-crush">Candy Crush</a> maker King, and nearly 50 percent of staff at Forza Motorsport developer Turn 10 have reportedly been laid off. The full extent and impact of Microsoft's massive "organisational and workforce changes" are yet to become clear, with Microsoft only providing limited information to press. It has, however, moved swiftly to <a href="https://www.eurogamer.net/phil-spencer-microsoft-gaming-ceo-not-retiring-from-xbox-anytime-soon">deny rumours of Phil Spencer's imminent retirement</a>, insisting the Xbox boss won't be retiring from his position "anytime soon".</p>
+<p>With fresh reports continuing to surface around yesterday's bombshell announcement and its impact on Xbox, we've set up this rolling news blog to sift through the confusion, and to collate breaking news and industry reactions as the story continues to evolve.</p><div data-live="true">
+      
+
+
+
+
+      <nav>
+        
+      </nav>
+
+
+    <div id="coverage">
+<div data-hashid="8p9ryd" id="coverage-8p9ryd">
+  <p><time datetime="2025-07-03T12:22:44+00:00" data-auto-time-zone="true">
+      <span>12:22 pm</span>
+      <span>UTC</span>
+  </time></p><div>
+    <blockquote><cite>goggamanxp says:</cite> - Warcraft rumble confirmed to not be getting any new content due to layoffs.
+
+- John Romero's studio lost funding for new shooter from Microsoft cuts</blockquote>
+<p>We have fuller write-ups of these nearly ready to go, incidentally. I was never quite sure about Warcraft Rumble but it's sad to hear about Romero Games. It also sounds like it's put the small Irish studio in a very difficult position too.</p>
+  </div>
+
+    <p>
+      – <span>Robert Purchese</span>
+    </p>
+</div><div data-hashid="6m9vdd" id="coverage-6m9vdd">
+  <p><time datetime="2025-07-03T12:16:53+00:00" data-auto-time-zone="true">
+      <span>12:16 pm</span>
+      <span>UTC</span>
+  </time></p><div>
+    <p>
+I actually had a dream with Phil Spencer in last night, I assume because I went to sleep thinking about this situation, and in the dream I had to interview him. We got as far as the interview starting and then I don't remember any more, so I have no breaking dream-news for you.
+</p>
+<p>
+But I woke up feeling sad about the whole situation. Sad, obviously, for the people losing their jobs. Sad to see decorated developers like Matt Firor, the head of Elder Scrolls Online (and once the co-creator of Dark Age of Camelot, an MMO that means a lot to me) leaving his role after 18 years, after the cancellation of a new MMO he'd been working on. And sad to read about Gregg Mayles reportedly leaving Rare after 35 years there. It's such a shame. I had thought Rare resurgent in recent years, after the success of Sea of Thieves, and I'd greatly looked forward to Everwild, and now I'm left bewildered and wondering what will become of the studio that's there. I only hope the people losing their roles are being offered generous severance packages with it.
+</p>
+<p>There was also a feeling of losing belief in Microsoft and Xbox. When Microsoft started buying up studios a few years ago, I watched it all enthused. I was really excited at the prospect of studios like Obsidian Entertainment and inXile finally having the backing of a company with deep pockets and resources. I was excited to see Blizzard wrestled away from Kotick, and curious about where Microsoft would take Bethesda. I thought it was a good thing. But of late it's seemed to be more precarious being a part of Xbox than not.</p></div>
+
+    <p>
+      – <span>Robert Purchese</span>
+    </p>
+</div><div data-hashid="6n9lgv" id="coverage-6n9lgv">
+  <p><time datetime="2025-07-03T12:11:03+00:00" data-auto-time-zone="true">
+      <span>12:11 pm</span>
+      <span>UTC</span>
+  </time></p><div>
+    <blockquote><cite>Rogueywon says:</cite> So this is like the evil twin of those live articles we get for Summer Games Fest and the like? Those are for announcing new games, while this is for announcing cancellations and layoffs? Bleak stuff...</blockquote>
+<p>Quite, but a useful way to gather everything together. A glum good afternoon to you all.</p>
+  </div>
+
+    <p>
+      – <span>Robert Purchese</span>
+    </p>
+</div>      </div>
+
+      
+
+    
+  </div>
+        </div>
+
+
+
+        </article>
+
+  
+    </div></div><br/><br/>https://www.eurogamer.net/microsoft-xbox-layoffs-june-2025-tracking-the-situation-as-it-happens]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[The Séance of Blake Manor channels classic detective tales with an Irish supernatural twist]]></title>
+            <link>https://www.thesixthaxis.com/2025/07/03/the-seance-of-blake-manor-channels-classic-detective-tales-with-an-irish-supernatural-twist/</link>
+            <guid>https://www.resetera.com/threads/the-s%C3%A9ance-of-blake-manor-channels-classic-detective-tales-with-an-irish-supernatural-twist.1234935/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>Something strange is brewing at Blake Manor. Set in 1897 Ireland at a remote hotel, you arrive to investigate the disappearance of Evelyn Deane, but there’s the occult and strange mysteries to unpeel before the truth can be discovered, and there’s just 48 hours to go before a ritual will bring everything to a head in The Séance of Blake Manor.</p>
+<p><iframe title="The Séance of Blake Manor | Gameplay Trailer" width="780" height="439" src="https://www.youtube.com/embed/lKI7DVrhWL8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+<p>Spooky Doorway cut their teeth on the detective mystery genre with the Darkside Detective series, but Blake Manor pushes things in a rather different direction. This is a sprawling mystery with dozens of potential suspects to rule out, a ticking clock that determines the flow and nature of your investigation, and obviously plenty of potentially supernatural goings on, steeped in distinctly Irish mythology.</p>
+
+
+<p>The opening of the game, though, is much more guided and direct. The deep Irish voice of Declan Ward lulls you into the dour, sombre tone of this investigation, as he takes train and carriage to the manor’s gate. Trudging through the gardens at the front of the manor, the setting and thunderstorm is immediately evocative of this kind of detective story. It doesn’t help that a shadowy figure stood by the fountain suddenly bursts into a flurry of crows flapping away, leaving a shawl behind which humorously suggests it was actually seven crows in a trench coat and not a hunched-over old lady.</p>
+<p>The lobby of the manor hotel is empty, save for traditional jack-o-lanterns carved out of oversized turnips –&nbsp;Halloween originated in Ireland, after all. but ringing a bell brings the sour-faced concierge to the table, whose appearance immediately raises questions. How did his glasses come to bear a large crack in one of the lenses? Why is he so tense and preoccupied with the time?</p>
+
+
+<p>You can question him directly over Evelyn Deane’s disappearance, and follow up on the visual clues found by a bit of traditional point &amp; click screen scouring, but he’s evasive and preoccupied at best. Something about needing to deal with telegrams by hand…</p>
+<p>As he retreats to his office, you can start poking around, but the deeper you investigate, the more time passes. There’s no ticking clock mapped to real time, but rather time will advance whenever Ward interacts with objects and characters in the game. It’s an interesting choice that might force you to be more judicious than is typical for games, where players often have a tendency to interact with anything and everything possible. Still, there’s immediately some curious clues to uncover. Poking around in the side rooms for luggage and coats, you can see something hidden behind an air vent, or overhear the concierge muttering about a busted window. There’s also the log book that you can snoop through to see if Miss Deane truly had checked herself out of the manor and left –&nbsp;unsurprisingly, this does not seem to be the case.</p>
+<p>The trick is figuring out how to fix the telegram machine, to bring the concierge out of his office and let you snoop within there, and that means constructing a battery from an assortment of electrical discs. A simple starter puzzle, but a nice one to make you feel ever-so-slightly smart.</p>
+<p>Much smarter, of course, than when I just bungled into the office and got told to leave. Then I had the bright idea of going out and climbing through the window… except the concierge was still there, banning me from the hotel grounds and getting a dismal game over screen.</p>
+<p>Not my finest moment, but quite hilarious. I got it right the second time round.</p>
+
+<p>It was when heading to bed that the real spookiness started, a thoroughly demonic dream sequence befitting of the Overlook Hotel or Twin Peaks. It’s all brooding, dark and bathed in red light as you walk down fish-eyed hallways, and still absolutely in keeping with the graphic novel inspired art style through the rest of the game. The setting is rendered in 3D, but characters are all represented with eight-direction character art, while comic book cutaway panels give a distinctive tone.</p>
+<p>It’s only after waking from a frightful night that the game starts to loosen its reigns on your investigation. Stepping out of the room the next day, after a loud noise startled the assorted guests, you’re greeted by all manner of potential suspects, coming from all manner of background and superstitions, and all with their own secrets to hide.</p>
+
+<p>With so many names and faces thrown at you, having a physical pen and paper will no doubt be key to keeping track of everything, but the game does have built in tools within the Mystery Map. This neatly organises all the key clues and narrative threads that you’ve uncovered so far, joining them up for you in a colour-coded web that makes them easier to digest. At various points, you’ll have to make a deduction, filling in the blanks from a particular phrase using the clues and evidence you’ve gathered.</p>
+<p>Alongside this, you also have a timetable that lets you track the known locations of all the staff and guests, automatically populated from things like a staff rota and messages you’ve managed to find between people. If you need to find a particular person at a specific time, this will absolutely help, and Spooky Door is building in a feature to let you rewind and retry portions of the game if you run out of time before the séance itself.</p>
+
+<p>All too soon, our time with the game came to an end, just as it would broaden out to reveal the full scope of the mysteries. Having such a broad cast of characters to investigate, it will be fascinating to see how this gels with the game’s time limit. Certainly, there’s an implication from my brief game over that you need to not only save Miss Deane, but also save people from attending the séance. This is absolutely one to watch for fans of mysteries and puzzles.</p>
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div></div><br/><br/>https://www.thesixthaxis.com/2025/07/03/the-seance-of-blake-manor-channels-classic-detective-tales-with-an-irish-supernatural-twist/]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Review: Chronicles Of The Wolf (Switch) - A Spot-On Castlevania Tribute That May Test Your Patience]]></title>
+            <link>https://www.nintendolife.com/reviews/nintendo-switch/chronicles-of-the-wolf</link>
+            <guid>https://www.resetera.com/threads/review-chronicles-of-the-wolf-switch-a-spot-on-castlevania-tribute-that-may-test-your-patience.1234932/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><section>
+<figure><a title="Chronicles of the Wolf Review - Screenshot 1 of 4" href="https://images.nintendolife.com/screenshots/157118/large.jpg"></a><figcaption>Captured on Nintendo Switch (Handheld/Undocked)</figcaption></figure><p><a href="https://www.nintendolife.com/games/nintendo-switch/chronicles_of_the_wolf">Chronicles of the Wolf</a> is a tough game to review. A decade or so ago, 2D Metroidvanias were rarer, but they now represent one of gaming’s most enduring and best-developed genres.</p>
+<p>But how do I assess a production like this that purposefully ignores many of the design changes that made the genre more accessible? This meaty retro-inspired game will leave a lot of players battered and bruised, ready to give up and swan off to the nearest tavern in its rural 18th-century French setting.</p>
+<p>First, an essential statement: Chronicles absolutely nails its aims. It seems to want to be <em>the</em> definitive old-school <a href="https://www.nintendolife.com/games/nes/castlevania">Castlevania</a>. It channels and improves on <a href="https://www.nintendolife.com/games/nes/castlevania_ii_simons_quest">Castlevania II: Simon’s Quest</a> from the NES, but with a design aesthetic that lands somewhere between the SNES and PS1 eras.</p>
+<p>As you head off on your adventures, you’ll explore towns, fight enemies and bosses, interact with villagers, interpret clues. But Simon’s Quest’s divisive characteristics — hints that lead nowhere, obscure and hard-to-interpret instructions — have only been toned down, not entirely removed. Chronicles of the Wolf is an improvement on the design, not an apology.</p>
+<figure><a title="Chronicles of the Wolf Review - Screenshot 2 of 4" href="https://images.nintendolife.com/screenshots/157121/large.jpg"></a><figcaption>Captured on Nintendo Switch (Handheld/Undocked)</figcaption></figure>
+<p>The game’s second section, which takes up the majority of the 20-hour runtime, is a dead ringer for <a href="https://www.pushsquare.com/games/ps1/castlevania_symphony_of_the_night">Symphony of the Night</a>’s castle location. That’s if you make it that far; the Castlevania tradition of hoodwinking and misdirection is alive and well here, manifesting in five possible endings and — I was less happy about this — multiple locations that lead to cheap, surprise deaths.</p>
+<p>Forgetting nefarious tricks for a moment, Chronicles of the Wolf confidently forges its own mythology, separate from vampires, which allows it to stand on its own two feet.</p>
+<p>You take on the role of Mateo Lombardo, an apprentice of the Rose Cross Order trying to rid the French countryside of the mysterious Beast of Gévaudan – <a href="https://en.wikipedia.org/wiki/Beast_of_G%C3%A9vaudan">a true-life creature</a> that terrorised rural communities in the 1700s, which in this iteration appears very much to be a werewolf.</p>
+<p>The developer — Migami Games (<a href="https://www.nintendolife.com/games/nintendo-switch/wallachia_reign_of_dracula">Wallachia: Reign Of Dracula</a>), responsible for the two highly rated <strong>Castlevania: Lecarde Chronicles</strong> fan games — understands what makes Castlevania tick, but it just so happens that Konami’s series often asks a lot of its players, which, here, is the source of my general hesitation about <em>who</em> I can recommend the game to.</p>
+<figure><a title="Chronicles of the Wolf Review - Screenshot 3 of 4" href="https://images.nintendolife.com/screenshots/157115/large.jpg"></a><figcaption>Captured on Nintendo Switch (Docked)</figcaption></figure>
+<p>I love Metroidvanias. I’ve played more than my fair share. <a href="https://www.nintendolife.com/games/switch-eshop/blasphemous">Blasphemous</a> and <a href="https://www.nintendolife.com/games/switch-eshop/hollow_knight">Hollow Knight</a> are two of my favourite games over the last decade, but these two examples seem pretty mainstream in comparison to Chronicles of the Wolf. Anyone who lacked the patience for either example need not make this visit to France. And if you <em>did</em>, then it still might not be for you.</p>
+<p>It's not that Chronicles is hard – it’s not. Its combat is well-balanced, fun, and just challenging enough. But making progress can sometimes feel like a chore. Just as Mateo Lombardo moves through the game screens with Castlevania’s almost characteristic lack of pace, the game’s design demands genuine patience. For the right player, this will transport them back to the '90s – Chronicles of the Wolf feels refreshingly retro. For others, they’ll want to play something else.</p>
+<p>Initially I enjoyed Chronicle’s specific flavour of exploring and backtracking. I was happy scrutinising the map for areas that I might be able to reach with one of the huge number of new abilities I was collecting along the way – the double jump, the air dash, feather boots that let me ride air currents.</p>
+<figure><a title="Chronicles of the Wolf Review - Screenshot 4 of 4" href="https://images.nintendolife.com/screenshots/157116/large.jpg"></a><figcaption>Captured on Nintendo Switch (Docked)</figcaption></figure>
+<p>But given the vastness of some of the areas, and the smattering of fast-travel options, it feels inevitable that some players will miss a crucial hint or overlook a tucked-away item needed to progress. I feel as if these bottlenecks are more frequent here than most modern games would allow.</p>
+<p>Your patience level for dealing with this kind of thing will define whether the game is for you or not. Personally, mine was tested multiple times, and by the halfway point, with so much of the game to go, my sense of having fun began to falter a bit. It’s a shame because smashing through skeletons, monsters, and acolytes with my ever-growing arsenal of weapons and attacks was genuinely fun, as was the platforming and the worldbuilding.</p>
+<p>The game’s Castlevania-inspired (and therefore excellent) soundtrack did its best to keep my spirits up, and mostly succeeded. The bosses were enjoyable without ever causing me too many issues — as long as I stocked up on plenty of potions — and even ultimately minor technical issues (a bit of slowdown at two points in the game and a flashing black screen when I changed items in the menu, which seems to be a problem on other systems too) won't taint my final score below. In a way, they added to the retro charm.</p>
+</section><section id="conclusion"><h2>Conclusion</h2>
+<p>Chronicles of the Wolf is a confident, old-school Metroidvania that asks a lot of its players. Its DNA is from another gaming era, and simply being a fan of the genre won’t guarantee you’ll enjoy it. If modern quality-of-life features like marking your map or being gently nudged forward are preferable, there are better options elsewhere.</p>
+<p>But if you’ve got the patience to revisit a time when games were slower and more cryptic, and the pacing was a little more intense, Chronicles of the Wolf is like a rich, dark relic that you’ll treasure. For every player put off by its demands, another will embrace it as a worthy challenge.</p></section>
+
+</div></div><br/><br/>https://www.nintendolife.com/reviews/nintendo-switch/chronicles-of-the-wolf]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Nintendo Switch 2 Punches Well Above Its Weight With NVIDIA DLSS In Street Fighter 6, Surpassing the Xbox Series S in Certain Scenarios]]></title>
+            <link>https://wccftech.com/nintendo-switch-2-nvidia-dlss-surpassing-xbox-series-s/</link>
+            <guid>https://www.resetera.com/threads/nintendo-switch-2-punches-well-above-its-weight-with-nvidia-dlss-in-street-fighter-6-surpassing-the-xbox-series-s-in-certain-scenarios.1234929/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>Proper usage of the NVIDIA DLSS upscaler can make the Nintendo Switch 2 punch well above its weight in terms of image quality and even surpass the Xbox Series S, as highlighted by the excellent work CAPCOM has done with its <a href="https://wccftech.com/review/street-fighter-6-review-best-fight-our-lives/">Street Fighter 6</a> port.</p>
+
+
+
+<p>The tech experts at <a href="https://www.youtube.com/@DigitalFoundry">Digital Foundry</a> recently took a good look at the port of the latest entry in the series which debuted on PC and consoles two years back, highlighting how NVIDIA DLSS does a great job upscaling the image to 1080p in docked mode from the low base resolution of 540p. Though there are some issues like visible aliasing and flicker when characters reveal the background, the end results are considered better in terms of sharpness and image stability than those produced by CAPCOM's in-house upscaler used in the Xbox Series S version, which renders at native 1080 but doesn't handle image noise well. The Nintendo Switch 2 version of the game also beats the Xbox Series S release in terms of texture quality, despite the minor 1 GB differences in available RAM in favor of the Nintendo system. In other cases, however, the Nintendo Switch 2 version is closer to the PlayStation 4 release with no screen space reflections in Fighting Ground matches, missing depth of field, background NPC counts restricted to the standard setting, and non-interactive physics-based particles. In handheld mode, with a lower 360p base resolution upscaled to 720p and additional graphics cutbacks to keep the 60 FPS target, the game is even closer to the PlayStation 4 version, which is still rather impressive, for a handheld.</p>
+
+
+
+<figure><p>
+<iframe title="Street Fighter 6 - Switch 2 DF Tech Review - Tournament-Worthy 60FPS Play" width="500" height="281" src="https://www.youtube.com/embed/bI6KBxxvdXo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<p>Though obviously more powerful than its predecessor, the Nintendo Switch 2 is proving with some of its launch titles and upgrades to original Switch games what it is capable of achieving. The Splatoon 3 upgrade is particularly impressive, as it <a href="https://wccftech.com/nintendo-switch-2-increases-resolution-six-times-splatoon-3/">increases resolution by five to six times</a> in certain scenarios while keeping the framerate to a steady 60 FPS, making playing the third entry in the series on the system the way to go to enjoy it at its very best.</p>
+
+
+
+<p>The Nintendo Switch 2 is now available worldwide. You can learn more about the system by checking out Chris's <a href="https://wccftech.com/review/nintendo-switch-2-console/">review.</a></p>
+
+			
+		</div></div><br/><br/>https://wccftech.com/nintendo-switch-2-nvidia-dlss-surpassing-xbox-series-s/]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Here's five great immersive sims Microsoft didn't just cancel]]></title>
+            <link>https://www.rockpapershotgun.com/heres-five-great-immersive-sims-microsoft-didnt-just-cancel</link>
+            <guid>https://www.resetera.com/threads/heres-five-great-immersive-sims-microsoft-didnt-just-cancel.1234926/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-component="article-header">
+  
+
+    
+
+
+  <p>
+  <figure>
+    
+
+        <figcaption>
+          <span>Image credit: <cite>Rock Paper Shotgun / Annapurna</cite></span>
+        </figcaption>
+
+  </figure>
+  </p>
+
+    
+
+</div><div data-component="article-content">
+
+
+
+            <p>The <a href="https://www.rockpapershotgun.com/games/perfect-dark">Perfect Dark</a> reboot looked like an excellent addition to the immersive sim genre. Based on Microsoft's <a href="https://www.rockpapershotgun.com/microsoft-are-shutting-down-the-studios-that-made-redfall-and-hi-fi-rush">previous shuttering of Arkane Austin</a>, I can only assume that this made Phil Spencer very angry. "Why can I lift massive crates but only fit one rifle in my inventory!", roared Spencer. Subsequently, <a href="https://www.rockpapershotgun.com/microsoft-cancel-perfect-dark-reboot-and-shut-the-developers-down-in-the-name-of-continued-success">both the reboot and studio The Initiative were axed this week by Microsoft</a> as part of their ongoing efforts to ensure their legacy going forward is one of <a href="https://www.rockpapershotgun.com/microsoft-layoffs-are-reportedly-underway-with-zenimax-and-king-employees-losing-their-jobs">destroying livelihoods</a>, <a href="https://www.rockpapershotgun.com/microsoft-confirm-theyve-supplied-ai-tech-to-the-israeli-military-for-use-in-gaza-following-bds-xbox-boycott">participating in</a> what a UN rapporteur<a href="https://www.ohchr.org/sites/default/files/documents/hrbodies/hrcouncil/sessions-regular/session59/advance-version/a-hrc-59-23-aev.pdf"> describes as</a> an “economy of genocide”, and forcing Copilot inside that little plastic bit at the end of your shoelaces.</p>
+
+<p>Anyway, here's a few great immersive sims from the Steam Summer Sale to soothe the bastard wound of Perfect Dark's cancellation. The bastard wounds inflicted on everything good and real by stakeholder capitalism, I cannot help with. Only <a href="https://www.rockpapershotgun.com/games/prey-2">Prey 2</a> could fix that. None of these are especially deep cuts, so do let me know if I've missed out anything <em>spectacular</em>.</p>
+<p><a href="https://store.steampowered.com/app/1571940/Ctrl_Alt_Ego/">Ctrl Alt Ego</a> is 55% at £7/$9/€8.50. You play as a disembodied presence, occupying devices to problem solve. It's the strangest and most creative game on a list filled with them.</p>
+<p><a href="https://store.steampowered.com/app/301280/Skin_Deep/">Skin Deep</a> is 20% off at £12.50/$16/€15. "A playful and inventive immersive sim, with a few rough edges that can't prevent plentiful laughs", <a href="https://www.rockpapershotgun.com/skin-deep-review">reckoned Brendy</a>.</p>
+<p><a href="https://store.steampowered.com/app/1355650/Filcher/">Filcher</a> is 20% off at £6/$8/€7. It's a noir take on classic Thief.</p>
+<p><a href="https://store.steampowered.com/app/1907590/Psycho_Patrol_R/">Psycho Patrol R</a> is 20% off at £27/$32/€31. "Hallucinogenic hypercapitalist critique wrapped in a kevlar jacket of impenetrable irony", <a href="https://www.rockpapershotgun.com/psycho-patrol-r-early-access-review">reckoned Brendy, early access reviewishly</a>.</p>
+<p><a href="https://store.steampowered.com/app/1150760/Gloomwood/">Gloomwood </a>is 25% off at £12.50/$14/€14.50. It's in our list of <a href="https://www.rockpapershotgun.com/the-10-best-immersive-sims-on-pc#gloomwood">best immersive sims</a> for a reason. (The reason is Brendy put it there.)</p>
+<p><strong>Bonus mentions:</strong> <a href="https://store.steampowered.com/app/1574240/Dread_Delusion/">Dread Delusion</a> veers a bit toward the RPG side, but I'm counting it. 20% off. Similarly, <a href="https://store.steampowered.com/app/1086940/Baldurs_Gate_3/">Baldur's Gate 3</a> is 20% off. Yes, it counts! <a href="https://store.steampowered.com/app/2788210/DEEP_STATE/">Deep State</a> isn't out yet, but I've seen it described as "<a href="https://www.rockpapershotgun.com/games/deus-ex">Deus Ex</a> meets Goldeneye", so in it goes. Ditto <a href="https://store.steampowered.com/app/3594120/Brush_Burial_2/">Brush Burial 2</a>, but with dominatrix takedowns. These weren't in Goldeneye, although I suppose you could describe escorting Natalya as a sort of deeply unfulfilling BDSM. <a href="https://store.steampowered.com/app/2941710/Project_Silverfish/">Project Silverfish</a> just launched in early access with a 16% discount, and has a demo.</p>
+<p>Best of luck to all affected by Microsoft's slashing and burning. Seems exceptionally callous and short-sighted from where I'm standing, though I am just a simple country lawyer with no understanding to how these big brain business geniuses operate.</p></div></div><br/><br/>https://www.rockpapershotgun.com/heres-five-great-immersive-sims-microsoft-didnt-just-cancel]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Battlefield 6 reportedly has a 100 million player albatross around its neck, and its single-player is running "massively late"]]></title>
             <link>https://www.rockpapershotgun.com/battlefield-6-reportedly-has-a-100-million-player-albatross-around-its-neck-and-its-single-player-is-running-massively-late</link>
@@ -179,7 +431,7 @@
 <p>We'll be sure to update you on further price changes in Canada come 1st August 2025.</p>
 <!-- cache: html:nintendolife.com/ssl/nintendo-switch/related-articles:184613 @ 1751544030 --></section>
 <p>[source <a title="External Link: https://www.reddit.com/r/NintendoSwitch/comments/1lp1c16/new_canadian_nso_pricing_revealed/" rel="noopener" href="https://www.reddit.com/r/NintendoSwitch/comments/1lp1c16/new_canadian_nso_pricing_revealed/">reddit.com</a>]</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch/related-info/d41d8cd98f00b204e9800998ecf8427e @ 1751541640 --></div></article><div><p>Nintendo Life’s resident horror fanatic, when he’s not knee-deep in Resident Evil and Silent Hill lore, Ollie likes to dive into a good horror book while nursing a lovely cup of tea. He also enjoys long walks and listens to everything from TOOL to Chuck Berry.</p><ul><li><a href="https://www.nintendolife.com/authors/Olliemar28"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/ollie-nl.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Olliemar28');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch/related-info/d41d8cd98f00b204e9800998ecf8427e @ 1751545253 --></div></article><div><p>Nintendo Life’s resident horror fanatic, when he’s not knee-deep in Resident Evil and Silent Hill lore, Ollie likes to dive into a good horror book while nursing a lovely cup of tea. He also enjoys long walks and listens to everything from TOOL to Chuck Berry.</p><ul><li><a href="https://www.nintendolife.com/authors/Olliemar28"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/ollie-nl.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Olliemar28');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
 </div></div></div><br/><br/>https://www.nintendolife.com/news/2025/07/heres-how-much-nintendo-switch-online-is-going-up-in-canada]]></content:encoded>
         </item>
         <item>
@@ -657,183 +909,6 @@
 <p>I have questions, but I'm mostly just now more intrigued about the true nature of the ostrich game. Is this a normal quantity of ostriches to have in Ostrich Farm, or did the player implement some sort of rampant Muskoid breeding schedule? The maximum number of ostriches shown in a screenshot is 42 ostriches. It does not seem unreasonable to ask for 28 more.</p>
 <p>I picture a single vibrant plume fluttering down to land on a fried motherboard, the air alight with dust-mote delicate feather fragments and the smell of singed components. How many ostriches must someone have before their world collapses in on itself, is not a line from Blowin' In The Wind but probably should have been.</p>
 <p>I cannot rightfully say that the ostrich game deserves better because I haven't played it yet. One may argue that an ostrich game that cannot bear the weight of 70 ostriches has no right calling itself an ostrich game in the first place. Still, I feel many of the world's problems could be solved if more people realised that if 60 ostriches do not bring one happiness, it's very likely the extra ten ostriches will not improve the situation.</p></div></div><br/><br/>https://www.rockpapershotgun.com/the-performance-tanked-for-me-once-i-had-around-70-ostriches-is-my-new-favourite-negative-steam-review-of-all-time]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Ease the Witcher 4 wait with tiny plastic Geralt in a new skirmish miniatures game]]></title>
-            <link>https://www.rockpapershotgun.com/ease-the-witcher-4-wait-with-tiny-plastic-geralt-in-a-new-skirmish-miniatures-game</link>
-            <guid>https://www.resetera.com/threads/ease-the-witcher-4-wait-with-tiny-plastic-geralt-in-a-new-skirmish-miniatures-game.1234797/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-component="article-header">
-  
-
-    <div id="main-content">
-  
-
-        <p>*Knocks dice*....uh, wind's howling</p>
-
-    </div>
-
-
-  <p>
-  <figure>
-    
-
-        <figcaption>
-          <span>Image credit: <cite>Monster Fight Club</cite></span>
-        </figcaption>
-
-  </figure>
-  </p>
-
-    
-
-</div><div data-component="article-content">
-
-
-
-            <p>Toys! Small toys shaped like things I know from videogames! With rules so I can make them fight each other! Again!  <a href="https://monsterfightclub.com/pages/the-witcher-no-mans-land">The Witcher: No Man's Land</a> is a miniatures skirmish game set (I assume since Letho is still palling around with Nilfgaard) somewhere around <a href="https://www.rockpapershotgun.com/games/the-witcher-2-assassins-of-kings">The Witcher 2: Assassins Of Kings</a>.</p>
-<p>There's a <a href="https://monsterfightclub.com/pages/the-witcher-no-mans-land">starter set</a> out later this year with Geralt, Letho, a Griffin, a Striga, and some mates. It uses some of the same models from Cyberpunk publisher R. Talsarion's Witcher <a href="https://www.rockpapershotgun.com/best-rpgs">RPG</a>, so you can <a href="https://monsterfightclub.com/collections/witcher">peruse or pick up a few of these already</a>. I would recommend waiting if you're tempted, though. Starter sets generally come with a chunky discount over buying models individually, and you'll get the extra bits like cards that you need to play the game.</p>
-<!--more-->
-<p>For the blissfully uninitiated, skirmish games are effectively very small tabletop wargames. You only need a handful of models instead of dozens, and this focus usually means that the rules are more characterful and snappy. Personal faves include <a href="https://ttcombat.com/collections/carnevale">Carnevale</a> (Lovecraftian Venice with drunk Pulcinellas riding ostriches) and <a href="https://shop.moonstonethegame.com/">Moonstone</a> (Brian Froud-ian folklore weirdos and fairyfolk).</p>
-<p>On the subject of snappiness, The Witcher: No Man's Land has one of my favourite miniature games rules, namely counterattacks. If you've ever had fun with <a href="https://www.rockpapershotgun.com/games/warhammer-40000-darktide">Warhammer 40,000: Darktide</a> or <a href="https://www.rockpapershotgun.com/games/warhammer-40000-rogue-trader">Rogue Trader</a>, know that the 40K tabletop equivalent here is waiting for whoever rolled the highest number to shoot at you for 45 minutes before you get to do anything (I'm simplifying, but that's the gist). In No Man's Land, you've got a reaction system where you can counter wounds your opponent inflicts with your own attacks and abilities, or just run off.</p>
-<figure>
-
-<figcaption><span>Image credit: <cite>Monster Fight Club</cite></span></figcaption>
-</figure>
-<p>I also just really like these models, especially that elfy alchemist. Lotsa character. Slightly goofy and exaggerated. but not too much.</p>
-<p>It also sounds like there's both co-op and PvPvE options with the monsters, which feels nicely thematic. The game controls the creatures, so you might get a rampaging griffon interrupting your duels, things like that. No exact release date or price on this yet, but you can sign up on the website to stay up to date. Monster Fight Club also make some Cyberpunk skirmishers that reviewed quite well. I'm oddly charmed by <a href="https://monsterfightclub.com/products/combat-zone">the miniature Arasaka crate in this one</a>, for some reason.</p></div></div><br/><br/>https://www.rockpapershotgun.com/ease-the-witcher-4-wait-with-tiny-plastic-geralt-in-a-new-skirmish-miniatures-game]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Druckmann & Gross leave The Last of Us TV series, as Druckmann refocuses on Intergalactic development]]></title>
-            <link>https://www.thesixthaxis.com/2025/07/03/druckmann-gross-leave-the-last-of-us-tv-series-as-druckmann-refocuses-on-intergalactic-development/</link>
-            <guid>https://www.resetera.com/threads/druckmann-gross-leave-the-last-of-us-tv-series-as-druckmann-refocuses-on-intergalactic-development.1234782/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
-	
-		<p>Two key parts of the creative team on HBO’s The Last of Us TV series have stepped away from the production ahead of Season 3. Neil Druckmann is leaving to focus on his work at Naughty Dog and on <a href="https://www.thesixthaxis.com/2024/12/13/intergalactic-the-heretic-prophet-is-naughty-dogs-next-big-game/">Intergalactic: The Heretic Prophet</a>, while the Last of Us Part 2 co-writer Halley Gross is also leaving the writer’s room.</p>
-<p>Druckmann writes on <a href="https://www.instagram.com/druckmann/p/DLnTt7ZPVbJ/">social media</a>:</p>
-
-
-<p><em>“I’ve made the difficult decision to step away from my creative involvement in The Last of Us on HBO. With work completed on season 2 and before any meaningful work starts on season 3, now is the right time for me to transition my complete focus to Naughty Dog and its future projects, including writing and directing our exciting next game, Intergalactic: The Heretic Prophet, along with my responsibilities as Studio Head and Head of Creative. </em></p>
-<p><em>“Co-creating the show has been a career highlight. It’s been an honor to work alongside Craig Mazin to executive produce, direct and write on the last two seasons. I’m deeply thankful for the thoughtful approach and dedication the talented cast and crew took to adapting The Last of Us Part I and the continued adaptation of The Last of Us Part II.”</em></p>
-<p><a href="https://www.instagram.com/p/DLnVeDnPz9B/">Gross says</a>:</p>
-
-<p><em>“With great care and consideration, I’ve decided to take a step back from my day-to-day work on HBO’s The Last of Us to make space for what comes next. I’m so appreciative of how special this experience has been. Working alongside Neil, Craig, HBO, and this remarkable cast and crew has been life changing. The stories we told – about love, loss, and what it means to be human in a terrifying world&nbsp;are exactly why I love this franchise.</em></p>
-<p><em>“I have some truly rad projects ahead that I can’t wait to share, but for now, I want to express my gratitude to everyone who brought Ellie and Joel’s world to life with such care.”</em></p>
-<p>This leaves the show entirely in the hands of Craig Mazin to produce, direct and lead the writing of the last two seasons of the show. He had already shouldered the bulk of the adaptation through the first two seasons of The Last of Us, the sole writer on 11 of the 16 episodes released so far, with Druckmann writing one himself, and broader collaborations for the Season 1 opening and finale, and the final two episodes of Season 2.</p>
-<p>The announcement has left viewers and fans of the game and show a bit unsure of how to feel. Similar to The Last of Us Part II as a video game, the narrative direction that featured in Season 2 of the TV series was less universally beloved than the first, but beyond still controversial narrative choices, it also had to contend with telling only a part of the second game’s story. In general, many are happy that Druckmann is able to focus his efforts on the Intergalactic, but there’s less consensus over Mazin’s adaptation of the second game.</p>
-<p>Anyway, we’ll just have to wait and see.</p>
-<p><em><a href="https://www.instagram.com/druckmann/p/DLnTt7ZPVbJ/">Neill Druckmann</a>, <a href="https://www.instagram.com/p/DLnVeDnPz9B/">Halley Gross</a> via <a href="https://www.resetera.com/threads/neil-druckmann-halley-gross-stepping-away-from-hbos-the-last-of-us-druckmann-focusing-on-naughty-dog-intergalactic.1234278/">Resetera</a></em></p>
-
-
-<!-- CONTENT END 1 -->
-
-		
-	</div></div><br/><br/>https://www.thesixthaxis.com/2025/07/03/druckmann-gross-leave-the-last-of-us-tv-series-as-druckmann-refocuses-on-intergalactic-development/]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Forza Motorsport Developer Turn 10 Was Reportedly Hit Hard by Layoffs – 70+ Employees Removed]]></title>
-            <link>https://wccftech.com/forza-motorsport-developer-turn-10-hit-hard-layoffs/</link>
-            <guid>https://www.resetera.com/threads/forza-motorsport-developer-turn-10-was-reportedly-hit-hard-by-layoffs-%E2%80%93-70-employees-removed.1234779/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			<p>According to a <a href="https://www.theverge.com/news/696676/microsoft-forza-motorsport-turn-10-studios-layoffs-xbox-cuts" target="_blank" rel="noreferrer noopener">report</a> by The Verge, Forza Motorsport developer Turn 10 Studios was among those hit the hardest in the latest <a href="https://wccftech.com/microsoft-mass-gaming-layoffs-have-begun/" target="_blank" rel="noreferrer noopener">massive round of Microsoft layoffs</a>. </p>
-
-
-
-<p>The sources cited by the publication suggest the 'majority' of the employees were fired. The number given was more than 70. As a result, the remaining employees would be just enough to continue supporting the latest Forza Motorsport game, which launched in October 2023 to positive critic reviews. Our own Chris Wray <a href="https://wccftech.com/review/forza-motorsport-review/" target="_blank" rel="noreferrer noopener">wrote</a> at the time:</p>
-
-
-
-<p><em>While Forza Motorsport is a good game with more than enough things going for it, there's something that just isn't that exciting. Forza Motorsport is a good game, and it's a return to form for the core Forza series - one that seriously faltered while the Horizon spinoff went from strength to strength. If, for an odd reason, you have yet to pick this up on Game Pass (or otherwise), then take this as a recommendation. Forza Motorsport is a very good racing game, a return to form for the series, and a good sign for the future of the series.</em></p>
-
-
-
-<p>However, long-time fans did not share the same enthusiasm as critics did. The aforementioned lack of content and the RPG-like car progression system were highly criticized. While Microsoft never shared player figures, it is widely believed that the game did not meet sales expectations.</p>
-
-
-
-<p>Needless to say, Xbox fans might be wondering where this leaves the future of such a core Xbox franchise like Forza Motorsport. Will Microsoft bring in new hires to work on a new project, and if so, how long will it take? These are just two more questions among a veritable sea of doubts and concerns sparked by the latest Xbox cuts.</p>
-
-			
-		</div></div><br/><br/>https://wccftech.com/forza-motorsport-developer-turn-10-hit-hard-layoffs/]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Trails in the Sky 1st Chapter details Ruan characters and places; trailer]]></title>
-            <link>https://www.gematsu.com/2025/07/trails-in-the-sky-1st-chapter-details-ruan-characters-and-places-trailer</link>
-            <guid>https://www.resetera.com/threads/trails-in-the-sky-1st-chapter-details-ruan-characters-and-places-trailer.1234764/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p><a title="Companies > Nihon Falcom [739 articles]" href="https://www.gematsu.com/companies/nihon-falcom">Falcom</a> has released new footage, information, and screenshots for <em><a title="Games > Trails in the Sky 1st Chapter [14 articles]" href="https://www.gematsu.com/games/trails-in-the-sky-1st-chapter">Trails in the Sky 1st Chapter</a></em>, introducing Ruan characters Lieutenant  Julia Schwarz, Gilbert Stein, Headmaster Collins, Jill Ridonor, Hans, Carna, and Jean, as well several locations. <span id="more-977339"></span></p><p>Get the details below.</p><div><p><strong>■ Characters</strong></p><p><strong>Lieutenant Julia Schwarz</strong> (voiced by Gabriella Certo in English, Eriko Matsui in Japanese)</p><ul><li><strong>Age:</strong> 27</li></ul><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/07/Trails-in-the-Sky-1st-Chapter_2025_07-03-25_001.png"></a></figure><!-- AD: content -->
-        <p>A lieutenant of the Royal Guard.</p><p>A commanding officer of the new high-speed cruiser Arseille, and a lieutenant in the Royal Guard.</p><p>Her primary duty is to protect the royal family. In battle, she wields a rapier, showcasing swift and graceful swordsmanship that overwhelms her enemies.</p><p>Known for her diligent and sincere personality, as well as her dignified aura in the Royal Guard uniform, she is said to have many secret admirers both among civilians and within the military.</p><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/07/Trails-in-the-Sky-1st-Chapter_2025_07-03-25_002.jpg"></a></figure><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/07/Trails-in-the-Sky-1st-Chapter_2025_07-03-25_003.jpg"></a></figure><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/07/Trails-in-the-Sky-1st-Chapter_2025_07-03-25_004.jpg"></a></figure><p><strong>Gilbert Stein</strong> (voiced by Josh Pinkowski in English, Kengo Kawanishi in Japanese)</p><ul><li><strong>Age:</strong> 23</li></ul><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/07/Trails-in-the-Sky-1st-Chapter_2025_07-03-25_005.png"></a></figure><p>The fresh young secretary to Mayor Dalmore.</p><p>A refined young man who works as the personal secretary to Dalmore, the noble-born mayor of Ruan.</p><p>He is a graduate of the prestigious Jenis Royal Academy who continues to support his juniors even after completing his studies.</p><p>He appears to have a strong disdain for the delinquent group that loiters around the warehouse district in the southern part of the city, and it’s not uncommon to see him reprimanding them in the streets.</p><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/07/Trails-in-the-Sky-1st-Chapter_2025_07-03-25_006.jpg"></a></figure><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/07/Trails-in-the-Sky-1st-Chapter_2025_07-03-25_007.jpg"></a></figure><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/07/Trails-in-the-Sky-1st-Chapter_2025_07-03-25_008.jpg"></a></figure><p><strong>Headmaster Collins</strong> (voiced by Cory Yee in English, Toshitsugu Takashina in Japanese)</p><ul><li><strong>Age:</strong> 70</li></ul><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/07/Trails-in-the-Sky-1st-Chapter_2025_07-03-25_009.png"></a></figure><p>A wise scholar adored by the people of Liberl.</p><p>The headmaster of the prestigious Jenis Royal Academy, distinguished by his long white beard.</p><p>Gentle and highly perceptive, his kind demeanor has earned him the admiration of both students and faculty.</p><p>Recognized as one of Liberl’s foremost scholars, he also serves as the representative of the Ruan region when the mayor is absent.</p><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/07/Trails-in-the-Sky-1st-Chapter_2025_07-03-25_010.jpg"></a></figure><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/07/Trails-in-the-Sky-1st-Chapter_2025_07-03-25_011.jpg"></a></figure><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/07/Trails-in-the-Sky-1st-Chapter_2025_07-03-25_012.jpg"></a></figure><p><strong>Jill Ridonor</strong> (voiced by Valerie Rose Lohman in English, <a title="Games > Kanon [3 articles]" href="https://www.gematsu.com/games/kanon">Kanon</a> Takao in Japanese)</p><ul><li><strong>Age:</strong> 16</li></ul><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/07/Trails-in-the-Sky-1st-Chapter_2025_07-03-25_013.png"></a></figure><p>The lively but rash student council president.</p><p>The current student council president of Jenis Royal Academy, recognizable by her trademark ponytail and glasses.</p><p>Though reliable and a natural leader, she often rushes into decisions, which can lead to unintentionally involving other students in trouble.</p><p>She is close friends with her roommate, Kloe, and the two are top honors students who compete for the highest grades.</p><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/07/Trails-in-the-Sky-1st-Chapter_2025_07-03-25_014.jpg"></a></figure><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/07/Trails-in-the-Sky-1st-Chapter_2025_07-03-25_015.jpg"></a></figure><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/07/Trails-in-the-Sky-1st-Chapter_2025_07-03-25_016.jpg"></a></figure><p><strong>Hans</strong> (voiced by Lucien Dodge in English, Shuuta Morishima in Japanese)</p><ul><li><strong>Age:</strong> 16</li></ul><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/07/Trails-in-the-Sky-1st-Chapter_2025_07-03-25_017.png"></a></figure><p>The friendly student council vice president.</p><p>The student council vice president of Jenis Royal Academy, known for his cheerful and friendly personality.</p><p>While Jill charges ahead with her bold ideas, Hans supports the student council by keeping an eye on everyone and serving as a steady right-hand man.</p><p>Although he struggles with academics and may come off as an unserious student, he is actually very compassionate and possesses a remarkable ability to understand other people’s feelings.</p><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/07/Trails-in-the-Sky-1st-Chapter_2025_07-03-25_018.jpg"></a></figure><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/07/Trails-in-the-Sky-1st-Chapter_2025_07-03-25_019.jpg"></a></figure><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/07/Trails-in-the-Sky-1st-Chapter_2025_07-03-25_020.jpg"></a></figure><p><strong>Carna</strong> (voiced by Yuuki <a title="Platforms > Luna [62 articles]" href="https://www.gematsu.com/platforms/cloud/luna">Luna</a> in English, Yurina Amami in Japanese)</p><ul><li><strong>Age:</strong> 25</li></ul><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/07/Trails-in-the-Sky-1st-Chapter_2025_07-03-25_021.png"></a></figure><p>A big sister-like senior bracer.</p><p>A female bracer based in Ruan, though she operates throughout the Kingdom.</p><p>With a big-sisterly, down-to-earth personality, Carna excels at long-range combat with an orbal gun. She also provides valuable support from the rear using orbal arts.</p><p>Even <a title="Companies > Agate [5 articles]" href="https://www.gematsu.com/companies/agate">Agate</a>, a fellow bracer from the same generation, acknowledges her skill.</p><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/07/Trails-in-the-Sky-1st-Chapter_2025_07-03-25_022.jpg"></a></figure><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/07/Trails-in-the-Sky-1st-Chapter_2025_07-03-25_023.jpg"></a></figure><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/07/Trails-in-the-Sky-1st-Chapter_2025_07-03-25_024.jpg"></a></figure><p><strong>Jean</strong> (voiced by Kylen Deporter in English, Kent Itou in Japanese)</p><ul><li><strong>Age:</strong> 24</li></ul><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/07/Trails-in-the-Sky-1st-Chapter_2025_07-03-25_025.png"></a></figure><p>The receptionist of the Ruan Bracer Guild branch.</p><p>A young man who serves as the receptionist of the Bracer Guild’s Ruan branch.</p><p>Though he has a modest appearance, his sunny disposition and easygoing nature allow him to communicate smoothly with the guild’s clients.</p><p>In Ruan, where tourist-related mishaps are commonplace, he handles his duties with pride and precision. His efficiency is recognized even among other branches.</p><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/07/Trails-in-the-Sky-1st-Chapter_2025_07-03-25_026.jpg"></a></figure><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/07/Trails-in-the-Sky-1st-Chapter_2025_07-03-25_027.jpg"></a></figure><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/07/Trails-in-the-Sky-1st-Chapter_2025_07-03-25_028.jpg"></a></figure><p><strong>■ Locations</strong></p><p><strong>Coastal City of Ruan</strong></p><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/07/Trails-in-the-Sky-1st-Chapter_2025_07-03-25_029.jpg"></a></figure><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/07/Trails-in-the-Sky-1st-Chapter_2025_07-03-25_030.jpg"></a></figure><p>A coastal city that faces the Azelia Bay in Western Ruan.</p><p>Once a thriving hub for maritime trade, Ruan shifted its focus to tourism following the Orbal Revolution, as airships took over as the primary form of transportation.</p><p>The magnificent contrast between the deep blue sea and the pristine white buildings attracts many visitors. Langland Bridge, a drawbridge located in the city center, is also a popular attraction.</p><p><strong>Manoria Village</strong></p><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/07/Trails-in-the-Sky-1st-Chapter_2025_07-03-25_031.jpg"></a></figure><p>A rest stop in the Ruan region where white magnolia flowers proliferate, enveloping waylaid travelers in their sweet, gentle fragrance.</p><p>While the village is known for its blossoms, the windmill area on the outskirts also serves as an observation point, providing a stunning panoramic view of the sparkling Azelia Bay. Many tourists from the city of Ruan visit specifically to marvel at this breathtaking scenery.</p><p><strong>Jenis Royal Academy</strong></p><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/07/Trails-in-the-Sky-1st-Chapter_2025_07-03-25_032.jpg"></a></figure><p>A royal boarding school that gathers prodigies and the children of influential figures from across the Kingdom.</p><p>Under the guidance of Headmaster Collins, one of Liberl’s foremost scholars, the royal academy’s distinguished faculty instructs students across three academic departments: Social Studies, Natural Sciences, and Humanities.</p><p>The school hosts an annual festival that is open to the public, inviting not only students’ families but also alumni and prominent figures from various fields to attend.</p><p><strong>Varenne Lighthouse</strong></p><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/07/Trails-in-the-Sky-1st-Chapter_2025_07-03-25_033.jpg"></a></figure><p>A lighthouse that ensures the safety of ships navigating Azelia Bay.</p><p>A local lighthouse keeper manages the facility around the clock, maintaining the orbal light to guide vessels even during storms or in the dead of night.</p></div></div><br/><br/>https://www.gematsu.com/2025/07/trails-in-the-sky-1st-chapter-details-ruan-characters-and-places-trailer]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Once Human coming to PS5, Xbox Series in 2026]]></title>
-            <link>https://www.gematsu.com/2025/07/once-human-coming-to-ps5-xbox-series-in-2026</link>
-            <guid>https://www.resetera.com/threads/once-human-coming-to-ps5-xbox-series-in-2026.1234749/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-    <ul>
-    <li><a href="https://www.gematsu.com/platforms/playstation/ps5">PS5</a></li><li><a href="https://www.gematsu.com/platforms/xbox/xbox-series">Xbox Series</a></li>    </ul>
-
-    
-    <p><span>Version 2.0 update now available.</span>
-      </p></div><div><p><a title="Companies > Starry Studio [1 article]" href="https://www.gematsu.com/companies/starry-studio">Starry Studio</a> will release <a title="Genres > Free-to-Play [406 articles]" href="https://www.gematsu.com/genres/free-to-play">free-to-play</a> post-apocalyptic <a title="Genres > Multiplayer [535 articles]" href="https://www.gematsu.com/genres/multiplayer">multiplayer</a> <a title="Genres > Open-World [669 articles]" href="https://www.gematsu.com/genres/open-world">open-world</a> <a title="Genres > Survival [433 articles]" href="https://www.gematsu.com/genres/survival">survival game</a> for <a title="Platforms > PS5 [9,852 articles]" href="https://www.gematsu.com/platforms/playstation/ps5">PlayStation 5</a> and <a title="Platforms > Xbox Series [7,494 articles]" href="https://www.gematsu.com/platforms/xbox/xbox-series">Xbox Series</a> in 2026, the developer <a href="https://twitter.com/OnceHuman_/status/1940629074470134153" target="_blank">announced</a>. Wishlisting is available now via <a href="https://store.playstation.com/en-us/concept/10015762" target="_blank">PlayStation Store</a> and <a href="https://www.xbox.com/en-us/games/store/once-human/9n0qwxc09mpt" target="_blank">Microsoft Store</a>. <span id="more-977419"></span></p><p><em><a title="Games > Once Human [2 articles]" href="https://www.gematsu.com/games/once-human">Once Human</a></em> first launched for PC via <a href="https://store.steampowered.com/app/2139460/Once_Human/" target="_blank">Steam</a> on July 9, 2024, followed by iOS and Android on April 23, 2025. The version 2.0 update, dubbed “Dreamveil,” is available now. Full patch notes are available <a href="https://www.oncehuman.game/news/update/20250702/40780_1244548.html" target="_blank">here</a>.</p><p>Here is an overview of the game, via Starry Studio:</p><blockquote><p><strong>About</strong></p><p><em>Once Human</em> is a multiplayer open-world survival game set in a post-apocalyptic world. Join forces with friends to fight for survival, construct your sanctuary, and conquer terrifying aberrations to unravel the truth behind the apocalypse. Do you still hold the answer to what it means to be human?</p><p><strong>Key Features</strong></p><!-- AD: content -->
-        <ul><li><strong>Explore a Supernatural Open World</strong> – The world has fallen. An extraterrestrial substance called Stardust has infected everything–plants, animals, even the air we breathe. Most humans couldn’t survive… but you’re different. You’re a <a title="Platforms > Meta [147 articles]" href="https://www.gematsu.com/platforms/meta">Meta</a>-Human—one of the few who can harness Stardust’s power instead of being destroyed by it. With your abilities, you can fight back, rebuild, or even rule this broken world.</li><li><strong>Challenge Your Survival Instincts</strong> – The Starfall has reshaped everything on the Nalcott. You, as a surviving “Meta,” must fight to survive across a vast 256 km² seamless map. Traverse frozen tundras, scale active volcanoes, cross raging rivers and treacherous swamps, or journey through deserts and oases. Whether you hunt, farm, build, or wage all-out war—your only goal is to survive.</li><li><strong>Test Your Skill in Battle Against Monstrous Foes</strong> – You’re not alone in your fight against the ancient <a title="Genres > Horror [657 articles]" href="https://www.gematsu.com/genres/horror">horror</a>s. Team up with others to explore the unknown and outsmart your rivals. Face thrilling battles where strategy, teamwork, and quick thinking decide who survives. Work together, share your strengths, and fight for the last remaining resources—because only the strongest will make it out alive.</li><li><strong>Fight for the Future of Humanity</strong> – Stardust turned people, animals, and objects into monstrous creatures, and now these horrors have taken over the world. But the tables have turned—we are the hunters now, and the Deviants are the prey.</li><li><strong>Forge Your Base, Unleash Your Creativity</strong> – Build your base anywhere in the wild! Customize your hideout however you want—add a patio, kitchen, garage, and more. Store your loot safely and defend it with deadly traps and weapons. Get creative and build the ultimate survival fortress!</li><li><strong>Deviation Pals Always by Your Side!</strong> – From a gun-toting alpaca to a tiny blue dragon chef, or even a hardworking mining buddy, these strange and powerful creatures are everywhere, ready to join your team. They’ll fight by your side, help gather resources, and keep your territory running—but don’t forget to take care of them! Give them a cozy home, check in often, and keep them happy… or they might just rebel.<br>With Deviants around, surviving the apocalypse just got a whole lot less lonely.</li></ul></blockquote><p>Watch the <em>Once Human</em> Global Annual Showcase below.</p><h2><span><em>Once Human</em> 2025 Global Annual Showcase</span></h2><p><iframe title="2025 Global Annual Showcase" width="500" height="281" src="https://www.youtube.com/embed/fRoPtZdcfNI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p></div></div><br/><br/>https://www.gematsu.com/2025/07/once-human-coming-to-ps5-xbox-series-in-2026]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Wonder Boy: Asha in Monster World now available for PS5, Xbox Series, and Microsoft Store for PC]]></title>
-            <link>https://www.gematsu.com/2025/07/wonder-boy-asha-in-monster-world-now-available-for-ps5-xbox-series-and-microsoft-store-for-pc</link>
-            <guid>https://www.resetera.com/threads/wonder-boy-asha-in-monster-world-now-available-for-ps5-xbox-series-and-microsoft-store-for-pc.1234746/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-    <ul>
-    <li><a href="https://www.gematsu.com/platforms/pc">PC</a></li><li><a href="https://www.gematsu.com/platforms/playstation/ps5">PS5</a></li><li><a href="https://www.gematsu.com/platforms/xbox/xbox-series">Xbox Series</a></li>    </ul>
-
-    
-    <p><span>Previously released for PlayStation 4, Switch, and Steam.</span>
-      </p></div><div><p><a title="Companies > Bliss Brain [9 articles]" href="https://www.gematsu.com/companies/bliss-brain">Bliss Brain</a> has released <a title="Platforms > PS5 [9,852 articles]" href="https://www.gematsu.com/platforms/playstation/ps5">PlayStation 5</a>, <a title="Platforms > Xbox Series [7,494 articles]" href="https://www.gematsu.com/platforms/xbox/xbox-series">Xbox Series</a>, and <a href="https://www.xbox.com/en-us/games/store/wonder-boy-asha-in-monster-world/9pm11rbpp253" target="_blank">Microsoft Store</a> (<a title="Platforms > PC [23,617 articles]" href="https://www.gematsu.com/platforms/pc">PC</a>) versions of <em><a title="Games > Wonder Boy: Asha in Monster World [1 article]" href="https://www.gematsu.com/games/wonder-boy-asha-in-monster-world">Wonder Boy: Asha in Monster World</a></em> for $19.99. <span id="more-977551"></span></p><p>The game, a remake of <em>Monster World IV</em>, first launched for PlayStation 4 and Switch on April 22, 2021 in Japan and May 28, 2021 in the west, followed by PC via <a href="https://store.steampowered.com/app/1420080/Wonder_Boy_Asha_in_Monster_World/" target="_blank">Steam</a> on June 29, 2021 worldwide.</p><p>Here is an overview of the game, via its <a href="https://blissbrain.co.jp/wb-asha-in-mw-E/" target="_blank">official website</a>:</p><blockquote><p><strong>About</strong></p><p>The <a title="Genres > Adventure [2,383 articles]" href="https://www.gematsu.com/genres/adventure">adventure</a>s of Asha and her mysterious sidekick Pepelogoo are about to begin!</p><p><strong>A <a title="Genres > Side-Scrolling [1,037 articles]" href="https://www.gematsu.com/genres/side-scrolling">Side-Scrolling</a> <a title="Genres > Action [2,850 articles]" href="https://www.gematsu.com/genres/action">Action</a> Game That is Light and Easy to Play</strong></p><!-- AD: content -->
-        <p>The action is fast and challenging, but the game is tuned for easy retrying, making it easy to try again.</p><p><strong>Call It, Grab It, Throw It, Move It, Her Blue Buddy Pepelogoo</strong></p><p>Join forces with your partner to overcome gimmicks and powerful enemies.</p><p><strong>Various Action Levels</strong></p><p>High mountains, volcanoes, ice worlds, the sky…</p><p>Let’s run through the various areas with Pepelogoo.</p><p><strong>Explore the Vastness of the World</strong></p><p>The vast world is full of unknown encounters, events, and discoveries. Even if you’ve cleared a stage once, you might discover something if you visit it again.</p><p><strong>Power Up Asha and You’ll Be Ready for the Difficulties</strong></p><p>By acquiring items and equipment, you can strengthen your attack and defense capabilities. Get ready to face the powerful enemies.</p><p><strong>Staying True to the Series Legacy</strong></p><p>For <em>Wonder Boy: Asha in Monster World</em>, the original staff from the former <a title="Companies > Westone Bit Entertainment [10 articles]" href="https://www.gematsu.com/companies/westone-bit-entertainment">Westone Bit Entertainment</a> gathered together to create a game that stays true to the spirit of the original games. The team is led, and directed, by the creator of the <em>Wonder Boy</em> series, Ryuichi Nishizawa and supported by Shinichi Sakamoto (sound), Maki Ōzora (character design) and Takanori Kurihara (creative <a title="Genres > Management [29 articles]" href="https://www.gematsu.com/genres/management">management</a>). You can’t get more <em>Wonder Boy</em> than that!</p></blockquote><p>Watch a new trailer below.</p><h2><span>PlayStation 5, Xbox Series, and Microsoft Store (PC) Launch Trailer</span></h2><p><strong>English</strong></p><p><iframe title="WONDER BOY ASHA IN MONSTER WORLD PV" width="500" height="281" src="https://www.youtube.com/embed/eMWQnxKUfng?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p><p><strong>Japanese</strong></p><p><iframe title="「ワンダーボーイ アーシャ・イン・モンスターワールド」PV" width="500" height="281" src="https://www.youtube.com/embed/UAXLdBlThaY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p></div></div><br/><br/>https://www.gematsu.com/2025/07/wonder-boy-asha-in-monster-world-now-available-for-ps5-xbox-series-and-microsoft-store-for-pc]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Donkey Kong Bananza Gets An Eight-Minute Overview Trailer]]></title>
-            <link>https://www.nintendolife.com/news/2025/07/donkey-kong-bananza-gets-an-eight-minute-overview-trailer</link>
-            <guid>https://www.resetera.com/threads/donkey-kong-bananza-gets-an-eight-minute-overview-trailer.1234719/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="body">
-<article id="article">
-<header><section>
-<p>DK...Donkey Kong!</p>
-</section></header><section>
-
-<p>We're now just weeks out from the smashing arrival of <a href="https://www.nintendolife.com/games/nintendo-switch-2/donkey-kong-bananza">Donkey Kong Bananza</a> on the Switch 2 and Nintendo has now released a overview trailer.</p>
-<p>It uploaded plenty of these in the leadup to key releases during the Switch generation and this trend continues with eight minutes of footage for the new Switch 2 exclusive. It highlights DK and Pauline's abilities, transformations, boss battles, and much more.</p>
-<p>Just keep in mind this overview is only available on Nintendo's Japanese YouTube channel at the moment but if we get an English version, we'll let you know.</p>
-<p>Earlier this week we also shared our final preview of Donkey Kong Bananza here on Nintendo Life, and despite some minor technical concerns, his latest adventure is showing all the signs of becoming his greatest outing to date. The game's developer has been confirmed as well.</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:184075,184551 @ 1751544378 -->
-<p>Are you looking forward to Donkey Kong Bananza? Notice anything in this latest trailer? <em>Let us know in the comments.</em></p></section></article><div><p>Liam is a news writer and reviewer across Hookshot Media. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
-</div></div></div><br/><br/>https://www.nintendolife.com/news/2025/07/donkey-kong-bananza-gets-an-eight-minute-overview-trailer]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Digimon Story: Time Stranger Switch 2 Listing Surfaces Online]]></title>
-            <link>https://www.nintendolife.com/news/2025/07/digimon-story-time-stranger-switch-2-listing-surfaces-online</link>
-            <guid>https://www.resetera.com/threads/digimon-story-time-stranger-switch-2-listing-surfaces-online.1234707/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="body">
-<article id="article">
-<header><section>
-<p>Fingers crossed</p>
-</section></header><div><section>
-
-<p>Bandai Namco ended its latest showcase with another look at <strong><a href="https://www.pushsquare.com/games/ps5/digimon_story_time_stranger">Digimon Story: Time Stranger</a></strong>. If you were wondering about the possibility of a Nintendo release, there's reportedly been a new development.</p>
-<p>As highlighted by multiple sources, a new listing has popped up on the EAN database in Europe which includes a code for an apparent "Switch 2 version". These codes are used by retailers to identify products at sale.</p>
-
-<p>Nothing has been officially announced, so it's probably best to treat this one as a rumour for now. In saying this, Bandai Namco has already got games like <a href="https://www.nintendolife.com/games/nintendo-switch-2/shadow-labyrinth-nintendo-switch-2-edition">Shadow Labyrinth</a> coming to the Switch 2, so it wouldn't be the biggest surprise.</p>
-<p>The Switch generation also saw multiple Digimon games released physically and digitally. Digimon Story: Time Stranger is currently confirmed for PlayStation 5, Xbox Series X|S and Steam, and will launch on these platforms in October.</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:184736,184717 @ 1751544803 -->
-<p>Would you be interested in this game on the Switch 2? <em>Let us know in the comments.</em></p></section>
-<p>[source <a title="External Link: https://nintendoeverything.com/digimon-story-time-stranger-nintendo-switch-2-evidence/" rel="noopener" href="https://nintendoeverything.com/digimon-story-time-stranger-nintendo-switch-2-evidence/">nintendoeverything.com</a>]</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-info/69b1d31e4a00cdde809c26b29239ba08 @ 1751541604 --></div></article><div><p>Liam is a news writer and reviewer across Hookshot Media. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
-</div></div></div><br/><br/>https://www.nintendolife.com/news/2025/07/digimon-story-time-stranger-switch-2-listing-surfaces-online]]></content:encoded>
         </item>
     </channel>
 </rss>
