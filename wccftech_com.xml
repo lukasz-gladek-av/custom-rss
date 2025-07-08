@@ -4,7 +4,7 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Tue, 08 Jul 2025 20:21:36 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 08 Jul 2025 20:33:37 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -56,72 +56,6 @@
 
 			
 		</div></div><br/><br/>https://wccftech.com/the-alters-pushes-past-280k-copies-sold/]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[War Thunder to Get Path Traced Global Illumination, Frame Generation, and OMM/SER Support]]></title>
-            <link>https://wccftech.com/war-thunder-path-traced-global-illumination-frame-generation/</link>
-            <guid>https://www.resetera.com/threads/war-thunder-to-get-path-traced-global-illumination-frame-generation-and-omm-ser-support.1238559/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			<p>Today, Gaijin Games has outlined a series of major technical improvements coming to War Thunder with the Leviathan update. Chief among them is easily the addition of Path Traced Global Illumination, or PTGI, an update to the existing ray tracing implementation <a href="https://wccftech.com/war-thunder-adds-raytracing-and-hdr-on-pc-and-xbox-one/" target="_blank" rel="noreferrer noopener">originally introduced several years ago</a>.</p>
-
-
-
-<p>In a <a href="https://warthunder.com/en/news/9596-development-graphics-improvements-in-the-leviathans-update-en" target="_blank" rel="noreferrer noopener">newly published blog article</a>, the studio explained:</p>
-
-
-
-<p><em>It’s important to keep the game visuals improving. Ray tracing already improves shadows, reflections and ambient occlusion. But now it is time to improve global illumination. There’s a new option now, which when enabled, replaces ambient occlusion. We call it Path Traced Global Illumination or PTGI. Back in 2018 (time flies), when we introduced Global Illumination (GI) to War Thunder, it was a big visual leap, but technology keeps improving, and now we can do it even better.</em></p>
-
-
-
-<p><em>PTGI is simulating light, bouncing around in the scene, and calculates the lighting on surfaces which are indirectly lit. For example, in shadows, indoors or valleys. The old GI does a great job with this very topic, but it has its limitations. It works on a much more simple and inaccurate representation of the world, and it has a limited range.</em></p>
-
-
-
-<p><em>The first usually shows as light leaking. This is when light appears where it should not be. PTGI cleans all of these leaks up and makes the lighting in interior areas much more consistent with the rest of the scene. Also, PTGI embraces light more as it can simulate its bounces on a larger scale.</em> <em>Another very notable difference is that as the old GI is working on a simplified scene, many times it thinks the surface should be lit by the sky, when it shouldn’t. As a result, the indirectly lit areas having a blue tint on them — more than there should be.</em></p>
-
-
-
-
-<figure></figure>
-
-
-
-
-
-<figure></figure>
-
-
-
-
-<p>PTGI is surely more costly in terms of performance than the previous implementation, but War Thunder users will also get frame generation support from NVIDIA, AMD, and Intel: </p>
-
-
-
-<ul>
-<li>NVIDIA DLSS Frame Generation, working on NVIDIA GeForce RTX 40 Series and above GPUs when DLSS is enabled</li>
-
-
-
-<li>AMD FSR Frame Generation, working on AMD Radeon RX 5000 Series and above, NVIDIA GeForce RTX 20 Series and above, and Intel Arc, when FSR is enabled</li>
-
-
-
-<li>Intel XeSS Frame Generation, working on Intel Arc GPUs when XeSS is enabled</li>
-</ul>
-
-
-
-<p>Beyond these additions, Gaijin is also working on optimizing the game further, both on the CPU side and the GPU side, especially with ray tracing or path tracing enabled. Additionally, the developer announced that it will add support for Opacity Micro-Maps (OMM) and Shader Execution Reordering (SER), two features currently available to developers via the DirectX Preview <a href="https://wccftech.com/microsoft-agility-sdk-directx-shader-execution-reordering-opacity-micromaps-support-huge-ray-tracing-improvements-on-nvidia/" target="_blank" rel="noreferrer noopener">released a month ago</a>. Of course, you'll need hardware that supports OMM and/or SER to actually benefit from these features; NVIDIA graphics cards have supported both since the RTX 40 Series.</p>
-
-			
-		</div></div><br/><br/>https://wccftech.com/war-thunder-path-traced-global-illumination-frame-generation/]]></content:encoded>
         </item>
     </channel>
 </rss>
