@@ -4,9 +4,213 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Tue, 29 Jul 2025 12:57:03 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 29 Jul 2025 13:20:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Unreal Engine Engineer Declares ‘Great Hitch Hunt’ to Rid UE Games of Stutters, Gives Tips to Developers]]></title>
+            <link>https://wccftech.com/unreal-engine-declares-great-hitch-hunt-rid-games-stutters/</link>
+            <guid>https://www.resetera.com/threads/unreal-engine-engineer-declares-%E2%80%98great-hitch-hunt%E2%80%99-to-rid-ue-games-of-stutters-gives-tips-to-developers.1255917/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>During the recent Unreal Fest 2025 in Orlando, Florida, Senior Unreal Engine Software Engineer Ari Arnbjörnsson gave a talk dedicated entirely to PC gamers' nightmare: stuttering.</p>
+
+
+
+<p>Over the last few years, we have had to report far too many times that newly released Unreal Engine games (but not only them, to be fair, as other engines are also affected) were <a href="https://wccftech.com/the-callisto-protocol-pc-stuttering-is-unbelievably-bad-says-digital-foundry/" target="_blank" rel="noreferrer noopener">plagued by stutters and hitches on PC</a>. All the while, we asked ourselves: what is Epic doing about it?</p>
+
+
+
+<p>That's essentially the primary focus, alongside best practice advice to developers, of the aforementioned talk, aptly titled 'The Great Hitch Hunt', where Ari Arnbjörnsson dressed in a witch hunter costume and encouraged fellow developers to 'kill the hitches'.</p>
+
+
+
+<p>Arnbjörnsson identified seven primary causes of hitches and stutters. The first one, Level Streaming, is really more of a category that includes a family of hitches related to loading or unloading parts of game worlds. According to the Unreal Engine engineer, a common cause is the misuse of static mesh actors for static geometry. Oftentimes, artists and level designers drag in many static mesh actors, such as tables, books, cutlery, etc, which is fine for small games but potentially disastrous for big or AAA-sized worlds because they bring overhead, require memory load, and have to be scanned by the garbage collector. </p>
+
+
+
+<p>Arnbjörnsson recommends using instanced static meshes (ISMs) or hierarchical instanced static meshes (HISMs) instead. The packed level actors feature can also be deployed to combine many static meshes into fewer actors, reducing overhead. The engineer then switched to what Epic is doing to improve level streaming hitches, such as the experimental Unreal Engine 5.5 Cell Transformers feature that converts static mesh actors into instanced meshes at runtime and the experimental streaming performance improvements introduced with <a href="https://wccftech.com/unreal-engine-5-6-now-available-open-worlds-60-fps-ray-tracing/" target="_blank" rel="noreferrer noopener">Unreal Engine 5.6</a>. Experimental features aren't turned on by default but will be once they're ready. </p>
+
+
+
+<p>The second cause of hitches is actually Physics, because content teams tend not to optimize for them. The introduction of Nanite with Unreal Engine 5 made developers believe they could simply drop in complex meshes in their worlds and they would magically work without problems, but that isn't so. Simple collision shapes should be used instead of complex physics whenever possible, in this order: spheres (fastest), capsules, boxes, and (very last) convex polygons. Distant objects that cannot even be interacted with should be completely disabled. The Chaos Visual Debugger can further help with profiling performance issues caused by physics. </p>
+
+
+
+<p>Regarding Epic's ongoing work in this area, Arnbjörnsson pointed to the Async Physics Initialization available in Unreal Engine 5.5/5.6, which is also still experimental. This offloads the physics calculation off the game thread, but the engineer recommended not to ship with it yet. He also warned that it could be counterproductive in that it could seemingly fix the problem until the physics scene grows up to the point that the problem returns even worse. Managing how large a physics scene should be remains a high priority for developers. Epic also continually improves Chaos physics with better multithreading and other optimizations.</p>
+
+
+
+<figure><p>
+<iframe title="The Great Hitch Hunt: Tracking Down Every Frame Drop | Unreal Fest Orlando 2025" width="500" height="281" src="https://www.youtube.com/embed/HaVTYSnGvxA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<p>Then there's the Actor Spawning hitch: complex actors with many components (skeletal meshes, animations) like characters can take several milliseconds to spawn, causing noticeable frame drops, especially if many spawn at once. Advices include limiting how many actors spawn per frame, delaying initialization of components like skeletal animation to run asynchronously after spawn, and pooling actors when possible instead of destroying and creating, and reusing hidden actors.</p>
+
+
+
+<p>Arnbjörnsson said that several developers asked Epic to implement actor pooling as a standard Unreal Engine feature. While this is being investigated, it's very hard to actually make it happen, given that they'd have to support every single actor type for every single project in every single industry (Unreal Engine isn't just used by game developers nowadays). For now, developers should rather build custom pools per actor type.</p>
+
+
+
+<p>The fourth one is perhaps the most common instance of stutter in PC games: Pipeline State Object (PSO) compilation. Modern low-level APIs like DirectX12, Vulkan, and Metal require fully compiled shaders before rendering. This is not an issue for consoles since they all have the same hardware configuration. However, shipping all compiled permutations is impossible on PC and mobile devices, and compiling shaders on the fly inevitably causes the hitches. Games have been trying to precompile using a bundle PSO cache, but it’s imperfect and hard, especially for open worlds or procedural content.</p>
+
+
+
+<p>PSO precaching has been introduced <a href="https://wccftech.com/unreal-engine-5-3-download/" target="_blank" rel="noreferrer noopener">with Unreal Engine 5.3</a> and should always be used, but it's not enough on its own. Arnbjörnsson urged developers to prepare their own PSO compilation strategy and also to profile their games with the PSO Cache Buster plugin he created (it's available for download <a href="https://github.com/Flassari/PSOCacheBuster" target="_blank" rel="noreferrer noopener">here</a>). Epic is still working to improve PSO precaching further. They have now caught all code paths for the major Unreal Engine sample projects and Fortnite. </p>
+
+
+
+<p>The fifth cause is the Garbage Collection hitch. That happens when there are too many unused UObject instances, causing the Garbage Collector to take too long and provoke stutters. Developers should therefore endeavor to keep UObject counts manageable and strategically schedule GC to avoid hitch spikes. Epic's engineers are working on the currently experimental Incremental Reachability Analysis feature to spread the Garbage Collector's work over multiple frames, as well as focusing on multi-thread safe incremental GC for client builds in the future.</p>
+
+
+
+<p>The sixth is called a Synchronous Loading Hitch, and it occurs when blocking (synchronous) assets loads stall the game thread until the asset finishes loading, causing very long hitches. Under no circumstances should this be allowed - only asynchronous loading should be used. Asset validators (like Arnbjörnsson's <a href="https://github.com/Flassari/CommonValidators" target="_blank" rel="noreferrer noopener">CommonValidators</a>) can catch blocking load usage, and some studios even outright removed blocking load nodes from blueprints. For its part, Epic is adding warnings and tools in the Unreal Engine to inform users about blocking loads. Still, if one sneaks through, UE5.4/5.5 introduced the ability to partially flush async queues to reduce hitch impact. </p>
+
+
+
+<p>Last but not least, there are the Blueprint and Content Hitches that are caused by developers doing too much work in blueprints or content scripts, such as too many timers, too many tick updates, bloated sequences, or audio/skeletal animators overloading the system. Examples of fixes on the developer's side include faking or simplifying distant objects and turning off unnecessary ticking and timers. For its part, the Unreal Engine maker continues expanding the Unreal Insights tool with better usability and features like region marking and screenshots to make it easier for developers to visualize and optimize performance.</p>
+
+
+
+<p>In a closing note, Arnbjörnsson reminded all game developers that despite the many advancements in hardware and software, game development still has to embrace limitations. As such, hard optimization work and clever 'faking' are still very much necessary to get the best results. Hopefully, the talk will open the eyes of developers to this rampant issue and make our game experiences much smoother.</p>
+
+			
+		</div></div><br/><br/>https://wccftech.com/unreal-engine-declares-great-hitch-hunt-rid-games-stutters/]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Grounded 2 Preview - Big Bugs and Tiny Teens Collide... Again]]></title>
+            <link>https://techraptor.net/gaming/previews/grounded-2-preview</link>
+            <guid>https://www.resetera.com/threads/grounded-2-preview-big-bugs-and-tiny-teens-collide-again.1255911/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><p><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="83bc6722-3263-4c03-9e7f-6904094377db" href="https://techraptor.net/games/grounded-2" rel="nofollow"><em>Grounded 2</em></a>&nbsp;is the follow-up title from Obsidian Entertainment to their original shrunken teen <a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="9e2fac55-7c08-4df9-8cd3-a855c0dff7df" href="https://techraptor.net/gaming/guides/survival-games-why-we-keep-on-coming-back-for-more" rel="nofollow">survival game</a>,&nbsp;<em>Grounded.</em>&nbsp;Following the success and style of the first game,&nbsp;<em>Grounded 2</em>&nbsp;explores a completely new area, Brookhollow Park. Our <em>Grounded 2</em> preview dives into the Early Access content, including the first part of the main story.</p>
+
+<h2>Re-Shrunk Adventure |&nbsp;<em>Grounded 2&nbsp;</em>Preview</h2>
+
+<p><em>Grounded 2</em> takes place two years after the end of <a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="16760b76-971f-4c46-a042-33960bad2295" href="https://techraptor.net/games/grounded" rel="nofollow"><em>Grounded</em></a>, but that doesn't mean you need to play the original. The game starts with a cinematic intro exploring the ending of the previous title. It then shifts to the current day, the unveiling of a commemorative statue in Brookhollow Park by Ominent. After a mishap during the ceremony, you awake to find yourself shrunk...again. This kickstarts your adventure in the park, a larger expanse of wilderness with new bugs and new threats waiting for you.</p>
+<picture><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/grounded-2-snackbar-ranger-outpost.jpg?itok=qfZimLyg 1x" media="(min-width: 992px)" type="image/jpeg"><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/grounded-2-snackbar-ranger-outpost.jpg?itok=kzNOF-pY 1x" media="(max-width: 991px)" type="image/jpeg"></picture><p>For fans of&nbsp;<em>Grounded,&nbsp;</em>you'll be pleased to know the gameplay and mechanics of the sequel are generally the same. You gather resources like grass, weed stems, sap, etc., to construct your base. You Peep on bugs to learn more about their nature and how to defeat them. There are Milk Molars to increase your stats and Mutations to unlock as you play.&nbsp;</p>
+
+<p>The main differences come in the inclusion of new buildings, new bugs, being able to tame and ride some creatures, as well as the new storyline, which brings its own pint-sized villain out to play.&nbsp;</p>
+
+<h2>Combat Focused Villain</h2>
+
+<p>The main story kicks off with BURG.L having his head yanked off. Sending a plea for help, you're aware of a woman who's holding his, now shrunken, head captive. Making it your mission to fix BURG.L and return to your normal size, you set out to explore the park with the help of Ominent's new leader, Ms. Beaumont.&nbsp;</p>
+<picture><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/grounded-2-burg.l-head-main-story.jpg?itok=tR3QE4YJ 1x" media="(min-width: 992px)" type="image/jpeg"><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/grounded-2-burg.l-head-main-story.jpg?itok=4poYDxho 1x" media="(max-width: 991px)" type="image/jpeg"></picture><p>You're not left alone, however, as the mysterious stranger seems to know a good deal about your experience surviving the yard. She sends her mind-controlled O.R.C. bugs to attack you repeatedly, testing if you've gone soft in the two years since being originally shrunk. This tête-à-tête is what fuels the different main quests, bringing you to the unique regions of Brookhollow Park. We're left on a cliffhanger at the launch of Early Access, with more story promised as the game continues development. It's the perfect ending spot, giving you enough game to feel satisfied, but hooking you in for future updates and continued gameplay.</p>
+
+<h2>The Joy of Riding an Ant</h2>
+
+<p>Instead of having to walk or glide everywhere, you can now tame Red Ant Soldiers. You can have up to five ant buggies that you can ride. They aid in combat when you're not mounted, can enlist the help of a nearby Red Ant Worker, and make quick work of grass and dandelions. You're able to haul up to 12 items at a time, increasing the speed of building dramatically. Your ant can go fast, getting you from one place to another quickly by running around the map. It does have a stamina bar, but it generally rapidly refills. This makes fleeing from difficult battles far easier.&nbsp;</p>
+<picture><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/grounded-2-red-ant-soldier-buggy.jpg?itok=5z5lA0XR 1x" media="(min-width: 992px)" type="image/jpeg"><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/grounded-2-red-ant-soldier-buggy.jpg?itok=Fic3keXa 1x" media="(max-width: 991px)" type="image/jpeg"></picture><p>On top of that, riding your ant into anthills negates any hostility from other soldier ants. Their aggression triggers as soon as you get off your buggy, but you can greatly reduce the number of combat encounters you have while exploring by simply being on top of your ant.&nbsp;</p>
+
+<h2>All the Bugs</h2>
+
+<p>There are a few new bugs introduced in&nbsp;<em>Grounded 2</em>'s Brookhollow Park. You'll come across Cockroach nymphs, Cockroaches, and two boss roaches. Three varieties of the Northern Scorpion will pop out of the dirt to wreck you with pincers and venom. You'll come across Blue Butterflies and Praying Mantis Nymphs. Garden Snails, as well as their Baby version, are new Harmless creatures.</p>
+
+<p>This is in addition to fan favorites like the Red ants, Aphids, Gnats, Weevils, and Ladybugs. The spider population as of EA launch is far less varied, featuring Spiderlings, Orb Weaver Jrs., Orb Weavers, and the occasional Wolf Spider. For those who prefer not to see eight-legged creatures in their game, <a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="f31c37a3-768e-4429-a7f7-72c8261b0883" href="https://techraptor.net/gaming/previews/grounded-preview" rel="nofollow">Arachnophobia mode</a> is still available.&nbsp;</p>
+<picture><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/frozen-willow-facing-northern-scorpling-grounded-2.jpg?itok=-vjgqDKO 1x" media="(min-width: 992px)" type="image/jpeg"><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/frozen-willow-facing-northern-scorpling-grounded-2.jpg?itok=g6-7vdn5 1x" media="(max-width: 991px)" type="image/jpeg"></picture><h2>Same Ol' Base Building</h2>
+
+<p>Even though there are new buildings you can construct and new crafting recipes to make, the mechanics of setting up your base are the same. You select a piece from the wheel, place it where you want, then supply the materials until it's complete. More unusual structures can be introduced later on in EA, but there's not too much that sets this apart.&nbsp;</p>
+
+<h2>More to Come</h2>
+
+<p>While there's already a decent amount of content to get through, especially if you want to gather all the hidden items and collectibles, only about a third of the Brookhollow Park map is accessible. I spent roughly 35 hours exploring most areas available, finding Milk Molars, and getting through Ranger Challenges, along with completing the main story. It can be assumed that there'll be a similar amount of content for the rest of the map, giving players an estimated 100 plus hours of gameplay. That's quite a bit of gaming for the current price.&nbsp;</p>
+<picture><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/grounded-2-end-of-story-early-access-content.jpg?itok=C7HCI0LY 1x" media="(min-width: 992px)" type="image/jpeg"><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/grounded-2-end-of-story-early-access-content.jpg?itok=fd3KEf3p 1x" media="(max-width: 991px)" type="image/jpeg"></picture>
+
+<p>Though&nbsp;<em>Grounded 2&nbsp;</em>is fun to play and gives plenty for the cost, there are a number of bugs and glitches that can get in the way. Some of the largest issues I had were:</p>
+
+<ul><li>Game crashes</li>
+	<li>Dropped loot disappearing into the environment, making it unable to be collected</li>
+	<li>Buggy getting stuck in the ground, unable to be recalled to the nest or follow you around</li>
+	<li>Bugs spawning in the environment, but still being able to attack you without you being able to attack back</li>
+	<li>Resting/Saving/Building being disabled due to combat in progress even after combat was over</li>
+</ul><p>Not all of the above were so impactful as to stop game progression, but were certainly frustrating and caused delays, whether due to lost data, lost resources, or being unable to complete alternate objectives. Other issues include Spiderlings not spawning when nests are destroyed, Orb Weavers floating from spot to spot (usually in the air), creatures being able to get into your base through your walls (like ants and snails), and a delay when throwing bombs.&nbsp;</p>
+
+<p>Overall,&nbsp;<em>Grounded 2</em>&nbsp;is a great game that has a well written and intriguing storyline. Fans of the original will definitely want to pick up the sequel. However, some of the bugs that can occur definitely cause frustration and crashes negatively impact the experience. If you don't want to deal with these issues, or rather have the whole story to play through at once, it'd be better to wait until the game fully launches. For all others, I definitely recommend checking&nbsp;<em>Grounded 2</em>&nbsp;out, even if you didn't play&nbsp;<em>Grounded.&nbsp;</em></p>
+
+<hr><p><em>Grounded 2&nbsp;was previewed on PC with a code provided by Xbox over the course of 38 hours. All screenshots were taken during the course of the preview.&nbsp;</em></p>
+</div><div><p><span><div>
+       <div><p>  | Staff Writer / Contributor</p></div>
+    <p>Ashley Erickson is an experienced writer focusing on the video games industry since 2013. Starting off with cosplay features, she moved to game guides and… <a href="https://techraptor.net/author/ashley-erikson">More about Ashley</a></p>
+  </div></span></p></div></div><br/><br/>https://techraptor.net/gaming/previews/grounded-2-preview]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Despite Suicide Squad's fate, Warner Bros. look set to have Gotham Knights devs make a live service game]]></title>
+            <link>https://www.rockpapershotgun.com/despite-suicide-squads-fate-warner-bros-look-set-to-have-gotham-knights-devs-make-a-live-service-game</link>
+            <guid>https://www.resetera.com/threads/despite-suicide-squads-fate-warner-bros-look-set-to-have-gotham-knights-devs-make-a-live-service-game.1255908/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-component="article-header">
+  
+
+    <div id="main-content">
+  
+
+        <p>According to a job listing</p>
+
+    </div>
+
+
+  <p>
+  <figure>
+    
+
+        <figcaption>
+          <span>Image credit: <cite>Warner Bros Montreal</cite></span>
+        </figcaption>
+
+  </figure>
+  </p>
+
+    
+
+</div><div data-component="article-content">
+
+
+
+            <p>Warner Bros. Games aren't pushing the brakes on games with live service elements any time soon, despite the whole Suicide Squad: Kill The Justice League debacle. A new job listing at <a href="https://www.rockpapershotgun.com/games/gotham-knights">Gotham Knights</a> studio WB Games Montréal suggests their upcoming game will have at least some of those long-term servicey bits to it.</p>
+<p>Or, at the very least, its executive producer will need to be someone who knows what live services are and can do some live service strategising.</p>
+<!--more-->
+<p>This <a href="https://wbgamesmontreal.com/en/jobs/r000096070/">executive producer listing</a> is looking for a senior dev to "lead the development of a high-quality AAA game based on one of the iconic IPs from the vast Warner Bros. and DC Comics catalog". The duties which'll come as part of that involve a need to "oversee all phases of development, from concept to post-launch live operations."</p>
+<p>Things get a tiny bit more specific about that last bit further on, mentioning the successful applicant needs to have a hand in "post-launch content and live service strategy" designed to keep players engaged long-term. "Deep understanding of the full game development lifecycle, including live services," is also listed in the qualifications and experience section, in case those previous examples aren't enough mentions of the L and S words for you.</p>
+<p>Warner Bros. write that they're keen to see that the game "not only meets its goals but also pushes the boundaries of what’s possible within the WB and DC universe", which could well just be job advert speak, but the explicit emphasis on a need for "critical and commercial success" that accompanies it is a noteworthy given the context.</p>
+<p>If this project does turn out to be a live service-focused DC game, it'd be following in the footsteps of notorious flop <a href="https://www.rockpapershotgun.com/games/suicide-squad-kill-the-justice-league">Suicide Squad: Kill the Justice League</a>. In case you need a refresher, that game's <a href="https://www.rockpapershotgun.com/suicide-squad-kill-the-justice-league-has-fallen-short-of-expectations-its-publisher-says">failure</a> saw it miss its financial targets and become the poster child for a tough period at Warner Bros. Games that eventually led to this year's reshuffling at the publisher, with <a href="https://www.rockpapershotgun.com/warner-bros-close-monolith-creators-of-fear-condemned-shadow-of-mordor-and-wonder-woman">Monolith Productions, Player First Games, and Warner Bros. Games San Diego all being shuttered</a>.</p>
+<p>There've also reportedly been a <a href="https://www.eurogamer.net/rocksteady-hit-by-layoffs-after-suicide-squad-kill-the-justice-league-underperforms">couple</a> of <a href="https://www.eurogamer.net/suicide-squad-kill-the-justice-league-developer-rocksteady-hit-by-end-of-year-layoffs">rounds</a> of layoffs at developers Rocksteady over the past year, because this is the games industry.</p>
+<p>ARPG Gotham Knights, while not a hugely high-profile failure like Suicide Squad, ended up attracting mixed reviews at debut in 2022. <a href="https://www.rockpapershotgun.com/gotham-knights-review">Our Ed</a> said it contained "the tiniest shreds of goodness", but confessed to not wanting to play more of it once he was done reviewing. Our Edwin's <a href="https://www.rockpapershotgun.com/gotham-knights-is-on-game-pass-and-who-knows-it-might-surprise-you">a bit more of a fan</a>.</p>
+<p>Here's hoping that if the Montréal studio are being saddled with the need to do a live service - possibly to counteract what's left of Rocksteady being permitted to <a href="https://www.rockpapershotgun.com/rocksteady-may-be-going-back-to-single-player-batman-hints-bloomberg-report">go back to singleplayer</a> by Warner's corporate overlords - they're at least spared the sort of <a href="https://www.rockpapershotgun.com/suicide-squad-failed-for-all-the-reasons-you-could-have-guess-it-failed-report-says">bad time it sounds like the latter group of devs had</a> creating their <a href="https://www.rockpapershotgun.com/suicide-squad-kill-the-justice-league-review">big, confused online thing</a>.</p></div></div><br/><br/>https://www.rockpapershotgun.com/despite-suicide-squads-fate-warner-bros-look-set-to-have-gotham-knights-devs-make-a-live-service-game]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[As Monster Hunter Wilds complaints mount, Capcom assures fans it's prioritising difficulty and rewards with a revised roadmap]]></title>
+            <link>https://www.eurogamer.net/monster-hunter-wilds-revised-roadmap</link>
+            <guid>https://www.resetera.com/threads/as-monster-hunter-wilds-complaints-mount-capcom-assures-fans-its-prioritising-difficulty-and-rewards-with-a-revised-roadmap.1255899/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-component="article-content">
+
+
+
+            <p><a href="https://www.eurogamer.net/games/monster-hunter-wilds">Monster Hunter Wilds</a> has had a rough time of it since launch. <a href="https://www.eurogamer.net/monster-hunter-wilds-performance-related-pc-improvements-coming-this-week-says-capcom">From day one</a>, players on PC in particular have been criticising the game's performance (though that was recently addressed, to some degree, <a href="https://www.eurogamer.net/monster-hunter-wilds-patch-finally-fixes-the-games-inexcusable-performance-woes-on-pc">with a much-needed patch</a> that took aim at stuttering and shaders). But aside from the complaints about performance, faithful hunters have also been knocking the game's approach to difficulty and content variation, bemoaning the easy hunts and comparative lack of end-game content.</p>
+<p>Today, in a post over on X (formerly Twitter), Capcom has released a surprising statement that notes the developer will actually move various items <em>up</em> the roadmap to better placate players that have issues with the game.</p>
+<!-- code from Primis - Eurogamer.net - eurogamer.net -->
+<div>
+<p><span data-type="targeting">
+<span>To see this content please enable targeting cookies.</span>
+</span> </p>
+</div>
+<!-- code from Primis -->
+<p><a href="https://x.com/monsterhunter/status/1950139099160949156">In a post</a> that addressed the release date and content of update Ver.1.021, Capcom notes:</p>
+<p>"The expansion of endgame content which was originally planned as part of Title Update 3 in late September will now be released ahead of schedule as part of the Ver.1.021 update."</p>
+<p>As such, the update (which was initially planned to launch 'early August') will now drop closer to mid-August, and is currently being readied for deployment on 13th August.</p>
+<p>The main content added to the game in this update will include: a sew level of quest difficulty (hopefully making things just that little bit tougher for series veterans), a new rewards system for these end-game quests (this will be realised in the form of Talismans that players can equip, which will carry random skill combinations - ideal for depth and variety in build-crafting), weapon balance adjustments (that will cover more weapons than originally planned for this update), and other improvements and adjustments (dare we say: better performance?)</p>
+<figure>
+
+<figcaption><span>Image credit: <cite>Capcom</cite></span></figcaption>
+</figure>
+<p>It's nice to see the developer responding to the criticism about the game in this manner. I spoke recently about <a href="https://www.eurogamer.net/after-suffering-an-influx-of-overwhelmingly-negative-steam-reviews-can-capcom-turn-around-monster-hunter-wilds-with-the-upcoming-title-update-2">the impact the game's negative reviews have been having</a> on the title, and it seems Capcom is keen to demonstrate that it's listening to fans by being fluid with its development pipeline in this way. As for what this increased difficulty is, though, we've no idea at the time of writing. Will it just be harder versions of the Apex monsters, the Gore Magalas, and boss-monster Arkveld, with higher damage output and more tanky HP? Or will it be something a little more meaningful?</p>
+<p>I, personally, am hoping for more stagger resistance for lower-tier monsters, since the weaker monsters seem to be incapable of getting out of stunlock if seasoned players pepper them with the right attacks in the right places. A smart move would be to provide 8* versions of the overall monster roster, bringing the 'chaff' monsters up to par with some of the super-powered end-game beasts that have been added to the title post-launch. I think this would efficiently nail both content variation and difficulty concerns in one fell swoop.</p>
+<p>As the game <a href="https://www.eurogamer.net/monster-hunter-series-helps-capcom-achieve-12th-consecutive-year-of-increased-profit">continues to help Capcom meet various sales targets</a> (and<a href="https://www.eurogamer.net/monster-hunter-wilds-rises-beyond-another-impressive-milestone-in-first-month"> perform incredibly well</a> in its own right), the optics of the developer listening to fan feedback and attempt to rectify launch window wobbles is certainly welcomed. The rest of the roadmap - which, currently, runs until 'this winter' - promises more monsters and even more 'challenging hunts', something that the community has been gnashing for since it put <a href="https://www.eurogamer.net/capcom-details-next-monster-hunter-wilds-update-as-steam-reviews-continue-overwhelmingly-negative-plunge">Seregios and Lagiacrus</a> to bed at the beginning of July.</p></div></div><br/><br/>https://www.eurogamer.net/monster-hunter-wilds-revised-roadmap]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[PlayStation 5 Power Saver Mode Is Expected to Impact Performance so Much That It’s Unlikely Better Power Efficiency Is Its Only Goal]]></title>
             <link>https://wccftech.com/playstation-5-power-saver-mode-impact-performance-significantly-handheld/</link>
@@ -110,7 +314,7 @@
 <li>And a lot more!</li>
 </ul></blockquote>
 <p>The only WolfQuestion I have is: why did I not play this back in 2008, when Jim Rossignol (RPS in peace) <a href="https://www.rockpapershotgun.com/wolfquest-is-go">first wrote about it</a>? "RPS Wolfpack, anyone?" he queried at the time. "I got stuck in a Moose," objected Kieron Gillen (also RPS in peace) in the comments, declining to share vital context in a way that has just now come back to haunt him.</p>
-<p>Alas and alack - as far as I can tell, Jim and Kieron did not subsequently have wolf sex and start a pack that survives and thrives on a long-forgotten server somewhere. Still, there's no reason we can't pick up where they left off. Perhaps I can persuade Graham to secure his legacy by participating in some wilderness doggo-bonking before he quits.</p></div></div><br/><br/>https://www.rockpapershotgun.com/good-news-dorks-it-is-not-too-late-to-be-a-janky-ass-wolf]]></content:encoded>
+<p>Alas and alack - as far as I can tell, Jim and Kieron did not subsequently have bizarro wolf/moose sex and start a distinct subspecies that survives and thrives on a long-forgotten server somewhere. Still, there's no reason we can't pick up where they left off. Perhaps I can persuade Graham to secure his legacy by participating in some wilderness doggo-bonking before he quits.</p></div></div><br/><br/>https://www.rockpapershotgun.com/good-news-dorks-it-is-not-too-late-to-be-a-janky-ass-wolf]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Asterix & Obelix: Mission Babylon announced for PS5, Xbox Series, Switch, and PC]]></title>
@@ -152,7 +356,7 @@ Switch<br>
 <p>The most recent maintenance occurred just this morning, coinciding with <a href="https://www.nintendolife.com/news/2025/07/nintendo-switch-2-system-update-20-3-0-is-now-live-here-are-the-full-patch-notes">system updates</a> for Switch 1 and 2 and the addition of <a href="https://www.nintendolife.com/games/snes/mario_paint">Mario Paint</a> to NSO - along with more blessed stability for the platforms. As we found out during the 3DS era, you can never have enough stability, right?</p>
 <p>As ever, we'll be keeping our eyes peeled for announcements today and tomorrow. By most accounts, there's plenty of fodder out there for a Direct, whether it's a Partner Direct featuring the <a href="https://www.nintendolife.com/news/2025/07/xbox-will-reportedly-announce-more-game-ports-for-other-platforms-soon">apparent Microsoft Switch 2 ports</a> that we've yet to get official word on, something involving the upcoming 40th anniversary of <a href="https://www.nintendolife.com/games/nes/super_mario_bros">Super Mario Bros.</a>, or something more specialised and game-specific - a <a href="https://www.nintendolife.com/games/nintendo-switch-2/drag-x-drive">Drag x Drive</a> Direct anyone?...</p>
 <p>Anyone?? Look, <a href="https://www.nintendolife.com/previews/hands-on-drag-x-drive-is-fantastic-but-is-it-destined-to-be-switch-2s-arms">we really liked what we played of it!</a></p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:185566,185752 @ 1753790406 --></section>
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:185566,185752 @ 1753794844 --></section>
 <p>[source <a title="External Link: https://www.nintendo.co.jp/netinfo/en_GB/index.html" rel="noopener" href="https://www.nintendo.co.jp/netinfo/en_GB/index.html">nintendo.co.jp</a>, via <a title="External Link: https://www.gamereactor.eu/nintendo-eshop-planned-maintenance-leads-to-further-imminent-direct-hype-1579413/" rel="noopener" href="https://www.gamereactor.eu/nintendo-eshop-planned-maintenance-leads-to-further-imminent-direct-hype-1579413/">gamereactor.eu</a>]</p>
 <!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-info/2486163e5c834cf617a2a8c082524b61 @ 1753791896 --></div></article><div><p>Gavin first wrote for Nintendo Life in 2018 before joining the site full-time the following year, rising through the ranks to become Editor. He can currently be found squashed beneath a Switch backlog the size of Normandy.</p><ul><li><a href="https://www.nintendolife.com/authors/dartmonkey"><span></span> Author Profile</a></li><li><a onclick="return replyTo('dartmonkey');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
 </div></div></div><br/><br/>https://www.nintendolife.com/news/2025/07/nintendo-schedules-network-maintenance-for-thursday]]></content:encoded>
@@ -367,516 +571,6 @@ Switch<br>
 <p>The DC Universe is perhaps the most likely candidate for another live-service game. However, this would follow the failures of Rocksteady's Suicide Squad, which struggled to find an audience. That resulted in a <a href="https://www.eurogamer.net/suicide-squad-flop-leads-to-41-drop-in-warner-bros-gaming-revenue">41 percent drop in Warner Bros. gaming revenue</a> last year, and <a href="https://www.eurogamer.net/rocksteady-hit-by-layoffs-after-suicide-squad-kill-the-justice-league-underperforms">layoffs at the studio later in the year due to it underperforming</a>.</p>
 <p>While Suicide Squad remains online, it <a href="https://www.eurogamer.net/suicide-squad-kill-the-justice-leagues-final-chapter-brings-game-to-a-cheap-end">received its final piece of content at the start of the year</a>.</p>
 <p>Warner Bros. also <a href="https://www.eurogamer.net/warner-bros-reportedly-cancels-wonder-woman-closes-monolith-and-other-studios">cancelled its Wonder Woman game from Monolith earlier this year</a> due to a "strategic change in direction", with Monolith Productions, Player First Games, and Warner Bros. Games San Diego all closing.</p></div></div><br/><br/>https://www.eurogamer.net/warner-bros-games-is-working-on-another-live-service-game-despite-suicide-squad-flop]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Xbox Opens ‘Stream Your Own Game’ Feature on PC App]]></title>
-            <link>https://wccftech.com/xbox-opens-stream-your-own-game-feature-pc-app/</link>
-            <guid>https://www.resetera.com/threads/xbox-opens-%E2%80%98stream-your-own-game%E2%80%99-feature-on-pc-app.1255737/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			<p>Microsoft has announced that the Xbox PC app has been updated to support the 'Stream Your Own Game' feature that was <a href="https://wccftech.com/xbox-cloud-gaming-lets-you-stream-your-own-game-starting-today-if-youve-got-game-pass-ultimate/" target="_blank" rel="noreferrer noopener">released</a> for Xbox consoles in November 2024. This still happens through Xbox Cloud Gaming, which is currently gated through the Game Pass Ultimate subscription. It also means that the feature is only available in the 28 countries where Xbox Cloud Gaming is supported.</p>
-
-
-
-<p>There are currently <a href="https://www.xbox.com/en-US/play/gallery/buy-and-stream" target="_blank" rel="noreferrer noopener">over 250 games that can be streamed through this feature</a>, including:</p>
-
-
-
-<ul>
-<li>7 Days to Die</li>
-
-
-
-<li>Aliens: Fireteam Elite</li>
-
-
-
-<li>Aragami 2</li>
-
-
-
-<li>Assassin's Creed Mirage</li>
-
-
-
-<li>Assassin's Creed Shadows</li>
-
-
-
-<li>Atomic Heart</li>
-
-
-
-<li>Avatar: Frontiers of Pandora</li>
-
-
-
-<li>Back 4 Blood</li>
-
-
-
-<li>Baldur's Gate 3</li>
-
-
-
-<li>Banishers: Ghosts of New Eden</li>
-
-
-
-<li>Black Desert</li>
-
-
-
-<li>Bloodstained: Ritual of the Night</li>
-
-
-
-<li>Conan Exiles</li>
-
-
-
-<li>Cuphead</li>
-
-
-
-<li>Cyberpunk 2077</li>
-
-
-
-<li>Disney Epic Mickey: Rebrushed</li>
-
-
-
-<li>Dragon Quest 3 HD-2D Remake</li>
-
-
-
-<li>Dying Light 2: Stay Human</li>
-
-
-
-<li>Everspace 2</li>
-
-
-
-<li>Evil West</li>
-
-
-
-<li>Exoprimal</li>
-
-
-
-<li>Final Fantasy XIV Online</li>
-
-
-
-<li>Final Fantasy XVI</li>
-
-
-
-<li>Gotham Knights</li>
-
-
-
-<li>HITMAN: World of Assassination</li>
-
-
-
-<li>Hades</li>
-
-
-
-<li>Harold Halibut</li>
-
-
-
-<li>Harry Potter: Quidditch Champions</li>
-
-
-
-<li>High on Life</li>
-
-
-
-<li>Hogwarts Legacy</li>
-
-
-
-<li>Insurgency: Sandstorm</li>
-
-
-
-<li>Isonzo</li>
-
-
-
-<li>Journey to the Savage Planet</li>
-
-
-
-<li>Just Cause 4</li>
-
-
-
-<li>Kena: Bridge of Spirits</li>
-
-
-
-<li>Kingdom Come Deliverance</li>
-
-
-
-<li>Kingdom Come Deliverance 2</li>
-
-
-
-<li>LEGO Worlds</li>
-
-
-
-<li>Lies of P</li>
-
-
-
-<li>Life is Strange</li>
-
-
-
-<li>Mad Max</li>
-
-
-
-<li>Marvel's Guardians of the Galaxy</li>
-
-
-
-<li>Metro Exodus</li>
-
-
-
-<li>MindsEye</li>
-
-
-
-<li>Mortal Kombat 1</li>
-
-
-
-<li>NBA 2K25</li>
-
-
-
-<li>NieR: Automata</li>
-
-
-
-<li>No More Heroes 3</li>
-
-
-
-<li>Orcs Must Die! 3</li>
-
-
-
-<li>Payday 3</li>
-
-
-
-<li>Phasmophobia</li>
-
-
-
-<li>Prince of Persia: The Lost Crown</li>
-
-
-
-<li>Remnant 2</li>
-
-
-
-<li>RoboCop: Rogue City</li>
-
-
-
-<li>Skull and Bones</li>
-
-
-
-<li>Star Wars Outlaws</li>
-
-
-
-<li>Starship Troopers: Extermination</li>
-
-
-
-<li>Stray</li>
-
-
-
-<li>Subnautica 2</li>
-
-
-
-<li>Suicide Squad: Kill the Justice League</li>
-
-
-
-<li>The Crew Motorfest</li>
-
-
-
-<li>The First Berserker: Khazan</li>
-
-
-
-<li>The Lord of the Rings: Return to Moria</li>
-
-
-
-<li>The Outlast Trials</li>
-
-
-
-<li>The Talos Principle 2</li>
-
-
-
-<li>The Witcher 3</li>
-
-
-
-<li>The Division 2</li>
-
-
-
-<li>Top Spin 2K25</li>
-
-
-
-<li>Valheim</li>
-
-
-
-<li>Visions of Mana</li>
-
-
-
-<li>Warhammer 40K: Space Marine 2</li>
-</ul>
-
-
-
-<p>The Xbox PC app was also updated for Insiders to show their play history across devices, including on console and the Xbox PC app. Lastly, the app also includes a new feature that tracks your progress toward earning rewards while you play.</p>
-
-			
-		</div></div><br/><br/>https://wccftech.com/xbox-opens-stream-your-own-game-feature-pc-app/]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Assassin's Creed Shadows Update 1.0.7 is Here — Check Out the Patch Notes]]></title>
-            <link>https://www.ign.com/articles/assassins-creed-shadows-update-107-is-here-check-out-the-patch-notes</link>
-            <guid>https://www.resetera.com/threads/assassins-creed-shadows-update-1-0-7-is-here-%E2%80%94-check-out-the-patch-notes.1255734/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-cy="page-header"><h2 data-cy="article-sub-headline">New Game Plus! Level cap boost! More!</h2></div><section data-cy="article-content"><p data-cy="paragraph">Ubisoft's next big patch for <a data-cy="styled-link" href="https://www.ign.com/games/assassins-creed-shadows">Assassin's Creed Shadows</a> is available today, July 29, 2025, and the publisher has now given a detailed rundown of everything included.</p><p data-cy="paragraph">As <a data-cy="styled-link" href="https://www.ign.com/articles/assassins-creed-shadows-expansion-claws-of-awaji-release-date-revealed">previously announced</a>, Title Update 1.0.7 adds New Game Plus mode, which will unlock as soon as you hit the credits after completing the game's story. From here, you have a couple of options: either to restart the game from scratch, or pick up the action from when Naoe first arrives at the game's hideout. Either way, your hard-earned gear, skills, allies and hideout progression will carry over.</p><p data-cy="paragraph">Whether you're playing New Game Plus or not, there's a level cap increase from 60 to 80, and a boost in the Knowledge Rank cap from 8 to 10, allowing you to counter the game's higher-level enemies with the ability to unlock more skills. You can also now upgrade gear at your Forge to level 4, too.</p><output data-cy="article-video"></output><p data-cy="paragraph">Sweat your way through Shadows' story a second time via New Game Plus and you'll unlock a gold katana and long katana for Naoe and Yasuke, respectively, and also snag the last of the following three new achievements/trophies, which this update also adds:</p><ul data-cy="list"><li><strong>Enjoy the Ride:</strong> Reach Level 80 </li><li><strong>Stars Unseen:</strong> Reach Knowledge Rank 10 </li><li><strong>Worth its Wait:</strong> Complete the story on New Game Plus </li></ul><p data-cy="paragraph">Finally, Ubisoft has rebalanced some of the game's money and resources. Players will likely be happy to see a boosted amount of Mon now given from selling items, while purchased items cost less. You'll also get more resources from dismantling items and from end of season chests.</p><p data-cy="paragraph">Ubisoft is set to continue updating Shadows for the forseeable future, with a further patch due in early September that will add the ability to fast-forward the time of day and better unfog the world map when synchronising viewpoints. Assassin's Creed Shadows' first major expansion, Claws of Awaji, then arrives on September 16 as the game's first paid add-on — though it will be free for anyone who originally pre-ordered the game.</p><p data-cy="paragraph">Find today's full patch notes below:
-</p><h2 data-cy="title2">NEW GAME+ </h2><ul data-cy="list"><li>Upon completing the main story on any difficulty, start a new game while keeping all collected skills, gear, Allies and hideout progression from your first playthrough. 
-</li></ul><h2 data-cy="title2">KNOWLEDGE RANK &amp; LEVEL CAP INCREASE </h2><ul data-cy="list"><li>We've raised the level cap from 60 to 80, meaning tougher foes with enhanced tactics and awareness - demanding sharper reflexes and smarter strategies. </li><li>To meet this rising threat, we've also expanded the Knowledge Rank system to 9 &amp; 10 allowing players to unlock and develop a broader array of skills, passives, and combat techniques to become even more masterful. </li><li>The Forge can now be upgraded to level 4, allowing players to upgrade all weapons and gear to level 80 to have the edge on the rising threats that await. </li></ul><h2 data-cy="title2">ADDITIONAL HIGHLIGHTS </h2><ul data-cy="list"><li>Removed a performance warning on MacBook Air when using M4 following improved support. </li><li>Fixed an error in Photo Mode where the "Show UI" prompt was visible in preview mode, affecting players taking screenshots with their native systems. </li><li>Individual items will now have their dedicated page within the store. </li><li>Katsuhime no longer vanishes from the hideout after the previous 1.0.5 fix for the breakup bug. </li></ul><h2 data-cy="title2">BALANCING </h2><ul data-cy="list"><li>Adjusted the number of Mon received from trading. Purchasing items costs less, whereas selling items gives more. </li><li>Increased the number of resources gained from dismantling items. </li><li>Slightly increased the amount of crafting materials needed to upgrade items. </li><li>Rebalanced the end of season chest rewards and increased the quantity of crafting materials and Hideout resources given. </li><li>The Radial Effect upgrade in Yasuke's Teppo tree had its base damage increased from 25% to 50%, and its damage is now also further increased by other Armor Buster upgrades. </li><li>Allies now gain more health and damage as the player levels up. </li><li>Ronin enemies now have 4 Health Segments, up from 3. </li></ul><h2 data-cy="title2">LIST OF BUG FIXES <p>General </p></h2><ul data-cy="list"><li>Cultural discoveries near Katano Castle now appear correctly in the codex after being observed. </li><li>Corrected Naoe's Kata dialogue in Wakasa. </li><li>Added a 'Mark all as Read' option for the Codex menu. </li><li>Added a Level Selector for Knowledge Path. </li><li>Fixed the 'Limitless' trophy occasionally not unlocking after obtaining a legendary piece of gear of each type. </li></ul><h3 data-cy="title3">Gameplay </h3><ul data-cy="list"><li>Addressed an issue where players potentially got stuck outside the Animus wall during the Revenge mission in Tsuruga Castle. Get back here! </li><li>Fixed a bug where players could get stuck inside a room in Saika Castle. </li><li>Corrected a bug where players could get stuck whilst exiting the Miyataki Warehouse. </li><li>Fixed a bug where players could get stuck inside rocks in the Obama Hillside area. </li><li>Addressed an issue with Naoe's Robes of the Enraged. </li><li>Genzaburo's Teppo Master is back from lunch and is now present at Kaya Shrine. </li><li>Fixed an error with some cross-progression achievements caused if a playthrough was partly on MacOS. </li></ul><h3 data-cy="title3">Skills &amp; Upgrades </h3><ul data-cy="list"><li>Fixed an issue where the "Hidden Hand" cooldown reduction upgrades were not applied. </li><li>Fixed an issue where the "Extended Perception" Shinobi Upgrade didn't grant the extra tools damage. </li><li>Corrected an issue where the "Nightcrawler" Assassin passive didn't grant damage at night. </li><li>Corrected an issue where the "Endless Barrage" Tanto Upgrade was instead granting the effect of the "Contemplation" Tanto Upgrade, and vice versa. </li><li>Fixed an issue where the "Invigorating Kill" Tanto Upgrade only worked with the stabbing part of the move and not the throw. </li><li>Addressed an issue where the "Teppo's Might" Teppo Upgrade only worked with the automatic follow-up shot and not the Teppo melee swing. </li><li>Corrected an issue where perks that increased adrenaline gained on deflect, parry and dodge had little to no effect. </li><li>Fixed an issue where damage assassinations gave less adrenaline than successful assassinations. </li><li>Fixed an issue where the "Ability damage" knowledge tree node had no effect beyond 1st level. </li><li>Corrected an issue where the "Posture damage" knowledge tree node had no effect beyond 1st level. </li><li>Solved an issue where the "Vulnerable damage" knowledge tree node had no effect beyond 1st level. </li><li>Fixed an issue where afflictions had lower durations on civilians than on enemies. </li><li>Fixed an issue where damage reduction perks weren't applied against some enemy projectiles. </li><li>Addressed an issue where the "Wave of Wasps" Teppo was awarded with a random perk, instead of its legendary perk. </li><li>Addressed an issue where equipping the "Gown of the Spirit" Naoe Light Armor prevented all tools from applying any buildup. </li></ul><h3 data-cy="title3">Visuals &amp; Graphics </h3><ul data-cy="list"><li>Addressed various environmental issues with floating trees and rocks. Tree huggers rejoice! </li><li>Fixed an issue where the glowing eyes on the Mountain Demon Kanabo appeared out of place when the weapon was holstered. </li><li>Corrected an issue where the Ikko Ikki banner within the Hideout did not match its preview. </li><li>Fixed an issue causing the game to crash when previewing hideout cosmetic stations on a building with the Dragon Skin applied to it. </li></ul><h3 data-cy="title3">UI </h3><ul data-cy="list"><li>The database entry for Sen No Rikyu now displays the correct image. </li><li>Corrected an issue where setting HUD visibility to "Disable", then switching to "ON" would cause some of the HUD modules to not work. </li><li>Fixed a text-only issue where "Armor Avoidance" Long Katana Upgrade stated it granted 100% armor piercing, when it only granted 50%. </li><li>Corrected a text-only issue where "Marksman's Touch" Teppo Upgrade stated it granted 100% armor piercing, when it only granted 50%. </li><li>Fixed a text-only issue where "Widespread" Tools Upgrade stated it increased the Smoke Bomb radius to 10 meters, when it only increased it to 5 meters. </li><li>Addressed a text-only issue where "Absolute Shockwave" Kanabo Upgrade showed 167% instead of 67%. </li><li>Corrected an issue where the "Improved Ground Assassinate" icon was larger than intended. </li><li>Reworded the "Improved Sense" Assassin Upgrade to showcase the lingering effect duration in seconds. </li><li>Reworded the "Temporal Mastery" Bow Upgrade to showcase the slow time duration in seconds. </li></ul><h3 data-cy="title3">Localization </h3><ul data-cy="list"><li>Corrected the German localization in Rescue the Special Guest. </li><li>Fixed an error where unnecessary characters appeared in the German translation of the "+50% damage on next hit after a kill" engraving. </li><li>Addressed a typo in the "Kirishitan" codex entry for Cristão. </li></ul><h2 data-cy="title2">SPOILERS WARNING!</h2><h3 data-cy="title3">Quests </h3><ul data-cy="list"><li><strong>Fighting for the Cause:</strong> Fixed an issue where Kimura Kei could not be killed because the third attack sequence would not begin. Why won't you die already?! </li><li><strong>Butterfly Collector:</strong> Adjusted the positioning of the Paper Merchant. </li><li><strong>Against The Koga-ryu:</strong> Fixed an issue where players could not complete the quest because Katsuhime was missing. Can't a girl take a break? </li><li><strong>A Promise:</strong> Addressed an issue where the servant did not respond to interactions. Rude. </li><li><strong>Temple Stories:</strong> Fixed an issue where players could not continue due to being unable to interact with Joken Hokkyo. </li><li>Addressed an issue where killing all Genzaburo soldiers before meeting Koshiro prevented his quest progression. </li><li><strong>Lost Honor:</strong> Fixed an issue where players couldn't progress in the quest because Ise Sadatame was stuck in place. </li><li><strong>Homecoming:</strong> Fixed an issue where players could not complete the quest after killing the target in version 1.0.6. </li></ul><h3 data-cy="title3">PLATFORM-SPECIFIC FIXES </h3><h3 data-cy="title3">PC </h3><ul data-cy="list"><li>"Critical Hit!" achievement now unlocks correctly. </li><li>Corrected the mistranslation of "manual" for the Chinese localization for HUD settings. </li><li>Fixed a typo in the "Collector" achievement for the German localization on Steam and Ubisoft Connect. </li></ul><h3 data-cy="title3">Mac OS </h3><ul data-cy="list"><li>Engravings are now correctly awarded when looting a legendary weapon. </li></ul><p data-cy="paragraph">Ubisoft recently announced that <a data-cy="styled-link" href="https://www.ign.com/articles/ubisoft-suffers-mixed-results-as-assassins-creed-shadows-hits-5-million-players-while-rainbow-six-siege-x-struggles">Assassin's Creed Shadows has now hit 5 million players</a> — and it sounds like <a data-cy="styled-link" href="https://www.ign.com/articles/assassins-creed-shadows-might-be-coming-to-nintendo-switch-2">a version of the game for Nintendo Switch 2 is on the way</a>, too.</p><p data-cy="paragraph"><em>Tom Phillips is IGN's News Editor. You can reach Tom at tom_phillips@ign.com or find him on Bluesky </em><a href="https://bsky.app/profile/tomphillipseg.bsky.social" data-cy="styled-link" target="_blank" rel="noopener noreferrer">@tomphillipseg.bsky.social</a></p></section></div><br/><br/>https://www.ign.com/articles/assassins-creed-shadows-update-107-is-here-check-out-the-patch-notes]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Mario Paint finally comes to Nintendo Switch Online, and it makes great use of an underused Switch 2 feature]]></title>
-            <link>https://www.eurogamer.net/mario-paint-finally-comes-to-nintendo-switch-online-and-it-makes-great-use-of-an-underused-switch-2-feature</link>
-            <guid>https://www.resetera.com/threads/mario-paint-finally-comes-to-nintendo-switch-online-and-it-makes-great-use-of-an-underused-switch-2-feature.1255728/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-component="article-content">
-
-
-
-            <p>Nintendo Switch Online members can now get their very artistically capable hands on Mario Paint.</p>
-<p>Mario Paint originally released all the way back in 1992 on the Super Nintendo Entertainment System, or SNES. It uses mouse controls to draw pictures. "You can even create animated sequences and write music to add to your collage," reads Mario Paint's official blurb. "Bring your very own video creations to life by combining animation and music with the art you've made!"</p>
-<p>Mario Paint is available on both the original Switch and the recently released <a href="https://www.eurogamer.net/digitalfoundry-2025-nintendo-switch-2-the-digital-foundry-hardware-review">Switch 2</a>. While Switch 2 users will of course be able to utilise the console's mouse functionality, those on Nintendo's original console will need to get hold of a compatible USB mouse. </p>
-<p>In addition, Nintendo has added the music from Mario Paint to the Nintendo Music App. You can check out a trailer for Mario Paint below.</p>
-
-<figure>
-<p>
-<a aria-label="Mario Paint - Super NES – Nintendo Classics" data-platform="youtube" href="https://www.youtube.com/embed/Ok8hd9D6ImM?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
-<span>Mario Paint - Super NES – Nintendo Classics</span>
-<template>
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/Ok8hd9D6ImM?autoplay=1" frameborder="0" loading="lazy" src="https://www.youtube-nocookie.com/embed/Ok8hd9D6ImM?autoplay=1" title="Mario Paint - Super NES – Nintendo Classics">
-</iframe> </template>
-</a>
-</p>
-<figcaption>Mario Paint - Super NES – Nintendo Classics. <a href="https://www.youtube.com/watch?v=Ok8hd9D6ImM" rel="noopener" target="_blank">Watch on YouTube</a></figcaption></figure>
-
-
-<p>Mario Paint joins the likes of <a href="https://www.eurogamer.net/games/donkey-kong-country">Donkey Kong Country</a>, <a href="https://www.eurogamer.net/games/earthworm-jim-2">Earthworm Jim 2</a> and <a href="https://www.eurogamer.net/games/star-fox">Star Fox</a>, which are all available to play via Nintendo Switch Online's SNES catalogue of classic games.</p>
-<p>As <a href="https://x.com/Wario64/status/1950009968922394629">spotted by Wario64</a>, Mario's Super Picross also now supports mouse controls on the Switch's SNES app, as well as Nobunaga's Ambition.</p>
-<p>You can check out the full run down of everything available on Nintendo's subscription service via our handy guide detailing <a href="https://www.eurogamer.net/all-nintendo-switch-online-games-available-to-play-right-now">all the Nintendo Switch Online games available to play right now</a>.</p>
-<p>As for Nintendo more generally, earlier this month the company gave us a look at its Lego Game Boy model, which it <a href="https://www.eurogamer.net/nintendo-taps-into-nostalgia-with-1980s-inspired-lego-game-boy-trailer">showed off with an 80s-infused trailer laced with nostalgia</a>. If this sounds like your thing, the <a href="https://www.eurogamer.net/lego-game-boy-pre-order-nintendo">Lego Game Boy is available for pre-order in the UK right now</a>.</p>
-<p>Meanwhile, <a href="https://www.eurogamer.net/switch-2-has-become-the-fastest-selling-video-game-hardware-device-in-us-history-usurping-the-ps4">that newly-released Switch 2 recently became the fastest selling video game hardware device in US history</a>, usurping the PlayStation 4.</p></div></div><br/><br/>https://www.eurogamer.net/mario-paint-finally-comes-to-nintendo-switch-online-and-it-makes-great-use-of-an-underused-switch-2-feature]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Atomic Owl Review]]></title>
-            <link>https://www.thesixthaxis.com/2025/07/29/atomic-owl-review/</link>
-            <guid>https://www.resetera.com/threads/atomic-owl-review.1255725/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="gp-content-wrapper">
-
-	<article itemscope="" itemtype="http://schema.org/Article">
-
-		<meta itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemscope="" content="https://www.thesixthaxis.com/2025/07/29/atomic-owl-review/">
-		<meta itemprop="headline" content="Atomic Owl Review">			
-		
-		<meta itemprop="author" content="Aran Suddi">			
-		<meta itemprop="datePublished" content="2025-07-29">
-		<meta itemprop="dateModified" content="2025-07-29">
-		
-		
-			
-		
-								
-		
-			
-
-																		
-		<div itemprop="text">
-			
-			<p>Developer Monster Theatre has created an approachable roguelike in Atomic Owl, the studio’s debut title. You’re cast as Hidalgo Bladewing, out for revenge after losing a battle against Crow Sorcerer Omega Wing, which saw Hidalgo imprisoned and lose his friends to dark influence. The game itself is a compact Metroidvania that can be beaten in around six hours, but does it sustain its runtime?</p>
-<p><iframe title="Atomic Owl - Official Launch Trailer | Indie3 Showcase 2025" width="780" height="439" src="https://www.youtube.com/embed/0XhW86Kdn9Y?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
-<p>Atomic Owl follows a standard roguelike formula of making as much progress as possible, dying, getting some upgrades, and then progressing further on your next run. That’s made easier, though, as Hidalgo levels up during runs by collecting green Meza. As Hidaglo levels up, his health increases, which means each run becomes that little bit more forgiving. Alongside green Meza, there’s a blue variant, which is collected from defeated enemies, and this is the currency used to unlock or improve abilities, such as getting permanent extra lives or increasing the range to absorb Mesa. </p>
-
-
-<p>There are also further abilities called Wing Remnants. Some enemies drop Wing Remnants and provide bonuses for that specific run, with these including triple jump, an additional dash, or being able to deal fire damage. Wing Remnants are removed at the end of each run, and you never know what you’re going to get.</p>
-
-
-<p>Atomic Owl is relatively straightforward, with combat and platforming easy to pick up. Hidalgo has access to four weapons, including a greatsword, a whip, throwable axes, and a big hammer. There’s also a scythe, which has limited throws and a cooldown. It does decent damage and can take out multiple enemies if they are in range, which is great when you are getting swarmed. Occasionally, you to need to use a specific weapon to destroy an enemy shield. The combat is not challenging, including the boss fights, with easily readable patterns. Considering the bosses are supposed to be powerful warriors, I was quite surprised how easy it was to defeat them. It may be due to wanting players to keep moving forward, but a little challenge would have been welcome.</p>
-<p>The platforming is good throughout Atomic Owl, although there were a couple of moments where it felt a bit fiddly. There was one section where Hidalgo would fall off moving platforms every so often while being swarmed by enemies, and there’s a section near the end where you’re being pursued, which has moments of frustration as you need to be precise to avoid being caught. The platforming is, in my opinion, more of a challenge than the game’s combat.</p>
-
-<p>The visual design of Atomic Owl follows classic pixel art and it has a lot of colour to it, though you can add a CRT and/or Samurai filter to give it a retro or black and white look. There’s a mix of styles across each level, from a small cityscape and woodlands, to more retro-futuristic looks in the training rooms and later levels. The blend of styles helps to keep things fresh as you make progress. The only real complaint I have is that in a couple of darker areas is can be a bit hard to see the platforms you’re supposed to leap onto. The great visual design is matched by the catchy accompanying soundtrack , though there is a level near the end where things are purposefully out of place, which won’t be for everyone. </p>
-
-
-<!-- CONTENT END 1 -->
-
-			
-		</div>
-
-		
-				
-	<div id="gp-summary">
-		<p>Summary</p><p>
-		Atomic Owl is a satisfying roguelike with a simple progression that allows you to make headway quickly through the levels. This does come at the expense of the combat, which is a bit too on the easy side, with the platforming much more challenging than any boss fight. Overall though, if you want a short, simple, and good looking roguelike then Atomic Owl is worth a go.	</p></div>
-		
-
-	<div id="gp-review-results">
-
-									<div id="gp-good-points">
-						<p>Good</p>
-						<ul>
-														
-								<li><i></i>A satisfying progression loop</li>
-														
-								<li><i></i>Well-designed levels</li>
-														
-								<li><i></i>Enjoyable soundtrack</li>
-													</ul>
-					</div>
-				
-									<div id="gp-bad-points">
-						<p>Bad</p>
-						<ul>
-														
-								<li><i></i>Story doesn’t really land</li>
-														
-								<li><i></i>Some minor platforming issues</li>
-													</ul>
-					</div>
-							
-			</div>
-
-					
-	
-						
-			
-			
-
-			
-					
-		
-					
- 
-	
-	
-				
-	</article>
-
-</div></div><br/><br/>https://www.thesixthaxis.com/2025/07/29/atomic-owl-review/]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA['Make it political:' How can the Brazilian game industry establish itself on the global stage?]]></title>
-            <link>https://www.gamedeveloper.com/business/-make-it-political-how-can-the-brazilian-game-industry-establish-itself-on-the-global-stage-</link>
-            <guid>https://www.resetera.com/threads/make-it-political-how-can-the-brazilian-game-industry-establish-itself-on-the-global-stage.1255719/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-module="content" data-testid="article-base-body-content"><p data-testid="content-paragraph"><span data-testid="content-text">Brazil is home to the 10th largest video game market globally with an estimated 103 million players diving into video games across the region. According to data published by local advocacy group Abragames (</span><span data-testid="content-text"><a target="_blank" href="https://www.nordicity.com/de/cache/work/188/The%20Golden%20Opportunity%20White%20Paper.pdf">as featured in a recent Nordicity white paper</a></span><span data-testid="content-text">) the Brazilian industry generated USD $251.6 million in revenue in 2022 and employed roughly 13,225 people as of 2023.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Yet, the white paper also states that almost half of studios in the country rely on internal resources to bring their projects to market, with only 16 percent receiving investment from international publishers and 10 percent securing other private investments.It's a data snapshot that provides a glimpse into a region that's seemingly bristling with potential but is in dire need of support.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">But how does that track with the sentiments of developers actually crafting video games in the region? We flew out to Gamescom Latam 2025 to find out.</span></p><h2 data-testid="content-text" id="Unrivalled creativity hampered by a funding 'bottleneck'">Unrivalled creativity hampered by a funding 'bottleneck'</h2><p data-testid="content-paragraph"><span data-testid="content-text">The sense around the Abragames booth, which featured a litany of wonderful projects created by developers in the region, was that teams in Brazil are passionately creative, eager to learn, but also somewhat outmanned and outgunned due to a lack of consistent governmental support, scant external investment opportunities, and a talent pool that lacks veteran experience.</span></p><p data-component="related-article"><span data-testid="related-article-title">Related:</span><a href="https://www.gamedeveloper.com/business/sony-files-lawsuit-against-tencent-for-allegedly-cloning-horizon-series" target="_self" data-discover="true">Sony files lawsuit against Tencent for allegedly cloning Horizon series</a></p><p data-testid="content-paragraph"><span data-testid="content-text">"In terms of building teams, we have a lot of great talent here in Brazil. I think the most challenging part is funding [because] Brazil is very strong in terms of games. Being at this event, where there are thousands of people passing by, you can see it's super competitive," says Gabriel Garcia, founder and CEO of Rio-based studio Hype Animation.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Multiple developers said there are a decent number of prototype funds available to studios in Brazil, but there aren't many designed to help teams clear late-stage production hurdles. Garcia agrees and says there is a "bottleneck" where funding is concerned that often prevents studios from moving forward with their work once they hit a certain point.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">He also feels Brazilian developers have become adept at highlighting their local culture to great effect, which can help their projects stand out on the international stage. "We have a lot of stories to tell," he adds, before acknowledging that, right now, the people attempting to tell those stories are often working in small-scale studios that don't have the clout of their counterparts in North America.</span></p><p>Image via Game Developer</p><p data-testid="content-paragraph"><span data-testid="content-text">That's an issue, because Brazil needs to keep its talented developers on home soil so they can gain invaluable experience that will in turn allow local studios to turn their biggest dreams into reality.</span></p><p data-component="related-article"><span data-testid="related-article-title">Related:</span><a href="https://www.gamedeveloper.com/business/itch-io-posts-new-adult-content-guidelines" target="_self" data-discover="true">Itch.io posts new adult content guidelines</a></p><p data-testid="content-paragraph"><span data-testid="content-text">Another developer dealing with similar issues is Arthur Silva Aguiar, lead game designer at Caramelo Games, who said the biggest challenge the studio has faced is finding the right people for specific roles.&nbsp;"[It's tough] to find qualified people. We have a lot of extremely talented people in Brazil, but they're not always well versed in the development process," he adds.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Caramelo is currently working on a Pokemon-like called </span><span data-testid="content-text"><span>Bagdex</span></span><span data-testid="content-text"> that has been in development for around 18 months. The studio managed to raise $200,000 to finance the project via a crowdfunding campaign, but despite that interest has struggled to attract publishers outside Brazil. "Brazilians support us, but we do not have the right traction outside the country and that's where we're actually looking for funding."</span></p><h2 data-testid="content-text" id="&quot;There's lots of mythology here in Brazil that's been forgotten&quot;">"There's lots of mythology here in Brazil that's been forgotten"</h2><p data-testid="content-paragraph"><span data-testid="content-text">It's a situation that perhaps means Brazilian developers need to be more vigilant when it comes to scoping their projects. Eter Games executive producer Bruno Cricenti, whose studio is currently developing a third-person adventure based on Brazilian folklore called </span><span data-testid="content-text"><span>Matinta</span></span><span data-testid="content-text">, explains his team actually received a government grant to accelerate the development process—but the understandable interest in those financial boons means there "is a lot of competition" among local studios.</span></p><p data-component="related-article"><span data-testid="related-article-title">Related:</span><a href="https://www.gamedeveloper.com/business/investors-and-publishers-share-their-pitching-tips-at-gamescom-latam" target="_self" data-discover="true">Investors and publishers share their pitching tips at Gamescom Latam</a></p><p data-testid="content-paragraph"><span data-testid="content-text">"You need to have more structured projects and pitches, and should know where to sell and what markets you want to enter based on the genre of game you're making," he says, explaining how studios might stand out when pitching for funding. "We got a grant for our vertical slice but we had invested our own money before that to build the prototype."</span></p><p data-testid="content-paragraph"><span data-testid="content-text">He, like others in the country, explains the studio is now struggling to find investors that are willing to push the project over the finish line after around two-and-a-half years in development. "That's really difficult right now," he continues.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">The appeal of building video games in Brazil, for Cricenti, is the penchant for creativity in the region. "There's lots of mythology here in Brazil that's been forgotten that we're trying to bring it back and put it inside our own production," he adds. Even so, he underlines how vital it is for developers to balance their aspirations when meeting with investors and publishers. "Try to be very focused on what you want to do," he continues. "Try to build a short game to test the market before investing too much of your money and your time."</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Marcelo Rigon, CEO of Ilex Games, has been making video games in Brazil for around 22 years. He explains the market has matured rapidly in that time and recalls how he was branded "crazy" in 2003 when he approached an incubation program looking for funding to start his studio. At that stage, he says the region didn't have any local publishers or distribution.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">"The only way we could try to publish our game inside Brazil was to have a contact at magazines who would place CDs in their publications," he explains. He claims a lot of investors and decision-makers in Brazil still "don't understand the market of games," which is why studios in the region often look for financing beyond its borders. "It's hard for us to get [local investment] because they think gaming is so risky and they don't know how to approach that," he adds.</span></p><p>Image via Game Developer</p><p data-testid="content-paragraph"><span data-testid="content-text">There are local organizations such as Sebrae Nacional that are dedicated to promoting the development of small businesses in Brazil, including game studios. Rigon explains those advocates are attempting to teach investors how and why they should be investing in the video game industry. He also claims there is "a lot of public funding" available to developers at the moment, but says the turbulent political climate in Brazil means there are no guarantees it will stick around.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">For instance, he says former Brazil president Jair Bolsonaro—who led the country between 2019 to 2023 (often stoking controversy in the process)—"destroyed" a lot of support systems that were helping the Brazilian game industry—including a number of grants that were scrapped when he entered office just before the COVID-19 pandemic struck.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Many of those grants have now been reinstated, but Rigon says it means Brazil has somewhat stagnated over the past half-decade. There are some notable wins, however, such as the creation of a full cycle grant program that will allow successful applicants to move beyond prototyping. The next step is to ensure those opportunities are available to developers playing their trade in all 27 Brazilian states—and the key, says Rigon, is for everyone to push for change as a united front.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">"I am the president of the Sao Paulo Association of Game Developers. We have 21 states with regional associations. We need to improve the kind of grants, finance treaties, and other things across the industry," he says. "We can push the politics in the right direction if we are together."</span></p><h2 data-testid="content-text" id="Helping developers learn how to run a sustainable business is vital">Helping developers learn how to run a sustainable business is vital</h2><p data-testid="content-paragraph"><span data-testid="content-text">After finishing our stroll around the showfloor we sit down for a chat with Abragames president Rodrigo Terra and the group's executive manager for the Brazil Games Export program, Patricia Sato.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Sato feels there are more eyes than ever before on the Brazilian game industry, which is perhaps evidenced by the level of interest and presence of major global publishers such as Nintendo, Microsoft, Epic Games, and Supercell at Gamescom Latam. Now, she explains, the region needs to figure out how to ride that wave.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Terra believes education is absolutely fundamental if Brazil hopes to cement its place on the global stage. He says 93 percent of the region's studios are small in scale, and while they're filled with "incredible professionals," they aren't necessarily experienced managers or business leaders.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">"We need to invest in business education," he says. "I think thats the next step in really reaching the global market. It's hard, because people start out as a game designer or game writer. They they start a small business because they're trying to ship a game—but they don't even know how to manage your cash flow. That's a challenge we need to overcome, and people need knowledge to do it."</span></p><p data-testid="content-paragraph"><span data-testid="content-text">How then, can Brazil, nurture that raw talent to ensure its burgeoning studio ecosystem isn't devoid of the business acumen required to expand internationally? The answer for Terra is simple: "you make it political."</span></p><p data-testid="content-paragraph"><span data-testid="content-text">"Developers need to built and organize themselves as entities that can lobby the government," he continues. "Abragames does that job, but we cannot do it alone. [...] We need to think about how, as game professionals, can we be active politically in a certain way."</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Sato explains Abragames has been trying to help developers understand they need to participate in the video game industry in a deeper way in order to usher in mandates for public policies that can benefit everybody. There's nothing wrong with developers sharing advice among themselves—but Abragames feels they must become more unified and proactive when lobbying government for additional support in order to deliver stability.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">"If the government changes, everything changes," says Terra. "But there are some state initiatives that are enshrined in law—so when it's a law it's better for you as a society, as an organization."</span></p><p>Image via Game Developer</p><p data-testid="content-paragraph"><span data-testid="content-text">Talent retention is another issue both Sato and Terra feel must be addressed. They suggest Brazil routinely suffers from "brain drain" when industry experts depart the region to work for larger, more established companies elsewhere. It's not a challenge unique to Brazil—</span><span data-testid="content-text"><a target="_self" href="https://www.gamedeveloper.com/business/the-triumphs-and-struggles-of-the-resurgent-australian-game-industry">during my trip to Australia two years ago, we heard how it had impacted the dev scene there</a></span><span data-testid="content-text">—but one that must be overcome nevertheless.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">"We had a very important generation of Brazilian video game experts who emerged around 15 years ago," explains Terra. "Then the knowledge was lost."</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Terra claims Brazil must convince major studios to put down roots in the country in order to retain talent, and there have been positive signs in that regard. In 2023, Epic Games purchased local studio AQUIRIS and rebranded it as Epic Games Brasil. Service providers such as Keywords and Side have also put down roots in the region.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">"It's important because you need those juggernauts," says Terra. "They will train professionals from the Brazilian companies and they're going to maybe pay more. Then, a couple of years later, some of those professionals will leave those companies to perhaps start their own. Or they will start working and partnering with other Brazilian studios. The knowledge transfer will have a massive impact [on the Brazilian game industry]."</span></p><p data-testid="content-paragraph"><span data-testid="content-text">On the subject of funding, Abragames believes things are heading in the right direction. We're told there are discussions about designing grants to help developers complete and distribute their projects. Terra also says Sao Paulo is creating a "match grant" that will see the state double whatever a publisher invests in a game project. "It's good for the studio. It's good for the publisher. And the state is doing its part," says Terra. "You create this mechanism to be more attractive."</span></p><p data-testid="content-paragraph"><span data-testid="content-text">The prevailing takeaway from our discussion with Abragames is that talent and passion can only take Brazil so far—and that the real challenge facing the region is determining how to transform primordial passion into something more structured.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">"As game developers, we are all passionate about creating games, telling stories, and building mechanics. But passion sometimes overtakes you and prevents you from thinking about the whole ecosystem," says Terra. "The thing is, if you want to do business you need to create relations and network. You need to live together, work together,&nbsp; and see whether your company is capable of not just shipping one game—but shipping dozens. [...] If you want to open a business you need to transform that passion into love to create a relationship with the market, create a relationship with people, and start building your business."</span></p><p data-testid="content-paragraph"><span data-testid="content-text"><span>Game Developer was invited to Gamescom Latam by event partner Abragames, which covered flights and accommodation.</span></span></p></div></div><br/><br/>https://www.gamedeveloper.com/business/-make-it-political-how-can-the-brazilian-game-industry-establish-itself-on-the-global-stage-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[WB Games Montréal Might Be Making another DC Comics Live Service Game]]></title>
-            <link>https://wccftech.com/wb-games-montreal-might-be-making-dc-comics-live-service-game/</link>
-            <guid>https://www.resetera.com/threads/wb-games-montr%C3%A9al-might-be-making-another-dc-comics-live-service-game.1255713/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			<p>In October 2024, a job listing <a href="https://wccftech.com/wb-montreal-rumored-to-be-working-on-new-dc-comics-game/" target="_blank" rel="noreferrer noopener">revealed</a> that WB Games Montréal was recruiting for a new game based on a DC Comics license. That was fairly unsurprising in itself, considering that the developer has only ever worked on such games, from 2013's Batman: Arkham Origins to 2022's <a href="https://wccftech.com/review/gotham-knights-batfamilys-competent-but-no-batman/" target="_blank" rel="noreferrer noopener">Gotham Knights</a>. Now, though, <a href="https://wbgamesmontreal.com/en/jobs/r000096070/" target="_blank" rel="noreferrer noopener">another job listing</a> suggests that this project is being designed as a live service, which was enough to ruffle the feathers of many fans. </p>
-
-
-
-<p>The job listing is for an Executive Producer who would oversee many aspects of the game's development, including the planned live service operations, as stated in the excerpt below.</p>
-
-
-
-<p><em>As an Executive Producer, you will lead the development of a high-quality AAA game based on one of the iconic IPs from the vast Warner Bros. and DC Comics catalog. You will oversee the entire production lifecycle—from concept to launch and beyond—ensuring the game meets the highest standards of quality, innovation, and player engagement. You will work closely with the Creative Director and studio leadership to align creative vision with production realities, manage cross-functional teams, and ensure the project delivers on time, on budget, and to critical and commercial success.</em></p>
-
-
-
-<p><strong><u><em>Production Oversight:</em></u></strong></p>
-
-
-
-<ul>
-<li><em>Oversee all phases of development, from concept to post-launch live operations.</em></li>
-
-
-
-<li><em>Ensure robust QA and live operations processes are in place to support a high-quality player experience.</em></li>
-</ul>
-
-
-
-<p><strong><em>Execution and Market Readiness:</em></strong></p>
-
-
-
-<ul>
-<li><em>Oversee post-launch content and live service strategy, ensuring ongoing player engagement.</em></li>
-</ul>
-
-
-
-<p>Anyone who followed Rocksteady's Suicide Squad: Kill the Justice League will understand why many fans are already quite disappointed by the prospect. Created specifically as a live service game based on the popular team of DC Comics antiheroes, Suicide Squad: Kill the Justice League failed so spectacularly that it <a href="https://wccftech.com/suicide-squad-kill-the-justice-league-contributed-to-200-million-lower-ebitda-for-wb/" target="_blank" rel="noreferrer noopener">caused</a> a $200 million lower EBITDA and a <a href="https://wccftech.com/warner-bros-games-revenue-decline-suicide-squad/" target="_blank" rel="noreferrer noopener">41% year-to-year decrease in revenue</a> for Warner Bros. Games compared to the previous highly successful launch of Hogwarts Legacy.</p>
-
-
-
-<p>Granted, one game's failure does not equal another. Sure, there have been several failed live service games over the last few years, but a few have also succeeded, and when they do, they rake in big money. That's why publishers keep trying, and we already have plenty of indication that WB Games (now restructured into four divisions dedicated to its tentpole franchises) has not been deterred by the failure of Suicide Squad: Kill the Justice League. They are <a href="https://wccftech.com/hogwarts-legacy-2-is-probably-going-to-be-live-service-wb-says-aaa-console-market-isnt-enough/" target="_blank" rel="noreferrer noopener">eager to make a Hogwarts Legacy live service game</a>, after all.</p>
-
-
-
-<p>Of course, it's way too early to say which DC Comics license WB Games Montréal will use for its next project. Still, we'll keep an eye out for further listings and rumors.</p>
-
-			
-		</div></div><br/><br/>https://wccftech.com/wb-games-montreal-might-be-making-dc-comics-live-service-game/]]></content:encoded>
         </item>
     </channel>
 </rss>

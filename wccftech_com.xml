@@ -4,9 +4,87 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Tue, 29 Jul 2025 12:57:03 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 29 Jul 2025 13:20:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Unreal Engine Engineer Declares ‘Great Hitch Hunt’ to Rid UE Games of Stutters, Gives Tips to Developers]]></title>
+            <link>https://wccftech.com/unreal-engine-declares-great-hitch-hunt-rid-games-stutters/</link>
+            <guid>https://www.resetera.com/threads/unreal-engine-engineer-declares-%E2%80%98great-hitch-hunt%E2%80%99-to-rid-ue-games-of-stutters-gives-tips-to-developers.1255917/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>During the recent Unreal Fest 2025 in Orlando, Florida, Senior Unreal Engine Software Engineer Ari Arnbjörnsson gave a talk dedicated entirely to PC gamers' nightmare: stuttering.</p>
+
+
+
+<p>Over the last few years, we have had to report far too many times that newly released Unreal Engine games (but not only them, to be fair, as other engines are also affected) were <a href="https://wccftech.com/the-callisto-protocol-pc-stuttering-is-unbelievably-bad-says-digital-foundry/" target="_blank" rel="noreferrer noopener">plagued by stutters and hitches on PC</a>. All the while, we asked ourselves: what is Epic doing about it?</p>
+
+
+
+<p>That's essentially the primary focus, alongside best practice advice to developers, of the aforementioned talk, aptly titled 'The Great Hitch Hunt', where Ari Arnbjörnsson dressed in a witch hunter costume and encouraged fellow developers to 'kill the hitches'.</p>
+
+
+
+<p>Arnbjörnsson identified seven primary causes of hitches and stutters. The first one, Level Streaming, is really more of a category that includes a family of hitches related to loading or unloading parts of game worlds. According to the Unreal Engine engineer, a common cause is the misuse of static mesh actors for static geometry. Oftentimes, artists and level designers drag in many static mesh actors, such as tables, books, cutlery, etc, which is fine for small games but potentially disastrous for big or AAA-sized worlds because they bring overhead, require memory load, and have to be scanned by the garbage collector. </p>
+
+
+
+<p>Arnbjörnsson recommends using instanced static meshes (ISMs) or hierarchical instanced static meshes (HISMs) instead. The packed level actors feature can also be deployed to combine many static meshes into fewer actors, reducing overhead. The engineer then switched to what Epic is doing to improve level streaming hitches, such as the experimental Unreal Engine 5.5 Cell Transformers feature that converts static mesh actors into instanced meshes at runtime and the experimental streaming performance improvements introduced with <a href="https://wccftech.com/unreal-engine-5-6-now-available-open-worlds-60-fps-ray-tracing/" target="_blank" rel="noreferrer noopener">Unreal Engine 5.6</a>. Experimental features aren't turned on by default but will be once they're ready. </p>
+
+
+
+<p>The second cause of hitches is actually Physics, because content teams tend not to optimize for them. The introduction of Nanite with Unreal Engine 5 made developers believe they could simply drop in complex meshes in their worlds and they would magically work without problems, but that isn't so. Simple collision shapes should be used instead of complex physics whenever possible, in this order: spheres (fastest), capsules, boxes, and (very last) convex polygons. Distant objects that cannot even be interacted with should be completely disabled. The Chaos Visual Debugger can further help with profiling performance issues caused by physics. </p>
+
+
+
+<p>Regarding Epic's ongoing work in this area, Arnbjörnsson pointed to the Async Physics Initialization available in Unreal Engine 5.5/5.6, which is also still experimental. This offloads the physics calculation off the game thread, but the engineer recommended not to ship with it yet. He also warned that it could be counterproductive in that it could seemingly fix the problem until the physics scene grows up to the point that the problem returns even worse. Managing how large a physics scene should be remains a high priority for developers. Epic also continually improves Chaos physics with better multithreading and other optimizations.</p>
+
+
+
+<figure><p>
+<iframe title="The Great Hitch Hunt: Tracking Down Every Frame Drop | Unreal Fest Orlando 2025" width="500" height="281" src="https://www.youtube.com/embed/HaVTYSnGvxA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<p>Then there's the Actor Spawning hitch: complex actors with many components (skeletal meshes, animations) like characters can take several milliseconds to spawn, causing noticeable frame drops, especially if many spawn at once. Advices include limiting how many actors spawn per frame, delaying initialization of components like skeletal animation to run asynchronously after spawn, and pooling actors when possible instead of destroying and creating, and reusing hidden actors.</p>
+
+
+
+<p>Arnbjörnsson said that several developers asked Epic to implement actor pooling as a standard Unreal Engine feature. While this is being investigated, it's very hard to actually make it happen, given that they'd have to support every single actor type for every single project in every single industry (Unreal Engine isn't just used by game developers nowadays). For now, developers should rather build custom pools per actor type.</p>
+
+
+
+<p>The fourth one is perhaps the most common instance of stutter in PC games: Pipeline State Object (PSO) compilation. Modern low-level APIs like DirectX12, Vulkan, and Metal require fully compiled shaders before rendering. This is not an issue for consoles since they all have the same hardware configuration. However, shipping all compiled permutations is impossible on PC and mobile devices, and compiling shaders on the fly inevitably causes the hitches. Games have been trying to precompile using a bundle PSO cache, but it’s imperfect and hard, especially for open worlds or procedural content.</p>
+
+
+
+<p>PSO precaching has been introduced <a href="https://wccftech.com/unreal-engine-5-3-download/" target="_blank" rel="noreferrer noopener">with Unreal Engine 5.3</a> and should always be used, but it's not enough on its own. Arnbjörnsson urged developers to prepare their own PSO compilation strategy and also to profile their games with the PSO Cache Buster plugin he created (it's available for download <a href="https://github.com/Flassari/PSOCacheBuster" target="_blank" rel="noreferrer noopener">here</a>). Epic is still working to improve PSO precaching further. They have now caught all code paths for the major Unreal Engine sample projects and Fortnite. </p>
+
+
+
+<p>The fifth cause is the Garbage Collection hitch. That happens when there are too many unused UObject instances, causing the Garbage Collector to take too long and provoke stutters. Developers should therefore endeavor to keep UObject counts manageable and strategically schedule GC to avoid hitch spikes. Epic's engineers are working on the currently experimental Incremental Reachability Analysis feature to spread the Garbage Collector's work over multiple frames, as well as focusing on multi-thread safe incremental GC for client builds in the future.</p>
+
+
+
+<p>The sixth is called a Synchronous Loading Hitch, and it occurs when blocking (synchronous) assets loads stall the game thread until the asset finishes loading, causing very long hitches. Under no circumstances should this be allowed - only asynchronous loading should be used. Asset validators (like Arnbjörnsson's <a href="https://github.com/Flassari/CommonValidators" target="_blank" rel="noreferrer noopener">CommonValidators</a>) can catch blocking load usage, and some studios even outright removed blocking load nodes from blueprints. For its part, Epic is adding warnings and tools in the Unreal Engine to inform users about blocking loads. Still, if one sneaks through, UE5.4/5.5 introduced the ability to partially flush async queues to reduce hitch impact. </p>
+
+
+
+<p>Last but not least, there are the Blueprint and Content Hitches that are caused by developers doing too much work in blueprints or content scripts, such as too many timers, too many tick updates, bloated sequences, or audio/skeletal animators overloading the system. Examples of fixes on the developer's side include faking or simplifying distant objects and turning off unnecessary ticking and timers. For its part, the Unreal Engine maker continues expanding the Unreal Insights tool with better usability and features like region marking and screenshots to make it easier for developers to visualize and optimize performance.</p>
+
+
+
+<p>In a closing note, Arnbjörnsson reminded all game developers that despite the many advancements in hardware and software, game development still has to embrace limitations. As such, hard optimization work and clever 'faking' are still very much necessary to get the best results. Hopefully, the talk will open the eyes of developers to this rampant issue and make our game experiences much smoother.</p>
+
+			
+		</div></div><br/><br/>https://wccftech.com/unreal-engine-declares-great-hitch-hunt-rid-games-stutters/]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[PlayStation 5 Power Saver Mode Is Expected to Impact Performance so Much That It’s Unlikely Better Power Efficiency Is Its Only Goal]]></title>
             <link>https://wccftech.com/playstation-5-power-saver-mode-impact-performance-significantly-handheld/</link>
@@ -72,376 +150,6 @@
 
 			
 		</div></div><br/><br/>https://wccftech.com/atari-to-acquire-82-6-stake-in-thunderful-group-with-e4-5-million-investment-amid-restructuring-and-layoffs/]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Xbox Opens ‘Stream Your Own Game’ Feature on PC App]]></title>
-            <link>https://wccftech.com/xbox-opens-stream-your-own-game-feature-pc-app/</link>
-            <guid>https://www.resetera.com/threads/xbox-opens-%E2%80%98stream-your-own-game%E2%80%99-feature-on-pc-app.1255737/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			<p>Microsoft has announced that the Xbox PC app has been updated to support the 'Stream Your Own Game' feature that was <a href="https://wccftech.com/xbox-cloud-gaming-lets-you-stream-your-own-game-starting-today-if-youve-got-game-pass-ultimate/" target="_blank" rel="noreferrer noopener">released</a> for Xbox consoles in November 2024. This still happens through Xbox Cloud Gaming, which is currently gated through the Game Pass Ultimate subscription. It also means that the feature is only available in the 28 countries where Xbox Cloud Gaming is supported.</p>
-
-
-
-<p>There are currently <a href="https://www.xbox.com/en-US/play/gallery/buy-and-stream" target="_blank" rel="noreferrer noopener">over 250 games that can be streamed through this feature</a>, including:</p>
-
-
-
-<ul>
-<li>7 Days to Die</li>
-
-
-
-<li>Aliens: Fireteam Elite</li>
-
-
-
-<li>Aragami 2</li>
-
-
-
-<li>Assassin's Creed Mirage</li>
-
-
-
-<li>Assassin's Creed Shadows</li>
-
-
-
-<li>Atomic Heart</li>
-
-
-
-<li>Avatar: Frontiers of Pandora</li>
-
-
-
-<li>Back 4 Blood</li>
-
-
-
-<li>Baldur's Gate 3</li>
-
-
-
-<li>Banishers: Ghosts of New Eden</li>
-
-
-
-<li>Black Desert</li>
-
-
-
-<li>Bloodstained: Ritual of the Night</li>
-
-
-
-<li>Conan Exiles</li>
-
-
-
-<li>Cuphead</li>
-
-
-
-<li>Cyberpunk 2077</li>
-
-
-
-<li>Disney Epic Mickey: Rebrushed</li>
-
-
-
-<li>Dragon Quest 3 HD-2D Remake</li>
-
-
-
-<li>Dying Light 2: Stay Human</li>
-
-
-
-<li>Everspace 2</li>
-
-
-
-<li>Evil West</li>
-
-
-
-<li>Exoprimal</li>
-
-
-
-<li>Final Fantasy XIV Online</li>
-
-
-
-<li>Final Fantasy XVI</li>
-
-
-
-<li>Gotham Knights</li>
-
-
-
-<li>HITMAN: World of Assassination</li>
-
-
-
-<li>Hades</li>
-
-
-
-<li>Harold Halibut</li>
-
-
-
-<li>Harry Potter: Quidditch Champions</li>
-
-
-
-<li>High on Life</li>
-
-
-
-<li>Hogwarts Legacy</li>
-
-
-
-<li>Insurgency: Sandstorm</li>
-
-
-
-<li>Isonzo</li>
-
-
-
-<li>Journey to the Savage Planet</li>
-
-
-
-<li>Just Cause 4</li>
-
-
-
-<li>Kena: Bridge of Spirits</li>
-
-
-
-<li>Kingdom Come Deliverance</li>
-
-
-
-<li>Kingdom Come Deliverance 2</li>
-
-
-
-<li>LEGO Worlds</li>
-
-
-
-<li>Lies of P</li>
-
-
-
-<li>Life is Strange</li>
-
-
-
-<li>Mad Max</li>
-
-
-
-<li>Marvel's Guardians of the Galaxy</li>
-
-
-
-<li>Metro Exodus</li>
-
-
-
-<li>MindsEye</li>
-
-
-
-<li>Mortal Kombat 1</li>
-
-
-
-<li>NBA 2K25</li>
-
-
-
-<li>NieR: Automata</li>
-
-
-
-<li>No More Heroes 3</li>
-
-
-
-<li>Orcs Must Die! 3</li>
-
-
-
-<li>Payday 3</li>
-
-
-
-<li>Phasmophobia</li>
-
-
-
-<li>Prince of Persia: The Lost Crown</li>
-
-
-
-<li>Remnant 2</li>
-
-
-
-<li>RoboCop: Rogue City</li>
-
-
-
-<li>Skull and Bones</li>
-
-
-
-<li>Star Wars Outlaws</li>
-
-
-
-<li>Starship Troopers: Extermination</li>
-
-
-
-<li>Stray</li>
-
-
-
-<li>Subnautica 2</li>
-
-
-
-<li>Suicide Squad: Kill the Justice League</li>
-
-
-
-<li>The Crew Motorfest</li>
-
-
-
-<li>The First Berserker: Khazan</li>
-
-
-
-<li>The Lord of the Rings: Return to Moria</li>
-
-
-
-<li>The Outlast Trials</li>
-
-
-
-<li>The Talos Principle 2</li>
-
-
-
-<li>The Witcher 3</li>
-
-
-
-<li>The Division 2</li>
-
-
-
-<li>Top Spin 2K25</li>
-
-
-
-<li>Valheim</li>
-
-
-
-<li>Visions of Mana</li>
-
-
-
-<li>Warhammer 40K: Space Marine 2</li>
-</ul>
-
-
-
-<p>The Xbox PC app was also updated for Insiders to show their play history across devices, including on console and the Xbox PC app. Lastly, the app also includes a new feature that tracks your progress toward earning rewards while you play.</p>
-
-			
-		</div></div><br/><br/>https://wccftech.com/xbox-opens-stream-your-own-game-feature-pc-app/]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[WB Games Montréal Might Be Making another DC Comics Live Service Game]]></title>
-            <link>https://wccftech.com/wb-games-montreal-might-be-making-dc-comics-live-service-game/</link>
-            <guid>https://www.resetera.com/threads/wb-games-montr%C3%A9al-might-be-making-another-dc-comics-live-service-game.1255713/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			<p>In October 2024, a job listing <a href="https://wccftech.com/wb-montreal-rumored-to-be-working-on-new-dc-comics-game/" target="_blank" rel="noreferrer noopener">revealed</a> that WB Games Montréal was recruiting for a new game based on a DC Comics license. That was fairly unsurprising in itself, considering that the developer has only ever worked on such games, from 2013's Batman: Arkham Origins to 2022's <a href="https://wccftech.com/review/gotham-knights-batfamilys-competent-but-no-batman/" target="_blank" rel="noreferrer noopener">Gotham Knights</a>. Now, though, <a href="https://wbgamesmontreal.com/en/jobs/r000096070/" target="_blank" rel="noreferrer noopener">another job listing</a> suggests that this project is being designed as a live service, which was enough to ruffle the feathers of many fans. </p>
-
-
-
-<p>The job listing is for an Executive Producer who would oversee many aspects of the game's development, including the planned live service operations, as stated in the excerpt below.</p>
-
-
-
-<p><em>As an Executive Producer, you will lead the development of a high-quality AAA game based on one of the iconic IPs from the vast Warner Bros. and DC Comics catalog. You will oversee the entire production lifecycle—from concept to launch and beyond—ensuring the game meets the highest standards of quality, innovation, and player engagement. You will work closely with the Creative Director and studio leadership to align creative vision with production realities, manage cross-functional teams, and ensure the project delivers on time, on budget, and to critical and commercial success.</em></p>
-
-
-
-<p><strong><u><em>Production Oversight:</em></u></strong></p>
-
-
-
-<ul>
-<li><em>Oversee all phases of development, from concept to post-launch live operations.</em></li>
-
-
-
-<li><em>Ensure robust QA and live operations processes are in place to support a high-quality player experience.</em></li>
-</ul>
-
-
-
-<p><strong><em>Execution and Market Readiness:</em></strong></p>
-
-
-
-<ul>
-<li><em>Oversee post-launch content and live service strategy, ensuring ongoing player engagement.</em></li>
-</ul>
-
-
-
-<p>Anyone who followed Rocksteady's Suicide Squad: Kill the Justice League will understand why many fans are already quite disappointed by the prospect. Created specifically as a live service game based on the popular team of DC Comics antiheroes, Suicide Squad: Kill the Justice League failed so spectacularly that it <a href="https://wccftech.com/suicide-squad-kill-the-justice-league-contributed-to-200-million-lower-ebitda-for-wb/" target="_blank" rel="noreferrer noopener">caused</a> a $200 million lower EBITDA and a <a href="https://wccftech.com/warner-bros-games-revenue-decline-suicide-squad/" target="_blank" rel="noreferrer noopener">41% year-to-year decrease in revenue</a> for Warner Bros. Games compared to the previous highly successful launch of Hogwarts Legacy.</p>
-
-
-
-<p>Granted, one game's failure does not equal another. Sure, there have been several failed live service games over the last few years, but a few have also succeeded, and when they do, they rake in big money. That's why publishers keep trying, and we already have plenty of indication that WB Games (now restructured into four divisions dedicated to its tentpole franchises) has not been deterred by the failure of Suicide Squad: Kill the Justice League. They are <a href="https://wccftech.com/hogwarts-legacy-2-is-probably-going-to-be-live-service-wb-says-aaa-console-market-isnt-enough/" target="_blank" rel="noreferrer noopener">eager to make a Hogwarts Legacy live service game</a>, after all.</p>
-
-
-
-<p>Of course, it's way too early to say which DC Comics license WB Games Montréal will use for its next project. Still, we'll keep an eye out for further listings and rumors.</p>
-
-			
-		</div></div><br/><br/>https://wccftech.com/wb-games-montreal-might-be-making-dc-comics-live-service-game/]]></content:encoded>
         </item>
     </channel>
 </rss>
