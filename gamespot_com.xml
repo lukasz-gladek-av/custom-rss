@@ -4,9 +4,196 @@
         <title>maGaming RSS Feed - gamespot_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gamespot_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for gamespot_com</description>
-        <lastBuildDate>Wed, 30 Jul 2025 15:29:20 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 30 Jul 2025 15:41:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Cute Climbing Game Peak's Latest "Totally Normal Update" Adds In Totally Not Normal Cannibalism]]></title>
+            <link>https://www.gamespot.com/articles/cute-climbing-game-peaks-latest-totally-normal-update-adds-in-totally-not-normal-cannibalism/1100-6533552/?ftag=CAD-01-10abi2f</link>
+            <guid>https://www.resetera.com/threads/cute-climbing-game-peaks-latest-totally-normal-update-adds-in-totally-not-normal-cannibalism.1257198/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="site-main">
+
+      
+                    
+  
+              <header id="masthead"><nav></nav></header>      
+                            <div id="site-wrapper" role="main">
+          <div id="default-content">
+        
+          <p>
+    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
+  </p>
+  
+    <article itemscope="" data-type-id="1100" data-guid="1100-6533552">
+
+            
+            
+  
+
+
+        
+
+  
+
+
+        
+        
+              <section>
+
+                  
+          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
+                <p><a href="https://www.gamespot.com/games/peak/">Peak</a> is, despite being a game about climbing massive mountains in order to be rescued from a crash landing on an uninhabited island, generally quite a sweet-looking game. It also released a new update yesterday, within the features section of the <a href="https://store.steampowered.com/news/app/3527290/view/498327923676161391?l=english" rel="nofollow ">patch notes</a> quite literally just saying "added cannibalism." As developers Aggro Crab and Landfall put it, "Totally normal update to the game. Nothing to see here."</p><p dir="ltr">This update comes in spite of Aggro Crab literally saying it <a href="https://x.com/AggroCrabGames/status/1940498163875696969" rel="nofollow ">can't add cannibalism to Peak</a>, but hey, the people get what the people want. Luckily, this new feature doesn't force you to Hannibal-style cut up the cute little avatars that are your friends. Instead, when your player character is too hungry, your friends' avatars start to <a href="https://x.com/ava_lamp/status/1950341032844923029" rel="nofollow ">look like a walking rotisserie chicken</a>. If you manage to successfully eat them, they turn into a skeleton (and die, unsurprisingly).</p><p data-embed-type="video" data-src="https://www.youtube.com/watch?v=jrlUVhLBjG0" data-width="100%" data-height="100%">          <iframe src="https://www.youtube-nocookie.com/embed/jrlUVhLBjG0" height="100%" width="100%" scrolling="no" frameborder="" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></p><p dir="ltr">Thankfully, cannibalism wasn't the only thing added in with this update. In the options menu you'll find a few new additions, like the ability to adjust your field of view while climbing, and a push-to-mute setting ("No more having to listen to your streamer friend talk to chat"). There's also been some big fixes, one being a temporary solution to a bug that caused a lot of fall damage from short distances, and performance has been "greatly improved" too.</p><p dir="ltr">You can check out the full patch notes below.</p><h2 dir="ltr">Patch 1.10.a Notes</h2><p><b>Features:</b></p><ul><li>Added cannibalism.</li></ul><p><b>Options:</b></p><ul><li>Polish and Turkish translations are in!</li><li>New Setting: "Climbing Extra Field Of View". This lets you adjust how the FOV changes while climbing.</li><li>New Setting: PUSH-TO-MUTE. This works the opposite way of "Push-To-Talk." No more having to listen to your streamer friend talk to chat.</li><li>Settings that were previously hidden outside of the Main Menu will now show up but be disabled. Hopefully this reduces some confusion!</li></ul><p><b>Balance Changes:</b></p><ul><li>Fixed an issue where Trail Mix, Granola Bar, Medicinal Root, and Airline Food would not give extra hunger reduction after cooked.</li><li>Fixed an issue where cooking something Well-Done and then stashing it would remove the buffs. For reference, the intended behavior is that Well-Done items give the same bonus as Cooked items. It's your warning before it burns :)</li><li>Remedy Fungus now also cures poison in addition to injury, because it seems like it would.</li></ul><p><b>Major Fixes:</b></p><ul><li>We have a temporary solution to the FALL DAMAGE BUG where you would take a signifcant amount of fall damage when falling a short distance, often from spamming the climb and lunge buttons. A more comprehensive improvement will come in a later patch. Let us know if you still see any weird fall damage behavior!<br>EDIT: It seems like this only addressed the issue when sliding down while holding the wall, but not the one where you are on a slope. Sorry about that folks, we'll continue to investigate.</li><li>THE NAPBERRY PLANT IS TEMPORARILY DISABLED. Some folks were having issues with lag and crashes due to our implementation of the Napberry Plant. Trust me its a weird one. While we work on a better implementation asap, the Napberry Plant won't show up in the level.</li><li>Performance at the PEAK is greatly improved. It was the dang wildflowers.</li><li>Fixed an issue where an item would get stuck in your "Hands" Item Slot. This issue happens when the server can't keep up with items that are swapped too rapidly, so a tiny delay has been added after swapping items before you're able to pick up a new item.</li></ul><p><b>Minor Fixes:</b></p><ul><li>You can no longer get the Bookworm Badge by simply reading the final page without the others.</li><li>Fixed an issue where reading the guidebook pages out of order could result in inconsistent stat tracking for the Bookworm Badge.</li><li>Removed an un-spatialized sound effect that would play when players landed from a fall.</li><li>Fixed an issue where Ticks counted as berries toward the Foraging Badge, lol.</li><li>Fixed an issue where an item in the temporary slot would display the wrong amount of Cooked.</li><li>Fixed an issue where eating a Scorchberry wouldn't contribute toward the Forager Badge</li><li>Fixed an issue where getting an Anti-Rope Cannon wouldn't get you the Esoterica Badge.</li><li>You can no longer obtain progress achievements (such as Beachcomber Badge) while you are a ghost. Reaching a new area while alive should grant you achievements for all the areas completed that run.</li></ul>
+  
+                        
+    
+        
+        
+  
+                                  </div>
+
+
+          
+  
+    
+          
+            
+  <div>
+    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
+
+    
+      </div>
+        
+      </section>
+    
+            
+    </article>
+
+    
+  
+
+</div>
+                      <meta itemprop="seamless-content-list-items" data-list-items="[{&quot;guid&quot;:&quot;1100-6533490&quot;,&quot;url&quot;:&quot;\/articles\/playstation-plus-essential-free-games-for-august-2025\/1100-6533490\/&quot;},{&quot;guid&quot;:&quot;1100-6533430&quot;,&quot;url&quot;:&quot;\/articles\/captain-america-actor-anthony-mackie-comments-on-state-of-hollywood-theres-a-shortage-of-fresh-and-new-ideas\/1100-6533430\/&quot;},{&quot;guid&quot;:&quot;1100-6533515&quot;,&quot;url&quot;:&quot;\/articles\/battlefield-6-open-beta-release-date-time\/1100-6533515\/&quot;},{&quot;guid&quot;:&quot;1100-6533493&quot;,&quot;url&quot;:&quot;\/articles\/sony-sues-tencent-over-horizon-lookalike\/1100-6533493\/&quot;},{&quot;guid&quot;:&quot;1100-6533495&quot;,&quot;url&quot;:&quot;\/articles\/one-of-the-greatest-pc-games-of-2024-was-removed-from-itch-io-search-results\/1100-6533495\/&quot;},{&quot;guid&quot;:&quot;1100-6530257&quot;,&quot;url&quot;:&quot;\/articles\/free-games-epic-games-store-mobile\/1100-6530257\/&quot;},{&quot;guid&quot;:&quot;1100-6533484&quot;,&quot;url&quot;:&quot;\/articles\/magic-the-gathering-has-a-price-problem-and-its-sabotaging-universes-beyond\/1100-6533484\/&quot;},{&quot;guid&quot;:&quot;1100-6526471&quot;,&quot;url&quot;:&quot;\/articles\/2025-upcoming-games-release-schedule\/1100-6526471\/&quot;},{&quot;guid&quot;:&quot;1100-6533438&quot;,&quot;url&quot;:&quot;\/articles\/how-to-find-and-use-lingonberries-and-blueberries-for-leather-in-grounded-2\/1100-6533438\/&quot;},{&quot;guid&quot;:&quot;1100-6526583&quot;,&quot;url&quot;:&quot;\/articles\/battlefield-6-release-date-trailer-news\/1100-6526583\/&quot;},{&quot;guid&quot;:&quot;1100-6529195&quot;,&quot;url&quot;:&quot;\/articles\/trigun-deluxe-edition-dark-horse-manga-amazon-deals\/1100-6529195\/&quot;},{&quot;guid&quot;:&quot;1100-6533492&quot;,&quot;url&quot;:&quot;\/articles\/the-last-of-us-2-abby-actress-reacts-to-kaitlyn-devers-portrayal-in-hbo-series\/1100-6533492\/&quot;},{&quot;guid&quot;:&quot;1100-6533503&quot;,&quot;url&quot;:&quot;\/articles\/xbox-pc-app-now-lets-you-stream-your-own-games-including-console-exclusives\/1100-6533503\/&quot;},{&quot;guid&quot;:&quot;1100-6533459&quot;,&quot;url&quot;:&quot;\/articles\/fortnite-chapter-6-season-4-battle-pass-theme-and-everything-else-we-know\/1100-6533459\/&quot;},{&quot;guid&quot;:&quot;1100-6533354&quot;,&quot;url&quot;:&quot;\/articles\/how-to-get-a-free-fortnite-skin-and-glider-from-rocket-league\/1100-6533354\/&quot;},{&quot;guid&quot;:&quot;1100-6533423&quot;,&quot;url&quot;:&quot;\/articles\/itch-io-joins-steam-in-recent-push-to-ban-adult-games\/1100-6533423\/&quot;},{&quot;guid&quot;:&quot;1100-6533509&quot;,&quot;url&quot;:&quot;\/articles\/tencent-pitched-sony-on-a-horizon-game-set-in-asia\/1100-6533509\/&quot;},{&quot;guid&quot;:&quot;1100-6533478&quot;,&quot;url&quot;:&quot;\/articles\/the-last-of-us-star-bella-ramsey-reacts-to-neil-druckmann-leaving-the-show\/1100-6533478\/&quot;},{&quot;guid&quot;:&quot;1100-6533439&quot;,&quot;url&quot;:&quot;\/articles\/all-grounded-2-mutations-and-how-to-unlock-them\/1100-6533439\/&quot;}]">
+            </div>
+              
+    </div></div><br/><br/>https://www.gamespot.com/articles/cute-climbing-game-peaks-latest-totally-normal-update-adds-in-totally-not-normal-cannibalism/1100-6533552/?ftag=CAD-01-10abi2f]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Krafton Wants PUBG To Become A "Platform," Similar To Fortnite And Roblox]]></title>
+            <link>https://www.gamespot.com/articles/krafton-wants-pubg-to-become-a-platform-similar-to-fortnite-and-roblox/1100-6533550/?ftag=CAD-01-10abi2f</link>
+            <guid>https://www.resetera.com/threads/krafton-wants-pubg-to-become-a-platform-similar-to-fortnite-and-roblox.1257195/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p>
+    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
+  </p><article itemscope="" data-type-id="1100" data-guid="1100-6533550">
+
+            
+            
+  
+
+
+        
+
+  
+
+
+        
+        
+              <section>
+
+                  
+          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
+                <p dir="ltr">Battlegrounds might be literally built into the acronym PUBG, but Krafton sees something far bigger for the battle royale game's future. The company wants PUBG to become a "gameplay platform" in the vein of Fortnite and Roblox--featuring various modes and even user-made content.</p><p dir="ltr"><a href="https://www.gamefile.news/p/krafton-pubg-unreal-subnautica-donkey-kong-darth-vader" rel="nofollow ">GameFile</a> reports that Krafton chief financial officer Dongkeun Bae discussed the company's expanded vision for PUBG on an earnings call earlier this week. "In the age of PUBG 2.0, it will not simply be a battle royale game per se," Bae said. The CFO wants the game to turn into a platform, noting that they're "developing wide-ranging modes under that objective."</p><p dir="ltr">A major part of this transition will include <a href="https://www.gamespot.com/articles/pubg-getting-destructible-environments-and-switching-to-unreal-engine-5/1100-6521738/">the switch to Unreal Engine 5 for PUBG</a>. Krafton has openly talked about this change since March 2024, with the Epic game engine opening up user-generated content to become a part of the experience. (Things have really come around, considering the PUBG Corp. once <a href="https://www.gamespot.com/articles/pubg-getting-destructible-environments-and-switching-to-unreal-engine-5/1100-6521738/">sued and then dropped a lawsuit against the Fortnite maker</a>.)</p><p dir="ltr">There is also a PUBG <a href="https://www.gamespot.com/articles/pubg-spin-off-gets-a-new-name-and-more-details/1100-6529319/">spin-off in the works called PUBG: Blindspot</a>, previously known as Project Arc. The game is "a 5v5 team-based top-down tactical shooter," according to Krafton. Another spin-off in the same universe is reportedly an extraction shooter called PUBG: Black Budget.</p><p>Meanwhile, <a href="https://www.gamespot.com/articles/ousted-subnautica-2-devs-lawsuit-demands-full-250-million-payout-and-creative-control/1100-6533246/">Krafton is currently embroiled in a lawsuit</a> with Unknown Worlds co-founders Charlie Cleveland and Max McGuire, who were <a href="https://www.gamespot.com/articles/former-subnautica-2-director-says-the-game-is-ready-for-early-access-release/1100-6533016/">reportedly forced out from the developer</a> earlier this month. In the middle of this, Krafton has <a href="https://www.gamespot.com/articles/subnautica-2-leak-is-real-krafton-confirms/1100-6533144/">confirmed an internal document leak for Subnautica 2 was legit</a>, pointing to multiple missed development milestones.</p>
+  
+                        
+    
+        
+        
+  
+                                  </div>
+
+
+          
+  
+    
+          
+            
+  <div>
+    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
+
+    
+      </div>
+        
+      </section>
+    
+            
+    </article></div><br/><br/>https://www.gamespot.com/articles/krafton-wants-pubg-to-become-a-platform-similar-to-fortnite-and-roblox/1100-6533550/?ftag=CAD-01-10abi2f]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[EA CEO Reacts To Rematch's Big Launch And Avoiding Arrogance With Its FC Series]]></title>
+            <link>https://www.gamespot.com/articles/ea-ceo-reacts-to-rematchs-big-launch-and-avoiding-arrogance-with-its-fc-series/1100-6533549/?ftag=CAD-01-10abi2f</link>
+            <guid>https://www.resetera.com/threads/ea-ceo-reacts-to-rematchs-big-launch-and-avoiding-arrogance-with-its-fc-series.1257192/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p>
+    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
+  </p><article itemscope="" data-type-id="1100" data-guid="1100-6533549">
+
+            
+            
+  
+
+
+        
+
+  
+
+
+        
+        
+              <section>
+
+                  
+          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
+                <p>A new soccer game hit the market this year with Sloclap's Rematch, and EA CEO Andrew Wilson welcomes new competition in the market. Wilson said during EA's latest earnings call that, "We love competition" after being asked if EA sees any "competitive pressure" with its FC series.</p><p>To be sure, Rematch and EA's FC series are not exactly true competitors given the size and scale of EA's franchise. But Rematch is nonetheless a new player in the soccer market that EA is paying attention to.</p>
+
+
+
+    
+  <div>
+
+    <div tabindex="0" data-id="1870419039" data-promo-id="0" data-user-has-ads="1" data-video="{&quot;id&quot;:6466165,&quot;title&quot;:&quot;Rematch%20GameSpot%20Review&quot;,&quot;lengthSeconds&quot;:588,&quot;startTime&quot;:0,&quot;autoplay&quot;:true,&quot;share&quot;:{&quot;linkUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/rematch-gamespot-review\/2300-6466165\/&quot;,&quot;embedUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/embed\/6466165\/&quot;,&quot;embedHtml&quot;:{&quot;640&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6466165\/\&quot; height=\&quot;360\&quot; width=\&quot;640\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;,&quot;480&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6466165\/\&quot; height=\&quot;270\&quot; width=\&quot;480\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;}},&quot;device&quot;:&quot;other&quot;,&quot;isDevice&quot;:false,&quot;isLiveStream&quot;:false,&quot;videoType&quot;:&quot;video-on-demand&quot;,&quot;countdownTime&quot;:0,&quot;guid&quot;:&quot;gs-2300-6466165&quot;,&quot;ageGateCookieName&quot;:&quot;videoAgeGateBirthday&quot;,&quot;watchedCookieName&quot;:&quot;watchedVideoIds&quot;,&quot;watchedCookieDays&quot;:1,&quot;postPlayMax&quot;:100,&quot;adCall&quot;:{&quot;host&quot;:&quot;http:\/\/pubads.g.doubleclick.net\/gampad\/ads?&quot;,&quot;params&quot;:{&quot;iu&quot;:&quot;\/5441\/vaw-gamespot\/desktop\/gamespot.com&quot;,&quot;impl&quot;:&quot;s&quot;,&quot;gdfp_req&quot;:1,&quot;env&quot;:&quot;vp&quot;,&quot;output&quot;:&quot;xml_vmap1&quot;,&quot;unviewed_position_start&quot;:1,&quot;url&quot;:&quot;[referrer_url]&quot;,&quot;correlator&quot;:&quot;[timestamp]&quot;,&quot;description_url&quot;:&quot;[description_url]&quot;,&quot;cmsid&quot;:2566084,&quot;vid&quot;:6466165,&quot;pp&quot;:&quot;vpaid_js&quot;},&quot;custParams&quot;:{&quot;ptype&quot;:&quot;news_article&quot;,&quot;cid&quot;:&quot;gs-1100-6533549&quot;,&quot;game&quot;:&quot;rematch,ea-sports-fc-26&quot;,&quot;genre&quot;:&quot;arcade,soccer,sports,team-based&quot;,&quot;con&quot;:&quot;pc,playstation-5,xbox-series-x,playstation-4,xbox-one,nintendo-switch,nintendo-switch-2&quot;,&quot;publisher&quot;:&quot;sloclap,kepler-interactive&quot;,&quot;embed&quot;:&quot;autoplay&quot;,&quot;franchise&quot;:&quot;ea-sports-fc&quot;,&quot;category&quot;:&quot;games&quot;,&quot;franchiseRoot&quot;:&quot;ea-sports-fc&quot;,&quot;partner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;vid&quot;:6466165},&quot;soundBasedSize&quot;:{&quot;normal&quot;:&quot;640x480&quot;,&quot;muted&quot;:&quot;640x483&quot;,&quot;none&quot;:&quot;640x480&quot;},&quot;daiSsbUrl&quot;:&quot;https:\/\/dai.google.com\/ondemand\/hls\/content\/2572465\/vid\/6466165\/master.m3u8&quot;,&quot;daiMidRollHost&quot;:2500176},&quot;uvpHi5Ima&quot;:&quot;https:\/\/s0.2mdn.net\/instream\/html5\/ima3.js&quot;,&quot;cuePoints&quot;:null,&quot;uvpc&quot;:&quot;&quot;,&quot;partner&quot;:&quot;gamespot&quot;,&quot;adPartner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;desktopAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;mobileAdPartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;,&quot;mapp&quot;:&quot;gamespot&quot;,&quot;cms&quot;:&quot;pi&quot;,&quot;seekablePlaybacks&quot;:[&quot;html5&quot;,&quot;uvpjs&quot;],&quot;tracking&quot;:[{&quot;name&quot;:&quot;SiteCatalyst&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;charSet&quot;,&quot;value&quot;:&quot;UTF-8&quot;},{&quot;name&quot;:&quot;currencyCode&quot;,&quot;value&quot;:&quot;USD&quot;},{&quot;name&quot;:&quot;siteType&quot;,&quot;value&quot;:&quot;responsive web&quot;},{&quot;name&quot;:&quot;trackingServer&quot;,&quot;value&quot;:&quot;saa.gamespot.com&quot;},{&quot;name&quot;:&quot;visitorNamespace&quot;,&quot;value&quot;:&quot;cbsinteractive&quot;},{&quot;name&quot;:&quot;heartbeatTrackingServer&quot;,&quot;value&quot;:&quot;newimagitasinc.hb.omtrdc.net&quot;},{&quot;name&quot;:&quot;heartbeatVisitorMarketingCloudOrgId&quot;,&quot;value&quot;:&quot;3C66570E5FE1A4AB0A495FFC@AdobeOrg&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;siteCode&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;brand&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;account&quot;,&quot;value&quot;:&quot;cbsigamespotsite&quot;},{&quot;name&quot;:&quot;edition&quot;,&quot;value&quot;:&quot;us&quot;}]},{&quot;name&quot;:&quot;ComScore_ss&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;c2&quot;,&quot;value&quot;:&quot;31824268&quot;},{&quot;name&quot;:&quot;publishersSecret&quot;,&quot;value&quot;:&quot;2cb08ca4d095dd734a374dff8422c2e5&quot;},{&quot;name&quot;:&quot;c3&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;c4&quot;,&quot;value&quot;:&quot;gamespot&quot;}]},{&quot;name&quot;:&quot;NielsenTracking&quot;,&quot;category&quot;:&quot;tracking&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;host&quot;,&quot;value&quot;:&quot;https:\/\/secure-us.imrworldwide.com\/cgi-bin\/m?&quot;},{&quot;name&quot;:&quot;scCI&quot;,&quot;value&quot;:&quot;us-200330&quot;},{&quot;name&quot;:&quot;scC6&quot;,&quot;value&quot;:&quot;vc,c01&quot;}]},{&quot;name&quot;:&quot;MuxQOSPluginJS&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;propertyKey&quot;,&quot;value&quot;:&quot;b7d6e48b7461a61cb6e863a62&quot;}]}],&quot;trackingAccount&quot;:&quot;cbsigamespotsite&quot;,&quot;trackingSiteCode&quot;:&quot;gs&quot;,&quot;trackingPrimaryId&quot;:&quot;cbsigamespotsite&quot;,&quot;videoAssetSource&quot;:&quot;GameSpot&quot;,&quot;uvpjsHostname&quot;:&quot;\/\/www.gamespot.com&quot;,&quot;siteType&quot;:&quot;responsive web&quot;,&quot;startMuted&quot;:false,&quot;screenMediumThumb&quot;:&quot;https:\/\/www.gamespot.com\/a\/uploads\/screen_medium\/1574\/15746725\/4524183-review_rematch_site.jpg&quot;,&quot;videoStreams&quot;:{&quot;adaptive_stream&quot;:&quot;https:\/\/cdn.jwplayer.com\/manifests\/JMXfpUtl.m3u8&quot;},&quot;userId&quot;:0,&quot;premium&quot;:false,&quot;datePublished&quot;:1751378160,&quot;videoAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;videoAdMobilePartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;}" data-non-iframe-embed="1" data-jw-context-name="gamespot" data-jw-media-id="JMXfpUtl" data-jw-player-url="https://cdn.jwplayer.com/libraries/VXc5h4Tf.js" data-jw-video-token="" data-has-youtube="" data-youtube-icon-path="https://www.gamespot.com/a/bundles/phoenixsite/images/core/loose/icn-youtube-30x30.png" id="video-rectangle"><div><p>
+        Want us to remember this setting for all your devices?
+      </p><p><a href="https://www.gamespot.com/signup/">Sign up</a> or <a href="https://www.gamespot.com/login/">Sign in</a> now!
+      </p></div><p>
+      Please use a html5 video capable browser to watch videos.
+    </p><p>
+      This video has an invalid file format.
+    </p><p>Sorry, but you can't access this content!</p></div>
+          <p><em>Now Playing:</em> Rematch GameSpot Review</p>
+      </div>
+<p>"We come to work every day to compete--that's been true for all of our games, especially our sports games, for the best part of 30 or 40 years," Wilson said, as <a href="https://www.gamesradar.com/games/ea-sports-fc/ea-boss-doesnt-seem-worried-about-rematch-stealing-ea-sports-fc-26s-thunder-as-he-insists-we-love-competition-but-are-always-watching-competitors-we-never-sit-back-with-arrogance/" data-target="true" target="_blank" rel="noopener nofollow">reported by GamesRadar</a>. "I think competition makes us better. We're always watching what the competition does. We're always evaluating where there are new needs being met for new players. We're always looking to work that into the offerings that we have for players."</p><p>Rematch is an arcade-style soccer game that doesn't feature real-life players or leagues. Wilson said "the magnitude of licenses" for EA's FC series helps set the franchise apart.</p><p>That being said, Wilson said EA won't "rest on our laurels" and will try to find new ways to win fans and keep them. "We never sit back with arrogance and pretend we don't have to be thoughtful about what's going on in the marketplace and what new players might want out of the next football experience that they want to play," he said.</p><p>Rematch launched in June on PC, PS5, and Xbox Series X|S, and it reached 5 million players after a month. The next EA Sports FC game, meanwhile, launches in September.</p>
+  
+                        
+    
+        
+        
+  
+                                  </div>
+
+
+          
+  
+    
+          
+            
+  <div>
+    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
+
+    
+      </div>
+        
+      </section>
+    
+            
+    </article></div><br/><br/>https://www.gamespot.com/articles/ea-ceo-reacts-to-rematchs-big-launch-and-avoiding-arrogance-with-its-fc-series/1100-6533549/?ftag=CAD-01-10abi2f]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Clair Obscur: Expedition 33 Update Makes Retrying Bosses A Lot Less Annoying]]></title>
             <link>https://www.gamespot.com/articles/clair-obscur-expedition-33-update-makes-retrying-bosses-a-lot-less-annoying/1100-6533547/?ftag=CAD-01-10abi2f</link>
@@ -38,7 +225,7 @@
     
   <div>
 
-    <div tabindex="0" data-id="1598853524" data-promo-id="0" data-user-has-ads="1" data-video="{&quot;id&quot;:6466022,&quot;title&quot;:&quot;Clair%20Obscur%3A%20Expedition%2033%20GameSpot%20Video%20Review&quot;,&quot;lengthSeconds&quot;:656,&quot;startTime&quot;:0,&quot;autoplay&quot;:true,&quot;share&quot;:{&quot;linkUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/clair-obscur-expedition-33-gamespot-video-review\/2300-6466022\/&quot;,&quot;embedUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/embed\/6466022\/&quot;,&quot;embedHtml&quot;:{&quot;640&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6466022\/\&quot; height=\&quot;360\&quot; width=\&quot;640\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;,&quot;480&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6466022\/\&quot; height=\&quot;270\&quot; width=\&quot;480\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;}},&quot;device&quot;:&quot;other&quot;,&quot;isDevice&quot;:false,&quot;isLiveStream&quot;:false,&quot;videoType&quot;:&quot;video-on-demand&quot;,&quot;countdownTime&quot;:0,&quot;guid&quot;:&quot;gs-2300-6466022&quot;,&quot;ageGateCookieName&quot;:&quot;videoAgeGateBirthday&quot;,&quot;watchedCookieName&quot;:&quot;watchedVideoIds&quot;,&quot;watchedCookieDays&quot;:1,&quot;postPlayMax&quot;:100,&quot;adCall&quot;:{&quot;host&quot;:&quot;http:\/\/pubads.g.doubleclick.net\/gampad\/ads?&quot;,&quot;params&quot;:{&quot;iu&quot;:&quot;\/5441\/vaw-gamespot\/desktop\/gamespot.com&quot;,&quot;impl&quot;:&quot;s&quot;,&quot;gdfp_req&quot;:1,&quot;env&quot;:&quot;vp&quot;,&quot;output&quot;:&quot;xml_vmap1&quot;,&quot;unviewed_position_start&quot;:1,&quot;url&quot;:&quot;[referrer_url]&quot;,&quot;correlator&quot;:&quot;[timestamp]&quot;,&quot;description_url&quot;:&quot;[description_url]&quot;,&quot;cmsid&quot;:2566084,&quot;vid&quot;:6466022,&quot;pp&quot;:&quot;vpaid_js&quot;},&quot;custParams&quot;:{&quot;ptype&quot;:&quot;news_article&quot;,&quot;cid&quot;:&quot;gs-1100-6533547&quot;,&quot;game&quot;:&quot;clair-obscur-expedition-33&quot;,&quot;genre&quot;:&quot;role-playing&quot;,&quot;con&quot;:&quot;xbox-series-x,pc,playstation-5&quot;,&quot;publisher&quot;:&quot;kepler-interactive&quot;,&quot;embed&quot;:&quot;autoplay&quot;,&quot;category&quot;:&quot;games&quot;,&quot;partner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;vid&quot;:6466022},&quot;soundBasedSize&quot;:{&quot;normal&quot;:&quot;640x480&quot;,&quot;muted&quot;:&quot;640x483&quot;,&quot;none&quot;:&quot;640x480&quot;},&quot;daiSsbUrl&quot;:&quot;https:\/\/dai.google.com\/ondemand\/hls\/content\/2572465\/vid\/6466022\/master.m3u8&quot;,&quot;daiMidRollHost&quot;:2500176},&quot;uvpHi5Ima&quot;:&quot;https:\/\/s0.2mdn.net\/instream\/html5\/ima3.js&quot;,&quot;cuePoints&quot;:null,&quot;uvpc&quot;:&quot;&quot;,&quot;partner&quot;:&quot;gamespot&quot;,&quot;adPartner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;desktopAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;mobileAdPartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;,&quot;mapp&quot;:&quot;gamespot&quot;,&quot;cms&quot;:&quot;pi&quot;,&quot;seekablePlaybacks&quot;:[&quot;html5&quot;,&quot;uvpjs&quot;],&quot;tracking&quot;:[{&quot;name&quot;:&quot;SiteCatalyst&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;charSet&quot;,&quot;value&quot;:&quot;UTF-8&quot;},{&quot;name&quot;:&quot;currencyCode&quot;,&quot;value&quot;:&quot;USD&quot;},{&quot;name&quot;:&quot;siteType&quot;,&quot;value&quot;:&quot;responsive web&quot;},{&quot;name&quot;:&quot;trackingServer&quot;,&quot;value&quot;:&quot;saa.gamespot.com&quot;},{&quot;name&quot;:&quot;visitorNamespace&quot;,&quot;value&quot;:&quot;cbsinteractive&quot;},{&quot;name&quot;:&quot;heartbeatTrackingServer&quot;,&quot;value&quot;:&quot;newimagitasinc.hb.omtrdc.net&quot;},{&quot;name&quot;:&quot;heartbeatVisitorMarketingCloudOrgId&quot;,&quot;value&quot;:&quot;3C66570E5FE1A4AB0A495FFC@AdobeOrg&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;siteCode&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;brand&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;account&quot;,&quot;value&quot;:&quot;cbsigamespotsite&quot;},{&quot;name&quot;:&quot;edition&quot;,&quot;value&quot;:&quot;us&quot;}]},{&quot;name&quot;:&quot;ComScore_ss&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;c2&quot;,&quot;value&quot;:&quot;31824268&quot;},{&quot;name&quot;:&quot;publishersSecret&quot;,&quot;value&quot;:&quot;2cb08ca4d095dd734a374dff8422c2e5&quot;},{&quot;name&quot;:&quot;c3&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;c4&quot;,&quot;value&quot;:&quot;gamespot&quot;}]},{&quot;name&quot;:&quot;NielsenTracking&quot;,&quot;category&quot;:&quot;tracking&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;host&quot;,&quot;value&quot;:&quot;https:\/\/secure-us.imrworldwide.com\/cgi-bin\/m?&quot;},{&quot;name&quot;:&quot;scCI&quot;,&quot;value&quot;:&quot;us-200330&quot;},{&quot;name&quot;:&quot;scC6&quot;,&quot;value&quot;:&quot;vc,c01&quot;}]},{&quot;name&quot;:&quot;MuxQOSPluginJS&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;propertyKey&quot;,&quot;value&quot;:&quot;b7d6e48b7461a61cb6e863a62&quot;}]}],&quot;trackingAccount&quot;:&quot;cbsigamespotsite&quot;,&quot;trackingSiteCode&quot;:&quot;gs&quot;,&quot;trackingPrimaryId&quot;:&quot;cbsigamespotsite&quot;,&quot;videoAssetSource&quot;:&quot;GameSpot&quot;,&quot;uvpjsHostname&quot;:&quot;\/\/www.gamespot.com&quot;,&quot;siteType&quot;:&quot;responsive web&quot;,&quot;startMuted&quot;:false,&quot;screenMediumThumb&quot;:&quot;https:\/\/www.gamespot.com\/a\/uploads\/screen_medium\/1574\/15746725\/4502935-expedition33_site.jpg&quot;,&quot;videoStreams&quot;:{&quot;adaptive_stream&quot;:&quot;https:\/\/cdn.jwplayer.com\/manifests\/j1GGcoTJ.m3u8&quot;},&quot;userId&quot;:0,&quot;premium&quot;:false,&quot;datePublished&quot;:1748876400,&quot;videoAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;videoAdMobilePartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;}" data-non-iframe-embed="1" data-jw-context-name="gamespot" data-jw-media-id="j1GGcoTJ" data-jw-player-url="https://cdn.jwplayer.com/libraries/VXc5h4Tf.js" data-jw-video-token="" data-has-youtube="" data-youtube-icon-path="https://www.gamespot.com/a/bundles/phoenixsite/images/core/loose/icn-youtube-30x30.png" id="video-rectangle"><div><p>
+    <div tabindex="0" data-id="2082900162" data-promo-id="0" data-user-has-ads="1" data-video="{&quot;id&quot;:6466022,&quot;title&quot;:&quot;Clair%20Obscur%3A%20Expedition%2033%20GameSpot%20Video%20Review&quot;,&quot;lengthSeconds&quot;:656,&quot;startTime&quot;:0,&quot;autoplay&quot;:true,&quot;share&quot;:{&quot;linkUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/clair-obscur-expedition-33-gamespot-video-review\/2300-6466022\/&quot;,&quot;embedUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/embed\/6466022\/&quot;,&quot;embedHtml&quot;:{&quot;640&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6466022\/\&quot; height=\&quot;360\&quot; width=\&quot;640\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;,&quot;480&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6466022\/\&quot; height=\&quot;270\&quot; width=\&quot;480\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;}},&quot;device&quot;:&quot;other&quot;,&quot;isDevice&quot;:false,&quot;isLiveStream&quot;:false,&quot;videoType&quot;:&quot;video-on-demand&quot;,&quot;countdownTime&quot;:0,&quot;guid&quot;:&quot;gs-2300-6466022&quot;,&quot;ageGateCookieName&quot;:&quot;videoAgeGateBirthday&quot;,&quot;watchedCookieName&quot;:&quot;watchedVideoIds&quot;,&quot;watchedCookieDays&quot;:1,&quot;postPlayMax&quot;:100,&quot;adCall&quot;:{&quot;host&quot;:&quot;http:\/\/pubads.g.doubleclick.net\/gampad\/ads?&quot;,&quot;params&quot;:{&quot;iu&quot;:&quot;\/5441\/vaw-gamespot\/desktop\/gamespot.com&quot;,&quot;impl&quot;:&quot;s&quot;,&quot;gdfp_req&quot;:1,&quot;env&quot;:&quot;vp&quot;,&quot;output&quot;:&quot;xml_vmap1&quot;,&quot;unviewed_position_start&quot;:1,&quot;url&quot;:&quot;[referrer_url]&quot;,&quot;correlator&quot;:&quot;[timestamp]&quot;,&quot;description_url&quot;:&quot;[description_url]&quot;,&quot;cmsid&quot;:2566084,&quot;vid&quot;:6466022,&quot;pp&quot;:&quot;vpaid_js&quot;},&quot;custParams&quot;:{&quot;ptype&quot;:&quot;news_article&quot;,&quot;cid&quot;:&quot;gs-1100-6533547&quot;,&quot;game&quot;:&quot;clair-obscur-expedition-33&quot;,&quot;genre&quot;:&quot;role-playing&quot;,&quot;con&quot;:&quot;xbox-series-x,pc,playstation-5&quot;,&quot;publisher&quot;:&quot;kepler-interactive&quot;,&quot;embed&quot;:&quot;autoplay&quot;,&quot;category&quot;:&quot;games&quot;,&quot;partner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;vid&quot;:6466022},&quot;soundBasedSize&quot;:{&quot;normal&quot;:&quot;640x480&quot;,&quot;muted&quot;:&quot;640x483&quot;,&quot;none&quot;:&quot;640x480&quot;},&quot;daiSsbUrl&quot;:&quot;https:\/\/dai.google.com\/ondemand\/hls\/content\/2572465\/vid\/6466022\/master.m3u8&quot;,&quot;daiMidRollHost&quot;:2500176},&quot;uvpHi5Ima&quot;:&quot;https:\/\/s0.2mdn.net\/instream\/html5\/ima3.js&quot;,&quot;cuePoints&quot;:null,&quot;uvpc&quot;:&quot;&quot;,&quot;partner&quot;:&quot;gamespot&quot;,&quot;adPartner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;desktopAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;mobileAdPartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;,&quot;mapp&quot;:&quot;gamespot&quot;,&quot;cms&quot;:&quot;pi&quot;,&quot;seekablePlaybacks&quot;:[&quot;html5&quot;,&quot;uvpjs&quot;],&quot;tracking&quot;:[{&quot;name&quot;:&quot;SiteCatalyst&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;charSet&quot;,&quot;value&quot;:&quot;UTF-8&quot;},{&quot;name&quot;:&quot;currencyCode&quot;,&quot;value&quot;:&quot;USD&quot;},{&quot;name&quot;:&quot;siteType&quot;,&quot;value&quot;:&quot;responsive web&quot;},{&quot;name&quot;:&quot;trackingServer&quot;,&quot;value&quot;:&quot;saa.gamespot.com&quot;},{&quot;name&quot;:&quot;visitorNamespace&quot;,&quot;value&quot;:&quot;cbsinteractive&quot;},{&quot;name&quot;:&quot;heartbeatTrackingServer&quot;,&quot;value&quot;:&quot;newimagitasinc.hb.omtrdc.net&quot;},{&quot;name&quot;:&quot;heartbeatVisitorMarketingCloudOrgId&quot;,&quot;value&quot;:&quot;3C66570E5FE1A4AB0A495FFC@AdobeOrg&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;siteCode&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;brand&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;account&quot;,&quot;value&quot;:&quot;cbsigamespotsite&quot;},{&quot;name&quot;:&quot;edition&quot;,&quot;value&quot;:&quot;us&quot;}]},{&quot;name&quot;:&quot;ComScore_ss&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;c2&quot;,&quot;value&quot;:&quot;31824268&quot;},{&quot;name&quot;:&quot;publishersSecret&quot;,&quot;value&quot;:&quot;2cb08ca4d095dd734a374dff8422c2e5&quot;},{&quot;name&quot;:&quot;c3&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;c4&quot;,&quot;value&quot;:&quot;gamespot&quot;}]},{&quot;name&quot;:&quot;NielsenTracking&quot;,&quot;category&quot;:&quot;tracking&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;host&quot;,&quot;value&quot;:&quot;https:\/\/secure-us.imrworldwide.com\/cgi-bin\/m?&quot;},{&quot;name&quot;:&quot;scCI&quot;,&quot;value&quot;:&quot;us-200330&quot;},{&quot;name&quot;:&quot;scC6&quot;,&quot;value&quot;:&quot;vc,c01&quot;}]},{&quot;name&quot;:&quot;MuxQOSPluginJS&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;propertyKey&quot;,&quot;value&quot;:&quot;b7d6e48b7461a61cb6e863a62&quot;}]}],&quot;trackingAccount&quot;:&quot;cbsigamespotsite&quot;,&quot;trackingSiteCode&quot;:&quot;gs&quot;,&quot;trackingPrimaryId&quot;:&quot;cbsigamespotsite&quot;,&quot;videoAssetSource&quot;:&quot;GameSpot&quot;,&quot;uvpjsHostname&quot;:&quot;\/\/www.gamespot.com&quot;,&quot;siteType&quot;:&quot;responsive web&quot;,&quot;startMuted&quot;:false,&quot;screenMediumThumb&quot;:&quot;https:\/\/www.gamespot.com\/a\/uploads\/screen_medium\/1574\/15746725\/4502935-expedition33_site.jpg&quot;,&quot;videoStreams&quot;:{&quot;adaptive_stream&quot;:&quot;https:\/\/cdn.jwplayer.com\/manifests\/j1GGcoTJ.m3u8&quot;},&quot;userId&quot;:0,&quot;premium&quot;:false,&quot;datePublished&quot;:1748876400,&quot;videoAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;videoAdMobilePartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;}" data-non-iframe-embed="1" data-jw-context-name="gamespot" data-jw-media-id="j1GGcoTJ" data-jw-player-url="https://cdn.jwplayer.com/libraries/VXc5h4Tf.js" data-jw-video-token="" data-has-youtube="" data-youtube-icon-path="https://www.gamespot.com/a/bundles/phoenixsite/images/core/loose/icn-youtube-30x30.png" id="video-rectangle"><div><p>
         Want us to remember this setting for all your devices?
       </p><p><a href="https://www.gamespot.com/signup/">Sign up</a> or <a href="https://www.gamespot.com/login/">Sign in</a> now!
       </p></div><p>
@@ -173,56 +360,6 @@
     
             
     </article></div><br/><br/>https://www.gamespot.com/articles/itch-io-is-reaching-out-to-other-payment-processors-following-ban-on-adult-games/1100-6533545/?ftag=CAD-01-10abi2f]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[New Drag X Drive Trailer Makes The Game Look Like A Great Arm Workout]]></title>
-            <link>https://www.gamespot.com/articles/new-drag-x-drive-trailer-makes-the-game-look-like-a-great-arm-workout/1100-6533544/?ftag=CAD-01-10abi2f</link>
-            <guid>https://www.resetera.com/threads/new-drag-x-drive-trailer-makes-the-game-look-like-a-great-arm-workout.1257060/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p>
-    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
-  </p><article itemscope="" data-type-id="1100" data-guid="1100-6533544">
-
-            
-            
-  
-
-
-        
-
-  
-
-
-        
-        
-              <section>
-
-                  
-          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
-                <p>The next Switch 2 exclusive, <a href="https://www.gamespot.com/games/drag-x-drive/" data-ref-id="5000-671279">Drag x Drive</a>, arrives soon on August 14. Ahead of its release, Nintendo has uploaded a new gameplay trailer revealing more details and reminding players of the <a href="https://www.gamespot.com/articles/you-can-try-switch-2-wheelchair-basketball-game-drag-x-drive-next-month-but-theres-a-catch/1100-6533193/" data-ref-id="1100-6533193">upcoming Global Jam demo</a>.</p><p data-embed-type="video" data-src="https://www.youtube.com/watch?v=-Ls_NtQ0s8k" data-width="100%" data-height="100%">          <iframe src="https://www.youtube-nocookie.com/embed/-Ls_NtQ0s8k" height="100%" width="100%" scrolling="no" frameborder="" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></p><p>This will kick off on August 9 and runs through August 10, but the catch here is that you'll need an active Switch Online membership to access it. If you're interested, the demo will be available to download later today and the sessions will take place at the following times:</p><h2>Drag x Drive Global Jam playtest times</h2><h3>August 9</h3><ul><li>3 AM - 7 AM PT / 6 AM ET - 10 AM ET</li><li>5 PM - 9 PM PT / 8 PM ET - 12 AM ET</li></ul><h3>August 10</h3><ul><li>9 AM - 1 PM PT / 12 PM ET - 4 PM ET</li></ul><p>As mentioned above, the new overview trailer also provided plenty of details on how to play Drag x Drive. The Joy-Con 2 controllers are used to control each wheel on the wheelchair via mouse controls, and you can swipe forward or backward to control your momentum and direction. While a table is probably best for using these controls, Nintendo added that "most" flat surfaces--like your legs--will do just fine in a pinch. I've also tried the mouse controls on my oblivious cat as he naps on my bed next to me, and his squishy body worked surprisingly well as an impromptu mousepad while creating art in Donkey Kong Bananza.</p><p>Drag x Drive is one of two big releases for the Switch 2 in August. An upgraded version of Kirby and the Forgotten Land launches on August 28, and it'll include a brand-new expansion alongside updated graphics.</p><p><a href="https://www.gamespot.com/articles/pokemon-legends-z-a-launches-in-october-nintendo-switch-2-edition-detailed/1100-6531855/" data-ref-id="1100-6531855">Pokemon Legends: Z-A</a> is also out in October, and Nintendo announced a new Direct livestream for July 31. The company says there'll be "roughly 25 minutes of information" on upcoming games to expect here, so it'll be interesting to see if <a href="https://www.gamespot.com/articles/metroid-prime-4-everything-we-know/1100-6492292/" data-ref-id="1100-6492292">Metroid Prime 4: Beyond</a> gets a proper release-date confirmation.</p>
-  
-                        
-    
-        
-        
-  
-                                  </div>
-
-
-          
-  
-    
-          
-            
-  <div>
-    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
-
-    
-      </div>
-        
-      </section>
-    
-            
-    </article></div><br/><br/>https://www.gamespot.com/articles/new-drag-x-drive-trailer-makes-the-game-look-like-a-great-arm-workout/1100-6533544/?ftag=CAD-01-10abi2f]]></content:encoded>
         </item>
     </channel>
 </rss>
