@@ -4,9 +4,55 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Tue, 05 Aug 2025 18:21:40 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 05 Aug 2025 18:39:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[PS6 Performance Estimate Puts Its Around 9070XT Level, While Xbox Next Is Around RTX 5080; RDNA5 Has More Features Than Blackwell]]></title>
+            <link>https://wccftech.com/ps6-performance-9070-xt-xbox-next-rtx-5080-rdna5-features/</link>
+            <guid>https://www.resetera.com/threads/ps6-performance-estimate-puts-its-around-9070xt-level-while-xbox-next-is-around-rtx-5080-rdna5-has-more-features-than-blackwell.1262814/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>Leaks and rumors about the performance of the future PS6 console have significantly increased lately. Last Friday, YouTuber Moore's Law Is Dead <a href="https://wccftech.com/playstation-6-playstation-handheld-specs-leaked-rasterization-performance/" target="_blank" rel="noreferrer noopener">shared</a> estimates of the PlayStation 6's rasterization performance, suggesting that it would be three times as fast as the base PlayStation 5, which would put it around the level of NVIDIA's GeForce RTX 4080. Later, the same YouTuber <a href="https://wccftech.com/playstation-6-will-deliver-5-10x-ray-tracing-performance-over-base-ps5-a-4k-120-fps-console-will-be-a-compelling-proposition-at-anything-below-900/" target="_blank" rel="noreferrer noopener">commented</a> that the performance uplift during ray tracing operations will be much higher, between five and ten times as fast as the base PS5.</p>
+
+
+
+<p>Now, though, AMD insider KeplerL2 has shared different predictions. <a href="https://www.neogaf.com/threads/mlid-ps6-early-specs-leak-amd-rdna-5-lower-price-than-ps5-pro.1686842/post-270687172" target="_blank" rel="noreferrer noopener">According to him</a>, the PS6 will be around the performance level of the AMD Radeon RX 9070XT, AMD's current flagship GPU. However, the next-generation Xbox will be slightly more powerful, with KeplerL2 comparing it to NVIDIA's GeForce RTX 5080. Both consoles will be powered by AMD's RDNA 5 architecture, which KeplerL2 reckons will be the largest architectural overhaul since the Graphics Core Next (GCN) era. Additionally, the insider said it will have even more features than NVIDIA's latest architecture, Blackwell; to prove that, the insider linked to several AMD patents:</p>
+
+
+
+<ul>
+<li><em>Dense Geometry Format (basically HW level Nanite):&nbsp;<a href="https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2025085121&amp;_cid=P10-M9Z292-55079-1" target="_blank" rel="noreferrer noopener">WO2025085121 DENSE GEOMETRY FORMAT</a><a href="https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2025085120&amp;_cid=P10-M9Z292-55079-1" target="_blank" rel="noreferrer noopener">WO2025085120 INTERSECTION TESTING ON DENSE GEOMETRY DATA USING TRIANGLE PREFILTERING</a></em></li>
+
+
+
+<li><em>Streaming Wave Coalescer (out-of-order execution):&nbsp;<a href="https://patentscope.wipo.int/search/en/detail.jsf?docId=US449760634&amp;_cid=P21-MCSE32-10910-1" target="_blank" rel="noreferrer noopener">US20250068429 STREAMING WAVE COALESCER CIRCUIT</a><a href="https://patentscope.wipo.int/search/en/detail.jsf?docId=US454584960&amp;_cid=P21-MCSE32-10910-1" target="_blank" rel="noreferrer noopener">US20250130811 Spill-After Programming Model for the Streaming Wave Coalescer</a></em></li>
+
+
+
+<li><em>Workgroup self-launch (reduced CPU and GPU-frontend bottlenecks):&nbsp;<a href="https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2025144455&amp;_cid=P21-MCPWUB-70374-1" target="_blank" rel="noreferrer noopener">WO2025144455 LOCAL LAUNCH IN WORKGROUP PROCESSORS</a></em></li>
+
+
+
+<li><em>Many improvements to RT cores (beyond current uarchs):&nbsp;<a href="https://patentscope.wipo.int/search/en/detail.jsf?docId=US457339116&amp;_cid=P21-MC3H3Z-75326-2" target="_blank" rel="noreferrer noopener">US20250182377 CONFIGURABLE RAY/EDGE TESTING FOR CONVEX POLYGON GROUPS</a><a href="https://patentscope.wipo.int/search/en/detail.jsf?docId=US458063276&amp;_cid=P21-MCPWUB-70374-7" target="_blank" rel="noreferrer noopener">US20250200890 PRISM VOLUMES FOR DISPLACED SUBDIVIDED TRIANGLES</a><a href="https://patentscope.wipo.int/search/en/detail.jsf?docId=US458063251&amp;_cid=P21-MCPWUB-70374-6" target="_blank" rel="noreferrer noopener">US20250200865 RAY TRACING OF DISPLACED MICRO MESHES USING A BOUNDING PRISM HIERARCHY</a><a href="https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2025144454&amp;_cid=P21-MCPWUB-70374-1" target="_blank" rel="noreferrer noopener">WO2025144454 SYSTEMS AND METHODS FOR DETECTING RAY INTERSECTIONS WITH DISPLACED MICRO-MESHES</a></em></li>
+</ul>
+
+
+
+<p>The comment around the next-generation Xbox is interesting because Moore's Law Is Dead has suggested that Microsoft's upcoming console (<a href="https://wccftech.com/xbox-next-magnus-apu-flexibility-compete-pre-built-pcs/" target="_blank" rel="noreferrer noopener">powered by the Magnus APU</a>) would be less powerful than the PS6. Microsoft did <a href="https://wccftech.com/xbox-next-generation-largest-technical-leap-ever-seen/" target="_blank" rel="noreferrer noopener">promise</a> its fans a year and a half ago that the next console would deliver the 'largest technical leap ever' seen in a hardware generation.</p>
+
+
+
+<p>Considering these consoles are still two to three years out, we may have to wait a long time to get the official specs. That said, we'll keep reporting on credible leaks and rumors in the meantime.</p>
+
+			
+		</div></div><br/><br/>https://wccftech.com/ps6-performance-9070-xt-xbox-next-rtx-5080-rdna5-features/]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Game Pass Adds Assassin’s Creed Mirage, Rain World and More]]></title>
             <link>https://wccftech.com/game-pass-adds-assassins-creed-mirage-rain-world/</link>
@@ -68,40 +114,6 @@
 
 			
 		</div></div><br/><br/>https://wccftech.com/game-pass-adds-assassins-creed-mirage-rain-world/]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[PlayStation 6 Will Deliver 5–10x Ray Tracing Performance Over Base PS5; A 4K, 120 FPS Console Will Be a Compelling Proposition At Anything Below $900]]></title>
-            <link>https://wccftech.com/playstation-6-will-deliver-5-10x-ray-tracing-performance-over-base-ps5-a-4k-120-fps-console-will-be-a-compelling-proposition-at-anything-below-900/</link>
-            <guid>https://www.resetera.com/threads/playstation-6-will-deliver-5%E2%80%9310x-ray-tracing-performance-over-base-ps5-a-4k-120-fps-console-will-be-a-compelling-proposition-at-anything-below-900.1262613/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			<p>The PlayStation 6 will sport significantly better ray tracing performance than the base PlayStation 5, a performance uplift in line with the current generation system's rasterization performance improvement over the PlayStation 4, which somehow signals a change in focus for the company.</p>
-
-
-
-<p>During the latest episode of the Broken Silicon podcast, <a href="https://www.youtube.com/@MooresLawIsDead">Moore's Law is Dead</a> provided additional comments on last week's <a href="https://youtu.be/x9WV8r-T6LI?si=sp3489uSdifLvgTt&amp;t=3327">P</a><a href="https://wccftech.com/playstation-6-playstation-handheld-specs-leaked-rasterization-performance/">layStation 6 leaks</a>, revealing that while specs may have been changed since that presentation, the fundamental idea behind the next-generation system hasn't changed. While the two to three times the PS5 rasterization performance estimation has been confirmed, Moore's Law is Dead provided some additional details on the system's ray tracing performance, saying that it will be five to ten times the current generation system ray tracing performance. </p>
-
-
-
-<p>The rasterization and ray tracing performance uplift that the PlayStation 6 will deliver over that of its predecessor makes sense, according to the leaker. Rasterization performance has essentially been saturated, and with the PlayStation 5 already delivering framerates in the 80s range in some titles at 4K resolution, it makes sense to have a limited rasterization performance to hit a reasonable 4K, 120 FPS target for the most common TVs while keeping costs down and still offering a significant performance improvement where it matters more. James Prior, former AMD Senior Product Manager, agrees with this sentiment, as the focus has shifted from rasterization performance to other things like ray tracing and AI upscaling. Additionally, a 4K, 120 FPS capable machine capable of delivering RTX 4080, 5080 performance is going to be a very enticing proposition at anything below $900, especially considering some of the typical console advantages over PCs like smaller form factor, plug and play convenience, power draw and more and the fact that the system is never going to compete with gaming PCs, unlike what the next-generation Xbox could be doing with the <a href="https://wccftech.com/xbox-next-magnus-apu-flexibility-compete-pre-built-pcs/">flexibility offered by the Magnus APU</a>.  As such, <span>Sony going the other way </span>in a market with a "$1000 fatigue"&nbsp;with devices like smartphones and GPUs costing $1000 or more would be very interesting.</p>
-
-
-
-<figure><p>
-<iframe title="PS6 Ray Tracing Leak, AMD RDNA 5 Price Strategy, RTX 5080 SUPER | James Prior | Broken Silicon 321" width="500" height="281" src="https://www.youtube.com/embed/x9WV8r-T6LI?start=3327&amp;feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-</p></figure>
-
-
-
-<p>Going from what has been leaking online in the past few weeks, the next console generation promises to be extremely interesting in some unexpected ways. Hopefully, what the PlayStation 6 and next-generation Xbox will offer will be put to good use to deliver some truly next-gen experiences that could impress even those like Hideo Kojima who are feeling a sort of stagnation with games that <a href="https://wccftech.com/hideo-kojima-disappointed-industry/">look and play the same.</a></p>
-
-			
-		</div></div><br/><br/>https://wccftech.com/playstation-6-will-deliver-5-10x-ray-tracing-performance-over-base-ps5-a-4k-120-fps-console-will-be-a-compelling-proposition-at-anything-below-900/]]></content:encoded>
         </item>
     </channel>
 </rss>
