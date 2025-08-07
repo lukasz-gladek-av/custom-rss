@@ -4,9 +4,60 @@
         <title>maEurogamerPL RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/eurogamerpl.xml</link>
         <description>A cleaned-up version of the original Eurogamer.pl feed</description>
-        <lastBuildDate>Thu, 07 Aug 2025 10:34:53 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 07 Aug 2025 10:47:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Gracze szturmują serwery Battlefield 6. Wielu wita jednak błąd „Secure Boot”]]></title>
+            <link>https://www.eurogamer.pl/gracze-szturmuja-serwery-battlefield-6-wielu-wita-jednak-blad-secure-boot</link>
+            <guid>https://www.eurogamer.pl/gracze-szturmuja-serwery-battlefield-6-wielu-wita-jednak-blad-secure-boot</guid>
+            <content:encoded><![CDATA[https://www.eurogamer.pl/gracze-szturmuja-serwery-battlefield-6-wielu-wita-jednak-blad-secure-boot<br/><br/><div id="readability-page-1" class="page"><div id="main-content" data-component="article-header">
+        
+
+        <p>Kolejki rosną, a anty-cheat nie ułatwia sprawy.</p>
+
+    </div><div data-component="article-content">
+
+
+
+            <p>Zamknięta beta Battlefield 6 już ruszyła. Zgodnie z oczekiwaniami, chętnych do zabawy nie brakuje - serwery pękają w szwach, a kolejki rosną z każdą godziną. Wielu graczy zderza się jednak z błędem „Secure Boot”, powiązanym z systemem anty-cheat strzelanki.</p>
+<p>Jak ujawniają dane strony <a href="https://steamdb.info/app/3081410/charts">SteamDB</a>, <strong>w becie Battlefield 6 przebywa już ponad 300 tysięcy użytkowników Steama jednocześnie</strong>. Oczywiście nie wszystkim udało się wskoczyć na pole bitwy - na forum <a href="https://www.reddit.com/r/Battlefield/comments/1mjubus/i_guess_im_not_playing_tonight">Reddit</a> znajdziemy wiele wpisów, w których gracze skarżą się na daleką pozycję w kolejce i dłużący się czas oczekiwania.</p>
+<p>Studio DICE <a href="https://x.com/BattlefieldComm/status/1953383562289299732">odpowiedziało</a> na skargi w oficjalnym komunikacie. „<em>Zespół pracuje nad powiększeniem pojemności serwerów, co powinno skrócić czas oczekiwania w kolejce. Dziękujemy za cierpliwość - robimy wszystko, by jak najszybciej wpuścić do gry jak najwięcej graczy</em>”.</p>
+<figure> <div>
+<div data-domain="twitter.com"><blockquote><div dir="ltr" lang="en"><p>Holy sh*t 🤣<br>More than 270.000 players are waiting in server queue!</p><p>If you manage to join the Open Beta, you better don't leave game. <a href="https://t.co/x9lGfpyRAd">pic.twitter.com/x9lGfpyRAd</a></p></div>— Battlefield Bulletin (@BFBulletin) <a href="https://twitter.com/BFBulletin/status/1953377379180593285?ref_src=twsrc%5Etfw">August 7, 2025</a></blockquote></div>
+<p><span data-type="targeting">
+<span>Aby zobaczyć treść, włącz cookies targeting.</span>
+</span>
+</p></div>
+<figcaption>Deweloperzy <a href="https://x.com/BattlefieldComm/status/1953364983057662181">zapewniają</a>, że długie kolejki są konieczne do zagwarantowania stabilnej rozgrywki.</figcaption>
+</figure>
+<h2>Problem z Secure Boot</h2>
+<p>Niektórzy gracze skarżą się, że nie mogą dołączyć do bety z uwagi na problem z Secure Boot (bezpiecznym rozruchem). Mowa o zabezpieczeniu wykorzystywanym w systemach Windows 10 i Windows 11 do automatycznego uruchomienia bezpiecznego oprogramowania. Jego aktywacja jest niezbędna do poprawnego działania systemu Javelin Anticheat, wykorzystywanego w Battlefield 6 (a wkrótce także i Call of Duty: Black Ops 7).</p>
+<p>Bezpieczny rozruch należy uruchomić bezpośrednio w BIOS-ie, wykonując poniższe kroki (zgodnie z <a href="https://help.ea.com/pl/articles/technical-issues/secure-boot">instrukcją</a> od wsparcia technicznego EA):</p>
+<ol>
+<li>Nacisnąć klawisze Windows + R i otworzyć narzędzie <em>Uruchamianie</em>.</li>
+<li>Wpisać <em>msinfo32</em> i nacisnąć <em>Enter</em> lub kliknąć <em>OK</em>.</li>
+<li>W oknie <em>Informacje o systemie</em> wybrać <em>Podsumowanie systemu</em>. </li>
+<li>Zjechać w dół ekranu i znaleźć dwa punkty: <em>Tryb BIOS</em> oraz <em>Stan bezpiecznego rozruchu</em>. <strong>Pierwszy powinien mieć wartość <em>UEFI</em>, a drugi - <em>Włączone</em></strong>.</li>
+<li>Jeśli Stan bezpiecznego rozruchu jest wyłączony, należy przejść do ustawień systemu i odnaleźć <em>Zmień zaawansowane opcje uruchamiania</em>.</li>
+<li>Po zresetowaniu komputera wyświetli się ekran <em>Opcje zaawansowane</em>. Należy wybrać zakładkę <em>Ustawienia oprogramowania UEFI</em>, po czym przejść do ekranu <em>Rozruch</em> i przełączyć wartość na <em>Włączony</em></li>
+</ol>
+
+<figure>
+<p>
+<a aria-label="Jak włączyć bezpieczny rozruch na komputerze" data-platform="youtube" href="https://www.youtube.com/embed/W7trKmzr3WA?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
+<span>Jak włączyć bezpieczny rozruch na komputerze</span>
+<template>
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/W7trKmzr3WA?autoplay=1" frameborder="0" loading="lazy" src="https://www.youtube-nocookie.com/embed/W7trKmzr3WA?autoplay=1" title="Jak włączyć bezpieczny rozruch na komputerze">
+</iframe> </template>
+</a>
+</p>
+<figcaption>Instrukcja jest też dostępna w formie wideo.<a href="https://www.youtube.com/watch?v=W7trKmzr3WA" rel="noopener" target="_blank">Zobacz na YouTube</a></figcaption></figure>
+
+
+<p>Obecnie beta Battlefield 6 jest dostępna wyłącznie dla graczy wyposażonych w klucz dostępu. <strong>9 i 10 sierpnia testy będą otwarte dla wszystkich zainteresowanych graczy na PC i konsolach”</strong>. Kolejna okazja pojawi się w przyszłym tygodniu, 14 sierpnia.</p>
+<p>Oficjalna premiera Battlefield 6 na PC, PlayStation 5 i Xbox Series X/S odbędzie się 10 października.</p></div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Activision podobno nie boi się Battlefielda 6. Call of Duty jest „zbyt duże, by ponieść porażkę”]]></title>
             <link>https://www.eurogamer.pl/activision-podobno-nie-boi-sie-battlefielda-6-call-of-duty-jest-zbyt-duze-by-poniesc-porazke</link>
@@ -3531,43 +3582,6 @@ Oblivion z pewnością nie może narzekać na brak niepoważnych modyfikacji. Pe
 <p>Sony chwali się także <em>„ultraniskimi opóźnianiami”</em>, nie tylko podczas korzystania z kontrolera po podłączeniu przewodowym. Oczywiście trzeba poczekać na pierwsze testy, by przekonać się, czy bezprzewodowe połączenie faktycznie będzie tak imponujące, jak obiecuje PlayStation.</p>
 <p>Mamy też okazję zobaczyć stylowe etui, choć nie wiadomo, czy będzie to opcjonalny zakup. Nie ujawniono jeszcze ceny i nie uruchomiono pre-orderów - <strong>nastąpi to być może na początku sierpnia, gdy rozpocznie się EVO w Las Vegas</strong>. To największy turniej bijatyk na świecie, które jakiś czas temu zostało właścicielem marki Evolution Championship Series.</p>
 <p>W 2026 roku ukaże się też Marvel Tokon: Fighting Souls, czyli nowa bijatyka studia Arc System Works (twórców Guilty Gear czy Dragon Ball FighterZ), powstająca we współpracy z Sony. Właśnie podczas wspomnianego EVO poznamy więcej szczegółów na temat tej produkcji.</p></div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[W Mortal Kombat: Legacy Kollection zagramy we wrześniu? Xbox mógł niechcący ujawnić datę premiery]]></title>
-            <link>https://www.eurogamer.pl/mortal-kombat-legacy-kollection-zagramy-we-wrzesniu-xbox-mogl-niechcacy-ujawnic-date-premiery</link>
-            <guid>https://www.eurogamer.pl/mortal-kombat-legacy-kollection-zagramy-we-wrzesniu-xbox-mogl-niechcacy-ujawnic-date-premiery</guid>
-            <content:encoded><![CDATA[https://www.eurogamer.pl/mortal-kombat-legacy-kollection-zagramy-we-wrzesniu-xbox-mogl-niechcacy-ujawnic-date-premiery<br/><br/><div id="readability-page-1" class="page"><div id="main-content" data-component="article-header">
-        
-
-        <p>Fani szybko dostrzegli wpadkę.</p>
-
-    </div><div data-component="article-content">
-
-
-
-            <p>Zapowiedziane w czerwcu Mortal Kombat: Legacy Kollection może być prawdziwą gratką dla fanów pierwszych odsłon serii kultowych bijatyk. Choć oficjalna data premiery nie jest jeszcze znana, to Xbox mógł nieopatrznie ujawnić ją w swojej aplikacji.</p>
-<p>Pierwszy raz o <a href="https://www.eurogamer.pl/mortal-kombat-legacy-kollection-to-pakiet-dla-fanow-klasyki-tworcy-zaoferuja-powrot-do-przeszlosci">Legacy Kolllection</a> usłyszeliśmy podczas tegorocznego pokazu State of Play. To kolekcja gromadząca kilka pierwszych odsłon serii, w wydaniach automatowych, a także na mniej lub bardziej popularnych edycjach konsolowe - w tym wersje na SNES-a, Segę Mega Drive czy Game Boya. Pakiet zawierać będzie również interaktywny dokument o serii, a także dokładnie opisaną chronologię wydarzeń i biografie postaci.</p>
-<p>Premiera została zaplanowana na 2025 rok, lecz dokładna data nie została jeszcze oficjalnie podana. <strong>W aplikacji Xboxa pojawiła się jednak informacja, że Legacy Kollection miałoby ukazać się 29 lub 30 września,</strong> zależnie od regionu, w którym korzysta się z aplikacji. Informacja ta szybko zniknęła z sieci, lecz fani zdążyli uwiecznić ją za pomocą zrzutów ekranu.</p> <div>
-
-<p><span data-type="targeting">
-<span>Aby zobaczyć treść, włącz cookies targeting.</span>
-</span>
-</p></div>
-<p>Na tę chwilę nie otrzymaliśmy żadnego oficjalnego potwierdzenia ani zdementowania tych doniesień. Ciekawą informacją jest również rozmiar plików do pobrania. Pakiet będzie wymagał 16 GB wolnego miejsca na dysku. Najprawdopodobniej więcej miejsca, niż same gry, będą zajmować interaktywne filmy dokumentalne.</p>
-
-<figure>
-<p>
-<a aria-label="Mortal Kombat: Legacy Kollection - Announce Trailer | PS5 &amp; PS4 Games" data-platform="youtube" href="https://www.youtube.com/embed/st7exi9Oo8U?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
-<span>Mortal Kombat: Legacy Kollection - Announce Trailer | PS5 &amp; PS4 Games</span>
-<template>
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/st7exi9Oo8U?autoplay=1" frameborder="0" loading="lazy" src="https://www.youtube-nocookie.com/embed/st7exi9Oo8U?autoplay=1" title="Mortal Kombat: Legacy Kollection - Announce Trailer | PS5 &amp; PS4 Games">
-</iframe> </template>
-</a>
-</p>
-<a href="https://www.youtube.com/watch?v=st7exi9Oo8U" rel="noopener" target="_blank">Zobacz na YouTube</a></figure>
-
-
-<p>Oprócz Xboxa One i Series X/S, Legacy Kollection ma ukazać się również na PlayStation 4 i 5, PC, a także pierwszym i drugim Nintendo Switch. Zbiorcze wydanie klasycznych odsłon Mortal Kombat jest dziełem studia Digital Eclipse, mającego na swoim koncie podobne wydawnictwa, w tym Street Fighter 30th Anniversary Collection czy Teenage Mutant Ninja Turtles Cowabunga Collection.</p></div></div>]]></content:encoded>
         </item>
     </channel>
 </rss>
