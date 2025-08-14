@@ -4,9 +4,171 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Thu, 14 Aug 2025 20:34:06 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 Aug 2025 20:44:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Battlefield 6 Beta – How To Enable Secure Boot]]></title>
+            <link>https://wccftech.com/how-to/battlefield-6-beta-how-to-enable-secure-boot/</link>
+            <guid>https://www.resetera.com/threads/battlefield-6-beta-%E2%80%93-how-to-enable-secure-boot.1270629/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>The <a href="https://wccftech.com/tag/battlefield-6/">Battlefield 6</a> Open Beta is currently playable on PS5, Xbox Series X/S, and PC right now until August 17. But PC players in particular learned that they might have to jump through more hoops than those on consoles. If you've been unable to launch the beta due to an error message telling you that 'Secure Boot' needs to be enabled, this guide will show you how to do that so you can get into the action on your PC in no-time.</p>
+
+
+
+<h2 id="h-battlefield-6-beta-how-to-enable-secure-boot">Battlefield 6 Beta - How To Enable Secure Boot</h2>
+
+
+
+<h3 id="h-what-is-secure-boot">What is Secure Boot?</h3>
+
+
+
+<figure><figcaption>Battlefield 6 will require Secure Boot to be enabled even when the game launches in October.</figcaption></figure>
+
+
+
+<p>To put it simply, Secure Boot is a feature available on both Windows 10 and Windows 11 that scans for malicious software, and in this case, cheat software, that could load ahead of your operating system.</p>
+
+
+
+<p>It's a feature that EA needs your PC to have enabled, so that it's kernel-level anti-cheat Javelin software can help keep Battlefield 6 cheater-free.</p>
+
+
+
+<p>On EA's <a href="https://www.ea.com/en/games/battlefield/battlefield-6/news/secure-boot-information">official website</a>, the company calls Secure Boot being enabled a "<em>requirement</em>" for "<em>enhanced security while playing and utilizing new anti-cheat features in Battlefield...Requiring Secure Boot provides us with features that we can leverage against cheats that attempt to infiltrate during the Windows boot process. It also lets the Battlefield Positive Play team use its own features and related dependent security features like TPM to combat other forms of cheating</em>."</p>
+
+
+
+<p>Kernel-level anti-cheat isn't always the most popular thing with PC players, as some see it as giving companies too much access to your personal device. But regardless of your feelings, you won't be playing Battlefield 6 on PC without it. And at least for now, it seems to be doing its job, with EA reporting that it has <a href="https://wccftech.com/battlefield-6-beta-breaks-470k-users-steam-anti-cheat-stopped-330k-attempts/">already stopped hundreds of thousands of cheaters in this beta</a>.</p>
+
+
+
+<h3 id="h-step-1-check-to-see-if-you-can-even-enable-secure-boot">Step 1 - Check to see if you can even enable Secure Boot</h3>
+
+
+
+<p>Before you jump down to the rest of the steps, you need to figure out if you can even enable Secure Boot without taking a few more extra steps, like potentially having to contact the manufacturer of your PC's motherboard. </p>
+
+
+
+<ul>
+<li>The first thing you'll need to do is navigate to your <strong>System Information </strong>menu, which you can find just by searching 'System Information' in the Start Menu on your taskbar. You can also type 'misinfo32' into your menu to open the menu without the need for an extra click.</li>
+</ul>
+
+
+
+<ul>
+<li>Once you're there, you'll be checking after the status of two of the listed items, <strong>Secure Boot State</strong> and <strong>BIOS Mode</strong>. If you've been getting the error message that Secure Boot needs to be enabled to run the Battlefield 6 Open Beta, then the former of the two should say 'Off.'</li>
+</ul>
+
+
+
+<ul>
+<li>Regarding BIOS Mode, you want the value to be <strong>UEFI</strong>. If the value is 'Legacy,' than you're unfortunately going to have to jump through a few more hoops to make this work, specifically checking to see if your Windows disk partition is GPT or MBR.</li>
+</ul>
+
+
+
+<figure><figcaption>You're looking for the settings at the top and bottom of this image.</figcaption></figure>
+
+
+
+<p>Before we get into that, however, you'll also need to do a quick check that TPM 2.0 is enabled and ready to use. You can do this by typing '<strong>tpm.msc</strong>' into your Start Menu taskbar to find the Trusted Platform Module window, or by entering 'tpm.msc' in the Windows Run menu, which you can access by pressing the Windows key and the 'R' key at the same time. </p>
+
+
+
+<p>This is what you're hoping to see when you open the menu:</p>
+
+
+
+<figure><figcaption>If TPM is not ready to use, or you get a message that says 'Compatible TPM cannot be found,' you'll need to look to your motherboard's manufacturer for more help.</figcaption></figure>
+
+
+
+<h3 id="h-step-2-check-your-windows-disk-partition-and-convert-it-from-mbr-to-gpt-if-necessary">Step 2 - Check your Windows Disk partition, and convert it from MBR to GPT if necessary</h3>
+
+
+
+<p>Start by pressing the <strong>'X'</strong> key and the Windows key at the same time. That will open a menu where you can then select '<strong>Disk Management</strong>.'</p>
+
+
+
+<p>You're looking for the disk where you installed Windows, which is generally marked <strong>(C:)</strong>. Right-click on the number on the left of the drive (which is usually '0') and then select '<strong>Properties</strong><em>'</em> in the resulting menu. You'll then navigate to '<strong>Volumes'</strong>, where you will hope to see the following:</p>
+
+
+
+<figure><figcaption>If the partition is not GPT, you'll need to convert it.</figcaption></figure>
+
+
+
+<p>If everything up until now has appeared as it should, then you can jump right ahead to the final step of enabling Secure Boot in your BIOS.</p>
+
+
+
+<p>To convert the partition from MBR to GPT, start by pressing the '<strong>R</strong>' key and the Windows key at the same time. Type '<strong>powershell</strong>' and in the resulting window, press <strong>'Ctrl+Shift+Enter</strong>' to open a command prompt as an administrator. </p>
+
+
+
+<p>Run this command to validate your disk and ensure that the number (which again, is usually '0') matches the number you found in the Disk Management menu: </p>
+
+
+
+<ul>
+<li><strong>mbr2gpt /validate /disk:X /allowFullOS</strong></li>
+</ul>
+
+
+
+<p>If it doesn't match, you'll need to replace it with the matching number. If/when the validation passes, to finally convert your disk partition from MBR to GPT, run this command: </p>
+
+
+
+<ul>
+<li><strong>mbr2gpt /convert /disk:X /allowFullOS</strong></li>
+</ul>
+
+
+
+<p>Once that has completed, head back to your Disk Management menu, back into Properties and then Volumes to ensure that your disk partition has successfully converted to GPT.</p>
+
+
+
+<h3 id="h-step-3-enable-secure-boot">Step 3 - Enable Secure Boot</h3>
+
+
+
+<p>After all those checks to ensure that everything is as it should be (apart from Secure Boot already being enabled, of course) we're finally ready to enable Secure Boot.</p>
+
+
+
+<p>It's at this point where you also might have to check with your motherboard's manufacturer on where to find Secure Boot in your computer's BIOS. It's worth keeping the official support page for your motherboard open on a separate device, if you have one available, to help you out with this part if you need it.</p>
+
+
+
+<p>Start by restarting your computer and entering your BIOS. You get into the BIOS by constantly pressing either the '<strong>F12</strong>' key or the '<strong>Del</strong>' key while your computer is booting back up. It might be different depending on your specific computer, but you should launch into your BIOS by mashing either key.</p>
+
+
+
+<p>Once in your BIOS, Secure Boot will usually be found either in your advanced settings or security settings. From there, it should be a simple change to 'Enable Secure Boot,' or to make Secure Boot 'Active' as opposed to 'Inactive.'</p>
+
+
+
+<p>You can also potentially hit one last snag here, where you might not be able to adjust your Secure Boot settings. If that's the case, then you may need to find a setting named '<strong>Restore Factory Keys</strong>' or something similar. Selecting that will boot you back into the BIOS, where you should now be able to adjust your Secure Boot settings.</p>
+
+
+
+<p>Restart your computer one last time, and then you should have no trouble launching the Battlefield 6 Open Beta. If you still have a problem, then you'll need to go to your motherboard's manufacturer to get a clearer idea of what's causing the issue.</p>
+
+			
+		</div></div><br/><br/>https://wccftech.com/how-to/battlefield-6-beta-how-to-enable-secure-boot/]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Capcom Will Showcase Its “Recent and Upcoming Releases” with a 90-Minute Capcom Presents Panel At New York City Comic-Con]]></title>
             <link>https://wccftech.com/capcom-hosting-panel-capcom-presents-new-york-city-comic-con/</link>
