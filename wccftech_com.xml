@@ -4,7 +4,7 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Thu, 21 Aug 2025 08:35:19 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 21 Aug 2025 08:46:14 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -140,48 +140,6 @@
 
 			
 		</div></div><br/><br/>https://wccftech.com/bioshock-4-late-2027-release-cloud-chamber-layoffs-80-people/]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Microsoft Unveils DirectX Advanced Shader Delivery to Combat Shader Stuttering]]></title>
-            <link>https://wccftech.com/microsoft-directx-advanced-shader-delivery-combat-shader-stuttering/</link>
-            <guid>https://www.resetera.com/threads/microsoft-unveils-directx-advanced-shader-delivery-to-combat-shader-stuttering.1276425/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			<p>Today, Microsoft's DirectX team <a href="https://devblogs.microsoft.com/directx/introducing-advanced-shader-delivery/" target="_blank" rel="noreferrer noopener">unveiled</a> a new feature called Advanced Shader Delivery. This feature will make its debut on the ROG Xbox Ally and ROG Xbox Ally X handhelds (now officially inbound <a href="https://wccftech.com/rog-xbox-ally-x-release-date-gamescom-2025/">on October 16</a> for $549.99 and $899.99, respectively), but it will eventually roll out to regular PCs. A dedicated AgilitySDK will be released to game developers next month, allowing them to integrate the functionality in their upcoming and even existing games.</p>
-
-
-
-<p>The purpose of Advanced Shader Delivery, which was co-developed with Xbox and AMD, is to address one of the banes of PC gamers: shader stuttering. The DirectX team said:</p>
-
-
-
-<p><em>We have partnered with teams across Xbox and at AMD to precompile this data and distribute it at download time for key titles via the Xbox PC app This approach not only gets you into your games faster, but it also prevents most instances of stutter that cause performance issues.</em> <em>As an example, in Obsidian Entertainment’s Avowed, our engineering teams observed launch times reduced by as much as 85%. This not only means you’re playing your game faster, but your battery life is spent on playtime, not compiling.</em></p>
-
-
-
-<p>The process involves a new method of collecting shader data from any game and packaging it in a new, standardized format called a State Object Database (SODB). The DirectX engineers successfully separated the shader compiler from the graphics driver and united the game data in the SODB with the compiler in the cloud to create a Precompiled Shader Database (PSDB). The PSDB can then be distributed by the Xbox Store alongside the game, supplementing the shader cache. When a game runs for the first time, it sees that all the necessary shaders are already available in a Windows cache and can therefore skip the compilation step on the gaming device. If a device receives a driver update, the app will detect this and automatically update the shader cache.</p>
-
-
-
-
-
-<figure></figure>
-
-
-
-<p>The caveat is that in the beginning, this will only work on titles distributed via the Xbox app, not Steam (or the Epic Games Store, GOG, Ubisoft Connect, etc.). However, other storefronts may eventually integrate the feature via the upcoming AgilitySDK.</p>
-
-
-
-<p>It'll be intriguing to see whether Advanced Shader Delivery can truly help with solving the issue of shader stuttering in PC games.</p>
-
-			
-		</div></div><br/><br/>https://wccftech.com/microsoft-directx-advanced-shader-delivery-combat-shader-stuttering/]]></content:encoded>
         </item>
     </channel>
 </rss>
