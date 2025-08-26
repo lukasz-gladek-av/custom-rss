@@ -4,7 +4,7 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Tue, 26 Aug 2025 10:34:35 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 Aug 2025 10:44:55 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -96,68 +96,6 @@
 
 			
 		</div></div><br/><br/>https://wccftech.com/hideaki-itsuno-brings-several-ex-capcom-developers-to-lightspeed/]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[NVIDIA Shows Off Significant Level Up of the GeForce NOW Experience at Gamescom 2025]]></title>
-            <link>https://wccftech.com/nvidia-shows-off-significant-level-up-of-the-geforce-now-experience-at-gamescom-2025/</link>
-            <guid>https://www.resetera.com/threads/nvidia-shows-off-significant-level-up-of-the-geforce-now-experience-at-gamescom-2025.1280250/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			<p>Ahead of Gamescom 2025, NVIDIA <a href="https://wccftech.com/nvidia-geforce-now-blackwell-rtx-5080-pc-like-latency-image-quality-install-to-play-new-games-same-price/" target="_blank" rel="noreferrer noopener">announced</a> what it has been calling the largest upgrade ever made to its GeForce NOW cloud gaming platform. The backbone is, of course, the advent of the Blackwell architecture previously seen in the GeForce RTX 50 Series graphics cards.</p>
-
-
-
-<p>The Ultimate tier will be updated with RTX 5080-class (a server equivalent to the desktop GPU) GPU hardware and AMD Zen 5 CPUs. The new server hardware will deliver 62 teraflops of compute performance and a 48GB frame buffer, not to mention a performance uplift of up to 2.8x compared to the previous generation, partly thanks to NVIDIA DLSS 4 Multi Frame Generation.</p>
-
-
-
-<p>While important, though, this hardware upgrade is just a portion of the enhancements coming to GeForce NOW that NVIDIA showed off to press, Wccftech included, at a dedicated Gamescom 2025 event. One of the new features, Cinematic Quality Streaming or CQS, is actually a set of features that includes additions like YUV 4:4:4 chroma sampling and 10-bit HDR, AV1 support with RPR (Reference Picture Resampling), new AI-based sharpness filters to reduce noise and artifacts and make games' heads-up display (HUD) clearer, and DPI awareness. The latter is important, NVIDIA Product Marketing Manager Michael McSorley explained, because sometimes GeForce NOW didn't quite catch the correct native resolution of a user device (especially laptops) and started the streaming at a lower resolution. As a result, the user got a blurrier image that certainly didn't impress them with sharpness.</p>
-
-
-
-<p>Overall, Cinematic Quality Streaming makes quite a bit of a difference when viewed in person side-by-side, especially in a highly detailed game like Game Science's Black Myth: Wukong, which supports full path tracing. The finer details, such as vegetation and the main character's hair, were a lot sharper with CQS enabled, reducing one of the long-standing visual downsides of cloud gaming when compared to local gaming: image compression. Of course, the difference will likely be better appreciated on a large 4K display. It should be noted that, barring the first two CQS features, the rest will also be available on non-Blackwell servers.</p>
-
-
-
-<p>NVIDIA then flexed the power of the Blackwell-enhanced GeForce NOW experience directly against the most powerful console on the market, Sony's PlayStation 5 Pro. The game selected was CD Projekt RED's Cyberpunk 2077, which the new Ultimate tier can handle easily with path tracing enabled and 4K@120FPS streaming. By comparison, the PlayStation 5 Pro version of the game was set to the Ray Tracing mode, which, however, locks the frame rate to 40FPS, and is also much inferior visually compared to the PC version's path tracing. With three times as powerful hardware as the PS5 Pro, NVIDIA boasts that the best console-like experience can be streamed via its upgraded cloud gaming service.</p>
-
-
-
-<figure><p>
-<iframe title="GeForce NOW Gamescom 2025 Demo Tour" width="500" height="281" src="https://www.youtube.com/embed/K1kk8coHbg0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-</p></figure>
-
-
-
-<p>GeForce NOW is also evolving when it comes to latency, another inherent problem with cloud gaming. The NVIDIA servers already supported Reflex, but they are now being updated with <a href="https://developer.nvidia.com/networking/rivermax" target="_blank" rel="noreferrer noopener">Rivermax</a> hardware packet pacing, an NVIDIA technology that enables direct data transfers to and from the GPU, delivering 'best-in-class throughput and latency with minimal CPU utilization for streaming workloads', according to the GeForce company. </p>
-
-
-
-<p>In addition to that, NVIDIA has been working in the last couple of years with various ISPs to persuade them to add L4S (Low Latency, Low Loss and Scalable Throughput). This network protocol has the potential to reduce latency when sending and receiving packets. Unfortunately, L4S has to be adopted by the ISPs; so far, Comcast, T-Mobile, and BT Group have done it, but there's many more to go across all the countries supported by GeForce NOW. Moreover, the router you're using must support L4S, too, which means even if your ISP has added L4S to its network, you may have to change the router if you've got an old one. It is, of course, far from guaranteed that ISPs will issue everyone a new compatible router for free.</p>
-
-
-
-<p>On the local devices, NVIDIA is adding support for 90FPS streaming on the <a href="https://wccftech.com/geforce-now-gets-native-steam-deck-app/" target="_blank" rel="noreferrer noopener">native Steam Deck app</a>, 120FPS streaming on the new <a href="https://wccftech.com/lenovo-legion-go-s-handheld-amd-ryzen-z2-soc-priced-lower-than-legion-go/" target="_blank" rel="noreferrer noopener">Lenovo Legion Go S</a>, 4K@120FPS streaming on LG TVs via the native GFN app, 5K@120FPS on LG OLED monitors, and 1080P@360FPS or 1440P@240FPS. At 360FPS streaming, NVIDIA showed an end-to-end latency (not just network latency) of less than 30ms, with peaks of 15-17ms, making it more than viable to play competitive shooters via GeForce NOW. Of course, there's always room for improvement, and we asked Michael McSorley whether NVIDIA would ever try to shelve a few more milliseconds of latency by creating a direct connection from the wireless gamepad to the GeForce NOW servers, like Stadia did. The Product Marketing Manager said it could happen, though they'd have to find a suitable partner on the gamepad side.</p>
-
-
-
-<p>There's more, as NVIDIA is also extending the GFN support of racing wheel devices as well as expanding accessibility through the 2200 new Steam games that will benefit from the new Install-to-Play feature, not to mention a limited-time GFN trial available to stream Fortnite directly via Discord.</p>
-
-
-
-<p>One thing is clear: NVIDIA already offers the best cloud gaming experience, and all these improvements can only bring it closer to the experience of playing locally. We'll need to do private testing of the new Blackwell-architecture GeForce NOW servers to say exactly how much. The rollout will gradually begin next month with only 20 games supported, though that list is expected to grow rapidly.</p>
-
-
-
-
-
-			
-		</div></div><br/><br/>https://wccftech.com/nvidia-shows-off-significant-level-up-of-the-geforce-now-experience-at-gamescom-2025/]]></content:encoded>
         </item>
     </channel>
 </rss>
