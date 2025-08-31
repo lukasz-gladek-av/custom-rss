@@ -4,9 +4,75 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Sun, 31 Aug 2025 07:59:21 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 31 Aug 2025 08:09:52 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Metal Gear Solid Delta: Snake Eater PC Users Can Add Lumen RT, Ray Reconstruction, and DLSS 4 FG with Simple Tweaks]]></title>
+            <link>https://wccftech.com/metal-gear-solid-delta-snake-eater-pc-users-add-lumen-rt-dlss-4-frame-gen/</link>
+            <guid>https://www.resetera.com/threads/metal-gear-solid-delta-snake-eater-pc-users-can-add-lumen-rt-ray-reconstruction-and-dlss-4-fg-with-simple-tweaks.1285020/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>Metal Gear Solid Delta: Snake Eater launched a few days ago on PC, PlayStation 5, and Xbox Series S|X. Developed by Virtuos, the remake of MGS3 is powered by Unreal Engine 5 but lacks a few features that PC gamers have come to expect lately.</p>
+
+
+
+<p>For example, the game uses Software Lumen for global illumination, but there's a way to enable Ray Traced Lumen for better visual results, albeit at a performance cost. YouTuber MxBenchmarkPC <a href="https://www.youtube.com/watch?v=QF8w8pkeaw4" target="_blank" rel="noreferrer noopener">provided the guide</a> on how to:</p>
+
+
+
+<p><em>Go to AppData\Local\MGSDelta\Saved\Config\Windows and open the Engine.ini file. Then, add the following commands to the bottom of the Engine.ini file:<br>[SystemSettings]<br>r.Lumen.HardwareRayTracing=1<br>r.Lumen.Reflections.HardwareRayTracing=1<br>r.Lumen.ScreenProbeGather.HardwareRayTracing=1<br>r.LumenScene.DirectLighting.HardwareRayTracing=1<br>r.Lumen.Reflections.MaxRoughnessToTrace=0.6<br>r.Lumen.Reflections.MaxRoughnessToTraceForFoliage=0.6</em></p>
+
+
+
+<p>For even better ray tracing fidelity, Ray Reconstruction can be enabled with:</p>
+
+
+
+<p><em>r.NGX.DLSS.denoisermode=1</em></p>
+
+
+
+<p>To get NVIDIA DLSS 4 Frame Generation, add these commands:</p>
+
+
+
+<p><em>r.Streamline.DLSSG.Enable=1<br>t.Streamline.Reflex.Enable=1<br>t.Streamline.Reflex.Mode=1</em></p>
+
+
+
+<ol></ol>
+
+
+
+<figure><p>
+<iframe title="Metal Gear Solid Delta Hardware RT Lumen vs Software - Ray Tracing Comparison | RTX 5080" width="500" height="281" src="https://www.youtube.com/embed/QF8w8pkeaw4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<p>It is indeed a bit weird that all these commands just work in Metal Gear Solid Delta: Snake Eater, and yet there is no way to enable them through regular settings. </p>
+
+
+
+<p>Anyway, the game does take a slight hit (around five to six frames per second on an RTX 5080) when enabling Hardware RT Lumen, though DLSS Frame Generation more than makes up for it. With DLSS set to Performance, the RTX 5080 used in the test runs around 105 FPS. Of course, having access to Multi Frame Generation would accelerate performance even further. It is likely modders will find a way to get it working soon. By the way, you will need the <a href="https://wccftech.com/metal-gear-solid-delta-snake-eater-mod-critical-issues/" target="_blank" rel="noreferrer noopener">frame rate unlock mod</a>, as Metal Gear Solid Delta: Snake Eater is by default locked to 60 FPS on PC.</p>
+
+
+
+<p>Read <a href="https://wccftech.com/review/metal-gear-solid-delta-snake-eater-ps5-review-based-on-a-hideo-kojima-game/" target="_blank" rel="noreferrer noopener">our PS5 review</a> to find out what Kai Tatsumoto thought about this remake:</p>
+
+
+
+<p><em>Metal Gear Solid Delta: Snake Eater is the de facto perfect way to experience the rise and fall of Big Boss. Each detail has been meticulously refined and brought to modern standards while leaving nothing behind in the past. While this also means retaining both the campiness and jank, there’s no better way to experience the first Metal Gear Solid title in the timeline.</em></p>
+
+			
+		</div></div><br/><br/>https://wccftech.com/metal-gear-solid-delta-snake-eater-pc-users-add-lumen-rt-dlss-4-frame-gen/]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[CS2’s donk Explains What Gets Esports Players Into The Pro Leagues]]></title>
             <link>https://insider-gaming.com/donk-elo-might-not-matter-cs2-esports-pros/</link>
@@ -264,7 +330,7 @@
 <figure><a title="Stardew Valley" href="https://images.nintendolife.com/d42063c515174/stardew-valley.large.jpg"></a></figure><p>Fans of the hugely successful farming and lifestyle sim <a href="https://www.nintendolife.com/games/switch-eshop/stardew_valley">Stardew Valley</a> can look forward to another major update in the future.</p>
 <p>The creator Eric 'ConcernedApe' Barone actually shared this news at the Stardew Concert this week, and has now followed this up with an <a href="https://x.com/ConcernedApe/status/1961864959484412104">announcement on social media</a>. In brief, a Stardew Valley - Version 1.7 update is happening!</p>
 <blockquote>
-<p><strong>ConcernedApe:</strong> "Okay, I revealed this at the concert last night and now the cat's out of the bag, so I will confirm for everyone: There will be a Stardew Valley 1.7 update. No release date, no estimate. But it's happening"</p></blockquote><div><figure data-videoid="r3KMxc-vq0o" data-start="0" data-src="https://www.youtube.com/embed/r3KMxc-vq0o?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><iframe title="YouTube Video" src="javascript:''" data-src-fallback="https://www.youtube-nocookie.com/embed/r3KMxc-vq0o?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/r3KMxc-vq0o?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" type="text/html" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed35e359ughrjy&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><figcaption><p><a title="Watch This Video on YouTube" href="https://www.youtube.com/watch?v=r3KMxc-vq0o" rel="noopener">Watch on <strong><span></span> YouTube</strong> <span></span></a></p>
+<p><strong>ConcernedApe:</strong> "Okay, I revealed this at the concert last night and now the cat's out of the bag, so I will confirm for everyone: There will be a Stardew Valley 1.7 update. No release date, no estimate. But it's happening"</p></blockquote><div><figure data-videoid="r3KMxc-vq0o" data-start="0" data-src="https://www.youtube.com/embed/r3KMxc-vq0o?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><iframe title="YouTube Video" src="javascript:''" data-src-fallback="https://www.youtube-nocookie.com/embed/r3KMxc-vq0o?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/r3KMxc-vq0o?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" type="text/html" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed35e359rkxztu&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><figcaption><p><a title="Watch This Video on YouTube" href="https://www.youtube.com/watch?v=r3KMxc-vq0o" rel="noopener">Watch on <strong><span></span> YouTube</strong> <span></span></a></p>
 <p>Subscribe to <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1">Nintendo Life</a> on <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1"><span>YouTube</span><span>832k</span></a></p>
 </figcaption></figure></div><blockquote>
 </blockquote>
@@ -627,7 +693,7 @@
 <p>I found myself wishing I could just control the thing with standard stick and button inputs. I know that would circumvent the game's USP and introduce a skill gap, as people using buttons would quickly and easily (I imagine) outperform players sticking to motion controls, so you'd need to split the playerbase via control scheme.</p>
 <p>And for a game that's designed to show you the real gameplay possibilities of Mouse Mode beyond the obvious (and beyond the minigames in <a href="https://www.nintendolife.com/games/nintendo-switch-2/nintendo-switch-2-welcome-tour">Welcome Tour</a>), optional button inputs would be tantamount to admitting defeat. "Yeah, this is <em>our</em> Mouse Mode showcase! But you don't <em>have to</em> use them.<sub>..and it's easier and better if you don't.</sub>"</p>
 <p>I reckon Nintendo could frame it as an accessibility win without losing too much face. Ironically, players with any sort of movement impairment in their upper body will likely struggle the most playing Drag x Drive. And given the game's muted debut, alternative control schemes would likely draw in a far larger player base. It's not too late if Nintendo just swallowed its pride.</p>
-<figure data-videoid="p12phxi3GIM" data-start="0" data-src="https://www.youtube.com/embed/p12phxi3GIM?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><iframe title="YouTube Video" src="javascript:''" data-src-fallback="https://www.youtube-nocookie.com/embed/p12phxi3GIM?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/p12phxi3GIM?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" type="text/html" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed5f53a0wpjlqy&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><figcaption><p>I really want to love it, and some of us like it more than others</p>
+<figure data-videoid="p12phxi3GIM" data-start="0" data-src="https://www.youtube.com/embed/p12phxi3GIM?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><iframe title="YouTube Video" src="javascript:''" data-src-fallback="https://www.youtube-nocookie.com/embed/p12phxi3GIM?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/p12phxi3GIM?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" type="text/html" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed5f53a0kroltq&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><figcaption><p>I really want to love it, and some of us like it more than others</p>
 <p><a title="Watch This Video on YouTube" href="https://www.youtube.com/watch?v=p12phxi3GIM" rel="noopener">Watch on <strong><span></span> YouTube</strong> <span></span></a></p>
 <p>Subscribe to <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1">Nintendo Life</a> on <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1"><span>YouTube</span><span>832k</span></a></p>
 </figcaption></figure>
@@ -961,38 +1027,6 @@
 
 		
 	</div></div><br/><br/>https://www.thesixthaxis.com/2025/08/30/destiny-rising-how-to-get-bon-voyage-charms-quickly/]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Talking Point: What Are You Playing This Weekend? (30th August)]]></title>
-            <link>https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-30th-august</link>
-            <guid>https://www.resetera.com/threads/talking-point-what-are-you-playing-this-weekend-30th-august.1284681/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><section>
-<figure><a title="Kirby and the Forgotten Land - Switch 2" href="https://images.nintendolife.com/c573620e4dbb2/kirby-and-the-forgotten-land-switch-2.large.jpg"></a><figcaption><em>Image: Nintendo</em></figcaption></figure><p>The weekend has crept up on us once again, so it's time to kick back with a game or two.</p>
-<p>Before we get to our plans, however, let's look back on all the Nintendo news that happened this week. Honestly, it was a rather quiet one. Nintendo launched a series of <a href="https://www.nintendolife.com/news/2025/08/nintendo-releases-its-me-mario-stop-motion-shorts-watch-them-right-here">stop-motion Mario shorts</a> and the kid-focused <a href="https://www.nintendolife.com/games/switch-eshop/hello_mario">Hello, Mario!</a> app in Japan (which we went <a href="https://www.nintendolife.com/features/nintendos-new-app-reminds-me-of-a-universal-truth-it-feels-good-to-squash-marios-face">hands-on</a> with), rumours of a <a href="https://www.nintendolife.com/news/2025/08/rumour-a-nintendo-direct-is-reportedly-coming-ahead-of-marios-40th-anniversary">September Nintendo Direct</a> started bubbling away, and The Pokémon Company revealed another <a href="https://www.nintendolife.com/news/2025/08/pokemon-legends-z-as-latest-mega-evolution-looks-particularly-snazzy">new Mega Evolution</a> for <a href="https://www.nintendolife.com/games/nintendo-switch/pokemon_legends_z-a">Pokémon Legends: Z-A</a>.</p>
-<p>We also shared our reviews on <a href="https://www.nintendolife.com/games/nintendo-switch-2/kirby-and-the-forgotten-land-nintendo-switch-2-edition-plus-star-crossed-world">Kirby and the Forgotten Land - Nintendo Switch 2 Edition + Star-Crossed World</a>, <a href="https://www.nintendolife.com/games/switch-eshop/roadwarden">Roadwarden</a>, <a href="https://www.nintendolife.com/games/nintendo-switch-2/story-of-seasons-grand-bazaar-nintendo-switch-2-edition">Story of Seasons: Grand Bazaar</a> and <a href="https://www.nintendolife.com/games/switch-eshop/shantae_advance_risky_revolution">Shantae: Risky Revolution</a>.</p>
-<p>So, what's on the cards for this weekend?</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:187146,187176 @ 1756623504 -->
-<h2>Jim Norman, Staff Writer</h2>
-<p>I have never played Kirby and the Forgotten Land before, so I'm putting that right with the catchily-titled Switch 2 version. I've only played through the first world at this point, but what a sweet little 3D platformer! I'm very much excited to get cosy and play some more of it this weekend.</p>
-<p>And I'm keeping Kirby as my main focus for this one. I really want to have it polished off before a certain metroidvania comes to gobble up all my time next week...</p>
-
-<h2>Kate Gray, Contributor</h2>
-<p>I am fully on the Story of Seasons: Grand Bazaar train. Choo Choo. I think the game originally came out at a time when I was probably busy doing some boring school-related thing, so I never actually played the original. Also, I guess I always assumed it was a spin-off? Like the Harvest Moon match-3 game, Frantic Farming? I think they came out within a year of each other and I just assumed they were the same kind of thing. Anyway, the remake is pretty great! It's perhaps a little TOO easy — I'm still in spring of year one and I feel like I've made a ton of progress already — but I think they've finally discovered an art style that doesn't look super cheap or derivative! Hooray. I'd still like the character art to look a little less child-like, but we're making progress at least!</p>
-<h2>Gavin Lane, Editor</h2>
-<p>It's a busy one for me. As Alana mentioned <a href="https://www.nintendolife.com/news/2025/08/poll-ahead-of-silksongs-release-are-you-finally-playing-hollow-knight">earlier this week</a>, I've finally started <a href="https://www.nintendolife.com/games/switch-eshop/hollow_knight">Hollow Knight</a>! I'm not sure it's going to have the life-changing impact on me that others experienced seven or eight years ago, but I've enjoyed the couple of hours I've played so far and I'm itching to explore more. But! <a href="https://www.nintendolife.com/games/switch-eshop/star_trek_resurgence">Star Trek: Resurgence</a> launched on Switch this week - I've been anxious to play that since 2023.</p>
-<p><a href="https://www.nintendolife.com/games/switch-eshop/ufo_50">UFO 50</a> is also an utter delight. I completed my first game the other day (well, I got the Gold cart, but there's loads more I could do) - Avianos, the turn-based, dinosaur, castle-conquering one. I've still barely touched the vast majority of the others, but what a treat this thing is. You'll be hearing me wax lyrical come December, guaranteed.</p>
-<p>And on the theme of dinosaurs, I picked up <a href="https://www.nintendolife.com/games/nintendo-switch/lego_jurassic_world">LEGO Jurassic World</a> on sale this week. Following a blisteringly successful viewing of the first film, my kids are obsessed with Jurassic Park and I'm along for the ride, grinning wildly and shedding a tear when they sing along to those John Williams themes and overspending on the 30th anniversary sets Lego released a couple of years ago. You know, for the kids. Compared to the actual Lego, €3.99 for the game is an absolute steal, and it's also the best way to show them the rest of the movies without actually showing them the rest of the movies. Let 'em dream, hmm?</p>
-
-<h2>Ollie Reynolds, Staff Writer</h2>
-<p>I'm still playing quite a lot of <a href="https://www.nintendolife.com/games/nintendo-switch-2/street-fighter-6-years-1-2-fighters-edition">Street Fighter 6</a> at the moment, but the recent reminder that Game Vouchers are on their way out has prompted me to dive back into <a href="https://www.nintendolife.com/games/switch-eshop/pikmin_2">Pikmin 2</a>. Y'see, I'd like to use the vouchers to get the third and fourth games, but I'd also like to complete the second before I, y'know, start the process. OCD, I guess.</p>
-<p>I really want to play some <a href="https://www.nintendolife.com/games/switch-eshop/shinobi_art_of_vengeance">SHINOBI: Art of Vengeance</a> too, and you better believe I'll be sinking a few more hours into the new <a href="https://www.pushsquare.com/games/ps5/lumines_arise">Lumines Arise</a> demo on PS5 before it disappears!</p>
-<h2>Alana Hagues, Deputy Editor</h2>
-<p>After finishing <a href="https://www.nintendolife.com/games/gamecube/chibi-robo">Chibi-Robo</a> last weekend, I’ll finally be wrapping up <a href="https://www.nintendolife.com/games/switch-eshop/pipistrello_and_the_cursed_yoyo">Pipistrello and the Cursed Yoyo</a>, which has gone completely under the radar but is one of the best games I’ve played this year. Creative movement, challenging puzzles, all wrapped up in a Zelda-style overworld with a Metroidvania-esque structure? It’s excellent; do yourself a favour and pick it up.</p>
-<p>Otherwise, no new games for me this week (you know why), but I will be downloading that <a href="https://www.nintendolife.com/games/nintendo-switch-2/trails-in-the-sky-1st-chapter-nintendo-switch-2-edition">Trails in the Sky 1st Chapter</a> demo. I’m glad people who’ve never played the series before are checking this one out, and I’m eager to see what the fuss is about with this remake. Enjoy your weekend, folks!</p>
-
-<hr>
-<p><em>Well, that's what we have planned for the weekend, but what about you? Let us know your weekend picks in the following poll.</em></p>
-</section></div><br/><br/>https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-30th-august]]></content:encoded>
         </item>
     </channel>
 </rss>

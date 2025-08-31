@@ -4,13 +4,13 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Sun, 31 Aug 2025 06:10:35 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 31 Aug 2025 08:09:52 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Borderlands 4 Endgame and Post-Launch Roadmap Detailed by Gearbox at PAX West]]></title>
-            <link>https://wccftech.com/borderlands-4-endgame-post-launch-roadmap-detailed/</link>
-            <guid>https://www.resetera.com/threads/borderlands-4-endgame-and-post-launch-roadmap-detailed-by-gearbox-at-pax-west.1284669/</guid>
+            <title><![CDATA[Metal Gear Solid Delta: Snake Eater PC Users Can Add Lumen RT, Ray Reconstruction, and DLSS 4 FG with Simple Tweaks]]></title>
+            <link>https://wccftech.com/metal-gear-solid-delta-snake-eater-pc-users-add-lumen-rt-dlss-4-frame-gen/</link>
+            <guid>https://www.resetera.com/threads/metal-gear-solid-delta-snake-eater-pc-users-can-add-lumen-rt-ray-reconstruction-and-dlss-4-fg-with-simple-tweaks.1285020/</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
 
 			
@@ -18,50 +18,60 @@
 			
 			
 			
-			<p>During the <a href="https://www.youtube.com/watch?v=Q-Hw3clSJDo" target="_blank" rel="noreferrer noopener">Gearbox Main Theatre Show</a> at PAX West, the Texas-based game developer unveiled the endgame and post-launch roadmap for Borderlands 4, which is due to launch in less than two weeks. In the upcoming game, players will continue to progress their characters through weekly challenge missions and unlockable specializations to further customize their loadout.</p>
+			<p>Metal Gear Solid Delta: Snake Eater launched a few days ago on PC, PlayStation 5, and Xbox Series S|X. Developed by Virtuos, the remake of MGS3 is powered by Unreal Engine 5 but lacks a few features that PC gamers have come to expect lately.</p>
 
 
 
-<p>Ultimate Vault Hunter Mode is returning, albeit reimagined from previous iterations. This post-game difficulty option challenges players with five unlockable levels that increase in difficulty. Additionally, based on lessons learned from previous games in the franchise, players no longer need to replay the campaign to gain new ranks. Instead, players will advance through curated mission challenges that test their chosen build. These challenges grow more difficult as players progress, eliminating the need to re-farm the same gear.</p>
+<p>For example, the game uses Software Lumen for global illumination, but there's a way to enable Ray Traced Lumen for better visual results, albeit at a performance cost. YouTuber MxBenchmarkPC <a href="https://www.youtube.com/watch?v=QF8w8pkeaw4" target="_blank" rel="noreferrer noopener">provided the guide</a> on how to:</p>
 
 
 
-<p>Each Ultimate Vault Hunter Mode rank includes exclusive Firmware set bonuses for gear that players will first find while playing the campaign. The first loot drops with Firmware should start appearing around level 25. The more Firmware a player acquires, the higher their stat bonus will be. These powerful bonuses can be transferred to another item once, after which the original item is destroyed, and the firmware bonus cannot be transferred again.</p>
+<p><em>Go to AppData\Local\MGSDelta\Saved\Config\Windows and open the Engine.ini file. Then, add the following commands to the bottom of the Engine.ini file:<br>[SystemSettings]<br>r.Lumen.HardwareRayTracing=1<br>r.Lumen.Reflections.HardwareRayTracing=1<br>r.Lumen.ScreenProbeGather.HardwareRayTracing=1<br>r.LumenScene.DirectLighting.HardwareRayTracing=1<br>r.Lumen.Reflections.MaxRoughnessToTrace=0.6<br>r.Lumen.Reflections.MaxRoughnessToTraceForFoliage=0.6</em></p>
 
 
 
-<p>Multiple incentives will be provided to encourage Borderlands 4 players to continue searching for the best loot. Weekly Wildcards offer rotating missions with a guaranteed Legendary reward. In the Weekly Big Encore Boss, Moxxi’s Big Encore selects one boss for the week that can be unlocked with Eridium for a larger iteration with increased drop rates.</p>
+<p>For even better ray tracing fidelity, Ray Reconstruction can be enabled with:</p>
 
 
 
-<p>The Maurice's Black Market Machine sends players across Kairos in search of its spoils, offering varied loot for every player. These activities are all available for online matchmaking, as you'd expect in this type of game.</p>
+<p><em>r.NGX.DLSS.denoisermode=1</em></p>
 
 
 
-<figure><a href="https://assets.2k.com/1a6ngf98576c/1xMGxsFasYPMmGHR0A89LW/a524992219bfe143ef7a32a04f5a3b92/BL4_Post-Launch-Roadmap-1920x1080__1_.jpg"></a></figure>
+<p>To get NVIDIA DLSS 4 Frame Generation, add these commands:</p>
 
 
 
-<p>Gearbox Software then switched to discuss the game's post-launch roadmap, starting with the free updates. Seasonal Mini-Events will kick off in October with Horrors of Kairos offering new Legendary Weapons, Cosmetics, and a new Weather Variant. Invincible Bosses are also returning to test players’ skill and build inside high-level new boss arenas that integrate the new traversal mechanics introduced with Borderlands 4. Powerful new Legendaries are the juicy rewards for players strong enough to defeat Invincible Bosses. Additionally, a new Ultimate Vault Hunter Mode level will release alongside each Invincible Boss.</p>
+<p><em>r.Streamline.DLSSG.Enable=1<br>t.Streamline.Reflex.Enable=1<br>t.Streamline.Reflex.Mode=1</em></p>
 
 
 
-<p>As for the paid DLCs, there will be two types: Story Pack and Bounty Pack. The first of two announced story packs, scheduled for Q1 2026, features the return of fan-favorite Ellie in "Mad Ellie and the Vault of the Damned." With a cosmic horror theme and a bloodier, darker tone than the main campaign, this Story Pack includes an all-new region of Kairos to explore, multiple engaging main and side missions, and all-new legendary gear. It also introduces the first post-launch playable Vault Hunter. Additionally, this pack includes four new Vault Hunter skins, two new vehicle skins, three ECHO-4 drone skins, and one ECHO-4 frame, as well as attachments.</p>
+<ol></ol>
 
 
 
-<p>The first Bounty Pack will arrive earlier than that, in Q4 2025. In Bounty Packs, Borderlands 4 players will experience narrative-based missions that expand the universe. These missions reveal more about the new characters players encounter on Kairos, beginning with Rush, the gregarious leader of the Outbounders. Each Bounty Pack includes new main missions, a new boss, new legendary gear, one player skin, one ECHO-4 drone skin, one new vehicle, and a Vault card. This allows players to unlock 24 cosmetics and four pieces of rerollable gear.</p>
+<figure><p>
+<iframe title="Metal Gear Solid Delta Hardware RT Lumen vs Software - Ray Tracing Comparison | RTX 5080" width="500" height="281" src="https://www.youtube.com/embed/QF8w8pkeaw4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
 
 
 
-<p>The second Bounty Pack will land in Q1 2026 alongside the Pearlescent items (which will be free). Pearlescent gear drops will be challenging to find, but their power level matches their coveted rarity. Borderlands 4 is out <a href="https://wccftech.com/borderlands-4-gold/" target="_blank" rel="noreferrer noopener">on September 12</a> for PC, PlayStation 5, and Xbox Series S|X, while Nintendo Switch 2 fans <a href="https://wccftech.com/borderlands-4-nintendo-switch-2-release-date/" target="_blank" rel="noreferrer noopener">must wait until October 3</a> to play it. </p>
+<p>It is indeed a bit weird that all these commands just work in Metal Gear Solid Delta: Snake Eater, and yet there is no way to enable them through regular settings. </p>
 
 
 
-<p>Are you eager to jump in? Let us know below.</p>
+<p>Anyway, the game does take a slight hit (around five to six frames per second on an RTX 5080) when enabling Hardware RT Lumen, though DLSS Frame Generation more than makes up for it. With DLSS set to Performance, the RTX 5080 used in the test runs around 105 FPS. Of course, having access to Multi Frame Generation would accelerate performance even further. It is likely modders will find a way to get it working soon. By the way, you will need the <a href="https://wccftech.com/metal-gear-solid-delta-snake-eater-mod-critical-issues/" target="_blank" rel="noreferrer noopener">frame rate unlock mod</a>, as Metal Gear Solid Delta: Snake Eater is by default locked to 60 FPS on PC.</p>
+
+
+
+<p>Read <a href="https://wccftech.com/review/metal-gear-solid-delta-snake-eater-ps5-review-based-on-a-hideo-kojima-game/" target="_blank" rel="noreferrer noopener">our PS5 review</a> to find out what Kai Tatsumoto thought about this remake:</p>
+
+
+
+<p><em>Metal Gear Solid Delta: Snake Eater is the de facto perfect way to experience the rise and fall of Big Boss. Each detail has been meticulously refined and brought to modern standards while leaving nothing behind in the past. While this also means retaining both the campiness and jank, there’s no better way to experience the first Metal Gear Solid title in the timeline.</em></p>
 
 			
-		</div></div><br/><br/>https://wccftech.com/borderlands-4-endgame-post-launch-roadmap-detailed/]]></content:encoded>
+		</div></div><br/><br/>https://wccftech.com/metal-gear-solid-delta-snake-eater-pc-users-add-lumen-rt-dlss-4-frame-gen/]]></content:encoded>
         </item>
     </channel>
 </rss>
