@@ -4,7 +4,7 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Mon, 01 Sep 2025 00:50:53 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 01 Sep 2025 01:24:52 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -80,72 +80,6 @@
 
 			
 		</div></div><br/><br/>https://wccftech.com/heres-morrowind-running-elden-ring-engine/]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Metal Gear Solid Delta: Snake Eater PC Users Can Add Lumen RT, Ray Reconstruction, and DLSS 4 FG with Simple Tweaks]]></title>
-            <link>https://wccftech.com/metal-gear-solid-delta-snake-eater-pc-users-add-lumen-rt-dlss-4-frame-gen/</link>
-            <guid>https://www.resetera.com/threads/metal-gear-solid-delta-snake-eater-pc-users-can-add-lumen-rt-ray-reconstruction-and-dlss-4-fg-with-simple-tweaks.1285020/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			<p>Metal Gear Solid Delta: Snake Eater launched a few days ago on PC, PlayStation 5, and Xbox Series S|X. Developed by Virtuos, the remake of MGS3 is powered by Unreal Engine 5 but lacks a few features that PC gamers have come to expect lately.</p>
-
-
-
-<p>For example, the game uses Software Lumen for global illumination, but there's a way to enable Ray Traced Lumen for better visual results, albeit at a performance cost. YouTuber MxBenchmarkPC <a href="https://www.youtube.com/watch?v=QF8w8pkeaw4" target="_blank" rel="noreferrer noopener">provided the guide</a> on how to:</p>
-
-
-
-<p><em>Go to AppData\Local\MGSDelta\Saved\Config\Windows and open the Engine.ini file. Then, add the following commands to the bottom of the Engine.ini file:<br>[SystemSettings]<br>r.Lumen.HardwareRayTracing=1<br>r.Lumen.Reflections.HardwareRayTracing=1<br>r.Lumen.ScreenProbeGather.HardwareRayTracing=1<br>r.LumenScene.DirectLighting.HardwareRayTracing=1<br>r.Lumen.Reflections.MaxRoughnessToTrace=0.6<br>r.Lumen.Reflections.MaxRoughnessToTraceForFoliage=0.6</em></p>
-
-
-
-<p>For even better ray tracing fidelity, Ray Reconstruction can be enabled with:</p>
-
-
-
-<p><em>r.NGX.DLSS.denoisermode=1</em></p>
-
-
-
-<p>To get NVIDIA DLSS 4 Frame Generation, add these commands:</p>
-
-
-
-<p><em>r.Streamline.DLSSG.Enable=1<br>t.Streamline.Reflex.Enable=1<br>t.Streamline.Reflex.Mode=1</em></p>
-
-
-
-<ol></ol>
-
-
-
-<figure><p>
-<iframe title="Metal Gear Solid Delta Hardware RT Lumen vs Software - Ray Tracing Comparison | RTX 5080" width="500" height="281" src="https://www.youtube.com/embed/QF8w8pkeaw4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-</p></figure>
-
-
-
-<p>It is indeed a bit weird that all these commands just work in Metal Gear Solid Delta: Snake Eater, and yet there is no way to enable them through regular settings. </p>
-
-
-
-<p>Anyway, the game does take a slight hit (around five to six frames per second on an RTX 5080) when enabling Hardware RT Lumen, though DLSS Frame Generation more than makes up for it. With DLSS set to Performance, the RTX 5080 used in the test runs around 105 FPS. Of course, having access to Multi Frame Generation would accelerate performance even further. It is likely modders will find a way to get it working soon. By the way, you will need the <a href="https://wccftech.com/metal-gear-solid-delta-snake-eater-mod-critical-issues/" target="_blank" rel="noreferrer noopener">frame rate unlock mod</a>, as Metal Gear Solid Delta: Snake Eater is by default locked to 60 FPS on PC.</p>
-
-
-
-<p>Read <a href="https://wccftech.com/review/metal-gear-solid-delta-snake-eater-ps5-review-based-on-a-hideo-kojima-game/" target="_blank" rel="noreferrer noopener">our PS5 review</a> to find out what Kai Tatsumoto thought about this remake:</p>
-
-
-
-<p><em>Metal Gear Solid Delta: Snake Eater is the de facto perfect way to experience the rise and fall of Big Boss. Each detail has been meticulously refined and brought to modern standards while leaving nothing behind in the past. While this also means retaining both the campiness and jank, there’s no better way to experience the first Metal Gear Solid title in the timeline.</em></p>
-
-			
-		</div></div><br/><br/>https://wccftech.com/metal-gear-solid-delta-snake-eater-pc-users-add-lumen-rt-dlss-4-frame-gen/]]></content:encoded>
         </item>
     </channel>
 </rss>
