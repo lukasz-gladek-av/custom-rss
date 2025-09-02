@@ -4,26 +4,208 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Sat, 30 Aug 2025 10:12:05 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 02 Sep 2025 19:33:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Battlefield 6 dev apologizes for requiring Secure Boot to power anti-cheat tools]]></title>
-            <link>https://arstechnica.com/gaming/2025/08/battlefield-6-dev-apologizes-for-requiring-secure-boot-to-power-anti-cheat-tools/</link>
-            <guid>https://www.resetera.com/threads/battlefield-6-dev-apologizes-for-requiring-secure-boot-to-power-anti-cheat-tools.1284417/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+            <title><![CDATA[Over 30 years later, a rare LaserDisc game console gets its first PC emulator]]></title>
+            <link>https://arstechnica.com/gaming/2025/09/over-30-years-later-a-rare-laserdisc-game-console-gets-its-first-pc-emulator/</link>
+            <guid>https://www.resetera.com/threads/over-30-years-later-a-rare-laserdisc-game-console-gets-its-first-pc-emulator.1286880/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="app">
+    <p><a href="#main">
+  Skip to content
+</a></p>
+
+
+
+<main id="main">
+            <article data-id="2114731">
+  
+  <header>
+  <div>
+    <div>
+      
+
+      
+
+      <p>
+        You don't have to track down pricey retro hardware to play the Pioneer LaserActive anymore.
+      </p>
+
+      
+    </div>
+
+    <div>
+    
+    <p>
+      A circa 2019 shot of the worktable that Nemesis used for his LaserActive ripping efforts.
+
+              <span>
+          Credit:
+
+          
+          Read Only Memo / Nemesis
+
+                  </span>
+          </p>
+  </div>
+  </div>
+</header>
+
+
+  
+
+  
+      
+    
+    <div>
                       
                       
-          <p>Earlier this month, EA <a href="https://steamcommunity.com/app/2807960/discussions/0/600785827026563959/">announced</a> that players in its <em>Battlefield 6</em> open beta on PC would <a href="https://steamcommunity.com/app/2807960/discussions/0/600785827026563959/">have to enable Secure Boot</a> in their Windows OS and BIOS settings. That decision proved controversial among players who weren't able to get the finicky low-level security setting working on their machines and others who were unwilling to allow EA's anti-cheat tools to <a href="https://arstechnica.com/gaming/2022/09/eas-new-anti-cheat-tools-dip-into-the-dreaded-kernel-mode/">once again</a> have <a href="https://arstechnica.com/gaming/2020/04/ring-0-of-fire-does-riot-games-new-anti-cheat-measure-go-too-far/">kernel-level access</a> to their systems.</p>
-<p>Now, <em>Battlefield 6</em> technical director Christian Buhl is defending that requirement as something of a necessary evil to combat cheaters, even as he apologizes to any potential players that it has kept away.</p>
-<p>"The fact is I wish we didn't have to do things like Secure Boot," Buhl <a href="https://www.eurogamer.net/it-really-sucks-battlefield-6-technical-director-bummed-out-about-those-unable-to-play-due-to-secure-boot-requirement-believes-anti-cheat-cat-and-mouse-game-will-never-end">said in an interview with Eurogamer</a>. "It does prevent some players from playing the game. Some people's PCs can't handle it and they can't play: that really sucks. I wish everyone could play the game with low friction and not have to do these sorts of things."</p>
-<p>Throughout the interview, Buhl admits that even requiring Secure Boot won't completely eradicate cheating in <em>Battlefield 6</em> long term. Even so, he offered that the Javelin anti-cheat tools enabled by Secure Boot's low-level system access were "some of the strongest tools in our toolbox to stop cheating. Again, nothing makes cheating impossible, but enabling Secure Boot and having kernel-level access makes it so much harder to cheat and so much easier for us to find and stop cheating."</p>
-<h2>Too much security, or not enough?</h2>
-<p>When announcing the Secure Boot requirement in <a href="https://steamcommunity.com/app/2807960/discussions/0/600785827026563959/">a Steam forum post</a> prior to the open beta, EA explained that having Secure Boot enabled "provides us with features that we can leverage against cheats that attempt to infiltrate during the Windows boot process." Having access to the <a href="https://arstechnica.com/gadgets/2021/08/how-to-go-from-stolen-pc-to-network-intrusion-in-30-minutes/">Trusted Platform Module</a> on the motherboard via Secure Boot provides the anti-cheat team with visibility into things like kernel-level cheats and rootkits, memory manipulation, injection spoofing, hardware ID manipulation, the use of virtual machines, and attempts to tamper with anti-cheat systems, the company wrote.</p>
+          
+<p>Here in the year 2025, it's not every day that a classic gaming console from the 20th century becomes playable via emulation for the first time. But that's just what happened last week with <a href="https://ares-emu.net/news/ares-v146-released?ref=readonlymemo.com">the release of Ares v146</a> and its first-of-its-kind <a href="https://techdocs.exodusemulator.com/Console/PioneerLaserActive/Software.html#emulation">support for Mega LD titles designed for the Pioneer LaserActive</a>.</p>
+<p>Even retro console superfans would be forgiven for not knowing about the <a href="https://en.wikipedia.org/wiki/LaserActive">LaserActive</a>, a pricey LaserDisc player released in 1994 alongside swappable hardware modules that could add support for Sega Genesis and NEC TurboGrafx-16 games and controllers. Using those add-ons, you could also play <a href="https://segaretro.org/List_of_LaserActive_games">a handful of games specifically designed for the LaserActive format</a>, which combined game data and graphics with up to 60 minutes of full-screen, standard-definition analog video per side.</p>
+<p>Mega-LD games (as the Genesis-compatible LaserActive titles were called) were, for the most part, super-sized versions of the types of games you'd find on early CD-ROM console of the era. That means a lot of edutainment titles, branching dungeon crawlers, <em>Dragon's Lair</em>-style animated quick-time event challenges, and rail shooters that overlayed standard Genesis or TG-16 graphics on top of elaborate animated video backgrounds (sometimes complete with filmed actors).</p>
+<figure><p><iframe allow="fullscreen" loading="lazy" src="https://player.vimeo.com/video/1115249824?color=ff9933"></iframe></p><div>
+    
+    <p>
+      Taito's cheesy Mega LD space shooter <em>Pyramid Patrol</em>, captured by Ars directly from the Ares emulator.
+
+          </p>
+  </div>
+</figure>
+<p>The LaserActive's sky-high prices ($970 for the base unit; $600 for console add-on modules; $120 for LaserDisc games in '90s dollars) and lack of must-have software made it a relative curiosity even among the many game console curiosities of the mid-1990s, with total sales across Japan and the US <a href="https://web.archive.org/web/20150211202811/http://www.pinkgorillagames.com/console_histories">estimated around 10,000 units</a>. Yet the obscure console has <a href="https://www.pcenginefans.com/forum/index.php?topic=10096.0">still developed a small cult following</a> of <a href="https://laseractive.wordpress.com/">fans</a> who <a href="https://www.youtube.com/watch?v=AfHxPjD7PAc">seem to revel</a> in <a href="https://www.reddit.com/r/gamecollecting/comments/8wyesp/got_a_pioneer_laseractive_clda100_laserdisc/">tracking down the hard-to-find hardware and software</a> to play some of the few '90s console games that couldn't be enjoyed via emulation.</p>
+<h2>“I really don't think it would be very hard to do”</h2>
+<p>The new emulator, which has finally made the LaserActive accessible to the masses, was a long-time passion project from a coder going by the handle Nemesis. The excellent Read Only Memo newsletter has <a href="https://www.readonlymemo.com/this-is-the-first-the-16-year-odyssey-of-time-money-wrong-turns-and-frustration-it-took-to-finally-emulate-the-pioneer-laseractive/?ref=read-only-memo-newsletter">an excellent interview with Nemesis</a>, who spent over 15 years working on and off to intimately understand the inner workings of the LaserActive and apply that knowledge to an emulator.</p>
 
           
                       
-                  </div></div><br/><br/>https://arstechnica.com/gaming/2025/08/battlefield-6-dev-apologizes-for-requiring-secure-boot-to-power-anti-cheat-tools/]]></content:encoded>
+                  </div>
+                    
+        
+          
+    
+    <div>
+          
+          
+<p>A Sega fan and collector since his youth and an emulator hobbyist since the early '00s, Nemesis tracked down his first LaserActive unit for $200 in 2004. By 2009, he was <a href="https://gendev.spritesmind.net/forum/viewtopic.php?t=563&amp;ref=readonlymemo.com">publicly musing</a> about what might be needed to finally get emulation support working for the short-lived system. "I really don't think it would be very hard to do," Nemesis wrote in a forum thread at the time, in what would end up being a hilariously large understatement.</p>
+<p>While monitoring memory registers and reverse-engineering the actual system logic of the LaserActive was relatively straightforward, getting the necessary game and video data from the Mega-LD discs was a massive undertaking. Nemesis explained that the only way to get at the crucial "table of contents" data (needed to make sense of everything else on the Mega-LD disc) was "solder[ing] a bunch of physical tapping wires into my Sega PAC-S10 module, and us[ing] a Saleae logic analyzer clone to do a streaming capture of the data lines."</p>
+<p>Then there was the problem of capturing the massive amounts of analog video on a LaserActive disc in a lossless format suitable for emulation. Commercial analog capture cards that worked for standard LaserDisc movies proved unequal to the task, since they usually ignored the <a href="https://en.wikipedia.org/wiki/Vertical_blanking_interval?ref=readonlymemo.com">VBI control data</a> that was hidden beyond the borders of the 480i CRT displays of the time. The lossy capture cards also often had trouble correctly interpreting the multiple streams of overlapping video data that could be arranged in nonstandard ways on a LaserActive disc.</p>
+
+<figure>
+    <div id="caption-2114736"><p>
+              A circa 2019 shot of the worktable that Nemesis used for his LaserActive ripping efforts.
+                              </p><p>
+                  Credit:
+                                      Read Only Memo / Nemesis
+                                  </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      A circa 2019 shot of the worktable that Nemesis used for his LaserActive ripping efforts.
+
+              <span>
+          Credit:
+
+          
+          Read Only Memo / Nemesis
+
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>"Rarely is the [LaserActive] player just playing back a video normally," Nemesis explained to Read Only Memo. "Games will often have completely different video footage per field, with only one shown, or skip over every second frame, to mix four or more video streams in the same area of the disc. Many games use this for seamless 'branching' such as whether you go left or right, and this can change constantly and seamlessly during playback."</p>
+
+          
+                  </div>
+                    
+        
+          
+    
+    <div>
+
+        
+        <div>
+          
+          
+<p>By 2016, Nemesis had resorted to building his only video capture setup, tapping directly into his LaserActive hardware to get the raw video signal out. But he couldn't decode that raw footage into a usable format until years later, when community work on <a href="https://www.youtube.com/watch?v=QDlbwl3f39Q">the Domesday Duplicator project</a> and Nemesis' own work on <a href="https://github.com/happycube/ld-decode">the open source ld-decode software</a> finally allowed lossless versions of full, uncut Mega-LD video to be captured digitally for the first time (albeit in a format that requires upwards of 28GB per game).</p>
+<p>Once those Mega-LD discs were finally ripped successfully, Nemesis said getting the actual emulation working was surprisingly&nbsp;pain-free. "<em>Space Berserker</em> was quickly running, and after that, as more games finished decoding most of them worked on the first try, with no issues," Nemesis said. "Since I'd set out to emulate the complete hardware, with all its quirks and unusual features, whatever a game tried to do, it should just work."</p>
+<figure>
+    <div id="caption-2114749"><p>
+              From "Space Adventure" to "Interactive Movie" to "Action Game," this LaserActive ad truly had it all.
+                              </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      From "Space Adventure" to "Interactive Movie" to "Action Game," this LaserActive ad truly had it all.
+
+              <span>
+          Credit:
+
+                      <a href="https://laseractive.wordpress.com/image-gallery/#jp-carousel-283" target="_blank">
+          
+          LaserActive Preservation Project
+
+                      </a>
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>Some might scoff at all this effort to emulate what Wired's Chris Kohler called "quite possibly the most poorly conceived and spectacularly useless game console ever created" <a href="https://www.wired.com/2009/09/laseractive/">back in 2009</a>. Still, for gaming preservationists, the new emulator provides a valuable opportunity to study these gaming curiosities without having to track down rare physical hardware and software that's prone to age-related wear or disposal.</p>
+<p>And even casual retro gaming fans may get a kick out of <a href="https://techdocs.exodusemulator.com/Console/PioneerLaserActive/Software.html#emulation">digging through the Mega LD library</a> and imagining an alternate reality version of the '90s where LaserDiscs, rather than CD-ROMs, offered gamers a very different take on the full-motion-video fad of the day.</p>
+
+
+          
+                  </div>
+
+                  
+          
+
+
+
+
+
+
+  <div>
+    
+
+    <p>
+      Kyle Orland has been the Senior Gaming Editor at Ars Technica since 2012, writing primarily about the business, tech, and culture behind video games. He has journalism and computer science degrees from University of Maryland. He once <a href="https://bossfightbooks.com/collections/books/products/minesweeper-by-kyle-orland">wrote a whole book about <em>Minesweeper</em></a>.
+    </p>
+  </div>
+
+
+  <p>
+    <a href="https://arstechnica.com/gaming/2025/09/over-30-years-later-a-rare-laserdisc-game-console-gets-its-first-pc-emulator/#comments" title="4 comments">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><defs><clipPath id="bubble-zero_svg__a"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath><clipPath id="bubble-zero_svg__b"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath></defs><g clip-path="url(#bubble-zero_svg__a)"><g fill="currentColor" clip-path="url(#bubble-zero_svg__b)"><path d="M80 40c0 22.09-17.91 40-40 40S0 62.09 0 40 17.91 0 40 0s40 17.91 40 40"></path><path d="M40 40 .59 76.58C-.67 77.84.22 80 2.01 80H40z"></path></g></g></svg>
+    4 Comments
+  </a>
+      </p>
+              </div>
+  </article>
+
+
+  
+
+
+  
+
+
+  
+  </main>
+
+
+
+
+
+  </div></div><br/><br/>https://arstechnica.com/gaming/2025/09/over-30-years-later-a-rare-laserdisc-game-console-gets-its-first-pc-emulator/]]></content:encoded>
         </item>
     </channel>
 </rss>
