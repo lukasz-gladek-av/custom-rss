@@ -4,9 +4,137 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Wed, 10 Sep 2025 13:05:48 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 10 Sep 2025 13:18:40 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[GeForce NOW RTX Blackwell Upgrade Brings Cloud Experience Closer Than Ever to Local – But Latency Remains]]></title>
+            <link>https://wccftech.com/geforce-now-rtx-blackwell-upgrade-cloud-experience-closer-ever-local/</link>
+            <guid>https://www.resetera.com/threads/geforce-now-rtx-blackwell-upgrade-brings-cloud-experience-closer-than-ever-to-local-%E2%80%93-but-latency-remains.1293555/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>On the eve of Gamescom 2025, NVIDIA <a href="https://wccftech.com/nvidia-geforce-now-blackwell-rtx-5080-pc-like-latency-image-quality-install-to-play-new-games-same-price/" target="_blank" rel="noreferrer noopener">unveiled</a> an imminent major upgrade to the GeForce NOW cloud gaming experience. The new server hardware (upgraded from RTX 4080-class Lovelace to RTX 5080-class Blackwell GPU and an AMD Zen 5 8-core CPU) is available starting today to Ultimate subscribers who access the RTX server SuperPODs in San Jose, Los Angeles, Chicago, Newark in the US, Frankfurt, Germany, and Paris, France. More cities will be gradually upgraded; you can follow that progress <a href="https://www.nvidia.com/en-us/geforce-now/server-upgrade/" target="_blank" rel="noreferrer noopener">on this page</a>.</p>
+
+
+
+<p>The hardware itself provides a noticeable boost in game performance, especially for those games that support the RTX 50-exclusive DLSS 4 Multi Frame Generation feature. Indeed, it is little wonder that of the 23 PC games currently enabled to leverage the more powerful GeForce NOW hardware, most already support DLSS 4 MFG:</p>
+
+
+
+<p>● Apex Legends<br>● Assassin’s Creed Shadows<br>● Baldur’s Gate 3<br>● Black Myth: Wukong<br>● Borderlands 4<br>● Clair Obscur: Expedition 33<br>● Counter-Strike 2<br>● Cronos: The New Dawn<br>● Cyberpunk 2077<br>● Diablo 4<br>● Doom: The Dark Ages<br>● Dune: Awakening<br>● Dying Light: The Beast<br>● The Elder Scrolls IV: Oblivion Remastered<br>● Grounded 2<br>● Hell Is Us<br>● Indiana Jones and the Great Circle<br>● Mafia: The Old Country<br>● Microsoft Flight Simulator 2024<br>● Overwatch 2<br>● Titan Quest II<br>● Warframe<br>● The Witcher 3</p>
+
+
+
+<p>The performance upgrade is entirely comparable to moving from the RTX 4080 to RTX 5080 desktop GPUs. That would already be cause for celebration, especially since it's a free upgrade. However, <a href="https://wccftech.com/nvidia-shows-off-significant-level-up-of-the-geforce-now-experience-at-gamescom-2025/" target="_blank" rel="noreferrer noopener">as I pointed out in my Gamescom 2025 report</a>, there's much more to this GeForce NOW 'level up' than just moving to RTX Blackwell-powered server hardware.</p>
+
+
+
+<figure><p>
+<iframe title="GeForce NOW RTX 5080 4K@60 Cinematic Quality Streaming - Black Myth: Wukong Benchmark" width="500" height="281" src="https://www.youtube.com/embed/sec98y4q5bs?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<p>Cloud streaming now supports up to 5K@120FPS, 1440P@240FPS, or 1080P@360FPS, provided you have a compatible device. Moreover, NVIDIA has introduced a new suite of features labeled Cinematic Quality Streaming (CQS), which includes, among other things, YUV 4:4:4 chroma sampling and 10-bit HDR, AV1 support with RPR (Reference Picture Resampling), new AI-based sharpness filters to reduce noise and artifacts and improve the clarity of in-game heads-up display (HUD), and DPI awareness. The whole point of CQS is to combat the inevitable compression artifacts that come with any type of streaming. At Gamescom, NVIDIA demonstrated that this is particularly useful in highly detailed games like Black Myth: Wukong to better surface details like vegetation and hair that suffer more than others from compression issues.</p>
+
+
+
+<p>Now that I've had the chance to test the GeForce NOW upgrade at home, I realized that CQS does have a limitation: frame rate. More specifically, the full suite of CQS algorithms is only available when selecting the Cinematic setting under Streaming Quality, and Cinematic only allows streaming up to 60 frames per second. If you want to choose Custom Mode, which enables up to 5K resolution and 120 frames per second, you must be aware that, according to NVIDIA, 'visual quality will not be prioritized and turning on all of these features may impact other aspects of streaming performance'. Custom Mode does, however, let you enable 10-bit YUV 4:4:4, AI Video Filter (which can be further customized with 0-10 sliders for denoising and sharpening), and the HUD sharpness filter.</p>
+
+
+<figure>
+<div>
+
+<figure>
+<figure></figure>
+
+
+
+<figure></figure>
+
+
+
+<figure></figure>
+</figure>
+<div>
+			    		
+			    		
+				    	<p><span>2 of 9</span>
+			    	</p></div>
+</div>
+</figure>
+
+
+
+<p>This was a slight disappointment, as it seems like there is no current way to get the absolute best of both worlds. Having tried both, with a 120Hz (or higher) display, I would pick Custom Mode, as I did not notice a significant difference in clarity and sharpness between the two. However, the captured footage was based on the Cinematic setting, mostly because YouTube is limited to 4K@60FPS anyway.</p>
+
+
+
+<p>For the test, I used my LG G5 55" OLED TV, the same one I use regularly for my gaming PC, which is equipped with NVIDIA's flagship GPU, the <a href="https://wccftech.com/review/geforce-rtx-5090-founders-edition-gamers-pricey-dream/" target="_blank" rel="noreferrer noopener">GeForce RTX 5090</a>. Being used to local gaming on the display, I can still spot some visual differences (mainly, a softer image, even with the new sharpness filters) when playing on the cloud, but there is little doubt that they have gotten a lot smaller. The visuals enabled with CQS and the RTX Blackwell upgrade are top-notch and easily surpass anything in gaming, save for the high-end local PC experience, and that is compared against very pricey hardware. On this account, GeForce NOW is absolutely the more convenient choice.</p>
+
+
+
+<figure><p>
+<iframe loading="lazy" title="GeForce NOW RTX 5080 4K@60 Cinematic Quality Streaming - Assassin's Creed Shadows Benchmark" width="500" height="281" src="https://www.youtube.com/embed/bqbu1Ymfq2s?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<p>However, even with the improvements made to latency (such as <a href="https://developer.nvidia.com/networking/rivermax" target="_blank" rel="noreferrer noopener">Rivermax</a>-powered hardware packet pacing), I could definitely feel the difference in control responsiveness: playing the same game on the cloud is just laggy enough to notice when moving the character. Now, of course, as with all network-related things, your mileage may vary there. That said, the thing is, while I am not in an ideal situation (the closest server, Frankfurt, is some 1250km, or 776 miles, away from my place), for most users, it is unlikely to get any better. As you can see, the handy post-session GeForce NOW report shows excellent network scores, with a ping that stayed between 22 and 29ms during the whole testing. I was, of course, using an Ethernet connection and wired controls; wireless connection and controllers would likely increase the lag feeling even further.</p>
+
+
+<figure>
+<div>
+
+<figure>
+<figure></figure>
+
+
+
+<figure></figure>
+</figure>
+<div>
+			    		
+			    		
+				    	<p><span>2 of 9</span>
+			    	</p></div>
+</div>
+</figure>
+
+
+
+<p>Even testing the 1080P@360FPS streaming in Overwatch 2 did not really make it feel like playing locally, I'm afraid, with the added downside that playing a competitive game is much more punishing, whereas you can easily adjust to the slightly laggy movement when you are playing a single player or even a coop game. Personally, I would never play a competitive game this way, but that is perhaps also because I would never be able to entirely shake off the thought that I might just have finished off that enemy if only I were playing locally.</p>
+
+
+
+<figure><p>
+<iframe loading="lazy" title="GeForce NOW RTX 5080 360FPS Streaming Test - Overwatch 2 Gameplay" width="500" height="281" src="https://www.youtube.com/embed/a-nNRFrxF2o?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<p>There is one little caveat: L4S (Low Latency, Low Loss and Scalable Throughput). The IETF network protocol is now enabled by default in the GeForce NOW streaming settings, but it won't actually do anything if your ISP <strong>and</strong> the router you are using do not support L4S. The technology can potentially improve network latency, so it could be a way to reduce the aforementioned slight perception of lag. Still, I could not really test it as neither my ISP nor my router support it. For now, only Comcast and T-Mobile have introduced it to their networks and users, so it's a long way from being widely adopted.</p>
+
+
+
+<h2 id="h-closing-thoughts">Closing Thoughts</h2>
+
+
+
+<p>NVIDIA's GeForce NOW was already by far the best cloud gaming experience available, and the RTX 5080 server upgrade, coupled with various other improvements, only increases the distance between the platform and its competitors. There is absolutely no question that, if you want to play games on the cloud, this is the way. The visual quality is now a near-match for the local experience, but the responsiveness is not. L4S adoption may help a little, but I suspect the physics limitations will remain a mostly unavoidable hurdle for the foreseeable future. </p>
+
+
+
+<p>Because of this, cloud gaming still seems a better fit for relatively casual players who won't notice or suffer from the latency too much. Most gamers would fall into that category, though, which makes it not that big of a problem for NVIDIA. Furthermore, there are two additional aspects to consider: noise and energy. GeForce NOW has the advantage over local gaming on both sides, providing a silent and much more economically savvy experience.</p>
+
+			
+		</div></div><br/><br/>https://wccftech.com/geforce-now-rtx-blackwell-upgrade-cloud-experience-closer-ever-local/]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Clair Obscur: Expedition 33 Director Never Played On Nintendo Systems Growing Up – And It Didn’t Matter]]></title>
             <link>https://wccftech.com/clair-obscur-expedition-33-director-never-played-on-nintendo-systems-growing-up-and-it-didnt-matter/</link>
