@@ -4,9 +4,140 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Fri, 12 Sep 2025 09:12:47 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 12 Sep 2025 09:25:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Crusader Kings 3 Dev Responds To Overwhelmingly Negative Coronations DLC Reviews]]></title>
+            <link>https://www.gamespot.com/articles/crusader-kings-3-dev-responds-to-overwhelmingly-negative-coronations-dlc-reviews/1100-6534684/?ftag=CAD-01-10abi2f</link>
+            <guid>https://www.resetera.com/threads/crusader-kings-3-dev-responds-to-overwhelmingly-negative-coronations-dlc-reviews.1295535/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p>
+    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
+  </p><article itemscope="" data-type-id="1100" data-guid="1100-6534684">
+
+            
+            
+  
+
+
+        
+
+  
+
+
+        
+        
+              <section>
+
+                  
+          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
+                <p>Since its release in 2020, there have been a number of small DLC releases for <a href="https://www.gamespot.com/reviews/crusader-kings-3-review-pass-the-duchy/1900-6417551/" data-ref-id="1900-6417551">Crusader Kings 3</a>. But few have inspired the overwhelmingly bad word of mouth that the recently dropped Coronations has received on Steam. Players aren't just disappointed in this release, they're angry as well. Now, PDS Black QA Manager has come forward to apologize to players and accept the blame for the DLC's broken state.</p><p>The QA Manager, Riad, shared his message on <a href="https://store.steampowered.com/news/app/1158310/view/517472660906573991" data-target="true" target="_blank" rel="noopener nofollow">Steam</a> alongside update 1.17.0.1, which is meant to fix some of the players' complaints. Coronations added the ability for players to have their rulers crowned in an official ceremony, and introduced oaths made to the people of their kingdom. However, many of the oaths are either incredibly difficult to achieve, or <a href="https://www.reddit.com/r/CrusaderKings/comments/1nd6c2j/i_completed_my_oath_years_ago_wtf_paradox/" data-target="true" target="_blank" rel="noopener nofollow">the game simply didn't register them as complete</a>. The <a href="https://store.steampowered.com/app/3315520/Crusader_Kings_III_Coronations/" data-target="true" target="_blank" rel="noopener nofollow">Steam reviews for Coronations have been merciless</a>, and the response is currently marked as "overwhelmingly negative."</p><p data-embed-type="video" data-src="https://www.youtube.com/watch?v=SFLHnwXwouE" data-width="100%" data-height="100%">          <iframe src="https://www.youtube-nocookie.com/embed/SFLHnwXwouE" height="100%" width="100%" scrolling="no" frameborder="" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></p><p>"I'm sorry," wrote Riad. "Coronations was not up to the standard you deserve, and that's on me. As the QA Manager for the studio, it is my job to ensure that our releases meet the [quality assurance] vision we have set out. It is clear we didn't give the project the resources and attention it needed, and the result was a release that let you down. You have every right to be upset, and I want to acknowledge that openly."</p><p>Riad went on to explain that most of Paradox's resources are going towards a massive Crusader Kings 3 expansion called All Under Heaven. That left Coronations with fewer resources and ultimately led to it launching with the oath mechanics broken, which Riad attributed to "last minute" changes. He reiterated a desire to do better for fans while earning their trust back.</p><p>Steam user Mewzle wrote a direct response to <a href="https://steamcommunity.com/profiles/76561197974947850/recommended/3315520/" data-target="true" target="_blank" rel="noopener">Riad</a>, noting that they had purchased every previous DLC for the game and given the developer the benefit of the doubt. Mewzle was emphatic about no longer feeling that way for Paradox.</p><p>"If you really feel this way Paradox, then integrate this garbage into the main game, and STOP producing garbage like this that alienates your player base. This is NOT $5 worth of content and you know it. The modding community could create (and has created) something better than this slop in five minutes and not make a dime ... Again, if you truly want to be better, then be better."</p><p>One of the first listed changes in the 1.17.0.1 update targets the mistaken Oathbreaker event that came up whether players fulfilled their oaths or not. The rest of the fixes can be found below.</p><h3>Bugfixes</h3><ul><li>Fixed the issue with always getting the Oathbreaker event, regardless of if you completed the oath or not</li><li>The buildings needed for the three "build special oath buildings" oaths have been changed from tier 3 to tier 2</li><li>The special oath buildings have had their costs and modifiers reduced across the board</li><li>The special oath buildings have had some of their triggers simplified, so they need fewer of their requirements than they used to</li><li>These oaths have also had the time you can do them increased from 10 years to 20 years</li><li>Specifically for the spiritual one, switched the requirements from tier 3 to 2, and vice versa</li><li>The Alliance oath has been changed from 5 alliances needed to 3</li><li>Building Oath (the generic one) has been reduced from 10 buildings to 8, and the time available to do it has been increased (from 15 years to 20)</li><li>Legendary Hunt has been changed from 3 to 1, and has had the time available increased (from 20 years to 40)</li><li>Fixed the Prepare Heir oath decision, so it checks for the proper scope in its requirements, and also removed the gold cost</li><li>Added two new modifiers for the AI, so if they choose a warlike oath, they will have an increased war chance, and similarly, if they have the peace oath, they will have a peace oath, which will decrease their war chance</li><li>Removed health bonuses and maluses from Prepare the Heir rewards</li><li>Added extra checks for the AI so they will try to take oaths that make sense</li><li>Fixed the End the Struggle oath, so it correctly tells you which struggle area it is targeting, and massively increased the time it is available to you (from 20 years to 50)</li><li>Increased the time available to do the Repent Oath from 10 years to 20 years</li><li>Fixed Anointment Doctrines and Anointment activity type being available to faiths with Temporal Head of Faith (these are for Spiritual HoF faiths only); temporal HoF faiths have guaranteed access to regular coronation instead</li><li>Fixed duplication bugs and self-crowning malus caused by temporal HoF being Coronation host</li><li>Blocked the building oaths for Nomads and Tribals</li></ul><div data-embed-type="html"><p><i>Click the button below to add GameSpot as a preferred source on Google</i></p></div>
+  
+                        
+    
+        
+        
+  
+                                  </div>
+
+
+          
+  
+    
+          
+            
+  <div>
+    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
+
+    
+      </div>
+        
+      </section>
+    
+            
+    </article></div><br/><br/>https://www.gamespot.com/articles/crusader-kings-3-dev-responds-to-overwhelmingly-negative-coronations-dlc-reviews/1100-6534684/?ftag=CAD-01-10abi2f]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Intergalactic: The Heretic Prophet is Naughty Dog's most expansive - and expensive - game, says Neil Druckmann]]></title>
+            <link>https://www.eurogamer.net/intergalactic-the-heretic-prophet-is-naughty-dogs-most-expansive-and-expensive-game-says-neil-druckmann</link>
+            <guid>https://www.resetera.com/threads/intergalactic-the-heretic-prophet-is-naughty-dogs-most-expansive-and-expensive-game-says-neil-druckmann.1295529/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
+
+
+<header data-component="article-header">
+  
+
+    <div id="main-content">
+        
+
+        <p>"We're firing on all cylinders."</p>
+
+    </div>
+
+
+  <p>
+
+  <figure>
+      <picture data-src-full="https://assetsio.gnwcdn.com/Intergalactic_-The-Heretic-Prophet---Announcement-Trailer-_-PS5-Games-2-21-screenshot.png?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=70&amp;format=jpg&amp;auto=webp" src="https://assetsio.gnwcdn.com/Intergalactic_-The-Heretic-Prophet---Announcement-Trailer-_-PS5-Games-2-21-screenshot.png?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=70&amp;format=jpg&amp;auto=webp">
+        <source srcset="https://assetsio.gnwcdn.com/Intergalactic_-The-Heretic-Prophet---Announcement-Trailer-_-PS5-Games-2-21-screenshot.png?width=570&amp;quality=80&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 570px) and (min-resolution: 2x)">
+        <source srcset="https://assetsio.gnwcdn.com/Intergalactic_-The-Heretic-Prophet---Announcement-Trailer-_-PS5-Games-2-21-screenshot.png?width=570&amp;quality=80&amp;format=jpg&amp;auto=webp" media="(min-width: 570px)">
+        <source srcset="https://assetsio.gnwcdn.com/Intergalactic_-The-Heretic-Prophet---Announcement-Trailer-_-PS5-Games-2-21-screenshot.png?width=414&amp;quality=70&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-resolution: 2x)">
+        
+      </picture>
+
+        <figcaption>
+          <span>Image credit: <cite>Naughty Dog</cite></span>
+        </figcaption>
+  </figure>
+  </p>
+
+    
+
+</header>
+    <div data-component="article-content">
+
+
+
+            <p><a href="https://www.eurogamer.net/companies/naughty-dog">Naughty Dog</a>'s forthcoming sci-fi game Intergalactic: The Heretic Prophet is the company's "most ambitious game we've ever made".</p>
+<p>That's according to creator Neil Druckmann, who spoke to <a href="https://variety.com/2025/gaming/news/neil-druckmann-last-of-us-exit-intergalactic-video-game-1236514453/">Variety</a> ahead of the Emmys this week - for which <a href="https://www.eurogamer.net/the-last-of-us-season-two-wins-series-another-emmy">The Last of Us won an award</a>.</p>
+<p>"I can tell you we're in the thick of it," said Druckmann on the game's development status. "We're making it, we're playing it. We're firing on all cylinders. I've said this before, but I really mean it, I'm really feeling it right now: It's the most ambitious game we've ever made. It's the most expansive game we've ever made, maybe the most expensive, by the time we finish it."</p>
+
+<figure>
+<p>
+<a aria-label="Intergalactic: The Heretic Prophet - Announcement Trailer | PS5 Games" data-platform="youtube" href="https://www.youtube.com/embed/VLGy63pt9vA?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
+<span>Intergalactic: The Heretic Prophet - Announcement Trailer | PS5 Games</span>
+<template>
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/VLGy63pt9vA?autoplay=1" frameborder="0" loading="lazy" src="https://www.youtube-nocookie.com/embed/VLGy63pt9vA?autoplay=1" title="Intergalactic: The Heretic Prophet - Announcement Trailer | PS5 Games">
+</iframe> </template>
+</a>
+</p>
+<figcaption>Intergalactic: The Heretic Prophet - Announcement Trailer | PS5 Games<a href="https://www.youtube.com/watch?v=VLGy63pt9vA" rel="noopener" target="_blank">Watch on YouTube</a></figcaption></figure>
+
+
+<p>Druckmann added he's "antsy to show it and talk about it because the trailer that we showed doesn't even scratch the surface of what this game actually is", but don't expect anything just yet.</p>
+<p>While he wouldn't go into detail on gameplay, Druckmann explained it continues the studio's trajectory from Uncharted to The Last of Us, creating a realistic action game with emotional storytelling and then adding RPG elements and "wide linear layouts" - but now with sci-fi and even more ambition.</p><p>What's more, Intergalactic may also receive some form of adaptation in the future like The Last of Us. Naughty Dog has already been approached by studios based solely on the initial trailer, but Druckmann doesn't want to "put the cart in front of the horse".</p>
+<p>"This needs to be a fantastic video game first, and then if that happens and we have the right partnership, those opportunities would be great," he said.</p>
+<p>"But that's not why we do what we do. So there's a lot of ideas of what we could do with Intergalactic, and in some ways it's easier to expand that because it's just how that story is structured in that universe. So there's some interesting conversations happening about potential projects that could come down in the future, but our priority right now is to make Intergalactic the next big, fantastic Naughty Dog game."</p>
+<p>Could a sequel to Intergalactic also be on the cards straight after its development?</p>
+<p>"I'm sure if Intergalactic is successful, you will see it again," he said. "Whether that will be our next game right after that, I can't say, and I leave that door open."</p>
+<p>Intergalactic: The Heretic Prophet was <a href="https://www.eurogamer.net/naughty-dog-announces-all-new-ip-intergalactic-the-heretic-prophet">first revealed at The Game Awards last year</a> (trailer above), with Tati Gabrielle in the lead role.</p>
+<p>Earlier this year, <a href="https://www.eurogamer.net/naughty-dog-working-on-second-game-alongside-intergalactic-neil-druckmann-confirms">Druckmann confirmed the studio has a second game in development</a> too.</p>
+<p><em>This is a news-in-brief story. This is part of </em><a href="https://www.eurogamer.net/eurogamer-is-changing-to-give-you-more-of-what-you-want"><em>our vision</em></a><em> to bring you all the big news as part of a </em><a href="https://www.eurogamer.net/today-in-video-games-12th-september"><em>daily live report</em></a><em>.</em></p>
+<hr>
+<p><em>Love Eurogamer? Make us a <a href="https://www.google.com/preferences/source?q=https://www.eurogamer.net/" rel="noopener nofollow" taget="_blank">Preferred Source on Google</a> and catch more of our coverage in your feeds.</em></p>
+<hr>
+
+        </div>
+
+
+      </article>
+
+
+
+  
+  </div></div><br/><br/>https://www.eurogamer.net/intergalactic-the-heretic-prophet-is-naughty-dogs-most-expansive-and-expensive-game-says-neil-druckmann]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[You Can Play Hollow Knight: Silksong On Mobile]]></title>
             <link>https://www.gamespot.com/articles/you-can-play-hollow-knight-silksong-on-mobile/1100-6534682/?ftag=CAD-01-10abi2f</link>
@@ -112,6 +243,44 @@
             <link>https://www.eurogamer.net/today-in-video-games-12th-september</link>
             <guid>https://www.resetera.com/threads/today-in-video-games-12th-september.1295514/</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
+
+
+<header data-component="article-header">
+  
+
+    <div id="main-content">
+        
+
+        <p>All the news and events in the world of video games today.</p>
+
+<p><span>
+  Live
+</span>    </p></div>
+
+
+  <p>
+
+  <figure>
+      <picture data-src-full="https://assetsio.gnwcdn.com/AdobeStock_55242958-weekend.jpg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=70&amp;format=jpg&amp;auto=webp" src="https://assetsio.gnwcdn.com/AdobeStock_55242958-weekend.jpg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=70&amp;format=jpg&amp;auto=webp">
+        <source srcset="https://assetsio.gnwcdn.com/AdobeStock_55242958-weekend.jpg?width=690&amp;quality=80&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 690px) and (min-resolution: 2x)">
+        <source srcset="https://assetsio.gnwcdn.com/AdobeStock_55242958-weekend.jpg?width=690&amp;quality=80&amp;format=jpg&amp;auto=webp" media="(min-width: 690px)">
+        <source srcset="https://assetsio.gnwcdn.com/AdobeStock_55242958-weekend.jpg?width=414&amp;quality=70&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-resolution: 2x)">
+        
+      </picture>
+
+        <figcaption>
+          <span>Image credit: <cite>Adobe Stock / maxmitzu</cite></span>
+        </figcaption>
+  </figure>
+  </p>
+
+    
+
+</header>
+    <div data-component="article-content">
+
+        <div>
 
 
 
@@ -119,14 +288,26 @@
 <p>And note: we will be doing a separate liveblog later to cover today's Nintendo Direct, which starts at 2pm UK time and runs for an hour. This blog will be superseded by that one.</p>
 <p>Today's coffee question: What have you played this year that surprised you? I'll start; <a href="https://www.eurogamer.net/banishers-ghosts-of-new-eden-review">Banishers: Ghosts of New Eden</a>. It was released last year in February and reviewed well but sunk like a stone in the ocean amidst everything else going on. It's on subscription services at the moment I believe, and it's well worth a look. </p>
 
-        </div><div data-live="true">
+        </div>
+
+
+
+  <div data-live="true">
       
 
 
   <div data-position="vertical">
           
 
-    <ul data-items="1">
+    <ul data-items="2">
+        <li data-hashid="75djmy">
+          <p><time datetime="2025-09-12T09:11:47+00:00" data-auto-relative-date="true">
+      <span>09:11 am</span>
+      <span>September 12 2025</span>
+  </time>
+            <a href="#coverage-75djmy">Intergalactic is Naughty Dog's most expansive and expensive game yet</a>
+          </p>
+        </li>
         <li data-hashid="79my2w">
           <p><time datetime="2025-09-12T09:05:50+00:00" data-auto-relative-date="true">
       <span>09:05 am</span>
@@ -148,6 +329,19 @@
       
 
     
+  </div>
+
+
+  </div>
+
+
+      </article>
+
+  
+
+
+
+        
   </div></div><br/><br/>https://www.eurogamer.net/today-in-video-games-12th-september]]></content:encoded>
         </item>
         <item>
@@ -238,7 +432,7 @@
 <!-- cache: html:nintendolife.com/ssl/related-articles:187688,187280,185788 @ 1757667414 -->
 <p><em>If there are any significant updates, we'll let you know.</em></p></section>
 <p>[source <a title="External Link: https://gonintendo.com/contents/52729-nbc-universal-snags-super-mario-galaxy-related-movie-domain-names-update" rel="noopener" href="https://gonintendo.com/contents/52729-nbc-universal-snags-super-mario-galaxy-related-movie-domain-names-update">gonintendo.com</a>]</p>
-<!-- cache: html:nintendolife.com/ssl/related-info/d41d8cd98f00b204e9800998ecf8427e @ 1757666962 --></div></article><div><p>Liam is a news writer and reviewer across Hookshot Media. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
+<!-- cache: html:nintendolife.com/ssl/related-info/d41d8cd98f00b204e9800998ecf8427e @ 1757668903 --></div></article><div><p>Liam is a news writer and reviewer across Hookshot Media. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
 </div></div></div><br/><br/>https://www.nintendolife.com/news/2025/09/mario-movie-domain-names-surface-online-ahead-of-marios-40th-anniversary]]></content:encoded>
         </item>
         <item>
@@ -305,7 +499,7 @@ Sep 12, 2025
 <p>"Special features were also added for Nintendo Live 2025 TOKYO attendees. Interestingly, the app verifies that you are physically present in the venue and locks the features if you are not. It does this by listening for an inaudible sound-wave signal that is broadcast inside."</p>
 </blockquote>
 <hr>
-<!-- cache: html:nintendolife.com/ssl/nintendo-mobile/related-articles:183013 @ 1757664673 -->
+<!-- cache: html:nintendolife.com/ssl/nintendo-mobile/related-articles:183013 @ 1757668278 -->
 <p>If we hear anything else about this latest update, we'll let you know. Have you downloaded this new app update yet? Do you use Nintendo Today! very often? <em>Tell us below.</em></p></section></article><div><p>Liam is a news writer and reviewer across Hookshot Media. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
 </div></div></div><br/><br/>https://www.nintendolife.com/news/2025/09/nintendo-today-updated-to-version-2-0-0-here-are-the-full-patch-notes]]></content:encoded>
         </item>
@@ -340,7 +534,7 @@ Sep 12, 2025
 </blockquote>
 <p>You'll be able to watch this broadcast via minecraft.net, YouTube, Twitch, Instagram and TikTok.</p>
 <p>This follows a broadcast earlier this year in March, which showcased the 'Spring To Life' update, shared an update about the Minecraft Movie, gave fans a look at the Vibrant Visuals update and more.</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch/related-articles:179858 @ 1757664855 -->
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch/related-articles:179858 @ 1757668460 -->
 <p><em>We'll update you when we hear more.</em></p></section>
 <p>[source <a title="External Link: https://www.minecraft.net/en-us/article/minecraft-live-september-27th" rel="noopener" href="https://www.minecraft.net/en-us/article/minecraft-live-september-27th">minecraft.net</a>]</p>
 <!-- cache: html:nintendolife.com/ssl/nintendo-switch/related-info/04065f97e3ae496e3bcf812d86b6f823 @ 1757668161 --></div></article><div><p>Liam is a news writer and reviewer across Hookshot Media. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
@@ -603,63 +797,6 @@ Sep 12, 2025
             <link>https://www.theverge.com/tech/776630/sony-inzone-buds-samsung-music-frame-deal-sale</link>
             <guid>https://www.resetera.com/threads/sony%E2%80%99s-inzone-buds-are-great-for-gaming-and-right-now-they%E2%80%99re-cheaper-than-ever.1295304/</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><div><p><span aria-expanded="false" aria-haspopup="true" role="button" tabindex="0"><span id="follow-author-standard_article_details-dmcyOmF1dGhvclByb2ZpbGU6Njg3NzE5"><span><span><svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Follow"><path d="M5 0H4V4H0V5H4V9H5V5H9V4H5V0Z"></path></svg></span></span><span>Brandon Russell</span></span></span></p> <p><span>is a commerce writer covering deals and buying guides. Previously, he was a freelance writer for Popular Mechanics, Men’s Health, and Esquire.</span></p></div><div id="zephr-anchor"><p>A quality pair of headphones can make a huge difference in your gaming experience, and <strong>Sony’s InZone Buds</strong> are among the best wireless gaming earbuds available. They’re currently $143.98 ($86 off) at <a href="https://click.linksynergy.com/deeplink?id=nOD/rLJHOac&amp;mid=24348&amp;murl=https%3A%2F%2Fwww.gamestop.com%2Felectronics%2Faudio%2Fheadphones%2Fearbuds-in-ear-headphones%2Fproducts%2Fsony-inzone-buds-truly-wireless-noise-canceling-gaming-earbuds-for-playstation-5-and-pc---white%2F412019.html" rel="sponsored">GameStop</a>, dropping them to a new all-time low price. <em>The Verge’s</em> commerce editor, Cameron Faulkner, says they deliver excellent sound quality and versatility, with a USB-C audio transmitter that allows them to connect to everything from a PlayStation 5 to a Steam Deck and a Nintendo Switch 2.</p><div data-product-filter=""><p><span>$<!-- -->144</span></p><div><p>Sony’s wireless gaming buds offer low latency, active noise cancellation, and support for both Bluetooth and USB-C.</p></div></div><p>Sony’s InZone Buds offer many of the same features as the company’s flagship earbuds, the <a href="https://www.theverge.com/23803374/sony-wf-1000xm5-earbuds-review">WF-1000XM5</a>, which remain <a href="https://www.theverge.com/21309820/best-wireless-earbuds">our favorite overall earbuds</a>. They use the same drivers, and they borrow the XM5’s active noise cancellation and mic transparency capabilities. Additionally, they offer up to 12 hours of battery life on a single charge, or a total of 24 hours with the charging case (which can fit the USB-C transmitter).</p><p>The InZone Buds feature multiple sizes of silicone ear tips, and if you have a PC, Sony’s InZone app can perform a sound test to help you choose the right ear tip for your inner ear shape. If you struggle to find a comfortable fit, a feature like this can be seriously useful. The earbuds also include a microphone, plus touch gestures for muting the mic, adjusting the volume of your audio, and toggling between noise cancellation settings — all of which can be customized via the InZone app.</p><div><p id="other-deals-worth-checking-out"><h2>Other deals worth checking out</h2></p></div><div><ul><li><span>If you’re looking for something to charge your phone, wireless earbuds, and smartwatch, the <strong>Anker MagGo Wireless Charging Station</strong> is down to $65.99 ($45 off) at <a href="https://www.amazon.com/Anker-Wireless-Charging-%C3%AF%C2%BC%C5%92Cable-Bundle-White/dp/B0CFXQMZJT?tag=theverge02-20" rel="sponsored">Amazon</a>. The Qi2 charger features a tree-like design, with three different charging areas. The main charging pad delivers up to 15W to a phone, while a second charging pad can quickly replenish the Apple Watch. Meanwhile, the base features a pad for wireless earbuds. The 3-in-1 charging station comes with a 40W USB-C PD wall charger and a USB-C cable, so you won’t need to buy any additional accessories to start charging your devices.</span></li><li><span>Preorders for the upcoming <strong>Teenage Mutant Ninja Turtles Trilogy</strong> 4K release are now live, with a prelaunch discount of $70 ($30 off) at <a href="https://www.amazon.com/Teenage-Mutant-Turtles-Trilogy-Limited/dp/B0FMGKJTY8/?tag=theverge02-20" rel="sponsored">Amazon</a>. The trilogy includes the original live-action <em>Teenage Mutant Ninja Turtles</em>, <em>Teenage Mutant Ninja Turtles II: The Secret of the Ooze</em>, and <em>Teenage Mutant Ninja Turtles III</em>. The first <em>TMNT</em> movie from 1990 is still the best one 35 years later, with turtle costumes from Jim Henson’s Creature Shop that still hold up. I remember watching it as a kid and being completely terrified by the building fire fight scene.</span></li><li><span>The <strong>Samsung Music Frame</strong> is currently down to an all-time low price of $127.99 ($260 off) at <a href="https://www.amazon.com/SAMSUNG-Q-Symphony-Customizable-HW-LS60D-ZA/dp/B0CTKT886K/?tag=theverge02-20" rel="sponsored">Amazon</a> and <a href="https://go.skimresources.com/?id=1025X1701640&amp;xs=1&amp;url=https%3A%2F%2Fwww.bhphotovideo.com%2Fc%2Fproduct%2F1803388-REG%2Fsamsung_hw_ls60d_za_music_frame.html" rel="sponsored">B&amp;H Photo</a>. The 12.9 x 12.9-inch picture frame can connect to Bluetooth and Wi-Fi with support for surround sound when paired with one of Samsung’s new TVs or soundbars. It also boasts Dolby Atmos support for more immersive audio and a pair of woofers, tweeters, and midrange drivers. The Music Frame can be mounted on the wall or displayed on media furniture with a stand, and it can actually be customized with a physical photo, unlike the <a href="https://www.theverge.com/22573890/ikea-sonos-symfonisk-picture-frame-speaker-review">Sonos / Ikea Symfonisk frame speaker</a> from a few years back.</span></li></ul></div><div><form><div><h2>Verge Deals</h2><p><span>Sign up for Verge Deals to get deals on products we’ve tested sent to your inbox weekly.</span></p></div></form></div><p><span><a href="https://www.theverge.com/tech/776630/sony-inzone-buds-samsung-music-frame-deal-sale#comments"><span>0<!-- --> <!-- -->Comments</span></a></span></p><div><p><span><strong>Follow topics and authors</strong> from this story to see more like this in your personalized homepage feed and to receive email updates.</span></p><ul><li id="follow-author-article_footer-dmcyOmF1dGhvclByb2ZpbGU6Njg3NzE5"><span aria-expanded="false" aria-haspopup="true" role="button" tabindex="0"><span><span><svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Follow"><path d="M5 0H4V4H0V5H4V9H5V5H9V4H5V0Z"></path></svg></span><span>Brandon Russell</span></span></span></li><li></li><li></li><li></li><li></li><li></li><li></li></ul></div></div></div></div><br/><br/>https://www.theverge.com/tech/776630/sony-inzone-buds-samsung-music-frame-deal-sale]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[This Anker 521 Portable Power Station Dips Below Prime Day Pricing, Likely a Clearance Move]]></title>
-            <link>https://kotaku.com/this-anker-521-portable-power-station-dips-below-prime-day-pricing-likely-a-clearance-move-2000624783</link>
-            <guid>https://www.resetera.com/threads/this-anker-521-portable-power-station-dips-below-prime-day-pricing-likely-a-clearance-move.1295301/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-              
-              <p>Have you seen this guy on TikTok playing games in the most serene places imaginable? <a href="https://www.tiktok.com/@thescenicgamer">The Scenic Gamer</a> travels all over playing games with iconic locations while he is set up in their real-life counterparts (or the closest thing he can find to it). He’s slaying <em>The Legend of Zelda: The Wind Waker&nbsp;</em>at the beach and&nbsp;<em>Firewatch</em> in the center of Yellowstone National Park — all on an old Toshiba CRT. Dude’s living the dream. But how’s he managing to power that TV and Nintendo GameCube without an outlet for miles? If you want to follow in his footsteps, <strong>you’ll need portable power station such as the Anker 521</strong>. <a href="https://shop.kotaku.com/go/4055/">The mini generator is normally listed at $200, but for a limited time you can get it for 20% off.</a> That brings the price down by $40 so you only have to pay $160.</p>
-<p><a href="https://shop.kotaku.com/go/4055/" target="_self" rel="sponsored nofollow">See at Amazon</a></p>
-<p>The Anker 521 portable power station comes equipped with six different ports to supply you with all your power needs when out in the wild. Along the front of the unit, you’ll find two AC ports, two USB-A ports, one USB-C port, and a car outlet. You can recharge or power up to six devices at once.</p>
-
-<p>The power station is capable of fast, reliable charging. The Anker 521 can keep a 40W mini fridge running for over five hours. Keep a fan going for nearly six. Or recharge a 13Wh camera more than 15 times over. A 12Wh smartphone can be brought back from zero to 100% 16.5 times over. Power times can be extended further by using power-saving mode. Featured on the front of the power station is a LED display providing info on the power output and remaining battery life of the anker 521 itself.</p>
-
-
-
-<h2>Optional Solar Panel</h2>
-<p>Then when the power station itself needs a recharge, it can be brought back up to at least 80% in just two and a half hours when plugged into the adapter that’s packaged with it. If you’re taking the power station on an extended getaway in the outdoors, you can also recharge it via solar energy. As an optional add-on, you can bundle your Anker 521 with a 100W solar panel. It can be adjusted to four different angles so you can maximize the energy it’s able to take in based on the sun’s position overhead.</p>
-<p><a href="https://shop.kotaku.com/go/4055/">For a limited time, you can save 20% on the Anker 521, grabbing it for just $160.</a> If you choose to bundle with the solar panel, it’s 30% off from $499 which brings it to just $350.</p>
-<p><a href="https://shop.kotaku.com/go/4055/" target="_self" rel="sponsored nofollow">See at Amazon</a></p>
-
-                          </div></div><br/><br/>https://kotaku.com/this-anker-521-portable-power-station-dips-below-prime-day-pricing-likely-a-clearance-move-2000624783]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[The New Critical Role TGIT Stream is Rocking in the 90s]]></title>
-            <link>https://techraptor.net/tabletop/news/new-critical-role-tgit-stream-is-rocking-in-90s</link>
-            <guid>https://www.resetera.com/threads/the-new-critical-role-tgit-stream-is-rocking-in-the-90s.1295280/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><p>Critical Role has announced an upcoming Daggerheart charity stream. The aptly named Critical Role TGIT stream is a charity event, featuring both a live auction event and a Daggerheart one-shot set in the radical 1990s.</p>
-
-<h2>The Critical Role TGIT Stream Announcement</h2>
-
-<p>According to an official blog post, the Critical Role TGIT stream will go live on Thursday, September 18 on eBay Live, Twitch, YouTube, and the Critical Role streaming platform, <a href="https://techraptor.net/tabletop/news/critical-role-beacon-membership-service-announced" rel="nofollow" target="_blank">Beacon</a>.</p>
-<picture><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/daggerheart-wizard-artwork.jpg?itok=3zS1whLT 1x" media="(min-width: 992px)" type="image/jpeg"><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/daggerheart-wizard-artwork.jpg?itok=is2cqowM 1x" media="(max-width: 991px)" type="image/jpeg"></picture><p>The details on the post are scarce, but illustrative. The event will include Matt Mercer as the Gamemaster, Critical Role Foundation President and voice-actor Ashley Johnson, Will Friedle (<em>Batman Beyond</em>, <em>Boy Meets World</em>), Danielle Fishel (<em>Wizards Beyond Waverly Place</em>, <em>Shifting Gears</em>), Rider Strong (<em>Cabin Fever</em>), Jodie Sweetin (<em>Full House</em>), and Christine Lakin (<em>Step By Step</em>).</p>
-
-<p>Those players will play a one-shot adventure using the blockbuster TTRPG <a href="https://techraptor.net/tabletop/reviews/daggerheart-review-narrative-forward-yes-and-ttrpg-that-is-force-to-be-reckoned" rel="nofollow" target="_blank"><em>Daggerheart</em></a> set in a 90s-themed campaign frame. So get ready for Y2K anxiety, jnco jeans, neon, Tamagotchis,&nbsp; grunge music, and more. Given the actors at this table, expect a lot of cheeky references and inside jokes on top of these aesthetic trappings.</p>
-
-<p>But this nostalgic time at the table is one part of the Critical Role TGIT stream. While the game is happening in real time, various pieces of Critical Role merchandise will be auctioned off through eBay Live. A portion of the proceeds will go to the National Center for Women &amp; Information Technology (NCWIT).</p>
-
-<p>The NCWIT provides 1,600 universities, companies, non-profits, and government organizations with resources for recruiting, retaining, and advancing women through industry and entrepreneurial careers in computers and technology nationwide.</p>
-
-<p>In addition, some proceeds will go to the Critical Role Foundation's emergency relief fund. The Critical Role Foundation is a non-profit organization that partners with like-minded organizations to create grants. Those partners include <a href="https://techraptor.net/tabletop/news/tonight-critical-role-asks-how-do-you-want-to-do-this-stephen-colbert" rel="nofollow" target="_blank">Red Nose Day</a>, Shanti Bhavan, and the First Nations Development Institute.</p>
-</div><div><p><span><div>
-       
-    <p>Ever since he was small, Tyler Chancey has had a deep, abiding love for video games and a tendency to think and overanalyze everything he enjoyed. This… <a href="https://techraptor.net/author/tyler-chancey">More about Tyler</a></p>
-  </div></span></p></div></div><br/><br/>https://techraptor.net/tabletop/news/new-critical-role-tgit-stream-is-rocking-in-90s]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[The Next Mario Movie Is Probably Going To Outer Space]]></title>
-            <link>https://kotaku.com/mario-bros-movie-2-galaxy-leaks-odyssey-nintendo-2000624997</link>
-            <guid>https://www.resetera.com/threads/the-next-mario-movie-is-probably-going-to-outer-space.1295277/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-              
-              <p>The next <em>Mario Bros.</em> movie is out April 2026 and it still doesn’t have an official title. Unofficially, however, the titles has seemingly leaked thanks to recently registered domain names, and all signs point to a riff on <em>Super Mario Galaxy</em>.</p> <p><a href="https://x.com/Wario64/status/1966207156522254476">Per Wario64</a>, the domain name supermariogalaxy.movie was registered by NBCUniversal earlier this month, followed by&nbsp;supermariogalaxy-lefilm.com and supermariogalaxy-lapelicula.com on September 10. They <a href="https://www.reddit.com/r/GamingLeaksAndRumours/comments/1nef1vl/super_mairo_bros_second_movie_title_leaks_two/">redirect to Universal’s homepage</a> and match up with the conventions used for the domains for the original <em>Super Mario Bros.</em> movie.</p> <blockquote data-width="500" data-dnt="true"> <p lang="en" dir="ltr"><a href="https://t.co/EHknBYD082">https://t.co/EHknBYD082</a> (Super Mario Galaxy film) domain also registered by NBC Universal on Sept 3rd.</p> <p>For the first movie, Universal used <a href="https://t.co/kT7oaJCDzS">https://t.co/kT7oaJCDzS</a> for the movie's website (now points to VOD/Disc links since it's been out for years) <a href="https://t.co/q0zVL2LsAI">https://t.co/q0zVL2LsAI</a> <a href="https://t.co/2uvjPnIwJQ">pic.twitter.com/2uvjPnIwJQ</a></p> <p>— Wario64 (@Wario64) <a href="https://twitter.com/Wario64/status/1966207156522254476?ref_src=twsrc%5Etfw">September 11, 2025</a></p></blockquote>  <p>This backs up a leak from months ago when a photo of labels featuring the title <em>The Super Mario Galaxy Movie</em> on Old Spice deodorant <a href="https://www.reddit.com/r/LeaksAndRumors/comments/1m2k08v/super_mario_2_old_spice_leak/">started making the rounds online</a>. It wasn’t clear at the time if it was an elaborate fake or not, though the renders showing Yoshi and Luigi looked authentic. The latest information about the domain names suggests it was legit.</p>
-
- <p>“Can’t believe that the <em>Mario</em> movie sequence was leaked by an Old Spice merch, of all things,” the YouTube account NintendoFan <a href="https://x.com/NFan_Official/status/1966200638213337371">posted on X</a>. “What a crazy timeline! I loved Yoshi’s look on that little can. Now it’s just a matter of waiting to see it in 4K.”</p> <p><em>The Super Mario Bros. Movie</em> ended with Bowser defeated and Mario and Luigi returning to their lives in Brooklyn while a post-credits sequent revealed a hatching Yoshi egg somewhere in the sewers. There weren’t any other strong leads on where the second movie would take things, but the apparent title suggests at the very least the gang is headed into space. Maybe to try and find a home for Yoshi?</p>
-
-   <p>2007’s <em>Super Mario Galaxy</em> for the Wii sees the plumber hopping from planet to planet in order to free magical stars for Rosalina’s ship, called the Comet Observatory, which got messed up by Bowser. The game features a star character, Lumalee, who already appeared in the first movie. At the same time, <em>The Super </em><em>Mario Bros. Movie</em> was a reimagining of the series lore more than a remix of it, so <em>The Super Mario Galaxy Movie</em> will likely have its own twist on the elements of the game, if it borrows directly from them at all.</p> <p>One last thing worth noting is that the Old Spice art showed a Tostarenan from <em>Super Mario Odyssey</em> hanging behind Luigi. So whatever Nintendo and Minions studio Illumination Entertainment are planning, it’s likely much bigger than any one <em>Mario</em> game. The second movie hits theaters on April 3, 2026.</p>
-                          </div></div><br/><br/>https://kotaku.com/mario-bros-movie-2-galaxy-leaks-odyssey-nintendo-2000624997]]></content:encoded>
         </item>
     </channel>
 </rss>
