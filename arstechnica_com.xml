@@ -4,353 +4,50 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Thu, 11 Sep 2025 21:12:19 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 12 Sep 2025 23:12:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Is Hollow Knight: Silksong too hard? Well, it depends on what you mean by “hard.”]]></title>
-            <link>https://arstechnica.com/gaming/2025/09/is-hollow-knight-silksong-too-hard-well-it-depends-on-what-you-mean-by-hard/</link>
-            <guid>https://www.resetera.com/threads/is-hollow-knight-silksong-too-hard-well-it-depends-on-what-you-mean-by-%E2%80%9Chard-%E2%80%9D.1295139/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="main">
-            <article data-id="2116468">
-  
-  <header>
-  <div>
-    
-
-    
-
-    <p>
-      The Ars Difficulty Matrix™ helps us analyze the many dimensions of <em>Silksong</em>'s challenges.
-    </p>
-
-    
-
-    <div id="caption-2116475">
-    
-    <p>
-      Piece of cake.
-
-              <span>
-          Credit:
-
-          
-          Team Cherry
-
-                  </span>
-          </p>
-  </div>
-
-    <div>
-    
-    <p>
-      Piece of cake.
-
-              <span>
-          Credit:
-
-          
-          Team Cherry
-
-                  </span>
-          </p>
-  </div>
-  </div>
-</header>
-
-
-  
-
-  
-      
-    
-    <div>
-                      
-                      
-          
-<p>For seven years, the discussion around <em>Hollow Knight: Silksong</em> focused on <a href="https://arstechnica.com/gaming/2025/08/explaining-the-internets-obsession-with-silksong-which-finally-comes-out-sept-4/">the cult-like levels of devotion among fans patiently waiting for the sequel</a>. Now that <em>Silksong</em> has been available for about a week, though, that discussion has turned decisively toward <a href="https://www.ign.com/articles/criticism-isnt-hate-hollow-knight-silksong-sparks-debate-about-difficulty-runbacks-and-the-dreaded-git-gud-comments">seemingly endless takes</a> on <a href="https://www.thegamer.com/hollow-knight-silksong-more-difficult-player-complaints/">the game's</a> relative <a href="https://www.nintendolife.com/features/talking-point-is-hollow-knight-silksong-too-difficult">difficulty</a> (or lack thereof). The discussion has gotten so loud that the developers at Team Cherry have vowed to implement a "slight difficulty reduction in early game bosses Moorwing and Sister Splinter" <a href="https://steamcommunity.com/app/1030300/discussions/0/595159519774039622/">in a coming patch</a>.</p>
-<p>So is <em>Silksong</em> too difficult for its own good? Or do players just have to "get good" and stop whining?</p>
-<p>To help answer those questions, we felt it was a good time to bust out the Ars Difficulty Matrix (ADM™), which we <a href="https://arstechnica.com/gaming/2022/03/is-elden-ring-really-that-hard-well-it-depends-what-you-mean-by-hard/">first used to analyze <em>Elden Ring</em>'s difficulty in 2022</a>. By breaking down the various ways a game can be "difficult," the ADM™ can more precisely critique the ways <em>Silksong</em> is and is not designed to challenge players, both for good and for ill.</p>
-<p>Each section of the ADM™ starts with a broad definition of the specific questions we're attempting to answer, followed by an analysis of how <em>Silksong</em> fits into that paradigm of the long history of video game difficulty.</p>
-<p><em>Note: The remainder of this piece has very minor spoilers for some of the earlier portions of Silksong.</em></p>
-<h2>Mechanical difficulty</h2>
-<p><em>Does the game require players to hit a specific sequence of buttons in a certain tight timing window to succeed? Also sometimes referred to as a "reflex test."</em></p>
-<p><em>Hollow Knight Silksong</em> requires pretty good gaming reflexes. There's no way around it.</p>
-<p>This is especially true when facing the game's many bosses, who often only briefly telegraph their intentions before unleashing attacks that can fill a huge portion of the screen. Players need to keep a careful eye on the sometimes small animation cues that presage an attack, move quickly and precisely to avoid that specific attack, and then dart back in during a quick counterattack window to do some damage before starting the cycle over again.</p>
-<p>Unlike many <em>Souls</em>-like games, <em>Silksong</em> doesn't have a spammable dodge button that offers the player brief invulnerability to almost every attack, regardless of location. That means players must actually carefully plan and execute quick movements to a safe region of the screen, which can be exceedingly difficult in tight timing windows.</p>
-
-          
-                      
-                  </div>
-                    
-        
-          
-    
-    <div>
+            <title><![CDATA[Modder injects AI dialogue into 2002’s Animal Crossing using memory hack]]></title>
+            <link>https://arstechnica.com/gaming/2025/09/animal-crossing-mod-uses-ai-to-orchestrate-anti-tom-nook-villager-revolt/</link>
+            <guid>https://www.resetera.com/threads/modder-injects-ai-dialogue-into-2002%E2%80%99s-animal-crossing-using-memory-hack.1296954/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
           
           
+<p>But discovering the addresses was only half the problem. When you talk to a villager in <em>Animal Crossing</em>, the game normally displays dialogue instantly. Calling an AI model over the Internet takes several seconds. Willison examined the code and found Fonseca's solution: a watch_dialogue() function that polls memory 10 times per second. When it detects a conversation starting, it immediately writes placeholder text: three dots with hidden pause commands between them, followed by a "Press A to continue" prompt.</p>
+<p>"So the user gets a 'press A to continue' button and hopefully the LLM has finished by the time they press that button," Willison <a href="https://news.ycombinator.com/item?id=45195311">noted</a> in a Hacker News comment. While players watch dots appear and reach for the A button, the mod races to get a response from the AI model and translate it into the game's dialog format.</p>
+<h2>Learning the game’s secret language</h2>
+<p>Simply writing text to memory froze the game. <em>Animal Crossing</em> uses an encoded format with control codes that manage everything from text color to character emotions. A special prefix byte (0x7F) signals commands rather than characters. Without the proper end-of-conversation control code, the game waits forever.</p>
+<p>"Think of it like HTML," Fonseca explains. "Your browser doesn't just display words; it interprets tags ... to make text bold." The decompilation community had documented these codes, allowing Fonseca to build encoder and decoder tools that translate between a human-readable format and the GameCube's expected byte sequences.</p>
 <figure>
-    <div id="caption-2116477"><p>
-              The diagonal downward slash makes some of the early game platforming challenges all the more difficult.
-                              </p><p>
-                  Credit:
-                                      Team Cherry
-                                  </p>
-                          </div>
+    
           <figcaption>
         <div>
     
     <p>
-      The diagonal downward slash makes some of the early game platforming challenges all the more difficult.
+      A screenshot of LLM-powered dialog injected into <em>Animal Crossing</em> for the GameCube.
 
               <span>
           Credit:
 
+                      <a href="https://joshfonseca.com/blogs/animal-crossing-llm" target="_blank">
           
-          Team Cherry
+          Joshua Fonseca
 
+                      </a>
                   </span>
           </p>
   </div>
       </figcaption>
       </figure>
 
-<p>Bosses aside, <em>Silksong</em>'s platforming often requires players to bounce off of aerial enemies or objects using a series of mid-air downward attacks. These precisely timed bounces are especially difficult early in the game, when the downward attack launches diagonally forward in an arc that can be challenging to aim precisely.</p>
-<p>Later upgrades that allow you to float and/or dash in mid-air help reduce the challenge of these multi-bounce strings, as do optional upgrades that straighten out your downward slash. Even so, <em>Silksong</em>'s platforming challenges will likely trip up a lot of players without extensive run-and-jump gaming experience.</p>
-
-<h2>Punishing difficulty</h2>
-<p><em>How much of a penalty does the game extract for mistakes? How many mistakes can you make before "dying"? And when you do die, how much progress do you lose?</em></p>
-<p>On the plus side, <em>Silksong</em> never extracts the ultimate punishment by sending you all the way back to the start of the game. You have effectively infinite lives, and death never pushes back farther than your last save point.</p>
-<p>On the downside, those save points are often spaced quite far apart, meaning death can require a good deal of backtracking through treacherous areas to get back to where you were (and to recover the crucial rosaries you collected in your previous life). This can be especially punishing when you reach a new region of the game and are forced to search for a convenient save point without the aid of a map, which makes retracing your steps all the more fraught and confounding.</p>
-<figure>
-    <div id="caption-2116478"><p>
-              It might be a while until you find the next resting place to save your game in <em>Silksong.</em></p><p>
-                  Credit:
-                                      Team Cherry
-                                  </p>
-                          </div>
-          <figcaption>
-        <div>
-    
-    <p>
-      It might be a while until you find the next resting place to save your game in <em>Silksong.</em>
-
-              <span>
-          Credit:
-
-          
-          Team Cherry
-
-                  </span>
-          </p>
-  </div>
-      </figcaption>
-      </figure>
-
-<p>The individual enemies in <em>Silksong</em> aren't very forgiving, either—just a few false moves can allow even random scrubs to get in enough damage to lead to a premature death. Bosses can do even more damage with a single attack and can also absorb a lot more damage than your poor avatar. Getting in five or 10 hits against a boss might be relatively simple, but getting in 50 or so before dying yourself often requires near-perfect levels of focus and execution across multiple challenging attack phases.</p>
-
-          
-                  </div>
-                    
-        
-          
-    
-    <div>
-          
-          
-<p>Like its predecessor, <em>Silksong</em> allows players to refill some of their health after gathering enough silk by hitting enemies. But even this nod to forgiveness is relatively punishing, since the health refill freezes your character in a defenseless pose for a few seconds. There's nothing quite so deflating as seeing an attempted health recharge get thwarted by an enemy lunging in for an inopportune attack.</p>
-<h2>Arcane difficulty</h2>
-<p><em>How well does the game explain its inner workings? Are there detailed tutorials explaining the basic controls and deeper strategies? Or do you have to figure it all out on your own? Are there signposts showing you what to do next?</em></p>
-<p>The most difficult part of <em>Silksong</em>, for me, is often figuring out where I should be going. Before I find a map in a new region, I often find myself flummoxed trying to remember which paths I've already explored and which I still need to work through. And even with an in-game map in hand, it's difficult for me to remember which previously inaccessible corners might now be opened thanks to a new ability.</p>
-<figure>
-    <div id="caption-2116482"><p>
-              Even buying maps from Shakra won't help you find all of <em>Silksong</em>'s secrets.
-                              </p><p>
-                  Credit:
-                                      Team Cherry
-                                  </p>
-                          </div>
-          <figcaption>
-        <div>
-    
-    <p>
-      Even buying maps from Shakra won't help you find all of <em>Silksong</em>'s secrets.
-
-              <span>
-          Credit:
-
-          
-          Team Cherry
-
-                  </span>
-          </p>
-  </div>
-      </figcaption>
-      </figure>
-
-<p>I'm willing to allow that this might be a personal problem with my sense of direction. Still, I'd imagine I'm not the only one who finds navigating <em>Silksong</em>'s labyrinthine halls to be unexpectedly difficult.</p>
-<p>The in-game map also purposefully obscures some of the game's secret nooks and crannies, which can only be found with careful observation (or a handy walkthrough). Many players could miss some of the game's most useful abilities if they're not observant. And while the game gives some basic tutorials for new abilities, a few mechanics seem intentionally obscured. I didn't know until <a href="https://www.youtube.com/watch?v=Rn5pOXujszQ">hearing about the move in a YouTube video</a> that you could dash downward to quickly reach the ground, for instance.</p>
-
-<h2>Grindable difficulty</h2>
-<p><em>Does the game give a patient player enough additional power, upgrades, tools, or knowledge to defeat difficult challenges? Or are you pretty much stuck with the techniques and abilities given to you at the outset?</em></p>
-<p>For players willing to do a little optional exploring, <em>Silksong</em> can actually be pretty generous with the power upgrades. Hidden paths and missions can often lead directly to improvements for your health, weaponry, and move set that can pay huge dividends for later challenges in the game. And the required upgrades that you receive after certain bosses (see "Gated Difficulty," below) can often make earlier challenges in the game that much simpler if and when you backtrack a bit.</p>
-
-          
-                  </div>
-                    
-        
-          
-    
-    <div>
-          
-          
-<figure>
-    <div id="caption-2116484"><p>
-              Some of the many obtainable items that can make <em>Silksong</em> a little easier.
-                              </p><p>
-                  Credit:
-                                      Team Cherry
-                                  </p>
-                          </div>
-          <figcaption>
-        <div>
-    
-    <p>
-      Some of the many obtainable items that can make <em>Silksong</em> a little easier.
-
-              <span>
-          Credit:
-
-          
-          Team Cherry
-
-                  </span>
-          </p>
-  </div>
-      </figcaption>
-      </figure>
-
-<p>That said, there are limits to how much this additional power can help <em>Silksong</em> players. This isn't like some old-school RPGs where dozens of hours of grinding can lead to a Level 99 character that can take out the final boss in a single attack. Even with all the extra upgrades you can muster, you still have to struggle through the same basic dodge-and-counterattack repetition to get through some extremely difficult and unavoidable bosses.</p>
-<h2>Gated difficulty</h2>
-<p><em>Are large portions of the game hidden behind in-game challenges that need to be bested before you can move on? Or does the game offer alternative options for getting around what might be impassable progression walls?</em></p>
-<p>Like any <a href="https://www.reddit.com/r/metroidvania/">Metroidvania</a> worth the genre name, large portions of <em>Silksong</em> require finding and unlocking new movement or attack capabilities. And in <em>Silksong</em>, those required abilities are usually gated behind major bosses that you'll need to take down before accessing massive chunks of the expansive in-game map.</p>
-<p>If and when you do get stuck on one of these bosses, you're not necessarily trapped. You'll usually be able to backtrack a bit to explore a few optional side paths and missions, which can offer power boosts that can make the boss a bit easier (see "Grindable Difficulty" above). Speedrunners have also found some arcane sequence skips to get around certain bosses or methods for putting off some boss fights until later than the developers intended.</p>
-<figure>
-    <div id="caption-2116481"><p>
-              If you don't obtain the ability to open this door, your <em>Silksong</em> journey may end before you want it to.
-                              </p><p>
-                  Credit:
-                                      Team Cherry
-                                  </p>
-                          </div>
-          <figcaption>
-        <div>
-    
-    <p>
-      If you don't obtain the ability to open this door, your <em>Silksong</em> journey may end before you want it to.
-
-              <span>
-          Credit:
-
-          
-          Team Cherry
-
-                  </span>
-          </p>
-  </div>
-      </figcaption>
-      </figure>
-
-<p>These will be of little use to many casual players, though, who may well give up on <em>Silksong</em> after banging their head against a progress-blocking boss for an hour or two.</p>
-
-<h2>Tunable difficulty</h2>
-<p><em>Does the game offer explicit options for players to change the difficulty level or make the game generally more accessible? If not, does the game tune its difficulty automatically based on a player's performance?</em></p>
-<p>The lack of any difficulty-tuning options seems like a major omission for a modern title like <em>Silksong</em>. The game's options menu includes toggles for screen shake and HUD size, but nothing in the way of difficulty adjustments.</p>
-<figure>
-    <div id="caption-2116480">
-              <p><em>Celeste</em> was designed to be difficult, but it also gave the player options to make it easier.
-                              </p><p>
-                  Credit:
-                                      Maddy Makes Games
-                                  </p>
-                          </div>
-          <figcaption>
-        <div>
-    
-    <p><em>Celeste</em> was designed to be difficult, but it also gave the player options to make it easier.
-
-              <span>
-          Credit:
-
-          
-          Maddy Makes Games
-
-                  </span>
-          </p>
-  </div>
-      </figcaption>
-      </figure>
-
-<p>Here, the developers at Team Cherry would have done well to take a few lessons from <em>Celeste</em>. While the default <em>Celeste</em> experience requires extremely precise jumps and split-second reflexes, designer Maddy Thorsen also felt it was important to offer an extremely forgiving "Assist Mode" for players who want or need a little boost.</p>
-
-          
-                  </div>
-                    
-        
-          
-    
-    <div>
-
-        
-        <div>
-          
-          
-<p>“From my perspective as the game’s designer, Assist Mode breaks the game,” <em>Celeste</em>'s Thorsen said <a href="https://www.vice.com/en/article/celeste-difficulty-assist-mode/">in an interview with Vice</a>. "I spent many hours fine-tuning the difficulty of <em>Celeste</em>, so it’s easy for me to feel precious about my designs. But ultimately, we want to empower the player and give them a good experience, and sometimes that means letting go.”</p>
-<p>A similar Assist Mode in <em>Silksong</em> would be easy for "serious" players to ignore while still allowing all players to at least have some access to the full breadth of <em>Silksong</em>'s intriguing world. Even a <a href="https://www.mariowiki.com/Invincibility_Leaf">Nintendo-style "invincibility" mode</a> that appears after a couple-dozen failed boss encounters could give frustrated players an option to unstick themselves from the game's toughest sticking points.</p>
-<h2>ADM™ roundup</h2>
-<p>From a holistic point of view, <em>Silksong</em> is definitely on the tougher side of most dimensions on the Ars Difficulty Matrix™. The game requires good reflexes—especially for bosses and platform challenges—that can punish even small mistakes with relatively large penalties and hides large chunks of the game behind difficulty gates with no tuning options that might offer some relief. Plenty of players are going to be forced to give up long before they fight their way through some of the game's most difficult bits, <a href="https://arstechnica.com/gaming/2019/09/every-game-should-copy-death-strandings-very-easy-mode/">and that's a shame</a>.</p>
-<p>But I think the passage of time has obscured just how much most of these critiques also applied to the original (and beloved) <em>Hollow Knight</em>. While <em>Silksong</em>'s bosses might be a little tougher, and its jumping challenges a little more precise, its predecessor was also often unforgiving and gated in almost the exact same ways (though some of this difficulty was <a href="https://hollowknight.fandom.com/wiki/Voidheart_Edition">eventually rebalanced</a>). Only 22 percent of <em>Hollow Knight</em>'s Steam players have <a href="https://steamcommunity.com/stats/367520/achievements">obtained the "Hollow Knight" achievement</a> for reaching the first of the game's multiple endings, and I'm willing to bet most of the remainder gave up out of frustration rather than boredom [the original version of this story cited the incorrect Achievement. Ars regrets the error].</p>
-<p>There's definitely room in the world of popular gaming for titles like <em>Silksong </em>that push even experienced players to their limits. But it's still a shame that this extreme level of challenge is going to prevent a large portion of the player base from ever directly experiencing everything <em>Silksong</em> has to offer.</p>
+<p>Initially, he tried using a single AI model to handle both creative writing and technical formatting. "The results were a mess," he notes. "The AI was trying to be a creative writer and a technical programmer simultaneously and was bad at both."</p>
+<p>The solution: split the work between two models. A Writer AI creates dialogue using character sheets scraped from the <em>Animal Crossing</em> fan wiki. A Director AI then adds technical elements, including pauses, color changes, character expressions, and sound effects.</p>
+<p>The <a href="https://github.com/vuciv/animal-crossing-llm-mod">code is available on GitHub</a>, though Fonseca warns it contains known bugs and has only been tested on macOS. The mod requires Python 3.8+, API keys for either Google Gemini or OpenAI, and Dolphin emulator. Have fun sticking it to the man—or the raccoon, as the case may be.</p>
 
 
           
-                  </div>
-
-                  
-          
-
-
-
-
-
-
-  <div>
-    
-
-    <p>
-      Kyle Orland has been the Senior Gaming Editor at Ars Technica since 2012, writing primarily about the business, tech, and culture behind video games. He has journalism and computer science degrees from University of Maryland. He once <a href="https://bossfightbooks.com/collections/books/products/minesweeper-by-kyle-orland">wrote a whole book about <em>Minesweeper</em></a>.
-    </p>
-  </div>
-
-
-  <p>
-    <a href="https://arstechnica.com/gaming/2025/09/is-hollow-knight-silksong-too-hard-well-it-depends-on-what-you-mean-by-hard/#comments" title="75 comments">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><defs><clipPath id="bubble-zero_svg__a"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath><clipPath id="bubble-zero_svg__b"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath></defs><g clip-path="url(#bubble-zero_svg__a)"><g fill="currentColor" clip-path="url(#bubble-zero_svg__b)"><path d="M80 40c0 22.09-17.91 40-40 40S0 62.09 0 40 17.91 0 40 0s40 17.91 40 40"></path><path d="M40 40 .59 76.58C-.67 77.84.22 80 2.01 80H40z"></path></g></g></svg>
-    75 Comments
-  </a>
-      </p>
-              </div>
-  </article>
-
-
-  
-
-
-  
-
-
-  
-  </div></div><br/><br/>https://arstechnica.com/gaming/2025/09/is-hollow-knight-silksong-too-hard-well-it-depends-on-what-you-mean-by-hard/]]></content:encoded>
+                  </div></div><br/><br/>https://arstechnica.com/gaming/2025/09/animal-crossing-mod-uses-ai-to-orchestrate-anti-tom-nook-villager-revolt/]]></content:encoded>
         </item>
     </channel>
 </rss>
