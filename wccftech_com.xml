@@ -4,9 +4,123 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Sat, 13 Sep 2025 16:09:59 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 13 Sep 2025 16:22:18 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[First Borderlands 4 Mods Remove Outlines/Bloom/Fog, Tweak Rewards, Difficulty and Weapon Stats]]></title>
+            <link>https://wccftech.com/first-borderlands-4-mods-remove-outlines-bloom-fog-tweak-rewards/</link>
+            <guid>https://www.resetera.com/threads/first-borderlands-4-mods-remove-outlines-bloom-fog-tweak-rewards-difficulty-and-weapon-stats.1297242/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>When Borderlands 4 launched two days ago, it immediately <a href="https://wccftech.com/borderlands-4-out-now-already-biggest-borderlands-game-on-steam/" target="_blank" rel="noreferrer noopener">set a new franchise record for concurrent players on Steam</a>. That record has since been broken as recently as thirteen hours ago, when SteamDB <a href="https://steamdb.info/app/1285190/charts/" target="_blank" rel="noreferrer noopener">registered</a> 252K concurrent players playing the latest entry in the looter shooter series. That number is likely to go up even further between today and tomorrow, as it often does in a popular game's initial weekend, even if most user reviews on Steam are currently Mixed due to performance issues. </p>
+
+
+
+<p>Meanwhile, the newly created Borderlands 4 page on Nexus Mods already hosts 20 mods for the game. Some of them are the usual Unreal Engine tweaks that, more often than not, turn out to be snake oil, promising decreased hitching or stuttering without actually delivering. A couple aim to remove the start screen and introductory videos, but there are better ways than using mods for this purpose. Just go to the OakGame\Content\Splash and OakGame\Content\Movies folders (within the main Borderlands 4 folder) and delete or rename the Splash.bmp, 2KLOGO.bk2, and GBXLOGO.bk2 files. </p>
+
+
+
+<p>Since those files will be restored with any new update, though, it is even better to add the following command line argument to the game's launch options within your PC launcher, be it Steam or Epic Games:</p>
+
+
+
+<p>-nostartupmovies -nosplash</p>
+
+
+
+<p>But there are quite a few useful mods well worth downloading from the Nexus. For example, Akelaphobia <a href="https://www.nexusmods.com/borderlands4/mods/11?tab=description" target="_blank" rel="noreferrer noopener">made</a> a ReShade add-on that allows players to toggle various effects on and off based on predefined keybindings:</p>
+
+
+
+<ul>
+<li>Toggle HUD (Caps Lock) </li>
+
+
+
+<li>Toggle Damage Numbers (F1) </li>
+
+
+
+<li>Toggle Speed Lines (F2) </li>
+
+
+
+<li>Toggle Almost All Outlines (F3) </li>
+
+
+
+<li>Toggle Loot Outlines (F4) </li>
+
+
+
+<li>Toggle Loot Beams (F5) </li>
+
+
+
+<li>Toggle Loot Glow (F6) </li>
+
+
+
+<li>Toggle Hurt/Bloody Vignette (F7) </li>
+
+
+
+<li>Toggle Healing Vignette (F8) </li>
+
+
+
+<li>Toggle Healing Orbs (F9) </li>
+
+
+
+<li>Toggle Tracers (F10) </li>
+
+
+
+<li>Toggle Bloom (OEM [) (Left Bracket) </li>
+
+
+
+<li>Toggle Fog (OEM ]) (Right Bracket)</li>
+</ul>
+
+
+
+<figure></figure>
+
+
+
+<figure></figure>
+
+
+
+<figure></figure>
+
+
+
+<figure></figure>
+
+
+
+<p>The mod is extremely easy to install. Users just need to extract the contents to the game root's folder, then boot up the game and use the keybindings to toggle off the effects as desired. To change keybinds, press the Home key to bring up the ReShade UI, go to the Add-ons tab, select Edit under ShaderToggler to pick a new hotkey, and save all Toggle Groups.</p>
+
+
+
+<p>User Caites also created several Borderlands 4 mods that aim to tweak the game's <a href="https://www.nexusmods.com/borderlands4/mods/1" target="_blank" rel="noreferrer noopener">difficulty</a> (experience, damage dealt and received, loot, and cash can be tweaked separately), increase <a href="https://www.nexusmods.com/borderlands4/mods/3" target="_blank" rel="noreferrer noopener">weapon stats</a> (improving fire rate and decreasing recoil), <a href="https://www.nexusmods.com/borderlands4/mods/10" target="_blank" rel="noreferrer noopener">mission rewards</a> (2x or 4x), <a href="https://www.nexusmods.com/borderlands4/mods/20" target="_blank" rel="noreferrer noopener">improve repkits</a> (a new gear type that heals and buffs characters), and <a href="https://www.nexusmods.com/borderlands4/mods/16" target="_blank" rel="noreferrer noopener">removes the fog of war from the in-game map</a>.</p>
+
+
+
+<p>Many more Borderlands 4 mods will undoubtedly be released in the coming days and weeks, and we'll report on anything significant, such as the much-needed removal of the dreadful 30 frames per second cap on in-game cutscenes.</p>
+
+			
+		</div></div><br/><br/>https://wccftech.com/first-borderlands-4-mods-remove-outlines-bloom-fog-tweak-rewards/]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Squadron 42 Content Director Isn’t 100% Sure the Game Will Launch in 2026]]></title>
             <link>https://wccftech.com/squadron-42-content-director-isnt-100-sure-game-launch-2026/</link>
