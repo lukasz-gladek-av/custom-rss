@@ -4,8 +4,10 @@ const { Readability } = require('@mozilla/readability');
 const { Feed } = require('feed');
 const axios = require('axios');
 const cheerio = require('cheerio');
+const fs = require('fs');
 
 const rssParser = new RSSParser();
+const existingFeedParser = new RSSParser();
 const originalFeedUrl = 'https://www.resetera.com/forums/gaming-headlines.54/index.rss';
 const feed = new Feed({
   title: 'maGaming RSS Feed',
@@ -15,6 +17,29 @@ const feed = new Feed({
 const domainFeeds = new Map();
 
 const skipSitesMatches = ['destructoid.com', 'polygon.com', 'gamesindustry.biz', 'vgbees.com']
+
+async function loadExistingItemIds(filePath) {
+  try {
+    const xmlData = await fs.promises.readFile(filePath, 'utf8');
+    const parsedFeed = await existingFeedParser.parseString(xmlData);
+    const ids = new Set();
+
+    for (const item of parsedFeed.items || []) {
+      const id = item.guid || item.id || item.link;
+      if (id) {
+        ids.add(id);
+      }
+    }
+
+    return ids;
+  } catch (error) {
+    if (error.code !== 'ENOENT') {
+      console.warn(`Unable to read existing feed from ${filePath}:`, error);
+    }
+
+    return new Set();
+  }
+}
 
 function extractHrefFromContent(htmlContent) {
   const dom = new JSDOM(htmlContent, {
@@ -57,6 +82,8 @@ function extractHrefFromContent(htmlContent) {
 }
 
 async function fetchAndProcessFeed() {
+  const existingArticleIds = await loadExistingItemIds('gaming.xml');
+  let hasNewArticles = false;
   const parsedFeed = await rssParser.parseURL(originalFeedUrl);
 
   for (const item of parsedFeed.items) {
@@ -89,7 +116,7 @@ async function fetchAndProcessFeed() {
       if (skipSitesMatches.some(site => itemArticleLink.includes(site))) {
         continue;
       }
-      
+
       // Fetch the article content
       const response = await axios.get(itemArticleLink);
       const html = response.data;
@@ -108,6 +135,9 @@ async function fetchAndProcessFeed() {
           content: article.content + '<br/><br/>' + itemArticleLink,
           author: [{ name: item.author || item.creator || 'Unknown' }],
         };
+        if (!existingArticleIds.has(articleItem.id)) {
+          hasNewArticles = true;
+        }
         feed.addItem(articleItem);
 
         // Per domain
@@ -124,6 +154,9 @@ async function fetchAndProcessFeed() {
         domainFeeds.get(linkDomain).addItem(articleItem);
       } else {
         console.warn(`Failed to parse content for ${itemArticleContent || itemArticleLink}`);
+        if (!existingArticleIds.has(item.link)) {
+          hasNewArticles = true;
+        }
         feed.addItem(item)
       }
     } catch (err) {
@@ -131,12 +164,17 @@ async function fetchAndProcessFeed() {
     }
   }
 
+  if (!hasNewArticles) {
+    console.log('No new articles found; skipping feed update.');
+    return;
+  }
+
   const rssXml = feed.rss2();
-  require('fs').writeFileSync('gaming.xml', rssXml);
+  fs.writeFileSync('gaming.xml', rssXml);
   domainFeeds.forEach((domainFeed, domainUrl) => {
-  console.log('domain', domainUrl);
+    console.log('domain', domainUrl);
     const domainRssXml = domainFeed.rss2();
-    require('fs').writeFileSync(domainUrl + '.xml', domainRssXml);
+    fs.writeFileSync(domainUrl + '.xml', domainRssXml);
   });
 }
 
