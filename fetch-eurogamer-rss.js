@@ -72,11 +72,12 @@ async function fetchAndProcessFeed() {
           author: [{ name: item.author || item.creator || 'Unknown' }],
         });
       } else {
-        console.warn(`Failed to parse content for ${itemArticleContent || itemArticleLink}`);
+        const fallbackIdentifier = itemArticleLink || item.link || item.title || 'Unknown item';
+        console.warn(`Failed to parse content for ${fallbackIdentifier}`);
         if (!existingArticleIds.has(item.link)) {
           hasNewArticles = true;
         }
-        feed.addItem(item)
+        feed.addItem(item);
       }
     } catch (err) {
       console.error(`Error processing ${item}:`, err);
