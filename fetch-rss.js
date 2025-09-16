@@ -81,6 +81,11 @@ async function fetchAndProcessFeed() {
       const itemArticleContent = item['content:encoded'];
       const itemArticleLink = extractHrefFromContent(itemArticleContent);
 
+      if (!itemArticleLink) {
+        console.warn(`Missing article link for ${item.title}. Skipping.`);
+        continue;
+      }
+
       if (skipSitesMatches.some(site => itemArticleLink.includes(site))) {
         continue;
       }
