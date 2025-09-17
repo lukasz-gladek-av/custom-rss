@@ -4,50 +4,240 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Sat, 13 Sep 2025 15:04:04 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 17 Sep 2025 21:36:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Modder injects AI dialogue into 2002’s Animal Crossing using memory hack]]></title>
-            <link>https://arstechnica.com/gaming/2025/09/animal-crossing-mod-uses-ai-to-orchestrate-anti-tom-nook-villager-revolt/</link>
-            <guid>https://www.resetera.com/threads/modder-injects-ai-dialogue-into-2002%E2%80%99s-animal-crossing-using-memory-hack.1296954/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-          
-          
-<p>But discovering the addresses was only half the problem. When you talk to a villager in <em>Animal Crossing</em>, the game normally displays dialogue instantly. Calling an AI model over the Internet takes several seconds. Willison examined the code and found Fonseca's solution: a watch_dialogue() function that polls memory 10 times per second. When it detects a conversation starting, it immediately writes placeholder text: three dots with hidden pause commands between them, followed by a "Press A to continue" prompt.</p>
-<p>"So the user gets a 'press A to continue' button and hopefully the LLM has finished by the time they press that button," Willison <a href="https://news.ycombinator.com/item?id=45195311">noted</a> in a Hacker News comment. While players watch dots appear and reach for the A button, the mod races to get a response from the AI model and translate it into the game's dialog format.</p>
-<h2>Learning the game’s secret language</h2>
-<p>Simply writing text to memory froze the game. <em>Animal Crossing</em> uses an encoded format with control codes that manage everything from text color to character emotions. A special prefix byte (0x7F) signals commands rather than characters. Without the proper end-of-conversation control code, the game waits forever.</p>
-<p>"Think of it like HTML," Fonseca explains. "Your browser doesn't just display words; it interprets tags ... to make text bold." The decompilation community had documented these codes, allowing Fonseca to build encoder and decoder tools that translate between a human-readable format and the GameCube's expected byte sequences.</p>
-<figure>
-    
-          <figcaption>
-        <div>
+            <title><![CDATA[Why, as a responsible adult, SimCity 2000 hits differently]]></title>
+            <link>https://arstechnica.com/gaming/2025/09/thirty-years-later-simcity-2000-hasnt-changed-but-i-have/</link>
+            <guid>https://www.resetera.com/threads/why-as-a-responsible-adult-simcity-2000-hits-differently.1300923/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="app">
+    <p><a href="#main">
+  Skip to content
+</a></p>
+
+
+
+<main id="main">
+            <article data-id="2117661">
+  
+  <header>
+  <div>
+    <div>
+      <div>
+        <p><span>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><defs><clipPath id="section-gaming_svg__a"><path fill="none" d="M0 0h40v40H0z"></path></clipPath><clipPath id="section-gaming_svg__b"><path fill="none" d="M0 0h40v40H0z"></path></clipPath></defs><g clip-path="url(#section-gaming_svg__a)"><g fill="none" clip-path="url(#section-gaming_svg__b)"><path fill="currentColor" d="M30.7 39.7c-.7-1.1-1.7-1.8-2.5-2.8-.9-1.2 0-2 .8-3 .6-.9 1-1.9.8-3-.6-2.7-3.4-3.3-5.8-3.6-.7-.1-1.8-.2-2.3-.7s-.5-1.4-.5-2.1v-.4l15.5-3.6c2.3-.5 3.7-2.8 3.2-5.1l-2.8-12C36.6 1.1 34.3-.3 32 .2L3.3 6.8C1 7.4-.4 9.7.1 12l2.8 12c.5 2.3 2.8 3.7 5.1 3.2l11.1-2.6c0 1 .2 2.1.7 2.9 1.7 2.7 6 .8 7.6 3.3.8 1.2-.5 2.3-1.1 3.3-.6.9-.9 2-.4 3 .4 1.1 1.4 1.8 2.2 2.6 0 .1.2.2.3.3h2.4c0-.1-.1-.2-.2-.3m.7-28.7c1.3-.3 2.7.5 3 1.9.3 1.3-.5 2.7-1.9 3-1.3.3-2.7-.5-3-1.9-.3-1.3.5-2.7 1.9-3m-6-3.7c1.3-.3 2.7.5 3 1.9.3 1.3-.5 2.7-1.9 3-1.3.3-2.7-.5-3-1.9-.3-1.3.5-2.7 1.9-3m-9.9 13.2-2.7.6-1-4.1-4.1 1-.6-2.7 4.1-1-1-4.1 2.7-.6 1 4.1 4.1-1 .6 2.7-4.1 1z"></path></g></g></svg>
+  </span>
+  <span>
+    Maybe I should raise taxes
+  </span>
+</p>
+      </div>
+
+      
+
+      <p>
+        After years as a parent and homeowner, I sympathize more with my virtual citizens.
+      </p>
+
+      
+    </div>
+
+    <div>
     
     <p>
-      A screenshot of LLM-powered dialog injected into <em>Animal Crossing</em> for the GameCube.
+      Well that's not gonna be good for property values.
 
               <span>
           Credit:
 
-                      <a href="https://joshfonseca.com/blogs/animal-crossing-llm" target="_blank">
           
-          Joshua Fonseca
+          Maxis
 
-                      </a>
+                  </span>
+          </p>
+  </div>
+  </div>
+</header>
+
+
+  
+
+  
+      
+    
+    <div>
+                      
+                      
+          
+
+
+<p>When I was a child, <a href="https://www.tkqlhce.com/click-8984087-15232592?url=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fsimcity_2000_special_edition"><em>SimCity 2000</em></a> felt like a fun, animated set of urban-themed Lego blocks to tinker with. Revisiting the game roughly three decades later, though, I've found the weight of my adult responsibilities tempering my role as god-mayor of a tiny metropolis.</p>
+<p>The tough economics of establishing a thriving city barely concerned me as a child. Rather than building up a durable tax base from a slowly growing city of happy citizens, I'd usually <a href="https://gamegenie.com/cheats/mac/SimCity2000.html">type in an infinite money cheat</a> or load up the handy <a href="https://www.mobygames.com/game/2422/simcity-2000-urban-renewal-kit/">Urban Renewal Kit expansion</a> to build whatever I wanted, wherever I wanted, as quickly as possible.</p>
+<figure>
+    <div id="caption-2117666"><p>
+              A blank canvas, ready for me to destroy.
+                              </p><p>
+                  Credit:
+                                      Maxis
+                                  </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      A blank canvas, ready for me to destroy.
+
+              <span>
+          Credit:
+
+          
+          Maxis
+
                   </span>
           </p>
   </div>
       </figcaption>
       </figure>
 
-<p>Initially, he tried using a single AI model to handle both creative writing and technical formatting. "The results were a mess," he notes. "The AI was trying to be a creative writer and a technical programmer simultaneously and was bad at both."</p>
-<p>The solution: split the work between two models. A Writer AI creates dialogue using character sheets scraped from the <em>Animal Crossing</em> fan wiki. A Director AI then adds technical elements, including pauses, color changes, character expressions, and sound effects.</p>
-<p>The <a href="https://github.com/vuciv/animal-crossing-llm-mod">code is available on GitHub</a>, though Fonseca warns it contains known bugs and has only been tested on macOS. The mod requires Python 3.8+, API keys for either Google Gemini or OpenAI, and Dolphin emulator. Have fun sticking it to the man—or the raccoon, as the case may be.</p>
+<p>Thus unleashed, my childhood self would go mad with unchecked power, petulantly turning dials just to see what happened to the citizens in my virtual ant farm. Sometimes I'd try to arrange a repeating grid of <a href="https://www.reddit.com/r/solarpunk/comments/wp43ua/sim_city_2000_arcology/">fancy arcologies</a> and police stations, trying to create a regimented utopia out of the game's most expensive (and therefore "best") building type. More often, I'd play with the far edges of the simulation, crowding residential areas next to polluting heavy industry or letting entire neighborhoods go without fire protection and waiting to see how long it took for things to fall apart.</p>
+<p>Coming back to <em>SimCity 2000</em> today, I find it much harder to callously play with the lives of my virtual citizens. The years I've spent as a homeowner, parent, and city-dwelling adult make me at least pause before I willingly inflict that kind of pain on my tiny subjects.</p>
+<p>As a child, I'd think nothing of temporarily cranking up property taxes just to pay for a pet project; now, it makes me think of my own slowly rising property tax bill. As a child, I saw the "legalized gambling" ordinance as an easy hack to fill in a budget gap in a struggling city; now, I think about all the attendant problems that would come if my town suddenly became a gambling mecca.</p>
+
+          
+                      
+                  </div>
+                    
+        
+          
+    
+    <div>
+          
+          
+<p>Today, when I hear the game's traffic chopper constantly complaining about snarled roads, I think of all the times I've been sitting in traffic, cursing city planners who don't invest enough in mass transit. Likewise, when I see a sim-neighborhood blighted by blackened, abandoned buildings, I think of the similar struggling areas I've seen dotting cities I've lived in.</p>
+<h2>Trade-offs</h2>
+<p>Playing <em>SimCity 2000</em> as an adult forces me to sit and think about what I consider important in a livable environment in a way I couldn't fully process as a child.</p>
+<figure>
+    <div id="caption-2117669"><p>
+              Is that park on fire?
+                              </p><p>
+                  Credit:
+                                      Maxis
+                                  </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      Is that park on fire?
+
+              <span>
+          Credit:
+
+          
+          Maxis
+
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>Can I live my values by sparing some money in a tight budget for homeless shelters or anti-smoking initiatives? Should I trust my police captain when he says crime is out of control, or should I wonder if he's just protecting his own livelihood? Do I really want to spend more money and land space on solar power plants, or is a little pollution from the cheaper coal plant worth the trade-off?</p>
+<p>While these kinds of decisions plague me now in a way they never did as a child, the trade-offs I don't have to make in <em>SimCity 2000</em> also stand out. If I want to build a train line in <em>SimCity 2000</em>, I can literally pause time and just drag the tracks across the entirety of downtown. Here in the real world of suburban DC, I've watched as <a href="https://www.wusa9.com/article/traffic/mission-metro/purple-line-construction-delays-cause-problems-businesses/65-4247f929-4432-441b-ac70-dac568560994">construction of the Purple Line light rail has dragged on outside my window for years</a>, snarling traffic and <a href="https://www.cato.org/blog/dc-purple-line-cost-overruns-delays-continue">running up costs in the process</a>.</p>
+<p>I understand why a game like <em>SimCity</em> doesn't force you to wait multiple in-game years to level a mountain or build a long bridge, for instance. But the idealized construction speeds shown here do give a skewed view of urban development that can be seductive in its simplicity.</p>
+
+          
+                  </div>
+                    
+        
+          
+    
+    <div>
+
+        
+        <div>
+          
+          
+
+<h2>Retro-future</h2>
+<p>Speaking of seductive simplicity, the retro-futurism of <em>SimCity 2000</em>'s look and feel is still compelling after all this time. As a child, I remember being immediately put off by the look of the original <em>SimCity</em>, with its garish EGA colors, complicated user interface, and overly rigid, stylized overhead grid map. By contrast, the bright SVGA colors, angular hills, flowing waterfalls, and isometric skyscrapers of <em>SimCity 2000</em> felt, at the time, like the future implied by its title.</p>
+<figure>
+    <div id="caption-2117663"><p>
+              You mean the roads can go diagonally? My mind is BLOWN!
+                              </p><p>
+                  Credit:
+                                      Maxis
+                                  </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      You mean the roads can go diagonally? My mind is BLOWN!
+
+              <span>
+          Credit:
+
+          
+          Maxis
+
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>Now that the year 2000 is a quarter-century in the past, there are definitely some UI touches that feel downright archaic, though. Years of quickly dragging and zooming through the likes of Google Maps and smartphone photos makes it feel incredibly awkward to use the much rougher camera tools in <em>SimCity 2000</em>. I found myself constantly wishing for the ability to turn the camera in increments less than 90 degrees or to have access to a more fine-grained zoom control.</p>
+<p>Still, it's hard to deny the charm of seeing these tiny pixel-art buildings popping up like weeds from a carefully manicured zoning plot, fed by electricity, water, and nearby services you've set up. As a responsible adult, I want to do right by the tiny citizens in those tiny virtual houses and create a living space for them where they can build a life worth living.</p>
+<p>But I'd be lying if my inner child didn't just want to unleash a tornado on virtual downtown sometimes...</p>
+<p><em>Feel like giving </em>SimCity 2000<em> a whirl? Grab the DOSBox-powered Special Edition—complete with Urban Renewal Kit—for <a href="https://www.tkqlhce.com/click-8984087-15232592?url=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fsimcity_2000_special_edition">only $5.99 on the GOG store</a>! Ars Technica may earn compensation for sales from links on this post through affiliate programs.</em></p>
 
 
           
-                  </div></div><br/><br/>https://arstechnica.com/gaming/2025/09/animal-crossing-mod-uses-ai-to-orchestrate-anti-tom-nook-villager-revolt/]]></content:encoded>
+                  </div>
+
+                  
+          
+
+
+
+
+
+
+  <div>
+    
+
+    <p>
+      Kyle Orland has been the Senior Gaming Editor at Ars Technica since 2012, writing primarily about the business, tech, and culture behind video games. He has journalism and computer science degrees from University of Maryland. He once <a href="https://bossfightbooks.com/collections/books/products/minesweeper-by-kyle-orland">wrote a whole book about <em>Minesweeper</em></a>.
+    </p>
+  </div>
+
+
+  <p>
+    <a href="https://arstechnica.com/gaming/2025/09/thirty-years-later-simcity-2000-hasnt-changed-but-i-have/#comments" title="23 comments">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><defs><clipPath id="bubble-zero_svg__a"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath><clipPath id="bubble-zero_svg__b"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath></defs><g clip-path="url(#bubble-zero_svg__a)"><g fill="currentColor" clip-path="url(#bubble-zero_svg__b)"><path d="M80 40c0 22.09-17.91 40-40 40S0 62.09 0 40 17.91 0 40 0s40 17.91 40 40"></path><path d="M40 40 .59 76.58C-.67 77.84.22 80 2.01 80H40z"></path></g></g></svg>
+    23 Comments
+  </a>
+      </p>
+              </div>
+  </article>
+
+
+  
+
+
+  
+
+
+  
+  </main>
+
+
+
+
+
+  </div></div><br/><br/>https://arstechnica.com/gaming/2025/09/thirty-years-later-simcity-2000-hasnt-changed-but-i-have/]]></content:encoded>
         </item>
     </channel>
 </rss>
