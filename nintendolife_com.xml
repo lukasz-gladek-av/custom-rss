@@ -4,9 +4,88 @@
         <title>maGaming RSS Feed - nintendolife_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/nintendolife_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for nintendolife_com</description>
-        <lastBuildDate>Fri, 26 Sep 2025 02:09:44 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 26 Sep 2025 02:40:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Switch 2 Exclusive 'Drag x Drive' Scores First Major Update, Includes Local Wireless Games And Much More]]></title>
+            <link>https://www.nintendolife.com/news/2025/09/switch-2-exclusive-drag-x-drive-scores-first-major-update-includes-local-wireless-games-and-much-more</link>
+            <guid>https://www.resetera.com/threads/switch-2-exclusive-drag-x-drive-scores-first-major-update-includes-local-wireless-games-and-much-more.1309449/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="body">
+<article id="article">
+<header><section>
+<p>Baller</p>
+</section></header><div><section>
+<figure><a title="Drag x Drive" href="https://images.nintendolife.com/742cea9f6aa0d/drag-x-drive.large.jpg"></a><figcaption><em>Image: Nintendo</em></figcaption></figure><p>The Switch 2 exclusive <a href="https://www.nintendolife.com/games/nintendo-switch-2/drag-x-drive">Drag x Drive</a> has today received its first major game update, bumping it up to Version 1.1.0.</p>
+<p>It's been previously noted how this title was lacking modes and certain features, and it seems this latest update has improved the overall experience. For starters, it's now possible to play local wireless games, and apart from this, there are some handy updates to the game's 'Online' mode and fixes to go with it.</p>
+<p>As usual, here's the full rundown courtesy of Nintendo's official support page:</p><div><figure data-videoid="epMKq3hLRsg" data-start="0" data-src="https://www.youtube.com/embed/epMKq3hLRsg?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><iframe title="YouTube Video" src="javascript:''" data-src-fallback="https://www.youtube-nocookie.com/embed/epMKq3hLRsg?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/epMKq3hLRsg?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" type="text/html" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed5f18d0uysvgz&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><figcaption><p>Subscribe to <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1">Nintendo Life</a> on <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1"><span>YouTube</span><span>835k</span></a></p>
+</figcaption></figure></div>
+<h2>Drag X Drive - Version 1.1.0 (25th September, 2025)</h2>
+<p><strong>General Updates</strong></p>
+<ul>
+<li>It’s now possible to play local wireless games.
+<ul>
+<li>Select Local wireless park from the Mode tab of the X Menu to play.</li>
+</ul>
+</li>
+<li>The game will now display play history.
+<ul>
+<li>Select Stats from the Help tab of the X Menu to view it.</li>
+</ul>
+</li>
+<li>The game will now display player levels, which increase by gaining XP.
+<ul>
+<li>It displays in the upper right corner of the screen on the X Menu.</li>
+<li>It is not used in matchmaking for public parks.</li>
+</ul>
+</li>
+<li>It is now possible to select either Set as Blue or Blue/Red for Your Team Color.
+<ul>
+<li>Select Settings on the Help tab of the X Menu, then select Display Options to make this choice.</li>
+</ul>
+</li>
+<li>Adjusted certain depictions, including the game-start animations, lighting within parks, and the time the lights are lit up when at top speed.</li>
+<li>The game will now display version information.
+<ul>
+<li>Select the Help tab of the X Menu to view it.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Online</strong></p>
+<ul>
+<li>It is now possible to join the wait list when the public park or friend park your friend is in is full.
+<ul>
+<li>You can join the wait list from the list found under Friend park on the Mode tab of the X Menu.</li>
+<li>If you select your friend when the park that friend is in is full, you will automatically attempt to connect next time a spot opens up in that park.</li>
+</ul>
+</li>
+<li>When you are in a public park, selecting public park again will now prioritize selection of another public park.</li>
+<li>Made adjustments to increase the chances of 3-on-3 games in public parks.</li>
+<li>Changed the game start position for 2-on-2 games in public parks.</li>
+<li>The game will now display the score when using the spectator camera.</li>
+<li>Like offline bots, online bots will now pass to players when they raise their hands or use the “Hey” reaction.</li>
+</ul>
+<p><strong>Fixed Issues</strong></p>
+<ul>
+<li>Fixed an issue where sometimes no record is made under Search for Users You’ve Played With.</li>
+<li>Fixed an issue where the game would sometimes crash when starting up the game or heading to a park.</li>
+<li>Fixed an issue where the shot success rate for shots made immediately before landing was based on the position where the shot was made.</li>
+</ul>
+<p>The success rate for shots is affected by the distance to the hoop (how close the player is to the hoop) and the player’s orientation towards the hoop (how directly the player is facing the hoop).</p>
+<p>In order to make it so that bunny-hop shots while approaching did not become excessively advantageous, the intended design was to calculate shot success rate for distance to the hoop based on the last point of contact with the ground (the jumping off point).</p>
+<p>However, just for when the player took a shot immediately before landing, the shot success rate was being calculated based on the position where the shot was made, which was not intended, so we have fixed this.</p>
+<p>However, there are no changes to the success rate for orientation towards the hoop.</p>
+<hr>
+<p>You can find out more about this game in our review here on Nintendo Life. If not, here's a quick sample where we said it was a well-made sports game, even with the lack of options and control hurdles.</p>
+<blockquote>
+<p>"Drag x Drive may lack options with regards to online modes, and its controls take a bit of getting used to. However, if you can give up some time to engaging with this one, if you can get past the barriers in terms of controls and the early frustrations as you find your rhythm, you'll be rewarded with a unique and very well-made sports game that deserves to find an audience of dedicated fans."</p>
+</blockquote>
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:186124,184406,187103 @ 1758853952 -->
+<p>Have you given this game a go yet on the Switch 2? <em>Let us know in the comments.</em></p></section>
+<p>[source <a title="External Link: https://en-americas-support.nintendo.com/app/answers/detail/a_id/68646/~/how-to-update-drag-x-drive" rel="noopener" href="https://en-americas-support.nintendo.com/app/answers/detail/a_id/68646/~/how-to-update-drag-x-drive">en-americas-support.nintendo.com</a>]</p>
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-info/800bafe716fad059595445465a804dc6 @ 1758853868 --></div></article><div><p>Liam is a news writer and reviewer across Hookshot Media. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
+</div></div></div><br/><br/>https://www.nintendolife.com/news/2025/09/switch-2-exclusive-drag-x-drive-scores-first-major-update-includes-local-wireless-games-and-much-more]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Are You "Unsure" About Final Fantasy VII Remake Intergrade For Switch 2? Don't Worry, There'll Be A Demo]]></title>
             <link>https://www.nintendolife.com/news/2025/09/are-you-unsure-about-final-fantasy-vii-remake-intergrade-for-switch-2-dont-worry-therell-be-a-demo</link>
@@ -17,13 +96,13 @@
 <p>It's planned for the "end of the year"</p>
 </section></header><div><section>
 <figure><a title="Final Fantasy VII Remake" href="https://images.nintendolife.com/e046677dd50b6/final-fantasy-vii-remake.large.jpg"></a><figcaption><em>Image: Square Enix</em></figcaption></figure><p>If you want to try <a href="https://www.nintendolife.com/games/nintendo-switch-2/final-fantasy-vii-remake-intergrade">Final Fantasy VII Remake Intergrade</a> on Switch 2 before you actually purchase it, we've got some good news.</p>
-<p>According to the game's director Naoki Hamaguchi, Square Enix is planning to release a demo for Nintendo's new system by the end of this year. Speaking to Inverse recently, he mentioned how it should help players who are still "unsure" if the game is right for them.</p>
+<p>According to the game's director Naoki Hamaguchi, Square Enix is planning to release a demo for Nintendo's new system by the end of this year. Speaking to Inverse recently, he mentioned how it should help players who are still "unsure" if this enhanced release is right for them.</p>
 <blockquote>
 <p>"I wanted to mention that at the end of the year, a demo is coming out for Switch 2 and Xbox. Players who might still be on the fence or unsure about playing, it’d be great for them to experience."</p></blockquote><blockquote>
 </blockquote>
 <p>He adds how it will also give players the chance to "feel the full specs" of the game on the Switch 2. This demo is once again planned for "the end of the year", so if we hear any formal announcements or updates from Square Enix between now and then, we'll let you know.</p>
 <p>Last month, Square Enix confirmed this game would run at a "stable 30 frames per second" on the Switch 2, while "offering smooth performance and crisp visuals".</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:187334,187149,187814 @ 1758852281 -->
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:187334,187149,187814 @ 1758853158 -->
 <p>Do you need to be sold on this Switch 2 release with a demo, or do you already plan to get it when it arrives in January 2026? <em>Let us know in the comments.</em></p></section>
 <p>[source <a title="External Link: https://www.inverse.com/gaming/final-fantasy-7-remake-switch-2-xbox" rel="noopener" href="https://www.inverse.com/gaming/final-fantasy-7-remake-switch-2-xbox">inverse.com</a>, via <a title="External Link: https://nintendoeverything.com/final-fantasy-7-remake-intergrade-getting-a-nintendo-switch-2-demo/" rel="noopener" href="https://nintendoeverything.com/final-fantasy-7-remake-intergrade-getting-a-nintendo-switch-2-demo/">nintendoeverything.com</a>]</p>
 <!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-info/bf81f9ca5b5a6b9df3125e3fc2e920d5 @ 1758850577 --></div></article><div><p>Liam is a news writer and reviewer across Hookshot Media. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
@@ -41,14 +120,14 @@
 
 <p>Nintendo's amiibo series has got a boost in recent times, thanks to games like <a href="https://www.nintendolife.com/games/nintendo-switch-2/donkey-kong-bananza">Donkey Kong Bananza</a> and the <a href="https://www.nintendolife.com/games/nintendo-switch/super_mario_galaxy_plus_super_mario_galaxy_2">Super Mario Galaxy</a> package.</p>
 <p>Third-party developers such as Capcom have also continued to build the amiibo line. And now, following its <a href="https://www.nintendolife.com/games/nintendo-switch-2/street-fighter-6-years-1-2-fighters-edition">Street Fighter 6</a> series, the same company is teasing at least three new amiibo for <a href="https://www.nintendolife.com/games/nintendo-switch-2/monster-hunter-stories-3-twisted-reflection">Monster Hunter Stories 3: Twisted Reflection</a>.</p>
-<p>This game is due out next year on 13th March 2026, so we'll likely see them show up on this date, or at least nearby. This information comes from this year's Tokyo Game Show, with the company displaying these unannounced amiibo at its booth this week (<a href="https://www.reddit.com/r/MonsterHunter/comments/1npv7fv/tokyo_game_show_mh/">social media via MonsterHunter subreddit</a>):</p>
+<p>This game is due out next year on 13th March 2026, so we'll likely see them show up on this date, or at least nearby. This information comes from this year's Tokyo Game Show, with the company displaying these unannounced amiibo at its booth this week (<a href="https://www.reddit.com/r/MonsterHunter/comments/1npv7fv/tokyo_game_show_mh/">Amiibo News via MonsterHunter subreddit</a>):</p>
 
 <p>Capcom previously released <a href="https://www.nintendolife.com/games/switch-eshop/monster_hunter_stories">Monster Hunter Stories</a> amiibo for the second entry in the series. These were released during the Switch generation and included Ena, Razewing Ratha and Tsukino, and all of them were released alongside the game. There was also a series for the <a href="https://www.nintendolife.com/news/2016/07/monster_hunter_stories_gets_three_shiny_new_amiibo_figures">original 3DS release</a>.</p>
 <p>Apart from this latest amiibo update, Capcom has shared an "extended cut" of the Monster Hunter Stories 3 release date trailer. The launch date was originally shared earlier this month during the Nintendo Direct broadcast. Here's a bit about this new version of the trailer, and you can see it in action at the top of this page.</p>
 <blockquote>
 <p>"Watch an extended version of the Monster Hunter Stories 3: Twisted Reflection Release Date Trailer, featuring a deeper look into the game's story, characters, and world! Plus, get a first look as an electrifying foe emerges from the Forbidden Ground."</p>
 </blockquote>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:187822,111968,188397 @ 1758851095 -->
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:187822,111968,188397 @ 1758853883 -->
 <p>When we get an official announcement from Capcom about these amiibo, we'll provide an update. Would you be interested in adding more Monster Hunter Stories amiibo to your collection? <em>Let us know in the comments.</em></p></section>
 <p>[source <a title="External Link: https://gonintendo.com/contents/53305-monster-hunter-stories-3-twisted-reflection-amiibo-on-the-way" rel="noopener" href="https://gonintendo.com/contents/53305-monster-hunter-stories-3-twisted-reflection-amiibo-on-the-way">gonintendo.com</a>]</p>
 <!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-info/16ac59d3ed355975b3e67b7b632a32e3 @ 1758851288 --></div></article><div><p>Liam is a news writer and reviewer across Hookshot Media. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
