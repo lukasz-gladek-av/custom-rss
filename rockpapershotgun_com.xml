@@ -4,9 +4,98 @@
         <title>maGaming RSS Feed - rockpapershotgun_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/rockpapershotgun_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for rockpapershotgun_com</description>
-        <lastBuildDate>Fri, 26 Sep 2025 11:06:02 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 26 Sep 2025 11:33:53 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[We may never get a Dead Space 2 remake, but this huge community patch fixes a lot of the PC version's problems]]></title>
+            <link>https://www.rockpapershotgun.com/we-may-never-get-a-dead-space-2-remake-but-this-huge-community-patch-fixes-a-lot-of-the-pc-versions-problems</link>
+            <guid>https://www.resetera.com/threads/we-may-never-get-a-dead-space-2-remake-but-this-huge-community-patch-fixes-a-lot-of-the-pc-versions-problems.1309623/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
+
+
+<header data-component="article-header">
+  
+
+    <div id="main-content">
+  
+
+        <p>Physics issues, crashing, texture filters and more</p>
+
+    </div>
+
+
+  <p>
+
+  <figure>
+        <picture data-src-full="https://assetsio.gnwcdn.com/dead-space-2-b.jpg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=70&amp;format=jpg&amp;auto=webp" src="https://assetsio.gnwcdn.com/dead-space-2-b.jpg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=70&amp;format=jpg&amp;auto=webp">
+        <source srcset="https://assetsio.gnwcdn.com/dead-space-2-b.jpg?width=690&amp;quality=80&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(min-width: 690px) and (min-resolution: 3dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/dead-space-2-b.jpg?width=690&amp;quality=80&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 690px) and (min-resolution: 2dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/dead-space-2-b.jpg?width=690&amp;quality=80&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 690px) and (min-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/dead-space-2-b.jpg?width=690&amp;quality=80&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 690px) and (min-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/dead-space-2-b.jpg?width=690&amp;quality=80&amp;format=jpg&amp;auto=webp" media="(min-width: 690px)">
+        <source srcset="https://assetsio.gnwcdn.com/dead-space-2-b.jpg?width=380&amp;quality=70&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(min-resolution: 3dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/dead-space-2-b.jpg?width=380&amp;quality=70&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-resolution: 2dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/dead-space-2-b.jpg?width=380&amp;quality=70&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/dead-space-2-b.jpg?width=380&amp;quality=70&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-resolution: 1.5dppx)">
+        
+      </picture>
+
+        <figcaption>
+          <span>Image credit: <cite>EA</cite></span>
+        </figcaption>
+
+  </figure>
+  </p>
+
+    
+
+</header>
+  <div data-component="article-content">
+
+
+
+            <p>I don't massively feel the need for a new version of <a href="https://www.rockpapershotgun.com/games/dead-space-2">Dead Space 2</a>, even following EA's posh remake of the first, but if you've been dreaming of another visit to the game's sprawling interstellar necropolis, you could do worse than to check out the community-brewed Marker Patch. 
+</p>
+<p>Primarily created by Wemino, whose other projects include tune-ups for bullet-time shooter <a href="https://www.rockpapershotgun.com/games/fear">F.E.A.R.</a> and <a href="https://www.rockpapershotgun.com/games/american-mcgees-alice">American McGee's Alice</a>, it's a cure-all bundle of fixes for various issues with the game's PC release, including problems created by running it at higher frame-rates on heavier-duty 10 core PCs. Vemino has also increased the max number of genuinely dead Necromorphs that can be present in the environment, forced anisotropic filtering throughout, and added options to stop the game automatically connecting to online services that are no longer offered by EA.
+</p><!--more-->
+<p>You can find the Marker patch on <a href="https://github.com/Wemino/MarkerPatch">Github</a>. It's compatible with both the Steam release and the EA app version, with instructions for getting it working on Steam Deck or Linux. Here is a compressed/curated rundown of the contents I have produced by running my Plasma Cutter crudely over the Github page:
+</p>
+<blockquote><ul>
+<li>Stabilizes physics behavior at high framerates to eliminate the annoying flying corpses and limbs</li>
+<li>Prevents the game from crashing on systems with more than 10 CPU cores </li>
+<li>Corrects the VSync implementation to use the refresh rate selected in the game's settings instead of locking to 30 FPS </li>
+<li>Fixes the tracking of Zealot and Hardcore difficulty completions to properly unlock rewards </li>
+<li>Resolves item database conflicts where certain DLC suits incorrectly share IDs with other suits </li>
+<li>Prevents crashes that can rarely occur when the game enumerates save files </li>
+<li>Scales subtitle text appropriately for high resolutions</li>
+<li>Implements proper raw mouse input to fix sensitivity issues </li>
+<li>Blocks all DirectInput devices except mouse and keyboard to prevent unwanted camera spinning from devices like racing wheels, flight sticks, and other peripherals </li>
+<li>Forces anisotropic texture filtering on all textures to improve clarity at oblique viewing angles </li>
+<li>Forces proper trilinear filtering for smoother texture transitions between mipmap levels </li>
+<li>Prevents connection attempts to EA servers at startup and prevents error messages from appearing </li>
+<li>Increases the maximum number of bodies that can remain in the environment </li>
+<li>Automatically sets the game to your screen resolution on first launch instead of defaulting to 1024×768 </li>
+<li>Bypasses the EA/Visceral Games intro video on launch [when you enable this option]</li>
+<li>Control which DLC items appear in the store </li>
+</ul></blockquote>
+<p>The patch also does funky stuff with dinputto8 for mod compatibility. I say "funky stuff" because I don't know what a "dinputto8" is. It could be incredibly routine and entirely non-funky. For all I know, I'm basically saying "the patch does funky stuff with running on computers powered by electricity". Anyway, all the features can be customised individually. "The patch uses sensible defaults that work for most users, but allows fine-tuning of every aspect," writes Wemino.
+</p><p>The odds of a full Dead Space 2 remake seem low at this stage. In April 2024, the rumour was mongered that EA had cancelled such a project in light of the original remake's sales. EA <a href="https://www.rockpapershotgun.com/dead-space-2-remake-reportedly-shelved-due-to-poor-sales-of-the-first-game">have denied this</a>, and we've heard barely a squeak of <a href="https://www.rockpapershotgun.com/games/dead-space">Dead Space</a> since.
+</p>
+<p>In our <a href="https://www.rockpapershotgun.com/dead-space-review">Dead Space remake review</a> from January 2023, Liam Richardson (RPS in peace) summarised it as "luxuriously improved in small but considered ways". I myself enjoyed EA Motive's fancy reinterpretation of original developer Visceral's spacecraft setting, but found a lot of it to be adding widgets and sparkle for the sake of it. In particular, I found Isaac Clarke more compelling when he couldn't speak.
+</p>
+
+        </div>
+      </article>
+
+  
+
+
+
+        
+  </div></div><br/><br/>https://www.rockpapershotgun.com/we-may-never-get-a-dead-space-2-remake-but-this-huge-community-patch-fixes-a-lot-of-the-pc-versions-problems]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Microsoft block Israel's access to Azure and genAI tech used to surveil millions of Palestinian phone calls, according to report]]></title>
             <link>https://www.rockpapershotgun.com/microsoft-block-israels-access-to-azure-and-genai-tech-used-to-surveil-millions-of-palestinian-phone-calls-according-to-report</link>
@@ -159,71 +248,6 @@
 
         
   </div></div><br/><br/>https://www.rockpapershotgun.com/borderlands-4s-latest-update-aims-to-deliver-more-performance-fixes-ends-up-causing-more-stuttering-for-some]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[The ROG Xbox Ally and ROG Xbox Ally X prices aren’t too bad in the UK, but tariffs bite in the US]]></title>
-            <link>https://www.rockpapershotgun.com/the-rog-xbox-ally-and-rog-xbox-ally-x-prices-arent-too-bad-in-the-uk-but-tariffs-bite-in-the-us</link>
-            <guid>https://www.resetera.com/threads/the-rog-xbox-ally-and-rog-xbox-ally-x-prices-aren%E2%80%99t-too-bad-in-the-uk-but-tariffs-bite-in-the-us.1309488/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
-
-
-<header data-component="article-header">
-  
-
-    <div id="main-content">
-  
-
-        <p>$600 for the cheaper one, $1000 for the faster one</p>
-
-    </div>
-
-
-  <p>
-
-  <figure>
-        <picture data-src-full="https://assetsio.gnwcdn.com/Hollow-Knight-Silksong-Xbox-ROG-Ally-X.jpg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=70&amp;format=jpg&amp;auto=webp" src="https://assetsio.gnwcdn.com/Hollow-Knight-Silksong-Xbox-ROG-Ally-X.jpg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=70&amp;format=jpg&amp;auto=webp">
-        <source srcset="https://assetsio.gnwcdn.com/Hollow-Knight-Silksong-Xbox-ROG-Ally-X.jpg?width=690&amp;quality=80&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(min-width: 690px) and (min-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Hollow-Knight-Silksong-Xbox-ROG-Ally-X.jpg?width=690&amp;quality=80&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 690px) and (min-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Hollow-Knight-Silksong-Xbox-ROG-Ally-X.jpg?width=690&amp;quality=80&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 690px) and (min-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Hollow-Knight-Silksong-Xbox-ROG-Ally-X.jpg?width=690&amp;quality=80&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 690px) and (min-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Hollow-Knight-Silksong-Xbox-ROG-Ally-X.jpg?width=690&amp;quality=80&amp;format=jpg&amp;auto=webp" media="(min-width: 690px)">
-        <source srcset="https://assetsio.gnwcdn.com/Hollow-Knight-Silksong-Xbox-ROG-Ally-X.jpg?width=380&amp;quality=70&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(min-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Hollow-Knight-Silksong-Xbox-ROG-Ally-X.jpg?width=380&amp;quality=70&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Hollow-Knight-Silksong-Xbox-ROG-Ally-X.jpg?width=380&amp;quality=70&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Hollow-Knight-Silksong-Xbox-ROG-Ally-X.jpg?width=380&amp;quality=70&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-resolution: 1.5dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>Rock Paper Shotgun</cite></span>
-        </figcaption>
-
-  </figure>
-  </p>
-
-    
-
-</header>
-  <div data-component="article-content">
-
-
-
-            <p>After much <a href="https://www.rockpapershotgun.com/microsoft-lock-in-a-release-date-for-their-rog-xbox-ally-handhelds-but-no-price-yet-because-macroeconomics">hemming and hawing</a>, Asus and Microsoft are finally ready to talk pricing on their <a href="https://www.rockpapershotgun.com/best-handheld-pcs">handheld PC</a> team-ups, the <a href="https://www.rockpapershotgun.com/xboxs-handheld-is-coming-this-year-is-also-really-a-new-asus-rog-ally">ROG Xbox Ally and ROG Xbox Ally X</a>. It’s nothing too egregious in the King’s sterling, with the Xbox ROG Ally confirmed at £499.99 and the Xbox ROG Ally X at £799.99 – while hardly chump change, these are pretty standard prices for entry-level and premium portables respectively.</p>
-<p>Those in the US, however, will be paying $599.99 for the ROG Xbox Ally and $999.99 for the ROG Xbox Ally X, the latter representing a big increase on Asus’ current <a href="https://www.rockpapershotgun.com/asus-rog-ally-x-review">ROG Ally X</a> model.</p>
-<!--more-->
-<p>That, at least, won’t quite make it the most expensive Windows handheld around, as the <a href="https://www.rockpapershotgun.com/msi-claw-8-ai-plus-review">MSI Claw 8 AI+</a> has also hit (give or take a penny) the one-grand mark in recent months. But still, this looks an awful lot like the effects of US tariff policies, with the added cost of importing Taiwan- and China-made hardware being passed down to aspiring owners. It’s a process Microsoft’s console business will be familiar with, its current generation of lounge-dwelling Xboxes having hiked their prices twice in the past year, with big green fingers pointing at macroeconomic conditions on both occasions.</p>
-<p>By contrast, the ROG Xbox Ally X’s UK price merely matches that Asus’ 2024 predecessor, while upgrading its innards with a newer, faster AMD Ryzen Z2 Extreme APU. The ROG Xbox Ally, mind, still seems like something of a wildcard. It’s only £21 more than the equivalent 512GB <a href="https://www.rockpapershotgun.com/steam-deck-oled-review">Steam Deck OLED</a>, and £50 less than the already budget-minded <a href="https://www.rockpapershotgun.com/lenovo-legion-go-s-steamos-review">Lenovo Legion Go S SteamOS</a>. Yet mystery surrounds its own APU, the Ryzen Z2 A, a chip whose four cores and ageing RDNA 2 graphics processor gives it specs largely in line with the original <a href="https://www.rockpapershotgun.com/best-steam-deck-games">Steam Deck</a>. If performance is a match as well, then it’ll struggle with the GPU-threshers that are modern 3D games.</p><p>That said, Microsoft and Asus aren’t just banking on framerates. The ROG Xbox Ally duo will be the first Windows 11-powered handhelds to include the operating system’s new, bespoke, Xbox-branding gaming mode, where many of Win11’s extraneous guff remains switched off at launch to preserve speed and batter life. It’ll have a more handheld-friendly UI than standard Windows as well, potentially wiping out a major advantage that SteamOS has always held over its desktop-tuned rival.</p>
-<p>I’ll be seeing whether this mode will be worth the money, especially for stateside punters, with a review prior to the handhelds’ October 16th launch date. That’s assuming they’re not partaking in <a href="https://www.rockpapershotgun.com/a-culture-of-intimidation-retaliation-and-oppression-how-microsofts-gaza-stance-fuelled-an-industry-spanning-boycott">ongoing boycott calls</a> against Microsoft for their alleged dealings with the Israeli military, including providing access to Azure cloud storage and AI tools for the purpose of running a mass surveillance programme against Palestinians. Microsoft have, <a href="https://www.theguardian.com/world/2025/sep/25/microsoft-blocks-israels-use-of-its-technology-in-mass-surveillance-of-palestinians">reportedly</a>, since revoked this access.</p>
-
-        </div>
-      </article>
-
-
-
-
-        
-  </div></div><br/><br/>https://www.rockpapershotgun.com/the-rog-xbox-ally-and-rog-xbox-ally-x-prices-arent-too-bad-in-the-uk-but-tariffs-bite-in-the-us]]></content:encoded>
         </item>
     </channel>
 </rss>
