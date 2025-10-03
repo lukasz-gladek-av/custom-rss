@@ -4,9 +4,59 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Fri, 03 Oct 2025 12:53:14 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Oct 2025 13:32:32 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Path Tracing Took 6 Months to Implement in DOOM: The Dark Ages; id Software Dev Thinks the Tech Will Spread Further]]></title>
+            <link>https://wccftech.com/path-tracing-took-six-months-to-implement-doom-the-dark-ages/</link>
+            <guid>https://www.resetera.com/threads/path-tracing-took-6-months-to-implement-in-doom-the-dark-ages-id-software-dev-thinks-the-tech-will-spread-further.1315639/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>Earlier this year, DOOM: The Dark Ages became the sixth PC game (not counting RTX remakes like those made for Quake II and Portal) to support real-time path tracing after Cyberpunk 2077, DESORDRE, Alan Wake 2, Black Myth: Wukong, and Indiana Jones and the Great Circle. </p>
+
+
+
+<p>id Software's latest entry in the DOOM franchise did not support the technology at launch. Still, a month later, on June 18, 2025, the developer <a href="https://wccftech.com/doom-the-dark-ages-path-tracing-pc-performance-slaying-demons-never-looked-better-nvidia-dlss-4/" target="_blank" rel="noreferrer noopener">released an update introducing path tracing and NVIDIA's DLSS Ray Reconstruction</a>. Both features significantly improved the game's visual quality and made it, alongside its excellent performance, a benchmark against which developers must compare their work.</p>
+
+
+
+<p>This week, NVIDIA <a href="https://developer.nvidia.com/blog/how-id-software-used-neural-rendering-and-path-tracing-in-doom-the-dark-ages" target="_blank" rel="noreferrer noopener">published a Q&amp;A with id Software's Director of Engine Technology</a>, Billy Khan, to discuss the studio's implementation of path tracing. According to Khan, it took the Texas-based studio around six months to implement the technology in their game. The programmer also shared the belief that more games will make the leap from ray tracing to path tracing in the coming years.  </p>
+
+
+
+<p><em>Path tracing is now part of id Tech 8. We’ll continue research and development in this area. As with all technology, we evaluate its use on a per-game basis to ensure it meets the needs of the game and delivers value to players. I believe path tracing will continue to evolve and will be used in more games in the coming years. </em></p>
+
+
+
+<p>Of course, game developers' adoption will likely accelerate if, as rumored, future AMD graphics cards <a href="https://wccftech.com/amd-details-how-next-gen-udna-gpus-could-boost-ray-tracing-with-dense-geometry-format/" target="_blank" rel="noreferrer noopener">are going to offer significant ray tracing optimizations</a>. Meanwhile, Khan mentioned NVIDIA's Opacity Micro-Maps and Shader Execution Reordering, the latter specifically, as highly helpful for optimization in DOOM: The Dark Ages.</p>
+
+
+
+<p><em>For high-performance, visually complex scenes, optimizing both surface shading and transparency is crucial. Techniques that allow the GPU to intelligently reorder shading work and skip unnecessary calculations—like on pixels fully occluded by alpha-tested geometry—yield significant speedups. Both NVIDIA Opacity Micro-Map (OMM) and Shader Execution Reordering (SER) have been extremely useful for optimizing surface shading on the GPU. Some of our biggest optimizations for path tracing resulted from utilizing shader execution reordering.</em></p>
+
+
+
+<p>Lastly, Khan noted that DLSS RR really helped surface all the amazing details enabled by path tracing.</p>
+
+
+
+<p><em>DLSS Ray Reconstruction added much-needed fidelity to denoising our path-traced results while preserving more detail. It’s a strong improvement in performance and quality over traditional denoising techniques. I’m excited to see further innovation here, which will empower more devices to play games with higher visual fidelity.</em></p>
+
+
+
+<p>Did you play DOOM: The Dark Ages (<a href="https://wccftech.com/review/doom-the-dark-ages-review/" target="_blank" rel="noreferrer noopener">our game review is here</a>, by the way) with path tracing on? If so, what was your impression of id Software's implementation? </p>
+
+			
+			<p>Follow <a href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> or <a href="https://google.com/preferences/source?q=wccftech.com">add us as a preferred source</a>, to get our news coverage and reviews in your feeds.</p>
+
+		</div></div><br/><br/>https://wccftech.com/path-tracing-took-six-months-to-implement-doom-the-dark-ages/]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Nintendo Switch 2 Loses Out To Modded Nintendo Switch “Pro” In Some Backward Compatible Games, Comparison Shows]]></title>
             <link>https://wccftech.com/nintendo-switch-2-loses-modded-switch-comparison/</link>
@@ -92,46 +142,6 @@
 			<p>Follow <a href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> or <a href="https://google.com/preferences/source?q=wccftech.com">add us as a preferred source</a>, to get our news coverage and reviews in your feeds.</p>
 
 		</div></div><br/><br/>https://wccftech.com/final-fantasy-vii-remake-dev-streamlined-progression-players-should-have-choice/]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Halo Combat Evolved Remake Is Rumored To Be In Co-Development By A Virtuos Studio]]></title>
-            <link>https://wccftech.com/halo-combat-evolved-remake-development-virtuos/</link>
-            <guid>https://www.resetera.com/threads/halo-combat-evolved-remake-is-rumored-to-be-in-co-development-by-a-virtuos-studio.1315480/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			<p>The long-rumored Halo Combat Evolved remake is supposedly in co-development with a Virtuos game development studio, according to new rumors circulating online.</p>
-
-
-
-<p>In a new video shared on YouTube, Rebs Gaming, a source who has been consistently reliable with past Halo series rumors, revealed that <a href="https://abstraction.games/">Abstraction</a>, a Virtuos game development studio, is the team that's working on the remake together with Halo Studios.<a href="https://xboxera.com/2025/10/02/rumor-halo-ce-remake-co-devleoped-by-a-virtuous-studio/"> XboxEra</a> later corroborated the news, adding that the series' developer is the lead development studio of the project, so this isn't an external project.</p>
-
-
-
-<p>In addition, Rebs Gaming also reiterated that the <a href="https://wccftech.com/halo-combat-evolved-remake-ue5-blam-engine-gameplay-tweaks/">Halo Combat Evolved remake will use both Unreal Engine 5 for rendering and a modified version of Halo Reach's Blam engine for gameplay</a>, highlighting again how the remake will combine a faithful gameplay recreation with some gameplay additions and modern visuals.</p>
-
-
-
-<figure><p>
-<iframe title="Halo Combat Evolved Remake Co-Development Studio! (Exclusive Report)" width="500" height="281" src="https://www.youtube.com/embed/fd2XFc7zKcw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-</p></figure>
-
-
-
-<p>Although Rebs Gaming proved to be extremely reliable in the past, we have to take everything they have revealed about the Halo Combat Evolved remake with a massive grain of salt. However, considering Virtuos proved to be specializing in this hybrid-engine development this year with <a href="https://wccftech.com/review/the-elder-scrolls-iv-oblivion-remastered-back-in-cyrodiil-19-years-later/">The Elder Scrolls IV: Oblivion Remastered</a> and <a href="https://wccftech.com/review/metal-gear-solid-delta-snake-eater-ps5-review-based-on-a-hideo-kojima-game/">Metal Gear Solid Delta: Snake Eater</a>, it wouldn't be surprising for the developer to be attached to this project as well.</p>
-
-
-
-<p>Thankfully, it won't take long to learn if the Halo Combat Evolved remake will be part of the series' future. Halo Studios will talk about what's next for their franchise during the<a href="https://www.halowaypoint.com/news/halowc25-sept"> Halo World Championship later this month</a>, on October 24.</p>
-
-			
-			<p>Follow <a href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> or <a href="https://google.com/preferences/source?q=wccftech.com">add us as a preferred source</a>, to get our news coverage and reviews in your feeds.</p>
-
-		</div></div><br/><br/>https://wccftech.com/halo-combat-evolved-remake-development-virtuos/]]></content:encoded>
         </item>
     </channel>
 </rss>
