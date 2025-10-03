@@ -4,9 +4,22 @@
         <title>maGaming RSS Feed - kotaku_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/kotaku_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for kotaku_com</description>
-        <lastBuildDate>Fri, 03 Oct 2025 14:53:01 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Oct 2025 15:22:39 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Helldivers 2 Devs Explain Why The Game Has An Obnoxious Install Size On PC]]></title>
+            <link>https://kotaku.com/helldivers-2-pc-steam-install-size-arrowhead-games-2000631503</link>
+            <guid>https://www.resetera.com/threads/helldivers-2-devs-explain-why-the-game-has-an-obnoxious-install-size-on-pc.1315768/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+              
+              <p>I don’t play <i>Helldivers 2</i> nearly as much as I should. But the last time I called in the stratagem that is installing the game through Steam, I sat in awe at the absurdly massive 141.51GB install size. My drives are perpetually overflowing with nonsense, so it really is a me problem. But seriously? Why the hell is this game so large? Thankfully, Arrowhead Game Studios has an answer.</p> <p>In a recent “<a href="https://store.steampowered.com/news/app/553850/view/543369627969783286">Tech Blog</a>,” Arrowhead’s deputy technical director explained just why we all have to flinch at that colossal storage requirement upon installing or reinstalling <i>Helldivers 2</i> on PC. Turns out, it’s old, platter-based storage mediums with their slow, spinny discs to blame. Unlike more modern solid state drives that have evolved beyond the need for mechanical moving parts, hard-disk drives (HDDs) are really slow, and by duplicating various bits of data, you can improve performance for those on older hardware.</p>
+
+ <p>So yeah, that massive install size actually represents multiple copies of the various bits of code that make up <i>Helldivers 2</i>. As the blog states, this is done to put essential data “in physically close proximity to where they would be needed in the game.” This reduces the “seek time” an HDD needs to do to load up something. The blog continues:</p>
+
+ <blockquote><p>For example, our build system will ensure that a copy of a tree texture is stored on the same part of the disk as the level geometry data. When the game loads the level, the read head can access all the necessary information on a single, continuous sweep, without having to “seek” to a different location. This dramatically speeds up loading times.</p></blockquote> <p>The blog spills some digital ink speculating whether or not, in 2025, saddling everyone with duplicated files is necessary–especially when common practice for building a PC has been to use an SSD for quite some time. Based on Steam user surveys, Arrowhead says it thinks about 12 percent of PC gamers on the platform still use old-school spinny drives. And since <i>Helldivers 2</i> is a multiplayer game, that means you want that 12 percent to also be loading into the game as fast as you are. So yeah, it’s not just about catering to these players specifically. It’s about making sure everyone, even those who don’t have access to a more modern drive, still has a good, speedy time. Real woke shit right there.</p> <p>That said, if you have an older machine and can’t afford a meatier graphics card or CPU upgrade yet, switching over to an SSD is one of the more affordable options for improving not just your gaming, but your entire machine’s performance. And hey, even a 512GB SSD is <a href="https://kotaku.com/xbox-game-pass-cancel-controversy-console-pc-2000631061">cheaper than a year of Game Pass right now</a>.</p>
+                          </div></div><br/><br/>https://kotaku.com/helldivers-2-pc-steam-install-size-arrowhead-games-2000631503]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Dell OptiPlex 7020 Mini PC Desktop Sees Record 71% Price Drop, Thousands Off Feels Like a Clearance Deal]]></title>
             <link>https://kotaku.com/dell-optiplex-7020-mini-pc-desktop-sees-record-71-price-drop-thousands-off-feels-like-a-clearance-deal-2000631179</link>
