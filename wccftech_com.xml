@@ -4,9 +4,129 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Fri, 03 Oct 2025 16:29:21 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Oct 2025 16:55:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[War Thunder Path Tracing Q&A with Gaijin – FSR 4, OMM and SER Support Coming Soon]]></title>
+            <link>https://wccftech.com/war-thunder-path-tracing-qa-fsr4-omm-ser-support-coming-soon/</link>
+            <guid>https://www.resetera.com/threads/war-thunder-path-tracing-q-a-with-gaijin-%E2%80%93-fsr-4-omm-and-ser-support-coming-soon.1315945/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>A few months ago, Gaijin Entertainment <a href="https://wccftech.com/war-thunder-path-traced-global-illumination-frame-generation/" target="_blank" rel="noreferrer noopener">introduced path traced global illumination to the PC version of War Thunder</a>, significantly improving visual quality over the game's previous ray traced global illumination solution. </p>
+
+
+
+<p>In doing so, War Thunder joined an extremely elite club of games that feature real-time path tracing: <a href="https://wccftech.com/cyberpunk-2077-rt-overdrive-mode-is-the-new-pinnacle-of-graphics-and-performance-on-an-rtx-4090/" target="_blank" rel="noreferrer noopener">Cyberpunk 2077</a>, DESORDRE, <a href="https://wccftech.com/alan-wake-2-pc-performance-benchmarks-nvidia-dlss-3-5-path-tracing-photorealistic-graphics/" target="_blank" rel="noreferrer noopener">Alan Wake 2</a>, Black Myth: Wukong, <a href="https://wccftech.com/indiana-jones-and-the-great-circle-path-tracing-incredible-performance-cost-rtx-4090/" target="_blank" rel="noreferrer noopener">Indiana Jones and the Great Circle</a>, <a href="https://wccftech.com/f1-25-to-support-path-tracing-only-on-pc-improved-facial-animations-with-nvidia-audio2face/" target="_blank" rel="noreferrer noopener">F1 25</a>, DOOM: The Dark Ages (whose developers <a href="https://wccftech.com/path-tracing-took-six-months-to-implement-doom-the-dark-ages/" target="_blank" rel="noreferrer noopener">have just opened on on their path tracing implementation</a>), and FBC: Firebreak, Remedy's second game on this list.</p>
+
+
+
+<p>We contacted Gaijin to organize an email interview that would dive deeply into this tech advancement for War Thunder and the whole Dagor Engine (also used in other games published by the studio, such as <a href="https://wccftech.com/enlisted-devs-talk-about-crossplay-progression-system-and-dx12-ultimate-support/" target="_blank" rel="noreferrer noopener">the MMOFPS Enlisted</a>). At last, we received the responses back, courtesy of Anton Yudintsev (co-founder of Gaijin Entertainment), László Perneky (lead programmer), and Gergo Horvath (programmer). You can find them after the embedded footage.</p>
+
+
+
+<figure><p>
+<iframe title="War Thunder 4K HDR Full Ray Tracing - USA Tank Crew &amp; Sound Mod RWSM IV Demonstration" width="500" height="281" src="https://www.youtube.com/embed/oArxTRcbGW0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<p><strong>How long did it take for you to implement Path Traced Global Illumination in the Dagor Engine? Was it complex to go from ray tracing to path tracing?</strong></p>
+
+
+
+<p><strong>László Perneky:</strong> The ray tracing framework we have is very flexible. We can reconstruct any surface on the whole map with quality very close to rasterized ones, and we keep the ray traced scene in sync with the rasterized scene. With this at our disposal, the first working prototype went fast, in just a couple of weeks. But then the devil is in the details. We had to make sure the results were good in all cases. When rendering airplane cockpits, you need special considerations compared to rendering a tank from behind. We needed to prepare PTGI for all the cases the player can encounter.</p>
+
+
+
+<p>Performance is also a big concern. PTGI replaces RT ambient occlusion, which gives us some headroom but is also much heavier, so we needed to make tons of small decisions on optimizations. In the end, we spent about a month on the initial version, but we are still tweaking/refining it ever since.</p>
+
+
+
+<p><strong>Will the open source version of the Dagor Engine be updated with path tracing support?</strong></p>
+
+
+
+<p><strong>Anton Yudintsev:</strong> Probably by the end of the year.</p>
+
+
+
+<p><strong>Do you consider the Leviathan update to have added the final version of PTGI, or do you believe there is still room for improvement? If so, is it for quality, performance, or both?</strong></p>
+
+
+
+<p><strong>Anton Yudintsev:</strong> There is almost always room for improvement for both quality and performance. While the idea of Path Tracing itself is “uber-solution”, implying that we achieve the best possible result by tracing lighting data for each pixel, in reality, a naive approach would be prohibitively slow (~8 million rays with few bounces each), so virtually all real-time solutions use some form of temporal upscaling and so, some kind of denoising. And that would be an area of improvement for visual quality. Also, each game uses its own set of tricks for achieving faster ray-tracing itself (especially for foliage, etc). Performance-wise, it is always possible to do something, although eventually, efforts start to provide diminishing returns. That said, we are rather satisfied with both quality and performance for such quality achieved.</p>
+
+
+
+<p><strong>You wrote that you are planning to add support for <a href="https://wccftech.com/nvidia-shows-ada-lovelaces-opacity-micro-maps-feature-and-how-it-can-boost-ray-tracing-performance/" target="_blank" rel="noreferrer noopener">Opacity Micro-Maps (OMM)</a> and <a href="https://wccftech.com/nvidia-ada-lovelace-follow-up-qa-dlss-3-ser-omm-dmm-and-more/" target="_blank" rel="noreferrer noopener">Shader Execution Reordering (SER)</a>. How much of a performance boost do you expect from those additions? Also, do you have an ETA on when they might be introduced to War Thunder?</strong></p>
+
+
+
+<p><strong>László Perneky:</strong> Absolutely. In fact, both are underway. For SER, we need to change our ray generation method, as to use it, there are some constraints, like you can’t use it in compute shaders. For OMM, we already have a working prototype, and while it doesn’t do wonders, it brings decent improvement in tracing performance, especially with areas with denser foliage. Microsoft recently made both of these features part of the core Direct3D system. We are still waiting for the final GPU drivers with support for these technologies. But by the time those arrive, we can probably finish the work on them in Dagor and War Thunder and release these features early next year.</p>
+
+
+
+<p><strong>What do you think about DirectX's Work Graphs (<a href="https://wccftech.com/directx-12-work-graphs-cpu-bottlenecks/" target="_blank" rel="noreferrer noopener">released to developers a year and a half ago</a>)? Are they as important as Microsoft is claiming? Will you implement them for your engine?</strong></p>
+
+
+
+<p><strong>Anton Yudintsev:</strong> This is the long-awaited step to a more GPU-driven rendering pipeline. In some cases, it can provide significant GPU workload optimization and almost always free some CPU. Unfortunately, its benefits are only possible on rather new hardware. We do want to implement Work Graphs support as well in the upcoming years.</p>
+
+
+
+<figure><figcaption><em>DX's Work Graphs is the long-awaited step to a more GPU-driven rendering pipeline. In some cases, it can provide significant GPU workload optimization and almost always free some CPU. Unfortunately, its benefits are only possible on rather new hardware. We do want to implement Work Graphs support as well in the upcoming years.</em></figcaption></figure>
+
+
+
+<p><strong>Could PS5 Pro support some version of path tracing? Also, do you have any future improvements coming to the PS5 Pro version, and if so, which ones?</strong></p>
+
+
+
+<p><strong>László Perneky:</strong> Technically, it could; the only question is with performance. It is a decision for the future, though. First, we focus on releasing RT support for consoles, with all the effects except PTGI (hopefully very soon). Then, we will have a better picture of how much GPU budget we have to include PTGI and if we can make changes to it to fit that budget.</p>
+
+
+
+<p><strong>Are you adding AMD FSR 4 support at some point?</strong></p>
+
+
+
+<p><strong>Gergo Horvath:</strong> FSR4 is a high priority for us as it is an often-requested feature from players. We have had some divergence regarding upscaling and frame generation technologies supported by each of the games. Even though they are using the same engine. We had XeSS-FG and XeLL added to WT as well as AMD FSR3 with frame generation to War Thunder and now Enlisted is lagging behind. We are planning to remedy the situation by converging support of these technologies in all of our games by the end of the year, and AMD FSR4 will also be part of that package for PC. If and when FSR4 would be available for consoles we will already be ready.</p>
+
+
+
+<p><strong>Will Enlisted also receive a PTGI update? If so, is there an ETA?</strong></p>
+
+
+
+<p><strong>Anton Yudintsev:</strong> Yes, it is planned to have PTGI in Enlisted as well – internally, we do have a running version with it already. Although our current GI solution is giving very similar results to PTGI with significantly higher performance, it is always good to be able to compare to the “ground truth” solution. We aim to release it this year, though no hard deadline yet.</p>
+
+
+
+<figure><figcaption><em>It is planned to have path tracing in Enlisted as well – internally, we do have a running version with it already. Although our current GI solution is giving very similar results to PTGI with significantly higher performance, it is always good to be able to compare to the “ground truth” solution. We aim to release it this year, though no hard deadline yet.</em></figcaption></figure>
+
+
+
+<p><strong>The Nintendo Switch 2 is out now, and it's being sold like hotcakes. Are you considering a Switch 2 port for War Thunder and/or Enlisted?</strong></p>
+
+
+
+<p><strong>Anton Yudintsev:</strong> We’re always eager to be among the first to support new devices, so we’re definitely considering Switch 2 versions of our games. Unfortunately, right now we’re still waiting for the requested Switch 2 dev kits.</p>
+
+
+
+<p><strong>Thank you for your time.</strong></p>
+
+			
+			<p>Follow <a href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> or <a href="https://google.com/preferences/source?q=wccftech.com">add us as a preferred source</a>, to get our news coverage and reviews in your feeds.</p>
+
+		</div></div><br/><br/>https://wccftech.com/war-thunder-path-tracing-qa-fsr4-omm-ser-support-coming-soon/]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Final Fantasy Tactics – The Ivalice Chronicles Job Tier List – Best Jobs to Use]]></title>
             <link>https://wccftech.com/how-to/final-fantasy-tactics-the-ivalice-chronicles-job-tier-list-best-jobs-to-use/</link>
@@ -310,44 +430,6 @@
 			<p>Follow <a href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> or <a href="https://google.com/preferences/source?q=wccftech.com">add us as a preferred source</a>, to get our news coverage and reviews in your feeds.</p>
 
 		</div></div><br/><br/>https://wccftech.com/microsoft-reportedly-preparing-free-ad-supported-version-xbox-cloud-gaming/]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[The Call of Duty: Black Ops 7 Beta Is Live, And Even In Early Access, Cheaters Are Running Amuck]]></title>
-            <link>https://wccftech.com/call-of-duty-black-ops-7-beta-cheaters-already-running-amuck/</link>
-            <guid>https://www.resetera.com/threads/the-call-of-duty-black-ops-7-beta-is-live-and-even-in-early-access-cheaters-are-running-amuck.1315777/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			<p>The multiplayer beta for Call of Duty: Black Ops 7 is <a href="https://wccftech.com/call-of-duty-black-ops-7-open-beta-october/">now live in its early access period</a> for users who've pre-ordered the game and Xbox Game Pass subscribers. It'll be live for anyone who wants to check out the beta, not included in those two categories, on October 5, but even before it opens to the general public, reports have surfaced across social media that cheaters are running amuck through the game.</p>
-
-
-
-<p>Spotted by <a href="https://www.eurogamer.net/call-of-duty-black-ops-7s-beta-is-out-and-is-already-plagued-by-cheaters">Eurogamer</a>, after a bunch of <a href="https://www.callofduty.com/ca/en/blog/2025/09/call-of-duty-black-ops-7-beta-ricochet-anti-cheat-update">talk from Treyarch and Activision about its new and improved anti-cheat</a>, which even goaded cheaters on by saying, "<em>Cheaters will try to test the limits during the Beta. That’s exactly what we want because #TeamRICOCHET is here, watching, learning, and removing them as they appear</em>," cheaters have taken up the challenge Activison put to them.</p>
-
-
-
-<figure></figure>
-
-
-
-<p>In fairness, the above clip comes from an account that<a href="https://x.com/CODUpdates/status/1973874240253489434"> Treyarch has already found and banned</a>, so the team is indeed doing its best to get rid of cheaters as they appear, but this doesn't say very much about the preventative measures, like <a href="https://wccftech.com/how-to/battlefield-6-beta-how-to-enable-secure-boot/">adding the same Secure Boot protections that Battlefield 6 has</a>, in Black Ops 7.</p>
-
-
-
-<p>Is it enough for Treyarch to ban these accounts after they've already gotten in-game and ruined a match or two? On one level, yes, as long as cheaters are being caught, then you could argue that's the anti-cheat protections working well. That said, the players who have their matches ruined by cheaters who are only caught after the fact might not feel that way.</p>
-
-
-
-<p>As long as there are people playing multiplayer games, there will be those who will cheat, and it's a constant battle for developers to minimize the impact of cheaters as much as possible. But it's worth asking what these kernel-level measures are for if they're not even prepared for the opening hours of an annual beta test. </p>
-
-			
-			<p>Follow <a href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> or <a href="https://google.com/preferences/source?q=wccftech.com">add us as a preferred source</a>, to get our news coverage and reviews in your feeds.</p>
-
-		</div></div><br/><br/>https://wccftech.com/call-of-duty-black-ops-7-beta-cheaters-already-running-amuck/]]></content:encoded>
         </item>
     </channel>
 </rss>
