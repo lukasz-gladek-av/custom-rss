@@ -4,9 +4,92 @@
         <title>maGaming RSS Feed - eurogamer_net</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/eurogamer_net.xml</link>
         <description>A cleaned-up version of the original gaming feed for eurogamer_net</description>
-        <lastBuildDate>Thu, 09 Oct 2025 15:45:56 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 09 Oct 2025 16:17:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[New PlayStation 6 tech all but confirmed by Sony and AMD - and it looks like it'll make its way into other hardware too]]></title>
+            <link>https://www.eurogamer.net/tech-2025-new-playstation-6-tech-all-but-confirmed-by-sony-and-amd</link>
+            <guid>https://www.resetera.com/threads/new-playstation-6-tech-all-but-confirmed-by-sony-and-amd-and-it-looks-like-itll-make-its-way-into-other-hardware-too.1321018/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-component="article-header">
+  
+
+    <div id="main-content">
+        
+
+        <p>Next-gen consoles, handhelds and desktop graphics cards are all set to benefit.</p>
+
+    </div>
+
+
+  <p>
+
+
+  <figure>
+      <picture data-src-full="https://assetsio.gnwcdn.com/cerny-huynh.jpg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=70&amp;format=jpg&amp;auto=webp" src="https://assetsio.gnwcdn.com/cerny-huynh.jpg?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=70&amp;format=jpg&amp;auto=webp">
+        <source srcset="https://assetsio.gnwcdn.com/cerny-huynh.jpg?width=380&amp;quality=70&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/cerny-huynh.jpg?width=380&amp;quality=70&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/cerny-huynh.jpg?width=380&amp;quality=70&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/cerny-huynh.jpg?width=380&amp;quality=70&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/cerny-huynh.jpg?width=380&amp;quality=70&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/cerny-huynh.jpg?width=570&amp;quality=80&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/cerny-huynh.jpg?width=570&amp;quality=80&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/cerny-huynh.jpg?width=570&amp;quality=80&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/cerny-huynh.jpg?width=570&amp;quality=80&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
+        
+      </picture>
+
+        <figcaption>
+          <span>Image credit: <cite>PlayStation/AMD</cite></span>
+        </figcaption>
+  </figure>
+  </p>
+
+    
+
+</div><div data-component="article-content">
+
+
+
+            <p>Sony and AMD just announced three key technologies that look likely to come to the PlayStation 6 and future AMD graphics cards, with PS5 system architect Mark Cerny and AMD senior vice president Jack Huynh teaming up to deliver the news. The talk is fairly technical, but the three core features - Neural Arrays, Radiance Cores and Universal Compression - look set to make a big impact on future AMD-based hardware. The main goal is speeding up computionally-expensive ray tracing and path tracing in some novel ways, as well as reducing the cost of the upscaling and denoising techniques they rely on. </p>
+<p>Let's start with Neural Arrays. In short, this is a new arrangement of the dozens of Compute Units (CUs) that make up a graphics processor like that in the <a href="https://www.eurogamer.net/topics/ps5-pro">PS5 Pro</a>. Normally each of these CUs work alone on a bite-sized piece of the puzzle, which makes sense for most tasks, but can be inefficient for upscaling techniques like FSR or PSSR. Neural Arrays therefore link multiple CUs together in a "smart, efficient way", like a "single, focused AI engine". </p>
+<p>The benefit is that this ought to allow for bigger (and therefore higher quality) machine learning models, with less overhead and better scalability. To say it another way, it means that an upscaling algorithm like PSSR ought to run faster at a given quality level, or accomplish more in a given time frame. The same speed-up also applies to denoising algorithms, which are important for ray-traced or path-traced graphics. </p>
+
+<figure>
+<p>
+<a aria-label="From Project Amethyst to the Future of Play: AMD and Sony Interactive Entertainment’s Shared Vision" data-platform="youtube" href="https://www.youtube.com/embed/1LCMzw-_dMw?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
+<span>From Project Amethyst to the Future of Play: AMD and Sony Interactive Entertainment’s Shared Vision</span>
+<template>
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/1LCMzw-_dMw?autoplay=1" frameborder="0" loading="lazy" src="https://www.youtube-nocookie.com/embed/1LCMzw-_dMw?autoplay=1" title="From Project Amethyst to the Future of Play: AMD and Sony Interactive Entertainment’s Shared Vision">
+</iframe> </template>
+</a>
+</p>
+<figcaption>Here's the full announcement. <a href="https://www.youtube.com/watch?v=1LCMzw-_dMw" rel="noopener" target="_blank">Watch on YouTube</a></figcaption></figure>
+
+
+<p>Huynh also promises that Neural Arrays will allow for new features, including "dedicated innovations that bring cinematic rendering to an entirely new level." </p>
+<p>Radiance Cores are the second new technology, and they're firmly a hardware change. Essentially, this is a new dedicated hardware block in next-generation AMD graphics processors that's "designed for unified light transport", ie ray tracing and path tracing. In the PC space, Nvidia has long held a ray tracing performance advantage thanks to its RT cores, and it looks like finally AMD is adopting a similar strategy. </p><p>Just as other dedicated hardware we've seen appear in graphics cards over the years, such as those that deal with media encoding or AI processing, Radiance Cores accomplish their given task faster than doing the same thing on more generic hardware. This speeds up the intensive work of ray traversal - "digging through complex data structures to locate where the millions of rays being cast hit the millions of triangles in the scene geometry". </p>
+<p>As well as the speed-up from having dedicated hardware, this change also unburdens the CPU and the rest of the GPU - so that they can perform the things they're best suited for, such as simulation and geometry on the CPU and shading and lighting on the GPU. </p>
+<figure data-count="2" role="group"><figure>
+
+<figcaption>Neural Arrays link up Compute Units in the GPU into larger groups to work on upscaling or denoising more efficiently. </figcaption>
+</figure>
+<figure>
+
+<figcaption>Radiance Cores include dedicated hardware for every part of ray traversal, speeding up processing and reducing load elsewhere in the GPU and CPU. </figcaption>
+</figure><figcaption><span>Image credit: <cite>Sony</cite></span></figcaption></figure>
+<p>The final bit of tech Sony and AMD announced is called Universal Compression, and thankfully it's a bit easier to explain. In short, it's a system that compresses everything that goes out to GPU memory, rather than just a few data types like textures, as is currently the case on the PS5 and PS5 Pro. Again, this is along similar lines to an existing Nvidia technology, in this case Neural Texture Compression. </p><p>By adding this compression step, effective GPU memory bandwidth is much higher. That means frame-rates might increase if you're bandwidth-limited, but more importantly it allows for higher-quality assets and reduces power consumption too. This technique has broad positive implications, but it also specifically helps make both Neural Arrays and Radiance Cores more effective. </p>
+<p>These technologies currently exist only in simulation, according to Cerny, but clearly both parties are confident enough to detail them at this early stage. Huynh also mentions that AMD is aiming to bring the technologies to developers "across every gaming platform", which would follow in the company's general approach of open-sourcing its graphics innovations. </p>
+<figure>
+
+<figcaption>Universal Compression is a more extreme version of the Delta Color Compression used on the PS5 and PS5 Pro, which compresses all data sent to graphics memory.  | <span>Image credit: <cite>Sony</cite></span></figcaption>
+</figure>
+<p>It will be fascinating to see how these technologies work when they start to be realised in real hardware, and given the Project Amethyst partnership thus far, it seems reasonable to assume that the two companies will make further announcements over the next few years as the tech gets closer to completion - and when the expected PlayStation 6 is officially announced. </p><p>Beyond the rumoured PlayStation 6, we could also see these approaches being used in a PlayStation or Windows-based gaming handheld. Power consumption and memory bandwidth limitations are key challenges for any mobile form factor, so no doubt the likes of Valve, Asus and Lenovo would be mighty interested in any significant advancements. Valve has famously said that they're waiting for a "<a href="https://www.eurogamer.net/steam-deck-wont-have-yearly-refreshes-because-its-not-really-fair-to-your-customers-says-valve">generational leap</a>" to justify a Steam Deck 2, and this might just qualify. </p>
+<p>Similarly, this is huge news for fans of AMD desktop graphics cards, which have traditionally offered great price to performance in rasterised games and plenty of VRAM, but have fallen behind Nvidia alternatives in terms of RT performance and other features. AMD could massively close the gap here, and that's an exciting prospect. </p>
+<p>Either way, I'm happy to see Sony and AMD share the fruits of their partnership so openly, and it's certainly food for thought when it comes to seeing how Sony, AMD and other tech giants are looking to circumvent <a href="https://www.eurogamer.net/digitalfoundry-2024-how-playstation-5-pro-lays-the-groundwork-for-ps6-and-beyond">the rise in silicon costs</a> that has prevented faster, cheaper models from arriving this console generation. </p>
+
+        </div></div><br/><br/>https://www.eurogamer.net/tech-2025-new-playstation-6-tech-all-but-confirmed-by-sony-and-amd]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Indiana Jones and the Great Circle gets New Game Plus and new ending in update celebrating MachineGames anniversary]]></title>
             <link>https://www.eurogamer.net/indiana-jones-and-the-great-circle-gets-new-game-plus-and-new-ending-in-update-celebrating-machinegames-anniversary</link>
@@ -129,88 +212,6 @@
 
   
   </div></div><br/><br/>https://www.eurogamer.net/indiana-jones-and-the-great-circle-gets-new-game-plus-and-new-ending-in-update-celebrating-machinegames-anniversary]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[The Far Lands! Over 14 years later, the edge of a Minecraft world has been reached]]></title>
-            <link>https://www.eurogamer.net/the-far-lands-over-14-years-later-the-edge-of-a-minecraft-world-has-been-reached</link>
-            <guid>https://www.resetera.com/threads/the-far-lands-over-14-years-later-the-edge-of-a-minecraft-world-has-been-reached.1320859/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
-
-
-<header data-component="article-header">
-  
-
-    
-
-
-  <p>
-
-
-  <figure>
-      <picture data-src-full="https://assetsio.gnwcdn.com/Kurt-Spots-the-Farlands---Twitch---Google-Chrome-09_10_2025-14_23_29.png?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=70&amp;format=jpg&amp;auto=webp" src="https://assetsio.gnwcdn.com/Kurt-Spots-the-Farlands---Twitch---Google-Chrome-09_10_2025-14_23_29.png?width=1920&amp;height=1920&amp;fit=bounds&amp;quality=70&amp;format=jpg&amp;auto=webp">
-        <source srcset="https://assetsio.gnwcdn.com/Kurt-Spots-the-Farlands---Twitch---Google-Chrome-09_10_2025-14_23_29.png?width=380&amp;quality=70&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Kurt-Spots-the-Farlands---Twitch---Google-Chrome-09_10_2025-14_23_29.png?width=380&amp;quality=70&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Kurt-Spots-the-Farlands---Twitch---Google-Chrome-09_10_2025-14_23_29.png?width=380&amp;quality=70&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Kurt-Spots-the-Farlands---Twitch---Google-Chrome-09_10_2025-14_23_29.png?width=380&amp;quality=70&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Kurt-Spots-the-Farlands---Twitch---Google-Chrome-09_10_2025-14_23_29.png?width=380&amp;quality=70&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Kurt-Spots-the-Farlands---Twitch---Google-Chrome-09_10_2025-14_23_29.png?width=570&amp;quality=80&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Kurt-Spots-the-Farlands---Twitch---Google-Chrome-09_10_2025-14_23_29.png?width=570&amp;quality=80&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Kurt-Spots-the-Farlands---Twitch---Google-Chrome-09_10_2025-14_23_29.png?width=570&amp;quality=80&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Kurt-Spots-the-Farlands---Twitch---Google-Chrome-09_10_2025-14_23_29.png?width=570&amp;quality=80&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>Kurt J Mac</cite></span>
-        </figcaption>
-  </figure>
-  </p>
-
-    
-
-</header>
-    <div data-component="article-content">
-
-
-
-            <p>It took 14-and-a-half years of walking but finally someone has made it to the edge of the world. Of Minecraft.</p>
-<p>That person is Kurt J. Mac, and he began his adventure on 28th March 2011 with one goal in mind: reach the rumoured Far Lands - the theoretical hard edge of a Minecraft world - and on Sunday, 4th October, he made it.</p>
-<p>Mac streamed the occasion, as he has streamed every footstep of his adventure so far. He was in a wooden boat at sea and rowed forward, and as he did, a strange wall began to arise before him on the horizon, shaped like a top-down view of a world. This, apparently, is the Far Lands.</p>
-
-<figure>
-<p>
-<a aria-label="FLoB-a-Thon 2025 - Day 69 - &quot;THE FAR LANDS&quot;" data-platform="youtube" href="https://www.youtube.com/embed/fOS10VEgpuk?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
-<span>FLoB-a-Thon 2025 - Day 69 - "THE FAR LANDS"</span>
-<template>
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/fOS10VEgpuk?autoplay=1" frameborder="0" loading="lazy" src="https://www.youtube-nocookie.com/embed/fOS10VEgpuk?autoplay=1" title="FLoB-a-Thon 2025 - Day 69 - &quot;THE FAR LANDS&quot;">
-</iframe> </template>
-</a>
-</p>
-<figcaption>Around 3 hours 43 minutes is the mark you want if it doesn't load the time-point automatically.<a href="https://www.youtube.com/watch?v=fOS10VEgpuk" rel="noopener" target="_blank">Watch on YouTube</a></figcaption></figure>
-
-
-<p>The Far Lands is a romantic name for a bug in the game's code, essentially. It's where the world starts to garble and glitch and break, if a player were to reach it. Minecraft creator Markus "Notch" Persson revealed this bug in a blog post (since taken down) in 2011, and it was this bug that prompted the journey Mac's been on.</p><p>852 recorded episodes later, Mac has made a living from it, gathering a strong following on both YouTube and <a href="https://www.eurogamer.net/companies/twitch">Twitch</a>. There's <a href="https://www.newyorker.com/tech/annals-of-technology/a-journey-to-the-end-of-the-world-of-minecraft">a nice piece on The New Yorker written by Eurogamer contributor Simon Parkin</a>, which picks up on Mac's story three years in. At the time of writing, it was estimated that Mac, at the speed he was going, wouldn't reach the edge of the Minecraft world for another 22 years. He has shaved considerable time off of that estimate, then.</p>
-<!-- code from Primis - Eurogamer.net - eurogamer.net -->
-<div>
-<p><span data-type="targeting">
-<span>To see this content please enable targeting cookies.</span>
-</span> </p>
-</div>
-<!-- code from Primis -->
-<p>Reaching the edge of virtual worlds is something that fascinates me, so this feels like a good opportunity to point you towards the <a href="https://www.youtube.com/watch?v=FM9CqgIve_o">Red Dead Redemption 2-related short film The Grannies</a>, in which a group of players exploit a crack in the game's playing boundary and break through.</p>
-
-
-
-        </div>
-
-
-      </article>
-
-
-
-  
-  </div></div><br/><br/>https://www.eurogamer.net/the-far-lands-over-14-years-later-the-edge-of-a-minecraft-world-has-been-reached]]></content:encoded>
         </item>
     </channel>
 </rss>
