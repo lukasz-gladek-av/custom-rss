@@ -4,9 +4,198 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Sat, 11 Oct 2025 11:04:45 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Oct 2025 11:37:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Battlefield 6 Troubleshooting Guide – How to Fix Common PC Errors]]></title>
+            <link>https://wccftech.com/how-to/battlefield-6-troubleshooting-guide-how-to-fix-common-pc-errors/</link>
+            <guid>https://www.resetera.com/threads/battlefield-6-troubleshooting-guide-%E2%80%93-how-to-fix-common-pc-errors.1322536/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>Like many other modern PC releases, Battlefield 6 launched with some issues that prevent players from playing the highly anticipated new entry in EA and DICE's FPS series. Thankfully, most of these issues are minor and can be easily fixed.</p>
+
+
+
+<p><em>Note: Due to the nature of PC gaming, with different system configurations and driver versions, and with various versions of the game (Steam, EA App, Epic Games Store) these fixes are not guaranteed to work for all players. They are, however, the most common solutions available for the up-to-date version of the game as of October 11, 2025.</em></p>
+
+
+
+<div><h2>Table of contents</h2><ul><li><a href="#h-quick-fix-checklist" data-level="3">Quick Fix Checklist</a></li><li><a href="#h-battlefield-6-game-not-released-error-steam" data-level="2">Battlefield 6 "Game Not Released" Error (Steam)</a></li><li><a href="#h-battlefield-6-won-t-launch" data-level="2">Battlefield 6 Won't Launch</a></li><li><a href="#h-battlefield-6-directx-error-dxgi-error-device-removed" data-level="2">Battlefield 6 DirectX Error "DXGI_ERROR_DEVICE_REMOVED"</a></li><li><a href="#h-battlefield-6-purchase-to-play-or-content-not-installed-error-ea-app" data-level="2">Battlefield 6 "Purchase to Play" or "Content Not Installed" Error (EA App)</a></li><li><a href="#h-battlefield-6-queue-and-server-errors" data-level="2">Battlefield 6 Queue and Server Errors</a></li><li><a href="#h-battlefield-6-long-or-infinite-loading-screen" data-level="2">Battlefield 6 Long or Infinite Loading Screen</a></li></ul></div>
+
+
+
+<h3 id="h-quick-fix-checklist">Quick Fix Checklist</h3>
+
+
+
+<p>Before attempting any in-depth fixes, try these simple, common fixes.</p>
+
+
+
+<ol start="1">
+<li><strong>Restart the Steam/EA App/Epic Games Store app and Battlefield 6:</strong> Close the game and your platform's launcher, then restart them. This forces an automatic recheck of licenses and updates that may fix minor issues.</li>
+
+
+
+<li><strong>Verify/Repair Game Files:</strong> Try the <em>"Verify Integrity Of Game Files" option in Steam or the </em>repair function in the EA App. This fixes corrupted files that may prevent the game from working.</li>
+
+
+
+<li><strong>Clear EA App Cache (EA App Users):</strong> Clearing the EA App cache is a common solution for any license verification issue.<br></li>
+</ol>
+
+
+
+<h2 id="h-battlefield-6-game-not-released-error-steam">Battlefield 6 "Game Not Released" Error (Steam)</h2>
+
+
+
+<p>The Battlefield 6 "Game Not Released" error is a Steam issue that prevents some users from downloading or updating the game.</p>
+
+
+
+<p><strong>Fix</strong>: The development team has shared an <a href="https://x.com/BattlefieldComm/status/1976862813437280350">official workaround</a>, requiring the user to open the game's Properties on Steam and uncheck the Battlefield Multiplayer HD Marker and Battlefield Multiplayer Marker DLC. Alternative fixes include restarting the Steam client or rebooting your system. An official fix has yet to be implemented.</p>
+
+
+
+<h2 id="h-battlefield-6-won-t-launch">Battlefield 6 Won't Launch</h2>
+
+
+
+<p>For some users, Battlefield 6 will crash right after the splash screen, and will not launch.</p>
+
+
+
+<p><strong>Fix: </strong>Enable Secure Boot in your BIOS/UEFI settings. To do so, you have to make sure your system's BIOS Mode is UEFI and your Windows drive's partition is GPT and:</p>
+
+
+
+<ol>
+<li>Restart your system and enter the BIOS setting menu by holding the appropriate key for your motherboard (usually the Delete key, F11 or F12)</li>
+
+
+
+<li>Access the Advanced Mode in the menu</li>
+
+
+
+<li>Access the Boot or Secure Boot option</li>
+
+
+
+<li>Enable Secure Boot if disabled.</li>
+
+
+
+<li>Save changes and reboot your system</li>
+</ol>
+
+
+
+<figure><figcaption><em>Before you can fight other soldiers, technical issues may be your Battlefield 6 enemies.</em></figcaption></figure>
+
+
+
+<h2 id="h-battlefield-6-directx-error-dxgi-error-device-removed"><strong>Battlefield 6 DirectX Error "DXGI_ERROR_DEVICE_REMOVED"</strong></h2>
+
+
+
+<p>The Battlefield 6 DirectX DXGI_ERROR_DEVICE_REMOVED error is caused by your GPU not correctly recognized by the game.</p>
+
+
+
+<p><strong>Fix:</strong> Make sure you have the latest drivers from <a href="https://www.nvidia.com/en-us/drivers/">NVIDIA</a>, <a href="https://www.amd.com/en/support/download/drivers.html">AMD</a> or <a href="https://www.intel.com/content/www/us/en/products/docs/discrete-gpus/arc/software/drivers.html">Intel</a> for your graphics card. Updated drivers can also address performance or stability issues. Also, make sure all GPU and CPU overclocks are disabled. Reinstalling the game may also fix this issue. If these fixes don't work, you will have to wait for a patch to address this issue.</p>
+
+
+
+<h2 id="h-battlefield-6-purchase-to-play-or-content-not-installed-error-ea-app">Battlefield 6 "Purchase to Play" or "Content Not Installed" Error (EA App)</h2>
+
+
+
+<p>The "Purchase to Play" or "Content Not Installed" error is an EA App issue that prevents the game from starting due to a license verification issue. As the EA App cannot verify if you have purchased the game, it will launch, but you cannot play it.</p>
+
+
+
+<p><strong>Fix:</strong> Clear the EA APP Cache or restart the game. If this doesn't work, you should try reinstalling the game. Joining an active game, whether a friend's or one found via the Community Server Browser, was also confirmed to be a working workaround for some users.</p>
+
+
+
+<p><em><strong>NOTE: An <a href="https://x.com/BattlefieldComm/status/1976679780264153186">official fix</a> is in the works.</strong></em></p>
+
+
+
+<h2 id="h-battlefield-6-queue-and-server-errors">Battlefield 6 Queue and Server Errors</h2>
+
+
+
+<p>Several users are stuck in long queues for online multiplayer or are encountering "Server Disconnected" or "An Unidentified Error occurred" errors.</p>
+
+
+
+<p><strong>Fix:</strong> For long queues, you only have to wait for your turn. Don't quit, or you will start waiting again from the back of the queue! There are no fixes for the other issues, as they are server-side issues that require developer intervention.</p>
+
+
+
+<h2 id="h-battlefield-6-long-or-infinite-loading-screen">Battlefield 6 Long or Infinite Loading Screen</h2>
+
+
+
+<p>Sometimes, Battlefield 6 is stuck in a long, potentially infinite, loading screen.</p>
+
+
+
+<p><strong>Fix</strong>: Restarting the game is the only known fix for this issue. If you cannot close the game by closing its window, do so with Task Manager (CTRL+Shift+Esc) after pressing Alt+Tab to get out of the game.</p>
+
+
+
+<p>If any of the fixes above have solved your issues, and you can finally enjoy Battlefield 6, congratulations! If you need help with some <a href="https://wccftech.com/how-to/battlefield-6-guide-best-early-weapons-and-loadouts-for-each-class/">early weapons and loadouts from each class</a> to have a great time even as you are starting, we have got you covered!</p>
+
+
+
+
+
+			
+			<p>Follow <a href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> or <a href="https://google.com/preferences/source?q=wccftech.com">add us as a preferred source</a>, to get our news coverage and reviews in your feeds.</p>
+
+		</div></div><br/><br/>https://wccftech.com/how-to/battlefield-6-troubleshooting-guide-how-to-fix-common-pc-errors/]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[LEGO Grogu Set with Hover Pram Is Selling for Pennies, Amazon Clears Out Stock at a New Record Low]]></title>
+            <link>https://kotaku.com/lego-grogu-set-with-hover-pram-is-selling-for-pennies-amazon-clears-out-stock-at-a-new-record-low-2000634151</link>
+            <guid>https://www.resetera.com/threads/lego-grogu-set-with-hover-pram-is-selling-for-pennies-amazon-clears-out-stock-at-a-new-record-low.1322533/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+              
+              <p>If there’s one Lego license that consistently flies off the shelves, it’s Star Wars. These sets rarely see significant discounts, which makes today’s deal even more remarkable. The Lego <a href="https://shop.kotaku.com/go/4704/">Star Wars Grogu with hover pram building set has dropped to $69 on Amazon, down from its usual $99 price tag</a>. This is the first time this incredibly popular set (boasting an<strong> impressive 4.9 out of 5 stars</strong>) has hit such a record low price.</p>
+<p><a href="https://shop.kotaku.com/go/4704/" target="_self" rel="sponsored nofollow">See at Amazon</a></p>
+
+<p>This <strong>1,048-piece building set</strong> brings everybody’s beloved Force-sensitive foundling to life in breathtaking detail. Over <strong>7.5 inches tall when standing in his hover pram</strong>, it’s not just another fast-assembly figure. Thoughtful engineering allows you to interact with the model long after you’ve finished building it and it captures Grogu’s undeniable charm. With a <strong>dial-controlled arm mechanism</strong>, you have complete control over Grogu’s gestures to recreate those iconic moments when he reaches out to touch whatever comes his attention or attempts to use his powers. His <strong>head smoothly turns to freeze various expressions</strong>, and his characteristic oversized ears can be set to demonstrate curiosity, sleepiness, or wakefulness.</p>
+<h2>Why This Set Provides the Magic of The Mandalorian</h2>
+<p>The <strong>hover pram itself is a 7-inch long and 6-inch wide base</strong> that doubles as a display piece. It’s the flexibility of having a choice in how you display this build that makes it so interesting. You can display Grogu safely nestled inside his safety pod just as Din Djarin carries him when out adventuring or standing him upright outside for a more dynamic display.</p>
+
+
+
+<p>Lego didn’t hold back on the accessories that transformed Grogu into a cultural icon. Three key items that epitomize his personality are included in the set: <strong>a brick-built Sorgan frog</strong> (don’t you recall his snacking ways from Season 1?), <strong>the shifter knob from the Razor Crest</strong> that became a meme immediately, and <strong>a cookie</strong> that he can hold in his miniature hands.</p>
+
+
+
+<p>The advanced level of this 1,048-piece set makes it <strong>ideal for builders aged 10 and up</strong> but adult collectors will relish the building process as much. The piece count assures hours of uninterrupted building time which makes it an ideal weekend project or a relaxing evening activity. While other, simpler sets may have you racing to get to the final stages, you’ll have time to smell the Lego, as it were, as you assemble the mechanical components that give Grogu’s movement life.</p>
+<p>With the $30 savings, it comes to a price that is difficult to pass up, particularly since those Star Wars sets tend to hold their value or gain it over time.</p>
+<p><a href="https://shop.kotaku.com/go/4704/" target="_self" rel="sponsored nofollow">See at Amazon</a></p>
+
+                          </div></div><br/><br/>https://kotaku.com/lego-grogu-set-with-hover-pram-is-selling-for-pennies-amazon-clears-out-stock-at-a-new-record-low-2000634151]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Pokémon Legends: Z-A Global Release Times Confirmed]]></title>
+            <link>https://www.ign.com/articles/pokmon-legends-z-a-global-release-times-confirmed</link>
+            <guid>https://www.resetera.com/threads/pok%C3%A9mon-legends-z-a-global-release-times-confirmed.1322530/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-cy="page-header"><h2 data-cy="article-sub-headline">When to Pika up your copy and play.</h2></div><section data-cy="article-content"><p data-cy="paragraph">Are you ready to catch — then Mega Evolve — 'em all over again? <a data-cy="styled-link" href="https://www.ign.com/games/pokemon-legends-z-a">Pokémon Legends: Z-A</a> is finally almost upon us, with its launch set for October 16, priced at $59.99 for Nintendo Switch or $69.99 for Switch 2.</p><p data-cy="paragraph">If you don't have a Switch 2 yet but think you might upgrade in future (perhaps you're waiting until the holidays for a new console?) you can pick up Pokémon Legends Z-A's Switch 1 version now and then grab the game's $9.99 Switch 2 Upgrade Pack when you're ready.</p><p data-cy="paragraph">Last but not least, you can already buy <a data-cy="styled-link" href="https://www.ign.com/articles/pokmon-legends-z-a-getting-dlc-starring-mega-raichu">Pokémon Legends: Z-A: Mega Dimension</a>, a paid DLC which will add two new Mega Evolutions for Raichu and fresh story content. The bulk of this won't come until after the game's launch, though buying it now will unlock extra costume items immediately.</p><output data-cy="article-video"></output><p data-cy="paragraph">You can already pre-load Pokémon Legends: Z-A now via the Nintendo eShop, including the game's day one update. You'll need 4.1GB of free space on Nintendo Switch, or 7.7GB of free space on Switch 2.</p><p data-cy="paragraph">In the run-up to the game's launch, <a data-cy="styled-link" href="https://www.ign.com/articles/as-datamining-begins-fans-warn-that-the-pokmon-legends-z-a-spoiler-floodgates-have-now-opened">it's worth being wary of spoilers</a> — datamining work has already begun on the game after physical copies were spotted in the wild. Indeed, IGN has seen word of some of the all-new Mega Pokémon included in the game — though we won't spoil them here.</p><p data-cy="paragraph">Set in Kalos, home of the Mega Pokémon mechanic, <a data-cy="styled-link" href="https://www.ign.com/articles/every-new-mega-pokmon-announced-for-pokmon-legends-z-a">Pokémon Legends: Z-A adds the first new batch of superpowered creatures to the franchise's Mega Pokédex in over a decade</a>, although no all-new Pokémon species are expected. To date, The Pokémon Company has revealed just a handful of the new Mega Pokémon expected to make up the game's final roster of fresh Mega species. How many will feature in the final game? You'll just have to play and find out.</p><output data-cy="article-slideshow"><div data-cy="slideshow-view-trigger"><h3 data-cy="slideshow-preview-title">Pokemon Legends: Z-A – September 2025 Screenshots</h3></div></output><p data-cy="paragraph">As with other Nintendo game launches, digital copies of Pokémon Legends: Z-A are expected to unlock within your local region as soon as it hits 12am (midnight) on Thursday, October 16. </p><p data-cy="paragraph">But in the U.S., previous Nintendo game launches have treated the whole country as a singular region, meaning those in timezones behind Eastern (i.e. Central, Mountain and Pacific time) all get to play late on Wednesday, October 15.</p><h2 data-cy="title2">Pokémon Legends: Z-A global release times:</h2><h3 data-cy="title3">Wednesday, October 15, 2025</h3><p data-cy="paragraph"><strong>PDT (San Francisco):</strong></p><ul data-cy="list"><li>9pm</li></ul><p data-cy="paragraph"><strong>CST (Mexico City):</strong></p><ul data-cy="list"><li>11pm</li></ul><h3 data-cy="title3">Thursday, October 16, 2025</h3><p data-cy="paragraph"><strong>EDT (New York):</strong></p><ul data-cy="list"><li>12am midnight</li></ul><p data-cy="paragraph"><strong>BRT (Sao Paulo):</strong></p><ul data-cy="list"><li>12am midnight</li></ul><p data-cy="paragraph"><strong>BST (London):</strong></p><ul data-cy="list"><li>12am midnight</li></ul><p data-cy="paragraph"><strong>CEST (Paris, Rome, Berlin):</strong></p><ul data-cy="list"><li>12am midnight</li></ul><p data-cy="paragraph"><strong>EEST (Turkey):</strong></p><ul data-cy="list"><li>12am midnight</li></ul><p data-cy="paragraph"><strong>UTC (New Delhi):</strong></p><ul data-cy="list"><li>12am midnight</li></ul><p data-cy="paragraph"><strong>ICT (Hanoi):</strong></p><ul data-cy="list"><li>12am midnight</li></ul><p data-cy="paragraph"><strong>HKT (Hong Kong):</strong></p><ul data-cy="list"><li>12am midnight</li></ul><p data-cy="paragraph"><strong>CST (Beijing):</strong></p><ul data-cy="list"><li>12am midnight</li></ul><p data-cy="paragraph"><strong>JST (Tokyo):</strong></p><ul data-cy="list"><li>12am midnight</li></ul><p data-cy="paragraph"><strong>AEST (Sydney):</strong></p><ul data-cy="list"><li>12am midnight</li></ul><p data-cy="paragraph">Ready to get started? IGN has guides to Pokémon Legends: Z-A's <a data-cy="styled-link" href="https://www.ign.com/wikis/pokemon-legends-z-a/Characters">Characters</a> and <a data-cy="styled-link" href="https://www.ign.com/wikis/pokemon-legends-z-a/Starter_Pokemon">Starter Pokemon</a>, its <a data-cy="styled-link" href="https://www.ign.com/wikis/pokemon-legends-z-a/Mega_Dimension_DLC">Mega Dimension DLC</a>, all the <a data-cy="styled-link" href="https://www.ign.com/wikis/pokemon-legends-z-a/New_Mega_Pokemon_in_Legends_Z-A">New Mega Pokemon in Legends Z-A</a> and also a full <a data-cy="styled-link" href="https://www.ign.com/wikis/pokemon-legends-z-a/Pokedex_(List_of_Pokemon)">Pokedex (List of Pokemon)</a> so you can plan which creatures to go catch first.</p><p data-cy="paragraph"><em>Tom Phillips is IGN's News Editor. You can reach Tom at tom_phillips@ign.com or find him on Bluesky </em><a href="https://bsky.app/profile/tomphillipseg.bsky.social" data-cy="styled-link" target="_blank" rel="noopener noreferrer">@tomphillipseg.bsky.social</a></p></section><div><h3 data-cy="object-summary-embed-title">In This Article</h3></div></div><br/><br/>https://www.ign.com/articles/pokmon-legends-z-a-global-release-times-confirmed]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Something for the Weekend – 11/10/25]]></title>
             <link>https://www.thesixthaxis.com/2025/10/11/something-for-the-weekend-11-10-25/</link>
@@ -71,7 +260,7 @@
 <li><a href="https://www.nintendolife.com/games/nintendo-switch-2/little-nightmares-iii">Little Nightmares III</a> - <a href="https://www.nintendolife.com/reviews/nintendo-switch-2/little-nightmares-iii">6/10</a></li>
 <li><a href="https://www.nintendolife.com/games/switch-eshop/shujinkou">Shujinkou</a> - <a href="https://www.nintendolife.com/reviews/switch-eshop/shujinkou">7/10</a></li>
 </ul>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:190785,192249 @ 1760177077 -->
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:190785,192249 @ 1760180698 -->
 <h2>Ollie Reynolds, Staff Writer</h2>
 <p>Since last weekend was pretty much dedicated to <a href="https://www.nintendolife.com/games/switch-eshop/super_mario_galaxy_2">Super Mario Galaxy 2</a>, I'd like to spend a bit of time with <a href="https://www.nintendolife.com/games/nintendo-switch-2/final-fantasy-tactics-the-ivalice-chronicles-nintendo-switch-2-edition">Final Fantasy Tactics</a> and actually get a decent start on it. On the other hand, I've recently jumped into <a href="https://www.nintendolife.com/games/switch-eshop/xenotilt_hostile_pinball_action">Xenotilt</a>, and my goodness, it's absolutely <em>marvellous</em>. Gorgeous visuals and lots of numbers that keep going up, up, up. It's addictive stuff.</p>
 
@@ -1021,100 +1210,6 @@
 
  <blockquote data-width="500" data-dnt="true"> <p lang="en" dir="ltr">For example, the initiatives we implemented in the previous title. That was a proposal from the development team—it was tough but fun.<br>Since then, the organization has grown significantly, and various departments have been established.<br>My main responsibilities now are improving…</p> <p>— TAKA-nakayama (@takaNakayama) <a href="https://twitter.com/takaNakayama/status/1973633016691040448?ref_src=twsrc%5Etfw">October 2, 2025</a></p></blockquote>  <p>He also confirmed that there was no discussions about including tickets for the livestream in add-on content for the game, like a World Championship costume set. Nakayama even added that he’d delete his post if he got “scolded at work” for it. That clearly hasn’t happened.</p> <p>“We kindly ask for your patience until then,” Capcom told fans today. “We sincerely appreciate your continued support for Capcom eSports events.”</p>
                           </div></div><br/><br/>https://kotaku.com/capcom-cup-12-tickets-street-fighter-6-esports-2000634086]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[One Of The Biggest YouTubers In The World Asks Fans To Stop Paying Him]]></title>
-            <link>https://kotaku.com/streamer-cr1tikal-youtube-twitch-superchat-charity-2000634079</link>
-            <guid>https://www.resetera.com/threads/one-of-the-biggest-youtubers-in-the-world-asks-fans-to-stop-paying-him.1322254/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-              
-              <p>Popular streamer Charles White Jr., aka Cr1TiKal/MoistCr1TiKaL, that long-haired dude who seems to be a pretty good person, has taken the unusual step of shutting off his YouTube memberships and Super Chats. Instead of prompting his viewers to throw money at the screen, he’s instead urging folks to donate to charity. “There are so many better options for your money,” he said.</p> <p>As <a href="https://www.videogameschronicle.com/news/there-are-so-many-better-options-for-your-money-popular-streamer-turns-off-all-donation-tells-fans-to-give-to-charity/">first reported by <i>VGC</i></a>, White has posted a video announcing that he’s shut off user-donated monetization on his YouTube channel, and saying that he’d shut off Twitch subs as well if he could. “I would say toodle-oo, give it a strong slap on the ass, tell it good game and goodbye.” But apparently it’s harder than that. Still, he stressed that money spent on his stream could be put to better use:</p> <p>There are so many good charities doing extremely good work that could be benefited greatly from your contribution. Like maybe you’d want to donate to a charity that’s doing extremely important work in Gaza. That would be a significantly better use of that money than donating it to me.</p> 
-                          </div></div><br/><br/>https://kotaku.com/streamer-cr1tikal-youtube-twitch-superchat-charity-2000634079]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[When is Overwatch 2 Haunted Masquerade? Overwatch Halloween 2025 Event Release Date & Content]]></title>
-            <link>https://insider-gaming.com/when-is-overwatch-2-haunted-masquerade-overwatch-halloween-2025-event-release-date-content/</link>
-            <guid>https://www.resetera.com/threads/when-is-overwatch-2-haunted-masquerade-overwatch-halloween-2025-event-release-date-content.1322251/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-        
-<p>The Haunted Masquerade in Overwatch 2 is the game’s latest Halloween event, bringing with it a new game mode, skins, and more content in a new season update.</p>
-
-
-
-<p>While Overwatch was dealing with a <a href="https://insider-gaming.com/almost-half-of-players-who-quit-overwatch-jumped-to-marvel-rivals/" target="_blank" rel="noreferrer noopener">loss of players due to Marvel Rivals</a> about a year ago, the game has been making a resurgence with some great content updates, and this looks to be the latest.</p>
-
-
-
-<p>Here is when the Haunted Masquerade starts in Overwatch 2 and all the content you can expect in it.</p>
-
-
-
-<h2 id="h-when-is-the-overwatch-2-haunted-masquerade">When is the Overwatch 2 Haunted Masquerade?</h2>
-
-
-
-<figure><figcaption>The new Stadium additions. Image by Blizzard Entertainment</figcaption></figure>
-
-
-
-<p><strong>The Haunted Masquerade Halloween event in Overwatch 2 begins on Tuesday, October 14, alongside the update to Season 19.</strong></p>
-
-
-
-<p><a href="https://overwatch.blizzard.com/en-us/news/24232473/beware-a-haunted-masquerade-begins-in-season-19/" target="_blank" rel="noreferrer noopener nofollow">Season 19 in Overwatch 2</a> brings a bunch of Halloween content, like the Haunted Masquerade and the return of Junkenstein’s Revenge, as well as a mythic hero skin for Lifeweaver and a mythic weapon skin for Kiriko. For the first time, Junkrat will also receive a mythic hero skin when the midseason update happens in November.</p>
-
-
-
-<p>Additionally, the <a href="https://insider-gaming.com/overwatchs-stadium-a-round-based-competitive-mode-that-borrows-from-deadlock-valorant/" target="_blank" rel="noreferrer noopener">new Stadium mode</a> is getting three more heroes added to the mix in Hazard, Torbjorn, and Sojourn. Stadium is also getting a new shop item called gadgets that will help to turn the tide in your favor for battle.</p>
-
-
-
-<p>Outside of that, you can expect the usual rotation of new skins and bundles in the shop themed around archangels and spirits.</p>
-
-
-
-<h2 id="h-what-is-the-overwatch-2-haunted-masquerade-mode">What is the Overwatch 2 Haunted Masquerade Mode?</h2>
-
-
-
-<figure><figcaption>Be sure to have friends wear each other’s masks for a boost! Image by Blizzard Entertainment</figcaption></figure>
-
-
-
-<p><strong>The Haunted Masquerade in Overwatch 2 is a limited-time mode that allows players to first select the hero they want to play and then choose a mask of a different hero in the spawn room to gain a special ability for that match.</strong></p>
-
-
-
-<p>After you select your mask, your hero will instantly get a <a href="https://insider-gaming.com/overwatch-adds-ability-altering-perks-brings-back-loot-boxes/" target="_blank" rel="noreferrer noopener">small perk power-up</a>. For example, putting on a Genji mask will give whatever hero you are playing a double jump, or Reaper’s mask will heal you slightly as you deal damage to enemies.</p>
-
-
-
-<p>That’s not all, though, as masks have a little extra surprise if you and a team member select lore-appropriate heroes. For example, if your team has Mei and Juno and they have each other’s masks, their ultimates will combine, bringing in an Orbital Ray boost to your teammates, while also having Blizzard freeze enemies in range.</p>
-
-
-
-<p>The new <a href="https://insider-gaming.com/overwatch-2-street-fighter-crossover-release-date-all-skins/" target="_blank" rel="noreferrer noopener">Overwatch 2</a> Halloween event looks to be a chaotic arcade mode that you and your friends can play throughout October. Be sure to experiment with the masks that work best for your chosen heroes and have fun out there.</p>
-
-
-
-<hr>
-
-
-
-<p>Are you planning on joining the Haunted Masquerade in Overwatch 2? Let us know the hero and mask combinations you plan on taking advantage of in the comments or on the <a href="https://insider-gaming.com/forum/" target="_blank" rel="noreferrer noopener">Insider Gaming forum</a>.</p>
-
-
-
-<p>Did you know that Nexon and Blizzard have been in talks for a potential Overwatch Mobile game? <a href="https://insider-gaming.com/nexon-reportedly-enters-main-negotations-with-blizzard-for-starcraft-ip-and-overwatch-mobile/" target="_blank" rel="noreferrer noopener">Read about it here</a>.</p>
-    <div id="ig-newsletter-holder">
-            <p><span>
-                    SUBSCRIBE to our newsletter to receive the latest news and exclusive leaks every week! No Spam.
-                </span>
-            </p>
-            
-        </div>
-
-    </div></div><br/><br/>https://insider-gaming.com/when-is-overwatch-2-haunted-masquerade-overwatch-halloween-2025-event-release-date-content/]]></content:encoded>
         </item>
     </channel>
 </rss>
