@@ -4,9 +4,315 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Tue, 14 Oct 2025 17:28:43 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 14 Oct 2025 17:57:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[AMD FSR 4 INT8 Xbox Series X Simulation Shows Possible Advantage in Image Quality and Frame Rate]]></title>
+            <link>https://wccftech.com/amd-fsr4-int-8-xbox-series-x-simulation-shows-possible-advantage/</link>
+            <guid>https://www.resetera.com/threads/amd-fsr-4-int8-xbox-series-x-simulation-shows-possible-advantage-in-image-quality-and-frame-rate.1324690/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			<p>Last month, following the accidental source code leak of AMD FSR 4 INT8 files, modders <a href="https://wccftech.com/leaked-amd-fsr-4-int8-files-helps-users-turn-on-fsr-4-on-rx-7000-on-windows/" target="_blank" rel="noreferrer noopener">managed to get a version of AMD FSR4 working on non-RDNA 4 GPUs</a> (the Radeon RX 9000 Series that launched earlier this year). The regular version of the latest AMD upscaler runs on FP8, that is, the 8-bit Floating-Point format, which is not supported by prior RDNA GPUs. However, this leaked version running on INT8 is compatible with a much wider range of hardware, since support for the 8-bit Integer Fixed-Point format is included in most modern GPUs. </p>
+
+
+
+<p>Of course, there's a reason why AMD chose the FP8 format for the public release: it allows for a wider dynamic range than INT8, doing a better job in preserving model accuracy and stability. Digital Foundry's Richard Leadbetter <a href="https://www.youtube.com/watch?v=fqDWJCW06Ks" target="_blank" rel="noreferrer noopener">has now tested this version</a> on several non-RDNA4 hardware to see how well it works in terms of both performance and quality.</p>
+
+
+
+<p>First of all, he compared the quality of AMD FSR 4 FP8 and AMD FSR 4 INT8, the first running on RDNA 4 hardware and the leaked version running on RDNA 3 and RDNA 2 hardware. The result is obvious: the INT8 version introduces aliasing and temporal artifacts. These visual issues are even more pronounced on the latest Adrenalin driver (25.9.1), likely due to some bug, so if you're going to try running the INT8 version, reverting to driver 23.9.1 is advisable.</p>
+
+
+
+<p>That said, AMD FSR 4 INT8 does still provide superior upscaling quality compared to AMD FSR 3. The problem is that it's also a lot slower. Now, the PlayStation 5 consoles do not support INT8, but the Xbox Series X does, having access to the full RDNA 2 feature set. For a simulation of how Microsoft's console could run this version of the upscaler, Digital Foundry used an RX 6700 GPU running the Horizon Forbidden West benchmark. </p>
+
+
+
+<p>AMD FSR 4 INT8 is by far the slowest upscaler compared to AMD FSR 3 and Intel XeSS, providing only a 28% performance uplift when set in Performance mode compared to 4K native resolution. XeSS Balance mode is 15% faster, while FSR 3 Performance mode is 29% faster. However, in another benchmark scene from Alan Wake 2, DF tested Xbox Series X-like settings at 1440p with FSR 4 set to Performance mode and FSR 2 to Balance mode. In this comparison, FSR 4 Performance mode slightly beats FSR 2 Balance mode in frame rate (by around 4%) and, more importantly, it provides a cleaner image despite reconstructing from a lower base resolution. </p>
+
+
+
+<figure><p>
+<iframe title="Leaked FSR4 INT8 Test: RDNA 3, RDNA 2, Steam Deck, Asus ROG Ally, Nvidia + Xbox Series X Simulation" width="500" height="281" src="https://www.youtube.com/embed/fqDWJCW06Ks?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<p>Therefore, it could potentially benefit the Xbox Series X in certain scenarios. However, most multiplatform games are unlikely to take advantage of this since the base PS5 console cannot run AMD FSR 4 INT8. </p>
+
+
+
+<p>The video analysis also includes a look at how this version performs on Steam Deck, though that scenario was already tested by other YouTubers, <a href="https://wccftech.com/amd-fsr-4-steam-deck/" target="_blank" rel="noreferrer noopener">showing significant image quality improvements</a> but also a heavy performance cost in games like Cyberpunk 2077. Notably, this might not be the final version of AMD FSR 4 INT8, and Digital Foundry got a teasing statement from AMD on that note:</p>
+
+
+
+<p><em>We look forward to more updates to FSR4 this Fall that will continue to improve gamers' experiences.</em></p>
+
+
+
+<p>It's not quite a confirmation, but this version of FSR 4 may receive some performance improvements that would make it more viable for RDNA 2 and RDNA 3 hardware. </p>
+
+			
+			<p>Follow <a href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> or <a href="https://google.com/preferences/source?q=wccftech.com">add us as a preferred source</a>, to get our news coverage and reviews in your feeds.</p>
+
+		</div></div><br/><br/>https://wccftech.com/amd-fsr4-int-8-xbox-series-x-simulation-shows-possible-advantage/]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[The Outer Worlds 2 Release Date Explained—Exact Start Times Explained]]></title>
+            <link>https://insider-gaming.com/the-outer-worlds-2-release-date-explained-exact-start-times-explained/</link>
+            <guid>https://www.resetera.com/threads/the-outer-worlds-2-release-date-explained%E2%80%94exact-start-times-explained.1324678/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+        
+<p>The Outer Worlds 2 release is nearly here, bringing many people who loved the original game back into this universe where business executives overrule everyone.</p>
+
+
+
+<p>With the <a href="https://insider-gaming.com/when-is-the-outer-worlds-2-review-embargo-date/" target="_blank" rel="noreferrer noopener">embargo date set to reveal review scores</a> for the upcoming game, you will want to have a good understanding of when the game is actually released so you can play it.</p>
+
+
+
+<p>Here is everything we know about The Outer Worlds 2 release date and a possible start time.</p>
+
+
+
+<h2 id="h-when-does-the-outer-worlds-2-release">When Does The Outer Worlds 2 Release?</h2>
+
+
+
+<figure><figcaption>Charging up for release. Image by Obsidian Entertainment</figcaption></figure>
+
+
+
+<p><strong>The Outer Worlds 2 full release date is on October 29, but anyone who </strong><a href="https://insider-gaming.com/how-to-get-the-outer-worlds-2-early-access/" target="_blank" rel="noreferrer noopener"><strong>pre-orders the Premium Edition</strong></a><strong> will be able to play the game five days early on October 24.</strong></p>
+
+
+
+<p><a href="https://insider-gaming.com/is-the-outer-worlds-2-coming-to-game-pass/" target="_blank" rel="noreferrer noopener">Xbox Game Pass Ultimate subscribers</a> will be able to download and play the game on that later date, but if they desire to play early and get all the rest of the content included in the Premium Edition, they can buy the $30 upgrade pack on the Xbox Store.</p>
+
+
+
+<p>It might not be the perfect festive game for Halloween, but fans of the first game will hardly complain about being able to run around and mess with the various corporations and NPCs just before the holiday.</p>
+
+
+
+<h2 id="h-do-we-know-the-exact-release-time-for-the-outer-worlds-2">Do We Know the Exact Release Time for The Outer Worlds 2?</h2>
+
+
+
+<p><strong>According to the </strong><a href="https://store.playstation.com/en-us/product/UP6312-PPSA24588_00-0872768154966924" target="_blank" rel="noreferrer noopener nofollow"><strong>PlayStation Store</strong></a><strong>, the standard edition of The Outer Worlds 2 will go live at 1 PM ET on October 29, so this version of the game will not have a midnight release. That is not the same for the early access players, who will be able to play starting at 12 AM ET on October 24.</strong></p>
+
+
+
+<p>Here is a chart that will break down the starting times for the standard version of The Outer Worlds 2.</p>
+
+
+
+<figure><table><thead><tr><th data-align="center">Time Zone</th><th data-align="center">The Outer Worlds 2 Standard Start Time</th></tr></thead><tbody><tr><td data-align="center">Eastern Time (ET)</td><td data-align="center">1 PM—October 29</td></tr><tr><td data-align="center">Central Time (CT)</td><td data-align="center">12 PM—October 29</td></tr><tr><td data-align="center">Pacific Time (PT)</td><td data-align="center">10 AM—October 29</td></tr><tr><td data-align="center">Greenwich Mean Time (GMT)</td><td data-align="center">5 PM—October 29</td></tr><tr><td data-align="center">Australian Eastern Daylight Time (AEDT)</td><td data-align="center">4 AM—October 30</td></tr></tbody></table></figure>
+
+
+
+<p>The standard edition of The Outer Worlds 2 releasing at midday in the United States is definitely an odd time for the full game to release. Usually, even with games that have an early access period, they will become playable at either midnight Eastern Time or sometime in the morning. Having it set for the afternoon is definitely not the norm with big releases like this.</p>
+
+
+
+<hr>
+
+
+
+<p>Are you setting aside time to dive into The Outer Worlds 2 at launch? Let us know in the comments or on the <a href="https://insider-gaming.com/forum/" target="_blank" rel="noreferrer noopener">Insider Gaming forum</a>.</p>
+
+
+
+<p>As we approach the release of The Outer Worlds 2, check out the <a href="https://insider-gaming.com/the-outer-worlds-2-trophy-achievement-list/" target="_blank" rel="noreferrer noopener">achievement and trophy list for the game</a>. Here is also the <a href="https://insider-gaming.com/the-outer-worlds-2-preload-and-file-size-explained/" target="_blank" rel="noreferrer noopener">preload guide that includes the file size</a> for the game before launch.</p>
+    <div id="ig-newsletter-holder">
+            <p><span>
+                    SUBSCRIBE to our newsletter to receive the latest news and exclusive leaks every week! No Spam.
+                </span>
+            </p>
+            
+        </div>
+
+    </div></div><br/><br/>https://insider-gaming.com/the-outer-worlds-2-release-date-explained-exact-start-times-explained/]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Summer Game Fest 2026 Announced For June 2026]]></title>
+            <link>https://www.gamespot.com/articles/summer-game-fest-2026-announced-for-june-2026/1100-6535415/?ftag=CAD-01-10abi2f</link>
+            <guid>https://www.resetera.com/threads/summer-game-fest-2026-announced-for-june-2026.1324675/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p>
+    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
+  </p><article itemscope="" data-type-id="1100" data-guid="1100-6535415">
+
+            
+            
+  
+
+
+        
+
+  
+
+
+        
+        
+              <section>
+
+                  
+          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
+                <p>Summer Game Fest 2026 has been announced, and there is one big change that we know about so far. The event takes place on Friday, June 5 in Los Angeles, and the show is moving to the Dolby Theatre.</p><p>The 2025 event, for comparison, was held at the YouTube Theater in Inglewood, California. The Dolby Theatre opened in Hollywood in 2001 and hosts the Oscars each year. It was previously known as the Kodak Theatre.</p><p>Geoff Keighley once again returns to produce Summer Game Fest 2026. Keighley runs SGF and The Game Awards, and Split Fiction writer-director Josef Fares once declared during TGA, <a href="https://google.com/search?q=josef+fares+fuck+the+oscars+gamespot&amp;rlz=1C5GCCM_en&amp;oq=josef+fares+fuck+the+oscars+gamespot&amp;gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDQzMTJqMGo5qAIGsAIB8QU6HXKJFs428w&amp;sourceid=chrome&amp;ie=UTF-8" data-target="true" target="_blank" rel="noopener">"F**k the Oscars,"</a> a statement that carries a bit more resonance now with SGF changing venues to where the Oscars are held.</p><p>SGF 2026 promises a "spectacular, cross-platform showcase of what's next in video games." You can attend the event yourself by purchasing a ticket when they go on sale in Spring 2026.</p><p>As for TGA, the upcoming awards show run by Keighley will take place on Thursday, December 11 at the Peacock Theater in Los Angeles.</p>
+  
+                        
+    
+        
+        
+  
+                                  </div>
+
+
+          
+  
+    
+          
+            
+  <div>
+    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
+
+    
+      </div>
+        
+      </section>
+    
+            
+    </article></div><br/><br/>https://www.gamespot.com/articles/summer-game-fest-2026-announced-for-june-2026/1100-6535415/?ftag=CAD-01-10abi2f]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Call Of Duty Exists Because "EA Were Dicks," Says Vince Zampella]]></title>
+            <link>https://www.gamespot.com/articles/call-of-duty-exists-because-ea-were-dicks-says-vince-zampella/1100-6535420/?ftag=CAD-01-10abi2f</link>
+            <guid>https://www.resetera.com/threads/call-of-duty-exists-because-ea-were-dicks-says-vince-zampella.1324672/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p>
+    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
+  </p><article itemscope="" data-type-id="1100" data-guid="1100-6535420">
+
+            
+            
+  
+
+
+        
+
+  
+
+
+        
+        
+              <section>
+
+                  
+          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
+                <p>In 2003, Vince Zampella and his Infinity Ward co-founders unleashed the original <a href="https://www.gamespot.com/games/call-of-duty/" data-ref-id="5000-18165">Call of Duty</a> after previously shepherding EA's Medal of Honor franchise. The latter never reached the heights of the former, and according to Zampella, Call of Duty would have never come into being if EA hadn't come into conflict with his team.</p><p>"The only reason that Call of Duty exists is because EA were dicks," said Zampella during a new interview with <a href="https://www.gq-magazine.co.uk/article/battlefield-6-vince-zampella" data-target="true" target="_blank" rel="noopener nofollow">GQ</a>. Zampella didn't elaborate on his team's fallout with EA, but they eventually formed a lucrative partnership with Activision, which purchased Infinity Ward. Zampella left Infinity Ward in 2010 and formed Respawn Entertainment before once again partnering with EA. Now, Zampella is overseeing the Battlefront franchise, which continues this month with the arrival of <a href="https://www.gamespot.com/games/battlefield-6/" data-ref-id="5000-687940">Battlefield 6</a>.</p><p>Zampella worked closely with Steven Spielberg on the Metal of Honor games, and Spielberg reportedly wanted to <a href="https://www.gamespot.com/articles/spielberg-wanted-to-make-a-call-of-duty-movie-but-activision-passed-heres-the-reported-reason-why/1100-6534500/" data-ref-id="1100-6534500">direct a Call of Duty movie</a> years later. During the GQ interview, Zampella noted that Ridley Scott was also interested in bringing Call of Duty to the big screen.</p><p>"Ridley Scott came in one time--who's a hero of mine--but he's not connected to games," noted Zampella. "So he'd ask these questions like, 'How do you script what happens?' ... There was a bit of a talk around him doing a Call of Duty film, but we never really took it seriously. Video game movies at that point were never really that good."</p><p>Last month, Paramount signed a deal with Activision for <a href="https://variety.com/2025/film/news/call-of-duty-movie-paramount-skydance-1236504600/" data-target="true" target="_blank" rel="noopener nofollow">a Call of Duty movie</a>, with a potential TV series to follow. It's unclear if Hollywood will show similar interest in Battlefield, but <a href="https://www.gamespot.com/articles/battlefield-6-is-already-doing-huge-numbers-on-steam/1100-6535398/" data-ref-id="1100-6535398">Battlefield 6 is already doing huge numbers on Steam</a>. Battlefield 6 also has a largely clear path before <a href="https://www.gamespot.com/games/call-of-duty-black-ops-7/">Black Ops 7</a> arrives on November 14.</p>
+  
+                        
+    
+        
+        
+  
+                                  </div>
+
+
+          
+  
+    
+          
+            
+  <div>
+    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
+
+    
+      </div>
+        
+      </section>
+    
+            
+    </article></div><br/><br/>https://www.gamespot.com/articles/call-of-duty-exists-because-ea-were-dicks-says-vince-zampella/1100-6535420/?ftag=CAD-01-10abi2f]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Assassin's Creed Boss Leaves Ubisoft After Two Decades]]></title>
+            <link>https://www.gamespot.com/articles/assassins-creed-boss-leaves-ubisoft-after-two-decades/1100-6535413/?ftag=CAD-01-10abi2f</link>
+            <guid>https://www.resetera.com/threads/assassins-creed-boss-leaves-ubisoft-after-two-decades.1324669/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p>
+    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
+  </p><article itemscope="" data-type-id="1100" data-guid="1100-6535413">
+
+            
+            
+  
+
+
+        
+
+  
+
+
+        
+        
+              <section>
+
+                  
+          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
+                <p>The creative lead steering the Assassin's Creed franchise for Ubisoft has departed the company. The exit comes not long after the French publisher unveiled its Tencent-backed <a href="https://www.gamespot.com/articles/ubisoft-announces-vantage-studios-a-creative-house-focused-on-three-major-franchises/1100-6535136/" data-ref-id="1100-6535136">spin-off division Vantage Studios,</a> which will take charge of development for Assassin's Creed, Far Cry, and Rainbow Six titles.</p><p>Vantage Studios said that Marc-Alexis Côté, who held the title of Vice President Executive Producer for Assassin's Creed since 2022, had been offered a leadership position at this new subsidiary, but he declined the role, <a href="https://www.ign.com/articles/assassins-creed-franchise-boss-departs-ubisoft" data-target="true" target="_blank" rel="noopener nofollow">IGN</a> reports. The formation of the then-unnamed Vantage Studios was <a href="https://www.gamespot.com/articles/ubisoft-makes-major-deal-that-will-focus-on-three-game-franchises/1100-6530434/" data-ref-id="1100-6530434">announced back in March</a>.</p>
+
+
+
+    
+  <div>
+
+    <div tabindex="0" data-id="1706162165" data-promo-id="0" data-user-has-ads="1" data-video="{&quot;id&quot;:6466361,&quot;title&quot;:&quot;Assassin%27s%20Creed%20Shadows%3A%20Claws%20of%20Awaji%20Launch%20Trailer&quot;,&quot;lengthSeconds&quot;:136,&quot;startTime&quot;:0,&quot;autoplay&quot;:true,&quot;share&quot;:{&quot;linkUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/assassins-creed-shadows-claws-of-awaji-launch-trailer\/2300-6466361\/&quot;,&quot;embedUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/embed\/6466361\/&quot;,&quot;embedHtml&quot;:{&quot;640&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6466361\/\&quot; height=\&quot;360\&quot; width=\&quot;640\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;,&quot;480&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6466361\/\&quot; height=\&quot;270\&quot; width=\&quot;480\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;}},&quot;device&quot;:&quot;other&quot;,&quot;isDevice&quot;:false,&quot;isLiveStream&quot;:false,&quot;videoType&quot;:&quot;video-on-demand&quot;,&quot;countdownTime&quot;:0,&quot;guid&quot;:&quot;gs-2300-6466361&quot;,&quot;ageGateCookieName&quot;:&quot;videoAgeGateBirthday&quot;,&quot;watchedCookieName&quot;:&quot;watchedVideoIds&quot;,&quot;watchedCookieDays&quot;:1,&quot;postPlayMax&quot;:100,&quot;adCall&quot;:{&quot;host&quot;:&quot;http:\/\/pubads.g.doubleclick.net\/gampad\/ads?&quot;,&quot;params&quot;:{&quot;iu&quot;:&quot;\/5441\/vaw-gamespot\/desktop\/gamespot.com&quot;,&quot;impl&quot;:&quot;s&quot;,&quot;gdfp_req&quot;:1,&quot;env&quot;:&quot;vp&quot;,&quot;output&quot;:&quot;xml_vmap1&quot;,&quot;unviewed_position_start&quot;:1,&quot;url&quot;:&quot;[referrer_url]&quot;,&quot;correlator&quot;:&quot;[timestamp]&quot;,&quot;description_url&quot;:&quot;[description_url]&quot;,&quot;cmsid&quot;:2566084,&quot;vid&quot;:6466361,&quot;pp&quot;:&quot;vpaid_js&quot;},&quot;custParams&quot;:{&quot;ptype&quot;:&quot;news_article&quot;,&quot;cid&quot;:&quot;gs-1100-6535413&quot;,&quot;game&quot;:&quot;assassins-creed-shadows&quot;,&quot;genre&quot;:&quot;action,adventure&quot;,&quot;con&quot;:&quot;pc,xbox-series-x,playstation-5,macintosh&quot;,&quot;publisher&quot;:&quot;ubisoft&quot;,&quot;embed&quot;:&quot;autoplay&quot;,&quot;franchise&quot;:&quot;assassins-creed&quot;,&quot;category&quot;:&quot;games&quot;,&quot;franchiseRoot&quot;:&quot;assassins-creed&quot;,&quot;partner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;vid&quot;:6466361},&quot;soundBasedSize&quot;:{&quot;normal&quot;:&quot;640x480&quot;,&quot;muted&quot;:&quot;640x483&quot;,&quot;none&quot;:&quot;640x480&quot;},&quot;daiSsbUrl&quot;:&quot;https:\/\/dai.google.com\/ondemand\/hls\/content\/2572465\/vid\/6466361\/master.m3u8&quot;,&quot;daiMidRollHost&quot;:2500176},&quot;uvpHi5Ima&quot;:&quot;https:\/\/s0.2mdn.net\/instream\/html5\/ima3.js&quot;,&quot;cuePoints&quot;:null,&quot;uvpc&quot;:&quot;&quot;,&quot;partner&quot;:&quot;gamespot&quot;,&quot;adPartner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;desktopAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;mobileAdPartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;,&quot;mapp&quot;:&quot;gamespot&quot;,&quot;cms&quot;:&quot;pi&quot;,&quot;seekablePlaybacks&quot;:[&quot;html5&quot;,&quot;uvpjs&quot;],&quot;tracking&quot;:[{&quot;name&quot;:&quot;SiteCatalyst&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;charSet&quot;,&quot;value&quot;:&quot;UTF-8&quot;},{&quot;name&quot;:&quot;currencyCode&quot;,&quot;value&quot;:&quot;USD&quot;},{&quot;name&quot;:&quot;siteType&quot;,&quot;value&quot;:&quot;responsive web&quot;},{&quot;name&quot;:&quot;trackingServer&quot;,&quot;value&quot;:&quot;saa.gamespot.com&quot;},{&quot;name&quot;:&quot;visitorNamespace&quot;,&quot;value&quot;:&quot;cbsinteractive&quot;},{&quot;name&quot;:&quot;heartbeatTrackingServer&quot;,&quot;value&quot;:&quot;newimagitasinc.hb.omtrdc.net&quot;},{&quot;name&quot;:&quot;heartbeatVisitorMarketingCloudOrgId&quot;,&quot;value&quot;:&quot;3C66570E5FE1A4AB0A495FFC@AdobeOrg&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;siteCode&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;brand&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;account&quot;,&quot;value&quot;:&quot;cbsigamespotsite&quot;},{&quot;name&quot;:&quot;edition&quot;,&quot;value&quot;:&quot;us&quot;}]},{&quot;name&quot;:&quot;ComScore_ss&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;c2&quot;,&quot;value&quot;:&quot;31824268&quot;},{&quot;name&quot;:&quot;publishersSecret&quot;,&quot;value&quot;:&quot;2cb08ca4d095dd734a374dff8422c2e5&quot;},{&quot;name&quot;:&quot;c3&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;c4&quot;,&quot;value&quot;:&quot;gamespot&quot;}]},{&quot;name&quot;:&quot;NielsenTracking&quot;,&quot;category&quot;:&quot;tracking&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;host&quot;,&quot;value&quot;:&quot;https:\/\/secure-us.imrworldwide.com\/cgi-bin\/m?&quot;},{&quot;name&quot;:&quot;scCI&quot;,&quot;value&quot;:&quot;us-200330&quot;},{&quot;name&quot;:&quot;scC6&quot;,&quot;value&quot;:&quot;vc,c01&quot;}]},{&quot;name&quot;:&quot;MuxQOSPluginJS&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;propertyKey&quot;,&quot;value&quot;:&quot;b7d6e48b7461a61cb6e863a62&quot;}]}],&quot;trackingAccount&quot;:&quot;cbsigamespotsite&quot;,&quot;trackingSiteCode&quot;:&quot;gs&quot;,&quot;trackingPrimaryId&quot;:&quot;cbsigamespotsite&quot;,&quot;videoAssetSource&quot;:&quot;GameSpot&quot;,&quot;uvpjsHostname&quot;:&quot;\/\/www.gamespot.com&quot;,&quot;siteType&quot;:&quot;responsive web&quot;,&quot;startMuted&quot;:false,&quot;screenMediumThumb&quot;:&quot;https:\/\/www.gamespot.com\/a\/uploads\/screen_medium\/1823\/18237460\/4570892-screenshot2025-09-18at3.27.50%E2%80%AFpm.png&quot;,&quot;videoStreams&quot;:{&quot;adaptive_stream&quot;:&quot;https:\/\/cdn.jwplayer.com\/manifests\/wMGpQ7Es.m3u8&quot;},&quot;userId&quot;:0,&quot;premium&quot;:false,&quot;datePublished&quot;:1758234240,&quot;videoAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;videoAdMobilePartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;}" data-non-iframe-embed="1" data-jw-context-name="gamespot" data-jw-media-id="wMGpQ7Es" data-jw-player-url="https://cdn.jwplayer.com/libraries/VXc5h4Tf.js" data-jw-video-token="" data-has-youtube="" data-youtube-icon-path="https://www.gamespot.com/a/bundles/phoenixsite/images/core/loose/icn-youtube-30x30.png" id="video-rectangle"><div><p>
+        Want us to remember this setting for all your devices?
+      </p><p><a href="https://www.gamespot.com/signup/">Sign up</a> or <a href="https://www.gamespot.com/login/">Sign in</a> now!
+      </p></div><p>
+      Please use a html5 video capable browser to watch videos.
+    </p><p>
+      This video has an invalid file format.
+    </p><p>Sorry, but you can't access this content!</p></div>
+          <p><em>Now Playing:</em> Assassin's Creed Shadows: Claws of Awaji Launch Trailer</p>
+      </div>
+<p>In an internal email to Ubisoft staff, Vantage Studios co-CEO Christophe Derennes expressed disappointment with Côté's decision, adding that Côté "had his own expectations and priorities related to Vantage Studios' creation and future."</p><p>Côté began his two-decade-long tenure at Ubisoft in 2005 as a software engineer, accumulating credits including Prince of Persia: The Forgotten Sands and several Assassin's Creed games.</p><p>He led the mission design for Assassin's Creed Brotherhood before acting as a game director for Assassin's Creed 3. Côté was also the creative director for Assassin's Creed Syndicate, and he led the development of Assassin's Creed Odyssey.</p><p>As the franchise's head, starting in 2022, Côté led the initiative to <a href="https://www.gamespot.com/articles/assassins-creed-infinity-gets-a-new-name/1100-6524281/" data-ref-id="1100-6524281">group future titles into the Animus Hub</a> for a more cohesive story experience. Assassin's Creed Shadows, which was released earlier this year, was the first game to be a part of this platform.</p><p>"We are deeply grateful for the impact Marc-Alexis has had over the years, particularly in shaping the Assassin’s Creed brand into what it is today," an Ubisoft spokesperson told IGN. "His leadership, creativity, and dedication have left a lasting mark on our teams and our players. We thank him sincerely for his many contributions and wish him continued success in all his future endeavors."</p><p>A recent leak suggests that the Assassin's Creed franchise will make its first foray to Nintendo Switch 2 with an Assassin's Creed Shadows port, <a href="https://www.gamespot.com/articles/assassins-creed-shadows-switch-2-release-date-reportedly-leaks/1100-6535405/" data-ref-id="1100-6535405">purportedly releasing in December</a>. In other franchise news, a report claimed that <a href="https://www.gamespot.com/articles/ubisoft-canceled-civil-war-based-assassins-creed-over-controversy-concerns-report/1100-6535320/" data-ref-id="1100-6535320">Ubisoft axed an American Civil War-set Assassin's Creed title</a> last year due to concerns involving the current political climate in the United States.</p>
+  
+                        
+    
+        
+        
+  
+                                  </div>
+
+
+          
+  
+    
+          
+            
+  <div>
+    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
+
+    
+      </div>
+        
+      </section>
+    
+            
+    </article></div><br/><br/>https://www.gamespot.com/articles/assassins-creed-boss-leaves-ubisoft-after-two-decades/1100-6535413/?ftag=CAD-01-10abi2f]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Testronic shuts down another studio, this time in Bucharest]]></title>
+            <link>https://www.gamedeveloper.com/business/testronic-shuts-down-another-studio-this-time-in-bucharest</link>
+            <guid>https://www.resetera.com/threads/testronic-shuts-down-another-studio-this-time-in-bucharest.1324666/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-module="content" data-testid="article-base-body-content"><p data-testid="content-paragraph"><span data-testid="content-text">Game service provider Testronic is shutting down yet another studio. The company confirmed in a statement to Game Developer that it's winding down operations at Testronic Bucharest and laying off an unknown number of employees.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">The closure is apparently driven by the company's need to "optimize, focus, and consolidate" Testronic's presence in Warsaw and London. It stated that the Bucharest office will work with existing clients to complete their projects, though some projects will "transition" to teams in other locations.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">"It will be provided to the highest possible quality standards, that we consistently deliver to our partners, from all our facilities, worldwide," Testronic concluded.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">A Testronic spokesperson told Game Developer that the company is implementing measures to "support impacted employees. These include job searching webinars, individual resume reviews from local human resources representatives, and individual written references for "all employees."</span></p><h2 data-testid="content-text" id="Some former Testronic employees have accused the company of &quot;sabotage&quot;">Some former Testronic employees have accused the company of "sabotage"</h2><p data-testid="content-paragraph"><span data-testid="content-text">While Testronic is one of many companies to lay off game industry workers in 2025, it's one of the few to face vocal backlash from former employees. </span><span data-testid="content-text"><a target="_self" href="https://www.gamedeveloper.com/business/-they-tried-to-choke-us-from-the-start-secret-6-madrid-workers-slam-owner-testronic-ahead-of-impending-closure">In July</a></span><span data-testid="content-text">, employees of Secret 6 (Testronic's Madrid-based subsidiary it acquired in 2022) claimed that the UK-based company deliberately slowed down client outreach and denied them any resources for securing new contracts. They told Game Developer that it appeared their new parent company was stifling incoming work in order to drive clients to its </span><span data-testid="content-text"><a target="_self" href="https://www.gamedeveloper.com/business/testronic-opens-qa-testing-facility-in-manila">new Manila-based subsidiary</a></span><span data-testid="content-text">—which is reportedly far cheaper to operate than its Spanish office.</span></p><p data-component="related-article"><span data-testid="related-article-title">Related:</span><a href="https://www.gamedeveloper.com/business/mindseye-devs-accuse-studio-leaders-of-mishandling-layoffs-and-mandating-crunch" target="_self" data-discover="true">'CEOs need to take a backseat:' MindsEye devs accuse studio execs of fumbling layoffs and mandating crunch</a></p><p data-testid="content-paragraph"><span data-testid="content-text">Then </span><span data-testid="content-text"><a target="_self" href="https://www.gamedeveloper.com/business/testronic-confirms-closure-of-madrid-and-belgrade-studios-affecting-4-point-8-percent-of-the-total-workforce">in September</a></span><span data-testid="content-text"> it announced the closure of its Belgrade-based studio while making plans to lay off 4.8 percent of all employees.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">This all followed another major slim-down for Testronic, which sold off </span><span data-testid="content-text"><span>Dungeons of Hinterberg</span></span><span data-testid="content-text"> publisher Curve Studios—as well as its in-house development studios—to Nazara Technologies earlier in May. Curve and Testronic were both subsidiaries of Catalis Group, though that name has now been retired, leaving Testronic as the company on top of the organization chart.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">That's a year of dramatic change for an external development resource provider. Unfortunately it's likely to be a traumatic change for the many workers now without jobs.</span></p></div><div><h2>About the Author</h2><div data-component="contributor-summary"><p data-testid="contributor-summary-subtitle">Senior Editor, GameDeveloper.com</p><div><p data-testid="content-paragraph"><span data-testid="content-text">Bryant Francis is a writer, journalist, and narrative designer based in Boston, MA. He currently writes for Game Developer, a leading B2B publication for the video game industry. His credits include Proxy Studios' upcoming 4X strategy game Zephon and Amplitude Studio's 2017 game Endless Space 2.</span></p></div></div></div></div><br/><br/>https://www.gamedeveloper.com/business/testronic-shuts-down-another-studio-this-time-in-bucharest]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Amanda the Adventurer 2 coming to PS5, Xbox Series, PS4, Xbox One, and Switch on October 16]]></title>
             <link>https://www.gematsu.com/2025/10/amanda-the-adventurer-2-coming-to-ps5-xbox-series-ps4-xbox-one-and-switch-on-october-16</link>
@@ -25,7 +331,7 @@
             <title><![CDATA[Pokémon Legends: Z-A is a fantastic return to (mega) form]]></title>
             <link>https://www.theverge.com/games/798848/pokemon-legends-za-review-nintendo-switch-2</link>
             <guid>https://www.resetera.com/threads/pok%C3%A9mon-legends-z-a-is-a-fantastic-return-to-mega-form.1324639/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="zephr-anchor"><p>After shaking up the Pokémon formula with <em>Pokémon Legends: Arceus</em>, its successor, <em>Legends: Z-A</em>, pushes things even further — and it’s a very welcome change of pace.</p><p>With <a href="https://www.theverge.com/22898939/pokemon-legends-arceus-review-nintendo-switch"><em>Arceus</em></a>, Nintendo and Game Freak demonstrated how much more vibrant, weird, and exciting the monster catching series could become with a few key changes to the classic formula. <em>Arceus</em>’ historical story and open-ish world made the <em>Pokémon</em> universe feel like a bigger, wilder place, just as the revamped battling and catching mechanics turned the familiar process of filling out your pokédex into a completely different kind of experience.</p><p>After years of the mainline <em>Pokémon </em>titles feeling like slight variations of one another, <em>Arceus </em>was a breath of air so invigorating that it was easy to imagine it becoming a new blueprint for the series. That initially seemed to be the plan with <a href="https://www.theverge.com/23462858/pokemon-violet-scarlet-review-nintendo-switch"><em>Pokémon Scarlet </em>/<em> Violet</em></a><em>.</em> But those truly open-world adventures were plagued by <a href="https://www.theverge.com/nintendo/679031/pokemon-violet-scarlet-switch-2-update-hands-on">innumerable technical issues</a>, and their uneven plotlines are best described as undercooked.</p><p>There was such a vast gap in quality between <em>Arceus </em>and <em>Scarlet </em>/ <em>Violet </em>that it was hard to tell where the franchise was going. But with its dramatically revamped battles and more immersive world, <em>Pokémon Legends: Z-A</em> (which I played on the Switch 2) is a fantastic return to form. And it’s one that feels like another example of how the <em>Legends</em> games’ experimental features could become the new standard as the series marches into the future.</p><p>Whereas <em>Arceus</em> transported you to the distant past when humans were first learning how to <a href="https://www.theverge.com/2022/5/18/23123756/pokemon-hisuian-snow-arceus">coexist with pokémon in the vast Hisui region</a>,<em> Z-A </em>picks up in the present shortly after the events of <a href="https://kotaku.com/pokemon-x-y-the-kotaku-review-1444323788"><em>Pokémon X </em>/ <em>Y</em></a> and takes place entirely in the Kalos region’s capital. Longtime residents of Lumiose City remember how their home was nearly destroyed by a nihilistic maniac hell-bent on wiping out humanity and pokémon alike in order to make the world a more “beautiful” place. But as a tourist visiting Lumiose — a walkable metropolis inspired by Paris — for the very first time, all your character really knows about the city is that it is <a href="https://www.theverge.com/2024/2/27/24083767/pokemon-legends-z-a-nintendo-switch-2025-launch-date">in the process of being built back stronger than ever</a>.</p><p>Overseen and financed by the Quasartico company, Lumiose’s ambitious redevelopment plan aims to turn the city into a place where humans and pokémon can live peacefully alongside one another. Lumiose is flush with newly built housing for people, and the city’s Wild Zones — sectioned-off areas filled with naturally occurring features — are spaces where wild pokémon can thrive. But as smoothly as the redevelopment plan has been going for the most part, there is also a growing concern about the rising number of dangerous Mega-Evolved pokémon that have begun appearing in Lumiose without explanation, and your character eventually joins a squad intent on solving that mystery.</p><p>Part of what made <em>Arceus </em>feel so pleasantly different from other <em>Pokémon </em>titles was the way it drastically reworked familiar gameplay elements as reflections of its historical setting. You could still battle wild pokémon and other trainers in turn-based matches, but the game also put a unique emphasis on stealthily catching monsters without needing to engage them in fights. Tonally, <em>Arceus </em>was also darker and more foreboding than previous <em>Pokémon </em>entries, which made sense for a game where untamed alpha pokémon would frequently try <a href="https://www.theverge.com/2021/10/21/22738353/new-pokemon-legends-arceus-trailer-hisuian-zorua-zoroark-nintendo-switch">to maul you on sight</a>.</p><p>Similarly,<em> Z-A </em>frames the Rogue Mega Evolution phenomenon as one of the major reasons why your character has to be cautious as they roam around Lumiose. But almost all of the pokémon you encounter in the Wild Zones (and a few other places) are capable of knocking your character out with just a few hits. Once again, you have the ability to sneak through tall grass and bushes to hurl pokéballs at unsuspecting pokémon. Stealth catching often works like a charm when it comes to the game’s lower-level monsters you meet early on, but when it comes to alphas, you usually have to send a partner into battle.</p><p><em>Z-A</em>’s wildly reworked battling mechanics are by far the biggest change. In place of the traditional turn-based system, fights now take place in real time with attacks being assigned to the Switch’s four face buttons and recharging on specific timers. At first, even simple battles can feel chaotic because of how many things there are to keep track of. You have to tell your pokémon which attacks to use, understand that attack’s range, and keep your human character moving in order to guide your monsters across the battlefield. If you use items from your satchel, you also have to be mindful of the cooldown timer before you can open the bag again.</p><p>The system took me a while to get used to because the mainline <em>Pokémon </em>games have always been about making measured, calculated moves. But once I got a feel for the way my Tepig could fire off an Ember attack and quickly follow it up with a Tackle, I could start to see how <em>Z-A </em>wants you to battle in a (slightly twitchy) kind of flow state.</p><p>Strategy is still important here — understanding your monster’s type advantages / disadvantages and its strongest stats can be the deciding factors in fights. But <em>Z-A </em>feels like a game that was designed with the idea of embracing the chaos that would result from groups of magical animals attacking each other with elemental superpowers. A well-timed Flame Wheel / Rollout one-two punch became a go-to combo once my Tepig became a Pignite. But there were more than a couple of instances where that aggressive approach to fighting stronger opponents left my Pignite in danger of getting hit before I could tell him to run out of the way.</p><p>Battling becomes even trickier once the game properly introduces Mega Evolution — a returning mechanic from the <em>X </em>/<em> Y </em>era that temporarily changes certain pokémon’s physical form and boosts their stats. In <em>X </em>/<em> Y</em>, you could only Mega Evolve one pokémon per battle, and the transformation would revert back if your chosen monster fainted before the match was completed. <em>Z-A </em>switches things up considerably by introducing a gauge that charges up with energy before you can trigger Mega Evolution by pressing the right joystick. As long as the gauge is full, you can Mega Evolve your pokémon (if they’re a species capable of doing it) as many times as you want, which is handy when you’re facing off against the Rogue Mega Evolved pokémon that function as some of <em>Z-A</em>’s boss battles.</p><p>The game eases you into its battles by making them a key part of how the story progresses. By day, Lumiose is a glamorous urban hub where people and their pokémon partners spend time relaxing at cafes, browsing museums, and shopping at boutiques. But at night, <a href="https://www.theverge.com/news/637256/pokemon-legends-z-a-trailer-day-night-cycle">random sections of the city are transformed into battle zones</a> where ambitious trainers participate in the Z-A Royale, a riff on the traditional gyms.</p><p>At the beginning of every night cycle, a Battle Zone lights up in red and becomes filled with trainers of various ranks who you have to defeat in order to collect a designated number of points. And once you’ve got enough points, you unlock a special, slightly more difficult battle that determines whether you move up a rank. In previous <em>Pokémon </em>games, it could be easy to blow through gym battles because of how leaders and their associated trainers all used the same types of monsters. But many of the Z-A Royale’s participants use more eclectic teams of pokémon, which requires more thinking on the fly. The Z-A Royale is also a fantastic showcase of what kinds of people live in Lumiose — there are socialites, waiters, and overworked delivery workers who all want a taste of glory.</p><p>Lumiose’s expansiveness feels like a big step forward after recent <em>Pokémon </em>games for the Switch. I spent hours wandering around listening to / reading people’s conversations, <a href="https://www.theverge.com/games/784264/pokemon-legends-z-a-hands-on-fashion-nintendo-switch-2">building an expansive wardrobe</a>, and appreciating the horn-heavy, accordion-accented smooth jazz soundtrack. The city could use a bit more visual detail, but it’s a substantial improvement; <em>Scarlet </em>/ <em>Violet</em>’s towns felt more like lifeless dioramas, and <em>Arceus </em>simply didn’t have all that many places where you could vibe for the hell of it.</p><p>There are also welcome quality-of-life tweaks. For instance, <em>Z-A </em>introduces a character whose entire job is to keep track of pokéballs that you’ve lost and return them to you. Little details like that feel like the game’s way of keeping resource gathering grind to a minimum so that you can focus on more interesting things. Other tweaks make your pokémon feel more like a partner. Rather than trees that you need the Cut move to get past, Lumiose is filled with rubble, tree stumps, and piles of sludge that you can only clear by summoning a pokémon and making it use moves that make sense. I got into the habit of using my Emboar’s Rock Smash to pulverize piles of cracked stones, but I was surprised to learn that the move wouldn’t work on stones located higher up off the ground just out of my monster’s reach.</p><p>Clever little details like that kept surprising me as I got deeper into <em>Z-A</em> and really began to feel a kind of immersion this series has never quite been able to achieve before. Dialogue is still written out in text rather than being voiced over, but when your character does a parkour move to climb up a building, you can hear them audibly exerting themselves. There is something very cool about seeing your pokémon conjure a wave just to wash away garbage or a lightning bolt to recharge a broken elevator. Meanwhile, the battles pull you from the sidelines and put you in the midst of the chaos.</p><p>Though <em>Z-A </em>and <em>Arceus </em>share a similar experimental energy, the new game is more polished and robust. <em>Z-A </em>is launching with <a href="https://legends.pokemon.com/en-us/news/z-a-battle-club">an online battling mode</a>, there has already been an <a href="https://www.theverge.com/pokemon/777169/pokemon-legends-za-mega-dimension-dlc-nmega-raichu">announcement about a DLC expansion</a>, and on the technical side <em>Z-A </em>feels much more like what you would expect from a flagship game meant to help usher in <a href="https://www.theverge.com/nintendo/686603/nintendo-switch-2-review">a new generation of hardware</a>.</p><p>While I enjoyed playing <em>Z-A </em>on the Switch 2, I can’t speak to how the game runs on the original Switch. That’s important <a href="https://www.theverge.com/nintendo/679031/pokemon-violet-scarlet-switch-2-update-hands-on">given how improved <em>Scarlet </em>/ <em>Violet </em>were from Nintendo’s previous hardware</a>, and that kind of performance gap here could be a deal-breaker for people who haven’t upgraded. But <em>Z-A </em>makes a strong showing as the Switch 2’s first major <em>Pokémon </em>debut, illustrating how this series is at its best when it gets experimental. And hopefully some of this good energy gets channeled into the next generation of <em>Pokémon </em>games.</p><p><em>Pokémon Legends: Z-A </em>releases for the Nintendo Switch and Switch 2 on October 16th.</p><div><p><span><strong>Follow topics and authors</strong> from this story to see more like this in your personalized homepage feed and to receive email updates.</span></p><ul><li id="follow-author-article_footer-dmcyOmF1dGhvclByb2ZpbGU6OTE="><span aria-expanded="false" aria-haspopup="true" role="button" tabindex="0"><span><span><svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Follow"><path d="M5 0H4V4H0V5H4V9H5V5H9V4H5V0Z"></path></svg></span><span>Charles Pulliam-Moore</span></span></span></li><li></li><li></li><li></li><li></li><li></li></ul></div></div></div><br/><br/>https://www.theverge.com/games/798848/pokemon-legends-za-review-nintendo-switch-2]]></content:encoded>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="zephr-anchor"><p>After shaking up the Pokémon formula with <em>Pokémon Legends: Arceus</em>, its successor, <em>Legends: Z-A</em>, pushes things even further — and it’s a very welcome change of pace.</p><p>With <a href="https://www.theverge.com/22898939/pokemon-legends-arceus-review-nintendo-switch"><em>Arceus</em></a>, Nintendo and Game Freak demonstrated how much more vibrant, weird, and exciting the monster catching series could become with a few key changes to the classic formula. <em>Arceus</em>’ historical story and open-ish world made the <em>Pokémon</em> universe feel like a bigger, wilder place, just as the revamped battling and catching mechanics turned the familiar process of filling out your pokédex into a completely different kind of experience.</p><p>After years of the mainline <em>Pokémon </em>titles feeling like slight variations of one another, <em>Arceus </em>was a breath of air so invigorating that it was easy to imagine it becoming a new blueprint for the series. That initially seemed to be the plan with <a href="https://www.theverge.com/23462858/pokemon-violet-scarlet-review-nintendo-switch"><em>Pokémon Scarlet </em>/<em> Violet</em></a><em>.</em> But those truly open-world adventures were plagued by <a href="https://www.theverge.com/nintendo/679031/pokemon-violet-scarlet-switch-2-update-hands-on">innumerable technical issues</a>, and their uneven plotlines are best described as undercooked.</p><p>There was such a vast gap in quality between <em>Arceus </em>and <em>Scarlet </em>/ <em>Violet </em>that it was hard to tell where the franchise was going. But with its dramatically revamped battles and more immersive world, <em>Pokémon Legends: Z-A</em> (which I played on the Switch 2) is a fantastic return to form. And it’s one that feels like another example of how the <em>Legends</em> games’ experimental features could become the new standard as the series marches into the future.</p><p>Whereas <em>Arceus</em> transported you to the distant past when humans were first learning how to <a href="https://www.theverge.com/2022/5/18/23123756/pokemon-hisuian-snow-arceus">coexist with pokémon in the vast Hisui region</a>,<em> Z-A </em>picks up in the present shortly after the events of <a href="https://kotaku.com/pokemon-x-y-the-kotaku-review-1444323788"><em>Pokémon X </em>/ <em>Y</em></a> and takes place entirely in the Kalos region’s capital. Longtime residents of Lumiose City remember how their home was nearly destroyed by a nihilistic maniac hell-bent on wiping out humanity and pokémon alike in order to make the world a more “beautiful” place. But as a tourist visiting Lumiose — a walkable metropolis inspired by Paris — for the very first time, all your character really knows about the city is that it is <a href="https://www.theverge.com/2024/2/27/24083767/pokemon-legends-z-a-nintendo-switch-2025-launch-date">in the process of being built back stronger than ever</a>.</p><p>Overseen and financed by the Quasartico company, Lumiose’s ambitious redevelopment plan aims to turn the city into a place where humans and pokémon can live peacefully alongside one another. Lumiose is flush with newly built housing for people, and the city’s Wild Zones — sectioned-off areas filled with naturally occurring features — are spaces where wild pokémon can thrive. But as smoothly as the redevelopment plan has been going for the most part, there is also a growing concern about the rising number of dangerous Mega-Evolved pokémon that have begun appearing in Lumiose without explanation, and your character eventually joins a squad intent on solving that mystery.</p><p>Part of what made <em>Arceus </em>feel so pleasantly different from other <em>Pokémon </em>titles was the way it drastically reworked familiar gameplay elements as reflections of its historical setting. You could still battle wild pokémon and other trainers in turn-based matches, but the game also put a unique emphasis on stealthily catching monsters without needing to engage them in fights. Tonally, <em>Arceus </em>was also darker and more foreboding than previous <em>Pokémon </em>entries, which made sense for a game where untamed alpha pokémon would frequently try <a href="https://www.theverge.com/2021/10/21/22738353/new-pokemon-legends-arceus-trailer-hisuian-zorua-zoroark-nintendo-switch">to maul you on sight</a>.</p><p>Similarly,<em> Z-A </em>frames the Rogue Mega Evolution phenomenon as one of the major reasons why your character has to be cautious as they roam around Lumiose. But almost all of the pokémon you encounter in the Wild Zones (and a few other places) are capable of knocking your character out with just a few hits. Once again, you have the ability to sneak through tall grass and bushes to hurl pokéballs at unsuspecting pokémon. Stealth catching often works like a charm when it comes to the game’s lower-level monsters you meet early on, but when it comes to alphas, you usually have to send a partner into battle.</p><p><em>Z-A</em>’s wildly reworked battling mechanics are by far the biggest change. In place of the traditional turn-based system, fights now take place in real time with attacks being assigned to the Switch’s four face buttons and recharging on specific timers. At first, even simple battles can feel chaotic because of how many things there are to keep track of. You have to tell your pokémon which attacks to use, understand that attack’s range, and keep your human character moving in order to guide your monsters across the battlefield. If you use items from your satchel, you also have to be mindful of the cooldown timer before you can open the bag again.</p><p>The system took me a while to get used to because the mainline <em>Pokémon </em>games have always been about making measured, calculated moves. But once I got a feel for the way my Tepig could fire off an Ember attack and quickly follow it up with a Tackle, I could start to see how <em>Z-A </em>wants you to battle in a (slightly twitchy) kind of flow state.</p><p>Strategy is still important here — understanding your monster’s type advantages / disadvantages and its strongest stats can be the deciding factors in fights. But <em>Z-A </em>feels like a game that was designed with the idea of embracing the chaos that would result from groups of magical animals attacking each other with elemental superpowers. A well-timed Flame Wheel / Rollout one-two punch became a go-to combo once my Tepig leveled up. But there were more than a couple of instances where that aggressive approach to fighting stronger opponents left my pig monster in danger of getting hit before I could tell him to run out of the way.</p><p>Battling becomes even trickier once the game properly introduces Mega Evolution — a returning mechanic from the <em>X </em>/<em> Y </em>era that temporarily changes certain pokémon’s physical form and boosts their stats. In <em>X </em>/<em> Y</em>, you could only Mega Evolve one pokémon per battle, and the transformation would revert back if your chosen monster fainted before the match was completed. <em>Z-A </em>switches things up considerably by introducing a gauge that charges up with energy before you can trigger Mega Evolution by pressing the right joystick. As long as the gauge is full, you can Mega Evolve your pokémon (if they’re a species capable of doing it) as many times as you want, which is handy when you’re facing off against the Rogue Mega Evolved pokémon that function as some of <em>Z-A</em>’s boss battles.</p><p>The game eases you into its battles by making them a key part of how the story progresses. By day, Lumiose is a glamorous urban hub where people and their pokémon partners spend time relaxing at cafes, browsing museums, and shopping at boutiques. But at night, <a href="https://www.theverge.com/news/637256/pokemon-legends-z-a-trailer-day-night-cycle">random sections of the city are transformed into battle zones</a> where ambitious trainers participate in the Z-A Royale, a riff on the traditional gyms.</p><p>At the beginning of every night cycle, a Battle Zone lights up in red and becomes filled with trainers of various ranks who you have to defeat in order to collect a designated number of points. And once you’ve got enough points, you unlock a special, slightly more difficult battle that determines whether you move up a rank. In previous <em>Pokémon </em>games, it could be easy to blow through gym battles because of how leaders and their associated trainers all used the same types of monsters. But many of the Z-A Royale’s participants use more eclectic teams of pokémon, which requires more thinking on the fly. The Z-A Royale is also a fantastic showcase of what kinds of people live in Lumiose — there are socialites, waiters, and overworked delivery workers who all want a taste of glory.</p><p>Lumiose’s expansiveness feels like a big step forward after recent <em>Pokémon </em>games for the Switch. I spent hours wandering around listening to / reading people’s conversations, <a href="https://www.theverge.com/games/784264/pokemon-legends-z-a-hands-on-fashion-nintendo-switch-2">building an expansive wardrobe</a>, and appreciating the horn-heavy, accordion-accented smooth jazz soundtrack. The city could use a bit more visual detail, but it’s a substantial improvement; <em>Scarlet </em>/ <em>Violet</em>’s towns felt more like lifeless dioramas, and <em>Arceus </em>simply didn’t have all that many places where you could vibe for the hell of it.</p><p>There are also welcome quality-of-life tweaks. For instance, <em>Z-A </em>introduces a character whose entire job is to keep track of pokéballs that you’ve lost and return them to you. Little details like that feel like the game’s way of keeping resource gathering grind to a minimum so that you can focus on more interesting things. Other tweaks make your pokémon feel more like a partner. Rather than trees that you need the Cut move to get past, Lumiose is filled with rubble, tree stumps, and piles of sludge that you can only clear by summoning a pokémon and making it use moves that make sense. I got into the habit of using my Emboar’s Rock Smash to pulverize piles of cracked stones, but I was surprised to learn that the move wouldn’t work on stones located higher up off the ground just out of my monster’s reach.</p><p>Clever little details like that kept surprising me as I got deeper into <em>Z-A</em> and really began to feel a kind of immersion this series has never quite been able to achieve before. Dialogue is still written out in text rather than being voiced over, but when your character does a parkour move to climb up a building, you can hear them audibly exerting themselves. There is something very cool about seeing your pokémon conjure a wave just to wash away garbage or a lightning bolt to recharge a broken elevator. Meanwhile, the battles pull you from the sidelines and put you in the midst of the chaos.</p><p>Though <em>Z-A </em>and <em>Arceus </em>share a similar experimental energy, the new game is more polished and robust. <em>Z-A </em>is launching with <a href="https://legends.pokemon.com/en-us/news/z-a-battle-club">an online battling mode</a>, there has already been an <a href="https://www.theverge.com/pokemon/777169/pokemon-legends-za-mega-dimension-dlc-nmega-raichu">announcement about a DLC expansion</a>, and on the technical side <em>Z-A </em>feels much more like what you would expect from a flagship game meant to help usher in <a href="https://www.theverge.com/nintendo/686603/nintendo-switch-2-review">a new generation of hardware</a>.</p><p>While I enjoyed playing <em>Z-A </em>on the Switch 2, I can’t speak to how the game runs on the original Switch. That’s important <a href="https://www.theverge.com/nintendo/679031/pokemon-violet-scarlet-switch-2-update-hands-on">given how improved <em>Scarlet </em>/ <em>Violet </em>were from Nintendo’s previous hardware</a>, and that kind of performance gap here could be a deal-breaker for people who haven’t upgraded. But <em>Z-A </em>makes a strong showing as the Switch 2’s first major <em>Pokémon </em>debut, illustrating how this series is at its best when it gets experimental. And hopefully some of this good energy gets channeled into the next generation of <em>Pokémon </em>games.</p><p><em>Pokémon Legends: Z-A </em>releases for the Nintendo Switch and Switch 2 on October 16th.</p><div><p><span><strong>Follow topics and authors</strong> from this story to see more like this in your personalized homepage feed and to receive email updates.</span></p><ul><li id="follow-author-article_footer-dmcyOmF1dGhvclByb2ZpbGU6OTE="><span aria-expanded="false" aria-haspopup="true" role="button" tabindex="0"><span><span><svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Follow"><path d="M5 0H4V4H0V5H4V9H5V5H9V4H5V0Z"></path></svg></span><span>Charles Pulliam-Moore</span></span></span></li><li></li><li></li><li></li><li></li><li></li></ul></div></div></div><br/><br/>https://www.theverge.com/games/798848/pokemon-legends-za-review-nintendo-switch-2]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Pokémon Legends: Z-A Review Round-Up: Great Combat, Lifeless City]]></title>
@@ -436,400 +742,6 @@
        
     <p>Joe has been writing for TechRaptor for several years, and in those years has learned a lot about the gaming industry and its foibles. He’s originally an… <a href="https://techraptor.net/author/joseph-allen">More about Joseph</a></p>
   </div></span></p></div></div><br/><br/>https://techraptor.net/gaming/news/pathologic-3-release-date]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[GEEKOM Ryzen 7 Gaming Mini PC Was Pricier Than a Mac Mini, Now It’s Cheaper and at Its Lowest Price Yet (32GB RAM, 1TB SSD)]]></title>
-            <link>https://kotaku.com/geekom-ryzen-7-mini-pc-was-pricier-than-a-mac-mini-now-its-cheaper-and-at-its-lowest-price-yet-32gb-ram-1tb-ssd-2000634644</link>
-            <guid>https://www.resetera.com/threads/geekom-ryzen-7-gaming-mini-pc-was-pricier-than-a-mac-mini-now-it%E2%80%99s-cheaper-and-at-its-lowest-price-yet-32gb-ram-1tb-ssd.1324528/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-              
-              <p>We’ve cruised on past Amazon’s Prime Big Deals Days. If you missed out on Amazon’s huge Fall savings event that stretched from October 7 to October 8, we have good news. You don’t have to wait for Black Friday to start saving some cash again. There are some great deals active right now across Amazon despite the Prime event having ended. <a href="https://shop.kotaku.com/go/4332/">Like right now, you can snag this mini PC for 33% off. The Geekom Mini PC AX8 Max has dropped down from $749 to just $499 for a limited time</a>. That discount ends up saving your a solid $250.</p>
-<p>Taking a peak at this mini PC’s specs, we’re looking at an AMD Ryzen 7 capable of up to 4.9GHz alongside an AMD Radeon 780M graphics card. It’s got 32GB of RAM and a 1TB M.2 2280 PCIe Gen4 NVMe SSD. If that’s not enough to store all your files, videos, and games, the SSD slot is expandable up to 4TB.</p>
-<p><a href="https://shop.kotaku.com/go/4332/" target="_self" rel="sponsored nofollow">See at Amazon</a></p>
-
-<p>This mini PC can run in three different modes depending on your needs in a given moment. Normal mode is just that. This default is balanced for versatile performance, great for when using office applications or video and photo editing software. Quiet mode can be set when you want to reduce power consumption and noise. Good for late night studying or light office work. Then we have performance mode. This pushes the hardware to its limits to optimize for AAA gaming.</p>
-<h2>Why Go Mini?</h2>
-<p>A mini PC offers a nice in between option for anyone who can’t decide between a laptop or tower PC. It’s compact in size as not to take up a ton of desk space. It can be a great option for anyone trying to keep a clear desk or optimize the space they’re working with. You don’t have to give up an entire shelf or your foot space under the desk for a solid piece of hardware.</p>
-
-
-
-<p>Mini PCs also work great as a secondary computer or multimedia player. Sure, most TVs manufactured today already come with smart features built-in and apps like Hulu or Netflix available to download, but there is still value in choosing a mini PC for your home theater over your TV’s factory UI. For one, they are a full-on Windows computer so they support a much wider array of video formats. This is great setting up a PLEX server or for playing videos you have locally that have been acquired by perfectly legal means.</p>
-<p>Similarly, a mini PC makes for an excellent retro gaming machine. ROMs for older gaming consoles need hardly any processing power and a mini PC can be set up to run them all, or at least, all of the ones you have acquired by perfectly legal means.</p>
-<p><a href="https://shop.kotaku.com/go/4332/" target="_self" rel="sponsored nofollow">See at Amazon</a></p>
-
-                          </div></div><br/><br/>https://kotaku.com/geekom-ryzen-7-mini-pc-was-pricier-than-a-mac-mini-now-its-cheaper-and-at-its-lowest-price-yet-32gb-ram-1tb-ssd-2000634644]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[It Only Took Pokémon TCG Pocket A Whole Year To Let Players Give Each Other Cards]]></title>
-            <link>https://kotaku.com/it-only-took-pokemon-tcg-pocket-a-whole-year-to-let-players-give-each-other-cards-2000635338</link>
-            <guid>https://www.resetera.com/threads/it-only-took-pok%C3%A9mon-tcg-pocket-a-whole-year-to-let-players-give-each-other-cards.1324525/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p id="featured-image">
-                              <figure id="attachment_featured" aria-describedby="featured-caption">
-                                                                          <figcaption id="featured-caption">
-                    <span>A screengrab of the video explaining sharing.</span> © The Pokémon Company / Kotaku
-                  </figcaption>
-                </figure>
-                                                      </p><div>
-              
-              <p><em>Pokémon TCG Pocket</em> will reach its first birthday at the end of October, giving cause for everyone to look back at the last year and wonder at how it <em><a href="https://kotaku.com/pokemon-tcg-pocket-trading-update-shinedust-trade-token-1851786369">still</a></em><a href="https://kotaku.com/pokemon-tcg-pocket-trading-update-shinedust-trade-token-1851786369"> hasn’t managed to figure out a workable version of trading</a>. However, with an update due to arrive in time for the anniversary, there are about to be some slight improvements to trades, as well as a new ability to give away spare cards to your friends.</p> <p>Of course, this being&nbsp;<em>Pokémon TCG Pocket</em>, it can’t just be a nice simple feature that lets you toss a bunch of dupes to your buddy who’s trying to fill in gaps in their collection. Come the new update, you’ll be allowed to receive one card a day, and only up to 4-diamond rarity (as in, no better than a basic ex). Woooooo. We can hand each other our bulk in the slowest way possible. Bizarrely, this new feature is being called “Share,” although there’s no sharing involved: You don’t get to keep the card after you hand it over—it’s what we humans call “giving.”</p>
-
- <p>Slightly better is an improvement to the <a href="https://kotaku.com/pokemon-tcg-pocket-trading-tokens-broken-feature-1851753735">continuously dreadful trading in&nbsp;<em>Pocket</em></a>. So determined is The Pokémon Company that no third-party money should be able to change hands when organizing trading that it’s ensured it’s all wildly slow and frustrating to use, and until now has only been available for low-rarity cards. The best you can trade right now are the 1-star cards, or what the real-world sets would call Illustration Rares. But after the next update, trading will include 2-star cards (Special Illustration Rares), and 1- and 2-shiny star cards (Shiny Pokémon). Sadly, 3-star cards (the animated Immersive cards) and crown-marked cards (Golds) still won’t be available to trade, and neither will the damn Promos.</p>
-
-  <p>A couple of other tweaks are coming. Wonder Picks will now start to deliberately include cards that are missing from your collection (although they’ll still make you beg, with a one-in-five chance of actually getting the card you want). It’s also going to slightly simplify Flair, by which you add special twinkly effects to your cards, and no longer require you to spend shinedust to apply them—given shinedust is now required for trading, that surely ensured no one was ever bothering with Flair anymore, likely prompting the change.</p>
-
- <p>And that’s it. It’s a pretty paltry range of improvements for a game that <a href="https://kotaku.com/pokemon-tcg-pocket-premium-pass-ui-features-1851705873">still hasn’t addressed some of its most egregious faults almost a year later</a>. Of the 10 issues I listed last year as being most in need of fixing, a somewhat demoralizing 10 of them remain exactly the same. Instead, with the botched addition of trading, the list of issues has only grown far longer.</p>
-
- <p>For what it’s worth, the best solution for trading I’ve found so far is a mobile app called <a href="https://play.google.com/store/apps/details?id=com.mi.poketrade">PokeHub</a>. It lets you create shareable lists of cards you’re after, and look through others, arranging trades and sharing in-game details with strangers. And it works really well—while you’re still stuck with&nbsp;<em>Pocket</em>‘s abysmal one-trade-at-a-time system, people on the app want super-fast exchanges, so you can swap out a bunch of cards at a fair pace. And no, no money changes hands at all.</p> <p>It would remain far better if&nbsp;<em>Pokémon TCG Pocket</em> just implemented a similar system itself, given it would keep players within its walls and doesn’t involve any elements that would be frowned upon by the developers. It’s bewildering that it hasn’t already happened, and speaks to a situation in which TPCi seems more scared of <em>Pocket</em> than proud of it. It’s certainly bringing in enough cash to fund any improvements/castles they could wish for, but instead everything is so tentative and cautionary, and ultimately reeks of <a href="https://kotaku.com/pokemon-tcg-pocket-gacha-loot-box-gambling-1851690838">gacha greed</a> instead of player happiness.</p>
-                          </div></div><br/><br/>https://kotaku.com/it-only-took-pokemon-tcg-pocket-a-whole-year-to-let-players-give-each-other-cards-2000635338]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[All New Pokémon Games Release Roadmap: Every Confirmed & Leaked Game]]></title>
-            <link>https://insider-gaming.com/all-new-pokemon-games-release-roadmap-every-confirmed-leaked-game/</link>
-            <guid>https://www.resetera.com/threads/all-new-pok%C3%A9mon-games-release-roadmap-every-confirmed-leaked-game.1324522/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-        
-<p>Pokémon content is ramping up ahead of the huge 30th anniversary of the franchise next year, with new titles and spin-off games announced, along with a host of leaked content that creates a huge roadmap.</p>
-
-
-
-<p>Huge leaks in the Pokémon community are nothing new, but the latest batch has seemingly outlined the next half a decade for fans, covering big secrets all the way up until the 11th Generation.</p>
-
-
-
-<p>We’ve got a detailed breakdown of all the confirmed Pokémon titles set to release on the horizon, followed by the content said to be in the works, with a full roadmap.</p>
-
-
-
-<h2 id="h-every-confirmed-pokemon-game-amp-dlc-in-roadmap">Every Confirmed Pokémon Game &amp; DLC in Roadmap</h2>
-
-
-
-<figure><figcaption>More to come. Image via The Pokemon Company</figcaption></figure>
-
-
-
-
-
-
-
-<p>Already confirmed and available to pre-order, Mega Dimension is post-game DLC for Pokémon Legends: Z-A, with Hoopa playing an integral role. From the few reveals we’ve had so far, we know that we’re getting <a href="https://insider-gaming.com/pokemon-legends-z-a-mega-dimension-dlc-announced-featuring-two-mega-raichus/" target="_blank" rel="noreferrer noopener">two forms of Mega Raichu</a> in the first step of Pokémon the roadmap.</p>
-
-
-
-<p>The release window for Mega Dimension has not been announced yet, but it’s likely to either come before the end of 2025 or early in 2026, with other big releases lined up for later in the year.</p>
-
-
-
-<h3 id="h-pokopia">Pokopia</h3>
-
-
-
-<p>Pokopia is the first confirmed Pokémon title for 2026, with the new spin-off title putting players in control of a Ditto that has assumed a human form. This farm-life sim is a new venture for the franchise, with big comparisons to Animal Crossing.</p>
-
-
-
-<p>A release window has not been revealed for Pokopia, though we’ll likely hear confirmation at the big 30th anniversary Pokémon Day, with Pokopia taking a slot earlier in the year before the expected release of Gen 10 in the latter half (more on that later).</p>
-
-
-
-<h3 id="h-pokemon-champions">Pokémon Champions</h3>
-
-
-
-<p>Pokémon Champions is set to make a big change to the competitive scene of the franchise, which, moving forward, will not be played on the latest instalment of games and instead come in the free-to-play title.</p>
-
-
-
-<p>Again, a release window has not been confirmed for Pokémon Champions, but the Pokémon World Championships 2026 VGC section will be played on the title, so it will need to launch early enough in the year for players to get used to it and for any issues to be ironed out.</p>
-
-
-
-<h2 id="h-all-leaked-pokemon-games-amp-dlc-in-roadmap">All Leaked Pokémon Games &amp; DLC in Roadmap</h2>
-
-
-
-<figure><figcaption>A big twist. Image via Nintendo</figcaption></figure>
-
-
-
-<h3 id="h-pokopia-dlc">Pokopia DLC</h3>
-
-
-
-<p>In the latest round of huge leaks for the franchise, DLC for Pokopia <a href="https://x.com/CentroLeaks/status/1977791170093687087" target="_blank" rel="noreferrer noopener nofollow">was mentioned</a>. No details have been shared on this, nor do we know the release window, but it seems likely that any Pokopia DLC will land before the launch of Gen 10.</p>
-
-
-
-<p>Pokopia DLC looks set to be the first big piece of leaked content on the Pokémon roadmap, though there is plenty more to come.</p>
-
-
-
-<h3 id="h-pokemon-wind-amp-waves-gen-10">Pokémon Wind &amp; Waves: Gen 10</h3>
-
-
-
-<p>Gen 10 in 2026 is all but guaranteed, with Pokémon celebrating a 30th anniversary next year, though it’s still yet to be fully revealed. Similarly to specific release dates for announced titles, expect news to come in February’s birthday bonanza.</p>
-
-
-
-<p><a href="https://insider-gaming.com/pokemon-wind-waves-gen-10-leaks/" target="_blank" rel="noreferrer noopener">Huge leaks have emerged</a> though, detailing everything from the game’s location to new mechanics, along with big new features that will be elaborated on in future generations of the game. Though a release window is uncertain, expect it to land at the back end of 2026.</p>
-
-
-
-<h3 id="h-pokemon-wind-amp-waves-dlc">Pokémon Wind &amp; Waves DLC</h3>
-
-
-
-<p>Pokémon has moved away from the previous model of enhanced games or third titles in a generation with extra content to a DLC approach, witnessed in Sword and Shield, then replicated in Scarlet and Violet, and, of course, there’s the Mega Dimension DLC for Legends: Z-A.</p>
-
-
-
-<p>In Gen 9, the first part of DLC came almost a year after the launch, with the second part a few months later. It remains to be seen whether a similar approach will be taken in Gen 10, or whether the DLCs will be spaced out more. Expect these to come in 2027.</p>
-
-
-
-
-
-
-
-<p>Reportedly scheduled for either 2027 or 2028, per the leaks, the third game in the Pokémon Legends series will see players return to Galar, the Gen 8 region, travelling 1,000 years in the past. This would be the second major time-reverse in the Legends series, following on from Legends: Arceus.</p>
-
-
-
-<p>Again, the release window isn’t set in stone, though it likely depends on where other titles land. The original Legends game released in the first-quarter of the year, while Legends: Z-A releases in Q4. The big difference, however, is Arceus arrived the same year as Scarlet &amp; Violet.</p>
-
-
-
-<h3 id="h-pokemon-seed-multi-region-mmo">Pokémon Seed: Multi-Region MMO</h3>
-
-
-
-<p>With a reported 2028 or 2029 release window, Pokémon’s big MMO project, said to be internally codenamed as Seed, could be the biggest advancement of the franchise yet by connecting various regions of the Pokémon world together and encorporating MMO themes—which are initially said to be introduced in Gen 10.</p>
-
-
-
-<p>The huge connected region is said to incorporate all of the Pokémon regions set in Japan, which are Kanto, Johto, Hoenn, and Sinnoh, alongside Kitakami, which featured in Scarlet &amp; Violet DLC.</p>
-
-
-
-<p>A similar approach could then be taken for the European-based regions of Galar, Kalos, and Paldea, though that’s just a theory for now.</p>
-
-
-
-<h3 id="h-pokemon-gen-11">Pokémon Gen 11</h3>
-
-
-
-<p>Said to be arriving in 2030, which would fit perfectly into the four-year cycle Pokémon has settled into in the modern era between generations, Pokémon Gen 11 is the next big step for the franchise—and it doesn’t seem that far away.</p>
-
-
-
-<p>At this early stage, no major details are known about what Gen 11 of the Pokémon franchise could entail, particularly given the huge advancements that are seemingly being planned for the years to come.</p>
-
-
-
-<hr>
-
-
-
-<p>Which Pokémon title are you most excited to get your hands on? Let us know in the <a href="https://insider-gaming.com/forum" target="_blank" rel="noreferrer noopener">Insider Gaming forum</a>.</p>
-
-
-
-<p>For more Pokémon, take a look at the <a href="https://insider-gaming.com/pokemon-legends-z-a-season-1-ranked-release-date-times-rewards/" target="_blank" rel="noreferrer noopener">schedule for Legends: Z-A Season 1</a>, and check out <a href="https://insider-gaming.com/lego-pokemon-prices-have-possibly-leaked/" target="_blank" rel="noreferrer noopener">leaks surrounding the upcoming LEGO sets</a>.</p>
-    <div id="ig-newsletter-holder">
-            <p><span>
-                    SUBSCRIBE to our newsletter to receive the latest news and exclusive leaks every week! No Spam.
-                </span>
-            </p>
-            
-        </div>
-
-    </div></div><br/><br/>https://insider-gaming.com/all-new-pokemon-games-release-roadmap-every-confirmed-leaked-game/]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Borderlands 4 Dev Gearbox Says "We Suck," And Here's Why]]></title>
-            <link>https://www.gamespot.com/articles/borderlands-4-dev-gearbox-says-we-suck-and-heres-why/1100-6535409/?ftag=CAD-01-10abi2f</link>
-            <guid>https://www.resetera.com/threads/borderlands-4-dev-gearbox-says-we-suck-and-heres-why.1324519/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p>
-    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
-  </p><article itemscope="" data-type-id="1100" data-guid="1100-6535409">
-
-            
-            
-  
-
-
-        
-
-  
-
-
-        
-        
-              <section>
-
-                  
-          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
-                <p>Gearbox Software CEO Randy Pitchford has declared, "We suck" following the launch of the studio's latest game, <a href="https://www.gamespot.com/reviews/borderlands-4-review-too-much-of-an-overcorrection/1900-6418405/" data-ref-id="1900-6418405">Borderlands 4</a>. Why does he believe that? In an interview with <a href="https://www.bbc.com/audio/play/p0m7sd7y" data-target="true" target="_blank" rel="noopener nofollow">BBC Radio 5 Live</a>, Pitchford said Gearbox's mission is "to entertain the world," and the company is only currently reaching a small piece of the pie.</p><p>"There are billions of people in the world. We got a lot of work to do. We're gonna cross probably <a href="https://www.gamespot.com/articles/borderlands-4-will-push-franchise-beyond-100-million-sales-gearbox-ceo-says/1100-6534199/" data-ref-id="1100-6534199">100 million units sold</a>, with Borderlands 4, of the franchise. That's awesome compared to a lot of things. But it kinda sucks if your goal is to entertain the world. So I feel like we're just getting started," he said, <a href="https://www.ign.com/articles/borderlands-4-chief-randy-pitchford-says-if-more-developers-better-understood-why-gamers-love-making-decisions-about-loot-wed-have-good-competitors" data-target="true" target="_blank" rel="noopener nofollow">as reported by IGN.</a></p><p>Pitchford said that now, in 2025, Gearbox is finally "starting to get pretty good" at making Borderlands games after nearly 20 years. "It feels like we're starting to figure it out. I feel like we've probed a lot of the end points. But I don't think we're anywhere near the end of a journey," he said.</p><p>The latest data reveals that more than <a href="https://www.gamespot.com/articles/borderlands-4-will-push-franchise-beyond-100-million-sales-gearbox-ceo-says/1100-6534199/" data-ref-id="1100-6534199">94 million copies of Borderlands games have been sold</a>, so Borderlands 4 would have to hit 6 million to push the franchise past 100 million.</p><p>Borderlands 3 sold more than 23 million copies and is 2K's fastest-selling game ever. The top-selling game of all time for 2K is Borderlands 2, which has achieved sales of more than 30 million units. No sales data for Borderlands 4 has been announced as of yet.</p><p>Also in the BBC interview, Pitchford said other studios in the looter-shooter space have failed to compete with Borderlands on a level that he expected them to by this point.</p><p>"If other game designers that were trying to get in on the action, so to speak, understood that, we'd have more competitors, or we'd have good competitors," he said. "But we haven't so far. It's weird. The kinds of people that just want to go after it, they're not thinking about it on that level. They're just putting into motion something because of market analysis. It's not a designer's or creator's drive that's doing it. It's either a business drive or a wishing to be something that you're not kind of drive."</p><p>Pitchford said he "fully expected" after the original Borderlands came out in 2009 that "everyone would be hip to" jumping into the looter-shooter market and that there would be "lots of other games imitating and aping." But, in Pitchford's eyes, this didn't come to bear on the level he imagined.</p><p>There have indeed been many other looter-shooter games that have come to market after Borderlands, including Destiny and The Division, and each has left their own stamp on the market.</p><p>Pitchford is known for making eye-catching comments. Before this, he said <a href="https://www.gamespot.com/articles/real-fans-will-find-a-wake-to-make-it-happen-if-borderlands-4-costs-80-says-pitchford/1100-6531677/" data-ref-id="1100-6531677">"real fans" would find a way to buy Borderlands 4 if it were priced at $80</a> (which it was not). After Borderlands 4 launched, Pitchford mixed it up with fans about the game's technical issues, saying people were <a href="https://www.gamespot.com/articles/randy-pitchford-remains-defiant-about-borderlands-4-pc-issues/1100-6534798/" data-ref-id="1100-6534798">being "4K stubborn"</a> and that they <a href="https://www.gamespot.com/articles/borderlands-4-boss-calls-people-4k-stubborn-disputes-reports-of-performance-issues/1100-6534746/" data-ref-id="1100-6534746">should get a refund if they're not happy.</a></p>
-  
-                        
-    
-        
-        
-  
-                                  </div>
-
-
-          
-  
-    
-          
-            
-  <div>
-    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
-
-    
-      </div>
-        
-      </section>
-    
-            
-    </article></div><br/><br/>https://www.gamespot.com/articles/borderlands-4-dev-gearbox-says-we-suck-and-heres-why/1100-6535409/?ftag=CAD-01-10abi2f]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Helldivers 2's Latest Update Had Too Many Issues, Developer Admits]]></title>
-            <link>https://www.gamespot.com/articles/helldivers-2s-latest-update-had-too-many-issues-developer-admits/1100-6535407/?ftag=CAD-01-10abi2f</link>
-            <guid>https://www.resetera.com/threads/helldivers-2s-latest-update-had-too-many-issues-developer-admits.1324513/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p>
-    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
-  </p><article itemscope="" data-type-id="1100" data-guid="1100-6535407">
-
-            
-            
-  
-
-
-        
-
-  
-
-
-        
-        
-              <section>
-
-                  
-          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
-                <p>The last big content drop for Helldivers 2 added new toys to play with and sandboxes to wreak havoc in, but with persistent player grievances about poor performance, studio Arrowhead is delaying future content updates to tackle these issues.</p><p>Speaking in a video interview for the Helldivers 2 YouTube channel, game director Mikael Eriksson admitted that after the <a href="https://www.gamespot.com/articles/helldivers-2-major-update-introduces-new-hive-world-levels-and-fixes-the-halo-odst-gun-bug/1100-6534405/" data-ref-id="1100-6534405">Into the Unjust update</a> in September, which added terrifying new enemies and labyrinthian cave systems, the game experienced "more issues than [the studio] were comfortable with."</p><p>Eriksson said that feedback from players was "very justified," and that the team was taking the issues seriously "to make sure this sort of thing doesn't happen again."</p><p>"We have made the decision to push some of our content and feature updates a little bit into the future while we're addressing these things to make sure that we can get to a much more stable state that we can believe in," Eriksson announced.</p><p data-embed-type="video" data-src="https://www.youtube.com/watch?v=fVYKgOunbsA" data-width="100%" data-height="100%">          <iframe src="https://www.youtube-nocookie.com/embed/fVYKgOunbsA" height="100%" width="100%" scrolling="no" frameborder="" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></p><p>Some of the pain points Helldivers 2 faces can be addressed "fairly quickly," Eriksson said, particularly some of the game's prevalent technical bugs. Improving frame rates on consoles will be a trickier affair, Eriksson admitted, who noted that the studio's "top brains" were working on it.</p><p>Arrowhead has already made "big improvements," a confident Eriksson claimed, and the studio will talk more in depth about these improvements "hopefully quite soon."</p><p>In late September, Arrowhead promised <a href="https://www.gamespot.com/articles/helldivers-2-update-planned-for-october-with-bigger-performance-pieces-needing-more-time/1100-6534979/" data-ref-id="1100-6534979">performance-related fixes in "mid-October-ish,"</a> but the studio was working on a "bigger development plan" for the larger issues the game was facing, which included game crashes, audio bugs, and stability hiccups. Eriksson's announcement appears to be part of that plan, but it remains to be seen what concrete fixes the studio will deploy and when.</p><p>The gargantuan install size of Helldivers 2 on PC is also a big topic of discussion, with <a href="https://www.gamespot.com/articles/helldivers-2-dev-explains-why-the-game-takes-up-so-much-space-on-pc/1100-6535217/" data-ref-id="1100-6535217">Arrowhead providing an explanation</a> on why the game takes up so much space and laying out potential solutions. The game also recently <a href="https://www.gamespot.com/articles/playstation-xbox-trade-exclusives-today-with-helldivers-on-xbox-and-gears-on-ps5/1100-6534266/" data-ref-id="1100-6534266">came to Xbox Series X|S</a> after previously launching only on PC and PS5.</p>
-  
-                        
-    
-        
-        
-  
-                                  </div>
-
-
-          
-  
-    
-          
-            
-  <div>
-    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
-
-    
-      </div>
-        
-      </section>
-    
-            
-    </article></div><br/><br/>https://www.gamespot.com/articles/helldivers-2s-latest-update-had-too-many-issues-developer-admits/1100-6535407/?ftag=CAD-01-10abi2f]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[The Killing Stone Is A Folk Horror Board Game Where Everything Is Story]]></title>
-            <link>https://aftermath.site/killing-stone-demo</link>
-            <guid>https://www.resetera.com/threads/the-killing-stone-is-a-folk-horror-board-game-where-everything-is-story.1324507/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><p>I had a brief but intense <em>Gwent</em> phase, playing <em>The Witcher 3’s </em>monster-based card game a whole lot but pretty badly. <em>The Killing Stone</em> reminds me a bit of <em>Gwent</em>&nbsp;in that there are cards and monsters and after I make my play I watch the enemy’s monsters wallop me while I yell “wait, no!” helplessly at my screen, but it stands out with a wonderfully physical board game feel and a narrative that infuses its design.</p><p><a href="https://store.steampowered.com/app/2781470/The_Killing_Stone/" target="_blank" rel="noreferrer noopener"><em>The Killing Stone</em></a>, which has a demo out now as part of Steam Next Fest, puts you in a contest against the devil for the souls of your deceased mentor and her family. There’s a narrative that you play in between matches of its in-game game, in which you walk around a dark 17th century mansion and choose among dialogue options that can be rendered in either modern or period English. The game-within-the-game takes place on a table and paper map, where you play cards to deploy tiny figures of monsters, and try to destroy your enemy’s “eye”–basically their main health pool–before they can destroy yours.</p><div><figure><p><iframe title="The Killing Stone - Official Announcement Trailer" width="710" height="399" src="https://www.youtube.com/embed/-DyiW7B7jZc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p></figure></div><p>Everything in the game is wonderfully physical: pens scratch and figurines rattle, and the sound design comes really close to making you feel like you’re actually touching the objects on the board. You have a limited amount of action points and space to play your various creatures in a row. Some of them are just monsters who do damage, while others have special abilities. I became very fond of the Sacrificial Lamb, a weak sheep I’d basically set up to die to trigger its ability to give me extra action points, and the Immolator, which can be placed on the enemy’s side of the board to damage them as it moves along. Your pieces also have a Reserve slot above the board you can place a piece or power into; these can buff that piece or deploy when that piece is destroyed to give you additional effects. The order you play your monsters and reserves in matters, as they can affect each other, and they also stand as a physical buffer between the enemies and your eye. The best plays are those that strategically arrange your pieces to do multiple things at once, taking care of troublesome enemies while also chaining effects or setting you up for the next turn.</p><figure><figcaption>Aftermath</figcaption></figure><p>On top of these battles is a sort of meta game, which you progress through by picking a path along a paper map. There’s a lot there: there are healing rooms and a place to swap out decks; “familiar” characters like a raven and a dog give you run-long benefits; and you can use chits to “wager” on buffs and against your opponent’s buffs. I liked the way this stuff was dressed up in the whole game’s narrative of deals and bargains with nefarious creatures, though the jargon did sometimes overwhelm me a bit. I definitely didn’t come close to mastering any of it in my time with the demo, but it hints at the ability to really craft your run once you have.&nbsp;</p><figure><figcaption>The wager system (Question)</figcaption></figure><p>My favorite parts of <em>The Killing Stone</em> are how physical everything is, and how strong the game’s world and vibe are. I might be dreadful at the wagering for boons and buffs, but I love how the chits fall with a rattle, and how the system plays with hidden information in a similar manner to an actual game round. I lost continuously to the demo’s first nemesis, but I couldn’t get enough of its evocative design and the metallic clinking of its erector set face.</p><figure><figcaption>Look at this guy! (Aftermath)</figcaption></figure><p>There is a lot going on in <em>The Killing Stone</em>, with its various narratives and multiple mechanics, but they all tie together in a way that feels consistent. <em>Gwent</em> was always “people in this world like to play cards,” but <em>The Killing Stone</em>’s game is a piece of the full game’s narrative as much as a game and story of its own. I’m excited to spend more time with the demo and learn to overcome my fatal instinct in games like this to just click things that look exciting instead of really thinking it all through. Steam Next Fest runs through October 20.</p></div><div><h2>Stay in touch</h2><p>Sign up for our free newsletter</p></div><div><h2><span>More from Aftermath</span></h2><div><div><a tabindex="0" href="https://aftermath.site/aftermath-party-wooooooo"><h3>We’re Throwing A Party, And You’re Invited</h3></a><p>Celebrate our two-year anniversary with us!</p></div><div><a tabindex="0" href="https://aftermath.site/aftermath-hours-podcast-assassins-creed-reconstruction-ubisoft"><h3>Everything Is Assassin’s Creed</h3></a><p>"You can look at 15-ish games at this point and watch, nearly yearly, the progression toward the world we live in today"</p></div><div><a tabindex="0" href="https://aftermath.site/100-meters-gkids-anime-movie-review"><h3>100 Meters Is A Soulful Gem About The Poetry Of Running</h3></a><p>Studio Rock’N Roll Mountain’s rotoscope take on Uoto’s track manga unearths raw truths and soulful cadence with every thunderous footfall</p></div></div><a tabindex="0" href="https://aftermath.site/all">See all posts<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13m-6-7 7 7-7 7"></path></svg></a></div></div><br/><br/>https://aftermath.site/killing-stone-demo]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Round Up: The Reviews Are In For Pokémon Legends: Z-A]]></title>
-            <link>https://www.nintendolife.com/news/2025/10/round-up-the-reviews-are-in-for-pokemon-legends-z-a</link>
-            <guid>https://www.resetera.com/threads/round-up-the-reviews-are-in-for-pok%C3%A9mon-legends-z-a.1324495/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><section>
-<figure data-uuid="0eea4def6cf17"><a title="Pokémon Legends: Z-A" href="https://images.nintendolife.com/0eea4def6cf17/pokemon-legends-z-a.large.jpg"></a><figcaption><em>Image: The Pokémon Company</em></figcaption></figure><p>We finally did it, Trainers! <a href="https://www.nintendolife.com/games/nintendo-switch-2/pokemon-legends-z-a-nintendo-switch-2-edition">Pokémon Legends: Z-A</a> launch week is upon us and, with just two days to go, reviews have started rolling in.</p>
-<p>Here at Nintendo Life, we had a perfectly pleasant time with TPC's latest. Our very own Ace Trainer Alana awarded it a 7/10 in <a href="https://www.nintendolife.com/reviews/nintendo-switch-2/pokemon-legends-z-a-nintendo-switch-2-edition">our review</a>, calling the new real-time combat mechanics "the best Pokémon battles have ever felt", but struggling with the whole set up of Lumiose City. Here's a snippet:</p>
-<blockquote>
-<p>Pokémon Legends: Z-A should be celebrated for its fabulous real-time combat and its largely smooth jump to the Switch 2, but in condensing things down to one single location, it loses part of the Pokémon magic that Arceus and many other entries managed to amplify.</p></blockquote><div><figure data-videoid="vf32irwF2Do" data-start="0" data-src="https://www.youtube.com/embed/vf32irwF2Do?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><div><iframe title="YouTube Video" src="javascript:''" data-src-fallback="https://www.youtube-nocookie.com/embed/vf32irwF2Do?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/vf32irwF2Do?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" type="text/html" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed5f76a2vljgqx&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><p>Subscribe to <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1">Nintendo Life</a> on <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1"><span>YouTube</span><span>836k</span></a></p>
-</div></figure></div><blockquote>
-</blockquote>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:192371 @ 1760461247 -->
-<p>And yet, we are not the only outlet which has been getting reacquainted with Kalos; oh no! Reviews are rolling in across the board and there's actually a pretty wide range of opinions.</p>
-<p>We've assembled the following round up to give you an idea of the critical consensus, picking out all the different view points so you can get a snapshot image of the overall reception. We should also point out that <em>all of the following are for the Switch 2 version only</em>.</p>
-<p>We'll kick things off right at the top of the spectrum, with <a href="https://www.videogameschronicle.com/review/pokemon-legends-z-a-review/">VGC</a>'s 5/5 review billing Legends: Z-A "the best Pokémon game in many years":</p>
-<blockquote>
-<p>In many areas, it feels like a massive departure for the series, with its new battle system and Z-A Royale structure, in particular, paying off, and once again proving that the Legends series is home to the most interesting ideas <a href="https://www.videogameschronicle.com/companies/game-freak/" title="Companies > Game Freak [345 articles]">Game Freak</a> has.</p>
-</blockquote>
-<p><a href="https://www.techradar.com/gaming/nintendo-switch/pokemon-legends-z-a-review">TechRadar Gaming</a> went ever so slightly lower in its 4.5/5 review, praising the how the game reinvigorates the classic formula, and packs in a cracking story and soundtrack to boot:</p>
-<blockquote>
-<p>It finds a way to simultaneously mix things up while gripping perfectly to a few core Pokémon pillars such that the end result can feel very different yet very recognisable all at once.</p>
-</blockquote>
-<p>Opting for a 4/5, <a href="https://www.gamesradar.com/games/pokemon/pokemon-legends-z-a-review/">GamesRadar</a> vibed with the worldbuilding and battle system, but felt the scope of Lumiose City was perhaps a little too small:</p>
-<blockquote>
-<p>Pokemon Legends: Z-A may not be the perfect open world adventure, but its slice of life vibes and brilliant battle system changes are a real delight, and I hope this isn't the last we see of its innovations.</p>
-</blockquote>
-<p><a href="https://www.pockettactics.com/pokemon-legends-z-a/review">Pocket Tactics</a> went for a similar 8/10, saying that the focus on battles, solid performance and overall bravery of the damn thing is enough to outweigh its shortcomings:</p>
-<blockquote>
-<p>This game might be the bravest and boldest effort from Game Freak in as long as I can remember, and the developer is successful in a lot of ways</p>
-</blockquote>
-<p>It was a 7/10 for <a href="https://www.gfinityesports.com/article/pokemon-legends-z-a-our-review">GFinity</a>, where the outlet found Lumiose City's "claustrophobic" design to be a real tripping point:</p>
-<blockquote>
-<p>Revisiting an area in modern times in Legends felt like a good idea when I first started the game, but upon reflection, traveling back to the more ancient time in Arceus felt like a much fresher experience.</p>
-</blockquote>
-<p>Finally, <a href="https://www.eurogamer.net/pokemon-legends-z-a-review">Eurogamer</a> awarded Legends: Z-A a 3/5, describing it as "proof of concept" for a much bigger, better game:</p>
-<blockquote>
-<p>What we have is a kind of proof of concept. But the concept is <em>so good</em> that you can't help but feel a little frustrated to be teased with it.</p>
-</blockquote>
-<hr>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:188857 @ 1760462289 -->
-<p><em>How are you feeling about Legends: Z-A after having read the above? Pack some Revives and head into the comments below to let us know.</em></p></section></div><br/><br/>https://www.nintendolife.com/news/2025/10/round-up-the-reviews-are-in-for-pokemon-legends-z-a]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Pokémon Legends: Z-A Is Already Playable On PC At 4K@60 FPS]]></title>
-            <link>https://wccftech.com/pokemon-legends-z-a-is-already-playable-on-pc-at-4k60-fps/</link>
-            <guid>https://www.resetera.com/threads/pok%C3%A9mon-legends-z-a-is-already-playable-on-pc-at-4k-60-fps.1324492/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			<p>The Nintendo Switch version of Pokémon Legends: Z-A is already playable on PC and Android devices via emulators like EDEN.</p>
-
-
-
-<p>As showcased in a new video shared on YouTube by <a href="https://www.youtube.com/@tabeneru">tabeneru</a>, the <a href="https://github.com/eden-emulator/Releases/releases">EDEN emulator</a> can run the new entry in the popular series launching this week worldwide on PC and even Android devices rather well with the appropriate settings. </p>
-
-
-
-<p>On PC, users don't even need a high-end system to run the game at the native 30FPS cap, as the user's system, powered by an Intel Core i5-13500 CPU and RTX 3060 Ti GPU, which is far from being the fastest system configuration, has no trouble running the game smoothly, at least in the shown segment. However, a high-end system is required to push the emulated Switch release of Pokémon Legends: Z-A past its resolution and framerate cap on PC with <a href="https://www.youtube.com/watch?v=44SLbqzH04M&amp;t=2s">the first mod that allows up to 4K at 60 FPS gameplay</a> shared by Youtube user FRANC225. </p>
-
-
-
-<figure><p>
-<iframe title="Pokemon Legend Z-A BEST SETTING on EDEN EMULATOR 0.0.3 PC &amp; ANDROID" width="500" height="281" src="https://www.youtube.com/embed/6GAwUpy0idM?start=50&amp;feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-</p></figure>
-
-
-
-<p>Although Pokémon Legends: Z-A has yet to officially release, <a href="https://wccftech.com/pokemon-legends-z-a-leak-online-early-builds-pokedex-more/">early copies of the game already reached the hands of players</a>, so it's not surprising to see the game already emulated on PC. However, this ability to emulate new titles may soon change. As development shifts to the Nintendo Switch 2 exclusively, it is widely expected that it will take a long time before an effective emulator for the new console becomes available on PC.</p>
-
-			
-			<p>Follow <a href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> or <a href="https://google.com/preferences/source?q=wccftech.com">add us as a preferred source</a>, to get our news coverage and reviews in your feeds.</p>
-
-		</div></div><br/><br/>https://wccftech.com/pokemon-legends-z-a-is-already-playable-on-pc-at-4k60-fps/]]></content:encoded>
         </item>
     </channel>
 </rss>
