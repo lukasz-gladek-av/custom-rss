@@ -4,7 +4,7 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Wed, 15 Oct 2025 02:16:52 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Oct 2025 02:48:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -46,62 +46,6 @@
 			<p>Follow <a href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> or <a href="https://google.com/preferences/source?q=wccftech.com">add us as a preferred source</a>, to get our news coverage and reviews in your feeds.</p>
 
 		</div></div><br/><br/>https://wccftech.com/bethesda-elder-scrolls-iv-oblivion-remastered-reveal-huge-relief-for-skyblivion-mod-team/]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[AMD FSR 4 INT8 Xbox Series X Simulation Shows Possible Advantage in Image Quality and Frame Rate]]></title>
-            <link>https://wccftech.com/amd-fsr4-int-8-xbox-series-x-simulation-shows-possible-advantage/</link>
-            <guid>https://www.resetera.com/threads/amd-fsr-4-int8-xbox-series-x-simulation-shows-possible-advantage-in-image-quality-and-frame-rate.1324690/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			<p>Last month, following the accidental source code leak of AMD FSR 4 INT8 files, modders <a href="https://wccftech.com/leaked-amd-fsr-4-int8-files-helps-users-turn-on-fsr-4-on-rx-7000-on-windows/" target="_blank" rel="noreferrer noopener">managed to get a version of AMD FSR4 working on non-RDNA 4 GPUs</a> (the Radeon RX 9000 Series that launched earlier this year). The regular version of the latest AMD upscaler runs on FP8, that is, the 8-bit Floating-Point format, which is not supported by prior RDNA GPUs. However, this leaked version running on INT8 is compatible with a much wider range of hardware, since support for the 8-bit Integer Fixed-Point format is included in most modern GPUs. </p>
-
-
-
-<p>Of course, there's a reason why AMD chose the FP8 format for the public release: it allows for a wider dynamic range than INT8, doing a better job in preserving model accuracy and stability. Digital Foundry's Richard Leadbetter <a href="https://www.youtube.com/watch?v=fqDWJCW06Ks" target="_blank" rel="noreferrer noopener">has now tested this version</a> on several non-RDNA4 hardware to see how well it works in terms of both performance and quality.</p>
-
-
-
-<p>First of all, he compared the quality of AMD FSR 4 FP8 and AMD FSR 4 INT8, the first running on RDNA 4 hardware and the leaked version running on RDNA 3 and RDNA 2 hardware. The result is obvious: the INT8 version introduces aliasing and temporal artifacts. These visual issues are even more pronounced on the latest Adrenalin driver (25.9.1), likely due to some bug, so if you're going to try running the INT8 version, reverting to driver 23.9.1 is advisable.</p>
-
-
-
-<p>That said, AMD FSR 4 INT8 does still provide superior upscaling quality compared to AMD FSR 3. The problem is that it's also a lot slower. Now, the PlayStation 5 consoles do not support INT8, but the Xbox Series X does, having access to the full RDNA 2 feature set. For a simulation of how Microsoft's console could run this version of the upscaler, Digital Foundry used an RX 6700 GPU running the Horizon Forbidden West benchmark. </p>
-
-
-
-<p>AMD FSR 4 INT8 is by far the slowest upscaler compared to AMD FSR 3 and Intel XeSS, providing only a 28% performance uplift when set in Performance mode compared to 4K native resolution. XeSS Balance mode is 15% faster, while FSR 3 Performance mode is 29% faster. However, in another benchmark scene from Alan Wake 2, DF tested Xbox Series X-like settings at 1440p with FSR 4 set to Performance mode and FSR 2 to Balance mode. In this comparison, FSR 4 Performance mode slightly beats FSR 2 Balance mode in frame rate (by around 4%) and, more importantly, it provides a cleaner image despite reconstructing from a lower base resolution. </p>
-
-
-
-<figure><p>
-<iframe title="Leaked FSR4 INT8 Test: RDNA 3, RDNA 2, Steam Deck, Asus ROG Ally, Nvidia + Xbox Series X Simulation" width="500" height="281" src="https://www.youtube.com/embed/fqDWJCW06Ks?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-</p></figure>
-
-
-
-<p>Therefore, it could potentially benefit the Xbox Series X in certain scenarios. However, most multiplatform games are unlikely to take advantage of this since the base PS5 console cannot run AMD FSR 4 INT8. </p>
-
-
-
-<p>The video analysis also includes a look at how this version performs on Steam Deck, though that scenario was already tested by other YouTubers, <a href="https://wccftech.com/amd-fsr-4-steam-deck/" target="_blank" rel="noreferrer noopener">showing significant image quality improvements</a> but also a heavy performance cost in games like Cyberpunk 2077. Notably, this might not be the final version of AMD FSR 4 INT8, and Digital Foundry got a teasing statement from AMD on that note:</p>
-
-
-
-<p><em>We look forward to more updates to FSR4 this Fall that will continue to improve gamers' experiences.</em></p>
-
-
-
-<p>It's not quite a confirmation, but this version of FSR 4 may receive some performance improvements that would make it more viable for RDNA 2 and RDNA 3 hardware. </p>
-
-			
-			<p>Follow <a href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> or <a href="https://google.com/preferences/source?q=wccftech.com">add us as a preferred source</a>, to get our news coverage and reviews in your feeds.</p>
-
-		</div></div><br/><br/>https://wccftech.com/amd-fsr4-int-8-xbox-series-x-simulation-shows-possible-advantage/]]></content:encoded>
         </item>
     </channel>
 </rss>
