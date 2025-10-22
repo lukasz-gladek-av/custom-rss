@@ -4,13 +4,13 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Wed, 22 Oct 2025 07:43:22 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 Oct 2025 08:26:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Next-Gen Xbox Console Will Be a “Very Premium, Very High-End, Curated Experience,” Says Xbox CEO]]></title>
-            <link>https://wccftech.com/next-gen-xbox-console-will-be-very-premium-very-high-end-curated-experience-says-ceo/</link>
-            <guid>https://www.resetera.com/threads/next-gen-xbox-console-will-be-a-%E2%80%9Cvery-premium-very-high-end-curated-experience-%E2%80%9D-says-xbox-ceo.1330888/</guid>
+            <title><![CDATA[UnrealRTX Remix Mod Lets You Replay the 1998 Classic’s Campaign with RTX ON]]></title>
+            <link>https://wccftech.com/unrealrtx-remix-mod-replay-1998-classic-rtx-on/</link>
+            <guid>https://www.resetera.com/threads/unrealrtx-remix-mod-lets-you-replay-the-1998-classic%E2%80%99s-campaign-with-rtx-on.1331137/</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
 
 			
@@ -19,46 +19,46 @@
 			
 			
 			
-			<p>Xbox president and chief executive officer, Sarah Bond, has already <a href="https://wccftech.com/xbox-is-100-percent-looking-at-making-things-in-the-future-says-president/">put down any notions from players wondering if Xbox is still making consoles and hardware</a>. A next-gen Xbox is on the way; there's seemingly no question about it. Questions about <a href="https://wccftech.com/xbox-next-2027-launch-rumor/">what will be packed into that new box and what it'll look like</a>, however, won't be answered anytime soon. Though, according to Bond in a new interview, we can expect it to be three things: a "<em>very premium, very high-end, curated experience</em>." It's also worth noting that those three probably also mean a fourth thing: very expensive.</p>
+			<p>Yesterday, modder mstewart401 uploaded UnrealRTX, a remaster of the classic 1998 first-person shooter game powered by NVIDIA's RTX Remix platform, <a href="https://www.moddb.com/mods/unrealrtx/downloads/unrealrtx-full-campaign" target="_blank" rel="noreferrer noopener">on ModDB</a>.</p>
 
 
 
-<p>In a new <a href="https://www.youtube.com/watch?v=yDmwJ7tuoD8&amp;t=377s">interview with Mashable</a>, discussing the ROG Xbox Ally X handheld that ASUS created in collaboration with Xbox and Microsoft, Mashable asks Bond if they could say anything about next-gen Xbox hardware, and if they can comment on rumours floating around that Microsoft is looking to make the next-genertion of Xbox hardware some kind of inbetween a console and a PC.</p>
+<p>UnrealRTX allows players to experience the full single player campaign (no multiplayer, unfortunately) with fully ray-traced global illumination, dynamic shadows, volumetric lighting and stunning emissive effects that, according to the modder, bring a whole new atmosphere to every level.</p>
 
 
 
-<p>Essentially, taking the experience you get on an ROG Xbox Ally/Ally X handheld, where you can play your Steam, GOG, BattleNet, EA Play, etc., games, and your Xbox games on one device. That's the rumour, anyway, that Mashable refers to.</p>
+<p>The addition of PBR (Physically Based Rendering) materials means that the surfaces now respond to light with realistic metallics, roughness, subsurface scattering and depth. Specific world geometry and props have also been replaced to enhance fidelity.</p>
+
+
+
+<p>The modder revealed that most of the texture replacements were generated using RTX Remix's AI tools. They also used NVIDIA assets from NVIDIA Omniverse to replace the vegetation and add grass to outdoor areas. To do that, they extensively used UnrealED to insert dummy objects, which were later replaced with custom grass models. UnrealED was also used to place new light sources where the original maps had unmotivated lighting. As RTX Remix generally replaces assets globally, mstewart401 used UnrealED to create texture variants that enabled the implementation of emissive lights with different colours and properties to achieve the same in-game texture variation. The modder said that nearly all the emissive maps and around 90% of the height maps were crafted manually in MS Paint by blacking out non-emissive pixels and outlining textures.</p>
 
 
 
 <figure><p>
-<iframe title="ROG Xbox Ally X Hands-On Interview with Xbox CEO, Sarah Bond" width="500" height="281" src="https://www.youtube.com/embed/yDmwJ7tuoD8?start=377&amp;feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+<iframe title="UnrealRTX" width="500" height="281" src="https://www.youtube.com/embed/gKzg6Llcrsc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
 </p></figure>
 
 
 
-<p>The beginning of Bond's response is a comment on what Mashable had already said about the next-gen hardware, saying, "<em>Well, I can tell you you're right, that the next-gen console is going to be a very premium, very high-end, curated experience.</em>"</p>
+<p>The UnrealRTX modder admits the file size (currently at 48.29 GB) is a bit much. The goal is to reduce it by using lower resolution roughness and normal maps, as both are currently set to 8K each, which is probably overkill.</p>
 
 
 
-<p>Then, while gesturing to the ROG Xbox Ally X sitting between her and Mashable's tech editor, Bond continues, "<em>You're starting to see some of the thinking that we have in this handheld, but I don't want to give it all away</em>."</p>
+<p>More and more PC classics are being remastered with RTX Remix. Just recently, we covered <a href="https://wccftech.com/left-4-dead-2-rtx-ndt-remakes-no-mercy-campaign-rtx-remix/" target="_blank" rel="noreferrer noopener">Left 4 Dead 2 RTX NDT</a> and <a href="https://wccftech.com/take-look-path-traced-gta-4-rtx-remix-test-build/" target="_blank" rel="noreferrer noopener">GTA IV</a> (although the latter is still not available to the public).</p>
 
 
 
-<p>On the one hand, this is simply an executive hyping up her company's next major product. Of course she'll say it'll a "<em>premium, very high-end</em>" experience. On the other hand, her short comment regarding how we're already starting to see where Microsoft and Xbox are thinking of moving its hardware forward in the ROG Xbox Ally X, is arguably the most interesting part of this. </p>
+<p>Which PC game would you like to see enhanced with RTX technologies? Let us know in the comments!</p>
 
 
 
-<p>An Xbox console where you can access and play all the games in your PC gaming library across multiple PC launchers and digital storefronts, that delivers a console experience for your PC games, does sound like exactly the kind of thing that could make Xbox consoles interesting again.</p>
 
-
-
-<p>If the rumours are to be believed, we'll see if that'll be reality sometime around 2027. In other Xbox hardware news, after Microsoft raised the prices of the consoles players buy in stores, <a href="https://wccftech.com/xbox-development-kits-price-hike-microsoft/">it also raised the price of Xbox development kits for game developers</a>. If you're looking for more on the ROG Xbox Ally X, then <a href="https://wccftech.com/review/asus-rog-xbox-ally-x-this-is-an-xbox/">you can check out my review of the device</a>, as well as my <a href="https://wccftech.com/asus-talks-rog-xbox-ally-and-rog-xbox-ally-x-this-is-the-way-forward-for-us/">interview with two ASUS executives who confirm that the ROG Xbox Ally line of handhelds is the way forward for ASUS and its ROG handheld devices</a>. </p>
 
 			
 			<p>Follow <a href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> or <a href="https://google.com/preferences/source?q=wccftech.com">add us as a preferred source</a>, to get our news coverage and reviews in your feeds.</p>
 
-		</div></div><br/><br/>https://wccftech.com/next-gen-xbox-console-will-be-very-premium-very-high-end-curated-experience-says-ceo/]]></content:encoded>
+		</div></div><br/><br/>https://wccftech.com/unrealrtx-remix-mod-replay-1998-classic-rtx-on/]]></content:encoded>
         </item>
     </channel>
 </rss>
