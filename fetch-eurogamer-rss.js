@@ -15,31 +15,34 @@ const feed = new Feed({
   link: 'https://lukasz-gladek-av.github.io/custom-rss/eurogamerpl.xml',
 });
 
-async function loadExistingItemIds(filePath) {
+async function loadExistingItems(filePath) {
   try {
     const xmlData = await fs.promises.readFile(filePath, 'utf8');
     const parsedFeed = await existingFeedParser.parseString(xmlData);
-    const ids = new Set();
+    const items = new Map();
 
     for (const item of parsedFeed.items || []) {
       const id = item.guid || item.id || item.link;
       if (id) {
-        ids.add(id);
+        items.set(id, {
+          item: item,
+          lastModified: item['lastModified'] || item.lastModified || null
+        });
       }
     }
 
-    return ids;
+    return items;
   } catch (error) {
     if (error.code !== 'ENOENT') {
       console.warn(`Unable to read existing feed from ${filePath}:`, error);
     }
 
-    return new Set();
+    return new Map();
   }
 }
 
 async function fetchAndProcessFeed() {
-  const existingArticleIds = await loadExistingItemIds('eurogamerpl.xml');
+  const existingArticles = await loadExistingItems('eurogamerpl.xml');
   let hasNewArticles = false;
   const parsedFeed = await rssParser.parseURL(originalFeedUrl);
 
@@ -48,9 +51,38 @@ async function fetchAndProcessFeed() {
       // Get article link
       const itemArticleLink = item.link;
 
-      // Fetch the article content
-      const response = await axios.get(itemArticleLink);
+      // Check if article already exists
+      const existingArticle = existingArticles.get(item.link);
+      let lastModifiedHeader = null;
+
+      // Fetch the article content with conditional request if we have lastModified
+      const requestConfig = {};
+      if (existingArticle && existingArticle.lastModified) {
+        requestConfig.headers = {
+          'If-Modified-Since': existingArticle.lastModified
+        };
+        requestConfig.validateStatus = (status) => status === 200 || status === 304;
+      }
+
+      const response = await axios.get(itemArticleLink, requestConfig);
+
+      // Handle 304 Not Modified - reuse existing content
+      if (response.status === 304 && existingArticle) {
+        console.log(`Article unchanged (304): ${item.title}`);
+        feed.addItem({
+          title: existingArticle.item.title,
+          id: existingArticle.item.guid || existingArticle.item.id || existingArticle.item.link,
+          link: existingArticle.item.link,
+          content: existingArticle.item['content:encoded'] || existingArticle.item.content,
+          author: [{ name: existingArticle.item.author || existingArticle.item.creator || 'Unknown' }],
+          custom_elements: [{ 'lastModified': existingArticle.lastModified }]
+        });
+        continue;
+      }
+
+      // Handle 200 OK - fetch and process new content
       const html = response.data;
+      lastModifiedHeader = response.headers['last-modified'] || null;
       const filteredHtml = removeStylesAndImages(html);
 
       // Use JSDOM and Readability to extract the main content
@@ -60,21 +92,28 @@ async function fetchAndProcessFeed() {
 
       if (article) {
         const articleId = item.link;
-        if (!existingArticleIds.has(articleId)) {
+        if (!existingArticles.has(articleId)) {
           hasNewArticles = true;
         }
 
-        feed.addItem({
+        const articleItem = {
           title: item.title,
           id: item.link,
           link: itemArticleLink,
           content: itemArticleLink + '<br/><br/>' + article.content,
           author: [{ name: item.author || item.creator || 'Unknown' }],
-        });
+        };
+
+        // Add Last-Modified header if present
+        if (lastModifiedHeader) {
+          articleItem.custom_elements = [{ 'lastModified': lastModifiedHeader }];
+        }
+
+        feed.addItem(articleItem);
       } else {
         const fallbackIdentifier = itemArticleLink || item.link || item.title || 'Unknown item';
         console.warn(`Failed to parse content for ${fallbackIdentifier}`);
-        if (!existingArticleIds.has(item.link)) {
+        if (!existingArticles.has(item.link)) {
           hasNewArticles = true;
         }
         feed.addItem(item);
