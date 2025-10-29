@@ -18,26 +18,29 @@ const domainFeeds = new Map();
 
 const skipSitesMatches = ['destructoid.com', 'polygon.com', 'gamesindustry.biz', 'vgbees.com']
 
-async function loadExistingItemIds(filePath) {
+async function loadExistingItems(filePath) {
   try {
     const xmlData = await fs.promises.readFile(filePath, 'utf8');
     const parsedFeed = await existingFeedParser.parseString(xmlData);
-    const ids = new Set();
+    const items = new Map();
 
     for (const item of parsedFeed.items || []) {
       const id = item.guid || item.id || item.link;
       if (id) {
-        ids.add(id);
+        items.set(id, {
+          item: item,
+          lastModified: item['lastModified'] || item.lastModified || null
+        });
       }
     }
 
-    return ids;
+    return items;
   } catch (error) {
     if (error.code !== 'ENOENT') {
       console.warn(`Unable to read existing feed from ${filePath}:`, error);
     }
 
-    return new Set();
+    return new Map();
   }
 }
 
@@ -82,7 +85,7 @@ function extractHrefFromContent(htmlContent) {
 }
 
 async function fetchAndProcessFeed() {
-  const existingArticleIds = await loadExistingItemIds('gaming.xml');
+  const existingArticles = await loadExistingItems('gaming.xml');
   let hasNewArticles = false;
   const parsedFeed = await rssParser.parseURL(originalFeedUrl);
 
@@ -117,9 +120,53 @@ async function fetchAndProcessFeed() {
         continue;
       }
 
-      // Fetch the article content
-      const response = await axios.get(itemArticleLink);
+      // Check if article already exists
+      const existingArticle = existingArticles.get(item.link);
+      let articleItem;
+      let lastModifiedHeader = null;
+
+      // Fetch the article content with conditional request if we have lastModified
+      const requestConfig = {};
+      if (existingArticle && existingArticle.lastModified) {
+        requestConfig.headers = {
+          'If-Modified-Since': existingArticle.lastModified
+        };
+        requestConfig.validateStatus = (status) => status === 200 || status === 304;
+      }
+
+      const response = await axios.get(itemArticleLink, requestConfig);
+
+      // Handle 304 Not Modified - reuse existing content
+      if (response.status === 304 && existingArticle) {
+        console.log(`Article unchanged (304): ${item.title}`);
+        articleItem = {
+          title: existingArticle.item.title,
+          id: existingArticle.item.guid || existingArticle.item.id || existingArticle.item.link,
+          link: existingArticle.item.link,
+          content: existingArticle.item['content:encoded'] || existingArticle.item.content,
+          author: [{ name: existingArticle.item.author || existingArticle.item.creator || 'Unknown' }],
+          custom_elements: [{ 'lastModified': existingArticle.lastModified }]
+        };
+        feed.addItem(articleItem);
+
+        // Per domain
+        const linkDomain = getDomainFromUrl(itemArticleLink)
+                             .replace('www.', '')
+                             .replace('.', '_');
+        if (!domainFeeds.get(linkDomain)) {
+          domainFeeds.set(linkDomain, new Feed({
+                             title: 'maGaming RSS Feed - ' + linkDomain,
+                             description: 'A cleaned-up version of the original gaming feed for ' + linkDomain,
+                             link: 'https://lukasz-gladek-av.github.io/custom-rss/' + linkDomain + ".xml",
+                           }));
+        }
+        domainFeeds.get(linkDomain).addItem(articleItem);
+        continue;
+      }
+
+      // Handle 200 OK - fetch and process new content
       const html = response.data;
+      lastModifiedHeader = response.headers['last-modified'] || null;
       const filteredHtml = removeStylesAndImages(html);
 
       // Use JSDOM and Readability to extract the main content
@@ -128,14 +175,20 @@ async function fetchAndProcessFeed() {
       const article = reader.parse();
 
       if (article) {
-        const articleItem = {
+        articleItem = {
           title: item.title,
           id: item.link,
           link: itemArticleLink,
           content: article.content + '<br/><br/>' + itemArticleLink,
           author: [{ name: item.author || item.creator || 'Unknown' }],
         };
-        if (!existingArticleIds.has(articleItem.id)) {
+
+        // Add Last-Modified header if present
+        if (lastModifiedHeader) {
+          articleItem.custom_elements = [{ 'lastModified': lastModifiedHeader }];
+        }
+
+        if (!existingArticles.has(articleItem.id)) {
           hasNewArticles = true;
         }
         feed.addItem(articleItem);
@@ -154,7 +207,7 @@ async function fetchAndProcessFeed() {
         domainFeeds.get(linkDomain).addItem(articleItem);
       } else {
         console.warn(`Failed to parse content for ${itemArticleContent || itemArticleLink}`);
-        if (!existingArticleIds.has(item.link)) {
+        if (!existingArticles.has(item.link)) {
           hasNewArticles = true;
         }
         feed.addItem(item)
