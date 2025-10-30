@@ -29,8 +29,8 @@ function extractLastModified(item) {
     return null;
   }
 
-  if (item.lastModified || item['lastModified']) {
-    return item.lastModified || item['lastModified'];
+  if (item.lastModified) {
+    return item.lastModified;
   }
 
   if (Array.isArray(item.custom_elements)) {
