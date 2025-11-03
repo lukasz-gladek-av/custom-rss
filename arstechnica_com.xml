@@ -4,28 +4,26 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Thu, 23 Oct 2025 19:37:59 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 03 Nov 2025 22:08:32 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[CS2 item market loses nearly $2B in value overnight due to “trade up” update]]></title>
-            <link>https://arstechnica.com/gaming/2025/10/valve-upends-the-cs2-item-marketplace-with-new-trade-up-update/</link>
-            <guid>https://www.resetera.com/threads/cs2-item-market-loses-nearly-2b-in-value-overnight-due-to-%E2%80%9Ctrade-up%E2%80%9D-update.1333252/</guid>
+            <title><![CDATA[After confusing driver release, AMD says old GPUs are still actively supported]]></title>
+            <link>https://arstechnica.com/gadgets/2025/11/amd-says-that-its-not-pulling-driver-support-for-older-radeon-gpus-afterall/</link>
+            <guid>https://www.resetera.com/threads/after-confusing-driver-release-amd-says-old-gpus-are-still-actively-supported.1342678/</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
           
           
-<p>Valve benefits from any panicked trading in the short term, with every Steam Marketplace sale <a href="https://help.steampowered.com/en/faqs/view/61F0-72B7-9A18-C70B#steamfee">carrying</a> a 5 percent “Steam Transaction Fee” on top of a 10 percent “<em>Counter-Strike 2</em> fee… that is determined and collected by the game publisher” (read: Valve). In the long term, though, making some of the rarest items in the game easier to obtain will likely depress overall spending among the whales that dominate the market.</p>
-<blockquote>
-<p dir="ltr" lang="en">Wild CS2 update tonight. I’ve spent the last few hours digging through market data and built this projection chart to show how I think things play out.</p>
-<p>Knives and gloves drop fast (40–50%) as the new trade-up path floods supply, while Covert skins surge short-term as everyone… <a href="https://t.co/8NOMIBPZ1F">pic.twitter.com/8NOMIBPZ1F</a></p>
-<p>— SAC (@SAC_IG) <a href="https://twitter.com/SAC_IG/status/1981195130880115068?ref_src=twsrc%5Etfw">October 23, 2025</a></p></blockquote>
-<p>Using marketplace data, Irish Guys esports team owner SAC <a href="https://x.com/SAC_IG/status/1981195130880115068">ran some projections</a> estimating that, over the next few months, “the market settles about 5–10% lower overall, not a crash, just a correction.” But there are also <a href="https://x.com/SAC_IG/status/1981334081032843542">more bullish and bearish possibilities</a>, depending on how overall item demand and market liquidity develops in the near future.</p>
-<p>Market tracker CSFloat <a href="https://x.com/csfloatcom/status/1981208712963641810">also crunched some numbers</a> to determine that the overall supply of knives and gloves could roughly double if every common item were traded up under the new update. In practice, though, the supply increase will likely be “far less.”</p>
-<p>Massive monetary shifts aside, this latest update seems set to make it easier for new <em>CS2</em> players to access some once-rare in-game items without breaking the bank. “I got burned a little [by the update]… but honestly, this is the way to go for the long term health of the game,” Redditor chbotong <a href="https://www.reddit.com/r/cs2/comments/1odyl57/thank_you_valve_for_this_update/">wrote</a>. “[It’s] given me faith that Valve is actually steering in a direction that favors the average player than a market whale.”</p>
+<p>The release notes for the 25.10.2 Adrenalin release also dropped Windows 10 from the list of “compatible operating systems,” listing only Windows 11 21H2 and later. But AMD <a href="https://www.windowslatest.com/2025/10/31/amd-confirms-its-not-ending-windows-10-support-says-windows-11-installer-will-work-on-windows-10/">confirmed</a> to Windows Latest that the driver packages would still support Windows 10 for the foreseeable future. The company said that the OS is not listed in the release notes because Microsoft has technically ended support for Windows 10, but home users running Windows 10 on their PCs can <a href="https://arstechnica.com/gadgets/2025/10/windows-10-support-ends-today-but-its-just-the-first-of-many-deaths/">get an extra year of security patches</a> relatively easily. Microsoft will continue to provide support for the OS in businesses, schools, and other large organizations <a href="https://arstechnica.com/gadgets/2024/04/post-2025-windows-10-updates-for-businesses-start-at-61-per-pc-go-up-from-there/">until at least 2028</a>.</p>
+<h2>Why all the fuss?</h2>
+<p>It would look bad if AMD dropped or reduced support for those Radeon 5000- and 6000-series GPUs, given that Nvidia continues to support GeForce RTX 20- and 30-series graphics cards launched in the same 2019 to 2022 time window. But the end of support could have been even worse for gaming handhelds and lower-end PCs with integrated graphics.</p>
+<p>The RDNA 2 architecture, in particular, has enjoyed a long and ongoing life as an integrated GPU, including for systems that are explicitly marketed and sold as gaming PCs. And because so many of AMD and Intel’s lower-end chips are just <a href="https://arstechnica.com/gadgets/2025/10/amd-shores-up-its-budget-laptop-cpus-by-renaming-more-years-old-silicon/">rebranded versions of older silicon</a>, AMD continues to launch “new” products with RDNA 2 GPUs. The RDNA 2 architecture is the one Valve has used in the Steam Deck since 2022, for example, but Microsoft and Asus’ <a href="https://arstechnica.com/gaming/2025/10/rog-xbox-ally-x-the-ars-technica-review/">just-launched</a> ROG Xbox Ally series <a href="https://www.amd.com/en/products/processors/handhelds/ryzen-z-series/z2-series/z2-a.html">also includes an RDNA 2 GPU</a> in the entry-level model.</p>
+<p>The last time AMD formally scaled back its GPU driver support was <a href="https://arstechnica.com/gadgets/2023/11/amd-pulls-back-on-drivers-for-aging-but-popular-graphics-cards-and-igpus/">in 2023</a>, when it moved drivers for its Polaris and Vega GPU architectures into a separate package that would only get occasional “critical updates.” At the time, AMD had launched its last dedicated Vega-based GPU just four years before, and many lower-end desktop and laptop processors still shipped with Vega-based integrated GPUs.</p>
+<p>For the Steam Deck and other SteamOS and Linux systems, at least, it seems that things aren’t really changing, no matter what happens with the Windows drivers. Phoronix <a href="https://www.phoronix.com/news/AMD-Windows-RX-5000-6000-Game">points out</a> that the Linux driver package for AMD’s GPUs has always been maintained separately from the Windows drivers and that GPU architectures considerably older than RDNA 1 continue to get official support and occasional improvements.</p>
 
 
           
-                  </div></div><br/><br/>https://arstechnica.com/gaming/2025/10/valve-upends-the-cs2-item-marketplace-with-new-trade-up-update/]]></content:encoded>
+                  </div></div><br/><br/>https://arstechnica.com/gadgets/2025/11/amd-says-that-its-not-pulling-driver-support-for-older-radeon-gpus-afterall/]]></content:encoded>
         </item>
     </channel>
 </rss>
