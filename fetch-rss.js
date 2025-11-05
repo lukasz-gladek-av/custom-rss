@@ -7,7 +7,11 @@ const cheerio = require('cheerio');
 const fs = require('fs');
 
 const rssParser = new RSSParser();
-const existingFeedParser = new RSSParser();
+const existingFeedParser = new RSSParser({
+  customFields: {
+    item: ['lastModified']
+  }
+});
 const originalFeedUrl = 'https://www.resetera.com/forums/gaming-headlines.54/index.rss';
 const feed = new Feed({
   title: 'maGaming RSS Feed',
@@ -29,7 +33,7 @@ async function loadExistingItems(filePath) {
       if (id) {
         items.set(id, {
           item: item,
-          lastModified: item['lastModified'] || item.lastModified || null
+          lastModified: item.lastModified || null
         });
       }
     }
@@ -88,6 +92,7 @@ async function fetchAndProcessFeed() {
   const existingArticles = await loadExistingItems('gaming.xml');
   let hasNewArticles = false;
   const parsedFeed = await rssParser.parseURL(originalFeedUrl);
+  const lastModifiedMap = new Map(); // Track guid -> lastModified timestamp
 
   for (const item of parsedFeed.items) {
     const itemTitleLower = item.title.toLowerCase();
@@ -139,14 +144,15 @@ async function fetchAndProcessFeed() {
       // Handle 304 Not Modified - reuse existing content
       if (response.status === 304 && existingArticle) {
         console.log(`Article unchanged (304): ${item.title}`);
+        const itemId = existingArticle.item.guid || existingArticle.item.id || existingArticle.item.link;
         articleItem = {
           title: existingArticle.item.title,
-          id: existingArticle.item.guid || existingArticle.item.id || existingArticle.item.link,
+          id: itemId,
           link: existingArticle.item.link,
           content: existingArticle.item['content:encoded'] || existingArticle.item.content,
           author: [{ name: existingArticle.item.author || existingArticle.item.creator || 'Unknown' }],
-          custom_elements: [{ 'lastModified': existingArticle.lastModified }]
         };
+        lastModifiedMap.set(itemId, existingArticle.lastModified);
         feed.addItem(articleItem);
 
         // Per domain
@@ -183,9 +189,9 @@ async function fetchAndProcessFeed() {
           author: [{ name: item.author || item.creator || 'Unknown' }],
         };
 
-        // Add Last-Modified header if present
+        // Track Last-Modified header if present
         if (lastModifiedHeader) {
-          articleItem.custom_elements = [{ 'lastModified': lastModifiedHeader }];
+          lastModifiedMap.set(articleItem.id, lastModifiedHeader);
         }
 
         if (!existingArticles.has(articleItem.id)) {
@@ -222,11 +228,16 @@ async function fetchAndProcessFeed() {
     return;
   }
 
-  const rssXml = feed.rss2();
+  // Generate RSS and inject lastModified elements
+  let rssXml = feed.rss2();
+  rssXml = injectLastModified(rssXml, lastModifiedMap);
   fs.writeFileSync('gaming.xml', rssXml);
+
+  // Generate domain feeds with lastModified elements
   domainFeeds.forEach((domainFeed, domainUrl) => {
     console.log('domain', domainUrl);
-    const domainRssXml = domainFeed.rss2();
+    let domainRssXml = domainFeed.rss2();
+    domainRssXml = injectLastModified(domainRssXml, lastModifiedMap);
     fs.writeFileSync(domainUrl + '.xml', domainRssXml);
   });
 }
@@ -246,6 +257,23 @@ function removeStylesAndImages(html) {
 function getDomainFromUrl(url) {
     const domain = new URL(url).hostname;
     return domain;
+}
+
+function injectLastModified(rssXml, lastModifiedMap) {
+  const $ = cheerio.load(rssXml, { xmlMode: true });
+
+  $('item').each((index, element) => {
+    const $item = $(element);
+    const guid = $item.find('guid').text();
+
+    if (guid && lastModifiedMap.has(guid)) {
+      const lastModified = lastModifiedMap.get(guid);
+      // Insert lastModified element after guid
+      $item.find('guid').after(`<lastModified>${lastModified}</lastModified>`);
+    }
+  });
+
+  return $.xml();
 }
 
 fetchAndProcessFeed();
