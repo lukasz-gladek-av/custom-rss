@@ -4,9 +4,612 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Wed, 05 Nov 2025 21:09:11 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 05 Nov 2025 21:38:14 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Fellowship is getting a major patch to address bugs and add improvements]]></title>
+            <link>https://www.thesixthaxis.com/2025/11/05/fellowship-is-getting-a-major-patch-to-address-bugs-and-add-improvements/</link>
+            <guid>https://www.resetera.com/threads/fellowship-is-getting-a-major-patch-to-address-bugs-and-add-improvements.1345000/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>Chief Rebel is going to be releasing a major patch for Fellowship on November 7th, which will take the game offline from 7am CET. This major patch is going change item levels that are needed to join the different leagues. In addition, some heroes, weapons, and items are going to be rebalanced, and new Active Ability Timers are being added for various abilities.</p>
+<p><iframe title="Fellowship | Early Access Launch Trailer" width="780" height="439" src="https://www.youtube.com/embed/BCJPI8DIDQ8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+
+
+<h2>Fellowship update patch notes November 6th</h2>
+
+<ul>
+<li>
+<p>Fixed an issue causing enemies to sometimes desync on their patrol paths – making them invisible to players until they suddenly appeared on top of them. This should resolve the most common situations that caused enemies to become “invisible”.<wbr></p>
+</li>
+<li>
+<p>Fixed an issue where “Targeted ground abilities” would sometimes cause the aiming circle to disappear or get centered on your character when the cursor was pointing at a wall or steep slope.</p>
+</li>
+</ul>
+
+<p><b>Matchmaking item level requirement adjustments</b></p>
+<ul>
+<li>
+<p>Increased the minimum item level required to matchmake in Adept to 80 (was 60).<wbr></p>
+</li>
+<li>
+<p>Increased the minimum item level required to matchmake in Champion to 130 (was 120).<wbr></p>
+</li>
+<li>
+<p>Increased the minimum item level required to matchmake in Paragon to 190 (was 180).<wbr></p>
+</li>
+</ul>
+<p><b>ITEMS</b><wbr></p>
+<ul>
+<li>
+<p>Fixed an issue with the [Dark Prophecy] set bonus proc so that it no longer triggers on “non-hero” actions, such as emotes and interacting with camp fires.<wbr></p>
+</li>
+<li>
+<p>The [Ancient Wardstone] relic now provides High Haste and Low Expertise.<wbr></p>
+</li>
+<li>
+<p>The [Chalice Al’Zerac’s Essence] relic now provides Spirit and Haste.<wbr></p>
+</li>
+<li>
+<p>Fixed an issue where Meiko’s [Crusader Longcloak] was incorrectly named for two different items.<wbr></p>
+</li>
+<li>
+<p>Fixed an issue where Vigor’s [Lamellar Helm] was incorrectly set as a pair of gloves.<wbr></p>
+</li>
+<li>
+<p>Fixed various Uncommon and Rare items that had their rarity set incorrectly.<wbr></p>
+</li>
+<li>
+<p>Fixed an issue where Vendor gear was always set to Common rarity. That gear now correctly reflects the league they are assigned to.<wbr></p>
+</li>
+<li>
+<p>Fixed various item typos.<wbr></p>
+</li>
+</ul>
+<p><b>WEAPONS</b><wbr></p>
+
+<ul>
+<li>
+<p>[Fated Strike] hit delay was reduced to 0.15 seconds (was 0.3 seconds) when used in melee range.<wbr></p>
+</li>
+<li>
+<p>The [Latent Resurgence] trait healing has been increased by 50%.<wbr></p>
+</li>
+<li>
+<p>Fixed an issue where [Repository of Light] was not properly removed from other players whenever the source died.<wbr></p>
+</li>
+</ul>
+<p><b>HEROES</b><wbr></p>
+<p><b><br>
+Helena</b><wbr></p>
+<ul>
+<li>
+<p>Helena’s health gained from Stamina was increased by 10%.<wbr></p>
+</li>
+<li>
+<p>[Hold the Line] tooltip was updated to reflect the recent hot fix, causing her Toughness to not be reduced while the absorb from [Empowered Shield Slam] is active on her.<wbr></p>
+</li>
+<li>
+<p>The absorb effect from [Empowered Shield Slam] has been renamed to “Empowered Shield Slam: Barrier” (was “Hold the Line”).<wbr></p>
+</li>
+<li>
+<p>The bleed from [Sweeping Strikes] now reduces all damage dealt by afflicted enemies by 10% for its duration.<wbr></p>
+</li>
+</ul>
+<p><b>Meiko</b><wbr></p>
+<ul>
+<li>
+<p>The [Sibling of Earth] from Meiko’s [Twin Souls: Bulwark] now has health equal to Meiko’s max health, increased by 2% for every 1% critical strike, haste, expertise, and spirit she has (was not increased by secondary stats previously).<wbr></p>
+</li>
+<li>
+<p>The [Shattering Obelisk Drape] (legendary cloak) now accumulates 10% of all damage it takes and pulses it out as damage on intervals (was 18%).<wbr></p>
+<ul>
+<li>
+<p><i>Note: The [Shattering Obelisk Drape’s] damage accumulation needed to be toned down considering the rather large increase to the [Sibling of Earth’s] health. In overall, the [Shattering Obelist Drape] is dealing more damage now, when taking all the above changes into account.</i><wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p>The [Necklace of Tectonic Impact] now increases the damage of the final hit of [Earthfist Barrage] by another 75% when consuming a 2nd charge (was 50% – tooltip stated 60%).<wbr></p>
+</li>
+<li>
+<p>Tooltip for [Twin Souls: Bulwark] has been updated to show the resulting max health of the [Sibling of Earth] – and now includes information on new secondary stat scaling of [Sibling of Earth’s] health.<wbr></p>
+</li>
+<li>
+<p>Tooltip update from last hot fix. Meiko’s description for her Spirit stat has been updated to reflect that the [Spirit Armor] effect she gains upon triggering a [Spirit Refund] now grants 30% more armor (was 50%).<wbr></p>
+</li>
+<li>
+<p>Tooltip update. Meiko’s [Stone Shield] tooltip has now been updated to match the last hotfix, stating she gains 50% increased Armor for each stone that is active on her (was 35%).<wbr></p>
+</li>
+<li>
+<p>Tooltip update: Meiko’s [Earthfist Barrage] and [Lashing Stormkick] tooltips now correctly state they cause her to heal for 100% of the damage dealt (the tooltip was incorrectly displaying 150% in one place and 200% in another place).<wbr></p>
+</li>
+</ul>
+<p><b>Sylvie</b><wbr></p>
+<ul>
+<li>
+<p>The healing of [Fluttercall: Heal] has been increased by 25%.<wbr></p>
+</li>
+<li>
+<p>The healing of [Fluttercall: Restore Life] has been increased by 25%.<wbr></p>
+</li>
+<li>
+<p>[Heartbloom] now accumulates 12% of all Flutterfly Healing (was 15%)<wbr></p>
+</li>
+<li>
+<p>[Flower Power] now causes [Heartbloom] to accumulate 8% of all Flutterfly Healing (was 10%).<wbr></p>
+<ul>
+<li>
+<p><i>Note: Sylvie’s baseline healing from Flutterflies were a bit lower than intended overall. Heartbloom was toned down slightly to keep its power similar to before.</i><wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Enfeebling Rootsap duration was increased to 10 seconds (was 6 seconds).<wbr></p>
+</li>
+<li>
+<p>The shields applied by [Safe Haven] and [Ironleaf Ward] when talented into [Natural Protector] have been increased by 200%.<wbr></p>
+</li>
+<li>
+<p>[Natural Protector’s] shield is now also applied to players that walk into [Safe Haven] after it has been placed. This only works once per player, per cast of [Safe Haven].<wbr></p>
+<ul>
+<li>
+<p><i>Note: Natural Protector as a 3 point talent was underperforming.</i><wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p>[Life Petal] now has 2 charges and gains Cooldown Acceleration from your Haste.<wbr></p>
+</li>
+<li>
+<p>[Nettlebolt] damage was increased by 70%.<wbr></p>
+</li>
+<li>
+<p>[Prickly Vines] damage was increased by 20%.<wbr></p>
+</li>
+<li>
+<p>[Sprouting Nettles] PPM was reduced to 2.0 (was 4.0) but now increases the critical strike chance of Nettlebolt by +400%.<wbr></p>
+</li>
+<li>
+<p>[Symbiosis] now increases [Prickly Vines] damage by 12% for each player that has a Pink Flutterfly active on them.<wbr></p>
+</li>
+</ul>
+<p><b>Vigour</b><wbr></p>
+<ul>
+<li>
+<p>[Soulbrand] damage has been increased by 20%.<wbr></p>
+</li>
+<li>
+<p>[Dawnbreaker Orb] damage has been increased by 35%.<wbr></p>
+</li>
+<li>
+<p>[Radiant Blast] damage and healing has been increased by 15%.<wbr></p>
+</li>
+<li>
+<p>Fixed an issue with [Grand Design] talent causing [Rune of Renewal] (when overcharged) to only increase the direct healing by 100% on targets that already had [Rune of Renewal] active, when it should be increasing the direct healing by 200%.<wbr></p>
+</li>
+<li>
+<p>Tooltip updated for [Levitate]. Movement abilities do not benefit from Cooldown Acceleration based on health. The text has been removed (the ability has not been changed).<wbr></p>
+</li>
+<li>
+<p>[Harmonizing Refractions] (Legendary Necklace) now stacks up to 2 times to mitigate situations where 2 procs in a row would cause the first proc to be overwritten and effectively lost.<br>
+<wbr></p>
+</li>
+</ul>
+<p><b>Tariq</b><wbr></p>
+<ul>
+<li>
+<p>[Heavy Strike] can no longer be spammed to trigger proc effects. Now only triggers proc effects once the [Heavy Strike] starts its swing.<wbr></p>
+</li>
+<li>
+<p>The [Bloodied Brass Necklace] legendary now deals 450% of [Face Breaker’s] damage (was 150%), dealt over 24 seconds (was 18 seconds).<wbr></p>
+</li>
+<li>
+<p>The bleed from [Bloodied Brass Necklace] can no longer critical strike, and no longer double dips in Damage% bonuses, Expertise, etc.<wbr></p>
+</li>
+<li>
+<p>[Ruinharrow Necklace of Spoils] had Strength on it. Now only has Stamina like all necklaces.<wbr></p>
+</li>
+</ul>
+<p><b>Ardeos</b><wbr></p>
+<ul>
+<li>
+<p>Fixed an issue causing the [Engulfing Flames] applied by [Pyromania] to not generate [Cinders].<wbr></p>
+</li>
+</ul>
+
+<p><b>New “Active Ability Timers” added</b><wbr></p>
+<p>In our continued work on Active Ability Timers, the following abilities now show a yellow frame to indicate the remaining duration of its effect.<wbr></p>
+<ul>
+<li>
+<p><b>Relics</b><wbr></p>
+<ul>
+<li>
+<p>Sanctuary<wbr></p>
+</li>
+<li>
+<p>Bloodrite Drums<wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p><b>Weapon Abilities</b><wbr></p>
+<ul>
+<li>
+<p>Repository of Light<wbr></p>
+</li>
+<li>
+<p>Sahril’s Wrath<wbr></p>
+</li>
+<li>
+<p>Sahril’s Aegis<wbr></p>
+</li>
+<li>
+<p>Voidbringer’s Touch<wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p><b>Helena</b><wbr></p>
+<ul>
+<li>
+<p>Shields Up<wbr></p>
+</li>
+<li>
+<p>Iron Wall<wbr></p>
+</li>
+<li>
+<p>Seigebreaker<wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p><b>Meiko</b><wbr></p>
+<ul>
+<li>
+<p>Twin Souls: Army of One<wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p><b>Rime</b><wbr></p>
+<ul>
+<li>
+<p>Frost Ward<wbr></p>
+</li>
+<li>
+<p>Ice Blitz<wbr></p>
+</li>
+<li>
+<p>Flight of Navir<wbr></p>
+</li>
+<li>
+<p>Winter’s Blessing<wbr></p>
+</li>
+<li>
+<p>Wrath of Winter<wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p><b>Ardeos</b><wbr></p>
+<ul>
+<li>
+<p>Wildfire<wbr></p>
+</li>
+<li>
+<p>Flame Ward<wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p><b>Elarion</b><wbr></p>
+<ul>
+<li>
+<p>Skystrider’s Supremacy<wbr></p>
+</li>
+<li>
+<p>Fervent Supremacy<wbr></p>
+</li>
+<li>
+<p>Skystrider’s Grace<wbr></p>
+</li>
+<li>
+<p>Event Horizon<wbr></p>
+</li>
+<li>
+<p>Pathfinder’s Resilience<wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p><b>Mara</b><wbr></p>
+<ul>
+<li>
+<p>Maiden of Death<wbr></p>
+</li>
+<li>
+<p>Veil of Shadows<wbr></p>
+</li>
+<li>
+<p>Matriarch Macabre<wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p><b>Tariq</b><wbr></p>
+<ul>
+<li>
+<p>Thundercall<wbr></p>
+</li>
+<li>
+<p>Unbreakable Will<wbr></p>
+</li>
+<li>
+<p>Focused Wrath<wbr></p>
+</li>
+<li>
+<p>Raging Tempest<wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p><b>Vigour</b><wbr></p>
+<ul>
+<li>
+<p>Levitate<wbr></p>
+</li>
+<li>
+<p>Lightshaper’s Ward<wbr></p>
+</li>
+<li>
+<p>Runic Proliferation<wbr></p>
+</li>
+<li>
+<p>Avatar of Light<wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p><b>Sylvie</b><wbr></p>
+<ul>
+<li>
+<p>Hidden Trail<wbr></p>
+</li>
+<li>
+<p>Ironleaf Ward<wbr></p>
+</li>
+<li>
+<p>Enfeebling Rootsap<wbr></p>
+</li>
+<li>
+<p>Fluttercall: Jubilee<br>
+<wbr></p>
+</li>
+</ul>
+</li>
+</ul>
+
+<p><b>Sailor’s Abyss</b><wbr></p>
+<ul>
+<li>
+<p>Fixed an issue with Hollowed Corsairs, causing them to play their voice over too often.<wbr></p>
+</li>
+</ul>
+<p><b>Wraithtide Vault</b><wbr></p>
+<ul>
+<li>
+<p>Fixed an issue with the Tide Witches, causing the [Sunken Gale] visuals to be rotated and move in the wrong direction for players sometimes.<wbr></p>
+</li>
+</ul>
+<p><b>Stormwatch</b><wbr></p>
+<p>Fixed an issue causing Warlord Brogg to return to full health when entering the second phase. Brogg now starts the second phase with the same health as at the end of the first phase.</p>
+<p><em>Source: <a href="https://store.steampowered.com/news/app/2352620/view/607549730650587317">Steam</a></em></p>
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div></div><br/><br/>https://www.thesixthaxis.com/2025/11/05/fellowship-is-getting-a-major-patch-to-address-bugs-and-add-improvements/]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Unbeatable has been given a last minute delay]]></title>
+            <link>https://www.thesixthaxis.com/2025/11/05/unbeatable-has-been-given-a-last-minute-delay/</link>
+            <guid>https://www.resetera.com/threads/unbeatable-has-been-given-a-last-minute-delay.1344997/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>Unbeatable is not going to be releasing on November 6th as planned, D-CELL Games have announced just hours before the expected release. The reason for this last moment delay of Unbeatable is the fact that the team ran into a bug that essentially makes the game unreleasable, and it needs to be fixed, which in turn pushes back dates for console certification. The new date chosen is December 9th with that date being chosen as there are fewer other releases around then.</p>
+<p><iframe title="UNBEATABLE: FINAL TRAILER " width="780" height="439" src="https://www.youtube.com/embed/Vkvi71znX_Q?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+
+
+<p>In a blog post on Steam, developer RJ Lake wrote, <em>“Hi! UNBEATABLE was supposed to come out tomorrow! That’s a scary sentence. Here’s a worse one: UNBEATABLE will now release on December 9.I hate that I have to say this. There’s no way to apologize for it that feels like enough. I’m personally sorry about this and I wish it was different… the decision was only made a few hours ago. (No, really, I’m writing this right after the meeting where the decision was made).&nbsp; We are telling you this as soon as we possibly can.</em></p>
+<p><em>There’s a very boring and frustrating reason; QA hit a low-repro progression blocker last night that’s serious enough it’s considered unreleasable. Fixing this would require pushing the console release date back because of cert timelines, and&nbsp;not&nbsp;fixing this is, well. We refuse to do that. We’re fixing it…We’d rather release the game all at once for everybody. Another boring reason you can figure out pretty quickly by googling the phrase “2025 game release calendar” and looking at what’s hitting this month. We had a pretty good spot on November 6 where we made a small little island for ourselves, and skipping that date necessarily means skipping forward a&nbsp;lot to find another island, and that’s the closest one we had. On the plus side, it gives us breathing room we didn’t have before to do some pre-launch things we wanted to do that had to get pushed back because of finishing the game in time for, well, tomorrow.”</em></p>
+
+<p>In Unbeatable you play as Beat, who makes music with her band. The issue is that music is illegal in the world of Unbeatable, so Beat and the crew are on the run. The gameplay is that of a rhythm action game and completing quests while playing music. The story is said to last around 6 to 8 hours, and there will also be an arcade mode which has its own progression system, modifiers, and challenges to beat. The arcade mode will also get additional songs in the future.</p>
+<p><em>Source: <a href="https://store.steampowered.com/news/app/2240620/view/598542531394797771">Steam</a></em></p>
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div></div><br/><br/>https://www.thesixthaxis.com/2025/11/05/unbeatable-has-been-given-a-last-minute-delay/]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Nintendo President Says Movies and the Like Are ‘Very Well-Suited’ to Nintendo Games]]></title>
+            <link>https://wccftech.com/nintendo-president-says-movies-are-very-well-suited-to-nintendo-games/</link>
+            <guid>https://www.resetera.com/threads/nintendo-president-says-movies-and-the-like-are-%E2%80%98very-well-suited%E2%80%99-to-nintendo-games.1344994/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			
+			<p>As usual following <a href="https://wccftech.com/nintendo-switch-2-sold-more-10-million-units-outpacing-predecessor/" target="_blank" rel="noreferrer noopener">a new Nintendo quarterly report</a>, President Shuntaro Furukawa and 'Fellow' Shigeru Miyamoto (the man behind Zelda, Mario, Donkey Kong, and other Nintendo classics) <a href="https://www.nintendo.co.jp/ir/pdf/2025/251105_2.pdf" target="_blank" rel="noreferrer noopener">answered a series of questions fielded in Japanese by investors</a>.</p>
+
+
+
+<p>When asked about the company's growing efforts in film and visual media, Shuntaro Furukawa said that movies are 'very well-suited' to Nintendo games. </p>
+
+
+
+<p><em>Following the success of "The Super Mario Bros. Movie," I feel that film and visual media are a form of entertainment very well-suited to our games, and we can make unique proposals in this area as Nintendo. As stated in the earlier presentation, this is a field we aim to actively pursue. Through movies and videos, we want to increase our fanbase, spark renewed interest in our games, and build multigenerational support for Nintendo.</em></p>
+
+
+
+<p>Honestly, movies are about story and characters, and the Big N has never really managed to shine as much as Sony in these areas. That said, despite his lack of depth, Mario is still arguably the most popular game character, which paid dividends for <a href="https://wccftech.com/super-mario-bros-movie-biggest-gaming-adaptation-ever-500-million/" target="_blank" rel="noreferrer noopener">2023's record-breaking The Super Mario Bros. Movie</a>. Its follow-up, The Super Mario Galaxy Movie, is slated to air in theaters <a href="https://wccftech.com/nintendo-debuts-the-super-mario-galaxy-movie-teaser-coming-april-2026/" target="_blank" rel="noreferrer noopener">on April 3, 2026</a>, but the most interesting test will be the upcoming Legend of Zelda live action film, starring Bo Bragason as Zelda and Benjamin Evan Ainsworth as Link. While still very popular among gamers, the franchise lacks the same level of mainstream recognition as Mario, and how well it can capture an audience remains to be seen.</p>
+
+
+
+<p>Miyamoto-san had a much longer response to the same question, pointing out that this is a 'logical next step' for the game developer, and the new internal movie division is focused on experimentation.</p>
+
+
+
+<p><em>Nintendo, as an entertainment company, has created a variety of games, IP, and characters. Thinking about entertainment experiences we can maintain long-term, film production became a logical next step. We used to focus on interactivity, but now aim to extend into more passive experiences like film. Film requires people. But we don’t want Nintendo to become a company that just balloons in headcount. Our strategy was to find partners worldwide for joint projects. Content that resonates globally can be made anywhere and speak to anyone—we are investing accordingly. Today, we talk directly and equally with diverse international production teams and creators, and Nintendo’s own developers are involved as well. On the business side, film operates under established structures. If productions are handled well, they generate profit.</em></p>
+
+
+
+<p><em>Nintendo Pictures is less about making movies like "The Super Mario Bros. Movie," and more about experimenting with new challenges—making short films, running our own research, and tackling less commercially clear areas. Our short film "Close to you" featuring Pikmin is an example. If these pieces become valuable assets for Nintendo’s content library, we will have succeeded.</em></p>
+
+
+
+<p>Earlier today, the Japanese game studio and console manufacturer also <a href="https://wccftech.com/nintendo-opens-to-developer-acquisitions-as-one-of-investment-areas/" target="_blank" rel="noreferrer noopener">confirmed its goal to invest in studio acquisitions</a>.</p>
+
+			
+			<p>Follow <a href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> or <a href="https://google.com/preferences/source?q=wccftech.com">add us as a preferred source</a>, to get our news coverage and reviews in your feeds.</p>
+
+		</div></div><br/><br/>https://wccftech.com/nintendo-president-says-movies-are-very-well-suited-to-nintendo-games/]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Finally, Miss Piggy Is Getting Her Own Movie]]></title>
+            <link>https://kotaku.com/finally-miss-piggy-is-getting-her-own-movie-disney-emma-stone-2000641430</link>
+            <guid>https://www.resetera.com/threads/finally-miss-piggy-is-getting-her-own-movie.1344991/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+              
+              <p>America’s most fashionable and fantastic pig, <a href="https://kotaku.com/the-muppets-were-always-adult-1724411134">Miss Piggy</a>, is finally getting what she has long deserved: Her very own feature film. It only took those in charge of <em>The Muppets</em> five decades.</p> <p><a href="https://deadline.com/2025/11/miss-piggy-movie-cole-escola-jennifer-lawrence-emma-stone-1236607843/">As spotted by <em>Deadline</em></a>, Jennifer Lawrence recently spilled the beans on a Miss Piggy movie that she and Emma Stone are producing and developing. The news was shared during an interview on Bowen Yang and Matt Rogers’ <em>Las Culturistas </em>podcast<em>.&nbsp;</em></p> <p>“I don’t know if I can announce this, but I’m just going to. Emma Stone and I are producing a Miss Piggy movie, and [Cole Escola] is writing it,” said <em>X-Men</em> and <em>Hunger Games</em> star Lawrence. The actor didn’t reveal any plot details during the interview, but when asked if she and Stone would appear in the film replied: “I think so, we have to.” Comedian and writer <a href="https://en.wikipedia.org/wiki/Cole_Escola">Escola</a> has become a big sensation following the release of their hit Broadway play <em>Oh, Mary!&nbsp;</em></p>
+
+ <p>Disney and The Jim Henson Company have yet to officially announce the <em>Muppets</em> spin-off movie starring Miss Piggy.</p> <p>If the movie actually happens, it would mark the character’s first solo outing since the famous pig debuted on <em>The Muppet Show</em> back in 1976. The Muppets franchise recently celebrated its 70-year anniversary. And in September, it was announced that Seth Rogen was leading the charge on a new <em>Muppet Show</em> reboot.</p> <p><a href="https://deadline.com/2025/09/the-muppet-show-disney-plus-seth-rogen-sabrina-carpenter-pilot-1236546510/">Meanwhile, <em>Deadline</em> reports</a> that Disney is working on a Sabrina Carpenter-led <em>Muppets</em> special that is set to air in 2026, just in time for the 50th anniversary of the original TV show.</p>
+                          </div></div><br/><br/>https://kotaku.com/finally-miss-piggy-is-getting-her-own-movie-disney-emma-stone-2000641430]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Overcooked Reality Competition Show Coming To Netflix - Report]]></title>
+            <link>https://www.gamespot.com/articles/overcooked-reality-competition-show-coming-to-netflix-report/1100-6535969/?ftag=CAD-01-10abi2f</link>
+            <guid>https://www.resetera.com/threads/overcooked-reality-competition-show-coming-to-netflix-report.1344988/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p>
+    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
+  </p><article itemscope="" data-type-id="1100" data-guid="1100-6535969">
+
+            
+            
+  
+
+
+        
+
+  
+
+
+        
+        
+              <section>
+
+                  
+          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
+                <p>The cooking game Overcooked is getting adapted into a competition reality series for Netflix, according to a new report. The production company A24 has bought the rights to the game and is working with Netflix on an unscripted show, <a href="https://deadline.com/2025/11/overcooked-reality-competition-series-video-game-netflix-a24-1236608072/" data-target="true" target="_blank" rel="noopener nofollow">Deadline reported.</a></p><p>The show is said to be similar to other Netflix competition series such as Nailed It and Floor Is Lava. "Overcooked aims to serve up high-stakes kitchen challenges and the signature chaos that made the video game a hit with fans," the report said.</p><p>The series is said to be in the "early stages" of development, with multiple developers from Ghost Town Games signed on to be executive producers.</p><p>Overcooked launched in 2016 and was a big success thanks to its local co-op gameplay where people play as chefs in a kitchen. Players must cook meals, serve them, and clean up against the clock, and the action can get heated very quickly. It's not hard to imagine the appeal as a reality TV series. </p><p>A sequel, Overcooked 2, came out in 2018, which was followed by Overcooked: All You Can Eat in 2020.</p><p>The Overcooked reality series is just the latest video game project coming to Netflix. A <a href="https://www.gamespot.com/articles/bioshock-movie-gets-a-key-update-about-its-story/1100-6534610/" data-ref-id="1100-6534610">BioShock movie is also in the works for Netflix</a>, as is a <a href="https://www.gamespot.com/articles/netflixs-assassins-creed-tv-series-moves-ahead-with-halo-sons-of-anarchy-veterans/1100-6533232/" data-ref-id="1100-6533232">new Assassin's Creed TV show.</a></p>
+  
+                        
+    
+        
+        
+  
+                                  </div>
+
+
+          
+  
+    
+          
+            
+  <div>
+    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
+
+    
+      </div>
+        
+      </section>
+    
+            
+    </article></div><br/><br/>https://www.gamespot.com/articles/overcooked-reality-competition-show-coming-to-netflix-report/1100-6535969/?ftag=CAD-01-10abi2f]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Arc Raiders Water Troubles Quest Guide]]></title>
+            <link>https://www.gamespot.com/articles/arc-raiders-water-troubles-quest-guide/1100-6535974/?ftag=CAD-01-10abi2f</link>
+            <guid>https://www.resetera.com/threads/arc-raiders-water-troubles-quest-guide.1344985/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="default-content">
+        
+          <p>
+    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
+  </p>
+  
+    <article itemscope="" data-type-id="1100" data-guid="1100-6535974">
+
+            
+            
+  
+
+
+        
+
+  
+
+
+        
+        
+              <section>
+
+                  
+          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
+                <p><a href="https://www.gamespot.com/games/arc-raiders/" data-ref-id="5000-546105">Arc Raiders</a> has a multi-quest storyline based around contaminated water, and it all starts with the Water Troubles quest. This quest sends you to the Dam Battlegrounds to collect a water sample--but if you don't know where to do so, it can be a bit confusing to figure out. We'll reduce the frustration for you a bit by explaining how to get the water sample.</p><p>You won't need to extract to complete this quest, so feel free to jump in with a free loadout if you prefer. This will ensure that you won't lose anything important if you happen to run into trouble while exploring the Dam Battlegrounds.</p><p>When you're ready to set off, here's how to complete Water Troubles.</p><h2 id="Where_to_find_the_Flood_Access_Tunnel">Where to find the Flood Access Tunnel</h2><p>The first step of Water Troubles requires you to find the Flood Access Tunnel. This is located in the Red Lakes area on the right side of the map. This tunnel is to the right of the Control Tower POI, so you'll either need to approach it on foot from below or make your way down to the Red Lake by sliding or taking a zipline.</p><figure data-align="center" data-size="large" data-img-src="https://www.gamespot.com/a/uploads/original/679/6794662/4597281-arcraiders_20251104211416.jpg" data-ref-id="1300-4597281" data-ratio="0.56010745466756" data-width="1489" data-embed-type="image"><a href="https://www.gamespot.com/a/uploads/original/679/6794662/4597281-arcraiders_20251104211416.jpg" data-ref-id="1300-4597281"></a><figcaption>Flood Access Tunnel location</figcaption><img src="https://www.gamespot.com/a/uploads/original/679/6794662/4597281-arcraiders_20251104211416.jpg"></figure><h2 id="Where_to_find_the_intake_to_the_district_s_water_supply">Where to find the intake to the district's water supply</h2><p>When you get to the lower portion of the map, you'll need to spot a massive opening on the side of the concrete wall below the Control Tower POI. This is the intake to the district's water supply.</p><figure data-align="center" data-size="large" data-img-src="https://www.gamespot.com/a/uploads/original/679/6794662/4597283-arcraiders_20251104211303.jpg" data-ref-id="1300-4597283" data-ratio="0.5625" data-width="3840" data-embed-type="image"><a href="https://www.gamespot.com/a/uploads/original/679/6794662/4597283-arcraiders_20251104211303.jpg" data-ref-id="1300-4597283"></a><figcaption>Flood Access Tunnel entrance</figcaption><img src="https://www.gamespot.com/a/uploads/original/679/6794662/4597283-arcraiders_20251104211303.jpg"></figure><h2 id="Where_to_collect_the_water_sample">Where to collect the water sample</h2><p>Enter the tunnel and run through the linear pathway until you reach the filthy water pool inside. Interact with the pipe on the left to collect the water sample you came here for.</p><figure data-align="center" data-size="large" data-img-src="https://www.gamespot.com/a/uploads/original/679/6794662/4597284-arcraiders_20251104211408.jpg" data-ref-id="1300-4597284" data-ratio="0.5625" data-width="3840" data-embed-type="image"><a href="https://www.gamespot.com/a/uploads/original/679/6794662/4597284-arcraiders_20251104211408.jpg" data-ref-id="1300-4597284"></a><figcaption>Collect the water sample here.</figcaption><img src="https://www.gamespot.com/a/uploads/original/679/6794662/4597284-arcraiders_20251104211408.jpg"></figure><p>With the water sample collected, you're now ready to head back to Speranza. The Red Lakes Balcony Lift to the southeast is a good bet, but just be careful, as it's known to house a lot of ARC patrols and other raiders who are looting the nearby Testing Annex. Don't be afraid to be a little sneaky to ensure you make it home safely.</p><p>For more, check out our <a href="https://www.gamespot.com/articles/all-arc-raiders-quests-full-mission-list/1100-6535922/" data-ref-id="1100-6535922">full Arc Raiders quest list</a>.</p>
+  
+                        
+    
+        
+        
+  
+                                  </div>
+
+
+          
+  
+    
+          
+            
+  <div>
+    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
+
+    
+      </div>
+        
+      </section>
+    
+            
+    </article>
+
+    
+  
+
+        
+  
+</div></div><br/><br/>https://www.gamespot.com/articles/arc-raiders-water-troubles-quest-guide/1100-6535974/?ftag=CAD-01-10abi2f]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Nothing But Respect For This Manual Ear And Nose Hair Trimmer]]></title>
+            <link>https://aftermath.site/manual-ear-and-nosehair-trimmer</link>
+            <guid>https://www.resetera.com/threads/nothing-but-respect-for-this-manual-ear-and-nose-hair-trimmer.1344976/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><p>I try not to be gross on this site, but if you are a man of about 30 or 40 years old you know that your body just gets weird as you age. If you have met a very old man you will see that the hair in their ear and nose area is often out of control. Generally speaking, products for grooming the nose and ear are badly made, annoyingly loud, and battery powered. The Golden Birdie by South Korean brand Royal is none of those things, which is why it is life changing to me.</p><p>Most nose and ear hair trimmers I have used have been battery powered and built like garbage. These things are usually anemic little wands that are way louder than they have any right to be and just take forever at the task of trimming your hairs. The noise is particularly an issue when it comes to your ears, because any motor noise placed directly there becomes borderline dangerous to your hearing. Your other option is plucking, and I can think of few parts of your body that are worse to pluck than your nose hair.</p><figure><figcaption>It comes with a tiny case for travel and a brush for cleaning. </figcaption></figure><p>For a long time I had assumed the solution was more technology, like a quieter motor, but it turns out the opposite was true. The Royal Golden Birdie is a spartan and analog grooming device. It can be used one handed and is meant to be placed between your thumb and index finger. The tip is two interlocking crown shaped prongs that close in on each other when pressure is exerted on both sides. The only noise it makes is a charming metallic rustling sound, like a lower registered version of a barber using shears. It comes apart easily for cleaning; you simply loosen a screw on it and pull the interior layer out to be cleaned with the included brush, which also fits in the case.</p><figure><figcaption>Royal also has a higher end model, but it requires two hands to use.</figcaption></figure><p>Royal makes several models, including a premium one where the brush is stored inside the device, but that one requires using two hands to operate the device itself. I went with the Golden Birdie, which is like five dollars more than the twelve dollar base unit, but I can’t tell what the difference is aside from the golden one claiming to be hypoallergenic. None of these devices cost more than 22 dollars, which is how much money falls out of me like Sonic The Hedgehog every time I leave my house these days.</p><figure><figcaption>Comes apart easily, simple to clean.</figcaption></figure><p>Unlike my nasty little Panasonic trimmer, the Golden Birdie just works. With 12 blades, nose and ear hairs just vanish after a handful of delightful little clicks. The Birdie is a joy to use in terms of both its exceeding simplicity and its tactile fidget toy feedback. It gives an otherwise unpleasant grooming task a mild ASMR atmosphere. The Birdie currently has about 11k largely positive reviews on Amazon, so I guess I’m not the only one who really likes this thing.</p><p>I have not put the Golden Birdie through the ringer for more than a few times, and I will concede that it might get shitty over time, but it’s an exceedingly simple device made entirely out of metal with few points of failure (like, say, a motor or battery), and even if it does fail me in the future it costs between a good sandwich and a very good sandwich to replace. That’s the joy when you find a simple solution to an age old problem – there’s just way fewer parts to screw up.</p></div><div><h2>Stay in touch</h2><p>Sign up for our free newsletter</p></div><div><h2><span>More from Aftermath</span></h2><div><div><a tabindex="0" href="https://aftermath.site/dispatch-telltale-games-adhoc-studio"><h3>Dispatch Brings Back The Halcyon  Era Of Online Water Cooler Talk</h3></a><p>Adhoc Studio’s superhero choose-your-own-adventure feels like a fun hole-in-the-wall, word-of-mouth-recommended spot that the gaming communities haven’t had in a minute</p></div><div><a tabindex="0" href="https://aftermath.site/mamdani-cuomo-nyc-mayor-election"><h3>Mamdani Won, And Also Cuomo Lost</h3></a><p>Mamdani can't solve all our problems, but at least he solved the problem of having to talk about Andrew Cuomo</p></div><div><a tabindex="0" href="https://aftermath.site/i-owe-my-workday-to-criterion-24-7"><h3>I Owe My Workday To Criterion 24/7</h3></a><p>If you’re going to have cotton candy, you have to eat your vegetables too.</p></div><div><a tabindex="0" href="https://aftermath.site/ea-saudi-arabia-creative-control-jared-kushner-donald-trump"><h3>EA Says It Will Retain Creative Control Following Saudi Sale, But, Like, Come On</h3></a><p>Big companies have shown time and time again that they'll say whatever is necessary to get mergers approved</p></div></div><a tabindex="0" href="https://aftermath.site/all">See all posts<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13m-6-7 7 7-7 7"></path></svg></a></div></div><br/><br/>https://aftermath.site/manual-ear-and-nosehair-trimmer]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Football Manager 26 update released on Steam public beta track]]></title>
             <link>https://www.thesixthaxis.com/2025/11/05/football-manager-26-update-released-on-steam-public-beta-track/</link>
@@ -933,7 +1536,7 @@
 
                   
           <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
-                <p>Early Black Friday deals are slowly trickling in, including a limited-time offer on NordVPN. The VPN company is offering its several of its <strong><a href="https://clicks.trx-hub.com/xid/fandom_32094_gamespot?fntitle=NordVPN%27s+Black+Friday+Deals+Will+Save+you+Hundreds+Of+Dollars&amp;fnauthor=mlobenza&amp;fndate=2025-11-05+10%3A13%3A00&amp;fnupdated=2025-11-05+12%3A07%3A31&amp;fnarticle_id=6535963&amp;fntype1=Tech&amp;fntype2=News&amp;fntype3=Deals&amp;q=https%3A%2F%2Fnordvpn.sjv.io%2Fc%2F1804712%2F417838%2F7452%3FsubId1%3Dsubid_value%26u%3Dhttps%253A%252F%252Fnordvpn.com%252Foffer%252Fpricing%252F%253Ftag%253Dgamespot-promos-20&amp;p=http%3A%2F%2Fwww.gamespot.com%2Farticles%2Fnordvpns-black-friday-deals-2025%2F1100-6535963%2F%3Fi%3Dxly&amp;event_type=click" data-target="true" target="_blank" rel="noopener nofollow">subscription plans for up to 77% off</a>, with an additional 3 months tacked on for even better value</strong>. Using a VPN is a good way to buff up your privacy capabilities and maintain access to region-locked content while traveling. If you've been on the fence, NordVPN's discounted prices make now a great time to consider a subscription.</p><p>NordVPN is offering all 24-month and 12-month versions of its Basic, Plus, Complete, and Prime subscription tiers at significant discounts, with an additional three months included. That's 15 total months of VPN service for far less than you'd normally pay.</p><p>The 24-month Prime plan offers the best value. It includes full access to the VPN, plus additional incentives such as 1TB of cloud storage, advanced identity protection, and the NordProtect service, which has a robust suite of insurance, Dark Web monitoring, and credit freeze assistance options. The 24-month Prime plan normally costs $836.73, but with the discount, new subscribers can sign up for just $186. That's a whopping $650 savings, and it includes the bonus three months, for a total of 27 months.</p><p>If you're looking for something in the short term, the 12-month plans are also discounted, and each one includes the three extra months. For example, the 12-month Prime subscription includes everything in the 24-month plan, but instead costs $127.35 (normally $464.85/year), and you're getting 15 months at that price thanks to the bonus three months.</p><p>We've included a quick breakdown of NordVPN's discounted plans below, and you can browse the full details of the deal at <a href="https://clicks.trx-hub.com/xid/fandom_32094_gamespot?fntitle=NordVPN%27s+Black+Friday+Deals+Will+Save+you+Hundreds+Of+Dollars&amp;fnauthor=mlobenza&amp;fndate=2025-11-05+10%3A13%3A00&amp;fnupdated=2025-11-05+12%3A07%3A31&amp;fnarticle_id=6535963&amp;fntype1=Tech&amp;fntype2=News&amp;fntype3=Deals&amp;q=https%3A%2F%2Fnordvpn.sjv.io%2Fc%2F1804712%2F417838%2F7452%3FsubId1%3Dsubid_value%26u%3Dhttps%253A%252F%252Fnordvpn.com%252Foffer%252Fpricing%252F%253Ftag%253Dgamespot-promos-20&amp;p=http%3A%2F%2Fwww.gamespot.com%2Farticles%2Fnordvpns-black-friday-deals-2025%2F1100-6535963%2F%3Fi%3Dxly&amp;event_type=click" data-target="true" target="_blank" rel="noopener nofollow">NordVPN's website</a>. NordVPN lists the monthly cost of its plans, but the 2-Year plans are actually billed every 24 months, and the 1-Year plans are billed annually, so you'll pay the full price for the subscription period upfront when you sign up. NordVPN also offers monthly plans, but these are not eligible for the Black Friday deal. It's also important to note that your subscription will revert to the standard price after the promotional period ends, unless you cancel or update your plan before the end of the promotional period.</p><h2>NordVPN Black Friday Deals</h2><h4>2-Year Plans</h4><ul><li>Basic 24-Month Plan + 3 Extra Months -- $80.73 (<del>$313</del>)</li><li>Plus 24-Month Plan + 3 Extra Months -- $105 (<del>$404.73</del>)</li><li>Complete 24-Month Plan + 3 Extra Months -- $132 (<del>$493.83</del>)</li><li>Prime 24-Month Plan + 3 Extra Months -- $186 (<del>$836.73</del>)</li></ul><h4>1-Year Plans</h4><ul><li>Basic 12-Month Plan + 3 Extra Months --$68.85 (<del>$173.85</del>)</li><li>Plus 12-Month Plan + 3 Extra Months -- $82.35 (<del>$224.85</del>)</li><li>Complete 12-Month Plan + 3 Extra Months -- $97.35 (<del>$274.35</del>)</li><li>Prime 12-Month Plan + 3 Extra Months -- $127.35 (<del>$464.85</del>)</li></ul><hr><p><strong>Sign up for GameSpot's Weekly Deals Newsletter:</strong></p><hr><div data-embed-type="pinbox" data-ref-id="4304">  <ul>                              <li><a href="https://www.gamespot.com/articles/legend-of-zelda-hyrule-warriors-age-of-imprisonment-nintendo-switch-2-exclusive-preorder-guide/1100-6534713/">Hyrule Warriors: Age Of Imprisonment Launch-Day Delivery Still Available At Amazon</a></li>                         <li><a href="https://www.gamespot.com/articles/nintendo-switch-2-officially-licensed-wireless-controllers-zelda-super-mario-pokemon-deals/1100-6535215/">Get Zelda-Themed Switch 2 Controllers For As Low As $25 For A Limited Time</a></li>                         <li><a href="https://www.gamespot.com/articles/best-xbox-elite-series-2-wireless-controller-deal-holiday-2025/1100-6535861/">Xbox Elite Series 2 Controller On Sale For Lowest Price This Year</a></li>                          <li>         <span>+ Show More More Gaming, Tech, and Entertainment Deals &amp; Preorders Links (5)</span>       </li>          <li><a href="https://www.gamespot.com/articles/microsoft-xbox-wireless-controller-best-deals-black-friday-2025/1100-6534446/">Xbox Wireless Controllers Discounted To $40 In Early Black Friday Sale</a></li>                         <li><a href="https://www.gamespot.com/articles/8bitdo-pro-3-wireless-controller-nintendo-switch-2-recommendation/1100-6533157/">8BitDo Pro 3 Nintendo Switch 2 &amp; PC Controller Discounted To New Low Price</a></li>                         <li><a href="https://www.gamespot.com/articles/lego-batman-classic-tv-series-batmobile-building-set-amazon-deal/1100-6535836/">Lego Classic TV Series Batmobile Gets Rare Discount At Amazon</a></li>                         <li><a href="https://www.gamespot.com/articles/digimon-the-movies-4-6-blu-ray-collection-up-for-preorder-at-amazon/1100-6535809/">Digimon The Movies 4-6 Blu-Ray Collection Up For Preorder At Amazon</a></li>                         <li><a href="https://www.gamespot.com/articles/astro-bot-ps5-best-official-playstation-figures-plush-collectors-box/1100-6535705/">Adorable New Astro Bot Collectibles Are Waiting To Be Rescued By You</a></li>   </ul> </div>
+                <p>Early Black Friday deals are slowly trickling in, including a limited-time offer on NordVPN. The VPN company is offering its several of its <strong><a href="https://clicks.trx-hub.com/xid/fandom_32094_gamespot?fntitle=NordVPN%27s+Black+Friday+Deals+Will+Save+you+Hundreds+Of+Dollars&amp;fnauthor=mlobenza&amp;fndate=2025-11-05+10%3A13%3A00&amp;fnupdated=2025-11-05+12%3A07%3A31&amp;fnarticle_id=6535963&amp;fntype1=Tech&amp;fntype2=News&amp;fntype3=Deals&amp;q=https%3A%2F%2Fnordvpn.sjv.io%2Fc%2F1804712%2F417838%2F7452%3FsubId1%3Dsubid_value%26u%3Dhttps%253A%252F%252Fnordvpn.com%252Foffer%252Fpricing%252F%253Ftag%253Dgamespot-promos-20&amp;p=http%3A%2F%2Fwww.gamespot.com%2Farticles%2Fnordvpns-black-friday-deals-2025%2F1100-6535963%2F&amp;event_type=click" data-target="true" target="_blank" rel="noopener nofollow">subscription plans for up to 77% off</a>, with an additional 3 months tacked on for even better value</strong>. Using a VPN is a good way to buff up your privacy capabilities and maintain access to region-locked content while traveling. If you've been on the fence, NordVPN's discounted prices make now a great time to consider a subscription.</p><p>NordVPN is offering all 24-month and 12-month versions of its Basic, Plus, Complete, and Prime subscription tiers at significant discounts, with an additional three months included. That's 15 total months of VPN service for far less than you'd normally pay.</p><p>The 24-month Prime plan offers the best value. It includes full access to the VPN, plus additional incentives such as 1TB of cloud storage, advanced identity protection, and the NordProtect service, which has a robust suite of insurance, Dark Web monitoring, and credit freeze assistance options. The 24-month Prime plan normally costs $836.73, but with the discount, new subscribers can sign up for just $186. That's a whopping $650 savings, and it includes the bonus three months, for a total of 27 months.</p><p>If you're looking for something in the short term, the 12-month plans are also discounted, and each one includes the three extra months. For example, the 12-month Prime subscription includes everything in the 24-month plan, but instead costs $127.35 (normally $464.85/year), and you're getting 15 months at that price thanks to the bonus three months.</p><p>We've included a quick breakdown of NordVPN's discounted plans below, and you can browse the full details of the deal at <a href="https://clicks.trx-hub.com/xid/fandom_32094_gamespot?fntitle=NordVPN%27s+Black+Friday+Deals+Will+Save+you+Hundreds+Of+Dollars&amp;fnauthor=mlobenza&amp;fndate=2025-11-05+10%3A13%3A00&amp;fnupdated=2025-11-05+12%3A07%3A31&amp;fnarticle_id=6535963&amp;fntype1=Tech&amp;fntype2=News&amp;fntype3=Deals&amp;q=https%3A%2F%2Fnordvpn.sjv.io%2Fc%2F1804712%2F417838%2F7452%3FsubId1%3Dsubid_value%26u%3Dhttps%253A%252F%252Fnordvpn.com%252Foffer%252Fpricing%252F%253Ftag%253Dgamespot-promos-20&amp;p=http%3A%2F%2Fwww.gamespot.com%2Farticles%2Fnordvpns-black-friday-deals-2025%2F1100-6535963%2F&amp;event_type=click" data-target="true" target="_blank" rel="noopener nofollow">NordVPN's website</a>. NordVPN lists the monthly cost of its plans, but the 2-Year plans are actually billed every 24 months, and the 1-Year plans are billed annually, so you'll pay the full price for the subscription period upfront when you sign up. NordVPN also offers monthly plans, but these are not eligible for the Black Friday deal. It's also important to note that your subscription will revert to the standard price after the promotional period ends, unless you cancel or update your plan before the end of the promotional period.</p><h2>NordVPN Black Friday Deals</h2><h4>2-Year Plans</h4><ul><li>Basic 24-Month Plan + 3 Extra Months -- $80.73 (<del>$313</del>)</li><li>Plus 24-Month Plan + 3 Extra Months -- $105 (<del>$404.73</del>)</li><li>Complete 24-Month Plan + 3 Extra Months -- $132 (<del>$493.83</del>)</li><li>Prime 24-Month Plan + 3 Extra Months -- $186 (<del>$836.73</del>)</li></ul><h4>1-Year Plans</h4><ul><li>Basic 12-Month Plan + 3 Extra Months --$68.85 (<del>$173.85</del>)</li><li>Plus 12-Month Plan + 3 Extra Months -- $82.35 (<del>$224.85</del>)</li><li>Complete 12-Month Plan + 3 Extra Months -- $97.35 (<del>$274.35</del>)</li><li>Prime 12-Month Plan + 3 Extra Months -- $127.35 (<del>$464.85</del>)</li></ul><hr><p><strong>Sign up for GameSpot's Weekly Deals Newsletter:</strong></p><hr><div data-embed-type="pinbox" data-ref-id="4304">  <ul>                              <li><a href="https://www.gamespot.com/articles/legend-of-zelda-hyrule-warriors-age-of-imprisonment-nintendo-switch-2-exclusive-preorder-guide/1100-6534713/">Hyrule Warriors: Age Of Imprisonment Launch-Day Delivery Still Available At Amazon</a></li>                         <li><a href="https://www.gamespot.com/articles/nintendo-switch-2-officially-licensed-wireless-controllers-zelda-super-mario-pokemon-deals/1100-6535215/">Get Zelda-Themed Switch 2 Controllers For As Low As $25 For A Limited Time</a></li>                         <li><a href="https://www.gamespot.com/articles/best-xbox-elite-series-2-wireless-controller-deal-holiday-2025/1100-6535861/">Xbox Elite Series 2 Controller On Sale For Lowest Price This Year</a></li>                          <li>         <span>+ Show More More Gaming, Tech, and Entertainment Deals &amp; Preorders Links (5)</span>       </li>          <li><a href="https://www.gamespot.com/articles/microsoft-xbox-wireless-controller-best-deals-black-friday-2025/1100-6534446/">Xbox Wireless Controllers Discounted To $40 In Early Black Friday Sale</a></li>                         <li><a href="https://www.gamespot.com/articles/8bitdo-pro-3-wireless-controller-nintendo-switch-2-recommendation/1100-6533157/">8BitDo Pro 3 Nintendo Switch 2 &amp; PC Controller Discounted To New Low Price</a></li>                         <li><a href="https://www.gamespot.com/articles/lego-batman-classic-tv-series-batmobile-building-set-amazon-deal/1100-6535836/">Lego Classic TV Series Batmobile Gets Rare Discount At Amazon</a></li>                         <li><a href="https://www.gamespot.com/articles/digimon-the-movies-4-6-blu-ray-collection-up-for-preorder-at-amazon/1100-6535809/">Digimon The Movies 4-6 Blu-Ray Collection Up For Preorder At Amazon</a></li>                         <li><a href="https://www.gamespot.com/articles/astro-bot-ps5-best-official-playstation-figures-plush-collectors-box/1100-6535705/">Adorable New Astro Bot Collectibles Are Waiting To Be Rescued By You</a></li>   </ul> </div>
   
                         
     
@@ -996,12 +1599,23 @@
                           </div></div><br/><br/>https://kotaku.com/nintendo-store-app-music-too-many-switch-2-iphone-phone-2000641401]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Dante's Inferno Sequel Would Have Taken Its Hero Through A War In Purgatory]]></title>
-            <link>https://www.gamespot.com/articles/dantes-inferno-sequel-would-have-taken-its-hero-through-a-war-in-purgatory/1100-6535967/?ftag=CAD-01-10abi2f</link>
-            <guid>https://www.resetera.com/threads/dantes-inferno-sequel-would-have-taken-its-hero-through-a-war-in-purgatory.1344844/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p>
+            <title><![CDATA[All the New Peak Badges In The Roots Biome]]></title>
+            <link>https://www.gamespot.com/articles/all-the-new-peak-badges-in-the-roots-biome/1100-6535966/?ftag=CAD-01-10abi2f</link>
+            <guid>https://www.resetera.com/threads/all-the-new-peak-badges-in-the-roots-biome.1344847/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="site-main">
+
+      
+                    
+  
+              <header id="masthead"><nav></nav></header>      
+                            <div id="site-wrapper" role="main">
+          <div id="default-content">
+        
+          <p>
     <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
-  </p><article itemscope="" data-type-id="1100" data-guid="1100-6535967">
+  </p>
+  
+    <article itemscope="" data-type-id="1100" data-guid="1100-6535966">
 
             
             
@@ -1019,7 +1633,7 @@
 
                   
           <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
-                <p>In 2010, Visceral Games and Electronic Arts unleashed <a href="https://www.gamespot.com/games/dantes-inferno/" data-ref-id="5000-40808">Dante's Inferno</a>, an action-adventure game that was their answer to God of War. The story was very loosely inspired by Dante Alighieri's classic text, The Divine Comedy, as Dante sought to retrieve the soul of his wife, Beatrice, from Hell while facing Lucifer and the forces of evil. Now, 15 years after the game's release, new details have emerged about the canceled sequel, Dante's Inferno 2: Purgatorio.</p><p><a href="https://www.ign.com/articles/inside-dantes-purgatorio-the-cancelled-sequel-to-eas-dantes-inferno" data-target="true" target="_blank" rel="noopener nofollow">IGN</a> has an extensive report about Purgatorio, which includes a comprehensive breakdown of the story. The follow-up was envisioned as the inverse of the first game, as Dante was meant to scale Mount Purgatory to reunite with Beatrice and reach the Garden of Eden on top. However, each layer of the mountain represented one of the Seven Deadly Sins, and Dante had to both purge himself of those sins and defeat the embodiment of each one.</p><p>Dante also would have found himself in the middle of a war between Heaven and Hell, which he inadvertently set off by allowing Lucifer to escape Hell and invade Purgatory. St. Lucia--Dante's guardian angel from the first game's DLC--and the poet Virgil would have returned to guide Dante on his journey. To reach his goal, Dante would have to defeat some lethal archangels who considered him to be their enemy.</p><p>Along the way, Dante would have reunited and reconciled with Beatrice and banished her evil side from her. Or at least that's what he thought he did. In the game's closing moments, Dante and Beatrice made it all the way to Heaven, just for the former to discover that Lucifer had tricked him again. Through Beatrice, Lucifer murders Dante and casts him all the way back down to Hell. The only hope that ending offered is the spirit of St. Lucia, who assures Dante that even his death was part of God's plan.</p><p>The proposed third game, Dante’s Inferno 3: Paradiso, would have brought the war between Heaven and Hell to Earth and introduced Dante and Beatrice's daughter, who would be among the mortal warriors who fight alongside angels to reclaim Heaven from Lucifer and save Beatrice. God's plan would have been revealed as a plot to tear down the unforgiving ritual of sending souls to Heaven or Hell and replace it with something more compassionate.</p><p>Unfortunately, these ideas will likely never see the light of day as a game. But it's an intriguing look at what could have been.</p>
+                <p>Peak's newest biome is finally here. A flurry of new badges is also available, greatly expanding the number of cosmetics you can use to decorate your scout. The Roots update adds 11 new badges to the hiking hit.</p><figure data-align="center" data-size="large" data-img-src="https://www.gamespot.com/a/uploads/original/1595/15957481/4597147-3527290_200.jpg" data-ref-id="1300-4597147" data-ratio="0.5625" data-width="1920" data-embed-type="image"><a href="https://www.gamespot.com/a/uploads/original/1595/15957481/4597147-3527290_200.jpg" data-ref-id="1300-4597147"></a><img src="https://www.gamespot.com/a/uploads/original/1595/15957481/4597147-3527290_200.jpg"></figure><p>The badges include climbing through the new biome, eating new types of consumables, and using new items to help save your friends’ fragile lives. The list of new accolade challenges includes:</p><ul><li>Climb past the Roots</li><li>Climb past the Roots without ever having more than 25% spores</li><li>Escape a spider's web and survive</li><li>Cure yourself from a zombie bite</li><li>Try all 5 types of Shroomberry in a single expedition</li><li>Pull an unconscious friend 30m with the Rescue Claw</li><li>Block 100 total damage with the Fortified Milk</li><li>Eat 3 hot dogs in 5 seconds or less</li><li>Resurrect friend using unholy means</li><li>Bounce up to 40m off a mushroom</li><li>Cook and eat a Mandrake</li></ul><p>As you can see, the new update brings plenty more to do while climbing. Achievement hunters who previously collected all badges will now have even more challenges with the Roots update.</p><p>This new update has players flocking back to Peak. Landfall's breakout cooperative multiplayer game currently has more than <a href="https://steamdb.info/app/3527290/charts/" data-target="true" target="_blank" rel="noopener nofollow">50,000 players</a> trying to climb through the new Roots biome. While that’s not quite close to its 170,000-player peak, it’s still a hefty number of players.</p>
   
                         
     
@@ -1043,271 +1657,18 @@
       </section>
     
             
-    </article></div><br/><br/>https://www.gamespot.com/articles/dantes-inferno-sequel-would-have-taken-its-hero-through-a-war-in-purgatory/1100-6535967/?ftag=CAD-01-10abi2f]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Original Switch Will Not Be Removed From Sale, But Nintendo Will Focus On Switch 2 Going Forward]]></title>
-            <link>https://www.gamespot.com/articles/original-switch-will-not-be-removed-from-sale-but-nintendo-will-focus-on-switch-2-going-forward/1100-6535968/?ftag=CAD-01-10abi2f</link>
-            <guid>https://www.resetera.com/threads/original-switch-will-not-be-removed-from-sale-but-nintendo-will-focus-on-switch-2-going-forward.1344841/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p>
-    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
-  </p><article itemscope="" data-type-id="1100" data-guid="1100-6535968">
-
-            
-            
-  
-
-
-        
-
-  
-
-
-        
-        
-              <section>
-
-                  
-          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
-                <p>As part of Nintendo's<a href="https://www.nintendo.co.jp/ir/pdf/2025/251104_4e.pdf" data-target="true" target="_blank" rel="noopener nofollow"> latest earnings report</a>, the company disclosed plans for the original Switch now that the <a href="https://www.gamespot.com/articles/switch-2-demand-has-exceeded-expectations-nintendo-apologizes-for-global-shortages/1100-6535958/" data-ref-id="1100-6535958">Switch 2 is in the market and putting up big sales numbers</a>. The original Switch will continue to be sold, Nintendo confirmed, but the company will focus on the Switch 2 going ahead.</p><p>"While our business focus will shift to Nintendo Switch 2, Nintendo Switch has maintained a steady sales pace even after the June launch of its successor. While taking consumer demand and the business environment into consideration, we will continue sales of Nintendo Switch hardware," Nintendo said.</p><p>In total, Nintendo has sold 154.01 million Switch consoles worldwide through September 30, and that's <a href="https://www.gamespot.com/articles/switch-is-about-to-pass-ds-to-become-nintendos-best-selling-platform-ever-but-may-not-beat-ps2/1100-6535912/" data-ref-id="1100-6535912">just 10,000 units short of passing the DS</a> to become Nintendo's best-selling platform of all time.</p><p>The Switch is still millions of units short of catching up to the PS2, which is the best-selling console of all time with an estimated 160 million units sold. At least one expert believes the Switch <a href="https://www.gamespot.com/articles/switch-is-about-to-pass-ds-to-become-nintendos-best-selling-platform-ever-but-may-not-beat-ps2/1100-6535912/" data-ref-id="1100-6535912">will not catch the PS2.</a></p><p>Earlier this year, Nintendo <a href="https://www.gamespot.com/articles/nintendo-increasing-price-of-switch-and-other-devices-in-the-us/1100-6533633/" data-ref-id="1100-6533633">raised prices on the original Switch and a variety of accessories</a> due in part to the impact of tariffs.</p><p>Looking ahead, Nintendo is predicting to sell fewer Switch consoles than before. For the current fiscal year, Nintendo is now expecting to sell 4 million units, down from a previous prediction of 4.5 million. However, Nintendo is revising Switch game sales up from 105 million to 125 million.</p><p>For the Switch 2, meanwhile, Nintendo is raising projections from 15 million to 19 million for the current fiscal year. The Switch 2 has sold more than 10 million units worldwide, making it the fastest-selling Nintendo platform ever over its first four months.</p>
-  
-                        
-    
-        
-        
-  
-                                  </div>
-
-
-          
-  
-    
-          
-            
-  <div>
-    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
+    </article>
 
     
-      </div>
+  
+
         
-      </section>
-    
-            
-    </article></div><br/><br/>https://www.gamespot.com/articles/original-switch-will-not-be-removed-from-sale-but-nintendo-will-focus-on-switch-2-going-forward/1100-6535968/?ftag=CAD-01-10abi2f]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Google to reduce Play Store fees after settlement with Epic Games]]></title>
-            <link>https://www.gamedeveloper.com/mobile/google-to-reduce-play-store-fees-after-settlement-with-epic-games</link>
-            <guid>https://www.resetera.com/threads/google-to-reduce-play-store-fees-after-settlement-with-epic-games.1344838/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-component="captioned-content" data-testid="featured-image"><p><span>Image by AlexPhotoStock via Adobe Stock.</span></p></div><div data-module="content" data-testid="article-base-body-content"><p data-testid="content-paragraph"><span data-testid="content-text"><a target="_blank" href="https://x.com/ssamat/status/1985920218602918343">Google</a></span><span data-testid="content-text"> and </span><span data-testid="content-text"><a target="_blank" href="https://x.com/TimSweeneyEpic/status/1985920786545123613">Epic Games</a></span><span data-testid="content-text"> are both trumpeting a proposed settlement to the latter company's 2020 lawsuit, </span><span data-testid="content-text"><a target="_self" href="https://www.gamedeveloper.com/business/_fortnite_-maker-epic-wins-antitrust-lawsuit-against-google">two years after a federal judge</a></span><span data-testid="content-text"> ruled the Google Play application store constituted an illegal monopoly.</span></p><p data-testid="content-paragraph"><span data-testid="content-text"><a target="_blank" href="https://www.theverge.com/policy/813991/epic-google-proposed-settlement">According to The Verge</a></span><span data-testid="content-text">, </span><span data-testid="content-text"><a target="_blank" href="https://fingfx.thomsonreuters.com/gfx/legaldocs/xmpjqoyrbvr/Epic%20-%20Google%20settlement%2020251104.pdf">the settlement</a></span><span data-testid="content-text"> (which needs to be approved by the judge) introduces a new tiered service fee system that allows developers to retain a larger cut of each transaction for their apps. Google will charge a 20 percent fee on in-app purchases that provide "more than a de minimis gameplay advantage, and a 9 percent fee for other purchases like in-app subscriptions and purchasing premium games.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Google can still charge another fee for transactions that take place through Play Billing, though developers will now be able to include alternative payment options that can be shown side-by-side with Google's in-game purchasing platform. They would be free to set different prices for transactions on alternative platforms.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">This is a compromise on Epic's part. The company previously demanded Google stop forcing developers to implement Google Play Billing.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Finally, Google is promising to remove "scare screens" and allow easy installation of approved alternative app stores. App store operators can seek approval through &nbsp;a "Registered App Store" program.</span></p><p data-component="related-article"><span data-testid="related-article-title">Related:</span><a href="https://www.gamedeveloper.com/mobile/pokemon-tcg-pocket-has-eclipsed-150-million-downloads" target="_self" data-discover="true">Pokemon TCG Pocket has eclipsed 150 million downloads</a></p><p data-testid="content-paragraph"><span data-testid="content-text"><a target="_blank" href="https://x.com/ssamat/status/1985920218602918343">Over on X</a></span><span data-testid="content-text">, Android president Sameer Samat said these changes "focus on expanding developer choice and flexibility, lowering fees, and encouraging more competition all while keeping users safe."</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Epic Games CEO Tim Sweeney </span><span data-testid="content-text"><a target="_blank" href="https://x.com/TimSweeneyEpic/status/1985920786545123613">concurred</a></span><span data-testid="content-text">, calling the propose settlement "awesome." "It genuinely doubles down on Android's original vision as an open platform to streamline competing store installs globally, reduce service fees for developers on Google Play, and enable third-party in-app and web payments," he said.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">He then took a swing at iOS creator Apple, </span><span data-testid="content-text"><a target="_blank" href="https://apnews.com/article/apple-epic-games-ruling-antitrust-violated-69b16572d2b2c990f6b69d4bbad9b57b">which Epic is still brawling with in court</a></span><span data-testid="content-text">. "This is a comprehensive solution, which stands in contrast to Apple’s model of blocking all competing stores and leaving payments as the only vector for competition."</span></p></div><div><h2>About the Author</h2><div data-component="contributor-summary"><p data-testid="contributor-summary-subtitle">Senior Editor, GameDeveloper.com</p><div><p data-testid="content-paragraph"><span data-testid="content-text">Bryant Francis is a writer, journalist, and narrative designer based in Boston, MA. He currently writes for Game Developer, a leading B2B publication for the video game industry. His credits include Proxy Studios' upcoming 4X strategy game Zephon and Amplitude Studio's 2017 game Endless Space 2.</span></p></div></div></div></div><br/><br/>https://www.gamedeveloper.com/mobile/google-to-reduce-play-store-fees-after-settlement-with-epic-games]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Dispatch Sells Over 1 Million Copies In First 10 Days]]></title>
-            <link>https://gameinformer.com/2025/11/05/dispatch-sells-over-1-million-copies-in-first-10-days</link>
-            <guid>https://www.resetera.com/threads/dispatch-sells-over-1-million-copies-in-first-10-days.1344835/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div property="schema:text"><p><a href="https://gameinformer.com/feature/2025/08/26/suiting-back-up">Dispatch</a>, the episodic superhero narrative adventure, has been a critical success since the launch of its first two episodes on October 22. This positive word of mouth seems to be working, as developer AdHoc Studios has announced it has sold over 1 million copies of Dispatch within its first 10 days of launch.</p><p>The game, which stars <em>Breaking Bad</em>’s Aaron Paul as a down-on-his-luck former superhero working as a dispatcher for reformed supervillains, is created by former Telltale Games writers and sports a similar choice-driven narrative-focused format. Dispatch is an eight-episode adventure, with Episodes 5 and 6 dropping today (and every Wednesday). We still have to wait until next week’s finale to see how AdHoc sticks the landing, but Dispatch has garnered near-unanimous praise for its writing, story, character development, and performances from actors such as Laura Bailey, Jeffery Wright, and Erin Yvette, to famous content creators including Jacksepticeye, Joel Haver, and MoistCr1TiKaL. Its impressive sales numbers complement an overwhelmingly positive 93% critical rating on <a href="https://www.metacritic.com/game/dispatch/">Metacritic</a>.</p><p height="360" width="640" url="https://www.youtube.com/embed/fTVgX7b1N8E"><iframe width="640" height="360" src="https://www.youtube.com/embed/fTVgX7b1N8E" frameborder="0" allow="autoplay" allowfullscreen="true">&nbsp;</iframe></p><p>“It’s always a little strange when the numbers get so big you have to talk about them,” says Michael Choung, AdHoc Studio's CEO and executive producer, in a press release. “A week ago, we were just as thrilled watching Let's Plays and reaction videos. But milestones like this matter. They mean AdHoc will be able to make more story-driven episodic originals, and we hope it means it'll be easier for other devs to do the same. Hard to believe we’re only halfway done.”</p><p>Dispatch is available now on PlayStation 5 and PC for $29.99. Be sure to check out our <a href="https://gameinformer.com/interview/2025/10/14/aaron-paul-opens-up-about-dispatch-his-first-video-game-performance-it-was">interview with Aaron Paul</a>, where he discusses his thoughts on playing Dispatch’s protagonist, Robert Robertson.</p></div></div><br/><br/>https://gameinformer.com/2025/11/05/dispatch-sells-over-1-million-copies-in-first-10-days]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Disneyland Game Rush Brings The Disney Parks To Fortnite For A Limited Time Starting Tomorrow]]></title>
-            <link>https://wccftech.com/disneyland-game-rush-brings-disney-parks-to-fortnite-starting-tomorrow/</link>
-            <guid>https://www.resetera.com/threads/disneyland-game-rush-brings-the-disney-parks-to-fortnite-for-a-limited-time-starting-tomorrow.1344817/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			
-			<p>Starting tomorrow, Fortnite players will be able to jump into a new creative island made by Epic Games called Disneyland Game Rush. It's a limited-time creative island that includes seven mini games, each inspired by different famous Disneyland and Disney World attractions and rides as part of the 70th anniversary of Disneyland.</p>
-
-
-
-<p>It's not the massive persistent universe that Fortnite and Disney <a href="https://wccftech.com/disney-invests-1-5-billion-in-epic-to-create-a-persistent-universe-in-fortnite-based-on-its-franchises/">have been planning and working on for more than a year now</a>, but it's perhaps a small glimpse as to what that might look like, and from a technical standpoint, a big step forward towards creating the look of the Disney theme parks within Fortnite.</p>
-
-
-
-<p>The seven mini-games include games based on newer attractions, like the Guardians of the Galaxy - Mission: Sneak Out! game, based on the Guardians of the Galaxy - Mission: Breakout ride, has you sneaking around and completing the mission without being caught. A Star Wars: Stormtrooper Showdown mini-game has you putting down as many Stormtroopers as possible.</p>
-
-
-
-<p>However, for the big Disney parks fans, the more meaningful mini-games are likely the ones based on Disney parks classics, like the Space Mountain: Rocket Race mini-game, the Metterhorn: Slip-and-Climb mini-game, and the Haunted Mansion: Scavenger Haunt mini-game.</p>
-
-
-
-<p>A report from<a href="https://www.ign.com/articles/fortnites-disneyland-game-rush-is-an-incredibly-authentic-first-step-into-fortnite-for-disney-parks?utm_source=threads,twitter"> IGN includes some screenshots</a> of the game modes and what players can expect when they jump into the island once it is available to the public tomorrow, November 6, 2025.</p>
-
-
-<figure>
-<div>
-
-<figure>
-<figure><figcaption><em>Fortnite Disneyland Game Rush. Image credit: Disney, via IGN</em></figcaption></figure>
-
-
-
-<figure><figcaption><em>Fortnite Disneyland Game Rush. Image credit: Disney, via IGN</em></figcaption></figure>
-
-
-
-<figure><figcaption><em>Fortnite Disneyland Game Rush. Image credit: Disney, via IGN</em></figcaption></figure>
-
-
-
-<figure><figcaption><em>Fortnite Disneyland Game Rush. Image credit: Disney, via IGN</em></figcaption></figure>
-
-
-
-<figure><figcaption><em>Fortnite Disneyland Game Rush. Image credit: Disney, via IGN</em></figcaption></figure>
-
-
-
-<figure><figcaption><em>Fortnite Disneyland Game Rush. Image credit: Disney, via IGN</em></figcaption></figure>
-
-
-
-<figure><figcaption><em>Fortnite Disneyland Game Rush. Image credit: Disney, via IGN</em></figcaption></figure>
-
-
-
-<figure><figcaption><em>Fortnite Disneyland Game Rush. Image credit: Disney, via IGN</em></figcaption></figure>
-</figure>
-<div>
-				    		
-				    		
-					    	<p><span>2 of 9</span>
-				    	</p></div>
+  
 </div>
-</figure>
-
-
-
-<p>When the island is publicly available tomorrow, you can find it by searching for it with this code: 4617-4819-8826.</p>
-
-
-
-
-
-			
-			<p>Follow <a href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> or <a href="https://google.com/preferences/source?q=wccftech.com">add us as a preferred source</a>, to get our news coverage and reviews in your feeds.</p>
-
-		</div></div><br/><br/>https://wccftech.com/disneyland-game-rush-brings-disney-parks-to-fortnite-starting-tomorrow/]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[The Legend of Zelda Movie Has Seemingly Started Filming]]></title>
-            <link>https://insider-gaming.com/the-legend-of-zelda-movie-filming-rumor/</link>
-            <guid>https://www.resetera.com/threads/the-legend-of-zelda-movie-has-seemingly-started-filming.1344811/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-        
-<p>According to an updated listing, The Legend of Zelda live-action film has started production. Previously, the Nintendo/Sony movie, based on the iconic franchise, was in pre-production and set to release in 2027.</p>
-
-
-
-<p>The success of Nintendo’s film projects has only gained speed thanks to <a href="https://insider-gaming.com/super-mario-bros-movie-record-breaking/" target="_blank" rel="noreferrer noopener">The Super Mario Bros</a>. Movie in 2023. Its blockbuster sales at the Box Office proved that bringing iconic IPs to the screen can work if done well. Interestingly, the next project announced was a highly ambitious live-action adaptation of <a href="https://insider-gaming.com/the-legend-of-zelda-is-finally-getting-a-movie/" target="_blank" rel="noreferrer noopener">The Legend of Zelda</a>. Helmed by The Maze Runner’s Wes Ball, the film plans to release on May 7th, 2027. Casting has been done for <a href="https://insider-gaming.com/link-and-zelda-actors-confirmed-nintendo-legend-of-zelda/" target="_blank" rel="noreferrer noopener">Link and Zelda</a>, but not much else is known. Well, now we may be getting some more information soon, if the listing is correct.</p>
-
-
-
-<h2 id="h-the-live-action-legend-of-zelda-film-is-in-production-listing-claims">The Live-Action Legend of Zelda Film Is In Production, Listing Claims</h2>
-
-
-
-<figure></figure>
-
-
-
-<p>In <a href="https://productionlist.com/production/the-legend-of-zelda/" target="_blank" rel="noreferrer noopener nofollow">a listing from ProductionList</a>, it says that Sony’s The Legend of Zelda is now in production. If true, this means that casting and crew have been assigned and filming has begun. The filming dates are from November 4th, 2025, to April 7th, 2026. As for where it’s set to film, the site lists Wellington, New Zealand. Wellington is a major hub for movies like Avatar, The Lord of the Rings, and King Kong, so it makes sense for The Legend of Zelda to be there.</p>
-
-
-
-<p>It’s important to note that Nintendo has not confirmed that filming has started, so take the news with a grain of salt until then. However, seeing as the world of Hyrule will likely spend some time in post-production for CGI and such, filming now makes sense. The film had already been delayed from March 2027 to May 2027. Coincidentally, the movie is being filmed during the 40th anniversary of The Legend of Zelda franchise. Perhaps we could see some set photos and maybe even a teaser in early 2026? We’ll have to wait and see for now!</p>
-
-
-
-<p>What do you think of The Legend of Zelda starting filming? Do you think the series can work in live-action? Who’s your dream Ganondorf casting? Any game you hope it adapts? Let us know in the comments and on <a href="https://discord.com/invite/vwj7zdWxaW" target="_blank" rel="noreferrer noopener nofollow">the official Insider Gaming Discord</a>!</p>
-
-
-
-<hr>
-
-
-
-<p>For more Zelda news, check out our articles on <a href="https://insider-gaming.com/hyrule-warriors-age-of-imprisonment-new-trailer-nintendo-switch/" target="_blank" rel="noreferrer noopener">Hyrule Warriors: Age of Imprisonment</a> and <a href="https://insider-gaming.com/nintendo-movie-franchises-mario-zelda-future/" target="_blank" rel="noreferrer noopener">Nintendo’s plans to adapt other IPs</a>. Make sure to <a href="https://insider-gaming.com/subscribe/" target="_blank" rel="noreferrer noopener">subscribe to our weekly newsletter</a>!</p>
-    <div id="ig-newsletter-holder">
-            <p><span>
-                    SUBSCRIBE to our newsletter to receive the latest news and exclusive leaks every week! No Spam.
-                </span>
-            </p>
-            
-        </div>
-
-    </div></div><br/><br/>https://insider-gaming.com/the-legend-of-zelda-movie-filming-rumor/]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Here's Everything Coming To CoD: Black Ops 7 Multiplayer At Launch]]></title>
-            <link>https://www.gamespot.com/articles/heres-everything-coming-to-cod-black-ops-7-multiplayer-at-launch/1100-6535964/?ftag=CAD-01-10abi2f</link>
-            <guid>https://www.resetera.com/threads/heres-everything-coming-to-cod-black-ops-7-multiplayer-at-launch.1344808/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p>
-    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
-  </p><article itemscope="" data-type-id="1100" data-guid="1100-6535964">
-
-            
-            
-  
-
-
-        
-
-  
-
-
-        
-        
-              <section>
-
-                  
-          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
-                <p><a href="https://www.gamespot.com/games/call-of-duty-black-ops-7/" data-ref-id="5000-681591">Call of Duty: Black Ops 7</a> releases on November 14, and Treyarch has released more information about the multiplayer content players can expect at launch. This includes the full list of multiplayer maps, game modes, and operators available in Black Ops 7 before the launch of Season 1.</p><p dir="ltr">For maps, Black Ops 7 launches with 18 multiplayer maps. This list consists of 16 core 6v6 maps, while the additional two are large-scale 20v20 maps designed for Black Ops 7's new Skirmish mode. Most of the maps are brand new, but the game does include a few popular remasters from Black Ops 2. The full list of launch maps can be seen below.</p>
-
-
-
-    
-  <div>
-
-    <div tabindex="0" data-id="337677924" data-promo-id="0" data-user-has-ads="1" data-video="{&quot;id&quot;:6466508,&quot;title&quot;:&quot;Call%20of%20Duty%3A%20Black%20Ops%207%20%7C%20Official%20Launch%20And%20PC%20Features%20Overview%20Trailer&quot;,&quot;lengthSeconds&quot;:84,&quot;startTime&quot;:0,&quot;autoplay&quot;:true,&quot;share&quot;:{&quot;linkUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/call-of-duty-black-ops-7-official-launch-and-pc-features-overview-trailer\/2300-6466508\/&quot;,&quot;embedUrl&quot;:&quot;https:\/\/www.gamespot.com\/videos\/embed\/6466508\/&quot;,&quot;embedHtml&quot;:{&quot;640&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6466508\/\&quot; height=\&quot;360\&quot; width=\&quot;640\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;,&quot;480&quot;:&quot;\n\n\n\n\n\n\n\n\n\n<iframe src=\&quot;https:\/\/www.gamespot.com\/videos\/embed\/6466508\/\&quot; height=\&quot;270\&quot; width=\&quot;480\&quot; scrolling=\&quot;no\&quot; frameborder=\&quot;\&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe>&quot;}},&quot;device&quot;:&quot;other&quot;,&quot;isDevice&quot;:false,&quot;isLiveStream&quot;:false,&quot;videoType&quot;:&quot;video-on-demand&quot;,&quot;countdownTime&quot;:0,&quot;guid&quot;:&quot;gs-2300-6466508&quot;,&quot;ageGateCookieName&quot;:&quot;videoAgeGateBirthday&quot;,&quot;watchedCookieName&quot;:&quot;watchedVideoIds&quot;,&quot;watchedCookieDays&quot;:1,&quot;postPlayMax&quot;:100,&quot;adCall&quot;:{&quot;host&quot;:&quot;http:\/\/pubads.g.doubleclick.net\/gampad\/ads?&quot;,&quot;params&quot;:{&quot;iu&quot;:&quot;\/5441\/vaw-gamespot\/desktop\/gamespot.com&quot;,&quot;impl&quot;:&quot;s&quot;,&quot;gdfp_req&quot;:1,&quot;env&quot;:&quot;vp&quot;,&quot;output&quot;:&quot;xml_vmap1&quot;,&quot;unviewed_position_start&quot;:1,&quot;url&quot;:&quot;[referrer_url]&quot;,&quot;correlator&quot;:&quot;[timestamp]&quot;,&quot;description_url&quot;:&quot;[description_url]&quot;,&quot;cmsid&quot;:2566084,&quot;vid&quot;:6466508,&quot;pp&quot;:&quot;vpaid_js&quot;},&quot;custParams&quot;:{&quot;ptype&quot;:&quot;news_article&quot;,&quot;cid&quot;:&quot;gs-1100-6535964&quot;,&quot;game&quot;:&quot;call-of-duty-black-ops-7&quot;,&quot;genre&quot;:&quot;action,first-person,shooter,tactical&quot;,&quot;con&quot;:&quot;xbox-series-x,pc,playstation-5,playstation-4,xbox-one&quot;,&quot;publisher&quot;:&quot;activision,microsoft&quot;,&quot;embed&quot;:&quot;autoplay&quot;,&quot;franchise&quot;:&quot;call-of-duty&quot;,&quot;category&quot;:&quot;games&quot;,&quot;franchiseRoot&quot;:&quot;call-of-duty&quot;,&quot;partner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;vid&quot;:6466508},&quot;soundBasedSize&quot;:{&quot;normal&quot;:&quot;640x480&quot;,&quot;muted&quot;:&quot;640x483&quot;,&quot;none&quot;:&quot;640x480&quot;},&quot;daiSsbUrl&quot;:&quot;https:\/\/dai.google.com\/ondemand\/hls\/content\/2572465\/vid\/6466508\/master.m3u8&quot;,&quot;daiMidRollHost&quot;:2500176},&quot;uvpHi5Ima&quot;:&quot;https:\/\/s0.2mdn.net\/instream\/html5\/ima3.js&quot;,&quot;cuePoints&quot;:null,&quot;uvpc&quot;:&quot;&quot;,&quot;partner&quot;:&quot;gamespot&quot;,&quot;adPartner&quot;:&quot;desktop\/gamespot.com&quot;,&quot;desktopAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;mobileAdPartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;,&quot;mapp&quot;:&quot;gamespot&quot;,&quot;cms&quot;:&quot;pi&quot;,&quot;seekablePlaybacks&quot;:[&quot;html5&quot;,&quot;uvpjs&quot;],&quot;tracking&quot;:[{&quot;name&quot;:&quot;SiteCatalyst&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;charSet&quot;,&quot;value&quot;:&quot;UTF-8&quot;},{&quot;name&quot;:&quot;currencyCode&quot;,&quot;value&quot;:&quot;USD&quot;},{&quot;name&quot;:&quot;siteType&quot;,&quot;value&quot;:&quot;responsive web&quot;},{&quot;name&quot;:&quot;trackingServer&quot;,&quot;value&quot;:&quot;saa.gamespot.com&quot;},{&quot;name&quot;:&quot;visitorNamespace&quot;,&quot;value&quot;:&quot;cbsinteractive&quot;},{&quot;name&quot;:&quot;heartbeatTrackingServer&quot;,&quot;value&quot;:&quot;newimagitasinc.hb.omtrdc.net&quot;},{&quot;name&quot;:&quot;heartbeatVisitorMarketingCloudOrgId&quot;,&quot;value&quot;:&quot;3C66570E5FE1A4AB0A495FFC@AdobeOrg&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;siteCode&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;brand&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;account&quot;,&quot;value&quot;:&quot;cbsigamespotsite&quot;},{&quot;name&quot;:&quot;edition&quot;,&quot;value&quot;:&quot;us&quot;}]},{&quot;name&quot;:&quot;ComScore_ss&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;c2&quot;,&quot;value&quot;:&quot;31824268&quot;},{&quot;name&quot;:&quot;publishersSecret&quot;,&quot;value&quot;:&quot;2cb08ca4d095dd734a374dff8422c2e5&quot;},{&quot;name&quot;:&quot;c3&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;partnerID&quot;,&quot;value&quot;:&quot;gamespot&quot;},{&quot;name&quot;:&quot;c4&quot;,&quot;value&quot;:&quot;gamespot&quot;}]},{&quot;name&quot;:&quot;NielsenTracking&quot;,&quot;category&quot;:&quot;tracking&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;host&quot;,&quot;value&quot;:&quot;https:\/\/secure-us.imrworldwide.com\/cgi-bin\/m?&quot;},{&quot;name&quot;:&quot;scCI&quot;,&quot;value&quot;:&quot;us-200330&quot;},{&quot;name&quot;:&quot;scC6&quot;,&quot;value&quot;:&quot;vc,c01&quot;}]},{&quot;name&quot;:&quot;MuxQOSPluginJS&quot;,&quot;category&quot;:&quot;qos&quot;,&quot;enabled&quot;:true,&quot;params&quot;:[{&quot;name&quot;:&quot;propertyKey&quot;,&quot;value&quot;:&quot;b7d6e48b7461a61cb6e863a62&quot;}]}],&quot;trackingAccount&quot;:&quot;cbsigamespotsite&quot;,&quot;trackingSiteCode&quot;:&quot;gs&quot;,&quot;trackingPrimaryId&quot;:&quot;cbsigamespotsite&quot;,&quot;videoAssetSource&quot;:&quot;Publisher Asset&quot;,&quot;uvpjsHostname&quot;:&quot;\/\/www.gamespot.com&quot;,&quot;siteType&quot;:&quot;responsive web&quot;,&quot;startMuted&quot;:false,&quot;screenMediumThumb&quot;:&quot;https:\/\/www.gamespot.com\/a\/uploads\/screen_medium\/1574\/15746725\/4596240-11.jpg&quot;,&quot;videoStreams&quot;:{&quot;adaptive_stream&quot;:&quot;https:\/\/cdn.jwplayer.com\/manifests\/CrjfrxJ8.m3u8&quot;},&quot;userId&quot;:0,&quot;premium&quot;:false,&quot;datePublished&quot;:1762278840,&quot;videoAdPartner&quot;:&quot;desktop%2Fgamespot.com&quot;,&quot;videoAdMobilePartner&quot;:&quot;mobile_web%2Fgamespot.com_mobile&quot;}" data-non-iframe-embed="1" data-jw-context-name="gamespot" data-jw-media-id="CrjfrxJ8" data-jw-player-url="https://cdn.jwplayer.com/libraries/VXc5h4Tf.js" data-jw-video-token="" data-has-youtube="" data-youtube-icon-path="https://www.gamespot.com/a/bundles/phoenixsite/images/core/loose/icn-youtube-30x30.png" id="video-rectangle"><div><p>
-        Want us to remember this setting for all your devices?
-      </p><p><a href="https://www.gamespot.com/signup/">Sign up</a> or <a href="https://www.gamespot.com/login/">Sign in</a> now!
-      </p></div><p>
-      Please use a html5 video capable browser to watch videos.
-    </p><p>
-      This video has an invalid file format.
-    </p><p>Sorry, but you can't access this content!</p></div>
-          <p><em>Now Playing:</em> Call of Duty: Black Ops 7 | Official Launch And PC Features Overview Trailer</p>
-      </div>
-<h2 dir="ltr">Black Ops 7 launch maps:</h2><ul><li dir="ltr">Blackheart</li><li dir="ltr">Cortex</li><li dir="ltr">Exposure</li><li dir="ltr">Imprint</li><li dir="ltr">The Forge</li><li dir="ltr">Toshin</li><li dir="ltr">Colossus</li><li dir="ltr">Den</li><li dir="ltr">Flagship</li><li dir="ltr">Homestead</li><li dir="ltr">Paranoia</li><li dir="ltr">Retrieval</li><li dir="ltr">Scar</li><li dir="ltr">Express (Returning from Black Ops 2)</li><li dir="ltr">Hijacked (Returning from Black Ops 2)</li><li dir="ltr">Raid (Returning from Black Ops 2)</li><li dir="ltr">Mission: Edge (Skirmish)</li><li dir="ltr">Mission: Tide (Skirmish)</li></ul><p dir="ltr">Additionally, Nuketown 2025 arrives as a pre-season map. This is a variant of Treyarch's iconic Nuketown map, which is reimagined with the aesthetics of a near-future design. Nuketown 2025 is not available at launch, but it will arrive before the start of Black Ops 7's first season of content.</p><p dir="ltr">There are 12 game modes confirmed for launch, and these are featured for the game's standard core and hardcore playlists. Many of the modes are Call of Duty staples, such as Team Deathmatch, Domination, Search and Destroy, and Hardpoint. However, Black Ops 7 does introduce the 20v20 objective-based Skirmish mode and the new Overload mode.</p><p dir="ltr">Overload is a 6v6 respawn mode that tasks teams with fighting to gain possession of an overload device. Overload begins with players rushing to grab the overload device. Once they have it, the team possessing it must protect the carrier as they attempt to bring it to a designated zone. Overload is a back-and-forth game of attack and defend, and this is also the new competitive game mode for the Call of Duty League.</p><h2 dir="ltr">All MP game modes at launch:</h2><ul><li dir="ltr">Overload</li><li dir="ltr">Team Deathmatch</li><li dir="ltr">Domination</li><li dir="ltr">Search and Destroy</li><li dir="ltr">Kill Confirmed</li><li dir="ltr">Free-for-All</li><li dir="ltr">Hardpoint</li><li dir="ltr">Kill Order</li><li dir="ltr">Control</li><li dir="ltr">Face Off Moshpit</li><li dir="ltr">Skirmish (20v20)</li><li dir="ltr">Gunfight (2v2)</li></ul><figure data-align="center" data-size="large" data-img-src="https://www.gamespot.com/a/uploads/original/1639/16394540/4597139-bo7-rfl-multiplayer-027.jpg" data-ref-id="1300-4597139" data-ratio="0.5625" data-width="1280" data-embed-type="image"><a href="https://www.gamespot.com/a/uploads/original/1639/16394540/4597139-bo7-rfl-multiplayer-027.jpg" data-ref-id="1300-4597139"></a><figcaption>Black Ops 7 operators</figcaption><img src="https://www.gamespot.com/a/uploads/original/1639/16394540/4597139-bo7-rfl-multiplayer-027.jpg"></figure><p dir="ltr">Black Ops 7 has 24 playable operators, but not all of them are available right away. Some operators are available immediately, while others require specific unlock criteria to be accomplished. It's also worth noting that some characters are DLC only available with the purchase of the game's pricey <a href="https://www.gamespot.com/articles/call-of-duty-black-ops-7-preorder-guide/1100-6534093/">$100 Vault edition of Black Ops 7</a>.</p><h2 dir="ltr">Full list of Black Ops 7 launch operators:</h2><ul><li dir="ltr"><strong>50/50</strong> - Unlocked immediately</li><li dir="ltr"><strong>Anderson</strong> - Unlocked immediately</li><li dir="ltr"><strong>Carver</strong> - Unlocked immediately</li><li dir="ltr"><strong>Dempsey</strong> - Unlocked immediately</li><li dir="ltr"><strong>Falkner</strong> - Unlocked at Player Level 13</li><li dir="ltr"><strong>Grey</strong> - Unlocked immediately</li><li dir="ltr"><strong>Grimm</strong> - Unlocked at Player Level 7</li><li dir="ltr"><strong>Harper</strong> - Unlocked via the Black Ops 7 Vault Edition</li><li dir="ltr"><strong>Jurado</strong> - Unlocked immediately</li><li dir="ltr"><strong>Kagan</strong> - Unlocked at Player Level 40</li><li dir="ltr"><strong>Karma</strong> - Unlocked via the Black Ops 7 Vault Edition</li><li dir="ltr"><strong>David Mason</strong> - Unlocked immediately</li><li dir="ltr"><strong>Maya</strong> - Unlocked immediately</li><li dir="ltr"><strong>Nikolai</strong> - Unlocked immediately</li><li dir="ltr"><strong>Razor</strong> - Unlocked at Player Level 28</li><li dir="ltr"><strong>Reaper EWR-3</strong> - Unlocked via the Black Ops 7 Vault Edition</li><li dir="ltr"><strong>Richtofen</strong> - Unlocked immediately</li><li dir="ltr"><strong>Samuels</strong> - Unlocked immediately</li><li dir="ltr"><strong>Takeo</strong> - Unlocked immediately</li><li dir="ltr"><strong>T.E.D.D.</strong> - Unlocked via the Black Ops 7 Vault Edition</li><li dir="ltr"><strong>Vermaak </strong>- Unlocked at Player Level 34</li><li dir="ltr"><strong>Weaver </strong>- Unlocked immediately</li><li dir="ltr"><strong>Wei Lin</strong> - Unlocked at Player Level 19</li><li dir="ltr"><strong>Zaveri</strong> - Unlocked immediately</li></ul><p dir="ltr">Treyarch has already highlighted much of the content arriving in Season 1. The full <a href="https://www.gamespot.com/articles/cod-black-ops-7-dev-reveals-season-1-content-new-maps-and-holiday-events-confirmed/1100-6535666/">Season 1 roadmap for Black Ops 7</a> can be found here, which includes six new multiplayer maps, three zombies maps, new weapons, seasonal events, and more.</p><p dir="ltr">Make sure to also check out the full launch times and <a href="https://www.gamespot.com/articles/call-of-duty-black-ops-7-launch-times-and-preloading-info-revealed/1100-6535917/">preload details for Black Ops 7</a>. The <a href="https://www.gamespot.com/articles/call-of-duty-black-ops-7-pc-system-requirements-heres-what-youll-need-for-november-14/1100-6535929/">PC system requirements</a> for the game can be found here.</p>
-  
-                        
-    
-        
-        
-  
-                                  </div>
-
-
-          
-  
-    
-          
-            
-  <div>
-    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
-
-    
-      </div>
-        
-      </section>
-    
-            
-    </article></div><br/><br/>https://www.gamespot.com/articles/heres-everything-coming-to-cod-black-ops-7-multiplayer-at-launch/1100-6535964/?ftag=CAD-01-10abi2f]]></content:encoded>
+                      <meta itemprop="seamless-content-list-items" data-list-items="[{&quot;guid&quot;:&quot;1100-6535827&quot;,&quot;url&quot;:&quot;\/articles\/peak-is-heading-to-the-forest-in-november\/1100-6535827\/&quot;},{&quot;guid&quot;:&quot;1100-6534223&quot;,&quot;url&quot;:&quot;\/articles\/the-shining-movie-4k-blu-ray-special-edition-steelbook-the-film-vault\/1100-6534223\/&quot;},{&quot;guid&quot;:&quot;1100-6535859&quot;,&quot;url&quot;:&quot;\/articles\/arc-raiders-roadmap-reveals-new-map-in-november-quests-and-more-in-the-months-ahead\/1100-6535859\/&quot;},{&quot;guid&quot;:&quot;1100-6535788&quot;,&quot;url&quot;:&quot;\/articles\/croc-and-buck-the-gamestop-bunny-star-in-new-modretro-chromatic-titles-out-soon\/1100-6535788\/&quot;},{&quot;guid&quot;:&quot;1100-6535906&quot;,&quot;url&quot;:&quot;\/articles\/xbox-game-pass-ad-reminds-people-that-new-games-are-added-all-the-time-as-big-game-is-set-for-removal\/1100-6535906\/&quot;},{&quot;guid&quot;:&quot;1100-6535951&quot;,&quot;url&quot;:&quot;\/articles\/arc-raiders-all-scrappy-upgrades-and-where-to-get-the-items\/1100-6535951\/&quot;},{&quot;guid&quot;:&quot;1100-6535860&quot;,&quot;url&quot;:&quot;\/articles\/new-hades-2-patch-expands-the-ending\/1100-6535860\/&quot;},{&quot;guid&quot;:&quot;1100-6535918&quot;,&quot;url&quot;:&quot;\/articles\/majority-of-devs-say-steam-has-monopoly-on-pc-gaming-in-new-poll\/1100-6535918\/&quot;},{&quot;guid&quot;:&quot;1100-6535919&quot;,&quot;url&quot;:&quot;\/articles\/fortnites-simpsons-update-led-to-a-huge-surge-in-players-the-most-in-a-long-time\/1100-6535919\/&quot;},{&quot;guid&quot;:&quot;1100-6530674&quot;,&quot;url&quot;:&quot;\/articles\/mobile-suit-gundam-the-origin-manga-deluxe-edition-buying-guide\/1100-6530674\/&quot;},{&quot;guid&quot;:&quot;1100-6535812&quot;,&quot;url&quot;:&quot;\/articles\/bring-wordle-to-your-coffee-table-with-this-puzzle-book-from-the-new-york-times\/1100-6535812\/&quot;},{&quot;guid&quot;:&quot;1100-6535948&quot;,&quot;url&quot;:&quot;\/articles\/one-of-the-most-requested-steam-deck-features-is-finally-being-patched-in\/1100-6535948\/&quot;},{&quot;guid&quot;:&quot;1100-6535843&quot;,&quot;url&quot;:&quot;\/articles\/nintendo-victorious-in-lawsuit-against-streamer-known-for-defiant-i-run-the-streets-remark\/1100-6535843\/&quot;},{&quot;guid&quot;:&quot;1100-6535815&quot;,&quot;url&quot;:&quot;\/articles\/apex-legends-season-27-wants-valkyrie-and-horizon-to-control-the-skies-again\/1100-6535815\/&quot;},{&quot;guid&quot;:&quot;1100-6530002&quot;,&quot;url&quot;:&quot;\/articles\/street-fighter-animated-series-blu-ray-edition-gets-first-discount\/1100-6530002\/&quot;},{&quot;guid&quot;:&quot;1100-6529195&quot;,&quot;url&quot;:&quot;\/articles\/trigun-deluxe-edition-dark-horse-manga-amazon-deals\/1100-6529195\/&quot;},{&quot;guid&quot;:&quot;1100-6535821&quot;,&quot;url&quot;:&quot;\/articles\/amazon-cancels-its-lord-of-the-rings-mmo-amid-major-layoffs-report\/1100-6535821\/&quot;},{&quot;guid&quot;:&quot;1100-6535818&quot;,&quot;url&quot;:&quot;\/articles\/arc-raiders-off-to-a-strong-start-but-servers-are-struggling-to-keep-up-with-player-demand\/1100-6535818\/&quot;},{&quot;guid&quot;:&quot;1100-6535820&quot;,&quot;url&quot;:&quot;\/articles\/animal-crossing-new-horizons-update-will-let-you-play-retro-games-with-one-silly-catch\/1100-6535820\/&quot;}]">
+            </div>
+              
+    </div></div><br/><br/>https://www.gamespot.com/articles/all-the-new-peak-badges-in-the-roots-biome/1100-6535966/?ftag=CAD-01-10abi2f]]></content:encoded>
         </item>
     </channel>
 </rss>

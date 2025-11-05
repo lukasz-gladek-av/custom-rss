@@ -4,9 +4,437 @@
         <title>maGaming RSS Feed - thesixthaxis_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/thesixthaxis_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for thesixthaxis_com</description>
-        <lastBuildDate>Wed, 05 Nov 2025 21:09:11 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 05 Nov 2025 21:38:14 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Fellowship is getting a major patch to address bugs and add improvements]]></title>
+            <link>https://www.thesixthaxis.com/2025/11/05/fellowship-is-getting-a-major-patch-to-address-bugs-and-add-improvements/</link>
+            <guid>https://www.resetera.com/threads/fellowship-is-getting-a-major-patch-to-address-bugs-and-add-improvements.1345000/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>Chief Rebel is going to be releasing a major patch for Fellowship on November 7th, which will take the game offline from 7am CET. This major patch is going change item levels that are needed to join the different leagues. In addition, some heroes, weapons, and items are going to be rebalanced, and new Active Ability Timers are being added for various abilities.</p>
+<p><iframe title="Fellowship | Early Access Launch Trailer" width="780" height="439" src="https://www.youtube.com/embed/BCJPI8DIDQ8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+
+
+<h2>Fellowship update patch notes November 6th</h2>
+
+<ul>
+<li>
+<p>Fixed an issue causing enemies to sometimes desync on their patrol paths – making them invisible to players until they suddenly appeared on top of them. This should resolve the most common situations that caused enemies to become “invisible”.<wbr></p>
+</li>
+<li>
+<p>Fixed an issue where “Targeted ground abilities” would sometimes cause the aiming circle to disappear or get centered on your character when the cursor was pointing at a wall or steep slope.</p>
+</li>
+</ul>
+
+<p><b>Matchmaking item level requirement adjustments</b></p>
+<ul>
+<li>
+<p>Increased the minimum item level required to matchmake in Adept to 80 (was 60).<wbr></p>
+</li>
+<li>
+<p>Increased the minimum item level required to matchmake in Champion to 130 (was 120).<wbr></p>
+</li>
+<li>
+<p>Increased the minimum item level required to matchmake in Paragon to 190 (was 180).<wbr></p>
+</li>
+</ul>
+<p><b>ITEMS</b><wbr></p>
+<ul>
+<li>
+<p>Fixed an issue with the [Dark Prophecy] set bonus proc so that it no longer triggers on “non-hero” actions, such as emotes and interacting with camp fires.<wbr></p>
+</li>
+<li>
+<p>The [Ancient Wardstone] relic now provides High Haste and Low Expertise.<wbr></p>
+</li>
+<li>
+<p>The [Chalice Al’Zerac’s Essence] relic now provides Spirit and Haste.<wbr></p>
+</li>
+<li>
+<p>Fixed an issue where Meiko’s [Crusader Longcloak] was incorrectly named for two different items.<wbr></p>
+</li>
+<li>
+<p>Fixed an issue where Vigor’s [Lamellar Helm] was incorrectly set as a pair of gloves.<wbr></p>
+</li>
+<li>
+<p>Fixed various Uncommon and Rare items that had their rarity set incorrectly.<wbr></p>
+</li>
+<li>
+<p>Fixed an issue where Vendor gear was always set to Common rarity. That gear now correctly reflects the league they are assigned to.<wbr></p>
+</li>
+<li>
+<p>Fixed various item typos.<wbr></p>
+</li>
+</ul>
+<p><b>WEAPONS</b><wbr></p>
+
+<ul>
+<li>
+<p>[Fated Strike] hit delay was reduced to 0.15 seconds (was 0.3 seconds) when used in melee range.<wbr></p>
+</li>
+<li>
+<p>The [Latent Resurgence] trait healing has been increased by 50%.<wbr></p>
+</li>
+<li>
+<p>Fixed an issue where [Repository of Light] was not properly removed from other players whenever the source died.<wbr></p>
+</li>
+</ul>
+<p><b>HEROES</b><wbr></p>
+<p><b><br>
+Helena</b><wbr></p>
+<ul>
+<li>
+<p>Helena’s health gained from Stamina was increased by 10%.<wbr></p>
+</li>
+<li>
+<p>[Hold the Line] tooltip was updated to reflect the recent hot fix, causing her Toughness to not be reduced while the absorb from [Empowered Shield Slam] is active on her.<wbr></p>
+</li>
+<li>
+<p>The absorb effect from [Empowered Shield Slam] has been renamed to “Empowered Shield Slam: Barrier” (was “Hold the Line”).<wbr></p>
+</li>
+<li>
+<p>The bleed from [Sweeping Strikes] now reduces all damage dealt by afflicted enemies by 10% for its duration.<wbr></p>
+</li>
+</ul>
+<p><b>Meiko</b><wbr></p>
+<ul>
+<li>
+<p>The [Sibling of Earth] from Meiko’s [Twin Souls: Bulwark] now has health equal to Meiko’s max health, increased by 2% for every 1% critical strike, haste, expertise, and spirit she has (was not increased by secondary stats previously).<wbr></p>
+</li>
+<li>
+<p>The [Shattering Obelisk Drape] (legendary cloak) now accumulates 10% of all damage it takes and pulses it out as damage on intervals (was 18%).<wbr></p>
+<ul>
+<li>
+<p><i>Note: The [Shattering Obelisk Drape’s] damage accumulation needed to be toned down considering the rather large increase to the [Sibling of Earth’s] health. In overall, the [Shattering Obelist Drape] is dealing more damage now, when taking all the above changes into account.</i><wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p>The [Necklace of Tectonic Impact] now increases the damage of the final hit of [Earthfist Barrage] by another 75% when consuming a 2nd charge (was 50% – tooltip stated 60%).<wbr></p>
+</li>
+<li>
+<p>Tooltip for [Twin Souls: Bulwark] has been updated to show the resulting max health of the [Sibling of Earth] – and now includes information on new secondary stat scaling of [Sibling of Earth’s] health.<wbr></p>
+</li>
+<li>
+<p>Tooltip update from last hot fix. Meiko’s description for her Spirit stat has been updated to reflect that the [Spirit Armor] effect she gains upon triggering a [Spirit Refund] now grants 30% more armor (was 50%).<wbr></p>
+</li>
+<li>
+<p>Tooltip update. Meiko’s [Stone Shield] tooltip has now been updated to match the last hotfix, stating she gains 50% increased Armor for each stone that is active on her (was 35%).<wbr></p>
+</li>
+<li>
+<p>Tooltip update: Meiko’s [Earthfist Barrage] and [Lashing Stormkick] tooltips now correctly state they cause her to heal for 100% of the damage dealt (the tooltip was incorrectly displaying 150% in one place and 200% in another place).<wbr></p>
+</li>
+</ul>
+<p><b>Sylvie</b><wbr></p>
+<ul>
+<li>
+<p>The healing of [Fluttercall: Heal] has been increased by 25%.<wbr></p>
+</li>
+<li>
+<p>The healing of [Fluttercall: Restore Life] has been increased by 25%.<wbr></p>
+</li>
+<li>
+<p>[Heartbloom] now accumulates 12% of all Flutterfly Healing (was 15%)<wbr></p>
+</li>
+<li>
+<p>[Flower Power] now causes [Heartbloom] to accumulate 8% of all Flutterfly Healing (was 10%).<wbr></p>
+<ul>
+<li>
+<p><i>Note: Sylvie’s baseline healing from Flutterflies were a bit lower than intended overall. Heartbloom was toned down slightly to keep its power similar to before.</i><wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Enfeebling Rootsap duration was increased to 10 seconds (was 6 seconds).<wbr></p>
+</li>
+<li>
+<p>The shields applied by [Safe Haven] and [Ironleaf Ward] when talented into [Natural Protector] have been increased by 200%.<wbr></p>
+</li>
+<li>
+<p>[Natural Protector’s] shield is now also applied to players that walk into [Safe Haven] after it has been placed. This only works once per player, per cast of [Safe Haven].<wbr></p>
+<ul>
+<li>
+<p><i>Note: Natural Protector as a 3 point talent was underperforming.</i><wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p>[Life Petal] now has 2 charges and gains Cooldown Acceleration from your Haste.<wbr></p>
+</li>
+<li>
+<p>[Nettlebolt] damage was increased by 70%.<wbr></p>
+</li>
+<li>
+<p>[Prickly Vines] damage was increased by 20%.<wbr></p>
+</li>
+<li>
+<p>[Sprouting Nettles] PPM was reduced to 2.0 (was 4.0) but now increases the critical strike chance of Nettlebolt by +400%.<wbr></p>
+</li>
+<li>
+<p>[Symbiosis] now increases [Prickly Vines] damage by 12% for each player that has a Pink Flutterfly active on them.<wbr></p>
+</li>
+</ul>
+<p><b>Vigour</b><wbr></p>
+<ul>
+<li>
+<p>[Soulbrand] damage has been increased by 20%.<wbr></p>
+</li>
+<li>
+<p>[Dawnbreaker Orb] damage has been increased by 35%.<wbr></p>
+</li>
+<li>
+<p>[Radiant Blast] damage and healing has been increased by 15%.<wbr></p>
+</li>
+<li>
+<p>Fixed an issue with [Grand Design] talent causing [Rune of Renewal] (when overcharged) to only increase the direct healing by 100% on targets that already had [Rune of Renewal] active, when it should be increasing the direct healing by 200%.<wbr></p>
+</li>
+<li>
+<p>Tooltip updated for [Levitate]. Movement abilities do not benefit from Cooldown Acceleration based on health. The text has been removed (the ability has not been changed).<wbr></p>
+</li>
+<li>
+<p>[Harmonizing Refractions] (Legendary Necklace) now stacks up to 2 times to mitigate situations where 2 procs in a row would cause the first proc to be overwritten and effectively lost.<br>
+<wbr></p>
+</li>
+</ul>
+<p><b>Tariq</b><wbr></p>
+<ul>
+<li>
+<p>[Heavy Strike] can no longer be spammed to trigger proc effects. Now only triggers proc effects once the [Heavy Strike] starts its swing.<wbr></p>
+</li>
+<li>
+<p>The [Bloodied Brass Necklace] legendary now deals 450% of [Face Breaker’s] damage (was 150%), dealt over 24 seconds (was 18 seconds).<wbr></p>
+</li>
+<li>
+<p>The bleed from [Bloodied Brass Necklace] can no longer critical strike, and no longer double dips in Damage% bonuses, Expertise, etc.<wbr></p>
+</li>
+<li>
+<p>[Ruinharrow Necklace of Spoils] had Strength on it. Now only has Stamina like all necklaces.<wbr></p>
+</li>
+</ul>
+<p><b>Ardeos</b><wbr></p>
+<ul>
+<li>
+<p>Fixed an issue causing the [Engulfing Flames] applied by [Pyromania] to not generate [Cinders].<wbr></p>
+</li>
+</ul>
+
+<p><b>New “Active Ability Timers” added</b><wbr></p>
+<p>In our continued work on Active Ability Timers, the following abilities now show a yellow frame to indicate the remaining duration of its effect.<wbr></p>
+<ul>
+<li>
+<p><b>Relics</b><wbr></p>
+<ul>
+<li>
+<p>Sanctuary<wbr></p>
+</li>
+<li>
+<p>Bloodrite Drums<wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p><b>Weapon Abilities</b><wbr></p>
+<ul>
+<li>
+<p>Repository of Light<wbr></p>
+</li>
+<li>
+<p>Sahril’s Wrath<wbr></p>
+</li>
+<li>
+<p>Sahril’s Aegis<wbr></p>
+</li>
+<li>
+<p>Voidbringer’s Touch<wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p><b>Helena</b><wbr></p>
+<ul>
+<li>
+<p>Shields Up<wbr></p>
+</li>
+<li>
+<p>Iron Wall<wbr></p>
+</li>
+<li>
+<p>Seigebreaker<wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p><b>Meiko</b><wbr></p>
+<ul>
+<li>
+<p>Twin Souls: Army of One<wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p><b>Rime</b><wbr></p>
+<ul>
+<li>
+<p>Frost Ward<wbr></p>
+</li>
+<li>
+<p>Ice Blitz<wbr></p>
+</li>
+<li>
+<p>Flight of Navir<wbr></p>
+</li>
+<li>
+<p>Winter’s Blessing<wbr></p>
+</li>
+<li>
+<p>Wrath of Winter<wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p><b>Ardeos</b><wbr></p>
+<ul>
+<li>
+<p>Wildfire<wbr></p>
+</li>
+<li>
+<p>Flame Ward<wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p><b>Elarion</b><wbr></p>
+<ul>
+<li>
+<p>Skystrider’s Supremacy<wbr></p>
+</li>
+<li>
+<p>Fervent Supremacy<wbr></p>
+</li>
+<li>
+<p>Skystrider’s Grace<wbr></p>
+</li>
+<li>
+<p>Event Horizon<wbr></p>
+</li>
+<li>
+<p>Pathfinder’s Resilience<wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p><b>Mara</b><wbr></p>
+<ul>
+<li>
+<p>Maiden of Death<wbr></p>
+</li>
+<li>
+<p>Veil of Shadows<wbr></p>
+</li>
+<li>
+<p>Matriarch Macabre<wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p><b>Tariq</b><wbr></p>
+<ul>
+<li>
+<p>Thundercall<wbr></p>
+</li>
+<li>
+<p>Unbreakable Will<wbr></p>
+</li>
+<li>
+<p>Focused Wrath<wbr></p>
+</li>
+<li>
+<p>Raging Tempest<wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p><b>Vigour</b><wbr></p>
+<ul>
+<li>
+<p>Levitate<wbr></p>
+</li>
+<li>
+<p>Lightshaper’s Ward<wbr></p>
+</li>
+<li>
+<p>Runic Proliferation<wbr></p>
+</li>
+<li>
+<p>Avatar of Light<wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p><b>Sylvie</b><wbr></p>
+<ul>
+<li>
+<p>Hidden Trail<wbr></p>
+</li>
+<li>
+<p>Ironleaf Ward<wbr></p>
+</li>
+<li>
+<p>Enfeebling Rootsap<wbr></p>
+</li>
+<li>
+<p>Fluttercall: Jubilee<br>
+<wbr></p>
+</li>
+</ul>
+</li>
+</ul>
+
+<p><b>Sailor’s Abyss</b><wbr></p>
+<ul>
+<li>
+<p>Fixed an issue with Hollowed Corsairs, causing them to play their voice over too often.<wbr></p>
+</li>
+</ul>
+<p><b>Wraithtide Vault</b><wbr></p>
+<ul>
+<li>
+<p>Fixed an issue with the Tide Witches, causing the [Sunken Gale] visuals to be rotated and move in the wrong direction for players sometimes.<wbr></p>
+</li>
+</ul>
+<p><b>Stormwatch</b><wbr></p>
+<p>Fixed an issue causing Warlord Brogg to return to full health when entering the second phase. Brogg now starts the second phase with the same health as at the end of the first phase.</p>
+<p><em>Source: <a href="https://store.steampowered.com/news/app/2352620/view/607549730650587317">Steam</a></em></p>
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div></div><br/><br/>https://www.thesixthaxis.com/2025/11/05/fellowship-is-getting-a-major-patch-to-address-bugs-and-add-improvements/]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Unbeatable has been given a last minute delay]]></title>
+            <link>https://www.thesixthaxis.com/2025/11/05/unbeatable-has-been-given-a-last-minute-delay/</link>
+            <guid>https://www.resetera.com/threads/unbeatable-has-been-given-a-last-minute-delay.1344997/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>Unbeatable is not going to be releasing on November 6th as planned, D-CELL Games have announced just hours before the expected release. The reason for this last moment delay of Unbeatable is the fact that the team ran into a bug that essentially makes the game unreleasable, and it needs to be fixed, which in turn pushes back dates for console certification. The new date chosen is December 9th with that date being chosen as there are fewer other releases around then.</p>
+<p><iframe title="UNBEATABLE: FINAL TRAILER " width="780" height="439" src="https://www.youtube.com/embed/Vkvi71znX_Q?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+
+
+<p>In a blog post on Steam, developer RJ Lake wrote, <em>“Hi! UNBEATABLE was supposed to come out tomorrow! That’s a scary sentence. Here’s a worse one: UNBEATABLE will now release on December 9.I hate that I have to say this. There’s no way to apologize for it that feels like enough. I’m personally sorry about this and I wish it was different… the decision was only made a few hours ago. (No, really, I’m writing this right after the meeting where the decision was made).&nbsp; We are telling you this as soon as we possibly can.</em></p>
+<p><em>There’s a very boring and frustrating reason; QA hit a low-repro progression blocker last night that’s serious enough it’s considered unreleasable. Fixing this would require pushing the console release date back because of cert timelines, and&nbsp;not&nbsp;fixing this is, well. We refuse to do that. We’re fixing it…We’d rather release the game all at once for everybody. Another boring reason you can figure out pretty quickly by googling the phrase “2025 game release calendar” and looking at what’s hitting this month. We had a pretty good spot on November 6 where we made a small little island for ourselves, and skipping that date necessarily means skipping forward a&nbsp;lot to find another island, and that’s the closest one we had. On the plus side, it gives us breathing room we didn’t have before to do some pre-launch things we wanted to do that had to get pushed back because of finishing the game in time for, well, tomorrow.”</em></p>
+
+<p>In Unbeatable you play as Beat, who makes music with her band. The issue is that music is illegal in the world of Unbeatable, so Beat and the crew are on the run. The gameplay is that of a rhythm action game and completing quests while playing music. The story is said to last around 6 to 8 hours, and there will also be an arcade mode which has its own progression system, modifiers, and challenges to beat. The arcade mode will also get additional songs in the future.</p>
+<p><em>Source: <a href="https://store.steampowered.com/news/app/2240620/view/598542531394797771">Steam</a></em></p>
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div></div><br/><br/>https://www.thesixthaxis.com/2025/11/05/unbeatable-has-been-given-a-last-minute-delay/]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Football Manager 26 update released on Steam public beta track]]></title>
             <link>https://www.thesixthaxis.com/2025/11/05/football-manager-26-update-released-on-steam-public-beta-track/</link>
