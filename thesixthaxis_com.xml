@@ -4,9 +4,86 @@
         <title>maGaming RSS Feed - thesixthaxis_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/thesixthaxis_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for thesixthaxis_com</description>
-        <lastBuildDate>Wed, 05 Nov 2025 17:36:26 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 05 Nov 2025 18:11:37 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Ball X Pit patch tackles lots of bugs]]></title>
+            <link>https://www.thesixthaxis.com/2025/11/05/ball-x-pit-patch-tackles-lots-of-bugs/</link>
+            <guid>https://www.resetera.com/threads/ball-x-pit-patch-tackles-lots-of-bugs.1344706/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>Ball X Pit has received its first major patch, with developer Kenny Sun and Friends responding to issues raised by the community through Discord and forums. The fixes relate to a number of gameplay elements including retry not leading to resources being lost, the game soft locking in certain scenarios, and characters disappearing from the character select screen among them. The full list of fixes can be read below.</p>
+<p><iframe title="BALL x PIT | Available October 15 | Wishlist and Demo NOW" width="780" height="439" src="https://www.youtube.com/embed/GB5v8BAn97Q?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+
+
+<h2>Ball X Pit November patch notes</h2>
+<ul>
+<li>Update encyclopedia to use full-color icons<wbr></li>
+<li>Fix possible soft lock when beating level with one of your final characters that hasn’t beaten it yet<wbr></li>
+<li>Retry no longer causes resources gained in previous run to be lost<wbr></li>
+<li>Improved market rates, rates return to normal faster<wbr></li>
+<li>Fixed bug where Casino wasn’t reducing re-roll cost<wbr></li>
+<li>Harvest aim line no longer starts from the far right side of the character<wbr></li>
+<li>Gatherer’s hut worker can no longer infinitely gather if you unassign them while they are out<wbr></li>
+<li>Speeding up harvests no longer leads to less resources gathered than normal speed<wbr></li>
+<li>Stone soldiers can no longer sometimes get stuck if they engage a miniboss that is attacking you<wbr></li>
+<li>Fixed invalid message that shows when you try to matchmake the Warrior with the False Messiah<wbr></li>
+<li>Wretched Onion damage now scales by AOE Damage multiplier<wbr></li>
+<li>Fixed bug where Dragon Prince’s attack could longer persist in other levels<wbr></li>
+<li>Housing built with gatherer’s hut now unlocks characters properly<wbr></li>
+<li>Fixed bug where final blueprint in the Liminal x Desert couldn’t be unlocked until you completed the Gory x Grasslands<wbr></li>
+<li>Radical now automatically chooses to revive if you have the Necromancer<wbr></li>
+<li>Allies or charmed enemies no longer cause final boss to not enter properly<wbr></li>
+<li>Balls with cooldowns (dark, black hole) now have cooldown with Cohabitants<wbr></li>
+<li>Radiation beam aoe damage is now tracked in game over stats screen<wbr></li>
+<li>No longer soft lock when you try to change gatherer’s hut aim while worker is already out<wbr></li>
+<li>Fix bug where cursor would appear stuck on screen with the Physicist<wbr></li>
+<li>AOE effects now apply lightning rod when combo-ed<wbr></li>
+<li>Woodpecker / stonepiercer bonuses now pierce dense resource tiles<wbr></li>
+<li>Radical and Cogitator can no longer fuse ball with itself<wbr></li>
+<li>You can no longer hurt yeti queen while it’s underground<wbr></li>
+<li>Buildings can no longer be placed outside of base bounds<wbr></li>
+<li>If character doesn’t have as many harvest upgrades as it should the next level up will give you one<wbr></li>
+<li>Fixed bug where characters wouldn’t gain harvest upgrades if they were brought in as the second character<wbr></li>
+<li>Multiselect tutorial will stop showing up eventually if it is ignored long enough<wbr></li>
+<li>War room characters no longer disappear from character select list<wbr></li>
+<li>Clearing field with tactician no longer advances units while on level up screen<wbr></li>
+<li>Limited how far apart cohabitants can be from each other<wbr></li>
+<li>Opening the context menu within the base and attempting to expand the building area simultaneously no longer leads to navigation issues<wbr></li>
+<li>Trying to multiselect during multi-dismantle no longer causes soft lock<wbr></li>
+<li>War Room’s run reward is no longer lost when assigned character is changed<wbr></li>
+<li>In New Game+ Characters can no longer only go on War Room runs for layers they completed on regular<wbr></li>
+<li>Structures – The Heavenly Trophy is no longer displayed as fully built while under construction<wbr></li>
+<li>The amount of gold gathered from multiple Gold Mines now resembles the number shown in the summary screen<wbr></li>
+<li>Passive selection screen at the start of a run no longer sometimes only displays 2 of them<wbr></li>
+<li>The disease status from the Virus no longer passes on friendly tiles<wbr></li>
+<li>The kill count in the run summary is now consistent with the Encyclopedia statistics<wbr></li>
+<li>Cohabitants – balls that spawn other balls can now be fired before all spawned balls have returned<wbr></li>
+<li>Remember previous NG+ page when re-entering level select<wbr></li>
+<li>Multi-upgrade no longer highlights buildings when you exit rearrange mode during animations<wbr></li>
+<li>Zombie can no longer spawn when killed enemy is bottom of stack<wbr></li>
+<li>Sandwalker no longer jitters when attacking<wbr></li>
+<li>Sandwalker no longer moves when frozen<wbr></li>
+<li>Physicist x Cohabitants balls no longer speed up too fast<wbr></li>
+<li>Char select no longer scrolls to previous selection on initial entry<wbr></li>
+<li>Fungal x Forest level no longer provides more XP than Gory x Grasslands<wbr></li>
+<li>Various typo fixes.<wbr></li>
+<li>Rearranging from normal base state with controller no longer causes building to start off placed incorrectly<wbr></li>
+<li>Added option to mute audio in background<wbr></li>
+<li>Pressing up or down directional button now moves the playable character</li>
+</ul>
+<h2><a href="https://www.thesixthaxis.com/2025/10/15/ball-x-pit-review-sphere-factor/">Ball X Pit Review – Sphere factor</a></h2>
+<p>In our Ball X Pit review, Dom said, <em>“Ball X Pit carries the spirit of an arcade classic, while imbuing it with modern roguelike ideas. It’s immediately one of the best indie games of the year.”</em></p>
+<p><em>Source: <a href="https://store.steampowered.com/news/app/2062430/view/573772733446357203">Steam</a></em></p>
+
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div></div><br/><br/>https://www.thesixthaxis.com/2025/11/05/ball-x-pit-patch-tackles-lots-of-bugs/]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Wartorn exits early access and launches into 1.0 on November 11th]]></title>
             <link>https://www.thesixthaxis.com/2025/11/05/wartorn-exits-early-access-and-launches-into-1-0-on-november-11th/</link>
@@ -99,28 +176,6 @@
 
 		
 	</div></div><br/><br/>https://www.thesixthaxis.com/2025/11/05/darwins-paradox-delayed-to-2026-confirmed-for-switch-2/]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Terminator 2D: No Fate has been delayed to December]]></title>
-            <link>https://www.thesixthaxis.com/2025/11/05/terminator-2d-no-fate-has-been-delayed-to-december/</link>
-            <guid>https://www.resetera.com/threads/terminator-2d-no-fate-has-been-delayed-to-december.1344520/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
-	
-		<p>Terminator 2D: No Fate has been delayed once again after missing its amended release date of October 31st, having <a href="https://www.thesixthaxis.com/2025/07/22/terminator-2d-no-fate-delayed-to-october-31st/">been previously pushed back from a September 5th release date.</a> The new release date is December 12th. The reason for the delay this time is due to Reef Entertainment needing to put together the physical editions of Terminator 2D: No Fate, and that will take some effort.</p>
-<p><iframe title="Terminator™ 2D: NO FATE – Official Game Overview Trailer" width="780" height="439" src="https://www.youtube.com/embed/2CIxmLUoLZ0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
-
-
-<p>In a statement, Reef Entertainment said, <em>“First of all, we want to start by saying thank you. We know you’ve waited longer than expected for the release of Terminator 2D: NO FATE, and we truly appreciate your patience and support throughout this journey. <wbr>The physical components for all editions have now finally arrived, following the ongoing delays that pushed us off our previous schedules. However, we now have to assemble the physical editions, which we need some time to do. <wbr>Because of this, we are moving the launch date of Terminator 2D: NO FATE to December 12, 2025, for all physical and digital versions of the game.</em></p>
-<p><em><wbr>We are sincerely sorry for the repeated delays. We don’t take your patience for granted, and we never want to disappoint our community. Our goal has always been to deliver the game that you deserve, and we’re almost there.<wbr>Thank you again for standing by us. We’re incredibly grateful, and we can’t wait for you to finally experience Terminator 2D: NO FATE soon.”</em></p>
-
-<p>Terminator 2D: No Fate is coming to PS5, Xbox Series X|S, PS4, Xbox One, Switch and PC.</p>
-<p><em>Source: <a href="https://store.steampowered.com/news/app/1718460/view/580528132884267069?l=english">Steam</a></em></p>
-
-
-<!-- CONTENT END 1 -->
-
-		
-	</div></div><br/><br/>https://www.thesixthaxis.com/2025/11/05/terminator-2d-no-fate-has-been-delayed-to-december/]]></content:encoded>
         </item>
     </channel>
 </rss>
