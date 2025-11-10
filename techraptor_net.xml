@@ -4,57 +4,138 @@
         <title>maGaming RSS Feed - techraptor_net</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/techraptor_net.xml</link>
         <description>A cleaned-up version of the original gaming feed for techraptor_net</description>
-        <lastBuildDate>Mon, 10 Nov 2025 20:08:53 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 10 Nov 2025 20:34:40 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Premium VTT Fantasy Grounds is Going Free-To-Play]]></title>
-            <link>https://techraptor.net/tabletop/news/premium-vtt-fantasy-grounds-is-going-free-to-play</link>
-            <guid>https://www.resetera.com/threads/premium-vtt-fantasy-grounds-is-going-free-to-play.1349053/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><p>Fantasy Grounds is going free-to-play. The VTT, which has been around since 2004, has stood out from other competitors in the market due to its premium price. Now, as of today, that is no more. However, its premium library will remain as is.</p>
+            <title><![CDATA[Report: Data from Steam Next Fest Shows How Generative AI is Used in Games]]></title>
+            <link>https://techraptor.net/gaming/features/examining-generative-ais-usage-in-steam-next-fest-2025</link>
+            <guid>https://www.resetera.com/threads/report-data-from-steam-next-fest-shows-how-generative-ai-is-used-in-games.1349056/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><p>Generative AI is all over the place in games on Steam right now. That’s not going to change anytime soon, as our recent <a href="https://depositphotos.com/photo/sparkling-letters-surrounded-vibrant-network-various-digital-media-icons-complex-716371530.html" rel="nofollow" target="_blank" title=" Over 500 Steam Next Fest Demos Disclosed Generative AI Usage">Steam Next Fest report about 507 games</a> using it during the October 2025 event shows. With it being everywhere, however, it behooves us to ask: how is it being used?</p>
 
-<h2>The Fantasy Grounds Free-to-Play Announcement</h2>
+<p>Over the past couple of weeks, I’ve been looking at all the games that had disclosed generative AI usage and categorized them based on how they disclosed that they used it. This data isn’t perfect: it’s relying on self-reporting for a system that Valve doesn’t seem to be enforcing. However, it provides us with at least a chance of better understanding what developers are doing with generative AI, and some other information like who is using it.</p>
 
-<p>If you pull up Fantasy Grounds' official Steam page, its MSRP has gone from $50 to free-to-play. Obviously, this means anyone can install the platform, then host and join as many online games as they want. No upfront purchase or premium subscription required.</p>
-<picture><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/fantasy-grounds-steam-page-screenshots.jpg?itok=jUP-XJPq 1x" media="(min-width: 992px)" type="image/jpeg"><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/fantasy-grounds-steam-page-screenshots.jpg?itok=KgMTbg7y 1x" media="(max-width: 991px)" type="image/jpeg"></picture><p>But, much like other VTTs like Alchemy RPG or <a href="https://techraptor.net/tabletop/news/official-roll20-demiplane-integration-feature-is-now-in-beta" rel="nofollow" target="_blank">Roll20</a>, Fantasy Grounds still has premium content. This includes official support for prewritten adventures, systems, and supplements for many popular TTRPGs like <a href="https://techraptor.net/games/dungeons-dragons" rel="nofollow" target="_blank"><em>Dungeons &amp; Dragons</em></a>, <a href="https://techraptor.net/tabletop/games/pathfinder" rel="nofollow" target="_blank"><em>Pathfinder</em></a>, and <em>Traveller</em>.</p>
+<h2>How was Generative AI Used During Steam Next Fest October 2025?&nbsp;</h2>
 
-<p>In terms of service, Fantasy Grounds is a more feature-rich experience, albeit with a steeper learning curve. A lot of rules and resolution is automated, and GMs can get a lot more creative with the tools provided. But it can be overwhelming for players brand new to the hobby.</p>
+<p>To start with here, we have a chart showing how developers reported they were using generative AI. The graph is broken into 13 categories based with things like coding, writing, various art uses, audio, translation, and marketing (such as trailers or Steam store pages). It presents a very clear image about how the 507 developers made use of generative AI.</p>
+<picture><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/next-fest-generative-ai-use-cleaner.jpg?itok=cZYdVK6V 1x" media="(min-width: 992px)" type="image/jpeg"><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/next-fest-generative-ai-use-cleaner.jpg?itok=ap79LUoT 1x" media="(max-width: 991px)" type="image/jpeg"></picture><p>Note: Of the 507 games, 25 of them were either so vague that we couldn’t categorize them, failed to have a disclosure despite having checked the Steam backend that they had used generative AI, or were using it in a way we didn’t track (such as fact checking in one case). One of the games was also removed from Steam.</p>
 
-<p>In addition to this new free-to-play status, the latest update for Fantasy Grounds includes an online reader. This is a web-based compendium where users can access their library of material from the VTT from the comfort of their browser.&nbsp;</p>
+<p>We can see two areas particularly stand out in usage: in-game art and marketing.</p>
 
-<p>The Steam User response to this free-to-play pivot has not been kind. All recent reviews currently have the "Mixed" status. Primarily, this is coming from negative reviews from users angry that they bought the game only for it to go free-to-play with no warning given or compensation provided. This includes both the base game at $50 and the $70 Deluxe version; a not insignificant amount of money effectively wasted.</p>
+<p>Tackling marketing first, it was the second most common use case, often for capsule images or trailers. Over one quarter of the disclosed generative AI use was for marketing in a count of 136 (26.82%).&nbsp; Adding those that reported using AI just to localize their Steam page and no other marketing use adds another 12, taking it to 148 (29.20%). Of those titles, a bit under half made use of generative AI only for marketing (63 or 69 if including localization of the store page, either way coming out to 46% of marketing AI use titles).</p>
 
-<p>At time of writing, Fantasy Grounds hasn't addressed if there will be any loyalty rewards for older users.</p>
-</div><div><p><span><div>
-       
-    <p>Ever since he was small, Tyler Chancey has had a deep, abiding love for video games and a tendency to think and overanalyze everything he enjoyed. This… <a href="https://techraptor.net/author/tyler-chancey">More about Tyler</a></p>
-  </div></span></p></div></div><br/><br/>https://techraptor.net/tabletop/news/premium-vtt-fantasy-grounds-is-going-free-to-play]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[The Elder Scrolls 6 "Still a Long Way Off", Says Todd Howard]]></title>
-            <link>https://techraptor.net/gaming/news/elder-scrolls-6-still-long-way-off-todd-howard</link>
-            <guid>https://www.resetera.com/threads/the-elder-scrolls-6-still-a-long-way-off-says-todd-howard.1349050/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><p><em>The Elder Scrolls 6&nbsp;</em>director and Bethesda studio head Todd Howard has some bad news for you: the game is not launching anytime soon.</p>
+<blockquote>
+<p>53% of developers used generative AI for only one category, 47% used it for two or more.</p>
+</blockquote>
 
-<p>In a new <a href="https://www.gq-magazine.co.uk/article/fallout-4-anniversary-todd-howard-interview" rel="nofollow" target="_blank">interview</a> with GQ, Howard says that&nbsp;<em>The Elder Scrolls 6&nbsp;</em>(which still doesn't have its&nbsp;<em>Morrowind&nbsp;</em>or&nbsp;<em>Skyrim</em>-style secondary title) is "still a long way off", although it is "the everyday thing" on which Bethesda is currently working.</p>
+<p>Interestingly, that is a bit less than the amount of games that used generative AI for only one of the above categories. That amount came to 273, or 53% of developers who used generative AI for just one thing. When it comes to using AI for in-game art, the most common use case for AI, 47% solely used generative AI for just art and nothing else.</p>
 
-<p>Howard says that his "perfect version" of&nbsp;<em>The Elder Scrolls 6</em>'s launch is that "it's going to be a while and then, one day, the game will just appear", calling the&nbsp;<em>Oblivion&nbsp;</em>remaster's <a href="https://techraptor.net/gaming/news/elder-scrolls-iv-oblivion-remastered-released" rel="nofollow">shadowdrop</a> a "test run" that "worked out well". It sounds like&nbsp;<em>The Elder Scrolls 6&nbsp;</em>may well have no fanfare at all when it does eventually release.</p>
-<figure role="group"><picture><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/the-elder-scrolls-6-long-way-off-oblivion-remaster.jpg?itok=myWmu2Au 1x" media="(min-width: 992px)" type="image/jpeg"><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/the-elder-scrolls-6-long-way-off-oblivion-remaster.jpg?itok=bcTz3QMV 1x" media="(max-width: 991px)" type="image/jpeg"></picture><figcaption>Could&nbsp;<em>The Elder Scrolls 6&nbsp;</em>shadowdrop like&nbsp;<em>Oblivion Remastered</em>?</figcaption></figure><p>This isn't the first time Howard has set expectations for&nbsp;<em>The Elder Scrolls 6</em>. Back in September 2023, he said that the game <a href="https://techraptor.net/gaming/news/elder-scrolls-vi-after-2026-no-ps5" rel="nofollow">would launch in "2026 or later"</a>, and that it probably wouldn't appear on the PlayStation 5. Of course, that may well have changed in the interim, given Xbox's <a href="https://techraptor.net/gaming/news/sea-of-thieves-grounded-and-pentiment-officially-announced-for-playstation-platforms" rel="nofollow">new multiplatform strategy</a>.</p>
+<p>Art was the major thing that developers turned to generative AI for. While in-game art made up a huge amount of that, we also counted 33 developers explicitly using it for concept or reference art (note this excludes cases where they say they then built on the art as that would become in-game art) and 20 who said it was for placeholders.</p>
 
-<p>The last we heard of&nbsp;<em>The Elder Scrolls 6</em>&nbsp;was in February this year, when Bethesda announced that it would <a href="https://techraptor.net/gaming/news/elder-scrolls-vi-auction-charity-npc" rel="nofollow">hold a charity auction</a> allowing the winner to create their very own character to appear in the game. We still don't know where the RPG will take place or what its story might look like.</p>
+<p>It is also worth reminding folks here that some developers may feel they don’t need to disclose their use in these cases, and that sometimes games have <a href="https://techraptor.net/gaming/news/the-alters-possible-generative-ai" rel="nofollow">AI art that slips into the final version like with 11 Bit’s </a><em><a href="https://techraptor.net/gaming/news/the-alters-possible-generative-ai" rel="nofollow">The Alters</a>.&nbsp;</em></p>
 
-<p>As a quick reminder,&nbsp;<em>The Elder Scrolls 6&nbsp;</em>was originally announced all the way back in 2018. The reveal was so long ago that it predates Microsoft's <a href="https://techraptor.net/gaming/news/microsoft-acquires-zenimax-media-for-75-billion" rel="nofollow">acquisition of Bethesda and its parent company ZeniMax</a>.</p>
+<blockquote>
+<p>Nearly two thirds of games that reported using generative AI used it for art.</p>
+</blockquote>
 
-<p>When the game was announced, it was through a trailer that simply showed a logo for&nbsp;<em>The Elder Scrolls 6</em>, along with a rural fantasy landscape. To date, that's still all we have in terms of the art direction and location for the highly-anticipated RPG.</p>
+<p>Most didn’t stop at that though and used the generative AI art as part of the final product directly in the game. Almost all of them would like to assure you that they are curated by humans and often refined by them too. 286 games out of the 507 (or 56.41%) made use of generative AI for in-game art in the final product – with the percentage jumping to 59.33% if you discount the 25 games we don’t know.</p>
 
+<p>When you add the other uses of art which don’t overlap with in-game art (many of them did), you get 313 games or a total of 61.74%. When you remove the 25 we don’t know about, that number is approximately 65%, nearly reaching a total of 2/3rds of games using generative AI for art.</p>
 
+<h2>How did games use Generative AI for art?</h2>
 
+<p>Of course, given the sheer amount of games using generative AI for art, that prompted me to explore more.</p>
+<picture><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/next-fest-gen-ai-art-cases_0.png?itok=Wq94NOLw 1x" media="(min-width: 992px)" type="image/png"><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/next-fest-gen-ai-art-cases_0.png?itok=XG-BYkJQ 1x" media="(max-width: 991px)" type="image/png"></picture><p>What jumps out immediately is that over half of the games reported use of generative AI art was unclear. That count of 145 includes 25 games where they were clear about some other aspect, leaving 120 completely ‘unclear’ games, making up 41% of the games using generative AI for art.</p>
 
-<p>It remains to be seen whether any more news on&nbsp;<em>The Elder Scrolls 6&nbsp;</em>will be revealed in the near future (or, indeed, throughout the rest of next year). Stay tuned for more.</p>
-</div><div><p><span><div>
-       
-    <p>Joe has been writing for TechRaptor for several years, and in those years has learned a lot about the gaming industry and its foibles. He’s originally an… <a href="https://techraptor.net/author/joseph-allen">More about Joseph</a></p>
-  </div></span></p></div></div><br/><br/>https://techraptor.net/gaming/news/elder-scrolls-6-still-long-way-off-todd-howard]]></content:encoded>
+<p>These types of games often stated something like “some 2D assets”, or “Art”, or “Drawing Work”, which is vague and doesn’t tell the player what is being drawn with generative AI. Still,&nbsp; 59% of games provided either partial or more detailed explanations of how they used generative AI.</p>
+
+<blockquote>
+<p>The most common use of generative AI art was for background art.</p>
+</blockquote>
+
+<p>The most commonly reported use for generative AI art was background art. Given AI’s occasional difficulties with fine details, this makes sense, especially given that background art is generally just that: in the background. It is a secondary element for most developers although it is incredibly important to tone and world building. 65 of the games made use of generative AI to make background art, making up about 21.95% of the games that used generative AI art in-game.</p>
+
+<p>After backgrounds, characters were the most common use case for generative AI art. Making general character or monster art was done in at least 38 cases. Generative AI was also used for for character portraits in 20 cases and for 3D models 10 times.</p>
+
+<p>When you combine the categories for character art (removing double counts) we get a total of 62, which takes the percentage from 13.94% of just character art to 21.60% when you count all the different forms of depicting characters — not far off of background art. Adding the two together means over 43% of disclosed generative AI art usage was for backgrounds or character art.</p>
+
+<p>Generative AI art for UI came in lower than expected but still had a high level of use, with 46 reported UI or icon use cases, making up 16% of generative AI art use.&nbsp;These art pieces often need fine detail and are quite small, which is probably why AI is used so much – additionally they are&nbsp;thought of as less artistic by many. While titles like<em> Persona 5</em> have shown how stylish UI can be and not get in the way, many titles prefer to go with relatively standard and safe iconography for their user interface.</p>
+
+<blockquote>
+<p>43% of generative AI art usage was for background or character art.</p>
+</blockquote>
+
+<p>Textures was an area that saw a good amount of use, with 29 developers stating that they used generative AI to apply, resize, make or otherwise work with textures in some form or another. Most of those using generative AI with textures were using it in some other area as well (only 37% used it for textures alone in art), but there isn’t really any clear example of a regular partner for textures in their usage.</p>
+
+<p>One area that surprised me was the category of 'Wall Art'. This is the term I gave to cases like posters and framed pictures that are often in the background. While sometimes mentioned by proponents of generative AI as an example of an area that generative AI could help with due to it being a lot of detail work with small impact, only 14 games said they were using generative AI art for this purpose.</p>
+
+<h2>What Else Did Games Use Generative AI For?</h2>
+
+<p>Outside of art and marketing, the next most prominent area was audio. A total of 121 games made use of generative AI for audio purposes in some form that was disclosed – a total of 25.1% out of those games where we were able to classify (23.86% out of the entire 507), putting it at 1 in 4 games using generative AI for audio. That also puts it at 4% of the total games in the Steam Next Fest for October 2025 having disclosed that they used generative AI Audio in some way.</p>
+
+<blockquote>
+<p>1 in 4 games used generative AI for audio.</p>
+</blockquote>
+
+<p>The most common use case was for voice acting/voice overs. 61 Games disclosed that they used generative AI to get voice overs or voice acting for their games – sometimes for marketing purposes in trailers, but more often for characters in the game in general. Over 12% of games using generative AI were using it, at least in part to get voice acting, with 19 of the games exclusively using it for that purpose.</p>
+
+<p>But it didn’t lead by much as generative AI music was disclosed to be used in 56 different games, with 10 games using generative AI for music creation exclusively. Next was a significant jump down to sound effects, which saw use in 33 games, and only 2 of those cases used generative AI exclusively for sound effects.&nbsp;</p>
+
+<p>Coding is an area where I suspect that our numbers are very much under the reality, based on the fact that there is no way for anyone to identify ‘AI Code’ from a product they are an end user on really. Given the rapid use of generative AI in tech fields, the fact that it’s only been reported in 41 cases (8.09%) seems unlikely, but it is what we have as far as data goes.</p>
+
+<blockquote>
+<p>Without a way for an end user to see if AI was used for coding purposes, the numbers are likely underreported.&nbsp;</p>
+</blockquote>
+
+<p>In a similar range we also have writing, with 44 developers saying they used generative AI to write for them some. Generally how they were used weren’t really communicated in the disclosures so there’s not too much more to say, beyond only 2 cases using generative AI for writing exclusively.&nbsp;</p>
+
+<p>Getting writing into other languages was about as popular with 43 reporting using generative AI for translation. When we add that to those whom disclosed localizing store pages with generative AI, we get a total of 54, for 10.65% of games using generative AI used for some form of translation. Of those games, 16 of them made use of generative AI exclusively for translation purposes.</p>
+
+<p>One area that Valve is very concerned with based on their generative AI disclosure page is where the AI is used in real-time as players play the game. The nature of generative AI in this case means that no one has an opportunity to review the assets, and that games using AI in real-time need to implement guard rails to prevent inappropriate or illegal content<strong>, </strong>which also includes copyright violations.</p>
+
+<p>Identified as ‘in-game calls’ on our chart, only 9 games in the Steam Next Fest used real-time generative AI, perhaps in part due to the cost of free users on a demo flooding the API and costing the developer money.&nbsp;</p>
+
+<h2>Who was using Generative AI at Steam Next Fest October 2025?</h2>
+
+<p>While going through the various game pages I noticed a higher than normal amount of developers mentioning they were solo developers. So I went back through and noted those who identified as solo developers – typically in the AI disclosure. In some cases the use of first person led me to take a quick look at social media to check.</p>
+
+<p>The term ‘solo dev’ is already somewhat loose in use and people mean different things with it, but over 6.5% of the developers reporting their use of AI identified themselves as such. 33 out of 507 isn’t a huge number, but it is a trend of note.</p>
+<picture><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/game-developers-examining-art.jpg?itok=Z6gTV_uS 1x" media="(min-width: 992px)" type="image/jpeg"><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/game-developers-examining-art.jpg?itok=eQ8itx0d 1x" media="(max-width: 991px)" type="image/jpeg"></picture><p>Many of those developers were among those making speeches about why they were using AI. While some developers kept their disclosures incredibly short and vague, others took the time to write short treatises on the topic.</p>
+
+<p>With the disclaimer that this is even more subjective than solo devs, I counted those who spent a sentence or more about why they had used generative AI in their game. The count came to 35, and it includes those just taking a sentence to say something like all work was reviewed and modified by humans, to two developers who actually had sites linked to explaining why they had used AI. That comes out to about 7% of developers taking time to at least address a bit of why they used generative AI.</p>
+
+<blockquote>
+<p>Over 8% of the games using generative AI in the October Next Fest were adult only games.</p>
+</blockquote>
+
+<p>Another aspect that quickly became apparent was that there were a lot of adult games in the data. Given the issues that have been with Steam and Adult Only games in the past, and most recently, this was a bit of a surprise.</p>
+
+<p>Over 8% of the games using generative AI in the October Next Fest were adult only games. These 41 games almost all used it for in-game art, with at least 34 of them doing so. And one of the games marked "unclear" went with a very vague phrase – “some in game assets,” which almost certainly includes art.</p>
+
+<p>Some publishers have also taken to using generative AI in a number of their titles. One publisher of particular note is PlayWay, publishers of&nbsp;<a href="https://techraptor.net/games/house-flipper" rel="nofollow" target="_blank" title="House Flipper"><em>House Flipper</em>&nbsp;</a>and over 500 other games on Steam (many of them first person simulation games).</p>
+
+<p>Examples during Next Fest include&nbsp;<a href="https://store.steampowered.com/app/2007580/I_Am_Jesus_Christ_Demo/" rel="nofollow" target="_blank" title="I am Jesus Christ demo"><em>I am Jesus Christ</em></a>'s demo (the main page fails to disclose),&nbsp;<a href="https://store.steampowered.com/app/3398110/The_Walking_Trade/" rel="nofollow" target="_blank" title="The Walking Trade"><em>The Walking Trade</em></a>, and&nbsp;<a href="https://store.steampowered.com/app/3988670/Electronics_Store_Simulator/" rel="nofollow" target="_blank" title="Electronics Store Simulator"><em>Electronics Store Simulator</em></a><em>&nbsp;</em>whose page has what is a common disclaimer for PlayWay games now of generative AI being used for "for store page capsule art and in-game character portrait art".</p>
+
+<p>One problematic area for the AI disclosures regards accuracy and consistency.&nbsp;Some demos make use of a separate page from the game's main store page, while others don't, but not all of those demo pages were consistent or accurate with the information provided on the main page of the game.</p>
+
+<p>At least 16 of the demo pages did not disclose their use of generative AI, while the main page did. The reverse also happened in several cases, with a demo disclosing AI use where the main page didn't, or had different content disclosed in a way that wasn't related to placeholders. Given the way that Steam Next Fest directs users to the demo pages if they are in existence for a game, players are uninformed in those cases.</p>
+
+<p>Enduring consistency is also an issue. At least 7 games have removed their AI disclosures in the time since Steam Next Fest ended,&nbsp;but that still leaves them with a checkbox of Content Generative AI true on SteamDB’s backend. We also have notes on what some of them had before making that change.</p>
+
+<p>This fits a problematic trend of games using generative AI in development and then failing to disclose its use even if the final assets used in-game are not generative AI. This withholds some information that some players may want to know when making purchasing decisions.</p>
+
+<p>Games like <em><a href="https://techraptor.net/gaming/news/the-alters-possible-generative-ai" rel="nofollow" target="_blank" title="The Alters Players Reckon They've Spotted Some Undisclosed Generative AI Work">The Alters</a> </em>are a clear example where there was generative AI used in the creation of the game without it being disclosed, and then some of it slipped through to the final release.</p>
+
+<p>We reached out to Valve with several questions, including about games that had removed disclosures or demos that had not disclosed on all pages. They did not reply as of time of publication.</p>
+
+<h2>Data Limitations</h2>
+
+<p>There are a number of limitations in the data we gathered. First of all, all Generative AI Use disclosure is done by the developer. We have seen cases of developers not disclosing it and some games took down their disclosure during the period we were examining them.</p>
+
+<p>Additionally, details on how they used generative AI in their game vary greatly from one case where they said every time it was used, to phrases like “some materials” or “some in-game assets” that don’t allow us to categorize the use cases. Out of the 507 games that had the listed state of AI, 37 had cases where at least some of the uses were unclear, making up over 7% of the titles.</p>
+
+<p>Generally speaking, we relied on what the developer wrote and minimized how much inference was required, preferring to leave something noted as unclear rather than attempting to best fit to the categories.</p>
+</div></div><br/><br/>https://techraptor.net/gaming/features/examining-generative-ais-usage-in-steam-next-fest-2025]]></content:encoded>
         </item>
     </channel>
 </rss>
