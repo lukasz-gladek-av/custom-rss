@@ -4,30 +4,112 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Tue, 11 Nov 2025 21:36:43 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Nov 2025 22:08:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Fallout 4 Anniversary Edition Broke Your Mods? Here’s How to Revert to the Previous Version]]></title>
+            <link>https://wccftech.com/fallout-4-anniversary-edition-broke-your-mods-heres-how-to-revert/</link>
+            <guid>https://www.resetera.com/threads/fallout-4-anniversary-edition-broke-your-mods-here%E2%80%99s-how-to-revert-to-the-previous-version.1350409/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			
+			<p>As <a href="https://wccftech.com/fallout-4-anniversary-edition-all-dlc-creation-club-content-nintendo-switch-2/" target="_blank" rel="noreferrer noopener">announced in late October</a>, Bethesda released Fallout 4 Anniversary Edition yesterday for PC, PlayStation 4, PlayStation 5, Xbox One, and Xbox Series S|X, as a way to celebrate the tenth anniversary of the original launch. </p>
+
+
+
+<p>This new version of the critically acclaimed post-apocalyptic open world roleplaying game includes all the six official DLCs released by Bethesda Game Studios (Far Harbor, Automatron, Nuka-World, Contraptions Workshop, Vault-Tec Workshop and Wasteland Workshop), as well as over 150 Creation Club items, including new quests, companions, armors, weapons, skins, player homes, and objects to add to the Settlements system. Fallout 4 Anniversary Edition, which will launch next year for Nintendo Switch 2, is priced at $59.99 for new users, $39.99 for those upgrading from the original game, and $19.99 for those upgrading from the Game of the Year edition.</p>
+
+
+
+<figure><p>
+<iframe title="Fallout 4: Anniversary Edition - Reveal Trailer" width="500" height="281" src="https://www.youtube.com/embed/3zKeAbOFFeE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<p>However, just like with <a href="https://wccftech.com/skyrim-anniversary-edition-out-now-free-update-weighs-5-3gb-on-pc/" target="_blank" rel="noreferrer noopener">Skyrim Anniversary Edition</a> four years ago, this new edition breaks many essential mods that users had based their modlists around. The main reason is that F4SE, the equivalent of SKSE, an extender upon which many mods are based, no longer works (until its creators update it).</p>
+
+
+
+<p>And just like with Skyrim Anniversary Edition, modders have quickly come up with a method to revert Fallout 4 Anniversary Edition to the previous version of the game (v1.10.984), thus preventing the breaking of your precious mods.</p>
+
+
+
+<p>The first to post a guide on how to do that was Nexus Mods user ocramuias (in the comments section of <a href="https://www.nexusmods.com/news/15400" target="_blank" rel="noreferrer noopener">this page</a>). Here's an abridged version of that guide:</p>
+
+
+
+<ol>
+<li>Open the Steam console by pressing Win + R and pasting <strong>steam://open/console</strong></li>
+
+
+
+<li>Run the following command inside the Steam console: <strong>download_depot 377160 377162 5698952341602575696</strong></li>
+
+
+
+<li>This forces Steam to download the Fallout4.exe file (38 MB in size) from the previous build, version 1.10.984, which was originally released on May 13, 2024. When the download is complete, open the folder shown in the console log. This can usually be found in <strong>C:\Program Files (x86)\Steam\steamapps\content\app_377160\depot_377162</strong></li>
+
+
+
+<li>Once there, you must back up your current executable. Navigate to your game's installation directory (for example, <strong>C:\SteamLibrary\steamapps\common\Fallout 4</strong>), and rename the existing Fallout4.exe to Fallout4_111137.exe. Now, copy the previously downloaded file into that folder and replace the existing .exe file.</li>
+
+
+
+<li>At this point, it's time to disable automatic updates for Fallout 4 Anniversary Edition. You can do that in Steam &gt; Library &gt; Fallout 4 &gt; Properties &gt; Updates &gt; set "Only update this game when I launch it". From now on, you'll always have to launch the game through <strong>f4se_loader.exe</strong> rather than Steam.</li>
+
+
+
+<li>Also, set Fallout4.exe to Read-only by right-clicking with the mouse and going to Properties. This will prevent Steam from overwriting it.</li>
+</ol>
+
+
+
+<p>Enjoy!</p>
+
+			
+			<p>Follow <a href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> or <a href="https://google.com/preferences/source?q=wccftech.com">add us as a preferred source</a>, to get our news coverage and reviews in your feeds.</p>
+
+		</div></div><br/><br/>https://wccftech.com/fallout-4-anniversary-edition-broke-your-mods-heres-how-to-revert/]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[High-Tech Russian Robot Walks On Stage To Rocky Theme Song And Immediately Falls Over]]></title>
+            <link>https://kotaku.com/high-tech-russian-robot-rocky-theme-song-falls-over-video-2000643038</link>
+            <guid>https://www.resetera.com/threads/high-tech-russian-robot-walks-on-stage-to-rocky-theme-song-and-immediately-falls-over.1350403/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+              
+              <p>A highly advanced AI-powered robot took a tumble in Russia during a technology presentation. Unfortunately for the robot and its creators, the fall happened while the <em>Rocky</em> theme song played, and it was all recorded and shared online.</p> <p>On November 11, <a href="https://unn.ua/en/news/in-russia-the-first-humanoid-robot-fell-at-a-presentation-it-was-covered-from-the-audience">AIdol showcased some AI-powered autonomous robots</a> at the Yarovit Hall Congress Center in Moscow. <a href="https://www.mskagency.ru/photobank/1063641">Photos from the event</a> posted by the <em>Moscow City News Agency</em> show that the company had a few different robots on hand for the event, letting people get up close to them, take selfies, and <a href="https://www.mskagency.ru/photobank/1063641">even kiss the creepy-looking bots</a>.</p>
+
+ <p>However, at some point during the event, one of the robots was presented on stage and began to walk like someone who had had one too many drinks. Just a few moments later, <a href="https://www.mskagency.ru/photobank/1063636">the bot crashed forward</a> onto the floor, leaving broken bits of plastic and metal on the ground. After the fall, someone tried to use a black curtain to cover up what had happened, but the curtain was twisted up, and it took far too long to hide the situation. While all of this happened, inexplicably, it sounds like the <em>Rocky</em> theme song was playing in the background. Let’s watch:</p> <div><blockquote data-bluesky-uri="at://did:plc:4aqzua5vsewimmusg66fyajl/app.bsky.feed.post/3m5eso76zcs2a" data-bluesky-cid="bafyreigiz35sfxgm3s6kshx57kkxjdzsxt26i7zvwddao2cgjnallgr3zm"> <p lang="en">Joke of the day from Moscow: Russia tried to unveil its first humanoid AI robot, Aidol. Key word: tried. The robot collapsed during its debut, forcing organizers to cut the presentation short. Their rushed attempt to lift the prop only made things worse.</p> <p>— <a href="https://bsky.app/profile/did:plc:4aqzua5vsewimmusg66fyajl?ref_src=embed">NOELREPORTS (@noelreports.com)</a> <a href="https://bsky.app/profile/did:plc:4aqzua5vsewimmusg66fyajl/post/3m5eso76zcs2a?ref_src=embed">2025-11-11T18:53:03.008Z</a></p></blockquote></div>   <p>Folks, I couldn’t write a comedic skit that funny if you sat me in a room and pointed a gun at me. This is top-tier comedy. In fact, it was so funny that I wasn’t sure it was real. I mean, there was that <a href="https://nypost.com/2018/12/13/hi-tech-robot-on-russian-state-tv-turns-out-to-be-a-fraud/">fake robot back in 2018</a> in Russia that turned out to be a man in a suit. Perhaps this was fake, too? But looking around, it does seem like this event happened and was covered by a news agency in Moscow.&nbsp; This is all a bit embarrassing for the folks involved, but at least the robot never stepped on a Lego and <a href="https://b1.mskagency.ru/c/1119897.jpg">screamed in pain…oh no!</a></p>
+                          </div></div><br/><br/>https://kotaku.com/high-tech-russian-robot-rocky-theme-song-falls-over-video-2000643038]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Review: Goodnight Universe (Switch 2) - A Supernatural Adventure, Quirky & Heartwarming]]></title>
             <link>https://www.nintendolife.com/reviews/nintendo-switch-2/goodnight-universe</link>
             <guid>https://www.resetera.com/threads/review-goodnight-universe-switch-2-a-supernatural-adventure-quirky-heartwarming.1350388/</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><section>
-<figure><a title="Goodnight Universe Review - Screenshot 1 of 6" href="https://images.nintendolife.com/screenshots/160463/large.jpg"></a><figcaption>Captured on Nintendo Switch 2 (Handheld/Undocked)</figcaption></figure><p>In 2021, publisher Skybound Games put out <a href="https://www.pushsquare.com/games/ps5/before_your_eyes">Before Your Eyes</a> on PC and Mac (later on mobile and PSVR2), which offered an innovative control mechanic in which you primarily interacted with the game through eye movement and blinks. Alongside this cool gimmick, Before Your Eyes was lauded for its gripping emotional story, quickly turning it into an indie favourite that garnered a passionate following.</p>
+<figure><a title="Goodnight Universe Review - Screenshot 1 of 6" href="https://images.nintendolife.com/screenshots/160473/large.jpg"></a><figcaption>Captured on Nintendo Switch 2 (Docked)</figcaption></figure><p>In 2021, publisher Skybound Games put out <a href="https://www.pushsquare.com/games/ps5/before_your_eyes">Before Your Eyes</a> on PC and Mac (later on mobile and PSVR2), which offered an innovative control mechanic in which you primarily interacted with the game through eye movement and blinks. Alongside this cool gimmick, Before Your Eyes was lauded for its gripping emotional story, quickly turning it into an indie favourite that garnered a passionate following.</p>
 <p>Now, the developers at GoodbyeWorld Games have created a spiritual sequel called <a href="https://www.nintendolife.com/games/nintendo-switch-2/goodnight-universe">Goodnight Universe</a>, which both builds on some of the themes of its predecessor and introduces some cool ideas of its own. Though it currently lacks the eye control feature on Switch 2 (a Camera update is planned "sometime after launch"), it still proves a worthwhile narrative experience.</p>
 <p>Goodnight Universe places you in the role of Isaac, an infant with the mind of a grown man and psychic powers, born to an unremarkable and ordinary nuclear family. Isaac can babble and cry and do all the things that a normal baby can do, but every now and then he causes a little chaos by flexing his psionic abilities in ways that confuse, frighten, and delight those around him who haven’t caught on and believe that Isaac is simply just a ‘normal’ baby.</p>
-<figure><a title="Goodnight Universe Review - Screenshot 2 of 6" href="https://images.nintendolife.com/screenshots/155043/large.jpg"></a></figure>
+<figure><a title="Goodnight Universe Review - Screenshot 2 of 6" href="https://images.nintendolife.com/screenshots/160469/large.jpg"></a><figcaption>Captured on Nintendo Switch 2 (Handheld/Undocked)</figcaption></figure>
 <p>Yet there’s, of course, the lingering mystery of <em>why</em> Isaac can do these things, and the plot naturally thickens once he catches the attention of the Aio Corporation, a tech company which seems to have some understanding of Isaac’s powers and has its own agenda for how to utilise them.</p>
 <p>While the twists throughout the relatively brief (~four-hour) narrative are certainly intriguing, this is ultimately a soulful and heartwarming tale about the importance of family and the finite nature of time. As Isaac narrates his experience, you’re getting a first-row seat to all the ups and downs of ordinary family life, and not all of it is pretty.</p>
 <p>In one instance, you’re witnessing a wholesome interaction between Isaac’s sister, Cleo, and his dad, while in another you’re tuning in to his dad’s private thoughts while he reads a bedtime story and learning of various insecurities and concerns he struggles with as the family's main provider. Domestic life can be messy in so many beautiful ways, and Goodnight Universe does a great job of showcasing this while keeping things interesting with the goofy antics of its primary protagonist.</p>
-<figure><a title="Goodnight Universe Review - Screenshot 3 of 6" href="https://images.nintendolife.com/screenshots/160468/large.jpg"></a><figcaption>Captured on Nintendo Switch 2 (Handheld/Undocked)</figcaption></figure>
+<figure><a title="Goodnight Universe Review - Screenshot 3 of 6" href="https://images.nintendolife.com/screenshots/155048/large.jpg"></a></figure>
 <p>While there are some key moments in which you can express yourself and choose <em>slightly</em> diverging routes for a given scene, this is a largely linear tale that plays out somewhat like an interactive Pixar movie. Every now and then, you’ll get to choose something — such as whether Isaac responds with happiness or sadness to what another character said or did — and this leads to a few unique lines of dialogue, but there aren’t any bigger moments that lead to completely separate paths and different routes.</p>
 <p>Some may be disappointed by this, but I appreciated the single-minded nature of the narrative, as it allows you to more easily immerse yourself, rather than keep stepping out to determine which route might be more interesting.</p>
 <p>Gameplay follows the structure of a simple point-and-click adventure game in which you primarily scan the environment for the next interactable object or person needed to move the scene forward. Sometimes you’re given a neat checklist to follow with multiple objectives, while others you must intuit what’s next based on what the characters are doing.</p>
-<figure><a title="Goodnight Universe Review - Screenshot 4 of 6" href="https://images.nintendolife.com/screenshots/155048/large.jpg"></a></figure>
+<figure><a title="Goodnight Universe Review - Screenshot 4 of 6" href="https://images.nintendolife.com/screenshots/160476/large.jpg"></a><figcaption>Captured on Nintendo Switch 2 (Docked)</figcaption></figure>
 <p>Isaac can read minds and manipulate objects from afar, leading to all sorts of mischief as you innocently poke and prod at the world, leaving those around you bewildered as dishes seemingly wash themselves and toys aren’t found in the same places they were left.</p>
 <p>There are some light puzzles to solve every now and then, but progression is basically a matter of identifying the correct object you need to manipulate in the environment and then doing the action needed to make it move or dance or fly across the room.</p>
 <p>You do gain a few new abilities as the narrative progresses and Isaac gets more of a handle on his powers, but it’s very rare that the path forward isn’t made obvious either by the game literally telling you what to do next or very strongly hinting at it. Those of you who are looking for challenge won’t find it here, then, but the gameplay isn’t so braindead that you disengage.</p>
-<figure><a title="Goodnight Universe Review - Screenshot 5 of 6" href="https://images.nintendolife.com/screenshots/160476/large.jpg"></a><figcaption>Captured on Nintendo Switch 2 (Docked)</figcaption></figure>
+<figure><a title="Goodnight Universe Review - Screenshot 5 of 6" href="https://images.nintendolife.com/screenshots/160477/large.jpg"></a><figcaption>Captured on Nintendo Switch 2 (Docked)</figcaption></figure>
 <p>Just like Before Your Eyes, the controls for Goodnight Universe feel designed around eye-tracking software for video cameras, but... well, the Switch 2 version doesn’t support this at launch. As a result, you’re left to navigate the interface using the right stick to move the cursor and camera, which often feels more tedious than I’d like. It’s the sort of control scheme that’s <em>fine,</em> but it feels clunky and unintuitive, which tends to take you out of the narrative that’s clearly trying to place you in Isaac’s shoes.</p>
 <p>While I wouldn’t say that stick controls are a dealbreaker, it’s nonetheless worth keeping in mind that you’re missing out on a key component of the intended game experience when playing it on console before the planned update arrives.</p>
 <p>Visually, Goodnight Universe employs a simplistic but charming art style that leans well into the cartoonish absurdity of its protagonist’s abilities. The exaggerated proportions and environments vaguely call to mind the art style of the <a href="https://www.nintendolife.com/games/switch-eshop/katamari_damacy_reroll">Katamari</a> series, but there’s plenty of room for detailed character expression and smooth animation as scenes play out. Naturally, all this unfolds without any frame hitches or skips, highlighting the much-welcomed power boost that the Switch 2 hardware brings over its predecessor.</p>
@@ -208,11 +290,93 @@
 
 
 
+<p><strong>Dragon Quest VII Reimagined</strong></p>
+
+
+
+<p>Releasing February 5, 2026</p>
+
+
+
+<figure><p>
+<iframe title="Dragon Quest VII Reimagined - Follow-Up Trailer | PS5 Games" width="500" height="281" src="https://www.youtube.com/embed/Wf6HMdCStmQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<hr>
+
+
+
+<p><strong>Inkonbini: One Store, Many Stories</strong></p>
+
+
+
+<p>Releasing April 2026</p>
+
+
+
+<figure><p>
+<iframe loading="lazy" title="inKONBINI: One Store. Many Stories - State of Play Trailer | PS5 Games" width="500" height="281" src="https://www.youtube.com/embed/yvnvdI3dc5E?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<hr>
+
+
+
+<p><strong>Coffee Talk Tokyo</strong></p>
+
+
+
+<p>Releasing March 5, 2026</p>
+
+
+
+<hr>
+
+
+
+<p><strong>BrokenLore: UNFOLLOW</strong></p>
+
+
+
+<p>Releasing January 16, 2026</p>
+
+
+
+<figure><p>
+<iframe loading="lazy" title="BrokenLore: Unfollow - Official Trailer | PS5 Games" width="500" height="281" src="https://www.youtube.com/embed/Tpf1l3RKCpM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<hr>
+
+
+
+<p><strong>BrokenLore: Ascend</strong></p>
+
+
+
+<p>Releasing Summer 2026</p>
+
+
+
+<hr>
 
 
 
 
-<h2 id="h-how-to-watch-playstation-state-of-play-japan">How To Watch PlayStation State of Play Japan?</h2>
+
+
+
+
+
+
+
+<h2 id="h-how-to-watch-playstation-state-of-play-japan">How To Watch PlayStation State of Play Japan</h2>
 
 
 
@@ -261,7 +425,7 @@
 <p>So, basically, we'll have a review for you as soon as we can, but as you're likely aware, this game is <em>massive</em>.</p>
 <hr>
 <p><em>Are you excited for Inazuma Eleven: Victory Road later this week? Let us know in the comments</em>.</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch/related-articles:193595,192835 @ 1762893969 --></section></article><div><p>Alana has been with Nintendo Life since 2022, and while RPGs are her first love, Nintendo is a close second. She enjoys nothing more than overthinking battle strategies, characters, and stories. She also wishes she was a Sega air pirate.</p><ul><li><a href="https://www.nintendolife.com/authors/AlanaHagues"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/alanahagues.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('AlanaHagues');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch/related-articles:193595,192835 @ 1762897589 --></section></article><div><p>Alana has been with Nintendo Life since 2022, and while RPGs are her first love, Nintendo is a close second. She enjoys nothing more than overthinking battle strategies, characters, and stories. She also wishes she was a Sega air pirate.</p><ul><li><a href="https://www.nintendolife.com/authors/AlanaHagues"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/alanahagues.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('AlanaHagues');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
 </div></div></div><br/><br/>https://www.nintendolife.com/news/2025/11/level-5-shows-off-the-first-30-minutes-of-inazuma-eleven-victory-road]]></content:encoded>
         </item>
         <item>
@@ -534,7 +698,7 @@
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><section>
 <figure data-uuid="1904a2299f646"><a title="romancing saga 3" href="https://images.nintendolife.com/1904a2299f646/romancing-saga-3.large.jpg"></a><figcaption><em><span></span> Image: Square Enix</em></figcaption></figure><p>I think it's fair to say we got a bit of an unexpected gift when Square Enix re-released <a href="https://www.nintendolife.com/games/switch-eshop/romancing_saga_3">Romancing SaGa 3</a> for Switch back in November of 2019.</p>
 <p>While it may not generate quite the same level of excitement as your <a href="https://www.nintendolife.com/games/nintendo-switch-2/final-fantasy-tactics-the-ivalice-chronicles-nintendo-switch-2-edition">Final Fantasies</a> (and that's understandable), Romancing SaGa 3 deserves any plaudits it gets for bringing a level of freedom and randomness to the RPG genre that was quite unique back in 1995. In fact, the whole series does.</p>
-<p>With 3 in particular, we have a game that was bold, and still feels bold, in how it gave players a selection of eight protagonists to get stuck into the story with. Just like <a href="https://www.nintendolife.com/games/nintendo-switch/octopath_traveler">Octopath Traveler</a>, and its (much better) <a href="https://www.nintendolife.com/games/nintendo-switch/octopath_traveler_ii">sequel</a>, you can journey through Romancing SaGa 3's narrative multiple times thanks to the clever, criss-crossing storylines that make for a genuinely engrossing experience.</p><div><figure data-videoid="C1rrCdi_XjA" data-start="0" data-src="https://www.youtube.com/embed/C1rrCdi_XjA?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><div><iframe id="ytC1rrCdi_XjA" title="YouTube Video" data-src-fallback="https://www.youtube-nocookie.com/embed/C1rrCdi_XjA?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/C1rrCdi_XjA?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed3be067vtuwko&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><p>Subscribe to <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1">Nintendo Life</a> on <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1"><span>YouTube</span><span>838k</span></a></p>
+<p>With 3 in particular, we have a game that was bold, and still feels bold, in how it gave players a selection of eight protagonists to get stuck into the story with. Just like <a href="https://www.nintendolife.com/games/nintendo-switch/octopath_traveler">Octopath Traveler</a>, and its (much better) <a href="https://www.nintendolife.com/games/nintendo-switch/octopath_traveler_ii">sequel</a>, you can journey through Romancing SaGa 3's narrative multiple times thanks to the clever, criss-crossing storylines that make for a genuinely engrossing experience.</p><div><figure data-videoid="C1rrCdi_XjA" data-start="0" data-src="https://www.youtube.com/embed/C1rrCdi_XjA?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><div><iframe id="ytC1rrCdi_XjA" title="YouTube Video" data-src-fallback="https://www.youtube-nocookie.com/embed/C1rrCdi_XjA?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/C1rrCdi_XjA?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed3be067tsqzly&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><p>Subscribe to <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1">Nintendo Life</a> on <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1"><span>YouTube</span><span>838k</span></a></p>
 </div></figure></div>
 
 <p>It helps that the actual story here is fairly strong as these things go to boot, with players assuming control of their chosen protagonist in the immediate aftermath of a Death Eclipse (or Morastrum), a horrifying event that occurs every 300 years that sees all newborns in the year of the Eclipse die, save for one, who becomes a Child of Destiny.</p>
@@ -549,7 +713,7 @@
 
 <hr>
 <p><em>Have you played Romancing SaGa 3 in its original or remastered form? Agree that its uniqueness outshines its frustrations? Let us know!</em></p>
-<!-- cache: html:nintendolife.com/ssl/snes/related-articles:173680,92711 @ 1762894974 --></section></div><br/><br/>https://www.nintendolife.com/features/anniversary-romancing-saga-3-celebrates-30-years-of-eclipsing-death]]></content:encoded>
+<!-- cache: html:nintendolife.com/ssl/snes/related-articles:173680,92711 @ 1762897279 --></section></div><br/><br/>https://www.nintendolife.com/features/anniversary-romancing-saga-3-celebrates-30-years-of-eclipsing-death]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Amidst ARC Raiders Success, Embark’s Use Of Gen AI Voices Bubbles Over, Even Epic’s CEO Joins the Fray]]></title>
@@ -652,55 +816,6 @@
        
     <p>Joe has been writing for TechRaptor for several years, and in those years has learned a lot about the gaming industry and its foibles. He’s originally an… <a href="https://techraptor.net/author/joseph-allen">More about Joseph</a></p>
   </div></span></p></div></div><br/><br/>https://techraptor.net/gaming/news/marvel-rivals-season-5-gambit-rogue]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[One Year Later, I’ve Forgotten I Even Own A PS5 Pro]]></title>
-            <link>https://kotaku.com/ps5-pro-review-one-year-later-worth-it-price-4k-games-2000642988</link>
-            <guid>https://www.resetera.com/threads/one-year-later-i%E2%80%99ve-forgotten-i-even-own-a-ps5-pro.1350178/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-              
-              <p>One year ago this week, Sony launched one of its most expensive video game consoles ever: <a href="https://kotaku.com/ps5-pro-playstation-unboxing-inside-review-comparison-1851688605">the PlayStation 5 Pro</a>. The company promised improved performance and visuals over the standard PS5 as well as DLSS-like upscaling. And while some games definitely benefit from the power, I’ve mostly forgotten I even own a PS5 Pro.</p>
-
- <p>When Sony announced the PlayStation 5 Pro last year, it received a mixed reception. While some were excited to have a more powerful console that could run games at higher framerates, many weren’t convinced it was necessary.<a href="https://kotaku.com/ps5-pro-price-specs-release-date-sony-preorder-1851644442"> And then Sony showed everyone the $700 price tag</a>, and it became even harder to justify the new console. But despite all that, I was still excited to get a PS5 Pro. I have a big ol’ 4K TV and I care about framerates and all the minutiae that impacts how a game looks. And over the last year, I’ve enjoyed some great games on my PS5 Pro. <em>Battlefield 6,</em> for example, looks and runs wonderfully on Sony’s beefier machine. Likewise, <em>Death Stranding 2</em> looks incredibly sharp on PS5 Pro while still running flawlessly.</p>
-
- <p>Yet, many other games I play on my PS5 Pro either don’t look or feel noticeably better, or feature no improvements at all. It doesn’t help that the PlayStation Store still lacks detailed information about what PS5 Pro enhancements are included in a given game. Sometimes I have to go digging around online to find a blog or Reddit post to determine what, if anything, has changed because I’m playing a game on PS5 Pro. That’s not a great experience for a console that now <a href="https://kotaku.com/ps5-console-price-increase-sony-america-august-21-2000618873">costs $750.</a></p>
-
- <p>I can confirm that after a year of use, the PS5 Pro hasn’t given me any troubles. It runs quietly, still feels snappy to use, and hasn’t broken in some other way. In comparison, my base PS5’s USB-C port stopped working after just a few weeks. So at the very least, the PS5 Pro seems well-built and sturdy, which is nice, I guess. But is all of that worth $750?</p>
-
- <h2>Should you buy a PS5 Pro in 2025?</h2> <p>After using the PS5 Pro for a year, I find it hard to recommend. While I do think there are some people out there who will get some benefit from owning a PS5 Pro–<a href="https://kotaku.com/ps5-pro-who-is-it-for-review-worth-it-impressions-4k60-1851691112">mainly folks with 4KTVs who really care about performance</a>–most people don’t need Sony’s more powerful console. Heck, I’m a bit of a graphics snob who loves running games at 120FPS, and I often forget the PS5 Pro is sitting in front of me because games so rarely feel like they’re benefiting from its enhanced specs.</p>
-
- <p>The lack of third-party support is disappointing, too. It’s surprising how many games are still launching on the PS5 via the PlayStation Store without any PS5 Pro benefits. You’d think at this point, Sony would be pushing devs and publishers to support the pricey console more. But it doesn’t feel like that is the case, which I find very strange, and that makes it even harder to recommend plopping down the cash for this thing.</p> <p>At this point, I’d suggest sticking to your PS5 (if you have one) and just enjoying it for a few more years and buying a PlayStation 6 instead when that console finally launches in the next few years, likely at a similar price.</p>
-                          </div></div><br/><br/>https://kotaku.com/ps5-pro-review-one-year-later-worth-it-price-4k-games-2000642988]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[How Fortnite Friday Grew From A Bit Into An Institution That Could Pull Gavin Newsom]]></title>
-            <link>https://aftermath.site/fortnite-friday-connoreatspants-interview-gavin-newsom/</link>
-            <guid>https://www.resetera.com/threads/how-fortnite-friday-grew-from-a-bit-into-an-institution-that-could-pull-gavin-newsom.1350172/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><article>
-      <p>California governor and likely presidential aspirant Gavin Newsom is dogshit at <em>Fortnite</em>. Over the course of an hour, he awkwardly exclaims that he’s “on his hands and knees” multiple times without even once recognizing the double entendre (Twitch chat is thrilled). But skill at <em>Fortnite </em>isn’t really the point of <em>Fortnite </em>Friday, despite its name. Instead, Twitch streamer ConnorEatsPants (who has not publicized his real name), 26, uses the battle royale as a pressure cooker, piling on a mix of deadpan jokes, legitimate questions, and comically-timed reminders to pay attention to the game – all in the name of keeping guests ever-so-slightly off-balance.&nbsp;</p><p>Newsom, during <a href="https://www.youtube.com/watch?v=inuZ7mcNlq0&amp;ref=aftermath.site"><u>an October episode of the show</u></a>, wants to talk about Intellivision, the game console of his youth. Chat – and Connor – want to hear about Israel and Palestine.</p><p>“Bit of a breakthrough today, I hope, where Hamas said they’d turn over all the hostages,” says Newsom in response to Connor and chat’s combined prodding.</p><p>“I mean, they’ve been saying that for over a year now,” replies Connor.</p><p>“Yeah, though, this, uh, appears,” Newsom stammers, “at the moment to be more real than we’ve seen in the past.”</p><p>“It was real in the past,” says Connor. “They’ve made it very clear in the past that they intend to release the hostages.”</p><figure><iframe width="200" height="113" src="https://www.youtube.com/embed/inuZ7mcNlq0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="" title="🔴 Fortnite Friday w/ Governor Gavin Newsom"></iframe></figure><p>Newsom stammers some more. “I’m a little more optimistic based on what we heard quite literally a few hours ago,” he eventually says, clearly off his game in multiple senses.&nbsp;</p><p>They go back and forth about Newsom’s relationship with Israeli prime minister Benjamin Netanyahu, which Newsom says fell apart after a public spat two years ago. “I was not just privately critical,” says Newsom.</p><p>“Sometimes you’ve gotta cut people off, bro,” Connor replies. “Sometimes they are mean and talk behind your back. Sometimes they’re rude. Sometimes they commit genocide. It’s a couple of different things. It just depends.”</p><p>After that, they argue over the merits of a two-state solution (which Newsom favors) versus a one-state solution (which Connor came to prefer, he tells Newsom, after Netanyahu’s controversial <a href="https://www.youtube.com/watch?v=JZvCmAgRWI0&amp;ref=aftermath.site"><u>appearance on the Nelk Boys podcast</u></a>).&nbsp;</p><blockquote>“I want you to see the tweet that [the show] is happening tomorrow, and you're already laughing at the fact that it's happening.”</blockquote><p>This is Connor’s shtick: He jokes, he pushes, and he jokes again. He rarely, if ever, loses his cool. He does not break character. As a result, no guest fully settles in, especially if they’re figures of political significance like Newsom, <a href="https://www.youtube.com/watch?v=XeoNHG4gG5U&amp;ref=aftermath.site"><u>George Santos</u></a>, or <a href="https://www.youtube.com/watch?v=fIBrxWKve-Y&amp;ref=aftermath.site"><u>Adrian Dittmann</u></a>, aka that guy we all thought was Elon Musk for a second. What’s remarkable about <em>Fortnite </em>Friday is that, despite lines of questioning far less predictable than your standard press or talk show interview and a distinctly unserious backdrop – or perhaps because of those things – <em>Fortnite </em>Friday keeps securing bigger guests, the kind you’d never see coming. That, Connor told Aftermath at TwitchCon last month, is by design.</p><p>“I want you to see the tweet that [the show] is happening tomorrow, and you're already laughing at the fact that it's happening,” said Connor. “People reach out like 'Oh, I'm a State Congressperson from Massachusetts.' Well, I don't really care, because that'd be a de-escalation."</p><h2 id="for-the-bit"><strong>For The Bit</strong></h2><p>Like all good things, <em>Fortnite </em>Friday began as a bit. Actually, a bit born of a bit: Connor repeatedly made jokes about Soulja Boy until he manifested an actual appearance from Soulja on his stream into existence.&nbsp;</p><p>"Over the pandemic, I played <em>Fortnite </em>on a Friday <a href="https://www.youtube.com/watch?v=ta6AG513tLs&amp;ref=aftermath.site"><u>with Soulja Boy</u></a>, and it was really funny,” Connor told Aftermath. “So I would joke for a couple of years when coming across a celebrity about 'We've got to get them on <em>Fortnite </em>Friday' as a bit. And then about a year and a half ago, I actually started doing it."</p><p>Slowly but surely, week after week and month after month, things escalated.</p><p>"I had the Musical.ly kid, <a href="https://www.youtube.com/watch?v=6wEYHE4UgNo&amp;ref=aftermath.site"><u>Jacob Sartorius</u></a>, on, and then I had <a href="https://www.youtube.com/watch?v=VfbMQAcJEAI&amp;ref=aftermath.site"><u>Baby Gronk</u></a>, who was an [Instagram] and TikTok [sensation],” said Connor. “And then that built up to <a href="https://www.youtube.com/watch?v=ehe1cTazEEM&amp;ref=aftermath.site"><u>the Tiger King one</u></a>, where I had Tiger King [Joe Exotic] calling from jail, and that was really funny. That got a lot of attention, which led to George Santos and so on."</p><figure><blockquote><p lang="en" dir="ltr">if you have free time before your new job, you should join me on the Battle Bus (free fares)</p>— connor (@ConnorEatsPants) <a href="https://twitter.com/ConnorEatsPants/status/1986013197527339461?ref_src=twsrc%5Etfw&amp;ref=aftermath.site">November 5, 2025</a></blockquote>
-</figure><p>This snowball effect is how Connor – whose following across Twitch, YouTube, Instagram, and Twitter is large but not eye-poppingly enormous – managed to land Newsom in what remains his most surprising interview to date. If you follow Connor on Twitter, you’ll see the outline of a simple yet effective strategy: <a href="https://x.com/ConnorEatsPants/status/1986013197527339461?ref=aftermath.site"><u>tweet</u></a> <a href="https://x.com/ConnorEatsPants/status/1984013128892608649?ref=aftermath.site"><u>at</u></a> <a href="https://x.com/ConnorEatsPants/status/1982361994297810945?ref=aftermath.site"><u>famous</u></a> <a href="https://x.com/ConnorEatsPants/status/1980409570750288225?ref=aftermath.site"><u>people</u></a> <a href="https://x.com/ConnorEatsPants/status/1974280801052471455?ref=aftermath.site"><u>until</u></a> <a href="https://x.com/ConnorEatsPants/status/1968761004809949229?ref=aftermath.site"><u>someone</u></a> <a href="https://x.com/ConnorEatsPants/status/1968414554133823892?ref=aftermath.site"><u>says</u></a> <a href="https://x.com/ConnorEatsPants/status/1966973007286640696?ref=aftermath.site"><u>yes</u></a>.</p><p>"I would tweet at a lot of people and try to gather whatever I could, to see who would want to do it,” said Connor. “I know certain agents of celebrities and people, but with [Newsom], I think his communications guy knew about the George Santos [episode] and DM-ed me on Twitter. He got in touch through that, and then over a couple months, we just figured out a time to do it."</p><p>Also, while Connor does have a talent agent who represents him, the ball is entirely in his court when it comes to procuring guests for <em>Fortnite </em>Friday.</p><p>"It's all me,” he said. “I don't have a booking agent. It would probably help to get one or figure one out, but every single person that's come on has been direct – like, through contacting them."</p><figure><figcaption><span>The mood board for Fortnite Friday's Gavin Newsom episode</span></figcaption></figure><p>This is not the only element of Connor’s approach that walks the fine line between haphazard and brilliant. Instead of diligently referencing a list of questions during interviews, he uses a “mood board” made up of relevant imagery. The Newsom mood board, for example, was a collage that included images of George Santos, Hasan Piker (seductively posing), Donald Trump Jr, the Israeli flag, Asmongold, Taylor Swift, Jeffrey Epstein, a meme-ified version of JD Vance, a trans flag, Kamala Harris' book, and Netanyahu next to a much smaller picture of the Nelk Boys.</p><p>"I think it's both just because of how my brain works,” said Connor, “but also when doing a discussion, playing a video game, and balancing reading Twitch chat, it's easier to have this board on the right [of my main screen] that's more [visual]. I mean, I'll write questions in my notes app on my phone beforehand and then make this mood board, and then I just know when I look at this image or something reminds me of the question I'd thought of, it's easier than having a list that I'm reading. Because that slows me down."</p><p>It is not a flawless method: "I forgot what some things meant during [the Newsom episode],” Connor said. “Like I had Donald Trump Jr, and I forgot I put that on there to ask about Kimberly Guilfoyle, [Newsom's] ex-wife, who dated Donald Trump Jr."</p><p>In the case of political figures who have something to gain by reaching a younger audience, like Newsom and Santos – or even those with an ideology to propagate, like sadsack MAGA-is-my-whole-personality <a href="https://www.youtube.com/watch?v=pMC21Dh4O40&amp;ref=aftermath.site"><u>UFC fighter Colby Covington</u></a> and <a href="https://www.youtube.com/watch?v=_TnjH1aBaN4&amp;ref=aftermath.site"><u><em>Shazam </em>star Zachary Levi</u></a> – Connor recognizes that he’s walking a fine line. He can’t just let them spout off because a) that’d be a poor use of his platform, and b) it just wouldn’t be funny.</p><p>"There's a responsibility, I think, when you're interviewing someone with that amount of power and that amount of influence, that if you're given the opportunity to talk to them, you need to ask them certain hard questions about things they've done or they support,” said Connor. “Otherwise, you're kind of giving them a platform to humanize themselves without the weight of their actions and decisions. So I have to balance that when someone like that is on the show. I mean, I'll ask funny things, and we'll joke about stuff, but I can't finish the episode without making sure I bring up his comments on, say, Israel or things like that, because otherwise I lose credibility with people, too."</p><blockquote>"There's a responsibility, I think, when you're interviewing someone with that amount of power and that amount of influence, that if you're given the opportunity to talk to them, you need to ask them certain hard questions about things they've done or they support."</blockquote><p>Connor does not, however, view himself as any sort of political commentator or expert. Venturing into the political realm has forced him to learn on the job, and he admits that he doesn’t always nail it. After the Newsom stream, for example, he agreed with chat that he could’ve pushed harder on trans issues (Newsom has repeatedly come out against trans athletes and, the week after the <em>Fortnite </em>Friday episode, ended up <a href="https://www.erininthemorning.com/p/gavin-newsom-vetoes-important-hrt?ref=aftermath.site"><u>vetoing a key trans health bill</u></a> after bragging about his pro-trans legislative track record during the episode). Connor also acknowledged that he failed to engage Newsom on the topic of homelessness – another area in which Newsom has <a href="https://www.theguardian.com/us-news/2025/may/12/newsom-california-ban-homeless-encampments?ref=aftermath.site"><u>proven notoriously cruel</u></a> – citing his own lack of expertise.</p><p>"To be honest, I tried to do research on the homeless stuff because people were really upset at the way he acted toward homeless [people] in California,” Connor said during a stream immediately following the Newsom interview, “but honestly I could not understand the issue of unhoused people and housing enough to feel like I could comment on it – at least to that extent. With Israel/Palestine, I feel like I knew enough with how much I've learned over recent years to at least talk about it [competently]."&nbsp;</p><p>Connor’s willingness to challenge influential figures – after lulling them into a false sense of security with jokes and one of the world’s most famous family-friendly video games – makes him an outlier. To wit, shortly after the <em>Fortnite </em>Friday episode, Newsom – whose <a href="https://www.youtube.com/@ThisisGavinNewsom/videos?ref=aftermath.site"><u>prolific podcasting track record</u></a> mostly includes figures from the center and the right, rather than the progressive left – returned to his traditional ways, <a href="https://x.com/TaylorLorenz/status/1979327053431476566?ref=aftermath.site"><u>taking private meetings with high-profile Twitch streamers</u></a> outside Twitch’s Hasan-Piker-adjacent left flank at TwitchCon.&nbsp;</p><p>"The reason I wasn't invited [to a meeting with Newsom]," Mike "Mike From PA" Beyer, the second biggest leftist political commentator on Twitch, told Aftermath, "is because I'm actually political and have my own opinions. Whereas Gavin Newsom is trying to figure out how to manipulate Twitch and use Twitch for his own campaign. He's not interested in give-and-take where he gets where young people are politically and changes his platform to appeal. He wants to have creators who he can offer his cooperation with their platform-building in exchange for them cottoning onto whatever he wants. So it's the same old Democratic party."</p><p>Connor’s approach to shoring up his own strengths and weaknesses – and the recognition that he can’t do it overnight – also informs his decision of where to draw the line in terms of potential future interviewees.</p><p>"Lately people are like 'You've gotta get [antisemetic white supremacist] Nick Fuentes on,'” Connor told Aftermath. “That wouldn't be funny because he's good at being funny and playing the media, and I would just kind of give him a platform to do that more. I'm not an expert political guy, either. I'm just trying to be funny. So I'm not ready to debate these issues with people that I think are super ready for that. I'm more here to have a good time and humanize the guests. Regardless of who they are, whether good or bad, it does show people who they are."</p><blockquote>"Being more casually open about being progressive while being funny, I think, has opened a door for political discussion."</blockquote><p>He does not believe that comedy as a primary aim absolves him of responsibility, though. It’s a tool, like anything else. As someone who grew up in the suburbs of Atlanta surrounded by right-leaning peers and then learned more about the world via the internet, Connor recognizes the power of humor as a means to win people over.</p><p>"Even early on, in 2016, I remember the Reddit for Trump was posting memes and stuff, and what's crazy is that hasn't progressed at all for them,” he said. “They're still very much stuck in this 2016 era: really edgy humor and dated memes. It's just kind of cringey now if you are at all not stupid. It just dates them."&nbsp;</p><p>He hopes to pull people in the opposite direction by actually being funny, albeit not in a way that relentlessly punches down. He thinks his approach resonates because, again, the sort of right-leaning comedians who’ve dominated pop culture in recent years only have one trick, and because as the country careens ever closer to a state of all-out upheaval, people – even <em>Fortnite </em>players – don’t want entertainment that simply distracts them anymore.</p><p>"I think it's harder for people to put their head in the sand [where politics are concerned],” he said. “I think a lot of comedians people look up to now are losing a bit of their credibility and trust with their audience. A lot of them are going down a Joe Rogan route. Being more casually open about being progressive while being funny, I think, has opened a door for political discussion. And it's not just me. People like Adam Friedland are doing it too. I think that's a good thing."</p><h2 id="all-aboard-the-battle-bus"><strong>All Aboard The Battle Bus</strong></h2><p>Though Connor at one point during the Newsom stream said he’d “do <em>Fortnite </em>Friday on a Tuesday” if it meant getting <a href="https://aftermath.site/kai-cenat-eric-adams-nyc-fanum-nypd-giveaway"><u>disgraced still-technically-mayor of New York City Eric Adams</u></a> on, he has no desire to transform the show into a purely political vehicle. Past guests have included <a href="https://www.youtube.com/watch?v=j0hi4f1uegw&amp;ref=aftermath.site"><u>The Rizzler</u></a>, who despite immense overnight fame showed himself to be a shockingly normal and video game-obsessed kid, and with whom Connor still plays the odd <em>Fortnite </em>match off-stream.&nbsp;&nbsp;</p><p>"He's a really sweet kid," said Connor. "I know people say he's gonna grow up [to be a disaster] or people talk about the parents of these young stars, but [his dad] was asking me advice on what to do. Like 'Should I let him do this, this, and that?' There's no guide on how to do that as a parent when your kid suddenly becomes a huge celebrity. If the kid's enjoying it, you don't want to take that away from them. But at the same time, you want to balance being a normal kid. It's not easy, but he's got a good family, so I'm optimistic [about his chances of growing up into a well-adjusted adult]."</p><blockquote>"People say that streamers are fake, and I've always disagreed with that."</blockquote><p>Connor’s dream non-political guest is Miranda Cosgrove from <em>iCarly</em>, a show he believes “embraced and almost predicted” modern internet culture. He’s also been campaigning to get Justin Bieber, who now <a href="https://www.twitch.tv/justinbieber?ref=aftermath.site"><u>streams on Twitch himself</u></a>, but to little avail so far. Rapper Lil B, Connor says, was supposed to be the first <em>Fortnite </em>Friday guest, but technical issues prevented it from happening. All these years later, he’d still like to revisit that idea, though at this point, he’s not putting any money on it.</p><p>"Whenever the vibe is there, I'll text him like 'Lil B, <em>Fortnite </em>Friday?'” said Connor. “And he'll just heart the message and be like 'It's love, family.'"</p><p>Connor’s goal, more than anything else, is to keep both guests and viewers on their toes. At TwitchCon, he told me his next guest would be yet another who would make people laugh the moment he made their name public. It turned out to be Haliey "Hawk Tuah" Welch, who <a href="https://www.youtube.com/watch?v=JwpYzF1d9wo&amp;ref=aftermath.site"><u>made her appearance on <em>Fortnite </em>Friday</u></a> late last month. More guests, Connor said, are “loosely lined up” for the future, but beyond that, anything is possible. It all depends on who responds to his tweets. For now, he just wants to keep talking to people who are worth talking to, as long as it’s funny.</p><p>"I think that's something I carried with me since I was younger: I always try to see the real person in people and the good part of people – see where their heart is at,” Connor said. “I think that lends itself to Twitch, too. When you're interacting with so many people and you're live and people are seeing a lot of you a lot of the time, it's hard to [conceal who you are]. People say that streamers are fake, and I've always disagreed with that. When people are live so much, you really are seeing a lot of them. That's typically how they are, even if it's a played-up version. And I think that lends itself to <em>Fortnite </em>Friday."</p>
-    </article></div><br/><br/>https://aftermath.site/fortnite-friday-connoreatspants-interview-gavin-newsom/]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Roguelike 'Wizard Of Legend 2' Magics Up Switch Release Date]]></title>
-            <link>https://www.nintendolife.com/news/2025/11/roguelike-wizard-of-legend-2-magics-up-switch-release-date</link>
-            <guid>https://www.resetera.com/threads/roguelike-wizard-of-legend-2-magics-up-switch-release-date.1350154/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><section>
-
-<p>After its launch on PC, PlayStation and Xbox earlier this year, Dead Mage and Humble Games have announced that the magic roguelike sequel, <a href="https://www.nintendolife.com/games/switch-eshop/wizard_of_legend_2">Wizard of Legend 2</a>, will be appearing on Switch on <strong>25th November</strong> (from a puff of smoke, presumably).</p>
-<p>Much like its predecessor, Wizard of Legend 2 will see you building magical loadouts from a wide range of elemental arcana, and casting spells to take out waves of enemies, navigate elemental hazards and tackle bosses.</p>
-<p>All this can be played alone or with three friends in local or online co-op, and the dev promises "refined controls for Joy-Con and Pro Controllers, and optimised performance across both handheld and docked play" in this Switch version.</p>
-<p>Here's a rundown of the game's key features and a handful of screenshots from Humble Games:</p>
-<blockquote>
-<p><strong>4-player Co-op:</strong> Play solo or with up to three friends in seamless online or local multiplayer. The Switch release incorporates refinements introduced during 1.0, including faster Arcana responsiveness, improved camera tracking, adjusted boss HP scaling, and streamlined item interactions for smoother co-op runs.<br>
-<strong>Diverse Biomes and Bosses:</strong> Each region presents new elemental hazards, enemy archetypes, minibosses, and area bosses. From the heights of the Sky Citadel to the depths of the Chaos biome, every area features distinct mechanics and rewards for players to uncover.<br>
-<strong>Elemental Arcana System:</strong> Experiment with 77 Arcana spanning Fire, Water, Earth, Air, and Chaos elements. Mix and match to discover synergies, from chain lightning combos to earth-based crowd control, and adapt your spell kit to each Trial’s demands.<br>
-<strong>Expansive Language Support:</strong> Support in 13 languages, including English, Brazilian Portuguese, Chinese (Simplified), French, German, Japanese, Korean, Polish, Russian, Spanish, Persian, and Turkish.</p>
-</blockquote>
-
-<p><a href="https://www.nintendolife.com/games/switch-eshop/wizard_of_legend">The first game</a>, developed by Contingent99 launched to much acclaim back in 2018, quickly racking up thousands of '<a href="https://store.steampowered.com/app/445980/Wizard_of_Legend/#app_reviews_hash">Very Positive</a>' reviews on <a href="https://store.steampowered.com/app/445980/Wizard_of_Legend/">Steam</a>. With Dead Mage now in the dev seat, its sequel has not been as well-received since it first launched in ver. 1.0, though the promise of playing on the go might be enough to bring some people around to the idea.</p>
-<!-- cache: html:nintendolife.com/ssl/switch-eshop/related-articles:77248 @ 1762896777 -->
-<p><em>Will you be checking out Wizard of Legend 2 on Switch later this month? Let us know in the comments.</em></p></section></div><br/><br/>https://www.nintendolife.com/news/2025/11/roguelike-wizard-of-legend-2-magics-up-switch-release-date]]></content:encoded>
         </item>
     </channel>
 </rss>

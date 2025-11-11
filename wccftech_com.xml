@@ -4,9 +4,80 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Tue, 11 Nov 2025 21:36:43 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Nov 2025 22:08:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Fallout 4 Anniversary Edition Broke Your Mods? Here’s How to Revert to the Previous Version]]></title>
+            <link>https://wccftech.com/fallout-4-anniversary-edition-broke-your-mods-heres-how-to-revert/</link>
+            <guid>https://www.resetera.com/threads/fallout-4-anniversary-edition-broke-your-mods-here%E2%80%99s-how-to-revert-to-the-previous-version.1350409/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			
+			<p>As <a href="https://wccftech.com/fallout-4-anniversary-edition-all-dlc-creation-club-content-nintendo-switch-2/" target="_blank" rel="noreferrer noopener">announced in late October</a>, Bethesda released Fallout 4 Anniversary Edition yesterday for PC, PlayStation 4, PlayStation 5, Xbox One, and Xbox Series S|X, as a way to celebrate the tenth anniversary of the original launch. </p>
+
+
+
+<p>This new version of the critically acclaimed post-apocalyptic open world roleplaying game includes all the six official DLCs released by Bethesda Game Studios (Far Harbor, Automatron, Nuka-World, Contraptions Workshop, Vault-Tec Workshop and Wasteland Workshop), as well as over 150 Creation Club items, including new quests, companions, armors, weapons, skins, player homes, and objects to add to the Settlements system. Fallout 4 Anniversary Edition, which will launch next year for Nintendo Switch 2, is priced at $59.99 for new users, $39.99 for those upgrading from the original game, and $19.99 for those upgrading from the Game of the Year edition.</p>
+
+
+
+<figure><p>
+<iframe title="Fallout 4: Anniversary Edition - Reveal Trailer" width="500" height="281" src="https://www.youtube.com/embed/3zKeAbOFFeE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<p>However, just like with <a href="https://wccftech.com/skyrim-anniversary-edition-out-now-free-update-weighs-5-3gb-on-pc/" target="_blank" rel="noreferrer noopener">Skyrim Anniversary Edition</a> four years ago, this new edition breaks many essential mods that users had based their modlists around. The main reason is that F4SE, the equivalent of SKSE, an extender upon which many mods are based, no longer works (until its creators update it).</p>
+
+
+
+<p>And just like with Skyrim Anniversary Edition, modders have quickly come up with a method to revert Fallout 4 Anniversary Edition to the previous version of the game (v1.10.984), thus preventing the breaking of your precious mods.</p>
+
+
+
+<p>The first to post a guide on how to do that was Nexus Mods user ocramuias (in the comments section of <a href="https://www.nexusmods.com/news/15400" target="_blank" rel="noreferrer noopener">this page</a>). Here's an abridged version of that guide:</p>
+
+
+
+<ol>
+<li>Open the Steam console by pressing Win + R and pasting <strong>steam://open/console</strong></li>
+
+
+
+<li>Run the following command inside the Steam console: <strong>download_depot 377160 377162 5698952341602575696</strong></li>
+
+
+
+<li>This forces Steam to download the Fallout4.exe file (38 MB in size) from the previous build, version 1.10.984, which was originally released on May 13, 2024. When the download is complete, open the folder shown in the console log. This can usually be found in <strong>C:\Program Files (x86)\Steam\steamapps\content\app_377160\depot_377162</strong></li>
+
+
+
+<li>Once there, you must back up your current executable. Navigate to your game's installation directory (for example, <strong>C:\SteamLibrary\steamapps\common\Fallout 4</strong>), and rename the existing Fallout4.exe to Fallout4_111137.exe. Now, copy the previously downloaded file into that folder and replace the existing .exe file.</li>
+
+
+
+<li>At this point, it's time to disable automatic updates for Fallout 4 Anniversary Edition. You can do that in Steam &gt; Library &gt; Fallout 4 &gt; Properties &gt; Updates &gt; set "Only update this game when I launch it". From now on, you'll always have to launch the game through <strong>f4se_loader.exe</strong> rather than Steam.</li>
+
+
+
+<li>Also, set Fallout4.exe to Read-only by right-clicking with the mouse and going to Properties. This will prevent Steam from overwriting it.</li>
+</ol>
+
+
+
+<p>Enjoy!</p>
+
+			
+			<p>Follow <a href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> or <a href="https://google.com/preferences/source?q=wccftech.com">add us as a preferred source</a>, to get our news coverage and reviews in your feeds.</p>
+
+		</div></div><br/><br/>https://wccftech.com/fallout-4-anniversary-edition-broke-your-mods-heres-how-to-revert/]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Marvel Rivals Season 5 Adds Rogue and Gambit to the Roster, New Game Mode, and More This Friday]]></title>
             <link>https://wccftech.com/marvel-rivals-season-5-adds-rogue-gambit-new-game-mode-new-map-and-more/</link>
