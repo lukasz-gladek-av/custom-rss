@@ -4,9 +4,163 @@
         <title>maGaming RSS Feed - thesixthaxis_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/thesixthaxis_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for thesixthaxis_com</description>
-        <lastBuildDate>Wed, 12 Nov 2025 19:05:06 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 12 Nov 2025 19:33:39 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[A new Fellowship patch adjusts cloth and leather armour]]></title>
+            <link>https://www.thesixthaxis.com/2025/11/12/a-new-fellowship-patch-adjusts-cloth-and-leather-armour/</link>
+            <guid>https://www.resetera.com/threads/a-new-fellowship-patch-adjusts-cloth-and-leather-armour.1351726/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>A new Fellowship patch is being released on November 13th, bringing more changes to the game. Those changes include removing the Haunting of Stronghold event, adjusting character stats with some attacks getting major buffs, and adjusting armour values for cloth and leather armour. You can check out the full patch notes below.</p>
+<p><iframe title="Fellowship | Early Access Launch Trailer" width="780" height="439" src="https://www.youtube.com/embed/BCJPI8DIDQ8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+
+
+
+<ul>
+<li>Removed the ‘Haunting of Stronghold’ Event.<wbr></li>
+<li>Updated the Stronghold’s appearance.<wbr></li>
+<li>Updated the Stronghold music, emitters, and ambience.<wbr></li>
+<li>Updated Stronghold Loading Screen.<wbr></li>
+<li>Removed the ‘Caretaker of Fallen Heroes’<wbr></li>
+<li>Added the ability to bind Left and Right mouse buttons but only when used with modifiers.<wbr></li>
+<li>Fixed an issue where middle-mouse clicks weren’t registering when clicking on health bars.<wbr></li>
+<li>Fixed an issue where non-party leaders were still getting AFK kicked while matchmaking.<wbr></li>
+<li>Fixed an issue with the ‘select previous target’ functionality where the history could be lost.<wbr></li>
+<li>Fixed various translation issues in text throughout the game.<wbr></li>
+</ul>
+
+<ul>
+<li>Added feedback so health bars on the party frame will now fade down when the other player is out of range, or line of sight to them is blocked. The distance check is based on the standard max range of ranged hero abilities.<wbr></li>
+<li>Added a ‘Refresh Regions’ button to the start menu to force the refresh of each region’s state. Previously players needed to restart the client.<wbr></li>
+</ul>
+
+<p><b>Cloth &amp; Leather Armor Adjustments</b>&nbsp;We have increased the amount of armor provided by Cloth and Leather items. Our intention is to have a noticeable difference in between the Armor Classes in the game – and to overtime supply players with a variation of ways to deal with encounters where Physical damage specifically becomes a problem for them as we continue expanding on the game’s systems. However, we have noticed that the difference was larger than intended on higher difficulties and decided to increase the amount of armor found on Cloth and Leather items to reduce that gap. This will affect all cloaks and Rime and Ardeos (cloth) – and Sylvie, Mara, Elarion, and Meiko (leather).<wbr></p>
+<ul>
+<li>At 330 item level, Cloth heroes will now have around 25% physical damage reduction from their armor (was 14.5%).<wbr></li>
+<li>At 330 item level, Leather heroes will now have around 32% physical damage reduction from their armor (was 22%).<wbr></li>
+</ul>
+<p><b>Armor Adjustments and Meiko</b>&nbsp;Adjusting for the changes to Leather armor values, we have adjusted Meiko’s kit in some places to make sure her defensive power does not increase while she has all her buffs and effects active. The change will increase Meiko’s defensive power when she has no buffs or effects active.<wbr></p>
+<ul>
+<li>[Stone Shield] now increases Meiko’s Armor by 20% (was 50%) per stone up to a maximum of 60% at 3 stones (was 150% at 3 stones).<wbr></li>
+<li>[Spirited Armor] (spirit refund passive) now increases Meiko’s Armor by 20% (was 30%).<wbr></li>
+</ul>
+<p>To clarify how the above changes affect Meiko’s defensive power in various situations (using 330 item level without gems as the reference point):<wbr></p>
+
+<ul>
+<li>With no buffs or effects, Meiko now has 48.95% Physical DR (was 41.04%).<wbr></li>
+<li>With [Stone Shield] at 3 charges, Meiko now has 68,17% Physical DR (was 66,95%).<wbr></li>
+<li>With [Stone Shield] at 3 charges + [Spirited Armor] proc Meiko now has 70.88% Physical DR (was 70.82%).<wbr></li>
+<li>With [Stone Shield] at 3 charges + [Resonance] from talent + [Serenity] DR from legendary boots Meiko now has 83.45% Physical DR (was 82.23%).<wbr></li>
+<li>With [Stone Shield] at 3 charges + [Resonance] from talent + [Serenity] DR from legendary boots + [Spirited Armor] proc Meiko has 84.86% Physical DR (was 84.32%).<wbr></li>
+</ul>
+<p><b>Ardeos</b><wbr></p>
+<ul>
+<li>The direct damage dealt while channeling [Incinerate] has been increased by 312%.<wbr></li>
+<li>The damage over time of [Incinerate] now deals 62.5% increased damage.<wbr></li>
+<li>The damage over time of [Incinerate] now gains +30% increased damage for each stack applied.<wbr></li>
+<li>[Incinerate] now has a static channel time of 2.5 seconds, and its tick rate is now affected by your Haste.<wbr></li>
+<li>[Incinerate] no longer generates Cinders.<wbr></li>
+<li><u>Note: Ardeos Spirit Ability, Incinerate, was underperforming and did not have enough of an impact beyond its ability to generate Cinders and extend the duration of his other damage over time effects. In addition to this, Ardeos’; ramp time has been a bit too long – especially in the early game. As such, the ability no longer generates cinders and deals heavy damage on its own, to allow Ardeos players to get into their big burst moment earlier.</u><wbr></li>
+<li>The initial direct damage of [Apocalypse] has been increased by 50%.<wbr></li>
+</ul>
+<p><b>Tariq</b><wbr></p>
+<ul>
+<li>[Heavy Strike] damage increased by 50% and the static portion of its Fury Generation increased to 7% (was 4%).<wbr></li>
+<li>[Face Breaker] damage increased by 50% and the static portion of its Fury Generation increased to 6% (was 5%).<wbr></li>
+<li>Wild Swing damage increased by 100%.<wbr></li>
+<li>Chain Lightning now deals damage 6 times baseline (was 5 times).<wbr></li>
+<li>Thunderstruck talent now grants Chain Lightning 2 additional bounces (was 3).<wbr></li>
+<li>Chain Lightning damage reduced by 50%.<wbr></li>
+<li>Skull Crusher damage increased by 10%.<wbr></li>
+<li>Culling Strike damage increased by 54%.<wbr></li>
+<li>The additional Lightning Damage dealt by Heavy Strike, Skull Crusher, and Hammer Storm during Thunder Call was reduced to 30% of the initial hit (was 50%).<wbr></li>
+<li>Schism talent now has 3.2 PPM (was 1.2 PPM) and the damage bonus has been reduced to +200% (was +300%).<wbr></li>
+<li>Bloodied Brass necklace (legendary necklace) now deals 350% of Face Breaker’s damage to the target of 24 seconds (was 450%).<wbr></li>
+<li><u>Note: The lightning damage in Tariq’s kit has been reduced, while the power of his other abilities have been increased. Overall, his total damage should be at a similar place as before, but more of the damage is coming from your non-lightning mechanics – with the intention of making other legendaries and talents more competitive.</u><wbr></li>
+</ul>
+<p><b>Rime</b><wbr></p>
+<ul>
+<li>
+<p>Fixed an issue where [Wrath of Winter] would cancel when Rime was being moved by a force push such as High Tide or the Rivers in Sailor’s Abyss.<wbr></p>
+</li>
+</ul>
+<p><b>Sylvie</b><wbr></p>
+<ul>
+<li>
+<p>Fixed an issue where spawning [Life Petal] through [Dryad’s Haven] (Legendary Boots) could cancel other abilities or be canceled by other abilities.<wbr></p>
+</li>
+</ul>
+<p><b>Vigour</b><wbr></p>
+<ul>
+<li>
+<p>Fixed an issue where Vigour’s orb would pull enemies too far beneath him.<wbr></p>
+</li>
+</ul>
+
+<p><b>Dungeon Timer Adjustments</b><wbr></p>
+<ul>
+<li>The Wyrmheart: +15 seconds<wbr></li>
+<li>Sailor’s Abyss: +20 seconds<wbr></li>
+<li>Empyrean Sands: +20 seconds<wbr></li>
+<li>Urrak Markets: +20 seconds<wbr></li>
+<li>Godfall Quarry: +35 seconds<wbr></li>
+<li>Everdawn Grove: +48 seconds<wbr></li>
+<li>Silken Hollow: +50 seconds<wbr></li>
+</ul>
+<p><b>Cithrel’s Fall</b><wbr></p>
+<ul>
+<li>Cithrel’s [Path of Oblivion] damage from the initial hit has been reduced by 20%.<wbr></li>
+<li>Cithrel’s [Bloodhunt] initial hit damage has been reduced by 10%.<wbr></li>
+<li>Cithrel’s [Bloodhunt] bleed damage has been reduced by 20%.<wbr></li>
+<li>Damage from the Blade of Cithrel’s [Spinning Blades] ability can now be Blocked, Dodged, and Parried.<wbr></li>
+<li>The Blade of Cithrel’s [Ice Breaker] ability now detaches from the player after 1 second – allowing players time to move out of the impact area.<wbr></li>
+<li>The Tundra Stalker’s [Rapid Fire] now has a 1.5 second precast (uninterruptable).<wbr></li>
+</ul>
+<p><b>The Wyrmheart</b><wbr></p>
+<ul>
+<li>The Coldheart Assassin’s [Coldheart Poison] ability now has a 2 second, uninterruptable cast.<wbr></li>
+<li>The Coldheart Assassin’s [Wicked Strikes] now waits 1 tick after the stun to start stabbing the target.<wbr></li>
+<li>Damage from the Blade of Cithrel’s [Spinning Blades] ability can now be Blocked, Dodged, and Parried.<wbr></li>
+<li>The Blade of Cithrel’s [Ice Breaker] ability now detaches from the player after 1 second – allowing players time to move out of the impact area.<wbr></li>
+<li>The Tundra Stalker’s [Rapid Fire] now has a 1.5 second precast (uninterruptable).<wbr></li>
+<li>Fixed an issue where Cithrel’s ‘fly away’ animation would not play if one player reached the boss before the others.<wbr></li>
+</ul>
+<p><b>Empyrean Sands</b><wbr></p>
+<ul>
+<li>Damage from the Tombguard Reaver’s [Whirlwind] ability can now be Blocked, Dodged, and Parried.<wbr></li>
+<li>Acolyte of Sinnari’s [Wrath of Sinnari] damage reduced by 59%.<wbr></li>
+<li>Sin-magir’s [Ruinous Star] explosions can no longer be outranged by players.<wbr></li>
+<li>Sin-magir’s arena now has a barrier that activates in the doorway once the encounter has started.<wbr></li>
+<li>The damage of Sin-Magir’s [Ruinous Star] explosions has been reduced by 10%.<wbr></li>
+<li>The health of Sin-Magir’s [Ruinous Star] has been reduced by 15%.<wbr></li>
+</ul>
+<p><b>Empyrean Sands / Wraithtide Vault</b><wbr></p>
+<ul>
+<li>
+<p>Greedspawn Sentinel’s [Greed’s Embrace] damage reduced by 30%.<wbr></p>
+</li>
+</ul>
+<p><b>Godfall Quarry</b><wbr></p>
+<ul>
+<li>The Enforcer’s [Piercing Strike] now has a 2 second pre cast (uninterruptable) and a new sound effect on both the pre-cast and the impact.<wbr></li>
+<li>The boss encounter will now reset correctly if a lone player starts the encounter and dies before other players join the fight.<wbr></li>
+</ul>
+<p><b>Sailor’s Abyss</b><wbr></p>
+<ul>
+<li>
+<p>Fixed an issue where players would not be able to detach from the mast if the team wiped during ‘Sinthara’s song phase.</p>
+</li>
+</ul>
+<p><em>Source: <a href="https://store.steampowered.com/news/app/2352620/view/626690663544520892">Fellowship</a></em></p>
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div></div><br/><br/>https://www.thesixthaxis.com/2025/11/12/a-new-fellowship-patch-adjusts-cloth-and-leather-armour/]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Quarantine Zone: The Last Check release has been delayed]]></title>
             <link>https://www.thesixthaxis.com/2025/11/12/quarantine-zone-the-last-check-release-has-been-delayed/</link>
