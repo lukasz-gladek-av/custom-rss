@@ -4,128 +4,358 @@
         <title>maGaming RSS Feed - thesixthaxis_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/thesixthaxis_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for thesixthaxis_com</description>
-        <lastBuildDate>Thu, 13 Nov 2025 06:12:38 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 Nov 2025 10:37:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Valve announces the Steam Machine, Steam Frame, and Steam Controller]]></title>
-            <link>https://www.thesixthaxis.com/2025/11/12/valve-announces-the-steam-machine-steam-frame-and-steam-controller/</link>
-            <guid>https://www.resetera.com/threads/valve-announces-the-steam-machine-steam-frame-and-steam-controller.1351852/</guid>
+            <title><![CDATA[Football Manager 26 update 2 has been detailed]]></title>
+            <link>https://www.thesixthaxis.com/2025/11/13/football-manager-26-update-2-has-been-detailed/</link>
+            <guid>https://www.resetera.com/threads/football-manager-26-update-2-has-been-detailed.1352251/</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
 	
-		<p>Valve has announced three major bits of new hardware coming in 2026, with a PC called the Steam Machine, a new wireless VR headset called Steam Frame, and a brand new controller simply named the Steam Controller. The hardware will allow you to play all of your games in your Steam library from indie titles to AAA titles. Additionally, the Steam Machine will let you install apps and different operating systems.</p>
-<p><iframe title="Steam Hardware Announcement" width="780" height="439" src="https://www.youtube.com/embed/OmKrKTwtukE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+		<p>Sports Interactive has released Football Manager update 2 on the Steam Public Beta track to test it before it is pushed out to the whole community. This second patch for Football Manager 26 will contain 200 fixes, though not all are listed, including bug fixes, UI improvements, and the addition of being able to use the space bar to navigate messages.</p>
+<p><iframe title="Football Manager 26 | First Look Reveal" width="780" height="439" src="https://www.youtube.com/embed/_cDQi5kwuHQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
 
 
-<p>So what kind of specs are we looking at? Let’s start with the Steam Machine, which will come in two models with those being one equipped with 512GB NVMe SSD and the other a <wbr>2TB NVMe SSD. All the other hardware will be the same internally, and both will include a high-speed microSD card slot.</p>
-<div id="SaleSection_10">
+<h2>Football Manager 26 update 2 patch notes</h2>
 <ul>
-<li>CPU :Semi-custom AMD Zen 4 6C / 12T. Up to 4.8 GHz, 30W TDP</li>
-<li>GPU: Semi-Custom AMD RDNA3 28CUs. 2.45GHz max sustained clock, 110W TDP</li>
-<li>RAM: 16GB DDR5 + 8GB GDDR6 VRAM</li>
-<li>Power: Internal power supply, AC power 110-240V</li>
-<li>Connectivity: Wi-Fi – 2×2 Wi-Fi 6E. Bluetooth – Bluetooth 5.3 dedicated antenna</li>
-<li>Steam Controller: Integrated 2.4 GHz Steam Controller wireless adapter</li>
-<li>Displays: DisplayPort 1.4. Up to 4K @ 240Hz or 8K@60Hz. <wbr>Supports HDR, FreeSync, and daisy-chaining</li>
-<li>HDMI 2.0: Up to 4K @ 120Hz. <wbr>Supports HDR, FreeSync, and CEC</li>
-<li>USB: Two USB-A 3.2 Gen 1 ports in the front. Two USB-A 2.0 High speed ports in the back. <wbr>One USB-C 3.2 Gen 2 port in the back</li>
-<li>Networking: Gigabit ethernet</li>
-<li>LED Strip: 17 individually addressable RGB LEDs for system status and customizability</li>
-<li>:Size and Weight: 152 mm tall (148 mm without feet), 162.4 mm deep, 156 mm wide and 2.6 kg</li>
-<li>Operating System: SteamOS 3 (Arch-based)</li>
+<li>Added legacy preference option to continue through messages via the space bar.&nbsp;<wbr></li>
+<li>Numerous tile/card polish and alignment fixes.&nbsp;<wbr></li>
+<li>Numerous further fixes to translations.&nbsp;<wbr></li>
+<li>Substantial amount of other crash and stability fixes (some specific ones listed below).&nbsp;<wbr></li>
+<li>Fixed a crash when adding Club Affiliation via the Pre-Game Editor (PGE).&nbsp;<wbr></li>
+<li>Fixed a crash when user tries to move players or staff using the In-Game Editor (IGE).&nbsp;<wbr></li>
+<li>Fixed an issue in IGE where Transfer and Wage Budget edits wouldn’t take effect.&nbsp;<wbr></li>
+<li>Fixed an issue where Move to Club/Move to Other Club wouldn’t work for free agents using the IGE.<wbr></li>
+<li>Fixed a soft lock when selecting off of the Move to Other Club list on the IGE.&nbsp;<wbr></li>
+<li>Fixed a crash on M1/Intel Macs when attempting to start a match.&nbsp;<wbr></li>
+<li>Further fixes to Matches freezing during single player and online matches.&nbsp;<wbr></li>
+<li>Fixed slowdown in match when on 2D overview screen.&nbsp;<wbr></li>
+<li>Scroll bar will now save state when leaving and returning to a tile/card.&nbsp;<wbr></li>
+<li>Added Save Team Selection and Clear Squad/Subs options within Tactics.&nbsp;<wbr></li>
+<li>Fixed “Auto-size all Columns” leaving a large space to the right of the table.&nbsp;<wbr></li>
+<li>“Sort Attributes Using English Language Sorting” preference will now function correctly.&nbsp;<wbr></li>
+<li>Japan – Match Rules – Fixed foreign player limits having incorrect rules set.&nbsp;<wbr></li>
+<li>England – Fixed rare issue where season wouldn’t begin due to incorrect scheduling of the National League Playoff Final.&nbsp;<wbr></li>
+<li>USA – Updated Designated Player path rule to better reflect real life.&nbsp;<wbr></li>
+<li>Fixed an issue preventing user being able to sort by Role Ability in Player Selector during a match.&nbsp;<wbr></li>
+<li>Star Ratings widget has been added within Squad Planner.&nbsp;<wbr></li>
+<li>Body language of players will now correctly update during meetings.&nbsp;<wbr></li>
+<li>Global Search bar now closes when a hyperlink is pressed.&nbsp;<wbr></li>
+<li>Fixed an issue where club badges would be switched in Cup Final news items when venue was neutral.&nbsp;<wbr></li>
+<li>Acting on Opposition Instruction advice will now function correctly.&nbsp;<wbr></li>
+<li>Fixed an issue where Recruitment Focus would display as completed if cancelled.&nbsp;<wbr></li>
+<li>Fixed an issue where some clubs would be shown to have 0 people on the season ticket waiting list.&nbsp;<wbr></li>
+<li>Fixed an issue where NXGN award wouldn’t be handed out.&nbsp;<wbr></li>
+<li>Fixed an issue preventing the Place of Birth field to populate during manager creation.&nbsp;<wbr></li>
+<li>Fixed save game prompt appearing on screen causing an overlap during the Portal tutorial.&nbsp;<wbr></li>
+<li>Fixed an issue where clubs in Saudi Arabia wouldn’t renew player contracts often enough.&nbsp;<wbr></li>
+<li>Fixed issue where the ‘i’ profile preview would appear for non-players who shouldn’t be accessible.&nbsp;<wbr></li>
+<li>Agent feedback will now correctly display when prompted if user asks within “Ask Agent About Market Interest” dialogue option.&nbsp;<wbr></li>
+<li>Realigned columns of Interested Clubs within Player Offers.&nbsp;<wbr></li>
+<li>Fixed issue preventing user to return to the start screen if they deleted all managers present within the Manager Profiles tab.&nbsp;<wbr></li>
+<li>Realigned Career Milestones.&nbsp;<wbr></li>
+<li>Refined ‘Player Change in Registration’ card to fix cutoffs.&nbsp;<wbr></li>
+<li>Fixed issue where a message would open by default if user selected one of the Messages tabs.&nbsp;<wbr></li>
+<li>‘Arrange Friendly’ will now appear as intended when opening Fixture Schedule for the first time.&nbsp;<wbr></li>
+<li>Pre-Match Lineups will now hide Form if there isn’t any data to show.&nbsp;<wbr></li>
+<li>Future Transfers filter within Transfer History will now function as intended.&nbsp;<wbr></li>
+<li>Change/Withdraw Transfer Offer action buttons will now function correctly immediately after user makes an offer.&nbsp;<wbr></li>
+<li>Management Style box during manager creator flow will now correctly store previous role and how well known you were for it.&nbsp;<wbr></li>
+<li>Mentality will now display correctly if updated within Match Tactics.&nbsp;<wbr></li>
+<li>Reworked the positional familiarity colouring on the player position map.&nbsp;<wbr></li>
+<li>The icon for ‘Really Good’ morale will now display properly.&nbsp;<wbr></li>
+<li>Team Priorities card will now function correctly.&nbsp;<wbr></li>
+<li>The Fixtures card will now properly distinguish between those that scored/missed during a penalty shootout.&nbsp;<wbr></li>
+<li>AI Club Fixtures will now display correctly if user is unemployed.&nbsp;<wbr></li>
+<li>Fixed issue displaying head coaches name during UEFA Women’s CL pre-match lineup graphic.&nbsp;<wbr></li>
+<li>Finances &gt; Summary will now display correctly for teams without FFP.&nbsp;<wbr></li>
+<li>Recruitment &gt; Player Database – Selecting a Role will now highlight the correct Key Attributes.&nbsp;<wbr></li>
+<li>Fixed the Ability and Potential columns not populating with any data in the Recruitment Focus General Info view&nbsp;<wbr></li>
+<li>Newly promoted teams should now receive a more reasonable wage budget reflecting new division and current financial state.&nbsp;<wbr></li>
+<li>Agreed Playing Time column will now populate with correct data.&nbsp;<wbr></li>
+<li>Multi-Select on “Available for U21/U18 match” portal item will now function correctly.</li>
 </ul>
-<p>Next up is the Steam Frame, which will support both VR and non-VR gaming. So you can strap the headset to your face, and play non VR games without needing another display. The Steam Frame will also come with controllers that are battery powered, so you will need a haul of AA batteries. The full specs for the Steam Frame and controllers are as follows.</p>
-<div id="SaleSection_14">
-<ul>
-<li>Processor: 4 nm Snapdragon® 8 Gen 3. Architecture: ARM64</li>
-<li>RAM@ 16GB Unified LPDDR5X RAM</li>
-<li>Storage: 256GB / 1TB UFS storage options. microSD card slot for expanded storage</li>
-<li>Power: Rechargeable 21.6 Wh Li-ion battery. One USB-C 2.0 port in the rear, for charging and data. Charge with USB-C, 45W</li>
-<li>Modular Headstrap: Headstrap includes integrated dual audio drivers and and rechargeable battery on rear. Headstrap weight: 245g. Core module can be separated from headstrap, for other headstrap solutions.</li>
-<li>Display: 2160 x 2160 LCD (per eye). 72-144Hz refresh rate (144Hz experimental)</li>
-<li>Optics: Custom pancake lenses. Glass and non-glass optical elements/ Large FOV (up to 110 degrees)</li>
-<li>IPD target range: 60mm – 70mm</li>
-<li>Eye glasses max width 140mm</li>
-<li>Tracking: Inside-out camera based tracking</li>
-<li>Cameras: 4x outward facing monochrome cameras for controller and headset tracking. 2x interior cameras for eye tracking and foveated streaming</li>
-<li>Passthrough: Monochrome passthrough via outward facing cameras. Low-light support. IR illuminators for tracking and passthrough in dark environments</li>
-<li>Expansion: User accessible front expansion port. Dual high speed camera interface (8 lanes @ 2.5Gbps MIPI) / PCIe Gen 4 interface (1-lane)</li>
-<li>Wi-Fi@ Wi-Fi 7, 2×2. Dual radios enable concurrent 5Ghz Wi-Fi and 6Ghz VR streaming</li>
-<li>Wireless Adapter: Wireless adapter included in the box. Wi-Fi 6E (6GHz). Provides direct, low-latency link between headset and PC</li>
-<li>Bluetooth: Bluetooth 5.3</li>
-<li>Speakers: Dual speaker drivers per ear, integrated into headstrap</li>
-<li>Microphone: Dual microphone array</li>
-<li>Size: 175mm x 95mm x 110mm (core module + facial interface)</li>
-<li>Weight: 440 g – core module + headstrap. 185 g – core module</li>
-<li>Operating System: SteamOS 3 (Arch-based)</li>
-<li>Desktop: KDE Plasma</li>
-</ul>
-<p><strong>Steam Frame controller</strong></p>
-<div id="SaleSection_17">
-<ul>
-<li>Motion controls: Full 6-DOF tracking and IMU support</li>
-<li>Gamepad controls: A B X Y buttons (right controller). D-pad (left controller). Full-size magnetic thumbsticks (TMR) with capacitive touch. L &amp; R analog triggers. L &amp; R bumpers. View /&nbsp; Menu / Steam buttons. Dual stage grip buttons</li>
-<li>Haptics: Haptic motor in each controller</li>
-<li>Finger tracking: Capacitive sensing for all input surfaces/ Capacitive finger tracking</li>
-<li>Connectivity: 2.4ghz link to dedicated headset radio</li>
-<li>Size: 126mm x 73mm x 87mm per controller</li>
-<li>Weight: With battery 130 g per controller. Without battery 107 g per controller</li>
-<li>Power: One replaceable AA battery per controller. 40hr battery life</li>
-</ul>
-<p>Finally, we have the new Steam Controller, which sees revamp of the old Steam controller with newer hardware and a new design. It includes two trackpads on the front, four buttons on the back, parity with Steam Deck, &nbsp;gyro, capacitive touch thumbsticks, and a grip-sense feature. The full specs are below.</p>
-<div id="SaleSection_73305">
-<ul>
-<li>Gamepad controls: A B X Y buttons, D-pad, L &amp; R analog triggers, L &amp; R bumpers, View &amp; Menu buttons. Steam &amp; QAM buttons, 4x assignable grip buttons</li>
-<li>Thumbsticks: 2x full-size magnetic thumbsticks (TMR) with capacitive touch</li>
-<li>Haptics: 4x haptic motors
-<ul>
-<li>2x LRA haptic motors in trackpads for HD tactile feedback<wbr></li>
-<li>2x High output LRA haptic motors in grips for HD game haptics including rumble</li>
-</ul>
-</li>
-<li>Trackpads: 2x 34.5mm square trackpads with haptic feedback. Pressure-sensitive for configurable click strength</li>
-<li>Gyro: 6-axis IMU</li>
-<li>Grip Sense: 2x capacitive areas along back of Steam Controller handles</li>
-<li>Connectivity: Steam Controller Puck. 2.4GHz Wireless connection
-<ul>
-<li>~8ms full end-to-end, 4ms polling rate (measured at 5m)</li>
-<li>Up to 4 Steam Controllers per Steam Controller Puck</li>
-<li>Steam Controller Puck connects to PC via USB-C</li>
-</ul>
-</li>
-<li>Bluetooth: Bluetooth 4.2 minimum, 5.0 or higher recommended</li>
-<li>USB: USB-C tethered play</li>
-<li>Charging: Steam Controller Puck charging interface. USB-C connector</li>
-<li>Battery: 8.39 Wh Li-ion battery. 35+ hours of gameplay*
-<ul>
-<li><i>Battery life for tracked gameplay with Steam Frame is reduced</i></li>
-</ul>
-</li>
-<li>Size
-<ul>
-<li>Steam Controller: 111mm x 159mm x 57mm</li>
-<li>Steam Controller Puck: 50mm x 28mm x 9mm</li>
-</ul>
-</li>
-<li>Weight
-<ul>
-<li>Steam Controller: 292 g</li>
-<li>Steam Controller Puck: 16 g</li>
-</ul>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<p>Prices and release dates are yet to be confirmed for the Steam Machine, Steam Frame, and Steam Controller, but we should learn more in the next few months.</p>
-<p><em>Source: <a href="https://store.steampowered.com/sale/hardware">Valve</a></em></p>
+
+<p>In our Football Manager 26 review, I said, <em>“Football Manager 26 is the first step of a new era, and as we’re seeing with some of the biggest clubs in the country, any new era comes with the challenge of rebuilding and both setting and meeting expectations. Football Manager 26 can get better with updates, but I doubt that this entry will be the one to make the most of the switch to the new engine, overhauled UI and new features. It might take one or two more years for this rebuild to really meet its potential.”</em></p>
+<p><em>Source: <a href="https://store.steampowered.com/news/app/3551340?emclan=103582791475288538&amp;emgid=630068363265048766">Steam</a></em></p>
 
 
 <!-- CONTENT END 1 -->
 
 		
-	</div></div><br/><br/>https://www.thesixthaxis.com/2025/11/12/valve-announces-the-steam-machine-steam-frame-and-steam-controller/]]></content:encoded>
+	</div></div><br/><br/>https://www.thesixthaxis.com/2025/11/13/football-manager-26-update-2-has-been-detailed/]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[ARC Raiders update 1.2.0 is called North Line, adds the Stella Montis map]]></title>
+            <link>https://www.thesixthaxis.com/2025/11/13/arc-raiders-update-1-2-0-is-called-north-line-adds-the-stella-montis-map/</link>
+            <guid>https://www.resetera.com/threads/arc-raiders-update-1-2-0-is-called-north-line-adds-the-stella-montis-map.1352248/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>Embark Studios has released the 1.2.0 update for Arc Raiders, naming it North Line, which brings along the new Stella Montis map. Stella Montis is a facility that has lots of blocked up tunnels, but players are being tasked with digging deep into these tunnels to find out what was blocked off and why. In addition to the new map, Arc Raiders update 1.2.0 has fixed issues including players falling through terrain, an issue around missions not completing, and also introduced some balance changes. The full notes are below.</p>
+<p><iframe title="The North Line Update | ARC Raiders" width="780" height="439" src="https://www.youtube.com/embed/O9JeiBAAey4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+
+
+
+
+<ul>
+<li>Map <wbr>Stella Montis</li>
+<li>ARC Matriarch and Shredder</li>
+<li>Community Unlock Event</li>
+<li>New Gameplay Items</li>
+<li>New Quests</li>
+</ul>
+
+<ul>
+<li>Reduced character movement latency on server to improve the “desync” problem where it looks like you get damaged even after behind cover.<wbr></li>
+<li>Fixed an issue that prevented players from completing quests involving multiple objectives or item collections within a single round.<wbr></li>
+<li>Fixed various achievements not working correctly. Players will need to redo some achievements with only one objective item (e.g. “Destroy the Queen”) while achievements with multiple objectives will only need parts of them completed again.<wbr></li>
+<li>Reduced delay between shooting at ARC and seeing impact effects on the target.<wbr></li>
+<li>Fixed various locations where players could fall through the terrain.</li>
+</ul>
+
+
+<p>Wolfpack<wbr></p>
+<ul>
+<li>
+<p>Value: From 3,000 to 5,000 Coins<wbr></p>
+</li>
+<li>
+<p>Crafting:&nbsp;<wbr></p>
+<ul>
+<li>
+<p>Before: 2 Refined Explosives + 2 Sensors<wbr></p>
+</li>
+<li>
+<p>Now: 3 Refined Explosives + 2 ARC Motion Cores<wbr></p>
+</li>
+</ul>
+</li>
+</ul>
+<p>ARC Motion Core &amp; ARC Circuitry<wbr></p>
+<ul>
+<li>
+<p>Unlock:<wbr></p>
+<ul>
+<li>
+<p>Before: Refiner LVL 3<wbr></p>
+</li>
+<li>
+<p>Now: Refiner LVL 2<wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Crafting:<wbr></p>
+<ul>
+<li>
+<p>Before: 6 ARC Alloy<wbr></p>
+</li>
+<li>
+<p>Now: 8 ARC Alloy<wbr></p>
+</li>
+</ul>
+</li>
+</ul>
+<p>Launcher Ammo<wbr></p>
+
+<ul>
+<li>
+<p>Value: From 100 to 200 Coins (This doubles trader cost for launcher ammo)<wbr></p>
+</li>
+<li>
+<p>Crafting (6 ammo):&nbsp;<wbr></p>
+<ul>
+<li>
+<p>Before: 5 Metal Parts + 1 Crude Explosives<wbr></p>
+</li>
+<li>
+<p>Now: 4 Metal Parts + 1 Refined Explosives<wbr></p>
+</li>
+</ul>
+</li>
+</ul>
+<p>Spotter Relay<wbr></p>
+<ul>
+<li>
+<p>Value: From 5,000 to 2,000 Coins<wbr></p>
+</li>
+</ul>
+
+<p>Reduced XP per Damage from 3 to 2 for:<wbr></p>
+<ul>
+<li>
+<p>Bastion<wbr></p>
+</li>
+<li>
+<p>Bombardier<wbr></p>
+</li>
+<li>
+<p>Rocketeer<wbr></p>
+</li>
+<li>
+<p>Leaper<wbr></p>
+</li>
+</ul>
+<p>Reduced XP for Looting ARC parts:<wbr></p>
+<ul>
+<li>
+<p>Bastion: From 500 to 250<wbr></p>
+</li>
+<li>
+<p>Bombardier: From 500 to 300<wbr></p>
+</li>
+</ul>
+<p>Increased XP for Looting ARC parts:<wbr></p>
+<ul>
+<li>
+<p>Rocketeer thruster: From 200 to 500<wbr></p>
+</li>
+<li>
+<p>Leaper leg: From 200 to 500<wbr></p>
+</li>
+</ul>
+
+
+<ul>
+<li>
+<p>Fixed various achievements not working correctly. Players will need to redo some achievements with only one objective item (e.g. “Destroy the Queen”) while achievements with multiple objectives will only need parts of them completed again.<wbr></p>
+</li>
+</ul>
+
+<ul>
+<li>Fixed an issue where weapons were automatically slung when throwing grenades.<wbr></li>
+<li>Fixed an issue where weapons were sometimes hidden when using deployables.<wbr></li>
+<li>Improved camera behavior to prevent clipping through walls and objects while jumping.<wbr></li>
+</ul>
+
+<ul>
+<li>Fireball enemies will no longer get stuck on security gates and will pursue the player accordingly.<wbr></li>
+<li>Fixed a bug where the Surveyors fleeing behavior could move it out of playable area.<wbr></li>
+<li>Fixed a bug which caused some enemies to take more fire damage than intended.<wbr></li>
+</ul>
+
+<ul>
+<li>Added a System Default option for voice chat input and output devices to follow your operating system’s default.<wbr></li>
+<li>Breathing audio has been adjusted for better balance between players with and without helmets. Breathing sounds are also less audible over distance.<wbr></li>
+<li>Added different audio effects to Scrappy while wearing various helmet cosmetics.<wbr></li>
+</ul>
+
+<ul>
+<li>
+<p>Fixed an issue where party members would initially appear with the base appearance.<wbr></p>
+</li>
+</ul>
+
+<ul>
+<li>
+<p>The Dam Battlegrounds<wbr></p>
+<ul>
+<li>
+<p>Fixed locations in The Dam where players could fall through the terrain.<wbr></p>
+</li>
+<li>
+<p>Fixed some collision issues on The Dam where players could get stuck.<wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Buried City<wbr></p>
+<ul>
+<li>
+<p>Fixed various flickering and clipping issues in Buried City.<wbr></p>
+</li>
+<li>
+<p>Fixed some locations where players could get stuck in the subway stations in Buried City.<wbr></p>
+</li>
+<li>
+<p>Fixed locations in Buried City where players could fall through the terrain.<wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Spaceport<wbr></p>
+<ul>
+<li>
+<p>Sealed one of the rooms in Spaceport’s Departure Building, making it require breaching to access. The loot inside was adjusted to fit the effort required to enter.<wbr></p>
+</li>
+<li>
+<p>Fixed an issue where certain doors could not be breached from the inside in the Launch Tower.<wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Blue Gate<wbr></p>
+<ul>
+<li>
+<p>Fixed an issue where players could get trapped in the Blue Gate Control Room.<wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Hatches<wbr></p>
+<ul>
+<li>
+<p>Fixed an issue where successfully entering a raider hatch did not grant immunity to damage and knockbacks.<wbr></p>
+</li>
+<li>
+<p>Increased interaction distance for raider hatches.<wbr></p>
+</li>
+</ul>
+</li>
+</ul>
+
+<ul>
+<li>Reduced character movement latency on server to improve the “desync” problem where it looks like you get damaged even after behind cover.<wbr></li>
+<li>Reduced delay between shooting at ARC and seeing impact effects on the target.<wbr></li>
+<li>Adjusted blueprint drop rates from Raider Containers.<wbr></li>
+<li>Interacting with Probes, Husks, Raider Caches, etc. now counts towards looting container objectives.<wbr></li>
+<li>Fixed a bug where players would sometimes become unable to perform any actions if they were downed while holding a carriable object and then revived.<wbr></li>
+<li>Fixed an issue where you could not loot or knock out DBNO players on steep slopes.<wbr></li>
+<li>Field crafting selection now stays on the same item after crafting.<wbr></li>
+</ul>
+
+<ul>
+<li>
+<p>Vaulting is now smoother.<wbr></p>
+</li>
+</ul>
+
+<ul>
+<li>Added an inventory item menu option for splitting stacks.<wbr></li>
+<li>Removed Thumb Mouse Button from the Escape action in menus to prevent unintended back navigation when that button is bound to Push-to-Talk.<wbr></li>
+<li>Added a confirmation message after submitting a player report to clearly indicate that the report was received.<wbr></li>
+<li>Certain enemy salvage items will no longer auto-assign to Quick Slots when looted (e.g. Wasp Driver), preventing unwanted quick slot fills.<wbr></li>
+<li>Prevent showing blocked Discord users in the social screen when the Discord integration is on.<wbr></li>
+<li>Changed the styling of some UI input hints.<wbr></li>
+</ul>
+
+<ul>
+<li>Fixed an issue where the Blaze Grenade Trap could deal more damage then intended.<wbr></li>
+<li>Reduced Tick attachment time for the Anti-Tick Field augment passive from 1 second to 0.5 seconds.<wbr></li>
+<li>Fixed an issue where a prompt would get stuck while fighting off Ticks at the same time as the Anti-Tick Field passive being active.<wbr></li>
+<li>Smoke clouds from items are now always visible at the same range as players.<wbr></li>
+<li>Fixed an issue where the Trigger ‘Nade explosions could bypass the brief invulnerability when entering DBNO, causing instant elimination. Invulnerability now correctly applies on downing.<wbr></li>
+<li>Fixed a bug allowing players to use the Snap Hook to go out of bounds in the Spaceport bunker.<wbr></li>
+</ul>
+
+<ul>
+<li>
+<p>Fixed an issue where firing while standing close to walls could cause bullets to veer sideways instead of following the crosshair.<wbr></p>
+</li>
+</ul>
+
+<ul>
+<li>Fixed an issue that prevented players from completing quests involving multiple objectives or item collections within a single round.<wbr></li>
+<li>The Greasing Her Palm quest in Spaceport now includes more thrusters that will complete the objective.</li>
+</ul>
+<p><em>Source: <a href="https://store.steampowered.com/news?emclan=103582791471145455&amp;emgid=632320262484787237">Steam</a></em><wbr></p>
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div></div><br/><br/>https://www.thesixthaxis.com/2025/11/13/arc-raiders-update-1-2-0-is-called-north-line-adds-the-stella-montis-map/]]></content:encoded>
         </item>
     </channel>
 </rss>
