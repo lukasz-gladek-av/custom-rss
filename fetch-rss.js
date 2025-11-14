@@ -6,8 +6,14 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 const fs = require('fs');
 
-const rssParser = new RSSParser();
-const existingFeedParser = new RSSParser();
+const parserOptions = {
+  customFields: {
+    item: ['lastModified']
+  }
+};
+
+const rssParser = new RSSParser(parserOptions);
+const existingFeedParser = new RSSParser(parserOptions);
 const originalFeedUrl = 'https://www.resetera.com/forums/gaming-headlines.54/index.rss';
 const feed = new Feed({
   title: 'maGaming RSS Feed',
@@ -17,6 +23,26 @@ const feed = new Feed({
 const domainFeeds = new Map();
 
 const skipSitesMatches = ['destructoid.com', 'polygon.com', 'gamesindustry.biz', 'vgbees.com']
+
+function extractLastModified(item) {
+  if (!item) {
+    return null;
+  }
+
+  if (item.lastModified) {
+    return item.lastModified;
+  }
+
+  if (Array.isArray(item.custom_elements)) {
+    for (const element of item.custom_elements) {
+      if (element && Object.prototype.hasOwnProperty.call(element, 'lastModified')) {
+        return element.lastModified;
+      }
+    }
+  }
+
+  return null;
+}
 
 async function loadExistingItems(filePath) {
   try {
@@ -29,7 +55,7 @@ async function loadExistingItems(filePath) {
       if (id) {
         items.set(id, {
           item: item,
-          lastModified: item['lastModified'] || item.lastModified || null
+          lastModified: extractLastModified(item)
         });
       }
     }
