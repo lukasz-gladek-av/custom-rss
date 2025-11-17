@@ -4,7 +4,7 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Mon, 17 Nov 2025 13:20:10 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 17 Nov 2025 13:36:52 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -137,7 +137,7 @@
       </figcaption>
       </figure>
 
-<p>I had trouble using Valve’s official restore image (SteamOS version 3.7.7, from this support page) to get newer hardware working, which may be one reason why that language was softened. It was no problem to install official first-party SteamOS on slightly older hardware, like the Ryzen 7040 version of the Framework Laptop 13 or an older Acer laptop with a Ryzen 6000-series processor installed. But trying to install the software on newer hardware failed no matter what I tried. Those systems included the Ryzen AI 300 version of the Framework Laptop; a socket AM5 testbed desktop with a dedicated Radeon RX 7800 XT GPU; and, to my great disappointment, my TV desktop’s Ryzen 7 8700G.</p>
+<p>I had trouble using Valve’s official restore image (SteamOS version 3.7.7, from <a href="https://help.steampowered.com/en/faqs/view/1b71-edf2-eb6d-2bb3#reimage">this support page</a>) to get newer hardware working, which may be one reason why that language was softened. It was no problem to install official first-party SteamOS on slightly older hardware, like the Ryzen 7040 version of the Framework Laptop 13 or an older Acer laptop with a Ryzen 6000-series processor installed. But trying to install the software on newer hardware failed no matter what I tried. Those systems included the Ryzen AI 300 version of the Framework Laptop; a socket AM5 testbed desktop with a dedicated Radeon RX 7800 XT GPU; and, to my great disappointment, my TV desktop’s Ryzen 7 8700G.</p>
 <p>There’s very little information out there about installing or troubleshooting SteamOS on generic hardware, but if you poke around on Reddit about much of anything, you’ll quickly meet a specific Type of Guy who believes that anyone with hardware compatibility issues should just use <a href="https://bazzite.gg/">Bazzite</a>, a community-developed alternate operating system that attempts to provide a SteamOS-ish alternative with wider hardware support (including for Intel and Nvidia hardware, which isn’t likely to be supported by the official SteamOS any time soon).</p>
 <p>And so Bazzite I tried! Indicating that I used an AMD GPU and wanted to boot into the SteamOS interface offered me the exact same image that Bazzite offers for the Steam Deck and other handhelds, and it installed on my Ryzen desktop with minimal fuss.</p>
 <p>Bazzite also came&nbsp;<em>painfully</em> close to what I wanted it to be, in terms of user experience—a desktop mode to boot into on the occasions I needed one, but otherwise I could just fire up the Xbox controller I had paired to the PC and jump right into a game.</p>
@@ -188,7 +188,7 @@
       </figure>
 
 <p>Once the OS is installed and is up and running, anyone who has used a Steam Deck will find it instantly familiar, and all you’ll need to do to get going is connect or pair a gamepad and/or a keyboard and mouse.</p>
-<p>Most of the bugs and quirks I’ve run into stem from the fact that this software was developed for standalone handheld gaming consoles first and foremost. There are multiple settings toggles—including those for adaptive brightness and HDMI-CEC—that serve a purpose on the Steam Deck but do literally nothing on a desktop, where these features usually aren’t present or aren’t supported.</p>
+<p>Most of the bugs and quirks I’ve run into stem from the fact that this software was developed for standalone handheld gaming consoles first and foremost. There are multiple settings toggles—including those for adaptive brightness and HDMI-CEC—that serve a purpose on the Steam Deck but just don’t function on a desktop, where these features usually aren’t present or aren’t supported.</p>
 <p>SteamOS is also pretty hit or miss about selecting the correct resolution and refresh rate for a connected display. Navigate to the Settings, to Display, and then turn off the “Automatically Set Resolution” toggle, and you’ll see a full list of supported resolutions and refresh rates that you can pick from. You may also want to scroll down and change the “Maximum Game Resolution” from “Native” to the actual native resolution of your screen, since I occasionally encountered games that wouldn’t offer resolutions that were supported by the display I was using.</p>
 <p>Similarly, you may need to navigate to the Audio settings and switch output devices if you’re sending audio over HDMI. I also needed to turn the audio output volume up to around 80 percent before the sound coming out of my Steam Machine would match the volume of all the other boxes connected to my TV.</p>
 
@@ -350,9 +350,9 @@
 
 
   <p>
-    <a href="https://arstechnica.com/gadgets/2025/11/ive-already-been-using-a-steam-machine-for-months-and-i-think-its-great/#comments" title="6 comments">
+    <a href="https://arstechnica.com/gadgets/2025/11/ive-already-been-using-a-steam-machine-for-months-and-i-think-its-great/#comments" title="10 comments">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><defs><clipPath id="bubble-zero_svg__a"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath><clipPath id="bubble-zero_svg__b"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath></defs><g clip-path="url(#bubble-zero_svg__a)"><g fill="currentColor" clip-path="url(#bubble-zero_svg__b)"><path d="M80 40c0 22.09-17.91 40-40 40S0 62.09 0 40 17.91 0 40 0s40 17.91 40 40"></path><path d="M40 40 .59 76.58C-.67 77.84.22 80 2.01 80H40z"></path></g></g></svg>
-    6 Comments
+    10 Comments
   </a>
       </p>
               </div>
