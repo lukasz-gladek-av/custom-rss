@@ -4,22 +4,484 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Thu, 20 Nov 2025 14:21:58 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 20 Nov 2025 14:43:20 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[ARC Raiders update 1.3.0 patch notes are here with bug fixes and balance changes]]></title>
+            <link>https://www.thesixthaxis.com/2025/11/20/arc-raiders-update-1-3-0-patch-notes-are-here-with-bug-fixes-and-balance-changes/</link>
+            <guid>https://www.resetera.com/threads/arc-raiders-update-1-3-0-patch-notes-are-here-with-bug-fixes-and-balance-changes.1359256/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>One week on from the big content update to <a href="https://www.thesixthaxis.com/tag/arc-raiders">ARC Raiders</a>, adding the new Stella Montis map and more to the game, Embark Studios has released the ARC Raiders 1.3.0 update, focussing on bug fixes, balance changes, and with a little surprise for good measure.</p>
+<p>There’s a few nerfs here, which Embark will need to be rather cautious in leaning on too heavily, as demonstrated by many previous multiplayer games. From the PvP angle, the Venator has been chewing through other players at close range, so its fire rate upgrades have been dropped significantly. Meanwhile, PvE focused players will be disappointed by the explosive damage nerf, which Embark felt was hitting too many parts of larger enemies and making things like the Hullcracker too effective – which you’d want it to be, given how awesome that name is.</p>
+
+
+<p>Beyond that, it’s mainly bug fixes – stopping ARCs from going outside of maps, fixing a few crashes, and the like.</p>
+<p>here’s the full ARC Raiders 1.3.0 patch notes:</p>
+
+
+
+
+
+
+<p><b>Deadline</b><wbr></p>
+<ul>
+<li>Buy value: From 8,100 to 15,000 Coins<wbr></li>
+<li>Sell value: From 3,000 to 5,000 Coins<wbr></li>
+<li>Crafting:<wbr>
+<ul>
+<li>Old: 2 Explosive compound + 1 Synthesized fuel<wbr></li>
+<li>New: 3 Explosive compound + 2 ARC Circuitry&nbsp;<wbr></li>
+</ul>
+</li>
+<li>Deadline trader stock: From 3 to 1<wbr></li>
+</ul>
+
+<p><b>Power cell</b><wbr></p>
+<ul>
+<li>
+<p>Sell value: From 640 to 270 Coins<wbr></p>
+</li>
+</ul>
+
+<p><b>Launcher ammo</b><wbr></p>
+<ul>
+<li>Buy value:<wbr>
+<ul>
+<li>Old: 10 launcher ammo for 6,000 Coins<wbr></li>
+<li>New: 6 launcher ammo for 4,500 Coins<wbr></li>
+</ul>
+</li>
+<li>Sell value: From 200 to 250<wbr></li>
+<li>Crafting:<wbr>
+<ul>
+<li>Old: 6 launcher ammo for 4 Metal parts + 1 Explosive Compound<wbr></li>
+<li>New: 6 launcher ammo for 1 ARC Motion Core + 2 Crude Explosives<wbr></li>
+</ul>
+</li>
+<li>Launcher ammo crafting is available at the Workbench without needing a blueprint.<wbr></li>
+</ul>
+
+<p><b>Venator</b><wbr></p>
+<p><em><b>Dev note: </b>The fully upgraded Venator has been over-performing recently, capable of outgunning full squads using close range weapons. We’re re-tuning the fire-rate gained from upgrades to pull down the pacing a bit, while still keeping its damage and accuracy intact. This should encourage players to take some more time with their shots rather than mag-dumping the first poor soul they encounter. The community also rightfully pointed out that the weight of the Venator was inconsistent with the weights of our other pistols, so we’ve corrected that as well.</em><wbr></p>
+<ul>
+<li>Reduced Fire-rate gained from upgrades from 22/44/60% to 13/26/40%.<wbr></li>
+<li>Increased Weight from 2 to 5.<wbr></li>
+</ul>
+
+<p><b>Explosive Damage</b><wbr></p>
+<p><em><b>Dev note:</b> We noticed that explosives dealt damage to more parts at once than intended, allowing weapons like the Hullcracker to kill larger drones too quickly. We’ve adjusted explosive damage to make it more consistent across the board, and we’ve re-balanced the damage of the Hullcracker to account for that change. This will require Hullcracker shots to need a bit more precision while still dealing good damage to the targeted spot.</em><wbr></p>
+<ul>
+<li>Rebalanced explosive damage against ARC for a more consistent experience.<wbr></li>
+<li>Explosions on smaller enemies, e.g. Turrets are largely unaffected.<wbr></li>
+<li>Explosions on larger sized enemies, e.g. Bastion will typically deal a bit less damage.<wbr></li>
+</ul>
+
+<hr>
+
+
+
+<ul>
+<li>Fixed a bug where ARC could call down reinforcements outside the map.<wbr></li>
+<li>Shredder<wbr>
+<ul>
+<li>Shredder will now detect and move more reliably towards Lure Grenades.<wbr></li>
+<li>Shredder movement and handling updated: slightly reduced turn speed, improved braking, stiffer suspension, and more consistent reactions to impacts for steadier behavior in combat.<wbr></li>
+<li>Improved Shredder navigation to prevent it from getting stuck on corners when moving toward the player.<wbr></li>
+</ul>
+</li>
+</ul>
+
+<ul>
+<li>
+<p>Reduced volume attenuation for explosion tinnitus and concussion effects to improve clarity.<wbr></p>
+</li>
+</ul>
+
+<ul>
+<li>
+<p>Barricades can no longer be placed overlapping your character, preventing clipping through walls and access to locked rooms.<wbr></p>
+</li>
+</ul>
+<ul>
+<li><b>The Dam Battlegrounds</b><wbr>
+<ul>
+<li>Fixed an issue where players would get stuck in the Dam Control Tower elevator shaft.<wbr></li>
+</ul>
+</li>
+<li><b>Spaceport</b><wbr>
+<ul>
+<li>Added collision to the staircase walls and ceiling in the Hidden Bunker on Spaceport.<wbr></li>
+<li>Fixed an issue where players could enter the wall near the Launch Tower ramp on Spaceport, preventing unfair ambushes.<wbr></li>
+<li>Fixed an issue where players could access the locked room on the Control Tower without a key.<wbr></li>
+</ul>
+</li>
+<li><b>Blue Gate</b><wbr>
+<ul>
+<li>Fixed railing props on Blue Gate that mistakenly blocked bullets; shots now pass through as expected.<wbr></li>
+</ul>
+</li>
+<li><b>Stella Montis</b><wbr>
+<ul>
+<li>Fixed a collision issue on Stella Montis near the Train Station that could cause players to fall through the terrain.<wbr></li>
+<li>Fixed a location in Stella Montis Train Station where players could get stuck.<wbr></li>
+<li>Removed two player spawns on Stella Montis that were too close to ARC spawn areas.<wbr></li>
+<li>Fixed missing visibility collision on walls in the Business Center area of Stella Montis that allowed shots to pass through.<wbr></li>
+</ul>
+</li>
+</ul>
+
+<ul>
+<li>Fixed a crash when using Raider Voice (proximity chat) on PCs without AVX2 support.<wbr></li>
+<li>Fixed a crash that could occur when surrendering after reconnecting to a session.<wbr></li>
+<li>Fixed an issue where scavenging parts from the Shredder could leave behind invisible collisions.<wbr></li>
+<li>Fixed an issue where the Trials weekly rollover could display an outdated rank; the celebration now reflects the correct current rank and the UI remains accurate during the cooldown period.<wbr></li>
+<li>Updated recommended AMD graphics driver to version 25.11.1 to reduce recent crash issues on AMD GPUs.<wbr></li>
+<li>Your Raider Den has been ducked out.<wbr></li>
+</ul>
+
+<ul>
+<li>
+<p>Improved enemy ground detection to better handle steep surfaces, reducing erratic movement when traversing angled terrain.<wbr></p>
+</li>
+</ul>
+
+<ul>
+<li>Aphelion<wbr>
+<ul>
+<li>Fixed an issue where Aphelion tracers could become excessively bright at distance, reducing visibility for the player being shot at.<wbr></li>
+<li>Increased Aphelion blueprint drop rates.<wbr></li>
+</ul>
+</li>
+<li>Stitcher<wbr>
+<ul>
+<li>Corrected player facing stats for the Stitcher, showing incorrect scaling of reload time across upgrade levels.</li>
+</ul>
+</li>
+</ul>
+<p><em>Source: <a href="https://store.steampowered.com/news/app/1808500/view/583907108616929936">Steam</a></em></p>
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div></div><br/><br/>https://www.thesixthaxis.com/2025/11/20/arc-raiders-update-1-3-0-patch-notes-are-here-with-bug-fixes-and-balance-changes/]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Inazuma Eleven: Victory Road Sales Reach 500k in Just One Week]]></title>
+            <link>https://techraptor.net/gaming/news/inazuma-eleven-victory-road-sales-500k</link>
+            <guid>https://www.resetera.com/threads/inazuma-eleven-victory-road-sales-reach-500k-in-just-one-week.1359250/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><p>Developer and publisher Level-5 has announced that&nbsp;<em>Inazuma Eleven: Victory Road&nbsp;</em>sales have reached a major milestone within the game's first week on sale.</p>
+
+<p>As announced on social media,&nbsp;<em>Inazuma Eleven: Victory Road&nbsp;</em>has <a href="https://x.com/InazumaSeries/status/1991397741881356657" rel="nofollow" target="_blank">racked up 500,000 sales</a> across all of the platforms on which it's currently available. Given that it's a niche soccer RPG, that's a pretty impressive number for the game's first seven days.</p>
+
+<p>The figure puts&nbsp;the latest&nbsp;<em>Inazuma Eleven&nbsp;</em>game in some pretty illustrious company as well; it's sold the same amount as indie hits like <a href="https://techraptor.net/gaming/news/no-im-not-a-human-500k-sales" rel="nofollow">"anxiety horror"&nbsp;</a><em><a href="https://techraptor.net/gaming/news/no-im-not-a-human-500k-sales" rel="nofollow">No, I'm Not a Human</a>&nbsp;</em>and <a href="https://techraptor.net/gaming/news/rune-factory-guardians-of-azuma-sales-500k" rel="nofollow">cozy RPG&nbsp;<em>Rune Factory: Guardians of Azuma</em></a>.</p>
+<figure role="group"><picture><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/inazuma-eleven-victory-road-sales-500k-match.jpg?itok=NvsFBLDY 1x" media="(min-width: 992px)" type="image/jpeg"><source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/inazuma-eleven-victory-road-sales-500k-match.jpg?itok=8TIT053i 1x" media="(max-width: 991px)" type="image/jpeg"></picture><figcaption><em>Inazuma Eleven: Victory Road&nbsp;</em>has sold half a million copies since launching last week.</figcaption></figure><p><em>Inazuma Eleven: Victory Road&nbsp;</em>is Level-5's second major hit this year, following the release of&nbsp;<em>Fantasy Life i: The Girl Who Steals Time&nbsp;</em>back in May.</p>
+
+<p>That game <a href="https://techraptor.net/gaming/news/fantasy-life-i-switch-2-500k-sales" rel="nofollow">managed to pick up half a million sales</a> in its first week as well, and it went on to <a href="https://techraptor.net/gaming/news/fantasy-life-i-sales-1m-new-update" rel="nofollow">pass the million mark</a> before a month had elapsed, so here's hoping that the studio's latest will achieve the same result as well.</p>
+
+<p>It's certainly been a long and strange journey for&nbsp;<em>Inazuma Eleven: Victory Road</em>. The game was announced all the way back in 2016 under the name&nbsp;<em>Inazuma Eleven Ares</em>,&nbsp;and in the years between then and now, it was <a href="https://techraptor.net/gaming/news/inazuma-eleven-heroes-great-road-delayed-until-2021" rel="nofollow">delayed numerous times</a>, receiving a couple of <a href="https://techraptor.net/gaming/news/inazuma-eleven-victory-road-will-come-west-new-trailer-details-revealed" rel="nofollow">name changes</a> along the way.</p>
+
+<p>This is the latest title in the long-running&nbsp;<em>Inazuma Eleven&nbsp;</em>series, and it follows the journey of new protagonists Destin Billows and Harper Evans, with a story taking place a quarter of a century after the events of the first game.</p>
+
+
+
+
+<p>If you're interested in seeing where that lengthy journey ended up, you can check out&nbsp;<em>Inazuma Eleven: Victory Road&nbsp;</em>right now on <a href="https://store.steampowered.com/app/2799860/INAZUMA_ELEVEN_Victory_Road/?curator_clanid=6754604&amp;utm_source=TechRaptor" rel="nofollow" target="_blank">PC</a>, <a href="https://store.playstation.com/en-us/concept/231308" rel="nofollow" target="_blank">PlayStation</a>, <a href="https://www.xbox.com/en-us/games/store/inazuma-eleven-victory-road/9nvx87zg7wsc" rel="nofollow" target="_blank">Xbox Series X|S</a>, and both <a href="https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-Edition/INAZUMA-ELEVEN-Victory-Road-Nintendo-Switch-2-Edition-2950552.html" rel="nofollow" target="_blank">Switch 2</a> and <a href="https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/INAZUMA-ELEVEN-Victory-Road-2950387.html" rel="nofollow" target="_blank">Switch</a>.</p>
+</div><div><p><span><div>
+       
+    <p>Joe has been writing for TechRaptor for several years, and in those years has learned a lot about the gaming industry and its foibles. He’s originally an… <a href="https://techraptor.net/author/joseph-allen">More about Joseph</a></p>
+  </div></span></p></div></div><br/><br/>https://techraptor.net/gaming/news/inazuma-eleven-victory-road-sales-500k]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[LEGO Tuxedo Cat Is Now Almost Free Compared to Its Previous Prices for Black Friday, Final Boxes Are Selling Out Fast]]></title>
+            <link>https://kotaku.com/this-lego-tuxedo-cat-for-20-off-makes-the-perfect-gift-for-animal-lovers-this-holiday-2000645591</link>
+            <guid>https://www.resetera.com/threads/lego-tuxedo-cat-is-now-almost-free-compared-to-its-previous-prices-for-black-friday-final-boxes-are-selling-out-fast.1359241/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+              
+              <p>LEGO make for wonderful gifts during the holidays. The catalog of sets LEGO offers is unthinkably vast, ranging from capturing memorable moments across our favorite media like that of Star Wars or Marvel all the way to simple sets aimed more at adults designed for display. Think those LEGO flower bouquets every slightly nerdy millennial has in their living rooms. This set here leans a little closer to the latter. <a href="https://shop.kotaku.com/go/5736/">LEGO has a buildable cat on sale right now for 20% off. Not just any cat—a tuxedo cat.</a> This will make the perfect gift for any tuxedo cat owner this upcoming holiday. They’ll put it together and think, “it looks just like Tux!” (every tuxedo cat owner seems to name theirs Tux for some reason. Well anyway, right now this 20% discount will end up shaving $20 off the standard $100 price tag. That brings it down to just $80 for a limited time.</p>
+<p><a href="https://shop.kotaku.com/go/5736/" target="_self" rel="sponsored nofollow">See at Amazon</a></p>
+
+<h2>Perfect Holiday Gift for Cat Owners</h2>
+<p>This lifelike LEGO cat model is built to actual size, standing over 12.5 inches tall and made from 1,710 pieces to bring to life its distinctive black fur and white underbelly. It makes a wonderful gift for anyone with a passion for animals, art, or design, but especially for cat owners. Particularly those who own a tuxedo cat themselves.</p>
+<p>The set is interactive. The cat’s features are all adjustable so you can display yours to your liking. Rotate the head or adjust the ears, paws and tail. You can even reconfigure the cat to have it’s mouth be open or closed. And yes, when it’s open, there is a little pink piece in there so you cat can blep.</p>
+
+
+
+<p>Even the eyes are swappable. The set comes with a pair of yellow eyes in addition to a pair of blue eyes, so you can make it match your own cat. Or go for the stunning heterochromia look with one yellow and one blue.</p>
+<p>The LEGO Builder app can help make the build even easier. View each step with a 3D digital version so you can get a better look at some of those weird angles that don’t print well in the instruction booklet. You can zoom in and rotate the model around even bookmark your progress so you can walkaway and come back later to complete your build.</p>
+<p><a href="https://shop.kotaku.com/go/5736/">Ahead of Black Friday, you can grab this tuxedo cat for display from LEGO for a solid $20 off over at Amazon.</a></p>
+<p><a href="https://shop.kotaku.com/go/5736/" target="_self" rel="sponsored nofollow">See at Amazon</a></p>
+
+                          </div></div><br/><br/>https://kotaku.com/this-lego-tuxedo-cat-for-20-off-makes-the-perfect-gift-for-animal-lovers-this-holiday-2000645591]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[One of Escape from Tarkov’s Endings Will Cost You $6.2 Million]]></title>
+            <link>https://insider-gaming.com/one-of-tarkov-endings-cost-you-6-2-million/</link>
+            <guid>https://www.resetera.com/threads/one-of-escape-from-tarkov%E2%80%99s-endings-will-cost-you-6-2-million.1359238/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+        
+<p>Escape from Tarkov is now a fully released game, with Battlestate having pushed out the 1.0 version of the popular extraction shooter on November 15. One of the biggest selling points of the new version is that it has a story that players can work through to attain one of four endings, all of which are notoriously difficult to reach.</p>
+
+
+
+<p>In a post on social media, one Escape from Tarkov creator revealed that they’d reached one of those endgame scenarios, and that getting out and escaping from Tarkov via that particular route was going to cost them a whopping <strong>500 million rubles</strong>, which is around $6.2 million.</p>
+
+
+
+
+
+
+
+<h2 id="h-escape-from-tarkov-s-endings-are-nails">Escape from Tarkov’s Endings Are Nails</h2>
+
+
+
+<p>Nikita Buyanov, the head of the studio at Battlestate Games, warned that <a href="https://insider-gaming.com/escape-from-tarkov-story-will-have-four-endings/">only a small percentage</a> of Escape from Tarkov players would ever successfully reach the game’s ultimate ending. The four endings that have been set up mark a major milestone for the extraction shooter, but many of the game’s fans won’t see them.</p>
+
+
+
+<p>We now know why.</p>
+
+
+
+<p>In an image uploaded on social media by Tigz, a popular Tarkov creator, it was revealed that one of those endings requires the player to hand over a whopping 500 <strong>million rubles</strong>, which is a staggering, dizzying amount of cash. It’s equivalent to $6.2 million, and the player will need to acquire those funds while spending on everything required to… Well, <em>acquire those funds</em>.</p>
+
+
+
+<figure></figure>
+
+
+
+
+
+
+
+<p>For the average player, this ending is almost impassable and unobtainable, as making that much money in Escape from Tarkov takes an immense amount of time, even if you’re a skilled player.</p>
+
+
+
+<p>The point of Escape from Tarkov now is to be much more persistent, so it’s probably doable, but it’s a monumental grind that will wear most players down to the bone.</p>
+
+
+
+
+
+
+
+<p>In the comments under the post, some users joked about the objective. One noted that it would be ‘Just a couple thousand good Scav runs.’ While another criticized it, writing, ‘Not even a fun quest or anything, just grinding, what a disappointment.’</p>
+
+
+
+<p>Do you think you could stump up half a billion rubles to get out of Tarkov? Let the community know on the <a href="https://discord.com/invite/vwj7zdWxaW">Insider Gaming Discord server</a> if you could.</p>
+
+
+
+<hr>
+
+
+
+<p>For more Insider Gaming coverage, check out <a href="https://insider-gaming.com/where-to-find-aphelion-arc-raiders-guide-blueprint/">how to get the Aphelion blueprint in ARC Raiders</a></p>
+    
+
+    <div id="ig-app-cta">
+          <p><i></i> MOBILE APP</p>
+          <h2>Level Up Your Gaming News</h2>
+          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
+          
+          <!--<div class="ig-note"><i class="fa-solid fa-bolt"></i> Available on iOS & Android</div>-->
+        <p><i></i> Available on Android</p>
+
+        </div>
+
+    
+    
+    </div></div><br/><br/>https://insider-gaming.com/one-of-tarkov-endings-cost-you-6-2-million/]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[When Do F1 Skins Come To Fortnite? Release Date, Explained]]></title>
+            <link>https://insider-gaming.com/f1-skins-fortnite-release-date/</link>
+            <guid>https://www.resetera.com/threads/when-do-f1-skins-come-to-fortnite-release-date-explained.1359232/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+        
+<p>An F1 collab is speeding its way into Fortnite, giving the community a chance to immortalise another of the world’s most popular franchises. If you’re wheelie excited about this high-octane crossover, the official release date for the Fortnite and F1 content crossover is below and waiting in the pit lane.</p>
+
+
+
+<p>Fortnite’s collaboration possibilities are endless. We’re not at the end of Chapter 6 yet, and we’ve already gotten wind of a <a href="https://insider-gaming.com/fortnite-chapter-7-season-1-battle-pass-leaks-reveal-back-to-the-future-collab/" target="_blank" rel="noreferrer noopener">Fortnite Chapter 7 Season 1 Battle Pass leak, revealing Back to the Future content</a>! Before we get there, though, it’s time to take this to the track.</p>
+
+
+
+<p>Let’s check out the F1 Skins release date in Fortnite, and what’s coming.</p>
+
+
+
+
+
+
+
+<h2 id="h-fortnite-amp-f1-skins-release-date">Fortnite &amp; F1 Skins Release Date</h2>
+
+
+
+<figure><figcaption>Full gear. Credit to Epic Games</figcaption></figure>
+
+
+
+<p><strong>You can expect to see the new F1 Skins arrive in Fortnite in-game on Thursday, November 20.</strong></p>
+
+
+
+<p>The content arrives on this date as it coincides with the real-life 2025&nbsp;Las Vegas Grand Prix! All 10 F1 teams will feature in the drop, and you’ll be able to buy the content of your choice from the Fortnite store, as usual.</p>
+
+
+
+<h2 id="h-what-f1-skins-amp-content-is-coming-to-fortnite">What F1 Skins &amp; Content Is Coming To Fortnite?</h2>
+
+
+
+<p><strong>The ‘F1 Cosmetic Team Set’ is the headline addition as part of the exciting Fortnite and F1 crossover.</strong></p>
+
+
+
+<p>Here’s what F1 had to say on the collab:</p>
+
+
+
+<blockquote>
+<p>“[It] will include branded <strong>Outfits</strong>, <strong>Gliders</strong>, and <strong>Pickaxes </strong>that feature bespoke team branding from all 10&nbsp;Formula 1 teams. The Outfits and cosmetic items are inspired by the current F1 teams, and players can also get Formula 1 branded ‘<strong>Back Bling</strong>’, plus an ‘<strong>Emote</strong>’ to celebrate Victory Royales in style.</p>
+
+
+
+
+</blockquote>
+
+
+
+<p>You can only imagine the confusion of the F1 consultant writing up this statement, likely trying to work out what Back Bling is, but they summed it up nicely. It’s all the usual skins, Gliders, Pickaxes, and more, that we’ve become accustomed to with all collaborations.</p>
+
+
+
+<p>It’s also unlikely that Epic will suddenly drop the V-Bucks requirements for these bundles. Expect to part with a hefty wad of Fortnite cash if you want to sport a smart Red Bull Outfit or drop into the game with a Mercedes-embroidered Glider.</p>
+
+
+
+<p>Who is your F1 team of choice? Is there any gear that will be a must-buy for you when it drops? Share your allegiance to the world via the <a href="https://discord.com/channels/1433093283558719611/1433112738133180426" target="_blank" rel="noreferrer noopener">Official Insider Gaming Discord Server</a>.</p>
+
+
+
+<hr>
+
+
+
+<p>Also, read reports of a <a href="https://insider-gaming.com/fortnite-harry-potter-collaboration-claim/">Fortnite x Harry Potter Collaboration</a>, and another <a href="https://insider-gaming.com/fortnite-chapter-7-leaks-reveal-driveable-reboot-vans-bots-mode/">leak revealing driveable Reboot Vans and a ‘Bots Mode’</a> are coming.</p>
+    
+
+    <div id="ig-app-cta">
+          <p><i></i> MOBILE APP</p>
+          <h2>Level Up Your Gaming News</h2>
+          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
+          
+          <!--<div class="ig-note"><i class="fa-solid fa-bolt"></i> Available on iOS & Android</div>-->
+        <p><i></i> Available on Android</p>
+
+        </div>
+
+    
+    
+    </div></div><br/><br/>https://insider-gaming.com/f1-skins-fortnite-release-date/]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Games Workshop Shares Soar Once Again as Warhammer 40,000 Company Flags Big Profits Despite Expected Space Marine 2 Royalties Slowdown]]></title>
+            <link>https://www.ign.com/articles/games-workshop-shares-soar-once-again-as-warhammer-40000-company-flags-big-profits-despite-expected-space-marine-2-royalties-slowdown</link>
+            <guid>https://www.resetera.com/threads/games-workshop-shares-soar-once-again-as-warhammer-40-000-company-flags-big-profits-despite-expected-space-marine-2-royalties-slowdown.1359229/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><section data-cy="article-content"><p data-cy="paragraph">Games Workshop is once again expecting big profits despite an expected slowdown in licensing revenue from blockbuster video game <a data-cy="styled-link" href="https://www.ign.com/games/warhammer-40000-space-marine-ii">Warhammer 40,000: Space Marine 2</a>.</p><p data-cy="paragraph">Games Workshop’s main business is the sale of miniatures fans assemble and paint for use in tabletop wargames, such as Warhammer 40,000. But it is increasingly an IP business, with huge revenue from smash hit video games such as 2024's <a data-cy="styled-link" href="https://www.ign.com/games/warhammer-40000-space-marine-ii">Warhammer 40,000: Space Marine 2</a>, and animations, such as Amazon’s Warhammer 40,000 Secret Level episode. Last year, <a data-cy="styled-link" href="https://www.ign.com/articles/games-workshop-and-amazon-finalize-deal-for-henry-cavills-warhammer-40000-cinematic-universe-but-production-may-take-a-number-of-years">Games Workshop and Amazon finalized a deal for Henry Cavill's Warhammer 40,000 Cinematic Universe</a>, which will involve the creation of films and television series. <a data-cy="styled-link" href="https://www.ign.com/games/warhammer-40000-space-marine-iii">Space Marine 3 is also in development.</a></p><p data-cy="paragraph">In a <a href="https://investor.games-workshop.com/news-posts/tradingupdate201125" data-cy="styled-link" target="_blank" rel="noopener noreferrer">trading update</a>, the Nottingham, UK-based tabletop wargame company said it now expects revenues of at least £310 million for the six months to the end of November 2025, which would amount to a 15% rise from the same period last year. Pre-tax profit is expected to be about £135 million for the half year, up from £126.8 million last year. Shares in Games Workshop were up 12.8% on the news this morning.</p><output data-cy="article-video"></output><p data-cy="paragraph">That’s despite expected licensing revenue of at least £16 million, which would be down from the £30.1 million reported during the same period last year.</p><p data-cy="paragraph">Space Marine 2 may well be the most successful Warhammer 40,000 video game ever made. It sold over 7 million copies less than a year after going on sale, and, according to Saber Interactive exec Tim Willits, changed everything for the studio. Even Games Workshop itself has talked about the money it’s made from Space Marine 2, and <a data-cy="styled-link" href="https://www.ign.com/articles/games-workshop-just-promoted-titus-from-space-marine-2-with-a-fancy-new-trailer-that-sets-up-the-next-narrative-expansion-for-warhammer-40000">protagonist Titus is now leading the charge on the next narrative expansion of the Warhammer 40,000 setting</a>.</p><p data-cy="paragraph">In January, <a data-cy="styled-link" href="https://www.ign.com/articles/space-marine-2-made-millions-for-games-workshop-now-its-on-the-hunt-for-the-next-big-warhammer-video-game">Games Workshop said it was on the hunt for the next blockbuster Warhammer video game</a>, but CEO Kevin Rountree also expressed a degree of caution on potential future video game success, admitting hits like Space Marine 2 are few and far between. “We recognise that successes like these for Warhammer are not a given in the world of video games,” Rountree said at the time. “Clearly we are looking for the next one. We remain cautious when forecasting royalty income.”</p><p data-cy="paragraph">Meanwhile, Games Workshop had warned that Donald Trump’s tariff plans could damage its profits by up to £12 million, but it seems the impact has yet to significantly dull financial performance.</p><p data-cy="paragraph">Games Workshop’s primary business is of course the sale of tabletop wargames and their miniatures, with an expansive bricks and mortar retail business providing a foundation for the hobby. In July, Games Workshop said that a “cute looking pipistrelle bat” was “delaying our work on our new temporary car park.” <a data-cy="styled-link" href="https://www.ign.com/articles/games-workshop-and-the-warhammer-hobby-are-in-great-shape-but-the-company-has-two-problems-right-now-trumps-tariffs-and-a-cute-bat-that-is-delaying-work-on-a-new-car-park">Yes, really</a>.</p><p data-cy="paragraph"><em>Photo by Uli Deck/picture alliance via Getty Images.</em></p><p data-cy="paragraph"><em>Wesley is Director, News at IGN. Find him on Twitter at @wyp100. You can reach Wesley at wesley_yinpoole@ign.com or confidentially at wyp100@proton.me.</em></p></section></div><br/><br/>https://www.ign.com/articles/games-workshop-shares-soar-once-again-as-warhammer-40000-company-flags-big-profits-despite-expected-space-marine-2-royalties-slowdown]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[REANIMAL launches February 13, 2026]]></title>
+            <link>https://www.gematsu.com/2025/11/reanimal-launches-february-13-2026</link>
+            <guid>https://www.resetera.com/threads/reanimal-launches-february-13-2026.1359226/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><p>Cooperative horror <a title="Genres > Adventure [2,700 articles]" href="https://www.gematsu.com/genres/adventure">adventure game</a> <em><a title="Games > REANIMAL [6 articles]" href="https://www.gematsu.com/games/reanimal">REANIMAL</a></em> will launch for <a title="Platforms > PS5 [10,871 articles]" href="https://www.gematsu.com/platforms/playstation/ps5">PlayStation 5</a>, <a title="Platforms > Xbox Series [8,294 articles]" href="https://www.gematsu.com/platforms/xbox/xbox-series">Xbox Series</a>, <a title="Platforms > Switch 2 [680 articles]" href="https://www.gematsu.com/platforms/nintendo/switch-2">Switch 2</a>, and <a title="Platforms > PC [24,812 articles]" href="https://www.gematsu.com/platforms/pc">PC</a> via <a href="https://store.steampowered.com/app/2129530/REANIMAL/" rel="noopener" target="_blank">Steam</a>, <a href="https://store.epicgames.com/p/reanimal" target="_blank">Epic Games Store</a>, and <a href="https://www.gog.com/en/game/reanimal" target="_blank">GOG</a> on February 13, 2026 for $39.99, publisher <a title="Companies > THQ Nordic [545 articles]" href="https://www.gematsu.com/companies/thq-nordic">THQ Nordic</a> and developer <a title="Companies > Tarsier Studios [35 articles]" href="https://www.gematsu.com/companies/amplifier-game-invest/tarsier-studios">Tarsier Studios</a> <a href="https://store.steampowered.com/news/app/2129530/view/613180506112000708" target="_blank">announced</a>. <span id="more-1007745"></span></p><p>Pre-orders and a demo will be available for PlayStation 5, Xbox Series, and PC via <a href="https://store.steampowered.com/app/4019420/REANIMAL_Demo/" target="_blank">Steam</a> today, with Switch 2 pre-orders and a demo to follow at a later date. In addition to the standard edition, a $59.99 Digital Deluxe Edition will also be available, which includes the base game, Season Pass, and the exclusive Foxhead and Muttonhead masks.</p><p>Here is an overview of the game, via THQ Nordic:</p><blockquote><p><strong>About</strong></p><p>The original creators of <em>Little Nightmares</em> and <em>Little Nightmares II</em> have returned to take you on a more terrifying journey than ever before. In this <a title="Genres > Co-Op [348 articles]" href="https://www.gematsu.com/genres/multiplayer/co-op">cooperative</a> horror adventure game, you play as a brother and sister who go through hell to rescue their missing friends. Exploring by boat and on land, you must use your wits to survive, work together to escape the hellish island, and the dark secret that haunts you.</p><p><strong>Key Features</strong></p><!-- AD: content -->
+        <ul><li><strong><a title="Genres > Horror [767 articles]" href="https://www.gematsu.com/genres/horror">Horror</a> With Hope</strong> – In this unsettling tale, the emphasis is on tension and thick atmosphere, as you join the two orphans on a desperate search for hope and redemption in the direst of circumstances.</li><li><strong>Across a Dark and Twisted World</strong> – Traverse an intriguing but terrifying world, where the main path is only one part of the fragmented story. Discover all sorts of mysterious locations on your perilous journey, each with its own story to tell.</li><li><strong>A Dread-Filled Adventure</strong> – Tarsier Studios is bringing their unique visual style to bear on a whole host of new twisted monsters and broken, yet resilient, child characters. Fragments of the children’s troubled past have been used as inspiration for their character design, and for the monsters that now torment them.</li><li><strong>Share the Scare</strong> – Nobody should be forced to go through hell alone! Fully playable in single player and local and online cooperative play, <em>REANIMAL</em> has a shared, directed camera, designed to maximize claustrophobia and tension.</li></ul></blockquote></div></div><br/><br/>https://www.gematsu.com/2025/11/reanimal-launches-february-13-2026]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Thank Goodness You’re Here! coming to Xbox Series on December 9]]></title>
+            <link>https://www.gematsu.com/2025/11/thank-goodness-youre-here-coming-to-xbox-series-on-december-9</link>
+            <guid>https://www.resetera.com/threads/thank-goodness-you%E2%80%99re-here-coming-to-xbox-series-on-december-9.1359223/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+    <ul>
+    <li><a href="https://www.gematsu.com/platforms/xbox/xbox-series">Xbox Series</a></li>    </ul>
+
+    
+    <p><span>Currently available for PlayStation, Switch, and PC.</span>
+      </p></div><div><p>Publisher <a title="Companies > Panic [33 articles]" href="https://www.gematsu.com/companies/panic">Panic</a> and developer <a title="Companies > Coal Supper [2 articles]" href="https://www.gematsu.com/companies/coal-supper">Coal Supper</a> will release “Comedy slapformer” <a title="Genres > Adventure [2,700 articles]" href="https://www.gematsu.com/genres/adventure">adventure game</a> <em><a title="Games > Thank Goodness You're Here! [3 articles]" href="https://www.gematsu.com/games/thank-goodness-youre-here">Thank Goodness You’re Here!</a></em> for <a title="Platforms > Xbox Series [8,294 articles]" href="https://www.gematsu.com/platforms/xbox/xbox-series">Xbox Series</a> on December 9, the companies announced. The PC version will also be available via <a href="https://www.xbox.com/en-US/games/store/thank-goodness-youre-here/9P14ZTSR0LS9" target="_blank">Microsoft Store</a> on the same day. <span id="more-1008199"></span></p><p><em>Thank Goodness You’re Here!</em> first launched for PlayStation 5, PlayStation 4, Switch, and PC via <a href="https://store.steampowered.com/app/2366980/Thank_Goodness_Youre_Here/" target="_blank" rel="noopener">Steam</a> and <a href="https://launcher.store.epicgames.com/p/thank-goodness-youre-here-aac813" target="_blank" rel="noopener">Epic Games Store</a> on August 1, 2024.</p><p>Here is an overview of the game, via Panic:</p><blockquote><p><strong>About</strong></p><p>Explore the strange town of Barnsworth in this cheeky comedy slapformer!</p><p>After arriving early for a big meeting with the mayor of a bizarre Northern English town, a traveling salesman takes the time to explore and meet the locals, who are all very eager to give him a series of increasingly odd jobs…</p><!-- AD: content -->
+        <p><em>Thank Goodness You’re Here!</em> is a comedy slapformer, which unfolds over time as the players’ exploration and antics leave their mark on the strange town of Barnsworth. With each completed odd job, new areas of the town open up, stranger and stranger tasks become available, and the clock ticks towards our salesman’s big meeting. The town’s colorful inhabitants are brought to life with vibrant hand-drawn animation, fully voiced dialogue, and wall-to-wall double entendres.</p><p><strong>Key Features</strong></p><ul><li>Bold, beautiful visual design that seamlessly blends <a title="Genres > Side-Scrolling [1,160 articles]" href="https://www.gematsu.com/genres/side-scrolling">side-scrolling</a> <a title="Genres > Action [3,207 articles]" href="https://www.gematsu.com/genres/action">action</a> vignettes with top-down exploration in a chock-a-block open world.</li><li>Progressively more involved and puzzling odd-jobs to complete: cut the grass, bake a pie, traverse the astral plane!</li><li>Hand-crafted animation and original story based on traditional Yorkshire folklore.</li><li>Authentic regional dialects guaranteed to mek thi spit art thi tea laughin’.</li><li>Oddly moving original soundtrack.</li></ul></blockquote><p>Watch the new trailer below.</p><h2><span>Xbox Series Announce Trailer</span></h2><p><iframe title="Thank Goodness You're Here! Coming to Xbox December 9" width="500" height="281" src="https://www.youtube.com/embed/mP7z8qiYuqI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p></div></div><br/><br/>https://www.gematsu.com/2025/11/thank-goodness-youre-here-coming-to-xbox-series-on-december-9]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Steam Machine Price? Here's Another Hint At What It Could Cost]]></title>
+            <link>https://www.gamespot.com/articles/steam-machine-price-heres-another-hint-at-what-it-could-cost/1100-6536378/?ftag=CAD-01-10abi2f</link>
+            <guid>https://www.resetera.com/threads/steam-machine-price-heres-another-hint-at-what-it-could-cost.1359220/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p>
+    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
+  </p><article itemscope="" data-type-id="1100" data-guid="1100-6536378">
+
+            
+            
+  
+
+
+        
+
+  
+
+
+        
+        
+              <section>
+
+                  
+          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
+                <p>One of the biggest unknowns about Valve's <a href="https://www.gamespot.com/articles/steam-machine-release-date-price-everything-we-know/1100-6536286/" data-ref-id="1100-6536286">Steam Machine</a> is <a href="https://www.gamespot.com/articles/how-much-will-steam-machine-cost-heres-what-valve-had-to-say-about-pricing/1100-6536161/" data-ref-id="1100-6536161">how much the cute little six-inch cube will cost</a>. Plenty of people have offered their thoughts about where the price may land, and now Linus Sebastian of Linus Tech Tips has shared what he says Valve told him during a recent meeting.</p><p>On the <a href="https://www.youtube.com/live/dnKy4UEdiyo?si=vFixe-qpVjph_B0v" data-target="true" target="_blank" rel="noopener">WAN Show</a>, Linus said he has no idea what the Steam Machine price will be, but in speaking to Valve, he came away thinking the system won't be priced similarly to a new console.</p><p>"When I said, 'I'm disappointed that it isn't going to follow a console pricing model where it's subsidized by the fact that the manufacturer is going to be taking 30% of every game sold on it over the lifespan of this thing, because I feel that would be a more meaningful product,' they kind of asked what I meant by, well, 'What do you mean by console price?' And I said, 'Well, $500,'" he said, <a href="https://www.ign.com/articles/dont-expect-the-steam-machine-price-to-follow-a-console-pricing-model-of-500" data-target="true" target="_blank" rel="noopener nofollow">as reported by IGN.</a></p><p>"Nobody said anything, but the energy of the room wasn't great."</p><p data-embed-type="video" data-src="https://www.youtube.com/watch?v=OmKrKTwtukE" data-width="100%" data-height="100%" data-video-start="2">          <iframe src="https://www.youtube-nocookie.com/embed/OmKrKTwtukE?start=2" height="100%" width="100%" scrolling="no" frameborder="" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></p><p>This is far from confirmation of anything, and predictions about how much the Steam Machine may cost are all over the place. One expert believes <a href="https://www.gamespot.com/articles/how-much-will-steam-machine-cost-heres-what-valve-had-to-say-about-pricing/1100-6536161/" data-ref-id="1100-6536161">$400 is the sweet spot</a> for the entry model, while others believe it could be more than $1,000. Others believe it may be priced similarly to the PS5.</p><p>"Tariffs, surging memory / storage costs, supply chain volatility and an inability to subsidize to the same extent as traditional console manufacturers are all working against Valve at the moment," <a href="https://x.com/ZhugeEX/status/1991311485323063443" data-target="true" target="_blank" rel="noopener nofollow">Niko Partners analyst Daniel Ahmad said</a>. "That being said, the specs suggest Valve wanted this to be in line with PS5 pricing."</p><p>Before this, Linus said Valve told him they could not confirm a price for the Steam Machine due in part to "rapidly evolving market conditions."</p><p>"They did give me one hint, though. They said that while they expect it to be very competitively priced with a PC, that it will be priced like a PC. Rather than like a console with games subsidizing the upfront hardware price," <a href="https://www.gamespot.com/articles/how-much-will-steam-machine-cost-heres-what-valve-had-to-say-about-pricing/1100-6536161/" data-ref-id="1100-6536161">he said.</a></p><p>Officially, Valve has only said its goal is for the Steam Machine to be <a href="https://www.gamespot.com/articles/how-much-will-steam-machine-cost-heres-what-valve-had-to-say-about-pricing/1100-6536161/" data-ref-id="1100-6536161">"affordable" and priced according to the value it offers</a>. This is pretty much what every company says about their products, so these comments don't tell us much of anything.</p><p>The Steam Machine launches in 2026, but preorders are not yet open and the exact launch timing has not been confirmed as of yet. For now, check out GameSpot's rundown of <a href="https://www.gamespot.com/articles/steam-machine-release-date-price-everything-we-know/1100-6536286/" data-ref-id="1100-6536286">everything we know about the Steam Machine.</a></p>
+  
+                        
+    
+        
+        
+  
+                                  </div>
+
+
+          
+  
+    
+          
+            
+  <div>
+    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
+
+    
+      </div>
+        
+      </section>
+    
+            
+    </article></div><br/><br/>https://www.gamespot.com/articles/steam-machine-price-heres-another-hint-at-what-it-could-cost/1100-6536378/?ftag=CAD-01-10abi2f]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Review: R-Type Delta: HD Boosted (Switch) - The Best R-Type? Possibly, And It's Never Looked Better]]></title>
             <link>https://www.nintendolife.com/reviews/nintendo-switch/r-type-delta-hd-boosted</link>
             <guid>https://www.resetera.com/threads/review-r-type-delta-hd-boosted-switch-the-best-r-type-possibly-and-its-never-looked-better.1359211/</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><section>
-<figure><a title="R-Type Delta: HD Boosted Review - Screenshot 1 of 6" href="https://images.nintendolife.com/screenshots/160706/large.jpg"></a><figcaption>Captured on Nintendo Switch (Docked)</figcaption></figure><p>In the great pantheon of shoot-'em-up games, <a href="https://www.nintendolife.com/games/tg16/r-type">R-Type</a> is both one of the greatest and one of the most excruciatingly difficult. Released in arcades in 1987 and drawing visual inspiration from the works of H.R. Giger, you pilot an R-9 fighter craft through spectacular alien worlds in a bid to destroy the Bydo Empire.</p>
+<figure><a title="R-Type Delta: HD Boosted Review - Screenshot 1 of 6" href="https://images.nintendolife.com/screenshots/160705/large.jpg"></a><figcaption>Captured on Nintendo Switch (Docked)</figcaption></figure><p>In the great pantheon of shoot-'em-up games, <a href="https://www.nintendolife.com/games/tg16/r-type">R-Type</a> is both one of the greatest and one of the most excruciatingly difficult. Released in arcades in 1987 and drawing visual inspiration from the works of H.R. Giger, you pilot an R-9 fighter craft through spectacular alien worlds in a bid to destroy the Bydo Empire.</p>
 <p>Although shoot 'em ups later evolved to favour more twitch-reflex gameplay, R-Type’s staple is its strict memorisation, requiring you to learn it by rote. As with <a href="https://www.nintendolife.com/games/switch-eshop/arcade_archives_gradius">Gradius</a>, not dying is an unspoken challenge: losing your power-ups makes recovery brutally tough, and the game's infamously aggressive checkpoints send you back a considerable distance each time you bite a bullet.</p>
 <p>Impressed with the polygonal revision of Taito’s 1996 <a href="https://www.nintendolife.com/games/nintendo-switch/raystorm_x_raycrisis_hd_collection">Raystorm</a>, IREM endeavoured to make a similar transition for R-Type’s fourth entry. Being their first attempt at 3D, it was a project with a steep learning curve. And, while the result was glorious, it was also mystifyingly brief, remaining a PlayStation exclusive for 27 years.</p>
-<figure><a title="R-Type Delta: HD Boosted Review - Screenshot 2 of 6" href="https://images.nintendolife.com/screenshots/160704/large.jpg"></a><figcaption>Captured on Nintendo Switch (Docked)</figcaption></figure>
+<figure><a title="R-Type Delta: HD Boosted Review - Screenshot 2 of 6" href="https://images.nintendolife.com/screenshots/160703/large.jpg"></a><figcaption>Captured on Nintendo Switch (Handheld/Undocked)</figcaption></figure>
 <p>Enter <a href="https://www.nintendolife.com/games/nintendo-switch/r-type_delta_hd_boosted">R-Type Delta: HD Boosted</a> - a remaster that upscales the visuals handsomely. Its PlayStation-era polygons have been buffed to an astonishing shine without losing any of their characteristic charm, and overall visibility is greatly improved.</p>
 <p>Additionally, while the game was originally in a 4:3 aspect ratio, some trickery has been done to create the illusion of widescreen, using an “expanded” fade effect on the border edges that, when locked in, you quickly forget are there. Its upscaling is on par with M2’s <a href="https://www.nintendolife.com/games/switch-eshop/g-darius_hd">G-Darius</a> port, and, coming from City Connection — a developer praised for their taste in re-releases but less so for their effort thereafter — its quality comes as a pleasant surprise.</p>
 <p>R-Type Delta is one of the series' best, both smoother and cleaner than <strong>R-Type Final</strong>, and faster and freer than the three 2D entries that preceded it. Delta is to R-Type what G-Darius was to, well, <a href="https://www.nintendolife.com/games/arcade/darius">Darius</a>: a remarkably slick, visually gorgeous game that maximises the possibilities of 3D architecture.</p>
-<figure><a title="R-Type Delta: HD Boosted Review - Screenshot 3 of 6" href="https://images.nintendolife.com/screenshots/160705/large.jpg"></a><figcaption>Captured on Nintendo Switch (Docked)</figcaption></figure>
+<figure><a title="R-Type Delta: HD Boosted Review - Screenshot 3 of 6" href="https://images.nintendolife.com/screenshots/160700/large.jpg"></a><figcaption>Captured on Nintendo Switch (Handheld/Undocked)</figcaption></figure>
 <p>There are now three craft available: the original R-9, playing in traditional fashion; the new R-X, with Force Ball homing properties; and the R-13, which is primarily hinged around its Force Ball’s sticky anchoring and laser tether. Impressively, each craft totally changes your approach, requiring its own roadmap to victory. Power-up modifiers vary greatly depending on the ship you’re using, making a maximum of nine shot-types when factoring in three per craft. Additionally, the doubling up of said power-ups expands the range even further.</p>
 <p>Visually it’s beautiful and the audio is stellar. Set pieces abound as early as stage one: mecha-centipedes rip through burned-out industrial high-rises to encircle you in the foreground, and screen-dwarfing bosses pump out neon laser barrels and fiery exhaust flame. Dynamic and ploughed with invention, it cherry picks elements from its predecessors and paints them across a bolder seven-stage canvas.</p>
 <p>Stage three is wonderfully creative, the entire episode just one hulking, stalking boss that requires travelling beneath its feet to strip its armoury, before climbing to its peak under a hail of missiles. The way the camera scales, shifting your flight path in various directions, heightens its cinematic nature. The fine visual and audio details are terrific, too, like the way the music switches to a muted, bassy throb the instant your ship dips below water.</p>
@@ -27,11 +489,11 @@
 <p>Delta remains a hardcore memoriser, despite having more random elements than those before it. It also maintains checkpoints, although now getting powered back up post-death is much easier. Not dying, though, is still the star to shoot for, as maintaining a strong ship enables you to wipe out large enemies and bosses in a fraction of the time.</p>
 <p>More than anything else, though, Delta is about ball control. And by that, I mean the Force Ball: R-Type’s idiosyncratic ship attachment. More than any other game in the series, Force Ball usage feels so much more integral, and its strategy varies greatly depending on the different ship types.</p>
 <p>Typically the ball can be bolted to the front or back of the craft with a touch. When positioned there, it provides different shot boosts depending on the colour of the power-up you collect. It also shields against almost all incoming bullets and missiles. With a touch of the button, it can be shot out directly into enemies or objects, and set to travel adjacently, firing as it goes to cover more screen space.</p>
-<figure><a title="R-Type Delta: HD Boosted Review - Screenshot 5 of 6" href="https://images.nintendolife.com/screenshots/160703/large.jpg"></a><figcaption>Captured on Nintendo Switch (Handheld/Undocked)</figcaption></figure>
+<figure><a title="R-Type Delta: HD Boosted Review - Screenshot 5 of 6" href="https://images.nintendolife.com/screenshots/160707/large.jpg"></a><figcaption>Captured on Nintendo Switch (Docked)</figcaption></figure>
 <p>Sending the Force Ball out on repeat is how Delta ticks, with the landscape and enemy patterns calling for ever-evolving strategies. When it’s fired into a large enemy it can be absolutely devastating, its point-blank hit-rate making short work of any foe - but its greatest trick is in its new “Dose” function. Now, whenever the ball absorbs a bullet on your behalf, it fills a gauge that, when reaching 100%, will allow you to deploy an explosive super attack against everything on the screen.</p>
 <p>Delta has been engineered painstakingly around this, cleverly placing swarms of popcorn enemies in-between junctures so you can quickly ‘dose up’ with a little risk-reward flying. Attached to the front of your craft, it can be used as a collision barrier, nosing through enemy waves and building the meter fast. Dedicated players will be able to eke out myriad possibilities for maximising the Dose attack's regular deployment.</p>
 <p>Delta proves incredibly deep and impressively malleable for a series known for its strict rail structure. Elements that pose problems initially can be quickly outwitted through experimentation, and often felled in the blink of an eye. Learning not just where to camp, but how to utilise the Force Ball effectively increases your offence and defence in equal stride. And when all else fails, you still have your charge beam to cut through incoming obstacles.</p>
-<figure><a title="R-Type Delta: HD Boosted Review - Screenshot 6 of 6" href="https://images.nintendolife.com/screenshots/160702/large.jpg"></a><figcaption>Captured on Nintendo Switch (Docked)</figcaption></figure>
+<figure><a title="R-Type Delta: HD Boosted Review - Screenshot 6 of 6" href="https://images.nintendolife.com/screenshots/160704/large.jpg"></a><figcaption>Captured on Nintendo Switch (Docked)</figcaption></figure>
 <p>Although you start with limited continues, these increase through play time, and once a stage is beaten it becomes available in practice. There are three difficulty levels to choose from, and perks in the form of graphics texture options, screen dimension adjustments, and time-unlockable bonuses that will keep you plugging away.</p>
 <p>Delta HD Boosted's only real presentation shortcoming is that, inexplicably, you can’t skip the lengthy start-up sequence on each new game. With no quick restart from the pause menu either, you’re forced back to the title screen to repeatedly endure the whole opening preamble. It’s an easily addressable oversight that proves genuinely frustrating.</p>
 <p>Delta is often cited as one of the most difficult R-Type games, but I beg to differ. Compared to the more static nature of its predecessors, all the new tricks and possibilities here actually make it easier in many ways. Getting powered back up after a death is far friendlier, the Dose super weapon is a crucial get-out-of-jail-free card, and being able to adjust the ship’s speed can save you in a pinch. That said, it’s still hard as nails, and 'Kid' difficulty, despite the disparaging name, comes highly recommended as a first port of call.</p>
@@ -208,7 +670,7 @@
 </p><p>The disclosure also doesn't address worries about the emissions cost of 'training' generators by having them repeatedly go over datasets to extrapolate patterns - yes, it'll run offline on your PC, which suggests a lower energy footprint for the user, but it's not clear how much power was consumed during development. There's also the question of whether the map generation here contributes to overall normalisation of efforts <a href="https://www.rockpapershotgun.com/epic-boss-tim-sweeney-is-right-to-call-genai-a-political-topic-its-a-mechanism-of-class-war">to automate jobs and shrink team sizes</a>, even if the game's handling of such <a href="https://www.rockpapershotgun.com/we-need-to-reclaim-softwares-wishing-well-from-the-cruelty-of-generative-ai">technological terrors</a> strikes you as above reproach.
 </p><p>
 Such caveat! Much proviso! More context than I can easily get into here! And it's only going to get more complicated. As the developers recap on Steam, this is "the first of three games that lay the foundation for our studio's ultimate vision: Project Artemis", which is "a platform for massive, living multiplayer sandboxes where millions of players can shape their own worlds and emergent stories."
-</p><p>Somewhere inside all of these metaversals convolutions and investor-facing language there is a promising wilderness walking sim. I <a href="https://www.rockpapershotgun.com/playerunknowns-prologue-go-wayback-is-an-enchanting-exploration-sim-tossed-on-a-sea-of-metaverse-imagineering">interviewed Greene</a> and played the game earlier in the year (amongst other things, he told me there are in-game lore reasons for the title). I swam across a river in the dark and it did feel slightly magical.</p>
+</p><p>Somewhere inside all of these metaversal convolutions and investor-facing language there is a promising wilderness walking sim. I <a href="https://www.rockpapershotgun.com/playerunknowns-prologue-go-wayback-is-an-enchanting-exploration-sim-tossed-on-a-sea-of-metaverse-imagineering">interviewed Greene</a> and played the game earlier in the year (amongst other things, he told me there are in-game lore reasons for the title). I swam across a river in the dark and it did feel slightly magical.</p>
 </div>
 
       </article>
@@ -614,7 +1076,7 @@ Such caveat! Much proviso! More context than I can easily get into here! And it'
 
     
     <p><span>Previously released for PC.</span>
-      </p></div><div><p>Publisher <a title="Companies > Rock It Games [6 articles]" href="https://www.gematsu.com/companies/rock-it-games">Rock It Games</a> and developer <a title="Companies > Sickhead Games [5 articles]" href="https://www.gematsu.com/companies/sickhead-games">Sickhead Games</a> have released <em><a title="Games > Jaleco Sports: Goal!" href="https://www.gematsu.com/games/jaleco-sports-goal">Jaleco Sports: Goal!</a></em> for <a title="Platforms > PS5 [10,871 articles]" href="https://www.gematsu.com/platforms/playstation/ps5">PlayStation 5</a> and <a title="Platforms > Switch [17,989 articles]" href="https://www.gematsu.com/platforms/nintendo/switch">Switch</a> for $7.99, the companies announced. <span id="more-1008071"></span></p><p><em>Jaleco Sports: Goal!</em> first launched for PC via <a href="https://store.steampowered.com/app/3399110/Jaleco_Sports_Goal/" target="_blank">Steam</a> and <a href="https://www.gog.com/en/game/jaleco_sports_goal" target="_blank">GOG</a> on June 26.</p><p>Here is an overview of the game, via Rock It Games:</p><blockquote><p><strong>About</strong></p><p><a title="Companies > Experience [212 articles]" href="https://www.gematsu.com/companies/experience">Experience</a> the ultimate soccer showdown with <em>Goal!</em>, the original <a title="Platforms > NES [2 articles]" href="https://www.gematsu.com/platforms/nintendo/nes">Nintendo Entertainment System</a> and <a title="Platforms > SNES" href="https://www.gematsu.com/platforms/nintendo/snes">Super Nintendo Entertainment System</a> classics that first brought real-world tactics and Cup intensity to your living rooms.</p><p>The clock ticks down.</p><!-- AD: content -->
+      </p></div><div><p>Publisher <a title="Companies > Rock It Games [6 articles]" href="https://www.gematsu.com/companies/rock-it-games">Rock It Games</a> and developer <a title="Companies > Sickhead Games [7 articles]" href="https://www.gematsu.com/companies/sickhead-games">Sickhead Games</a> have released <em><a title="Games > Jaleco Sports: Goal!" href="https://www.gematsu.com/games/jaleco-sports-goal">Jaleco Sports: Goal!</a></em> for <a title="Platforms > PS5 [10,871 articles]" href="https://www.gematsu.com/platforms/playstation/ps5">PlayStation 5</a> and <a title="Platforms > Switch [17,989 articles]" href="https://www.gematsu.com/platforms/nintendo/switch">Switch</a> for $7.99, the companies announced. <span id="more-1008071"></span></p><p><em>Jaleco Sports: Goal!</em> first launched for PC via <a href="https://store.steampowered.com/app/3399110/Jaleco_Sports_Goal/" target="_blank">Steam</a> and <a href="https://www.gog.com/en/game/jaleco_sports_goal" target="_blank">GOG</a> on June 26.</p><p>Here is an overview of the game, via Rock It Games:</p><blockquote><p><strong>About</strong></p><p><a title="Companies > Experience [212 articles]" href="https://www.gematsu.com/companies/experience">Experience</a> the ultimate soccer showdown with <em>Goal!</em>, the original <a title="Platforms > NES [2 articles]" href="https://www.gematsu.com/platforms/nintendo/nes">Nintendo Entertainment System</a> and <a title="Platforms > SNES" href="https://www.gematsu.com/platforms/nintendo/snes">Super Nintendo Entertainment System</a> classics that first brought real-world tactics and Cup intensity to your living rooms.</p><p>The clock ticks down.</p><!-- AD: content -->
         <p>The roar of the crowd rises in a deafening chant!</p><p>Suddenly, your winger breaks free, and spots the open man in the middle. Pass…shot…Goal! It’s the world’s favorite sport, and soon to become your favorite new home video game, thanks to Jaleco! Because <em>Goal!</em> brings soccer to life like you’ve never seen it.</p><p><strong><em>Goal!</em> / <em>Moero!! Pro Soccer</em></strong> (Nintendo Entertainment System, 1988 / 1989)</p><ul><li>Choose from 24 different teams.</li><li>Includes Exhibition matches, Tournaments, and Penalty Kick shootouts modes.</li><li>Adjust your team’s formation and playstyle before each match.</li><li>Take direct control of your goalkeeper during critical saves.</li><li>Compete head-to-head or team up against the CPU.</li><li>Unleash powerful kicks that bend and blast toward the goal.</li><li>Complete manuals in English, French, Dutch, German, Spanish and Japanese.</li><li>Check out the details on the preserved original box art.</li></ul><p><strong><em>Goal!</em> / <em>Super Goal!</em> / <em>Super Cup Soccer</em></strong> (Super Nintendo Entertainment System, 1992 / 1993)</p><ul><li>Choose from an international field of 24 teams.</li><li>Includes Match Play and Super Cup tournament modes.</li><li>Multiple play perspectives, including full field “radar.”</li><li>A closeup instant replay of scoring shots.</li><li>Special moves… kick, block, head, bicycle kick, pass, or steal.</li><li>Choose from four defensive formations.</li><li>Complete manuals in English, French, Dutch, German, Spanish, and Japanese.</li><li>Check out the details on the preserved original box art.</li></ul><p><strong>Key Features</strong></p><ul><li>Authentic <a title="Genres > Action [3,207 articles]" href="https://www.gematsu.com/genres/action">action</a>—feel the excitement of every kick, pass, and block with intuitive controls and strategic gameplay.</li><li>Seamlessly switch between the Nintendo Entertainment System and Super Nintendo Entertainment System versions anytime including all regional releases of both games.</li><li>Rewind the action like a VHS tape—missed that goal or pass? Go back in time and try again!</li><li>Need help? The original localized manuals are built-in and always ready to guide you!</li><li>Retro Presentation—play with a classic TV CRT filter or with the many other display options for the ultimate nostalgia.</li><li>Compete against the world and your friends on the monthly leaderboards.</li><li>With Remote Play support you can play on the go and invite your friends from around the globe to play a friendly VS match, team up for a tournament, or battle for the cup together.</li></ul><p>Whether you’re a longtime fan of <em>Goal!</em> or a newcomer ready to experience one of the most beloved soccer franchises, it’s time to don your kit and step onto the pitch!</p></blockquote><p>Watch a new trailer below.</p><h2><span>PlayStation 5 and Switch Launch Trailer</span></h2><p><iframe title="Jaleco Sports:  Bases Loaded &amp; GOAL! Console Launch Trailer" width="500" height="281" src="https://www.youtube.com/embed/VmOzdIt8Bq0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p></div></div><br/><br/>https://www.gematsu.com/2025/11/jaleco-sports-goal-now-available-for-ps5-switch]]></content:encoded>
         </item>
         <item>
@@ -739,10 +1201,10 @@ Such caveat! Much proviso! More context than I can easily get into here! And it'
 <p>Kill Bill is especially jarring. Of course, the upcoming release of <strong>Kill Bill: The Whole Bloody Affair</strong> – which combines both movies into one seamless experience – makes it obvious why The Bride has cropped up in Fortnite, with the game playing host to a 'The Lost Chapter: Yuki's Revenge', but even so... Knowing the context of why the character embarks upon her revenge mission in the movies makes it all the more weirder seeing her fight alongside Homer flippin' Simpson.</p>
 <p>It's not a movie for kids, y'know?</p>
 <p>We're looking into this too much, we get that, but where does it end..? Are we going to see Art the Clown prancing alongside Ms. Rachel? Y'know what, don't get any ideas, Epic.</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch/related-articles:193281 @ 1763645403 -->
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch/related-articles:193281 @ 1763648686 -->
 <p><em>What are your thoughts on this latest Fortnite trailer? Leave a comment down below and let us know.</em></p></section>
 <p>[source <a title="External Link: https://www.youtube.com/watch?v=Mwh7WFCW3f8" rel="noopener" href="https://www.youtube.com/watch?v=Mwh7WFCW3f8">youtube.com</a>]</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch/related-info/1ad4da1627679145b0c35e11d0257dc6 @ 1763647350 --></div></article><div><p>Nintendo Life’s resident horror fanatic, when he’s not knee-deep in Resident Evil and Silent Hill lore, Ollie likes to dive into a good horror book while nursing a lovely cup of tea. He also enjoys long walks and listens to everything from TOOL to Chuck Berry.</p><ul><li><a href="https://www.nintendolife.com/authors/Olliemar28"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/ollie-nl.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Olliemar28');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch/related-info/1ad4da1627679145b0c35e11d0257dc6 @ 1763649463 --></div></article><div><p>Nintendo Life’s resident horror fanatic, when he’s not knee-deep in Resident Evil and Silent Hill lore, Ollie likes to dive into a good horror book while nursing a lovely cup of tea. He also enjoys long walks and listens to everything from TOOL to Chuck Berry.</p><ul><li><a href="https://www.nintendolife.com/authors/Olliemar28"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/ollie-nl.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Olliemar28');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
 </div></div></div><br/><br/>https://www.nintendolife.com/news/2025/11/fortnites-latest-trailer-is-an-unsettling-realisation-of-its-crossover-ambitions]]></content:encoded>
         </item>
         <item>
@@ -1419,362 +1881,6 @@ Such caveat! Much proviso! More context than I can easily get into here! And it'
     
   </section>
   </div></div><br/><br/>https://www.eurogamer.net/dragons-dogma-2-player-milestone-has-left-many-begging-for-dlc]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Inazuma Eleven: Victory Road Scores Its First Major Sales Milestone]]></title>
-            <link>https://www.nintendolife.com/news/2025/11/inazuma-eleven-victory-road-scores-its-first-major-sales-milestone</link>
-            <guid>https://www.resetera.com/threads/inazuma-eleven-victory-road-scores-its-first-major-sales-milestone.1359088/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="body">
-<article id="article">
-<header><section>
-<p>Just one week after kickoff</p>
-</section></header><div><section>
-<figure data-uuid="942f8b4415014"><a title="Inazuma Eleven: Victory Road" href="https://images.nintendolife.com/942f8b4415014/inazuma-eleven-victory-road.large.jpg"></a><figcaption><em><span></span> Image: Level-5</em></figcaption></figure><p>The much-delayed <a href="https://www.nintendolife.com/games/switch-eshop/inazuma_eleven_victory_road">Inazuma Eleven: Victory Road</a> finally arrived on Switch and Switch 2 last week, and Level-5 has today announced that the football RPG has already scored its first major sales milestone.</p>
-<p>As shared by company CEO Akihiro Hino on <a href="https://x.com/AkihiroHino/status/1991399440079552852">X</a>, Victory Road has already surpassed 500,000 sales worldwide. Sure, this is across <em>all</em> platforms (including PS4, PS5, Xbox Series and Steam), but that's no mean feat for a title that has been this long in the making.</p>
-<p>"We will leverage the strengths of a download-only title to make the game even more enjoyable and add new content," Hino wrote in the accompanying tweet (via Google Translate), "so please look forward to it!".</p><div><figure data-videoid="C1rrCdi_XjA" data-start="0" data-src="https://www.youtube.com/embed/C1rrCdi_XjA?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><div><iframe id="ytC1rrCdi_XjA" title="YouTube Video" data-src-fallback="https://www.youtube-nocookie.com/embed/C1rrCdi_XjA?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/C1rrCdi_XjA?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed3be067gkuhqr&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><p>Subscribe to <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1">Nintendo Life</a> on <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1"><span>YouTube</span><span>839k</span></a></p>
-</div></figure></div>
-
-<p>And new content <em>is</em> inbound, it seems. In the blog post marking the sales milestone on the <a href="https://www.inazuma.jp/victory-road/topics/251120/">Inazuma Eleven website</a>, Level-5 mentions that it will be adding new "Galaxy", "Scales of Ares" and "Seal of Orion" routes (presumably based on the anime series of the same name) to the game's throwback Chronicle Mode, as well as an online tournament and additional free content in the future too.</p>
-<p>We'll have our full review of Inazuma Eleven: Victory Road with you before long, so keep an eye out for that one!</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch/related-articles:193735 @ 1763647214 -->
-<p><em>Have you already picked up Victory Road? What do you make of it so far? Let us know in the comments.</em></p></section>
-<p>[source <a title="External Link: https://www.inazuma.jp/victory-road/topics/251120/" rel="noopener" href="https://www.inazuma.jp/victory-road/topics/251120/">inazuma.jp</a>, via <a title="External Link: https://x.com/AkihiroHino/status/1991399440079552852" rel="noopener" href="https://x.com/AkihiroHino/status/1991399440079552852">x.com</a>]</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch/related-info/33b62d60b51d46ab5b76bd97c225544e @ 1763647214 --></div></article><div><p>Jim came to Nintendo Life in 2022 and, despite his insistence that The Minish Cap is the best Zelda game and his unwavering love for the Star Wars prequels (yes, really), he has continued to write news and features on the site ever since.</p><ul><li><a href="https://www.nintendolife.com/authors/JimNorman"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/jimnormann.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('JimNorman');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
-</div></div></div><br/><br/>https://www.nintendolife.com/news/2025/11/inazuma-eleven-victory-road-scores-its-first-major-sales-milestone]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Monsters Are Coming! Rock and Road Review]]></title>
-            <link>https://www.thesixthaxis.com/2025/11/20/monsters-are-coming-rock-and-road-review/</link>
-            <guid>https://www.resetera.com/threads/monsters-are-coming-rock-and-road-review.1359085/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
-			
-			<p>With the Barbarians knocking at the gates, I’m sure that the Romans despaired at their lack of foresight in not building their great cities on wheels. Had they done that? Well, they could just roll off into the distance and away from those that menaced them. That’s pretty much the plan in Monsters Are Coming! Rock and Road, with the world beset by hordes of shadowy creatures and the distant promise of sanctuary at the Arch.</p>
-<p><iframe title="Monsters are Coming! Rock &amp; Road | Date Reveal Trailer" width="780" height="439" src="https://www.youtube.com/embed/7kVZpnNukOU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
-<p>Right from the opening moments, it’s clear that Rock and Road is a fun mash-‘em-up of roguelite, bullet heaven and tower defence. You start with the core building of your city, trundling downwards toward safety as monsters spawn around you, and a black fog follows. As the hero peon, you have to scurry around nearby, gathering wood, stone and gold while also chipping in with some of the defensive effort.</p>
-
-
-<p>Somewhat counterintuitively, those resources don’t actually pay for city upgrades and new buildings in the moment. Wood increases the speed of your towers firing, stone repairs damage, and gold can be spent on buildings and upgrades at safe zones, but the main way you’ll earn buildings is through levelling up and getting a choice of three buildings to place. That comes from gathering the experience gems dropped by fallen monsters and levelling up.</p>
-
-
-<p>There’s more of the Vampire Survivors structure and gameplay feel to this game than it appears on the surface. Your hero also controls in that bullet heaven fashion, so you just move them around and they’ll automatically attack nearby enemies and harvest from scenery that you push them into, gathering a long snake of resources that you need to then lead back and deposit at your city. That’s the point that everything is banked, often levelling you up in a single go early on, and kicking you into the building screen.</p>
-<p>This is where it starts to feel like tower defence. Your city sits in the centre of a square grid, and you can build out from that point. Each building takes up just a single square, and doesn’t have to be adjacent to another building, just in line with one, so you can immediately start to strategise with your building placement. Shorter-ranged turrets can go to the edges, longer-ranged mortars and ballistae more centrally, and then minion generators, stat farms and special buffing buildings nearby. Given the direction of travel, it’s easy to load up the rear of your city, but that can hurt you when waves of enemies spawn from the front and sides, so you do often need a multi-sided approach. I’ve repeatedly leant into having a skinny column, which helps with the need to clear scenery that your city can get stuck on and be vulnerable.</p>
-
-<p>You can get adjacency bonuses –&nbsp;there’s a really helpful +50% damage building that wants to be central to a bunch of towers, while stat farms give 5% boosts by default and an additional +1% for each one in a chain. It’s fun trying to get boosts and synergies to work together, like leaning in on having minions and then a turret that gains 10% damage for every minion currently alive, or a building that makes fire deal 50% bonus damage to frozen enemies.</p>
-<p>In a typical roguelite fashion, you need to roll with what the game randomly offers you. You pick from 10 cities to start with, and that can bring some fundamental changes –&nbsp;a left-to-right mirror city that doubles your buildings, a city where XP comes from harvesting not enemies –&nbsp;and Hard difficulty on each biome starts to add further challenges, so you might have an initial plan, but if the unlocks given to you are all for fire and ice, instead of minions or gold generation, and you don’t have the cash to re-roll the options then you’ll have to pivot. The handful of safe zone checkpoints also give you a chance to adjust or enhance without pressure, giving you a choice of new weapons for your hero, a chance to get a stash of resources and the shop to sink all of your cash into.</p>
-<p>The overarching progression naturally brings you new cities to play with (luring you into these different playstyles), and unlocks more buildings that broadens the options you might be presented. Even if you fail, each run also generates overarching progression points, largely depending on how far you’ve travelled, which you then spend to give percentage boosts to various city and hero traits. Success, however, immortalises that first city in the Arch, piecing together a new sanctuary and giving a little script about each one’s method.</p>
-
-<p>One of the things I appreciate about Rock and Road is how bitesized each run can be, coming in at under 30 minutes, with the spaces between checkpoints ramping up the pressure and building up to a randomised Kaiju-sized boss. They’ll generally just walk around your city alongside throngs of other enemies, while you scamper around and try to undo their abilities. One can make itself invulnerable by attaching to scenery that you need to destroy, another is a big spider queen where you need to race to destroy globs of enemies they spawn, and more.</p>
-<p>Should you defeat them, it’s then a straight run to safety, and there’s a lot of joy to seeing the mass of arrows coming down from the Arch’s defensive walls, while your city fends off the chasing horde. But then that’s the end. You don’t roll through to the next biome and even greater challenges; your city is consigned to history and you start a new run. That makes it feel like you’ve seen all that the game has to offer by the time you’ve bested the standard difficulty – which I’d say isn’t that great a challenge. Playing on Hard is a big leap and requires that progression grind and more experimentation, but I feel this as a more casual option, compared to the more compulsive roguelites out there.</p>
-
-
-<!-- CONTENT END 1 -->
-
-			
-		</div></div><br/><br/>https://www.thesixthaxis.com/2025/11/20/monsters-are-coming-rock-and-road-review/]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Nintendo Switch 2 Ray Tracing Capabilities Are Reportedly Finally Put to Use By a First-Party Game]]></title>
-            <link>https://wccftech.com/nintendo-switch-2-ray-tracing-first-party-game/</link>
-            <guid>https://www.resetera.com/threads/nintendo-switch-2-ray-tracing-capabilities-are-reportedly-finally-put-to-use-by-a-first-party-game.1359082/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			
-			<p>Powered by NVIDIA technology, Nintendo Switch 2 games can leverage RTX tech like<a data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-style-link dracula-processed" href="https://wccftech.com/nintendo-switch-2-confirmed-to-support-nvidia-dlss-and-ray-tracing/"> NVIDIA DLSS and ray tracing </a>to deliver better visuals and <a data-dracula_secondary_bg_finder="rgba(26, 87, 132, 0.2)" data-dracula_alpha_bg="rgba(26, 87, 132, 0.2)" href="https://wccftech.com/nintendo-switch-2-nvidia-dlss-surpassing-xbox-series-s/">enhanced image quality at solid performance.</a> Since launch, <a href="https://wccftech.com/nintendo-switch-2-first-party-nvidia-dlss-engine-limitations/">Nintendo's own titles had yet to take advantage of either,</a> but it seems like the ray tracing floodgates have been opened by the publisher's latest first-party title, Kirby Air Riders.</p>
-
-
-
-<p>As confirmed by a screenshot of the game's license readme found in the Nintendo Switch 2's menu <a data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-style-link dracula-processed" href="https://www.resetera.com/threads/kirby-air-riders-is-the-first-nintendo-published-switch-2-game-to-support-ray-tracing-specifically-ray-traced-global-illumination.1358995/">shared on ResetERA</a>, Kirby Air Riders reportedly uses the RTXGI SDK, meaning that the racing game uses ray-traced global illumination in some capacity, making it the first proper Nintendo first-party game to do so.</p>
-
-
-
-<p>While it's not yet known how Kirby Air Riders implements ray-traced global illumination, this is a very interesting find in light of how the Nintendo Switch 2 handles the game. According to our own Nathan Birch, the game not only looks gorgeous, but <a data-dracula_secondary_bg_finder="rgba(16, 80, 126, 0.2)" data-dracula_alpha_bg="rgba(26, 87, 132, 0.2)" data-dracula_preserved_classes="dracula-style-all dracula-style-link dracula-processed" href="https://wccftech.com/review/kirby-air-riders/">runs at a smooth 60 FPS even when the tracks become utterly chaotic</a>. As such, it will be interesting to see how this is achieved, and whether any upscaling technology, such as the aforementioned <a href="https://wccftech.com/two-nvidia-dlss-types-nintendo-switch-2/">NVIDIA DLSS</a>, is also utilized to deliver the excellent image quality and solid performance the game exhibits at launch.</p>
-
-
-
-<p>Although Kirby Air Riders is reportedly the first proper Nintendo game to use ray tracing in some capacity, this isn't the first time we could be witnessing ray tracing on Nintendo Switch 2. Star Wars Outlaws, the open-world game developed by Ubisoft based on the popular franchise, <a data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-style-link dracula-processed" href="https://wccftech.com/nintendo-switch-2-star-wars-outlaws-early-footage-analysis-highlights-need-for-ray-reconstruction/">also makes ample use of ray tracing</a>. Future third-party releases, such as Resident Evil Requiem, will likely utilize ray tracing in some capacity as well, <a href="https://wccftech.com/resident-evil-requiem-switch-2-ray-tracing/">judging from currently available footage</a></p>
-
-			
-			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
-
-		</div></div><br/><br/>https://wccftech.com/nintendo-switch-2-ray-tracing-first-party-game/]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Steam Machine Price Unlikely to Hit the $500 Console Mark – But You Shouldn’t Be Surprised]]></title>
-            <link>https://wccftech.com/steam-machine-price-unlikely-to-hit-the-500-console-mark-but-you-shouldnt-be-surprised/</link>
-            <guid>https://www.resetera.com/threads/steam-machine-price-unlikely-to-hit-the-500-console-mark-%E2%80%93-but-you-shouldn%E2%80%99t-be-surprised.1359079/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			
-			<p>The price will be the critical factor that will determine the success of the Steam Machine, but those who expected the upcoming system to be priced in the same range as a console will likely be disappointed, judging from some new information shared online.</p>
-
-
-
-<p><a data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-style-link dracula-processed" href="https://www.youtube.com/watch?v=dnKy4UEdiyo&amp;t=2s">In the latest episode of Linus Tech Tips' WAN Show podcast</a>, Linus commented on the yet-to-be-revealed price for the system. While he doesn't know the price (as no one does yet), there are strong indications the system won't fall in the $500 price range of the current PlayStation 5 and Xbox Series X systems, judging from the reaction of Valve's employees during a recent media event to show the system to press and creators.</p>
-
-
-
-<p><em>"When I said I'm disappointed it isn't going to follow a console pricing model, where its subsided by the fact that manufacturer is going to be taking 30% of every game sold on it over the lifespan of this thing, because I feel that would be a more meaningful product, they asked what I meant by console price and I said $500. Nobody said anything, but the energy in the room wasn't great,"</em> Linus said during the podcast.</p>
-
-
-
-<figure><p>
-<iframe title="The Hardest Secrets I’ve Ever Kept - WAN Show November 14, 2025" width="500" height="281" src="https://www.youtube.com/embed/dnKy4UEdiyo?start=2215&amp;feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-</p></figure>
-
-
-
-<p>Although Valve said that the <a href="https://wccftech.com/steam-machine-pricing-will-be-really-competitive-with-building-a-similar-pc/">Steam Machine will be priced competitively with a PC of similar specs</a>, expecting a gaming PC in a console form factor to cost as much as a console is definitely a little unreasonable. As such, what happened at Valve's headquarters, as reported by Linus, shouldn't surprise anyone, especially in light of the <a href="https://wccftech.com/samsung-rumored-memory-price-hike-could-be-a-catastrophe-for-pc-gamers/">now expected massive RAM price increase</a> that will impact a wide range of hardware, including gaming hardware.</p>
-
-
-
-<p>However, despite Valve believing that <a href="https://wccftech.com/bigger-game-catalogue-steam-machine-success/">a bigger game library will ensure the Steam Machine is more successful than its predecessors</a> and that <a data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-style-link dracula-processed" href="https://wccftech.com/steam-machine-offers-equal-or-better-performance-70-gaming-pcs/">it will offer a better gaming experience than 70% of current gaming rigs</a>, pricing still needs to be right for the system to be successful. While it is true <a data-dracula_secondary_bg_finder="rgba(26, 87, 132, 0.2)" data-dracula_alpha_bg="rgba(26, 87, 132, 0.2)" href="https://wccftech.com/steam-machine-rely-amd-fsr-4k-60/">it may have a hard time delivering a 4K@60 FPS gaming experience even with AMD FSR</a>, those who want to have a hassle-free gaming experience in the vein of consoles won't look at the system twice if it's priced too high, especially in the current climate where the price of living continues to rise worldwide.</p>
-
-			
-			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
-
-		</div></div><br/><br/>https://wccftech.com/steam-machine-price-unlikely-to-hit-the-500-console-mark-but-you-shouldnt-be-surprised/]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Asus Is Going Nuts, Selling ROG Strix 27″ 240Hz OLED Gaming Monitor at a New Record Low]]></title>
-            <link>https://kotaku.com/asus-is-going-nuts-selling-rog-strix-27-240hz-oled-gaming-monitor-at-a-new-record-low-2000645693</link>
-            <guid>https://www.resetera.com/threads/asus-is-going-nuts-selling-rog-strix-27%E2%80%B3-240hz-oled-gaming-monitor-at-a-new-record-low.1359070/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-              
-              <p>The fact that this <strong>Asus ROG Strix 27-inch OLED gaming monitor</strong> has never been on sale before makes<a href="https://shop.kotaku.com/go/5734/"> this Black Friday drop to an all-time low of $549 (down from $699) on Amazon a big deal</a>. Asus usually sticks to its guns with MSRP on premium ROG monitors but Amazon’s opening day of Black Friday saw deep cuts across the board on everything from the larger 32 and 34-inch models that also reached new all-time lows.</p>
-<p>Gaming monitors solve the fundamental problem of seeing what you’re shooting at before your opponent does, and OLED panels take that advantage to another level with instant pixel response and infinite contrast. The ROG Strix XG27AQDMG combines <strong>1440p resolution with 240Hz refresh rate and true 0.03ms response time</strong> in a package that makes everything else look washed out and sluggish.</p>
-<p><a href="https://shop.kotaku.com/go/5734/" target="_self" rel="sponsored nofollow">See at Amazon</a></p>
-
-<h2>OLED Technology Perfect for Gaming Workloads</h2>
-<p>The <strong>26.5-inch WOLED panel offers a resolution of 2560 by 1440</strong>&nbsp;which hits a sweet spot between the lack of detail in 1080p and the demanding GPU of 4K. Third-generation WOLED technology results in brighter white windows and clearer text compared to previous generations of OLED that struggled with full-screen brightness. Each pixel emits its own light and turns fully off for true blacks, creating infinite contrast that makes dark scenes in games actually visible instead of turning into grey mush. The glossy coating maximizes color vibrancy and eliminates the haze that matte coatings introduce, though it does require some attention to room lighting to avoid reflections. The <strong>99% DCI-P3 color gamut coverage</strong> means colors look saturated and accurate without the oversaturation that cheap gaming monitors produce.</p>
-
-
-
-<p>The <strong>240Hz refresh rate and 0.03ms grey-to-grey response time</strong> eliminates the ghosting and motion blur that plagues slower panels. Your mouse cursor moves across the screen with zero trailing, and fast-paced shooters clearly display enemy movement without smearing, while racing games show track details even at high speeds. This combination of high refresh rate and instant pixel response creates the motion clarity that competitive gamers need to track targets accurately.</p>
-
-
-
-<p>ROG’s exclusive OLED Anti-flicker technology <strong>reduces flicker during refresh rate fluctuations</strong> that can cause eye strain during extended gaming sessions. Conventionally, variable refresh rate displays would usually flicker when frame rates change rapidly, but Asus worked out algorithms that would smooth these transitions. The technology works invisibly behind the scenes, maintaining consistent image quality whether you’re getting 240fps or dropping to 120fps during intensive scenes.</p>
-<p>Included in the purchase price is <strong>three months of Adobe Creative Cloud access</strong>&nbsp;which adds value if you do any photo editing, graphic design, or video work. The OLED’s perfect blacks and wide color gamut make it excellent for creative work beyond gaming, as it’s able to accurately display the full range of colors that content creators need to see. The 1440p resolution provides enough screen real estate for editing timelines or working with multiple windows without feeling cramped.</p>
-<p>At $549, this is the first discount ever on the ROG Strix XG27AQDMG and brings OLED gaming down to prices that previously only got you mid-tier IPS panels. You’re getting third-generation WOLED technology with burn-in protections, 240Hz refresh and instant response times for $150 less than Asus’s asking price.</p>
-<p><a href="https://shop.kotaku.com/go/5734/" target="_self" rel="sponsored nofollow">See at Amazon</a></p>
-
-                          </div></div><br/><br/>https://kotaku.com/asus-is-going-nuts-selling-rog-strix-27-240hz-oled-gaming-monitor-at-a-new-record-low-2000645693]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[GoPro Hero’s Rival, This DJI 4K/120fps Camera Is Going for Pocket Change This Black Friday]]></title>
-            <link>https://kotaku.com/gopro-heros-rival-this-dji-4k-120fps-camera-is-going-for-pocket-change-at-black-friday-2000645668</link>
-            <guid>https://www.resetera.com/threads/gopro-hero%E2%80%99s-rival-this-dji-4k-120fps-camera-is-going-for-pocket-change-this-black-friday.1359067/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-              
-              <p>GoPro should be looking over its shoulder because DJI has been closing the gap fast in the action camera market over the past few years. The <strong>Osmo Action 5 Pro</strong> goes head-to-head with GoPro’s latest Hero13 Black, and in several areas, it actually pulls ahead. This Black Friday deal on Amazon drops the <em>Essential combo</em> to <a href="https://shop.kotaku.com/go/4783/">a record low of $259, down from the usual $339</a>, which undercuts GoPro’s flagship by a decent margin.</p>
-<p>Action cameras capture moments your phone can’t handle like mountain biking through trails, surfing big waves, or documenting motorcycle rides where stabilization and durability matter more than megapixels. DJI packed this camera with a massive sensor, advanced stabilization, and dual touchscreens that make it easier to use than the competition.</p>
-<p><a href="https://shop.kotaku.com/go/4783/" target="_self" rel="sponsored nofollow">See at Amazon</a></p>
-
-<h2>A Sensor That Handles Low Light</h2>
-<p>The <strong>Osmo Action 5 Pro features a 1/1.3-inch sensor</strong>, considerably larger than you’d find in most action cameras. It features 2.4-micrometer pixels that pull in more light per pixel to give you usable footage in conditions where other action cameras produce grainy messes. The 13.5-stop dynamic range means you can shoot into bright skies without losing detail in shadows or capture sunset scenes without blowing out the highlights. <strong>DJI’s processing handles 4K video at 120fps</strong> which gives you buttery slow-motion playback to analyze your technique or create dramatic highlight reels. In quick-changing lighting conditions such as moving between shaded forest trails and sunny clearings, this sensor does an excellent job of maintaining consistent exposure.</p>
-
-
-
-<p>Subject tracking that actually works in the real world is powered by an advanced 4nm chip. You can set the <strong>camera to track yourself, friends, or even pets</strong> while <strong>shooting in either 16:9 or vertical 9:16 aspect ratios</strong>. Its tracking stays locked on moving subjects with remarkable accuracy, removing that perpetual anxiety of whether I am staying in frame or not. This feature transforms solo content creation because you simply don’t need someone behind the camera following you around.</p>
-<p><strong>Voice control</strong> remains on and ready for response within about a meter radius so you can start recording, shoot photos, or stop recording from a distance without touching the camera. This makes sense when you’re skiing, climbing, or doing anything where reaching for buttons breaks your flow. Recognition accuracy handles commands reliably even in moderately noisy environments, though strong winds or loud motors can sometimes throw it off.</p>
-
-
-
-<p>The <strong>dual OLED touchscreens on front and back</strong> eradicate that usual action camera frustration: composing shots blind. The front screen means you can frame yourself perfectly for vlogs or selfie shots without having to guess where you’re positioned. Both screens stay bright and readable in direct sunlight, which matters enormously when you try to adjust settings on a sunny beach or snowy mountain. The <strong>touchscreen interface responds quickly and logically,</strong> and makes adjustments of parameters feel natural rather than something you have to commit to memory, along with button combinations.</p>
-<p>DJI’s 360° <em>HorizonSteady</em> <strong>stabilization keeps your horizon straight</strong>, no matter how much the camera rotates on the roll axis. You can mount this on your chest, helmet, or handlebars and get footage that’s like it was coming from a gimbal. The stabilization algorithm compensates for sudden jolts, vibrations, and continuous movement while maintaining natural-looking motion.</p>
-<p>The 1950mAh battery provides <strong>up to four hours of continuous recording</strong> in normal conditions and impressively keeps 3.6 hours even at negative 20 degrees Celsius. That kind of cold-weather performance puts it ahead of most action cameras, which start dying quickly in freezing temperatures. The <strong>IP68 rating</strong> certifies the camera for depths up to 20 meters without any additional housing, so you can take it snorkeling, surfing, or kayaking without worry.</p>
-<p>This Black Friday price of $259 makes the DJI Osmo Action 5 Pro substantially cheaper than GoPro’s Hero13 Black with comparable or superior features in several key areas. The larger sensor alone justifies the purchase for anyone who shoots in challenging lighting conditions and the dual OLED screens eliminate the composition guesswork that plagues single-screen action cameras.</p>
-<p><a href="https://shop.kotaku.com/go/4783/" target="_self" rel="sponsored nofollow">See at Amazon</a></p>
-
-                          </div></div><br/><br/>https://kotaku.com/gopro-heros-rival-this-dji-4k-120fps-camera-is-going-for-pocket-change-at-black-friday-2000645668]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Fortnite Chapter 7 Leaks Reveal Driveable Reboot Vans & Bots Mode]]></title>
-            <link>https://insider-gaming.com/fortnite-chapter-7-leaks-reveal-driveable-reboot-vans-bots-mode/</link>
-            <guid>https://www.resetera.com/threads/fortnite-chapter-7-leaks-reveal-driveable-reboot-vans-bots-mode.1359064/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-        
-<p>Major Fortnite leaks for Chapter 7 content have begun to flood social media following a creator preview event in Los Angeles, with standout details including driveable reboot vans and a dedicated bots mode.</p>
-
-
-
-<p>Epic Games is gearing up for the major <a href="https://insider-gaming.com/fortnite-zero-hour-live-event-start-time/" target="_blank" rel="noreferrer noopener">Zero Hour end-of-chapter event</a> next week, which will be followed by the <a href="https://insider-gaming.com/fortnite-chapter-7-season-1-release-date/" target="_blank" rel="noreferrer noopener">start of Chapter 7</a>, Season 1, and big changes are on the cards that will impact various core mechanics of the game.</p>
-
-
-
-
-
-
-
-<h2 id="h-driveable-reboot-vans-bots-mode-amp-storm-size-changes-coming">Driveable Reboot Vans, Bots Mode &amp; Storm Size Changes Coming</h2>
-
-
-
-<figure><figcaption>Big changes afoot. Image via Epic Games</figcaption></figure>
-
-
-
-<p>According to reliable leakers, including <a href="https://x.com/ShiinaBR/status/1991464160996344068" target="_blank" rel="noreferrer noopener nofollow">ShiinaBR</a>, some of the biggest gameplay changes coming to Fortnite in Chapter 7 include reboot vans being driveable, an overhaul to the gameplay UI, and a dedicated Solo vs Bots mode.</p>
-
-
-
-<p>Bots are nothing new in Fortnite and are widely used to populate Battle Royale lobbies to reduce wait time, but introducing a dedicated mode where solo players go head-to-head with them is a big change. However, there is still plenty to be detailed about the game mode.</p>
-
-
-
-<p>Driveable reboot vans align with previous hints towards a revamp of the reboot system in Fortnite, which will result in changes to gameplay tactically as reboot vans will be moveable, thus becoming a core resource later in games to revive fallen teammates, or prevent opponents from bringing back their squad.</p>
-
-
-
-<p>Another big change, again leaked by <a href="https://x.com/ShiinaBR/status/1991290054728159308" target="_blank" rel="noreferrer noopener nofollow">ShiinaBR</a>, shows that storm sizes are being adjusted in Chapter 7 away from the standard circle closing in, instead having a ‘seven’ shape. However, it’s mentioned that the sizes and timings are not final.</p>
-
-
-
-<p>Epic Games will reveal all the major changes to Fortnite in Chapter 7 closer to the release date, likely sharing the full details in a pre-launch blog ahead of the start of the new chapter on December 30.</p>
-
-
-
-<hr>
-
-
-
-<p>What feature should Fortnite look to change in Chapter 7? Share your thoughts in the Insider Gaming Discord.</p>
-
-
-
-<p>For more Fortnite, check out <a href="https://insider-gaming.com/fortnite-party-up-winter-rush-quests-rewards/" target="_blank" rel="noreferrer noopener">all the quests and rewards in the Party Up – Winter Rush event</a>, and read about the <a href="https://insider-gaming.com/fortnite-to-add-playable-unity-games-in-2026/" target="_blank" rel="noreferrer noopener">addition of Unity games in 2026</a>.</p>
-    
-
-    <div id="ig-app-cta">
-          <p><i></i> MOBILE APP</p>
-          <h2>Level Up Your Gaming News</h2>
-          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
-          
-          <!--<div class="ig-note"><i class="fa-solid fa-bolt"></i> Available on iOS & Android</div>-->
-        <p><i></i> Available on Android</p>
-
-        </div>
-
-    
-    
-    </div></div><br/><br/>https://insider-gaming.com/fortnite-chapter-7-leaks-reveal-driveable-reboot-vans-bots-mode/]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Fortnite Chapter 7 Gameplay Leaks, Suggesting Epic Games Planned to Rival GTA 6 With Its Own New USA-Based Map]]></title>
-            <link>https://www.ign.com/articles/fortnite-chapter-7-gameplay-leaks-suggesting-epic-games-planned-to-rival-gta-6-with-its-own-new-usa-based-map</link>
-            <guid>https://www.resetera.com/threads/fortnite-chapter-7-gameplay-leaks-suggesting-epic-games-planned-to-rival-gta-6-with-its-own-new-usa-based-map.1359061/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><section data-cy="article-content"><p data-cy="paragraph">Major gameplay leaks have offered a glimpse at the next era of <a data-cy="styled-link" href="https://www.ign.com/games/fortnite">Fortnite</a>, in which its ever-popular battle royale mode will transition to a fresh map based on the USA.</p><p data-cy="paragraph">Previously, <a data-cy="styled-link" href="https://www.ign.com/articles/fortnite-chapter-seven-teases-kill-bill-crossover-points-to-usa-setting">official hints from Epic Games have pointed to coordinates based in Hollywood</a>, while another leak suggested the game would feature a Las Vegas-esque location (and a Quentin Tarantino crossover). And now, thanks to footage that has leaked from a preview event attended by media and influencers, Chapter 7's USA-style setting has been confirmed.</p><p data-cy="paragraph">Footage now widely circulating on social media shows an arid area with palm trees. In the distance, the game's map references an area named Sandy Strip. Signage names Chapter 7's first season as being titled "Pacific Break."</p><blockquote data-media-max-width="560" data-theme="light"><div data-cy="paragraph" lang="en" dir="ltr"><p>LEAKED CHAPTER 7 INFO FROM CREATOR EVENT 💀 </p><p>- Hot air balloons <br>- Driveable Reboot Vans<br>- Solo VS Bots mode <br>- Rift A Palooza events that spawn rifts<br>- Gameplay UI update<br>- Battle Pass has Marty McFly and The Bride <a href="https://t.co/l9lBrLZMIz" data-cy="styled-link" target="_blank" rel="noopener noreferrer">pic.twitter.com/l9lBrLZMIz</a></p></div>— Shiina (@ShiinaBR) <a href="https://twitter.com/ShiinaBR/status/1991464160996344068?ref_src=twsrc%5Etfw" data-cy="styled-link" target="_blank" rel="noopener noreferrer">November 20, 2025</a></blockquote> <p data-cy="paragraph">Other changes visible in the footage look to include driveable reboot vans, and the option for a new Solo vs Bots mode (although it's unclear if this was provided just for the preview event). </p><p data-cy="paragraph">Fortnite has followed up the leaks with its own, official look at Chapter 7, via a top-down view of the game's new battle royale map that shows a more urban area, complete with wide city streets and homes with backyard pools. (The top-down view here is a bit GTA 1, isn't it?)</p><blockquote data-theme="light"><p data-cy="paragraph" lang="en" dir="ltr">A first look at the battleground to come. <br>Preparation = Victory <a href="https://t.co/4KO1whuy80" data-cy="styled-link" target="_blank" rel="noopener noreferrer">pic.twitter.com/4KO1whuy80</a></p>— Fortnite (@Fortnite) <a href="https://twitter.com/Fortnite/status/1991325705016340689?ref_src=twsrc%5Etfw" data-cy="styled-link" target="_blank" rel="noopener noreferrer">November 20, 2025</a></blockquote> <p data-cy="paragraph">Last night, Fortnite also publicly shared footage of Quentin Tarantino appearing at the aforementioned event, standing next to a Fortnite version of Kill Bill's infamous Pussy Wagon car. Here, the word "pussy" has been replaced by a picture of Meowscles, the game's fan-favorite swole cat. Leaked footage from the event, meanwhile, shows a new in-game skin for Uma Thurman's Kill Bill character The Bride. Oh, and also Marty McFly from Back to the Future.</p><p data-cy="paragraph">Fortnite typically works on its big annual map change around a year in advance, and it's fun to consider the idea that, 12 months ago, Chapter 7's USA-inspired setting was being planned with the expectation that a certain other big game with a USA-inspired setting would launch at the same time. </p><blockquote data-theme="light"><p data-cy="paragraph" lang="en" dir="ltr">The one. The only. <a href="https://twitter.com/hashtag/QuentinTarantino?src=hash&amp;ref_src=twsrc%5Etfw" data-cy="styled-link" target="_blank" rel="noopener noreferrer">#QuentinTarantino</a> <a href="https://twitter.com/hashtag/FortniteSeven?src=hash&amp;ref_src=twsrc%5Etfw" data-cy="styled-link" target="_blank" rel="noopener noreferrer">#FortniteSeven</a> <a href="https://t.co/IYxD8w4Y62" data-cy="styled-link" target="_blank" rel="noopener noreferrer">pic.twitter.com/IYxD8w4Y62</a></p>— Fortnite (@Fortnite) <a href="https://twitter.com/Fortnite/status/1991320132698927573?ref_src=twsrc%5Etfw" data-cy="styled-link" target="_blank" rel="noopener noreferrer">November 20, 2025</a></blockquote> <p data-cy="paragraph">Of course, <a data-cy="styled-link" href="https://www.ign.com/games/grand-theft-auto-vi">GTA 6</a> has now been delayed — <a data-cy="styled-link" href="https://www.ign.com/articles/gta-6-has-been-delayed-again-how-does-this-impact-the-rest-of-the-industry">twice</a>. But up until May this year, Rockstar was still saying the game would arrive this week, around the time Epic Games has launched a fresh Chapter of Fortnite for the past few years. </p><p data-cy="paragraph">This year, Fortnite will hold its big Chapter 6 finale event on Saturday, November 29. Chapter Seven will then launch imminently after, though some period of downtime is expected. A <a data-cy="styled-link" href="https://www.ign.com/articles/fortnite-chapter-6-finale-event-trailer-teases-godzilla-and-kill-bill-appearances-as-chapter-seven-looms">teaser trailer for that in-game event released officially last night</a> and featured Fortnite going full Ready Player One and Avengers: Endgame with its plans, while tying up story threads from the past few years.</p><output data-cy="article-video"></output><p data-cy="paragraph">In recent weeks, the secret bunkers in Fortnite's OG mode have been flashing messages in morse code, such as "Zero Hour", which we now know is the name of the upcoming event, and "Titans". After seeing that teaser trailer, fans think "Titans" refers to the game's current main antagonist, The Dark Presence, a towering demonic entity that rules Chapter 6's Spirit Realm, but also to the forces now squaring up against him. </p><p data-cy="paragraph">In the coming battle, players look set to fight alongside a series of other looming figures: the returning Godzilla and King Kong, plus the newly giant-sized Homer Simpson. Is there a clue to a much longer story arc here too? Think back to Fortnite's Chapter 5, which introduced the current era of storytelling focused on blue-haired hero Hope, and you could also link in the mysterious giant hand that erupted from the ground holding Pandora's Box. </p><p data-cy="paragraph">Are all of these Titans? And how will Fortnite wrap all of these things together (plus Star Wars' X-Wings, Uma Thurman, and Marty McFly) as it moves to its new USA-based home? We've just over a week to go until we find out.</p><p data-cy="paragraph"><em>Tom Phillips is IGN's News Editor. You can reach Tom at tom_phillips@ign.com or find him on Bluesky </em><a href="https://bsky.app/profile/tomphillipseg.bsky.social" data-cy="styled-link" target="_blank" rel="noopener noreferrer">@tomphillipseg.bsky.social</a></p></section></div><br/><br/>https://www.ign.com/articles/fortnite-chapter-7-gameplay-leaks-suggesting-epic-games-planned-to-rival-gta-6-with-its-own-new-usa-based-map]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Call of Duty: Black Ops 7's Endgame Mode Unlocks For All Players Tomorrow, Even If You Haven't Completed the Campaign Yet]]></title>
-            <link>https://www.ign.com/articles/call-of-duty-black-ops-7s-endgame-mode-unlocks-for-all-players-tomorrow-even-if-you-havent-completed-the-campaign-yet</link>
-            <guid>https://www.resetera.com/threads/call-of-duty-black-ops-7s-endgame-mode-unlocks-for-all-players-tomorrow-even-if-you-havent-completed-the-campaign-yet.1359058/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><section data-cy="article-content"><p data-cy="paragraph"><a data-cy="styled-link" href="https://www.ign.com/games/call-of-duty-black-ops-7"><u>Call of Duty: Black Ops 7</u></a>'s co-op Endgame mode will unlock for all players tomorrow, Friday November 21.</p><p data-cy="paragraph">Up until now, Endgame was only accessible to those who'd completed the campaign, but from tomorrow, all players will be able to jump into the action regardless of whether or not they've completed the single-player mode.</p><p data-cy="paragraph">Endgame is a brand-new, replayable co-op mode that expands on the events of the main story. Here, JSOC continues their fight across Avalon, taking on the remnants of The Guild in a toxic, ever-changing battlefield. It isn’t just an epilogue, but a progression-driven mode built around teamwork, power growth, and survival — <a data-cy="styled-link" href="https://www.ign.com/wikis/call-of-duty-black-ops-7/Endgame_Mode_Explained"><u>here’s everything you need to know before dropping in</u></a>.</p><output data-cy="article-video"></output><p data-cy="paragraph">According to <a href="https://x.com/charlieINTEL/status/1991221059119415675" data-cy="styled-link" target="_blank" rel="noopener noreferrer"><u>CharlieIntel</u></a>, those who managed to complete the campaign ahead of the launch of Black Ops 7's multiplayer mode will secure some additional goodies, including:</p><ul data-cy="list"><li>1 Hour 2XP Token x 3</li><li>Weapon XP Token x 2</li><li>Battlle Pass XP Token x 2</li><li>Perkaholic Gobblegums x 3</li></ul><p data-cy="paragraph">IGN's <a data-cy="styled-link" href="https://www.ign.com/articles/call-of-duty-black-ops-7-campaign-review">Call of Duty: Black Ops 7 campaign review</a> returned a 6/10. We said: "Call of Duty: Black Ops 7’s campaign is a wild one thanks to the scope of its ambition, but the big swings it takes don't always land, leaving it an uneven step down from last year."</p><p data-cy="paragraph">Last week, Activision acknowledged it used of "a variety of digital tools, including AI tools," in Call of Duty: Black Ops 7, "to empower and support our teams to create the best gaming experiences possible for our players. Our creative process continues to be led by the talented individuals in our studios." The statement generated quite a response, including one from a member of U.S. Congress <a data-cy="styled-link" href="https://www.ign.com/articles/us-congressman-blasts-call-of-duty-black-ops-7s-alleged-ai-images-we-need-regulations-that-prevent-companies-from-using-ai-to-eliminate-jobs"><u>who called out Activision Blizzard's use of generative AI</u></a> in Call of Duty: Black Ops 7, and demanded tighter regulation to "prevent companies from using AI to eliminate jobs."</p><output data-cy="article-slideshow"><div data-cy="slideshow-view-trigger"><h3 data-cy="slideshow-preview-title">The Best Call of Duty Campaigns</h3></div></output><p data-cy="paragraph">AI isn't the only thing bothering Call of Duty fans, either. Last last week, players realized the story campaign has <a data-cy="styled-link" href="https://www.ign.com/articles/call-of-duty-black-ops-7-campaign-is-online-only-with-no-checkpoints-or-pausing-and-will-kick-you-if-youre-idle-for-too-long"><u>numerous restrictions tied to its always-online nature, with no method of pausing levels</u></a>. You'll also be booted from your game if you're idle for too long.</p><p data-cy="paragraph"><em>Vikki Blake is a reporter for IGN, as well as a critic, columnist, and consultant with 15+ years experience working with some of the world's biggest gaming sites and publications. She's also a Guardian, Spartan, Silent Hillian, Legend, and perpetually High Chaos. Find her at </em><a href="https://bsky.app/profile/vixx.bsky.social" data-cy="styled-link" target="_blank" rel="noopener noreferrer"><em>BlueSky</em></a><em>.</em></p></section></div><br/><br/>https://www.ign.com/articles/call-of-duty-black-ops-7s-endgame-mode-unlocks-for-all-players-tomorrow-even-if-you-havent-completed-the-campaign-yet]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Final Fantasy VII Remake Intergrade's File Size On Switch 2 Is Making Us Sweat]]></title>
-            <link>https://www.nintendolife.com/news/2025/11/final-fantasy-vii-remake-intergrades-file-size-on-switch-2-is-making-us-sweat</link>
-            <guid>https://www.resetera.com/threads/final-fantasy-vii-remake-intergrades-file-size-on-switch-2-is-making-us-sweat.1359046/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="body">
-<article id="article">
-<header><section>
-<p>This literally can't fit on a cartridge</p>
-</section></header><div><section>
-<figure data-uuid="ac15c7c16a707"><a title="Aerith" href="https://images.nintendolife.com/ac15c7c16a707/aerith.large.jpg"></a><figcaption><em><span></span> Image: Square Enix</em></figcaption></figure><p>Square Enix has just posted an update on the expected file size for <a href="https://www.nintendolife.com/games/nintendo-switch-2/final-fantasy-vii-remake-intergrade">Final Fantasy VII Remake Intergrade</a> on the Switch 2.</p>
-<p>As we had perhaps expected, it's big, folks. Like, real big. Store listings on the eShop already have some pretty lofty numbers attached to them, but according to Square Enix, these actually aren't accurate.</p>
-<p>As stated on <a href="https://x.com/finalfantasyvii/status/1991431395873530291">X</a>, the file size for the <strong>Standard Edition will be 90GB to 95GB</strong>. Meanwhile, the <strong>Limited Early Purchase Edition and Limited Early Purchase Digital Deluxe Editions will be 93.8GB to 99GB</strong>.</p>
-
-<p>Woof! This means, of course, that the game simply won't fit on a 64GB cartridge for its physical release, and so Square Enix has, like many others, opted for a Game-Key Card release.</p>
-<p>It makes us wonder just how large <a href="https://www.nintendolife.com/games/nintendo-switch-2/final-fantasy-vii-rebirth">Final Fantasy VII: Rebirth</a> will be alongside the untitled third entry. Is it possible that these three games combined simply won't fit on the Switch 2 without an additional microSD Express Card..?</p>
-<p>Needless to say, if you've yet to invest in some extra storage space, now might be the time to do so. We suspect 2026 is going to be packed with some pretty sizeable ports, so you're going to want to have all the spare GBs you can get.</p>
-<p>Final Fantasy VII Remake Intergrade launches on <strong>22nd January 2026</strong>.</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:192951,192719 @ 1763647988 -->
-<p><em>Will you have enough storage space to fit Final Fantasy VII Remake Intergrade? Or will you need to purge a few games from your Switch 2? Let us know.</em></p></section>
-<p>[source <a title="External Link: https://x.com/finalfantasyvii/status/1991431395873530291" rel="noopener" href="https://x.com/finalfantasyvii/status/1991431395873530291">x.com</a>]</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-info/15c0f2330dd4cde6842fc8439ef7a425 @ 1763647928 --></div></article><div><p>Nintendo Life’s resident horror fanatic, when he’s not knee-deep in Resident Evil and Silent Hill lore, Ollie likes to dive into a good horror book while nursing a lovely cup of tea. He also enjoys long walks and listens to everything from TOOL to Chuck Berry.</p><ul><li><a href="https://www.nintendolife.com/authors/Olliemar28"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/ollie-nl.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Olliemar28');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
-</div></div></div><br/><br/>https://www.nintendolife.com/news/2025/11/final-fantasy-vii-remake-intergrades-file-size-on-switch-2-is-making-us-sweat]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Krafton CEO admits he did consult ChatGPT about the Subnautica 2 situation, and says he deleted the logs over confidentiality concerns]]></title>
-            <link>https://www.rockpapershotgun.com/krafton-ceo-admits-he-did-consult-chatgpt-about-the-subnautica-2-situation-and-says-he-deleted-the-logs-over-confidentiality-concerns</link>
-            <guid>https://www.resetera.com/threads/krafton-ceo-admits-he-did-consult-chatgpt-about-the-subnautica-2-situation-and-says-he-deleted-the-logs-over-confidentiality-concerns.1359043/</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
-
-
-<header data-component="article-header">
-  
-
-    <div id="main-content">
-  
-
-        <p>Kim Chang-han had misgivings about OpenAI using company info for "learning purposes"</p>
-
-    </div>
-
-
-  <p>
-
-  <figure>
-        <picture>
-        <source srcset="https://assetsio.gnwcdn.com/subnautica-2-fraudulent-playtest-warning-1.jpg?width=380&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/subnautica-2-fraudulent-playtest-warning-1.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/subnautica-2-fraudulent-playtest-warning-1.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/subnautica-2-fraudulent-playtest-warning-1.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/subnautica-2-fraudulent-playtest-warning-1.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/subnautica-2-fraudulent-playtest-warning-1.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/subnautica-2-fraudulent-playtest-warning-1.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/subnautica-2-fraudulent-playtest-warning-1.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/subnautica-2-fraudulent-playtest-warning-1.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>Krafton</cite></span>
-        </figcaption>
-
-  </figure>
-  </p>
-
-    
-
-</header>
-  <div data-component="article-content">
-
-
-
-            <p>The messy <a href="https://www.rockpapershotgun.com/games/subnautica-2">Subnautica 2</a> <a href="https://www.rockpapershotgun.com/subnautica-2-publishers-krafton-accuse-ousted-bosses-of-abandoning-duties-and-now-those-ex-leads-are-suing">legal dispute</a> between publishers Krafton and three former lead developers on the game rumbles on. The lawyerly wranglings about Krafton's decision to delay Sub 2's early access, leaving a <a href="https://www.rockpapershotgun.com/subnautica-2-studio-will-get-their-bonus-says-krafton-but-its-not-the-250-million-promised">$250 million bonus to developers Unknown Worlds</a> up in the air, then <a href="https://www.rockpapershotgun.com/krafton-suddenly-replace-three-subnautica-2-leads-with-one-of-the-execs-behind-callisto-protocol">fire Charlie Cleveland, Max McGuire, and Ted Gill</a>, are still wrangling.</p>
-<p>A pre-trial briefing released <a href="https://www.rockpapershotgun.com/subnautica-2-publisher-krafton-allegedly-looked-to-chatgpt-to-figure-out-how-to-not-pay-that-250-million-bonus">earlier this week</a> saw the three leads claim Krafton CEO Kim Chang-han consulted ChatGPT about ways the company could get around paying the much-discussed $250 million bonus, which the leads claim they would have shared with the rest of Unknown Worlds. Krafton subsequently said in a statement to Kotaku that this allegation from the ex-leads was "simply a distraction from their own efforts to destroy evidence". Now, testimony from Chang-han has emerged, in which the exec concedes he did consult ChatGPT about aspects of the Subnautica 2 situation.</p>
-<!--more-->
-<p>Upon learning that Cleveland and McGuire weren't directly involved in Subnautica 2's development, Chang-han said "I started discussing this matter with various teams within the company to find - to figure out what we could do," in testimony spotted by cheery RPS fanzine <a href="https://www.pcgamer.com/games/after-krafton-denied-its-ceo-consulted-with-chatgpt-on-the-subnautica-2-mess-krafton-ceo-says-he-consulted-with-chatgpt-on-the-subnautica-2-mess/">PC Gamer</a>.</p>
-<p>The CEO said he chatted to various teams within the company about this, then "searched on ChatGPT to get faster answers to figure out what kind of rights we have", adding that he used it "just like Google search". Lawyers for the former Unknown Worlds leads subsequently brought up a message Chang-han sent to Krafton head of corporate development Maria Park in June, in which he wrote: "Now, ChatGPT [is] start[ing] to answer that it is difficult to cancel the earn-out. If so, this is a contract under which we can only be dragged around."</p><p>Asked why that and another conversation the CEO had with ChatGPT about the situation were subsequently deleted, Chang-han cited concerns about what OpenAI might do with their contents, saying "what I learned is that - from OpenAI, is that if you use certain important information concerning your company, then that type of information can be used by OpenAI for learning purposes."</p>
-<p>Basically, the exec's stance is that he was simply using ChatGPT in this scenario in the same way he now uses it "dozens" of times a day when dealing with Krafton's usual business, as he would a regular search engine. Krafton haven't been shy about sharing how much they're <a href="https://www.rockpapershotgun.com/subnautica-2-and-inzoi-publishers-announce-voluntary-layoff-program-amid-the-era-of-ai-transformation">generally embracing the use of AI</a> as a business. The question is whether it's really appropriate for a CEO to be turning to an AI chatbot for help with a situation of this gravity.</p>
-<p>As we've seen <a href="https://www.rockpapershotgun.com/epic-lay-off-830-people-thanks-to-unrealistic-metaverse-ambitions">depressingly often</a>, when company heads like Chang-han make bad decisions, lots of people suffer, making it rather terrifying to think that a technology still <a href="https://www.independent.co.uk/news/uk/home-news/ai-factual-errors-chatgpt-gemini-copilot-b2867620.html">very prone</a> to churning out errors or  inaccuracies could now be relied on as part of that decision making. Meanwhile, the deletions obviously risk adding to the impression that Krafton aren't being transparent about their motivations. If Chang-han <em>is</em> being honest about the reasons for the deletion, it's also interesting to hear the CEO of a company this committed to generative AI as a tool expressing anxiety about what these tools do with our data.</p>
-<p>I've reached out to Krafton for comment. In their latest statement on the case in general, the company said the following:</p>
-<blockquote><p>We are grateful to the court for its thorough commitment to understanding the facts, and we are confident we have demonstrated our commitment to delivering the best game possible to our fans. We made clear to the court that we were forced to make a change when the former leaders showed little interest in the development of Subnautica 2, which has always been our top priority.</p>
-<p>Now, this trial comes down to plaintiffs asking to be restored to jobs they were not doing, said they had no interest in doing, and had previously declined requests that they come back and do those jobs. We look forward to receiving a decision. We have made incredible progress in the past few months, and we are excited to share with all the Subnautica fans.”</p></blockquote>
-<p>You can almost certainly expect plenty more news to follow as this saga continues to get deeper and deeper into the legal waters.</p>
-
-        </div>
-
-      </article>
-
-  
-
-
-
-        
-  </div></div><br/><br/>https://www.rockpapershotgun.com/krafton-ceo-admits-he-did-consult-chatgpt-about-the-subnautica-2-situation-and-says-he-deleted-the-logs-over-confidentiality-concerns]]></content:encoded>
         </item>
     </channel>
 </rss>
