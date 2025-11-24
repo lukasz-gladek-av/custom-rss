@@ -4,9 +4,75 @@
         <title>maGaming RSS Feed - rockpapershotgun_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/rockpapershotgun_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for rockpapershotgun_com</description>
-        <lastBuildDate>Mon, 24 Nov 2025 10:55:45 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 24 Nov 2025 11:27:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[The Crew Unlimited devs have prevented the Ubisoft racer's "3rd imminent death", this time via a "Y29K" bug]]></title>
+            <link>https://www.rockpapershotgun.com/the-crew-unlimited-devs-have-prevented-the-ubisoft-racers-3rd-imminent-death-this-time-via-a-y29k-bug</link>
+            <guid>https://www.resetera.com/threads/the-crew-unlimited-devs-have-prevented-the-ubisoft-racers-3rd-imminent-death-this-time-via-a-y29k-bug.1362556/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
+
+
+<header data-component="article-header">
+  
+
+    <div id="main-content">
+  
+
+        <p>A pesky date-related bug is the latest spike strip dodged</p>
+
+    </div>
+
+
+  <p>
+
+  <figure>
+        <picture>
+        <source srcset="https://assetsio.gnwcdn.com/the-crew-unlimited-time-shoedown-bug-fixed-01.jpg?width=380&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/the-crew-unlimited-time-shoedown-bug-fixed-01.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/the-crew-unlimited-time-shoedown-bug-fixed-01.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/the-crew-unlimited-time-shoedown-bug-fixed-01.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/the-crew-unlimited-time-shoedown-bug-fixed-01.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/the-crew-unlimited-time-shoedown-bug-fixed-01.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/the-crew-unlimited-time-shoedown-bug-fixed-01.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/the-crew-unlimited-time-shoedown-bug-fixed-01.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/the-crew-unlimited-time-shoedown-bug-fixed-01.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
+        
+      </picture>
+
+        <figcaption>
+          <span>Image credit: <cite>Ubisoft</cite></span>
+        </figcaption>
+
+  </figure>
+  </p>
+
+    
+
+</header>
+  <div data-component="article-content">
+
+
+
+            <p>Ubisoft <a href="https://www.rockpapershotgun.com/best-racing-games">racer</a> <a href="https://www.rockpapershotgun.com/games/the-crew">The Crew</a> has avoided yet another shutdown after being ressurected in server-emulated form by fans <a href="https://www.rockpapershotgun.com/fan-made-the-crew-revival-gets-a-release-date-a-year-and-a-bit-on-from-the-ubisoft-racers-controversial-shutdown">earlier this year</a>. According to the modders behind its revival project, The Crew Unlimited, a bug would have seen the game stop working once 2029 rolled around. Thankfully, they say a solution's been found.</p>
+<!--more-->
+<p>"This may be one of the most important updates we've ever released, or arguably THE most important," reads <a href="https://thecrewunlimited.com/news/?post=news-update-tcuserver-1.3.0.0">a post</a> from lead developer Whammy4 about The Crew Unlimited's latest server emulator update, 1.3.0.0. They outlined that not long after the server emulator's 1.0 release, the group realised that if the date on the PC it's being played on is set to something after June 2029, the game simply stops working.</p>
+<p>"As you may imagine, we were extremely concerned (how many deaths is this game going to go through? TWO weren't enough already?)," Whammy4 explained. "At first we were hoping that it was just a bug on the TCU Server's end, but that turned out to not be the case. It is an issue within the actual game client itself, and is not intentional but rather a bug. From our research, we've narrowed it down to either the Summit calendar system (from the Wild Run 2015 update), or the daily Crate mission system (from the Calling All Units 2016 update). Likely culprit is the Summit, even though nothing in the summit calendar data references anything about a June 2029 or 2029 in general."</p>
+<p>The good news is that the team say they've found "a less than ideal, but working fix" for this potentially lethal bug, which they've dubbed "Y29K", by making some changes to the server emulator's software. So, crisis averted, even if it sounds like more work may be needed to try and find a better solution for the long-term.</p><p>Here's hoping The Crew can manage to go a few years without any more existential threats from this point, even if its initial shutdown's had the silver lining of <a href="https://www.rockpapershotgun.com/stop-killing-games-uk-petition-has-been-debated-in-parliament-the-law-works-but-companies-may-need-to-communicate-better">sparking worthwhile debate</a> about what the end of service for online-only games should look like going forwards.</p>
+
+        </div>
+
+      </article>
+
+  
+
+
+
+        
+  </div></div><br/><br/>https://www.rockpapershotgun.com/the-crew-unlimited-devs-have-prevented-the-ubisoft-racers-3rd-imminent-death-this-time-via-a-y29k-bug]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[The Fallout TV Show season 2's NCR ranger power armour has already arrived in Fallout 4 thanks to modders]]></title>
             <link>https://www.rockpapershotgun.com/the-fallout-tv-show-season-2s-ncr-ranger-power-armour-has-already-arrived-in-fallout-4-thanks-to-modders</link>
