@@ -4,9 +4,476 @@
         <title>maGaming RSS Feed - thesixthaxis_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/thesixthaxis_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for thesixthaxis_com</description>
-        <lastBuildDate>Tue, 25 Nov 2025 15:44:21 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 25 Nov 2025 16:25:12 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Dead By Daylight update 9.3.0 out now, Mindbreaker perk is back]]></title>
+            <link>https://www.thesixthaxis.com/2025/11/25/dead-by-daylight-update-9-3-0-out-now-mindbreaker-perk-is-back/</link>
+            <guid>https://www.resetera.com/threads/dead-by-daylight-update-9-3-0-out-now-mindbreaker-perk-is-back.1364275/</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>Dead By Daylight has been given a brand new update by Behaviour Interactive, bringing the game up to update 9.3.0. The update re-enables the Mindbreaker perk, but has disabled the Breakdown and Wicked perks. Another new major change applies to the Hook with a Resolve Bar being made visible to other Survivors while being hooked. There are also more balance changes, plus changes for both Killers and Survivors. You can read the full patch notes below.</p>
+<h2>Dead By Daylight 9.3.0 Mid-Chapter update patch notes</h2>
+
+<ul>
+<li>The Mindbreaker perk has been re-enabled.<wbr></li>
+<li>The Breakdown and Wicked perks have been disabled.</li>
+</ul>
+
+
+<p><b>Quality of Life</b><wbr></p>
+
+
+<ul>
+<li>
+<p>The Resolve Bar is now visible to other Survivors while hooked.<wbr></p>
+</li>
+</ul>
+<p><i>Dev note: To help bridge the information gap between players using voice chat and those who aren’t, we’ve added the Resolve Bar to the HUD. This will help Survivors determine if the Killer is camping and plan their next move accordingly.</i></p>
+<p><wbr><b>Balance</b><wbr><wbr></p>
+<ul>
+<li>
+<p>The Anti-Facecamp meter now fills faster based on how long the Killer stays near the hook:<wbr></p>
+</li>
+</ul>
+<ul>
+<li>
+<ul>
+<li>0-10 seconds: 1x speed<wbr></li>
+<li>10-20 seconds: 2x speed<wbr></li>
+<li>&gt;20 seconds: 4x speed<wbr></li>
+<li><i>Note: This multiplier only accumulates when the Killer is considered camping (the meter is gaining progress). The multiplier resets when the Survivor is unhooked.</i><wbr></li>
+</ul>
+</li>
+<li>Decreased the base fill rate of the Anti-Facecamp meter by roughly 50% to compensate.<wbr></li>
+<li>Hooking a Survivor now applies a 7 second grace period to all hooked Survivors&nbsp;<i>(was only the last hooked Survivor)</i>.<wbr></li>
+</ul>
+<p><i>Dev note: To make the Anti-Facecamp mechanic fairer to both sides, we’ve reduced the base fill rate and added the time the Killer remains near the hook as a modifier. This gives Killers who are not camping more freedom to pass by a hook (particularly in cramped spaces like hallways) without worrying about the meter filling and giving the Survivor a free escape. This also means that Survivors who are being camped for extended periods gain the ability to unhook themselves slightly earlier.</i><wbr><wbr></p>
+
+<p><b>Unhook Changes</b><wbr></p>
+<ul>
+<li>
+<p>Survivors gain 10% Haste and Endurance for 15 seconds after being unhooked&nbsp;<i>(was 10)</i>.</p>
+</li>
+</ul>
+
+<ul>
+<li>
+<p>Decreased the time for crows to appear to 80/100/120 seconds&nbsp;<i>(was 120/140/190)</i>.<wbr></p>
+</li>
+</ul>
+<p><i>Dev note: Following the release of the updated AFK crow system, we increased the time it took to gain crows. This was much too generous, allowing for Survivors to avoid crows too easily. We’re dialing back the values a little bit to a middle ground between the original values and the live values.</i></p>
+
+
+<p><b>The Shape</b><wbr></p>
+<ul>
+<li>
+<p>Slaughtering Strike’s camera controls are now identical to regular camera controls.<wbr></p>
+</li>
+</ul>
+<p><b>The Skull Merchant</b><wbr></p>
+<ul>
+<li>
+<p>Increased the Drone Rotation speed to 105 degrees/second&nbsp;<i>(was 95 degrees/second).</i><wbr></p>
+</li>
+<li>
+<p>Increased the Hindered status effect from getting scanned to 10%&nbsp;<i>(was 8%).</i><wbr></p>
+</li>
+<li>
+<p>Decreased the Deploy Drone cooldown to 7 seconds&nbsp;<i>(was 10 seconds).</i><wbr></p>
+</li>
+<li>
+<p>Decreased the Undetectable duration after deploying a Drone to 6 seconds&nbsp;<i>(was 8 seconds).</i><wbr></p>
+</li>
+<li>
+<p>Removed the fast vault immunity to Scan Lines.<wbr></p>
+</li>
+<li>
+<p>For every 2.5 seconds spent standing underneath a Drone, the Survivor gains 1 Lock On&nbsp;<i>(was instant).</i><wbr></p>
+</li>
+<li>
+<p>Decreased Killer detection range for the Drone&nbsp;<i>(now only rises when colliding directly with The Skull Merchant)</i><wbr></p>
+</li>
+</ul>
+<p><i>Dev note: The Skull Merchant has dropped fairly significantly in terms of kill rate and lethality. These buffs aim to make her Drones a bigger threat and bring her up a little bit. Additionally, we’ve decreased the cooldown to deploying drones, and consequently decreased the duration of Undetectable to keep some downtime between her Undetectable status effect. When standing underneath a Drone, Survivors would get instant Lock On, which felt like a bug whenever it happened. The gradual increase of Lock On will feel more natural and provide feedback to the Survivor that something bad is happening to them. Lastly, we reduced the Drone’s sensitivity to their mistress, to make sure they are always ready to scan Survivors during chases in tight spaces and don’t ascend unintentionally.</i><wbr><wbr></p>
+
+<ul>
+<li>
+<p><b>Original Pain (The Cenobite):</b><wbr></p>
+<ul>
+<li>
+<p>When a Survivor breaks free from a Possessed Chain, reveal their aura for 8 seconds&nbsp;<i>(rework).</i><wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p><b>Soma Family Photo (The Singularity):</b><wbr></p>
+</li>
+</ul>
+<ul>
+<li>
+<ul>
+<li>Slipstreaming a Survivor inflicts the Hindered&nbsp;status effect for 6 seconds&nbsp;<i>(was 3 seconds).</i><wbr></li>
+<li>Inflicts the Deep Wound status effect if the Survivor is injured&nbsp;<i>(removed).</i><wbr></li>
+</ul>
+</li>
+</ul>
+<p><i>Dev note: Both of these add-ons were notorious for their ability to disable the Endurance status effect Survivors get when they are unhooked. These changes aim to remove this ability to bypass the protection post-unhook.</i><wbr><wbr></p>
+
+<ul>
+<li>
+<p><b>Conviction:</b><wbr></p>
+<ul>
+<li>
+<p>Updated perk to require specifically healing another Survivor&nbsp;<i>(to prevent infinite interaction with Plot Twist).</i><wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p><b>Tenacity:</b><wbr></p>
+</li>
+</ul>
+<ul>
+<li>
+<ul>
+<li>Re-added the ability to recover while crawling.<wbr></li>
+<li>Increased Haste effect to 30/40/50%&nbsp;<i>(was 15/20/25).</i></li>
+</ul>
+</li>
+</ul>
+
+<ul>
+<li>
+<p><b>Anti-Exhaustion Syringe&nbsp;</b><i>(renamed Anti-Hemorrhagic Syringe)</i>:<wbr></p>
+</li>
+</ul>
+<ul>
+<li>
+<ul>
+<li>Removed the heal over time effect.<wbr></li>
+<li>Removes Exhaustion on use&nbsp;<i>(rework).</i><wbr></li>
+<li>Consumes the med-kit on Secondary Action use.<wbr></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>
+<p><b>Styptic Agent:</b><wbr></p>
+</li>
+</ul>
+<ul>
+<li>
+<ul>
+<li>Removed the Endurance status effect.<wbr></li>
+<li>No longer consumes the med-kit on Secondary Action use.<wbr></li>
+<li>Increases the efficiency when healing yourself by 15%&nbsp;<i>(rework).</i><wbr><wbr></li>
+</ul>
+</li>
+</ul>
+
+<ul>
+<li>
+<p>Chase Start<wbr></p>
+<ul>
+<li>
+<p>Increased Bloodpoint amount to 500&nbsp;<i>(was 400)</i>.<wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Hooking Survivor<wbr></p>
+<ul>
+<li>
+<p>Increased Bloodpoint amount to 750&nbsp;<i>(was 500)</i>.<wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Survivor First Hook<wbr></p>
+<ul>
+<li>
+<p>Increased Bloodpoint amount to 750&nbsp;<i>(was 200)</i>.<wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Survivor Second Hook<wbr></p>
+<ul>
+<li>
+<p>Increased Bloodpoint amount to 250&nbsp;<i>(was 200)</i>.<wbr></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Survivor Sacrifice Success<wbr></p>
+<ul>
+<li>
+<p>Increased Bloodpoint amount to 500&nbsp;<i>(was 200)</i>.<wbr></p>
+</li>
+</ul>
+</li>
+</ul>
+<p><i>Dev note: With the above changes to hook improvements, we thought it was the right time to raise a few Score Events to encourage Killers to spread first hooks earlier in the match.</i><wbr><wbr></p>
+
+<p><b>Pallet Density Changes</b><wbr></p>
+<ul>
+<li>Reviewed all pallet tiles to evaluate and reduce the safety of pallet loops on MacMillan Estate, Asylum, The Red Forest, Yamaoka Estate, Haddonfield and Mount Ormond Resort.<wbr></li>
+<li>Adjusted the spawn logic of certain structures (i.e. the main building in Disturbed Ward; the piers in Backwater Swamp) to better randomize items and balance the distance between windows and pallets. This also impacts The Red Forest<wbr></li>
+<li>Adjusted the Crotus Prenn Asylum Realm, reducing the safety of the main building which could spawn near maze tiles and chain into other tiles.<wbr></li>
+</ul>
+<p><i>Dev note: After collecting feedback from the community on the recent pallet density update, we made the above changes to address some of the most notable friction points. Thank you so much for taking the time to share your thoughts on its initial iteration and do let us know what you think of these changes.</i><wbr></p>
+<p><b>The Underground Complex</b><wbr></p>
+<ul>
+<li>Adjusted The Underground Complex map to improve opportunities for player navigation.<wbr></li>
+<li>Adjusted The Underground Complex map to make sure that at least one door is open on all sides of the large rooms.<wbr></li>
+<li>Adjusted The Underground Complex map’s rift room, where a new access to the generator was added.<wbr></li>
+</ul>
+<p><b>Autohaven Wreckers Realm</b><wbr></p>
+<ul>
+<li>
+<p>Adjusted the Autohaven Wreckers Realm to help mitigate the overall feeling of excessive darkness.<wbr></p>
+</li>
+</ul>
+<ul>
+<li>
+<ul>
+<li>We’ve recalibrated textures with excessive contrast or overly dark colors to ensure a consistent level of brightness across the map.<wbr></li>
+<li>We’ve introduced a fog effect across the map.<wbr></li>
+<li>We’ve reworked the overall lighting and adjusted the hue of the Realm to improve visual clarity.</li>
+</ul>
+</li>
+</ul>
+
+<ul>
+<li>
+<p>Sped up Login into the game:<wbr></p>
+</li>
+</ul>
+<ul>
+<li>
+<ul>
+<li>PC players login automatically when opening the game, unless there’s a connection issue.<wbr></li>
+<li>New videos play only one time, removing the need to watch them or click to skip. Players can watch the video whenever they want using a new main menu footer button for it.<wbr></li>
+<li>Last loading screen was removed.<wbr></li>
+<li>Photo sensitivity notice screen is used for loading, so it auto closes the game has loaded the needed assets, with a minimum unskippable time of 5 seconds.<wbr></li>
+</ul>
+</li>
+<li>Credits access was moved to the General tab on settings.<wbr></li>
+<li>Settings menu was updated:<wbr>
+<ul>
+<li>Options are grouped under tabs and subtabs.<wbr></li>
+<li>Values/range selectors were replaced by a slider widget, to improve usability for PC and controller users.<wbr></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>
+<p>Scratchmarks color can be customized:<wbr></p>
+</li>
+</ul>
+<ul>
+<li>
+<ul>
+<li>Beta setting.<wbr></li>
+<li>Players can choose among a predefined set of colors.<wbr></li>
+<li>Players can change the colors while in a match and out of matches.<wbr></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>
+<p>Match details were separated from Settings:<wbr></p>
+<ul>
+<li>
+<p>Players can use the Tab key on PC, or View/Select button on controllers, to open the Match Details.</p>
+</li>
+</ul>
+</li>
+</ul>
+
+<ul>
+<li>
+<p>A new icon has been created to replace the Player Profile’s Stats submenu icon.<wbr></p>
+</li>
+</ul>
+
+
+<ul>
+<li>Fixed an issue where The Animatronic’s “Glitchtrap” outfit’s footsteps audio were louder than the default outfit.<wbr></li>
+<li>Fixed an issue where incorrect footsteps audio could be heard on specific tiles in The Game map.<wbr></li>
+<li>Fixed an issue where sounds continued to stack when holding an arrow on a slider bar in the Options.<wbr></li>
+<li>Fixed an issue where the wrong lobby theme played when Jonah Vasquez and Jane Romero had their “Cozy Break” outfits equipped.<wbr></li>
+<li>Fixed an issue where Claudette Morel’s “Burgundy Skirt” and “Glorious Orange Skirt” did not have the right footstep SFX.<wbr></li>
+<li>Fixed an issue where Baermar Uraz’s French voiceover would not play as intended.<wbr></li>
+<li>Fixed an issue where The Knight would not play footsteps or other SFX during the Tally Screen.<wbr></li>
+<li>Fixed an issue where the SFX when entering the Match Details screen and the Options menu were missing.<wbr></li>
+<li>Fixed an issue where The Knight’s regular and Deep Rift versions of the “Permanent Injunction” outfit had different footstep SFX.<wbr></li>
+<li>Fixed an issue where The Legion’s grunts were missing when ending Feral Frenzy two times in a row.<wbr></li>
+<li>Fixed an issue where the crackling sound and the smoke of the Entity appeared early when damaging a generator.<wbr></li>
+<li>Fixed an issue where, when recalled, The Twins’ Victor disappeared abruptly and grunts lingered for 5 seconds.<wbr></li>
+<li>Fixed an issue where The Knight’s Terror Radius would briefly stop when control returned to the main body after using his power.<wbr></li>
+<li>Fixed an issue where the SFX for The Ghoul successfully latching onto a Survivor was missing.</li>
+</ul>
+
+<ul>
+<li>
+<p>Fixed an issue where bots missed every skillcheck.</p>
+</li>
+</ul>
+
+<ul>
+<li>Fixed an issue where Yun-Jin Lee’s “Brighter Days” head cosmetic’s hair had the wrong color on both her in-game model and icon.<wbr></li>
+<li>Fixed an issue where The Shape’s Slaughtering Strike attack would not break pallets if the power button was released too soon.<wbr></li>
+<li>Fixed an issue which allowed The Shape to turn further than intended when using Slaughtering Strike.<wbr></li>
+<li>Fixed an issue where the camera was briefly stuck for a few frames when The Legion started and manually ended Feral Frenzy.<wbr></li>
+<li>Fixed an issue where The Dredge appeared brighter inside a Fog Vial’s smoke during Nightfall.<wbr></li>
+<li>Fixed an issue where The Hag’s Scarred Hand add-on blocked the Killer when the trap was triggered.<wbr></li>
+<li>Fixed an issue where The Hag’s Pussy Willow Catkins add-on revealed Survivors for only 1 second.<wbr></li>
+<li>Fixed an issue where all Survivors lost The Skull Merchant’s Claw Trap when one Survivor with a Claw Trap escaped from the Trial.<wbr></li>
+<li>Fixed an issue where players could experience some stuttering while playing as The Dark Lord in Bat Form.<wbr></li>
+<li>Fixed an issue where The Hillbilly would stutter and be sent back when breaking pallets or walls using the Low Pro Chains add-on with high latency.<wbr></li>
+<li>Fixed an issue where Survivors would be temporarily stuck in an animation while dropping a pallet during The Ghoul’s grab attack.<wbr></li>
+<li>Fixed an issue where The Animatronic’s axe remained in his hand if he got stunned while aiming.<wbr></li>
+<li>Fixed an issue where The Animatronic’s axe appeared on the ground during the Remove Axe interaction.<wbr></li>
+<li>Fixed an issue where The Animatronic could reclaim the axe at the end of the cooldown after downing a Survivor.<wbr></li>
+<li>Fixed an issue where snow VFX appeared inside The Animatronic’s Security Room when traversing in the Ormond Realm.<wbr></li>
+<li>Fixed an issue where The Krasue’s Glowing Mushrooms could spawn inside closed Exit Gates.<wbr></li>
+<li>Fixed an issue where The Krasue’s head was briefly detached from her body after vaulting from a height.<wbr></li>
+<li>Fixed an issue where Survivors that were being healed could not be hit by The Krasue’s Intestinal Whip attack.<wbr></li>
+<li>Fixed an issue where The Knight’s Carnifex Guard could not break pallets.<wbr></li>
+<li>Fixed an issue where The Knight’s Guards could become stuck when damaging generators that were being blocked by the Entity at the same time.<wbr></li>
+<li>Fixed an issue where The Artist’s Dire Crow’s damage was impacted by dropped pallet collisions at close range.<wbr></li>
+<li>Fixed an issue where The Deathslinger’s harpoon break-free meter went up too quickly when reeling near a corner or edge wall.<wbr></li>
+<li>Fixed an issue where setting the Invert Y-Axis option as The Twins did not affect Victor.<wbr></li>
+<li>Fixed an issue where Survivors could solve the Lament Configuration before removing chains attached to them.<wbr></li>
+<li>Fixed an issue where some Survivors did not have their unique menu animation.<wbr></li>
+<li>Fixed an issue where Survivor could become offset when being carried by certain Killers.<wbr></li>
+<li>Fixed an issue where The Good Gal did not have her laugh animation.<wbr></li>
+<li>Fixed an issue where The Krasue’s pallet break animation was desynced from the destruction of the pallet.<wbr></li>
+<li>Fixed an issue where The Xenomorph’s second consecutive Tail Strike would be faster when hitting two Survivors.<wbr></li>
+<li>Fixed an issue where The Good Guy’s camera could break when performing the Slice &amp; Dice action near a downed pallet.<wbr></li>
+<li>Fixed an issue where The Lich’s camera slightly jittered when the Fly spell ends.<wbr></li>
+<li>Fixed an issue where Survivors could not use flashlights or emotes after freeing themselves from The Cenobite’s chains while an ally Survivor with the Lament Configuration was downed.<wbr></li>
+<li>Fixed an issue where The Huntress’ hatchets would disappear mid-flight.</li>
+</ul>
+
+<ul>
+<li>Fixed a collision issue on the Raccoon City Police Station stairs that caused The Houndmaster’s Chase action to sometimes be wasted, as the dog could be partially and sometimes completely blocked.<wbr></li>
+<li>Fixed an issue where lighting would appear darker from the Spectator POV for the following maps: Greenville Square, Freddy Fazbear’s Pizza, Fallen Refuge and Ormond Lake Mine.<wbr></li>
+<li>Fixed an issue where going into the basement would make lighting darker for the player for the rest of the match for the following maps: Greenville Square, Freddy Fazbear’s Pizza, Fallen Refuge and Ormond Lake Mine.<wbr></li>
+<li>Fixed an issue in the Coldwind Farm Realm where a Survivor would clip through a locker.<wbr></li>
+<li>Fixed an issue in The Underground Complex<b>&nbsp;</b>map where players could vault on both side of a hole.<wbr></li>
+<li>Fixed an issue in the Badham Preschool map where The Knight was not able to create a path with the Guard on a street curb.<wbr></li>
+<li>Fixed issues where the camera would clip into The Houndmaster’s body.<wbr></li>
+<li>Fixed an issue in The Underground Complex map where if a character stood too close to a chest, they could not pick up the item.<wbr></li>
+<li>Fixed an issue in The Underground Complex map where players could become stuck in place when The Ghoul leaped towards a Survivor interacting with a vault.<wbr></li>
+<li>Fixed an issue in the Garden Of Joy map where The Twins’ Victor could jump out of bounds.<wbr></li>
+<li>Fixed an issue in the Dead Dawg Saloon map where The Nightmare could teleport out of bounds.<wbr></li>
+<li>Fixed an issue in the Ormond Lake Mine map where a pallet appeared to be floating.<wbr></li>
+<li>Fixed an issue in the Father Campbell’s Chapel map where players were able to climb up an invisible collision near the carnival area.<wbr></li>
+<li>Fixed an issue in the Backwater Swamp Realm where mushrooms would appear to be floating.<wbr></li>
+<li>Fixed an issue in The Underground Complex map where players had issues navigating at the top of the stairs.<wbr></li>
+<li>Fixed an issue in The Thompson House map where The Nurse could blink out of bounds.<wbr></li>
+<li>Fixed an issue in the Toba Landing map where a hook could not be used.<wbr></li>
+<li>Fixed an issue in the Coldwind Farm Realm where there was an invisible collision around hay bales.<wbr></li>
+<li>Fixed an issue in the Forgotten Ruins map where a tile could appear up to three times next to itself.<wbr></li>
+<li>Fixed an issue in the Grim Pantry map where The Animatronics could not interact with a Security Door.<wbr></li>
+<li>Fixed an issue in the Dead Dawg Saloon map where a totem was guaranteed to spawn in the same place.<wbr></li>
+<li>Fixed an issue in the Sanctum of Wrath map where The Nightmare could teleport out of bounds.<wbr></li>
+<li>Fixed an issue in the Dead Dawg Saloon map where Survivors couldn’t use a balcony vault.<wbr></li>
+<li>Fixed an issue in The MacMillan Estate Realm where an invisible collision impacted navigation.<wbr></li>
+<li>Fixed an issue in the Ironworks of Misery map where a generator was not accessible on one side.<wbr></li>
+<li>Fixed an issue in the Ormond Lake Mine map where players could not navigate between a crate and wall.<wbr></li>
+<li>Fixed an issue in the Treatment Theater map where a locker was too close to a window.<wbr></li>
+<li>Fixed an issue which caused Realm Repeat Prevention to not work as intended when a realm offering is used.</li>
+</ul>
+
+<ul>
+<li>Fixed an issue where Batteries Included activated when traveling through The Animatronic’s Security Door while a generator was repaired.<wbr></li>
+<li>Fixed an issue where Diversion was unable to recharge when the Terror Radius was transferred to The Animatronic’s axe when using the Faz-Coin add-on.<wbr></li>
+<li>Fixed an issue where Haywire might not activate if a Survivor got the Exit Gate switch to 99%.<wbr></li>
+<li>Fixed an issue where Bardic Inspiration’s dice roll appeared halfway through the song.<wbr></li>
+<li>Fixed an issue where the radial timer of Vigil’s perk icon was missing when other Survivors left the perk’s range.<wbr></li>
+<li>Fixed an issue where Tenacity’s Haste bonus status effect icon was missing while in the Dying State.<wbr></li>
+<li>Fixed an issue where Conviction activated with any self-recovery perk from the Dying State.<wbr></li>
+<li>Fixed an issue where The Knight was unable to activate THWACK! when destroying a pallet using a Guard order.<wbr></li>
+<li>Fixed an issue where the SFX of the created pallet could be heard when canceling Apocalyptic Ingenuity.<wbr></li>
+<li>Fixed an issue where holding the run button could trigger permanent Exhaustion against Mindbreaker.<wbr></li>
+<li>Fixed an issue where the auras of generators affected by Hex: Overture of Doom were not yellow.<wbr></li>
+<li>Fixed an issue where the auras of generators affected by Hex: Overture of Doom remained yellow when affected by Dead Man’s Switch.<wbr><wbr></li>
+</ul>
+
+<ul>
+<li>Fixed an issue where the Holiday Get-Together achievement/trophy could be unlocked when hooking the same Survivor in the basement three times.<wbr></li>
+<li>Fixed an issue where players were unable to gain progress on The Man Behind the Bush achievement/trophy.<wbr></li>
+<li>Fixed an issue where bright flashes and performance drops could occur when near the Exit Gates. This is a tentative fix for an issue some players were encountering.<wbr></li>
+</ul>
+<p><b>Quests</b><wbr></p>
+<ul>
+<li>Fixed an issue where players were unable to gain progress on the Tome 4 Level 2 Killer challenge Evil Omen.<wbr></li>
+<li>Fixed an issue where Into The Fog quests were missing images in their tooltips.<wbr></li>
+</ul>
+<p><b>UI</b><wbr></p>
+<ul>
+<li>Fixed an issue where the player could get softlocked in an offline lobby.<wbr></li>
+<li>Fixed an issue where rewards would be missing from the Rewards screen.<wbr></li>
+<li>Fixed an issue where the loading screen would appear darker than normal.<wbr></li>
+<li>Fixed an issue where the Prestige button was missing the tooltip description.<wbr></li>
+<li>Fixed an issue that could cause a crash when repeatedly pressing the D-pad right in some menus while waiting in a 2v8 queue.<wbr></li>
+<li>Fixed an issue where failing to find a tutorial bot match would disable some menus.<wbr></li>
+<li>Fixed an issue where switching from mouse to gamepad would snap the cursor to the corner of the screen.<wbr></li>
+</ul>
+<p><b>Miscellaneous</b><wbr></p>
+<ul>
+<li>Fixed an issue where a player might load into the same map multiple times in a row.<wbr></li>
+<li>Fixed an issue where the game could freeze during Bloodweb bulk purchasing that included a disabled item.<wbr></li>
+<li>Fixed an issue where the Trial would end abruptly when The Animatronic performed an axe grab on a Survivor at the same time they were being sacrificed in the End Game Collapse.<wbr></li>
+<li>Fixed an issue where idle crows on top of lockers were using the wrong idle animation.<wbr></li>
+<li>Fixed an issue where Fog Vials were misaligned in Survivors’ hands in the Trial.<wbr></li>
+</ul>
+<h2>Changes from PTB</h2>
+<ul>
+<li>Hook Improvements: Reverted the detection range on the Anti-Facecamp zone to 16 meters (was 20).</li>
+<li>Tunneling Reduction Update</li>
+<li>Reverted the Unhook Protections.</li>
+<li>Reverted the Unique Hook Bonuses.</li>
+<li>Reverted the following perks:
+<ul>
+<li>Babysitter</li>
+<li>Borrowed Time</li>
+<li>Furtive Chase</li>
+<li>Off the Record</li>
+</ul>
+</li>
+</ul>
+<p><em>Dev note: Breakdown and Wicked will be reverted in an upcoming bugfix patch.</em></p>
+<ul>
+<li>Slugging Reduction Update: Reverted the Slugging changes.</li>
+</ul>
+<h2>Killer Updates</h2>
+<ul>
+<li>The Cenobite: Reverted the change that prevented The Cenobite from binding chains to Survivors with Endurance.</li>
+<li>Autohaven Wreckers Realm: Adjusted the hue of the Autohaven Wreckers Realm.</li>
+</ul>
+<h2>Bug Fixes</h2>
+<ul>
+<li>Fixed an issue where the camera zoomed forward when starting a patrol as The Knight.</li>
+<li>Fixed an issue where chases ended when summoning a Guard as The Knight while in a chase.</li>
+<li>Fixed an issue where vaults were not blocked when The Knight created a patrol path using the Iridescent Company Banner add-on.</li>
+<li>Fixed an issue where The Knight’s camera would turn faster when summoning any Guard while using keyboard and mouse.</li>
+<li>Fixed an issue where a Survivor bot could become invisible to The Knight after being downed by The Assassin.</li>
+<li>Fixed an issue where Killers with special pallet breaking attacks wouldn’t break pallets if they were dropped early.</li>
+<li>Fixed an issue where The Ghoul could become stuck when performing a leap at a Survivor entering a locker.</li>
+</ul>
+<p><em>Source: <a href="https://store.steampowered.com/news/app/381210/view/597417907502188425">Steam</a></em><wbr></p>
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div></div><br/><br/>https://www.thesixthaxis.com/2025/11/25/dead-by-daylight-update-9-3-0-out-now-mindbreaker-perk-is-back/]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Space Marine 2 Reclamation update is out, read the 11.0 patch notes here]]></title>
             <link>https://www.thesixthaxis.com/2025/11/25/space-marine-2-reclamation-update-is-out-read-the-11-0-patch-notes-here/</link>
