@@ -32,6 +32,9 @@ jobs:
       - name: Run RSS Fetch Script
         run: node fetch-rss.js
 
+      - name: Run Eurogamer.net Fetch Script
+        run: node fetch-eurogamer-net.js
+
       - name: Commit and Push Changes
         run: |
           git config --global user.email "github@example.com"
