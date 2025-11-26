@@ -30,6 +30,31 @@ const feed = new Feed({
   link: `https://lukasz-gladek-av.github.io/custom-rss/${outputFile}`,
 });
 
+async function fetchWithRetry(url, config = {}, maxRetries = 4) {
+  const delays = [2000, 4000, 8000, 16000]; // Exponential backoff in milliseconds
+
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
+    try {
+      return await axios.get(url, config);
+    } catch (error) {
+      const isLastAttempt = attempt === maxRetries;
+      const isRetriableError = error.code === 'ECONNRESET'
+        || error.code === 'ETIMEDOUT'
+        || error.code === 'ENOTFOUND'
+        || error.code === 'EAI_AGAIN'
+        || (error.response && error.response.status >= 500);
+
+      if (!isRetriableError || isLastAttempt) {
+        throw error;
+      }
+
+      const delay = delays[attempt];
+      console.log(`Retry ${attempt + 1}/${maxRetries} for ${url} after ${delay}ms (${error.code || error.response?.status})`);
+      await new Promise(resolve => setTimeout(resolve, delay));
+    }
+  }
+}
+
 function extractLastModified(item) {
   if (!item) {
     return null;
@@ -100,7 +125,7 @@ async function fetchAndProcessFeed() {
         requestConfig.validateStatus = (status) => status === 200 || status === 304;
       }
 
-      const response = await axios.get(itemArticleLink, requestConfig);
+      const response = await fetchWithRetry(itemArticleLink, requestConfig);
 
       // Handle 304 Not Modified - reuse existing content
       if (response.status === 304 && existingArticle) {
