@@ -143,6 +143,7 @@ async function fetchAndProcessFeed() {
   const parsedFeed = await rssParser.parseURL(originalFeedUrl);
 
   for (const item of parsedFeed.items) {
+    const itemId = item.guid || item.id || item.link;
     const itemTitleLower = item.title.toLowerCase();
     if (
       itemTitleLower?.startsWith('how to')
@@ -174,7 +175,7 @@ async function fetchAndProcessFeed() {
       }
 
       // Check if article already exists
-      const existingArticle = existingArticles.get(item.link);
+      const existingArticle = existingArticles.get(itemId);
       let articleItem;
       let lastModifiedHeader = null;
 
@@ -221,7 +222,7 @@ async function fetchAndProcessFeed() {
       if (article) {
         articleItem = {
           title: item.title,
-          id: item.link,
+          id: itemId,
           link: itemArticleLink,
           content: article.content + '<br/><br/>' + itemArticleLink,
           author: [{ name: item.author || item.creator || 'Unknown', email: 'noreply@example.com' }],
