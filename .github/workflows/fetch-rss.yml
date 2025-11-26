@@ -1,9 +1,16 @@
 name: Fetch and Update RSS
+
 permissions:
   contents: write
+
 on:
   schedule:
-    - cron: "* */1 * * *"
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: fetch-and-update-rss
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -12,7 +19,7 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-        
+
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
@@ -39,6 +46,8 @@ jobs:
         run: node fetch-eurogamer.js "https://www.eurogamer.pl/feed" "eurogamerpl.xml" "Eurogamer.pl RSS Feed" "Full article content from Eurogamer.pl"
 
       - name: Commit and Push Changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.email "github@example.com"
           git config --global user.name "githubbot"
@@ -50,5 +59,3 @@ jobs:
             git commit -m "Auto-update RSS feed at $TIMESTAMP"
             git push origin main
           fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
