@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Scripts for fetching and cleaning RSS feeds with full-text content.",
   "private": true,
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "fetch:gaming": "node fetch-rss.js",
     "fetch:eurogamer": "node fetch-eurogamer.js https://www.eurogamer.net/feed eurogamer_net_full.xml \"Eurogamer.net RSS Feed\" \"Full article content from Eurogamer.net\""
