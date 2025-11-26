@@ -424,6 +424,19 @@ head -n 50 gaming.xml
 **Cause**: JSDOM with CSS processing enabled
 **Solution**: Ensure CSS optimization code (74-105) remains intact
 
+## Contribution Checklist
+
+Before opening a pull request or merging changes, quickly run through this list to keep the repository healthy:
+
+- **Read this document first**: it explains the caching logic and performance safeguards that must remain intact.
+- **Avoid manual XML edits**: regenerate feeds by running the appropriate Node scripts instead of editing `.xml` files directly.
+- **Keep npm lockfiles untouched**: only change `package-lock.json` via `npm install` if dependencies truly need updating.
+- **Respect content filters**: confirm any new site or pattern aligns with the existing filtering philosophy to avoid noisy feeds.
+- **Verify feeds locally**: run `node fetch-rss.js` (and site-specific scripts when applicable) to ensure XML generation still succeeds and produces valid output.
+- **Preserve retry and caching semantics**: check that error handling, HTTP 304 reuse, and backoff settings are unchanged unless intentionally improved.
+
+Following these steps keeps the scheduled GitHub Actions workflow reliable and prevents accidental regressions in the generated feeds.
+
 ## Performance Considerations
 
 - **HTTP 304 caching**: Reduces processing time by ~99% for unchanged articles
