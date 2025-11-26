@@ -6,6 +6,16 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 const fs = require('fs');
 
+// Parse command-line arguments
+const args = process.argv.slice(2);
+if (args.length < 4) {
+  console.error('Usage: node fetch-eurogamer.js <feedUrl> <outputFile> <feedTitle> <feedDescription>');
+  console.error('Example: node fetch-eurogamer.js https://www.eurogamer.net/feed eurogamer_net_full.xml "Eurogamer.net RSS Feed" "Full article content from Eurogamer.net"');
+  process.exit(1);
+}
+
+const [originalFeedUrl, outputFile, feedTitle, feedDescription] = args;
+
 const parserOptions = {
   customFields: {
     item: ['lastModified']
@@ -14,11 +24,10 @@ const parserOptions = {
 
 const rssParser = new RSSParser(parserOptions);
 const existingFeedParser = new RSSParser(parserOptions);
-const originalFeedUrl = 'https://www.eurogamer.pl/feed';
 const feed = new Feed({
-  title: 'maEurogamerPL RSS Feed',
-  description: 'A cleaned-up version of the original Eurogamer.pl feed',
-  link: 'https://lukasz-gladek-av.github.io/custom-rss/eurogamerpl.xml',
+  title: feedTitle,
+  description: feedDescription,
+  link: `https://lukasz-gladek-av.github.io/custom-rss/${outputFile}`,
 });
 
 function extractLastModified(item) {
@@ -68,7 +77,8 @@ async function loadExistingItems(filePath) {
 }
 
 async function fetchAndProcessFeed() {
-  const existingArticles = await loadExistingItems('eurogamerpl.xml');
+  console.log(`Fetching ${feedTitle} from ${originalFeedUrl}...`);
+  const existingArticles = await loadExistingItems(outputFile);
   let hasNewArticles = false;
   const parsedFeed = await rssParser.parseURL(originalFeedUrl);
 
@@ -145,18 +155,19 @@ async function fetchAndProcessFeed() {
         feed.addItem(item);
       }
     } catch (err) {
-      console.error(`Error processing ${item}:`, err);
+      console.error(`Error processing ${item.title}:`, err.message);
     }
   }
 
   if (!hasNewArticles) {
-    console.log('No new Eurogamer articles found; skipping feed update.');
+    console.log(`No new articles found for ${feedTitle}; skipping feed update.`);
     return;
   }
 
   let rssXml = feed.rss2();
   rssXml = addDcCreatorToXml(rssXml);
-  fs.writeFileSync('eurogamerpl.xml', rssXml);
+  fs.writeFileSync(outputFile, rssXml);
+  console.log(`Successfully updated ${outputFile} with full articles.`);
 }
 
 function addDcCreatorToXml(xml) {
