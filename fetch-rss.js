@@ -170,7 +170,7 @@ async function fetchAndProcessFeed() {
           id: existingArticle.item.guid || existingArticle.item.id || existingArticle.item.link,
           link: existingArticle.item.link,
           content: existingArticle.item['content:encoded'] || existingArticle.item.content,
-          author: [{ name: existingArticle.item.author || existingArticle.item.creator || 'Unknown' }],
+          author: [{ name: existingArticle.item.author || existingArticle.item.creator || 'Unknown', email: 'noreply@gaming-feed.local' }],
           custom_elements: [{ 'lastModified': existingArticle.lastModified }]
         };
         feed.addItem(articleItem);
@@ -206,7 +206,7 @@ async function fetchAndProcessFeed() {
           id: item.link,
           link: itemArticleLink,
           content: article.content + '<br/><br/>' + itemArticleLink,
-          author: [{ name: item.author || item.creator || 'Unknown' }],
+          author: [{ name: item.author || item.creator || 'Unknown', email: 'noreply@gaming-feed.local' }],
         };
 
         // Add Last-Modified header if present
