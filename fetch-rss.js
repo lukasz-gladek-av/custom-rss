@@ -26,10 +26,12 @@ const skipSitesMatches = ['destructoid.com', 'polygon.com', 'gamesindustry.biz',
 
 async function fetchWithRetry(url, config = {}, maxRetries = 4) {
   const delays = [2000, 4000, 8000, 16000]; // Exponential backoff in milliseconds
+  const defaultRequestConfig = { timeout: 10000 };
 
   for (let attempt = 0; attempt <= maxRetries; attempt++) {
     try {
-      return await axios.get(url, config);
+      const mergedConfig = { ...defaultRequestConfig, ...config };
+      return await axios.get(url, mergedConfig);
     } catch (error) {
       const isLastAttempt = attempt === maxRetries;
       const isRetriableError = error.code === 'ECONNRESET'
@@ -201,17 +203,8 @@ async function fetchAndProcessFeed() {
         feed.addItem(articleItem);
 
         // Per domain
-        const linkDomain = getDomainFromUrl(itemArticleLink)
-                             .replace('www.', '')
-                             .replace('.', '_');
-        if (!domainFeeds.get(linkDomain)) {
-          domainFeeds.set(linkDomain, new Feed({
-                             title: 'maGaming RSS Feed - ' + linkDomain,
-                             description: 'A cleaned-up version of the original gaming feed for ' + linkDomain,
-                             link: 'https://lukasz-gladek-av.github.io/custom-rss/' + linkDomain + ".xml",
-                           }));
-        }
-        domainFeeds.get(linkDomain).addItem(articleItem);
+        const linkDomain = sanitizeDomain(getDomainFromUrl(itemArticleLink));
+        addItemToDomainFeed(linkDomain, articleItem);
         continue;
       }
 
@@ -245,17 +238,8 @@ async function fetchAndProcessFeed() {
         feed.addItem(articleItem);
 
         // Per domain
-        const linkDomain = getDomainFromUrl(itemArticleLink)
-                             .replace('www.', '')
-                             .replace('.', '_');
-        if (!domainFeeds.get(linkDomain)) {
-          domainFeeds.set(linkDomain, new Feed({
-                             title: 'maGaming RSS Feed - ' + linkDomain,
-                             description: 'A cleaned-up version of the original gaming feed for ' + linkDomain,
-                             link: 'https://lukasz-gladek-av.github.io/custom-rss/' + linkDomain + ".xml",
-                           }));
-        }
-        domainFeeds.get(linkDomain).addItem(articleItem);
+        const linkDomain = sanitizeDomain(getDomainFromUrl(itemArticleLink));
+        addItemToDomainFeed(linkDomain, articleItem);
       } else {
         console.warn(`Failed to parse content for ${itemArticleContent || itemArticleLink}`);
         if (!existingArticles.has(item.link)) {
@@ -276,11 +260,13 @@ async function fetchAndProcessFeed() {
   let rssXml = feed.rss2();
   rssXml = addDcCreatorToXml(rssXml);
   fs.writeFileSync('gaming.xml', rssXml);
-  domainFeeds.forEach((domainFeed, domainUrl) => {
-    console.log('domain', domainUrl);
+  domainFeeds.forEach((domainFeedData, domainKey) => {
+    const { feed: domainFeed, originalDomain } = domainFeedData;
+
+    console.log('domain', originalDomain);
     let domainRssXml = domainFeed.rss2();
     domainRssXml = addDcCreatorToXml(domainRssXml);
-    fs.writeFileSync(domainUrl + '.xml', domainRssXml);
+    fs.writeFileSync(domainKey + '.xml', domainRssXml);
   });
 }
 
@@ -324,6 +310,29 @@ function removeStylesAndImages(html) {
 function getDomainFromUrl(url) {
     const domain = new URL(url).hostname;
     return domain;
+}
+
+function sanitizeDomain(domain) {
+  return domain
+    .replace(/^www\./, '')
+    .replace(/\./g, '_');
+}
+
+function addItemToDomainFeed(linkDomain, articleItem) {
+  const domainKey = sanitizeDomain(linkDomain);
+
+  if (!domainFeeds.get(domainKey)) {
+    domainFeeds.set(domainKey, {
+      feed: new Feed({
+        title: 'maGaming RSS Feed - ' + linkDomain,
+        description: 'A cleaned-up version of the original gaming feed for ' + linkDomain,
+        link: 'https://lukasz-gladek-av.github.io/custom-rss/' + domainKey + '.xml',
+      }),
+      originalDomain: linkDomain,
+    });
+  }
+
+  domainFeeds.get(domainKey).feed.addItem(articleItem);
 }
 
 fetchAndProcessFeed();
