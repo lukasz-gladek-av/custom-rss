@@ -69,37 +69,45 @@ custom-rss/
 
 ## Key Files Explained
 
-### fetch-rss.js (Lines: 305)
+### fetch-rss.js (Lines: 329)
 **Purpose**: Main RSS feed aggregator for ResetEra gaming headlines
 
 **Key Functions**:
-- `fetchAndProcessFeed()` (113-260): Main orchestration function
+- `fetchWithRetry(url, config, maxRetries)` (27-50): HTTP request wrapper with retry logic
+  - Implements exponential backoff (2s, 4s, 8s, 16s delays)
+  - Retries up to 4 times on network errors (ECONNRESET, ETIMEDOUT, ENOTFOUND, EAI_AGAIN)
+  - Retries on server errors (5xx status codes)
+  - Does not retry on client errors (4xx) to avoid wasting resources
+  - Logs retry attempts for debugging
+
+- `fetchAndProcessFeed()` (137-284): Main orchestration function
   - Fetches ResetEra RSS feed
   - Filters out unwanted content (guides, deals, etc.)
   - Processes each article through full-text extraction
   - Handles HTTP 304 caching for unchanged articles
+  - Uses retry logic for all article fetches
   - Generates combined + per-domain feeds
 
-- `loadExistingItems(filePath)` (47-71): Loads cached feed items
+- `loadExistingItems(filePath)` (71-95): Loads cached feed items
   - Returns Map of existing articles with lastModified timestamps
   - Used for intelligent HTTP caching
 
-- `extractHrefFromContent(htmlContent)` (73-111): Extracts article URL from RSS item
+- `extractHrefFromContent(htmlContent)` (97-135): Extracts article URL from RSS item
   - Parses HTML content to find the first anchor tag
   - Includes JSDOM optimization to disable CSS processing
 
-- `removeStylesAndImages(html)` (287-297): Cleans HTML content
+- `removeStylesAndImages(html)` (311-321): Cleans HTML content
   - Removes `<style>`, `<img>`, and stylesheet links
   - Strips inline styles
   - Keeps semantic HTML for readability
 
-- `addDcCreatorToXml(xml)` (262-285): Converts author format
+- `addDcCreatorToXml(xml)` (286-309): Converts author format
   - Changes `<author>` tags to `<dc:creator>` for RSS compatibility
   - Extracts author name from "email (name)" format
 
-- `getDomainFromUrl(url)` (299-302): Extracts domain from URL
+- `getDomainFromUrl(url)` (323-326): Extracts domain from URL
 
-**Content Filtering** (119-134):
+**Content Filtering** (143-158):
 Skips articles matching patterns:
 - "how to" guides
 - "where to find" guides
@@ -109,12 +117,12 @@ Skips articles matching patterns:
 - Sale/discount articles
 - Articles from blocked sites: destructoid.com, polygon.com, gamesindustry.biz, vgbees.com
 
-**HTTP Caching Logic** (155-191):
+**HTTP Caching Logic** (179-215):
 - Sends `If-Modified-Since` header if we have lastModified timestamp
 - On 304 response: reuses existing article content (no re-fetch)
-- On 200 response: fetches and parses new content
+- On 200 response: fetches and parses new content with retry logic
 
-### fetch-eurogamer.js (Lines: 211)
+### fetch-eurogamer.js (Lines: 235)
 **Purpose**: Generic, reusable script for fetching single-site RSS feeds
 
 **Command-line Usage**:
@@ -131,6 +139,9 @@ node fetch-eurogamer.js \
   "Full article content from Eurogamer.net"
 ```
 
+**Key Functions**:
+- `fetchWithRetry(url, config, maxRetries)` (33-56): HTTP request wrapper with retry logic (same as fetch-rss.js)
+
 **Key Differences from fetch-rss.js**:
 - No content filtering (processes all articles)
 - Takes feed URL as command-line argument
@@ -139,6 +150,7 @@ node fetch-eurogamer.js \
 
 **Shared Logic**:
 - Same HTTP caching mechanism
+- Same retry logic with exponential backoff
 - Same Readability parsing
 - Same author metadata handling
 
@@ -251,12 +263,22 @@ Ensure cached feeds retain lastModified (#11) # Bug fixes
 
 ### Content Extraction Pipeline
 
-1. **Fetch HTML**: `axios.get(url)`
+1. **Fetch HTML**: `fetchWithRetry(url, config)` - Uses exponential backoff retry logic
 2. **Clean HTML**: Remove styles, images, inline styles
 3. **Parse with Readability**: Extract main article content
 4. **Format**: Append source URL to content
 5. **Add Metadata**: Title, link, author, lastModified
 6. **Generate RSS**: Use `feed` library to create XML
+
+### Network Resilience
+
+**Retry Logic** (implemented in both fetch-rss.js and fetch-eurogamer.js):
+- Automatically retries failed HTTP requests up to 4 times
+- Uses exponential backoff delays: 2s, 4s, 8s, 16s
+- Only retries on network errors (ECONNRESET, ETIMEDOUT, ENOTFOUND, EAI_AGAIN) and server errors (5xx)
+- Does not retry on client errors (4xx) to avoid wasting resources
+- Logs each retry attempt with error code for debugging
+- Prevents article loss due to transient network issues
 
 ### Author Metadata Handling
 
@@ -374,9 +396,11 @@ head -n 50 gaming.xml
 6. **Maintain content filtering lists** - User curates what appears in feed
 7. **Keep per-domain feed generation** - Users subscribe to individual site feeds
 8. **Preserve author metadata handling** - RSS readers depend on `dc:creator` format
+9. **Preserve retry logic** - Critical for reliability; prevents article loss from transient network issues
 
 ## Recent Enhancements (from git log)
 
+- **2025-11-26**: Implement retry logic for failed article fetches with exponential backoff (network resilience)
 - **PR #13**: Fetch full articles for Eurogamer (generic script pattern)
 - **PR #12**: Add author metadata to RSS items (`dc:creator` support)
 - **PR #11**: Ensure cached feeds retain lastModified metadata (caching fix)
@@ -405,6 +429,7 @@ head -n 50 gaming.xml
 - **JSDOM CSS disabling**: Saves ~60% memory per article
 - **Image/style removal**: Reduces XML file size by ~80%
 - **Per-domain feeds**: Allows users to subscribe to specific sites only
+- **Retry logic with exponential backoff**: Prevents article loss from transient network issues without overwhelming servers
 
 ## Future Enhancement Ideas
 
@@ -413,5 +438,4 @@ head -n 50 gaming.xml
 - Add sentiment analysis or categorization
 - Create web UI for feed management
 - Add RSS feed health monitoring/alerting
-- Implement retry logic for failed article fetches
 - Add support for custom user-defined filters
