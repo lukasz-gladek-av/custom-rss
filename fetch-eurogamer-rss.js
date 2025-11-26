@@ -100,7 +100,7 @@ async function fetchAndProcessFeed() {
           id: existingArticle.item.guid || existingArticle.item.id || existingArticle.item.link,
           link: existingArticle.item.link,
           content: existingArticle.item['content:encoded'] || existingArticle.item.content,
-          author: [{ name: existingArticle.item.author || existingArticle.item.creator || 'Unknown' }],
+          author: [{ name: existingArticle.item.author || existingArticle.item.creator || 'Unknown', email: 'noreply@example.com' }],
           custom_elements: [{ 'lastModified': existingArticle.lastModified }]
         });
         continue;
@@ -127,7 +127,7 @@ async function fetchAndProcessFeed() {
           id: item.link,
           link: itemArticleLink,
           content: itemArticleLink + '<br/><br/>' + article.content,
-          author: [{ name: item.author || item.creator || 'Unknown' }],
+          author: [{ name: item.author || item.creator || 'Unknown', email: 'noreply@example.com' }],
         };
 
         // Add Last-Modified header if present
@@ -154,8 +154,34 @@ async function fetchAndProcessFeed() {
     return;
   }
 
-  const rssXml = feed.rss2();
+  let rssXml = feed.rss2();
+  rssXml = addDcCreatorToXml(rssXml);
   fs.writeFileSync('eurogamerpl.xml', rssXml);
+}
+
+function addDcCreatorToXml(xml) {
+  // Post-process the XML to convert <author> tags to <dc:creator> tags
+  const $ = cheerio.load(xml, { xmlMode: true });
+
+  $('item').each((i, item) => {
+    const $item = $(item);
+    const $author = $item.find('author').first();
+
+    if ($author.length > 0) {
+      const authorText = $author.text();
+      // Extract name from "email (name)" format
+      const match = authorText.match(/\(([^)]+)\)/);
+      const authorName = match ? match[1] : authorText;
+
+      // Add dc:creator tag after author tag
+      $author.after(`<dc:creator>${authorName}</dc:creator>`);
+
+      // Remove the author tag
+      $author.remove();
+    }
+  });
+
+  return $.html();
 }
 
 function removeStylesAndImages(html) {
