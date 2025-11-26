@@ -1,4 +1,12 @@
 {
+  "name": "custom-rss",
+  "version": "0.1.0",
+  "description": "Scripts for fetching and cleaning RSS feeds with full-text content.",
+  "private": true,
+  "scripts": {
+    "fetch:gaming": "node fetch-rss.js",
+    "fetch:eurogamer": "node fetch-eurogamer.js https://www.eurogamer.net/feed eurogamer_net_full.xml \"Eurogamer.net RSS Feed\" \"Full article content from Eurogamer.net\""
+  },
   "dependencies": {
     "@mozilla/readability": "^0.5.0",
     "axios": "^1.7.7",
