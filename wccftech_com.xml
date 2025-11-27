@@ -4,9 +4,103 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Thu, 27 Nov 2025 20:15:50 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 27 Nov 2025 20:44:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Assassin’s Creed Shadows on Nintendo Switch 2 Runs at 30FPS with NVIDIA DLSS and Baked GI]]></title>
+            <link>https://wccftech.com/assassins-creed-shadows-nintendo-switch-2-runs-30-fps-nvidia-dlss-baked-gi/</link>
+            <guid>1366843</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			
+			<p>Around a month ago, Ubisoft <a href="https://wccftech.com/assassins-creed-shadows-nintendo-switch-2-release-date-2/" target="_blank" rel="noreferrer noopener">confirmed</a> that Assassin's Creed Shadows, the latest mainline entry in the publisher's biggest open world franchise, would release on Nintendo Switch 2 on December 2. The game's engine, the latest version of Anvil, <a href="https://wccftech.com/assassins-creed-shadows-pc-report-a-ray-traced-leap-forward-for-ubisoft-anvil/" target="_blank" rel="noreferrer noopener">featured many big improvements</a>, ushering the franchise into the next generation with technologies like:</p>
+
+
+
+<ul>
+<li>Extensive ray tracing effects (global illumination and reflections)</li>
+
+
+
+<li>Dynamic wind and rain driven by fluid simulation that affect trees, foliage, leaves, and even rainfall direction</li>
+
+
+
+<li>Physics‑based, procedural cloud and weather simulation that continually evolves cloudscapes</li>
+
+
+
+<li>Nanite‑style micropolygon system that virtualizes geometry, letting the engine render extremely detailed terrain and assets while smoothly adjusting triangle density with distance</li>
+
+
+
+<li>Expanded destruction physics and improved cloth and material interaction</li>
+
+
+
+<li>Overhauled terrain and asset streaming built around the aforementioned virtualized geometry system, keeping dense villages and varied topography loaded without hammering CPU or storage bandwidth</li>
+
+
+
+<li>Deeper integration of GPU instancing and mesh shaders to cut CPU submission overhead and render many small objects efficiently</li>
+</ul>
+
+
+
+<p>The Nintendo Switch 2 platform, however, is far less powerful than the platforms on which the game was first released on (PC, PlayStation 5, and Xbox Series S|X). According to Ubisoft's Project Lead Programmer Bruno, the developers had to fundamentally redesign how the world is rendered and even how the game systems of Assassin's Creed Shadows interact with each other.</p>
+
+
+
+<p>Core simulation systems like clouds and cloth are preserved but heavily optimized and sometimes downscaled to lower GPU load, while global illumination uses the baked solution already employed on low-spec PC and Xbox Series S to save RAM rather than relying <a href="https://wccftech.com/nintendo-switch-2-confirmed-to-support-nvidia-dlss-and-ray-tracing/" target="_blank" rel="noreferrer noopener">on the console's hardware ray tracing support</a> to deliver ray traced GI.</p>
+
+
+
+<p>Beyond that, Ubisoft had to extensively tune down every parameter (LOD, draw distances, texture resolution, and object streaming) per scenario, reducing NPC counts only where necessary in dense hubs to uphold performance.</p>
+
+
+
+<figure><p>
+<iframe title="[ESRB] Assassin's Creed Shadows: Nintendo Switch™ 2 Announce Trailer" width="500" height="281" src="https://www.youtube.com/embed/B011oT5j4iU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<p>The developers leveraged the Nintendo Switch 2's support of NVIDIA DLSS to reconstruct a sharp image from a lower resolution base, thus accelerating performance. Ultimately, however, Ubisoft settled on achieving a stable 30 frames per second in both handheld and docked modes. The difference, then, lies in the visual quality, which is further diminished in handheld mode, whereas docked mode offers improved image quality, increased draw distance, and more refined LOD settings.</p>
+
+
+
+<p>The handheld mode does have a few tricks up its sleeve, such as HDR support and a tweaked implementation of Variable Refresh Rate (VRR). Bruno explained:</p>
+
+
+
+<p><em>The lower framerate limit for VRR is typically 40 FPS, but Assassin's Creed Shadows runs at 30 FPS on Nintendo Switch 2. We didn't want to compromise on that aspect, and so we built a dedicated algorithm that keeps VRR enabled even at 30 FPS, keeping the game as fluid and responsive as possible.</em></p>
+
+
+
+<p>Ubisoft is leveraging a few platform-specific features for this version of the game, such as touchscreen support for menus, maps, and hideout interactions. There are also plans for future mouse and keyboard compatibility in docked mode.</p>
+
+
+
+<figure><p>
+<iframe title="[ESRB] Assassin's Creed Shadows:  Nintendo Switch™ 2 - World overview" width="500" height="281" src="https://www.youtube.com/embed/hYKR_1M2J40?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<p>On December 2, players won't be able to get the <a href="https://wccftech.com/review/assassins-creed-shadows-claws-of-awaji-review-unremarkable-island/" target="_blank" rel="noreferrer noopener">Claws of Awaji expansion</a>, which is coming at some point in 2026 to the Nintendo Switch 2. On that note, Ubisoft also just <a href="https://wccftech.com/assassins-creed-shadows-wont-get-another-claws-of-awaji-sized-dlc-expansion/" target="_blank" rel="noreferrer noopener">revealed</a> that it'll be the only major expansion coming to Assassin's Creed Shadows, unlike the previous entry, Valhalla, which got three (<a href="https://wccftech.com/review/assassins-creed-valhalla-wrath-of-the-druids-of-politics-and-magic/" target="_blank" rel="noreferrer noopener">Wrath of the Druids</a>, <a href="https://wccftech.com/review/assassins-creed-valhalla-the-siege-of-paris/" target="_blank" rel="noreferrer noopener">The Siege of Paris</a>, and <a href="https://wccftech.com/review/assassins-creed-valhalla-dawn-of-ragnarok-the-end-of-an-age/" target="_blank" rel="noreferrer noopener">Dawn of Ragnarök</a>).</p>
+
+			
+			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
+
+		</div></div><br/><br/>https://wccftech.com/assassins-creed-shadows-nintendo-switch-2-runs-30-fps-nvidia-dlss-baked-gi/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[Epic CEO Tim Sweeney Doesn’t Think Digital Game Stores Should Have GenAI Disclosures, Says It “Makes No Sense”]]></title>
             <link>https://wccftech.com/epic-ceo-tim-sweeney-doesnt-think-digital-game-stores-should-have-generative-ai-tags/</link>
