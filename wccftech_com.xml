@@ -4,7 +4,7 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Fri, 28 Nov 2025 13:15:48 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 28 Nov 2025 13:45:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -128,124 +128,6 @@
 			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
 
 		</div></div><br/><br/>https://wccftech.com/layers-of-fear-the-final-masterpiece-edition-brings-horror-nintendo-switch-2-ray-tracing-support/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[GTA 4 RTX Remix Compatibility Mod Is Now Publicly Available – Enjoy Stunning Path Tracing]]></title>
-            <link>https://wccftech.com/gta-4-rtx-remix-compatibility-mod-publicly-available-enjoy-path-tracing/</link>
-            <guid>1367074</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			
-			<p>A few hours ago, modder xoxor4d released the GTA 4 RTX Remix Compatibility mod that <a href="https://wccftech.com/take-look-path-traced-gta-4-rtx-remix-test-build/" target="_blank" rel="noreferrer noopener">we previously reported on</a>. This public build even comes with a simple installer, which can be found <a href="https://github.com/xoxor4d/gta4-rtx/releases/tag/1.0.0" target="_blank" rel="noreferrer noopener">here</a>, making it relatively easy for users to install it.</p>
-
-
-
-<p>Xoxor4d shared a detailed changelog of improvements over the GTA 4 RTX Remix Compatibility mod test build that was released last month. You can find it below:</p>
-
-
-
-<ul>
-<li>Added a basic installer</li>
-
-
-
-<li>Removed alpha blending on some emissive surfaces that were not supposed to be alpha-blended</li>
-
-
-
-<li>Night emissives now turn off during the day</li>
-
-
-
-<li>Map markers can now be shown/hidden based on the time of day or the current weather</li>
-
-
-
-<li>Added a button to teleport yourself to a map marker</li>
-
-
-
-<li>Added a FreeCam mode and added a new Utilities tab to the imgui menu</li>
-
-
-
-<li>Reduced the default emissive intensity of some surfaces</li>
-
-
-
-<li>Fixed an issue that broke the remix debug views</li>
-
-
-
-<li>No longer using timecycle temperature because it was not related to color tuning - now using a hardcoded value + reduced influence</li>
-
-
-
-<li>Added a special remix replacement to the first apartment</li>
-</ul>
-
-
-
-<blockquote>
-<p><em>Remix Runtime</em></p>
-</blockquote>
-
-
-
-<ul>
-<li>Added raindrops/splashes to wet world surfaces (disabled by default for pedestrians and vehicles because of varying UV scales, which makes raindrops really large on some cars and really small on others)</li>
-
-
-
-<li>Added "puddle logic" to the global wetness code to break up the mirror-like surfaces</li>
-
-
-
-<li>The <code>Ignore Lights</code> category can be used to disable the <code>WorldUI</code> texture tag that is automatically set on some emissive surfaces. This allows one to set custom emissive masks and tweaks via a remix replacement while keeping the dynamic intensity adjustment by the game</li>
-</ul>
-
-
-
-<p>The highlight of the GTA 4 RTX Remix Compatibility mod is obviously that it injects path tracing into Rockstar's 2008 classic game. The result is a massive visual improvement, as you can see in the featured image and in the additional comparison screenshot below.</p>
-
-
-
-<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2025/11/GTA-4-RTX-Remix-Mod-PT-Comparison-scaled.jpg"></a><figcaption><em>Image credit: MxBenchmark PC (YouTube)</em></figcaption></figure>
-
-
-
-<p>That said, path tracing, like in any other PC game (and perhaps even more so in a mod that is not as well optimized as a full game for obvious reasons), is rather heavy on performance. As shown <a href="https://wccftech.com/grand-theft-auto-4-path-tracing-remaster/" target="_blank" rel="noreferrer noopener">in the MxBenchmark PC comparison video</a>, even NVIDIA's expensive GeForce RTX 5080 graphics card cannot run the GTA 4 RTX Remix Compatibility mod at 60 frames per second without the help of DLSS Frame Generation.</p>
-
-
-
-<p>Modder xoxor4d did have a couple of tips for those who may struggle with performance, though. Those who experience heavy stuttering can try to launch the mod using the included 'LaunchWithProcessorAffinity_2Cores_GTA4.bat' file. This will allocate two cores to GTA4 and the remaining cores to Remix. Another option is splitting your CPU cores 50/50 with NVIDIA RTX Remix; to do that, use the '_LaunchWithProcessorAffinity_Half_GTA4__Half_Remix.bat' file.</p>
-
-
-
-<p>The path tracing settings can also be lowered a bit. Just like in every RTX Remix game, you can open the menu by pressing Alt + X. In the Graphics Settings Menu, switch to the Graphics tab and then adjust various quality settings in the Graphics Preset dropdown as needed.</p>
-
-
-
-<p>Another tweak that might help performance (though it will also make leaves more blocky) is increasing the Tree Alpha Cutout Value. To do that, open the CompMod menu by pressing F4 and open the Rendering Related Settings container under the Game Settings tab.</p>
-
-
-
-<p>Lastly, you can of course still tweak the quality and distance sliders in the regular Grand Theft Auto 4 graphics options. Keeping in mind that higher values will reach your CPU bottleneck earlier, the modder recommends starting with 50 for view distance and 30 for quality and adjusting from there. When making this adjustment, xoxor4d warned that the first launch might cause problems, but a second attempt should resolve the issue.</p>
-
-
-
-<p>Hopefully, this GTA 4 RTX Remix Compatibility mod can help Grand Theft Auto fans cope with the additional time they'll have to wait until the release of Grand Theft Auto VI, which was recently <a href="https://wccftech.com/grand-theft-auto-6-delayed-to-november-2026/" target="_blank" rel="noreferrer noopener">delayed</a> from the previous date of May 26, 2026 to November 19, 2026. Rumors suggest Rockstar <a href="https://wccftech.com/grand-theft-auto-vi-switch-2-explored/" target="_blank" rel="noreferrer noopener">may even be trying to make the game run on Nintendo Switch 2</a>, though even if that's happening, it would likely be launched at a later date.</p>
-
-			
-			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
-
-		</div></div><br/><br/>https://wccftech.com/gta-4-rtx-remix-compatibility-mod-publicly-available-enjoy-path-tracing/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
