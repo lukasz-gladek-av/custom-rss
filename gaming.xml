@@ -4,9 +4,229 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Fri, 28 Nov 2025 08:16:54 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 28 Nov 2025 09:16:55 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[GTA 4 RTX Remix Compatibility Mod Is Now Publicly Available – Enjoy Stunning Path Tracing]]></title>
+            <link>https://wccftech.com/gta-4-rtx-remix-compatibility-mod-publicly-available-enjoy-path-tracing/</link>
+            <guid>1367074</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			
+			<p>A few hours ago, modder xoxor4d released the GTA 4 RTX Remix Compatibility mod that <a href="https://wccftech.com/take-look-path-traced-gta-4-rtx-remix-test-build/" target="_blank" rel="noreferrer noopener">we previously reported on</a>. This public build even comes with a simple installer, which can be found <a href="https://github.com/xoxor4d/gta4-rtx/releases/tag/1.0.0" target="_blank" rel="noreferrer noopener">here</a>, making it relatively easy for users to install it.</p>
+
+
+
+<p>Xoxor4d shared a detailed changelog of improvements over the GTA 4 RTX Remix Compatibility mod test build that was released last month. You can find it below:</p>
+
+
+
+<ul>
+<li>Added a basic installer</li>
+
+
+
+<li>Removed alpha blending on some emissive surfaces that were not supposed to be alpha-blended</li>
+
+
+
+<li>Night emissives now turn off during the day</li>
+
+
+
+<li>Map markers can now be shown/hidden based on the time of day or the current weather</li>
+
+
+
+<li>Added a button to teleport yourself to a map marker</li>
+
+
+
+<li>Added a FreeCam mode and added a new Utilities tab to the imgui menu</li>
+
+
+
+<li>Reduced the default emissive intensity of some surfaces</li>
+
+
+
+<li>Fixed an issue that broke the remix debug views</li>
+
+
+
+<li>No longer using timecycle temperature because it was not related to color tuning - now using a hardcoded value + reduced influence</li>
+
+
+
+<li>Added a special remix replacement to the first apartment</li>
+</ul>
+
+
+
+<blockquote>
+<p><em>Remix Runtime</em></p>
+</blockquote>
+
+
+
+<ul>
+<li>Added raindrops/splashes to wet world surfaces (disabled by default for pedestrians and vehicles because of varying UV scales, which makes raindrops really large on some cars and really small on others)</li>
+
+
+
+<li>Added "puddle logic" to the global wetness code to break up the mirror-like surfaces</li>
+
+
+
+<li>The <code>Ignore Lights</code> category can be used to disable the <code>WorldUI</code> texture tag that is automatically set on some emissive surfaces. This allows one to set custom emissive masks and tweaks via a remix replacement while keeping the dynamic intensity adjustment by the game</li>
+</ul>
+
+
+
+<p>The highlight of the GTA 4 RTX Remix Compatibility mod is obviously that it injects path tracing into Rockstar's 2008 classic game. The result is a massive visual improvement, as you can see in the featured image and in the additional comparison screenshot below.</p>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2025/11/GTA-4-RTX-Remix-Mod-PT-Comparison-scaled.jpg"></a><figcaption><em>Image credit: MxBenchmark PC (YouTube)</em></figcaption></figure>
+
+
+
+<p>That said, path tracing, like in any other PC game (and perhaps even more so in a mod that is not as well optimized as a full game for obvious reasons), is rather heavy on performance. As shown <a href="https://wccftech.com/grand-theft-auto-4-path-tracing-remaster/" target="_blank" rel="noreferrer noopener">in the MxBenchmark PC comparison video</a>, even NVIDIA's expensive GeForce RTX 5080 graphics card cannot run the GTA 4 RTX Remix Compatibility mod at 60 frames per second without the help of DLSS Frame Generation.</p>
+
+
+
+<p>Modder xoxor4d did have a couple of tips for those who may struggle with performance, though. Those who experience heavy stuttering can try to launch the mod using the included 'LaunchWithProcessorAffinity_2Cores_GTA4.bat' file. This will allocate two cores to GTA4 and the remaining cores to Remix. Another option is splitting your CPU cores 50/50 with NVIDIA RTX Remix; to do that, use the '_LaunchWithProcessorAffinity_Half_GTA4__Half_Remix.bat' file.</p>
+
+
+
+<p>The path tracing settings can also be lowered a bit. Just like in every RTX Remix game, you can open the menu by pressing Alt + X. In the Graphics Settings Menu, switch to the Graphics tab and then adjust various quality settings in the Graphics Preset dropdown as needed.</p>
+
+
+
+<p>Another tweak that might help performance (though it will also make leaves more blocky) is increasing the Tree Alpha Cutout Value. To do that, open the CompMod menu by pressing F4 and open the Rendering Related Settings container under the Game Settings tab.</p>
+
+
+
+<p>Lastly, you can of course still tweak the quality and distance sliders in the regular Grand Theft Auto 4 graphics options. Keeping in mind that higher values will reach your CPU bottleneck earlier, the modder recommends starting with 50 for view distance and 30 for quality and adjusting from there. When making this adjustment, xoxor4d warned that the first launch might cause problems, but a second attempt should resolve the issue.</p>
+
+
+
+<p>Hopefully, this GTA 4 RTX Remix Compatibility mod can help Grand Theft Auto fans cope with the additional time they'll have to wait until the release of Grand Theft Auto VI, which was recently <a href="https://wccftech.com/grand-theft-auto-6-delayed-to-november-2026/" target="_blank" rel="noreferrer noopener">delayed</a> from the previous date of May 26, 2026 to November 19, 2026. Rumors suggest Rockstar <a href="https://wccftech.com/grand-theft-auto-vi-switch-2-explored/" target="_blank" rel="noreferrer noopener">may even be trying to make the game run on Nintendo Switch 2</a>, though even if that's happening, it would likely be launched at a later date.</p>
+
+			
+			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
+
+		</div></div><br/><br/>https://wccftech.com/gta-4-rtx-remix-compatibility-mod-publicly-available-enjoy-path-tracing/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Nintendo Buys A Studio From Bandai Namco]]></title>
+            <link>https://www.gamespot.com/articles/nintendo-buys-a-studio-from-bandai-namco/1100-6536556/?ftag=CAD-01-10abi2f</link>
+            <guid>1367071</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p>
+    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
+  </p><article itemscope="" data-type-id="1100" data-guid="1100-6536556">
+
+            
+            
+  
+
+
+        
+
+  
+
+
+        
+        
+              <section>
+
+                  
+          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
+                <p>After previously working with Bandai Namco's studio in Singapore on <a href="https://www.gamespot.com/games/splatoon-3/" data-ref-id="5000-527230">Splatoon 3</a>, Nintendo has revealed that a deal has been struck to bring that developer in-house.</p><p>Nintendo <a href="https://www.nintendo.co.jp/corporate/release/en/2025/251127.html" data-target="true" target="_blank" rel="noopener nofollow">made the announcement</a> online, which notes that it will own 80% of Bandai Namco Studios Singapore by April 2026 per its agreement with Bandai Namco. The remaining 20% the Singapore studio will be purchased at a later date, "once the subsidiary's operations have stabilized."</p><p>The new name of the studio will be Nintendo Studios Singapore. Nintendo also noted that the studio was chosen for acquisition because it "has an ongoing business relationship with Nintendo" and the publisher wanted to "strengthen" its internal development structure.</p><p>Bandai Namco Studios Singapore's collaborations with Nintendo included Mario Sports Superstars and New Pokemon Snap. It's also rumored to have been involved with Bandai Namco's version of <a href="https://www.gamespot.com/games/metroid-prime-4-beyond/" data-ref-id="5000-465595">Metroid Prime 4</a>, before the game was <a href="https://www.gamespot.com/articles/metroid-prime-4s-development-restarted-with-retro-/1100-6464593/" data-ref-id="1100-6464593">completely redeveloped by Retro Studios</a> in 2019.</p><p>This deal doesn't appear to mean Bandai Namco is putting itself up for sale. Earlier this year, Bandai Namco struck <a href="https://www.gamespot.com/articles/sony-invests-463-million-in-elden-ring-publisher-bandai-namco-as-part-of-strategic-partnership/1100-6533400/" data-ref-id="1100-6533400">a $463 million deal with Sony</a> for approximately 2.5% of the company. Bandai Namco retains some of the biggest franchises in gaming, including Elden Ring, Tekken, and Pac-Man. However, the company has disclosed that a former employee allegedly <a href="https://www.gamespot.com/articles/a-former-bandai-namco-employee-allegedly-embezzled-so-much-money-execs-had-to-take-a-pay-cut/1100-6533562/" data-ref-id="1100-6533562">embezzled so much money from Bandai Namco</a> that its executives have taken a pay cut.</p>
+  
+                        
+    
+        
+        
+  
+                                  </div>
+
+
+          
+  
+    
+          
+            
+  <div>
+    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
+
+    
+      </div>
+        
+      </section>
+    
+            
+    </article></div><br/><br/>https://www.gamespot.com/articles/nintendo-buys-a-studio-from-bandai-namco/1100-6536556/?ftag=CAD-01-10abi2f]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[The Witcher 4 Is Skipping The Game Awards This Year]]></title>
+            <link>https://www.gamespot.com/articles/the-witcher-4-is-skipping-the-game-awards-this-year/1100-6536555/?ftag=CAD-01-10abi2f</link>
+            <guid>1367068</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p>
+    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
+  </p><article itemscope="" data-type-id="1100" data-guid="1100-6536555">
+
+            
+            
+  
+
+
+        
+
+  
+
+
+        
+        
+              <section>
+
+                  
+          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
+                <p>Last year's Game Awards <a href="https://www.gamespot.com/articles/the-witcher-4-first-trailer-revealed-at-the-game-awards/1100-6528436/" data-ref-id="1100-6528436">featured the first look</a> at <a href="https://www.gamespot.com/games/the-witcher-4/" data-ref-id="5000-561041">The Witcher 4</a>, which is now nominated for most-anticipated game at <a href="https://www.gamespot.com/gallery/all-the-game-awards-2025-winners-nominees/2900-7258/" data-ref-id="2900-7258">The Game Awards</a> this year. But if you were hoping to catch a fresh glimpse at The Witcher 4 at the ceremony than you're going to be disappointed. CD Projekt Red co-CEO Michał Nowakowski has confirmed that the company isn't bringing any new to The Game Awards this year.</p><p>"We won’t be bringing any new content to TGA this year," wrote Nowakowski on <a href="https://x.com/michalnowakow/status/1993732049044128043" data-target="true" target="_blank" rel="noopener nofollow">X</a>, as spotted by <a href="https://www.videogameschronicle.com/news/the-witcher-4-wont-be-appearing-at-the-game-awards-cdpr-co-ceo-says/" data-target="true" target="_blank" rel="noopener nofollow">VGC</a>. But we're, as always, excited to watch the show and celebrate this amazing industry's great night alongside all of you."</p><div data-embed-type="tweet" data-src="https://twitter.com/michalnowakow/status/1993732049044128043" data-has-image="false"><blockquote data-conversation="none" data-mce-disable-toolbar="true"><p dir="ltr">I’m very happy to see The Witcher 4 nominated in the Most Anticipated Game category at The Game Awards. Thanks to everyone who has already voted - your support means a lot of to us. We won’t be bringing any new content to TGA this year, but we’re, as always, excited to watch the…</p>  — Michał Nowakowski (@michalnowakow) <a href="https://twitter.com/michalnowakow/status/1993732049044128043?ref_src=twsrc%5Etfw">November 26, 2025</a></blockquote>              </div><p>CD Projekt Red only put The Witcher 4 in full production late last year, and the game isn't <a href="https://www.gamespot.com/articles/witcher-4-release-date-is-not-soon-as-dev-discusses-why-it-wont-use-genai/1100-6530369/" data-ref-id="1100-6530369">expected to launch until 2027 at the soonest</a>. The most recent look at the game was <a href="https://www.gamespot.com/articles/new-the-witcher-4-footage-looks-ridiculously-good-on-ps5-but-theres-a-caveat/1100-6532024/" data-ref-id="1100-6532024">shared during State of Unreal</a> in June. However, CDPR later explained that it was <a href="https://www.gamespot.com/articles/the-witcher-4-tech-demo-wasnt-actually-the-game-says-cd-projekt-red/1100-6532043/" data-ref-id="1100-6532043">a tech demo set in The Witcher 4</a> rather than the actual game. The dev team has also noted that the upcoming game is <a href="https://www.gamespot.com/articles/heres-why-the-witcher-4-is-being-developed-with-a-console-first-approach/1100-6532445/" data-ref-id="1100-6532445">being developed with a console-first approach</a>.</p><p>Earlier this week, CD Projekt Red disclosed that Cyberpunk 2077 <a href="https://www.gamespot.com/articles/cyberpunk-2077-hits-35-million-sales-and-did-so-faster-than-witcher-3/1100-6536532/" data-ref-id="1100-6536532">has passed 35 million sales </a>faster than The Witcher 3. <a href="https://www.gamespot.com/articles/cyberpunk-2077-sequel-release-date-trailer-story/1100-6526333/" data-ref-id="1100-6526333">Cyberpunk 2</a> is currently being developed the company alongside a <a href="https://www.gamespot.com/articles/the-witcher-remake-everything-we-know-about-the-open-world-remake-of-the-classic-rpg/1100-6528839/" data-ref-id="1100-6528839">remake of the original Witcher</a>, and <a href="https://www.gamespot.com/articles/witcher-dev-partners-with-pokemon-go-owner-for-a-new-game-based-on-its-ip/1100-6530370/" data-ref-id="1100-6530370">a game produced in partnership with Saudi Arabia</a>.</p>
+  
+                        
+    
+        
+        
+  
+                                  </div>
+
+
+          
+  
+    
+          
+            
+  <div>
+    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
+
+    
+      </div>
+        
+      </section>
+    
+            
+    </article></div><br/><br/>https://www.gamespot.com/articles/the-witcher-4-is-skipping-the-game-awards-this-year/1100-6536555/?ftag=CAD-01-10abi2f]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[Project Motor Racing Review]]></title>
             <link>https://www.ign.com/articles/project-motor-racing-review</link>
@@ -49,7 +269,7 @@
 
                   
           <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
-                <p>If you've been waiting for a discount on Lego's Pac-Man Arcade, you're in luck: The 2,651-piece retro arcade cabinet model is featured in <a href="https://amzn.to/4oK9Vcl" data-target="true" target="_blank" rel="noopener nofollow">Amazon's Black Friday 2025 Lego sale</a>. The nostalgic officially licensed <a href="https://www.amazon.com/LEGO-PAC-Man-Building-Replica-Nostalgic/dp/B0CGYQ2WJC?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Pac-Man Arcade is available for $189 (was $270)</a>. The $81 discount is the best deal yet for the Pac-Man Arcade, which launched in June 2023. This <em>extremely </em>cool Lego building set for adults almost always sells for full price, and the few deals we've seen over the past two-plus years have sold out fast.</p><div data-embed-type="buylink" data-ref-id="5144" data-template="4" data-size="buylink__listicle" data-title="[Lego] Amazon Black Friday Sale Lego Deals" data-collection="" title="[Lego] Amazon Black Friday Sale Lego Deals">             <h2>                    <a href="https://amzn.to/4oK9Vcl" rel="sponsored nofollow" target="_blank" data-event-tracking="{&quot;destUrl&quot;:&quot;https:\/\/amzn.to\/4oK9Vcl&quot;,&quot;dwLinkTag&quot;:&quot;listicle|button&quot;,&quot;leadType&quot;:&quot;deal&quot;,&quot;linkLocation&quot;:&quot;BuyButton&quot;,&quot;merchantName&quot;:&quot;&quot;,&quot;seamlessScrollPage&quot;:&quot;1&quot;,&quot;searchDim&quot;:&quot;listicle|button&quot;}" data-track-page-event="{&quot;eventName&quot;:&quot;Monetization Link Clicked&quot;,&quot;merchantName&quot;:&quot;&quot;,&quot;merchantPrice&quot;:&quot;&quot;}" data-vars-buy-link="https://amzn.to/4oK9Vcl">Black Friday Lego Deals at Amazon</a>       </h2>                                   <h3>                      <a href="https://amzn.to/4oK9Vcl" rel="sponsored nofollow" target="_blank" data-event-tracking="{&quot;destUrl&quot;:&quot;https:\/\/amzn.to\/4oK9Vcl&quot;,&quot;dwLinkTag&quot;:&quot;listicle|button&quot;,&quot;leadType&quot;:&quot;deal&quot;,&quot;linkLocation&quot;:&quot;BuyButton&quot;,&quot;merchantName&quot;:&quot;&quot;,&quot;seamlessScrollPage&quot;:&quot;1&quot;,&quot;searchDim&quot;:&quot;listicle|button&quot;}" data-track-page-event="{&quot;eventName&quot;:&quot;Monetization Link Clicked&quot;,&quot;merchantName&quot;:&quot;&quot;,&quot;merchantPrice&quot;:&quot;&quot;}" data-vars-buy-link="https://amzn.to/4oK9Vcl">Check out the deals before they're gone.</a>         </h3>                                                                                                                      <div><p><strong>Amazon Lego Black Friday Deals</strong></p><ul><li><a href="https://www.amazon.com/dp/B0DRW6VY43?tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego Star Wars: The Phantom Menace Battle Droid with STAP (1,088 pieces)</a> -- $90 (<del>$140</del>)</li><li><a href="https://www.amazon.com/LEGO-PAC-Man-Building-Replica-Nostalgic/dp/B0CGYQ2WJC?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego Icons Pac-Man Arcade (2,651 pieces)</a> -- $189 (<del>$270</del>)</li><li><a href="https://www.amazon.com/dp/B0979GDCDT?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego Marvel Spider-Man Daily Bugle (3,772 pieces)</a> -- $245 (<del>$350</del>)</li><li><a href="https://www.amazon.com/LEGO-Champions-Ultimate-Formula-Collectors/dp/B0DJDDY334?tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego Speed Champions: Ultimate Formula 1 Collector's Pack (10 Sets)</a> -- $189 (<del>$270</del>)</li><li><a href="https://www.amazon.com/LEGO-Technic-Champions-McLaren-Exciting/dp/B0CX2Z2Z4K?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego Technic &amp; Speed Champions McLaren Pack (2 Sets, 697 pieces)</a> -- $54 (<del>$77</del>)</li><li><a href="https://www.amazon.com/LEGO-DC-Batman-Batmobile-Building/dp/B0CV29NN28?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego DC Batman Animated Series Batmobile (435 pieces)</a> -- $34 (<del>$60</del>)</li><li><a href="https://www.amazon.com/LEGO-DC-Batman-Collectible-Minifigure/dp/B0CV2BHWVL?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego DC Batman Mech Armor (140 pieces)</a> -- $12 (<del>$15</del>)</li><li><a href="https://www.amazon.com/dp/B0CV2M9RX2?tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego Sonic: Tails Adventure Boat (393 pieces)</a> -- $38.49 (<strike>$55</strike>)</li><li><a href="https://www.amazon.com/dp/B0DRW7WXDF?ie=UTF8&amp;smid=A1PHWOK9C4UWDY&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego Disney Cruella De Vil's Car (378 pieces)</a> -- $35 (<del>$50</del>)</li></ul><ul><li><a href="https://www.amazon.com/dp/B0BLJ3L1Z5?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego Icons: Jazz Club (2,899 pieces)</a> -- $160 (<del>$230</del>)</li><li><a href="https://www.amazon.com/dp/B0CV2G74KG?tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego City Robot World Roller Coaster (986 pieces)</a> -- $70 (<strike>$100</strike>)</li><li><a href="https://www.amazon.com/dp/B0D9HVQM3K?tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego City Yellow Delivery Truck (1,061 pieces)</a> -- $70 (<strike>$100</strike>)</li><li><a href="https://www.amazon.com/dp/B0CV2KCR1H?tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego City Yellow Mobile Construction Crane (1,116 pieces)</a> -- $77 (<strike>$110</strike>)</li><li><a href="https://www.amazon.com/dp/B0CRWHZ2XG?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego Technic: NASA Apollo Lunar Roving Vehicle (1,913 pieces)</a> -- $154 (<del>$220</del>)</li><li><a href="https://www.amazon.com/dp/B0BSRD2CXY?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego Technic: NASA Mars Rover Perseverance (1,132 pieces)</a> -- $70 (<del>$100</del>)</li><li><a href="https://www.amazon.com/dp/B0CGYTK43V?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego Classic: Vibrant Creative Brick Box (850 pieces)</a> -- $42 (<del>$60</del>)</li><li><a href="https://www.amazon.com/dp/B0CPQ6W357?ie=UTF8&amp;smid=A1PHWOK9C4UWDY&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego Duplo Classic: Cars and Trucks Brick Box (80 pieces)</a> -- $35 (<del>$50</del>)</li></ul></div>                      </div><h2>Amazon Black Friday Sale: Best Lego Deals (Nov. 28)</h2><ul><li><a href="https://www.amazon.com/dp/B0DRW6VY43?tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego Star Wars: The Phantom Menace Battle Droid with STAP (1,088 pieces)</a> -- $90 (<del>$140</del>)</li><li><a href="https://www.amazon.com/LEGO-PAC-Man-Building-Replica-Nostalgic/dp/B0CGYQ2WJC?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego Icons Pac-Man Arcade (2,651 pieces)</a> -- $189 (<del>$270</del>)</li><li><a href="https://www.amazon.com/dp/B0979GDCDT?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego Marvel Spider-Man Daily Bugle (3,772 pieces)</a> -- $245 (<del>$350</del>)</li><li><a href="https://www.amazon.com/LEGO-Champions-Ultimate-Formula-Collectors/dp/B0DJDDY334?tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego Speed Champions: Ultimate Formula 1 Collector's Pack (10 Sets)</a> -- $189 (<del>$270</del>)</li><li><a href="https://www.amazon.com/LEGO-Technic-Champions-McLaren-Exciting/dp/B0CX2Z2Z4K?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego Technic &amp; Speed Champions McLaren Pack (2 Sets, 697 pieces)</a> -- $54 (<del>$77</del>)</li><li><a href="https://www.amazon.com/LEGO-DC-Batman-Batmobile-Building/dp/B0CV29NN28?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego DC Batman Animated Series Batmobile (435 pieces)</a> -- $34 (<del>$60</del>)</li><li><a href="https://www.amazon.com/LEGO-DC-Batman-Collectible-Minifigure/dp/B0CV2BHWVL?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego DC Batman Mech Armor (140 pieces)</a> -- $12 (<del>$15</del>)</li><li><a href="https://www.amazon.com/dp/B0CV2M9RX2?tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego Sonic: Tails Adventure Boat (393 pieces)</a> -- $38.49 (<strike>$55</strike>)</li><li><a href="https://www.amazon.com/dp/B0DRW7WXDF?ie=UTF8&amp;smid=A1PHWOK9C4UWDY&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego Disney Cruella De Vil's Car (378 pieces)</a> -- $35 (<del>$50</del>)</li></ul><ul><li><a href="https://www.amazon.com/dp/B0BLJ3L1Z5?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego Icons: Jazz Club (2,899 pieces)</a> -- $160 (<del>$230</del>)</li><li><a href="https://www.amazon.com/dp/B0CV2G74KG?tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego City Robot World Roller Coaster (986 pieces)</a> -- $70 (<strike>$100</strike>)</li><li><a href="https://www.amazon.com/dp/B0D9HVQM3K?tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego City Yellow Delivery Truck (1,061 pieces)</a> -- $70 (<strike>$100</strike>)</li><li><a href="https://www.amazon.com/dp/B0CV2KCR1H?tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego City Yellow Mobile Construction Crane (1,116 pieces)</a> -- $77 (<strike>$110</strike>)</li><li><a href="https://www.amazon.com/dp/B0CRWHZ2XG?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego Technic: NASA Apollo Lunar Roving Vehicle (1,913 pieces)</a> -- $154 (<del>$220</del>)</li><li><a href="https://www.amazon.com/dp/B0BSRD2CXY?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego Technic: NASA Mars Rover Perseverance (1,132 pieces)</a> -- $70 (<del>$100</del>)</li><li><a href="https://www.amazon.com/dp/B0CGYTK43V?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego Classic: Vibrant Creative Brick Box (850 pieces)</a> -- $42 (<del>$60</del>)</li><li><a href="https://www.amazon.com/dp/B0CPQ6W357?ie=UTF8&amp;smid=A1PHWOK9C4UWDY&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego Duplo Classic: Cars and Trucks Brick Box (80 pieces)</a> -- $35 (<del>$50</del>)</li></ul><div data-embed-type="pinbox" data-ref-id="4304">  <ul>                              <li><a href="https://www.gamespot.com/articles/upgrade-nintendo-switch-2-storage-with-steeply-discounted-samsung-512gb-microsd-express/1100-6530578/">Lexar Play Pro 1TB MicroSD Express For Switch 2 Gets Black Friday Discount</a></li>                         <li><a href="https://www.gamespot.com/articles/dualsense-limited-edition-ps5-controllers-on-sale-for-black-friday/1100-6536412/">DualSense Limited Edition PS5 Controllers On Sale For Black Friday</a></li>                         <li><a href="https://www.gamespot.com/articles/best-nintendo-switch-and-switch-2-black-friday-game-deals-available-now/1100-6535728/">Check Out Over 200 Nintendo Switch Game Deals For Black Friday</a></li>                          <li>         <span>+ Show More More Gaming, Tech, and Entertainment Deals &amp; Preorders Links (5)</span>       </li>          <li><a href="https://www.gamespot.com/articles/nintendo-black-friday-sale-switch-exclusive-game-deals/1100-6536453/">Eight Nintendo Switch Exclusives Are 50% Off In Walmart's Black Friday Sale</a></li>                         <li><a href="https://www.gamespot.com/articles/the-first-ps5-pro-deal-in-six-months-is-up-for-grabs-for-a-limited-time/1100-6526406/">The First PS5 Pro Deal In Six Months Is Up For Grabs For A Limited Time</a></li>                         <li><a href="https://www.gamespot.com/articles/ghost-of-yotei-ps5-slim-bundles-and-collectors-edition-get-huge-discounts/1100-6534326/">Ghost Of Yotei PS5 Slim Bundles And Collector's Edition Get Huge Discounts</a></li>                         <li><a href="https://www.gamespot.com/articles/8bitdo-ultimate-2-switch-2-pc-controller-review-best-deals-at-amazon/1100-6529695/">Save Big On 8BitDo's Stellar Ultimate 2 Controllers In Amazon's Black Friday Sale</a></li>                         <li><a href="https://www.gamespot.com/articles/evercade-exp-r-tomb-raider-cartridge-bundle-retro-gaming-amazon-black-friday-deals/1100-6534530/">Evercade Retro Handhelds &amp; Cartridges Get Rare Price Cuts In Amazon's Black Friday Sale</a></li>   </ul> </div>
+                <p>If you've been waiting for a discount on Lego's Pac-Man Arcade, you're in luck: The 2,651-piece retro arcade cabinet model is featured in <a href="https://amzn.to/4oK9Vcl" data-target="true" target="_blank" rel="noopener nofollow">Amazon's Black Friday 2025 Lego sale</a>. The nostalgic officially licensed <a href="https://www.amazon.com/LEGO-PAC-Man-Building-Replica-Nostalgic/dp/B0CGYQ2WJC?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Pac-Man Arcade is available for $189 (was $270)</a>. The $81 discount is the best deal yet for the Pac-Man Arcade, which launched in June 2023. This <em>extremely </em>cool Lego building set for adults almost always sells for full price, and the few deals we've seen over the past two-plus years have sold out fast.</p><div title="[Lego] Pac-Man Arcade Lego Icons (BF2025)" data-embed-type="buylink" data-ref-id="5055" data-template="4" data-size="buylink__listicle" data-title="[Lego] Pac-Man Arcade Lego Icons (BF2025)" data-collection="">             <h2>                    <a href="https://www.amazon.com/LEGO-PAC-Man-Building-Replica-Nostalgic/dp/B0CGYQ2WJC?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20" rel="sponsored nofollow" target="_blank" data-event-tracking="{&quot;destUrl&quot;:&quot;https:\/\/www.amazon.com\/LEGO-PAC-Man-Building-Replica-Nostalgic\/dp\/B0CGYQ2WJC?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20&quot;,&quot;dwLinkTag&quot;:&quot;listicle|button&quot;,&quot;leadType&quot;:&quot;deal&quot;,&quot;linkLocation&quot;:&quot;BuyButton&quot;,&quot;merchantName&quot;:&quot;&quot;,&quot;seamlessScrollPage&quot;:&quot;1&quot;,&quot;searchDim&quot;:&quot;listicle|button&quot;}" data-track-page-event="{&quot;eventName&quot;:&quot;Monetization Link Clicked&quot;,&quot;merchantName&quot;:&quot;&quot;,&quot;merchantPrice&quot;:&quot;&quot;}" data-vars-buy-link="https://www.amazon.com/LEGO-PAC-Man-Building-Replica-Nostalgic/dp/B0CGYQ2WJC?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20">Lego Icons: Pac-Man Arcade (2,651 Pieces)</a>       </h2>                                   <h3>                      <a href="https://www.amazon.com/LEGO-PAC-Man-Building-Replica-Nostalgic/dp/B0CGYQ2WJC?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20" rel="sponsored nofollow" target="_blank" data-event-tracking="{&quot;destUrl&quot;:&quot;https:\/\/www.amazon.com\/LEGO-PAC-Man-Building-Replica-Nostalgic\/dp\/B0CGYQ2WJC?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20&quot;,&quot;dwLinkTag&quot;:&quot;listicle|button&quot;,&quot;leadType&quot;:&quot;deal&quot;,&quot;linkLocation&quot;:&quot;BuyButton&quot;,&quot;merchantName&quot;:&quot;&quot;,&quot;seamlessScrollPage&quot;:&quot;1&quot;,&quot;searchDim&quot;:&quot;listicle|button&quot;}" data-track-page-event="{&quot;eventName&quot;:&quot;Monetization Link Clicked&quot;,&quot;merchantName&quot;:&quot;&quot;,&quot;merchantPrice&quot;:&quot;&quot;}" data-vars-buy-link="https://www.amazon.com/LEGO-PAC-Man-Building-Replica-Nostalgic/dp/B0CGYQ2WJC?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20">$189 (was $270)</a>         </h3>                                                                                                                      <div><p>Part of the Lego Icons series, Pac-Man Arcade is a brick-built countertop machine model measuring 10 x 7 x 13 inches. Out of all of Lego's gaming system sets, Pac-Man Arcade is probably the most impressive from a design perspective. And it's definitely the coolest when it comes to interactive features. It has a movable four-way joystick, and you can press the two dome buttons. The crank on the side of the cabinet moves Pac-Man through the mechanical maze while Blinky and Clyde chase him.</p><p>The coin slot uses a light brick that makes it look like the real thing. In addition to the cabinet itself, it comes with buildable Pac-Man, Blinky, and Clyde figures that attach to a stand that connects to the top of the cabinet.</p><p>Rounding out the set is a minifigure-scale '80s arcade scene, complete with a tiny brick-built Pac-Man cabinet and a gamer minifigure wearing vintage clothes. You can store the scene inside the cabinet by removing the back panel. This also allows you to watch the mechanical components in motion while turning the crank.</p></div>                      </div><h2>Amazon Black Friday Sale: Best Lego Deals (Nov. 28)</h2><ul><li><a href="https://www.amazon.com/dp/B0DRW6VY43?tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego Star Wars: The Phantom Menace Battle Droid with STAP (1,088 pieces)</a> -- $90 (<del>$140</del>)</li><li><a href="https://www.amazon.com/LEGO-PAC-Man-Building-Replica-Nostalgic/dp/B0CGYQ2WJC?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego Icons Pac-Man Arcade (2,651 pieces)</a> -- $189 (<del>$270</del>)</li><li><a href="https://www.amazon.com/LEGO-Technic-Champions-McLaren-Exciting/dp/B0CX2Z2Z4K?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego Technic &amp; Speed Champions McLaren Pack (2 Sets, 697 pieces)</a> -- $54 (<del>$77</del>)</li><li><a href="https://www.amazon.com/LEGO-DC-Batman-Batmobile-Building/dp/B0CV29NN28?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego DC Batman Animated Series Batmobile (435 pieces)</a> -- $38.49 (<del>$60</del>)</li><li><a href="https://www.amazon.com/LEGO-DC-Batman-Collectible-Minifigure/dp/B0CV2BHWVL?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego DC Batman Mech Armor (140 pieces)</a> -- $12 (<del>$15</del>)</li><li><a href="https://www.amazon.com/dp/B0DRW7WXDF?ie=UTF8&amp;smid=A1PHWOK9C4UWDY&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego Disney Cruella De Vil's Car (378 pieces)</a> -- $35 (<del>$50</del>)</li><li><a href="https://www.amazon.com/dp/B0BLJ3L1Z5?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego Icons: Jazz Club (2,899 pieces)</a> -- $160 (<del>$230</del>)</li><li><a href="https://www.amazon.com/dp/B0CV2G74KG?tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego City Robot World Roller Coaster (986 pieces)</a> -- $70 (<strike>$100</strike>)</li><li><a href="https://www.amazon.com/dp/B0D9HVQM3K?tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego City Yellow Delivery Truck (1,061 pieces)</a> -- $70 (<strike>$100</strike>)</li><li><a href="https://www.amazon.com/dp/B0CV2KCR1H?tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego City Yellow Mobile Construction Crane (1,116 pieces)</a> -- $77 (<strike>$110</strike>)</li><li><a href="https://www.amazon.com/dp/B0CRWHZ2XG?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego Technic: NASA Apollo Lunar Roving Vehicle (1,913 pieces)</a> -- $154 (<del>$220</del>)</li><li><a href="https://www.amazon.com/dp/B0BSRD2CXY?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego Technic: NASA Mars Rover Perseverance (1,132 pieces)</a> -- $70 (<del>$100</del>)</li><li><a href="https://www.amazon.com/dp/B0CGYTK43V?ie=UTF8&amp;smid=ATVPDKIKX0DER&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego Classic: Vibrant Creative Brick Box (850 pieces)</a> -- $42 (<del>$60</del>)</li><li><a href="https://www.amazon.com/dp/B0CPQ6W357?ie=UTF8&amp;smid=A1PHWOK9C4UWDY&amp;tag=gamespot-bfcm-20" data-target="true" target="_blank" rel="noopener nofollow">Lego Duplo Classic: Cars and Trucks Brick Box (80 pieces)</a> -- $35 (<del>$50</del>)</li></ul><div data-embed-type="pinbox" data-ref-id="4304">  <ul>                              <li><a href="https://www.gamespot.com/articles/upgrade-nintendo-switch-2-storage-with-steeply-discounted-samsung-512gb-microsd-express/1100-6530578/">Lexar Play Pro 1TB MicroSD Express For Switch 2 Gets Black Friday Discount</a></li>                         <li><a href="https://www.gamespot.com/articles/dualsense-limited-edition-ps5-controllers-on-sale-for-black-friday/1100-6536412/">DualSense Limited Edition PS5 Controllers On Sale For Black Friday</a></li>                         <li><a href="https://www.gamespot.com/articles/best-nintendo-switch-and-switch-2-black-friday-game-deals-available-now/1100-6535728/">Check Out Over 200 Nintendo Switch Game Deals For Black Friday</a></li>                          <li>         <span>+ Show More More Gaming, Tech, and Entertainment Deals &amp; Preorders Links (5)</span>       </li>          <li><a href="https://www.gamespot.com/articles/nintendo-black-friday-sale-switch-exclusive-game-deals/1100-6536453/">Eight Nintendo Switch Exclusives Are 50% Off In Walmart's Black Friday Sale</a></li>                         <li><a href="https://www.gamespot.com/articles/the-first-ps5-pro-deal-in-six-months-is-up-for-grabs-for-a-limited-time/1100-6526406/">The First PS5 Pro Deal In Six Months Is Up For Grabs For A Limited Time</a></li>                         <li><a href="https://www.gamespot.com/articles/ghost-of-yotei-ps5-slim-bundles-and-collectors-edition-get-huge-discounts/1100-6534326/">Ghost Of Yotei PS5 Slim Bundles And Collector's Edition Get Huge Discounts</a></li>                         <li><a href="https://www.gamespot.com/articles/8bitdo-ultimate-2-switch-2-pc-controller-review-best-deals-at-amazon/1100-6529695/">Save Big On 8BitDo's Stellar Ultimate 2 Controllers In Amazon's Black Friday Sale</a></li>                         <li><a href="https://www.gamespot.com/articles/evercade-exp-r-tomb-raider-cartridge-bundle-retro-gaming-amazon-black-friday-deals/1100-6534530/">Evercade Retro Handhelds &amp; Cartridges Get Rare Price Cuts In Amazon's Black Friday Sale</a></li>   </ul> </div>
   
                         
     
@@ -80,7 +300,7 @@
 
     
 </div>
-                      <meta itemprop="seamless-content-list-items" data-list-items="[{&quot;guid&quot;:&quot;1100-6536461&quot;,&quot;url&quot;:&quot;\/articles\/playstation-plus-essential-free-games-for-december-2025\/1100-6536461\/&quot;},{&quot;guid&quot;:&quot;1100-6536377&quot;,&quot;url&quot;:&quot;\/articles\/arcade1up-cabinet-deals-bf2025\/1100-6536377\/&quot;},{&quot;guid&quot;:&quot;1100-6536448&quot;,&quot;url&quot;:&quot;\/articles\/cronos-the-new-dawn-deals-bf2025\/1100-6536448\/&quot;},{&quot;guid&quot;:&quot;1100-6536437&quot;,&quot;url&quot;:&quot;\/articles\/fanatical-arc-raiders-black-friday-deal\/1100-6536437\/&quot;},{&quot;guid&quot;:&quot;1100-6536509&quot;,&quot;url&quot;:&quot;\/articles\/expedition-33-actor-says-hes-truly-grateful-for-outpouring-of-support-after-charlie-cox-spoke-out\/1100-6536509\/&quot;},{&quot;guid&quot;:&quot;1100-6536537&quot;,&quot;url&quot;:&quot;\/articles\/fortnite-is-down-along-with-a-number-of-other-games\/1100-6536537\/&quot;},{&quot;guid&quot;:&quot;1100-6536397&quot;,&quot;url&quot;:&quot;\/articles\/dragon-generations-codes\/1100-6536397\/&quot;},{&quot;guid&quot;:&quot;1100-6536515&quot;,&quot;url&quot;:&quot;\/articles\/how-to-get-a-free-kill-bill-fortnite-skin\/1100-6536515\/&quot;},{&quot;guid&quot;:&quot;1100-6536485&quot;,&quot;url&quot;:&quot;\/articles\/lego-star-wars-ultimate-collector-series-black-friday-deals\/1100-6536485\/&quot;},{&quot;guid&quot;:&quot;1100-6536068&quot;,&quot;url&quot;:&quot;\/articles\/fortnite-chapter-7-start-date-new-map-and-everything-we-know-so-far\/1100-6536068\/&quot;},{&quot;guid&quot;:&quot;1100-6535971&quot;,&quot;url&quot;:&quot;\/articles\/arc-raiders-echoes-of-victory-ridge-quest-guide\/1100-6535971\/&quot;},{&quot;guid&quot;:&quot;1100-6536531&quot;,&quot;url&quot;:&quot;\/articles\/back-to-the-future-40th-anniversary-4k-blu-ray-deal-bf2025\/1100-6536531\/&quot;},{&quot;guid&quot;:&quot;1100-6526471&quot;,&quot;url&quot;:&quot;\/articles\/2025-upcoming-games-release-schedule\/1100-6526471\/&quot;},{&quot;guid&quot;:&quot;1100-6536335&quot;,&quot;url&quot;:&quot;\/articles\/arc-raiders-a-lay-of-the-land-quest-guide\/1100-6536335\/&quot;},{&quot;guid&quot;:&quot;1100-6534941&quot;,&quot;url&quot;:&quot;\/articles\/2026-upcoming-games-release-schedule\/1100-6534941\/&quot;},{&quot;guid&quot;:&quot;1100-6536454&quot;,&quot;url&quot;:&quot;\/articles\/nintendo-switch-game-deals-at-best-buy-bf2025\/1100-6536454\/&quot;},{&quot;guid&quot;:&quot;1100-6535962&quot;,&quot;url&quot;:&quot;\/articles\/arc-raiders-the-majors-footlocker-quest-guide\/1100-6535962\/&quot;},{&quot;guid&quot;:&quot;1100-6535932&quot;,&quot;url&quot;:&quot;\/articles\/arc-raiders-industrial-espionage-quest-guide\/1100-6535932\/&quot;},{&quot;guid&quot;:&quot;1100-6535965&quot;,&quot;url&quot;:&quot;\/articles\/arc-raiders-keeping-the-memory-quest-guide\/1100-6535965\/&quot;}]">
+                      <meta itemprop="seamless-content-list-items" data-list-items="[{&quot;guid&quot;:&quot;1100-6536527&quot;,&quot;url&quot;:&quot;\/articles\/save-50-on-the-popular-lego-city-modular-space-station-for-black-friday\/1100-6536527\/&quot;},{&quot;guid&quot;:&quot;1100-6532173&quot;,&quot;url&quot;:&quot;\/articles\/digimon-adventure-original-series-gets-rare-price-cut-for-black-friday\/1100-6532173\/&quot;},{&quot;guid&quot;:&quot;1100-6535752&quot;,&quot;url&quot;:&quot;\/articles\/lego-board-game-brick-like-this-monkey-palace-deals\/1100-6535752\/&quot;},{&quot;guid&quot;:&quot;1100-6536095&quot;,&quot;url&quot;:&quot;\/articles\/sonic-racing-crossworlds-steeply-discounted-comes-with-10-amazon-credit\/1100-6536095\/&quot;},{&quot;guid&quot;:&quot;1100-6535384&quot;,&quot;url&quot;:&quot;\/articles\/lego-minecraft-crafting-table-diorama-gets-huge-price-cut-for-black-friday\/1100-6535384\/&quot;},{&quot;guid&quot;:&quot;1100-6536485&quot;,&quot;url&quot;:&quot;\/articles\/lego-star-wars-ultimate-collector-series-black-friday-deals\/1100-6536485\/&quot;},{&quot;guid&quot;:&quot;1100-6536377&quot;,&quot;url&quot;:&quot;\/articles\/arcade1up-cabinet-deals-bf2025\/1100-6536377\/&quot;},{&quot;guid&quot;:&quot;1100-6536454&quot;,&quot;url&quot;:&quot;\/articles\/nintendo-switch-game-deals-at-best-buy-bf2025\/1100-6536454\/&quot;},{&quot;guid&quot;:&quot;1100-6536465&quot;,&quot;url&quot;:&quot;\/articles\/fanatical-black-friday-2025-sale\/1100-6536465\/&quot;},{&quot;guid&quot;:&quot;1100-6533927&quot;,&quot;url&quot;:&quot;\/articles\/magic-the-gathering-avatar-the-last-airbender-collector-restock-release-day-guide\/1100-6533927\/&quot;},{&quot;guid&quot;:&quot;1100-6536433&quot;,&quot;url&quot;:&quot;\/articles\/playstation-portal-remote-gaming-handheld-gets-nice-black-friday-price-cut\/1100-6536433\/&quot;},{&quot;guid&quot;:&quot;1100-6536164&quot;,&quot;url&quot;:&quot;\/articles\/meta-ai-powered-ray-ban-sunglasses-are-on-sale-for-black-friday\/1100-6536164\/&quot;},{&quot;guid&quot;:&quot;1100-6536453&quot;,&quot;url&quot;:&quot;\/articles\/nintendo-black-friday-sale-switch-exclusive-game-deals\/1100-6536453\/&quot;},{&quot;guid&quot;:&quot;1100-6536451&quot;,&quot;url&quot;:&quot;\/articles\/best-gaming-laptop-deals-at-amazon-bf2025\/1100-6536451\/&quot;},{&quot;guid&quot;:&quot;1100-6531293&quot;,&quot;url&quot;:&quot;\/articles\/hori-mario-kart-world-racing-wheel-nintendo-switch-2-amazon-black-friday-deal\/1100-6531293\/&quot;},{&quot;guid&quot;:&quot;1100-6528461&quot;,&quot;url&quot;:&quot;\/articles\/dragon-ball-super-complete-series-blu-ray-steelbook-collector-edition-black-friday-deal\/1100-6528461\/&quot;},{&quot;guid&quot;:&quot;1100-6526922&quot;,&quot;url&quot;:&quot;\/articles\/the-complete-calvin-and-hobbes-comic-strip-book-box-set-amazon-black-friday-deal\/1100-6526922\/&quot;},{&quot;guid&quot;:&quot;1100-6535220&quot;,&quot;url&quot;:&quot;\/articles\/lego-baby-yoda-and-hover-pram-is-50-off-at-amazon-but-itll-sell-out-soon\/1100-6535220\/&quot;},{&quot;guid&quot;:&quot;1100-6536385&quot;,&quot;url&quot;:&quot;\/articles\/score-early-black-friday-deals-on-these-official-tetris-space-invaders-atari-smart-watches\/1100-6536385\/&quot;},{&quot;guid&quot;:&quot;1100-6536457&quot;,&quot;url&quot;:&quot;\/articles\/lego-super-mario-battle-with-roy-at-peach-castle-amazon-black-friday-deal\/1100-6536457\/&quot;}]">
             </div>
               
     </div></div><br/><br/>https://www.gamespot.com/articles/lego-pac-man-arcade-machine-gets-rare-discount-in-amazon-black-friday-sale/1100-6536559/?ftag=CAD-01-10abi2f]]></content:encoded>
@@ -111,16 +331,16 @@
 <p>Signs of life</p>
 </section></header><div><section>
 <figure data-uuid="ab13495c29960"><a title="Call of Duty" href="https://images.nintendolife.com/ab13495c29960/call-of-duty.large.jpg"></a><figcaption><em><span></span> Image: Activision, Microsoft</em></figcaption></figure><p>It's been a while since we heard anything about the <a href="https://www.nintendolife.com/games/wiiu/call_of_duty_ghosts">Call of Duty</a> series returning to Nintendo platforms, and now following the recent release of <a href="https://www.pushsquare.com/games/ps5/call_of_duty_black_ops_7"><strong>Call of Duty: Black Ops 7</strong></a> on <em>other</em> platforms earlier this month, there has reportedly been some signs of life.</p>
-<p>According to Insider Gaming, a new job listing from Sledgehammer Games - seeking a "Senior Technical Artist" - <a href="https://www.linkedin.com/jobs/view/4347622051/">has surfaced on LinkedIn</a>, and in the 'Bonus XP' section of the application, the team notes how it would appreciate someone with "AAA mobile or Switch experience".</p><div><figure data-videoid="SLvDnhHkJZk" data-start="0" data-src="https://www.youtube.com/embed/SLvDnhHkJZk?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><div><iframe id="ytSLvDnhHkJZk" title="YouTube Video" data-src-fallback="https://www.youtube-nocookie.com/embed/SLvDnhHkJZk?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/SLvDnhHkJZk?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed3938bdgpjzht&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><p>Subscribe to <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1">Nintendo Life</a> on <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1"><span>YouTube</span><span>839k</span></a></p>
+<p>According to Insider Gaming, a new job listing from Sledgehammer Games - seeking a "Senior Technical Artist" - <a href="https://www.linkedin.com/jobs/view/4347622051/">has surfaced on LinkedIn</a>, and in the 'Bonus XP' section of the application, the team notes how it would appreciate someone with "AAA mobile or Switch experience".</p><div><figure data-videoid="SLvDnhHkJZk" data-start="0" data-src="https://www.youtube.com/embed/SLvDnhHkJZk?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><div><iframe id="ytSLvDnhHkJZk" title="YouTube Video" data-src-fallback="https://www.youtube-nocookie.com/embed/SLvDnhHkJZk?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/SLvDnhHkJZk?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed3938bdrnpgkh&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><p>Subscribe to <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1">Nintendo Life</a> on <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1"><span>YouTube</span><span>839k</span></a></p>
 </div></figure></div>
 <p>Although Sledgehammer only provided support on the latest Call of Duty title, it has previously taken the reins for major titles such as <a href="https://www.pushsquare.com/games/ps5/call_of_duty_modern_warfare_3"><strong>Call of Duty: Modern Warfare 3</strong></a>.</p>
 <p>This small discovery follows <a href="https://www.nintendolife.com/news/2025/06/yes-call-of-duty-is-still-on-the-way-to-nintendo-hardware">an update earlier this year in June 2025</a>, with a report at the time suggesting Microsoft and Nintendo still had plans to announce <em>something</em> related to this series in the future.</p>
 <p>Microsoft and Nintendo originally <a href="https://www.nintendolife.com/news/2022/12/microsoft-enters-10-year-commitment-to-bring-call-of-duty-to-nintendo">entered a 10-year commitment</a> to bring Call of Duty to Nintendo platforms in 2022, with the deal becoming legally binding in 2023. This was followed by Microsoft being given the all-clear on the Activision Blizzard acquisition in the same year.</p>
 <p>According to a previous story, Sledgehammer Games is <a href="https://insider-gaming.com/sledgehammer-games-office/">rumoured to be releasing its next Call of Duty</a> title in 2027.</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:183692,142197,194046 @ 1764314667 -->
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:183692,142197,194046 @ 1764318422 -->
 <p>Would you be interested in returning to this series on Nintendo platforms? <em>Let us know in the comments.</em></p></section>
 <p>[source <a title="External Link: https://insider-gaming.com/sledgehammer-games-call-of-duty-switch/" rel="noopener" href="https://insider-gaming.com/sledgehammer-games-call-of-duty-switch/">insider-gaming.com</a>]</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-info/92a1484e7340cc1aaa50e7c07e55bdf7 @ 1764315473 --></div></article><div><p>Liam is a news writer and reviewer across Hookshot Media. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-info/92a1484e7340cc1aaa50e7c07e55bdf7 @ 1764319337 --></div></article><div><p>Liam is a news writer and reviewer across Hookshot Media. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
 </div></div></div><br/><br/>https://www.nintendolife.com/news/2025/11/call-of-duty-dev-sledgehammer-games-seeking-talent-with-switch-experience]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
@@ -128,18 +348,20 @@
             <title><![CDATA[Assassin's Creed Shadows Switch 2 Port Technical Rundown Detailed By Ubisoft]]></title>
             <link>https://www.nintendolife.com/news/2025/11/assassins-creed-shadows-switch-2-port-technical-rundown-detailed-by-ubisoft</link>
             <guid>1367008</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><section>
-<figure data-uuid="1c4b88860f604"><a title="Assassin's Creed Shadows" href="https://images.nintendolife.com/1c4b88860f604/assassins-creed-shadows.large.jpg"></a><figcaption><em><span></span> Image: Ubisoft</em></figcaption></figure><p><a href="https://www.nintendolife.com/games/nintendo-switch-2/assassins-creed-shadows">Assassin's Creed Shadows</a> is out for the Switch 2 next week, and ahead of launch, Ubisoft has published a "deep dive" about the technical aspects of this port. Here's the rundown:</p>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><section>
+<figure data-uuid="1c4b88860f604"><a title="Assassin's Creed Shadows" href="https://images.nintendolife.com/1c4b88860f604/assassins-creed-shadows.large.jpg"></a><figcaption><em><span></span> Image: Ubisoft</em></figcaption></figure><p><a href="https://www.nintendolife.com/games/nintendo-switch-2/assassins-creed-shadows">Assassin's Creed Shadows</a> is out for the Switch 2 next week, and ahead of launch, Ubisoft has published a "deep dive" on its website about the technical aspects of this port. Here's the summary:</p>
 <nav><ul><li><span title="On This Page"></span></li></ul>
 </nav>
 <h3 id="frame-rate">Frame Rate</h3>
 <p>Firstly, in both docked and handheld modes, the frame rate will target 30 fps. The resolution was not included here.</p>
 <h3 id="adapting-to-switch-2">Adapting to Switch 2</h3>
-<p>As for adapting the title to this system, the team says it has done <em>a lot</em> of "code-level work" to optimise and adapt the game architecture. This includes "modifying game assets to streamline certain technical aspects of the quality" without compromising the overall player experience.</p>
+<p>As for adapting the title to Nintendo's new system, the team says it has done <em>a lot</em> of "code-level work" to optimise and adapt the game architecture. This includes "modifying game assets to streamline certain technical aspects of the quality" without compromising the overall player experience.</p>
+<blockquote>
 <p>"Behind the scenes, we've worked a lot to make the world run smoothly and remain visually stunning and dynamic... For example, we're using the same cloud and cloth simulation systems, but we've optimized certain elements for the ARM processor and downscaled simulation data where needed to reduce GPU load, all while preserving visual fidelity."</p>
-<p>Although the Switch 2 supports Ray-Traced Global Illumination, the team opted to use its solid baked Global Illumination system (which it also uses for "low-spec PC setups and Xbox Series S versions" of games), citing "RAM memory reasons" as the main decision behind this. It apparently allows the developers to preserve the overall experience as much as possible.</p>
+</blockquote>
+<p>Although the Switch 2 supports Ray-Traced Global Illumination, the team has opted to use its solid baked Global Illumination system (which it also uses for "low-spec PC setups and Xbox Series S versions" of games), citing "RAM memory reasons" as the main decision behind this. It apparently allows the developers to preserve the overall experience as much as possible.</p>
 <h3 id="optimisation">Optimisation</h3>
-<p>In terms of optimisation – Level of Detail (LOD), draw distances, texture resolution and element loading were all "carefully adjusted to maintain performance without compromising the world's depth" - with the environmental richness of the world still "largely intact". However, NPC counts have been reduced in highly populated areas to maintain "smooth gameplay".</p>
+<p>In terms of optimisation – Level of Detail (LOD), draw distances, texture resolution and element loading were all "carefully adjusted to maintain performance without compromising the world's depth", with the environmental richness of the world still "largely intact". However, NPC counts have been reduced in highly populated areas to maintain "smooth gameplay".</p>
 <h3 id="dlss">DLSS</h3>
 <p>DLSS has also been utilised, resulting in a "sharper image, with more accurate colors, improved textures, and fewer visual anomalies". Performance is described as being "smoother, offering higher FPS through upscaling, better fluidity, and reduced latency".</p>
 <h3 id="handheld-and-docked-experience">Handheld and Docked experience</h3>
@@ -147,8 +369,10 @@
 <p>One feat, in particular, is how "the lower framerate limit for VRR is typically 40 fps, but Assassin's Creed Shadows runs at 30 fps on Switch 2" and the team "didn't want to compromise on that aspect" so it built a "dedicated algorithm that keeps VRR enabled even at 30 fps" to ensure the experience remains as "fluid and responsive as possible".</p>
 <h3 id="switch-2-specific-features">Switch 2-specific features</h3>
 <p>Last but not least are some Switch 2-specific features including touch screen navigation for menus and maps. Nintendo players can also expect this version to include "all post-launch content" excluding the "Claws of Awaji expansion" due out in 2026. Cross-progression is supported as well via Ubisoft Connect, so you can continue your adventure across platforms.</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:194295,194321,187582 @ 1764314067 -->
-<p>Will you be interested in playing this game on the Switch 2? <em>Let us know in the comments.</em></p></section></div><br/><br/>https://www.nintendolife.com/news/2025/11/assassins-creed-shadows-switch-2-port-technical-rundown-detailed-by-ubisoft]]></content:encoded>
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:194295,194321,187582 @ 1764321278 -->
+<p>Will you be interested in playing this game on the Switch 2? <em>Let us know in the comments.</em></p></section>
+<p>[source <a title="External Link: https://www.ubisoft.com/it-it/game/assassins-creed/news/3eHpj3aktX4nWY150OEHJL" rel="noopener" href="https://www.ubisoft.com/it-it/game/assassins-creed/news/3eHpj3aktX4nWY150OEHJL">ubisoft.com</a>]</p>
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-info/83111cb0e57781764d9e58d5dbbfefe9 @ 1764318072 --></div></div><br/><br/>https://www.nintendolife.com/news/2025/11/assassins-creed-shadows-switch-2-port-technical-rundown-detailed-by-ubisoft]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
         <item>
@@ -239,10 +463,10 @@
 <blockquote>
 <p>"There’s no question about it: Super Mario Galaxy and Galaxy 2 are two of the most sublime games ever created. With gameplay that subverts expectations and scenarios that wouldn’t be possible if not for the creative freedom of the cosmos, they represent the Mario series at its absolute best. They look better than ever, boast small yet welcome additions, and expand upon the narrative with new storybook pages...These games command a high price on Switch, to be sure, but you’ll be playing them for the rest of your life."</p></blockquote><blockquote>
 </blockquote>
-<!-- cache: html:nintendolife.com/ssl/nintendo-mobile/related-articles:188104,188810,188925 @ 1764317420 -->
+<!-- cache: html:nintendolife.com/ssl/nintendo-mobile/related-articles:188104,188810,188925 @ 1764321025 -->
 <p>Have you tried out Super Mario Run on mobile before? Have you participated in any of these collaborative events? <em>Let us know in the comments.</em></p></section>
 <p>[source <a title="External Link: https://www.nintendo.com/jp/topics/article/9c0918a5-cd14-43a9-8a03-0c558e49c2b9?utm_source=twitter&amp;amp;utm_medium=social&amp;amp;utm_content=20251127&amp;amp;utm_campaign=topics" rel="noopener" href="https://www.nintendo.com/jp/topics/article/9c0918a5-cd14-43a9-8a03-0c558e49c2b9?utm_source=twitter&amp;utm_medium=social&amp;utm_content=20251127&amp;utm_campaign=topics">nintendo.com</a>]</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-mobile/related-info/6813a7f72b7f0f98e63737546409d9ce @ 1764317420 --></div></article><div><p>Liam is a news writer and reviewer across Hookshot Media. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
+<!-- cache: html:nintendolife.com/ssl/nintendo-mobile/related-info/6813a7f72b7f0f98e63737546409d9ce @ 1764319379 --></div></article><div><p>Liam is a news writer and reviewer across Hookshot Media. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
 </div></div></div><br/><br/>https://www.nintendolife.com/news/2025/11/super-mario-run-scores-a-super-mario-galaxy-plus-super-mario-galaxy-2-event]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
@@ -373,7 +597,7 @@
             <guid>1366927</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
               
-              <p>HP keeps premium positioning in the Windows laptop segment where finding capable machines under $1,000 proves challenging, particularly on their official website where aggressive discounting rarely appears. The good news is that <a href="https://shop.kotaku.com/go/6024/">at $569, down from a typical $1,999, this 15.6-inch touchscreen laptop</a> featuring <strong>Intel’s 13th Gen i3-1315U processor, 16GB RAM, 512GB SSD, and Windows 11 Pro</strong> has <a href="https://shop.kotaku.com/go/6024/">crashed 72% below typical pricing</a> during Black Friday on Amazon.</p>
+              <p>HP keeps premium positioning in the Windows laptop segment where finding capable machines under $1,000 proves challenging, particularly on their official website where aggressive discounting rarely appears. The good news is that <a href="https://shop.kotaku.com/go/6024/">at $539, down from a typical $1,999, this 15.6-inch touchscreen laptop</a> featuring <strong>Intel’s 13th Gen i3-1315U processor, 16GB RAM, 512GB SSD, and Windows 11 Pro</strong> has <a href="https://shop.kotaku.com/go/6024/">crashed 73% below typical pricing</a> during Black Friday on Amazon.</p>
 <p><a href="https://shop.kotaku.com/go/6024/" target="_self" rel="sponsored nofollow">See at Amazon</a></p>
 
 <h2>Can Handle Real Workloads</h2>
@@ -902,367 +1126,6 @@ If it's Switch 2-specific features you want, there's touch screen navigation whe
 <p><a href="https://shop.kotaku.com/go/6021/" target="_self" rel="sponsored nofollow">See at Amazon</a></p>
 
                           </div></div><br/><br/>https://kotaku.com/lego-goes-full-liquidation-on-santas-sleigh-set-now-selling-at-zero-profit-to-clear-before-christmas-2000648144]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Japanese Charts: Kirby Air Riders Is Off To A Flying Start]]></title>
-            <link>https://www.nintendolife.com/news/2025/11/japanese-charts-kirby-air-riders-is-off-to-a-flying-start</link>
-            <guid>1366765</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><section>
-<figure data-uuid="230af70b31ddb"><a title="Kirby Air Riders" href="https://images.nintendolife.com/230af70b31ddb/kirby-air-riders.large.jpg"></a><figcaption><em><span></span> Image: Nintendo</em></figcaption></figure><p>We are back with another look at the Japanese physical software sales chart, courtesy of <a href="https://www.famitsu.com/article/202511/59034">Famitsu</a>, and we can't even be surprised by this week's champion.</p>
-<p>Kirby has proven his absolute dominance in the region once again, with <a href="https://www.nintendolife.com/games/nintendo-switch-2/kirby-air-riders">Kirby Air Riders</a> getting off the start line in style with a sweet 195,594 sales under its belt. It's nothing compared to the 380,000 debut that <a href="https://www.nintendolife.com/games/nintendo-switch/kirby_and_the_forgotten_land">The Forgotten Land</a> mustered <a href="https://www.nintendolife.com/news/2022/03/japanese-charts-kirby-and-the-forgotten-land-absorbs-more-big-sales">back in 2022</a>, but for a game as niche as Air Riders, it ain't bad going!</p>
-<p>Elsewhere, last week's chart-topper in Konami's <a href="https://www.nintendolife.com/games/nintendo-switch-2/momotaro-dentetsu-2-anata-no-machi-mo-kitto-aru-higashi-nihon-hen-plus-nishi-nihon-hen-nintendo-switch-2-edition">Momotaro Dentetsu</a> board game sequel has tumbled down to fourth and sixth on Switch and Switch 2 respectively, leaving <a href="https://www.nintendolife.com/games/nintendo-switch-2/mario-kart-world">Mario Kart World</a> and <a href="https://www.nintendolife.com/games/nintendo-switch/pokemon_legends_z-a">Pokémon Legends: Z-A</a> to fill out the remaining spots on the podium. Oh yes, and <a href="https://www.nintendolife.com/games/nintendo-switch-2/hyrule-warriors-age-of-imprisonment">Hyrule Warriors: Age of Imprisonment</a> pushed past the big 100,000 sales.</p><div><figure data-videoid="M1hEbqIQJAc" data-start="0" data-src="https://www.youtube.com/embed/M1hEbqIQJAc?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><div><iframe id="ytM1hEbqIQJAc" title="YouTube Video" data-src-fallback="https://www.youtube-nocookie.com/embed/M1hEbqIQJAc?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/M1hEbqIQJAc?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed6de8adhwxqsp&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><p>Subscribe to <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1">Nintendo Life</a> on <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1"><span>YouTube</span><span>839k</span></a></p>
-</div></figure></div>
-<p>Here's the latest top ten physical sales in Japan:</p>
-<table>
-<thead>
-<tr>
-<th>Position</th>
-<th>Game</th>
-<th>Platform</th>
-<th>Unit Sales (17th - 23rd Nov)</th>
-<th>Total Unit Sales</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>
-<p>Kirby Air Riders</p>
-</td>
-<td>
-<p>Switch 2</p>
-</td>
-<td>195,594</td>
-<td>NEW</td>
-</tr>
-<tr>
-<td>2<a href="https://www.pushsquare.com/games/ps5/shin_megami_tensei_v_vengeance"><br></a></td>
-<td>
-<p>Mario Kart World</p>
-</td>
-<td>
-<p>Switch 2</p>
-</td>
-<td>67,068</td>
-<td>
-<p>2,202,125</p>
-</td>
-</tr>
-<tr>
-<td>3</td>
-<td>
-<p>Pokémon Legends: Z-A</p>
-</td>
-<td>
-<p>Switch</p>
-</td>
-<td>28,480</td>
-<td>1,271,576</td>
-</tr>
-<tr>
-<td>4</td>
-<td>
-<p>Momotaro Dentetsu 2: Anata no Machi mo Kitto Aru – Higashi Nihon Hen + Nishi Nihon Hen</p>
-</td>
-<td>
-<p>Switch</p>
-</td>
-<td>
-<p>28,074</p>
-</td>
-<td>118,780</td>
-</tr>
-<tr>
-<td>5</td>
-<td>
-<p>Pokémon Legends: Z-A</p>
-</td>
-<td>
-<p>Switch 2</p>
-</td>
-<td>
-<p>22,060</p>
-</td>
-<td>
-<p>798,015</p>
-</td>
-</tr>
-<tr>
-<td>6</td>
-<td>
-<p>Momotaro Dentetsu 2: Anata no Machi mo Kitto Aru – Higashi Nihon Hen + Nishi Nihon Hen - Nintendo Switch 2 Edition</p>
-</td>
-<td>
-<p>Switch 2</p>
-</td>
-<td>20,751</td>
-<td>77,558</td>
-</tr>
-<tr>
-<td>7</td>
-<td>
-<p>Hyrule Warriors: Age of Imprisonment</p>
-</td>
-<td>
-<p>Switch 2</p>
-</td>
-<td>9,129</td>
-<td>100,121</td>
-</tr>
-<tr>
-<td>8</td>
-<td>
-<p>Dragon Quest I &amp; II HD-2D Remake</p>
-</td>
-<td>
-<p>Switch</p>
-</td>
-<td>8,302</td>
-<td>286,589</td>
-</tr>
-<tr>
-<td>9</td>
-<td>
-<p>Minecraft</p>
-</td>
-<td>
-<p>Switch</p>
-</td>
-<td>4,909</td>
-<td>
-<p>4,051,401</p>
-</td>
-</tr>
-<tr>
-<td>10<br></td>
-<td>
-<p>Animal Crossing: New Horizons</p>
-</td>
-<td>
-<p>Switch</p>
-</td>
-<td>4,908</td>
-<td>
-<p>8,258,611</p>
-</td>
-</tr>
-</tbody>
-</table>
-<hr>
-<p>Switch 2 hardware sales have seen an expected boost by the presence of a new exclusive Kirby in town, with the console finding itself comfortably at the top of the hardware chart with an additional 126,953 units to its name. It has also been a strong week for PS5 sales, mind you, with the Digital Edition achieving 23,381, and the Pro even overtaking the Switch Lite and standard models with 11,367.</p>
-<p>All this means that combining the console SKUs swings things in Sony's favour this time, with the three PS5 units clocking in at 36,920, while the Switch 1 models combine for 29,370.</p>
-<p>Here's a look at the week's full hardware charts:</p>
-<table>
-<thead>
-<tr>
-<th>Position</th>
-<th>Console<br></th>
-<th><strong>Unit Sales (17th</strong> - 23rd Nov)<br></th>
-<th>Lifetime Unit Sales<br></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1<br></td>
-<td>Switch 2<br></td>
-<td>126,953<br></td>
-<td>2,870,758<br></td>
-</tr>
-<tr>
-<td>2<br></td>
-<td>
-<p>PlayStation 5 Digital Edition</p>
-</td>
-<td>23,381<br></td>
-<td>
-<p>1,048,176</p>
-</td>
-</tr>
-<tr>
-<td>3<br></td>
-<td>
-<p>Switch OLED</p>
-</td>
-<td>12,486<br></td>
-<td>9,314,908<br></td>
-</tr>
-<tr>
-<td>4<br></td>
-<td>PlayStation 5 Pro<br></td>
-<td>11,367<br></td>
-<td>280,176<br></td>
-</tr>
-<tr>
-<td>5<br></td>
-<td>
-<p>Switch Lite</p>
-</td>
-<td>
-<p>10,908</p>
-</td>
-<td>6,737,073<br></td>
-</tr>
-<tr>
-<td>6<br></td>
-<td>
-<p>Switch</p>
-</td>
-<td>5,976<br></td>
-<td>20,175,216<br></td>
-</tr>
-<tr>
-<td>7<br></td>
-<td>
-<p>PlayStation 5</p>
-</td>
-<td>2,235<br></td>
-<td>5,851,381<br></td>
-</tr>
-<tr>
-<td>8<br></td>
-<td>
-<p>Xbox Series X Digital Edition</p>
-</td>
-<td>201<br></td>
-<td>24,080<br></td>
-</tr>
-<tr>
-<td>9<br></td>
-<td>
-<p>Xbox Series X</p>
-</td>
-<td>
-<p>118</p>
-</td>
-<td>
-<p>323,683</p>
-</td>
-</tr>
-<tr>
-<td>10<br></td>
-<td>
-<p>Xbox Series S</p>
-</td>
-<td>30<br></td>
-<td>340,097<br></td>
-</tr>
-<tr>
-<td>11<br></td>
-<td>PlayStation 4<br></td>
-<td>
-<p>17</p>
-</td>
-<td>7,930,078</td>
-</tr>
-</tbody>
-</table>
-<p><a href="https://www.nintendolife.com/news/2025/11/japanese-charts-konami-rolls-another-smash-hit-with-its-momotaro-dentetsu-board-game-sequel">&lt; Previous charts</a></p>
-<p><em>What are your thoughts on this week's Japanese charts? Let us know down below.</em></p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:193790,193838,194291 @ 1764317083 --></section>
-<p>[source <a title="External Link: https://www.famitsu.com/article/202511/59034" rel="noopener" href="https://www.famitsu.com/article/202511/59034">famitsu.com</a>]</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-info/f162c976b6f872e775432c8b88d5ff98 @ 1764314836 --></div></div><br/><br/>https://www.nintendolife.com/news/2025/11/japanese-charts-kirby-air-riders-is-off-to-a-flying-start]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[In a break from tradition, Ubisoft have no plans for a second big Assassin's Creed: Shadows DLC expansion]]></title>
-            <link>https://www.rockpapershotgun.com/in-a-break-from-tradition-ubisoft-have-no-plans-for-a-second-big-assassins-creed-shadows-dlc-expansion</link>
-            <guid>1366762</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
-
-
-<header data-component="article-header">
-  
-
-    <div id="main-content">
-  
-
-        <p>Claws of Awaji is all you're getting, for the moment</p>
-
-    </div>
-
-
-  <p>
-
-  <figure>
-        <picture>
-        <source srcset="https://assetsio.gnwcdn.com/assassins-creed-shadows-naoe-aiming-teppo.jpg?width=380&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/assassins-creed-shadows-naoe-aiming-teppo.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/assassins-creed-shadows-naoe-aiming-teppo.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/assassins-creed-shadows-naoe-aiming-teppo.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/assassins-creed-shadows-naoe-aiming-teppo.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/assassins-creed-shadows-naoe-aiming-teppo.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/assassins-creed-shadows-naoe-aiming-teppo.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/assassins-creed-shadows-naoe-aiming-teppo.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/assassins-creed-shadows-naoe-aiming-teppo.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>Rock Paper Shotgun/Ubisoft</cite></span>
-        </figcaption>
-
-  </figure>
-  </p>
-
-    
-
-</header>
-  <div data-component="article-content">
-
-
-
-            <p><a href="https://www.rockpapershotgun.com/games/assassins-creed-codename-red">Assassin's Creed Shadows</a> probably won't get a second major DLC expansion on the scale of Claws of Awaji, Ubisoft's associate game director Simon Lemay-Comtois has revealed. It's a blow to fans who are accustomed to getting a couple of major expansions per Assassin's Creed, and a boon to people who haven't even played Shadows yet, let alone the 10-hour-long Claws of Awaji, and are getting dry heaves from FOMO. It's me, I am people.
-</p><!--more-->
-<p>"As of now at this moment for Year Two there is no expansion on the size of Awaji that is planned currently," Lemay-Comtois revealed in an interview with <a href="https://www.youtube.com/watch?v=5Iijrbz8XBc&amp;t=559s">JorRaptor</a>, via <a href="https://www.ign.com/articles/ubisoft-no-longer-plans-to-release-a-second-assassins-creed-shadows-expansion">Ian Games</a>. "We're still working on content for post-launch and supporting it, but it's not a full-on DLC the way a Season Pass would have had in the previous years." The developers are trying "to keep things small and reactive and see how the community feels about it."
-</p>
-<p>Claws Of Awaji aside, the first year of Shadows updating brought <a href="https://www.rockpapershotgun.com/assassins-creed-shadows-adds-a-self-driving-horse-but-i-implore-you-not-to-use-it">self-driving horses</a>, <a href="https://www.rockpapershotgun.com/assassins-creed-shadows-is-getting-a-much-needed-parkour-update">posher parkour</a>, <a href="https://www.rockpapershotgun.com/assassins-creed-shadows-latest-update-adds-in-collabs-with-dead-by-daylight-and-balatro-of-all-things">Balatro collaborations</a>, <a href="https://www.rockpapershotgun.com/assassins-creed-shadows-latest-update-brings-in-a-nightmare-difficulty-mode-and-another-weird-collab">nightmare difficulty</a>, and <a href="https://www.rockpapershotgun.com/ubisoft-date-assassins-creed-shadows-new-game-mode-alongside-plans-to-make-its-open-world-more-convenient">a more conveniently made open world</a>, amongst other tweaks to the furnishings. The second year "will probably be more sparse, not a drip-feed, but chunkier updates that shake things up a little more," Lemay-Comtois suggested in the interview.
-</p>
-<p>"I'm not announcing anything at this point," he went on, "but our strategy for Year One was to be quick and reactive, so it means smaller drops often, but for Year Two we don't need to put fires out or anything, so it's more what good, chunky little piece of meat we can drop and have people come back and enjoy it." 
-</p><p>As IGN note, 2017's <a href="https://www.rockpapershotgun.com/games/assassins-creed-origins">Assassin's Creed Origins</a> and 2018's <a href="https://www.rockpapershotgun.com/games/assassins-creed-odyssey">Assassin's Creed Odyssey</a> both had two expansions, while 2020's Assassin's Creed Valhalla got three, with 2023's <a href="https://www.rockpapershotgun.com/games/assassins-creed-mirage">Assassin's Creed Mirage</a> starting out as yet another Valhalla expansion. Why is Shadows getting stiffed with a measly single expansion? Because it was uncommonly hard to develop, Lemay-Comtois explained, with a major technological overhaul that contributed (along with the "soft" performance of stablemate <a href="https://www.rockpapershotgun.com/games/star-wars-outlaws">Star Wars Outlaws</a>) to <a href="https://www.rockpapershotgun.com/assassins-creed-shadows-delayed-to-2025-as-ubisoft-try-to-recover-from-softer-than-expected-star-wars-outlaws-launch">a delayed release</a>.
-</p>
-<p>"I think with Shadows, we had a big jump in generations," he said. "The engine work that we had to do on Shadows took a lot of time and a lot of our resources. The planning for the post launch was not really as clear as it would have been on [previous AC games] where the technology is more stable and well known."
-</p>
-<p>Shadows originally had a proper season pass, but Ubisoft canned it alongside the delay announcement, and decided to give away Claws of Awaji for free. "I remember during pre-launch we had the Season Pass," Lemay-Comtois added. "And that situation changed when we pushed back on the release date. That plan changed quite a bit and then we had to kind of adapt to the situation. So because of the new tech, because of the new generation, because of the pushes we had in production."
-</p>
-<p>It seems possible the decision to stop at one Shadows expansion also reflects wider turmoil at Ubisoft, who are busily <a href="https://www.rockpapershotgun.com/tencent-hand-ubisoft-a-big-wad-of-cash-to-spin-out-assassins-creed-far-cry-and-rainbow-six-as-a-separate-business">restructuring around a Tencent-funded subsidiary</a> dedicated to Assassin's Creed, Far Cry and Rainbow Six. Anyway, the upshot is that you AC diehards now have around 10 hours of playtime back to fritter away on something else. I recommend the similarly shadowy and backstabby <a href="https://www.rockpapershotgun.com/games/mark-of-the-ninja">Mark Of The Ninja</a>. Alternatively, you could spend it playing the <a href="https://www.rockpapershotgun.com/the-assassins-creed-4-black-flag-remake-will-release-in-march-2026-according-to-the-latest-whispers">Assassin's Creed 4: Black Flag remake that absolutely isn't coming in 2026</a>.</p>
-
-        </div>
-
-      </article>
-
-
-
-
-        
-  </div></div><br/><br/>https://www.rockpapershotgun.com/in-a-break-from-tradition-ubisoft-have-no-plans-for-a-second-big-assassins-creed-shadows-dlc-expansion]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Razer Ergonomic Gaming Chair Just Hit a Black Friday Record Low, Not Even Prime Day Went This Low]]></title>
-            <link>https://kotaku.com/bag-the-razer-iskur-v2-x-ergonomic-gaming-chair-while-its-going-for-just-250-on-amazon-2000647135</link>
-            <guid>1366759</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-              
-              <p>As someone who’s in front of the screen for several hours a day, six days a week, I can tell you just how important a good-quality chair is. You’re not just sitting on it; it’s providing your upper and lower back, plus arms, the support they need so you can keep working comfortably.</p>
-<p>As you’d expect, the best options on the market don’t come cheap. On a regular day, you can expect to pay over $300 for a top-rated option from a known brand. Thankfully, that changes today. <a href="https://shop.kotaku.com/go/6019/">Right now, you can grab the Razer Iskur V2 X ergonomic gaming chair for just $250, after a nice 17% discount on its retail price of $300.</a></p>
-<p>It’s a Black Friday deal, and the offer applies to both black and dark gray color options. The discount, however, ends soon, so it’s best to bag it as soon as you can.</p>
-<p><a href="https://shop.kotaku.com/go/6019/" target="_self" rel="sponsored nofollow">See at Amazon</a></p>
-
-<h2>Adjustable Design With Plush Fabric</h2>
-<p>The fabric is cool to the skin and smooth to the touch. Thicker cushion padding molds to the unique shape of your body, while the breathable, multi-layered fibers prevent sweat and moisture buildup during those longer, intense work and play sessions.</p>
-<p>The wide seat base is sculpted with reduced edges that distribute the pressure around evenly, which prevents soreness in the buttocks and thighs. It also promotes healthy blood flow, so you won’t have to change positions every few minutes to keep those uncomfortable numbness or tingling sensations away. There’s an integrated lumbar arch that encourages a neutral sitting position with lower back support, because it’s high time you start taking your posture seriously. We don’t mean to creep you out, but Tech Necks don’t just look awkward; they can lead to long-term spine damage and nerve pinching if you don’t make necessary adjustments.</p>
-<p>Of course, sitting upright for longer hours can get tiring. To tackle that, the Razer Iskur V2 X has an adjustable recline of up to 152 degrees. Stretch out a bit, and use this mode for relaxing gaming or streaming sessions that don’t require intense focus.</p>
-
-
-
-<p>Arms get a break, too. The 2D armrests can be adjusted in height and rotated inwards or outwards for a neutral position. When typing long documents, adjust the height to match your desk and keep them in the outward position for proper arm and wrist support. Planning to relax with a quick gaming session? Pull them inwards for a bit more stability with the console.</p>
-<p>The chair is available in two color options, so you can pick whichever suits your aesthetics the best. Go for the black one for a cleaner, classic look. Like your gaming setup with a bit more personality? The dark gray version is going to upgrade the overall look instantly!</p>
-<p>This gaming chair does not come pre-assembled, so you’ll need to put it together yourself. The process is straightforward (instruction manual included), and should not take more than 30 minutes. If you’d rather skip the hassle, you can get professional assembly through Amazon for an additional $100.<a href="https://shop.kotaku.com/go/6019/"> To wrap it up, this Black Fridy deal brings the price of this ergonomic gaming chair down to just $250, after a nice $50 discount.</a> It’s great for gamers, work professionals, creatives, and even casual users looking for better support as they use their PC or laptop. It ends soon, though, so it’s best to grab yours before the price goes back up, or the stock ends for good.</p>
-<p><a href="https://shop.kotaku.com/go/6019/" target="_self" rel="sponsored nofollow">See at Amazon</a></p>
-
-                          </div></div><br/><br/>https://kotaku.com/bag-the-razer-iskur-v2-x-ergonomic-gaming-chair-while-its-going-for-just-250-on-amazon-2000647135]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
