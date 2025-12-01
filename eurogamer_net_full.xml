@@ -4,9 +4,88 @@
         <title>Eurogamer.net RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/eurogamer_net_full.xml</link>
         <description>Full article content from Eurogamer.net</description>
-        <lastBuildDate>Mon, 01 Dec 2025 12:18:12 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 01 Dec 2025 12:35:03 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Arc Raiders adds hilarious new feature to prevent locked room exploitation: roasting them alive with all their loot]]></title>
+            <link>https://www.eurogamer.net/arc-raiders-locked-room-exploit-fire</link>
+            <guid>https://www.eurogamer.net/arc-raiders-locked-room-exploit-fire</guid>
+            <content:encoded><![CDATA[https://www.eurogamer.net/arc-raiders-locked-room-exploit-fire<br/><br/><div id="readability-page-1" class="page"><div>
+      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
+
+
+<header data-component="article-header">
+  
+
+    
+
+
+  <p>
+
+  <figure>
+      <picture>
+        <source srcset="https://assetsio.gnwcdn.com/Pre-Order-Trailer-_-ARC-Raiders-1-0-screenshot-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Pre-Order-Trailer-_-ARC-Raiders-1-0-screenshot-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Pre-Order-Trailer-_-ARC-Raiders-1-0-screenshot-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Pre-Order-Trailer-_-ARC-Raiders-1-0-screenshot-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Pre-Order-Trailer-_-ARC-Raiders-1-0-screenshot-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Pre-Order-Trailer-_-ARC-Raiders-1-0-screenshot-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Pre-Order-Trailer-_-ARC-Raiders-1-0-screenshot-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Pre-Order-Trailer-_-ARC-Raiders-1-0-screenshot-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Pre-Order-Trailer-_-ARC-Raiders-1-0-screenshot-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
+        
+      </picture>
+
+        <figcaption>
+          <span>Image credit: <cite>Embark</cite></span>
+        </figcaption>
+  </figure>
+  </p>
+
+    
+
+</header>
+  <div data-component="article-content">
+
+
+
+            <p>A recent <a href="https://www.eurogamer.net/games/arc-raiders">Arc Raiders</a> update has added an inventive new solution to the problem of players breaking into locked rooms. If you manage to break into one of these locations full of valuable loot, but without using the required keycard, you're cooked alive.</p>
+<p>This was first teased cheekily <a href="https://arcraiders.com/news/patch-notes-1-4-0">in last week's patch notes</a>, describing it as "a very hot fix" to locked room exploits. <a href="https://www.reddit.com/r/ArcRaiders/comments/1p7ytbc/locked_rooms_now_turn_you_into_a_fireball_if_you/">Videos of this measure</a> quickly spread across the internet like wildfire, with the Arc Raiders community celebrating the apparent death of one of the game's more frustrating quirks.</p>
+<p>If you don't know, locked rooms are few and far between on each map, and generally require a keycard to open. By using the keycard, you unlock the room for everyone, allowing you to get in there and loot through a space saturated with high-rarity gear.</p>
+<figure>
+<div>
+<p><span data-type="targeting">
+<span>To see this content please enable targeting cookies.</span>
+</span> </p>
+</div>
+<figcaption>Watch our Arc Raiders review here.<a href="https://www.youtube.com/watch?v=oXigyRsVeB0" rel="noopener" target="_blank">Watch on YouTube</a></figcaption>
+</figure>
+<p>This can be dangerous though, not only because keycards are themselves rare, but other players can wander in and kill you while you scavenge, or while you make your way to the extraction. It's a core part of the risk and reward loop present in Arc Raiders and extraction shooters in general.</p><p>However, exploiters were finding inventive ways into these rooms without the keycard. This could be clipping through the locked door, hopping through open windows, dropping through the ceiling, etc. Not only does this keep the door locked while you loot, it also means if another player goes to the locked room with the keycard as intended, they could find it barren, wasting their keycard for nothing. This, as you can imagine, sucked.</p>
+<p>This new anti-exploit measures detects whether or not players are inside the locked room <em>while</em> the door is keycard locked. If they are, it kills them without a hope of escaping in slow, scorching fashion. Then, if a player does turn up with a keycard and opens the door, they'll find a bonus body alongside their locked room loot. Nice.</p>
+<p>This is far from the only major fix made to Arc Raiders in recent days. In the same patch as this locked room exploit measure, <a href="https://www.eurogamer.net/arc-raiders-patch-removes-weapon-swap-exploit">Embark Studios killed double pumping</a>, a technique terrorising innocents across Stella Montis. <a href="https://www.eurogamer.net/arc-raiders-cameo-in-south-park">The game also recently made an appearance in South Park</a>, of all things.</p>
+
+        </div>
+
+  
+      </article>
+
+
+
+  
+
+
+
+  
+
+  <section>
+    <span>Related topics</span>
+
+    
+  </section>
+  </div></div>]]></content:encoded>
+            <dc:creator>Connor Makar</dc:creator>
+        </item>
         <item>
             <title><![CDATA[GTA 6 animation seemingly leaks via employee's demo reel, and Rockstar is now trying to remove it from the internet]]></title>
             <link>https://www.eurogamer.net/gta-6-animation-seemingly-leaks-via-employees-demo-reel-and-rockstar-is-now-trying-to-remove-it-from-the-internet</link>
@@ -8881,99 +8960,6 @@ In other Ubisoft news, CEO Yves Guillemot has announced the company is <a href="
 <p><em>This preview is based on a build played during a trip to Paris, France. Koei Tecmo provided travel and accommodation.</em></p>
 </div></div>]]></content:encoded>
             <dc:creator>Dom Peppiatt</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Long-rumoured Assassin's Creed: Black Flag Remake could set sail before April]]></title>
-            <link>https://www.eurogamer.net/long-rumoured-assassins-creed-black-flag-remake-could-set-sail-before-april</link>
-            <guid>https://www.eurogamer.net/long-rumoured-assassins-creed-black-flag-remake-could-set-sail-before-april</guid>
-            <content:encoded><![CDATA[https://www.eurogamer.net/long-rumoured-assassins-creed-black-flag-remake-could-set-sail-before-april<br/><br/><div id="readability-page-1" class="page"><div>
-      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
-
-
-<header data-component="article-header">
-  
-
-    
-
-
-  <p>
-
-  <figure>
-      <picture>
-        <source srcset="https://assetsio.gnwcdn.com/Ubisoft's-Assassin's-Creed-Black-Flag-artwork-showing-Edward-Kenway-on-a-pirate-ship-with-canons-firing-and-a-pirate-flag-blowing-in-the-breeze.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Ubisoft's-Assassin's-Creed-Black-Flag-artwork-showing-Edward-Kenway-on-a-pirate-ship-with-canons-firing-and-a-pirate-flag-blowing-in-the-breeze.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Ubisoft's-Assassin's-Creed-Black-Flag-artwork-showing-Edward-Kenway-on-a-pirate-ship-with-canons-firing-and-a-pirate-flag-blowing-in-the-breeze.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Ubisoft's-Assassin's-Creed-Black-Flag-artwork-showing-Edward-Kenway-on-a-pirate-ship-with-canons-firing-and-a-pirate-flag-blowing-in-the-breeze.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Ubisoft's-Assassin's-Creed-Black-Flag-artwork-showing-Edward-Kenway-on-a-pirate-ship-with-canons-firing-and-a-pirate-flag-blowing-in-the-breeze.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Ubisoft's-Assassin's-Creed-Black-Flag-artwork-showing-Edward-Kenway-on-a-pirate-ship-with-canons-firing-and-a-pirate-flag-blowing-in-the-breeze.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Ubisoft's-Assassin's-Creed-Black-Flag-artwork-showing-Edward-Kenway-on-a-pirate-ship-with-canons-firing-and-a-pirate-flag-blowing-in-the-breeze.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Ubisoft's-Assassin's-Creed-Black-Flag-artwork-showing-Edward-Kenway-on-a-pirate-ship-with-canons-firing-and-a-pirate-flag-blowing-in-the-breeze.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Ubisoft's-Assassin's-Creed-Black-Flag-artwork-showing-Edward-Kenway-on-a-pirate-ship-with-canons-firing-and-a-pirate-flag-blowing-in-the-breeze.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>Ubisoft</cite></span>
-        </figcaption>
-  </figure>
-  </p>
-
-    
-
-</header>
-  <div data-component="article-content">
-
-
-
-            <p>It looks like we could be seeing Ubisoft's long-rumoured Assassin's Creed: Black Flag Remake set sail really rather soon.</p>
-<p>Earlier today, <a href="https://www.eurogamer.net/ubisoft-confirms-116bn-tencent-investment-into-assassins-creed-maker-is-on-track-following-last-weeks-surprise-delay-to-financial-report">Ubisoft released its delayed financials</a>. Here, the company laid out its slate of upcoming games, all of which are set to arrive before the end of its current financial year. That means, by 31st March, 2026.</p>
-<p>The company mentions an "unannounced title", which is planned for a release in the fourth quarter of its 2025-2026 fiscal year. Many now suspect this is indeed the remake of Assassin's Creed: Black Flag. </p>
-<!-- code from Primis - Eurogamer.net - eurogamer.net -->
-<div>
-<p><span data-type="targeting">
-<span>To see this content please enable targeting cookies.</span>
-</span> </p>
-</div>
-<!-- code from Primis -->
-<p> "Anno 117: Pax Romana launched on November 13 with a Metacritic rating of 85.  <a href="https://www.eurogamer.net/games/assassins-creed-mirage">Assassin's Creed Mirage</a> Valley of Memory update launched on November 18. Avatar Frontiers of  Pandora From the Ashes expansion will release on December 19, coinciding with the new movie. Prince  of Persia: The Sands of Time remake, Rainbow Six Mobile, The Division Resurgence and an unannounced title are planned for Q4," the financials read.</p>
-<p>This unannounced title also cropped up in <a href="https://staticctf.ubisoft.com/8aefmxkxpxwl/33qBiRpCj1Z9Ib5bbfbg5r/d4ab539ca9edd1fa28ebc0aec5b1af27/Ubisoft_H1_FY26_Slideshow_vFinal.pdf">Ubisoft's investor's presentation</a>, with the mysterious game replaced with a blank box (see below).</p>
-<figure>
- 
-
-
-<figcaption><span>Image credit: <cite>Ubisoft</cite></span></figcaption>
-</figure>
-<p>Earlier this year, Black Flag actor Matt Ryan again suggested Ubisoft was set to release a remake of its piratical Assassin's Creed entry. Ryan - who played Edward Kenway in Black Flag - hinted not very subtly to one fan they should perhaps get ready to replay the game, implying with a bit of a 'wink, wink, nudge, nudge' that the remake was indeed real. <a href="https://www.eurogamer.net/assassins-creed-black-flag-actor-threatened-with-legal-action-following-remake-slip-up">Ubisoft then threatened the actor with legal action</a> following his remake slip-up.</p>
-<p>More recently in September, French outlet <a href="https://www.youtube.com/watch?v=qngrBQnukFc">Jeuxvideo</a> reported Black Flag's modern day sections have been removed from Ubisoft's upcoming remake.</p>
-<p>So, should all this lead to a potentially imminent release of Assassin's Creed: Black Flag's remake, will you be jumping back aboard with Edward and co?</p>
-<figure>
- 
-
-
-<figcaption><span>Image credit: <cite>Ubisoft</cite></span></figcaption>
-</figure>
-<p>Elsewhere in franchise news, earlier this year <a href="https://www.eurogamer.net/assassins-creed-franchise-lead-leaves-ubisoft-following-formation-of-tencent-subsidiary">Assassin's Creed's then-boss Marc-Alexis Côté left Ubisoft</a>, following the formation of the <a href="https://www.eurogamer.net/companies/tencent">Tencent</a>-funded subsidiary. Soon after his departure from Ubisoft, Côté clarified that while he was offered another role within the company, it <a href="https://www.eurogamer.net/former-assassins-creed-boss-clarifies-he-did-not-walk-away-from-series-but-was-asked-to-step-aside-by-ubisoft">did not "carry the same scope, mandate, or continuity with the work [he] had been entrusted with"</a>.</p>
-
-        </div>
-
-  
-      </article>
-
-
-
-  
-
-
-
-  
-
-  <section>
-    <span>Related topics</span>
-
-    
-  </section>
-  </div></div>]]></content:encoded>
-            <dc:creator>Victoria Phillips Kennedy</dc:creator>
         </item>
     </channel>
 </rss>
