@@ -4,9 +4,88 @@
         <title>maGaming RSS Feed - eurogamer_net</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/eurogamer_net.xml</link>
         <description>A cleaned-up version of the original gaming feed for eurogamer_net</description>
-        <lastBuildDate>Mon, 01 Dec 2025 12:34:27 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 01 Dec 2025 12:58:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Arc Raiders adds hilarious new feature to prevent locked room exploitation: roasting them alive with all their loot]]></title>
+            <link>https://www.eurogamer.net/arc-raiders-locked-room-exploit-fire</link>
+            <guid>1369036</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
+
+
+<header data-component="article-header">
+  
+
+    
+
+
+  <p>
+
+  <figure>
+      <picture>
+        <source srcset="https://assetsio.gnwcdn.com/Pre-Order-Trailer-_-ARC-Raiders-1-0-screenshot-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Pre-Order-Trailer-_-ARC-Raiders-1-0-screenshot-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Pre-Order-Trailer-_-ARC-Raiders-1-0-screenshot-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Pre-Order-Trailer-_-ARC-Raiders-1-0-screenshot-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Pre-Order-Trailer-_-ARC-Raiders-1-0-screenshot-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Pre-Order-Trailer-_-ARC-Raiders-1-0-screenshot-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Pre-Order-Trailer-_-ARC-Raiders-1-0-screenshot-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Pre-Order-Trailer-_-ARC-Raiders-1-0-screenshot-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Pre-Order-Trailer-_-ARC-Raiders-1-0-screenshot-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
+        
+      </picture>
+
+        <figcaption>
+          <span>Image credit: <cite>Embark</cite></span>
+        </figcaption>
+  </figure>
+  </p>
+
+    
+
+</header>
+  <div data-component="article-content">
+
+
+
+            <p>A recent <a href="https://www.eurogamer.net/games/arc-raiders">Arc Raiders</a> update has added an inventive new solution to the problem of players breaking into locked rooms. If you manage to break into one of these locations full of valuable loot, but without using the required keycard, you're cooked alive.</p>
+<p>This was first teased cheekily <a href="https://arcraiders.com/news/patch-notes-1-4-0">in last week's patch notes</a>, describing it as "a very hot fix" to locked room exploits. <a href="https://www.reddit.com/r/ArcRaiders/comments/1p7ytbc/locked_rooms_now_turn_you_into_a_fireball_if_you/">Videos of this measure</a> quickly spread across the internet like wildfire, with the Arc Raiders community celebrating the apparent death of one of the game's more frustrating quirks.</p>
+<p>If you don't know, locked rooms are few and far between on each map, and generally require a keycard to open. By using the keycard, you unlock the room for everyone, allowing you to get in there and loot through a space saturated with high-rarity gear.</p>
+<figure>
+<div>
+<p><span data-type="targeting">
+<span>To see this content please enable targeting cookies.</span>
+</span> </p>
+</div>
+<figcaption>Watch our Arc Raiders review here.<a href="https://www.youtube.com/watch?v=oXigyRsVeB0" rel="noopener" target="_blank">Watch on YouTube</a></figcaption>
+</figure>
+<p>This can be dangerous though, not only because keycards are themselves rare, but other players can wander in and kill you while you scavenge, or while you make your way to the extraction. It's a core part of the risk and reward loop present in Arc Raiders and extraction shooters in general.</p><p>However, exploiters were finding inventive ways into these rooms without the keycard. This could be clipping through the locked door, hopping through open windows, dropping through the ceiling, etc. Not only does this keep the door locked while you loot, it also means if another player goes to the locked room with the keycard as intended, they could find it barren, wasting their keycard for nothing. This, as you can imagine, sucked.</p>
+<p>This new anti-exploit measures detects whether or not players are inside the locked room <em>while</em> the door is keycard locked. If they are, it kills them without a hope of escaping in slow, scorching fashion. Then, if a player does turn up with a keycard and opens the door, they'll find a bonus body alongside their locked room loot. Nice.</p>
+<p>This is far from the only major fix made to Arc Raiders in recent days. In the same patch as this locked room exploit measure, <a href="https://www.eurogamer.net/arc-raiders-patch-removes-weapon-swap-exploit">Embark Studios killed double pumping</a>, a technique terrorising innocents across Stella Montis. <a href="https://www.eurogamer.net/arc-raiders-cameo-in-south-park">The game also recently made an appearance in South Park</a>, of all things.</p>
+
+        </div>
+
+  
+      </article>
+
+
+
+  
+
+
+
+  
+
+  <section>
+    <span>Related topics</span>
+
+    
+  </section>
+  </div></div><br/><br/>https://www.eurogamer.net/arc-raiders-locked-room-exploit-fire]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[GTA 6 animation seemingly leaks via employee's demo reel, and Rockstar is now trying to remove it from the internet]]></title>
             <link>https://www.eurogamer.net/gta-6-animation-seemingly-leaks-via-employees-demo-reel-and-rockstar-is-now-trying-to-remove-it-from-the-internet</link>
