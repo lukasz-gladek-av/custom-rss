@@ -4,9 +4,765 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Tue, 02 Dec 2025 18:17:15 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 02 Dec 2025 18:50:17 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Europa Universalis V patch 1.0.8 makes the Aztecs a bit more advanced]]></title>
+            <link>https://www.thesixthaxis.com/2025/12/02/europa-universalis-v-patch-1-0-8-makes-the-aztecs-a-bit-more-advanced/</link>
+            <guid>1370755</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>Paradox Tinto has remained busy after the release of Europa Universalis V last month, pushing out a clutch of patches and with a testing regime for upcoming changes. The tail end of November was all about the 1.0.8 beta patches, and now those improvements have gone live for the main development path, bringing hundreds of bug fixes, and some nice new tweaks and features.</p>
+<p>On a high level, the patch brings eight new advances for the Aztec formable country, six new advances for the Two Sicilies formables, one more Tenochtitlan advance, and two more Sicilian and Neapolitan advances that can also be unlocked.</p>
+
+
+<p>If you don’t happen to be playing as or angling for any of those countries to be formed, then there’s still some save game optimisation, a new combat tooltip that might help newcomers, and over 320 bugs fixed.</p>
+<p>Here’s the full patch notes:</p>
+<h3>New Features</h3>
+<ul>
+<li>Added 8 new advances for the Aztec formable<wbr></li>
+<li>Added 6 new advances for the Two Sicilies formable<wbr></li>
+</ul>
+
+
+<ul>
+<li>Settle the Frontier will no longer empty low-pop provinces.<wbr></li>
+<li>Estate privileges are removed if the estate doesn’t exist in the country<wbr></li>
+<li>Cabinet actions remove old geography modifiers properly after being reassigned<wbr></li>
+<li>Hire Advisor will no longer create Crown Estate advisors<wbr></li>
+<li>Fixed new rulers’ attributes not applying to their country on ascending to the throne<wbr></li>
+<li>Centralization now reduces subject loyalty with up to 30<wbr></li>
+<li>Decentralization now increases subject loyalty with up to 30 (was 20).<wbr></li>
+<li>Remove the impact of maximum war exhaustion from centralization and decentralization.<wbr></li>
+<li>Maximum decentralization now recovers estate satisfaction by another 2%<wbr></li>
+<li>Rebalanced children’s education to have a more balanced improvement<wbr></li>
+<li>Matrilineal non-exclusive succession law does take character abilities into account when choosing an heir now<wbr></li>
+<li>The ruler’s diplomatic ability now also impacts subject loyalty.<wbr></li>
+<li>Scotland’s ‘authority over the clergy’ law now disappears if Scotland converts from catholicism.<br>
+Economy:<wbr></li>
+<li>Each 20k pops instead of each 200k pops gives 1 extra free building level in a location.<wbr></li>
+<li>Implemented a system where prosperity decays down to 0 by default if no increases.<wbr></li>
+<li>Made a new formula for an economical base that has different scale values on tax, pop, and trade.<wbr></li>
+<li>Tweaked the sell location acceptance criteria<wbr></li>
+<li>Balanced pop growth values to compensate for lower prosperity levels<wbr></li>
+<li>Removed some demands for some goods for slaves &amp; tribesmen, and made some thresholds for soldiers.<wbr></li>
+<li>Reduced the nobles’ demand for lacquerware to 10% of what it was before.<wbr></li>
+<li>Added trade profit and subject tax levels to be part of the economic base calculations<wbr></li>
+<li>Further rebalancing of the the economical base and taking building based countries into account.<br>
+Production:<wbr></li>
+<li>Can no longer build or delete buildings in locations that are under siege<wbr></li>
+<li>Building automation no longer changes the employment system<br>
+Society:<wbr></li>
+<li>Random characters are more likely to be of primary and accepted cultures.<wbr></li>
+<li>Females above the age of 40 will no longer get pregnant.<br>
+Diplomacy:<wbr></li>
+<li>Fixed HRE election votes after long reigns of the previous leader accidentally pumped up the GP score weight<wbr></li>
+<li>Removed “Food access” diplomatic option if you’re fighting in a war with the other country<wbr></li>
+<li>Can no longer sell a location when at war<wbr></li>
+<li>Fixed static antagonism related to societal values<wbr></li>
+<li>Subject actions get cancelled after the subject is cancelled<wbr></li>
+<li>Lacking rivals will no longer make you conciliatory, but instead make you lose prestige.<wbr></li>
+<li>Conciliatory no longer increases subject loyalty, but instead increases diplomatic reputation.<wbr></li>
+<li>Removed the base diplomatic reputation for belligerent vs conciliatory<wbr></li>
+<li>Conciliatory vs belligerent now impacts how much of an impact the shared border has.<wbr></li>
+<li>Reworked a bit how subject loyalty is impacted by relative power, and made keeping subjects loyal a bit more fun<wbr></li>
+<li>Taking back a location from a revolter is now -95%, not +95% cost.<wbr></li>
+<li>Added the border percentage opinion mechanic from EU4, which will create a bit more conflict<wbr></li>
+<li>Each vassal and fiefdom gives a small drift to decentralization.<wbr></li>
+<li>Civil wars now automatically end when a union between a tag and its civil war opponent is about to happen. The Civil War is always the one getting annexed in this context<wbr></li>
+<li>Raised levies for the subject no longer impact subject loyalty.<wbr></li>
+<li>Adjusted the colonial nations’ loyalty values to take<wbr></li>
+<li>Reduced a lot of subject loyalty from advances<wbr></li>
+<li>If a country moves its capital, anyone who knew the old capital now discovers the new capital.<wbr></li>
+<li>Border feud CB works properly<wbr></li>
+<li>Enable the request of subject actions from the subject to the overlord<wbr></li>
+<li>Can’t leave a coalition mid-war<wbr></li>
+<li>Fixed immediate full war score vs tiny nations with no cores<wbr></li>
+<li>Conquistadors will now become a normal location-based country when they become a colonial nation.<wbr></li>
+<li>Shared border is now reduced if same culture or share a culture group<wbr></li>
+<li>Power relative to overlord can now add a positive bonus to loyalty as well.<wbr></li>
+<li>Halfed the default shared border opinion impact, but increased the scale from being belligerent.<br>
+Military:<wbr></li>
+<li>Manually doing a shattered retreat is now a 10% loss to strength instead of 50%.<wbr></li>
+<li>Fixed being able to recruit to a boarded army from a location<wbr></li>
+<li>Fixed exiling armies in places you declare war on<wbr></li>
+<li>Levies now disband if the locations they come from are lost.<wbr></li>
+<li>Complete refactoring of several combat algorithms like damage dealing, initiative, and combat speed, and exposing themino to more helpful tooltips<wbr></li>
+<li>Patrol the seas objective works for the Hanseatic League<wbr></li>
+<li>Fixed an issue where military tactics had an impact on naval battles<wbr></li>
+<li>The cost of transporting levies now scales with the size of the levy, making them cost the same to transport as regulars.<wbr></li>
+<li>Reduced the Age penalty for levies in the Age of Revolutions to 10% instead of 20%.<wbr></li>
+<li>Removed the “takes less damage” from artillery and auxiliary regiments.<wbr></li>
+<li>Fixed prosperity decay bugs from looting and sieging<br>
+Geopolitics:<wbr></li>
+<li>Allowed inland exploration<wbr></li>
+<li>The fishing village applies a small bonus to harbor capacity<wbr></li>
+<li>Can now colonize Iwo<br>
+<wbr></li>
+</ul>
+
+<ul>
+<li>Pops will no longer lose lots of literacy instantly if the max literacy is reduced.<wbr></li>
+<li>Changed the bonus modifier of the “Renaissance” to be a cultural influencer percentage instead of flat, as originally intended.<wbr></li>
+<li>Navies will no longer keep army-based nations without armies alive<wbr></li>
+</ul>
+
+
+<ul>
+<li>Added more lumber to Scotland (Badenoch, Cowal, Inverary, Ayr)<wbr></li>
+<li>Corrected the German dynamic name of ‘Poznań’, so now it’s the correct one, ‘Posen’.<br>
+Setup:<wbr></li>
+<li>Removed some Mamluk alliances with beyliks that were too weak<wbr></li>
+<li>Hendrik van Reginar is not the heir of Brabant<wbr></li>
+<li>Changed the Aragonese localization of the locations of Aragon into medieval Aragonese<wbr></li>
+<li>Made all setup and content instances of the German name ‘Bernhard’ to use its dynamic instance (‘name_bernard’) instead.<wbr></li>
+<li>Removed a duplicate character instance of bishop Bernhard von Lippe, ruler of Paderborn.<wbr></li>
+<li>Corrected the death date of the Teutonic Order Hochmeister Werner von Orseln, so it’s now aligned with the ruler term one.<wbr></li>
+<li>Added the correct ‘Alès’ location to the cores of Toulouse.<br>
+Situations:<wbr></li>
+<li>The Italian Wars Situation action “Plan Campaign in Italy” now requires the actor not to have any levies raised<wbr></li>
+<li>Fixed Western Schism getting loads of support for whoever had the most dip rep only<wbr></li>
+<li>Western Schism – The AI will now use the Declare Oboedientia Action more flexibly, depending on which candidate they like more<wbr></li>
+<li>Fixed an issue wherein the ‘Rise of the Turks’ situation displayed incorrect end requirements when the strongest beylik is not the Ottomans<wbr></li>
+<li>Fixed missing localized reasons for war declaration in the Nanbokucho situation<wbr></li>
+<li>Added background illustrations to two Rise of the Turks-related events<wbr></li>
+<li>Italian leagues can now be created 2 years after one of them was dissolved via war<wbr></li>
+<li>Fixed an issue that indefinitely prevented new Italian leagues from being created in the Italian Wars after one of the leagues was forcefully dissolved<wbr></li>
+<li>Becoming the revolutionary target will no longer spawn units every month<wbr></li>
+<li>Blocked Nanbokucho CB from being created against countries supporting the same side<wbr></li>
+<li>Rewrote the visible = { } of the Rise of the Turks situation to account for the strongest beylik not being the Ottomans<wbr></li>
+<li>While in the map mode of the Rise of the Turks, subjects of the strongest beyliks will now have striped instead of solid colors<wbr></li>
+<li>Reshuffled the end requirements of the Rise of the Turks for better readability<wbr></li>
+<li>The Rise of the Turks ending now correctly displays the appropriate ending event based on its end requirements<wbr></li>
+<li>The rise of the Turks situation no longer takes into account subjects as contenders<wbr></li>
+<li>Fixed Sengoku missing a clan and showing a blank one<br>
+Disasters:<wbr></li>
+<li>Increased the % chance of the Castilian civil war disaster occurring and made sure the ruler during it cannot be Alfonso XI<wbr></li>
+<li>The event “Spread of Islam” during the “Death of Hayan Wuruk disaster now correctly spawns a Sufi lodge<wbr></li>
+<li>The disaster “Crisis of the &lt;Chinese&gt; Dynasty” now correctly resets its variables on completion<wbr></li>
+<li>Fixed an issue where a dead claimant would still be shown on the disaster UI instead of their successor<wbr></li>
+<li>The event “Death of a Claimant” (hook_and_cod_wars.1200) option d now ends the disaster if both claimants are dead and buried<wbr></li>
+<li>The ‘Court and Country’ disaster starting event now grants 2 new country modifiers based on whether the player wants to eventually become Liberal or Absolutist<wbr></li>
+<li>The ‘Court and Country’ disaster now reduces estate satisfaction by -10%<br>
+International Organizations:<wbr></li>
+<li>Fixed Independence War Target<wbr></li>
+<li>Improved authorization for the expanding Shinto action<wbr></li>
+<li>Fixed the independence movement acceptance criteria<wbr></li>
+<li>Removed duplicate action for joining Autocephalous Patriarchates<wbr></li>
+<li>The AI will no longer constantly propose the “maintain federal status” policy for unions<wbr></li>
+<li>The estate satisfaction hit from votes in unions is now only applied if you actually vote. Refusing to make a choice will no longer punish you<wbr></li>
+<li>The “Lordship of Ireland” action “request planters” now correctly triggers migration<wbr></li>
+<li>Fixed an issue with a spammy “Lordship of Ireland” regency pop-up message<wbr></li>
+<li>Fixed an issue with the action message display after using invite planets in the Lordship of Ireland<wbr></li>
+<li>The protestant union and the catholic league will no longer be locked into a deadlock when either leader is in a union with another leader. Additionally, union members will now try to join the side that already contains one of their union partners<wbr></li>
+<li>The “unified external diplomacy” policy of unions now makes the AI less likely to declare wars as it adds -0.75 aggressiveness and +0.5 carefulness. Additionally, it now also gives -2+25% stability cost on no CBS wars and now also unlocks the “enforce peace” country interaction on junior partners<wbr></li>
+<li>Blocked the Shogun from being able to get claims from the Imperial Court<br>
+Events:<wbr></li>
+<li>The Pavia event “Expulsion of the &lt;Dynasty&gt;” (flavor_pav.1) now requires Milan to have the same Government type as Pavia<wbr></li>
+<li>The French Event “The Jacquerie” will no longer fire while France is already in a civil war<wbr></li>
+<li>Margarete von Tirol will no longer immediately select a new husband upon divorcing her Bohemian spouse<wbr></li>
+<li>The English event “William Pitt the younger” (flavor_eng.35) will no longer target William Pitt the Elder<wbr></li>
+<li>The Florentine event “Consolidation of Power” (flavor_flo.49) will no longer fire while Florence already has a major reform<wbr></li>
+<li>The occurring child via the event “soirée” (dynastic.6) and “the consequences of our actions” (dynastic.6001) is now properly attributed the “bastard” modifier<wbr></li>
+<li>The father of the child born via the event “soirée” (dynastic.6) is no longer stuck in the shadow realm<wbr></li>
+<li>Event “soirée” (dynastic.6) now tries to pick an eligible character before creating one<wbr></li>
+<li>The Ottoman Dragoman feature now has proper tooltiping<wbr></li>
+<li>The Byzantine event for the Katholikon Mouseion now properly gives you research progress if you already have a library in Constantinople<wbr></li>
+<li>Annexing Rome as a catholic will now trigger an event to potentially return it to the Pope<wbr></li>
+<li>The Genoese event “Founding of the Merchant Republic” (flavor_gen.1) will remove excess major government reforms before assigning “Merchant Republic”<wbr></li>
+<li>The event “The Gallipoli Earthquake” will now fire instantly instead of having a delay<wbr></li>
+<li>The Byzantine event “Gemistos Plethon” now activates the Hellenic religion<wbr></li>
+<li>The ‘Holy League’ Crusade should now correctly have Constantinople as its war goal<wbr></li>
+<li>The ‘Holy League’ Crusade ending events no longer fire on a separate peace<wbr></li>
+<li>Fixed the second Byzantine event, “A hand for peace”, it can no longer attempt to marry a dead ruler to the Byzantine princess<wbr></li>
+<li>The Florentine event “Formation of the Medici bank” is now also available for Tuscany<wbr></li>
+<li>Many event texts that begin with a country name will capitalize that country name if it isn’t already capitalized<wbr></li>
+<li>Corrected the historical info description of the event “A Clash of Culteranismo and Conceptismo” (flavor_cas.94), so it now shows the correct one, instead of the one for “Ortographical Reform of de Herrera” (flavor_cas.90).<wbr></li>
+<li>Fixed a missing dynamic loc in the event “The Hussite Wars” (hussite_wars.10), now it will correctly use the ‘commoners’ estate name in the text.<wbr></li>
+<li>Correctly localized the first name of the character Zafar Muẓaffar, created by the event “The Governor of Gujarat” (flavor_dlh.4).<wbr></li>
+<li>The radical reforms event (mercantilism_events.6) can now only fire in and after the age of reformation<wbr></li>
+<li>Swapped the Commoners’ estate satisfaction change for the abolition of feast days (anglican_events.9) event to now<wbr></li>
+<li>The colony of &lt;x&gt; (colonial_charter.100) event will no longer turn cores back into integrated<wbr></li>
+<li>Limited effects of the Bountiful Harvest event (random_event.91) to locations owned by the country<br>
+Government:<wbr></li>
+<li>Fixed broken localization in the Latin Empire formable description<wbr></li>
+<li>Implementation of the peasant republic reform for Dithmarschen now removes any other major reform<wbr></li>
+<li>Romania is now a level 3 formable, enabling Transylvania and Moldavia to form it<wbr></li>
+<li>Made the following reforms free by assigning a +1 reform slot to each one: “Daedongbeob”, “Sadae policy”, and “Powerful viziers”<wbr></li>
+<li>The government reform “Sovet Gospod” of Novgorod is no longer a “major” reform<wbr></li>
+<li>The “Elective Succession” and “Dynastic Elective Succession” now have an additional warning line in their description, which informs the player that these succession laws can break unions.<wbr></li>
+<li>Fixed missing trigger localization for the Devshirme policy<wbr></li>
+<li>New LIV ‘Llivonia’ formable created to reform the Livonian Order<wbr></li>
+<li>LVA ‘Livonia’ formable repurposed into a Baltic culture formable<wbr></li>
+<li>Made Moldavia a tier 1 formable, so it can later form Romania (which is tier 2); also reduced the number of required locations to be formed to 40, so it doesn’t need to conquer any land from the Golden Horde to have it formed, just unify the Moldavian minors.<wbr></li>
+<li>Fixed an error in the description of the ‘Tsardom’ government reform, now it should show ‘Russia’ correctly.<wbr></li>
+<li>Enabled the Ancient French Taxation reform to be removable if France reaches &gt; 50% centralization and the birth of the permanent taxation system event hasn’t fired.<wbr></li>
+<li>The parliament issue sponsor a trade expedition will now construct a market village or a marketplace in the capital if no building like it exists already<wbr></li>
+<li>Change policy agenda can no longer target otherwise locked policies<wbr></li>
+<li>The Prikazi government reform now displays the cabinet actions that it unlocks<wbr></li>
+<li>Added failsafe to the ‘Communal Living’ marriage policy, so now it also requires being Hussite, on top of having the ‘Adamite Services’ aspect active.<br>
+Economy and Production:<wbr></li>
+<li>The House of Parliament Building now employs 200 Nobles instead of 2000<wbr></li>
+<li>Great Madrasas now also promote tribesmen like normal Madrasas<wbr></li>
+<li>Rebalanced, where the Japanese clans are allowed to build their buildings<wbr></li>
+<li>Improved description of Beeswax<br>
+Society:<wbr></li>
+<li>The Hellenic faith now correctly grants infantry combat ability instead of levy efficiency<wbr></li>
+<li>Changing religion will now always automatically remove any active excommunication against the country<wbr></li>
+<li>Baltic Germans added to the Baltic culture group<wbr></li>
+<li>Added ‘invite foreign cleric’ action. Christian countries can spend religious influence to spawn a new high-adm cleric with a foreign culture.<br>
+Diplomacy:<wbr></li>
+<li>“Hanseatic member” special subject now pays much less manpower and sailors to the Hansa (assuming they have the capacity to do so)<wbr></li>
+<li>The “dubious claims on province” and the “parliament-approved claims on province” casus belli are no longer available to be fabricated via the spy network<wbr></li>
+<li>The “Negotiate Succession Law” country interaction now informs the player when the succession law cannot be adopted by the recipient<wbr></li>
+<li>The military sponsorship relationship now has a diplomatic capacity maintenance cost of a guarantee<wbr></li>
+<li>The opinion penalty from not fulfilling a promise of land does not decay by 1 each year<wbr></li>
+<li>The “demand unlawful territory” diplomatic action will now automatically release a completely new tag instead of granting that land directly to the emperor<wbr></li>
+<li>The diplomatic action “enforce peace” can no longer target wars where the actor is in the war with them on the same side already. It also can not target wars where the subject is the leading defender in the war, which means they can no longer be saved from any invading country<wbr></li>
+<li>Capped the minimum value of excommunication opinion hits to -200<wbr></li>
+<li>Papal action “Excommunication” is no longer possible, while curia actions are otherwise blocked<wbr></li>
+<li>The “negotiate succession law” diplomatic action now changes the heir religion law to a policy that is actually compatible with your religion. In other words, if you are orthodox and your junior partner is catholic, you would force them to take the “same religion group” policy instead of the “same religion” policy one<br>
+Military:<wbr></li>
+<li>Fixed an issue with Renaissance Mamluks only having 50 men and tweaked their extra bonuses<br>
+Advances:<wbr></li>
+<li>Expanded the plausible areas of spawning of the Renaissance to all of Northern Italy<wbr></li>
+<li>Unlocked the “warrior societies” advance from Tenochtitlan for the Aztecs formable<wbr></li>
+<li>Unlocked 2 advances from Sicily and Naples for the Two Sicilies formable as well<br>
+<wbr></li>
+</ul>
+
+<ul>
+<li>Corrected many instances of this_opinion_of_prev wherever it was applied incorrectly for AI weights<wbr></li>
+<li>Fixed the Aztec tag not having a name<wbr></li>
+<li>Hungarian, Croatian, Czech, and Slovak regnal numbers appear as “ii.” with the dot, as in German<wbr></li>
+</ul>
+
+
+<ul>
+<li>Adjusted colors and values of some privileges to match the style of the other privileges<br>
+Illustrations:<wbr></li>
+<li>Polished 3 Disasters illustrations<br>
+Flags:<wbr></li>
+<li>Flags for Baltic formable<br>
+Other:<wbr></li>
+<li>Added icons for tws_capable_vicars,tws_ensure_loyal_families, sun_must_rise, new_fire_ceremonies advances<wbr></li>
+</ul>
+
+
+<ul>
+<li>Fixed an issue where AI would incorrectly think that crown power would influence absolutism_vs_liberalism before the available age<wbr></li>
+<li>Ottomans will no longer switch their religion away from Sunnism when playing with historical AI<wbr></li>
+<li>Fixed an issue causing AI to incorrectly use culture assimilation cabinet action in locations with -100% assimilation speed<wbr></li>
+<li>Added AI score for research speed modifier<wbr></li>
+<li>Increased AI score to unlock deus vult advance to enable religious CBS<br>
+Diplomacy:<wbr></li>
+<li>Fixed additional issues where AI Ottomans would pay gold to get CBS against targets that had a stronger alliance than they<wbr></li>
+<li>Fixed issues where large cities would be too desirable for AI to take in peace deals, causing border gore<wbr></li>
+<li>Fixed an issue where AI applied scripted rules from war goals for taking things in peace deals, even when defending<wbr></li>
+<li>Fixed issues where AI would improve relations with nearby countries and then immediately cancel them<wbr></li>
+<li>AI Ottomans will now prefer to create a claim province CB against provinces that are not Constantinople, as it often causes them to lose the war against Byzantium<wbr></li>
+<li>AI Ottomans will no longer create cbs against countries they are planning to diplomatically subjugate via their special situation actions<wbr></li>
+<li>AI Ottomans will no longer create more claims when in debt or while below 0 stability via their special actions<wbr></li>
+<li>Greatly increased AI desire to attack a country if they already have a good CB available, compared to fabricating one from scratch<br>
+Economy:<wbr></li>
+<li>Fixed an issue where the player automation gold limit was being applied to AI countries<wbr></li>
+<li>Fixed an issue where AI would not want to build a building if the location had a maximum of 0 of the required pop type<wbr></li>
+<li>Added AI logic for minting threshold modifier<wbr></li>
+<li>Fixed an issue where AI was overvaluing roads due to not factoring in the tax rate from the propagated tax base<br>
+Production:<wbr></li>
+<li>Gold to save automation slider now works for RGOS, roads, and ranks too<br>
+Military:<wbr></li>
+<li>Fixed an issue where AI would use cbs even with a negative ai_selection_desire<wbr></li>
+</ul>
+
+
+<ul>
+<li>Added stripes to the non-endemic disease map mode to show where there are some individual pops infected<wbr></li>
+<li>Added a trade range map mode that allows selecting and showing trade range for specific markets (defaults to showing all markets within the player trade range).<wbr></li>
+<li>The tactical map mode now shows province capitals also for unfortified locations.<br>
+Alerts:<wbr></li>
+<li>Fixed naval levies number<wbr></li>
+<li>Add estate marriage checks to the unmarried children alert<wbr></li>
+<li>The alert for parliament now conveys both current support and time left at a glance<wbr></li>
+<li>Make the member leaving the union alert red<br>
+Panels:<wbr></li>
+<li>Renamed mapmode searcher to mapmode Legend and unified the Legend button with the Active Mapmode button<wbr></li>
+<li>Replaced a separation bar with a proper texture in the Society panel<wbr></li>
+<li>Fixed a bug in the War panel where the ticking warscore icon wasn’t showing for the defender<wbr></li>
+<li>Religious actions now need a confirm click<wbr></li>
+<li>Fixed the Parliament pie chart appearing twice<wbr></li>
+<li>Fixed Diplomatic Range not working as intended in diplomatic selection panels.<wbr></li>
+<li>The IO panel now shows potential votes on tooltips for laws<wbr></li>
+<li>Fixed the war panel having mixed information between sides. Now everything is properly positioned on its attacker/defender side.<wbr></li>
+<li>Organized the order of diplomatic relations on panels<wbr></li>
+<li>Fixed selected options not having a visual distinction<wbr></li>
+<li>Multiunit actions now refresh constantly, so you can merge them as soon as two units are in the same location.<wbr></li>
+<li>Fixed an issue where two war goals were shown (one for the attacker and one for the defender) when there is only one wargoal per war. It’s now only displayed on the attacker’s side, since the decision is made by the attacker.<wbr></li>
+<li>Fix the parliament agenda’s actions, not updating the description text<wbr></li>
+<li>Filter out marriage candidates and countries not eligible due to the Celtic marriage ban from the marriage finder<wbr></li>
+<li>Estate tax sliders now update the game state immediately when moved, fixing a broken extrapolation of estate satisfaction equilibrium.<wbr></li>
+<li>Upgrade building button: added Ctrl and Shift functionalities to upgrade buildings.<wbr></li>
+<li>Upgrade building button: made not impossible to build more levels of the upgraded building type than the current levels of the obsolete building.<wbr></li>
+<li>Improved visual info of levels being upgraded in a building.<wbr></li>
+<li>Fixed diplomatic macrobuilder to create a casus belli to show a tick on every country on which you can start creating a casus belli.<wbr></li>
+<li>Fixed the truce’s remaining time icon being covered by the truce icon.<wbr></li>
+<li>Additional coat of arms for historical characters and various starting dynasties<wbr></li>
+<li>Fix the inconsistency between the number of affected locations and their tooltips<wbr></li>
+<li>Fix the Government reforms cards’ icons not being clickable when instituting a new reform<wbr></li>
+<li>Fixed the sort order of trade capacity in the economy -&gt; markets -&gt; countries panel, and made the player country always show at the top.<wbr></li>
+<li>Fixed a bug where the discipline icon was showing for naval battles<wbr></li>
+<li>Generals in battles now look properly greyed out if they still haven’t arrived at the army<wbr></li>
+<li>The war widget in the current relation now shows the current warscore with a number instead of a pie chart<wbr></li>
+<li>Fixed the army strength amount displayed in the subject manager<wbr></li>
+<li>Fixed text format in the formables panel and ledger<wbr></li>
+<li>Corrected the order of columns in the ledger’s dynasty tab<wbr></li>
+<li>Improved responsiveness and data shown in the estate’s top bar and its tooltips<wbr></li>
+<li>Added a shortcut in the top left corner’s country rank to go to known countries<wbr></li>
+<li>Added heir icon for children’s heirs in character panel<wbr></li>
+<li>Added ages to rulers in government and foreign panels, and in education alert children entries.<wbr></li>
+<li>Fixed reorganize units not working. Now it will open the single unit panel of one of them and show the other one in the right menu.<wbr></li>
+<li>Improved readability and layout for research view<wbr></li>
+<li>Made so that ruler history shows recent rulers at the top by default<wbr></li>
+<li>Government reform cards are clickable again<br>
+Outliner:<wbr></li>
+<li>Correct progress for “Settle frontier” cabinet action<wbr></li>
+<li>Stalled constructions in the short outline version<br>
+Tooltips:<wbr></li>
+<li>Cleaned up some disease tooltips to be a bit more informative<wbr></li>
+<li>Fixed inconsistent usage of Artillery Barrage and artillery bonus concepts<wbr></li>
+<li>The tooltip for pinning things to the Outliner or to Context menus now says which is which<wbr></li>
+<li>Fixed typo in the Promotion game concept<wbr></li>
+<li>Navy strength tooltip fix<wbr></li>
+<li>Stalled buildings on production tooltip fix<wbr></li>
+<li>Fixed the breakdown for the max building amount tooltip<wbr></li>
+<li>Improve tooltip logic for language power when the language is #1 worldwide.<wbr></li>
+<li>Clarify attrition tooltips between location-specific attrition and external sources of attrition<wbr></li>
+<li>Fix attrition tooltips showing information it shouldn’t<wbr></li>
+<li>Fix the IO policies tooltips containing blank spaces<wbr></li>
+<li>The tooltip for societal values includes tips to push it further for both sides (they used to show only for the dominant value)<wbr></li>
+<li>You can now hover the number of max buildings/RGO levels in the production tab to see the reasons for the max levels<wbr></li>
+<li>Construction tooltips display if construction is stalled<wbr></li>
+<li>Harmonized tooltip columns for improved readability in market tooltips<wbr></li>
+<li>Declaring bankruptcy now shows all effects.<wbr></li>
+<li>Improved the player sync tooltip over the date in multiplayer to be more readable and have a scrollbar if you have lots of players.<wbr></li>
+<li>Add information about the highest great power in the great power rank tooltip<wbr></li>
+<li>Added concepts for war attacker and defender, to separate them from battle attacker and defender<wbr></li>
+<li>Added subheaders and fixes to market tooltips.<wbr></li>
+<li>Fixed missing localization trigger in the “Grant Elector” status action<wbr></li>
+<li>Include more information on the possible consequences of removing locations from IOs, such as the emperor’s opinion penalty.<wbr></li>
+<li>Tooltip for artists now explains that the max number only limits the amount you can manually hire, but you can have more through events<wbr></li>
+<li>Fixed the truce tooltip and circular widgets in the relations container<wbr></li>
+<li>Improved estates tooltips in the top bar<wbr></li>
+<li>Grouped estate gold together with income and expenses, and now shows a total balance.<wbr></li>
+<li>Fixed the antagonism tooltip to show all countries listed in a scroll list<wbr></li>
+<li>Fixes to tooltip showing missing goods when nothing was missing.<wbr></li>
+<li>The Retreat blocked tooltip now says the correct number of hours, not just 5.<br>
+<wbr></li>
+</ul>
+
+<ul>
+<li>Fixed the in-game paused border shadow appearing when the menu was open and the back shortcut or control groups shortcut was pressed.<wbr></li>
+<li>Explain the cost of breaking a truce in a war pop up<wbr></li>
+<li>Updated the declare war prediction banner with a new layout and colors, and changed margins on the header sides art<wbr></li>
+<li>Fixed the diplomatic action to “Ask to join the IO“on its macrobuilder without a specific target<wbr></li>
+<li>Fixed the credits background dimensions for vertical resolutions<wbr></li>
+<li>Improve suggested trades by making the suggestions less prone to failing when activated<wbr></li>
+<li>Correct the ruler title on the country rank change<wbr></li>
+<li>Include rival removal cost in confirmation pop-up<wbr></li>
+<li>Call into war action in diplo macrobuilder now works<wbr></li>
+<li>Fixed loading screen game concepts, trying to show icons when not loaded yet.<wbr></li>
+<li>Added a relation about to be broken alert<wbr></li>
+<li>Fix the administration-infiltrated message showing the wrong country being infiltrated<wbr></li>
+<li>Button for imperial actions on the HRE panel for the Emperor<wbr></li>
+<li>Parliament title out of bounds fix<wbr></li>
+<li>Show the IO treasury on the subheader<wbr></li>
+<li>Marriage finder entry displays heir or line of succession icon<wbr></li>
+<li>Renamed 2 of the 3 modifiers that were currently named “institution growth” into “local institution growth” and “global institution growth.”<wbr></li>
+<li>Add a new tooltip in the market view to show all profits made by trades grouped by goods for each country<wbr></li>
+</ul>
+
+
+<ul>
+<li>Added new historical characters visuals (eng_hobbes, erasmus, mos_ivan_i_danilovich_kalita_rurik).<wbr></li>
+<li>Added new historical characters visuals (fra_rene_descartes, mei_johann_wolfgang_goethe, dan_brahe).<wbr></li>
+<li>Added new historical characters visuals (ned_michiel_de_ruyter, gbr_adam_smith, pap_bernini_script, boh_jiri_z_podebrad, ara_vincent_ferrer).<wbr></li>
+<li>Added new historical characters visuals (fra_jean_jacques_rousseau, spa_ignatius_of_loyola, spa_blas_de_lezo, spa_velazquez_script, hab_ludwig_van_beethoven, por_magellan).<wbr></li>
+<li>Fixed transparent characters when wearing Deccan’s veil.<wbr></li>
+<li>Portrait long hair clipping issue fixed<wbr></li>
+<li>Added new historical characters visuals (jap_kusunoki_masashige, azt_tlacaelel, azt_tenoch, chi_zheng_he, maj_hayam_wuruk, swe_birger_jarl, corfitz_ulfeldt_script, fra_robespierre, swe_axel_oxenstierna).<br>
+<wbr></li>
+</ul>
+<p><b>Other:</b></p>
+
+<ul>
+<li>
+<p>Fixed the reformation units’ colors<wbr></p>
+</li>
+</ul>
+
+
+<ul>
+<li>
+<p>Fix ambient sound playing army effects instead of navy ones in the unit overview panel<wbr></p>
+</li>
+</ul>
+<h2>Modding</h2>
+
+<ul>
+<li>Added the on_country_rank_change on_action<wbr></li>
+<li>Fixed an issue which prevented the on_rescinded_effect effect from special_status to have the scope: source available, which scopes to the special_status itself<wbr></li>
+<li>any_primary_or_accepted_tolerated_culture’ and associated script lists renamed to ‘any_primary_or_accepted_or_tolerated_culture’<br>
+Triggers:<wbr></li>
+<li>Added a trigger for ‘province_population’.<wbr></li>
+<li>Added the average_estate_satisfaction trigger<wbr></li>
+<li>Fixed faulty documentation for the years_in_international_organization trigger<wbr></li>
+<li>Fixed an issue with is_available_for/is_visible_for/is_allowed_for, which made these triggers return false for any object that does not require an advance<wbr></li>
+<li>Add local_estate_power and local_relative_estate_power triggers<wbr></li>
+</ul>
+
+<ul>
+<li>Fixed desynch caused by revolt wars not being persisted<wbr></li>
+<li>Fixed desynch caused by religion focus progress not being persisted if it was not active<wbr></li>
+<li>Fixed desynch caused by generating different names for new subunits<wbr></li>
+</ul>
+<h2>Translation</h2>
+<p>
+<b>Polish:</b>&nbsp;<wbr></p>
+<ul>
+<li>
+<p>A total of 24 bugs have been corrected related to the Polish language<wbr></p>
+</li>
+</ul>
+<p><b>Spanish:</b><wbr></p>
+<ul>
+<li>A total of 12 bugs have been corrected related to the Spanish language<wbr></li>
+<li>Fixed incorrect $mapmode variables.<wbr></li>
+<li>Fixed incorrect $rank_kingdom_horde_ruler_male$ variables<wbr></li>
+<li>Fixed incorrect Genghis Khan variables<wbr></li>
+<li>Fixed incorrect capitalization in $bengali$ variables<wbr></li>
+<li>Fixed grammar issue with $basque$ variables</li>
+</ul>
+
+<p><b>French:</b><wbr></p>
+<ul>
+<li>A total of 409 bugs have been corrected related to the French language<wbr></li>
+<li>Fixed multiple incorrect variable issues<wbr></li>
+<li>Fixed incorrect translation bugs<wbr></li>
+<li>Fixed missing translation bugs<wbr></li>
+<li>Fixed wrong language bugs<wbr></li>
+</ul>
+
+<p><b>Brazilian Portuguese:</b><wbr></p>
+<ul>
+<li>A total of 1243 bugs have been corrected related to the Brazilian Portuguese language<wbr></li>
+<li>Corrected capitalization of some terms in mission titles.&nbsp;<wbr></li>
+<li>Standardized capitalization of important terms in game texts.&nbsp;<wbr></li>
+<li>Corrected placeholders that were not displaying character names correctly.&nbsp;<wbr></li>
+<li>Retranslated some game texts that were incorrect.&nbsp;<wbr></li>
+</ul>
+
+<p><b>Chinese:</b><wbr></p>
+<ul>
+<li>
+<p>A total of 380 bugs have been corrected<wbr></p>
+
+</li>
+</ul>
+<p><b>Korean:</b><wbr></p>
+<ul>
+<li>A total of 194 bugs has been corrected related to the Korean language.<wbr></li>
+<li>Corrected incorrect transliterations to more accurate pronunciations.<wbr></li>
+<li>Modified some texts to better convey their meaning.<wbr></li>
+<li>Corrected the display of numerical values in texts.<wbr></li>
+</ul>
+
+<p><b>Japanese:</b><wbr></p>
+<ul>
+<li>A total of&nbsp; 34 bugs has been corrected related to the Japanese language<wbr></li>
+<li>Changed the spelling of Chinese, Korean, and Vietnamese location/character names that had been in katakana into kanji in many cases.<wbr></li>
+<li>Fixed placeholders in instances where an incorrect or outdated placeholder was in use.<wbr></li>
+<li>Checked spelling/made consistent some historical terms.<wbr></li>
+<li>Fixed typos caused by kanji conversion errors in certain segments.<wbr></li>
+</ul>
+
+<p><b>Turkish:</b><wbr></p>
+<ul>
+<li>A total of 64 bugs have been corrected related to the Turkish language<wbr></li>
+<li>A number of fixes in the source text were applied to the localized text.<wbr></li>
+<li>Certain strings, including culture name placeholder,s were corrected according to how culture names are displayed<wbr></li>
+<li>Improvements were made to the text based on the in-game context.<wbr></li>
+<li>A small number of linguistic issues were fixed<wbr></li>
+</ul>
+<p><b>German:</b><wbr></p>
+<ul>
+<li>A total of 30 bugs have been corrected related to the German language<wbr></li>
+<li>checking of eliminated English contractions and their applicability in German<wbr></li>
+<li>streamlining of the form of address<wbr></li>
+<li>further standardization and streamlining of the general game vocabulary<wbr></li>
+</ul>
+
+<p><b>Russian:</b><wbr></p>
+<ul>
+<li>
+<p>A total of 195 bugs have been corrected related to the Russian language<wbr></p>
+</li>
+</ul>
+
+
+<ul>
+<li>Exiting using Alt+F4 in Ironman will now save the game.<wbr></li>
+<li>Fixed Ironman not being autosaved monthly<wbr></li>
+</ul>
+
+<ul>
+<li>Binary savegame optimizations by avoiding writing unnecessary whitespaces.<wbr></li>
+<li>Enabling texture streaming for more icon types, which saves around 200mb vram.<wbr></li>
+<li>optimized recalculation of cache data by delaying the name generation<wbr></li>
+</ul>
+
+<ul>
+<li>Fixed the continue button in the main menu when the last save is on the cloud<wbr></li>
+<li>When saving to the cloud should always use the binary and zipped format<wbr></li>
+<li>Prevented units from moving if no one was looking at them, stopping<wbr></li>
+<li>Reviewed most event titles and options that were incorrectly showing hyperlinked texts<wbr></li>
+<li>Union event “Ruler Ignores Country” now uses proper pronouns in its text<wbr></li>
+<li>Fixed countries starting with zero diplomatic capacity used<wbr></li>
+<li>Fix road construction, building outdated roads over more modern ones<wbr></li>
+<li>Fixes some issues with levy cooldowns in provinces.<wbr></li>
+<li>Fixed so the take on debt message now works for non-player actions<wbr></li>
+<li>Removed some unused files<wbr></li>
+<li>Fix the western schism situation panel not updating at the end of the first council</li>
+</ul>
+<p>Source: <a href="https://store.steampowered.com/news/app/3450310/view/503968841919890136?l=english">Steam</a></p>
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div></div><br/><br/>https://www.thesixthaxis.com/2025/12/02/europa-universalis-v-patch-1-0-8-makes-the-aztecs-a-bit-more-advanced/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Pokemon Legends: Z-A's Mega Dimension DLC Adds Another Mega Evolution For Lucario]]></title>
+            <link>https://www.gamespot.com/articles/pokemon-legends-z-as-mega-dimension-dlc-adds-another-mega-evolution-for-lucario/1100-6536641/?ftag=CAD-01-10abi2f</link>
+            <guid>1370752</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p>
+    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
+  </p><article itemscope="" data-type-id="1100" data-guid="1100-6536641">
+
+            
+            
+  
+
+
+        
+
+  
+
+
+        
+        
+              <section>
+
+                  
+          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
+                <p>A handful of new Mega-Evolved Pokemon are making their debut in <a href="https://www.gamespot.com/games/pokemon-legends-z-a/" data-ref-id="5000-619901">Pokemon Legends: Z-A</a>'s upcoming <a href="https://www.gamespot.com/articles/pokemon-legends-z-a-dlc-is-coming-really-soon-brings-new-mega-evolutions-and-donuts/1100-6535993/" data-ref-id="1100-6535993">Mega Dimension DLC</a>, and ahead of the expansion's launch, The Pokemon Company has revealed another new one: a second Mega Evolution for Lucario.</p><p>Mega Lucario Z marks the game's first Z Mega Evolution--a new kind of Mega-Evolved form that has a shorter cooldown period, but depletes Mega Energy much more quickly. According to the official <a href="https://www.pokemon.com/us/pokemon-news/mega-lucario-z-debuts-in-pokemon-legends-z-a-mega-dimension" data-target="true" target="_blank" rel="noopener nofollow">Pokemon website</a>, "Pokemon that undergo Z Mega Evolution require less time to fire off moves after receiving the orders from their Trainer, but they also burn through their Mega Power very quickly, making them less suited for long battles."</p><p data-embed-type="video" data-src="https://www.youtube.com/watch?v=V_UkrLROjkA" data-width="100%" data-height="100%">          <iframe src="https://www.youtube-nocookie.com/embed/V_UkrLROjkA" height="100%" width="100%" scrolling="no" frameborder="" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></p><p>Like the original Mega Lucario, Mega Lucario Z is a steel and fighting type. Where this form differs, however, is in its defense and speed stats. As the official Pokemon website explains, "While Mega Lucario concentrates its aura into a destructive force, Mega Lucario Z uses it to surround its entire body, cloaking itself to increase its defense, flexibility, and agility."</p><p>It's unclear how many other Pokemon will be able to undergo Z Mega Evolution, but we've already gotten a look at several new Mega-Evolved forms coming in the Mega Dimension DLC. In addition to Mega Raichu X and Mega Raichu Y, the DLC will introduce Mega Evolutions for Baxcalibur, Chimecho, and the mythical Pokemon Zeraora.</p><p>Pokemon Legends: Z-A's Mega Dimension DLC launches on December 10 and costs $30. The expansion takes players to an alternate dimension known as Hyperspace Lumiose, where they'll encounter Pokemon not normally available in the base game, including wild Pokemon that are over level 100.</p><p>In the meantime, Pokemon Legends: Z-A's third Ranked Battle season is underway until December 17. Players who hit Rank S before the season ends will receive a Mega Stone for Chestnaught. A new Mystery Gift is also now available. All players can claim a free Mewtwonite X and Mewtwonite Y, which will unlock a new side quest that leads to an encounter with the legendary Pokemon Mewtwo.</p>
+  
+                        
+    
+        
+        
+  
+                                  </div>
+
+
+          
+  
+    
+          
+            
+  <div>
+    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
+
+    
+      </div>
+        
+      </section>
+    
+            
+    </article></div><br/><br/>https://www.gamespot.com/articles/pokemon-legends-z-as-mega-dimension-dlc-adds-another-mega-evolution-for-lucario/1100-6536641/?ftag=CAD-01-10abi2f]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Disney's Possible New CEO Wants To Do More With Gaming - Report]]></title>
+            <link>https://www.gamespot.com/articles/disneys-possible-new-ceo-wants-to-do-more-with-gaming-report/1100-6536640/?ftag=CAD-01-10abi2f</link>
+            <guid>1370746</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p>
+    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
+  </p><article itemscope="" data-type-id="1100" data-guid="1100-6536640">
+
+            
+            
+  
+
+
+        
+
+  
+
+
+        
+        
+              <section>
+
+                  
+          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
+                <p>A new report has shed more light on the CEO succession plans at Disney, with a story from <a href="https://www.wsj.com/business/media/disney-bob-iger-next-ceo-f571257c?gaa_at=eafs&amp;gaa_n=AWEtsqcAnvO9HkSwOq6dtHvI9PgJs3zhb49bj_LauaFJs14tv8lhB61GX4WPPBJja20%3D&amp;gaa_ts=692f2221&amp;gaa_sig=5rTkrqo_jsKcEoMTYLBST2cadphurZq06o0aS9vWQa9F-lFkDGUUH5KOtfmQmf5ojqy4aIYuQjsxv9Dmruz0-g%3D%3D" data-target="true" target="_blank" rel="noopener nofollow">The Wall Street Journal</a> saying leading candidate Josh D'Amaro wants to focus more on gaming. The same report also suggested that Electronic Arts CEO Andrew Wilson is not going to get the job.</p><p>It was previously reported that Disney's board considered external candidates to take over for Bob Iger, <a href="https://www.gamespot.com/articles/ea-ceo-reportedly-in-the-mix-to-be-the-next-disney-boss/1100-6527707/" data-ref-id="1100-6527707">including Wilson</a>. But the new report said Disney is likely to choose an internal candidate. Wilson, for his part, is <a href="https://www.gamespot.com/articles/unpacking-eas-55-billion-sale-to-go-private-what-does-it-all-mean/1100-6535168/" data-ref-id="1100-6535168">staying on with EA amidst the company's $55 billion sale. </a></p><p>The new Disney CEO could be D'Amaro, who is currently the current head of Disney Experiences--a sprawling unit that covers theme parks, consumer products, cruise ships, and video games. The WSJ report said D'Amaro--who is "widely considered" to be named the next CEO--wants to give video games "a bigger role at the company." The report said D'Amaro is also looking to integrate "gaming technology" into Disney's creative processes. No further details were divulged, however.</p><p>Disney already uses Epic's Unreal technology for filmmaking, with <a href="https://www.gamespot.com/articles/see-how-star-wars-the-mandalorian-used-fortnite-en/1100-6473958/" data-ref-id="1100-6473958">The Mandalorian employing the Fortnite tech</a> to project scenes onto LED screens surrounding the physical set.</p><p data-embed-type="video" data-src="https://www.youtube.com/watch?v=gUnxzVOs3rk" data-width="100%" data-height="100%">          <iframe src="https://www.youtube-nocookie.com/embed/gUnxzVOs3rk" height="100%" width="100%" scrolling="no" frameborder="" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></p><p>D'Amaro is already making moves at Disney in regards to gaming. He spearheaded Disney's $1.5 billion investment into Epic Games for a future Fortnite collaboration and has <a href="https://www.gamespot.com/articles/disney-explains-why-its-fortnite-deal-is-so-important-we-have-to-adapt/1100-6526831/" data-ref-id="1100-6526831">previously discussed why gaming is so important to Disney.</a></p><p>D'Amaro said Walt Disney himself was an "adventurer" and a "risk-taker," going on to say what Disney is now trying to achieve through Fortnite is an extension of that spirit.</p><p>"We should never rest on past success. We should always look for the next big idea, the next big challenge," he said. "If we'd always relied on what worked in the past, the Walt Disney Company might not exist today. As consumer preferences continue to shift, we have to adapt, or we are going to be left behind."</p><p>Characters and content from Disney's Pixar, Marvel, Star Wars, and Avatar brands, among others, will be represented in Fortnite. Disney and Epic have yet to officially unveil any specific projects in Fortnite tied to Disney, but many are hoping to see some kind of "virtual Disney World."</p><p data-embed-type="video" data-src="https://www.youtube.com/watch?v=Yf2bRcSIUsE" data-width="100%" data-height="100%">          <iframe src="https://www.youtube-nocookie.com/embed/Yf2bRcSIUsE" height="100%" width="100%" scrolling="no" frameborder="" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></p><p>For more, be sure read GameSpot's rundown of <a href="https://www.gamespot.com/articles/disney-fortnite-release-date-trailer-story/1100-6534455/" data-ref-id="1100-6534455">everything we know about the Disney x Fortnite project.</a></p><p>Disney was at one time a bigger player in the world of video games, as the company had its own dedicated internal gaming division with Disney Interactive Studios. Disney also operated the once-popular Disney Infinity "toys-to-life" brand, but it also shuttered. Today, Disney's efforts in gaming mainly involve licensing its brands to other companies. In 2019, <a href="https://www.hollywoodreporter.com/news/general-news/bob-iger-disney-isnt-particularly-good-at-publishing-games-1183088/" data-target="true" target="_blank" rel="noopener nofollow">Iger spoke candidly about Disney's struggles</a> making and publishing games internally, admitting, "We haven't been particularly good..."</p><p>Disney does, however, do some internal game production and development within the Disney Experiences team. Right now, the company has <a href="https://www.disneycareers.com/en/category/gaming-and-interactive-jobs/391/8221696/1" data-target="true" target="_blank" rel="noopener nofollow">four open positions for video games</a>, including multiple producer roles and a pair of engineering jobs.</p><p>As for Iger, he has said he plans to leave Disney at the end of 2026, and many are speculating his replacement could be named early next year. As many may recall, Iger retired at the end of 2021, but came back in November 2022 after his replacement, Bob Chapek, was dismissed amid multiple controversies.</p>
+  
+                        
+    
+        
+        
+  
+                                  </div>
+
+
+          
+  
+    
+          
+            
+  <div>
+    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
+
+    
+      </div>
+        
+      </section>
+    
+            
+    </article></div><br/><br/>https://www.gamespot.com/articles/disneys-possible-new-ceo-wants-to-do-more-with-gaming-report/1100-6536640/?ftag=CAD-01-10abi2f]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Helldivers 2 PC Install Size Is Now 85% Smaller, But Not Automatically--Here's How To Free Up Space]]></title>
+            <link>https://www.gamespot.com/articles/helldivers-2-pc-install-size-is-now-85-smaller-but-not-automatically-heres-how-to-free-up-space/1100-6536644/?ftag=CAD-01-10abi2f</link>
+            <guid>1370743</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p>
+    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
+  </p><article itemscope="" data-type-id="1100" data-guid="1100-6536644">
+
+            
+            
+  
+
+
+        
+
+  
+
+
+        
+        
+              <section>
+
+                  
+          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
+                <p><a href="https://www.gamespot.com/games/helldivers-2/" data-ref-id="5000-589428">Helldivers 2</a> on PC just got a whole lot smaller, with developer Arrowhead Studios announcing a new, "slim" version of the game that reduces the game's install size by 131GB.</p><p dir="ltr">Fans on PC have long complained about the PC version's huge install size (and other <a href="https://www.gamespot.com/articles/helldivers-2-prioritizing-patches-every-two-weeks-to-reduce-critical-bug-count/1100-6535835/" data-ref-id="1100-6535835">technichal issues</a>), which since the game's launch in 2024 has ballooned to 154GB. That's much larger than the close-to-22GB size of the console versions.</p><p data-embed-type="video" data-src="https://www.youtube.com/watch?v=QQPp9ZCgrP8" data-width="100%" data-height="100%">          <iframe src="https://www.youtube-nocookie.com/embed/QQPp9ZCgrP8" height="100%" width="100%" scrolling="no" frameborder="" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></p><p dir="ltr">Arrowhead stated in a new <a href="https://steamcommunity.com/games/553850/announcements/detail/491583942944621372" data-target="true" target="_blank" rel="noopener">blog post</a> its long-term goal has always been to reduce the PC install size, but that now, with help from Nixxes Software, that goal has become a reality "much sooner than expected." Helldivers 2 on PC now only takes up 23GB--an 85% size reduction.</p><p dir="ltr">Users on PC who play Helldivers 2 on an HDD may experience slightly increased load times of a few seconds with this change, according to Arrowhead. The studio previously said it believed removing duplicate data on PC (which contributed to the game's huge install size) could potentially greatly increase load times for HDD players. Arrowhead said it now has data to prove that's not the case, as the majority of Helldivers 2's load times are due to level generation rather than asset loading.</p><p dir="ltr">There is, however, one catch to Helldivers 2's new, much smaller size. Players who want to free up space on their drive will need to opt in to a new "beta" version of Helldivers 2 on Steam, after which the game will update and its file size will be reduced. Below is a step-by-step guide on how to enable it.</p><ul><li dir="ltr">Find Helldivers 2 in your Steam library and right click</li><li dir="ltr">Select Properties from the drop down menu</li><li dir="ltr">Select the Betas tab</li><li dir="ltr">In the Beta Participation drop down list, select "prod_slim"</li><li dir="ltr">Close the dialog box and Helldivers 2 will update to the new version</li></ul><p dir="ltr">Arrowhead stated that once players using the beta version confirm there are no issues present, the slim version will become the default. For a limited time after that, players will be able to opt in to the legacy version if need be. However, given that there are only "very minor differences in loading times" between each version, Arrowhead will not continue to support the legacy version long term, as it would add "extra burden" to the development team.</p><p dir="ltr">Alongside the file-size reduction on PC, <a href="https://www.gamespot.com/gallery/helldivers-2-python-commandos-warbond-all-skins-guns-and-rewards/2900-7282/" data-ref-id="2900-7282">Helldivers 2's new Python Commando Warbond is also live</a>, adding a flame-spewing drone, minigun, chainsword, and more for Super Earth's defenders to add to their arsenal. The Warbond was delayed in order for Arrowhead to better start addressing various bugs and technical concerns players have had with Helldivers 2, including the game's file size.</p><p dir="ltr">In other Helldivers news, Sony's <a href="https://www.gamespot.com/articles/helldivers-movie-lands-fast-furious-director/1100-6536624/" data-ref-id="1100-6536624">Helldivers film just found a director in Justin Lin</a>, known for his work on the Fast and Furious film franchise.</p>
+  
+                        
+    
+        
+        
+  
+                                  </div>
+
+
+          
+  
+    
+          
+            
+  <div>
+    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
+
+    
+      </div>
+        
+      </section>
+    
+            
+    </article></div><br/><br/>https://www.gamespot.com/articles/helldivers-2-pc-install-size-is-now-85-smaller-but-not-automatically-heres-how-to-free-up-space/1100-6536644/?ftag=CAD-01-10abi2f]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Shovel Knight Dev's Next Game Is "Make Or Break," Needs To Sell 200,000 Copies]]></title>
+            <link>https://www.gamespot.com/articles/shovel-knight-devs-next-game-is-make-or-break-needs-to-sell-200000-copies/1100-6536639/?ftag=CAD-01-10abi2f</link>
+            <guid>1370740</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p>
+    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
+  </p><article itemscope="" data-type-id="1100" data-guid="1100-6536639">
+
+            
+            
+  
+
+
+        
+
+  
+
+
+        
+        
+              <section>
+
+                  
+          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
+                <p><a href="https://www.gamespot.com/games/mina-the-hollower/" data-ref-id="5000-556845">Mina the Hollower</a>, the next game from the creators of <a href="https://www.gamespot.com/games/shovel-knight/" data-ref-id="5000-175270">Shovel Knight</a>, is "make-or-break" for indie developer Yacht Club Games, according to studio head and co-founder Sean Velasco.</p><p dir="ltr">In a new <a href="https://www.bloomberg.com/news/articles/2025-12-02/creator-of-hit-game-shovel-knight-is-at-make-or-break-moment?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc2NDY4MDU4MywiZXhwIjoxNzY1Mjg1MzgzLCJhcnRpY2xlSWQiOiJUNk41RDBLR0NURlkwMCIsImJjb25uZWN0SWQiOiJCMUVBQkI5NjQ2QUM0REZFQTJBRkI4MjI1MzgyQTJFQSJ9.tTCDzLvXeRacM9mzJfRv3juJV7WGiMAKvYS8DWRQBFs&amp;leadSource=uverify%20wall" data-target="true" target="_blank" rel="noopener nofollow">Bloomberg</a> interview, Velasco said in order for Yacht Club Games to remain independent, Mina the Hollower needs to be a success, and if it could sell 200,000 copies, "that would be really, really great." The studio recently underwent layoffs and put a second in-the-works project on hold until Mina the Hollower releases.</p><p dir="ltr">"It's make-or-break for sure," Velasco said. "If we sold 500,000 copies, then we would be golden. If we sold even 200,000, that would be really, really great. If we sold, like, 100,000, that's not so good."</p><p dir="ltr">Originally slated to release in October, <a href="https://www.gamespot.com/articles/shovel-knight-devs-next-game-mina-the-hollower-delayed-but-not-for-long/1100-6535260/" data-ref-id="1100-6535260">Mina the Hollower underwent an indefinite last-minute delay</a> just a few weeks prior to launch and currently does not have a new release date.</p><p data-embed-type="video" data-src="https://www.youtube.com/watch?v=Ns7FkgskFGw" data-width="100%" data-height="100%">          <iframe src="https://www.youtube-nocookie.com/embed/Ns7FkgskFGw" height="100%" width="100%" scrolling="no" frameborder="" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></p><p dir="ltr">Velasco told Bloomberg the delay happened in order for Yacht Club to improve on various elements within the game that were only recently identified. At the time of the delay, the studio said it "wasn't a major delay" and was to done in order to "apply some final polish and balancing to make the game truly shine." The studio said it didn't want to announce a new release date until the game was submitted to platform holders.</p><p dir="ltr">It was only in 2024 that the entire studio shifted to work on Mina the Hollower, a top-down Zelda-like with Game Boy-era visuals, with the studio having previously been split into two teams. One team worked on Mina while the other worked on an unannounced 3D Shovel Knight sequel, according to Bloomberg.</p><p dir="ltr">Yacht Club released its debut Shovel Knight, a throwback platformer starring a knight that wielded a shovel, to great success in 2014. The character struck a chord with players, and Shovel Knight even received an official Amiibo from Nintendo and was included in Super Smash Bros. Ultimate as an assist trophy.</p><p dir="ltr">The studio spent the years after Shovel Knight's release crafting various expansions and spin-offs. Yacht Club's most recent release was 2022's <a href="https://www.gamespot.com/games/shovel-knight-dig/" data-ref-id="5000-501664">Shovel Knight Dig</a>, developed in collaboration with Nitrome.</p>
+  
+                        
+    
+        
+        
+  
+                                  </div>
+
+
+          
+  
+    
+          
+            
+  <div>
+    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
+
+    
+      </div>
+        
+      </section>
+    
+            
+    </article></div><br/><br/>https://www.gamespot.com/articles/shovel-knight-devs-next-game-is-make-or-break-needs-to-sell-200000-copies/1100-6536639/?ftag=CAD-01-10abi2f]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Monotype accused of overcharging Japanese devs for Japanese language fonts]]></title>
+            <link>https://www.gamedeveloper.com/business/american-company-is-overcharging-japanese-devs-for-japanese-language-fonts</link>
+            <guid>1370734</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-testid="article-base-contributors"><div data-component="contributors"><p><a data-testid="contributor-name" href="https://www.gamedeveloper.com/author/diego-arguello" data-discover="true">Diego Argüello</a><span data-testid="contributor-title">, <!-- -->Contributing Editor, News</span><span data-testid="contributor-title">, <!-- -->GameDeveloper.com</span></p><p data-testid="contributors-date">December 2, 2025</p></div><p><span data-component="icon" data-name="Clock"></span><span>2 Min<!-- --> <!-- -->Read</span></p></div><div data-component="captioned-content" data-testid="featured-image"><p><span>Image via Delightworks / Type-Moon</span></p></div><div data-module="content" data-testid="article-base-body-content"><p data-testid="content-paragraph"><span data-testid="content-text">Commercial font service company Fontworks is gradually terminating provisions of licenses that originally cost around $380 a year for Japanese developers. Now, Fontworks' new US-owned parent company Monotype is charging $20,500 a year for the new plan.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">As reported by </span><span data-testid="content-text"><a target="_blank" href="https://gamemakers.jp/article/2025_11_18_123775/">Gamemakers</a></span><span data-testid="content-text"> and </span><span data-testid="content-text"><a target="_blank" href="https://www.gamespark.jp/article/2025/11/30/160034.html?">Game*Spark</a></span><span data-testid="content-text">, and translated by Automaton, this started when Fontworks discontinued its Leading Edge Type Solution plan (LETS) on November 28. In short, the plan allowed developers to integrate Japanese font families, also known as typefaces, into their game builds for around 60,000 yen.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Some notable examples include Atlus with </span><span data-testid="content-text"><span>Persona 5</span></span><span data-testid="content-text"> and </span><span data-testid="content-text"><span>Etrian Odyssey V</span></span><span data-testid="content-text">, </span><span data-testid="content-text"><span>Capcom</span></span><span data-testid="content-text"> with </span><span data-testid="content-text"><span>Monster Hunter Ultimate</span></span><span data-testid="content-text">, and </span><span data-testid="content-text"><span>Type-Moon</span></span><span data-testid="content-text"> with </span><span data-testid="content-text"><span>Fate/Grand Order</span></span><span data-testid="content-text">.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Now, according to the </span><span data-testid="content-text"><a target="_blank" href="https://www.monotypefonts.com/pages/content/plans-enterprise-subscription">Monotype site</a></span><span data-testid="content-text">, the standard yearly plan has a cost of $20,500, which is roughly 3.2 million yen. Moreover, the plan can apply to up to 5 applications, but each app can only have "an aggregate of up to 25k registered users."</span></p><p data-testid="content-paragraph"><span data-testid="content-text">In summary, as of November 28, Fontworks has ceased supporting further extensions of the LETS license, and it will now be redirecting all existing subscriptions to Monotype's own fonts service.</span></p><h2 data-testid="content-text" id="US-based company Monotype acquired Fontworks in late 2023">US-based company Monotype acquired Fontworks in late 2023</h2><p data-testid="content-paragraph"><span data-testid="content-text">Monotype acquired Fontworks </span><span data-testid="content-text"><a target="_blank" href="https://www.monotype.com/company/press-release/monotype-completes-acquisition-leading-japanese-foundry-fontworks">back in September 2023</a></span><span data-testid="content-text">, which has been one of the most renowned companies for typefaces in the Japanese game industry.</span></p><p data-component="related-article"><span data-testid="related-article-title">Related:</span><a href="https://www.gamedeveloper.com/business/uk-publisher-outright-games-confirms-layoffs" target="_self" data-discover="true">UK publisher Outright Games confirms layoffs</a></p><p data-testid="content-paragraph"><span data-testid="content-text">According to Japanese web and </span><span data-testid="content-text"><a target="_blank" href="https://x.com/KY_creator/status/1993926902277616015">UI/UX designer Yamanaka</a></span><span data-testid="content-text">, who's worked on </span><span data-testid="content-text"><span>Attack on Titan VR</span></span><span data-testid="content-text"> and </span><span data-testid="content-text"><span>Soul Covenant</span></span><span data-testid="content-text">, developers of ongoing live-service games are poised to be substantially affected by the service change. If they decide to switch to a different company, for example, this will require redoing the font integration, which would result in another QA pass and a re-release, something that can be especially taxing for games like </span><span data-testid="content-text"><span>Fate/Grand Order</span></span><span data-testid="content-text">, which have been running for over ten years now. A change of fonts can also mean a change across branding, too.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">As Game*Spark points out, via </span><span data-testid="content-text"><a target="_blank" href="https://www.rpgsite.net/news/19055-fontworks-lets-game-font-licensing-cessation-might-affect-japanese-game-developer-companies-in-2026">RPG Site</a></span><span data-testid="content-text">, some of the alternatives include Mojimo Game, which is currently available in Japan for 5,280 yen per year (around $34). But these services are primarily targeted at independent developers, as the subscription is exclusively available to individuals and doesn't apply to corporations. Moreover, Mojimo is also managed by Fontworks.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Alwei, CEO of development studio Indie-US Games, </span><span data-testid="content-text"><a target="_blank" href="https://x.com/aizen76/status/1993694448296018155">commented</a></span><span data-testid="content-text"> that "this is a little-known issue, but it's become a huge problem in some circles." After receiving the quote for renewing their license, the company decided to switch to DynaFont instead.&nbsp;</span></p><p data-component="related-article"><span data-testid="related-article-title">Related:</span><a href="https://www.gamedeveloper.com/business/arc-games-becomes-independent-publisher-after-splitting-from-embracer" target="_self" data-discover="true">Arc Games becomes independent publisher after splitting from Embracer</a></p></div><div><h2>About the Author</h2><div data-component="contributor-summary"><p data-testid="contributor-summary-subtitle">Contributing Editor, News, GameDeveloper.com</p><div><p data-testid="content-paragraph"><span data-testid="content-text">Diego Nicolás Argüello is a freelance journalist and critic from Argentina. Video games helped him to learn English, so now he covers them for places like The New York Times, NPR, Rolling Stone, and more. He also runs Into the Spine, a site dedicated to fostering and supporting new writers, and co-hosted Turnabout Breakdown, a podcast about the Ace Attorney series. He’s most likely playing a rhythm game as you read this.</span></p></div></div></div></div><br/><br/>https://www.gamedeveloper.com/business/american-company-is-overcharging-japanese-devs-for-japanese-language-fonts]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Too Real, News Tower]]></title>
+            <link>https://aftermath.site/news-tower-impressions/</link>
+            <guid>1370728</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><article>
+      <p>I’ve finally been playing <a href="https://store.steampowered.com/app/1649950/News_Tower/?ref=aftermath.site"><em><u>News Tower</u></em></a>, a management game where you’re put in charge of every facet of a 1930s newspaper. Like, <em>every</em> facet, from which reporters cover which stories to making sure the bathroom is clean. It’s the kind of video game stuff I tend to love, but all of it taking the form of running a news outlet hits a little too close to home.</p><p>One of the last freelance pieces I wrote before starting as managing editor of Kotaku in 2016 was a review of <a href="https://unwinnable.com/2016/02/04/doing-your-job-in-the-westport-independent/?ref=aftermath.site"><em><u>The Westport Independent</u></em></a>, an indie newspaper management game that was mostly focused on the editorial end of things. I remember finding both the game and writing the review emotional, making me think about what my editing career had been up to that point and what it would look like in my new role. And while being managing editor involved, well, both <a href="https://kotaku.com/goodbye-and-tktk-1847173953?ref=aftermath.site"><u>managing and editing</u></a>, there were still big chunks of the business that were firmly other people’s problems.</p><p>Not so now, and not so in <em>News Tower</em>. In the game, you inherit a struggling paper and, most crucially, the building it’s housed in. The newsgathering is pretty simple: your telegraph operators find news across the city and globe, and then you send a reporter to cover it based on their strength in its subject area, such as sports, crime, politics, or economy. When a reporter is done they hand their story off to be typeset and assembled, and at the end of the week, you arrange your stories onto the pages of a newspaper and print it off to be sold. All of this takes in-game time; you have to juggle how long stories take to report to make sure you have enough to fill your pages, and I’ve spent a lot of the game’s Sunday evenings muttering “come on, come on” as the assembly person’s progress bar slowly filled and the clock ticked down.</p><figure><iframe width="200" height="113" src="https://www.youtube.com/embed/zEya-_8sxsI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="" title="News Tower - 1.0 Launch Trailer"></iframe></figure><p>But you play as the publisher, not the editor-in-chief. Beyond the work of the paper itself, there are all kinds of other things to oversee. You lay out your newsroom, buying and placing everything from reporters’ desks to lamps to trash cans. The printing press takes up a ton of space, and it’s also hot and noisy, which saw me sequestering it to its own floor and then desperately arranging acoustic panels and tiny fans around it. You need paper, someplace to store the paper, and someone to carry the paper where it needs to go. Your employees get hungry and thirsty, so you need a water cooler and food for them. They need to use the bathroom, so you need air vents to keep the bathroom from stinking and an employee to keep it clean. Things break, so you need a repairperson to fix them.&nbsp;</p><p>Employees will get uncomfortable if their physical needs aren’t met, slowing them down. I’m early in my first run with the game, and my person in charge of stocking supplies is unhappy with everything: it’s too dark at his desk, the printer is too loud and hot when he has to put paper in it, the bathroom is too stinky when he has to go in it. I’ve literally carried out his duties for him, using my mouse to drag boxes of paper from outside the news office up to the shelves as he meandered up and down the stairs, all while bemoaning our lack of paper.&nbsp;</p><p>I’d like to give him another lamp or more fans or some help, but I currently have barely enough money to keep us in business. I’ve refused to take out a loan, even though I’ve been making extra money by doing deals for the mafia instead. I’ve sold off odds and ends to scrape together handfuls of dollars for something I need more urgently, swiping up reporters’ potted plants and clustering their desks around a single light bulb, swearing I’ll fix things later if we can just sell enough papers this week. This money stress has made me unkind to my virtual employees; I swung from making my reporters a lovely little newsroom to snapping “You wouldn’t complain about the lighting if you were out <em>reporting</em>” within a handful of in-game time.&nbsp;&nbsp;</p><figure><figcaption><span>Sparrow Night</span></figcaption></figure><p><em>News Tower</em> is paced such that none of this is too stressful mechanically. Since the reporting largely happens on its own once you set it ticking, you have plenty of time for this day-to-day management, and you can move and re-do your layout easily. The game gives you plenty of clues to what’s wrong, if you have the means to fix it. But emotionally, I’m finding it <em>a lot</em>. It feels like there’s so much to handle, and so much of it relies on money I don’t have, and I <em>still </em>want to make everyone happy and not fire anyone. On top of all <em>that,</em> I still really want to make a good, honest paper that highlights the most important news, even as I promise the mafia I’ll do the opposite. There’s so much to do and so few resources to do all of it perfectly, but I’m still so certain I can, even as this commitment just digs me deeper into an early-game hole.</p><p>I’ve never really had the experience of a management game not feeling fun because it’s too similar to my real life. A game like <a href="https://aftermath.site/frostpunk-2-impressions/"><em><u>Frostpunk</u></em></a> is a harsh setting I’ll never find myself in; <a href="https://aftermath.site/stardew-valley-concernedape-haunted-chocolatier-interview/"><em><u>Stardew Valley</u></em></a> is a lovely escape that sands all the rough edges off actual farming. I usually love little chores in games like this, but all the little chores in <em>News Tower</em> are just pinging all my brain cells attuned to my real life chores. I recently got access to the game’s financial reports, and I’ll be honest I can barely look at them without thinking about my own real-life financial reports and all the responsibilities they entail.&nbsp;</p><p>I’m drawn to the game because it’s about journalism, but maybe I’m not in a place to play a journalism management game right now. This might be praise for <em>News Tower</em>: It definitely feels like running a news outlet, or at least running a news outlet if you’re me, someone with an over-developed sense of responsibility and a self-imposed mandate to do everything perfectly that I should probably work out in therapy instead of in a video game. There’s definitely a lesson in here about priorities and time management that I badly need to learn. At least my real life news outlet is <a href="https://bsky.app/profile/aftermath.site/post/3m6iaw6hrcc2m?ref=aftermath.site"><u>doing a lot better</u></a> than my virtual one, and at least the only bathroom I have to deal with there is my own. (Which is also currently dirty, oh no.)&nbsp; </p>
+    </article></div><br/><br/>https://aftermath.site/news-tower-impressions/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA["It's Make-Or-Break For Sure" - Shovel Knight Dev's Fate Rests On Upcoming Zelda-Like]]></title>
             <link>https://www.nintendolife.com/news/2025/12/its-make-or-break-for-sure-shovel-knight-devs-fate-rests-on-upcoming-zelda-like</link>
@@ -402,8 +1158,8 @@ At the time of writing, Embark are gearing up for the first Arc Raiders expediti
             <title><![CDATA[Judas developer log discusses origins of main character]]></title>
             <link>https://www.gematsu.com/2025/12/judas-developer-log-discusses-origins-of-main-character</link>
             <guid>1370638</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p><a title="Companies > Ghost Story Games [4 articles]" href="https://www.gematsu.com/companies/take-two-interactive-software/ghost-story-games">Ghost Story Games</a> has published the second developer log for single-player, narrative <a title="Genres > First-Person Shooter [2,833 articles]" href="https://www.gematsu.com/genres/shooter/fps">first-person shooter</a> <em><a title="Games > Judas [4 articles]" href="https://www.gematsu.com/games/judas">Judas</a></em> on <a href="https://blog.playstation.com/2025/12/02/judas-developers-ghost-story-games-discuss-the-origins-of-its-main-character/" target="_blank">PlayStation Blog</a>, which dives more into the game’s creative process and ideas that led to the creation of main character Judas, as well as shares a few seconds of new footage. <span id="more-1010689"></span></p><div><p><strong>Creating a “Judas Simulator”</strong></p><p>People often think our games start with the story, but we pretty much always start with a core design element. In <em>BioShock</em>, it was the Big Daddy and Little Sister bond. In <em>Infinite</em>, it was the companion character, Elizabeth. In Judas, it’s the dynamic narrative. We asked ourselves, “How do we tell a fully realized story where the characters can respond in real time to even the smallest choices the player makes?” Figuring out how to do that on a systemic level took many years. Eventually, the pieces formed around our main character, Judas.</p><p>“The project began with us wanting to tell stories that are less linear, that react to the player and unfold in ways that no one’s ever seen in one of Ken’s games,” said&nbsp;<em>Judas</em> lead narrative designer Drew Mitchell. “That told us a lot up front about what we’d need: namely, characters with strong, competing objectives, who each had a stake in everything the player did. Starting with that framework, we spent a lot of time thinking about those characters, their conflicts, the right setting to force them all together, and the systems underpinning it all. For a long time, there wasn’t even a set protagonist—just sort of a cipher, a blank slate.</p><p>“Eventually, the story and world started to coalesce into something specific, and we needed to figure out who the player character should be. As a rule, you want to put your heroes in the last place they ever want to find themselves. So, what kind of person would really struggle to deal with all these relationships and warring interests? And I remember that was the point where Ken came up with this monologue that kicked everything off.”</p><!-- AD: content -->
-        <p>Ghost Story Games studio president and <em>Judas</em> creative director Ken Levine said, “I often come up with ideas when I’m out on runs, and one day I thought of this speech that would define this character that we were trying to figure out. This speech popped my in my head as I was struggling through the third mile.</p><p>“I only eat at vending machines, because I don’t like interacting with waiters. Restaurants are more complicated: there are greetings and ‘hellos’ and ‘Is this table okay?’ And I’m thinking, ‘Why should I care what you recommend? You’re not me!’ But I’m not supposed to say that, so I just have to count the seconds until the interaction can end, devise socially acceptable ways of saying, ‘Go f*** yourself.’ Because for me, conversation is a prelude to failure. Vending machines never ask me a question that I don’t know the answer to. The exchange is reduced to the transaction: money in, product out. Why can’t people be more like that?”</p><p><em>—Judas Concept Art</em></p><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/12/Judas-Dev-Log-2_12-02-25_002.jpg"></a></figure><p>This stream of consciousness became the touchstone we kept coming back to for the character and ultimately the entire game. “Judas,” as she came to be known, understands machines in a way she can never understand people. That became her greatest strength… and greatest weakness. We put her in a science fiction world, a colony ship filled with robots—a futuristic setting that makes someone like her extremely powerful. But it’s also a world where personal success hinges on how well you can conform to the rules, because dissent would lead to the failure of the mission. That makes her an outlaw, a pariah—a Judas. That tension at the heart of the character came to inform everything about the game, which we stopped thinking of as a first-person shooter and started calling a “Judas Simulator.” Everything comes back to that core idea of you interacting with the world as Judas.</p><p>“Where I think <em>Judas</em> differs the most from <em>BioShock</em> or <em>BioShock Infinite</em> is right there in the name,” said Mitchell. “The game is named after her. Booker and Jack were strangers in a strange land, just like the player. Judas is a native of the Mayflower. In fact, she’s at the center of the events that set the story in motion. She’s got history with this world and the people in it—most of it very, very bad. Her story is about so much more than getting off a sinking ship, and it gives the player so many ways to determine how her journey plays out.</p><p>“It’s always a risk to hand the player a really defined, really vocal character to control. You always worry about creating dissonance between them. So, it’s been great to see testers stop and ask themselves, ‘What would Judas do here? How would she react?’ It shows they’re in conversation with the character and taking her and the journey seriously.”</p><p><strong>The Mayflower</strong></p><p>We want to communicate this world as best we can, not only through lore, but visually. A unique challenge in creating our colony ship setting, is that it’s a much older space to craft for player exploration. Rapture and Columbia existed as they were from their foundings. But the Mayflower is decades into its voyage, and it’s changed immensely since its departure.</p><p>“At the beginning of its journey, it was a more practical, conventional, modular starship,” said Ghost Story Games studio art director Nathan Phail-Liff. “But over the course of its mission, due to conflict between factions of people and ideals, it’s changed into what you see now. And we’re working on communicating this through the environment. Like with any city with significant history, if you start digging up the street, you would find layers of the city’s past. Older eras of street long buried, forgotten, and built over by the roads upon which you now walk. With the Mayflower as a generational starship, we want to imbue this world with the same sense of time, history, and credibility; this is a civilization that went through eras of conflict and rebirth. And having the characters and the architecture of the world reflect those layers of the onion is a powerful mechanism for visual storytelling.</p><p>“This allows players to act as a sort of <a title="Companies > historia [19 articles]" href="https://www.gematsu.com/companies/historia">historia</a>n and architect as they explore the Mayflower. Through uncovering more, you’ll make increasingly informed decisions with the story and characters on your journey.”</p><p>Another factor in creating this setting is that the world itself is dynamic, not just the story and characters. Just like with the dynamic narrative, we had to train the system on what makes good environments by using sophisticated tagging and rulesets to populate the world with believable design elements.</p><p>“We basically identify the puzzle pieces and buckets of content that we want to make up the setting of the Mayflower,” said&nbsp;<em>Judas</em> lead artist Karen Segars. “One example is living quarters. We don’t just have one type of space—we have different categories: VIP Pilgrim Quarters, Regular Pilgrim Dorms, all the way down to Violator Quarters. The art team creates the set pieces and materials for each of these quarters and the design team does deep dives on how all those pieces can fit together in a variety of layouts that feel grounded for the theme and support gameplay. When assembling the layouts in game, the system has to understand the various buckets of puzzle pieces and the hierarchy of the content so it can stitch it together in a meaningful way that supports the storytelling. More exclusive and fancier places can have high ceilings, giant windows, and grand lobbies. But the Violator space is in the lower, grungy, underbelly of the ship and you have to take what we call the “Stairway to Hell” to get to them—separating these spaces both visually and physically.”</p><p><iframe title="Judas - Developer Log #2 Clip" width="500" height="281" src="https://www.youtube.com/embed/6HwhclXJADs?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p><p>In our previous games we would do all of this by hand, but that doesn’t allow for the dynamism we are chasing. So, we took on this challenge of teaching the system how to be a storyteller and an interior decorator, creating a ruleset that we trust so it can populate the world in believable, compelling ways that allow for reactivity in a way you’ve never seen in our previous games.</p></div><p>Watch a new gameplay clip below.</p></div><br/><br/>https://www.gematsu.com/2025/12/judas-developer-log-discusses-origins-of-main-character]]></content:encoded>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p><a title="Companies > Ghost Story Games [4 articles]" href="https://www.gematsu.com/companies/take-two-interactive-software/ghost-story-games">Ghost Story Games</a> has published the <a href="https://www.judasthegame.com/news/dev-log-2" target="_blank">second developer log</a> for single-player, narrative <a title="Genres > First-Person Shooter [2,833 articles]" href="https://www.gematsu.com/genres/shooter/fps">first-person shooter</a> <em><a title="Games > Judas [4 articles]" href="https://www.gematsu.com/games/judas">Judas</a></em>, which dives deeper into the game’s creative process and ideas that led to the creation of main character Judas, as well as shares a few seconds of new footage. <span id="more-1010689"></span></p><div><p><strong>Creating a “Judas Simulator”</strong></p><p>People often think our games start with the story, but we pretty much always start with a core design element. In <em>BioShock</em>, it was the Big Daddy and Little Sister bond. In <em>Infinite</em>, it was the companion character, Elizabeth. In Judas, it’s the dynamic narrative. We asked ourselves, “How do we tell a fully realized story where the characters can respond in real time to even the smallest choices the player makes?” Figuring out how to do that on a systemic level took many years. Eventually, the pieces formed around our main character, Judas.</p><p>“The project began with us wanting to tell stories that are less linear, that react to the player and unfold in ways that no one’s ever seen in one of Ken’s games,” said&nbsp;<em>Judas</em> lead narrative designer Drew Mitchell. “That told us a lot up front about what we’d need: namely, characters with strong, competing objectives, who each had a stake in everything the player did. Starting with that framework, we spent a lot of time thinking about those characters, their conflicts, the right setting to force them all together, and the systems underpinning it all. For a long time, there wasn’t even a set protagonist—just sort of a cipher, a blank slate.</p><p>“Eventually, the story and world started to coalesce into something specific, and we needed to figure out who the player character should be. As a rule, you want to put your heroes in the last place they ever want to find themselves. So, what kind of person would really struggle to deal with all these relationships and warring interests? And I remember that was the point where Ken came up with this monologue that kicked everything off.”</p><!-- AD: content -->
+        <p>Ghost Story Games studio president and <em>Judas</em> creative director Ken Levine said, “I often come up with ideas when I’m out on runs, and one day I thought of this speech that would define this character that we were trying to figure out. This speech popped my in my head as I was struggling through the third mile.</p><p>“I only eat at vending machines, because I don’t like interacting with waiters. Restaurants are more complicated: there are greetings and ‘hellos’ and ‘Is this table okay?’ And I’m thinking, ‘Why should I care what you recommend? You’re not me!’ But I’m not supposed to say that, so I just have to count the seconds until the interaction can end, devise socially acceptable ways of saying, ‘Go f*** yourself.’ Because for me, conversation is a prelude to failure. Vending machines never ask me a question that I don’t know the answer to. The exchange is reduced to the transaction: money in, product out. Why can’t people be more like that?”</p><p><em>—Judas Concept Art</em></p><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/12/Judas-Dev-Log-2_12-02-25_002.jpg"></a></figure><p>This stream of consciousness became the touchstone we kept coming back to for the character and ultimately the entire game. “Judas,” as she came to be known, understands machines in a way she can never understand people. That became her greatest strength… and greatest weakness. We put her in a science fiction world, a colony ship filled with robots—a futuristic setting that makes someone like her extremely powerful. But it’s also a world where personal success hinges on how well you can conform to the rules, because dissent would lead to the failure of the mission. That makes her an outlaw, a pariah—a Judas. That tension at the heart of the character came to inform everything about the game, which we stopped thinking of as a first-person shooter and started calling a “Judas Simulator.” Everything comes back to that core idea of you interacting with the world as Judas.</p><p>“Where I think <em>Judas</em> differs the most from <em>BioShock</em> or <em>BioShock Infinite</em> is right there in the name,” said Mitchell. “The game is named after her. Booker and Jack were strangers in a strange land, just like the player. Judas is a native of the Mayflower. In fact, she’s at the center of the events that set the story in motion. She’s got history with this world and the people in it—most of it very, very bad. Her story is about so much more than getting off a sinking ship, and it gives the player so many ways to determine how her journey plays out.</p><p>“It’s always a risk to hand the player a really defined, really vocal character to control. You always worry about creating dissonance between them. So, it’s been great to see testers stop and ask themselves, ‘What would Judas do here? How would she react?’ It shows they’re in conversation with the character and taking her and the journey seriously.”</p><p><strong>The Mayflower</strong></p><p>We want to communicate this world as best we can, not only through lore, but visually. A unique challenge in creating our colony ship setting, is that it’s a much older space to craft for player exploration. Rapture and Columbia existed as they were from their foundings. But the Mayflower is decades into its voyage, and it’s changed immensely since its departure.</p><p>“At the beginning of its journey, it was a more practical, conventional, modular starship,” said Ghost Story Games studio art director Nathan Phail-Liff. “But over the course of its mission, due to conflict between factions of people and ideals, it’s changed into what you see now. And we’re working on communicating this through the environment. Like with any city with significant history, if you start digging up the street, you would find layers of the city’s past. Older eras of street long buried, forgotten, and built over by the roads upon which you now walk. With the Mayflower as a generational starship, we want to imbue this world with the same sense of time, history, and credibility; this is a civilization that went through eras of conflict and rebirth. And having the characters and the architecture of the world reflect those layers of the onion is a powerful mechanism for visual storytelling.</p><p>“This allows players to act as a sort of <a title="Companies > historia [19 articles]" href="https://www.gematsu.com/companies/historia">historia</a>n and architect as they explore the Mayflower. Through uncovering more, you’ll make increasingly informed decisions with the story and characters on your journey.”</p><p>Another factor in creating this setting is that the world itself is dynamic, not just the story and characters. Just like with the dynamic narrative, we had to train the system on what makes good environments by using sophisticated tagging and rulesets to populate the world with believable design elements.</p><p>“We basically identify the puzzle pieces and buckets of content that we want to make up the setting of the Mayflower,” said&nbsp;<em>Judas</em> lead artist Karen Segars. “One example is living quarters. We don’t just have one type of space—we have different categories: VIP Pilgrim Quarters, Regular Pilgrim Dorms, all the way down to Violator Quarters. The art team creates the set pieces and materials for each of these quarters and the design team does deep dives on how all those pieces can fit together in a variety of layouts that feel grounded for the theme and support gameplay. When assembling the layouts in game, the system has to understand the various buckets of puzzle pieces and the hierarchy of the content so it can stitch it together in a meaningful way that supports the storytelling. More exclusive and fancier places can have high ceilings, giant windows, and grand lobbies. But the Violator space is in the lower, grungy, underbelly of the ship and you have to take what we call the “Stairway to Hell” to get to them—separating these spaces both visually and physically.”</p><p><iframe title="Judas - Developer Log #2 Clip" width="500" height="281" src="https://www.youtube.com/embed/MUjx4qpexdU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p><p>In our previous games we would do all of this by hand, but that doesn’t allow for the dynamism we are chasing. So, we took on this challenge of teaching the system how to be a storyteller and an interior decorator, creating a ruleset that we trust so it can populate the world in believable, compelling ways that allow for reactivity in a way you’ve never seen in our previous games.</p></div><p>Watch a new gameplay clip below.</p></div><br/><br/>https://www.gematsu.com/2025/12/judas-developer-log-discusses-origins-of-main-character]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
         <item>
@@ -416,7 +1172,7 @@ At the time of writing, Embark are gearing up for the first Arc Raiders expediti
 <blockquote>
 <p>After 18 years of waiting, Metroid Prime 4: Beyond manages to replicate that magical sense of discovery from the GameCube original while pushing the series in some incredible new directions. Separating the main biomes with a vast open world sounds ridiculous on paper, but the slick traversal provided by Vi-O-La makes exploration more satisfying than ever</p></blockquote><blockquote>
 </blockquote>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:194214 @ 1764699039 -->
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:194214 @ 1764699952 -->
 <p>But we're not the only review out there! Below, we've rounded up a handful of reviews from across the internet to give you a snapshot of the range of opinions on display. We predicted that this might be a rather divisive one in our review, and divisive it has been...</p>
 <p>Kicking things off with a full beans 10/10 from <a href="https://www.giantbomb.com/reviews/metroid-prime-4-beyond-review/1900-805/">Giant Bomb</a>, where the outlet describes Prime 4 as "one of [Samus'] greatest adventures":</p>
 <blockquote>
@@ -451,7 +1207,7 @@ At the time of writing, Embark are gearing up for the first Arc Raiders expediti
             <title><![CDATA[The Switch 2 is still on sale at Walmart if you missed out during Cyber Monday]]></title>
             <link>https://www.theverge.com/gadgets/836519/nintendo-switch-2-mario-kart-world-bundle-walmart-deal</link>
             <guid>1370620</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><div><p><span aria-expanded="false" aria-haspopup="true" role="button" tabindex="0"><span id="follow-author-standard_article_details-dmcyOmF1dGhvclByb2ZpbGU6Njg3NzE5"><span><span><svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Follow"><path d="M5 0H4V4H0V5H4V9H5V5H9V4H5V0Z"></path></svg></span></span><span>Brandon Russell</span></span></span></p> <p><span>is a commerce writer covering deals and buying guides. Previously, he was a freelance writer for Popular Mechanics, Men’s Health, and Esquire.</span></p></div><div id="zephr-anchor"><p>One of the biggest surprises of Cyber Monday was the excellent discount we saw on the <strong>Nintendo Switch 2 + <em>Mario Kart World</em> bundle</strong>, which dropped the price of Nintendo’s latest console by $50. We expected the price to return to normal once the shopping holiday ended, but — surprise, surprise — it’s still going strong. Walmart is currently offering the gaming bundle for <a href="https://goto.walmart.com/c/482924/565706/9383?u=https%3A%2F%2Fwww.walmart.com%2Fip%2FNintendo-Switch-2-plus-Mario-Kart-World-Bundle%2F16422361549" rel="sponsored">$449.99 ($50 off)</a> when you add it to your cart. Since it’s a high-demand item, you’ll need to create a Walmart account in order to go through the checkout process.</p><p>The current promo effectively gets you a free digital copy of <em>Mario Kart World</em>, which <a href="https://goto.walmart.com/c/482924/565706/9383?u=https%3A%2F%2Fwww.walmart.com%2Fip%2FMario-Kart-World-U-S-Version%2F15940407280" rel="sponsored">typically retails for $79.99</a> on its own (the limited-edition bundle normally retails for $499.99). Given that tariff-induced price hikes have recently made consoles like the <a href="https://www.theverge.com/news/717610/nintendo-switch-original-price-increase">original Switch</a>, <a href="https://www.theverge.com/news/782079/microsoft-xbox-console-price-increase-us">Xbox Series X</a>, and <a href="https://www.theverge.com/news/762410/sony-ps5-price-hike-raise-digital-pro">PlayStation 5</a> to become more expensive, this deal is a welcome reprieve. However, we don’t anticipate it sticking around, so if you or someone you know is on the hunt for the Switch 2, now’s the time to pick one up.</p><p>The Nintendo Switch 2 offers a nice upgrade over the original, with an expansive 7.9-inch 1080p LCD screen, magnetic Joy-Con controllers, and improved performance. It can play most original Switch games, and the system’s library of must-play titles continues to grow, with big releases like <em><a href="https://www.theverge.com/games-review/707704/donkey-kong-bananza-review-nintendo-switch-2">Donkey Kong Bananza</a></em>, <em><a href="https://www.theverge.com/games-review/684518/mario-kart-world-review-nintendo-switch-2">Mario Kart World</a></em>, <em><a href="https://www.theverge.com/games/826488/kirby-air-riders-nintendo-switch-2-vehicle-customization">Kirby Air Riders</a></em>, and the forthcoming <em><a href="https://www.theverge.com/games/835325/metroid-prime-4-review-nintendo-switch">Metroid Prime 4: Beyond</a></em>.</p><div><form><div><h2>Verge Deals</h2><p><span>Sign up for Verge Deals to get deals on products we’ve tested sent to your inbox weekly.</span></p></div></form></div><div><p><span><strong>Follow topics and authors</strong> from this story to see more like this in your personalized homepage feed and to receive email updates.</span></p><ul><li id="follow-author-article_footer-dmcyOmF1dGhvclByb2ZpbGU6Njg3NzE5"><span aria-expanded="false" aria-haspopup="true" role="button" tabindex="0"><span><span><svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Follow"><path d="M5 0H4V4H0V5H4V9H5V5H9V4H5V0Z"></path></svg></span><span>Brandon Russell</span></span></span></li><li></li><li></li><li></li><li></li><li></li></ul></div></div></div></div><br/><br/>https://www.theverge.com/gadgets/836519/nintendo-switch-2-mario-kart-world-bundle-walmart-deal]]></content:encoded>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><div><p><span aria-expanded="false" aria-haspopup="true" role="button" tabindex="0"><span id="follow-author-standard_article_details-dmcyOmF1dGhvclByb2ZpbGU6Njg3NzE5"><span><span><svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Follow"><path d="M5 0H4V4H0V5H4V9H5V5H9V4H5V0Z"></path></svg></span></span><span>Brandon Russell</span></span></span></p> <p><span>is a commerce writer covering deals and buying guides. Previously, he was a freelance writer for Popular Mechanics, Men’s Health, and Esquire.</span></p></div><div id="zephr-anchor"><p>One of the biggest surprises of Cyber Monday was the excellent discount we saw on the <strong>Nintendo Switch 2 + <em>Mario Kart World</em> bundle</strong>, which dropped the price of Nintendo’s latest console by $50. We expected the price to return to normal once the shopping holiday ended, but — surprise, surprise — it’s still going strong. Both <a href="https://www.amazon.com/dp/B0FC5FJZ9Z/?tag=theverge02-20" rel="sponsored">Amazon</a> and <a href="https://goto.walmart.com/c/482924/565706/9383?u=https%3A%2F%2Fwww.walmart.com%2Fip%2FNintendo-Switch-2-plus-Mario-Kart-World-Bundle%2F16422361549" rel="sponsored">Walmart</a> are offering the gaming bundle for $449.99 ($50 off). Since it’s a high-demand item, Walmart is requiring buyers to create an account in order to see the discount and go through the checkout process.</p><p>The current promo effectively gets you a free digital copy of <em>Mario Kart World</em>, which <a href="https://goto.walmart.com/c/482924/565706/9383?u=https%3A%2F%2Fwww.walmart.com%2Fip%2FMario-Kart-World-U-S-Version%2F15940407280" rel="sponsored">typically retails for $79.99</a> on its own (the limited-edition bundle normally retails for $499.99). Given that tariff-induced price hikes have recently made consoles like the <a href="https://www.theverge.com/news/717610/nintendo-switch-original-price-increase">original Switch</a>, <a href="https://www.theverge.com/news/782079/microsoft-xbox-console-price-increase-us">Xbox Series X</a>, and <a href="https://www.theverge.com/news/762410/sony-ps5-price-hike-raise-digital-pro">PlayStation 5</a> to become more expensive, this deal is a welcome reprieve. However, we don’t anticipate it sticking around, so if you or someone you know is on the hunt for the Switch 2, now’s the time to pick one up.</p><p>The Nintendo Switch 2 offers a nice upgrade over the original, with an expansive 7.9-inch 1080p LCD screen, magnetic Joy-Con controllers, and improved performance. It can play most original Switch games, and the system’s library of must-play titles continues to grow, with big releases like <em><a href="https://www.theverge.com/games-review/707704/donkey-kong-bananza-review-nintendo-switch-2">Donkey Kong Bananza</a></em>, <em><a href="https://www.theverge.com/games-review/684518/mario-kart-world-review-nintendo-switch-2">Mario Kart World</a></em>, <em><a href="https://www.theverge.com/games/826488/kirby-air-riders-nintendo-switch-2-vehicle-customization">Kirby Air Riders</a></em>, and the forthcoming <em><a href="https://www.theverge.com/games/835325/metroid-prime-4-review-nintendo-switch">Metroid Prime 4: Beyond</a></em>.</p><p><em><strong>Update, December 2nd, 1:40PM ET:</strong> Added the Amazon discount. The retailer has wavered on offering this deal, but for now, it’s back on.</em></p><div><form><div><h2>Verge Deals</h2><p><span>Sign up for Verge Deals to get deals on products we’ve tested sent to your inbox weekly.</span></p></div></form></div><div><p><span><strong>Follow topics and authors</strong> from this story to see more like this in your personalized homepage feed and to receive email updates.</span></p><ul><li id="follow-author-article_footer-dmcyOmF1dGhvclByb2ZpbGU6Njg3NzE5"><span aria-expanded="false" aria-haspopup="true" role="button" tabindex="0"><span><span><svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Follow"><path d="M5 0H4V4H0V5H4V9H5V5H9V4H5V0Z"></path></svg></span><span>Brandon Russell</span></span></span></li><li></li><li></li><li></li><li></li><li></li></ul></div></div></div></div><br/><br/>https://www.theverge.com/gadgets/836519/nintendo-switch-2-mario-kart-world-bundle-walmart-deal]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
         <item>
@@ -521,293 +1277,6 @@ At the time of writing, Embark are gearing up for the first Arc Raiders expediti
 
         
   </div></div><br/><br/>https://www.rockpapershotgun.com/helldivers-2-install-size-reduction-effort-yields-131gb-in-cuts-and-you-can-try-the-slim-build-right-now]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[After An 8 Year Wait, Metroid Prime 4: Beyond Reviews Say It’s Fine]]></title>
-            <link>https://kotaku.com/metroid-prime-4-reviews-is-it-good-switch-2-nintendo-2000649621</link>
-            <guid>1370593</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-              
-              <p>18 years after <em>Metroid Prime 3</em> launched and <a href="https://kotaku.com/nintendo-announces-metroid-prime-4-1796058481">eight years after the sequel was first announced</a>, Nintendo and Rare have finally finished<em> Metroid Prime 4: Beyond.</em> The long-awaited follow-up arrives later this week on Switch and Switch 2. And on December 2, ahead of release, reviews from critics went live across multiple outlets. In summary, <em>Prime 4</em> isn’t a bad game. But it doesn’t sound like a masterpiece either, falling short of past entries in the first-person shooter series.</p> <p>Launching on December 4, <em>Metroid Prime 4</em> is Nintendo’s last big game of 2025 and has a lot of hype and hope surrounding it. Fans have been wanting an <a href="https://kotaku.com/nintendo-switch-2-pro-metroid-prime-4-zelda-mario-1850098941">entire console generation</a>. So when previews last month featured an overly talkative sidekick, a big departure from the often atmospheric and empty worlds of past <em>Prime</em> games, people were nervous. Would players quickly grow tired of some bumbling sidekick?</p>
-
- <p>The good news is that many reviews, even the less glowing ones, indicate that <em>Prime 4</em>‘s human characters aren’t overly annoying and aren’t as big a part of<em> Prime 4</em> as some had feared. Another concern fans had involved the open world connecting the various areas of <em>Metroid Prime 4</em>, which Samus Aran traverses on a motorcycle. Many critics, even those who found the bike cool, weren’t convinced this was a necessary inclusion.</p> <p>Narratively, the world you explore in<em> Prime 4</em> is reportedly filled with excellent worldbuilding and lore teases, but some complained that this latest entry doesn’t feel like a complete story. Instead, it seems like it’s teasing the start of something more. <a href="https://kotaku.com/fans-who-pre-ordered-metroid-prime-4-six-years-ago-have-seen-their-entire-lives-change-2000645936">Hopefully, if <em>Metroid Prime 4</em> gets a sequel, fans won’t have to wait another decade for it.</a></p> <hr> <h2><em><a href="https://www.pcmag.com/reviews/metroidhttps://www.pcmag.com/reviews/metroid-prime-4-beyond-prime-4-beyond">PC Mag</a></em></h2> <blockquote><p>At worst, these characters are somewhat stock, providing a contrast against a singularly awe-inspiring figure like Samus. For example, there’s a chatty nerd and an old, gruff general. They leave you alone for long stretches of the journey, so when they’re deployed, it’s with purpose. Initially, your comrades explain tutorials at base camp. Later, they pop up for set-piece moments that advance the story and diversify the gameplay. In a nice touch, soldiers aid you in battle if you can protect them, and a hulking robot companion clears paths blocked by debris. There are some neat hints of worldbuilding as one teammate explains his spiritual beliefs, which sets up a lovely payoff. These supporting characters are Beyond’s weakest element, but they’re inoffensive and serve their purpose well. As always, <em>Metroid’s</em> real story is between you and the planet.</p></blockquote> <h2><a href="https://www.polygon.com/metroid-prime-4-beyond-review/"><em>Polygon</em></a></h2> <blockquote><p><em>Metroid Prime 4</em> thinks you are very, very stupid. Like, unbelievably dimwitted. At one point, I’m running through a room that only has one exit and one entrance. My companion runs over to the only other door I can walk through and shouts “This must be the way!” Later, I blast down a machine while standing on a bridge. Everything explodes around me in a cinematic and the camera focuses on a morph ball-sized hole that has appeared in the chaos. The scene continues long enough for a soldier to point directly at the hole and tell me that it’s the way out. I gain map data for an area at some point and a pop-up tells me that I can press the minus button on my controller to open it. A companion chimes in: “Wanna check your map?” I get it. Metroid games can be alienating for mainstream audiences, and the series has always struggled to find commercial success. Having linear biomes and tighter direction helps ease the on-ramp for players who are intimidated by the idea of getting lost.</p> <p>But Retro Studios has already solved for that time and time again: cutscenes that telegraph where to go, a scan feature that tells players exactly how to kill bosses, on-screen button prompts. The soldiers don’t replace any of those ideas; they quite literally talk over them. You now get up to three nudges at a time when you encounter an obstacle. And all of that is happening in the&nbsp;<em>one&nbsp;</em>major Nintendo series that isn’t geared towards its youngest players.</p></blockquote> <h2><em><a href="https://gameinformer.com/review/metroid-prime-4-beyond/worth-the-wait">Game Informer</a></em></h2> <blockquote><p>The first-person action gameplay is familiar to previous Prime games and feels good. Samus’ new psychic powers don’t radically change the fun lock-on, shooter gameplay, but I enjoyed remote controlling the Control Beam at opportune times in boss fights and to solve puzzles. The pacing and unfolding of each location are immaculately designed, funneling you toward objectives while consistently planting seeds that make you want to return later with expanded abilities. The desert hub area where Samus drives her motorcycle between objectives is the perfect size: Big enough that the motorcycle feels necessary, but not so big that you are ever driving for too long.</p></blockquote> <h2><em><a href="https://www.gamesradar.com/games/metroid/metroid-prime-4-beyond-review/">GamesRadar+&nbsp;</a></em></h2> <blockquote> <p id="bf1a2720-ff20-45e4-b300-098b15f2c95a">The overworld, the dune-covered Sol Valley, feels similarly dated conceptually, and, again, closer to classic <em>Zelda</em> than any kind of&nbsp;<em>The Legend of Zelda: Breath of the Wild</em> twist I hesitantly expected – especially considering there are literally shrines that offer small puzzle challenges. There’s so few you can count them on two hands, and basically all amount to walking into a room and seeing if you have the power-up to progress or not – this is no bite-size revolution of the <em>Metroid</em> formula but something to fill an otherwise fairly empty open world map Sol Valley is how Samus accesses each of the five main key-hiding areas, which does make it the largest completely interconnected open world Metroid has ever had. Sort of. The problem is how much of a rigmarole it is to get back and forth between anywhere.</p> </blockquote> <h2><em><a href="https://www.eurogamer.net/metroid-prime-4-beyond-review">Eurogamer</a></em></h2> <blockquote><p>The central desert, which you’ll be crossing often as you go back and forth between the main areas, is fun enough. Vi-O-La, the bike, is a blast to drive, with a few fun and simple mechanics to experiment with. The desert does give the impression, though, that it was designed separately from the rest of the game. I genuinely wonder if it was outsourced to a different team. Even the loading zones seem to suggest this, as it doesn’t even directly connect to the dungeons. In each case, there’s a loading zone, then a tiny ‘staging’ area you can cross in about a minute,&nbsp;<em>then</em>&nbsp;the dungeon.</p></blockquote> <h2><em><a href="https://www.videogameschronicle.com/review/metroid-prime-4-beyond-review/">VGC</a></em></h2> <blockquote><p><em>Metroid Prime 4</em> is a Frankenstein fusion of ideas, which at its peaks delivers some great series moments, but at its troughs, feels like a dilution of the formula that made these games beloved in the first place. Throughout Prime 4, players neck-jerk between horror-style FPS sequences, open-world vehicle exploration, and comedy banter between a crew of wisecracking support characters. It’s an experience that feels like a collage of styles plucked from past Samus Aran adventures,&nbsp;<em>The Legend of Zelda,</em> and&nbsp;<em>Halo</em>, but never really settles into a clear identity.</p></blockquote> <h2><a href="https://www.gamespot.com/reviews/metroid-prime-4-beyond-review-prime-but-not-quite-prime-prime/1900-6418446/"><em>Gamespot</em></a></h2> <blockquote><p>All of this is delivered with a visual fidelity on Switch 2 that is among the best we’ve seen on a Nintendo system. Sometimes particular details can look a little rough–some of the flora in Fury Green, or the industrial mesh grating of the Volt Forge, for instance–but other times it’s stunning. The frozen-over laboratory of the Ice Belt, or the futuristic beauty of Lamorn architecture in its artifacts, are particularly strong. It won’t match the best we’ve seen on PC or higher-powered consoles, but it’s a beautiful game regardless. Plus, I just love the look of Samus’ new suit, and in cutscene close-ups, the fidelity did it a lot of favors by showing the layers of its textures and materials.</p></blockquote> <h2><em><a href="https://www.inverse.com/gaming/metroid-prime-4-beyond-review">Inverse</a></em></h2> <blockquote><p>It’s possible that a version of <em>Metroid Prime 4</em>&nbsp;that leaned into the open-world aspects or even the party of secondary characters could work, but as it is now, both feel bolted onto a game that would be much better without them. Ultimately, much of&nbsp;<em>Metroid Prime 4</em>&nbsp;feels like a failed experiment. As great as it is to explore the lightning-struck Volt Forge or pick through the haunted remains of the Ice Belt facility, the game’s standout moments are buried in drudgery.&nbsp;<em>Metroid Prime 4</em> is thrilling at times, set across consistently beautiful environments, but it can’t stop getting in its own way.</p></blockquote>
-                          </div></div><br/><br/>https://kotaku.com/metroid-prime-4-reviews-is-it-good-switch-2-nintendo-2000649621]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Helldivers 2 PC File Size Reduced by 85%]]></title>
-            <link>https://insider-gaming.com/helldivers-2-pc-file-size-reduced-by-85-slim-version-now-available-in-beta/</link>
-            <guid>1370590</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-        
-<p>Arrowhead Game Studios has revealed that Helldivers 2’s file size has been reduced by 85%, and the new ‘slim version’ can be tried in beta. </p>
-
-
-
-<p>The performance issues and installation size in Helldivers 2 have become a pain in Arrowhead’s neck, and they have been hard at work trying to solve these problems. The developers <a href="https://insider-gaming.com/helldivers-2-devs-comment-on-installation-size-and-load-times/" target="_blank" rel="noreferrer noopener">commented</a> in October on improving the game’s file size, and now they have delivered the result, reducing the installation size by more than 3 quarters. </p>
-
-
-
-
-
-
-
-<h2 id="h-helldivers-2-file-size-reduced-from-154gb-to-23gb">Helldivers 2 File Size Reduced from 154GB to 23GB </h2>
-
-
-
-<p>The new <a href="https://store.steampowered.com/news/app/553850/view/491583942944621371" target="_blank" rel="noreferrer noopener nofollow">blog post</a> on Steam states that the Helldivers 2 developers have made good progress on reducing the PC installation size while adding new content. Thanks to their partnership with Nixxes, the team has reached its goal sooner than expected, with all data being de-duplicated. The file size reduction will also help improve load times, “seconds at most”. </p>
-
-
-
-<p>The new file size for Helldivers 2 on PC has been reduced to 23GB, which cuts 131GB (85%) from the previous 154GB installation size. The new ‘Slim version’ of the game has gone through several rounds of internal QA and has been rolled out for early adopters as a public technical beta. After the public beta returns with no issues, the slim version will become the default for Helldivers 2. </p>
-
-
-
-<p>At the same time, the legacy version will be available as opt-in once the slim version becomes the default to help players “self-troubleshoot any issues that were not picked up during our internal testing or the public technical beta.”</p>
-
-
-
-
-
-
-
-<p>In other news, <a href="https://insider-gaming.com/helldivers-film-director-fast-and-furious-it-writer/" target="_blank" rel="noreferrer noopener">Fast and Furious director and IT writer</a> will direct the live-action Helldivers film. Additionally, Arrowhead recently spoke about <a href="https://insider-gaming.com/helldivers-2-devs-talk-about-next-game/" target="_blank" rel="noreferrer noopener">their next game</a>. What are your thoughts on Helldivers 2’s file size being reduced by 85%? Leave your thoughts down in the comments, and join the official&nbsp;<a href="https://discord.com/invite/vwj7zdWxaW" target="_blank" rel="noreferrer noopener">Insider Gaming Discord server</a>.</p>
-
-
-
-<hr>
-
-
-
-<p>For more information from Insider Gaming, read about&nbsp;<a href="https://insider-gaming.com/metroid-prime-4-beyond-is-the-lowest-reviewed-game-in-the-series/" target="_blank" rel="noreferrer noopener">Metroid Prime 4: Beyond becoming the lowest-reviewed game in the series</a>. Don’t forget to&nbsp;<a href="https://insider-gaming.com/subscribe" target="_blank" rel="noreferrer noopener">sign up for our weekly newsletter</a>.</p>
-    
-
-    <div id="ig-app-cta">
-          <p><i></i> MOBILE APP</p>
-          <h2>Level Up Your Gaming News</h2>
-          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
-          
-          <!--<div class="ig-note"><i class="fa-solid fa-bolt"></i> Available on iOS & Android</div>-->
-        <p><i></i> Available on Android</p>
-
-        </div>
-
-    
-    
-    </div></div><br/><br/>https://insider-gaming.com/helldivers-2-pc-file-size-reduced-by-85-slim-version-now-available-in-beta/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[BALL x PIT sales top one million, three free content updates set for 2026]]></title>
-            <link>https://www.gematsu.com/2025/12/ball-x-pit-sales-top-one-million-three-free-content-updates-set-for-2026</link>
-            <guid>1370587</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-    <ul>
-    <li><a href="https://www.gematsu.com/platforms/pc">PC</a></li><li><a href="https://www.gematsu.com/platforms/playstation/ps5">PS5</a></li><li><a href="https://www.gematsu.com/platforms/nintendo/switch">Switch</a></li><li><a href="https://www.gematsu.com/platforms/nintendo/switch-2">Switch 2</a></li><li><a href="https://www.gematsu.com/platforms/xbox/xbox-series">Xbox Series</a></li>    </ul>
-
-    
-    <p><span>Aballs, new evolutions, new buildings, new characters, and more.</span>
-      </p></div><div><p>Total sales for “brick-breaking, ball-fusing, base-building <a title="Genres > Survival [489 articles]" href="https://www.gematsu.com/genres/survival">survival</a> <a title="Genres > Roguelite [313 articles]" href="https://www.gematsu.com/genres/roguelite">roguelite</a>” game <em><a title="Games > BALL x PIT [4 articles]" href="https://www.gematsu.com/games/ball-x-pit">BALL x PIT</a></em> have surpassed one million units, publisher <a title="Companies > Devolver Digital [431 articles]" href="https://www.gematsu.com/companies/devolver-digital">Devolver Digital</a> and developer <a title="Companies > Kenny Sun [6 articles]" href="https://www.gematsu.com/companies/kenny-sun">Kenny Sun</a> announced. The companies also announced three free content updates planned for 2026. <span id="more-1010665"></span></p><p><em>BALL x PIT</em> first launched for <a title="Platforms > PS5 [10,942 articles]" href="https://www.gematsu.com/platforms/playstation/ps5">PlayStation 5</a>, <a title="Platforms > Xbox Series [8,364 articles]" href="https://www.gematsu.com/platforms/xbox/xbox-series">Xbox Series</a>, <a title="Platforms > Switch [18,036 articles]" href="https://www.gematsu.com/platforms/nintendo/switch">Switch</a>, and <a title="Platforms > PC [24,919 articles]" href="https://www.gematsu.com/platforms/pc">PC</a> via <a href="https://store.steampowered.com/app/2062430/BALL_x_PIT/" target="_blank" rel="noopener">Steam</a> and <a href="https://www.xbox.com/en-us/games/store/ball-x-pit/9mwxf3srd7qn" target="_blank">Microsoft Store</a> on October 15, followed by <a title="Platforms > Switch 2 [737 articles]" href="https://www.gematsu.com/platforms/nintendo/switch-2">Switch 2</a> on October 28. It is also available via Game Pass.</p><p>The three free content updates are as follows:</p><ul><li>January 2026 – Raise your pinky for the “Regal” update.</li><li>April 2026 – Slink into the darkness for the “Shadow” update.</li><li>July 2026 – Get back to basics in July with the “Naturalist” update.</li></ul><p>Each update will feature new balls, new evolutions, new buildings, new characters, and more.</p><p>Watch a new trailer below.</p><!-- AD: content -->
-        <h2><span>2026 Roadmap Trailer</span></h2><p><iframe title="3 NEW UPDATES | BALL x PIT Roadmap 2026 - More BALL x PIT? You have NO idea..." width="500" height="281" src="https://www.youtube.com/embed/gCmmoL2Mtq0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p></div></div><br/><br/>https://www.gematsu.com/2025/12/ball-x-pit-sales-top-one-million-three-free-content-updates-set-for-2026]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Emmy winning Shōgun director joins Amazon's live-action God of War series]]></title>
-            <link>https://www.eurogamer.net/emmy-winning-shogun-director-joins-amazons-live-action-god-of-war-series</link>
-            <guid>1370584</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
-
-
-<header data-component="article-header">
-  
-
-    <div id="main-content">
-        
-
-        <p>Heard it from the Norse's mouth.</p>
-
-    </div>
-
-
-  <p>
-
-  <figure>
-      <picture>
-        <source srcset="https://assetsio.gnwcdn.com/Kratos-in-God-of-War-next-to-an-image-of-Shogun's-Emmy-winning-director.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Kratos-in-God-of-War-next-to-an-image-of-Shogun's-Emmy-winning-director.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Kratos-in-God-of-War-next-to-an-image-of-Shogun's-Emmy-winning-director.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Kratos-in-God-of-War-next-to-an-image-of-Shogun's-Emmy-winning-director.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Kratos-in-God-of-War-next-to-an-image-of-Shogun's-Emmy-winning-director.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Kratos-in-God-of-War-next-to-an-image-of-Shogun's-Emmy-winning-director.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Kratos-in-God-of-War-next-to-an-image-of-Shogun's-Emmy-winning-director.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Kratos-in-God-of-War-next-to-an-image-of-Shogun's-Emmy-winning-director.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Kratos-in-God-of-War-next-to-an-image-of-Shogun's-Emmy-winning-director.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>Eurogamer</cite></span>
-        </figcaption>
-  </figure>
-  </p>
-
-    
-
-</header>
-  <div data-component="article-content">
-
-
-
-            <p>The team working on Amazon's live-action God of War series is growing.</p>
-<p>As reported by <a href="https://deadline.com/2025/12/god-of-war-frederick-eo-toye-production-casting-2-season-order-1236630007/">Deadline</a>, Emmy winning director Frederick E.O. Toye will direct the first two episodes of the upcoming God of War series.</p>
-<!-- code from Primis - Eurogamer.net - eurogamer.net -->
-<div>
-<p><span data-type="targeting">
-<span>To see this content please enable targeting cookies.</span>
-</span> </p>
-</div>
-<!-- code from Primis -->
-<p>Toye has worked on a number of acclaimed shows during his expansive career, including Westworld, The Boys and The Walking Dead. He is also no stranger to video game adaptations, having additionally helmed episodes of Amazon's Fallout series.</p>
-<p>Last year, Toye won the Emmy for outstanding directing for a drama series for historical drama Shōgun's ninth episode, Crimson Sky.</p>
-<p>The director joins showrunner and former Battlestar Galactica executive producer Ronald D. Moore on Amazon's God of War series. Moore hasn't always been involved with the God of War TV show, only <a href="https://www.eurogamer.net/amazons-god-of-war-tv-series-lands-new-showrunner-in-former-battlestar-galactica-executive-producer">joining the project towards the end of last year</a> following the <a href="https://www.eurogamer.net/amazons-god-of-war-tv-series-reportedly-starting-from-scratch-as-showrunner-departs">departure of the original team</a>. Despite the shakeup, PlayStation Productions' Asad Qizilbash, Carter Swan, Sony's Hermen Hulst, Vertigo's Roy Lee and of course Sony Santa Monica head Cory Barlog remain involved with the project. Santa Monica's Jeff Ketcham is also a co-executive producer on Amazon's God of War adaptation.</p>
-<p>Pre-production for the show is now underway in Vancouver, and casting for the God of War series has begun. Do you have any thoughts on who may play who? </p>
-<p>Meanwhile, while we still don't have a release window for the first season, a <a href="https://www.eurogamer.net/god-of-war-tv-show-getting-second-season-though-first-still-being-written">second season of God of War has already been greenlit at Amazon</a>. To quote Kratos, "Boy!"</p>
-
-        </div>
-
-  
-      </article>
-
-
-
-  
-
-
-
-  
-
-  <section>
-    <span>Related topics</span>
-
-    
-  </section>
-  </div></div><br/><br/>https://www.eurogamer.net/emmy-winning-shogun-director-joins-amazons-live-action-god-of-war-series]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Helldivers 2 on PC will now take up 85% less space thanks to reduced installation size]]></title>
-            <link>https://www.eurogamer.net/helldivers-2-pc-reduced-installation-size</link>
-            <guid>1370581</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
-
-
-<header data-component="article-header">
-  
-
-    
-
-
-  <p>
-
-  <figure>
-      <picture>
-        <source srcset="https://assetsio.gnwcdn.com/Helldivers-2---Python-Commandos-Warbond-Trailer-0-38-screenshot-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Helldivers-2---Python-Commandos-Warbond-Trailer-0-38-screenshot-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Helldivers-2---Python-Commandos-Warbond-Trailer-0-38-screenshot-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Helldivers-2---Python-Commandos-Warbond-Trailer-0-38-screenshot-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Helldivers-2---Python-Commandos-Warbond-Trailer-0-38-screenshot-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Helldivers-2---Python-Commandos-Warbond-Trailer-0-38-screenshot-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Helldivers-2---Python-Commandos-Warbond-Trailer-0-38-screenshot-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Helldivers-2---Python-Commandos-Warbond-Trailer-0-38-screenshot-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Helldivers-2---Python-Commandos-Warbond-Trailer-0-38-screenshot-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>Arrowhead</cite></span>
-        </figcaption>
-  </figure>
-  </p>
-
-    
-
-</header>
-  <div data-component="article-content">
-
-
-
-            <p>The PC version of <a href="https://www.eurogamer.net/games/helldivers-2">Helldivers 2</a> will now take up 85 percent less space on your computer, as Arrowhead has successfully reduced the installation size with help from Nixxes.</p>
-<p>Until now, the game took up around 154GB on PC. Back in October, the <a href="https://www.eurogamer.net/helldivers-2-developer-explains-why-its-so-big-to-install-on-pc-and-why-that-wont-be-changing-anytime-soon">studio explained it was looking into methods of reducing the size by eliminating duplicated assets</a>, but warned loading times for mechanical HDDs could be 10 times slower.</p>
-<p>However, the studio's "worst case projections did not come to pass" and now it has successfully reduced the PC installation size down to around 23GB, a reduction of approximately 131GB.</p>
-
-<figure>
-<p>
-<a aria-label="Helldivers 2 - Python Commandos Warbond Trailer" data-platform="youtube" href="https://www.youtube.com/embed/QQPp9ZCgrP8?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
-<span>Helldivers 2 - Python Commandos Warbond Trailer</span>
-<template>
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/QQPp9ZCgrP8?autoplay=1" frameborder="0" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/QQPp9ZCgrP8?autoplay=1" title="Helldivers 2 - Python Commandos Warbond Trailer">
-</iframe> </template>
-</a>
-</p>
-<figcaption>Helldivers 2 - Python Commandos Warbond Trailer<a href="https://www.youtube.com/watch?v=QQPp9ZCgrP8" rel="noopener" target="_blank">Watch on YouTube</a></figcaption></figure>
-
-
-<p>Essentially, Arrowhead had previously duplicated a load of assets to maintain fast loading times for players using older, mechanical HDDs - this method makes it quicker for relevant data to be found. But as modern SSDs don't work in the same way, duplication is unnecessary and instead simply takes up more space.</p>
-<p>By eliminating duplicated assets, the size has reduced with minimal impact on loading - "seconds at most," says Arrowhead, in a <a href="https://store.steampowered.com/news/app/553850/view/491583942944621371">new blog post on Steam</a>.</p>
-<p>"We now know that, contrary to most games, the majority of the loading time in Helldivers 2 is due to level-generation rather than asset loading," the post reads. "This level generation happens in parallel with loading assets from the disk and so is the main determining factor of the loading time. We now know that this is true even for users with mechanical HDDs."</p><p>This reduced size is available now for players if they opt in to test the "slim version". "You can also opt-out at any time if you experience issues," the post reads. "It's a low-risk way to save ~131GB of space on your drive and help us extend our testing to real-life conditions."</p>
-<p>Once this technical beta confirms there are no issues, it will become the default for all players. "Given the very minor differences in loading times between the two versions, there is no justification for us to keep supporting the legacy version long term," the studio said. "Maintaining the legacy version alongside the slim version would only add extra burden to our developers, build machines, QA teams and release processes. Assuming all goes smoothly, the legacy version will be discontinued some time next year."</p>
-<p>Instructions can be found in the Steam post.</p>
-<p>Earlier today, we reported the <a href="https://www.eurogamer.net/newly-announced-helldivers-movie-director-may-not-be-a-gamer-but-he-has-worked-on-multiple-fast-furious-films">Helldivers film has found its director</a> - Justin Lin, who's directed multiple films in the Fast and Furious franchise.</p>
-
-        </div>
-
-  
-      </article>
-
-
-
-  
-
-
-
-  
-
-  <section>
-    <span>Related topics</span>
-
-    
-  </section>
-  </div></div><br/><br/>https://www.eurogamer.net/helldivers-2-pc-reduced-installation-size]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Drag x Drive Devs Tried Wheelchair Basketball In Prep For Game]]></title>
-            <link>https://www.nintendolife.com/news/2025/12/drag-x-drive-devs-tried-wheelchair-basketball-in-prep-for-game</link>
-            <guid>1370557</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><section>
-<figure data-uuid="010b934aad0e4"><a title="Drag x Drive" href="https://images.nintendolife.com/010b934aad0e4/drag-x-drive.large.jpg"></a><figcaption><em><span></span> Image: Nintendo</em></figcaption></figure><p><a href="https://www.nintendolife.com/games/nintendo-switch-2/drag-x-drive">Drag x Drive</a> has received <a href="https://www.nintendolife.com/news/2025/12/switch-2-exclusive-drag-x-drive-scores-its-second-major-update-heres-whats-included">a rather beefy update earlier today</a>, and to coincide with Patch 1.2.0's release, Nintendo has dropped a series of <a href="https://www.nintendo.com/us/whatsnew/ask-the-developer-vol-20-drag-x-drive-part-1/">Ask the Developer interviews</a> with the lead trio.</p>
-<p>Yoshinori Konishi (director and programming director), Hiroki Hamaue (programmer), and Takahisa Ikejiri (art director) sat down to share their experience in developing this online multiplayer title, which is controlled entirely with the Switch 2's Mouse Mode.</p>
-<p>In <a href="https://www.nintendo.com/us/whatsnew/ask-the-developer-vol-20-drag-x-drive-part-1/">Part 1</a>, Konishi shares that the game was inspired by "sports such as wheelchair basketball, wheelchair rugby, wheelchair motocross, BMX and skateboarding", particularly the former. Hamaue had previously rode a wheelchair "for a research project back when I was a student", but for Konishi and Ikejiri, the first time they got to experience wheelchair basketball was at an experience in Osaka.</p><div><figure data-videoid="epMKq3hLRsg" data-start="0" data-src="https://www.youtube.com/embed/epMKq3hLRsg?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><div><iframe id="ytepMKq3hLRsg" title="YouTube Video" data-src-fallback="https://www.youtube-nocookie.com/embed/epMKq3hLRsg?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/epMKq3hLRsg?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed5f18d0pumzsq&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><p>Subscribe to <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1">Nintendo Life</a> on <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1"><span>YouTube</span><span>840k</span></a></p>
-</div></figure></div>
-<figure data-uuid="3dabc2054903f"><a title="Drag x Drive" href="https://images.nintendolife.com/3dabc2054903f/drag-x-drive.large.jpg"></a><figcaption><em><span></span> Image: Nintendo</em></figcaption></figure>
-<p>The developers purchased both an everyday wheelchair and sports wheelchair to help with the process. But the problem was that, as Konishi says, "We were restricted to the small space inside the office and could only let loose down the hallway once everyone else had gone home for the day. (Laughs)" because the project was tightly under wraps.</p>
-<p>Talking about the wheelchair basketball experience, Ikejiri recalls that he "wasn't prepared for how difficult it was to shoot the ball. In wheelchair basketball, the hoop is placed at the same height as in standard basketball. But since you take the shot sitting down, my shot didn't reach the basket at all."</p>
-<p>"Maneuvering a wheelchair is difficult unless you get the hang of when to apply and release force," Hamaue adds. "You can't just propel yourself along smoothly in a single stroke. But it cemented for me how deep the controls are".</p>
-
-<p>As well as trying out wheelchair basketball for themselves, Konishi details the variety of reading materials the team gathered up: "From an encyclopedia of wheelchairs to videos and essays by wheelchair athletes and even manga about basketball or wheelchairs, we pulled together as much reference material as we could lay our hands on and studied it together."</p>
-<p>And, crucially, wheelchair basketball players also got a chance to go hands-on with Drag x Drive during development, which provided Konishi and the rest with valuable insights: "Because the players use wheelchairs in their daily lives, they were all really good at turning and moving backwards in the game. Of course, we learned a lot about the controls, but we gained even more insights watching them think about what to do on the court as they played."</p>
-<p>Hamaue adds that "seeing actual wheelchair basketball players get the hang of the game and its controls so quickly confirmed to us that it could work well as an intuitive control scheme." And we'd agree; there's nothing else quite like Drag x Drive on the market, and while its control scheme may not be for everyone, it makes for a unique experience.</p>
-<figure data-uuid="ea42737785d72"><a title="Drag x Drive" href="https://images.nintendolife.com/ea42737785d72/drag-x-drive.large.jpg"></a><figcaption><em><span></span> Image: <a href="https://www.nintendo.com/us/whatsnew/ask-the-developer-vol-20-drag-x-drive-part-2/">Nintendo</a></em></figcaption></figure>
-<p>All <a href="https://www.nintendo.com/us/whatsnew/ask-the-developer-vol-20-drag-x-drive-part-3/">three parts</a> contain video clips and test footage of Drag x Drive's development, and are worth reading especially if you're interested in checking out the new update. Perhaps it's time to dive back and try out Survival Tag mode as the Holidays approach...</p>
-<hr>
-<p><em>Are you still playing Drag x Drive? What do you think of the development process? Let us know in the comments</em>.</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:194646,186124 @ 1764695779 -->
-<p><em>[This story has been edited for clarity]</em></p></section></div><br/><br/>https://www.nintendolife.com/news/2025/12/drag-x-drive-devs-tried-wheelchair-basketball-in-prep-for-game]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
