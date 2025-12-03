@@ -4,112 +4,75 @@
         <title>maGaming RSS Feed - thesixthaxis_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/thesixthaxis_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for thesixthaxis_com</description>
-        <lastBuildDate>Wed, 03 Dec 2025 14:16:29 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Dec 2025 14:54:39 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Mario Kart World update 1.4.0 adds custom items, changes course layouts & more]]></title>
-            <link>https://www.thesixthaxis.com/2025/12/03/mario-kart-world-update-1-4-0-adds-custom-items-changes-course-layouts-more/</link>
-            <guid>1371382</guid>
+            <title><![CDATA[Drag x Drive gets a new mode and an offline demo]]></title>
+            <link>https://www.thesixthaxis.com/2025/12/03/drag-x-drive-gets-a-new-mode-and-an-offline-demo/</link>
+            <guid>1371559</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
 	
-		<p>Nintendo has released <a href="https://www.thesixthaxis.com/tag/mario-kart-world">Mario Kart World</a> update 1.4.0, making a big bunch of changes and bug fixes to the <a href="https://www.thesixthaxis.com/tag/nintendo-switch-2">Switch 2’s</a> biggest game.</p>
-<p>Amongst the changes are a new custom items rule setting, which lets you pick exactly which items appear in your game – this is really handy for anyone chasing the last few Kamek transformation character!</p>
+		<p>Nintendo has released an update for their wheelchair basketball multiplayer game, <a href="https://www.thesixthaxis.com/tag/drag-x-drive">Drag x Drive</a>. Patch 1.2.0 adds a new game mode for the full game, while also revamping the Global Jam beta test into a regular demo for all to try.</p>
+<p>The new game mode is Survival Tag, which is basically exactly what it sounds like. Survival Tag can be played throughout the park lobby with friends, local wireless and LAN, and needs to be started by the lobby host from the X menu.</p>
 
 
-<p>There’s also an improved way to join up and play multiplayer with friends, as up to four players gathered together in a “Room” can all take part in Race, Knockout Tour and Battle, and you can also join people playing Knockout Tour when in 2P and Online as well.</p>
-<p>Nintendo has also changed the course layout for eight of the Intermission style point-to-point races involving Koopa Troopa Beach. All the races heading there will now have two laps of Koopa Troopa Beach once you get there. We hope this is a sign of more changes to come!</p>
-<p>Here’s the full patch notes for Mario Kart World update 1.4.0:</p>
+<p>Elsewhere there’s just some general bug fixed and improvements to the game, which are outlined in the patch notes below.</p>
+<p>As for the demo, this allows you to check out the game offline, playing the tutorial, challenging bots in 3v3 matches, and exploring the park. You’ll generally be able to get used to the Joy-Con 2 mouse mode controls and how they work to play the game.</p>
+<p>It’s nice to see the game getting some support still, but will it entice any new players to really dive into the game? Looking back on our review of <a href="https://www.thesixthaxis.com/2025/08/13/drag-x-drive-review/">Drag x Drive</a>, I said, “Drag x Drive makes good use of the Joy-Con 2 mouse controls for a simple game of wheelchair basketball, but it lacks the charm and personality you’d expect from a Nintendo game.”</p>
 
-<p><strong>General</strong></p>
+<p>Here’s the full Drag x Drive 1.2.0 patch notes:</p>
+<p><strong>General Updates</strong></p>
 <ul>
-<li>Added “Custom Items” to the item rules.
+<li>Added the chasing game Survival Tag to friend parks, local wireless parks, and LAN parks.
 <ul>
-<li>This is a feature that lets you set which items appear.</li>
-<li>This is supported in “VS Race”, “Balloon Battle”, “Coin Runners”, and “Room” in “Online Play” or “Wireless Play”.</li>
+<li>Note: To play Survival Tag when in the parks listed above, the player who created the park opens the X Menu, then selects <strong>Start Survival Tag</strong> on the Players tab.</li>
+<li>Depending on the wireless environment, there may be times where player positioning does not perfectly match between users. For that reason, there may be cases where, even if it appears to one player as if contact was made, from the other player’s perspective no contact occurred. In order to limit unpleasant experiences in situations like these as much as possible, in basketball games this may be determined as no contact.</li>
+<li>On the other hand, in Survival Tag, the question of contact is the whole crux of the game and is particularly important to game progression. Therefore, it has been designed such that a tag is considered successful if there was contact from either perspective (the tagging player, or the one who was tagged).</li>
 </ul>
 </li>
-<li>Made it so that music track name and source title of the track that is playing will be displayed on the Pause Menu.</li>
-<li>Added “Music Volume” to “Settings/Controller”.</li>
-<li>Made it so players who gathered in a “Room” of “Online Play” can participate in “Race”, “Knockout Tour”, and “Battle”.
+<li>Corrected the calculation of Iso Wins on the Game Stats tab under Stats. Previously, it counted the total number of Isos, not just wins.</li>
+<li>Added Rope Jumps to Other Stats tab under Stats.</li>
+<li>Changed the target of the Focus Cam when near the sumo ring to the sumo ring itself.</li>
+<li>Made some adjustments to bots in friend parks, local wireless parks, and LAN parks.
 <ul>
-<li>Up to 4 players can participate in “Race”, “Knockout Tour”, and “Battle”.</li>
+<li>Note: We slightly lowered the strength level of the Easy and Standard bots that the player who created the park can add under the Players tab of the X Menu.</li>
 </ul>
 </li>
-<li>Made it so you can join in with friends who are playing “Knockout Tour” from “Friends” in “2p”, “Online Play” as well.</li>
-<li>Added “Restart” and “Next Race” in the Pause Menu for “VS Race” in “Single Player”.</li>
-<li>Made it so you can select “Photo Mode” from the Pause Menu in “Race against Ghost” in “Time Trials”.</li>
-<li>Changed the course layout of below courses for “VS Race”, or “Race” in “Online Play” or “Wireless Play”.
+<li>Added a feature to enable players to delete their own records.
 <ul>
-<li>
-<ul>
-<li>Race that heads from “Koopa Troopa Beach” to “DK Spaceport”.</li>
-<li>Race that heads from “Koopa Troopa Beach” to “Crown City”.</li>
-<li>Race that heads from “Koopa Troopa Beach” to “Peach Stadium”.</li>
-<li>Race that heads from “Whistlestop Summit” to “Koopa Troopa Beach”.</li>
-<li>Race that heads from “Desert Hills” to “Koopa Troopa Beach”.</li>
-<li>Race that heads from “DK Spaceport” to “Koopa Troopa Beach”.</li>
-<li>Race that heads from “Crown City” to “Koopa Troopa Beach”.</li>
-<li>Race that heads from “Peach Stadium” to “Koopa Troopa Beach”.</li>
+<li>On the screen that displays players’ records before starting time trials or shooting contests, simultaneously press and hold the ZL Button, left directional button, and right directional button on the Joy-Con 2 (L) for 10 seconds to delete the record.</li>
+<li>Once deleted, records cannot be restored.</li>
+<li>Obtained trophies will remain, even if records are deleted.</li>
 </ul>
 </li>
-</ul>
-<p>*Changed it so that, in all races heading toward “Koopa Troopa Beach”, including the above courses, you will cross the finish line after two laps once you arrive at “Koopa Troopa Beach”.</p></li>
-<li>You will now dash when riding on Manta Ramp’s back.</li>
-<li>Made it so the player will not hit Dragoneel when transformed into Bullet Bill.</li>
-<li>Made it so the player cannot use a second Boo while already using a Boo, when holding two Boos.</li>
-<li>When Dash Food is taken by someone, shortened the time until that Dash Food reappears.</li>
-<li>When a coin placed on water is taken by someone, shortened the time until that coin reappears.</li>
 </ul>
 <p><strong>Fixed Issues</strong></p>
 <ul>
-<li>Fixed an issue where the dash time was not correct after a Charge Jump.</li>
-<li>Fixed an issue where the player would slip through a wall when being stomped on from above by a vehicle driving on the road.</li>
-<li>Fixed an issue where a player would be squashed when touching a Thwomp that had landed.</li>
-<li>Fixed an issue where a Bullet Bill would not be displayed after using it.</li>
-<li>Fixed an issue where a character would be blurry even when making “Focus” “Character” when taking a photo in “Photo Mode” on the Pause Menu.</li>
-<li>Fixed an issue where the screen would look distorted if entering a pipe at the same time as joining a Free Roam in “Online Play”.</li>
-<li>Fixed an issue where player could not get in a UFO when multiple players tried to get in a UFO at the same time in Free Roam in “Online Play”.</li>
-<li>Fixed an issue where a friend’s information would not be updated when looking at the list of friends in “Friends” in “Online Play”.</li>
-<li>Fixed an issue where there would be a communication error when looking at a group ID in “View Room Info” when participating in a group in “Friends” in “Online Play”.</li>
-<li>Fixed an issue where a player’s place would go down if retiring during “Knockout Tour” in “Online Play”.</li>
-<li>Fixed an issue where a player that is seen when spectating looks like they are going off the course over and over during “Knockout Tour” in “Online Play” or “Wireless Play”.</li>
-<li>Fixed an issue where the player’s own character or vehicle would change when starting “Online Play” or “Wireless Play” again after quitting a game after “Knockout Tour” in “Online Play” or “Wireless Play”.</li>
-<li>Fixed an issue where a player would get stuck on a wall when using a Bullet Bill while falling off the course in “Sky-High Sundae”.</li>
-<li>Fixed an issue where a Bullet Bill would go outside the course when using it on the final curve in “Boo Cinema”.</li>
-<li>Fixed an issue where the player would slip through a bulldozer in “Toad’s Factory”.</li>
-<li>Fixed an issue where the player would get stuck on a spotlight in the race that heads from “Toad’s Factory” to “Bowser’s Castle” when transformed into Bullet Bill.</li>
-<li>Fixed an issue where if the player used a Bullet Bill or Spiny Shell in the first curve of “Desert Hills”, it would get stuck on a rock.</li>
-<li>Fixed an issue where the player would get stuck on a tree when using a Bullet Bill on “DK Pass”.</li>
-<li>Fixed an issue where, when the player was small because of Lightning, they would slip through the wall on the final curve of “DK Pass.</li>
-<li>Fixed an issue where the player would get stuck on a billboard when transforming into Bullet Bill in the race that heads from “Crown City” to “Desert Hills”.</li>
-<li>Fixed an issue where the player would slip through the ring of stone when using a Bullet Bill or Mega Mushroom while falling in “Great ? Block Ruins” right before the final curve.</li>
-<li>Fixed an issue where the player would get stuck on the ground on the meadows near “Big Donut”.</li>
-<li>Fixed an issue where the player would slip through the wall if rewinding after wall riding in the special room you can go to from a pipe in “Shy Guy Bazaar”.</li>
-<li>Fixed an issue where the player would still fall into the lava even though they have “Smart Steering” ON in “Dry Bones Burnout”.</li>
-<li>Fixed an issue where the player would go off the course when using a Bullet Bill while rail riding in “Wario Stadium”.</li>
-<li>Fixed an issue where the player would not be able to glide if getting on a glide panel while gliding in the race that heads from “Wario Stadium” to “Airship Fortress”.</li>
-<li>Fixed an issue where the player would get stuck on the ground while heading from “Wario Stadium” to “Airship Fortress”.</li>
-<li>Fixed an issue where the vehicle would float up from the rail when the player did a rail ride after a wall ride in a bike-type vehicle in “Wario Stadium”.</li>
-<li>Fixed an issue where the player would go off the course when using a Bullet Bill on the shortcut while heading from “Dandelion Depths” to “Cheep Cheep Falls” in the “Ice Rally” of “Knockout Tour”.</li>
-<li>Fixed an issue where the player would go off the course while gliding, while heading from “Dandelion Depths” to “Cheep Cheep Falls” in the “Moon Rally” of “Knockout Tour”.</li>
-<li>Fixed an issue where a green shell would get stuck on the ground while heading from “Airship Fortress” to “Dry Bones Burnout” in the “Heart Rally” of “Knockout Tour”.</li>
-<li>Fixed an issue where the player would go off the course when they transformed into Bullet Bill on top of a building in “Crown City” in the below races:
+<li>Fixed a very rare issue where, due to unintended behavior, the displays for level or total distance would reach the upper limit.</li>
+<li>Fixed a rare issue in Circuit Sprint where players sometimes passed through terrain.</li>
+<li>Fixed an issue where bunny hops made it possible to accelerate to and maintain speed that exceeded top speed.
 <ul>
-<li>Race that heads from “DK Spaceport” to “Crown City”.</li>
-<li>Race that heads from “Koopa Troopa Beach” to “Crown City”.</li>
-<li>Race that heads from “Faraway Oasis” to “Crown City”.</li>
+<li>The intended design is that it is only possible to accelerate beyond the normal top speed when driving down a slope or successfully pulling off a halfpipe or ramp trick. However, unintended behavior occurred, such as players accelerating beyond top speed when landing after rotating, or not decelerating while in midair even if they had exceeded top speed. We fixed this because this issue required players to control their character in unintuitive ways in order to achieve good results.</li>
 </ul>
 </li>
-<li>Several other issues have been addressed to improve the gameplay experience.</li>
+<li>Fixed various issues to create a smoother gaming experience.</li>
 </ul>
-<p><em>Source: <a href="https://en-americas-support.nintendo.com/app/answers/detail/a_id/68580/~/how-to-update-mario-kart-world">Nintendo</a></em></p>
+<p><strong>Note</strong>: Version 1.1.1 for the <em>Drag x Drive Demo</em> (formerly <em>Drag x Drive: Global Jam</em>) was also released.</p>
+<p><strong>General Updates</strong></p>
+<ul>
+<li>Changed software title from <em>Drag x Drive: Global Jam</em> to <em>Drag x Drive Demo</em>.</li>
+<li>Changed the software icon that displays in locations such as the HOME Menu.</li>
+<li>Made it possible to play the tutorial and certain bot games any time.</li>
+<li>Fixed various issues to create a smoother gaming experience.</li>
+</ul>
+<p><em>Source: <a href="https://en-americas-support.nintendo.com/app/answers/detail/a_id/68646/~/how-to-update-drag-x-drive">Nintendo</a></em></p>
 
 
 <!-- CONTENT END 1 -->
 
 		
-	</div></div><br/><br/>https://www.thesixthaxis.com/2025/12/03/mario-kart-world-update-1-4-0-adds-custom-items-changes-course-layouts-more/]]></content:encoded>
+	</div></div><br/><br/>https://www.thesixthaxis.com/2025/12/03/drag-x-drive-gets-a-new-mode-and-an-offline-demo/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
