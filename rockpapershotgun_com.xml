@@ -4,9 +4,81 @@
         <title>maGaming RSS Feed - rockpapershotgun_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/rockpapershotgun_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for rockpapershotgun_com</description>
-        <lastBuildDate>Wed, 03 Dec 2025 12:17:48 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Dec 2025 12:58:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Don't expect a SteamOS phone after the Steam Machine, Valve engineer says]]></title>
+            <link>https://www.rockpapershotgun.com/dont-expect-a-steamos-phone-after-the-steam-machine-valve-engineer-says</link>
+            <guid>1371379</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
+
+
+<header data-component="article-header">
+  
+
+    <div id="main-content">
+  
+
+        <p>Though the Steam Frame's compatibility tech is helping smooth out Windows-to-Android emulation</p>
+
+    </div>
+
+
+  <p>
+
+  <figure>
+        <picture>
+        <source srcset="https://assetsio.gnwcdn.com/Gamehub-Silksong.jpg?width=380&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Gamehub-Silksong.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Gamehub-Silksong.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Gamehub-Silksong.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Gamehub-Silksong.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Gamehub-Silksong.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Gamehub-Silksong.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Gamehub-Silksong.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Gamehub-Silksong.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
+        
+      </picture>
+
+        <figcaption>
+          <span>Image credit: <cite>Rock Paper Shotgun</cite></span>
+        </figcaption>
+
+  </figure>
+  </p>
+
+    
+
+</header>
+  <div data-component="article-content">
+
+
+
+            <p>Valve’s quiet bankrolling of open-source emulation tools could make it heaps easier to play your PC games library on a humble smartphone, though it sounds like Gabe-made SteamOS phones are unlikely to be joining the company’s <a href="https://www.rockpapershotgun.com/valve-announce-a-new-steam-machine-steam-controller-and-the-steam-frame-vr-headset-and-ive-played-them">growing hardware catalogue</a>. In an interview with <a href="https://www.theverge.com/report/820656/valve-interview-arm-gaming-steamos-pierre-loup-griffais">The Verge</a>, Valve engineer Pierre-Loup Griffais confirmed that they’ve been funding the development of Fex – a free compatibility tool that gets Windows apps functioning on mobile ARM processors – since well before revealing the ARM-based <a href="https://www.rockpapershotgun.com/the-steam-frame-is-real-and-valve-want-it-to-be-the-last-vr-headset-youll-ever-buy">Steam Frame</a> standalone VR headset.</p>
+<!--more-->
+<p>Valve's bundling Fex into SteamOS so the Frame, due in 2026, can run Steam games straight off the headset’s internal chip. But it is already out in the wild right now – i.e. <a href="https://github.com/FEX-Emu/FEX">GitHub</a> –, and has a promising future in bringing those very same games to Android phones. Just not, Griffais says, phones with a Steam logo on them.</p>
+<p>"I don’t know if that’s going to be a big focus for us to develop local content or try to develop SteamOS for devices like that" he explains. "I mean, I’m not discounting any possibility, but I think with just living room, handheld, and desktop, trying to have a good outcome for gaming applications and everything else you’d want to do in a desktop, we have a ton of work to do."</p>
+<p>The living room and handheld formats clearly refer to, respectively, the upcoming <a href="https://www.rockpapershotgun.com/hands-on-with-the-new-steam-machine-valves-square-shot-at-steamos-pc-redemption">Steam Machine</a> and the existing <a href="https://www.rockpapershotgun.com/best-steam-deck-games">Steam Deck</a>. But these are both based on x86 processors, much like a regular Windows PC or laptop. It’s ARM hardware, the diesel to x86’s unleaded, that Fex and the Frame are trying to crack – <a href="https://www.rockpapershotgun.com/it-just-works-valve-talk-the-steam-frame-android-games-on-steamos-and-putting-a-pc-on-your-face">with at least some success</a>, judging by the slickness with which <a href="https://www.rockpapershotgun.com/games/hades-2">Hades 2</a> and <a href="https://www.rockpapershotgun.com/hollow-knight-silksong-walkthrough">Hollow Knight: Silksong</a> ran on the Frame when I tried it at Valve’s offices last month.</p>
+<figure>
+ 
+
+
+<figcaption><span>Image credit: <cite>Rock Paper Shotgun</cite></span></figcaption>
+</figure>
+<p>Steam phone or no, Fex may fulfil that promise of Steam games on mobile. It is, for instance, one of multiple x86 emulation layers employed by <a href="https://play.google.com/store/apps/details?id=com.xiaoji.egggame&amp;hl=en_GB">Gamehub</a>, an Android game launcher app produced by Chinese peripheral makers GameSir. I’ve tried this on my Pixel 9 and admittedly haven’t had much luck, even with the games I know work well on the Steam Frame: Hades 2 crashes immediately and Silksong gets stuck on an endless launching screen. Also, there’s a non-zero possibility that I’ve handed over my Gmail and Steam account details to the Chinese Communist Party. C'est la vie. You <a href="https://www.youtube.com/results?search_query=gamehub">don’t have to look far</a>, mind, for folks who’ve used Gamehub to get Androidified Steam games up and running, including the author of that Verge piece.</p><p>Hopefully this cross-device compatibility push continues apace; Valve obviously have a business interest in getting Steam games (uhhhh, <a href="https://www.rockpapershotgun.com/saturnalia-creators-santa-ragione-will-wind-down-operations-after-valve-ban-horror-game-horses-from-steam">sorry Horses</a>) playable on as many computery doohickeys as possible, but kicking down compatibility barriers and spreading software across devices of the user’s choosing is good for the common gamesplayer as well.</p>
+</div>
+
+      </article>
+
+
+
+
+        
+  </div></div><br/><br/>https://www.rockpapershotgun.com/dont-expect-a-steamos-phone-after-the-steam-machine-valve-engineer-says]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[Haunted videogame No Players Online resurrected on Steam after a disgruntled "former friend" had it exorcised via DMCA]]></title>
             <link>https://www.rockpapershotgun.com/haunted-videogame-no-players-online-resurrected-on-steam-after-a-disgruntled-former-friend-had-it-exorcised-via-dmca</link>
