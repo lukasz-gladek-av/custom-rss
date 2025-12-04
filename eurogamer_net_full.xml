@@ -4,9 +4,179 @@
         <title>Eurogamer.net RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/eurogamer_net_full.xml</link>
         <description>Full article content from Eurogamer.net</description>
-        <lastBuildDate>Thu, 04 Dec 2025 16:17:26 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 04 Dec 2025 16:32:52 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[New Nvidia drivers finally reintroduce PhysX support, and further optimise Battlefield 6 and Call of Duty: Black Ops 7]]></title>
+            <link>https://www.eurogamer.net/tech-new-nvidia-drivers-reintroduce-physx-support-fix-windows-11-regressions-and-take-a-second-pass-at-battlefield-6</link>
+            <guid>https://www.eurogamer.net/tech-new-nvidia-drivers-reintroduce-physx-support-fix-windows-11-regressions-and-take-a-second-pass-at-battlefield-6</guid>
+            <content:encoded><![CDATA[https://www.eurogamer.net/tech-new-nvidia-drivers-reintroduce-physx-support-fix-windows-11-regressions-and-take-a-second-pass-at-battlefield-6<br/><br/><div id="readability-page-1" class="page"><div>
+      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
+
+
+<header data-component="article-header">
+  
+
+    <div id="main-content">
+        
+
+        <p>However, RTX 50-series graphics cards are still limited versus prior generations.</p>
+
+    </div>
+
+
+  <p>
+
+  <figure>
+      <picture>
+        <source srcset="https://assetsio.gnwcdn.com/GF-Game-Ready-Driver%5B90%5D.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/GF-Game-Ready-Driver%5B90%5D.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/GF-Game-Ready-Driver%5B90%5D.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/GF-Game-Ready-Driver%5B90%5D.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/GF-Game-Ready-Driver%5B90%5D.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/GF-Game-Ready-Driver%5B90%5D.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/GF-Game-Ready-Driver%5B90%5D.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/GF-Game-Ready-Driver%5B90%5D.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/GF-Game-Ready-Driver%5B90%5D.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
+        
+      </picture>
+
+        <figcaption>
+          <span>Image credit: <cite>Nvidia</cite></span>
+        </figcaption>
+  </figure>
+  </p>
+
+    
+
+</header>
+  <div data-component="article-content">
+
+
+
+            <p>Nvidia's latest <a href="https://www.nvidia.com/en-gb/geforce/news/battlefield-6-winter-offensive-geforce-game-ready-driver/">GeForce Game Ready graphics driver update</a> has arrived, bringing with it a fix for performance regressions caused by Microsoft in an October Windows Update, reintroducing PhysX acceleration for RTX 50-series GPUs and providing a rare second pass on <a href="https://www.eurogamer.net/games/battlefield-2025">Battlefield 6</a> performance in time for that game's upcoming Winter Offensive update. </p>
+<p>Version 591.44 includes the usual laundry list of bug fixes and improvements, including ray tracing changes to <a href="https://www.eurogamer.net/games/call-of-duty-black-ops-7">Call of Duty: Black Ops 7</a>, but the Battlefield 6 notes jumped out to me. It's rare to see Nvidia do a significant pass on a game that is generally performing well, and especially to tie it to new post-launch content that only seems to <a href="https://www.ea.com/en/games/battlefield/battlefield-6/news/battlefield-6-community-update-incoming-winter-offensive">feature a single new map and mode</a>. It's possible that the Winter Offensive update also includes new graphical elements that would necessitate specific driver changes on Nvidia's end, though something like that hasn't been hinted at in <a href="https://www.eurogamer.net/battlefield-6-addresses-primary-community-complaint-improves-hit-registrations-and-netcode-ahead-of-winter-offensive-update">recent BF6 updates</a> ahead of the new content's arrival on December 9th. </p>
+<p>I also didn't expect to see a fix for the PhysX performance issues that RTX 50-series cards launched with, as Nvidia left out hardware to accelerate 32-bit PhysX on these current generation GPUs. Previously, enabling PhysX effects for particle effects and cloth physics in games like <a href="https://www.eurogamer.net/games/borderlands-2">Borderlands 2</a> or Batman: Arkham Oranges lead to disastrous performance, <a href="https://www.youtube.com/watch?v=bhK8wbMtivg">cutting down the RTX 5080 and 5090 to sub-60fps</a> readouts in games that otherwise ran at hundreds of frames per second. The new drivers add back in that support on a per-game basis, with <a href="https://www.eurogamer.net/games/batman-arkham-asylum">Batman: Arkham Asylum</a> support coming soon and <a href="https://www.nvidia.com/en-gb/geforce/news/battlefield-6-winter-offensive-geforce-game-ready-driver/">the following titles</a> now supported: </p>
+<ul>
+<li>Alice: Madness Returns</li>
+<li>Assassin's Creed IV: Black Flag</li>
+<li>Batman: Arkham City</li>
+<li>Batman: Arkham Oranges</li>
+<li>Borderlands 2</li>
+<li>Mafia II</li>
+<li>Metro 2033</li>
+<li>Metro: Last Light</li>
+<li>Mirror's Edge</li>
+</ul>
+<p>Finally, it's also worth noting that this update includes the performance fixes from the recent 581.94 hotfix, which aimed to solve problems caused by a Windows Update (KB5066835) released in October. That Windows Update was meant to improve security, but accidentally tanked performance some games, with users reporting <a href="https://www.pcguide.com/news/nvidias-new-gpu-driver-hotfix-for-windows-11-can-nearly-double-your-fps-benchmark-shows/">their frame-rates halving</a> in games like <a href="https://www.eurogamer.net/games/assassins-creed-codename-red">Assassin's Creed Shadows</a>. If you have experienced poorer-than-expected performance recently, and you haven't already installed the hotfix, I'd certainly give this Nvidia driver a try. </p>
+
+        </div>
+
+  
+      </article>
+
+
+
+  
+
+
+
+  
+
+  <section>
+    <span>Related topics</span>
+
+    
+  </section>
+  </div></div>]]></content:encoded>
+            <dc:creator>Will Judd</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[After being delayed, delayed, and then delayed again, Cyberpunk platformer Replaced finally gets a release date]]></title>
+            <link>https://www.eurogamer.net/cyberpunk-platformer-replaced-release-date-following-delays</link>
+            <guid>https://www.eurogamer.net/cyberpunk-platformer-replaced-release-date-following-delays</guid>
+            <content:encoded><![CDATA[https://www.eurogamer.net/cyberpunk-platformer-replaced-release-date-following-delays<br/><br/><div id="readability-page-1" class="page"><div>
+      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
+
+
+<header data-component="article-header">
+  
+
+    
+
+
+  <p>
+
+  <figure>
+      <picture>
+        <source srcset="https://assetsio.gnwcdn.com/Replaced_Keyart_Landscape_16x9_logoless-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Replaced_Keyart_Landscape_16x9_logoless-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Replaced_Keyart_Landscape_16x9_logoless-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Replaced_Keyart_Landscape_16x9_logoless-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Replaced_Keyart_Landscape_16x9_logoless-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Replaced_Keyart_Landscape_16x9_logoless-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Replaced_Keyart_Landscape_16x9_logoless-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Replaced_Keyart_Landscape_16x9_logoless-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Replaced_Keyart_Landscape_16x9_logoless-(1).png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
+        
+      </picture>
+
+        <figcaption>
+          <span>Image credit: <cite>Sad Cat Studio</cite></span>
+        </figcaption>
+  </figure>
+  </p>
+
+    
+
+</header>
+  <div data-component="article-content">
+
+
+
+            <p>Replaced, the cyberpunk action-platformer from Belarusian developer Sad Cat Studio, finally has a release date and is set to arrive on PC and Xbox Series X/S on 12th March.</p>
+<p>Set in an alternate 1980s, it's got all the trappings of the cyberpunk genre as you can see in the trailer below: a dystopian neon-lit setting; a corrupt, controlling corporation; and flying cars.</p>
+<p>But that's all presented in a unique 2.5D style that blends pixel art with environments full of depth.</p>
+
+<figure>
+<p>
+<a aria-label="Replaced - Official Release Date Trailer" data-platform="youtube" href="https://www.youtube.com/embed/C3bbZ_I8Ehg?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
+<span>Replaced - Official Release Date Trailer</span>
+<template>
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/C3bbZ_I8Ehg?autoplay=1" frameborder="0" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/C3bbZ_I8Ehg?autoplay=1" title="Replaced - Official Release Date Trailer">
+</iframe> </template>
+</a>
+</p>
+<figcaption>Replaced - Official Release Date Trailer<a href="https://www.youtube.com/watch?v=C3bbZ_I8Ehg" rel="noopener" target="_blank">Watch on YouTube</a></figcaption></figure>
+
+
+<p>Back in 2022, the <a href="https://www.eurogamer.net/belarusian-based-sat-cat-studio-delays-upcoming-game-due-to-russias-war-in-ukraine">studio was forced to delay the game due to the impact of Russia's invasion of Ukraine</a>.</p>
+<p>Then, in 2023, it was <a href="https://www.eurogamer.net/cyberpunk-platformer-replaced-delayed-into-2024">delayed in 2024</a>, then <a href="https://www.eurogamer.net/25d-cyberpunk-platformer-replaced-delayed-into-2025">delayed once more into 2025</a>. Now it'll be out in 2026.</p>
+<p>"It feels great to finally have a set date for the release of Replaced," said game director Yura Zhdanovich. "It's no secret that it's taken longer for us to get here than we initially thought and we want to thank everyone for your continued patience and support. We're looking forward to making it worth your while on March 12th!"</p>
+<p>It certainly looks like it will be worth the wait. It's coming to multiple PC stores (Steam, Epic, GOG), and will also be added to Xbox Game Pass.</p>
+
+        </div>
+
+  
+      </article>
+
+
+
+  
+
+
+
+  
+
+  <section>
+    <span>Related topics</span>
+
+    
+  </section>
+  </div></div>]]></content:encoded>
+            <dc:creator>Ed Nightingale</dc:creator>
+        </item>
         <item>
             <title><![CDATA[Let it Die: Inferno is maybe the weirdest extraction game I've ever played, both endlessly intriguing and disappointing]]></title>
             <link>https://www.eurogamer.net/let-it-die-inferno-weirdest-extraction-game-now-playing</link>
@@ -8678,211 +8848,6 @@ See 1 more              <span></span>
   </section>
   </div></div>]]></content:encoded>
             <dc:creator>Victoria Phillips Kennedy</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Valve responds with "additional context" following Horses Steam ban controversy]]></title>
-            <link>https://www.eurogamer.net/valve-responds-with-additional-context-following-horses-steam-ban-controversy</link>
-            <guid>https://www.eurogamer.net/valve-responds-with-additional-context-following-horses-steam-ban-controversy</guid>
-            <content:encoded><![CDATA[https://www.eurogamer.net/valve-responds-with-additional-context-following-horses-steam-ban-controversy<br/><br/><div id="readability-page-1" class="page"><div>
-      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
-
-
-<header data-component="article-header">
-  
-
-    <div id="main-content">
-        
-
-        <p>Says it discussed request to reconsider ban "extensively".</p>
-
-    </div>
-
-
-  <p>
-
-  <figure>
-      <picture>
-        <source srcset="https://assetsio.gnwcdn.com/horses-header.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/horses-header.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/horses-header.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/horses-header.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/horses-header.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/horses-header.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/horses-header.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/horses-header.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/horses-header.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>Eurogamer/Santa Ragione</cite></span>
-        </figcaption>
-  </figure>
-  </p>
-
-    
-
-</header>
-  <div data-component="article-content">
-
-
-
-            <p>
-Following Valve's decision to ban developer Santa Ragione's first-person horror adventure Horses from distribution on Steam - a move the studio says seriously jeopardises its future - the PC storefront owner has responded with a statement providing "additional context", saying it "extensively" discussed a request to reconsider its decision before refusing to do so.
-</p>
-<p>
-Italian studio Santa Ragione, whose award-winning output includes Saturnalia, Meditteranea Inferno, and Mirror Moon EP, is developing Horses in collaboration with director Andrea Lucco Borlera. It's described as a three-hour adventure about "the burden of familial trauma and puritan values, the dynamics of totalitarian power, and the ethics of personal responsibility", and sees players taking on the role of a rural farmhand across 14 days one summer. Its mix of monochrome visuals, live-action intermissions, and interactive sequences is striking, as is its premise, which imagines a world in which naked human "horses" are kept as livestock - but despite the nudity, the studio is clear the game is "not pornographic" nor "[intended] to arouse".
-</p>
-<figure>
-<p>
-<a aria-label="HORSES Launch Date Trailer" data-platform="youtube" href="https://www.youtube.com/embed/JYewjNYxV-8?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
-<span>HORSES Launch Date Trailer</span>
-<template>
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/JYewjNYxV-8?autoplay=1" frameborder="0" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/JYewjNYxV-8?autoplay=1" title="HORSES Launch Date Trailer">
-</iframe> </template>
-</a>
-</p>
-<figcaption>Horses launch date trailer.<a href="https://www.youtube.com/watch?v=JYewjNYxV-8" rel="noopener" target="_blank">Watch on YouTube</a></figcaption></figure>
-<p>
-That's important in the context of the controversy that's emerged this week. Horses' <a href="https://www.eurogamer.net/saturnalia-studios-deeply-unsettling-horror-horses-has-a-release-date-but-theres-a-significant-hitch-if-you-were-hoping-to-play-it-on-steam">recent release date announcement</a> was accompanied by the news Steam had refused - after making the apparently unusual request to review an early, incomplete build - to sell the game on its platform in 2023, with an automated message informing Santa Ragione it would not "distribute content that appears, in [its] judgement, to depict sexual conduct involving a minor."
-</p><p>
-Santa Ragione says Valve refused to elaborate, leaving it to speculate the decision was triggered by a scene - which it stresses was "not sexual in any way" - in which a visitor's young daughter rode on the shoulders of a female "horse". As the studio's creative vision evolved, the daughter was aged into a 20-something adult (all characters in the game are explicitly 20+), but it remains frustrated at Valve's apparent refusal to re-assess the finished game for review, despite the fact it's now been reviewed and approved for distribution on the Epic Games Store, GoG, the Humble Store, and Itch.io.
-</p>
-<p>
-That's a lot of background, and the full story is even more involved; further details can be found in <a href="https://www.horses.wtf/BannedFromSteam/">Santa Ragione's Steam ban FAQ</a> and in our <a href="https://www.eurogamer.net/its-extremely-frustrating-and-also-fcked-up-one-of-the-worlds-best-indie-studios-is-facing-shock-closure-following-confounding-steam-ban">interview with studio founder Pietro Righi Riva</a>. Notably, though, Valve did not provide comment ahead of Santa Ragione's announcement.
-</p>
-<!-- code from Primis - Eurogamer.net - eurogamer.net -->
-<div>
-<p><span data-type="targeting">
-<span>To see this content please enable targeting cookies.</span>
-</span> </p>
-</div>
-<!-- code from Primis -->
-<p>
-In the week prior to the news of Horses' Steam ban going public, Eurogamer invited Valve to respond to specific points raised in our interview with Santa Ragione, but no reply was recieved ahead of the story's stated publication time. However, following yesterday's Horses release announcement, and the subsequent press coverage of its Steam ban and Santa Ragione's likely closure, Valve has provided outlets with some "additional context" for its decision, offering some insight into why it requested a review of an incomplete build and claiming it "extensively" discussed Santa Ragione's request to reconsider its ban before conveying its final refusal. Valve doesn't detail <em>why</em> it opted not to permit a re-review of the final build, nor does it clarify if Santa Ragione was given a reason for the refusal - the studio claims Valve has not been transparent in its communication. Here's Valve's statement in full:
-</p>
-<p>
-"We reviewed the game back in 2023. At that time, the developer indicated with their release date in Steamworks that they planned to release a few months later. Based on content in the store page, we told the developer we would need to review the build itself. This happens sometimes if content on the store page causes concern that the game itself might not fall within our guidelines. After our team played through the build and reviewed the content, we gave the developer feedback about why we couldn't ship the game on Steam, consistent with <a href="https://partner.steamgames.com/doc/gettingstarted/onboarding#5">our onboarding rules and guidelines</a>. A short while later the developer asked us to reconsider the review, and our internal content review team discussed that extensively and communicated to the developer our final decision that we were not going to ship the game on Steam."
-</p>
-<p>
-Despite Horses' Steam rejection, it'll still be available for purchase via <a href="https://store.epicgames.com/en-US/p/horses-004d87">Epic</a>, <a href="https://www.gog.com/en/game/horses">GOG</a>, the <a href="https://www.humblebundle.com/store/horses">Humble Store</a>, and <a href="https://santaragione.itch.io/horses">Itch.io</a> on 2nd December. It costs €4.99/$4.99.
-</p>
-
-        </div>
-
-  
-      </article>
-
-
-
-  
-
-
-
-  
-
-  <section>
-    <span>Related topics</span>
-
-    
-  </section>
-  </div></div>]]></content:encoded>
-            <dc:creator>Matt Wales</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Sega finally admits low sales of games may have been impacted by players waiting for "definitive editions", like Persona 5 Royal or SMT 5: Vengeance]]></title>
-            <link>https://www.eurogamer.net/sega-finally-admits-low-sales-of-games-may-have-been-impacted-by-players-waiting-for-definitive-editions-like-persona-5-royal-or-smt-5-vengeance</link>
-            <guid>https://www.eurogamer.net/sega-finally-admits-low-sales-of-games-may-have-been-impacted-by-players-waiting-for-definitive-editions-like-persona-5-royal-or-smt-5-vengeance</guid>
-            <content:encoded><![CDATA[https://www.eurogamer.net/sega-finally-admits-low-sales-of-games-may-have-been-impacted-by-players-waiting-for-definitive-editions-like-persona-5-royal-or-smt-5-vengeance<br/><br/><div id="readability-page-1" class="page"><div>
-      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
-
-
-<header data-component="article-header">
-  
-
-    
-
-
-  <p>
-
-  <figure>
-      <picture>
-        <source srcset="https://assetsio.gnwcdn.com/Persona-5-Royal---Take-Over-Trailer---Nintendo-Switch-0-45-screenshot.png?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Persona-5-Royal---Take-Over-Trailer---Nintendo-Switch-0-45-screenshot.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Persona-5-Royal---Take-Over-Trailer---Nintendo-Switch-0-45-screenshot.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Persona-5-Royal---Take-Over-Trailer---Nintendo-Switch-0-45-screenshot.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Persona-5-Royal---Take-Over-Trailer---Nintendo-Switch-0-45-screenshot.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Persona-5-Royal---Take-Over-Trailer---Nintendo-Switch-0-45-screenshot.png?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Persona-5-Royal---Take-Over-Trailer---Nintendo-Switch-0-45-screenshot.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Persona-5-Royal---Take-Over-Trailer---Nintendo-Switch-0-45-screenshot.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Persona-5-Royal---Take-Over-Trailer---Nintendo-Switch-0-45-screenshot.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>Atlus</cite></span>
-        </figcaption>
-  </figure>
-  </p>
-
-    
-
-</header>
-  <div data-component="article-content">
-
-
-
-            <p>Sega has admitted sales of its games may be lower-than-expected due to players awaiting "definitive editions" before buying.</p>
-<p>The company has published (in Japanese) a shareholders <a href="https://www.segasammy.co.jp/cms/wp-content/uploads/pdf/ja/ir/20251114_q2_major_QA_j.pdf">Q&amp;A session</a> following its most recent earnings report (thanks <a href="https://automaton-media.com/en/news/sega-is-aware-its-past-definitive-version-releases-could-be-deterring-players-from-buying-games-at-launch/">Automaton</a>). During the session, the company was questioned on a drop in sales of catalogue games, and revenue fluctuations impacted by new releases. Specifically, Sega has released a number of critically acclaimed games, but sales have fallen short of expectations.</p>
-<p>In its response, Sega made a number of suggestions, including successful rival games of the same genre and initial pricing of games.</p>
-<figure>
-<div>
-<p><span data-type="targeting">
-<span>To see this content please enable targeting cookies.</span>
-</span> </p>
-</div>
-<figcaption>Metaphor: ReFantazio Review<a href="https://www.youtube.com/watch?v=ct98clbQw5k" rel="noopener" target="_blank">Watch on YouTube</a></figcaption>
-</figure>
-<p>It also admitted players expecting a "definitive edition" of its games may be hesitant to purchase at launch.</p>
-<p>"While we haven't been able to pinpoint a precise cause of [the lower-than-expected sales performance], we believe the problem also lies in our marketing, which wasn't able to sufficiently convey the appeal of our games to users," the company said, reassuring investors the issue is being investigated.</p><p>No specific games were mentioned in the exchange, but it certainly points towards the games of Atlus. Traditionally, the RPG maker has released revised versions of its games following initial release: <a href="https://www.eurogamer.net/games/persona-4">Persona 4</a> was followed by a Golden version, while Persona 5 was followed by Royal, both of which had extra characters and content. For a more recent example, 2021's <a href="https://www.eurogamer.net/games/shin-megami-tensei-5">Shin Megami Tensei 5</a> was followed last year by Shin Megami Tensei 5: Vengeance.</p>
-<p>Last year also saw the release of <a href="https://www.eurogamer.net/games/metaphor-refantazio">Metaphor: ReFantazio</a>. It was critically acclaimed, award-winning, and <a href="https://www.eurogamer.net/metaphor-refantazio-surpasses-1m-sales-on-launch-day-to-become-fastest-selling-atlus-game">surpassed 1m sales on launch day to become the fastest-selling Atlus game</a>. Then, in July this year, <a href="https://www.eurogamer.net/metaphor-refantazio-has-sold-2m-units-worldwide-atlus-officially-reveals">Atlus announced it had sold 2m units worldwide</a>. It suggests a drop-off in sales after that initial surge.</p>
-<p>Atlus has not specified if Metaphor: ReFantazio will receive a revised version, but the precedent set by its previous games may have had fans questioning.</p>
-<p>As Eurogamer reported yesterday, Katsura Hashino - director of Metaphor: ReFantazio and the Persona games - wants to <a href="https://www.eurogamer.net/persona-and-metaphor-refantazio-creator-wants-to-create-jrpg-30-so-what-does-that-mean-for-persona-6">create "JRPG 3.0" as a next evolutionary step</a>. The comment has raised eyebrows ahead of the presumed-reveal of Persona 6.</p>
-
-        </div>
-
-  
-      </article>
-
-
-
-  
-
-
-
-  <section>
-        
-
-
-    
-
-      <details>
-        <summary>
-See 1 more              <span></span>
-
-        </summary>
-
-        
-      </details>
-  </section>
-
-  <section>
-    <span>Related topics</span>
-
-    
-  </section>
-  </div></div>]]></content:encoded>
-            <dc:creator>Ed Nightingale</dc:creator>
         </item>
     </channel>
 </rss>
