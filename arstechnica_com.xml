@@ -4,171 +4,26 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Tue, 02 Dec 2025 22:02:55 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 04 Dec 2025 20:45:16 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[SteamOS has problems with 8GB GPUs, but Valve is working on it]]></title>
-            <link>https://arstechnica.com/gadgets/2025/12/steamos-has-problems-with-8gb-gpus-but-valve-is-working-on-it/</link>
-            <guid>1370818</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="app">
-    <p><a href="#main">
-  Skip to content
-</a></p>
-
-
-
-<main id="main">
-            <article data-id="2129757">
-  
-  <header>
-  <div>
-    
-
-    
-
-    <p>
-      Valve has work to do on the software side—but some fixes are coming.
-    </p>
-
-          
-    
-    <div id="caption-2129820">
-    
-    <p>
-      AMD's Radeon RX 7600 GPU is pretty similar to the graphics hardware Valve will ship in the Steam Machine—and its 8GB of dedicated GDDR6 RAM can be a problem.
-
-              <span>
-          Credit:
-
-          
-          Andrew Cunningham
-
-                  </span>
-          </p>
-  </div>
-
-    <div>
-    
-    <p>
-      AMD's Radeon RX 7600 GPU is pretty similar to the graphics hardware Valve will ship in the Steam Machine—and its 8GB of dedicated GDDR6 RAM can be a problem.
-
-              <span>
-          Credit:
-
-          
-          Andrew Cunningham
-
-                  </span>
-          </p>
-  </div>
-  </div>
-</header>
-
-
-  
-
-  
-      
-    
-    <div>
+            <title><![CDATA[Why won’t Steam Machine support HDMI 2.1? Digging in on the display standard drama.]]></title>
+            <link>https://arstechnica.com/gaming/2025/12/why-wont-steam-machine-support-hdmi-2-1-digging-in-on-the-display-standard-drama/</link>
+            <guid>1373494</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
                       
                       
-          
-<p>By Valve’s admission, its upcoming Steam Machine desktop isn’t swinging for the fences with its graphical performance. The specs promise decent 1080p-to-1440p performance in most games, with 4K occasionally reachable with assistance from FSR upscaling—about what you’d expect from a box with a modern midrange graphics card in it.</p>
-<p>But there’s one spec that has caused some concern among Ars staffers and others with their eyes on the Steam Machine: The GPU comes with just 8GB of dedicated graphics RAM, an amount that is steadily becoming more of a bottleneck for midrange GPUs like AMD’s Radeon RX 7060 and 9060, or Nvidia’s GeForce RTX 4060 or 5060.</p>
-<p>In our reviews of these GPUs, we’ve already run into some games where the RAM ceiling limits performance in Windows, especially at 1440p. But we’ve been doing more extensive testing of various GPUs with SteamOS, and we can confirm that in current betas, 8GB GPUs struggle even more on SteamOS than they do running the same games at the same settings in Windows 11.</p>
-<p>The good news is that Valve is working on solutions, and having a stable platform like the Steam Machine to aim for should help improve things for other hardware with similar configurations. The bad news is there’s plenty of work left to do.</p>
-<h2>The numbers</h2>
-
-<p>We’ve tested an array of dedicated and integrated Radeon GPUs under SteamOS and Windows, and we’ll share more extensive results in another article soon (along with broader SteamOS-vs-Windows observations). But for our purposes here, the two GPUs that highlight the issues most effectively are the 8GB Radeon RX 7600 and the 16GB Radeon RX 7600 XT.</p>
-<p>These dedicated GPUs have the benefit of being nearly identical to what Valve plans to ship in the Steam Machine—32 compute units (CUs) instead of Valve’s 28, but the same RDNA3 architecture. They’re also, most importantly for our purposes, pretty similar to each other—the same physical GPU die, just with slightly higher clock speeds and more RAM for the 7600 XT than for the regular 7600.</p>
+          <p>When Valve <a href="https://arstechnica.com/gaming/2025/11/steam-deck-minus-the-screen-valve-announces-new-steam-machine-controller-hardware/">announced its upcoming Steam Machine hardware last month</a>, some eagle-eyed gamers may have been surprised to see that <a href="https://store.steampowered.com/sale/steammachine">the official spec sheet</a> lists support for HDMI 2.0 output, rather than the updated, higher-bandwidth HDMI 2.1 standard <a href="https://arstechnica.com/gadgets/2017/11/hdmi-2-1-spec-released-ushering-in-new-era-of-dynamic-hdr-video/">introduced in 2017</a>. Now, Valve tells Ars that, while the hardware itself actually supports HDMI 2.1, the company is struggling to offer full support for that standard due to Linux drivers that are “still a work-in-progress on the software side.”</p>
+<p>As <a href="https://arstechnica.com/gadgets/2024/02/hdmi-forum-to-amd-no-you-cant-make-an-open-source-hdmi-2-1-driver/">we noted last year</a>, the HDMI Forum (which manages the official specifications for HDMI standards) has officially blocked any open source implementation of HDMI 2.1. That means the open source AMD drivers used by SteamOS can’t fully implement certain features that are specific to the updated output standard.</p>
+<p>“At this time an open source HDMI 2.1 implementation is not possible without running afoul of the HDMI Forum requirements,” AMD engineer Alex Deucher said at the time.</p>
+<h2>Doing what they can</h2>
+<p>This situation has caused significant headaches for Valve, which tells Ars it has had to validate the Steam Machine’s HDMI 2.1 hardware via Windows during testing. And when it comes to HDMI performance via SteamOS, a Valve representative tells Ars that “we’ve been working on trying to unblock things there.”</p>
+<p>That includes unblocking HDMI 2.0’s resolution and frame-rate limits, which <a href="https://www.extron.com/article/hdmi2faq">max out at 60 Hz for a 4K output</a>, according to the official standard. Valve tells Ars it has been able to increase that limit to the “4K @ 120Hz” listed on the Steam Machine spec sheet, though, thanks to a technique called <a href="https://www.cablematters.com/Blog/HDMI/a-comprehensive-guide-to-chroma-subsampling?srsltid=AfmBOooodBYO5jloAUOgV_BWD8o479zIqMeMVxuI9lO9vsXT29AVrfEW">chroma sub-sampling</a>.</p>
 
           
                       
-                  </div>
-                    
-        
-          
-    
-    <div>
-          
-          
-<p>This makes it especially easy to identify the performance issues caused by RAM limits—any time the 7600 XT is more than 5 or 10 percent faster than the regular 7600, it means that the game is probably hitting that 8GB ceiling.</p>
-
-
-
-
-
-<p>Some of the games in our suite, like&nbsp;<em>Borderlands 3</em> and&nbsp;<em>Cyberpunk 2077</em> with the ray-tracing effects turned off, perform similarly on both GPUs. But the gap widens for&nbsp;<em>Cyberpunk</em> at 1440p with ray-tracing on, and for other ray-traced games like <em>Returnal</em> and&nbsp;<em>Forza Horizon 5</em>, the problems even extend to 1080p. Even&nbsp;<em>Assassin’s Creed Valhalla</em>, hardly the newest entry in the franchise, shows signs of a larger gap between the 7600 and 7600 XT under SteamOS than exists in Windows 11.</p>
-<p>If you look at the game-by-game results, you’ll see that SteamOS often trails behind Windows 11 running on the same dedicated GPU hardware, something we’ve also observed on the other dedicated GPUs we’ve tested. This is basically the inverse of what we (and others) have found <a href="https://arstechnica.com/gaming/2025/06/games-run-faster-on-steamos-than-windows-11-ars-testing-finds/">when testing SteamOS and Windows on handhelds</a>. Add to that the additional problems that SteamOS has with GPUs that have 8GB of VRAM, and it’s clear that Valve has some work to do on the software side before the Steam Machine launches.</p>
-<h2>Valve is working on it</h2>
-<p>We spoke with Valve software developer Pierre-Loup Griffais, who leads much of the company’s work on SteamOS and the Proton translation layer, about our findings and what they meant for the Steam Machine.</p>
-<p>“VRAM management is a topic we have been focusing on, and some of that work is still being done, so the general idea around what you’re describing doesn’t surprise me too much,” Griffais told Ars. “There were some shortcomings there that we’re making progress on. The typical symptom that we’d expect is that once you run out of VRAM, subsequent allocations from the game will spill over to system memory, at which point a drastic performance drop would be observed since the game would partially be rendering to/from system memory across the PCIe bus.”</p>
-
-          
-                  </div>
-                    
-        
-          
-    
-    <div>
-
-        
-        <div>
-          
-          
-<p>That description definitely squares with some of what we saw, particularly in&nbsp;<em>Cyberpunk</em> and&nbsp;<em>Returnal</em> under some settings—not just a subtle reduction in performance as in&nbsp;<em>Forza</em> or&nbsp;<em>Assassin’s Creed</em>, but flipbook-y performance that makes games that are playable in Windows unplayable on SteamOS at the same settings.</p>
-<p>Griffais wasn’t specific about the fixes planned to address these problems, or about the timeline for rolling them out. But this performance gap is something the company is actively working to address.</p>
-<p>“We have some work around improving video memory management that’s about to get merged into SteamOS main [a testing branch of SteamOS, separate from the Steam Deck’s stable channel] that should improve things there,” Griffais told Ars.</p>
-<p>Up until now, memory management simply hasn’t been an issue for SteamOS, at least not for hardware like the Steam Deck and the Legion Go S that Valve is officially supporting. That’s partly because these systems’ slower integrated GPUs will usually bottleneck performance way before a lack of video RAM will. But one benefit of integrated GPUs is that, because they use your system’s main RAM rather than their own dedicated pool of high-speed memory, they can use essentially as much of your system RAM as they need to. Framework uses it as a selling point for <a href="https://arstechnica.com/gadgets/2025/08/review-framework-desktop-is-a-mash-up-of-a-regular-desktop-pc-and-the-mac-studio/">its Framework Desktop</a>—its Radeon RX 8050S and 8060S GPUs are in the same general performance class as the RX 7600, but can access <a href="https://frame.work/desktop?tab=machine-learning">between 24GB and 96GB</a> of the PC’s pool of system RAM.</p>
-<p>In short, the Steam Machine will be Valve’s first officially supported hardware that actually needs to <em>care</em> about a fixed allotment of video memory. The Steam Machine’s 8GB of VRAM is still going to be a performance limiter for some games, but hopefully Valve’s SteamOS and Proton patches can at least help 8GB GPUs work as well in SteamOS as they do in Windows.</p>
-
-
-          
-                  </div>
-
-                  
-          
-
-
-
-
-
-
-  <div>
-    
-
-    <p>
-      Andrew is a Senior Technology Reporter at Ars Technica, with a focus on consumer tech including computer hardware and in-depth reviews of operating systems like Windows and macOS. Andrew lives in Philadelphia and co-hosts a weekly book podcast called <a href="https://overduepodcast.com/">Overdue</a>.
-    </p>
-  </div>
-
-
-  <p>
-    <a href="https://arstechnica.com/gadgets/2025/12/steamos-has-problems-with-8gb-gpus-but-valve-is-working-on-it/#comments" title="56 comments">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><defs><clipPath id="bubble-zero_svg__a"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath><clipPath id="bubble-zero_svg__b"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath></defs><g clip-path="url(#bubble-zero_svg__a)"><g fill="currentColor" clip-path="url(#bubble-zero_svg__b)"><path d="M80 40c0 22.09-17.91 40-40 40S0 62.09 0 40 17.91 0 40 0s40 17.91 40 40"></path><path d="M40 40 .59 76.58C-.67 77.84.22 80 2.01 80H40z"></path></g></g></svg>
-    56 Comments
-  </a>
-      </p>
-              </div>
-  </article>
-
-
-  
-
-
-  
-
-
-  
-  </main>
-
-
-
-
-
-  </div></div><br/><br/>https://arstechnica.com/gadgets/2025/12/steamos-has-problems-with-8gb-gpus-but-valve-is-working-on-it/]]></content:encoded>
+                  </div></div><br/><br/>https://arstechnica.com/gaming/2025/12/why-wont-steam-machine-support-hdmi-2-1-digging-in-on-the-display-standard-drama/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
