@@ -4,26 +4,29 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Thu, 04 Dec 2025 21:52:07 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 05 Dec 2025 18:55:41 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Why won’t Steam Machine support HDMI 2.1? Digging in on the display standard drama.]]></title>
-            <link>https://arstechnica.com/gaming/2025/12/why-wont-steam-machine-support-hdmi-2-1-digging-in-on-the-display-standard-drama/</link>
-            <guid>1373494</guid>
+            <title><![CDATA[SteamOS vs. Windows on dedicated GPUs: It’s complicated, but Windows has an edge]]></title>
+            <link>https://arstechnica.com/gadgets/2025/12/steamos-vs-windows-on-dedicated-gpus-its-complicated-but-windows-has-an-edge/</link>
+            <guid>1374685</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-                      
-                      
-          <p>When Valve <a href="https://arstechnica.com/gaming/2025/11/steam-deck-minus-the-screen-valve-announces-new-steam-machine-controller-hardware/">announced its upcoming Steam Machine hardware last month</a>, some eagle-eyed gamers may have been surprised to see that <a href="https://store.steampowered.com/sale/steammachine">the official spec sheet</a> lists support for HDMI 2.0 output, rather than the updated, higher-bandwidth HDMI 2.1 standard <a href="https://arstechnica.com/gadgets/2017/11/hdmi-2-1-spec-released-ushering-in-new-era-of-dynamic-hdr-video/">introduced in 2017</a>. Now, Valve tells Ars that, while the hardware itself actually supports HDMI 2.1, the company is struggling to offer full support for that standard due to Linux drivers that are “still a work-in-progress on the software side.”</p>
-<p>As <a href="https://arstechnica.com/gadgets/2024/02/hdmi-forum-to-amd-no-you-cant-make-an-open-source-hdmi-2-1-driver/">we noted last year</a>, the HDMI Forum (which manages the official specifications for HDMI standards) has officially blocked any open source implementation of HDMI 2.1. That means the open source AMD drivers used by SteamOS can’t fully implement certain features that are specific to the updated output standard.</p>
-<p>“At this time an open source HDMI 2.1 implementation is not possible without running afoul of the HDMI Forum requirements,” AMD engineer Alex Deucher said at the time.</p>
-<h2>Doing what they can</h2>
-<p>This situation has caused significant headaches for Valve, which tells Ars it has had to validate the Steam Machine’s HDMI 2.1 hardware via Windows during testing. And when it comes to HDMI performance via SteamOS, a Valve representative tells Ars that “we’ve been working on trying to unblock things there.”</p>
-<p>That includes unblocking HDMI 2.0’s resolution and frame-rate limits, which <a href="https://www.extron.com/article/hdmi2faq">max out at 60 Hz for a 4K output</a>, according to the official standard. Valve tells Ars it has been able to increase that limit to the “4K @ 120Hz” listed on the Steam Machine spec sheet, though, thanks to a technique called <a href="https://www.cablematters.com/Blog/HDMI/a-comprehensive-guide-to-chroma-subsampling?srsltid=AfmBOooodBYO5jloAUOgV_BWD8o479zIqMeMVxuI9lO9vsXT29AVrfEW">chroma sub-sampling</a>.</p>
+          
+          
+<p>Other results vary from game to game and from GPU to GPU. <em>Borderlands 3</em>, for example, performs quite a bit better on Windows than on SteamOS across all of our tested GPUs, sometimes by as much as 20 or 30 percent (with smaller gaps here and there). As a game from 2019 with no ray-tracing effects, it still runs serviceably on SteamOS across the board, but it was the game we tested that favored Windows the most consistently.</p>
+
+
+<p>In both <em>Forza Horizon 5&nbsp;</em>and&nbsp;<em>Cyberpunk 2077,</em> with ray-tracing effects enabled, you also see a consistent advantage for Windows across the 16GB dedicated GPUs, usually somewhere in the 15 to 20 percent range.</p>
+<p>To Valve’s credit, there were also many games we tested where Windows and SteamOS performance was functionally tied.&nbsp;<em>Cyberpunk</em> without ray-tracing, <em>Returnal</em> when not hitting the 7600’s 8GB RAM limit, and&nbsp;<em>Assassin’s Creed Valhalla</em> were sometimes&nbsp;<em>actually</em> tied between Windows and SteamOS, or they differed by low-single-digit percentages that you could chalk up to the margin of error.</p>
+
+
+<p>Now look at the results from the integrated GPUs, the Radeon 780M and RX 8060S. These are pretty different GPUs from one another—the 8060S has more than three times the compute units of the 780M, and it’s working with a higher-speed pool of soldered-down LPDDR5X-8000 rather than two poky DDR5-5600 SODIMMs.</p>
+
+<p>But <em>Borderlands&nbsp;</em>aside, SteamOS actually did quite a bit better on these GPUs relative to Windows. In both&nbsp;<em>Forza&nbsp;</em>and&nbsp;<em>Cyberpunk</em> with ray-tracing enabled, SteamOS slightly beats Windows on the 780M, and mostly closes the performance gap on the 8060S. For the games where Windows and SteamOS essentially tied on the dedicated GPUs, SteamOS has a small but consistent lead over Windows in average frame rates.</p>
 
           
-                      
-                  </div></div><br/><br/>https://arstechnica.com/gaming/2025/12/why-wont-steam-machine-support-hdmi-2-1-digging-in-on-the-display-standard-drama/]]></content:encoded>
+                  </div></div><br/><br/>https://arstechnica.com/gadgets/2025/12/steamos-vs-windows-on-dedicated-gpus-its-complicated-but-windows-has-an-edge/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
