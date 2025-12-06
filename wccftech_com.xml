@@ -4,9 +4,73 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Sat, 06 Dec 2025 18:53:28 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 06 Dec 2025 19:24:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Metroid Prime 4 Runs Well on PC Emulators and Can Even Be Played in Stereoscopic 3D]]></title>
+            <link>https://wccftech.com/metroid-prime-4-runs-well-on-pc-emulators-can-even-be-played-in-stereo-3d/</link>
+            <guid>1375321</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			
+			<p>The final triple-A game release of the year, Metroid Prime 4: Beyond, was just released. Our Nathan Birch <a href="https://wccftech.com/review/metroid-prime-4-beyond-scanning-wider-horizons/" target="_blank" rel="noreferrer noopener">reviewed the game for the Nintendo Switch 2</a>, but the game is also available for the original Nintendo Switch.</p>
+
+
+
+<p>Indeed, as you might remember, it was initially <a href="https://wccftech.com/metroid-prime-4-announced-switch/" target="_blank" rel="noreferrer noopener">announced</a> for the previous Switch during Nintendo's E3 2017 Spotlight, just a few months after that console's debut. It famously had a troubled development phase, as Nintendo <a href="https://wccftech.com/metroid-prime-4-indeed-developed-bandai-namco-according-multiple-sources/" target="_blank" rel="noreferrer noopener">had originally picked Bandai Namco</a> instead of Retro Studios to make the game. </p>
+
+
+
+<p>The project wasn't going well, which led to Metroid Prime 4: Beyond <a href="https://wccftech.com/metroid-prime-4-retro-studios/" target="_blank" rel="noreferrer noopener">being rebooted and handed back to Retro Studios</a>, resulting in an inevitable significant delay. Even though the Austin-based studio eventually launched the game well after the debut of the Switch 2, Nintendo still kept its promise to release the game on the original Switch, too.</p>
+
+
+
+<p>That's great news even for PC gamers because, while there are no Switch 2 emulators yet, there are plenty of Switch emulators. Sure, Nintendo cracked down hard on the scene and <a href="https://wccftech.com/nintendo-switch-emulator-yuzu-shut-down-nintendo-gets-paid-2-4-million/" target="_blank" rel="noreferrer noopener">forced the closure of Yuzu</a> (and its fork<span>,&nbsp;<a href="https://wccftech.com/suyu-yuzus-emulator-fork-gets-taken-down-just-hours-after-the-first-build-release/" target="_blank">Suzu</a>), but many alternatives are still active, including <a href="https://ryujinx.app/" target="_blank" rel="noreferrer noopener">Ryubing</a>, an open-source fork based on</span> the historic Ryujinx emulator, as well as newer emulators like <a href="https://eden-emu.dev/" target="_blank" rel="noreferrer noopener">Eden</a> and <a href="https://citron-emu.org/" target="_blank" rel="noreferrer noopener">Citron</a>. </p>
+
+
+
+<figure><p>
+<iframe title="Metroid prime 4: Beyond - Eden vs Citron" width="500" height="281" src="https://www.youtube.com/embed/bxSycDP8e3w?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<p>All of these are running Metroid Prime 4 well, as you can see from the embedded video. But the real kicker is that with ReShade, it's even possible to render the game (and other Switch titles) in stereoscopic 3D and play it on a giant screen through the <a href="https://www.vrdesktop.net/" target="_blank" rel="noreferrer noopener">Virtual Desktop software</a>. To begin, you will need to <a href="https://reshade.me/" target="_blank" rel="noreferrer noopener">download ReShade</a> 6.6.2 with full add‑on support and the Rendepth shader to convert the game’s depth buffer into a side‑by‑side 3D image that Virtual Desktop can interpret as stereoscopic video.</p>
+
+
+
+<p>After installing ReShade (select the Vulkan option), enable the Rendepth shader and set the output to side-by-side with stereo strength at 100%, Z-buffer scaling at around 30, and parallax/overlap adjusted to your preference. To verify that depth is being captured correctly, ensure that the Show depth buffer setting is toggled on and use the AdjustDepth/DisplayDepth add-on to cycle through Vulkan depth sources until the buffer displays a proper gradient from black to white, rather than a flat white image.</p>
+
+
+
+<p>If the depth preview is inverted, upside‑down, or flat, simply edit ReShade's global preprocessor definitions, toggling flags such as “depth input is reversed” or “depth input is upside down” from 0 to 1, until the depth image looks correct. Once the right Vulkan depth source is selected (it'll be the one with the most vertices) and the image is oriented correctly, disable the debug view, enable performance mode, and keep Rendepth active to generate the 3D image in normal gameplay.</p>
+
+
+
+<figure><p>
+<iframe title="Using Rendepth and ReShade to play stereoscopic 3D Metroid Prime 4 and Switch games." width="500" height="375" src="https://www.youtube.com/embed/VoCFGIvgiA4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<p>Now, in Virtual Desktop, set the 3D mode to half side‑by‑side or over‑under so that the double image from Rendepth fuses into a stereoscopic view on the virtual big screen. The creator of the video, lionellion, describes the result as a “Nintendo 3DS pop‑out” visor effect with a presentation akin to having a giant curved screen in front of you. Of course, to replicate this effect, you will need a Virtual Reality/XR headset or glasses or a glassless 3D display <a href="https://wccftech.com/samsung-2d-3d-gaming-monitor-concept-supports-glassless-3d-and-vr-gaming-wins-ces-2024-innovation-award/" target="_blank" rel="noreferrer noopener">like this one</a>. </p>
+
+
+
+<p>Needless to say, playing Metroid Prime 4: Beyond on PC can only be legally done if you purchased an original copy for the Nintendo Switch and then dumped it for your own use. </p>
+
+			
+			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
+
+		</div></div><br/><br/>https://wccftech.com/metroid-prime-4-runs-well-on-pc-emulators-can-even-be-played-in-stereo-3d/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[Where Winds Meet – Everything We Know About the Wuxia Open World Action Adventure RPG]]></title>
             <link>https://wccftech.com/roundup/where-winds-meet-everything-we-know-about-the-wuxia-open-world-action-adventure-rpg/</link>

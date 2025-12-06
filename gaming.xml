@@ -4,9 +4,149 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Sat, 06 Dec 2025 18:53:28 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 06 Dec 2025 19:24:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Metroid Prime 4 Runs Well on PC Emulators and Can Even Be Played in Stereoscopic 3D]]></title>
+            <link>https://wccftech.com/metroid-prime-4-runs-well-on-pc-emulators-can-even-be-played-in-stereo-3d/</link>
+            <guid>1375321</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			
+			<p>The final triple-A game release of the year, Metroid Prime 4: Beyond, was just released. Our Nathan Birch <a href="https://wccftech.com/review/metroid-prime-4-beyond-scanning-wider-horizons/" target="_blank" rel="noreferrer noopener">reviewed the game for the Nintendo Switch 2</a>, but the game is also available for the original Nintendo Switch.</p>
+
+
+
+<p>Indeed, as you might remember, it was initially <a href="https://wccftech.com/metroid-prime-4-announced-switch/" target="_blank" rel="noreferrer noopener">announced</a> for the previous Switch during Nintendo's E3 2017 Spotlight, just a few months after that console's debut. It famously had a troubled development phase, as Nintendo <a href="https://wccftech.com/metroid-prime-4-indeed-developed-bandai-namco-according-multiple-sources/" target="_blank" rel="noreferrer noopener">had originally picked Bandai Namco</a> instead of Retro Studios to make the game. </p>
+
+
+
+<p>The project wasn't going well, which led to Metroid Prime 4: Beyond <a href="https://wccftech.com/metroid-prime-4-retro-studios/" target="_blank" rel="noreferrer noopener">being rebooted and handed back to Retro Studios</a>, resulting in an inevitable significant delay. Even though the Austin-based studio eventually launched the game well after the debut of the Switch 2, Nintendo still kept its promise to release the game on the original Switch, too.</p>
+
+
+
+<p>That's great news even for PC gamers because, while there are no Switch 2 emulators yet, there are plenty of Switch emulators. Sure, Nintendo cracked down hard on the scene and <a href="https://wccftech.com/nintendo-switch-emulator-yuzu-shut-down-nintendo-gets-paid-2-4-million/" target="_blank" rel="noreferrer noopener">forced the closure of Yuzu</a> (and its fork<span>,&nbsp;<a href="https://wccftech.com/suyu-yuzus-emulator-fork-gets-taken-down-just-hours-after-the-first-build-release/" target="_blank">Suzu</a>), but many alternatives are still active, including <a href="https://ryujinx.app/" target="_blank" rel="noreferrer noopener">Ryubing</a>, an open-source fork based on</span> the historic Ryujinx emulator, as well as newer emulators like <a href="https://eden-emu.dev/" target="_blank" rel="noreferrer noopener">Eden</a> and <a href="https://citron-emu.org/" target="_blank" rel="noreferrer noopener">Citron</a>. </p>
+
+
+
+<figure><p>
+<iframe title="Metroid prime 4: Beyond - Eden vs Citron" width="500" height="281" src="https://www.youtube.com/embed/bxSycDP8e3w?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<p>All of these are running Metroid Prime 4 well, as you can see from the embedded video. But the real kicker is that with ReShade, it's even possible to render the game (and other Switch titles) in stereoscopic 3D and play it on a giant screen through the <a href="https://www.vrdesktop.net/" target="_blank" rel="noreferrer noopener">Virtual Desktop software</a>. To begin, you will need to <a href="https://reshade.me/" target="_blank" rel="noreferrer noopener">download ReShade</a> 6.6.2 with full add‑on support and the Rendepth shader to convert the game’s depth buffer into a side‑by‑side 3D image that Virtual Desktop can interpret as stereoscopic video.</p>
+
+
+
+<p>After installing ReShade (select the Vulkan option), enable the Rendepth shader and set the output to side-by-side with stereo strength at 100%, Z-buffer scaling at around 30, and parallax/overlap adjusted to your preference. To verify that depth is being captured correctly, ensure that the Show depth buffer setting is toggled on and use the AdjustDepth/DisplayDepth add-on to cycle through Vulkan depth sources until the buffer displays a proper gradient from black to white, rather than a flat white image.</p>
+
+
+
+<p>If the depth preview is inverted, upside‑down, or flat, simply edit ReShade's global preprocessor definitions, toggling flags such as “depth input is reversed” or “depth input is upside down” from 0 to 1, until the depth image looks correct. Once the right Vulkan depth source is selected (it'll be the one with the most vertices) and the image is oriented correctly, disable the debug view, enable performance mode, and keep Rendepth active to generate the 3D image in normal gameplay.</p>
+
+
+
+<figure><p>
+<iframe title="Using Rendepth and ReShade to play stereoscopic 3D Metroid Prime 4 and Switch games." width="500" height="375" src="https://www.youtube.com/embed/VoCFGIvgiA4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<p>Now, in Virtual Desktop, set the 3D mode to half side‑by‑side or over‑under so that the double image from Rendepth fuses into a stereoscopic view on the virtual big screen. The creator of the video, lionellion, describes the result as a “Nintendo 3DS pop‑out” visor effect with a presentation akin to having a giant curved screen in front of you. Of course, to replicate this effect, you will need a Virtual Reality/XR headset or glasses or a glassless 3D display <a href="https://wccftech.com/samsung-2d-3d-gaming-monitor-concept-supports-glassless-3d-and-vr-gaming-wins-ces-2024-innovation-award/" target="_blank" rel="noreferrer noopener">like this one</a>. </p>
+
+
+
+<p>Needless to say, playing Metroid Prime 4: Beyond on PC can only be legally done if you purchased an original copy for the Nintendo Switch and then dumped it for your own use. </p>
+
+			
+			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
+
+		</div></div><br/><br/>https://wccftech.com/metroid-prime-4-runs-well-on-pc-emulators-can-even-be-played-in-stereo-3d/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[As Path of Exile 2: The Last of the Druids gears up for release next week, its devs , sort of, delay its 1.0 release date]]></title>
+            <link>https://www.rockpapershotgun.com/as-path-of-exile-2-the-last-of-the-druids-gears-up-for-release-next-week-its-devs-sort-of-delay-its-10-release-date</link>
+            <guid>1375318</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-component="article-header">
+  
+
+    <div id="main-content">
+  
+
+        <p>"I certainly wouldn't want to slip into 2027"</p>
+
+    </div>
+
+
+  <p>
+
+  <figure>
+        <picture>
+        <source srcset="https://assetsio.gnwcdn.com/path-of-exile-2-druid_n6a2vPm.jpg?width=380&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/path-of-exile-2-druid_n6a2vPm.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/path-of-exile-2-druid_n6a2vPm.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/path-of-exile-2-druid_n6a2vPm.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/path-of-exile-2-druid_n6a2vPm.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/path-of-exile-2-druid_n6a2vPm.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/path-of-exile-2-druid_n6a2vPm.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/path-of-exile-2-druid_n6a2vPm.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/path-of-exile-2-druid_n6a2vPm.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
+        
+      </picture>
+
+        <figcaption>
+          <span>Image credit: <cite>Grinding Gear Games</cite></span>
+        </figcaption>
+
+  </figure>
+  </p>
+
+    
+
+</div><div data-component="article-content">
+
+
+
+            <p>
+A new trailer for the next <a href="https://www.rockpapershotgun.com/games/path-of-exile-2">Path of Exile 2</a> update, The Last of the Druids, was shared earlier this week, showing off all the cool things you can do in it! Which are mostly relegated to turning into animals, but in my eyes that is eternally a cool thing to be able to do, in a game or not. And with that trailer also came a release date for the update.
+</p>
+<p>
+It's less than a week out now, due to be released on December 12th, just in time for the next weekend. As part of the new druid class that comes with the new update, when in human form you can wield "magical staves to channel the powers of the earth and the natural world," including summoning volcanoes, getting trees to use their roots to trap enemies, you know, druid stuff. 
+</p>
+
+<figure>
+<p>
+<a aria-label="Path of Exile 2: The Last of the Druids Official Trailer" data-platform="youtube" href="https://www.youtube.com/embed/HUsjULYd2q8?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
+<span>Path of Exile 2: The Last of the Druids Official Trailer</span>
+<template>
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/HUsjULYd2q8?autoplay=1" frameborder="0" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/HUsjULYd2q8?autoplay=1" title="Path of Exile 2: The Last of the Druids Official Trailer">
+</iframe> </template>
+</a>
+</p>
+<a href="https://www.youtube.com/watch?v=HUsjULYd2q8" rel="noopener" target="_blank">Watch on YouTube</a></figure>
+
+
+<p>
+Then, there's the three forms you can take, that of a wolf, a bear, or a fire-breathing wyvern. Looks pretty neat honestly! Druid also comes with a couple of ascendancy classes, one being the Shaman, who "channels nature’s fury, harnessing rage to empower his spells and becoming a walking natural disaster raining down meteors, lightning, and ice," and the Oracle, who has "perfected the power of Foresight, using it in combat to gain a massive advantage by peering into the future to predict a monster's movements and even allocate passives from alternate timelines!"
+</p><p>
+Here's the rub, however: Path of Exile 2's 1.0 release date most likely won't be March 2026 like it was previously planned for. "I'm fairly confident that we won't be out of 2026," game director Jonathon Rogers told <a href="https://www.eurogamer.net/path-of-exile-2-release-date-slips-again">Eurogamer</a> in a recent interview, continuing, "but as I said, I never want to really completely promise anything. But I don't think it'll end up being March; we'll have to see."
+</p>
+<p>
+While there was no specific updated timeline shared, Rogers said he "certainly wouldn't want to be any later than the end of next year. Obviously we're trying to get there as fast as we can, but I certainly wouldn't want to slip into 2027." I'm sure this won't be welcome news to some, but hey ho, this is just how early access is sometimes. Have patience, friend, the 1.0 will come.
+
+</p>
+
+        </div></div><br/><br/>https://www.rockpapershotgun.com/as-path-of-exile-2-the-last-of-the-druids-gears-up-for-release-next-week-its-devs-sort-of-delay-its-10-release-date]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[In true roguelike fashion, Slay the Spire 2 is only being made because of a 50/50 coin flip]]></title>
             <link>https://www.rockpapershotgun.com/in-true-roguelike-fashion-slay-the-spire-2-is-only-being-made-because-of-a-5050-coin-flip</link>
@@ -494,10 +634,10 @@ It's entirely possible that this all ends up being style over substance, the sub
             <link>https://www.nintendolife.com/reviews/nintendo-switch-2/simogo-legacy-collection-nintendo-switch-2-edition</link>
             <guid>1375234</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><section>
-<figure><a title="Simogo Legacy Collection - Nintendo Switch 2 Edition Review - Screenshot 1 of 5" href="https://images.nintendolife.com/screenshots/160993/large.jpg"></a><figcaption>Captured on Nintendo Switch 2 (Handheld/Undocked)</figcaption></figure><p>I had a moment of realisation while flipping my Switch 2 around in my hand and tapping at the screen in an effort to solve yet another clever-but-abstract puzzle. I realised that the <a href="https://www.nintendolife.com/games/nintendo-switch-2/simogo-legacy-collection-nintendo-switch-2-edition">Simogo Legacy Collection</a> was one of the most unabashedly original sets of experiences I had encountered in a long time.</p>
+<figure><a title="Simogo Legacy Collection - Nintendo Switch 2 Edition Review - Screenshot 1 of 5" href="https://images.nintendolife.com/screenshots/160989/large.jpg"></a><figcaption>Captured on Nintendo Switch 2 (Docked)</figcaption></figure><p>I had a moment of realisation while flipping my Switch 2 around in my hand and tapping at the screen in an effort to solve yet another clever-but-abstract puzzle. I realised that the <a href="https://www.nintendolife.com/games/nintendo-switch-2/simogo-legacy-collection-nintendo-switch-2-edition">Simogo Legacy Collection</a> was one of the most unabashedly original sets of experiences I had encountered in a long time.</p>
 <p>The funny thing was that I had already played every game in this collection years before. It had been so long that the zenith of mobile gaming had slipped into the realm of half-forgotten memories.</p>
 <p>Simogo Games is perhaps better known for two stylised and mechanically unique titles from recent years: <a href="https://www.nintendolife.com/games/switch-eshop/sayonara_wild_hearts">Sayonara Wild Hearts</a> (2019) and <a href="https://www.nintendolife.com/games/switch-eshop/lorelei_and_the_laser_eyes">Lorelei and the Laser Eyes</a> (2024). It <em>may</em> surprise some that it is actually a storied studio with 15 years of history, recognised for fiercely original titles built for mobile devices. Those are the games that the Simogo Legacy Collection brings together. It features seven titles that both exemplify the early heyday of mobile games and manage to transcend that format.</p>
-<figure><a title="Simogo Legacy Collection - Nintendo Switch 2 Edition Review - Screenshot 2 of 5" href="https://images.nintendolife.com/screenshots/160992/large.jpg"></a><figcaption>Captured on Nintendo Switch 2 (Docked)</figcaption></figure>
+<figure><a title="Simogo Legacy Collection - Nintendo Switch 2 Edition Review - Screenshot 2 of 5" href="https://images.nintendolife.com/screenshots/160993/large.jpg"></a><figcaption>Captured on Nintendo Switch 2 (Handheld/Undocked)</figcaption></figure>
 <p>This is as lovingly curated a collection as you are likely to get, rivalling Digital Eclipse’s <a href="https://www.nintendolife.com/games/browse?title=series%3Agold-master-series">Gold Master Series</a> for presentation and additional extras. The stylish menu is fashioned as a mobile phone screen, with tiles that take you to games, settings, and a wealth of bonus material. You are free to cycle between a vast collection of music as you wander the digital halls of this studio's archives.</p>
 <p>The games themselves range from fun time sinks to rich artistic endeavours. All of them need equal attention, so it is best to tackle them one by one.</p>
 <p>First up is <strong>Kosmo Spin</strong>, which is perhaps the most mobile-game-like experience here and a sign of a studio taking its first steps in the industry. It is a cute collectathon that plays with perspective by having you rotate the screen to guide a robot around a planetoid. You rescue robot buddies and avoid an enemy UFO that hurls projectiles and tries to hoover you up.</p>
@@ -506,11 +646,11 @@ It's entirely possible that this all ends up being style over substance, the sub
 <p><strong>Beat Sneak Bandit</strong> is an odd but addictive combination of stealth and rhythm action. You control a thief who sneaks through Donkey Kong-style multi-level areas, and you can only move by tapping the screen to the beat.</p>
 <p><a href="https://www.nintendolife.com/games/wiiu-eshop/year_walk">Year Walk</a> is perhaps the developer's most beloved mobile title and much more of a purely artistic experience than the previous three. Previously available on the Wii U eShop until Nintendo shut up shop <a href="https://www.nintendolife.com/features/countdown-wii-u-eshop-spotlight-year-walk">in March 2023</a>, it explores Scandinavian folklore with an atmospheric walking (swiping?) simulator of sorts, in which you transition through screens, interact with the environment and uncover mysteries. It remains richly atmospheric to this day.</p>
 <p><strong>Device 6</strong> and <strong>The Sailor’s Dream</strong> are mechanically similar puzzle mysteries that rely on your exploration skills. Device 6 has you traverse prose and interact with images in a book to help protagonist Anna figure out where she is. The Sailor’s Dream expands the concept of exploration by having you sail across the ocean and visit experiential locations.</p>
-<figure><a title="Simogo Legacy Collection - Nintendo Switch 2 Edition Review - Screenshot 3 of 5" href="https://images.nintendolife.com/screenshots/160989/large.jpg"></a><figcaption>Captured on Nintendo Switch 2 (Docked)</figcaption></figure>
+<figure><a title="Simogo Legacy Collection - Nintendo Switch 2 Edition Review - Screenshot 3 of 5" href="https://images.nintendolife.com/screenshots/160995/large.jpg"></a><figcaption>Captured on Nintendo Switch 2 (Docked)</figcaption></figure>
 <p>Finally, there is <strong>SPL-T</strong>, an ostensibly simple puzzle game where you tap on a wireframe grid to create ever smaller divisions. This one is a compulsive experience that hides neat little easter eggs tied to screen interaction.</p>
 <p>All of these games are sharply updated to look great on the Switch display. Since they were developed for small touchscreens, they feel most comfortable when played undocked. Simogo has added all kinds of quality-of-life features to make the games more playable on both screens, including open orientation switching and simultaneous touch and stick controls.</p>
 <p>The one caveat is that most of the games feel a bit clunky on a large display. Even with accessible controls, these titles were made specifically for a small screen. That said, the Switch 2 version fully supports mouse controls, which helps a great deal when playing docked. Being able to move the screen and control the game with smooth mouse movement is a real boon.</p>
-<figure><a title="Simogo Legacy Collection - Nintendo Switch 2 Edition Review - Screenshot 4 of 5" href="https://images.nintendolife.com/screenshots/160990/large.jpg"></a><figcaption>Captured on Nintendo Switch 2 (Handheld/Undocked)</figcaption></figure>
+<figure><a title="Simogo Legacy Collection - Nintendo Switch 2 Edition Review - Screenshot 4 of 5" href="https://images.nintendolife.com/screenshots/160988/large.jpg"></a><figcaption>Captured on Nintendo Switch 2 (Docked)</figcaption></figure>
 <p>Simogo Legacy Collection feels like the developer has considered <em>everything</em> in translating these games to consoles. It adapts mobile-first experiences into versatile ports that account for the player's needs. Outside of the porting work, these games offer seven distinct and captivating experiences that still feel fresh years after their release. Simogo plays around with the form and function of well-worn templates to create something surprising and new.</p>
 <p>Even Year Walk, the most purely narrative experience here, is a unique take on the storytelling style of classics like <a href="https://www.nintendolife.com/games/3ds/myst">Myst</a> or <a href="https://www.nintendolife.com/games/switch-eshop/room">The Room</a>. SPL-T, on the other hand, is so subtle in its execution that you might spend hours tapping the screen before realising you are playing a postmodern twist on endless arcade puzzlers.</p>
 <p>If you enjoy puzzle-driven narratives and experimental design, this bundle is nothing less than essential.</p>
@@ -837,7 +977,7 @@ It's entirely possible that this all ends up being style over substance, the sub
             <guid>1375162</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><section>
 <figure data-uuid="a19eaac4af15c"><a title="Nintendo Switch 2" href="https://images.nintendolife.com/a19eaac4af15c/nintendo-switch-2.large.jpg"></a><figcaption><em><span></span> Image: Damien McFerran / Nintendo Life</em></figcaption></figure><p>We're into December now, and while there are still late-coming games showing up, it's time to start looking back at the goodies the last 12 months have brought us. Yes, it's GOTY time.</p>
-<p>2025 has been a bumper one across the board, with brilliant games big and small — indie, are-they-indie?, and absolutely-definitely-not-indie — launching every single month. This is the year that <a href="https://www.nintendolife.com/games/nintendo-switch-2/hollow-knight-silksong-nintendo-switch-2-edition">Silksong</a> <em>finally</em> came out, for heaven's sake! Oh, and Nintendo launched a whole new platform. Just looking at the software, the quality in 2025 has been top-shelf.</p><div><figure data-videoid="C1rrCdi_XjA" data-start="0" data-src="https://www.youtube.com/embed/C1rrCdi_XjA?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><div><iframe id="ytC1rrCdi_XjA" title="YouTube Video" data-src-fallback="https://www.youtube-nocookie.com/embed/C1rrCdi_XjA?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/C1rrCdi_XjA?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed3be067guzmty&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><p>Subscribe to <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1">Nintendo Life</a> on <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1"><span>YouTube</span><span>840k</span></a></p>
+<p>2025 has been a bumper one across the board, with brilliant games big and small — indie, are-they-indie?, and absolutely-definitely-not-indie — launching every single month. This is the year that <a href="https://www.nintendolife.com/games/nintendo-switch-2/hollow-knight-silksong-nintendo-switch-2-edition">Silksong</a> <em>finally</em> came out, for heaven's sake! Oh, and Nintendo launched a whole new platform. Just looking at the software, the quality in 2025 has been top-shelf.</p><div><figure data-videoid="C1rrCdi_XjA" data-start="0" data-src="https://www.youtube.com/embed/C1rrCdi_XjA?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><div><iframe id="ytC1rrCdi_XjA" title="YouTube Video" data-src-fallback="https://www.youtube-nocookie.com/embed/C1rrCdi_XjA?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/C1rrCdi_XjA?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed3be067wxizqg&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><p>Subscribe to <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1">Nintendo Life</a> on <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1"><span>YouTube</span><span>840k</span></a></p>
 </div></figure></div>
 <p>If you've joined us only recently, we here at Nintendo Life have our own staff GOTY list encompassing all of our personal top fives, but top GOTY billing goes to our community-ranked Top 50 Switch games of the year - this year featuring Switch 2, too.</p>
 <p>We've got one for every year of the Switch's life so far, each ordered according to the corresponding games' User Rating in our database.</p>
@@ -941,7 +1081,7 @@ It's entirely possible that this all ends up being style over substance, the sub
 <li><a href="https://www.nintendolife.com/games/nintendo-switch/metroid_prime_4_beyond">Metroid Prime 4: Beyond</a> (<a href="https://www.nintendolife.com/reviews/nintendo-switch/metroid-prime-4-beyond">8/10</a>)</li>
 </ul>
 <p>There are a lot of newbies out there, but what's everyone playing?</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:194214,194403 @ 1765044176 -->
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:194214,194403 @ 1765048300 -->
 <h2>Jim Norman, Staff Writer</h2>
 <p>Shock, horror, I'm playing Metroid. I'm still a relative noob to the series, but <a href="https://www.nintendolife.com/games/nintendo-switch/metroid_prime_remastered">Prime Remastered</a> had me in a chokehold back in 2023, and Beyond is doing exactly the same so far. Sure, it's <em>technically</em> my brother's birthday celebrations this weekend, but he won't mind if I bring my Switch along and pad out the old scan logbook at dinner, will he?</p>
 <h2>Alana Hagues, Deputy Editor</h2>
@@ -1084,7 +1224,7 @@ It's entirely possible that this all ends up being style over substance, the sub
 </section></header><div><section>
 <figure data-uuid="a54714d540d3c"><a title="Pikmin 4" href="https://images.nintendolife.com/a54714d540d3c/pikmin-4.large.jpg"></a><figcaption><em><span></span> Image: Nintendo</em></figcaption></figure><p><a href="https://www.nintendolife.com/games/nintendo-switch/pikmin_4">Pikmin 4</a> received a <a href="https://www.nintendolife.com/news/2025/11/pikmin-4s-free-content-update-is-out-now-here-are-the-full-patch-notes">free update in November</a> adding new content, but it wasn't a Switch 2 upgrade and didn't include any enhancements for the game on the new hybrid platform.</p>
 <p>With this in mind, the same Switch title has now <a href="https://mynintendonews.com/2025/12/04/pikmin-4-listed-as-having-switch-2-enhancements-on-eshop-update-incoming/">reportedly popped up</a> in a section on the eShop, which focuses on first-party Nintendo "games with free updates" and also notes how select titles are enhanced when played on the Switch 2.</p>
-<p>This discovery was originally shared on the <a href="https://www.reddit.com/r/Pikmin/comments/1pe84ll/pikmin_4_is_listed_as_having_a_switch_2_update_on/?share_id=PHUUC4t9ZRTKsLLq2QdcD&amp;utm_content=1&amp;utm_medium=android_app&amp;utm_name=androidcss&amp;utm_source=share&amp;utm_term=1">Pikmin subreddit (via My Nintendo News)</a> and has also surfaced in other regions, as highlighted by <a href="https://x.com/necrolipe/status/1996721280351904211">Universo Nintendo editor Felipe Lima</a>. Here's the attached description along with a look:</p><div><figure data-videoid="AsYPINDc4Aw" data-start="0" data-src="https://www.youtube.com/embed/AsYPINDc4Aw?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><div><iframe id="ytAsYPINDc4Aw" title="YouTube Video" data-src-fallback="https://www.youtube-nocookie.com/embed/AsYPINDc4Aw?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/AsYPINDc4Aw?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed34c7a8ptqiws&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><p>Subscribe to <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1">Nintendo Life</a> on <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1"><span>YouTube</span><span>840k</span></a></p>
+<p>This discovery was originally shared on the <a href="https://www.reddit.com/r/Pikmin/comments/1pe84ll/pikmin_4_is_listed_as_having_a_switch_2_update_on/?share_id=PHUUC4t9ZRTKsLLq2QdcD&amp;utm_content=1&amp;utm_medium=android_app&amp;utm_name=androidcss&amp;utm_source=share&amp;utm_term=1">Pikmin subreddit (via My Nintendo News)</a> and has also surfaced in other regions, as highlighted by <a href="https://x.com/necrolipe/status/1996721280351904211">Universo Nintendo editor Felipe Lima</a>. Here's the attached description along with a look:</p><div><figure data-videoid="AsYPINDc4Aw" data-start="0" data-src="https://www.youtube.com/embed/AsYPINDc4Aw?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><div><iframe id="ytAsYPINDc4Aw" title="YouTube Video" data-src-fallback="https://www.youtube-nocookie.com/embed/AsYPINDc4Aw?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/AsYPINDc4Aw?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed34c7a8omwqvk&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><p>Subscribe to <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1">Nintendo Life</a> on <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1"><span>YouTube</span><span>840k</span></a></p>
 </div></figure></div>
 <blockquote>
 <p>"Enhance select games when played on the Nintendo Switch 2 system"</p>
@@ -1095,236 +1235,11 @@ It's entirely possible that this all ends up being style over substance, the sub
 <p>We've taken a look at the page, and it appears Pikmin 4 has now been removed from this section. The other titles listed here are based on <a href="https://www.nintendolife.com/news/2025/06/12-free-switch-2-game-upgrades-are-now-live-here-are-the-full-patch-notes">the 12 free upgrades</a> released alongside the launch of the Switch 2, and <a href="https://www.nintendolife.com/games/nintendo-switch/splatoon_3">Splatoon 3</a> (which also got a <a href="https://www.nintendolife.com/news/2025/06/video-heres-how-splatoon-3-on-switch-2-improves-visuals-and-performance">Switch 2 update in June</a>).</p>
 <p>So, what might all this mean? As mentioned in the post above, it could just be a "mistake" on Nintendo's end, so it's probably best not to get too excited. And now that it's been removed, it seems this might be the case. Of course, this hasn't stopped <em>some</em> <a href="https://x.com/MyNintendoNews/status/1996709298651779139/quotes">Pikmin 4 enthusiasts from getting their hopes up</a> – suggesting it could be a sign of a future update.</p>
 <p>For now, Pikmin 4 hasn't received a dedicated Switch 2 update. If we do hear any significant developments, we'll let you know.</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:193699,183260,151662 @ 1765044454 -->
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:193699,183260,151662 @ 1765047683 -->
 <p>Do you think we'll see a Switch 2 upgrade for this title at some point in the future? <em>Let us know in the comments.</em></p></section>
 <p>[source <a title="External Link: https://mynintendonews.com/2025/12/04/pikmin-4-listed-as-having-switch-2-enhancements-on-eshop-update-incoming/" rel="noopener" href="https://mynintendonews.com/2025/12/04/pikmin-4-listed-as-having-switch-2-enhancements-on-eshop-update-incoming/">mynintendonews.com</a>]</p>
 <!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-info/99b6404b1aee0516fc96ea4013eb0d28 @ 1765046329 --></div></article><div><p>Liam is a news writer and reviewer across Hookshot Media. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
 </div></div></div><br/><br/>https://www.nintendolife.com/news/2025/12/pikmin-4-fans-hoping-for-switch-2-upgrade-after-odd-listing-spotted-on-the-eshop]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[What are we all playing this weekend?]]></title>
-            <link>https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-360</link>
-            <guid>1375114</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-      <article data-ads="true" data-article-type="features" data-article-group="feature" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
-
-
-<header data-component="article-header">
-  
-
-    
-
-
-  <p>
-
-  <figure>
-    <span></span>
-        <picture>
-        <source srcset="https://assetsio.gnwcdn.com/festive-fiddle-1600.jpg?width=380&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/festive-fiddle-1600.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/festive-fiddle-1600.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/festive-fiddle-1600.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/festive-fiddle-1600.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/festive-fiddle-1600.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/festive-fiddle-1600.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/festive-fiddle-1600.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/festive-fiddle-1600.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>The university of North Carolina at Chapel Hill / The Internet Archive</cite></span>
-        </figcaption>
-
-  </figure>
-  </p>
-
-    
-
-</header>
-  <div data-component="article-content">
-
-
-
-            <p>Waking up at the crack of dawn today, I felt a great disturbance in the Force, as if millions of voices did not have a comments thread in which to badger us to play Troubleshooter Colon Abandoned Children. I burst from the covers, ran weeping to my PC (this happens most mornings, to be fair) and discovered that I had forgotten to finish the intro for our latest What Are We All Playing This Weekend article. And now I have. So, what are you all playing this weekend?</p><!--more-->
-<p><strong>Jeremy</strong><br>I've come down with a bit of a cold, so it's highly likely that this weekend will mostly be spent in bed trying to recover from the whirlwind of house repairs and other chaos that has dominated life since October. I shall resume my hunts in <a href="https://www.rockpapershotgun.com/games/final-fantasy-xii">Final Fantasy XII</a> and let the auto-battling Gambit system take over for me, most likely. Go on, my brave Ivalice squad - kill some things while I shuffle your macros from behind the scenes in order to alleviate the aches in my bones!</p>
-<p><strong>Callum</strong><br>This is like turning up to a biker bar and loudly announcing you’ve bought a vintage Volvo, but I picked up an old PS3 on eBay this week purely so I could play <a href="https://www.rockpapershotgun.com/games/metal-gear-solid">Metal Gear Solid</a> 4: Guns Of The Patriots. I’m sorry, PC brethren. I’m one of you, I promise! But I’ve given up hope they’re ever freeing this game from its PS3 prison, and paid my way to spending the weekend hiding in cardboard boxes and doing cool spy shit. Well, I’ll do that for 10 minutes before Kojima wrestles me down and forces me to watch my fifth subsequent feature-length movie masquerading as a cutscene.</p>
-<p><strong>Mark</strong><br>Right, so Raceroom has just gotten a new car pack featuring the Mercs, Audis and Opels of the 2002 DTM series. As you might have read in the RPS 100, I love me some German touring cars, so you’ll probably find me blasting around Hockenheim or the Norisring in a pitched battle with Bernd Schneider, Laurent Aiello or Manuel Reuter this weekend.</p><p><strong>Ollie:</strong><br>It's been a rough time for me recently. My anxiety has been hitting me so hard that I feel like half a person. So this weekend, I'll be splitting my time between <a href="https://www.rockpapershotgun.com/arc-raiders-best-guns-tier-list">Arc Raiders</a>, <a href="https://www.rockpapershotgun.com/games/trackmania">Trackmania</a>, and a couple of hours stroking some of my favourite cats in the nearby cat cafe. And all three of those activities will be shared with some of my favourite people in the world. Hopefully together it can help soothe my frayed nerves.</p>
-<p><strong>James</strong><br>I continue to enjoy <a href="https://www.rockpapershotgun.com/after-six-hours-of-tweaker-gunslinging-and-trench-warfare-im-sold-on-darktides-imminent-hive-scum-update">Hive Scumming</a> around <a href="https://www.rockpapershotgun.com/games/warhammer-40000-darktide">Warhammer 40,000: Darktide</a>. Myself and a couple of friends have formed a shouty little triumvirate of mohawked wrong'uns, each specialising in one of the three pillars of grimdark hoodlum combat doctrine: guns, knives, and methamphetamine.</p>
-<p><strong>Julian</strong><br>After a week of working perhaps too many 7am - 11pm days, I'm relaxing by going to an 11pm - 7am Wong Kar Wai marathon. As such, I have no plans to play games this weekend.</p>
-<p><strong>Edwin</strong><br>I'm spending time with my partner this weekend, then I'm off for three days helping my dad with a house move. I might find some time for a go at Total Chaos, the new horror game from the Turbo Overkill developer. Although I've played a lot of horror games recently. Maybe I'll read a book? Maybe I'll read some books recommended by a game developer, even?</p>
-<hr>
-<p><em>And you, reader dear, what are you playing this weekend?...</em>
-<span data-fixed="true" data-hashid="84eyyn" data-init="false" data-poll-position="1"></span>
-
-        </p></div>
-
-      </article>
-
-
-
-
-        
-  </div></div><br/><br/>https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-360]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Skybound Games Faces $4 Million Lawsuit From iam8bit Over Fraud Claims]]></title>
-            <link>https://insider-gaming.com/skybound-games-faces-4-million-dollar-lawsuit-iam8bit/</link>
-            <guid>1375111</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-        
-<p>Skybound Game Studios, the gaming subsidiary of Robert Kirkman’s Skybound Entertainment, is facing a sizeable lawsuit filed by iam8bit. This lawsuit alleges fraud, a breach of contract, and theft of original designs, and it was taken to the LA Superior Court for consideration.</p>
-
-
-
-<p>The filing claims that Skybound has failed to explain financial discrepancies logged over the years of the partnership between the two firms, amongst other things. This has left iam8bit to file a considerable claim against Skybound.</p>
-
-
-
-
-
-
-
-<h2 id="h-skybound-faces-allegations-of-financial-misconduct">Skybound Faces Allegations of Financial Misconduct</h2>
-
-
-
-<p>Skybound Game Studios and iam8bit entered into a partnership in April 2021, and according to the complaint, Skybound has always failed to deliver monthly financial reports as agreed and has added ‘millions of dollars in fake line items’ to expense reports.</p>
-
-
-
-<p>It <a href="https://www.engadget.com/gaming/iam8bit-is-suing-skybound-game-studios-alleging-fraud-and-theft-of-designs-000822886.html" target="_blank" rel="noreferrer noopener nofollow">was explained</a> that an impartial auditor was introduced to the debate, and even then, Skybound couldn’t explain the finances.</p>
-
-
-
-<p>Beyond financial woes, iam8bit has accused Skybound Games of cutting it out of a deal related to Stray, the dystopian indie smash hit that launched on PlayStation in 2022. It was claimed that Skybound used original designs created by iam8bit for promotional purposes to secure a separate deal for a Nintendo Switch release of the game.</p>
-
-
-
-<p>It has been argued that Skybound has exploited trade secrets while scalping iam8bit’s creative output for marketing purposes.</p>
-
-
-
-<p>This leaves iam8bit’s legal team to seek monetary damages, some kind of punitive reform, and compensation for legal fees.</p>
-
-
-
-<p>Skybound Games has refused to comment on the lawsuit thus far.</p>
-
-
-
-
-
-
-
-<p>Do you think Skybound Games should be held accountable to this extent if found guilty of these financial discrepancies? Let us know on the <a href="https://discord.com/invite/vwj7zdWxaW">Insider Gaming Discord server</a>.</p>
-
-
-
-<hr>
-
-
-
-<p>For more Insider Gaming coverage, check out the news that <a href="https://insider-gaming.com/ea-has-no-plans-to-make-a-new-dead-space/">EA has no plans for a new Dead Space</a> as the series sits on ice</p>
-    
-
-    <div id="ig-app-cta">
-          <p><i></i> MOBILE APP</p>
-          <h2>Level Up Your Gaming News</h2>
-          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
-          
-          <!--<div class="ig-note"><i class="fa-solid fa-bolt"></i> Available on iOS & Android</div>-->
-        <p><i></i> Available on Android</p>
-
-        </div>
-
-    
-    
-    </div></div><br/><br/>https://insider-gaming.com/skybound-games-faces-4-million-dollar-lawsuit-iam8bit/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[FURIA Has Perfect Budapest Push to Secure Playoff Spot]]></title>
-            <link>https://insider-gaming.com/furia-budapest-perfect-push-secure-playoffs/</link>
-            <guid>1375105</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-        
-<p>FURIA has stormed into the playoffs of the StarLadder Budapest Major, completing a flawless 3-0 run through the tournament’s third stage to cement their dominance over rivals G2 in Hungary. Heading into the series, the head-to-head between the two was locked at 3-3, but FURIA shattered that ratio with a decisive 2-0 win.</p>
-
-
-
-<p>It was an intense series that left FURIA one step closer to lifting the trophy in Budapest.</p>
-
-
-
-<p>The predictions don’t end with this article, though. Insider Gaming, together with the international betting brand GG.BET, brings you to the heart of unforgettable moments of the Starladder Major Budapest 2025. Visit <a href="https://gg.bet/news/betbuilder-now-on-ggbet" target="_blank" rel="noreferrer noopener">gg.bet</a> to dive deeper, place your bets, and feel the adrenaline of esports!</p>
-
-
-
-<figure><a href="https://gg.bet/news/betbuilder-now-on-ggbet" target="_blank" rel=" noreferrer noopener"></a></figure>
-
-
-
-
-
-
-
-<h2 id="h-furia-in-the-fight-for-first">FURIA in the Fight for First</h2>
-
-
-
-<p>The opening map in the series, Inferno, provided FURIA with early leverage, as the team secured a commanding 13-5 win over G2. It was a shock-and-awe mission for FURIA, with FalleN and YEKINDAR putting out multi-kills that left G2 flailing in the wind for much of the map.</p>
-
-
-
-<p>Overpass came next, and again, FURIA was swinging around the map with reckless abandon. Even a brief respite provided by SunPayus with a clean pistol clapback wasn’t enough to recover those lost rounds.</p>
-
-
-
-<p>In a post-match statement, Sid ‘sidde’ Macedo explained:</p>
-
-
-
-<blockquote>
-<p>We were still deciding if we would full buy or not. I knew we needed a pause to organize our ideas, and FalleN came up with a very good plan of playing off the stacks, playing with numbers, and playing with smokes. Everyone contributed, and I’m glad I called the pause to bring it together.</p>
-</blockquote>
-
-
-
-<p>This victory effectively breaks the deadlock with G2 and extends FURIA’s dominant streak at the Budapest Major in Hungary. The Brazilian side scooped trophies going into the Major, and now they’re looking to add another to that cabinet.</p>
-
-
-
-
-
-
-
-<p>Do you think FURIA can go all the way in Budapest? Let us know on the <a href="https://discord.com/invite/vwj7zdWxaW">Insider Gaming Discord server</a>.</p>
-
-
-
-<hr>
-
-
-
-<p>For more Insider Gaming esports, check out the news that the <a href="https://insider-gaming.com/cdl-2026-skins-leak-social-media/">CDL 2026 skins have been revealed</a></p>
-    
-
-    <div id="ig-app-cta">
-          <p><i></i> MOBILE APP</p>
-          <h2>Level Up Your Gaming News</h2>
-          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
-          
-          <!--<div class="ig-note"><i class="fa-solid fa-bolt"></i> Available on iOS & Android</div>-->
-        <p><i></i> Available on Android</p>
-
-        </div>
-
-    
-    
-    </div></div><br/><br/>https://insider-gaming.com/furia-budapest-perfect-push-secure-playoffs/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
