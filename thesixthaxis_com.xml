@@ -4,9 +4,419 @@
         <title>maGaming RSS Feed - thesixthaxis_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/thesixthaxis_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for thesixthaxis_com</description>
-        <lastBuildDate>Tue, 09 Dec 2025 11:15:55 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 09 Dec 2025 11:44:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Football Manager 26 update 26.1.0 brings back Shouts]]></title>
+            <link>https://www.thesixthaxis.com/2025/12/09/football-manager-26-update-26-1-0-brings-back-shouts/</link>
+            <guid>1376911</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>One of the features that was not originally part of Football Manager 26, after having been part of the franchise for a while, were touchline or matchday shouts. These let managers express their emotions during games which, if they worked, could impact player morale. Now, Sports Interactive has added Shouts to Football Manager 26 in update 26.1.0, along with a number of other changes and fixes. You can see the whole list below.</p>
+<p><iframe title="Football Manager 26 | First Look Reveal" width="780" height="439" src="https://www.youtube.com/embed/_cDQi5kwuHQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+
+
+
+<h4><strong><u>Technical:</u></strong></h4>
+<ul>
+<li>Extensive crash and stability fixes.</li>
+<li>Further improvements made to in-game translations.</li>
+<li>Added Customisation options for user to be able to choose Attribute and&nbsp;Position colouring. (shown below)</li>
+<li>Fixed an issue where custom files (set piece, tactics, etc.) could not be loaded if they were renamed in File Explorer.</li>
+<li>Various improvements to saving/selecting custom training schedules.</li>
+<li>Fixed an issue where the Fixture tab wouldn’t appear when viewing the Calendar via a keyboard shortcut or the Bookmark button.</li>
+<li>Improved the drag and drop functionality for moving players within the Squad Planner.</li>
+<li>Fixed an issue where database language cannot be set separately to the game language.</li>
+<li>Fixed a very rare issue where saves imported from FM24 were unable to advance.</li>
+<li>Fixed an issue preventing users from attending a Job Interview with a Custom Database ported from FM24.</li>
+<li>Reworded all descriptions of the Keyboard Shortcuts.</li>
+<li>Added a Tooltip on processing speed/estimated game speed on Quick/Advanced start.</li>
+</ul>
+<h4><strong><u>Match Engine, Match Experience, and Animation Changes:</u></strong></h4>
+<ul>
+<li>Shouts reintroduced to matches. (shown below)</li>
+<li>Tweaks to the frequency of players shooting at the near post from tight angles.</li>
+<li>Improvements to defender reactions against opposition dribbling.</li>
+<li>Tweaks made to the line defenders hold when defending in their own box.</li>
+<li>Improved logic to defenders’ decision-making with headers when not under pressure.</li>
+<li>Improved attacking movement of players during counter-attacking transitions.</li>
+<li>Various other Match AI tweaks.</li>
+<li>Fixed an issue where the disallowed goal caption appeared earlier than the VAR animation.</li>
+<li>Fixed an issue where substitution made at half-time were not immediately applied if the tactics screen was still open.</li>
+<li>Youth coaches will now rotate players more in youth matches.</li>
+<li>Fixed an issue where floating floodlights appeared in night-time matches when using Tactical or Dynamic sideline cameras.</li>
+<li>Fixed the captain indicator not appearing in the UEFA Conference League’s Pre-match Lineup.</li>
+<li>Fixed an issue where a red card would incorrectly show for both teams in Men’s Champions League matches.</li>
+<li>Winter balls will no longer be used if the weather is only raining.</li>
+<li>Fixed an issue where event captions were shown all at once when switching out of Commentary Only highlights.</li>
+<li>Fixed various kit clashes, including Everton (home) vs Brighton (away).</li>
+<li>Improvements made to the Match Momentum Graph.</li>
+<li>2D Classic – Managers and medical staff are now colored correctly.</li>
+<li>2D Classic – Goal Nets will now correctly move when a goal is scored.</li>
+<li>2D Classic – Ball will now be sized appropriately when the ball is in the air.</li>
+</ul>
+<h4><strong><u>User Interface:</u></strong></h4>
+<ul>
+<li>Extensive polish and refinement done to the User Interface.</li>
+<li>Improvements made to Squad Comparison screen within Scout Report.</li>
+<li>Wage Budget/Payroll on Tiles and Widgets will now display in the correct weekly/monthly/yearly format in line with user preferences.</li>
+<li>The Transfer Activity tile now states the number of days until the window opens and closes. (shown below)</li>
+<li>Added a ‘Recently viewed players’ option on Player Comparison screen.</li>
+<li>The “i” tooltip will now appear next to the players on Goal50 and NXGN news items.</li>
+<li>Users can now add players from their Youth Squads to their Squad Planner.</li>
+<li>Fixed an issue where the Commercial Summary News did not display names/shirt numbers for most sold shirts.</li>
+<li>User can now open Past Match report when playing in low resolution on Calendar &gt; Fixtures.</li>
+<li>The “Clear all” button now functions as intended when viewing a list of player recommendations.</li>
+<li>The correct fixture result now appears in Club Site -&gt; About Club -&gt; Latest results.</li>
+<li>Fixed an issue where IP/OOP role tiles would sometimes show the incorrect position for players.</li>
+<li>Own Goal scorers are no longer duplicated in the Calendar.</li>
+<li>Club hyperlinks on Club reports now function as intended.</li>
+<li>The Recruitment Focus tile now correctly displays the active number of focuses instead of the total number of focuses.</li>
+<li>Fixed an issue where the FM Menu couldn’t be closed when using the “X” button upon loading a save game.</li>
+<li>The Medical Centre tile now displays the correct icon on ‘players at risk of injury.</li>
+<li>The Shortlist tile now updates in real time.</li>
+<li>The Transfer Window tile no longer displays as closed when the user declines to make an offer message.</li>
+<li>The Match Momentum legend now matches the displayed colours in the card and tile.</li>
+<li>Enabled sorting by player and by expected playing time in ‘Playing time expectations for new season’ Portal message.</li>
+<li>The Defensive Line tile no longer appears twice in All Instructions &gt; Out of Possession tab.</li>
+<li>Tactics Evaluation will now display correctly when first opened.</li>
+<li>Fixed an issue where the Mark Specific Player list of players only appeared after reopening the instruction card.</li>
+<li>Fixed an issue where the mini pitches weren’t appearing in the Formation Picker -&gt; Suggested tab.</li>
+<li>Fixed an issue where the season date text displayed within Transfer History card was incorrect.</li>
+<li>The xG bar will now be coloured correctly on the Data Hub card.</li>
+<li>Fixed the Squad Planner Type tab not being highlighted when opening.</li>
+<li>Various search filters within the Player Database now function as intended; International Caps, Scouting Knowledge, ‘Days since last scouted’, Player footedness, to name a few.</li>
+<li>Position map now displays appropriately for Youth Candidates.</li>
+<li>Improved the colour contrast of the Reset button and the card’s background on the Code of Conduct message.</li>
+</ul>
+<div data-ips-hook="postContent" data-role="commentContent" data-controller="core.front.core.lightboxedImages">
+<h4><strong><u>Transfers, Loans, and Wages:</u></strong></h4>
+<ul>
+<li>Various tweaks to Men’s transfer values across multiple nations.</li>
+<li>Tweaks made to AI clubs loan offers</li>
+<li>Tweaks made to Intermediary Suggestions.</li>
+<li>Improved various transfer-related logics for Saudi clubs.</li>
+<li>Improved wage and transfer budget distribution logic for AI clubs.</li>
+<li>Improved advice consistency between Transfer and Contract negotiations.</li>
+<li>Improvements made to the AI Transfer Negotiations when using Buy Back Fees or alternate Transfer Dates.</li>
+<li>Reduced the transfer budgets for Women’s teams to more realistic levels in relation to club finances.</li>
+<li>Tweaks to player wage demands in Women’s Football.</li>
+<li>Improved AI logic when using Buy Back clauses in Women’s Football.</li>
+<li>Tweaks to player interest for high-profile free agents.</li>
+<li>Fixed an issue where AI clubs would include future fees in loan deals for players with less than 12 months remaining on their contract.</li>
+<li>Added a ‘Sign Replacement First’ option back into the main transfer negotiation.</li>
+<li>AI clubs will now set more realistic goals during negotiations for loan players.</li>
+<li>Fixed an issue where AI clubs would ask for the loan back of a player who is already out on loan.</li>
+<li>Tweaks made to ensure AI clubs only make offers they can afford.</li>
+<li>Fixed an issue where user would receive transfer offers when selecting multiple players to be loan listed.</li>
+<li>Improved the messaging surrounding users who are unable to enter contract negotiation for a player that has no interest.</li>
+<li>Fixed an issue where a player would lose work permit after joining permanently in a Mandatory Future Fee deal.</li>
+<li>Wage percentages now populate correctly when the user switches from Transfer Offer to Loan Offer tab.</li>
+<li>Reduction in the number of non-negotiable transfer offers made by the AI for youth players.</li>
+<li>Adjustments made to how AI clubs offer minimum fee release clauses.</li>
+<li>Users can now offer a player near retirement a staff-only contract.</li>
+<li>Player wage will now display correctly even if exceeding the maximum amount the user can offer within the Contract Offer tool.</li>
+<li>Fixed an issue when offering a player via TransferRoom caused the action to be inactive for a month.</li>
+<li>The correct reasoning will now be given when user selects ‘Cancel proposal’ for player currently under offer within TransferRoom Out card.</li>
+<li>The wage budget now updates in real time within the Recruitment Budgets tile when the user alters the budget.</li>
+<li>Fixed an issue where the Set for Release and Instruct Director of Football to Negotiate renewal actions did not function correctly within ‘Contracts set to expire’ message.</li>
+<li>The correct amount that is to be deducted from next season’s transfer budget will now be displayed within the ‘Set to Move’ on loan portal message.</li>
+<li>Offer contract action will now become inactive after making an offer for a player.</li>
+<li>The Playing Monthly Fee will now correctly display within Loan Offer messages.</li>
+<li>Fixed an issue with ‘Wage After Reaching International Appearances’ clause not functioning correctly for players who already have caps.</li>
+<li>Fixed an issue where the Wage Percentages when offering a player out via TransferRoom for loan would sometimes appear as N/A.</li>
+</ul>
+<h4><strong><u>Misc:</u></strong></h4>
+<ul>
+<li>Improvements to the variety and relevance of News shown on the ‘For You’ News tab.</li>
+<li>Fixed issues related to the UEFA Nation Co-efficient calculation for Bonus points and Playoff round results.</li>
+<li>Users can now arrange friendlies for youth team squads.</li>
+<li>Fixed an issue where U21 players with 2+ years in the club were unable to play in the UEFA Champions League.</li>
+<li>Fixed an issue where you could register more players than required via the ‘Ask assistant to pick’ option.</li>
+<li>Added some new press conference questions surrounding player performance and tactics topics.</li>
+<li>Improved attribute distribution for Newgen goalkeepers.</li>
+<li>Fixed an issue where the user would be informed about female youth players being released when playing in the men’s league (and vice versa).</li>
+<li>Fixed an issue where the Youth Candidates item would appear multiple times within portal messages.</li>
+<li>Functionality added to send B team staff on coaching courses.</li>
+<li>Fixed an issue where text incorrectly stated that signing a player would help fulfil the development of players using the club’s youth system objective.</li>
+<li>Fixed an issue where there was no option in a team unhappiness meeting to explain that a player wanted you to accept a transfer offer.</li>
+<li>Fixed an issue where the Prize money message incorrectly stated the club drew, when in fact they won.</li>
+<li>Changing the collective win bonus now happens in real time.</li>
+<li>More accurate commercial income for high reputation women’s football clubs.</li>
+<li>AI teams will no longer actively attempt to recruit managers when their league is not loaded in the database.</li>
+<li>Various improvements made to AI Club logic when sacking their managers.</li>
+<li>Fixed an issue where a player would get upset over being sold despite only leaving on loan.</li>
+<li>‘Actions’ and ‘Observations’ on Meeting Summaries now display correctly.</li>
+<li>Fixed an issue where the Board would always give you more time in the last chance meeting.</li>
+<li>Fixed an issue where Human managers would not get offered a new contract by the board.</li>
+<li>The Club Vision choices will no longer include the preliminary rounds if you have qualified directly for the UEFA Champions League.</li>
+<li>Competitions &gt; Stages &gt; XG Table now has the correct calculations when compared with the League Table.</li>
+<li>Improvements made to AI manager sackings in the Women’s game.</li>
+<li>Fan reaction to transfers will now be more accurately displayed.</li>
+<li>‘opt’ and ‘frt’ status icons will now display correctly.</li>
+<li>Fixed an issue where post-match player ratings data shown in the fixture schedule wouldn’t be generated.</li>
+<li>Players who trained in England for 3 years before 21st birthday will no longer show as ‘0 years at club’ in Squad Selection Rules.</li>
+<li>Fixed an issue where stadiums without seats would display as having 0 capacity.</li>
+<li>Fixed an issue where the Staff Meeting advice did not show which Recruitment Focus you should be making.</li>
+<li>Fixed an issue where Transfer Completed message doesn’t mention that player has joined on an ESC permit.</li>
+<li>Fixed an issue with the Squad Planner not updating immediately when trying to re-add a removed player.</li>
+<li>Fixed issues where various non-playing roles would incorrectly be selected by default during Manager Creation.</li>
+<li>Functionality to search through messages now works on all tabs.</li>
+<li>‘Near Matches’ view is now implemented into the Recruitment Focus tool.</li>
+<li>‘Number of Club Members’ on the Supporters card is now better displayed.</li>
+<li>Fixed a rare issue where the user would be unable to retire.</li>
+<li>‘Overall’ now appears as a Type on the Debts and Loans card within Finances.</li>
+<li>Fixed board happiness logic regarding the number of goals conceded.</li>
+<li>Recruitment Focus tile now only displays active focus’.</li>
+<li>User return date will now appear correctly on the processing card when on holiday.</li>
+<li>Scouted players will now appear in the player comparison list within the player report.</li>
+<li>Goals scored from penalties will now correctly show in calendar fixtures.</li>
+<li>Fixed an issue where going on holiday would skip past friendlies despite selecting Holiday to Next Match.</li>
+<li>The ‘Listed for Transfer’ status icon will now correctly update on the Player Report card when a player leaves on loan.</li>
+<li>Fixed a rare issue where the ‘Improve First Team Coaching Staff’ promise would be deemed a ‘pass’ immediately.</li>
+<li>Fixed an issue where the promise to “Strengthen the first team squad at right-back” would fail despite suitable improvements being made.</li>
+<li>More accurate attendances for cup competitions &amp; friendlies in Women’s Football.</li>
+<li>Fixed the Award Bonuses option incorrectly appearing within Staff Contract Negotiations.</li>
+<li>Staff Members will no longer be described as a Free Agent when employed by the user’s club.</li>
+<li>Fixed an issue where the ‘Delegate Attends League Press Conferences’ button was visible when meeting the media for the first time.</li>
+<li>Fixed an issue where Staff Non-Contract Expiry dates would display as 2/1/1900 within the Staff Database.</li>
+<li>Fixed an issue where Managerial Vacancies were not updating properly when a job was available.</li>
+<li>Fixed an issue where the user was unable to view the league tables for some of the U19 division leagues.</li>
+<li>Fixed an issue where user was able to request a team report for a women’s team when managing a men’s club (and vice versa).</li>
+<li>“Flu” is no longer described as being caused by a training incident.</li>
+<li>Norwegian players will now have correct knowledge of English Language.</li>
+</ul>
+<h4><strong><u>Competitions &amp; Rule groups:</u></strong></h4>
+<p><strong>General</strong></p>
+<ul>
+<li>Removed redundant “all groups” tabs and tables showing in rules cards where these were not relevant.</li>
+</ul>
+<p><strong>Australia</strong></p>
+<ul>
+<li>A-League – Change to Salary Cap rules from 2025/26 onwards.</li>
+</ul>
+<p><strong>Austria</strong></p>
+
+<ul>
+<li>Addressed fixture congestion.</li>
+<li>Updated league format due to Stripfing’s bankruptcy.</li>
+</ul>
+<p><strong>Africa</strong></p>
+<ul>
+<li>Correct teams now take part in AFCON 2025.</li>
+<li>Fixed African Champions League disciplinary rules which were causing unrealistic suspensions.</li>
+</ul>
+<p><strong>Asia</strong></p>
+<ul>
+<li>Fixed multiple issues for all three Asian club continental competitions.</li>
+<li>Fixed regionalisation issues in group stages and matchups in knockout rounds.</li>
+<li>Updated squad registration rules and removed redundant foreign player match rules.</li>
+</ul>
+<p><strong>Belgium&nbsp;</strong></p>
+<ul>
+<li>Updated rules for Belgian Challenger Pro League – 2025/26- U23 Teams.</li>
+<li>Fixed issue where Club NXT players would be on holiday during 3 rounds of Second tier Belgian League – Challenger Pro League.</li>
+<li>2025/26 – Belgian First National Amateur Division now correctly appears in game.</li>
+</ul>
+<p><strong>Brazil</strong></p>
+<ul>
+<li>Updated 2026 transfer and registration window dates.</li>
+<li>Removed extinct U23 Championship.</li>
+</ul>
+<p><strong>Chile</strong></p>
+<ul>
+<li>Updated sub rules and removed extra time for Chile Cup.</li>
+<li>Added points deduction for Santiago Morning.</li>
+</ul>
+<p><strong>China</strong></p>
+<ul>
+<li>Updated available Super League squad numbers for allocation to 60.</li>
+<li>Corrected number of relegations from Chinese National First Division in 2025.</li>
+</ul>
+<p><strong>Colombia</strong></p>
+<ul>
+<li>Updated TV Deal.</li>
+<li>Updated Second Division scheduling.</li>
+</ul>
+<p><strong>Denmark</strong></p>
+<ul>
+<li>All Danish teams now enter the Danish Cup.</li>
+</ul>
+<p><strong>Europe</strong></p>
+<ul>
+<li>National and Club coefficients updated.</li>
+<li>Clubs should play teams from the same nation in the League Phase of European competitions far less frequently.</li>
+</ul>
+<p><strong>Egypt</strong></p>
+<ul>
+<li>Fixed malfunctioning registration window for Premier Division.</li>
+<li>Fixed issue with real life squad numbers not being present for Premier Division clubs.</li>
+</ul>
+<p><strong>England</strong></p>
+<ul>
+<li>Added Sheffield Wednesday points deduction.</li>
+<li>Drawn National League Cup group stage games now go to penalties for an extra point.</li>
+<li>Updated incorrect Carabao Cup scheduling that was causing fixtures in the opening weekend of the Championship to be incorrectly played on a Friday.</li>
+<li>Fixed very rare issue where competitions were not scheduling in the following season due to an unlikely set of circumstances meaning the National League playoffs were not completing.</li>
+<li>WSL – Added rule to allow U21 players to be eligible without registration.</li>
+</ul>
+<p><strong>Finland</strong></p>
+<ul>
+<li>All relevant teams should now enter the Finnish Cup.</li>
+</ul>
+<p><strong>France</strong></p>
+<ul>
+<li>Updated third division format as well as updated French dates.</li>
+</ul>
+<p><strong>Germany</strong></p>
+<ul>
+<li>Fixed incorrect scheduling in 2025/26 Bundesliga and Bundesliga 2 seasons.</li>
+</ul>
+<p><strong>Greece</strong></p>
+<ul>
+<li>Updated sub rules in Super League 1 and Greek Cup.</li>
+<li>Added U21 match rule in Greek Cup.</li>
+</ul>
+<p><strong>Hong Kong</strong></p>
+<ul>
+<li>Updated League Cup foreign player and sub rules.</li>
+<li>Made various youth competition updates.</li>
+</ul>
+<p><strong>Indonesia</strong></p>
+<ul>
+<li>Updated squad registration rules in Indonesian Championship.</li>
+</ul>
+<p><strong>Italy</strong></p>
+<ul>
+<li>U23 clubs no longer appear incorrectly in the Italian Cup.</li>
+</ul>
+<p><strong>Japan</strong></p>
+<ul>
+<li>Updated incorrect squad registration squad size requirements for 2025 season.</li>
+<li>Updated unrealistic transfer and registration window dates from 2026/27 season onwards.</li>
+<li>Updated substitution rules for Special Tournament playoff stages.</li>
+</ul>
+<p><strong>Malaysia</strong></p>
+<ul>
+<li>Fixed incorrect match rule in A1 League that was stopping users from naming multiple U22 players in matches.</li>
+<li>Updated Super League foreign player match rules.</li>
+<li>Updated cup competition scheduling.</li>
+</ul>
+<p><strong>Northern Ireland&nbsp;</strong></p>
+<ul>
+<li>Corrected date and venue for 2026 Bet McLean Cup final.</li>
+<li>Added extra time in North West Cup.</li>
+</ul>
+<p><strong>Peru</strong></p>
+<ul>
+<li>Removed First Division squad registration squad size and squad number limits.</li>
+<li>Fixed issue with team not receiving prize money when winning both stages of league.</li>
+<li>Updated First Division sub rules.</li>
+</ul>
+<p><strong>Portugal</strong></p>
+<ul>
+<li>Updated transfer and registration window dates for all leagues.</li>
+<li>Fixed incorrect registration window dates for Second League.</li>
+<li>Removed incorrect U21 player match rule from League Cup.</li>
+<li>Teams now start with 0 points in Third Division Championship Group.</li>
+</ul>
+<p><strong>Poland</strong></p>
+<ul>
+<li>Updated match and sorting rules.</li>
+</ul>
+<p><strong>Russia</strong></p>
+<ul>
+<li>Fixed foreign player match rules not being correct in 2025/26 season.</li>
+<li>Updated Russian Cup sub rules.</li>
+</ul>
+<p><strong>Romania</strong></p>
+<ul>
+<li>Fixed first team only Registration rule not functioning correctly.</li>
+</ul>
+<p><strong>Scotland</strong></p>
+<ul>
+<li>Removed replays from Scottish Cup.</li>
+</ul>
+<p><strong>Spain</strong></p>
+<ul>
+<li>Spanish Women’s First Division – Foreign player rule is now correct.</li>
+</ul>
+<p><strong>Singapore</strong></p>
+<ul>
+<li>Updated match rules for Premier Division.</li>
+<li>Corrected Community Shield date.</li>
+<li>Added VAR to appropriate competitions.</li>
+</ul>
+<p><strong>Sweden</strong></p>
+<ul>
+<li>Updated Swedish Women’s Cup scheduling for future seasons.</li>
+</ul>
+<p><strong>South America</strong></p>
+<ul>
+<li>Updated Copa Libertadores draw dates.</li>
+<li>Updated U20 Copa Libertadores schedules for 2025 and 2026.</li>
+</ul>
+<p><strong>South Korea</strong></p>
+<ul>
+<li>Clubs can now sign foreign GKs successfully from the 2026 season.</li>
+</ul>
+<p><strong>U.S.A</strong></p>
+<ul>
+<li>Waiver Claim acquisitions now appear in Transfer History.</li>
+<li>Fixed issue where all rounds in MLS Superdraft were listed as Round 0.</li>
+<li>Fixed issue where MLS &amp; NWSL’s squad registration rules display unfulfilled incorrectly in the off-season.</li>
+<li>Fixed issue where MLS Draft shortlisting doesn’t function correctly.</li>
+<li>Passing in a MLS Draft will now function correctly.</li>
+<li>Resolved issue where assistant manager would sometimes draft players on users behalf.</li>
+<li>NWSL – International Slots have been updated.</li>
+</ul>
+<p><strong>Uruguay&nbsp;</strong></p>
+<ul>
+<li>Updated Uruguayan Cup schedule.</li>
+</ul>
+<p><strong>Wales</strong></p>
+<ul>
+<li>Fixed unrealistic scheduling for JD Premier from 2026/27 season onwards.</li>
+</ul>
+<p><strong>World</strong></p>
+<ul>
+<li>Updated eligible hosts of FIFA Club World Cup.&nbsp;</li>
+</ul>
+<h4><strong><u>Online:</u></strong></h4>
+<ul>
+<li>Fixed multiple soft lock issues when using both idle managers and processing after options.</li>
+<li>Re-enabled ‘Disable following other humans’ preference.</li>
+<li>Fixed an issue where all users would receive Team Report if one user requests one.</li>
+<li>Manager Password – ‘Resume Control’ password field text is now correctly masked.</li>
+<li>Enter/Return keys now work when searching for a server manually or entering a password.</li>
+</ul>
+<h4><strong><u>In-Game Editor:</u></strong></h4>
+<ul>
+<li>Updated the access to the IGE to be top bar button only.</li>
+<li>Added the functionality to import/export attribute templates.</li>
+<li>Added a Staff role option when moving a player who are eligible for staff roles to another club.</li>
+<li>Disabled the ‘Confirm’ button when using Move to club (Staff) on the users manager and selecting an inactive team.</li>
+<li>Fixed an issue where the ‘Allow Squad Registration Anytime’ function wasn’t working as intended.</li>
+<li>Fixed an issue where the Men’s and Women’s National Team’s editable youth ratings were swapped.</li>
+<li>Fixed an issue where the ‘Nation declared youth level’ was incorrectly named as ‘Declared for nation’.</li>
+<li>Fixed various issues related to the ‘Remove All Injuries’ button for both the player and club.</li>
+<li>Job roles will now clearly state what club they are for.</li>
+<li>The enter key is no longer needed to search in the IGE.</li>
+<li>Fixed an issue where the field for Wage shows per week, regardless of the users setting.</li>
+<li>Fixed an issue when moving a staff member to be your youth or reserve team manager would also remove you from your manager’s job.</li>
+<li>When adding homegrown eligibility to a player, only clubs from the respective men’s/women’s database will now display.</li>
+</ul>
+</div>
+<p><em>Source: <a href="https://community.sports-interactive.com/forums/topic/598974-fm26-update-2610-out-now/">Sports Interactive</a></em></p>
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div></div><br/><br/>https://www.thesixthaxis.com/2025/12/09/football-manager-26-update-26-1-0-brings-back-shouts/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[Here’s what’s coming in the Moonlighter 2 Early Access roadmap]]></title>
             <link>https://www.thesixthaxis.com/2025/12/09/heres-whats-coming-in-the-moonlighter-2-early-access-roadmap/</link>
