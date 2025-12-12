@@ -4,30 +4,23 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Wed, 10 Dec 2025 15:45:31 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 12 Dec 2025 00:40:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[AMD’s next-gen “FSR Redstone” brings big gains, as long as you’re using a new GPU]]></title>
-            <link>https://arstechnica.com/gadgets/2025/12/amds-fsr-redstone-upscaling-claims-to-close-the-gap-with-nvidias-dlss/</link>
-            <guid>1378414</guid>
+            <title><![CDATA[Instead of fixing WoW’s new floating house exploit, Blizzard makes it official]]></title>
+            <link>https://arstechnica.com/gaming/2025/12/instead-of-fixing-wows-new-floating-house-exploit-blizzard-makes-it-official/</link>
+            <guid>1380298</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-                      
-                      
           
-<p>Nvidia, AMD, and Intel have all made high-quality image upscaling a cornerstone feature of their new GPUs this decade. Upscaling technologies like Nvidia’s Deep Learning Super Sampling (DLSS), AMD’s FidelityFX Super Resolution (FSR), and Intel’s Xe Super Sampling (XeSS) are all ways to transform a lower-resolution source image into a higher-resolution image, delivering better-looking games without requiring as much graphics hardware as you’d need to render the higher-resolution image natively. Later additions have focused on improving ray-tracing performance and “frame generation” technologies that boost frame rates by creating new AI-generated frames to insert between natively rendered frames.</p>
-<p>Generally speaking, Nvidia’s DLSS technologies have provided better image quality than AMD’s FSR, but they have only been available on newer Nvidia hardware—the GeForce RTX 20-series or newer for most features, with frame-generation features locked to the RTX 40- and 50-series. FSR’s results don’t look as good, but they have benefited from running on just about anything, including older GPUs, Nvidia GPUs, and even integrated Intel and AMD GPUs.</p>
-<p>Today, AMD is trying to shift that dynamic with something called “FSR Redstone,” a collection of ray-tracing and frame-generation features all intended to boost AMD’s image quality while being relatively easy to implement for game developers who are already using FSR 3.1 or FSR 4.</p>
-<p>The downside is that closing the quality and feature gap with Nvidia also apparently requires sticking with Nvidia-like hardware restrictions: like <a href="https://arstechnica.com/gadgets/2025/02/amds-fsr-4-upscaling-is-exclusive-to-90-series-radeon-gpus-wont-work-on-other-cards/">FSR 4 upscaling</a>, FSR Redstone will only be available on AMD’s latest-generation GPUs with the RDNA4 GPU architecture, including the Radeon RX 9070 and RX 9060 series.</p>
-<h2>Improvements in FSR Redstone</h2>
+          
+<p>In <a href="https://us.forums.blizzard.com/en/wow/t/housing-development-notes-updated-december-9/2207508/5">a forum post</a> formally announcing the official UI change, Community Manager Randy “Kaivax” Jordan noted that the team “quickly” got to work on enabling the floating house UI after seeing the community “almost immediately” embrace the glitch. But Kaivax also notes that the undersides of houses were never intended to be visible, and thus “aren’t modeled are textured.” Players who make floating houses “may decide to hide that part behind other things,” Kaivax suggests.</p>
+<p>Players with houses that float too high may also have problems positioning the camera so they can click the door to enter the house. For this problem, Kaivax suggests that “you might want to consider building a ramp or a jumping puzzle or a mount landing spot, etc.”</p>
+<p><em>WoW</em>‘s floating houses join a long legacy of beloved game features that weren’t originally intended parts of a game’s design, from <a href="https://www.gamedeveloper.com/business/-i-street-fighter-ii-i-designer-opens-up-about-the-cancelling-bug-"><em>Street Fighter II</em>‘s combo system</a> to <a href="https://docs.momentum-mod.org/tags/rocket-jump/"><em>Doom</em>‘s “rocket jump.”</a> Now if we could only convince Blizzard to make <a href="https://arstechnica.com/gaming/2013/05/blizzard-fixes-diablo-iii-gold-duplication-bug-but-the-damage-may-be-done/"><em>Diablo III</em> gold duplication</a> into an official feature.</p>
 
-
-<p>FSR Redstone is a collection of four technologies, three of which are new and one that has just been renamed, and all of which can be mixed and matched based on the preferences of the game developer and the user.</p>
-<p><strong>FSR Radiance Caching</strong> is a “real-time, neural network-based” system for improving performance and image quality for indirect lighting and global illumination. An AMD-trained lighting model allows the various bounces of light in a scene to be predicted “as soon as the second ray intersection,” according to AMD, saving the GPU from actually having to calculate and render subsequent bounces of light.</p>
 
           
-                      
-                  </div></div><br/><br/>https://arstechnica.com/gadgets/2025/12/amds-fsr-redstone-upscaling-claims-to-close-the-gap-with-nvidias-dlss/]]></content:encoded>
+                  </div></div><br/><br/>https://arstechnica.com/gaming/2025/12/instead-of-fixing-wows-new-floating-house-exploit-blizzard-makes-it-official/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
