@@ -4,9 +4,151 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Sun, 14 Dec 2025 13:40:16 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 14 Dec 2025 14:37:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[I’m finally beginning to trust Microsoft’s handheld Xbox]]></title>
+            <link>https://www.theverge.com/games/843010/xbox-ally-x-sleep-battery-drain-two-months-later</link>
+            <guid>1382869</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="zephr-anchor"><p>I still wouldn’t buy an Xbox Ally, and I still don’t think the tweaked version of Windows that shipped with it is ready for primetime. The Xbox Full Screen Experience (FSE) needs work. But two months after I <a href="https://www.theverge.com/games/799698/xbox-ally-x-review-asus-microsoft-full-screen-experience">panned the cheaper $600 white Xbox Ally and wasn’t quite sold on the $1,000 black one</a>, one of my most-hated Windows issues is getting better.</p><p>I didn’t stop testing these handhelds <a href="https://www.theverge.com/games/799698/xbox-ally-x-review-asus-microsoft-full-screen-experience">after my October review</a>; I’ve been playing <em>Hollow Knight: Silksong</em> and <em>Blue Prince</em> on them. I installed FSE on an MSI Claw 8 AI Plus, too. And after too many updates to count, I’m finally beginning to trust two of these handhelds to save my game (and battery life) when I put them to sleep. Even the third isn’t as bad as it was.</p><p>Sleep has been the biggest reason to buy a Steam Deck or a Nintendo Switch over a Windows handheld. For me, it’s the whole point of handheld gaming. If I can pause and resume at any time just by pressing the power button, I can tackle big games five, 10, 20 minutes at a time and actually finish them. It’s a whole different gaming lifestyle when you don’t have to save and quit every session, and when you can just press one button to do it.</p><p>Windows has been <em>terrible</em> at sleep for years, but in December, I haven’t lost my game once with the pricier black Xbox Ally X when trusting it to sleep. I recently left a game open for almost exactly nine full days, and the game was right where I left off when I came back. Battery drain while sleeping seems reasonable, too: I’m only losing 4 to 8 percent of its battery from one day to the next. (I lost 40 percent of the battery during that nine-day span.)</p><p>There are other bugs: Sometimes I don’t have control right away after resuming from sleep; sometimes the Xbox and Asus buttons stop working for a bit when Windows decides to automatically update things in the background. And, after that nine-day stretch, Windows spontaneously decided I had to authenticate and reset my PIN before it’d let me log in.</p><p>Also, the SSD in my colleague Tom Warren’s Xbox Ally X died, so there’s that, but sleep worked reliably for him before then. Assuming the SSD is the drive maker’s fault, the Xbox Ally X is feeling like a product I can live with. (We’ve asked Asus about the SSD.)</p><p>The white vanilla Xbox Ally, with AMD’s Z2 A chip, is a different story. I’ve been testing <em>two</em> of them for months, and even after installing every Windows, Asus, Game Bar, and Xbox App update, including several that claimed to address sleep, I’ve watched both units repeatedly wake up without ever being touched. I’d leave them on my desk all day while I worked and watch them light up all by themselves, draining their batteries in the process.</p><p>On November 19th, I put a black Xbox Ally X and a white Xbox Ally to sleep, side by side, with 96 percent and 93 percent battery, respectively. Thirteen hours later, the white unit was completely dead, while the black unit was still at 91 percent.</p><p>On November 20th, I tried again at 88 percent and 82 percent battery, respectively. Nearly four days later, the white one was dead; the black one had 61 percent left.</p><p>I tried factory resetting one of the white units, and I think something has improved since then. I’ve had many days where my game’s waiting for me when I wake it from sleep. But on December 6th, I found it roasting itself inside my shoulder bag at 10:55AM. Logs showed me it woke itself up around midnight the previous evening and turned off its own screen at around 1AM, but never went back to sleep. Because its screen was off and its fan near silent, I didn’t notice it was still on when I put it in the bag.</p><p>And on December 7th, that same factory-reset, fully updated Xbox Ally mysteriously stopped charging overnight at 54 percent.</p><p>Asus claimed it wasn’t yet able to reproduce my issues. But I’m seeing these problems across two different units, I’ve seen scattered reports elsewhere on the web, and we know that the Xbox Ally’s AMD Z2 A processor fundamentally supports fewer sleep modes than the Xbox Ally X. <a href="https://www.theverge.com/games/807711/xbox-ally-sleep-fail-bazzite-fix-performance#:~:text=Two%20days%20after%20programmer%20Antheas%20Kapenekakis%20obtained%20the%20hardware%20and%20consulted%20with%20two%20contacts%20at%20AMD%2C%20the%20three%20fixed%20it">Bazzite had to consult with AMD</a> to get sleep working in Linux on the Z2 A chip.</p><p>I’m not sure why Microsoft is taking so long to fix it in Windows, or how complicated the issue might be there. Microsoft didn’t immediately respond to a request for comment, and hasn’t offered me a substantive comment in the past. But I wonder if it might be unique to that Z2 A chip, because I’m not having much trouble with the Intel Lunar Lake inside the MSI Claw 8 AI Plus, either, now that I’ve manually <a href="https://www.theverge.com/games/812970/xbox-full-screen-experience-is-worse-on-my-msi-claw-than-it-is-on-the-xbox-ally">updated to a later BIOS that wasn’t showing up</a> when I first tested the Xbox experience there.</p><p>With the Intel Claw 8, a handheld <a href="https://www.theverge.com/pc-gaming/769609/msi-claw-8-ai-plus-intel-review">I originally couldn’t trust to sleep</a>, I now can — and I’ve seen battery drain as little as 2 percent per day while it’s snoozing. I ran into bugs in the Insider Preview, including one black screen and a persistent issue that capped my frame rate at 30fps until I changed power modes, but bugs are to be expected there.</p><p><a href="https://www.theverge.com/22960536/steam-deck-faq-valve-one-month-later">It took time for the Steam Deck</a> to be fully baked, and perhaps Microsoft needs some time too. If it’s finally figured out how to put a PC to sleep, and the vanilla Xbox Ally is just one exception, that’ll change the whole conversation around Windows handhelds.</p><p>Even today, the vanilla Xbox Ally may no longer be a bad deal. You can currently find it <a href="https://www.amazon.com/gp/product/B0FM6C3ZMN?th=1&amp;tag=theverge02-20" rel="sponsored">for $489 at Amazon</a>, or <a href="https://go.skimresources.com/?id=1025X1701640&amp;xs=1&amp;url=https%3A%2F%2Fshop.asus.com%2Fus%2Frog-xbox-ally.html" rel="sponsored">$499 at Asus</a>, and just <a href="https://go.skimresources.com/?id=1025X1701640&amp;xs=1&amp;url=https%3A%2F%2Fshop.asus.com%2Fus%2Frog-xbox-ally.html" rel="sponsored">install Bazzite instead</a>. Bazzite is more reliable than Windows, has higher performance, and is just all around better in my tests, unless you play games that <a href="https://www.theverge.com/2024/10/31/24284644/apex-legends-loses-linux-steam-deck-support-anti-cheat">use incompatible anti-cheat software</a> or you’re tightly tied to a library of “Xbox” PC games.</p><div><p><span><strong>Follow topics and authors</strong> from this story to see more like this in your personalized homepage feed and to receive email updates.</span></p><ul><li id="follow-author-article_footer-dmcyOmF1dGhvclByb2ZpbGU6MzQz"><span aria-expanded="false" aria-haspopup="true" role="button" tabindex="0"><span><span><svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Follow"><path d="M5 0H4V4H0V5H4V9H5V5H9V4H5V0Z"></path></svg></span><span>Sean Hollister</span></span></span></li><li></li><li></li><li></li><li></li><li></li></ul></div></div></div><br/><br/>https://www.theverge.com/games/843010/xbox-ally-x-sleep-battery-drain-two-months-later]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[DJI Pushes a Final Clear Out on Mini Drones, the Mini 5 Pro Fly More Combo Plus With RC 2 Hits an All-Time Low]]></title>
+            <link>https://kotaku.com/dji-pushes-a-final-clear-out-on-mini-drones-the-mini-5-pro-fly-more-combo-plus-with-rc-2-hits-an-all-time-low-2000651839</link>
+            <guid>1382866</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+              
+              <p data-start="0" data-end="517">Bring your photography off the ground with the DJI Mini 5 Pro Fly More Combo Plus, an ideal choice for both beginners and seasoned drone enthusiasts. <a href="https://shop.kotaku.com/go/6382/">Right now, this highly-rated bundle is available for just $1,159, offering a 17% discount that saves you over $240 off the regular price</a>. The package includes everything you need to dive into drone photography and videography, including three flight batteries, a controller, a charging hub, and a convenient carrying bag, so you can start flying and capturing stunning shots right out of the box.</p>
+<p><a href="https://shop.kotaku.com/go/6382/" target="_self" rel="sponsored nofollow">See at Amazon</a></p>
+
+<h2 data-start="519" data-end="559">A Perfect Drone for All Skill Levels</h2>
+<p data-start="561" data-end="1175">The DJI Mini 5 Pro stands out for its compact size and lightweight design, making it easy to carry on any outdoor adventure. Despite its portability, it’s capable of recording 4K HDR footage at 60fps, ensuring that your videos come out crisp and vibrant, no matter the lighting conditions. Thanks to its Dual Native ISO, this drone can capture high-quality images even in bright sunlight or low-light environments, giving you more flexibility and confidence when filming. The included DJI RC controller features a 5.5-inch HD display, providing you with a clear view of your footage, whether you’re filming far off or up close.</p>
+<p data-start="1177" data-end="1531">The DJI Mini 5 Pro lets you shoot in either landscape or portrait mode, making it easy to create content for platforms like Instagram, TikTok, or YouTube. This flexibility helps you tailor your shots to the medium you plan to post on, ensuring that your footage is always optimized for your audience.</p>
+
+
+<p data-start="1533" data-end="1956">Capable of a remarkable 20 km video transmission range, this drone lets you fly further while still maintaining a smooth HD feed with minimal lag. It can reach altitudes of up to 4,000 meters, allowing you to capture sweeping aerial views. Equipped with a 3-axis mechanical gimbal and resistance to winds up to 38 km/h (Level 5), the Mini 5 Pro delivers stable, shake-free shots even in less-than-ideal weather conditions.</p>
+<p data-start="2777" data-end="3145">Thanks to the three included intelligent batteries, the DJI Mini 3 offers an impressive total of up to 193 minutes of flight time, giving you ample time to shoot extensive footage or explore wide areas. The bundle also includes a two-way charging hub, so you can easily recharge your batteries between flights and ensure you’re always ready to take to the skies again.</p>
+<p data-start="3147" data-end="3457">With 42GB of internal storage, the drone provides plenty of space for your videos. After your shoot, it’s easy to transfer your footage to your phone through Wi-Fi, with a download speed of 100Mb/s. Plus, you can set it to download automatically, streamlining the process of getting your shots onto your device.</p>
+<p data-start="3459" data-end="3801" data-is-last-node="" data-is-only-node="">The <a href="https://shop.kotaku.com/go/6382/">DJI Mini 3 Fly More Combo Plus</a> is the perfect package for anyone looking to get into drone photography and makes an excellent gift this holiday season at it sits discounted at 17% off.</p>
+<p><a href="https://shop.kotaku.com/go/6382/" target="_self" rel="sponsored nofollow">See at Amazon</a></p>
+
+                          </div></div><br/><br/>https://kotaku.com/dji-pushes-a-final-clear-out-on-mini-drones-the-mini-5-pro-fly-more-combo-plus-with-rc-2-hits-an-all-time-low-2000651839]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Pokémon TCG Pocket B1a Crimson Blaze—Release Date, Start Time & Confirmed Cards List]]></title>
+            <link>https://insider-gaming.com/pokemon-tcg-pocket-b1a-crimson-blaze-release-date-start-time-confirmed-cards-list/</link>
+            <guid>1382863</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+        
+<p>After a brief hiatus from new packs, it’s time to go on a heater again with Pokémon TCG Pocket’s red-hot Crimson Blaze B1a set. Its release date will make a nice, early Christmas present to start the Holidays off right, so stay tuned for full launch details.</p>
+
+
+
+<p>You can’t say you haven’t had ample time to prepare for a new set. <a href="https://insider-gaming.com/pokemon-tcg-pocket-mega-rising-b1-release-time/" target="_blank" rel="noreferrer noopener">Pokémon TCG Pocket B1 Mega Rising</a> was the second, big-time main set to celebrate the game’s anniversary, and as such, the game’s developers rightly felt time was needed to catch ’em all.</p>
+
+
+
+<p>It’s time for Crimson Blaze B1a to be the new craze.</p>
+
+
+
+
+
+
+
+<h2 id="h-pokemon-tcg-pocket-b1a-crimson-blaze-release-date">Pokémon TCG Pocket B1a Crimson Blaze Release Date</h2>
+
+
+
+<figure><figcaption>Who will you get? Credit to The Pokémon Company</figcaption></figure>
+
+
+
+<p><strong>Pokémon TCG Pocket B1a Crimson Blaze has a December 17 release date for all users.</strong></p>
+
+
+
+<p>Well, sort of, if you’re on Pacific Time, you get the set an hour earlier than most—you lucky Pokémon trainers, you! This guide will cover start times shortly, but the general launch period is Wednesday, December 17.</p>
+
+
+
+<p>If you haven’t already, complete your challenges, win your Solo Battles, hoard as many Hourglasses as you can, and prepare to rip packs and get fat stacks…of duplicates.</p>
+
+
+
+<p>It’s not likely to be the biggest set in the world, but it has some cool cards.</p>
+
+
+
+
+
+
+
+<h2 id="h-pokemon-tcg-pocket-b1a-crimson-blaze-start-times">Pokémon TCG Pocket B1a Crimson Blaze Start Times</h2>
+
+
+
+<p><strong>The B1a Crimson Blaze set is first available from 11 PM PT on December 16, with applicable release times happening across the world on December 17.</strong></p>
+
+
+
+<p>If you don’t know time conversion or would rather have a simple and easy table full of key timezones and start times for Pokémon TCG Pocket B1a Crimson Blaze, you’re in luck.</p>
+
+
+
+<figure><table><thead><tr><th data-align="center">Time Zone</th><th data-align="center">Pokémon TCG Pocket B1a Crimson Blaze Start Times &amp; Dates</th></tr></thead><tbody><tr><td data-align="center">Pacific Time (PT)</td><td data-align="center">11:00 PM—December 16</td></tr><tr><td data-align="center">Central Time (CT)</td><td data-align="center">1:00 AM—December 17</td></tr><tr><td data-align="center">Eastern Time (ET)</td><td data-align="center">2:00 AM—December 17</td></tr><tr><td data-align="center">Greenwich Mean Time (GMT)</td><td data-align="center">6:00 AM—December 17</td></tr><tr><td data-align="center">Australian Eastern Time (AET)</td><td data-align="center">4:00 PM—December 17</td></tr></tbody></table></figure>
+
+
+
+<h2 id="h-pokemon-tcg-pocket-b1a-crimson-blaze-confirmed-cards-list-so-far">Pokémon TCG Pocket B1a Crimson Blaze Confirmed Cards List So Far</h2>
+
+
+
+<figure><figcaption>Can’t beat Kanto. Credit to The Pokémon Company</figcaption></figure>
+
+
+
+<p><strong>There’s an immediate emphasis on Kanto starters with Crimson Blaze as Bulbasaur, Squirtle, and Charmander are in packs. There is also a Mega ex version of the three classic starters, and other inclusions, such as Trubbish, Ditto, and Sunflora.</strong></p>
+
+
+
+<p>Check out the known Crimson Blaze list so far.</p>
+
+
+
+<figure><table><tbody><tr><th data-align="center">Card Name</th><th data-align="center">Card Type</th></tr><tr><td data-align="center">Bulbasaur</td><td data-align="center">Pokémon</td></tr><tr><td data-align="center">Charmander</td><td data-align="center">Pokémon</td></tr><tr><td data-align="center">Squirtle</td><td data-align="center">Pokémon</td></tr><tr><td data-align="center">Solosis</td><td data-align="center">Pokémon</td></tr><tr><td data-align="center">Trubbish</td><td data-align="center">Pokémon</td></tr><tr><td data-align="center">Ditto</td><td data-align="center">Pokémon</td></tr><tr><td data-align="center">Sunflora</td><td data-align="center">Pokémon</td></tr><tr><td data-align="center">Spritzee</td><td data-align="center">Pokémon</td></tr><tr><td data-align="center">Mega Venusaur ex</td><td data-align="center">Pokémon</td></tr><tr><td data-align="center">Mega Blastoise ex</td><td data-align="center">Pokémon</td></tr><tr><td data-align="center">Mega Charizard Y ex</td><td data-align="center">Pokémon</td></tr><tr><td data-align="center">Charmeleon</td><td data-align="center">Pokémon</td></tr><tr><td data-align="center">Serena</td><td data-align="center">Trainer </td></tr><tr><td data-align="center">Clemont</td><td data-align="center">Trainer </td></tr><tr><td data-align="center">Quick-Grow Extract</td><td data-align="center">Trainer </td></tr></tbody></table></figure>
+
+
+
+<p>Are you looking forward to Crimson Blaze? Do you think too much love and attention is given to the Kanto generation? Who would you like to see in future sets? Voice your opinions through the <a href="https://discord.com/channels/1433093283558719611/1433112738133180426" target="_blank" rel="noreferrer noopener">Insider Gaming Discord Server</a>.</p>
+
+
+
+<hr>
+
+
+
+<p>For more Pocket content, check out <a href="https://insider-gaming.com/rare-candy-pokemon-tcg-pocket/" target="_blank" rel="noreferrer noopener">How To Get Rare Candy In Pokémon TCG Pocket</a>, and what the <a href="https://insider-gaming.com/pokemon-tcg-pocket-advance-ticket-finally-has-a-use-after-one-year/" target="_blank" rel="noreferrer noopener">Advance Ticket Does</a>.</p>
+    
+
+    <div id="ig-app-cta">
+          <p><i></i> MOBILE APP</p>
+          <h2>Level Up Your Gaming News</h2>
+          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
+          
+          <!--<div class="ig-note"><i class="fa-solid fa-bolt"></i> Available on iOS & Android</div>-->
+        <p><i></i> Available on Android</p>
+
+        </div>
+
+    
+    
+    </div></div><br/><br/>https://insider-gaming.com/pokemon-tcg-pocket-b1a-crimson-blaze-release-date-start-time-confirmed-cards-list/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[Logitech Clears Out Its Gaming Racing Wheel and Pedals for Xbox, PS5, and PC After a Black Friday Sellout]]></title>
             <link>https://kotaku.com/logitech-clears-out-its-gaming-racing-wheel-and-pedals-for-xbox-ps5-and-pc-after-a-black-friday-sellout-2000652276</link>
@@ -143,9 +285,9 @@
 </section></header><section>
 <figure data-uuid="c1bb5fe17e740"><a title="Mega Man 6 - BAB" href="https://images.nintendolife.com/c1bb5fe17e740/mega-man-6-bab.large.jpg"></a><figcaption><em><span></span> Image: Nintendo Life</em></figcaption></figure><p>Hello everyone, and welcome to another edition of <a href="https://www.nintendolife.com/tags/box-art-brawl">Box Art Brawl</a>.</p>
 <p><a href="https://www.nintendolife.com/features/poll-box-art-brawl-duel-metroid-prime-pinball">Last week's</a> epic battle saw Europe and North America go up against Japan to see which <a href="https://www.nintendolife.com/games/ds/metroid_prime_pinball">Metroid Prime Pinball</a> design is the very best. It was a close one, but in the end, Japan won the day with 55% of the vote. Bravo!</p>
-<p>This time, to celebrate the announcement of <a href="https://www.nintendolife.com/games/nintendo-switch-2/mega-man-dual-override">Mega Man: Dual Override</a> for Switch and Switch (though we have to wait until 2027 – ouch!), we're heading back to the NES to check out Mega Man 6. This one didn't launch in Europe, but saw a release in Japan in 1993 and the US in 1994. Basically around the same time that <a href="https://www.nintendolife.com/games/snes/mega_man_x">Mega Man X</a> launched for the SNES, then.</p><div><figure data-videoid="1cjcr-XtVQw" data-start="0" data-src="https://www.youtube.com/embed/1cjcr-XtVQw?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><div><iframe id="yt1cjcr-XtVQw" title="YouTube Video" data-src-fallback="https://www.youtube-nocookie.com/embed/1cjcr-XtVQw?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/1cjcr-XtVQw?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed38f68bmsrivy&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><p>Subscribe to <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1">Nintendo Life</a> on <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1"><span>YouTube</span><span>841k</span></a></p>
+<p>This time, to celebrate the announcement of <a href="https://www.nintendolife.com/games/nintendo-switch-2/mega-man-dual-override">Mega Man: Dual Override</a> for Switch and Switch (though we have to wait until 2027 – ouch!), we're heading back to the NES to check out Mega Man 6. This one didn't launch in Europe, but saw a release in Japan in 1993 and the US in 1994. Basically around the same time that <a href="https://www.nintendolife.com/games/snes/mega_man_x">Mega Man X</a> launched for the SNES, then.</p><div><figure data-videoid="1cjcr-XtVQw" data-start="0" data-src="https://www.youtube.com/embed/1cjcr-XtVQw?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><div><iframe id="yt1cjcr-XtVQw" title="YouTube Video" data-src-fallback="https://www.youtube-nocookie.com/embed/1cjcr-XtVQw?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/1cjcr-XtVQw?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed38f68bylmiku&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><p>Subscribe to <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1">Nintendo Life</a> on <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1"><span>YouTube</span><span>841k</span></a></p>
 </div></figure></div>
-<!-- cache: html:nintendolife.com/ssl/retro/related-articles:195209,41809 @ 1765716738 -->
+<!-- cache: html:nintendolife.com/ssl/retro/related-articles:195209,41809 @ 1765719751 -->
 <h2>North America</h2>
 <figure data-uuid="29221beb7acd0"><a title="Mega Man 6 - NA" href="https://images.nintendolife.com/29221beb7acd0/mega-man-6-na.large.jpg"></a><figcaption><em><span></span> Image: <a href="https://gamesdb.launchbox-app.com/games/details/346-mega-man-6">Capcom / Launchbox</a></em></figcaption></figure>
 <p>In what is no doubt a slight break from tradition, the North American design here showcases Mega Man wearing the red Rush Jet Adaptor. It's a really cool composition, overall, and a huge step up from the disastrous box art designs for the earlier entries.</p>
@@ -170,7 +312,7 @@
 <figure data-uuid="1e74ffe2f0335"><a title="Resident Evil 4" href="https://images.nintendolife.com/1e74ffe2f0335/resident-evil-4.large.jpg"></a><figcaption><em><span></span> Image: Capcom</em></figcaption></figure>
 <p>Nintendo released a new update for the Switch 2 earlier this week, bumping the system up to Version 21.1.0. Once again, it's followed with Switch game compatibility updates.</p>
 <p>Some of the highlights this week include <a href="https://www.nintendolife.com/games/switch-eshop/resident_evil_4">Resident Evil 4</a> and <a href="https://www.nintendolife.com/games/nintendo-switch/miitopia">Miitopia</a>, which have had "previously identified issues" resolved. The game behaviour in <a href="https://www.nintendolife.com/games/nintendo-switch/little_nightmares_complete_edition">Little Nightmares: Complete Edition</a> and <a href="https://www.nintendolife.com/games/switch-eshop/streets_of_rage_4">Streets of Rage 4</a> on the Switch 2 is now also consistent with the experience on Switch.</p>
-<p>Here's every Switch game that's received a Switch 2 compatibility update this week (via Nintendo Everything):</p><div><figure data-videoid="C1rrCdi_XjA" data-start="0" data-src="https://www.youtube.com/embed/C1rrCdi_XjA?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><div><iframe id="ytC1rrCdi_XjA" title="YouTube Video" data-src-fallback="https://www.youtube-nocookie.com/embed/C1rrCdi_XjA?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/C1rrCdi_XjA?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed3be067gorlpu&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><p>Subscribe to <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1">Nintendo Life</a> on <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1"><span>YouTube</span><span>841k</span></a></p>
+<p>Here's every Switch game that's received a Switch 2 compatibility update this week (via Nintendo Everything):</p><div><figure data-videoid="C1rrCdi_XjA" data-start="0" data-src="https://www.youtube.com/embed/C1rrCdi_XjA?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><div><iframe id="ytC1rrCdi_XjA" title="YouTube Video" data-src-fallback="https://www.youtube-nocookie.com/embed/C1rrCdi_XjA?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/C1rrCdi_XjA?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed3be067ukgsvn&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><p>Subscribe to <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1">Nintendo Life</a> on <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1"><span>YouTube</span><span>841k</span></a></p>
 </div></figure></div>
 <ul>
 <li><a href="https://www.nintendolife.com/games/switch-eshop/blade_of_darkness">Blade of Darkness</a></li>
@@ -187,10 +329,10 @@
 
 <p>Nintendo has also acknowledged how the 3D platformer <a href="https://www.nintendolife.com/games/nintendo-switch/a_hat_in_time">A Hat In Time</a> has issues, so hopefully a fix will show up in the near future. It flagged issues with Streets of Rage 4 earlier this month, and the problems have now been resolved.</p>
 <p>Apart from Game Dev Story and Venture Towns, another Kairosoft eShop title recently made compatible with Switch 2 was <a href="https://www.nintendolife.com/games/switch-eshop/mega_mall_story">Mega Mall Story</a>. You can check the compatibility of Switch titles on the Switch 2 <a href="https://switch-software-compatibility.nintendo.com/en-US">via Nintendo's compatibility search page</a>.</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:194971,194890,194344,194702 @ 1765717236 -->
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:194971,194890,194344,194702 @ 1765720842 -->
 <p>Will you be revisiting any of these Switch titles on the Switch 2? What other Switch games would you like to see updated or fixed on Switch 2? <em>Let us know in the comments.</em></p></section>
 <p>[source <a title="External Link: https://nintendoeverything.com/nintendo-fixes-resident-evil-4-miitopia-and-more-on-switch-2-full-list-of-backwards-compatibility-updates/" rel="noopener" href="https://nintendoeverything.com/nintendo-fixes-resident-evil-4-miitopia-and-more-on-switch-2-full-list-of-backwards-compatibility-updates/">nintendoeverything.com</a>]</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-info/871cb4f230342289d3b4ed10bc6ef4db @ 1765716712 --></div></article><div><p>Liam is a news writer and reviewer across Hookshot Media. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-info/871cb4f230342289d3b4ed10bc6ef4db @ 1765719759 --></div></article><div><p>Liam is a news writer and reviewer across Hookshot Media. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
 </div></div></div><br/><br/>https://www.nintendolife.com/news/2025/12/multiple-switch-games-have-received-switch-2-compatibility-fixes]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
@@ -362,15 +504,15 @@
 <figure data-uuid="cdb9de8a84832"><a title="Tomb Raider" href="https://images.nintendolife.com/cdb9de8a84832/tomb-raider.large.jpg"></a></figure><p>Aspyr surprised Nintendo fans in November when it shadow dropped <a href="https://www.nintendolife.com/games/nintendo-switch-2/tomb-raider-definitive-edition">Tomb Raider: Definitive Edition</a> on Switch and Switch 2.</p>
 <p>As mentioned in our review, it's not quite as "Definitive" as the name might imply – fortunately, there will be patch updates in the future. Speaking to Nintendo Everything recently, Aspyr product manager Jordon Reese mentioned how improvements are on the way:</p>
 <blockquote>
-<p>Reese also confirmed that Aspyr intends “to make game improvements via patches over time so that the game can be the best possible experience for all players.” It’s unclear what that will entail, but we’ll keep our eyes out.</p></blockquote><div><figure data-videoid="BvMG4aVuxgs" data-start="0" data-src="https://www.youtube.com/embed/BvMG4aVuxgs?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><div><iframe id="ytBvMG4aVuxgs" title="YouTube Video" data-src-fallback="https://www.youtube-nocookie.com/embed/BvMG4aVuxgs?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/BvMG4aVuxgs?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed6dee37ruyqpn&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><p>Subscribe to <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1">Nintendo Life</a> on <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1"><span>YouTube</span><span>841k</span></a></p>
+<p>Reese also confirmed that Aspyr intends “to make game improvements via patches over time so that the game can be the best possible experience for all players.” It’s unclear what that will entail, but we’ll keep our eyes out.</p></blockquote><div><figure data-videoid="BvMG4aVuxgs" data-start="0" data-src="https://www.youtube.com/embed/BvMG4aVuxgs?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><div><iframe id="ytBvMG4aVuxgs" title="YouTube Video" data-src-fallback="https://www.youtube-nocookie.com/embed/BvMG4aVuxgs?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/BvMG4aVuxgs?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed6dee37wlgupq&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><p>Subscribe to <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1">Nintendo Life</a> on <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1"><span>YouTube</span><span>841k</span></a></p>
 </div></figure></div><blockquote>
 </blockquote>
 <p>In our own review for Tomb Raider: Definitive Edition on the Switch 2, we noted how the visual fidelity was lacking, despite the resolution bump. The team at <a href="https://www.nintendolife.com/news/2025/11/digital-foundry-dives-into-tomb-raider-definitive-editions-big-downgrades-on-switch-2">Digital Foundry also highlighted some downgrades</a>. Despite this, this particular entry in the Tomb Raider series remains one of Lara Croft's best adventures.</p>
 <p>If you missed, two new Tomb Raider games were also announced this week. One is a reimagining of the original game, due out in 2026, and the second title marks a brand-new chapter in the Tomb Raider series and will be arriving in 2027. There's no mention of Nintendo versions, but if we hear any updates, we'll let you know.</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:194042,195142,194461 @ 1765716290 -->
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:194042,195142,194461 @ 1765720026 -->
 <p>How has your time been with Tomb Raider: Definitive Edition on the Switch 2 and Switch so far? What would you like to see improved? <em>Tell us in the comments.</em></p></section>
 <p>[source <a title="External Link: https://nintendoeverything.com/aspyr-explains-how-it-approached-the-nintendo-switch-2-version-of-tomb-raider-definitive-edition-patches-planned/" rel="noopener" href="https://nintendoeverything.com/aspyr-explains-how-it-approached-the-nintendo-switch-2-version-of-tomb-raider-definitive-edition-patches-planned/">nintendoeverything.com</a>]</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-info/ceccff9f22f260168642d2d56822b0ec @ 1765716531 --></div></article><div><p>Liam is a news writer and reviewer across Hookshot Media. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-info/ceccff9f22f260168642d2d56822b0ec @ 1765719737 --></div></article><div><p>Liam is a news writer and reviewer across Hookshot Media. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
 </div></div></div><br/><br/>https://www.nintendolife.com/news/2025/12/tomb-raider-definitive-edition-updates-planned-for-switch-platforms]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
@@ -1120,99 +1262,6 @@ Whether Bradley the Badger will be successful in its satire, or even just being 
     
   </section>
   </div></div><br/><br/>https://www.eurogamer.net/french-president-publicly-congratulates-clair-obscur-expedition-33-calling-the-game-of-the-year-win-a-historic-first]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Rumour has it a new Alien game is on the way and it's being described as "Shadow of the Tomb Raider with xenomorphs"]]></title>
-            <link>https://www.eurogamer.net/rumour-has-it-a-new-alien-game-is-on-the-way-and-its-being-described-as-shadow-of-the-tomb-raider-with-xenomorphs</link>
-            <guid>1382536</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
-
-
-<header data-component="article-header">
-  
-
-    <div id="main-content">
-        
-
-        <p>And the team "hopes" Sigourney Weaver will reprise her role as Ripley.</p>
-
-    </div>
-
-
-  <p>
-
-  <figure>
-      <picture>
-        <source srcset="https://assetsio.gnwcdn.com/Alien-Rogue-Incursion_9J8bvx4.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Alien-Rogue-Incursion_9J8bvx4.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Alien-Rogue-Incursion_9J8bvx4.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Alien-Rogue-Incursion_9J8bvx4.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Alien-Rogue-Incursion_9J8bvx4.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Alien-Rogue-Incursion_9J8bvx4.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Alien-Rogue-Incursion_9J8bvx4.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Alien-Rogue-Incursion_9J8bvx4.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Alien-Rogue-Incursion_9J8bvx4.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>PlayStation</cite></span>
-        </figcaption>
-  </figure>
-  </p>
-
-    
-
-</header>
-  <div data-component="article-content">
-
-
-
-            <p>Eidos Montreal is reportedly developing a new game based on the Alien franchise.</p>
-<p>According to <a href="https://insider-gaming.com/new-alien-game-back-in-development/">Insider Gaming</a>, the new game – described as "<a href="https://www.eurogamer.net/games/shadow-of-the-tomb-raider">Shadow of the Tomb Raider</a> with xenomorphs" — has been in development since 2020 "under a variety of names", including Marathon, and "switched developers multiple times".</p>
-<figure>
-<p>
-<a aria-label="Alien Isolation's VR Mod Is So Scary It Almost Broke Me! - Ian's VR Corner" data-platform="youtube" href="https://www.youtube.com/embed/GIQtN9fTa3o?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
-<span>Alien Isolation's VR Mod Is So Scary It Almost Broke Me! - Ian's VR Corner</span>
-<template>
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/GIQtN9fTa3o?autoplay=1" frameborder="0" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/GIQtN9fTa3o?autoplay=1" title="Alien Isolation's VR Mod Is So Scary It Almost Broke Me! - Ian's VR Corner">
-</iframe> </template>
-</a>
-</p>
-<figcaption>Alien Isolation's VR Mod Is So Scary It Almost Broke Me! - Ian's VR Corner.<a href="https://www.youtube.com/watch?v=GIQtN9fTa3o" rel="noopener" target="_blank">Watch on YouTube</a></figcaption></figure>
-<p>With enemy "Al designed to adapt and react to whatever tactics you use", it's thought the gameplay will balance combat with platforming and puzzles, with an emphasis on stealth and resource management in a single-player arcade survival horror game.</p>
-<p>The anonymous source also revealed character names and abilities – such as a grappling hook and magnetic boots – and teased the team "hopes" Sigourney Weaver will reprise her fan-favourite role as Ripley, but this is in no way confirmed as yet.</p><p>Interestingly, the source also intimated that the budget for the game is around £56 million ($75 million) and is hoping to release "for all major platforms" in 2028, which means there's plenty of time for details and mechanics to change between now and then.</p>
-<p>Eidos Montreal declined to comment.</p>
-<p>Alien actress <a href="https://www.eurogamer.net/amazon-eyes-alien-actress-sigourney-weaver-for-live-action-tomb-raider-series">Sigourney Weaver will star in the live-action Tomb Raider adaptation from Phoebe Waller-Bridge</a> as Wallace.</p>
-<p><a href="https://www.eurogamer.net/heres-our-first-trailer-for-netflixs-tomb-raider-the-legend-of-lara-croft-season-two">The second and final season of Netflix's Tomb Raider anime debuted on 11th December. </a></p>
-
-        </div>
-
-  
-      </article>
-
-
-
-  
-
-
-
-
-  <section>
-    <span>Related topics</span>
-
-    
-  </section>
-  </div></div><br/><br/>https://www.eurogamer.net/rumour-has-it-a-new-alien-game-is-on-the-way-and-its-being-described-as-shadow-of-the-tomb-raider-with-xenomorphs]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Sektori is psychedelic, tough as nails, and worth the pain]]></title>
-            <link>https://www.theverge.com/games/840324/sektori-review-pc-ps5-xbox-series-x-s</link>
-            <guid>1382509</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="zephr-anchor"><p><em>Sektori</em> is an old-school twin-stick shooter. Created by a former developer at <em>Returnal</em> studio Housemarque, it puts you in the role of a little ship that blasts through swarms of enemies, and you have to weave through them to get upgrades to help you survive. Often, my runs end after less than a couple minutes, like a retro arcade game. But creator Kimmo Lahtinen brilliantly weaves modern ideas from roguelikes with pulsing visuals and music that make <em>Sektori</em> a mesmerizing experience.</p><p>A key part of what makes <em>Sektori</em> good is how it puts you into a flow state. “<em>Sektori</em> is a place, a form of being, a method of transformation,” reads the description of the game’s campaign mode. “<em>Sektori</em> is seeking, processing, shaping. <em>Sektori</em> is a specter of your zero state.” It may be fancy, high-concept language, but bear with me as I detail how the game actually works. It took me a while to understand it, and how everything connects is what makes the game actually reach those lofty heights.</p><p>When you start a campaign mode run, your tiny ship is dropped into a small playing field. You initially have two ways to attack: a gun that fires infinite laser bullets in the direction you point your right stick and a “strike” that surges your ship forward but has a short cooldown. Enemies are mostly polygonal shapes that briefly appear as red outlines, giving you a moment to get out of the way before they solidify and become threats. If you take a hit, you lose one of the three shields that you start with. When you destroy enemies, they leave little triangles called “glimmer,” and if you collect enough, you can pick up upgrades.</p><p>The upgrade system is the game’s secret sauce. On the left side of the screen, you’ll see a list of upgrades covering speed, score, strike, shield, missile, and blaster. When you pick up a selector token, it moves the potential upgrade up one notch on the list, but when you actually pick an upgrade, it starts the selector from the beginning again. So, for example, if you pick up enough selector tokens to get a missile upgrade, the next selector token you get afterward will make you eligible for a speed upgrade.</p><p>The system means you’re constantly having to make decisions, often while surrounded by enemies, about whether you want to take a more easily attainable speed or strike upgrade or hold out for the more valuable improvements higher up the stack. Complicating things further is that you can only use selector tokens to get five extra shields total during a run, so you’ll often have to weigh if you want to pick up a shield or gamble on staying alive to grab a missile or blaster upgrade that could help more offensively.</p><p>Occasionally, you’ll come across “evolver tokens” that give you other, more substantial upgrades you can pick from a deck, like drones that fly around your ship or a gun that fires behind you. Every once in a while, you’ll also see a token with a rotating set of letters, and if you pick up all of the letters to spell a word (the harder the difficulty, the longer the word), you’ll enter a brief, rainbow-filled superpowered state that’s kind of like getting a star in <em>Mario Kart</em>.</p><p>Complicating things even further is the fact that the arena is constantly shifting and changing around you. Every few seconds, the map grows, shrinks, and sometimes even briefly blocks you off from previously accessible areas. If you’re in an area that gets cut off the map when it’s removed, which is marked by flashing red spots ahead of its disappearance, it’s an instant game over. Survive for long enough, and the arena shifts into a boss battle, such as a giant, <a href="https://zelda.fandom.com/wiki/Moldorm_(Boss)">Moldorm-like</a> snake, and if you beat the boss, you’ll move on to the next, harder level. Survive for five levels and you’ll win the run.</p><p>It can be a lot to manage. Most of my runs never get off the ground because I can’t get upgrades fast enough to survive the onslaught of enemies. Even with a strong build, success feels like it hangs on a knife’s edge. But that’s what makes the game gripping; when a run gets going, <em>Sektori</em> turns into something special as you zip across levels, blast away enemies, keep chasing upgrades, and, against the onslaught, keep surviving — all while colorful graphics and the driving techno soundtrack overload your senses.</p><p>I’ve only beaten the game a single time. But during that one magical run, I finally understood what <em>Sektori</em> is all about.</p><p><sup>Sektori<em> is out now on PC, PS5, and Xbox Series X / S.</em></sup></p><div><p><span><strong>Follow topics and authors</strong> from this story to see more like this in your personalized homepage feed and to receive email updates.</span></p><ul><li id="follow-author-article_footer-dmcyOmF1dGhvclByb2ZpbGU6MTIz"><span aria-expanded="false" aria-haspopup="true" role="button" tabindex="0"><span><span><svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Follow"><path d="M5 0H4V4H0V5H4V9H5V5H9V4H5V0Z"></path></svg></span><span>Jay Peters</span></span></span></li><li></li><li></li><li></li></ul></div></div></div><br/><br/>https://www.theverge.com/games/840324/sektori-review-pc-ps5-xbox-series-x-s]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
