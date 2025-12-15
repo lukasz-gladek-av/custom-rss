@@ -4,9 +4,92 @@
         <title>maGaming RSS Feed - thesixthaxis_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/thesixthaxis_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for thesixthaxis_com</description>
-        <lastBuildDate>Mon, 15 Dec 2025 11:03:38 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 15 Dec 2025 11:37:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Megabonk Spooky Update arrives just in time for… Christmas?]]></title>
+            <link>https://www.thesixthaxis.com/2025/12/15/megabonk-spooky-update-arrives-just-in-time-for-christmas/</link>
+            <guid>1383247</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>Christmas is that wonderful time of year where everyone waits for a man covered in a bed sheet to come down their chimney and put some presents by the carved pumpkins, and 3D bullet heaven <a href="https://www.thesixthaxis.com/tag/megabonk">Megabonk</a> is getting right into the spirit of things with a new Spooky Update that’s out now!</p>
+<p>Well, OK, so this was actually intended to be a more timely Halloween update developer vedinad says, “but I wanted to make it a bit bigger so it turned into a bit more work than i initially planned. anyway hope you like it!”</p>
+
+
+<p>So that means there’s a new map, new character, new weapon, items, enemies and bosses and all of that on top of the bug fixes and new settings. Seems a pretty hefty update, which does actually tie in with the Christmas gift-giving spirit this time of year. Nice!</p>
+<p>Here’s the full patch notes for Megabonk Spooky Update:</p>
+
+
+
+<ul>
+<li>New Map<wbr></li>
+<li>New Character<wbr></li>
+<li>New Weapon<wbr></li>
+<li>New Items<wbr></li>
+<li>New Enemies and Bosses<wbr></li>
+<li>New Achievements and challenges<wbr></li>
+</ul>
+
+
+<ul>
+<li>
+<p>Made a lot of improvements to FPS late-game<wbr></p>
+
+</li>
+</ul>
+
+<ul>
+<li>Fixed a bug where Giant Fork’s Megacrit didn’t work<wbr></li>
+<li>Fixed a bug where you could buy items you didnt have unlocked<wbr></li>
+<li>Fixed a bug where Frost Walker reset opacity when changing attack speed<wbr></li>
+<li>Fixed a bug where Holy Book was not affected by Particle Opacity<wbr></li>
+<li>Fixed weird text popup when trying to microwave an item that has already hit its max cap (for example Overpowered Lamp)<wbr></li>
+<li>Fixed a “bug” where you could just use the full map on the Blind Challenge<wbr></li>
+<li>Fixed a bug where you could reset as you teleported to the next stage to keep your progress and not move to the next stage<wbr></li>
+<li>Fixed a bug where you got an error if you banished every item except one in a specific rarity and then talked to a shady guy.<wbr><wbr></li>
+</ul>
+<h3>Settings</h3>
+<ul>
+<li>New Game Setting: Advanced Settings – Will enable certain settings that most players don’t need to use. This is disabled by default to avoid making the settings cluttered for new players.<wbr></li>
+<li>New Game Setting: Shrine Counter -&gt; Shows you how many of each shrine is available, and how many you have used<wbr></li>
+<li>[Advanced] New Game Setting: Show HUD -&gt; Shwo or hide the HUD<wbr></li>
+<li>[Advanced] New Game Setting: Skip Chest Animation -&gt; Skips the chest animation. Note: You won’t be able to banish items from chests if you use this setting.<wbr></li>
+<li>[Advanced] New Game Setting: Skip Portal Animation -&gt; Skips portal spawn animation (on stage 1)<wbr></li>
+<li>[Advanced] New Game Setting: Enable Silver Pots -&gt; Enable / Disable silver pots (Ghost Item in shambles if you do this)<wbr></li>
+<li>[Advanced] New Game Setting: Show Item Feed -&gt; Show what items you picked up in a feed at the left side of the screen.<wbr></li>
+</ul>
+
+
+<ul>
+<li>Tried to fix the “caveman” bug / exploit where you could hide in caves and enemies wouldn’t be able to spawn close to you or reach you<wbr></li>
+<li>Increased Diceheads passive minimum reward potential (0.02 -&gt; 0.04). Basically his late level up rewards will be twice as high, surely won’t be OP<wbr></li>
+<li>Chunkers now start with one more projectile<wbr></li>
+<li>Amog Passive now increases in radius every level, from 4 to 12 over 220 levels. Previously it was always 4. Also gain 1% Posion Damage per level.<wbr></li>
+<li>Calcium’s passive has been changed slightly. Instead of losing half of his momentum upon taking damage, he now looses about 25%, which decreases the higher you level up. At level 110 (max) you lose about 6.6%<wbr></li>
+<li>Cursed grabbies now has a proc per tick limit of 250. Similar items (Spicy Meatball, Ice Cube, etc) already have a limit like this (at 50). It’s to improve FPS, but it is probably a slight nerf to Cursed Grabbies if you’re veeeryy late game.<wbr></li>
+<li>Poison Flask starting projectile speed increased 12 -&gt; 16<wbr></li>
+<li>Dragon’s Breath now has 200% faster rotation speed, and automatically targets enemies instead of following the player rotation. Damage buff 15 -&gt; 16, duration buff 1s -&gt; 1.5s and damage upgrade offer also buffed 3 -&gt; 4<wbr></li>
+<li>Noelle passive gives less size per level: 1% -&gt; 0.75%, and the damage she gains per frozen enemy has also been reduced a bit: 2% -&gt; 1.5%<wbr></li>
+<li>Max Silver Multiplier in Final Swarm has changed from 16x -&gt; 8x. People seem to have way too much silver, so it doesn’t make sense to have such a high multiplier anyway. At some point it would be nice to create some features that use silver, but im not sure what that would be yet<wbr></li>
+<li>To address some of the flying meta: Final swarm ghosts will start increasing their speed after 20 minutes have passed. Also, normally, an enemy can only be stunned or frozen 15 times (CC cap) before it becomes immune. After this update, starting at 20 minutes, the CC cap will slowly decrease until they can no longer be stunned or frozen.<wbr></li>
+</ul>
+
+
+<ul>
+<li>You can press F10 to open the console<wbr></li>
+<li>At the moment, this is only really used to set a specific seed for the dungeon if you wanna speedrun it or something<wbr></li>
+<li>Type “help” in the console to see all the commands and how to use them</li>
+</ul>
+<p><em>Source: <a href="https://store.steampowered.com/news/app/3405340/view/523110495538905880?l=english">Steam</a></em></p>
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div></div><br/><br/>https://www.thesixthaxis.com/2025/12/15/megabonk-spooky-update-arrives-just-in-time-for-christmas/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[Edifier Hecate G2000 Pro Gaming Speaker Review]]></title>
             <link>https://www.thesixthaxis.com/2025/12/15/edifier-hecate-g2000-pro-gaming-speaker-review/</link>
