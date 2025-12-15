@@ -4,9 +4,112 @@
         <title>maGaming RSS Feed - thesixthaxis_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/thesixthaxis_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for thesixthaxis_com</description>
-        <lastBuildDate>Mon, 15 Dec 2025 18:32:52 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 15 Dec 2025 19:10:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Football Manager 26 update 26.1.1 improves match report screen]]></title>
+            <link>https://www.thesixthaxis.com/2025/12/15/football-manager-26-update-26-1-1-improves-match-report-screen/</link>
+            <guid>1383856</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>Sports Interactive has released update 26.1.1 today and one of the biggest changes that has come part of this is a more detailed halt time and full time match report screen. Prior to the update, this screen would give very basic information showing the score, goalscorers, one team’s player ratings and match stats. The new screen show shows both team’s player ratings, all the scores from around the league, and a better live league view. There are also a lot more match stats in the stats section. You can see the new screen below.</p>
+
+
+
+<p>The Football Manager update 26.1.1 has also addressed different logic issues, with these relating to player and staff contract renewals, the assistant manager’s creation of mentoring groups, and expanding the active recruitment focuses to cover all active competitions in the game. You can check out the changelog below.</p>
+
+<p><strong>Technical Issues</strong></p>
+<ul>
+<li>Various Crash and Stability fixes.</li>
+<li>Fixed a softlock when selecting the Best of the Rest club expectation, then removing it when accepted.</li>
+<li>In-game items (Tactics, set pieces, shortlists, etc) will now show the correct time when saved.</li>
+<li>Refined shadows in overcast matches.</li>
+<li>Fixed a rare issue where certain saves couldn’t be loaded after switching from the Steam Public Beta Track in the last update.</li>
+<li>Fixed a rare issue of crowd noise audio continuing after the match has been completed.</li>
+<li>Fixed an online issue where the processing timer would appear within matches.</li>
+</ul>
+<p><strong>User Interface (UI)</strong></p>
+
+<ul>
+<li>Improved half time and post-match report screen (shown above).</li>
+<li>Improved past-match report screen.</li>
+<li>Fixed an issue with the NXGN &amp; Top Player in the World Award news items not displaying all the candidates.</li>
+<li>Fixed an issue where the UI would become unresponsive after selecting the same Shout option twice in a row.</li>
+<li>Weather description no longer duplicates within Team News.</li>
+<li>Players who have recently left the team no longer display as an option for Set Piece Takers.</li>
+<li>State saving for Selected Position is now enabled within the Squad Planner.</li>
+<li>Added multiple Columns to Player Search &gt; Scout &gt; Transfer table view.</li>
+<li>Added ‘Choose Visuals’ dropdown within Player Report &gt; Performance Data.</li>
+<li>Added ability to see Staff Attributes on the Club Staff Coaching / Recruitment / Medical / All screen.</li>
+<li>Offers received on the Deadline Day will now be a Must-respond item.</li>
+<li>Added a tooltip about Form within Opposition Report.</li>
+<li>Fixed issues surrounding the +/- buttons disappearing.</li>
+<li>Viewing past seasons results within the Stages card now functions correctly.</li>
+<li>The Ability and Potential columns now populate correctly within the Squad General Info view for AI teams.</li>
+<li>Subbed off players will no longer appear in the right-click drop-down menu within Match Tactics.</li>
+<li>Fixed an issue where user are unable to make substitutions from the squad bar in matches</li>
+<li>Own goals now display as intended within Match pop-up captions.</li>
+<li>Clicking “expand” on the Live Table now functions correctly.</li>
+<li>The correct lineup will now display for Opposition Instructions during a match.</li>
+<li>Fixed an issue where the captain indicator wasn’t appearing within UEFA Men’s Champions League and Conference League graphics.</li>
+<li>The players shown on the Youth Candidates portal message are now sorted by their rating category.</li>
+<li>B Team average age now displays correctly within the Portal message.</li>
+<li>Improvements made to offering out players via TransferRoom Out tool.</li>
+<li>User Transfer Budget now updates instantly when selling Clauses.</li>
+<li>User Player’s Transfer Status now updates instantly when they are removed from transfer/loan list.</li>
+<li>Squad screen now displays the wage that a loan player currently earns at the club the player is at, not the wage of the player at the parent club.</li>
+<li>Fixed an issue where player contract demands were not displayed correctly when user ‘Asks Agent About Market Interest’ for a Free Agent.</li>
+<li>The ‘i’ icon now correctly appears within the contracts expiring portal message.</li>
+<li>The Contract Negotiation button will no longer be active if the player has signed a pre-contract agreement already.</li>
+<li>Full details of a Future Fee Loan Deal now display correctly within Clauses.</li>
+<li>Fixed an issue where the new season increase of ticket prices would display as 0%, regardless of actual figure.</li>
+<li>Sorting by Position now functions correctly on the Individual Training screen.</li>
+<li>The Coaching Conditions filter now functions correctly within Player Database.</li>
+<li>The sort by position column now functions correctly within League &gt; Player Stats.</li>
+<li>Scout filter results will no longer show players who don’t meet the correct ability/potential criteria.</li>
+<li>Confirming the Suggested XI from the Portal message now functions correctly.</li>
+<li>Fixed an issue where the Continue button wouldn’t display on the pre-match Team Talk screen.</li>
+<li>Fixed an issue where the Graphic Quality wouldn’t open its dropdown menu within Preferences.</li>
+<li>Fixed an issue where the ‘Send re-scouted player reports to Messages’ option within Shortlist wouldn’t work.</li>
+<li>Fixed an issue where changing the tab and any responsibilities while in ‘Delegation’ would reset the user to the ‘Overview’ tab in Staff Responsibilities.</li>
+</ul>
+<p><strong>Gameplay</strong></p>
+<ul>
+<li>Improvements to player logic for wanting a new contract.</li>
+<li>Improved staff contract renewal logic.</li>
+<li>Improved logic/messaging behind older players asking for new contracts.</li>
+<li>Improved logic to backup players demanding play time to get a national team call up.</li>
+<li>Lowered the number of players at ‘Elite Clubs’ wanting the Domestic Trophy Promise.</li>
+<li>Users can now create Recruitment Focus for all active competitions in the save game.</li>
+<li>Resolved an issue where AI clubs would offer illogical playing time in their Loan Back offer.</li>
+<li>Resolved an issue where loan players were recalled to be sold at illogical times of the season.</li>
+<li>Fixed a rare issue where AI club would make future fee loan bid for player who has just joined the users club.</li>
+<li>Loan players can no longer get recalled if the loan club has trigged the buy clause.</li>
+<li>Fixed an issue where the Qualifying for UEFA Champions League conditional future fee would be triggered by qualifying for any European Competition.</li>
+<li>Fixed an issue where a player would want to be appointed as both captain and vice-captain in pre-contract promises at the same time.</li>
+<li>Tweaks made to ensure AI clubs don’t make repeated loan offers for the same player.</li>
+<li>Functionality for the ‘Propose Loan Extension’ option now working as intended.</li>
+<li>Asking the assistant to create Mentoring Groups now works as intended.</li>
+<li>Added a “Makeshift” player positional rating icon.</li>
+</ul>
+<p><strong>In Game Editor</strong></p>
+<ul>
+<li>Player/Non-Player header bar now updates instantly after transferring via the IGE.</li>
+<li>Fixed an issue where user was unable to edit Corporate Facilities rating.</li>
+<li>The “+” button next to the fee amounts now functions correctly.</li>
+<li>Dropdowns are now converted to tabs.</li>
+<li>Stopped IGE icon being disabled incorrectly on secondary Squad, Recruitment, and Match Day tabs if already selected or navigated to via tab.</li>
+</ul>
+<p><em>Source: <a href="https://community.sports-interactive.com/forums/topic/599204-fm26-update-2611-out-now/">FM26 Update (26.1.1) Out Now – FM26 Updates – Sports Interactive Community</a></em></p>
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div></div><br/><br/>https://www.thesixthaxis.com/2025/12/15/football-manager-26-update-26-1-1-improves-match-report-screen/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[Cult of the Lamb: Woolhaven launches January 22nd]]></title>
             <link>https://www.thesixthaxis.com/2025/12/15/cult-of-the-lamb-woolhaven-launches-january-22nd/</link>
