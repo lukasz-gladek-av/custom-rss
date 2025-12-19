@@ -4,9 +4,845 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Fri, 19 Dec 2025 14:29:56 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 19 Dec 2025 14:53:46 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Manor Lords update adds new maps and game modes]]></title>
+            <link>https://www.thesixthaxis.com/2025/12/19/manor-lords-update-adds-new-maps-and-game-modes/</link>
+            <guid>1388242</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>Slavic Magic has released a major new update for Manor Lords, its medieval strategy game, with the update adding a new option to choose starting locations, new maps, new buildings and jobs associated with them, ladder climbing for units, and a whole host of changes for resources. Additionally, policies have been removed temporarily from Manor Lords as they require additional development time. You can check out the full list of changes below.</p>
+<p><iframe title="Manor Lords - Release Date Announcement Trailer" width="780" height="439" src="https://www.youtube.com/embed/edB0J0bS-4s?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+
+
+<h2>Manor Lords Update 5 Version 0.8.029–0.8.050 patch notes</h2>
+
+<ul>
+<li><b>Starting Location Selection</b>: Ability to select the starting location in the game setup screen for the player and adversaries.<br>
+<wbr></li>
+<li><b>New Maps</b>: Devil’s Hill, Jagged Cliffs, Divided and Lake Lemm.<br>
+<wbr></li>
+<li><b>New Game Modes</b>: Duel (1 vs 1 with AI) and Fractured Realm (4 Lord free-for-all).<br>
+<wbr></li>
+<li><b>New Buildings, Jobs &amp; Resources</b>: Quarry, Stonemason, Lime Kiln, and their connected resources: Rough Stone, Dressed Stone, Mortar.<br>
+<wbr></li>
+<li><b>Wall Positioning</b>: A new system for positioning units on walls.<br>
+<wbr></li>
+<li><b>Ladder Climbing</b>: Units now climb ladders to access higher floors.<br>
+<wbr></li>
+<li><b>Hover Fortifications</b>: The player can now hover the castle fortifications and see the soldiers inside.<br>
+<wbr></li>
+<li><b>Gate Control</b>: Added the ability to open and close each castle gate individually.<br>
+<wbr></li>
+</ul>
+<p><b>Castle Upgrade System:</b><br>
+<wbr></p>
+<ul>
+<li><b>Module Upgrades</b>: Every castle module, including walls and gates, can now be upgraded to lv2.<br>
+<wbr></li>
+<li><b>Placement Logic</b>: Module placement is no longer restricted by distance to the nearest major module. The planner now displays the total Bailey Area. The Bailey area allowed for construction is limited by your lord’s or lady’s Rank (still WIP).<br>
+<wbr></li>
+<li><b>Wall Platforms</b>: You can now attach platforms to the castle walls. The level of platforms is capped by the wall type.<br>
+<wbr></li>
+</ul>
+<p><b>Affinity System:</b><br>
+<wbr></p>
+<ul>
+<li><b>Environment Types</b>: Each Region is divided by area into multiple Environment Types: (Meadow, Woodland, Farmland, Urban, Rural).<br>
+<wbr></li>
+<li><b>Building Affinities</b>: Different buildings can have Affinities with different Environment Types, for instance, the Animal Pen has a “Pannage” Affinity which decreases the time to yield for Pig Pens relative to the Woodland area.<br>
+<wbr></li>
+</ul>
+<p><b>Maintenance System:</b><br>
+<wbr></p>
+
+<ul>
+<li><b>Workplace Maintenance</b>: A lot of workplaces now must be maintained by delivering resources to function properly.<br>
+<wbr></li>
+<li><b>Failure Risks</b>: Failure to maintain a building can result in various risks, such as collapse for mines, injury and even a minor death chance.<br>
+<wbr></li>
+<li><b>Rate Tuning</b>: You can tune a workplace’s level of maintenance, affecting Labor Speed.<br>
+<wbr></li>
+</ul>
+<p><b>Yield System:</b><br>
+<wbr></p>
+<ul>
+<li><b>Yield Definition</b>: Yield is a measure of how much your workplace produces. Various buildings use different timespans and benchmark values depending on their nature.<br>
+<wbr></li>
+<li><b>Yield Influencers</b>: Yield can be affected by Labor Speed, Efficiency, and Productivity.<br>
+<wbr></li>
+<li><b>Labor Speed</b>: Labor Speed measures how fast your workers perform workplace related tasks.<br>
+<wbr></li>
+<li><b>Efficiency</b>: Efficiency measures how much output you get per input when crafting, per plant when farming or per passive income cycle, depending on the production type. High Efficiency means your Gardens will produce more Vegetables and your Crafting tasks may produce extra items.<br>
+<wbr></li>
+<li><b>Productivity</b>: Productivity is a measure of your logistics: transport and labor times vs idle times, sickness, extension work and militia assignments.<br>
+<wbr></li>
+</ul>
+<p><b>Approval Rework:</b><br>
+<wbr></p>
+<ul>
+<li><b>Memory Weight Shift</b>: Approval memory weight was shifted to dramatically favor current events versus past events.<br>
+<wbr></li>
+<li><b>Approval Tiers</b>: There are now 7 approval Tiers. Landing in a specific Approval Tier will give various penalties and bonuses to growth, influence, income among others.<br>
+<wbr></li>
+</ul>
+<p><b>Food Resource Rework:</b><br>
+<wbr></p>
+<ul>
+<li><b>Food Categories</b>:All foods now fit within food categories; Foraged Goods, Meats, Fishes, Vegetables, Grains and Animal Produce.<br>
+<wbr></li>
+<li><b>Burgage Plot Requirement overhaul</b>: Burgage Plots now require a variety of foods from different categories, encouraging more diverse variety as they upgrade.<br>
+<wbr></li>
+<li><b>Expanded Vegetables</b>: Vegetables resource was split into Cabbages, Carrots and Beetroots.<br>
+<wbr></li>
+<li><b>Expanded Orchards</b>: In addition to Apples, Pears and Quinces were added as new Orchard options.<br>
+<wbr></li>
+<li><b>Expanded Meats</b>: Meat was divided into: Mutton, Chevon, Pork, Beef, Chicken, Small Game, and is produced by their respective animals accordingly.<br>
+<wbr></li>
+<li><b>Expanded Fish</b>: Fish was divided into Carp (from ponds) and Eel (from rivers).<br>
+<wbr></li>
+<li><b>New Food:</b>&nbsp;Milk is passively produced by Goats for the Animal Produce category.<br>
+<wbr></li>
+<li><b>Wild Animals</b>: Deer were replaced by Small Game since it’s more plausible in historical terms. Small Game also yields Pelts, which is an early trade commodity.<br>
+<wbr></li>
+<li><b>Foraged Goods</b>: Alongside Berries, Mushrooms have been reintroduced as a Foraged Good.<br>
+<wbr></li>
+<li><b>Honey</b>: Honey is no longer consumed. It is intended for use in a future update, but for now can be sold, while the Apiary Extension boosts the yield of Farms and Orchards through the Pollination Affinity.<br>
+<wbr></li>
+</ul>
+<p><b>Regional Development System Rework:</b><br>
+<wbr></p>
+<ul>
+<li><b>Development Perks</b>: To a lot of players, the development tree was a weak point of the game and described as immersion breaking. Therefore, a new, more grounded system of Development Perks has been introduced. The player will now face more realistic choices at each settlement level and those choices reflect the settlement development stage.<br>
+<wbr></li>
+<li><b>Perk Design</b>: The perks are also designed to be more nuanced from a game design perspective so that choices are less immediately obvious, but compound into strong specializations over time.<br>
+<wbr></li>
+<li><b>Rollout Status</b>: Since it’s still in progress, only the first batch of perks (Origins) is available.<br>
+<wbr></li>
+<li><b>Policies</b>: Policies are temporarily removed (still undergoing rework).<br>
+<wbr></li>
+</ul>
+
+<p>
+<b>General:</b><wbr></p>
+<ul>
+<li>Removed a lot of chance based mechanics in favor of more deterministic calculations to make yield balance more predictable (this includes farming and mining which used to be chance based).<br>
+<wbr></li>
+<li>Yields are more linear as Orchard Trees and Field Crops mature.<br>
+<wbr></li>
+<li>Moved consumption &amp; approval data to the Family structure instead of storing it on husbands (this was a temporary workaround to represent per family consumption and approval effects).<br>
+<wbr></li>
+<li>Since individual villagers no longer have a consumption update, we also moved the disease data to the Family structure. As a side effect, whole families will now get sick together.<br>
+<wbr></li>
+<li>Fishing nodes often spawn in rivers now (allowing river fishing).<br>
+<wbr></li>
+<li>Streams now use the river system and therefore will spawn small bridges.<br>
+<wbr></li>
+<li>Added a new Elevation overlay for use with Farming and Livestock.<br>
+<wbr></li>
+<li>Replaced the Brewery extension placeholder.<br>
+<wbr></li>
+<li>Added an additional road to Wirnitz in Germanic Valley<br>
+<wbr></li>
+<li>Added an extra hard cap for storage distribution limits, eg. if a stall has 21 items for some reason but only 20 storage space, the extra item will not count as supply.</li>
+</ul>
+<p><b>Quality of Life Improvements:</b><wbr></p>
+<ul>
+<li>Added a “Protect Resource Area” checkbox for the Logging Camp and Firewood Cutter which makes workers automatically avoid deforestation near vulnerable resources.<br>
+<wbr></li>
+<li>Worker families assigned to a building being upgraded will now participate in the construction.<br>
+<wbr></li>
+<li>Oxen transporting Timber for construction will get the nearest log instead of nearest on the ground before from buildings.<br>
+<wbr></li>
+<li>Oxen transporting Timber will now prioritize delivering to a target near where the Timber is picked up.<br>
+<wbr></li>
+<li>Blocked sons with jobs from refueling the home if there is a female family member without any task that can do it instead.<br>
+<wbr></li>
+<li>Workplace animals will now be assigned a home as close as possible to the workplace.<br>
+<wbr></li>
+<li>When debranching a tree, Workers will always pick the one closest to them.<br>
+<wbr></li>
+<li>When cutting down a tree, Workers will pick the nearest one, unless too far away from the Logging Camp.<br>
+<wbr></li>
+<li>Changed order of goods produced for Blacksmith and Joiner to list Spears and Large shields first.<br>
+<wbr></li>
+<li>Artisans will start producing the first listed good when their workshop is built.<br>
+<wbr></li>
+<li>Trading Post Workers will now only use Horses that are assigned to their Trading Post (Horses are automatically assigned when they arrive).<br>
+<wbr></li>
+<li>Due to tester feedback, storage building workers supply their Stalls from their own Storehouse/Granary only.<br>
+<wbr></li>
+<li>When taking care of the dead, bodies will now be moved to the nearest Corpse Pit or Church.</li>
+</ul>
+<p><b>Manor Specific:</b><wbr></p>
+<ul>
+<li>Manors no longer have families living in them (since Manors aren’t residential and can’t fulfil requirements it was always a bit weird).<br>
+<wbr></li>
+<li>When castle modules are placed on a wall, they will split the wall and snap the walls to edges instead of clipping with the module.<br>
+<wbr></li>
+<li>Added an option to join 2 walls into 1 after you snap their ends together.<br>
+<wbr></li>
+<li>Added missing wall snapping points to the outer towers.<br>
+<wbr></li>
+<li>When rotating a module, the attached walls should now stay attached. The rotation is limited if a module has wall connections.<br>
+<wbr></li>
+<li>Castle modules now collide with each other when placing in order to avoid building areas impossible for pathfinding and reduce clipping.</li>
+</ul>
+<p><b>Adjustments:</b><wbr></p>
+<ul>
+<li>Deprecated some jobs since they no longer were fitting the game design: Removed Dye and Dyer in their previous implementation. Removed Firewood Cart and Food Cart.<br>
+<wbr></li>
+<li>Cloaks are removed, instead, there are two recipes for producing Clothes – either from Wool or from Linen.<br>
+<wbr></li>
+<li>Apiary is now a backyard extension. Wax is now produced every third cycle from an Apiary.<br>
+<wbr></li>
+<li>Removed the “Fence up” Upgrade from fields since it’s a leftover of the previous development tree and doesn’t quite fit anymore.<br>
+<wbr></li>
+<li>Temporary removal of the “Force Early Harvest” button in the Farmhouse.<br>
+<wbr></li>
+<li>Granary workers no longer supply Windmills since it was inconsistent with all the other workplaces needing to get their own crafting resources.<br>
+<wbr></li>
+<li>Pigs, Goats and hunting hounds no longer use the livestock order timer the Oxen/Mules/Horses do.</li>
+</ul>
+<p><b>Technical:</b><br>
+<wbr></p>
+<ul>
+<li><b>Added global graphics presets.</b><wbr></li>
+<li>[Experimental] Added new frame limit options (59.99 and 59.94) in an attempt to reduce VSync lag.<br>
+<wbr></li>
+<li>[Experimental] Increased house entering distance at high game speeds to reduce people clogging doorways.<br>
+<wbr></li>
+<li>Improved the camera collision with cliffs on High Peaks.<br>
+<wbr></li>
+<li>Tweaked the cliff pathfinding obstacle accuracy.<wbr></li>
+</ul>
+
+<p>
+<b>General:</b><wbr></p>
+<ul>
+<li>Every newly settled region now gains +1 Growth for 1 year from the “Fresh Settlement” modifier.<br>
+<wbr></li>
+<li>Shortened the fadeout time of all Approval Memories from 365 to 90 days to make the mechanic feel slightly more responsive.<br>
+<wbr></li>
+<li>Destroying a Bandit Camp will net 33% less Regional Wealth/Treasury on average.<br>
+<wbr></li>
+<li>Manors/Castles are no longer flammable under the assumption that raiders shouldn’t be able to easily light them on fire.<br>
+<wbr></li>
+<li>Fertility drain starts from 5% of growth so that yields don’t drop while the crop is still being planted.<br>
+<wbr></li>
+<li>Rye fertility now is 1.5 * Wheat fertility, but no more than 100%.<br>
+<wbr></li>
+<li>Droughts are much less impactful, no longer sets crop yields to 1.<br>
+<wbr></li>
+<li>Granaries get a handcart shed. Handcarts slots changed to 2 (lv1) and 6 (lv2). Storehouse handcart slots are 2 (lv1) and 6 (lv2) as well.<br>
+<wbr></li>
+<li>Lightning should no longer start fires on “Weather Events: None” game setting.<br>
+<wbr></li>
+<li>Tithe gives 2 Influence for every 1 Food donated (was 1).<br>
+<wbr></li>
+<li>Sausages are made from Pork and Salt.<br>
+<wbr></li>
+<li>Shoes cost reduced from 2 Leather to 1 Leather.<br>
+<wbr></li>
+<li>Reduced sawpit max workers to 1.<br>
+<wbr></li>
+<li>Regional Wealth is no longer refunded when demolishing a building.</li>
+</ul>
+<p><b>Resource Deposits:</b><wbr></p>
+<ul>
+<li>Starting Resource Node balance changed: Players get either Fish or Small Game, either Berries or Mushrooms, either Iron or Salt, as well as Clay, Stone and Fertility. Two of those get boosted to a Region Strength (Rich Resource Node or a Rich Fertility).<br>
+<wbr></li>
+<li>Increased chance of fishing resource nodes on maps with many river regions. (Temporary)<br>
+<wbr></li>
+<li>Wild Animal reproduction is now dependent on their herd size. A minimum of 2 animals is required.<br>
+<wbr></li>
+<li>Tweaked resource regrowth rates and capacities for all resource deposits.<br>
+<wbr></li>
+<li>Rich Mining Deposits have larger mining range than normal ones, allowing you to potentially place more mines on a single deposit.<br>
+<wbr></li>
+<li>There is an increasing chance of collapse if the user places too many mines close to each other.<br>
+<wbr></li>
+</ul>
+<p>
+<b>Burgage Plots &amp; Families:</b><wbr></p>
+<ul>
+<li>The cost of Vegetable Gardens and Orchards scale based on the size of the Extension Area. This can be viewed as the “Planting Cost” when placing the Burgage Plot.<br>
+<wbr></li>
+<li>Vegetable Gardens need to be replowed and replanted after harvest.<br>
+<wbr></li>
+<li>Chicken (meat) is now produced every fourth cycle from a Chicken Coop, while Milk is produced from Goats with Chevon and Hides every third cycle.<br>
+<wbr></li>
+<li>Families consume 1 Ale every 3 months.<br>
+<wbr></li>
+<li>Introduced a 30 day grace period when starting the game / settling a region before the homelessness approval factor kicks in.<br>
+<wbr></li>
+<li>Families now consume extra goods related to their Burgage Level, eg. Clothing for Lv2 and up.<br>
+<wbr></li>
+<li>Removed Tool cost from all Artisan Workshops as Maintenance replaces it.<br>
+<wbr></li>
+<li>Increased Blacksmith and Armorer Workshops Regional Wealth cost increased to 25.</li>
+</ul>
+<p><b>Trade:</b><wbr></p>
+<ul>
+<li>All values are now visible at the Trading Post, even without established routes, and a completely new balance has been introduced for all goods.<br>
+<wbr></li>
+<li>New values assigned to most Animals for orders and the Livestock Trading Post.<br>
+<wbr></li>
+<li>Increased the max number of assigned horses to 4 at the Trading Post.<br>
+<wbr></li>
+<li>Increased import tariff from 5 to 10 for all foreign trades.<br>
+<wbr></li>
+</ul>
+
+<p>
+<b>Styling &amp; Quality of Life:</b><wbr></p>
+<ul>
+<li>UI styling overhaul with a more “medieval” and less modern feel.<br>
+<wbr></li>
+<li>Resource nodes will display as drawings instead of icons in the parchment (region) view and have more consistent icons in world view.<br>
+<wbr></li>
+<li>“Records” statistics screen where you can compare and contrast your regional production and consumption of all goods.<br>
+<wbr></li>
+<li>Hovering over Approval displays an overlay detailing missing Requirements and level of satisfaction on all Burgage Plots.<br>
+<wbr></li>
+<li>Improved Family list styling in the People Tab. Includes a new hoverable Family Consumption icon detailing what is consumed and how frequently.<br>
+<wbr></li>
+<li>Extensions will now display the icon of the chosen animal or crop in the building Residential panel and building floaters when pressing TAB.<br>
+<wbr></li>
+<li>Existing saves can now be renamed, and added an overwrite save confirmation check.<br>
+<wbr></li>
+<li>Tutorial styling improved, adding subsections for less pop-ups but with more clearly defined information overall.<br>
+<wbr></li>
+<li>Log notifications that trigger close to each other are now displayed for a few seconds instead of just the most recent one.<br>
+<wbr></li>
+<li>Regions can now be cycled through on the Region Screen.<br>
+<wbr></li>
+<li>Livestock Tooltip now displays Extension animals.<br>
+<wbr></li>
+<li>Living Space tooltip now includes Plot, Population and Migration details.<br>
+<wbr></li>
+<li>When a Burgage Plot is refueled, the cold warning should now instantly disappear.<br>
+<wbr></li>
+<li>Quest finished messages should no longer popup for Mercenary Company payments (a bit overkill).<br>
+<wbr></li>
+<li>Broken mercenary companies will no longer display in the Mercenary Company Panel.<br>
+<wbr></li>
+<li>Windmills now display their efficiency value in the General panel.</li>
+</ul>
+<p><b>Text:</b><wbr></p>
+<ul>
+<li>All tutorials rewritten and new tutorial pop-ups implemented.<br>
+<wbr></li>
+<li>All wiki entries in “Economy” category rewritten. “Tutorials” category added to allow reading of tutorials at your own pace.<br>
+<wbr></li>
+<li>Added a lot more character names.<br>
+<wbr></li>
+<li>Added weights to character names to control how likely they are to be picked.<br>
+<wbr></li>
+<li>All building descriptions rewritten to list less direct numbers, but be more generalized as yields can now vary.<br>
+<wbr></li>
+<li>All upgrades rewritten to be more thematic, consistent and to detail more information about how the upgrade works.<br>
+<wbr></li>
+<li>Updated text for establishing a trade route tooltip, delivering more information.<br>
+<wbr></li>
+<li>Updated Royal Tax setting description in the Main Menu, delivering more information.</li>
+</ul>
+<p><b>Functionality:</b><wbr></p>
+<ul>
+<li>Manor modules now also snap back to the original dragging start position to reduce accidental changes.<br>
+<wbr></li>
+<li>Alt-clicking to delete a castle module was replaced by a destroy button.<br>
+<wbr></li>
+<li>Improved accuracy when selecting wall points.<br>
+<wbr></li>
+<li>Road Snap Points no longer get distorted on the grass.<br>
+<wbr></li>
+<li>Removed the building placement front arrow since building entrances are displayed now.<br>
+<wbr></li>
+<li>Re-added the Sheen effect after creating or replanting a field/garden to give more visual feedback.<wbr></li>
+</ul>
+
+<ul>
+<li>
+<p><b>Drag Audio</b>: Added sound effects when dragging castle modules.<wbr></p>
+</li>
+</ul>
+
+<ul>
+<li>Fixed approval tooltip not displaying during the first in-game day in a session.<br>
+<wbr></li>
+<li>Fixed job assignment sometimes not correctly picking an unassigned family living nearest to the workplace.<br>
+<wbr></li>
+<li>Fixed the castle wall blueprints being less curved after committing to construction at least once.<br>
+<wbr></li>
+<li>Fixed the camera snapping above water level when moving over waterbodies.<br>
+<wbr></li>
+<li>Fixed an issue with the problem banner appearing when the trading post is connected to the trade network.<br>
+<wbr></li>
+<li>Fixed soldiers becoming immobile if all their squad members have died.<br>
+<wbr></li>
+<li>Fixed region data and problem banners displaying incorrectly after loading a save where the player has lost all region control.<br>
+<wbr></li>
+<li>Fixed felled trees sometimes loading with overly large scale.<br>
+<wbr></li>
+<li>Fixed certain pre-placed road pieces respawning when loading a saved game.<br>
+<wbr></li>
+<li>Fixed the Large Granary not upgrading sometimes.<br>
+<wbr></li>
+<li>Fixed villagers sometimes getting stuck inside their homes when loading a saved game.<br>
+<wbr></li>
+<li>Fixed Resource Clumps floating in the map view.<br>
+<wbr></li>
+<li>Fixed Burgage Plots not tinting red when hovering over any supply if the value is exactly 0%.<br>
+<wbr></li>
+<li>Fixed pathfinding ignoring the broken wagon next to the Trading Post.<br>
+<wbr></li>
+<li>Fixed the player being able to add militia units from non owned regions.<br>
+<wbr></li>
+<li>Fixed livestock orders failing due to the ox trying to navigate into the stable wall and failing.<br>
+<wbr></li>
+<li>Fixed resource nodes showing a partially filled icon after all resources have been gathered.<br>
+<wbr></li>
+<li>Fixed the “Cold” event text not displaying translation.<br>
+<wbr></li>
+<li>Fixed empty extension clutter levitating after loading a saved game.<br>
+<wbr></li>
+<li>Fixed flashing building widgets when pressing tab.<br>
+<wbr></li>
+<li>Fixed Livestock Merchant tooltip not showing correct translation.<br>
+<wbr></li>
+<li>Fixed Bandit Camps rewards triggering twice.<br>
+<wbr></li>
+<li>Fixed Rallying Point placement being blocked on Fields and Pastures.<br>
+<wbr></li>
+<li>Fixed Bandits cheering too much when killing civilians.<br>
+<wbr></li>
+<li>Fixed dying soldiers levitating over ground on slopes.<br>
+<wbr></li>
+<li>Fixed demolishing a building being upgraded not returning any construction goods.<br>
+<wbr></li>
+<li>Fixed too many handcarts being spawned cause it would not account for the ones actively in use.<br>
+<wbr></li>
+<li>Fixed Peasants returning all weapons/shields to the Storehouse on loading a save.<br>
+<wbr></li>
+<li>Fixed resources possibly being dropped to a Pond if there’s no place for them in storage.<br>
+<wbr></li>
+<li>Fixed missing collision model for Charcoal Kiln.<wbr></li>
+</ul>
+
+<ul>
+<li>Lv1 Garrison Tower model was reworked to be more proportional with the scale of the Lv1 Manor.<br>
+<wbr></li>
+<li>Made oxen straighten their back when they wait for a guide so that they don’t just stand there bent like a banana.<br>
+<wbr></li>
+<li>Updated the empty Extension clutter visuals to be less historically inaccurate and more randomized.<br>
+<wbr></li>
+<li>Orchards workers now use a shovel and digging animation instead of hoe and plough.<br>
+<wbr></li>
+<li>Reworked Joiner, Bowyer, Armorer &amp; Butcher workshops.<br>
+<wbr></li>
+<li>Tweaked seasonal variation tints for far away trees.<br>
+<wbr></li>
+<li>Ox plow will now align the rotation to ground slope.<br>
+<wbr></li>
+<li>Improved door opening detection precision.<br>
+<wbr></li>
+<li>Tweaked visuals of fishing locations.<wbr></li>
+</ul>
+
+<ul>
+<li>Skipped animal petting in the stables since it’s no space for it anyway and it only clogged pathfinding with unresolved requests. Tweaked the ox guide locations in tight spaces to avoid unresolved pathfinding requests.<br>
+<wbr></li>
+<li>Drastically reduced reallocated Vertex Animation textures to decrease ambient frametime.<br>
+<wbr></li>
+<li>Optimized bee particle systems since they actually added up in large cities with many Apiaries.<br>
+<wbr></li>
+<li>Fixed issues around Pooled widgets building up indefinitely, addressing potential memory leak.<br>
+<wbr></li>
+<li>Fixed memory leak when updating all shopfront and wells visuals as inventory changes.<br>
+<wbr></li>
+<li>Optimized Inventory panel and Log Entries to prevent exponential frame dropping.<br>
+<wbr></li>
+<li>Optimized searching for a conversation partners in large cities when idle.<br>
+<wbr></li>
+<li>Fixed market supply distribution causing a lag spike on every new day.<br>
+<wbr></li>
+<li>Added embers and smoke FX to the Smithy, Blacksmith and Armorer.<br>
+<wbr></li>
+<li>Removed hitching/potential crashing when burning crops.<br>
+<wbr></li>
+<li>Reduced cost of showing Building Floaters by 62%<br>
+<wbr></li>
+<li>Optimized population and living space UI updates.<br>
+<wbr></li>
+<li>Further optimized market distribution calculations.<br>
+<wbr></li>
+<li>Optimized the market distribution code a bit.<br>
+<wbr></li>
+<li>Optimized door opening and closing.<br>
+<wbr></li>
+<li>Minor video memory optimizations.<br>
+<wbr></li>
+<li>Optimized the rain particles a bit.<br>
+<wbr></li>
+<li>Optimized workplace task logic.<br>
+<wbr></li>
+<li>Optimized planted tree growth.<br>
+<wbr></li>
+<li>Upgrade to FSR4.0.2<wbr></li>
+</ul>
+
+<ul>
+<li>Will now stop producing Charcoal if storage of Charcoal reaches 1000.<br>
+<wbr></li>
+<li>Will now consider building another Granary or Storehouse when current ones reach 90% capacity.<br>
+<wbr></li>
+<li>Fixed potentially not being able to rally more than once.<br>
+<wbr></li>
+<li>Fixed not creating more than one Militia squad.<br>
+<wbr></li>
+<li>Fixed expecting double-sized orchard plots to build an expansion, thus not having enough living space to attract migration.<br>
+<wbr></li>
+<li>Will now build a Corpse Pit if enough corpses are piling up in the Settlement.<br>
+<wbr></li>
+<li>Will now assign Workers to the Church and Corpse Pit to bury any corpses lying around.<br>
+<wbr></li>
+<li>Will now calculate what goods it can’t produce in a Region.<br>
+<wbr></li>
+<li>Will now import goods needed to rebuild the Settlement or to satisfy Maintenance.<br>
+<wbr></li>
+<li>Will now try to rebuild a Settlement in better order to avoid dead-locks.<br>
+<wbr></li>
+<li>Will now wait a little longer before adding a third or fourth family to the Trading Post.<br>
+<wbr></li>
+<li>Will now stop cutting down trees if storage of Timber reaches 200.<br>
+<wbr></li>
+<li>Will now stop cutting down trees if storage of Firewood reaches 2000.<br>
+<wbr></li>
+<li>Will now destroy a Stonegatherer Camp if no longer useful.<br>
+<wbr></li>
+<li>Will now destroy and rebuild the Hunting Camp if the Wild Animal Resource Node have moved away.<br>
+<wbr></li>
+<li>Will now build the Hunter Camp close to the Wild Animal Resource Node even if it’s far away.<br>
+<wbr></li>
+<li>Will now put higher priority on far away resource gathering buildings under construction.<br>
+<wbr></li>
+<li>Will now try to avoid constructing a Manor on top of trees.<br>
+<wbr></li>
+<li>Fixed a number of issues that could dead-lock the AI when trying to rebuild a Settlement.<br>
+<wbr></li>
+<li>Fixed Stonegatherer Camp sometimes being constructed on the Stone Resource Node.<br>
+<wbr></li>
+<li>Fixed not building Stonemason’s Station or Lime Kiln when having a Quarry.<br>
+<wbr></li>
+<li>Fixed not being aware of that a rich Stone Resource Node also produces Rough Stone.<br>
+<wbr></li>
+<li>AI will now build a Blacksmith extension even if it has no rich iron resource node.<br>
+<wbr></li>
+<li>AI will now always build a Joiner extension.<br>
+<wbr></li>
+<li>AI will now build a Bloomery if it has any iron resource node or if it has already build a Trading Post.<br>
+<wbr></li>
+<li>AI will no longer buy an Animal Pen, Vegetable Garden, or Orchard backyard extension unless it can afford the animal order och planting cost.<br>
+<wbr></li>
+<li>AI will no longer add single household artisan workshop on double-sized plots.<br>
+<wbr></li>
+<li>AI will no longer add an artisan workshop on plots meant for vegetable gardens or orchards.<br>
+<wbr></li>
+<li>AI will no longer sell tools until it can properly estimate its own need.<br>
+<wbr></li>
+<li>AI will try to demolish an existing building in order to get hold of any missing resources to build or rebuild a first Logging Camp.<br>
+<wbr></li>
+<li>AI will now try to rebuild buildings that have been turned into rubble.<br>
+<wbr></li>
+<li>AI now sets better limits regarding hunting and fishing.<br>
+<wbr></li>
+<li>Fixed worker placement not properly taking hunting and fishing limits into account.<br>
+<wbr></li>
+<li>Fixed worker placement not properly understanding if enough raw material was available for multi-goods producing buildings.<br>
+<wbr></li>
+<li>AI will now be a little bit quicker to add more worker families to the Trading Post.<br>
+<wbr></li>
+<li>AI will now only export one good per family in the Trading Post unless they have access to a horse.<br>
+<wbr></li>
+<li>AI will no longer buy a major trade route before it has acquired a second ox and a horse.<br>
+<wbr></li>
+<li>AI will score constructing residential plots lower to avoid overtaking other buildings when rebuilding.<br>
+<wbr></li>
+<li>AI will score Hitching Posts and Stables much higher when needed to avoid having animals running away.<br>
+<wbr></li>
+<li>AI will now build Charcoal Kilns.<br>
+<wbr></li>
+<li>AI will now try to exploit pelts or firewood/charcoal for early game regional wealth.<br>
+<wbr></li>
+<li>AI will not focus a bit more on harvesting seasonal goods during their season.<br>
+<wbr></li>
+<li>AI will now ignore sick families when trying to redistribute worker families.<br>
+<wbr></li>
+<li>AI will now focus more on building and upgrading residential houses in order to meet immigration.<br>
+<wbr></li>
+<li>Fixed not rebuilding market stalls due to them not getting a score.<br>
+<wbr></li>
+<li>Fixed Vegetable Garden unintentionally being slightly favored over Orchard.<br>
+<wbr></li>
+<li>Fixed always trying to put a well on a water vein even if that game option was turned off.<br>
+<wbr></li>
+<li>Fixed a bug that would invalidate trying to build a road connection towards the settlement instead of the nearest road.<br>
+<wbr></li>
+<li>Fixed a bug that would invalidate too many residential plots.<br>
+<wbr></li>
+<li>Fixed AI building on overly steep slopes.<br>
+<wbr></li>
+<li>Fixed AI exceeding region borders with their plots.<br>
+<wbr></li>
+<li>Fixed castle modules spawning levitating after load game (or multiple load games).<br>
+<wbr></li>
+<li>Fixed sorting of potential export goods not using total stored amount as tie-breaker.<br>
+<wbr></li>
+<li>Fixed AI trying to build roads to an invalid coordinate.<br>
+<wbr></li>
+<li>Fixed all of UI completely disappearing after opening and closing the Castle Planner.<br>
+<wbr></li>
+<li>AI will now redistribute workers every 3 days instead of several times per second.<br>
+<wbr></li>
+<li>AI will now consider constructing a building that produces not needed goods if the export price is at least 2 instead of 3.<br>
+<wbr></li>
+<li>AI will now be able to upgrade Residential Plots to tier 2.<br>
+<wbr></li>
+<li>AI will now be able to upgrade Residential Plots to Joiner and Blacksmith.<br>
+<wbr></li>
+<li>AI will now update many economy and trade functions more seldom for increased performance.<br>
+<wbr></li>
+<li>AI will now destroy no longer needed buildings, like exhausted Mines, or buildings gathering resources no longer present.<br>
+<wbr></li>
+<li>AI will now calculate and be guided by the need of things like Maintenance, and not just missing construction goods.<br>
+<wbr></li>
+<li>AI will now calculate and be guided by a strategic reserve of goods, and no longer trade away goods it needs.<br>
+<wbr></li>
+<li>AI will now try to place the Trading Post close to the nearest King’s Road.<br>
+<wbr></li>
+<li>AI will now better favor high ground when placing the Manor or its first Church.<br>
+<wbr></li>
+<li>Fixed AI building too many Hitching Posts.<br>
+<wbr></li>
+<li>Fixed AI building a tier 1 building when the rubble of an upgraded building can be repaired.<br>
+<wbr></li>
+<li>Fixed AI not being able to build Quarries.<br>
+<wbr></li>
+<li>Fixed AI not disbanding Militia and Retinue when no longer faced with any active enemy threats.<br>
+<wbr></li>
+<li>Fixed AI not building single Residential Plots by lowering the standard plot width from 1000 to 750.<br>
+<wbr></li>
+<li>Fixed AI not building any buildings if the initial building grid runs out of potential spots.<br>
+<wbr></li>
+<li>Fixed AI not being able to buy a Major Trade Route.<br>
+<wbr></li>
+<li>Will now ignore non-rich food resource nodes if too far away from village with max distance based on number of families.<br>
+<wbr></li>
+<li>Will now assign Horses when possible to the Trading Post.<br>
+<wbr></li>
+<li>Fixed not setting hunting and fishing limits based on a Resource Node’s actual max value.<br>
+<wbr></li>
+<li>Fixed incorrect scoring of Order Animals and Plant Vegetables and Plant Fruits.<br>
+<wbr></li>
+<li>Fixed not prioritizing high enough the construction of the first Logging Camp.<br>
+<wbr></li>
+<li>Will now consider far off Iron, Salt, and Clay Resource Nodes over time as the number of worker families increase.<br>
+<wbr></li>
+<li>Will now value building mines on top of Iron Resource Nodes higher than other mines.<br>
+<wbr></li>
+<li>Will now import any needed Iron Tools if there is no Iron Resource Node in the region.<br>
+<wbr></li>
+<li>Fixed not counting families who becomes homeless by losing their home as available workforce.<br>
+<wbr></li>
+<li>Fixed Manors built by AI not being visible and not considered completed.</li>
+</ul>
+<p><em>Source: <a href="https://store.steampowered.com/news/app/1363080/view/532118242491106310">Steam</a></em></p>
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div></div><br/><br/>https://www.thesixthaxis.com/2025/12/19/manor-lords-update-adds-new-maps-and-game-modes/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[‘Gears of War: E-Day Is Our Most Ambitious Game Yet’, Says The Coalition]]></title>
+            <link>https://wccftech.com/gears-of-war-e-day-is-our-most-ambitious-game-yet-says-the-coalition/</link>
+            <guid>1388236</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			
+			<p>Vancouver-based game developer <strong>The Coalition</strong> is working hard (<a href="https://wccftech.com/gears-of-war-e-day-is-being-co-developed-by-people-can-fly/" target="_blank" rel="noreferrer noopener">with the help of Polish developer People Can Fly</a>) to complete <strong>Gears of War: E-Day</strong>, its first new game since 2019's Gears 5, for the planned 2026 launch. The game was <a href="https://wccftech.com/gears-of-war-e-day-prequel-announced-by-the-coalition/" target="_blank" rel="noreferrer noopener">announced</a> to the public during the Xbox Games Showcase in June 2024, but the studio has been <a href="https://wccftech.com/gears-of-war-e-day-has-been-in-active-development-for-over-five-years/" target="_blank" rel="noreferrer noopener">actively on it for nearly six years at this point</a>. </p>
+
+
+
+<p>Granted, the team also had other projects, such as supporting Splash Damage on Gears Tactics, 343 Industries on Halo Infinite, and Epic Games on The Matrix Awakens and the <a href="https://wccftech.com/gears-the-coalition-unreal-engine-5-xbox-series-x-alpha-point-demo/" target="_blank" rel="noreferrer noopener">Alpha Point Unreal Engine 5 demo</a>. This year, The Coalition launched Gears of War: Reloaded, a remaster of the first installment in the third-person shooter series and the first franchise entry to launch on Sony's PlayStation 5 consoles.</p>
+
+
+
+<p>But it's with Gears of War: E-Day that The Coalition truly aims to make an impact. <a href="https://news.xbox.com/en-us/2025/12/18/xbox-bethesda-blizzard-activision-king-2025-games-thank-you/" target="_blank" rel="noreferrer noopener">Speaking to the Xbox Wire blog</a> as part of a larger end-of-the-year interview with developers from the Xbox, Bethesda, and Activision Blizzard King divisions, they stated:</p>
+
+
+
+<p><em>Next year marks the 20th anniversary of Gears of War, and we can’t think of a bigger way to celebrate than with the release of Gears of War: E-Day. This is our most ambitious game yet, entirely built from scratch in Unreal Engine 5 to feel like Gears and play like new. This is a return to our roots as Marcus &amp; Dom face the Locust for the first time ever. It’s the best place to jump into the Gears universe and we can’t wait to share more next year.</em></p>
+
+
+
+<p>It is unclear what metric they are considering for this particular claim. We know that E-Day will be more linear than Gears 5, which included open-ended exploration areas and some side content, so they are unlikely to be referring to scope. Perhaps it's merely a reference to an increased budget. </p>
+
+
+
+<p>Anyway, Gears of War: E-Day will be an origin story set fourteen years before the first Gears game, on Emergence Day, when the Locust Horde first emerged from its underground tunnels to overwhelm the surface world of the planet Sera. Despite Gears of War: Reloaded's launch on PlayStation 5, E-Day is currently only announced for PC and Xbox Series S and X.</p>
+
+			
+			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
+
+		</div></div><br/><br/>https://wccftech.com/gears-of-war-e-day-is-our-most-ambitious-game-yet-says-the-coalition/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[JBL Breaks Its Pricing Rules on the Clip 5 Speaker, Basically Giving It Away as a Christmas Deal]]></title>
+            <link>https://kotaku.com/jbl-breaks-its-pricing-rules-on-the-clip-5-speaker-basically-giving-it-away-as-a-christmas-deal-2000654316</link>
+            <guid>1388233</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+              
+              <p>A quality Bluetooth speaker is a must-have for pretty much everyone. Whether you’re spending time with friends at the park or tackling household chores, a portable speaker can completely set the mood. <a href="https://shop.kotaku.com/go/6243/">The JBL Clip 5 is the ideal companion for any situation where you’d want to reach for a Bluetooth speaker, and right now, you can grab it at a 25% discount on Amazon.</a> Originally priced at $80, the JBL Clip 5 is now available for just $60. With powerful sound, a durable design, and a range of stylish color options, it’s a high-quality option for music lovers on the move.</p>
+<p>The JBL Clip 5 delivers powerful, clear sound with deep bass, no matter where you take it. Whether you’re at the beach, by the pool, or on a hike, this portable speaker ensures your music stays crisp and vibrant. It’s built with an IP67 rating, meaning it is both waterproof and dustproof. So whether you’re caught in a rainstorm or accidentally drop it in the sand, the JBL Clip 5 is made to withstand the elements. The rugged exterior combines durable fabric with rubber, ensuring the speaker can handle the outdoors and a bit of rough treatment.</p>
+<p><a href="https://shop.kotaku.com/go/6243/" target="_self" rel="sponsored nofollow">See at Amazon</a></p>
+
+<h2>Portability at Its Finest</h2>
+<p>The “Clip” in JBL Clip 5 isn’t just a name. The whole design is built around it. The speaker includes an integrated carabiner clip. While the speaker itself is compact and easy to carry, the clip allows you to securely attach it to your bag or belt loop. Once you’re at your destination, the clip can be used to fasten it to your beach chair or whatever else, making sure your music is always within reach and ready to go.</p>
+<p>A portable speaker isn’t much good if the battery runs out halfway through a playlist. Fortunately, the JBL Clip 5 offers impressive battery life, delivering up to 12 hours of playtime on a single charge. And if you need a little extra time, you can activate the Playtime Boost feature, which prioritizes power and gives you up to three additional hours of listening time—bringing the total playtime to 15 hours. With this extended battery life, the JBL Clip 5 is equipped to last through a full day of adventure or relaxation alike.</p>
+
+
+
+<p>JBL speakers are known for their stylish and vibrant designs, and the JBL Clip 5 continues that tradition. Beyond just the classic color options like black and white, the JBL Clip 5 offers a variety of fun and bold choices. You can opt for a sleek black-and-orange combination or choose a playful pink-and-blue, sand-and-green, or solid blue, purple, or red color schemes. For those who prefer something a bit edgier, there’s even a camouflage “squad” pattern. Just make sure not to set it down in the grass. You’ll never find it again.</p>
+<p>As a JBL speaker, the JBL Clip 5 is equipped with Auracast. This lets you pair two or more Auracast-enabled speakers together, synchronized to the same audio, to create even bigger sound. It’s great for having a party, and making sure the same music is playing throughout different rooms of the house or both inside and outside in the backyard.</p>
+<p><a href="https://shop.kotaku.com/go/6243/" target="_self" rel="sponsored nofollow">See at Amazon</a></p>
+
+                          </div></div><br/><br/>https://kotaku.com/jbl-breaks-its-pricing-rules-on-the-clip-5-speaker-basically-giving-it-away-as-a-christmas-deal-2000654316]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[The Nintendo Switch 2 Just Got Another Last-Minute Discount]]></title>
+            <link>https://kotaku.com/the-nintendo-switch-2-just-got-another-last-minute-discount-2000654829</link>
+            <guid>1388227</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+              
+              <p>If you’re in the market for <a href="https://kotaku.com/switch-2-better-tech-enshitification-google-review-1851784417">a Nintendo Switch 2</a> and live close to a Microcenter, you’re in luck. The PC store chain currently has the console marked down to just $400 in a surprise last-minute discount for the most popular new gaming hardware of the year.</p> <p>Microcenter is <a href="https://www.microcenter.com/product/695288/nintendo-switch-2-console">currently advertising</a> the console at $50 off it’s regular sticker price. Not bad for the Switch 2’s first holiday. The catch is that you have to actually go to Microcenter to get it, however. There’s no shipping, so you either need to live close or drive far. The store closest to me says it has 25 unit in stock as of this writing, though it’s not clear how long the discount will be in effect.</p>
+
+ <blockquote data-width="500" data-dnt="true"> <p lang="en" dir="ltr">Nintendo Switch 2 is $399.99 at Micro Center (in-stores) <a href="https://t.co/Jw6BrF6Ufj">https://t.co/Jw6BrF6Ufj</a> <a href="https://t.co/SpmMKtmVIx">pic.twitter.com/SpmMKtmVIx</a></p> <p>— Wario64 (@Wario64) <a href="https://twitter.com/Wario64/status/2001655303683678709?ref_src=twsrc%5Etfw">December 18, 2025</a></p></blockquote>  <p>It’s worth noting that this is only for the standalone console, not the <em>Mario Kart World</em> bundle. If you were planning on also buying that game, which costs an additional $80, you’d basically only be saving $20 off the normal bundle price. Still something, but not as good as the <em>Mario Kart World</em> bundle discounted to $450 that <a href="https://kotaku.com/switch-2-sale-cyber-monday-mario-kart-world-walmart-amazon-2000649232">Walmart and some other stores</a> were selling earlier this month.</p> <p>Any savings on a new console, especially one that’s sold as well as the Switch 2 in its first year, comes as a nice surprise. It’s also been an unexpectedly tough holiday season for new console sales. Circana recently reported that only <a href="https://kotaku.com/switch-2-ps5-prices-sales-inflation-economy-2000654196">1.6 million units were sold in November</a> across Switch 2, Switch 1, PS5, and Xbox Series X/S, making it the worst pre-holiday sales month for gaming hardware since 1995. That’s because even with Black Friday discounts, the average cost of a new console keeps going up.</p>
+                          </div></div><br/><br/>https://kotaku.com/the-nintendo-switch-2-just-got-another-last-minute-discount-2000654829]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Dave the Diver's In The Jungle DLC will make substantial changes, with Animal Crossing sim mechanics and a new restaurant]]></title>
+            <link>https://www.eurogamer.net/dave-the-divers-in-the-jungle-dlc-will-make-substantial-changes-with-animal-crossing-sim-mechanics-and-a-new-restaurant</link>
+            <guid>1388221</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
+
+
+<header data-component="article-header">
+  
+
+    
+
+
+  <p>
+
+  <figure>
+      <picture>
+        <source srcset="https://assetsio.gnwcdn.com/Dave-the-Diver_DLC_In-the-Jungle-Key-Art.png?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Dave-the-Diver_DLC_In-the-Jungle-Key-Art.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Dave-the-Diver_DLC_In-the-Jungle-Key-Art.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Dave-the-Diver_DLC_In-the-Jungle-Key-Art.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Dave-the-Diver_DLC_In-the-Jungle-Key-Art.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Dave-the-Diver_DLC_In-the-Jungle-Key-Art.png?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Dave-the-Diver_DLC_In-the-Jungle-Key-Art.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Dave-the-Diver_DLC_In-the-Jungle-Key-Art.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Dave-the-Diver_DLC_In-the-Jungle-Key-Art.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
+        
+      </picture>
+
+        <figcaption>
+          <span>Image credit: <cite>Mintrocket</cite></span>
+        </figcaption>
+  </figure>
+  </p>
+
+    
+
+</header>
+  <div data-component="article-content">
+
+
+
+            <p>Mintrocket has revealed more on the forthcoming <a href="https://www.eurogamer.net/games/dave-the-diver">Dave the Diver</a> DLC In The Jungle in its latest vlog, including new locations, gameplay, and mechanics.</p>
+<p>The DLC was <a href="https://www.eurogamer.net/dave-the-diver-in-the-jungle-announced">first teased at last year's The Game Awards</a> show, but <a href="https://www.eurogamer.net/dave-the-diver-delays-in-the-jungle-dlc-but-sure-knows-how-to-soften-the-blow-with-these-other-announcements">back in June it was delayed until 2026</a>. It's still without a firm release date, but we now know more about what's included in its 10 hour runtime.</p>
+<p>First up is the jungle village of Utara. Here, time flows in real-time, and Dave can spend time befriending villagers, gathering resources, and completing quests, all presented in an isometric view. It all sounds very Animal Crossing.</p>
+
+<figure>
+<p>
+<a aria-label="Latest In the Jungle DLC News, 2025 Recaps &amp; More! | DEV DIVE" data-platform="youtube" href="https://www.youtube.com/embed/E5_pWDFRca0?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
+<span>Latest In the Jungle DLC News, 2025 Recaps &amp; More! | DEV DIVE</span>
+<template>
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/E5_pWDFRca0?autoplay=1" frameborder="0" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/E5_pWDFRca0?autoplay=1" title="Latest In the Jungle DLC News, 2025 Recaps &amp; More! | DEV DIVE">
+</iframe> </template>
+</a>
+</p>
+<figcaption>Unveiling In the Jungle DLC, 2025 Recaps &amp; More! | DEV DIVE<a href="https://www.youtube.com/watch?v=E5_pWDFRca0" rel="noopener" target="_blank">Watch on YouTube</a></figcaption></figure>
+
+
+<p>That view also lends itself to the new restaurant, the Bancho Grill. Rather than the fixed horizontal movement of the base game, Dave will be able to freely manoeuvre around this restaurant, with befriended villagers rocking up to eat.</p>
+<p>And it's a grill rather than a sushi restaurant this time, as freshwater lake aquatic life requires cooking before eating.</p>
+<p>As for the lake, expect plenty of dangers like piranhas and crocodiles, as well as tasty fish. Dave will be equipped with a new Jungle Gun that can freely transform between net guns, shotguns, snipers, and more, which should make underwater combat a little more flexible.</p>
+<figure data-count="2" role="group">
+<figure>
+ 
+
+
+</figure>
+<figure>
+ 
+
+
+</figure>
+<figcaption><span>Image credit: <cite>Mintrocket</cite></span></figcaption>
+</figure>
+<p>In all, it's looking like a substantial extension of the base game that sees Mintrocket experimenting with gameplay and minigames alike.</p>
+<p>Dave the Diver is also heading to mobile devices next year, launching first in China and then globally. It will be fully optimised for the platform, with appropriate controls too.</p>
+<p>It follows the <a href="https://www.eurogamer.net/dave-the-diver-finally-arrives-on-xbox-series-xs-two-years-after-making-a-splash-on-pc">release of the game on Xbox last month</a>, announced at the Xbox Partner Preview, meaning the game is now available across PC (Steam, Epic), PS4, PS5, Xbox Series X/S, and Nintendo Switch consoles.</p>
+
+        </div>
+
+  
+      </article>
+
+
+
+  
+
+
+
+  
+
+  <section>
+    <span>Related topics</span>
+
+    
+  </section>
+  </div></div><br/><br/>https://www.eurogamer.net/dave-the-divers-in-the-jungle-dlc-will-make-substantial-changes-with-animal-crossing-sim-mechanics-and-a-new-restaurant]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[Get A Closer Look At Dave The Diver's Upcoming 'In The Jungle' DLC In New "Dev Dive" Trailer]]></title>
             <link>https://www.nintendolife.com/news/2025/12/get-a-closer-look-at-dave-the-divers-upcoming-in-the-jungle-dlc-in-new-dev-dive-trailer</link>
@@ -446,7 +1282,7 @@
 
     
     <p><span>Carry over your save data to the full game when it launches.</span>
-      </p></div><div><p>“Story” and “Battle” demos for <em><a title="Games > The Legend of Heroes: Trails beyond the Horizon [19 articles]" href="https://www.gematsu.com/games/the-legend-of-heroes-trails-beyond-the-horizon">The Legend of Heroes: Trails beyond the Horizon</a></em>, publisher <a title="Companies > NIS America [203 articles]" href="https://www.gematsu.com/companies/nippon-ichi-software/nis-america">NIS America</a> announced. <span id="more-1016471"></span></p><p>The “Story” demo, which features an introduction through the game’s prologue, is available for <a title="Platforms > PS5 [11,113 articles]" href="https://www.gematsu.com/platforms/playstation/ps5">PlayStation 5</a>, Switch 2, <a title="Platforms > PS4 [28,608 articles]" href="https://www.gematsu.com/platforms/playstation/ps4">PlayStation 4</a>, Switch, and <a title="Platforms > PC [25,151 articles]" href="https://www.gematsu.com/platforms/pc">PC</a> via <a href="https://store.steampowered.com/app/3316940/The_Legend_of_Heroes_Trails_beyond_the_Horizon/" target="_blank">Steam</a>. The “Battle” demo, which is packed with combat, is available for PlayStation 5 and PlayStation 4.</p><p>Here is an overview of each demo, via NIS America:</p><blockquote><p><strong>Story Demo</strong></p><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/12/Trails-Beyond-Horizon-Demos_12-19-25_Story.jpg"></a></figure><p>Play through the Prologue of <em>The Legend of Heroes: Trails beyond the Horizon</em>! Van Arkride and Arkride Solutions return as the fate of the entire Zemurian continent hangs in the balance. With Zemuria preparing for its first space venture, Van Arkride, Rean Schwarzer, and Father Kevin Graham are called to a Marduk training exercise that sets them on a collision course with the secrets at the heart of the world. Their paths may diverge, but the ultimate question remains the same: Just what lies beyond the edge of the horizon?</p><!-- AD: content -->
+      </p></div><div><p>“Story” and “Battle” demos for <em><a title="Games > The Legend of Heroes: Trails beyond the Horizon [20 articles]" href="https://www.gematsu.com/games/the-legend-of-heroes-trails-beyond-the-horizon">The Legend of Heroes: Trails beyond the Horizon</a></em>, publisher <a title="Companies > NIS America [203 articles]" href="https://www.gematsu.com/companies/nippon-ichi-software/nis-america">NIS America</a> announced. <span id="more-1016471"></span></p><p>The “Story” demo, which features an introduction through the game’s prologue, is available for <a title="Platforms > PS5 [11,113 articles]" href="https://www.gematsu.com/platforms/playstation/ps5">PlayStation 5</a>, Switch 2, <a title="Platforms > PS4 [28,608 articles]" href="https://www.gematsu.com/platforms/playstation/ps4">PlayStation 4</a>, Switch, and <a title="Platforms > PC [25,151 articles]" href="https://www.gematsu.com/platforms/pc">PC</a> via <a href="https://store.steampowered.com/app/3316940/The_Legend_of_Heroes_Trails_beyond_the_Horizon/" target="_blank">Steam</a>. The “Battle” demo, which is packed with combat, is available for PlayStation 5 and PlayStation 4.</p><p>Here is an overview of each demo, via NIS America:</p><blockquote><p><strong>Story Demo</strong></p><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/12/Trails-Beyond-Horizon-Demos_12-19-25_Story.jpg"></a></figure><p>Play through the Prologue of <em>The Legend of Heroes: Trails beyond the Horizon</em>! Van Arkride and Arkride Solutions return as the fate of the entire Zemurian continent hangs in the balance. With Zemuria preparing for its first space venture, Van Arkride, Rean Schwarzer, and Father Kevin Graham are called to a Marduk training exercise that sets them on a collision course with the secrets at the heart of the world. Their paths may diverge, but the ultimate question remains the same: Just what lies beyond the edge of the horizon?</p><!-- AD: content -->
         <p>The Story Demo is available now on PC, <a title="Platforms > Switch [18,132 articles]" href="https://www.gematsu.com/platforms/nintendo/switch">Nintendo Switch</a>*, <a title="Platforms > Switch 2 [823 articles]" href="https://www.gematsu.com/platforms/nintendo/switch-2">Nintendo Switch 2</a>*, PlayStation 4, and PlayStation 5.</p><p><em>*All save data will carry over to the main game upon release with the day one patch.</em></p><p><strong>Battle Demo</strong></p><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2025/12/Trails-Beyond-Horizon-Demos_12-19-25_Battle.jpg"></a></figure><p>Battle in the Grim Garten! Choose from three party selections (Van, Kevin, and Rean) and take on the Grim Garten, a virtual reality service originally developed by Marduk that has since been hacked by Ouroboros, who altered both its appearance and functionalities. Its earlier version, the ‘Marchen Garten,’ was considered the world’s first fully immersive virtual reality service and had the ability to connect users across the continent through the power of the orbal network.</p><p>The Battle Demo is exclusively available now on PlayStation 4 and PlayStation 5.</p></blockquote><p><em>The Legend of Heroes: Trails beyond the Horizon</em> is due out for PlayStation 5, Switch 2, PlayStation 4, Switch, and PC via <a href="https://store.steampowered.com/app/3316940/The_Legend_of_Heroes_Trails_beyond_the_Horizon/" target="_blank" rel="noopener">Steam</a>, <a href="https://store.epicgames.com/p/the-legend-of-heroes-trails-beyond-the-horizon-9a0e43" target="_blank" rel="noopener">Epic Games Store</a>, and <a href="https://www.gog.com/en/game/the_legend_of_heroes_trails_beyond_the_horizon" target="_blank" rel="noopener">GOG</a> on January 15, 2026 in the west. It first launched for PlayStation 5 and PlayStation 4 on September 26, 2024 in Japan and Asia, followed by PC via <a href="https://store.steampowered.com/app/3319980/The_Legend_of_Heroes_Kai_no_Kiseki_Farewell_O_Zemuria/" target="_blank" rel="noopener">Steam</a> on January 23, 2025 in Asia.</p><p>Watch a new trailer below.</p><h2><span>Demos Trailer</span></h2><p><iframe title="The Legend of Heroes: Trails beyond the Horizon - Story and Battle Demo Trailer" width="500" height="281" src="https://www.youtube.com/embed/uJUXbKNOhCY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p></div></div><br/><br/>https://www.gematsu.com/2025/12/the-legend-of-heroes-trails-beyond-the-horizon-story-and-battle-demos-now-available]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
@@ -927,139 +1763,6 @@
     
     
     </div></div><br/><br/>https://insider-gaming.com/rare-fortnite-cosmetic-finally-returns-after-seven-year-wait/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[What We Played – Aaero2, Silent Hill f & Demeo X D&D]]></title>
-            <link>https://www.thesixthaxis.com/2025/12/19/what-we-played-aaero2-silent-hill-f-demeo-x-dd/</link>
-            <guid>1388098</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
-	
-		<p>Oh, the weather outside is frightful, but your backlog is so delightful, that you will certainly have something to play over the holiday period. Are you waiting for something new under the Christmas tree? Or will you hunker down and play your favourite titles as that’s just a little more cosy. I’ll be continuing my own cosy return to Monster Hunter World, which has come back into regular rotation thanks to the fact that the end game is still more satisfying and in depth that Monster Hunter Wilds. That said, there’s a new update there, so I’ll check that out over the weekend too. Besides that, I’ve really enjoyed <a href="https://www.thesixthaxis.com/2025/12/18/neon-inferno-review-the-new-run-n-gun-king/">Neon Inferno</a>, Rogue Trader, <a href="https://www.thesixthaxis.com/2025/12/16/aaero2-black-razor-edition-review/">Aaero2: Black Razor Edition</a> and Demeo X Dungeons &amp; Dragons: Battlemarked with Tef which has kept things pretty varied.</p>
-
-<p><strong>Jason</strong> was the first to pop in, and he’s been playing Shape of Dreams, calling it, “A really fun roguelike with MOBA-style abilities you can customise with gems and a really nice aesthetic.” That’s not all though, as he continued, “I’ve also downloaded a bunch of games to my Steam Deck, and am hoping to get through some Shadow of Wardor too in the brief window of time off I have.”</p>
-<p><strong>Tuffcub</strong> has returned to his regular stomping ground by playing Destiny 2 just a little bit, but he’s mostly playing the annual favourite “How do I keep both my mother and the mother-in-law happy over Christmas.” He’s also been playing a game of ‘getting the stupidest gifts possible.’ He explains, “My cat is giving my boyfriend a year’s supply of antihistamines as he’s allergic to cats.” Sounds pretty thoughtful for a cat.</p>
-<p>Having finished Dispatch this week, <strong>Gamoc</strong> said, “It’s great, but too short and too episodic! Playing through it is like playing MGS5, with all the repeating credits and stuff.” He’s also tried a litany of things: CloverPit (Balatro for slot machines), News Tower, Megabonk, This Ain’t Even Poker, Ya Joker (an idle clicker with cards and poker hands), Destropolis, and Mycopunk, with the latter he said, “It seems really good but my PC barely runs it.” He also played ‘starting Stranger Things from the beginning since it’s now finally finishing’. His review? “Pretty good.”</p>
-
-<p><strong>Aran</strong> has been playing Star Wars Outlaws. He says, “I’ve only had it since last Christmas… I’m enjoying it just exploring the planets, flying around space, and completing contracts as I go.”</p>
-
-<p>Next up was <strong>Ade</strong>, and told us, “Along with playing the roguelike Wizards of Legend 2 with Laura (surely we must be getting close to defeating the first boss?!) I’ve also been on with the online coop shenanigans of Warhammer 40k Darktide (such a fun game!) And Metroid Prime 4.” He continues, “With Metroid Prime, I really can’t decide if I like it yet! Exploration is as brilliant as any other game in the series but there’s also a lot of fairly weak combat to slog through. Also, I can’t get over why this advanced species of psychic aliens are obsessed with motorbikes, so much so that the suit they’ve given to Sames makes her look like she’s competing in the Isle of Man TT. It’s a bit weird.”</p>
-<p><strong>Steve</strong> has been getting back to clearing some of his physical media as he spent time in bed recovering from his bout of flu. What did he get up to? “I set up my 360 on an old monitor with headphone output and ploughed through the boring God of War clone Hellboy and the Science of Evil (only to discover that the real ending of the game is locked behind DLC that is no longer available…). I then started Quantum Theory which is the most 2010 game ever. Lots of Gears of War corridors and waist-high cover. In less physical gaming I played through some demos that were lurking from the last Next Fest to clear some hard drive space. And finally, I sat and played Sword of the Sea through which was a wonderfully chill and meditative time with awesome visuals and music.”</p>
-
-<p><strong>Laura</strong> received a lovely treat from Ade: unadulterated horror! He thoughtfully bought Silent Hill f for her birthday this week. She said, “It’s been great fun going straight from Silent Hill 2 into playing the new one. I’m loving the traditional Silent Hill vibes but set in 1960s Japan. Everything I loved from 2, with spot-on tweaks to the gameplay elements. A birthday treat indeed!”</p>
-<p><strong>Jim</strong> has been dipping in and out of a few games this week. I started by finishing up Ghost of Yotei which doesn’t have the most exciting ending, but I’m looking forward to exploring the open world and cross off some more bounties. I’ve now started playing Mafia: The Old Country which does an excellent job of slowly easing you into its early 1900s Sicilian setting – it’s been a couple of hours and I still haven’t fired a gun! Speaking of guns, I pulled the trigger and dove into Arc Raiders. For a PvP extraction shooter, the other players I’ve come across have all been surprisingly friendly, leading to cool impromptu encounters, helping each other take down Arcs and haul our loot to the exit zones.</p>
-<p><strong>Miguel</strong> kept things short and sweet by playing a bunch of Fear &amp; Hunger: Termina, and a pinch of Fortnite, and finally, I gave it away in the opening, but <strong>Tef’s</strong> main gaming this week has been Demeo X Dungeons &amp; Dragons: Battlemarked.</p>
-<p>Now then, what have you played this week?</p>
-
-
-<!-- CONTENT END 1 -->
-
-		
-	</div></div><br/><br/>https://www.thesixthaxis.com/2025/12/19/what-we-played-aaero2-silent-hill-f-demeo-x-dd/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Nintendo Switch OLED With Joy-Con Retocks at All-Time Low as Grade-A Refurbished While New Stock Is Sold Out]]></title>
-            <link>https://kotaku.com/nintendo-switch-oled-with-joy-con-retocks-at-all-time-low-as-grade-a-refurbished-while-new-stock-is-sold-out-2000654706</link>
-            <guid>1388092</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-              
-              <p>Looking to finally invest in a Nintendo Switch? Now’s the time to lock one in, especially now that the holidays are here. Whether you like sitting on the couch, taking gaming on the go, or playing with friends at a get together, the Switch OLED version is a great console to bring home. It’s now the more affordable cousin of the Switch 2, and it’s available at an even lower price than usual.</p>
-<p>If you think you’re ready to buy a Switch to start your new library of titles, <a href="https://shop.kotaku.com/go/6170/">Amazon has the Nintendo Switch OLED Model w/ Joy-Con (Renewed) for just $308, down from its usual price of $385.</a> That is a discount of $77 and 20% off. Now, keep in mind that this is a Renewed version of the console, so it’s not brand new, but it’s still well worth grabbing.</p>
-<p><a href="https://shop.kotaku.com/go/6171/" target="_self" rel="sponsored nofollow">See at Amazon</a></p>
-
-<h2>One of Nintendo’s best portable gaming consoles</h2>
-<p>One of the first things people notice about the OLED model is the display. It is wider and more vivid than the standard Switch screen, so colors look bright and bold whether you are on the go or playing in tabletop mode. This can make games feel more immersive and enjoyable, from exploring open worlds to playing puzzle games with friends.</p>
-<p>Even though this unit is renewed, it still gives you the full Nintendo Switch experience. You can dock it to play on a TV just like a brand new model, or you can use it in handheld mode when you want gaming freedom without being tied to a screen in your living room. The joy con controllers are easy to detach for multiplayer games at a party or a family game night. You can also use the touch screen for compatible titles, which adds another layer of interaction.</p>
-
-
-
-<p>The renewed model goes through inspection to make sure it works properly, which means you get the same game library and capabilities without paying full retail price. There may be a few cosmetic imperfections, but you’ll mostly be getting a blemish-free unit that’s been guaranteed to work.</p>
-<p>With a huge library of games from all kinds of genres, the Switch is great for kids, teens, and adults who like variety in their play. From racing to role playing to fitness and rhythm games, there is stuff here for nearly everyone. It has become a go to portable console because it stays fun and fresh with new titles releasing regularly.</p>
-<p><a href="https://shop.kotaku.com/go/6170/">For just $308, down from $385, the Nintendo Switch OLED Model w/ Joy-Con (Renewed) gives you plenty of value with a ton of ways to play.</a> Whether you’re giving it as a gift or keeping it for yourself, it’s a good idea to go ahead and lock yours in.</p>
-<p><a href="https://shop.kotaku.com/go/6171/" target="_self" rel="sponsored nofollow">See at Amazon</a></p>
-
-                          </div></div><br/><br/>https://kotaku.com/nintendo-switch-oled-with-joy-con-retocks-at-all-time-low-as-grade-a-refurbished-while-new-stock-is-sold-out-2000654706]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Xbox's Canceled Perfect Dark Game Had 'Entire Chapters' of Motion Capture Recorded, and a Doomed Rescue Plan to Salvage a 'Slimmed Down' Version]]></title>
-            <link>https://www.ign.com/articles/xboxs-canceled-perfect-dark-game-had-entire-chapters-of-motion-capture-recorded-and-a-doomed-rescue-plan-to-salvage-a-slimmed-down-version</link>
-            <guid>1388083</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><section data-cy="article-content"><p data-cy="paragraph">Doomed Xbox blockbuster <a data-cy="styled-link" href="https://www.ign.com/games/perfect-dark-reboot-canceled">Perfect Dark</a> had "entire chapters" of performance capture work in the can before its <a data-cy="styled-link" href="https://www.ign.com/articles/perfect-dark-reboot-canceled-and-xbox-developer-the-initiative-closed-as-part-of-devastating-microsoft-layoffs">shock cancelation this summer</a>, according to Joanna Dark actress Alix Wilton Regan. </p><p data-cy="paragraph">In an interview with <a href="https://www.thegamer.com/joanna-dark-perfect-dark-reboot-cancellation-details/" data-cy="styled-link" target="_blank" rel="noopener noreferrer">TheGamer</a>, the voice behind Dragon Age's Inquisitor and Cyberpunk 2077's Alt Cunningham says she recorded scenes for The Initiative's Perfect Dark reboot over the course of several years, beginning in 2023. "Lots" was done in 2024, with work continuing in early 2025. </p><p data-cy="paragraph">"To my knowledge, we were pretty far along, I'd done entire chapters of this universe," Regan said, adding that she was shocked to learn that Microsoft was pulling the plug, with The Initiative itself also set to be closed down as part of a wave of funding cuts and layoffs. </p><output data-cy="article-video"></output><p data-cy="paragraph">"I was as shocked, surprised, and devastated as everyone else was when the funding was pulled, and the studio was closed," Wilton-Regan continued, saying she learned the studio's fate at the same time as it was announced publicly. "I did not see it coming. I was absolutely blindsided when the project was defunded," she added. "It was devastating. So many people lost their jobs. An entire workforce was disbanded."</p><p data-cy="paragraph">A further blow would come as last-ditch talks to salvage the project also fell through — a process Wilton-Regan admits she had insider knowledge of. Interestingly, the actress mentioned that Perfect Dark may have changed in scope had it been saved, with a "slimmed-down" version ultimately seeing the light of day instead.</p><p data-cy="paragraph">"I couldn't say too much about it because I knew The Initiative was in talks to keep Perfect Dark up and running in some shape or form," Wilton-Regan revealed. "Possibly a slimmed-down version, possibly something slightly different. But certainly, everyone was working really hard behind the scenes to bring Perfect Dark back. And then one day, I heard from the creative director that the deal hadn't gone through, and that really everything had fallen apart, and production was fully stopping."</p><output data-cy="article-slideshow"><div data-cy="slideshow-view-trigger"><h3 data-cy="slideshow-preview-title">Perfect Dark Screenshots</h3></div></output><p data-cy="paragraph">A <a href="https://www.bloomberg.com/news/articles/2025-09-02/-perfect-dark-developer-lays-off-staff-after-funding-deal-falls-through" data-cy="styled-link" target="_blank" rel="noopener noreferrer">report from Bloomberg</a>, which IGN corroborated from its own sources, previously revealed that there had been a plan to keep Perfect Dark alive via the team working on the project at Tomb Raider studio Crystal Dynamics, <a data-cy="styled-link" href="https://www.ign.com/articles/the-initiative-is-teaming-up-with-crystal-dynamics-to-develop-the-new-perfect-dark-game">which had been serving as a co-developer</a>. Leadership from both Crystal and The Initiative reportedly spent two months looking for a new publisher and funding source. </p><p data-cy="paragraph">While multiple parties expressed interest, the most likely candidate turned out to be Take-Two Interactive. However, the two groups couldn't come to an agreement, at least in part due to disagreements over long-term ownership of the property. As a result, the deal fell through, <a data-cy="styled-link" href="https://www.ign.com/articles/crystal-dynamics-lays-off-more-following-perfect-dark-cancelation">resulting in layoffs</a> at Crystal Dynamics as all hope of the project being reinstated vanished.</p><p data-cy="paragraph">Earlier this month, it was reported that <a data-cy="styled-link" href="https://www.ign.com/articles/take-two-hires-former-perfect-dark-leads-for-brand-new-2k-studio">Perfect Dark studio head Darrell Gallagher and director Brian Horton had now been hired by 2K</a> to start a brand new outfit. No details have yet emerged as to what the new studio will work on, or if any other former Perfect Dark employees joined them. </p><p data-cy="paragraph">As for Wilton-Regan, while she may have lost the Joanna Dark gig, this month's big Tomb Raider reveal at The Game Awards revealed that the actress was now the official new video game Lara Croft. She'll star in next year's reimagining of the original Lara Croft adventure, <a data-cy="styled-link" href="https://www.ign.com/games/tomb-raider-legacy-of-atlantis"><u>Tomb Raider: Legacy of Atlantis</u></a>, as well as all-new blockbuster <a data-cy="styled-link" href="https://www.ign.com/games/tomb-raider-catalyst">Tomb Raider: Catalyst</a>, due in 2027.</p><p data-cy="paragraph"><em>Tom Phillips is IGN's News Editor. You can reach Tom at tom_phillips@ign.com or find him on Bluesky </em><a href="https://bsky.app/profile/tomphillipseg.bsky.social" data-cy="styled-link" target="_blank" rel="noopener noreferrer">@tomphillipseg.bsky.social</a></p></section><div><h3 data-cy="title3"><svg data-cy="icon-logo" viewBox="0 0 76 24" title="IGN"><title>IGN Logo</title><path fill="currentColor" stroke="none" d="M5.38 7.65a7.85 7.85 0 0 1 2.26-2.26c.13-1.18.31-2.26.52-3.21a10.605 10.605 0 0 0-6 6c.95-.22 2.03-.39 3.21-.52M16.34 5.36v.02c.9.59 1.67 1.37 2.27 2.27 1.18.13 2.26.31 3.21.52a10.627 10.627 0 0 0-6.02-6.01c.22.95.4 2.02.54 3.2M7.64 18.62c-.9-.59-1.67-1.37-2.27-2.27h-.03c-1.19-.14-2.26-.32-3.19-.54 1.07 2.75 3.26 4.95 6.01 6.02-.22-.95-.39-2.03-.52-3.21M18.64 16.35h-.03c-.59.9-1.37 1.67-2.27 2.27v.03c-.14 1.17-.32 2.25-.54 3.19a10.59 10.59 0 0 0 6.03-6.03c-.94.22-2 .4-3.19.54M10.04 0h3.9c.85 1.85 1.2 4.59 1.3 5.52.04.22.06.43.06.63L12 9.11 8.7 6.15c0-.17.02-.35.05-.55.1-.95.43-3.75 1.29-5.61M8.7 17.83c0 .17.02.35.05.55.1.95.43 3.75 1.29 5.61h3.9c.85-1.84 1.2-4.59 1.3-5.52.04-.22.06-.43.06-.64L12 14.87l-3.3 2.96ZM6.16 8.68c-.17 0-.35.02-.55.05-.95.12-3.75.45-5.61 1.31v3.9c1.84.85 4.59 1.19 5.52 1.3.22.04.43.06.64.06L9.11 12 6.16 8.7ZM24 10.02c-1.86-.86-4.66-1.19-5.61-1.29-.2-.03-.38-.05-.55-.05l-2.96 3.3 2.96 3.3c.2 0 .41-.02.64-.06.93-.11 3.68-.45 5.52-1.3v-3.9Z"></path><path fill="currentColor" stroke="none" d="M42.83 13.9V10h10.45c1.06 0 1.93.86 1.93 1.92v4.63c0 2.38-1.91 4.36-4.33 4.36h-6.69c-4.96 0-8.97-4-8.97-8.94s4.04-8.95 8.98-8.95h10.36v4.11H44.2c-2.67 0-4.86 2.17-4.86 4.84s2.16 4.83 4.86 4.83h6.91v-2.91h-8.27ZM33.86 3h-4.07v16.02c0 1.05.86 1.91 1.91 1.91h2.15V3M74.37 3.01h-2.18v13.81s0 .08-.03.11a.29.29 0 0 1-.24.14c-.09 0-.16-.04-.25-.15L64.83 4.93a4.347 4.347 0 0 0-3.72-2.11h-.07c-2.39 0-4.32 1.93-4.32 4.32v11.88c0 1.05.86 1.91 1.91 1.91h2.17V7.14s.02-.09.04-.13a.29.29 0 0 1 .24-.14c.09 0 .18.03.24.14l6.88 12.07c.76 1.27 2.12 2.05 3.69 2.05h.07c2.39 0 4.32-1.93 4.32-4.32V4.92c0-1.05-.85-1.91-1.91-1.91"></path></svg>Recommends</h3></div></div><div><h3 data-cy="object-summary-embed-title">In This Article</h3></div></div><br/><br/>https://www.ign.com/articles/xboxs-canceled-perfect-dark-game-had-entire-chapters-of-motion-capture-recorded-and-a-doomed-rescue-plan-to-salvage-a-slimmed-down-version]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Sony and Honda's new vehicle will let passengers play PS5 games via Remote Play]]></title>
-            <link>https://www.eurogamer.net/sony-and-hondas-new-vehicle-will-let-passengers-play-ps5-games-but-theres-a-catch</link>
-            <guid>1388077</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
-
-
-<header data-component="article-header">
-  
-
-    
-
-
-  <p>
-
-  <figure>
-      <picture>
-        <source srcset="https://assetsio.gnwcdn.com/Web_eyechach_SIE_2.png?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Web_eyechach_SIE_2.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Web_eyechach_SIE_2.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Web_eyechach_SIE_2.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Web_eyechach_SIE_2.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Web_eyechach_SIE_2.png?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Web_eyechach_SIE_2.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Web_eyechach_SIE_2.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Web_eyechach_SIE_2.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>Sony Honda</cite></span>
-        </figcaption>
-  </figure>
-  </p>
-
-    
-
-</header>
-  <div data-component="article-content">
-
-
-
-            <p>Sony and Honda have announced its new car will include PlayStation Remote Play, so passengers can stream PS4 and PS5 games on the go.</p>
-<p>The Afeela 1 will be the first car from the joint venture Sony Honda Mobility, established in 2022 to produce electric vehicles. The car will be available in California first in 2026.</p>
-<p>PlayStation Remote Play will be integrated into the Afeela In-Vehicle Infotainment system, so you'll need a PS4 or PS5 console at home to make use of the feature.</p>
-<p>The vehicles will also feature an integrated display and premium audio system with which to play games. Presumably, you'll need to take your PlayStation controller with you on the road.</p>
-<p>Note this use of Remote Play is separate to streaming <a href="https://www.eurogamer.net/playstation-plus-games-list-premium-extra-this-month-6300">PS Plus games</a> via the cloud.</p>
-<p>"The introduction of PS Remote Play embodies Afeela's vision for mobility: transforming the traveling space into a captivating and emotional one," said Izumi Kawanishi, representative director, president and COO, Sony Honda Mobility Inc.</p>
-<p>"Through this integration, we are elevating the customer's entire travel experience to an unprecedented level of entertainment."</p>
-<p>This is by no means the first time we've seen in-vehicle gaming. Back in 2022,<a href="https://www.eurogamer.net/casual-games-will-be-playable-on-a-bmw-next-year"> BMW announced it would begin offering casual gaming in its cars</a>, controlled using smartphones.</p>
-<p>That same year, <a href="https://www.eurogamer.net/tesla-rolling-out-steam-integration-in-cars">Tesla announced in-vehicle Steam integration</a>, but <a href="https://www.eurogamer.net/tesla-pulls-steam-from-new-vehicles-as-its-new-gaming-computer-is-no-longer-capable-of-playing-steam-games">18 months later it was dropped</a>.</p>
-
-        </div>
-
-  
-      </article>
-
-
-
-  
-
-
-
-
-  <section>
-    <span>Related topics</span>
-
-    
-  </section>
-  </div></div><br/><br/>https://www.eurogamer.net/sony-and-hondas-new-vehicle-will-let-passengers-play-ps5-games-but-theres-a-catch]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
