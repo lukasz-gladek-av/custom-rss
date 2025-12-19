@@ -4,24 +4,58 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Fri, 19 Dec 2025 10:53:44 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 19 Dec 2025 18:16:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Reminder: Donate to win swag in our annual Charity Drive sweepstakes]]></title>
-            <link>https://arstechnica.com/gaming/2025/12/reminder-donate-to-win-swag-in-our-annual-charity-drive-sweepstakes-18/</link>
-            <guid>1387789</guid>
+            <title><![CDATA[We asked four AI coding agents to rebuild Minesweeper—the results were explosive]]></title>
+            <link>https://arstechnica.com/ai/2025/12/the-ars-technica-ai-coding-agent-test-minesweeper-edition/</link>
+            <guid>1388539</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
           
           
-<h2>How it works</h2>
-<p>Donating is easy. Simply <a href="https://childsplay.salsalabs.org/Donate/index.html">donate to Child’s Play</a> using a credit card or PayPal or <a href="http://eff.org/AT2014">donate to the EFF</a> using PayPal, credit card, or cryptocurrency. You can also support Child’s Play directly by using <a href="https://my.onecause.com/fundraiser/organizations/8534d777-53ce-4d94-a537-c8e0cbb7acb0/fundraisers/fundraiser:ae0c129c-94ac-4e63-a265-20b71ac4bd03">this Ars Technica campaign page</a> or picking an item from the Amazon wish list of a specific hospital on <a href="https://childsplaycharity.org/get-involved#hospital-map">its donation page</a>. Donate as much or as little as you feel comfortable with—every little bit helps.</p>
-<p>Once that’s done, it’s time to register your entry in our sweepstakes. Just grab a digital copy of your receipt (a forwarded email, a screenshot, or simply a cut-and-paste of the text) and send it to <a href="mailto:ArsCharityDrive@gmail.com">ArsCharityDrive@gmail.com</a> with your name, postal address, daytime telephone number, and email address by 11:59 pm ET Friday, January 2, 2026. (One entry per person, and each person can only win up to one prize. US residents only. NO PURCHASE NECESSARY. <a href="https://arstechnica.com/2024-ars-technica-charity-drive-official-rules/">See Official Rules</a> for more information, including how to enter without making a donation. Also, refer to the <a href="http://www.condenast.com/privacy-policy#privacypolicy">Ars Technica privacy policy (https://www.condenast.com/privacy-policy)</a>.</p>
-<p>We’ll then contact the winners and have them choose their prize by January 31, 2026 (choosing takes place in the order the winners are drawn). Good luck!</p>
+
+<p><strong>Overall: 7/10</strong></p>
+<p>The lack of chording is a big omission, but the strong presentation and Power Mode options give this effort a passable final score.</p>
+<h2>Agent 4: Google Gemini CLI</h2>
+<p><a href="https://www.bxfoundry.com/minesweeper/4/">Play it for yourself</a></p>
+<figure>
+    <div id="caption-2132854"><p>
+              So… where’s the game?
+                              </p>
+                          </div>
+          <figcaption>
+        <div><p>
+      So… where’s the game?
+
+              <span>
+          Credit:
+
+                      <a href="https://www.bxfoundry.com/minesweeper/4/" target="_blank">
+          
+          Benj Edwards
+
+                      </a>
+                  </span>
+          </p></div>
+      </figcaption>
+      </figure>
+
+<p><strong>Implementation, p</strong><strong>resentation, etc.</strong></p>
+<p>Gemini CLI did give us a few grey boxes you can click, but the playfields are missing. While interactive troubleshooting with the agent may have fixed the issue, as a “one-shot” test, the model completely failed.</p>
+<p><strong>Coding experience</strong></p>
+<p>Of the four coding agents we tested, Gemini CLI gave Benj the most trouble. After developing a plan, it was very, very slow at generating any usable code (about an hour per attempt). The model seemed to get hung up attempting to manually create WAV file sound effects and insisted on requiring React external libraries and a few other overcomplicated dependencies. The result simply did not work.</p>
+<p>Benj actually bent the rules and gave Gemini a second chance, specifying that the game should use HTML5. When the model started writing code again, it also got hung up trying to make sound effects. Benj suggested using the WebAudio framework (which the other AI coding agents seemed to be able to use), but the result didn’t work, which you can see at the link above.</p>
+<p>Unlike the other models tested, Gemini CLI apparently uses a hybrid system of three different LLMs for different tasks (Gemini 2.5 Flash Lite, 2.5 Flash, and 2.5 Pro were available at the level of the Google account Benj paid for). When you’ve completed your coding session and quit the CLI interface, it gives you a readout of which model did what.</p>
+<p>In this case, it didn’t matter because the results didn’t work. But it’s worth noting that Gemini 3 coding models are available for <a href="https://geminicli.com/docs/get-started/gemini-3/">other subscription plans</a> that were not tested here. For that reason, this portion of the test could be considered “incomplete” for Google CLI.</p>
+<p><strong>Overall: 0/10 (Incomplete)</strong></p>
+<h2>Final verdict</h2>
+<p>OpenAI Codex wins this one on points, in no small part because it was the only model to include chording as a gameplay option. But Claude Code also distinguished itself with strong presentational flourishes and quick generation time. Mistral Vibe was a significant step down, and Google CLI based on Gemini 2.5 was a complete failure on our one-shot test.</p>
+<p>While experienced coders can definitely get better results via an interactive, back-and-forth code editing conversation with an agent, these results show how capable some of these models can be, even with a very short prompt on a relatively straightforward task. Still, we feel that our overall experience with coding agents on other projects (more on that in a future article) generally reinforces the idea that they currently function best as interactive tools that augment human skill rather than replace it.</p>
 
 
           
-                  </div></div><br/><br/>https://arstechnica.com/gaming/2025/12/reminder-donate-to-win-swag-in-our-annual-charity-drive-sweepstakes-18/]]></content:encoded>
+                  </div></div><br/><br/>https://arstechnica.com/ai/2025/12/the-ars-technica-ai-coding-agent-test-minesweeper-edition/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>

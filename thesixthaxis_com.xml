@@ -4,9 +4,211 @@
         <title>maGaming RSS Feed - thesixthaxis_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/thesixthaxis_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for thesixthaxis_com</description>
-        <lastBuildDate>Fri, 19 Dec 2025 17:43:20 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 19 Dec 2025 18:16:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Of Ash and Steel update 1.05 is out now]]></title>
+            <link>https://www.thesixthaxis.com/2025/12/19/of-ash-and-steel-update-1-05-is-out-now/</link>
+            <guid>1388554</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>Of Ash and Steel developer Fire &amp; Frost has released update 1.05 for the game, bringing with it a load of fixes. Those fixes include stopping items from disappearing from the world when loading a save, and causes of crashes when in the city. In addition, Fire &amp; Frost have released advice if you have killed a quest critical NPC saying you can enter the setalivenpc command, but it is best to do it when you are out of the character’s spawn radius. The full patch notes for update 1.05 are below.</p>
+<p><iframe title="Of Ash and Steel - Official Release Trailer" width="780" height="439" src="https://www.youtube.com/embed/0Fzzd6JmXBU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+
+
+<h2>Of Ash and Steel update 1.05 patch notes</h2>
+
+<ul>
+<li>Completely reworked the loading logic that was causing items to disappear from the game world when loading saves.<wbr></li>
+<li>Updated the logic of certain dynamic objects that could cause objects to overlap and leave extra clutter.<wbr></li>
+<li>On the first load of a save created in version 1.04 (when running patch 1.05), a script will attempt to restore missing quest items.<wbr></li>
+<li>Fixed an issue that allowed duplication of container-type items in the inventory.<wbr></li>
+<li>Fixed several memory leaks related to frequent saving and loading.<wbr></li>
+<li>Fixed multiple crashes that could occur unexpectedly while in the city.<wbr></li>
+</ul>
+
+<ul>
+<li>Shade now takes the ring correctly during the first quest.<wbr></li>
+<li>Improved Chewgoon’s quest logic in “The Information Miner” when bypassing him.<wbr></li>
+<li>Improved quest logic for Chad’s armour search.<wbr></li>
+<li>Dzher now properly completes the objective when handing over recipes.<wbr></li>
+<li>Expanded the logic of Khutsut’s quest “A Five-Minute Venture”.<wbr></li>
+<li>Expanded Khutsut’s behaviour in “A Five-Minute Venture”: he can no longer die to monster attacks at the start of the quest.<wbr></li>
+<li>If Khutsut dies to hostile animals but the quest compass has already been delivered, his quest now properly completes.<wbr></li>
+<li>Expanded how Mazhar’s dialogues about Rukh are triggered.<wbr></li>
+<li>Adjusted hunter Hald’s reward.<wbr></li>
+<li>Fixed quest logic in “Dregs of Society” during the dialogue with Pascal and Shay.<wbr></li>
+<li>Fixed Corodelius’ dialogue block about the Petalophore.<wbr></li>
+<li>Fixed Corodelius’ dynamic task for creating a super potion.<wbr></li>
+<li>If you achieve the best outcome with the hungry woodcutters, Akim now gives the correct reward.<wbr></li>
+<li>Fixed the pig Stipay’s name.<wbr></li>
+<li>Expanded Irji’s quest logic in the Banker’s quest.<wbr></li>
+<li>Fixed a bug with Fox’s pouches.<wbr></li>
+<li>Fixed the reward for the quest “Best Snack Ever”.<wbr></li>
+<li>Fixed the reward for the quest “Hides for Gustav”.<wbr></li>
+<li>Fixed the rewards for the quest “The Hunters’ Contest”.<wbr></li>
+<li>Fixed Brock’s condition check in the quest where his stomach growls.<wbr></li>
+<li>Fixed one of the dialogue options with Mustard.<wbr></li>
+<li>Fixed the logic of the quest “Buns for Tibor”.<wbr></li>
+<li>Fixed being unable to attack the cultists in the cave.<wbr></li>
+<li>Fixed the placement of enemy squads in the finale.<wbr></li>
+<li>Dallar is now correctly removed from the scene after you interact with him.<wbr></li>
+<li>Fixed one of Hogan’s dialogue branches that disabled trading.<wbr></li>
+<li>Adjusted Pinker’s position in the port.<wbr></li>
+<li>Fixed the conditions for rescuing Skibbs.<wbr></li>
+<li>Removed a property zone in the port that prevented talking to Rat.<wbr></li>
+<li>Lambert now has a non-lethal damage tag until you confront him (New Game).<wbr></li>
+<li>Adjusted transformation timing for Luna’s Children according to their daily schedule.<wbr></li>
+<li>Adjusted Rogue’s persuasion dialogue via the INS check.<wbr></li>
+<li>Adjusted Irvin’s route on the road from the castle.<wbr></li>
+<li>Loaded quest interactions now correctly display interaction visual effects after loading.<wbr></li>
+<li>Fixed tutorial dialogue lines for Beltran, Irvin, and Kurt during story decisions.<wbr></li>
+<li>Lucio, Godrank, Horace, and Venegas now correctly change their appearance as the story progresses.<wbr></li>
+<li>Fixed Rogue’s dialogue with an INS check.<wbr></li>
+<li>Blad can no longer be killed prematurely (New Game).<wbr></li>
+<li>Fixed the dialogue with Zeze regarding the back scratcher.<wbr></li>
+<li>Fixed the loading of the grate in the mines in its different states.<wbr></li>
+<li>Added an animation when interacting with a dead body in the mines.<wbr></li>
+<li>Added a reward for the quest “Broken Bridge”.<wbr></li>
+<li>Added a missing journal entry for Grago’s quest “Thirst for Knowledge”.<wbr></li>
+<li>Added daily schedules for Alfard’s quest-related workers.<wbr></li>
+<li>Added daily schedules for Orrik and Norka.<wbr></li>
+<li>Fixed a dialogue with Godrank that allowed you to report capturing the fort twice and return to Chapter 3.<wbr></li>
+<li>Fixed Talgat’s line that could cause the player character to get stuck in dialogue.<wbr></li>
+<li>Fixed several guards whose hair was clipping through their helmets.<wbr></li>
+<li>Fixed a small visual glitch on a rock in the mines.<wbr></li>
+<li>Closed a small shortcut into the mines through a gap above the gate.<wbr></li>
+<li>Added an additional way to get out of the catacombs in the valley.<wbr></li>
+<li>Fixed the interaction with the net in the “Fish Day” quest.<wbr></li>
+<li>Removed the invulnerability tag from the mushroom hunter.<wbr><wbr></li>
+</ul>
+
+<ul>
+<li>When attacking a guard, their allies will now come to their aid.<wbr></li>
+<li>Adjusted the height of newly added resting points.<wbr></li>
+<li>When using healing potions in combat, the character can now move. The animation speed has been increased by 25%.<wbr></li>
+<li>Slightly updated lever interaction logic.<wbr></li>
+<li>Legend now correctly selects the finishing move type based on whether the weapon is one-handed or two-handed.<wbr></li>
+<li>Fixed the display of multiple Ranta fighters.<wbr></li>
+<li>Adjusted the map unlock location on the Free Hunters’ tower so it no longer overlaps with the flag.<wbr></li>
+<li>Fixed equipment item swapping (changing different slots could duplicate or overwrite items).<wbr></li>
+<li>Fixed being able to change stances while drawing a weapon without having the required skill.<wbr></li>
+<li>Crossbows once again work as intended.<wbr></li>
+<li>Fine amounts have been reduced by 75% (temporary).<wbr></li>
+<li>NPCs now correctly react to theft (they either fight you or call the guards).<wbr></li>
+<li>Guards now have the bandit enemy tag.<wbr></li>
+<li>Fixed a collider near Nerest’s house that prevented you from jumping onto the rock with the plant.<wbr></li>
+<li>Fixed torches being automatically equipped when purchasing them from merchants.<wbr></li>
+<li>Fixed headshot damage for bows and crossbows.<wbr></li>
+<li>Lockpicks are now twice as durable.<wbr></li>
+<li>Added a post-fishing animation loop.<wbr></li>
+<li>A torch you’re using remains lit after loading a save.<wbr></li>
+<li>Storage containers and weapon racks now correctly save items.<wbr></li>
+<li>Fixed bleed damage dealt by monsters.<wbr></li>
+<li>Exiting Boorma now correctly loads the outer layers of the city.<wbr></li>
+<li>Followers now step back from the player if you stand too close, to prevent them from getting stuck in tight spaces.<wbr></li>
+<li>Fixed how the two-handed sword “Legend” is displayed in cutscenes.<wbr></li>
+<li>Adjusted the navigation mesh at the city gates that was preventing the party from entering.<wbr></li>
+<li>Fixed several ladders that were floating in the air.<wbr></li>
+<li>Fixed several traps that were floating in the air.<wbr></li>
+<li>Increased pickpocketing range (previously, slight movement by the target could interrupt the theft too early).<wbr></li>
+<li>Turtles are no longer raid bosses – they can now be properly damaged by heavy attacks.<wbr></li>
+<li>There is now a bed for the player in the poorhouse.<wbr></li>
+<li>Irvin now grants full experience for killing monsters.<wbr></li>
+<li>Reduced Kriggs’ health in Ranta.<wbr></li>
+<li>If a thrown torch on the ground is still burning, you can now pick it up.<wbr></li>
+<li>Reduced the intensity of the Red Sky effect.<wbr></li>
+<li>Reduced fog intensity in swamp weather.<wbr></li>
+<li>Slightly rebalanced XP for higher-tier monsters within the same class: the difference between young and regular specimens has been significantly increased.<wbr></li>
+<li>Fixed the cabbage pie recipe.<wbr></li>
+<li>Fixed a crash when using the smugglers’ pig.<wbr></li>
+<li>Fixed a swamp fly animation that launched it into space.<wbr></li>
+<li>The fine for fighting without cause is now applied correctly.<wbr></li>
+<li>Fixed the chance for NPCs to use the “latest rumours” dialogue pool.<wbr></li>
+<li>Notice boards now correctly refresh daily tasks for the Gravediggers’ Guild.<wbr></li>
+<li>Fixed photo mode collision.<wbr></li>
+<li>Gustav now also teaches rare trophies.</li>
+</ul>
+
+<ul>
+<li>The end-of-combat sound has been moved to the combat music category (the combat music slider now controls its volume).<wbr></li>
+<li>Assigned correct classes to sounds that previously did not respond to the volume slider.<wbr></li>
+</ul>
+<p><span>World</span><wbr></p>
+<ul>
+<li>Fixed several NPC interactions.<wbr></li>
+<li>Fixed post-processing in the swamps.</li>
+</ul>
+
+<ul>
+<li>Guards now display the fine amount when arresting you.</li>
+<li>The fine amount is now displayed immediately after committing a crime.<wbr></li>
+<li>Added special locations for skipping time (they allow you to fast-forward time and are available in all key locations, but they do not restore health or fatigue, and only slightly reduce hunger and thirst).</li>
+<li>Added a new collider for merchants, allowing you to interact with them across counters.<wbr></li>
+<li>The bulk-buy button is now highlighted in a different colour and shows the items being purchased at the top.</li>
+<li>Added a detailed town map stand.</li>
+<li>
+<p>At&nbsp;<b>DEX 30+</b>, locks are now picked automatically.</p>
+</li>
+</ul>
+
+<ul>
+<li>Slight camera adjustments in the barber interface.<wbr></li>
+<li>The player character now steps aside when interacting with notice boards to avoid blocking the view.<wbr></li>
+<li>Spacebar can now be used to pause cutscenes.<wbr></li>
+<li>Quick and autosaves are now sorted by date.<wbr></li>
+<li>Added a Continue button in the main menu and on the death screen, which loads the latest save.<wbr></li>
+<li>Bleed damage is now displayed on enemies.<wbr></li>
+<li>Updated trade logic: empty slots now shift toward free cells to prevent item duplication.<wbr></li>
+<li>Updated the health bar HUD; the fatigue marker has been removed; stamina is now governed by thirst.<wbr></li>
+<li>Fixed arrow display in combat mode.<wbr></li>
+<li>Notes from notice boards can now be taken by clicking the button with the mouse.<wbr></li>
+<li>Items that belong to someone are now marked in red.<wbr></li>
+<li>Character names are now displayed in dialogue subtitles.<wbr></li>
+<li>Improved display in Ranta mode (21:9).<wbr></li>
+<li>Improved hero display in Ranta deck selection (21:9).<wbr></li>
+<li>Improved map display (21:9).<wbr></li>
+<li>Improved inventory display (21:9).<wbr></li>
+<li>Improved journal display (21:9).<wbr></li>
+<li>Improved fishing display (21:9).<wbr></li>
+<li>Improved camp display (21:9).<wbr></li>
+<li>Improved display of most workstations (21:9).<wbr></li>
+<li>The time of day is now displayed on the compass.</li>
+</ul>
+
+<ul>
+<li>
+<p>Fixed shovel localization in multiple languages.<wbr></p>
+</li>
+</ul>
+
+<p>If you encounter issues with missing items or killed NPCs, the debug console can help you continue your playthrough. Use the following commands. You can find a list of character and item IDs&nbsp;<u><a tabindex="0" href="steam://openurl_external/https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2F128YfZP7XwrYOMd9O4C1qNfgHqEPpRngNJu0Iow0vhqA%2Fedit%3Fusp%3Dsharing">in this table</a></u>.<wbr></p>
+<ul>
+<li>spawnitem (ID) – Spawns an item in front of the player (spawnitem oldgoblinnote)<wbr></li>
+<li>debugsettrigger (ID) – Sets a trigger (debugsettrigger quest1done)<wbr></li>
+<li>debugunsettrigger (ID) – Disables a trigger (debugunsettrigger quest1done)<wbr></li>
+<li>forceenablespeak (ID) – Enables dialogue for an NPC (forceenablespeak Nerest)<wbr></li>
+<li>additemid (ID) – Adds an item to the inventory (additemid item_01)<wbr></li>
+<li>teleportnpc (ID) – Teleports an NPC to the player (teleportnpc Nerest)<wbr></li>
+<li>setalivenpc (ID) – Revives an NPC (setalivenpc Nerest)<wbr></li>
+<li>removelodlevels all – Disables all LOD layers if they have overlapped on the map<wbr></li>
+<li>forcefollownpc (ID) – Forces an NPC to follow the player (forcefollownpc Nerest)<wbr></li>
+<li>setquest (ID) – Selects a quest for use with startquest, completequest, setactivetask, or setcompletetask (setquest quest1)<wbr></li>
+<li>startquest (ID) – Starts a quest (startquest quest1)<wbr></li>
+<li>completequest (ID) – Completes a quest (completequest quest1)<wbr></li>
+<li>setactivetask (ID) – Sets a quest task (setactivetask task01)<wbr></li>
+<li>setcompletetask (ID) – Completes a quest task (setcompletetask task01)</li>
+</ul>
+<p><em>Source: <a href="https://store.steampowered.com/news/app/2893820/view/493837645658457404">Steam</a></em></p>
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div></div><br/><br/>https://www.thesixthaxis.com/2025/12/19/of-ash-and-steel-update-1-05-is-out-now/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[REPO’s next update will let you use a walkie talkie]]></title>
             <link>https://www.thesixthaxis.com/2025/12/19/repo-update-walkie-talkie/</link>
@@ -49,35 +251,6 @@
 
 		
 	</div></div><br/><br/>https://www.thesixthaxis.com/2025/12/19/the-division-yes-the-first-one-gets-a-ps5-update/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Greedfall: The Dying World is on the right track but still has a way to go]]></title>
-            <link>https://www.thesixthaxis.com/2025/12/19/greedfall-the-dying-world-is-on-the-right-track-but-still-has-a-way-to-go/</link>
-            <guid>1388407</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
-	
-		<p>It’s often said that you don’t get a second chance to make a first impression, but this is precisely what developers Spiders are hoping to do with the most recent overhaul to their prequel to the cult favourite RPG, <a href="https://www.thesixthaxis.com/2019/09/09/greedfall-review/">Greedfall</a>. When it first launched in Early Access late last year the initial response was fairly negative, with many players left confused by its title suggesting a sequel, and many others left underwhelmed by the switch to a tactical turn-based combat system. To their credit, Spiders took this criticism on board and suspended their proposed roadmap in order to address the most pressing issues raised by players. I got the chance to have a hands-on look at the most recent build and can report that it is definitely improving.</p>
-<p><iframe title="GreedFall 2 |  2nd Major Update" width="780" height="439" src="https://www.youtube.com/embed/pPhs61akKWY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
-<p>First up, I have to confess that my time with the new build was not the most optimal of experiences, playng remotely and with my connection suffering from frame rate drops and technical issues. I’m obviously looking past these hiccups, but it did mean that I didn’t really get to enjoy some of the later parts of the demo. That being said, I got to see enough to be cautiously optimistic that The Dying World can find an appreciative audience.</p>
-
-
-<p>The demo build contained three main areas for me to explore, with the opening section and two saves at crucial later parts in the story. The opening section of the game plays out similarly to the original version, with you playing the role as a native Teer Fradee. You get to familiarise yourself with the basic mechanics and immerse yourself in the traditions and beliefs of the tribes before coming into conflict with the colonial forces that are just starting to exploit the land.</p>
-
-
-<p>This introduction works well as a tutorial and my second time experiencing it highlighted the more streamlined and intuitive combat system. The most important change here is that you can now control your companions in a far more traditional style and queue up attacks to take advantage of their skills and abilities. Each character and class has a distinct set of skills, but it looks like you can diversify or specialise to your heart’s content as you level up.</p>
-<p>The setting and atmosphere of The Dying World are one of the real highlights as there is a rich and detailed sense of world-building here. Reams of optional lore and conversation choices are available for those who want to explore as much as they can and the game is not shy in highlighting the contrasts between the tribal traditions and the colonial powers that invade. This contrast comes into direct conflict at the end of the opening section and your player character is thrust into an entirely new environment.</p>
-
-<p>The two later sections showed different areas and recruited companions that really emphasised the game’s focus on cultural conflict and exchange. Each companion seemed to have an interesting set of characteristics and motivation for joining your adventure. Obviously the finer details were not available as I was thrust into the middle of quests and storylines, but it left me intrigued as to how the story would develop. Deeper into the game, combat felt more developed as the characters were appropriately levelled and had more abilities to balance and tactical approaches to take.</p>
-<p>The final section in the demo saw me return to the lands in which you grew up and this seems to suggest a clear connection between the conclusion of this game and the world of Greedfall. Unfortunately it was here that my connection to the stream became untenable, but in retrospect this wasn’t a bad thing since it leaves me itching to find out how the story develops.</p>
-
-<p>All in all I was left far more impressed with this experience than my first try at the released build. Greedfall: The Dying World is very much an old-fashioned RPG in the style of Dragon Age: Origins and this change from the more accessible action combat of Greedfall may well still be make or break for the game and its original cohort of fans. There’s still time for the Early Access version to be developed with Spiders announcing that there will be news about the full release early in 2026, so as things stand I’d definitely encourage RPG fans to add the game to their wishlist and see how the final build turns out when we get a chance to play it.</p>
-
-
-<!-- CONTENT END 1 -->
-
-		
-	</div></div><br/><br/>https://www.thesixthaxis.com/2025/12/19/greedfall-the-dying-world-is-on-the-right-track-but-still-has-a-way-to-go/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
