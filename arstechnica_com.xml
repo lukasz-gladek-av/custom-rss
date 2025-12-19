@@ -4,16 +4,242 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Fri, 19 Dec 2025 18:16:57 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 19 Dec 2025 18:48:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[We asked four AI coding agents to rebuild Minesweeper—the results were explosive]]></title>
             <link>https://arstechnica.com/ai/2025/12/the-ars-technica-ai-coding-agent-test-minesweeper-edition/</link>
             <guid>1388539</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="main">
+            <article data-id="2132638">
+  
+  <header>
+  <div>
+    <div>
+      
+
+      
+
+      <p>
+        How do four modern LLMs do at recreating a simple Windows gaming classic?
+      </p>
+
+              
+          </div>
+
+    <div>
+    
+    <p>
+      Which mines are mine, and which are AI?
+
+              <span>
+          Credit:
+
+          
+          Aurich Lawson | Getty Images
+
+                  </span>
+          </p>
+  </div>
+  </div>
+</header>
+
+
+  
+
+  
+      
+    
+    <div>
+                      
+                      
+          
+<p>The idea of using AI to help with computer programming has become a contentious issue. On the one hand, coding agents can make <a href="https://arstechnica.com/information-technology/2025/07/ai-coding-assistants-chase-phantoms-destroy-real-user-data/">horrific mistakes</a>&nbsp;that require <a href="https://arstechnica.com/ai/2025/07/study-finds-ai-tools-made-open-source-software-developers-19-percent-slower/">a lot of inefficient human oversight</a> to fix, leading many developers to <a href="https://arstechnica.com/ai/2025/07/developer-survey-shows-trust-in-ai-coding-tools-is-falling-as-usage-rises/">lose trust in the concept altogether</a>. On the other hand, some coders insist that <a href="https://arstechnica.com/ai/2025/01/how-i-program-with-llms/">AI coding agents can be powerful tools</a>&nbsp;and that frontier models are <a href="https://arstechnica.com/ai/2025/05/anthropic-calls-new-claude-4-worlds-best-ai-coding-model/">quickly</a> <a href="https://arstechnica.com/ai/2025/12/how-openai-is-using-gpt-5-codex-to-improve-the-ai-tool-itself/">getting</a> <a href="https://arstechnica.com/ai/2025/05/anthropic-calls-new-claude-4-worlds-best-ai-coding-model/">better</a> at coding in ways that overcome some of the common problems of the past.</p>
+<p>To see how effective these modern AI coding tools are becoming, we decided to test four major models with a simple task: recreating the classic Windows game <em>Minesweeper</em>. Since it’s relatively easy for pattern-matching systems like LLMs to play off of existing code to re-create famous games, we added in one novelty curveball as well.</p>
+<p>Our straightforward prompt:</p>
+<blockquote><p>Make a full-featured web version of Minesweeper with sound effects that</p>
+<p>1) Replicates the standard Windows game and<br>
+2) implements a surprise, fun gameplay feature.</p>
+<p>Include mobile touchscreen support.</p></blockquote>
+<p>Ars Senior AI Editor Benj Edwards fed this task into four AI coding agents with terminal (command line) apps: OpenAI’s <a href="https://arstechnica.com/ai/2025/05/openai-introduces-codex-its-first-full-fledged-ai-agent-for-coding/">Codex</a> based on GPT-5, Anthropic’s <a href="https://arstechnica.com/ai/2025/10/claude-code-gets-a-web-version-but-its-the-new-sandboxing-that-really-matters/">Claude Code</a> with Opus 4.5, Google’s <a href="https://arstechnica.com/ai/2025/06/google-is-bringing-vibe-coding-to-your-terminal-with-gemini-cli/">Gemini CLI</a>, and <a href="https://arstechnica.com/ai/2025/12/mistral-bets-big-on-vibe-coding-with-new-autonomous-software-engineering-agent/">Mistral Vibe</a>. The agents then directly manipulated HTML and scripting files on a local machine, guided by a “supervising” AI model that interpreted the prompt and assigned coding tasks to parallel LLMs that can use software tools to execute the instructions. All AI plans were paid for privately with no special or privileged access given by the companies involved, and the companies were unaware of these tests taking place.</p>
+<p>Ars Senior Gaming Editor (and <a href="https://arstechnica.com/gaming/2023/02/how-bill-gates-minesweeper-addiction-helped-lead-to-the-xbox/"><em>Minesweeper</em> expert</a>) Kyle Orland then judged each example blind, without knowing which model generated which <em>Minesweeper</em> clone. Those somewhat subjective and non-rigorous results are below.</p>
+
+          
+                      
+                  </div>
+                    
+        
+          
+    
+    <div>
           
           
+<p>For this test, we used each AI model’s unmodified code in a “single shot” result to see how well these tools perform without any human debugging. In the real world, most sufficiently complex AI-generated code would go through at least some level of review and tweaking by a human software engineer who could spot problems and address inefficiencies.</p>
+<p>We chose this test as a sort of simple middle ground for the current state of AI coding. Cloning <em>Minesweeper</em> isn’t a trivial task that can be done in just a handful of lines of code, but it’s also not an incredibly complex system that requires many interlocking moving parts.</p>
+<p><em>Minesweeper</em> is also a well-known game, with <a href="https://github.com/nickarocho/minesweeper">many</a>&nbsp;<a href="https://github.com/DragonSWDev/dsdmine" target="_blank" rel="noopener">versions</a> documented across the Internet. That should give these AI agents plenty of raw material to work from and should be easier for us to evaluate than a completely novel program idea. At the same time, our open-ended request for a new “fun” feature helps demonstrate each agent’s penchant for unguided coding “creativity,” as well as their ability to create new features on top of an established game concept.</p>
+<p>With all that throat-clearing out of the way, here’s our evaluation of the AI-generated <em>Minesweeper</em> clones, complete with links that you can use to play them yourselves.</p>
+<h2>Agent 1: Mistral Vibe</h2>
+<p><a href="https://www.bxfoundry.com/minesweeper/1/">Play it for yourself</a></p>
+<figure>
+    <div id="caption-2132689"><p>
+              Just ignore that Custom button. It’s purely for show.
+                              </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      Just ignore that Custom button. It’s purely for show.
+
+              <span>
+          Credit:
+
+                      <a href="https://www.bxfoundry.com/minesweeper/1/" target="_blank">
+          
+          Benj Edwards
+
+                      </a>
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p><strong>Implementation</strong></p>
+<p>Right away, this version loses points for not implementing <a href="https://minesweeper.fandom.com/wiki/Chording">chording</a>—the technique that advanced <em>Minesweeper</em> players use to quickly clear all the remaining spaces surrounding a number that already has sufficient flagged mines. Without this feature, this version feels more than a little clunky to play.</p>
+<p>I’m also a bit perplexed by the inclusion of a “Custom” difficulty button that doesn’t seem to do anything. It’s like the model realized that customized board sizes were a thing in <em>Minesweeper</em>&nbsp;but couldn’t figure out how to implement this relatively basic feature.</p>
+
+          
+                  </div>
+                    
+        
+          
+    
+    <div>
+          
+          
+<p>The game works fine on mobile, but marking a square with a flag requires a tricky long-press on a tiny square that also triggers selector handles that are difficult to clear. So it’s not an ideal mobile interface.</p>
+
+<p><strong>Presentation</strong></p>
+<p>This was the only working version we tested that didn’t include sound effects. That’s fair, since the original Windows <em>Minesweeper</em> also didn’t include sound, but it’s still a notable relative omission since the prompt specifically asked for it.</p>
+<p>The all-black “smiley face” button to start a game is a little off-putting, too, compared to the bright yellow version that’s familiar to both <em>Minesweeper</em> players and emoji users worldwide. And while that smiley face does start a new game when clicked, there’s also a superfluous “New Game” button taking up space for some reason.</p>
+<p><strong>“Fun” feature</strong></p>
+<p>The closest thing I found to a “fun” new feature here was the game adding a rainbow background pattern on the grid when I completed a game. While that does add a bit of whimsy to a successful game, I expected a little more.</p>
+<p><strong>Coding experience</strong></p>
+<p>Benj notes that he was pleasantly surprised by how well Mistral Vibe performed as an open-weight model despite lacking the big-money backing of the other contenders. It was relatively slow, however (third fastest out of four), and the result wasn’t great. Ultimately, its performance so far suggests that with more time and more training, a very capable AI coding agent may eventually emerge.</p>
+<p><strong>Overall rating: 4/10</strong></p>
+<p>This version got many of the basics right but left out chording and didn’t perform well on the small presentational and “fun” touches.</p>
+<h2>Agent 2: OpenAI Codex</h2>
+<p><a href="https://www.bxfoundry.com/minesweeper/2/">Play it for yourself</a></p>
+
+          
+                  </div>
+                    
+        
+          
+    
+    <div>
+          
+          
+<figure>
+    <div id="caption-2132690"><p>
+              I can’t tell you how much I appreciate those chording instructions at the bottom.
+                              </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      I can’t tell you how much I appreciate those chording instructions at the bottom.
+
+              <span>
+          Credit:
+
+                      <a href="https://www.bxfoundry.com/minesweeper/2/" target="_blank">
+          
+          Benj Edwards
+
+                      </a>
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p><strong>Implementation</strong></p>
+<p>Not only did this agent include the crucial “chording” feature, but it also included on-screen instructions for using it on both PC and mobile browsers. I was further impressed by the option to cycle through “?” marks when marking squares with flags, an esoteric feature I feel even most human <em>Minesweeper</em> cloners might miss.</p>
+<p>On mobile, the option to hold your finger down on a square to mark a flag is a nice touch that makes this the most enjoyable handheld version we tested.</p>
+<p><strong>Presentation</strong></p>
+<p>The old-school emoticon smiley-face button is pretty endearing, especially when you blow up and get a red-tinted “X(“. I was less impressed by the playfield “graphics,” which use a simple “*” for revealed mines and an ugly red “F” for flagged tiles.</p>
+<p>The beeps-and-boops sound effects reminded me of my first old-school, pre-Sound-Blaster PC from the late ’80s. That’s generally a good thing, but I still appreciated the game giving me the option to turn them off.</p>
+<p><strong>“Fun” feature</strong></p>
+<p>The “Surprise: Lucky Sweep Bonus” listed in the corner of the UI explains that clicking the button gives you a free safe tile when available. This can be pretty useful in situations where you’d otherwise be forced to guess between two tiles that are equally likely to be mines.</p>
+<p>Overall, though, I found it a bit odd that the game gives you this bonus only after you find a large, cascading field of safe tiles with a single click. It mostly functions as a “win more” button rather than a feature that offers a good balance of risk versus reward.</p>
+<p><strong>Coding experience</strong></p>
+<p>OpenAI Codex has a nice terminal interface with features similar to Claude Code (local commands, permission management, and interesting animations showing progress), and it’s fairly pleasant to use (OpenAI also offers Codex through a web interface, but we did not use that for this evaluation). However, Codex took roughly twice as long to code a functional game than Claude Code did, which might contribute to the strong result here.</p>
+
+          
+                  </div>
+                    
+        
+          
+    
+    <div>
+          
+          
+<p><strong>Overall: 9/10</strong></p>
+<p>The implementation of chording and cute presentation touches push this to the top of the list. We just wish the “fun” feature was a bit more fun.</p>
+
+<h2>Agent 3: Anthropic Claude Code</h2>
+<p><a href="https://www.bxfoundry.com/minesweeper/3/">Play it for yourself</a></p>
+<figure>
+    <div id="caption-2132688"><p>
+              The Power Mod powers on display here make even Expert boards pretty trivial to complete.
+                              </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      The Power Mod powers on display here make even Expert boards pretty trivial to complete.
+
+              <span>
+          Credit:
+
+                      <a href="https://www.bxfoundry.com/minesweeper/3/" target="_blank">
+          
+          Benj Edwards
+
+                      </a>
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p><strong>Implementation</strong></p>
+<p>Once again, we get a version that gets all the gameplay basics right but is missing the crucial chording feature that makes truly efficient <em>Minesweeper</em> play possible. This is like playing <em>Super Mario Bros.</em> without the run button or <em>Ocarina of Time</em> without Z-targeting. In a word: unacceptable.</p>
+<p>The “flag mode” toggle on the mobile version of this game is perfectly functional, but it’s a little clunky to use. It also visually cuts off a portion of the board at the larger game sizes.</p>
+<p><strong>Presentation</strong></p>
+<p>Presentation-wise, this is probably the most polished version we tested. From the use of cute emojis for the “face” button to nice-looking bomb and flag graphics and simple but effective sound effects, this looks more professional than the other versions we tested.</p>
+<p>That said, there are some weird presentation issues. The “beginner” grid has weird gaps between columns, for instance. The borders of each square and the flag graphics can also become oddly grayed out at points, especially when using Power Mode (see below).</p>
+<p><strong>“Fun” feature</strong></p>
+<p>The prominent “Power Mode” button in the lower-right corner offers some pretty fun power-ups that alter the core <em>Minesweeper</em> formula in interesting ways. But the actual powers are a bit hit and miss.</p>
+<p>I especially liked the “Shield” power, which protects you from an errant guess, and the “Blast” power, which seems to guarantee a large cascade of revealed tiles wherever you click. But the “X-Ray” power, which reveals every bomb for a few seconds, could be easily exploited by a quick player (or a crafty screenshot). And the “Freeze” power is rather boring, just stopping the clock for a few seconds and amounting to a bit of extra time.</p>
+
+          
+                  </div>
+                    
+        
+          
+    
+    <div>
+          
+          
+<p>Overall, the game hands out these new powers like candy, which makes even an Expert-level board relatively trivial with Power Mode active. Simply choosing “Power Mode” also seems to mark a few safe squares right after you start a game, making things even easier. So while these powers can be “fun,” they also don’t feel especially well-balanced.</p>
+<p><strong>Coding experience</strong></p>
+<p>Of the four tested models, Claude Code with Opus 4.5 featured the most pleasant terminal interface experience and the fastest overall coding experience (Claude Code can also use Sonnet 4.5, which is even faster, but the results aren’t quite as full-featured in our experience). While we didn’t precisely time each model, Opus 4.5 produced a working <em>Minesweeper</em> in less than five minutes. Codex took at least twice as long, if not longer, while Mistral took roughly three or four times as long as Claude Code. Gemini, meanwhile, took hours of tinkering to get two non-working results.</p>
 
 <p><strong>Overall: 7/10</strong></p>
 <p>The lack of chording is a big omission, but the strong presentation and Power Mode options give this effort a passable final score.</p>
@@ -45,6 +271,19 @@
 <p>Gemini CLI did give us a few grey boxes you can click, but the playfields are missing. While interactive troubleshooting with the agent may have fixed the issue, as a “one-shot” test, the model completely failed.</p>
 <p><strong>Coding experience</strong></p>
 <p>Of the four coding agents we tested, Gemini CLI gave Benj the most trouble. After developing a plan, it was very, very slow at generating any usable code (about an hour per attempt). The model seemed to get hung up attempting to manually create WAV file sound effects and insisted on requiring React external libraries and a few other overcomplicated dependencies. The result simply did not work.</p>
+
+          
+                  </div>
+                    
+        
+          
+    
+    <div>
+
+        
+        <div>
+          
+          
 <p>Benj actually bent the rules and gave Gemini a second chance, specifying that the game should use HTML5. When the model started writing code again, it also got hung up trying to make sound effects. Benj suggested using the WebAudio framework (which the other AI coding agents seemed to be able to use), but the result didn’t work, which you can see at the link above.</p>
 <p>Unlike the other models tested, Gemini CLI apparently uses a hybrid system of three different LLMs for different tasks (Gemini 2.5 Flash Lite, 2.5 Flash, and 2.5 Pro were available at the level of the Google account Benj paid for). When you’ve completed your coding session and quit the CLI interface, it gives you a readout of which model did what.</p>
 <p>In this case, it didn’t matter because the results didn’t work. But it’s worth noting that Gemini 3 coding models are available for <a href="https://geminicli.com/docs/get-started/gemini-3/">other subscription plans</a> that were not tested here. For that reason, this portion of the test could be considered “incomplete” for Google CLI.</p>
@@ -55,7 +294,43 @@
 
 
           
-                  </div></div><br/><br/>https://arstechnica.com/ai/2025/12/the-ars-technica-ai-coding-agent-test-minesweeper-edition/]]></content:encoded>
+                  </div>
+
+                  
+          
+
+
+
+
+
+
+  <div>
+    
+
+    <p>
+      Kyle Orland has been the Senior Gaming Editor at Ars Technica since 2012, writing primarily about the business, tech, and culture behind video games. He has journalism and computer science degrees from University of Maryland. He once <a href="https://bossfightbooks.com/collections/books/products/minesweeper-by-kyle-orland">wrote a whole book about <em>Minesweeper</em></a>.
+    </p>
+  </div>
+
+
+  <p>
+    <a href="https://arstechnica.com/ai/2025/12/the-ars-technica-ai-coding-agent-test-minesweeper-edition/#comments" title="25 comments">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><defs><clipPath id="bubble-zero_svg__a"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath><clipPath id="bubble-zero_svg__b"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath></defs><g clip-path="url(#bubble-zero_svg__a)"><g fill="currentColor" clip-path="url(#bubble-zero_svg__b)"><path d="M80 40c0 22.09-17.91 40-40 40S0 62.09 0 40 17.91 0 40 0s40 17.91 40 40"></path><path d="M40 40 .59 76.58C-.67 77.84.22 80 2.01 80H40z"></path></g></g></svg>
+    25 Comments
+  </a>
+      </p>
+              </div>
+  </article>
+
+
+  
+
+
+  
+
+
+  
+  </div></div><br/><br/>https://arstechnica.com/ai/2025/12/the-ars-technica-ai-coding-agent-test-minesweeper-edition/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
