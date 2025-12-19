@@ -4,7 +4,7 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Fri, 19 Dec 2025 18:48:36 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 19 Dec 2025 19:17:12 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -22,7 +22,7 @@
       
 
       <p>
-        How do four modern LLMs do at recreating a simple Windows gaming classic?
+        How do four modern LLMs do at re-creating a simple Windows gaming classic?
       </p>
 
               
@@ -56,7 +56,7 @@
                       
           
 <p>The idea of using AI to help with computer programming has become a contentious issue. On the one hand, coding agents can make <a href="https://arstechnica.com/information-technology/2025/07/ai-coding-assistants-chase-phantoms-destroy-real-user-data/">horrific mistakes</a>&nbsp;that require <a href="https://arstechnica.com/ai/2025/07/study-finds-ai-tools-made-open-source-software-developers-19-percent-slower/">a lot of inefficient human oversight</a> to fix, leading many developers to <a href="https://arstechnica.com/ai/2025/07/developer-survey-shows-trust-in-ai-coding-tools-is-falling-as-usage-rises/">lose trust in the concept altogether</a>. On the other hand, some coders insist that <a href="https://arstechnica.com/ai/2025/01/how-i-program-with-llms/">AI coding agents can be powerful tools</a>&nbsp;and that frontier models are <a href="https://arstechnica.com/ai/2025/05/anthropic-calls-new-claude-4-worlds-best-ai-coding-model/">quickly</a> <a href="https://arstechnica.com/ai/2025/12/how-openai-is-using-gpt-5-codex-to-improve-the-ai-tool-itself/">getting</a> <a href="https://arstechnica.com/ai/2025/05/anthropic-calls-new-claude-4-worlds-best-ai-coding-model/">better</a> at coding in ways that overcome some of the common problems of the past.</p>
-<p>To see how effective these modern AI coding tools are becoming, we decided to test four major models with a simple task: recreating the classic Windows game <em>Minesweeper</em>. Since it’s relatively easy for pattern-matching systems like LLMs to play off of existing code to re-create famous games, we added in one novelty curveball as well.</p>
+<p>To see how effective these modern AI coding tools are becoming, we decided to test four major models with a simple task: re-creating the classic Windows game <em>Minesweeper</em>. Since it’s relatively easy for pattern-matching systems like LLMs to play off of existing code to re-create famous games, we added in one novelty curveball as well.</p>
 <p>Our straightforward prompt:</p>
 <blockquote><p>Make a full-featured web version of Minesweeper with sound effects that</p>
 <p>1) Replicates the standard Windows game and<br>
@@ -225,7 +225,7 @@
 <p>Presentation-wise, this is probably the most polished version we tested. From the use of cute emojis for the “face” button to nice-looking bomb and flag graphics and simple but effective sound effects, this looks more professional than the other versions we tested.</p>
 <p>That said, there are some weird presentation issues. The “beginner” grid has weird gaps between columns, for instance. The borders of each square and the flag graphics can also become oddly grayed out at points, especially when using Power Mode (see below).</p>
 <p><strong>“Fun” feature</strong></p>
-<p>The prominent “Power Mode” button in the lower-right corner offers some pretty fun power-ups that alter the core <em>Minesweeper</em> formula in interesting ways. But the actual powers are a bit hit and miss.</p>
+<p>The prominent “Power Mode” button in the lower-right corner offers some pretty fun power-ups that alter the core <em>Minesweeper</em> formula in interesting ways. But the actual powers are a bit hit-and-miss.</p>
 <p>I especially liked the “Shield” power, which protects you from an errant guess, and the “Blast” power, which seems to guarantee a large cascade of revealed tiles wherever you click. But the “X-Ray” power, which reveals every bomb for a few seconds, could be easily exploited by a quick player (or a crafty screenshot). And the “Freeze” power is rather boring, just stopping the clock for a few seconds and amounting to a bit of extra time.</p>
 
           
@@ -239,7 +239,7 @@
           
 <p>Overall, the game hands out these new powers like candy, which makes even an Expert-level board relatively trivial with Power Mode active. Simply choosing “Power Mode” also seems to mark a few safe squares right after you start a game, making things even easier. So while these powers can be “fun,” they also don’t feel especially well-balanced.</p>
 <p><strong>Coding experience</strong></p>
-<p>Of the four tested models, Claude Code with Opus 4.5 featured the most pleasant terminal interface experience and the fastest overall coding experience (Claude Code can also use Sonnet 4.5, which is even faster, but the results aren’t quite as full-featured in our experience). While we didn’t precisely time each model, Opus 4.5 produced a working <em>Minesweeper</em> in less than five minutes. Codex took at least twice as long, if not longer, while Mistral took roughly three or four times as long as Claude Code. Gemini, meanwhile, took hours of tinkering to get two non-working results.</p>
+<p>Of the four tested models, Claude Code with Opus 4.5 featured the most pleasant terminal interface experience and the fastest overall coding experience (Claude Code can also use Sonnet 4.5, which is even faster, but the results aren’t quite as full-featured in our experience). While we didn’t precisely time each model, Opus 4.5 produced a working <em>Minesweeper</em> in under five minutes. Codex took at least twice as long, if not longer, while Mistral took roughly three or four times as long as Claude Code. Gemini, meanwhile, took hours of tinkering to get two non-working results.</p>
 
 <p><strong>Overall: 7/10</strong></p>
 <p>The lack of chording is a big omission, but the strong presentation and Power Mode options give this effort a passable final score.</p>
@@ -268,7 +268,7 @@
       </figure>
 
 <p><strong>Implementation, p</strong><strong>resentation, etc.</strong></p>
-<p>Gemini CLI did give us a few grey boxes you can click, but the playfields are missing. While interactive troubleshooting with the agent may have fixed the issue, as a “one-shot” test, the model completely failed.</p>
+<p>Gemini CLI did give us a few gray boxes you can click, but the playfields are missing. While interactive troubleshooting with the agent may have fixed the issue, as a “one-shot” test, the model completely failed.</p>
 <p><strong>Coding experience</strong></p>
 <p>Of the four coding agents we tested, Gemini CLI gave Benj the most trouble. After developing a plan, it was very, very slow at generating any usable code (about an hour per attempt). The model seemed to get hung up attempting to manually create WAV file sound effects and insisted on requiring React external libraries and a few other overcomplicated dependencies. The result simply did not work.</p>
 
@@ -314,9 +314,9 @@
 
 
   <p>
-    <a href="https://arstechnica.com/ai/2025/12/the-ars-technica-ai-coding-agent-test-minesweeper-edition/#comments" title="25 comments">
+    <a href="https://arstechnica.com/ai/2025/12/the-ars-technica-ai-coding-agent-test-minesweeper-edition/#comments" title="32 comments">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><defs><clipPath id="bubble-zero_svg__a"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath><clipPath id="bubble-zero_svg__b"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath></defs><g clip-path="url(#bubble-zero_svg__a)"><g fill="currentColor" clip-path="url(#bubble-zero_svg__b)"><path d="M80 40c0 22.09-17.91 40-40 40S0 62.09 0 40 17.91 0 40 0s40 17.91 40 40"></path><path d="M40 40 .59 76.58C-.67 77.84.22 80 2.01 80H40z"></path></g></g></svg>
-    25 Comments
+    32 Comments
   </a>
       </p>
               </div>
