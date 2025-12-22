@@ -4,9 +4,259 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Mon, 22 Dec 2025 12:34:49 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 22 Dec 2025 13:18:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Assetto Corsa Rally gets an ice cold update 0.2 in Early Access]]></title>
+            <link>https://www.thesixthaxis.com/2025/12/22/assetto-corsa-rally-gets-an-ice-cold-update-0-2-in-early-access/</link>
+            <guid>1389988</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>The first content update for <a href="https://www.thesixthaxis.com/tag/assetto-corsa-rally">Assetto Corsa Rally</a> has arrived, bringing an appropriate amount of snow and ice to the table for the season, alongside improved physics and performance. Available now, here’s what’s featured in Assetto Corsa Rally update 0.2.</p>
+<p>The physics engine within Assetto Corsa has been evolved in multiple ways, with the headline being the introduction of snow physics and support for studded tyres. This allows you to take on ice and snow rallies where grip is at its lowest, and you can test your skill at the new Ghiacciodromo Livigno Circuit, as well as in time attack and free practice for these mountain roads.&nbsp;And what better way to take this on than with the newly introduced Alpine A110 Group 4, which is an icon of rallying in the early 1970s?</p>
+
+
+<p>More broadly, the physics for gravel and tarmac racing have been improved alongside tyre models, and all vehicles benefit from fixes related to&nbsp;wheel offsets, rim textures, and suspension. The force feedback has also been made more consistent, especially for behaviour under braking. And the sound mix has been refined alongside new audio for snow environments and the A110.</p>
+<p>To try all of this out, there’s two new Events groups, so there’s now a total of 25 events in AC Rally.</p>
+<p>And then there’s just a litany of quality of life and bug fixing improvements. Here’s the full patch notes:</p>
+
+
+<ul>
+<li>Added Alpine A110 Group 4 1973</li>
+<li>Added “Ghiacciodromo Livigno” Ice Circuit</li>
+<li>Added 2 new ACR Events groups, and a total of 25 new ACR Events</li>
+<li>Added snow physics and snow studded tyres</li>
+</ul>
+
+<ul>
+<li>Added Ghiacciodromo Livigno Ice Circuit</li>
+<li>Added missing trees to backdrop areas throughout Saverne</li>
+<li>Improved collisions on some log piles in Saverne and Wales</li>
+<li>Fixed “that” traffic sign pole in the town of Saverne</li>
+</ul>
+
+<ul>
+<li>Added Alpine A110 Group 4 1973</li>
+<li>Added studded tires</li>
+<li>Fixed issues related to wheel offsets</li>
+<li>Fixed missing textures on some rims</li>
+<li>Mitigated pixelated glows on car lights</li>
+<li>Added support for all country flags on air intakes</li>
+<li>Fixed suspension issues</li>
+<li>Fixed tire flex direction</li>
+</ul>
+
+<ul>
+<li>Improved overall steering wheels support. We will keep improving the codebase until all steering wheel and sim-racing peripherals are fully supported and working</li>
+<li>Added Hat Switch (e.g. directional buttons) support for steering wheels</li>
+<li>Added double gear up/down inputs</li>
+<li>Added possibility to bind Neutral gear on steering wheels</li>
+<li>Added wipers input</li>
+</ul>
+
+<ul>
+<li>Fixed FFB inconsistency with some cars</li>
+<li>Improved FFB under braking</li>
+<li>Fixed some FFB effects that were pushing the steering wheel on the wrong side</li>
+<li>Improved throttle to make it more linear with gas pedal</li>
+<li>Improved brake power for some discs and calipers</li>
+<li>Improved Gravel and Tarmac physics and tyre models based on new data that we acquired. Rally drivers validated the new handling. The tyre model will keep evolving during the Early Access based on new field research, data and feedback from players and rally drivers.</li>
+<li>Introduced Snow physics and Snow studded tires</li>
+<li>Improved the behavior of tyre model at extreme drift angles</li>
+<li>Retuned some differentials and some setup presets</li>
+</ul>
+
+<ul>
+<li>Added engine/exhaust sounds for Alpine A110 Group 4 1973</li>
+<li>Added first implementation of Snow tyres surface audio</li>
+<li>Livigno Ice Circuit environmental audio setup</li>
+<li>Improved responsiveness of asphalt skid audio</li>
+<li>Improved vehicle scraping responsiveness</li>
+<li>Removed slowdown UI sounds in replay.</li>
+<li>Fixed issue with wall reverb being louder in cabin than external views.</li>
+<li>Moved rear engine emitters further forwards in surround mix.</li>
+<li>Many small audio mix tweaks across the game.</li>
+</ul>
+
+<ul>
+<li>Added 2 new ACR Events groups and a total of 25 new ACR Events</li>
+<li>Fixed frequent crash after exiting the leaderboards page</li>
+<li>Fixes for Chinese language</li>
+<li>Increased ranges for camera customization settings</li>
+<li>Reduced allocated memory in race</li>
+<li>Added AI tires management to make AI times more accurate depending on race conditions</li>
+<li>Fixed start sequence cheat found by users</li>
+<li>Improved helmet camera movements</li>
+<li>Fix French Codriver issue with some calls having Left and Right inverted</li>
+<li>Fix Multiple text errors and typo</li>
+<li>Improved description for Differentials setup and Gear sets</li>
+<li>Fix UI not hidden correctly during replay and main menu</li>
+<li>Fixed Lithuanian Flag</li>
+<li>Improved time of day for each location to better reflect the period of the year</li>
+<li>New opening splash screen</li>
+<li>Fixed some road signs on Wales Hafren North and Saverne not reacting to physics</li>
+<li>Pace notes revision to Wales Hafren North and Saverne Reverse stages.</li>
+<li>Added missing dressing to some junctions of Wales Hafren North</li>
+<li>Fixed race start marshals not working properly on Hafren North Reverse Cut 1</li>
+<li>Fixed intersecting barriers at Munster</li>
+<li>Fixed some missing characters for player profile name</li>
+<li>Fixed “Service Park” time not resetting after the first service park in a rally weekend</li>
+<li>Added Hide/Show HUD option</li>
+</ul>
+
+<ul>
+<li>Time attack, “Recommended Time” feature: now players can choose reference times from the leaderboards and compete against them</li>
+<li>Faster leaderboards download</li>
+<li>Faster download of “best player time”</li>
+<li>Faster time upload</li>
+<li>Improved login recovery mechanism</li>
+<li>Fixed an authentication error that prevented the game from coming back online</li>
+<li>Fixed an issue with Profiles API that prevented some requests from completing in a certain scenario</li>
+<li>Fixed an issue that prevented the Leaderboard upload/download from completing in a certain scenario</li>
+<li>Migrated to a different hosting service</li>
+<li>Improved clustering settings</li>
+<li>Reduced the amount of technical telemetry recorded</li>
+<li>Display name is now synchronized with the Steam’s one</li>
+</ul>
+
+<ul>
+<li>New vehicle particles for snow surfaces</li>
+<li>New, more persistent particle emitters for dusty materials</li>
+<li>New particle systems for collisions against snow</li>
+<li>Support for subsurface scattering on environment and props shaders</li>
+<li>Base track shader improvements to better support snow materials, different road conditions and track flows</li>
+<li>Overall shaders optimization to slightly reduce GPU and memory load</li>
+<li>Fixed a bug where track materials could sometimes use dynamic parameters (dynamic track) for tarmac on all other surface types</li>
+<li>Improved particle lighting coming from headlights and backlights</li>
+<li>Added support to blend some of the ground scatter meshes with the ground materials</li>
+<li>Added new Sky setup with Livigno Ice Circuit geographic coordinates</li>
+<li>Added weather presets for snowy conditions</li>
+<li>Updated sky system to improve the visual rendering of the atmosphere</li>
+<li>Added custom lighting setup for Livigno Ice Circuit</li>
+</ul>
+<hr>
+<p>Assetto Corsa Rally is an exciting addition to Kunos Simulazioni’s sim-racing franchise, especially when rally racing is in flux after <a href="https://www.thesixthaxis.com/2025/04/30/ea-sports-wrc-will-get-no-more-content-future-rally-game-development-paused/">EA halting Codemasters’ rallying development</a> and <a href="https://www.thesixthaxis.com/2025/05/26/nacon-regains-the-wrc-license-to-make-rally-racing-games-from-2027/">KT Racing is revving back up to resume their WRC series</a>. While Kunos themselves are hard at work on <a href="https://www.thesixthaxis.com/tag/assetto-corsa-evo">Assetto Corsa Evo</a>, AC Rally is in development at Supernova Games Studios in a technical partnership that builds on Kunos’ exceptional physics modelling. Similar to Assetto Corsa Competizioni, the visuals are then provided with a customised version of Unreal Engine 5.</p>
+<p><em>Source: <a href="https://assettocorsa.gg/assetto-corsa-rally-ea-0-2-out-now/">Assetto Corsa</a>, <a href="https://store.steampowered.com/news/app/3917090/view/514103843981624359">Steam</a></em></p>
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div></div><br/><br/>https://www.thesixthaxis.com/2025/12/22/assetto-corsa-rally-gets-an-ice-cold-update-0-2-in-early-access/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[ASUS Goes Final Clearance on AM4 Motherboards, ROG Strix B550-F WiFi II (3rd Gen Ryzen) Drops to a Record Low]]></title>
+            <link>https://kotaku.com/asus-goes-final-clearance-on-am4-motherboards-rog-strix-b550-f-wifi-ii-3rd-gen-ryzen-drops-to-a-record-low-2000655008</link>
+            <guid>1389982</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+              
+              <p>Building a desktop PC from scratch, or upgrading your CPU? We’ve found a deal that lets you pick a strong motherboard without overspending.</p>
+<p><a href="https://shop.kotaku.com/go/6545/">The Asus ROG Strix B550-F Gaming WiFi II – an option that offers exceptional power and great gaming features – is currently available for just $120 at Amazon, down from its usual $180 price.</a> This is one of the lowest we have seen this motherboard drop to, but as you’d expect, the offer wraps up soon. It’s best to get your orders in sooner rather than later, before that happens. Note that the package is likely going to arrive after Christmas. If you were planning to surprise a gamer or a creative in your life with it, keep the shipping timeline in mind.</p>
+<p><a href="https://shop.kotaku.com/go/6545/" target="_self" rel="sponsored nofollow">See at Amazon</a></p>
+
+<h2>Feature-Rich</h2>
+<p>This motherboard is an excellent option for AMD Ryzen 3000 and 5000 series, as well as 5000 and 4000 G-series desktop processors. The thoughtful 14-phase VRM design (12 main and 2 auxiliary) lets it handle the powerful options well without overheating, making it great for anyone looking to work with resource-intensive programs and heavier projects frequently. It supports Windows 11, plus allows for up to 128GB of RAM, which is more than enough to handle serious multitasking.</p>
+<p>Build quality is just as exceptional, with RGB lighting adding a nice aesthetic touch to the setup. The feature-rich board is also PCIe 4.0-ready, which translates into faster data transfer speeds, especially when paired with a high-end NVMe SSD. You will be able to load games, launch apps, and move files (even the larger ones) around without waiting long. What’s more, WiFi 6E (802.11ax) and Intel 2.5 Gb Ethernet with ASUS LANGuard come together to ensure smooth networking. On the other hand, ports like dual M.2 slots, USB 3.2 Gen 2 Type-C, plus HDMI 2.1 and DisplayPort 1.2 outputs make it convenient to connect other devices for a fuller, more productive setup.</p>
+
+
+
+<p>The box includes the motherboard itself, an ASUS 2×2 dual Wi-Fi antenna, an addressable RGB extension cable, a user manual, a support CD, and an ROG sticker pack. The bundle also includes a 60-day subscription to AIDA64 Extreme.</p>
+<p>All things considered, if you’ve been looking for a solid motherboard to add to your setup without breaking the bank, the Asus ROG Strix B550-F Gaming WiFi II is one of the best options to consider. <a href="https://shop.kotaku.com/go/6545/">We’d highly recommend it at its full $180 price, but the current 33% discount makes it much more affordable and, honestly, a no-brainer.</a> The $120 asking is nothing compared to all the features it’s packed with. Just be sure to snap it up quickly, because the deal is selling out fast. Place your orders before it expires, or before the stock runs out for good.</p>
+<p><a href="https://shop.kotaku.com/go/6545/" target="_self" rel="sponsored nofollow">See at Amazon</a></p>
+
+                          </div></div><br/><br/>https://kotaku.com/asus-goes-final-clearance-on-am4-motherboards-rog-strix-b550-f-wifi-ii-3rd-gen-ryzen-drops-to-a-record-low-2000655008]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[ARC Raiders Second Expedition Window Confirmed by Countdown]]></title>
+            <link>https://insider-gaming.com/arc-raiders-second-expedition-window-confirmed/</link>
+            <guid>1389976</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+        
+<p>Embark Studios has pushed live the Expedition Project window in ARC Raiders <strong>today</strong>, which means that players can finally make good on their efforts over the last few weeks and <strong>leave Speranza</strong>. This is effectively the game’s global reset mechanic, only unlike other extraction games, it’s an optional step.</p>
+
+
+
+<p>Users have spotted that the <strong>next </strong>Expedition window should arrive in ARC Raiders from February 22 onwards, if the countdown is anything to go by.</p>
+
+
+
+
+
+
+
+<h2 id="h-one-finished-and-into-another">One Finished and Into Another</h2>
+
+
+
+<p>If you’ve completed your Expedition Project today, you’ll be faced with the daunting task of starting from scratch. That means you’ll find yourself at level one with an empty stash, no skills, and empty workbenches, amongst other things.</p>
+
+
+
+<p>It also means you’ll be taking advantage of certain temporary buffs, a small stash boost, and an exclusive new skin, <strong>Patchwork</strong>.</p>
+
+
+
+<p>Those completing the Expedition Project have noticed that you can start building your <strong>next </strong>Expedition caravan <strong>instantly</strong>. As soon as you’ve reset that event, you start moving on to the next one. That means that you’ll work through the phases all over again, collecting the resources required to go a second time around.</p>
+
+
+
+<p>Now to what’s next.</p>
+
+
+
+<p>ARC Raiders players on PC can use a trick to manipulate the game. They do this by changing their system date while <strong>in the game,</strong> forcing the state forward and tricking the game’s internal calendar. By doing this, some users have revealed future map conditions, trials, and other additions.</p>
+
+
+
+<p>Those completing the Expedition have been given a fresh timer, but if you just manipulate the game in this way, you could have seen that timer anyway.</p>
+
+
+
+<p>Given that each Expedition loop, or ‘season’, lasts two months, this was hardly rocket science.</p>
+
+
+
+<p>Unlike the Expedition itself. That’s rocket science.</p>
+
+
+
+<p>So, if you’re wondering when the next Expedition hits in ARC Raiders, you’ve got something of an answer. It’s worth stressing that these things are subject to change until the update is firmly delivered, as <strong>the current Expedition </strong>was delayed by Embark Studios.</p>
+
+
+
+
+
+
+
+<p>Let us know on the <a href="https://discord.com/invite/vwj7zdWxaW">Insider Gaming Discord server</a> if you’re going to be hitting the wipe in ARC Raiders.</p>
+
+
+
+<hr>
+
+
+
+<p>For more Insider Gaming coverage, check out the news that <a href="https://insider-gaming.com/ark-2-release-window-pushed-to-2028/">ARK 2 has been delayed until 2028</a></p>
+    
+
+    <div id="ig-app-cta">
+          <p><i></i> MOBILE APP</p>
+          <h2>Level Up Your Gaming News</h2>
+          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
+          
+          <p><i></i> Available on iOS &amp; Android</p>
+        <!-- <div class="ig-note"><i class="fa-solid fa-bolt"></i> Available on Android</div> -->
+
+        </div>
+
+    
+    
+    </div></div><br/><br/>https://insider-gaming.com/arc-raiders-second-expedition-window-confirmed/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[‘If You Watch the OD Trailer Many Times There’s a Hint’, Says Kojima; ‘We Built a Completely New Medium’ with Microsoft]]></title>
             <link>https://wccftech.com/if-you-watch-the-od-trailer-many-times-theres-a-hint-says-kojima-we-built-new-medium/</link>
@@ -94,7 +344,7 @@
 
 
 
-<p>The debunking came as part of a new <a href="https://www.cnbc.com/2025/12/21/xbox-console-war-playstation-switch.html" target="_blank" rel="noreferrer noopener nofollow">CNBC report</a> that spoke with Microsoft about multiple issues and reportsthe company has seen over the past year.</p>
+<p>The debunking came as part of a new <a href="https://www.cnbc.com/2025/12/21/xbox-console-war-playstation-switch.html" target="_blank" rel="noreferrer noopener nofollow">CNBC report</a> that spoke with Microsoft about multiple issues and reports the company has seen over the past year.</p>
 
 
 
@@ -621,7 +871,7 @@
 </table>
 <p>[Compiled by GfK]</p>
 <p><a href="https://www.nintendolife.com/news/2025/12/uk-charts-metroid-prime-4-falls-from-the-top-ten">&lt; Last week's charts</a></p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:195624 @ 1766403901 -->
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:195624 @ 1766407693 -->
 <hr>
 <p><em>That's it for this week's physical UK charts! Any surprises? Did you pick any of these games up? Let us known in the comments</em>.</p></section></div><br/><br/>https://www.nintendolife.com/news/2025/12/uk-charts-nintendo-performs-admirably-in-its-last-christmas-push]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
@@ -871,7 +1121,7 @@
 <!-- cache: html:nintendolife.com/ssl/related-articles:195429,152953,92146 @ 1766406633 -->
 <p>Do you have any cool sports shirts featuring video game logos or characters on them? <em>Let us know in the comments.</em></p></section>
 <p>[source <a title="External Link: https://www.gamereactor.eu/players-from-football-club-kyoto-sanga-will-wear-pikmin-on-their-2026-kits-1651263/" rel="noopener" href="https://www.gamereactor.eu/players-from-football-club-kyoto-sanga-will-wear-pikmin-on-their-2026-kits-1651263/">gamereactor.eu</a>]</p>
-<!-- cache: html:nintendolife.com/ssl/related-info/d41d8cd98f00b204e9800998ecf8427e @ 1766405554 --></div></article><div><p>Liam is a news writer and reviewer across Hookshot Media. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
+<!-- cache: html:nintendolife.com/ssl/related-info/d41d8cd98f00b204e9800998ecf8427e @ 1766408231 --></div></article><div><p>Liam is a news writer and reviewer across Hookshot Media. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
 </div></div></div><br/><br/>https://www.nintendolife.com/news/2025/12/random-the-japanese-football-team-sponsored-by-nintendo-now-has-pikmin-on-its-shirt]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
@@ -990,10 +1240,10 @@ See 1 more              <span></span>
 <p>"It's a side-scrolling action game. Mario just goes left to right. Basically just jumping. But there's a dash button. Using that and jump subtly changes the jump trajectory to attack or dodge. It has almost no story, but it felt like you were on an adventure. When I saw that, although it was pixel art with no story, I felt this medium would one day surpass movies."</p>
 </blockquote>
 <p>Kojima has recently released <a href="https://www.pushsquare.com/games/ps5/death_stranding_2_on_the_beach">Death Stranding 2: On the Beach</a> and is currently working on <a href="https://www.purexbox.com/games/xbox-series-x/od">OD</a> and <a href="https://www.pushsquare.com/games/ps5/physint">Physint</a> (working title). The original Death Stranding, initially a console exclusive for the PS5, has since been released on everything from the Xbox to the Amazon Luna, leading many to speculate that it might eventually wind up on the Switch 2.</p>
-<!-- cache: html:nintendolife.com/ssl/super-mario/related-articles:174196,169004 @ 1766404130 -->
+<!-- cache: html:nintendolife.com/ssl/super-mario/related-articles:174196,169004 @ 1766407052 -->
 <p><em>Are you even remotely surprised that Super Mario Bros. is responsible for inspiring yet another auteur? Let us know your thoughts with a comment down below.</em></p></section>
 <p>[source <a title="External Link: https://www.youtube.com/watch?v=02Ah5VQrzvA" rel="noopener" href="https://www.youtube.com/watch?v=02Ah5VQrzvA">youtube.com</a>]</p>
-<!-- cache: html:nintendolife.com/ssl/super-mario/related-info/01730f99be13e0451815a223a6f877ba @ 1766403331 --></div></article><div><p>Nintendo Life’s resident horror fanatic, when he’s not knee-deep in Resident Evil and Silent Hill lore, Ollie likes to dive into a good horror book while nursing a lovely cup of tea. He also enjoys long walks and listens to everything from TOOL to Chuck Berry.</p><ul><li><a href="https://www.nintendolife.com/authors/Olliemar28"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/ollie-nl.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Olliemar28');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
+<!-- cache: html:nintendolife.com/ssl/super-mario/related-info/01730f99be13e0451815a223a6f877ba @ 1766409336 --></div></article><div><p>Nintendo Life’s resident horror fanatic, when he’s not knee-deep in Resident Evil and Silent Hill lore, Ollie likes to dive into a good horror book while nursing a lovely cup of tea. He also enjoys long walks and listens to everything from TOOL to Chuck Berry.</p><ul><li><a href="https://www.nintendolife.com/authors/Olliemar28"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/ollie-nl.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Olliemar28');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
 </div></div></div><br/><br/>https://www.nintendolife.com/news/2025/12/i-skipped-school-to-play-hideo-kojima-cites-super-mario-bros-as-the-reason-he-makes-games]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
@@ -1473,10 +1723,10 @@ See 1 more              <span></span>
 <p>If you haven't tried out Donkey Kong Bananza on the Switch 2 yet, there's a demo you can download from the eShop. You can also find out more in our review here on Nintendo Life.</p>
 <p>In case you missed it, Nintendo released some paid DLC for this title in September. It's officially titled <a href="https://www.nintendolife.com/games/nintendo-switch-2/donkey-kong-bananza-dk-island-and-emerald-rush">DK Island &amp; Emerald Rush</a> and is currently hosting a <a href="https://www.nintendolife.com/news/2025/12/dig-into-donkey-kong-bananzas-third-dlc-in-game-event-next-week">special in-game event</a> between now and 23rd December.</p>
 <p>This follows Nintendo releasing a patch for <a href="https://www.nintendolife.com/games/nintendo-switch-2/mario-kart-world">Mario Kart World</a> last week, <a href="https://www.nintendolife.com/news/2025/12/mario-kart-world-has-been-updated-to-version-1-4-1-here-are-the-full-patch-notes">bumping the Switch 2 launch title up to Version 1.4.1</a>.</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:184766,187829,195002,185448 @ 1766405698 -->
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:184766,187829,195002,185448 @ 1766409332 -->
 <p>Have you downloaded this update for Donkey Kong yet? Are there any other updates for this game you would like to see? <em>Let us know in the comments.</em></p></section>
 <p>[source <a title="External Link: https://en-americas-support.nintendo.com/app/answers/detail/a_id/68614/~/how-to-update-donkey-kong-bananza" rel="noopener" href="https://en-americas-support.nintendo.com/app/answers/detail/a_id/68614/~/how-to-update-donkey-kong-bananza">en-americas-support.nintendo.com</a>]</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-info/e2317e13eef9d0a41877796e97be7ac3 @ 1766403211 --></div></article><div><p>Liam is a news writer and reviewer across Hookshot Media. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-info/e2317e13eef9d0a41877796e97be7ac3 @ 1766409332 --></div></article><div><p>Liam is a news writer and reviewer across Hookshot Media. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
 </div></div></div><br/><br/>https://www.nintendolife.com/news/2025/12/donkey-kong-bananza-has-been-updated-to-version-3-0-0-here-are-the-full-patch-notes]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
@@ -1497,10 +1747,10 @@ See 1 more              <span></span>
 </blockquote>
 
 <p>Nintendo has previously mentioned how this bundle would be a "limited time production through Fall 2025" and was "available while supplies last". It was priced at $499.99 USD ($50 more than the standalone Switch 2 system), and was <a href="https://www.nintendolife.com/news/2025/12/switch-2s-mario-kart-world-bundle-gets-a-surprise-sale-us">recently on sale in the US</a> (<a href="https://x.com/Nintendeal/status/2002814078834892816">Best Buy appears to still be offering this sale price</a>).</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:180466,180157,180578,183867 @ 1766405730 -->
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:180466,180157,180578,183867 @ 1766409340 -->
 <p>Did you end up getting this bundle? How do you feel about it being a limited time offer? <em>Let us know in the comments.</em></p></section>
 <p>[source <a title="External Link: https://www.gonintendo.com/contents/55672-website-change-gives-hope-that-the-mario-kart-world-switch-2-bundle-is-no-longer-a" rel="noopener" href="https://www.gonintendo.com/contents/55672-website-change-gives-hope-that-the-mario-kart-world-switch-2-bundle-is-no-longer-a">gonintendo.com</a>]</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-info/3e5b133501685c0a2330646cb7ca4830 @ 1766405418 --></div></article><div><p>Liam is a news writer and reviewer across Hookshot Media. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-info/3e5b133501685c0a2330646cb7ca4830 @ 1766409340 --></div></article><div><p>Liam is a news writer and reviewer across Hookshot Media. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
 </div></div></div><br/><br/>https://www.nintendolife.com/news/2025/12/switch-2s-mario-kart-world-bundle-has-apparently-reached-the-end-of-its-lifecycle]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
@@ -1509,472 +1759,6 @@ See 1 more              <span></span>
             <link>https://www.ign.com/articles/best-deals-for-december-21-2025</link>
             <guid>1389736</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-cy="article-content"><section data-cy="article-subtitle"><p data-cy="paragraph">The holidays are almost here, and we've rounded up the best deals for Sunday, December 21, below. Don't miss your chance to save on these last-minute gifts!</p><h2 data-cy="title2">Save on Assassin's Creed Shadows for Nintendo Switch 2</h2><div catalogid="7e4b6314-666d-4048-9d49-1a32d6bcc9fa" id="233800"><div id="233800" data-cy="productcard-view-trigger"><p data-cy="solo-product-name"><h3>Assassin’s Creed Shadows - Standard Edition, Nintendo Switch 2</h3></p></div><p data-cy="paragraph">Launched earlier this month, <a data-cy="styled-link" href="https://www.ign.com/articles/assassins-creed-shadows-review">Assassin's Creed Shadows</a> is finally available on Nintendo Switch. Right now, you can save $10 off the physical copy at Amazon. This edition packs in all the game's DLC, updates, and more into one package for Switch 2 owners.</p><h2 data-cy="title2">Nintendo Switch 2 + Mario Kart World Bundle for $449</h2></div><div catalogid="7e4b6314-666d-4048-9d49-1a32d6bcc9fa" id="233797"><div id="233797" data-cy="productcard-view-trigger"><p data-cy="solo-product-name"><h3>Switch 2 + Mario Kart World Bundle - Nintendo Switch 2</h3></p></div><p data-cy="paragraph">The best deal of the weekend is the Nintendo Switch 2 + Mario Kart World Bundle, which is on sale for $449. That's the price of a standard Nintendo Switch 2, which means you're essentially scoring <a data-cy="styled-link" href="https://www.ign.com/articles/mario-kart-world-review">Mario Kart World</a> for free. This model is said to have ended production, so we likely won't see this bundle available much longer. If you're planning on picking up a Switch 2 for yourself or as a gift this holiday season, today is the best time to buy one.</p><h2 data-cy="title2">Save $20 Off Dragon Quest I &amp; II HD-2D Remake</h2></div><div catalogid="7e4b6314-666d-4048-9d49-1a32d6bcc9fa" id="233799"><div id="233799" data-cy="productcard-view-trigger"><p data-cy="solo-product-name"><h3>DRAGON QUEST I &amp; II HD-2D Remake (Nintendo Switch 2)</h3></p></div><p data-cy="paragraph">One of the most anticipated RPGs of 2025, Dragon Quest I &amp; II HD-2D Remake, is down to $39.99 this weekend. This remake transforms the original two Dragon Quest games into gorgeous experiences with numerous updates and tweaks to modernize the experience.</p><h2 data-cy="title2">PS5 Pro for $649</h2></div><div catalogid="6283ceb2-e56b-4339-b983-32e22e470c4a" id="233625"><div id="233625" data-cy="productcard-view-trigger"><p data-cy="solo-product-name"><h3>PlayStation 5 Pro Console</h3></p></div><p data-cy="paragraph"><a data-cy="styled-link" href="https://www.ign.com/articles/playstation-5-pro-review">PS5 Pro</a> is on sale this weekend for $649, saving you just over $100 off Sony's most powerful console. Even if you already own a PS5, the PS5 Pro can still be a solid upgrade, providing enhanced performance and frame rates for numerous games. Newcomers to the PlayStation ecosystem can expect the best PS5 has to offer with this one.</p><h2 data-cy="title2">Samsung P9 Express microSD Express Card for $32.99</h2></div><div catalogid="7e4b6314-666d-4048-9d49-1a32d6bcc9fa" id="233795"><div id="233795" data-cy="productcard-view-trigger"><p data-cy="solo-product-name"><h3>Samsung P9 Express microSD Express Card, 256GB</h3></p></div><p data-cy="paragraph">If you're a Nintendo Switch 2 owner or expecting to become one this holiday season, <a data-cy="styled-link" href="https://www.ign.com/articles/the-best-microsd-express-cards-for-nintendo-switch-2">a microSD Express Card is an absolutely essential purchase</a>. The internal 256GB of storage is nowhere near enough for most players, especially with huge games like Final Fantasy VII Remake Intergrade set to take up over a third of that space next year. You can save $20 off this 256GB microSD Express Card at Amazon and instantly double your Switch 2 storage.</p><h2 data-cy="title2">Call of Duty: Black Ops 7 for $35</h2></div><div id="233627" data-cy="productcard-view-trigger" catalogid="6283ceb2-e56b-4339-b983-32e22e470c4a"><p data-cy="solo-product-name"><h3>Call of Duty: Black Ops 7 - PlayStation 5</h3></p></div><div catalogid="6283ceb2-e56b-4339-b983-32e22e470c4a" id="233628"><div id="233628" data-cy="productcard-view-trigger"><p data-cy="solo-product-name"><h3>Call of Duty: Black Ops 7 - Cross-Gen Bundle - Xbox Series X and Xbox One</h3></p></div><p data-cy="paragraph"><a data-cy="styled-link" href="https://www.ign.com/articles/call-of-duty-black-ops-7-campaign-review">Black Ops 7</a> is the latest Call of Duty, with the game releasing just a few weeks ago. Despite this, it's already on sale at Amazon for $40, which makes this a perfect last-minute Christmas gift.</p><h2 data-cy="title2">Save on The Art of DOOM: The Dark Ages</h2></div><div catalogid="7e4b6314-666d-4048-9d49-1a32d6bcc9fa" id="233796"><div id="233796" data-cy="productcard-view-trigger"><p data-cy="solo-product-name"><h3>The Art of DOOM: The Dark Ages</h3></p></div><p data-cy="paragraph">Art books are a great way to gain greater insight into the development of your favorite games. This DOOM: The Dark Ages art book was released a few weeks ago, and it's already on sale for just under $31. Featuring over 200 pages, you can dive into behind-the-scenes art of the Doom Slayer, his weapons, and even enemies or locations.</p><h2 data-cy="title2">Astro Bot for $39.99</h2></div><div catalogid="a2199802-8325-4135-9414-442cfc7366d7" id="231329"><div id="231329" data-cy="productcard-view-trigger"><p data-cy="solo-product-name"><h3>Astro Bot - PlayStation 5</h3></p></div><p data-cy="paragraph"><a data-cy="styled-link" href="https://www.ign.com/articles/astro-bot-review">Astro Bot</a> is a must-own game for any PlayStation 5 owner for many reasons. The fun platforming adventure is a trip across PlayStation's iconic history of games, with cameos from many of the beloved characters that shaped each console generation. Today, you can score Astro Bot for $39.99 at Amazon, which is the lowest we've seen it so far.</p><h2 data-cy="title2">Star Wars Outlaws for $30</h2></div><div catalogid="8e5067fe-4808-4588-9d90-1c4689f9836b" id="233403"><div id="233403" data-cy="productcard-view-trigger"><p data-cy="solo-product-name"><h3>Star Wars Outlaws - Gold Edition, Nintendo Switch 2</h3></p></div><p data-cy="paragraph">The Nintendo Switch 2 version of <a data-cy="styled-link" href="https://www.ign.com/articles/star-wars-outlaws-review">Star Wars Outlaws</a> is on sale this weekend for $29.99, which is a steal for one of the hybrid system's best third-party games. This version of Star Wars Outlaws is the Gold Edition, packing in all the DLC and updates that released.</p><h2 data-cy="title2">Battlefield 6 for $39.99</h2></div><div catalogid="7e4b6314-666d-4048-9d49-1a32d6bcc9fa" id="233798"><div id="233798" data-cy="productcard-view-trigger"><p data-cy="solo-product-name"><h3>Battlefield 6 Standard Edition</h3></p></div><p data-cy="paragraph">Best Buy has <a data-cy="styled-link" href="https://www.ign.com/articles/battlefield-6-review-multiplayer">Battlefield 6</a> for $39.99 today, with both PS5 and Xbox Series X copies discounted. Out of all multiplayer games released this year, Battlefield 6 might just be the most popular. This is a great gift to give alongside a new console.</p><h2 data-cy="title2">ASUS ROG Xbox Ally for $489.99</h2></div><div catalogid="8e5067fe-4808-4588-9d90-1c4689f9836b" id="233408"><div id="233408" data-cy="productcard-view-trigger"><p data-cy="solo-product-name"><h3>ASUS ROG Xbox Ally</h3></p></div><p data-cy="paragraph">Amazon has the Asus ROG Xbox Ally on sale for $489.99, which is even lower than Black Friday! You can save $110 on this portable PC equipped with everything you need to play or stream your Xbox games. This deal is almost gone, so don't miss your chance to score!</p><h2 data-cy="title2">God of War Ragnarök for $19.97</h2></div><div catalogid="7e4b6314-666d-4048-9d49-1a32d6bcc9fa" id="233801"><div id="233801" data-cy="productcard-view-trigger"><p data-cy="solo-product-name"><h3>God of War Ragnarök Standard Edition, Playstation 5</h3></p></div><p data-cy="paragraph">Finally, Walmart has God of War Ragnarök on sale for $19.97 today. This is one of the best PS5 games available, as it builds off its predecessor in many ways to deliver an action-packed, unforgettable experience. It's hard to beat this price, especially if you're on the hunt for a holiday gift.</p></div></section><div data-cy="caption"><p>Originally posted: </p><!-- --><p>Dec 21, 2025 8:16 pm</p></div></div></div><br/><br/>https://www.ign.com/articles/best-deals-for-december-21-2025]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Battlefield 6 Under Fire For Suspected AI Art in New Bundle]]></title>
-            <link>https://insider-gaming.com/battlefield-6-under-fire-suspected-ai-art/</link>
-            <guid>1389706</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-        
-<p>Battlefield fans are up in arms again about a suspected AI design used in the new ‘Windchill’ cosmetics bundle. In recent hours, eagle-eyed gamers discovered telling signs tied to a sticker in this bundle, and all indications point to it being a faulty generative AI creation.</p>
-
-
-
-<p>Fans on social media platforms were running rampant, trying to burn the game to the ground. For some, it’s a minor issue, but for others, it’s indicative of that much bigger problem creeping across the games industry.</p>
-
-
-
-
-
-
-
-<h2 id="h-battlefield-6-ai-sticker-scandal-runs-wild">Battlefield 6 AI Sticker Scandal Runs Wild</h2>
-
-
-
-<p>On the <a href="https://www.reddit.com/r/Battlefield/comments/1prq9x9/remove_this_ai_shit_from_the_store/" target="_blank" rel="noreferrer noopener">Battlefield subreddit</a>, a user shared an image of the new Windchill bundle, revealing a <strong>player card sticker </strong>that stinks of flawed generative AI design. The image showcases a soldier within a snowflake, wielding an M4A1, but there are clear indications that it’s <strong>most likely </strong>created by AI.</p>
-
-
-
-<p>The M4A1 in question has two obvious barrels, one above the other. It also seems to have two handguards, which is hardly the most common feature in the world of firearms.</p>
-
-
-
-<p>Here’s a zoomed-in shot of the player card sticker:</p>
-
-
-
-<figure></figure>
-
-
-
-<p>Users were quick to flock to social posts, stating that this isn’t the only example of something that <strong>looks like </strong>generative AI in Battlefield 6. In social circles, the comments were damning. One user wrote, ‘Just the fact they didn’t catch that before releasing shows how little they are trying.’</p>
-
-
-
-<p>Another said, ‘They got your money, so they don’t care about which hill you choose to die on.’</p>
-
-
-
-<p>One user condemned the wider use of AI, ‘AI art is generated based on stolen artwork and takes jobs away from real artists.’ Another echoed that sentiment: ‘I didn’t pay for AI garbage. EA pay your f***ing artists!’</p>
-
-
-
-<p>In similar news, the world’s <a href="https://insider-gaming.com/ai-game-playable-demo-codex-mortis/">first game created 100% with AI</a> recently launched a playable demo, and it went as well as you could expect.</p>
-
-
-
-
-
-
-
-<p>Do you think there’s an issue with Electronic Arts using AI for small elements like this? Let us know on the <a href="https://discord.com/invite/vwj7zdWxaW">Insider Gaming Discord server</a>.</p>
-
-
-
-<hr>
-
-
-
-<p>For more Insider Gaming coverage, check out <a href="https://insider-gaming.com/bethesda-fallout-a-decade-to-feel-comfortable/">how long it took Bethesda to get ‘comfortable’ with Fallout</a></p>
-    
-
-    <div id="ig-app-cta">
-          <p><i></i> MOBILE APP</p>
-          <h2>Level Up Your Gaming News</h2>
-          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
-          
-          <p><i></i> Available on iOS &amp; Android</p>
-        <!-- <div class="ig-note"><i class="fa-solid fa-bolt"></i> Available on Android</div> -->
-
-        </div>
-
-    
-    
-    </div></div><br/><br/>https://insider-gaming.com/battlefield-6-under-fire-suspected-ai-art/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Resident Evil Requiem – Everything We Know About the New Game in CAPCOM’s Beloved Horror Franchise]]></title>
-            <link>https://wccftech.com/roundup/resident-evil-requiem-everything-we-know-about-the-new-game-in-capcoms-beloved-horror-franchise/</link>
-            <guid>1389700</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="overview">
-			
-<p>Even though Monster Hunter has taken over as the best-selling series made by CAPCOM, the Japanese developer is still betting heavily on the success of <strong>Resident Evil Requiem</strong>, the ninth mainline game in the globally acclaimed horror series that has sold <strong>more than 178 million units</strong> throughout its thirty-year history.</p>
-
-
-
-<p>With Resident Evil 7: Biohazard and Resident Evil Village, CAPCOM managed to reinvent the saga with a new protagonist, Ethan Winters, and a new perspective, first-person view, in both cases moving away from series staples such as military proficient playable characters and third-person perspective. In many ways, Requiem marks a new chapter that aims to connect elements from both the recent and the older games in the series.</p>
-
-
-
-<h2 id="h-release-date-platforms-and-pricing">Release Date, Platforms, and Pricing</h2>
-
-
-
-<p>The first rumors about Resident Evil 9 <a href="https://wccftech.com/resident-evil-9-monster-hunter-wilds-rumored-to-be-open-world/" target="_blank" rel="noreferrer noopener">started circulating in March 2024</a>, although it wasn't until June 2025 that CAPCOM <a href="https://wccftech.com/resident-evil-9-revealed-officially-called-resident-evil-requiem-arrives-on-ps5-xbox-series-x-s-and-pc-in-february-2026/" target="_blank" rel="noreferrer noopener">announced</a> the final title. On this occasion, the studio also communicated the planned release date: <strong>February 27, 2026</strong>. Initially, the game was confirmed for a simultaneous release on Sony's <strong>PlayStation 5</strong>, Microsoft's <strong>Xbox Series S|X</strong>, and <strong>PC</strong> (via Steam and the Epic Games Store). A <strong>Nintendo Switch 2</strong> version was <a href="https://wccftech.com/resident-evil-requiem-confirmed-for-nintendo-switch-2-with-new-trailer/" target="_blank" rel="noreferrer noopener">officially added a bit later</a>, during a Nintendo Direct presentation held in September 2025.</p>
-
-
-
-<p>Pre-orders are now open. The Standard Edition is priced at <strong>$69.99</strong>, while a Deluxe Edition is available at <strong>$79.99</strong>. This provides access to the Deluxe Kit, composed of the following items:</p>
-
-
-
-<ul>
-<li>Grace's Costume: Dimitrescu</li>
-
-
-
-<li>Grace's Costume: Film Noir</li>
-
-
-
-<li>Leon's Costume: RE4</li>
-
-
-
-<li>Leon's Costume: Apocalypse</li>
-
-
-
-<li>Leon's Costume: Film Noir</li>
-
-
-
-<li>Screen Filter: Apocalypse</li>
-
-
-
-<li>Screen Filter: Film Noir</li>
-
-
-
-<li>Four weapon skins, including S&amp;S M232 Weapon Skin: Apocalypse</li>
-
-
-
-<li>Mr. Raccoon Charm</li>
-
-
-
-<li>DSO Emblem Charm</li>
-
-
-
-<li>Audio Pack: Raccoon City Classic</li>
-
-
-
-<li>Files: Letters from 1998</li>
-</ul>
-
-
-
-<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2025/12/d193827c8fc26985d3e10075de5f81c6-HD-scaled.jpeg"></a></figure>
-
-
-
-<p>Any pre-order of the game includes the bonus cosmetic item Grace's Costume: Apocalypse. Pre-ordering through the Epic Games Store also grants players access to the Grace Ashcroft Outfit exclusive cosmetics item in Fortnite. Additionally, CAPCOM is releasing a <strong>Nintendo Switch 2 Pro Controller</strong> themed after the game (<a href="https://fave.co/3Y7tNKD" target="_blank" rel="noreferrer noopener">priced at <strong>$99.99</strong></a>) and an <strong>amiibo of protagonist Grace Ashcroft</strong> in 2026.</p>
-
-
-
-<h2 id="h-genre-setting-and-story-premise">Genre, Setting, and Story Premise</h2>
-
-
-
-<p>In Resident Evil Requiem, CAPCOM seeks to offer fans of both <strong>action-horror</strong> and <strong>survival horror</strong> their slice of entertainment, thanks to the dual-protagonist structure.</p>
-
-
-
-<p>The setting marks the long-awaited return to <strong>Raccoon City's iconic locations</strong>, including the police station featured in Resident Evil 2 and Resident Evil 3. However, Requiem presents the city in a never-before-seen state of ruin, being set thirty years after Raccoon City's nuclear bombing in RE3.</p>
-
-
-
-<p>The narrative premise centers on <strong>Grace Ashcroft</strong>, an FBI agent with a sharp analytical mind, as the brand new playable character. Grace is assigned to investigate a series of strange deaths. The case ultimately leads her to Raccoon City, more specifically to the Wrenwood Hotel, where her mother Alyssa died eight years before the game's events. The developers have described Grace as a bit of a bookworm who doesn't much trust her own capability to handle dangerous combat scenarios. This choice was made to emphasize survival horror mechanics reminiscent of games like RE2 and RE7, where Grace will be forced to evade detection from various enemies while navigating horrifying environments. </p>
-
-
-
-<p>For a long time, CAPCOM leaker Dusk Golem maintained that the game would also feature another playable character, fan-favorite DSO agent <strong>Leon S. Kennedy</strong>, previously seen in Resident Evil 2, 4, and 6. The developer <a href="https://wccftech.com/the-first-look-at-leon-s-kennedy-in-resident-evil-requiem-has-arrived-with-new-trailer/" target="_blank" rel="noreferrer noopener">finally confirmed the rumor at The Game Awards 2025</a> with a new trailer, although the cat was already out of the bag since two days earlier <a href="https://wccftech.com/hes-really-here-leon-finally-confirmed-for-resident-evil-requiem-with-a-playstation-store-leak/" target="_blank" rel="noreferrer noopener">due to a PlayStation Store leak</a>. The developers later revealed that there is a roughly even split between the two protagonists, with Leon's segments usually being <strong>combat-driven and action-focused</strong>, more akin to Resident Evil 4.</p>
-
-
-
-<p>CAPCOM has stressed that this seamless interweaving of high-stakes cinematic action with survival elements represents their bold reinvention of the series, as they attempt to balance atmospheric horror with visceral combat scenarios. </p>
-
-
-
-<h2 id="h-gameplay">Gameplay</h2>
-
-
-
-<p>Notably, the project initially began development as a multiplayer-focused title with open world design (confirming earlier rumors), before being redesigned as a single-player, more linear experience. CAPCOM <a href="https://wccftech.com/resident-evil-requiem-started-as-an-open-world-game-before-capcom-realized-it-wasnt-what-fans-wanted-to-see-or-play/" target="_blank" rel="noreferrer noopener">admitted</a> realizing that this wasn't what core fans of the horror franchise would have wanted.</p>
-
-
-
-<p>Even so, Resident Evil Requiem does introduce at least one major innovation: the <strong>hybrid first-person and third-person perspective system</strong>, which allows players to dynamically switch between viewpoints for the first time in the series so that they'd be able to suit their playstyle. Those who prefer a more scary and immersive experience are likely to gravitate toward first-person, whereas action gamers and traditional fans will probably opt for third-person.</p>
-
-
-
-<p>The core gameplay loop integrates classic Resident Evil mechanics with modern refinements: <strong>combat, investigations, puzzles, and resource management</strong>. The dual-character structure also aims to create <strong>distinct gameplay identities</strong> that, <a href="https://wccftech.com/resident-evil-requiem-complete-rollercoaster-ride-never-before/" target="_blank" rel="noreferrer noopener">in the words of Game Director Koshi Nakanishi</a>, will make players feel like they are <strong>on a rollercoaster ride</strong> like never before in Resident Evil. Nakanishi noted that it wouldn't do to keep the horror tension to the max throughout the whole game, because that would be quite exhausting for the player. As such, there will be a dynamic pacing curve that alternates between tense, horrific sequences and some release, exciting combat, and peaceful exploration, before gradually picking up again on the horror part of the curve. To further highlight the differences between Grace and Leon, Nakanishi recently <a href="https://wccftech.com/resident-evil-requiem-grace-ashcroft-series-most-fearful-character-leon-kennedy-series-strongest/" target="_blank" rel="noreferrer noopener">said</a> that Grace is the series' most fearful character yet, while the experienced Leon is the strongest.</p>
-
-
-
-<p>A taste of playing as Grace was made available to press and fans alike in the Gamescom 2025 demo that Wccftech's Francesco De Meo <a href="https://wccftech.com/resident-evil-requiem-gamescom-hands-on-preview-turn-on-the-lights/" target="_blank" rel="noreferrer noopener">praised in the <strong>hands-on preview article</strong></a>.</p>
-
-
-
-<p>Furthermore, CAPCOM has deliberately designed Requiem to be <strong>accessible to series newcomers</strong> while rewarding veterans through familiar features, such as legacy enemy types and narrative callbacks. Thus, no need to worry if you haven't played all, or any, of the predecessors.</p>
-
-
-
-<h2 id="h-tech-and-specs">Tech and Specs</h2>
-
-
-
-<p>Resident Evil Requiem employs CAPCOM's <strong>proprietary RE Engine</strong>, which was named after the series and was first used in RE7. Nowadays, the RE Engine powers every game developed by the Japanese studio. In most cases, it delivered excellent visuals and solid performance, with the notable exceptions of Dragon's Dogma 2 and Monster Hunter Wilds, both of which were open world games.</p>
-
-
-
-<p>Luckily, Resident Evil Requiem's final incarnation is not an open world game and is therefore unlikely to suffer major optimization problems. The developers themselves <a href="https://wccftech.com/resident-evil-requiem-wont-have-same-performance-issues-monster-hunter-wilds/" target="_blank" rel="noreferrer noopener">told fans</a> there wouldn't be a repeat of the disappointing launch performance of Monster Hunter Wilds. </p>
-
-
-
-<p>CAPCOM already shared the minimum and recommended system requirements for the PC version.</p>
-
-
-
-<figure><table><thead><tr><th>Requirement</th><th>Minimum</th><th>Recommended</th></tr></thead><tbody><tr><td>OS</td><td>Windows 11</td><td>Windows 11</td></tr><tr><td>Processor</td><td>Intel Core i5-8500 / AMD Ryzen 5 3500</td><td>Intel Core i7-8700 / AMD Ryzen 5 5500</td></tr><tr><td>Memory</td><td>16 GB RAM</td><td>16 GB RAM</td></tr><tr><td>Graphics</td><td>NVIDIA GeForce GTX 1660 6 GB / AMD Radeon RX 5500 XT 8 GB</td><td>NVIDIA GeForce RTX 2060 Super 8 GB / AMD Radeon RX 6600 8 GB</td></tr><tr><td>DirectX</td><td>Version 12</td><td>Version 12</td></tr></tbody></table></figure>
-
-
-
-<p>We also know that the PC version of Resident Evil Requiem <a href="https://wccftech.com/nvidia-dlss-4-supported-175-games-resident-evil-requiem-path-tracing/" target="_blank" rel="noreferrer noopener">will support</a> <strong>NVIDIA DLSS 4 Multi Frame Generation</strong> and <strong>path tracing</strong>. Official performance specifications for the console versions have not been publicly disclosed yet. However, the developers briefly discussed the Nintendo Switch 2 version, the least powerful platform among those supported, to reveal that <a href="https://wccftech.com/resident-evil-requiem-devs-surprised-how-well-it-runs-switch-2/" target="_blank" rel="noreferrer noopener">even they were surprised at how well it ran on the hybrid console</a>. If the Switch 2 doesn't have a problem, the other consoles should run Requiem even better.</p>
-		</div></div><br/><br/>https://wccftech.com/roundup/resident-evil-requiem-everything-we-know-about-the-new-game-in-capcoms-beloved-horror-franchise/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[NYT Connections Hints Today (#925)—Clues and Answers for Monday, December 22]]></title>
-            <link>https://insider-gaming.com/nyt-connections-hints-solutions-december-22-925/</link>
-            <guid>1389694</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-        
-<p>We’re kicking off the <strong>official </strong>festive week with the NYT Connections solutions and hints that you need to get the job done! Today’s puzzle is the first in a few that will lead you up to the big day and beyond, so be sure to scroll down as soon as needed to uncover today’s answers.</p>
-
-
-
-
-
-
-
-<h2 id="h-what-is-nyt-connections">What is NYT Connections?</h2>
-
-
-
-<p>It would be remiss of me not to give a little foundational backstory before leaping into today’s NYT Connections clues and hints.</p>
-
-
-
-<p>In June 2023, NYT Connections emerged as yet another game in the ever-growing New York Times lineup. This title soared immediately, and it’s easy to see why. As a free-to-play, accessible <em>New York Times </em>game, NYT Connections is available to users <span><strong>worldwide</strong>&nbsp;and can be played on either desktop devices</span> or via a mobile app.</p>
-
-
-
-<p>Playing NYT Connections on your commute or while waiting for a coffee is a fantastic way to kill a few minutes.</p>
-
-
-
-<p>But how do you play NYT Connections?</p>
-
-
-
-<figure></figure>
-
-
-
-
-
-
-
-<p>It’s relatively simple, and that’s why it’s the best New York Times game, in my opinion.</p>
-
-
-
-<p>The NYT team will provide you with a grid of 16 words once a day. The only task left up to you is to sort those words into four groups of four by finding their commonalities. Every NYT Connections puzzle has just one solution, and some words might have a double meaning, so it can sometimes be tricky to figure out the answers.</p>
-
-
-
-<p>It’s also important to stress that the words are color-coded: yellow, blue, green, and purple. That’s in order of difficulty from least to most difficult, too.</p>
-
-
-
-<p>What’s critical here is that you get <strong>four guesses </strong>every day, and if you use those, your NYT Connections answers for today will be out of reach, as it’ll be <strong>game over</strong>.</p>
-
-
-
-
-
-
-
-<h2 id="h-today-s-nyt-connections-hints-december-22">Today’s NYT Connections Hints (December 22)</h2>
-
-
-
-<p>If you want to figure out today’s NYT Connections clues without getting the answers outright, I’ll start with the words themselves. Perhaps just seeing the words here will spur your brain into action, and you’ll spot the trends immediately.</p>
-
-
-
-<p>Here are the NYT Connections words from today’s puzzle, #925:</p>
-
-
-
-<ul>
-<li>RUSH</li>
-
-
-
-<li>PIN</li>
-
-
-
-<li>PLAYING</li>
-
-
-
-<li>LATER</li>
-
-
-
-<li>GREETING</li>
-
-
-
-<li>CYA</li>
-
-
-
-<li>RASH</li>
-
-
-
-<li>COMING</li>
-
-
-
-<li>WAVE</li>
-
-
-
-<li>BUSINESS</li>
-
-
-
-<li>FUTURE</li>
-
-
-
-<li>BROW</li>
-
-
-
-<li>WHIT</li>
-
-
-
-<li>FOLLOWING</li>
-
-
-
-<li>MEMBERSHIP</li>
-
-
-
-<li>SURGE</li>
-</ul>
-
-
-
-<h3>And here are the hints I can offer for today’s NYT Connections:</h3>
-
-
-
-<ul>
-<li><strong>Yellow </strong>– <em>They’re all about a sudden <strong>increase in amount or intensity</strong></em></li>
-
-
-
-<li><strong>Green</strong> – <em><em><strong>All imply ‘not yet’ — something ahead in time</strong></em></em></li>
-
-
-
-<li><strong>Blue</strong> – <em>Which of these words show up <strong>in your wallet, on your desk, or at a game table</strong>?</em></li>
-
-
-
-<li><strong>Purple</strong> – <em>These are colors that feel like they’re <strong>missing something</strong></em></li>
-</ul>
-
-
-
-<p>Here’s the final warning before we get to the NYT Connections answers for today, December 22:</p>
-
-
-
-<p>Are you sure you want to scroll further?</p>
-
-
-
-<p>Very well!</p>
-
-
-
-<h2 id="h-nyt-connections-answers-for-today-december-22-925">NYT Connections Answers for Today, December 22 (#925)</h2>
-
-
-
-<p>If you want to jump straight to the answers for today’s NYT Connections puzzle, I’ve got you covered:</p>
-
-
-
-<ul>
-<li><strong>Yellow </strong>– RASH, RUSH, SURGE, WAVE</li>
-
-
-
-<li><strong>Green</strong> – COMING, FOLLOWING, FUTURE, LATER</li>
-
-
-
-<li><strong>Blue</strong> – BUSINESS, GREETING, MEMBERSHIP, PLAYING</li>
-
-
-
-<li><strong>Purple</strong> – BROW, CYA, PIN, WHIT</li>
-</ul>
-
-
-
-<h3 id="h-when-does-nyt-connections-reset">When Does NYT Connections Reset?</h3>
-
-
-
-<p>That’s today’s puzzle, but if you want the next one, the game resets daily at midnight local time (that’s <strong>your </strong>local time). You’ll have 24 hours to complete the puzzle when midnight ticks over in your timezone.</p>
-
-
-
-<p>How did you do? Did you get a perfect run? Let me know what your streak looks like on the <a href="https://discord.com/invite/Bhv3AMa5a9" target="_blank" rel="noreferrer noopener">Insider Gaming Discord serve</a><a href="https://discord.com/invite/Bhv3AMa5a9">r</a></p>
-    
-
-    <div id="ig-app-cta">
-          <p><i></i> MOBILE APP</p>
-          <h2>Level Up Your Gaming News</h2>
-          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
-          
-          <p><i></i> Available on iOS &amp; Android</p>
-        <!-- <div class="ig-note"><i class="fa-solid fa-bolt"></i> Available on Android</div> -->
-
-        </div>
-
-    
-    
-    </div></div><br/><br/>https://insider-gaming.com/nyt-connections-hints-solutions-december-22-925/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
