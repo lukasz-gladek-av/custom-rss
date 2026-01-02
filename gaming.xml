@@ -4,9 +4,159 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Fri, 02 Jan 2026 11:35:31 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Jan 2026 12:04:19 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[‘Console Hacking Has Detonated An Explosive’: PlayStation 5 ROM Keys Leak Online, Opening the Door to Permanent Jailbreaks, Custom Firmware]]></title>
+            <link>https://wccftech.com/console-hacking-has-detonated-an-explosive-playstation-5-rom-keys-leak-online-opening-the-door-to-permanent-jailbreaks-custom-firmware/</link>
+            <guid>1395805</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			
+			<p>Since the PlayStation 5's release in late 2020, console hackers have attempted to gain complete access to the system by discovering and exploiting vulnerabilities, using software exploits to access features not normally available to consumers.</p>
+
+
+
+<p>But on <strong>New Year's Eve</strong>, console hacking groups detonated another sort of explosive that could have <strong>massive consequences</strong> for the PlayStation 5 hacking scene, opening the door for <strong>permanent jailbreak, custom firmware, emulation,</strong> and much more.</p>
+
+
+
+<p>As detailed in an <strong><a href="https://thecybersecguru.com/news/ps5-rom-keys-leaked/" target="_blank" rel="noreferrer noopener">extremely well-put-together report by <em>The CyberSec Guru</em></a></strong>, at the end of 2025, people in the PlayStation 5 hacking scene began discussing a <strong>massive data dump</strong> that appeared on <em>psdevwiki.com</em> and private Discord servers. This data dump contained the <strong>Level 0 BootROM keys</strong> for the system.</p>
+
+
+
+<p>The <strong>BootROM</strong> is the first piece of code the PlayStation 5 runs when the system is turned on, the <strong>deepest level</strong> of the console's security architecture, which is used to decrypt and verify the initial stages of the system boot chain. As such, acquiring these keys, which are stored in a <strong>read-only chip</strong> and decrypted on boot by the system's APU, <strong><em>essentially means that anyone with these keys literally owns the system.</em></strong></p>
+
+
+
+<p>Any exploit based on these keys would <strong>significantly surpass</strong> all software exploits available to date, as the code and keys in the BootROM <strong>cannot be modified</strong> with a software update.</p>
+
+
+
+<figure><table><thead><tr><td><strong>Feature</strong></td><td><strong>Software Kernel Exploits (Previous)</strong></td><td><strong>Level 0 BootROM Leak (Current)</strong></td></tr></thead><tbody><tr><td><strong>Patchability</strong></td><td><strong>Fixable</strong> via System Update</td><td><strong>Unpatchable</strong> (Silicon-bound)</td></tr><tr><td><strong>Persistence</strong></td><td>Lost after reboot</td><td><strong>Permanent</strong> Custom Firmware potential</td></tr><tr><td><strong>Access Level</strong></td><td>User/Kernel land</td><td><strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed">Root of Trust</strong> (Deepest)</td></tr><tr><td><strong>Hardware</strong></td><td>Varies by Firmware version</td><td><strong>All existing PS5 models</strong> vulnerable</td></tr></tbody></table></figure>
+
+
+
+<p>While Sony will likely introduce a <strong>hardware revision (CFI-3000 series)</strong> to rotate these keys in future retail units, the <strong>60+ million consoles</strong> already in homes are now effectively <strong><em>'unlocked' for life.</em></strong></p>
+
+
+
+<h3 id="h-what-does-this-mean-for-the-end-user"><strong>What Does This Mean For The End User?</strong></h3>
+
+
+
+<p>This massive PlayStation 5 leak has significant implications. Even if any end user gets access to the leaked ROM keys, they would be able to do nothing with them. However, the ability to <strong>decrypt the bootloader</strong> will greatly <strong>accelerate the development of a Custom Firmware</strong> to let the system boot into a modified operating system permanently, without having to run software exploits every time, and with <strong>no risk</strong> of firmware updates patching the vulnerability.</p>
+
+
+
+<p>In addition to accelerating the development of custom firmwares, the leaked ROM keys could be a <strong>boon for the emulation scene</strong>, providing emulator developers with the necessary information to enhance the emulator's <strong>compatibility and accuracy</strong>.</p>
+
+
+
+<p>In addition, the PlayStation 5 could become an <strong>emulation powerhouse</strong> capable of running games released on various systems, potentially even running <strong>PlayStation 3 games natively via the <a href="https://wccftech.com/rpcs3-can-now-run-all-released-playstation-3-games/">RPCS3 emulator</a></strong>, which has been a long-standing community wish. Unfortunately, this could also <strong>pave the way for piracy</strong>, as a custom firmware could run pirated games on any system.</p>
+
+
+
+<p><strong><em>'The PlayStation 5 you own today is not the same console it was yesterday. It is now an open book,'</em></strong> concluded <em>The CyberSec Guru</em> in their report, while the community jokes on Sony's HQ now being on fire, which probably is, at least figuratively, considering the severity of this leak.</p>
+
+
+
+<p>No matter how the situation is addressed, it will be very interesting to see how the Japanese company will handle this <strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed">critical situation</strong> alongside other potentially crippling hardware issues like the <a data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-style-link dracula-processed" href="https://wccftech.com/all-ps5-consoles-will-eventually-require-maintenance-playstation-5-liquid-metal-degradation/"><strong data-dracula_secondary_bg_finder="rgba(26, 87, 132, 0.2)" data-dracula_alpha_bg="rgba(26, 87, 132, 0.2)">liquid metal cooling issues</strong></a>, and what will come with what is set to become an <strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)"><em data-dracula_alpha_bg="rgba(0, 0, 0, 0)">epochal leak</em></strong> for console security.</p>
+
+			
+			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
+
+		</div></div><br/><br/>https://wccftech.com/console-hacking-has-detonated-an-explosive-playstation-5-rom-keys-leak-online-opening-the-door-to-permanent-jailbreaks-custom-firmware/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Lionsgate Confirms AAA John Wick and SAW Games In Development]]></title>
+            <link>https://insider-gaming.com/lionsgate-confirms-john-wick-and-saw-games-development/</link>
+            <guid>1395796</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+        
+<p>For years, fans of the high-octane gun-fu franchise, John Wick, have been crying out for a decent game tied to the series. The nature of the film franchise almost writes itself as a video game, but despite a couple of low-budget titles, nothing has really emerged in the space.</p>
+
+
+
+<p>During a recent earnings call, Lionsgate Chairman Adam Fogelson confirmed that a ‘AAA John Wick game’ is in development and will be officially announced soon. He also mentioned that a new ‘SAW’ game is also incoming, the first since 2010’s SAW II: Flesh and Blood.</p>
+
+
+
+
+
+
+
+<h2 id="h-john-wick-game-could-be-coming-soon">John Wick Game Could Be Coming Soon</h2>
+
+
+
+<p>The recent earnings call at Lionsgate gave way to a solid revelation, and soon, we’ll have an official announcement of an all-new John Wick game <strong>and </strong>a SAW project. In a snippet pulled from the earnings call, Adam Fogelson, Chairman at Lionsgate, said:</p>
+
+
+
+<blockquote>
+<p>Our AAA game opportunities and other gaming opportunities. around John Wick and Saw and some others that we’ll be announcing soon.</p>
+</blockquote>
+
+
+
+<p><em>(Thanks to <a href="https://tech4gamers.com/aaa-john-wick-game-development/" target="_blank" rel="noreferrer noopener nofollow">Tech4Gamers</a> for the quote)</em></p>
+
+
+
+<p>It was further mentioned that Lionsgate has acknowledged the ‘increased interest’ fans have in adaptations of the popular franchises under its belt, like <strong>John Wick</strong>.</p>
+
+
+
+<p>What’s not clear is what a John Wick AAA game could look like. It’s up in the air, and fans are eagerly debating the possibilities, such as an extension of John Wick’s story, played out by Keanu Reeves, or a unique, original story that allows players to create their own diehard assassin character.</p>
+
+
+
+<p>Being frank, it’s most likely the latter possibility, as this would allow the developers much more creative freedom, both in terms of the story and the setting.</p>
+
+
+
+<p>Fans then set about pulling apart the rest of Lionsgate’s line-up, surmising what other IP could be yanked into the video game world. One concept saw The Hunger Games emerge as an all-new battle royale game or a dystopian, post-apocalyptic epic of sorts.</p>
+
+
+
+
+
+
+
+<p>What do you expect from a John Wick game? Let us know what you’re thinking on the <a href="https://discord.com/invite/vwj7zdWxaW" target="_blank" rel="noreferrer noopener">Insider Gaming Discord server</a>.</p>
+
+
+
+<hr>
+
+
+
+<p>For more Insider Gaming coverage, check out the news that <a href="https://insider-gaming.com/ps5-rom-keys-leak-jailbreaking-concerns-claim/">PlayStation 5 ROM keys might have leaked</a></p>
+    
+
+    <div id="ig-app-cta">
+          <p><i></i> MOBILE APP</p>
+          <h2>Level Up Your Gaming News</h2>
+          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
+          
+          <p><i></i> Available on iOS &amp; Android</p>
+        <!-- <div class="ig-note"><i class="fa-solid fa-bolt"></i> Available on Android</div> -->
+
+        </div>
+
+    
+    
+    </div></div><br/><br/>https://insider-gaming.com/lionsgate-confirms-john-wick-and-saw-games-development/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[Rust’s Naval update will be launching on February 5th]]></title>
             <link>https://www.thesixthaxis.com/2026/01/02/rusts-naval-update-will-be-launching-on-february-5th/</link>
@@ -445,7 +595,7 @@
 </blockquote>
 <figure data-uuid="5f78ba6529278"><a title="ESRB Rating" href="https://images.nintendolife.com/5f78ba6529278/esrb-rating.large.jpg"></a><figcaption><em><span></span> Image: <a href="https://www.esrb.org/ratings/39525/enchanted-wonderland/">ESRB</a></em></figcaption></figure>
 <p>We'll be sure to keep an eye out for an official announcement from Konami in the coming days and weeks and provide an update as soon as we can.</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch/related-articles:183406,194156 @ 1767350774 -->
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch/related-articles:183406,194156 @ 1767354383 -->
 <p><em>Are you keen to see a new title from Konami on the Switch? Let us know your thoughts with a comment down below.</em></p></section>
 <p>[source <a title="External Link: https://www.esrb.org/ratings/39525/enchanted-wonderland/" rel="noopener" href="https://www.esrb.org/ratings/39525/enchanted-wonderland/">esrb.org</a>, via <a title="External Link: https://www.gematsu.com/2025/12/esrb-rates-unannounced-konami-game-enchanted-wonderland-for-switch" rel="noopener" href="https://www.gematsu.com/2025/12/esrb-rates-unannounced-konami-game-enchanted-wonderland-for-switch">gematsu.com</a>]</p>
 <!-- cache: html:nintendolife.com/ssl/nintendo-switch/related-info/7b69588d27bc502a9d6f4b1bac73fe94 @ 1767353346 --></div></article><div><p>Nintendo Life’s resident horror fanatic, when he’s not knee-deep in Resident Evil and Silent Hill lore, Ollie likes to dive into a good horror book while nursing a lovely cup of tea. He also enjoys long walks and listens to everything from TOOL to Chuck Berry.</p><ul><li><a href="https://www.nintendolife.com/authors/Olliemar28"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/ollie-nl.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Olliemar28');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
@@ -932,7 +1082,7 @@
 <p>An official post on the Fitness Boxing social media account has shared some dialogue, and it's displayed with a <a href="https://www.nintendolife.com/games/nintendo-switch/persona_5_royal">Persona 5</a>-style user interface. Here's what it says, according to a translation (<a href="https://www.gematsu.com/2025/12/fitness-boxing-persona-5-announcement-teased">via Gematsu</a>):</p>
 <blockquote>
 <p><strong>???:</strong> What are you getting ready for?</p>
-<p><strong>???:</strong> Heh heh heh… This time, I’m preparing a training plan that’s a bit different from usual. After all, stamina is essential for a Phantom Thief!</p></blockquote><div><figure data-videoid="C1rrCdi_XjA" data-start="0" data-src="https://www.youtube.com/embed/C1rrCdi_XjA?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><div><iframe id="ytC1rrCdi_XjA" title="YouTube Video" data-src-fallback="https://www.youtube-nocookie.com/embed/C1rrCdi_XjA?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/C1rrCdi_XjA?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed3be067nlgmso&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><p>Subscribe to <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1">Nintendo Life</a> on <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1"><span>YouTube</span><span>841k</span></a></p>
+<p><strong>???:</strong> Heh heh heh… This time, I’m preparing a training plan that’s a bit different from usual. After all, stamina is essential for a Phantom Thief!</p></blockquote><div><figure data-videoid="C1rrCdi_XjA" data-start="0" data-src="https://www.youtube.com/embed/C1rrCdi_XjA?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><div><iframe id="ytC1rrCdi_XjA" title="YouTube Video" data-src-fallback="https://www.youtube-nocookie.com/embed/C1rrCdi_XjA?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/C1rrCdi_XjA?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed3be067liosxq&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><p>Subscribe to <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1">Nintendo Life</a> on <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1"><span>YouTube</span><span>841k</span></a></p>
 </div></figure></div><blockquote>
 </blockquote>
 
@@ -956,7 +1106,7 @@
 </section></header><div><section>
 <figure data-uuid="6ed79a15171d0"><a title="Pokémon" href="https://images.nintendolife.com/6ed79a15171d0/pokemon.large.jpg"></a><figcaption><em><span></span> Image: The Pokémon Company</em></figcaption></figure><p>It's a new year, and the video game industry is already gearing up for some absolutely <em>huge</em> celebrations.</p>
 <p>The monster-catching powerhouse Pokémon will celebrate 30 years on <strong>27th February 2026</strong>, and to kick off this special occasion, The Pokémon Company has now shared its animated logo for the 30th anniversary.</p>
-<p>It shows Pikachu through the years and highlights how the series began in 1996. The attached message from the <a href="https://x.com/Pokemon_cojp/status/2006379822012911872">official Pokémon account also mentions</a> how it all started with the release of <a href="https://www.nintendolife.com/games/gameboy/pokemon_red_and_blue">Pokémon Red</a> and Green in Japan (and Pokémon Red and <a href="https://www.nintendolife.com/games/gameboy/pokemon_red_and_blue">Blue</a> locally).</p><div><figure data-videoid="RLc1VHm8D80" data-start="0" data-src="https://www.youtube.com/embed/RLc1VHm8D80?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><div><iframe id="ytRLc1VHm8D80" title="YouTube Video" data-src-fallback="https://www.youtube-nocookie.com/embed/RLc1VHm8D80?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/RLc1VHm8D80?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed43f22fzvwlrh&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><p>Subscribe to <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1">Nintendo Life</a> on <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1"><span>YouTube</span><span>841k</span></a></p>
+<p>It shows Pikachu through the years and highlights how the series began in 1996. The attached message from the <a href="https://x.com/Pokemon_cojp/status/2006379822012911872">official Pokémon account also mentions</a> how it all started with the release of <a href="https://www.nintendolife.com/games/gameboy/pokemon_red_and_blue">Pokémon Red</a> and Green in Japan (and Pokémon Red and <a href="https://www.nintendolife.com/games/gameboy/pokemon_red_and_blue">Blue</a> locally).</p><div><figure data-videoid="RLc1VHm8D80" data-start="0" data-src="https://www.youtube.com/embed/RLc1VHm8D80?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><div><iframe id="ytRLc1VHm8D80" title="YouTube Video" data-src-fallback="https://www.youtube-nocookie.com/embed/RLc1VHm8D80?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/RLc1VHm8D80?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed43f22fvhkwjs&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><p>Subscribe to <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1">Nintendo Life</a> on <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1"><span>YouTube</span><span>841k</span></a></p>
 </div></figure></div>
 
 
@@ -987,7 +1137,7 @@
 <p>If we hear any significant developments regarding this Switch 2 rating for Splatoon 3, we'll provide an update.</p>
 <!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:195742,183813,195601 @ 1767352076 --></section>
 <p>[source <a title="External Link: https://pegi.info/search-pegi?q=Splatoon+3" rel="noopener" href="https://pegi.info/search-pegi?q=Splatoon+3">pegi.info</a>, via <a title="External Link: https://www.gematsu.com/2025/12/splatoon-3-rated-for-switch-2-in-europe" rel="noopener" href="https://www.gematsu.com/2025/12/splatoon-3-rated-for-switch-2-in-europe">gematsu.com</a>]</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-info/0982dc4fe849f186d29e84041dfb34cd @ 1767349916 --></div></article><div><p>Liam is a news writer and reviewer across Hookshot Media. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-info/0982dc4fe849f186d29e84041dfb34cd @ 1767353615 --></div></article><div><p>Liam is a news writer and reviewer across Hookshot Media. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
 </div></div></div><br/><br/>https://www.nintendolife.com/news/2026/01/splatoon-3-has-now-been-rated-for-the-switch-2]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
@@ -1557,205 +1707,6 @@
   
 
     </article></div><br/><br/>https://www.gamespot.com/articles/best-of-2025-avoweds-most-controversial-feature-is-also-one-of-its-best/1100-6536983/?ftag=CAD-01-10abi2f]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[8 Biggest Xbox Games Coming in 2026]]></title>
-            <link>https://insider-gaming.com/8-biggest-xbox-games-coming-in-2026/</link>
-            <guid>1395424</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-        
-<p>2026 is set to be a huge year for gaming, and Xbox players have plenty to be excited for with a host of first-party titles landing on the platform as part of a Game Pass subscription, alongside major multi-platform releases.</p>
-
-
-
-<p>The past year was a bit of a mixed bag for Xbox, with several major delays hitting the platform hard, and, overall, 2025 felt a lot like a transitional year for gaming as a whole. Still, it’s certainly laid down the groundwork for 2026 to be huge, with more releases to enjoy than you can count.</p>
-
-
-
-<p>With so many big releases coming in 2026, Insider Gaming has selected the biggest games in the next 12 months that Xbox players can’t miss.</p>
-
-
-
-<h2 id="h-8-biggest-xbox-games-coming-in-2026">8 Biggest Xbox Games Coming in 2026</h2>
-
-
-
-<h3 id="h-forza-horizon-6">Forza Horizon 6</h3>
-
-
-
-<figure><figcaption>Japan awaits. Credit to Playground Studios</figcaption></figure>
-
-
-
-<p>Though Forza Horizon 5 still stands as the best racing game available on the platform, the open-world adventure turns five in 2026, and a successor is overdue. Step forward Forza Horizon 6, with the setting of the game already announced to be in Japan, something that players have wanted for a long time.</p>
-
-
-
-<p>Although the Horizon franchise is no longer Xbox exclusive, with the fifth game released on PlayStation 5 in 2025, Xbox remains the best place to play the title due to the Game Pass release. Additionally, a release on other platforms, including PlayStation, could come after an initial Xbox release.</p>
-
-
-
-<h3 id="h-grand-theft-auto-6">Grand Theft Auto 6</h3>
-
-
-
-<figure><figcaption>Delayed. Image via Rockstar</figcaption></figure>
-
-
-
-<p>The long, long wait for the release of Grand Theft Auto 6 is finally coming next year, assuming there are no further delays from Rockstar, and, with anticipation for GTA 6 being so high and the wait being so long, the eventual release will spread further than the usual sphere of gaming and will make a significant impact in media as a whole.</p>
-
-
-
-<p>There are still many unanswered questions surrounding GTA 6, and we should start to see more about the game revealed, edging closer to a release, but expect Fall 2026 to be dominated by GTA 6 entirely, with other developers frantically moving things about so their release doesn’t clash with the titan.</p>
-
-
-
-<h3 id="h-fable">Fable</h3>
-
-
-
-<figure><figcaption>Long wait. Image via Playground Games</figcaption></figure>
-
-
-
-<p>Initially slated for a release in 2025, Playground Games’ Fable relaunch was delayed until 2026 back in February 2025, and there are still some questions on whether that release window will be met. Regardless, the relaunch of the franchise is a big deal for Xbox in a period where its big in-house projects have fallen short of expectations on many cases.</p>
-
-
-
-<p>It’s been an extremely long wait for Fable to emerge, and the stakes are high as the initial games have such a high amount of popularity, so reaching the high bars that have been set may be tricky. Either way, Fable will go down as one of the must-play games on Xbox in 2026, assuming it isn’t delayed again.</p>
-
-
-
-<h3 id="h-subnautica-2">Subnautica 2</h3>
-
-
-
-<figure><figcaption>Splashdown. Image via Unknown Worlds Entertainment </figcaption></figure>
-
-
-
-<p>Another title that was initially due to release into early access in 2025, a delay pushed that period for Subnautica 2 back into 2026, and eyes are cast towards Krafton following a messy situation that has seen <a href="https://insider-gaming.com/subnautica-2-developer-unknown-worlds-sues-former-leadership/" target="_blank" rel="noreferrer noopener">Unknown Worlds suing its former leadership</a> and co-founders with claims of sabotage and abandonment.</p>
-
-
-
-<p>While all that rumbles on in the background, excitement for the next entry in the Subnautica franchise continues to rise. Both the initial game and Below Zero made a big impression in the open-world survival action-adventure genre, setting high expectations for the third game in the franchise.</p>
-
-
-
-<h3 id="h-gears-of-war-e-day">Gears of War: E-Day</h3>
-
-
-
-<figure><figcaption>Prequel. Image via The Coalition</figcaption></figure>
-
-
-
-<p>Set 14 years before the events of the original Gears of War, which was re-released as Gears of War: Reloaded in August 2025, a move that brought the franchise onto PlayStation for the first time, E-Day is set on the events of Emergence Day when the Locust first reared their ugly heads.</p>
-
-
-
-<p>It’s fair to say the more recent entries in the Gears of War franchise were not quick as impactful as the first three, but the prequel provides the opportunity to detail more background into the original trilogy, as well as bringing characters that were killed off in later games back into the fray.</p>
-
-
-
-<h3 id="h-halo-campaign-evolved">Halo: Campaign Evolved</h3>
-
-
-
-<figure><figcaption>Beginning. Image via Xbox Game Studios</figcaption></figure>
-
-
-
-<p>Similar to the Gears of War franchise, the last few Halo games released were not quite as big as hits as the initial games in the franchise, which is now going back to the beginning with Halo: Campaign Evolved. While another remake has attracted criticism in some corners, it does provide the platform to build the next generation of the franchise.</p>
-
-
-
-<p>Focusing on the campaign only has been controversial, but the up-to-date tools used will bring the original Halo game to life once again in different ways from before, and will surely help development of future games. Even if you still play the Masterchief Collection regularly, Campaign Evolved is worth some effort.</p>
-
-
-
-<h3 id="h-high-on-life-2">High on Life 2</h3>
-
-
-
-<figure><figcaption>Sequel. Image via Squanch Games</figcaption></figure>
-
-
-
-<p>Squanch Games’ sequel to the original game of the same name, High on Life 2 is set for release on February 13, and will be available day one for Xbox Game Pass subscribers. With the early months of next year looking slightly barren in places, it’s a great opportunity for High on Life 2 to shine.</p>
-
-
-
-<p>The comedic shooter is definitely a can’t-miss game of 2026 for Xbox players and, if you never played the first game, there’s still time to rectify that before the release date.</p>
-
-
-
-<h3 id="h-call-of-duty-2026">Call of Duty 2026</h3>
-
-
-
-<figure><figcaption>New start? Image via Activision</figcaption></figure>
-
-
-
-<p>Another year, another Call of Duty title, surely it’s the same old thing? Perhaps not, as a big update was provided in December that confirmed back-to-back releases of titles in the franchise will be scrapped, after two years of Black Ops titles drew criticism and fatigue.</p>
-
-
-
-<p>Not much is known about 2026 yet, and it remains to be seen whether it will bring a new Modern Warfare title or a new direction entirely, but the confirmation of a change in direction shows Activision is listening to the community, which should raise hopes for the 2026 Call of Duty title.</p>
-
-
-
-<hr>
-
-
-
-<p>What Xbox title are you looking forward to the most in 2026? Share your thoughts in the <a href="https://discord.com/invite/vwj7zdWxaW" target="_blank" rel="noreferrer noopener">Insider Gaming Discord</a>.</p>
-
-
-
-<p>For your next read, check out the <a href="https://insider-gaming.com/6-biggest-announcements-the-game-awards-2025/" target="_blank" rel="noreferrer noopener">six biggest announcements at The Game Awards 2025</a>, and take a look at the details of <a href="https://insider-gaming.com/deadpool-marvel-rivals-release-date-voice-actor/" target="_blank" rel="noreferrer noopener">when Deadpool will release in Marvel Rivals</a>.</p>
-    
-
-    <div id="ig-app-cta">
-          <p><i></i> MOBILE APP</p>
-          <h2>Level Up Your Gaming News</h2>
-          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
-          
-          <p><i></i> Available on iOS &amp; Android</p>
-        <!-- <div class="ig-note"><i class="fa-solid fa-bolt"></i> Available on Android</div> -->
-
-        </div>
-
-    
-    
-    </div></div><br/><br/>https://insider-gaming.com/8-biggest-xbox-games-coming-in-2026/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Anker Goes Big for 2026 With 59% Off Power Station Bundle Including Expansion Batteries and Solar Panels]]></title>
-            <link>https://kotaku.com/anker-goes-big-for-2026-with-59-off-power-station-bundle-including-expansion-batteries-and-solar-panels-2000656218</link>
-            <guid>1395415</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-              
-              <p>Sometimes you need some extra power to get you through emergency situations. Or maybe you want to spend some time off the grid and need power to facilitate that. The Anker SOLIX F3000 Portable Power Station is a heavy-duty, portable power solution to provide you with the energy needed to power your devices, appliances, and equipment anywhere you need them. And best of all, it can last and last as long as you need it.</p>
-<p>It’s not budget-priced normally by any means, but it’s on sale right now, so buying it might be a little less painful. <a href="https://shop.kotaku.com/go/6634/">Anker SOLIX F3000 Portable Power Station is available on Amazon for just $2,199; this is significantly lower than its original price of $5,397 (a reduction of $3,198) and represents a savings of approximately 59% of the retail price.</a></p>
-<p><a href="https://shop.kotaku.com/go/6634/" target="_self" rel="sponsored nofollow">See at Amazon</a></p>
-
-<h2>Power to fuel you through emergencies, off-grid excursions, and more</h2>
-<p>The SOLIX F3000 was created for serious users and is capable of supplying the power to support the needs of larger electronics, tools and appliances for hours on end. This lets you use your power station for camping/RV trips as well as an emergency backup during a power outage. It can power appliances such as refrigerators, power tools, lights, communication equipment and many other items, without the need to continually switch between batteries or search for outlets.</p>
-<p>The SOLIX F3000 Portable Power Station features multiple output types including AC outlets, USB-C, and USB-A to provide you with the flexibility to be able to charge and power a wide array of items simultaneously. The inclusion of USB-C PD (Power Delivery) helps you charge things fast. All the various charging options in one single unit makes things a lot easier, too. No more having to fumble with all the cords you might usually be stuck with.</p>
-
-
-
-<p>Recharging the SOLIX F3000 Portable Power Station is also flexible and convenient. Char standard wall outlet, a vehicle charger while traveling, or solar panels that are compatible with the unit. The availability of solar charging means you can use the power station for longer periods of time while away from a typical electrical power source. Additionally, the fact that you can recharge the SOLIX F3000 using multiple methods decreases the likelihood of you running low on power when you need it the most.</p>
-<p>With its massive capacity, a multitude of output options, and a number of options to recharge the unit, the Anker SOLIX F3000 Portable Power Station is a great pick to make sure you’re powered up any time you need it. And if you want to invest in something that will last, this is your best bet.</p>
-<p><a href="https://shop.kotaku.com/go/6634/" target="_self" rel="sponsored nofollow">See at Amazon</a></p>
-
-                          </div></div><br/><br/>https://kotaku.com/anker-goes-big-for-2026-with-59-off-power-station-bundle-including-expansion-batteries-and-solar-panels-2000656218]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
