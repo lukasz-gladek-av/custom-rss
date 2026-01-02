@@ -4,7 +4,7 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Fri, 02 Jan 2026 16:30:52 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Jan 2026 16:56:03 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -219,74 +219,6 @@
 			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
 
 		</div></div><br/><br/>https://wccftech.com/people-have-to-take-step-back-understand-ai-can-be-big-help-developers-benefit-players-says-arc-raiders-boss/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[‘Console Hacking Has Detonated An Explosive’: PlayStation 5 ROM Keys Leak Online, Opening the Door to Permanent Jailbreaks, Custom Firmware]]></title>
-            <link>https://wccftech.com/console-hacking-has-detonated-an-explosive-playstation-5-rom-keys-leak-online-opening-the-door-to-permanent-jailbreaks-custom-firmware/</link>
-            <guid>1395805</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			
-			<p>Since the PlayStation 5's release in late 2020, console hackers have attempted to gain complete access to the system by discovering and exploiting vulnerabilities, using software exploits to access features not normally available to consumers.</p>
-
-
-
-<p>But on <strong>New Year's Eve</strong>, console hacking groups detonated another sort of explosive that could have <strong>massive consequences</strong> for the PlayStation 5 hacking scene, opening the door for <strong>permanent jailbreak, custom firmware, emulation,</strong> and much more.</p>
-
-
-
-<p>As detailed in an <strong><a href="https://thecybersecguru.com/news/ps5-rom-keys-leaked/" target="_blank" rel="noreferrer noopener">extremely well-put-together report by <em>The CyberSec Guru</em></a></strong>, at the end of 2025, people in the PlayStation 5 hacking scene began discussing a <strong>massive data dump</strong> that appeared on <em>psdevwiki.com</em> and private Discord servers. This data dump contained the <strong>Level 0 BootROM keys</strong> for the system.</p>
-
-
-
-<p>The <strong>BootROM</strong> is the first piece of code the PlayStation 5 runs when the system is turned on, the <strong>deepest level</strong> of the console's security architecture, which is used to decrypt and verify the initial stages of the system boot chain. As such, acquiring these keys, which are stored in a <strong>read-only chip</strong> and decrypted on boot by the system's APU, <strong><em>essentially means that anyone with these keys literally owns the system.</em></strong></p>
-
-
-
-<p>Any exploit based on these keys would <strong>significantly surpass</strong> all software exploits available to date, as the code and keys in the BootROM <strong>cannot be modified</strong> with a software update.</p>
-
-
-
-<figure><table><thead><tr><td><strong>Feature</strong></td><td><strong>Software Kernel Exploits (Previous)</strong></td><td><strong>Level 0 BootROM Leak (Current)</strong></td></tr></thead><tbody><tr><td><strong>Patchability</strong></td><td><strong>Fixable</strong> via System Update</td><td><strong>Unpatchable</strong> (Silicon-bound)</td></tr><tr><td><strong>Persistence</strong></td><td>Lost after reboot</td><td><strong>Permanent</strong> Custom Firmware potential</td></tr><tr><td><strong>Access Level</strong></td><td>User/Kernel land</td><td><strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed">Root of Trust</strong> (Deepest)</td></tr><tr><td><strong>Hardware</strong></td><td>Varies by Firmware version</td><td><strong>All existing PS5 models</strong> vulnerable</td></tr></tbody></table></figure>
-
-
-
-<p>While Sony will likely introduce a <strong>hardware revision (CFI-3000 series)</strong> to rotate these keys in future retail units, the <strong>60+ million consoles</strong> already in homes are now effectively <strong><em>'unlocked' for life.</em></strong></p>
-
-
-
-<h3 id="h-what-does-this-mean-for-the-end-user"><strong>What Does This Mean For The End User?</strong></h3>
-
-
-
-<p>This massive PlayStation 5 leak has significant implications. Even if any end user gets access to the leaked ROM keys, they would be able to do nothing with them. However, the ability to <strong>decrypt the bootloader</strong> will greatly <strong>accelerate the development of a Custom Firmware</strong> to let the system boot into a modified operating system permanently, without having to run software exploits every time, and with <strong>no risk</strong> of firmware updates patching the vulnerability.</p>
-
-
-
-<p>In addition to accelerating the development of custom firmwares, the leaked ROM keys could be a <strong>boon for the emulation scene</strong>, providing emulator developers with the necessary information to enhance the emulator's <strong>compatibility and accuracy</strong>.</p>
-
-
-
-<p>In addition, the PlayStation 5 could become an <strong>emulation powerhouse</strong> capable of running games released on various systems, potentially even running <strong>PlayStation 3 games natively via the <a href="https://wccftech.com/rpcs3-can-now-run-all-released-playstation-3-games/">RPCS3 emulator</a></strong>, which has been a long-standing community wish. Unfortunately, this could also <strong>pave the way for piracy</strong>, as a custom firmware could run pirated games on any system.</p>
-
-
-
-<p><strong><em>'The PlayStation 5 you own today is not the same console it was yesterday. It is now an open book,'</em></strong> concluded <em>The CyberSec Guru</em> in their report, while the community jokes on Sony's HQ now being on fire, which probably is, at least figuratively, considering the severity of this leak.</p>
-
-
-
-<p>No matter how the situation is addressed, it will be very interesting to see how the Japanese company will handle this <strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed">critical situation</strong> alongside other potentially crippling hardware issues like the <a data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-style-link dracula-processed" href="https://wccftech.com/all-ps5-consoles-will-eventually-require-maintenance-playstation-5-liquid-metal-degradation/"><strong data-dracula_secondary_bg_finder="rgba(26, 87, 132, 0.2)" data-dracula_alpha_bg="rgba(26, 87, 132, 0.2)">liquid metal cooling issues</strong></a>, and what will come with what is set to become an <strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)"><em data-dracula_alpha_bg="rgba(0, 0, 0, 0)">epochal leak</em></strong> for console security.</p>
-
-			
-			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
-
-		</div></div><br/><br/>https://wccftech.com/console-hacking-has-detonated-an-explosive-playstation-5-rom-keys-leak-online-opening-the-door-to-permanent-jailbreaks-custom-firmware/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
