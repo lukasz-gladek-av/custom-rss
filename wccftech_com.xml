@@ -4,7 +4,7 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Sat, 03 Jan 2026 15:37:30 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 03 Jan 2026 16:02:49 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -210,82 +210,6 @@
 			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
 
 		</div></div><br/><br/>https://wccftech.com/clair-obscur-expedition-33-has-third-most-goty-wins-in-single-year/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[‘Nintendo Switch 2 Port of ASA Is Only Doable with UE 5.7’, Says ARK Dev; Studio Is Trying to Get Frame Generation Running]]></title>
-            <link>https://wccftech.com/nintendo-switch-2-port-asa-only-doable-ue-5-7-says-ark-dev-studio-trying-to-get-fg-running/</link>
-            <guid>1396123</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			
-			<p>I recently had the opportunity to speak for a solid hour with <strong>ARK: Survival Ascended Co-Creative Director and Lead Programmer Jeremy Stieglitz</strong>, and he had a lot to reveal, including the studio's ongoing attempts to bring the game to the <strong>Nintendo Switch 2</strong> platform.</p>
-
-
-
-<p><a href="https://wccftech.com/ue-5-7-is-close-to-a-magic-bullet-for-performance-says-ark-developer-though-it-wont-fully-eliminate-stutters/" target="_blank" rel="noreferrer noopener">In the previous slice of the gargantuan interview</a>, we focused on Stieglitz's confirmation that Unreal Engine 5.7 represents a massive performance boost in their testing. It is so massive, in fact, that the Nintendo Switch 2 port is only possible after the studio completes the engine upgrade to UE 5.7. The twist, however, is that even that alone won't be enough, which led Stieglitz to inform us that they are exploring ways to implement Frame Generation on the platform, utilizing either NVIDIA DLSS or AMD FSR 3.1. </p>
-
-
-
-<p><em>Unreal Engine 5.7's performance boost is so extreme, in fact, that one of the reasons we had been working on it is that, on the side, we'd been exploring doing a Nintendo Switch 2 port of ARK: Survival Ascended. We actually have that running internally, and we found that <strong>the Nintendo Switch 2 port was only doable with Unreal Engine 5.7 with those performance upgrades</strong>. It wasn't possible otherwise. It was that significant a performance improvement. So, we're really excited to get that one out.</em></p>
-
-
-
-<p><em>I should note that the good news is <strong>the 5.7 improvements, they're not PC specific</strong>. Most of them apply to both consoles as well. So, we're really looking forward to releasing this upgrade for the <strong>Xbox</strong> and <strong>PlayStation</strong> player base who, to this point, aren't still quite at the level of performance we would like them to be at. This is going to put those over the top in terms of getting them to the best possible performance state, which is, by our reckoning, <strong>a solid, unbreakable 60FPS is where we really want to be on those consoles</strong>. So, PlayStation and Xbox users have something to look forward to with that upgrade and not just PC users, but with Nintendo Switch 2 in particular... </em></p>
-
-
-
-<p><em>We actually do have a working build of it and frankly, <strong>it was about half off where it needed to be performance-wise</strong>. Memory was actually very good, or I would say good enough. <strong>The Nintendo Switch 2 has, in effect, more addressable memory than the Xbox Series S</strong>, the so-called Lockhart platform, does. And so, since we already had basically scaled ARK: Survival Ascended for Series S, we found that we were in a better memory state than on that console and therefore weren't in a case of running out of memory on the Nintendo Switch 2, even with using more advanced graphics on the Switch 2 than we do on the Series S. But the issue was the GPU primarily being weaker. We were able to use all the primary rendering features. Working on it, we wanted to make sure that it looked essentially like the Xbox Series X version. </em></p>
-
-
-
-<p><em><strong>We've downgraded the graphics quite significantly for Series S and we didn't want the Switch 2 experience to be like that</strong>. We needed the game to look approximately like the Series X version or the PlayStation 5 version, even if it would be at a lower resolution. So, the issue was not core rendering features. We would have to do <strong>Lumen</strong>, <strong>Nanite</strong>, and <strong>Virtual Shadow Maps</strong>. All three of those things are important to us on Switch 2. I think we may have dropped the shadows to Cascade Shadows rather than Virtual Shadow Maps, which is kind of a slightly older way of handling shadows, but in practice, most users wouldn't be able to tell the difference on a lower resolution device like the Nintendo Switch 2, which for us would be a 1080p handheld 1440p docked resolution as opposed to 4K in either case. So Cascade shadows are good enough, but Lumen and Nanite, Nanite in particular with the large open world foliage scenes, were just hammering it very badly, and we were basically about half off of where we needed to be on the Nintendo Switch 2. </em></p>
-
-
-
-<p><em>What does the Switch 2 version need? I mean, let's be clear, <strong>it's not going to be a 60 FPS experience</strong>. It's just not in the cards for Switch 2 with ARK: Survival Ascended. But the bottom line is, <strong>it needs to be a solid 30 FPS experience</strong>, and we were about half off where we needed to be to get to that. That was prior to the Unreal Engine 5.7 test. We have found gains of about <strong>33 to 40% overall frame rate</strong>. It was completely GPU-bound, and it gains us about 33 to 40% off the GPU in those scenes. That was very, very good</em>, <em>but <strong>still not<br>where we need to be</strong> to get to a 30 FPS perceived frame rate solidly. </em></p>
-
-
-
-<p><em>So, even the Unreal Engine 5.7 upgrade alone was not enough. There's one last thing we're exploring right now. It's still an open question, which is why I can't say precisely when the game would come out on the Nintendo Switch 2, because it really requires getting to that solid core 30 FPS frame rate. Right now, just to be quite frank, it's around 20 or so FPS on UE 5.7. So, how do we get to a 30-plus FPS frame rate? <strong>We're about to try experimenting with Frame Generation</strong>, but the truth is, I honestly don't know the results on that yet because it's not inherently something we can just turn on. It's not yet supported by either <strong>NVIDIA</strong>, who makes the Switch 2 GPU, or <strong>AMD</strong>. AMD has an open API for frame interpolation that theoretically can operate on the Switch 2, but they don't have a Switch 2-ready port of it. So, we would have to port it ourselves, or work with them to do so. We've been just starting the process of experimenting with whether NVIDIA DLSS Frame Generation is possible on the Switch 2, or if AMD's frame interpolation shader set is doable. We don't know the answer. One of those I have to presume will be doable, hopefully. I mean, it's technology that should in theory work, especially AMD's, which is not hardware specific. That should be doable, but we would have to explore more of the ports. Until we get more results on frame interpolation, we're still not quite where we need to be on the Nintendo Switch 2 version of ARK: Survival Ascended. </em></p>
-
-
-
-<p><em>Let me be frank, <strong>I'd rather have a 30 FPS frame rate without frame interpolation</strong>. But if I can get to 20 to 25 without frame interpolation, then use frame interpolation to push it over 30 solidly, I think that'll feel good enough. I don't think it'll look too smeary or too laggy if we're close to 30 without it. The reality is we're getting there. It's looking good and it's progressing, so I hope it's going to happen and be released this year and is impressive. </em></p>
-
-
-
-<p>I then asked if the game would utilize NVIDIA DLSS Super Resolution, which the Nintendo Switch 2 definitely supports (although not every game takes advantage of it). Stieglitz said yes, while also adding that <strong>NVIDIA has been 'vague' about whether the hybrid console can support DLSS Frame Generation</strong>.</p>
-
-
-
-<p><em>Yeah, DLSS works fine and is quite impressive. It helps quite a bit with the up-resing and image sharpening and clarity, but they separate the DLSS upscaling algorithm from the Frame Generation algorithm. What we've heard from NVIDIA is that they don't currently support Frame Generation on the Switch 2, but they've been a little vague about whether it can be supported. So, <strong>we have to poke them a little harder and try and get an answer on that in the new year</strong>.</em></p>
-
-
-
-<p>To our knowledge, the platform does not support it; however, it's interesting to hear that Studio Wildcard did not receive a conclusive 'no' from NVIDIA. Needless to say, it could be a big deal for future game releases if the Nintendo Switch 2 supported some form of Frame Generation. We'll remain vigilant on the subject.</p>
-
-
-
-<p>Lastly for the Nintendo Switch 2 portion of our ARK: Survival Ascended interview, Stieglitz confirmed that if it does come out on the console, it will join the same community of PC, PlayStation 5, and Xbox Series S|X, unlike the <a href="https://wccftech.com/ark-survival-evolved-nintendo-switch/" target="_blank" rel="noreferrer noopener">ill-fated Nintendo Switch port of ARK: Survival Evolved</a>.</p>
-
-
-
-<p><em>If ARK: Survival Ascended does come out on the Nintendo Switch 2 (fingers crossed, and we are working on it), <strong>it would be a cross-platform, cross-multiplayer version of the game</strong>. It would not be a segmented, diluted, isolated version of the game. The original Switch 1 version of ARK: Survival Evolved was unfortunately a slightly watered-down and segmented version of the product, which made it difficult to maintain, and I also think led to it not being as successful as it otherwise would have been by not connecting with the wider player base and not getting all the same content. We wouldn't be making that mistake again for the new version if it comes to pass.</em></p>
-
-
-
-<p>Stay tuned for the rest of our chat with Jeremy Stieglitz on ARK: Survival Ascended's recently launched premium DLC, <strong><a href="https://wccftech.com/ark-survival-ascended-lost-colony-dlc-expansion-out-now-release-date/" target="_blank" rel="noreferrer noopener">Lost Colony</a></strong>, and what's next for the popular survival game.</p>
-
-			
-			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
-
-		</div></div><br/><br/>https://wccftech.com/nintendo-switch-2-port-asa-only-doable-ue-5-7-says-ark-dev-studio-trying-to-get-fg-running/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
