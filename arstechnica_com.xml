@@ -4,48 +4,57 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Tue, 06 Jan 2026 12:04:27 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 06 Jan 2026 18:04:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Intel launches Core Ultra Series 3 CPUs, made using its long-awaited 18A process]]></title>
-            <link>https://arstechnica.com/gadgets/2026/01/intel-launches-core-ultra-series-3-cpus-made-using-its-long-awaited-18a-process/</link>
-            <guid>1397947</guid>
+            <title><![CDATA[Nvidia’s new G-Sync Pulsar monitors target motion blur at the human retina level]]></title>
+            <link>https://arstechnica.com/gaming/2026/01/nvidias-new-g-sync-pulsar-monitors-target-motion-blur-at-the-human-retina-level/</link>
+            <guid>1398619</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
           
           
-<p>Like past Core Ultra generations, the Core Ultra 3 chips use a chiplet-based approach, combining several distinct silicon tiles on a foundational “base tile” using Intel’s Foveros packaging technology. The compute tile houses the CPU cores and the neural processing unit (NPU), and it’s the piece that’s built using 18A—there are two version of this tile, one with a maximum of 16 CPU cores and one with 8. The platform controller tile, which handles most I/O, is still being built at TSMC, as is the high-end 12-core version of the graphics tile. A simpler four-core version of the graphics tile is being made using an older Intel 3 process, which to date has mostly been used for Intel’s Xeon server CPUs.</p>
+<p>That gives those individual pixels time to fully transition from one color to the next before they’re illuminated, meaning viewers don’t perceive those pixels fading from one color as they do on a traditional G-Sync monitor. It also means those old pixels don’t persist as long on the viewer’s retina, increasing the “apparent refresh rate” above the monitor’s actual refresh rate, according to Nvidia.</p>
+<figure>
+    <div id="caption-2134079"><p>
+              An Asus illustration highlights how G-Sync Pulsar uses strobing to limit the persistence of old frames on your retina.
+                              </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      An Asus illustration highlights how G-Sync Pulsar uses strobing to limit the persistence of old frames on your retina.
 
+              <span>
+          Credit:
 
-<p>The chiplet-based approach allows Intel to mix-and-match these tiles to offer three distinct iterations of Panther Lake: the 16-core CPU and the 12-core GPU, the 16-core CPU and the 4-core GPU, and the 8-core CPU and the 4-core GPU. Versions of these chips with some CPU and GPU cores switched off fill out the rest of the Core Ultra Series 3 lineup.</p>
-<p>Intel is making big performance claims about the highest-end Core Ultra Series 3 processors: up to 60 percent faster multi-core CPU performance compared to the outgoing Core Ultra 200V chips, and up to 77 percent faster integrated GPU performance. Intel also says a “Lenovo IdeaPad reference design” using a Core Ultra X9 388H was able to stream Netflix at 1080p for 27.1 hours, though how battery life shakes out in real-world laptops is going to vary widely based on other specs and settings.</p>
-<p>All Panther Lake chips will also include the same neural processing unit (NPU), capable of up to 50 trillion operations per second (TOPS). This puts it well above the 40 TOPS requirement for Microsoft’s Copilot+ PC label, if a bit short of the 60 TOPS that AMD is claiming for its <a href="https://arstechnica.com/gadgets/2026/01/amd-reheats-last-years-ryzen-ai-and-x3d-cpus-for-2026s-laptops-and-desktops/">Ryzen AI 400 series</a> and the 80 TOPS that Qualcomm says its Snapdragon X2 chips are capable of. Wi-Fi 7, Bluetooth 6.0, and up to four Thunderbolt 4 ports round out the most important connectivity features.</p>
-<p>It remains to be seen whether Core Ultra Series 3 chips are a turning point for Intel’s fortunes or a temporary rebound in between years of missed deadlines (Panther Lake is a month later than Intel <a href="https://arstechnica.com/gadgets/2025/10/intels-next-generation-panther-lake-laptop-chips-could-be-a-return-to-form/">said it would be in October</a>, though by its recent standards that isn’t bad). But their launch later this month suggests that the company’s 18A facilities are up and running, opening the door to the kind of third-party chip manufacturing that former CEO Pat Gelsinger <a href="https://arstechnica.com/gadgets/2021/07/intels-foundry-roadmap-lays-out-the-post-nanometer-angstrom-era/">began pursuing nearly five years ago</a>.</p>
+                      <a href="https://rog.asus.com/monitors/27-to-31-5-inches/rog-strix-pulsar-xg27aqngv/" target="_blank">
+          
+          Asus/ Nvidia
+
+                      </a>
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>Similar “Ultra Low Motion Blur” features on other pulsing backlight monitors <a href="https://www.nvidia.com/en-us/geforce/news/g-sync-ultra-low-motion-blur-2/">have existed for a while</a>, but they only worked at fixed refresh rates. Pulsar monitors differentiate themselves by syncing the pulses with the variable refresh rate of a G-Sync monitor, offering what Nvidia calls a combination of “tear free frames and incredible motion clarity.”</p>
+<p>Independent testers have had more varied impressions of the visual impact of the Pulsar. The Monitors Unboxed YouTube channel <a href="https://www.youtube.com/watch?v=SXwXGYhi8_I">called it</a> “clearly the best solution currently available” for limiting motion blur and “the first version of this technology that I would genuinely consider using on a regular basis.” PC Magazine, on the other hand, <a href="https://www.pcgamer.com/nvidias-g-sync-pulsar-hopes-to-banish-a-form-of-motion-blur-thats-plague-pc-gaming-for-years/">said</a> the Pulsar improvements are “minor in the grand scheme of things” and would be hard to notice for a casual viewer.</p>
+<figure><p><iframe allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/4MnI1x35H1Q?start=0&amp;wmode=transparent"></iframe></p><div>
+    
+    <p>
+      Nvidia explains how its Pulsar monitors work.
+
+          </p>
+  </div>
+</figure>
+<p>In any case, G-Sync Pulsar should be a welcome upgrade for high-end gamers <a href="https://arstechnica.com/gaming/2024/05/does-anyone-really-need-a-1000-hz-gaming-display/">as we wait for 1,000 Hz monitors</a> to become a market force.</p>
 
 
           
-                  </div></div><br/><br/>https://arstechnica.com/gadgets/2026/01/intel-launches-core-ultra-series-3-cpus-made-using-its-long-awaited-18a-process/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[AMD reheats last year’s Ryzen AI and X3D CPUs for 2026’s laptops and desktops]]></title>
-            <link>https://arstechnica.com/gadgets/2026/01/amd-reheats-last-years-ryzen-ai-and-x3d-cpus-for-2026s-laptops-and-desktops/</link>
-            <guid>1397944</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-                      
-                      
-          <p>Intel, AMD, Nvidia, and other chip companies usually have some kind of news to announce at CES to kick off the year, but some of those announcements are more interesting than others. Sometimes you see new chips with significant speed boosts and other new technologies, and sometimes you get rebranded versions of old silicon meant to fill out a lineup or make an existing architecture seem newer and more exciting than it is.</p>
-<p>AMD’s Ryzen CPU announcements this year fall firmly into the latter camp—these are all gently tweaked variants of chips that launched in 2024 and 2025.</p>
-<h2>“New,” for certain values of “new”</h2>
-
-
-<p>Let’s start with the Ryzen AI 400 series. Officially the follow-up to the Ryzen AI 300 chips <a href="https://arstechnica.com/gadgets/2024/06/amds-ryzen-ai-300-series-laptop-cpus-are-its-first-for-new-copilot-pcs/">announced in June 2024</a>, these processors offer some modest clock speed improvements and faster memory support. The new Ryzen AI 9 HX 470 has a peak boost clock speed of 5.2 GHz and support for LPDDR5x-8533, for example, up from 5.1 GHz and LPDDR5x-8000 for the Ryzen AI 9 HX 370, and its built-in neural processing unit (NPU) is capable of 60 trillion operations per second (TOPS) rather than 50 TOPS.</p>
-<p>But beyond those modest tweaks, Ryzen AI 400 chips are constructed from the same building blocks as Ryzen AI 300. They use a combination of high-performance Zen 5 CPU cores and smaller, more efficient Zen 5c cores, between 4 and 16 integrated GPU cores based on the RDNA 3 GPU architecture, and a 4 nm TSMC manufacturing process.</p>
-<p>This isn’t new behavior from AMD. A couple of processor generations ago (and one processor naming scheme ago), the company did the same thing with the <a href="https://arstechnica.com/gadgets/2023/12/amds-new-ryzen-8040-laptop-chips-look-a-lot-like-the-ryzen-7040-cpus/">Ryzen 8040-series laptop chips</a>, sprucing up the <a href="https://arstechnica.com/gadgets/2023/05/amd-is-ready-to-launch-its-twice-delayed-ryzen-7000-chips-for-lightweight-laptops/">older 7040 series</a> with marginally higher clock speeds and not much else. The upshot is that if you can get a decent discount on a Ryzen AI 300 system because it’s “old,” you can buy it without missing much.</p>
-
-          
-                      
-                  </div></div><br/><br/>https://arstechnica.com/gadgets/2026/01/amd-reheats-last-years-ryzen-ai-and-x3d-cpus-for-2026s-laptops-and-desktops/]]></content:encoded>
+                  </div></div><br/><br/>https://arstechnica.com/gaming/2026/01/nvidias-new-g-sync-pulsar-monitors-target-motion-blur-at-the-human-retina-level/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
