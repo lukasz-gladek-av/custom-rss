@@ -4,9 +4,82 @@
         <title>Eurogamer.pl RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/eurogamerpl.xml</link>
         <description>Full article content from Eurogamer.pl</description>
-        <lastBuildDate>Mon, 05 Jan 2026 20:33:04 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 06 Jan 2026 11:30:06 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Hytale rzuca wyzwanie Minecraftowi. Nadchodzi rewolucyjny system generowania światów]]></title>
+            <link>https://www.eurogamer.pl/hytale-rzuca-wyzwanie-minecraftowi-nadchodzi-rewolucyjny-system-generowania-swiatow</link>
+            <guid>https://www.eurogamer.pl/hytale-rzuca-wyzwanie-minecraftowi-nadchodzi-rewolucyjny-system-generowania-swiatow</guid>
+            <content:encoded><![CDATA[https://www.eurogamer.pl/hytale-rzuca-wyzwanie-minecraftowi-nadchodzi-rewolucyjny-system-generowania-swiatow<br/><br/><div id="readability-page-1" class="page"><div>
+      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
+
+
+<header data-component="article-header">
+  
+
+    <div id="main-content">
+        
+
+        <p>Pełna kontrola nad piaskownicą.</p>
+
+    </div>
+
+
+  
+
+    
+
+</header>
+  <div data-component="article-content">
+
+
+
+            <p>Minecraft w 2011 roku wyznaczył standard w dziedzinie proceduralnego generowania świata dla sandboxów. Wygląda na to, że nadszedł czas na rewolucję, której dowodzącym ma zostać Hytale - produkcja silnie inspirowana kultową grą o klockach.</p>
+<p>Dzieło ekipy Hypixel Studios - najpopularniejszego serwera w historii Minecrafta - w <a href="https://www.eurogamer.pl/hytale-ma-date-premiery-we-wczesnym-dostepie-tworcy-radza-jednak-zeby-nie-liczyc-na-cuda">przyszłym tygodniu</a> (13 stycznia) wreszcie trafi do graczy we wczesnym dostępie. W oczekiwaniu na premierę deweloperzy podzielili się swoimi planami dotyczącymi rozwoju projektu. Dowiedzieliśmy się, że dużą zmianą, jaka czeka graczy po debiucie tytułu, jest nowe podejście do kreowania środowiska. Założyciel studia, Simon Collins-Laflamme, twierdzi nawet, że <strong>system ten ma potencjał, by na zawsze odmienić sposób, w jaki gry typu sandbox tworzą wirtualne piaskownice</strong>.</p>
+<p>Na tę rewolucję gracze będą musieli jednak chwilę poczekać. Na początku wczesnego dostępu tryb eksploracji w Hytale będzie funkcjonował w modelu, który twórcy nazywają wersją <em>V1</em> systemu generowania świata. Jak czytamy we <a href="https://hytale.com/news/2026/1/the-future-of-world-generation">wpisie</a> na oficjalnym blogu produkcji, Hypixel Studios pracowało nad nim w latach 2016-2020. W 2021 roku deweloperzy rozpoczęli prace nad <em>V2</em>, jego ulepszoną wersją, która wprowadzi radykalne zmiany w strukturze generowanych krain.</p>
+
+<figure>
+<p>
+<a aria-label="Hytale World Generation: Erosion Effect Example" data-platform="youtube" href="https://www.youtube.com/embed/247loJYEJBU?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
+<span>Hytale World Generation: Erosion Effect Example</span>
+<template>
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/247loJYEJBU?autoplay=1" frameborder="0" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/247loJYEJBU?autoplay=1" title="Hytale World Generation: Erosion Effect Example">
+</iframe> </template>
+</a>
+</p>
+<figcaption>Aż trudno uwierzyć, że za tak malowniczymi widokami stoi algorytm.<a href="https://www.youtube.com/watch?v=247loJYEJBU" rel="noopener" target="_blank">Zobacz na YouTube</a></figcaption></figure>
+
+
+<p><em>V2</em> wciąż opiera się na proceduralności, ale daje twórcom znacznie większą kontrolę nad finalnym wyglądem krajobrazów. <strong>Nowy system w zamyśle ma pozwalać projektantom na tworzenie bardziej zaawansowanych schematów dla poszczególnych składowych świata</strong>. Jedną z jego kluczowych funkcji jest tzw. system skanowania szablonów (ang. <em>pattern scanning system</em>), który determinuje obiekty rozmieszczane w grze na podstawie danych kontekstowych z otoczenia. W ten sposób można zaprogramować generator tak, aby umieszczał drzewa o ciemnych liściach bezpośrednio nad jaskiniami. To coś, czego moglibyśmy się spodziewać po lokacjach projektowanych ręcznie.</p><p>Poszczególne szablony będzie można w pełni dostosować, co otwiera przed graczami ogromne możliwości w zakresie kreatywności. <strong>System jest zaawansowany, ale twórcy stawiają na przystępność - do generowania skomplikowanych krain nie jest wymagana wiedza programistyczna</strong>. Generator ma być oparty na węzłach (podobnie jak w Unreal Engine czy Blenderze), co pozwala na intuicyjną edycję zmiennych i natychmiastowy podgląd efektów bezpośrednio w grze.</p>
+
+<figure>
+<p>
+<a aria-label="Hytale World Generation: Experimental Procedural Rings" data-platform="youtube" href="https://www.youtube.com/embed/PRtN7mb4Myc?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
+<span>Hytale World Generation: Experimental Procedural Rings</span>
+<template>
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/PRtN7mb4Myc?autoplay=1" frameborder="0" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/PRtN7mb4Myc?autoplay=1" title="Hytale World Generation: Experimental Procedural Rings">
+</iframe> </template>
+</a>
+</p>
+<figcaption>Przykładem tak wygenerowanej lokacji jest pozaziemski krajobraz, którego motywem przewodnim są osobliwe pierścienie.<a href="https://www.youtube.com/watch?v=PRtN7mb4Myc" rel="noopener" target="_blank">Zobacz na YouTube</a></figcaption></figure>
+
+
+<p>„<em>To nowe podejście do generowania światów na nowo zdefiniuje gatunek gier opartych na blokach. Po raz pierwszy artyści i projektanci gier będą mogli w pełni przejąć odpowiedzialność za wygląd otoczenia, mając całkowitą kontrolę nad ostatecznym efektem. <strong>To fundamentalne odejście od światów kształtowanych niemal wyłącznie przez programistów</strong></em>” - stwierdził Collins-Laflamme. </p>
+<p>Z tej okazji Hypixel Studios ogłosiło, że zamierza zatrudnić ponad 15 osób na stanowisko projektantów świata, co - jak zaznacza sam Collins-Laflamme - jest nietypową profesją przy grze, w której krajobrazy generują algorytmy. „<em>Wizją Hytale jest zapewnienie wrażenia obcowania ze światem zaprojektowanym ręcznie, a jednocześnie nieskończonym i proceduralnym, przy czym projekt zawsze ma służyć przede wszystkim rozgrywce</em>” - dodaje deweloper.</p>
+
+        </div>
+
+      </article>
+
+  
+
+
+
+        
+  </div></div>]]></content:encoded>
+            <dc:creator>Nikodem Parchem</dc:creator>
+        </item>
         <item>
             <title><![CDATA[Twórcy Kingdom Come: Deliverance 2 planowali stworzenie systemu przybierania na wadze]]></title>
             <link>https://www.eurogamer.pl/tworcy-kingdom-come-deliverance-2-planowali-stworzenie-systemu-przybierania-na-wadze</link>
@@ -6625,56 +6698,6 @@ Wilton Regan przejmuje rolę Lary Croft po Camilli Luddington, która przez 10 l
         
   </div></div>]]></content:encoded>
             <dc:creator>Nikodem Idziak</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Silent Hill bez Silent Hill. Konami myśli o innych regionach świata]]></title>
-            <link>https://www.eurogamer.pl/silent-hill-bez-silent-hill-konami-mysli-o-innych-regionach-swiata</link>
-            <guid>https://www.eurogamer.pl/silent-hill-bez-silent-hill-konami-mysli-o-innych-regionach-swiata</guid>
-            <content:encoded><![CDATA[https://www.eurogamer.pl/silent-hill-bez-silent-hill-konami-mysli-o-innych-regionach-swiata<br/><br/><div id="readability-page-1" class="page"><div>
-      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
-
-
-<header data-component="article-header">
-  
-
-    <div id="main-content">
-        
-
-        <p>Po Japonii seria może ruszyć dalej.</p>
-
-    </div>
-
-
-  
-
-    
-
-</header>
-  <div data-component="article-content">
-
-
-
-            <p>Silent Hill f zerwało z amerykańskim stanem Maine i mglistym miasteczkiem, które przez lata przyprawiało nas o ciarki. Konami nie zamierza się cofać, a producent serii otwarcie mówi o kolejnych zmianach geograficznych.</p>
-<p>W rozmowie z portalem <a href="https://www.inverse.com/gaming/silent-hill-interview-okamoto-konami-americas">Inverse</a> producent serii Motoi Okamoto przyznał, że <a href="https://www.eurogamer.pl/to-fanowskie-memy-i-teorie-wyniosly-silent-hill-f-ponad-silent-hill-2-remake-uwazaja-tworcy-gry">osadzone w Japonii Silent Hill f</a> jest dla zespołu dopiero punktem wyjścia do dalszych geograficznych eksperymentów. Konami rozważa przenoszenie akcji przyszłych odsłon w różne części świata, zamiast ciągle wracać do fikcyjnego miasteczka Silent Hill, które definiowało markę przez dekady. Pojawiło się nawet kilka przykładów miejsc, jakie być może przyjdzie nam zwiedzić.</p>
-<p>Okamoto jako potencjalne miejsca akcji przyszłych gier <strong>wskazał Włochy, Koreę Południową, a nawet Rosję</strong>. Każdy z tych regionów ma własne systemy wierzeń, folklor i kulturowe lęki, które - zdaniem producenta - mogłyby stać się fundamentem dla nowego horroru psychologicznego. Podobnie jak w Silent Hill f, kluczowe ma być zakorzenienie grozy w lokalnych mitach i tradycjach, a nie podążanie ścieżkami utartymi ponad ćwierć wieku temu przez Team Silent.</p> <div>
-
-<p><span data-type="targeting">
-<span>Aby zobaczyć treść, włącz cookies targeting.</span>
-</span>
-</p></div>
-<p><strong>Producent wspomniał też o Ameryce Środkowej i Południowej</strong>, gdzie inspiracją mogłyby być wierzenia szamańskie i lokalne legendy. Jednocześnie zaznaczył, że sam potencjał kulturowy to zdecydowanie za mało. Dużym wyzwaniem jest też znalezienie zespołów deweloperskich, które byłyby wystarczająco doświadczone, by pracować przy tak dużej marce jak Silent Hill.</p><p>Jak podkreśla Okamoto, w wielu regionach istnieje bogata baza filmów, książek i opowieści grozy, ale ich przełożenie na gry wideo wciąż wymaga dopracowanego zaplecza produkcyjnego, wizji i talentu. To jeden z powodów, dla których <strong>Konami na razie mówi o „rozważaniu kierunków”, a nie o konkretnych projektach</strong>. Niemniej przyszłość serii zapowiada się na bardzo... różnorodną. Trudno będzie jednak zadowolić w ten sposób starych fanów, dla których Silent Hill <a href="https://www.eurogamer.pl/silent-hill-2-remake-stanowi-25-sprzedazy-calej-marki-gra-przekroczyla-kolejny-kamien-milowy">to konkretne miasteczko</a>, a nie tylko tytuł serii horrorów.</p>
-
-        </div>
-
-      </article>
-
-  
-
-
-
-        
-  </div></div>]]></content:encoded>
-            <dc:creator>Marek Maku&#x142;a</dc:creator>
         </item>
     </channel>
 </rss>
