@@ -4,57 +4,179 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Tue, 06 Jan 2026 20:02:59 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 06 Jan 2026 22:41:34 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Nvidia’s new G-Sync Pulsar monitors target motion blur at the human retina level]]></title>
-            <link>https://arstechnica.com/gaming/2026/01/nvidias-new-g-sync-pulsar-monitors-target-motion-blur-at-the-human-retina-level/</link>
-            <guid>1398619</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+            <title><![CDATA[With GeForce Super GPUs missing in action, Nvidia focuses on software upgrades]]></title>
+            <link>https://arstechnica.com/gadgets/2026/01/nvidia-leans-on-dlss-improvements-to-make-up-for-a-lack-of-gpus-at-ces/</link>
+            <guid>1398910</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="app">
+    <p><a href="#main">
+  Skip to content
+</a></p>
+
+
+
+<main id="main">
+            <article data-id="2134119">
+  
+  <header>
+  <div>
+    
+
+    
+
+    <p>
+      Nvidia’s only GeForce announcements this year were about software improvements.
+    </p>
+
           
-          
-<p>That gives those individual pixels time to fully transition from one color to the next before they’re illuminated, meaning viewers don’t perceive those pixels fading from one color as they do on a traditional G-Sync monitor. It also means those old pixels don’t persist as long on the viewer’s retina, increasing the “apparent refresh rate” above the monitor’s actual refresh rate, according to Nvidia.</p>
-<figure>
-    <div id="caption-2134079"><p>
-              An Asus illustration highlights how G-Sync Pulsar uses strobing to limit the persistence of old frames on your retina.
-                              </p>
-                          </div>
-          <figcaption>
-        <div>
+    
+    <div id="caption-2134180">
     
     <p>
-      An Asus illustration highlights how G-Sync Pulsar uses strobing to limit the persistence of old frames on your retina.
+      Some games that feature Nvidia DLSS support.
 
               <span>
           Credit:
 
-                      <a href="https://rog.asus.com/monitors/27-to-31-5-inches/rog-strix-pulsar-xg27aqngv/" target="_blank">
           
-          Asus/ Nvidia
+          Nvidia
 
-                      </a>
+                  </span>
+          </p>
+  </div>
+
+    <div>
+    
+    <p>
+      Some games that feature Nvidia DLSS support.
+
+              <span>
+          Credit:
+
+          
+          Nvidia
+
+                  </span>
+          </p>
+  </div>
+  </div>
+</header>
+
+
+  
+
+  
+      
+    
+    <div>
+                      
+                      
+          <p>For the first time in years, Nvidia declined to introduce new GeForce graphics card models at CES. CEO Jensen Huang’s characteristically sprawling and under-rehearsed <a href="https://www.youtube.com/live/0NBILspM4c4?si=XYiz9rxj0iK5LXI0&amp;t=6206">90-minute keynote</a> focused almost entirely on the company’s dominant AI business, relegating the company’s gaming-related announcements to <a href="https://www.youtube.com/watch?v=Foltcapx62E">a separate video posted later in the evening</a>.</p>
+<p>Instead, the company focused on software improvements for its existing hardware. The biggest announcement in this vein is DLSS 4.5, which adds a handful of new features to Nvidia’s basket of upscaling and frame generation technologies.</p>
+<p>DLSS upscaling is being improved by a new “second-generation transformer model” that Nvidia says has been “trained on an expanded data set” to improve its predictions when generating new pixels. According to Nvidia’s Bryan Catanzaro, this is particularly beneficial for image quality in the Performance and Ultra Performance modes, where the upscaler has to do more guessing because it’s working from a lower-resolution source image.</p>
+<p>DLSS Multi-Frame Generation is also improving, increasing the number of AI-generated frames per rendered frame from three to five. This new 6x mode for DLSS MFG is being paired with something called Dynamic Multi-Frame Generation, where the number of AI-generated frames can dynamically change, increasing generated frames during “demanding scenes,” and decreasing the number of generated frames during simpler scenes “so it only computes what’s needed.”</p>
+<p>The standard caveats for Multi-Frame Generation still apply: It still needs an RTX 50-series GPU (the 40-series can still only generate one frame for every rendered frame, and older cards can’t generate extra frames at all), and the game still needs to be running at a reasonably high base frame rate to minimize lag and weird rendering artifacts. It remains a useful tool for making fast-running games run faster, but it won’t help make an unplayable frame rate into a playable one.</p>
+
+          
+                      
+                  </div>
+                    
+        
+          
+    
+    <div>
+          
+          
+<p>To Nvidia’s credit, the new DLSS 4.5 transformer model runs on GeForce 20- and 30-series GPUs, giving users of older-but-still-usable graphics cards access to the improved upscaling. But Nvidia said that owners of those GPUs would see more of a performance hit from enabling DLSS 4.5 than users of GeForce 40- and 50-series cards would, and initial testing from some outlets seems to be bearing that out. Compared to the DLSS 4.0 transformer model, Mostly Positive Reviews <a href="https://x.com/mpr_reviews/status/2008449637200367930">found</a> that the new DLSS 4.5 model reduced performance on an RTX 3080 Ti by between 14 and 24 percent depending on the game and the settings, though performance is still presumably better than it would be on the same card if you tried to run those games at native resolutions.</p>
+<p>The DLSS 4.5 transformer model is available now, <a href="https://www.nvidia.com/en-us/drivers/results/">after a driver update</a>, and you can use the Nvidia App to select the new transformer model in games that already support DLSS upscaling (whether the option appears in any in-game menus remains up to the game developer). The Multi-Frame Generation updates will be available sometime in spring 2026.</p>
+<p>One feature that hasn’t broken cover yet? Nvidia’s Reflex 2, an update to its input lag reduction technology <a href="https://www.nvidia.com/en-us/geforce/news/reflex-2-even-lower-latency-gameplay-with-frame-warp/">that the company announced at CES last year</a>. Upscaling and frame generation technologies generally, something that Reflex helps to offset, and the company claimed an up to 75 percent reduction in lag when using Reflex 2 on a 50-series card. But Nvidia didn’t mention Reflex 2 this year, and hasn’t provided any updates on when it might be released.</p>
+<h2>Why no GPUs?</h2>
+<figure>
+    
+          <figcaption>
+        <div>
+    
+    <p>
+      An Asus-manufactured GeForce RTX 5070 Ti card. A mid-generation Super refresh for the RTX 50-series was apparently being planned at some point, but it may or may not actually be happening.
+
+              <span>
+          Credit:
+
+          
+          Andrew Cunningham
+
                   </span>
           </p>
   </div>
       </figcaption>
       </figure>
 
-<p>Similar “Ultra Low Motion Blur” features on other pulsing backlight monitors <a href="https://www.nvidia.com/en-us/geforce/news/g-sync-ultra-low-motion-blur-2/">have existed for a while</a>, but they only worked at fixed refresh rates. Pulsar monitors differentiate themselves by syncing the pulses with the variable refresh rate of a G-Sync monitor, offering what Nvidia calls a combination of “tear free frames and incredible motion clarity.”</p>
-<p>Independent testers have had more varied impressions of the visual impact of the Pulsar. The Monitors Unboxed YouTube channel <a href="https://www.youtube.com/watch?v=SXwXGYhi8_I">called it</a> “clearly the best solution currently available” for limiting motion blur and “the first version of this technology that I would genuinely consider using on a regular basis.” PC Magazine, on the other hand, <a href="https://www.pcgamer.com/nvidias-g-sync-pulsar-hopes-to-banish-a-form-of-motion-blur-thats-plague-pc-gaming-for-years/">said</a> the Pulsar improvements are “minor in the grand scheme of things” and would be hard to notice for a casual viewer.</p>
-<figure><p><iframe allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/4MnI1x35H1Q?start=0&amp;wmode=transparent"></iframe></p><div>
-    
-    <p>
-      Nvidia explains how its Pulsar monitors work.
+<p>In another era, CES 2026 would have been a good time to introduce a 50-series Super update, a mid-generation spec bump to keep the lineup fresh while Nvidia works on whatever will become the GeForce 60-series. The company used CES 2024 to launch <a href="https://www.nvidia.com/en-us/geforce/news/geforce-rtx-4080-4070-ti-4070-super-gpu/">the RTX 40-series Super cards</a>, helping improve the value proposition for a bunch of cards that had launched at prices many reviewers and users grumbled about.</p>
 
-          </p>
-  </div>
-</figure>
-<p>In any case, G-Sync Pulsar should be a welcome upgrade for high-end gamers <a href="https://arstechnica.com/gaming/2024/05/does-anyone-really-need-a-1000-hz-gaming-display/">as we wait for 1,000 Hz monitors</a> to become a market force.</p>
+          
+                  </div>
+                    
+        
+          
+    
+    <div>
+
+        
+        <div>
+          
+          
+<p>Indeed, the rumor mill <a href="https://www.tweaktown.com/news/106675/geforce-rtx-50-super-series-on-track-for-holiday-2025-release/index.html">suggested</a> that Nvidia was working on a 50-series Super refresh for the 2025 holiday season, and its biggest improvement was going to be a 50 percent bump in RAM capacity, said to be possible because of a switch from 2GB RAM chips to 3GB chips. This would have given the theoretical 5070 Super 18GB of RAM, and the 5070 Ti Super and 5080 Super were said to have 24GB of memory.</p>
+<p>Assuming those rumors are correct, those plans could have been dashed by <a href="https://arstechnica.com/gadgets/2025/12/for-just-a-couple-of-months-in-the-middle-of-2025-it-was-an-ok-time-to-build-a-pc/">the abrupt RAM shortages and price spikes</a> that started late last year. These have been caused at least in part by sky-high demand for RAM from AI data centers; given that modern-day Nvidia is mainly an AI company that sells consumer GPUs on the side, it stands to reason that the company would allocate all the RAM it can get to its more profitable AI GPUs, rather than a mid-generation GeForce refresh.</p>
+<p>In fact, none of the major dedicated GPU manufacturers has introduced new products at CES this year. <a href="https://arstechnica.com/gadgets/2026/01/amd-reheats-last-years-ryzen-ai-and-x3d-cpus-for-2026s-laptops-and-desktops/">AMD</a> and <a href="https://arstechnica.com/gadgets/2026/01/intel-launches-core-ultra-series-3-cpus-made-using-its-long-awaited-18a-process/">Intel</a> announced products with improved integrated GPUs, which use system RAM rather than requiring their own. But there wasn’t a peep about any new dedicated Radeon cards, and Intel hasn’t introduced a new dedicated Arc graphics card in almost a year, despite some signs that <a href="https://www.techpowerup.com/344664/intel-arc-battlemage-b770-spotted-in-more-software-libraries-launch-imminent">a midrange Arc B770 card</a> exists and could be nearly ready to launch.</p>
 
 
           
-                  </div></div><br/><br/>https://arstechnica.com/gaming/2026/01/nvidias-new-g-sync-pulsar-monitors-target-motion-blur-at-the-human-retina-level/]]></content:encoded>
+                  </div>
+
+                  
+          
+
+
+
+
+
+
+  <div>
+    
+
+    <p>
+      Andrew is a Senior Technology Reporter at Ars Technica, with a focus on consumer tech including computer hardware and in-depth reviews of operating systems like Windows and macOS. Andrew lives in Philadelphia and co-hosts a weekly book podcast called <a href="https://overduepodcast.com/">Overdue</a>.
+    </p>
+  </div>
+
+
+  <p>
+    <a href="https://arstechnica.com/gadgets/2026/01/nvidia-leans-on-dlss-improvements-to-make-up-for-a-lack-of-gpus-at-ces/#comments" title="8 comments">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><defs><clipPath id="bubble-zero_svg__a"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath><clipPath id="bubble-zero_svg__b"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath></defs><g clip-path="url(#bubble-zero_svg__a)"><g fill="currentColor" clip-path="url(#bubble-zero_svg__b)"><path d="M80 40c0 22.09-17.91 40-40 40S0 62.09 0 40 17.91 0 40 0s40 17.91 40 40"></path><path d="M40 40 .59 76.58C-.67 77.84.22 80 2.01 80H40z"></path></g></g></svg>
+    8 Comments
+  </a>
+      </p>
+              </div>
+  </article>
+
+
+  
+
+
+  
+
+
+  
+  </main>
+
+
+
+
+
+  </div></div><br/><br/>https://arstechnica.com/gadgets/2026/01/nvidia-leans-on-dlss-improvements-to-make-up-for-a-lack-of-gpus-at-ces/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
