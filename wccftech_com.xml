@@ -4,13 +4,13 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Tue, 06 Jan 2026 04:16:09 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 06 Jan 2026 07:34:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[‘If You Have a Whole New Game That’s a Miss, It Can Be a Company-ending Thing’: ARK 2 Dev Explains Why It’s Taking Its Time with the Sequel]]></title>
-            <link>https://wccftech.com/ark-2-dev-interview-performance-ue57/</link>
-            <guid>1397722</guid>
+            <title><![CDATA[NVIDIA RTX Remix Logic Will Soon Add New Dynamic FX That Responds to In-Game Events]]></title>
+            <link>https://wccftech.com/nvidia-rtx-remix-logic-soon-add-dynamic-fx-responds-to-in-game-events/</link>
+            <guid>1397980</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
 
 			
@@ -19,290 +19,52 @@
 			
 			
 			
-			<p>Over the past few days, we have posted excerpts from our extensive interview with <strong>Studio Wildcard</strong> about <strong>ARK: Survival Ascended</strong>'s latest expansion, <strong><a href="https://wccftech.com/ark-survival-ascended-lost-colony-dlc-expansion-out-now-release-date/" target="_blank" rel="noreferrer noopener">Lost Colony</a></strong>, and the road all the way toward the long-awaited <strong>ARK 2</strong>. Those articles were focused on tech subjects, such as the <a href="https://wccftech.com/ue-5-7-is-close-to-a-magic-bullet-for-performance-says-ark-developer-though-it-wont-fully-eliminate-stutters/" target="_blank" rel="noreferrer noopener">substantial performance boosts that the developer expects from the upgrade to <strong>Unreal Engine 5.7</strong></a> (planned for March) and the fact that <a href="https://wccftech.com/nintendo-switch-2-port-asa-only-doable-ue-5-7-says-ark-dev-studio-trying-to-get-fg-running/" target="_blank" rel="noreferrer noopener">this upgrade, alongside the potential usage of frame generation technologies, could just be enough to port the game to the <strong>Nintendo Switch 2</strong> console</a>.</p>
+			<p>Today at <strong>CES 2026</strong>, <strong>NVIDIA </strong><a href="https://wccftech.com/watch-nvidia-ces-2026-ceo-jensen-huang-live-here/" target="_blank" rel="noreferrer noopener">announced</a> <strong>RTX Remix Logic</strong>, a new feature that will soon (later this month via an update available through the <strong>NVIDIA app</strong>) introduce dynamic visual effects capable of responding to in-game events.</p>
 
 
 
-<p>Today, we're publishing the full transcript of the one-hour-long conversation with Co-Founder, Co-Creative Director, Lead Designer, Lead Programmer, and Development Director&nbsp;<strong>Jeremy Stieglitz</strong>, edited and condensed for brevity. Even so, it remains a massive beast of a text, which is why we've prepared a table of contents for you to jump into the topic you're most interested in. Enjoy!</p>
+<p>The RTX Remix Logic system identifies <strong>over 30 common in-game events</strong> and offers <strong>more than 900 triggers</strong> that modders can use to transform visuals in their remastered classic PC games mods. The visual aspects of those games, such as lighting, materials, and volumetric effects, can now respond to gameplay. For example, opening a door might trigger changes in weather or light properties.</p>
 
 
 
-<h3 id="h-in-this-interview">In This Interview:</h3>
+<p>The modders can even inject dynamic particles or post-processing effects, such as chromatic aberration or vignettes, as stress signals when a player is in danger. Large-scale effects like snow or rain can be selectively applied so they appear only in specific environments and are automatically excluded from indoor areas.</p>
 
 
 
-<ul>
-<li><a href="#release-challenges">1. The Challenges of Release and Ongoing Development</a></li>
+<p>RTX Remix Logic features an <strong>intuitive, no-code, node-based user interface</strong> that enables easy connection of various (900+) triggers. According to NVIDIA, the system is highly versatile and can be used in a multitude of ways. It is also extensible, enabling the RTX Remix community to add more game event triggers and actions over time. In a demonstration, NVIDIA showed that a door in Half-Life 2 RTX could open up to very different looking Ravenholms, as if the door connected to a multiverse. </p>
 
 
 
-<li><a href="#new-content">2. New Content: Lost Colony and Bob’s Tall Tales</a></li>
+<figure><p>
+<iframe title="NVIDIA RTX Remix | Remix Logic: Dynamic Lighting &amp; Weather" width="500" height="281" src="https://www.youtube.com/embed/Wl4wSU1S9us?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
 
 
 
-<li><a href="#performance-ue57">3. System Performance and Unreal Engine 5.7 Improvements</a></li>
+<p>Modders can even use RTX Remix Logic to <strong>introduce new gameplay systems</strong> to old PC games. For example, modder <strong>xoxor4d</strong> (the same one who's behind the <strong><a href="https://wccftech.com/gta-4-rtx-remix-compatibility-mod-publicly-available-enjoy-path-tracing/" target="_blank" rel="noreferrer noopener">stunning GTA 4 path traced remaster</a></strong>) came up with the idea of adding a night vision effect to Half-Life 2 RTX that is automatically triggered when the user has equipped the crossbow and activated the zoom. You can check a showcase below.</p>
 
 
 
-<li><a href="#switch-2">4. Nintendo Switch 2 Development and Performance Goals</a></li>
+<figure><p>
+<iframe title="NVIDIA RTX Remix | Remix Logic: Crossbow Night-Vision" width="500" height="281" src="https://www.youtube.com/embed/4ABCXS4P-_8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
 
 
 
-<li><a href="#storytelling">5. New Storytelling Techniques and the Hollywood Cast</a></li>
+<p>The RTX Remix Logic system is compatible with <strong>over 165 classic games</strong> supported by NVIDIA's remastering, but that's not all that NVIDIA plans to add with the update slated for later this month. Modder xoxor4d has contributed a new look for the <strong>Remix Runtime menu</strong> and also made further customization possible, allowing users to resize it, retheme it, and change its transparency.</p>
 
 
 
-<li><a href="#ark-timeline">6. The 1,000-Year Timeline: Connecting ARK to ARK 2</a></li>
+<figure></figure>
 
 
 
-<li><a href="#future-roadmap">7. Future Roadmap: Dragontopia, Atlantis, and Galaxy Wars</a></li>
-
-
-
-<li><a href="#ark-2-reset">8. The Narrative and Primitive Gameplay Reset of ARK 2</a></li>
-</ul>
-
-
-
-<h2 id="release-challenges"><a href="#release-challenges">The Challenges of Release and Ongoing Development</a></h2>
-
-
-
-<p><strong>ARK: Survival Ascended didn't have the best community reception at first. Aside from <a href="https://wccftech.com/ark-community-is-livid-after-broken-promises-of-ue5-remaster-being-free-for-existing-users/" target="_blank" rel="noreferrer noopener">the controversy of the game originally being offered for free to Survival Evolved players</a>, user reviews on Steam have only recently shifted into Mostly Positive territory. What have you done in these two years since launch to improve the players' sentiment toward the game?</strong></p>
-
-
-
-<p><strong>Jeremy Stieglitz:</strong> I would say the keyword here is <strong>persistence</strong>. It’s a combination of specific things, but the point is you just stick with it over time. It comes down to the nuts and bolts of people's concerns, which overall boil down to three main tracks; but ultimately, dealing with these concerns takes time, effort, and consistency.</p>
-
-
-
-<p>You need a kind of perseverance to deliver on these tracks. These tracks really come down to people's main concerns early on, which were: lack of content, bad performance, and a lack of genuinely new content. Those are the main things. Notwithstanding overall skepticism about the idea of upgrading ARK: Survival Evolved, that would especially be related to, "What's new here that's going to interest me if I've already played the prior game?"</p>
-
-
-
-<h2 id="legacy-content"><a href="#legacy-content">Upgrading Legacy Content and Remasters</a></h2>
-
-
-
-<p><strong>Jeremy Stieglitz:</strong> In each of those areas over the last two years, we've made great strides. <strong>Have we done everything we want to do in any of those three areas? No</strong>. We haven't yet upgraded and refreshed all of the legacy content. We still have several more maps to go, expansion packs to go, creatures to do, and so forth. We try to do every one of those with a lot of care and emphasis on improvements, refinement, and putting a new artistic spin on things. I think we've shown that with our last few legacy upgrades. They're not just simple ports. We really go and remaster things, make all-new artwork, refine the level design, and add new areas and creatures. We've been consistently doing that over the last two years. People have seen that most recently this year with upgrading the fan-favorite maps of <strong>Ragnarok</strong> and <strong>Valguero</strong>, while also, over the year before, porting the original <strong>Scorched Earth</strong>, <strong>Aberration</strong>, and <strong>Extinction</strong>. </p>
-
-
-
-<h2 id="new-content"><a href="#new-content">New Content: Lost Colony and Bob’s Tall Tales</a></h2>
-
-
-
-<p><strong>Jeremy Stieglitz:</strong> Then it also comes down to new content, which has been a variety of things. The most recent example, of course, is a brand-new canonical story expansion path that's at least as large in scope as the largest one we had done previously, <strong>Genesis 2</strong>; but really, in many ways, numerically, it's larger than Genesis 2. More creatures, more new items, a larger map, more story, etc. It's really the biggest expansion map that we've ever done.</p>
-
-
-
-<p>That's all-new, with some really cool new gameplay concepts that we can get into. There's genuine excitement around what that means and staking out some new territory for the game. And then finally, on a smaller note outside of the giant expansion pack, there are a lot of smaller types of mini-expansions: new creatures added here and there, but also <strong>Bob’s Tall Tales</strong>, which introduced some fun new vehicles and gameplay upgrades to the title that wouldn't really have been in place or fit within a single giant expansion pack. There were three Bob’s Tall Tales. It was sold as a single upgrade, but it was split into three parts. The first one added trains and wagons, a Western theme. The second one added airships, a little more steampunk-themed; and the third one added physical, drivable, upgradeable, customizable cars. That was really fun to explore some vehicular gameplay with ARK throughout those.</p>
-
-
-
-<h2 id="performance-ue57"><a href="#performance-ue57">System Performance and Unreal Engine 5.7 Improvements</a></h2>
-
-
-
-<p><strong>Jeremy Stieglitz:</strong> Finally, the raw system performance: <strong>when the game came out, it didn't run very well. It still doesn't run as well as it should, frankly</strong>. But we're up about 50% performance-wise over the initial release of the game on the same hardware. So, it's a really significant improvement, but it's not ultimately yet where we want to be. Where are we going to get more performance from? A big part of it is actually with Epic's latest version of <strong>Unreal Engine 5.7</strong>, which introduces some serious new performance-oriented improvements and systems. Version 5.6 did as well, and we're still on 5.5. So, to get the performance improvements of 5.6 combined with the new features of 5.7 <strong>is going to gain us about another 30 to 40% on both the GPU and the CPU</strong>.</p>
-
-
-
-<p>Unreal Engine 5.6 did a lot of render thread optimizations where they made things work much better in parallel between the render thread, the game thread, the GPU, and the CPU. There are major architectural changes there. And in 5.7, they added an entirely new system for how to draw large foliage, demonstrated <strong>in The Witcher IV demo</strong>, for example. We're actually able to make use of that directly. We have this working internally; we are just still preparing it for release. It's going to take a few months to work all the kinks out of other parts of the engine that have been upgraded, but we can already say that it's about a third performance gain on our existing maps due to the use of this new Nanite tessellation and culling system that Epic has introduced in 5.7 for foliage.</p>
-
-
-
-<p>We're really, really excited about that. <strong>It's as close to a magic bullet as you're going to get at this point</strong>. It's one of those rare cases where it's an unalloyed win. There are no real caveats or asterisks. It works way better than what existed before, and we don't have to sacrifice anything—memory or otherwise—to make it work. So, it was as close to a magic solution for some of those performance problems as possible. <strong>We expect the 5.7 upgrade for ARK to roll out by the end of March of 2026</strong>.</p>
-
-
-
-<p>It’s so extreme, in fact, that on the side we'd been exploring doing a Switch 2 port of ARK: Survival Ascended. We have that running internally, and <strong>we found that the Switch 2 port was only doable with 5.7 with those performance upgrades</strong>. It wasn't possible otherwise. It was that significant of a performance improvement. Is that everything we'll ever want to do with performance? No. Server performance needs to continue to get better. But it's one of the major things people are going to see early next year as part of that ongoing process.</p>
-
-
-
-<p>It's crazy to think that we launched ARK on 5.2, so we were really suffering from some of the newness of those Nanite systems, foliage systems, and virtual shadow maps. It was all very inefficient. It technically worked, but it was really not performant to the level necessary to render these large, vegetation-heavy scenes in an open-world environment. It got significantly better in 5.5. And the improvements in 5.6 were not directly related to foliage, but were more render thread and parallelism-related—significant changes there to the architecture. Then 5.7 introduced an entirely new system for culling Nanite and rendering large Nanite foliage scenes. It's not automatic. You have to change a few settings to use it on the content side, but they're very easy settings to change. They didn't require re-authoring the content from scratch. We've just been dealing with other things we have to prepare for the engine.</p>
-
-
-
-<p>Essentially, there are just other changes Epic made that we're still making sure we don't introduce new bugs with. The other thing that's annoying is every time we do a major engine upgrade, we have to force all of the mods to recook. It's something we can do on the back end. Because of the changes to the material system, we have to trigger a process that takes a couple of weeks to recook the 6,000 or so mods that have been uploaded. We are able to do that automatically because we retain these source files. But it's a bit of a process, and then we have to do a pretty exhaustive testing process after that to make sure that they generally still work. So, it's going to take a few months in 2026 before we're ready to fully roll that out. But yes, we are going to be seeing very real performance gains. Again, the game does run about 40 to 50% better versus its original October launch, but we're going to see another approximate 40% gain in the first half of next year. Epic has done the hard engineering there, but we're able to take advantage of that work and get it out to players.</p>
-
-
-
-<p><strong>That's great to hear, honestly. Unreal Engine games are notorious for their stuttering. Do you reckon that these improvements will rid ARK: Survival Ascended, and most UE games as a whole, of most stutters?</strong></p>
-
-
-
-<p><strong>Jeremy Stieglitz:</strong> It should be better, but I don't know that stuttering will be completely eliminated because of two factors. One, in ARK in particular, some of the stuttering is due to the initiation of actors, which cannot be multi-threaded. When you are playing an online game and you go to a new area and a giant mega-base that somebody has built gets loaded on the client, it really has to be done instantaneously as soon as we get that data. We could possibly try to multi-thread it, but Unreal is pretty bad about network actor instantiation multi-threading. When the client receives an actor like a dino or a building over the network, it pretty much wants to immediately spawn that to start receiving the associated network data. Now, multiply that by 50,000. <strong>When you've got 50,000 structures to spawn and you receive them in a big batch of data all in a single frame, as you can imagine, that's going to result in a hitch</strong>. It has nothing to do with graphics or background loading of the world; it’s literally like, "I just received 50,000 game objects over the network and I need to prepare them for play". That's probably the main stuttering people receive when playing online, especially associated with large bases.</p>
-
-
-
-<p>There's another kind of stuttering associated with background loading of the world. A lot of that's been eliminated in more recent versions of Unreal and smoothed out. But there's one particular to Unreal games in general that relates to shader caching. We don't basically do pre-shader caching; I think it has to generate some shader code on the fly from the intermediate shader code, which is HLSL basically, to prepare it for uploading to the GPU. It's specific to your GPU hardware, and that can result in stalls. A lot of Unreal games eliminate that by pre-caching all the shaders they can for your hardware on startup. That's why when many Unreal Engine games start up, you'll go through this shader caching loading screen for like 3 minutes while it builds all the shaders for your GPU.</p>
-
-
-
-<p><strong>The issue with ARK is that we've got so much content that I don't think that would be practical in terms of how long it would take</strong>. Second, we also do modding, which makes it even more unpredictable what kind of materials and shaders we're going to need to compile. Modding would make it very ineffective, even if we did it for the base game content. There would still be related stalls because we do allow people to create custom cosmetics, and those get downloaded dynamically by default. So, you essentially can encounter people with arbitrary cosmetics on their character or their bases as you play the game. Those can have completely unique materials and, therefore, unique shaders. </p>
-
-
-
-<p>There's no real way to pre-cache those because we don't know what they are in advance. Over time, Epic might be able to thread those things even better. But <strong>I do think hitching in a game that doesn't pre-compile all the shaders is always going to exist to some extent</strong>. I will say that it's gotten a lot better since the earlier versions of Unreal 5. <strong>We expect to do at least one major engine upgrade per year going forward</strong>. We got a good sense of how to do it reasonably efficiently with our upgrade from 5.2 to 5.5 last year in June. We kind of know how to do it relatively smoothly now. So, we will do it again to 5.7 for March, and then wherever Epic is in early to mid-2027 as well.</p>
-
-
-
-<h2 id="switch-2"><a href="#switch-2">Nintendo Switch 2 Development and Performance Goals</a></h2>
-
-
-
-<p><strong>Jeremy Stieglitz:</strong> Before I talk about Switch 2, I should note that the 5.7 improvements are not PC specific; most of them apply to both consoles as well. We're looking forward to releasing this upgrade for the Xbox and PlayStation player base who aren't still quite at the level of performance we would like them to be at. This is going to put those over the top in terms of getting them to the best possible performance state, which is a solid, unbreakable 60 FPS. That gap is largely covered by the 5.6 and 5.7 upgrades.</p>
-
-
-
-<p>With Switch 2 in particular, we actually do have a working build of it. Frankly, it was about half off of where it needed to be performance-wise. Memory was actually very good because it has more addressable memory than the Xbox Series S "Lockhart" platform does. Since we already scaled the game for Series S, we were in a better memory state than that console and weren't running out of memory on the Switch 2, even with using more advanced graphics than we do on the Series S. The issue was the GPU being weaker. <strong>We wanted to make sure that it looked essentially like the Xbox Series X version</strong>. We've downgraded the graphics quite significantly for Series S, and we didn't want the Switch 2 experience to be like that. It needed to look approximately like the Series X or PlayStation 5 version, even if at a lower resolution.</p>
-
-
-
-<p>To get technical, we would have to do Lumen, Nanite, and Virtual Shadow Maps. All three of those are important to us on Switch 2. We may have dropped the shadows to Cascade Shadows rather than Virtual Shadow Maps, which is an older way of handling shadows, but in practice, most users wouldn't be able to tell the difference at a lower resolution like the Switch 2's 1080p handheld or 1440p docked. Nanite, in particular with the large open-world foliage scenes, was hammering the Switch 2 very badly. <strong>Let's be clear, it's not going to be a 60 FPS experience; that's just not in the cards. But it needs to be a solid 30 FPS experience</strong>, and we were about half of where we needed to be to get to that.</p>
-
-
-
-<p>We found that version 5.7—specifically 5.6 and 5.7 combined—gains about 33 to 40% overall frame rate. It was completely GPU-bound. That was very good, but still not where we need to be to get to a solid 30 FPS perceived frame rate. So even the 5.7 upgrade alone was not enough. Just to be clear again: memory is totally fine, core graphics functionality is totally fine. It's really the same-looking game on the Switch 2, which itself was impressive, but the frame rate isn't good enough. Version 5.7 got us a lot closer, but it's still not there yet.</p>
-
-
-
-<p>There's one last thing we're exploring right now, other than trying to fundamentally change engine internals. Right now, to be quite frank, it's around 20 or so FPS on 5.7. How do we get to a 30+ FPS frame rate? <strong>We're about to try experimenting with frame generation</strong>, but I honestly don't know the results on that yet because it's not inherently something we can just turn on. <strong>It's not yet supported by either NVIDIA</strong>, which makes the Switch 2 GPU, or AMD. AMD has an open API for frame interpolation that theoretically can operate on the Switch 2, but they don't have a Switch 2-ready port of it. <strong>We would have to port it ourselves or work with them to do so</strong>. We've just been starting the process of experimenting with whether NVIDIA frame generation is possible on the Switch 2—DLSS obviously is, but that's not the same thing—or if AMD's frame interpolation shader set is doable.</p>
-
-
-
-<p>I have to presume one of those will be doable. Technology like AMD's frame interpolation is not hardware-specific; it works on AMD, NVIDIA, and even very old hardware like the GeForce 1080 series from nearly 10 years ago. Until we get more results on frame interpolation, we're still not quite where we need to be. Let me be frank, I'd rather have a 30 FPS frame rate without frame interpolation. But if I can get to 20 or 25 without it, then use frame interpolation to push it over 30 solidly, I think that'll feel good enough and won't look too smeary or laggy. We're getting there. It's looking good and progressing, and so I hope it's going to release this year.</p>
-
-
-
-<p><strong>If ARK: Survival Ascended does come out on the Nintendo Switch 2, would it support cross-play?</strong></p>
-
-
-
-<p><strong>Jeremy Stieglitz:</strong> Yes, it would not be a segmented, diluted, isolated version. The original Switch version of ARK: Survival Evolved was, unfortunately, a slightly watered-down and segmented version of the product, which made it difficult to maintain and led to it not being as successful as it otherwise would have been. We wouldn't be making that mistake again. </p>
-
-
-
-<p><strong>You can confirm that you would be using NVIDIA DLSS Super Resolution at the very least, though, right?</strong></p>
-
-
-
-<p><strong>Jeremy Stieglitz:</strong> Yes. DLSS works fine and is quite impressive for image sharpening and clarity, but NVIDIA separates the DLSS upscaling algorithm from the frame generation algorithm. They don't currently support frame generation on the Switch 2, though they've been a little vague about it. We have to poke them a little harder and try to get an answer in the new year.</p>
-
-
-
-<h2 id="storytelling"><a href="#storytelling">New Storytelling Techniques and the Hollywood Cast</a></h2>
-
-
-
-<p><strong>What can you tell us about Lost Colony's development phase? How long did it take you?</strong></p>
-
-
-
-<p><strong>Jeremy Stieglitz:</strong> Regarding the new expansion, it was a pretty fast development. We conceived of it around the second half of last year. We knew we wanted to do a new story expansion for ARK: Survival Ascended to really wrap up a lot of narrative loose ends and connect it to where we want to go with the franchise leading into ARK 2. We wanted to link Extinction, which was the original game's expansion conclusion, to Genesis, which was more sci-fi and space-oriented, and then to the primitive world of ARK 2. We also wanted to make an ice-themed expansion. We were like, "We don't have a good polar environment." We had a little cold area on The Island, and some other maps have little cold areas, but they're not fully fleshed out. Genesis 1 has a cold biome, but it's very tiny.</p>
-
-
-
-<p>We thought, "What if we made an expansion all centered around an Arctic or Antarctic setting that explores snowy and icy themes, and feels a little more forlorn and foreboding?". In the lore, there is this facility called <strong>Arat Prime</strong>, which is canonically in the Antarctic. Let's flesh that setting out, as it’s been very mysteriously referred to in the franchise prior to now. By the end of last year, we really hammered out exactly what the story and the overall aesthetic was going to be. We really wanted to have more storyline and be a little more narratively focused than some of our prior expansions, with the maybe exception of Genesis 2.</p>
-
-
-
-<p>We thought about how to convey all that story, as we aren't experts at that yet. We happened upon a few different techniques for Lost Colony. There are about 30 minutes of CGI cutscenes and about 10 minutes of anime. We use the anime for certain action-oriented sequences, and we use the CGI for emotional sequences where we have to have a lot of acting, like "face acting". We're not <strong>Hideo Kojima</strong> or anything like that yet. We basically said, "All right, we're just going to have an anime studio really crank up the action since we don't think we're capable of mo-capping something like that presently". We use <strong>Unreal MetaHuman</strong> for the CGI characters, and it really is very effective at performance capture and face capture. We also have some illustrated storybook sequences where characters talk to each other. About another 30 minutes of those that are fully voiced and illustrated.</p>
-
-
-
-<p>There are also a lot of voice dossiers and diary entries, and characters talking to you in your head throughout the expansion. You're following a quest to confront the Lost King who rules over this Prime domain. He's kind of a fascist dictator, and he's loosely vampiric in a sci-fi context, using the powers of Red Element found under the ice. You yourself are half-turned into a "Red Element Thrall" at the beginning, and you therefore have access to certain abilities which you can develop through a skill tree. There are 70+ skills you can get, covering passive and active buffs, combat, dino-related stuff, and utility. To unlock them, you accomplish various milestones. It's not just like, "Hit a tree for 10 hours." You actually get to do more interesting things to progress.</p>
-
-
-
-<p>At the end of last year, we asked <strong>Studio Mappa</strong> in Japan—who did <strong>Chainsaw Man</strong>—and they agreed to do the 10 minutes of anime for this expansion pack. We did a little teaser of that at the tail end of the Extinction release. Then we released more teasers early in 2025 and finally got it all done for the release last week. I don't know that we'll always make use of all those methods; it really comes down to how players perceive them. I do foresee us doing significantly more with Unreal MetaHuman going forward. We found that pipeline to be very easy to use and very evocative when properly lit and rendered. Credit to Epic for making that accessible to smaller developers.</p>
-
-
-
-<p><strong>Let's talk a bit about the cast of big-time actors and actresses who are returning in Lost Colony from the ARK animated series.</strong></p>
-
-
-
-<p><strong>Jeremy Stieglitz:</strong> It has a great cast. <strong>Michelle Yeoh</strong> plays Mei Yin. Reprised from the animated series, <strong>Maddie Madden</strong> plays Helena Walker. Helena is the co-protagonist, alongside the real protagonist, the unnamed player survivor. We brought <strong>David Tennant</strong> back playing Rockwell, a series fan-favorite villain. We cast some actors new to the franchise: <strong>Keith David</strong> playing the Lost King; <strong>Auli'i Cravalho</strong>, the voice of Moana, playing Mika, our ARK 2 connection protagonist; and <strong>Katee Sackhoff</strong> as Diana Alarus, a fan-favorite character from the lore. And finally, <strong>Karl Urban</strong> making a cameo as Bob—the original ARK survivor. Karl also let us use his likeness, so Bob now looks like Karl. He shows up at the very end—spoiler alert—of Lost Colony. There'll be a lot more with that going forward as well.</p>
-
-
-
-<h2 id="ark-timeline"><a href="#ark-timeline">The 1,000-Year Timeline: Connecting ARK to ARK 2</a></h2>
-
-
-
-<p><strong>Some players have been a bit confused about the setting. When does Lost Colony take place in your timeline?</strong></p>
-
-
-
-<p><strong>Jeremy Stieglitz:</strong> Part of the story is before and part is after, but the part that the player is actually playing is after Genesis. In fact, it's a thousand years after Genesis. Genesis happens very similarly in time to Extinction. We provide "AR" and "BR" timestamps on the screen in some cinematics. BR means <strong>Before Receding,</strong> and AR means <strong>After Receding</strong>. Helena's original timeframe is about 1,000 BR. Then, a thousand years after Helena's human time, the player is doing Scorched Earth, Aberration, and Extinction on the Arks. Saving the world by completing the Reseed Protocol is basically 0 AR. Rockwell ends up on the Genesis seed ships months after the Reseed Protocol happened on Earth.</p>
-
-
-
-<p>A thousand years after that is when the player's timeframe in Lost Colony is happening. We refer to that as 1037 AR. That's happening at the same time as things are happening in the ARK 2 story. Those sequences on the world of ARK 2 with the Mika character are concurrent with the player's actions in Lost Colony. So, there are really three timeframes: 1,000 BR (Helena's time), 0 AR (the original ARK trilogy and Genesis), and 1,000 AR (the timeframe for both Lost Colony and ARK 2). We've separated those by a thousand years because we want a lot of things to have happened between the <strong>Reseed Protocol</strong> and the world of ARK 2. A lot of that will be built out so enough time has passed that people don't really remember what happened. It has receded into myth and legend, kind of like <strong>Planet of the Apes</strong>.</p>
-
-
-
-<h2 id="future-roadmap"><a href="#future-roadmap">Future Roadmap: Dragontopia, Atlantis, and Galaxy Wars</a></h2>
-
-
-
-<p><strong>Diving into the post-Lost Colony roadmap you've recently outlined, the community has been particularly intrigued by Dragontopia. Is it a special collaboration with How to Train Your Dragon or just a homage?</strong></p>
-
-
-
-<p><strong>Jeremy Stieglitz:</strong> *laughs* Yes, Dragontopia is just inspired by the <strong>How to Train Your Dragon</strong> franchise. We want to explore what it means to befriend dragons in a slightly different way than regular creature taming. We want to understand a dragon as an independently minded, willful creature that behaves more like a partner and less like a robot. When you tame a dinosaur in ARK, it's pretty docile and predictable. With dragons, we want to develop a new mechanic for bonding with a unique class of creature, including a befriending and character development system. It is not a direct collaboration, at least not yet, and it's not canonical.</p>
-
-
-
-<p>We want to take a year off from the hardcore canonical story build-out. <strong>Legacy of Santiago</strong> is in development—a prequel to ARK 2 set on the planet of Arat using ARK 2 mechanics—but we need a two-year process to build that out. We need to treat our story content as an "off-year" process, as opposed to every year trying to release something in the same scope as Lost Colony. Bob’s Tall Tales will have teaser-type narrative breadcrumbs, but not a full build-out.</p>
-
-
-
-<p><strong>ARK Atlantis</strong> is also non-canonical. Dragontopia is like "<strong>Disneyland</strong> biomes meets <strong>Pandora</strong> meets <strong>Skyworld</strong>." Atlantis is a giant water world above and below the ocean floor, spearheaded by Nekodus (Niels), the creator of Astraeos. He is a partner developer who does his own creative build-out. It lets us get a completely different take on what ARK can be. Dragontopia is being done in-house in parallel with Legacy of Santiago. Dragontopia will be mechanically exciting and visually splendid, but it's not going to be story-oriented in the way Lost Colony is.</p>
-
-
-
-<p>Additionally, Genesis 1 is coming out alongside <strong>Bob's Tall Tales: Tides of Fortune</strong>, which is a pirate-themed gameplay upgrade. We're adding a full water world to Genesis 1, expanding it to a map-wide water area to sail ships around with physical water. Genesis 2 is coming out alongside <strong>Bob's Tall Tales: Galaxy Wars</strong>, which is a starship space battles gameplay overlay. We're letting you have a full space biome with asteroids and miniature planets around the seed ship.</p>
-
-
-
-<p><strong>I wonder if there's an overarching theme there with two expansions themed around air combat?</strong></p>
-
-
-
-<p><strong>Jeremy Stieglitz:</strong> Dragons are not too dissimilar from things we've done in the past, though we're making the flight more dynamic and momentum-based. Starships are a very different thing because we're dealing with local gravity. It's important that you're able to walk around and build inside the starships as they fly, and there is new tech involved with making that work.</p>
-
-
-
-<h2 id="ark-2-reset"><a href="#ark-2-reset">The Narrative and Primitive Gameplay Reset of ARK 2</a></h2>
-
-
-
-<p><strong>Finally, what can you tell us about ARK 2? It seems like we're going to have to wait <a href="https://wccftech.com/ark-2-delayed-until-late-2024-ue5-remaster-of-ark-coming-this-august-with-rtx-direct-illumination-support/">a lot longer than originally planned</a> [<em>Ed. the latest estimate is 2028</em>]. </strong> </p>
-
-
-
-<p><strong>Jeremy Stieglitz:</strong> We're taking a lot of the systems developed for ARK 2 and moving them into Legacy of Santiago because we'd like to get player feedback on them and prototype them to reduce risk. Every game can have an expansion pack that's a "miss," and you just move on, but if you have a whole new game that's a miss, it can be a company-ending thing. Legacy of Santiago is a way to see how features like the new combat perform in a live environment over time.</p>
-
-
-
-<p><strong>Is it still meant to be a return to the original Dino theme, as well as more focused on solo play?</strong></p>
-
-
-
-<p><strong>Jeremy Stieglitz:</strong> The intention for ARK 2 would be to have smaller parties focus more on squad-based survival and primitive combat oriented gameplay, and less so some of the large-scale craziness that has made it difficult to balance a stable progression ramp. We're testing that stuff out in Legacy of Santiago. It has to be a reset for the setting of the title. You can't just keep increasing the "fantasy crazy factor" and expect that to hold indefinitely; it loses the thread. ARK: Survival Evolved set itself down an increasingly fantastical path, and by the end of Genesis 2, it had "jumped the space dolphin." It’s necessary to bring it back down to dinosaurs and primitive physicality. The sci-fi is treated as an unknown, quasi-legendary mystical element, but it's not there in the player's mechanical gameplay. It’s used as an antagonistic force that you fight against.</p>
-
-
-
-<p><strong>Thank you for your time.</strong></p>
+<p>Overall, NVIDIA boasted that 2025 was <strong>a breakthrough year for RTX Remix</strong>, with over 50 new mods released and more than 20 community tools, including open-source contributions and plugins, now available to help expand compatibility.</p>
 
 			
 			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
 
-		</div></div><br/><br/>https://wccftech.com/ark-2-dev-interview-performance-ue57/]]></content:encoded>
+		</div></div><br/><br/>https://wccftech.com/nvidia-rtx-remix-logic-soon-add-dynamic-fx-responds-to-in-game-events/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
