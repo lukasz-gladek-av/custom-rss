@@ -4,78 +4,48 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Tue, 06 Jan 2026 02:00:27 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 06 Jan 2026 04:52:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[BioWare’s Anthem will soon be completely unplayable]]></title>
-            <link>https://arstechnica.com/gaming/2026/01/biowares-anthem-will-soon-be-completely-unplayable/</link>
-            <guid>1397710</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="main">
-            <article data-id="2133871">
-  
-  <header>
-  <div>
-    <div>
-      
+            <title><![CDATA[Intel launches Core Ultra Series 3 CPUs, made using its long-awaited 18A process]]></title>
+            <link>https://arstechnica.com/gadgets/2026/01/intel-launches-core-ultra-series-3-cpus-made-using-its-long-awaited-18a-process/</link>
+            <guid>1397947</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+          
+          
+<p>Like past Core Ultra generations, the Core Ultra 3 chips use a chiplet-based approach, combining several distinct silicon tiles on a foundational “base tile” using Intel’s Foveros packaging technology. The compute tile houses the CPU cores and the neural processing unit (NPU), and it’s the piece that’s built using 18A—there are two version of this tile, one with a maximum of 16 CPU cores and one with 8. The platform controller tile, which handles most I/O, is still being built at TSMC, as is the high-end 12-core version of the graphics tile. A simpler four-core version of the graphics tile is being made using an older Intel 3 process, which to date has mostly been used for Intel’s Xeon server CPUs.</p>
 
-      
 
-      <p>
-        Replay the troubled jetpack shooter before the servers shut down for good on Jan. 12.
-      </p>
+<p>The chiplet-based approach allows Intel to mix-and-match these tiles to offer three distinct iterations of Panther Lake: the 16-core CPU and the 12-core GPU, the 16-core CPU and the 4-core GPU, and the 8-core CPU and the 4-core GPU. Versions of these chips with some CPU and GPU cores switched off fill out the rest of the Core Ultra Series 3 lineup.</p>
+<p>Intel is making big performance claims about the highest-end Core Ultra Series 3 processors: up to 60 percent faster multi-core CPU performance compared to the outgoing Core Ultra 200V chips, and up to 77 percent faster integrated GPU performance. Intel also says a “Lenovo IdeaPad reference design” using a Core Ultra X9 388H was able to stream Netflix at 1080p for 27.1 hours, though how battery life shakes out in real-world laptops is going to vary widely based on other specs and settings.</p>
+<p>All Panther Lake chips will also include the same neural processing unit (NPU), capable of up to 50 trillion operations per second (TOPS). This puts it well above the 40 TOPS requirement for Microsoft’s Copilot+ PC label, if a bit short of the 60 TOPS that AMD is claiming for its <a href="https://arstechnica.com/gadgets/2026/01/amd-reheats-last-years-ryzen-ai-and-x3d-cpus-for-2026s-laptops-and-desktops/">Ryzen AI 400 series</a> and the 80 TOPS that Qualcomm says its Snapdragon X2 chips are capable of. Wi-Fi 7, Bluetooth 6.0, and up to four Thunderbolt 4 ports round out the most important connectivity features.</p>
+<p>It remains to be seen whether Core Ultra Series 3 chips are a turning point for Intel’s fortunes or a temporary rebound in between years of missed deadlines (Panther Lake is a month later than Intel <a href="https://arstechnica.com/gadgets/2025/10/intels-next-generation-panther-lake-laptop-chips-could-be-a-return-to-form/">said it would be in October</a>, though by its recent standards that isn’t bad). But their launch later this month suggests that the company’s 18A facilities are up and running, opening the door to the kind of third-party chip manufacturing that former CEO Pat Gelsinger <a href="https://arstechnica.com/gadgets/2021/07/intels-foundry-roadmap-lays-out-the-post-nanometer-angstrom-era/">began pursuing nearly five years ago</a>.</p>
 
-              
-          </div>
-
-    <div>
-    
-    <p><em>Anthem</em> may be down, but it's not quite out yet.
-
-              <span>
-          Credit:
 
           
-          Bioware
-
-                  </span>
-          </p>
-  </div>
-  </div>
-</header>
-
-
-  
-
-  
-      
-    
-    <div>
+                  </div></div><br/><br/>https://arstechnica.com/gadgets/2026/01/intel-launches-core-ultra-series-3-cpus-made-using-its-long-awaited-18a-process/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[AMD reheats last year’s Ryzen AI and X3D CPUs for 2026’s laptops and desktops]]></title>
+            <link>https://arstechnica.com/gadgets/2026/01/amd-reheats-last-years-ryzen-ai-and-x3d-cpus-for-2026s-laptops-and-desktops/</link>
+            <guid>1397944</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
                       
                       
-          <p>We’ll admit that we weren’t paying enough attention to the state of <em>Anthem</em>—BioWare’s troubled 2019 jetpack-powered open-world shooter—to notice <a href="https://web.archive.org/web/20250703185925/https://www.ea.com/games/anthem/news/anthem-game-update">EA’s July announcement</a> that it was planning to shut down the game’s servers. But with that planned server shutdown now just a week away, we thought it was worth alerting you readers to your final opportunity to play one of BioWare’s most ambitious failures.</p>
-<p><em>Anthem</em> was <a href="https://arstechnica.com/gaming/2017/06/bioware-anthem-e3-release-date/">unveiled</a> at <a href="https://arstechnica.com/gaming/2017/06/biowares-sci-fi-gaming-wizards-unveil-new-series-called-anthem/">E3 2017</a> in a demo that was <a href="https://arstechnica.com/gaming/2019/04/inside-look-at-bioware-explains-exactly-how-fake-e3-2017s-anthem-demo-was/">later revealed to have been largely faked</a> to paper over major issues with the game’s early development. <em>Anthem’</em>s&nbsp;early 2019 release was met with <a href="https://opencritic.com/game/7084/anthem">a lot of middling-to-poor reviews</a> (including <a href="https://arstechnica.com/gaming/2019/02/anthem-game-review-honestly-its-not-finished/">one from Ars itself</a>), followed about a year later by a <a href="https://arstechnica.com/gaming/2020/02/bioware-promises-substantial-reinvention-for-year-old-anthem/">promise from BioWare General Manager Casey Hudson</a> that a “longer-term redesign” and “substantial reinvention” of the overall game experience were coming. Hudson <a href="https://blog.bioware.com/2020/12/03/from-casey-hudson/">left BioWare in December 2020</a>, though, and a few months later, that planned <em>Anthem</em> overhaul <a href="https://arstechnica.com/gaming/2021/02/ea-bioware-cancel-anthems-sweeping-overhaul/">was officially canceled</a>.</p>
-<p>While active development on <em>Anthem</em> has been dormant for years, the game’s servers have remained up and running. And though the game didn’t exactly explode in popularity during that period of benign neglect, <a href="https://mmo-population.com/game/anthem">estimates from MMO Populations</a> suggest a few hundred to a few thousand players have been jetpacking around the game’s world daily. The game also still sees <a href="https://www.reddit.com/r/AnthemTheGame">a smattering of daily</a> subreddit posts, including some <a href="https://www.reddit.com/r/AnthemTheGame/comments/1q3hjpc/is_there_a_chance_to_make_a_private_server_of/">hoping against hope for a fan-led private server revival</a>, a la <a href="https://pretendo.network/">the Pretendo Network</a>. And there are still <a href="https://streamscharts.com/games/anthem">a small handful of Twitch streamers</a> sharing the game while they still can, including one racing to obtain all of the in-game achievements after <a href="https://www.twitch.tv/videos/2661748161">picking up a $4 copy at Goodwill</a>.</p>
+          <p>Intel, AMD, Nvidia, and other chip companies usually have some kind of news to announce at CES to kick off the year, but some of those announcements are more interesting than others. Sometimes you see new chips with significant speed boosts and other new technologies, and sometimes you get rebranded versions of old silicon meant to fill out a lineup or make an existing architecture seem newer and more exciting than it is.</p>
+<p>AMD’s Ryzen CPU announcements this year fall firmly into the latter camp—these are all gently tweaked variants of chips that launched in 2024 and 2025.</p>
+<h2>“New,” for certain values of “new”</h2>
+
+
+<p>Let’s start with the Ryzen AI 400 series. Officially the follow-up to the Ryzen AI 300 chips <a href="https://arstechnica.com/gadgets/2024/06/amds-ryzen-ai-300-series-laptop-cpus-are-its-first-for-new-copilot-pcs/">announced in June 2024</a>, these processors offer some modest clock speed improvements and faster memory support. The new Ryzen AI 9 HX 470 has a peak boost clock speed of 5.2 GHz and support for LPDDR5x-8533, for example, up from 5.1 GHz and LPDDR5x-8000 for the Ryzen AI 9 HX 370, and its built-in neural processing unit (NPU) is capable of 60 trillion operations per second (TOPS) rather than 50 TOPS.</p>
+<p>But beyond those modest tweaks, Ryzen AI 400 chips are constructed from the same building blocks as Ryzen AI 300. They use a combination of high-performance Zen 5 CPU cores and smaller, more efficient Zen 5c cores, between 4 and 16 integrated GPU cores based on the RDNA 3 GPU architecture, and a 4 nm TSMC manufacturing process.</p>
+<p>This isn’t new behavior from AMD. A couple of processor generations ago (and one processor naming scheme ago), the company did the same thing with the <a href="https://arstechnica.com/gadgets/2023/12/amds-new-ryzen-8040-laptop-chips-look-a-lot-like-the-ryzen-7040-cpus/">Ryzen 8040-series laptop chips</a>, sprucing up the <a href="https://arstechnica.com/gadgets/2023/05/amd-is-ready-to-launch-its-twice-delayed-ryzen-7000-chips-for-lightweight-laptops/">older 7040 series</a> with marginally higher clock speeds and not much else. The upshot is that if you can get a decent discount on a Ryzen AI 300 system because it’s “old,” you can buy it without missing much.</p>
 
           
                       
-                  </div>
-                    
-        
-          
-    
-    
-  </article>
-
-
-  
-
-
-  
-
-
-  
-  </div></div><br/><br/>https://arstechnica.com/gaming/2026/01/biowares-anthem-will-soon-be-completely-unplayable/]]></content:encoded>
+                  </div></div><br/><br/>https://arstechnica.com/gadgets/2026/01/amd-reheats-last-years-ryzen-ai-and-x3d-cpus-for-2026s-laptops-and-desktops/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
