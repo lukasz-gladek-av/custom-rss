@@ -4,9 +4,160 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Wed, 07 Jan 2026 19:04:34 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 Jan 2026 19:37:14 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[CES 2026 Demo Footage of NVIDIA DLSS 4.5 Dynamic Multi Frame Generation]]></title>
+            <link>https://wccftech.com/ces-2026-demo-footage-nvidia-dlss-4-5-dynamic-multi-frame-generation/</link>
+            <guid>1399855</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			
+			<p><strong>NVIDIA DLSS 4.5 Dynamic Multi Frame Generation</strong> was undoubtedly the <a href="https://wccftech.com/nvidia-dlss-4-5-6x-mfg-240hz-gaming-400-games-available-on-all-rtx-gpus/" target="_blank" rel="noreferrer noopener">biggest gaming-related announcement</a> made by the world's largest company (by market cap) at <strong>CES 2026</strong>.</p>
+
+
+
+<p>After years of trailing behind NVIDIA in the upscaling department, AMD finally delivered a worthy competitor with <strong>FidelityFX Super Resolution (FSR) 4</strong> in 2025, with the year ending on a high note <a href="https://wccftech.com/amd-fsr-redstone-official-200-games-supported-3x-performance-boost-available-now/" target="_blank" rel="noreferrer noopener">thanks to the <strong>Redstone</strong> update</a> that injected FSR with a machine learning algorithm, as well as delivering an improved <strong>Frame Generation</strong> algorithm and the brand new <strong>Ray Regeneration</strong> (an analog to NVIDIA's <strong>DLSS Ray Reconstruction</strong>) and <strong>Radiance Caching</strong> (seemingly similar to NVIDIA's <strong>Neural Radiance Cache</strong>, although it is not yet ready for release, <a href="https://wccftech.com/fsr-radiance-caching-requires-further-development-optimization-is-not-currently-planned-release-darktide/" target="_blank" rel="noreferrer noopener">as confirmed by the developers of Warhammer 40,000: Darktide</a>).</p>
+
+
+
+<p>Less than a month later, NVIDIA answered in kind with the release of its <strong>second-generation transformer model</strong> for the DLSS Super Resolution upscaling algorithm. NVIDIA DLSS 4.5 has been trained on a much larger and higher-fidelity dataset, and as such, utilizes five times the compute power; that's why the initial tests have shown older <strong>GeForce RTX</strong> graphics cards struggling with it.</p>
+
+
+
+<p>Luckily, those PC users can still use the older models, either the CNN one or the first-gen transformer model, which run games noticeably faster. NVIDIA DLSS 4.5 is not really about increased speed - that's what Dynamic Multi Frame Generation helps with, but more on that later - <strong>it is instead about delivering the highest possible quality</strong>. This model demonstrates its power through a deeper understanding of game scenes and a more intelligent use of game engine pixel sampling and motion data, delivering output images with improved lighting, sharper visuals (<a href="https://wccftech.com/nvidia-dlss-4-5-in-quality-mode-delivers-better-image-quality-than-native-resolution-in-red-dead-redemption-2/" target="_blank" rel="noreferrer noopener">as demonstrated in an early <strong>Red Dead Redemption 2</strong> comparison</a>), and enhanced motion clarity.</p>
+
+
+
+<p>We had our very own CEO, Abdullah Saad, attending CES 2026 and checking out the various NVIDIA DLSS 4.5 demos available at the booth. He was particularly impressed by the lighting improvement delivered by the new transformer model in the game <strong>Black Myth: Wukong</strong>, and the NVIDIA rep explained:</p>
+
+
+
+<p><em>There's a very technical reason for that. The engine does the math in what's called physical space, which is like how the physics actually operates. It's not thinking in terms of gamma and stuff like that. It's thinking basically in real life math, like the light goes here, this light is at this amount of nits, and then at some point down the pipeline, it gets tone-mapped and ported to your display. The older DLSS, preset K, is accumulating the data at the end of that, so after tone mapping. It's losing some of that data, the highlights for example, and it's accumulating on that. TAA (Temporal AntiAliasing) can also have that problem, but here we move the new one closer to the engine so it's seeing more of what the engine is trying to show as far as the lighting goes, so it's losing less of that highlight detail.</em></p>
+
+
+
+<p>In more technical terms, the previous upscaling algorithm worked in logarithmic space to mitigate flickering, but resulted in muted lighting, clipped details, and crushed shadows in high-contrast scenes. Now, DLSS 4.5 Super Resolution trains and infers directly in linear space, the same space used by games, and is thus capable of allowing glowing neon signs and bright reflections to retain their full color range and detail. This could be an indirect been to <strong><a href="https://wccftech.com/the-hdr-gaming-interview-veteran-developer-explains-its-sad-state-and-how-hes-coming-to-its-rescue/" target="_blank" rel="noreferrer noopener">HDR gaming</a></strong> under NVIDIA DLSS 4.5.</p>
+
+
+
+<figure><p>
+<iframe title="CES 2026 NVIDIA DLSS Demo" width="500" height="281" src="https://www.youtube.com/embed/wCK3xUwnbmQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<p>The other half of the NVIDIA DLSS 4.5 announcement, Dynamic Multi Frame Generation, won't be available publicly before Spring 2026, but it could be tested at the NVIDIA CES 2026 booth. Beyond unlocking <strong>6X mode</strong> (five additional frames rendered apart from the real one), the update will also introduce <strong>an intelligent system capable of targeting your specific display's maximum refresh rate</strong>. </p>
+
+
+
+<p>In the CES 2026 demo (featuring <strong>Obsidian's The Outer Worlds 2</strong> game), the system was shown targeting the 240Hz of the 1440p display on hand. The NVIDIA rep stated:</p>
+
+
+
+<p><em>If you went to a scene where it went up to 300 FPS, you'd see it lowering the multiplier because you'd be generating frames that are just being thrown out, right? This is a smarter way to use it. If you go up to one of the windows, the scene will get a lot lighter. You'll see your frame rate go up, and then it'll start lowering the multiplier because it'll know that you don't need that much frame generation. If you go over here, your frame rate will drop because this is a more intense scene and it's going to start raising the multiplier again.</em></p>
+
+
+
+<figure><p>
+<iframe title="DLSS 4.5 Frame Generation Model Improved | The Outer Worlds 2" width="500" height="281" src="https://www.youtube.com/embed/a7b3XPOnZMk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<p>NVIDIA also promises <strong>improvements in frame pacing and better accuracy in rendering in-game user interfaces</strong>, as shown in the official video above. The former will be particularly important, although we'll have to wait for its public release to test it. </p>
+
+
+
+<p>Meanwhile, the popular <strong>DLSS Swapper</strong> tool <a href="https://wccftech.com/dlss-swapper-version-1-2-3-1-released-with-support-for-dlss-4-5/" target="_blank" rel="noreferrer noopener">has just been updated to support NVIDIA DLSS 4.5</a>.</p>
+
+			
+			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
+
+		</div></div><br/><br/>https://wccftech.com/ces-2026-demo-footage-nvidia-dlss-4-5-dynamic-multi-frame-generation/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Life is Strange: Reunion rated in Europe]]></title>
+            <link>https://www.gematsu.com/2026/01/life-is-strange-reunion-rated-in-europe</link>
+            <guid>1399852</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><p>Pan European Game Information has <a href="https://pegi.info/search-pegi?q=life+is+strange" target="_blank">rated</a> the unannounced <em>Life is Strange: Reunion</em>. The rating was seemingly published back in March 2025, according to the rating date. <span id="more-1018159"></span></p><p>The most recent entry in the <em>Life is Strange</em> series, <em><a title="Games > Life is Strange: Double Exposure [7 articles]" href="https://www.gematsu.com/games/life-is-strange-double-exposure">Life is Strange: Double Exposure</a></em>, launched for <a title="Platforms > PS5 [11,158 articles]" href="https://www.gematsu.com/platforms/playstation/ps5">PlayStation 5</a>, <a title="Platforms > Xbox Series [8,537 articles]" href="https://www.gematsu.com/platforms/xbox/xbox-series">Xbox Series</a>, and <a title="Platforms > PC [25,208 articles]" href="https://www.gematsu.com/platforms/pc">PC</a> via <a href="https://store.steampowered.com/app/1874000/Life_is_Strange_Double_Exposure/" rel="noopener" target="_blank">Steam</a> and <a href="https://www.microsoft.com/en-us/store/p/life-is-strange-double-exposure/9npzhqh1tt23" rel="noopener" target="_blank">Microsoft Store</a> on October 29, 2024, followed by <a title="Platforms > Switch [18,169 articles]" href="https://www.gematsu.com/platforms/nintendo/switch">Switch</a> on November 19, 2024.</p><p>Here is the full description of the unannounced title:</p><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2026/01/Life-is-Strange-Rating_01-07-26_Rating.png"></a></figure><blockquote><p><strong>Advice for Consumers</strong></p><p>This game has received a PEGI 16 because it features use of strong language, use of illegal drugs and strong violence. Not suitable for persons under 16 years of age.</p><!-- AD: content -->
+        <p><strong>Brief Outline of the Game</strong></p><p>Chloe Price was Max Caulfield’s partner in time… Losing her is Max’s greatest regret. Now Chloe has come to Caledon University. Haunted by nightmares and impossible memories, Chloe needs Max’s help. But Max is already in crisis: in three days, a deadly inferno will destroy the campus.</p><p><strong>Content Specific Issues</strong></p><p>This game features depictions of the use of illegal drugs. During a party scene, the player is offered wine and is given the option to take a sip. The player character realizes that she has been spiked from the drink that she sipped on and is experiencing hallucinations. Images on screen become distorted and a scene plays out with the character seeing strange images. A character tells the hallucinating character that she is “tripping balls.” It is then explained that she is high on mushrooms. There are also depictions of strong, realistic violence. In the opening scene, the game recaps the previous games from the series which includes a scene where a girl is shot in the torso before she is then seen lying on the ground with blood seeping through her shirt. Much of the violence in the game is implied; a building is set on fire and people are heard inside screaming for help. This game also contains the use of strong language, including ‘fuck.’ Milder bad language is also present, including ‘asshole,’ ‘piss,’ and ‘shit.’</p><p><strong>Other Issues</strong></p><p>This game offers players the opportunity to purchase in-game items in the form of new outfits and a digital deluxe upgrade, which some parents or carers may want to be aware of. Parents, carers, or other responsible adults should check to see what is being offered before making any purchase on behalf of a child. It should be noted that the game can still be played without the need to purchase such items. There are images in the game which may be scary to younger players, including scenes of dead bodies with no blood or injury detail and human skeletons. Some sexual innuendo is found in the game. When the player goes to a party, another character tells them that someone didn’t show up as their “girlfriend thought this was an orgy.” Suicide is referenced in the game frequently, but no depictions are shown.</p></blockquote><p>Thanks, <a href="https://www.reddit.com/r/GamingLeaksAndRumours/comments/1q6nkau/new_possible_life_is_strange_game_leaked_life_is/" target="_blank">r/GamingLeaksandRumours</a>.</p></div></div><br/><br/>https://www.gematsu.com/2026/01/life-is-strange-reunion-rated-in-europe]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Wolfenstein 3 Is In The Works, Multiple Reports Say]]></title>
+            <link>https://www.gamespot.com/articles/wolfenstein-3-is-in-the-works-multiple-reports-say/1100-6537258/?ftag=CAD-01-10abi2f</link>
+            <guid>1399846</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p>
+    <span data-nosnippet="">GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links.</span>
+  </p><article itemscope="" data-type-id="1100" data-guid="1100-6537258">
+
+            
+            
+  
+
+
+        
+
+  
+
+
+        
+        
+              <section>
+
+                  
+          <div data-content-element-selector="p, .js-buylink-item-container" data-allowed-classes-selector="js-buylink-item-container">
+                <p>MachineGames is working on a third new Wolfenstein game to follow 2014's Wolfenstein: The New Order and 2017's Wolfenstein II: The New Colossus. This is according to reports from <a href="https://www.windowscentral.com/gaming/xbox/xbox-in-2026-what-to-expect-from-team-green-this-year-and-beyond" data-target="true" target="_blank" rel="noopener nofollow">Windows Central</a> and <a href="https://kotaku.com/wolfenstein-3-in-development-machinegames-bethesda-2000657758" data-target="true" target="_blank" rel="noopener nofollow">Kotaku</a>, both of which said the game is happening but had no other details to share.</p><p>This would be the first new Wolfenstein game since Wolfenstein: Youngblood and the VR game Wolfenstein: Cyberpilot, both of which were released in 2019.</p><p><a href="https://www.gamespot.com/articles/wolfenstein-dev-hopes-to-return-to-the-franchise/1100-6534556/" data-ref-id="1100-6534556">In September 2025</a>, MachineGames creative director Axel Torvenius said he wanted to continue the story of William "B.J." Blazkowicz in a third Wolfenstein game.</p><p>"We have always seen this as a [Wolfenstein] trilogy," Torvenius said in a Wolfenstein documentary by <a href="https://www.youtube.com/watch?v=E189QG28rnE" data-target="true" target="_blank" rel="noopener">Noclip</a>. "So that journey for B.J., even during those first few weeks at id, when we mapped out New Order, we still had the plan for, at least, that character. What will happen in the second one, what will happen in the third one. So I think that's important to say, because--at least, I hope--that we're not done with Wolfenstein yet. We have a story to tell."</p><p>If MachineGames is indeed working on a third Wolfenstein game in its trilogy, it could be announced at <a href="https://www.gamespot.com/articles/xbox-developer-direct-confirmed-for-january-2026-but-it-wont-have-everything/1100-6536932/" data-ref-id="1100-6536932">this month's Xbox Developer Direct </a>or the expected Xbox summer showcase, though these are both just guesses.</p><p>Beyond a possible new Wolfenstein game, <a href="https://www.gamespot.com/articles/wolfenstein-tv-series-in-the-works-from-same-company-behind-fallout-show/1100-6533457/" data-ref-id="1100-6533457">Prime Video is producing a live-action Wolfenstein TV series</a>. It's still early days, though, and there is no word on any specifics about the show.</p><p>The Wolfenstein titles take place in an alternate timeline where Germany won World War II after they discovered advanced technology. The Wolfenstein video game series has been around since 1981, and 1992's Wolfenstein 3D from developer Id Software is credited as one of the key games that helped popularize first-person shooters in the '90s.</p>
+  
+                        
+    
+        
+        
+  
+                                  </div>
+
+
+          
+  
+    
+          
+            
+  <div>
+    <p><i>Got a news tip or want to contact us directly? Email <a href="mailto:news@gamespot.com?subject=Hi%20GameSpot!%20I%20have%20a%20news%20tip%20for%20you!">news@gamespot.com</a></i></p>
+
+    
+      </div>
+        
+      </section>
+    
+            
+    </article></div><br/><br/>https://www.gamespot.com/articles/wolfenstein-3-is-in-the-works-multiple-reports-say/1100-6537258/?ftag=CAD-01-10abi2f]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Call Of Duty: Black Ops 7 Crosses Over With Amazon's Fallout TV Show Tomorrow With New Event Pass]]></title>
+            <link>https://gameinformer.com/2026/01/07/call-of-duty-black-ops-7-crosses-over-with-amazons-fallout-tv-show-tomorrow-with-new</link>
+            <guid>1399840</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div property="schema:text"><p>Amazon's <a href="https://gameinformer.com/review/2024/04/10/the-fallout-tv-show-is-good-season-1-review"><em>Fallout </em>TV show</a> is crossing over with <a href="https://gameinformer.com/product/call-of-duty-black-ops-7">Call of Duty: Black Ops 7</a> tomorrow with a new event pass, limited-time modes, and more. All this <em>Fallout </em>content hits Activision's latest release in its long-running FPS series as the TV show's fourth episode of <a href="https://gameinformer.com/review/2025/12/24/the-fallout-tv-shows-second-season-is-slower-but-still-good">Season 2</a> goes live this week.&nbsp;</p><p>This <em>Fallout </em>crossover is part of a larger mid-season update of Call of Duty: Black Ops 7 dubbed <a href="https://www.youtube.com/watch?v=0ZLbhk_0abk">S01 Reloaded</a>, which brings more maps, modes, challenges, Loadout items, and additional content across multiplayer, Zombies, Endgame, and Warzone alongside the wasteland fun.&nbsp;</p><p>"The world of <em>Fallout </em>is coming to Call of Duty in the mid-season, featuring limited-time content themed around the wasteland, including the Deathclaw Hunt Endgame World Event, The Ghouls and S.P.E.C.I.A.L. Mayhem in multiplayer, Project RADS in Zombies, and Power Armor Royale in Call of Duty: Warzone," a press release reads. "Plus, earn themed rewards in the Quantum Exchange Event and other Events, deploy to the Vault Town map variant, pick up the Tracer Pack: Fallout Bundle and more alongside our regular Season 01 Reloaded content."&nbsp;</p><p><strong>Check it out in the Call of Duty: Black Ops 7 x </strong><em><strong>Fallout </strong></em><strong>trailer below:&nbsp;</strong></p><p height="360" width="640" url="https://www.youtube.com/embed/ciX5UKYFgac"><iframe width="640" height="360" src="https://www.youtube.com/embed/ciX5UKYFgac" frameborder="0" allow="autoplay" allowfullscreen="true">&nbsp;</iframe></p><p>There is a massive amount of information regarding Season 01 Reloaded and you can read the full list of new content, including <em>Fallout</em>, <a href="https://www.callofduty.com/blog/2026/01/call-of-duty-black-ops-7-warzone-season-01-reloaded">here</a>.&nbsp;</p><p>This collaboration, and all of Season 01 Reloaded, hits Call of Duty: Black Ops 7 tomorrow on January 8. In the meantime, read <a href="https://gameinformer.com/review/2025/12/24/the-fallout-tv-shows-second-season-is-slower-but-still-good"><em>Game Informer's </em>thoughts on <em>Fallout </em>Season 2</a>, and then read <a href="https://gameinformer.com/review/call-of-duty-black-ops-7/good-luck-have-fun"><em>Game Informer's </em>Call of Duty: Black Ops 7 review here</a>.&nbsp;</p></div></div><br/><br/>https://gameinformer.com/2026/01/07/call-of-duty-black-ops-7-crosses-over-with-amazons-fallout-tv-show-tomorrow-with-new]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[GDQ’s Organizers Plan To Keep Growing The Event, But They Don’t Want It To Become Just Another Video Game Convention]]></title>
+            <link>https://aftermath.site/agdq-2026-interview-speedrun-convention-charity/</link>
+            <guid>1399837</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><article>
+      <p>Compared to the PAXes or even MAGFests of the world, Awesome Games Done Quick is itsy bitsy. Around 2,000 speedrunners and fans mill about in Pittsburgh’s Wyndham Grand hotel, with a theater where speedruns take place serving as the obvious centerpiece. Other attractions – like an arcade, a game room with consoles and PCs, and a small artist alley – exist, but they feel more like brief breaks from the 24/7 speedrun deluge than fully fledged alternatives. The entire event spans just a handful of rooms across two floors. Some might view this as a downside, but I find it refreshing.&nbsp;</p><p>There’s an intimacy to AGDQ that makes it feel uniquely cozy. If you make a friend, you <em>will </em>run into them again. Runners and hosts are accessible and friendly. Vocal audience participation during runs is common. The vibe is slumber party, with some audience members going so far as to wear pajamas to late-night runs.&nbsp;</p><p>In my few days attending, I’ve also come to appreciate the event’s focus: There’s one main thing pretty much everyone is here for, so we all have a shared destination and set of hyper-specific discussion topics. The standard model of a video game convention (or comic convention, or anime convention) lends itself to sprawl and bloat. They can even be actively unpleasant to attend – squirming seas of people shuffling between halls, attempting to extract amusement from vast selections of activities that rarely rise above the level of Fine.&nbsp;</p><p>AGDQ, in its current state, lacks unnecessary flab. This makes sense, considering that it began as a group of 20 friends in founder Mike Uyama’s mother’s basement. It was not born as a convention, even as it has since bolted on some of the format’s more common trappings. But that was 2010 and this is now; AGDQ attracts tens of thousands of concurrent viewers across Twitch and YouTube, and the organization behind it now employs over 100 people.&nbsp;</p><p>GDQ, meanwhile, is now far more than just one event, with AGDQ joined by Summer Games Done Quick, as well as a series of smaller charity marathons hosted by satellite organizations like Frame Fatales and Black In A Flash. Every non-event week, meanwhile, GDQ hosts regularly scheduled “Hotfix” programming, with two themed shows each weekday as well as weekend specials. There’s more to speedrunning than GDQ, but it has, in many ways, evolved into a one-stop shop for the average person’s speedrunning needs.</p><p>What does this growth mean for the event that started it all, though? GDQ director of operations Matt Merkle doesn’t plan to shy away from further expansion and experimentation.&nbsp;</p><p>"We've already actually expanded,” he told Aftermath. “The artist alley is a new addition. We just started that last summer. We have amazing artists supporting the event – the stuff they do for us to advertise the event. We wanted to bring them into the event and let people purchase their works. ... I think it's been fantastic. The community really loves that artist alley, and we'll continue to grow that as we get into bigger hotels that can support it."</p><p>But Merkle is cognizant of the fact that he’s in possession of bottled lightning.&nbsp;</p><p>“Obviously speedrunning is gonna be the primary focus of the event for the foreseeable future,” he said. “But we'll always continue to experiment with different things. Over the summer, we had a live concert, which was really cool to do for the first time. ... We definitely continue to experiment so that when people come back to the event year after year, they have something new to experience on top of the stuff that they know and love."</p><p>The show’s format, Merkle added, helps it nimbly avoid some of more traditional conventions’ biggest pitfalls.</p><p>“The event lasts for seven days rather than three or four, so you have plenty of time to experience the entire event – to go around and enjoy yourself,” he said. “We don't focus on panels as much as other conventions, so people aren't focused on just getting in lines and waiting for the panel they want to see most or something. Because we control the growth and ensure that there's always plenty of space and time to do everything, it makes it so you don't feel rushed, you don't feel cramped. You feel that you have space to do what you want and hang out with your friends."</p><p>Even as AGDQ continues to grow and attract more attendees, Merkle wants to preserve the show’s unique vibe.</p><p>“Intimacy is a core part of it,” he said.</p><p>That intimacy – and <a href="https://gamesdonequick.com/site/rules?ref=aftermath.site"><u>a rigorous set of rules</u></a> – means people feel safe at AGDQ. This comes through whether you’re in attendance or watching along from home. What other video game event, after all, boasts “trans rights” as its rallying cry? Merkle recognizes the importance of maintaining that core component of the event as well.&nbsp;</p><p>“If you’re harassing anybody in our community or making people feel uncomfortable, we don’t want you here,” he said. “I think the community has come to expect that type of vibe at this event, and that’s why we have so many people that feel safe to come to these events. … We take it seriously.”&nbsp;</p><h2 id="recommended">Recommended</h2><figure><a href="https://aftermath.site/speedrunning-dog-interview-peanut-butter-agdq/"><div><p>Speedrunning Dog Talks To Blog - Aftermath</p><p>The story behind Awesome Games Done Quick’s speedrunning dog</p><p><span>Nathan Grayson</span></p></div></a></figure>
+    </article></div><br/><br/>https://aftermath.site/agdq-2026-interview-speedrun-convention-charity/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[MachineGames Reportedly Has Wolfenstein 3 and a R6 Siege-Like Multiplayer Game “On the Cards”]]></title>
             <link>https://wccftech.com/machine-games-reportedly-has-wolfenstein-3-r6-siege-like-multiplayer-game-on-the-cards/</link>
@@ -906,153 +1057,6 @@ To be honest, to me it just sounds like Clair Obscur followed in a long lineage 
     
   </section>
   </div></div><br/><br/>https://www.eurogamer.net/netflix-confirms-the-witcher-series-will-end-this-year]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Ubisoft Shuts Down Ubisoft Halifax, Claims the Decision Had Nothing to do With the Studio Unionizing Three Weeks Ago]]></title>
-            <link>https://wccftech.com/ubisoft-shuts-down-ubisoft-halifax-claims-decision-had-nothing-to-do-with-studio-unionizing/</link>
-            <guid>1399681</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			
-			<p>Not even three weeks ago from the time of this writing, <strong>Ubisoft Halifax</strong> <a href="https://cwacanada.ca/2025/12/18/ubisoft-halifax-workers-win-certification-vote-officially-join-cwa-canada/">announced that it had voted for a wall-to-wall union and joined CWA Canada.</a> Wccftech <a href="https://wccftech.com/ubisoft-halifax-vote-in-favour-of-wall-to-wall-union-under-cwa-canada/">covered the announcement</a>, as it was the latest and one of the final bits of news regarding the continued labour movement in the video game industry in 2025. Now, 20 days after Ubisoft Halifax announced its successful union vote, Ubisoft has shut down the studio, with <strong>71 developers set to lose their jobs<em>.</em></strong></p>
-
-
-
-<p>The news was first reported by <a href="https://www.videogameschronicle.com/news/ubisoft-has-closed-its-halifax-studio-but-claims-decision-is-unrelated-to-recent-unionization/">VGC</a>, which obtained an email sent to Ubisoft Halifax staff informing them of the closure, claiming the decision was made as part of Ubisoft's efforts within the last 24 months "<em>to streamline operations, improve efficiency, and reduce costs</em>."   </p>
-
-
-
-<p>Shortly after the news was made public, <a href="https://www.linkedin.com/posts/jordan-long-0438b7174_ubisoft-shuttering-freshly-unionised-halifax-activity-7414702213182222336-KkuI?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAADTlvBcBPTBRScN2Be454jnla503919DOfI">several members</a> of Ubisoft Halifax <a href="https://www.linkedin.com/posts/courtney-clarke-ux-research_opentowork-activity-7414701237566300160-nUyA?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAADTlvBcBPTBRScN2Be454jnla503919DOfI">confirmed the news</a> via <a href="https://www.linkedin.com/posts/georgegreer123_ubisoft-halifax-is-being-shut-down-if-anyone-activity-7414680117597245440-duoJ?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAADTlvBcBPTBRScN2Be454jnla503919DOfI">posts on their personal LinkedIn profiles</a>. The studio had just celebrated its 10-year anniversary after its founding in 2015.</p>
-
-
-
-<p>According to the initial report, the decision to close the Halifax studio was not made as a result of the team unionizing, and the choice was made "<em>well before</em>" 60 of the studio's staff joined the CWA Canada in its successful union vote. At the time of this writing, there's been no official statement from Ubisoft on the shuttering, though CWA Canada has made a short statement on social media, with an official statement informed by conversations with the staff at Ubisoft Halifax to follow. </p>
-
-
-
-<p>"<em>CWA Canada is shocked and disappointed at this outrageous damaging decision by Ubisoft</em>," CWA Canada <a href="https://bsky.app/profile/cwacanada1.bsky.social/post/3mbtvhfk5ak2v">writes in their post on Bluesky</a>. "<em>We are speaking with legal counsel, and we will do everything possible to fight this. We will have a full statement after we have consulted with our Ubisoft members.</em>"</p>
-
-
-
-
-
-
-
-<p>Wccftech has reached out to Ubisoft for a statement and will update this article if/when we receive a response. </p>
-
-			
-			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
-
-		</div></div><br/><br/>https://wccftech.com/ubisoft-shuts-down-ubisoft-halifax-claims-decision-had-nothing-to-do-with-studio-unionizing/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Sony’s new ‘Hyperpop’ PS5 covers are bursting with RGB color]]></title>
-            <link>https://www.theverge.com/tech/857603/sony-ps5-covers-controller-hyperpop-color-accessories</link>
-            <guid>1399678</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><div><p><span aria-expanded="false" aria-haspopup="true" role="button" tabindex="0"><span id="follow-author-standard_article_details-dmcyOmF1dGhvclByb2ZpbGU6MTY0"><span><span><svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Follow"><path d="M5 0H4V4H0V5H4V9H5V5H9V4H5V0Z"></path></svg></span></span><span>Tom Warren</span></span></span></p> <p><span>is a senior editor and author of <a href="https://www.theverge.com/notepad-microsoft-newsletter"><i>Notepad</i></a>, who has been covering all things Microsoft, PC, and tech for over 20 years.</span></p></div><div id="zephr-anchor"><p>Sony’s first PlayStation announcement of 2026 is all about color. The new <a href="https://blog.playstation.com/2026/01/07/revealing-the-hyperpop-collection-with-three-new-designs-for-ps5-accessories-launching-this-march/">Hyperpop Collection</a> includes colorful neon console covers and controllers that really add a pop of color to a PS5. Sadly, if you own a PS5 Pro then you won’t be able to enjoy the RGB in your living room fun.</p><p>There are three colors available: techno red, remix green, and rhythm blue (RGB!). All three are very different to the console covers that Sony has shipped for the PS5 so far, and they certainly look like they’d fit in well with RGB lights. Sony says the collection is designed with RGB in mind and to “take over” your room. “Inspired by the glow of the RGB lights of your impressive gaming setups, these new colors go LOUD in the best possible way,” says Leo Cardoso, from Sony’s color, material, and finish design team.</p><p>The Hyperpop Collection launches on March 12th, with preorders kicking off at 10AM local time on January 16th at Sony’s <a href="https://sonyps.prf.hn/click/camref:1101l5nbBL/%5Bp_id:1011l394533%5D/destination:http%3A%2F%2Fdirect.playstation.com%2F" rel="sponsored">PlayStation Direct</a> website and retailers. The PS5 console covers are priced at $74.99 and only available in limited quantities, and the DualSense controllers are $84.99.</p><div><p><span><strong>Follow topics and authors</strong> from this story to see more like this in your personalized homepage feed and to receive email updates.</span></p><ul><li id="follow-author-article_footer-dmcyOmF1dGhvclByb2ZpbGU6MTY0"><span aria-expanded="false" aria-haspopup="true" role="button" tabindex="0"><span><span><svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Follow"><path d="M5 0H4V4H0V5H4V9H5V5H9V4H5V0Z"></path></svg></span><span>Tom Warren</span></span></span></li><li></li><li></li><li></li><li></li><li></li></ul></div></div></div></div><br/><br/>https://www.theverge.com/tech/857603/sony-ps5-covers-controller-hyperpop-color-accessories]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Ubisoft close the studio behind Assassin's Creed Rebellion days after the developers vote to unionise]]></title>
-            <link>https://www.rockpapershotgun.com/ubisoft-close-the-studio-behind-assassins-creed-rebellion-days-after-the-developers-vote-to-unionise</link>
-            <guid>1399675</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
-
-
-<header data-component="article-header">
-  
-
-    <div id="main-content">
-  
-
-        <p>Insist there's no connection</p>
-
-    </div>
-
-
-  <p>
-
-  <figure>
-        <picture>
-        <source srcset="https://assetsio.gnwcdn.com/assassinscreedrebellion.jpg?width=380&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/assassinscreedrebellion.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/assassinscreedrebellion.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/assassinscreedrebellion.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/assassinscreedrebellion.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/assassinscreedrebellion.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/assassinscreedrebellion.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/assassinscreedrebellion.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/assassinscreedrebellion.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>Ubisoft</cite></span>
-        </figcaption>
-
-  </figure>
-  </p>
-
-    
-
-</header>
-  <div data-component="article-content">
-
-
-
-            <p>
-Ubisoft are closing Ubisoft Halifax, the Canadian developers of mobile games Rainbow Six Mobile and Assassin's Creed Rebellion. This is strictly speaking outside our mandate as a PC gaming site, of course - I fear smartphones like Hell itself, and only ever communicate over long distances using homing pigeons - but it's all part of Ubisoft's wider transformation into a heavily Tencent-backed publisher, and the nasty twist is that Ubisoft Halifax had only just voted to unionise.
-</p><!--more-->
-<p>
-As reported by <a href="https://www.gamesindustry.biz/ubisoft-shuttering-freshly-unionised-halifax-studio-71-jobs-affected">Gamesindustry.biz</a>, Ubisoft Halifax staff announced the founding of Ubisoft's first labour union in North America earlier this week, having begun the process in June 2025. Almost 74% of the studio's staff voted in favour, spanning the programming, production, design, art and R&amp;D departments. The vote was actually due to take place last June, but Ubisoft mounted challenges that were ultimately dropped ahead of vote-counting in December.
-</p>
-<p>
-In announcement materials, the freshly unionised Halifax staff appeared positive about their relationship with the company. "We believe that creativity flourishes when workers feel secure, supported, and empowered," they wrote. "We are unionising not in opposition to Ubisoft, but in partnership, with the goal of ensuring our studio remains a beacon of equity, excellence, and innovation."
-</p>
-<p>
-Now, Ubisoft have binned them off, though they've stressed to GI that this has nothing to do with unionisation. "Over the past 24 months, Ubisoft has undertaken company-wide actions to streamline operations, improve efficiency, and reduce costs," the company said in a statement. "As part of this, Ubisoft has made the difficult decision to close its Halifax studio. 71 positions will be affected. We are committed to supporting all impacted team members during this transition with resources, including comprehensive severance packages and additional career assistance." 
-</p><p>
-According to an Ubisoft spokesperson, the closure forms part of cost-cutting that dates back to the lifting of Covid restrictions and the end of the pandemic revenue boom. They remain happy to recognise and work with unionised staff in general. It should of course be noted that there are <a href="https://www.rockpapershotgun.com/700-ubisoft-staff-in-france-hold-strikes-in-response-to-worldwide-return-to-office-mandate-from-assassins-creed-publisher">plenty of unionised Ubisoft staff in other regions</a>, but still, I'm not sure burning down a subsidiary within weeks of a union vote indicates strong desire for a healthy dialogue with the workers.
-</p>
-<p>
-Ubisoft Halifax weren't always a mobile-dedicated studio. Prior to their acquisition by the House of Guillemot in 2015, they were known as Longtail and worked on guitar game <a href="https://www.rockpapershotgun.com/games/rocksmith">Rocksmith</a>.
-</p>
-<p>
-Following a rough couple of years defined by <a href="https://www.rockpapershotgun.com/tencent-and-guillemot-family-considering-buyout-of-ubisoft-report-says">plummeting stock prices and shareholder uprisings</a>, Ubisoft are currently <a href="https://www.rockpapershotgun.com/tencent-hand-ubisoft-a-big-wad-of-cash-to-spin-out-assassins-creed-far-cry-and-rainbow-six-as-a-separate-business">restructuring around a Tencent-funded core "creative house"</a>, shoring up their core <a href="https://www.rockpapershotgun.com/games/far-cry">Far Cry</a>, Assassin's Creed and Rainbow Six operations while trimming the books elsewhere. They recently <a href="https://www.rockpapershotgun.com/ubisoft-want-to-trim-down-the-division-developers-and-are-pivoting-trials-creators-redlynx-to-mobile">announced plans for redundancies</a> at Massive, creators of Tom Clancy's The Division, <a href="https://www.rockpapershotgun.com/games/star-wars-outlaws">Star Wars Outlaws</a>, and <a href="https://www.rockpapershotgun.com/games/avatar-frontiers-of-pandora">Avatar: Frontiers of Pandora</a>, together with a change of direction for Trials devs Redlynx.</p>
-<p>Best of luck to all Ubisoft Halifax staff now looking for new jobs.
-</p>
-
-        </div>
-
-      </article>
-
-
-
-
-        
-  </div></div><br/><br/>https://www.rockpapershotgun.com/ubisoft-close-the-studio-behind-assassins-creed-rebellion-days-after-the-developers-vote-to-unionise]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Meet The Grok-Powered Anime Hologram That Will Heckle You While You Play Games]]></title>
-            <link>https://kotaku.com/grok-hologram-anime-waifu-ces-2026-2000657749</link>
-            <guid>1399666</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-              
-              <p><span>Razer, the company best known for its RGB-infused keyboards, cat-ear headsets, and over-priced gaming chairs, has just revealed that its “AI gaming copilot” Project Ava will be used in its latest invention: an AI anime waifu that sits on your desk, named “Kira.” She’ll be powered by Elon Musk’s Grok.</span><span><br> </span><span><br> </span><span>The 2026 Consumer Electronics Show kicked off in Las Vegas this week and, unsurprisingly, AI-powered tech is everywhere. Razer announced its </span><a href="https://www.theverge.com/24338016/razer-project-ava-ai-gaming-copilot-coach"><span>AI gaming assistant, Project Ava,</span></a><span> at last year’s show, alongside a prerecorded video of the copilot program suggesting tips to help a player navigate a boss fight in </span><i><span>Black Myth: Wukong</span></i><span>.</span><span><br> </span><span><br> </span><span>Razer’s Project Ava has now returned in physical form. The newly unveiled “AI Desk Companion” version comes equipped with a built-in webcam (which Razer states is for its “human-like vision” and “full contextual awareness”), a series of customizable RGB LEDs, a USB-C port, and, most notably, a “swappable” 5.5-inch-tall 3D holographic avatar.</span></p> <blockquote data-width="500" data-dnt="true"> <p lang="fr" dir="ltr">Razer Holographic AI Voice Assistant Kira (Project Ava) CES 2026 Demo <a href="https://twitter.com/hashtag/Razer?src=hash&amp;ref_src=twsrc%5Etfw">#Razer</a> <a href="https://twitter.com/hashtag/CES2026?src=hash&amp;ref_src=twsrc%5Etfw">#CES2026</a> <a href="https://t.co/ah54Us7QMJ">pic.twitter.com/ah54Us7QMJ</a></p> <p>— Shacknews (@shacknews) <a href="https://twitter.com/shacknews/status/2008539048328171561?ref_src=twsrc%5Etfw">January 6, 2026</a></p></blockquote>  <p><span>According to the press release, Project Ava’s holographic companion currently comes in five varieties. These include the default, amorphous green blob Ava, the aforementioned cat-ear wearing anime waifu Kira, and a buff “gaming wingman” called Zane. </span><span><br> </span><span><br> </span><span>The other two holograms are actually 3D recreations of real people: the South Korean eSports legend Lee “Faker” Sang-hyeok and the J-Pop idol Saori “Sao” Araki, the latter of whom exploded in popularity last year following her viral “Office Lady” meme.</span></p>
-
- <p><span>As detailed in a report by </span><a href="https://www.inverse.com/gaming/sony-razer-project-ava-ai-gameplay"><i><span>Inverse</span></i></a><span>, the physical version of Project Ava will be powered by xAI’s Grok, which recently </span><a href="https://www.bbc.com/news/articles/crrn054nxe7o"><span>started posting CSAM online</span></a><span>. If you’re curious how it will perform as Grok races </span><a href="https://www.bloomberg.com/news/articles/2026-01-07/musk-s-grok-ai-generated-thousands-of-undressed-images-per-hour-on-x"><span>to seed social media with deepfake porn</span></a><span>, several outlets, including </span><a href="https://gizmodo.com/razer-made-its-ai-gaming-assistant-into-a-waifu-hologram-2000705679"><span>both </span><i><span>Gizmodo</span></i></a><span> and </span><a href="https://www.theverge.com/tech/854705/razer-ai-anime-waifu-hologram-desk"><i><span>The Verge</span></i></a><span>, were less than complimentary about its implementation.</span><span><br> </span></p>
-
- <p><i><span>Gizmodo’s </span></i><span>James Pero stated that his experience with Project Ava was “as wonky as chatting with any other AI chatbot out there,” and </span><i><span>The Verge’s</span></i><span> Antonio G. Di Benedetto noted that the anime AI assistant Kira “kept incessantly filling gaps in communication with annoying chatter.”</span><span><br> </span><span><br> </span><span>If you’re still keen to get your hands on one of these regardless, </span><a href="https://www.razer.com/gb-en/concepts/project-ava"><span>the FAQ</span></a><span> on Razer’s Project Ava website states that it’s “expected to be available in the second half of 2026” and that folks in the United States can already reserve one of the units by putting down a $20 deposit. The company still hasn’t revealed how much the full Grok-powered holograms will cost.</span></p>
-                          </div></div><br/><br/>https://kotaku.com/grok-hologram-anime-waifu-ces-2026-2000657749]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
