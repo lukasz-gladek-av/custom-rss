@@ -4,9 +4,1104 @@
         <title>maGaming RSS Feed - insider-gaming_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/insider-gaming_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for insider-gaming_com</description>
-        <lastBuildDate>Wed, 07 Jan 2026 16:33:19 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 Jan 2026 17:17:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Minecraft 26.1 Snapshot 2 Retextures Baby Mobs & More]]></title>
+            <link>https://insider-gaming.com/minecraft-26-1-snapshot-2-retextures-baby-mobs-more/</link>
+            <guid>1399615</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><article id="post-168356">
+
+    <header>
+        
+
+        
+
+    </header>
+
+    
+
+
+    <div>
+        
+<p>Mojang have unveiled the first Minecraft Snapshot of 2026, and it’s easily one of the most wholesome ones they’ve revealed yet. Multiple changes have been made to numerous baby mobs, and they’re bound to steal fans’ hearts. </p>
+
+
+
+<p>The most notable change made in the <a href="https://insider-gaming.com/minecrafts-mounts-of-mayhem-update-is-live-now/" target="_blank" rel="noreferrer noopener">Minecraft</a> 26.1 Snapshot 2 is the retexturing of multiple baby mobs. These younger mobs will now better reflect their adult variant textures, and some of them will even make new baby sounds. </p>
+
+
+
+<p>Another change that fans have long been calling for is the introduction of craftable Name Tags. No longer must they be found in chests or fished up by chance; instead, fans can now reliably craft them and name mobs to their heart’s desire—all it costs is one Paper and any Metal Nugget.</p>
+
+
+
+<p>Check out the full patch notes for Minecraft 26.1 Snapshot 2 below, and leave your thoughts on the changes down in the comments, as well as in the official <a href="https://discord.gg/vwj7zdWxaW" target="_blank" rel="noreferrer noopener">Insider Gaming Discord</a>.</p>
+
+
+
+<h2 id="h-minecraft-26-1-snapshot-2-full-patch-notes">Minecraft 26.1 Snapshot 2 Full Patch Notes</h2>
+
+
+
+<h3>Changes</h3>
+
+
+
+<ul>
+<li>Name Tags are now craftable and can be crafted with 1 Paper and 1 of any Metal Nugget</li>
+
+
+
+<li>Zombie Horses no longer panic when hurt</li>
+
+
+
+<li>Tweaked default JVM options</li>
+
+
+
+<li>Added new baby sounds for Wolf, Cat and Pig</li>
+
+
+
+<li>Revamped the visuals of several baby mobs</li>
+
+
+
+<li>The programmer art rabbit textures have been removed following the re-modelling of the rabbit</li>
+</ul>
+
+
+
+<h4>Baby Mobs</h4>
+
+
+
+<ul>
+<li>Updated the models and textures of the following baby mobs:
+<ul>
+<li>Cow</li>
+
+
+
+<li>Sheep</li>
+
+
+
+<li>Pig</li>
+
+
+
+<li>Cat</li>
+
+
+
+<li>Ocelot</li>
+
+
+
+<li>Mooshroom</li>
+
+
+
+<li>Wolf</li>
+
+
+
+<li>Chicken
+<ul>
+<li>Tweaked the bounding box to align with the new model</li>
+</ul>
+</li>
+
+
+
+<li>Rabbit
+<ul>
+<li>Both adult and baby Rabbits also received new animations</li>
+
+
+
+<li>Tweaked the bounding box to align with the new model</li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+
+<li>Armor on baby Wolves and saddles on baby Pigs will no longer render</li>
+</ul>
+
+
+
+<h4>Default JVM Options</h4>
+
+
+
+<ul>
+<li>The game now allocates 4 GB of RAM by default (up from 2 GB)</li>
+
+
+
+<li>Garbage collection has been changed from G1GC to ZGC for compatible devices</li>
+</ul>
+
+
+
+<h3>Technical Changes</h3>
+
+
+
+<ul>
+<li>The Data Pack version is now 96</li>
+
+
+
+<li>The Resource Pack version is now 77</li>
+</ul>
+
+
+
+<h3>Data Pack Version 96</h3>
+
+
+
+<ul>
+<li>Wolf sound variants sound events in&nbsp;wolf_sound_variant&nbsp;has been moved into a new field&nbsp;adult_sounds&nbsp;and field&nbsp;baby_sounds&nbsp;was added</li>
+</ul>
+
+
+
+<h4>Entity Data</h4>
+
+
+
+<ul>
+<li>The&nbsp;current_explosion_impact_pos&nbsp;and&nbsp;current_impulse_context_reset_grace_time&nbsp;fields from Players have been added to all mobs and the Armor Stand</li>
+
+
+
+<li>The&nbsp;ignore_fall_damage_from_current_explosion&nbsp;field on Players has been removed</li>
+</ul>
+
+
+
+<h4>Item Tags</h4>
+
+
+
+<ul>
+<li>Added&nbsp;#metal_nuggets&nbsp;– Copper, Iron and Gold Nuggets</li>
+</ul>
+
+
+
+<h3>Resource Pack Version 77</h3>
+
+
+
+<h4>Entity Textures</h4>
+
+
+
+<ul>
+<li>Added new entity textures:
+<ul>
+<li>entity/cat/cat_all_black_baby.png</li>
+
+
+
+<li>entity/cat/cat_black_baby.png</li>
+
+
+
+<li>entity/cat/cat_british_shorthair_baby.png</li>
+
+
+
+<li>entity/cat/cat_calico_baby.png</li>
+
+
+
+<li>entity/cat/cat_collar_baby.png</li>
+
+
+
+<li>entity/cat/cat_jellie_baby.png</li>
+
+
+
+<li>entity/cat/ocelot_baby.png</li>
+
+
+
+<li>entity/cat/cat_persian_baby.png</li>
+
+
+
+<li>entity/cat/cat_ragdoll_baby.png</li>
+
+
+
+<li>entity/cat/cat_red_baby.png</li>
+
+
+
+<li>entity/cat/cat_siamese_baby.png</li>
+
+
+
+<li>entity/cat/cat_tabby_baby.png</li>
+
+
+
+<li>entity/cat/cat_white_baby.png</li>
+
+
+
+<li>entity/chicken/chicken_cold_baby.png</li>
+
+
+
+<li>entity/chicken/chicken_temperate_baby.png</li>
+
+
+
+<li>entity/chicken/chicken_warm_baby.png</li>
+
+
+
+<li>entity/cow/cow_cold_baby.png</li>
+
+
+
+<li>entity/cow/cow_temperate_baby.png</li>
+
+
+
+<li>entity/cow/cow_warm_baby.png</li>
+
+
+
+<li>entity/cow/mooshroom_brown_baby.png</li>
+
+
+
+<li>entity/cow/mooshroom_red_baby.png</li>
+
+
+
+<li>entity/pig/pig_cold_baby.png</li>
+
+
+
+<li>entity/pig/pig_temperate_baby.png</li>
+
+
+
+<li>entity/pig/pig_warm_baby.png</li>
+
+
+
+<li>entity/rabbit/rabbit_black.png</li>
+
+
+
+<li>entity/rabbit/rabbit_brown.png</li>
+
+
+
+<li>entity/rabbit/rabbit_caerbannog.png</li>
+
+
+
+<li>entity/rabbit/rabbit_gold.png</li>
+
+
+
+<li>entity/rabbit/rabbit_salt.png</li>
+
+
+
+<li>entity/rabbit/rabbit_toast.png</li>
+
+
+
+<li>entity/rabbit/rabbit_white.png</li>
+
+
+
+<li>entity/rabbit/rabbit_white_splotched.png</li>
+
+
+
+<li>entity/sheep/sheep_baby.png</li>
+
+
+
+<li>entity/sheep/sheep_wool_baby.png</li>
+
+
+
+<li>entity/wolf/wolf_angry_baby.png</li>
+
+
+
+<li>entity/wolf/wolf_ashen_angry_baby.png</li>
+
+
+
+<li>entity/wolf/wolf_ashen_baby.png</li>
+
+
+
+<li>entity/wolf/wolf_ashen_tame_baby.png</li>
+
+
+
+<li>entity/wolf/wolf_baby.png</li>
+
+
+
+<li>entity/wolf/wolf_black_angry_baby.png</li>
+
+
+
+<li>entity/wolf/wolf_black_baby.png</li>
+
+
+
+<li>entity/wolf/wolf_black_tame_baby.png</li>
+
+
+
+<li>entity/wolf/wolf_chestnut_angry_baby.png</li>
+
+
+
+<li>entity/wolf/wolf_chestnut_baby.png</li>
+
+
+
+<li>entity/wolf/wolf_chestnut_tame_baby.png</li>
+
+
+
+<li>entity/wolf/wolf_collar_baby.png</li>
+
+
+
+<li>entity/wolf/wolf_rusty_angry_baby.png</li>
+
+
+
+<li>entity/wolf/wolf_rusty_baby.png</li>
+
+
+
+<li>entity/wolf/wolf_rusty_tame_baby.png</li>
+
+
+
+<li>entity/wolf/wolf_snowy_angry_baby.png</li>
+
+
+
+<li>entity/wolf/wolf_snowy_baby.png</li>
+
+
+
+<li>entity/wolf/wolf_snowy_tame_baby.png</li>
+
+
+
+<li>entity/wolf/wolf_spotted_angry_baby.png</li>
+
+
+
+<li>entity/wolf/wolf_spotted_baby.png</li>
+
+
+
+<li>entity/wolf/wolf_spotted_tame_baby.png</li>
+
+
+
+<li>entity/wolf/wolf_striped_angry_baby.png</li>
+
+
+
+<li>entity/wolf/wolf_striped_baby.png</li>
+
+
+
+<li>entity/wolf/wolf_striped_tame_baby.png</li>
+
+
+
+<li>entity/wolf/wolf_tame_baby.png</li>
+
+
+
+<li>entity/wolf/wolf_woods_angry_baby.png</li>
+
+
+
+<li>entity/wolf/wolf_woods_baby.png</li>
+
+
+
+<li>entity/wolf/wolf_woods_tame_baby.png</li>
+</ul>
+</li>
+
+
+
+<li>Renamed the following entity textures:
+<ul>
+<li>entity/armorstand/wood.png&nbsp;-&gt;&nbsp;entity/armorstand/armorstand.png</li>
+
+
+
+<li>entity/cat/all_black.png&nbsp;-&gt;&nbsp;entity/cat/cat_all_black.png</li>
+
+
+
+<li>entity/cat/black.png&nbsp;-&gt;&nbsp;entity/cat/cat_black.png</li>
+
+
+
+<li>entity/cat/british_shorthair.png&nbsp;-&gt;&nbsp;entity/cat/cat_british_shorthair.png</li>
+
+
+
+<li>entity/cat/calico.png&nbsp;-&gt;&nbsp;entity/cat/cat_calico.png</li>
+
+
+
+<li>entity/cat/jellie.png&nbsp;-&gt;&nbsp;entity/cat/cat_jellie.png</li>
+
+
+
+<li>entity/cat/persian.png&nbsp;-&gt;&nbsp;entity/cat/cat_persian.png</li>
+
+
+
+<li>entity/cat/ragdoll.png&nbsp;-&gt;&nbsp;entity/cat/cat_ragdoll.png</li>
+
+
+
+<li>entity/cat/red.png&nbsp;-&gt;&nbsp;entity/cat/cat_red.png</li>
+
+
+
+<li>entity/cat/siamese.png&nbsp;-&gt;&nbsp;entity/cat/cat_siamese.png</li>
+
+
+
+<li>entity/cat/tabby.png&nbsp;-&gt;&nbsp;entity/cat/cat_tabby.png</li>
+
+
+
+<li>entity/cat/white.png&nbsp;-&gt;&nbsp;entity/cat/cat_white.png</li>
+
+
+
+<li>entity/chicken/cold_chicken.png&nbsp;-&gt;&nbsp;entity/chicken/chicken_cold.png</li>
+
+
+
+<li>entity/chicken/temperate_chicken.png&nbsp;-&gt;&nbsp;entity/chicken/chicken_temperate.png</li>
+
+
+
+<li>entity/chicken/warm_chicken.png&nbsp;-&gt;&nbsp;entity/chicken/chicken_warm.png</li>
+
+
+
+<li>entity/copper_golem/exposed_copper_golem.png&nbsp;-&gt;&nbsp;entity/copper_golem/copper_golem_exposed.png</li>
+
+
+
+<li>entity/copper_golem/exposed_copper_golem_eyes.png&nbsp;-&gt;&nbsp;entity/copper_golem/copper_golem_eyes_exposed.png</li>
+
+
+
+<li>entity/copper_golem/oxidized_copper_golem_eyes.png&nbsp;-&gt;&nbsp;entity/copper_golem/copper_golem_eyes_oxidized.png</li>
+
+
+
+<li>entity/copper_golem/weathered_copper_golem_eyes.png&nbsp;-&gt;&nbsp;entity/copper_golem/copper_golem_eyes_weathered.png</li>
+
+
+
+<li>entity/copper_golem/oxidized_copper_golem.png&nbsp;-&gt;&nbsp;entity/copper_golem/copper_golem_oxidized.png</li>
+
+
+
+<li>entity/copper_golem/weathered_copper_golem.png&nbsp;-&gt;&nbsp;entity/copper_golem/copper_golem_weathered.png</li>
+
+
+
+<li>entity/cow/cold_cow.png&nbsp;-&gt;&nbsp;entity/cow/cow_cold.png</li>
+
+
+
+<li>entity/cow/temperate_cow.png&nbsp;-&gt;&nbsp;entity/cow/cow_temperate.png</li>
+
+
+
+<li>entity/cow/warm_cow.png&nbsp;-&gt;&nbsp;entity/cow/cow_warm.png</li>
+
+
+
+<li>entity/cow/brown_mooshroom.png&nbsp;-&gt;&nbsp;entity/cow/mooshroom_brown.png</li>
+
+
+
+<li>entity/cow/red_mooshroom.png&nbsp;-&gt;&nbsp;entity/cow/mooshroom_red.png</li>
+
+
+
+<li>entity/fox/snow_fox.png&nbsp;-&gt;&nbsp;entity/fox/fox_snow.png</li>
+
+
+
+<li>entity/fox/snow_fox_sleep.png&nbsp;-&gt;&nbsp;entity/fox/fox_snow_sleep.png</li>
+
+
+
+<li>entity/frog/cold_frog.png&nbsp;-&gt;&nbsp;entity/frog/frog_cold.png</li>
+
+
+
+<li>entity/frog/temperate_frog.png&nbsp;-&gt;&nbsp;entity/frog/frog_temperate.png</li>
+
+
+
+<li>entity/frog/warm_frog.png&nbsp;-&gt;&nbsp;entity/frog/frog_warm.png</li>
+
+
+
+<li>entity/llama/brown.png&nbsp;-&gt;&nbsp;entity/llama/llama_brown.png</li>
+
+
+
+<li>entity/llama/creamy.png&nbsp;-&gt;&nbsp;entity/llama/llama_creamy.png</li>
+
+
+
+<li>entity/llama/gray.png&nbsp;-&gt;&nbsp;entity/llama/llama_gray.png</li>
+
+
+
+<li>entity/llama/spit.png&nbsp;-&gt;&nbsp;entity/llama/llama_spit.png</li>
+
+
+
+<li>entity/llama/white.png&nbsp;-&gt;&nbsp;entity/llama/llama_white.png</li>
+
+
+
+<li>entity/panda/aggressive_panda.png&nbsp;-&gt;&nbsp;entity/panda/panda_aggressive.png</li>
+
+
+
+<li>entity/panda/brown_panda.png&nbsp;-&gt;&nbsp;entity/panda/panda_brown.png</li>
+
+
+
+<li>entity/panda/lazy_panda.png&nbsp;-&gt;&nbsp;entity/panda/panda_lazy.png</li>
+
+
+
+<li>entity/panda/playful_panda.png&nbsp;-&gt;&nbsp;entity/panda/panda_playful.png</li>
+
+
+
+<li>entity/panda/weak_panda.png&nbsp;-&gt;&nbsp;entity/panda/panda_weak.png</li>
+
+
+
+<li>entity/panda/worried_panda.png&nbsp;-&gt;&nbsp;entity/panda/panda_worried.png</li>
+
+
+
+<li>entity/pig/cold_pig.png&nbsp;-&gt;&nbsp;entity/pig/pig_cold.png</li>
+
+
+
+<li>entity/pig/temperate_pig.png&nbsp;-&gt;&nbsp;entity/pig/pig_temperate.png</li>
+
+
+
+<li>entity/pig/warm_pig.png&nbsp;-&gt;&nbsp;entity/pig/pig_warm.png</li>
+
+
+
+<li>entity/projectiles/spectral.png&nbsp;-&gt;&nbsp;entity/projectiles/arrow_spectral.png</li>
+
+
+
+<li>entity/projectiles/tipped.png&nbsp;-&gt;&nbsp;entity/projectiles/arrow_tipped.png</li>
+
+
+
+<li>entity/turtle/big_sea_turtle.png&nbsp;-&gt;&nbsp;entity/turtle/turtle.png</li>
+</ul>
+</li>
+
+
+
+<li>Moved the following entity textures:
+<ul>
+<li>entity/armadillo.png&nbsp;-&gt;&nbsp;entity/armadillo/armadillo.png</li>
+
+
+
+<li>entity/banner_base.png&nbsp;-&gt;&nbsp;entity/banner/banner_base.png</li>
+
+
+
+<li>entity/bat.png&nbsp;-&gt;&nbsp;entity/bat/bat.png</li>
+
+
+
+<li>entity/beacon_beam.png&nbsp;-&gt;&nbsp;entity/beacon/beacon_beam.png</li>
+
+
+
+<li>entity/blaze.png&nbsp;-&gt;&nbsp;entity/blaze/blaze.png</li>
+
+
+
+<li>entity/dolphin.png&nbsp;-&gt;&nbsp;entity/dolphin/dolphin.png</li>
+
+
+
+<li>entity/enchanting_table_book.png&nbsp;-&gt;&nbsp;entity/enchantment/enchanting_table_book.png</li>
+
+
+
+<li>entity/end_gateway_beam.png&nbsp;-&gt;&nbsp;entity/end_portal/end_gateway_beam.png</li>
+
+
+
+<li>entity/end_portal.png&nbsp;-&gt;&nbsp;entity/end_portal/end_portal.png</li>
+
+
+
+<li>entity/endermite.png&nbsp;-&gt;&nbsp;entity/endermite/endermite.png</li>
+
+
+
+<li>entity/experience_orb.png&nbsp;-&gt;&nbsp;entity/experience/experience_orb.png</li>
+
+
+
+<li>entity/fishing_hook.png&nbsp;-&gt;&nbsp;entity/fishing/fishing_hook.png</li>
+
+
+
+<li>entity/guardian.png&nbsp;-&gt;&nbsp;entity/guardian/guardian.png</li>
+
+
+
+<li>entity/guardian_beam.png&nbsp;-&gt;&nbsp;entity/guardian/guardian_beam.png</li>
+
+
+
+<li>entity/guardian_elder.png&nbsp;-&gt;&nbsp;entity/guardian/guardian_elder.png</li>
+
+
+
+<li>entity/lead_knot.png&nbsp;-&gt;&nbsp;entity/lead_knot/lead_knot.png</li>
+
+
+
+<li>entity/minecart.png&nbsp;-&gt;&nbsp;entity/minecart/minecart.png</li>
+
+
+
+<li>entity/phantom.png&nbsp;-&gt;&nbsp;entity/phantom/phantom.png</li>
+
+
+
+<li>entity/phantom_eyes.png&nbsp;-&gt;&nbsp;entity/phantom/phantom_eyes.png</li>
+
+
+
+<li>entity/shield_base.png&nbsp;-&gt;&nbsp;entity/shield/shield_base.png</li>
+
+
+
+<li>entity/shield_base_nopattern.png&nbsp;-&gt;&nbsp;entity/shield/shield_base_nopattern.png</li>
+
+
+
+<li>entity/silverfish.png&nbsp;-&gt;&nbsp;entity/silverfish/silverfish.png</li>
+
+
+
+<li>entity/snow_golem.png&nbsp;-&gt;&nbsp;entity/snow_golem/snow_golem.png</li>
+
+
+
+<li>entity/spider_eyes.png&nbsp;-&gt;&nbsp;entity/spider/spider_eyes.png</li>
+
+
+
+<li>entity/trident.png&nbsp;-&gt;&nbsp;entity/trident/trident.png</li>
+
+
+
+<li>entity/trident_riptide.png&nbsp;-&gt;&nbsp;entity/trident/trident_riptide.png</li>
+
+
+
+<li>entity/wandering_trader.png&nbsp;-&gt;&nbsp;entity/wandering_trader/wandering_trader.png</li>
+
+
+
+<li>entity/witch.png&nbsp;-&gt;&nbsp;entity/witch/witch.png</li>
+</ul>
+</li>
+</ul>
+
+
+
+<h4>Sounds</h4>
+
+
+
+<ul>
+<li>Added new sound events for the Cat:
+<ul>
+<li>entity.baby_cat.ambient</li>
+
+
+
+<li>entity.baby_cat.hiss</li>
+
+
+
+<li>entity.baby_cat.hurt</li>
+
+
+
+<li>entity.baby_cat.death</li>
+
+
+
+<li>entity.baby_cat.eat</li>
+
+
+
+<li>entity.baby_cat.beg_for_food</li>
+
+
+
+<li>entity.baby_cat.purr</li>
+
+
+
+<li>entity.baby_cat.purreow</li>
+
+
+
+<li>entity.baby_cat.stray_ambient</li>
+</ul>
+</li>
+
+
+
+<li>Added new sound events for the Pig:
+<ul>
+<li>entity.baby_pig.ambient</li>
+
+
+
+<li>entity.baby_pig.hurt</li>
+
+
+
+<li>entity.baby_pig.death</li>
+
+
+
+<li>entity.baby_pig.step</li>
+</ul>
+</li>
+
+
+
+<li>Added new sound events for the Wolf:
+<ul>
+<li>entity.baby_wolf.ambient</li>
+
+
+
+<li>entity.baby_wolf.growl</li>
+
+
+
+<li>entity.baby_wolf.death</li>
+
+
+
+<li>entity.baby_wolf.hurt</li>
+
+
+
+<li>entity.baby_wolf.pant</li>
+
+
+
+<li>entity.baby_wolf.whine</li>
+
+
+
+<li>entity.baby_wolf.step</li>
+</ul>
+</li>
+</ul>
+
+
+
+<h3>Fixed bugs in 26.1 Snapshot 2</h3>
+
+
+
+<ul>
+<li>MC-302734&nbsp;– Zombie horses constantly move in and out of water and burn to death</li>
+
+
+
+<li>MC-304361&nbsp;– The heads of zombie nautiluses have a massive empty gap on the back</li>
+
+
+
+<li>MC-304705&nbsp;– The E value in entity_render_stats in the debug overlay doesn’t work</li>
+
+
+
+<li>MC-304761&nbsp;– Spears’ charge animation takes too long to rotate sideways for slower spears</li>
+
+
+
+<li>MC-305040&nbsp;– Nautili spawned as a result of a player breeding two other nautili can despawn</li>
+
+
+
+<li>MC-305104&nbsp;– The “Programmer Art” and “High Contrast” resource packs are listed as incompatible</li>
+
+
+
+<li>MC-305121&nbsp;– Some expert level mason trades no longer generate</li>
+
+
+
+<li>MC-305130&nbsp;– Farmers sell suspicious stews with 20 times the intended duration</li>
+
+
+
+<li>MC-305131&nbsp;– Duplicate trade entries in journeyman level shepherd trades</li>
+
+
+
+<li>MC-305132&nbsp;– Master level fletchers can now sell tipped arrows of thick, mundane, and awkward potions</li>
+
+
+
+<li>MC-305164&nbsp;– Armorers now buy diamonds at expert level instead of journeyman</li>
+
+
+
+<li>MC-305175&nbsp;– The Lunge enchantment now works at 6 hunger and above, instead of 7</li>
+
+
+
+<li>MC-305279&nbsp;– Expert cleric sells glowstone instead of ender pearl</li>
+</ul>
+
+
+
+<hr>
+
+
+
+<p>For more Insider Gaming news, check out <a href="https://insider-gaming.com/fallout-new-vegas-remake-coming-claimed/" target="_blank" rel="noreferrer noopener">the claims that a Fallout: New Vegas Remake is on the way</a>, as well as <a href="https://insider-gaming.com/new-wolfenstein-game-on-the-way/" target="_blank" rel="noreferrer noopener">the rumours that a new Wolfenstein could be in the works</a>.</p>
+    
+
+    <div id="ig-app-cta">
+          <p><i></i> MOBILE APP</p>
+          <h2>Level Up Your Gaming News</h2>
+          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
+          
+          <p><i></i> Available on iOS &amp; Android</p>
+        <!-- <div class="ig-note"><i class="fa-solid fa-bolt"></i> Available on Android</div> -->
+
+        </div>
+
+    
+    
+    </div>
+
+</article><div id="post-container">
+            
+                    <div>
+                        <a href="https://insider-gaming.com/new-wolfenstein-game-on-the-way/">
+                            
+                        </a>
+
+                        <h2>
+                            <a href="https://insider-gaming.com/new-wolfenstein-game-on-the-way/">
+                                A New Wolfenstein Game Could Be On The Way                            </a>
+                        </h2>
+
+                        <p>According to a new report, a new Wolfenstein game could be on the way to coincide with the upcoming Amazon TV show.</p>
+                    </div>
+
+                    
+                    <div>
+                        <a href="https://insider-gaming.com/playstation-reveals-hyperpop-collection-for-controllers-and-console-covers/">
+                            
+                        </a>
+
+                        <h2>
+                            <a href="https://insider-gaming.com/playstation-reveals-hyperpop-collection-for-controllers-and-console-covers/">
+                                PlayStation Reveals Hyperpop Collection For Controllers and Console Covers                            </a>
+                        </h2>
+
+                        <p>PlayStation’s Hyperpop collection introduces brand-new neon colourways for DualSense controllers and console covers. </p>
+                    </div>
+
+                    
+                    <div>
+                        <a href="https://insider-gaming.com/id-software-could-be-returning-to-quake/">
+                            
+                        </a>
+
+                        <h2>
+                            <a href="https://insider-gaming.com/id-software-could-be-returning-to-quake/">
+                                ID Software Could Be Returning To Quake                            </a>
+                        </h2>
+
+                        <p>According to new rumours, ID Software could be considering a return to the Quake series. Here are more details.</p>
+                    </div>
+
+                    
+                    <div>
+                        <a href="https://insider-gaming.com/next-xbox-will-reportedly-feature-full-bore-windows/">
+                            
+                        </a>
+
+                        <h2>
+                            <a href="https://insider-gaming.com/next-xbox-will-reportedly-feature-full-bore-windows/">
+                                Next Xbox Will Reportedly Feature ‘Full Bore Windows’                            </a>
+                        </h2>
+
+                        <p>Next Xbox will reportedly run “full bore Windows” with the ‘Full Screen Experience’ already available on the app. </p>
+                    </div>
+
+                                                    </div></div><br/><br/>https://insider-gaming.com/minecraft-26-1-snapshot-2-retextures-baby-mobs-more/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[PlayStation Reveals Hyperpop Collection For Controllers and Console Covers]]></title>
+            <link>https://insider-gaming.com/playstation-reveals-hyperpop-collection-for-controllers-and-console-covers/</link>
+            <guid>1399609</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+        
+<p>PlayStation has just revealed a new collection of Hyperpop DualSense controllers and PS5 console covers, featuring three colourways.</p>
+
+
+
+<p>It is finally time for PlayStation players to add some new colours to their lives, and the three new designs really know how to stand out. It has been quite some time since we received a new collection of PS5 accessories, and a brand-new colourway after the Chroma and Metallic collections was long overdue.</p>
+
+
+
+
+
+
+
+<h2 id="h-playstation-hyperpop-collection-releases-in-march-2026">PlayStation Hyperpop Collection Releases in March 2026</h2>
+
+
+
+<p>PlayStation’s Hyperpop Collection adds three new colourways to the DualSense controllers and PS5 console covers. These are Techno Red, Remix Green, and Rhythm Blue. All three colourways follow a similar aesthetic, starting with a glossy black and shifting into vivid neons of their respective colours. Check out the gallery below to see the Hyperpop Collection DualSense controllers and PS5 console covers: </p>
+
+
+
+<figure>
+<figure></figure>
+
+
+
+<figure></figure>
+
+
+
+<figure></figure>
+
+
+
+<figure></figure>
+
+
+
+<figure></figure>
+
+
+
+<figure></figure>
+</figure>
+
+
+
+<p>The Hyperpop DualSense controllers have been priced at $84.99 USD/¥12,480/€84.99/£74.99, respectively, and the matching console covers can be purchased for $74.99 USD/¥11,480/€74.99/£64.99. The console covers are available in limited quantities and will only be released in <a href="https://blog.playstation.com/2026/01/07/revealing-the-hyperpop-collection-with-three-new-designs-for-ps5-accessories-launching-this-march/" target="_blank" rel="noreferrer noopener nofollow">select markets</a>. Players can start pre-ordering the collection from January 16, 2026, at 10 AM Local Time, on <a href="https://direct.playstation.com/" target="_blank" rel="noreferrer noopener nofollow">direct.playstation.com</a>&nbsp;and participating retailers. The Hyperpop collection will be released on March 12, 2026.</p>
+
+
+
+<figure><p>
+<iframe loading="lazy" title="HYPERPOP Collection | PS5 &amp; PC" width="500" height="281" src="https://www.youtube.com/embed/o2eYfvciS_E?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+
+
+
+
+<p>In other news, rumours about DualSense V3 featuring <a href="https://insider-gaming.com/dualsense-v3-battery/" target="_blank" rel="noreferrer noopener">a removable battery have been debunked</a>. Additionally, PlayStation was recently seen promoting a <a href="https://insider-gaming.com/playstation-promote-resident-evil-rip-off-ebola-village/" target="_blank" rel="noreferrer noopener">Resident Evil rip-off</a>, “Ebola Village”. What are your thoughts on PlayStation’s new Hyperpop collection? Leave your thoughts down in the comments, and join the official&nbsp;<a href="https://discord.com/invite/vwj7zdWxaW" target="_blank" rel="noreferrer noopener">Insider Gaming Discord server</a>.</p>
+
+
+
+<hr>
+
+
+
+<p>For more information from Insider Gaming, read about <a href="https://insider-gaming.com/id-software-could-be-returning-to-quake/" target="_blank" rel="noreferrer noopener">ID Software seemingly returning to Quake.</a>&nbsp;Don’t forget to&nbsp;<a href="https://insider-gaming.com/subscribe" target="_blank" rel="noreferrer noopener">sign up for our weekly newsletter</a>.</p>
+    
+
+    <div id="ig-app-cta">
+          <p><i></i> MOBILE APP</p>
+          <h2>Level Up Your Gaming News</h2>
+          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
+          
+          <p><i></i> Available on iOS &amp; Android</p>
+        <!-- <div class="ig-note"><i class="fa-solid fa-bolt"></i> Available on Android</div> -->
+
+        </div>
+
+    
+    
+    </div></div><br/><br/>https://insider-gaming.com/playstation-reveals-hyperpop-collection-for-controllers-and-console-covers/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[ID Software Could Be Returning To Quake]]></title>
             <link>https://insider-gaming.com/id-software-could-be-returning-to-quake/</link>
@@ -201,216 +1296,6 @@
     
     
     </div></div><br/><br/>https://insider-gaming.com/ubisoft-closes-halifax-studio-employees-unionized/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[New StarCraft Shooter Likely To Be Revealed At BlizzCon 2026]]></title>
-            <link>https://insider-gaming.com/new-starcraft-shooter-revealed-blizzcon-2026/</link>
-            <guid>1399444</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-        
-<p>The long-rumored StarCraft shooter looks set to be revealed this year. </p>
-
-
-
-<p>According to a new report from <a href="https://www.windowscentral.com/gaming/xbox/xbox-in-2026-what-to-expect-from-team-green-this-year-and-beyond" target="_blank" rel="noreferrer noopener nofollow">Jez Corden at Windows Central</a>, the StarCraft third-person shooter is “likely” to be revealed at BlizzCon 2026 in September.</p>
-
-
-
-
-
-
-
-<p>“The headline for BlizzCon 2026 is most likely going to be&nbsp;StarCraft,” Corden writes. “It was&nbsp;previously reported that StarCraft is getting the third-person shooter treatment, and I confirmed these rumors true via my own sources a while back.”</p>
-
-
-
-<p>As mentioned, rumors of this new game are nothing new. As far back as September 2024, <a href="https://insider-gaming.com/new-starcraft-shooter-in-development-at-blizzard/" target="_blank" rel="noreferrer noopener">Insider Gaming reported</a> on this new title, which first came from Jason Schreier. It was mentioned as being in development in his latest book&nbsp;<a href="https://www.hachettebookgroup.com/titles/jason-schreier/play-nice/9781538725429/" target="_blank" rel="noreferrer noopener">Play Nice: The Rise, Fall, and Future Of Blizzard Entertainment</a>, and former Far Cry head Dan Hay was leading the team.</p>
-
-
-
-<p>No other details about this game are known at this point, but to hear it’s still moving forward has to be excited for fans of the franchise. Of course, this isn’t the first time Blizzard is attempting a shooter based on the StarCraft franchise. </p>
-
-
-
-
-
-
-
-<p>Back in 2002, Blizzard announced StarCraft: Ghost, a stealth-action shooter. Eventually, the game was put on an “indefinite hold” in March 2006 before being canceled. </p>
-
-
-
-<p>Overall, there hasn’t been a new release in the StarCraft universe since StarCraft: Remastered in 2017. The last new original release was StarCraft 2 in 2010.</p>
-
-
-
-<p>What do you think of a new StarCraft shooter potentially being revealed at BlizzCon 2026? Leave your thoughts down in the comments and join the discussion in the&nbsp;<a href="https://discord.com/invite/vwj7zdWxaW" target="_blank" rel="noreferrer noopener">Insider Gaming Discord server</a>.</p>
-
-
-
-<hr>
-
-
-
-<p>For more Insider Gaming, check out the&nbsp;<a href="https://insider-gaming.com/007-first-light-pc-specs/" target="_blank" rel="noreferrer noopener">PC specs for 007 First Light</a>&nbsp;from IO Interactive. And don’t forget to&nbsp;<a href="https://insider-gaming.com/subscribe" target="_blank" rel="noreferrer noopener">sign up for our weekly newsletter</a>.</p>
-    
-
-    <div id="ig-app-cta">
-          <p><i></i> MOBILE APP</p>
-          <h2>Level Up Your Gaming News</h2>
-          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
-          
-          <p><i></i> Available on iOS &amp; Android</p>
-        <!-- <div class="ig-note"><i class="fa-solid fa-bolt"></i> Available on Android</div> -->
-
-        </div>
-
-    
-    
-    </div></div><br/><br/>https://insider-gaming.com/new-starcraft-shooter-revealed-blizzcon-2026/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Mysterious Fallout Countdown Isn’t Related to Fallout 3 Remake, It’s Claimed]]></title>
-            <link>https://insider-gaming.com/fallout-3-remake-not-linked-to-mysterious-countdown/</link>
-            <guid>1399441</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-        
-<p>If you’re at all invested in the Fallout space, you’ll have heard about the ‘mysterious countdown’ that’s running on the Amazon Prime platform. It’s set to expire when the last episode of the Fallout TV show’s second season drops on February 4. From the moment the countdown popped up, fans have believed it to be counting down to a reveal of the Fallout 3 remake.</p>
-
-
-
-<p>However, a new report from a notable source has suggested this <strong>is not the case</strong>. It’s not counting down to a shadow drop or announcement of the Fallout 3 remake, <strong>but </strong>the project <strong>is </strong>on the way.</p>
-
-
-
-
-
-
-
-<h2 id="h-fallout-3-remake-is-coming-but-nobody-knows-when">Fallout 3 Remake is Coming, But Nobody Knows When</h2>
-
-
-
-<p>In a new and extensive report from Windows Central, the future of Xbox and the many studios under the gaming titan’s banner was explored. It’s a huge year for ‘Team Green’, and several high-profile anniversaries promise some sizeable announcements should be lined up.</p>
-
-
-
-<p>Fans of the post-apocalyptic series from Bethesda Game Studios have been expecting a reveal of the Fallout 3 remake for quite some time. However, despite references to the project being found in documents some years ago, <strong>nothing concrete </strong>has been announced by the studio.</p>
-
-
-
-<p>That might be about to change soon, but what’s suspected to be the biggest indicator of an impending announcement has been <strong>debunked</strong>.</p>
-
-
-
-<p>In Jez Corden’s <a href="https://www.windowscentral.com/gaming/xbox/xbox-in-2026-what-to-expect-from-team-green-this-year-and-beyond" target="_blank" rel="noreferrer noopener nofollow">recent supersized breakdown</a> of what’s coming in the Xbox space, the insider stressed that the Fallout countdown running on the Amazon Prime site is <strong>not </strong>related to a Fallout 3 remake announcement.</p>
-
-
-
-<p>He wrote:</p>
-
-
-
-<blockquote>
-<p>I’m told this is not the case. However, we are&nbsp;<em>eventually&nbsp;</em>getting a Fallout 3 remake in the vein of&nbsp;Elder Scrolls IV: Oblivion Remastered.</p>
-</blockquote>
-
-
-
-<p>It’s not clear when Bethesda Game Studios plans to announce the Fallout 3 remake, but at this point, it’s almost guaranteed that it’ll be unveiled soon. In the last couple of years, the Fallout TV show, updates to Fallout 4, and the ongoing expansion of Fallout 76 have all combined to push franchise sentiments sky-high.</p>
-
-
-
-
-
-
-
-<p>Are you eager to get your hands on a Fallout 3 remake? Let us know what you’re thinking on the <a href="https://discord.com/invite/vwj7zdWxaW">Insider Gaming Discord server</a>.</p>
-
-
-
-<hr>
-
-
-
-<p>For more Insider Gaming coverage, check out why <a href="https://insider-gaming.com/arc-raiders-ditched-free-to-play-because-of-helldivers-2/">ARC Raiders chose to ditch free-to-play</a></p>
-    
-
-    <div id="ig-app-cta">
-          <p><i></i> MOBILE APP</p>
-          <h2>Level Up Your Gaming News</h2>
-          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
-          
-          <p><i></i> Available on iOS &amp; Android</p>
-        <!-- <div class="ig-note"><i class="fa-solid fa-bolt"></i> Available on Android</div> -->
-
-        </div>
-
-    
-    
-    </div></div><br/><br/>https://insider-gaming.com/fallout-3-remake-not-linked-to-mysterious-countdown/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Dragon Quest 7 Reimagined Demo Available Now]]></title>
-            <link>https://insider-gaming.com/dragon-quest-7-reimagined-demo-available-now/</link>
-            <guid>1399438</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-        
-<p>Square Enix’s latest JRPG, Dragon Quest 7 Reimagined, has a demo available now, letting players check out the game’s beginning for free. </p>
-
-
-
-<p>Dragon Quest 7 Reimagined is a remake of the 2000 title, now featuring diorama visuals, updated gameplay mechanics, and a streamlined story. The game is set to release for PlayStation 5, Xbox Series X/S, PC, Switch, and Switch 2 on February 5, 2026, and players can try out the game’s demo for free ahead of that. </p>
-
-
-
-
-
-
-
-<h2 id="h-dragon-quest-7-reimagined-demo-s-save-data-can-be-carried-over-to-the-full-version">Dragon Quest 7 Reimagined Demo’s Save Data Can Be Carried Over to the Full Version</h2>
-
-
-
-<p>The demo for Dragon Quest 7 Reimagined is available <a href="https://store.playstation.com/en-us/product/UP0082-PPSA17945_00-DQ7RE0000000DEMO" target="_blank" rel="noreferrer noopener nofollow">now</a>, and players can dive into the experience at the beginning of the title. The demo ends after completing the Ballymolloy storylune, which is the first world the party will visit. Your progress from this demo can be carried over to the full version of the game, and there’s also a demo bonus, “Day Off Dress,” which is an “appearance-changing outfit for Maribel”. </p>
-
-
-
-<p>Carrying over the save data will require players to access Dragon Quest 7 Reimagined’s Demo and the full version of the game from the same account. There is also a cap on character level, vocation proficiency, and gold coins players can acquire. The demo gift is available only in the full version of the game and can be acquired through the “Claim Special Rewards” menu. </p>
-
-
-
-
-
-
-
-<p>In other news, Square Enix laid off a <a href="https://insider-gaming.com/square-enix-set-to-cut-over-100-jobs-in-mass-layoffs/" target="_blank" rel="noreferrer noopener">massive number of people</a> late last year. Additionally, the development studio <a href="https://insider-gaming.com/square-enix-wants-ai-to-handle-70-of-qa-within-two-years/" target="_blank" rel="noreferrer noopener">aims to have AI handle at least 70% of its QA</a> and debugging on projects by the end of 2027. Will you be trying out the Dragon Quest 7 Reimagined Demo? Leave your thoughts down in the comments, and join the official&nbsp;<a href="https://discord.com/invite/vwj7zdWxaW" target="_blank" rel="noreferrer noopener">Insider Gaming Discord server</a>.</p>
-
-
-
-<hr>
-
-
-
-<p>For more information from Insider Gaming, read about <a href="https://insider-gaming.com/the-last-of-us-actor-says-we-shouldnt-demonize-ai/" target="_blank" rel="noreferrer noopener">The Last of Us actor stating that we shouldn’t “demonize” AI and that it could help people seek more authentic experiences</a>.&nbsp;Don’t forget to&nbsp;<a href="https://insider-gaming.com/subscribe" target="_blank" rel="noreferrer noopener">sign up for our weekly newsletter</a>.</p>
-    
-
-    <div id="ig-app-cta">
-          <p><i></i> MOBILE APP</p>
-          <h2>Level Up Your Gaming News</h2>
-          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
-          
-          <p><i></i> Available on iOS &amp; Android</p>
-        <!-- <div class="ig-note"><i class="fa-solid fa-bolt"></i> Available on Android</div> -->
-
-        </div>
-
-    
-    
-    </div></div><br/><br/>https://insider-gaming.com/dragon-quest-7-reimagined-demo-available-now/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
