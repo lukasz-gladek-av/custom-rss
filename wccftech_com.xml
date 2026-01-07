@@ -4,7 +4,7 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Wed, 07 Jan 2026 22:40:56 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 Jan 2026 23:16:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -592,82 +592,6 @@
 			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
 
 		</div></div><br/><br/>https://wccftech.com/third-person-starcraft-shooter-will-reportedly-be-unveiled-at-blizzcon-2026/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[CES 2026 Demo Footage of NVIDIA DLSS 4.5 Dynamic Multi Frame Generation]]></title>
-            <link>https://wccftech.com/ces-2026-demo-footage-nvidia-dlss-4-5-dynamic-multi-frame-generation/</link>
-            <guid>1399855</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			
-			<p><strong>NVIDIA DLSS 4.5 Dynamic Multi Frame Generation</strong> was undoubtedly the <a href="https://wccftech.com/nvidia-dlss-4-5-6x-mfg-240hz-gaming-400-games-available-on-all-rtx-gpus/" target="_blank" rel="noreferrer noopener">biggest gaming-related announcement</a> made by the world's largest company (by market cap) at <strong>CES 2026</strong>.</p>
-
-
-
-<p>After years of trailing behind NVIDIA in the upscaling department, AMD finally delivered a worthy competitor with <strong>FidelityFX Super Resolution (FSR) 4</strong> in 2025, with the year ending on a high note <a href="https://wccftech.com/amd-fsr-redstone-official-200-games-supported-3x-performance-boost-available-now/" target="_blank" rel="noreferrer noopener">thanks to the <strong>Redstone</strong> update</a> that injected FSR with a machine learning algorithm, as well as delivering an improved <strong>Frame Generation</strong> algorithm and the brand new <strong>Ray Regeneration</strong> (an analog to NVIDIA's <strong>DLSS Ray Reconstruction</strong>) and <strong>Radiance Caching</strong> (seemingly similar to NVIDIA's <strong>Neural Radiance Cache</strong>, although it is not yet ready for release, <a href="https://wccftech.com/fsr-radiance-caching-requires-further-development-optimization-is-not-currently-planned-release-darktide/" target="_blank" rel="noreferrer noopener">as confirmed by the developers of Warhammer 40,000: Darktide</a>).</p>
-
-
-
-<p>Less than a month later, NVIDIA answered in kind with the release of its <strong>second-generation transformer model</strong> for the DLSS Super Resolution upscaling algorithm. NVIDIA DLSS 4.5 has been trained on a much larger and higher-fidelity dataset, and as such, utilizes five times the compute power; that's why the initial tests have shown older <strong>GeForce RTX</strong> graphics cards struggling with it.</p>
-
-
-
-<p>Luckily, those PC users can still use the older models, either the CNN one or the first-gen transformer model, which run games noticeably faster. NVIDIA DLSS 4.5 is not really about increased speed - that's what Dynamic Multi Frame Generation helps with, but more on that later - <strong>it is instead about delivering the highest possible quality</strong>. This model demonstrates its power through a deeper understanding of game scenes and a more intelligent use of game engine pixel sampling and motion data, delivering output images with improved lighting, sharper visuals (<a href="https://wccftech.com/nvidia-dlss-4-5-in-quality-mode-delivers-better-image-quality-than-native-resolution-in-red-dead-redemption-2/" target="_blank" rel="noreferrer noopener">as demonstrated in an early <strong>Red Dead Redemption 2</strong> comparison</a>), and enhanced motion clarity.</p>
-
-
-
-<p>We had our very own CEO, Abdullah Saad, attending CES 2026 and checking out the various NVIDIA DLSS 4.5 demos available at the booth. He was particularly impressed by the lighting improvement delivered by the new transformer model in the game <strong>Black Myth: Wukong</strong>, and the NVIDIA rep explained:</p>
-
-
-
-<p><em>There's a very technical reason for that. The engine does the math in what's called physical space, which is like how the physics actually operates. It's not thinking in terms of gamma and stuff like that. It's thinking basically in real life math, like the light goes here, this light is at this amount of nits, and then at some point down the pipeline, it gets tone-mapped and ported to your display. The older DLSS, preset K, is accumulating the data at the end of that, so after tone mapping. It's losing some of that data, the highlights for example, and it's accumulating on that. TAA (Temporal AntiAliasing) can also have that problem, but here we move the new one closer to the engine so it's seeing more of what the engine is trying to show as far as the lighting goes, so it's losing less of that highlight detail.</em></p>
-
-
-
-<p>In more technical terms, the previous upscaling algorithm worked in logarithmic space to mitigate flickering, but resulted in muted lighting, clipped details, and crushed shadows in high-contrast scenes. Now, DLSS 4.5 Super Resolution trains and infers directly in linear space, the same space used by games, and is thus capable of allowing glowing neon signs and bright reflections to retain their full color range and detail. This could be an indirect been to <strong><a href="https://wccftech.com/the-hdr-gaming-interview-veteran-developer-explains-its-sad-state-and-how-hes-coming-to-its-rescue/" target="_blank" rel="noreferrer noopener">HDR gaming</a></strong> under NVIDIA DLSS 4.5.</p>
-
-
-
-<figure><p>
-<iframe title="CES 2026 NVIDIA DLSS Demo" width="500" height="281" src="https://www.youtube.com/embed/wCK3xUwnbmQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-</p></figure>
-
-
-
-<p>The other half of the NVIDIA DLSS 4.5 announcement, Dynamic Multi Frame Generation, won't be available publicly before Spring 2026, but it could be tested at the NVIDIA CES 2026 booth. Beyond unlocking <strong>6X mode</strong> (five additional frames rendered apart from the real one), the update will also introduce <strong>an intelligent system capable of targeting your specific display's maximum refresh rate</strong>. </p>
-
-
-
-<p>In the CES 2026 demo (featuring <strong>Obsidian's The Outer Worlds 2</strong> game), the system was shown targeting the 240Hz of the 1440p display on hand. The NVIDIA rep stated:</p>
-
-
-
-<p><em>If you went to a scene where it went up to 300 FPS, you'd see it lowering the multiplier because you'd be generating frames that are just being thrown out, right? This is a smarter way to use it. If you go up to one of the windows, the scene will get a lot lighter. You'll see your frame rate go up, and then it'll start lowering the multiplier because it'll know that you don't need that much frame generation. If you go over here, your frame rate will drop because this is a more intense scene and it's going to start raising the multiplier again.</em></p>
-
-
-
-<figure><p>
-<iframe title="DLSS 4.5 Frame Generation Model Improved | The Outer Worlds 2" width="500" height="281" src="https://www.youtube.com/embed/a7b3XPOnZMk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-</p></figure>
-
-
-
-<p>NVIDIA also promises <strong>improvements in frame pacing and better accuracy in rendering in-game user interfaces</strong>, as shown in the official video above. The former will be particularly important, although we'll have to wait for its public release to test it. </p>
-
-
-
-<p>Meanwhile, the popular <strong>DLSS Swapper</strong> tool <a href="https://wccftech.com/dlss-swapper-version-1-2-3-1-released-with-support-for-dlss-4-5/" target="_blank" rel="noreferrer noopener">has just been updated to support NVIDIA DLSS 4.5</a>.</p>
-
-			
-			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
-
-		</div></div><br/><br/>https://wccftech.com/ces-2026-demo-footage-nvidia-dlss-4-5-dynamic-multi-frame-generation/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
