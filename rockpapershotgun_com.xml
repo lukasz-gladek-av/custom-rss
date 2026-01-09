@@ -4,9 +4,72 @@
         <title>maGaming RSS Feed - rockpapershotgun_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/rockpapershotgun_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for rockpapershotgun_com</description>
-        <lastBuildDate>Fri, 09 Jan 2026 12:34:44 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 09 Jan 2026 12:58:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Steam Workshop mods should hopefully suffer less update-induced hassle, thanks to new version control tools]]></title>
+            <link>https://www.rockpapershotgun.com/steam-workshop-mods-should-hopefully-suffer-less-update-induced-hassle-thanks-to-new-version-control-tools</link>
+            <guid>1401442</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
+
+
+<header data-component="article-header">
+  
+
+    
+
+
+  <p>
+
+  <figure>
+        <picture>
+        <source srcset="https://assetsio.gnwcdn.com/steam-workshop-mods-version-control-01.jpg?width=380&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/steam-workshop-mods-version-control-01.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/steam-workshop-mods-version-control-01.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/steam-workshop-mods-version-control-01.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/steam-workshop-mods-version-control-01.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/steam-workshop-mods-version-control-01.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/steam-workshop-mods-version-control-01.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/steam-workshop-mods-version-control-01.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/steam-workshop-mods-version-control-01.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
+        
+      </picture>
+
+        <figcaption>
+          <span>Image credit: <cite>Valve</cite></span>
+        </figcaption>
+
+  </figure>
+  </p>
+
+    
+
+</header>
+  <div data-component="article-content">
+
+
+
+            <p>The regular modpocalypses which tend to erupt when a fresh update for a game comes down the pipeline - an especially terrifying prospect if it's an older game and the tweaks/additions aren't something you're happy to temporarily switch back to vanilladom in order to enjoy - may now be less of a ballache. Well, at least when it comes to the Steam Workshop, which has just had new version control pipes welded to its pulsating metal frame.</p>
+<!--more-->
+<p>Building on the features they already has in terms of letting developers offer older versions of games as optional branches if they wish, Valve <a href="https://steamcommunity.com/groups/steamworks/announcements/detail/497183817277113901?utm_source=SteamDB">have announced</a> the release of some new Steam APIs and Workshop item options designed to "make it easier for developers and mod authors to work together in ensuring compatibility of mods as games evolve". Basically, devs are able to "better define" previous game versions , while modders can upload different versions of their mods which are compatible with those game versions and make clear what should work with what.</p>
+<p>It's a process we've seen be necessary on a larger scale with the likes of <a href="https://www.rockpapershotgun.com/games/fallout-4">Fallout 4</a> total conversion <a href="https://www.rockpapershotgun.com/games/fallout-london">Fallout: London</a>, which is <a href="https://www.rockpapershotgun.com/fallout-london-modders-still-have-no-plans-to-port-it-to-next-gen-fallout-4-unless-a-console-version-becomes-possible">only available in a form</a> which works with a specific pre next-gen update version of that game. In this case, it should be easier to keep the likes of <a href="https://www.rockpapershotgun.com/games/euro-truck-simulator-2">Euro Truck Simulator 2</a> working with your regular load order if you've delved into the workshop and downloaded 25 million custom livery mods for your favourite MAN lorry which are suddenly out of date. Though, obviously that still depends on developers and modders having gone in and made use of these new tools for their works.</p>
+<p>According the <a href="https://partner.steamgames.com/doc/features/workshop/itemversioning">full documention</a>, devs will be able use Steam's API to detect which version of the game a player's using, which mods they have installed, and put up an interface splash asking the player if they'd like to switch to the right game version if necessary. That sounds like it could make troubleshooting much more of a doddle, with an extra step even suggesting Steam can subsequently be prompted to close the game, switch branches and relaunch the game once the right version's installed. As for a more in-depth picture of what you'll see when checking out which mods work with different versions, the following passage from the guidance for modders sheds a bit more light on how they might use the tools:</p>
+<blockquote>We know that many mod authors will not have the time to check whether their mod supports the latest version of a game. So we built this system to support ranges that include or exclude future updates. If the mod item is generally a simple item and likely to work with new versions of the game, then it may make sense to leave the supported range open-ended. However, if the mod is complex and the mod author wishes to test their mod with new game versions before declaring support, that can be easily done when configuring the supported ranges.</blockquote>
+<p>We'll see how it plays out in practice, but anything that might help keep us all from the scourge of corrupted or unusable saves with thousands of hours put into them is welcome news.</p>
+
+        </div>
+
+      </article>
+
+
+
+
+        
+  </div></div><br/><br/>https://www.rockpapershotgun.com/steam-workshop-mods-should-hopefully-suffer-less-update-induced-hassle-thanks-to-new-version-control-tools]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[UK Green Party MPs would be 'compelled' to support Stop Killing Games, if a proposed policy amendment passes]]></title>
             <link>https://www.rockpapershotgun.com/uk-green-party-mps-would-be-compelled-to-support-stop-killing-games-if-a-proposed-policy-amendment-passes</link>
