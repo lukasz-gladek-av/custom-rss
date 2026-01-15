@@ -4,9 +4,103 @@
         <title>Eurogamer.pl RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/eurogamerpl.xml</link>
         <description>Full article content from Eurogamer.pl</description>
-        <lastBuildDate>Thu, 15 Jan 2026 07:46:08 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 Jan 2026 08:50:14 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Im więcej kupionych DLC, tym więcej FPS. Gracz odkrył absurdalną zależność w Monster Hunter Wilds]]></title>
+            <link>https://www.eurogamer.pl/im-wiecej-kupionych-dlc-tym-wiecej-fps-gracz-odkryl-absurdalna-zaleznosc-w-monster-hunter-wilds</link>
+            <guid>https://www.eurogamer.pl/im-wiecej-kupionych-dlc-tym-wiecej-fps-gracz-odkryl-absurdalna-zaleznosc-w-monster-hunter-wilds</guid>
+            <content:encoded><![CDATA[https://www.eurogamer.pl/im-wiecej-kupionych-dlc-tym-wiecej-fps-gracz-odkryl-absurdalna-zaleznosc-w-monster-hunter-wilds<br/><br/><div id="readability-page-1" class="page"><div id="main-content" data-component="article-header">
+        
+
+        <p>„Nie zrobili tego specjalnie. To po prostu bug w kodzie”.</p>
+
+    </div><div data-component="article-content">
+
+
+
+            <p>Nie jest tajemnicą, że Capcom ma problem z optymalizacją niektórych swoich gier na PC. <a href="https://www.eurogamer.pl/dragons-dogma-2-jest-bezlitosne-dla-procesorow-wydajnosc-na-pc-nie-jest-najlepsza">Dragon's Dogma 2 było bezlitosne dla procesorów</a>, a dobrą wydajnością nie może się też pochwalić Monster Hunter Wilds. Na Reddicie pojawił się dość niepokojący wpis dotyczący tej drugiej gry. Jeden z graczy, zajmujący się analizą techniczną i optymalizacją gier, odkrył, że wydajność produkcji Capcomu może być powiązana z... liczbą kupionych DLC. Mówiąc w skrócie: im więcej dodatków na koncie, tym wydajność wzrasta, i to znacząco.</p>
+<p>Autor <a href="https://www.reddit.com/r/MonsterHunter/comments/1qcy3hn/mh_wilds_bad_performance_mystery_solved/">posta</a> opisuje, że problem szczególnie mocno dotyka procesory ze średniej i niższej półki. Przykład? Grając na swoim laptopie, gracz osiągał mniej więcej 20-25 FPS w tzw. hubach, czyli dość zaludnionych miejscówkach z dużą liczbą postaci niezależnych. <strong>Po zalogowaniu się na inne konto Steam - należące do znajomego, który ma pełny komplet DLC do Monster Hunter Wilds - te same miejsca i sceny działały płynnie</strong>, osiągając ponad 80 FPS. Wszystkie testy były wykonywane w „sterylnych” warunkach: ten sam sprzęt, zapis gry, postać, pozycja kamery i ustawienia systemowe.</p>
+<p>Dlaczego tak się dzieje? <strong>Redditor odkrył, że gra wykonuje wyjątkowo obiążającą sprzętowo operację sprawdzania, czy gracz ma zainstalowane DLC</strong> - i robi to w sposób na tyle nieoptymalny, że może znacząco obniżać liczbę wyświetlanych klatek na sekundę. Jednak im więcej DLC na koncie, tym płynniej przebiega ten proces.</p>
+
+<figure>
+<p>
+<a aria-label="MH Wilds DLC Presence Check Test" data-platform="youtube" href="https://www.youtube.com/embed/uf5cICpDXX0?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
+<span>MH Wilds DLC Presence Check Test</span>
+<template>
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/uf5cICpDXX0?autoplay=1" frameborder="0" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/uf5cICpDXX0?autoplay=1" title="MH Wilds DLC Presence Check Test">
+</iframe> </template>
+</a>
+</p>
+<a href="https://www.youtube.com/watch?v=uf5cICpDXX0" rel="noopener" target="_blank">Zobacz na YouTube</a></figure>
+
+
+<p>Aby ostatecznie potwierdzić przypuszczenia, autor przeprowadził eksperyment, w ramach którego pogrzebał nieco w plikach Monster Hunter Wilds, by „zasymulować” obecność DLC na swoim koncie Steam - bez ich faktycznego kupienia. Efekt był jednoznaczny: wydajność gwałtownie wzrosła.</p>
+<blockquote><em>„Największy skok nastąpił w zakresie od 0 do 100 [„dodanych” DLC], wtedy postęp był niemal liniowy. Powyżej 100 wydajność nadal rosła, ale już nie tak szalenie, i myślę, że w tym momencie głównym ograniczeniem było już moje 3070 Ti”.</em></blockquote>
+<p><strong>Według redditoria problem nie jest celowym działaniem Capcomu, a zwykłym bugiem w kodzie odpowiedzialnym za weryfikację dodatków</strong>. Podkreśla, że nie chodzi o DRM, zabezpieczenia czy antycheata, lecz o źle zaprojektowaną funkcję sprawdzającą obecność DLC, która nadmiernie obciąża procesor.</p>
+<p>Co istotne, autor ma już na koncie wpływ na poprawki Capcomu - zgłosił błąd wydajnościowy w Dragon’s Dogma 2, który został naprawiony w jednej z aktualizacji. Również tym razem pełna dokumentacja techniczna trafiła do działu wsparcia firmy. Dodatkowo, sprawą zainteresowało się także Digital Foundry, które skontaktowało się z autorem wpisu. Wszystko wskazuje na to, że techniczni eksperci przygotowują analizę problemu.</p>
+
+        </div></div>]]></content:encoded>
+            <dc:creator>Przemys&#x142;aw Wa&#x144;tuchowicz</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Coś takiego nie zdarza się często. PlayStation, Xbox i Nintendo publikują wspólne oświadczenie]]></title>
+            <link>https://www.eurogamer.pl/cos-takiego-nie-zdarza-sie-czesto-playstation-xbox-i-nintendo-publikuja-wspolne-oswiadczenie</link>
+            <guid>https://www.eurogamer.pl/cos-takiego-nie-zdarza-sie-czesto-playstation-xbox-i-nintendo-publikuja-wspolne-oswiadczenie</guid>
+            <content:encoded><![CDATA[https://www.eurogamer.pl/cos-takiego-nie-zdarza-sie-czesto-playstation-xbox-i-nintendo-publikuja-wspolne-oswiadczenie<br/><br/><div id="readability-page-1" class="page"><div>
+      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
+
+
+<header data-component="article-header">
+  
+
+    <div id="main-content">
+        
+
+        <p>W sprawie bezpiecznego grania.</p>
+
+    </div>
+
+
+  
+
+    
+
+</header>
+  <div data-component="article-content">
+
+
+
+            <p>Firmy PlayStation, Xbox i Nintendo opublikowały wspólne oświadczenie, aby pokazać, że da się konkurować na rynku i jednocześnie wyznawać te same wartości. Z pewnością nie jest to sytuacja, którą widujemy na co dzień.</p>
+<p>W dużym skrócie: firmy podkreśliły chęć do dalszej współpracy w celu zapewnienia bezpieczeństwa użytkownikom swoich platform. To kolejny krok w rozwoju inicjatywy, która <a href="https://news.xbox.com/en-us/2020/12/14/shared-safety-principles/">narodziła się</a> w 2020 roku. </p>
+<blockquote>„<em>Nintendo, Sony Interactive Entertainment oraz Microsoft nadal działają razem, aby zwiększać bezpieczeństwo graczy. <strong>Wierzymy, że granie jest dla każdego, i dążymy do zapewniania pozytywnych doświadczeń dla wszystkich - w szczególności dla naszych najmłodszych graczy</strong>. Osiągamy to poprzez wielodyscyplinarne podejście, łączące zaawansowane technologie, wnioski oparte na badaniach, wspierające działania społeczności oraz profesjonalny nadzór, prowadzony przez ludzi</em>” - oświadczenie Sony, Xboxa i Nintendo.</blockquote>
+<p>Inicjatywa opiera się na trzech filarach: zapobieganiu, partnerstwie oraz odpowiedzialności. W praktyce przekłada się to na następujące działania:</p>
+<ul>
+<li>tworzenie narzędzi zwiększających bezpieczeństwo młodych graczy podczas rozgrywki</li>
+<li>współpracę z organizacjami pozarządowymi, organami ścigania i agencjami ratingowymi w celu zwiększenia bezpieczeństwa w sieci</li>
+<li>współpracę z instytucjami badawczymi, by przeanalizować wpływ grania na dobrostan człowieka</li>
+<li>moderowanie i usuwanie niewłaściwych treści w grach</li>
+</ul>
+<figure>
+ 
+
+
+<figcaption>Młodzi gracze gier-usług, takich jak Roblox czy Fortnite, stanowią znaczący procent użytkowników konsol.</figcaption>
+</figure>
+<p>„<em>To partnerstwo odzwierciedla nasze zaangażowanie we <strong>wspólne opracowywanie rozwiązań, które zwiększają bezpieczeństwo graczy i sprawiają, że nasze gry są przyjazne dla wszystkich</strong></em>” - czytamy dalej. „<em>Branża gier ma silną tradycję stawiania bezpieczeństwa graczy - zwłaszcza dzieci - na pierwszym miejscu. Jednocześnie zdajemy sobie sprawę, że wyzwania te wymagają współpracy i wyznawania wspólnych wartości, dlatego zapraszamy innych do zaangażowania się w działania na rzecz bezpieczeństwa i dobrostanu graczy na całym świecie</em>”.</p>
+
+        </div>
+
+      </article>
+
+
+
+
+        
+  </div></div>]]></content:encoded>
+            <dc:creator>Nikodem Idziak</dc:creator>
+        </item>
         <item>
             <title><![CDATA[Amazon wybrał Kratosa z serialu God of War. Według fanów ten aktor to strzał w dziesiątkę]]></title>
             <link>https://www.eurogamer.pl/amazon-wybral-kratosa-z-serialu-god-of-war-wedlug-fanow-ten-aktor-to-strzal-w-dziesiatke</link>
@@ -43,8 +137,8 @@
 <span>Aby zobaczyć treść, włącz cookies targeting.</span>
 </span>
 </p></div>
-<p>„<em>Gratulacje dla Ryana Hursta, który wcieli się w rolę Kratosa w nadchodzącym aktorskim serialu God of War!</em>” - przekazało Santa Monica Studio, twórcy God of War i God of War: Ragnarok. „<em>Nie możemy się doczekać, by zobaczyć jego interpretację Kratosa, gdy dołączy do legendarnego grona T.C. Carsona i Christophera Judge’a, którzy ukształtowali tę postać we własny niezapomniany sposób</em>”.</p>
-<p><strong>Gratulacje dla Hursta przekazał także wspomniany Christopher Judge, aktor głosowy Kratosa z gier Santa Monica Studio</strong>. „<em>Gratulacje Ryan! Poradzisz sobie z tym znakomicie... chłopcze!</em>” - napisał.</p>
+<p>„<em>Gratulacje dla Ryana Hursta, który wcieli się w rolę Kratosa w nadchodzącym aktorskim serialu God of War!</em>” - <a href="https://x.com/SonySantaMonica/status/2011529734682010108">przekazało</a> Santa Monica Studio, twórcy God of War i God of War: Ragnarok. „<em>Nie możemy się doczekać, by zobaczyć jego interpretację Kratosa, gdy dołączy do legendarnego grona T.C. Carsona i Christophera Judge’a, którzy ukształtowali tę postać we własny niezapomniany sposób</em>”.</p>
+<p><strong>Gratulacje dla Hursta przekazał także wspomniany Christopher Judge, aktor głosowy Kratosa z gier Santa Monica Studio</strong>. „<em>Gratulacje Ryan! Poradzisz sobie z tym znakomicie... chłopcze!</em>” - <a href="https://x.com/iamchrisjudge/status/2011575459436454176">napisał</a>.</p>
 <p>Co być może najbardziej zaskakujące, zadowoleni z castingu są także fani. „<em>To pierwszy dobry wybór, jakiego dokonaliście od dawna</em>" - pisze jeden z użytkowników. „<em>Oj tak, zdecydowanie wygląda na spokojnego i rozsądnego człowieka</em>” - czytamy w innym komentarzu, nawiązującym oczywiście do kwestii z gier. „<em>God of War jest w dobrych rękach. Naprawdę się jaram!</em>” - dodaje inny fan.</p>
 <p>Serial God of War nie ma jeszcze terminu premiery. Nie wiemy także nic o reszcie obsady, choć w sieci pojawiły się już plotki na temat aktorów, którzy <a href="https://www.eurogamer.pl/czy-to-oni-zagraja-thora-i-baldura-znany-leaker-ujawnia-kto-wcieli-sie-w-antagonistow-w-serialu-god-of-war">mogą wcielić się w Thora i Baldura</a>.</p>
 
@@ -5921,111 +6015,6 @@ V.A.T.S., choć miał być zaledwie rozwiązaniem wyzwania projektowego, stał s
 
       </article>
 
-
-
-
-        
-  </div></div>]]></content:encoded>
-            <dc:creator>Micha&#x142; Angutek</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Nowy Deus Ex nie powstanie, ponieważ właściciele marki „to psychopaci”. Mocne słowa głównego aktora głosowego]]></title>
-            <link>https://www.eurogamer.pl/nowy-deus-ex-nie-powstanie-poniewaz-wasciciele-marki-to-psychopaci-mocne-slowa-glownego-aktora-gosowego</link>
-            <guid>https://www.eurogamer.pl/nowy-deus-ex-nie-powstanie-poniewaz-wasciciele-marki-to-psychopaci-mocne-slowa-glownego-aktora-gosowego</guid>
-            <content:encoded><![CDATA[https://www.eurogamer.pl/nowy-deus-ex-nie-powstanie-poniewaz-wasciciele-marki-to-psychopaci-mocne-slowa-glownego-aktora-gosowego<br/><br/><div id="readability-page-1" class="page"><div>
-      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
-
-
-<header data-component="article-header">
-  
-
-    <div id="main-content">
-        
-
-        <p>Odtwórca roli Adama Jensena nie przebiera w słowach.</p>
-
-    </div>
-
-
-  
-
-    
-
-</header>
-  <div data-component="article-content">
-
-
-
-            <p>Aktor Elias Toufexis podzielił się informacją odnośnie gier z 2026 roku, w których będziemy mogli usłyszeć jego głos. Niestety, nie znajdziemy wśród nich jego najbardziej charakterystycznej roli, czyli Adama Jensena z serii Deus Ex. Toufexis skomentował skasowanie gry w gorzki i dobitny sposób.</p>
-<p>Elias zamieścił na portalu X nieco żartobliwy wpis. Wśród gier z 2026 roku wymienia extraction shootera Marathon, a także trzy gry oznaczone znakiem NDA, czyli projekty, o których nie może na tę chwilę wspominać ze względu na podpisane klauzule poufności. Większą uwagę zdobył jednak jego komentarz odnośnie braku nowego Deus Exa na tej liście.</p>
-<p><strong><em>„… nie ma Deus Exa, ponieważ ludzie za niego odpowiedzialni to psychopaci”</em></strong> - pisze Toufexis.</p> <div>
-<div data-domain="twitter.com"><blockquote><p dir="ltr" lang="en">....no Deus Ex because the people in charge are psychopaths.</p>— Elias Toufexis (@EliasToufexis) <a href="https://twitter.com/EliasToufexis/status/2006536614424859057?ref_src=twsrc%5Etfw">January 1, 2026</a></blockquote></div>
-<p><span data-type="targeting">
-<span>Aby zobaczyć treść, włącz cookies targeting.</span>
-</span>
-</p></div>
-<p>Przypominamy, że na początku zeszłego roku doszło do poważnych <a href="https://www.eurogamer.pl/nowy-deus-ex-zostal-podobno-skasowany-eidos-montreal-zwalnia-97-pracownikow">zwolnień w studiu Eidos Montreal</a>. W wyniku finansowych problemów właściciela studia, holdingu Embracer Group, pracę w straciło 97 osób. Według <a href="https://www.bloomberg.com/news/articles/2024-01-29/embracer-group-cancels-deus-ex-video-game">doniesień Jasona Schreiera</a> było to równoznaczne ze skasowaniem nowego Deus Exa. Gra miała być ponoć na bardzo wczesnym etapie produkcji, jednak Eidos nie potwierdziło oficjalnie tych informacji.</p><p> Toufexis już wtedy nie szczędził <a href="https://www.eurogamer.pl/aktor-glosowy-deus-ex-podsumowal-kryzys-w-branzy-dwa-skasowane-projekty-i-reset">gorzkich słów</a> branży gier. <em>„Deus Ex zostało anulowane. Inna wielka gra, w której nie tylko użyczałem głosu, ale i reżyserowałem, została anulowana. A trzecia gra, w której użyczałem głosu i reżyserowałem, została przeprojektowana i zaczyna od początku, z całkiem nowym zespołem”</em> - pisał w lutym zeszłego roku na portalu X.</p>
-<p>Aktor niedługo później zamieścił dłuższy, emocjonalny wpis na <a href="https://www.reddit.com/r/Deusex/comments/1akyb35/thanks/">Reddicie</a>, w którym żegna się z postacią Jensena, wyrażając jednocześnie nadzieję, że być może ktoś wykupi licencję i wznowi projekt lub będzie mógł powrócić w innej formie, np. animowanej ekranizacji.</p>
-<p>Jedynym powstającym obecnie projektem, związanym z Deus Exem, jest remaster pierwszej części gry, nad którym pracuje studio Aspyr. Jego pierwsze zapowiedzi spotkały się jednak z <a href="https://www.eurogamer.pl/zmienili-gre-z-ps2-we-wczesna-gre-z-ps3-gracze-nie-zostawiaja-suchej-nitki-na-remasterze-deus-ex">ogromną falą krytyki</a> zarówno ze strony graczy, jak i jednego z <a href="https://www.eurogamer.pl/tworca-deus-ex-krytykuje-kontrowersyjny-remaster-nie-potrzebowalismy-tego">twórców pierwowzoru</a>. W związku ze skalą niezadowolenia <a href="https://x.com/AspyrMedia/status/1999170679116087572">premiera gry została przesunięta</a> na bliżej nieokreślony termin.</p>
-
-        </div>
-
-      </article>
-
-  
-
-
-
-        
-  </div></div>]]></content:encoded>
-            <dc:creator>Micha&#x142; Angutek</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[„Dispatch Wrapped” jest już dostępne. Twórcy świętują kolejny sukces i podsumowują najczęstsze wybory graczy]]></title>
-            <link>https://www.eurogamer.pl/dispatch-wrapped-jest-juz-dostepne-tworcy-swietuja-kolejny-sukces-i-podsumowuja-najczestsze-wybory-graczy</link>
-            <guid>https://www.eurogamer.pl/dispatch-wrapped-jest-juz-dostepne-tworcy-swietuja-kolejny-sukces-i-podsumowuja-najczestsze-wybory-graczy</guid>
-            <content:encoded><![CDATA[https://www.eurogamer.pl/dispatch-wrapped-jest-juz-dostepne-tworcy-swietuja-kolejny-sukces-i-podsumowuja-najczestsze-wybory-graczy<br/><br/><div id="readability-page-1" class="page"><div>
-      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
-
-
-<header data-component="article-header">
-  
-
-    <div id="main-content">
-        
-
-        <p>Garść ciekawych statystyk.</p>
-
-    </div>
-
-
-  
-
-    
-
-</header>
-  <div data-component="article-content">
-
-
-
-            <p>Dispatch można z pewnością uznać za jedną z najbardziej udanych gier zeszłego roku. Twórcy postanowili pochwalić się kolejnym dużym sukcesem, a także podsumować dotychczasowe statystyki w ciekawy sposób, korzystając z viralowego formatu „Wrapped”.</p>
-<p>Superbohaterska przygodówka, będąca debiutanckim projektem założonego przez byłych pracowników Telltale studia AdHoc, z miejsca stała się sprzedażowym hitem. W dziesięć dni od premiery udało się sprzedać <a href="https://www.eurogamer.pl/debiutancka-gra-weteranow-telltale-odnosi-kolejny-sukces-dispatch-z-milionem-sprzedanych-kopii">milion kopii</a>,  a <strong>rok 2025 udało się zamknąć imponującymi trzema milionami.</strong></p>
-<p>To jednak tylko jedna ze statystyk, które znalazły się w podsumowaniu rocznym. Zamieszczone w mediach społecznościowych wideo „Dispatch Wrapped” nawiązuje do trendu podsumowań rocznych, spopularyzowanego przez Spotify, a obecnie kultywowanego przez wiele innych związanych z rozrywką serwisów.</p> <div>
-
-<p><span data-type="targeting">
-<span>Aby zobaczyć treść, włącz cookies targeting.</span>
-</span>
-</p></div>
-<p>Według statystyk gracze ukończyli 52,2 miliony zmian w pracy dyspozytora misji dla superbohaterów, odpowiedzieli na 727 milionów wezwań, a także przydzielili zadania herosom więcej niż miliard razy. Ciekawie prezentują się też statystyki dotyczące treści w serwisach Twitch, YouTube i TikTok - materiały związane z Dispatch pojawiły się u ponad 55 tys. twórców, a łączny czas oglądania ich na Twitchu i Youtube  to 23 miliony godzin.</p>
-<p><em><strong>UWAGA:</strong> Poniższy akapit zawiera spoilery odnośnie fabuły gry.</em></p>
-<p>Studio AdHoc podzieliło się też danymi odnośnie dokonywanych przez graczy wyborów fabularnych. Większość z nich zdecydowała się wyrzucić z drużyny Coupe (2,8 miliona), a w przypadku Sonara było to 1,6 miliona. Zdecydowana większość (2,4 mln kontra 1,1 mln) postanowiła pozostawić Invisigal w drużynie. Była to też najchętniej wybierana opcja romansowa (1,9 mln), pokonująca Blazer pod tym względem niemal dwukrotnie (1 mln). Zaledwie 164 tys. graczy zdecydowało się za to nie wdawać w żadną relację romantyczną.</p>
-<p>Na tę chwilę nie wiemy, czy Dispatch doczeka się sezonu drugiego. Twórcy unikają konkretnych deklaracji, choć przyznają, <a href="https://www.eurogamer.pl/dispatch-moze-otrzymac-drugi-sezon-po-sukcesie-pierwszych-epizodow-tworcy-coraz-powazniej-mysla-o-kontynuacji">że muszą „co najmniej rozważyć” jego powstanie</a>. Sukces sprzedażowy z pewnością będzie sprzyjać tym rozważaniom.</p>
-
-        </div>
-
-      </article>
-
-  
 
 
 
