@@ -4,9 +4,150 @@
         <title>maGaming RSS Feed - thesixthaxis_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/thesixthaxis_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for thesixthaxis_com</description>
-        <lastBuildDate>Tue, 20 Jan 2026 11:09:16 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 20 Jan 2026 11:36:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Battlefield 6 update 1.1.3.5 goes live today, here at the patch notes]]></title>
+            <link>https://www.thesixthaxis.com/2026/01/20/battlefield-6-update-1-1-3-5-patch-notes/</link>
+            <guid>1410586</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="gp-content-wrapper">
+					
+						
+<article itemscope="" itemtype="http://schema.org/Article">
+
+	<meta itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemscope="" content="https://www.thesixthaxis.com/2026/01/20/battlefield-6-update-1-1-3-5-patch-notes/">
+		<meta itemprop="headline" content="Battlefield 6 update 1.1.3.5 goes live today, here at the patch notes">			
+		
+		<meta itemprop="author" content="Tuffcub">			
+		<meta itemprop="datePublished" content="2026-01-20">
+		<meta itemprop="dateModified" content="2026-01-20">
+		
+	
+							
+
+		
+	
+		
+
+		
+															
+	<div itemprop="text">
+	
+		<p>A new update for Battlefield 6 will go live today, it is a “smaller set of focused improvements aimed at polish and consistency across Battlefield 6”. The patch changes melee attacks, ladders, and jet fighter combat amongst other things.</p>
+<p>Here are the full patch notes:</p>
+
+
+<h2 id="major-updates">Major Updates for 1.1.3.5</h2>
+<ul>
+<li>Improved responsiveness, consistency, and sprint behavior for melee attacks, including knives and the sledgehammer.</li>
+<li>Updated jet combat balance by reducing jet cannon effectiveness against other air vehicles.</li>
+<li>Updated and refined the UI and HUD across Multiplayer and REDSEC, improving armor bar visibility, reticle presentation, and menu navigation.</li>
+</ul>
+<h2 id="changelog">CHANGELOG</h2>
+<h3 id="vehicles">VEHICLES:</h3>
+<ul>
+<li>Fixed an issue where vehicles could explode when a takedown was performed on an enemy soldier lying on top of them.</li>
+<li>Reduced jet cannon damage against other jets and helicopters, requiring approximately 40% more hits to destroy enemy air targets.</li>
+</ul>
+<h3 id="weapons">WEAPONS:</h3>
+<ul>
+<li>Bipod attachments no longer display as always providing a hipfire accuracy bonus, as this bonus only applies while the bipod is deployed.</li>
+<li>Fixed an issue where the GRIM 1.50x optic on the DB-12 cost fewer loadout points than intended (15 instead of 25).</li>
+<li>Fixed an issue where the RPKM iron sights would shoot low when using the short barrel.</li>
+<li>Fixed an issue where the TR-7 Light Barrel incorrectly improved muzzle velocity.</li>
+<li>Fixed bipod mount input behaviour for Alternate, Lefty Alternate, Southpaw, and Legacy Southpaw presets so the bipod mount now follows the melee button.</li>
+<li>Improved attack speed for knife melee attacks.</li>
+<li>Improved buffering behaviour for knife and sledgehammer attacks.</li>
+<li>Improved consistency of melee damage timing against enemies and the environment.</li>
+<li>Improved consistency of recoil modifiers when using a controller across different weapons.</li>
+<li>Improved how sprint is interrupted when performing melee attacks. Sprint is now only interrupted until the attack reaches its target, rather than for the full duration of the animation.</li>
+<li>In the Firing Range, target dummies can now take damage while in the process of getting back up.</li>
+<li>Shooting with a suppressor now emits a small muzzle flash when viewed from close range only.</li>
+</ul>
+<h3 id="gadgets">GADGETS:</h3>
+<ul>
+<li>Fixed an issue where the GDPIS was not destroyed when targeted by the XFGM-6D Recon Drone, Defibrillators, or the Repair Tool.</li>
+<li>Fixed an issue where the Sniper Decoy did not properly hide scope glints from nearby snipers.</li>
+</ul>
+<p><em>Assault Ladder</em></p>
+<ul>
+<li>Fixed an issue where ladders positioned above the player could not be entered.</li>
+<li>Fixed an issue where soldiers could be launched unexpectedly when attempting to enter a ladder.</li>
+<li>Improved the soldier animations while climbing ladders.</li>
+</ul>
+<h3 id="ui-hud">UI &amp; HUD:</h3>
+<ul>
+<li>Added a new option allowing players to customize the reticle colour inside weapon and gadget scopes.</li>
+<li>Fixed an issue where home screen focus navigation could become locked to the bulletin.</li>
+<li>Fixed cases where weapon menus displayed incorrect Reload Time stats for LMGs.</li>
+<li>Soldier lightning improvements to the front-end</li>
+<li>Improved front-end lighting to enhance the visual quality of soldier characters.</li>
+<li>The Reticle Colour option now correctly updates reticle colours for Thermal Scopes and other supported gadgets.</li>
+</ul>
+<h3 id="vfx-video">VFX &amp; Video:</h3>
+<ul>
+<li>Adjusted explosion particle effects by lowering the shockwave force.</li>
+</ul>
+<h2 id="redsec">REDSEC</h2>
+<h3 id="weapons">WEAPONS:</h3>
+<ul>
+<li>Fixed an issue where jump landing movement speed reduction behaved inconsistently in REDSEC compared to other multiplayer experiences.</li>
+</ul>
+<h3 id="map-modes">MAP &amp; MODES:</h3>
+<ul>
+<li>Fixed an edge case in Gauntlet mode “Data Extraction” where the drone could disappear permanently if drives were deposited at the exact moment it landed.</li>
+</ul>
+<h3 id="ui-hud">UI &amp; HUD:</h3>
+<p><em>Battle Royale</em></p>
+
+<ul>
+<li>Fixed an issue where the armor bar could disappear intermittently.</li>
+<li>Fixed an issue where the Airburst Incendiary Launcher icon appeared as a grenade in the loot feed.</li>
+</ul>
+<p><em>Gauntlet</em></p>
+<ul>
+<li>Fixed an issue where the armor bar could disappear after quickly editing a loadout.</li>
+</ul>
+<p><em>Source: <a href="https://www.ea.com/games/battlefield/battlefield-6/news/battlefield-6-game-update-1-1-3-5" target="_blank" rel="noopener">EA</a></em></p>
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div>
+
+				
+			
+		
+	
+
+				
+	
+		
+
+	
+				
+		<div>
+
+			<h3>Related stories from TSA			
+			</h3>
+			
+				
+				
+		</div>
+
+	
+	
+	
+ 
+	
+	
+
+</article>						
+					</div></div><br/><br/>https://www.thesixthaxis.com/2026/01/20/battlefield-6-update-1-1-3-5-patch-notes/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[The Sims Mobile is no longer playable as servers get shut down]]></title>
             <link>https://www.thesixthaxis.com/2026/01/20/the-sims-mobile-is-no-longer-playable-as-servers-get-shutdown/</link>
