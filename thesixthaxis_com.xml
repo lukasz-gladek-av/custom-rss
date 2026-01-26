@@ -4,9 +4,183 @@
         <title>maGaming RSS Feed - thesixthaxis_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/thesixthaxis_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for thesixthaxis_com</description>
-        <lastBuildDate>Mon, 26 Jan 2026 10:48:56 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Jan 2026 11:10:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Megabonk update 1.0.64 adds hats, and addresses progress issue]]></title>
+            <link>https://www.thesixthaxis.com/2026/01/26/megabonk-update-1-0-64-adds-hats-and-addresses-progress-issue/</link>
+            <guid>1415896</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="gp-content-wrapper">
+					
+						
+<article itemscope="" itemtype="http://schema.org/Article">
+
+	<meta itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemscope="" content="https://www.thesixthaxis.com/2026/01/26/megabonk-update-1-0-64-adds-hats-and-addresses-progress-issue/">
+		<meta itemprop="headline" content="Megabonk update 1.0.64 adds hats, and addresses progress issue">			
+		
+		<meta itemprop="author" content="Aran Suddi">			
+		<meta itemprop="datePublished" content="2026-01-26">
+		<meta itemprop="dateModified" content="2026-01-26">
+		
+	
+							
+
+		
+	
+		
+
+		
+															
+	<div itemprop="text">
+	
+		<p>Developer Vedinad has released a new update for Megabonk, with update 1.0.64 bringing hats into the game, so you can style your character even more. There are 21 hats in total, some new achievements, and a new Megachad skin. The new update also addresses a save and progress bug, where players have had progression reset due to errors with Steam Cloud or the game having issues. The fix is a new setting in settings which will use Steam achievements to recover lost progress, though it won’t be perfect.</p>
+<p><iframe title="Megabonk - Trailer" width="780" height="439" src="https://www.youtube.com/embed/eMICNfeKWZ4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+<h2>Megabonk update 1.0.64 update patch notes</h2>
+
+<ul>
+<li>21 Hats and Achievements<wbr></li>
+<li>New Megachad skin</li>
+</ul>
+
+<ul>
+<li>You can see what items you have banished in the pause menu and when opening a chest / shrine<wbr></li>
+<li>Stats now show while holding tab and showing map<wbr></li>
+<li>Added a little window in the Unlocks tab in the main menu showing what stats are upgradable and useful for different weapons (suggested by NintenDoingIt on reddit). Also shows all stats unique to each character</li>
+</ul>
+
+<ul>
+<li>Pots / Vases now give a little luck, which scales with the stage, suggested by nate_codes. I think it’s a fun suggestion, as it incentivizes collecting pots, which increases value of good movement and map routing, as well as Movement speed stat and Pumpkin item. Let me know what you think<wbr></li>
+<li>Slightly buffed Robinette’s passive in late game. Damage per 1k gold after 1M gold: 2.5% -&gt; 3.5%<wbr></li>
+<li>Feathers now give about 10% more speed forward when jumping, as well as giving +1 jumps<wbr></li>
+<li>Bone now has higher default knockback (1.25 -&gt; 1.5) and no longer has Knockback as an upgrade offer, but instead has Crit Chance and Crit Damage<wbr></li>
+<li>Shotgun now has higher default knockback (2.5 -&gt; 3) and no longer has Knockback as an upgrade offer, but instead Crit Damage<wbr></li>
+<li>Vlad now has 5% Lifesteal (flat) added to character stats<wbr></li>
+<li>Robinette now has 5% Gold Gain (flat) added to character stats<wbr></li>
+<li>Spaceman now has 5% XP Gain (flat) added to character stats<wbr></li>
+<li>You can now obtain a max amount of 25 Za Warudos per run</li>
+</ul>
+
+<ul>
+<li>Fixed some issues with certain characters heads or hats clipping through Santa Hat<wbr></li>
+<li>Items no longer tick / proc in the order they were obtained. They are now ordered by the name of the item (enum name specifically). This is just to make the game more consistent, and make it so that the order you pick up items doesn’t actually matter.<wbr></li>
+<li>Proc Order: BloodyCleaver, Bonker, Dragonfire, EagleClaw, GloveBlood, GloveCurse, GloveLightning, GlovePoison, GlovePower, GrandmasSecretTonic, IceCrystal, IceCube, LightningOrb, MoldyCheese, QuinsMask, SluttyCannon, Snek, SpicyMeatball, UnstableTransfusion<wbr></li>
+<li>Xp shards now have a little size difference so you can tell the better xp shards apart from the normal ones<wbr></li>
+<li>Fixed an annoying thing where if you are in-game and moving forwards or backwards as you level up and the level-up screen shows, it no longer moves your cursor selection with that old input you used for movement<wbr></li>
+<li>Can spin the character in the Character Selection to see them from different angles. Use Mouse or Controller Shoulder buttons / triggers<wbr></li>
+<li>Lowered the volume of Scythe a bit, as it was too loud<wbr></li>
+<li>New setting in Effects tab: Enemy Attack Indicator Color – Allows you to change the color of the red spheres that indicate where an enemy attack will hit<wbr></li>
+<li>New setting in Effects tab: XP &amp; Gold increase text – Toggle the small text next to your player that shows how much xp and gold you gained</li>
+</ul>
+
+<ul>
+<li>Fixed some errors caused by Steam Rich Presence, which might’ve stopped achievements from working properly sometimes in-game<wbr></li>
+<li>Fixed an issue where if you had more than 350 items, it would sometimes fail to upload your score to the leaderboards<wbr></li>
+<li>Fixed a pretty big bug with Dicehead where if you received multiple levels at once from a big chunk of XP, his passive would only trigger once…. yikes (thanks to Noll Reed for the find)<wbr></li>
+<li>Fixed a bug where Chunkers was only affected by its own Projectile Speed stat on the weapon itself, and not by the Player Stat (also Noll Reed)<wbr></li>
+<li>Fixed a bug where Joe’s Dagger Execute sometimes did no damage (also found by Noll Reed…)<wbr></li>
+<li>Fixed a bug where Roberto’s ghost chests would spawn inside of walls on the Boss Stage<wbr></li>
+<li>Fixed a bug where you could get 5 tomes or weapons with auto leveling enabled (found by メープル)<wbr></li>
+<li>Fixed a bug where minibosses would spawn under the map (reported by virgules)<wbr></li>
+<li>Fixed a default game setting that caused some lower fps and a translations error (reported by Justicetom)<wbr></li>
+<li>Fixed a bug where poison could sometimes bring you below 0 hp and kill you (found by Snek)<wbr></li>
+<li>Fixed a bug where some projectiles didn’t properly change their opacity<wbr></li>
+<li>Fixed a bug where Spicy Meatball and Bush’s passive Bullseye would keep multiplying its damage with the Elite Damage Multiplier for every Elite Enemy, and also applying this amplified damage to normal enemies, instead of just applying that damage multiplier to the individual elite as it should.<wbr></li>
+<li>Fixed a UI bug in the “Unlocks” window, where the buy button would overlap with the achievement description<wbr></li>
+<li>Fixed a bug where hats would not be affected by the shield outline<wbr></li>
+<li>Fixed a bug where money would keep circling you and not be picked up… at least i think its fixed<wbr></li>
+<li>Fixed a bug where you could stand on the invisible floor below the final boss arena<wbr></li>
+<li>Fixed a bug where the front swing of Corrupted Sword and Hero Sword only damaged one enemy<wbr></li>
+<li>Fixed a bug where Rollerblades didn’t work properly after teleporting to the next stage</li>
+</ul>
+<p><em>Source: <a href="https://store.steampowered.com/news/app/3405340/view/529869613052201991">Steam</a></em></p>
+
+
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div>
+
+				
+			
+		
+	
+
+				
+	
+		
+
+	
+				
+		<div>
+
+			<h3>Related stories from TSA			
+			</h3>
+			
+				
+				
+		</div>
+
+	
+	
+	
+ 
+	
+	
+
+</article>						
+					</div></div><br/><br/>https://www.thesixthaxis.com/2026/01/26/megabonk-update-1-0-64-adds-hats-and-addresses-progress-issue/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Bubsy 4D launches this May]]></title>
+            <link>https://www.thesixthaxis.com/2026/01/26/bubsy-4d-launches-this-may/</link>
+            <guid>1415893</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>The bobcat is back as Bubsy returns in a brand new platforming game from Atari and studio Fabraz on May 22nd 2026.&nbsp; Bubsy 4D will launch on PlayStation 5, Xbox Series X|S, Nintendo Switch 2, PlayStation 4, Xbox One, Nintendo Switch, PC via Steam, Epic Games Store, Windows and GOG, and Xbox Play Anywhere, and probably your smart fridge and Nokia 3310 if they have enough time.</p>
+<p><iframe title="Bubsy 4D - Official Physical Pre-Order and Release Date Trailer" width="780" height="439" src="https://www.youtube.com/embed/EpZg1FJgc4k?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+
+
+<p>This will be the first Bubsy 3D adventure game since 1996 (the <a href="https://www.thesixthaxis.com/2017/11/02/bubsy-the-woolies-strike-back-review/">2017 reboot</a> was a side scrolling platformer) and it finds the wisecracking bobcat on the hunt for the Golden Fleece, which somehow has been stolen from Greek mythology and is now in the hands of the alien BaaBots. I think this is a case of “Just go with it, it’s a video game”.</p>
+<p>Busby will be bounding around alien planets themed around fabric and crafts and will be meeting up with some old pals from previous games including Terri, Terry, Virgil and Oblivia.</p>
+<p>“Get ready for the comeback you never saw coming,” said Bubsy T. Bobcat. “It’s no secret that I’ve got a questionable track record, but Atari and Fabraz are determined to give me the game I’ve always deserved. This time, my claws are out and I’m ready to show off.”</p>
+
+<p>The digital version will cost you $19.99 but you can <a href="https://atari.com/products/bubsy-4d-deluxe-physical-edition?variant=47396647698597">pre-order a collector’s edition</a> ofBubsy 4D&nbsp;for Nintendo Switch and Switch 2. The physical edition, which includes a game cartridge, tuck-in exterior box, user manual, poster and artbook, for $39.99/€39.99/£34.99 on Nintendo Switch and $49.99/€49.99/£44.99&nbsp;on Nintendo Switch 2</p>
+
+		
+		<div id="gallery-1"><dl>
+			<dt>
+				<a href="https://www.thesixthaxis.com/2026/01/26/bubsy-4d-launches-this-may/bubsy-4d_screenshot_02/" data-slb-active="1" data-slb-asset="587383452" data-slb-internal="468164" data-slb-group="468160"></a>
+			</dt>
+				<dd id="gallery-1-468164">
+				Bubsy 4D
+				</dd></dl><dl>
+			<dt>
+				<a href="https://www.thesixthaxis.com/2026/01/26/bubsy-4d-launches-this-may/bubsy-4d_screenshot_06/" data-slb-active="1" data-slb-asset="404784134" data-slb-internal="468165" data-slb-group="468160"></a>
+			</dt>
+				<dd id="gallery-1-468165">
+				Bubsy 4D
+				</dd></dl><dl>
+			<dt>
+				<a href="https://www.thesixthaxis.com/2026/01/26/bubsy-4d-launches-this-may/bubsy-4d_screenshot_07/" data-slb-active="1" data-slb-asset="323151908" data-slb-internal="468166" data-slb-group="468160"></a>
+			</dt>
+				<dd id="gallery-1-468166">
+				Bubsy 4D
+				</dd></dl><br>
+		</div>
+
+<p><em>Source: Press release</em></p>
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div></div><br/><br/>https://www.thesixthaxis.com/2026/01/26/bubsy-4d-launches-this-may/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[Pet a cat for sanity in The 18th Attic (and IRL)]]></title>
             <link>https://www.thesixthaxis.com/2026/01/26/pet-a-cat-for-sanity-in-the-18th-attic-and-irl/</link>
