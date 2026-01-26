@@ -4,181 +4,54 @@
         <title>maGaming RSS Feed - thesixthaxis_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/thesixthaxis_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for thesixthaxis_com</description>
-        <lastBuildDate>Mon, 26 Jan 2026 13:27:43 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Jan 2026 15:32:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Megabonk update 1.0.64 adds hats, and addresses progress issue]]></title>
-            <link>https://www.thesixthaxis.com/2026/01/26/megabonk-update-1-0-64-adds-hats-and-addresses-progress-issue/</link>
-            <guid>1415896</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="gp-content-wrapper">
-					
-						
-<article itemscope="" itemtype="http://schema.org/Article">
-
-	<meta itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemscope="" content="https://www.thesixthaxis.com/2026/01/26/megabonk-update-1-0-64-adds-hats-and-addresses-progress-issue/">
-		<meta itemprop="headline" content="Megabonk update 1.0.64 adds hats, and addresses progress issue">			
-		
-		<meta itemprop="author" content="Aran Suddi">			
-		<meta itemprop="datePublished" content="2026-01-26">
-		<meta itemprop="dateModified" content="2026-01-26">
-		
-	
-							
-
-		
-	
-		
-
-		
-															
-	<div itemprop="text">
-	
-		<p>Developer Vedinad has released a new update for Megabonk, with update 1.0.64 bringing hats into the game, so you can style your character even more. There are 21 hats in total, some new achievements, and a new Megachad skin. The new update also addresses a save and progress bug, where players have had progression reset due to errors with Steam Cloud or the game having issues. The fix is a new setting in settings which will use Steam achievements to recover lost progress, though it won’t be perfect.</p>
-<p><iframe title="Megabonk - Trailer" width="780" height="439" src="https://www.youtube.com/embed/eMICNfeKWZ4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
-<h2>Megabonk update 1.0.64 update patch notes</h2>
-
-<ul>
-<li>21 Hats and Achievements<wbr></li>
-<li>New Megachad skin</li>
-</ul>
-
-<ul>
-<li>You can see what items you have banished in the pause menu and when opening a chest / shrine<wbr></li>
-<li>Stats now show while holding tab and showing map<wbr></li>
-<li>Added a little window in the Unlocks tab in the main menu showing what stats are upgradable and useful for different weapons (suggested by NintenDoingIt on reddit). Also shows all stats unique to each character</li>
-</ul>
-
-<ul>
-<li>Pots / Vases now give a little luck, which scales with the stage, suggested by nate_codes. I think it’s a fun suggestion, as it incentivizes collecting pots, which increases value of good movement and map routing, as well as Movement speed stat and Pumpkin item. Let me know what you think<wbr></li>
-<li>Slightly buffed Robinette’s passive in late game. Damage per 1k gold after 1M gold: 2.5% -&gt; 3.5%<wbr></li>
-<li>Feathers now give about 10% more speed forward when jumping, as well as giving +1 jumps<wbr></li>
-<li>Bone now has higher default knockback (1.25 -&gt; 1.5) and no longer has Knockback as an upgrade offer, but instead has Crit Chance and Crit Damage<wbr></li>
-<li>Shotgun now has higher default knockback (2.5 -&gt; 3) and no longer has Knockback as an upgrade offer, but instead Crit Damage<wbr></li>
-<li>Vlad now has 5% Lifesteal (flat) added to character stats<wbr></li>
-<li>Robinette now has 5% Gold Gain (flat) added to character stats<wbr></li>
-<li>Spaceman now has 5% XP Gain (flat) added to character stats<wbr></li>
-<li>You can now obtain a max amount of 25 Za Warudos per run</li>
-</ul>
-
-<ul>
-<li>Fixed some issues with certain characters heads or hats clipping through Santa Hat<wbr></li>
-<li>Items no longer tick / proc in the order they were obtained. They are now ordered by the name of the item (enum name specifically). This is just to make the game more consistent, and make it so that the order you pick up items doesn’t actually matter.<wbr></li>
-<li>Proc Order: BloodyCleaver, Bonker, Dragonfire, EagleClaw, GloveBlood, GloveCurse, GloveLightning, GlovePoison, GlovePower, GrandmasSecretTonic, IceCrystal, IceCube, LightningOrb, MoldyCheese, QuinsMask, SluttyCannon, Snek, SpicyMeatball, UnstableTransfusion<wbr></li>
-<li>Xp shards now have a little size difference so you can tell the better xp shards apart from the normal ones<wbr></li>
-<li>Fixed an annoying thing where if you are in-game and moving forwards or backwards as you level up and the level-up screen shows, it no longer moves your cursor selection with that old input you used for movement<wbr></li>
-<li>Can spin the character in the Character Selection to see them from different angles. Use Mouse or Controller Shoulder buttons / triggers<wbr></li>
-<li>Lowered the volume of Scythe a bit, as it was too loud<wbr></li>
-<li>New setting in Effects tab: Enemy Attack Indicator Color – Allows you to change the color of the red spheres that indicate where an enemy attack will hit<wbr></li>
-<li>New setting in Effects tab: XP &amp; Gold increase text – Toggle the small text next to your player that shows how much xp and gold you gained</li>
-</ul>
-
-<ul>
-<li>Fixed some errors caused by Steam Rich Presence, which might’ve stopped achievements from working properly sometimes in-game<wbr></li>
-<li>Fixed an issue where if you had more than 350 items, it would sometimes fail to upload your score to the leaderboards<wbr></li>
-<li>Fixed a pretty big bug with Dicehead where if you received multiple levels at once from a big chunk of XP, his passive would only trigger once…. yikes (thanks to Noll Reed for the find)<wbr></li>
-<li>Fixed a bug where Chunkers was only affected by its own Projectile Speed stat on the weapon itself, and not by the Player Stat (also Noll Reed)<wbr></li>
-<li>Fixed a bug where Joe’s Dagger Execute sometimes did no damage (also found by Noll Reed…)<wbr></li>
-<li>Fixed a bug where Roberto’s ghost chests would spawn inside of walls on the Boss Stage<wbr></li>
-<li>Fixed a bug where you could get 5 tomes or weapons with auto leveling enabled (found by メープル)<wbr></li>
-<li>Fixed a bug where minibosses would spawn under the map (reported by virgules)<wbr></li>
-<li>Fixed a default game setting that caused some lower fps and a translations error (reported by Justicetom)<wbr></li>
-<li>Fixed a bug where poison could sometimes bring you below 0 hp and kill you (found by Snek)<wbr></li>
-<li>Fixed a bug where some projectiles didn’t properly change their opacity<wbr></li>
-<li>Fixed a bug where Spicy Meatball and Bush’s passive Bullseye would keep multiplying its damage with the Elite Damage Multiplier for every Elite Enemy, and also applying this amplified damage to normal enemies, instead of just applying that damage multiplier to the individual elite as it should.<wbr></li>
-<li>Fixed a UI bug in the “Unlocks” window, where the buy button would overlap with the achievement description<wbr></li>
-<li>Fixed a bug where hats would not be affected by the shield outline<wbr></li>
-<li>Fixed a bug where money would keep circling you and not be picked up… at least i think its fixed<wbr></li>
-<li>Fixed a bug where you could stand on the invisible floor below the final boss arena<wbr></li>
-<li>Fixed a bug where the front swing of Corrupted Sword and Hero Sword only damaged one enemy<wbr></li>
-<li>Fixed a bug where Rollerblades didn’t work properly after teleporting to the next stage</li>
-</ul>
-<p><em>Source: <a href="https://store.steampowered.com/news/app/3405340/view/529869613052201991">Steam</a></em></p>
-
-
-
-
-<!-- CONTENT END 1 -->
-
-		
-	</div>
-
-				
-			
-		
-	
-
-				
-	
-		
-
-	
-				
-		<div>
-
-			<h3>Related stories from TSA			
-			</h3>
-			
-				
-				
-		</div>
-
-	
-	
-	
- 
-	
-	
-
-</article>						
-					</div></div><br/><br/>https://www.thesixthaxis.com/2026/01/26/megabonk-update-1-0-64-adds-hats-and-addresses-progress-issue/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Bubsy 4D launches this May]]></title>
-            <link>https://www.thesixthaxis.com/2026/01/26/bubsy-4d-launches-this-may/</link>
-            <guid>1415893</guid>
+            <title><![CDATA[Resident Evil Requiem Preview – Action and horror in perfect harmony]]></title>
+            <link>https://www.thesixthaxis.com/2026/01/26/resident-evil-requiem-preview-action-and-horror-in-perfect-harmony/</link>
+            <guid>1416202</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
 	
-		<p>The bobcat is back as Bubsy returns in a brand new platforming game from Atari and studio Fabraz on May 22nd 2026.&nbsp; Bubsy 4D will launch on PlayStation 5, Xbox Series X|S, Nintendo Switch 2, PlayStation 4, Xbox One, Nintendo Switch, PC via Steam, Epic Games Store, Windows and GOG, and Xbox Play Anywhere, and probably your smart fridge and Nokia 3310 if they have enough time.</p>
-<p><iframe title="Bubsy 4D - Official Physical Pre-Order and Release Date Trailer" width="780" height="439" src="https://www.youtube.com/embed/EpZg1FJgc4k?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+		<p>Until very recently, everything we’d seen of <a href="https://www.thesixthaxis.com/tag/resident-evil-9-requiem">Resident Evil Requiem</a> was framed through one lens: Grace Ashcroft’s reluctant, fearful exploration of unfamiliar and hostile environments. It was quiet, tense, and deliberately uncomfortable. Then Leon Kennedy steps in, and suddenly the tone shifts.</p>
+<p><iframe title="Resident Evil Showcase | January 15, 2026" width="780" height="439" src="https://www.youtube.com/embed/i9HIc7GZLa0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+<p>Leon is no longer the wide-eyed rookie we first met in Resident Evil 2. He isn’t even the cocky, quip-throwing action hero of Resident Evil 4. This version of Leon feels like a natural endpoint to everything Capcom has built toward: a grizzled veteran who has survived too much, seen too much, and now moves through horror with brutal efficiency. And honestly? I loved it.</p>
 
 
-<p>This will be the first Bubsy 3D adventure game since 1996 (the <a href="https://www.thesixthaxis.com/2017/11/02/bubsy-the-woolies-strike-back-review/">2017 reboot</a> was a side scrolling platformer) and it finds the wisecracking bobcat on the hunt for the Golden Fleece, which somehow has been stolen from Greek mythology and is now in the hands of the alien BaaBots. I think this is a case of “Just go with it, it’s a video game”.</p>
-<p>Busby will be bounding around alien planets themed around fabric and crafts and will be meeting up with some old pals from previous games including Terri, Terry, Virgil and Oblivia.</p>
-<p>“Get ready for the comeback you never saw coming,” said Bubsy T. Bobcat. “It’s no secret that I’ve got a questionable track record, but Atari and Fabraz are determined to give me the game I’ve always deserved. This time, my claws are out and I’m ready to show off.”</p>
+<p>Our hands on time began by putting me firmly in Leon’s shoes, and as you’d expect, the action ramps up almost immediately. Leon is armed to the teeth: a large gun, a trusty hatchet, and the confidence of someone who knows exactly what they’re doing. He swings that hatchet with reckless abandon, carving through enemies in a way that almost made me feel like I was playing Devil May Cry, albeit grounded by one important limitation. Overuse dulls the blade, forcing you to think about when to commit and when to fall back.</p>
 
-<p>The digital version will cost you $19.99 but you can <a href="https://atari.com/products/bubsy-4d-deluxe-physical-edition?variant=47396647698597">pre-order a collector’s edition</a> ofBubsy 4D&nbsp;for Nintendo Switch and Switch 2. The physical edition, which includes a game cartridge, tuck-in exterior box, user manual, poster and artbook, for $39.99/€39.99/£34.99 on Nintendo Switch and $49.99/€49.99/£44.99&nbsp;on Nintendo Switch 2</p>
 
-		
-		<div id="gallery-1"><dl>
-			<dt>
-				<a href="https://www.thesixthaxis.com/2026/01/26/bubsy-4d-launches-this-may/bubsy-4d_screenshot_02/" data-slb-active="1" data-slb-asset="587383452" data-slb-internal="468164" data-slb-group="468160"></a>
-			</dt>
-				<dd id="gallery-1-468164">
-				Bubsy 4D
-				</dd></dl><dl>
-			<dt>
-				<a href="https://www.thesixthaxis.com/2026/01/26/bubsy-4d-launches-this-may/bubsy-4d_screenshot_06/" data-slb-active="1" data-slb-asset="404784134" data-slb-internal="468165" data-slb-group="468160"></a>
-			</dt>
-				<dd id="gallery-1-468165">
-				Bubsy 4D
-				</dd></dl><dl>
-			<dt>
-				<a href="https://www.thesixthaxis.com/2026/01/26/bubsy-4d-launches-this-may/bubsy-4d_screenshot_07/" data-slb-active="1" data-slb-asset="323151908" data-slb-internal="468166" data-slb-group="468160"></a>
-			</dt>
-				<dd id="gallery-1-468166">
-				Bubsy 4D
-				</dd></dl><br>
-		</div>
+<p>That restriction keeps the melee from becoming mindless, but the dulling blade rarely feels punishing. If the hatchet isn’t enough, Leon can simply blast his way out of trouble. The balance between melee and gunplay feels deliberate, encouraging aggression without completely abandoning the survival roots of the series.</p>
+<p>At this stage in his career, Leon feels closer to John Wick than a traditional survival horror protagonist. He handles his weapons with extreme flair, holding his gun at angles that suggest years of hard-earned muscle memory. Every movement communicates experience. This is a man who has survived Raccoon City, cults, bio-weapons, and government conspiracies. Seeing his progression realised so confidently is genuinely satisfying. It feels earned.</p>
 
-<p><em>Source: Press release</em></p>
+<p>That contrast becomes even more apparent when Requiem switches perspectives back to Grace Ashcroft, and it’s here that the game really starts to show its ambitions.</p>
+<p>In many ways, Resident Evil Requiem feels like two games sharing the same world. Grace’s sections are deliberately slower, more methodical, and far more vulnerable. Her default perspective is first person, and the reasoning is obvious: first person is scarier. You can’t see your own back. You feel boxed in. Every sound feels closer than it should.</p>
+<p>This isn’t new territory for Resident Evil, but what Requiem does smartly is allow you to play both characters from whichever perspective you prefer. That flexibility feels like Capcom fully embracing the idea of a “customised horror experience.” Want more action? Switch to third person. Want maximum tension? First person has you covered. It’s a smart evolution of what Village experimented with, but this time it’s reinforced by having two protagonists who are fundamentally different.</p>
+
+<p>Grace, unlike Leon, is a fledgling FBI agent. This is her first real exposure to this kind of horror, and the game communicates that clearly through both mechanics and animation. Her movements are cautious. Her reactions feel human. Her inventory space is limited, meaning classic Resident Evil backtracking returns in full force, unlike Leon who is still lugging around his very large attache case!</p>
+<p>You’ll be visiting item boxes often, making hard decisions about what to carry, and constantly weighing risk versus reward. Ammo and health are scarce, and I never once felt truly comfortable while exploring. Every encounter demanded consideration, because the zombies are aggressive and varied.</p>
+<p>One standout moment had me entering a bar area where I spotted a female zombie dressed in white, quietly humming to herself. It was unsettling in that distinctly Resident Evil way. The moment she noticed me, she began screaming and suddenly I was swarmed. That calm-to-chaos transition is something the series has always done well, and Requiem nails it.</p>
+
+<p>Enemy variety plays a big role here too. There’s a clear nod to Resident Evil Remake’s Crimson Heads – zombies that can return later, faster and far more dangerous if they aren’t properly dealt with. These new variants scramble like wild animals, leaping over obstacles, swiping relentlessly, and forcing you to rethink how you approach combat. They are a nightmare in the best possible way.</p>
+<p>Dealing with them ties into one of Requiem’s more interesting new mechanics: blood collection. Blood is now a resource, used in crafting alongside traditional materials. You can find it in buckets scattered throughout the environment or harvest it from defeated enemies. How you kill a zombie affects how much blood you can extract, adding another layer of strategy to encounters. One item that can be crafted is a neat injector that once inserted into a zombie, will make it explode in a shower of blood… yum.</p>
+<p>It’s an elegant system that reinforces Resident Evil’s identity: everything has a cost, and efficiency matters.</p>
+
+<p>Of course, no Resident Evil game would be complete without puzzles, and the section I played delivered exactly what you’d hope for. Nothing overly obtuse, nothing insultingly simple; just solid, classic puzzles that reward observation and attention to detail. Combined with light backtracking, it all feels comfortably familiar.</p>
+<p>Requiem is stunning to behold. Every surface gleams. The lighting is moody and precise. Blood splatter feels tactile. Every little detail is ridiculous, right down to seeing individual beard hairs on Leon’s face. It’s one of those games where you constantly stop to take in the surroundings, even when you really shouldn’t.</p>
+<p>Naturally, there are larger threats lurking. What little I saw of the primary antagonist was intriguing enough to make me want answers. There’s also a giant, bloated zombie that stalks you through corridors, shouting and taunting as it goes. It barely fits through doorways, slowly forcing its way through tight spaces, and if it catches you, that’s it.</p>
+<p>The idea of zombies now being able to chin wag is… unsettling. And I’m very curious to see how that’s explained.</p>
+<p>After a couple of hours with Grace, control switches back to Leon — and the tonal whiplash is incredible. That same hulking enemy? Leon just fights it. Head-on.&nbsp;His action heavy gameplay is relentless: Crimson Heads, window dives, grenades flying everywhere, and some of the most stylish gunplay I’ve experienced in a Resident Evil game. It was pure adrenaline.</p>
+
+<p>What really strikes me about Resident Evil Requiem is how confidently it embraces this division. These days, the fanbase is split: tank-control purists, third-person lovers, first-person fans, and those who just want more Resident Evil, regardless of format. Requiem feels like Capcom acknowledging all of them and saying, “Why not?”</p>
+<p>For me, this is an evolution. Not a reinvention, not a rejection of the past, but a synthesis of everything the series has learned.</p>
+<p>Resident Evil Requiem will divide people, but in a healthy way. For me, this is an evolution that is a synthesis of everything the series has learned. It’s bold, confident, and unafraid to let different playstyles coexist. And honestly? It’s just good to have Leon back, to revisit Racoon City, and to be introduced to a new protagonist who feels genuinely tied to the series’ roots.</p>
+<p>Resident Evil: Outbreak was a banger, and I cannot wait to see how Requiem ties everything together.</p>
 
 
 <!-- CONTENT END 1 -->
 
 		
-	</div></div><br/><br/>https://www.thesixthaxis.com/2026/01/26/bubsy-4d-launches-this-may/]]></content:encoded>
+	</div></div><br/><br/>https://www.thesixthaxis.com/2026/01/26/resident-evil-requiem-preview-action-and-horror-in-perfect-harmony/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
