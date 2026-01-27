@@ -4,9 +4,488 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Tue, 27 Jan 2026 15:20:05 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 27 Jan 2026 15:48:33 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Splatoon 3 Update 11.0.0 brings Flow Aura farming, health bars and smaller hit boxes]]></title>
+            <link>https://www.thesixthaxis.com/2026/01/27/splatoon-3-update-11-0-0-brings-flow-aura-farming-health-bars-and-smaller-hit-boxes/</link>
+            <guid>1417549</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p><a href="https://www.thesixthaxis.com/tag/splatoon-3">Splatoon 3</a> update 11.0.0 has been released, and Nintendo has made some really interesting changes to the game, adding things like Flow Aura, health bars and tweaking hit box sizes.</p>
+<p>Presumably inspired by the whole “aura farming” slang, players that are doing well in battle are now granted a Flow Aura, which grants the Run Speed Up, Swim Speed Up, Ink Resistance Up and Intensify Action abilities while it lasts. You can extend the effect by defeating more enemies, or getting assists.</p>
+
+
+<p>Speaking of defeating enemies, you no longer have to look to see how splattered enemies are for an indication of their health, because when people take damage, they’ll now have a health bar – this is sensibly hidden when the opponent’s body is not visible, so it won’t reveal obscured people.</p>
+<p>And then there’s a bit of give and take with hit boxes. Hit boxes for squid form are getting a bit smaller, with Nintendo reasoning that players are now more skilled with motion controls than they were a decade ago. At the same time, the projectiles are being tweaked, so that shorter range weapons have larger hit box projectiles, and longer range are more like the same. It means that it’ll be harder for snipers to hit a squid form player, while encouraging the short-ranged weapon players to really get up close and personal.</p>
+<p>Acknowledging that these are some pretty core changes, Nintendo has noted that they anticipate having a smaller point update in the near future to tweak this new balance. In general, I think it’s probably a good update, but I know that having health bars visible is going to annoy purists, so hopefully they’re made optional.</p>
+
+<p>Here’s the Splatoon 3 Update 11.0.0 patch notes:</p>
+<p><strong>Changes to Multiplayer</strong></p>
+<ul>
+<li>Players will now gain a Flow Aura when they do well in battle, such as when they defeat opponents consecutively within a short period of time.
+<ul>
+<li>The Flow Aura lasts for a short amount of time.</li>
+<li>While a player’s Flow Aura persists, its duration will be extended slightly whenever they defeat an opponent or their teammates defeat an opponent they damaged.</li>
+<li>When a player gains a Flow Aura or extends the duration of their Flow Aura, the ground at that player’s feet will be inked with their colour.</li>
+<li>While a Flow Aura persists, the Run Speed Up, Swim Speed Up, Ink Resistance Up and Intensify Action abilities will be applied.</li>
+<li>Continuously getting assists with your allies or inking territory during battles will make it more likely to gain a Flow Aura when defeating opponents.</li>
+</ul>
+</li>
+<li>When an ally or opponent has taken damage, that player’s approximate remaining health will now be displayed.
+<ul>
+<li>Opponents’ remaining health will display for approximately three seconds immediately after taking damage.</li>
+<li>When the main part of an opponent’s body is not visible, such as when they are behind terrain or swimming in ink, their remaining health will not display.
+<ul>
+<li>When things like Thermal Ink or the Point Sensor are revealing an opponent’s position, their remaining health will display even if the player cannot see them.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Slightly decreased the collision detection size for players in swim form to make it harder for opponents’ attacks to hit.</li>
+<li>Expanded the collision detection size for each main weapon’s attacks to make it easier to hit opponents with attacks. Also made it so that the shorter the weapon’s shot flight distance, the greater the increase to the collision detection size will be.</li>
+<li>When attempting to jump a long distance with Super Jump while the Stealth Jump ability is equipped, increased the time required to make the jump by up to one second depending on the distance.
+<ul>
+<li>When jumping from near the player’s base to parts farther in, or vice versa, this will increase the jump time based on the distance.</li>
+<li>The increase is applied to the time spent flying through the air. This will not change the time spent on the ground preparing for the Super Jump.</li>
+</ul>
+</li>
+<li>Adjusted the size of the circle indicating the explosion radius for the Reefslider to the radius of the area that deals 220.0 damage instead of to the radius inked.</li>
+<li>Specifications for some main weapons have changed.</li>
+</ul>
+<div>
+<table>
+<tbody>
+<tr>
+<td>Weapon</td>
+<td>Change Details</td>
+</tr>
+<tr>
+<td>L-3 Nozzlenose<br>
+L-3 Nozzlenose D<br>
+Glitterz L-3 Nozzlenose</td>
+<td>
+<ul>
+<li>Increased the speed of shots by approximately 24% without changing the flight distance.</li>
+<li>Decreased the radius of the ink splatter at the point of impact by approximately 15%.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>Dynamo Roller<br>
+Gold Dynamo Roller<br>
+Starz Dynamo Roller</td>
+<td>
+<ul>
+<li>Increased the inking of spray droplets from horizontal and vertical swings.</li>
+<li>Adjusted the damage falloff rate due to distance to make it possible to deal damage of 100.0 or higher at greater distances than before.</li>
+<li>Increased the amount of ink consumed by horizontal and vertical swings by approximately 17%.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>Blaster<br>
+Custom Blaster<br>
+Gleamz Blaster</td>
+<td>
+<ul>
+<li>Reduced the time when movement is restricted after firing by approximately 1/30th of a second.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>H-3 Nozzlenose<br>
+H-3 Nozzlenose D<br>
+H-3 Nozzlenose VIP-R</td>
+<td>
+<ul>
+<li>Increased maximum damage from 44.0 to 45.0.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>Splat Roller<br>
+Krak-On Splat Roller<br>
+Order Roller Replica</td>
+<td>
+<ul>
+<li>Reduced the amount of time it takes for ink to begin recovering after a horizontal or vertical swing by about 1/30th of a second.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>Heavy Splatling<br>
+Heavy Splatling Deco<br>
+Order Splatling Replica</td>
+<td>
+<ul>
+<li>Increased the radius inked by spray droplets from shots by approximately 12%.</li>
+<li>Increased the radius of the ink splatter at the point of impact by approximately 12%.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>Dark Tetra Dualies<br>
+Light Tetra Dualies</td>
+<td>
+<ul>
+<li>Increased the speed of shots by approximately 19% without changing the flight distance.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>Splat Brella<br>
+Sorella Brella<br>
+Order Brella Replica</td>
+<td>
+<ul>
+<li>Reduced the amount of ink consumed when firing a shot by approximately 9%.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>S-BLAST ’92<br>
+S-BLAST ’91</td>
+<td>
+<ul>
+<li>Decreased the radius of the explosive damage for short flight distance shots by approximately 11%.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<ul>
+<li>Specifications for some special weapons have changed.</li>
+</ul>
+<div>
+<table>
+<tbody>
+<tr>
+<td>Special Weapon</td>
+<td>Change Details</td>
+</tr>
+<tr>
+<td>Reefslider</td>
+<td>
+<ul>
+<li>Increased the radius of the explosion that deals 220.0 damage by approximately 20%.
+<ul>
+<li>There are no changes to the radius of the area that deals 70.0 damage.</li>
+</ul>
+</li>
+<li>Slightly raised the centre point of the explosion to make it harder for opponents to avoid it using a small height difference.</li>
+<li>Decreased the radius inked by the explosion by approximately 7%.</li>
+<li>Decreased the maximum distance of the charge by approximately 19%.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<ul>
+<li>Points required for some special weapons have been changed.</li>
+</ul>
+<div>
+<table>
+<tbody>
+<tr>
+<td>Weapon</td>
+<td>Before</td>
+<td>After</td>
+</tr>
+<tr>
+<td>New Squiffer</td>
+<td>200</td>
+<td>190</td>
+</tr>
+<tr>
+<td>Z+F Splat Charger</td>
+<td>210</td>
+<td>200</td>
+</tr>
+<tr>
+<td>Z+F Splatterscope</td>
+<td>210</td>
+<td>200</td>
+</tr>
+<tr>
+<td>Tri-Slosher Nouveau</td>
+<td>210</td>
+<td>200</td>
+</tr>
+<tr>
+<td>Sloshing Machine</td>
+<td>220</td>
+<td>210</td>
+</tr>
+<tr>
+<td>Splattershot Pro</td>
+<td>180</td>
+<td>190</td>
+</tr>
+<tr>
+<td>S-BLAST ’91</td>
+<td>200</td>
+<td>210</td>
+</tr>
+<tr>
+<td>Mini Splatling</td>
+<td>190</td>
+<td>200</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Changes to SplatNet 3</strong></p>
+<ul>
+<li>Changed the used weapon display under X Rankings to show the most frequently used weapon in X Battles for that mode during a certain period instead of the last used weapon.
+<ul>
+<li>Due to this change, the weapon used to determine the top players for weapons will be changed in the same way.</li>
+</ul>
+</li>
+</ul>
+<p>This update focuses on making changes to battle-related systems and multiplayer balance.</p>
+<p>For information about battle system changes like the Flow Aura, displaying remaining health, collision detection adjustments and extended jump duration for Super Jumps with Stealth Jump, please see the <a title="What’s new in the Splatoon 3 – Version 11.0.0 update?" href="https://www.nintendo.com/en-gb/News/2026/January/What-s-new-in-the-Splatoon-3-Version-11-0-0-update-3011546.html" target="nintendo" rel="noopener">news article</a>.</p>
+<p>Among the balance changes, the updates for the L-3 Nozzlenose and Dynamo Roller are not simple upgrades. Rather, they are performance changes to help those weapons’ unique properties stand out.</p>
+<p>For the L-3 Nozzlenose, we raised the speed of shots to make it easier to utilise the weapon’s unique property: its ability to maximise power by successfully hitting opponents with its three shots. On the other hand, we lowered its inking ability to make it more difficult to fight by lying in wait without proactively approaching opponents or fighting in ways that rely on the rate of turnover for special weapons.</p>
+<p>For the Dynamo Roller, in order to make each of its swings even heavier and more powerful than before, we expanded the area of inking and the area that allows players to defeat opponents with one swing and also increased the amount of ink consumed.</p>
+<p>As for the other main weapons, we have made changes to make them easier to use or to emphasise unique traits among weapons with similar properties.</p>
+<p>For the Reefslider special weapon, we improved its ability to defeat opponents by expanding the area of the explosion capable of defeating opponents in one hit, as well as making it harder to avoid the explosion using a small height difference. On the other hand, we reduced the maximum distance of the charge and decreased the area inked to make it harder to rely on the strategy of taking back Splat Zones using the ink from the explosion by pointing it toward a Splat Zone from a safe area and then charging.</p>
+<p>Because this update includes changes to the multiplayer system that go beyond simple multiplayer balance changes, we anticipate that it will have a bigger impact on gameplay than the average update. For that reason, the next update will be sooner than normal and will focus on changes to multiplayer balance.</p>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+<li>Fixes to Player Controls
+<ul>
+<li>Fixed an issue where, when the Undercover Brella’s canopy broke at the same time as the player switching equipment to their special weapon or the Rainmaker and defeating an opponent, sometimes the brella would enter a state where the canopy recovered immediately no matter how many times it was broken.</li>
+<li>Fixed an issue where, when a player in an unstable wireless environment performed a dualie Dodge Roll from swimming on a wall, sometimes the player who performed the Dodge Roll would disappear on other players’ screens.</li>
+</ul>
+</li>
+<li>Fixes to Multiplayer
+<ul>
+<li>Fixed an issue where, when landing things like ink or bombs on certain positions, sometimes the inking on the player’s screen was drastically different from the inking on other players’ screens.</li>
+<li>Fixed an issue in MakoMart in Clam Blitz mode where it was possible for players to linger on top of the goal.</li>
+<li>Fixed an issue in Bluefin Depot in Splat Zones mode and Clam Blitz mode where it was possible to climb on top of certain terrain using unintended methods.</li>
+<li>Fixed an issue in Urchin Underpass where the electronic bulletin board in the centre of the stage and its supporting pillars blocked things like Ink Storm and Tenta Missiles.</li>
+<li>Fixed an issue in Urchin Underpass where, when certain walls were hit with great momentum, the player was sometimes treated as if they had left the stage and were defeated.</li>
+</ul>
+</li>
+</ul>
+<p><em>Source: <a href="https://www.nintendo.com/en-gb/Support/Nintendo-Switch/Game-Updates/How-to-Update-Splatoon-3-2266003.html">Nintendo</a></em></p>
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div></div><br/><br/>https://www.thesixthaxis.com/2026/01/27/splatoon-3-update-11-0-0-brings-flow-aura-farming-health-bars-and-smaller-hit-boxes/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Valve will face that £656m UK lawsuit accusing them of overcharging Steam customers, as tribunal rules it can go ahead]]></title>
+            <link>https://www.rockpapershotgun.com/valve-will-face-that-656m-uk-lawsuit-accusing-them-of-overcharging-steam-customers-as-tribunal-rules-it-can-go-ahead</link>
+            <guid>1417546</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
+
+
+<header data-component="article-header">
+  
+
+    <div id="main-content">
+  
+
+        <p>Suit alleging the company are using dominant market position to behave "anti-competitively" will rumble on</p>
+
+    </div>
+
+
+  <p>
+
+  <figure>
+        <picture>
+        <source srcset="https://assetsio.gnwcdn.com/steam-workshop-mods-version-control-01.jpg?width=380&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/steam-workshop-mods-version-control-01.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/steam-workshop-mods-version-control-01.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/steam-workshop-mods-version-control-01.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/steam-workshop-mods-version-control-01.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/steam-workshop-mods-version-control-01.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/steam-workshop-mods-version-control-01.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/steam-workshop-mods-version-control-01.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/steam-workshop-mods-version-control-01.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
+        
+      </picture>
+
+        <figcaption>
+          <span>Image credit: <cite>Valve</cite></span>
+        </figcaption>
+
+  </figure>
+  </p>
+
+    
+
+</header>
+  <div data-component="article-content">
+
+
+
+            <p>Valve's lawyers won't be able to file away one of the legal legalings they've been dealing with for a little while now, at least not yet. A tribunal have ruled that the £656m lawsuit brought against the company by digital rights campaigner Vicki Shotbolt and law firm Milberg London LLP last year - <a href="https://www.rockpapershotgun.com/valve-owe-you-44-quid-according-to-a-656-lawsuit-against-the-company-for-allegedly-overcharging-uk-customers">the one</a> that could net UK dwellers who've bought stuff on Steam since early June 2018 up to £44 in compensation - can go ahead.</p>
+<p>As a result, Valve's Lionel Hutzes will have to face the <a href="https://steamyouoweus.co.uk/">lawsuit's accusations</a> that the company have used Steam's "dominant position" in the PC market to behave "anti-competitively", with the end result that regular folks are "paying too much for PC games and in-game content and have lesser PC Game platform alternatives".</p>
+<!--more-->
+<p>As reported by the <a href="https://www.bbc.co.uk/news/articles/cx2g1md0l23o">BBC</a>, Valve had been arguing the case shouldn't get the stamp of approval to proceed to trial. However, a competition appeal tribunal have ruled that the case will be allowed to continue.</p>
+<p>Here's the <a href="https://www.catribunal.org.uk/judgments/16407724-vicki-shotbolt-class-representative-limited-v-valve-corporation-judgment-cpo">summary of the tribunal's judgement</a>, which begins by outlining three key cogs to Shotbolt's accusations. The lawsuit claims that Valve impose platform parity obligations with Steam that stop publishers from selling games on rival stores with better terms. It also accuses Valve of using anti-steering provisions to lock in-game purchases made in Steam games into using the storefront's "application programming interface", wich means payments are subject to Valve’s commission charges. Finally, the lawsuit claims Valve are "imposing excessive commission charges which amount to an unfair price which is then passed on to consumers".</p><p>Valve, meanwhile, argued at this tribunal that Shotbolt's lawsuit hadn't "put forward an adequate methodology for determining Valve’s effective commission charge" and failed to consider how Steam Keys factor in. The company also claimed the suit lacked "an adequate empirical method for determining the effect" of the alleged platform parity obligations. Valve also argued that the Shotbolt's lawsuit lacked a "workable methodology" that Steam users, including minors, could use to identify themselves as being part of the group being claimed on behalf of by the lawsuit.</p>
+<p>Evaluating those three arguments from Valve, the tribunal "accepted that the effect of Steam Keys is a slightly unusual feature in calculating Valve’s effective commission charge and could result in uncertainty in the price alleged to be unfair", but judged that Shotbolt and co "would be able to make a sufficient estimate using data from a range of sources". As far as the platform parity obligations went, the tribunal ruled that the lawsuit "would not simply rely on nebulous economic theory, as claimed by Valve, but rather on a mixture of evidence to support and evaluate a harm that competition law conventionally considers to occur".</p>
+<p>Last of all, the tribunal opted to reject Valve's challenge about the methods of identifying which Steam users were being claimed on behalf of. Though, this came after Shotbolt and co outlined "revisions to the proposed class definition", which "tied the class tightly to the party who has suffered the loss, reducing the potential concern of the record keeping of minors".</p>
+<p>So, on rumbles the case, no doubt feeling refreshed by virtue of having had a room full of people in suits shout big words at each other in relation to it.</p>
+
+        </div>
+
+      </article>
+
+
+
+
+        
+  </div></div><br/><br/>https://www.rockpapershotgun.com/valve-will-face-that-656m-uk-lawsuit-accusing-them-of-overcharging-steam-customers-as-tribunal-rules-it-can-go-ahead]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Anker’s 26,250mAh Power Bank Hits Its First Low of the Year as This 300W Max 3-Port Charger Starts Selling Out Fast]]></title>
+            <link>https://kotaku.com/ankers-26250mah-power-bank-hits-its-first-low-of-the-year-as-this-300w-max-3-port-charger-starts-selling-out-fast-2000663253</link>
+            <guid>1417537</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+              
+              <p>The Anker Prime Power Bank is a 26,250 mAh portable power bank with three ports, a compact Phantom Gray housing, and compatibility with laptops, tablets, and phones. The Anker Prime Power Bank allows you to charge up to 300W through two USB-C ports and one USB-A port, so a notebook, phone, and additional items, such as headphones or earbuds, can charge at the same time without taking turns. It’s small enough to fit into backpacks and carry-on luggage and has a TSA-approved battery size, so you can generally fly with it. There is also a smart display screen on the front of the unit that shows charging information.</p>
+<p><a href="https://shop.kotaku.com/go/6901/">You can find the Anker Prime Power Bank on Amazon today for $171, down from its original $230, which represents a savings of $59 and 26% off the original retail price.</a></p>
+<p><a href="https://shop.kotaku.com/go/6901/" target="_self" rel="sponsored nofollow">See at Amazon</a></p>
+
+<h2>A hefty power bank with plenty of charging power</h2>
+<p><span>The charging configuration on the Anker Prime Power Bank is optimized for rapid charging of larger items while supporting smaller items. One USB-C port delivers up to 140W with a compatible 5A cable for rapid laptop recharging, and the other two USB-C and USB-A ports recharge your phone, earbuds, or other accessories simultaneously. With a maximum of 300W, you can use the bank as a central charging station rather than just to recharge your phone.</span></p>
+<p>The Anker Prime Power Bank was also optimized to charge quickly, allowing the unit to spend more time available for use rather than idling due to discharge. The dual USB-C ports will accept up to 250W of combined input and allow the bank to recharge to approximately 50% in around 13 minutes and fully recharge in approximately 1 hour if you have the correct chargers.</p>
+
+
+
+<p>In addition to displaying how much capacity remains in the bank and the current amount of power it is supplying, a smart display will show the status of each device currently charging via a simple visual display, eliminating the need to guess whether a device is charging. When paired with Anker’s app, you can view charging activity in even greater detail and adjust your usage preferences for how you want power used.</p>
+<p>The flexibility of the overall design allows users to place the Anker Prime Power Bank wherever they want to recharge their devices, including desks, bags, hotel nightstands, and many other locations. The bank’s compact frame is light enough for daily carrying but feels sturdy and substantial when placed next to a laptop with several cables plugged into it. In the box, you will receive the Anker Prime Power Bank, a 3.3-foot-long 240W USB-C to USB-C cable, a travel pouch, a welcome guide, and a 24-month limited hardware warranty. <a href="https://shop.kotaku.com/go/6901/">With the entire package bundled at $171 instead of the usual $230, the Anker Prime Power Bank is an affordable source of portable power in one small unit.</a></p>
+<p><a href="https://shop.kotaku.com/go/6901/" target="_self" rel="sponsored nofollow">See at Amazon</a></p>
+
+                          </div></div><br/><br/>https://kotaku.com/ankers-26250mah-power-bank-hits-its-first-low-of-the-year-as-this-300w-max-3-port-charger-starts-selling-out-fast-2000663253]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Kotaku Is Hiring A Staff Reporter]]></title>
+            <link>https://kotaku.com/kotaku-is-hiring-a-staff-reporter-2000663475</link>
+            <guid>1417531</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+              
+              <p><span><em>Kotaku</em> is seeking an experienced writer and reporter to help drive our coverage of the biggest stories in gaming, focusing on everything from companies and communities to hit releases and the under-covered trends shaping the culture.&nbsp;</span></p> <p><span>This role will regularly cover breaking news, contribute original reporting, and work on big features about the world of video games on a weekly basis. You’ll develop and source specific news beats while also contributing to the rest of the site’s gaming coverage. We want someone who’s as hungry to break the news of the next major blockbuster delay as they are to dig into the fascinating things players are doing in games.&nbsp;</span></p> <p><span>You are a fit for this role if:</span></p> <ul> <li aria-level="1"><span>You can write and edit sharp, accessible stories about gaming’s business side and its cultural footprint, from major acquisitions to niche role-play communities</span></li> <li aria-level="1"><span>You have a punchy writing voice and are familiar with <em>Kotaku</em>’s general tone and subject areas</span></li> <li aria-level="1"><span>You can quickly turn around timely news hits and short analysis pieces that explain why a story matters and what the larger implications of it are</span></li> <li aria-level="1"><span>You’re eager to collaborate with other editors and writers to ensure our coverage is fast, fair, and full of voice</span></li> <li aria-level="1"><span>You have a keen news sense and can identify stories that will resonate with our audience, especially the ones that no one else is paying attention to</span></li> <li aria-level="1"><span>You can exercise strong editorial judgment and have a strong grasp of media law and journalistic best practices</span></li> <li aria-level="1"><span>You bring sharp angles and fresh framing to the day’s headlines, with a sense of humor and wit that matches <em>Kotaku</em>’s style</span></li> <li aria-level="1"><span>You are familiar with the major companies, franchises, and trends in gaming</span></li> <li aria-level="1"><span>You have the editorial sensibility to know when a story needs speed, when it needs depth, and when it needs both</span></li> <li aria-level="1"><span>You have experience developing sources and breaking stories that will surprise, inform, and entertain our readers</span></li> </ul> <p><span>This is a position covered under the collective bargaining agreement with the WGA-E. The salary range for this position is $64,000 – $82,000.</span></p>
+
+ <p><span><em>Kotaku</em>’s US office is located in NYC. We are open to both NYC-based and remote candidates.&nbsp;</span></p> <p><span>**To apply, please email a resume, short cover letter, and 3-5 clips to <a href="https://kotaku.com/cdn-cgi/l/email-protection" data-cfemail="f79d989584b7bc9883969c82d994989a">[email&nbsp;protected]</a>**</span></p>
+                          </div></div><br/><br/>https://kotaku.com/kotaku-is-hiring-a-staff-reporter-2000663475]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Kotaku Is Hiring A Nights And Weekends Editor]]></title>
+            <link>https://kotaku.com/kotaku-is-hiring-a-nights-and-weekends-editor-2000663478</link>
+            <guid>1417528</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+              
+              <p><span><em>Kotaku</em> is seeking an experienced, self-directed writer to help drive our coverage of the most interesting stories in gaming, focusing on everything from companies and communities to hit releases and the latest cultural trends.&nbsp;</span></p> <p><span>The Nights and Weekends Editor will work three weekday evenings (3pm – 11pm ET) and Saturday and Sunday (9am – 5pm ET)</span><span>. </span><span>During the week, you’ll do a mix of writing your own stories and editing stories from staff and freelancers. On the weekends, you’ll focus on fast, smart news writing, covering</span><span> breaking news while also surfacing interesting stories that are going under the radar.&nbsp;</span></p> <p><span>You are a fit for this role if:</span></p> <ul> <li aria-level="1"><span>You consistently file clean copy and have experience editing others</span></li> <li aria-level="1"><span>You have a keen news sense and can identify stories our readers care about, especially ones that aren’t coming from an industry press release&nbsp;</span></li> <li aria-level="1"><span>You have a punchy writing voice and are familiar with<em> Kotaku</em>’s general tone and coverage areas</span></li> <li aria-level="1"><span>You can self-direct, self-publish, and exercise strong editorial judgment while working solo during off-hours&nbsp;</span></li> <li aria-level="1"><span>You bring sharp angles and fresh framing to the day’s headlines, with a sense of humor, wit, and expertise that matches <em>Kotaku</em>’s style</span></li> <li aria-level="1"><span>You are familiar with the major companies, franchises, debates, and trends in gaming</span></li> <li aria-level="1"><span>You have a good grasp of media law and journalistic best practices</span></li> <li aria-level="1"><span>You have the editorial sensibility to know when a story needs speed, when it needs depth, and when it needs both</span></li> </ul> <p><span>This is a position covered under the collective bargaining agreement with the WGA-E. The salary range for this position is $70,000 – $82,000.</span></p>
+
+ <p><span><em>Kotaku</em>’s US office is located in NYC. We are open to both NYC-based and remote candidates.&nbsp;</span></p> <p><span>**To apply, please email a resume, short cover letter, and 3-5 clips to <a href="https://kotaku.com/cdn-cgi/l/email-protection" data-cfemail="076d686574476c6873666c722964686a">[email&nbsp;protected]</a>**</span></p>
+                          </div></div><br/><br/>https://kotaku.com/kotaku-is-hiring-a-nights-and-weekends-editor-2000663478]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Godot 4.6 is here with a fresh look and a promise to prioritize workflow]]></title>
+            <link>https://www.gamedeveloper.com/programming/godot-4-6-is-here-with-a-fresh-look-and-a-promise-to-prioritize-workflow</link>
+            <guid>1417513</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-testid="article-base-contributors"><div data-component="contributors"><p><a data-testid="contributor-name" href="https://www.gamedeveloper.com/author/chris-kerr" data-discover="true">Chris Kerr</a><span data-testid="contributor-title">, <!-- -->Senior Editor, News</span><span data-testid="contributor-title">, <!-- -->GameDeveloper.com</span></p><p data-testid="contributors-date">January 27, 2026</p></div><p><span data-component="icon" data-name="Clock"></span><span>2 Min<!-- --> <!-- -->Read</span></p></div><div data-module="content" data-testid="article-base-body-content"><p data-testid="content-paragraph"><span data-testid="content-text">Engine maker Godot has formally kicked off a new development phase with the launch of Godot 4.6.&nbsp;</span></p><p data-testid="content-paragraph"><span data-testid="content-text">The latest iteration of the increasingly popular engine will strive to deliver more polish, quality-of-life improvements, tighter integration of industry standards, and performance optimization.&nbsp;</span></p><p data-testid="content-paragraph"><span data-testid="content-text">The intention is to create a game engine that better serves developers and their workflow.&nbsp;</span></p><p data-testid="content-paragraph"><span data-testid="content-text">"The new editor theme lets your projects take center stage, while dozens of improvements across the board reduce friction and speed up everyday development," </span><span data-testid="content-text"><a target="_blank" href="https://godotengine.org/releases/4.6/">reads a blog post</a></span><span data-testid="content-text">.&nbsp;</span></p><p data-testid="content-paragraph"><span data-testid="content-text">"Every aspect, from loading assets to editing, debugging, exporting, and testing, has received some love to keep you focused on creating and minimize the time you spend wrestling with UI, or fiddling with external tools and plugins."</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Other notable tweaks include Jolt Physics—the standalone physic engine behind titles like </span><span data-testid="content-text"><span>Death Stranding 2</span></span><span data-testid="content-text">—being upgraded from an 'experimental' option in Godot 4.4 to the default option for all 3D projects in Godot 4.6.&nbsp;</span></p><p data-testid="content-paragraph"><span data-testid="content-text">In addition, the engine's docking system has been unified to allow users to tailor and rearrange interface panels to suit their needs.&nbsp;</span></p><h2 data-testid="content-text" id="A release designed to &quot;reduce friction and speed up everyday development&quot;">A release designed to "reduce friction and speed up everyday development"</h2><p data-testid="content-paragraph"><span data-testid="content-text">A major Screen Space Reflection (SSR) overhaul will also deliver what Godot describes as a "significant leap" in realism, visual stability, and performance. "Not only will your reflective surfaces look more realistic with better handling of roughness, but the effect will run faster too," continues the blog post.&nbsp;</span></p><p data-component="related-article"><span data-testid="related-article-title">Related:</span><a href="https://www.gamedeveloper.com/programming/rocketwerkz-ceo-predicts-frameworks-not-engines-will-be-future-of-game-development" target="_self" data-discover="true">Rocketwerkz CEO says frameworks, not engines, are the future of game development</a></p><p data-testid="content-paragraph"><span data-testid="content-text">Unique Node IDs have been introduced to ensure Godot can track them reliably even when scenes are reorganized or refactored, while devs will also be able to embed the engine directly into their own applications by using the new LibGodot tool.&nbsp;</span></p><p data-testid="content-paragraph"><span data-testid="content-text">"Whether you’re building a specialized editor, a hybrid application, or embedding Godot into a larger system, LibGodot gives you the flexibility to make it work your way," adds the blog. "The initial release supports Linux, Windows, and macOS, and lays the foundation for deeper integrations and expanded platform support in future releases."</span></p><p data-testid="content-paragraph"><span data-testid="content-text">That really is just the tip of the iceberg. </span><span data-testid="content-text"><a target="_blank" href="https://godotengine.org/releases/4.6/">Visit the Godot website for a full rundown of the latest features and additions in Godot 4.6</a></span><span data-testid="content-text">.</span></p></div><div><h2>About the Author</h2><div data-component="contributor-summary"><p data-testid="contributor-summary-subtitle">Senior Editor, News, GameDeveloper.com</p><div><p data-testid="content-paragraph"><span data-testid="content-text">Game Developer news editor Chris Kerr is an award-winning reporter with over a decade of experience in the game industry. His byline has appeared in notable print and digital publications including Edge, Stuff, Wireframe, International Business Times, and&nbsp;PocketGamer.biz. Throughout his career, Chris has covered major industry events including GDC, PAX Australia, Gamescom, Paris Games Week, and Develop Brighton.&nbsp;</span></p></div></div></div></div><br/><br/>https://www.gamedeveloper.com/programming/godot-4-6-is-here-with-a-fresh-look-and-a-promise-to-prioritize-workflow]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Virtual Boy Nintendo Classics launch on Switch and Switch 2 soon, and we're getting an unreleased F-Zero game by the end of 2026]]></title>
+            <link>https://www.eurogamer.net/virtual-boy-switch-online-launch-lineup-confirmed-2026-plans-teased</link>
+            <guid>1417507</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
+
+
+<header data-component="article-header">
+  
+
+    
+
+
+  <p>
+
+  <figure>
+      <picture>
+        <source srcset="https://assetsio.gnwcdn.com/Virtual-Boy_EhXSle8.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Virtual-Boy_EhXSle8.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Virtual-Boy_EhXSle8.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Virtual-Boy_EhXSle8.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Virtual-Boy_EhXSle8.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Virtual-Boy_EhXSle8.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Virtual-Boy_EhXSle8.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Virtual-Boy_EhXSle8.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Virtual-Boy_EhXSle8.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
+        
+      </picture>
+
+        <figcaption>
+          <span>Image credit: <cite>Nintendo</cite></span>
+        </figcaption>
+  </figure>
+  </p>
+
+    
+
+</header>
+  <div data-component="article-content">
+
+
+
+            <p>One of 2025's strangest announcements from Nintendo was <a href="https://www.ign.com/articles/virtual-boy-nintendo-classics-announced-for-switch-1-and-2-at-nintendo-direct">the return of the Virtual Boy</a>, a hardware (and software) failure that's been reappraised over the years. Many gamers have a soft spot for it, however, so its inclusion in Nintendo Switch Online's offerings probably was an easy decision to make as the video game giant looked to spice the subscription up. Now we have access to the full roster of games available at launch and teases of more to come.</p>
+<p>Via the Nintendo Today app and later YouTube (watch the video below), Nintendo released a new trailer that runs for almost four minutes and details the games coming on 17th February, other classics arriving at a later date, and even two previously unreleased titles.</p>
+
+<figure>
+<p>
+<a aria-label="Virtual Boy – Nintendo Classics – Overview Trailer" data-platform="youtube" href="https://www.youtube.com/embed/nVvaCe4esCQ?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
+<span>Virtual Boy – Nintendo Classics – Overview Trailer</span>
+<template>
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/nVvaCe4esCQ?autoplay=1" frameborder="0" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/nVvaCe4esCQ?autoplay=1" title="Virtual Boy – Nintendo Classics – Overview Trailer">
+</iframe> </template>
+</a>
+</p>
+<a href="https://www.youtube.com/watch?v=nVvaCe4esCQ" rel="noopener" target="_blank">Watch on YouTube</a></figure>
+
+
+<p>Teleroboxer, Galactic Pinball, RED ALARM, GOLF, Virtual Boy Wario Land, 3-D TETRIS, and The Mansion of Innsmouth lead the red charge next month, with Mario Clash, Mario's Tennis, Jack Bros, <a href="https://www.eurogamer.net/games/space-invaders">Space Invaders</a> Virtual Collection, Virtual Bowling, Vertical Force, and V-Tetris coming later. Features like different rendering colours besides red, customisable controls, and rewind are part of the rollout plans too.</p><p>The two previously unreleased games are Zero Racers, a cancelled 3D F-Zero instalment originally meant to launch in 1996, and D-Hopper (originally <a href="https://en.wikipedia.org/wiki/Dragon_Hopper">Dragon Hopper</a>), a top-down action-adventure game that was completed but also shelved in 1996 due to Virtual Boy's commercial failure.</p>
+<p>Though many have expressed disdain for Nintendo's second attempt at making the Virtual Boy happen, it appears nostalgia might make this whole endeavour a success. In any case, it's refreshing to see a major publisher actually make an effort to preserve old games which weren't financially successful.</p>
+<p>If you want to check these out for yourself, you'll need, on top of a Nintendo Switch system (it doesn't matter which), a Nintendo Switch Online + Expansion Pack membership <a href="https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Virtual-Boy-Nintendo-Classics-2915432.html?srsltid=AfmBOorpQ1V1e0QdEiTVPr1ZOHHD7khSuB-iyn2aiwPvKp8Q0oDEtMFX">plus one of the two accessories</a> set to launch on 17th February: the Virtual Boy replica or the cheaper cardboard model, both of which work alongside the hybrid consoles to create the original 3D effects. At the time of writing, there are no plans to make these re-releases available in 2D.</p>
+
+        </div>
+
+  
+      </article>
+
+
+
+  
+
+
+
+
+  <section>
+    <span>Related topics</span>
+
+    
+  </section>
+  </div></div><br/><br/>https://www.eurogamer.net/virtual-boy-switch-online-launch-lineup-confirmed-2026-plans-teased]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[Two Cancelled Virtual Boy Games Coming To NSO In 2026, Including F-Zero Spin-Off]]></title>
             <link>https://www.nintendolife.com/news/2026/01/two-cancelled-virtual-boy-games-coming-to-nso-in-2026-including-f-zero-spin-off</link>
@@ -26,7 +505,7 @@
 <p>The launch line-up is pretty solid too, with <a href="https://www.nintendolife.com/games/virtualboy/golf">Golf</a>, <a href="https://www.nintendolife.com/games/virtualboy/virtual_boy_wario_land">Wario Land</a>, and <a href="https://www.nintendolife.com/games/virtualboy/3d_tetris">3D Tetris</a> all part of the package day-one.</p>
 <hr>
 <p><em>Are you excited for Zero Racers and D-Hopper later in the year? Let us know in the comments</em>.</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:127972,196709 @ 1769526303 --></section></article><div><p>Alana has been with Nintendo Life since 2022, and while RPGs are her first love, Nintendo is a close second. She enjoys nothing more than overthinking battle strategies, characters, and stories. She also wishes she was a Sega air pirate.</p><ul><li><a href="https://www.nintendolife.com/authors/AlanaHagues"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/alanahagues.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('AlanaHagues');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:127972,196709 @ 1769527793 --></section></article><div><p>Alana has been with Nintendo Life since 2022, and while RPGs are her first love, Nintendo is a close second. She enjoys nothing more than overthinking battle strategies, characters, and stories. She also wishes she was a Sega air pirate.</p><ul><li><a href="https://www.nintendolife.com/authors/AlanaHagues"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/alanahagues.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('AlanaHagues');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
 </div></div></div><br/><br/>https://www.nintendolife.com/news/2026/01/two-cancelled-virtual-boy-games-coming-to-nso-in-2026-including-f-zero-spin-off]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
@@ -461,7 +940,7 @@
 
 
 
-<p>Both current and former employees can contact me securely and anonymously at&nbsp;<a href="https://insider-gaming.com/cdn-cgi/l/email-protection" data-cfemail="7f0b10120b1012171a111b1a0d0c10113f0f0d100b1011121e1613511c1012">[email&nbsp;protected]</a>&nbsp;if you would like to weigh in on current events, or share your story.</p>
+<p>Both current and former employees can contact me securely and anonymously at&nbsp;<a href="https://insider-gaming.com/cdn-cgi/l/email-protection" data-cfemail="5723383a23383a3f3239333225243839172725382338393a363e3b7934383a">[email&nbsp;protected]</a>&nbsp;if you would like to weigh in on current events, or share your story.</p>
 
 
 
@@ -676,324 +1155,6 @@
     
   </section>
   </div></div><br/><br/>https://www.eurogamer.net/splatoon-3-new-update-shakes-meta-up-with-big-gameplay-changes]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[NVIDIA RTX Remix Logic Is Out Now, Allowing Modders to Add Dynamic FX to Classic PC Games]]></title>
-            <link>https://wccftech.com/nvidia-rtx-remix-logic-out-now-dynamic-fx-classic-pc-games/</link>
-            <guid>1417384</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			
-			<p>As promised by <strong>NVIDIA</strong>, the new <strong>RTX Remix Logic</strong> feature is now publicly available via an update released for the <strong>NVIDIA app</strong>.</p>
-
-
-
-<p><a href="https://wccftech.com/nvidia-rtx-remix-logic-soon-add-dynamic-fx-responds-to-in-game-events/" target="_blank" rel="noreferrer noopener">Announced earlier this month at <strong>CES 2026</strong></a> for a late January release, RTX Remix Logic enables modders to <strong>dynamically trigger graphics effects in direct response to real-time in-game events</strong>. Critically, it achieves this without requiring source code or engine access, which would otherwise make it a dealbreaker in most cases.</p>
-
-
-
-<p>NVIDIA says there are <strong>over 30 in-game events</strong> that can be triggered, such as:</p>
-
-
-
-<figure><table><thead><tr><th data-align="left">Event Category</th><th data-align="left">Examples</th></tr></thead><tbody><tr><td data-align="left"><strong>Player state</strong></td><td data-align="left">Camera position, camera zoom, player world coordinates</td></tr><tr><td data-align="left"><strong>World bounding boxes</strong></td><td data-align="left">Indoor/outdoor detection, region-specific triggers</td></tr><tr><td data-align="left"><strong>Object state</strong></td><td data-align="left">Any tracked object's position, visibility, and proximity to the player</td></tr><tr><td data-align="left"><strong>Time flow</strong></td><td data-align="left">In-game time of day, elapsed real-time</td></tr><tr><td data-align="left"><strong>Input</strong></td><td data-align="left">Specific key presses by the player</td></tr></tbody></table></figure>
-
-
-
-<p> These triggers can manipulate <strong>over 900 RTX Remix graphics parameters</strong>, including:</p>
-
-
-
-<ul>
-<li>Lighting conditions (time of day, color temperature, intensity)</li>
-
-
-
-<li>Weather systems (rain, snow, fog density, volumetric effects)</li>
-
-
-
-<li>Material properties (displacement, reflectivity, emissiveness)</li>
-
-
-
-<li>Post-processing effects (chromatic aberration, bloom, vignette)</li>
-
-
-
-<li>Path-traced volumetrics (smoke, atmospheric scattering)</li>
-</ul>
-
-
-
-<p>You won't even need to be a professional coder to add RTX Remix Logic to your mods. <strong>NVIDIA has introduced an accessible, no-code node-based interface</strong> where modders can easily drag-and-drop nodes representing triggers and actions, connect cause and effect relationships visually, fine-tune parameters with dedicated sliders and dropdowns, and finally preview all the changes they've made in real time within the Remix editor. More crafty RTX Remix modders will even be able to <strong>create and share custom event triggers</strong>, and new action nodes can be added via plugins, making the framework heavily extensible.</p>
-
-
-
-<p>NVIDIA's demo was created in <strong>Half-Life 2 RTX</strong>, where RTX Remix Logic can trigger a '<strong>Ravenholm multiverse</strong>' whenever the player opens a specific door, as shown below. There are many RTX Remix mods in development (<a href="https://wccftech.com/clive-barkers-undying-rtx-remix-path-tracing-mod-out-now/" target="_blank" rel="noreferrer noopener">we reported a new one for <strong>Clive Barker's Undying</strong> just yesterday</a>); it will be interesting to see which modders decide to add this new system to their mod projects. According to NVIDIA, RTX Remix Logic can be added to <strong>over 165 classic PC games</strong>.</p>
-
-
-
-<figure><p>
-<iframe title="NVIDIA RTX Remix | Remix Logic: Dynamic Lighting &amp; Weather" width="500" height="281" src="https://www.youtube.com/embed/Wl4wSU1S9us?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-</p></figure>
-
-
-
-<p>Today, NVIDIA also shared a small update on new games that support its DLSS (Deep Learning Super Sampling) set of technologies. <strong>Half Sword</strong>, a physics-based medieval combat simulator scheduled to launch <a href="https://store.steampowered.com/app/2397300/Half_Sword/" target="_blank" rel="noreferrer noopener">on Steam Early Access</a> this Friday, will debut with built-in support for <strong>NVIDIA DLSS 4 Multi Frame Generation</strong> with the option to upgrade <strong>Super Resolution</strong> to the second-generation <strong>DLSS 4.5</strong> transformer model via the NVIDIA app.</p>
-
-
-
-<p><strong>Code Vein II</strong>, which is out now in advanced access (<a href="https://wccftech.com/review/code-vein-ii-ps5-review-bonds-across-time-and-wasted-space/" target="_blank" rel="noreferrer noopener">you can find our review here</a>), supports DLSS Super Resolution. The same goes for the <a href="https://wccftech.com/highguard-launch-live-wildlight-entertainment/" target="_blank" rel="noreferrer noopener">newly released free-to-play PvP raid shooter <strong>Highguard</strong></a>, in which GeForce RTX owners can also upgrade Super Resolution to DLSS 4.5 via the app.</p>
-
-			
-			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
-
-		</div></div><br/><br/>https://wccftech.com/nvidia-rtx-remix-logic-out-now-dynamic-fx-classic-pc-games/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Ubisoft Cuts Continue as Voluntary Redundancies Hit Paris Head Office]]></title>
-            <link>https://techraptor.net/gaming/news/ubisoft-paris-voluntary-redundancies</link>
-            <guid>1417381</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><p>Ubisoft is enacting another voluntary redundancy program, but rather than one of the publisher's many studio locations, it's the Paris head office where roles are at risk this time around.</p><p>As spotted by <a href="https://www.gamesindustry.biz/ubisoft-launches-voluntary-redundancy-process-to-cut-200-jobs-from-paris-head-office" target="_blank" rel="nofollow">Gamesindustry.biz</a>, Ubisoft looks to be cutting around 200 staff roles from its Paris location, which constitutes around 18% of the studio's overall staff. That's not an insubstantial cut at all.</p><p>At the moment, the redundancy program is strictly voluntary, but Ubisoft has previous form with following up a <a href="https://techraptor.net/gaming/news/massive-entertainment-ubisoft-layoffs" data-entity-type="node" data-entity-uuid="eb337fd6-aaaa-412a-8249-337dc274de4e" data-entity-substitution="canonical" rel="nofollow">voluntary redundancy</a> initiative by <a href="https://techraptor.net/gaming/news/ubisoft-layoffs-massive-stockholm" data-entity-type="node" data-entity-uuid="4b995302-57da-4b38-b244-d5e338eabf5f" data-entity-substitution="canonical" rel="nofollow">laying off staff who didn't take said redundancy</a>, so there's every chance that'll happen again if not enough Paris staff are enticed.</p><figure role="group">
-<article>
-  
-      
-  
-
-  </article>
-
-<figcaption>Ubisoft is cutting about 200 staff roles from its Paris head office.</figcaption>
-</figure>
-<p>News of Ubisoft's latest voluntary redundancy program comes after the company <a href="https://techraptor.net/gaming/news/prince-of-persia-sands-of-time-remake-canceled" data-entity-type="node" data-entity-uuid="91d63675-e1f4-4624-a716-79db888eb3c6" data-entity-substitution="canonical" rel="nofollow">announced a major restructuring effort</a> last week, with the <a href="https://techraptor.net/gaming/news/prince-of-persia-sands-of-time-remake-arriving-in-january" data-entity-type="node" data-entity-uuid="3014a94f-b7e6-448b-9e28-45fa936df680" data-entity-substitution="canonical" rel="nofollow">long-awaited</a> <em>Prince of Persia: The Sands of Time </em>remake being shut down as part of that effort.</p><p>The game was canned along with several other projects in Ubisoft's pipeline, all as part of an attempt to streamline the studio's output and focus on profitability.</p><p>Ubisoft's decision was <a href="https://techraptor.net/gaming/news/union-calls-for-ubisoft-strike-tomorrow-following-new-plan" data-entity-type="node" data-entity-uuid="7caa1331-487f-43c9-a977-3070ecf2f7c5" data-entity-substitution="canonical" rel="nofollow">met with outrage</a> by French union Solidaires Informatique, along with a call for Ubisoft employees to strike.&nbsp;</p><p>That call was <a href="https://www.lesechos.fr/tech-medias/hightech/ubisoft-les-syndicats-francais-appellent-a-une-greve-massive-du-10-au-12-fevrier-2212033" target="_blank" rel="nofollow">repeated today</a> after the voluntary redundancy program's announcement, and it seems Ubisoft employees have indeed voted in favor of action, with the strike due to take place between February 10th and 12th.</p><figure role="group">
-<article>
-  
-      
-  
-
-  </article>
-
-<figcaption>Ubisoft canceled its <em>Prince of Persia: The Sands of Time </em>remake last week.</figcaption>
-</figure>
-<p>In general, it's not been the best of times for Ubisoft recently, with <a href="https://techraptor.net/gaming/news/ex-assassins-creed-boss-suing-ubisoft" data-entity-type="node" data-entity-uuid="da42bb57-e4f1-4a65-91eb-9ce61dfcfee5" data-entity-substitution="canonical" rel="nofollow">impending lawsuits</a> from former execs, studio <a href="https://techraptor.net/gaming/news/ubisoft-halifax-shutdown" data-entity-type="node" data-entity-uuid="5c381dd9-8d80-4d19-ac2f-5c64bbb6ef55" data-entity-substitution="canonical" rel="nofollow">shutdowns</a>, and <a href="https://techraptor.net/gaming/news/ubisoft-creative-houses-q1-financials" data-entity-type="node" data-entity-uuid="acd9f3a1-9a63-4e42-9b91-122a243964e9" data-entity-substitution="canonical" rel="nofollow">disappointing financial results</a> all lining up outside the publisher's door.</p><p>If Ubisoft continues at this pace, I can't imagine the remaining employees will be particularly happy or comfortable, which could cause further problems for the company down the line. Stay tuned for more on this and all other things Ubisoft.</p></div><div><p><span><div>
-       
-    <p>Joe has been writing for TechRaptor for several years, and in those years has learned a lot about the gaming industry and its foibles. He’s originally an… <a href="https://techraptor.net/author/joseph-allen">More about Joseph</a></p>
-  </div></span></p></div></div><br/><br/>https://techraptor.net/gaming/news/ubisoft-paris-voluntary-redundancies]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Hell Express is Death Stranding meets Helldivers meets Pacific Drive - aka, deliver letters to the dead in a combat truck]]></title>
-            <link>https://www.rockpapershotgun.com/hell-express-is-death-stranding-meets-helldivers-meets-pacific-drive-aka-deliver-letters-to-the-dead-in-a-combat-truck</link>
-            <guid>1417378</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
-
-
-<header data-component="article-header">
-  
-
-    
-
-
-  <p>
-
-  <figure>
-        <picture>
-        <source srcset="https://assetsio.gnwcdn.com/Hell-Express.jpg?width=380&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Hell-Express.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Hell-Express.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Hell-Express.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Hell-Express.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Hell-Express.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Hell-Express.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Hell-Express.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Hell-Express.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>Arc Games</cite></span>
-        </figcaption>
-
-  </figure>
-  </p>
-
-    
-
-</header>
-  <div data-component="article-content">
-
-
-
-            <p>Quick confession: every time I come up with an absolute Frankenstein’s cocktail of allusion-cobbling Google-bait like the headline for this article, a fairy dies. But that’s OK, because <a href="https://www.rockpapershotgun.com/games/hell-express">Hell Express</a> is a top-down 3D extraction shooter about delivering letters to the dead. When I play it – there’s no release date yet – I will convey a note of apology to the soul of the fairy I’ve just slain with my appalling SEO practices. This may be difficult, however, because many of the underworld’s denizens are hostile. The only thing you’ll be delivering to them is bullets, fire and explosives.</p><!--more-->
-<p>“Hell Express is a PvE isometric extraction shooter for 1-4 players, blending heart-pounding combat, high-risk treasure hunts, and strategic resource management in a world teetering between life and death,” explains <a href="https://store.steampowered.com/app/3564490/Hell_Express/">the Steam page</a>. “As a member of Hell Express—an armed delivery company that sends delivery to <a href="https://www.rockpapershotgun.com/games/limbo">Limbo</a>—you'll choose from a diverse cast of characters, each with unique abilities and personal motives. Dive into the perilous depths of Limbo, complete dangerous deliveries, and scavenge for treasures to upgrade your gear and vehicles. But beware: every decision could mean the difference between survival and ruin.”</p>
-
-<figure>
-<p>
-<a aria-label="Hell Express - Official Gameplay Trailer" data-platform="youtube" href="https://www.youtube.com/embed/kEIHXp_F4VE?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
-<span>Hell Express - Official Gameplay Trailer</span>
-<template>
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/kEIHXp_F4VE?autoplay=1" frameborder="0" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/kEIHXp_F4VE?autoplay=1" title="Hell Express - Official Gameplay Trailer">
-</iframe> </template>
-</a>
-</p>
-<a href="https://www.youtube.com/watch?v=kEIHXp_F4VE" rel="noopener" target="_blank">Watch on YouTube</a></figure>
-
-
-<p>Further down the page they call it a "road trip", with a "Hell Trakker" van you can equip with flamethrowers. There are glimpses of the extraction mechanics, too, with a squad of players holding the line against boglins while hauling somebody's KO'd ass to the van. Still, I think I prefer what I've seen of the stealthy interior stretches. I hope it scrubs up well as a solo play - I don't need any co-op partners trampling on my atmosphere of mounting trepidation. Go watch the van, why don't you.</p><p>Hell Express was announced last year, and developers Full Metal Bagel Games have just signed up with Arc Games as publisher. Arc Games <a href="https://www.rockpapershotgun.com/embracer-sell-neverwinter-and-star-trek-online-devs-cryptic-allowing-them-to-gather-their-party-and-boldly-go-where-saber-went-before">used to be part of Embracer</a>, before Embracer fell into a giant, self-dug hole of layoffs and restructuring. They and <a href="https://www.rockpapershotgun.com/games/star-trek-online">Star Trek Online</a> developers Cryptic are now part of Project Golden Arc, an operation run by members of the Arc Games management team with funding from XD Inc. </p>
-<p>As for Full Metal Bagel, they apparently include “industry veterans who’ve worked on highly acclaimed titles like <a href="https://www.rockpapershotgun.com/games/the-last-of-us-part-2">The Last of Us Part II</a>, Assassin’s Creed Origins, Honor of Kings, and more.” As ever with these things, it’s unclear whether “veterans” here means people whose contributions to those games were significant enough to imply anything substantial about the game they're making now.</p>
-<p>A quick LinkedIn trawl reveals that Full Metal Bagel’s art director is Keyi Li, who was a senior concept artist at Ubisoft and Tencent. I do like the art direction of Hell Express. There’s an enticing balance of crisp military tech, convoluted and decayed layouts, and paranormal fixtures or interruptions. Did you see the queue of petrified people by the derelict bus in the announcement trailer? I thought that was one of the better queues of petrified people I’ve seen in a game – probably, one of my top three.</p>
-
-<figure>
-<p>
-<a aria-label="Hell Express | Publisher Announcement" data-platform="youtube" href="https://www.youtube.com/embed/WTcTosMf42M?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
-<span>Hell Express | Publisher Announcement</span>
-<template>
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/WTcTosMf42M?autoplay=1" frameborder="0" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/WTcTosMf42M?autoplay=1" title="Hell Express | Publisher Announcement">
-</iframe> </template>
-</a>
-</p>
-<a href="https://www.youtube.com/watch?v=WTcTosMf42M" rel="noopener" target="_blank">Watch on YouTube</a></figure>
-
-
-<p>Look out for a Hell Express playtest this spring. If you’re keen on such dreary, darkling spectacles, you might also like End Of Abyss, which I <a href="https://www.rockpapershotgun.com/end-of-abyss-is-a-dark-soulsy-shooter-spawned-from-the-bowels-of-little-nightmares">sampled at SGF last year</a>. A fairy probably died for that headline, too.</p>
-
-        </div>
-
-      </article>
-
-
-
-
-        
-  </div></div><br/><br/>https://www.rockpapershotgun.com/hell-express-is-death-stranding-meets-helldivers-meets-pacific-drive-aka-deliver-letters-to-the-dead-in-a-combat-truck]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[This Ryzen 7 Mini PC (32GB RAM, 1TB SSD) Drops to Its Lowest Price and Is Selling Fast as a Mac Mini Alternative]]></title>
-            <link>https://kotaku.com/this-ryzen-7-mini-pc-32gb-ram-1tb-ssd-drops-to-its-lowest-price-and-is-selling-fast-as-a-mac-mini-alternative-2000663260</link>
-            <guid>1417366</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-              
-              <p>Desk space is a luxury these days, especially for people working from home or studying in smaller apartments. A full-size tower PC can feel excessive when all you really need is reliable performance which you can get from something more compact. Mini PCs solve that problem neatly, and the ACEMAGIC Mini PC is a strong example of how much power can fit into a surprisingly small box. <a href="https://shop.kotaku.com/go/6899/">Right now, it’s also much cheaper than usual, thanks to Amazon discounts that shave as much as $240 off select configurations.</a></p>
-<p>The first thing you notice about the ACEMAGIC Mini PC is its size. It’s compact enough to sit unobtrusively on a desk, tuck onto a shelf, or mount behind a monitor. It works for students, professionals, or really anyone building a clean, minimalist workspace.</p>
-<p>ACEMAGIC is offering multiple configurations to suit different needs and budgets.</p>
-<p><a href="https://shop.kotaku.com/go/6899/" target="_self" rel="sponsored nofollow">See at Amazon</a></p>
-<p><strong>The entry-level option comes with 16GB of RAM and a 512GB SSD, powered by an AMD Ryzen 7 6800H processor with integrated graphics</strong>. This setup is more than capable of handling everyday tasks like web browsing, document editing, video streaming, and light creative work. It normally sells for $459, but the current discount drops the price to $329, marking a 28% savings.</p>
-
-<p>Users who need extra power can step up to the higher-end model, which includes 32GB of RAM and a 1TB SSD. This version runs on the AMD Ryzen 7 H 255 processor and is better suited for heavier multitasking, larger and more plentiful files, and more demanding applications. Its usual $759 price tag has been cut to $519, a 32% discount that brings premium specs into a far more approachable range. Storage expansion is also supported, with room to add an additional SSD for up to 4TB total capacity.</p>
-<h2>Small Stature, Big Performance</h2>
-<p>In daily use, performance feels snappy and responsive. The system handles office software, photo editing, and multitasking without slowing down, particularly in the 32GB configuration. Windows 11 Pro comes preinstalled, so setup is quick and straightforward right out of the box.</p>
-
-
-
-<p>Display options are well supported. Using USB4 Type-C or DisplayPort 2.0, it can drive an 8K display at 60Hz. An HDMI port supports 4K at 60Hz. The three together means up to three monitors can be connected at once without any extra adapters.</p>
-<p>Wi-Fi 6E and Bluetooth 4.2 keep wireless connections fast and stable, while six USB 3.2 ports provide enough room for wired peripherals. Cooling is handled by dual centrifugal fans, a layered fin design, and a dedicated aluminum heatsink for the SSD, keeping noise and temperatures under control.</p>
-<p>For anyone looking to reclaim desk space without giving up performance, the ACEMAGIC Mini PC is worth a look—especially with current discounts pushing the top configuration down to just $519.</p>
-<p><a href="https://shop.kotaku.com/go/6899/" target="_self" rel="sponsored nofollow">See at Amazon</a></p>
-
-                          </div></div><br/><br/>https://kotaku.com/this-ryzen-7-mini-pc-32gb-ram-1tb-ssd-drops-to-its-lowest-price-and-is-selling-fast-as-a-mac-mini-alternative-2000663260]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[UK Court Rules Stealing RuneScape Gold Is Criminal Theft in Case That Could Have Wider Repercussions for the Video Game Industry]]></title>
-            <link>https://www.ign.com/articles/uk-court-rules-stealing-runescape-gold-is-criminal-theft-in-case-that-could-have-wider-repercussions-for-the-video-game-industry</link>
-            <guid>1417363</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-cy="page-header"><h2 data-cy="article-sub-headline">Landmark case could have huge repercussions for the wider industry.</h2></div><div><section data-cy="article-content" data-autopogo="true"><p data-cy="paragraph">A UK court has ruled that the unauthorized stealing of in-game currency can be legally classified as criminal theft.</p><p data-cy="paragraph">Former Jagex developer Andrew Lakeman was charged with allegedly stealing 705 billion Gold from almost 70 RuneScape players, with a real-world value of over half a million pounds, equivalent to around $750,000. He then sold this currency online for Bitcoin.</p><p data-cy="paragraph">Although Lakeman had no access to player accounts in his position at Jagex as a content developer, he allegedly accessed them by "hacking and/or using credentials of members of the account recovery team." In all, 68 players allegedly lost gold to Lakeman, starting around 2018.</p><output data-cy="article-video"></output><p data-cy="paragraph">Here comes the science bit: the defendant's defence claimed that the in-game currency could not be classed as property under the definition of the UK's Theft Act, and initially, the court agreed, concluding that as RuneScape gold is not real — or "pure information" or "knowledge" as it's legally defined — it could not technically be stealable.</p><p data-cy="paragraph">The judge at the time also deemed RuneScape's supply of Gold as being infinite, and it wasn't "rivalrous" given that having a piece of Gold doesn't deprive another player of getting Gold, too. The Court of Appeal, however, disagreed and last week handed down a <a href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2026/4" data-cy="styled-link" target="_blank" rel="noopener noreferrer"><u>judgment</u></a> while explaining its reasoning.</p><p data-cy="paragraph">"We differ from the Judge in his reasoning for reaching the contrary conclusion on rivalrousness. The two reasons which the Judge gave in his ruling do not, with respect, bear analysis," Judge Popplewell wrote. "The first was that 'one gold piece is like any other, and their supply is infinite.' This does not, however, distinguish them from many other forms of rivalrous property. One paper clip from a given manufacturer is like any other; and the manufacture and supply of them infinite, in the sense that is not capped at any finite number. Yet each paper clip constitutes property. The same is equally true of gold pieces."</p><p data-cy="paragraph">"[RuneScape's gold is] properly described as something which can be stolen as a matter of normal use of language," the judgment added. "They do not fall within any of the established exceptions. They are not 'pure knowledge:' functionally, they exist as identifiable assets distinct from the code which gives rise to them and outside the minds of people. There is no good policy reason for excepting them from the category of property which can be stolen."</p><p data-cy="paragraph">The judgment concluded: "On the contrary, they are assets which have an ascertainable monetary value and which may be traded for that value both in the game and outside the game. Within the rules of the game they represent money’s worth as the product of purchase of a bond. Outside the game they are regularly traded for money’s worth. They are capable of being subject to dishonest dealing which deprives their possessor of their use and value. It would be surprising and unsatisfactory if such dishonest dealing did not amount to the offence of theft."</p><p data-cy="paragraph">It's a judgment that could have profound implications for the games industry, as up until now, vendors that sell (or re-sell) in-game currency have existed in a grey market wherein <em>technically,</em> no theft has occurred if the digital asset stolen did not meet the definition of an intangible item under the definitions of theft in that country. The dubious line of when ownership of any such in-game currency transfers from the developer to the player — if at all — further compounds an already complex issue, too.</p><p data-cy="paragraph">With the issue of whether removing gold from player accounts constituted theft now settled, the case against Lakeman can proceed.</p><p data-cy="paragraph"><em>Vikki Blake is a reporter for IGN, as well as a critic, columnist, and consultant with 15+ years experience working with some of the world's biggest gaming sites and publications. She's also a Guardian, Spartan, Silent Hillian, Legend, and perpetually High Chaos. Find her at </em><a href="https://bsky.app/profile/vixx.bsky.social" data-cy="styled-link" target="_blank" rel="noopener noreferrer"><em>BlueSky</em></a><em>.</em></p></section><div><h3 data-cy="title3"><svg data-cy="icon-logo" viewBox="0 0 76 24" title="IGN"><title>IGN Logo</title><path fill="currentColor" stroke="none" d="M5.38 7.65a7.85 7.85 0 0 1 2.26-2.26c.13-1.18.31-2.26.52-3.21a10.605 10.605 0 0 0-6 6c.95-.22 2.03-.39 3.21-.52M16.34 5.36v.02c.9.59 1.67 1.37 2.27 2.27 1.18.13 2.26.31 3.21.52a10.627 10.627 0 0 0-6.02-6.01c.22.95.4 2.02.54 3.2M7.64 18.62c-.9-.59-1.67-1.37-2.27-2.27h-.03c-1.19-.14-2.26-.32-3.19-.54 1.07 2.75 3.26 4.95 6.01 6.02-.22-.95-.39-2.03-.52-3.21M18.64 16.35h-.03c-.59.9-1.37 1.67-2.27 2.27v.03c-.14 1.17-.32 2.25-.54 3.19a10.59 10.59 0 0 0 6.03-6.03c-.94.22-2 .4-3.19.54M10.04 0h3.9c.85 1.85 1.2 4.59 1.3 5.52.04.22.06.43.06.63L12 9.11 8.7 6.15c0-.17.02-.35.05-.55.1-.95.43-3.75 1.29-5.61M8.7 17.83c0 .17.02.35.05.55.1.95.43 3.75 1.29 5.61h3.9c.85-1.84 1.2-4.59 1.3-5.52.04-.22.06-.43.06-.64L12 14.87l-3.3 2.96ZM6.16 8.68c-.17 0-.35.02-.55.05-.95.12-3.75.45-5.61 1.31v3.9c1.84.85 4.59 1.19 5.52 1.3.22.04.43.06.64.06L9.11 12 6.16 8.7ZM24 10.02c-1.86-.86-4.66-1.19-5.61-1.29-.2-.03-.38-.05-.55-.05l-2.96 3.3 2.96 3.3c.2 0 .41-.02.64-.06.93-.11 3.68-.45 5.52-1.3v-3.9Z"></path><path fill="currentColor" stroke="none" d="M42.83 13.9V10h10.45c1.06 0 1.93.86 1.93 1.92v4.63c0 2.38-1.91 4.36-4.33 4.36h-6.69c-4.96 0-8.97-4-8.97-8.94s4.04-8.95 8.98-8.95h10.36v4.11H44.2c-2.67 0-4.86 2.17-4.86 4.84s2.16 4.83 4.86 4.83h6.91v-2.91h-8.27ZM33.86 3h-4.07v16.02c0 1.05.86 1.91 1.91 1.91h2.15V3M74.37 3.01h-2.18v13.81s0 .08-.03.11a.29.29 0 0 1-.24.14c-.09 0-.16-.04-.25-.15L64.83 4.93a4.347 4.347 0 0 0-3.72-2.11h-.07c-2.39 0-4.32 1.93-4.32 4.32v11.88c0 1.05.86 1.91 1.91 1.91h2.17V7.14s.02-.09.04-.13a.29.29 0 0 1 .24-.14c.09 0 .18.03.24.14l6.88 12.07c.76 1.27 2.12 2.05 3.69 2.05h.07c2.39 0 4.32-1.93 4.32-4.32V4.92c0-1.05-.85-1.91-1.91-1.91"></path></svg>Recommends</h3></div></div><div><h3 data-cy="object-summary-embed-title">In This Article</h3></div></div><br/><br/>https://www.ign.com/articles/uk-court-rules-stealing-runescape-gold-is-criminal-theft-in-case-that-could-have-wider-repercussions-for-the-video-game-industry]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Dr Disrespect Says His Fake Highguard Preview Badge Photo Was Just 'Poking Fun' After Dev Confirms He Was Not Invited to Play Early]]></title>
-            <link>https://www.ign.com/articles/dr-disrespect-says-his-fake-highguard-preview-badge-photo-was-just-poking-fun-after-dev-confirms-he-was-not-invited-to-play-early</link>
-            <guid>1417360</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><section data-cy="article-subtitle" data-autopogo="true"><p data-cy="paragraph">The developer of <a data-cy="styled-link" href="https://www.ign.com/games/highguard">Highguard</a> has confirmed streamer Dr Disrespect did not attend a preview event after he created a fake badge and pretended to have been invited to play the game early.</p><p data-cy="paragraph">On January 24, Dr Disrespect (real name Guy Beahm), tweeted to say: “Last week we took the Lambo to LA to check out #Highguard. Monday, January 26th at 10am PST, we enter another dimension! Yayayaya.”</p><blockquote data-theme="light">— Dr Disrespect (@DrDisrespect) <a href="https://twitter.com/DrDisrespect/status/2015156898040049967?ref_src=twsrc%5Etfw" data-cy="styled-link" target="_blank" rel="noopener noreferrer">January 24, 2026</a></blockquote> <p data-cy="paragraph">That comment, which pointed to Highguard’s confirmed release date, came alongside an image of a supposed Highguard event badge, which some have speculated may have been generated by AI.</p><p data-cy="paragraph">Following Highguard’s launch, questions were raised about the validity of Dr Disrespect’s post. Then, Wildlight Entertainment creator manager Chin Pua <a href="https://x.com/thingscp/status/2015884206329463060" data-cy="styled-link" target="_blank" rel="noopener noreferrer">took to X / Twitter</a> to confirm Dr Disrespect had not attended the event, and that the badge was not official. "I can confirm DDR was not invited to any Highguard event past or present," Pua said, "and the badge was not an official badge."</p><p data-cy="paragraph">So why did Dr Disrespect post the tweet and its image? In a <a href="https://www.youtube.com/live/jaHFgbgGqaw?si=tRaUr9hBxubnMqbL" data-cy="styled-link" target="_blank" rel="noopener noreferrer">stream playing Highguard yesterday</a>, he laughed the post off as a joke, and expressed disbelief at the social media controversy it had generated.</p><output><figure><a href="https://assets-prd.ignimgs.com/2026/01/27/gettyimages-1555295895-1769516265043.jpg" target="_blank" rel="noopener noreferrer"></a><figcaption data-cy="caption">Dr Disrespect has said his Highguard tweet was a joke. Photo by Matt Thomas/San Diego Padres/Getty Images.</figcaption></figure></output><p data-cy="paragraph">Dr Disrespect said on-stream: “‘Last week we took the Lambo to LA to check out #HighGuard.’ That's all we said. Did we say we went to the event? Did we say we got hands on? Did I say I was going to give you my review and feedback today? Huh? Did we say we were going to give our feedback and review today? ‘We got hands-on Highguard.’ Did I say that? Did we play the game? No. We just put together a photo poking fun. All these f***ing people took it seriously. Holy s**t. How brain dead is this f***ing industry? How stupid is this industry?”</p><p data-cy="paragraph">Dr Disrespect went on to hit out at his critics, defend his current brand, and insist he remains relevant. Dr Disrespect returned to YouTube in September 2024 three months after he was demonetized and suspended from the YouTube Partner Program following allegations regarding past conduct with a minor. Beahm has denied any wrongdoing.</p><p data-cy="paragraph">Highguard launched last night and <a data-cy="styled-link" href="https://www.ign.com/articles/highguard-launches-to-big-steam-concurrents-but-its-getting-absolutely-destroyed-in-user-reviews">met with big Steam concurrents but also a flood of negative user reviews</a>. Check out IGN’s <a data-cy="styled-link" href="https://www.ign.com/articles/highguard-review"><u>Highguard review-in-progress</u></a> to find out what we think.</p><p data-cy="paragraph"><em>Photo by Matt Thomas/San Diego Padres/Getty Images.</em></p><p data-cy="paragraph"><em>Wesley is Director, News at IGN. Find him on Twitter at @wyp100. You can reach Wesley at wesley_yinpoole@ign.com or confidentially at wyp100@proton.me.</em></p></section></div><br/><br/>https://www.ign.com/articles/dr-disrespect-says-his-fake-highguard-preview-badge-photo-was-just-poking-fun-after-dev-confirms-he-was-not-invited-to-play-early]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Virtual Boy – Nintendo Classics ‘Overview’ trailer]]></title>
-            <link>https://www.gematsu.com/2026/01/virtual-boy-nintendo-classics-overview-trailer</link>
-            <guid>1417357</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div role="main">
-  
-  <article>
-
-    
-<header>
-
-  <div>
-
-    <ul>
-    <li><a href="https://www.gematsu.com/platforms/nintendo/switch-2">Switch 2</a></li>    </ul>
-
-    
-    <p><span>Launch games and more revealed.</span>
-      </p></div>
-
-  
-
-</header>  
-
-<!-- Moved from templates/posts/default.php -->
-
-    <div><p><a title="Platforms > Nintendo [23,475 articles]" href="https://www.gematsu.com/platforms/nintendo">Nintendo</a> has released an overview trailer for the <em>Virtual Boy – Nintendo Classic</em> app, which will launch for <a title="Platforms > Switch [18,237 articles]" href="https://www.gematsu.com/platforms/nintendo/switch">Nintendo Switch</a> Online + Expansion Pack members for <a title="Platforms > Switch 2 [903 articles]" href="https://www.gematsu.com/platforms/nintendo/switch-2">Switch 2</a> on February 17. <span id="more-1021520"></span></p><p>The following titles will be available at launch:</p><ul><li><em>3-D TETRIS</em></li><li><em>Galactic Pinball</em></li><li><em>GOLF</em></li><li><em>The Mansion of Innsmouth</em></li><li><em>RED ALARM</em></li><li><em>Teleroboxer</em></li><li><em>Virtual Boy Wario Land</em></li></ul><p>The following titles will follow later in 2026:</p><ul><li><em>D-HOPPER</em> (previously unreleased)</li><li><em>Mario Clash</em></li><li><em>Mario’s Tennis</em></li><li><em>Jack Bros.</em></li><li><em>SPACE INVADERS VIRTUAL COLLECTION</em></li><li><em>VERTICAL FORCE</em></li><li><em>Virtual Bowling</em></li><li><em>V-TETRIS</em></li><li><em>ZERO RACERS</em> (previously unreleased)</li></ul><p>A “change screen color” feature is also planned to arrive later in 2026.</p><!-- AD: content -->
-        <p>Watch the trailer below.</p><h2><span>Overview Trailer</span></h2><p><strong>English</strong></p><p><iframe title="Virtual Boy – Nintendo Classics – Overview Trailer" width="500" height="281" src="https://www.youtube.com/embed/nVvaCe4esCQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p><p><strong>Japanese</strong></p><p><iframe title="バーチャルボーイ Nintendo Classics タイトル・機能紹介" width="500" height="281" src="https://www.youtube.com/embed/EDHRaE924HQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p></div>
-
-        
-    
-  </article>
-</div></div><br/><br/>https://www.gematsu.com/2026/01/virtual-boy-nintendo-classics-overview-trailer]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Utawarerumono: Shiro e no Michishirube launches May 28 in Japan]]></title>
-            <link>https://www.gematsu.com/2026/01/utawarerumono-shiro-e-no-michishirube-launches-may-28-in-japan</link>
-            <guid>1417354</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-    <ul>
-    <li><a href="https://www.gematsu.com/platforms/pc">PC</a></li><li><a href="https://www.gematsu.com/platforms/playstation/ps5">PS5</a></li><li><a href="https://www.gematsu.com/platforms/nintendo/switch-2">Switch 2</a></li>    </ul>
-
-    
-    <p><span>Long-awaited new Utawarerumono game dated.</span>
-      </p></div><div><p><em><a title="Games > Utawarerumono: Shiro e no Michishirube [6 articles]" href="https://www.gematsu.com/games/utawarerumono-shiro-e-no-michishirube">Utawarerumono: Shiro e no Michishirube</a></em> will launch for <a title="Platforms > PS5 [11,267 articles]" href="https://www.gematsu.com/platforms/playstation/ps5">PlayStation 5</a>, <a title="Platforms > Switch 2 [903 articles]" href="https://www.gematsu.com/platforms/nintendo/switch-2">Switch 2</a>, and <a title="Platforms > PC [25,349 articles]" href="https://www.gematsu.com/platforms/pc">PC</a> via Steam on May 28 in Japan, the latest issue of Weekly Famitsu reveals. <span id="more-1021496"></span></p><p>As <a href="https://www.gematsu.com/2025/11/monochrome-mobius-rights-and-wrongs-forgotten-coming-to-switch-2">previously announced</a>, a Switch 2 version of <em><a title="Games > Monochrome Mobius: Rights and Wrongs Forgotten [13 articles]" href="https://www.gematsu.com/games/monochrome-mobius-rights-and-wrongs-forgotten">Monochrome Mobius: Rights and Wrongs Forgotten</a></em> will be available on the same day.</p><p>In an interview published by <a href="https://www.famitsu.com/article/202601/63880" target="_blank">Famitsu.com</a>, <a title="Companies > AQUAPLUS [221 articles]" href="https://www.gematsu.com/companies/yukes/aquaplus">AQUAPLUS</a> president Naoya Shimokawa said a double pack including both <em>Utawarerumono: Shiro e no Michishirube</em> and <em>Monochrome Mobius: Rights and Wrongs Forgotten</em> will also be available.</p><p>Shimokawa also mentioned that the story should take about 35 hours to complete for those who listen to the voice-overs and carefully read the text, or about 20 to 25 hours for those read faster.</p><p>The game will feature around 100 new songs, and the battle system from <em>Monochrome Mobius: Rights and Wrongs Forgotten</em> will return with new features and refinements based on the “<a title="Genres > Action [3,345 articles]" href="https://www.gematsu.com/genres/action">Action</a> Ring” system that represents the order of actions.</p><p>Here is the game’s story synopsis:</p><!-- AD: content -->
-        <blockquote><p>This is a story from the distant past. No, this is a story from the far future.</p><p>The great state of Yamato—a land ruled by an emperor, a living god.</p><p>Thanks to Oshtor, Mikazuchi, Munechika, and Shunya, the enemy state of Arva Shulan’s assault was repelled, and Yamato’s peaceful days were restored.</p><p>But at a certain point, a shadow of unrest enshrouded Yamato. Strange phenomena arose in various places. Seemingly unrelated events converged at a single point.</p><p>In response, three points overlapped with one another, and once again, a new journey began.</p><p>They still have no way of knowing that, at the end of this journey, there lies a signpost leading to that which will be sung—within a cradle shrouded in pure white mist, the time of slumber was nearing its end.</p></blockquote><p>View a new set of screenshots below.</p><h2><span>Screenshots</span></h2><div id="carousel_1021496"><ul><li><span>❮</span></li><li><span>❯</span></li></ul></div></div></div><br/><br/>https://www.gematsu.com/2026/01/utawarerumono-shiro-e-no-michishirube-launches-may-28-in-japan]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Capcom's Q3 Profits Jump as Monster Hunter Wilds Sales Reach 11m]]></title>
-            <link>https://techraptor.net/gaming/news/capcom-q3-financials-monster-hunter-wilds</link>
-            <guid>1417327</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><p>Capcom has released its Q3 financial results for this fiscal year, and when it comes to consolidated results for the nine-month period as a whole, the studio is doing pretty well, as are some of its core franchises.</p><p>In its latest <a href="https://www.capcom.co.jp/ir/english/data/pdf/explanation/2025/3rd/explanation_2025_3rd_01.pdf" target="_blank" rel="nofollow">financial presentation</a>, Capcom reveals that its sales, operating profit, and ordinary profit are all up by varying degrees when compared to March-December 2024, and the studio is on track for a better 2025-26 fiscal year as a whole, too.</p><p>When it comes to specific games, Capcom says the <em>Resident Evil </em>series, along with <em>Street Fighter 6</em>, "continued to grow" in sales terms, and that <em>Monster Hunter Wilds </em>managed to surpass the 11 million sales mark within the March-December period as well.</p><figure role="group">
-<article>
-  
-      
-  
-
-  </article>
-
-<figcaption><em>Monster Hunter Wilds </em>has picked up another million sales for itself.</figcaption>
-</figure>
-<p>The new sales figure means <em>Monster Hunter Wilds </em>has garnered <a href="https://techraptor.net/gaming/news/monster-hunter-wilds-sales-10m" data-entity-type="node" data-entity-uuid="3047bd12-37c9-4b65-bd39-064968be79fa" data-entity-substitution="canonical" rel="nofollow">another million sales since the end of March</a>, which rather validates Capcom's concern that sales slowed down dramatically after launch, although whether the so-called <a href="https://techraptor.net/gaming/news/monster-hunter-wilds-ps5-barrier-capcom" data-entity-type="node" data-entity-uuid="a0c5ff11-5fb9-4929-804b-8a8d4f7adae0" data-entity-substitution="canonical" rel="nofollow">"PS5 barrier" is to blame</a> is another matter.</p><p>Capcom also says that sales of the <em>Resident Evil 4 </em>remake<em> </em>and <em>Resident Evil Village </em>grew thanks to the announcement of <em>Resident Evil Requiem</em>, which is due to arrive next month. Both games had <a href="https://techraptor.net/gaming/news/resident-evil-4-sales-10m-village-11m" data-entity-type="node" data-entity-uuid="649d13dc-948c-45a4-b39b-fbab7260a9b1" data-entity-substitution="canonical" rel="nofollow">crossed the ten million sales barrier</a> at last count.</p><p>With regards to Capcom's future, the company has a pretty packed slate. The aforementioned <em>Resident Evil Requiem </em>leads the pack, but there's also <em>Monster Hunter Stories 3 </em>and <em>Mega Man Star Force Legacy Collection </em>to look forward to in March.</p><p>In total, Capcom sold 34.64 million game units between March and December 2025, which is around four million units higher than the previous year's total. It's fair to say Capcom is on the up right now.</p><figure role="group">
-<article>
-  
-      
-  
-
-  </article>
-
-<figcaption><em>Resident Evil Requiem </em>leads Capcom's 2026 slate.</figcaption>
-</figure>
-<p>We'll have to wait and see what else Capcom has in store for the year, but for now, the company will no doubt be celebrating this past nine-month period's improvements. Stay tuned for more.</p></div><div><p><span><div>
-       
-    <p>Joe has been writing for TechRaptor for several years, and in those years has learned a lot about the gaming industry and its foibles. He’s originally an… <a href="https://techraptor.net/author/joseph-allen">More about Joseph</a></p>
-  </div></span></p></div></div><br/><br/>https://techraptor.net/gaming/news/capcom-q3-financials-monster-hunter-wilds]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>

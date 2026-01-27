@@ -4,7 +4,7 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Tue, 27 Jan 2026 15:20:05 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 27 Jan 2026 15:48:33 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -45,86 +45,6 @@
 			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
 
 		</div></div><br/><br/>https://wccftech.com/steam-operator-valve-faces-a-656m-class-action-lawsuit-over-its-excessive-30-cut-of-all-steam-sales/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[NVIDIA RTX Remix Logic Is Out Now, Allowing Modders to Add Dynamic FX to Classic PC Games]]></title>
-            <link>https://wccftech.com/nvidia-rtx-remix-logic-out-now-dynamic-fx-classic-pc-games/</link>
-            <guid>1417384</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			
-			<p>As promised by <strong>NVIDIA</strong>, the new <strong>RTX Remix Logic</strong> feature is now publicly available via an update released for the <strong>NVIDIA app</strong>.</p>
-
-
-
-<p><a href="https://wccftech.com/nvidia-rtx-remix-logic-soon-add-dynamic-fx-responds-to-in-game-events/" target="_blank" rel="noreferrer noopener">Announced earlier this month at <strong>CES 2026</strong></a> for a late January release, RTX Remix Logic enables modders to <strong>dynamically trigger graphics effects in direct response to real-time in-game events</strong>. Critically, it achieves this without requiring source code or engine access, which would otherwise make it a dealbreaker in most cases.</p>
-
-
-
-<p>NVIDIA says there are <strong>over 30 in-game events</strong> that can be triggered, such as:</p>
-
-
-
-<figure><table><thead><tr><th data-align="left">Event Category</th><th data-align="left">Examples</th></tr></thead><tbody><tr><td data-align="left"><strong>Player state</strong></td><td data-align="left">Camera position, camera zoom, player world coordinates</td></tr><tr><td data-align="left"><strong>World bounding boxes</strong></td><td data-align="left">Indoor/outdoor detection, region-specific triggers</td></tr><tr><td data-align="left"><strong>Object state</strong></td><td data-align="left">Any tracked object's position, visibility, and proximity to the player</td></tr><tr><td data-align="left"><strong>Time flow</strong></td><td data-align="left">In-game time of day, elapsed real-time</td></tr><tr><td data-align="left"><strong>Input</strong></td><td data-align="left">Specific key presses by the player</td></tr></tbody></table></figure>
-
-
-
-<p> These triggers can manipulate <strong>over 900 RTX Remix graphics parameters</strong>, including:</p>
-
-
-
-<ul>
-<li>Lighting conditions (time of day, color temperature, intensity)</li>
-
-
-
-<li>Weather systems (rain, snow, fog density, volumetric effects)</li>
-
-
-
-<li>Material properties (displacement, reflectivity, emissiveness)</li>
-
-
-
-<li>Post-processing effects (chromatic aberration, bloom, vignette)</li>
-
-
-
-<li>Path-traced volumetrics (smoke, atmospheric scattering)</li>
-</ul>
-
-
-
-<p>You won't even need to be a professional coder to add RTX Remix Logic to your mods. <strong>NVIDIA has introduced an accessible, no-code node-based interface</strong> where modders can easily drag-and-drop nodes representing triggers and actions, connect cause and effect relationships visually, fine-tune parameters with dedicated sliders and dropdowns, and finally preview all the changes they've made in real time within the Remix editor. More crafty RTX Remix modders will even be able to <strong>create and share custom event triggers</strong>, and new action nodes can be added via plugins, making the framework heavily extensible.</p>
-
-
-
-<p>NVIDIA's demo was created in <strong>Half-Life 2 RTX</strong>, where RTX Remix Logic can trigger a '<strong>Ravenholm multiverse</strong>' whenever the player opens a specific door, as shown below. There are many RTX Remix mods in development (<a href="https://wccftech.com/clive-barkers-undying-rtx-remix-path-tracing-mod-out-now/" target="_blank" rel="noreferrer noopener">we reported a new one for <strong>Clive Barker's Undying</strong> just yesterday</a>); it will be interesting to see which modders decide to add this new system to their mod projects. According to NVIDIA, RTX Remix Logic can be added to <strong>over 165 classic PC games</strong>.</p>
-
-
-
-<figure><p>
-<iframe title="NVIDIA RTX Remix | Remix Logic: Dynamic Lighting &amp; Weather" width="500" height="281" src="https://www.youtube.com/embed/Wl4wSU1S9us?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-</p></figure>
-
-
-
-<p>Today, NVIDIA also shared a small update on new games that support its DLSS (Deep Learning Super Sampling) set of technologies. <strong>Half Sword</strong>, a physics-based medieval combat simulator scheduled to launch <a href="https://store.steampowered.com/app/2397300/Half_Sword/" target="_blank" rel="noreferrer noopener">on Steam Early Access</a> this Friday, will debut with built-in support for <strong>NVIDIA DLSS 4 Multi Frame Generation</strong> with the option to upgrade <strong>Super Resolution</strong> to the second-generation <strong>DLSS 4.5</strong> transformer model via the NVIDIA app.</p>
-
-
-
-<p><strong>Code Vein II</strong>, which is out now in advanced access (<a href="https://wccftech.com/review/code-vein-ii-ps5-review-bonds-across-time-and-wasted-space/" target="_blank" rel="noreferrer noopener">you can find our review here</a>), supports DLSS Super Resolution. The same goes for the <a href="https://wccftech.com/highguard-launch-live-wildlight-entertainment/" target="_blank" rel="noreferrer noopener">newly released free-to-play PvP raid shooter <strong>Highguard</strong></a>, in which GeForce RTX owners can also upgrade Super Resolution to DLSS 4.5 via the app.</p>
-
-			
-			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
-
-		</div></div><br/><br/>https://wccftech.com/nvidia-rtx-remix-logic-out-now-dynamic-fx-classic-pc-games/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
