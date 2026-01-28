@@ -4,9 +4,80 @@
         <title>maGaming RSS Feed - wccftech_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech_com</description>
-        <lastBuildDate>Wed, 28 Jan 2026 11:28:52 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 Jan 2026 11:48:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[GTA 4 RTX Remix Mod Now Looks Even Better Thanks to New PBR Textures]]></title>
+            <link>https://wccftech.com/gta-4-rtx-remix-mod-looks-even-better-new-pbr-textures/</link>
+            <guid>1418290</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			
+			<p>A few months after <a href="https://wccftech.com/gta-4-rtx-remix-compatibility-mod-publicly-available-enjoy-path-tracing/" target="_blank" rel="noreferrer noopener">the public release of the <strong>GTA 4 RTX Remix mod</strong></a>, modder <strong>xoxor4d</strong> has now released an add-on mod that injects approximately <strong>18K PBR (physically based rendering) textures</strong>, mostly roughness/normal maps and a few height maps, into the game, further improving its visuals.</p>
+
+
+
+<p>The modder explained that the textures were not manually created. Instead, xoxor4d used a custom build of the GTA 4 RTX Remix mod (<a href="https://github.com/xoxor4d/dxvk-remix/tree/feat/AutoPBR" target="_blank" rel="noreferrer noopener">available here</a> and called AutoPBR) to <strong>dump textures at runtime</strong> whenever they were used for rendering. The compatibility mod provided additional information about each texture via the RTX Remix API. Then, texture associations were built, and a USDA file with overwrites was generated. Further processing of the dumped textures was carried out to convert DX9 normal maps to Remix-compatible normal maps, and specular maps were converted to roughness maps using Python scripts.</p>
+
+
+
+<p>Because of the automatic process behind the PBR conversion, the modder clarified that <strong>some textures 'here and there' might look broken</strong>. Still, in most cases, it's a noticeable improvement over the game's original textures.</p>
+
+
+<figure>
+<div>
+
+<figure>
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/01/Screenshot_2026-01-25_230408-HD-scaled.jpeg"></a></figure>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/01/Screenshot_2026-01-26_180957-HD-scaled.jpeg"></a></figure>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/01/Screenshot_2026-01-25_225619-HD-scaled.jpeg"></a></figure>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/01/Screenshot_2026-01-25_225508-HD-scaled.jpeg"></a></figure>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/01/Screenshot_2026-01-25_225635-HD-scaled.jpeg"></a></figure>
+</figure>
+<div>
+				    		
+				    		
+					    	<p><span>2 of 9</span>
+				    	</p></div>
+</div>
+</figure>
+
+
+
+<p>Physically Based Rendering was not yet a thing in the games industry when <strong>Rockstar</strong> released <strong>Grand Theft Auto 4</strong> in 2008. The first games to use PBR were launched in 2013: <strong>Dontnod</strong>'s sci-fi action game <strong>Remember Me</strong> (made in Unreal Engine 3), <strong>Crytek</strong>'s <strong>Ryse: Son of Rome</strong> (made in CryEngine), and <strong>Guerrilla</strong>'s <strong>Killzone: Shadow Fall</strong> (made in Decima Engine). The big difference is that, with PBR, <strong>materials respond realistically to lighting.</strong> </p>
+
+
+
+<p>This is all the more important for the GTA 4 RTX Remix mod, which <strong>enables path tracing and thus benefits immensely from PBR textures</strong>. Of course, it's not quite the same thing as if a Rockstar artist had handcrafted them.</p>
+
+
+
+<p>In other RTX Remix news, NVIDIA <strong><a href="https://wccftech.com/nvidia-rtx-remix-logic-out-now-dynamic-fx-classic-pc-games/" target="_blank" rel="noreferrer noopener">released the new Logic system yesterday</a></strong>. Modders can now add dynamic visual effects to their mods that are triggered based on in-game events. We'll see if xoxor4d decides to introduce it to this GTA 4 RTX Remix mod.</p>
+
+			
+			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
+
+		</div></div><br/><br/>https://wccftech.com/gta-4-rtx-remix-mod-looks-even-better-new-pbr-textures/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[Against All Odds, Monster Hunter Wilds PC Performance Patch Delivers Significant Performance Improvements, Even on Steam Deck]]></title>
             <link>https://wccftech.com/monster-hunter-wilds-pc-performance-patch-significant-performance-improvements/</link>
