@@ -4,61 +4,39 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Wed, 28 Jan 2026 18:15:13 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 Jan 2026 20:21:13 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Review: AMD's Ryzen 7 9850X3D is a little faster and a lot more power-hungry]]></title>
-            <link>https://arstechnica.com/gadgets/2026/01/review-amds-ryzen-7-9850x3d-is-a-little-faster-and-a-lot-more-power-hungry/</link>
-            <guid>1418728</guid>
+            <title><![CDATA[Why reviving the shuttered Anthem is turning out tougher than expected]]></title>
+            <link>https://arstechnica.com/gaming/2026/01/why-reviving-the-shuttered-anthem-is-turning-out-tougher-than-expected/</link>
+            <guid>1418983</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="main">
-            <article data-id="2137607">
+            <article data-id="2137914">
   
   <header>
   <div>
     <div>
-      <p><span>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><defs><clipPath id="section-gadgets_svg__a"><path fill="none" d="M0 0h40v40H0z"></path></clipPath><clipPath id="section-gadgets_svg__b"><path fill="none" d="M0 0h40v40H0z"></path></clipPath></defs><g clip-path="url(#section-gadgets_svg__a)"><g fill="currentColor" clip-path="url(#section-gadgets_svg__b)"><path d="M38 22c1.1 0 2-.9 2-2s-.9-2-2-2h-2v-6h2c1.1 0 2-.9 2-2s-.9-2-2-2h-2V4h-4V2c0-1.1-.9-2-2-2s-2 .9-2 2v2h-6V2c0-1.1-.9-2-2-2s-2 .9-2 2v2h-6V2c0-1.1-.9-2-2-2S8 .9 8 2v2H4v4H2c-1.1 0-2 .9-2 2s.9 2 2 2h2v6H2c-1.1 0-2 .9-2 2s.9 2 2 2h2v6H2c-1.1 0-2 .9-2 2s.9 2 2 2h2v4h4v2c0 1.1.9 2 2 2s2-.9 2-2v-2h6v2c0 1.1.9 2 2 2s2-.9 2-2v-2h6v2c0 1.1.9 2 2 2s2-.9 2-2v-2h4v-4h2c1.1 0 2-.9 2-2s-.9-2-2-2h-2v-6zm-6 10H8V8h24z"></path><path d="M24.7 17.3 20 12h-7.1c-.6 0-1 .4-1 1s.4 1 1 1h6.3l4.1 4.7L20 22h8v-8z"></path><path d="m15.2 22.7 4.7 5.3H27c.6 0 1-.4 1-1s-.4-1-1-1h-6.3l-4.1-4.7 3.3-3.3h-8v8z"></path></g></g></svg>
-  </span>
-  <span>
-    closing the performance gap, for better or worse
-  </span>
-</p>
-    </div>
+      
 
-    
+      
 
-    <p>
-      The tradeoffs for the $499 9850X3D make it hard to get excited about.
-    </p>
+      <p>
+        Despite proof-of-concept video, EA’s Frostbite Engine servers are difficult to pick apart.
+      </p>
 
-          
-    
-    <div id="caption-2137846">
-    
-    <p>
-      AMD's Ryzen 7 9850X3D.
-
-              <span>
-          Credit:
-
-          
-          Andrew Cunningham
-
-                  </span>
-          </p>
-  </div>
+              
+          </div>
 
     <div>
     
-    <p>
-      AMD's Ryzen 7 9850X3D.
+    <p><em>Anthem</em> may be down, but it's not quite out yet.
 
               <span>
           Credit:
 
           
-          Andrew Cunningham
+          Bioware
 
                   </span>
           </p>
@@ -76,13 +54,21 @@
                       
                       
           
-<p>AMD has released three distinct generations of its 3D V-Cache technology, which initially appeared in the <a href="https://arstechnica.com/gadgets/2022/04/review-ryzen-7-5800x3d-is-an-interesting-tech-demo-thats-hard-to-recommend/">Ryzen 7 5800X3D</a> in 2022. The kernel of the idea has remained the same throughout AMD’s efforts: take an existing desktop processor design and graft 64MB of additional L3 cache onto it.</p>
-<p>This approach disproportionately helps apps that benefit from more cache, particularly games, and the size of the boost that 3D V-Cache gives to game performance has always been enough to offset any downsides these chips have come with. In the four years since the 5800X3D was released, AMD also has steadily chipped away at those disadvantages, adding more CPU cores, improving power consumption and temperatures, and re-adding the typical Ryzen range of overclocking controls.</p>
-<p>AMD’s new Ryzen 7 9850X3D, which launches for $499 starting tomorrow, is the very definition of a mild upgrade. It’s the year-old Ryzen 7 9800X3D but with an extra 400 MHz of turbo boost speed. That’s it. That’s the chip.</p>
-<p>But it is mildly interesting that the 9800X3D’s 5.6GHz boost clock is now 100 MHz&nbsp;<em>higher</em> than that of the Ryzen 7 9700X, the chip’s nearest non-V-Cache equivalent. It’s not nearly as interesting as an actual new chip, but it does mean AMD has closed the last major functional gap between the V-Cache and non-V-Cache Ryzen chips (the pricing gap remains; the 9700X currently retails for around $329).</p>
-<p>It also means that the 9850X3D behaves more like a 9700X in other ways—differences that likely won’t matter to its target audience but which do distinguish it from being “just a faster 9800X3D.”</p>
-<h2>Chip recap</h2>
-<p>The biggest change AMD made to the Ryzen 9000 version of the X3D chips is that the 3D V-Cache is now stacked underneath the CPU silicon rather than on top. This has the benefit of moving the CPU cores closer to your heatsink or AIO loop, making them easier to keep cool.</p>
+<p>On January 12, EA <a href="https://arstechnica.com/gaming/2026/01/biowares-anthem-will-soon-be-completely-unplayable/">shut down the official servers for <em>Anthem</em></a>, making Bioware’s multiplayer sci-fi adventure completely unplayable for the first time since <a href="https://arstechnica.com/gaming/2019/02/anthem-game-review-honestly-its-not-finished/">its troubled 2019 launch</a>. Last week, though, the <em>Anthem</em> community woke up to <a href="https://www.youtube.com/watch?v=TPx5SJHFvGM">a new video</a> showing the game at least partially loading on what appears to be a simulated background server.</p>
+<p>The people behind that video—and the <em>Anthem</em> revival project that made it possible—told Ars they were optimistic about their efforts to coerce EA’s temperamental Frostbite engine into running the game without access to EA’s servers. That said, the team also wants to temper expectations that may have risen a bit too high in the wake of what is just a proof-of-concept video.</p>
+<figure><p><iframe allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/TPx5SJHFvGM?start=0&amp;wmode=transparent"></iframe></p><div>
+    
+    <p>
+      Andersson799’s early proof-of-concept video showing <em>Anthem</em> partially loading on emulated local servers.
+
+          </p>
+  </div>
+</figure>
+<p>“People are getting excited [about the video], and naturally people are going to get their hopes up,” project administrator Laurie told Ars. “I don’t want to be the person that’s going to have to deal with the aftermath if it turns out that we can’t actually get anywhere.”</p>
+<h2>Keep an eye on those packets</h2>
+<p>The <em>Anthem</em> revival effort currently centers around <a href="https://www.reddit.com/r/AnthemTheGame/comments/1qfqe29/the_forts_forge/">The Fort’s Forge</a>, a Discord server where a handful of volunteer engineers and developers have gathered to pick apart the game and its unique architecture. Laurie said they initially set up the group “out of little more than spite for EA and Bioware around the time the shutdown got announced” back in July.</p>
+<p>While Laurie has some experience with the community behind <a href="https://1379.tech/the-making-of-side-7-gundam-evolution-private-server-project/"><em>Gundam Evolution</em> revival project Side 7</a>, they knew they’d need help from people with direct experience working on EA’s Frostbite engine games. Luckily, Laurie said they were “able to catch the eyes of people who are familiar with this line of work [without] searching too much.”</p>
+<p>One of those people was Ness199X, an experienced Frostbite tinkerer who told Ars he “never really played much <em>Anthem</em>” before the game’s shutdown was announced. When a friend pointed out the impending death of the title, though, Ness said he was motivated to preserve the game for posterity.</p>
 
           
                       
@@ -94,10 +80,17 @@
     <div>
           
           
-<p>The 9850X3D remains an eight-core chip based on AMD’s Zen 5 architecture. All eight of those CPU cores have access to the 3D V-Cache, unlike the 12-core and 16-core Ryzen 9 9900X3D and 9950X3D. In each of those chips, one of the CPU chiplets has access to the 3D V-Cache and one doesn’t; AMD’s chipset software is responsible for making sure apps run on the type of CPU core that will maximize the app’s performance. AMD’s software is pretty good at this, but it’s not foolproof, which can make the 9800X3D and 9850X3D more appealing and cost-effective options for PCs that will mainly be used for gaming.</p>
-
-<p>The specs in our CPU testbed are the same as they’ve been for a while. We’ll be focused on comparing the 9850X3D to its predecessors, the 5800X3D, 7800X3D, and 9800X3D, as well as the non-V-Cache 7700X and 9700X. We’ll also include numbers from the higher-end 9900X3D and 9950X3D. Intel’s side of the fence will be represented by the Core Ultra 9 285K and the last few generations of Core i9 chips, though Intel has yet to release any chips that are truly performance-competitive with the 3D V-Cache chips in gaming workloads.</p>
-<p>Though our testbed continues to rely on DDR5-6000, AMD’s slide deck takes the current (horrible) state of the RAM market into account. While DDR5-6000 or DDR5-6400 is generally still the performance sweet spot for all socket AM5 CPUs, AMD notes that game performance between the 9850X3D with DDR5-6000 and the same chip with DDR5-4800 can be as little as 1 to 2 percent. In other words, pair whatever RAM you can find with this chip and don’t worry about it too much.</p>
+<p>Initial efforts to examine what made <em>Anthem</em> tick “came up empty,” Ness said, largely because the game uses EA’s bespoke Frostbite engine differently than other EA titles. To begin mapping out those differences, Ness released a packet logger tool in September that let contributors record their own network traffic between the client and EA’s official servers. In addition to helping with reverse-engineering work, Ness writes on the Fort’s Forge Discord that players who logged their packets should be able to fully recover their characters if and when <em>Anthem</em> comes back in playable form.</p>
+<h2>Catching Frostbite</h2>
+<p>By analyzing that crowdsourced packet data, Ness said the Fort’s Forge team has been able to break <em>Anthem</em> down into three essential services:</p>
+<ol>
+<li>EA’s Blaze server: Used for basic player authentication.</li>
+<li>Bioware Online Services (aka BIGS): A JSON web server used to track player information like inventory and quest progression.</li>
+<li>The Frostbite multiplayer engine: Loads level data and tracks the real-time positions of players and non-player characters in those levels.</li>
+</ol>
+<p>Early efforts to emulate the Blaze and BIGS portions of that architecture helped lead directly to last week’s proof-of-concept video. Andersson799—who says he’s been tinkering with <em>Battlefield</em> and other Frostbite games since 2015—said he was quickly able to use his own logged <em>Anthem</em> packets to create a “barebones anthem private server” that served as a “quick and dirty” sample that he decided to share via YouTube.</p>
+<p>“I basically made the tool to just simply reply with the packet captures that I got,” Andersson told me. That was enough to “get in to the game with player profiles loaded and everything.” And while Ness says there’s still some effort needed “to [make Blaze and BIGS] work well and smoothly in terms of quest progression, etc.,” the path forward on those portions is relatively straightforward.</p>
+<p>It’s the Frostbite engine and its odd client-server architecture that forms the biggest barrier to getting <em>Anthem</em> up and running again without EA’s servers. “Due to how Frostbite is designed, all gameplay in a Frostbite game runs in a ‘server’ context,” Ness explained. Even in a single-player game like <em>Mass Effect: Andromeda</em>, he said, “the client just creates a separate server thread and pipes all the traffic internally.”</p>
 
           
                   </div>
@@ -108,19 +101,21 @@
     <div>
           
           
+<p>“I feel like with <em>Anthem</em>, it heavily relies on online data that was stored in Bioware’s server,” Andersson added. “In my initial testing, the game couldn’t load into the level without that data.”</p>
+<figure><p><iframe allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/OLsHdqHR0-E?start=0&amp;wmode=transparent"></iframe></p><div>
+    
+    <p><em>Anthem</em>‘s Fort Tarsis area loads its data from local files, rather than EA’s servers.
 
-<h2>Performance and power consumption</h2>
-<p>The first thing to notice about the 9850X3D is that its multi-core performance is essentially indistinguishable from the 9800X3D. If anything, the 9800X3D seems marginally better behaved in our Handbrake video encoding tests, which could come down to anything or nothing—maybe it’s an actual difference between the chips, maybe it’s the silicon lottery, maybe it’s something else. Overall, it’s mostly a wash.</p>
+          </p>
+  </div>
+</figure>
+<p>There’s some hope that this crucial level data is still available and recoverable, though. Ness points out that Fort Tarsis, the game’s lobby area, already runs using offline data piped through a local “server” thread, meaning the rest of the game could theoretically be coerced to run similarly.</p>
+<p>Just as important, he says, “as far as we have been able to discern, all the logic for the other levels, which when the game was live ran on a remote server, also exists in the client,” Ness said. “By patching the game we can most likely enable the ability to host these in process as well. That’s what we’re exploring.”</p>
 
-
-<p>The 9850X3D&nbsp;<em>does</em> improve significantly on the 9800X3D’s single-core performance, closing the gap with both the Ryzen 9900X3D and 9950X3D (both of which have regular Zen 5 cores with no 3D V-Cache) and the 9700X (which has no 3D V-Cache at all).</p>
-<p>There’s a world in which AMD can get this extra performance for “free” without changing anything about the architecture or manufacturing process. AMD could have been “binning” silicon lottery winners, or the reliability of the manufacturing process could have improved enough to allow AMD to hit better numbers that weren’t as consistently achievable a year ago.</p>
-<p>But it looks like AMD improved the 9850X3D’s single-core performance mainly by making it behave more like a non-X3D chip. The chip’s power consumption while gaming suggests this is more or less what’s happening—the 9850X3D’s CPU package power while gaming is some 25 or 30 W higher than the 9800X3D playing the same games, despite the single-digit-at-best performance improvement (in both our testing and AMD’s advertising).</p>
-
-
-
-<p>While the 9850X3D’s power consumption while gaming isn’t wildly out of step with the 9700X’s or the 9950X3D’s, it does make the tiny performance gains on display here hard to get excited about.</p>
-<p>And this is on top of the cost trade-off you’re already making when you buy an X3D-series chip. Game performance is always impressive, but you notice those benefits the <em>most</em> in situations where your CPU, not the GPU, is the performance bottleneck.</p>
+<h2>“To be honest we’re not entirely sure…”</h2>
+<p>While all that local level data should be usable in theory, seemingly random differences between <em>Anthem</em> and other Frostbite games are getting in the way of loading the data in practice. <em>Anthem</em> acts like a standard Frostbite game “for the most part,” Ness said, but at times will show unusual behaviors that are hard to pin down.</p>
+<p>“For example, when we try to load most maps, no NPCs spawn, but in some maps they do,” he said. “And we have yet to determine why. Ness has some suspicion that the odd behavior is connected to the “fairly extensive amount of player data the game keeps as part of its online RPG nature,” but adds that “to be honest we’re not entirely sure how deep the differences go, other than that the engine didn’t behave how we expected it to.”</p>
+<p>Ness said he’s about 75 percent confident that the team will be able to figure out how to fully leverage the Frostbite engine to power a version of the game that runs without EA’s centralized servers. If that effort succeeds, he says a playable version of <em>Anthem</em> could be back up and running in “months, or less even, depending on motivation.” But if the efforts to pick apart <em>Anthem</em>’s take on Frostbite hits a brick wall, Ness says “the amount of work increases fairly exponentially and I’m a lot less confident that we have the motivation for that.”</p>
 
           
                   </div>
@@ -134,26 +129,36 @@
         <div>
           
           
-<p>Most of the time in a gaming PC, that’s only going to be the case when you’re trying to play games at extremely high frame rates at lower resolutions. It’s less useful when trying to play games at 4K or even 1440p, where your graphics card will be the limiter. If you’re building a system around any GPU slower than an RTX 4080 or 5080, going with a regular 9700X and putting the savings toward your GPU (or toward an eye-wateringly expensive RAM kit) will usually be a better use of funds.</p>
-<h2>Probably not worth it</h2>
-<p>The Ryzen 7 9850X3D mostly does what it says it does: It’s a mild speed bump to AMD’s best gaming processor that, in most cases, very slightly extends the company’s performance lead over Intel chips like the Core Ultra 9 285K.</p>
-<p>But the vanilla 9800X3D is&nbsp;<em>almost</em> as fast, uses 25 or 30 W less power during gaming (which also results in temperatures that are 10° to 15° Celsius cooler), and is $30 cheaper as of this writing.</p>
-<p>As someone who routinely runs his own Ryzen desktop chips in Eco Mode to reduce power consumption and temperatures and hit a more efficient spot on the performance-per-Watt curve, the numbers that the 9850X3D posted in our testing make it seem like an undesirable trade-off, even if you’re in the target market for a fast-as-possible, money’s-no-object, bragging-rights gaming PC.</p>
-<h3>The good</h3>
-<ul>
-<li>Faster than the 9800X3D most of the time, particularly in single-threaded tasks.</li>
-<li>AMD has steadily closed all of the performance gaps that used to exist between the X3D series and the non-3D-V-Cache Ryzen chips.</li>
-<li>Power consumption and temperatures are generally reasonable and in line with other Zen 5 CPUs.</li>
-</ul>
-<h3>The bad</h3>
-<ul>
-<li>The price of RAM. The price of GPUs. The price of SSDs. It’s a decent time to be looking at a drop-in CPU upgrade; it’s a miserable time to be changing sockets or building a new system from scratch.</li>
-<li>The Ryzen 7 9800X3D is a bit cheaper, is nearly as fast, and is cooler-running and more efficient when gaming.</li>
-</ul>
-<h3>The ugly</h3>
-<ul>
-<li>In exchange for a high-single-digit performance gain, games and some other single-core workloads can use as much as 30 or 40 percent more power.</li>
-</ul>
+<p>“I’m fairly confident that we can get this game to be playable again, like how it is supposed to be,” Andersson said. “It’ll just take time as most of us have our own life to manage besides this.”</p>
+<figure>
+    <div id="caption-2137924"><p>
+              Engaging in some expectations management on the Fort’s Forge Discord.
+                              </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      Engaging in some expectations management on the Fort’s Forge Discord.
+
+              <span>
+          Credit:
+
+                      <a href="https://discord.com/channels/1392103031205658747/1418279802552586412/1462849496500404402" target="_blank">
+          
+          Laurie / The Fort's Forge
+
+                      </a>
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>In the meantime, Laurie is still trying to manage expectations set by the somewhat premature posting of Andersson’s proof-of-concept video. “Please, do not expect frequent updates,” Laurie wrote in the Fort’s Forge Discord. “We had not anticipated releasing anything this early, nor should the expedience of this video’s release serve as any kind of benchmark for how fast we make progress.”</p>
+<p>Laurie also <a href="https://www.reddit.com/r/AnthemTheGame/comments/1qfng76/comment/o06gfou/?context=3">took to Reddit</a> to publicly call the video “a really hacky thing so I want to ask people to manage their expectations just a bit. A lot of stuff clearly doesn’t work as ‘intended,’ and definitely needs at minimum, more polish.”</p>
+<p>At one point last week, Laurie says they had to stop accepting new members to the Fort’s Forge Discord, “mostly to prevent an influx of people in response to… news coverage.” And while people with Frostbite engine modding experience are encouraged to reach out, the small team is being cautious about growing too large, too fast.</p>
+<p>“We’re a little reluctant to add developers right now as we have no real code base to work from,” Ness said, describing their current efforts as “scratch work” maintained in separate forms by multiple people. “But once we firm that up (hopefully in the next weeks), we will look to add more [coders].”</p>
 
 
           
@@ -171,15 +176,15 @@
     
 
     <p>
-      Andrew is a Senior Technology Reporter at Ars Technica, with a focus on consumer tech including computer hardware and in-depth reviews of operating systems like Windows and macOS. Andrew lives in Philadelphia and co-hosts a weekly book podcast called <a href="https://overduepodcast.com/">Overdue</a>.
+      Kyle Orland has been the Senior Gaming Editor at Ars Technica since 2012, writing primarily about the business, tech, and culture behind video games. He has journalism and computer science degrees from University of Maryland. He once <a href="https://bossfightbooks.com/collections/books/products/minesweeper-by-kyle-orland">wrote a whole book about <em>Minesweeper</em></a>.
     </p>
   </div>
 
 
   <p>
-    <a href="https://arstechnica.com/gadgets/2026/01/review-amds-ryzen-7-9850x3d-is-a-little-faster-and-a-lot-more-power-hungry/#comments" title="23 comments">
+    <a href="https://arstechnica.com/gaming/2026/01/why-reviving-the-shuttered-anthem-is-turning-out-tougher-than-expected/#comments" title="12 comments">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><defs><clipPath id="bubble-zero_svg__a"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath><clipPath id="bubble-zero_svg__b"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath></defs><g clip-path="url(#bubble-zero_svg__a)"><g fill="currentColor" clip-path="url(#bubble-zero_svg__b)"><path d="M80 40c0 22.09-17.91 40-40 40S0 62.09 0 40 17.91 0 40 0s40 17.91 40 40"></path><path d="M40 40 .59 76.58C-.67 77.84.22 80 2.01 80H40z"></path></g></g></svg>
-    23 Comments
+    12 Comments
   </a>
       </p>
               </div>
@@ -193,7 +198,7 @@
 
 
   
-  </div></div><br/><br/>https://arstechnica.com/gadgets/2026/01/review-amds-ryzen-7-9850x3d-is-a-little-faster-and-a-lot-more-power-hungry/]]></content:encoded>
+  </div></div><br/><br/>https://arstechnica.com/gaming/2026/01/why-reviving-the-shuttered-anthem-is-turning-out-tougher-than-expected/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
