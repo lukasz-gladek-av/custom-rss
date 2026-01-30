@@ -4,9 +4,235 @@
         <title>Eurogamer.net RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/eurogamer_net_full.xml</link>
         <description>Full article content from Eurogamer.net</description>
-        <lastBuildDate>Thu, 29 Jan 2026 17:03:07 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 30 Jan 2026 08:45:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Highguard update reduces crashes by 90%, adds crouch toggle option]]></title>
+            <link>https://www.eurogamer.net/highguard-update-reduces-crashes-by-90-adds-crouch-toggle-option</link>
+            <guid>https://www.eurogamer.net/highguard-update-reduces-crashes-by-90-adds-crouch-toggle-option</guid>
+            <content:encoded><![CDATA[https://www.eurogamer.net/highguard-update-reduces-crashes-by-90-adds-crouch-toggle-option<br/><br/><div id="readability-page-1" class="page"><div>
+      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
+
+
+<header data-component="article-header">
+  
+
+    
+
+
+  <p>
+
+  <figure>
+      <picture>
+        <source srcset="https://assetsio.gnwcdn.com/highguard-headline_GkemxgH.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/highguard-headline_GkemxgH.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/highguard-headline_GkemxgH.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/highguard-headline_GkemxgH.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/highguard-headline_GkemxgH.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/highguard-headline_GkemxgH.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/highguard-headline_GkemxgH.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/highguard-headline_GkemxgH.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/highguard-headline_GkemxgH.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
+        
+      </picture>
+
+        <figcaption>
+          <span>Image credit: <cite>Wildlight</cite></span>
+        </figcaption>
+  </figure>
+  </p>
+
+    
+
+</header>
+  <div data-component="article-content">
+
+
+
+            <p>The team over at Wildlight has released an update for its live-service hero shooter, Highguard.</p>
+<p>This update adds a number of "highly" requested features from its community, including a new crouch toggle option, field of view sliders on console and - importantly - improved stability. According to the studio, crashes have been reduced by 90 percent thanks to this update.</p>
+<!-- code from Primis - Eurogamer.net - eurogamer.net -->
+<div>
+<p><span data-type="targeting">
+<span>To see this content please enable targeting cookies.</span>
+</span> </p>
+</div>
+<!-- code from Primis -->
+<p>You can check out the full patch notes for Highguard below:</p>
+<blockquote><p><strong>Settings Improvements</strong></p>
+<p><em>Note: in an effort to release these changes to our players as quickly as possible, a number of menu options are not yet localised in languages other than English. Properly localised settings will be prepared for a future patch.</em></p>
+<p><strong>Game Input Settings</strong></p>
+<ul>
+<li>Added the ability to set Crouch to Hold or Toggle for all platforms.</li>
+<li>Added the ability to set Aim Down Sights to Hold or Toggle for PC only (for now).</li>
+</ul>
+<p><em>Toggling into ADS then tapping Sprint (shift on PC, left stick on controller) will swap your scope. This is disorienting on controller. PC players are recommended to rebind scope swap if using Toggle ADS. We will continue to look into adding this for console players who can’t rebind buttons yet, but we will need more time.</em></p>
+<p><strong>Video Settings</strong></p>
+<ul>
+<li>Console users can now adjust FoV to 110.</li>
+<li>Low scalability settings for shadows and reflections are tuned for even more performance at the cost of some image quality.</li>
+<li>Low shadow setting now also disables volumetric fog.</li>
+<li>Added a new "View Distance Quality" setting that controls skeletal mesh LODs, which can be another useful control to tune GPU and CPU usage.</li>
+</ul>
+<p>Players now have the ability to toggle the following features on or off, irrespective of other quality options:</p>
+<ul>
+<li>Anisotropic Materials</li>
+<li>Chromatic Aberration</li>
+<li>Bloom</li>
+</ul>
+<p><em>Motion Blur and Depth of Field need more testing to disable safely. Look for these options very soon.</em></p>
+<ul>
+<li>DLSS users now have the ability to select a DLSS preset.<em> More presets and better descriptions are coming in the next patch.</em></li>
+<li>Players can now select Off to disable Global Illumination entirely.</li>
+<li>Resolved an engine bug which could inadvertently throttled laptop users to 60 FPS regardless of frame rate settings.</li>
+</ul>
+<p><strong>Crash and Bug Fixes</strong></p>
+<p>This patch resolves crashes that could occur in the following scenarios:</p>
+<ul>
+<li>Leaving a match on PS5 with an unexpected input state.</li>
+<li>Loading into matches on machines with slower storage devices.</li>
+</ul>
+<p>A number of other bugs related to online user presence and matchmaking were also resolved.</p>
+<ul>
+<li>Friends now appear online correctly after accepting requests, and Xbox presence updates properly. Major crash fixes have reduced crashes by 90 percent, significantly improving stability.</li>
+<li>Friend status is fixed - players now appear online correctly and Xbox presence updates reliably. Our top crash issues are gone resulting in a 90 percent crash reduction.</li>
+</ul></blockquote>
+<p>And that's your lot for now.</p>
+<figure>
+ 
+
+
+<figcaption><span>Image credit: <cite>Wildlight Entertainment, Inc.</cite></span></figcaption>
+</figure>
+<p>Highguard was announced last month, <a href="https://www.eurogamer.net/the-game-awards-big-reveal-this-year-was-for-a-shooter-from-the-creatives-behind-apex-legends-and-titanfall-and-it-looked-fine">closing out Geoff Keighley's trailer-filled The Game Awards extravaganza</a> (which did also feature some awards). Coming from several former <a href="https://www.eurogamer.net/games/titanfall">Titanfall</a> and <a href="https://www.eurogamer.net/games/apex-legends">Apex Legends</a> developers, <a href="https://www.eurogamer.net/highguard-hits-almost-100k-concurrent-pc-players-on-launch-but-struggles-with-early-negative-steam-reviews">Highguard quickly had a large influx of players on its release earlier this week</a>, however there were a few complaints as well, with many disappointed with areas such as map size and the 3v3 game format.</p>
+<p>Since this slightly rocky debut, <a href="https://www.eurogamer.net/highguard-developers-defend-as-complaints-pile-up">other developers across the industry have voiced their support for Highguard</a>, with Splitgate: Arena Reloaded studio 1047 Games stating: "No game is perfect on day one."</p>
+
+        </div>
+
+  
+      </article>
+
+
+
+  
+
+
+
+  
+
+  <section>
+    <span>Related topics</span>
+
+    
+  </section>
+  </div></div>]]></content:encoded>
+            <dc:creator>Victoria Phillips Kennedy</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Amazon's God of War keeps casting characters from Ragnarök, adds Severance and Homeland stars as Odin and Thor]]></title>
+            <link>https://www.eurogamer.net/amazons-god-of-war-keeps-casting-characters-from-ragnarok-adds-severance-and-homeland-stars-as-odin-and-thor</link>
+            <guid>https://www.eurogamer.net/amazons-god-of-war-keeps-casting-characters-from-ragnarok-adds-severance-and-homeland-stars-as-odin-and-thor</guid>
+            <content:encoded><![CDATA[https://www.eurogamer.net/amazons-god-of-war-keeps-casting-characters-from-ragnarok-adds-severance-and-homeland-stars-as-odin-and-thor<br/><br/><div id="readability-page-1" class="page"><div>
+      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
+
+
+<header data-component="article-header">
+  
+
+    
+
+
+  <p>
+
+  <figure>
+      <picture>
+        <source srcset="https://assetsio.gnwcdn.com/Images-of-Odin-and-Thor-from-God-of-War-Ragnarok-side-by-side.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Images-of-Odin-and-Thor-from-God-of-War-Ragnarok-side-by-side.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Images-of-Odin-and-Thor-from-God-of-War-Ragnarok-side-by-side.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Images-of-Odin-and-Thor-from-God-of-War-Ragnarok-side-by-side.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Images-of-Odin-and-Thor-from-God-of-War-Ragnarok-side-by-side.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Images-of-Odin-and-Thor-from-God-of-War-Ragnarok-side-by-side.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Images-of-Odin-and-Thor-from-God-of-War-Ragnarok-side-by-side.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Images-of-Odin-and-Thor-from-God-of-War-Ragnarok-side-by-side.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Images-of-Odin-and-Thor-from-God-of-War-Ragnarok-side-by-side.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
+        
+      </picture>
+
+        <figcaption>
+          <span>Image credit: <cite>Eurogamer</cite></span>
+        </figcaption>
+  </figure>
+  </p>
+
+    
+
+</header>
+  <div data-component="article-content">
+
+
+
+            <p>Despite Amazon's live-action God of War series following the plot of Santa Monica's 2018 Norse epic, the cast so far has a very Ragnarök (and roll) feel to it.</p>
+<!-- code from Primis - Eurogamer.net - eurogamer.net -->
+<div>
+<p><span data-type="targeting">
+<span>To see this content please enable targeting cookies.</span>
+</span> </p>
+</div>
+<!-- code from Primis -->
+<p>Last night, it was announced that Severance actor Ólafur Darri Ólafsson will portray the Norse God of Thunder, Thor. "A mountain of a man who has weathered many a battle in his time, but whose actions in a war fought long ago now haunt his waking hours," reads Thor's character description.</p>
+<p>As in 2022's <a href="https://www.eurogamer.net/games/god-of-war-ragnarok">God of War Ragnarök</a>, Amazon's live-action Thor is "now but a shadow of his former self", and has turned to alcohol in an attempt to drown out his demons. "Keeping his wife and children at arm's length has only deepened his isolation, but the power (and danger) of the God of Thunder is still there just beneath the surface," the <a href="https://deadline.com/2026/01/olafur-darri-olafsson-cast-thor-god-of-war-1236702443/">description ends</a>.</p>
+<figure data-count="2" role="group"><figure>
+ 
+
+
+<figcaption><span>Image credit: <cite>Sony Santa Monica</cite></span></figcaption>
+</figure>
+<figure>
+ 
+
+
+<figcaption><span>Image credit: <cite>Apple</cite></span></figcaption>
+</figure>
+</figure>
+<p>In addition to Thor, Homeland and Princess Bride actor Mandy Patinkin has been announced as the show's "most powerful Aesir god", Odin. "Odin, the All-Father, is not physically imposing or particularly god-like: but looks can be deceiving," reads his <a href="https://variety.com/2026/tv/news/mandy-patinkin-god-of-war-odin-1236644947/">God of War character description</a>, adding that Odin is a "patriarch who leads with an iron fist, and an unrivaled seeker of knowledge".</p><p>Odin - who is the father of Thor - is "paranoid, manipulative, and dangerous", and will serve as "a formidable antagonist" to God of War's lead, Kratos. The Aesir god will do "anything to try and prevent Ragnarök, the Norse end of days".</p>
+<figure data-count="2" role="group">
+<figure>
+ 
+
+
+<figcaption><span>Image credit: <cite>Sony Santa Monica</cite></span></figcaption></figure>
+<figure>
+ 
+
+
+<figcaption><span>Image credit: <cite>Showtime</cite></span></figcaption></figure>
+
+</figure>
+<p>Ólafsson and Patinkin join an already impressive cast, which includes <a href="https://www.eurogamer.net/amazons-god-of-war-series-has-found-its-kratos-and-its-ragnaroks-thor">Ryan Hurst as Kratos</a>, <a href="https://www.eurogamer.net/amazons-god-of-war-casts-thors-wife-sif">Teresa Palmer as Phoebe/Sif</a> and <a href="https://www.eurogamer.net/ey-up-this-lad-from-emmerdale-is-playing-norse-god-heimdall-in-amazons-god-of-war-show-thats-norse-not-up-north">Max Parker as Heimdall</a>. Meanwhile, behind the camera, Amazon's God of War adaptation includes <a href="https://www.eurogamer.net/amazons-god-of-war-tv-series-lands-new-showrunner-in-former-battlestar-galactica-executive-producer">former Battlestar Galactica executive producer Ronald D. Moore</a>, who will serve as showrunner on the upcoming series, and <a href="https://www.eurogamer.net/emmy-winning-shogun-director-joins-amazons-live-action-god-of-war-series">Emmy winning Shōgun director Frederick E.O. Toye</a>.</p><p>"God of War follows father and son Kratos and Atreus as they embark on a journey to spread the ashes of their wife and mother, Faye. Through their adventures, Kratos tries to teach his son to be a better god, while Atreus tries to teach his father how to be a better human," reads the show's official logline. I wonder when we will hear who will play Atreus…?</p>
+<p>We still don't have a release window for the first season, however a <a href="https://www.eurogamer.net/god-of-war-tv-show-getting-second-season-though-first-still-being-written">second season of God of War has already been greenlit at Amazon</a>.</p>
+
+        </div>
+
+  
+      </article>
+
+
+
+  
+
+
+
+  
+
+  <section>
+    <span>Related topics</span>
+
+    
+  </section>
+  </div></div>]]></content:encoded>
+            <dc:creator>Victoria Phillips Kennedy</dc:creator>
+        </item>
         <item>
             <title><![CDATA[As quirky Switch 2 life sim Tomodachi Life: Living the Dream gets its big reveal, Nintendo makes good on decade-old same-sex relationship promise]]></title>
             <link>https://www.eurogamer.net/tomodachi-life-living-the-dream-big-reveal-nintendo-same-sex-relationship-promise</link>
@@ -56,10 +282,10 @@
 
 
             <p>
-Nintendo's delightfully quirky <a href="https://www.eurogamer.net/games/tomodachi-life">Tomodachi Life</a>: Living the Dream has been given the full reveal treatment ahead of its Switch and <a href="https://www.eurogamer.net/platforms/switch-2">Switch 2</a> release on 16th April. And amid the fresh deluge of information, Nintendo has confirmed same-sex relationships and non-binary options, fulfilling it's promise to be "more inclusive" following controversy around the game's 3DS predecessor.
+Nintendo's delightfully quirky <a href="https://www.eurogamer.net/games/tomodachi-life">Tomodachi Life</a>: Living the Dream has been given the full reveal treatment ahead of its Switch and <a href="https://www.eurogamer.net/platforms/switch-2">Switch 2</a> release on 16th April. And amid the fresh deluge of information, Nintendo has confirmed same-sex relationships and non-binary options, fulfilling its promise to be "more inclusive" following controversy around the game's 3DS predecessor.
 </p>
 <p>
-When Tomodachi Life released for 3DS back in 2013, players disappointed at the absence of same-sex romances launched a social media campaign to encourage Nintendo to add them in a post-launch update. The company's initial response was dismissive, insisting Tomodachi Life was not a "real-life simulation" nor "trying to provide social commentary." Later, however, it <a href="https://www.eurogamer.net/nintendo-refuses-to-allow-same-sex-relationships-in-tomodachi-life">took a more conciliatory tone</a>, apologising and saying that while it was unable to make such a "significant development change" to the 3DS version of Tomodachi Life, it pledged to "more inclusive" if another instalment ever came.
+When Tomodachi Life released for 3DS back in 2013, players disappointed at the absence of same-sex romances launched a social media campaign to encourage Nintendo to add them in a post-launch update. The company's initial response was dismissive, insisting Tomodachi Life was not a "real-life simulation" nor "trying to provide social commentary." Later, however, it <a href="https://www.eurogamer.net/nintendo-refuses-to-allow-same-sex-relationships-in-tomodachi-life">took a more conciliatory tone</a>, apologising and pledging that while it was unable to make such a "significant development change" to the 3DS version of Tomodachi Life, it would be "more inclusive" if another instalment ever came.
 </p>
 <!-- code from Primis - Eurogamer.net - eurogamer.net -->
 <div>
@@ -69,7 +295,7 @@ When Tomodachi Life released for 3DS back in 2013, players disappointed at the a
 </div>
 <!-- code from Primis -->
 <p>
-Over a decade later, Nintendo has made good on that promise. As revealed in today's <a href="https://www.youtube.com/watch?v=wNtYngxAs1k">30-minute-long Tomodachi Life: Living the Dream Direct</a>, players can choose from three gender identities when creating their Miis in the new game - male, female, or Non-binary - plus any combination of relationship preferences from the same list, effectively making it possible to create characters who're gay, lesbian, bisexual, pansexual, asexual, or heterosexual. And because this is Tomodachi Life, you also get to pick facial features, body shape, personality, even the silly computer-synthesised voices they'll use.
+Over a decade later, Nintendo has made good on that promise. As revealed in today's <a href="https://www.youtube.com/watch?v=wNtYngxAs1k">30-minute-long Tomodachi Life: Living the Dream Direct</a>, players can choose from three gender identities when creating their Miis in the new game - male, female, or non-binary - plus any combination of relationship preferences from the same list, effectively making it possible to create characters who're gay, lesbian, bisexual, pansexual, asexual, or heterosexual. And because this is Tomodachi Life, you also get to pick facial features, body shape, personality, even the silly computer-synthesised voices they'll use.
 </p>
 <p>
 And once your Miis are ready to descend on their new island home, it largely looks like business as usual. Rather than controlling Miis directly, you'll encourage their growth by feeding them, giving them gifts, and creating new neighbours for them to interact with and befriend. And you can help introduce those friends to other friends, acting as a sort of omnipotent matchmaker to create a network of not always blissful social bonds.
@@ -9305,164 +9531,6 @@ Alongside these cancellations, Ubisoft is delaying seven  unspecified games "to 
   </section>
   </div></div>]]></content:encoded>
             <dc:creator>Fran Ruiz</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[TR-49 review]]></title>
-            <link>https://www.eurogamer.net/tr-49-review</link>
-            <guid>https://www.eurogamer.net/tr-49-review</guid>
-            <content:encoded><![CDATA[https://www.eurogamer.net/tr-49-review<br/><br/><div id="readability-page-1" class="page"><div data-component="article-content">
-                
-
-
-
-
-  
-
-
-            <section><p>Inkle mixes archive-surfing and audio drama to create a surprisingly powerful story of obsession and a machine.</p></section>
-<p>TR-49 lives as much inside the player's head as it does on the screen, which I think is brave, because it demands something of us. It lives in our desire and hunger for a solution. This is a game where you need to think for yourself, where you <em>have </em>to think for yourself, because otherwise, you won't progress. At times you will feel as though you're mentally going around in circles, but they are necessary, these computation cycles, because they create time and space to think. To theorise. To speculate. To revise. And these are crucial things in grasping and understanding the sorrowful, darker side of the mystery lurking inside TR-49.</p>
-
-<p>Mechanically, TR-49 is a game about sifting through an archive. You operate a vintage kind of computer terminal - and by vintage I mean <em>really </em>vintage, circa 1940s - which has come from the legendary British wartime codebreaking house Bletchley Park, I believe. But you're not at Bletchley: you're in a crypt underneath a church and the machine is there in front of you, wires and machinery scattered all around. A voice speaks, it's a man, and he encourages you to turn the machine on and start searching through the archive. It's an eerie start.</p>
-
-<figure>
-<p>
-<a aria-label="TR-49 - Official Trailer" data-platform="youtube" href="https://www.youtube.com/embed/NEIyvjVQCAE?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
-<span>TR-49 - Official Trailer</span>
-<template>
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/NEIyvjVQCAE?autoplay=1" frameborder="0" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/NEIyvjVQCAE?autoplay=1" title="TR-49 - Official Trailer">
-</iframe> </template>
-</a>
-</p>
-<a href="https://www.youtube.com/watch?v=NEIyvjVQCAE" rel="noopener" target="_blank">Watch on YouTube</a></figure>
-
-
-<p>You're looking for a book - this is a game about books, really. This strange machine was fed books and other literary sources in order to build a database or data set, which you're scouring in the hope of finding a lost title that no longer exists in the physical world. Mechanically all you do, then, is input source codes, consisting of two letters and two numbers, much like TR-49, the code the game is named after. Should the code you input have an associated database entry then you'll be taken to it, with a mechanical whirr and a click as the focus changes. There's a pleasing tactility to it, and I like the way punching keys on my keyboard echoes the feeling of operating the machine (note: you can use a controller or a touch-screen for this).</p><p>The codes themselves you'll have to discover, and herein lies the game's bravery, because it refuses to hand the codes to you - so much goes unexplained, actually; you start entirely from a standstill, not knowing who you are and what's going on or how the machine works. At the beginning, you're encouraged to cast around in the dark, randomly entering codes like guesses, in the hope you'll hit upon something, which invariably you do. The assumption is you'll eventually stumble on something significant which will lay a path ahead of you that you can follow - a string of names and titles and authors and other key pieces of information. Through them, an interconnected web should start to appear, and with it, a bigger picture.</p>
-<figure>
- 
-
-
-
-</figure>
-<p>That's a lot of bits and pieces to mentally keep track of but thankfully, mercifully, the game handles all of this - there's no need for separate pen and paper. A wondrous journal automatically populates and organises sources as you find them, categorising them by author and highlighting key findings, even drawing your attention to things you might want to look again at. It's an enormous help and a vital feature for an experience like this, though even with it, I struggled in the beginning.</p>
-<p>I spent at least a couple of hours looking at TR-49 like it was a magic eye puzzle before it properly came into view for me. I was doing what I'd been told - matching sources and titles - but only because I'd been told. I was casting around in the dark, waiting for something to click, and the longer I waited, the more frustrated and detached my trawling around became. TR-49 felt cold and distant, out of reach, and I had to fight with myself to stay with it. I mention this because you might feel the same way when you play, and also because this is what the game risks, this reaction, in order to prop up the revelations that come next.</p><p>Sifting through an archive sounds dry but it's only as dry as the sources you're sifting through, which in this case are obsessions with the mysterious existence and capabilities of dark matter energy. That's not a boring subject, nor are the people who are writing about it - a collection of eccentric thinkers from the early 20th Century whose ideas border on the occult, talking of exploring dreams and losing their minds. They're bizarre, colourful accounts. They're mixed with archive pages for books from our real world, by the way, which lends these fictitious authors an air of authenticity and adds to the excitement of what they claim. There is a waft of science-fiction running through this, then, but it's the kind that's not far removed from magic, and with which anything seems possible. It's as though you chase genuinely world-shaking ideas through this machine.</p>
-
-
-
-<p>But the real story of this game is of the people who made the machine, whose lives you uncover both in the archive entries they wrote - everything in the machine was entered by someone, which means everything has a perspective, an opinion - and in the notes they wrote on other users' entries. There are multiple voices here, which appear and reappear throughout the archive, sometimes years apart. And it's through them that the game's deeper story emerges, one that's sorrowful and personal, with twists and turns, and it brings a needed dose of personality to the game and archive. Theirs is the ultimate riddle you'll solve.</p><p>It's a quiet wonder how much TR-49 contains, really. To look at it is to not expect much, perhaps. Besides the crypt interior and the archive pages there isn't anything to see; and though the audio conversations impart energy and urgency, and a sense of a wider setting, there's a limit to what they can do. There are long periods of silence, with only the occasional self remark and a haunting cello for company. The bulk of TR-49 exists in pages of the archive of the machine, and it's testament to the strength of Inkle's storytelling that it manages to conjure something so impactful from it. It's also inspired how our involvement in the game as the player, our interaction, mirrors the biggest ideas written about in the archive pages. There's much about this game that will stay with me, and to conjure so much from seemingly so little is impressive - very impressive indeed.</p>
-<!-- code from Primis - Eurogamer.net - eurogamer.net -->
-<div>
-<p><span data-type="targeting">
-<span>To see this content please enable targeting cookies.</span>
-</span> </p>
-</div>
-<!-- code from Primis -->
-<p>That's not to say TR-49 always clicked for me. As I've said, there were acute moments of difficulty at the beginning as well as near the end, when I searched endlessly for clues but found none, and gave myself a headache in the process. Flicking from journal to archive page and back again was not generally a pleasant experience, when done so many times. And in these moments, when I slipped off the game's tracks, so too did my enjoyment slip. But whether this is my fault or the game's, I don't know. It's probably mine; now I know the answers, I can clearly see the clues. They are there. But this knowledge doesn't change the fact I had a bumpy experience that I didn't always enjoy.</p>
-<p>Nonetheless, I admired TR-49 in those moments for holding its nerve, and for letting me, the player, do the work. In asking for my investment it made me more invested and left a stronger impression upon me as a result. It was - and I'll stop saying this now I promise - a brave creative choice to make. Whether you'll like TR-49 as I did will probably depend on your tolerance for persevering with a puzzle, but should that sound like fun to you, there's a parabolic conundrum inside this machine that you won't quickly forget.</p>
-
-
-        </div></div>]]></content:encoded>
-            <dc:creator>Robert Purchese</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA["We respect their time, and in turn they stick around" 25 years later,  here's why Jagex believes so many people still play RuneScape]]></title>
-            <link>https://www.eurogamer.net/old-school-runescape-interview-why-people-still-playing-25-years-later</link>
-            <guid>https://www.eurogamer.net/old-school-runescape-interview-why-people-still-playing-25-years-later</guid>
-            <content:encoded><![CDATA[https://www.eurogamer.net/old-school-runescape-interview-why-people-still-playing-25-years-later<br/><br/><div id="readability-page-1" class="page"><div data-component="article-header">
-  
-
-    <div id="main-content">
-        
-
-        <p>"I would love to see more studios do that, break down those walls and bring players into the development cycle."</p>
-
-    </div>
-
-
-  <p>
-
-  <figure>
-      <picture>
-        <source srcset="https://assetsio.gnwcdn.com/runescape-jad.jpg?width=380&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/runescape-jad.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/runescape-jad.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/runescape-jad.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/runescape-jad.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/runescape-jad.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/runescape-jad.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/runescape-jad.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/runescape-jad.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>Jagex</cite></span>
-        </figcaption>
-  </figure>
-  </p>
-
-    
-
-</div><div data-component="article-content">
-
-
-
-  
-
-
-            <p>One of the UK's home-grown video games is turning 25-years-old, and anybody who ever had to sit through a boring IT lesson at school likely already knows what it is. It's <a href="https://www.eurogamer.net/games/runescape">RuneScape</a>, the point-and-click MMORPG that not only has remained popular over the years, but has seen a surprising amount of growth recently. The big question is: why?</p>
-<p>It's no secret that MMORPGs are tricky to make and trickier still to keep live and bustling with eager players, and only a select few have managed to do so through the rise and current stagnation of live service game development. Still, RuneScape has managed to weather the storm, alongside a select few other legacy MMOs.</p>
-<p>To learn what allowed Old School RuneScape in particular to remain as big a part of the MMO ecosystem as it has, Eurogamer sat down to speak to design director Kieren Charles and senior game designer Elena Nordmark to learn more.</p>
-
-<figure>
-<p>
-<a aria-label="RuneScape Finally Did It..." data-platform="youtube" href="https://www.youtube.com/embed/cl0tYhRr_QM?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
-<span>RuneScape Finally Did It...</span>
-<template>
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/cl0tYhRr_QM?autoplay=1" frameborder="0" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/cl0tYhRr_QM?autoplay=1" title="RuneScape Finally Did It...">
-</iframe> </template>
-</a>
-</p>
-<figcaption>You can watch a video Eurogamer made about Sailing here!<a href="https://www.youtube.com/watch?v=cl0tYhRr_QM" rel="noopener" target="_blank">Watch on YouTube</a></figcaption></figure>
-
-
-<p><strong>EG: Why do you think this version of RuneScape has persevered for so long, especially given how perilous the MMO-landscape has been over the years?</strong></p>
-<p>Charles: I think honestly the core of it is how carefully we've cared about the game, but most importantly putting the community first. OSRS community polls all its content, so the community gets a say in what comes into the game. An addition needs 70 percent yes' otherwise we simply won't do it.</p><p>The poll is important as it gives players some influence on the direction of the game, a type of game that you could spend thousands of hours on - years and years - so you need to feel secure before you give that sort of time to a game. So, it gives you that automatic trust and faith in where it's going.</p>
-<p>The cause and effect it has on us, the way we work, is it encourages us to talk to our players. We talk to them all the time! Take the sailing project, our first skill in years, that's been three years of talking to players before we got to that point. It would have been very easy for us to stay behind the scenes and just develop something then release it, but we had to take our players through that same journey. We do that with all of our content - we tell players what we're going to build and get feedback on it that genuinely helps shape it in the form of a poll.</p>
-<p>So we've got a relationship built. It's amazing the impact you see on how our players talk about us, not just as developers but the product itself. It stands out, it's refreshing in the industry I think. Personally, I would love to see more studios do that, break down those walls and bring players into the development cycle.</p>
-<figure>
- 
-
-
-<figcaption>The community recently opted for a new combined item, called the Holy Moleys. Brilliant. | <span>Image credit: <cite>Jagex</cite></span></figcaption>
-</figure>
-<p><strong>Nordmark</strong>: What resonates with me is the topic of respecting players' time as well. That's something the community keeps us accountable for, making sure we do it through the polls. But that's a design principle that we've really stuck to throughout OSRS' history - making sure we don't invalidate their grinds. It <em>is</em> quite a time-consuming game, and we've stuck to that! The reason that's fine is because we don't immediately invalidate that grind. If you spend 100 hours trying to get a sword, that sword will be useful next month. You take a break from RuneScape and come back in a year? That sword will still be good. That mentality means that players stick around.</p>
-<p>They say you never leave, you just take really long breaks from RuneScape? I think part of the reason why is that it comes down to that. We respect their time, and in turn they stick around.</p>
-<p><strong>Charles</strong>: We release content every week, but we don't release something tomorrow that invalidates things that came before it. One of the most iconic points in your progression is getting your fire cape, beating Jad in the Fight Caves. That content came out 20 years ago, but it's still a fixture that's important in your player journey. The game has just gotten bigger, and better, without taking things away.</p><p>We've got an advantage, we're hitting our 25th anniversary right now, so that means we've got so much content. It's all additive, the game is more alive, it's more full. There's more to do, and all of it is important.</p>
-<p><strong>EG: We've seen some interesting industry trends when it comes to older MMO's in particular, where newer releases have struggled to retain an audience while older MMOs like OSRS, but also World of Warcraft, Guild Wars, Eve Online, have not only remained popular but also grown in some cases. Why do you think that is, is it just down to community-engagement and evergreen content?</strong></p>
-<p><strong>Nordmark</strong>: To some extent, sure. I always think of Old School as nostalgic to most people, but the truth is we got a lot of new players as well. Especially in the last year, we've seen a lot of players try the game out for the first time. So, to me, it means while nostalgia might tempt people back, it's those design principles and dedicated to adding new content that keeps them around. The idea of re-experiencing something back in the day is really cool, but it won't keep you around. New experiences that give that similar feeling might.</p>
-<figure>
- 
-
-
-<figcaption>There are still reasons to go kill Lesser Demons all these years later, like in an early Slayer task. | <span>Image credit: <cite>Jagex</cite></span></figcaption>
-</figure>
-<p><strong>EG: Can you say how many new players did start playing last year?</strong></p>
-<p>(PR stepped in, said that the game saw a 30 percent increase in players last year, though no specific figure on how many of those were new players, rather than returning ones.)</p>
-<p><strong>EG: I looked ahead to this interview and have seen there's over 200,000 players in Old School RuneScape right now, during work hours over multiple time zones. What percentage of players play OSRS while at work?</strong></p>
-<p><strong>Charles</strong>: (laughs) I don't even know the answer but it's certainly a lot!</p>
-<p><strong>Nordmark: </strong>I don't think we've ever asked!</p>
-<p><strong>Charles</strong>: You could probably have a guess based on employment rates and hours played sort of things, but we've not actually looked at it. But if this is anything to go by, it's a good proportion of our staff who are AFKing something like fishing or gemstone crab whilst at work.</p><p><strong>EG: Or salvaging right? That's a new one! I mean, if you look at the average age of MMORPG players, there must be a really sizable number of players who do have full-time jobs who are playing OSRS on their phone, or those like me who are fishing in the background right now, it must be a significant portion.</strong></p>
-<p><strong>Charles</strong>: I'd imagine so. Putting the game on mobile has enabled more people to do something. I've seen people escape social situations, going to the pub and not really wanting to socialise, then doing agility laps on their phone to keep themselves entertained. It's great the game can offer that, and I think for RuneScape and Old School RuneScape, this is a thing pretty unique to the game.</p>
-<figure>
- 
-
-
-<figcaption>Shout out to weekday Motherlode Mine! | <span>Image credit: <cite>Eurogamer</cite></span></figcaption>
-</figure>
-<p>If you're keen to learn what the future of Old School RuneScape is looking like, you can watch the Old School RuneScape Winter Summit, which is set to take place on the 25th January on the official RuneScape <a href="https://www.eurogamer.net/companies/twitch">Twitch</a> stream for some insight into major content updates coming to the game.</p>
-
-        </div></div>]]></content:encoded>
-            <dc:creator>Connor Makar</dc:creator>
         </item>
     </channel>
 </rss>
