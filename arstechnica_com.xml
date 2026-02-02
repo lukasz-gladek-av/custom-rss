@@ -4,25 +4,33 @@
         <title>maGaming RSS Feed - arstechnica_com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica_com</description>
-        <lastBuildDate>Wed, 28 Jan 2026 22:19:48 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 02 Feb 2026 17:17:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Why reviving the shuttered Anthem is turning out tougher than expected]]></title>
-            <link>https://arstechnica.com/gaming/2026/01/why-reviving-the-shuttered-anthem-is-turning-out-tougher-than-expected/</link>
-            <guid>1418983</guid>
+            <title><![CDATA[Interview: Civilization VII’s devs on the big update meant to win critics back]]></title>
+            <link>https://arstechnica.com/gaming/2026/02/interview-civilization-viis-devs-on-the-big-update-meant-to-win-critics-back/</link>
+            <guid>1422976</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="main">
-            <article data-id="2137914">
+            <article data-id="2138668">
   
   <header>
   <div>
     <div>
-      
+      <div>
+        <p><span>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><defs><clipPath id="section-gaming_svg__a"><path fill="none" d="M0 0h40v40H0z"></path></clipPath><clipPath id="section-gaming_svg__b"><path fill="none" d="M0 0h40v40H0z"></path></clipPath></defs><g clip-path="url(#section-gaming_svg__a)"><g fill="none" clip-path="url(#section-gaming_svg__b)"><path fill="currentColor" d="M30.7 39.7c-.7-1.1-1.7-1.8-2.5-2.8-.9-1.2 0-2 .8-3 .6-.9 1-1.9.8-3-.6-2.7-3.4-3.3-5.8-3.6-.7-.1-1.8-.2-2.3-.7s-.5-1.4-.5-2.1v-.4l15.5-3.6c2.3-.5 3.7-2.8 3.2-5.1l-2.8-12C36.6 1.1 34.3-.3 32 .2L3.3 6.8C1 7.4-.4 9.7.1 12l2.8 12c.5 2.3 2.8 3.7 5.1 3.2l11.1-2.6c0 1 .2 2.1.7 2.9 1.7 2.7 6 .8 7.6 3.3.8 1.2-.5 2.3-1.1 3.3-.6.9-.9 2-.4 3 .4 1.1 1.4 1.8 2.2 2.6 0 .1.2.2.3.3h2.4c0-.1-.1-.2-.2-.3m.7-28.7c1.3-.3 2.7.5 3 1.9.3 1.3-.5 2.7-1.9 3-1.3.3-2.7-.5-3-1.9-.3-1.3.5-2.7 1.9-3m-6-3.7c1.3-.3 2.7.5 3 1.9.3 1.3-.5 2.7-1.9 3-1.3.3-2.7-.5-3-1.9-.3-1.3.5-2.7 1.9-3m-9.9 13.2-2.7.6-1-4.1-4.1 1-.6-2.7 4.1-1-1-4.1 2.7-.6 1 4.1 4.1-1 .6 2.7-4.1 1z"></path></g></g></svg>
+  </span>
+  <span>
+    To Stand the Test of Time
+  </span>
+</p>
+      </div>
 
       
 
       <p>
-        Despite proof-of-concept video, EA’s Frostbite Engine servers are difficult to pick apart.
+        Firaxis’ Ed Beach and Dennis Shirk talk major overhauls in “Test of Time” update.
       </p>
 
               
@@ -30,13 +38,14 @@
 
     <div>
     
-    <p><em>Anthem</em> may be down, but it's not quite out yet.
+    <p>
+      The new update plans to make it possible for these cities to stick to their Egyptian roots throughout a whole game of <em>Civ VII</em>.
 
               <span>
           Credit:
 
           
-          Bioware
+          Samuel Axon
 
                   </span>
           </p>
@@ -54,21 +63,16 @@
                       
                       
           
-<p>On January 12, EA <a href="https://arstechnica.com/gaming/2026/01/biowares-anthem-will-soon-be-completely-unplayable/">shut down the official servers for <em>Anthem</em></a>, making Bioware’s multiplayer sci-fi adventure completely unplayable for the first time since <a href="https://arstechnica.com/gaming/2019/02/anthem-game-review-honestly-its-not-finished/">its troubled 2019 launch</a>. Last week, though, the <em>Anthem</em> community woke up to <a href="https://www.youtube.com/watch?v=TPx5SJHFvGM">a new video</a> showing the game at least partially loading on what appears to be a simulated background server.</p>
-<p>The people behind that video—and the <em>Anthem</em> revival project that made it possible—told Ars they were optimistic about their efforts to coerce EA’s temperamental Frostbite engine into running the game without access to EA’s servers. That said, the team also wants to temper expectations that may have risen a bit too high in the wake of what is just a proof-of-concept video.</p>
-<figure><p><iframe allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/TPx5SJHFvGM?start=0&amp;wmode=transparent"></iframe></p><div>
-    
-    <p>
-      Andersson799’s early proof-of-concept video showing <em>Anthem</em> partially loading on emulated local servers.
-
-          </p>
-  </div>
-</figure>
-<p>“People are getting excited [about the video], and naturally people are going to get their hopes up,” project administrator Laurie told Ars. “I don’t want to be the person that’s going to have to deal with the aftermath if it turns out that we can’t actually get anywhere.”</p>
-<h2>Keep an eye on those packets</h2>
-<p>The <em>Anthem</em> revival effort currently centers around <a href="https://www.reddit.com/r/AnthemTheGame/comments/1qfqe29/the_forts_forge/">The Fort’s Forge</a>, a Discord server where a handful of volunteer engineers and developers have gathered to pick apart the game and its unique architecture. Laurie said they initially set up the group “out of little more than spite for EA and Bioware around the time the shutdown got announced” back in July.</p>
-<p>While Laurie has some experience with the community behind <a href="https://1379.tech/the-making-of-side-7-gundam-evolution-private-server-project/"><em>Gundam Evolution</em> revival project Side 7</a>, they knew they’d need help from people with direct experience working on EA’s Frostbite engine games. Luckily, Laurie said they were “able to catch the eyes of people who are familiar with this line of work [without] searching too much.”</p>
-<p>One of those people was Ness199X, an experienced Frostbite tinkerer who told Ars he “never really played much <em>Anthem</em>” before the game’s shutdown was announced. When a friend pointed out the impending death of the title, though, Ness said he was motivated to preserve the game for posterity.</p>
+<p>It has been difficult at times for new mainline releases in the Civilization series of games to win over new players right out of the gate. For <em>Civilization VII</em>—which launched <a href="https://arstechnica.com/gaming/2025/02/civilization-vii-review-a-major-overhaul-solves-civs-oldest-problems/">just shy of one year ago</a>—the struggles seemed to go deeper, with some players saying it <a href="https://arstechnica.com/gaming/2025/03/civilization-vii-one-month-later-the-community-and-developers-chime-in/">didn’t feel</a> like a Civilization game.</p>
+<p><em>Civ VII’</em>s developers, Firaxis Games, announced today it is planning an update this spring called “Test of Time” that rethinks a few unpopular changes, in some cases replacing key mechanics from the original release.</p>
+<p>I spoke with Ed Beach, the Civilization franchise’s creative director, as well as Dennis Shirk, its executive producer, about what’s changing, the team’s interpretation of the player backlash to the choices in the initial release, and Firaxis and 2K’s plans for the future of the Civilization model.</p>
+<h2>The heart of the controversy</h2>
+<p>There were of course bugs, balance issues, and missing documentation and UI features, and there have been <a href="https://arstechnica.com/gaming/2025/06/civilization-vii-patch-lets-you-turn-off-some-controversial-new-features/">updates</a> to address some of those issues, with more to come.</p>
+<p>For example, I asked about two oft-requested features: a city connections view, and the classic hot seat local multiplayer mode.</p>
+<p>Beach said a connections view is in the works, though it will come after the big spring update. As for hot seat, he said that “there are some key members of our development team who feel passionately about getting that out.”</p>
+<p>Shirk promised that’s coming too, but declined to say when.</p>
+<p>But the real heart of the controversy is that <em>Civ VII</em> broke with what a lot of players considered core DNA for the series.</p>
+<p>“We introduced all these great new mechanics because we wanted to give our players something new to chew on because they had something very similar from <em>IV</em> or <em>V</em> to <em>VI</em>,” said Shirk. “It was like if we were making <em>Madden</em> and we decided they’re going to play with a soccer ball instead of a football.”</p>
 
           
                       
@@ -80,85 +84,171 @@
     <div>
           
           
-<p>Initial efforts to examine what made <em>Anthem</em> tick “came up empty,” Ness said, largely because the game uses EA’s bespoke Frostbite engine differently than other EA titles. To begin mapping out those differences, Ness released a packet logger tool in September that let contributors record their own network traffic between the client and EA’s official servers. In addition to helping with reverse-engineering work, Ness writes on the Fort’s Forge Discord that players who logged their packets should be able to fully recover their characters if and when <em>Anthem</em> comes back in playable form.</p>
-<h2>Catching Frostbite</h2>
-<p>By analyzing that crowdsourced packet data, Ness said the Fort’s Forge team has been able to break <em>Anthem</em> down into three essential services:</p>
-<ol>
-<li>EA’s Blaze server: Used for basic player authentication.</li>
-<li>Bioware Online Services (aka BIGS): A JSON web server used to track player information like inventory and quest progression.</li>
-<li>The Frostbite multiplayer engine: Loads level data and tracks the real-time positions of players and non-player characters in those levels.</li>
-</ol>
-<p>Early efforts to emulate the Blaze and BIGS portions of that architecture helped lead directly to last week’s proof-of-concept video. Andersson799—who says he’s been tinkering with <em>Battlefield</em> and other Frostbite games since 2015—said he was quickly able to use his own logged <em>Anthem</em> packets to create a “barebones anthem private server” that served as a “quick and dirty” sample that he decided to share via YouTube.</p>
-<p>“I basically made the tool to just simply reply with the packet captures that I got,” Andersson told me. That was enough to “get in to the game with player profiles loaded and everything.” And while Ness says there’s still some effort needed “to [make Blaze and BIGS] work well and smoothly in terms of quest progression, etc.,” the path forward on those portions is relatively straightforward.</p>
-<p>It’s the Frostbite engine and its odd client-server architecture that forms the biggest barrier to getting <em>Anthem</em> up and running again without EA’s servers. “Due to how Frostbite is designed, all gameplay in a Frostbite game runs in a ‘server’ context,” Ness explained. Even in a single-player game like <em>Mass Effect: Andromeda</em>, he said, “the client just creates a separate server thread and pipes all the traffic internally.”</p>
-
-          
-                  </div>
-                    
-        
-          
-    
-    <div>
-          
-          
-<p>“I feel like with <em>Anthem</em>, it heavily relies on online data that was stored in Bioware’s server,” Andersson added. “In my initial testing, the game couldn’t load into the level without that data.”</p>
-<figure><p><iframe allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/OLsHdqHR0-E?start=0&amp;wmode=transparent"></iframe></p><div>
-    
-    <p><em>Anthem</em>‘s Fort Tarsis area loads its data from local files, rather than EA’s servers.
-
-          </p>
-  </div>
-</figure>
-<p>There’s some hope that this crucial level data is still available and recoverable, though. Ness points out that Fort Tarsis, the game’s lobby area, already runs using offline data piped through a local “server” thread, meaning the rest of the game could theoretically be coerced to run similarly.</p>
-<p>Just as important, he says, “as far as we have been able to discern, all the logic for the other levels, which when the game was live ran on a remote server, also exists in the client,” Ness said. “By patching the game we can most likely enable the ability to host these in process as well. That’s what we’re exploring.”</p>
-
-<h2>“To be honest we’re not entirely sure…”</h2>
-<p>While all that local level data should be usable in theory, seemingly random differences between <em>Anthem</em> and other Frostbite games are getting in the way of loading the data in practice. <em>Anthem</em> acts like a standard Frostbite game “for the most part,” Ness said, but at times will show unusual behaviors that are hard to pin down.</p>
-<p>“For example, when we try to load most maps, no NPCs spawn, but in some maps they do,” he said. “And we have yet to determine why. Ness has some suspicion that the odd behavior is connected to the “fairly extensive amount of player data the game keeps as part of its online RPG nature,” but adds that “to be honest we’re not entirely sure how deep the differences go, other than that the engine didn’t behave how we expected it to.”</p>
-<p>Ness said he’s about 75 percent confident that the team will be able to figure out how to fully leverage the Frostbite engine to power a version of the game that runs without EA’s centralized servers. If that effort succeeds, he says a playable version of <em>Anthem</em> could be back up and running in “months, or less even, depending on motivation.” But if the efforts to pick apart <em>Anthem</em>’s take on Frostbite hits a brick wall, Ness says “the amount of work increases fairly exponentially and I’m a lot less confident that we have the motivation for that.”</p>
-
-          
-                  </div>
-                    
-        
-          
-    
-    <div>
-
-        
-        <div>
-          
-          
-<p>“I’m fairly confident that we can get this game to be playable again, like how it is supposed to be,” Andersson said. “It’ll just take time as most of us have our own life to manage besides this.”</p>
+<p>For example, <em>Civ VII</em> lets players play any historical leader with any civilization and requires them to leave behind their initial civilization pick in favor of a new one mid-game—not just once, but twice, at the beginning of the second and third ages, phases of play with distinct tech trees and mechanics.</p>
+<p>“I am a huge fan of British history, and so going from the Romans to the Normans to a Great Britain, that feels very natural to me. But it’s not natural to everybody,” Beach said. “As soon as you introduce those type of civ changes and the mixing and mashing with any leader, all of a sudden I think there’s an immersion element.</p>
+<p>“We got feedback in some of our focus testing before the game shipped that there was going to be some level of controversy here, but we didn’t realize quite how strongly players identified with the idea of, ‘I need to take some people and grow them and have that specific civilization cultural set be what’s growing to face the challenges of world history,’” he added.</p>
+<p>I mentioned prior big changes, like the switch in <em>Civ V</em> from the series’ classic “stacks of doom” military gameplay to a more granular, one-unit-one-tile approach to combat, and asked why the changes in <em>Civ VII</em> were so much more divisive than something like that.</p>
 <figure>
-    <div id="caption-2137924"><p>
-              Engaging in some expectations management on the Fort’s Forge Discord.
-                              </p>
+    <div id="caption-2138674"><p>
+              Since launch, seeing this screen has meant it’s time to pick a new civ, but soon players will have another option.
+                              </p><p>
+                  Credit:
+                                      Samuel Axon
+                                  </p>
                           </div>
           <figcaption>
         <div>
     
     <p>
-      Engaging in some expectations management on the Fort’s Forge Discord.
+      Since launch, seeing this screen has meant it’s time to pick a new civ, but soon players will have another option.
 
               <span>
           Credit:
 
-                      <a href="https://discord.com/channels/1392103031205658747/1418279802552586412/1462849496500404402" target="_blank">
           
-          Laurie / The Fort's Forge
+          Samuel Axon
 
-                      </a>
                   </span>
           </p>
   </div>
       </figcaption>
       </figure>
 
-<p>In the meantime, Laurie is still trying to manage expectations set by the somewhat premature posting of Andersson’s proof-of-concept video. “Please, do not expect frequent updates,” Laurie wrote in the Fort’s Forge Discord. “We had not anticipated releasing anything this early, nor should the expedience of this video’s release serve as any kind of benchmark for how fast we make progress.”</p>
-<p>Laurie also <a href="https://www.reddit.com/r/AnthemTheGame/comments/1qfng76/comment/o06gfou/?context=3">took to Reddit</a> to publicly call the video “a really hacky thing so I want to ask people to manage their expectations just a bit. A lot of stuff clearly doesn’t work as ‘intended,’ and definitely needs at minimum, more polish.”</p>
-<p>At one point last week, Laurie says they had to stop accepting new members to the Fort’s Forge Discord, “mostly to prevent an influx of people in response to… news coverage.” And while people with Frostbite engine modding experience are encouraged to reach out, the small team is being cautious about growing too large, too fast.</p>
-<p>“We’re a little reluctant to add developers right now as we have no real code base to work from,” Ness said, describing their current efforts as “scratch work” maintained in separate forms by multiple people. “But once we firm that up (hopefully in the next weeks), we will look to add more [coders].”</p>
+<p>“The difference… was the immersive storytelling versus the mechanics,” Shirk explained. Features like one-unit-one-tile “were mechanical changes that did not impact the immersion, the emotional storytelling that you’re telling yourself in your head.”</p>
+<p>“It’s not all about the mechanics,” he said. “It’s about the game that players want to build for themselves.”</p>
+<h2>One civilization to stand the test of time</h2>
+<p>Starting with the Test of Time update, players will have the option to play one civilization through all three of the game’s ages. Each civ will have an apex age when it will have access to its full kit. In other ages, it will keep some of its kit, but it will also gain an age-appropriate culture tree, and the player will be able to use a new system to give their civ access to unique units or infrastructure from another civilization that would call the current age its apex.</p>
+
+          
+                  </div>
+                    
+        
+          
+    
+    <div>
+          
+          
+<p>At the start of an age, AI leaders will follow the player’s lead—if the player decides to stick with their existing civ, the others will stay, too. If they decide to switch to a new one, the AI will be able to do the same.</p>
+<p>The idea is that this allows for players to not only pick which approach suits their preferences, but to change their mind mid-game, without a lock-in from the game settings at initialization.</p>
+
+<h2>Victories and triumphs</h2>
+<p>The update will also rethink both how victory works in the game, and the controversial legacy paths system, which saw players trying to achieve linear, prescribed goals within each age to gain bonuses for the following one (or in the case of the modern age, to win in the end).</p>
+<p>Whereas the base game delayed any direct work on victories until the third and final age (modern), Test of Time will let players begin making progress toward a victory from the very first age (antiquity), and if they manage to take a very strong lead, it will actually be possible to win the game outright in the second age (exploration).</p>
+<figure>
+    <div id="caption-2138676"><p>
+              In a few months, this legacy paths system will be a thing of the past.
+                              </p><p>
+                  Credit:
+                                      Samuel Axon
+                                  </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      In a few months, this legacy paths system will be a thing of the past.
+
+              <span>
+          Credit:
+
+          
+          Samuel Axon
+
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>As before, there will be four victory conditions, but a few will be rethought for this new context. The cultural victory will be achieved through a custom combination of wonders, great works, celebrations, and more. Military will remain focused on conquering cities and towns. Economic will, like culture, add up a bunch of things, including resources, gold buildings, factories, and treasure convoys. And the scientific victory will remain a space race.</p>
+<p>Additionally, Firaxis is removing the concept of legacy paths from the game completely. It will be replaced with a new system called “triumphs.”</p>
+<p>Firaxis’ goal here is to make the gameplay more of a sandbox like prior titles, with less rigidity in how players work their way toward success.</p>
+<p>Instead of following a preset sequence of goals, the player will pick and choose from a large menu of possible accomplishments, each of which is associated with the six leader attributes: cultural, military, economic, scientific, diplomatic, and expansionist. Completing a triumph will either give players an immediate reward or a card they can use to set themselves up at the start of the next age.</p>
+
+          
+                  </div>
+                    
+        
+          
+    
+    <div>
+          
+          
+<p>Examples include milestones like reaching 200 population, being the first to build a university, claiming most of the world’s natural wonders, or being at war with every other civilization.</p>
+<p>Beach explained his thinking on triumphs. “We purposely set it up so, rather than like pathways through an age, we’re looking at it sort of like as a constellation of objectives, and you choose four or five of those guide stars to move towards,” he said. “But they’re varied enough and they’re difficult enough that there’s no way you can complete all of them.”</p>
+<p>There will be default rewards that players can claim at Age transition even if they don’t achieve any triumphs at all, an affordance Beach says is for beginner players.</p>
+<figure>
+    <div id="caption-2138675"><p>
+              Rewards like these (from the current version of the game) will be offered based on which triumphs you did or didn’t complete.
+                              </p><p>
+                  Credit:
+                                      Samuel Axon
+                                  </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      Rewards like these (from the current version of the game) will be offered based on which triumphs you did or didn’t complete.
+
+              <span>
+          Credit:
+
+          
+          Samuel Axon
+
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>During development, triumphs were considered alongside a very different alternative: simply doubling the number of legacy paths—two culture, two economic, two military, and two science. “But we look at that versus this sort of more open-ended triumph system, and we liked the open-endedness of it,” Beach said.</p>
+<p>Triumphs are also designed in such a way that modders will be able to “easily” add them to the game. Firaxis is also workshopping something called “triumph sets,” which would allow players to configure their game at the start with specific limited packages of possible triumphs tailored to certain playstyles or challenges.</p>
+<p>“We have [players] that are saying, I’d love it if you actually randomized the triumphs so I don’t even know going into the game which ones I’m going to be presented with,” Beach said. “We’re holding off on that for right now. That’s sort of a future idea.”</p>
+<h2>33-33-33</h2>
+<p>These are big changes that aim to walk the line of retaining what makes <em>VII</em> unique, while satisfying players of V and VI who felt it went way too far.</p>
+<p>Civilization creator Sid Meier famously had a rule for sequels: 33 percent of a new game should retain systems that were established in the prior entry, 33 percent should substantially improve prior systems, and 33 percent should be brand-new systems and mechanics.</p>
+
+          
+                  </div>
+                    
+        
+          
+    
+    <div>
+          
+          
+<p>“I actually was challenged by my design team, and they wanted to change even more, way blowing past that 33-33-33 rule,” said Beach. “I would actually numerically try to add up how much change we were talking about and demonstrate to them that we had blown way past those guidelines and start to try to rein them in and say, well, out of these systems that we want to make updates to, let’s pull back a couple of these and keep a couple of them the same because we’re just overdoing it in terms of how innovative we want to be here.”</p>
+<p>He said that in the end, “we still probably violated the 33-33-33 rule by going a little bit heavier into a new approach to everything, but there were some things we really wanted to tackle.”</p>
+<h2>Why&nbsp;<em>VII</em> changed so much</h2>
+<p>Beach and Shirk&nbsp;explained a little bit about how the game ended up where it did.</p>
+<p>“I think part of that comes out of <em>Civ VI</em> being the longest development cycle we’ve ever had before,” Beach said. The team worked on that entry in some way or another for roughly 11 years.</p>
+<p>Going into <em>VII</em>, “we spent longer on our postmortem than we ever had before,” Beach recalled. “We had whiteboards filled with thoughts on every single system and what was good about it and what wasn’t good about it.”</p>
+<p>“We wanted to tackle that late game problem of the combinatorial explosion,” he explained—referring to how some players of prior Civ games felt that the amount of things to control becomes unwieldy toward the end of a long playthrough, thanks to “so many cities to manage, so many units to manage, too much micromanagement.”</p>
+<p>“We just saw a lot of data about people never finishing games and just deciding at some point, I’ve gotten what I can out of this game, this game is now a chore,” he said.</p>
+
+          
+                  </div>
+                    
+        
+          
+    
+    <div>
+
+        
+        <div>
+          
+          
+<p>The team also wanted to make the game more modular and extensible, so it would be easier to design and add new systems post-launch. He cited frustrations working on <em>Civ VI</em>, where the combinatorial explosion problem was already so significant that it became a deterrent to adding new things to the game.</p>
+
+<h2>Testing a new approach</h2>
+<p>Based on Firaxis’ experience with <em>Civ VII</em>‘s reception, the studio is trying some new things to incorporate player feedback earlier in the development process for new mechanics or systems.</p>
+<p>“It’s the worst-kept secret in the world that we’ve had this external test team for quite a few years called our Frankenstein Group,” noted Beach. It’s a small group of people—fewer than 50—who help test out new ideas and give feedback.</p>
+<p>Now, that’s being expanded with a workshop program facilitated by publisher 2K that loops in many more members of the game’s community for play sessions and feedback rounds.</p>
+<p>Shirk said this is a big departure from how things were done in the <em>Civ V</em> and <em>Civ VI</em> eras. With <em>V</em>, the team would release an update, then browse Reddit and sites like CivFanatics to see the reception. “In <em>VI</em>, we actually got to introduce more data and telemetry just to see how players were playing, but still a lot of us just looking at the forums,” he added.</p>
+<p>I asked if Firaxis and 2K would consider the early access model, which is more typical for non-AAA games, for future Civ titles. “It’s one of those things that you can never say never,” Shirk responded. “As developers, we’re always looking at that jealously because we see that it’s a great opportunity.”</p>
+<p>Both Beach and Shirk claimed that the audience of Civilization has expanded significantly over the past few games. You can’t please everyone, but more than most other games in the 4X or grand strategy genre that can be satisfied with serving a niche, Civilization—a franchise that has intermittently been the gold standard of genre across its 35-year history—has to try.</p>
 
 
           
@@ -176,15 +266,15 @@
     
 
     <p>
-      Kyle Orland has been the Senior Gaming Editor at Ars Technica since 2012, writing primarily about the business, tech, and culture behind video games. He has journalism and computer science degrees from University of Maryland. He once <a href="https://bossfightbooks.com/collections/books/products/minesweeper-by-kyle-orland">wrote a whole book about <em>Minesweeper</em></a>.
+      Samuel Axon is the editorial lead for tech and gaming coverage at Ars Technica. He covers AI, software development, gaming, entertainment, and mixed reality. He has been writing about gaming and technology for nearly two decades at Engadget, PC World, Mashable, Vice, Polygon, Wired, and others. He previously ran a marketing and PR agency in the gaming industry, led editorial for the TV network CBS, and worked on social media marketing strategy for Samsung Mobile at the creative agency SPCSHP. He also is an independent software and game developer for iOS, Windows, and other platforms, and he&nbsp;is a graduate of DePaul University, where he studied interactive media and software development.
     </p>
   </div>
 
 
   <p>
-    <a href="https://arstechnica.com/gaming/2026/01/why-reviving-the-shuttered-anthem-is-turning-out-tougher-than-expected/#comments" title="17 comments">
+    <a href="https://arstechnica.com/gaming/2026/02/interview-civilization-viis-devs-on-the-big-update-meant-to-win-critics-back/#comments" title="5 comments">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><defs><clipPath id="bubble-zero_svg__a"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath><clipPath id="bubble-zero_svg__b"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath></defs><g clip-path="url(#bubble-zero_svg__a)"><g fill="currentColor" clip-path="url(#bubble-zero_svg__b)"><path d="M80 40c0 22.09-17.91 40-40 40S0 62.09 0 40 17.91 0 40 0s40 17.91 40 40"></path><path d="M40 40 .59 76.58C-.67 77.84.22 80 2.01 80H40z"></path></g></g></svg>
-    17 Comments
+    5 Comments
   </a>
       </p>
               </div>
@@ -198,7 +288,24 @@
 
 
   
-  </div></div><br/><br/>https://arstechnica.com/gaming/2026/01/why-reviving-the-shuttered-anthem-is-turning-out-tougher-than-expected/]]></content:encoded>
+  </div></div><br/><br/>https://arstechnica.com/gaming/2026/02/interview-civilization-viis-devs-on-the-big-update-meant-to-win-critics-back/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Here's what Cities: Skylines 2’s new developer is updating first]]></title>
+            <link>https://arstechnica.com/gaming/2026/02/heres-what-cities-skylines-2s-new-developer-is-updating-first/</link>
+            <guid>1422973</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+                      
+                      
+          <p>Back in November, <em>Cities: Skylines 2</em>&nbsp;publisher Paradox <a href="https://arstechnica.com/gaming/2025/11/cities-skylines-upheaval-developer-and-publisher-announce-mutual-breakup/">made the surprising announcement</a> that longtime series developer Colossal Order would be ceasing work on the series as part of a “mutual” breakup. Now, we’re getting our first glimpse into the kinds of patches and upgrades new developer Iceflake (<em>Surviving the Aftermath</em>) is prioritizing for the popular city-builder going forward.</p>
+<p>In <a href="https://store.steampowered.com/news/app/949230/view/502848649741467986?l=english">a City Corner Developer Diary</a> posted late last week, Iceflake focuses mainly on the visual improvements it’s planning for its first major <em>Cities: Skylines 2</em>&nbsp;patch. Chief among these is improvements to the game’s user interface that Iceflake admits can “sometimes be a bit confusing when it comes to communicating things.”</p>
+<p>The new patch will include a “streamlined” onboarding process for new cities, more expressive and context-aware icons, and toolbars with clearer colors and visual style. A new in-game Encyclopedia will also let players search through information about different gameplay topics, though that feature likely won’t be ready for Iceflake’s first patch.</p>
+<p>As far as the look of the cities themselves, Iceflake says it’s taking inspiration from <a href="https://mods.paradoxplaza.com/mods/84638/Windows">an existing “recolor” patch</a>, integrating the ability to set custom colors for buildings, props, and vehicles into the base game. Players will eventually be able to recolor trees, plants, and other props as well, but this will also have to wait for a later patch.</p>
+
+          
+                      
+                  </div></div><br/><br/>https://arstechnica.com/gaming/2026/02/heres-what-cities-skylines-2s-new-developer-is-updating-first/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
