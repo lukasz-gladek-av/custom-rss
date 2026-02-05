@@ -32,10 +32,12 @@ const feed = new Feed({
 
 async function fetchWithRetry(url, config = {}, maxRetries = 4) {
   const delays = [2000, 4000, 8000, 16000]; // Exponential backoff in milliseconds
+  const defaultRequestConfig = { timeout: 10000 };
 
   for (let attempt = 0; attempt <= maxRetries; attempt++) {
     try {
-      return await axios.get(url, config);
+      const mergedConfig = { ...defaultRequestConfig, ...config };
+      return await axios.get(url, mergedConfig);
     } catch (error) {
       const isLastAttempt = attempt === maxRetries;
       const isRetriableError = error.code === 'ECONNRESET'
@@ -75,6 +77,38 @@ function extractLastModified(item) {
   return null;
 }
 
+function extractAuthorName(item) {
+  if (!item) {
+    return 'Unknown';
+  }
+
+  if (Array.isArray(item.author) && item.author.length > 0 && item.author[0]?.name) {
+    return item.author[0].name;
+  }
+
+  return item.author || item.creator || 'Unknown';
+}
+
+function getItemContent(item) {
+  return item?.['content:encoded'] || item?.content || '';
+}
+
+function hasArticleChanged(existingArticle, articleItem, existingLastModified) {
+  if (!existingArticle) {
+    return true;
+  }
+
+  const existingLastModifiedValue = existingLastModified || extractLastModified(existingArticle) || '';
+  const nextLastModifiedValue = extractLastModified(articleItem) || '';
+
+  return existingArticle.title !== articleItem.title
+    || (existingArticle.guid || existingArticle.id || existingArticle.link) !== articleItem.id
+    || existingArticle.link !== articleItem.link
+    || getItemContent(existingArticle) !== articleItem.content
+    || extractAuthorName(existingArticle) !== extractAuthorName(articleItem)
+    || existingLastModifiedValue !== nextLastModifiedValue;
+}
+
 async function loadExistingItems(filePath) {
   try {
     const xmlData = await fs.promises.readFile(filePath, 'utf8');
@@ -104,16 +138,17 @@ async function loadExistingItems(filePath) {
 async function fetchAndProcessFeed() {
   console.log(`Fetching ${feedTitle} from ${originalFeedUrl}...`);
   const existingArticles = await loadExistingItems(outputFile);
-  let hasNewArticles = false;
+  let hasFeedChanges = false;
   const parsedFeed = await rssParser.parseURL(originalFeedUrl);
 
   for (const item of parsedFeed.items) {
     try {
       // Get article link
       const itemArticleLink = item.link;
+      const itemId = item.link || item.guid || item.id;
 
       // Check if article already exists
-      const existingArticle = existingArticles.get(item.link);
+      const existingArticle = existingArticles.get(itemId);
       let lastModifiedHeader = null;
 
       // Fetch the article content with conditional request if we have lastModified
@@ -152,14 +187,10 @@ async function fetchAndProcessFeed() {
       const article = reader.parse();
 
       if (article) {
-        const articleId = item.link;
-        if (!existingArticles.has(articleId)) {
-          hasNewArticles = true;
-        }
-
+        const articleId = itemId;
         const articleItem = {
           title: item.title,
-          id: item.link,
+          id: articleId,
           link: itemArticleLink,
           content: itemArticleLink + '<br/><br/>' + article.content,
           author: [{ name: item.author || item.creator || 'Unknown', email: 'noreply@example.com' }],
@@ -170,12 +201,22 @@ async function fetchAndProcessFeed() {
           articleItem.custom_elements = [{ 'lastModified': lastModifiedHeader }];
         }
 
+        if (hasArticleChanged(existingArticle?.item, articleItem, existingArticle?.lastModified)) {
+          hasFeedChanges = true;
+        }
         feed.addItem(articleItem);
       } else {
         const fallbackIdentifier = itemArticleLink || item.link || item.title || 'Unknown item';
         console.warn(`Failed to parse content for ${fallbackIdentifier}`);
-        if (!existingArticles.has(item.link)) {
-          hasNewArticles = true;
+        const fallbackItem = {
+          title: item.title,
+          id: itemId,
+          link: itemArticleLink,
+          content: getItemContent(item),
+          author: [{ name: item.author || item.creator || 'Unknown', email: 'noreply@example.com' }]
+        };
+        if (hasArticleChanged(existingArticle?.item, fallbackItem, existingArticle?.lastModified)) {
+          hasFeedChanges = true;
         }
         feed.addItem(item);
       }
@@ -184,8 +225,8 @@ async function fetchAndProcessFeed() {
     }
   }
 
-  if (!hasNewArticles) {
-    console.log(`No new articles found for ${feedTitle}; skipping feed update.`);
+  if (!hasFeedChanges) {
+    console.log(`No feed changes found for ${feedTitle}; skipping feed update.`);
     return;
   }
 

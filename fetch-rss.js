@@ -71,6 +71,38 @@ function extractLastModified(item) {
   return null;
 }
 
+function extractAuthorName(item) {
+  if (!item) {
+    return 'Unknown';
+  }
+
+  if (Array.isArray(item.author) && item.author.length > 0 && item.author[0]?.name) {
+    return item.author[0].name;
+  }
+
+  return item.author || item.creator || 'Unknown';
+}
+
+function getItemContent(item) {
+  return item?.['content:encoded'] || item?.content || '';
+}
+
+function hasArticleChanged(existingArticle, articleItem, existingLastModified) {
+  if (!existingArticle) {
+    return true;
+  }
+
+  const existingLastModifiedValue = existingLastModified || extractLastModified(existingArticle) || '';
+  const nextLastModifiedValue = extractLastModified(articleItem) || '';
+
+  return existingArticle.title !== articleItem.title
+    || (existingArticle.guid || existingArticle.id || existingArticle.link) !== articleItem.id
+    || existingArticle.link !== articleItem.link
+    || getItemContent(existingArticle) !== articleItem.content
+    || extractAuthorName(existingArticle) !== extractAuthorName(articleItem)
+    || existingLastModifiedValue !== nextLastModifiedValue;
+}
+
 async function loadExistingItems(filePath) {
   try {
     const xmlData = await fs.promises.readFile(filePath, 'utf8');
@@ -139,7 +171,7 @@ function extractHrefFromContent(htmlContent) {
 
 async function fetchAndProcessFeed() {
   const existingArticles = await loadExistingItems('gaming.xml');
-  let hasNewArticles = false;
+  let hasFeedChanges = false;
   const parsedFeed = await rssParser.parseURL(originalFeedUrl);
 
   for (const item of parsedFeed.items) {
@@ -233,8 +265,8 @@ async function fetchAndProcessFeed() {
           articleItem.custom_elements = [{ 'lastModified': lastModifiedHeader }];
         }
 
-        if (!existingArticles.has(articleItem.id)) {
-          hasNewArticles = true;
+        if (hasArticleChanged(existingArticle?.item, articleItem, existingArticle?.lastModified)) {
+          hasFeedChanges = true;
         }
         feed.addItem(articleItem);
 
@@ -243,18 +275,25 @@ async function fetchAndProcessFeed() {
         addItemToDomainFeed(linkDomain, articleItem);
       } else {
         console.warn(`Failed to parse content for ${itemArticleContent || itemArticleLink}`);
-        if (!existingArticles.has(item.link)) {
-          hasNewArticles = true;
+        const fallbackItem = {
+          title: item.title,
+          id: itemId,
+          link: itemArticleLink,
+          content: getItemContent(item),
+          author: [{ name: item.author || item.creator || 'Unknown', email: 'noreply@example.com' }]
+        };
+        if (hasArticleChanged(existingArticle?.item, fallbackItem, existingArticle?.lastModified)) {
+          hasFeedChanges = true;
         }
-        feed.addItem(item)
+        feed.addItem(item);
       }
     } catch (err) {
       console.error(`Error processing ${item}:`, err);
     }
   }
 
-  if (!hasNewArticles) {
-    console.log('No new articles found; skipping feed update.');
+  if (!hasFeedChanges) {
+    console.log('No feed changes found; skipping feed update.');
     return;
   }
 
