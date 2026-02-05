@@ -6,9 +6,11 @@ const fs = require('fs');
 const {
   addDcCreatorToXml,
   buildItemFromExisting,
+  createHostRequestLimiter,
   createRssParser,
   fetchWithRetry,
   getFetchConcurrency,
+  getPerHostConcurrency,
   getItemContent,
   hasArticleChanged,
   loadExistingItems,
@@ -27,6 +29,8 @@ const domainFeeds = new Map();
 
 const skipSitesMatches = ['destructoid.com', 'polygon.com', 'gamesindustry.biz', 'vgbees.com'];
 const fetchConcurrency = getFetchConcurrency(4);
+const perHostConcurrency = getPerHostConcurrency(2);
+const runWithHostLimit = createHostRequestLimiter({ perHostConcurrency });
 
 function extractHrefFromContent(htmlContent) {
   if (!htmlContent) {
@@ -42,7 +46,7 @@ async function fetchAndProcessFeed() {
   const parsedFeed = await rssParser.parseURL(originalFeedUrl);
   const parsedItems = parsedFeed.items || [];
 
-  console.log(`Processing ${parsedItems.length} items with concurrency=${fetchConcurrency}`);
+  console.log(`Processing ${parsedItems.length} items with concurrency=${fetchConcurrency}, perHostConcurrency=${perHostConcurrency}`);
   const processingResults = await mapWithConcurrency(
     parsedItems,
     fetchConcurrency,
@@ -165,7 +169,10 @@ async function processFeedItem(item, existingArticles) {
       requestConfig.validateStatus = (status) => status === 200 || status === 304;
     }
 
-    const response = await fetchWithRetry(itemArticleLink, requestConfig);
+    const response = await runWithHostLimit(
+      itemArticleLink,
+      () => fetchWithRetry(itemArticleLink, requestConfig)
+    );
     const linkDomain = getDomainFromUrl(itemArticleLink);
 
     if (response.status === 304 && existingArticle) {

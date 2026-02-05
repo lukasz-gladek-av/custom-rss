@@ -14,10 +14,13 @@ npm run check:scripts
 ```
 
 ### Tune fetch concurrency
-Both processors support a `FETCH_CONCURRENCY` environment variable (default: `4`, max: `12`).
+Both processors support:
+- `FETCH_CONCURRENCY` (default: `4`, max: `12`) for total concurrent item processing.
+- `FETCH_CONCURRENCY_PER_HOST` (default: `2`, max: `6`) for concurrent requests to a single host.
 
 ```bash
 FETCH_CONCURRENCY=6 npm run fetch:gaming
+FETCH_CONCURRENCY=8 FETCH_CONCURRENCY_PER_HOST=2 npm run fetch:eurogamer
 ```
 
 ### Gaming headlines (ResetEra)

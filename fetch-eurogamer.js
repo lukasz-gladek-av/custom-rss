@@ -5,9 +5,11 @@ const fs = require('fs');
 const {
   addDcCreatorToXml,
   buildItemFromExisting,
+  createHostRequestLimiter,
   createRssParser,
   fetchWithRetry,
   getFetchConcurrency,
+  getPerHostConcurrency,
   getItemContent,
   hasArticleChanged,
   loadExistingItems,
@@ -32,6 +34,8 @@ const feed = new Feed({
   link: `https://lukasz-gladek-av.github.io/custom-rss/${outputFile}`,
 });
 const fetchConcurrency = getFetchConcurrency(4);
+const perHostConcurrency = getPerHostConcurrency(2);
+const runWithHostLimit = createHostRequestLimiter({ perHostConcurrency });
 
 async function fetchAndProcessFeed() {
   console.log(`Fetching ${feedTitle} from ${originalFeedUrl}...`);
@@ -39,7 +43,7 @@ async function fetchAndProcessFeed() {
   const parsedFeed = await rssParser.parseURL(originalFeedUrl);
   const parsedItems = parsedFeed.items || [];
 
-  console.log(`Processing ${parsedItems.length} items with concurrency=${fetchConcurrency}`);
+  console.log(`Processing ${parsedItems.length} items with concurrency=${fetchConcurrency}, perHostConcurrency=${perHostConcurrency}`);
   const processingResults = await mapWithConcurrency(
     parsedItems,
     fetchConcurrency,
@@ -85,7 +89,10 @@ async function processFeedItem(item, existingArticles) {
       requestConfig.validateStatus = (status) => status === 200 || status === 304;
     }
 
-    const response = await fetchWithRetry(itemArticleLink, requestConfig);
+    const response = await runWithHostLimit(
+      itemArticleLink,
+      () => fetchWithRetry(itemArticleLink, requestConfig)
+    );
     if (response.status === 304 && existingArticle) {
       console.log(`Article unchanged (304): ${item.title}`);
       return {
