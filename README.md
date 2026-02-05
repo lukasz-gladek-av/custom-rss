@@ -13,6 +13,13 @@ Scripts for fetching and cleaning up RSS feeds, producing full-content XML files
 npm run check:scripts
 ```
 
+### Tune fetch concurrency
+Both processors support a `FETCH_CONCURRENCY` environment variable (default: `4`, max: `12`).
+
+```bash
+FETCH_CONCURRENCY=6 npm run fetch:gaming
+```
+
 ### Gaming headlines (ResetEra)
 Generates a cleaned feed plus per-domain feeds for links found in the original ResetEra gaming headlines feed.
 
