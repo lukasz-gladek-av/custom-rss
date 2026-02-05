@@ -37,13 +37,11 @@ async function fetchAndProcessFeed() {
   const parsedFeed = await rssParser.parseURL(originalFeedUrl);
 
   for (const item of parsedFeed.items) {
+    const itemId = item.link || item.guid || item.id;
+    const existingArticle = existingArticles.get(itemId);
     try {
       // Get article link
       const itemArticleLink = item.link;
-      const itemId = item.link || item.guid || item.id;
-
-      // Check if article already exists
-      const existingArticle = existingArticles.get(itemId);
       let lastModifiedHeader = null;
 
       // Fetch the article content with conditional request if we have lastModified
@@ -121,6 +119,9 @@ async function fetchAndProcessFeed() {
       }
     } catch (err) {
       console.error(`Error processing ${item.title}:`, err.message);
+      if (existingArticle) {
+        feed.addItem(buildItemFromExisting(existingArticle));
+      }
     }
   }
 

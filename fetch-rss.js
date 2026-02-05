@@ -41,6 +41,7 @@ async function fetchAndProcessFeed() {
 
   for (const item of parsedFeed.items) {
     const itemId = item.guid || item.id || item.link;
+    const existingArticle = existingArticles.get(itemId);
     const itemTitleLower = item.title.toLowerCase();
     if (
       itemTitleLower?.startsWith('how to')
@@ -71,8 +72,6 @@ async function fetchAndProcessFeed() {
         continue;
       }
 
-      // Check if article already exists
-      const existingArticle = existingArticles.get(itemId);
       let articleItem;
       let lastModifiedHeader = null;
 
@@ -163,6 +162,12 @@ async function fetchAndProcessFeed() {
       }
     } catch (err) {
       console.error(`Error processing ${item.title}:`, err.message);
+      if (existingArticle) {
+        const cachedItem = buildItemFromExisting(existingArticle);
+        feed.addItem(cachedItem);
+        const linkDomain = getDomainFromUrl(cachedItem.link);
+        addItemToDomainFeed(linkDomain, cachedItem);
+      }
     }
   }
 
