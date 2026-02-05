@@ -7,9 +7,11 @@ const {
   buildItemFromExisting,
   createRssParser,
   fetchWithRetry,
+  getFetchConcurrency,
   getItemContent,
   hasArticleChanged,
   loadExistingItems,
+  mapWithConcurrency,
   removeStylesAndImages
 } = require('./lib/feed-utils');
 
@@ -29,100 +31,32 @@ const feed = new Feed({
   description: feedDescription,
   link: `https://lukasz-gladek-av.github.io/custom-rss/${outputFile}`,
 });
+const fetchConcurrency = getFetchConcurrency(4);
 
 async function fetchAndProcessFeed() {
   console.log(`Fetching ${feedTitle} from ${originalFeedUrl}...`);
   const existingArticles = await loadExistingItems(outputFile);
-  let hasFeedChanges = false;
   const parsedFeed = await rssParser.parseURL(originalFeedUrl);
+  const parsedItems = parsedFeed.items || [];
 
-  for (const item of parsedFeed.items) {
-    const itemId = item.link || item.guid || item.id;
-    const existingArticle = existingArticles.get(itemId);
-    try {
-      // Get article link
-      const itemArticleLink = item.link;
-      let lastModifiedHeader = null;
+  console.log(`Processing ${parsedItems.length} items with concurrency=${fetchConcurrency}`);
+  const processingResults = await mapWithConcurrency(
+    parsedItems,
+    fetchConcurrency,
+    (item) => processFeedItem(item, existingArticles)
+  );
 
-      // Fetch the article content with conditional request if we have lastModified
-      const requestConfig = {};
-      if (existingArticle && existingArticle.lastModified) {
-        requestConfig.headers = {
-          'If-Modified-Since': existingArticle.lastModified
-        };
-        requestConfig.validateStatus = (status) => status === 200 || status === 304;
-      }
-
-      const response = await fetchWithRetry(itemArticleLink, requestConfig);
-
-      // Handle 304 Not Modified - reuse existing content
-      if (response.status === 304 && existingArticle) {
-        console.log(`Article unchanged (304): ${item.title}`);
-        feed.addItem(buildItemFromExisting(existingArticle));
-        continue;
-      }
-
-      // Handle 200 OK - fetch and process new content
-      const html = response.data;
-      lastModifiedHeader = response.headers['last-modified'] || null;
-      const filteredHtml = removeStylesAndImages(html);
-
-      // Use JSDOM and Readability to extract the main content
-      const doc = new JSDOM(filteredHtml, { url: itemArticleLink });
-      const reader = new Readability(doc.window.document);
-      const article = reader.parse();
-
-      if (article) {
-        const articleId = itemId;
-        const articleItem = {
-          title: item.title,
-          id: articleId,
-          link: itemArticleLink,
-          content: itemArticleLink + '<br/><br/>' + article.content,
-          author: [{ name: item.author || item.creator || 'Unknown', email: 'noreply@example.com' }],
-        };
-
-        // Add Last-Modified header if present
-        if (lastModifiedHeader) {
-          articleItem.custom_elements = [{ 'lastModified': lastModifiedHeader }];
-        }
-
-        if (hasArticleChanged(existingArticle?.item, articleItem, existingArticle?.lastModified)) {
-          hasFeedChanges = true;
-        }
-        feed.addItem(articleItem);
-      } else {
-        const fallbackIdentifier = itemArticleLink || item.link || item.title || 'Unknown item';
-        console.warn(`Failed to parse content for ${fallbackIdentifier}`);
-
-        if (existingArticle) {
-          feed.addItem(buildItemFromExisting(existingArticle));
-          continue;
-        }
-
-        const fallbackItem = {
-          title: item.title,
-          id: itemId,
-          link: itemArticleLink,
-          content: getItemContent(item),
-          author: [{ name: item.author || item.creator || 'Unknown', email: 'noreply@example.com' }]
-        };
-
-        if (lastModifiedHeader) {
-          fallbackItem.custom_elements = [{ 'lastModified': lastModifiedHeader }];
-        }
-
-        if (hasArticleChanged(existingArticle?.item, fallbackItem, existingArticle?.lastModified)) {
-          hasFeedChanges = true;
-        }
-        feed.addItem(fallbackItem);
-      }
-    } catch (err) {
-      console.error(`Error processing ${item.title}:`, err.message);
-      if (existingArticle) {
-        feed.addItem(buildItemFromExisting(existingArticle));
-      }
+  let hasFeedChanges = false;
+  for (const result of processingResults) {
+    if (!result?.articleItem) {
+      continue;
     }
+
+    if (result.hasFeedChanges) {
+      hasFeedChanges = true;
+    }
+
+    feed.addItem(result.articleItem);
   }
 
   if (!hasFeedChanges) {
@@ -134,6 +68,93 @@ async function fetchAndProcessFeed() {
   rssXml = addDcCreatorToXml(rssXml);
   fs.writeFileSync(outputFile, rssXml);
   console.log(`Successfully updated ${outputFile} with full articles.`);
+}
+
+async function processFeedItem(item, existingArticles) {
+  const itemId = item.link || item.guid || item.id;
+  const existingArticle = existingArticles.get(itemId);
+
+  try {
+    const itemArticleLink = item.link;
+    const requestConfig = {};
+
+    if (existingArticle?.lastModified) {
+      requestConfig.headers = {
+        'If-Modified-Since': existingArticle.lastModified
+      };
+      requestConfig.validateStatus = (status) => status === 200 || status === 304;
+    }
+
+    const response = await fetchWithRetry(itemArticleLink, requestConfig);
+    if (response.status === 304 && existingArticle) {
+      console.log(`Article unchanged (304): ${item.title}`);
+      return {
+        articleItem: buildItemFromExisting(existingArticle),
+        hasFeedChanges: false
+      };
+    }
+
+    const lastModifiedHeader = response.headers['last-modified'] || null;
+    const filteredHtml = removeStylesAndImages(response.data);
+    const doc = new JSDOM(filteredHtml, { url: itemArticleLink });
+    const reader = new Readability(doc.window.document);
+    const article = reader.parse();
+
+    if (article) {
+      const articleItem = {
+        title: item.title,
+        id: itemId,
+        link: itemArticleLink,
+        content: itemArticleLink + '<br/><br/>' + article.content,
+        author: [{ name: item.author || item.creator || 'Unknown', email: 'noreply@example.com' }],
+      };
+
+      if (lastModifiedHeader) {
+        articleItem.custom_elements = [{ 'lastModified': lastModifiedHeader }];
+      }
+
+      return {
+        articleItem,
+        hasFeedChanges: hasArticleChanged(existingArticle?.item, articleItem, existingArticle?.lastModified)
+      };
+    }
+
+    const fallbackIdentifier = itemArticleLink || item.link || item.title || 'Unknown item';
+    console.warn(`Failed to parse content for ${fallbackIdentifier}`);
+    if (existingArticle) {
+      return {
+        articleItem: buildItemFromExisting(existingArticle),
+        hasFeedChanges: false
+      };
+    }
+
+    const fallbackItem = {
+      title: item.title,
+      id: itemId,
+      link: itemArticleLink,
+      content: getItemContent(item),
+      author: [{ name: item.author || item.creator || 'Unknown', email: 'noreply@example.com' }]
+    };
+
+    if (lastModifiedHeader) {
+      fallbackItem.custom_elements = [{ 'lastModified': lastModifiedHeader }];
+    }
+
+    return {
+      articleItem: fallbackItem,
+      hasFeedChanges: hasArticleChanged(existingArticle?.item, fallbackItem, existingArticle?.lastModified)
+    };
+  } catch (err) {
+    console.error(`Error processing ${item.title}:`, err.message);
+    if (existingArticle) {
+      return {
+        articleItem: buildItemFromExisting(existingArticle),
+        hasFeedChanges: false
+      };
+    }
+
+    return null;
+  }
 }
 
 fetchAndProcessFeed();

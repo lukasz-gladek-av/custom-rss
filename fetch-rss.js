@@ -8,9 +8,11 @@ const {
   buildItemFromExisting,
   createRssParser,
   fetchWithRetry,
+  getFetchConcurrency,
   getItemContent,
   hasArticleChanged,
   loadExistingItems,
+  mapWithConcurrency,
   removeStylesAndImages
 } = require('./lib/feed-utils');
 
@@ -23,7 +25,8 @@ const feed = new Feed({
 });
 const domainFeeds = new Map();
 
-const skipSitesMatches = ['destructoid.com', 'polygon.com', 'gamesindustry.biz', 'vgbees.com']
+const skipSitesMatches = ['destructoid.com', 'polygon.com', 'gamesindustry.biz', 'vgbees.com'];
+const fetchConcurrency = getFetchConcurrency(4);
 
 function extractHrefFromContent(htmlContent) {
   if (!htmlContent) {
@@ -36,139 +39,28 @@ function extractHrefFromContent(htmlContent) {
 
 async function fetchAndProcessFeed() {
   const existingArticles = await loadExistingItems('gaming.xml');
-  let hasFeedChanges = false;
   const parsedFeed = await rssParser.parseURL(originalFeedUrl);
+  const parsedItems = parsedFeed.items || [];
 
-  for (const item of parsedFeed.items) {
-    const itemId = item.guid || item.id || item.link;
-    const existingArticle = existingArticles.get(itemId);
-    const itemTitleLower = item.title.toLowerCase();
-    if (
-      itemTitleLower?.startsWith('how to')
-      || itemTitleLower?.includes(': how to')
-      || itemTitleLower?.startsWith('where to find')
-      || itemTitleLower?.startsWith('daily deals')
-      || itemTitleLower?.startsWith('psa')
-      || itemTitleLower?.startsWith('the maw')
-      || itemTitleLower?.endsWith('? explained')
-      || itemTitleLower?.endsWith('- answered')
-      || itemTitleLower?.endsWith('– answered')
-      || (itemTitleLower?.includes('save') && (itemTitleLower?.includes('off')))
-      || itemTitleLower.includes('guide:')
-    ) {
+  console.log(`Processing ${parsedItems.length} items with concurrency=${fetchConcurrency}`);
+  const processingResults = await mapWithConcurrency(
+    parsedItems,
+    fetchConcurrency,
+    (item) => processFeedItem(item, existingArticles)
+  );
+
+  let hasFeedChanges = false;
+  for (const result of processingResults) {
+    if (!result?.articleItem) {
       continue;
     }
-    try {
-      // Get article link
-      const itemArticleContent = item['content:encoded'];
-      const itemArticleLink = extractHrefFromContent(itemArticleContent);
 
-      if (!itemArticleLink) {
-        console.warn(`Missing article link for ${item.title}. Skipping.`);
-        continue;
-      }
-
-      if (skipSitesMatches.some(site => itemArticleLink.includes(site))) {
-        continue;
-      }
-
-      let articleItem;
-      let lastModifiedHeader = null;
-
-      // Fetch the article content with conditional request if we have lastModified
-      const requestConfig = {};
-      if (existingArticle && existingArticle.lastModified) {
-        requestConfig.headers = {
-          'If-Modified-Since': existingArticle.lastModified
-        };
-        requestConfig.validateStatus = (status) => status === 200 || status === 304;
-      }
-
-      const response = await fetchWithRetry(itemArticleLink, requestConfig);
-
-      // Handle 304 Not Modified - reuse existing content
-      if (response.status === 304 && existingArticle) {
-        console.log(`Article unchanged (304): ${item.title}`);
-        articleItem = buildItemFromExisting(existingArticle);
-        feed.addItem(articleItem);
-
-        // Per domain
-        const linkDomain = getDomainFromUrl(itemArticleLink);
-        addItemToDomainFeed(linkDomain, articleItem);
-        continue;
-      }
-
-      // Handle 200 OK - fetch and process new content
-      const html = response.data;
-      lastModifiedHeader = response.headers['last-modified'] || null;
-      const filteredHtml = removeStylesAndImages(html);
-
-      // Use JSDOM and Readability to extract the main content
-      const doc = new JSDOM(filteredHtml, { url: itemArticleLink });
-      const reader = new Readability(doc.window.document);
-      const article = reader.parse();
-
-      if (article) {
-        articleItem = {
-          title: item.title,
-          id: itemId,
-          link: itemArticleLink,
-          content: article.content + '<br/><br/>' + itemArticleLink,
-          author: [{ name: item.author || item.creator || 'Unknown', email: 'noreply@example.com' }],
-        };
-
-        // Add Last-Modified header if present
-        if (lastModifiedHeader) {
-          articleItem.custom_elements = [{ 'lastModified': lastModifiedHeader }];
-        }
-
-        if (hasArticleChanged(existingArticle?.item, articleItem, existingArticle?.lastModified)) {
-          hasFeedChanges = true;
-        }
-        feed.addItem(articleItem);
-
-        // Per domain
-        const linkDomain = getDomainFromUrl(itemArticleLink);
-        addItemToDomainFeed(linkDomain, articleItem);
-      } else {
-        console.warn(`Failed to parse content for ${itemArticleContent || itemArticleLink}`);
-
-        if (existingArticle) {
-          articleItem = buildItemFromExisting(existingArticle);
-          feed.addItem(articleItem);
-          const linkDomain = getDomainFromUrl(itemArticleLink);
-          addItemToDomainFeed(linkDomain, articleItem);
-          continue;
-        }
-
-        const fallbackItem = {
-          title: item.title,
-          id: itemId,
-          link: itemArticleLink,
-          content: getItemContent(item),
-          author: [{ name: item.author || item.creator || 'Unknown', email: 'noreply@example.com' }]
-        };
-
-        if (lastModifiedHeader) {
-          fallbackItem.custom_elements = [{ 'lastModified': lastModifiedHeader }];
-        }
-
-        if (hasArticleChanged(existingArticle?.item, fallbackItem, existingArticle?.lastModified)) {
-          hasFeedChanges = true;
-        }
-        feed.addItem(fallbackItem);
-        const linkDomain = getDomainFromUrl(itemArticleLink);
-        addItemToDomainFeed(linkDomain, fallbackItem);
-      }
-    } catch (err) {
-      console.error(`Error processing ${item.title}:`, err.message);
-      if (existingArticle) {
-        const cachedItem = buildItemFromExisting(existingArticle);
-        feed.addItem(cachedItem);
-        const linkDomain = getDomainFromUrl(cachedItem.link);
-        addItemToDomainFeed(linkDomain, cachedItem);
-      }
+    if (result.hasFeedChanges) {
+      hasFeedChanges = true;
     }
+
+    feed.addItem(result.articleItem);
+    addItemToDomainFeed(result.linkDomain, result.articleItem);
   }
 
   if (!hasFeedChanges) {
@@ -190,8 +82,16 @@ async function fetchAndProcessFeed() {
 }
 
 function getDomainFromUrl(url) {
-    const domain = new URL(url).hostname;
-    return domain;
+  if (!url) {
+    return null;
+  }
+
+  try {
+    return new URL(url).hostname;
+  } catch (error) {
+    console.warn(`Invalid URL for domain extraction: ${url}`);
+    return null;
+  }
 }
 
 function sanitizeDomain(domain) {
@@ -201,6 +101,10 @@ function sanitizeDomain(domain) {
 }
 
 function addItemToDomainFeed(linkDomain, articleItem) {
+  if (!linkDomain) {
+    return;
+  }
+
   const domainKey = sanitizeDomain(linkDomain);
 
   if (!domainFeeds.get(domainKey)) {
@@ -215,6 +119,129 @@ function addItemToDomainFeed(linkDomain, articleItem) {
   }
 
   domainFeeds.get(domainKey).feed.addItem(articleItem);
+}
+
+function shouldSkipItem(itemTitleLower) {
+  return itemTitleLower?.startsWith('how to')
+    || itemTitleLower?.includes(': how to')
+    || itemTitleLower?.startsWith('where to find')
+    || itemTitleLower?.startsWith('daily deals')
+    || itemTitleLower?.startsWith('psa')
+    || itemTitleLower?.startsWith('the maw')
+    || itemTitleLower?.endsWith('? explained')
+    || itemTitleLower?.endsWith('- answered')
+    || itemTitleLower?.endsWith('– answered')
+    || (itemTitleLower?.includes('save') && itemTitleLower?.includes('off'))
+    || itemTitleLower?.includes('guide:');
+}
+
+async function processFeedItem(item, existingArticles) {
+  const itemId = item.guid || item.id || item.link;
+  const existingArticle = existingArticles.get(itemId);
+  const itemTitleLower = item.title?.toLowerCase() || '';
+
+  if (shouldSkipItem(itemTitleLower)) {
+    return null;
+  }
+
+  try {
+    const itemArticleContent = item['content:encoded'];
+    const itemArticleLink = extractHrefFromContent(itemArticleContent);
+
+    if (!itemArticleLink) {
+      console.warn(`Missing article link for ${item.title}. Skipping.`);
+      return null;
+    }
+
+    if (skipSitesMatches.some(site => itemArticleLink.includes(site))) {
+      return null;
+    }
+
+    const requestConfig = {};
+    if (existingArticle?.lastModified) {
+      requestConfig.headers = {
+        'If-Modified-Since': existingArticle.lastModified
+      };
+      requestConfig.validateStatus = (status) => status === 200 || status === 304;
+    }
+
+    const response = await fetchWithRetry(itemArticleLink, requestConfig);
+    const linkDomain = getDomainFromUrl(itemArticleLink);
+
+    if (response.status === 304 && existingArticle) {
+      console.log(`Article unchanged (304): ${item.title}`);
+      return {
+        articleItem: buildItemFromExisting(existingArticle),
+        linkDomain,
+        hasFeedChanges: false
+      };
+    }
+
+    const lastModifiedHeader = response.headers['last-modified'] || null;
+    const filteredHtml = removeStylesAndImages(response.data);
+    const doc = new JSDOM(filteredHtml, { url: itemArticleLink });
+    const reader = new Readability(doc.window.document);
+    const article = reader.parse();
+
+    if (article) {
+      const articleItem = {
+        title: item.title,
+        id: itemId,
+        link: itemArticleLink,
+        content: article.content + '<br/><br/>' + itemArticleLink,
+        author: [{ name: item.author || item.creator || 'Unknown', email: 'noreply@example.com' }],
+      };
+
+      if (lastModifiedHeader) {
+        articleItem.custom_elements = [{ 'lastModified': lastModifiedHeader }];
+      }
+
+      return {
+        articleItem,
+        linkDomain,
+        hasFeedChanges: hasArticleChanged(existingArticle?.item, articleItem, existingArticle?.lastModified)
+      };
+    }
+
+    console.warn(`Failed to parse content for ${itemArticleContent || itemArticleLink}`);
+    if (existingArticle) {
+      return {
+        articleItem: buildItemFromExisting(existingArticle),
+        linkDomain,
+        hasFeedChanges: false
+      };
+    }
+
+    const fallbackItem = {
+      title: item.title,
+      id: itemId,
+      link: itemArticleLink,
+      content: getItemContent(item),
+      author: [{ name: item.author || item.creator || 'Unknown', email: 'noreply@example.com' }]
+    };
+
+    if (lastModifiedHeader) {
+      fallbackItem.custom_elements = [{ 'lastModified': lastModifiedHeader }];
+    }
+
+    return {
+      articleItem: fallbackItem,
+      linkDomain,
+      hasFeedChanges: hasArticleChanged(existingArticle?.item, fallbackItem, existingArticle?.lastModified)
+    };
+  } catch (err) {
+    console.error(`Error processing ${item.title}:`, err.message);
+    if (existingArticle) {
+      const cachedItem = buildItemFromExisting(existingArticle);
+      return {
+        articleItem: cachedItem,
+        linkDomain: getDomainFromUrl(cachedItem.link),
+        hasFeedChanges: false
+      };
+    }
+
+    return null;
+  }
 }
 
 fetchAndProcessFeed();
