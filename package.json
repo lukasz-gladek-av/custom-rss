@@ -7,6 +7,7 @@
     "node": ">=20.0.0"
   },
   "scripts": {
+    "check:scripts": "node --check lib/feed-utils.js && node --check fetch-rss.js && node --check fetch-eurogamer.js",
     "fetch:gaming": "node fetch-rss.js",
     "fetch:eurogamer": "npm run fetch:eurogamer:net",
     "fetch:eurogamer:net": "node fetch-eurogamer.js https://www.eurogamer.net/feed eurogamer_net_full.xml \"Eurogamer.net RSS Feed\" \"Full article content from Eurogamer.net\"",

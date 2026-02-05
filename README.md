@@ -8,6 +8,11 @@ Scripts for fetching and cleaning up RSS feeds, producing full-content XML files
 
 ## Usage
 
+### Validate scripts
+```bash
+npm run check:scripts
+```
+
 ### Gaming headlines (ResetEra)
 Generates a cleaned feed plus per-domain feeds for links found in the original ResetEra gaming headlines feed.
 
