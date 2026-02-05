@@ -109,6 +109,22 @@ function hasArticleChanged(existingArticle, articleItem, existingLastModified) {
     || existingLastModifiedValue !== nextLastModifiedValue;
 }
 
+function buildItemFromExisting(existingArticleData) {
+  const articleItem = {
+    title: existingArticleData.item.title,
+    id: existingArticleData.item.guid || existingArticleData.item.id || existingArticleData.item.link,
+    link: existingArticleData.item.link,
+    content: getItemContent(existingArticleData.item),
+    author: [{ name: extractAuthorName(existingArticleData.item), email: 'noreply@example.com' }]
+  };
+
+  if (existingArticleData.lastModified) {
+    articleItem.custom_elements = [{ 'lastModified': existingArticleData.lastModified }];
+  }
+
+  return articleItem;
+}
+
 async function loadExistingItems(filePath) {
   try {
     const xmlData = await fs.promises.readFile(filePath, 'utf8');
@@ -165,14 +181,7 @@ async function fetchAndProcessFeed() {
       // Handle 304 Not Modified - reuse existing content
       if (response.status === 304 && existingArticle) {
         console.log(`Article unchanged (304): ${item.title}`);
-        feed.addItem({
-          title: existingArticle.item.title,
-          id: existingArticle.item.guid || existingArticle.item.id || existingArticle.item.link,
-          link: existingArticle.item.link,
-          content: existingArticle.item['content:encoded'] || existingArticle.item.content,
-          author: [{ name: existingArticle.item.author || existingArticle.item.creator || 'Unknown', email: 'noreply@example.com' }],
-          custom_elements: [{ 'lastModified': existingArticle.lastModified }]
-        });
+        feed.addItem(buildItemFromExisting(existingArticle));
         continue;
       }
 
@@ -208,6 +217,12 @@ async function fetchAndProcessFeed() {
       } else {
         const fallbackIdentifier = itemArticleLink || item.link || item.title || 'Unknown item';
         console.warn(`Failed to parse content for ${fallbackIdentifier}`);
+
+        if (existingArticle) {
+          feed.addItem(buildItemFromExisting(existingArticle));
+          continue;
+        }
+
         const fallbackItem = {
           title: item.title,
           id: itemId,

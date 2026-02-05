@@ -103,6 +103,22 @@ function hasArticleChanged(existingArticle, articleItem, existingLastModified) {
     || existingLastModifiedValue !== nextLastModifiedValue;
 }
 
+function buildItemFromExisting(existingArticleData) {
+  const articleItem = {
+    title: existingArticleData.item.title,
+    id: existingArticleData.item.guid || existingArticleData.item.id || existingArticleData.item.link,
+    link: existingArticleData.item.link,
+    content: getItemContent(existingArticleData.item),
+    author: [{ name: extractAuthorName(existingArticleData.item), email: 'noreply@example.com' }]
+  };
+
+  if (existingArticleData.lastModified) {
+    articleItem.custom_elements = [{ 'lastModified': existingArticleData.lastModified }];
+  }
+
+  return articleItem;
+}
+
 async function loadExistingItems(filePath) {
   try {
     const xmlData = await fs.promises.readFile(filePath, 'utf8');
@@ -130,43 +146,12 @@ async function loadExistingItems(filePath) {
 }
 
 function extractHrefFromContent(htmlContent) {
-  const dom = new JSDOM(htmlContent, {
-    resources: "usable",  // Ensures that some resources like images or frames are loaded
-    includeNodeLocations: true,
-    pretendToBeVisual: true,  // Makes JSDOM behave like a visual browser
-    features: {
-        FetchExternalResources: false, // Prevents loading of external resources like stylesheets
-        ProcessExternalResources: false // Prevents processing of external scripts and styles
-    },
-    beforeParse(window) {
-        // This disables all CSS processing
-        window.document.styleSheets = {
-            length: 0,
-            item: () => null
-        };
-        // This disables all CSS processing by setting dummy functions and ignoring style elements
-        window.document.createElement = (function (nativeCreateElement) {
-          return function (tagName) {
-              if (tagName.toLowerCase() === 'style') {
-                  const element = nativeCreateElement.call(window.document, 'style');
-                  // These are dummy functions to avoid any parsing
-                  element.sheet = {
-                      cssRules: [],
-                      insertRule: function() {},
-                      deleteRule: function() {},
-                  };
-                  return element;
-              }
-              return nativeCreateElement.call(window.document, tagName);
-          };
-      })(window.document.createElement);
-    }
-});
-  const document = dom.window.document;
-  const anchor = document.querySelector('a');
-  
-  // If an anchor tag exists, return the href attribute
-  return anchor ? anchor.href : null;
+  if (!htmlContent) {
+    return null;
+  }
+
+  const $ = cheerio.load(htmlContent);
+  return $('a').first().attr('href') || null;
 }
 
 async function fetchAndProcessFeed() {
@@ -225,18 +210,11 @@ async function fetchAndProcessFeed() {
       // Handle 304 Not Modified - reuse existing content
       if (response.status === 304 && existingArticle) {
         console.log(`Article unchanged (304): ${item.title}`);
-        articleItem = {
-          title: existingArticle.item.title,
-          id: existingArticle.item.guid || existingArticle.item.id || existingArticle.item.link,
-          link: existingArticle.item.link,
-          content: existingArticle.item['content:encoded'] || existingArticle.item.content,
-          author: [{ name: existingArticle.item.author || existingArticle.item.creator || 'Unknown', email: 'noreply@example.com' }],
-          custom_elements: [{ 'lastModified': existingArticle.lastModified }]
-        };
+        articleItem = buildItemFromExisting(existingArticle);
         feed.addItem(articleItem);
 
         // Per domain
-        const linkDomain = sanitizeDomain(getDomainFromUrl(itemArticleLink));
+        const linkDomain = getDomainFromUrl(itemArticleLink);
         addItemToDomainFeed(linkDomain, articleItem);
         continue;
       }
@@ -271,10 +249,19 @@ async function fetchAndProcessFeed() {
         feed.addItem(articleItem);
 
         // Per domain
-        const linkDomain = sanitizeDomain(getDomainFromUrl(itemArticleLink));
+        const linkDomain = getDomainFromUrl(itemArticleLink);
         addItemToDomainFeed(linkDomain, articleItem);
       } else {
         console.warn(`Failed to parse content for ${itemArticleContent || itemArticleLink}`);
+
+        if (existingArticle) {
+          articleItem = buildItemFromExisting(existingArticle);
+          feed.addItem(articleItem);
+          const linkDomain = getDomainFromUrl(itemArticleLink);
+          addItemToDomainFeed(linkDomain, articleItem);
+          continue;
+        }
+
         const fallbackItem = {
           title: item.title,
           id: itemId,
@@ -288,7 +275,7 @@ async function fetchAndProcessFeed() {
         feed.addItem(item);
       }
     } catch (err) {
-      console.error(`Error processing ${item}:`, err);
+      console.error(`Error processing ${item.title}:`, err.message);
     }
   }
 
