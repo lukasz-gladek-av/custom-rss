@@ -3,7 +3,7 @@
 Scripts for fetching and cleaning up RSS feeds, producing full-content XML files suitable for publishing.
 
 ## Requirements
-- Node.js 18+
+- Node.js 20+ (workflow currently runs on Node.js 22)
 - `npm install` to install dependencies
 
 ## Usage
@@ -28,6 +28,19 @@ npm run fetch:eurogamer
 
 Outputs:
 - `eurogamer_net_full.xml`
+
+### Eurogamer.pl full articles
+```bash
+npm run fetch:eurogamer:pl
+```
+
+Outputs:
+- `eurogamerpl.xml`
+
+### Run all feeds
+```bash
+npm run fetch:all
+```
 
 ### Custom feeds
 `fetch-eurogamer.js` accepts custom arguments if you want to point it at another source:
