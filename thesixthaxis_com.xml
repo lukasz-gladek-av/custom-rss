@@ -4,35 +4,85 @@
         <title>maGaming RSS Feed - www.thesixthaxis.com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/thesixthaxis_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for www.thesixthaxis.com</description>
-        <lastBuildDate>Fri, 06 Feb 2026 23:06:44 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Feb 2026 11:05:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Build a Rocket Boy say they have uncovered a €1 million+ sabotage plot against MindsEye]]></title>
-            <link>https://www.thesixthaxis.com/2026/02/06/build-a-rocket-boy-mindseye-sabotageplot/</link>
-            <guid>1428511</guid>
+            <title><![CDATA[MIO: Memories In Orbit patch 1.2 is out and addresses some bugs]]></title>
+            <link>https://www.thesixthaxis.com/2026/02/07/mio-memories-in-orbit-patch-1-2-is-out-and-addresses-some-bugs/</link>
+            <guid>1428874</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
 	
-		<p>An internal video seen by Tom Henderson of<a href="https://insider-gaming.com/mindseye-ceo-alleges-1-million-sabotaging-its-game/"> Insider Gaming</a> is said to have shown&nbsp;Build a Rocket Boy CEO Mark Gerhard telling staff they had “caught the guys” who, he alleges, sabotaged the launch of MindsEye.</p>
-<p>The meeting took place in January this year, during which Gerhard states that a “very big American company” is behind the plot, but “it’s probably not the company you’re thinking of.”</p>
+		<p>Developer Douze Dixièmes has released the first major patch for its tough platforming metroidvania MIO: Memories In Orbit, with patch 1.2 addressing bugs and a few balance issues. The aim of the patch according to the development team is to make MIO: Memories In Orbit a smoother and more enjoyable experience. The patch notes do contain a few spoilers so if you don’t want to know anymore, then click away from this page now.</p>
+<p><iframe title="MIO: Memories in Orbit - Release Date Reveal Trailer" width="780" height="439" src="https://www.youtube.com/embed/1OlFwMM1RdI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
 
 
-<p>The campaign is alleged to have been run by Ritual Network, a UK based company, and they had been paying three unnamed journalists, several influencers and quite astoundingly, Build a Rocket Boy employees, all of whom worked to trash the game. Gerhard explain that they will all be served criminal complaints in person for &nbsp;“espionage, sabotage, and criminal interference.”</p>
-<p>“Everyone who’s involved has real problems, including the company behind it. This is the start of our comeback,” he said. That comeback will, quite amazingly,&nbsp; include using the names of the alleged criminals in an upcoming spy mission for the game.</p>
-<p>“Let’s have some fun with it,” said Gerhard.. “Let’s tell the community the story before it even plays out in court. So, you know, I think this is not us being the victim.”</p>
+<h2>MIO: Memories In Orbit patch 1.2 update notes</h2>
 
-<p>Insider Gaming spoke to <a href="https://www.ritualnetwork.com/">Ritual Network</a> who gave this response.</p>
-<blockquote><p>Ritual Network is a creator support platform and is not involved in the matter you referenced. We are not aware of any legitimate legal action involving Ritual Network and have not been provided with any evidence supporting these claims. Any suggestion that Ritual Network is connected to these allegations is incorrect.</p></blockquote>
-<p>MindsEye was released without any review copies being made available. It has a score of <a href="https://www.metacritic.com/game/mindseye/critic-reviews/" target="_blank" rel="noopener">37/100 on Metacritic from 14 critics </a>reviews and <a href="https://www.metacritic.com/game/mindseye/user-reviews/">2.5/10</a> from user reviews, including 457 negative reviews.&nbsp; Those alleged influencers clearly earned their alleged money.</p>
-<p>I played MindsEye on PS5 two months after release and <a href="https://www.thesixthaxis.com/2025/08/08/what-we-played-battlefield-6-skycards-mindseye/">you can read my thoughts here.</a></p>
-<p><em>Source: <a href="https://insider-gaming.com/mindseye-ceo-alleges-1-million-sabotaging-its-game/">Insider Gaming</a></em></p>
+<ul>
+<li>Fix a bug where the fourth tremor would trigger too early (sorry)<wbr></li>
+<li>Fix a bug where the boss assist (“Eroded Bosses”) would not work on some combination of boss fight and respawn checkpoint<wbr></li>
+<li>Fix HUD logic for the “Hand’s greed” modifier feedback<wbr></li>
+<li>Fix the invisible trapdoor after the Dr Halyn fight<wbr></li>
+<li>Fix invisible ceiling in&nbsp;<code>&lt;redacted&gt;</code><wbr></li>
+<li>Fix lootable nacre through ceiling in Foundations<wbr></li>
+<li>Fix missing corpse for Calderon after the fight<wbr></li>
+<li>Fix collider/visual mismatch in the shuttle shafts (esp ice section)<wbr></li>
+<li>Fix Capucine’s statue dialogs<wbr></li>
+<li>Small typo fixes in game texts</li>
+</ul>
 
+<ul>
+<li>Tweak attack direction selection logic for d-pad &amp; keyboard to help with pogo misses<wbr></li>
+<li>Change the “Hand’s greed” modifier to also use decayed health (tremor) as an additional damage boost source<wbr></li>
+<li>Tweak hitbox behavior for the FRIENDS fight<wbr></li>
+<li>Tune Shii&nbsp;armor during certain animations<wbr></li>
+<li>Apply damage upgrades to scrap pile attacks</li>
+</ul>
+
+<ul>
+<li>Tune the ending section of Sawlong to make it slightly less punishing<wbr></li>
+<li>Remove low health feedback during the Khlia sequence</li>
+<li>Remove some health bars in the Pit</li>
+</ul>
+
+<ul>
+<li>Remove the alternate path in the striders tutorial section<wbr></li>
+<li>Change the entrance shortcut of the Chapel to avoid misleading people into not doing the level<wbr></li>
+<li>Change metropolis&nbsp;<code>&lt;redacted&gt;</code>&nbsp;entrance to allow escaping even after sequence break<wbr></li>
+<li>Tweak some respawn zone in Metropolis platforming gauntlets</li>
+</ul>
+
+<ul>
+<li>
+<p>Improve camera handling during the Vlad fight</p>
+</li>
+</ul>
+
+<ul>
+<li>Speed up the Sol&amp;Vin elevator after the first fight attempt<wbr></li>
+<li>Speed up the Shuttles once Dr Halyn has been encountered the first time<wbr></li>
+<li>Shorten input lock on checkpoint after death</li>
+</ul>
+
+<ul>
+<li>Tweak a couple background elements that could be confused with walkable platforms in the Haven<wbr></li>
+<li>Tweak the visuals for&nbsp; <span>the drawer secret passageway in the Vaults</span></li>
+</ul>
+
+<ul>
+<li>&lt;REDACTED&gt; in the credits ❤️<wbr></li>
+<li>Credits update (font list, production babies)</li>
+</ul>
+
+<p>In our MIO: Memories In Orbit review, I said, <em>“MIO: Memories In Orbit is an early contender for one of the most memorable games of 2026. It is an incredibly challenging game to play, with combat being a highlight, even if some platforming section can be frustrating. It looks fantastic, though, and the story is well told. MIO: Memories In Orbit draws you in, and does not let go easily. It is hard game but the journey is worth experiencing.”</em></p>
+<p><em>Source:<a href="https://store.steampowered.com/news/app/1672810/view/492716184864555101"> Steam</a></em></p>
 
 
 <!-- CONTENT END 1 -->
 
 		
-	</div></div><br/><br/>https://www.thesixthaxis.com/2026/02/06/build-a-rocket-boy-mindseye-sabotageplot/]]></content:encoded>
+	</div></div><br/><br/>https://www.thesixthaxis.com/2026/02/07/mio-memories-in-orbit-patch-1-2-is-out-and-addresses-some-bugs/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
