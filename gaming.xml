@@ -4,9 +4,611 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Mon, 09 Feb 2026 20:13:04 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 09 Feb 2026 21:14:33 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[SOL Shogunate Interview: Ex-CDPR & Guerrilla Devs on Their UE5 ‘Samurai Space Opera’]]></title>
+            <link>https://wccftech.com/soul-shogunate-ex-cdpr-guerrilla-devs-samurai-space-opera-action-rpg/</link>
+            <guid>1430467</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			
+			<p>A couple of months ago, independent developer <strong>Chaos Manufacturing</strong> <a href="https://wccftech.com/sol-shogunate-samurai-space-opera-action-rpg-pc-consoles/" target="_blank" rel="noreferrer noopener">unveiled its debut game</a>, a sci-fi action roleplaying game titled <strong>SOL Shogunate</strong>. The game is quite different from your average science fiction setting: the developers describe it as a "<strong>samurai space opera</strong>". Essentially, the developers have imagined an alternate future in which humanity has colonized the Solar System, but <strong>society has somehow retained feudal Japanese culture</strong>. The game takes place primarily on the Moon, where the way of the sword is law under the rule of a powerful Shogunate.</p>
+
+
+
+<p>The Moon features artificial gravity-creating cities, <strong>each designed as an homage to a revered era of Japanese history</strong>. These gleaming metropolises showcase towering space elevators, bullet trains, and opulent districts where the shogunate elite enjoy Earthlike comforts, including simulated night cycles. However, beneath the glittering surface lies a darker reality: <strong>countless workers quietly live and die in service to the Shogunate</strong>. Players control <strong>Yuzuki</strong>, the sole surviving heir of a once-powerful samurai family that was massacred by a rival clan. After her family's destruction, she becomes an outlaw ronin and embarks on a blood-soaked path of vengeance through the lunar cities.</p>
+
+
+
+<p>The developer, Chaos Manufacturing, places great importance on music for this project. The studio already announced collaborations with various artists, including Japanese rock band <strong>AliA</strong>. Following the unveiling, I reached out through PR and set up an interview with the founders, <strong>Leszek Szczepański</strong> (Game Director) and <strong>Guy Constantini</strong> (CEO), both of whom have extensive experience developing triple-A games. </p>
+
+
+
+<p>It was a very intriguing conversation that made me even more interested in SOL Shogunate than I already was. As a reminder, <strong>the game is in early development</strong> for PC (you can already wishlist it <a href="https://store.steampowered.com/app/3219360/SOL_Shogunate/" target="_blank" rel="noreferrer noopener">on Steam</a>) and consoles. It may take a few years before we can play it, especially since the team is very small.</p>
+
+
+
+<h3 id="h-in-this-interview">In this interview:</h3>
+
+
+
+<ul>
+<li><strong><a href="#aaa-indie-origins">From AAA to Indie - The Origins of Chaos Manufacturing</a></strong></li>
+
+
+
+<li><strong><a href="#creating-samurai-space-opera">SOL Shogunate: Creating a "Samurai Space Opera"</a></strong></li>
+
+
+
+<li><strong><a href="#gameplay-deep-dive">Gameplay Deep Dive - Music-Synced Battles and Genetic Upgrades</a></strong></li>
+
+
+
+<li><strong><a href="#tech-philosophy-stance-AI">Tech &amp; Philosophy - Unreal Engine 5 and the Studio's Stance on AI</a></strong></li>
+</ul>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/02/211025_SolShogunate_ChaosManufacturing_Screenshot2-scaled.jpg"></a></figure>
+
+
+
+<h2 id="aaa-indie-origins">From AAA to Indie - The Origins of Chaos Manufacturing</h2>
+
+
+
+<p><strong>Welcome! Tell us about your respective backgrounds.</strong></p>
+
+
+
+<p><strong>Leszek Szczepański:</strong> Sure. Hi, my name is Leszek Szczepański. I'm the Game Director at Chaos Manufacturing, which effectively means I drive the development effort. I gather a lot of talented and creative people and direct them in a way that helps us create this game. I've been in games for approaching 18 years. I'm Polish and worked in games in Poland for five years initially. Back in the day, I worked on mobile versions of <em>Metal Gear</em> and <em>Castlevania</em>, among others. After five years, I wanted to do bigger games. I looked around Europe and found Guerrilla Games in the Netherlands, part of PlayStation.</p>
+
+
+
+<p>There, <strong>I worked on <em>Killzone Shadow Fall</em>, <em>Horizon Zero Dawn</em> almost from the beginning, and <em>Horizon Forbidden West</em></strong>. Over this time, I’ve been an engineer, a designer, managed a few gaming projects, and used to be a professional Dungeon Master. After all this, I realized it was time to build something of my own. Around that time, I got introduced to Guy. I realized he is the yin to my yang; we complement each other quite well, so we decided to get Chaos going together about two years ago.</p>
+
+
+
+<p><strong>Guy Constantini:</strong> I’m Guy Constantini. I am the General Manager and CEO (or "wrangler of cats") at Chaos Manufacturing. I make sure that if there's something that needs to be done, there is either a person to do it, or I have to do it myself. We met a couple of years ago and have been working on this ever since. I grew up in Milano and Monza, where my dad brought home an Atari 2600, which tells you how old I am. From there, I decided I needed to make my way to the States. I studied in New Jersey at Rutgers, but none of my initial jobs on the East Coast were in games. I realized I needed to get into the industry, so I moved to the West Coast and found this company called Riot Games. At the time, they were working on a little indie game called <em>League of Legends</em>.</p>
+
+
+
+<p>I worked on that for a bit, then went to Kabam in San Francisco to work on <em>Marvel Contest of Champions</em>. I realized I didn't want to work in mobile games, so I came back down to Los Angeles to work for CD Projekt Red. <strong>I split my time between LA and Warsaw during the tail end of <em>The Witcher 3</em> and the beginning of <em>Cyberpunk 2077</em></strong>. From there, I went to Skydance Interactive and worked on <em>The Walking Dead: Saints &amp; Sinners</em> (Chapter 1 and 2) and <em>Behemoth</em>.</p>
+
+
+
+<p>Eventually, I realized I had brought games to every platform currently in use. I decided to see if I could start my own company and make the games I finally wanted to make for the rest of my life. I knew I needed a competent Game Director because, while I know how to build projects, I don't know how to build a game from scratch myself. </p>
+
+
+
+<p><strong>You both have impressive credits. Guerrilla Games and CD Projekt Red are basically as AAA as it gets. Tell us more about Chaos Manufacturing. What kind of company did you envision, and how big is it? Is it remote or hybrid?</strong></p>
+
+
+
+<p><strong>Guy Constantini:</strong> We learned a lot of lessons working on big and small projects. We always wanted to build something tight that punched above its weight. The idea was to find the right people because we think that if we do this correctly, those people will have wonderful lives.</p>
+
+
+
+<p>Obviously, you have to have a concept for a company and cool games, but really, it's about the philosophy that drives us. We embrace the "chaos" of game development. I put it in the title so that if things ever feel frayed at the edges, we can point to the name!</p>
+
+
+
+<p>We wanted to find autodidacts with a passion for knowledge. People who pursue mastery on their own. In a startup, you have to do things you're great at and things that simply need to be done. In exchange for this massive autonomy, we wanted to give people something worthwhile. Everyone in the company has at least a piece of what we're building. Eventually, once equity stops mattering, it'll be profit sharing. The idea is that people making the game should partake in the results of their success.</p>
+
+
+
+<p><strong>We also wanted to give people ultimate flexibility. We don't want you to move across the ocean just to see if something works out. That's why right now we're pretty much remote</strong>. The intent isn't to be remote for the sake of it, but to ask the people how they want to work together and have the company adjust to them. A company is a group of people, so the people should inform how the company functions. We think that is a more sustainable way of building a business.</p>
+
+
+
+<p><strong>We've been up to five people full-time, and that number fluctuates depending on where we are in our go-to-market path. We have a constellation of fractional people helping us out.</strong> One of my pet peeves is when people say, "This was a one-man job." It never really is. We will always credit the people involved. At the very core, I just want to treat people the way I want to be treated.</p>
+
+
+
+<p><strong>Are you self-funded? I know it's a tough environment for the industry right now.</strong></p>
+
+
+
+<p><strong>Guy Constantini:</strong> I joke that I picked the best and worst time to do this. I have learned a lot about how tough fundraising is. Everything we've raised so far has been from angels—small checks cobbled together to build things. We definitely have some financing partners that have come to the table recently.</p>
+
+
+
+<p>Our approach has always been: find the right partners, raise the money we can, and build responsibly with that money. Our model allows us to only grow as much as we need. <strong>We could always use more funding, but I’d rather not start than take money from the wrong people</strong> and end up in a situation where we grow too much, things go wrong, and people are out of a job.</p>
+
+
+
+<p><strong>Is the goal to self-publish, or would you consider a publisher?</strong></p>
+
+
+
+<p><strong>Guy Constantini:</strong> I am very open to financing partners of various sorts. I know how to build a publisher; I've done so before efficiently. However, some publishers have capabilities I don't have. For the right partner, we are flexible, provided we retain creative control and they bring something to the table we lack. <strong>We don't have a publisher involved yet, but we are open to it depending on the partner</strong>.</p>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/02/211025_SolShogunate_ChaosManufacturing_Screenshot5-scaled.jpg"></a></figure>
+
+
+
+<h2 id="creating-samurai-space-opera">SOL Shogunate: Creating a "Samurai Space Opera"</h2>
+
+
+
+<p><strong>Moving on to the game, SOL Shogunate. The setting is quite interesting; space opera isn't usually connected to samurai. How did that idea come about?</strong></p>
+
+
+
+<p><strong></strong><strong>Leszek Szczepański</strong>: The act of creation is inherently selfish. To create anything of value, you need to really believe in it, and to do that, you use the things you are passionate about. We looked at what we love: hard sci-fi, cyberpunk, near-future sci-fi, samurai fiction, Japanese music, and anime. We took these fascinations and put them together into a coherent whole. SOL Shogunate is what we call a "Samurai Space Opera," a mix of all these things we are passionate about.</p>
+
+
+
+<p><strong>Guy Constantini:</strong> We wanted to find a space that hadn't been explored a ton. <strong>We’ve seen samurai fiction and sci-fi alt-futures, but we wanted to architect a surreal future that feels fresh. We wanted to surprise people with the mix we put together.</strong></p>
+
+
+
+<p>Originally, the idea came from a piece of concept art by a wonderful artist who works with us, <strong>Aaron Nakahara</strong> (Kobaltplasma). He had this stylized image of a warrior who looked like a traditional samurai but had a burning light in the middle of his face. It reminded me of times we've seen samurai or ninja aesthetics in the future where it felt like just a coat of paint. I wanted to build something with an intentional aesthetic that came from a specific reason.</p>
+
+
+
+<p><strong>The protagonist, Yuzuki, is an outlaw out for revenge, which is a bit common nowadays. How do you plan to make her stand out compared to the average Ronin?</strong></p>
+
+
+
+<p><strong></strong><strong>Leszek Szczepański</strong>: Honestly, the revenge part is just the first domino to fall. The story is not typical samurai fiction; it’s about unraveling mysteries regarding creation and destruction. The tragedy sets you on a path, but that path takes you to unexpected places.</p>
+
+
+
+<p>Secondly, there is a reason we put Yuzuki in the future on the moon. She is a future samurai. The way she moves, fights, and looks is different. She has a sword, but also a thruster pack and grappling hooks, fighting in low gravity. We asked ourselves: "What is a future space samurai on the moon?"</p>
+
+
+
+<p>Also, the idea of genetic modification is deeply ingrained in the story and setting. <strong>Yuzuki has unique genetic modifications. Her armor is inspired by samurai armor, but it's also part of her genetic augments that allow her to survive in the vacuum of space.</strong></p>
+
+
+
+<p><strong>Guy Constantini:</strong> If you read <em>The Book of Five Rings</em>, you know that to be a samurai means to become the ultimate warrior. We wanted to ask: what does someone who idolizes this ethos do when they have access to technology 200 years in the future, like personal jetpacks and bioceramic skin? What does that do to the ultimate warrior? We carved out a character that behaves differently from a warrior in feudal Japan or a standard sci-fi soldier.</p>
+
+
+
+<p><b>Does she have ranged capabilities, or is she meant to be a melee-only character?</b></p>
+
+
+
+<p><strong></strong><strong>Leszek Szczepański</strong>: The vast majority of her skills are based around melee weapons. <strong>She has grappling hooks to close the distance quickly</strong>. Through our upgrade system, she will unlock certain additional abilities, some of which might work at a distance, but ultimately these are there to enhance her fighting capabilities.</p>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/02/211025_SolShogunate_ChaosManufacturing_Screenshot1-scaled.jpg"></a></figure>
+
+
+
+<h2 id="gameplay-deep-dive">Gameplay Deep Dive - Music-Synced Battles and Genetic Upgrades</h2>
+
+
+
+<p><strong>You mentioned unlocking skills. How does progression work in SOL Shogunate? Are there levels?</strong></p>
+
+
+
+<p><strong></strong><strong>Leszek Szczepański</strong>: We have two elements of character progression. The simpler one is finding different weapons and unlocking armors as the story progresses. The major element is our genetic upgrade system.</p>
+
+
+
+<p><strong>We don't have a typical skill tree. Throughout the game, Yuzuki collects "Gene Slices" by defeating enemies or finding them in the environment.</strong> These connect to specific abilities or passive buffs. You equip these on a "Gene Board." Depending on how they are placed, they might interact with each other to unlock new abilities. You can also mutate genes together to create new combinations.</p>
+
+
+
+<p>Realistically, every playthrough will be a little different regarding the skills and upgrades the player discovers. This feeds not only into combat but also into how she interacts with the world and the story.</p>
+
+
+
+<p><strong>Can you respec these mutations, or are they permanent?</strong></p>
+
+
+
+<p><strong></strong><strong>Leszek Szczepański</strong>: You can reorganize your Gene Board at almost any point. However, once you mutate two genes to create a new one, the original two are consumed and gone.</p>
+
+
+
+<p><strong>Guy Constantini:</strong> <strong>The intent is that you have to make decisions that can't be reversed</strong>, but there is a lot of flexibility in how you rearrange your build.</p>
+
+
+
+<p><strong>One of the main official features is the multi-phase boss fights. You mentioned they are cinematic but dynamic. How do you plan to make them exciting?</strong></p>
+
+
+
+<p><strong></strong><strong>Leszek Szczepański</strong>: Calling them just "boss fights" isn't precise; we think of them as epic set pieces. <strong>Some will be boss fights, but others might be elaborate encounters with multiple enemies.</strong> We treat these set pieces as puzzles; you need to figure out what tools you have and how to utilize them, similar to <em>Metal Gear Solid</em>.</p>
+
+
+
+<p>Since SOL Shogunate is a samurai space opera, music is fundamental. We are working with a number of Japanese rock bands to create specific music pieces for these encounters. A good song tells a story, and so does a good encounter. We want to synchronize them perfectly.</p>
+
+
+
+<p>The music flows and evolves: intro, chorus, bridge. We ensure the encounter evolves exactly on the beat of the song. If a boss changes phases, it happens on the beat, and the music adds layers, like a choir or orchestra. I call it an "overwhelming cocktail of emotions," where the player is overwhelmed by what they see, hear, and interact with.</p>
+
+
+
+<p><strong>Will there be difficulty levels so that players can customize the level of challenge in SOL Shogunate?</strong></p>
+
+
+
+<p><strong></strong><strong>Leszek Szczepański</strong>: Yes. Our aim is to make a game that requires effort to finish, without overwhelming everyone. If you are a casual player, there will be an easy difficulty. If you want a proper challenge, there will be a hard mode.</p>
+
+
+
+<p><strong>Guy Constantini:</strong> <strong>For those looking for a challenge, the harder difficulties will require you to really dig for ways to overcome enemies</strong>. Our systems are interlocking; once you understand them, you become stronger. I personally like games that "beat my face into the ground," so there will be something for that type of gamer.</p>
+
+
+
+<p><strong>Regarding the narrative and space opera aspects, how are you tackling exposition and world-building?</strong></p>
+
+
+
+<p><strong></strong><strong>Leszek Szczepański</strong>: SOL Shogunate is a Japanese-style Action RPG, so we focus on strong characters and a vibrant world. We want to create the Moon (and maybe something larger later) full of life, factions, and people with their own stories. We want an intricate story with mysteries, misdirection, and puzzles, set in a rich world with conflicting truths.</p>
+
+
+
+<p><strong>Guy Constantini:</strong> The premise, a samurai caste in charge of humanity, is just the tip of the iceberg. You have large rotating city biomes inside the moon with simulated gravity connected by train lines. Outside is the dangerous lunar surface with remnants of a solar system-wide war.</p>
+
+
+
+<p><strong>The story is about two characters. Yuzuki is the primary playable character, but it’s a story of two people from different walks of life whose worldviews are shattered and pieced back together</strong>. Yuzuki’s skin is reminiscent of <em>Kintsugi</em> (repairing pottery with gold) because she is the "shattered heir" rebuilding herself. We believe in storytelling through gameplay, including artifacts, radio comms, and cinematics.</p>
+
+
+
+<p><strong>Just to clarify, only Yuzuki is playable?</strong></p>
+
+
+
+<p><strong></strong><strong>Leszek Szczepański</strong>: Yes, correct.</p>
+
+
+
+<p><strong>Do you have an estimate on the scope? 15-20 hours, maybe?</strong></p>
+
+
+
+<p><strong>Guy Constantini:</strong> We aren't ready to talk about specific length or pricing yet, but philosophically, <strong>we think the world wants quality over quantity</strong>. Everyone has a stack of unplayed games that are hundreds of hours long. We want strong gameplay quality and visual fidelity that respects your time and wallet. It will definitely be beyond 10 hours, priced generously.</p>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/02/SOL-Shogunate-Assembly-HD-scaled.jpeg"></a></figure>
+
+
+
+<h2 id="tech-philosophy-stance-AI">Tech &amp; Philosophy - Unreal Engine 5 and the Studio's Stance on AI</h2>
+
+
+
+<p><strong>Are you talking about a launch on next-gen consoles?</strong></p>
+
+
+
+<p><strong>Guy Constantini:</strong> We want people on all kinds of devices to play. We are definitely coming to PC and Console. We’re developing controller-first, but PC will have a strong keyboard configuration. We want to build something tight, like <em>Arkham Asylum</em>, and if players want more, we’ll make <em>Arkham City</em>.</p>
+
+
+
+<p><strong>Are you using Unreal Engine?</strong></p>
+
+
+
+<p><strong></strong><strong>Leszek Szczepański</strong>: Yes, it’s not a secret that we are working on Unreal Engine 5.</p>
+
+
+
+<p><strong>I noticed the Steam page previously had minimum requirements like a GTX 970, which seemed way too low.</strong></p>
+
+
+
+<p><strong></strong><strong>Leszek Szczepański</strong>: Apologies, that was an error. We removed them. We aren't at a stage to talk about target requirements yet.</p>
+
+
+
+<p><strong>Guy Constantini:</strong> That was my fault! But generally, we want to make games that run on a wide range of hardware, though obviously, they will look incredible on the latest gear.</p>
+
+
+
+<p><strong>A bonus question about the recent controversy with Larian regarding AI usage. What is your stance on AI?</strong></p>
+
+
+
+<p><strong>Guy Constantini:</strong> <strong>Our game art is handcrafted</strong>. Our principal concept artist went couch surfing all over Japan to take pictures to build worlds inspired by real life. I like to let artists inform what tools they use, not tell them to use something just to save a buck. So far, our artists say making things by hand works best.</p>
+
+
+
+<p>That said, anyone who says they know what they’ll be doing in two years is lying. Technology changes. If a new tool is great and artists love it, no problem. But right now, we prioritize the handcrafted approach.</p>
+
+
+
+<p><strong>Nice. Well, thank you both for the lovely chat.</strong></p>
+
+			
+			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
+
+		</div></div><br/><br/>https://wccftech.com/soul-shogunate-ex-cdpr-guerrilla-devs-samurai-space-opera-action-rpg/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Toyota made a game engine]]></title>
+            <link>https://www.theverge.com/games/875995/toyota-fluorite-game-engine</link>
+            <guid>1430464</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="__next"><p><a href="#content"><span>Skip to main content</span></a></p><nav aria-label="Sticky Nav"></nav><div><main id="content"><div><article><div><div><p>﻿The Fluorite is a ‘console-grade’ graphics engine that can perform well on embedded hardware like the chips in your car.</p></div><div><p>﻿The Fluorite is a ‘console-grade’ graphics engine that can perform well on embedded hardware like the chips in your car.</p><div><p><span><span>by</span> <!-- --> <span aria-expanded="false" aria-haspopup="true" role="button" tabindex="0"></span></span></p><p><span><time datetime="2026-02-09T20:22:23+00:00">Feb 9, 2026, 8:22 PM UTC</time></span></p></div></div></div><div><div><div><p><span aria-expanded="false" aria-haspopup="true" role="button" tabindex="0"><span id="follow-author-standard_article_details-dmcyOmF1dGhvclByb2ZpbGU6MTIz"><span><span><svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Follow"><path d="M5 0H4V4H0V5H4V9H5V5H9V4H5V0Z"></path></svg></span></span><span>Jay Peters</span></span></span></p> <p><span>is a senior reporter covering technology, gaming, and more. He joined The Verge in 2019 after nearly two years at Techmeme.</span></p></div><div id="zephr-anchor"><p>Using a game engine in a “digital cockpit” can be useful for things like step-by-step 3D tutorials about a car, mapping the environment around your car, and offering more natural controls, Jamie Kerber, the lead engineer of a new game engine developed by Toyota Connected North America, said in a recent presentation <a href="https://fosdem.org/2026/schedule/event/7ZJJWW-fluorite-game-engine-flutter/">at the FOSDEM 2026 conference</a>. That’s why the company is showing off the solution it’s developed, <a href="https://fluorite.game/">called Fluorite</a>, that could work in its vehicles, as reported on by <em><a href="https://www.eurogamer.net/toyota-fluorite-game-engine-reveal">Eurogamer</a></em> and <em><a href="https://www.gamespark.jp/article/2026/02/09/162541.html">Game*Spark</a></em>.</p><div><p>Epic Games has made a big push for car companies to use Unreal Engine to <a href="https://www.unrealengine.com/en-US/news/five-years-35-car-models-how-unreal-engine-is-accelerating-hmi-innovation">power those in-car interfaces and</a><a href="https://www.unrealengine.com/en-US/spotlights/rotor-studios-switches-its-automotive-visualization-pipeline-to-ue5"> visualize them for design and marketing, and so has </a><a href="https://unity.com/solutions/automotive">Unity</a>.<a href="https://www.unrealengine.com/en-US/spotlights/rotor-studios-switches-its-automotive-visualization-pipeline-to-ue5"> As a result, automakers are now regularly looking to hire game designers who have experience using the tools. </a>But limitations like high licensing fees and being resource-heavy on hardware that is sometimes years behind state-of-the-art can be issues for car companies.</p></div><p>Fluorite, on the other hand, is the “first console-grade game engine” that’s “fully integrated with” the <a href="https://flutter.dev/">Flutter SDK</a>, according to the Fluorite website, and it has “great performance” on lower-end and embedded hardware while also offering “hardware-accelerated visuals comparable to those found on gaming consoles.”</p><p>Fluorite still seems quite early in development, however. The team is looking for collaborations with engineering teams to commit development resources to the project and establish a common roadmap for the engine, according to the presentation.</p><div><p><span><strong>Follow topics and authors</strong> from this story to see more like this in your personalized homepage feed and to receive email updates.</span></p><ul><li id="follow-author-article_footer-dmcyOmF1dGhvclByb2ZpbGU6MTIz"><span aria-expanded="false" aria-haspopup="true" role="button" tabindex="0"><span><span><svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Follow"><path d="M5 0H4V4H0V5H4V9H5V5H9V4H5V0Z"></path></svg></span><span>Jay Peters</span></span></span></li><li></li><li></li><li></li><li></li><li></li><li></li></ul></div></div></div><div><form><div><h2>The Verge Daily</h2><p><span>A free daily digest of the news that matters most.</span></p></div></form></div></div></article></div></main></div></div></div><br/><br/>https://www.theverge.com/games/875995/toyota-fluorite-game-engine]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[The Best Thing About The Winter Olympics Are The Drone Cameras]]></title>
+            <link>https://kotaku.com/the-best-thing-about-the-winter-olympics-are-the-drone-cameras-2000666958</link>
+            <guid>1430455</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+              
+              <p>This year’s Winter Olympics have been some of the coolest to watch, thanks to some talented drone operators providing viewers at home and online with awesome shots of some of the Games’ fastest events.</p> <p>Drones with cameras have been used to record sporting events for over a decade now. <a href="https://youtu.be/wYFdh1w_n6M">But due to a dangerous near-miss incident in 2015</a>, drones have basically been <a href="https://www.nytimes.com/2015/12/24/sports/skiing/drones-banned-at-world-cup-races-after-one-nearly-hits-marcel-hirscher.html">banned from most skiing and snowboarding events for years</a>. However, the tech has come a long way since that moment, and drones are smaller, more reliable, and safer than ever before. So the tech is a big feature of this year’s Winter Olympics presentation on NBC and other affiliated networks. The end results are <a href="https://x.com/nascarcasm/status/2020269499879158039">truly stunning</a> to look at.</p> <blockquote data-width="500" data-dnt="true"> <p lang="en" dir="ltr">The greatest new use of tech for the Olympics is this drone view behind the women’s downhill skiers. The intensity and speed, can’t be grasped from any of the other cameras we’re used to. Excellent.</p> <p>Now give me that in Apple Vision Pro. <a href="https://t.co/EtqgTkeYFq">pic.twitter.com/EtqgTkeYFq</a></p> <p>— Lee Parayno (@leeparayno) <a href="https://twitter.com/leeparayno/status/2020713318475071563?ref_src=twsrc%5Etfw">February 9, 2026</a></p></blockquote>  <p>You don’t really understand how fast these athletes are going when you see them from a static camera angle as they rush down a mountain or skate across ice. But when a drone is flying right behind them, keeping up, it provides an incredible new look at these turbo-charged winter sports. Like, look at how fast this snowboarder is flying down the mountain!</p>
+
+ <blockquote data-width="500" data-dnt="true"> <p lang="en" dir="ltr">Drone Winter Olympics 🙌 <a href="https://t.co/qTjwMpiNIq">pic.twitter.com/qTjwMpiNIq</a> <a href="https://t.co/aniABheDmR">https://t.co/aniABheDmR</a></p> <p>— Eric Njiru ⚽️ (@EricNjiiru) <a href="https://twitter.com/EricNjiiru/status/2020462950935351803?ref_src=twsrc%5Etfw">February 8, 2026</a></p></blockquote>  <p>Or look at how quickly these speed skaters zip around the ice.</p>   <p>I’ll admit that I was nervous that the drones might cause problems for the athletes, but according to many, they don’t notice the buzzing noise, and as long as they stay safely away, they don’t cause any issues. These drones are also operated by skilled pilots who work alongside a dedicated technician and director to ensure the athletes’ safety while capturing these jaw-dropping views.</p> <p>“When a camera is chasing the athlete down the hill — right in front of them or right behind them — you truly get the sense of how fast they’re going,” <a href="https://www.washingtonpost.com/sports/olympics/2026/02/09/drones-winter-olympics/">said Michael Sheehan, the coordinating director for NBC’s Olympic coverage</a>. “That’s virtually impossible to capture with a wide shot shooting from the side. The drone coverage takes us to a place we’ve traditionally never been.”</p>
+
+ <p>All I can think about while looking at these clips of drones speeding behind athletes is: I want sports games that look like this, please!</p>
+                          </div></div><br/><br/>https://kotaku.com/the-best-thing-about-the-winter-olympics-are-the-drone-cameras-2000666958]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Escape from Tarkov Update Introduces Duckov Content Tomorrow]]></title>
+            <link>https://insider-gaming.com/escape-from-tarkov-content-duckov-content-tomorrow/</link>
+            <guid>1430452</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+        
+<p>Escape from Tarkov, the spearhead extraction shooter, is getting a major update tomorrow (1.0.2) that will introduce the long-awaited Escape from Duckov collaboration content. We still don’t know what that looks like, but it marks the first cross-game collaboration in a hot minute for Escape from Tarkov and Battlestate Games.</p>
+
+
+
+<p>In a post on social media, the team at Battlestate announced an impending outage that will take Tarkov offline for up to six hours tomorrow, February 10.</p>
+
+
+
+
+
+
+
+<h2 id="h-tarkov-s-first-major-collaboration-is-coming">Tarkov’s First Major Collaboration is Coming</h2>
+
+
+
+<p>In recent weeks, the teams at both Team Soda (<a href="https://insider-gaming.com/tag/escape-from-duckov/" id="2714">Escape from Duckov</a>) and Battlestate Games (<a href="https://insider-gaming.com/tag/escape-from-tarkov/" id="232">Escape from Tarkov</a>) have been teasing a cross-platform collaboration. It promises to introduce crossover content in <strong>both games</strong>, despite the former title being a <strong>parody </strong>of the latter.</p>
+
+
+
+<p>It looks like Escape from Tarkov’s maps will be replicated in Escape from Duckov, and the duck-themed characters from Duckov will surface <strong>in some way </strong>in Escape from Tarkov.</p>
+
+
+
+<figure><div><blockquote data-width="500" data-dnt="true"><div lang="en" dir="ltr"><p>Tomorrow, February 10 at 7:00 AM GMT / 2:00 AM EST we are planning to install patch 1.0.2.0 for Escape from Tarkov. The installation will take between 4 and 6 hours, but may be extended if required. The game will be unavailable during this time.</p><p>The official websites… <a href="https://t.co/lkoojEGgyk">pic.twitter.com/lkoojEGgyk</a></p></div>— Escape from Tarkov (@tarkov) <a href="https://twitter.com/tarkov/status/2020890440648573414?ref_src=twsrc%5Etfw">February 9, 2026</a></blockquote></div></figure>
+
+
+
+
+
+
+
+<p>We have no idea how long this collaboration is set to run for, but it’s likely to be a limited-time event that will expire after a few days. As with past Escape from Tarkov LTMs, it’s likely players will have achievements, items, and other rewards to unlock that, if they don’t get them now, they’ll never see them again.</p>
+
+
+
+<p>You can expect Escape from Tarkov to be offline tomorrow from 7 AM GMT to at least 11 AM GMT, and <strong>most likely </strong>until 1 PM GMT. In true Tarkov style, you should also anticipate an extension to the maintenance window. To play it safe, perhaps wait until around 2 PM GMT for Escape from Tarkov to come back up.</p>
+
+
+
+
+
+
+
+<p>What are you hoping to see in the Escape from Tarkov crossover with Escape from Duckov? Let us know on the <a href="https://discord.com/invite/vwj7zdWxaW">Insider Gaming Discord server</a>.</p>
+
+
+
+<hr>
+
+
+
+<p>For more Insider Gaming coverage, check out the news that <a href="https://insider-gaming.com/leslie-benzies-leave-ceo-build-a-rocket-boy-mindseye/">Leslie Benzies is ‘on leave’ from BARB</a></p>
+
+
+        <div>
+              <!-- Row 1: Avatar + Name/Title + Socials -->
+              <div>
+                  <p><span>Written by</span>
+                    
+                                      </p>
+
+                  <p>
+                      Senior Editor and Esports Lead                    </p>
+                                  </div>
+
+              <!-- Row 2: Bio + CTA -->
+                              <div>
+                  <p>
+                    Grant's adoration for gaming started on the Amstrad CPC in 1996. Now, he's a multi-platform expert gamer with a deep love for the industry, a passion for esports, and more…                  </p>
+                  <p><a href="https://insider-gaming.com/author/grant-taylor-hill/">
+                    More from Grant Taylor-Hill                  </a>
+                </p></div>
+                          </div>
+            
+
+    <div id="ig-app-cta">
+          <p><i></i> MOBILE APP</p>
+          <h2>Level Up Your Gaming News</h2>
+          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
+          
+          <p><i></i> Available on iOS &amp; Android</p>
+        <!-- <div class="ig-note"><i class="fa-solid fa-bolt"></i> Available on Android</div> -->
+
+        </div>
+
+    
+    
+    </div></div><br/><br/>https://insider-gaming.com/escape-from-tarkov-content-duckov-content-tomorrow/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Riot Games Downsizing 2XKO Team, Focus Shifts to Core Improvements]]></title>
+            <link>https://insider-gaming.com/riot-games-downsizing-2xko-team-focus-shifts-to-core-improvements/</link>
+            <guid>1430449</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+        
+<p><a href="https://insider-gaming.com/studios/riot-games/" id="52298">Riot Games</a> has downsized the team working on its League of Legends-themed fighting game, 2XKO.</p>
+
+
+
+<p><a href="https://www.riotgames.com/en/news/an-update-on-2xko">A blog post on February 9</a>, which was written by <a href="https://insider-gaming.com/tag/2xko/" id="1323">2XKO </a>executive producer Tom Cannon, revealed that the difficult decision to downsize the team was made in response to emerging trends. While the game has resonated with a core audience, momentum has stagnated, and Riot Games is unable to support a full-size team long-term.</p>
+
+
+
+<p><span>A Riot Games spokesperson t</span>old <a href="https://www.gamedeveloper.com/business/riot-games-lays-off-roughly-80-employees-from-2xko-team?utm_source=dlvr.it&amp;utm_medium=bluesky" target="_blank" rel="noreferrer noopener nofollow">Game Developer</a>&nbsp;that approximately 80 staff members were laid off, about half of the development team.</p>
+
+
+
+<p>The post states that, with the smaller, “focused” team, they will still make key improvements to the game, including items players have already requested. It is reiterated that this is a shift in how the development team will operate, not a sign that “the journey is over” for the 2XKO team.</p>
+
+
+
+<p>“This isn’t a judgment on individual Rioters or a signal that the journey is over. We’re reshaping the team to give 2XKO a more sustainable path forward,” Cannon wrote.</p>
+
+
+
+
+
+
+
+<h2 id="h-riot-games-offering-support-to-laid-off-2xko-staff">Riot Games Offering Support to Laid-Off 2XKO Staff</h2>
+
+
+
+<p>Furthermore, the blog noted that Riot Games will support staff through their transition, help them explore other opportunities within the company where possible, and provide at least 6 months of notice pay and severance where that’s not possible.</p>
+
+
+
+<p>2XKO entered Early Access on PC on October 7, 2025, and launched across all platforms on January 20. Canon explained that during the console expansion, concerning player trends emerged. </p>
+
+
+
+<p>Plans for the 2026 competitive series remain unchanged, and Riot will continue to focus on supporting events and organizers in local and broader communities.</p>
+
+
+
+
+
+
+
+<p>Unfortunately, layoffs are currently a trend in the gaming industry. Ubisoft is undergoing a major restructuring, which has led to the cancellation of many projects, including the <a href="https://insider-gaming.com/prince-of-persia-sands-of-time-remake-canceled/" id="171165">planned remake of Prince of Persia: The Sands of Time</a> and<a href="https://insider-gaming.com/ubisoft-reportedly-cancels-an-assassins-creed-multiplayer-game/" id="174712"> a multiplayer Assassin’s Creed title.</a></p>
+
+
+
+<p>Insider Gaming will continue to bring the latest updates on this story as more information becomes available.</p>
+
+
+
+<hr>
+
+
+
+<p>Are you a 2XKO player? Sound off in our official<a href="https://discord.com/invite/vwj7zdWxaW"> Discord server.</a> Also, don’t forget to <a href="https://insider-gaming.com/subscribe">sign up for our weekly newsletter</a>.&nbsp;<br></p>
+
+
+        
+            
+
+    <div id="ig-app-cta">
+          <p><i></i> MOBILE APP</p>
+          <h2>Level Up Your Gaming News</h2>
+          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
+          
+          <p><i></i> Available on iOS &amp; Android</p>
+        <!-- <div class="ig-note"><i class="fa-solid fa-bolt"></i> Available on Android</div> -->
+
+        </div>
+
+    
+    
+    </div></div><br/><br/>https://insider-gaming.com/riot-games-downsizing-2xko-team-focus-shifts-to-core-improvements/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[2XKO team to downsize following lackluster launch]]></title>
+            <link>https://www.gematsu.com/2026/02/2xko-team-to-downsize-following-lackluster-launch</link>
+            <guid>1430446</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+    <ul>
+    <li><a href="https://www.gematsu.com/platforms/pc">PC</a></li><li><a href="https://www.gematsu.com/platforms/playstation/ps5">PS5</a></li><li><a href="https://www.gematsu.com/platforms/xbox/xbox-series">Xbox Series</a></li>    </ul>
+
+    
+    <p><span>“Overall momentum hasn’t reached the level needed to support a team of this size long term.”</span>
+      </p></div><div><p><a title="Companies > Riot Games [52 articles]" href="https://www.gematsu.com/companies/riot-games">Riot Games</a> will downsize the development team for <a title="Genres > Free-to-Play [507 articles]" href="https://www.gematsu.com/genres/free-to-play">free-to-play</a> fighting game <em><a title="Games > 2XKO [20 articles]" href="https://www.gematsu.com/games/2xko">2XKO</a></em> after player engagement failed to reach the level needed to continue supporting a team of its size, the company <a href="https://www.riotgames.com/en/news/an-update-on-2xko" target="_blank">said</a>. Going forward, development will continue with a smaller team, focusing on “key improvements to the game, including some of the things we’ve already heard you asking for.” Impacted staff will either be offered other opportunities within Riot Games, or let go with at least six months severance. <span id="more-1025168"></span></p><p><em>2XKO</em> first launched in Early Access for <a title="Platforms > PC [25,449 articles]" href="https://www.gematsu.com/platforms/pc">PC</a> on October 7, 2025, followed by a full launch across <a title="Platforms > PS5 [11,364 articles]" href="https://www.gematsu.com/platforms/playstation/ps5">PlayStation 5</a>, <a title="Platforms > Xbox Series [8,695 articles]" href="https://www.gematsu.com/platforms/xbox/xbox-series">Xbox Series</a>, and PC on January 20, 2026.</p><p>Here is the full update from Riot Games’ Tom Cannon:</p><blockquote><p>Hey Everyone,</p><p>I wanted to take a moment to share an important update on <em>2XKO</em>. This is a difficult update to share, but we want to be clear about what’s changing and why.</p><p><strong>What’s Changing and Why</strong></p><!-- AD: content -->
+        <p>After a lot of discussion and reflection, we are reducing the size of the <em>2XKO</em> team.</p><p>I want you to know that decision wasn’t made lightly. As we expanded from PC to console, we saw consistent trends in how players were engaging with <em>2XKO</em>. The game has resonated with a passionate core audience, but overall momentum hasn’t reached the level needed to support a team of this size long term.</p><p>With a smaller, focused team, we’re going to dig in and make key improvements to the game, including some of the things we’ve already heard you asking for. We’ll share some of our plans soon.</p><p>Our plans for the 2026 Competitive Series are unchanged. We remain committed to partnering with tournament organizers and local communities. Our focus will continue to be on supporting the events and organizers that already power the FGC.</p><p>Ultimately, this decision reflects a shift in how we operate. This isn’t a judgment on individual Rioters or a signal that the journey is over. We’re reshaping the team to give <em>2XKO</em> a more sustainable path forward.</p><p><strong>About the People Behind the Game</strong></p><p>I want to be clear about something that matters deeply to me.</p><p>The people who helped ship <em>2XKO</em> poured years of creativity, care, and belief into this game. Taking creative risks like this is hard, and the work they did is real and meaningful.</p><p>We’re committed to supporting impacted Rioters through this transition—including helping them explore opportunities within Riot where possible, and providing a minimum of six months of notice pay and severance where it’s not.</p><p><strong>Going Forward</strong></p><p>I know this update will raise questions and concerns. That’s understandable. We’ll continue communicating about how things are progressing.</p><p>In the journey so far we’ve been humbled and dazzled by the energy and passion you’ve brought to the <em>2XKO</em> community. That energy matters, and it will help fuel us into this next chapter as we improve the game.</p><p>Thank you for playing <em>2XKO</em>, for caring enough to ask hard questions, and for being part of this community.</p><p>—Tom Cannon</p></blockquote></div></div><br/><br/>https://www.gematsu.com/2026/02/2xko-team-to-downsize-following-lackluster-launch]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Mewgenics Is A Brilliantly Gross Antidote To Boring Roguelites]]></title>
+            <link>https://kotaku.com/mewgenics-edmund-mcmillen-roguelike-impressions-2000666865</link>
+            <guid>1430431</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p id="featured-image">
+                              <figure id="attachment_featured" aria-describedby="featured-caption">
+                                                                          <figcaption id="featured-caption">
+                    <span>Mid-battle with a sandstorm.</span> © Edmund McMillen, Tyler Glaiel / Kotaku
+                  </figcaption>
+                </figure>
+                                                      </p><div>
+              
+              <p>The trick to most roguelites is your mastery of a particular deck or build. Whether it’s your cast of characters, deck of cards, or collection of spells, progress is gained as much from incremental additions as it is from your increased skill at playing that build. Chances are you’ve dedicated a huge amount of time to one specific build in <em>Slay the Spire</em>, or a preferred range of Jokers in&nbsp;<em>Balatro</em>, such that next time you head out you’re both better equipped and better acquainted to cope with the familiar path of enemies, challenges and incidents. <em>Mewgenics</em>, the latest game from Edmund McMillen and Tyler Glaiel, responds to this format by saying, “What if we screwed that all up and threw it in the trash?” Oh, and added, “And threw in as much toilet humor as we possibly can?” The result, I’m delighted to report, is really rather impressive.</p> <p><em>Mewgenics</em> (out February 10 on Steam) is a <em>Slay the Spire</em>-style roguelite but with turn-based RPG-like battles played out on a small grid. For each run you take a group of four kitty-cats, each with their own roll of skill numbers, who are then assigned a class before the run begins. You then make your way through an ever-longer series of maps, each with battles, mystery situations, random treasures and boss fights, using your crew of cats and their somewhat randomly assigned sets of abilities, until you’ve figured out how to combine them as an incredibly effective team. Win the fights, defeat the most distant boss, and you’ll return to your home to, oh no, have all four of them (if they lived) retire. They’ll never fight again. All those skills you learned, the ways you figured out how to allow them to buff one another, a particular one-two combo you found to be especially effective? That’s gone now. Time to start over.</p>
+
+ <p>That sounds rough, but the point is, you managed all those things, gained all that ability, on that single run. You can do it again, with four different cats with different skills, and perhaps different classes (you assign cats with specific class-granting collars before you begin, picking from, say, Mage, Thief, Fighter and Hunter, with more collars becoming available the more you play), and find a whole new way for a new crew to come together. Once. Of course, at the same time that you’re still gaining all the knowledge, you’re still getting better at the game, just not perhaps in the way that’s quite so familiar.</p>   <p>You get more cats, by the way, through the magic of nature. After picking two cats from a mad scientist, leaving them alone together overnight can cause—well look, when a mummy cat and daddy cat love each other very much, they fuck and make a baby. And your retired vets (they hate that term) will breed, passing on their genetics to a new generation of battle-cats. So long as you have enough food to feed all the feline inhabitants of your home, you can keep on breeding as many as you wish, then pick four to take with you on your next adventure.</p>
+
+ <p>Cats that are no longer useful to you are, um, given away. Via sewer pipes, to a range of unsavory types who want the cats for…look, it’s best not to ask questions. But give each of these unsavory types enough and they’ll bestow you with useful advantages: a bigger home, more food storage,</p>
+
+ <p>And so it goes on. Play more, reach further, unlock more, play more, reach further, unlock more, in that idyllic cycle that marks the best of this genre. I have no doubt that&nbsp;<em>Mewgenics</em> is going to prove a massive hit, given it delivers in all those incredibly hooky ways while having a fresh approach with its constant new teams. This is made even more impressive by the sheer amount of variety on each run, with different mini-bosses appearing, new enemy types showing up, unique events, completely new sets of spells and skills getting assigned, and indeed brand new songs being performed in the midst of your encounters. Oh yes, it’s kinda a musical too.</p> <figure id="attachment_2000666941" aria-describedby="caption-attachment-2000666941"><figcaption id="caption-attachment-2000666941">© Edmund McMillen, Tyler Glaiel / Kotaku</figcaption></figure> <p>However, I do take issue with some of the design. It’s possible to get phenomenally unlucky in ways that seem to undermine the ethos of the game. Random events like the Sandstorm are absolutely ruinous to a run, where every battle sees swirling sand deliver one damage to every character in the battle every round. That sounds innocuous enough, until you’re in a position where your kitties are very low on health, and reviving any who have been knocked out likely only brings them up to one health. That’s an infuriating cycle to be stuck in, and it’s a persistent effect that ruins your whole run. Not least because replacement cats tend to be pretty much useless, at which point it all stops being fun.</p>
+
+ <p>Combine a situation like that with a mini-boss that has a 50-percent chance of avoiding hits and a run of bad luck with that, and it feels so hopeless you want to give up. But this means wiping out your whole team, losing all the coins, food and artifacts they’ve gathered, and means having to breed more cats to set out again. When all of this happened to me, I was also low on food, and then for some godforsaken reason I had three nights in a row when the cats refused to breed. So, um, it’s time to head off with the four random strays and hope. You can’t actually <em>lose</em>, because at a certain point it just forces you to have four cats and the opportunity to go on a run, but eurgh.</p> <p>I encountered so much bad luck that I began to get too frustrated. There’s an attack that’s supposed to hit 30 percent of the time. I’ve seen it hit <em>once</em> out of maybe 590 billion uses. In my direst straits I ended up with a strain of genetics in my kitties that saw them born as “pacifists” and thus unable to kill enemies—that’s a problem. Coincidences, terrible strings of coin-flips, and enemies deciding to take seven turns in a row start racking up to the point where I was just the helpless victim of the game’s RNG, in a game where the odds are already deliberately stacked against you. I started resenting <em>Mewgenics</em> instead of enjoying it.</p> <figure id="attachment_2000666943" aria-describedby="caption-attachment-2000666943"><figcaption id="caption-attachment-2000666943">© Edmund McMillen, Tyler Glaiel / Kotaku</figcaption></figure> <p>Like I say, this isn’t a condemnation of the game—it’s very obviously an extremely good one, and it delivers on its goals in vast bucketfuls. It’s wonderfully drawn, incredibly silly, and amazingly inventive. And it has so many completely fabulous songs. And look at the top: this isn’t a review! It’s up to someone willing to dedicate the hundred or more hours this game seems to need to write that. Me, I just got a bit fed up of its brutality after a bit, and while I’m still afflicted by a desire for “just one more go,” I’m also a bit cross with it too.</p>
+
+ <p>I’m so interested to see how its toilet humor lands. It’s&nbsp;<em>so</em> childish in all the best ways, with incessant poop and pee gags, splendidly unpleasant depictions of cats rutting, giving birth, and eating one another, and even songs to go with such moments (I don’t know if it’s called “Cannibal Kitty” but that’s my favorite). It also has scenarios in which your cats can choose to eat human fetuses, spiders that crawl inside enemies and eat them from the inside out, all sorts of delightfully gross-out stuff. Although, I should add, this is far more tempered than in previous McMillen games: it’s practically a work of maturity compared to <em>The Binding of Isaac</em>‘s sensibilities. Tyler Glaiel (<em>The End Is Nigh</em>, <em>Bombernauts</em>) must be a good influence on him.&nbsp;I’m fascinated to learn how the traditional audience for a game like <em>Monster Train</em>,&nbsp;<em>Darkest Dungeon</em>,&nbsp;<em>Dicey Dungeons</em>,&nbsp;<em>Into the Breach</em>, and so on will react to the crassness.</p> <figure id="attachment_2000666944" aria-describedby="caption-attachment-2000666944"><figcaption id="caption-attachment-2000666944">© Edmund McMillen, Tyler Glaiel / Kotaku</figcaption></figure> <p>I also think I would have a&nbsp;<em>lot</em> more time for&nbsp;<em>Mewgenics</em> if it were on Android and iOS. This feels like the perfect game to play on my Pixel tablet, where I’d far more comfortably while away time with a run here and a run there, rather than sitting at my PC. (Obviously the Steam Deck is an option, but not the same.) It seems a mighty odd choice to limit this to PC on release.</p>
+
+ <p><em>Mewgenics</em> reveals a colossal amount of work that has gone into making it so incredibly variable, and it’s very rewarding with all the decorative extras that surround the core loop. Its humor will <em>definitely</em> be a miss for many, but I suspect its depth and difficulty will give many cause to rise above it and play anyway. I just need some time to calm down before I go back.</p>
+                          </div></div><br/><br/>https://kotaku.com/mewgenics-edmund-mcmillen-roguelike-impressions-2000666865]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Trading Card Games Are Booming, So Here’s Why Blizzard Isn’t Making Hearthstone Cards (Yet)]]></title>
+            <link>https://kotaku.com/hearthstone-real-cards-tcg-blizzard-magic-pokemon-2000666974</link>
+            <guid>1430428</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+              
+              <p><span>From </span><a href="https://kotaku.com/magic-gathering-secret-lair-baldurs-gate-3-shadowheart-gale-2000665414"><i><span>Magic</span></i></a><span> to </span><a href="https://kotaku.com/even-trumps-pentagon-is-selling-rare-pokemon-cards-now-2000661388"><i><span>Pokémon</span></i></a><span>, trading card games are having a moment right now. Yeah, the popularity comes with some drawbacks like </span><a href="https://kotaku.com/pokemon-store-poke-court-nyc-manhattan-robbery-donation-2000662652"><span>scalpers</span></a><span> and </span><a href="https://kotaku.com/sonic-magic-gathering-secret-lair-card-pre-order-drop-1851786245"><span>awful online queues</span></a><span>, but it’s clear that there’s a market to jump into if you’re putting popular characters and good art on pieces of cardboard. </span><a href="https://kotaku.com/suspended-hearthstone-player-blitzchung-doesnt-regret-s-1841191499"><i><span>Hearthstone</span></i></a><span>, Blizzard’s </span><i><span>Warcraft</span></i><span> card game, has existed as a digital game for over a decade. Is Blizzard planning on jumping into this booming business? Not yet, at least.</span></p> <p><span>In a roundtable interview on Blizzard’s Irvine campus that </span><i><span>Kotaku </span></i><span>was present for, executive producer Nathan Lyons-Smith and game director Tyler Bielman were asked if Blizzard had been considering bringing </span><i><span>Hearthstone </span></i><span>to physical card shops. According to Bielman, a lot of what makes the game special comes from qualities its digital platform enables that can’t be replicated with real cards, and the team is wary of losing some of those elements in translation.</span></p>
+
+ <blockquote><p><span>I’ll start with, we have nothing to announce today. The team [has many] big physical TCG players. I came from physical TCGs; our friends at Riot and </span><i><span>Riftbound </span></i><span>are having a moment. It’s great for them. From the very beginning, our “founding fathers” of </span><i><span>Hearthstone </span></i><span>asked the question of, “What if you could remove all the pain points from physical play?” and, at that point, kind of looking at </span><i><span>Magic</span></i><span> as the foundational element, ‘[if you could] remove pain points around </span><i><span>Magic</span></i><span>, too?’ And they asked all these questions, and then they put this game together in a way that is [an] incredible digital [experience]. The things that we do, mechanically, that you can’t do on a tabletop, when we go to look at expansions and new mechanics, we value those really highly. It gets a little extra oomph from us if it’s something that is unique to the digital format. If you were to translate </span><i><span>Hearthstone </span></i><span>into a physical format, you would be sacrificing a lot of things that make it special. Now that said, the core of what makes </span><i><span>Hearthstone </span></i><span>a great game is pretty universal and very accessible, and that’s why we believe it’s been around for 12 years, but I think that we would lose so much in that translation, we would have to be really careful about defining for ourselves what makes </span><i><span>Hearthstone </span></i><span>great in the minds of all the players and then how much of that could we recapture if we take it to a different platform at all.</span></p></blockquote> <p><span>Lyons-Smith added that Blizzard wants </span><i><span>Hearthstone </span></i><span>to be positioned as the “best digital card game,” and that is the team’s focus, but also said that the company has been around for 35 years and a lot has changed in that time, so the company has a “long horizon” of research and development that it’s exploring. So while it has “nothing to announce” and “nothing actually even in development,” the team is happy to see the card game genre growing.</span></p> <p><span>Today, Blizzard held its </span><i><span>Hearthstone </span></i><span>Spotlight presentation that laid out the game’s incoming updates, including an update based on </span><i><span>World of Warcraft</span></i><span>’s </span><i><span>Cataclysm </span></i><span>expansion, which you can watch below:</span></p> 
+                          </div></div><br/><br/>https://kotaku.com/hearthstone-real-cards-tcg-blizzard-magic-pokemon-2000666974]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Riot Games lays off roughly 80 employees from 2XKO team]]></title>
+            <link>https://www.gamedeveloper.com/business/riot-games-lays-off-roughly-80-employees-from-2xko-team</link>
+            <guid>1430425</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-module="content" data-testid="article-base-body-content"><p data-testid="content-paragraph"><span data-testid="content-text">Developer Riot Games has announced it is laying off around 80 employees working on </span><span data-testid="content-text"><span>2XKO</span></span><span data-testid="content-text">, the </span><span data-testid="content-text"><span>League of Legends</span></span><span data-testid="content-text">-themed fighting game.&nbsp;</span></p><p data-testid="content-paragraph"><span data-testid="content-text">The company shared the news in a </span><span data-testid="content-text"><a target="_blank" href="https://www.riotgames.com/en/news/an-update-on-2xko">blog post</a></span><span data-testid="content-text"> penned by </span><span data-testid="content-text"><span>2XKO</span></span><span data-testid="content-text"> executive producer Tom Cannon. Cannon wrote that Riot was "reducing the size of the </span><span data-testid="content-text"><span>2XKO </span></span><span data-testid="content-text">team." A spokesperson for Riot Games informed Game Developer that approximately 80 workers were laid off, around half of the game's global development team.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Cannon appeared to blame the layoffs on sluggish player engagement with the freshly-released fighting game. "As we expanded from PC to console, we saw consistent trends in how players were engaging with </span><span data-testid="content-text"><span>2XKO</span></span><span data-testid="content-text">," he wrote. "The game has resonated with a passionate core audience, but overall momentum hasn’t reached the level needed to support a team of this size long term."</span></p><p data-testid="content-paragraph"><span data-testid="content-text"><span>2XKO</span></span><span data-testid="content-text"> spent an exceptionally long time in development. In 2016 Riot Games acquired Radiant Entertainment, a fighting game studio founded by Tom and Tony Cannon. The team would </span><span data-testid="content-text"><a target="_self" href="https://www.gamedeveloper.com/production/what-s-the-real-reason-games-are-taking-longer-to-make-">spend a decade</a></span><span data-testid="content-text"> iterating on the game that would eventually become </span><span data-testid="content-text"><span>2XKO</span></span><span data-testid="content-text">.</span></p><p data-component="related-article"><span data-testid="related-article-title">Related:</span><a href="https://www.gamedeveloper.com/business/control-developer-remedy-names-former-ea-exec-as-new-ceo" target="_self" data-discover="true">Control developer Remedy names former EA exec as new CEO</a></p><p data-testid="content-paragraph"><span data-testid="content-text">He indicated Riot is not discontinuing support from the game, saying that with its "smaller, focused team," the developer will continue to work on "key improvements" for the game. Riot will continue to partner with fighting game community (FGC) tournament organizers and local communities. "We're reshaping the team to give 2XKO a more sustainable path forward."</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Impacted workers will be given a chance to apply for jobs elsewhere within Riot Games. Those who cannot find other positions will be offered a minimum of 6 months pay and severance.&nbsp;</span></p></div><div><h2>About the Author</h2><div data-component="contributor-summary"><p data-testid="contributor-summary-subtitle">Senior Editor, GameDeveloper.com</p><div><p data-testid="content-paragraph"><span data-testid="content-text">Bryant Francis is a writer, journalist, and narrative designer based in Boston, MA. He currently writes for Game Developer, a leading B2B publication for the video game industry. His credits include Proxy Studios' 4X strategy game Zephon, Iron Anchor Studios' Down With The Ship, and Amplitude Studio's 2017 game Endless Space 2.</span></p></div></div></div></div><br/><br/>https://www.gamedeveloper.com/business/riot-games-lays-off-roughly-80-employees-from-2xko-team]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Activision Blizzard Tattled To Hack Maker's Mom]]></title>
+            <link>https://aftermath.site/activision-blizzard-hack-maker-zenith-lawsuit/</link>
+            <guid>1430422</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><article>
+      <p>Activision Blizzard is suing two alleged <em>Call of Duty</em> hack makers who—despite several cease-and-desists—won't stop making hacks, according to a new lawsuit. The company is also targeting the people who sell their hacking software. <a href="https://www.scribd.com/document/995333407/Activision-Blizzard-Snitched-To-Hack-Maker-s-Mom?ref=aftermath.site"><u>Activision Blizzard filed a complaint in California</u></a> on Friday targeting the makers of two&nbsp; <em>Call of Duty</em> hacks called Zenith and Devware. The hackers, known online as Wolfy and Noziex, have sold more than 28,000 licenses for the Zenith hack since September 2025, according to Activision Blizzard's complaint.</p><p>Lawyers say the Zenith hack is responsible for a recent exploit that took down five <em>Call of Duty</em> servers in May. Zenith allows players to target enemies, see through walls to better locate enemy players, and access all in-game items. It also includes what Activision Blizzard's lawyers call a "rage" feature that lets the cheating player kick others from multiplayer servers—"or to crash Activision's dedicated multiplayer servers," write the lawyers, which happened in May. Activision Blizzard has been trying to stop the two hackers since 2023, sending several cease-and-desist letters to the hackers <em>and</em> by calling one of the hackers' mothers to alert her of her son's behavior.</p><p>Wolfy, whose real name is Julian Angel Valenzuela, and Noziex, who is called A.R. in the complaint because he's a minor, started working together in 2023 on an earlier version of Zenith called Devware. Devware was popular, lawyers say, because it gave players access to paid cosmetic items for free. They continued to add features to the Devware hack, including the ability to disconnect players. "In other words, by using the Devware Hack, mean-spirited players could harass others by causing them to lose their connection to the COD Games or cause their COD Games' software to crash or stop working," lawyers write. Not only does this kick players from matches, but the disconnected players can get punished for leaving games early.</p><p>Activision Blizzard lawyers say the two sold "tens or hundreds of thousands of copies" of the hack. Activision Blizzard sent its first cease-and-desist, according to the complaint, in 2024. Wolfy, in response, posted online that Activision Blizzard "can't stop me and I aint stopping." Noziex joked about making shirts of the cease-and-desist. They continued to sell hacks, Activision Blizzard lawyers say.</p><p>In June 2024, Activision Blizzard lawyers called Wolfy's mom and told her about her son's behavior online. Activision Blizzard counsel called again days later and spoke to someone who claimed to be a brother's friend, per the complaint. That day, Activision Blizzard's lawyers called the home again and spoke to the mother, "who claimed to have no memory of the conversation four days prior," lawyers wrote in the complaint. Wolfy shut down the Devware server shortly after, saying that he was complying with a cease-and-desist from Activision Blizzard.</p><p>But Activision Blizzard claims he did not stop selling hacks. The complaint claims that the two hackers pretended to sell the Devware Discord server to another company, which lawyers say was a "front"&nbsp; to start selling a new hack—the Zenith hacking software, which basically included the same features as the Devware hack. They partnered with hack resellers to sell the software, lawyers say. Websites linked in the complaint appear to be no longer active, but a version of the Zenith hack appears to sell for $50 for a three-month subscription on third-party cheating websites.&nbsp;</p><p>Activision Blizzard sent another cease-and-desist in March 2025, and Wolfy again posted online that he's not "providing any services related to Activision Publishing," per the complaint. Activision Blizzard's lawyers say nothing's changed in his behavior since then—and then there were the "two high-profile cyber-attacks which caused the multiplayer servers for <em>Call of Duty: Black Ops 6</em> and <em>Call of Duty: Modern Warfare III</em>" to crash. Activision Blizzard's lawyers say Wolfy used Zenith to do those attacks. In November 2025, Activision Blizzard sent <em>another</em> cease-and-desist letter. He didn't respond, Activision Blizzard's lawyers say, and instead Wolfy posted online: "I AM BACK."</p><p>Activision Blizzard's lawyers say the hacking software has caused "loss of player revenues," and has forced the company to spend lots of time and money on taking on the hackers, banning users who use the software, and employing people to "police the games to detect the COD Hacks." The damage, lawyers say, is in the millions of dollars.</p><p>Lawyers are asking the court to force the two hackers to stop making hacking software, and for the resellers to stop selling them and to destroy the software. They're also looking for damages for trafficking in circumvention devices, violation of the Computer Fraud and Abuse Act, intentional interference with contractual relations, and unfair competition.</p><p>In 2024, Activision <a href="https://www.gamedeveloper.com/business/activision-awarded-14-5-million-in-call-of-duty-cheatmaker-suit?ref=aftermath.site"><u>won a $14.5 million judgement against the makers of a hack called EngineOwning</u></a>. The company is also suing 24-year-old Tennessee man Ryan Rothholz for <a href="https://www.latimes.com/california/story/2025-07-25/call-of-duty-activision-blizzard-hacking-lawsuit?ref=aftermath.site"><u>his alleged role in creating the Lergware hacking software</u></a>. That case is ongoing; in February, the court denied Rothholz's motion to dismiss. </p>
+    </article></div><br/><br/>https://aftermath.site/activision-blizzard-hack-maker-zenith-lawsuit/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[The Maker Of Banned Indie Game Horses Claims Epic Is Misleading Players]]></title>
             <link>https://kotaku.com/horses-epic-steam-censorship-indie-2000666959</link>
@@ -30,22 +632,22 @@
             <link>https://www.nintendolife.com/reviews/nintendo-switch-2/carmageddon-rogue-shift</link>
             <guid>1430392</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><section>
-<figure><a title="Carmageddon: Rogue Shift Review - Screenshot 1 of 6" href="https://images.nintendolife.com/screenshots/161884/large.jpg"></a><figcaption>Captured on Nintendo Switch 2 (Docked)</figcaption></figure><p>In a cruel twist of irony, those of us who remember the breakneck mayhem of the original <a href="https://www.pushsquare.com/games/ps1/carmageddon">Carmageddon</a> are creeping ever closer to our senior citizen bus pass. This will allow us to ride a slow-moving passenger vehicle that gains no extra points for mulching pedestrians.</p>
+<figure><a title="Carmageddon: Rogue Shift Review - Screenshot 1 of 6" href="https://images.nintendolife.com/screenshots/161885/large.jpg"></a><figcaption>Captured on Nintendo Switch 2 (Docked)</figcaption></figure><p>In a cruel twist of irony, those of us who remember the breakneck mayhem of the original <a href="https://www.pushsquare.com/games/ps1/carmageddon">Carmageddon</a> are creeping ever closer to our senior citizen bus pass. This will allow us to ride a slow-moving passenger vehicle that gains no extra points for mulching pedestrians.</p>
 <p>Released in 1997, this classic of vehicular combat arrived with some critical praise and instant controversy. Deliberately baiting outrage with its points-for-murder gameplay, it was banned in some countries and heavily censored in others. A huge hit regardless of backlash, it spawned many sequels, ports, and imitators over the years.</p>
 <p>Developers 34BigThings (<a href="https://www.nintendolife.com/games/nintendo-switch/redout">Redout</a>) are bringing the franchise back from the dead for a new generation, adding a roguelite spin in the process. <a href="https://www.nintendolife.com/games/nintendo-switch-2/carmageddon-rogue-shift">Carmageddon: Rogue Shift</a> is just as fun and addictive as the original was back in the day, though it’s a little too lightweight to be truly great.</p>
 <figure><a title="Carmageddon: Rogue Shift Review - Screenshot 2 of 6" href="https://images.nintendolife.com/screenshots/161888/large.jpg"></a><figcaption>Captured on Nintendo Switch 2 (Handheld/Undocked)</figcaption></figure>
 <p>In keeping with the setting, theme, and tone of the series, this new Carmageddon populates its tracks with zombies and mutants for competitors to mow down in a post-apocalyptic wasteland.</p>
 <p>Alongside the Roger Corman-produced <strong>Death Race 2000</strong>, the series has always drawn inspiration from the <strong>Mad Max</strong> franchise (it started life as a licensed adaptation, but publisher SCI couldn’t get the rights). Rogue Shift manages to capture the blood, chrome, and chaos of those films far better than it ever could in the '90s. Everything has a wasteland punk aesthetic, presenting a world where the need to blow each other up on a high-speed circuit is a believable way to let off steam.</p>
 <p>A racing game in the thinnest sense, Carmageddon’s focus is firmly on high-speed destruction derby action. You shoot other cars to scrap while careening around makeshift courses, racking up credits by mowing down the irradiated denizens of this savage wasteland.</p>
-<figure><a title="Carmageddon: Rogue Shift Review - Screenshot 3 of 6" href="https://images.nintendolife.com/screenshots/161891/large.jpg"></a><figcaption>Captured on Nintendo Switch 2 (Handheld/Undocked)</figcaption></figure>
+<figure><a title="Carmageddon: Rogue Shift Review - Screenshot 3 of 6" href="https://images.nintendolife.com/screenshots/161884/large.jpg"></a><figcaption>Captured on Nintendo Switch 2 (Docked)</figcaption></figure>
 <p>Tracks are bonkers obstacle gauntlets, littered with swinging wrecking balls and flailing tentacles. Hordes of shambling undead and giant mutants that explode into clouds of acid conspire to sabotage your pole position.</p>
 <p>The handling model can be best described as 'slip ‘n slide'. Every vehicle has a weight to it and you’ll mostly be swinging it around corners, hoping you don't clip some scenery and spin out. It can be frustrating to force a respawn after hitting a wall at max acceleration, but a perfect lap feels exhilarating once you nail it.</p>
 <p>Rather than the <strong>Mario Kart</strong> approach of picking up weapons mid-race, your loadout is fixed. Each car comes equipped with a starting weapon, ranging from machine guns to lasers and everything in between. Your vehicle itself is a sub-weapon, with an effective slam ability that lets you violently shunt opponents into barriers. Seeing rivals explode in slow motion as point multipliers flash up on screen never gets old.</p>
-<figure><a title="Carmageddon: Rogue Shift Review - Screenshot 4 of 6" href="https://images.nintendolife.com/screenshots/161887/large.jpg"></a><figcaption>Captured on Nintendo Switch 2 (Docked)</figcaption></figure>
+<figure><a title="Carmageddon: Rogue Shift Review - Screenshot 4 of 6" href="https://images.nintendolife.com/screenshots/161891/large.jpg"></a><figcaption>Captured on Nintendo Switch 2 (Handheld/Undocked)</figcaption></figure>
 <p>As entertaining as this metal-on-metal carnage is, it is a loop that lacks lasting appeal. That is where the roguelite elements come in. You start a new game and work through a series of randomly generated events, each with their own primary and bonus goals.</p>
 <p>Events range from straightforward races, survival, and combat-focused challenges. There are also boss fights against cars packing uniquely destructive offence. The aim is to get as far as possible without being damaged beyond repair. Death sends you back to the start, but not empty-handed. You earn a currency — amusingly called beatcoin — to spend on new cars, weapons and store stock for the next run.</p>
 <p>Each cycle offers the chance to try a new rig with a fresh set of stats and weaponry. Upgrades and repairs are available during a run, but difficulty ramps up at a steady pace. Early deaths are almost guaranteed in the first few attempts.</p>
-<figure><a title="Carmageddon: Rogue Shift Review - Screenshot 5 of 6" href="https://images.nintendolife.com/screenshots/161886/large.jpg"></a><figcaption>Captured on Nintendo Switch 2 (Docked)</figcaption></figure>
+<figure><a title="Carmageddon: Rogue Shift Review - Screenshot 5 of 6" href="https://images.nintendolife.com/screenshots/161898/large.jpg"></a><figcaption>Captured on Nintendo Switch 2 (Handheld/Undocked)</figcaption></figure>
 <p>The unlock system does a good job of encouraging replay. It’s hard to walk away after a defeat when a massive truck with a shotgun bolted to it is waiting to be pulled out of the garage.</p>
 <p>Yet even with the steady supply of new equipment, upgrades and vehicles, Rogue Shift struggles to hold attention over the long haul. Track fatigue sets in before long, and no amount of random generation can fully offset that.</p>
 <p>It doesn't help that the game is solo only. This style of combat racer feels tailor-made for local and online multiplayer. Quick time to kill, rapid respawns, and short tracks are designed for spectacle rather than precision. Not being able to ram a friend into an oncoming pack of exploding mutants feels like a glaring omission.</p>
@@ -457,382 +1059,6 @@
             <link>https://www.ign.com/articles/dispatch-developers-reveal-how-aaron-pauls-performance-changed-the-game</link>
             <guid>1430338</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-cy="page-header"><h2 data-cy="article-sub-headline">Creative Director/EP Nick Herman and AdHoc CEO Michael Choung also discuss the "miracle" behind making a video game. </h2></div><div><section data-cy="article-content" data-autopogo="true"><p data-cy="paragraph">There are a million things that have to go right for a video game to be a success. Well, maybe not a million. But a lot. Michael Choung, the CEO of AdHoc Studio – which released the popular superhero workplace comedy game <a data-cy="styled-link" href="https://www.ign.com/articles/dispatch-review"><u>Dispatch</u></a> last year – admits as much. Choung says that there were “probably 20 decisions in the last seven years” that aligned to make the game a huge success. And <a data-cy="styled-link" href="https://www.ign.com/articles/the-best-video-game-performances-of-2025"><u>casting Aaron Paul</u></a> as Dispatch’s protagonist, Robert Robertson/Mecha Man, was one of those decisions. </p>I spoke exclusively with Choung and Dispatch Creative Director/Executive Producer Nick Herman ahead of the <a data-cy="styled-link" href="https://www.ign.com/articles/clair-obscur-expedition-33-and-ghost-of-yotei-rule-the-annual-dice-award-nominations"><u>DICE Awards</u></a> (Dispatch is nominated for six, including Game of the Year) on February 12 to break down everything that had to go right in order for Dispatch to see the light of day. Herman says that, although they had “pretty decent” temporary tracks out of the  stand-in actors they hired before the main cast got into the studio, Paul’s performance pushed the entire development of the game in a new direction. <p data-cy="paragraph">“Once we cast Aaron Paul and brought him into the booth, he brought a lot more gravitas,” Herman says. “He brought a heaviness to the character that started to allow us to take him more seriously. You can actually feel that he's got this burden on his shoulders and this weight from his past, and the game got a little bit more serious. When we were working with him we realized that was a good thing. We wanted that depth to show up in the game.”</p><output data-cy="article-video"></output><p data-cy="paragraph">Paul, perhaps best known for his Emmy-winning turn as Jesse Pinkman on Breaking Bad, is nominated for a DICE Award for Outstanding Achievement in Character, a nomination he shares with Herman and Dispatch’s other Narrative and Creative Directors. Laura Bailey, Paul’s co-star in the game who plays Courtney/Invisigal,  is nominated for the same award. Herman says that assembling an all-star cast – which also includes Jeffrey Wright, Matthew Mercer, and Ashley Johnson – was both a creative and strategic decision. </p><p data-cy="paragraph">“We knew that we wanted to have some big talent that when people see the name, they’d go, ‘Oh I know who that is. I know that actor and I like them,’” Herman says. “Aaron just read the script and he liked it. So we were very fortunate. We needed that tier, especially when you're going into rooms with a lot of suits who have a lot of money and make decisions.”</p><p data-cy="paragraph">“I think there's a desire for people to want there to be this puppet mastery strategy around this stuff,” Choung adds. “But we just like these voices. You want it to be creatively compelling. (But) then you have these other additional bonuses: (the actors) having a huge audience, they (come from) different worlds. A lot of them were friends. They were people that we'd worked with before. So it’s years and years of experience just coming to bear.”</p><output><figure><a href="https://assets-prd.ignimgs.com/2025/10/27/dispatchthumb-1761592135786.png" target="_blank" rel="noopener noreferrer"></a><figcaption data-cy="caption">Invisigal (voiced by Laura Bailey) in Dispatch</figcaption></figure></output><p data-cy="paragraph">Now that Dispatch has become both a <a data-cy="styled-link" href="https://www.ign.com/articles/dispatch-review"><u>critical</u></a> and commercial success, both Herman and Choung are reflecting on the intense reaction to the game. I asked them each if they could point to a single thing they were most proud of. </p><p data-cy="paragraph">“You can dislike it, but the tone is unique and the result of countless numbers of decisions,” Choung says. “It’s a very strange alchemy that results in a tone like this. I'm proud that we stuck to our guns and we were okay with something a little off the beaten path.”</p><p data-cy="paragraph">“We had a lot of bold ideas that people told us were maybe a little too risky,” Herman adds. “People were saying there's no money in narrative experiences. This stuff is dead. Removing freewalk, not having exploration, focusing on having one core main mechanic. All of these things are things we wanted to try for for a very long time. And we've treated Dispatch like this is our one shot, like this might be the last time we ever get an opportunity to make something on our own together. I think all of those things combined is the reason Dispatch is successful. </p><output data-cy="article-slideshow"><span data-cy="slideshow-view-trigger"><div data-cy="slideshow-preview"><h3 data-cy="slideshow-preview-title">Dispatch Gameplay Screenshots</h3></div></span></output><p data-cy="paragraph">“The fact that it worked and that people were responding to it is awesome. I hope other people learn from this. Just go fucking nuts if you can. I'm proud that we went as hard as we did and we took as big of a swing as we could. Whether it's an indie game with one developer or it's a larger studio, it's hard and it's a miracle when a game gets made every time.”</p><p data-cy="paragraph">Be sure to catch IGN’s exclusive broadcast of the 29th Annual DICE Awards on Thursday, February 12 at 8pm PT. </p><p data-cy="paragraph">Michael Peyton is the Senior Editorial Director of Events &amp; Entertainment at IGN, leading entertainment content and coverage of tentpole events including IGN Live, San Diego Comic Con, gamescom, and IGN Fan Fest. He's spent 20 years working in the games and entertainment industry, and his adventures have taken him everywhere from the Oscars to Japan to Buenos Aires, Argentina. Follow him on Bluesky @MichaelPeyton</p></section><div><h3 data-cy="title3"><svg data-cy="icon-logo" viewBox="0 0 76 24" title="IGN"><title>IGN Logo</title><path fill="currentColor" stroke="none" d="M5.38 7.65a7.85 7.85 0 0 1 2.26-2.26c.13-1.18.31-2.26.52-3.21a10.605 10.605 0 0 0-6 6c.95-.22 2.03-.39 3.21-.52M16.34 5.36v.02c.9.59 1.67 1.37 2.27 2.27 1.18.13 2.26.31 3.21.52a10.627 10.627 0 0 0-6.02-6.01c.22.95.4 2.02.54 3.2M7.64 18.62c-.9-.59-1.67-1.37-2.27-2.27h-.03c-1.19-.14-2.26-.32-3.19-.54 1.07 2.75 3.26 4.95 6.01 6.02-.22-.95-.39-2.03-.52-3.21M18.64 16.35h-.03c-.59.9-1.37 1.67-2.27 2.27v.03c-.14 1.17-.32 2.25-.54 3.19a10.59 10.59 0 0 0 6.03-6.03c-.94.22-2 .4-3.19.54M10.04 0h3.9c.85 1.85 1.2 4.59 1.3 5.52.04.22.06.43.06.63L12 9.11 8.7 6.15c0-.17.02-.35.05-.55.1-.95.43-3.75 1.29-5.61M8.7 17.83c0 .17.02.35.05.55.1.95.43 3.75 1.29 5.61h3.9c.85-1.84 1.2-4.59 1.3-5.52.04-.22.06-.43.06-.64L12 14.87l-3.3 2.96ZM6.16 8.68c-.17 0-.35.02-.55.05-.95.12-3.75.45-5.61 1.31v3.9c1.84.85 4.59 1.19 5.52 1.3.22.04.43.06.64.06L9.11 12 6.16 8.7ZM24 10.02c-1.86-.86-4.66-1.19-5.61-1.29-.2-.03-.38-.05-.55-.05l-2.96 3.3 2.96 3.3c.2 0 .41-.02.64-.06.93-.11 3.68-.45 5.52-1.3v-3.9Z"></path><path fill="currentColor" stroke="none" d="M42.83 13.9V10h10.45c1.06 0 1.93.86 1.93 1.92v4.63c0 2.38-1.91 4.36-4.33 4.36h-6.69c-4.96 0-8.97-4-8.97-8.94s4.04-8.95 8.98-8.95h10.36v4.11H44.2c-2.67 0-4.86 2.17-4.86 4.84s2.16 4.83 4.86 4.83h6.91v-2.91h-8.27ZM33.86 3h-4.07v16.02c0 1.05.86 1.91 1.91 1.91h2.15V3M74.37 3.01h-2.18v13.81s0 .08-.03.11a.29.29 0 0 1-.24.14c-.09 0-.16-.04-.25-.15L64.83 4.93a4.347 4.347 0 0 0-3.72-2.11h-.07c-2.39 0-4.32 1.93-4.32 4.32v11.88c0 1.05.86 1.91 1.91 1.91h2.17V7.14s.02-.09.04-.13a.29.29 0 0 1 .24-.14c.09 0 .18.03.24.14l6.88 12.07c.76 1.27 2.12 2.05 3.69 2.05h.07c2.39 0 4.32-1.93 4.32-4.32V4.92c0-1.05-.85-1.91-1.91-1.91"></path></svg>Recommends</h3></div></div><div><h3 data-cy="object-summary-embed-title">In This Article</h3></div></div><br/><br/>https://www.ign.com/articles/dispatch-developers-reveal-how-aaron-pauls-performance-changed-the-game]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Sony announces a State of Play for Thursday February 12th]]></title>
-            <link>https://www.thesixthaxis.com/2026/02/09/sony-announces-a-state-of-play-for-thursday-february-12th/</link>
-            <guid>1430305</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
-	
-		<p>Sony has announced that it will be streaming a State of Play this Thursday, February 12th, and the stream will last around an hour. There is no specific game being showcased this State of Play, with it instead being a more general one with updates from a number of game developers. That could mean we will see quite a few new announcements, as well as updates on games that Sony has previously announced.</p>
-<p><iframe title="State of Play | February 12, 2026 [English]" width="780" height="439" src="https://www.youtube.com/embed/P0e5YEXtZu0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
-
-
-<p>The timings for the State of Play are 2PM PT, 5PM ET, 10PM GMT, 11PM CET, and Feb 13th 7AM JST. There have been rumours that Sony would be hosting a State of Play, so this confirmation was not completely unexpected. In terms of what games will be shown, well we can only speculate. Maybe we’ll see some more of Marvel’s Wolverine, or Naughty Dog’s Intergalactic: The Heretic Prophet though I would expect that to get its own State of Play closer to when it is ready for release. We will have to wait until Thursday for the updates.</p>
-<p><em>Source: <a href="https://blog.playstation.com/2026/02/09/state-of-play-returns-this-thursday-february-12/">PlayStation Blog</a></em></p>
-
-
-<!-- CONTENT END 1 -->
-
-		
-	</div></div><br/><br/>https://www.thesixthaxis.com/2026/02/09/sony-announces-a-state-of-play-for-thursday-february-12th/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[EXODUS’ Side Content Will Always Feel Tied to the Companions and the Game’s Themes, Promises Ex BioWare Writer]]></title>
-            <link>https://wccftech.com/exodus-side-content-tied-to-companions-and-game/</link>
-            <guid>1430299</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			
-			<p>Now that <a href="https://wccftech.com/exodus-mass-effect-like-action-adventure-rpg-gets-new-trailer-early-2027-launch-window/" target="_blank" rel="noreferrer noopener">we're roughly one year away from the planned launch of <strong>EXODUS</strong></a>, the Mass Effect-inspired sci-fi action RPG in development at <strong>Archetype Entertainment</strong>, the developers are starting to share more about the game. <span><a href="https://www.gamesradar.com/games/rpg/more-than-mass-effects-spiritual-successor-exodus-wants-to-pull-decades-of-player-choice-into-a-single-story-and-the-devs-think-theyve-cracked-it/" target="_blank">Speaking with Gamesradar</a>, Narrative Director Drew Karpyshyn (who wrote the first three Mass Effect games while at BioWare) stressed that side content in EXODUS will always feel tied to the companions and the game's overarching themes, rather than being tacked on as in some roleplaying games.</span></p>
-
-
-
-<p><em>We don't want things to feel tacked-on. We definitely don't want you to feel like you're doing it because you're obligated, or you just need the experience points. We want side quests to be something you would do even if you weren't getting a reward. You're going to get rewards of course, but we want you to feel like 'this is something I'm interested in, this is something I want to explore'. Side content should always feel "tied to the themes of our game, tied to the companions you have, tied into the interesting aspects of our game that maybe don't get explored as much on the critical path.</em></p>
-
-
-
-<p>In the Gamesradar interview, Karpyshyn also noted that EXODUS <strong>focuses on only a small portion of the overall lore</strong> the team has had to build for the science fiction franchise (which already has a published book, <a href="https://www.amazon.com/Exodus-Archimedes-Peter-F-Hamilton-ebook/dp/B0CSYWZNRS?ref_=nav_ya_signin" target="_blank" rel="noreferrer noopener">The Archimedes Engine</a>, an upcoming book, <a href="https://www.amazon.com/gp/product/B0FTTDG2CC?ref_=dbs_m_mng_rwt_calw_tkin_1&amp;storeType=ebooks" target="_blank" rel="noreferrer noopener">The Helium Sea</a>, and a Traveler's Handbook tabletop RPG).</p>
-
-
-
-<p><em>You take a couple of core themes that you want to explore, and then you have to gauge reaction of the rest of the team and people as they experience the IP. We can't add everything into one game. The game would be thousands of hours, which sounds great in theory, but isn't realistic.</em></p>
-
-
-
-<p>This bodes well for potential future installments, although Archetype Entertainment will have to ensure the first entry lands well before Wizards of the Coast provides the green light to make new titles. </p>
-
-			
-			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
-
-		</div></div><br/><br/>https://wccftech.com/exodus-side-content-tied-to-companions-and-game/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Nexon’s StarCraft Game Might Not be an RTS, But The Rumoured Upcoming StarCraft Shooter]]></title>
-            <link>https://wccftech.com/nexon-starcraft-shooter-blizzard-entertainment/</link>
-            <guid>1430296</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			<div data-nosnippet="">
-		
-		<ul>
-			<li>0-20%: Unlikely - Lacks credible sources</li>
-			<li>21-40%: Questionable - Some concerns remain</li>
-			<li>41-60%: Plausible - Reasonable evidence</li>
-			<li>61-80%: Probable - Strong evidence</li>
-			<li>81-100%: Highly Likely - Multiple reliable sources</li>
-		</ul>
-	</div>
-
-
-			
-			
-			
-			<p>Last month, <strong>Blizzard Entertainment</strong> announced that it would <a href="https://wccftech.com/blizzard-announces-showcases-for-world-of-warcraft-diablo-hearthstone-and-overwatch-all-within-the-next-two-weeks/">host four showcase events for its biggest ongoing franchises</a>, to update players on what's next for each series. We've already seen the showcases for <strong><a href="https://wccftech.com/world-of-warcraft-midnight-roadmap-housing-blizzcon-2026/">World of Warcraft</a></strong> and <a href="https://wccftech.com/were-dropping-the-2-overwatch-2-is-now-just-called-overwatch-moving-forward/"><strong>Overwatch</strong>,</a> with today's <strong><a href="https://www.youtube.com/watch?v=kohfwPjrSkg">Hearthstone</a></strong> presentation coming next, followed by a <strong>Diablo</strong> showcase later this week. But you might have noticed that one major franchise is missing from that list: <strong>StarCraft</strong>.</p>
-
-
-
-<p>In fairness, it's not surprising that StarCraft was left out of getting a showcase to start the year, only because it's been years since we've seen a new entry in the StarCraft series. When we heard that <a href="https://wccftech.com/nexon-not-blizzard-will-reportedly-be-making-the-next-starcraft-game/"><strong>Nexon</strong> would be taking charge of making the next game in the series in April 2025</a>, the direction in which Nexon would take the franchise was unclear, with the assumption being that the studio would be making another <strong>real-time strategy (RTS) </strong>game. Not just because StarCraft has traditionally been an RTS series, but also because of how popular the genre is in Nexon's home base of Korea.</p>
-
-
-
-<p>Then, last month, a report from Windows Central pointed to a <strong><a href="https://wccftech.com/third-person-starcraft-shooter-will-reportedly-be-unveiled-at-blizzcon-2026/">StarCraft-based third-person shooter</a></strong> as the headlining title at <strong><a href="https://wccftech.com/blizzcon-2026-tickets-on-sale-in-two-days-pricing-events-confirmed/">BlizzCon 2026</a></strong>, though there was no suggestion of who is behind it aside from the presumption that it would be Blizzard.</p>
-
-
-
-<p>Now, however, a new report from <a href="https://m.dnews.co.kr/m_home/view.jsp?idxno=202601301526154230994">The Korea Economic Daily</a> (<a href="https://www.reddit.com/r/GamingLeaksAndRumours/comments/1r0592a/new_details_from_nexons_starcraft_game/?utm_source=share&amp;utm_medium=mweb3x&amp;utm_name=mweb3xcss&amp;utm_term=1&amp;utm_content=share_button">spotted on Reddit</a>) seems to point to Nexon's upcoming StarCraft project, and the rumoured third-person shooter being one in the same. The project is reportedly being made within Nexon's "<em>shooter headquarters</em>," implying that it won't be an RTS title.</p>
-
-
-
-<p>It's worth taking all of this with a grain of salt, especially considering the fact that we have no confirmation from Blizzard that a StarCraft game is on its way. What we do have is a tease from Blizzard about this year's BlizzCon being <a href="https://wccftech.com/world-of-warcraft-midnight-roadmap-housing-blizzcon-2026/">"<em>one for the ages</em>,"</a> the aforementioned Windows Central report, and a <a href="https://wccftech.com/blizzard-allegedly-incubating-a-starcraft-shooter/">2024 report from Jason Schreier that Blizzard is also working on a StarCraft shooter</a>.</p>
-
-
-
-<p>If the previous report about Blizzard incubating its own StarCraft shooter is correct, and it's being made alongside the shooter that Nexon is said to be working on, then the next two games in the StarCraft universe could both be shooters, with the next RTS entry in the series still in limbo.</p>
-
-
-
-<p>Hopefully, BlizzCon 2026 will have all the answers if we don't hear from Blizzard sooner. The convention is set to take place on <strong>September 12-13, 2026,</strong> so StarCraft fans might still have a few more months of waiting to see what's next for the franchise. </p>
-
-			
-			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
-
-		</div></div><br/><br/>https://wccftech.com/nexon-starcraft-shooter-blizzard-entertainment/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Discord roll out global age verification system, including an "age inference" model that runs in the background]]></title>
-            <link>https://www.rockpapershotgun.com/discord-roll-out-global-age-verification-system-including-an-age-inference-model-that-runs-in-the-background</link>
-            <guid>1430293</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-component="article-header">
-  
-
-    <div id="main-content">
-  
-
-        <p>Now taking applications for a Teen Council, so they can understand how kids think</p>
-
-    </div>
-
-
-  <p>
-
-  <figure>
-        <picture>
-        <source srcset="https://assetsio.gnwcdn.com/discordageverification.png?width=380&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/discordageverification.png?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/discordageverification.png?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/discordageverification.png?width=380&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/discordageverification.png?width=380&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/discordageverification.png?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/discordageverification.png?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/discordageverification.png?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/discordageverification.png?width=690&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>Discord / Rock Paper Shotgun</cite></span>
-        </figcaption>
-
-  </figure>
-  </p>
-
-    
-
-</div><div data-component="article-content">
-
-
-
-            <p>I hate Discord with the intensity of a supernova falling into a black hole. I hate its ungainly profusion of tabs and voice channels. I regret its cybersecurity breaches. I resent that the PRs use it for every virtual press event. I’m furious that I have to download 12 updates whenever I remember to turn it on. I despise the feisty and cloying loading screen trivia and service messages. Show me the “empathy banana” again, you weird little gopher beetle. I’ll put you in the microwave. </p>
-<p>I also dislike that Discord now assumes I’m “teen-by-default” and restricts my access appropriately unless I go through some kind of age verification process, though I can understand the rationale, given some of the awful things that have happened via Discord. Already in play across the UK and Australia, this new “age-assured” approach is now being rolled out worldwide to create “a safer and more inclusive experience for users over the age of 13”. Rather unnervingly, Discord’s new age verification system includes an “inference model, a new system that runs in the background to help determine whether an account belongs to an adult, without always requiring users to verify their age.”</p><!--more-->
-<p>The “teen-by-default” strategy follows several major reported incidents of child grooming, sexual abuse and exploitation on Discord. In June 2023, NBC News <a href="https://www.engadget.com/discord-still-has-a-child-safety-issue-085304790.html">disclosed</a> 35 cases of adults being charged with "kidnapping, grooming, or sexual assault" that involved Discord, together with 165 cases of prosecution for sharing child sexual exploitation material on the platform. </p>
-<p>In March 2024, The Washington Post, Wired, Der Spiegel, and Recorder <a href="https://www.washingtonpost.com/investigations/interactive/2024/764-predator-discord-telegram/">published an investigation</a> of Discord channel 764, which has been used to orchestrate sexual abuse and murder, with links to police cases worldwide; Discord subsequently removed over 34,000 accounts associated with the group. Last year, a US teenager <a href="https://www.rockpapershotgun.com/%E2%80%9Dhttps://www.gamesindustry.biz/us-teenager-sues-roblox-and-discord-for-allegedly-facilitating-the-sexual-exploitation-of-a-minor%E2%80%9D">took Discord to court</a> for allegedly facilitating sexual exploitation.</p><p>These incidents aside, Discord are operating amid a climate of increased repression toward sexually explicit or themed material on digital platforms. Last year, payment processors <a href="https://www.rockpapershotgun.com/how-payment-networks-control-the-definition-of-acceptable-sex-in-videogames">initiated a crackdown</a> on transactions of adult games on Steam and Itch. The crackdown is on-going, with some <a href="https://www.theverge.com/ai-artificial-intelligence/867874/stripe-visa-mastercard-amex-csam-grok">notable exceptions</a>.</p>
-<p>“Beginning with a phased global rollout to new and existing users in early March, users may be required to engage in an age-verification process to change certain settings or access sensitive content,” reads <a href="https://discord.com/press-releases/discord-launches-teen-by-default-settings-globally">a company update posted today</a>. “This includes age-restricted channels, servers, or commands and select message requests.</p>
-<p>Here’s how the platform will work, going forward: “Discord users can choose to use facial age estimation or submit a form of identification to its vendor partners, with more options coming in the future. Additionally, Discord will implement its age inference model, a new system that runs in the background to help determine whether an account belongs to an adult, without always requiring users to verify their age. Some users may be asked to use multiple methods if more information is needed to assign an age group.”</p>
-<p>Discord promise that they won’t be infringing on anybody’s privacy, while running any of these systems. In particular, they’re keen to reassure you that other users won’t be able to learn your age, by hacking the workings. They stipulate four “key privacy protections”, as below:</p>
-<blockquote><ul><li>On-device processing: Video selfies for facial age estimation never leave a user’s device.</li>
-<li>Quick deletion: Identity documents submitted to our vendor partners are deleted quickly— in most cases, immediately after age confirmation.</li>
-<li>Straightforward verification: In most cases, users complete the process once and their Discord experience adapts to their verified age group. Users may be asked to use multiple methods only when more information is needed to assign an age group.</li>
-<li>Private status: A user’s age verification status cannot be seen by other users.</li></ul></blockquote>
-<p>Once you’ve verified your age, you’ll be able to see your assigned age group in your account settings. The platform “prompts users to age-assure only within Discord and currently does not send emails or text messages about its age assurance process or results”. You can also appeal against the result and retry the process.</p><p>Beginning early March, Discord will apply new default settings to all users. You’ll need to be “age assured” as an adult to unblur “sensitive content” (or turn the blurring feature off), access age-restricted channels, servers and app commands, or speak on stage in servers. DMs from people you “may not know” will be routed to a separate inbox limited to adult users, and you’ll get warning prompts when such people send you friend requests.</p>
-<p>Alongside all this, Discord are recruiting a “Teen Council”, consisting of 10-12 teenagers who can “help ensure Discord understands - not assumes - what teens need, how they build meaningful connections, and what makes them feel safe and supported online.” If I were one of those Teen Council members, I'd probably start by asking how exactly this background "age inference" system works.</p>
-
-        </div></div><br/><br/>https://www.rockpapershotgun.com/discord-roll-out-global-age-verification-system-including-an-age-inference-model-that-runs-in-the-background]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Atreus And Everyone Cast In The God Of War TV Show (So Far)]]></title>
-            <link>https://kotaku.com/god-of-war-amazon-show-cast-kratos-atreus-mimir-actor-2000666932</link>
-            <guid>1430287</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-              
-              <p><span>Amazon is making a live-action adaptation of </span><i><span>God of War</span></i><span>, specifically the 2018 game set in Norse mythology. The show hasn’t begun shooting yet, but the casting announcements are trickling out as Amazon and Sony prepare to move ahead with production. Some actors fans will recognize from other shows and movies as well as the games, but so far only one is reprising their role from the actual Santa Monica Studio’s franchise. Let’s run down who we know is in the</span><i><span> God of War </span></i><span>TV show thus far.</span></p> <h2><b>Ryan Hurst as Kratos</b></h2>  <p><span>Leading the show will be </span><a href="https://kotaku.com/god-of-war-live-action-series-amazon-kratos-ryan-hurst-2000659874"><span>Ryan Hurst as the god of war himself</span></a><span>. Hurst played Thor in the games, so he’s familiar with the source material, though the familiar casting wasn’t without </span><a href="https://kotaku.com/god-of-war-casting-kratos-ryan-hurst-amazon-tv-series-2000660584"><span>a little bit of controversy</span></a><span>, as this will be the first time Kratos is not portrayed by a Black actor. Outside of playing Thor in </span><i><span>Ragnarok</span></i><span>, Hurst has also played Opie in </span><i><span>Sons of Anarchy</span></i><span> and Beta in the </span><i><span>Walking Dead </span></i><span>franchise. Most recently, he has played Miles in the new Netflix western series </span><i><span>The Abandons</span></i><span>.</span></p>
-
- <h2><b>Callum Vinson as Atreus</b></h2>  <p><span>The co-lead of the series will be child actor Callum Vinson as Kratos’ son Atreus. One of Vinson’s most high-profile roles hasn’t actually premiered yet. He’s playing a young Jason Vorhees in </span><i><span>Crystal Lake</span></i><span>, a </span><i><span>Friday the 13th </span></i><span>prequel coming to Peacock later this year. But beyond that, he’s also appeared in series like </span><i><span>Poker Face</span></i><span>, </span><i><span>Chucky</span></i><span>, and voiced Piglet in recent iterations of </span><i><span>Winnie the Pooh</span></i><span>. That’s a pretty decent resume for someone so young.</span></p> <h2><b>Alastair Duncan as Mimir</b></h2>  <p><span>One of the other game actors coming back to </span><i><span>God of War </span></i><span>for the show is Mimir actor Alastair Duncan, who is, thus far, the only performer reprising their existing role from the games for the show. Duncan’s voice performance was already one of the stand-outs in the </span><i><span>God of War </span></i><span>games, so I’m sure he’ll crush it again on TV.&nbsp;</span></p>
-
- <h2><b>Danny Woodburn and Jeff Gulka as Brok and Sindri</b></h2>  <p><span>Rounding out our known heroes are Danny Woodburn and Jeff Gulka as the bickering dwarven brothers Brok and Sindri, respectively. Woodburn has been in shows like </span><i><span>Seinfeld</span></i><span>, </span><i><span>Conan the Adventurer</span></i><span>, </span><i><span>Bones</span></i><span>, and recently appeared as Zoltan in Netflix’s </span><i><span>Witcher </span></i><span>series. Gulka, meanwhile, has worked on shows like </span><i><span>X-Files </span></i><span>and </span><i><span>Stargate</span></i><span>.</span></p>
-
-  <h2><b>Max Parker as Heimdall</b></h2>  <p><span>It looks like the show will be playing with the timeline of the games a bit, as Heimdall is set to appear in the first season, though he didn’t appear in the games until </span><i><span>Ragnarok</span></i><span>. </span><i><span>Boots </span></i><span>actor Max Parker will portray the evil bastard. He has also led </span><i><span>Vampire Academy </span></i><span>and </span><i><span>Blood, Sex &amp; Royalty</span></i><span>.&nbsp;</span></p> <h2><b>Ólafur Darri Ólafsson as Thor</b></h2>  <p><span>With Hurst playing Kratos this time around, someone else has to pick up Mjölnir for the show. Icelandic actor Ólafur Darri Ólafsson will portray the god of thunder. </span><i><span>Severance </span></i><span>fans will likely recognize him as Mr. Drummond, where he was a very intimidating presence throughout the second season. Not a bad pick for </span><i><span>God of War</span></i><span>’s version of Thor.</span></p>
-
- <h2><b>Mandy Patinkin as Odin</b></h2>  <p><span>Odin, who, again, was an enigma throughout the first Norse </span><i><span>God of War</span></i><span>, will be showing up early in the Amazon series, as well. Storied actor Mandy Patinkin will be playing the all-father, and I’m eager to see him fill the shoes left by Richard Schiff, who played him in </span><i><span>Ragnarok</span></i><span>. Patinkin, on top of having a long history in theater collaborating with legends like Andrew Lloyd Webber, has also been in plenty of films and television across his decades-long career, including his iconic role as Inigo Montoya in </span><i><span>The Princess Bride</span></i><span>.</span></p> <h2><b>Teresa Palmer as Sif</b></h2>  <p><i><span>Warm Bodies </span></i><span>actor Teresa Palmer has joined the cast as Sif, the wife of Thor and mother of Magni, Modi, and Thrúd. Palmer has most recently led the TV series </span><i><span>The Last Anniversary</span></i><span>, </span><i><span>Mix Tape</span></i><span>, and </span><i><span>The Family Next Door </span></i><span>last year.</span></p> <p><span>That’s all we know so far, but if you’ve played the Norse </span><i><span>God of War</span></i><span> games, you know they’re packed with characters. We still haven’t heard who’s being cast for Freya, Baldur, Angrboda, and many, many others. The </span><i><span>God of War </span></i><span>show is currently in pre-production, with the 2018 game’s director Cory Barlog on board as an executive producer, but there’s no set release date yet.</span></p>
-                          </div></div><br/><br/>https://kotaku.com/god-of-war-amazon-show-cast-kratos-atreus-mimir-actor-2000666932]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Remedy Appoints Former EA Exec as CEO]]></title>
-            <link>https://insider-gaming.com/remedy-appoints-former-ea-exec-as-ceo/</link>
-            <guid>1430284</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-        
-<p>Remedy’s new CEO is Jean-Charles Gaudechon, who has previously worked at Electronic Arts and CCP Games. </p>
-
-
-
-<p>Back in October 2025, it was announced that former <a href="https://insider-gaming.com/tag/remedy/" id="632">Remedy</a> CEO Tero Virtala would step down “<a href="https://insider-gaming.com/remedy-entertainment-ceo-moves-on-from-role-after-nearly-a-decade/" target="_blank" rel="noreferrer noopener">with immediate effect</a>” after nearly a decade at the company. After that, an interim CEO was appointed to oversee matters until the search for a permanent CEO was complete, and that day has finally arrived. </p>
-
-
-
-
-
-
-
-<h2 id="h-jean-charles-gaudechon-is-remedy-s-new-ceo">Jean-Charles Gaudechon is Remedy’s New CEO</h2>
-
-
-
-<p>A new <a href="https://investors.remedygames.com/?publicationId=c86bbf74-7d56-4b1e-bc4d-56f406fc8258" target="_blank" rel="noreferrer noopener">press release</a> reveals that Remedy Entertainment’s board of directors has appointed Jean-Charles Gaudechon as the CEO. Gaudechon will be taking that position on March 1, 2026. Until then, Markus Mäki, the co-founder, will continue his position as interim-CEO until Gaudechon’s tenure begins. </p>
-
-
-
-<p>The new CEO has over 20 years of leadership experience in the global gaming and digital entertainment industry. Gaudechonhas been in senior partnership roles at several international gaming companies and held senior executive positions with full P&amp;L responsibility at Electronic Arts (EA) and CCP Games. </p>
-
-
-
-<p><strong>Here’s what Gaudechon shared in the announcement: </strong></p>
-
-
-
-<blockquote>
-<p><em>“I’m excited and honored to join Remedy at a pivotal time. The studio has a unique creative identity and a strong pipeline. My commitment is to protect what makes it special, deliver exceptional games, and scale Remedy in a way that builds lasting value. Remedy has the voice and the ambition to be a pillar of the industry’s future. We will stay close to players, earn their time and trust, and strengthen our independence in how we build and publish our games, while continuing to work closely with the partners who have supported us along the way. I will be moving to Finland with my family and I’m incredibly excited about getting to work directly with the team at the studio.”</em></p>
-</blockquote>
-
-
-
-
-
-
-
-<p>In other news, Remedy has set a <a href="https://insider-gaming.com/control-resonant-release-window-set-for-q2-2026/" target="_blank" rel="noreferrer noopener">Q2 2026</a> release window for Control Resonant. What are your thoughts on Remedy’s new CEO? Leave your thoughts down in the comments, and join the official&nbsp;<a href="https://discord.com/invite/vwj7zdWxaW" target="_blank" rel="noreferrer noopener">Insider Gaming Discord server</a>.</p>
-
-
-
-<hr>
-
-
-
-<p>For more information from Insider Gaming, read about&nbsp;<a href="https://insider-gaming.com/detroit-become-human-actor-reacts-to-state-of-play-announcement/" target="_blank" rel="noreferrer noopener">Detroit: Become Human actor’s reaction to PlayStation’s State of Play announcement</a>.&nbsp;Don’t forget to&nbsp;<a href="https://insider-gaming.com/subscribe" target="_blank" rel="noreferrer noopener">sign up for our weekly newsletter</a>.</p>
-
-
-        
-            
-
-    <div id="ig-app-cta">
-          <p><i></i> MOBILE APP</p>
-          <h2>Level Up Your Gaming News</h2>
-          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
-          
-          <p><i></i> Available on iOS &amp; Android</p>
-        <!-- <div class="ig-note"><i class="fa-solid fa-bolt"></i> Available on Android</div> -->
-
-        </div>
-
-    
-    
-    </div></div><br/><br/>https://insider-gaming.com/remedy-appoints-former-ea-exec-as-ceo/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Atreus Has Been Cast In Amazon’s Live-Action God Of War Series]]></title>
-            <link>https://gameinformer.com/2026/02/09/atreus-has-been-cast-in-amazons-live-action-god-of-war-series</link>
-            <guid>1430281</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div property="schema:text"><p><a href="https://gameinformer.com/2026/01/14/thor-actor-from-god-of-war-ragnarok-cast-as-kratos-in-live-action-series">After casting Kratos last month</a>, Amazon has filled the role of Atreus for its upcoming God of War live-action series. As reported by <a href="https://variety.com/2026/tv/news/god-of-war-live-action-series-cast-callum-vinson-atreus-1236656985/"><em>Variety</em></a>, Callum Vinson will play the role of Kratos’ young son from the Norse series of games.</p><p>Vinson will play opposite Ryan Hurst’s Kratos in the upcoming series. The young actor has previously appeared in series such as <em>Chucky, Long Bright River, Poker Face, </em>and<em> Dead Ringers.</em>&nbsp;He also voices Piglet in the animated series&nbsp;<em>Me &amp; Winnie the Pooh</em>/<em>Playdate with Winnie the Pooh.</em> In addition to God of War, Vinson’s upcoming appearances include roles in Netflix’s <em>The Night Agent,</em> and he<em> </em>will portray a young Jason Voorhees in Peacock’s <em>Crystal Lake</em>, a prequel to <em>Friday the 13th</em> slated to premiere this year.</p>
-
-
-
-<article alt="Callum Vinson" title="Callum Vinson" data-entity-type="file" data-entity-uuid="3119da42-957e-43cd-b553-9ccb4e134399" data-embed-button="image_browser_uploader" data-entity-embed-display="image:responsive_image" data-entity-embed-display-settings="{&quot;responsive_image_style&quot;:&quot;content_body&quot;,&quot;image_loading&quot;:{&quot;attribute&quot;:&quot;lazy&quot;},&quot;image_link&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;,&quot;link_target&quot;:0,&quot;link_original&quot;:0,&quot;image_source&quot;:&quot;&quot;,&quot;embed_source&quot;:0,&quot;image_caption&quot;:&quot;Callum Vinson&quot;,&quot;embed_caption&quot;:0,&quot;content_warning&quot;:0}" data-langcode="en">
-
-  
-          <picture>
-                  <source srcset="https://gameinformer.com/sites/default/files/styles/body_default/public/2026/02/09/752dd0d7/callum_vinson.jpg.webp 1x" media="all and (min-width: 851px)" type="image/webp" width="408" height="600">
-              <source srcset="https://gameinformer.com/sites/default/files/styles/content_default_mobile_/public/2026/02/09/752dd0d7/callum_vinson.jpg.webp 1x" media="all and (min-width: 315px) and (max-width: 450px)" type="image/webp" width="272" height="400">
-              <source srcset="https://gameinformer.com/sites/default/files/styles/content_default_mobile_/public/2026/02/09/752dd0d7/callum_vinson.jpg.webp 1x" media="all and (max-width: 314px)" type="image/webp" width="272" height="400">
-                  
-
-  </picture>
-
-
-  
-  
-      <p>Callum Vinson</p>
-  
-</article>
-
-<p>Amazon’s <em>God of War</em> adapts the storyline of 2018’s God of War, which features Kratos and Atreus on a journey to lay Faye, Kratos’ wife and Atreus’ mother, to rest. <em>Deadline</em> shares Atreus’ official show description as:</p><p>"The ten-year old son of Kratos, who grew up in a remote forest cabin, isolated from the rest of the world and raised almost entirely by his mother Faye. He is an accomplished archer, has an affinity for animals and is intensely curious about what lies beyond the confines of his forest home. After his mother’s death, Atreus is left with a cold, distant father who he barely knows and who knows little about him in return. Nonetheless, Atreus yearns for his father’s approval and is desperate to prove he is strong enough to survive in a harsh and dangerous world."</p><p>So far, the announced cast is as follows:</p><p>Ryan Hurst - Kratos<br>Callum Vinson - Atreus<br>Max Parker - Heimdall<br>Ólafur Darri Ólafsson - Thor<br>Mandy Patinkin - Odin<br>Alastair Duncan - Mimir<br>Danny Woodburn - Brok<br>Jeff Gulka - Sindri</p><p>Amazon’s <em>God of War</em> currently has a two-season order and is now in pre-production in Vancouver. The series is led by showrunner, writer, and executive producer Ronald D. Moore (<em>Outlander, Battlestar Galactica</em>). It will be co-produced by Sony Pictures Television, Amazon MGM Studios, PlayStation Productions, and Tall Boy Productions.</p><p>[<em>Source: </em><a href="https://variety.com/2026/tv/news/god-of-war-live-action-series-cast-callum-vinson-atreus-1236656985/"><em>Variety</em></a>]</p></div></div><br/><br/>https://gameinformer.com/2026/02/09/atreus-has-been-cast-in-amazons-live-action-god-of-war-series]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Mutants & Masterminds Fourth Edition Flies into Kickstarter]]></title>
-            <link>https://techraptor.net/tabletop/news/mutants-masterminds-fourth-edition-flies-into-kickstarter</link>
-            <guid>1430263</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><p>The campaign for the newest edition of <em>Mutants &amp; Masterminds</em> has launched on Kickstarter. The new <em>Mutants &amp; Masterminds</em> Fourth Edition refreshes the iconic superhero TTRPG with streamlined rules, simplified character creation, and a new suite of superpowers.</p><p>According to its <a href="https://www.kickstarter.com/projects/greenroninpub/mutants-and-masterminds-4th-edition/description" rel="nofollow">campaign page</a>, <em>Mutants &amp; Masterminds</em> Fourth Edition will retain the bombastic superhero action and creative freedom of the superhero RPG, just with some quality-of-life improvements.</p><picture>
-                  <source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/mutants-masterminds-fourth-edition-hero-creation-artwork.jpg?itok=JaN9Sr3m 1x" media="(min-width: 992px)" type="image/jpeg" width="1920" height="1080">
-              <source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/mutants-masterminds-fourth-edition-hero-creation-artwork.jpg?itok=Z8LnQkOF 1x" media="(max-width: 991px)" type="image/jpeg" width="1200" height="675">
-                  
-
-  </picture><p>The game, which debuted in 2002, is built around an award-winning RPG system. Every action in the game is resolved by a single d20 roll. In addition, there are no character classes, but a point-buy system, allowing you to make just about any larger-than-life costumed hero you can imagine. From there, adventures can range between fighting aliens, thwarting would-be conquerors, or stopping rampaging monsters.</p><p><em>Mutants &amp; Masterminds</em> Fourth Edition will retain this system. A d20 roll still resolves everything.. Players will still make characters using a pool of Power Points, but the core rulebook will contain 15 hero archetypes (The Paragon, The Battlesuit, etc.) which serve as templates for new players.&nbsp;</p><p>The new core rulebook does add some new twists to this formula. It will include new rules for different heroic feats, advantages, and superpowers. The newest edition will also include Reactions to the game, introducing new tactical options in superhero brawls. Lastly, the book will feature artwork by comic artist Sean Izaakse.</p><p>For older fans, the digital stretch goals of <em>Mutants &amp; Masterminds</em> Fourth Edition contain some throwbacks. The goals include older prewritten Astonishing Adventures updated to the new system, such as A Cold Day in Midtown, Into The Idiot Box, and Rise of the Tyrant. There is also a gazetteer for Earth Prime, an introduction to the game's core setting written by the game's creator, Steve Kenson.&nbsp;</p><p>The different pledge tiers for <em>Mutants &amp; Masterminds</em> Fourth Edition are as follows:</p><ul><li data-list-item-id="ed18be609d6f65fc398410faecb4caae2"><em>Hero's Handbook PDF for $25:</em> A digital copy of the Hero's Handbook and any digital stretch goals</li><li data-list-item-id="e28ca8875493aa545649e0ba6c3524edf"><em>Hero's Handbook and GM's Kit for $40:</em> Digital copies of the Hero's Handbook, Game Master's Kit, and any digital stretch goals</li><li data-list-item-id="e7ef65ca7aa87e51a50d1489f292d0e2f"><em>Hero's Handbook Print and PDF for $50:</em> A physical hardcover and digital copy of the Hero's Handbook, and any digital stretch goals</li><li data-list-item-id="e340ff38a66bdd099536c9fedc9d5d5b2"><em>Hero's Handbook and GM's Kit Print and PDF for $80:</em> Physical and digital copies of the Hero's Handbook, Game Master's Kit, and any digital stretch goals</li><li data-list-item-id="ef3bb1299d4234d5ae891236646d07436"><em>Campaign Starter for $140:</em> Physical and digital copies of the Hero's Handbook, Game Master's Kit, a set of physical hero tokens, reaction tokens, and a condition deck.</li></ul><p>At the time of writing, the campaign for <em>Mutants &amp; Masterminds </em>Fourth Edition has raised $116,921, more than twice its initial funding goal of $50,000, and has unlocked all digital stretch goals. The campaign ends on March 5, 2026.</p></div><div><p><span><div>
-       
-    <p>Ever since he was small, Tyler Chancey has had a deep, abiding love for video games and a tendency to think and overanalyze everything he enjoyed. This… <a href="https://techraptor.net/author/tyler-chancey">More about Tyler</a></p>
-  </div></span></p></div></div><br/><br/>https://techraptor.net/tabletop/news/mutants-masterminds-fourth-edition-flies-into-kickstarter]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Valve's made it much easier to tell when a game's leaving Steam Early Access]]></title>
-            <link>https://www.rockpapershotgun.com/valves-made-it-much-easier-to-tell-when-a-games-leaving-steam-early-access</link>
-            <guid>1430260</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
-
-
-<header data-component="article-header">
-  
-
-    <div id="main-content">
-  
-
-        <p>See a game's move to 1.0 in your calendar</p>
-
-    </div>
-
-
-  <p>
-
-  <figure>
-        <picture>
-        <source srcset="https://assetsio.gnwcdn.com/steam-early-access-release-date.jpg?width=380&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/steam-early-access-release-date.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/steam-early-access-release-date.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/steam-early-access-release-date.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/steam-early-access-release-date.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/steam-early-access-release-date.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/steam-early-access-release-date.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/steam-early-access-release-date.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/steam-early-access-release-date.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>Valve</cite></span>
-        </figcaption>
-
-  </figure>
-  </p>
-
-    
-
-</header>
-  <div data-component="article-content">
-
-
-
-            <p>A recent update to Steam allows developers to list a planned 1.0 release date for their Early Access games. While developers have always been free to share this information in blog posts or in the description on the store, in the past, they couldn't flag a game's planned release so clearly.</p>
-<p>While this might seem like a small change, I'm thrilled to see it. Steam Early Access can be an excellent tool for developers, allowing them to put their game into players' hands and earn money without waiting until it's ready for a 1.0 release, but it can be a mixed bag for players.</p>
-<!--more-->
-<p>In its best form, an Early Access game launches in a playable (if unfinished) state, it then receives a string of updates, before eventually ending in a full release. But there are many games that never make it all the way to 1.0. As much as a developer may wish to finish a game, if they run out of funds, they might choose to move onto another project entirely. There are more than a few Early Access games in my library that haven't been added to in years, and I know the developers have either shut up shop or moved on to something else.</p>
-<p>Before buying a game that's in Early Access, I now find myself having to become a detective – checking for when it was last updated or seeing if the developer is working on another, more recent project. I don't want to distrust the game maker, but I also don't want to spend money on an unfinished game that will never see its final version.</p><p>While <a href="https://store.steampowered.com/news/group/4145017/view/500597484211404992?l=english">Valve's latest update to Steam</a> doesn't change things radically – as I say, developers were free to write about the planned 1.0 release dates before, both on Steam and off it – it does make it a little easier when browsing games to see if a project is nearly finished or still a long way off. A developer could still blow through a release date or delay it, but this seems somehow more concrete and easier to hold a game maker accountable.</p>
-<p>There is more to this change than first appears, too. As Valve say "Last year we introduced the Steam Personal Calendar, and realized one valuable kind of 'release' was missing from the UI: upcoming transitions from Early Access to 1.0. With an official 1.0 date display, we could give those transitions an official display in Personal Calendar, and help address the developer requests around formally showcasing the planned 1.0 release."</p>
-<p>This means that if you wishlist a game that's in Early Access, it should now appear in your personal calendar when it's near a 1.0 release. So, if you're not keen on buying a game that's in an open-ended Early Access state, but you're happy to pick up a copy when you know it's definitely coming out and near release, you can now do that more easily.</p>
-<p>So, as I say, a small change, but a welcome one.</p>
-
-        </div>
-
-      </article>
-
-
-
-
-        
-  </div></div><br/><br/>https://www.rockpapershotgun.com/valves-made-it-much-easier-to-tell-when-a-games-leaving-steam-early-access]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
