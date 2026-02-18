@@ -4,24 +4,51 @@
         <title>maGaming RSS Feed - arstechnica.com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica.com</description>
-        <lastBuildDate>Tue, 17 Feb 2026 20:11:54 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 18 Feb 2026 00:23:06 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[RAM shortage hits Valve's four-year-old Steam Deck, now available "intermittently"]]></title>
-            <link>https://arstechnica.com/gadgets/2026/02/valves-steam-deck-intermittently-out-of-stock-as-ram-shortage-drags-on/</link>
-            <guid>1438474</guid>
+            <title><![CDATA[GameHub will give Mac owners another imperfect way to play Windows games]]></title>
+            <link>https://arstechnica.com/gaming/2026/02/gamehub-will-give-mac-owners-another-imperfect-way-to-play-windows-games/</link>
+            <guid>1438852</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-                      
-                      
-          <p>Earlier this month, Valve <a href="https://arstechnica.com/gadgets/2026/02/ram-shortage-delays-valves-steam-machine-desktop-and-steam-frame-headset/">announced</a> it was delaying the release of its new Steam Machine desktop and Steam Frame VR headset due to memory and storage shortages that have been cascading across the PC industry since late 2025. But those shortages are also coming for products that have already launched.</p>
-<p>Valve had added a note to its Steam Deck page <a href="https://store.steampowered.com/steamdeck">noting</a> that the device would be “out-of-stock intermittently in some regions due to memory and storage shortages.” None of Valve’s three listed Steam Deck configurations are currently available to buy, nor are any of the <a href="https://store.steampowered.com/sale/steamdeckrefurbished">certified refurbished Steam Deck configurations</a> that Valve sometimes offers.</p>
-<p>Valve hasn’t announced any price increases for the Deck, at least not yet—the 512GB OLED model is still listed at $549 and the 1TB version at $649. But the basic 256GB LCD model has been formally discontinued now that it has sold out, increasing the Deck’s de facto starting price from $399 to $549. Valve <a href="https://www.techpowerup.com/344310/valve-discontinues-steam-deck-lcd-oled-versions-remain#g344310-2">announced in December</a> that it was ending production on the LCD version of the Deck and that it wouldn’t be restocked once it sold out.</p>
-<p>The Steam Deck’s hardware is four years old this month, and faster hardware with better chips and higher-resolution screens have been released in the years since. But those Ryzen Z1 and Z2 chips aren’t always dramatically faster than the Deck’s semi-custom AMD chip; many of those handhelds are also considerably more expensive than the OLED Deck’s $549 starting price. When it’s in stock, the Deck still offers compelling performance and specs for the price.</p>
+          
+          
+<h2>Reasons for worry</h2>
+<p>In <a href="https://www.thememorycore.com/gamehub-feb-11-2026/">a recent interview with The Memory Core newsletter</a>, GameSir admitted that its primary motivation for releasing a Windows emulation tool was to sell more of its controllers. But GameSir’s controllers aren’t required to use the Android version, which it says was sideloaded on 5 million (primarily Chinese) Android devices even before <a href="https://play.google.com/store/apps/details?id=com.xiaoji.egggame">its official Google Play release in November</a>.</p>
+<figure>
+    <div id="caption-2141493"><p>
+              GameHub’s Windows emulation works on Android, but there are some issues.
+                              </p><p>
+                  Credit:
+                                      GameSir
+                                  </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      GameHub’s Windows emulation works on Android, but there are some issues.
+
+              <span>
+          Credit:
 
           
-                      
-                  </div></div><br/><br/>https://arstechnica.com/gadgets/2026/02/valves-steam-deck-intermittently-out-of-stock-as-ram-shortage-drags-on/]]></content:encoded>
+          GameSir
+
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>GameHub on Android has also faced controversy for including a number of invasive trackers (which are <a href="https://www.androidauthority.com/gamehub-lite-3608539/">removed in a community-built Lite version</a>). A GameSir representative told The Memory Core that this was just standard practice in the Chinese market, where there is less sensitivity to such user tracking, and that it has since been removed.</p>
+<p>The representative also addressed concerns about reusing open source compatibility code in that interview, saying that its Windows emulator was “developed in-house by GameSir’s core engineering team” with its “own in-house compatibility layer (such as syscall hooks, GameScopeVK, and other technologies), rather than modifications to Wine’s core code.” That said, the representative admitted GameFusion “reference[s] and use UI components from Winlator [an <a href="https://winlator.org/">open source Windows emulation tool for Android</a>]… to maintain ecosystem compatibility and familiarity.”</p>
+<p>The compatibility issues and controversial corporate entity involved here probably mean that GameHub for Mac won’t be the <a href="https://arstechnica.com/gaming/2023/04/proton-update-gets-18-more-windows-games-running-on-linux-including-chex-quest-hd/">Valve SteamOS/Proton moment</a> that Apple gamers have been waiting for. Still, it’ll be nice for MacBook owners to have yet another option to play Windows games without needing to run a Windows install.</p>
+
+
+          
+                  </div></div><br/><br/>https://arstechnica.com/gaming/2026/02/gamehub-will-give-mac-owners-another-imperfect-way-to-play-windows-games/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
