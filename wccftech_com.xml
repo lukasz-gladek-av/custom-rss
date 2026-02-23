@@ -4,9 +4,419 @@
         <title>maGaming RSS Feed - wccftech.com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech.com</description>
-        <lastBuildDate>Mon, 23 Feb 2026 18:21:57 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 23 Feb 2026 19:25:45 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Ashes of the Singularity II Exclusive Interview – Lower APM, Three Factions, and the Nitrous Engine Evolved]]></title>
+            <link>https://wccftech.com/ashes-singularity-2-interview-scale-steam-deck-benchmark/</link>
+            <guid>1444093</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			
+			<p>Almost nine months <a href="https://wccftech.com/massive-rts-ashes-of-the-singularity-ii-announced-arrives-in-2026/" target="_blank" rel="noreferrer noopener">after the game's announcement</a>, the team behind <strong>Ashes of the Singularity II</strong> is finally ready to share more about this highly anticipated real-time strategy game sequel. A demo <strong><a href="https://store.steampowered.com/app/3499790/Ashes_of_the_Singularity_II/" target="_blank" rel="noreferrer noopener">is available for download on Steam</a></strong> as part of the newly launched Next Fest, allowing players to try two of three factions, three maps, the full skirmish mode, and even 8-player multiplayer. Moreover, we have an exclusive interview with <strong>Oxide Games</strong>, diving into pretty much every major aspect of the game. </p>
+
+
+
+<p>The participants were <strong>Brett Norton</strong> (Head of Production), <strong>Adrian Wright</strong> (General Manager), <strong>Gabriela Leskur</strong> (Narrative and Experience Lead), and <strong>Dan Baker</strong> (Chief Graphics Architect). Strap in for a long one!</p>
+
+
+
+<h2 id="h-in-this-interview">In this interview:</h2>
+
+
+
+<ol>
+<li><a href="#why-return-to-ashes-of-the-singularity-now">Why Return to Ashes of the Singularity Now</a></li>
+
+
+
+<li><a href="#evolution-from-benchmark-to-gameplay-first">An Evolution From Benchmark to Gameplay-First</a></li>
+
+
+
+<li><a href="#scale-and-unit-count-thousands-on-screen">Scale and Unit Count: Thousands on Screen</a></li>
+
+
+
+<li><a href="#system-requirements-and-hardware-scalability">System Requirements and Hardware Scalability</a></li>
+
+
+
+<li><a href="#dx12-features-no-ray-tracing-hdr-modern-graphics-tech">DX12 Features (But No Ray Tracing or HDR) and Modern Graphics Tech</a></li>
+
+
+
+<li><a href="#console-and-steam-deck-potential">Steam Deck and Console Potential</a></li>
+
+
+
+<li><a href="#ai-improvements-and-difficulty-scaling">AI Improvements and Difficulty Scaling</a></li>
+
+
+
+<li><a href="#the-three-factions-uef-phc-and-substrate">The Three Factions: UEF, PHC, and Substrate</a></li>
+
+
+
+<li><a href="#apm-army-system-and-accessibility">APM, Army System, and Accessibility</a></li>
+
+
+
+<li><a href="#gamepad-vs-keyboard-and-mouse">Gamepad vs Keyboard and Mouse</a></li>
+
+
+
+<li><a href="#modding-support">Modding Support</a></li>
+</ol>
+
+
+
+<figure><p>
+<iframe title="Gameplay Trailer  |  Ashes of the Singularity II" width="500" height="281" src="https://www.youtube.com/embed/OGix7n_B__I?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<h2 id="why-return-to-ashes-of-the-singularity-now">Why Return to Ashes of the Singularity Now</h2>
+
+
+
+<p><strong>It's been several years since the first Ashes of the Singularity. A year and a half ago, you released a game called <a href="https://wccftech.com/review/ara-history-untold-all-nothing/" target="_blank" rel="noreferrer noopener">Ara: History Untold</a>. Why was this the right time to get back to Ashes for you?</strong></p>
+
+
+
+<p><strong>Brett Norton:</strong> Adrian, you want to field that one?</p>
+
+
+
+<p><strong>Adrian Wright:</strong> Yeah. As we were finishing up and looking at our next project, considering where we were at, it just made sense for us to go back and revisit Ashes. Ashes has had a really good following. A lot of folks have joined the Discord community and are really excited about Ashes 2 coming out. For us, you know, we have our own proprietary engine, and games like Ashes just really allow us to push that even further. So Ashes just made a lot of sense when we were figuring out what our next project would be.</p>
+
+
+
+<h2 id="evolution-from-benchmark-to-gameplay-first">An Evolution From Benchmark to Gameplay-First</h2>
+
+
+
+<p><strong>One of the distinguishing features of Ashes of the Singularity was that, for a time (and perhaps even still to this day), it was one of the most benchmarked games. It was the first game to use DirectX 12, so it was quite important from a technical point of view. Now that it's been 10 years, how do you plan to evolve this legacy? Do you still plan to rely heavily on being a new technical benchmark, or are you perhaps more focused on gameplay this time around?</strong></p>
+
+
+
+<p><strong>Adrian Wright:</strong> We're much more focused on the game and gameplay for the second one. Not that we won't push the boundaries, and we certainly have a benchmark that folks can use, but it's really more important to us that the game is really, really solid and fun to play. That's the number one driver for this game, not solely being a benchmark.</p>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/02/ashes2_feb_ss06-HD-scaled.jpeg"></a></figure>
+
+
+
+<h2 id="scale-and-unit-count-thousands-on-screen">Scale and Unit Count: Thousands on Screen</h2>
+
+
+
+<p><strong>Even so, how did the tech evolve compared to the first one? Can you do more things now? One of the main features of the first game was its support for thousands of units. Are you still looking to maintain that scale, or even expand it, in Ashes of the Singularity II?</strong></p>
+
+
+
+<p><strong>Brett Norton:</strong> Absolutely. From a technology standpoint, the engine has evolved a lot. Ashes of the Singularity 1 was built on what we can kind of think of as Nitrous Engine 1.0. The engine evolved from&nbsp;Ashes of the Singularity 1&nbsp;to&nbsp;Ara: History Untold, and now to Ashes of the Singularity II. What we're actually working with is an evolved version of the Ara engine. So it's a substantial improvement technologically over both what was in Ashes 1 and even another jump up over what we had available in Ara.</p>
+
+
+
+<p>From a rendering standpoint, we're still focusing on large maps and large worlds with vast quantities of units, buildings, characters, and detail. If you've seen the "living world" aspects of Ara, we've brought a lot of that technology forward into Ashes of the Singularity<em> </em>II to make the maps a lot more interesting, livable, and believable, while still maintaining the scope and scale from Ashes 1 where you can just have a vast number of units on screen.</p>
+
+
+
+<p>The focus of Ashes of the Singularity II from the get-go has been to be a real-time strategy game of scale, and we needed the technology to be able to power that. We didn't want to just have fights between 10 units per player. We wanted an order of magnitude greater than that. We wanted 100 units versus 100 units. And then we wanted to have battles with multiple players all throwing units at each other across vast, sprawling maps. So you could do an eight-player game where each player is managing well over a hundred individual units at the same time, if not 200 to 300. You wind up with multiple thousands of units at any given time on some of the larger battles.</p>
+
+
+
+<p>We set out from the ground up to say this is the goal. We don't want an engine like a first-person shooter engine, which deals with a small number of high-fidelity characters. We need the ability to do high-quality characters that we can render in the tens, hundreds, and thousands all on screen at the same time, running very well on both modern PCs and reasonably older PCs. I don't know if a machine that came out as far back as Ashes 1 will run Ashes 2 as well, but we will be able to support hardware as low-end as the Steam Deck, for example. The Steam Deck is sort of our min-spec hardware target, and we're expecting the game to play well on it. We have a high degree of customization on our graphics options, everything from resolution to various features, so we support a wide degree of scalability. We wanted to ensure our high-end settings, the things that we would use for a benchmark, are also pushed pretty high. If you want to run the game at 4K with a lot of graphics settings, you will push almost any modern hardware. But if you want to run it on a low-power GPU device like the Steam Deck, you absolutely can.</p>
+
+
+
+<h2 id="system-requirements-and-hardware-scalability">System Requirements and Hardware Scalability</h2>
+
+
+
+<p><strong>I saw that you've already listed the system requirements on Steam. Are those accurate, or are they still subject to revision?</strong></p>
+
+
+
+<p><strong>Brett Norton:</strong> Expect some small revisions there. We're in the midst right now of doing a lot of broad-scale hardware compatibility and performance testing. We expect a lot of optimizations over the next several months, and a lot of the data we get from Steam Next Fest will help us better optimize and understand people's hardware configurations. It varies a lot on PC, and we want to understand what we need to do and how to best target graphic settings for it.</p>
+
+
+
+<p>So, it's a reasonable spot for what we have listed as the Steam hardware recommendations. I won't say those are final, though, because we hope to get them even lower realistically depending on how performance optimizations go. We'd love to push it lower, but we always want to list a safe cut-off so that we're not encouraging people with very old PCs to jump in and struggle to play it.</p>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/02/ashes2_feb_ss01-scaled.jpg"></a></figure>
+
+
+
+<h2 id="dx12-features-no-ray-tracing-hdr-modern-graphics-tech">DX12 Features (But No Ray Tracing or HDR) &amp; Modern Graphics Tech</h2>
+
+
+
+<p><strong>Does Ashes of the Singularity II<em> </em>support ray tracing? If not, do you think it would even make sense in a real-time strategy game?</strong></p>
+
+
+
+<p><strong>Dan Baker:</strong> We had some promising ray tracing experiments, but at the scale of our game, it was simply too slow for the visual payoff. Ray tracing becomes significantly more expensive when everything in your scene is in motion or can be deformed. With the number of objects that can be on-screen, it can consume an enormous amount of GPU memory as well. The most appealing benefit for an RTS would be the ability to properly shadow the many thousands of point, line, and area lights.</p>
+
+
+
+<p><strong>Will the game support HDR displays? If not, can you explain why?</strong></p>
+
+
+
+<p><strong>Dan Baker:</strong> No, we don’t have official support. Unfortunately, only a small portion of our players have HDR displays. Moreover, an RTS game requires quite a bit of tuning to both look excellent and play well.</p>
+
+
+
+<ol></ol>
+
+
+
+<div><p><strong>Are you using any of the latest DX12 features, such as Opacity Micro-Maps (OMM), Work Graphs, and Tiled Resource Tier 4? Which one do you think will be more impactful in the coming years?</strong></p><p><strong>Dan Baker:</strong> We aren’t using these specific features, but we are using many of the newer shader model features, such as the new wave intrinsics. Though these are a little bit older features at this point, we also make heavy use of enhanced 16-bit float support and bindless textures to improve performance.</p></div>
+
+
+
+<p>As for Work Graphs, we are not using them because we have implemented our own subset internally. After consultation with IHVs, it was unclear if the native support would be significantly faster than our current implementation. Additionally, we would still need our current implementation for older hardware anyway (e.g., GTX 970 or RX 580). However, we’ve given the IHVs access to our code so they can experiment with it for future architectures.</p>
+
+
+
+<p>In terms of the most impactful, it’s hard to say. Unfortunately, Tiled Resource Tier 4 is difficult to use properly on a PC architecture, so we don’t think that it will have a huge impact. Work Graphs definitely have the potential to be most impactful, but will likely need a generation or two of hardware advancements to really see the benefit.</p>
+
+
+
+<ol start="2"></ol>
+
+
+
+<h2 id="console-and-steam-deck-potential">Steam Deck and Console Potential</h2>
+
+
+
+<p><strong>Just one last question on the technical side. Are you open to potential console releases for Ashes of the Singularity II, or is it just a PC game in your mind?</strong></p>
+
+
+
+<p><strong>Adrian Wright:</strong> I mean, we would love it to be everywhere. The core goal for us is to make sure that the gameplay works for everybody. Brad mentioned the Steam Deck. If you're a PC player who's played RTS games, you'll have all the plethora of keybinds and shortcuts that you're used to, but it's also playable with a controller on the Steam Deck as well.</p>
+
+
+
+<p><strong>Gabriela Leskur:</strong> Yeah. Coming from the experience lens, from the very beginning of the creation of this sequel, we wanted to be able to validate that the game could be played both on a controller/gamepad as well as keyboard and mouse. That's something we've done to future-proof it in case that comes to pass and we do move to console. But for now, the proof of that is evident in our work on the Steam Deck. We do test on controllers, so that's something we've kept in mind to keep ourselves open to that possibility.</p>
+
+
+
+<p><strong>Adrian Wright:</strong> And I think the biggest thing there is to ensure we do not lose functionality just because we want to be on a different platform. The core PC experience is the core SKU. As we look at making the user experience work for the Steam Deck or other platforms, we don't want to lose functionality. We want it to be playable and be a really good RTS game.</p>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/02/ashes2_feb_ss07-HD-scaled.jpeg"></a></figure>
+
+
+
+<h2 id="ai-improvements-and-difficulty-scaling">AI Improvements and Difficulty Scaling</h2>
+
+
+
+<p><strong>Okay. Can you speak about the improvements made to the AI compared to the first game?</strong></p>
+
+
+
+<p><strong>Brett Norton:</strong> Certainly. In terms of how we use it, we use player-replacement AI. If you want to play a single-player game, we have multiple modes. There's a campaign mode, which is a narrative, story-driven mode. And then we have a sandbox-style skirmish mode where you can currently play against up to seven different AIs. You can do friendly teams, asymmetric matches, free-for-all, whatever you would like to set up.</p>
+
+
+
+<p>We spent a lot of time getting the AI functional pretty early and ensuring that it was a reasonable competitive challenge for a typical player, trying to scale it up and down for both hardened RTS veterans and players who are very unfamiliar with RTS games. If you've never played an RTS before, we have very easy modes that will help you ramp up and give you a lot of breathing room to explore and feel out the game, and then you can graduate through the different difficulties.</p>
+
+
+
+<p>In general, we think they're pretty competitive. We've run tests where the AI is playing with no cheats enabled (it has no insider knowledge about the map), and it plays the game fairly. Right now, it's quite competent at beating a lot of the office staff here at Oxide. A lot of the staff struggle against the default regular AI. If you're a hardened RTS veteran, you can probably take it out thanks to memory knowledge and understanding how to play RTS games well. We also have difficulties that go beyond that, which try to make the AI smarter, and then ones that just outright let it have economic advantages if you want to set yourself up for a very unfair, hard challenge.</p>
+
+
+
+<p>We're actually reasonably proud of it. We started with it early, we've been iterating on it over the last several months, and it's playing very well. A number of the core gameplay changes in Ashes of the Singularity II actually facilitate making the AI play better. It's not done, and we know there are more improvements to make, but we think players will be very challenged by just the default AI going into Steam Next Fest.</p>
+
+
+
+<h2 id="the-three-factions-uef-phc-and-substrate">The Three Factions: UEF, PHC, and Substrate</h2>
+
+
+
+<p><strong>One of the sequel's main changes is the addition of the human faction, the UEF (United Earth Forces). Was it an issue at first when you introduced the idea of AI controlling humans because they play differently?</strong></p>
+
+
+
+<p><strong>Adrian Wright:</strong> That's a great question. We actually started off with the human faction since it was brand new. So really, as we were building out the AI early on, it was being built to handle them. It hasn't been a huge issue. You'll see some different types of units for the PHC in the Next Fest build, where they have a lot of bipedal mechs, for instance, and some other more grounded units alongside an old favorite hover unit from the original game.</p>
+
+
+
+<p><strong>Brett Norton:</strong> Yeah, we set out to build Ashes of the Singularity II; we weren't trying to make Ashes 1.5. It's a pretty ground-level change-up. We knew that the AI was going to have to be rebuilt. It's not the same AI that was present in Ashes 1. As we were exploring what we thought would be the units and the buildings for all the factions (the UEF, the PHC, and the Substrate), we tried to approach everything holistically. We needed an AI that could play all three factions, and we needed gameplay systems that worked for their unique unit rosters. We built them somewhat sequentially: we built the UEF, then we built the PHC, and the Substrate will be available for the full launch after Steam Next Fest, but the entire game was structured so that the AI and systems could support all of them.</p>
+
+
+
+<p><strong>What are the main differences between these three factions from a gameplay perspective?</strong></p>
+
+
+
+<p><strong>Adrian Wright:</strong> We can talk about the two factions that will be in the Steam Next Fest demo. We kind of want to hold back on revealing too much about the third faction for now. Brett, I'll let you go into more detail on the first two.</p>
+
+
+
+<p><strong>Brett Norton:</strong> Sure. The two factions available for Steam Next Fest are the UEF and the PHC (Post-Human Coalition). The UEF is the new faction for Ashes of the Singularity II. They are a faction of united humans from Earth working against the posthumans and the AI Substrate. Their forces are comprised largely of near-future semi-conventional military units. They have access to infantry, near-future modern armor, tank destroyers, artillery units, etc. They also have access to a few "prototype" units, which are more scientifically advanced. </p>
+
+
+
+<p>Throughout the course of the campaign, they start to adopt and steal technologies from the more advanced PHC and Substrate and incorporate them into their arsenals. The UEF is organized around standard tech and generally favors quantity over quality. They use a lot of infantry in the early game to seize territory, and their equipment is not the best, but they pump out a lot of it and can overwhelm enemies with numbers.</p>
+
+
+
+<p><strong>Gabriela Leskur:</strong><span> What I might add there is that you've probably noticed in the promotional material that the human faction does, in fact, have humans on the ground.</span> There are infantry units comprised of human beings, which is unique to the UEF faction.</p>
+
+
+
+<p><strong>Brett Norton:</strong> Yeah, and that's a noticeable difference from Ashes 1, which featured the PHC and Substrate, both with a lot of hovercrafts and flying units. There wasn't a whole lot of bipedal units. The UEF units are generally conventional wheeled or tracked vehicles. We have far more ground locomotion-based units here in Ashes<em> </em>of the Singularity II, and we've done great things to make that look cool, like having tanks drive through trees and knock them over.</p>
+
+
+
+<p>Conversely, the PHC is sort of like the "tech bro" faction. They consist of a very small number of posthumans, and each one is very powerful. They control an army of drones that we call constructs. Their units skew towards being far more expensive and fewer in number. The PHC takes pride in their creations and wants everything to be the best, the shiniest, and the strongest. Their units are tougher and have more powerful weaponry than their UEF analogues. </p>
+
+
+
+<p>They don't field infantry; their cheapest unit is really more of a light tank called the Brute, produced in far fewer numbers than the UEF infantry. They don't have the swarm tactics of the UEF, making some of their units vulnerable to being swarmed, but they have returning units that are adept at countering infantry. The PHC will also feature fan favorites like the Hyperion, which is now a true flying dreadnought—quite powerful, scary, and very challenging to take down.</p>
+
+
+
+<p>Narratively, it's been 10 years in real life since the last game came out, and a little bit of time has passed in the in-world timeline as well. If you remember the end of Ashes 1: Escalation, there is mistrust now between Haalee (the Substrate) and the PHC. It makes narrative sense that you would see the posthumans adapt and update their technology because it used to be heavily influenced by Haalee, who is now seen as an enemy by some of them.</p>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/02/ashes2_feb_ss05-scaled.jpg"></a></figure>
+
+
+
+<h2 id="apm-army-system-and-accessibility">APM, Army System, and Accessibility</h2>
+
+
+
+<p><strong>Where do you think the game sits on the APM (Actions Per Minute) spectrum compared to the first one? Is it faster-paced, slower-paced, or about the same?</strong></p>
+
+
+
+<p><strong>Brett Norton:</strong> Ashes 1 was a pretty high APM game given the scale, the number of units, workers, and buildings you had to manage. It followed the legacy of games like <em>Total Annihilation</em> through <em>Supreme Commander</em>. It was a high APM game, perhaps not quite as high as <em>StarCraft 2</em> at a competitive level, but still high.</p>
+
+
+
+<p>With Ashes of the Singularity<em> </em>II, we are putting in a lot of affordances and control updates that allow you to play the game with a lower APM floor. The ceiling is still fairly high if you want to be tactical, but the army system has been completely reimagined. It's an entirely new system that is core to how you build and recruit units. The goal was to make it so that you can experience these awesome huge battles with a thousand units on screen without needing a very high APM. </p>
+
+
+
+<p>You don't have to constantly recruit, lasso five new units, put them in a control group, and move them around. The army system and the warfront system softly automate a lot of those functions. It handles reinforcement automatically. We've put out some developer journals illustrating these changes. It makes it so anyone, even players with low APM or low RTS experience, can enjoy the game. It also makes it very playable on a gamepad. If you want to go APM wild and get into detailed tactical micromanagement, you still can, but the "APM tax" required to play large-scale games previously has been solved.</p>
+
+
+
+<p><strong>Gabriela Leskur:</strong> I would just underline the importance of player empowerment. If you are someone who loves micro, our system is set up so you can have dozens of armies with only a few units within them, which replicates the feel of Ashes 1. But the new army system also allows you to group a lot of units into one central control group in a way that can be replenished automatically if you choose.</p>
+
+
+
+<h2 id="gamepad-vs-keyboard-and-mouse">Gamepad vs Keyboard and Mouse</h2>
+
+
+
+<p><strong>Since you're running internal tests, do you think an experienced player on a gamepad can beat a less experienced player on keyboard and mouse, or will they still be destroyed?</strong></p>
+
+
+
+<p><strong>Brett Norton:</strong> Absolutely. An experienced gamepad player would be able to beat a newer, less experienced person playing on keyboard and mouse. There's a bigger demand for strategic thinking in <em>Ashes 2</em> than in a lot of other games. It's about managing warfronts, positioning, and timing. Those core strategic decisions are reasonably efficient to do with both a gamepad and a keyboard/mouse. There is definitely still an advantage at the tactical, micromanagement level that favors keyboard and mouse because you can get higher APMs, but that's not where we sink much of our gameplay. We're not a game about stutter-stepping 10 units back and forth every quarter of a second to eke out extra DPS. Strategic decisions decide a game of <em>Ashes 2</em>. Between two equally highly skilled players, I would give the edge to the keyboard and mouse player due to flexibility, but at the strategic level, a good strategic player on a gamepad will beat a weak strategic player on a keyboard and mouse.</p>
+
+
+
+<p><strong>Good to know, because nowadays I prefer playing on a gamepad; it's a lot more accessible.</strong></p>
+
+
+
+<p><strong>Adrian Wright:</strong> We've been playing on Steam Deck for months now to ensure it's very playable. All the core strategic functions are highly accessible on a gamepad.</p>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/02/ashes2_feb_ss02-scaled.jpg"></a></figure>
+
+
+
+<h2 id="modding-support">Modding Support</h2>
+
+
+
+<p><strong>Modding was quite important for the first game. How did you approach it for the second one? Are you going to support Steam Workshop eventually?</strong></p>
+
+
+
+<p><strong>Brett Norton:</strong> We haven't announced any formal plans for what we will support with modding at launch, but the engine, especially where we're at with Nitrous, is very moddable. We have a lot of things that are highly exposed and easily accessible on the data end, and we use a combination of Lua and XML for a lot of our interface elements. There's definitely more than basic ability to do great mods for it. We also have a cool scenario editor. How much in-engine support we will have natively out of the box is still TBD, but it's an extension of the Nitrous 1 engine, so it's just as moddable as Ashes 1 was, if not better. It's very easy for people to mod stuff through Lua, XML, and data setups. We've even had internal alpha testers already modify data locally just to try different configurations and setups out.</p>
+
+
+
+<p><strong>Okay. Well, thank you very much for the answers.</strong></p>
+
+			
+			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
+
+		</div></div><br/><br/>https://wccftech.com/ashes-singularity-2-interview-scale-steam-deck-benchmark/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[NACON Connect Returns Next Week, Teases New Looks at The Mound: Omen of Cthulhu, Edge of Memories, and More]]></title>
+            <link>https://wccftech.com/nacon-connect-returns-next-week-edge-of-memories-the-mound-cthulhu-cosmic-abyss/</link>
+            <guid>1444090</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			
+			<p>Publisher <strong>Nacon</strong> will host its next <strong>Nacon Connect</strong> event next week on <strong>March 4, 2026,</strong> at <strong>11am PT / 2pm ET / 7pm BT</strong>. A press release for the event doesn't identify how long it will be, but it does tease new looks at upcoming titles like <strong><a href="https://wccftech.com/edge-of-memories-is-a-new-japanese-inspired-action-rpg-from-the-edge-of-eternity-devs-out-in-q4-2025/">Edge of Memories</a></strong>, <strong><a href="https://wccftech.com/the-mound-omen-of-cthulhu-gameplay-nacon-ace-team/">The Mound: Omen of Cthulhu</a>,</strong> and <strong><a href="https://wccftech.com/cthulhu-the-cosmic-abyss-gameplay-trailer-ahead-of-steam-next-fest-demo/">Cthulhu: The Cosmic Abyss</a></strong>.</p>
+
+
+
+<p>The press release also adds that "<em>This key event will highlight the publisher-developer's future releases as well as the latest from its accessories department</em>," so we know we won't just be hearing about new games from Nacon; we'll also get an update on what's new from its <a href="https://www.nacongaming.com/en-US/peripherals">accessories line</a>.</p>
+
+
+
+<p>Of the games mentioned in the press release, the only one with a release date is Cthulhu: The Cosmic Abyss (which also has a <strong>Steam Next Fest</strong> demo you can try), while the rest of what's shown in the teaser trailer are games we've already seen from Nacon, like <a href="https://wccftech.com/review/styx-blades-of-greed-review-a-sandbox-goblin-adventure/"><strong>Styx: Blads of Greed,</strong></a> or <a href="https://wccftech.com/review/test-drive-unlimited-solar-crown/"><strong>Test Drive Unlimited Solar Crown</strong>.</a></p>
+
+
+
+<figure><p>
+<iframe title="Nacon Connect 2026 | Teaser Trailer UK" width="500" height="281" src="https://www.youtube.com/embed/3-_DHPUqRYw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<p>Hopefully, this presentation will give us release dates for games like Edge of Memories and The Mound: Omen of Cthulhu that are currently slated to arrive sometime in 2026, but don't have a specific date yet. The trailer also indicates that we'll get another update on <strong>Greedfall 2</strong>, which is currently set to <a href="https://wccftech.com/greedfall-2-the-dying-world-release-date-march-2026/">leave early access on <strong>March 10, 2026</strong></a><strong>.</strong></p>
+
+
+
+<p>Outside of that, we may also get our first update on Nacon's plans for its future <a href="https://wccftech.com/nacon-is-once-again-publishing-wrc-games-new-wrc-series-in-development/"><strong>WRC</strong> titles</a>, and potentially another look at the upcoming <strong><a href="https://wccftech.com/terminator-survivors-delayed-2026-no-longer-includes-co-op-no-more-early-access-release/">Terminator: Survivors</a></strong> game, which was recently delayed into 2026 and confirmed to no longer be a co-op-focused game but a <strong>single-player</strong> title.</p>
+
+
+
+<p>Thankfully, we won't have to wait too long to see what Nacon has in store for 2026.</p>
+
+			
+			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
+
+		</div></div><br/><br/>https://wccftech.com/nacon-connect-returns-next-week-edge-of-memories-the-mound-cthulhu-cosmic-abyss/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[Ubisoft Taps Senior Assassin’s Creed IV: Black Flag Devs to Lead the Assassin’s Creed Brand Into the Future]]></title>
             <link>https://wccftech.com/ubisoft-taps-senior-assassins-creed-black-flag-devs-to-lead-assassins-creed-future/</link>
@@ -89,108 +499,6 @@
 			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
 
 		</div></div><br/><br/>https://wccftech.com/tencent-reportedly-shut-down-open-world-developer-timi-montreal-studio/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[New Report Claims No One, Not Even Those Internally at Xbox, Liked the “Everything is an Xbox” Strategy]]></title>
-            <link>https://wccftech.com/sarah-bond-phil-spencer-no-one-liked-everything-is-an-xbox-strategy/</link>
-            <guid>1443883</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			
-			<p>This past Friday, the video games industry, and more specifically, <strong>Xbox </strong>and <strong>Microsoft</strong>, entered a new era. <a href="https://wccftech.com/microsoft-phil-spencer-retires-sarah-bond-resigns-asha-sharma-takes-over-xbox/">A post-<strong>Phil Spencer</strong> and <strong>Sarah Bond</strong> era</a>, with the announcement of Spencer's retirement and Bond's resignation. Former Microsoft CoreAI chief executive officer, <a href="https://wccftech.com/new-xbox-ceo-targeted-supposedly-using-ai-bot-x/"><strong>Asha Sharma</strong>,</a> took Spencer's place, while <strong>Matt Booty</strong> stepped into a new role as Xbox's chief content officer.</p>
-
-
-
-<p>As the industry and consumers wrap their heads around the sudden shake-up, a new report from <a href="https://www.theverge.com/tech/883015/microsoft-xbox-new-ceo-shakeup-notepad">The Verge</a> looks to provide some insight into why it happened the way it did. Why is Sarah Bond leaving Microsoft instead of being <a href="https://wccftech.com/phil-spencer-retire-following-next-gen-xbox-launch/">the one to replace Phil Spencer?</a> What does this new leadership mean for Xbox's future and its whole 'everything is an Xbox' initiative? Well, according to The Verge, the answer to those questions begins and ends with Sarah Bond and her departure.</p>
-
-
-
-<p>Bond is pinpointed as the one who was pushing Xbox's 'Play Everywhere' campaign <a href="https://wccftech.com/sarah-bond-xbox-palworld/">more than anyone else</a>, and that its 'This is an Xbox' marketing strategy was the result of a few key people leaving Microsoft, leaving Bond directly in charge of the platform's marketing team. When the new campaign started to air, and those loyal to the platform on the consumer side were taken aback and even offended by it, they weren't the only ones.</p>
-
-
-
-<p>The report claims that the campaign "<strong><em>offended many Xbox employees internally</em></strong>," and that the pivot away from a dedicated console to a broader approach focused on cloud and mobile was something that Bond championed under Spencer. It also adds that Bond's departure comes as a relief to employees remaining at Xbox, who claimed that she was "<em>tough to work with, and built a team structure that meant if you didn't follow the vision or questioned it, <strong>you were out</strong></em>." </p>
-
-
-
-<p>That said, she was still praised by her colleagues for the ability to get big deals across the finish line, including the "<em><strong>crucial</strong></em>" role she played in securing the <strong><a href="https://wccftech.com/activision-blizzard-has-been-acquired-by-microsoft-for-70-billion/">Activision Blizzard King</a></strong> deal. But that's about all the praise the report mentions for Bond. </p>
-
-
-
-<p>Everywhere else, she's reported to be the one behind Xbox's devaluing of its own hardware, and now that she and Spencer are out, Sharma's job is to usher in "<em>the return of Xbox</em>," which seems to include major changes and the admittance that what the team had been trying has not been working. </p>
-
-
-
-<p>According to sources from the report, when it became clear that Bond's strategy under Spencer wasn't working after <a href="https://wccftech.com/microsoft-reports-a-9-overall-drop-in-xbox-revenue-for-q2-fy26-hardware-down-32/">declining hardware sales</a> and <a href="https://wccftech.com/xbox-revenues-see-113-million-decline-amid-hardware-sales-drop-and-limited-gaming-content-and-services-growth/">Xbox revenue dropping</a>, staff believed that the departures felt inevitable. </p>
-
-
-
-<p>The report also adds that the author has "<em>the impression from sources that Microsoft wants a turnaround and is worried about losing Xbox, as it's one of its only remaining successful consumer brands</em>." Again, that's just a feeling the writer has based on their conversations with their sources at Xbox, but it's a more positive one than coming away from those talks with the feeling that Sharma is really here to start cutting away at Xbox to make more room for <a href="https://wccftech.com/satya-nadella-admits-transition-into-the-ai-era-could-be-messy-but-does-not-want-microsoft-to-be-left-behind-in-the-tech-race/">Microsoft's AI push</a>.</p>
-
-
-
-<p>As much as this report sets the blame at Bond's feet, where it may very well deserve to rest, the buck stops with Phil Spencer before it stops with her. In a company as big as Microsoft, you'll almost never be able to say that someone acted alone in their mistakes; there's almost always someone else complicit to them. </p>
-
-
-
-<p>If this report is accurate in its claims that Sharma's tenure will turn over a new leaf for Xbox, then the test of that commitment to players will likely come with the reveal of the next major first-party Xbox title, and whether or not it is actually a game exclusive to Xbox.</p>
-
-			
-			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
-
-		</div></div><br/><br/>https://wccftech.com/sarah-bond-phil-spencer-no-one-liked-everything-is-an-xbox-strategy/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[‘Every Time They Buy a Game From Us, They’re Getting a Great Deal’: Clair Obscur: Expedition 33 Publisher Pushes Back Against Regular Price Hikes]]></title>
-            <link>https://wccftech.com/clair-obscur-expedition-33-publisher-pushes-back-price-hikes/</link>
-            <guid>1443880</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			
-			<p>Over the past few months, video gaming has become a rather expensive hobby, with <a data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-style-link dracula-processed" href="https://wccftech.com/ps5-ps5-pro-price-increases-us-tomorrow/"><strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)">hardware</strong></a> and game prices rising consistently, risking pricing out more and more gamers as the worldwide economic situation remains challenging. However, not every publisher is set to increase prices, and some, like <strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)"><em data-dracula_alpha_bg="rgba(0, 0, 0, 0)"><a data-dracula_alpha_bg="rgba(0, 0, 0, 0)" href="https://wccftech.com/review/clair-obscur-expedition-33-dont-fear-the-paintress/">Clair Obscur: Expedition 33</a></em></strong>  publisher <strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)">Kepler Interactive</strong>, are set to continue employing a <strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)">pricing strategy</strong> that is respectful of gamers' money and time.</p>
-
-
-
-<p>Speaking with the <strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)"><a href="https://www.youtube.com/@BBCNews" target="_blank" rel="noreferrer noopener">BBC</a></strong>, <strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)">Kepler Interactive's CEO Alexis Garavaryan</strong> commented on the company's pricing strategy, which has <em data-dracula_alpha_bg="rgba(0, 0, 0, 0)">"kind of taken the opposite action"</em> to what most major publishers have done in recent years.</p>
-
-
-
-<p>Elaborating further, <strong>Garavaryan</strong> said: <em>"When we decide on a release and when we price our video games, we try to think what do we think the price should be and then we price it lower so that when players buy a game from us they feel like they're getting a bargain. We want them to feel like we are respectful of their money, respectful of their time and that fundamentally every time they buy a game from us they're getting a great deal."</em></p>
-
-
-
-<p><em>"We're excited for players to be able to play five, six different experiences with the same amount of money than a traditional AAA game would bring them,"</em> <strong>Kepler Interactive CEO</strong> concluded, delivering <strong>a small ray of hope</strong> amidst the general <strong>price hikes</strong> that show no sign of stopping.</p>
-
-
-
-<figure><p>
-<iframe title="Clair Obscur’s publisher on challenging game prices | BBC News" width="500" height="281" src="https://www.youtube.com/embed/WHu37zviJIg?start=1&amp;feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-</p></figure>
-
-
-
-<p>Looking at the smashing success of <strong><em>Clair Obscur: Expedition 33</em></strong>, whose art style is so convincing that some <strong>authorities in the Middle East</strong> believed the game's artbook <a href="https://wccftech.com/clair-obscur-expedition-33-art-direction-is-so-authentic-it-triggered-a-national-antiquities-investigation/"><strong>belonged in a museum</strong></a>, <strong>Kepler Interactive's</strong> strategy has a high chance to make many of the games it will publish in the future quite popular. </p>
-
-
-
-<p>While reaching the <a href="https://wccftech.com/clair-obscur-expedition-33-most-awarded-game-wccftech-awards-elden-ring/"><strong>same level of popularity</strong></a> as the game developed by <strong>Sandfall Interactive</strong> will be a tall order, gamers have shown time and time again how they are willing to embrace all sorts of gaming experiences if they are of <strong>high quality</strong> and are <strong>priced accordingly</strong>. Hopefully, other publishers will follow suit and prevent video games from becoming something only a few can enjoy.</p>
-
-			
-			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
-
-		</div></div><br/><br/>https://wccftech.com/clair-obscur-expedition-33-publisher-pushes-back-price-hikes/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>

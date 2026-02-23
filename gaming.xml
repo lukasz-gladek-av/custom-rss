@@ -4,9 +4,2196 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Mon, 23 Feb 2026 18:21:57 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 23 Feb 2026 19:25:45 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Ashes of the Singularity II Exclusive Interview – Lower APM, Three Factions, and the Nitrous Engine Evolved]]></title>
+            <link>https://wccftech.com/ashes-singularity-2-interview-scale-steam-deck-benchmark/</link>
+            <guid>1444093</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			
+			<p>Almost nine months <a href="https://wccftech.com/massive-rts-ashes-of-the-singularity-ii-announced-arrives-in-2026/" target="_blank" rel="noreferrer noopener">after the game's announcement</a>, the team behind <strong>Ashes of the Singularity II</strong> is finally ready to share more about this highly anticipated real-time strategy game sequel. A demo <strong><a href="https://store.steampowered.com/app/3499790/Ashes_of_the_Singularity_II/" target="_blank" rel="noreferrer noopener">is available for download on Steam</a></strong> as part of the newly launched Next Fest, allowing players to try two of three factions, three maps, the full skirmish mode, and even 8-player multiplayer. Moreover, we have an exclusive interview with <strong>Oxide Games</strong>, diving into pretty much every major aspect of the game. </p>
+
+
+
+<p>The participants were <strong>Brett Norton</strong> (Head of Production), <strong>Adrian Wright</strong> (General Manager), <strong>Gabriela Leskur</strong> (Narrative and Experience Lead), and <strong>Dan Baker</strong> (Chief Graphics Architect). Strap in for a long one!</p>
+
+
+
+<h2 id="h-in-this-interview">In this interview:</h2>
+
+
+
+<ol>
+<li><a href="#why-return-to-ashes-of-the-singularity-now">Why Return to Ashes of the Singularity Now</a></li>
+
+
+
+<li><a href="#evolution-from-benchmark-to-gameplay-first">An Evolution From Benchmark to Gameplay-First</a></li>
+
+
+
+<li><a href="#scale-and-unit-count-thousands-on-screen">Scale and Unit Count: Thousands on Screen</a></li>
+
+
+
+<li><a href="#system-requirements-and-hardware-scalability">System Requirements and Hardware Scalability</a></li>
+
+
+
+<li><a href="#dx12-features-no-ray-tracing-hdr-modern-graphics-tech">DX12 Features (But No Ray Tracing or HDR) and Modern Graphics Tech</a></li>
+
+
+
+<li><a href="#console-and-steam-deck-potential">Steam Deck and Console Potential</a></li>
+
+
+
+<li><a href="#ai-improvements-and-difficulty-scaling">AI Improvements and Difficulty Scaling</a></li>
+
+
+
+<li><a href="#the-three-factions-uef-phc-and-substrate">The Three Factions: UEF, PHC, and Substrate</a></li>
+
+
+
+<li><a href="#apm-army-system-and-accessibility">APM, Army System, and Accessibility</a></li>
+
+
+
+<li><a href="#gamepad-vs-keyboard-and-mouse">Gamepad vs Keyboard and Mouse</a></li>
+
+
+
+<li><a href="#modding-support">Modding Support</a></li>
+</ol>
+
+
+
+<figure><p>
+<iframe title="Gameplay Trailer  |  Ashes of the Singularity II" width="500" height="281" src="https://www.youtube.com/embed/OGix7n_B__I?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<h2 id="why-return-to-ashes-of-the-singularity-now">Why Return to Ashes of the Singularity Now</h2>
+
+
+
+<p><strong>It's been several years since the first Ashes of the Singularity. A year and a half ago, you released a game called <a href="https://wccftech.com/review/ara-history-untold-all-nothing/" target="_blank" rel="noreferrer noopener">Ara: History Untold</a>. Why was this the right time to get back to Ashes for you?</strong></p>
+
+
+
+<p><strong>Brett Norton:</strong> Adrian, you want to field that one?</p>
+
+
+
+<p><strong>Adrian Wright:</strong> Yeah. As we were finishing up and looking at our next project, considering where we were at, it just made sense for us to go back and revisit Ashes. Ashes has had a really good following. A lot of folks have joined the Discord community and are really excited about Ashes 2 coming out. For us, you know, we have our own proprietary engine, and games like Ashes just really allow us to push that even further. So Ashes just made a lot of sense when we were figuring out what our next project would be.</p>
+
+
+
+<h2 id="evolution-from-benchmark-to-gameplay-first">An Evolution From Benchmark to Gameplay-First</h2>
+
+
+
+<p><strong>One of the distinguishing features of Ashes of the Singularity was that, for a time (and perhaps even still to this day), it was one of the most benchmarked games. It was the first game to use DirectX 12, so it was quite important from a technical point of view. Now that it's been 10 years, how do you plan to evolve this legacy? Do you still plan to rely heavily on being a new technical benchmark, or are you perhaps more focused on gameplay this time around?</strong></p>
+
+
+
+<p><strong>Adrian Wright:</strong> We're much more focused on the game and gameplay for the second one. Not that we won't push the boundaries, and we certainly have a benchmark that folks can use, but it's really more important to us that the game is really, really solid and fun to play. That's the number one driver for this game, not solely being a benchmark.</p>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/02/ashes2_feb_ss06-HD-scaled.jpeg"></a></figure>
+
+
+
+<h2 id="scale-and-unit-count-thousands-on-screen">Scale and Unit Count: Thousands on Screen</h2>
+
+
+
+<p><strong>Even so, how did the tech evolve compared to the first one? Can you do more things now? One of the main features of the first game was its support for thousands of units. Are you still looking to maintain that scale, or even expand it, in Ashes of the Singularity II?</strong></p>
+
+
+
+<p><strong>Brett Norton:</strong> Absolutely. From a technology standpoint, the engine has evolved a lot. Ashes of the Singularity 1 was built on what we can kind of think of as Nitrous Engine 1.0. The engine evolved from&nbsp;Ashes of the Singularity 1&nbsp;to&nbsp;Ara: History Untold, and now to Ashes of the Singularity II. What we're actually working with is an evolved version of the Ara engine. So it's a substantial improvement technologically over both what was in Ashes 1 and even another jump up over what we had available in Ara.</p>
+
+
+
+<p>From a rendering standpoint, we're still focusing on large maps and large worlds with vast quantities of units, buildings, characters, and detail. If you've seen the "living world" aspects of Ara, we've brought a lot of that technology forward into Ashes of the Singularity<em> </em>II to make the maps a lot more interesting, livable, and believable, while still maintaining the scope and scale from Ashes 1 where you can just have a vast number of units on screen.</p>
+
+
+
+<p>The focus of Ashes of the Singularity II from the get-go has been to be a real-time strategy game of scale, and we needed the technology to be able to power that. We didn't want to just have fights between 10 units per player. We wanted an order of magnitude greater than that. We wanted 100 units versus 100 units. And then we wanted to have battles with multiple players all throwing units at each other across vast, sprawling maps. So you could do an eight-player game where each player is managing well over a hundred individual units at the same time, if not 200 to 300. You wind up with multiple thousands of units at any given time on some of the larger battles.</p>
+
+
+
+<p>We set out from the ground up to say this is the goal. We don't want an engine like a first-person shooter engine, which deals with a small number of high-fidelity characters. We need the ability to do high-quality characters that we can render in the tens, hundreds, and thousands all on screen at the same time, running very well on both modern PCs and reasonably older PCs. I don't know if a machine that came out as far back as Ashes 1 will run Ashes 2 as well, but we will be able to support hardware as low-end as the Steam Deck, for example. The Steam Deck is sort of our min-spec hardware target, and we're expecting the game to play well on it. We have a high degree of customization on our graphics options, everything from resolution to various features, so we support a wide degree of scalability. We wanted to ensure our high-end settings, the things that we would use for a benchmark, are also pushed pretty high. If you want to run the game at 4K with a lot of graphics settings, you will push almost any modern hardware. But if you want to run it on a low-power GPU device like the Steam Deck, you absolutely can.</p>
+
+
+
+<h2 id="system-requirements-and-hardware-scalability">System Requirements and Hardware Scalability</h2>
+
+
+
+<p><strong>I saw that you've already listed the system requirements on Steam. Are those accurate, or are they still subject to revision?</strong></p>
+
+
+
+<p><strong>Brett Norton:</strong> Expect some small revisions there. We're in the midst right now of doing a lot of broad-scale hardware compatibility and performance testing. We expect a lot of optimizations over the next several months, and a lot of the data we get from Steam Next Fest will help us better optimize and understand people's hardware configurations. It varies a lot on PC, and we want to understand what we need to do and how to best target graphic settings for it.</p>
+
+
+
+<p>So, it's a reasonable spot for what we have listed as the Steam hardware recommendations. I won't say those are final, though, because we hope to get them even lower realistically depending on how performance optimizations go. We'd love to push it lower, but we always want to list a safe cut-off so that we're not encouraging people with very old PCs to jump in and struggle to play it.</p>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/02/ashes2_feb_ss01-scaled.jpg"></a></figure>
+
+
+
+<h2 id="dx12-features-no-ray-tracing-hdr-modern-graphics-tech">DX12 Features (But No Ray Tracing or HDR) &amp; Modern Graphics Tech</h2>
+
+
+
+<p><strong>Does Ashes of the Singularity II<em> </em>support ray tracing? If not, do you think it would even make sense in a real-time strategy game?</strong></p>
+
+
+
+<p><strong>Dan Baker:</strong> We had some promising ray tracing experiments, but at the scale of our game, it was simply too slow for the visual payoff. Ray tracing becomes significantly more expensive when everything in your scene is in motion or can be deformed. With the number of objects that can be on-screen, it can consume an enormous amount of GPU memory as well. The most appealing benefit for an RTS would be the ability to properly shadow the many thousands of point, line, and area lights.</p>
+
+
+
+<p><strong>Will the game support HDR displays? If not, can you explain why?</strong></p>
+
+
+
+<p><strong>Dan Baker:</strong> No, we don’t have official support. Unfortunately, only a small portion of our players have HDR displays. Moreover, an RTS game requires quite a bit of tuning to both look excellent and play well.</p>
+
+
+
+<ol></ol>
+
+
+
+<div><p><strong>Are you using any of the latest DX12 features, such as Opacity Micro-Maps (OMM), Work Graphs, and Tiled Resource Tier 4? Which one do you think will be more impactful in the coming years?</strong></p><p><strong>Dan Baker:</strong> We aren’t using these specific features, but we are using many of the newer shader model features, such as the new wave intrinsics. Though these are a little bit older features at this point, we also make heavy use of enhanced 16-bit float support and bindless textures to improve performance.</p></div>
+
+
+
+<p>As for Work Graphs, we are not using them because we have implemented our own subset internally. After consultation with IHVs, it was unclear if the native support would be significantly faster than our current implementation. Additionally, we would still need our current implementation for older hardware anyway (e.g., GTX 970 or RX 580). However, we’ve given the IHVs access to our code so they can experiment with it for future architectures.</p>
+
+
+
+<p>In terms of the most impactful, it’s hard to say. Unfortunately, Tiled Resource Tier 4 is difficult to use properly on a PC architecture, so we don’t think that it will have a huge impact. Work Graphs definitely have the potential to be most impactful, but will likely need a generation or two of hardware advancements to really see the benefit.</p>
+
+
+
+<ol start="2"></ol>
+
+
+
+<h2 id="console-and-steam-deck-potential">Steam Deck and Console Potential</h2>
+
+
+
+<p><strong>Just one last question on the technical side. Are you open to potential console releases for Ashes of the Singularity II, or is it just a PC game in your mind?</strong></p>
+
+
+
+<p><strong>Adrian Wright:</strong> I mean, we would love it to be everywhere. The core goal for us is to make sure that the gameplay works for everybody. Brad mentioned the Steam Deck. If you're a PC player who's played RTS games, you'll have all the plethora of keybinds and shortcuts that you're used to, but it's also playable with a controller on the Steam Deck as well.</p>
+
+
+
+<p><strong>Gabriela Leskur:</strong> Yeah. Coming from the experience lens, from the very beginning of the creation of this sequel, we wanted to be able to validate that the game could be played both on a controller/gamepad as well as keyboard and mouse. That's something we've done to future-proof it in case that comes to pass and we do move to console. But for now, the proof of that is evident in our work on the Steam Deck. We do test on controllers, so that's something we've kept in mind to keep ourselves open to that possibility.</p>
+
+
+
+<p><strong>Adrian Wright:</strong> And I think the biggest thing there is to ensure we do not lose functionality just because we want to be on a different platform. The core PC experience is the core SKU. As we look at making the user experience work for the Steam Deck or other platforms, we don't want to lose functionality. We want it to be playable and be a really good RTS game.</p>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/02/ashes2_feb_ss07-HD-scaled.jpeg"></a></figure>
+
+
+
+<h2 id="ai-improvements-and-difficulty-scaling">AI Improvements and Difficulty Scaling</h2>
+
+
+
+<p><strong>Okay. Can you speak about the improvements made to the AI compared to the first game?</strong></p>
+
+
+
+<p><strong>Brett Norton:</strong> Certainly. In terms of how we use it, we use player-replacement AI. If you want to play a single-player game, we have multiple modes. There's a campaign mode, which is a narrative, story-driven mode. And then we have a sandbox-style skirmish mode where you can currently play against up to seven different AIs. You can do friendly teams, asymmetric matches, free-for-all, whatever you would like to set up.</p>
+
+
+
+<p>We spent a lot of time getting the AI functional pretty early and ensuring that it was a reasonable competitive challenge for a typical player, trying to scale it up and down for both hardened RTS veterans and players who are very unfamiliar with RTS games. If you've never played an RTS before, we have very easy modes that will help you ramp up and give you a lot of breathing room to explore and feel out the game, and then you can graduate through the different difficulties.</p>
+
+
+
+<p>In general, we think they're pretty competitive. We've run tests where the AI is playing with no cheats enabled (it has no insider knowledge about the map), and it plays the game fairly. Right now, it's quite competent at beating a lot of the office staff here at Oxide. A lot of the staff struggle against the default regular AI. If you're a hardened RTS veteran, you can probably take it out thanks to memory knowledge and understanding how to play RTS games well. We also have difficulties that go beyond that, which try to make the AI smarter, and then ones that just outright let it have economic advantages if you want to set yourself up for a very unfair, hard challenge.</p>
+
+
+
+<p>We're actually reasonably proud of it. We started with it early, we've been iterating on it over the last several months, and it's playing very well. A number of the core gameplay changes in Ashes of the Singularity II actually facilitate making the AI play better. It's not done, and we know there are more improvements to make, but we think players will be very challenged by just the default AI going into Steam Next Fest.</p>
+
+
+
+<h2 id="the-three-factions-uef-phc-and-substrate">The Three Factions: UEF, PHC, and Substrate</h2>
+
+
+
+<p><strong>One of the sequel's main changes is the addition of the human faction, the UEF (United Earth Forces). Was it an issue at first when you introduced the idea of AI controlling humans because they play differently?</strong></p>
+
+
+
+<p><strong>Adrian Wright:</strong> That's a great question. We actually started off with the human faction since it was brand new. So really, as we were building out the AI early on, it was being built to handle them. It hasn't been a huge issue. You'll see some different types of units for the PHC in the Next Fest build, where they have a lot of bipedal mechs, for instance, and some other more grounded units alongside an old favorite hover unit from the original game.</p>
+
+
+
+<p><strong>Brett Norton:</strong> Yeah, we set out to build Ashes of the Singularity II; we weren't trying to make Ashes 1.5. It's a pretty ground-level change-up. We knew that the AI was going to have to be rebuilt. It's not the same AI that was present in Ashes 1. As we were exploring what we thought would be the units and the buildings for all the factions (the UEF, the PHC, and the Substrate), we tried to approach everything holistically. We needed an AI that could play all three factions, and we needed gameplay systems that worked for their unique unit rosters. We built them somewhat sequentially: we built the UEF, then we built the PHC, and the Substrate will be available for the full launch after Steam Next Fest, but the entire game was structured so that the AI and systems could support all of them.</p>
+
+
+
+<p><strong>What are the main differences between these three factions from a gameplay perspective?</strong></p>
+
+
+
+<p><strong>Adrian Wright:</strong> We can talk about the two factions that will be in the Steam Next Fest demo. We kind of want to hold back on revealing too much about the third faction for now. Brett, I'll let you go into more detail on the first two.</p>
+
+
+
+<p><strong>Brett Norton:</strong> Sure. The two factions available for Steam Next Fest are the UEF and the PHC (Post-Human Coalition). The UEF is the new faction for Ashes of the Singularity II. They are a faction of united humans from Earth working against the posthumans and the AI Substrate. Their forces are comprised largely of near-future semi-conventional military units. They have access to infantry, near-future modern armor, tank destroyers, artillery units, etc. They also have access to a few "prototype" units, which are more scientifically advanced. </p>
+
+
+
+<p>Throughout the course of the campaign, they start to adopt and steal technologies from the more advanced PHC and Substrate and incorporate them into their arsenals. The UEF is organized around standard tech and generally favors quantity over quality. They use a lot of infantry in the early game to seize territory, and their equipment is not the best, but they pump out a lot of it and can overwhelm enemies with numbers.</p>
+
+
+
+<p><strong>Gabriela Leskur:</strong><span> What I might add there is that you've probably noticed in the promotional material that the human faction does, in fact, have humans on the ground.</span> There are infantry units comprised of human beings, which is unique to the UEF faction.</p>
+
+
+
+<p><strong>Brett Norton:</strong> Yeah, and that's a noticeable difference from Ashes 1, which featured the PHC and Substrate, both with a lot of hovercrafts and flying units. There wasn't a whole lot of bipedal units. The UEF units are generally conventional wheeled or tracked vehicles. We have far more ground locomotion-based units here in Ashes<em> </em>of the Singularity II, and we've done great things to make that look cool, like having tanks drive through trees and knock them over.</p>
+
+
+
+<p>Conversely, the PHC is sort of like the "tech bro" faction. They consist of a very small number of posthumans, and each one is very powerful. They control an army of drones that we call constructs. Their units skew towards being far more expensive and fewer in number. The PHC takes pride in their creations and wants everything to be the best, the shiniest, and the strongest. Their units are tougher and have more powerful weaponry than their UEF analogues. </p>
+
+
+
+<p>They don't field infantry; their cheapest unit is really more of a light tank called the Brute, produced in far fewer numbers than the UEF infantry. They don't have the swarm tactics of the UEF, making some of their units vulnerable to being swarmed, but they have returning units that are adept at countering infantry. The PHC will also feature fan favorites like the Hyperion, which is now a true flying dreadnought—quite powerful, scary, and very challenging to take down.</p>
+
+
+
+<p>Narratively, it's been 10 years in real life since the last game came out, and a little bit of time has passed in the in-world timeline as well. If you remember the end of Ashes 1: Escalation, there is mistrust now between Haalee (the Substrate) and the PHC. It makes narrative sense that you would see the posthumans adapt and update their technology because it used to be heavily influenced by Haalee, who is now seen as an enemy by some of them.</p>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/02/ashes2_feb_ss05-scaled.jpg"></a></figure>
+
+
+
+<h2 id="apm-army-system-and-accessibility">APM, Army System, and Accessibility</h2>
+
+
+
+<p><strong>Where do you think the game sits on the APM (Actions Per Minute) spectrum compared to the first one? Is it faster-paced, slower-paced, or about the same?</strong></p>
+
+
+
+<p><strong>Brett Norton:</strong> Ashes 1 was a pretty high APM game given the scale, the number of units, workers, and buildings you had to manage. It followed the legacy of games like <em>Total Annihilation</em> through <em>Supreme Commander</em>. It was a high APM game, perhaps not quite as high as <em>StarCraft 2</em> at a competitive level, but still high.</p>
+
+
+
+<p>With Ashes of the Singularity<em> </em>II, we are putting in a lot of affordances and control updates that allow you to play the game with a lower APM floor. The ceiling is still fairly high if you want to be tactical, but the army system has been completely reimagined. It's an entirely new system that is core to how you build and recruit units. The goal was to make it so that you can experience these awesome huge battles with a thousand units on screen without needing a very high APM. </p>
+
+
+
+<p>You don't have to constantly recruit, lasso five new units, put them in a control group, and move them around. The army system and the warfront system softly automate a lot of those functions. It handles reinforcement automatically. We've put out some developer journals illustrating these changes. It makes it so anyone, even players with low APM or low RTS experience, can enjoy the game. It also makes it very playable on a gamepad. If you want to go APM wild and get into detailed tactical micromanagement, you still can, but the "APM tax" required to play large-scale games previously has been solved.</p>
+
+
+
+<p><strong>Gabriela Leskur:</strong> I would just underline the importance of player empowerment. If you are someone who loves micro, our system is set up so you can have dozens of armies with only a few units within them, which replicates the feel of Ashes 1. But the new army system also allows you to group a lot of units into one central control group in a way that can be replenished automatically if you choose.</p>
+
+
+
+<h2 id="gamepad-vs-keyboard-and-mouse">Gamepad vs Keyboard and Mouse</h2>
+
+
+
+<p><strong>Since you're running internal tests, do you think an experienced player on a gamepad can beat a less experienced player on keyboard and mouse, or will they still be destroyed?</strong></p>
+
+
+
+<p><strong>Brett Norton:</strong> Absolutely. An experienced gamepad player would be able to beat a newer, less experienced person playing on keyboard and mouse. There's a bigger demand for strategic thinking in <em>Ashes 2</em> than in a lot of other games. It's about managing warfronts, positioning, and timing. Those core strategic decisions are reasonably efficient to do with both a gamepad and a keyboard/mouse. There is definitely still an advantage at the tactical, micromanagement level that favors keyboard and mouse because you can get higher APMs, but that's not where we sink much of our gameplay. We're not a game about stutter-stepping 10 units back and forth every quarter of a second to eke out extra DPS. Strategic decisions decide a game of <em>Ashes 2</em>. Between two equally highly skilled players, I would give the edge to the keyboard and mouse player due to flexibility, but at the strategic level, a good strategic player on a gamepad will beat a weak strategic player on a keyboard and mouse.</p>
+
+
+
+<p><strong>Good to know, because nowadays I prefer playing on a gamepad; it's a lot more accessible.</strong></p>
+
+
+
+<p><strong>Adrian Wright:</strong> We've been playing on Steam Deck for months now to ensure it's very playable. All the core strategic functions are highly accessible on a gamepad.</p>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/02/ashes2_feb_ss02-scaled.jpg"></a></figure>
+
+
+
+<h2 id="modding-support">Modding Support</h2>
+
+
+
+<p><strong>Modding was quite important for the first game. How did you approach it for the second one? Are you going to support Steam Workshop eventually?</strong></p>
+
+
+
+<p><strong>Brett Norton:</strong> We haven't announced any formal plans for what we will support with modding at launch, but the engine, especially where we're at with Nitrous, is very moddable. We have a lot of things that are highly exposed and easily accessible on the data end, and we use a combination of Lua and XML for a lot of our interface elements. There's definitely more than basic ability to do great mods for it. We also have a cool scenario editor. How much in-engine support we will have natively out of the box is still TBD, but it's an extension of the Nitrous 1 engine, so it's just as moddable as Ashes 1 was, if not better. It's very easy for people to mod stuff through Lua, XML, and data setups. We've even had internal alpha testers already modify data locally just to try different configurations and setups out.</p>
+
+
+
+<p><strong>Okay. Well, thank you very much for the answers.</strong></p>
+
+			
+			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
+
+		</div></div><br/><br/>https://wccftech.com/ashes-singularity-2-interview-scale-steam-deck-benchmark/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[NACON Connect Returns Next Week, Teases New Looks at The Mound: Omen of Cthulhu, Edge of Memories, and More]]></title>
+            <link>https://wccftech.com/nacon-connect-returns-next-week-edge-of-memories-the-mound-cthulhu-cosmic-abyss/</link>
+            <guid>1444090</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			
+			<p>Publisher <strong>Nacon</strong> will host its next <strong>Nacon Connect</strong> event next week on <strong>March 4, 2026,</strong> at <strong>11am PT / 2pm ET / 7pm BT</strong>. A press release for the event doesn't identify how long it will be, but it does tease new looks at upcoming titles like <strong><a href="https://wccftech.com/edge-of-memories-is-a-new-japanese-inspired-action-rpg-from-the-edge-of-eternity-devs-out-in-q4-2025/">Edge of Memories</a></strong>, <strong><a href="https://wccftech.com/the-mound-omen-of-cthulhu-gameplay-nacon-ace-team/">The Mound: Omen of Cthulhu</a>,</strong> and <strong><a href="https://wccftech.com/cthulhu-the-cosmic-abyss-gameplay-trailer-ahead-of-steam-next-fest-demo/">Cthulhu: The Cosmic Abyss</a></strong>.</p>
+
+
+
+<p>The press release also adds that "<em>This key event will highlight the publisher-developer's future releases as well as the latest from its accessories department</em>," so we know we won't just be hearing about new games from Nacon; we'll also get an update on what's new from its <a href="https://www.nacongaming.com/en-US/peripherals">accessories line</a>.</p>
+
+
+
+<p>Of the games mentioned in the press release, the only one with a release date is Cthulhu: The Cosmic Abyss (which also has a <strong>Steam Next Fest</strong> demo you can try), while the rest of what's shown in the teaser trailer are games we've already seen from Nacon, like <a href="https://wccftech.com/review/styx-blades-of-greed-review-a-sandbox-goblin-adventure/"><strong>Styx: Blads of Greed,</strong></a> or <a href="https://wccftech.com/review/test-drive-unlimited-solar-crown/"><strong>Test Drive Unlimited Solar Crown</strong>.</a></p>
+
+
+
+<figure><p>
+<iframe title="Nacon Connect 2026 | Teaser Trailer UK" width="500" height="281" src="https://www.youtube.com/embed/3-_DHPUqRYw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<p>Hopefully, this presentation will give us release dates for games like Edge of Memories and The Mound: Omen of Cthulhu that are currently slated to arrive sometime in 2026, but don't have a specific date yet. The trailer also indicates that we'll get another update on <strong>Greedfall 2</strong>, which is currently set to <a href="https://wccftech.com/greedfall-2-the-dying-world-release-date-march-2026/">leave early access on <strong>March 10, 2026</strong></a><strong>.</strong></p>
+
+
+
+<p>Outside of that, we may also get our first update on Nacon's plans for its future <a href="https://wccftech.com/nacon-is-once-again-publishing-wrc-games-new-wrc-series-in-development/"><strong>WRC</strong> titles</a>, and potentially another look at the upcoming <strong><a href="https://wccftech.com/terminator-survivors-delayed-2026-no-longer-includes-co-op-no-more-early-access-release/">Terminator: Survivors</a></strong> game, which was recently delayed into 2026 and confirmed to no longer be a co-op-focused game but a <strong>single-player</strong> title.</p>
+
+
+
+<p>Thankfully, we won't have to wait too long to see what Nacon has in store for 2026.</p>
+
+			
+			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
+
+		</div></div><br/><br/>https://wccftech.com/nacon-connect-returns-next-week-edge-of-memories-the-mound-cthulhu-cosmic-abyss/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Slay The Spire 2 Is The New Silksong As Indie Games Delay Themselves To Dodge Its Blast Radius]]></title>
+            <link>https://kotaku.com/slay-spire-2-steam-roguelike-delay-2000672790</link>
+            <guid>1444078</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+              
+              <p><span>On February 19, developer Mega Crit finally announced that</span> <a href="https://kotaku.com/slay-the-spire-2-early-access-release-date-steam-trailer-2000671424"><i><span>Slay the Spire 2</span></i><span> has a release date</span></a><span>: March 5. For those of us who would gladly sell a kidney to get our hands on the sequel to the best roguelike deckbuilder ever made (sorry, </span><i><span>Balatro</span></i><span>), this is incredible news. For every indie dev who was inspired to make a roguelike deckbuilder of their own following the original game’s success, however, this is potentially awful news, as </span><i><span>Slay the Spire 2’s</span></i><span> early access release date is smack dab in the middle of one of the busiest release periods of the year. <a href="https://kotaku.com/every-game-delayed-silksong-hollowknight-demonschool-baby-steps-cloverpit-2000620407">It’s <em>Silksong</em> all over again</a>, and games that were set to release around that time are now moving out of the way.&nbsp;</span></p> <p><span>The most well-publicized delay so far is </span><i><span>Handmancers</span></i><span>, a roguelike deckbuilder from developer and publisher 58BLADES. As the devs revealed in a post on </span><a href="https://x.com/Handmancers/status/2025236242204336358"><span>X</span></a><span>, </span><i><span>Handmancers </span></i><span>was supposed to release during the Turn-Based Thursday Fest, a seven-day-long yearly event that’s scheduled to begin </span><a href="https://turnbasedfest.com/"><span>on March 6</span></a><span>. Considering that it starts a day after </span><i><span>Slay the Spire 2’s</span></i><span> March 5 release date, this one feels like a smart call. “Yea…we’d get absolutely crushed,” the team wrote.&nbsp;</span></p>
+
+ <p><span>The developers behind </span><i><span>Mini Tank Mayhem</span></i><span>, a tower defense and deck-building strategy game from Algorocks, have yet to confirm exactly why their game has suddenly been delayed. However, an apparent tester </span><a href="https://www.reddit.com/r/Games/comments/1rbg1ps/comment/o6qrfg7/?utm_source=share&amp;utm_medium=web3x&amp;utm_name=web3xcss&amp;utm_term=1&amp;utm_content=share_button"><span>on Reddit claimed</span></a><span>&nbsp;that </span><i><span>Slay the Spire 2</span></i><span> is indeed to blame. While a random comment on Reddit is obviously not the most reliable source, the timing of </span><i><span>Mini Tank Mayhem’s</span></i><span> sudden delay is awfully suspicious. Its </span><a href="https://steamdb.info/app/2096260/history/?changeid=U:73009738"><span>SteamDB history confirms</span></a><span> that its 3 March, 2026 release date was pushed back to April 30 (and then changed again to April 29) mere hours after </span><i><span>Slay the Spire 2’s</span></i><span> latest trailer dropped.</span></p> <p><i><span>Omelet You Cook</span></i><span>, a “cozy chaotic cooking roguelike” published by SchuBox Games, was ahead of the curve. The two-man dev team responsible for the <a href="https://kotaku.com/balatro-meets-luck-be-a-landlord-in-chaotic-cooking-roguelike-that-cant-stop-winning-new-fans-2000668754">excellent <em>Balatro-</em>like food prep game</a> </span><span>decided to move up its 1.0 launch back in January. As confirmed by co-developer Dan Schumacher during an interview with </span><a href="https://www.gamesradar.com/games/roguelike/slay-the-spire-2-pulls-a-silksong-scares-indie-devs-into-releasing-roguelike-ahead-of-schedule-in-fear-of-losing-players-to-an-absolute-juggernaut-in-our-own-genre/"><i><span>GamesRadar</span></i></a><span>, they pulled it forward out of fear that they’d be overshadowed by </span><i><span>Slay the Spire 2’s</span></i><span> yet-to-be confirmed (at the time) March release window. “Every streamer we’d reach out to will be playing it. Every roguelike enjoyer will be checking it out. Even I’ll be playing so much that I won’t have time to finish our game!”</span></p>
+
+ <p><span>While no other devs have yet publicly announced any </span><i><span>Slay the Spire 2</span></i><span>-related delays, it’s clearly become a popular topic of discussion among indie studios. Bermrad, the studio behind the hack-and-slash roguelite </span><i><span>Trials of Valor</span></i><span>, noted that their game sharing “some elements with </span><i><span>Slay the Spire</span></i><span>” was less of an issue than the release date itself. Unfortunately, the two games </span><a href="https://www.reddit.com/r/gamedev/comments/1r9e5vd/were_releasing_the_same_day_as_slay_the_spire_2/"><span>now share</span></a><span> the same release date, as Bermrad announced roughly three weeks ago that </span><i><span>Trials of Valor </span></i><span>will be dropping on March 5.&nbsp;</span></p>
+
+ <p><span>Other studios have instead chosen to have a little fun with the increased attention on early March’s release lineup. </span><i><span>Grimslair</span></i><span>’s </span><span>developer, ThunderRam Studios, revealed on </span><a href="https://x.com/AWMassMedia/status/2025638786454233168?s=20"><span>X</span></a><span> that there will be “no hiding in the bushes until the hype train passes,” as the studio intends to stick to its previously announced March 6 release date. Fishagon, who are working on the party card game </span><i><span>Vice Versa</span></i><span>, opted to copy and paste 58BLADES’ announcement and swap it out </span><a href="https://www.reddit.com/r/IndieGaming/comments/1rbnq5n/handmancers_release_date_announcement_forces_vice/?utm_source=share&amp;utm_medium=web3x&amp;utm_name=web3xcss&amp;utm_term=1&amp;utm_content=share_button"><span>with references to their game</span></a><span> instead. </span></p> <p>Games have tried ride the hype wave for a top Steam release before. <span>It’s essentially what the developers behind the decent Metroidvania <i>Adventure of</i><em> Samsara</em> did last year, launching on the same day as<em> Silksong</em>. <a href="https://kotaku.com/hollow-knight-silksong-atari-adventure-of-samsara-2000624067">It did not go well</a>. Other studios, fortunately, have been spared from making that choice themselves. </span><i>Slumber Realm</i>’s devs, Chugga Chugga LLC, <a href="https://www.reddit.com/r/videogames/comments/1rb638e/another_slay_the_spire_2_related_announcement/?utm_source=share&amp;utm_medium=web3x&amp;utm_name=web3xcss&amp;utm_term=1&amp;utm_content=share_button">announced</a> that their card game roguelike won’t be ready in time to compete with <i>Slay the Spire 2</i> anyway, or, as they put it, “I guess in every sense it has no impact.”</p>
+                          </div></div><br/><br/>https://kotaku.com/slay-spire-2-steam-roguelike-delay-2000672790]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Final Fantasy VII Remake Director Explains Why Cloud’s Hair Looks Rough On Switch 2]]></title>
+            <link>https://kotaku.com/final-fantasy-vii-remake-director-explains-why-clouds-hair-looks-rough-on-switch-2-2000672823</link>
+            <guid>1444075</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+              
+              <p>Last month, Square Enix released <em><a href="https://kotaku.com/final-fantasy-vii-remake-the-kotaku-review-1842697312">Final Fantasy VII Remake Intergrade</a></em> on Nintendo Switch 2. The port of the 2020 RPG was <a href="https://kotaku.com/final-fantasy-7-remake-switch-2-handheld-performance-2000661851">well-received</a>, with many praising the game’s clarity and performance. But there was one aspect of <em>FF7 Remake</em> that annoyed some players: Cloud’s famous luxurious hair could look fuzzy or pixelated at times. Well, in a new interview, the game’s director has explained <em>thoroughly</em> why this is the case, and said that it might be a problem in future<em> FF7</em> remake trilogy ports on Switch 2 as well.</p>  <p><a href="https://automaton-media.com/articles/interviewsjp/ff7-20260223-423487/">In an interview posted on February 23, <em>Automaton</em></a> talked to <em>Final Fantasy 7 Remake Intergrade</em>&nbsp;director Naoki Hamaguchi about the Switch 2 port of the RPG. Specifically, they asked him about Cloud’s pixelated hair. Instead of just saying, “Hey, guys, the Switch 2 isn’t as beefy as a high-end PC or PS5, so we had to make some compromises,” the director behind the remake provided a very detailed response. Here’s some of it via Google Translate:</p>
+
+ <blockquote><p><span dir="auto">“In <em>Final Fantasy VII Remake</em>, we use a process called TAA (Temporal Anti-Aliasing) to prevent the outlines of characters from appearing jagged. TAA is a system that creates smoother images that are closer to high resolution by referencing and overlaying information from past frames in addition to the currently drawn frame. </span><span dir="auto">Hair is a very thin component, so if you draw it as is, it’s easy for each dot to appear or disappear. That’s why in this game, we use a special process that switches between drawing and not drawing hair on a dot-by-dot basis for each frame. By combining this process with TAA, we make it so that the fine hair lines appear to connect smoothly across frames.”</span></p></blockquote> <p>Got all that? Hamaguchi then explained that when the Switch 2 is in portable mode, there are “<span dir="auto">additional restrictions.” This forces the game to lower its internal resolution to ensure solid performance. But doing this makes it harder for TAA to create a stable image, leading to the “graininess and jaggedness” of Cloud’s hair. But because <em><a href="https://kotaku.com/i-adore-final-fantasy-7-remakes-dorky-eco-terrorists-1842843860">FF7 Remake</a></em> on Switch 2 uses a dynamic resolution system, his hair can look worse or better depending on the scene.&nbsp;</span></p> <h2>Cloud’s fuzzy, pixelated hair is likely to return in <em>Final Fantasy 7 Rebirth on Switch 2</em></h2> <p>So hopefully, that explains why Cloud’s hair is a bit pixelated in the Switch 2 port. As for the upcoming Switch 2 port of 2024’s <em>Rebirth</em>, which is set to arrive in June, and <a href="https://kotaku.com/ff7-remake-part-3-unreal-engine-4-ue5-gen-ai-2000663075">the third and final entry in the project releasing sometime in the future</a>, Hamaguchi made it clear that you’ll probably see some fuzzy Cloud hair in those releases, too.</p>
+
+ <p><span dir="auto">“Yes, on the Nintendo Switch 2, in order to stabilize the frame rate, the internal resolution is lowered in scenes with a high load, and DLSS compensates for that,” the director told the outlet. “This is a basic mechanism that is not compatible with current hair rendering technology.”</span></p>
+
+ <p>But Hamaguchi says that being able to play <em>FF7 Remake</em> on the go is worth the trade-off of some elements, like Cloud’s hair, being a bit fuzzy, adding, <span dir="auto">“There are limitations unique to portable devices, but we will continue to do our best to continue optimizing it so that we can improve it even if only a little.”</span></p> <p>I genuinely love that the director didn’t offer up some boring PR quote about the hair, but dug into how it works and why it looks that way. Making games is, like playing games, a series of decisions and trade-offs. Considering how great<em> FF7 Remake</em> runs and plays on Switch 2, I think some fuzzy hair is a fine compromise, even if Cloud might disagree.</p>
+                          </div></div><br/><br/>https://kotaku.com/final-fantasy-vii-remake-director-explains-why-clouds-hair-looks-rough-on-switch-2-2000672823]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Full WWE 2K26 Roster—Every Wrestler In The Game]]></title>
+            <link>https://insider-gaming.com/full-wwe-2k26-roster/</link>
+            <guid>1444069</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><article id="post-179184">
+
+    <header>
+        
+
+        
+
+    </header>
+
+    
+
+
+    <div>
+        
+<p>With just two weeks until its release, 2K Games has announced the full launch roster for WWE 2K26. </p>
+
+
+
+<p>This year’s game promises over 400 playable characters along with a number of unplayable managers, referees, and more. You can check out the full roster, including those available as part of Ringside Pass Season 1, below, <a href="https://wwe.2k.com/2k26/roster/" target="_blank" rel="noreferrer noopener nofollow">courtesy of 2K</a>. </p>
+
+
+
+<p>Other wrestlers for future seasons of the ringside pass will be announced at a later date. Once they are, however, they will be added to this story.</p>
+
+
+
+
+
+
+
+<p>WWE 2K26 launches on March 6 on PlayStation 5, Xbox Series X|S, Nintendo Switch 2, and PC for those with the <a href="https://insider-gaming.com/wwe-2k26-pricing-revealed-for-all-editions/" id="172964" target="_blank" rel="noreferrer noopener">higher-tiered versions</a> of the game. Those with the standard edition have to wait until March 13 to play.</p>
+
+
+
+<h2 id="h-wwe-2k26-roster">WWE 2K26 Roster</h2>
+
+
+
+<h2>A</h2>
+
+
+
+<ul>
+<li>Abyss</li>
+
+
+
+<li>Adam Pearce</li>
+
+
+
+<li>Adrian Butler</li>
+
+
+
+<li>Afa</li>
+
+
+
+<li>AJ Lee</li>
+
+
+
+<li>AJ Styles</li>
+
+
+
+<li>Akira Tozawa</li>
+
+
+
+<li>Alba Fyre</li>
+
+
+
+<li>Aleister Black</li>
+
+
+
+<li>Alex Shelley</li>
+
+
+
+<li>Alexa Bliss</li>
+
+
+
+<li>Alicia Taylor</li>
+
+
+
+<li>Alundra Blayze</li>
+
+
+
+<li>Andre Chase</li>
+
+
+
+<li>Andre The Giant</li>
+
+
+
+<li>Angel</li>
+
+
+
+<li>Angelo Dawkins</li>
+
+
+
+<li>Apollo Crews</li>
+
+
+
+<li>Armando Alejandro Estrada</li>
+
+
+
+<li>Asuka</li>
+
+
+
+<li>Austin Theory</li>
+
+
+
+<li>Ava</li>
+
+
+
+<li>Axiom</li>
+</ul>
+
+
+
+<h2>B</h2>
+
+
+
+<ul>
+<li>B-Fab</li>
+
+
+
+<li>Batista</li>
+
+
+
+<li>Bayley</li>
+
+
+
+<li>Becky Lynch</li>
+
+
+
+<li>Berto</li>
+
+
+
+<li>Bianca Belair</li>
+
+
+
+<li>Big E</li>
+
+
+
+<li>Big Poppa Pump</li>
+
+
+
+<li>Billy Graham</li>
+
+
+
+<li>Billy Gunn</li>
+
+
+
+<li>Blake Monroe</li>
+
+
+
+<li>Bobby Heenan</li>
+
+
+
+<li>Boogeyman</li>
+
+
+
+<li>Booker T (Announcer model)</li>
+
+
+
+<li>Booker T</li>
+
+
+
+<li>Bray Wyatt</li>
+
+
+
+<li>Bret Hart</li>
+
+
+
+<li>British Bulldog</li>
+
+
+
+<li>Brock Lesnar</li>
+
+
+
+<li>Bron Breakker</li>
+
+
+
+<li>Bronson Reed</li>
+
+
+
+<li>Brooks Jensen</li>
+
+
+
+<li>Brother Love</li>
+
+
+
+<li>Brutus Creed</li>
+
+
+
+<li>Bubba Ray Dudley</li>
+
+
+
+<li>Bull Nakano</li>
+
+
+
+<li>Byron Saxton</li>
+</ul>
+
+
+
+<h2>C</h2>
+
+
+
+<ul>
+<li>Cactus Jack</li>
+
+
+
+<li>Candice LeRae</li>
+
+
+
+<li>Captain Lou Albano</li>
+
+
+
+<li>Carmelo Hayes</li>
+
+
+
+<li>Cathy Kelley</li>
+
+
+
+<li>Chad Gable</li>
+
+
+
+<li>Chad Patton</li>
+
+
+
+<li>Channing Lorenzo</li>
+
+
+
+<li>Charles Robinson</li>
+
+
+
+<li>Charlie Dempsey</li>
+
+
+
+<li>Charlotte Flair</li>
+
+
+
+<li>Chelsea Green</li>
+
+
+
+<li>Chip Danning</li>
+
+
+
+<li>Chris Sabin</li>
+
+
+
+<li>Chyna</li>
+
+
+
+<li>CM Punk</li>
+
+
+
+<li>“American Nightmare” Cody Rhodes</li>
+
+
+
+<li>Corey Graves</li>
+
+
+
+<li>Cruz Del Toro</li>
+</ul>
+
+
+
+<h2>D</h2>
+
+
+
+<ul>
+<li>D-Von Dudley</li>
+
+
+
+<li>D’Lo Brown</li>
+
+
+
+<li>Dallas Irvin</li>
+
+
+
+<li>Damian Priest</li>
+
+
+
+<li>Dan Engler</li>
+
+
+
+<li>Danilo Anfibio</li>
+
+
+
+<li>Daphanie LaShaunn</li>
+
+
+
+<li>Demon Finn Balor</li>
+
+
+
+<li>Derek Sanders</li>
+
+
+
+<li>Dexter Lumis</li>
+
+
+
+<li>Diamond Dallas Page</li>
+
+
+
+<li>Diesel</li>
+
+
+
+<li>Doink The Clown</li>
+
+
+
+<li>Dominik Mysterio</li>
+
+
+
+<li>Dragon Lee</li>
+
+
+
+<li>Drew McIntyre</li>
+
+
+
+<li>Dude Love</li>
+
+
+
+<li>Dusty Rhodes</li>
+</ul>
+
+
+
+<h2>E</h2>
+
+
+
+<ul>
+<li>Eddie Guerrero</li>
+
+
+
+<li>Eddie Orengo</li>
+
+
+
+<li>El Grande Americano</li>
+
+
+
+<li>El Hijo del Vikingo – Ringside Pass Season 1</li>
+
+
+
+<li>Elton Prince</li>
+
+
+
+<li>Eric Bischoff</li>
+
+
+
+<li>Erick Rowan</li>
+
+
+
+<li>Erik</li>
+
+
+
+<li>Ethan Page</li>
+
+
+
+<li>Eve Torres</li>
+</ul>
+
+
+
+<h2>F</h2>
+
+
+
+<ul>
+<li>Faarooq</li>
+
+
+
+<li>Fallon Henley</li>
+
+
+
+<li>Felix Hernandez</li>
+
+
+
+<li>Finn Bálor</li>
+
+
+
+<li>Flammer – Ringside Pass Season 1</li>
+</ul>
+
+
+
+<h2>G</h2>
+
+
+
+<ul>
+<li>Gary Wilson</li>
+
+
+
+<li>Giulia</li>
+
+
+
+<li>Goldberg</li>
+
+
+
+<li>Grayson Waller</li>
+
+
+
+<li>Gunther</li>
+</ul>
+
+
+
+<h2>H</h2>
+
+
+
+<ul>
+<li>Haku</li>
+
+
+
+<li>Hank Walker</li>
+
+
+
+<li>Hollywood Hogan</li>
+
+
+
+<li>Honky Tonk Man</li>
+
+
+
+<li>Hulk Hogan</li>
+
+
+
+<li>Hunter Hearst Helmsley</li>
+</ul>
+
+
+
+<h2>I</h2>
+
+
+
+<ul>
+<li>Ilja Dragunov</li>
+
+
+
+<li>Ivar</li>
+
+
+
+<li>Ivy Nile</li>
+
+
+
+<li>Iyo Sky</li>
+
+
+
+<li>Izzi Dame</li>
+</ul>
+
+
+
+
+
+
+
+<h2>J</h2>
+
+
+
+<ul>
+<li>Jacob Fatu</li>
+
+
+
+<li>Jacy Jayne</li>
+
+
+
+<li>Jade Cargill</li>
+
+
+
+<li>Jaida Parker</li>
+
+
+
+<li>Jamal</li>
+
+
+
+<li>Jason Ayers</li>
+
+
+
+<li>Jazmyn Nyx</li>
+
+
+
+<li>JBL</li>
+
+
+
+<li>JC Mateo</li>
+
+
+
+<li>JD McDonagh</li>
+
+
+
+<li>Je’Von Evans</li>
+
+
+
+<li>Jean Paul Levesque</li>
+
+
+
+<li>Jeremy Macus</li>
+
+
+
+<li>Jesse Ventura</li>
+
+
+
+<li>Jessika Carr</li>
+
+
+
+<li>Jey Uso</li>
+
+
+
+<li>Jim Neidhart</li>
+
+
+
+<li>Jimmy Hart</li>
+
+
+
+<li>Jimmy Uso</li>
+
+
+
+<li>Joaquin Wilde</li>
+
+
+
+<li>Joe Gacy</li>
+
+
+
+<li>Joe Hendry</li>
+
+
+
+<li>Joey Gonzalez</li>
+
+
+
+<li>John Cena</li>
+
+
+
+<li>John Cone</li>
+
+
+
+<li>Johnny Gargano</li>
+
+
+
+<li>Jordynne Grace</li>
+
+
+
+<li>Josh Briggs</li>
+
+
+
+<li>Julius Creed</li>
+
+
+
+<li>Junkyard Dog</li>
+</ul>
+
+
+
+<h2>K</h2>
+
+
+
+<ul>
+<li>Kairi Sane</li>
+
+
+
+<li>Kane</li>
+
+
+
+<li>Karmen Petrovic</li>
+
+
+
+<li>Kelani Jordan</li>
+
+
+
+<li>Ken Shamrock</li>
+
+
+
+<li>Kevin Nash</li>
+
+
+
+<li>Kevin Owens</li>
+
+
+
+<li>Kiana James</li>
+
+
+
+<li>Kit Wilson</li>
+
+
+
+<li>Kofi Kingston</li>
+
+
+
+<li>Kurt Angle</li>
+</ul>
+
+
+
+<h2>L</h2>
+
+
+
+<ul>
+<li>LA Knight</li>
+
+
+
+<li>Lash Legend</li>
+
+
+
+<li>Lex Luger</li>
+
+
+
+<li>Lexis King</li>
+
+
+
+<li>Lita</li>
+
+
+
+<li>Liv Morgan</li>
+
+
+
+<li>Logan Paul</li>
+
+
+
+<li>Lola Vice</li>
+
+
+
+<li>Ludwig Kaiser</li>
+
+
+
+<li>Lyra Valkyria</li>
+</ul>
+
+
+
+<h2>M</h2>
+
+
+
+<ul>
+<li>Mankind</li>
+
+
+
+<li>Mark Henry</li>
+
+
+
+<li>Maryse</li>
+
+
+
+<li>Maxxine Dupri</li>
+
+
+
+<li>Michael Cole</li>
+
+
+
+<li>Michelle McCool</li>
+
+
+
+<li>Michin</li>
+
+
+
+<li>Mike Rome</li>
+
+
+
+<li>Miss Elizabeth</li>
+
+
+
+<li>Molly Holly</li>
+
+
+
+<li>Montez Ford</li>
+
+
+
+<li>Mosh</li>
+
+
+
+<li>Mr. Fuji</li>
+
+
+
+<li>Mr. Iguana – Ringside Pass Season 1</li>
+
+
+
+<li>Mr. Perfect</li>
+
+
+
+<li>Myles Borne</li>
+</ul>
+
+
+
+<h2>N</h2>
+
+
+
+<ul>
+<li>Naomi</li>
+
+
+
+<li>Natalya</li>
+
+
+
+<li>Nathan Frazer</li>
+
+
+
+<li>New Jack</li>
+
+
+
+<li>Nia Jax</li>
+
+
+
+<li>Nick Aldis</li>
+
+
+
+<li>Nikki Bella</li>
+
+
+
+<li>Nikki Cross</li>
+
+
+
+<li>Nikkita Lyons</li>
+
+
+
+<li>Noam Dar</li>
+</ul>
+
+
+
+<h2>O</h2>
+
+
+
+<ul>
+<li>Oba Femi</li>
+
+
+
+<li>Omos</li>
+
+
+
+<li>Original El Grande Americano</li>
+
+
+
+<li>Otis</li>
+</ul>
+
+
+
+<h2>P</h2>
+
+
+
+<ul>
+<li>Pat McAfee</li>
+
+
+
+<li>Paul Bearer</li>
+
+
+
+<li>Paul Heyman</li>
+
+
+
+<li>Paul Orndorff</li>
+
+
+
+<li>Penta</li>
+
+
+
+<li>Pete Dunne</li>
+
+
+
+<li>Piper Niven</li>
+
+
+
+<li>Psycho Clown – Ringside Pass Season 1</li>
+</ul>
+
+
+
+<h2>R</h2>
+
+
+
+<ul>
+<li>R-Truth</li>
+
+
+
+<li>Randy Orton</li>
+
+
+
+<li>Réy Fenix</li>
+
+
+
+<li>Rey Mysterio</li>
+
+
+
+<li>Rhea Ripley</li>
+
+
+
+<li>Ricky Saints</li>
+
+
+
+<li>Road Dogg</li>
+
+
+
+<li>Roman Reigns</li>
+
+
+
+<li>Roxanne Perez</li>
+
+
+
+<li>Rusev</li>
+</ul>
+
+
+
+<h2>S</h2>
+
+
+
+<ul>
+<li>Sami Zayn</li>
+
+
+
+<li>Sandman</li>
+
+
+
+<li>Santos Escobar</li>
+
+
+
+<li>Scott Hall</li>
+
+
+
+<li>Scott Steiner</li>
+
+
+
+<li>Sensational Sherri</li>
+
+
+
+<li>Seth “Freakin” Rollins</li>
+
+
+
+<li>Shawn Bennett</li>
+
+
+
+<li>Shawn Michaels</li>
+
+
+
+<li>Shawn Spears</li>
+
+
+
+<li>Sheamus</li>
+
+
+
+<li>Shinsuke Nakamura</li>
+
+
+
+<li>Sid Justice</li>
+
+
+
+<li>Sika</li>
+
+
+
+<li>Sol Ruca</li>
+
+
+
+<li>Solo Sikoa</li>
+
+
+
+<li>Stacy Keibler</li>
+
+
+
+<li>Stephanie McMahon</li>
+
+
+
+<li>Stephanie Vaquer</li>
+
+
+
+<li>“Stone Cold” Steve Austin</li>
+
+
+
+<li>Syxx</li>
+</ul>
+
+
+
+<h2>T</h2>
+
+
+
+<ul>
+<li>Talla Tonga</li>
+
+
+
+<li>Tama</li>
+
+
+
+<li>Tama Tonga</li>
+
+
+
+<li>Tank Ledger</li>
+
+
+
+<li>Tatum Paxley</li>
+
+
+
+<li>Tavion Heights</li>
+
+
+
+<li>Teddy Long</li>
+
+
+
+<li>Terry Funk</li>
+
+
+
+<li>The Fiend</li>
+
+
+
+<li>The Great Khali</li>
+
+
+
+<li>The Great Muta</li>
+
+
+
+<li>The Hurricane</li>
+
+
+
+<li>The Iron Sheik</li>
+
+
+
+<li>The Miz</li>
+
+
+
+<li>The Rock</li>
+
+
+
+<li>Thea Hail</li>
+
+
+
+<li>Thrasher</li>
+
+
+
+<li>Tiffany Stratton</li>
+
+
+
+<li>Tito Santana</li>
+
+
+
+<li>Tommaso Ciampa</li>
+
+
+
+<li>Tonga Loa</li>
+
+
+
+<li>Tony D’Angelo</li>
+
+
+
+<li>Trick Williams</li>
+
+
+
+<li>Triple H</li>
+
+
+
+<li>Trish Stratus</li>
+
+
+
+<li>Tyler Bate</li>
+
+
+
+<li>Tyler Breeze</li>
+</ul>
+
+
+
+<h2>U</h2>
+
+
+
+<ul>
+<li>Ultimate Warrior</li>
+
+
+
+<li>Umaga</li>
+
+
+
+<li>Uncle Howdy</li>
+
+
+
+<li>Undertaker</li>
+</ul>
+
+
+
+<h2>V</h2>
+
+
+
+<ul>
+<li>Vader</li>
+
+
+
+<li>Victoria</li>
+
+
+
+<li>Victoria D’Ericco</li>
+</ul>
+
+
+
+<h2>W</h2>
+
+
+
+<ul>
+<li>Wade Barrett</li>
+
+
+
+<li>Wade Barrett (Announcer model)</li>
+
+
+
+<li>Wendy Choo</li>
+
+
+
+<li>William Regal</li>
+
+
+
+<li>Wren Sinclair</li>
+</ul>
+
+
+
+<h2>X</h2>
+
+
+
+<ul>
+<li>X-Pac</li>
+
+
+
+<li>Xavier Woods</li>
+</ul>
+
+
+
+<h2>Y</h2>
+
+
+
+<ul>
+<li>Yokozuna</li>
+
+
+
+<li>Yoshiki Inamura</li>
+</ul>
+
+
+
+<h2>Z</h2>
+
+
+
+<ul>
+<li>Zaria</li>
+
+
+
+<li>Zelina Vega</li>
+
+
+
+<li>Zoey Stark</li>
+</ul>
+
+
+
+<hr>
+
+
+
+<h2 id="h-non-playable-roster-members">Non-Playable Roster Members</h2>
+
+
+
+<h2>A</h2>
+
+
+
+<ul>
+<li>Adrian Butler (Referee)</li>
+
+
+
+<li>Alicia Taylor (Ring Announcer)</li>
+
+
+
+<li>Armando Alejandro Estrada (Manager)</li>
+
+
+
+<li>Ava (Manager)</li>
+</ul>
+
+
+
+<h2>B</h2>
+
+
+
+<ul>
+<li>Bobby Heenan (Manager)</li>
+
+
+
+<li>Booker T (Announcer)</li>
+
+
+
+<li>Brother Love (Manager)</li>
+
+
+
+<li>Byron Saxton (Announcer)</li>
+</ul>
+
+
+
+<h2>C</h2>
+
+
+
+<ul>
+<li>Captain Lou Albano (Manager)</li>
+
+
+
+<li>Cathy Kelley (Announcer)</li>
+
+
+
+<li>Chad Patton (Referee)</li>
+
+
+
+<li>Charles Robinson (Referee)</li>
+
+
+
+<li>Chip Danning (Referee)</li>
+
+
+
+<li>Corey Graves (Announcer)</li>
+</ul>
+
+
+
+<h2>D</h2>
+
+
+
+<ul>
+<li>Dallas Irvin (Referee)</li>
+
+
+
+<li>Dan Engler (Referee)</li>
+
+
+
+<li>Danilo Anfibio (Referee)</li>
+
+
+
+<li>Daphanie LaShaunn (Referee)</li>
+
+
+
+<li>Derek Sanders (Referee)</li>
+</ul>
+
+
+
+<h2>E</h2>
+
+
+
+<ul>
+<li>Eddie Orengo (Referee)</li>
+</ul>
+
+
+
+<h2>F</h2>
+
+
+
+<ul>
+<li>Felix Hernandez (Referee)</li>
+</ul>
+
+
+
+<h2>G</h2>
+
+
+
+<ul>
+<li>Gary Wilson (Referee)</li>
+</ul>
+
+
+
+<h2>J</h2>
+
+
+
+<ul>
+<li>Jason Ayers (Referee)</li>
+
+
+
+<li>Jeremy Macus (Referee)</li>
+
+
+
+<li>Jessika Carr (Referee)</li>
+
+
+
+<li>Jimmy Hart (Manager)</li>
+
+
+
+<li>Joey Gonzalez (Referee)</li>
+
+
+
+<li>John Cone (Referee)</li>
+</ul>
+
+
+
+<h2>M</h2>
+
+
+
+<ul>
+<li>Michael Cole (Announcer)</li>
+
+
+
+<li>Mike Rome (Ring Announcer)</li>
+
+
+
+<li>Miss Elizabeth (Manager)</li>
+
+
+
+<li>Mr. Fuji (Manager)</li>
+</ul>
+
+
+
+<h2>P</h2>
+
+
+
+<ul>
+<li>Paul Bearer (Manager)</li>
+
+
+
+<li>Paul Heyman (Manager)</li>
+</ul>
+
+
+
+<h2>R</h2>
+
+
+
+<ul>
+<li>Rod Zapata (Referee)</li>
+
+
+
+<li>Ryan Tran (Referee)</li>
+</ul>
+
+
+
+<h2>S</h2>
+
+
+
+<ul>
+<li>Shawn Bennett (Referee)</li>
+</ul>
+
+
+
+<h2>T</h2>
+
+
+
+<ul>
+<li>Teddy Long (Manager)</li>
+</ul>
+
+
+
+<h2>V</h2>
+
+
+
+<ul>
+<li>Victoria D’Ericco (Referee)</li>
+</ul>
+
+
+
+<h2>W</h2>
+
+
+
+<ul>
+<li>Wade Barrett (Announcer)</li>
+</ul>
+
+
+        <div>
+                  <p>
+                    Mike has been covering the gaming industry since 2012, and has reported on some of the largest events in the industry while also working as an investigative reporter. Outside of…                  </p>
+                  <p><a href="https://insider-gaming.com/author/mike-straw/">
+                    More from Mike Straw                  </a>
+                </p></div>
+            
+
+    <div id="ig-app-cta">
+          <p><i></i> MOBILE APP</p>
+          <h2>Level Up Your Gaming News</h2>
+          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
+          
+          <p><i></i> Available on iOS &amp; Android</p>
+        <!-- <div class="ig-note"><i class="fa-solid fa-bolt"></i> Available on Android</div> -->
+
+        </div>
+
+    
+    
+    </div>
+
+</article><div id="post-container">
+            
+                    <div>
+                        <a href="https://insider-gaming.com/campaign-progression-details-revealed-for-forza-horizon-6/">
+                            
+                        </a>
+
+                        <h2>
+                            <a href="https://insider-gaming.com/campaign-progression-details-revealed-for-forza-horizon-6/">
+                                Campaign Progression Details Revealed For Forza Horizon 6                            </a>
+                        </h2>
+
+                        <p>Playground Games has revealed a host of new details surrounding the campaign and progression for Forza Horizon 6.</p>
+                    </div>
+
+                    
+                    <div>
+                        <a href="https://insider-gaming.com/wwe-2k26-ringside-pass-pricing-details/">
+                            
+                        </a>
+
+                        <h2>
+                            <a href="https://insider-gaming.com/wwe-2k26-ringside-pass-pricing-details/">
+                                WWE 2K26 Ringside Pass Pricing Details                            </a>
+                        </h2>
+
+                        <p>New details have been revealed about WWE 2K26‘s Ringside Pass. Pricing will be akin to NBA 2K.</p>
+                    </div>
+
+                    
+                    <div>
+                        <a href="https://insider-gaming.com/shrouded-sky-update-notes-arc-raiders/">
+                            
+                        </a>
+
+                        <h2>
+                            <a href="https://insider-gaming.com/shrouded-sky-update-notes-arc-raiders/">
+                                Shrouded Sky Update Notes—Weather Project, New ARC Enemies, and Free Raider Deck                            </a>
+                        </h2>
+
+                        <p>Embark Studios has confirmed what’s coming in the major Shrouded Sky update in ARC Raiders. Get the full update notes here.</p>
+                    </div>
+
+                    
+                    <div>
+                        <a href="https://insider-gaming.com/resident-evil-requiem-leakers-deserve-a-thousand-deaths-says-ex-capcom-director/">
+                            
+                        </a>
+
+                        <h2>
+                            <a href="https://insider-gaming.com/resident-evil-requiem-leakers-deserve-a-thousand-deaths-says-ex-capcom-director/">
+                                Resident Evil Requiem Leakers ‘Deserve A Thousand Deaths’, Says Ex-Capcom Director                            </a>
+                        </h2>
+
+                        <p>If you’ve spoiled Resident Evil Requiem, you’re sure to be on Hideki Kamiya’s bad side, as the legendary developer has lashed out at leakers.</p>
+                    </div>
+
+                                                    </div></div><br/><br/>https://insider-gaming.com/full-wwe-2k26-roster/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Astro Bot Has Hit Its Lowest Price Yet at Amazon]]></title>
+            <link>https://www.ign.com/articles/astro-bot-has-hit-its-lowest-price-yet-at-amazon</link>
+            <guid>1444063</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p data-cy="page-header"><h2 data-cy="article-sub-headline">PS5 users, this is a great time to grab this excellent game for 45% off.</h2></p><div><section data-cy="article-content" data-autopogo="true"><p data-cy="paragraph">PS Direct has just dropped an exciting <a data-cy="styled-link" href="https://www.ign.com/articles/playstation-launches-a-brand-new-promotional-sale-on-ps5-games-accessories-and-more">variety of deals on PlayStation games, accessories, and more</a>, and it looks like Amazon is joining in on the fun, too. The retailer is currently offering an excellent deal on the fantastic PS5-exclusive game <a data-cy="styled-link" href="https://www.ign.com/games/astro-bot">Astro Bot</a>, dropping it down to just $32.99 (<a href="https://zdcs.link/QPxp2m?object_uuid=64b9e711-fa3f-4f2a-b838-fd953f4f9d68&amp;t=article" data-cy="styled-link" data-aps-asin="B0D5SM3K4Q" target="_blank" rel="nofollow">see it here</a>). </p><p data-cy="paragraph">This is 45% off its full list price of $59.99, but more importantly, it appears to be the lowest price it's hit at Amazon so far, according to price tracker <a href="https://camelcamelcamel.com/product/B0D5SM3K4Q" data-cy="styled-link" target="_blank" rel="noopener noreferrer">camelcamelcamel</a>. Previously we saw it drop down to <a data-cy="styled-link" href="https://www.ign.com/articles/the-delightful-astro-bot-for-ps5-is-back-to-its-best-price-at-amazon-and-walmart">$39.97 back at the start of January</a>, so this is a great chance to add it to your library for even less. It's one that's definitely worth the investment, too.</p><h2 data-cy="title2">Astro Bot for $32.99</h2><div id="235769"><div><p><span data-cy="productcard-view-trigger"><div id="235769" data-cy="solo-product-card"><p data-cy="solo-product-name"><h3>Astro Bot PS5</h3></p></div></span></p></div><p data-cy="paragraph">Astro Bot won over many hearts back when it was first released, and for very good reason. Our <a data-cy="styled-link" href="https://www.ign.com/articles/astro-bot-review">review</a> from IGN's Simon Cardy called it, "A collection of endlessly inventive levels and fantastically fun abilities" and said "it delivers joy in spades, never once becoming even remotely dull or repetitive." He even added that, "Team Asobi has crafted a mascot platformer that goes near enough toe-to-toe with Nintendo's best efforts, and that's about as high a compliment as I can give it."</p><p data-cy="paragraph">The praise certainly didn't end there, though. Astro Bot also won <a data-cy="styled-link" href="https://www.ign.com/articles/astro-bot-wins-game-of-the-year-at-the-game-awards-2024">Game of the Year at The Game Awards back in 2024</a>, and took home our top prize as the <a data-cy="styled-link" href="https://www.ign.com/articles/the-best-playstation-game-of-2024">best PlayStation game of 2024</a>. In regard to the latter, IGN's Matt Purslow said, "Astro Bot is a Mario-matching 3D platformer that excels on all fronts: tremendous stage design, intuitive movement, fun power-ups, and a smart approach to combining all of those elements in exciting new ways on each world visited."</p><p data-cy="paragraph">As mentioned before, this isn't the only game deal to explore right now. If you're curious what else PS Direct has to offer at the moment, check out our big <a data-cy="styled-link" href="https://www.ign.com/articles/playstation-launches-a-brand-new-promotional-sale-on-ps5-games-accessories-and-more">rundown of PlayStation's sale,</a> which runs until March 9. This includes plenty more great game deals, including a discount on Ghost of Yotei.</p><p data-cy="paragraph"><em>Hannah Hoolihan is a freelancer who writes with the guides and commerce teams here at IGN.</em></p></div></section><div><h3 data-cy="title3"><svg data-cy="icon-logo" viewBox="0 0 76 24" title="IGN"><title>IGN Logo</title><path fill="currentColor" stroke="none" d="M5.38 7.65a7.85 7.85 0 0 1 2.26-2.26c.13-1.18.31-2.26.52-3.21a10.605 10.605 0 0 0-6 6c.95-.22 2.03-.39 3.21-.52M16.34 5.36v.02c.9.59 1.67 1.37 2.27 2.27 1.18.13 2.26.31 3.21.52a10.627 10.627 0 0 0-6.02-6.01c.22.95.4 2.02.54 3.2M7.64 18.62c-.9-.59-1.67-1.37-2.27-2.27h-.03c-1.19-.14-2.26-.32-3.19-.54 1.07 2.75 3.26 4.95 6.01 6.02-.22-.95-.39-2.03-.52-3.21M18.64 16.35h-.03c-.59.9-1.37 1.67-2.27 2.27v.03c-.14 1.17-.32 2.25-.54 3.19a10.59 10.59 0 0 0 6.03-6.03c-.94.22-2 .4-3.19.54M10.04 0h3.9c.85 1.85 1.2 4.59 1.3 5.52.04.22.06.43.06.63L12 9.11 8.7 6.15c0-.17.02-.35.05-.55.1-.95.43-3.75 1.29-5.61M8.7 17.83c0 .17.02.35.05.55.1.95.43 3.75 1.29 5.61h3.9c.85-1.84 1.2-4.59 1.3-5.52.04-.22.06-.43.06-.64L12 14.87l-3.3 2.96ZM6.16 8.68c-.17 0-.35.02-.55.05-.95.12-3.75.45-5.61 1.31v3.9c1.84.85 4.59 1.19 5.52 1.3.22.04.43.06.64.06L9.11 12 6.16 8.7ZM24 10.02c-1.86-.86-4.66-1.19-5.61-1.29-.2-.03-.38-.05-.55-.05l-2.96 3.3 2.96 3.3c.2 0 .41-.02.64-.06.93-.11 3.68-.45 5.52-1.3v-3.9Z"></path><path fill="currentColor" stroke="none" d="M42.83 13.9V10h10.45c1.06 0 1.93.86 1.93 1.92v4.63c0 2.38-1.91 4.36-4.33 4.36h-6.69c-4.96 0-8.97-4-8.97-8.94s4.04-8.95 8.98-8.95h10.36v4.11H44.2c-2.67 0-4.86 2.17-4.86 4.84s2.16 4.83 4.86 4.83h6.91v-2.91h-8.27ZM33.86 3h-4.07v16.02c0 1.05.86 1.91 1.91 1.91h2.15V3M74.37 3.01h-2.18v13.81s0 .08-.03.11a.29.29 0 0 1-.24.14c-.09 0-.16-.04-.25-.15L64.83 4.93a4.347 4.347 0 0 0-3.72-2.11h-.07c-2.39 0-4.32 1.93-4.32 4.32v11.88c0 1.05.86 1.91 1.91 1.91h2.17V7.14s.02-.09.04-.13a.29.29 0 0 1 .24-.14c.09 0 .18.03.24.14l6.88 12.07c.76 1.27 2.12 2.05 3.69 2.05h.07c2.39 0 4.32-1.93 4.32-4.32V4.92c0-1.05-.85-1.91-1.91-1.91"></path></svg>Recommends</h3></div></div><div><h3 data-cy="object-summary-embed-title">In This Article</h3></div></div><br/><br/>https://www.ign.com/articles/astro-bot-has-hit-its-lowest-price-yet-at-amazon]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Super Mario Odyssey Drops Back Down to Black Friday Pricing, Now Just $30 on Nintendo Switch]]></title>
+            <link>https://www.ign.com/articles/super-mario-odyssey-drops-back-down-to-black-friday-pricing-now-just-30-on-nintendo-switch</link>
+            <guid>1444057</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p data-cy="page-header"><h2 data-cy="article-sub-headline">That's an excellent deal.</h2></p><div><section data-cy="article-content" data-autopogo="true"><p data-cy="paragraph">It’s hard to believe the Nintendo Switch’s first year gave us The Legend of Zelda: Breath of the Wild and <a data-cy="styled-link" href="https://www.ign.com/games/super-mario-odyssey"><u>Super Mario Odyssey</u></a> just a few months apart, but it really was a fantastic start for the system. So fantastic in fact, that both of which feature as <a data-cy="styled-link" href="https://www.ign.com/articles/the-100-best-nintendo-games-of-all-time#picks-20-1">#2 and #3 in our top 100 Nintendo games of all time list</a>.</p><p data-cy="paragraph">We’ve got good news as well, as Super Mario Odyssey has dropped back down to its Black Friday pricing at <a href="https://zdcs.link/Qb8xlG?object_uuid=2015dd06-83f0-4e56-92e9-ef9f5689950c&amp;t=article" data-cy="styled-link" target="_blank" rel="nofollow">Best Buy, and is now just $29.99 in its latest video game sale</a>. That's 50% off, and one of the best Switch deals of the year so far.</p><div id="231518"><div><p><span data-cy="productcard-view-trigger"><div id="231518" data-cy="solo-product-card"><p data-cy="solo-product-name"><h3>Super Mario Odyssey</h3></p></div></span></p></div><p data-cy="paragraph">Given its size and scope, that’s a big deal, and it’s still the most recent 3D Mario platformer we’ve got. This huge 3D adventure pairs Mario with Cappy, a fun new character who allows Mario to transform into characters, enemies, and inanimate objects alike, opening up the sandbox of each of its distinct worlds to fun puzzles.</p><p data-cy="paragraph">With the arrival of the Switch 2, the game looks better than ever. There’s improved image quality, particularly when playing on TV, and HDR support added. The update is free, too.</p><p data-cy="paragraph"><a data-cy="styled-link" href="https://www.ign.com/articles/2017/10/26/super-mario-odyssey-review"><u>In our review</u></a>, Ryan McCaffrey awarded a ‘Masterpiece’ score of 10 out of 10, and said, “Super Mario Odyssey is a brilliant adventure and love letter to the series that made Nintendo a household name.”</p><p data-cy="paragraph">One of the most recent <a data-cy="styled-link" href="https://www.ign.com/articles/the-latest-super-mario-galaxy-movie-poster-has-big-super-mario-odyssey-vibes"><u>trailers for the Super Mario Galaxy movie</u></a> hints at Odyssey worlds being included, and, as we mentioned, the game got a <a data-cy="styled-link" href="https://www.ign.com/articles/nintendo-just-dropped-info-on-a-bunch-of-switch-1-games-that-are-getting-free-performance-upgrades-on-switch-2"><u>free performance upgrade on the Nintendo Switch 2</u></a>.</p><p data-cy="paragraph">The Nintendo development team that worked on Super Mario Odyssey released <a data-cy="styled-link" href="https://www.ign.com/games/donkey-kong-bananza">Donkey Kong Bananza</a> as a Switch 2 exclusive last year year, and it even got nominated for <a data-cy="styled-link" href="https://www.ign.com/articles/clair-obscur-expedition-33-collects-12-the-game-awards-nominations-the-most-in-the-awards-history">Game of the Year</a> as well.</p><p data-cy="paragraph">Robert Anderson is IGN's Senior Commerce Editor and resident deals expert on games, collectibles, trading card games, and more. You can follow him <a href="https://bsky.app/profile/robertliam21.bsky.social" data-cy="styled-link" target="_blank" rel="noopener noreferrer">@robertliam21 on Bluesky</a>.</p><p data-cy="paragraph">This article features contributions from Lloyd Coombes.</p></div></section><div><h3 data-cy="title3"><svg data-cy="icon-logo" viewBox="0 0 76 24" title="IGN"><title>IGN Logo</title><path fill="currentColor" stroke="none" d="M5.38 7.65a7.85 7.85 0 0 1 2.26-2.26c.13-1.18.31-2.26.52-3.21a10.605 10.605 0 0 0-6 6c.95-.22 2.03-.39 3.21-.52M16.34 5.36v.02c.9.59 1.67 1.37 2.27 2.27 1.18.13 2.26.31 3.21.52a10.627 10.627 0 0 0-6.02-6.01c.22.95.4 2.02.54 3.2M7.64 18.62c-.9-.59-1.67-1.37-2.27-2.27h-.03c-1.19-.14-2.26-.32-3.19-.54 1.07 2.75 3.26 4.95 6.01 6.02-.22-.95-.39-2.03-.52-3.21M18.64 16.35h-.03c-.59.9-1.37 1.67-2.27 2.27v.03c-.14 1.17-.32 2.25-.54 3.19a10.59 10.59 0 0 0 6.03-6.03c-.94.22-2 .4-3.19.54M10.04 0h3.9c.85 1.85 1.2 4.59 1.3 5.52.04.22.06.43.06.63L12 9.11 8.7 6.15c0-.17.02-.35.05-.55.1-.95.43-3.75 1.29-5.61M8.7 17.83c0 .17.02.35.05.55.1.95.43 3.75 1.29 5.61h3.9c.85-1.84 1.2-4.59 1.3-5.52.04-.22.06-.43.06-.64L12 14.87l-3.3 2.96ZM6.16 8.68c-.17 0-.35.02-.55.05-.95.12-3.75.45-5.61 1.31v3.9c1.84.85 4.59 1.19 5.52 1.3.22.04.43.06.64.06L9.11 12 6.16 8.7ZM24 10.02c-1.86-.86-4.66-1.19-5.61-1.29-.2-.03-.38-.05-.55-.05l-2.96 3.3 2.96 3.3c.2 0 .41-.02.64-.06.93-.11 3.68-.45 5.52-1.3v-3.9Z"></path><path fill="currentColor" stroke="none" d="M42.83 13.9V10h10.45c1.06 0 1.93.86 1.93 1.92v4.63c0 2.38-1.91 4.36-4.33 4.36h-6.69c-4.96 0-8.97-4-8.97-8.94s4.04-8.95 8.98-8.95h10.36v4.11H44.2c-2.67 0-4.86 2.17-4.86 4.84s2.16 4.83 4.86 4.83h6.91v-2.91h-8.27ZM33.86 3h-4.07v16.02c0 1.05.86 1.91 1.91 1.91h2.15V3M74.37 3.01h-2.18v13.81s0 .08-.03.11a.29.29 0 0 1-.24.14c-.09 0-.16-.04-.25-.15L64.83 4.93a4.347 4.347 0 0 0-3.72-2.11h-.07c-2.39 0-4.32 1.93-4.32 4.32v11.88c0 1.05.86 1.91 1.91 1.91h2.17V7.14s.02-.09.04-.13a.29.29 0 0 1 .24-.14c.09 0 .18.03.24.14l6.88 12.07c.76 1.27 2.12 2.05 3.69 2.05h.07c2.39 0 4.32-1.93 4.32-4.32V4.92c0-1.05-.85-1.91-1.91-1.91"></path></svg>Recommends</h3></div></div><div><h3 data-cy="object-summary-embed-title">In This Article</h3></div></div><br/><br/>https://www.ign.com/articles/super-mario-odyssey-drops-back-down-to-black-friday-pricing-now-just-30-on-nintendo-switch]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[The Winter Olympics Featured a Mortal Kombat Figure Skating Routine You Have to Watch]]></title>
+            <link>https://www.ign.com/articles/the-winter-olympics-featured-a-mortal-kombat-figure-skating-routine-you-have-to-watch</link>
+            <guid>1444054</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><section data-cy="article-content" data-autopogo="true"><p data-cy="paragraph">A pair of figure skaters at the Winter Olympics performed a brilliant tribute to <a data-cy="styled-link" href="https://www.ign.com/games/mortal-kombat">Mortal Kombat</a> during the event's final days that's well worth a watch. </p><p data-cy="paragraph">The routine was created by Georgian skaters Anastasiia Metelkina and Luka Berulava, who used their appearance in the Olympics' more lighthearted Exhbition Gala to skate while dressed up as Kitana and Sub-Zero. </p><p data-cy="paragraph">Together, the duo traded fake punches to the fighting game franchise's classic Techno Syndrome music. Thankfully there was no actual blood or fatalities on the ice, though the routine did end with Sonya's kiss of death. Friendship? Not likely.</p><blockquote data-theme="light"><p data-cy="paragraph" lang="en" dir="ltr">Figure skaters Anastasiia Metelkina and Luka Berulava performed a Mortal Kombat routine at an exhibition gala <a href="https://t.co/FwqvQhgJ5a" data-cy="styled-link" target="_blank" rel="noopener noreferrer">pic.twitter.com/FwqvQhgJ5a</a></p>— SuperSisi (@SuperSisi) <a href="https://twitter.com/SuperSisi/status/2025658098514334052?ref_src=twsrc%5Etfw" data-cy="styled-link" target="_blank" rel="noopener noreferrer">February 22, 2026</a></blockquote> <p data-cy="paragraph">"Dude," <a href="https://www.reddit.com/r/Fighters/comments/1rb8bb5/skaters_anastasiia_metelkina_and_luka_berulava/" data-cy="styled-link" target="_blank" rel="noopener noreferrer">reddit</a> user Filmmakernick wrote, "this made me cry. Maybe it's my sentimentality in my old age, but this is something I never thought I'd see on such a grand stage and at the Olympics?! What a cool moment in MK fandom! What a stunning skating routine, too! Loved the costumes and Easter Eggs! It was beautiful, man. :)"</p><p data-cy="paragraph">"No spine rip 2/10," wrote umeys, who was seemingly less impressed. </p><output data-cy="article-video"></output><p data-cy="paragraph">Last year saw the launch of the Mortal Kombat: Legacy Kollection, a collection of numerous classic games in the series, newly-released across PC, Switch, PlayStation and Xbox. </p><p data-cy="paragraph">Up next for the franchise in general is the <a data-cy="styled-link" href="https://www.ign.com/movies/mortal-kombat-ii">Mortal Kombat 2</a> movie, which will see Karl Urban reprise his role as Johnny Cage, beginning on May 8. In December, the film's producer Todd Garner <a data-cy="styled-link" href="https://www.ign.com/articles/i-dont-climb-over-others-to-get-ahead-mortal-kombat-movie-producer-reacts-after-street-fighter-cast-threw-big-shots-at-the-mortal-kombat-2-cast-the-game-awards-2025">responded to a barbed comment made at The Game Awards</a> during an appearance by the cast of this year's rival <a data-cy="styled-link" href="https://www.ign.com/movies/street-fighter-2026">Street Fighter</a> film, currently due for release in October. "I don’t climb over others to get ahead," Garner declared.</p><p data-cy="paragraph"><em>Image credit: Foto Olimpik/NurPhoto via Getty Images</em></p><p data-cy="paragraph"><em>Tom Phillips is IGN's News Editor. You can reach Tom at tom_phillips@ign.com or find him on Bluesky </em><a href="https://bsky.app/profile/tomphillipseg.bsky.social" data-cy="styled-link" target="_blank" rel="noopener noreferrer">@tomphillipseg.bsky.social</a></p></section></div><br/><br/>https://www.ign.com/articles/the-winter-olympics-featured-a-mortal-kombat-figure-skating-routine-you-have-to-watch]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[I Am Processing My Fears By Playing The Magpie Game]]></title>
+            <link>https://aftermath.site/australian-magpie-swooping-video-game/</link>
+            <guid>1444045</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><article>
+      <p>Fun fact: for all the stereotypes Americans have about the dangers of Australian wildlife, few of the most stereotypical creatures present any kind of threat to the average person living their average life here. Sharks, snakes, emus–most of us don't see those killers on a daily basis, because we live in cities and they (mostly) don't. For urban-dwelling Australians, the biggest danger to our health and happiness is instead the most unlikely nemesis: the magpie.</p><figure><iframe width="200" height="113" src="https://www.youtube.com/embed/t6uRhXQGj2U?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="" title="Australian Magpies Singing Compilation - one of the most beautiful bird calls"></iframe></figure><p>A bird that for most of the year gets by looking cool and eating leftover chips, and which has a unique, beautiful call (above), the Australian magpie is much bigger than most other magpies you might be familiar with, depending where you are in the world (another fun fact: Australian magpies aren't Corvids like most others, they're Artamidae). But it's not their stature that makes them a danger. No, it's their <em>swoop</em>.</p><p>Magpies have been living alongside humans in Australia for tens of thousands of years, from indigenous inhabitants to the first European settlements of the 18th century and beyond, and for 8-9 months every year we get along just fine. I say that because, for the other months, a small percentage of the birds become highly aggressive during breeding season, and will spend the springtime months trying to injure, or even peck the eyes out of, every human that walks, runs or rides their bike past a tree that has a magpie nest in it.</p><p>Here's<a href="https://en.wikipedia.org/wiki/Australian_magpie?ref=aftermath.site"> <u>an example of what I'm talking about</u></a>:</p><blockquote>Magpies may engage in an escalating series of behaviours to drive off intruders. Least threatening are alarm calls and distant swoops, where birds fly within several metres from behind and perch nearby. Next in intensity are close swoops, where a magpie will swoop in from behind or the side and audibly "snap" their beaks or even peck or bite at the face, neck, ears or eyes. More rarely, a bird may dive-bomb and strike the intruder's (usually a cyclist's) head with its chest. A magpie may rarely attack by landing on the ground in front of a person and lurching up and landing on the victim's chest and pecking at the face and eyes.</blockquote><p>For decades Australians have tried all kinds of things to deter these strikes, or at least mitigate the damage. As kids, I remember we were told to try drawing eyes (or sticking giant googly eyes) on the back of our bike helmets, because there was a theory that a magpie wouldn't swoop you if it thought you were watching it.</p><p>It doesn't work:</p><figure><iframe width="200" height="150" src="https://www.youtube.com/embed/YGGTcYfrEZU?start=68&amp;feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="" title="Amber and Billo's - Amber vs the Magpie - The Eyes Don't Work"></iframe></figure><p>What about travelling at speed past a magpie's nest, hoping you can simply outrun it?</p><p>Doesn't work:</p><figure><iframe width="113" height="200" src="https://www.youtube.com/embed/RmnbiCTYSOU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="" title="Magpie attacks kid on scooter"></iframe></figure><p>These are funny videos, and let me tell you, seeing this shit happen in real life is just as funny, and because this is happening to <em>them </em>and not to you, you can laugh.</p><p>But when it's happening to you? Jesus Christ. These things are a <em>terror</em>. The whooshing sound of their approach and the clacking of their beak or claws, coming out of <em>nowhere </em>(they only ever swoop from behind) is like a shark attack on land, and as someone who lives near a <em>lot </em>of magpies, I can attest to how eager they are to claw and bite at any exposed skin they can get their beaks on. Example: last year I was swooped while riding to the post office and the bird bit me so hard and fast that it split the top of my ear open; it hurt like hell, but the biggest danger was that when you're riding a bike you don't see or hear these things coming and then CLACK, suddenly there's a part of your ear missing, and you get so startled that you come very close to crashing your bike and doing much more serious damage.</p><p>The only thing I've found that helps is to cover your helmet with zip ties, like this. It doesn't stop magpies from swooping you (how would they know what a zip tie was, they still don't know what bikes are), but it will at least afford a little protection by keeping them at wingtip's distance, and make sure they only swoop you once, and not repeatedly:</p><figure></figure><figure><iframe width="113" height="200" src="https://www.youtube.com/embed/l9VWuIMCNNE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="" title="When Magpies Attack Your Face"></iframe></figure><p>All that,<a href="https://www.youtube.com/watch?v=xVEYcTyj1Do&amp;ref=aftermath.site"> <u>donning my armour like Theoden at Helm's Deep</u></a>, just so I can ride to the shops to buy some milk! Gah, I hate these fuckin birds! And yet for all my past, despite all my hatred for magpies--or, perhaps, <em>because</em> of it–this month I have been learning to live as one of them, to try to understand their ways and what drives them.</p><p>All of which is a very long-winded way of saying I've been playing <em>Pie In The Sky</em>, and it's been great.</p><figure><iframe width="200" height="113" src="https://www.youtube.com/embed/Gba2Byj2iHo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="" title="Pie in the Sky | Launch Trailer | indie.io"></iframe></figure><p>A game where you <em>control </em>a murderous magpie, instead of being its victim, <em>Pie in the Sky</em> has<a href="https://youtu.be/CTc7SHSz2H0?t=674&amp;ref=aftermath.site"> <u>the energy of a weird PS2 game</u></a> and the structure of an early <em>Tony Hawk Pro Skater</em>, dropping you into various, deeply Australian scenarios and asking you to collect letters, prank workers and, most importantly, swoop people.</p><p><em>Pie in the Sky</em> is a largely frustrating thing to play, in that the magpie's controls (especially its swooping boost) are, much like the bird, fast and untamed, and the lo-fi look gets so lo-fi in points that it can be tough to distinguish features in a level or, more importantly, notice good jokes. For a game built on precision controls and stringing moves together to build combos (ala <em>THPS</em>), it can be pretty annoying.</p><p>But it's still a pleasure to be around. The interaction with these levels is just the excuse to indulge in some Australiana,<a href="https://aftermath.site/the-drifter-point-click-adventure-game-lucasarts-king-carpenter-australia/"> <u>an invitation I'm more than happy to indulge in</u></a>. I particularly loved the opening level, a homage to Australia's particular brand of suburban dystopia, though the coffee-obsessed Melbourne stage was also a highlight.</p><p>I will never forgive these birds IRL. But for a few weeks I have, at least, been able to appreciate where they're coming from. If I could have that much flying through the sky, knocking bins over and terrorising AFL fans, I'd probably be an asshole of a bird as well.</p><figure><div></div><figcaption><p><span>Seeing 'CARKED IT' (aka, 'YOU DIED') in a video game felt bizarrely patriotic </span></p></figcaption></figure>
+    </article></div><br/><br/>https://aftermath.site/australian-magpie-swooping-video-game/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[New Microsoft gaming chief has "no tolerance for bad AI"]]></title>
+            <link>https://arstechnica.com/gaming/2026/02/new-microsoft-gaming-chief-has-no-tolerance-for-bad-ai/</link>
+            <guid>1444015</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+          
+          
+<h2>A gaming education</h2>
+<p>Unlike Spencer, who spent years at Microsoft Game Studios before heading Microsoft’s gaming division, Sharma has no professional experience in the video game industry. And her personal experience with Xbox also seems somewhat limited; after sharing her Gamertag on social media over the weekend, curious gamers found that <a href="https://www.windowscentral.com/gaming/xbox/newly-named-xbox-ceo-asha-sharma-has-shared-her-gamertag-so-what-is-she-playing-and-why-does-it-matter">her Xbox play history dates back roughly one month</a>. That’s also in stark contrast to Spencer, who has <a href="https://www.xbox.com/en-US/play/user/p3">amassed a score of over 121,000</a> across decades of play.</p>
+<p>In her interview with Variety, Sharma cited <a href="https://arstechnica.com/gaming/2016/02/firewatch-review-getting-lost-in-the-remote-wilderness-and-loving-it/">2016’s <em>Firewatch</em></a> as an example of the kinds of games with “deep emotional resonance” and “a distinct point of view” that she’s looking for from Microsoft. And on social media, Sharma <a href="https://x.com/asha_shar/status/2025259405948895268">shared her list</a> of the three greatest games ever: “<em>Halo</em>, <em>Valheim</em>,<em> Goldeneye</em>,” for what it’s worth. Sharma also seems to be taking recommendations for games to catch up on; after <a href="https://x.com/asha_shar/status/2025266343143243917">saying on social media</a> that she would try <em>Borderlands 2</em>, the game <a href="https://www.xbox.com/en-US/play/user/AMRAHSAHSA">appeared in her recently played games</a> over the weekend.</p>
+<figure>
+    <div id="caption-2142197"><p>
+              A look at some of Sharma’s recently played Xbox games, as of this writing.
+                              </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      A look at some of Sharma’s recently played Xbox games, as of this writing.
+
+              <span>
+          Credit:
+
+                      <a href="https://www.xbox.com/en-US/play/user/AMRAHSAHSA" target="_blank">
+          
+          Xbox.com
+
+                      </a>
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>Being a personal fan of video games isn’t necessarily required to succeed in running a gaming company. Nintendo President Hiroshi Yamauchi <a href="https://www.nintendolife.com/news/2013/09/feature_hiroshi_yamauchi_the_man_who_made_nintendo">famously didn’t care for video games</a> even as he launched the Famicom and Nintendo Entertainment System to worldwide success in the 1980s. Still, the lack of direct experience with the gaming world marks a sharp change after Spencer’s long tenure at a time when Microsoft is struggling to redefine the Xbox brand amid <a href="https://arstechnica.com/gaming/2024/07/xbox-console-sales-continue-to-crater-with-massive-42-revenue-drop/">cratering hardware sales</a>, a <a href="https://news.xbox.com/en-us/2024/11/14/this-is-an-xbox/">pivot away from software exclusives</a>, and a move to <a href="https://arstechnica.com/gaming/2025/10/rog-xbox-ally-x-the-ars-technica-review/">extend the Xbox brand to many different devices</a>.</p>
+<p>Xbox President and COO Sarah Bond, who by all accounts was being set up to succeed Spencer, also announced her departure from Microsoft on Friday, ending a nearly nine-year stint as <a href="https://arstechnica.com/gaming/2024/02/microsoft-says-its-taking-four-unnamed-xbox-games-to-the-other-consoles/">a public face</a> for the company’s gaming efforts. <a href="https://www.theverge.com/tech/883015/microsoft-xbox-new-ceo-shakeup-notepad">The Verge reports</a> that Bond caused a lot of friction within the Xbox team when she championed the “Xbox Everywhere” strategy and “This is an Xbox” marketing campaign, which focused on streaming Xbox games to hardware like mobile phones and tablets, according to anonymous sources. Shortly before the launch of that campaign in 2024, Microsoft lost marketing executives <a href="https://www.gamedeveloper.com/business/xbox-restructures-marketing-team-as-chief-jerret-west-departs-for-roblox">Jerrett West</a> and <a href="https://www.windowscentral.com/gaming/xbox/exclusive-xbox-cvp-kareem-choudhry-is-leaving-microsoft-amid-a-large-xbox-leadership-shake-up">Kareem Choudry</a>, leading to significant internal reorganization.</p>
+<p>Longtime Xbox Game Studios executive <a href="https://arstechnica.com/gaming/2024/05/microsoft-shuts-down-bethesdas-hi-fi-rush-redfall-studios/">Matt Booty</a>, whose history in the game industry dates back to working for Williams Electronics in the ’90s, has been promoted to executive vice president and chief content officer for Xbox and “will continue working closely with [Sharma] to ensure a smooth transition,” Microsoft said in its announcement Friday.</p>
+
+
+          
+                  </div></div><br/><br/>https://arstechnica.com/gaming/2026/02/new-microsoft-gaming-chief-has-no-tolerance-for-bad-ai/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[Ubisoft Taps Senior Assassin’s Creed IV: Black Flag Devs to Lead the Assassin’s Creed Brand Into the Future]]></title>
             <link>https://wccftech.com/ubisoft-taps-senior-assassins-creed-black-flag-devs-to-lead-assassins-creed-future/</link>
@@ -737,7 +2924,7 @@ The screenshots may suggest artists doodling at random, but those single screen 
 </section></header><div><section>
 <figure data-uuid="67abd8e026ba1"><a title="Xenoblade Chronicles X: Definitive Edition - Nintendo Switch 2 Edition" href="https://images.nintendolife.com/67abd8e026ba1/xenoblade-chronicles-x-definitive-edition-nintendo-switch-2-edition.large.jpg"></a><figcaption><em><span></span> Image: Nintendo Life</em></figcaption></figure><p>Colour us surprised, and delighted, when <a href="https://www.nintendolife.com/games/nintendo-switch-2/xenoblade-chronicles-x-definitive-edition-nintendo-switch-2-edition">Xenoblade Chronicles X: Definitive Edition - Nintendo Switch 2 Edition</a> dropped last week. Silky smooth 60fps with updated textures and resolutions? Count us in.</p>
 <p>And while, initially, we were in awe of how Mira looked on the newest Nintendo console, as time has gone on, and fans have been digging into the update, some are disappointed, reportedly asking Nintendo to refund the $5 NS2E, <a href="https://www.eurogamer.net/nintendo-is-issuing-refunds-for-xenoblade-chronicles-x-definitive-edition-poorly-received-premium-switch-2-edition-upgrade">Eurogamer reports</a>.</p>
-<p>The problems are largely related to handheld play, where fans speculate that a "filter" or upscaler has been used to improve the textures. But it hasn't really worked in some cases, with some saying that the game looks worse that the Switch 1 version.</p><div><figure data-videoid="h10LJgMQyAc" data-start="0" data-src="https://www.youtube.com/embed/h10LJgMQyAc?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><div><iframe id="yth10LJgMQyAc" title="YouTube Video" data-src-fallback="https://www.youtube-nocookie.com/embed/h10LJgMQyAc?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/h10LJgMQyAc?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed562d82riqgzh&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><p>Subscribe to <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1">Nintendo Life</a> on <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1"><span>YouTube</span><span>842k</span></a></p>
+<p>The problems are largely related to handheld play, where fans speculate that a "filter" or upscaler has been used to improve the textures. But it hasn't really worked in some cases, with some saying that the game looks worse that the Switch 1 version.</p><div><figure data-videoid="h10LJgMQyAc" data-start="0" data-src="https://www.youtube.com/embed/h10LJgMQyAc?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><div><iframe id="yth10LJgMQyAc" title="YouTube Video" data-src-fallback="https://www.youtube-nocookie.com/embed/h10LJgMQyAc?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/h10LJgMQyAc?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed562d82zosnwh&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><p>Subscribe to <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1">Nintendo Life</a> on <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1"><span>YouTube</span><span>842k</span></a></p>
 </div></figure></div>
 <p><a href="https://www.youtube.com/watch?v=mvMtsLXxXMM">GVG</a> has highlighted some shimmering and texture issues throughout, both in docked and handheld — though the latter is much more prominent. <a href="https://www.youtube.com/watch?v=ZHHuuGyOspA">SwitchUp</a> spotted some shimmering on character and enemy shadows. Depending on how sensitive you are to some of this, you might not notice too many issues, but there are some here, and many aren't happy.</p>
 <p>Over on <a href="https://www.reddit.com/r/Xenoblade_Chronicles/comments/1racsik/nintendo_is_refunding_xenoblade_x_upgrade_patch/">Reddit</a>, some have managed to snag a refund, with others claiming the Switch 2 edition looks worse than the Wii U version. We wouldn't go <em>that</em> far — and we think in docked the game looks and runs beautifully, for the most part — but it's clear people are unhappy.</p>
@@ -746,10 +2933,10 @@ The screenshots may suggest artists doodling at random, but those single screen 
 <p>Docked, the NS2E is great, and the 60fps boost might be worth it alone. And in handheld, we could eventually look past some of the bigger upscaling issues because we were running around so much. But when you start to focus in on some of the details, you can spot the problems.</p>
 <hr>
 <p><em>Are you unhappy with Xenoblade Chronicles X: Definitive Edition's Switch 2 upgrade? Let us know in the comments.</em></p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:197722,197721 @ 1771869605 -->
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:197722,197721 @ 1771873213 -->
 </section>
 <p>[source <a title="External Link: https://www.eurogamer.net/nintendo-is-issuing-refunds-for-xenoblade-chronicles-x-definitive-edition-poorly-received-premium-switch-2-edition-upgrade" rel="noopener" href="https://www.eurogamer.net/nintendo-is-issuing-refunds-for-xenoblade-chronicles-x-definitive-edition-poorly-received-premium-switch-2-edition-upgrade">eurogamer.net</a>]</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-info/fc54e734f27098609c296308458f63c1 @ 1771870649 --></div></article><div><p>Alana has been with Nintendo Life since 2022, and while RPGs are her first love, Nintendo is a close second. She enjoys nothing more than overthinking battle strategies, characters, and stories. She also wishes she was a Sega air pirate.</p><ul><li><a href="https://www.nintendolife.com/authors/AlanaHagues"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/alanahagues.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('AlanaHagues');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-info/fc54e734f27098609c296308458f63c1 @ 1771874112 --></div></article><div><p>Alana has been with Nintendo Life since 2022, and while RPGs are her first love, Nintendo is a close second. She enjoys nothing more than overthinking battle strategies, characters, and stories. She also wishes she was a Sega air pirate.</p><ul><li><a href="https://www.nintendolife.com/authors/AlanaHagues"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/alanahagues.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('AlanaHagues');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
 </div></div></div><br/><br/>https://www.nintendolife.com/news/2026/02/fans-are-asking-nintendo-to-refund-xenoblade-chronicles-xs-switch-2-upgrade]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
@@ -787,710 +2974,6 @@ The screenshots may suggest artists doodling at random, but those single screen 
 			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
 
 		</div></div><br/><br/>https://wccftech.com/tencent-reportedly-shut-down-open-world-developer-timi-montreal-studio/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Assassin’s Creed Vets Who Led Black Flag And Origins Now In Charge Of Series]]></title>
-            <link>https://kotaku.com/assassins-creed-black-flag-vets-leading-frnachise-series-vantage-new-games-2000672792</link>
-            <guid>1443925</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-              
-              <p>Four months after the former head of <em>Assassin’s Creed</em> abruptly exited the company <a href="https://kotaku.com/assassins-creed-lawsuit-ubisoft-marc-alexis-cote-hexe-2000660833">after allegedly being forced out</a>, Ubisoft has tapped three veterans of the series who have worked on or led entries like <em>Origins, Black Flag, </em>and <em>Revelations </em>to take charge of the franchise inside its new Tencent-backed home at Vantage Studios.</p> <p>On February 23, <a href="https://news.ubisoft.com/en-us/article/3cKfpuehIapKJglmjn3EdM/new-leadership-team-set-to-shape-the-next-era-of-assassins-creed">Ubisoft announced</a> that Martin Schelling, Jean Guesdon, and François de Billy are being handed the keys to <em>Assassin’s Creed</em>, the French publisher’s very successful and long-running historical-based open-world stealth action franchise. These three have been connected with <em>Assassin’s Creed</em> for many, many years and have been involved in some of the franchise’s most popular games.</p>
-
- <p>Schelling is now the head of the<em> Assassin’s Creed</em> brand. Ubisoft says he’ll be responsible for the “overall strategy and long-term vision” of the series. Previously, he was Ubisoft’s chief production officer after spending 17 years in various production roles on games like<em> Assassin’s Creed Revelations, Black Flag, Origins, </em>and <em>Valhalla.</em></p> <p>François de Billy has been named <em>Assassin’s Creed</em>‘ “Head of Production Excellence,” which is a wild title to put on a resume. François was the production director on <em>Assassin’s Creed Black Flag, Origins, </em>and <em>Valhalla.</em> Before that, he was an associate producer on <em>Assassin’s Creed 2</em> and later an executive producer of the brand. Ubisoft says that in this role he will “optimize processes and remove friction across complex production workflows” for the franchise. Sounds like François de Billy is here to help the series avoid delays.</p>
-
- <p>Finally, Jean Guesdon has been named the head of content for <em>Assassin’s Creed</em>. He’ll lead the franchise’s “overall creative direction” while supporting “individual games” and guiding the “future of <em>Assassin’s Creed</em>.” Previously, Guesdon was the creative director on <em>Assassin’s Creed Black Flag</em> and <em>Origins</em>. Interestingly, this is essentially the same role he had at Ubisoft for many years while working on numerous titles.</p>
-
- <p>He previously left Ubisoft for Behaviour Interactive back in 2023. At the time, <a href="https://kotaku.com/assassins-creed-black-flag-origins-minecraft-ubisoft-1850095545"><em>Kotaku</em> reported</a> he had been leading development on a new, <em>Minecraft</em>-like voxel-based game called “Renaissance” that had yet to be announced. It was described by sources back then as being one of the more promising IPs incubating within Ubisoft at the time, with the possibility of appealing to existing fans of franchises like<em> The Sims</em> and <em>Animal Crossing</em>. But it later became <a href="https://web.archive.org/web/20250602045705/https://mp1st.com/news/report-inside-ubisofts-project-renaissance-a-cancelled-minecraft-like-voxel-game">a casualty of Ubisoft’s ongoing development struggles</a>, especially around creating new IP.</p> <h2>Ubisoft has multiple <em>Assassin’s Creed</em> games in development</h2> <p>Schelling, de Billy, and Guesdon are now set to fill a void created by recent departures, including Marc-Alexis Côté’s break with the company in 2025 after leading <em>Assassin’s Creed</em> for nearly 20 years. He is <a href="https://kotaku.com/former-assassins-creed-boss-says-he-didnt-jump-ubisoft-pushed-2000636542">suing the publisher for a forced dismissal</a>, but Ubisoft claims he was offered a leadership role at Vantage Studios and declined it.</p>
-
- <p>It is very clear that Ubisoft leadership wants to ensure that arguably its biggest, most important franchise continues to be popular and grow. In recent years, the series has struggled to tell a larger meta-narrative and ship on time. There have also been plans to intertwine future installments as part of a larger initiative, but those plans have so far seemed half-baked. 2025’s <em>Assassin’s Creed Shadows</em> was a big hit for Ubisoft, helping keep the company afloat as it <a href="https://kotaku.com/ubisoft-earnings-layoffs-delays-canceled-ai-2000661869">limped towards a massive buyout with Tencent.</a></p> <p>The ramifications of that deal have been lots of layoffs and cancelled projects. It has also created new co-owned subsidiaries, like Vantage Studios, that are now in charge of Ubisoft’s big franchises like <em>Rainbow Six </em>and <em>Assassin’s Creed</em>. In a recent <a href="https://variety.com/2026/gaming/news/ubisoft-ceo-interview-yves-guillemot-layoffs-creative-house-1236667500/">interview with <em>Variety</em></a>, Ubisoft boss Yves Guillemot said there are multiple <em>Assassin’s Creed</em> games, including both multiplayer and single-player titles, currently in development. One of those is the<a href="https://kotaku.com/assassin-s-creed-4-black-flag-remake-skull-bones-1850596271"> previously reported <em>Black Flag</em> remake</a>.</p>
-                          </div></div><br/><br/>https://kotaku.com/assassins-creed-black-flag-vets-leading-frnachise-series-vantage-new-games-2000672792]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Today’s Wordle #1711: Hints and Answer for February 24, 2026]]></title>
-            <link>https://insider-gaming.com/todays-wordle-1711-hints-answer-february-24-2026/</link>
-            <guid>1443922</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-        
-<p>Wordle challenges players to guess a fresh five-letter word each day in six tries or fewer. Whether you’re a beginner or a daily player, today’s tips and strategies can help you solve it faster and maintain your streak—if you’re open to a little extra help. So, if you’ve found yourself stuck with today’s Wordle, don’t worry, below you’ll find some <strong>helpful hints and even the answer for Wordle Game #<strong><strong>1711</strong></strong></strong> <strong>for February 24, 2026</strong></p>
-
-
-
-<p id="block-672014a9-ce75-4ea0-b98d-12b9214dbb53">To play today’s Wordle, <a href="https://www.nytimes.com/games/wordle/index.html" target="_blank" rel="noreferrer noopener">head to the game’s website.</a> If you want to go right to today’s answer without any tips or tricks, you <strong><a href="#h-today-s-wordle-answer-for-game-1711-on-february-24-2026">can click right here</a>.</strong></p>
-
-
-
-
-
-
-
-<p id="block-a3d47262-a89d-4341-93f0-34626756e4b3"><em><strong>IMPORTANT:</strong> The following information includes spoilers on today’s and yesterday’s editions of Wordle. If you don’t want the answer given to you, stop scrolling.</em></p>
-
-
-
-<figure id="block-5f20defe-2f05-4eb9-b880-6af2f94b324d"></figure>
-
-
-
-<h2 id="block-e2995432-719e-4ed6-8fad-a1db37670203">How To Play Wordle</h2>
-
-
-
-<p id="block-da980997-0420-4527-946e-b66c49bf3d07">Wordle is a simple but addictive word puzzle. Each day, players have to guess a five-letter word answer in no more than six attempts. After each guess:</p>
-
-
-
-<ul id="block-d0bea02d-4b9f-4991-b9db-3b35778ff3bf">
-<li>Green letters are correct and in the right position.</li>
-
-
-
-<li>Yellow letters are correct, but in the wrong position.</li>
-
-
-
-<li>Gray letters are not in the word at all.</li>
-</ul>
-
-
-
-<p id="block-5e597b53-af1c-4c06-a00c-6c5a4694e9e0">The goal is to guess the word in as few tries as possible. Daily puzzles keep players coming back for more, making it a fun brain exercise and a popular online trend.</p>
-
-
-
-<p id="block-cd7aaa7f-9491-4ad0-b994-72d0102c5bed">Wordle can only be played on the New York Times website. There is currently no app for you to download the official game.</p>
-
-
-
-<h2 id="block-c6d4979d-f8eb-4473-a011-33019cb8da2c">Wordle Hints For Today, February 24, 2026</h2>
-
-
-
-<p id="block-23b6a5a9-2c25-47c2-a0ea-e23a99c87abd">The Wordle answer for game #1711 will give you a challenge. According to the <a href="https://www.nytimes.com/2026/02/23/crosswords/wordle-review-1711.html" target="_blank" rel="noreferrer noopener nofollow">NY Times Wordle review</a>, today’s answer takes an average of 4.6 out of 6 guesses. That makes it just slightly easier than the 4.8-guess average from February 23.</p>
-
-
-
-<h3 id="block-6777813b-1426-4c21-b507-3024542b4683">General Wordle Hints For February 24</h3>
-
-
-
-<p id="block-b36e160d-6e5e-4dc8-aae9-5352ee681266">Without giving today’s Wordle answer completely away, here are a few helpful hints for today to get you started:</p>
-
-
-
-<ul id="block-5c9f7d28-537c-424b-92c3-2a9906b57178">
-<li><strong>Hint 1:</strong> This word refers to a <strong>person</strong>, not an action or object.</li>
-
-
-
-<li><strong>Hint 2:</strong> It’s most often used in <strong>commercial or transactional contexts</strong>.</li>
-
-
-
-<li><strong>Hint 3:</strong> The role described only exists when <strong>two sides are involved</strong>.</li>
-
-
-
-<li><strong>Hint 4:</strong> You’re more likely to see this word in <strong>contracts, listings, or negotiations</strong> than casual speech.</li>
-</ul>
-
-
-
-<p id="block-7fb794eb-0d89-4f8d-a7cf-082d0148b796">Use these clues to narrow down your guesses and increase your chances of solving <strong>Wordle #1711</strong> <strong>for February 24, 2026.</strong></p>
-
-
-
-<h3 id="block-73a1d2f5-fc2b-49b7-9c10-539e38a2b946">Starter Words For February 24, 2026</h3>
-
-
-
-<p id="block-0853e28e-417e-4720-9526-9f2808a268be">If you want help getting started without having today’s Wordle answer given to you, there are a few starter words worth trying that will help you figure out some included letters. A few starter words that may help are:</p>
-
-
-
-<ul id="block-2ca8fb79-d1a4-43e4-8764-e4d238a3cc97">
-<li>BERRY</li>
-
-
-
-<li>RUBLE</li>
-
-
-
-<li>PAYER</li>
-
-
-
-<li>ROUSE</li>
-</ul>
-
-
-
-<h2 id="h-today-s-wordle-answer-for-game-1711-on-february-24-2026">Today’s Wordle Answer For Game #1711 On February 24, 2026</h2>
-
-
-
-<p id="block-4ee7c8b7-21fe-4613-8d40-bdf10f8881d0">If you’ve tried everything, including using the above hints, and are still stuck, you can find the answer to today’s Wordle below.</p>
-
-
-
-<p id="block-b76151ef-98f3-4c71-a60b-a98dd0409997"><strong>Answer: </strong>BUYER</p>
-
-
-
-<p id="block-0e0094cc-40a6-49a3-a98c-ee90172006ac">If you solved today’s Wordle without our answer, congratulations! If not, take note of the best tips above for tomorrow’s puzzle, and check back daily for more hints.</p>
-
-
-
-<h2 id="block-533370cc-a013-4a5a-896a-c5f325907fa7">What Does Today’s Wordle Answer Mean?</h2>
-
-
-
-<p>BUYER <a href="https://www.dictionary.com/browse/buyer" target="_blank" rel="noreferrer noopener nofollow">is a noun</a> that means “a purchasing agent, as for a department or chain store” or “a person who&nbsp;buys; purchaser.”</p>
-
-
-
-
-
-
-
-<h2 id="block-f2e30ac8-1612-450a-823c-335ce7bed157">Yesterday’s Wordle Answer</h2>
-
-
-
-<p id="block-f109cc5e-d6d4-415d-8d6d-08f0f34fc10b">If you missed the previous game, here’s yesterday’s Wordle answer for <strong>Game #1710 on February 23, 2026</strong></p>
-
-
-
-<p id="block-d4bfa5bc-7b25-45b4-b4ce-faa1410603ee"><strong>Answer:</strong> ATTIC</p>
-
-
-
-<p id="block-284127ec-83a6-447c-acf6-16238986a1d4">While not always the case, looking at previous words can sometimes give you insight into common patterns or letter usage in Wordle puzzles.</p>
-
-
-
-<h2 id="block-44882c9d-d6a6-4e4f-9b1a-8312ae0b3036">When Is The Next Wordle Game After #1711?</h2>
-
-
-
-<p id="block-bc42def5-af74-42a4-abf5-f31a34e53dd6">Wordle games are <strong>updated daily at 12 am or Midnight in your respective time zone</strong>. Information about the next game is often available in the hours before to give players a heads up. The game on <strong>February 25 </strong>will be <strong>Wordle Game #1712.</strong></p>
-
-
-
-<h2 id="block-96ac6df0-5b63-4788-9eff-98ceece739ee">What Is Wordle?</h2>
-
-
-
-<p id="block-cde2c274-bfd9-4d27-a0d9-3ebe6f1ff7f2">Wordle is a daily word puzzle created by Josh Wardle. Initially developed as a prototype in 2013, it wasn’t fully released until 2021. The game challenges players to guess a five-letter word in six tries or fewer, using hints from each attempt to narrow down the answer. Its straightforward concept, accessibility, and the thrill of solving a new puzzle each day helped it surge in popularity by late 2021. The success of Wordle inspired numerous spin-offs and social media challenges, leading to its acquisition by The New York Times in early 2022.</p>
-
-
-
-<hr id="block-ef203a26-29c4-4ff2-9120-b9bbe59cd966">
-
-
-
-<p id="block-9d1c4fad-eba9-422a-a628-5cb7b00aea3b">For even more Insider Gaming delivered straight to your inbox, <a href="https://insider-gaming.com/subscribe" target="_blank" rel="noreferrer noopener">sign up for our weekly newsletter</a></p>
-
-
-        <div>
-                  <p>
-                    Mike has been covering the gaming industry since 2012, and has reported on some of the largest events in the industry while also working as an investigative reporter. Outside of…                  </p>
-                  <p><a href="https://insider-gaming.com/author/mike-straw/">
-                    More from Mike Straw                  </a>
-                </p></div>
-            
-
-    <div id="ig-app-cta">
-          <p><i></i> MOBILE APP</p>
-          <h2>Level Up Your Gaming News</h2>
-          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
-          
-          <p><i></i> Available on iOS &amp; Android</p>
-        <!-- <div class="ig-note"><i class="fa-solid fa-bolt"></i> Available on Android</div> -->
-
-        </div>
-
-    
-    
-    </div></div><br/><br/>https://insider-gaming.com/todays-wordle-1711-hints-answer-february-24-2026/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Shrouded Sky Update Notes—Weather Project, New ARC Enemies, and Free Raider Deck]]></title>
-            <link>https://insider-gaming.com/shrouded-sky-update-notes-arc-raiders/</link>
-            <guid>1443919</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-        
-<p><a href="https://insider-gaming.com/tag/embark-studios/" id="1161">Embark Studios</a> has unveiled what’s coming in the Shrouded Sky update with a full blog post that details <strong>all</strong>. This includes a new player project to build a Weather Monitoring Station, the previously revealed Hurricane map condition, <strong>two </strong>new minor ARC threats, a free Raider Deck, and <strong>more</strong>.</p>
-
-
-
-<p>It’s the most substantial update we’ve had so far in 2026, and it’s the second of the four segments on the <a href="https://insider-gaming.com/tag/arc-raiders/" id="790">ARC Raiders</a> roadmap released earlier this year.</p>
-
-
-
-<p>Check out everything you need to know about Shrouded Sky below.</p>
-
-
-
-
-
-
-
-<h2 id="h-what-s-coming-in-the-shrouded-sky-update">What’s Coming in the Shrouded Sky Update?</h2>
-
-
-
-<p>The heart of Shrouded Sky revolves around the new Hurricane map condition, which presents inclement weather that impacts <strong>everything</strong>. That includes visibility, physics, movement, and environmental hazards. It’s a major map condition that will change how you interact with every environment it lands on.</p>
-
-
-
-<p>That’s also where the new Weather Monitoring System comes into play. This is the Shrouded Sky player project, and it requires users to collect specific materials (not yet revealed) to build the system itself and ‘earn your Raider some rewards’. We’ll have the latest on what’s needed for that tomorrow.</p>
-
-
-
-<p>What we thought was one minor ARC enemy has become <strong>two </strong>new ARC threats. Embark Studios has unveiled <strong>two </strong>ARC enemies, one that flies and another that buzzes around the floor, and both look equally troublesome. Here’s their blurb:</p>
-
-
-
-<blockquote>
-<p>The Firefly is a floating nightmare: an armored flying machine that emits a jet of flame, burning your Raider to a crisp unless you can move quickly or find cover.&nbsp;</p>
-
-
-
-<p>The Comet is a spherical ARC machine that calmly patrols the surface, until it comes across an unsuspecting Raider. You better not let this one get too close – once it sees you, it will lock on with a frightening focus before exploding with a seismic boom.</p>
-</blockquote>
-
-
-
-<figure></figure>
-
-
-
-
-
-
-
-<p>Those looking for sweet rewards can bust their way through the new free Raider Deck, which is themed around the medical profession this time around. It’s called ‘Surgeon’, and it’s reminiscent of an old-timey doctor or nurse get-up. As always, you’ll get these cosmetics by completing the Raider Deck, made accomplishable by completing <strong>Feats</strong>.</p>
-
-
-
-<p>Facial hair is also confirmed to arrive with Shrouded Sky on <strong>February 24</strong>, giving players everywhere a way to adorn their Raiders with a thick scruff. From the word go, you can get stubble, but a full beard can only be unlocked via the Surgeon Raider Deck. In the store, ‘stubble beard’ and ‘thick moustache’ will be available from tomorrow.</p>
-
-
-
-<figure><p>
-<iframe title="Shrouded Sky Update | ARC Raiders" width="500" height="281" src="https://www.youtube.com/embed/xPaKRV76Tlc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-</p></figure>
-
-
-
-
-
-
-
-<p>Dam Battlegrounds has received a major overhaul, and the team at Embark Studios has added the Controlled Access Zone, a high-value loot area. Presently, we don’t know where that is.</p>
-
-
-
-<p>As you can imagine, the rest of the update is comprised of cosmetics bundles, quality-of-life improvements, and some other balancing tweaks.</p>
-
-
-
-<p>What are you most looking forward to from the Shrouded Sky update? Let us know on the <a href="https://discord.com/invite/vwj7zdWxaW">Insider Gaming Discord server</a>.</p>
-
-
-
-
-
-
-
-<hr>
-
-
-
-<p>For more Insider Gaming coverage, check out how <a href="https://insider-gaming.com/bungie-outlines-plans-to-counter-cheaters-in-marathon/">Bungie plans to fight cheaters in Marathon</a></p>
-
-
-        <div>
-              <!-- Row 1: Avatar + Name/Title + Socials -->
-              <div>
-                  <p><span>Written by</span>
-                    
-                                      </p>
-
-                  <p>
-                      Senior Editor and Esports Lead                    </p>
-                                  </div>
-
-              <!-- Row 2: Bio + CTA -->
-                              <div>
-                  <p>
-                    Grant's adoration for gaming started on the Amstrad CPC in 1996. Now, he's a multi-platform expert gamer with a deep love for the industry, a passion for esports, and more…                  </p>
-                  <p><a href="https://insider-gaming.com/author/grant-taylor-hill/">
-                    More from Grant Taylor-Hill                  </a>
-                </p></div>
-                          </div>
-            
-
-    <div id="ig-app-cta">
-          <p><i></i> MOBILE APP</p>
-          <h2>Level Up Your Gaming News</h2>
-          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
-          
-          <p><i></i> Available on iOS &amp; Android</p>
-        <!-- <div class="ig-note"><i class="fa-solid fa-bolt"></i> Available on Android</div> -->
-
-        </div>
-
-    
-    
-    </div></div><br/><br/>https://insider-gaming.com/shrouded-sky-update-notes-arc-raiders/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[WWE 2K26 - Hands-On Preview]]></title>
-            <link>https://www.ign.com/articles/wwe-2k26-hands-on-preview</link>
-            <guid>1443913</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><section data-cy="article-content" data-autopogo="true"><p data-cy="paragraph">Every year since WWE 2K22, it’s felt like I write variations of the same opening paragraph, that ultimately end with one simple question: How does an annual sports game top what they did the year before? That question becomes slightly more complicated, though, when some (including myself) consider last year’s entry to be the best it’s ever been. WWE 2K26’s answer is simple: you add more. Lots more. </p>This year, everything is expanded and built upon, and though no one thing feels like a particularly massive swing, every mode comes with incremental additions to make it worth your while. In fact, there was so much that not only does it feel like it’s impossible to summarise concisely, but there wasn’t close to enough time for me to sample everything in my few hours of hands-on time. So if you’re interested in all the new updates to universe mode, community creations, MyFaction or The Island, then I’d suggest this isn’t the preview for you. However, what I will do is focus on the central element that ties it all together and the iterations that interest me the most: the gameplay.<output data-cy="article-video"></output><p data-cy="paragraph">Small adjustments can be felt from the moment the bell rings. Last year’s addition of chain wrestling has been expanded, allowing you to create moments tailored to each wrestler’s sensibilities. With a quick press on the d-pad, you can now select to deploy unique motions, such as a handshake, a rush, or even drawing energy from the crowd. There’s also a more ambiguous ‘approach’ option, which in turn creates a sub-menu that allows you to begin trading blows, engage in chain wrestling, or just have an intense staredown. What may appear to be gimmicky actually works surprisingly well, providing more cinematic actions to appropriately begin anything from a friendly rivalry to a blood feud. Previously, my default was always just to run and attack, but these starting actions now add an extra sprinkle to the already-impressive spectacle simulation. It’s not going to change the way you play, but it successfully adds an extra layer of welcome immersion to each match opening.</p><p data-cy="paragraph">Once the match progresses, things feel very familiar. Match fundamentals work very similarly to WWE 2K25, aside from some subtle alterations to the reversal system (which is now more tied to the stamina wheels) and barricade combat, which now lets you both climb up and duke it out during a balancing act. Most notably for me, though, is the update to the collision mechanics, something that feels like it’s been neglected for a while now. Previously, discarded weapons lying around the ring served little purpose once they’d left your hands, often blending into the environment as decoration with no further impact on gameplay,  But gone are the days of characters clipping through them completely, as in WWE 2K26, dropping a superstar onto steel steps, kendo sticks, or steel chairs matters, with what I assume is a damage level increase and new, realistic reaction animations. Whip Sami Zayn into a cinder block, and it breaks under his weight. Riptide Bron Breakker onto the steel steps, and his body will crumple around its shape. Discarded weapons now have added value and contribute another step forward towards matching the WWE television experience. </p><p>Lift up the ring apron, and your weapon wheel will now have a bag of violence ready to deploy.<span><span>“</span></span></p><p data-cy="paragraph">The standout of these interactive weapons, though, and my personal highlight of WWE 2K26 is actually a brand new addition for the series - something that feels like it should have been around forever, but finally makes its debut this year. Thumbtacks. Lift up the ring apron, and your weapon wheel will now have a bag of violence ready to deploy. Simply pour the dozens of metal pins onto the mat, and you're ready to turn your opponent into a human pin cushion. Tacks aren’t just reserved for finishing moves either. Any slam in the proximity of these nasty spikes will decorate their back, knees, and forehead in silver, helping you finally recreate gloriously violent WWE moments like Cactus Jack’s face-first descent into a pile of the violent objects by a sinister Triple H.</p><p data-cy="paragraph">Thumbtacks, better collision reactions and starting actions, although fun, are all in service of matching the WWE product, as are micro adjustments like the new blood splatter effect that splashes the screen when you or your opponent gets busted wide open. This<em> is</em> ultimately a fighting game, but one that knows which side its bread is buttered. Drama and storytelling are the name of the game, and this year also receives a vital upgrade in its voices, with the additions of Booker T and Wade Barrett to the commentary table. The latter not only offers a different accent to the soundtrack of your actions, but both bring a new sense of excitement that is hard to quantify, but vital to keeping the series sounding fresh.
-</p><output data-cy="article-video"></output><p data-cy="paragraph">From playing, it quickly became clear to me that this year, the moment-to-moment match action has received small but welcome improvements to the already successful formula. But just like in real life, a WWE fan’s appetite for chaos is only satiated with new match types and WWE 2K26, much like last year, lobs four more onto the pile: Three Stages of Hell, I Quit, Dumpster and Inferno matches.</p><p data-cy="paragraph">The Inferno match, which surrounds the ring in a wall of flames, is undoubtedly the most visually impressive addition. Much like its sporadic appearances on WWE over the years, it's certainly a spectacle and a worthwhile inclusion, although, like last year’s Underground addtion, it’s hard for me to invest too much time into a match type that limits your ability to use every inch of the ring, as it always feels less enjoyable to me to conclude a fight in anything but a pinfall or submission. Because of this, I didn’t spend much time in this fiery new mode, but its addition is a welcome one, even if it’s only from a WWE historical perspective.</p><p data-cy="paragraph">The dumpster match also helps fill the gap in WWE’s legacy. In practice, it’s a reskinned version of the casket and ambulance brawls, but it’s hard to see what they could have done differently from a gameplay perspective. It’s also nice for 2K to tick off another match type as developer Visual Concepts slowly but surely works its way through all the crazy concepts we’ve seen throughout WWE’s history, regardless of their real-world success. Although saying that, I would be surprised if we see a Punjabi Prison or Kennel From Hell match anytime soon. Feel free to shock me, though, WWE 2K27.</p><p> The I Quit match doesn’t feel like just another match variation on the pile, but rather its own beast entirely.<span><span>“</span></span></p><p data-cy="paragraph">When it comes to fresh match types, the most exciting addition for me, though, is the long-overdue return of the I Quit match. Notably different from the ever-present submission bout, which just limits the decision to a legal tap, rather than the all-out warfare and humiliation the I Quit match can deliver. Proceedings begin like any other hardcore match, but instead of pinfalls or traditional submissions, the fight will now only end when you or your opponents verbally say "I quit" into the microphone, with the referee also audibly making requests. </p><p data-cy="paragraph">How this works in practice is a quick-time event that demands you master timing on a spinning wheel full of green blocks, which will shrink over time based on the damage you take. Interestingly, unlike some of the other mini games in the series, the aggressor isn’t directly competing for these green blocks; instead, you can place pre-earner blockers to make the timing more difficult. There’s a deliberate strategy to this, and I immediately found myself considering my submission requests more thoughtfully, making sure I had enough banked blockers (earned by performing certain big attacks) before commencing the humiliation routine. You can also increase your chances by using weapons like the kendo stick or steel chair in the submission manoeuvre, once again harking back to classic WWE moments. The I Quit match doesn’t feel like just another match variation on the pile, but rather its own beast entirely.</p><p data-cy="paragraph">All of this year’s adjustments serve the wider presentation of WWE 2K26, and that ever-moving, monolithic WWE dragon they’re always chasing. Make no mistake about it, while the grappling has always and will always be the core of this series, the spectacle of WWE is just as important a part of the package. In my lifetime, we’ve gone from WWF Warzone’s soulless arenas (I can still hear that single voice in the crowd repeatably telling me to open a can) to 1-to-1 representations of pyro-infused, singalong entrances and accurate depictions of the ebbs and flows of a rabid live crowd. I have little doubt that WWE 2K26 is set to be the best the series has ever looked, sounded, and felt, and if you’re a WWE obsessive eager to replicate the pageantry at home, then you’ve never had it better.</p><p data-cy="paragraph"><em>Dale Driver is an Associate Director of Video Programming at IGN. Be thoroughly bored by following him on Bluesky at </em><a href="https://bsky.app/profile/daledriver.bsky.social" data-cy="styled-link" target="_blank" rel="noopener noreferrer"><em>@daledriver.bsky.social</em></a></p></section></div><br/><br/>https://www.ign.com/articles/wwe-2k26-hands-on-preview]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Amazon Has Heavily Discounted Magic: The Gathering’s Final Fantasy Commander Decks This Week]]></title>
-            <link>https://www.ign.com/articles/amazon-has-heavily-discounted-magic-the-gatherings-final-fantasy-commander-decks-this-week</link>
-            <guid>1443910</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p data-cy="page-header"><h2 data-cy="article-sub-headline">Includes the new version of Limit Break.</h2></p><div><section data-cy="article-content" data-autopogo="true"><p data-cy="paragraph"><a data-cy="styled-link" href="https://www.ign.com/games/magic-the-gathering-trading-card-game"><u>Magic: The Gathering</u></a> launched its Final Fantasy set last Summer, and while it feels a lifetime ago with such a fast-moving set release cadence, its Commander Decks live long in the memory.</p><p data-cy="paragraph">All four were solid, and Amazon has most of them discounted right now. Not only does that include the popular Limit Break and Counter Blitz decks, but <a href="https://zdcs.link/zJ82Mq?object_uuid=8fce6d71-871a-4b64-a38d-843f27eb4c61&amp;t=article" data-cy="styled-link" target="_blank" rel="nofollow"><u>the new version of Limit Break</u></a> with a Promo Card and download code is discounted, too.</p><h2 data-cy="title2">Get Final Fantasy Commander Decks at a Discount Right Now</h2><p data-cy="paragraph">Starting with Limit Break, the new ‘Game Edition’ includes the 100-card Commander deck helmed by Cloud, Ex-SOLDIER, and an exclusive Promo Card, too. It also has a Steam code for the original Final Fantasy 7 (not to be confused with the remake). It’s now $72.99, down from $99.99 (which was admittedly steep anyway).</p><p data-cy="paragraph">If you already have that, or just want to save some Gil, <a href="https://zdcs.link/9yPX0n?object_uuid=8fce6d71-871a-4b64-a38d-843f27eb4c61&amp;t=article" data-cy="styled-link" target="_blank" rel="nofollow"><u>you can pick up the standard edition for $64.45</u></a>, discounted by around five bucks. The deck is equipment-focused, aiming to get your creatures powered up to trigger effects like token generation.</p><span data-cy="poll-view-trigger"></span><p data-cy="paragraph">Whisper it, though: We still think Counter Blitz, the Final Fantasy X deck, is the best of the bunch. Its combination of Tidus and Yuna can use Summons for big power on the board, and manipulate the counters to keep them around indefinitely.</p><p data-cy="paragraph"><a href="https://zdcs.link/z3ORJR?object_uuid=8fce6d71-871a-4b64-a38d-843f27eb4c61&amp;t=article" data-cy="styled-link" target="_blank" rel="nofollow"><u>The deck is down to $48.99</u></a>, a 30% discount from its list price of $69.99.</p><p data-cy="paragraph">Finally, the <a href="https://zdcs.link/zj84Jp?object_uuid=8fce6d71-871a-4b64-a38d-843f27eb4c61&amp;t=article" data-cy="styled-link" target="_blank" rel="nofollow"><u>Final Fantasy 6-themed Revival Trance</u></a> isn’t the most cohesive deck out of the box, but with the right upgrades, it could be really useful. It’s traditionally been discounted right from launch, and it’s got a 30% discount, too.</p><p data-cy="paragraph">That brings it down to $48.75, meaning the only deck from the set not included in the current deals is Final Fantasy XIV’s Scions and Spellcraft - that one is out of stock at the time of writing.</p><p data-cy="paragraph">For more on Magic: The Gathering’s Commander format, be sure to check out our rundown <a data-cy="styled-link" href="https://www.ign.com/articles/magic-the-gathering-commander-precons-best-decks"><u>the best decks you can buy right now</u></a>, as well as <a data-cy="styled-link" href="https://www.ign.com/articles/magic-the-gathering-tmnt-commander-deck-is-a-video-game-homage-packed-with-classic-characters"><u>an early look at the Teenage Mutant Ninja Turtles precon, Turtle Power</u></a>. Also, in case you missed it, it's worth noting that the <a data-cy="styled-link" href="https://www.ign.com/articles/final-fantasy-7-rebirth-nintendo-switch-2-where-to-buy">FF7 Rebirth preorders for Switch 2</a> also include an exclusive MTG x Final Fantasy card as well.</p><div id="235622"><p><span data-cy="productcard-view-trigger"><div id="235622" data-cy="solo-product-card"><p data-cy="solo-product-name"><h3>Final Fantasy VII Rebirth (Switch 2) + MTG - Final Fantasy Promo Card</h3></p></div></span></p><p data-cy="paragraph">Lloyd Coombes is an experienced freelancer in tech, gaming and fitness seen at Polygon, Eurogamer, Macworld, TechRadar and many more. He's a big fan of Magic: The Gathering and other collectible card games, much to his wife's dismay.</p></div></section><div><h3 data-cy="title3"><svg data-cy="icon-logo" viewBox="0 0 76 24" title="IGN"><title>IGN Logo</title><path fill="currentColor" stroke="none" d="M5.38 7.65a7.85 7.85 0 0 1 2.26-2.26c.13-1.18.31-2.26.52-3.21a10.605 10.605 0 0 0-6 6c.95-.22 2.03-.39 3.21-.52M16.34 5.36v.02c.9.59 1.67 1.37 2.27 2.27 1.18.13 2.26.31 3.21.52a10.627 10.627 0 0 0-6.02-6.01c.22.95.4 2.02.54 3.2M7.64 18.62c-.9-.59-1.67-1.37-2.27-2.27h-.03c-1.19-.14-2.26-.32-3.19-.54 1.07 2.75 3.26 4.95 6.01 6.02-.22-.95-.39-2.03-.52-3.21M18.64 16.35h-.03c-.59.9-1.37 1.67-2.27 2.27v.03c-.14 1.17-.32 2.25-.54 3.19a10.59 10.59 0 0 0 6.03-6.03c-.94.22-2 .4-3.19.54M10.04 0h3.9c.85 1.85 1.2 4.59 1.3 5.52.04.22.06.43.06.63L12 9.11 8.7 6.15c0-.17.02-.35.05-.55.1-.95.43-3.75 1.29-5.61M8.7 17.83c0 .17.02.35.05.55.1.95.43 3.75 1.29 5.61h3.9c.85-1.84 1.2-4.59 1.3-5.52.04-.22.06-.43.06-.64L12 14.87l-3.3 2.96ZM6.16 8.68c-.17 0-.35.02-.55.05-.95.12-3.75.45-5.61 1.31v3.9c1.84.85 4.59 1.19 5.52 1.3.22.04.43.06.64.06L9.11 12 6.16 8.7ZM24 10.02c-1.86-.86-4.66-1.19-5.61-1.29-.2-.03-.38-.05-.55-.05l-2.96 3.3 2.96 3.3c.2 0 .41-.02.64-.06.93-.11 3.68-.45 5.52-1.3v-3.9Z"></path><path fill="currentColor" stroke="none" d="M42.83 13.9V10h10.45c1.06 0 1.93.86 1.93 1.92v4.63c0 2.38-1.91 4.36-4.33 4.36h-6.69c-4.96 0-8.97-4-8.97-8.94s4.04-8.95 8.98-8.95h10.36v4.11H44.2c-2.67 0-4.86 2.17-4.86 4.84s2.16 4.83 4.86 4.83h6.91v-2.91h-8.27ZM33.86 3h-4.07v16.02c0 1.05.86 1.91 1.91 1.91h2.15V3M74.37 3.01h-2.18v13.81s0 .08-.03.11a.29.29 0 0 1-.24.14c-.09 0-.16-.04-.25-.15L64.83 4.93a4.347 4.347 0 0 0-3.72-2.11h-.07c-2.39 0-4.32 1.93-4.32 4.32v11.88c0 1.05.86 1.91 1.91 1.91h2.17V7.14s.02-.09.04-.13a.29.29 0 0 1 .24-.14c.09 0 .18.03.24.14l6.88 12.07c.76 1.27 2.12 2.05 3.69 2.05h.07c2.39 0 4.32-1.93 4.32-4.32V4.92c0-1.05-.85-1.91-1.91-1.91"></path></svg>Recommends</h3></div></div><div><h3 data-cy="object-summary-embed-title">In This Article</h3></div></div><br/><br/>https://www.ign.com/articles/amazon-has-heavily-discounted-magic-the-gatherings-final-fantasy-commander-decks-this-week]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Amazon Has Pokémon TCG: Ascended Heroes ETBs in Stock at Market Price Right Now]]></title>
-            <link>https://www.ign.com/articles/pokemon-tcg-ascended-heroes-elite-trainer-box-where-to-buy-updated</link>
-            <guid>1443904</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><section data-cy="article-content" data-autopogo="true"><p data-cy="paragraph">Pokémon TCG Mega Evolution's latest expansion, Ascended Heroes, is (as per usual) increasingly hard to get hold of right now. While <a href="https://zdcs.link/aB8lXE?object_uuid=15c4a37b-37cf-4ae2-aafa-e3462b71917b&amp;t=article" data-cy="styled-link" target="_blank" rel="nofollow">Ascended Heroes cards are now available</a>, stock is painfully low or nonexistent at most major retailers. </p><p data-cy="paragraph">If you're looking to bag yourself an ETB (or several) that sport a rather magnificent Mega Dragonite, now that it's officially 'available', then here's where you can currently pick one up, and what prices to expect at each retailer.</p><div id="234431"><div><p><span data-cy="productcard-view-trigger"><div id="234431" data-cy="solo-product-card"><p data-cy="solo-product-name"><h3>Ascended Heroes - Elite Trainer Box</h3></p></div></span></p></div><ul data-cy="list"><li><a href="https://zdcs.link/QOjX3M?object_uuid=15c4a37b-37cf-4ae2-aafa-e3462b71917b&amp;t=article" data-cy="styled-link" target="_blank" rel="nofollow">TCGplayer</a></li><li><a href="https://zdcs.link/z7R6dn?object_uuid=15c4a37b-37cf-4ae2-aafa-e3462b71917b&amp;t=article" data-cy="styled-link" target="_blank" rel="nofollow">Amazon</a></li><li><a href="https://zdcs.link/9wBVDA?object_uuid=15c4a37b-37cf-4ae2-aafa-e3462b71917b&amp;t=article" data-cy="styled-link" target="_blank" rel="nofollow">Walmart</a></li><li><a href="https://zdcs.link/922XAy?object_uuid=15c4a37b-37cf-4ae2-aafa-e3462b71917b&amp;t=article" data-cy="styled-link" target="_blank" rel="nofollow">Best Buy</a></li><li><a href="https://zdcs.link/QW6m36?object_uuid=15c4a37b-37cf-4ae2-aafa-e3462b71917b&amp;t=article" data-cy="styled-link" target="_blank" rel="nofollow">GameStop</a></li></ul><p data-cy="paragraph">MSRP is $49.99, but the current market price at TCGplayer is listed at around $119. That's a fairly significant drop from what we were seeing near the beginning of the month ($140-$160), and back to the prices we were seeing across January.</p><p data-cy="paragraph">Fans can only hope this doesn't reverse in the coming weeks, and perhaps even continues to drop further. But, in my view, the market price looks to be levelling out at around $115-$120, so if you're desperate and not looking to wait any longer, this is the best time to buy. <a href="https://zdcs.link/aoJXNY?object_uuid=15c4a37b-37cf-4ae2-aafa-e3462b71917b&amp;t=article" data-cy="styled-link" target="_blank" rel="nofollow"><strong>Walmart also currently has the ETB in stock for $60</strong></a><strong>, with access limited to paid </strong><a href="https://zdcs.link/QW6wG7?object_uuid=15c4a37b-37cf-4ae2-aafa-e3462b71917b&amp;t=article" data-cy="styled-link" target="_blank" rel="nofollow"><strong>Walmart+ members</strong></a><strong>.</strong></p></div><div id="192311"><div><p><span data-cy="productcard-view-trigger"><div id="192311" data-cy="solo-product-card"><p data-cy="solo-product-name"><h3>Walmart+ Membership</h3></p></div></span></p></div><p data-cy="paragraph">Compare this to Phantasmal Flames, as that was settling at around $150-$200 in November last year, but has thankfully since come down to around <a href="https://zdcs.link/aX41Xm?object_uuid=15c4a37b-37cf-4ae2-aafa-e3462b71917b&amp;t=article" data-cy="styled-link" target="_blank" rel="nofollow">$80-90 market price</a>, which is <em>much </em>better, a whole lot more what most fans would be happy/ expecting to pay for an ETB these days, even if it is above the original list price. We can only hope that Ascended Heroes follows a similar trend.</p><p data-cy="paragraph">In terms of where to buy, TCGplayer is the most reliable option, but also the most expensive, so proceed only with the knowledge that you're paying a premium. Amazon is sticking to matching market price, so you can find an <a href="https://zdcs.link/aR73XX?object_uuid=15c4a37b-37cf-4ae2-aafa-e3462b71917b&amp;t=article" data-cy="styled-link" target="_blank" rel="nofollow">Ascended Heroes ETB for $119.99</a> there as well.</p></div><div id="234442"><p><span data-cy="productcard-view-trigger"><div id="234442" data-cy="solo-product-card"><p data-cy="solo-product-name"><h3>Ascended Heroes - Elite Trainer Box - Pokemon Center Exclusive</h3></p></div></span></p><p data-cy="paragraph">Finishing up, if you're after the exclusive <a href="https://zdcs.link/znBemG?object_uuid=15c4a37b-37cf-4ae2-aafa-e3462b71917b&amp;t=article" data-cy="styled-link" target="_blank" rel="nofollow">Pokémon Center Elite Trainer Box for Ascended Heroes</a>, you're instead looking at around $242.56 market price right now. </p><p data-cy="paragraph">It's also significantly <em>down </em>compared to its sky high $399 price point I'd seen most recently online, and, according the latest data, has dropped 29.83% at TCGplayer over the past month. </p><p data-cy="paragraph">It's still pretty steep all things considered, but hardly unsurprising with how sought after these exclusive ETBs are, even years after release. Still, at this price, I wouldn't be surprised if more than a few fans snap it up, as it's one of the better resale deals I've seen on a Pokémon Center exclusive ETB.</p><p data-cy="paragraph">That's the <a data-cy="styled-link" href="https://www.ign.com/articles/pokemon-tcg-mega-evolution-ascended-heroes-most-expensive-cards">price of cards</a> on the resale market these days! I'm sure most of us are already quite used to it, even if it's still a mega pricey. That being said, in my opinion, you may be better off waiting for prices to come back down a bit a few months down the line, so a bit of patience may pay off if you can manage it. </p><p data-cy="paragraph">I'd say anywhere around the $100 mark is a good time to buy the standard ETB, but if you can wait a few months longer, hopefully we can see these falling to around $80-$90 as well, just like the Phantasmal Flames ETB has.</p><p data-cy="paragraph">Robert Anderson is Senior Commerce Editor and IGN's resident deals expert on games, collectibles, trading card games, and more. You can follow him <a href="https://x.com/robertliam21" data-cy="styled-link" target="_blank" rel="noopener noreferrer">@robertliam21</a> on Twitter/X or <a href="https://bsky.app/profile/robertliam21.bsky.social" data-cy="styled-link" target="_blank" rel="noopener noreferrer">Bluesky</a>.</p></div></section></div><br/><br/>https://www.ign.com/articles/pokemon-tcg-ascended-heroes-elite-trainer-box-where-to-buy-updated]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Silly Polly Beast version 1.2 update now available, adds third-person camera mode]]></title>
-            <link>https://www.gematsu.com/2026/02/silly-polly-beast-version-1-2-update-now-available-adds-third-person-camera-mode</link>
-            <guid>1443901</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-    <ul>
-    <li><a href="https://www.gematsu.com/platforms/pc">PC</a></li><li><a href="https://www.gematsu.com/platforms/playstation/ps4">PS4</a></li><li><a href="https://www.gematsu.com/platforms/playstation/ps5">PS5</a></li><li><a href="https://www.gematsu.com/platforms/xbox/xbox-one">Xbox One</a></li><li><a href="https://www.gematsu.com/platforms/xbox/xbox-series">Xbox Series</a></li>    </ul>
-
-    
-    <p><span>Available in New Game Plus.</span>
-      </p></div><div><p>Publisher <a title="Companies > Top Hat Studios [56 articles]" href="https://www.gematsu.com/companies/top-hat-studios">Top Hat Studios</a> and developer <a title="Companies > Anji Games [5 articles]" href="https://www.gematsu.com/companies/anji-games">Anji Games</a> have released the version 1.2 update for psychological <a title="Genres > Survival [512 articles]" href="https://www.gematsu.com/genres/survival">survival</a> <a title="Genres > Action [3,426 articles]" href="https://www.gematsu.com/genres/action">action</a> <a title="Genres > Horror [825 articles]" href="https://www.gematsu.com/genres/horror">horror game</a> <em><a title="Games > Silly Polly Beast [5 articles]" href="https://www.gematsu.com/games/silly-polly-beast">Silly Polly Beast</a></em>, which adds a new third-person camera mode. <span id="more-1028490"></span></p><p>Third-person mode is an extra mode available in New Game Plus, and is unlocked after completing the game for the first time. In New Game Plus, you can choose which camera mode to use, and freely switch between them at any point from the options menu. However, some locations are shown in a cinematic view no matter whether you choose the cinematic camera or third-person camera. The update also features several other improvements and quality-of-life features.</p><p><em>Silly Polly Beast</em> is available now for <a title="Platforms > PS5 [11,481 articles]" href="https://www.gematsu.com/platforms/playstation/ps5">PlayStation 5</a>, <a title="Platforms > Xbox Series [8,771 articles]" href="https://www.gematsu.com/platforms/xbox/xbox-series">Xbox Series</a>, <a title="Platforms > PS4 [28,724 articles]" href="https://www.gematsu.com/platforms/playstation/ps4">PlayStation 4</a>, <a title="Platforms > Xbox One [14,412 articles]" href="https://www.gematsu.com/platforms/xbox/xbox-one">Xbox One</a>, and <a title="Platforms > PC [25,576 articles]" href="https://www.gematsu.com/platforms/pc">PC</a> via <a href="https://store.steampowered.com/app/1598780/Silly_Polly_Beast/" target="_blank">Steam</a>.</p><p>Watch a new trailer below.</p><h2><span>Version 1.2 Update Trailer</span></h2><p><iframe title="Silly Polly Beast ► 1.2 Update Trailer (New Game+ third-person camera mode)" width="500" height="281" src="https://www.youtube.com/embed/LPUgrW0HzUE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p><!-- AD: content -->
-        </div></div><br/><br/>https://www.gematsu.com/2026/02/silly-polly-beast-version-1-2-update-now-available-adds-third-person-camera-mode]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[New Report Claims No One, Not Even Those Internally at Xbox, Liked the “Everything is an Xbox” Strategy]]></title>
-            <link>https://wccftech.com/sarah-bond-phil-spencer-no-one-liked-everything-is-an-xbox-strategy/</link>
-            <guid>1443883</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			
-			<p>This past Friday, the video games industry, and more specifically, <strong>Xbox </strong>and <strong>Microsoft</strong>, entered a new era. <a href="https://wccftech.com/microsoft-phil-spencer-retires-sarah-bond-resigns-asha-sharma-takes-over-xbox/">A post-<strong>Phil Spencer</strong> and <strong>Sarah Bond</strong> era</a>, with the announcement of Spencer's retirement and Bond's resignation. Former Microsoft CoreAI chief executive officer, <a href="https://wccftech.com/new-xbox-ceo-targeted-supposedly-using-ai-bot-x/"><strong>Asha Sharma</strong>,</a> took Spencer's place, while <strong>Matt Booty</strong> stepped into a new role as Xbox's chief content officer.</p>
-
-
-
-<p>As the industry and consumers wrap their heads around the sudden shake-up, a new report from <a href="https://www.theverge.com/tech/883015/microsoft-xbox-new-ceo-shakeup-notepad">The Verge</a> looks to provide some insight into why it happened the way it did. Why is Sarah Bond leaving Microsoft instead of being <a href="https://wccftech.com/phil-spencer-retire-following-next-gen-xbox-launch/">the one to replace Phil Spencer?</a> What does this new leadership mean for Xbox's future and its whole 'everything is an Xbox' initiative? Well, according to The Verge, the answer to those questions begins and ends with Sarah Bond and her departure.</p>
-
-
-
-<p>Bond is pinpointed as the one who was pushing Xbox's 'Play Everywhere' campaign <a href="https://wccftech.com/sarah-bond-xbox-palworld/">more than anyone else</a>, and that its 'This is an Xbox' marketing strategy was the result of a few key people leaving Microsoft, leaving Bond directly in charge of the platform's marketing team. When the new campaign started to air, and those loyal to the platform on the consumer side were taken aback and even offended by it, they weren't the only ones.</p>
-
-
-
-<p>The report claims that the campaign "<strong><em>offended many Xbox employees internally</em></strong>," and that the pivot away from a dedicated console to a broader approach focused on cloud and mobile was something that Bond championed under Spencer. It also adds that Bond's departure comes as a relief to employees remaining at Xbox, who claimed that she was "<em>tough to work with, and built a team structure that meant if you didn't follow the vision or questioned it, <strong>you were out</strong></em>." </p>
-
-
-
-<p>That said, she was still praised by her colleagues for the ability to get big deals across the finish line, including the "<em><strong>crucial</strong></em>" role she played in securing the <strong><a href="https://wccftech.com/activision-blizzard-has-been-acquired-by-microsoft-for-70-billion/">Activision Blizzard King</a></strong> deal. But that's about all the praise the report mentions for Bond. </p>
-
-
-
-<p>Everywhere else, she's reported to be the one behind Xbox's devaluing of its own hardware, and now that she and Spencer are out, Sharma's job is to usher in "<em>the return of Xbox</em>," which seems to include major changes and the admittance that what the team had been trying has not been working. </p>
-
-
-
-<p>According to sources from the report, when it became clear that Bond's strategy under Spencer wasn't working after <a href="https://wccftech.com/microsoft-reports-a-9-overall-drop-in-xbox-revenue-for-q2-fy26-hardware-down-32/">declining hardware sales</a> and <a href="https://wccftech.com/xbox-revenues-see-113-million-decline-amid-hardware-sales-drop-and-limited-gaming-content-and-services-growth/">Xbox revenue dropping</a>, staff believed that the departures felt inevitable. </p>
-
-
-
-<p>The report also adds that the author has "<em>the impression from sources that Microsoft wants a turnaround and is worried about losing Xbox, as it's one of its only remaining successful consumer brands</em>." Again, that's just a feeling the writer has based on their conversations with their sources at Xbox, but it's a more positive one than coming away from those talks with the feeling that Sharma is really here to start cutting away at Xbox to make more room for <a href="https://wccftech.com/satya-nadella-admits-transition-into-the-ai-era-could-be-messy-but-does-not-want-microsoft-to-be-left-behind-in-the-tech-race/">Microsoft's AI push</a>.</p>
-
-
-
-<p>As much as this report sets the blame at Bond's feet, where it may very well deserve to rest, the buck stops with Phil Spencer before it stops with her. In a company as big as Microsoft, you'll almost never be able to say that someone acted alone in their mistakes; there's almost always someone else complicit to them. </p>
-
-
-
-<p>If this report is accurate in its claims that Sharma's tenure will turn over a new leaf for Xbox, then the test of that commitment to players will likely come with the reveal of the next major first-party Xbox title, and whether or not it is actually a game exclusive to Xbox.</p>
-
-			
-			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
-
-		</div></div><br/><br/>https://wccftech.com/sarah-bond-phil-spencer-no-one-liked-everything-is-an-xbox-strategy/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[‘Every Time They Buy a Game From Us, They’re Getting a Great Deal’: Clair Obscur: Expedition 33 Publisher Pushes Back Against Regular Price Hikes]]></title>
-            <link>https://wccftech.com/clair-obscur-expedition-33-publisher-pushes-back-price-hikes/</link>
-            <guid>1443880</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			
-			<p>Over the past few months, video gaming has become a rather expensive hobby, with <a data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-style-link dracula-processed" href="https://wccftech.com/ps5-ps5-pro-price-increases-us-tomorrow/"><strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)">hardware</strong></a> and game prices rising consistently, risking pricing out more and more gamers as the worldwide economic situation remains challenging. However, not every publisher is set to increase prices, and some, like <strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)"><em data-dracula_alpha_bg="rgba(0, 0, 0, 0)"><a data-dracula_alpha_bg="rgba(0, 0, 0, 0)" href="https://wccftech.com/review/clair-obscur-expedition-33-dont-fear-the-paintress/">Clair Obscur: Expedition 33</a></em></strong>  publisher <strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)">Kepler Interactive</strong>, are set to continue employing a <strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)">pricing strategy</strong> that is respectful of gamers' money and time.</p>
-
-
-
-<p>Speaking with the <strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)"><a href="https://www.youtube.com/@BBCNews" target="_blank" rel="noreferrer noopener">BBC</a></strong>, <strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)">Kepler Interactive's CEO Alexis Garavaryan</strong> commented on the company's pricing strategy, which has <em data-dracula_alpha_bg="rgba(0, 0, 0, 0)">"kind of taken the opposite action"</em> to what most major publishers have done in recent years.</p>
-
-
-
-<p>Elaborating further, <strong>Garavaryan</strong> said: <em>"When we decide on a release and when we price our video games, we try to think what do we think the price should be and then we price it lower so that when players buy a game from us they feel like they're getting a bargain. We want them to feel like we are respectful of their money, respectful of their time and that fundamentally every time they buy a game from us they're getting a great deal."</em></p>
-
-
-
-<p><em>"We're excited for players to be able to play five, six different experiences with the same amount of money than a traditional AAA game would bring them,"</em> <strong>Kepler Interactive CEO</strong> concluded, delivering <strong>a small ray of hope</strong> amidst the general <strong>price hikes</strong> that show no sign of stopping.</p>
-
-
-
-<figure><p>
-<iframe title="Clair Obscur’s publisher on challenging game prices | BBC News" width="500" height="281" src="https://www.youtube.com/embed/WHu37zviJIg?start=1&amp;feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-</p></figure>
-
-
-
-<p>Looking at the smashing success of <strong><em>Clair Obscur: Expedition 33</em></strong>, whose art style is so convincing that some <strong>authorities in the Middle East</strong> believed the game's artbook <a href="https://wccftech.com/clair-obscur-expedition-33-art-direction-is-so-authentic-it-triggered-a-national-antiquities-investigation/"><strong>belonged in a museum</strong></a>, <strong>Kepler Interactive's</strong> strategy has a high chance to make many of the games it will publish in the future quite popular. </p>
-
-
-
-<p>While reaching the <a href="https://wccftech.com/clair-obscur-expedition-33-most-awarded-game-wccftech-awards-elden-ring/"><strong>same level of popularity</strong></a> as the game developed by <strong>Sandfall Interactive</strong> will be a tall order, gamers have shown time and time again how they are willing to embrace all sorts of gaming experiences if they are of <strong>high quality</strong> and are <strong>priced accordingly</strong>. Hopefully, other publishers will follow suit and prevent video games from becoming something only a few can enjoy.</p>
-
-			
-			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
-
-		</div></div><br/><br/>https://wccftech.com/clair-obscur-expedition-33-publisher-pushes-back-price-hikes/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[New Assassin's Creed "Leadership Team" Revealed by Ubisoft]]></title>
-            <link>https://techraptor.net/gaming/news/new-assassins-creed-leadership-team-revealed</link>
-            <guid>1443877</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><p>Ubisoft has revealed who's going to be looking after the <em>Assassin's Creed </em>franchise from now on, and three figures with plenty of past experience with the series will be taking the reins.</p><p>The announcement, which was made <a href="https://www.reddit.com/r/assassinscreed/comments/1rclibk/an_update_on_the_future_of_assassins_creed_meet/" target="_blank" rel="nofollow">via Reddit</a> earlier today, names Martin Schelling as <em>Assassin's Creed</em>'s new "Head of Brand". Schelling will "lead the franchise team, as well as the overall strategy", according to Ubisoft. He's previously served as producer on games like <em>Black Flag </em>and <em>Valhalla</em>.</p><p>Joining Schelling at the helm of <em>Assassin's Creed </em>is Jean Guesdon, who was creative director on both <em>Black Flag </em>and <em>Origins</em>. He'll now be serving as "Head of Content", which will see him leading the franchise's "creative direction" and shaping its future "while ensuring it remains true to its DNA".</p><figure role="group">
-<picture>
-                  <source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/assassin-s-creed-leadership-team-black-flag.jpg?itok=5UaUdQXj 1x" media="(min-width: 992px)" type="image/jpeg" width="1920" height="1080">
-              <source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/assassin-s-creed-leadership-team-black-flag.jpg?itok=wlYKWMYj 1x" media="(max-width: 991px)" type="image/jpeg" width="1200" height="675">
-                  
-
-  </picture>
-<figcaption><em>Black Flag </em>is a common touchstone for the new <em>Assassin's Creed </em>leadership team.</figcaption>
-</figure>
-<p>The final new <em>Assassin's Creed </em>appointment is Francois de Billy, who will serve in the rather oddly-named role of "Head of Production Excellence".</p><p>Apparently, it'll be de Billy's responsibility to "strengthen production practices and execution across the franchise". He was <em>Origins </em>and <em>Valhalla</em>'s Production Director, and he's also worked on "several major <em>Assassin's Creed </em>titles", including <em>Black Flag </em>and <em>Revelations</em>.</p><p>Between them, these three men will form <em>Assassin's Creed</em>'s new franchise leadership team, and Ubisoft says they'll "bring their expertise, knowledge, and passion to guide <em>Assassin's Creed </em>into its next chapter".</p><p>News of this team's formation comes after longtime <em>Assassin's Creed </em>boss Marc-Alexis Côté <a href="https://techraptor.net/gaming/news/assassins-creed-boss-leaves-ubisoft-report" data-entity-type="node" data-entity-uuid="bedd26ab-2db9-443d-9a58-5d57561ce134" data-entity-substitution="canonical" rel="nofollow">departed Ubisoft back in October</a>, with Côté <a href="https://techraptor.net/gaming/news/ex-assassins-creed-boss-suing-ubisoft" data-entity-type="node" data-entity-uuid="da42bb57-e4f1-4a65-91eb-9ce61dfcfee5" data-entity-substitution="canonical" rel="nofollow">subsequently suing Ubisoft to the tune of more than $1.3 million</a> and claiming "constructive dismissal".</p><figure role="group">
-<picture>
-                  <source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/assassin-s-creed-leadership-team-shadows.jpg?itok=eU3VsIFJ 1x" media="(min-width: 992px)" type="image/jpeg" width="1920" height="1080">
-              <source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/assassin-s-creed-leadership-team-shadows.jpg?itok=iyUWXCIK 1x" media="(max-width: 991px)" type="image/jpeg" width="1200" height="675">
-                  
-
-  </picture>
-<figcaption><em>Assassin's Creed </em>recently lost longtime franchise boss Marc-Alexis Côté.</figcaption>
-</figure>
-<p>The news also comes after Ubisoft <a href="https://techraptor.net/gaming/news/prince-of-persia-sands-of-time-remake-canceled" data-entity-type="node" data-entity-uuid="91d63675-e1f4-4624-a716-79db888eb3c6" data-entity-substitution="canonical" rel="nofollow">announced a major restructuring in January</a>, resulting in the cancellation of the beleaguered <em>Prince of Persia: The Sands of Time </em>remake, as well as <a href="https://techraptor.net/gaming/news/ubisoft-toronto-layoffs-splinter-cell-remake" data-entity-type="node" data-entity-uuid="62d2788d-7dd8-425b-8a67-fe5154e140d9" data-entity-substitution="canonical" rel="nofollow">layoffs</a> and <a href="https://techraptor.net/gaming/news/ubisoft-paris-voluntary-redundancies" data-entity-type="node" data-entity-uuid="46d73c0f-a3ab-4fb0-8104-90ea24dd2897" data-entity-substitution="canonical" rel="nofollow">voluntary redundancies</a> at several studio locations.</p><p>We'll have to wait and see whether the new franchise leadership team can steer <em>Assassin's Creed</em>, and thus Ubisoft, towards the growth and profitability the company craves. Stay tuned for more.</p></div><div><p><span><div>
-       
-    <p>Joe has been writing for TechRaptor for several years, and in those years has learned a lot about the gaming industry and its foibles. He’s originally an… <a href="https://techraptor.net/author/joseph-allen">More about Joseph</a></p>
-  </div></span></p></div></div><br/><br/>https://techraptor.net/gaming/news/new-assassins-creed-leadership-team-revealed]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Pokémon FireRed And LeafGreen Are Topping The EShop Charts Despite Price Backlash]]></title>
-            <link>https://kotaku.com/pokemon-firered-leafgreen-switch-price-release-date-2000672803</link>
-            <guid>1443868</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-              
-              <p><i><span>Pokémon FireRed </span></i><span>and </span><i><span>LeafGreen </span></i><span>are </span><a href="https://kotaku.com/pokemon-fire-red-leaf-green-switch-pokemon-direct-price-2000671938"><span>getting Switch ports on Friday, February 27</span></a><span>. The 22-year-old Game Boy Advance remakes are widely considered the “definitive” editions of the original games thanks to quality-of-life changes and added areas and quest lines. The games aren’t readily available right now, so you’d think this announcement would have been met with universal excitement. But that wasn’t the case, as the $20 ports were deemed too expensive by some. Nevertheless, the games are </span><a href="https://www.nintendo.com/en-gb/Nintendo-eShop/Charts/Nintendo-eShop-charts-1396788.html"><span>topping the eShop charts</span></a><span> already.</span></p> <p><span>I gotta admit, I do find the pearl clutching about the $20 price tag a bit surprising, but in my experience, it’s impossible to have discussions about video game pricing because everyone’s perception of what a dollar is worth is so different. As the </span><a href="https://kotaku.com/game-pricing-indie-steam-peak-content-warning-2000658886"><i><span>Peak </span></i><span>devs explained</span></a><span>, video game pricing is all weird, vibes-based psychology that some companies have figured out and others just kind of ignore.&nbsp;</span></p>
-
- <p><span>$20 is what you might pay for a nice meal that you’ll eat and then forget about, and here it gets you a 30+-hour game. But hey, I don’t know your economic situation, so I can’t speak to what $20 in your bank account means. I’m not here to judge anyone’s perception of money, I’m more concerned about how these conversations don’t seem to take that economic disparity into account.</span></p> <blockquote data-width="500" data-dnt="true"> <p lang="en" dir="ltr">i lowkey dgaf them pokemon game ports cost 20 dollars i have a job why should i care</p> <p>— lil (@adifying) <a href="https://twitter.com/adifying/status/2024824271076233711?ref_src=twsrc%5Etfw">February 20, 2026</a></p></blockquote>  <blockquote data-width="500" data-dnt="true"> <p lang="qst" dir="ltr">lol <a href="https://t.co/L4e7BSIGOL">https://t.co/L4e7BSIGOL</a></p> <p>— TAHK0 ☕️ (@TAHK0) <a href="https://twitter.com/TAHK0/status/2025167322160529765?ref_src=twsrc%5Etfw">February 21, 2026</a></p></blockquote>  <blockquote data-width="500" data-dnt="true"> <p lang="en" dir="ltr">How are both sides of this argument so fucking annoying <a href="https://t.co/moOgMlk9tT">https://t.co/moOgMlk9tT</a></p> <p>— Lost Levels Fan (@LostLevelsFan) <a href="https://twitter.com/LostLevelsFan/status/2025016667923730885?ref_src=twsrc%5Etfw">February 21, 2026</a></p></blockquote>  <blockquote data-width="500" data-dnt="true"> <p lang="en" dir="ltr">whispers: *i actually think $20 for firered is pretty reasonable* 😬</p> <p>— Bob Wulff (@BobWulff) <a href="https://twitter.com/BobWulff/status/2024920916556185689?ref_src=twsrc%5Etfw">February 20, 2026</a></p></blockquote>  <blockquote data-width="500" data-dnt="true"> <p lang="en" dir="ltr">This is literally all you are getting with Pokémon Fire Red and Pokémon Leaf Green.</p> <p>No changes, no online support.</p> <p>This is easily emulated on extremely low powered machines.</p> <p>$20 for a 20 year old Rom and Emulator is a wild price, buy what you want but don't defend it please. <a href="https://t.co/l3OfqiUz00">pic.twitter.com/l3OfqiUz00</a></p> <p>— Protomario (@Protomario) <a href="https://twitter.com/Protomario/status/2025614936450150869?ref_src=twsrc%5Etfw">February 22, 2026</a></p></blockquote>  <blockquote data-width="500" data-dnt="true"> <p lang="en" dir="ltr">People would have complained if FireRed and LeafGreen was put on NSO because they would have wanted to buy it separately. </p> <p>Even if they were $5, people still would have complained.</p> <p>Free or nothing</p> <p>— Johniibo (@johniibo) <a href="https://twitter.com/johniibo/status/2025702770762793441?ref_src=twsrc%5Etfw">February 22, 2026</a></p></blockquote>  <blockquote data-width="500" data-dnt="true"> <p lang="en" dir="ltr">Pokemon Fire Red costs 13 Costco hot dogs.</p> <p>Hard decisions man.</p> <p>— Pory (@pory_leeks) <a href="https://twitter.com/pory_leeks/status/2025737366540009950?ref_src=twsrc%5Etfw">February 23, 2026</a></p></blockquote>  <p><span>I remember once talking to someone about the </span><i><span>Mass Effect: Legendary Edition </span></i><span>remasters, and they flatly said the collection’s $60 price point placed it out of their budget…but $50? That could be the sweet spot. A mere $10 could be the difference between them playing some of their favorite games again on modern hardware and not doing so.</span></p>
-
- <p><i><span>FireRed </span></i><span>and </span><i><span>LeafGreen </span></i><span>were $40 when they launched in 2004, but now if they’re anything short of free on Nintendo Switch Online, it’s the type of greed they talk about in the Bible. The irreconcilable way conflicting people talk about video game prices is born from those economic discrepancies, not everyone makes the same money, but also some people will just view any old game that costs money as a ripoff. It’s an unwinnable, unsolvable problem because everyone’s economic background is different, influenced by factors beyond their control, and is all based in a society that is wringing every cent out of all of us at any given moment. But that truth won’t stop the arguments from continuing, with anyone willing to pay $20 for an old game being deemed a shill and anyone unwilling being called poor. Whatever the case, many people are clearly willing to pay $20 to go back to Kanto again.</span></p>
-                          </div></div><br/><br/>https://kotaku.com/pokemon-firered-leafgreen-switch-price-release-date-2000672803]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Resident Evil Requiem Leakers ‘Deserve A Thousand Deaths’, Says Ex-Capcom Director]]></title>
-            <link>https://insider-gaming.com/resident-evil-requiem-leakers-deserve-a-thousand-deaths-says-ex-capcom-director/</link>
-            <guid>1443865</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-        
-<p>Iconic Capcom, PlatinumGames, and now Clovers dev Hideki Kamiya has commented on Resident Evil Requiem’s leaks, which arose after the game’s physical street date was broken by well over a week.</p>
-
-
-
-<p><a href="https://insider-gaming.com/tag/resident-evil-requiem/" id="2693" target="_blank" rel="noreferrer noopener">Resident Evil Requiem</a> is 2026’s first major AAA game. <a href="https://insider-gaming.com/studios/capcom/" id="87630" target="_blank" rel="noreferrer noopener">Capcom</a>‘s franchise returns to a decimated Raccoon City. The hype has been huge, and the expectations are bigger than a skyscraper made entirely of El Gigantes. Unfortunately, countless buyers were able to get their hands on the game early, and it began a huge wave of Requiem spoilers.</p>
-
-
-
-
-
-
-
-<h2 id="h-hideki-kamiya-not-happy-with-resident-evil-requiem-spoilers">Hideki Kamiya Not Happy With Resident Evil Requiem Spoilers</h2>
-
-
-
-<figure><figcaption>Credit to Capcom</figcaption></figure>
-
-
-
-<p>It’s not uncommon for a game’s physical street date to be broken, resulting in copies of the game being distributed days before launch, but Resident Evil Requiem went out roughly 10 days or more before launch. Leaks were inevitable, and social media was flooded with story spoilers and much more very quickly.</p>
-
-
-
-<ul>
-<li><strong>More Insider Gaming:</strong> <a href="https://insider-gaming.com/resident-evil-requiem-release-date-times/" target="_blank" rel="noreferrer noopener">Resident Evil Requiem Release Date &amp; Start Times</a></li>
-</ul>
-
-
-
-<p>Hideki Kamiya has shared his thoughts on the leaks and used a previous experience to summarize his thoughts. Here’s what he said, according to Google Translate:</p>
-
-
-
-<blockquote>
-<p>“I remember back with Bio2, the late-game plot twist got totally scooped by some photo weekly mag, right… For your own selfish satisfaction, you’re trampling all over the feelings of users who were looking forward to it, and the feelings of the creators who poured their all into making it—a detestable act that destroys everyone’s happiness and deserves a thousand deaths… May you be cursed to never play games again…</p>
-</blockquote>
-
-
-
-
-
-
-
-<p>Kamiya directed Resident Evil 2, the first Devil May Cry, and Bayonetta, and has attached his talents to many other projects. Needless to say, he’s not someone you should want to disrespect.</p>
-
-
-
-<figure><div><blockquote data-width="500" data-dnt="true"><p lang="ja" dir="ltr">確かバイオ2の時も終盤の展開を写真週刊誌にスッパ抜かれたよなー…<br>テメエ個人の利己的な満足のために、楽しみにしてるユーザーの気持ちも、力を尽くして制作したクリエイターの気持ちも踏み躙る、全ての人の幸せを破壊する唾棄すべき行為で、万死に値するだろ…二度とゲームを遊べない呪いにかかれ… <a href="https://t.co/iKueo8axFC">https://t.co/iKueo8axFC</a></p>— 神谷英樹🍀 Hideki Kamiya🍀 (@HidekiKamiya_X) <a href="https://twitter.com/HidekiKamiya_X/status/2025040184614728119?ref_src=twsrc%5Etfw">February 21, 2026</a></blockquote></div></figure>
-
-
-
-<p>Are you one of the many who have been fortunate enough to get the game early? Does the internet need filters to prevent this sort of content from being so easily discoverable? Let us know through the <a href="https://discord.com/channels/1433093283558719611/1433112738133180426" target="_blank" rel="noreferrer noopener">Insider Gaming Discord Server</a>.</p>
-
-
-
-<hr>
-
-
-
-<p>Check out the <a href="https://insider-gaming.com/resident-evil-requiem-review-embargo-date/" target="_blank" rel="noreferrer noopener">Resident Evil Requiem review embargo date</a> for more on the game.</p>
-
-
-        
-            
-
-    <div id="ig-app-cta">
-          <p><i></i> MOBILE APP</p>
-          <h2>Level Up Your Gaming News</h2>
-          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
-          
-          <p><i></i> Available on iOS &amp; Android</p>
-        <!-- <div class="ig-note"><i class="fa-solid fa-bolt"></i> Available on Android</div> -->
-
-        </div>
-
-    
-    
-    </div></div><br/><br/>https://insider-gaming.com/resident-evil-requiem-leakers-deserve-a-thousand-deaths-says-ex-capcom-director/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Bungie Outlines Plans To Counter Cheaters In Marathon]]></title>
-            <link>https://insider-gaming.com/bungie-outlines-plans-to-counter-cheaters-in-marathon/</link>
-            <guid>1443862</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-        
-<p>Bungie has detailed its plans to combat cheating in its upcoming extraction shooter Marathon, outlining a firm strategy designed to safeguard competitive integrity ahead of the game’s March 5, 2026, release.</p>
-
-
-
-
-
-
-
-<p>The <a href="https://insider-gaming.com/tag/marathon/" id="98" target="_blank" rel="noreferrer noopener">Marathon</a> team confirmed that the title will rely on dedicated server-side systems and integrated anti-cheat tools to detect and prevent illicit behaviour. And if those safeguards fail, the studio says offenders can expect swift and serious consequences rather than leniency.</p>
-
-
-
-<h2 id="h-cheaters-will-be-given-no-second-chances">Cheaters Will Be Given ‘No Second Chances’</h2>
-
-
-
-<p><a href="https://insider-gaming.com/tag/bungie/" id="99" target="_blank" rel="noreferrer noopener">Bungie’s</a> stance appears uncompromising: players caught cheating will face decisive enforcement with little opportunity for repeat offences. This contrasts with the more <a href="https://insider-gaming.com/arc-raiders-devs-confirm-punishment-for-dupe-exploits/" id="https://insider-gaming.com/arc-raiders-devs-confirm-punishment-for-dupe-exploits/" target="_blank" rel="noreferrer noopener">forgiving approach</a> seen in rival extraction shooter <a href="https://insider-gaming.com/arc-raiders-shrouded-sky-release-date-start-times-all-content-explained/" id="https://insider-gaming.com/arc-raiders-shrouded-sky-release-date-start-times-all-content-explained/" target="_blank" rel="noreferrer noopener">ARC Raiders</a>, whose developer Embark Studios has historically leaned toward lighter penalties. Bungie’s stricter policy is intended to reassure players that losses during raids should come from legitimate gameplay, not unfair exploits.</p>
-
-
-
-<p>Still, the studio’s primary goal is prevention rather than punishment. Structural design choices aim to reduce cheating opportunities altogether. Because Marathon uses authoritative servers that control player movement, actions, and loot, it should be significantly more resistant to common client-side hacks.</p>
-
-
-
-
-
-
-
-<p>Additional protections include a Fog of War system that limits how much information each player’s client can access at any given time. By restricting what data is visible locally, Bungie hopes to curb tools such as wallhacks or loot-tracking cheats before they can function effectively.</p>
-
-
-
-<p>Bungie also addressed technical disruptions, noting that players disconnected mid-run will be able to rejoin matches. If server-side issues prevent that, the studio says it will attempt to restore lost gear to affected players.</p>
-
-
-
-<p>For more information pertaining to Marathon’s network and security, check out the article in full <a href="https://x.com/MarathonTheGame/status/2025964053194330548" id="https://x.com/MarathonTheGame/status/2025964053194330548" target="_blank" rel="noreferrer noopener">here</a>. </p>
-
-
-
-<hr>
-
-
-
-<p>Do you think these systems will be enough to prevent cheaters running rampant in Marathon? Share your thoughts in the official <a href="https://discord.com/invite/vwj7zdWxaW" id="https://discord.com/invite/vwj7zdWxaW" target="_blank" rel="noreferrer noopener">Insider Gaming Discord Server</a>.</p>
-
-
-
-<p>For more Insider Gaming content, check out the <a href="https://insider-gaming.com/assassin-creed-franchise-announces-new-leadership/" id="https://insider-gaming.com/assassin-creed-franchise-announces-new-leadership/" target="_blank" rel="noreferrer noopener">newly announced Assassin’s Creed leadership team</a>, as well as the <a href="https://insider-gaming.com/nintendo-treehouse-live-featuring-pokopia-announced-for-tomorrow/" id="https://insider-gaming.com/nintendo-treehouse-live-featuring-pokopia-announced-for-tomorrow/" target="_blank" rel="noreferrer noopener">upcoming Nintendo Treehouse Live</a>.</p>
-
-
-        
-            
-
-    <div id="ig-app-cta">
-          <p><i></i> MOBILE APP</p>
-          <h2>Level Up Your Gaming News</h2>
-          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
-          
-          <p><i></i> Available on iOS &amp; Android</p>
-        <!-- <div class="ig-note"><i class="fa-solid fa-bolt"></i> Available on Android</div> -->
-
-        </div>
-
-    
-    
-    </div></div><br/><br/>https://insider-gaming.com/bungie-outlines-plans-to-counter-cheaters-in-marathon/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
