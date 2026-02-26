@@ -4,42 +4,50 @@
         <title>maGaming RSS Feed - www.thesixthaxis.com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/thesixthaxis_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for www.thesixthaxis.com</description>
-        <lastBuildDate>Thu, 26 Feb 2026 16:19:40 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 26 Feb 2026 19:18:04 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Interview – Modding is coming to Rennsport, but how will it work with consoles?]]></title>
-            <link>https://www.thesixthaxis.com/2026/02/26/interview-modding-is-coming-to-rennsport-but-how-will-it-work-with-consoles/</link>
-            <guid>1447042</guid>
+            <title><![CDATA[Highguard gets new Raid Rush mode]]></title>
+            <link>https://www.thesixthaxis.com/2026/02/26/highguard-gets-new-raid-rush-mode/</link>
+            <guid>1447480</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
 	
-		<p>Modding has been around for almost as long as video games themselves, as other curious developers, hackers and fans keenly delving into game code and assets to twist them in new directions. For racing games, the most obvious mods add cars and tracks alongside the existing roster shipped by developers, and the most active modding scenes have been built up around more sim-minded racing games on PC. <a href="https://www.thesixthaxis.com/tag/rennsport">Rennsport</a> is about to ask “why not on console too?”</p>
-<p>As part of the game’s roadmap through 2026 and beyond, Competition Company is going to open up modding to the community, releasing tools to first allow track creation and eventually cars and gameplay modding too. The distinguishing factor between this game and its rivals will be that, in addition to still allowing custom mods on PC, they also plan to bring mod distribution in-game and expose them to console players as well.</p>
-<p>“I think it does a lot for making it feel more seamlessly integrated into the game,” said Senior Lead Technical Artist, Joel Szlema. “For me, it’s a difference if I upload a track and next week it might just show up on the front page as, like, the next race coming up, right? That feels more like you’re directly contributing to the game, rather than put something up that people might find, might download. So it feels very connected in the fact that it’s just directly goes into the game.”</p>
-<p>That’s potentially very exciting. Rennsport already features some community-created tracks that have been licensed by Competition Company to be a part of the game – Crest da Cauras, Orchard Road Street Circuit and the upcoming Kuala Lumpur Street Circuit. However, opening up modding and track distribution more freely will hopefully open the taps for a bunch of further tracks to be introduced, and then be easily discovered and featured in the game.</p>
-<p><iframe title="Kuala Lumpur Street Circuit | NEW TRACK" width="780" height="439" src="https://www.youtube.com/embed/xV0UqpasGdw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
-<p>Joel presented how Rennsport’s modding tools will start off, combining Unreal Engine’s SDK with custom tools created by Competition Company, providing a rounded suite of tools to create new tracks for the game. This will initially be opened up to a small group of creators this summer, before the net is widened in a closed beta, and with a full release pencilled in for the end of 2026. After that, they will turn their attentions to modding cars and modding gameplay, though not necessarily in that order.</p>
+		<p>Wildlight has released a brand new patch for Highguard with the main feature being a brand new mode. That mode is Raid Rush in which two teams of five take turns to defend and attack bases, with the addition that there is no looting phase. Instead, between rounds players will be able to upgrade weapons and equipment by interacting with the Trader at their base, with equipment changing between each round. 3v3 Raids have been disabled while Raid Rush is active.</p>
+<p><iframe title="Gameplay Launch Trailer | Highguard" width="780" height="439" src="https://www.youtube.com/embed/gqFccBZyTaA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
 
-<p>Tracks are an easier starting point for Rennsport to tackle on multiple levels, especially when bearing in mind that mods will also be coming to console. Content needs to be moderated to appear on console, there are limitations to how things can be modded, and that’s all before any kind of licensing issues with car makers and track owners wanting to protect their IP.</p>
-<div id="attachment_469268"><p id="caption-attachment-469268">The Kuala Lumpur circuit is a community-created track coming to Rennsport soon, and this could just be the start</p></div>
-<p>“Once the tracks are done, we will definitely look into probably gameplay next. I feel like gameplay is something that it also naturally goes into, because if you can do tracks and you can you can put a contest config on the track, then you can already do quite a lot of like different experiences, right? Because we do have some tracks that are not like closed loop tracks, so you could do something that looks like a rally stage, for example.”</p>
-<p>“And with that, you could naturally, I mean, it’s kind of a stupid example, but I always bring the example of an obstacle course. You could just make a level that looks like an obstacle course, and it’s A-to-B and it’s still like whoever finishes first finishes first, but you’ve kind of created a different game modes just by making a different track with some gameplay rules.”</p>
-<div id="attachment_469280"><p id="caption-attachment-469280">Placing obstacles or making A-to-B races could be the foundations for new gameplay mods.</p></div>
-<p>With an eye to wider gameplay mods, Joel said, “So in theory, there’s a lot of things you can do [on console]. The only thing is that you have to [make it] safe, that nobody does, like, code injection on console to hack the console or whatever. What you can do is you can create basically like an API, or you can, for example, if you have a spawn point in game, you can build a spawn point like a modular block, you programme it, and then people can like place it in a level, right? Or they can build stuff around it. So you have to do, like, defined building blocks that people can combine to make new logic out of it.</p>
-<p>“Unreal has blueprints where you can, I don’t know if you know, you can programme with nodes or you place a node, like spawn something and press something and you can connect them. And I don’t think we would be able to allow people to use that freely, but if we make our own predefined building blocks, then you could potentially do that.”</p>
 
-<p>One of the major changes to the modding community over the past decade, is that modders are able to ask for some kind of payment, whether it’s through their own subscriptions or one-off payments. Surely that can’t mesh with Rennsport having an in-game browser on consoles, though, can it? Those would need to be free to download?</p>
-<p>“No,” said co-founder and co-CEO Marco Ujhasi. “So there is a difference for the console about the certification process, if it’s paid or unpaid content, that’s true. […] The general principle is when something is created, you can decide if it’s free or if it’s paid, and there is a way on any platform. [It can be] more or less complicated and it’s like with many topics, sometimes it gets so complicated, it’s not worth it, but technically possible.</p>
-<p>“So what we are doing at the moment is, first and foremost, enabling the system and make it make it a fun thing to use. Because I think this is missing a bit, that it really feels like it’s part of the game. It’s not just about bringing the content in, but also what you can do with the content. Is it part of any progression system?</p>
-<p>“And for us, it’s important that it’s really part of the whole game and the monetising? Honestly speaking, this is a side thing in that. But so many creatives sitting out there and talent and so on, and they do so much great stuff while we shouldn’t help them to make it in a more appealing appealing way. Why not?”</p>
+<h2>Highguard Raid Rush update patch notes</h2>
 
-<p>There’s still a lot of aspects of modding and distribution for Competition Company to really hammer out, I feel, but the core principles of having an in-game mod browser and ways to integrate them into the wider game more seamlessly for console is really an exciting one. Alongside the general roadmap of new cars and tracks being made by the team, modding is absolutely an aspect to keep an eye on as they evolve the tools and systems over the coming years.</p>
+<ul>
+<li><b>Comeback Kill&nbsp;</b>– Grab a kill after going on a death streak of 3 or more and get rewarded 2 Vesper per death, on top of the 3 for the kill. You’re back in the game!<wbr></li>
+<li><b>Reviver Amulet</b>&nbsp;– bonus revive speed reduced from 50% to 15%.&nbsp;<wbr></li>
+<li><i>Dev Note: We feel like the speed of a Reviver Amulet revive was creating too much safety for mid-combat revives.</i><wbr></li>
+<li><b>Smuggler’s Den</b>&nbsp;– added more defender respawns<br>
+<wbr></li>
+</ul>
+<p><b>Weapon Balance Updates</b><wbr></p>
+<ul>
+<li>Vanguard –&nbsp;<b>Reducing accuracy and controllability – it’s too dominant across long ranges</b><wbr></li>
+<li>Dynasty –&nbsp;<b>Buffing damage to provide a better tradeoff for the challenging recoil. It now takes one fewer bullet to kill against blue, purple, and gold shields</b><wbr></li>
+<li>Corsair –&nbsp;<b>Reducing the delay before the recoil pattern resets, so that the Corsair can be fired more quickly without sacrificing accuracy</b><wbr></li>
+<li>Longhorn –&nbsp;<b>Increased fire rate to make the Longhorn more versatile, making it more viable at medium and close ranges.</b><wbr></li>
+<li>Longhorn (Repeater) –&nbsp;<b>Hipfire accuracy buffed to satisfy the end game power spike feeling</b><wbr></li>
+<li>Viper –&nbsp;<b>Reducing controllability when using the 2x Optic in order to balance out its long range power</b><wbr></li>
+</ul>
+
+<ul>
+<li>Fixed some wall geo you could walk through at Belltower in Kingdom<wbr></li>
+<li>Fixed Firing Range base select being too short</li>
+</ul>
+<p>A couple of weeks ago, <a href="https://www.thesixthaxis.com/2026/02/12/highguard-studio-wildlight-confirms-layoffs-just-weeks-after-launch/">Wildlight confirmed layoffs just weeks after launch&nbsp;</a>of Highguard. We enjoyed in our first look at <a href="https://www.thesixthaxis.com/2026/01/28/highguard-review-in-progress/">Highguard</a>. Dom said,<em> “Highguard’s first steps into the PvP arena are confident and unashamed, despite what the angry voices on the internet might tell you. The slightly odd mix of Apex Legends, Rainbow Six and He-Man actually makes for a good time, and there’s so much room for more to happen here. That will take time, and I hope that it finds the audience it needs to thrive.”</em></p>
+<p><em>Source: <a href="https://store.steampowered.com/news/app/4128260/view/518613785064243442">Steam</a></em></p>
 
 
 <!-- CONTENT END 1 -->
 
 		
-	</div></div><br/><br/>https://www.thesixthaxis.com/2026/02/26/interview-modding-is-coming-to-rennsport-but-how-will-it-work-with-consoles/]]></content:encoded>
+	</div></div><br/><br/>https://www.thesixthaxis.com/2026/02/26/highguard-gets-new-raid-rush-mode/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
