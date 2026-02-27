@@ -4,9 +4,777 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Fri, 27 Feb 2026 15:15:09 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 27 Feb 2026 16:11:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Interview – Where Rennsport’s launch went wrong, and the road ahead]]></title>
+            <link>https://www.thesixthaxis.com/2026/02/26/interview-where-rennsports-launch-went-wrong-and-the-road-ahead/</link>
+            <guid>1448647</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>Launching a new video game has never felt more precarious. It doesn’t matter if it’s received prime placement in a major awards show, has journeyed through early access, or is a sequel to a genre-leading sensation, things can always go a bit off the rails. That’s what happened to <a href="https://www.thesixthaxis.com/tag/rennsport">Rennsport</a>, a sim racer with a fair bit of promise as it went through public testing, but where changing plans and reality set in at launch.</p>
+<p>Marco Ujhasi&nbsp;co-founder and co-CEO of Competition Company admitted that “Of course you want to to deliver great product, want to get applause everywhere, and so on, but I learned a very, very, very important lesson in motorsport and I’m very grateful that an experienced colleague told me that when I was thrown into that, and he said, “The most important thing is that you and your team judge the performance you did, and then you look at the officially visible result and the comments on it.” This helped me in racing and this was also something I said to the guys when we got the reviews. This is not a product which should be judged only on the race, but maybe in 10 or 15 years.”</p>
+
+
+
+<p>So where did it go wrong? The game arrived at launch with two main problems: a low number of cars and tracks compared to rivals in relation to the price tag, and with some truly shonky AI drivers that barely knew how to get around corners.</p>
+<p>“At a certain point, you have to release, and we said, ‘okay, the idea is game as a service, which means we [can] release.’ So that was a plan, but then we saw the opportunity with the console, and console not only means [meeting] the technical capabilities, but you cannot release on console without singleplayer.</p>
+
+<p>“But this was a few months of development to have the championships in the current state, also with the AI, all of what we talked about today. So, yeah, at the end, now, I would say we were not ready. […] It was maybe a bit of a misjudgement about what was needed, and especially when you put a price tag on it which was too high for what you deliver. It’s minus and minus. This doesn’t work.”</p>
+<p>The positive here is that Competition Company is in the place where they can keep on pushing ahead and build on the technical basis and driving model that they already have.</p>
+<p>“A cross platform, online multiplayer game is the most complex thing you can do. And especially in racing, it is maybe even more complex because the other genres do not operate on such a demanding physics. So to be capable to develop that is premium for a team, and on top of that, enabling such close racing between all the platforms where we need to sync everything and so on? This is an achievement. This is nothing that you can sell, but this is technically so demanding and this is what we delivered, and this is the part where we can be proud.”</p>
+
+<p>As has now been outlined, there’s a lot happening for Rennsport through 2026. The first step is a major price adjustment to bring value better in line with content – unrelated to this, the publishing partnership with Nacon that helped to bring the game to consoles has been terminated and it will now be self-published. March will see the first batch of paid DLC, free content and game updates, and this will be followed month-by-month with more.</p>
+<p>“It’s not just about the content, but also giving more reason to play. If you play on your own, if you virtually or on demand race against others, if you have something with your friends or if you go into the into the online multiplayer, we offer you a path if you want to walk through and develop, but we also give you the choice to just jump in. This is one part and giving you a reason also means, okay, why should I spend time in there?</p>
+<p>“So this is why we why we changed the system of the [single player] championships. You also saw that we will integrate some one make series for manufacturers, so there’s a purpose of racing on our service as well.</p>
+<p>“Step by step, we will hopefully get enough interesting stuff, maybe also some funny stuff at a certain point. So, yeah, why should we be there? I guess it’s fun and serious at the same time.”</p>
+<div id="attachment_469280"><p id="caption-attachment-469280">Placing obstacles or making A-to-B races could be the foundations for new gameplay mods.</p></div>
+<p>Some of that fun stuff will come from <a href="https://www.thesixthaxis.com/2026/02/26/interview-modding-is-coming-to-rennsport-but-how-will-it-work-with-consoles/">the plans to release modding tools</a>, starting with track modding through the second half of 2026 – see more about that here – but another key lynchpin to this will be the redeveloped AI. We’ve seen a number of different approaches to this over the years, with machine learning having been used by some titles, abstracted player avatars, even drivers with names and distinct personalities. I was curious about Rennsport’s new approach.</p>
+<p>“So in general, in racing, and this is then also the baseline for the AI thinking, the ruleset is pretty clear. What is the ruleset? You have tyre limits, you have to operate within those track limits –&nbsp;more or less at least – and in between those track limits, there is an ideal line and something can force you to not be on the ideal line. So, in general, this is racing. And when you do one lap in that case or from A to B in the shortest possible time, you win.</p>
+<p>“You can describe it more complicated, but at the end it is exactly like this. And what would a classical machine learning system do within that?</p>
+<p>“For the principle functionality, you don’t need that because the pattern is clear, no pattern needs to be identified, nothing. Where it’s getting interesting, because this you can programme, […] is that we are really simulating driver inputs to stay within those boundaries. And this enables us then, like [Lead Gameplay Programmer Rikard Häggström] also described, over time to make that part more flexible, more human, or whatever the right description is.”</p>
+
+<p>“With those variables in, I think we have a pretty good idea, also with my background. What are the variables? A human being is dealing with. So somebody is more good in this, more good in that, more skilled in this. So one is breaking later than the other, for example. So in those parameters, if you first of all, have them separated, that you can tune them separated.”</p>
+<p>“And on top of that, when you have that separation, then a bit of the machine learning comes in because then you can observe what’s specific people are doing, and you can try to imitate that.”</p>
+<p>It’s certainly an interesting for the specific AI approach to be discussed in this detail, and stronger AI will make for a much stronger single player experience. Of course, it’s obviously worth remembering that so much of Rennsport’s initial plan and expectations for the future will remain with the online multiplayer, paths it can provide to pro esports racing, and embracing the modding community. The next few months will be key to getting Rennsport back on track, but the ambition here and the long-term plans are exciting and optimistic for what’s possible.</p>
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div></div><br/><br/>https://www.thesixthaxis.com/2026/02/26/interview-where-rennsports-launch-went-wrong-and-the-road-ahead/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[New Pokémon Pokopia Trailer Introduces Even More Poké Pals]]></title>
+            <link>https://www.nintendolife.com/news/2026/02/new-pokemon-pokopia-trailer-introduces-even-more-poke-pals</link>
+            <guid>1448644</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><section>
+
+<p>We are under a week away from the launch of <a href="https://www.nintendolife.com/games/nintendo-switch-2/pokemon-pokopia">Pokémon Pokopia</a> on Switch 2 on <strong>5th March</strong>, but that hasn't stopped The Pokémon Company from revealing a <em>little</em> more info as a part of today's Presents showcase.</p>
+<p>If you weren't already sold on the adorable vibes of Pokopia from everything we've seen so far, this brand-new trailer isn't going to change your mind. If, however, you were already on board, then we just know that you're going to love meeting DJ Rotom and Chef Dente — a culinary Greedent who wears a large pot on his head.</p>
+<p>The stereo Rotom is your go-to aux guy for Pokopia and can swallow up any CDs you happen to stumble across to change your crafting soundtrack to whatever takes your fancy. We heard tunes like 'Pallet Town Theme', 'The Academy', 'Fortree City', and 'Road to Cerulean City' in the trailer, and all of those empty slots promise more to be collected, too.</p>
+<p>Your Greedent pal is around to expand your cooking skills. Each Pokémon you come across has different tastes and favourites, so you'll want to learn as many recipes as possible to keep everyone happy.</p>
+<p>The trailer also showcased a little more of the multiplayer content, highlighting how you'll be able to choose select Pokémon to journey to a friend's island and assist with their crafting. You can even play hide-and-seek with your pals by morphing into everyday objects and scattering around the island — oh gosh, we're going to spend <em>too much</em> time doing that.</p>
+<p>There are just a few days to go before we all get our hands on this one, and yes, the new trailer has left us even more excited.</p>
+<!-- cache: html:nintendolife.com/ssl/pokemon/related-articles:196667 @ 1772207103 -->
+<p><em>What do you make of the new Pokopia trailer? Craft your thoughts down below.</em></p></section></div><br/><br/>https://www.nintendolife.com/news/2026/02/new-pokemon-pokopia-trailer-introduces-even-more-poke-pals]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Pokémon Winds and Waves launch on the Switch 2 in 2027]]></title>
+            <link>https://www.theverge.com/games/885321/pokemon-winds-and-waves-trailer-browt-pombom-gecua</link>
+            <guid>1448638</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><div><p><span aria-expanded="false" aria-haspopup="true" role="button" tabindex="0"><span id="follow-author-standard_article_details-dmcyOmF1dGhvclByb2ZpbGU6OTE="><span><span><svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Follow"><path d="M5 0H4V4H0V5H4V9H5V5H9V4H5V0Z"></path></svg></span></span><span>Charles Pulliam-Moore</span></span></span></p> <p><span>is a reporter focusing on film, TV, and pop culture. Before The Verge, he wrote about comic books, labor, race, and more at io9 and Gizmodo for almost five years.</span></p></div><div id="zephr-anchor"><p>It’s time to say goodbye to <a href="https://www.theverge.com/23462858/pokemon-violet-scarlet-review-nintendo-switch">the Paldea region</a> because a new generation of mainline <em>Pokémon </em>games are on the way.</p><p>During today’s big <a href="https://www.theverge.com/games/885578/pokemon-presents-2026-news-trailers">Pokémon Presents stream</a>, Nintendo announced that <em>Pokémon Wind </em>and <em>Waves </em>are the next installments in the core game series. The games will launch in 2027 and are exclusive for the Nintendo Switch 2. Nintendo also shared a trailer showcasing a new trio of starter pokémon — Browt, Pombon, and Gecua — and a number of different environments you’ll be able to explore as you play through the games.</p><p>In addition to establishing that <em>Wind </em>and <em>Waves</em> takes place in an island setting, the trailer really highlights how much more detailed and complex the games’ environments are compared to past titles like <em>Scarlet </em>/ <em>Violet </em>and <em>Legends: Z-A. </em>It seems like you’ll be able to explore dense jungles, caves full of magma, and beneath the ocean all while encountering wild pokémon. In a press release, <a href="https://press.pokemon.com/en/releases/Pokemon-Continues-30th-Celebrations-with-the-Unveiling-of-Pokemon-Wind">Nintendo</a> said that <em>Wind </em>and <em>Waves </em>will be open-world games, and the company also noted that Brazilian Portuguese will officially be supported as a selectable language.</p><p>2027 is still a ways out from now, but <em>Winds </em>and <em>Waves</em>’ definitely seems like it’s going to be worth the wait. And with <em>Pokopia </em>about to drop next week, there’s going to be plenty to keep <em>Pokémon </em>fans busy in the meantime.</p><div><p><span><strong>Follow topics and authors</strong> from this story to see more like this in your personalized homepage feed and to receive email updates.</span></p><ul><li id="follow-author-article_footer-dmcyOmF1dGhvclByb2ZpbGU6OTE="><span aria-expanded="false" aria-haspopup="true" role="button" tabindex="0"><span><span><svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Follow"><path d="M5 0H4V4H0V5H4V9H5V5H9V4H5V0Z"></path></svg></span><span>Charles Pulliam-Moore</span></span></span></li><li></li><li></li><li></li><li></li><li></li></ul></div></div></div></div><br/><br/>https://www.theverge.com/games/885321/pokemon-winds-and-waves-trailer-browt-pombom-gecua]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Pokémon Winds And Waves Starters Revealed, And They’re Cuties]]></title>
+            <link>https://kotaku.com/pokemon-presents-wind-waves-starters-gecqua-browt-pombon-2000674400</link>
+            <guid>1448629</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p id="featured-image">
+                              <figure id="attachment_featured" aria-describedby="featured-caption">
+                                                                          <figcaption id="featured-caption">
+                    <span>The three new starters.</span> © The Pokémon Company
+                  </figcaption>
+                </figure>
+                                                      </p><div>
+              
+              <p>As is by now traditional, the <a href="https://kotaku.com/pokemon-presents-winds-waves-pikachu-underwater-2000674398">initial announcement of the existence of <em>Pokémon Winds</em> And <em>Waves</em></a> was accompanied by the reveal of the three new starter Pokémon that trainers will be able to choose from at the beginning of the game, and by extension the first three Pokémon revealed as part of Gen X. They are Browt, Pombon and Gecqua. Let’s meet ’em.</p> <h2>Browt</h2> <figure id="attachment_2000674445" aria-describedby="caption-attachment-2000674445"><figcaption id="caption-attachment-2000674445">© The Pokémon Company</figcaption></figure> <p>First up is Browt, an owl-ish baby bird with big eyebrows. Just imagine the long nights spent trying to figure out that name. It’s the Grass-type starter, described as a Bean Chick Pokémon, and we already have its vital stats:</p> <p>Height: 1′ (0.3m)<br> Weight: 7.7lb (3.5KG)<br> Ability: Overgrow</p> <p>It does seem a bit odd that the game’s gone back to owls as a starter inspiration, given Rowlet was only three generations ago. Although this might be more bizarre design choice than actual species, given it’s described as a “chick.” Given the leaf-like brows on the beast, we can assume it’ll lean into those Bulbasaur-like planty attacks.</p>
+
+ <h2>Pombon</h2> <figure id="attachment_2000674443" aria-describedby="caption-attachment-2000674443"><figcaption id="caption-attachment-2000674443">© The Pokémon Company</figcaption></figure> <p>This fluffy pup is yet another dog-like pocket monster, although the first time one’s been a starter. It’s the Fire-type for the set, and classified as a Puppy Pokémon. Its stats are:</p> <p>Height: 1’4 (0.4m)<br> Weight: 14.8lb (4.3KG)<br> Ability: Blaze</p> <p>There’s not a lot more to discern about this little doggo, other than its obvious inspiration by a Pomeranian. It’ll be interesting to see if it stays cute as it grows, or if things head in a more wolf-like direction.</p>
+
+ <h2>Gecqua</h2> <figure id="attachment_2000674444" aria-describedby="caption-attachment-2000674444"><figcaption id="caption-attachment-2000674444">© The Pokémon Company</figcaption></figure> <p>Hardest to spell is Gecqua, who we can infer from the name alone is an aquatic gecko. Water-type, of course, and with its huge eyes my immediate favorite of the three, with the unimaginative category of Water Gecko Pokémon. Stats are:</p> <p>Height: 1′ (0.3m)<br> Weight: 9.5lb (4.3KG)<br> Ability: Torrent</p> <p>It was only Gen VIII that we last saw a reptilian starter, and a Water-type to boot, with Sobble. And given the visual similarity between the two, especially when you think about Sobble’s final form, Inteleon, it’s another oddly overlapping design. Still though, Gecqua is completely adorable and is already my pick.</p>
+
+ <hr> <p>So, who stands out to you? Have you already fallen in love? Or are you just bemused that Game Freak couldn’t think of any other species to be inspired by for the new starters?</p>
+                          </div></div><br/><br/>https://kotaku.com/pokemon-presents-wind-waves-starters-gecqua-browt-pombon-2000674400]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[All Pokémon Winds & Waves Starters—Every New Pokémon Gen 10 Starter, Explained]]></title>
+            <link>https://insider-gaming.com/pokemon-winds-and-waves-gen-10-starters/</link>
+            <guid>1448626</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+        
+<p>Pokémon Winds and Waves was revealed to the world during the Pokémon Day showcase on February 27, including the first look at the Gen 10 starters.</p>
+
+
+
+<p>Releasing as a <a href="https://insider-gaming.com/tag/nintendo-switch-2/" id="908" target="_blank" rel="noreferrer noopener">Nintendo Switch 2</a> exclusive in 2027, Pokémon Winds and Waves is the tenth generation of the franchise and will bring a heap of new <a href="https://insider-gaming.com/tag/pokemon/" id="181" target="_blank" rel="noreferrer noopener">Pokémon</a> into the fray.</p>
+
+
+
+<p>While there were no new wild Pokémon revealed in the trailer, a detailed look at the Gen 10 starters was shown, and Insider Gaming has all the details.</p>
+
+
+
+
+
+
+
+<h2 id="h-what-are-the-pokemon-winds-amp-waves-starters">What Are The Pokémon Winds &amp; Waves Starters?</h2>
+
+
+
+<h3 id="h-browt">Browt</h3>
+
+
+
+<figure><figcaption>Angry bird. Image via The Pokemon Company</figcaption></figure>
+
+
+
+<p>Browt is a small, angry-looking bird-type Pokémon that serves as the Grass starter in Winds and Waves, standing at a measly 0.3m tall and weighing 3.5kg. It is described as the ‘Bean Chick Pokémon’, with the Overgrow ability.</p>
+
+
+
+<p>Bird-like starters are not a new concept for the Pokémon franchise, with Browt joining the likes of Torchic and Rowlet in the category.</p>
+
+
+
+<h3 id="h-pombon">Pombon</h3>
+
+
+
+<figure><figcaption>Bark. Image via The Pokemon Company</figcaption></figure>
+
+
+
+<p>Pombon is a brown, dog-like Pokémon that resembles a pomeranian, though it’s mane has some lion similarities. Pombon is 0.4m tall and weighs 6.7kg. </p>
+
+
+
+<p>Described as the “Puppy Pokémon,” Pombon has the Blaze ability, and joins a long list of dog-like Pokémon in the franchise’s history, including Growlithe and Arcanine, who are also Fire-type.</p>
+
+
+
+<h3 id="h-gecqua">Gecqua</h3>
+
+
+
+<figure><figcaption>Dive in. Image via The Pokemon Company</figcaption></figure>
+
+
+
+<p>Gecqua is the Water-type starter in Pokémon Winds and Waves, standing at 0.3m tall and weighing 4.3kg. Described as the “Water Gecko Pokémon,” it has the Torrent ability.</p>
+
+
+
+<p>Similarities will certainly be made with Treecko, another Gecko-like starter Pokémon from Ruby and Sapphire, but it’s a good choice to fit the environment of the game.</p>
+
+
+
+<h2 id="h-do-we-know-the-evolved-forms-of-the-pokemon-wind-amp-waves-starters">Do We Know The Evolved Forms of The Pokémon Wind &amp; Waves Starters?</h2>
+
+
+
+<p>No further details are known about the Pokémon Winds and Waves starters, including their evolved forms, and reveals could be hidden until the game releases in 2027.</p>
+
+
+
+<p>While there is certainly more to be shown from Pokémon Winds and Waves ahead of release, Pokémon always keeps a tight lid on major reveals like the fully-evolved forms of the starter Pokémon.</p>
+
+
+
+<p>Additionally, the mid-evolution lines for the Gen 10 starters are unlikely to be shown until release, and spoilers will be at a minimum as the game is Nintendo Switch 2 exclusive, meaning it can’t be datamined.</p>
+
+
+
+
+
+
+
+<hr>
+
+
+
+<p>Which is your favourite Pokémon Winds and Waves starter? Share your choice in the <a href="https://discord.com/invite/vwj7zdWxaW" target="_blank" rel="noreferrer noopener">Insider Gaming Discord</a>.</p>
+
+
+
+<p>For more Pokémon, take a look at <a href="https://insider-gaming.com/pokemon-presents-february-2026-everything-announced/" id="180847" target="_blank" rel="noreferrer noopener">everything announced during Pokémon Day</a>, and find out the <a href="https://insider-gaming.com/pokemon-champions-release-date-announced/" id="179450" target="_blank" rel="noreferrer noopener">release window for Pokémon Champions</a>.</p>
+
+
+        
+            
+
+    <div id="ig-app-cta">
+          <p><i></i> MOBILE APP</p>
+          <h2>Level Up Your Gaming News</h2>
+          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
+          
+          <p><i></i> Available on iOS &amp; Android</p>
+        <!-- <div class="ig-note"><i class="fa-solid fa-bolt"></i> Available on Android</div> -->
+
+        </div>
+
+    
+    
+    </div></div><br/><br/>https://insider-gaming.com/pokemon-winds-and-waves-gen-10-starters/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Amazon Reveals First Look At Prime's Live-Action God Of War Series]]></title>
+            <link>https://gameinformer.com/2026/02/27/amazon-reveals-first-look-at-primes-live-action-god-of-war-series</link>
+            <guid>1448617</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div property="schema:text"><p>Amazon Prime has been on a streak of adapting popular video games into live-action TV series, and the biggest project in the news this year has been its upcoming take on God of War. After weeks of casting announcements, the service revealed the first look at what leads Ryan Hurst and Callum Vinson will look like as Kratos and Atreus, respectively. Take a look for yourself below.</p>
+
+
+
+<article alt="Kratos watches his son Atreus aim a bow. Kratos has a sort of &quot;baseball coach dad&quot; stance, leaning forward with his hands on his knees." title="Kratos watches his son Atreus aim a bow. Kratos has a sort of &quot;baseball coach dad&quot; stance, leaning forward with his hands on his knees." data-entity-type="file" data-entity-uuid="72688002-d85a-4e8e-8a30-7c5ff41663f4" data-embed-button="image_browser_uploader" data-entity-embed-display="image:responsive_image" data-entity-embed-display-settings="{&quot;responsive_image_style&quot;:&quot;content_body&quot;,&quot;image_loading&quot;:{&quot;attribute&quot;:&quot;lazy&quot;},&quot;image_link&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;,&quot;link_target&quot;:0,&quot;link_original&quot;:0,&quot;image_source&quot;:&quot;&quot;,&quot;embed_source&quot;:0,&quot;image_caption&quot;:&quot;Kratos watches his son Atreus aim a bow. Kratos has a sort of \u0022baseball coach dad\u0022 stance, leaning forward with his hands on his knees.&quot;,&quot;embed_caption&quot;:0,&quot;content_warning&quot;:0}" data-langcode="en">
+
+  
+          <picture>
+                  <source srcset="https://gameinformer.com/sites/default/files/styles/body_default/public/2026/02/27/6e2d8295/gow_live_action_set_photo.jpg.webp 1x" media="all and (min-width: 851px)" type="image/webp" width="800" height="450">
+              <source srcset="https://gameinformer.com/sites/default/files/styles/content_default_mobile_/public/2026/02/27/6e2d8295/gow_live_action_set_photo.jpg.webp 1x" media="all and (min-width: 315px) and (max-width: 450px)" type="image/webp" width="450" height="253">
+              <source srcset="https://gameinformer.com/sites/default/files/styles/content_default_mobile_/public/2026/02/27/6e2d8295/gow_live_action_set_photo.jpg.webp 1x" media="all and (max-width: 314px)" type="image/webp" width="450" height="253">
+                  
+
+  </picture>
+
+
+  
+  
+      <p>Kratos watches his son Atreus aim a bow. Kratos has a sort of "baseball coach dad" stance, leaning forward with his hands on his knees.</p>
+  
+</article>
+
+<p>The image was posted on social media with the caption, "Father and Son. Behold your first look at Kratos and Atreus in the God of War series now in production. Their journey to the highest peak begins."</p><p>The show aims to retell the events of 2018's God of War, a soft reboot that sees the series' vicious protagonist travel to a new land and take a second swing at fatherhood. In addition to the main cast of the 2018 game, Amazon has already cast major players from the sequel, Ragnarök, like Thor and Odin. Here's the full cast list so far.</p><ul><li><a href="https://gameinformer.com/2026/01/14/thor-actor-from-god-of-war-ragnarok-cast-as-kratos-in-live-action-series"><strong>Ryan Hurst</strong> - Kratos</a></li><li><a href="https://gameinformer.com/2026/02/09/atreus-has-been-cast-in-amazons-live-action-god-of-war-series"><strong>Callum Vinson</strong> - Atreus</a></li><li><a href="https://gameinformer.com/2026/02/24/deadpool-villain-actor-ed-skrein-cast-as-baldur-in-amazons-god-of-war-tv-adaptation"><strong>Ed Skrein</strong> - Baldur</a></li><li><strong>Max Parker</strong> - Heimdall</li><li><strong>Ólafur Darri Ólafsson</strong> - Thor</li><li><strong>Mandy Patinkin</strong> - Odin</li><li><strong>Alastair Duncan</strong> - Mimir</li><li><strong>Danny Woodburn</strong> - Brok</li><li><strong>Jeff Gulka</strong> - Sindri</li></ul><p>Amazon has already made a two-season order for God of War, which is currently in pre-production in Vancouver, Canada. The series is being led by showrunner, writer, and executive producer Ronald D. Moore (<em>Outlander, Battlestar Galactica</em>). It is being co-produced by Sony Pictures Television, Amazon MGM Studios, PlayStation Productions, and Tall Boy Productions.</p><p>For more God of War, read our reviews <a href="https://gameinformer.com/review/god-of-war/god-of-war-review-reaching-a-higher-summit" data-entity-type="node" data-entity-uuid="4e072c6a-4621-4e29-8e4d-b3cce587b1d8" data-entity-substitution="canonical">for the 2018 game</a> and <a href="https://gameinformer.com/review/god-of-war-ragnarok/next-to-godliness" data-entity-type="node" data-entity-uuid="4ee53512-09c0-4590-b710-bc24c13f7268" data-entity-substitution="canonical">its sequel, Ragnarök</a>. For more on Amazon Prime's video game adaptations, you can read <a href="https://gameinformer.com/review/2025/12/24/the-fallout-tv-shows-second-season-is-slower-but-still-good" data-entity-type="node" data-entity-uuid="41adec97-ae90-4508-b394-7a3719ca6cdb" data-entity-substitution="canonical">our review of the second season of the Fallout show</a> or <a href="https://gameinformer.com/2026/01/15/heres-what-sophie-turner-will-look-like-as-lara-croft-in-amazon-primes-upcoming-series" data-entity-type="node" data-entity-uuid="d2ffb173-248f-45f9-b979-5651b5d5ed32" data-entity-substitution="canonical">see how Sophie Turner looks as Lara Croft</a>.</p><hr><p><em>How do you feel about this look for Kratos and Atreus? Let us know in the comments!</em></p></div></div><br/><br/>https://gameinformer.com/2026/02/27/amazon-reveals-first-look-at-primes-live-action-god-of-war-series]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Amazon shares first look at Ryan Hurst as Kratos in the God of War TV series]]></title>
+            <link>https://www.eurogamer.net/amazon-shares-look-at-ryan-hurst-as-kratos-in-god-of-war-tv-series</link>
+            <guid>1448614</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
+
+
+<header data-component="article-header">
+  
+
+    
+
+
+  <p>
+
+  <figure>
+      <picture>
+        <source srcset="https://assetsio.gnwcdn.com/ryan-hurst-as-kratos-god-of-war.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/ryan-hurst-as-kratos-god-of-war.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/ryan-hurst-as-kratos-god-of-war.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/ryan-hurst-as-kratos-god-of-war.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/ryan-hurst-as-kratos-god-of-war.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/ryan-hurst-as-kratos-god-of-war.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/ryan-hurst-as-kratos-god-of-war.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/ryan-hurst-as-kratos-god-of-war.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/ryan-hurst-as-kratos-god-of-war.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
+        
+      </picture>
+
+        <figcaption>
+          <span>Image credit: <cite>Amazon</cite></span>
+        </figcaption>
+  </figure>
+  </p>
+
+    
+
+</header>
+  <div data-component="article-content">
+
+
+
+            <p>Amazon has shared a first look at Ryan Hurst as Kratos in the God of War TV series it's making.</p>
+<p><a href="https://x.com/PrimeVideo/status/2027398332482465882/photo/1">The picture, shared on X</a>, shows Hurst topless and leaning forwards while teaching his son Atreus, played by Callum Vinson, how to hunt. It's an image that echoes the opening parts of the God of War reboot, which was released in 2018.</p>
+<p><a href="https://www.eurogamer.net/amazons-god-of-war-series-has-found-its-kratos-and-its-ragnaroks-thor">Ryan Hurst was named as Kratos</a> in January and is no stranger to the God of War series, having played Thor in God of War: Ragnarok - a performance that earned him a BAFTA nomination. <a href="https://www.eurogamer.net/amazons-god-of-war-series-atreus-actor">Callum Vinson was confirmed as Atreus</a> earlier this month.</p>
+<figure>
+ 
+
+
+<figcaption>He looks quite young, Atreus, doesn't he? | <span>Image credit: <cite>Amazon</cite></span></figcaption>
+</figure>
+<p>They'll be joined by actor Ed Skrein - known for portraying sellsword Daario Naharis in the Game of Thrones TV series - as Baldur, who confronts Kratos at the beginning of the God of War game. <a href="https://www.eurogamer.net/amazons-god-of-war-keeps-casting-characters-from-ragnarok-adds-severance-and-homeland-stars-as-odin-and-thor">Severance actor Ólafur Darri Ólafsson has been cast as Thor, and Homeland actor Mandy Patinkin as Odin</a>. Shogun's award-winning director <a href="https://www.eurogamer.net/emmy-winning-shogun-director-joins-amazons-live-action-god-of-war-series">Frederik E.O. Toye will direct the first two episodes</a>.</p>
+<p>Incidentally, the Amazon God of War series doesn't have a release window yet, but <a href="https://www.eurogamer.net/god-of-war-tv-show-getting-second-season-though-first-still-being-written">a second series has already been greenlit</a>.</p>
+
+        </div>
+
+  
+      </article>
+
+
+
+  
+
+
+
+  
+
+  <section>
+    <span>Related topics</span>
+
+    
+  </section>
+  </div></div><br/><br/>https://www.eurogamer.net/amazon-shares-look-at-ryan-hurst-as-kratos-in-god-of-war-tv-series]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Pokémon XD: Gale of Darkness is coming to Switch Online in March]]></title>
+            <link>https://www.thesixthaxis.com/2026/02/27/pokemon-xd-gale-of-darkness-is-coming-to-switch-online-in-march/</link>
+            <guid>1448575</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>You think Fire Red and Leaf Green are the only classic Pokémon games coming to Switch for the franchise 30th anniversary? Think again, as Pokémon XD: Gale of Darkness is coming to Switch Online + Expansion Pack in March, only playable on Nintendo Switch 2.</p>
+<p><iframe title="Play Pokémon XD: Gale of Darkness with Nintendo Switch Online + Expansion Pack (Nintendo Switch 2)" width="780" height="439" src="https://www.youtube.com/embed/vGo686s8jdw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+
+
+
+<p>Pokémon XD: Gale of Darkness was a successor to Genius Sonority’s first GameCube title, Pokémon Colosseum – strangely, this has been confirmed for Switch Online previously, and was the earlier title, but hasn’t been released yet – taking the setting of Orre from that game’s adventure mode and spinning out a new tale. New sightings of Shadow Pokémon around the region have you heading out with a Snag Machine to try and capture them and restore their hearts to normal. However, while on this mission for good, you’ll run into the crime syndicate responsible for the Shadow Pokémon.</p>
+<p>While the game sold fairly well, it was the end of Genius Sonority’s story mode efforts. By the time of Pokémon Battle Revolution for the Nintendo Wii, the studio reverted purely to colosseum battles,</p>
+
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div></div><br/><br/>https://www.thesixthaxis.com/2026/02/27/pokemon-xd-gale-of-darkness-is-coming-to-switch-online-in-march/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Pokémon XD: Gale Of Darkness Comes To Switch 2 GameCube NSO In March]]></title>
+            <link>https://www.nintendolife.com/news/2026/02/pokemon-xd-gale-of-darkness-comes-to-switch-2-gamecube-nso-in-march</link>
+            <guid>1448566</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="body">
+<article id="article">
+<header><section>
+<p>Shadowy</p>
+</section></header><section>
+
+<p>At last, we're getting another Pokémon game on Nintendo Switch Online! And it's the cult favourite RPG <a href="https://www.nintendolife.com/games/gamecube/pokemon_xd_gale_of_darkness">Pokémon XD: Gale of Darkness</a> on GameCube.</p>
+<p>Coming to the GameCube Nintendo Classics library — meaning it's exclusive to the Switch 2 — in <strong>March 2026</strong>, XD: Gale of Darkness is the second of two RPG-style spin-offs that released on the purple box. Interestingly, it lands <em>before</em> its predecessor Pokémon Colosseum, which is also due to come to the service.</p>
+<p>And just like Colosseum, XD: Gale of Darkness is all about catching Shadow Pokémon, with the main focus being Shadow Lugia.</p>
+
+<figure data-uuid="18950af90df89"><a title="XD: Gale of Darkness" href="https://images.nintendolife.com/18950af90df89/xd-gale-of-darkness.large.jpg"></a><figcaption><em><span></span> Image: The Pokémon Company</em></figcaption></figure>
+<p><em>Let us know if you're excited for XD: Gale of Darkness in the comments.</em></p>
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:182410 @ 1772205285 -->
+</section></article><div><p>Alana has been with Nintendo Life since 2022, and while RPGs are her first love, Nintendo is a close second. She enjoys nothing more than overthinking battle strategies, characters, and stories. She also wishes she was a Sega air pirate.</p><ul><li><a href="https://www.nintendolife.com/authors/AlanaHagues"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/alanahagues.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('AlanaHagues');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
+</div></div></div><br/><br/>https://www.nintendolife.com/news/2026/02/pokemon-xd-gale-of-darkness-comes-to-switch-2-gamecube-nso-in-march]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Pokémon Presents Reveals Pokémon Winds and Pokémon Waves, Coming Exclusively to Nintendo Switch 2 in 2027]]></title>
+            <link>https://wccftech.com/pokemon-presents-pokemon-winds-pokemon-waves-nintendo-switch-2-exclusive-2027/</link>
+            <guid>1448563</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			
+			<p>2026 marks 30 years of the <strong>Pokémon</strong> franchise, and today, <strong>February 27, 2026</strong>, is the 30th anniversary of the original Pokémon Red and Green games' release in Japan. Considering all of that, players had high expectations for today's <strong>Pokémon</strong> <strong>Presents</strong> event, which provided a slew of updates about everything that The Pokémon Company has in the works, across its mobile titles, Pokémon TCG, and, of course, its mainline <strong>Nintendo Switch</strong> and <strong>Nintendo Switch 2</strong> games.</p>
+
+
+
+<p>The reveal of the Generation 10 Pokémon games capped off the Pokémon Presents show, with the announcement of <strong>Pokémon Winds</strong> and <strong>Pokémon Waves</strong>, the next mainline installment in the Pokémon series. It's another open-world title, this time adding an underwater element to exploration, and will be the first mainline Pokémon games to be <strong>exclusive to the Nintendo Switch 2</strong>.</p>
+
+
+
+<p>They won't be out until sometime in 2027, though if previous Pokémon releases are anything to go by, we can probably expect a Fall 2027 release window.</p>
+
+
+
+<figure><p>
+<iframe title="First Look: Pokémon Winds and Pokémon Waves | Announcement Trailer" width="500" height="281" src="https://www.youtube.com/embed/38XHXMdDegg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<p>We also got a look at the three new starter Pokémon players will choose in this new entry, which continue the tradition of being a Grass, Fire, and Water type. <strong>Browt</strong> is the new Grass-type starter, which looks like a small chick with leaves for eyebrows. <strong>Pombon</strong> is the new Fire-type starter, which by name and by design is clearly inspired by the Pomeranian breed of dogs. Last but certainly not least is <strong>Gecqua</strong>, the new Water-type starter that appears to be a gecko-inspired water Pokémon.</p>
+
+
+<figure>
+<div>
+
+<figure>
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/02/Pokemon_Winds_and_Pokemon_Waves_Screenshot_8_EN.jpg"></a><figcaption><em>Image credit: The Pokémon Company</em></figcaption></figure>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/02/Pokemon_Winds_and_Pokemon_Waves_Screenshot_9_EN.jpg"></a><figcaption><em>Image credit: The Pokémon Company</em></figcaption></figure>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/02/Pokemon_Winds_and_Pokemon_Waves_Screenshot_10_EN.jpg"></a><figcaption><em>Image credit: The Pokémon Company</em></figcaption></figure>
+</figure>
+<div>
+				    		
+				    		
+					    	<p><span>2 of 9</span>
+				    	</p></div>
+</div>
+</figure>
+
+
+
+<p>As for the game's setting, we still don't have a name for the new region, but it appears to be inspired by Southeast Asia. We'll know more when we get closer to its release, but at least for now, Pokémon Winds and Pokémon Waves appear to be the best-looking Pokémon games in the franchise yet.</p>
+
+
+
+<p>Regarding the rest of the event, the other notable bits of news beyond a reveal of Gen10 included the reveal that <strong>Pokémon</strong> <strong>XD: Gale of Darkness</strong> will be the next game added to the library of Nintendo GameCube games in the Nintendo Classics library. It'll join the library in <strong>March 2026</strong>, though was not given a specific release date.</p>
+
+
+
+<p>We also learned that <strong>Pokémon</strong> <strong>Champions</strong>, the Nintendo Switch/Switch 2 and mobile Pokémon battling title that was revealed at the last Pokémon Presents event in <strong><a href="https://wccftech.com/pokemon-presents-legends-z-a-story-trailer-pokemon-friends-pokemon-champions/">July 2025</a></strong>, will be arriving at some point in <strong>April 2026</strong>, though it was also not given a specific release date. The presentation also confirmed that players will be able to transfer Pokémon they've caught in Pokémon Fire Red and Pokémon Leaf Green into Pokémon Champions through Pokémon Home.</p>
+
+
+<figure>
+<div>
+
+<figure>
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/02/Pokemon_Winds_and_Pokemon_Waves_Screenshot_1_EN.jpg"></a><figcaption><em>Image credit: The Pokémon Company</em></figcaption></figure>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/02/Pokemon_Winds_and_Pokemon_Waves_Screenshot_2.jpg"></a><figcaption><em>Image credit: The Pokémon Company</em></figcaption></figure>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/02/Pokemon_Winds_and_Pokemon_Waves_Screenshot_5.jpg"></a><figcaption><em>Image credit: The Pokémon Company</em></figcaption></figure>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/02/Pokemon_Winds_and_Pokemon_Waves_Screenshot_11.jpg"></a><figcaption><em>Image credit: The Pokémon Company</em></figcaption></figure>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/02/Pokemon_Winds_and_Pokemon_Waves_Screenshot_6.jpg"></a><figcaption><em>Image credit: The Pokémon Company</em></figcaption></figure>
+</figure>
+<div>
+				    		
+				    		
+					    	<p><span>2 of 9</span>
+				    	</p></div>
+</div>
+</figure>
+
+
+
+<p>We also got a small reminder about Pokémon Pokopia, which arrives on <a href="https://wccftech.com/pokemon-pokopia-release-date-march-2026-nintendo-switch-2-game-key-card/">Nintendo Switch 2 next week, on</a> <strong><a href="https://wccftech.com/pokemon-pokopia-release-date-march-2026-nintendo-switch-2-game-key-card/">March 5, 2026</a></strong>, and the reveal of a new kind of Mega Garchomp that is getting added to <a href="https://wccftech.com/review/pokemon-legends-z-a-urban-renewal/"><strong>Pokémon</strong> <strong>Legends Z-A</strong></a> as part of its <strong><a href="https://wccftech.com/pokemon-legends-z-a-mega-dimension-dlc-release-date-december/">Mega Dimensions</a></strong> DLC, which launched this past December 2025.</p>
+
+
+
+<p>And, of course, there were a few more bits of Pokémon merch to celebrate the 30th anniversary revealed as well. You can check out the entire presentation below.</p>
+
+
+
+<figure><p>
+<iframe loading="lazy" title="Pokémon Presents | 2.27.2026" width="500" height="281" src="https://www.youtube.com/embed/Dh2WcRJOVPU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+			
+			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
+
+		</div></div><br/><br/>https://wccftech.com/pokemon-presents-pokemon-winds-pokemon-waves-nintendo-switch-2-exclusive-2027/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Resident Evil Requiem Launch Smashes Series Steam Records]]></title>
+            <link>https://techraptor.net/gaming/news/resident-evil-requiem-steam-records-broken</link>
+            <guid>1448560</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><p><em>Resident Evil Requiem </em>has already broken Steam player count records for its entire franchise, despite only being a few hours old at time of writing.</p><p>A quick look at the franchise's <a href="https://steamdb.info/franchise/Resident+Evil/" target="_blank" rel="nofollow">SteamDB figures</a> shows that <em>Resident Evil Requiem </em>has already achieved a peak player count of 319,392, and since we haven't technically reached the weekend yet, I wouldn't be surprised if that number grows between now and Sunday evening.</p><p><em>Requiem</em>'s peak Steam player count easily dwarfs the series' next most popular installment, namely the <em>Resident Evil 4 </em>remake, which achieved a peak player count of 168,191 upon its release. <em>Requiem </em>hasn't doubled that quite yet, but I'd be surprised if it didn't cross that line.</p><figure role="group">
+<picture>
+                  <source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/resident-evil-requiem-steam-records-grace.jpg?itok=KLeRKUiw 1x" media="(min-width: 992px)" type="image/jpeg" width="1920" height="1080">
+              <source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/resident-evil-requiem-steam-records-grace.jpg?itok=NcE08U4l 1x" media="(max-width: 991px)" type="image/jpeg" width="1200" height="675">
+                  
+
+  </picture>
+<figcaption><em>Resident Evil Requiem </em>has already broken Steam player records for the franchise.</figcaption>
+</figure>
+<p>Just in case you're curious, the next most popular <em>Resident Evil </em>installments (according to SteamDB) are <em>Village</em>, <em>Resident Evil 2</em>, and <em>Resident Evil 3</em>, and the latter two fell short of breaking 100,000 peak players by quite some distance.</p><p>It's worth noting that this figure isn't the same as sales, although based on <em>Requiem</em>'s staggering popularity, it's likely that Capcom is about to announce a pretty impressive sales figure for the game in its first few days.</p><p>If you're not familiar with <em>Resident Evil Requiem</em>, it's the latest mainline installment in the popular <em>Resident Evil </em>series of survival horror games. This one takes you back to Raccoon City, which you'll explore as both new protagonist Grace Ashcroft and returning hero Leon S. Kennedy.</p><p>As you can probably guess, Grace's gameplay segments are more geared towards the survival horror end of the <em>Resident Evil </em>spectrum, while Leon's tend more towards a <em>Resident Evil 4</em>-style action focus.</p>
+<p>You can check out <em>Resident Evil Requiem </em>right now on <a href="https://store.steampowered.com/app/3764200/Resident_Evil_Requiem/?curator_clanid=6754604&amp;utm_source=TechRaptor" target="_blank" rel="nofollow">PC</a>, <a href="https://www.playstation.com/en-gb/games/resident-evil-requiem/" target="_blank" rel="nofollow">PlayStation 5</a>, <a href="https://www.xbox.com/en-US/games/store/resident-evil-requiem/9PDBRV4589NL" target="_blank" rel="nofollow">Xbox Series X|S</a>, and <a href="https://www.nintendo.com/us/store/products/resident-evil-requiem-switch-2/" target="_blank" rel="nofollow">Nintendo Switch 2</a>, and if you want to find out what our very own Andrew Stretch thought of the game, you can <a href="https://techraptor.net/gaming/reviews/resident-evil-requiem-review-tense-grace-moments-with-polite-amount-of-leon" data-entity-type="node" data-entity-uuid="d73af5c2-40ea-4b7b-b016-b913dced3a8f" data-entity-substitution="canonical" rel="nofollow">read his review here</a>.</p></div><div><p><span><div>
+       
+    <p>Joe has been writing for TechRaptor for several years, and in those years has learned a lot about the gaming industry and its foibles. He’s originally an… <a href="https://techraptor.net/author/joseph-allen">More about Joseph</a></p>
+  </div></span></p></div></div><br/><br/>https://techraptor.net/gaming/news/resident-evil-requiem-steam-records-broken]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Here’s Our First Look At The God Of War Show…Oh No.. Oh Noooo]]></title>
+            <link>https://kotaku.com/heres-our-first-look-at-the-god-of-war-show-oh-no-oh-noooo-2000674450</link>
+            <guid>1448551</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p id="featured-image">
+                              <figure id="attachment_featured" aria-describedby="featured-caption">
+                                                                          <figcaption id="featured-caption">
+                    © Leah Gallo for Prime Video.
+                  </figcaption>
+                </figure>
+                                                      </p><div>
+              
+              <p>Amazon has started production on its live-action <em>God of War</em> series and <a href="https://press.amazonmgmstudios.com/us/en/press-release/prime-video-debuts-firstlook-image-of-ryan-hurst-a">released the first production photo online</a>. The photo features Kratos, played by Ryan Hurst, standing behind Atreus, played by Callum Vinson. And uh…it looks like a pre-taped <em>SNL</em> skit.</p> <p>On February 27, Amazon MGM Studios put out a press release announcing that filming on the long-in-development <em>God of War</em> live-action series had officially begun in Culver City, California. The series is being led by Ronald D. Moore, who is not only the live-action adaptation’s showrunner but also an executive producer and writer on the series. <a href="https://kotaku.com/god-of-war-amazon-show-cast-kratos-atreus-mimir-actor-2000666932">The series features Mandy Patinkin as Odin</a>, Ed Skrein as Baldur, Max Parker as Heimdall, Ólafur Darri Ólafsson as Thor, Teresa Palmer as Sif, Alastair Duncan as Mimir, Jeff Gulka as Sindri, and Danny Woodburn as Brok.</p>
+
+ <p>To help get people excited about the series going into full production, Amazon shared the first photo from the set, giving us our first look at Kratos and his son Atreus in live-action. And my first reaction upon seeing it was to go “Oh…no…”</p> <blockquote data-width="500" data-dnt="true"> <p lang="en" dir="ltr">Father and Son. Behold your first look at Kratos and Atreus in the God of War series now in production for <a href="https://twitter.com/PrimeVideo?ref_src=twsrc%5Etfw">@PrimeVideo</a>. Their journey to the highest peak begins. <a href="https://t.co/vOkD1SiJ3q">pic.twitter.com/vOkD1SiJ3q</a></p> <p>— Amazon MGM Studios (@AmazonMGMStudio) <a href="https://twitter.com/AmazonMGMStudio/status/2027398333401088067?ref_src=twsrc%5Etfw">February 27, 2026</a></p></blockquote>  <p>Kratos, in particular, looks rough in live-action. In a game, his design can be exaggerated, but here he’s just a dude who looks like he’s cosplaying as his favorite dad warrior. Something about how pristine he looks, coupled with his pose here, just has big “SNL host doing a pre-recorded studio bit that isn’t very funny” energy. I don’t know. Perhaps Kratos’ oddball design is just not going to translate well to live-action TV.</p>
+
+ <p>Atreus, on the other hand, looks fine, if not a tad out of place, standing next to Kratos as he takes on a pose and expression that looks like me while scanning for leftovers in the fridge at 2 in the morning.</p> <p>Ronald D. Moore is a very talented writer and showrunner. And Amazon is no doubt throwing as much money as needed at this show in an effort to make it a success. So perhaps this first image is just a bad tease of what could be something that I end up enjoying as much as the <a href="https://kotaku.com/fallout-season-two-review-amazon-more-episodes-bethesda-new-vegas-2000665533"><em>Fallout </em>show.</a> But for now, based on this first image, I’m nervous about the final product. <em>God of War</em> on Amazon has already been picked up for a second season. No release date for season one has been given. It is expected to arrive in early 2027.</p>
+                          </div></div><br/><br/>https://kotaku.com/heres-our-first-look-at-the-god-of-war-show-oh-no-oh-noooo-2000674450]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Pokémon Winds And Waves Skipping Original Nintendo Switch]]></title>
+            <link>https://kotaku.com/pokemon-winds-and-waves-skipping-original-nintendo-switch-2000674425</link>
+            <guid>1448548</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+              
+              <p>Today, Nintendo and The Pokémon Company announced the next mainline entries in the long-running catch-’em-all franchise: <a href="https://kotaku.com/pokemon-presents-winds-waves-pikachu-underwater-2000674398"><em>Pokémon Winds</em> and </a><em><a href="https://kotaku.com/pokemon-presents-winds-waves-pikachu-underwater-2000674398">Pokémon Waves</a>.</em> And for those hoping they’d be able to hold off on buying a Switch 2 for a bit longer, I’ve got bad news. The 10th generation of <em>Pokémon</em> games are ditching the original Switch.</p> <p>On February 27, perhaps to avoid some confusion, <a href="https://x.com/Pokemon/status/2027394547756548460">the official Pokémon account tweeted out</a> that the tropical-based <em>Waves</em> and <em>Winds</em> will only be playable on Switch 2 hardware when it launches in 2027.</p> <blockquote><p>“In <em>Pokémon Winds </em>and<em> Waves,</em> <strong>releasing exclusively on Nintendo Switch 2</strong>, you’ll travel across beautiful windswept islands and a vast ocean with glittering waves that ebb and flow. You’ll also team up with Pokémon to overcome challenges and even the forces of nature!”</p></blockquote> <p>As seen in the first trailer for the just-announced upcoming <em>Pokémon</em> games, <em>Winds</em> and <em>Waves</em> looks gorgeous, with higher-resolution textures and more detailed models than anything seen in the series before. That’s great, <a href="https://kotaku.com/pokemon-legends-z-a-switch-2-graphics-ugly-art-style-1851767088">as <em>Pokémon</em> games have started to show their age in recent years</a> due to Switch 1’s lack of power compared to most other consoles. Ditching that machine and focusing exclusively on Switch 2 has seemingly freed up developers at GameFreak in a big way. But that comes at a cost.</p>
+
+  <p><a href="https://www.nintendolife.com/news/2025/02/nintendo-switch-hardware-sales-pass-150-million-with-ps2s-record-still-a-way-off">Nintendo has sold over 150 million original Switch consoles</a>. And now, anyone who owns an OG Switch and loves <em>Pokémon</em> but hasn’t upgraded to the new console might be left behind. Under the tweet confirming the news that the game is Switch 2 exclusive, you’ll find plenty of people cheering this decision. But sprinkled throughout the replies are people frustrated and sad that <em>Pokémon</em>&nbsp;<em>Winds </em>and<em> Waves</em> is leaving them behind. Anecdotally, when I told some people the new game was Switch 2 only, they looked crestfallen. Sure, people have until 2027 to save up cash to buy a Switch 2, but that’s not easy or feasible for everyone.</p> <p>Then again, the Switch 2 is going to let GameFreak build a&nbsp;<span>truly modern-looking&nbsp;<em>Pokémon</em> game, and trying to get that to work on the old Switch would likely have been near-impossible</span>&nbsp;without big compromises. So, while I do feel for folks who are going to have to buy a new console to play the next entry in their favorite series, I think in the long term this was the right call, even though I’m a bit surprised, in a good way, that GameFreak and Nintendo were willing to ditch an install base of 150+ million consoles in the process.</p>
+                          </div></div><br/><br/>https://kotaku.com/pokemon-winds-and-waves-skipping-original-nintendo-switch-2000674425]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Pokémon Go Bringing Back ‘Almost All’ Pokémon For Anniversary Event]]></title>
+            <link>https://insider-gaming.com/pokemon-go-bringing-back-almost-all-pokemon-for-anniversary-event/</link>
+            <guid>1448542</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+        
+<p>Pokémon Go is going all-out in a special 30th anniversary event next month, bringing back “almost all” Pokémon that have ever appeared in the game.</p>
+
+
+
+<p>Although details were not revealed for <a href="https://insider-gaming.com/games/pokemon-go/" id="52102" target="_blank" rel="noreferrer noopener">Pokémon Go</a>‘s 10th anniversary, which takes place later this year, a 30th anniversary event next week brings back the majority of the <a href="https://insider-gaming.com/tag/pokemon/" id="181" target="_blank" rel="noreferrer noopener">Pokémon</a> that have ever featured in the game.</p>
+
+
+
+<h2 id="h-pokemon-go-announces-30th-anniversary-all-out-event">Pokémon Go Announces 30th Anniversary: All Out Event</h2>
+
+
+
+<p>Following a brief teaser during the Pokémon Presents showcase, Niantic revealed full details on the 30th Anniversary: All Out event, which takes place Saturday, March 7, to Sunday, March 8.</p>
+
+
+
+<p>From 10am local time on the Saturday to 8pm local time on the Sunday, “almost all” Pokémon that have ever appeared in Pokémon Go will appear in specific biomes.</p>
+
+
+
+<p>While this brings back a host of Pokémon into rotation, there are some exceptions. Mythical Pokémon, Ultra Beasts, and species of Pokémon not normally found in the wild will not feature.</p>
+
+
+
+<p>Additionally, certain Pokémon will continue to only be available in certain regions or hatchable from eggs, and costumed Pokémon will not appear in the wild.</p>
+
+
+
+<p>Finally, for Pokémon with multiple forms, not all forms will appear in the wild.</p>
+
+
+
+
+
+
+
+<hr>
+
+
+
+<p>What are your thoughts on the Pokémon Go 30th Anniversary: All Out event? Share your thoughts in the <a href="https://discord.com/invite/vwj7zdWxaW" target="_blank" rel="noreferrer noopener">Insider Gaming Discord</a>.</p>
+
+
+
+<p>For more Pokémon, check out the <a href="https://insider-gaming.com/pokemon-winds-waves-revealed-releasing-2027/">reveal of Pokémon Wind &amp; Waves</a>, and take a look at <a href="https://insider-gaming.com/pokemon-presents-february-2026-everything-announced/" target="_blank" rel="noreferrer noopener">everything announced during Pokémon Presents</a>.</p>
+
+
+        
+            
+
+    <div id="ig-app-cta">
+          <p><i></i> MOBILE APP</p>
+          <h2>Level Up Your Gaming News</h2>
+          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
+          
+          <p><i></i> Available on iOS &amp; Android</p>
+        <!-- <div class="ig-note"><i class="fa-solid fa-bolt"></i> Available on Android</div> -->
+
+        </div>
+
+    
+    
+    </div></div><br/><br/>https://insider-gaming.com/pokemon-go-bringing-back-almost-all-pokemon-for-anniversary-event/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Pokemon Pokopia details DJ Rotom, Chef Dente, and multiplayer mode]]></title>
+            <link>https://www.gematsu.com/2026/02/pokemon-pokopia-details-dj-rotom-chef-dente-and-multiplayer-mode</link>
+            <guid>1448539</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+    <ul>
+    <li><a href="https://www.gematsu.com/platforms/nintendo/switch-2">Switch 2</a></li>    </ul>
+
+    
+    <p><span>Latest trailer and screenshots.</span>
+      </p></div><div><p><a title="Companies > The Pokemon Company [444 articles]" href="https://www.gematsu.com/companies/the-pokemon-company">The Pokemon Company</a> and developers <a title="Companies > Game Freak [295 articles]" href="https://www.gematsu.com/companies/game-freak">Game Freak</a> and <a title="Companies > Koei Tecmo Games [3,129 articles]" href="https://www.gematsu.com/companies/koei-tecmo-games">Koei Tecmo</a> have released a new trailer and screenshots for life <a title="Genres > Simulation [946 articles]" href="https://www.gematsu.com/genres/simulation">simulation game</a> <em><a title="Games > Pokemon Pokopia [4 articles]" href="https://www.gematsu.com/games/pokemon-pokopia">Pokemon Pokopia</a></em> in celebration of <em><a title="Series > Pokemon [44 articles]" href="https://www.gematsu.com/series/pokemon">Pokemon</a></em> Day 2026. <span id="more-1029545"></span></p><p>Here are the latest details (as transcribed from today’s trailer):</p><blockquote><p><strong>Rotom (Stereo Rotom)</strong></p><p>Is that curious looking stereo a Rotom? Did it get enticed by the music and hop inside? It’s really energetic and seems to go by DJ Rotom. </p><p>What happens if you give it a CD in the game? It can help liven up the town with a variety of music! Ditto and the others are grooving to the beat, too. Let’s listen to DJ Rotom’s specially selected tracks while I introduce you to the world of <em>Pokemon Pokopia</em>.</p><p><strong>Wasteland</strong></p><!-- AD: content -->
+        <p>Ditto first encounters Professor Tangrowth in a wasteland that was once a town.</p><p>It seems like Ditto is working alongside other Pokemon to develop the town.</p><p>Wow, they’re sure fired up!</p><p>Of course, you can’t give your all on an empty stomach.</p><p>It looks like Riolu wants something to eat, too. But how do you cook?</p><p><strong>Greedent (Cook)</strong></p><p>Huh? That silhouette… A Greedent appeared. It sounds like everyone calls it Chef Dente!</p><p>Chef Dente can teach you how to cook all sorts of dishes. Each Pokemon has different foods they prefer. Some dishes will even power up your moves when you eat them. This will make it even easier to develop the town.</p><p><strong>Four-Player <a title="Genres > Multiplayer [697 articles]" href="https://www.gematsu.com/genres/multiplayer">Multiplayer</a> Mode</strong></p><p>Try bringing Pokemon you’ve befriended on an outing!</p><p>In multiplayer mode, you can visit other players towns. You can play with up to three other people.</p><p>First, let’s play some hide and seek. I wonder where everyone’s hiding? Ah, there you are! There’s someone here, too! But where’s the last one? Whoa! You can transform into objects, too! That was a fun game of hide and seek!</p><p>By working together, you could even build something this big.</p><p>Together, you can develop a town or go on far-off adventures. New encounters may await you as well. Every day, the world gets bigger and bigger, developing a town one step at a time.</p></blockquote><p><em>Pokemon Pokopia</em> is due out for <a title="Platforms > Switch 2 [1,049 articles]" href="https://www.gematsu.com/platforms/nintendo/switch-2">Switch 2</a> on March 5, 2026.</p><p>Watch the trailer below. View the screenshots <a href="https://www.gematsu.com/gallery/pokemon-pokopia/february-27-2026/">at the gallery</a>.</p><h2><span>Pokemon Day 2026 Trailer</span></h2><p><strong>English</strong></p><p><iframe title="Pokémon Pokopia - Pokémon Day 2.27.2026 | Special Trailer" width="500" height="281" src="https://www.youtube.com/embed/rR_4nsCu-IA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p><p><strong>Japanese</strong></p><p><iframe title="【公式】『ぽこ あ ポケモン』特別映像公開！2026.02.27" width="500" height="281" src="https://www.youtube.com/embed/45qRcgRZjFs?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p><h2><span>Screenshots</span></h2><div id="carousel_1029704"><ul><li><span>❮</span></li><li><span>❯</span></li></ul></div></div></div><br/><br/>https://www.gematsu.com/2026/02/pokemon-pokopia-details-dj-rotom-chef-dente-and-multiplayer-mode]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Pokemon Legends: Z-A DLC ‘Mega Dimension’ adds Mega Garchomp Z]]></title>
+            <link>https://www.gematsu.com/2026/02/pokemon-legends-z-a-dlc-mega-dimension-adds-mega-garchomp-z</link>
+            <guid>1448536</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+    <ul>
+        </ul>
+
+    
+    <p><span>Battle and defeat a Mega Garchomp Z to obtain a Garchompite Z stone.</span>
+      </p></div><div><p><em><a title="Games > Pokemon Legends: Z-A [19 articles]" href="https://www.gematsu.com/games/pokemon-legends-z-a">Pokemon Legends: Z-A</a></em> downloadable content “Mega Dimension” has added Mega-Evolved <a title="Series > Pokemon [44 articles]" href="https://www.gematsu.com/series/pokemon">Pokemon</a> Mega Garchomp Z as of today, publisher <a title="Companies > The Pokemon Company [444 articles]" href="https://www.gematsu.com/companies/the-pokemon-company">The Pokemon Company</a> and developer <a title="Companies > Game Freak [295 articles]" href="https://www.gematsu.com/companies/game-freak">Game Freak</a> announced. <span id="more-1029685"></span></p><p>Get the latest details below.</p><blockquote><p>A newly discovered form of Garchomp—Mega Garchomp Z—has been unveiled in <em>Pokemon Legends: Z-A</em> downloadable content “Mega Dimension.”</p><p><strong>Mega Garchomp Z</strong></p><ul><li><strong>Category:</strong> Mach Pokemon</li><li><strong>Type:</strong> Dragon</li><li><strong>Height:</strong> 6’3″ (1.9 m)</li><li><strong>Weight:</strong> 218.3 lbs. (99 kg)</li></ul><p>Starting today, players can claim a new Mystery Gift that will unlock the opportunity to enter a special hyperspace distortion where they must battle and defeat a Mega Garchomp Z to obtain a Garchompite Z stone.</p></blockquote><!-- AD: content -->
+        <p><em>Pokemon Legends: Z-A</em> and the downloadable content “Mega Dimension” are available now for <a title="Platforms > Switch 2 [1,049 articles]" href="https://www.gematsu.com/platforms/nintendo/switch-2">Switch 2</a> and <a title="Platforms > Switch [18,382 articles]" href="https://www.gematsu.com/platforms/nintendo/switch">Switch</a>.</p><p>Watch a new trailer below. View a new set of screenshots <a href="https://www.gematsu.com/gallery/pokemon-legends-z-a/february-27-2026/">at the gallery</a>.</p><h2><span>DLC “Mega Dimension”: Mega Garchomp Z Reveal Trailer</span></h2><p><strong>English</strong></p><p><iframe title="Pokémon Legends: Z-A – Mega Dimension | Mega Garchomp Z​ Appears! 💥" width="500" height="281" src="https://www.youtube.com/embed/G3grJ0c9B0U?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p><p><strong>Japanese</strong></p><p><iframe title="【公式】「メガガブリアスＺ」が新たに登場！『Pokémon LEGENDS Z-A M次元ラッシュ』紹介映像" width="500" height="281" src="https://www.youtube.com/embed/JfFWd1oahmw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p><h2><span>Screenshots</span></h2><div id="carousel_1029745"><ul><li><span>❮</span></li><li><span>❯</span></li></ul></div></div></div><br/><br/>https://www.gematsu.com/2026/02/pokemon-legends-z-a-dlc-mega-dimension-adds-mega-garchomp-z]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Everything Announced At The February Pokémon Presents]]></title>
+            <link>https://gameinformer.com/pokemon-presents/2026/02/27/everything-announced-at-the-february-2026-pokemon-presents</link>
+            <guid>1448530</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div property="schema:text"><p>Another year, another Pokémon Presents. Today, the Pokémon Company hosted a stream to spotlight numerous updates arriving for its many live services and titles surrounding the long-running Pokémon franchise.&nbsp;</p><p>It is the series' 30th anniversary, marking three decades since the first generation of games took us to Kanto, and the makers of Pokémon are leaning heavily into our shared nostalgia for it. Here's everything we saw at today's February 2026 Pokémon Presents presentation.</p>
+
+
+
+<article data-entity-type="file" data-entity-uuid="d7d80403-1394-4e69-b579-53992414f297" data-embed-button="image_browser_uploader" data-entity-embed-display="image:responsive_image" data-entity-embed-display-settings="{&quot;responsive_image_style&quot;:&quot;content_body&quot;,&quot;image_loading&quot;:{&quot;attribute&quot;:&quot;lazy&quot;},&quot;image_link&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;,&quot;link_target&quot;:0,&quot;link_original&quot;:0,&quot;image_source&quot;:&quot;&quot;,&quot;embed_source&quot;:0,&quot;image_caption&quot;:&quot;&quot;,&quot;embed_caption&quot;:0,&quot;content_warning&quot;:0}" data-langcode="en">
+
+  
+          <picture>
+                  <source srcset="https://gameinformer.com/sites/default/files/styles/body_default/public/2026/02/27/1010ab58/screenshot_378.jpg.webp 1x" media="all and (min-width: 851px)" type="image/webp" width="800" height="450">
+              <source srcset="https://gameinformer.com/sites/default/files/styles/content_default_mobile_/public/2026/02/27/1010ab58/screenshot_378.jpg.webp 1x" media="all and (min-width: 315px) and (max-width: 450px)" type="image/webp" width="450" height="253">
+              <source srcset="https://gameinformer.com/sites/default/files/styles/content_default_mobile_/public/2026/02/27/1010ab58/screenshot_378.jpg.webp 1x" media="all and (max-width: 314px)" type="image/webp" width="450" height="253">
+                  
+
+  </picture>
+
+
+  
+  
+  
+</article>
+
+<h2>Game Music Collection</h2><p>The stream kicked off with a <a href="https://gameinformer.com/pokemon-presents/2026/02/27/game-boy-shaped-pokemon-soundtrack-player-announced">Game Music Collection jukebox for Pokémon Red and Blue</a>, with 45 songs on 45 cartridges for the standalone music player. It basically looks like a HitClips for classic Pokémon music. Remember HitClips? Anyways, that's available starting on February 27 (today).</p><h2>Pokémon World Championships and XP 2026</h2><p>The Pokémon XP and World Championships are headed to San Francisco on August 28 through 30, and today The Pokémon Company confirmed all the activities happening there. It's not just competition and fighting for the crown; the Pokémon XP expo will host several different events and places for families and friends to hang out and celebrate Pokémon. Plus, we got some new artwork today, commemorating the event.</p>
+
+
+
+<article data-entity-type="file" data-entity-uuid="81a99a5a-18f3-411a-89b7-c37b1a3654fb" data-embed-button="image_browser_uploader" data-entity-embed-display="image:responsive_image" data-entity-embed-display-settings="{&quot;responsive_image_style&quot;:&quot;content_body&quot;,&quot;image_loading&quot;:{&quot;attribute&quot;:&quot;lazy&quot;},&quot;image_link&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;,&quot;link_target&quot;:0,&quot;link_original&quot;:0,&quot;image_source&quot;:&quot;&quot;,&quot;embed_source&quot;:0,&quot;image_caption&quot;:&quot;&quot;,&quot;embed_caption&quot;:0,&quot;content_warning&quot;:0}" data-langcode="en">
+
+  
+          <picture>
+                  <source srcset="https://gameinformer.com/sites/default/files/styles/body_default/public/2026/02/27/1b60773a/pokemon_presents_2.27.2026_5-46_screenshot.jpg.webp 1x" media="all and (min-width: 851px)" type="image/webp" width="800" height="450">
+              <source srcset="https://gameinformer.com/sites/default/files/styles/content_default_mobile_/public/2026/02/27/1b60773a/pokemon_presents_2.27.2026_5-46_screenshot.jpg.webp 1x" media="all and (min-width: 315px) and (max-width: 450px)" type="image/webp" width="450" height="253">
+              <source srcset="https://gameinformer.com/sites/default/files/styles/content_default_mobile_/public/2026/02/27/1b60773a/pokemon_presents_2.27.2026_5-46_screenshot.jpg.webp 1x" media="all and (max-width: 314px)" type="image/webp" width="450" height="253">
+                  
+
+  </picture>
+
+
+  
+  
+  
+</article>
+
+<h2>Pokémon Trading Card Game</h2><p>We got a look at the "future" of Pokémon Trading Card Game with a set celebrating the series' 30th anniversary releasing sometime in 2026. The stream showed off everything from classic cards to Tag Teams and more, so look forward to that if you're a fan of cracking Pokémon packs.</p><p>Numerous Pokémon that have appeared in past Pokémon Go events will return, as part of the game's 10th anniversary alongside the series' 30th. (Can you believe it's been a decade since that blissful, wonderful Pokémon Go summer?) The anniversary event runs in early March, and Pokémon Go Tour: Kalos starts tomorrow on Saturday, February 28. Make sure to grab the promotion with promo code GOTOURKALOS, valid until Monday, March 2.</p><h2>Pokémon Masters EX</h2><p>Red (1996) &amp; Pikachu are out today, with two more Trainers joining soon too: Florian &amp; Ogerpon (Anniversary 2026) on February 28, and Juliana &amp; Terapagos (Anniversary 2026) on March 2. It's the 6.5 Year Celebration for Pokémon Masters EX (it's a real anniversary, I swear), and you can also pick up 3,000 gems for logging in sometime between now and March 31.</p>
+
+
+
+<article data-entity-type="file" data-entity-uuid="6acaec66-3341-4bda-970b-8687a1e47b60" data-embed-button="image_browser_uploader" data-entity-embed-display="image:responsive_image" data-entity-embed-display-settings="{&quot;responsive_image_style&quot;:&quot;content_body&quot;,&quot;image_loading&quot;:{&quot;attribute&quot;:&quot;lazy&quot;},&quot;image_link&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;,&quot;link_target&quot;:0,&quot;link_original&quot;:0,&quot;image_source&quot;:&quot;&quot;,&quot;embed_source&quot;:0,&quot;image_caption&quot;:&quot;&quot;,&quot;embed_caption&quot;:0,&quot;content_warning&quot;:0}" data-langcode="en">
+
+  
+          <picture>
+                  <source srcset="https://gameinformer.com/sites/default/files/styles/body_default/public/2026/02/27/4f567b70/cafe.jpg.webp 1x" media="all and (min-width: 851px)" type="image/webp" width="800" height="450">
+              <source srcset="https://gameinformer.com/sites/default/files/styles/content_default_mobile_/public/2026/02/27/4f567b70/cafe.jpg.webp 1x" media="all and (min-width: 315px) and (max-width: 450px)" type="image/webp" width="450" height="253">
+              <source srcset="https://gameinformer.com/sites/default/files/styles/content_default_mobile_/public/2026/02/27/4f567b70/cafe.jpg.webp 1x" media="all and (max-width: 314px)" type="image/webp" width="450" height="253">
+                  
+
+  </picture>
+
+
+  
+  
+  
+</article>
+
+<h2>Pokémon Cafe Remix</h2><p>A roundup event featuring all partner Pokémon starts today, with the first set being the original three from Kanto - Bulbasaur, Charmander, and Squirtle.</p><h2>Pokémon Sleep</h2><p>Mew Missions are coming to Pokémon Sleep, starting tonight. Look forward to trying to grab a Mew while you snooze!</p><h2>Pokémon Unite</h2><p>Articuno, Zapdos, and Moltres are coming to Pokémon Unite today, with a special event featuring the birds kicking off as well. Meganium, Typholosion, and Feraligatr are also on their way to the PokéMOBA, and an Electrode volleyball world tour was teased for the game as well.&nbsp;</p><h2>Pokémon Trading Card Game Pocket</h2><p>The next set coming to Pokémon TCG Pocket is Paldean Wonders, premiering now with numerous daily log-in bonuses starting today. You can pick up a bunch of booster packs to celebrate the 30th anniversary, as well as some special playmats and coins for in-game card dueling too.</p>
+
+
+
+<article data-entity-type="file" data-entity-uuid="7176c37d-f670-4ace-867c-fdb208e8d5c5" data-embed-button="image_browser_uploader" data-entity-embed-display="image:responsive_image" data-entity-embed-display-settings="{&quot;responsive_image_style&quot;:&quot;content_body&quot;,&quot;image_loading&quot;:{&quot;attribute&quot;:&quot;lazy&quot;},&quot;image_link&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;,&quot;link_target&quot;:0,&quot;link_original&quot;:0,&quot;image_source&quot;:&quot;&quot;,&quot;embed_source&quot;:0,&quot;image_caption&quot;:&quot;&quot;,&quot;embed_caption&quot;:0,&quot;content_warning&quot;:0}" data-langcode="en">
+
+  
+          <picture>
+                  <source srcset="https://gameinformer.com/sites/default/files/styles/body_default/public/2026/02/27/67569ed6/gale.jpg.webp 1x" media="all and (min-width: 851px)" type="image/webp" width="800" height="450">
+              <source srcset="https://gameinformer.com/sites/default/files/styles/content_default_mobile_/public/2026/02/27/67569ed6/gale.jpg.webp 1x" media="all and (min-width: 315px) and (max-width: 450px)" type="image/webp" width="450" height="253">
+              <source srcset="https://gameinformer.com/sites/default/files/styles/content_default_mobile_/public/2026/02/27/67569ed6/gale.jpg.webp 1x" media="all and (max-width: 314px)" type="image/webp" width="450" height="253">
+                  
+
+  </picture>
+
+
+  
+  
+  
+</article>
+
+<h2>Nintendo Switch Online</h2><p>Pokémon XD Gale of Darkness, a lesser-known spin-off, is finally coming to Nintendo Switch Online's GameCube selection in March 2026. Honestly, this is huge news for anyone who's wanted to see what this odd side game is about, but doesn't want to pay exorbitant sums for a physical GameCube copy.&nbsp;</p><h2>Pokémon FireRed and LeafGreen</h2><p>As <a href="https://gameinformer.com/2026/02/20/pokemon-firered-and-leafgreen-are-coming-to-switch-switch-2-digitally-next-week">previously confirmed</a>, the Game Boy Advance remakes of Pokémon Gen 1 are coming to Nintendo Switch. They're out today, and feature Pokémon Home integration as part of their modern Switch release.</p><h2>Pokémon Champions Arrives In April</h2><p>The battle-focused Pokémon experience comes to Switch in April, with a mobile version expected to arrive later this year. This is a client focused solely on facing off against other trainers, as shown by the trailer today, but might be a pretty cool thing for the competitive Pokémon players out there.</p>
+
+
+
+<article data-entity-type="file" data-entity-uuid="65e0767f-edc0-44d7-b90d-38a1fb302ce8" data-embed-button="image_browser_uploader" data-entity-embed-display="image:responsive_image" data-entity-embed-display-settings="{&quot;responsive_image_style&quot;:&quot;content_body&quot;,&quot;image_loading&quot;:{&quot;attribute&quot;:&quot;lazy&quot;},&quot;image_link&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;,&quot;link_target&quot;:0,&quot;link_original&quot;:0,&quot;image_source&quot;:&quot;&quot;,&quot;embed_source&quot;:0,&quot;image_caption&quot;:&quot;&quot;,&quot;embed_caption&quot;:0,&quot;content_warning&quot;:0}" data-langcode="en">
+
+  
+          <picture>
+                  <source srcset="https://gameinformer.com/sites/default/files/styles/body_default/public/2026/02/27/8a33d174/screenshot_385.jpg.webp 1x" media="all and (min-width: 851px)" type="image/webp" width="800" height="450">
+              <source srcset="https://gameinformer.com/sites/default/files/styles/content_default_mobile_/public/2026/02/27/8a33d174/screenshot_385.jpg.webp 1x" media="all and (min-width: 315px) and (max-width: 450px)" type="image/webp" width="450" height="253">
+              <source srcset="https://gameinformer.com/sites/default/files/styles/content_default_mobile_/public/2026/02/27/8a33d174/screenshot_385.jpg.webp 1x" media="all and (max-width: 314px)" type="image/webp" width="450" height="253">
+                  
+
+  </picture>
+
+
+  
+  
+  
+</article>
+
+<h2>Pokémon Legends Z-A Gets More Mega</h2><p>The latest Pokémon Legends entry arrived last year with Z-A, and it's getting a fresh crop of content in 2026. Mega Garchomp Z will be available for owners of the Mega Dimension DLC for Pokémon Legends Z-A today. Interesting that it's tied to owning both the game and DLC, but the new Garchomp <em>does </em>look pretty cool.</p><h2>Pokémon Pokopia&nbsp;</h2><p>Pokopia is just days away now, but there's still some news to show off before the cozy Poké-life sim goes live. DJ Rotom is a special stereo-focused form of the techno-Pokémon, able to play CDs that the player-Ditto finds. We also got a look at a culinary master Greedent named Chef Dente, who might be my new favorite Pokémon ever. The stream also showed off the four-player multiplayer town visits and other facets of Pokémon Pokopia. The new building-and-living sim arrives on March 5 for Switch 2, and honestly looks delightful.</p>
+
+
+
+<article data-entity-type="file" data-entity-uuid="171fac20-ac3f-4584-9032-0561759de5e7" data-embed-button="image_browser_uploader" data-entity-embed-display="image:responsive_image" data-entity-embed-display-settings="{&quot;responsive_image_style&quot;:&quot;content_body&quot;,&quot;image_loading&quot;:{&quot;attribute&quot;:&quot;lazy&quot;},&quot;image_link&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;,&quot;link_target&quot;:0,&quot;link_original&quot;:0,&quot;image_source&quot;:&quot;&quot;,&quot;embed_source&quot;:0,&quot;image_caption&quot;:&quot;&quot;,&quot;embed_caption&quot;:0,&quot;content_warning&quot;:0}" data-langcode="en">
+
+  
+          <picture>
+                  <source srcset="https://gameinformer.com/sites/default/files/styles/body_default/public/2026/02/27/bb26b5bf/2_pokemon_presents_2.27.2026_-_0-24-401.jpeg.webp 1x" media="all and (min-width: 851px)" type="image/webp" width="800" height="450">
+              <source srcset="https://gameinformer.com/sites/default/files/styles/content_default_mobile_/public/2026/02/27/bb26b5bf/2_pokemon_presents_2.27.2026_-_0-24-401.jpeg.webp 1x" media="all and (min-width: 315px) and (max-width: 450px)" type="image/webp" width="450" height="253">
+              <source srcset="https://gameinformer.com/sites/default/files/styles/content_default_mobile_/public/2026/02/27/bb26b5bf/2_pokemon_presents_2.27.2026_-_0-24-401.jpeg.webp 1x" media="all and (max-width: 314px)" type="image/webp" width="450" height="253">
+                  
+
+  </picture>
+
+
+  
+  
+  
+</article>
+
+<h2>Pokémon Winds and Waves</h2><p>The 10th generation of Pokémon has been confirmed as Pokémon Winds and Waves, in a yet-unnamed but seemingly tropical region. We got glimpses of many different biomes and the Pokémon that will inhabit them, as well as a resort-like structure and towns built on the water. Plus, our three new apparent starters: the little bird Browt, the fire puppy Pombon, and water amphibian Gecqua. Also, possibly a tease for diving and underwater activities? This generation of Pokémon will aim for a global release in 2027 on the Switch 2, and we'll likely learn more about it later.</p><hr><p><em><span>How did you feel about this year's Pokémon Day Pokémon Presents livestreams? Did you have a favorite announcement? Which starter are you choosing in Winds and Waves?</span></em></p></div></div><br/><br/>https://gameinformer.com/pokemon-presents/2026/02/27/everything-announced-at-the-february-2026-pokemon-presents]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[I Still Don't Understand The Stock Market After Playing Insider Trading]]></title>
+            <link>https://aftermath.site/insider-trading-stock-market-balatro-roguelike/</link>
+            <guid>1448524</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><article>
+      <p>In <a href="https://store.steampowered.com/app/3166810/Insider_Trading/?ref=aftermath.site" rel="noreferrer"><em>Insider Trading</em></a>, number must go up, but number must also go down. The roguelike deckbuilder, which was released earlier in February, is recognizable as inspired by <em>Balatro</em>—the wildly popular, wacky poker game that sold <a href="https://podcasts.apple.com/in/podcast/deconstructor-of-fun/id1241195252?ref=aftermath.site"><u>at least 7 million copies</u></a> since its release in 2024. Like <em>Balatro</em>, <em>Insider Trading</em> is centered around a deck of ever-changing cards pulled from a buildable collection. Make a great deck, and you're more likely to get it to work in your favor. You're not making a poker hand in <em>Insider Trading</em>, though. You're working the stock market.&nbsp;</p><p>Each day, <em>Insider Trading</em> has you draw a new hand of cards. You can either buy stocks or skip a day—a decision you'll make after looking at your drawn cards. The cards all have different modifiers that impact the stock market prices, like bringing the price up by a few dollars. Some of the cards delete ones next to it. Others will decrease the share price by 10 percent, but only if it's in a certain slot.</p><p>You're doing this daily for a week, hoping to reach a target dollar amount. You earn tokens that let you buy pills (lol) and other perks that modify the cards and the ways they work together. You need the stock prices to go up, so you can make tons of money. But you also don't want to make the price go up <em>too</em> high, where you price yourself out of the market. You'll want to crash the market, at times, by selling all your stocks. Then you can buy more once the price is low.&nbsp;</p><figure><figcaption><span>Image: Naiive</span></figcaption></figure><p>I started playing <em>Insider Trading</em> with the <em>Balatro</em> mindset, in which I wanted the stock prices to go as high as possible. But that's the wrong approach, which makes my brain itch. The strategy behind buying and selling is quite complicated with all these different cards and modifiers. I can't really say that I totally understand what's going on, but that's what makes <em>Insider Trading</em> a strange challenge for me. It doesn't feel good to watch the stock market prices go down, but it's key to getting the number to go up enough.&nbsp;</p><p><em>Insider Trading</em> doesn't have its hooks in me the same way <em>Balatro</em> does, because of the aforementioned confusion underlying everything I do, but I'm still finding it satisfying to play. That's partly due to the retro-inspired interface and its rhythmic soundtrack. The cards activate—a tactile, muffled click—alongside the beat of the music in a <em>very</em> satisfying way. It makes it easy to hit the trade button even when things could go very badly.I imagine this is exactly the interface that day traders on Wall Street are using to do whatever they do there.</p><p>It's a good time for <em>Balatro-</em>like games. <em>Insider Trading</em> is among a group of similar games—at least, with that <em>Balatro </em>feel—including <a href="https://store.steampowered.com/app/3314790/CloverPit/?ref=aftermath.site"><em><u>Clover Pit</u></em></a>, the roguelite slot machine game; <a href="https://store.steampowered.com/app/3430340/Dice_A_Million/?ref=aftermath.site"><em><u>Dice A Million</u></em></a>, the roguelike dice roller; <a href="https://store.steampowered.com/app/3371170/CHARK/?ref=aftermath.site"><em><u>Chark</u></em></a>, the chess roguelike; <a href="https://store.steampowered.com/app/3140120/Wordatro/?ref=aftermath.site"><em><u>Wordatro!</u></em></a>, the roguelike wordgame; and <a href="https://store.steampowered.com/app/3205380/Omelet_You_Cook/?ref=aftermath.site"><em><u>Omelet You Cook</u></em></a>, the cooking roguelike. Anything can be a roguelike, it seems.</p><p><em>Insider Trading</em> has a demo available to play. Otherwise, it's $10.95 on Steam until next week. (It just came out on Feb. 18, so this is an offer tied to its release date.) I don't know much about insider trading, but <em>Insider Trading</em> is probably <a href="https://aftermath.site/kalshi-mrbeast-insider-trading/"><u>a lot more fun than real insider trading</u></a> which usually comes with jail time.</p>
+    </article></div><br/><br/>https://aftermath.site/insider-trading-stock-market-balatro-roguelike/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[Pokémon Winds & Waves revealed – Coming to Switch 2 in 2027]]></title>
             <link>https://www.thesixthaxis.com/2026/02/27/pokemon-winds-waves-revealed-coming-to-switch-2-in-2027/</link>
@@ -48,9 +816,9 @@
 <p>Too much water</p>
 </section></header><section>
 
-<p>The Pokémon Company wrapped up today's Presents with the reveal of <a href="https://www.nintendolife.com/games/nintendo-switch-2/pokemon-winds-and-waves">Pokémon Winds &amp; Waves</a>, the new mainline games in the series.</p>
+<p>The Pokémon Company wrapped up <a href="https://www.nintendolife.com/news/2026/02/watch-pokemon-presents-february-2026-live">today's Presents</a> with the reveal of <a href="https://www.nintendolife.com/games/nintendo-switch-2/pokemon-winds-and-waves">Pokémon Winds &amp; Waves</a>, the new mainline games in the series.</p>
 <p>We don't have anything specific on the release date front at the moment, though TPC confirmed that the games will receive a "global simultaneous release" at some point in <strong>2027</strong>.</p>
-<p>This was more than we expected for a first peek! Aside from some panning shots of the new region (complete with its fair share of water-y areas, naturally), the trailer also introduced the game's three starters: Browt, Pombon and Gecqua.</p>
+<p>This was more than we expected for a first peek! Aside from some panning shots of the new region (complete with its fair share of water-y areas, naturally), the trailer also introduced the game's three starters: <strong>Browt</strong>, <strong>Pombon</strong>, and <strong>Gecqua</strong>.</p>
 <p>There was also the tease of underwater exploration (hello, Gen III fans), and Pikachu in some rather swanky summer outfits — they are characters in their own right called Mr. Windychu and Ms. Wavychu (yes, really).</p>
 <p>Here's a bit more info about the upcoming titles' region and differences from <a href="https://www.pokemon.com/uk/pokemon-news/see-the-new-trailer-for-pokemon-winds-and-pokemon-waves-coming-to-nintendo-switch-2">The Pokémon Company</a>:</p>
 <blockquote>
@@ -58,9 +826,11 @@
 <p>Your main character will sport a different outfit depending on which version of the game you play—and of course, you’ll set out with one of three first partner Pokémon. Will you choose a Grass type by partnering with Browt, the lively but clumsy Bean Chick Pokémon? Or perhaps you’ll heat things up with a Fire type by picking Pombon, the guileless and friendly Puppy Pokémon. If Water types are more your speed, then the intelligent Water Gecko Pokémon, Gecqua, might be the partner for you.</p>
 </blockquote>
 
-<figure data-uuid="a3eb8085676f2"><a title="Pokémon Winds and Waves" href="https://images.nintendolife.com/a3eb8085676f2/pokemon-winds-and-waves.large.jpg"></a><figcaption><em><span></span> Image: Nintendo</em></figcaption></figure>
+
+
 <p>The best news, in our eyes, is that it actually appears to be running pretty well. Sure, the environments look a <em>little</em> sparse at the moment, but the promise of all those different biomes, the exclusive mention of a Switch 2 release (at the time of writing), and the fact that there's still another <em>year</em> of development time for Game Freak to tinker away leaves us cautiously optimistic.</p>
-<p><em>What do you make of Pokémon Winds &amp; Waves? Let us know your gut reaction in the comments.</em></p></section></article><div><p>Jim came to Nintendo Life in 2022 and, despite his insistence that The Minish Cap is the best Zelda game and his unwavering love for the Star Wars prequels (yes, really), he has continued to write news and features on the site ever since.</p><ul><li><a href="https://www.nintendolife.com/authors/JimNorman"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/jimnormann.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('JimNorman');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
+<p><em>What do you make of Pokémon Winds &amp; Waves? Let us know your gut reaction in the comments.</em></p>
+<!-- cache: html:nintendolife.com/ssl/pokemon/related-articles:197850 @ 1772208005 --></section></article><div><p>Jim came to Nintendo Life in 2022 and, despite his insistence that The Minish Cap is the best Zelda game and his unwavering love for the Star Wars prequels (yes, really), he has continued to write news and features on the site ever since.</p><ul><li><a href="https://www.nintendolife.com/authors/JimNorman"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/jimnormann.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('JimNorman');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
 </div></div></div><br/><br/>https://www.nintendolife.com/news/2026/02/pokemon-winds-and-waves-announced-for-switch-2-launching-next-year]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
@@ -68,25 +838,26 @@
             <title><![CDATA[Pokémon-Themed Mini Game Boy Announced, Though It's Not What You Think]]></title>
             <link>https://www.nintendolife.com/news/2026/02/pokemon-themed-mini-game-boy-announced-though-its-not-what-you-think</link>
             <guid>1448494</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="body">
-<article id="article">
-<header><section>
-<p>Music to your ears?</p>
-</section></header><section>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><section>
 
 <p>The Pokémon Company has announced a mini Game Boy as part of its 30th anniversary Pokémon Presents, but it's not quite what you might have in mind.</p>
 <p>The Game Boy Jukebox / Game Music Collection is a small music player themed after Nintendo's Game Boy into which you slot one of 45(!) mini Pokémon Red or Blue cartridges, which unlock one track each from the original 1996 games.</p>
 <p>On the 'inside' face of the carts are pictures showing screenshots from the games corresponding to the track they play.</p>
 
-
+<figure data-uuid="34f5e0e830eef"><a title="Pokémon Game Music Collection" href="https://images.nintendolife.com/34f5e0e830eef/pokemon-game-music-collection.large.jpg"></a><figcaption><em><span></span> Image: Nintendo / The Pokémon Company</em></figcaption></figure>
 <p>Shown off in the <a href="https://www.nintendolife.com/news/2026/02/watch-pokemon-presents-february-2026-live">Pokémon Presents</a> in a segment with original <a href="https://www.nintendolife.com/games/gameboy/pokemon_red_and_blue">Pokémon Red &amp; Blue</a> composer Junichi Masuda, he said that they "took particular care to make the audio sound just like a Game Boy".</p>
 <p>It's available from today (27th February 2026) from the Pokémon Center in North America and the UK, but not from the German, Australian or New Zealand branches. At the time of writing, <a href="https://www.pokemoncenter.com/">the Pokémon Center website</a> has a message saying to "Check Back Later Today to Get the Game Boy Jukebox".</p>
 <p>Here are a couple of pictures of the genuine article. As you can see, it has the product code GBG-01, a nod to the original Game Boy's DMG-01. We've asked if it has a headphone jack and were told that it doesn't.</p>
 
-<p>The <a href="https://www.pokemoncenter-online.com/4521329425030.html">official Japanese website</a> for the device shows off that region's cart and box art for Pokémon Red and <del>Blue</del> Green and lists the price as 9,900 yen - approximately $64 / £47. It's explicitly shown off as a keychain adornment, so it's clear that this is a novelty device and not something for chiptune audiophiles.</p>
-<p><em>Interested in picking this up? We'll update this article with more information as soon as we find out the price.</em></p>
-<!-- cache: html:nintendolife.com/ssl/pokemon/related-articles:198072,197850 @ 1772203654 --></section></article><div><p>Gavin first wrote for Nintendo Life in 2018 before joining the site full-time the following year, rising through the ranks to become Editor. He can currently be found squashed beneath a Switch backlog the size of Normandy.</p><ul><li><a href="https://www.nintendolife.com/authors/dartmonkey"><span></span> Author Profile</a></li><li><a onclick="return replyTo('dartmonkey');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
-</div></div></div><br/><br/>https://www.nintendolife.com/news/2026/02/pokemon-themed-mini-game-boy-announced-though-its-not-what-you-think]]></content:encoded>
+<p>The <a href="https://www.pokemon.co.jp/ex/gameboy_musiccollection/ja/">official Japanese website</a> for the device shows off that region's cart and box art for Pokémon Red and <del>Blue</del> Green and lists the price as 9,900 yen — approximately $64 / £47 — and it's being sold via a lottery in that region, with expected shipping coming in late March. It's explicitly shown off as a keychain adornment on the site, too, so it's clear that this is a novelty device and not something for chiptune audiophiles.</p>
+<p>It is stated to run on 3 LR44 alkaline button cell batteries. Here are the device's dimensions courtesy of Google Translate, if you're interested in that sort of thing:</p>
+<blockquote>
+<p>Main Unit: W5.2 x H8.65 x D1.98 cm (2.2" x 3.6" x 0.6")<br>
+Cartridge (45 cartridges): W3.3 x H3.7 x D0.5 cm (1.3" x 1.7" x 0.5"), approximately 5g per cartridge<br>
+Collection Box: W19.3 x H19.5 x D7 cm (7.2" x 7.6" x 0.7")</p>
+</blockquote>
+<p><em>Interested in picking this up? We'll update this article with more information on the Western release as soon as we find out the details, including the price.</em></p>
+<!-- cache: html:nintendolife.com/ssl/pokemon/related-articles:198072,197850 @ 1772207260 --></section></div><br/><br/>https://www.nintendolife.com/news/2026/02/pokemon-themed-mini-game-boy-announced-though-its-not-what-you-think]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
         <item>
@@ -107,675 +878,6 @@
        
     <p>Joe has been writing for TechRaptor for several years, and in those years has learned a lot about the gaming industry and its foibles. He’s originally an… <a href="https://techraptor.net/author/joseph-allen">More about Joseph</a></p>
   </div></span></p></div></div><br/><br/>https://techraptor.net/gaming/news/pokemon-winds-and-waves-2027]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Pokémon Winds And Waves Finally Revealed And It’s Heading Underwater]]></title>
-            <link>https://kotaku.com/pokemon-presents-winds-waves-pikachu-underwater-2000674398</link>
-            <guid>1448467</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p id="featured-image">
-                              <figure id="attachment_featured" aria-describedby="featured-caption">
-                                                                          <figcaption id="featured-caption">
-                    <span>A person looking at Pokemon.</span> © The Pokémon Company / Kotaku
-                  </figcaption>
-                </figure>
-                                                      </p><div>
-              
-              <p>During today’s Pokémon Presents, The Pokémon Company finally revealed the very leaked games <em>Pokémon Winds</em> and <em>Waves</em>. The games are set in a very aquatic region, revealing swamps, oceans and marinas, with what’s clearly a hugely improved engine to boot.</p> <p>Announced only for the Switch 2 (inevitably disappointing a lot of people, but also perhaps necessary if Game Freak is to escape the continued criticism of its crummy graphics), the next pair of mainline games won’t be coming out until 2027. That means it will have been an unprecedented five years between two main <em>Pokémon</em> games for the first time in the series’ 30-year history.</p>
-
-  <p>What we saw in this reveal trailer showed us a much wetter world than we’re used to in the franchise, and very clearly the ability to go underwater as part of play. How else are we going to reach those Krabby?</p> <p>That’s likely a big part of why this will be on Switch 2 only, given the water effects would have an original Switch emitting smoke and then burning down your house. Beyond that, we’ve been told very little about what will make this game distinct, especially as the only new monsters we’ve seen are the three new starters.</p>
-
- <p>The announcement of 2027 is a huge surprise, given these games were originally expected to appear in 2025. It seemed a given they’d be holiday 2026 releases, not least to give the Switch 2 another Christmas bump, but the ambiguous “2027” means they could still be as much as 22 months away if they stick to their usual time of year.</p>
-
- <p>This at least means we can now begin the process of gathering all the droplets of information that will appear, especially the gradual announcement of all the new pocket monsters to meet in Gen X.</p>
-                          </div></div><br/><br/>https://kotaku.com/pokemon-presents-winds-waves-pikachu-underwater-2000674398]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Everything We Saw In The Pokémon 30th Anniversary Presents]]></title>
-            <link>https://kotaku.com/pokemon-presents-30-anniversary-stream-recap-winds-waves-2000674383</link>
-            <guid>1448464</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-              
-              <p>It’s February 27, and that means it’s&nbsp;<em>Pokémon</em>‘s 30th anniversary. As it does every year on this day, The Pokémon Company held a livestream to talk about upcoming projects and updates to ongoing games like&nbsp;<em>Go</em>,&nbsp;<em>Masters EX</em>, and <em>Trading Card Pocket</em>. If you weren’t able to catch the show live, you can watch it below, or keep scrolling to check out the highlights.</p>  <h2>Game Music Collection</h2> <p>After a big ol’ montage of footage from just about every mainline <em>Pokémon </em>game and some words from Pokémon Company president Tsunekazu Ishihara, the show kicked off announcing what looks like some kind of music player based on the original Game Boy that plays different songs from the original games with swappable cartridges that look like <em>Pokémon Red </em>and&nbsp;<em>Blue</em>. All right, weird way to start, but go off.</p>
-
- <h2>World Championships and Pokémon XP</h2> <p>The stream then recapped the details on its upcoming in-person events in San Francisco, both the World Championships tournament, and the fan event taking place from August 28 to 30. No real new info, but in case you forgot it’s coming up, there ya go.</p> <h2><em>Pokémon Trading Card Game</em></h2> <p>All right, now we’re getting to the games. The first in the showcase was <em>Pokémon Trading Card Game</em>, which is getting new cards celebrating the 30th anniversary later this year.</p> <h2><em>Pokémon Go</em></h2>  <p><em>Pokémon Go</em>‘s 10th anniversary is this year, and the AR game is bringing back previously phased-out monsters to celebrate.</p>
-
- <h2><em>Pokémon Masters EX</em></h2>  <p>The classic iteration of Red, the main character from the original games, is joining the gacha game as a sync pair alongside his Pikachu. New versions of Florian and Juliana, the protagonists of&nbsp;<em>Scarlet&nbsp;</em>and&nbsp;<em>Violet</em>, are also joining the game with Ogerpon and Terapagos respectively.</p>
-
- <h2><em>Pokémon Cafe Remix</em></h2>  <p>The puzzle/management sim game is hosting an event in which you can recruit all the starter Pokémon from the first nine generations, as well as adding new outfits, Pokémon, and 30th anniversary decorations for your shop.</p> <h2><em>Pokémon Sleep</em></h2>  <p>Mew missions are coming to the&nbsp;<em>Sleep&nbsp;</em>app tonight, and the teaser hinted that Latias and Latios will join as well.</p>
-
- <h2><em>Pokémon Unite</em></h2> <p>The MOBA announced several new additions to its roster, including Articuno, Moltres, and Zapdos, as well as all three of the Johto starters: Meganium, Feraligatr, and Typhlosion.</p> <h2><em>Pokémon Trading Card Game Pocket</em></h2> <p>A new card set called Paldean Wonders is coming to&nbsp;<em>TCG Pocket</em>, which spotlights Pokémon and characters from <em>Scarlet&nbsp;</em>and&nbsp;<em>Violet</em>.</p> <h2><em>Pokémon XD: Gale of Darkness</em></h2> <p><em>Pokémon XD: Gale of Darkness</em>, one of the more obscure RPGs from the GameCube era, is coming to Nintendo Switch Online, but only on Switch 2. This will be nice for people who haven’t been able to track down a copy, which typically costs way too goddamn much. It will be available next month.</p> <h2><em>Pokémon FireRed and LeafGreen</em></h2>  <p><em>FireRed&nbsp;</em>and&nbsp;<em>LeafGreen&nbsp;</em>are coming to Switch and Switch 2 after the presentation, and they will be compatible with storage app <em>Pokémon Home </em>so you can transfer your monsters to other games. This compatibility will be coming at a later date.</p>
-
- <h2><em>Pokémon Champions</em></h2>  <p>Next we got a new look at&nbsp;<em>Pokémon Champions</em>, the upcoming battle simulator for Switch consoles and mobile, which will be the first time Mega Evolutions from&nbsp;<em>Legends: Z-A</em> like Raichu and Hawlucha will be playable in the usual competitive format. It’s coming to Switch consoles in April, with a mobile version coming later this year.</p> <h2><em>Pokémon Legends: Z-A </em>–&nbsp;<em>Mega Dimension</em></h2>  <p>After hiding in the code for months, Mega Garchomp Z is finally coming to&nbsp;<em>Pokémon Legends: Z-A </em>as a free update after the stream provided&nbsp;you have the&nbsp;<em>Mega Dimension&nbsp;</em>DLC . This will give you a new quest that will unlock the new Mega Stone.</p>
-
- <h2><em>Pokémon Pokopia</em></h2>  <p>We’re a week away from&nbsp;<em>Pokémon Pokopia</em>‘s launch, and it’s bringing another new form for an old Pokémon with DJ Rotom, a stereo version of the ghost Pokémon that possesses technology, which will play music from across the franchise’s many games. We also met other new characters like Chef Dente, a Greedent that cooks for your town. The show also revealed some more multiplayer footage, which included what looks like a Prop Hunt mode that lets you play hide-and-seek while transforming into items to disguise yourself. The game is coming to Switch 2 on March 5.</p> <h2><em>Pokémon Winds </em>and <em>Waves</em></h2>  <p>Closing out the show is the reason we all showed up.&nbsp;<em>Pokémon Winds </em>and&nbsp;<em>Waves </em>are the next mainline RPGs in the series, kicking off Generation X. In this first footage we see players running through a large open world with different ecosystems mostly filled with old monsters. But we did also meet the new starters: the grass-type Browt, the fire-type Pombon, and the water-type Gecqua. The games will come to Switch 2 in 2027.</p>
-                          </div></div><br/><br/>https://kotaku.com/pokemon-presents-30-anniversary-stream-recap-winds-waves-2000674383]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Pokémon 30th Anniversary TCG Set Revealed For 2026 Release]]></title>
-            <link>https://insider-gaming.com/pokemon-30th-anniversary-tcg-set-revealed-for-2026-release/</link>
-            <guid>1448458</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-        
-<p>Pokémon has revealed the first teaser for a special anniversary TCG launching worldwide later this year, featuring reprints of classic cards from over the years.</p>
-
-
-
-<p>Showcased during the Pokémon Presents stream celebrating 30 years of the franchise, a first look detailed some of the cards that are set to return.</p>
-
-
-
-
-
-
-
-<h2 id="h-pokemon-tcg-anniversary-set-revealed">Pokémon TCG Anniversary Set Revealed</h2>
-
-
-
-<p>In a teaser trailer, fans were shown a slew of cards, including Charizard from the original base set, Pikachu &amp; Zekrom Tag Team from the Sun &amp; Moon era, along with Lv. X, V, Crystal, and other gimmicks from over the years.</p>
-
-
-
-<p>No release date for the anniversary TCG set was shared, nor was the set name, but the set is likely to drop in the West as a holiday set this summer. </p>
-
-
-
-<p>For the first time, the set will debut simultaneously across the world, unlike the usual procedure where Japan gets the latest TCG set months ahead of the rest of the world.</p>
-
-
-
-<p>The final sign off teased that “the future awaits,” showcasing Mew and Mewtwo with a striking color palette. </p>
-
-
-
-<p>The list below contains all of the historic Pokémon cards shown during the trailer:</p>
-
-
-
-<ul>
-<li>Charizard (Base Set)</li>
-
-
-
-<li>Lugia (e-Series Crystal)</li>
-
-
-
-<li>Palkia Lv. X</li>
-
-
-
-<li>Uxie (Diamond &amp; Pearl)</li>
-
-
-
-<li>Giratina &amp; Darkrai (Legends)</li>
-
-
-
-<li>Genesect EX</li>
-
-
-
-<li>Solgaleo GX</li>
-
-
-
-<li>Zacian V</li>
-
-
-
-<li>Pikachu &amp; Zekrom GX (Tag Team)</li>
-
-
-
-<li>Raikou (Amazing Rare)</li>
-
-
-
-<li>Arceus VStar</li>
-</ul>
-
-
-
-
-
-
-
-<hr>
-
-
-
-<p>What are your first impressions of the Pokémon 30th anniversary TCG set? Share your thoughts in the <a href="https://discord.com/invite/vwj7zdWxaW" target="_blank" rel="noreferrer noopener">Insider Gaming Discord</a>.</p>
-
-
-
-<p>]For more Pokémon, take a look at <a href="https://insider-gaming.com/pokemon-presents-february-2026-everything-announced/" target="_blank" rel="noreferrer noopener">everything announced during the Pokémon Day showcase</a>, and check out the <a href="https://insider-gaming.com/pokemon-champions-release-date-announced/" target="_blank" rel="noreferrer noopener">release window for Pokémon Champions</a>.</p>
-
-
-        
-            
-
-    <div id="ig-app-cta">
-          <p><i></i> MOBILE APP</p>
-          <h2>Level Up Your Gaming News</h2>
-          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
-          
-          <p><i></i> Available on iOS &amp; Android</p>
-        <!-- <div class="ig-note"><i class="fa-solid fa-bolt"></i> Available on Android</div> -->
-
-        </div>
-
-    
-    
-    </div></div><br/><br/>https://insider-gaming.com/pokemon-30th-anniversary-tcg-set-revealed-for-2026-release/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Pokémon XD: Gale of Darkness Coming to Nintendo Switch Online in March]]></title>
-            <link>https://insider-gaming.com/pokemon-xd-gale-of-darkness-coming-to-nintendo-switch-online-in-march/</link>
-            <guid>1448455</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-        
-<p>Pokémon XD: Gale of Darkness, the classic Nintendo GameCube title, is coming to Nintendo GameCube classics in March. The announcement was made during the recent Pokémon Presents: 30th Anniversary livestream. No specific date was announced.</p>
-
-
-
-<p>The game was originally released in August 2005, and was a console released more in line with the traditional Pokémon RPG games on Nintendo’s handheld consoles at the time. The game also featured the debut of Munchlax and Bonsly. It received mediocre reviews at the time, but plenty of fans are excited to have access to it again.</p>
-
-
-
-<p>Pokémon Colosseum, which was released first on GameCube, was not shown during the presentation.</p>
-
-
-
-<h2 id="h-pokemon-is-showing-lots-of-love-to-the-mid-2000s">Pokémon Is Showing Lots of Love to the Mid-2000s</h2>
-
-
-
-<p>The Pokémon Company also recently announced that Pokémon FireRed and LeafGreen would be available on Nintendo Switch 2. The titles are available now, bringing those Game Boy Advance classics back to players. </p>
-
-
-
-<p>Unlike Pokémon XD: Gale of Darkness, those games are not available on Nintendo Switch Online. Rather, they are full digital downloads available for $20 per game.</p>
-
-
-
-
-
-
-
-<p>Insider Gaming will provide further news on the game’s release when a release date is announced. Check out everything that was announced during the 30th Anniversary Pokémon Presents livestream <a href="https://insider-gaming.com/pokemon-presents-february-2026-everything-announced/">here</a>.</p>
-
-
-
-<p>For more Pokémon on Insider Gaming, learn who Lady Gaga says is her favorite Pokémon by checking out the<a href="https://insider-gaming.com/lady-gaga-and-more-name-their-favorite-pokemon-during-super-bowl-60-commercial/" id="175208"> commercial they ran during Super Bowl 60.</a></p>
-
-
-
-<hr>
-
-
-
-<p>How do you feel about the announcement of Pokémon XD: Gale of Darkness coming to Nintendo Switch Online in March? Sound off in our official <a href="https://discord.com/invite/vwj7zdWxaW">Discord server.</a> Also, don’t forget to <a href="https://insider-gaming.com/subscribe">sign up for our weekly newsletter</a>.&nbsp;<br></p>
-
-
-        
-            
-
-    <div id="ig-app-cta">
-          <p><i></i> MOBILE APP</p>
-          <h2>Level Up Your Gaming News</h2>
-          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
-          
-          <p><i></i> Available on iOS &amp; Android</p>
-        <!-- <div class="ig-note"><i class="fa-solid fa-bolt"></i> Available on Android</div> -->
-
-        </div>
-
-    
-    
-    </div></div><br/><br/>https://insider-gaming.com/pokemon-xd-gale-of-darkness-coming-to-nintendo-switch-online-in-march/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[New Pokémon Pokopia Features Revealed During Pokémon Presents 2026]]></title>
-            <link>https://insider-gaming.com/new-pokemon-pokopia-features-revealed-during-pokemon-presents-2026/</link>
-            <guid>1448449</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-        
-<p>Some brand new details were revealed for Pokémon Pokopia ahead of its imminent March 5 release date. These were shared during the special Pokémon Presents showcase, which celebrated Pokémon’s 30th Anniversary as a franchise.</p>
-
-
-
-<p><a href="https://insider-gaming.com/tag/pokemon-pokopia/" id="https://insider-gaming.com/tag/pokemon-pokopia/" target="_blank" rel="noreferrer noopener">Pokémon Pokopia</a> is the latest spinoff title for the series, and you’ll take control of a Ditto with the ability to transform into a human. You’ll attract and gather new Pokémon to join your island as you create various habitats to create a world in your vision.</p>
-
-
-
-<h2 id="h-new-details-for-pokemon-pokopia">New Details For Pokémon Pokopia</h2>
-
-
-
-<p>Three major new details were shared for <a href="https://insider-gaming.com/what-is-pokemon-pokopia/" id="https://insider-gaming.com/what-is-pokemon-pokopia/" target="_blank" rel="noreferrer noopener">Pokémon Pokopia</a> during the showcase, the first being a brand new Rotom form, DJ Rotom.</p>
-
-
-
-<p>Throughout Pokopia, you’ll be able to find and collect CDs and give them to DJ Rotom to play. These range from classic Pokémon soundtracks to brand-new hits, and you can switch them on the go. </p>
-
-
-
-<p>Next up was Greedent’s reveal, who was introduced as Chef Dente. Greedent will teach you how to cook different meals, which can be consumed by the player character to improve certain moves, or fed to different Pokémon you’ve collected. Each Pokémon will favor different foods, so you’ll want to discover new recipes to keep everyone happy and fed!</p>
-
-
-
-<p>Finally, there were some new details pertaining to multiplayer. Pokopia will support up to <a href="https://insider-gaming.com/pokemon-pokopia-multiplayer-co-op-split-screen/" id="https://insider-gaming.com/pokemon-pokopia-multiplayer-co-op-split-screen/" target="_blank" rel="noreferrer noopener">four players in online multiplayer</a>, and it was revealed that you can play a form of hide and seek with your friends. As Ditto, you can also transform into a variety of objects to help you hide around the island, as well as build large structures together.</p>
-
-
-
-<hr>
-
-
-
-<p>Are you excited to try out Pokémon Pokopia? Share your thoughts on the upcoming title in the official <a href="https://discord.com/invite/vwj7zdWxaW" id="https://discord.com/invite/vwj7zdWxaW" target="_blank" rel="noreferrer noopener">Insider Gaming Discord Server</a>.</p>
-
-
-
-<p>For more Pokémon content, check out <a href="https://insider-gaming.com/is-pokemon-coming-to-fortnite/" id="https://insider-gaming.com/is-pokemon-coming-to-fortnite/" target="_blank" rel="noreferrer noopener">whether they’re coming to Fortnite</a>, as well as <a href="https://insider-gaming.com/pokemon-fire-red-leaf-green-all-differences/" id="https://insider-gaming.com/pokemon-fire-red-leaf-green-all-differences/" target="_blank" rel="noreferrer noopener">the differences between Fire Red and Leaf Green</a>.</p>
-
-
-        
-            
-
-    <div id="ig-app-cta">
-          <p><i></i> MOBILE APP</p>
-          <h2>Level Up Your Gaming News</h2>
-          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
-          
-          <p><i></i> Available on iOS &amp; Android</p>
-        <!-- <div class="ig-note"><i class="fa-solid fa-bolt"></i> Available on Android</div> -->
-
-        </div>
-
-    
-    
-    </div></div><br/><br/>https://insider-gaming.com/new-pokemon-pokopia-features-revealed-during-pokemon-presents-2026/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Resident Evil Requiem Confirmed as First Game to Use Sony's Upgraded PSSR Upscaler on PS5 Pro, More to Come in March]]></title>
-            <link>https://www.ign.com/articles/resident-evil-requiem-confirmed-as-first-game-to-use-sonys-upgraded-pssr-upscaler-on-ps5-pro-more-to-come-in-march</link>
-            <guid>1448446</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><section data-cy="article-content" data-autopogo="true"><p data-cy="paragraph">Sony has confirmed that <a data-cy="styled-link" href="https://www.ign.com/games/resident-evil-requiem">Resident Evil Requiem</a> is the first game to use its upgraded PSSR upscaler on PlayStation 5 Pro.</p><p data-cy="paragraph">The company made it official in a post on the <a href="https://blog.playstation.com/2026/02/27/upgraded-pssr-upscaler-is-coming-to-ps5-pro/" data-cy="styled-link" target="_blank" rel="noopener noreferrer">PlayStation Blog</a>, where Mark Cerny, Lead Architect, PS5 and PS5 Pro, said the upgraded version of PSSR (PlayStation Spectral Super Resolution) is rolling out globally to PS5 Pro players in the coming weeks.</p><p data-cy="paragraph">PSSR is an AI library that analyzes game images pixel by pixel as it upscales them, and it’s been used to boost the effective resolution of over 50 titles on PS5 Pro to date, Cerny explained.</p><output data-cy="article-video"></output><p data-cy="paragraph">“We’ve been hard at work on a new version of PSSR, which takes a very different approach to not only the neural network but also the overall algorithm,” he added. “We are happy to share that Resident Evil Requiem — shipping today — is the first title to use this more advanced PSSR, which is helping to keep both frame rate and image quality high.”</p><p data-cy="paragraph">Capcom’s Masaru Ijuin, Senior Manager Engine Development Support Section R&amp;D Foundational Technology Department, commented: “With Resident Evil Requiem, we focused on enhancing the presentation quality of the protagonist through an upgraded version of RE Engine to deepen the player’s immersion in horror. For example, each individual strand of hair and beard is rendered as a polygon, allowing it to move realistically in response to body motion and wind. The way light passes through his hair changes depending on how the strands of hair are overlapped as well. This detailed expression of texture is one of the many details that we would especially love for our fans to see.</p><p data-cy="paragraph">“The upgraded PSSR has allowed us to elevate our expressiveness by successfully processing these details and textural particularities, which are traditionally difficult to upscale because of their intricacy. We hope you will experience this unprecedented level of horror and visual fidelity, and the new gameplay feel it delivers.”</p><p data-cy="paragraph">To illustrate the point, Sony published one screenshot of Resident Evil Requiem featuring original PSSR upscaling alongside the same image featuring the new PSSR upscaling. The strands of hair do look slightly more defined in the second screenshot.</p><output data-cy="article-slideshow"><span data-cy="slideshow-view-trigger"><div data-cy="slideshow-preview"><h3 data-cy="slideshow-preview-title">Resident Evil Requiem Upgraded PSSR Upscaler PS5 Pro Comparison Screenshots</h3></div></span></output><p data-cy="paragraph">Cerny said the algorithm and neural network used in the new PSSR stems from Sony’s Project Amethyst partnership with AMD. “Through AMD’s FSR 4 upscaling technology, PC gamers have already seen the benefits of our collaboration,” he said. “With the updated PSSR, we’re delivering the very latest of this co-developed technology with a further six months of refinement for PS5 Pro players.”</p><p data-cy="paragraph">Sony said multiple existing games will be upgraded to the improved PSSR in March, but there’s no word yet on which games will be included. There will also be a system software update at that time; selecting “Enhance PSSR Image Quality” in Settings on PS5 Pro will allow you to experience the new PSSR with any PS5 Pro games that currently support PSSR.</p><p data-cy="paragraph">“Once the system update releases next month, try it and see, some games may have noticeably crisper graphics,” Cerny said.</p><output><figure><a href="https://assets-prd.ignimgs.com/2026/02/27/972bb427abf83263cbd620377e02a6284602da82-1772199338255.jpg" target="_blank" rel="noopener noreferrer"></a><figcaption data-cy="caption">Image credit: Sony Interactive Entertainment.</figcaption></figure></output><p data-cy="paragraph">While the game has only been available a few hours, <a data-cy="styled-link" href="https://www.ign.com/articles/resident-evil-requiem-launches-big-on-steam-breaks-series-record">Requiem is already Steam's biggest ever launch for a Resident Evil title</a>. Meanwhile, <a data-cy="styled-link" href="https://www.ign.com/articles/resident-evil-requiem-has-a-convoluted-challenge-called-the-final-puzzle-and-the-race-is-now-on-to-get-it-fully-solved">fans are still puzzling through a convoluted in-game mystery that has stumped players with early copies</a> — it's more complicated than anything seen in the franchise to date, and something we're keeping a close eye on.</p><p data-cy="paragraph">"Like the result of an experiment conducted in an underground Umbrella Corporation lab, Resident Evil Requiem successfully splices two separate strains of survival horror together into the one highly infectious new mutation," IGN wrote in our human-authored <a data-cy="styled-link" href="https://www.ign.com/articles/resident-evil-requiem-review">Resident Evil Requiem review</a>, awarding the game 9/10.</p><p data-cy="paragraph"><a data-cy="styled-link" href="https://www.ign.com/wikis/resident-evil-requiem">IGN's Resident Evil: Requiem guide</a> will help you every step of the way through RE9. Take note of these key <a data-cy="styled-link" href="https://www.ign.com/wikis/resident-evil-requiem/Essential_Tips_and_Tricks">tips and tricks</a> before you get started, and focus on finding these <a data-cy="styled-link" href="https://www.ign.com/wikis/resident-evil-requiem/Important_Items_to_Find_Early">important items early</a>. Plus, our comprehensive <a data-cy="styled-link" href="https://www.ign.com/wikis/resident-evil-requiem/Walkthrough">walkthrough</a> will make sure you don't miss a single <a data-cy="styled-link" href="https://www.ign.com/wikis/resident-evil-requiem/Bobblehead_Locations">Bobblehead</a> or <a data-cy="styled-link" href="https://www.ign.com/wikis/resident-evil-requiem/File_Locations">file</a> as you try to survive from the Rhodes Hill Chronic Care Center all the way to Raccoon City.</p><p data-cy="paragraph"><em>Wesley is Director, News at IGN. Find him on Twitter at @wyp100. You can reach Wesley at wesley_yinpoole@ign.com or confidentially at wyp100@proton.me.</em></p></section><div><h3 data-cy="title3"><svg data-cy="icon-logo" viewBox="0 0 76 24" title="IGN"><title>IGN Logo</title><path fill="currentColor" stroke="none" d="M5.38 7.65a7.85 7.85 0 0 1 2.26-2.26c.13-1.18.31-2.26.52-3.21a10.605 10.605 0 0 0-6 6c.95-.22 2.03-.39 3.21-.52M16.34 5.36v.02c.9.59 1.67 1.37 2.27 2.27 1.18.13 2.26.31 3.21.52a10.627 10.627 0 0 0-6.02-6.01c.22.95.4 2.02.54 3.2M7.64 18.62c-.9-.59-1.67-1.37-2.27-2.27h-.03c-1.19-.14-2.26-.32-3.19-.54 1.07 2.75 3.26 4.95 6.01 6.02-.22-.95-.39-2.03-.52-3.21M18.64 16.35h-.03c-.59.9-1.37 1.67-2.27 2.27v.03c-.14 1.17-.32 2.25-.54 3.19a10.59 10.59 0 0 0 6.03-6.03c-.94.22-2 .4-3.19.54M10.04 0h3.9c.85 1.85 1.2 4.59 1.3 5.52.04.22.06.43.06.63L12 9.11 8.7 6.15c0-.17.02-.35.05-.55.1-.95.43-3.75 1.29-5.61M8.7 17.83c0 .17.02.35.05.55.1.95.43 3.75 1.29 5.61h3.9c.85-1.84 1.2-4.59 1.3-5.52.04-.22.06-.43.06-.64L12 14.87l-3.3 2.96ZM6.16 8.68c-.17 0-.35.02-.55.05-.95.12-3.75.45-5.61 1.31v3.9c1.84.85 4.59 1.19 5.52 1.3.22.04.43.06.64.06L9.11 12 6.16 8.7ZM24 10.02c-1.86-.86-4.66-1.19-5.61-1.29-.2-.03-.38-.05-.55-.05l-2.96 3.3 2.96 3.3c.2 0 .41-.02.64-.06.93-.11 3.68-.45 5.52-1.3v-3.9Z"></path><path fill="currentColor" stroke="none" d="M42.83 13.9V10h10.45c1.06 0 1.93.86 1.93 1.92v4.63c0 2.38-1.91 4.36-4.33 4.36h-6.69c-4.96 0-8.97-4-8.97-8.94s4.04-8.95 8.98-8.95h10.36v4.11H44.2c-2.67 0-4.86 2.17-4.86 4.84s2.16 4.83 4.86 4.83h6.91v-2.91h-8.27ZM33.86 3h-4.07v16.02c0 1.05.86 1.91 1.91 1.91h2.15V3M74.37 3.01h-2.18v13.81s0 .08-.03.11a.29.29 0 0 1-.24.14c-.09 0-.16-.04-.25-.15L64.83 4.93a4.347 4.347 0 0 0-3.72-2.11h-.07c-2.39 0-4.32 1.93-4.32 4.32v11.88c0 1.05.86 1.91 1.91 1.91h2.17V7.14s.02-.09.04-.13a.29.29 0 0 1 .24-.14c.09 0 .18.03.24.14l6.88 12.07c.76 1.27 2.12 2.05 3.69 2.05h.07c2.39 0 4.32-1.93 4.32-4.32V4.92c0-1.05-.85-1.91-1.91-1.91"></path></svg>Recommends</h3></div></div><div><h3 data-cy="object-summary-embed-title">In This Article</h3></div></div><br/><br/>https://www.ign.com/articles/resident-evil-requiem-confirmed-as-first-game-to-use-sonys-upgraded-pssr-upscaler-on-ps5-pro-more-to-come-in-march]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA['No Matter if You're a Runner or a Raider, Loot Is Loot' — Bungie and Embark All Smiles on Social Media After Marathon Temporarily Censored Arc Raider]]></title>
-            <link>https://www.ign.com/articles/no-matter-if-youre-a-runner-or-a-raider-loot-is-loot-bungie-and-embark-all-smiles-on-social-media-after-marathon-temporarily-censored-arc-raiders-in-chat</link>
-            <guid>1448440</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><section data-cy="article-subtitle" data-autopogo="true"><p data-cy="paragraph">The battle of the extraction shooters is on, but developers Bungie and Embark are presenting a united front on social media — even after <a data-cy="styled-link" href="https://www.ign.com/games/marathon">Marathon</a> temporarily censored <a data-cy="styled-link" href="https://www.ign.com/games/arc-raiders">Arc Raiders</a> in chat.</p><p data-cy="paragraph">After the Marathon Server Slam event went live yesterday (<a data-cy="styled-link" href="https://www.ign.com/articles/marathon-server-slam-gets-big-player-numbers-on-steam-bungie-acknowledges-ui-and-pvp-frequency-complaints">and hit impressive Steam concurrent player numbers</a>), players noticed that Embark’s hugely successful Arc Raiders was censored in chat.</p><p data-cy="paragraph">A clip showing Tyler 'Ninja' Blevins of Fortnite fame finding this out for himself went viral on social media after Jake Lucky posted it to Twitter / X, below. Other competitive shooters, such as Halo, Counter-Strike, and Apex Legends, were not censored.</p><blockquote data-theme="light"><p data-cy="paragraph" lang="en" dir="ltr">ARC Raiders is censored in Marathon's chat in game LOL <a href="https://t.co/W2XUiYfJ3S" data-cy="styled-link" target="_blank" rel="noopener noreferrer">pic.twitter.com/W2XUiYfJ3S</a></p>— Jake Lucky 🔜 GDC (@JakeSucky) <a href="https://twitter.com/JakeSucky/status/2027112371601408438?ref_src=twsrc%5Etfw" data-cy="styled-link" target="_blank" rel="noopener noreferrer">February 26, 2026</a></blockquote> <p data-cy="paragraph">This censorship didn’t last long, and Arc Raiders is now allowed in Marathon chat. But the odd situation did spark a wholesome follow-up as the official Marathon account replied to the viral tweet to declare “Arc Raiders is awesome,” in an in-game chat screenshot.</p><p data-cy="paragraph">And now, the official Arc Raiders account has replied to Marathon with a similarly loving statement: “No matter if you're a Runner or a Raider, loot is loot. We’ll save you a seat in the shuttle 🫶”</p><blockquote data-theme="light"><p data-cy="paragraph" lang="en" dir="ltr">No matter if you're a Runner or a Raider, loot is loot.<br>We’ll save you a seat in the shuttle 🫶</p>— ARC Raiders (@ARCRaidersGame) <a href="https://twitter.com/ARCRaidersGame/status/2027333076351688808?ref_src=twsrc%5Etfw" data-cy="styled-link" target="_blank" rel="noopener noreferrer">February 27, 2026</a></blockquote> <p data-cy="paragraph">So, all smiles on social media for now. But of course there’s huge pressure on Marathon to do well for Bungie, especially after Destiny 2’s downturn and the significant internal struggles at the legendary studio. In November, <a data-cy="styled-link" href="https://www.ign.com/articles/sony-says-bungie-hasnt-brought-in-as-much-money-as-it-thought-it-would-when-it-bought-the-developer-as-destiny-2-falls-off-a-cliff">Bungie parent company Sony said the studio had failed to meet its sales and user engagement expectations</a>, and recorded a 31.5 billion yen (approx. $204.2 million) impairment charge as a result. That was significant enough to drag down profits at Sony’s Game &amp; Network Services Segment, which includes Sony Interactive Entertainment.</p><p data-cy="paragraph">Sony chief financial officer (CFO) Lin Tao said at the time: “Regarding Destiny 2, partially due to the changes in the competitive environment, the level of sales and user engagement have not reached the expectations we had at the time of the acquisition of Bungie. While we will continue to make improvements, we downwardly revised the business projection for the time being, and recorded an impairment loss against a portion of the assets at Bungie.”</p><p data-cy="paragraph">A few months before Sony's financial report, in August last year, <a data-cy="styled-link" href="https://www.ign.com/articles/pete-parsons-is-leaving-bungie"><u>Bungie CEO Pete Parsons left the company after 23 years and nearly 10 as CEO</u></a>. He was succeeded by Justin Truman, previously chief development officer and fellow Bungie veteran. Parsons oversaw Bungie during many turbulent years, first taking over as CEO in 2016 from Harold Ryan and overseeing its break from Activision in 2019. He was at the helm throughout many of the events catalogued in our <a data-cy="styled-link" href="https://www.ign.com/articles/bungie-report-battle-soul-work-culture-harassment-crunch"><u>2021 report on Bungie's internal work culture</u></a>. Just months after our report, Bungie <a data-cy="styled-link" href="https://www.ign.com/articles/sony-has-completed-its-37-billion-deal-to-acquire-bungie-and-welcome-it-into-the-playstation-family"><u>was acquired by Sony for $3.7 billion</u></a>, ending the studio's flirtation with independence.</p><output data-cy="article-video"></output><p data-cy="paragraph">As the acquisition settled in, concerns began to arise about the studio's future. Destiny 2 was struggling, and Marathon was still years away. Then the layoffs came. In 2023, <a data-cy="styled-link" href="https://www.ign.com/articles/bungie-hit-with-lay-offs-as-destiny-2-the-final-shape-and-marathon-are-reportedly-delayed"><u>Bungie laid off roughly 100 individuals</u></a> and delayed Destiny 2's The Final Shape DLC, with Parsons taking responsibility for the cuts. Developers told IGN at the time that the <a data-cy="styled-link" href="https://www.ign.com/articles/bungie-devs-say-atmosphere-is-soul-crushing-amid-layoffs-cuts-and-fear-of-total-sony-takeover"><u>atmosphere at Bungie was "soul-crushing"</u></a> as fears grew of a total Sony takeover of the company. In 2024, this was followed up with <a data-cy="styled-link" href="https://www.ign.com/articles/destiny-developer-bungie-cuts-220-staff-some-of-the-most-difficult-changes-weve-ever-had-to-make-as-a-studio"><u>even more layoffs</u></a>, impacting 220 people despite The Final Shape's success. 155 people were also integrated from Bungie into Sony at this time. In the wake of those layoffs, <a data-cy="styled-link" href="https://www.ign.com/articles/former-bungie-worker-claims-studio-faced-insolvency-without-sony-acquisition-report"><u>former workers claimed Bungie misrepresented its finances and had significantly overextended itself when Sony acquired the studio</u></a>. It was apparently bad enough that at least one source described as a "well-connected former worker" went so far as to claim that Bungie faced dire consequences if the acquisition hadn't happened, saying that the "alternate history is insolvency."</p><p data-cy="paragraph">Troubles continued to rock the studio through the rest of 2024 and into 2025, with <a data-cy="styled-link" href="https://www.ign.com/articles/marathon-delayed-as-bungie-promises-to-reveal-new-release-date-this-fall"><u>Marathon seeing a delay out of its previous September 2025</u></a> release window. Most recently, Sony confirmed Bungie would be integrated into PlayStation Studios so the company could have more control over the developer.</p><p data-cy="paragraph">Back in June last year, <a data-cy="styled-link" href="https://www.ign.com/articles/sony-admits-marathon-feedback-has-been-varied-but-insists-it-will-avoid-repeating-concord-mistakes-and-commits-to-launch-by-end-of-march-2026"><u>Sony said it remained committed to live service video games</u></a> despite high-profile failures such as <a data-cy="styled-link" href="https://www.ign.com/games/concord"><u>Concord</u></a>, and insisted Marathon would be out before April 2026 despite the mixed alpha feedback and <a data-cy="styled-link" href="https://www.ign.com/articles/marathon-developer-bungie-launches-thorough-review-after-once-again-being-found-to-have-used-work-from-an-uncredited-artist"><u>damaging accusations of plagiarism against Bungie</u></a>. Since then Bungie has worked to improve not only Marathon, but the sentiment among gamers around it.</p><p data-cy="paragraph"><a data-cy="styled-link" href="https://www.ign.com/articles/playstation-shooter-concord-going-offline-this-week"><u>Sony will be keen to avoid another catastrophic launch like Concord, which was pulled offline just two weeks after launch</u></a>, with one estimate suggesting it <a data-cy="styled-link" href="https://www.ign.com/articles/concord-is-estimated-to-have-sold-only-25000-units-heres-why-analysts-think-its-failing"><u>sold just 25,000 copies</u></a>. It has proved a costly failure for Sony, with hundreds of millions of dollars wasted amid the closure of its developer, Firewalk Studios. Bungie now faces concern over its own future, with the pressure on Marathon to deliver. Marathon launches proper across PC, PS5, and Xbox Series X and S next week.</p><p data-cy="paragraph"><em>Wesley is Director, News at IGN. Find him on Twitter at @wyp100. You can reach Wesley at wesley_yinpoole@ign.com or confidentially at wyp100@proton.me.</em></p></section></div><br/><br/>https://www.ign.com/articles/no-matter-if-youre-a-runner-or-a-raider-loot-is-loot-bungie-and-embark-all-smiles-on-social-media-after-marathon-temporarily-censored-arc-raiders-in-chat]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA['It Was Just Straight Up False Advertising' — Warhammer 40,000: Space Marine 2's $5 Voice Pack DLC Sparks the Game's First Really Big Backlash Since L]]></title>
-            <link>https://www.ign.com/articles/it-was-just-straight-up-false-advertising-warhammer-40000-space-marine-2s-5-voice-pack-dlc-sparks-the-games-first-really-big-backlash-since-launch</link>
-            <guid>1448434</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><section data-cy="article-content" data-autopogo="true"><p data-cy="paragraph"><a data-cy="styled-link" href="https://www.ign.com/games/warhammer-40000-space-marine-ii">Warhammer 40,000: Space Marine 2</a>’s long-awaited patch 12.0 launched this week, and with it came the new playable class, the Techmarine (<a data-cy="styled-link" href="https://www.ign.com/articles/warhammer-40000-space-marine-2-techmarine-update-out-now-check-out-patch-120">check out the patch notes here if you want to know what's included</a>). And while fans are having fun getting to grips with this new Astartes, Space Marine 2’s first ever voice pack has sparked a backlash.</p><p data-cy="paragraph">The $4.99 Chapter Voice Pack 1 includes 450 re-recorded voicelines and a unique Space Marine Head cosmetic for each of the following Space Marine Chapters: Blood Angels, Space Wolves and Black Templars. It’s only available as a standalone purchase, and is not included in either the Season Pass 1 or Season Pass 2 (much to the annoyance of some fans). But it’s the way these new voice lines are incorporated into the game that has caused a “mostly negative” Steam user review rating for the DLC.</p><p data-cy="paragraph">It turns out that equipping a DLC voiceline will revert to the class’ default voice when interacting with objectives, like when searching a Cadian’s body for codes in Inferno. This was unexpected and, in gameplay, a jarring switch. It means the Ultramarine standard voice lines still play for all the dialogue related to interactive elements within missions, so your Space Marine’s voice will flip flop back and forth, which feels awkward and janky.</p><output data-cy="article-video"></output><p data-cy="paragraph">Meanwhile, some players feel misled by the 450 re-recorded voicelines number on the Steam page. Most believe this number includes re-recorded voicelines across all languages, not just one.</p><p data-cy="paragraph">“I have no idea where they got the 450 voicelines from, it mixes with the standard voice lines when doing operations and it sounds dead silent during the mission because there is no banter,” reads one negative review. “So far the only the difference that is noticeable is that emotes are different. The description seems very deceptive, I am very curious to find out where they got 450 number from.”</p><p data-cy="paragraph">“I am insanely DISAPPOINTED!” reads another. “I've tested the Blood angels voice and I was disappointed that his lines were 80-90% what Vespasius [Vespasius is a Jump Pack Assault Intercessor of the Ultramarines Second Company and leader of Combat Squad Talasa] is just saying besides a few lines. FINE, maybe the writers aren't there anymore. But WHY IN THE EMPEROR'S NAME are the Ops voices not changed???? Check for the Inferno missions, on the part where your obtaining codes for the dead guardsmen, THE BLOOD ANGEL VOICE BECOMES LITERALLY VESPASIUS AGAIN WHEN HE DOESN'T GET THE CODE OR WHEN HE OBTAINS THE CODES!</p><p data-cy="paragraph">“Not to mention there are no voices for the helmet versions yet! I'm wearing a helmet and my Blood Angel voice sounds like he doesn't got one! MAN I'm disappointed!”</p><p data-cy="paragraph">Another disgruntled fan said: “Such a low-effort underwhelming DLC. Each of these voices lock you out of character banters, objective dialogues are spoken by the original character's voice actor through the vox instead the one you spent $5 on. Adding to the laziness, some voice lines are the same as their vanilla counterparts (ex. the Space Wolf sharing almost all of his reload alerts with Decimus) to the point where you're even questioning if you changed voices altogether. Something that Saber doesn't mention is also how after selecting a voice for a character, you can't revert that decision unless you spend 400 accolades to buy it back. Another complaint is how every single one of the faces presented in this DLC is the most unfazed depiction of stoicism in the galaxy, no expressions or lip sync whatsoever, just pure unadulterated void in each of their eyes. On a positive note however, each voice has different lines for every special ability, showcasing yet again how class locking is a moronic idea in PvE games.”</p><output data-cy="article-slideshow"><span data-cy="slideshow-view-trigger"><div data-cy="slideshow-preview"><h3 data-cy="slideshow-preview-title">Warhammer 40,000: Space Marine 2 - Chapter Voice Pack 1 Screenshots</h3></div></span></output><p data-cy="paragraph">It’s a similar situation on the Space Marine subreddit, which is currently littered with complaints. <a href="https://www.reddit.com/r/Spacemarine/comments/1rfkid1/im_just_sad/" data-cy="styled-link" target="_blank" rel="noopener noreferrer">One redditor posted a screenshot of a successful refund on the DLC</a>, saying: “The voice pack is just not a worth the money. Not only was it underwhelming but I almost feel like it was just straight up false advertising. No mission dialogue? No banter between brothers or even not finding data on a Guardsmen? They gave us the option to equip the voice pack and keep our helmets on, but there is no helmet filter for the voices either. I’m a Black Templar fan and to my dismay, it seems like a lot of the voice lines are reused ones from Assault.</p><p data-cy="paragraph">“I know they’d have to add voice lines to every new and existing mission, but that’s what you should be paying them to do. Why would they not go all the way and just release the pack at a higher price ? I’m not trying to be hateful, this game introduced me to the 40k universe and got me hooked. I love this game, I have sunk so many hours into it. That being said I’m just sad this didn’t meet the expectations that a lot of the community had.”</p><p data-cy="paragraph">“Waiting to see if Steam will refund mine right now,” said another customer. “I did earlier. I hope Saber is getting slammed with refund fees for this nonsense,” another said. “From day one I've been telling people: it’s 700 lines in seven languages for three characters. So around 30 lines per character,” another said. “Saber did an abysmal job managing expectations. Telling people the amount of lines including all language versions is like measuring your dick and including the length of your spine.”</p><output data-cy="article-video"></output><p data-cy="paragraph">The upshot of all this is that what should have been a positive time for Space Marine 2, with all the cool new additions that came with patch 12.0, is instead perhaps the first meaningful community uproar the game has faced since its record-breaking launch in 2024. Space Marine 2 has been a huge success for Focus, developer Saber, and Warhammer owner Games Workshop, and is credited with leading an army of new fans to the hobby. It's so successful that Games Workshop has made Titus, the game's protagonist, the poster boy of the Warhammer 40,000 tabletop game. <a data-cy="styled-link" href="https://www.ign.com/games/warhammer-40000-space-marine-iii">Space Marine 3</a> was announced as in development soon after Space Marine 2 came out.</p><p data-cy="paragraph">So this DLC backlash is a rare misstep for Saber and Focus when it comes to Space Marine 2, but it will no doubt fuel concern some already have that the priority for both now is the development of Space Marine 3. IGN has asked publisher Focus Entertainment for comment.</p><p data-cy="paragraph"><em>Wesley is Director, News at IGN. Find him on Twitter at @wyp100. You can reach Wesley at wesley_yinpoole@ign.com or confidentially at wyp100@proton.me.</em></p></section><div><h3 data-cy="title3"><svg data-cy="icon-logo" viewBox="0 0 76 24" title="IGN"><title>IGN Logo</title><path fill="currentColor" stroke="none" d="M5.38 7.65a7.85 7.85 0 0 1 2.26-2.26c.13-1.18.31-2.26.52-3.21a10.605 10.605 0 0 0-6 6c.95-.22 2.03-.39 3.21-.52M16.34 5.36v.02c.9.59 1.67 1.37 2.27 2.27 1.18.13 2.26.31 3.21.52a10.627 10.627 0 0 0-6.02-6.01c.22.95.4 2.02.54 3.2M7.64 18.62c-.9-.59-1.67-1.37-2.27-2.27h-.03c-1.19-.14-2.26-.32-3.19-.54 1.07 2.75 3.26 4.95 6.01 6.02-.22-.95-.39-2.03-.52-3.21M18.64 16.35h-.03c-.59.9-1.37 1.67-2.27 2.27v.03c-.14 1.17-.32 2.25-.54 3.19a10.59 10.59 0 0 0 6.03-6.03c-.94.22-2 .4-3.19.54M10.04 0h3.9c.85 1.85 1.2 4.59 1.3 5.52.04.22.06.43.06.63L12 9.11 8.7 6.15c0-.17.02-.35.05-.55.1-.95.43-3.75 1.29-5.61M8.7 17.83c0 .17.02.35.05.55.1.95.43 3.75 1.29 5.61h3.9c.85-1.84 1.2-4.59 1.3-5.52.04-.22.06-.43.06-.64L12 14.87l-3.3 2.96ZM6.16 8.68c-.17 0-.35.02-.55.05-.95.12-3.75.45-5.61 1.31v3.9c1.84.85 4.59 1.19 5.52 1.3.22.04.43.06.64.06L9.11 12 6.16 8.7ZM24 10.02c-1.86-.86-4.66-1.19-5.61-1.29-.2-.03-.38-.05-.55-.05l-2.96 3.3 2.96 3.3c.2 0 .41-.02.64-.06.93-.11 3.68-.45 5.52-1.3v-3.9Z"></path><path fill="currentColor" stroke="none" d="M42.83 13.9V10h10.45c1.06 0 1.93.86 1.93 1.92v4.63c0 2.38-1.91 4.36-4.33 4.36h-6.69c-4.96 0-8.97-4-8.97-8.94s4.04-8.95 8.98-8.95h10.36v4.11H44.2c-2.67 0-4.86 2.17-4.86 4.84s2.16 4.83 4.86 4.83h6.91v-2.91h-8.27ZM33.86 3h-4.07v16.02c0 1.05.86 1.91 1.91 1.91h2.15V3M74.37 3.01h-2.18v13.81s0 .08-.03.11a.29.29 0 0 1-.24.14c-.09 0-.16-.04-.25-.15L64.83 4.93a4.347 4.347 0 0 0-3.72-2.11h-.07c-2.39 0-4.32 1.93-4.32 4.32v11.88c0 1.05.86 1.91 1.91 1.91h2.17V7.14s.02-.09.04-.13a.29.29 0 0 1 .24-.14c.09 0 .18.03.24.14l6.88 12.07c.76 1.27 2.12 2.05 3.69 2.05h.07c2.39 0 4.32-1.93 4.32-4.32V4.92c0-1.05-.85-1.91-1.91-1.91"></path></svg>Recommends</h3></div></div><div><h3 data-cy="object-summary-embed-title">In This Article</h3></div></div><br/><br/>https://www.ign.com/articles/it-was-just-straight-up-false-advertising-warhammer-40000-space-marine-2s-5-voice-pack-dlc-sparks-the-games-first-really-big-backlash-since-launch]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Nintendo Switch Pokémon Games Are on Sale for Pokémon Day]]></title>
-            <link>https://www.ign.com/articles/nintendo-switch-pokmon-games-are-on-sale-for-pokmon-day</link>
-            <guid>1448431</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p data-cy="page-header"><h2 data-cy="article-sub-headline">Don't miss out, these deals end today.</h2></p><div><section data-cy="article-content" data-autopogo="true"><p data-cy="paragraph">There's a whole bunch of <a data-cy="styled-link" href="https://www.ign.com/articles/best-pokemon-day-deals-2026">great deals that are now live for Pokémon's 30th Anniversary celebrations</a>, and that includes some outstanding new discounts on Pokémon games for Nintendo Switch consoles.</p><p data-cy="paragraph">Amazon’s Woot store has been known to offer a bunch of deals in the past, but it might just have outdone itself this time around with its <a href="https://zdcs.link/ak1K2w?object_uuid=e73a3d0a-2fba-47c6-b577-a24cf68b524b&amp;t=article" data-cy="styled-link" target="_blank" rel="nofollow">brand new "Video Games For All!" sale</a>. The biggest standout is on Legends Z-A, <a href="https://zdcs.link/QrJXRm?object_uuid=e73a3d0a-2fba-47c6-b577-a24cf68b524b&amp;t=article" data-cy="styled-link" target="_blank" rel="nofollow"><u>which is down just $35.92 on Nintendo Switch</u></a> when using promo code LEVEL20.</p><p data-cy="paragraph">IGN's Rebekah Valentine gave the game an 8 out of 10 <a data-cy="styled-link" href="https://www.ign.com/articles/pokemon-legends-z-a-review"><u>in her review last year</u></a>, saying “Pokémon Legends: Z-A finally feels like Game Freak hitting its stride in Pokémon’s 3D era, with a fun setting to explore, a well-written story, and a total battle system overhaul that works surprisingly well.” </p><p data-cy="paragraph">It now even features in our special <a data-cy="styled-link" href="https://www.ign.com/articles/the-10-best-pokemon-video-games">10 Best Pokémon Video Games of All Time</a> roundup, "It may be the most recent game in the franchise, but Pokémon Legends: Z-A is an exciting look into the future of pocket monsters. A total overhaul of the classic 30-year old battle system sees turn-based attack rallies transformed into real-time action sequences, bringing the video games closer to the epic clashes of the beloved anime than ever before."</p><output data-cy="article-video"></output><p data-cy="paragraph">You can also upgrade to the Switch 2 version digitally as well for just $10 after making your purchase, making this a certified bargain. Plus, Legends Z-A isn't the only game up for grabs at a discount either, as you can also score Scarlet for just $35.99, which is one of the best prices I've ever seen on the Gen 9 game. Violet is also available at a discount, if just a slight bit more expensive at $37.59. Both of these run incredibly on Switch 2, so I'd highly recommend playing them on the new console if you can.</p><p data-cy="paragraph">There's also Legends Arceus, Sword, and Let's Go Pikachu and Eevee, all available at a reduced price today. But, and this is a big but, these are <strong>certified Pokémon Day deals</strong> that <em>will </em>expire by the end of today (February 27, 11:59 PM CT, to be exact). I wouldn't be surprised is several sell out even before then, so act fast to avoid disappointment.</p><p data-cy="paragraph">Robert Anderson is IGN's Senior Commerce Editor and resident deals expert on games, collectibles, trading card games, and more. You can follow him <a href="https://bsky.app/profile/robertliam21.bsky.social" data-cy="styled-link" target="_blank" rel="noopener noreferrer">@robertliam21 on Bluesky</a>.</p></section><div><h3 data-cy="title3"><svg data-cy="icon-logo" viewBox="0 0 76 24" title="IGN"><title>IGN Logo</title><path fill="currentColor" stroke="none" d="M5.38 7.65a7.85 7.85 0 0 1 2.26-2.26c.13-1.18.31-2.26.52-3.21a10.605 10.605 0 0 0-6 6c.95-.22 2.03-.39 3.21-.52M16.34 5.36v.02c.9.59 1.67 1.37 2.27 2.27 1.18.13 2.26.31 3.21.52a10.627 10.627 0 0 0-6.02-6.01c.22.95.4 2.02.54 3.2M7.64 18.62c-.9-.59-1.67-1.37-2.27-2.27h-.03c-1.19-.14-2.26-.32-3.19-.54 1.07 2.75 3.26 4.95 6.01 6.02-.22-.95-.39-2.03-.52-3.21M18.64 16.35h-.03c-.59.9-1.37 1.67-2.27 2.27v.03c-.14 1.17-.32 2.25-.54 3.19a10.59 10.59 0 0 0 6.03-6.03c-.94.22-2 .4-3.19.54M10.04 0h3.9c.85 1.85 1.2 4.59 1.3 5.52.04.22.06.43.06.63L12 9.11 8.7 6.15c0-.17.02-.35.05-.55.1-.95.43-3.75 1.29-5.61M8.7 17.83c0 .17.02.35.05.55.1.95.43 3.75 1.29 5.61h3.9c.85-1.84 1.2-4.59 1.3-5.52.04-.22.06-.43.06-.64L12 14.87l-3.3 2.96ZM6.16 8.68c-.17 0-.35.02-.55.05-.95.12-3.75.45-5.61 1.31v3.9c1.84.85 4.59 1.19 5.52 1.3.22.04.43.06.64.06L9.11 12 6.16 8.7ZM24 10.02c-1.86-.86-4.66-1.19-5.61-1.29-.2-.03-.38-.05-.55-.05l-2.96 3.3 2.96 3.3c.2 0 .41-.02.64-.06.93-.11 3.68-.45 5.52-1.3v-3.9Z"></path><path fill="currentColor" stroke="none" d="M42.83 13.9V10h10.45c1.06 0 1.93.86 1.93 1.92v4.63c0 2.38-1.91 4.36-4.33 4.36h-6.69c-4.96 0-8.97-4-8.97-8.94s4.04-8.95 8.98-8.95h10.36v4.11H44.2c-2.67 0-4.86 2.17-4.86 4.84s2.16 4.83 4.86 4.83h6.91v-2.91h-8.27ZM33.86 3h-4.07v16.02c0 1.05.86 1.91 1.91 1.91h2.15V3M74.37 3.01h-2.18v13.81s0 .08-.03.11a.29.29 0 0 1-.24.14c-.09 0-.16-.04-.25-.15L64.83 4.93a4.347 4.347 0 0 0-3.72-2.11h-.07c-2.39 0-4.32 1.93-4.32 4.32v11.88c0 1.05.86 1.91 1.91 1.91h2.17V7.14s.02-.09.04-.13a.29.29 0 0 1 .24-.14c.09 0 .18.03.24.14l6.88 12.07c.76 1.27 2.12 2.05 3.69 2.05h.07c2.39 0 4.32-1.93 4.32-4.32V4.92c0-1.05-.85-1.91-1.91-1.91"></path></svg>Recommends</h3></div></div><div><h3 data-cy="object-summary-embed-title">In This Article</h3></div></div><br/><br/>https://www.ign.com/articles/nintendo-switch-pokmon-games-are-on-sale-for-pokmon-day]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Pokemon Winds and Waves announced for Switch 2]]></title>
-            <link>https://www.gematsu.com/2026/02/pokemon-winds-and-waves-announced-for-switch-2</link>
-            <guid>1448428</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-    <ul>
-    <li><a href="https://www.gematsu.com/platforms/nintendo/switch-2">Switch 2</a></li>    </ul>
-
-    
-    <p><span>Due out in 2027 worldwide.</span>
-      </p></div><div><p>Publisher <a title="Companies > The Pokemon Company [444 articles]" href="https://www.gematsu.com/companies/the-pokemon-company">The Pokemon Company</a> and developer <a title="Companies > Game Freak [295 articles]" href="https://www.gematsu.com/companies/game-freak">Game Freak</a> have announced <em><a title="Series > Pokemon [44 articles]" href="https://www.gematsu.com/series/pokemon">Pokemon</a> Winds</em> and <em>Pokemon Waves</em> for <a title="Platforms > Switch [18,382 articles]" href="https://www.gematsu.com/platforms/nintendo/switch">Switch</a> 2. Both titles will launch in 2027 worldwide. <span id="more-1029207"></span></p><p>The new generation <em>Pokemon</em> game will feature new starter Pokemon Browt (Grass-type), Pombon (Fire-type), and Gecqua (Water-type), as well as special Pikachu—Mr. Windychu and Ms. Wavychu.</p><p>Here are the first details:</p><blockquote><p>Developed by Game Freak Inc., the <em>Pokemon Winds</em> and <em>Pokemon Waves</em> games are the newest entries in the <em>Pokemon</em> <a title="Genres > RPG [18,071 articles]" href="https://www.gematsu.com/genres/rpg">RPG</a> series and are scheduled for release in 2027 on the <a title="Platforms > Switch 2 [1,049 articles]" href="https://www.gematsu.com/platforms/nintendo/switch-2">Nintendo Switch 2</a> system. These new titles feature an open world to explore, with beautiful windswept islands and a vast ocean with glittering waves.</p><p>Trainers will play as the main character of this <a title="Genres > Adventure [2,912 articles]" href="https://www.gematsu.com/genres/adventure">adventure</a>, where they will have a different outfit depending on the version they are playing. Players will then choose their first partner Pokemon—either Browt, the Bean Chick Pokemon; Pombon, the Puppy Pokemon; or Gecqua, the Water Gecko Pokemon—before setting off on their journey.</p><p><strong>Browt</strong></p><!-- AD: content -->
-        <ul><li><strong>Category:</strong> Bean Chick Pokemon</li><li><strong>Type:</strong> Grass</li><li><strong>Height:</strong> 1′ (0.3 m)</li><li><strong>Weight:</strong> 7.7 lbs. (3.5 kg)</li><li><strong>Ability:</strong> Overgrow</li></ul><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2026/02/Pokemon-Winds-and-Waves_2026_02-27-26_032.png"></a></figure><p><strong>Pombon</strong></p><ul><li><strong>Category:</strong> Puppy Pokemon</li><li><strong>Type:</strong> Fire</li><li><strong>Height:</strong> 1’4″ (0.4 m)</li><li><strong>Weight:</strong> 14.8 lbs. (6.7 kg)</li><li><strong>Ability:</strong> Blaze</li></ul><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2026/02/Pokemon-Winds-and-Waves_2026_02-27-26_035.png"></a></figure><p><strong>Gecqua</strong></p><ul><li><strong>Category:</strong> Water Gecko Pokemon</li><li><strong>Type:</strong> Water</li><li><strong>Height:</strong> 1′ (0.3 m)</li><li><strong>Weight:</strong> 9.5 lbs. (4.3 kg)</li><li><strong>Ability:</strong> Torrent</li></ul><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2026/02/Pokemon-Winds-and-Waves_2026_02-27-26_038.png"></a></figure><p>Beginning with <em>Pokemon Winds</em> and <em>Pokemon Waves</em>, Brazilian Portuguese will officially be supported as a selectable language for players. By expanding our supported languages, we aim to make Pokemon more accessible to players around the world, furthering the brand’s goal of bringing the world together through Pokemon.</p></blockquote><p>Watch the announcement trailer below. View the first screenshots <a href="https://www.gematsu.com/gallery/pokemon-winds-waves/february-27-2026/">at the gallery</a>. Visit the official website here: <a href="https://windswaves.pokemon.com/en-us/" target="_blank">English</a> / <a href="https://www.pokemon.co.jp/ex/winds_waves/ja/" target="_blank">Japanese</a>.</p><h2><span>Announce Trailer</span></h2><p><strong>English</strong></p><p><iframe loading="lazy" title="First Look: Pokémon Winds and Pokémon Waves | Announcement Trailer" width="500" height="281" src="https://www.youtube.com/embed/38XHXMdDegg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p><p><strong>Japanese</strong></p><p><iframe loading="lazy" title="【公式】『ポケットモンスター ウインド・ウェーブ』1st Trailer" width="500" height="281" src="https://www.youtube.com/embed/dKGIw93XTJ0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p><h2><span>Screenshots</span></h2><div id="carousel_1029671"><ul><li><span>❮</span></li><li><span>❯</span></li></ul></div></div></div><br/><br/>https://www.gematsu.com/2026/02/pokemon-winds-and-waves-announced-for-switch-2]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Pokémon Champions Launches On Switch This April, Mobile Later This Year]]></title>
-            <link>https://gameinformer.com/pokemon-presents/2026/02/27/pokemon-champions-launches-on-switch-this-april-mobile-later-this-year</link>
-            <guid>1448410</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div property="schema:text"><p>The Pokémon Company has revealed that <a href="https://gameinformer.com/product/pokemon-champions">Pokémon Champions</a>, its battle-focused game, will launch on Nintendo Switch in April. The mobile version, playable on iOS and Android devices, will be released later this year.&nbsp;</p><p>Similar to older Pokémon games, like Pokémon Stadium back in the Nintendo 64 era, Pokémon Champions will allow players around the world to battle each other with all kinds of pocket monsters. It will "feature familiar mechanics such as Pokémon types, Abilities, and moves, creating an environment conducive to rich and varied strategies for new and experienced Trainers alike," according to the game's description. Revealed during the Pokémon Day Presents showcase held in February of last year, we finally know that we can play Pokémon Champions on Switch (and Switch 2, though a Switch 2 Edition hasn't been announced) in April, before it comes to mobile devices later this year.&nbsp;</p><p><strong>You can check out an overview of Pokémon Champions in the trailer below:&nbsp;</strong></p><p height="360" width="640" url="https://www.youtube.com/embed/N4v--PNtHWA"><iframe width="640" height="360" src="https://www.youtube.com/embed/N4v--PNtHWA" frameborder="0" allow="autoplay" allowfullscreen="true">&nbsp;</iframe></p><hr><p><em>Are you excited for Pokémon Champions? Let us know your party in the comments below!</em></p></div></div><br/><br/>https://gameinformer.com/pokemon-presents/2026/02/27/pokemon-champions-launches-on-switch-this-april-mobile-later-this-year]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Pokémon XD: Gale of Darkness Comes To Switch 2 Next Month]]></title>
-            <link>https://gameinformer.com/pokemon-presents/2026/02/27/pokemon-xd-gale-of-darkness-comes-to-switch-2-next-month</link>
-            <guid>1448407</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div property="schema:text"><p>It's not just any Pokémon Day – today is Pokémon's 30th anniversary. To celebrate, The Pokémon Company held its annual Pokémon Presents livestream, which includes news about new games and looks back on the series history. Midway through, it made an announcement that checks both those boxes: Pokémon XD: Gale of Darkness is coming to Nintendo Switch Online. The game was first revealed as coming to the service <a href="https://gameinformer.com/nintendo-direct/2025/04/02/gamecube-games-are-coming-to-switch-2" data-entity-type="node" data-entity-uuid="e966601c-2be1-41ad-8ee8-7c76a507bc41" data-entity-substitution="canonical">during Nintendo's April 2025 Nintendo Switch 2 reveal Direct</a>, but we haven't heard any news about its arrival in the GameCube library since.</p>
-
-
-
-<article data-entity-type="file" data-entity-uuid="50da28f2-b1af-460b-91aa-448cd465097d" data-embed-button="image_browser_uploader" data-entity-embed-display="image:responsive_image" data-entity-embed-display-settings="{&quot;responsive_image_style&quot;:&quot;content_body&quot;,&quot;image_loading&quot;:{&quot;attribute&quot;:&quot;lazy&quot;},&quot;image_link&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;,&quot;link_target&quot;:0,&quot;link_original&quot;:0,&quot;image_source&quot;:&quot;&quot;,&quot;embed_source&quot;:0,&quot;image_caption&quot;:&quot;&quot;,&quot;embed_caption&quot;:0,&quot;content_warning&quot;:0}" data-langcode="en">
-
-  
-          <picture>
-                  <source srcset="https://gameinformer.com/sites/default/files/styles/body_default/public/2026/02/27/aca5563e/pokemon_presents_2.27.2026_11-32_screenshot.jpg.webp 1x" media="all and (min-width: 851px)" type="image/webp" width="800" height="450">
-              <source srcset="https://gameinformer.com/sites/default/files/styles/content_default_mobile_/public/2026/02/27/aca5563e/pokemon_presents_2.27.2026_11-32_screenshot.jpg.webp 1x" media="all and (min-width: 315px) and (max-width: 450px)" type="image/webp" width="450" height="253">
-              <source srcset="https://gameinformer.com/sites/default/files/styles/content_default_mobile_/public/2026/02/27/aca5563e/pokemon_presents_2.27.2026_11-32_screenshot.jpg.webp 1x" media="all and (max-width: 314px)" type="image/webp" width="450" height="253">
-                  
-
-  </picture>
-
-
-  
-  
-  
-</article>
-
-<p>Gale of Darkness is a GameCube exclusive, and like other games on the system, it's been notoriously hard to play legitimately, with physical copies going for insanely high prices online. Now, it will be available to play <a href="https://gameinformer.com/nintendo-direct/2025/04/02/gamecube-games-are-coming-to-switch-2">on the Nintendo Switch Online expansion pack</a>, alongside games like <a href="https://gameinformer.com/2026/01/09/fire-emblem-path-of-radiance-joins-switch-online-gamecube-library">Fire Emblem: Path of Radiance</a> or The Legend of Zelda: The Wind Waker. Like other GameCube games in the expansion back, it'll be exclusive to Switch 2.</p><p>The current release date hasn't been fully nailed down, but today's livestream said Gale of Darkness will come it the service in March, so it should be right around the corner.</p><p>For more Pokémon news, <a href="https://gameinformer.com/pokemon-presents/2026/02/27/game-boy-shaped-pokemon-soundtrack-player-announced">check out the bizarre new music player the company announced</a>.</p></div></div><br/><br/>https://gameinformer.com/pokemon-presents/2026/02/27/pokemon-xd-gale-of-darkness-comes-to-switch-2-next-month]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Nintendo's making a mini Game Boy music player with collectible Pokémon Red and Blue music cartridges]]></title>
-            <link>https://www.eurogamer.net/nintendos-making-a-mini-game-boy-music-for-pokemon</link>
-            <guid>1448404</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
-
-
-<header data-component="article-header">
-  
-
-    <div id="main-content">
-        
-
-        <p>And it's apparently out today.</p>
-
-    </div>
-
-
-  <p>
-
-  <figure>
-      <picture>
-        <source srcset="https://assetsio.gnwcdn.com/pokemon-game-boy.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/pokemon-game-boy.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/pokemon-game-boy.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/pokemon-game-boy.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/pokemon-game-boy.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/pokemon-game-boy.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/pokemon-game-boy.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/pokemon-game-boy.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/pokemon-game-boy.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>Nintendo</cite></span>
-        </figcaption>
-  </figure>
-  </p>
-
-    
-
-</header>
-  <div data-component="article-content">
-
-
-
-            <p>Nintendo is making a mini Game Boy-styled music player that will play special Pokémon Red and Blue music cartridges that look like Game Boy games. This palm-sized device is being released today.</p>
-<p>The music player was announced by Pokémon music man Junichi Masuda during <a href="https://www.eurogamer.net/heres-everything-announced-in-todays-30th-anniversary-pokemon-presents-showcase">this afternoon's Pokémon Presents</a>, where we heard that there will be 45 songs/cartridges to collect for the music player device. This represents all of the songs from the Red and Blue Pokémon game, and "particular care" has apparently been made to make the player's audio sound like in the originating Pokémon game.</p>
-<p>There's <a href="https://www.pokemon.co.jp/ex/gameboy_musiccollection/ja/">a Japanese website for the new device</a> that lists a price of JPY 9900, which translates to £47, but I can't find any European regional details yet.</p>
- <p><span data-type="targeting">
-<span>To see this content please enable targeting cookies.</span>
-</span></p><figure>
- 
-
-
-<figcaption><span>Image credit: <cite>Nintendo</cite></span></figcaption>
-</figure>
-
-        </div>
-
-  
-      </article>
-
-
-
-  
-
-
-
-  
-
-  <section>
-    <span>Related topics</span>
-
-    
-  </section>
-  </div></div><br/><br/>https://www.eurogamer.net/nintendos-making-a-mini-game-boy-music-for-pokemon]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Pokémon's 10th generation Winds and Waves will not release until 2027 and is exclusive to the Nintendo Switch 2]]></title>
-            <link>https://www.eurogamer.net/pokemons-10th-generation-winds-and-waves-will-not-release-until-2027-and-is-exclusive-to-the-nintendo-switch-2</link>
-            <guid>1448401</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
-
-
-<header data-component="article-header">
-  
-
-    
-
-
-  <p>
-
-  <figure>
-      <picture>
-        <source srcset="https://assetsio.gnwcdn.com/pokemon-winds-waves-starters.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/pokemon-winds-waves-starters.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/pokemon-winds-waves-starters.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/pokemon-winds-waves-starters.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/pokemon-winds-waves-starters.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/pokemon-winds-waves-starters.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/pokemon-winds-waves-starters.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/pokemon-winds-waves-starters.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/pokemon-winds-waves-starters.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>Pokemon Company / Game Freak</cite></span>
-        </figcaption>
-  </figure>
-  </p>
-
-    
-
-</header>
-  <div data-component="article-content">
-
-
-
-            <p>Pokémon Wind and Waves, the 10th generation of mainline Pokémon games, have just been revealed during today's 30th anniversary celebratory event. It's set to release in 2027 simultaneously.</p>
-<p>The reveal, a gameplay trailer introducing us to a variety of Pokémon new and old, takes us through various locations in game, including a volcano, beaches, and sapphire blue oceans. </p>
-<p>In terms of setting, Winds and Waves appears to be based in a locale inspired by South East Asia. We also got a quick look at what appear to be the three new starters: Grass-type Browt, Fire-type Pombon, and Water-type Gecqua.</p>
-
-<figure>
-<p>
-<a aria-label="[UK] First Look: Pokémon Winds and Pokémon Waves | Announcement Trailer" data-platform="youtube" href="https://www.youtube.com/embed/Rfz8dR2P8kY?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
-<span>[UK] First Look: Pokémon Winds and Pokémon Waves | Announcement Trailer</span>
-<template>
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/Rfz8dR2P8kY?autoplay=1" frameborder="0" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/Rfz8dR2P8kY?autoplay=1" title="[UK] First Look: Pokémon Winds and Pokémon Waves | Announcement Trailer">
-</iframe> </template>
-</a>
-</p>
-<figcaption>Here's the new trailer for Winds and Waves.<a href="https://www.youtube.com/watch?v=Rfz8dR2P8kY" rel="noopener" target="_blank">Watch on YouTube</a></figcaption></figure>
-
-
-<p>Perhaps the biggest stinger of the trailer is that the 10th generation of Pokémon will be missing a 2026 release. At the tail end of the trailer, both logos for Winds and Waves were shown, alongside the line: "global simultaneous release in 2027". It'll also be released on the <a href="https://www.eurogamer.net/platforms/switch-2">Nintendo Switch 2</a>. This is notable as the Winds and Waves trailer did not feature a Nintendo Switch 1 logo, indicating it'll release solely on Nintendo's latest console.</p>
-<p>If you want to check out all the newest reveals from today's 30th anniversary stream, you can do so courtesy of <a href="https://www.eurogamer.net/heres-everything-announced-in-todays-30th-anniversary-pokemon-presents-showcase">Eurogamer's Pokémon 30th anniversary livestream recap</a>!</p>
-
-        </div>
-
-  
-      </article>
-
-
-
-  
-
-
-
-  
-
-  <section>
-    <span>Related topics</span>
-
-    
-  </section>
-  </div></div><br/><br/>https://www.eurogamer.net/pokemons-10th-generation-winds-and-waves-will-not-release-until-2027-and-is-exclusive-to-the-nintendo-switch-2]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Yes, you can transfer Pokémon from the new Leaf Green and Fire Red ports to modern games as Home support confirmed]]></title>
-            <link>https://www.eurogamer.net/yes-you-can-transfer-pokemon-from-the-new-leaf-green-and-fire-red-ports-to-modern-games-as-home-support-unlocked</link>
-            <guid>1448398</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
-
-
-<header data-component="article-header">
-  
-
-    
-
-
-  <p>
-
-  <figure>
-      <picture>
-        <source srcset="https://assetsio.gnwcdn.com/images-of-Pokemon-FireRed-and-Pokemon-LeafGreen-cover-art.png?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/images-of-Pokemon-FireRed-and-Pokemon-LeafGreen-cover-art.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/images-of-Pokemon-FireRed-and-Pokemon-LeafGreen-cover-art.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/images-of-Pokemon-FireRed-and-Pokemon-LeafGreen-cover-art.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/images-of-Pokemon-FireRed-and-Pokemon-LeafGreen-cover-art.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/images-of-Pokemon-FireRed-and-Pokemon-LeafGreen-cover-art.png?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/images-of-Pokemon-FireRed-and-Pokemon-LeafGreen-cover-art.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/images-of-Pokemon-FireRed-and-Pokemon-LeafGreen-cover-art.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/images-of-Pokemon-FireRed-and-Pokemon-LeafGreen-cover-art.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>The Pokémon Company</cite></span>
-        </figcaption>
-  </figure>
-  </p>
-
-    
-
-</header>
-  <div data-component="article-content">
-
-
-
-            <p>The Pokémon company has just announced a key feature of conveniance for the upcoming Nintnedo Online versions of Pokémon FireRed and LeafGreen. Pokémon you catch in these classics can be transfered over to more contemporary titles via Pokémon Home.
-</p>
-<p>This was a big sticking point for Pokémon fans, who were curious as to whether any of the classic Pokémon present in these generation one ports would be accessible across other titles. This feature has been a key interconnecting feature across modern releases in the series. Without it, these re-releases of classic games would be a tad barebones.
-</p>
-<p>While the Pokémon FireRed and LeafGreen re-release has been known about for a while now, <a href="https://www.eurogamer.net/pokemon-fire-red-leaf-green-switch-home-support-mention-deleted">soaring up the Nintendo Switch sales charts</a>, whether or not this would be possible was kept a secret from the game's eShop page.</p>
-<p>Pokémon FireRed and LeafGreen are out today, available for sale for £16.99 or your regional equivalent.
-</p>
-<p>If you want to know what else was revealed in the 30th anniversary presentation, <a href="https://www.eurogamer.net/heres-everything-announced-in-todays-30th-anniversary-pokemon-presents-showcase">you can read our Pokémon Presentation recap here</a>.</p>
-
-        </div>
-
-  
-      </article>
-
-
-
-  
-
-
-
-  
-
-  <section>
-    <span>Related topics</span>
-
-    
-  </section>
-  </div></div><br/><br/>https://www.eurogamer.net/yes-you-can-transfer-pokemon-from-the-new-leaf-green-and-fire-red-ports-to-modern-games-as-home-support-unlocked]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[FSR 4-Derived New PSSR for PS5 Pro Unveiled; Resident Evil Requiem Is the First Game to Get It]]></title>
-            <link>https://wccftech.com/new-pssr-ps5pro-unveiled-resident-evil-requiem-first-game/</link>
-            <guid>1448371</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			
-			<p><strong>Sony</strong> has just announced that the highly anticipated new version of the <strong>PSSR</strong> (<strong>PlayStation Spectral Super Resolution</strong>) upscaler for <strong>PlayStation 5 Pro</strong> is ready and will roll out next month, with CAPCOM's Resident Evil Requiem (out today and <a href="https://wccftech.com/resident-evil-requiem-smashes-previous-franchise-records-steam/" target="_blank" rel="noreferrer noopener">already doing well on Steam</a>) as the first game to implement it.</p>
-
-
-
-<p>The announcement came with a statement from CAPCOM's <strong>Masaru Ijuin</strong> (Senior Manager, Engine Development Support Section, R&amp;D Foundational Technology Department), who said:</p>
-
-
-
-<p><em>The upgraded PSSR has allowed us to elevate our expressiveness by successfully processing these details and textural particularities, which are traditionally difficult to upscale because of their intricacy. We hope you will experience this unprecedented level of horror and visual fidelity, and the new gameplay feel it delivers.</em></p>
-
-
-
-<p>Digital Foundry <a href="https://www.youtube.com/watch?v=Mk5QtqsSj8Y&amp;t=1117s&amp;pp=ygUPZGlnaXRhbCBmb3VuZHJ5" target="_blank" rel="noreferrer noopener">has already tested the new PSSR in Resident Evil Requiem</a> and <strong>reported that it's a major improvement over the first-generation upscaler</strong>, which often wasn't nearly as clean and sharp as it should have been, given that it was a machine-learning algorithm. When compared to AMD FSR 4 and NVIDIA DLSS 4.5 on PC, PSSR "2.0" still showed more aliasing; however, it also showed less ghosting and better sharpness than AMD FSR 4 in some instances. Still, the team added that Resident Evil Requiem might not be the best game for this kind of comparison, given its dark atmosphere, continuous use of depth of field, and heavy film grain. </p>
-
-
-
-<p>The good news is that the new <strong>PSSR will be available as a system-wide toggle</strong> called "<strong>Enhance PSSR Image Quality</strong>", which will activate the new model.</p>
-
-
-
-<figure></figure>
-
-
-
-<p>PS5 Pro Lead System Architect <strong>Mark Cerny</strong> <a href="https://blog.playstation.com/2026/02/27/upgraded-pssr-upscaler-is-coming-to-ps5-pro/" target="_blank" rel="noreferrer noopener">noted in a blog post</a> that this is the latest fruit of the <a href="https://wccftech.com/amd-fsr4-ps5-pro-2026-rdna5/" target="_blank" rel="noreferrer noopener">ongoing <strong>Project Amethyst</strong> collaboration with AMD</a>, the next stepping stone after <strong>AMD FSR 4</strong> (and therefore likely in part derived from it):</p>
-
-
-
-<p><em>The algorithm and neural network used in the new PSSR stem from our Project Amethyst partnership with AMD. Through AMD’s&nbsp;FSR 4 upscaling technology,&nbsp;PC gamers have already seen the benefits of our collaboration.&nbsp;With the updated PSSR,&nbsp;we’re&nbsp;delivering&nbsp;the very latest of this co-developed technology&nbsp;with&nbsp;a further six months of refinement&nbsp;for PS5 Pro players.</em></p>
-
-
-
-<p>Meanwhile, AMD's Senior VP and GM of Computing and Graphics, <strong>Jack Huynh</strong>, <a href="https://x.com/jackhuynh/status/2027369641488592898" target="_blank" rel="noreferrer noopener">congratulated Sony on the launch and teased</a> that <strong>these advancements would be available on AMD FSR 4 for PC in the next few months</strong>.</p>
-
-			
-			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
-
-		</div></div><br/><br/>https://wccftech.com/new-pssr-ps5pro-unveiled-resident-evil-requiem-first-game/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Pokémon Presents 2026: all the news and trailers]]></title>
-            <link>https://www.theverge.com/games/885578/pokemon-presents-2026-news-trailers</link>
-            <guid>1448368</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><section><p>It’s that time of year: A whole bunch of Pokémon news is incoming. February 27th is the date the franchise first debuted, and The Pokémon Company uses it as a chance to outline its plans in <a href="https://www.theverge.com/games/881332/nintendo-pokemon-presents-pokemon-day">a Pokémon Presents showcase</a>. <a href="https://www.theverge.com/nintendo/618678/pokemon-presents-2025-all-the-biggest-news-and-trailers">Last year’s event included the announcement of <em>Pokémon Champions</em></a>, and the 2026 edition should be particularly big, as this year represents the franchise’s 30th anniversary.</p><p>TPCi says simply that it will feature “the latest news and updates from the world of Pokémon,” without getting into any specifics. But there’s a good chance we’ll hear about the next mainline entry in the series, given that <a href="https://www.theverge.com/23462858/pokemon-violet-scarlet-review-nintendo-switch"><em>Scarlet</em> and <em>Violet</em> launched back in 2022</a>. Personally, I’m hoping for an unexpected spinoff along the lines of <em><a href="https://www.theverge.com/23893260/pokemon-sleep-insomnia-app-nintendo-aid">Pokémon Sleep</a></em>.</p><p>One thing we do know is that after the show ends, both <em>Pokémon FireRed</em> and <em>LeafGreen</em> are getting a re-release on the Switch.</p><p>The showcase airs at 9AM ET, and you can keep up with the most important news right here.</p></section><section id="updates-section"><ul><li id="dmcyOnBvc3Q6ODg1MzIx" role="article"><h2><a href="https://www.theverge.com/games/885321/pokemon-winds-and-waves-trailer-browt-pombom-gecua">Pokémon Winds and Waves launch on the Switch 2 in 2027</a></h2><div><p>It’s time to say goodbye to <a href="https://www.theverge.com/23462858/pokemon-violet-scarlet-review-nintendo-switch">the Paldea region</a> because a new generation of mainline <em>Pokémon </em>games are on the way.</p><p>During today’s big <a href="https://www.theverge.com/games/885578/pokemon-presents-2026-news-trailers">Pokémon Presents stream</a>, Nintendo announced that <em>Pokémon Wind </em>and <em>Waves </em>are the next installments in the core game series. The games will launch in 2027 and are exclusive for the Nintendo Switch 2. Nintendo also shared a trailer showcasing a new trio of starter pokémon — Browt, Pombon, and Gecua — and a number of different environments you’ll be able to explore as you play through the games.</p><p><a href="https://www.theverge.com/games/885321/pokemon-winds-and-waves-trailer-browt-pombom-gecua">Read Article &gt;</a></p></div></li><li role="article"><div><p>Green means go.</p><p>As a reminder, now that the stream is over, <em>Pokémon FireRed</em> and <em>LeafGreen</em> — remakes of the original games for the GBA — are now available on the Switch.</p></div></li><li role="article"><div><p>A battle royale.</p><p>The <a href="https://www.theverge.com/news/620196/pokemon-champions-online-pokemon-battles-nintendo-switch-mobile">battle-focused spinoff <em>Pokémon Champions</em></a> has a launch date — or a month, at least. The Nintendo Switch version is out in April, while mobile players will have to wait until later in the year.</p></div></li><li role="article"><div><p>Nintendo’s making a mini Game Boy music player.</p><p>Sure, you can just pull up digital versions of the Junichi Masuda’s music from <em>Pokémon Red </em>and <em>Blue</em>. Or you can pick up one of the new Game Boy-inspired music players Nintendo is releasing along with 45 different cartridges that seem to play one song each.</p></div></li><li role="article"><div><p>Some GameCube flavor.</p><p>As part of the Nintendo Classics line for NSO subscribers, Nintendo is bringing the GameCube cult classic <em>Pokémon XD: Gale of Darkness</em> to the Switch 2. There’s no release date, though it’ll be launching some time in March.</p></div></li><li role="article"><div><p>Gotta watch it all.</p><p>The latest <a href="https://www.theverge.com/games/881332/nintendo-pokemon-presents-pokemon-day">Pokémon Presents showcase</a> streams this morning, and given the fact that it also marks the franchise’s 30th anniversary, we’re expecting some good announcements. You can watch it right here.</p></div></li><li id="dmcyOnBvc3Q6ODgxMzMy" role="article"><h2><a href="https://www.theverge.com/games/881332/nintendo-pokemon-presents-pokemon-day">Nintendo’s next big Pokémon presentation is on February 27th</a></h2><div><p><cite>Image: Nintendo / The Pokémon Company</cite></p></div><div><p>Pokémon Day is always a big deal for Nintendo fans, but with this year being the franchise’s 30th anniversary, <a href="https://press.pokemon.com/en/releases/The-Pokemon-Company-Group-Reveals-2026-Pokemon-Day-Plans-Including-Pok">the next Pokémon Presents stream</a> is likely to bring the heat when it begins on February 27th at 9AM ET. With <a href="https://www.theverge.com/games/798848/pokemon-legends-za-review-nintendo-switch-2"><em>Pokémon Legends: Z-A</em></a> behind us and <a href="https://www.theverge.com/games/876285/pokemon-pokopia-hands-on-preview"><em>Pokémon Pokopia</em></a> right around the corner, chances are high that we’re finally going to get some new information about the franchise’s next mainline game. But there’s also a chance that we’ll see more from <a href="https://www.theverge.com/news/620196/pokemon-champions-online-pokemon-battles-nintendo-switch-mobile"><em>Pokémon Champions</em></a> and hear about updates for other spin-off games like <em>Pokémon Unite</em>, <em>TCG Pocket, </em>and <em>Pokémon Sleep.</em></p><p>In addition to announcing the next Presents stream, <a href="https://www.pokemon.com/us/pokemon-news/the-pokemon-firered-version-and-pokemon-leafgreen-version-games-are-releasing-on-nintendo-switch?cid=&amp;utm_source=tw&amp;utm_medium=social&amp;utm_campaign=vg&amp;utm_term=frlgnswitch">Nintendo also revealed today</a> that <em>Pokémon FireRed / LeafGreen </em>— which originally released for the Game Boy Advance in 2004 — will be coming to the Nintendo Switch family of consoles via the eShop next week (note: they won’t be available as part of the Switch Online subscription). The rereleased games don’t seem to feature any significant changes from their original versions. But they will be available to download as soon as next week’s Pokémon Presents concludes, and <a href="https://www.businesswire.com/news/home/20260220159643/en/Nintendo-News-Pokmon-FireRed-Version-and-Pokmon-LeafGreen-Version-Are-Coming-to-Nintendo-Switch-in-Multiple-Languages">Nintendo also says</a> that the game will be “available at select retailers launch week for a suggested retail price of $19.99.”</p><p><a href="https://www.theverge.com/games/881332/nintendo-pokemon-presents-pokemon-day">Read Article &gt;</a></p></div></li></ul></section></div></div><br/><br/>https://www.theverge.com/games/885578/pokemon-presents-2026-news-trailers]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
