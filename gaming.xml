@@ -4,9 +4,473 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Wed, 04 Mar 2026 19:16:32 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 04 Mar 2026 20:09:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Cloudheim’s The Haven patch adds cloud saves plus more]]></title>
+            <link>https://www.thesixthaxis.com/2026/03/04/cloudheims-the-haven-patch-adds-cloud-saves-plus-more/</link>
+            <guid>1453462</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>Noodle Cat Games has released the anticipated The Haven update for Cloudheim, its physics based action adventure game that is currently in early access. One of the main features of this new update is the inclusion of cloud saves, so you can play on whatever PC you wish without losing progress. Things are going to be tougher as well now that the world gets harder for every five levels you rank up. Player scaling has been reduced so there is more emphasis on stats, upgrades and weapon quality. On the plus side, 100 new decorations have been added. The full patch notes are below.</p>
+<p><iframe title="Cloudheim - Early Access Launch Trailer" width="780" height="439" src="https://www.youtube.com/embed/HjaBRTT2mzA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+
+
+<h2>Cloudheim The Haven update patch notes</h2>
+<p><b>What’s New</b><wbr></p>
+<ul>
+<li>Added support for Cloud Saves<wbr></li>
+<li>Changed enemy and player level scaling to give weapon and gear choices a bigger impact on combat<wbr></li>
+<li>Over 100 new decoration items have been added<wbr></li>
+<li>Building Previews are now much more accurate<wbr></li>
+<li>The Build Menu now remembers where you were and returns to that same selection<wbr></li>
+<li>You can now cancel furniture movement to return it to where it was originally grabbed<wbr></li>
+<li>While placing furniture, you can choose Repeat to place and purchase another of the same item<wbr></li>
+<li>World Stars, Hearts, and looted Weapons will now fly to the nearest player after 25 seconds if they were not collected<wbr></li>
+<li>Split out the tutorial from creating a new world, so you can play it again at any time or skip it entirely</li>
+</ul>
+<p><b>Base Improvements and Bug Fixes</b><wbr></p>
+<ul>
+<li>The progression of the homestead has changed significantly. Players will receive a quest from Bill offering to upgrade the homestead as they progress through the game<wbr></li>
+<li>Decoration items now require you to reach a shop sales level and upgrade your base to unlock. You are granted some decoration items for each time you upgrade the homestead<wbr></li>
+<li>Previews inside the purchase menu and during placement have been made much more accurate<wbr></li>
+<li>Many decoration items no longer clip into the ground during purchase previews<wbr></li>
+<li>The inspection prompt on decoration and stations now has a ‘move’ prompt instead of a ‘grab’ prompt, to better reflect available actions<wbr></li>
+<li>Add a display counter showing how much stock has already been placed to the Build screen<wbr></li>
+<li>Changed the display name on some planters to disambiguate them<wbr></li>
+<li>Changed the price of the Portable Bifrost Chest from 2000 gold to 500 stardust<wbr></li>
+<li>Fixed a bug where players could retrieve recently looted weapons from the Bifrost Chest. Selling these weapons would break shared enchant and material progress<wbr></li>
+<li>Increased the max available stock of most decorations and jump pads<wbr></li>
+<li>Over 100 new decoration items have been added, including:<wbr>
+<ul>
+<li>Wall Banners, Skulls, and Ivy<wbr></li>
+<li>Clutter such as books, dining sets, and supply cabinets<wbr></li>
+<li>New statues and stone pedestals to place them on<wbr></li>
+<li>Light sources such as torches and candelabras<wbr></li>
+<li>Trees<wbr></li>
+<li>A tower for your cats!</li>
+</ul>
+</li>
+</ul>
+<p><b>Progression Changes</b><wbr></p>
+
+<ul>
+<li>
+<p>Enemy levels no longer just match player progression<wbr></p>
+</li>
+</ul>
+<ul>
+<li>
+<ul>
+<li>The world gets harder every 5 levels<wbr></li>
+<li>Different areas within an island now have varied difficulty levels<wbr></li>
+<li>This is a stepping stone towards additional future changes that will make progression and growth even more impactful<wbr></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>
+<p>Player auto scaling is no longer quite as powerful<wbr></p>
+<ul>
+<li>
+<p>This means using higher quality weapons and upgrading stats is more impactful<wbr></p>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>Increased and staggered the mastery requirements for Boots, Gloves, and Movement equipment. This prevents getting a big clump of skill points all at once very early in the game<wbr></li>
+<li>Added display of mastery (icon and progress bar) on Boots, Gloves, and Movement items in the Equipment screen<wbr></li>
+<li>Added a purely decorative upgrade statue for people with more gold than they know what to do with, by popular demand</li>
+</ul>
+<p><b>Combat Improvements and Bug Fixes</b><wbr></p>
+<ul>
+<li>Improved targeting on enemies that are recently launched into the air, making it easier to follow up with other skills to execute a combo. This has the most impact when using multiple launches in a row, such as basic sword combo &gt; follow up &gt; kick<wbr></li>
+<li>Added Fist &amp; Shield weapon trait, giving +2 Magic, Speed, Strength, and Vigor<wbr></li>
+<li>Added Fists weapon trait, applying a short duration stacking weakness that reduces enemy damage dealt<wbr></li>
+<li>Whirlwind now pulls enemies into you before it start<wbr></li>
+<li>Whirlwind cooldown increased from 7s to 11s<wbr></li>
+<li>Whirlwind mana cost increased from 6 to 7<wbr></li>
+<li>Whirlwind upgrade, such as from Barbarian Sash, is now much more impactful<wbr></li>
+<li>Vicious Strike now properly follows it’s healing condition<wbr></li>
+<li>Increased the flight speed of several bow projectiles<wbr></li>
+<li>Increased hangtime on bow aerial attacks<wbr></li>
+<li>Updated descriptions for Blazing Boomerang, Blizzard Beam, and Incinerating Beam<wbr></li>
+<li>Mana Lash initial damage increased by 200%<wbr></li>
+<li>Mana Lash detonate damage increased by 40%<wbr></li>
+<li>When enemies spawn an object on death, such as greebles swarming into more greebles, they now launch a little capsule that spawns the new object. Previously, killing a seedling that spawns a bumpkin would happen right as you were attacking and the bumpkin would immediately bounce you<wbr></li>
+<li>Dive Kick is now faster (look down when in midair and use kick)<wbr></li>
+<li>Evasive Assault now dodges back farther<wbr></li>
+<li>You can now follow up with attacks sooner after using Evasive Assault<wbr></li>
+<li>Changed Ranger traits to say they heal after using evade, instead of successful evade. There was no gameplay change, but it was confusing because it is extremely rare to have an evade not complete successfully, and it does not require evading an attack<wbr></li>
+<li>Increased hit camera feedback strength for basic weapon attacks<wbr></li>
+<li>Fixed a variety of miscellaneous small skill bugs – keep reporting any odd behavior!<wbr></li>
+<li>Overall Telegraphing Decal Visibility has been improved!<wbr></li>
+<li>Fixed an issue where enemies would never forget ever seeing or hearing the player. This would give the enemies permanent knowledge of your location and would keep you as a target forever<wbr></li>
+<li>Fixed an issue where Blade Phalanx could cause camera collision and bad camera behavior<wbr></li>
+<li>Grobb Rock Throwers are now more distinct enemies with updated art, instead of most Grobbs throwing rocks at range, including an updated throw animation<wbr></li>
+<li>Fixed an issue where clients sometimes did not see the invincibility shield on certain bosses<wbr></li>
+<li>Changed Seedling Enemies so they hover closer to the ground and have a longer windup</li>
+</ul>
+<p><b>Audio Improvements and Bug Fixes</b><wbr></p>
+<ul>
+<li>Tightened the default attenuation of sounds, which means sounds get quieter quicker as they get further away, to keep important nearby sounds clear<wbr></li>
+<li>Blade Phalanx Sound Design improved<wbr></li>
+<li>Fixed many of the thrashing issues in music playback: music will now properly prioritize based on the context of the situation<wbr></li>
+<li>Fixed an issue where encounter bounds could re-trigger combat music after an encounter was completed<wbr></li>
+<li>Fixed an issue where victory music would play for all players even if they were incredibly far from the encounter<wbr></li>
+<li>Combat music will now continue playing if you’re still fighting enemies away from where you started the encounter<wbr></li>
+<li>Fixed an issue where on death you would hear loading music instead of the encounter music<wbr></li>
+<li>New UI SFX for select movement mode<wbr></li>
+<li>New sound design for the Key Press station<wbr></li>
+<li>Enemy deaths that spawn a new enemy pop sound<wbr></li>
+</ul>
+<p><b>User Interface Improvements and Bug Fixes</b><wbr></p>
+<ul>
+<li>Updated the visual styling of the held item quickbar and control cluster on Odin Shell<wbr></li>
+<li>Made combat control clusters smaller, adjusted their position, and moved impulses in gamepad mode to the bottom of the screen<wbr></li>
+<li>Updated the visual styling of the compass<wbr></li>
+<li>Improved Item Mastered toasts and prevented toasts from misleadingly showing up for other players<wbr></li>
+<li>Removed the combo meter temporarily. It will return in a future update with significant improvements to combo tracking<wbr></li>
+<li>Added the Early Access Roadmap to the News screen<wbr></li>
+<li>Whether or not a news post has been read is now saved, so you won’t see an unread news notification each time you travel<wbr></li>
+<li>Minor styling improvements to the News screen<wbr></li>
+<li>Reduced the size of shop notification icons<wbr></li>
+<li>Made the order of cycling between islands on the World Map match the intended exploration order<wbr></li>
+<li>Fixed the missing icon on the Scattershot enchant<wbr></li>
+<li>Fixed an issue that prevented Grodo from showing up in the Blin Codex page<wbr></li>
+<li>Fixed a number of typos in conversations related to Blins</li>
+</ul>
+<p><b>World Improvements and Bug Fixes</b><wbr></p>
+<ul>
+<li>Wren now travels around Arcadia in line with where quests take place<wbr></li>
+<li>Fixed a number of cases where World Stars, Hearts, or looted Weapons would get stuck in the ground and be inaccessible<wbr></li>
+<li>World Stars, Hearts, and looted Weapons will now fly to the nearest player after 25 seconds if they were not collected<wbr></li>
+<li>Updated the Old Fort area on Arcadia to have a more direct flow to Fiblin Field<wbr></li>
+<li>Updated two arenas on Arcadia<wbr></li>
+<li>Improved early Arcadia spawning<wbr></li>
+<li>Added enemies to some empty areas in Arcadia<wbr></li>
+<li>Edited the shoreline on the Arcadia mainland to better separate the ocean and the playable area<wbr></li>
+<li>Silent Owl Trail now has Owl Posts that help travellers to find their way<wbr></li>
+<li>The first few “hit three targets” puzzles in Arcadia have additional visual language to better convey the intent<wbr></li>
+<li>An interactable statue that allows players to change and test different targeting modes has been added before the Training Arena in the tutorial<wbr></li>
+<li>Improved navigation from Golden Galleon Shore to the Parched Temple<wbr></li>
+<li>The tutorial is now a single-player experience separate from a new game, and has been shortened a bit</li>
+</ul>
+<p><b>Performance</b><wbr></p>
+<ul>
+<li>Added better default scalability settings for Steam Deck<wbr></li>
+<li>The ‘Auto-Set Quality’ button in Video settings now shows the value of the previous benchmark run</li>
+</ul>
+<p><em>Source: <a href="https://store.steampowered.com/news/app/2070270/view/541132417437532244">Steam</a></em></p>
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div></div><br/><br/>https://www.thesixthaxis.com/2026/03/04/cloudheims-the-haven-patch-adds-cloud-saves-plus-more/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Fortnite Will Return to Google Play Store on Android as Google Resolves Its Dispute With Epic Games]]></title>
+            <link>https://wccftech.com/fortnite-will-return-google-play-store-on-android-epic-games-ends-dispute-with-google/</link>
+            <guid>1453456</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			
+			<p><strong>Epic Games</strong> boss <strong>Tim Sweeney</strong> has come out on top once again in his dispute with how platform holders dictate the relationship that developers have with their users. After starting disputes with both <strong><a href="https://wccftech.com/apple-claims-that-the-epic-games-lawsuit-is-nothing-more-than-a-publicity-stunt/">Apple</a></strong> and <strong><a href="https://wccftech.com/epic-games-ceo-confirms-that-fortnite-will-not-be-distributed-via-the-play-store/">Google</a></strong> years ago, which initially took popular Epic Games titles like <strong>Fortnite</strong> off <strong>Android</strong> and <strong>iOS</strong> mobile platforms, Epic and Sweeney's dispute with Google has finally come to a close.</p>
+
+
+
+<p>To be clear, Fortnite has already made its return to iOS and Android when Epic was finally able to launch a mobile version of the <a href="https://wccftech.com/epic-games-store-launches-on-mobile-fortnite-once-again-available-on-ios-in-europe-after-1-billion-fight/"><strong>Epic Games Store</strong> worldwide back in 2024</a> (though <a href="https://wccftech.com/fortnite-returns-to-iphone-in-australia-after-epic-games-wins-legal-battle-against-apple-and-google-marking-major-shift-in-app-store-rules-and-player-freedom/">Australians had to wait a little longer to play Fortnite on their phones)</a>. What's changed today is that not only will Android users be able to play Fortnite through the Epic Games Store, but it'll also be available as a downloadable game through the <strong>Google Play Store</strong>.</p>
+
+
+
+<p>What's also changed is that Google will now allow competing app stores, competing payment processes, and it is lowering its Google Play fees for developers who still choose to use the Google Play Store's billing system on Android devices.</p>
+
+
+
+<figure><div>
+<blockquote data-width="500" data-dnt="true"><p lang="en" dir="ltr">Fortnite will return to Google Play Store worldwide soon. Epic Games Store continues supporting Android worldwide alongside Windows and Mac, and installation on Android will become much easier later in 2026.</p>— Tim Sweeney (@TimSweeneyEpic) <a href="https://twitter.com/TimSweeneyEpic/status/2029250517805744515?ref_src=twsrc%5Etfw">March 4, 2026</a></blockquote>
+</div></figure>
+
+
+
+<p>"<em>At this important moment, we want to continue leading the way in how developers distribute their apps and games to people on billions of devices across many form factors. A modern platform must be flexible, providing developers and users with choice and openness as well as a safe experience</em>," writes <strong>Sameer Samat</strong>, president of the Android ecosystem, <a href="https://android-developers.googleblog.com/2026/03/a-new-era-for-choice-and-openness.html">in a blog post</a>.</p>
+
+
+
+<p>"<em>Today we are announcing substantial updates that evolve our business model and build on our long history of openness globally.&nbsp; We’re doing that in three ways: more billing options, a program for registered app stores, and lower fees and new programs for developers</em>."</p>
+
+
+
+<p>Samat continues to explain how the rollout will work, with these updates being official worldwide by <strong>September 30, 2027</strong>. They'll first reach the <strong>EEA, United Kingdom</strong>, and the <strong>US</strong> by <strong>June 30, 2026.</strong> By <strong>September 30, 2026,</strong> they'll reach <strong>Australia</strong>, and by <strong>December 31, 2026,</strong> they'll reach <strong>Korea </strong>and <strong>Japan</strong>. Everywhere else has to wait until September 2027.</p>
+
+
+
+<p>As for when Fortnite will make its triumphant return to the Google Play Store, Sweeney adds that it will arrive "<em>soon</em>," but does not provide a specific date. </p>
+
+
+
+<p>"<em>We believe these changes will make for a stronger Android ecosystem,</em>" writes Samat, "<em>with even more successful developers and higher-quality apps and games available across more form factors for everyone. We look forward to our continued work with the developer community to build the next generation of digital experiences.</em>"</p>
+
+			
+			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
+
+		</div></div><br/><br/>https://wccftech.com/fortnite-will-return-google-play-store-on-android-epic-games-ends-dispute-with-google/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Marathon Is Already Trailing Behind Arc Raiders, Says Analyst]]></title>
+            <link>https://kotaku.com/marathon-is-already-trailing-behind-arc-raiders-says-analyst-2000675903</link>
+            <guid>1453453</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+              
+              <p><em>Marathon’s</em> beta is over, and it seems to be selling well, but not nearly as well as <em>Arc Raiders</em> on Steam. An Eevee Lego set was turned into a whole different Pokémon by a crafty fan. <em>Resident Evil Requiem</em> is doing great. And <em>Atomic Heart </em>(remember that game?) is getting its fourth and final DLC soon. Are you excited about that? I sort of forgot <em>Atomic Heart</em> ever came out!</p>
+
+ <p>It’s the latest edition of Morning Checkpoint,&nbsp;<em>Kotaku</em>‘s daily roundup of gaming news, rumors, and culture. I’m sitting <a href="https://babeltongues.substack.com/p/disclosure-day-dispatch">here reading this excellent deep dive</a> into what Steven Spielberg’s upcoming alien movie might actually be about. Perhaps it’s a sequel to 2002’s <em>Taken</em>, a miniseries nobody remembers that Spielberg worked on? I’m just excited ol’ Stevie is making another big sci-fi movie! Anyway, <a href="https://kotaku.com/mcdonalds-ceo-big-arch-burger-instagram-2000674500">enjoy today’s Checkpoint while I enjoy some high-quality product</a>.</p> <blockquote data-width="500" data-dnt="true"> <p lang="en" dir="ltr">T H E  P R O D U C T <a href="https://t.co/fIF4rzDmkQ">pic.twitter.com/fIF4rzDmkQ</a></p> <p>— Marathon Archive (@MarathonArchive) <a href="https://twitter.com/MarathonArchive/status/2029125689614774541?ref_src=twsrc%5Etfw">March 4, 2026</a></p></blockquote>  <h2><strong><em>Marathon</em> has already sold around 250k copies on Steam, but…&nbsp;</strong></h2> <p><em>Marathon’s</em> open beta did really well during Steam’s big Next Fest last week. <a href="https://alineaanalytics.substack.com/p/steam-next-fests-wishlist-winners">According to a new analytical report from </a><em><a href="https://alineaanalytics.substack.com/p/steam-next-fests-wishlist-winners">Alinea Insight</a>, Marathon</em> was the second most-wishlisted game during Next Fest, with over 200,000 players adding it to their own wishlists. It now sits at around 1.2 million total wishlists on Steam. I’d assume Bungie is pretty happy about that. The open beta was also the most-played Next Fest demo.</p> <p>The stat Bungie and Sony might be less happy about is that, as of March 2, three days before launch, <em>Alinea Insight</em> estimates <em>Marathon</em> had sold just under 250,000 copies on Steam. Three days before <em>Arc Raiders</em> had launched, it had sold around 550,000 copies, more than double <em>Marathon</em>. That doesn’t mean Bungie’s upcoming extraction shooter is going to flop, but it likely means it will struggle to compete with <em>Arc Raiders</em> at launch.</p>
+
+ <p>Interestingly, that might not be a problem, as only 48 percent of Steam players who checked out the <a href="https://kotaku.com/an-incredible-last-minute-escape-in-marathon-convinced-me-its-something-special-2000675159"><em>Marathon</em> open beta</a> also played <em>Arc Raiders.</em> Meanwhile, 74 percent of <em>Marathon</em> open beta players on Steam also played <em>Destiny 2.</em> Bungie’s audience is dedicated, <a href="https://kotaku.com/marathon-onboarding-update-ammo-meds-2000674872">but will they push through the early hours of suffering and become <em>Marathon</em> fans?</a> We’ll find out soon, as the game launches on March 5 on PC, Xbox, and PS5.</p>
+
+ <h2><strong>Capcom says <em>Resident Evil Requiem</em> has shipped 5 million units</strong></h2> <p>The recently released<em> Resident Evil Requiem</em> is very good. So it’s not shocking to see <a href="https://www.capcom.co.jp/ir/english/news/html/e260304.html">Capcom announce on Wednesday</a> that the latest entry in the survival horror series has already sold over 5 million copies. It has a way to go before it beats out the<a href="https://kotaku.com/re2-remake-resident-evil-4-best-selling-games-capcom-1850704221"> best-selling <em>Resident Evil</em> game of all time, the also-great <em>Resident Evil 2 </em>remake from 2019</a>. That game has sold <a href="https://www.capcom.co.jp/ir/english/business/million.html#tab1:~:text=Units%20%3A%2016.80%C2%A0million%20units%0ARelease%20%3A%20Jan%202019%0APlatform%20%3A%20PS4%2C%20PS5%2C%20Xbox%20One%2C%20XSX%2C%20NSW%2C%20PC%2C%20DL">nearly 17 million</a> copies over the last seven years. Wowza!</p> <h2><strong>Someone turned an Eevee Lego set into a Bidoof</strong></h2>   <p>Bidoof, <a href="https://kotaku.com/bidoof-just-doesnt-give-a-shit-1847223479">a bevear-like Pokémon who doesn’t give a fuck</a>, is a fan-favorite among online players. But <a href="https://kotaku.com/bidoof-is-taking-over-the-world-of-pokemon-go-1847197468">Bidoof</a> doesn’t get as much love as many other Pokémon, like Pikachu or Eevee. So one Lego lover took it upon themselves to fix this situation, turning a recently released Eevee Lego set into a Bidoof.</p>
+
+ <p>“I wanted to make my favorite Pokémon from the new Eevee set,” <a href="https://www.instagram.com/p/DVZ0Vesj-34/?igsh=MXMzbjVianN2eHBnag%3D%3D">said Instagram user Creationcaravan4</a>. “No extra pieces needed. Instructions coming soon to Rebrickable.”</p> <h2><strong><em>Atomic Heart</em>‘s final DLC gets a release date and new trailer</strong></h2> <p><em>Atomic Heart,</em> aka Soviet Union <em>Fallout</em>, is getting one last big DLC. This new DLC is titled Blood on Crystal and it will be available on April 16. This fourth DLC is officially described as the “thrilling, high-stakes conclusion” to <em>Atomic Heart.</em> Here’s the logline courtesy of Focus Entertainment, as well as the new trailer:</p> <blockquote><p><em>P-3, the Twin and their comrades must venture deeper in Facility 3826 than ever before to battle CHAR-les and make a last desperate bid to save humanity from total annihilation. Visit the new Wave Platform, the classified Crystal Complex and unearth the unspeakable truth behind CHAR-les’ nefarious plans.</em></p></blockquote>  <h2><strong>ICYMI:&nbsp;</strong></h2> <ul> <li><a href="https://kotaku.com/tencent-trump-divest-china-epic-riot-supercell-2000675567">President Trump could kick Tencent out of the United States</a></li> <li><a href="https://kotaku.com/resident-evil-requiem-final-puzzle-solution-datamine-video-2000675457">Fans have solved <em>Resident Evil Requiem</em>‘s big puzzle without cheating</a></li> <li><a href="https://kotaku.com/highguard-shutting-down-less-than-50-days-after-launch-2000675453"><em>Highguard</em> is shutting down after less than 50 days</a></li> </ul> <h2>Watch This:</h2> 
+                          </div></div><br/><br/>https://kotaku.com/marathon-is-already-trailing-behind-arc-raiders-says-analyst-2000675903]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Today’s Strands #731 Hints and Answers for March 4, 2026]]></title>
+            <link>https://insider-gaming.com/todays-strands-731-hints-and-answers-for-march-4-2026/</link>
+            <guid>1453450</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+        
+<p><a href="https://insider-gaming.com/tag/strands/" id="3586">Strands </a>is a daily word search puzzle game from <a href="https://insider-gaming.com/tag/new-york-times/" id="2981">The New York Times</a>. It is a relatively new game, launched in 2024, in which players seek a common theme among words in a 6×8 letter grid.</p>
+
+
+
+<p>Whether it’s your first time playing or you’re a Strands veteran, today’s tips and strategies can help you find words faster. So, if you’ve found yourself stuck with today’s Strands, don’t worry, below you’ll find some&nbsp;<strong>helpful hints and even the answers for Strands Game #731</strong>&nbsp;<strong>for Wednesday, March 4, 2026</strong></p>
+
+
+
+<p id="block-672014a9-ce75-4ea0-b98d-12b9214dbb53">To play today’s Strands,&nbsp;<a href="https://www.nytimes.com/games/strands" target="_blank" rel="noreferrer noopener nofollow">head to the game’s website.</a></p>
+
+
+
+<p id="block-a3d47262-a89d-4341-93f0-34626756e4b3"><em><strong>IMPORTANT:</strong>&nbsp;The following information includes spoilers on today’s edition of Strands. If you don’t want the answer given to you, stop scrolling.</em></p>
+
+
+
+<figure id="block-5f20defe-2f05-4eb9-b880-6af2f94b324d"></figure>
+
+
+
+
+
+
+
+<h2 id="block-e2995432-719e-4ed6-8fad-a1db37670203">How To Play Strands</h2>
+
+
+
+<p id="block-da980997-0420-4527-946e-b66c49bf3d07">Strands is a daily word search that challenges you to find words with a common theme. There’s also a Spanagram that reveals the deeper theme behind the words.</p>
+
+
+
+<ul id="block-d0bea02d-4b9f-4991-b9db-3b35778ff3bf">
+<li>Words that are three letters and under do not count.</li>
+
+
+
+<li>Words that reveal the correct theme appear in blue.</li>
+
+
+
+<li>The Spanagram turns yellow when found.</li>
+
+
+
+<li>Finding three words that don’t fit the theme will reveal a hint to help you find the proper words.</li>
+</ul>
+
+
+
+<p id="block-5e597b53-af1c-4c06-a00c-6c5a4694e9e0">The goal is to string together as many words as possible. Every letter on the grid gets used! Daily puzzles keep players coming back for more, making it a fun brain exercise and a popular online trend.</p>
+
+
+
+<p id="block-cd7aaa7f-9491-4ad0-b994-72d0102c5bed">Strands can only be played on the New York Times website or on the <a href="https://www.nytimes.com/crosswords/apps" target="_blank" rel="noreferrer noopener nofollow">NYT Games app.</a></p>
+
+
+
+<h2 id="block-c6d4979d-f8eb-4473-a011-33019cb8da2c">Strands Hints For Today, March 4, 2026</h2>
+
+
+
+<p id="block-23b6a5a9-2c25-47c2-a0ea-e23a99c87abd">The Strands’ answers for Game #731 are all about vaked goods, specifically cakes. Therefore, you have to think of ingredients that you might use to make sweet birthday treats.</p>
+
+
+
+<h3 id="block-6777813b-1426-4c21-b507-3024542b4683">General Strands Hints For March 4</h3>
+
+
+
+<p id="block-b36e160d-6e5e-4dc8-aae9-5352ee681266">Without giving today’s Strands answers completely away, here are a few helpful hints for today to get you started:</p>
+
+
+
+<ul id="block-5c9f7d28-537c-424b-92c3-2a9906b57178">
+<li><strong>Hint 1:</strong>&nbsp;Where might you find items needed to make a cake?</li>
+
+
+
+<li><strong>Hint 2:</strong> An early System of A Down hit. The Archies were big on this, too.</li>
+
+
+
+<li><strong>Hint 3:</strong>&nbsp;A big hint that the cake you’re about to eat is a birthday cake</li>
+</ul>
+
+
+
+<p id="block-7fb794eb-0d89-4f8d-a7cf-082d0148b796">Use these clues to narrow down your guesses and increase your chances of solving&nbsp;<strong>Strands #731</strong>&nbsp;<strong>for March 4, 2026.</strong></p>
+
+
+
+
+
+
+
+<h3 id="block-73a1d2f5-fc2b-49b7-9c10-539e38a2b946">Words to Help You Find Strand Hints for March 4, 2026</h3>
+
+
+
+<p id="block-0853e28e-417e-4720-9526-9f2808a268be">If you want help getting started without having today’s Strands answer given to you, there are a few starter words worth trying that will help you unlock some in-game hints. A few starter words that may help are:</p>
+
+
+
+<ul id="block-2ca8fb79-d1a4-43e4-8764-e4d238a3cc97">
+<li>LULL</li>
+
+
+
+<li>SELL</li>
+
+
+
+<li>KING</li>
+
+
+
+<li>CASE</li>
+
+
+
+<li>SODA</li>
+</ul>
+
+
+
+
+
+
+
+<h2 id="h-today-s-strands-answer-for-game-731-on-march-4-2026">Today’s Strands Answer For Game #731 On March 4, 2026</h2>
+
+
+
+<figure></figure>
+
+
+
+<p id="block-4ee7c8b7-21fe-4613-8d40-bdf10f8881d0">If you’ve tried everything, including using the above hints, and are still stuck, you can find the answers to today’s Strands below. Check out the answers for past puzzles <a href="https://insider-gaming.com/tag/strands/" id="3586">here.</a></p>
+
+
+
+<ul>
+<li>FROSTING</li>
+
+
+
+<li>CANDLES</li>
+
+
+
+<li>FLOUR</li>
+
+
+
+<li>COCOA</li>
+
+
+
+<li>VANILLA</li>
+
+
+
+<li>SUGAR</li>
+
+
+
+<li><strong>SPANAGRAM</strong>: BAKINGAISLE</li>
+</ul>
+
+
+
+<p id="block-0e0094cc-40a6-49a3-a98c-ee90172006ac">If you solved today’s Strands without our answers, congratulations! If not, take note of the best tips above for tomorrow’s puzzle, and check back daily for more hints.</p>
+
+
+
+<h2 id="block-44882c9d-d6a6-4e4f-9b1a-8312ae0b3036">When Is The Next Strands Game After #731?</h2>
+
+
+
+<p id="block-bc42def5-af74-42a4-abf5-f31a34e53dd6">All New York Times games are&nbsp;<strong>updated daily at 12 am or Midnight in your respective time zone</strong>. Information about the next game is often available in the hours leading up to it, giving players a heads-up. The game on&nbsp;<strong>March</strong> <strong>5</strong>&nbsp;will be&nbsp;<strong>Strands Game #732.</strong></p>
+
+
+
+<h2 id="block-96ac6df0-5b63-4788-9eff-98ceece739ee">What Is Strands?</h2>
+
+
+
+<p id="block-cde2c274-bfd9-4d27-a0d9-3ebe6f1ff7f2">Strands is a daily word search puzzle game created by The New York Times. Launched in 2024, Strands challenges players to discover a common theme among words in a 6×8 letter grid. The game’s original concept was developed by Juliette Seive, a research director on The New York Times Games team, with the aim of replicating Wordle’s success. Tracy Bennett serves as the puzzle editor for Strands, overseeing the creation and curation of daily puzzles since its launch.</p>
+
+
+
+<hr>
+
+
+
+<p id="block-9d1c4fad-eba9-422a-a628-5cb7b00aea3b">For even more Insider Gaming delivered straight to your inbox,&nbsp;<a href="https://insider-gaming.com/subscribe" target="_blank" rel="noreferrer noopener">sign up for our weekly newsletter</a>.</p>
+
+
+
+
+
+
+        
+            
+
+    <div id="ig-app-cta">
+          <p><i></i> MOBILE APP</p>
+          <h2>Level Up Your Gaming News</h2>
+          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
+          
+          <p><i></i> Available on iOS &amp; Android</p>
+        <!-- <div class="ig-note"><i class="fa-solid fa-bolt"></i> Available on Android</div> -->
+
+        </div>
+
+    
+    
+    </div></div><br/><br/>https://insider-gaming.com/todays-strands-731-hints-and-answers-for-march-4-2026/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[Ambrosia Sky Act Two will be a free update and conclude the story]]></title>
             <link>https://www.thesixthaxis.com/2026/03/04/ambrosia-sky-act-two-will-be-a-free-update-and-conclude-the-story/</link>
@@ -160,7 +624,7 @@
             <title><![CDATA[Google isn’t waiting for a settlement — the 30 percent Android app store fee is dead]]></title>
             <link>https://www.theverge.com/policy/889252/google-app-store-fee-reduction-20-percent-epic-v-google</link>
             <guid>1453390</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><div><div><p><span aria-expanded="false" aria-haspopup="true" role="button" tabindex="0"><span id="follow-author-standard_article_details-dmcyOmF1dGhvclByb2ZpbGU6MzQz"><span><span><svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Follow"><path d="M5 0H4V4H0V5H4V9H5V5H9V4H5V0Z"></path></svg></span></span><span>Sean Hollister</span></span></span></p> <p><span>is a senior editor and founding member of The Verge who covers gadgets, games, and toys. He spent 15 years editing the likes of CNET, Gizmodo, and Engadget.</span></p></div><div id="zephr-anchor"><div><p>In November, Epic and Google jointly proposed <a href="https://www.theverge.com/policy/813991/epic-google-proposed-settlement">a settlement that would change Android’s fate globally</a> without <a href="https://www.theverge.com/news/717440/google-epic-open-play-store-emergency-stay">cracking open Google’s Android monopoly</a> quite the way it otherwise might. Today, Google has decided it’s not waiting for that settlement to be approved: it’s moving forward with many of its proposed changes right now.</p></div><p>By June 30th, <a href="https://android-developers.googleblog.com/2026/03/a-new-era-for-choice-and-openness.html">Google writes,</a> it will lower its app store fees in the US, UK, and European Economic Area to 20 percent in some cases, down from 30 percent. By the end of the year, it will launch a “Registered App Stores” program outside of the US, and it will let app developers offer their own billing systems “alongside Google Play’s billing” if they pay a different fee.</p><p>Here is the breakdown and example images of lower prices, according to Google, though you’ll note some involve signing up for specific programs whose terms have not yet been disclosed:</p><div><blockquote><p><strong>Billing: </strong>For those developers who choose to use Google Play’s billing system, they will be charged a market-specific rate separate from the service fee. In the European Economic Area (EEA), UK, and US that rate will be 5%.</p><p><strong>Service Fees: </strong>For new installs (first time installs from users after the new fees are launched in a region), we are reducing the in-app purchase (IAP) service fee to 20%.</p><p>We are launching an Apps Experience Program and revamping our Games Level-Up program to incentivize building great software experiences across Android form factors associated with clear quality benchmarks and enhanced user benefits. Those developers who choose to participate in these programs will have even lower rates. Participating IAP developers will have a 20% service fee for transactions from existing installs and a 15% fee on transactions from new app installs.</p><p>Our service fee for recurring subscriptions will be 10%.</p></blockquote></div><p>And here’s the timeline that Google is sharing for fee changes to roll out:</p><div><blockquote><p><strong>By June 30:</strong> EEA, the United Kingdom and the US.</p><p><strong>By September 30: </strong>Australia</p><p><strong>By December 31: </strong>Korea and Japan</p><p><strong>By September 30, 2027:</strong> The updates will reach the rest of the world.</p><p>We will also launch the updated Games Level-Up program and new App Experience program by September 30 for EEA, UK, US, and Australia and then it will roll out in line with the rest of the schedule above.</p><p>We plan to launch Registered App Stores with a version of a major Android release by the end of the year.</p></blockquote></div><p>With Registered App Stores, another distinct program run by Google whose terms are not yet disclosed, the company is promising a relatively frictionless experience for sideloading those stores onto your Android device. It appears like this in court documents:</p><p>Epic, which quietly <a href="https://www.theverge.com/policy/866140/epic-google-fortnite-android-unreal-deal-antitrust-settlement">negotiated a secret $800 million deal with Google</a> before the proposed settlement, is applauding the changes. But they are nuanced, some may be controversial, and while Epic and Google both say these changes settle the companies’ disputes worldwide — “We are also excited to announce that we’ve resolved all our disputes with Epic Games globally!” <a href="https://x.com/ssamat/status/2029250000467968059">writes Android boss Sameer Samat</a> — both companies are still in court in the US where a judge has already ordered more to be done.</p><p>We’re going to be on a call with Samat and Sweeney momentarily to discuss the changes, and will let you know what we find out.</p><p><em>Developing… we’re adding more to this story right now, refresh in a bit for more.</em></p><div><p><span><strong>Follow topics and authors</strong> from this story to see more like this in your personalized homepage feed and to receive email updates.</span></p><ul><li id="follow-author-article_footer-dmcyOmF1dGhvclByb2ZpbGU6MzQz"><span aria-expanded="false" aria-haspopup="true" role="button" tabindex="0"><span><span><svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Follow"><path d="M5 0H4V4H0V5H4V9H5V5H9V4H5V0Z"></path></svg></span><span>Sean Hollister</span></span></span></li><li></li><li></li><li></li><li></li><li></li><li></li></ul></div></div></div><div><form><div><h2>The Verge Daily</h2><p><span>A free daily digest of the news that matters most.</span></p></div></form></div></div></div><br/><br/>https://www.theverge.com/policy/889252/google-app-store-fee-reduction-20-percent-epic-v-google]]></content:encoded>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="zephr-anchor"><div><p>In November, Epic and Google jointly proposed <a href="https://www.theverge.com/policy/813991/epic-google-proposed-settlement">a settlement that would change Android’s fate globally</a> without <a href="https://www.theverge.com/news/717440/google-epic-open-play-store-emergency-stay">cracking open Google’s Android monopoly</a> quite the way it otherwise might. Today, Google has decided it’s not waiting for that settlement to be approved: it’s moving forward with many of its proposed changes right now, rolling them out globally through 2027.</p></div><p>By June 30th, <a href="https://android-developers.googleblog.com/2026/03/a-new-era-for-choice-and-openness.html">Google writes,</a> it will lower its app store fees in the US, UK, and European Economic Area to 20 percent or less, down from 30 percent. By the end of the year, it will launch a “Registered App Stores” program outside of the US, so that you can download and install third-party app stores (like the Epic Games Store) from the web without the friction that Google erected previously.</p><p>Google will also let app developers offer their own billing systems “alongside Google Play’s billing,” and so it’s separating its billing fees from its service fees in the calculations you’ll see below.</p><p>Here is the breakdown and example images of lower app store fees, according to Google, though you’ll note some involve signing up for specific programs whose terms have not yet been disclosed:</p><div><blockquote><p><strong>Billing: </strong>For those developers who choose to use Google Play’s billing system, they will be charged a market-specific rate separate from the service fee. In the European Economic Area (EEA), UK, and US that rate will be 5%.</p><p><strong>Service Fees: </strong>For new installs (first time installs from users after the new fees are launched in a region), we are reducing the in-app purchase (IAP) service fee to 20%.</p><p>We are launching an Apps Experience Program and revamping our Games Level-Up program to incentivize building great software experiences across Android form factors associated with clear quality benchmarks and enhanced user benefits. Those developers who choose to participate in these programs will have even lower rates. Participating IAP developers will have a 20% service fee for transactions from existing installs and a 15% fee on transactions from new app installs.</p><p>Our service fee for recurring subscriptions will be 10%.</p></blockquote></div><p>And here’s the timeline that Google is sharing for fee changes to roll out:</p><div><blockquote><p><strong>By June 30:</strong> EEA, the United Kingdom and the US.</p><p><strong>By September 30: </strong>Australia</p><p><strong>By December 31: </strong>Korea and Japan</p><p><strong>By September 30, 2027:</strong> The updates will reach the rest of the world.</p><p>We will also launch the updated Games Level-Up program and new App Experience program by September 30 for EEA, UK, US, and Australia and then it will roll out in line with the rest of the schedule above.</p><p>We plan to launch Registered App Stores with a version of a major Android release by the end of the year.</p></blockquote></div><p>With Registered App Stores, another distinct program run by Google, the company is promising a relatively frictionless experience for sideloading those stores onto your Android device. It appears like this in court documents:</p><p>To be clear, “Registered App Stores” is not what a US court has ordered Google to create in the United States — Google must instead carry rival app stores <em>inside</em> of its own Google Play Store, and give them access to the full catalog of Android apps so they can meaningfully gain ground against Google’s prior monopoly.</p><p>“Enabling robust competition, can, we think, be accomplished by letting apps go through this Registered App Store program and be installed,” Google Android boss Sameer Samat tells <em>The Verge</em>. But he says that Google is still complying with Judge Donato’s original injunction until or unless he agrees to substitute Registered App Stores for store-within-a-store and catalog access. The new proposed injunction suggests Judge Donato do that, in exchange for Google to keep offering both Registered App Stores and normal sideloaded app stores through September 30th, 2032.</p><p>You won’t get both Registered App Stores and store-within-a-store, Epic and Google tell us. Outside the US, you’ll be able to download Registered App Stores from the web; inside the US, Google will prepare to carry rival stores within its own store unless Judge Donato changes his mind. “We are suggesting to the court that registered app store program is a better approach to creating competition for app stores than distributing app stores in Google Play,” says Samat.</p><p>Epic, which quietly <a href="https://www.theverge.com/policy/866140/epic-google-fortnite-android-unreal-deal-antitrust-settlement">negotiated a secret $800 million deal with Google</a> before the proposed settlement, is applauding all these changes. But while Epic and Google both say these changes settle the companies’ disputes worldwide — “We are also excited to announce that we’ve resolved all our disputes with Epic Games globally!” <a href="https://x.com/ssamat/status/2029250000467968059">writes Android boss Sameer Samat</a> — he admits that’s not yet true in the US.</p><p>“In other places around the world where we have a legal process… where a settlement can be done without needing approval from someone else, we are going to settle those disputes,” he tells me. “In all other places where there are no disputes, we just intend to move forward.”</p><p>In their new proposed settlement in the United States, a redlined version of which you can read below, Google and Epic are trying to partially walk back at least two of the court’s other antitrust remedies. First, Google wants to be able to stop developers from linking to apps outside its own Google Play Store, something Samat claims is a security concern because it can’t police every link out to the web. “We’ve seen a lot of malware hit users in that way.”</p><p>“If a developer wants to link out to have a transaction concluded on their website, that’s all fine,” but he says that Google Play apps shouldn’t link directly to software outside the store because users expect Google’s own platform to be safe.</p><p>The second thing Google and Epic are trying to walk back is a prohibition on Google paying or otherwise incentivizing developers to put their apps exclusively on Android, “provided that the developer is free to choose any Android app store for distribution in the United States.”</p><p>Epic CEO Tim Sweeney claims that Google’s changes will lead to “the restoration of a healthy market, which is in complete contrast to what’s happening on iOS” where Apple is still blocking competing stores and/or <a href="https://www.theverge.com/news/693512/apple-eu-dma-app-store-concessions">charging a “Core Technology Fee”</a> on outside purchases. He says the changes mean Google will no longer be reaching into developers’ businesses.</p><p><em>Developing… we’re adding more to this story right now.</em></p><div><p><span><strong>Follow topics and authors</strong> from this story to see more like this in your personalized homepage feed and to receive email updates.</span></p><ul><li id="follow-author-article_footer-dmcyOmF1dGhvclByb2ZpbGU6MzQz"><span aria-expanded="false" aria-haspopup="true" role="button" tabindex="0"><span><span><svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Follow"><path d="M5 0H4V4H0V5H4V9H5V5H9V4H5V0Z"></path></svg></span><span>Sean Hollister</span></span></span></li><li></li><li></li><li></li><li></li><li></li><li></li></ul></div></div></div><br/><br/>https://www.theverge.com/policy/889252/google-app-store-fee-reduction-20-percent-epic-v-google]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
         <item>
@@ -361,7 +825,7 @@
 </blockquote>
 <figure data-uuid="111be01fcde7a"><a title="Black Flag 02" href="https://images.nintendolife.com/111be01fcde7a/black-flag-02.large.jpg"></a><figcaption><em><span></span> Image: Ubisoft</em></figcaption></figure>
 <p>Of course, it's not a given that Resynced will even come to the Switch 2, but given that Ubisoft managed to get Shadows running so well on Nintendo's platform, we've got our fingers crossed for a cheeky little release.</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:197408,197385 @ 1772650828 -->
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:197408,197385 @ 1772654451 -->
 <p><em>Well, there you go! Are you excited to see more from this project? Share your thoughts with a comment.</em></p></section></article><div><p>Nintendo Life’s resident horror fanatic, when he’s not knee-deep in Resident Evil and Silent Hill lore, Ollie likes to dive into a good horror book while nursing a lovely cup of tea. He also enjoys long walks and listens to everything from TOOL to Chuck Berry.</p><ul><li><a href="https://www.nintendolife.com/authors/Olliemar28"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/ollie-nl.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Olliemar28');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
 </div></div></div><br/><br/>https://www.nintendolife.com/news/2026/03/ubisoft-finally-teases-assassins-creed-black-flag-resynced-with-concept-art]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
@@ -677,178 +1141,6 @@
     <p><span>Musical combat roguelite due out in 2027.</span>
       </p></div><div><p><a title="Companies > Foreign Gnomes [4 articles]" href="https://www.gematsu.com/companies/foreign-gnomes">Foreign Gnomes</a> has announced <em><a title="Games > Everhood Hunters" href="https://www.gematsu.com/games/everhood-hunters">Everhood Hunters</a></em>, a <a title="Genres > Roguelike [420 articles]" href="https://www.gematsu.com/genres/roguelike">roguelike</a> rhythm entry in the <em>Everhood</em> series. It will launch for <a title="Platforms > Switch [18,382 articles]" href="https://www.gematsu.com/platforms/nintendo/switch">Switch</a> and <a title="Platforms > PC [25,613 articles]" href="https://www.gematsu.com/platforms/pc">PC</a> via <a href="https://store.steampowered.com/app/3906360/Everhood_Hunters/" target="_blank">Steam</a> in 2027. <span id="more-1030617"></span></p><p>“In so many ways, this is the game we always wanted to make,” said Foreign Gnomes co-founder Chris Nordgren in a press release. “Jordi [Roca] and I learned so much about ourselves while working together over the years, and all our mechanical ideas formed into something bigger than either of us could imagine. It’s not just the battles we’ve refined; the whole spirit of <em>Everhood</em>‘s surreal storytelling thrives in <em>Everhood Hunters</em>. We can’t wait to see you all take on the universe together.”</p><div id="carousel_1030620"><ul><li><span>❮</span></li><li><span>❯</span></li></ul></div><p>Here is an overview of the game, via Foreign Gnomes:</p><blockquote><p>So, there are those who think they have what it takes to be a hunter? No matter. The truth will come out soon enough. Pick from four different characters, each bringing bespoke playstyles to the table, and engage in musical battles and offensive beat-downs set to an electric soundtrack comprised of 70 new compositions as well as fan-favorites from <em>Everhood</em> and <em><a title="Games > Everhood 2 [2 articles]" href="https://www.gematsu.com/games/everhood-2">Everhood 2</a></em>. </p><p>Think things sound a little too familiar? Oh, ho, ho—how naive, little hunter!</p><!-- AD: content -->
         <p>Team up with a friend to embark on a <a title="Genres > Roguelite [336 articles]" href="https://www.gematsu.com/genres/roguelite">roguelite</a> <a title="Genres > Adventure [2,912 articles]" href="https://www.gematsu.com/genres/adventure">adventure</a> set in the <em>Everhood</em> universe to seal the root of all evil by solving riddles. Navigate winding paths filled with battles, rewards, shops, rest points, elite encounters, and other mysterious events unknown to even the PR firm writing this press release. Go toe-to-toe with surreal adversaries and work together side-by-side to climb to the top of weekly leaderboards.</p><p>Jump to the beat of life’s rhythmic river and dodge a stream of musical energy flying in the face of existence. Gather enough energy uninterrupted to unleash a powerful counterattack, increasing in damage with each note stored. Collect enemy souls to unlock new items and equipment, and transform every run into its own nugget of reality nestled in the <em>Everhood</em> world forever.</p></blockquote><p>Watch the announcement trailer below. View the first screenshots <a href="https://www.gematsu.com/gallery/everhood-hunters/march-4-2026/">at the gallery</a>.</p><h2><span>Announce Trailer</span></h2><p><iframe title="Everhood Hunters - Announce Trailer" width="500" height="281" src="https://www.youtube.com/embed/3NopUvGx9AM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p></div></div><br/><br/>https://www.gematsu.com/2026/03/everhood-hunters-announced-for-switch-pc]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Nintendo Showcases Every Switch 1 & 2 Indie World Game In A New Infographic]]></title>
-            <link>https://www.nintendolife.com/news/2026/03/nintendo-showcases-every-switch-1-and-2-indie-world-game-in-a-new-infographic</link>
-            <guid>1453282</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="body">
-<article id="article">
-<header><section>
-<p>Which will you pick up?</p>
-</section></header><div><section>
-<figure data-uuid="380b618d367f2"><a title="Indie World" href="https://images.nintendolife.com/380b618d367f2/indie-world.large.jpg"></a><figcaption><em><span></span> Image: Nintendo</em></figcaption></figure><p>Nintendo, as is customary after a major games showcase, has released a handy infographic containing every Switch 1 &amp; 2 game featured in the latest Indie World.</p>
-<p>Granted, it's not quite as packed as some of the full-fat Directs we've seen in the past, but at 15 minutes in length (or 25 minutes if you're in Japan), we weren't expecting an avalanche of games anyway. What was shown, however, is incredibly intriguing and we're really keen to see more in the coming weeks and months.</p>
-<p>Take <a href="https://www.nintendolife.com/games/nintendo-switch-2/denshattack">Denshattack!</a>, for example. We've had our fingers crossed that this would be confirmed for the Switch 2, and it's finally happened. It looks like the kind of game you'd stumble across on a PS2 demo disc, which is quite fortuitous since there's a free demo available right now on the eShop. Give it a go!</p><div><figure data-videoid="8i2vvu-qeBQ" data-start="0" data-src="https://www.youtube.com/embed/8i2vvu-qeBQ?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><div><iframe id="yt8i2vvu-qeBQ" title="YouTube Video" data-src-fallback="https://www.youtube-nocookie.com/embed/8i2vvu-qeBQ?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/8i2vvu-qeBQ?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed4c3af8nrxviw&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><p>Subscribe to <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1">Nintendo Life</a> on <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1"><span>YouTube</span><span>843k</span></a></p>
-</div></figure></div>
-<p>We've also got <a href="https://www.nintendolife.com/games/nintendo-switch-2/blue-prince">Blue Prince</a>, of course, which launched shortly after the presentation, along with two more shadow-drops in the form of <a href="https://www.nintendolife.com/games/nintendo-switch-2/rotwood">Rotwood</a> and <a href="https://www.nintendolife.com/games/nintendo-switch-2/minishoot-adventures-nintendo-switch-2-edition">MiniShoot' Adventures</a>. We're also especially keen to see more on Blighted from Drinkbox Studios – that team just doesn't miss, y'know?</p>
-<p>Anyway, here's a look at the full line-up:</p>
-<figure data-uuid="fa7effca356cf"><a title="Indie World 2" href="https://images.nintendolife.com/fa7effca356cf/indie-world-2.large.jpg"></a><figcaption><em><span></span> Image: <a href="https://x.com/NintendoAmerica/status/2029227915750084837">Nintendo</a></em></figcaption></figure>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch/related-articles:198206 @ 1772651635 -->
-<p><em>Which game(s) from the latest Indie World do you have your eye on? Let us know with a comment down in the usual place.</em></p></section>
-<p>[source <a title="External Link: https://x.com/NintendoAmerica/status/2029227915750084837" rel="noopener" href="https://x.com/NintendoAmerica/status/2029227915750084837">x.com</a>]</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch/related-info/d09c63c94a3e083cd7507b870f509548 @ 1772651635 --></div></article><div><p>Nintendo Life’s resident horror fanatic, when he’s not knee-deep in Resident Evil and Silent Hill lore, Ollie likes to dive into a good horror book while nursing a lovely cup of tea. He also enjoys long walks and listens to everything from TOOL to Chuck Berry.</p><ul><li><a href="https://www.nintendolife.com/authors/Olliemar28"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/ollie-nl.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Olliemar28');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
-</div></div></div><br/><br/>https://www.nintendolife.com/news/2026/03/nintendo-showcases-every-switch-1-and-2-indie-world-game-in-a-new-infographic]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[IO Interactive Digs Into How it Approached Telling a James Bond Origin Story in 007 First Light]]></title>
-            <link>https://wccftech.com/io-interactive-digs-into-james-bond-origin-story-approach-007-first-light/</link>
-            <guid>1453279</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			
-			<p><a href="https://wccftech.com/007-first-light-release-date-delayed-two-months-may-2026/">In a little more than two months</a>, we'll be able to jump into <strong>IO Interactive's</strong> latest major game, <strong>007 First Light</strong>. The storied <strong>Hitman</strong> developer taking on a <strong>James Bond</strong> story felt like a match made in heaven when it was first revealed <a href="https://wccftech.com/project-007-announced/">all the way back in 2020</a>. As we wait to find out if we were right about IO and James Bond being as good as peanut butter and chocolate, IO Interactive has just released a new deep-dive into the game, with the studio focusing in on its version of Bond and the cast of classic 007 characters.</p>
-
-
-
-<p>In the studio's latest '<a href="https://wccftech.com/io-interactive-debuts-new-beyond-the-light-bts-007-first-light-series/">Beyond the Light'</a> episode, which dives into different elements of the game in a behind-the-scenes fashion, speaking to members of the development team and, in the case of today's episode, the game's cast, we heard more about how IO Interactive approached telling an origin story for one of the world's most iconic characters across literature and film. </p>
-
-
-
-<figure><p>
-<iframe title="Beyond the Light Episode 2 - Cast &amp; Character Dev Diary" width="500" height="281" src="https://www.youtube.com/embed/jcdYNryApSg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-</p></figure>
-
-
-
-<p>Part of that approach, cinematic and narrative director <strong>Martin Emborg</strong> explains, has everything to do with the cast of characters that surround Bond. "<em>Doing an origin story for something like Bond, it's a really interesting challenge, taking the core qualities of the character that people know and love, obviously, for 60-plus years,"</em> Emborg says.</p>
-
-
-
-<p>"<em>But then, how did he get there? How did he become this guy that's suave and knows everything? What's the journey to go there? And hopefully, the journey and where he comes from, to some extent, should surprise, or at least intrigue people, so that he isn't just stepping through the door and going, 'Well, let's get started.</em>' <em>There's a journey, there's a character arc that he needs to go through.</em>"</p>
-
-
-
-<p>One element that Emborg digs into is how much more chatty IO's version of Bond is in 007 First Light. Part of that, Emborg says, is the fact that this story is being told through a video game. Players are with Bond all the time, and as we move through the levels, it's fairly standard video game fare to have your protagonist make the odd comment about everything that's going on. The other element IO wanted to get across though is that it also comes from Bond being a young upstart in 007 First Light.</p>
-
-
-
-<p>And then there are other character changes IO has made, like how <strong>Moneypenny</strong> is much more involved as a field analyst, rather than someone who makes her moves in the background while Bond is off on his espionage escapades.</p>
-
-
-
-<p>"<em>What is very different in terms of difference from books and movies is that in our version, Moneypenny is a field analyst, so she's going to be in his earpiece. So you get a lot more time with Moneypenny,</em> <em>you get a lot more conversation between her and Bond. Traditionally, Bond is a man of very few words. In our version, he speaks a lot more, which is partly because he's a young guy but also partly to do with the medium. We're not cutting to the next set piece; you're with him. You're entering the building with him, and so you're going to be part of a lot of back and forth, a lot of conversation, and a lot of perspectives. Sometimes quite fun - I mean, it's always more fun to jump out of a window if you're being told not to</em>."</p>
-
-
-
-<p>Emborg also explains how the rest of the cast around Bond, like <strong>Q</strong> and <strong>Greenway</strong>, both established agents who've moved on to different areas of <strong>MI6</strong>, and how Bond picks up different qualities of who they are as people and agents that ultimately make up the James Bond we know and love.</p>
-
-
-
-<p>It's very interesting to hear how IO approached telling this story, not just because Bond is such an iconic figure, but also because this is IO's first time branching out to tell a story like this. Sure, the studio has told espionage-related stories before, but nothing that belongs to a major license and franchise like this before. </p>
-
-
-
-<p>The reverence and understanding shown in this behind-the-scenes look should provide long-time Bond fans with a great deal of confidence that we'll get a stellar Bond story when 007 First Light arrives on PC, PS5, and Xbox Series X/S this coming <strong>May 27, 2026.</strong></p>
-
-			
-			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
-
-		</div></div><br/><br/>https://wccftech.com/io-interactive-digs-into-james-bond-origin-story-approach-007-first-light/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Ex-Humble Games Heads Buy Back Label and Rename It to Balor Games]]></title>
-            <link>https://techraptor.net/gaming/news/humble-games-balor-games-rebrand</link>
-            <guid>1453276</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><p>Ex-Humble Games heads Alan Patmore and Mark Nash have bought back the indie publishing label after its implosion back in 2024, and they've rebranded both it and their company Good Games Group to Balor Games in the process.</p><p>As reported <a href="https://www.gamesindustry.biz/good-games-group-has-bought-the-humble-and-firestoke-back-catalogues-now-newly-renamed-as-balor-games-it-wants-to-invest-in-triple-i" target="_blank" rel="nofollow">by Gamesindustry.biz</a>, Good Games Group has acquired all of the Humble Games back catalog, which includes the likes of beloved 3D platformer <em>A Hat in Time</em>, card-battling roguelike <a href="https://techraptor.net/games/slay-spire" data-entity-type="node" data-entity-uuid="3d2acd63-b8c6-4bdd-8786-f83b147edc76" data-entity-substitution="canonical" rel="nofollow"><em>Slay the Spire</em></a>, and cozy sim <a href="https://techraptor.net/games/forager" data-entity-type="node" data-entity-uuid="51bebbc7-db47-4c4c-b251-c038eabcfd1a" data-entity-substitution="canonical" rel="nofollow"><em>Forager</em></a>, among many others.</p><p>Both Good Games Group and Humble Games will be rebranding to Balor Games, which, according to the publisher, is inspired by a Celtic creature with three eyes. It's meant to be an allusion to becoming what GI.biz calls "a top triple-I publisher", so it's all in aid of a pun. Hem hem.</p><figure role="group">
-<picture>
-                  <source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/a-hat-in-time-balor-games-humble-games.jpg?itok=hDoXCFWE 1x" media="(min-width: 992px)" type="image/jpeg" width="1920" height="1080">
-              <source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/a-hat-in-time-balor-games-humble-games.jpg?itok=Nn7ysQ6d 1x" media="(max-width: 991px)" type="image/jpeg" width="1200" height="675">
-                  
-
-  </picture>
-<figcaption><em>A Hat in Time </em>is just one of the games that will now sit under the Balor Games label.</figcaption>
-</figure>
-<p>As well as buying up the rights to Humble Games' back catalog, Balor Games has also acquired the publishing rights to existing games like <em>Fights in Tight Spaces </em>and new projects like <em>SCP: 5K</em>.</p><p>All of this comes after Humble Games <a href="https://techraptor.net/gaming/news/humble-games-lays-off-over-30-employees-as-it-restructures" data-entity-type="node" data-entity-uuid="f631e39a-27d2-4c51-b3d0-fdbbd27c441e" data-entity-substitution="canonical" rel="nofollow">essentially imploded back in 2024</a>, with parent company Ziff Davis restructuring the company and laying off more than 30 of its employees.</p><p>The label <a href="https://techraptor.net/gaming/news/humble-games-showcase-2025-announced" data-entity-type="node" data-entity-uuid="5f416e9c-351f-4959-b89f-b423ef20055b" data-entity-substitution="canonical" rel="nofollow">limped on</a> under the management of Good Games Group, which was brought in to help oversee its back catalog, but it's now essentially been cut free from Ziff Davis and the Humble name.</p><p>It looks as though everything else that operates under the Humble umbrella - the Humbrella, if you will - isn't being affected by this change, so the likes of Humble Choice and Humble Bundles will continue as normal.</p>
-<p>As for Balor, co-head Mark Nash says he and his studio want to sign games that will "build communities", although that just means there needs to be a "vibrant community that can support the game and build awareness", not necessarily a multiplayer-focused community.</p><p>We'll have to wait and see what Balor does with this new lease of life it's been given. Stay tuned for more.</p></div><div><p><span><div>
-       
-    <p>Joe has been writing for TechRaptor for several years, and in those years has learned a lot about the gaming industry and its foibles. He’s originally an… <a href="https://techraptor.net/author/joseph-allen">More about Joseph</a></p>
-  </div></span></p></div></div><br/><br/>https://techraptor.net/gaming/news/humble-games-balor-games-rebrand]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Trump administration reportedly debating whether to force Riot Games owners Tencent to divest stakes in US game companies]]></title>
-            <link>https://www.rockpapershotgun.com/trump-administration-reportedly-debating-whether-to-force-riot-games-owners-tencent-to-divest-stakes-in-us-game-companies</link>
-            <guid>1453273</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
-
-
-<header data-component="article-header">
-  
-
-    <div id="main-content">
-  
-
-        <p>US government placed the company on a list of firms they believe have links to the Chinese military last year</p>
-
-    </div>
-
-
-  <p>
-
-  <figure>
-        <picture>
-        <source srcset="https://assetsio.gnwcdn.com/trump-adminstration-reportedly-debating-tencent-divestment-01.jpg?width=380&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/trump-adminstration-reportedly-debating-tencent-divestment-01.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/trump-adminstration-reportedly-debating-tencent-divestment-01.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/trump-adminstration-reportedly-debating-tencent-divestment-01.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/trump-adminstration-reportedly-debating-tencent-divestment-01.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/trump-adminstration-reportedly-debating-tencent-divestment-01.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/trump-adminstration-reportedly-debating-tencent-divestment-01.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/trump-adminstration-reportedly-debating-tencent-divestment-01.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/trump-adminstration-reportedly-debating-tencent-divestment-01.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>Riot Games</cite></span>
-        </figcaption>
-
-  </figure>
-  </p>
-
-    
-
-</header>
-  <div data-component="article-content">
-
-
-
-            <p>The US government, currently headed up by the Trump administration, are reportedly discussing whether to push Chinese conglomerate Tencent to divest their investments in US game companies. Tencent currently own <a href="https://www.rockpapershotgun.com/games/league-of-legends">League of Legends</a> developers Riot Games and <a href="https://www.rockpapershotgun.com/games/back-4-blood">Back 4 Blood</a> developers Turtle Rock Studios, while also holding stakes in the likes of Epic Games, Ubisoft, Remedy, and Paradox Interactive.</p>
-<!--more-->
-<p>The <a href="https://www.ft.com/content/dc140eb8-77e5-4b54-b643-637f66371ec2">Financial Times</a> report that the government have held meetings designed to assess whether Tencent's investments in US and Finnish gaming companies pose a risk to US national security. A meeting on the topic was reportedly scheduled to take place on Tuesday, March 3rd, but was postponed due to scheduling issues.</p>
-<p>All of this is taking place ahead of a meeting between Donald Trump and Chinese President Xi Jinping currently planned to take place in China next month. US government concerns over Tencent's gaming investments potentially allowing the company access to a ton of data on US players, and whether that'd constitute a "significant intelligence collection source" date back to Joe Biden's time in office.</p>
-<p>Early last year, the US government <a href="https://www.rockpapershotgun.com/the-us-just-added-worlds-biggest-games-publisher-tencent-to-their-list-of-chinese-military-companies">placed Tencent on a list</a> - known as Section 1260H - of companies it believes have links to the Chinese military. As of writing, Tencent are still on that list, despite quickly stating last year that their inclusion on it was down to a "misunderstanding" - one that they were <a href="https://www.rockpapershotgun.com/worlds-biggest-game-publisher-tencent-threaten-to-sue-us-government-for-listing-them-as-a-chinese-military-company">prepared to sue the US government over</a> if it couldn't be worked out.</p><p>Naturally, if Tencent were forced to ditch their US gaming investments, that could lead to significant upheaval for various firms on the laundry list of studios and publishers that concerns. Whether they will actually be forced to is another question, given that a large element of this bickering over Chinese investments in the US appears to be rooted in posturing on the part of both massively powerful states over who's the top dog in a world where attempting to prove that with direct force could well result in all of us being blown to radioactive smithereens.</p>
-
-        </div>
-
-      </article>
-
-  
-
-
-
-        
-  </div></div><br/><br/>https://www.rockpapershotgun.com/trump-administration-reportedly-debating-whether-to-force-riot-games-owners-tencent-to-divest-stakes-in-us-game-companies]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
