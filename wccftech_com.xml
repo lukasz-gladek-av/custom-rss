@@ -4,9 +4,53 @@
         <title>maGaming RSS Feed - wccftech.com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech.com</description>
-        <lastBuildDate>Thu, 05 Mar 2026 18:36:53 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Mar 2026 19:28:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[ARC Raiders Latest Update Fixes a Massive Security Flaw Which had Embark Studios Collecting Players’ Private Discord DMs]]></title>
+            <link>https://wccftech.com/arc-raiders-latest-update-fixes-massive-security-flaw-private-discord-dms-collected-by-embark/</link>
+            <guid>1454746</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			
+			<p><strong>Embark Studios'</strong> latest update for <strong>ARC Raiders</strong> isn't your <a href="https://wccftech.com/arc-raiders-cold-snap-update-now-live-embark-studios/">bog-standard fixes</a> or <a href="https://wccftech.com/arc-raiders-shrouded-sky-update-hurricane-map-condition-arc-threats-embark-studios/">new content release</a>. Instead, it's an update that the team rushed out the door this morning after a report from tech blogger and systems engineer<a href="https://timothymeadows.com/arc-raiders-discord-sdk-data-exposure/"> Timothy Meadows</a> pointed to an incident where two ARC Raiders players' private <strong>Discord </strong>DMs (direct messages) appeared in a game log file.</p>
+
+
+
+<p>Per Meadows report, the game's Discord SDK captured private messages between two users and a Discord Bearer token. It was a massive over-extension of the data that Embark collects through ARC Raiders' Discord SDK, an issue that is thankfully now fixed after the update was pushed earlier today.</p>
+
+
+
+<p>"<em>The team is also working on a hotfix to address an issue where the Discord SDK logged excessive user information</em>," Embark wrote in a message to players on the ARC Raiders Discord server. "<em>Rest assured that your private and/or personal data was not sent outside your machine and Embark has not (and will not) review or keep such information. We will disable the Discord SDK logging and are conducting a deeper audit to ensure no further issues</em>."</p>
+
+
+
+<p>As to why this happened, according to Meadows, the problem arose from how the game's Discord SDK works. When you enable Discord integration with ARC Raiders, Embark uses the full Discord Bearer authentication to access your data. And, as Meadows puts it, "<em>Rather than filtering sensitive events, the SDK logs everything it receives to disk</em>." That's how private messages ended up in plain text in game log files.</p>
+
+
+
+<figure></figure>
+
+
+
+<p>Thankfully, it didn't take Embark long to push the fix and close this issue, and it's very unlikely that this happened due to any kind of malicious intent on the part of Embark Studios. But it is a reminder as to how careful we all need to be when it comes to our online security, and how much data is being collected by the platforms we use.</p>
+
+
+
+<p>For more on ARC Raiders, <a href="https://wccftech.com/how-to/arc-raiders-complete-guides-and-walkthrough-hub/">check out our complete walkthrough and guides hub</a> for the answers to all your big Raiding-related questions.</p>
+
+			
+			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
+
+		</div></div><br/><br/>https://wccftech.com/arc-raiders-latest-update-fixes-massive-security-flaw-private-discord-dms-collected-by-embark/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[Rockstar Expands its GTA+ Subscription to NBA 2K26 Next Week, Giving PS5 and Xbox Series Limited-Time Access to the Full Game]]></title>
             <link>https://wccftech.com/rockstar-expands-gta-subscription-nba-2k26-ps5-xbox-series/</link>
@@ -51,94 +95,6 @@
 			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
 
 		</div></div><br/><br/>https://wccftech.com/rockstar-expands-gta-subscription-nba-2k26-ps5-xbox-series/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[RUINER 2 Announced for PC as a Co-Op Cyberpunk Action RPG]]></title>
-            <link>https://wccftech.com/ruiner-2-announced-pc-co-op-cyberpunk-action-rpg/</link>
-            <guid>1454524</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			
-			<p>This afternoon, independent Polish developer <strong>Reikon Games</strong> announced that <strong>RUINER 2</strong> is in development for PC. As suggested by the title, it will be a sequel to 2017's twin-stick shooter, which was well-received by fans and critics. RUINER <a href="https://wccftech.com/review/ruiner-you-played-yourself/" target="_blank" rel="noreferrer noopener">earned an 8 out of 10 score on Wccftech</a>:</p>
-
-
-
-<p><em>RUINER is a no-brainer if you are interested in fast-paced action games that require real skill to truly perfect. </em></p>
-
-
-
-<p>However, RUINER 2 will be greatly expanded: <strong>it will support co-op gameplay and shift its genre to "cyberpunk action RPG</strong>". <strong>Marek Roefler</strong>, Game Director of the sequel at Reikon, said in a statement:</p>
-
-
-
-<p><em>We are massive ARPG fans, and RUINER 2 is the game we've always wanted to play. We built the Shell System because we love theory-crafting and finding broken combinations, but we hated being locked into a single character for a hundred hours. This game is for players who want to experiment, swap builds on the fly, and discover synergies that tear the screen apart.</em></p>
-
-
-
-<p>Reikon, which recently released the sci-fi first-person shooter <span><strong><a href="https://wccftech.com/metal-eden-release-date-ps5-pc-xbox-series-x-s/" target="_blank" rel="noreferrer noopener">METAL EDEN</a></strong>&nbsp;(which was also well received</span>), explained that the sequel will see players return to Rengkok, a cyberpunk dystopia where corporations literally own the rights to your death. This time, players will step into the role of a hacker who can control up to three "bodies" (the <strong>Shells</strong>) and instantly shift between them during battles. Rather than being limited to a single class, players can unlock unique characters, known as Shells, by defeating bosses.</p>
-
-
-
-<p>Each Shell has its own distinct playstyle, <strong>four skills with two branching progression nodes each</strong>, and a dedicated resource pool (<strong>Power, CPU, Memory</strong>) that governs gear loadouts with no free slots, so every piece of equipment is a trade-off. There's also a hacker-level passive tree called <strong>Neural Network</strong> that shapes the entire Shells roster.</p>
-
-
-
-<figure><p>
-<iframe title="RUINER 2 - Official Reveal Trailer | Co-op Action RPG" width="500" height="281" src="https://www.youtube.com/embed/QnyFQhgfs8c?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-</p></figure>
-
-
-
-<p>In single player mode, <strong>players control a team of up to three Shells simultaneously</strong>, effectively becoming a one-person army. This system creates <strong>Synergies</strong>, allowing players to combine the abilities of different Shells to create devastating combos. The same rules apply in co-op mode, where <strong>each of up to three players brings their Shells (up to six in total for a team) into the fight</strong>. The more players, the more synergies, and the higher the stakes. Reikon has also confirmed an "<strong>endless endgame</strong>" where players will fight through escalating tiers featuring stronger enemies, better loot, and no ceiling. </p>
-
-
-
-<p>The <a href="https://store.steampowered.com/app/2936810/RUINER_2/" target="_blank" rel="noreferrer noopener">Steam page</a> also already lists the minimum system requirements, which we've posted below.</p>
-
-
-
-<ul>
-<li><strong>OS:</strong> Windows 10 64-bit</li>
-
-
-
-<li><strong>PROCESSOR: </strong>AMD Ryzen 5 2600 / Intel Core i5-8400</li>
-
-
-
-<li><strong>MEMORY:</strong> 8 GB RAM</li>
-
-
-
-<li><strong>GRAPHICS: </strong>NVIDIA GeForce GTX 1060 (6GB) / AMD Radeon RX 580 (8GB)</li>
-
-
-
-<li><strong>DIRECTX:</strong> Version 12</li>
-
-
-
-<li><strong>NETWORK:</strong> Broadband Internet connection</li>
-
-
-
-<li><strong>STORAGE:</strong> 10 GB available space</li>
-</ul>
-
-
-
-<p>By the way, RUINER <strong>was eventually released for all consoles</strong> (PlayStation, Xbox, and even Nintendo Switch). The same could likely happen later for RUINER 2.</p>
-
-			
-			<p>Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.</p>
-
-		</div></div><br/><br/>https://wccftech.com/ruiner-2-announced-pc-co-op-cyberpunk-action-rpg/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
