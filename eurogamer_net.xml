@@ -4,13 +4,13 @@
         <title>maGaming RSS Feed - www.eurogamer.net</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/eurogamer_net.xml</link>
         <description>A cleaned-up version of the original gaming feed for www.eurogamer.net</description>
-        <lastBuildDate>Thu, 05 Mar 2026 18:36:53 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Mar 2026 21:10:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Embark Studios rushes to fix Discord integration bug as "serious privacy and security violations" may have exposed private Discord DMs, friends data, ]]></title>
-            <link>https://www.eurogamer.net/arc-raiders-discord-messages-security-problem-fix-incoming</link>
-            <guid>1454557</guid>
+            <title><![CDATA[For the first time in Diablo history, you'll soon be able to transform into the Butcher, and there's a free Paladin trial coming as well]]></title>
+            <link>https://www.eurogamer.net/transform-into-the-butcher-in-diablo-4</link>
+            <guid>1454806</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
       <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
 
@@ -18,35 +18,10 @@
 <header data-component="article-header">
   
 
-    <div id="main-content">
-        
-
-        <p>Studio promises "your private data was not sent outside your machine."</p>
-
-    </div>
+    
 
 
-  <p>
-
-  <figure>
-      <picture>
-        <source srcset="https://assetsio.gnwcdn.com/Arc-Raiders-Escalation-story.png?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Arc-Raiders-Escalation-story.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Arc-Raiders-Escalation-story.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Arc-Raiders-Escalation-story.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Arc-Raiders-Escalation-story.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Arc-Raiders-Escalation-story.png?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Arc-Raiders-Escalation-story.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Arc-Raiders-Escalation-story.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Arc-Raiders-Escalation-story.png?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>Eurogamer/Embark Studios</cite></span>
-        </figcaption>
-  </figure>
-  </p>
+  
 
     
 
@@ -55,25 +30,13 @@
 
 
 
-            <p>A potentially major security flaw has been discovered in <a href="https://www.eurogamer.net/games/arc-raiders">Arc Raiders</a>, according to a security blogger, that could put private Discord messages, friends list information and more at risk for players. Embark Studios has informed players it is "conducting a deeper audit" into the problem.</p>
-<p>Timothy Meadows, a distributed systems engineer and technical blogger, first published the blog earlier this week, claiming that Arc Raiders is storing private Discord messages, friends list presence data, and Discord Bearer Authentication tokens in log files. This, he claims, occurs if Discord integration is enabled while playing the extraction shooter.</p>
-<p><a href="https://timothymeadows.com/arc-raiders-discord-sdk-data-exposure/">In the blog post</a>, Meadows summarises his findings as such: "During gameplay of Arc Raiders, private Discord Direct Message (DM) conversations between two users were found being written in plaintext to a local game log file. Additionally, a full Discord Bearer authentication token was found stored in the same log file. These findings represent serious privacy and security violations that affect all players using Discord integration with the game."</p>
-<p>According to Meadows Discord DMs between two users - which otherwise would be private - were captured by Arc Raiders' Discord SDK (software development kit). He notes that in his findings, these were "written in full to a plaintext log file stored locally on the user's machine."</p><p>He claims this happens because of how the Arc Raiders Discord SDK works. When Discord integration is enabled, it uses the full Discord Bearer authentication token to access data. Think of this as an encrypted pass that allows access to specific Discord data. According to Meadows, more information than expected is gathered as part of this process, including private DM messages. He states: "Rather than filtering sensitive events, the SDK logs everything it receives to disk."</p>
-<p>What this potentially means, if Meadows is correct in his testing, is that private conversations received while the game is running is written to disk, log files of that data may be included in crash reports or bug report uploads, and they may be accessible to other applications on the same machine. As a result, third parties with access to the machine or crash reports could read private conversations and more.</p>
-<p>On <a href="https://x.com/birdgineer/status/2028890179067625928">Meadows' personal X account</a>, he claims he "Tried to report this to @EmbarkStudios but there [sic] bug bounty program can't be found. Just a dead link not listed in the @intigriti catalog."</p>
-<p>"There is a pretty big security issue with @ARCRaidersGame discord sdk integration that's putting people at risk."
-</p> <div>
-
-<p><span data-type="targeting">
-<span>To see this content please enable targeting cookies.</span>
-</span>
-</p></div>
-<p>In a statement posted to the official Arc Raiders Discord server, a hotfix is in the works seemingly in response to these findings. It reads: "The team is also working on a hotfix to address an issue where the Discord SDK logged excessive user information. Rest assured that your private and/or personal data was not sent outside your machine and Embark has not (and will not) review or keep such information. We will disable the Discord SDK logging and are conducting a deeper audit to ensure no further issues. If you have questions or concerns, please contact our support team."
-</p>
-<p>In his blog, Meadows recommends you change your Discord password immediately, do not share your log files with anyone, and disable Discord integreation in Arc Raiders until the issue is resolved.</p>
-<p>Eurogamer has contacted Embark Studios and Discord for comment.</p>
-
-        </div>
+            <p>Blizzard will soon let us transform into the iconic Butcher enemy in <a href="https://www.eurogamer.net/games/diablo-iv">Diablo 4</a> for the first time in Diablo history. There's also a free trial coming that will allow anyone to play as the upcoming paladin class whether they've pre-purchased the Diablo 4: Lord of Hatred expansion or not.</p>
+<p>The Butcher arrives as the headline feature of Season 12's appropriately named Season of Slaughter on 11th March. You'll be able to transform into the big, cleaver-wielding menace by activating Shrines of Slaughter in Helltides, competing in the Ceremony of Slaughter in the Fields of Hatred, or in the gruesome-sounding Slaughterhouses.</p>
+<p>The Butcher was infamous in Diablo 1. He'd come tearing out of a room with a speed and aggression that was shocking early on in the game. He would catch players off guard and leave many of them face first on the floor. The Butcher was a difficulty spike made manifest.</p>
+<p><a href="https://www.eurogamer.net/how-to-find-defeat-the-butcher-diablo-4-9337">The Butcher also appeared in a surprise cameo in Diablo 4</a> in a nod back to that original Diablo game. He'd suddenly appear midway through a dungeon and tear at you with similar speed and aggression and, again, leave many players face-first on the floor.</p><p>The paladin free trial also begins 11th March and runs until 18th March, and it's open to all players on Battle.net, PlayStation and Xbox. This includes a trial of the base Diablo 4 game and lets you play the Paladin up to a level of 25. If after trialling the paladin you'd like to pre-purchase the Lord of Hatred expansion, your class progress will carry over.</p>
+<p>The Lord of Hatred expansion arrives 28th April for Diablo 4, and brings a new warlock class alongside the paladin, a new region to explore and a new storyline, and raises the level cap by 10. There are also new endgame features, the Horadric Cube, and the arrival of Talismans and sets of charms.</p>
+<p>Blizzard is also taking the opportunity to overhaul the game's skill tree for everyone regardless of if you buy the expansion, and introduce new quality of life features such as loot filters to the game. There are a raft of significant changes coming, which is why, as I discovered after visiting Blizzard recently, <a href="https://www.eurogamer.net/unpacking-the-diablo-4-warlock-and-skill-tree-changes">it feels like a 2.0 moment for Diablo 4</a>.</p>
+</div>
 
   
       </article>
@@ -84,14 +47,45 @@
 
 
 
-  
+  <section>
+        
+
+
+    <div>
+      <p>
+        <a href="https://www.eurogamer.net/games/diablo-iv">Diablo IV</a>
+      </p>
+
+      <p>
+            <span>PS4</span>, 
+            <span>PS5</span>, 
+            <span>Xbox One</span>, 
+            <span>Xbox Series X/S</span>, 
+            <span>PC</span>
+      </p>
+
+
+
+
+
+</div>
+
+      <details>
+        <summary>
+See 1 more              <span></span>
+
+        </summary>
+
+        
+      </details>
+  </section>
 
   <section>
     <span>Related topics</span>
 
     
   </section>
-  </div></div><br/><br/>https://www.eurogamer.net/arc-raiders-discord-messages-security-problem-fix-incoming]]></content:encoded>
+  </div></div><br/><br/>https://www.eurogamer.net/transform-into-the-butcher-in-diablo-4]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
