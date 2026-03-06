@@ -4,9 +4,232 @@
         <title>Eurogamer.net RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/eurogamer_net_full.xml</link>
         <description>Full article content from Eurogamer.net</description>
-        <lastBuildDate>Fri, 06 Mar 2026 14:13:33 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 06 Mar 2026 15:12:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA["We are providing guidance to developers" - Discord promises a fix and "additional protections" following discovery of Arc Raiders bug that stored users' private messages]]></title>
+            <link>https://www.eurogamer.net/discord-promises-additional-protections-following-arc-raiders-bug-that-stored-users-private-messages</link>
+            <guid>https://www.eurogamer.net/discord-promises-additional-protections-following-arc-raiders-bug-that-stored-users-private-messages</guid>
+            <content:encoded><![CDATA[https://www.eurogamer.net/discord-promises-additional-protections-following-arc-raiders-bug-that-stored-users-private-messages<br/><br/><div id="readability-page-1" class="page"><div>
+      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
+
+
+<header data-component="article-header">
+  
+
+    
+
+
+  <p>
+
+  <figure>
+      <picture>
+        <source srcset="https://assetsio.gnwcdn.com/discord-logo-icon-only.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/discord-logo-icon-only.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/discord-logo-icon-only.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/discord-logo-icon-only.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/discord-logo-icon-only.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/discord-logo-icon-only.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/discord-logo-icon-only.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/discord-logo-icon-only.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/discord-logo-icon-only.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
+        
+      </picture>
+
+        <figcaption>
+          <span>Image credit: <cite>Discord</cite></span>
+        </figcaption>
+  </figure>
+  </p>
+
+    
+
+</header>
+  <div data-component="article-content">
+
+
+
+            <p>Discord has responded to a recent data security issue that arose with <a href="https://www.eurogamer.net/games/arc-raiders">Arc Raiders</a>' Discord Integration, <a href="https://www.eurogamer.net/arc-raiders-discord-messages-security-problem-fix-incoming">which was storing user's private Discord messages locally on their PCs</a>.</p>
+<p>While this has now thankfully been hotfixed by the developers at Embark Studios, A Discord spokesperson told Eurogamer the following: "We recently became aware of an issue impacting some Arc Raiders players involving debugging features intended for developers building and testing Social SDK (software development kit) game integrations.</p>
+<p>"This resulted in some players' Discord information from the game being stored locally on their device, and viewing it would require access to the device or the files themselves. Embark has released a hotfix for the issue and we are providing guidance to developers and updating the Discord Social SDK with additional protections."</p>
+<p>It is worth noting Timothy Meadows, who <a href="https://timothymeadows.com/arc-raiders-discord-sdk-data-exposure/">first published a his findings on this bug</a>, argued that log files - where these messages were stored - could have potentially been included in bug reports or accessed by other apps with access to files on the machine.
+</p>
+<p>According to Discord, the company became aware of the problem on the 4th March, and worked with Embark Studios to address the problem. Embark Studios then moved to quickly fix the problem via a hotfix.</p>
+<p>On Discord's part, the company is releasing updates to the Social SDK and updating developer guidance to help prevent similar issues going forward and is communicating directly with partners who have existing or in-development integrations.</p>
+<p>The problem was caused by the debug logging capabilities in the Discord Social SDK, which can generate additional local logs when developers enable high logging levels while testing or troubleshooting integrations. Eurogamer understands this only affected users who linked their Discord account to the Embark Integration.</p><p>In Meadow's original blog post on the matter, he recommended those who enabled Discord integration with Arc Raiders to change their Discord password immediately and disable said integration. With the bug now fixed and new guardrails in place, one hopes this sort of Discord Integration security concern is gone for good.</p>
+
+        </div>
+
+  
+      </article>
+
+
+
+  
+
+
+
+  
+
+  <section>
+    <span>Related topics</span>
+
+    
+  </section>
+  </div></div>]]></content:encoded>
+            <dc:creator>Connor Makar</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[The Super Mario Galaxy Movie Nintendo Direct announced, with new artwork hailing the return of some unexpected names]]></title>
+            <link>https://www.eurogamer.net/the-super-mario-galaxy-movie-nintendo-direct-announced-with-new-artwork-hailing-the-return-of-some-unexpected-names</link>
+            <guid>https://www.eurogamer.net/the-super-mario-galaxy-movie-nintendo-direct-announced-with-new-artwork-hailing-the-return-of-some-unexpected-names</guid>
+            <content:encoded><![CDATA[https://www.eurogamer.net/the-super-mario-galaxy-movie-nintendo-direct-announced-with-new-artwork-hailing-the-return-of-some-unexpected-names<br/><br/><div id="readability-page-1" class="page"><div>
+      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
+
+
+<header data-component="article-header">
+  
+
+    
+
+
+  <p>
+
+  <figure>
+      <picture>
+        <source srcset="https://assetsio.gnwcdn.com/Mario-and-Yoshi-in-The-Super-Mario-Galaxy-Movie-promo-image.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Mario-and-Yoshi-in-The-Super-Mario-Galaxy-Movie-promo-image.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Mario-and-Yoshi-in-The-Super-Mario-Galaxy-Movie-promo-image.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Mario-and-Yoshi-in-The-Super-Mario-Galaxy-Movie-promo-image.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Mario-and-Yoshi-in-The-Super-Mario-Galaxy-Movie-promo-image.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Mario-and-Yoshi-in-The-Super-Mario-Galaxy-Movie-promo-image.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Mario-and-Yoshi-in-The-Super-Mario-Galaxy-Movie-promo-image.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Mario-and-Yoshi-in-The-Super-Mario-Galaxy-Movie-promo-image.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Mario-and-Yoshi-in-The-Super-Mario-Galaxy-Movie-promo-image.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
+        
+      </picture>
+
+        <figcaption>
+          <span>Image credit: <cite>Nintendo</cite></span>
+        </figcaption>
+  </figure>
+  </p>
+
+    
+
+</header>
+  <div data-component="article-content">
+
+
+
+            <p>Nintendo has announced another Direct dedicated to its upcoming film sequel, <a href="https://www.eurogamer.net/movies/the-super-mario-galaxy-movie-2026">The Super Mario Galaxy Movie</a>.</p>
+<p>The Direct itself will take place on 9th March, at 9pm UK time. As with previous <a href="https://www.eurogamer.net/games/super-mario-galaxy">Super Mario Galaxy</a> Movie showcases such as this, no game information will be included in the broadcast. You can tune into the Super Mario Galaxy Movie Direct via <a href="https://www.youtube.com/live/g4KRGBp_tXw">YouTube</a> or <a href="https://www.eurogamer.net/nintendo-announces-new-app-that-will-deliver-you-daily-information-and-content">on the Nintendo Today app</a>.</p>
+<!-- code from Primis - Eurogamer.net - eurogamer.net -->
+<div>
+<p><span data-type="targeting">
+<span>To see this content please enable targeting cookies.</span>
+</span> </p>
+</div>
+<!-- code from Primis -->
+<p>In addition to announcing the Direct, Nintendo also shared some new artwork for The Super Mario Galaxy Movie, which reveals some perhaps unexpected characters which will be popping up on the film's release.</p>
+<p>As you can see via the image below, the black-clad Ninjis (or Ninjies) will be making a showing in the sequel. I hadn't clocked them in the film promos before, but these star-shaped devil-like ninja creatures first appeared in Yume Kōjō: Doki Doki Panic and Super Mario Bros. 2, and I always thought their skin was black and those red buttons were there for modesty, but that's just me. Ninji has since popped up in Mario spin-offs like <a href="https://www.eurogamer.net/games/super-mario-party-jamboree">Super Mario Party Jamboree</a> and the Switch's golf game.</p>
+<p>The new Super Mario Galaxy Movie also gives us a look at Birdo - <a href="https://www.eurogamer.net/who-is-birdo">a favourite here at Eurogamer</a> - joined by Mouser, a boss introduced in Yume Kōjō: Doki Doki Panic and Super Mario Bros. 2.</p>
+<p>Oh, and Wart is also there. Wart, for those unaware, is a frog-like creature, and a main antagonist in Yume Kōjō: Doki Doki Panic and Super Mario Bros. 2.</p>
+<figure>
+ 
+
+
+<figcaption><span>Image credit: <cite>Nintendo</cite></span></figcaption>
+</figure>
+<p>The Super Mario Galaxy Movie is set to release in cinemas next month, on 1st April (not fooling).</p>
+<p>Along with the above characters, a <a href="https://www.eurogamer.net/the-super-mario-galaxy-movie-may-still-have-an-unannounced-character-popping-up-on-its-release">recent cinema listing may have accidentally let slip another face that could well pop up in the sequel alongside Mario and co</a>.</p>
+
+        </div>
+
+  
+      </article>
+
+
+
+  
+
+
+
+  
+
+  <section>
+    <span>Related topics</span>
+
+    
+  </section>
+  </div></div>]]></content:encoded>
+            <dc:creator>Victoria Phillips Kennedy</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Resident Evil Requiem's "fan service" is entirely earned - and it's much more than that too]]></title>
+            <link>https://www.eurogamer.net/resident-evil-requiems-fan-service-is-entirely-earned-and-its-much-more-than-that-too</link>
+            <guid>https://www.eurogamer.net/resident-evil-requiems-fan-service-is-entirely-earned-and-its-much-more-than-that-too</guid>
+            <content:encoded><![CDATA[https://www.eurogamer.net/resident-evil-requiems-fan-service-is-entirely-earned-and-its-much-more-than-that-too<br/><br/><div id="readability-page-1" class="page"><div data-component="article-header">
+  
+
+    
+
+
+  <p>
+
+  <figure>
+      <picture>
+        <source srcset="https://assetsio.gnwcdn.com/RESI-LEON-HAT.jpg?width=380&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/RESI-LEON-HAT.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/RESI-LEON-HAT.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/RESI-LEON-HAT.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/RESI-LEON-HAT.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/RESI-LEON-HAT.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/RESI-LEON-HAT.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/RESI-LEON-HAT.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/RESI-LEON-HAT.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
+        
+      </picture>
+
+        <figcaption>
+          <span>Image credit: <cite>Eurogamer/Capcom</cite></span>
+        </figcaption>
+  </figure>
+  </p>
+
+    
+
+</div><div data-component="article-content">
+
+
+
+  
+
+
+            <p>I'd wager my first vivid memory of Resident Evil is probably - if you're of a certain age at least - pretty similar to yours. First floor, east wing, sudden pant-soiling cacophony. Need I say more? Admittedly, it's a close call between that and the indelible image of the series' very first zombie slowly turning its decomposing face to camera, but either way, there's no denying that 1996's Resident Evil was a formative game. I don't, admittedly, remember too much else about it, except it was the first time I'd played anything that felt  <em>genuinely</em> scary - or at least, capable of instilling the kind of relentless, sweaty palmed panic I hadn't even imagined games could do back then. And it's been a wild Resident Evil ride ever since; so 30 years on - after countless reinventions - I can think of few series more deserving of a victory lap like the one we've just seen in Resident Evil Requiem (naturally, some spoilers will follow...).</p>
+<p>When I think back on my 30 years of Resident Evil, it's not so much the games I remember as a series of moments. Raccoon City PD is a haze when I try to recall <a href="https://www.eurogamer.net/games/resident-evil-2">Resident Evil 2</a>, for instance, but I can vividly recollect its dank (extremely spider-y) descent into the sewers. Resident Evil 3 is pretty much just a snapshot of dimly lit subway carriage interior, while Code Veronica, weirdly, is a lot of different moments: Steve Burnside's fringe, the twist reveal, the way a spooky mansion gives way to an even spookier mansion somewhere behind it, high on a hill.</p>
+<!-- code from Primis - Eurogamer.net - eurogamer.net -->
+<div>
+<p><span data-type="targeting">
+<span>To see this content please enable targeting cookies.</span>
+</span> </p>
+</div>
+<!-- code from Primis -->
+<p>
+<a href="https://www.eurogamer.net/games/resident-evil-4">Resident Evil 4</a>, meanwhile, has been flattened down to an endless exhale when I finally made it into the village clocktower; 5, I'll admit, is mostly Chris Redfield arms. 6 is, well... admiration for its ambition maybe?, and 7 - confession time - I haven't played much at all (I got as far as the family dinner scene and my nerves just couldn't take it anymore). As for 8, it's still a bit too fresh to have calcified into distinct moments, but it's probably a close call between mutant baby and, somewhat predictably, Castle Dimitrescu. And that isn't even touching on Capcom's endlessly odd spin-offs (hello under-appreciated <a href="https://www.eurogamer.net/games/resident-evil-revelations">Resident Evil Revelations</a> series - I love you).</p>
+<p>But for me, these aren't just Resident Evil memories, they're milestones of sorts; each moment inextricably associated with other memories - of where I was, what I was doing (school, university, first flatshare, first job!), and who I was hanging out with at the time. So <a href="https://www.eurogamer.net/resident-evil-requiem-review">playing through Resident Evil Requiem for review recently</a> wasn't just triggering admiration for Capcom's masterful craft, it was firing off all sorts of nostalgia neurons too. So many easter eggs, so many nods to the series' past! And for all the dismissive talk of "fan service" aimed at Resident Evil Requiem, I can't think of many series more deserving of - and an anniversary more fitting for - this kind of victory lap. After 30 years together - half a lifetime practically! - what some might see as self-indulgence, to me felt more like fond reminisces with a long-time friend.</p>
+
+
+
+<p>And, honestly, I love Capcom's approach to nostalgia here, the way it frequently finds its way into the core mechanics of Requiem. In Alyssa Ashcroft, for instance, we've got a returning character from a weird spin-off - one old enough to be a proper deep cut - that gracefully (if you'll pardon the pun) finds a throughline in her daughter's lockpicking skills. Meanwhile, some of the connections are pure vibes; Rhodes Hill Chronic Care Center, for me at least, is absolutely Spencer Mansion coded, even without an explicit link. And the shift between Grace and Leon in the first half masterfully pays homage to old and new era Resident Evil in all sorts of ways; in its different default perspectives, even its old- and new-school tone - Grace bringing the pure, modern-day horror and Leon, with his ludicrous hatchet-swinging mayhem, recalling the series at the height of its infatuation with action and at its most classically camp.</p><p>But there's more! The two inventory systems - two clear nods to two very different eras of the series - aren't just about eliciting a tingle of nostalgic recognition; they feel entirely fitting for each protagonist's distinctive playstyle. Even Leon's initial return to Racoon City, with its endless fights in tight spaces, feels like tumbling back in time to the series circa Resident Evil 4/5. There's loads of this mechanical pilfering to go with the <a href="https://www.eurogamer.net/resident-evil-requiem-easter-eggs">lore winks and easter eggs</a> (was I reading too much into the fixed camera angles appearing on a wall of monitors at one point?), and it's deployed not just with a sense of fun, but also elegance and care - 30 years of reinvention repurposed and repackaged into a wonderfully coherent, cohesive whole.</p>
+
+
+
+<p>And even when Requiem goes full-on memberberries in its second half, it still feels earned. Honestly, after 30 years in Capcom's completely dotty universe, Leon isn't the only one who needs a bit of closure on Raccoon City. And besides, any video game series that's endured this long, while still finding ways to remain fresh and relevant, deserves to give itself a celebratory pat on the back as far as I'm concerned. So yes, bring on your giant spider; dazzle me with your ridiculous mutant plant; slip sneaky backward release dates into your fake OS version numbers; let's high-five as Mr. X gets his encore, shed a tiny tear for that team photo tucked away in the police station, and, sure, why not throw in a bunch of creepy kids too?</p><p>As for broken, beautiful Leon with his ridiculous, gravity defying bike-on-skyscraper escapades and action hero quips, he too has earned his happy ending and quiet retirement (<a href="https://www.eurogamer.net/resident-evil-requiem-tease-sparks-debate">whoever it might be with</a>) after nearly three decades of Umbrella's nonsense. So good work Requiem; good work Capcom. Maybe we don't need to do this <em>every</em> outing, but if we manage to make it to Resident Evil's fiftieth, I've got my party hat primed and ready to go.</p>
+</div></div>]]></content:encoded>
+            <dc:creator>Matt Wales</dc:creator>
+        </item>
         <item>
             <title><![CDATA[Artist whose work was used in Marathon without permission now has a credit in the game]]></title>
             <link>https://www.eurogamer.net/artist-whose-work-was-used-in-marathon-without-permission-now-has-a-credit-in-the-game</link>
@@ -8346,203 +8569,6 @@ It's currently unclear how - or indeed if - the changes announced by Vishnevskiy
   </section>
   </div></div>]]></content:encoded>
             <dc:creator>Victoria Phillips Kennedy</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[007: First Light gameplay director talks Uncharted and Batman: Arkham influences that add to IO's Hitman pedigree]]></title>
-            <link>https://www.eurogamer.net/007-first-light-gameplay-director-talks-batman-arkham-and-uncharted-influences</link>
-            <guid>https://www.eurogamer.net/007-first-light-gameplay-director-talks-batman-arkham-and-uncharted-influences</guid>
-            <content:encoded><![CDATA[https://www.eurogamer.net/007-first-light-gameplay-director-talks-batman-arkham-and-uncharted-influences<br/><br/><div id="readability-page-1" class="page"><div>
-      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
-
-
-<header data-component="article-header">
-  
-
-    
-
-
-  <p>
-
-  <figure>
-      <picture>
-        <source srcset="https://assetsio.gnwcdn.com/007-First-Light-bad-guy.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/007-First-Light-bad-guy.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/007-First-Light-bad-guy.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/007-First-Light-bad-guy.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/007-First-Light-bad-guy.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/007-First-Light-bad-guy.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/007-First-Light-bad-guy.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/007-First-Light-bad-guy.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/007-First-Light-bad-guy.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>IO Interactive</cite></span>
-        </figcaption>
-  </figure>
-  </p>
-
-    
-
-</header>
-  <div data-component="article-content">
-
-
-
-            <p>I'd be lying if I said <a href="https://www.eurogamer.net/games/007-first-light">007: First Light</a> doesn't look (and sound) like one the coolest triple-A games coming out this year. With its post-delay <a href="https://www.eurogamer.net/merry-christmas-james-bond-game-007-first-light-has-been-delayed">27th May release date</a> not far away now, marketing and developer chatter are ramping up, and now we've learned about the explicit influences that were added to all the <a href="https://www.eurogamer.net/games/hitman">Hitman</a> DNA we've able to discern in <a href="https://www.eurogamer.net/companies/io-interactive">IO Interactive</a>'s latest.</p>
-<p>On 23th February, <a href="https://www.gamespot.com/articles/007-first-light-aims-to-channel-batman-arkham-freeflow-combat-with-uncharted-spectacle/1100-6538356/">GameSpot</a> shared juicy bits from <a href="https://gameinformer.com/007firstlight">Game Informer</a>'s recent interview with gameplay director Andreas Krogh, who admits the team looked at triple-A games "on the same scale" for inspiration. After all, even with a reboot, there's set of expectations around what a James Bond game should be, and IO's own style shouldn't get in the way of that if you ask me.</p>
-<p>We already know many stealth and immersive sim elements from the recent Hitman trilogy, as well as spectacular and layered level design, have made their way into 007: First Light, but it's good to know IO looked at modern action-adventure classics for the more explosive sequences: "I think you see the <a href="https://www.eurogamer.net/batman-arkham-games-order">Arkham games</a>, you see those games in it. You also see some modern takes on destructibility in the environment that are not necessarily from the Arkham games, but newer takes like <a href="https://www.eurogamer.net/video-game-franchises/uncharted">Uncharted</a>. We have a deeper system than that because we want to do more of it, and from shooting, you see references that are also from modern games," Krogh explained.</p>
-<p>In any case, while some gameplay scenes will railroad players into big set pieces that would make renowned Hollywood action directors smile, the studio hasn't sacrificed the freedom of "choice" it's known for in most scenarios: "We want to set the player up to choose for himself. What kind of player are you? What kind of playstyle do you prefer? Play that way."</p><p>It won't be long before we check for ourselves if everything has come together beautifully, but with a mix of old and new, plus <a href="https://www.eurogamer.net/007-first-light-trailer-unveils-lenny-kravitzs-villainous-side">Lenny Kravitz on board as the villain</a>, it seems like IO's take on the property won't be retreading much old ground.</p>
-
-        </div>
-
-  
-      </article>
-
-
-
-  
-
-
-
-  
-
-  <section>
-    <span>Related topics</span>
-
-    
-  </section>
-  </div></div>]]></content:encoded>
-            <dc:creator>Fran Ruiz</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA["I am committed to 'returning to Xbox', and that starts with console, that starts with hardware" - Xbox's new leaders pledge to bring the brand back again]]></title>
-            <link>https://www.eurogamer.net/xbox-new-leaders-pledge-to-bring-brand-back-again</link>
-            <guid>https://www.eurogamer.net/xbox-new-leaders-pledge-to-bring-brand-back-again</guid>
-            <content:encoded><![CDATA[https://www.eurogamer.net/xbox-new-leaders-pledge-to-bring-brand-back-again<br/><br/><div id="readability-page-1" class="page"><div data-component="article-header">
-  
-
-    <div id="main-content">
-        
-
-        <p>"We know that the business has gone through some challenges..."</p>
-
-    </div>
-
-
-  <p>
-
-  <figure>
-      <picture>
-        <source srcset="https://assetsio.gnwcdn.com/xbox-trio.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/xbox-trio.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/xbox-trio.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/xbox-trio.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/xbox-trio.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/xbox-trio.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/xbox-trio.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/xbox-trio.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/xbox-trio.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>Microsoft</cite></span>
-        </figcaption>
-  </figure>
-  </p>
-
-    
-
-</div><div data-component="article-content">
-
-
-
-            <p>Xbox's new leadership double-act Asha Sharma (CEO Microsoft Gaming) and Matt Booty (chief content officer Xbox) have stressed the importance of new Xbox gaming hardware to their vision going forward.</p>
-<p>Speaking to <a href="https://www.windowscentral.com/gaming/xbox/exclusive-talking-to-new-xbox-ceo-asha-sharma-and-cco-matt-booty">Windows Central</a>, Sharma said: "I am committed to 'returning to Xbox', and that starts with console, that starts with hardware. You will hear more about that soon - we'll have some announcements coming up. You will see us collectively investing here.</p>
-<p>"We also know that there are a lot of players who aren't on console or our hardware, and I want to deliver great games to them too. I need to learn more about what that can look like, what decisions were made, what we need to do going forward, and I want a little bit of time and space to do that."</p>
-<p>Matt Booty added: "Our studio system is fully built around being first-party. We're not built to just be a publisher. It is core to our partnership with the Microsoft platform, being involved in early hardware decisions - all the work we've done to get games like Gears of War running great on new devices like the Xbox Ally, and so on. It is embedded within our structure, we're not backing away from that. We're committed to being a first-party games publisher in partnership with our first-party platform team."</p><p>Their comments come after <a href="https://www.eurogamer.net/future-of-xbox-vague-contradictory-phil-spencer-sarah-bond-asha-sharma-matt-booty">a wave of change unsettled the Xbox business and brand at the weekend</a>, with long-time Xbox figurehead <a href="https://www.eurogamer.net/personas/phil-spencer">Phil Spencer</a> retiring from Microsoft after nearly 40 years, and Sarah Bond, the former president of Xbox - presumed to be Spencer's replacement-in-waiting - suddenly departing as well.</p>
-<blockquote><em>"This team has brought it back before, and I'm here to help us do it again" - Asha Sharma</em></blockquote>
-<p>Into the leadership void stepped Asha Sharma, a relative unknown to the gaming community, brought over from Microsoft's CoreAI division, and someone who boasts no gaming experience or apparent gaming passion of her own. Matt Booty is a much more known quantity, having led <a href="https://www.eurogamer.net/companies/xbox-game-studios">Xbox Game Studios</a> since 2018, and Microsoft's first-party gaming output since 2023.</p>
-<p>The suspicion surrounding Sharma's appointment is Microsoft is sunsetting Xbox and reorganising the company around AI - something <a href="https://www.eurogamer.net/despite-likening-new-xbox-heads-job-to-a-palliative-care-doctor-original-co-creator-doesnt-actually-think-xbox-is-dead">Seamus Blackley, the original co-creator of Xbox, was very vocal about</a>. But there are contrasting <a href="https://www.eurogamer.net/xbox-insider-report-paints-different-picture-of-spencer-retirement-and-bond-departure">reports that claim Microsoft genuinely wants to reset the Xbox business</a> and turn it around. This "return of Xbox" is something Sharma talked about in her opening memo to staff, and it's something she elaborated on in the Windows Central interview.</p><p>Sharma said: "For me, the spirit of 'return to Xbox' is about returning to the spirit that the team was founded on. It's that spirit of surprise, it's the spirit of building something nobody else was willing to try - I've heard 'renegade', 'rebellion', and 'fun' used. That's what I was thinking about when I wrote that."</p>
-<p>Reports have suggested that Sarah Bond was ousted because of the 'Xbox Anywhere' initiative, largely attributed to her, which hasn't really worked out. Regardless, it's an initiative Sharma will inherit, alongside things such as Game Pass and publishing on PlayStation that have become increasingly central to the Xbox division's core. What will Sharma do with them?</p>
-<p>"Right now, I need to learn, candidly, about the 'why' of these decisions, what we were optimising for and what the data says about the Xbox strategy today. That's the honest answer," she said. "I'm looking at lifetime value, not just what happened in a previous moment, or in short term efficiencies and things like that. The plan's the plan until it's not the plan."</p>
-<p>Sharma also underlined <a href="https://www.eurogamer.net/xboxs-new-head-of-gaming-has-no-tolerance-for-bad-ai-following-concerns-about-the-proliferation-of-ai-slop-and-sharmas-tech-background">her previously stated gen-AI stance</a> by restating that there are opportunities there but she won't allow this to devolve into okaying "slop". "I will not flood our ecosystem with slop," she said. "We won't have careless output, we won't have derivative work. I deeply believe in the words that I shared previously there."</p><p>Matt Booty had an additional remark to make on this, stating: "We've got no pressure from Microsoft, there are no directives on AI coming down. Our teams are free to use any technologies that might be beneficial, whether it's helping write code or check for bugs - things more in the production pipeline. At the end of the day as Asha said, we're committed to art made by people. Technology is only in support of that."</p>
-<p>In closing, Sharma said she would try to "honour and uphold" the culture that Xbox Phil Spencer instilled - "a remarkable human and a remarkable leader" - when he took over Xbox in 2014. "We know that the business has gone through some challenges," she said. "I'm going to use my expertise and the leaders that have the deep gaming depth around the table to help us grow the business, and make sure that we have an incredible next 25 years.</p>
-<p>"I will listen, I will learn, I will communicate what we're seeing, and what we're doing. I think from here, the work is proof over promise. Matt and I are in it, every hour of every day of every night; I am fully in this thing. This team has brought it back before, and I'm here to help us do it again."</p>
-</div></div>]]></content:encoded>
-            <dc:creator>Robert Purchese</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Amazon abandons upcoming racing game from former Forza devs, as its departure from triple-A publishing continues]]></title>
-            <link>https://www.eurogamer.net/amazon-abandons-upcoming-racing-game-from-former-forza-devs-as-its-departure-from-triple-a-publishing-continues</link>
-            <guid>https://www.eurogamer.net/amazon-abandons-upcoming-racing-game-from-former-forza-devs-as-its-departure-from-triple-a-publishing-continues</guid>
-            <content:encoded><![CDATA[https://www.eurogamer.net/amazon-abandons-upcoming-racing-game-from-former-forza-devs-as-its-departure-from-triple-a-publishing-continues<br/><br/><div id="readability-page-1" class="page"><div>
-      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
-
-
-<header data-component="article-header">
-  
-
-    
-
-
-  <p>
-
-  <figure>
-      <picture>
-        <source srcset="https://assetsio.gnwcdn.com/Template-w-shadow%2C-blue%2C-split%2C-switch-2-(2).jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Template-w-shadow%2C-blue%2C-split%2C-switch-2-(2).jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Template-w-shadow%2C-blue%2C-split%2C-switch-2-(2).jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Template-w-shadow%2C-blue%2C-split%2C-switch-2-(2).jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Template-w-shadow%2C-blue%2C-split%2C-switch-2-(2).jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Template-w-shadow%2C-blue%2C-split%2C-switch-2-(2).jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Template-w-shadow%2C-blue%2C-split%2C-switch-2-(2).jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Template-w-shadow%2C-blue%2C-split%2C-switch-2-(2).jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Template-w-shadow%2C-blue%2C-split%2C-switch-2-(2).jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>Eurogamer</cite></span>
-        </figcaption>
-  </figure>
-  </p>
-
-    
-
-</header>
-  <div data-component="article-content">
-
-
-
-            <p>Amazon Game Studios will no longer be publishing Maverick Games' upcoming narrative-led racing game, as part of its continued stumble out of the triple-A games business.</p>
-<p>First reported <a href="https://www.thegamebusiness.com/p/amazon-abandons-its-open-world-driving">by The Games Business</a>, this upcoming title from Maverick Games was first <a href="https://www.eurogamer.net/amazon-publishing-narrative-led-racer-from-former-forza-horizon-devs-skins-co-creator">announced as a project-in-development under Amazon's umbrella back in 2024</a>. It has not been cancelled as of writing, as the UK-based studio looks to find a new publisher.</p>
-<p>In a statement issued to The Games Business, an Amazon spokesperson said: "As part of our strategic evolution to focus on projects that leverage Amazon's unique strengths and scale, including the recent re-launch of Luna and our Tomb Raider franchise partnership with Crystal Dynamics, we have decided to release Maverick Games from their publishing agreement with Amazon Game Studios.</p>
-<p>"We have tremendous respect for the Maverick Games team and the compelling narrative-led driving experience they're creating. This decision allows Maverick Games the flexibility to find a publishing partner whose strategic priorities are better aligned with bringing their game to market. We're proud of what we accomplished together during our partnership and wish them every success in the future."</p><p>Maverick Games, which was founded in 2022 by former <a href="https://www.eurogamer.net/games/forza-horizon">Forza Horizon</a> developers from Playground Games, broke away to create a "premium open-world game for consoles and PC". The studio is led by Mike Brown, who was the creative director on <a href="https://www.eurogamer.net/games/forza-horizon-5">Forza Horizon 5</a>, and is joined by other veterans from the studio alongside fresh faces.</p>
-<p>Amazon Game Studios <a href="https://www.eurogamer.net/amazon-reportedly-gutting-its-video-game-division-as-part-of-14000-company-wide-job-cuts"> recently decimated its in-house development teams</a> working on games such as MMORPG New World and an in-development Lord of the Rings MMO. It has also <a href="https://www.polygon.com/king-of-meat-canceled-amazon-game-studios-refunds/">killed its released multiplayer co-op game King of Meat this week</a>, which joins Crucible and Breakaway on the pile of attempts to break into the live service space.</p>
-<p>Amazon Game Studios is still, as of writing, publishing two upcoming <a href="https://www.eurogamer.net/tomb-raider-games-order">Tomb Raider games</a>: <a href="https://www.eurogamer.net/fully-fledged-from-the-ground-up-tomb-raider-remake-announced">Legacy of Atlantis</a> and <a href="https://www.eurogamer.net/next-tomb-raider-game-known-as-catalyst-finally-revealed-at-the-game-awards">Tomb Raider Catalyst</a>. It's also still in charge of the<a href="https://www.eurogamer.net/lost-ark-is-blowing-up-and-i-can-totally-see-why"> western release of Lost Ark</a>, the popular MMORPG first created by Smilegate.</p>
-
-        </div>
-
-  
-      </article>
-
-
-
-  
-
-
-
-
-  <section>
-    <span>Related topics</span>
-
-    
-  </section>
-  </div></div>]]></content:encoded>
-            <dc:creator>Connor Makar</dc:creator>
         </item>
     </channel>
 </rss>
