@@ -4,13 +4,13 @@
         <title>maGaming RSS Feed - wccftech.com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech.com</description>
-        <lastBuildDate>Tue, 10 Mar 2026 15:19:41 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Mar 2026 16:22:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Embark is “Making an Exception,” Will Compensate ARC Raiders Players Who Lost Their Loadouts Due to Server Issues Last Week]]></title>
-            <link>https://wccftech.com/embark-is-making-an-exception-compensate-arc-raiders-players-lost-loadouts-due-to-server-issues/</link>
-            <guid>1458565</guid>
+            <title><![CDATA[NVIDIA Expands RTX Remix Next Month with Advanced Particle VFX; Quake III RTX Early Access Out Now]]></title>
+            <link>https://wccftech.com/nvidia-rtx-remix-advanced-particle-vfx/</link>
+            <guid>1458748</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
 
 			
@@ -19,27 +19,45 @@
 			
 			
 			
-			<p><strong>Embark Studios</strong> has <a href="https://arcraiders.com/news/patch-notes-1-19-0">pushed a new patch</a> to <strong>ARC Raiders</strong> today, which adds a new outfit set and two new haircuts for players to customize their characters with, on top of several bug fixes. But it's not what's added with today's patch that makes the latest update from Embark significant.</p>
+			<p><strong>NVIDIA's GDC 2026</strong> announcements also include updates for the <strong>RTX Remix</strong> remastering platform. The biggest news is the new <strong>Advanced Particle VFX</strong> system, which will be released some time next month.</p>
 
 
 
-<p>Last week, major server issues caused players to lose their loadouts in ARC Raiders, even after they had successfully extracted from the Rust Belt and made it safely back to Speranza. While being adamant that the studio does not normally compensate players for every incident where players lose their loot through no fault of their own, the studio has decided to make an exception due to the significant number of players who were impacted.</p>
+<p>With this new system, NVIDIA is directly responding to the RTX Remix's open-source community's top feature request: a substantially more powerful and expressive particle system. The Advanced Particle VFX system introduces three distinct capability areas:</p>
 
 
 
-<p>"<em>Last week's server issues caused some of you to lose your loadouts even after a successful extraction</em>," the studio writes in its blog post. "<em>We are reviewing these cases and <strong>will return items where possible</strong> over the next few days. While we do not normally offer compensation for every incident, this outage impacted a large number of players, <strong>so we are making an exception</strong></em><strong><em>. </em></strong><em>Thanks for bearing with us while we sorted it out</em>."</p>
+<ul>
+<li><strong>Dynamic Animations</strong> are driven by a new curve editor that <strong>gives modders fine-grained control over how a particle changes across its entire lifespan</strong>. The controllable properties include color over time, size over time, velocity over time, and transparency over time. Rather than a particle simply fading out or scaling uniformly, <strong>modders can now sculpt a precise animation arc</strong>; for instance, a particle that starts small, rapidly expands, shifts from orange to white at peak size, then fades while slowing down. The <strong>Quake III</strong> black hole was used to showcase this feature, with rings emanating outward that dynamically change in size, colour, and transparency as they travel from the centre, creating a visually complex effect that would have been impossible (or, at least, very cumbersome) with the previous system.</li>
 
 
 
-<p>It's good to see that Embark will be giving players their stuff back. Yes, the whole idea of an extraction shooter is that you're risking your gear every time you enter a round, but when you've made it out successfully, and you lose your loadout because of something you could not have avoided, it stings far worse than losing your loadout through regular gameplay.</p>
+<li><strong>Randomized Elements</strong> address the visual repetitiveness problem that plagues particle systems in older games. When the same particle animation loops identically, the eye quickly recognises the pattern and the all-important illusion breaks. <strong>The new system introduces random animations, random flipping, and random rotations on a per-particle basis</strong>, meaning no two instances of a particle look or behave exactly the same. Quake III's lightning gun was used to illustrate this: the lightning strikes fire in different directions and orientations each time, and when the beam hits a surface, rocks and debris fly off at individually randomized sizes and trajectories, making the impact feel physically chaotic and natural rather than scripted.</li>
 
 
 
-<p>Hopefully, server issues like last week's don't persist, and players don't have to rely on the off chance that Embark will give them their stuff back if they lost it after a successful extraction. </p>
+<li><strong>Complex Gravitational Effects</strong> significantly deepen the physics simulation underpinning the particle system. The new properties include attraction (particles drawn toward a point), magnetic repulsion (particles pushed away), wind (directional force carrying particles), air resistance (drag that slows particles over distance), new collision models (particles bouncing off or sticking to geometry), and burst modes (controlling how particles erupt from their spawn point). The showcase here was once again the Quake III black hole, with a machine gun firing particles that get pulled toward the centre, followed by a shotgun blast where the particles orbit the black hole before eventually being drawn into the void.</li>
+</ul>
 
 
 
-<p>For more on ARC Raiders, check out our <a href="https://wccftech.com/how-to/arc-raiders-complete-guides-and-walkthrough-hub/">complete walkthrough and guides hub</a> for all the help you need when heading Topside. For all of our coverage, including our review, <a href="https://wccftech.com/roundup/arc-raiders-everything-we-know-about-the-latest-hot-extraction-shooter/">check out our round-up hub</a> for everything ARC Raiders.</p>
+<figure><p>
+<iframe title="NVIDIA RTX Remix | Advanced Particle VFX Reveal" width="500" height="281" src="https://www.youtube.com/embed/3G-h4CBuHzI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<p>The other news is the availability of a <strong>Quake III RTX</strong> early access (version 0.6) made by modder Woodboy, who took it upon themselves to remaster several levels of the original game by id Software. The remaster, which <strong>Quake III owners can download for free <a href="https://www.moddb.com/mods/quake-3-arena-rtx-remix-mod" target="_blank" rel="noreferrer noopener">via ModDB</a></strong>, has 15 levels in total, including the ‘Area 15 – NVIDIA Bunker’ custom map remastered with RTX. It features NVIDIA DLSS 4 with Multi Frame Generation, path tracing, DLSS Ray Reconstruction, remade PBR assets, <a href="https://wccftech.com/nvidia-rtx-remix-logic-out-now-dynamic-fx-classic-pc-games/" target="_blank" rel="noreferrer noopener">RTX Remix Logic</a>, the aforementioned Advanced Particle VFX, Neural Radiance Cache, and NVIDIA Reflex.</p>
+
+
+
+<figure><p>
+<iframe title="Quake III Arena RTX Mod | Download Now | Area 15 - NVIDIA Bunker Reveal" width="500" height="281" src="https://www.youtube.com/embed/Gaw-ZQLvdOA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<p>In other NVIDIA RTX Remix news, <strong><a href="https://www.moddb.com/mods/call-of-duty-2-rtx-remix-of-carentan" target="_blank" rel="noreferrer noopener">Call of Duty 2 Remixed</a></strong> now supports the Logic system, allowing hotkeys to trigger changes in the weather and the time of day.</p>
 
 			
 			
@@ -47,13 +65,13 @@
 				Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.
 			</p>
 
-		</div></div><br/><br/>https://wccftech.com/embark-is-making-an-exception-compensate-arc-raiders-players-lost-loadouts-due-to-server-issues/]]></content:encoded>
+		</div></div><br/><br/>https://wccftech.com/nvidia-rtx-remix-advanced-particle-vfx/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
         <item>
-            <title><![CDATA[Epic Games is Raising the Price of Fortnite V-Bucks “To Help Pay the Bills”]]></title>
-            <link>https://wccftech.com/fortnite-v-bucks-price-increase-march-2026-epic-games/</link>
-            <guid>1458487</guid>
+            <title><![CDATA[“We Use Blueprints for ALL Gameplay Systems”: Sandfall Interactive Reveals How it Avoided C++ in UE for Clair Obscur: Expedition 33]]></title>
+            <link>https://wccftech.com/sandfall-interactive-used-unreal-engine-blueprints-for-all-clair-obscur-expedition-33-gameplay-systems/</link>
+            <guid>1458685</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
 
 			
@@ -62,51 +80,31 @@
 			
 			
 			
-			<p>Apparently, <strong>Epic Games</strong> hasn't been making enough money on <strong>Fortnite</strong>, and needs to raise the price of its premium in-game currency, <strong>V-Bucks</strong>, to "<em><strong>help pay the bills</strong></em>."</p>
+			<p>Today may be <strong>Mario Day</strong> for <strong>Nintendo</strong> fans, but it's <strong><a href="https://wccftech.com/topic/gdc/">Game Developers Conference (GDC) 2026</a></strong> week for the rest of the video game industry. On top of B2B-focused announcements from companies like <strong><a href="https://wccftech.com/razer-gdc-2026-razer-ava-qa-companion-ai/">Razer</a></strong>, this week also brings us plenty of insights into the video game industry and some of the biggest games from the past year, like 2025's Game of the Year, <strong>Clair Obscur: Expedition 33</strong>.</p>
 
 
 
-<p>"<em>The cost of running Fortnite has gone up a lot and we’re raising prices to help pay the bills.</em>"</p>
+<p>Developer <strong>Sandfall Interactive</strong> is one of many hosting talks during GDC 2026, and during a talk it hosted, it revealed a significant aspect regarding how the studio put the game together, and for a game that has an incredible and intricate art style with what is regarded as some of the best visuals and storytelling we've seen in video games for years, it's a lot simpler than you might've imagined.</p>
 
 
 
-<p>That's what Epic tells players right at the top of a new <a href="https://www.fortnite.com/news/fortnite-v-bucks-price-increase">blog post</a>, which announces that the base price of the premium currency will be going up. The change goes into effect on <strong>March 19, 2026</strong>, after which every dollar you spend on V-Bucks will earn you less than it did before.</p>
+<p><strong>Elan Ruskin</strong>, a developer at <strong>Insomniac Games</strong>, attended a talk held by some of the developers from Sandfall, and shared a slide that revealed Clair Obscur: Expedition 33 uses <strong><a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/blueprints-visual-scripting-in-unreal-engine">Blueprints</a></strong>, the basic gameplay scripting system in <strong>Unreal Engine,</strong> for "<em><strong>all gameplay systems</strong></em>."</p>
 
 
 
-<p>After March 19, spending $8.99 USD on V-Bucks, which previously got you 1,000 V-Bucks, now only gets you <strong>800 V-Bucks</strong>. Spending $22.99 will only net you <strong>2,400 V-Bucks</strong> instead of the previous 2,800, the $36.99 pack will only grant <strong>4,500 V-Bucks</strong> instead of 5,000, and the $89.99 pack will only get you <strong>12,500 V-Bucks</strong> instead of 13,500. </p>
+<figure></figure>
 
 
 
-<p>Essentially, the price of 50 V-Bucks has <strong>doubled</strong>, going from 50 V-Bucks being worth $0.50 to $0.99 (but we can round up and call it a flat $1). You can see the breakdown of the increases in the chart below.</p>
+<p>It's how the studio was able to avoid writing in C++ in Unreal Engine and better streamline the game's development. Of course, by using a system that is purpose-built to help developers without the coding expertise required to write the kinds of gameplay systems Clair Obscur includes on their own comes with some drawbacks, with some of the users on X (formerly Twitter) attributing it to why the Clair Obscur has some performance issues in the responses to Ruskin's post.</p>
 
 
 
-<figure><table><tbody><tr><td>Pack*</td><td>Previous</td><td>New</td><td>With Epic Rewards*</td></tr><tr><td>$8.99 Pack</td><td>1,000 V-Bucks</td><td>800 V-Bucks</td><td>+$1.79 back</td></tr><tr><td>$22.99 Pack</td><td>2,800 V-Bucks</td><td>2,400 V-Bucks</td><td>+$4.59 back</td></tr><tr><td>$36.99 Pack</td><td>5,000 V-Bucks</td><td>4,500 V-Bucks</td><td>+$7.39 back</td></tr><tr><td>$89.99 Pack</td><td>13,500 V-Bucks</td><td>12,500 V-Bucks</td><td>+$17.99 back</td></tr><tr><td>Exact Amount Pack</td><td>~$0.50* for 50 V- Bucks</td><td>$0.99* for 50 V- Bucks</td><td></td></tr></tbody></table></figure>
+<p>But ultimately, this is another example of how Sandfall Interactive was able to build the game it wanted to with the proper scope, leaning into its strengths (like artistic design and storytelling) and finding creative ways to solve issues it had in other areas of development.</p>
 
 
 
-<p>The blog post continues to explain that the overall cost for OG passes will go down to 800 V-Bucks to remain in line with what players will get for their $8.99 bundle pack. The Music and LEGO passes will also go down to 1,200 V-Bucks.</p>
-
-
-
-<p>Players who pay for Fortnite Crew will also now only get 800 V-Bucks as part of their subscriptions instead of 1,000, and the Battle Bundle will go down from 2,800 V-Bucks to <strong>2,600 V-Bucks</strong>. You can also still earn enough V-Bucks by playing through the battle pass to purchase the next one, but V-Buck bonuses will no longer be included as part of the battle pass's bonus rewards.</p>
-
-
-
-<p>No one is denying that Fortnite is an expensive game to run. It's <a href="https://wccftech.com/fortnite-biggest-competitor-threat-video-games-industry/">every new game's biggest competition and a threat to the rest of the video game industry</a> because of how popular it is and how challenging it is to get people to play something other than Fortnite. It was one of the <a href="https://wccftech.com/top-five-played-games-in-us-2025-playstation-xbox-the-same-as-2024/">most-played games in the US in 2025 and 2024</a>, and has become so big that<a href="https://wccftech.com/fortnite-island-creators-can-test-selling-items-in-islands-loot-box-style-random-rewards/"> it's now its own platform</a> with a built-in economy.</p>
-
-
-
-<p>Anything that big would be expensive to run. It's also not the only game that Epic keeps up on top of its other major live service titles, <strong>Unreal Engine</strong>, and the <strong>Epic Games Store</strong>. But it's got to be some kind of slap in the face to try and say that price increases are necessary for Epic to pay its bills. Epic brings in <strong>billions</strong> across its products. Player spending in the Epic Games Store alone for 2025 was up to <strong><a href="https://wccftech.com/epic-games-store-saw-record-setting-third-party-sales-growth-in-2025-reaches-317m-pc-users/">$1.16 billion</a></strong>.</p>
-
-
-
-<p>It is, frankly, unbelievable that Epic<em> needs</em> to increase V-Bucks prices. Not 'unbelievable' in the sense that it is shocking, but in the sense that it cannot be true that this increase needs to happen. Epic is raising the prices because it knows it has the biggest game on the planet, and whether or not it raises prices, people will continue to play Fortnite and pay for battle passes and skins. If it really is struggling to keep Fortnite online, there are certainly other ways Epic could look to help close the gap without raising V-Buck prices.</p>
-
-
-
-
+<p>Clair Obscur is currently tied with <strong><a href="https://wccftech.com/resident-evil-requiem-tied-with-clair-obscur-expedition-33-highest-user-metacritic-score/">Resident Evil Requiem</a></strong> for the highest user score on Metacrtitic, has <a href="https://wccftech.com/clair-obscur-expedition-33-most-awarded-game-wccftech-awards-elden-ring/">more Game of the Year awards than any other game in history</a>, has <a href="https://wccftech.com/metaphorrefantazio-director-says-clair-obscur-expedition-33-is-truly-inspiring-and-conveys-a-deep-understanding-of-jrpgs/">been praised by iconic video game industry veterans</a>, and has <a href="https://wccftech.com/clair-obscur-expedition-33-reaches-4-4-million-copies-sold/">sold millions of copies</a>. Blueprints coded or not, it's all a testament to Sandfall's talent and a huge accomplishment.</p>
 
 			
 			
@@ -114,7 +112,54 @@
 				Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.
 			</p>
 
-		</div></div><br/><br/>https://wccftech.com/fortnite-v-bucks-price-increase-march-2026-epic-games/]]></content:encoded>
+		</div></div><br/><br/>https://wccftech.com/sandfall-interactive-used-unreal-engine-blueprints-for-all-clair-obscur-expedition-33-gameplay-systems/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[GeForce NOW Confirms CONTROL Resonant and Samson, Upgrades VR Streaming to 90FPS]]></title>
+            <link>https://wccftech.com/geforce-now-control-resonant-samson-vr-90-fps/</link>
+            <guid>1458682</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			
+			<p>As part of its <strong>GDC 2026</strong> news, <strong>NVIDIA</strong> also provided some updates for <strong>GeForce NOW</strong> users. Two upcoming games have been confirmed to be available for streaming on day one: <strong>Remedy</strong>'s <strong><a href="https://wccftech.com/control-resonant-switches-protagonist-brings-the-action-in-open-ended-manhattan-in-2026/" target="_blank" rel="noreferrer noopener">CONTROL Resonant</a></strong> and <strong>Samson: A Tyndalston Story</strong> from <strong>Liquid Swords</strong>.</p>
+
+
+
+<p>There's little surprise when it comes to the former game. Remedy has always worked closely with NVIDIA on its most recent games, <strong>Control</strong> and <strong>Alan Wake 2</strong>, adding NVIDIA RTX like DLSS and ray tracing/path tracing to the PC version and also making the games available on GeForce NOW. </p>
+
+
+
+<p>Indeed, today, NVIDIA confirmed that CONTROL Resonant <a href="https://wccftech.com/nvidia-mfg-6x-mode-arrives-31st-march-007-first-light-control-resonant-dlss-4-5-path-tracing/" type="link" id="https://wccftech.com/nvidia-mfg-6x-mode-arrives-31st-march-007-first-light-control-resonant-dlss-4-5-path-tracing/" target="_blank" rel="noreferrer noopener">will also support path tracing</a> as well as <strong>RTX Mega Geometry</strong>. This technology groups together the millions of triangles that make up the tens of thousands of objects in every scene. These clusters are compressed and cached over many frames, where they are intelligently reused as the player moves around the world. This enables geometry systems such as Unreal Engine 5's Nanite with Path Tracing to be used without compromise.</p>
+
+
+
+<p>Remedy was the first developer to implement <a href="https://wccftech.com/alan-wake-2-rtx-mega-geometry-performance-vram-improvements/" target="_blank" rel="noreferrer noopener">RTX Mega Geometry in Alan Wake 2</a>, so again, we expected to see it return in this new title. GeForce NOW Ultimate subscribers will be able to enjoy the game with all bells and whistles (save for the latest DLSS transformer model, which hasn't been made available to the cloud yet) when the game ships later this year.</p>
+
+
+
+<p>The other game, Samson: A Tyndalston Story, <a href="https://store.steampowered.com/news/app/3634520/view/506229520324363595" target="_blank" rel="noreferrer noopener">has recently confirmed its PC specs</a>. They're not very demanding, but having the game available on GFN might still be useful for some users. For more on the game, check out our <a href="https://wccftech.com/samson-a-tyndalston-story-hands-on-preview-intensity-over-scale/" target="_blank" rel="noreferrer noopener">recent hands-on preview</a> and <a href="https://wccftech.com/samson-a-tyndalston-story-interview-former-mad-max-and-just-cause-devs-sink-into-new-aa-brawler-thats-not-gta/" target="_blank" rel="noreferrer noopener">developer Q&amp;A</a>. </p>
+
+
+
+<p>Othe GeForce NOW updates from GDC 2026 include an upgrade for VR devices. Starting on Thursday, March 19, Virtual Reality devices that support GeForce NOW, including <strong>Apple Vision Pro</strong> and <strong>Meta Quest</strong>, <strong>will stream at 90 fps for Ultimate members</strong>, up from 60. The Install‑to‑Play library is also expanding with select Xbox titles, including <strong>Double Fine's Brutal Legend</strong> and <strong>Compulsion's Contrast</strong>. </p>
+
+
+
+<p>Lastly, NVIDIA announced some improvements to the GFN app. In‑app labels will appear directly on the game art inside the GeForce NOW app, making it easy to see exactly what’s available to play from their subscription services, like <strong>Xbox Game Pass</strong> or <strong>Ubisoft+</strong>. In the coming months, GFN users will also be able to link their <strong><a href="https://wccftech.com/gog-acquired-by-co-founder-from-cd-projekt-red/" target="_blank" rel="noreferrer noopener">GOG</a></strong> account and sychronize their game library. </p>
+
+			
+			
+			<p data-nosnippet="">
+				Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.
+			</p>
+
+		</div></div><br/><br/>https://wccftech.com/geforce-now-control-resonant-samson-vr-90-fps/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
