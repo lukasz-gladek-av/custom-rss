@@ -4,26 +4,214 @@
         <title>maGaming RSS Feed - arstechnica.com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica.com</description>
-        <lastBuildDate>Fri, 13 Mar 2026 17:13:16 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Mar 2026 23:07:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Microsoft is working to eliminate PC gaming's "compiling shaders" wait times]]></title>
-            <link>https://arstechnica.com/gaming/2026/03/microsoft-is-working-to-eliminate-pc-gamings-compiling-shaders-wait-times/</link>
-            <guid>1462282</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+            <title><![CDATA[Slay the Spire 2 is a bit too familiar for its own good]]></title>
+            <link>https://arstechnica.com/gaming/2026/03/slay-the-spire-2-is-a-bit-too-familiar-for-its-own-good/</link>
+            <guid>1462723</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="app">
+    <p><a href="#main">
+  Skip to content
+</a></p>
+  
+
+
+<main id="main">
+            <article data-id="2145527">
+  
+  <header>
+  <div>
+    <div>
+      
+
+      
+
+      <p>
+        Early Access impressions: New characters shine, but it feels like we’ve done this before.
+      </p>
+
+              
+          </div>
+
+    <div>
+    
+    <p>
+      At a glance, it's a bit hard to tell if this is a shot from <em>Slay the Spire</em> or its new sequel.
+
+              <span>
+          Credit:
+
+          
+          MegaCrit
+
+                  </span>
+          </p>
+  </div>
+  </div>
+</header>
+
+
+  
+
+  
+      
+    
+    <div>
+                      
+                      
+          
+
+
+<p>Do you remember the joyful satisfaction you felt when you really started to understand <i>Slay the Spire</i>?</p>
+<p>This isn’t a totally rhetorical question. If you’re reading this piece about <i>Slay the Spire 2</i>—published roughly a week into what promises to be <a href="https://www.megacrit.com/news/2026-02-19-release-date-trailer/">a lengthy Early Access period</a>—I have to assume you’ve put in dozens, if not hundreds (or thousands?) of hours with the original <i>Slay the Spire</i>. At this point, the game probably feels less like a game and more like a comfortable old pair of sneakers. You probably have a favorite character, a preferred set of card synergies to focus on building for that character, and a set of alternative strategies to aim for when the vagaries of chance make that preferred strategy impossible. The game’s plentiful randomization makes each run feel a bit different, but the contours of those runs start to feel a little common to anyone who has tinkered with the game for years.</p>
+<p>But think back, if you can, to when <i>Slay the Spire</i> was an exciting new challenge. Remember those first few runs, when you were still deep in the trial-and-error phase of your <i>Slay the Spire</i> journey. You still had to read each new card carefully as it appeared, developing potential strategies on the fly and weighing key deckbuilding and power-building decisions for minutes at a time to maximize your chance of survival. Sure, you failed a lot. But you got a little more confident each time, and a little farther every few sessions, and just a little more knowledgeable about and immersed in the game’s intricate, well-balanced systems.</p>
+<p>After years of waiting, I was hoping <i>Slay the Spire 2</i> could bring back some of that sense of discovery, helping me look at <a href="https://arstechnica.com/gaming/2024/04/why-there-are-861-roguelike-deckbuilders-on-steam-all-of-a-sudden/">a thoroughly saturated game genre</a> from a new angle. After a week kicking the Early Access tires, though, it’s hard to shake the feeling that, despite all the changes and additions, <i>Slay the Spire 2 </i>is just a little too similar to the well-worn original. If the first <i>Slay the Spire</i> is a comfortable old pair of shoes, <i>Slay the Spire 2</i> is a fresh new pair that is, ironically, a little too easy to break in.</p>
+
+          
+                      
+                  </div>
+                    
+        
+            
+    
+    <div>
           
           
-<h2>Getting everyone on board</h2>
-<p>Microsoft first rolled out Advanced Shader Delivery in its SDK <a href="https://devblogs.microsoft.com/directx/agility-sdk-1-618/">last September</a> and added support to the ROG Xbox Ally as a proof of concept by October. Microsoft said that the addition reduced launch times in games like <em>Avowed</em> by “as much as 85 percent,” which is a big deal on battery-limited handhelds.</p>
-<p>Getting Advanced Shader Delivery adopted across the wider PC gaming ecosystem has been a slower process. Nvidia <a href="https://developer.nvidia.com/blog/nvidia-rtx-innovations-are-powering-the-next-era-of-game-development/#shader_compilation_for_the_gaming_ecosystem">says</a> it is “working closely with Microsoft” to add Advanced Shader Delivery support to its GeForce RTX line “later this year,” and Intel <a href="https://www.intel.com/content/www/us/en/developer/articles/news/microsoft-collaboration-powers-future-of-pc-gaming.html">says</a> it’s “looking forward to releasing a driver supporting ASD in the near future.” Qualcomm also said it plans to “debut this feature soon on Qualcomm Adreno X2 GPUs,” for what it’s worth.</p>
-<p>Even with hardware support, game engine makers will have to integrate Microsoft’s SODB APIs to streamline the setup process for game developers. Epic Games says it is “doing early testing and explorations on SODB and PSDB generation and will have more details coming soon,” which is probably not the full-throated commitment Microsoft would like at this point.</p>
-<p>For now, Microsoft has <a href="https://devblogs.microsoft.com/directx/advanced-shader-delivery-whats-new-at-gdc-2026/">updated its APIs</a> to let developers more easily create and test PSDBs and more easily compile shaders in larger games. The company is also urging developers to “integrate SODB collection into your game engine” now so they’ll be ready to upload those precompiled shaders through the Xbox Partner Center starting in May.</p>
-<p>At that point, some PC games downloaded through the Xbox app will finally be able to skip that annoying “compiling shaders” loading step. But this isn’t a feature Microsoft wants to keep for its own PC game platform; the company says that “in the future, any storefront can compile the SODBs to… PSDBs and distribute them.”</p>
+<h2>Welcome to the party</h2>
+<p>The most interesting and promising new additions to <i>Slay the Spire 2</i> thus far are the new characters. The Necrobinder has become an instant favorite for me, thanks in large part to Osty, the ambulatory skeletal hand that fights alongside him. At first, Osty seems to act primarily as a secondary health bar, absorbing any unblocked damage before it can get through to the Necrobinder. Since Osty is automatically resummoned right after dying and retains any health-point boosts between turns, simply pumping and protecting Osty seems like an obvious early strategy.</p>
+<p>Osty also comes with its own attack cards, which can stack on each other for cost decreases or build in power alongside Osty’s own ballooning health. With the right build, keeping Osty alive doesn’t just help keep you alive, but also gives you a powerful alternate attack outlet that can get around some of the most common enemy-inflicted debuffs.</p>
+<figure>
+    <div id="caption-2145532"><p>
+              A love that goofy little skeleton hand so dang much.
+                              </p><p>
+                  Credit:
+                                      MegaCrit
+                                  </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      A love that goofy little skeleton hand so dang much.
+
+              <span>
+          Credit:
+
+          
+          MegaCrit
+
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>I’ve also become quite fond of the Necrobinder’s Doom mechanic, which lets certain cards and powers add to an accumulating Doom count on enemies, finally killing them when they have less HP than Doom (before they get off one final attack, that is). These Doom effects tend to build on each other in an almost exponential way, resulting in aggressive builds that can sandwich the enemy’s health bar from both sides to quickly squash them in a very satisfying pincer movement.</p>
+<p>The Regent is a bit more complicated to play, relying heavily on a second basic resource, called Stars, that can be used alongside or in place of your basic Energy to play certain cards. Managing your Star count means balancing the often weak cards that add Stars with the usually extra-powerful cards that convert them into devastating attacks or shields. If you run low on Stars, though, those powerful cards become useless hand-fodder that just gets in the way of an effective strategy.</p>
+
+          
+                  </div>
+                    
+        
+            
+    
+    <div>
+          
+          
+<p>Stars don’t automatically accumulate each turn, but they don’t go away at the end of a turn either. That means you can save them up over multiple turns as you wait for the right cards and opportunities to spend them on powerful effects. Combined with card-drawing powers and synergistic effects that encourage Star spending or gathering, you can set up delightful loops that cycle through the majority of your deck in a powerful, single-turn flurry.</p>
+
+<h2>Don’t get comfortable</h2>
+<p>Learning how to pilot the Necrobinder and Regent effectively through my first handful of runs has brought back some of that feeling of joyful exploration I remember from when I first encountered <i>Slay the Spire</i>. Once again, I’m poring over every card I see, thinking for minutes at a time about whether each would make a good addition to my deck, and planning out the next few turns’ worth of likely plays in advance.</p>
+<figure>
+    <div id="caption-2145533"><p>
+              The Regent’s world-weary pose here mirrors my feelings after playing some <em>Slay the Spire 2.</em></p><p>
+                  Credit:
+                                      MegaCrit
+                                  </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      The Regent’s world-weary pose here mirrors my feelings after playing some <em>Slay the Spire 2.</em>
+
+              <span>
+          Credit:
+
+          
+          MegaCrit
+
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>But despite the complications introduced by these new characters, there’s a sense of diminishing returns to even this novelty. After a single run with each character, my hours of experience with <i>Slay the Spire</i>’s overarching systems kicked back in, helping to crystallize what seemed likely to be the most powerful min-max-able strategies for each. A couple of runs after that, I was practically falling into ultra-powerful builds and cutting a swath through to the end of Act 3 without much of a sweat.</p>
+<p>There’s still plenty of interesting moment-to-moment decision-making in each of these runs: deciding or card ordering; balancing attack versus defense; deciding whether to heal or improve cards at each campfire; etc. As far as overarching strategy, though, learning how to effectively utilize these new characters is a lot easier than learning the original <i>Slay the Spire</i> from scratch. And once you’ve got those basic strategies down, each new run boils down to hoping for good luck and/or turning up the difficulty through unlockable Ascensions.</p>
+
+          
+                  </div>
+                    
+        
+            
+    
+    <div>
+
+        
+        <div>
+          
+          
+<p>The sense of comfort is even stronger when playing the three returning characters: The Ironclad, The Silent, and The Defect. These will feel overwhelmingly familiar to longtime <i>Slay the Spire</i> players, as you play out the same basic strategies and see the same basic card types cycle through your deck over and over. While there are some small new tweaks and additions to that card pool—the ability for The Silent to benefit by discarding cards with the “Sly” keyword is particularly interesting—not enough has changed to really refresh the experience. The same goes for the enemies, blessings, and relics in the new game, many of which are carried over wholesale from the first game and the remainder of which mostly feel like extensions of what came before them.</p>
+<p>Maybe it’s expecting too much for a new <i>Slay the Spire</i> game to recapture the thrill of learning the intricate balance of the original game’s deckbuilding system and turn-based combat. If you’re looking for a sequel that builds on the essential skeleton of its predecessor, <i>Slay the Spire 2</i> has you covered. And there are enough unlockable trinkets and optional difficulty challenges here to keep aficionados poring through the game’s new challenges for hundreds more hours. But if you already feel like you’ve reached the burnout point with the original <i>Slay the Spire</i>, this sequel might not be new enough to rekindle another long-term randomized love affair.</p>
 
 
           
-                  </div></div><br/><br/>https://arstechnica.com/gaming/2026/03/microsoft-is-working-to-eliminate-pc-gamings-compiling-shaders-wait-times/]]></content:encoded>
+                  </div>
+
+                  
+          
+
+
+
+
+
+
+  <div>
+    
+
+    <p>
+      Kyle Orland has been the Senior Gaming Editor at Ars Technica since 2012, writing primarily about the business, tech, and culture behind video games. He has journalism and computer science degrees from University of Maryland. He once <a href="https://bossfightbooks.com/collections/books/products/minesweeper-by-kyle-orland">wrote a whole book about <em>Minesweeper</em></a>.
+    </p>
+  </div>
+
+
+  <p>
+    <a href="https://arstechnica.com/gaming/2026/03/slay-the-spire-2-is-a-bit-too-familiar-for-its-own-good/#comments" title="6 comments">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><defs><clipPath id="bubble-zero_svg__a"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath><clipPath id="bubble-zero_svg__b"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath></defs><g clip-path="url(#bubble-zero_svg__a)"><g fill="currentColor" clip-path="url(#bubble-zero_svg__b)"><path d="M80 40c0 22.09-17.91 40-40 40S0 62.09 0 40 17.91 0 40 0s40 17.91 40 40"></path><path d="M40 40 .59 76.58C-.67 77.84.22 80 2.01 80H40z"></path></g></g></svg>
+    6 Comments
+  </a>
+      </p>
+              </div>
+  </article>
+
+
+  
+
+
+  
+
+
+  
+  </main>
+
+
+
+  
+
+  </div></div><br/><br/>https://arstechnica.com/gaming/2026/03/slay-the-spire-2-is-a-bit-too-familiar-for-its-own-good/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
