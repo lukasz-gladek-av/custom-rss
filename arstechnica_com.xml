@@ -4,23 +4,26 @@
         <title>maGaming RSS Feed - arstechnica.com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica.com</description>
-        <lastBuildDate>Thu, 12 Mar 2026 17:19:31 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Mar 2026 16:11:41 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Valve compares its loot boxes to Labubus in lawsuit defense]]></title>
-            <link>https://arstechnica.com/gaming/2026/03/valve-compares-its-loot-boxes-to-labubus-in-lawsuit-defense/</link>
-            <guid>1461100</guid>
+            <title><![CDATA[Microsoft is working to eliminate PC gaming's "compiling shaders" wait times]]></title>
+            <link>https://arstechnica.com/gaming/2026/03/microsoft-is-working-to-eliminate-pc-gamings-compiling-shaders-wait-times/</link>
+            <guid>1462282</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
           
           
-<p>Valve said point-blank that transferability of in-game items “is a right we believe should not be taken away, and we refuse to do that” despite the NYAG’s request. Valve also said it has worries about an NYAG proposal that would require Valve to collect “additional information” from players “on the off-chance someone in New York was anonymizing their location to appear outside of New York, such as by using a VPN.” Such processes, and others to further establish that children were not reselling items, would be an “invasive” violation for every Steam user, Valve wrote.</p>
-<p>Valve said it has been “working to educate” the NYAG’s office on loot boxes since they first reached out on the matter in 2023. And while Valve said it would respect any state law that explicitly outlawed randomized loot boxes in games, the NYAG’s lawsuit “went far beyond what existing New York law requires and even beyond New York itself.” Thus, even though it might be easier for Valve to just settle the case, such an outcome “would have been bad for users and other game developers, and impacted our ability to innovate in game design.”</p>
-<p>Outside of the New York case, law firm Hagens Berman is <a href="https://www.hbsslaw.com/press/valve-loot-box-gambling-class-action/consumers-sue-valve-corporation-claiming-illegal-gambling-enterprise-in-video-game-loot-boxes">preparing a proposed class-action lawsuit</a> in Washington state accusing Valve of “extract[ing] money from consumers, including children, through deceptive, casino-style psychological tactics.” That lawsuit’s arguments focus heavily on Valve’s alleged use of “psychological triggers” like “unpredictable reward schedules, sensory design, near-miss illusions, chasing losses and around-the-clock availability” to form an addictive gambling loop.</p>
+<h2>Getting everyone on board</h2>
+<p>Microsoft first rolled out Advanced Shader Delivery in its SDK <a href="https://devblogs.microsoft.com/directx/agility-sdk-1-618/">last September</a> and added support to the ROG Xbox Ally as a proof of concept by October. Microsoft said that the addition reduced launch times in games like <em>Avowed</em> by “as much as 85 percent,” which is a big deal on battery-limited handhelds.</p>
+<p>Getting Advanced Shader Delivery adopted across the wider PC gaming ecosystem has been a slower process. Nvidia <a href="https://developer.nvidia.com/blog/nvidia-rtx-innovations-are-powering-the-next-era-of-game-development/#shader_compilation_for_the_gaming_ecosystem">says</a> it is “working closely with Microsoft” to add Advanced Shader Delivery support to its GeForce RTX line “later this year,” and Intel <a href="https://www.intel.com/content/www/us/en/developer/articles/news/microsoft-collaboration-powers-future-of-pc-gaming.html">says</a> it’s “looking forward to releasing a driver supporting ASD in the near future.” Qualcomm also said it plans to “debut this feature soon on Qualcomm Adreno X2 GPUs,” for what it’s worth.</p>
+<p>Even with hardware support, game engine makers will have to integrate Microsoft’s SODB APIs to streamline the setup process for game developers. Epic Games says it is “doing early testing and explorations on SODB and PSDB generation and will have more details coming soon,” which is probably not the full-throated commitment Microsoft would like at this point.</p>
+<p>For now, Microsoft has <a href="https://devblogs.microsoft.com/directx/advanced-shader-delivery-whats-new-at-gdc-2026/">updated its APIs</a> to let developers more easily create and test PSDBs and more easily compile shaders in larger games. The company is also urging developers to “integrate SODB collection into your game engine” now so they’ll be ready to upload those precompiled shaders through the Xbox Partner Center starting in May.</p>
+<p>At that point, some PC games downloaded through the Xbox app will finally be able to skip that annoying “compiling shaders” loading step. But this isn’t a feature Microsoft wants to keep for its own PC game platform; the company says that “in the future, any storefront can compile the SODBs to… PSDBs and distribute them.”</p>
 
 
           
-                  </div></div><br/><br/>https://arstechnica.com/gaming/2026/03/valve-compares-its-loot-boxes-to-labubus-in-lawsuit-defense/]]></content:encoded>
+                  </div></div><br/><br/>https://arstechnica.com/gaming/2026/03/microsoft-is-working-to-eliminate-pc-gamings-compiling-shaders-wait-times/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
