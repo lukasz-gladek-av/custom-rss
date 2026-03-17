@@ -4,205 +4,49 @@
         <title>maGaming RSS Feed - arstechnica.com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica.com</description>
-        <lastBuildDate>Tue, 17 Mar 2026 08:15:49 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 Mar 2026 16:25:39 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[New "vibe coded" AI translation tool splits the video game preservation community]]></title>
-            <link>https://arstechnica.com/ai/2026/03/new-vibe-coded-ai-translation-tool-splits-the-video-game-preservation-community/</link>
-            <guid>1464367</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="main">
-            <article data-id="2145699">
-  
-  <header>
-  <div>
-    <div>
-      
-
-      
-
-      <p>
-        Creator apologizes after using Patreon funds for Gemini-powered magazine scan processor.
-      </p>
-
-              
-          </div>
-
-    <div>
-    
-    <p>
-      Translating the letter "A" is just one of many things new AI models can do!
-
-              <span>
-          Credit:
-
-          
-          Getty Images
-
-                  </span>
-          </p>
-  </div>
-  </div>
-</header>
-
-
-  
-
-  
-      
-    
-    <div>
-                      
-                      
-          
-<p>Since Andrej Karpathy <a href="https://arstechnica.com/ai/2025/03/is-vibe-coding-with-ai-gnarly-or-reckless-maybe-some-of-both/">coined the term “vibe coding” just over a year ago</a>, we’ve seen a rapid increase in both the <a href="https://arstechnica.com/ai/2026/02/sixteen-claude-ai-agents-working-together-created-a-new-c-compiler/">capabilities</a> and <a href="https://arstechnica.com/information-technology/2026/01/10-things-i-learned-from-burning-myself-out-with-ai-coding-agents/">popularity</a> of using AI models to throw together quick programming projects with less human time and effort than ever before. One such vibe-coded project, <a href="https://github.com/gaming-alexandria/Gaming-Alexandria-Researcher">Gaming Alexandria Researcher</a>, launched over the weekend as what coder Dustin Hubbard called an effort to help organize the <a href="https://www.gamingalexandria.com/wp/magazines/">hundreds of scanned Japanese gaming magazines</a> he’s helped maintain at clearinghouse Gaming Alexandria over the years, alongside machine translations of their OCR text.</p>
-<p>A day after that project went public, though, Hubbard was <a href="https://www.patreon.com/posts/apology-153042274">issuing an apology</a> to many members of the Gaming Alexandria community who loudly objected to the use of Patreon funds for an error-prone AI-powered translation effort. The hubbub highlights just how controversial AI tools remain for many online communities, even as many see them as ways to maximize limited funds and man-hours.</p>
-<p>“I sincerely apologize,” Hubbard wrote in his apology post. “My entire preservation philosophy has been to get people access to things we’ve never had access to before. I felt this project was a good step towards that, but I should have taken more into consideration the issues with AI.”</p>
-<h2>“Something I never would have dreamed could exist”</h2>
-<p>Since its launch in 2015, <a href="https://www.gamingalexandria.com/wp/">Gaming Alexandria</a> has grown into a comprehensive, Japan-focused clearinghouse for video game history, including everything from <a href="https://www.gamingalexandria.com/wp/scans/">high-quality box art scans and</a> <a href="https://www.gamingalexandria.com/wp/category/dumps-prototypes/">rare video game prototypes</a> to <a href="https://www.gamingalexandria.com/wp/type-in-programs/">classic magazine-published BASIC programs</a>. The site is also known for its <a href="https://www.gamingalexandria.com/wp/magazines/">massive collection of Japanese game magazine scans</a>, some dating <a href="https://www.gamingalexandria.com/wp/2024/06/amusement-industry-%e3%82%a2%e3%83%9f%e3%83%a5%e3%83%bc%e3%82%ba%e3%83%a1%e3%83%b3%e3%83%88%e7%94%a3%e6%a5%ad-volume-2-no-11-december-1973/">all the way back to the early ’70s</a>.</p>
-<p><a href="https://www.patreon.com/posts/gaming-152970418">Writing on Patreon</a> this weekend, Hubbard said he has long been tinkering with an improved automated OCR and translation process that could help turn more of those magazine scans into useful tools for Western researchers. And when he put Google Gemini AI model to the task recently, he said he was “blown away” by the results. While he still recommended using a professional human translator before citing these magazines in any scholarly research, he said the output from the Gemini AI tool “gets you a large percentage of the way there quickly.”</p>
-
-          
-                      
-                  </div>
-                    
-        
-            
-    
-    <div>
+            <title><![CDATA[Switch 2's new "Handheld Mode Boost" can run original Switch games at 1080p]]></title>
+            <link>https://arstechnica.com/gadgets/2026/03/nintendo-switch-2-update-adds-one-possible-fix-for-blurry-og-switch-games/</link>
+            <guid>1465117</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
           
           
-<p>Inspired by those results, Hubbard set to work on a self-described “vibe coded” interface to view the original PDF scans alongside their AI-generated text translations for easy comparison and editing. The result was <a href="https://github.com/gaming-alexandria/Gaming-Alexandria-Researcher">the Gaming Alexandria Researcher tool</a>, posted to GitHub on Friday and shared with the site’s Patreon backers as a “beta” on Saturday. The tool, which runs locally on Windows, Mac, or Linux, can search, download, and edit Gaming Alexandria’s files from the cloud or sort through local files stored on your own machine.</p>
-<p>Hubbard said that he made use of some of Gaming Alexandria’s Patreon funds (which are <a href="https://www.patreon.com/gamingalexandria">currently listed</a> at over $250 per month) to help build the project itself and for the Gemini-powered transcriptions and translations it uses. That process “costs about 50 cents to $1.50 per magazine to process which isn’t too bad depending on their size,” he wrote.</p>
 <figure>
-    <div id="caption-2145703"><p>
-              A look at the Gaming Alexandria Researcher interface, showing an original Japanese scan alongside the AI translation of the text.
-                              </p>
+    <div id="caption-2145850"><p>
+              The latest Switch 2 system update will allow you to run original Switch games in handheld mode at the same resolutions and settings they would use while docked.
+                              </p><p>
+                  Credit:
+                                      Andrew Cunningham
+                                  </p>
                           </div>
           <figcaption>
         <div>
     
     <p>
-      A look at the Gaming Alexandria Researcher interface, showing an original Japanese scan alongside the AI translation of the text.
+      The latest Switch 2 system update will allow you to run original Switch games in handheld mode at the same resolutions and settings they would use while docked.
 
               <span>
           Credit:
 
-                      <a href="https://www.patreon.com/posts/gaming-152970418" target="_blank">
           
-          Gaming Alecandria 
+          Andrew Cunningham
 
-                      </a>
                   </span>
           </p>
   </div>
       </figcaption>
       </figure>
 
-<p>“This app has been something I never would have dreamed could exist,” Hubbard enthused. “Now I can finally read and enjoy these Japanese magazines I’ve been scanning for years. A large part of that is due to your believing in my work and funding me so thank you so much for that.”</p>
-<h2>“It’s worthless and destructive”</h2>
-<p>Not everyone was as excited as Hubbard, though. “I’m very, very disappointed to see [Gaming Alexandria], one of the foremost organizations for preserving game history, promoting the use of AI translation and using Patreon funds to pay for AI licenses,” game designer and <a href="https://bsky.app/profile/did:plc:2e7f2uvcguv4d5qxqnyjmk32">Legend of Zelda historian</a> Max Nichols wrote in a popular social media message over the weekend. “I have cancelled my Patreon membership and will no longer promote the organization.”</p>
-<p>Nichols later deleted that message (<a href="https://web.archive.org/web/20260314022526/https://bsky.app/profile/maxnichols.bsky.social/post/3mgyeqmivks2a">archived here</a>), <a href="https://bsky.app/profile/maxnichols.bsky.social/post/3mgzzy3i7qs2a">saying</a> he was “uncomfortable with the scale of reposts and anger” it had aroused in the community. On the substance, though, Nichols said he was still concerned about the inevitable inaccuracies that would be introduced by Gemini’s translations, making them nearly useless for scholarship.</p>
-
-          
-                  </div>
-                    
-        
-            
-    
-    <div>
-          
-          
-<p>In <a href="https://bsky.app/profile/maxnichols.bsky.social/post/3mgywodak722a">a follow-up post</a>, Nichols said he was uncomfortable with “Patreon money being spent on AI subscriptions to make untrustworthy translations, that are promoted as if they’re worth reading or valid sources of historical info. … It’s worthless and destructive: these translations are like looking at history through a clownhouse mirror.”</p>
-<p>Nichols wasn’t alone in expressing those kinds of concerns. “It strikes me as irresponsible to use the privileged position where we have first hand access to this genuinely novel information to just be okay with something that kinda works, sorta,” user Joey <a href="https://discord.com/channels/431269689918750731/480403271564001301/1482297873671393385">wrote</a> on the Gaming Alexandria Discord. <a href="https://bsky.app/profile/xdaniel.neocities.org/post/3mh24ukaaik2z">Others</a> on social media <a href="https://bsky.app/profile/nyktv.itch.io/post/3mgyqiqrzss2q">piped up</a> to say that the project had “damaged [the site’s] reputation,” or had “burn[ed] all their good faith with the video gaming community.”</p>
-<p>For some supporters, though, using machine translations—including ones aided by AI models—is a practical necessity given the size of the task at hand. “There’s no world in which they could ever get hundreds of thousands of pages translated by hand,” <a href="https://savestate.site/">game preservationist</a> Chris Chapman <a href="https://bsky.app/profile/retrohistories.bsky.social/post/3mgzkinqs322l">wrote on social media</a>. “Error-prone searchability is more useful to more people than none at all.”</p>
-<p>“Famitsu alone is over 1,900 issues, each with [a hundred-plus] pages,” journalist and author Felipe Pepe <a href="https://bsky.app/profile/felipepepe.bsky.social/post/3mgyw2gemxs2r">noted</a>. “That’s one magazine from one country. [Human translation] would be ideal, but it’s impossible.”</p>
-
-<p>On the Gaming Alexandria Discord, user asie <a href="https://discord.com/channels/431269689918750731/480403271564001301/1482294418357878825">wrote</a> that people who use tools like Google Lens or DeepL are already using AI-powered OCR and translation tools. At this point, these kinds of tools are “just a fact of reality,” they added.</p>
-<figure>
-    <div id="caption-2145706"><p>
-              This 1973 issue of Japan’s Amusement Industry magazine is just one of hundreds that Gaming Alexandria has scanned over the years.
-                              </p>
-                          </div>
-          <figcaption>
-        <div>
-    
-    <p>
-      This 1973 issue of Japan’s Amusement Industry magazine is just one of hundreds that Gaming Alexandria has scanned over the years.
-
-              <span>
-          Credit:
-
-                      <a href="https://www.gamingalexandria.com/wp/2024/06/amusement-industry-%e3%82%a2%e3%83%9f%e3%83%a5%e3%83%bc%e3%82%ba%e3%83%a1%e3%83%b3%e3%83%88%e7%94%a3%e6%a5%ad-volume-2-no-11-december-1973/" target="_blank">
-          
-          Gaming Alexandria
-
-                      </a>
-                  </span>
-          </p>
-  </div>
-      </figcaption>
-      </figure>
-
-<h2>“Show some empathy and grace…”</h2>
-<p>In <a href="https://www.patreon.com/posts/apology-153042274">his apology post</a> Sunday, Hubbard acknowledged that many supporters were “shocked and angered” by his efforts on the Researcher vibe coding effort and said he “should have reached out before using Patreon funds for that project.” Hubbard said he’d be using personal funds to replace the Patreon money that had been used so far, and that in the future “no Patreon dollars will be used to fund AI.” He added that he is just “one cog in the wheel” of the Gaming Alexandria site, and that other members of the community shouldn’t be punished for what was a “personal side project.”</p>
-
-          
-                  </div>
-                    
-        
-            
-    
-    <div>
-
-        
-        <div>
-          
-          
-<p>(In response to a request for further comment from Ars Technica, Hubbard said that “we’re currently working on a statement we hope to have out in the next week regarding all this.”)</p>
-<p>For some, this apology was too little too late, especially since Researcher remains online via GitHub. “That first [apology] seemed like ‘I’m still going to do it, but I won’t use Patreon money,’ which to me is a distinction without a point,” one social media user <a href="https://bsky.app/profile/ianferguson.bsky.social/post/3mh4ji2pths2m">wrote</a>. “I encourage anyone currently supporting Gaming Alexandria on Patreon to pull their funding until they completely back away from ever using any kind of genAI ever again,” another <a href="https://bsky.app/profile/blueskyrunner.bsky.social/post/3mh2lnijddc2d">added</a>. “This is an unacceptable response that doesn’t seem to understand that ANY usage of it is unacceptable.”</p>
-<p>At the same time, even many who were opposed to the project spoke out to defend Hubbard and his long-standing efforts in the game-preservation community. “[Hubbard] has been a really nice &amp; thoughtful guy in every encounter I’ve had with him,” Zelda archivist Melora Hart <a href="https://bsky.app/profile/historyofhyrule.com/post/3mh25abdsqs2f">wrote</a> on the History of Hyrule social media account. “Every single human on Earth can get excited and carried away with things.”</p>
-<p>In the end, while the game-preservation community might not be ready to embrace AI-assisted translations just yet, that doesn’t mean they’re ready to excommunicate someone like Hubbard just for trying. “Gaming Alexandria is our load-bearing pillar for access to Japanese scans and [Hubbard] the hardest-working guy I know in game preservation, so I’d really appreciate it if we didn’t destroy him with a dogpile over his vibe coding project please,” Video Game History Foundation founder Frank Cifaldi <a href="https://bsky.app/profile/frankcifaldi.bsky.social/post/3mgzua6ahhs27">wrote on social media</a>. “Show some empathy and grace if you disagree with it.”</p>
+<p>Even with Handheld Mode Boost enabled, the Switch 2 still takes screenshots of Switch 1 games at 720p in handheld mode, making it difficult to capture screenshots that demonstrate the setting in action. But in the two unpatched Switch games we tested (<em>Mario Kart 8 Deluxe</em> and&nbsp;<em>Dragon Quest XI S</em>), it worked as expected: both 2D and 3D elements were sharper, and things like draw distance and texture quality looked like they do in TV mode rather than handheld mode.</p>
+<p>Nintendo points out several potential downsides to Handheld Mode Boost. Most obviously, running games at higher settings can increase the console’s power usage, which reduces battery life. And because the games “think” they’re running on a TV, you won’t be able to use the touchscreen, and attached Joy-Cons will register to the console as a single Pro Controller rather than a pair of Joy-Cons. Games that display different gameplay instructions when docked may also be affected.</p>
+<p>Handheld Mode Boost doesn’t affect the performance of Switch 2 games, which already run at the built-in screen’s native 1080p resolution in handheld mode. It also presumably won’t affect Switch software that has been patched for the Switch 2, whether through a free developer update or a paid Nintendo Switch 2 Edition upgrade.</p>
 
 
           
-                  </div>
-
-                  
-          
-
-
-
-
-
-
-  <div>
-    
-
-    <p>
-      Kyle Orland has been the Senior Gaming Editor at Ars Technica since 2012, writing primarily about the business, tech, and culture behind video games. He has journalism and computer science degrees from University of Maryland. He once <a href="https://bossfightbooks.com/collections/books/products/minesweeper-by-kyle-orland">wrote a whole book about <em>Minesweeper</em></a>.
-    </p>
-  </div>
-
-
-  <p>
-    <a href="https://arstechnica.com/ai/2026/03/new-vibe-coded-ai-translation-tool-splits-the-video-game-preservation-community/#comments" title="86 comments">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><defs><clipPath id="bubble-zero_svg__a"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath><clipPath id="bubble-zero_svg__b"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath></defs><g clip-path="url(#bubble-zero_svg__a)"><g fill="currentColor" clip-path="url(#bubble-zero_svg__b)"><path d="M80 40c0 22.09-17.91 40-40 40S0 62.09 0 40 17.91 0 40 0s40 17.91 40 40"></path><path d="M40 40 .59 76.58C-.67 77.84.22 80 2.01 80H40z"></path></g></g></svg>
-    86 Comments
-  </a>
-      </p>
-              </div>
-  </article>
-
-
-  
-
-
-  
-
-
-  
-  </div></div><br/><br/>https://arstechnica.com/ai/2026/03/new-vibe-coded-ai-translation-tool-splits-the-video-game-preservation-community/]]></content:encoded>
+                  </div></div><br/><br/>https://arstechnica.com/gadgets/2026/03/nintendo-switch-2-update-adds-one-possible-fix-for-blurry-og-switch-games/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
