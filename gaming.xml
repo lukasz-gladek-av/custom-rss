@@ -4,9 +4,695 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Fri, 27 Mar 2026 19:18:11 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 27 Mar 2026 20:10:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Wyldheart Is a Cozy-Looking “Multiplayer Skyrim” with a Heavy Dose of Tabletop Inspiration]]></title>
+            <link>https://wccftech.com/wyldheart-multiplayer-rpg-preview-interview/</link>
+            <guid>1475878</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			
+			<p>Last week, I received an invite to check out <strong>Wyldheart</strong>, a soon-to-be-announced co-op fantasy action RPG in development by <strong>Wayfinder Studios</strong>. The team is small and independent, but also filled with industry veterans, like co-founders <strong>Dennis Brännvall</strong> (formerly Creative Director of <strong>Star Wars Battlefront II</strong>) and <strong>Fia Tjernberg</strong> (formerly Studio Director of Technical Design at <strong>EA DICE</strong>).</p>
+
+
+
+<h2 id="h-in-this-article">In this article:</h2>
+
+
+
+<ul>
+<li><strong><a href="#first-impressions">First Impressions: Dungeons, Hexes, and a Legendary Mace</a></strong></li>
+
+
+
+<li><a href="#under-the-hood"><strong>Under the Hood: Unreal Engine 5, AngelScript, and a Lean 10-Person Team</strong></a></li>
+
+
+
+<li><a href="#gameplay-systems"><strong>Gameplay Systems: Time, Hope, and the Hex Crawl</strong></a></li>
+
+
+
+<li><a href="#vision-roadmap" type="internal" id="#vision-roadmap"><strong>Vision and Roadmap: Tabletop Roots, Mod Support, and Early Access</strong></a></li>
+</ul>
+
+
+
+<h2 id="first-impressions">First Impressions: Dungeons, Hexes, and a Legendary Mace</h2>
+
+
+
+<p>I was introduced to Wyldheart by Brännvall himself, then played a brief multiplayer session with him and the studio's Marketing Director, <strong>Erin Bower</strong>, and finally asked Brännvall several questions to learn even more about this intriguing title.</p>
+
+
+
+<p>The studio's tabletop RPG inspiration was immediately clear. Even in character creation, <strong>players can pick between various non-standard fantastical races</strong> (like the proud Freefolk, the little Mossling, and the towering Grimhorn) and then <strong>choose one of 19 backgrounds</strong>, such as Exiled Noble, Butcher, Baker, Squire, Gardener, and many more, each providing different starting items and skills. On that note, <strong>Wyldheart also has an entirely classless system</strong>, allowing players to assign points to Adventuring, Survival, Dungeoneering, Weaponry, and Magic.</p>
+
+
+
+<p>Once you're done with character creation, you have to start a new campaign or continue an existing one. This time, we were dropped into the so-called "<strong>Trial of the Slime Lord</strong>" right away and had to face various skeletons and slimes, up to a final boss, in a dimly lit dungeon-like location. <strong>The interaction with the environment seemed to be one of the game's strengths</strong>: removing hastily placed planks allowed us to use a rope to climb down and retrieve the loot of an unfortunate traveler who presumably fell prey to the dungeon's perils. Lockpicks can be used to open various locks, though you'll need to be skilled enough in lockpicking to have a high chance of success; sometimes, though, you can also try simply kicking the door down. Crouching is not only helpful for a stealth approach, but it also makes your character more observant, allowing you to spot potential traps.</p>
+
+
+
+<p>The loot can be anything from forks to satchels to torn journal pages, as well as, of course, potions, equipment, and weapons. It was after we courageously defeated the aforementioned Slime Lord that I found <strong>Marasoda</strong>, a powerful two-handed mace that dealt fire damage in addition to its regular crushing damage. As it goes in these games, everything was a little more fun when wielding that. <strong>The combat itself is fun enough, although perhaps still a bit rough around the edges</strong>. You can kick enemies as they get close to make some space, and a basic parry/riposte system already seems to be in place. You also need to manage stamina during melee combat.</p>
+
+
+
+<figure><p>
+<iframe title="Wyldheart | Official Reveal Trailer" width="500" height="281" src="https://www.youtube.com/embed/SGIl5UuRpxg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<p>In another nod to tabletop roleplaying games, <strong>performing actions like clearing blocked paths will advance time</strong> (as any self-respecting dungeon master would do). Eventually, your character gets tired, and traveling in the middle of the night drains <strong>Hope</strong>, a finite resource. Once your Hope is entirely gone, it's game over, though there are ways to replenish it before that happens, as you'd expect.</p>
+
+
+
+<p>After clearing the dungeon, we traveled outdoors, made a campfire, cooked a meal (which gives you a nice bonus to max health), and slept. That's where they showed me that <strong>the world is connected in a grid-like fashion made of smaller maps</strong>. We traveled through them to reach the village of Elderlight; nothing happened, but we might have been ambushed if we had been unlucky. It's here that I was able to properly appreciate the game's unique art style, which vaguely reminded me of classic Fable. In the village, players can speak to local villagers, who have lives, stories, and schedules of their own. I was told that it's even possible to uncover quests by eavesdropping, deciphering rumors, and merely through exploration.</p>
+
+
+
+<p>One of the studio's goals is to make "<strong>Game Night</strong>" easier on everyone. You can play Wyldheart solo or up to 4 players in co-op with seamless drop-in/drop-out. Moreover, cloud-shared saves, group XP, and scaling difficulty mean the party can continue with someone offline without anyone getting left behind. <strong>It's designed for busy gamers</strong>, and its campaigns are expected to last around <strong>10 hours of story and 15 hours of optional content</strong>.</p>
+
+
+
+<p>Overall, this first taste of Wyldheart (which is now <a href="https://www.kickstarter.com/projects/wayfinderstudios/wyldheart" type="link" id="https://www.kickstarter.com/projects/wayfinderstudios/wyldheart" target="_blank" rel="noreferrer noopener">on Kickstarter</a> seeking a minimum of <strong>€150K</strong> <span>in funding and will come soon to PC early access via&nbsp;<a href="https://store.steampowered.com/app/3642910/Wyldheart/" target="_blank">Steam</a>&nbsp;and the&nbsp;</span>Epic Games Store, with a <strong>full launch slated before the end of 2027</strong> on PC and consoles) was <strong>quite juicy</strong>. I really enjoy this kind of game, so I was eager to speak with Brännvall about it and learn more about its feature set.</p>
+
+
+
+<figure><p>
+<iframe title="Wyldheart | Gameplay 101" width="500" height="281" src="https://www.youtube.com/embed/2FpNJRW_OiI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<h2 id="under-the-hood">Under the Hood: Unreal Engine 5, AngelScript, and a Lean 10-Person Team</h2>
+
+
+
+<p><strong>Dennis, do you want to start by introducing yourself?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;Sure. My name is Dennis, and I'm one of the founders of Wayfinder Studios. I work as the designer and director for our first game, Wyldheart. We've been working on it for the past four years, ever since we started the studio. <strong>We said it was going to be a five-year project to get everything up and running for an online RPG, and now we're finally ready to come out of stealth and start showing it to the world</strong>. Before starting Wayfinder Studios, I worked as the creative director for Star Wars Battlefront at DICE, together with my wife and a good friend of ours, who both worked in technical leadership positions at DICE, at Funcom making Anarchy Online, and at Star Stable making Star Stable Online. We're a small studio.</p>
+
+
+
+<p><strong>Are you all working remote?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;Yes. Forever remote, across the world.</p>
+
+
+
+<p><strong>How long have you been working on this?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;We're now <strong>in our fourth year of development</strong>, though some of that time also went into starting the company and studio. We're ten developers in total.</p>
+
+
+
+<p><strong>You previously worked at DICE, which uses Frostbite. How was the switch to Unreal technology?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;There are still similarities with the online multiplayer handling, ranged attacks with crosshairs, melee combat. We used to do a lot of lightsabers; now we use normal steel sabers. <strong>Unreal isn't radically different from Frostbite in terms of principles</strong>. But the biggest advantage has been the ecosystem. Every partner we work with already knows Unreal. If we need assets, there's a full marketplace. None of that was available in Frostbite. A lot has been very positive.</p>
+
+
+
+<p><strong>Are you on the latest version of Unreal 5?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;We just did <strong>an engine upgrade</strong> a week ago, which is part of why we're slightly late with the current patch. There are always a few bugs that pop up after an upgrade. We're working through those and plan to ship the patch very soon. The new version has procedural workflow improvements for things like spawning vegetation, and there are several features we're excited about.&nbsp;</p>
+
+
+
+<p><strong>Have you made any custom modifications to the engine?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;We use a plugin called AngelScript for most of our scripting, developed by <strong>Hazelight Studios</strong> in Sweden. They're good friends of ours. Using AngelScript means we don't have to go into the C++ layer as frequently, which makes things more stable and less crash-prone. Beyond that, <strong>we use plugins for procedural dungeon technology, a day/night cycle plugin, and Epic's large-world streaming plugin, because our campaign map is large enough that we need that technology to handle it</strong>.</p>
+
+
+
+<p><strong>Where are you in the development of Wyldheart?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;We hit Alpha just before Christmas. <strong>We're now in the first full production phase, which is essentially all hands on deck for more quests, more areas, more dungeons, more enemies, more gear — and then fine-tuning it all</strong>. We're targeting Beta shortly after summer, and then Early Access on PC via Steam and Epic with crossplay. After that, we'll begin console porting and hope to release on Xbox, PlayStation, and Switch 2 in the not-too-distant future.</p>
+
+
+
+<p><strong>Switch 2 as well. Do you think that port will be complex?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;A little bit, yes, but we have partners who have done it before, and <strong>Nintendo has been very encouraging in terms of providing dev kits</strong>. None of us have shipped on Switch before, so it'll be a cool milestone. The game already runs on Steam Deck and the ROG Ally X, and we already have controller and crossplay support, so there's a foundation to build from. There's always work to do for console releases, but we're looking forward to it.</p>
+
+
+
+<p><strong>Do you think this kind of game suits handheld play?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;I think cross-play is the most important part of this. Whether you're playing with friends your own age or with family, being on as many platforms as possible matters. Not every household has four Xboxes, but they might have a desktop, a laptop, and a Switch, and making sure they can all play together and share the experience is very important to us. As for handheld specifically, <strong>even if you only have five minutes, there are plenty of tasks that fit that window: gathering mushrooms, collecting plants, preparing for a bigger dungeon run later in the evening</strong>.</p>
+
+
+
+<h2 id="gameplay-systems">Gameplay Systems: Time, Hope, and the Hex Crawl</h2>
+
+
+
+<p><strong>I noticed that Wyldheart has a time system. Does time have any implications on gameplay?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;Yes. <strong>Eventually, your character gets tired, and you lose Hope if you travel in the middle of the night, so we encourage players to take breaks and camp regularly</strong>. One of the key motivations to set up camp and sleep at night is that traveling after dark is when enemies can start following or tracking you, making things much more dangerous.&nbsp;</p>
+
+
+
+<p><strong>Are the dungeon maps procedurally generated?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;All the rooms in dungeons are handcrafted, but <strong>we use procedural technology to stitch them together into different layouts each time</strong>. So every time you play the slime dungeon, the layout will be different, but you'll probably recognize the rooms themselves. It gives a lot of replay value, because players can't just speedrun straight to the boss room the second time around.</p>
+
+
+
+<p><strong>And this overworld is a hex crawl?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;Yes. <strong>The game turns into a board game hex crawl on the overworld. You mark nearby hexes and travel one at a time</strong>. The campaign map has about <strong>250 handcrafted scenes</strong>. You shouldn't go into all of them, but they're all there to explore. You'll also notice there are no mini-maps in the dungeons. We wanted that more immersive feeling, because when games have mini-maps, players tend to stare at that tiny corner of the screen instead of actually exploring the space.</p>
+
+
+
+<p><strong>Are there random encounters, too?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;Yes! <strong>You can be ambushed by enemies or come across NPCs who need help</strong>, side quests, or little encounters. We have plenty of those.</p>
+
+
+
+<p><strong>When it comes to Wyldheart's campaign, is there an end goal, or is it more of a sandbox-type experience?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;There's definitely an end goal. Quite early on in this campaign, you'll learn that there are several relics of old Caerwyn, an ancient land that fell long ago, and <strong>your quest is to find those relics and bring them to the chapel at the center of town</strong>. That's the core goal. It unlocks new stories and onboards you to the world. You can then play additional campaigns that follow a broader overarching theme: the return of the fairies, demons from beyond, and your role in trying to stop them, with sub-campaigns that have their own arcs within that.</p>
+
+
+
+<p><strong>Some co-op games with this kind of campaign structure also let players create their own campaigns. Will that be possible?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;It's already fairly easy for anyone familiar with Unreal to add new scenes, quests, stories, and monsters to the game. So in that sense, <strong>if you're capable of working in Unreal, Wyldheart is relatively moddable</strong>. We're not at a point where we can promise or announce anything specific on mod support, but we've set up the game in a way where going in that direction wouldn't be out of the question. It's something we'd be interested in exploring once the core game is in players' hands.</p>
+
+
+
+<p><strong>It could really prolong the game's longevity.</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;Agreed. And <strong>in this day and age, so many developers, hobbyists and professionals alike, are familiar with Unreal</strong>. The future for mods in general feels like it should be built around these open, freely downloadable game engines, where it becomes easier for creators to upload content and for players to download it.</p>
+
+
+
+<h2 id="vision-roadmap">Vision and Roadmap: Tabletop Roots, Mod Support, and Early Access</h2>
+
+
+
+<p><strong>Have you thought about adding a dungeon master mode?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;Yes, absolutely. <strong>We've talked about a dungeon master mode, and it's certainly possible</strong>. We just need to get the core game done first. But it'd be very cool.</p>
+
+
+
+<p><strong>Can you talk a bit about the inspiration for the world and art style?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;We've been told the game looks and feels "modern retro," and we really like that phrasing. On the video game side, when we were conceiving the game, it was essentially "<strong>a multiplayer Skyrim</strong>" or "<strong>your own private World of Warcraft server</strong>". Somewhere in between, but <strong>with a heavier focus on role-playing and playing with your community or friends</strong>. Then there are the obvious inspirations from old-school tabletop RPGs, not just fifth edition D&amp;D, but games from the 80s and 90s. <strong>That's why we're going for this rustic fantasy approach: lived-in, grounded, harsh, and cozy at the same time</strong>. We love old-school indie RPGs. That's what we talk about every day.</p>
+
+
+
+<p><strong>Is there crafting in the game?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;Yes, crafting is already in. Most characters can craft basic things like torches, bandages, and rope. <strong>As you unlock more skills or talk to craftspeople in towns, you can get into enchanting, crafting magical items, or commissioning weapons and armor</strong>. We're still finalizing exactly how deep it goes, but those mechanics will be there.</p>
+
+
+
+<p><strong>I noticed there's an item quality tier system. How many tiers are there?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;Five tiers of quality, plus a separate tier system for gear. <strong>It's not as affix-heavy as something like Diablo</strong>, but we do use procedural item generation, where we set up the value ranges and stat types and then let the system generate the loot dynamically.</p>
+
+
+
+<p><strong>Can you carry character progress from one Wyldheart campaign to another?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;We're still working this out, and I think we'll let Early Access guide us. <strong>My gut says it'll be both</strong>: some players will want to bring their character forward, and others will welcome the chance to start fresh with a new story. We'll let the community help us land on that.</p>
+
+
+
+<p><strong>Giving options is always appreciated, even if it means more work.</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;We're not opposed to more work. We like the work!</p>
+
+
+
+<p><strong>You said the goal is Early Access later this year. How long do you plan to stay in Early Access?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;We're looking at roughly a year. We have a clear vision of what we want the full game to be, and we'll use Early Access primarily to gather player feedback and requests. <strong>We anticipate launching into 1.0 before the end of 2027, and that would include consoles as well</strong>.</p>
+
+
+
+<p><strong>Have you disclosed pricing?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;Still TBD. <strong>It won't be a full-price game</strong>, but we haven't nailed down the final number yet.</p>
+
+
+
+<p><strong>Are you self-publishing?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;Yes. We're a scrappy team that wants to do everything ourselves. <strong>Fully independent, majority owned by the founders of the studio, self-publishing and doing everything ourselves</strong>. Working our tails off sometimes, but that's the choice we made.</p>
+
+
+
+<p><strong>How do you feel about AI usage in game development?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;Philosophically, <strong>we're not using AI for any content creation</strong>. A big reason we went independent and stayed small was to get our hands dirty and handcraft experiences for players. That's what we do. We do use procedural generation cleverly (we're not hand-placing every tree in a forest), and we use procedural tools for dungeon layout generation to add variety at runtime. We believe in proceduralness for that. But <strong>we still believe in human developers handcrafting stories for players</strong>.</p>
+
+
+
+<p><strong>Thank you for your time. </strong></p>
+
+			
+			
+						<p data-nosnippet="">
+				<strong>About the author: </strong> With over two decades of experience in gaming journalism, Alessio Palumbo has led the gaming vertical at Wccftech since August 2015. He started working at a young age for Italian websites like Everyeye.it, Gamestar.it, Nextgame.it, and Multiplayer.it before kickstarting the indie English-language publication Worlds Factory as its founder and Editor in Chief. 
+
+In the last decade, he has coordinated the overall output of Wccftech's gaming section, managed PR relations, assigned reviews, produced daily news coverage, edited gaming content as needed, and delivered game reviews.  
+
+Arguably, his trademark content is the long series of exclusive developer interviews that have been cited by Wikipedia and by the biggest news media and gaming publications. 
+
+His passion for technology also makes him knowledgeable when it comes to gaming hardware and tech. His favorite genres include RPGs, MMORPGs, and action/adventure games.			</p>
+			
+			<p data-nosnippet="">
+				Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.
+			</p>
+			
+
+
+		</div></div><br/><br/>https://wccftech.com/wyldheart-multiplayer-rpg-preview-interview/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Fans Are Really Taking To Glen Powell As Fox In The Mario Galaxy Movie]]></title>
+            <link>https://kotaku.com/super-mario-galaxy-movie-star-fox-voice-glen-powell-video-2000682723</link>
+            <guid>1475869</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+              
+              <p><span>When Nintendo and Illumination </span><a href="https://kotaku.com/super-mario-bros-movie-trailer-chris-pratt-voice-bad-1849836772"><span>cast Chris Pratt</span></a><span> as Mario for </span><a href="https://kotaku.com/super-mario-bros-movie-review-chris-pratt-jack-black-1850309488"><i><span>The Super Mario Bros. Movie</span></i></a><span>, it became perfectly reasonable to fear every other casting choice could be equally misguided. Now, whenever a new character from Nintendo’s games is revealed to be appearing in the films, fans are going to brace themselves for bad news. This morning, however, we didn’t find out the voice of a </span><i><span>Mario </span></i><span>character; instead we learned that </span><a href="https://kotaku.com/super-mario-galaxy-movie-glen-powell-star-fox-mccloud-voice-2000682628"><span>Fox McCloud from </span><i><span>Star Fox</span></i><span> will be voiced by </span><i><span>Twisters</span></i><span> star Glen Powell</span></a><span> when he </span><a href="https://kotaku.com/mario-galaxy-movie-is-going-full-smash-bros-with-surprise-star-fox-cameo-2000682190"><span>debuts in </span><i><span>The Super Mario Galaxy Movie</span></i></a><span>, and fans are warming up to the idea pretty quickly.</span></p>
+
+ <p><span>Though we haven’t heard Powell’s performance yet, fans have been pulling clips from his previous roles and the actor’s voice actually does kind of fit Fox, unlike, say Pratt as Mario or Seth Rogen as Donkey Kong, who did nothing to change his voice to fit the character. Powell has a bit of a southern twang and swagger to his voice, likely from living in Texas, and he’s got the “seasoned, weary pilot” vibe down to a science in </span><i><span>Top Gun: Maverick</span></i><span>. Funnily enough, and I didn’t know this until today, Powell is apparently </span><a href="https://people.com/movies/tom-cruise-paid-for-glen-powell-pilots-license/"><span>a licensed pilot</span></a><span> after going to flight school courtesy of his </span><i><span>Maverick </span></i><span>co-star Tom Cruise. I’m choosing to believe this helped prepare him for the role as Fox, who pilots spacecrafts in his games. In just a few clips, you can already hear how Powell will likely play the anthropomorphic space pilot when </span><i><span>The Super Mario Galaxy Movie </span></i><span>premieres on April 1.</span></p>   <blockquote data-width="500" data-dnt="true"> <p lang="en" dir="ltr">Here Is Glen Powell In Family Guy</p> <p>Dude Literally Sounds Like Fox McCloud <a href="https://t.co/FE1lAHQVQN">https://t.co/FE1lAHQVQN</a> <a href="https://t.co/N0SkBWrjiy">pic.twitter.com/N0SkBWrjiy</a></p> <p>— Reevie (@reevierat) <a href="https://twitter.com/reevierat/status/2037533630054953271?ref_src=twsrc%5Etfw">March 27, 2026</a></p></blockquote>  <blockquote data-width="500" data-dnt="true"> <p lang="en" dir="ltr">We got our guy, Glen Powell! </p> <p>Honestly a perfect choice, that’s literally Fox McCloud <a href="https://t.co/A81b9UCxKc">https://t.co/A81b9UCxKc</a> <a href="https://t.co/vyX3fc93cY">pic.twitter.com/vyX3fc93cY</a></p> <p>— Jojo ❤️ (@josiah_awkward) <a href="https://twitter.com/josiah_awkward/status/2037558674932019455?ref_src=twsrc%5Etfw">March 27, 2026</a></p></blockquote>  <p><span>Still, as fitting as the casting may be, the first </span><i><span>Super Mario Bros. Movie</span></i><span> was pretty much a reference-ridden winkfest, so I wouldn’t be surprised if Powell just ends up having to recite a bunch of lines from the games. And as it turns out, a lot of the more iconic line deliveries in the </span><i><span>Star Fox</span></i><span> franchise have come from Fox’s crew, rather than from the leading man himself. The most obvious is “Do a barrel roll,” which is said by Peppy Hare, Fox’s mentor. I doubt the movie’s creators could resist shoving it into the script somehow, whether that be by having Fox say it or having someone tell Fox to do the maneuver while he’s flying them somewhere. Falco’s “Hey, Einstein, I’m on your side” is also a good one, and another line someone will probably say </span><i><span>to </span></i><span>Fox rather than Powell reciting it himself. Also, Wolf’s “I can’t let you do that, Star Fox” is an easy pull. The one line I fully expect Powell to have to say is “Let’s rock and roll,” which is one of Fox’s more memorable, cheesy lines from </span><i><span>Star Fox 64</span></i><span> as he flies into battle.</span></p>
+
+ <p><span>While the voice might sound right, it will ultimately come down to how Nintendo and Illumination choose to play Fox off of the rest of the cast. Mario is </span><a href="https://kotaku.com/super-mario-galaxy-trailer-bowser-smug-jerk-2000643462"><span>the straight man</span></a><span> to a lot of the first film’s chaos, and I can imagine that, if Fox is a pretty serious, edgy, cool guy with an attitude who out-heros Mario, it could make for a funny dynamic between the two. After listening to Powell’s voice work, I’m at least convinced that if he doesn’t nail his performance as Fox McCloud it will be a problem with the direction, rather than the actor not having the chops.</span></p>
+                          </div></div><br/><br/>https://kotaku.com/super-mario-galaxy-movie-star-fox-voice-glen-powell-video-2000682723]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[“I think maybe we will be shaking a bit” – Yandex watson on Crowd at ESL One Birmingham]]></title>
+            <link>https://insider-gaming.com/yandex-watson-interview-esl-one-birmingham/</link>
+            <guid>1475866</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+        
+<p>Alimzhan ‘watson Islambekov is the spearhead of Yandex’s meteoric <a href="https://insider-gaming.com/category/esports/games/dota-2/" id="3118">Dota 2</a> rise that has already secured them two Tier 1 trophies in the 2025/26 season.</p>
+
+
+
+<p>Insider Gaming spoke to watson about the 7.41 patch, Yandex’s run at ESL One Birmingham, and what the team learned from Dmitry ‘DM’ Dorokhin’s successful stand-in showing at <a href="https://insider-gaming.com/team-yandex-win-pgl-wallachia-season-7/">PGL Wallachia Season 7.</a></p>
+
+
+
+
+
+
+
+<h3 id="h-what-s-your-first-feeling-on-the-patch">What’s your first feeling on the patch? </h3>
+
+
+
+<p>I don’t know, it felt kind of weird. Like we are playing. We played, I think last game in our group, and it’s a new patch, so we just read it all night and then just play. </p>
+
+
+
+<p>I like some updates, but not in tournaments.</p>
+
+
+
+<h3 id="h-we-saw-you-play-beastmaster-in-the-upper-bracket-semi-final-in-terms-of-your-own-heroes-what-are-you-kind-of-feeling-do-you-feel-like-they-re-in-a-good-place-or-do-you-feel-like-a-lot-of-them-got-nerfed">We saw you play Beastmaster in the Upper Bracket Semi Final. In terms of your own heroes, what are you kind of feeling? Do you feel like they’re in a good place, or do you feel like a lot of them got nerfed? </h3>
+
+
+
+<p>Some heroes got buffed. I played Beast because it was a good Beast game, but Beast got a bit nerfed, but I also played TB (Terrorblade), Ursa; Ursa is like fully the same, they didn’t touch Ursa.</p>
+
+
+
+<p>But they buffed TB a bit, so I played TB, and I’m still trying to find some new heroes on carry. </p>
+
+
+
+<h3 id="h-okay-so-you-know-obviously-next-year-you-re-going-to-play-against-tundra-how-are-you-feeling-about-tundra">Okay, so you know obviously next year you’re going to play against Tundra. How are you feeling about Tundra? </h3>
+
+
+
+<p>They are strong, but we are also not weak, so I think it will be an interesting match.</p>
+
+
+
+<h3 id="h-so-speaking-of-like-your-own-strength-i-feel-like-you-re-one-of-the-best-in-the-world-mechanically-which-players-would-you-say-stand-out-to-you-in-terms-of-mechanics">So speaking of like your own strength, I feel like you’re one of the best in the world, mechanically. Which players would you say stand out to you in terms of mechanics? </h3>
+
+
+
+<p>I think Satanic is pressing buttons very good. So yeah, Satanic.</p>
+
+
+
+<h3 id="h-you-ve-stepped-up-very-quickly-to-winning-tier-1-events-what-kind-of-principles-within-the-team-make-it-so-that-you-can-make-such-rapid-progress">You’ve stepped up very quickly to winning Tier 1 events. What kind of principles within the team make it so that you can make such rapid progress? </h3>
+
+
+
+<p>We have our discipline, structure, how we watch replays, how we prepare for games, how we like even we play pub before our officials.</p>
+
+
+
+<p>Everyone should play pubs and we always try hard in pubs, so we don’t have these negative feelings after pubs, and then we play officials with a fresh head.</p>
+
+
+
+<h3 id="h-so-you-feel-like-taking-pubs-seriously-has-helped-you-focus-on-the-actual-games">So you feel like taking pubs seriously has helped you focus on the actual games? </h3>
+
+
+
+<p>I mean we talked, I remember we had bootcamp before we won DreamLeague. We didn’t like try hard on pubs, everyone was screaming, and we started to play bad.</p>
+
+
+
+<p>So then we made a rule that everyone should at least, maybe not full try hard, but at least not screaming in pubs, like not like, oh f**k this guy…</p>
+
+
+
+<h3 id="h-it-can-be-hard-to-not-tilt-sometimes-in-pubs-right">It can be hard to not tilt sometimes in pubs, right? </h3>
+
+
+
+<p>Yeah.</p>
+
+
+
+<h3 id="h-you-re-playing-with-your-full-roster-would-it-be-bad-for-your-chances-at-ti-if-you-did-not-play-a-lot-of-events-this-year-with-your-full-roster">You’re playing with your full roster. Would it be bad for your chances at TI if you did not play a lot of events this year with your full roster? </h3>
+
+
+
+<p>It will be very hard, I think, if you miss one player. Every player is important in our team. </p>
+
+
+
+<h3 id="h-you-won-pgl-wallachia-season-7-with-dm-as-stand-in-is-there-anything-you-learned-from-dm">You won PGL Wallachia Season 7 with DM as stand-in. Is there anything you learned from DM?</h3>
+
+
+
+<p>From me, I’m not sure, because I played my game at Wallachia and I’m playing my game here. </p>
+
+
+
+<p>Maybe the coach said to notice some maybe things about DM, what he did in-game, so the game was a bit easier, because DM was more experienced.</p>
+
+
+
+<h3 id="h-what-kind-of-things-do-you-think-the-coach-picked-up-on-from-dm">What kind of things do you think the coach picked up on from DM? </h3>
+
+
+
+<p>He was talking a lot and he was trying to connect very early. He’s not that greedy in game, so like in Wallachia, me and CHIRA had more space. </p>
+
+
+
+<p>And DM was talking a lot, because I’m not talking before minute, I don’t know, 15 something like this.</p>
+
+
+
+<p>DM was calling like non-stop early game, so yeah, maybe this. </p>
+
+
+
+<h3 id="h-playing-in-front-of-the-crowd-is-that-something-you-think-is-going-to-be-good-for-the-team">Playing in front of the crowd, is that something you think is going to be good for the team? </h3>
+
+
+
+<p>I don’t know, but I think maybe we will be shaking a bit, so yeah, we will just try hard.</p>
+
+
+        <div>
+                  <p>
+                    Darragh is an Esports Journalist for Insider Gaming specialising in Counter-Strike. He loves to explore how esports teams work, or why they very often do not.                  </p>
+                  <p><a href="https://insider-gaming.com/author/darraghharbinson/">
+                    More from Darragh Harbinson                  </a>
+                </p></div>
+            
+
+    <div id="ig-app-cta">
+          <p><i></i> MOBILE APP</p>
+          <h2>Level Up Your Gaming News</h2>
+          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
+          
+          <p><i></i> Available on iOS &amp; Android</p>
+        </div>
+
+    
+    
+    </div></div><br/><br/>https://insider-gaming.com/yandex-watson-interview-esl-one-birmingham/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[The industry is in a 'really horrible place,' say Brenda and John Romero]]></title>
+            <link>https://www.gamedeveloper.com/business/the-industry-is-in-a-really-horrible-place-say-brenda-and-john-romero</link>
+            <guid>1475863</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-module="content" data-testid="article-base-body-content"><p data-testid="content-paragraph"><span data-testid="content-text">"I feel like the industry's in a really horrible place," Romero Games studio CEO Brenda Romero said.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">The conversation took place ahead of Game Republic's Dark and Doomy event last week. </span><span data-testid="content-text"><a rel="noreferrer" target="_blank" href="https://www.gamesindustry.biz/we-were-there-in-the-80s-for-the-crash-and-this-is-definitely-crashier-john-and-brenda-romero-reflect-on-the-industry-crisis">Speaking to GamesIndustry.Biz</a></span><span data-testid="content-text"> alongside Romero Games game director and id Software co-founder John Romero, Brenda reminisced about the US video game crash of 1983, which was a large-scale recession that took place until 1985.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">"I mean, we were there in the '80s for the crash, and this is definitely crashier," she said. "There are so few people that have not been affected, or their partner's affected, or they're worried about being affected. It's a really difficult time right now."</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Romero's comments follow years of </span><span data-testid="content-text"><a href="https://www.gamedeveloper.com/keyword/layoffs" target="_self" data-discover="true">debilitating layoffs and studio closures.</a></span><span data-testid="content-text"> These include recent job cuts at EA, PlayStation, and Epic Games—the latter of which made over 1,000 workers redundant while admitting that </span><span data-testid="content-text"><span>Fortnite</span></span><span data-testid="content-text"> remains a huge success.</span></p><p data-component="related-article"><span data-testid="related-article-title">Related:</span><a href="https://www.gamedeveloper.com/business/owlcat-games-is-using-gen-ai-to-iterate-faster-on-the-expanse" target="_self" data-discover="true">Owlcat Games is using generative AI to 'iterate faster' on The Expanse</a></p><p data-testid="content-paragraph"><span data-testid="content-text">John Romero made a comment about the EA layoffs, too, pointing out that </span><span data-testid="content-text"><span>Battlefield 6</span></span><span data-testid="content-text"> did "really, really well," only for EA to cut jobs either way. The game sold 7 million units in its first three days after launch. "I don't understand what that's all about."</span></p><p data-testid="content-paragraph"><span data-testid="content-text">The conversation comes a year after Romero Games underwent </span><span data-testid="content-text"><a href="https://www.gamedeveloper.com/business/report-romero-games-makes-layoffs-after-microsoft-cancels-project-funding" target="_self" data-discover="true">its own round of redundancies</a></span><span data-testid="content-text"> after a yet-to-be-named publisher pulled funding for a project in development. At the time, multiple developers who were laid off claimed that Microsoft was the publisher responsible for yanking the rug out from under the studio. The studio didn't confirm those statements due to a confidentiality agreement, but the news of the studio making layoffs coincided with Microsoft making significant cuts across its video game division.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Romero Games has remained active since, but the staff impact has been severe. Brenda told GamesIndustry.Biz that around 110 people were working at the studio last summer. Now, the number is down to nine.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">"It was really hard because a lot of us had been working together for ten years," she continued. "I mean, it was obviously hardest on the people who were ultimately made redundant. But yeah, it sucked. It's the worst. There's nothing worse than that."</span></p><p data-testid="content-paragraph"><span data-testid="content-text">In addition, Brenda remains confident that people will continue to play games, but struggles to comprehend how the industry will swing back from its current crisis. Not only around the rampant layoffs, but also the push for AI—a technology that has garnered a </span><span data-testid="content-text"><a href="https://www.gamedeveloper.com/business/one-third-of-game-workers-use-generative-ai-but-half-think-it-s-bad-for-the-industry" target="_self" data-discover="true">largely negative reception from developers</a></span><span data-testid="content-text"> in recent years, with many arguing that it is having a corrosive effect on the industry.</span></p><p data-component="related-article"><span data-testid="related-article-title">Related:</span><a href="https://www.gamedeveloper.com/business/unity-sunsetting-ads-network-and-divesting-publishing-label-supersonic" target="_self" data-discover="true">Unity sunsetting Ads Network and divesting publishing label Supersonic</a></p><p data-testid="content-paragraph"><span data-testid="content-text">"This is really one of those times where I don't know. And you hear behind the scenes, there's tremendous push toward teams using generative AI, there's tremendous pushback from teams and from gamers about using generative AI… And before you ask, we're not using generative AI. So I don't know."</span></p></div><div><h2>About the Author</h2><div data-component="contributor-summary"><p data-testid="contributor-summary-subtitle">Contributing Editor, News, GameDeveloper.com</p><div><p data-testid="content-paragraph"><span data-testid="content-text">Diego Nicolás Argüello is a freelance journalist and critic from Argentina. Video games helped him to learn English, so now he covers them for places like The New York Times, NPR, Rolling Stone, and more. He also runs Into the Spine, a site dedicated to fostering and supporting new writers, and co-hosted Turnabout Breakdown, a podcast about the Ace Attorney series. He’s most likely playing a rhythm game as you read this.</span></p></div></div></div></div><br/><br/>https://www.gamedeveloper.com/business/the-industry-is-in-a-really-horrible-place-say-brenda-and-john-romero]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Review: Marvel Maximum Collection (Switch) - A Decent Nostalgia Cake With A Konami Cherry On Top]]></title>
+            <link>https://www.nintendolife.com/reviews/switch-eshop/marvel-maximum-collection</link>
+            <guid>1475836</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><section>
+<figure><a title="Marvel Maximum Collection Review - Screenshot 1 of 6" href="https://images.nintendolife.com/screenshots/162948/large.jpg"></a><figcaption>Captured on Nintendo Switch (Docked)</figcaption></figure><p>The prize in Limited Run's <a href="https://www.nintendolife.com/games/nintendo-switch/marvel_maximum_collection">Marvel Maximum Collection</a>, unquestionably, is Konami’s 1992 <strong>X-Men: The Arcade Game</strong>. Famously, it holds a Guinness World Record for being the only arcade beat ‘em up to support six simultaneous players. This port allows you to switch between two, four and six player options — in line with its original cabinet variations — and take the game online with rollback net code.</p>
+<p>Superb fun, and elevated considerably through multiplayer, while its character movesets are somewhat limited by modern standards, early '90s Konami were such a tour de force that they could barely put a foot wrong. It offers a thrilling romp through the X-Men universe of yesteryear, featuring a cast of six favourites — Colossus, Cyclops, Wolverine, Storm, Nightcrawler, and Dazzler — fighting against Magneto’s hordes: Sentinels, Juggernaut, Wendigo, and more.</p>
+<figure><a title="Marvel Maximum Collection Review - Screenshot 2 of 6" href="https://images.nintendolife.com/screenshots/162941/large.jpg"></a><figcaption>Captured on Nintendo Switch (Docked)</figcaption></figure>
+<p>The backgrounds are lovingly detailed; the sprites and animation are excellent; the colour scheme is straight out of a '90s comic book page; and the game is full of superb voice samples, grammatically incorrect or otherwise. It does work better in multiplayer, although with six on the screen, the action gets confusing.</p>
+<p>While this is the collection’s high point, and the only title with online functionality, elsewhere there’s plenty to enjoy. The frontend and quality-of-life features are surprisingly well done, with archival materials for each game comprising flyers, manuals, and design documents. Save states are available, as is a rewind function; you can configure the difficulty level of every title; and the CRT screen filters are very granular, allowing fine adjustments that render really well.</p>
+<p>What’s interesting about the Marvel Maximum Collection is how far-flung the titles are, including arcade games from Data East, as well as Super Nintendo, Mega Drive, NES, and Game Boy titles from Software Creations. Many of these come under the LJN label, the best recognised of which is probably the NES's <a href="https://www.nintendolife.com/games/nes/silver_surfer">Silver Surfer</a> (1990), a shoot 'em up made infamous by The Angry Video Game Nerd.</p>
+<figure><a title="Marvel Maximum Collection Review - Screenshot 3 of 6" href="https://images.nintendolife.com/screenshots/162944/large.jpg"></a><figcaption>Captured on Nintendo Switch (Handheld/Undocked)</figcaption></figure>
+<p>And honestly, it’s a game that gets a bad rap. Yes, the hit-box is infuriating, and being unable to discern what constitutes impassable objects is a test, but play enough to learn layouts and win power-ups and orbs, and it’s certainly not the worst of its kind, nor the worst of this collection. It’s also carried by a great soundtrack from Tim Follin.</p>
+<p><a href="https://www.nintendolife.com/games/snes/spider-man_and_the_x-men_in_arcades_revenge">Spider-Man and the X-Men in Arcade’s Revenge</a> (1992) is probably mid-tier in terms of the package offerings, although a lot will depend on your nostalgic mileage. Here you have SNES, Mega Drive, Game Gear, and Game Boy versions. The handheld ones are curious but poor, and the 16-bit versions remain tough, frustrating, and confusing to get through. The Mega Drive release is best, but generally its collision detection, sharing lives between characters, and a final boss with some painful RNG persist across all iterations. Still, if you exploit Gambit’s stage glitch to stockpile lives (or use the rewind function), there’s some enjoyment to be had getting through it.</p>
+<figure><a title="Marvel Maximum Collection Review - Screenshot 4 of 6" href="https://images.nintendolife.com/screenshots/162942/large.jpg"></a><figcaption>Captured on Nintendo Switch (Handheld/Undocked)</figcaption></figure>
+<p><a href="https://www.nintendolife.com/games/snes/spider-man_and_venom_maximum_carnage">Spider-Man Maximum Carnage</a> (1994) is a <a href="https://www.nintendolife.com/games/snes/final_fight">Final Fight</a>-style scrolling beat 'em up for the Super Nintendo and Mega Drive, and it’s pretty mundane, all things considered. It’s notable for being based on an actual crossover comic miniseries, and having a soundtrack by '90s punk band Green Jelly.</p>
+<p>These aspects make it cool in a throwback kind of way, but the action is limited and repetitive. With little variation in its enemies or action, it quickly becomes a slog. The backgrounds are fairly uninspired, and it seems to go on for so long that your interest is likely to wane long before you reach the final boss. A little interesting trivia: Maximum Carnage, with its special red cartridge, was never released in Japan, and with an already fairly limited print run, the original US version of the game can fetch up to $5000 in stores there.</p>
+<p>However lame Maximum Carnage is, though, <a href="https://www.nintendolife.com/games/snes/venomspider-man_separation_anxiety">Venom/Spider-Man: Separation Anxiety</a> — its 1995 follow-up — is somehow slightly worse. It carries over most of the flaws of its predecessor, throws in some really ugly pre-rendered backdrops, and feels incredibly dull. Its monotony is alleviated slightly by allowing you to switch between Spidey and Venom, and it has a ton of great Marvel cameos — but the combat is imprecise and muddled, and too limited in scope to hold your attention. Both the Super Nintendo and Mega Drive versions are present, although the former wins out for better colour breadth.</p>
+<figure><a title="Marvel Maximum Collection Review - Screenshot 5 of 6" href="https://images.nintendolife.com/screenshots/162946/large.jpg"></a><figcaption>Captured on Nintendo Switch (Handheld/Undocked)</figcaption></figure>
+<p>The more unlikely addition to the Maximum Collection is Data East’s 1991 beat 'em up <a href="https://www.nintendolife.com/games/gameboy/captain_america_and_the_avengers">Captain America and The Avengers</a>. Predating Konami’s arcade attempt by a year, it’s far less visually impressive with much smaller sprites, but has an enormous amount of charm to it. The cutscenes look great, and there’s some nice variation between beat-'em-up stages and shooting style action, whether through the skies or underwater.</p>
+<p>There are four characters to choose from, including the eponymous Captain America, Iron Man, Vision, and Hawkeye. On your crusade to defeat ultra-villain Red Skull, you also get to battle some enormous bosses, but sadly the combat is very limited, and as a result, it becomes naturally repetitive.</p>
+<p>Nevertheless, it’s enjoyable to experience, and worth playing through with a credit feed. What’s puzzling most about this particular port, however, is where the multiplayer option is. Not only can you not realise the original’s four-player antics, but it seems like two-player isn’t available, either. Even odder is that you need to pick your character from a pre-boot screen — probably aping the original cabinet’s coin slot fixtures — but once inside the game there doesn’t seem to be any way to switch characters at the continue screen.</p>
+<figure><a title="Marvel Maximum Collection Review - Screenshot 6 of 6" href="https://images.nintendolife.com/screenshots/162943/large.jpg"></a><figcaption>Captured on Nintendo Switch (Docked)</figcaption></figure>
+<p>This heavily leans toward the fact that it — and probably everything else — is little more than a rom collection. While that’s to be expected, it would have been nice for the title to have enjoyed the same attention and augmentations given to Konami’s arcade game. The Mega Drive and NES versions of Captain America and The Avengers are also included, with the latter being a wholly different, pretty engrossing (but considerably tough) platform game, and the former a ropey, inferior arcade port.</p>
+<p>Data East had one more Marvel arcade game — <strong>Avengers in Galactic Storm</strong> (1995) — that didn't make the cut. Being a fighting game, it would have offered some much-needed variety to the package, and its absence is something of a missed opportunity.</p>
+</section><section id="conclusion"><h2>Conclusion</h2>
+<p>The Marvel Maximum Collection does what it sets out to do well, and its bringing together of titles from various developers is what makes it so interesting. With all the console variations, the library on offer is large, and the emulation quality feels tactile and fairly accurate (although diehard enthusiasts will probably find something to gripe about).</p>
+<p>It must be noted, though, that there are no truly 'great' games here, and the quality of offerings ranges from 'good fun' and 'worth sticking with' to 'not much fun', 'frustrating', and 'rather poor'. It’s an admirable attempt to combine some of the more prominent retro Marvel titles into a nostalgia package, and Konami’s arcade game is the icing on the cake. Just keep in mind that nostalgia, and not an assembling of gaming’s finest, is what’s driving this thing.</p></section>
+
+</div></div><br/><br/>https://www.nintendolife.com/reviews/switch-eshop/marvel-maximum-collection]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[‘Buffy The Vampire Slayer’ Changed The World. Now What?]]></title>
+            <link>https://aftermath.site/buffy-the-vampire-slayer-angel-reboot-sarah-michelle-gellar-chloe-zhao/</link>
+            <guid>1475833</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><article>
+      <p>Sarah Michelle Gellar’s revival of <em>Buffy The Vampire Slayer</em>, the show that ushered in her ascent to stardom and created a voracious fandom that still can’t believe it’s over, is dead at Hulu. Nathan and Gita sat down to talk about what the show means to them both, and what, if anything, they would have wanted from a reboot.</p><p><strong>Nathan Grayson:</strong> Hey Gita, seeing as it is Woke Week on Aftermath, and <em>Buffy The Vampire Slayer</em> is obviously the wokest show of all time (created by an abusive white guy and a bunch of vastly more talented writers and actors), now feels like as good of a time as any to reflect on its television-reshaping highs and lows. It’s also been an eventful time in the Buffyverse, with Sarah Michelle Gellar and Chloe Zhao’s sequel series getting canned and Nicholas Brendan, the actor who played Xander, passing. How do you feel about the former? Is there a good way to resurrect Buffy in this day and age, or is it probably for the best that that Hellmouth of worms remains closed for now?</p><p><strong>Gita Jackson:</strong> Here's the thing: when I met my husband, a lot of our early dates were us getting super stoned and watching <em>Star Trek</em> episodes that he thought were particularly good. I tried to do this for him with Buffy, and other than “Band Candy” and the one where Cordelia wishes that Buffy never came to Sunnydale, showing David <em>Buffy </em>episodes was not nearly as much fun. It made me really consider if we, as a culture, are well and truly done with what made <em>Buffy </em>such an incredible TV show as it was airing (and for a decade or so after).</p><p><strong>Nathan:</strong> What do you think that specific thing was? What are we done with that makes the show difficult to return to now?</p><p><strong>Gita: </strong><em>Buffy </em>was made as a response to the television environment it was born into. At that time, shows about teenage girls that took their concerns seriously—and gave them struggles beyond going to prom—were pretty much non-existent. Adding that <em>Buffy </em>was a genre show, which was a hard sell on television at the time, it’s a miracle this thing even got made.</p><p>But that was then. Now, the teen drama television show, pioneered by the WB and UPN, the network that aired <em>Buffy</em>,<em> </em>has taken off. There are a lot more women on television in general, and a lot more stories about teen girls. I would even say in the writing department, <em>Gossip Girl</em> gives <em>Buffy </em>a run for its money in terms of witticisms and dramatic turns. Even science fiction has become a more accessible genre for TV viewers. I mean, <em>Stranger Things</em> combines so many of the elements I just talked about and it was a smash hit for Netflix for like, ten years. <em>Buffy </em>was a show that was intended to change the world, and then it did that. So why did Sarah Michelle Gellar want to do a remake?</p><p><strong>Nathan:</strong> It's a great question, especially given how hesitant she’d been to reprise the role of <em>Buffy </em>previously. And based on the leaked script—which she has admittedly cautioned fans against taking as gospel, given that pilots are subject to change—it seems like what she and others involved arrived at was a pretty hamfisted attempt at modernizing the concept of a Slayer. Tbh I’m just gonna let the script speak for itself here:</p><figure><blockquote data-bluesky-uri="at://did:plc:saoifgy5hqasxd4bhtgmubmj/app.bsky.feed.post/3mhacsc3od22z" data-bluesky-cid="bafyreiaverxn2yr7cftd2jnp73ft62ye3ckt7ktjuldj25wzxpocxdkzqm"><p lang="en">It's like an hour of this</p>— <a href="https://bsky.app/profile/did:plc:saoifgy5hqasxd4bhtgmubmj?ref_src=embed&amp;ref=aftermath.site">Sarah Z (@sarahz.bsky.social)</a> <a href="https://bsky.app/profile/did:plc:saoifgy5hqasxd4bhtgmubmj/post/3mhacsc3od22z?ref_src=embed&amp;ref=aftermath.site">2026-03-17T06:10:17.716Z</a></blockquote></figure><figure><blockquote data-bluesky-uri="at://did:plc:saoifgy5hqasxd4bhtgmubmj/app.bsky.feed.post/3mhad2bi2wc2z" data-bluesky-cid="bafyreidl47vzmbbukjpf4youhhu4bxtved4radc7wcwohmnctqmsspikw4"><p lang="en">There's one character who only exists to be a straw SJW, it's mostly just gratuitous references to 'remember That Thing from the show??', and it's not interesting enough to justify its presence. There are a few small bits I liked but um, wow, we were spared</p>— <a href="https://bsky.app/profile/did:plc:saoifgy5hqasxd4bhtgmubmj?ref_src=embed&amp;ref=aftermath.site">Sarah Z (@sarahz.bsky.social)</a> <a href="https://bsky.app/profile/did:plc:saoifgy5hqasxd4bhtgmubmj/post/3mhad2bi2wc2z?ref_src=embed&amp;ref=aftermath.site">2026-03-17T06:14:45.507Z</a></blockquote></figure><p>The original <em>Buffy </em>paved the way for TV to explore a lot of “woke” themes—before that term had entered mainstream parlance—but this just seems like it’s playing catch up (and embarrassing itself in the process).</p><p><strong>Gita:</strong> Yeah, apparently this script got better after rewrites. But OOF.</p><p>It makes me wonder—what WOULD you want from a <em>Buffy </em>remake? Any new swings at the idea of the Slayer that would make you tune in?</p><p><strong>Nathan:</strong> Honestly, I'm not sure! I think for me, <em>Buffy </em>is a time capsule, and that's part of what I enjoy about it even now. Watching the early seasons feels like going to a high school I could have attended (albeit without all the monsters), sans phones, social media, and other modern concerns. This is the definition of nostalgia, but sometimes it's nice to return to a familiar place that we can no longer access physically.</p><p>I think what I'd be most interested in is a version of what we already got, except NOT piloted by a wormy little tyrant—a version of <em>Angel</em>, for example, that didn't totally fuck over Cordelia and actually gave her character the arc and ending she deserved. But all of that is in the past now. It can't be undone. (That said #justiceforcordelia)</p><p><strong>Gita:</strong> If Cordelia Chase has no defenders, I am dead.</p><p>For the most part I agree with you. It’s okay, I think, for a show to just be over, to let its narrative rest and the wheels finally stop spinning. I love the idea of leaving <em>Buffy </em>in the last moments of the show, overlooking the remains of the Hellmouth, because that means her life as the Slayer is basically over. If there was more show, then she’d have to get back to work again. Let her be…. Close-ish to happy! For once!</p><p>There was exactly one narrative decision I liked in the proposed <em>Buffy </em>show: Buffy is no longer a Slayer and now works as a thoroughly boring insurance agency. She has no notoriety or destiny, and no one knows who she is. That, to me, is the fate she deserves. Why ruin that by giving her a problem to solve?</p><p><strong>Nathan:</strong> Right! On the whole, both <em>Buffy </em>and <em>Angel </em>actually stuck their landings pretty well. Sure, <em>Angel </em>ends on a cliffhanger, but it’s so representative of what that show was about: the main characters facing down impossible odds, understanding that doom almost certainly awaits, and choosing to stand side by side as a massively dysfunctional supernatural family and fight anyway. It’s difficult to imagine a better conclusion (and believe me, the very, very bad comics tried).</p><p>Speaking of: <em>Buffy </em>or <em>Angel</em>?</p><figure><figcaption><span>Image Source: Angel</span></figcaption></figure><p><strong>Gita:</strong> Personally I am an <em>Angel </em>person. Besides the bizarre season where Cordelia turns evil, it’s got a lot less of the typical Whedon Brand Bullshit that I find annoying about <em>Buffy</em>. <em>Buffy </em>has this incredible five season run where four of those five seasons are just phenomenal, and then Whedon starts doing that thing where he just tortures the characters for basically no reason other than he believes that happiness is antithetical to compelling storytelling. Seasons six and seven are the absolute nadir of that storytelling frame: Willow is a drug addict! Xander left at the altar! Buffy has an even more pronounced death wish because she actually died and wants to go back.</p><p>The seasons of <em>Angel </em>that are good are also just much more rewatchable to me. I love a good Los Angeles noir thriller, I love Cordelia, and at the very least Wesley Wyndham Price getting his balls smashed so hard every week that he becomes an angst ridden mess is more funny to me than watching a bunch of young women learn that nothing good will ever happen to them.</p><p>How about you?</p><p><strong>Nathan:</strong> I wasn't sold on Angel after a friend forced me to sit through season one in college, but after that it really finds its footing (at least, until season four, lol) and surpasses Buffy, for sure. The characters grow and evolve in such satisfying ways, and whereas Buffy tried to make Angel a tragic, unattainable love interest, Angel (the show) realizes he’s at his best when everyone is giving him shit. It’s often surprisingly funny, but with a darker tone that makes the humorous moments stand out more. Also, one of its central locations was a karaoke bar, so I’m basically obligated to love it.</p><p>Season five of <em>Angel </em>is my favorite <em>Buffy </em>anything.</p><p>What a comeback after the cauldron of misery that was season four.</p><p><strong>Gita: </strong>Season five of Angel has puppets. What more could you want? But someday, I do hope to take my husband through the cathartic and messy season 5 of Buffy, the series finale that the show truly should have had.</p><p>It's the kind of television writing that you can see in the blueprints of everyone’s favorite shows nowadays. There’s a reason why Whedon was once admired for his craft. The long term, episode by episode plotting is just exquisite.</p><p><strong>Nathan: </strong>If an alien ever gets stranded on earth, and I'm tasked with introducing it to the concept of television, I will show it the puppet episode of Angel.</p><p>And then it will probably be even more confused.</p>
+    </article></div><br/><br/>https://aftermath.site/buffy-the-vampire-slayer-angel-reboot-sarah-michelle-gellar-chloe-zhao/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Slay The Spire 2 Reverts Controversial Nerf As Devs Get More Detailed About What’s Changing And Why]]></title>
+            <link>https://kotaku.com/slay-spire-2-patch-notes-nerf-infinite-combo-silent-2000682645</link>
+            <guid>1475827</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+              
+              <p><span>A brand new beta patch for </span><i><span>Slay the Spire 2</span></i><span> just dropped, and it’s walked back many of the changes introduced in the previous v0.100.0 beta patch that released on March 20. However, as noted in the latest beta build’s patch notes by Mega Crit, <a href="https://kotaku.com/slay-the-spire-2-steam-review-bomb-balance-patch-prepared-doormaker-2000680603">the 15,000+ negative reviews the game received</a> on Steam last week are apparently not to blame for the changes.</span></p>
+
+ <p><span>As stated by developer Mega Crit co-founder Anthony Giovannetti in </span><i><span>Slay the Spire 2’s</span></i> <a href="https://store.steampowered.com/news/app/2868840/view/507357499795439629?l=english"><span>v0.101.0 Beta Patch Notes</span></a><span> on Steam, the in-game feedback tool “has been instrumental in helping guide” the devs’ changes. That being said, the fact that Giovannetti makes such a point of directing players toward the in-game feedback tool, as well as buffing its character limit from 500 words to 8,000, does make me think that last week’s review-bombing fiasco has had some kind of impact.</span></p> <p><span>As far as specific changes go, the main one is that Prepared is back in all its overpowered glory, and the previously implemented Prepare skill that replaced it has been removed. Giovannetti specifically mentions this change, stating that while “the Sly synergies are overall too dominant a strategy,” the Prepared skill is too “integral to the Silent’s core identity” to remove. The changes made to the Necrobinder’s Borrowed Time and Capture Spirit cards have also been reverted.</span></p>
+
+ <blockquote data-width="500" data-dnt="true"> <p lang="en" dir="ltr">Another patch just dropped on the Beta Branch, with lots of balance adjustments from last week's beta patch!</p> <p>Notably: Prepared is back! So you can lower your Shivs 😅 But seriously, the in-game feedback we've received is much appreciated.</p> <p>Patch notes: <a href="https://t.co/gqqIU79ywd">https://t.co/gqqIU79ywd</a></p> <p>— Mega Crit ⚔️ Slay the Spire 2 Out Now! (@MegaCrit) <a href="https://twitter.com/MegaCrit/status/2037355518478700811?ref_src=twsrc%5Etfw">March 27, 2026</a></p></blockquote>  <p><span>If you ask me, the most exciting changes in the new beta patch are to the Ironclad. Cinder now exhausts a card in your hand, as opposed to the top card in your draw pile, which I think is a great tweak, as it simultaneously buffs Headbutt (which puts a card on top of your draw pile), and because Cinder always had a habit of exhausting a card I actually wanted every time I used it. Tremble now exhausting also seems strong, but in my view, that’s because exhaust builds were already the strongest way to play Ironclad.</span></p>
+
+ <p><span>Regent also got a whole bunch of buffs, and honestly, there are too many to go over. Spoils of War drawing two cards seems good, as cycling through your deck more quickly makes the likes of Kingly Kick (which decreases in cost when drawn) and Kingly Punch (which deals 3 more damage when drawn) stronger. Sword Sage also no longer increases Sovereign Blade’s cost from 2 to 3, which seems way better now that you have enough energy to pair it with Conquerer (which makes Sovereign Blade deal double damage) on the same turn. Plus, Parry no longer seems completely terrible, as the upgraded version will now increase the block gained from Sovereign Blade all the way from 10 to 14.</span></p> <p><span>My ride or die, The Defect, was the only character to get absolutely zero buffs in the patch, and instead actually had one of their cards nerfed, as Voltaic has been increased from a 2-cost card to a 3-cost card. Personally, I think this change does kind of make sense, as while Voltaic is only truly strong in specific Lightning orb builds, it is <em>really</em> strong in said builds, and will basically one-shot any boss in the game with enough setup. Also, using Voltaic actually buffs Voltaic at the same time, so maybe limiting players’ opportunity to play two in the same turn is for the best.</span></p>
+
+ <p><span>As far as reactions to the patch itself go, the r/slaythespire subreddit mostly seems positive about it, although </span><a href="https://www.reddit.com/r/slaythespire/comments/1s4smu0/comment/ocpgome/?utm_source=share&amp;utm_medium=web3x&amp;utm_name=web3xcss&amp;utm_term=1&amp;utm_content=share_button"><span>some players are concerned</span></a><span> that the review bombing may have influenced Mega Crit’s decision to revert the majority of the card nerfs. I just hope that if nothing else, people actually start using the in-game feedback tool in the future to, y’know, give feedback. Mega Crit is clearly paying attention to what players think, so the feedback will get to them regardless of the method you use. Maybe we can use the proper method instead of review bombing next time?</span></p>
+                          </div></div><br/><br/>https://kotaku.com/slay-spire-2-patch-notes-nerf-infinite-combo-silent-2000682645]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[New Rumored Xbox Game Pass Tier Includes Only First Party Games]]></title>
+            <link>https://insider-gaming.com/rumored-xbox-game-pass-tier-first-party-games/</link>
+            <guid>1475824</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+        
+<p>A new Xbox Game Pass tier could be on the way. And this tier could be different than anything Microsoft has offered to subscribers of the service before.</p>
+
+
+
+<p>First spotted by Twitter user <a href="https://x.com/redphx/status/2037323830788829692" target="_blank" rel="noreferrer noopener nofollow">redphx</a> and reported by <a href="https://www.windowscentral.com/gaming/xbox/xbox-game-pass-trion-shows-up-with-only-first-party-games-sparking-questions-about-whether-microsoft-is-preparing-a-major-shake-up-to-its-subscription-model" target="_blank" rel="noreferrer noopener nofollow">Windows Central</a>, this new possible tier has the codename “Trion”. What makes it different than others, however, is the games being offered.</p>
+
+
+
+
+
+
+
+<p>According to the data Redphx found, it appears to only include first-party games from Xbox Studios. The games that were found through the data mine include:</p>
+
+
+
+<ul>
+<li>DOOM Eternal</li>
+
+
+
+<li>Dishonored 2</li>
+
+
+
+<li>Fable Anniversary</li>
+
+
+
+<li>Fallout 4</li>
+
+
+
+<li>Fallout 76</li>
+
+
+
+<li>Gears 5</li>
+
+
+
+<li>Halo 5</li>
+
+
+
+<li>Halo Wars 2</li>
+
+
+
+<li>Hellblade</li>
+
+
+
+<li>Ori and the Blind Forest</li>
+
+
+
+<li>State of Decay 2</li>
+
+
+
+<li>The Elder Scrolls Online</li>
+</ul>
+
+
+
+<h2 id="h-new-xbox-game-pass-tiers-seem-likely">New Xbox Game Pass Tiers Seem Likely</h2>
+
+
+
+<p>Hearing about new tiers for Xbox Game Pass shouldn’t be much of a surprise. Earlier this week, rumors started to circulate that Xbox was <a href="https://insider-gaming.com/xbox-game-pass-might-add-lower-priced-tiers-its-claimed/" target="_blank" rel="noreferrer noopener">considering re-introducing</a> lower-priced options for players. There are also rumors about an <a href="https://insider-gaming.com/xbox-cloud-gaming-ad-supported-tier-reportedly-releasing-in-2026/" target="_blank" rel="noreferrer noopener">ad-based tier</a> being added for Xbox Cloud Gaming. </p>
+
+
+
+
+
+
+
+<p>Under new CEO Asha Sharma, the goal for Xbox is to make “future consoles and products like Game Pass more enticing” to more players. How Xbox actually achieves this, however, remains to be seen.</p>
+
+
+
+<p>As with any rumor, until it’s officially announced or verified by Insider Gaming, please take everything with a grain of salt. Still, it seems more likely than not that some major changes are coming to Xbox in the near not-so-distant future. The question then becomes, will it be enough to turn things around?</p>
+
+
+
+<p>What do you think of more tier options for Xbox Game Pass? Leave your thoughts in the comments below, and in this official&nbsp;<a href="https://discord.com/invite/vwj7zdWxaW" target="_blank" rel="noreferrer noopener">Insider Gaming Discord</a>.</p>
+
+
+
+<hr>
+
+
+
+<p>In other news, read about Sony&nbsp;<a href="https://insider-gaming.com/sony-announces-major-ps5-playstation-portal-console-price-increases/" target="_blank" rel="noreferrer noopener">announcing major price increases</a>&nbsp;for its PlayStation hardware. And for even more Insider Gaming delivered directly to your inbox,&nbsp;<a href="https://insider-gaming.com/subscribe" target="_blank" rel="noreferrer noopener">sign up for our newsletter</a>.</p>
+
+
+        <div>
+                  <p>
+                    Mike has been covering the gaming industry since 2012, and has reported on some of the largest events in the industry while also working as an investigative reporter. Outside of…                  </p>
+                  <p><a href="https://insider-gaming.com/author/mike-straw/">
+                    More from Mike Straw                  </a>
+                </p></div>
+            
+
+    <div id="ig-app-cta">
+          <p><i></i> MOBILE APP</p>
+          <h2>Level Up Your Gaming News</h2>
+          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
+          
+          <p><i></i> Available on iOS &amp; Android</p>
+        </div>
+
+    
+    
+    </div></div><br/><br/>https://insider-gaming.com/rumored-xbox-game-pass-tier-first-party-games/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[Asha Sharma is Personally Leading Xbox’s Rebrand, Says She Killed the “This Is an Xbox” Campaign Because “It Didn’t Feel Like Xbox”]]></title>
             <link>https://wccftech.com/asha-sharma-killed-this-is-an-xbox-campaign-is-personally-leading-xbox-rebrand/</link>
@@ -465,7 +1151,7 @@
 
 <p>We're loving the look of this one. It's not often you see older protagonists in, well, <em>any</em> kind of media, so it's a lovely change of pace. We're just hoping the gameplay can match up to the presentation.</p>
 <p>We'll update you on Forever Ago, including its eventual release date, as soon as we hear more.</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:83994 @ 1774636127 -->
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:83994 @ 1774639747 -->
 <p><em>What do you make of this one, folks? Will you be picking it up? Share your thoughts with a comment in the usual place.</em></p></section></article><div><p>Nintendo Life’s resident horror fanatic, when he’s not knee-deep in Resident Evil and Silent Hill lore, Ollie likes to dive into a good horror book while nursing a lovely cup of tea. He also enjoys long walks and listens to everything from TOOL to Chuck Berry.</p><ul><li><a href="https://www.nintendolife.com/authors/Olliemar28"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/ollie-nl.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Olliemar28');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
 </div></div></div><br/><br/>https://www.nintendolife.com/news/2026/03/forever-ago-looks-about-ready-to-break-your-heart-on-switch-2]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
@@ -632,825 +1318,6 @@
           
                       
                   </div></div><br/><br/>https://arstechnica.com/gadgets/2026/03/sony-is-raising-playstation-5-prices-again-this-time-by-between-100-and-150/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Project Songbird Review – The horrors of writer’s block]]></title>
-            <link>https://www.thesixthaxis.com/2026/03/27/project-songbird-review-the-horrors-of-writers-block/</link>
-            <guid>1475668</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="gp-content-wrapper">
-
-	<article itemscope="" itemtype="http://schema.org/Article">
-
-		<meta itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemscope="" content="https://www.thesixthaxis.com/2026/03/27/project-songbird-review-the-horrors-of-writers-block/">
-		<meta itemprop="headline" content="Project Songbird Review – The horrors of writer’s block">			
-		
-		<meta itemprop="author" content="Steve C">			
-		<meta itemprop="datePublished" content="2026-03-27">
-		<meta itemprop="dateModified" content="2026-03-27">
-		
-		
-			
-		
-								
-		
-			
-
-																		
-		<div itemprop="text">
-			
-			<p>Sometimes you can feel the passion and love that an indie developer has poured into their game. It’s rarely a tangible thing, although art-style and narrative often play a part, and instead comes through as a sense that the game is the medium for something heartfelt and meaningful – raising the experience into art as well as entertainment. Project Songbird is very much one of these titles. From the direct personal messages to the player at the game’s opening to the meta-narrative of a designer struggling to bring their vision to life, Project Songbird is a beautifully meditative creation that is also an excellent fusion of walking simulator and survival horror.</p>
-<p><iframe title="Project Songbird | Launch Trailer" width="780" height="439" src="https://www.youtube.com/embed/zbHnIA6UKtM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
-<p>When you first boot up the game a message displays from the developer outlining the accessibility options and offering content warnings for anyone who may require them. I appreciate the way this is handled as it provides the necessary safety net whilst also leaving the game’s themes a mystery for those who want to keep it that way. It also immediately creates a sense of direct engagement between developer and player that is returned to at pivotal moments of the story.</p>
-
-
-<p>The backstory of Project Songbird is one of creative struggle and the ongoing effects of grief and loss. You play as Dakota, a musician trying to write new material after a tragic event and finding that their output has understandably changed from the upbeat pop that made their name. You begin by taking a call from their manager who is concerned that the record label will not like the new direction and offering a creative escape in an isolated cabin in the Appalachians. The game deliberately flirts with the slasher potential of this remote setting, but instead goes down a more interesting and psychological avenue in the shift to horror.</p>
-
-
-<p>The cabin and surrounding forest are beautifully realised, and the default choice of a more cinematic aspect ratio gives the game a different feel. Similarly, the more nightmarish environments that Dakota find themselves in later in the game are well designed and levels, even when designed as mazes, make sense and ensure that navigation does not become frustrating.</p>
-<p>As music is such a central part of the story, the audio design is particularly important and this is an absolute highlight of Project Songbird. Incidental music is perfectly judged, there is a considerable collection of licensed tracks that Dakota can play at their record player, and the song that Dakota returns to throughout as a leitmotif is haunting both in thematic and musical terms. On top of this, the voice acting is superb and the main performance of Valerie Rose Lohman is one of the best you’ll find in the medium. The supporting cast are good too, so the game’s cinematic aspirations are matched by the delivery.</p>
-
-<p>A fusion of walking simulator and survival horror may sound like an odd combination, but the narrative framing makes it work well in practice. Exploring the cabin and it’s surroundings is generally risk-free and involves a series of well designed puzzles and item manipulation. As the game develops, however, you’ll find yourself transported into uncanny liminal spaces that reflect parts of Dakota’s fears and memories and these are far more dangerous locations. Items that you find in the ‘real’ world are carried over, so the axe that you use to chop firewood becomes your first weapon, and so on.</p>
-<p>There’s a short scene in the accompanying movie where Conner (the game’s developer) meets a friend for a coffee and struggles with the suggestion that combat needs to be added to the game in order for it retain player’s interest. This meta-commentary adds to the discomfort of these sections, and it is often better to avoid enemies than try to directly engage with them – at least in the first playthrough. Enemies are divided into two main types: lumbering tree-like monsters that hit hard and terrifying demonic entities that move whenever you take your eyes off them. The sound design for the latter takes what is a fairly overdone game mechanic into a truly horrific experience, especially in puzzles where you have to interact with a piano whilst they are hunting you down. I had to have the key layout on a second screen as I can never remember it!</p>
-
-<p>One thing to know about the game’s story is that it covers some dark issues, with themes of loss and suicide being paramount. These are dealt with both directly and through their effect on the notions of creativity and art. I felt they were handled with admirable sensitivity but obviously, such issues are inherently subjective and players need to consider their own situation and potential reactions.</p>
-
-
-<!-- CONTENT END 1 -->
-
-			
-		</div>
-
-		
-				
-	<div id="gp-summary">
-		<p>Summary</p><p>
-		Project Songbird is one of the most interesting and well designed indie horror games of the year so far and shows the sheer range of the genre. Unlike the bombastic Resident Evil Requiem, Project Songbird is not afraid to be more contemplative and intimate in its portrayal of horror and trauma, the narrative carrying you through its puzzles and moments of real peril. Highly recommended for fans of horror and also anybody who appreciates game-making as an artform with a message to convey.	</p></div>
-		
-
-	<div id="gp-review-results">
-
-									<div id="gp-good-points">
-						<p>Good</p>
-						<ul>
-														
-								<li><i></i>Impeccable audio design</li>
-														
-								<li><i></i>Superb voice acting</li>
-														
-								<li><i></i>Gripping narrative</li>
-														
-								<li><i></i>Interesting puzzles</li>
-													</ul>
-					</div>
-				
-									<div id="gp-bad-points">
-						<p>Bad</p>
-						<ul>
-														
-								<li><i></i>Combat can be frustrating</li>
-													</ul>
-					</div>
-							
-			</div>
-
-					
-	
-						
-			
-			
-
-			
-					
-		
-					
- 
-	
-	
-				
-	</article>
-
-</div></div><br/><br/>https://www.thesixthaxis.com/2026/03/27/project-songbird-review-the-horrors-of-writers-block/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Analyst Argues “It Wouldn’t Be a Surprise” to See Microsoft and Nintnedo Raise Hardware Prices Following PS5 Price Increase]]></title>
-            <link>https://wccftech.com/analyst-argues-it-wouldnt-be-a-surprise-to-see-microsoft-and-nintnedo-raise-hardware-prices-following-ps5-price-increase/</link>
-            <guid>1475662</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			
-			<p>Earlier today, <strong>PlayStation</strong> confirmed that it would be <a href="https://wccftech.com/ps5-ps5-pro-ps-portal-price-increase-confirmed/">increasing the price of the <strong>PS5, PS5 Pro, </strong>and <strong>PlayStation Portal</strong>,</a> after a <a href="https://wccftech.com/ps5-ps5-pro-ps-portal-console-might-get-more-expensive/">leak from a French retailer</a> tipped off that the change would happen just yesterday. Now, according to Ampere Analysis analyst <strong>Piers Harding-Rolls</strong>, hardware increases in games are not done there. We should expect to see increases from <strong>Microsoft</strong> and <strong>Nintendo</strong> in the future as well, which would be the first <strong>Nintendo Switch 2</strong> price increase and <a href="https://wccftech.com/xbox-series-x-s-prices-will-reportedly-go-up-again-in-us-microsoft/">the third <strong>Xbox Series X/S</strong> price increase</a>.</p>
-
-
-
-<p>Speaking to <a href="https://www.eurogamer.net/it-wouldnt-be-a-surprise-if-microsoft-and-nintendo-followed-suit-analyst-reacts-to-playstations-shock-price-rise-as-industry-braces-for-more-uncertainty">Eurogamer</a>, Harding-Rolls, while reacting to the price increases this morning, said, "<em>The supply chain shock of the elongated increase in memory and storage prices – both essential for console hardware – means that there is some inevitability to the PlayStation hardware price increases announced by Sony today. It is likely that Sony had price protections for its components for a set period and this may well have come to an end</em>."</p>
-
-
-
-<p>"<em>With no sign of prices easing largely due to demand for AI infrastructure, Sony will have made the move to protect its slim hardware margins. <strong>It wouldn’t be a surprise if Microsoft and Nintendo followed suit in the not-too-distant future.</strong></em>" </p>
-
-
-
-<p>On top of the issues Harding-Rolls identifies as coming from growth in AI infrastructure, which has led to the <strong><a href="https://wccftech.com/memory-crisis-impacting-routers-now-7x-more-expensive/">memory crisis</a></strong> the entire tech world is facing, he also points out that things are only set to get worse, as a new wave of inflation is expected due to the conflict in the Middle East. He also adds that we could see <strong>Sony</strong> raise the price of its consoles once again.</p>
-
-
-
-<p>"<em>A new wave of inflation is expected from the war in the Middle East, and this will compound the effect of the component price increases</em>. <em>This may have had an influence on the scale of these price increases – the standard PS5 will rise by $100 or 18 percent in the US with a similar increase in the UK and Europe. Aside from a direct impact on hardware companies, I think this will cause some general industry concern about what the broader impact will be on market activity</em>."</p>
-
-
-
-<p>Harding-Rolls continues by pointing out that this will, of course, inevitably impact software sales. "<em>The console and the AAA PC gaming markets rely on hardware investment to bring in new active players and drive market momentum, so if this weakens it might soften demand for new games</em>." But with big games like <strong>Grand Theft Auto VI</strong> on the horizon, and the fact that the Nintendo Switch 2 is, at the time of this writing, not yet a year old, raising hardware prices is an awkward proposition for everyone.</p>
-
-
-
-<p>"<em>Both companies will want to take full advantage of the positive impact of this system seller release</em>," Harding-Rolls said, referring to PlayStation and Microsoft. It's also worth noting that a price increase for the Switch 2 has been <a href="https://wccftech.com/research-firm-predicts-nintendo-switch-2-global-price-hike-2026/">a constant fear</a> of players who were unable to grab the console at launch since the Switch 2 arrived, and that fear continues <a href="https://wccftech.com/nintendo-president-doesnt-want-to-be-overly-influenced-by-rising-ram-costs-nintendo-switch-2-price-to-remain-stable-for-now/">despite reassurances from Nintendo</a>.</p>
-
-
-
-<p>Something else worth considering, as Chris Dring of The Game Business points out, is that we're nearly six years into this generation of consoles, and not everyone's launch PS5 or Xbox Series device will keep chugging along for much longer.</p>
-
-
-
-<p>"<em>Some consoles break down and need replacing five years into a generation, will people be able to afford that? Beyond PlayStation, Nintendo is still at the start of its Switch 2 journey. It still wants to drive customers to its platform. How does it react to these costs?</em>"</p>
-
-
-
-<p>No other console generation has seen the price of consoles <strong>increase</strong> the deeper we get into the generation. And as everyone is currently going through their own financial struggles and facing the same economic pressures that Sony claims made it necessary to increase the price of its consoles, it's arguable that no one save for the very rich will be able to keep enjoying the latest-and-greatest games and tech on consoles and PCs.</p>
-
-
-
-
-
-			
-			
-						<p data-nosnippet="">
-				<strong>About the author: </strong> David has been writing about videogames, technology, and culture since 2020, with a focus on reporting daily news across multiple publications, including GameDaily.Biz, GameSkinny, and PlayStation Universe before joining Wccftech in 2025. Besides being up-to-date on the industry's movements, he loves interviewing developers, reviewing games, and writing intricate essays about the symbolism and layered meanings to be found in rich narratives as he's done for publications like GamesIndustry.Biz, LostInCult, and others. Outside of games he loves movies, music, theatre, his hometown, and his family, though not necessarily in that order.			</p>
-			
-			<p data-nosnippet="">
-				Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.
-			</p>
-			
-
-
-		</div></div><br/><br/>https://wccftech.com/analyst-argues-it-wouldnt-be-a-surprise-to-see-microsoft-and-nintnedo-raise-hardware-prices-following-ps5-price-increase/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Crusader Kings 3 update 1.19, out now in beta, delivers the ledger and an accolade rework - it also stops dead people wearing straw cloaks]]></title>
-            <link>https://www.rockpapershotgun.com/crusader-kings-3-update-119-out-now-in-beta-delivers-the-ledger-and-an-accolade-rework-it-also-stops-dead-people-wearing-straw-cloaks</link>
-            <guid>1475659</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-component="article-header">
-  
-
-    <div id="main-content">
-  
-
-        <p>In other news, "immortals are now immune to aging traits"</p>
-
-    </div>
-
-
-  <p>
-
-  <figure>
-        <picture>
-        <source srcset="https://assetsio.gnwcdn.com/crusader-kings-3-ledger-update-out-in-beta-01.jpg?width=380&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/crusader-kings-3-ledger-update-out-in-beta-01.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/crusader-kings-3-ledger-update-out-in-beta-01.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/crusader-kings-3-ledger-update-out-in-beta-01.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/crusader-kings-3-ledger-update-out-in-beta-01.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/crusader-kings-3-ledger-update-out-in-beta-01.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/crusader-kings-3-ledger-update-out-in-beta-01.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/crusader-kings-3-ledger-update-out-in-beta-01.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/crusader-kings-3-ledger-update-out-in-beta-01.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>Paradox Interactive</cite></span>
-        </figcaption>
-
-  </figure>
-  </p>
-
-    
-
-</div><div data-component="article-content">
-
-
-            <p><a href="https://www.rockpapershotgun.com/games/crusader-kings-iii">Crusader Kings 3</a>'s latest "Realm Maintenance" update, all about improving and adding to the base game's established systems, is out now in beta form. It includes a big ledger full of spreadsheets you can use to keep track of the world, a rework of accolades, and makes the lives of older rulers even more miserable.</p>
-<!--more-->
-<p>"We had originally planned to release this beta on Monday, March 30th, but decided to open it earlier to gather more feedback over the weekend," Paradox wrote in <a href="https://store.steampowered.com/news/app/1158310/view/497224400633856115?l=english">their announcement</a> of update 1.19's beta rollout. "As a result, localization for non-English languages is still incomplete in some areas. Updated localization files will be released on Monday as originally planned."</p>
-<p>So, what's in it? Well, for one, <a href="https://www.rockpapershotgun.com/crusader-kings-3-devs-paradox-are-working-with-a-mystery-modder-on-spreadsheeting-up-the-inbred-monarch-grind">the ledger</a>. Developed as part of a collaboration between modder Agami and Paradox, it's a big book of spreadsheets designed to save you having to click all over the world if you want to see the particulars of what's going on in the wider world of medieval rulers. For example, it'll tell you in easily accessible fashion which wars have been running the longest, or which of your fellow rulers is the best at not pissing their cash away on endless feasts.</p>
-<p>That addition comes alongside some wider interface tweaks, and the addition of "personal character-bound Stories" to the situations tab. The goal of the latter is to make chains related to special events that can happen to your ruler - such as them adopting a pet or realising they have a doppelganger - more visible amid the litany of happenings always clamouring for your attention.</p><p>Speaking of things clamouring for your character's attention, if they're getting on in years, this update adds some new "age-related ailments" they might get depending on the likes of their lifestyle and genetics. Faltering hearts, fragile bones, clouded eyes, and a withering mind - all are lurking to jump out at the elderly ruler, in addition to a reworked version of the usual infirm status.</p>
-<p>Also reworked with this update is CK3's accolade system. It's been "streamlined" via the ditching of the "old primary and secondary accolade attribute structure". Instead, you'll start with a single attribute and unlock additional ones from there, with these now opening up based on what your ruler's achieved, not just the specific knight.</p>
-<p>Beyond those, here are some of the funnier patch notes:</p>
-<ul>
-<li>The Pope will no longer refer to himself in the third person while granting himself a claim</li>
-<li>Characters can no longer become their own Tax Collector</li>
-<li>Fixed portraits in duels sticking out of the window</li>
-<li>Made Chinese legwear trigger correctly on characters</li>
-<li>Removed straw cloak from being used by dead characters</li>
-<li>Fixed naked characters incorrectly wearing helmets or other headgear</li>
-<li>Immortals are now immune to aging traits</li>
-</ul>
-<p>Instructions on opting into update 1.19's Steam beta can be found near the beginning of Paradox's announcement post.</p>
-
-        </div></div><br/><br/>https://www.rockpapershotgun.com/crusader-kings-3-update-119-out-now-in-beta-delivers-the-ledger-and-an-accolade-rework-it-also-stops-dead-people-wearing-straw-cloaks]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Pokémon Champions Has One Major Hurdle To Overcome]]></title>
-            <link>https://kotaku.com/pokemon-champions-preview-pax-east-switch-mobile-2000682690</link>
-            <guid>1475653</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-              
-              <p><i><span>Pokémon Champions </span></i><span>is being pegged as an approachable platform for those who have never gotten into competitive Pokémon battling. As a decades-long </span><i><span>Pokémon </span></i><span>veteran, competitive play has always eluded me. It’s not even a matter of the systems being overwhelming. I know how type matchups, stats, EVs, IVs, and all that other shit work. But my attachment to </span><i><span>Pokémon </span></i><span>is so fundamentally emotional in nature that, when you strip away a lot of the flavor and adventure, the core mechanics and number crunching that remain all feel a little too impersonal for my tastes. I was curious to see if </span><i><span>Champions </span></i><span>could do anything to alleviate that when I checked it out for a bit at PAX East this week.</span></p>
-
- <p><span>So what does </span><i><span>Champions </span></i><span>have to offer a player like me? I’m not quite sure it has anything yet. </span><i><span>Champions</span></i><span> takes out a lot of the RPG complexity and team building to get you right into the turn-based action. This feels more like a platform than a game in its own right, and for those who are already heavily invested in competitive play, I can see the appeal. You can build teams from either your </span><i><span>Pokémon Home </span></i><span>collection, or by recruiting monsters through </span><i><span>Champions</span></i><span>’ internal systems that have their own in-game currency and time-gated hoops to jump through. That team-building loop is what might keep someone playing the game outside of just booting it up shortly before their next tournament, but it all feels a little clinical.</span></p> <p><span>For me, Pokémon battles were always a means to an end, but I also recognize that all my sentimentality toward the series makes me an outlier. I don’t scour the lands searching for every Pokémon to fill my Dex as I journey through the world; I’m less concerned about minmaxxing stats than I am creating little mini-narratives with specific Pokémon that I catch throughout a playthrough. It’s why anyone telling me that a Pokémon I like isn’t competitively viable signals to me that we are fundamentally incompatible people.&nbsp;</span></p>
-
-  <p><span>That’s where </span><i><span>Champions</span></i><span> grinds against years of my own attachment. I want to remember where I caught a Pokémon, what stage they were at when I found them, and create memories of us overcoming challenges together. </span><i><span>Champions</span></i><span> is </span><i><span>Pokémon </span></i><span>battling in its purest, rawest form, and that means that it’s all about the numbers. Watching folks who have dedicated their lives to understanding every little nuance of a complex strategy is a treat every time I do it. But I find it so hard to detach myself from the personal element that for me, the act of picking a team solely based on the members’ competitive viability would feel entirely at odds with the things I care about in this series. I have my favorites, and I want them on my team even if they’re considered “not competitively viable.”</span></p>
-
- <p><span>What I’m hoping to find out when </span><i><span>Champions </span></i><span>launches on April 8 is that I can dig into something deeper with Pokémon that I like, rather than just ones who are at the top of tier lists and meta rankings. I’m open to that possibility, and perhaps </span><i><span>Champions</span></i><span> can be a stepping stone for me into unlocking a new layer of appreciation and imagined camaraderie with my favorite monsters. But after playing a few rounds of it, I’m also very open to the idea that this is just not a game for people who play </span><i><span>Pokémon </span></i><span>like I do, and that’s probably okay.</span></p>
-                          </div></div><br/><br/>https://kotaku.com/pokemon-champions-preview-pax-east-switch-mobile-2000682690]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Terminal War Is A New Shooter Inspired By Canceled The Last of Us Factions 2]]></title>
-            <link>https://insider-gaming.com/terminal-war-is-a-new-shooter-inspired-by-canceled-the-last-of-us-factions-2/</link>
-            <guid>1475650</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-        
-<p>The Last of Us Factions 2 was supposed to be the big follow-up to the hit multiplayer mode from Part 1. Naughty Dog had other ideas and nixed those plans, canceling the game and breaking hearts in the process. This is why Albatross Interactive is looking to revive the concept in its own way with a fresh name—Terminal War.</p>
-
-
-
-<p>Everyone loves <a href="https://insider-gaming.com/tag/the-last-of-us/" id="153" target="_blank" rel="noreferrer noopener">The Last of Us</a>, and it’s rightly celebrated as one of the greatest games ever made, but one aspect that probably doesn’t get the love it deserves is the Factions multiplayer mode. It ignores typical multiplayer conventions and takes you on a potential 84-match journey, as you play to keep your people alive.</p>
-
-
-
-<p>A new <a href="https://insider-gaming.com/the-last-of-us-multiplayer-game-officially-cancelled/" target="_blank" rel="noreferrer noopener">The Last of Us multiplayer game was officially canceled</a>, but Terminal War is here to keep the dream alive.</p>
-
-
-
-
-
-
-
-<h2 id="h-terminal-war-gameplay-teaser-shows-the-last-of-us-factions-homage">Terminal War Gameplay Teaser Shows The Last of Us Factions Homage</h2>
-
-
-
-<figure><figcaption>Credit to Naughty Dog</figcaption></figure>
-
-
-
-<p><a href="https://insider-gaming.com/tag/terminal-war/" id="3759" target="_blank" rel="noreferrer noopener">Terminal War</a> sticks to the original 4v4 Factions gameplay concept: Harsh and gritty combat that forces you to keep one eye on your resources as well as around every corner. </p>
-
-
-
-<p>Alongside a new unofficial gameplay teaser, developer Albatross Interactive declared:</p>
-
-
-
-<blockquote>
-<p>‘They [Naughty Dog] cancelled The Last of Us Factions 2. So we’re building it our version. We’re indie &amp; entirely self funded. 4v4. Limited ammo. Brutal executions.’</p>
-</blockquote>
-
-
-
-<p>The X post has already had over half a million views, and the gameplay footage looks meaty and faithful to Factions’ gloriously violent melee kills.</p>
-
-
-
-<p>If you need to seek out a ‘tourist’ or two, Terminal War might scratch an itch that might’ve lingered forever. The new 4v4 shooter is coming to early access very soon on <a href="https://store.steampowered.com/app/3788160/Terminal_War/" target="_blank" rel="noreferrer noopener">Steam</a> and already looks to have a very healthy following.</p>
-
-
-
-<figure><div><blockquote data-width="500" data-dnt="true"><div lang="en" dir="ltr"><p>They cancelled The Last of Us Factions 2.</p><p>So we're building it our version. We're indie &amp; entirely self funded.</p><p>4v4. Limited ammo. Brutal executions.</p><p>This is Terminal War. Unofficial gameplay teaser. <a href="https://t.co/eE6ee8GXYh">pic.twitter.com/eE6ee8GXYh</a></p></div>— TERMINAL WAR (@TerminalWarGame) <a href="https://twitter.com/TerminalWarGame/status/2036933386476958198?ref_src=twsrc%5Etfw">March 25, 2026</a></blockquote></div></figure>
-
-
-
-<p>Do you like the look of Terminal War? Are you still devastated that The Last of Us Factions 2 never got made? Share your comments via the <a href="https://discord.com/channels/1433093283558719611/1433112738133180426" target="_blank" rel="noreferrer noopener">Insider Gaming Discord</a>.</p>
-
-
-
-<hr>
-
-
-
-<p>For more gaming news, read about <a href="https://insider-gaming.com/pokemons-most-iconic-myth-has-been-recreated-in-pokemon-pokopia/" target="_blank" rel="noreferrer noopener">Pokémon’s most iconic myth being recreated in Pokémon Pokopia</a> and the rumor that the <a href="https://insider-gaming.com/next-3d-mario-game-not-coming-until-2027-its-claimed/" target="_blank" rel="noreferrer noopener">next 3D Mario game is not coming until 2027</a>.</p>
-
-
-        
-            
-
-    <div id="ig-app-cta">
-          <p><i></i> MOBILE APP</p>
-          <h2>Level Up Your Gaming News</h2>
-          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
-          
-          <p><i></i> Available on iOS &amp; Android</p>
-        </div>
-
-    
-    
-    </div></div><br/><br/>https://insider-gaming.com/terminal-war-is-a-new-shooter-inspired-by-canceled-the-last-of-us-factions-2/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Magic's TMNT Draft Night Box Is Discounted For Amazon's Big Spring Sale]]></title>
-            <link>https://www.ign.com/articles/magics-tmnt-draft-night-box-is-discounted-for-amazons-big-spring-sale</link>
-            <guid>1475647</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><section data-cy="article-content" data-autopogo="true"><p data-cy="paragraph">Magic: The Gathering's latest set, featuring the <a data-cy="styled-link" href="https://www.ign.com/articles/magic-the-gathering-teenage-mutant-ninja-turtles-where-to-buy-updated-new-2026">Teenage Mutant Ninja Turtles</a>, is out in the wild and ready to rip. Amazon has plenty of <a data-cy="styled-link" href="https://www.ign.com/articles/amazon-has-a-bunch-of-new-magic-the-gathering-deals-as-part-of-its-spring-sale">Magic: The Gathering deals</a> right now as part of its <a data-cy="styled-link" href="https://www.ign.com/articles/amazon-spring-sale-2026-best-deals">Big Spring Sale</a>, including the TMNT Draft Night box for about $40 off the regular price. </p><p data-cy="paragraph">This self-contained kit is designed for four players to set up their own head-to-head Magic draft from the included booster packs and is a great way to learn to play with your friends in a low-stakes environment.</p><h2 data-cy="title2">Save 31% on Magic: The Gathering's TMNT Draft Night Box at Amazon</h2><div id="237087"><div><p><span data-cy="productcard-view-trigger"><div id="237087" data-cy="solo-product-card"><p data-cy="solo-product-name"><h3>Teenage Mutant Ninja Turtles - Draft Night Box</h3></p></div></span></p></div><p data-cy="paragraph">The TMNT Draft Night Box is currently available for just over $80, nearly $40 off its regular price. This self-contained kit is perfect for a four-player draft. Each box contains 12 Booster Packs, 90 Lands cards, and one Collector Booster, which you can either rip yourself or give to the winner.</p><p data-cy="paragraph">The Teenage Mutant Ninja Turtles aren't the only crossover set to come to Magic: The Gathering recently, with massive properties like <a data-cy="styled-link" href="https://www.ign.com/articles/magic-the-gatherings-final-fantasy-expansion-made-200-million-in-just-one-day">Final Fantasy</a>, <a data-cy="styled-link" href="https://www.ign.com/articles/spider-man-magic-the-gathering-crossover-green-goblin-card-reveal">Spider-Man</a>, <a data-cy="styled-link" href="https://www.ign.com/articles/avatar-the-last-airbender-magic-the-gathering-beginner-box-card-reveal-spoilers">Avatar: The Last Airbender</a>, and many more, all getting unique sets over the past couple of years.</p><p data-cy="paragraph">2026 is shaping up to be another busy year for Magic: The Gathering, with Marvel Super Heroes, The Hobbit, and Star Trek all scheduled to release before the year wraps up. Check out the <a data-cy="styled-link" href="https://www.ign.com/articles/magic-the-gathering-full-release-schedule-updated-2026">full schedule</a> for upcoming release dates and where you can preorder each set.</p><p data-cy="paragraph"><em>Matthew Adler has written for IGN since 2019 covering all things gaming, tech, tabletop games, and more. You can follow him on the site formerly known as Twitter </em><a href="https://twitter.com/matthewadler" data-cy="styled-link" target="_blank" rel="noopener noreferrer"><em>@MatthewAdler</em></a><em> and watch him stream on </em><a href="https://www.twitch.tv/matthewadler" data-cy="styled-link" target="_blank" rel="noopener noreferrer"><em>Twitch</em></a><em>.</em></p></div></section></div><br/><br/>https://www.ign.com/articles/magics-tmnt-draft-night-box-is-discounted-for-amazons-big-spring-sale]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Rumour: Nintendo's 2026 Plans Include New Star Fox & Zelda Remake, No 3D Mario]]></title>
-            <link>https://www.nintendolife.com/news/2026/03/rumour-nintendos-2026-plans-include-new-star-fox-and-zelda-remake-no-3d-mario</link>
-            <guid>1475638</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><section>
-
-<p>Nintendo is having a pretty busy 2026, with at least one game (sometimes two) coming out every single month, right up until May's <a href="https://www.nintendolife.com/games/nintendo-switch-2/yoshi-and-the-mysterious-book">Yoshi and the Mysterious Book</a>. Beyond that, we don't have much of an idea of what the Big N has up its sleeve.</p>
-<p>However, NatetheHate reports that the company has a pretty big, if surprising, year planned, "in a good way". In this week's episode of his podcast, Nate discusses a number of key reveals that he's heard about, including a brand new <strong>Star Fox</strong> game, a new 3D Mario in 2027, <em>and</em> a remake of one of the most-beloved Zelda games ever.</p>
-<p>Obviously, everything we say here should be taken with a pinch of salt, and until we hear more, these are all rumours. But who doesn't love a bit of Friday afternoon excitement, eh?</p>
-<p>Let's start off with the most surprising reveal, which is that Star Fox is making a comeback (<a href="https://www.videogameschronicle.com/news/sources-nintendo-is-planning-a-new-star-fox-and-a-major-zelda-remake-this-year-but-no-3d-mario/">VGC also corroborates this</a>) with a "brand new" game this summer on Switch 2. "I've been told this is a classic-style Star Fox game," Nate says; the visuals are "very good, very satisfying" and there's apparently going to be online multiplayer.</p>
-<figure data-uuid="62813536f9c7b"><a title="Star Fox Zero" href="https://images.nintendolife.com/62813536f9c7b/star-fox-zero.large.jpg"></a><figcaption>Star Fox Zero was the last mainline game, while the four also appeared in Starlink: Battle for Atlas on Switch — <em><span></span> Image: Nintendo</em></figcaption></figure>
-<p>Given <a href="https://www.nintendolife.com/news/2026/03/fox-mccloud-blasts-into-the-super-mario-galaxy-movie">yesterday's big Mario Galaxy movie news</a>, this actually makes a lot of sense. The game will apparently be revealed before May, but not in a Direct, as Nate has heard there isn't a general Nintendo Direct planned until June.</p>
-<p>In more disappointing news, Nintendo is apparently holding onto a new 3D Mario game until 2027, according to Nate's sources. That means it'll have been almost a decade since the last new 3D Mario, with <a href="https://www.nintendolife.com/games/nintendo-switch/super_mario_odyssey">Super Mario Odyssey</a>.</p>
-<p>In its place, however, is a big ol' celebration for The Legend of Zelda's 40th anniversary in the form of an <a href="https://www.nintendolife.com/games/n64/legend_of_zelda_ocarina_of_time">Ocarina of Time</a> remake.</p>
-<figure data-uuid="01ae94a70760e"><a title="Zelda: Ocarina of Time" href="https://images.nintendolife.com/01ae94a70760e/zelda-ocarina-of-time.large.jpg"></a><figcaption>Shocking, no? — <em><span></span> Image: Nintendo Life</em></figcaption></figure>
-<p>"What I can share with you today is that in the second half of 2026, approaching the holidays, we are going to receive an Ocarina of Time remake for Switch 2." Nate didn't share any other details, but it is reportedly coming in the second half of the year. Now <em>that's</em> pretty big news.</p>
-<p>Ocarina of Time is still arguably one of the most-popular games in the series, and fans have been begging for a little more traditional 3D Zelda following <a href="https://www.nintendolife.com/games/nintendo-switch-2/legend-of-zelda-breath-of-the-wild-nintendo-switch-2-edition">Breath of the Wild</a> and <a href="https://www.nintendolife.com/games/nintendo-switch-2/legend-of-zelda-tears-of-the-kingdom-nintendo-switch-2-edition">Tears of the Kingdom</a>. Yes, OoT does have a <a href="https://www.nintendolife.com/games/3ds/legend_of_zelda_ocarina_of_time_3d">remake on the 3DS</a>, but a big ol' console remake? That gets us very excited.</p>
-<p>The rest of the year will be filled with smaller announcements, but plenty of big releases and news. Reportedly joining Star Fox in the summer are <a href="https://www.nintendolife.com/games/nintendo-switch-2/splatoon-raiders">Splatoon Raiders</a>, <a href="https://www.nintendolife.com/games/nintendo-switch/rhythm_heaven_groove">Rhythm Heaven Groove</a> and <a href="https://www.nintendolife.com/games/nintendo-switch-2/fire-emblem-fortunes-weave">Fire Emblem: Fortune's Weave</a>.</p>
-<p>"A <a href="https://www.nintendolife.com/games/nintendo-switch/nintendo_switch_sports">Switch Sports</a>" game will be coming to the Switch 2 as well, though Nate is unsure if this is a new game or a Nintendo Switch 2 Edition of the original Switch game.</p>
-
-<p>For Switch 2 Editions, both <a href="https://www.nintendolife.com/games/nintendo-switch/pikmin_4">Pikmin 4</a> and <a href="https://www.nintendolife.com/games/nintendo-switch/xenoblade_chronicles_2">Xenoblade Chronicles 2</a> are potentially getting NS2E releases sometime in 2026, too. And lastly, for a little third-party news, <a href="https://www.nintendolife.com/games/nintendo-switch-2/duskbloods">The Duskbloods</a> is aiming to launch later in 2026.</p>
-<p>Now that certainly fleshes out the rest of the year, doesn't it? Of course, as we said up top, plans are not set in stone, and some of these might not even be true. But Nate has a pretty good track record, accurately dating multiple Nintendo Directs.</p>
-<p>All we can do is carry on and get excited for the year ahead, whatever that may bring. You can listen to all of Nate's thoughts, predictions, and gatherings from <a href="https://www.youtube.com/watch?v=CnuTGIq5JzI">around the 18:30 mark</a>.</p>
-<hr>
-<p><em>What do you think of Nate's claims? Would you like a new Star Fox or an Ocarina of Time remake? Let us know in the comments</em>.</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:158459,197398 @ 1774638067 --></section></div><br/><br/>https://www.nintendolife.com/news/2026/03/rumour-nintendos-2026-plans-include-new-star-fox-and-zelda-remake-no-3d-mario]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Nightbreed Is An Impossible, Anti-Assimilationist Masterpiece]]></title>
-            <link>https://aftermath.site/nightbreed-masterpiece-review-clive-barker/</link>
-            <guid>1475635</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><article>
-      <p>Clive Barker’s <em>Nightbreed</em> lived two lives, first as a tragedy then as a miracle. An ambitious adaptation of Barker’s novella <em>Cabal</em>, the film was meddled with against his will before its release. What was released was, unlike <em>Hellraiser,</em> not the film Barker wanted and was panned by critics. But as time went on, knowledge of the far more ambitious movie it could have been spread, and an extended cut known as the Cabal Cut was assembled using VHS workprints. In 2014, a restored director’s cut was recreated from the restored parts of the film, uncovered in a random warehouse in the middle of America.&nbsp;</p><p>That restored director’s cut of <em>Nightbreed</em> is a work of art – an avant garde camp masterpiece about grotesque, intentional living at the margins of society. The monsters of Barker’s Midian are strange, beautiful, bizarre and horrifying. Their lives are their own, and they stand as a grotesque proxy for every person who does not fit into what society deems normal. Like Toshio Matsumoto’s <em>Funeral Parade of Roses</em>, to watch it is to be shocked that anyone even nominally let this be made. If we are to playfully enshrine a <a href="https://aftermath.site/woke-2-wokeness-black-lives-matter-activism/"><u>Woke 2</u></a> canon of movies – of films that gesture towards a more just, interesting, and fun future – <em>Nightbreed</em> is firmly in that canon.</p><h3 id="background-on-barker"><strong>Background on Barker</strong></h3><figure><figcaption><span>Clive Barker with David Cronenberg in a promotional image for Nightbreed.&nbsp;Credit: Shout Factory</span></figcaption></figure><blockquote>“I must Create a System, or be enslav'd by another Man's” – William Blake, a quote dear to Barker.</blockquote><p>Clive Barker has been unapologetically out as gay since he was a teenager, a fact that is evident in his works. But Barker lived many lives before becoming a pulp author and filmmaker. Aside from stints as a hustler, Barker was in experimental theater with Doug Bradley (the actor who would go on to play Pinhead), the two having a fringe theater group known as The Dog Company. That spirit of avant garde theater is unmistakable when you read his prose or see the movies he went on to make. Like Japanese polyglot filmmaker/dramatist Shūji Terayama, many of his theatrical regulars would become staples in his films later.</p><p>Experimental theater doesn’t pay the bills, and eventually Barker would strike it big writing horror. But even during his career, Barker would have to fight against a deeply homophobic publishing industry that forced him to sanitize his works. “I’m a gay man who made creations of which my family did not approve,” Barker told the <a href="https://www.telegraph.co.uk/tv/0/clive-barker-interview-woke-coma-everything-owned-gone/?ref=aftermath.site"><u>Telegraph in 2020</u></a>. “Creations in drawing form and writing form that were not looked upon kindly by my father, or my mother. And then when I got into publishing books I found there was a prejudice. I was told, especially with ‘In the Hills, the Cities,’ 'do not publish this –&nbsp; if you publish this you’ll destroy everything you have'. That was simply not true.”</p><figure><figcaption><span>Left to right: Nicholas Vince, Doug Bradley and Simon Bamford in </span><i><em>Hellraiser</em></i><span>. All three appear in </span><i><em>Nightbreed</em></i><span> as the moon faced Kinski, the sagely Dirk Lylesberg, and the foolish Ohnaka respectively. Credit: Entertainment Film Distributors</span></figcaption></figure><p>Though a few of his works would go on to be adapted to film (none of which he was satisfied with), his turn in the director’s chair would eventually come with the adaptation of his novella <em>The Hellbound Heart,</em> which would eventually become the film <em>Hellraiser</em>. The Cenobites, the central supernatural creatures in both the novella and film, are extradimensional beings of pleasure and pain that torture those who summon them, “angels to some, demons to others.” The Cenobites only come to those who summon them. For them, consent is key.&nbsp;</p><p>Barker has been explicit about <em>Hellraiser’s</em> roots being deep in the gay <a href="https://www.theguardian.com/film/2017/oct/30/how-we-made-hellraiser-horror-film-pinhead-clive-barker?ref=aftermath.site"><u>S&amp;M scene</u></a>, citing a gay club in the Meatpacking district called Cellblock 28 as his point of entry into that world. In addition, Barker would end up meeting a member of the experimental gay band Coil at Forbidden Planet<em> </em>in London. Eventually the members of the band would bring him into their home, showing Barker their stack of <a href="https://en.wikipedia.org/wiki/PFIQ?ref=aftermath.site"><u><em>PFIQ</em>,</u></a> an extreme underground <a href="https://brainwashed.com/coil/writings/compulsion.html?ref=aftermath.site"><u>body modification publication</u></a>, that would serve as inspiration for the final film. Coil was briefly attached to do the soundtrack for the film, but <a href="https://en.wikipedia.org/wiki/The_Unreleased_Themes_for_Hellraiser?ref=aftermath.site"><u>that version</u></a> remains incomplete, never making it to a final cut.</p><figure><figcaption><span>You watch </span><i><em>Hellbound: Hellraiser II</em></i><span> and read </span><i><em>Berserk</em></i><span> and you're like "ohhhhh" Credit: New World Pictures</span></figcaption></figure><p>Made on a shoestring budget, <em>Hellraiser </em>became a hit, spawning eleven films in total and injecting Barker further into the mainstream. That Barker’s first film was not only loyal to his original vision but something he felt in total control over is something felt in its enduring cultural legacy as a work of art. Barker stepped back from the directing role with <em>Hellbound: Hellraiser II</em>, a process which exhausted the first-time filmmaker. But when he was allowed to direct a film a second time, he found that he was not afforded the same kinds of liberties.</p><h2 id="on-nightbreed">&nbsp;<strong>On <em>Nightbreed</em></strong></h2><figure><figcaption><span>The gang’s all here. Credit: Scream Factory</span></figcaption></figure><p>Both <em>Nightbreed</em> and the novella it is based on, <em>Cabal</em>, tell the story of Boone, a working class Calgary lug under the care of a calm and controlled psychologist named Decker. Boone has been experiencing visions of an otherworldly place, dreams of grotesques in a fantastical world. Eventually Decker confronts him with disturbing news, gaslighting Boone into thinking he is responsible for a series of grizzly murders. In a panic, Boone flees into the woods of Alberta, finding himself drawn towards the world of his visions – a mysterious city of monsters known as Midian inhabited by creatures known as Nightbreed. Boone is rejected by them at first, but then pursued by both his girlfriend and the authorities. He is murdered in cold blood by the police, only to be revived as one of the Nightbreed.</p><figure><figcaption><span>Boone, the Tom Of Finland-esque every-man and Kinski, the fun moon guy. Credit: Scream Factory</span></figcaption></figure><p><em>Nightbreed, </em>at least as it was intended, is a lurid and fascinating piece of anti-establishment fiction. Boone’s doctor Decker, played wonderfully in the film by director David Cronenberg, is revealed early on to be the true identity of the cold-blooded murderer Dollface&nbsp; – ritualistically inflicting violence on people in a horrifying mask while presenting a cool and professional demeanor of authority to straight society. Throughout the film, Decker not only abuses his authority to drug and mislead his patients into taking the fall for his crimes, he repeatedly uses the full strength of the state to do it. During the standoff, he assures Boone that he believes him, before shouting “he’s got a gun!” to signal the police to destroy him.</p><figure><figcaption><span>Credit: Scream Factory</span></figcaption></figure><blockquote><em>“It was only the monster, the child of Midian, that altered its flesh to parade its true self. The rest hid behind their calm, and plotted the deaths of children.” –Cabal, Clive Barker</em></blockquote><p>Though the residents of Midian are beastly, dead, and have a taste for human flesh, the ghastly nature of their being, like that of the Cenobites, is in the eye of the beholder. The Nightbreed are revealed to be an ancient tribe of shapeshifters who were almost extinguished by the tribes of men (Midian itself being a biblical reference to a tribe attacked by the <a href="https://en.wikipedia.org/wiki/Numbers_31?ref=aftermath.site"><u>Israelites in Numbers</u></a>.). They have lived in shadows, worshiping their god Baphomet hiding from the eyes of men and making a space for themselves in niches away from the sunlight that will kill many of their kind.</p><figure><figcaption><span>Shuna Sassi has become iconic. Credit: Scream Factory</span></figcaption></figure><blockquote><em>LORI: “This is too weird”&nbsp; RACHEL: “To be able to fly? To be smoke? Or a wolf? To know the night and live in it forever? That’s not so bad. You call us monsters but when you dream, you dream of flying and changing, and living without death. You envy us, and what you envy…” LORI: “We destroy.”</em></blockquote><p>Many of the Nightbreed have claws and fangs, they breathe smoke and their eyes and skin shimmer. One is corpulent with insect-like tendrils living in his flesh; another is a sensual nude woman with quills like a porcupine’s; another still has a face like a crescent moon. In the novella one is described as “turning into birds,” while another is described as a “dog painter.” All of them are overly campy and theatrical, gayly dressed and conceived of by Barker as carnival-like. Not only are many of them played by Clive’s longtime collaborators, including Doug Bradley of Pinhead fame, the entire vibe of Midian is that of gay, experimental theater.</p><figure><div></div><figcaption><p><span>Some of the most elaborate, theatrical monster makeup ever committed to film, rivaled only perhaps by Screaming Mad George's work. Credit: Scream Factory</span></p></figcaption></figure><p>The most overly queeny of all the Nightbreed is Narcisse, played impeccably by Hugh Ross. Boone meets Narcisse in the hospital as a former patient of Decker before Narcisse tears the flesh from his face with bladed rings. Described by Barker in the director’s cut commentary as “the most bisexual monster in Midian,” Narcisse is constantly blasting cigs and wearing a cowboy hat while delivering impeccably horny one-liners. “Sailors,” Narcisse wryly exclaims after flirting with and scaring off Ohnaka, a male member of Midian with tattoos of suns around pierced nipples. “My monsters are kinda working class monsters I think…they smoke, they fuck.” Barker said in a director’s commentary, “To me the monsters are the thing which are closest to your heart and closest to the truth of you.”</p><figure><figcaption><span>Narcisse rocks, all my homies love Narcisse.&nbsp;Credit: Scream Factory</span></figcaption></figure><p><em>Nightbreed</em> not only takes special care to empathize with its fruity dead commune, it also goes out of its way to point out the sheer, sexualized cruelty of the cops. In a later sequence Decker coerces the local police to raid Midian. Led by the deranged J. Will Eigerman, a cigar-chomping fascist in the same vein as Steven J. Lockjaw in <a href="https://aftermath.site/one-battle-after-another-review-aftercha/" rel="noreferrer"><em>One Battle After Another</em></a>, the local Alberta police summon a lynch mob of drunk hunters and police officers itching to kill anything different then them with a sexual glee. Little distinction is made between the cops and drunk local bigots. Charles Haid, who played Eigerman, used Nazi war criminal Klaus Barbie as inspiration for the role. During the sequence, the officer in charge of the gun locker sensually lists the various weapons about to be used to commit murder before he drags a garrote over his bottom lip. “Whether it’s Commmies, freaks, or Third World Y-Chromosome mutants, we are there: sons of the free,” Eigerman says, holding a pump action shotgun.&nbsp; </p><figure><div></div><figcaption><p><span>ACAB (Canadian) Credit: Scream Factory</span></p></figcaption></figure><p>So much love and talent is in <em>Nightbreed</em> — the title sequence mural by Star Wars concept artist Ralph Maquarry, the music by Danny Elfman, the incredible makeup on the countless grotesqueries which are themselves interpretations of Barker’s own abstract ink blot illustrations by the makeup department. The set of Midian’s central Necropolis alone is a dizzying sight to behold, a gargantuan central hub of swinging rope ladders that has a tactility that most modern movies only wish they had.&nbsp;</p><figure><figcaption><p><span>The main set was a gargantuan maze of rope ladders. Credit: Scream Factory</span></p></figcaption></figure><h2 id="cut-down"><strong>Cut down</strong></h2><figure><figcaption><span>Buttonface, Decker’s murderous alter ego. Credit: Scream Factory</span></figcaption></figure><p><em>Nightbreed</em> was taken away from Clive Barker by the suits, but even in its ideal form it is a harder sell than <em>Hellraiser</em>. Whereas <em>Hellraiser</em> has a lurid but straightforward structure that does not deviate from standard horror structure, <em>Nightbreed</em> swings for the fences. It is more loving towards its monsters, and more nakedly upfront about the evil of the state. It is a film that presents, in nightmarish dream logic, a case for the Tribes of the Moon — against the heterosexual world that seeks to gaslight, pathologize, hunt, torture and exterminate those who have a freedom they wish they had.&nbsp;</p><figure><figcaption><span>Barker’s ink blot illustrations would serve as a mood board for the makeup team. Credit: Scream Factory</span></figcaption></figure><p>What the executives wanted was something they could market, and the cut that hit theaters was severely scoped down and pitched as a simple slasher film with Decker as the main focus and the monsters as, well, monsters. Scenes were added, reshoots were done, and the ending was radically changed. “Someone at Morgan Creek said to me, 'You know, Clive, if you're not careful some people are going to like the monsters,'” Barker recalled. “Talk about completely missing the point! Even the company I was making the film for couldn't comprehend what I was trying to achieve!"&nbsp;</p><p>“It had the heart and soul ripped out of it,” actor Simon Bamford said in <em>Tribes of the Moon: The Making of Nightbreed. </em>“It was so deeply flawed,” echoed Doug Bradley. “I felt very depressed when I came away from it and it quite honestly…doesn’t make sense in a lot of places because of the editing.” Given Barker’s history of facing homophobia and censorship in publishing despite his repeated success, it is hard not to feel a twinge of that same institutional bigotry into the manhandling of <em>Nightbreed</em>.</p><p>“I wanted to make a movie that was a celebration of monsters, a movie that was a Bosch canvas come to life,” Barker said. “It wasn't going to be this rational, logical thing. Instead of trusting the movie, they tried to do something which is reprehensible - they tried to represent the movie as something that it wasn't.”</p><h2 id="redemption"><strong>Redemption</strong></h2><figure><figcaption><span>Restored. Credit: Scream Factory</span></figcaption></figure><p>Eventually,<em> Nightbreed</em> would have its day. Even in its butchered form, <em>Nightbreed </em>is unlike other movies. Eventually a cut of the film closer to Clive’s intended vision upon release, a two hour and twenty five minute version called <em>The Cabal Cut,</em> was assembled from an amalgamation of existing material and poor quality VHS transfers. After the announcement of the Scream Factory Blu-ray, several reels of lost material were miraculously found in a warehouse. Under the supervision of producer Mark Alan Miller, a tighter director’s cut was produced, one that had no placeholder footage and kept the brisk pace of the theatrical cut while still being quite loyal to the novella. This is the best version of the movie, and the one I would recommend to people who have never seen it. What’s more, Arrow UK has announced that a limited edition version of <em>Nightbreed</em> (in the UK) featuring a 4k transfer of the theatrical release and a mixed 4k transfer of the director’s cut using the already existing elements is going to be released in <a href="https://www.arrowfilms.com/p/4k/nightbreed-limited-edition-4k-ultra-hd/17748947/?ref=aftermath.site"><u>May of this year</u></a>. </p><p>What Clive Barker had taken from him only to be reconstructed is a lurid delight that fills my heart with joy. There are so many stories that were butchered by marketing men with limited vision, and countless more that never had a chance to see the light of day. The <em>Nightbreed</em> you can watch today feels like a message from the past, an affirmation that people have always wanted to tell stories of other ways of living, and how even someone as big as Barker could be bossed around and gaslit to doubt his vision. “It feels like a validation,” Barker said on the commentary for the director’s cut. “It feels like the reclamation of something that was always there but as time went by I began to doubt was there.”</p><p>Long live Midian.</p>
-    </article></div><br/><br/>https://aftermath.site/nightbreed-masterpiece-review-clive-barker/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Slay the Spire 2's 'anti-infinite' balance patch has now itself been patched, much to the relief of some Silent and Necrobinder players]]></title>
-            <link>https://www.rockpapershotgun.com/slay-the-spire-2s-anti-infinite-balance-patch-has-now-itself-been-patched-much-to-the-relief-of-some-silent-and-necrobinder-players</link>
-            <guid>1475632</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-component="article-header">
-  
-
-    <div id="main-content">
-  
-
-        <p>Didn't even make it out of beta</p>
-
-    </div>
-
-
-  <p>
-
-  <figure>
-        <picture>
-        <source srcset="https://assetsio.gnwcdn.com/slaythespire2-silent.jpg?width=380&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/slaythespire2-silent.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/slaythespire2-silent.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/slaythespire2-silent.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/slaythespire2-silent.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/slaythespire2-silent.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/slaythespire2-silent.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/slaythespire2-silent.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/slaythespire2-silent.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>Mega Crit</cite></span>
-        </figcaption>
-
-  </figure>
-  </p>
-
-    
-
-</div><div data-component="article-content">
-
-
-            <p>
-<a href="https://www.rockpapershotgun.com/games/slay-the-spire-2">Slay the Spire 2</a> developers Mega Crit have rolled back aspects of last week's <a href="https://www.rockpapershotgun.com/new-slay-the-spire-2-patch-will-make-infinites-harder-to-achieve-by-letting-the-doormaker-eat-your-cards-amongst-other-surprises">big STS2 balancing update</a>, which nerfed a number of cards according to the broad objective of making infinites – that is, cunning combos that let you prolong your turn forever - harder to accomplish.</p>
-<p>The patch in question isn't even formally part of the roguelite deckbuilder yet – you have to opt into the Steam beta branch to test it out. But it has sparked a ruckus nonetheless among the Spire Slayers, some of whom attempted to review bomb the game despite Mega Crit's protestations that <a href="https://www.rockpapershotgun.com/games/slay-the-spire">Slay the Spire</a> 2 is <a href="https://www.rockpapershotgun.com/this-progress-will-not-be-linear-mega-crit-outline-their-patching-process-for-slay-the-spire-2-after-ruffling-some-feathers">still in early access development</a>. 
-</p>
-<!--more-->
-<p>
-In a new Beta patch, Mega Crit have now reverted a few of the more contentious card nerfs, and tuned up a few cards to boot. Do you play Silent? Good news, you Sly devils - that Prepared card you're so fond of will still let you draw and discard cards, rather than discarding cards in exchange for energy. What's more, your Serpent Form will deal more damage. Do you play Necrobinder? Happy days, your Capture Spirit is no longer being kneecapped, and nor is Borrowed Time.
-</p>
-<p>
-In <a href="https://store.steampowered.com/news/app/2868840/view/507357499795439629?l=english">the full changelog</a>, lead designer Anthony Giovannetti gives "some insights into our design intent and thoughts behind various changes". Regarding the reverting of changes to Silent, he notes that "while I still think that the Sly synergies are overall too dominant of a strategy, Prepared is so integral to the Silent's core identity that I will be looking for a different approach to bring Sly in line in the future."</p>
-<p>As for Necrobinder, "Borrowed Time is likely to receive a complete rework in the future, but for now I prefer that the card is fun to play with in all decks."
-</p>
-<figure>
- 
-
-
-<figcaption><span>Image credit: <cite>Mega Crit</cite></span></figcaption>
-</figure>
-<p>
-The game's Ironclad character has also received a couple of buffs aimed at Exhaust-based tactics, and the much-derided Regent has been spruced up across the board. His Arsenal card can now be rendered innate with upgrades, and gives you 1 Strength when you create a card, rather than giving you Strength when you play a colorless card.</p><p>A fair number of Regent's other cards now deal more damage or acquire more block in the new beta version. I haven't played much of Regent, not because I despise him, but because I'm addicted to stockpiling shivs as Silent. Still, I approve of his princely indolence and I'm happy for those of you who worship at his throne.
-</p>
-<p>
-I'm also happy for the people who hated the new version of the Doormaker boss. It's been given a haircut and is apparently more predictable, as of this patching. "Now each visual phase he is in has its own unique power to hamper the player," Giovannetti writes. "All of them are disruptive and will hopefully encourage interesting play, but should now be less random and reward player agency more."
-</p>
-<p>
-Further down the enemy hierarchy, Skulking Colony has been absolutely taken to the cleaners. As of this updatifying, he "deals less damage, damage scales slower, and no longer applies Dazed status cards".</p>
-<p>"I found that the Dazed statuses actually worked against the design goals of his power," Giovannetti comments. "The new version is a tighter design overall that presents a more unified question for the player to answer. If the encounter is now too weak, simple numbers can be buffed in the future."
-</p><p>
-The beta patch also makes changes to the distribution of monsters as you climb the tower, with elites no longer appearing on the first level. "Since Neow now counts as the first floor of the map, Elites were actually spawning one floor earlier than they should have been," says Giovannetti. "This change should have a big impact on how tough fighting early Elites is."</p>
-<p>The Gloom Ascension modifier no longer affects surprise rooms, in addition to rest sites, because "although it did make the game more difficult it was not in a satisfying or fun way as it just made maps less interesting". Giovannetti wants to "rework Gloom entirely" down the line.
-</p>
-<p>
-There's more in the full patchnotes. It's been interesting to follow the microdrama around Slay the Spire 2's infinites, which doesn't seem to have unduly sabotaged the game's fortunes – it's one of the most popular things on Steam right now. In what could be an effort to head off potential review bombers, the developers have increased the capacity of Slay the Spire 2's feedback tool from 500 to 8000 characters, breezily commenting that "receiving in-game feedback from YOU the player is the best way we have of improving the game". 
-</p>
-<p>Mad about Spire 2's balancing? Why not take it out on your so-called friends care of this <a href="https://www.rockpapershotgun.com/this-slay-the-spire-2-pvp-mod-lets-you-battle-friends-mid-run-to-see-whos-made-the-better-deck">Slay the Spire 2 PvP mod</a>.</p>
-
-        </div></div><br/><br/>https://www.rockpapershotgun.com/slay-the-spire-2s-anti-infinite-balance-patch-has-now-itself-been-patched-much-to-the-relief-of-some-silent-and-necrobinder-players]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[LPL Jungler Naiyou Permanently Banned and Replaced By Tian]]></title>
-            <link>https://insider-gaming.com/lpl-jungler-naiyou-permanently-banned-and-replaced-by-tian/</link>
-            <guid>1475626</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-        
-<p>Top Esports (TES) has been forced to make a roster change in the LPL after Yang ‘Naiyou’ Zijian was handed a lifetime ban from competing after being found guilty of match fixing.</p>
-
-
-
-<p>The LPL team has terminated Naiyou’s contract and is withholding all of his unpaid salary and bonuses. In his place, former <a href="https://insider-gaming.com/category/esports/games/league-of-legends/" target="_blank" rel="noreferrer noopener">League of Legends</a> World Champion Gao ‘Tian’ Tian-Liang has returned to the organisation.</p>
-
-
-
-
-
-
-
-<p>Naiyou had been a promising jungler, earning an LDL MVP award before joining China’s top league, but after just three months with TES, the 21-year-old is now banned for life from the LPL, all&nbsp;Riot<strong> </strong>Games&nbsp;tournaments, and all&nbsp;Tencent&nbsp;and&nbsp;TJ Sports events, including both professional and semi-professional tournaments.</p>
-
-
-
-<figure><div><blockquote data-width="500" data-dnt="true"><div lang="en" dir="ltr"><p>[OFFICIAL] TES Naiyou 🇨🇳 has been permanently banned ❌ from the LPL and all Riot Games and Tencent competitions for violation of competitive integrity</p><p>Following the ruling, Top Esports 🇨🇳 have terminated their contract with the player and withheld all unpaid salary and bonuses <a href="https://t.co/jXYkmrkI5k">pic.twitter.com/jXYkmrkI5k</a></p></div>— Sheep Esports (@Sheep_Esports) <a href="https://twitter.com/Sheep_Esports/status/2037440207100707159?ref_src=twsrc%5Etfw">March 27, 2026</a></blockquote></div></figure>
-
-
-
-<p>His teammates had grown suspicious during the LPL Split 1 Playoffs earlier this year which saw TES eliminated early after a 3-2 loss to Weibo Gaming. </p>
-
-
-
-<p>In the fifth and final match of that series, Naiyou had built magic resist items despite the fact that WBG had a very fed Jinx, who finished the game with 14 kills, and the only AP threat was Galio.</p>
-
-
-
-<p>The investigation was announced at the beginning of March, and it didn’t last long as Naiyou admitted to intentionally throwing matches during the Playoffs.</p>
-
-
-
-<p>Speaking on his stream, TES head coach Chang ‘Poppy’ Po-hao claimed: “Naiyou admitted that he matchfixed every game TES lost in the playoffs.</p>
-
-
-
-<p>“Do you know how good he is? If he wants to win, he can win. If he wants to lose, he can lose too. This makes me really upset. Think about our results. How far could we have made it if he didn’t matchfix? I can’t even imagine.”</p>
-
-
-
-<figure><div><blockquote data-width="500" data-dnt="true"><div lang="en" dir="ltr"><p>TES head coach Poppy: "Naiyou admitted that he matchfixed every game TES lost in playoffs"</p><p>P: Do you know how "good" he is? If he wants to win he can win. If he wants to lose, he can lose to<br>: This makes me really upset. Think about our results. How far can we make if he didn't… <a href="https://t.co/d2gwnulQSY">pic.twitter.com/d2gwnulQSY</a></p></div>— Yuuu – lifeitsfkingmove (@tttttyuc) <a href="https://twitter.com/tttttyuc/status/2030236513813041631?ref_src=twsrc%5Etfw">March 7, 2026</a></blockquote></div></figure>
-
-
-
-<h2 id="h-tes-bring-back-tian-and-jackeylove">TES Bring Back Tian and Jackeylove</h2>
-
-
-
-<p>Ahead of LPL Split 2, TES have made a couple of roster changes in hopes of qualifying for the Mid-Season Invitational. </p>
-
-
-
-<p>As mentioned prior, veteran jungler Tian, who won Worlds with FunPlus Phoenix in 2019, has returned to the team after a stint with WBG last year.</p>
-
-
-
-<p>Additionally, another former World Champion in botlaner Yu ‘JackeyLove’ Wen-Bo has also joined the team. It is not yet known what will happen to the team’s other ADC, Zi ‘JiaQi’ Jia-Qi.</p>
-
-
-
-<p>Both players sat out the previous split, perhaps attempting to avoid burnout and end the 2026 LoL season on a high.</p>
-
-
-
-<p>The new roster, completed by toplaner Bai ‘369’ Jiahao, midlaner Lin ‘Creme’ Jian, and support Wang ‘fengyue’ Run-Lai.</p>
-
-
-
-
-
-
-
-<p>Is this the biggest case of match fixing in LoL esports history? Let us know on the <a href="https://discord.com/invite/vwj7zdWxaW)">Insider Gaming Discord</a>.</p>
-
-
-
-<p>It’s not all doom and gloom for the league, however, as <a href="https://insider-gaming.com/league-of-legends-lpl-attracts-highest-viewership-in-years/" target="_blank" rel="noreferrer noopener">the LPL has attracted its highest viewership in years</a>.</p>
-
-
-        
-            
-
-    <div id="ig-app-cta">
-          <p><i></i> MOBILE APP</p>
-          <h2>Level Up Your Gaming News</h2>
-          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
-          
-          <p><i></i> Available on iOS &amp; Android</p>
-        </div>
-
-    
-    
-    </div></div><br/><br/>https://insider-gaming.com/lpl-jungler-naiyou-permanently-banned-and-replaced-by-tian/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Pokémon’s Most Iconic Myth Has Been Recreated in Pokémon Pokopia]]></title>
-            <link>https://insider-gaming.com/pokemons-most-iconic-myth-has-been-recreated-in-pokemon-pokopia/</link>
-            <guid>1475623</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-        
-<p>The gloves are off in Pokémon Pokopia, as you have near enough free rein to create what you want. What better way to celebrate one of the best Pokémon games of all time than by paying homage to a classic Pokémon legend we all thought was true as a kid.</p>
-
-
-
-<p><a href="https://insider-gaming.com/tag/pokemon/" id="181" target="_blank" rel="noreferrer noopener">Pokémon </a>games these days are more streamlined, and everything is so much simpler with guides littered all over the internet. But the boomers amongst everyone will remember a bygone era of relying on <a href="https://insider-gaming.com/category/nintendo/" id="3" target="_blank" rel="noreferrer noopener">Nintendo</a> magazines and primitive internet forums to decipher Pokémon myths and Easter Eggs—even <em>that </em>Mew one.</p>
-
-
-
-
-
-
-
-<h2 id="h-pokemon-pokopia-player-recreates-iconic-mew-easter-egg">Pokémon Pokopia Player Recreates Iconic Mew Easter Egg</h2>
-
-
-
-<figure><figcaption>Credit to The Pokémon Company</figcaption></figure>
-
-
-
-<p>In the original Pokémon Red and Blue, Vermillion City isn’t just home to Lt. Surge and his army of electrical Pokémon; it also features the S.S Anne.</p>
-
-
-
-<p>The seismic cruise ship takes players on a fun detour as you claim one of the game’s main HMs, and there are battles and bustling rooms and corridors full of action. However, on the pier near the boat is a truck.</p>
-
-
-
-<p>An internet rumor arose that you could find a Pokémon missing from the game’s Pokédex…Mew.</p>
-
-
-
-<p>The fact of the matter is that the truck is a non-interactable piece of scenery and nothing more. But a cruel rumor suggested the truck could be moved, and Mew was underneath: It’s not true at all. This hasn’t stopped one dedicated Pokémon Pokopia owner from recreating the famous myth.</p>
-
-
-
-<p>On the Pokémon Pokopia subreddit, <a href="https://www.reddit.com/user/JoQsh/" target="_blank" rel="noreferrer noopener nofollow">JoQsh</a> suggested they had ‘found a weird truck by the S.S. Anne,’ and showed off their creation, featuring the ship, the truck, and a suspicious manhole cover next to the vehicle. If you go down it, you’ll find a door. </p>
-
-
-
-<p>What’s behind the door? A sleeping Mew of all things.</p>
-
-
-
-<figure></figure>
-
-
-
-<p>The imagination of people never ceases to amaze. Have you found any other fun manmade Pokémon creations or references in Pokopia? Share them via the <a href="https://discord.com/channels/1433093283558719611/1433112738133180426" target="_blank" rel="noreferrer noopener">Insider Gaming Discord</a>!</p>
-
-
-
-<hr>
-
-
-
-<p>For more news, check out the rumor that a <a href="https://insider-gaming.com/major-legend-of-zelda-remake-coming-this-year/" target="_blank" rel="noreferrer noopener">major Legend of Zelda Remake is coming this year</a>, and <a href="https://insider-gaming.com/sony-announces-major-ps5-playstation-portal-console-price-increases/" target="_blank" rel="noreferrer noopener">Sony announcing major PS5 &amp; PlayStation Portal console price increases</a>.</p>
-
-
-        
-            
-
-    <div id="ig-app-cta">
-          <p><i></i> MOBILE APP</p>
-          <h2>Level Up Your Gaming News</h2>
-          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
-          
-          <p><i></i> Available on iOS &amp; Android</p>
-        </div>
-
-    
-    
-    </div></div><br/><br/>https://insider-gaming.com/pokemons-most-iconic-myth-has-been-recreated-in-pokemon-pokopia/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[John and Brenda Romero think our current video game industry crash is even "crashier" than the infamous recession of the 1980's]]></title>
-            <link>https://www.eurogamer.net/john-and-brenda-romero-think-current-video-game-industry-crash-is-even-crashier-than-the-recession-1980s</link>
-            <guid>1475620</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
-
-
-<header data-component="article-header">
-  
-
-    
-
-
-  <p>
-
-  <figure>
-      <picture>
-        <source srcset="https://assetsio.gnwcdn.com/doom-not-stonks-final.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/doom-not-stonks-final.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/doom-not-stonks-final.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/doom-not-stonks-final.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/doom-not-stonks-final.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/doom-not-stonks-final.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/doom-not-stonks-final.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/doom-not-stonks-final.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/doom-not-stonks-final.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>Eurogamer</cite></span>
-        </figcaption>
-  </figure>
-  </p>
-
-    
-
-</header>
-  <div data-component="article-content">
-
-
-            <p>John and Brenda Romero - award winning game developers and founders of Romero games - have spoken about the state of the games industry following the radical downsizing of their Galway-based studio.</p>
-<p><a href="https://www.gamesindustry.biz/we-were-there-in-the-80s-for-the-crash-and-this-is-definitely-crashier-john-and-brenda-romero-reflect-on-the-industry-crisis">Speaking to Gamesindustry.biz</a> ahead of the Dark and Doomy in Wakefield last week, Brenda Romero said the following: "I feel like the industry's in a really horrible place. I mean, we were there in the 80s for the crash, and this is definitely crashier. There are so few people that have not been affected, or their partner's affected, or they're worried about being affected. It's a really difficult time right now."</p>
-<p>During the early 1980's, the American games industry suffered dramatically due to a flood of games on multiple systems that were deemed low quality. This on top of waning interest for consoles while personal computers rose in popularity resulted in substantial woes, which thankfully recovered with the introduction of the NES.</p>
-
-<figure>
-<p>
-<a aria-label="Empire of Sin: Make it Count - Official Release Trailer" data-platform="youtube" href="https://www.youtube.com/embed/M7fCWUUDOzk?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
-<span>Empire of Sin: Make it Count - Official Release Trailer</span>
-<template>
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/M7fCWUUDOzk?autoplay=1" frameborder="0" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/M7fCWUUDOzk?autoplay=1" title="Empire of Sin: Make it Count - Official Release Trailer">
-</iframe> </template>
-</a>
-</p>
-<figcaption>Here's a trailer for Romero Games' last release: Empire of Sin.<a href="https://www.youtube.com/watch?v=M7fCWUUDOzk" rel="noopener" target="_blank">Watch on YouTube</a></figcaption></figure>
-
-
-<p>John Romero pointed to <a href="https://www.eurogamer.net/games/battlefield-2025">Battlefield 6</a> as an example of the dire state of the industry, telling Gamesindustry: "I don't understand what that's all about." He pointed to the <a href="https://www.eurogamer.net/battlefield-6-has-sold-over-seven-million-copies-in-five-days-data-analyst-company-claims">high sales for the latest EA shooter</a>, and <a href="https://www.eurogamer.net/ea-lays-off-staff-across-battlefield-studios-following-last-years-record-breaking-battlefield-6-debut">the layoffs following this substantial success</a>.</p><p>Brenda and John's studio, which is still in operation, <a href="https://www.eurogamer.net/doom-creator-john-romeros-next-shooter-project-loses-funding-following-microsoft-cuts">had its funding pulled as part of Microsofts sweeping cuts last year</a>. The studio <a href="https://www.eurogamer.net/doom-creator-john-romeros-studio-not-closed-as-publishers-express-interest-in-saving-cancelled-game">survived this ordeal</a>, and the shooter under-development <a href="https://www.eurogamer.net/doom-creator-john-romeros-cancelled-shooter-has-been-saved-with-fresh-redesign-inspired-by-elden-ring">was rescued too (albeit drastically redesigned)</a>. They've gone from a team of around 110 people, to nine developers, in the wake of a lengthy redundancy process.</p>
-
-        </div>
-
-  
-      </article>
-
-
-
-  
-
-
-
-  <div>
-      <p>
-        <a href="https://www.eurogamer.net/games/doom">Doom</a>
-      </p>
-
-      <p>
-            <span>Xbox 360</span>, 
-            <span>Nintendo GBA</span>, 
-            <span>PC</span>, 
-            <span>Nintendo Switch</span>
-      </p>
-
-
-
-
-
-</div>
-
-  <section>
-    <span>Related topics</span>
-
-    
-  </section>
-  </div></div><br/><br/>https://www.eurogamer.net/john-and-brenda-romero-think-current-video-game-industry-crash-is-even-crashier-than-the-recession-1980s]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Don't worry, Dispatch isn't going to be censored on Xbox]]></title>
-            <link>https://www.eurogamer.net/dont-worry-dispatch-isnt-going-to-be-censored-on-xbox</link>
-            <guid>1475614</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
-
-
-<header data-component="article-header">
-  
-
-    
-
-
-  <p>
-
-  <figure>
-      <picture>
-        <source srcset="https://assetsio.gnwcdn.com/Dispatch's-Invisigal-and-Robert-looking-at-each-other-very-closely-in-the-face.-He-is-shirtless-and-bruised.-She-is-in-a-pink-jacket.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Dispatch's-Invisigal-and-Robert-looking-at-each-other-very-closely-in-the-face.-He-is-shirtless-and-bruised.-She-is-in-a-pink-jacket.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Dispatch's-Invisigal-and-Robert-looking-at-each-other-very-closely-in-the-face.-He-is-shirtless-and-bruised.-She-is-in-a-pink-jacket.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Dispatch's-Invisigal-and-Robert-looking-at-each-other-very-closely-in-the-face.-He-is-shirtless-and-bruised.-She-is-in-a-pink-jacket.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Dispatch's-Invisigal-and-Robert-looking-at-each-other-very-closely-in-the-face.-He-is-shirtless-and-bruised.-She-is-in-a-pink-jacket.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Dispatch's-Invisigal-and-Robert-looking-at-each-other-very-closely-in-the-face.-He-is-shirtless-and-bruised.-She-is-in-a-pink-jacket.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Dispatch's-Invisigal-and-Robert-looking-at-each-other-very-closely-in-the-face.-He-is-shirtless-and-bruised.-She-is-in-a-pink-jacket.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Dispatch's-Invisigal-and-Robert-looking-at-each-other-very-closely-in-the-face.-He-is-shirtless-and-bruised.-She-is-in-a-pink-jacket.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Dispatch's-Invisigal-and-Robert-looking-at-each-other-very-closely-in-the-face.-He-is-shirtless-and-bruised.-She-is-in-a-pink-jacket.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>AdHoc</cite></span>
-        </figcaption>
-  </figure>
-  </p>
-
-    
-
-</header>
-  <div data-component="article-content">
-
-
-            <p>During last night's Xbox Partner Preview showcase, AdHoc announced that its brilliant superhero workplace comedy Dispatch would be heading over to Microsoft's Series X/S consoles, as well as Xbox on PC and Xbox Cloud.</p>
-<p>Needless to say, Xbox-fans were pretty excited by this news, but there was one question that the community wanted clarification on before getting <em>too </em>carried away - will Dispatch be censored on Xbox, like it is on <a href="https://www.eurogamer.net/platforms/switch-2">Switch 2</a>?</p>
-<!-- code from Primis - Eurogamer.net - eurogamer.net -->
-<div>
-<p><span data-type="targeting">
-<span>To see this content please enable targeting cookies.</span>
-</span> </p>
-</div>
-<!-- code from Primis -->
-<p>As a reminder, when AdHoc's episodic release made its Nintendo debut, many <a href="https://www.eurogamer.net/dispatch-switch-switch-2-censored-adhoc-comment">fans were disappointed to discover Dispatch was heavily censored on Switch and Switch 2 as standard</a>, with characters' nipples and penises covered with a black box by default, while noises of sexual pleasure were dampened down. However, AdHoc has confirmed this will not be the case for its Xbox release.</p>
-<p>"The Xbox version of Dispatch will be the same full release as the original PC and PlayStation versions," <a href="https://x.com/theAdHocStudio/status/2037254233779503451">AdHoc wrote on social media</a>, when asked about censorship following last night's announcement.</p>
-<p>When further questioned about adjusting its Switch version, <a href="https://x.com/theAdHocStudio/status/2037254408350630285">AdHoc added</a>: "We're still actively working with Nintendo on an update and will let you know as soon as it’s ready."</p>
-<figure>
- 
-
-
-<figcaption><span>Image credit: <cite>AdHoc Studio</cite></span></figcaption>
-</figure>
-<p>Dispatch has been a huge success for AdHoc, <a href="https://www.eurogamer.net/is-episodic-gaming-back-on-the-map-ex-wolf-among-us-devs-superhero-workplace-comedy-dispatch-sells-big-to-become-a-well-deserved-smash">selling over 1m copies in just 10 days</a> following its initial release last year. Thanks to this success, the studio is <a href="https://www.eurogamer.net/dispatch-dev-adhoc-set-on-season-2-but-has-difficult-second-album-problem">now considering a second season</a>, possibly with even more sex scenes <a href="https://www.eurogamer.net/dispatch-writer-regrets-cutting-sex-scenes">given the "ravenous" response to the first season</a>.</p>
-<p><a href="https://www.eurogamer.net/dispatch-xbox-release">Dispatch is due to arrive on Xbox this summer</a>, and can be <a href="https://www.xbox.com/en-gb/games/store/Dispatch/9NDJSV855T3P">added to your wishlists now</a>. In the meantime, for everything else announced during last night's showcase, be sure to<a href="https://www.eurogamer.net/xbox-partner-preview-showcase-march-2026-heres-everything-announced"> check out our Xbox Partner Preview roundup here</a>.</p>
-
-        </div>
-
-  
-      </article>
-
-
-
-  
-
-
-
-  
-
-  <section>
-    <span>Related topics</span>
-
-    
-  </section>
-  </div></div><br/><br/>https://www.eurogamer.net/dont-worry-dispatch-isnt-going-to-be-censored-on-xbox]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>

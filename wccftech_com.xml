@@ -4,9 +4,337 @@
         <title>maGaming RSS Feed - wccftech.com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech.com</description>
-        <lastBuildDate>Fri, 27 Mar 2026 19:18:11 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 27 Mar 2026 20:10:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Wyldheart Is a Cozy-Looking “Multiplayer Skyrim” with a Heavy Dose of Tabletop Inspiration]]></title>
+            <link>https://wccftech.com/wyldheart-multiplayer-rpg-preview-interview/</link>
+            <guid>1475878</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			
+			<p>Last week, I received an invite to check out <strong>Wyldheart</strong>, a soon-to-be-announced co-op fantasy action RPG in development by <strong>Wayfinder Studios</strong>. The team is small and independent, but also filled with industry veterans, like co-founders <strong>Dennis Brännvall</strong> (formerly Creative Director of <strong>Star Wars Battlefront II</strong>) and <strong>Fia Tjernberg</strong> (formerly Studio Director of Technical Design at <strong>EA DICE</strong>).</p>
+
+
+
+<h2 id="h-in-this-article">In this article:</h2>
+
+
+
+<ul>
+<li><strong><a href="#first-impressions">First Impressions: Dungeons, Hexes, and a Legendary Mace</a></strong></li>
+
+
+
+<li><a href="#under-the-hood"><strong>Under the Hood: Unreal Engine 5, AngelScript, and a Lean 10-Person Team</strong></a></li>
+
+
+
+<li><a href="#gameplay-systems"><strong>Gameplay Systems: Time, Hope, and the Hex Crawl</strong></a></li>
+
+
+
+<li><a href="#vision-roadmap" type="internal" id="#vision-roadmap"><strong>Vision and Roadmap: Tabletop Roots, Mod Support, and Early Access</strong></a></li>
+</ul>
+
+
+
+<h2 id="first-impressions">First Impressions: Dungeons, Hexes, and a Legendary Mace</h2>
+
+
+
+<p>I was introduced to Wyldheart by Brännvall himself, then played a brief multiplayer session with him and the studio's Marketing Director, <strong>Erin Bower</strong>, and finally asked Brännvall several questions to learn even more about this intriguing title.</p>
+
+
+
+<p>The studio's tabletop RPG inspiration was immediately clear. Even in character creation, <strong>players can pick between various non-standard fantastical races</strong> (like the proud Freefolk, the little Mossling, and the towering Grimhorn) and then <strong>choose one of 19 backgrounds</strong>, such as Exiled Noble, Butcher, Baker, Squire, Gardener, and many more, each providing different starting items and skills. On that note, <strong>Wyldheart also has an entirely classless system</strong>, allowing players to assign points to Adventuring, Survival, Dungeoneering, Weaponry, and Magic.</p>
+
+
+
+<p>Once you're done with character creation, you have to start a new campaign or continue an existing one. This time, we were dropped into the so-called "<strong>Trial of the Slime Lord</strong>" right away and had to face various skeletons and slimes, up to a final boss, in a dimly lit dungeon-like location. <strong>The interaction with the environment seemed to be one of the game's strengths</strong>: removing hastily placed planks allowed us to use a rope to climb down and retrieve the loot of an unfortunate traveler who presumably fell prey to the dungeon's perils. Lockpicks can be used to open various locks, though you'll need to be skilled enough in lockpicking to have a high chance of success; sometimes, though, you can also try simply kicking the door down. Crouching is not only helpful for a stealth approach, but it also makes your character more observant, allowing you to spot potential traps.</p>
+
+
+
+<p>The loot can be anything from forks to satchels to torn journal pages, as well as, of course, potions, equipment, and weapons. It was after we courageously defeated the aforementioned Slime Lord that I found <strong>Marasoda</strong>, a powerful two-handed mace that dealt fire damage in addition to its regular crushing damage. As it goes in these games, everything was a little more fun when wielding that. <strong>The combat itself is fun enough, although perhaps still a bit rough around the edges</strong>. You can kick enemies as they get close to make some space, and a basic parry/riposte system already seems to be in place. You also need to manage stamina during melee combat.</p>
+
+
+
+<figure><p>
+<iframe title="Wyldheart | Official Reveal Trailer" width="500" height="281" src="https://www.youtube.com/embed/SGIl5UuRpxg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<p>In another nod to tabletop roleplaying games, <strong>performing actions like clearing blocked paths will advance time</strong> (as any self-respecting dungeon master would do). Eventually, your character gets tired, and traveling in the middle of the night drains <strong>Hope</strong>, a finite resource. Once your Hope is entirely gone, it's game over, though there are ways to replenish it before that happens, as you'd expect.</p>
+
+
+
+<p>After clearing the dungeon, we traveled outdoors, made a campfire, cooked a meal (which gives you a nice bonus to max health), and slept. That's where they showed me that <strong>the world is connected in a grid-like fashion made of smaller maps</strong>. We traveled through them to reach the village of Elderlight; nothing happened, but we might have been ambushed if we had been unlucky. It's here that I was able to properly appreciate the game's unique art style, which vaguely reminded me of classic Fable. In the village, players can speak to local villagers, who have lives, stories, and schedules of their own. I was told that it's even possible to uncover quests by eavesdropping, deciphering rumors, and merely through exploration.</p>
+
+
+
+<p>One of the studio's goals is to make "<strong>Game Night</strong>" easier on everyone. You can play Wyldheart solo or up to 4 players in co-op with seamless drop-in/drop-out. Moreover, cloud-shared saves, group XP, and scaling difficulty mean the party can continue with someone offline without anyone getting left behind. <strong>It's designed for busy gamers</strong>, and its campaigns are expected to last around <strong>10 hours of story and 15 hours of optional content</strong>.</p>
+
+
+
+<p>Overall, this first taste of Wyldheart (which is now <a href="https://www.kickstarter.com/projects/wayfinderstudios/wyldheart" type="link" id="https://www.kickstarter.com/projects/wayfinderstudios/wyldheart" target="_blank" rel="noreferrer noopener">on Kickstarter</a> seeking a minimum of <strong>€150K</strong> <span>in funding and will come soon to PC early access via&nbsp;<a href="https://store.steampowered.com/app/3642910/Wyldheart/" target="_blank">Steam</a>&nbsp;and the&nbsp;</span>Epic Games Store, with a <strong>full launch slated before the end of 2027</strong> on PC and consoles) was <strong>quite juicy</strong>. I really enjoy this kind of game, so I was eager to speak with Brännvall about it and learn more about its feature set.</p>
+
+
+
+<figure><p>
+<iframe title="Wyldheart | Gameplay 101" width="500" height="281" src="https://www.youtube.com/embed/2FpNJRW_OiI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<h2 id="under-the-hood">Under the Hood: Unreal Engine 5, AngelScript, and a Lean 10-Person Team</h2>
+
+
+
+<p><strong>Dennis, do you want to start by introducing yourself?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;Sure. My name is Dennis, and I'm one of the founders of Wayfinder Studios. I work as the designer and director for our first game, Wyldheart. We've been working on it for the past four years, ever since we started the studio. <strong>We said it was going to be a five-year project to get everything up and running for an online RPG, and now we're finally ready to come out of stealth and start showing it to the world</strong>. Before starting Wayfinder Studios, I worked as the creative director for Star Wars Battlefront at DICE, together with my wife and a good friend of ours, who both worked in technical leadership positions at DICE, at Funcom making Anarchy Online, and at Star Stable making Star Stable Online. We're a small studio.</p>
+
+
+
+<p><strong>Are you all working remote?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;Yes. Forever remote, across the world.</p>
+
+
+
+<p><strong>How long have you been working on this?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;We're now <strong>in our fourth year of development</strong>, though some of that time also went into starting the company and studio. We're ten developers in total.</p>
+
+
+
+<p><strong>You previously worked at DICE, which uses Frostbite. How was the switch to Unreal technology?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;There are still similarities with the online multiplayer handling, ranged attacks with crosshairs, melee combat. We used to do a lot of lightsabers; now we use normal steel sabers. <strong>Unreal isn't radically different from Frostbite in terms of principles</strong>. But the biggest advantage has been the ecosystem. Every partner we work with already knows Unreal. If we need assets, there's a full marketplace. None of that was available in Frostbite. A lot has been very positive.</p>
+
+
+
+<p><strong>Are you on the latest version of Unreal 5?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;We just did <strong>an engine upgrade</strong> a week ago, which is part of why we're slightly late with the current patch. There are always a few bugs that pop up after an upgrade. We're working through those and plan to ship the patch very soon. The new version has procedural workflow improvements for things like spawning vegetation, and there are several features we're excited about.&nbsp;</p>
+
+
+
+<p><strong>Have you made any custom modifications to the engine?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;We use a plugin called AngelScript for most of our scripting, developed by <strong>Hazelight Studios</strong> in Sweden. They're good friends of ours. Using AngelScript means we don't have to go into the C++ layer as frequently, which makes things more stable and less crash-prone. Beyond that, <strong>we use plugins for procedural dungeon technology, a day/night cycle plugin, and Epic's large-world streaming plugin, because our campaign map is large enough that we need that technology to handle it</strong>.</p>
+
+
+
+<p><strong>Where are you in the development of Wyldheart?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;We hit Alpha just before Christmas. <strong>We're now in the first full production phase, which is essentially all hands on deck for more quests, more areas, more dungeons, more enemies, more gear — and then fine-tuning it all</strong>. We're targeting Beta shortly after summer, and then Early Access on PC via Steam and Epic with crossplay. After that, we'll begin console porting and hope to release on Xbox, PlayStation, and Switch 2 in the not-too-distant future.</p>
+
+
+
+<p><strong>Switch 2 as well. Do you think that port will be complex?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;A little bit, yes, but we have partners who have done it before, and <strong>Nintendo has been very encouraging in terms of providing dev kits</strong>. None of us have shipped on Switch before, so it'll be a cool milestone. The game already runs on Steam Deck and the ROG Ally X, and we already have controller and crossplay support, so there's a foundation to build from. There's always work to do for console releases, but we're looking forward to it.</p>
+
+
+
+<p><strong>Do you think this kind of game suits handheld play?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;I think cross-play is the most important part of this. Whether you're playing with friends your own age or with family, being on as many platforms as possible matters. Not every household has four Xboxes, but they might have a desktop, a laptop, and a Switch, and making sure they can all play together and share the experience is very important to us. As for handheld specifically, <strong>even if you only have five minutes, there are plenty of tasks that fit that window: gathering mushrooms, collecting plants, preparing for a bigger dungeon run later in the evening</strong>.</p>
+
+
+
+<h2 id="gameplay-systems">Gameplay Systems: Time, Hope, and the Hex Crawl</h2>
+
+
+
+<p><strong>I noticed that Wyldheart has a time system. Does time have any implications on gameplay?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;Yes. <strong>Eventually, your character gets tired, and you lose Hope if you travel in the middle of the night, so we encourage players to take breaks and camp regularly</strong>. One of the key motivations to set up camp and sleep at night is that traveling after dark is when enemies can start following or tracking you, making things much more dangerous.&nbsp;</p>
+
+
+
+<p><strong>Are the dungeon maps procedurally generated?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;All the rooms in dungeons are handcrafted, but <strong>we use procedural technology to stitch them together into different layouts each time</strong>. So every time you play the slime dungeon, the layout will be different, but you'll probably recognize the rooms themselves. It gives a lot of replay value, because players can't just speedrun straight to the boss room the second time around.</p>
+
+
+
+<p><strong>And this overworld is a hex crawl?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;Yes. <strong>The game turns into a board game hex crawl on the overworld. You mark nearby hexes and travel one at a time</strong>. The campaign map has about <strong>250 handcrafted scenes</strong>. You shouldn't go into all of them, but they're all there to explore. You'll also notice there are no mini-maps in the dungeons. We wanted that more immersive feeling, because when games have mini-maps, players tend to stare at that tiny corner of the screen instead of actually exploring the space.</p>
+
+
+
+<p><strong>Are there random encounters, too?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;Yes! <strong>You can be ambushed by enemies or come across NPCs who need help</strong>, side quests, or little encounters. We have plenty of those.</p>
+
+
+
+<p><strong>When it comes to Wyldheart's campaign, is there an end goal, or is it more of a sandbox-type experience?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;There's definitely an end goal. Quite early on in this campaign, you'll learn that there are several relics of old Caerwyn, an ancient land that fell long ago, and <strong>your quest is to find those relics and bring them to the chapel at the center of town</strong>. That's the core goal. It unlocks new stories and onboards you to the world. You can then play additional campaigns that follow a broader overarching theme: the return of the fairies, demons from beyond, and your role in trying to stop them, with sub-campaigns that have their own arcs within that.</p>
+
+
+
+<p><strong>Some co-op games with this kind of campaign structure also let players create their own campaigns. Will that be possible?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;It's already fairly easy for anyone familiar with Unreal to add new scenes, quests, stories, and monsters to the game. So in that sense, <strong>if you're capable of working in Unreal, Wyldheart is relatively moddable</strong>. We're not at a point where we can promise or announce anything specific on mod support, but we've set up the game in a way where going in that direction wouldn't be out of the question. It's something we'd be interested in exploring once the core game is in players' hands.</p>
+
+
+
+<p><strong>It could really prolong the game's longevity.</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;Agreed. And <strong>in this day and age, so many developers, hobbyists and professionals alike, are familiar with Unreal</strong>. The future for mods in general feels like it should be built around these open, freely downloadable game engines, where it becomes easier for creators to upload content and for players to download it.</p>
+
+
+
+<h2 id="vision-roadmap">Vision and Roadmap: Tabletop Roots, Mod Support, and Early Access</h2>
+
+
+
+<p><strong>Have you thought about adding a dungeon master mode?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;Yes, absolutely. <strong>We've talked about a dungeon master mode, and it's certainly possible</strong>. We just need to get the core game done first. But it'd be very cool.</p>
+
+
+
+<p><strong>Can you talk a bit about the inspiration for the world and art style?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;We've been told the game looks and feels "modern retro," and we really like that phrasing. On the video game side, when we were conceiving the game, it was essentially "<strong>a multiplayer Skyrim</strong>" or "<strong>your own private World of Warcraft server</strong>". Somewhere in between, but <strong>with a heavier focus on role-playing and playing with your community or friends</strong>. Then there are the obvious inspirations from old-school tabletop RPGs, not just fifth edition D&amp;D, but games from the 80s and 90s. <strong>That's why we're going for this rustic fantasy approach: lived-in, grounded, harsh, and cozy at the same time</strong>. We love old-school indie RPGs. That's what we talk about every day.</p>
+
+
+
+<p><strong>Is there crafting in the game?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;Yes, crafting is already in. Most characters can craft basic things like torches, bandages, and rope. <strong>As you unlock more skills or talk to craftspeople in towns, you can get into enchanting, crafting magical items, or commissioning weapons and armor</strong>. We're still finalizing exactly how deep it goes, but those mechanics will be there.</p>
+
+
+
+<p><strong>I noticed there's an item quality tier system. How many tiers are there?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;Five tiers of quality, plus a separate tier system for gear. <strong>It's not as affix-heavy as something like Diablo</strong>, but we do use procedural item generation, where we set up the value ranges and stat types and then let the system generate the loot dynamically.</p>
+
+
+
+<p><strong>Can you carry character progress from one Wyldheart campaign to another?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;We're still working this out, and I think we'll let Early Access guide us. <strong>My gut says it'll be both</strong>: some players will want to bring their character forward, and others will welcome the chance to start fresh with a new story. We'll let the community help us land on that.</p>
+
+
+
+<p><strong>Giving options is always appreciated, even if it means more work.</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;We're not opposed to more work. We like the work!</p>
+
+
+
+<p><strong>You said the goal is Early Access later this year. How long do you plan to stay in Early Access?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;We're looking at roughly a year. We have a clear vision of what we want the full game to be, and we'll use Early Access primarily to gather player feedback and requests. <strong>We anticipate launching into 1.0 before the end of 2027, and that would include consoles as well</strong>.</p>
+
+
+
+<p><strong>Have you disclosed pricing?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;Still TBD. <strong>It won't be a full-price game</strong>, but we haven't nailed down the final number yet.</p>
+
+
+
+<p><strong>Are you self-publishing?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;Yes. We're a scrappy team that wants to do everything ourselves. <strong>Fully independent, majority owned by the founders of the studio, self-publishing and doing everything ourselves</strong>. Working our tails off sometimes, but that's the choice we made.</p>
+
+
+
+<p><strong>How do you feel about AI usage in game development?</strong></p>
+
+
+
+<p><strong>Dennis Brännvall:</strong>&nbsp;Philosophically, <strong>we're not using AI for any content creation</strong>. A big reason we went independent and stayed small was to get our hands dirty and handcraft experiences for players. That's what we do. We do use procedural generation cleverly (we're not hand-placing every tree in a forest), and we use procedural tools for dungeon layout generation to add variety at runtime. We believe in proceduralness for that. But <strong>we still believe in human developers handcrafting stories for players</strong>.</p>
+
+
+
+<p><strong>Thank you for your time. </strong></p>
+
+			
+			
+						<p data-nosnippet="">
+				<strong>About the author: </strong> With over two decades of experience in gaming journalism, Alessio Palumbo has led the gaming vertical at Wccftech since August 2015. He started working at a young age for Italian websites like Everyeye.it, Gamestar.it, Nextgame.it, and Multiplayer.it before kickstarting the indie English-language publication Worlds Factory as its founder and Editor in Chief. 
+
+In the last decade, he has coordinated the overall output of Wccftech's gaming section, managed PR relations, assigned reviews, produced daily news coverage, edited gaming content as needed, and delivered game reviews.  
+
+Arguably, his trademark content is the long series of exclusive developer interviews that have been cited by Wikipedia and by the biggest news media and gaming publications. 
+
+His passion for technology also makes him knowledgeable when it comes to gaming hardware and tech. His favorite genres include RPGs, MMORPGs, and action/adventure games.			</p>
+			
+			<p data-nosnippet="">
+				Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.
+			</p>
+			
+
+
+		</div></div><br/><br/>https://wccftech.com/wyldheart-multiplayer-rpg-preview-interview/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[Asha Sharma is Personally Leading Xbox’s Rebrand, Says She Killed the “This Is an Xbox” Campaign Because “It Didn’t Feel Like Xbox”]]></title>
             <link>https://wccftech.com/asha-sharma-killed-this-is-an-xbox-campaign-is-personally-leading-xbox-rebrand/</link>
@@ -139,74 +467,6 @@
 
 
 		</div></div><br/><br/>https://wccftech.com/dispatch-not-censored-on-xbox/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Analyst Argues “It Wouldn’t Be a Surprise” to See Microsoft and Nintnedo Raise Hardware Prices Following PS5 Price Increase]]></title>
-            <link>https://wccftech.com/analyst-argues-it-wouldnt-be-a-surprise-to-see-microsoft-and-nintnedo-raise-hardware-prices-following-ps5-price-increase/</link>
-            <guid>1475662</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			
-			<p>Earlier today, <strong>PlayStation</strong> confirmed that it would be <a href="https://wccftech.com/ps5-ps5-pro-ps-portal-price-increase-confirmed/">increasing the price of the <strong>PS5, PS5 Pro, </strong>and <strong>PlayStation Portal</strong>,</a> after a <a href="https://wccftech.com/ps5-ps5-pro-ps-portal-console-might-get-more-expensive/">leak from a French retailer</a> tipped off that the change would happen just yesterday. Now, according to Ampere Analysis analyst <strong>Piers Harding-Rolls</strong>, hardware increases in games are not done there. We should expect to see increases from <strong>Microsoft</strong> and <strong>Nintendo</strong> in the future as well, which would be the first <strong>Nintendo Switch 2</strong> price increase and <a href="https://wccftech.com/xbox-series-x-s-prices-will-reportedly-go-up-again-in-us-microsoft/">the third <strong>Xbox Series X/S</strong> price increase</a>.</p>
-
-
-
-<p>Speaking to <a href="https://www.eurogamer.net/it-wouldnt-be-a-surprise-if-microsoft-and-nintendo-followed-suit-analyst-reacts-to-playstations-shock-price-rise-as-industry-braces-for-more-uncertainty">Eurogamer</a>, Harding-Rolls, while reacting to the price increases this morning, said, "<em>The supply chain shock of the elongated increase in memory and storage prices – both essential for console hardware – means that there is some inevitability to the PlayStation hardware price increases announced by Sony today. It is likely that Sony had price protections for its components for a set period and this may well have come to an end</em>."</p>
-
-
-
-<p>"<em>With no sign of prices easing largely due to demand for AI infrastructure, Sony will have made the move to protect its slim hardware margins. <strong>It wouldn’t be a surprise if Microsoft and Nintendo followed suit in the not-too-distant future.</strong></em>" </p>
-
-
-
-<p>On top of the issues Harding-Rolls identifies as coming from growth in AI infrastructure, which has led to the <strong><a href="https://wccftech.com/memory-crisis-impacting-routers-now-7x-more-expensive/">memory crisis</a></strong> the entire tech world is facing, he also points out that things are only set to get worse, as a new wave of inflation is expected due to the conflict in the Middle East. He also adds that we could see <strong>Sony</strong> raise the price of its consoles once again.</p>
-
-
-
-<p>"<em>A new wave of inflation is expected from the war in the Middle East, and this will compound the effect of the component price increases</em>. <em>This may have had an influence on the scale of these price increases – the standard PS5 will rise by $100 or 18 percent in the US with a similar increase in the UK and Europe. Aside from a direct impact on hardware companies, I think this will cause some general industry concern about what the broader impact will be on market activity</em>."</p>
-
-
-
-<p>Harding-Rolls continues by pointing out that this will, of course, inevitably impact software sales. "<em>The console and the AAA PC gaming markets rely on hardware investment to bring in new active players and drive market momentum, so if this weakens it might soften demand for new games</em>." But with big games like <strong>Grand Theft Auto VI</strong> on the horizon, and the fact that the Nintendo Switch 2 is, at the time of this writing, not yet a year old, raising hardware prices is an awkward proposition for everyone.</p>
-
-
-
-<p>"<em>Both companies will want to take full advantage of the positive impact of this system seller release</em>," Harding-Rolls said, referring to PlayStation and Microsoft. It's also worth noting that a price increase for the Switch 2 has been <a href="https://wccftech.com/research-firm-predicts-nintendo-switch-2-global-price-hike-2026/">a constant fear</a> of players who were unable to grab the console at launch since the Switch 2 arrived, and that fear continues <a href="https://wccftech.com/nintendo-president-doesnt-want-to-be-overly-influenced-by-rising-ram-costs-nintendo-switch-2-price-to-remain-stable-for-now/">despite reassurances from Nintendo</a>.</p>
-
-
-
-<p>Something else worth considering, as Chris Dring of The Game Business points out, is that we're nearly six years into this generation of consoles, and not everyone's launch PS5 or Xbox Series device will keep chugging along for much longer.</p>
-
-
-
-<p>"<em>Some consoles break down and need replacing five years into a generation, will people be able to afford that? Beyond PlayStation, Nintendo is still at the start of its Switch 2 journey. It still wants to drive customers to its platform. How does it react to these costs?</em>"</p>
-
-
-
-<p>No other console generation has seen the price of consoles <strong>increase</strong> the deeper we get into the generation. And as everyone is currently going through their own financial struggles and facing the same economic pressures that Sony claims made it necessary to increase the price of its consoles, it's arguable that no one save for the very rich will be able to keep enjoying the latest-and-greatest games and tech on consoles and PCs.</p>
-
-
-
-
-
-			
-			
-						<p data-nosnippet="">
-				<strong>About the author: </strong> David has been writing about videogames, technology, and culture since 2020, with a focus on reporting daily news across multiple publications, including GameDaily.Biz, GameSkinny, and PlayStation Universe before joining Wccftech in 2025. Besides being up-to-date on the industry's movements, he loves interviewing developers, reviewing games, and writing intricate essays about the symbolism and layered meanings to be found in rich narratives as he's done for publications like GamesIndustry.Biz, LostInCult, and others. Outside of games he loves movies, music, theatre, his hometown, and his family, though not necessarily in that order.			</p>
-			
-			<p data-nosnippet="">
-				Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.
-			</p>
-			
-
-
-		</div></div><br/><br/>https://wccftech.com/analyst-argues-it-wouldnt-be-a-surprise-to-see-microsoft-and-nintnedo-raise-hardware-prices-following-ps5-price-increase/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
