@@ -4,9 +4,887 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Tue, 31 Mar 2026 10:22:11 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 31 Mar 2026 11:19:19 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[ARC Raiders update 1.22 brings along Flashpoint]]></title>
+            <link>https://www.thesixthaxis.com/2026/03/31/arc-raiders-update-1-22-brings-along-flashpoint/</link>
+            <guid>1478221</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>ARC Raiders latest update is upon us with update 1.22 marking the start of Flashpoint, which is a new chapter to sink your time into. One of the major additions is the ARC Operation called Close Scrutiny. In this event, the map contains less loot but the new ARC Assessor may hold ample riches while also providing new insights into the general ARC threat. Players will need to watch out for the new ARC Vaporizer, a flying enemy type that fires lasers. There’s also a new project where players need to build a high gain antenna. The full patch notes are below.</p>
+<p><iframe title="Flashpoint Update | ARC Raiders" width="780" height="439" src="https://www.youtube.com/embed/g-eeA32ap-w?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+
+
+
+<h2><strong>What’s New?</strong></h2>
+<ul>
+<li value="1">Map Condition Close Scrutiny – ARC Operation</li>
+<li value="2">ARC – Vaporizer</li>
+<li value="3">Legendary Energy shotgun – Dolabra</li>
+<li value="4">Rare Medium Ammo SMG – Canto</li>
+<li value="5">Rare Deployable – Surge Coil</li>
+<li value="6">High-Gain Antenna Player Project</li>
+<li value="7">Shredders added to all maps</li>
+<li value="8">Scrappy Feeding Boost</li>
+<li value="9">Wasp Hunter Set</li>
+<li value="10">The Brigade Set</li>
+</ul>
+<h2><strong>Patch Highlights</strong></h2>
+<ul>
+<li value="1">Increased loot value in all locked rooms with a scaled increase depending on the key rarity.</li>
+<li value="2">Players who build their own loadout are more likely to join fresh servers.</li>
+<li value="3">Crafting Improvements.</li>
+<li value="4">Hide HUD on Console.</li>
+</ul>
+<h2><strong>Balance Changes</strong></h2>
+<h3><strong>ARC</strong></h3>
+<ul>
+<li value="1">Rocketeers will now take less damage from collisions, and will no longer be instantly destroyed upon impact when stunned.</li>
+<li value="2">Reduced the chance for multiple Fireflies to spawn together.</li>
+<li value="3">Decreased the time it takes for ARC to identify players that are very close in-front of them.</li>
+</ul>
+<h3><strong>Items</strong></h3>
+<ul>
+<li value="1">Free Augments can now be recycled into 6 plastic and 6 rubber parts.</li>
+<li value="2">The Firefly Burner has a new extra-spicy functionality.</li>
+</ul>
+<h3><strong>Maps</strong></h3>
+<ul>
+<li value="1">Increased loot value in all locked rooms with a scaled increase depending on the key rarity.</li>
+<li value="2">Increased loot spawns from Baron Husks.</li>
+<li value="3">Players who build their own loadout are more likely to join fresh servers.</li>
+</ul>
+<p><strong>Dev note:&nbsp;</strong>As part of an ongoing look at free loadout usage and how it impacts the game, we’re going to bias the matchmaking to put players with custom loadouts into fresh servers. This won’t be a guarantee, as map choice, time of day, and region will still affect the number of players available to matchmake. This does have an effect on overall matchmaking times so we’ll be keeping a close eye on it. Free Loadouts are primarily meant as a safety net for a player’s personal economy. With these kits, those who play carefully should have enough to build themselves back up, accomplish a few tasks, or make a bit of progress.</p>
+<h2><strong>Content and Bug Fixes</strong></h2>
+<h3><strong>Animation</strong></h3>
+<ul>
+<li value="1">Reduced pose popping when starting to sprint, improved sprint transitions, and refined animations when starting movement from idle.</li>
+<li value="2">Fixed Comet head jitter.</li>
+<li value="3">Fixed an issue where the weapon mesh is misplaced during the automatically triggered animation of re-equipping it after breaching doors.</li>
+<li value="4">Fixed an issue where fire damage would trigger bullet hit reactions.</li>
+</ul>
+<h3><strong>Audio</strong></h3>
+<ul>
+<li value="1">Improved stability of proximity voice chat.</li>
+<li value="2">Removed indoor wind reaction sounds to avoid confusion with player-generated sounds like looting.</li>
+<li value="3">Fixed missing secondary-use audio for the ARC Power Core and restored the use sound when repairing another player’s armor.</li>
+<li value="4">Improved positional audio clarity for other players.</li>
+<li value="5">Opening and closing doors can be heard from farther away.</li>
+<li value="6">Improved directional audio for flying ARC.</li>
+<li value="7">Adjusted directional filtering of sounds increasing clarity of sounds coming from behind the player.</li>
+<li value="8">Improved long-range hit feedback by adding distant variations to bullet impact indicator sounds.</li>
+<li value="9">Considerably reduced weapon audio latency. Windows: Only applies on systems with at least 16 GB RAM.</li>
+<li value="10">Improved responsiveness of continuous-fire weapon audio, reducing delay and desync when releasing the trigger.</li>
+<li value="11">Fixed missing tab navigation sounds in the UI when using a gamepad.</li>
+</ul>
+<h3><strong>ARC</strong></h3>
+<ul>
+<li value="1">Improved behaviour for stunned Comets.</li>
+<li value="2">Improved the ARC target selection to allow switching targets more freely and to “zero in” less on the first target.</li>
+<li value="3">Fixed an issue where flying ARC (especially Fireflies) would spawn inside walls and attack players from outside the walls and floors in Stella Montis.</li>
+<li value="4">All interactions are now disabled when grabbed by a Tick except the interaction to fight it off.</li>
+</ul>
+<h3><strong>Customization</strong></h3>
+<ul>
+<li value="1">Fixed an issue where parts of the Low Bun and Curly Mullet were not animated.</li>
+<li value="2">Fixed an issue where beards would disappear with some headgear.</li>
+</ul>
+<h3><strong>Gameplay</strong></h3>
+<ul>
+<li value="1">Fixed an issue that allowed players to use ziplines or ladders while carrying items (e.g. Field Crate). Carryables are now dropped when grabbing a zipline or ladder.</li>
+<li value="2">Fixed an issue where players who joined near the end of the late-join window could have ARC spawn on them immediately.</li>
+<li value="3">Added gamepad aim assist to Leaper legs and core.</li>
+<li value="4">Fixed an issue where you could take fall damage when attempting to vault on Comets.</li>
+<li value="5">Remote Raider Flares can now be disarmed with the Mine Sweeper skill.</li>
+<li value="6">Fixed an issue where using LMB/RMB while unarmed could delay or prevent equipping a weapon, tool, or quick-use item.</li>
+<li value="7">Fixed an issue where eliminations with Trailblazer or Shrapnel Grenade did not count toward the “Horseshoes and Hand Grenades” achievement.</li>
+</ul>
+<h3><strong>Maps</strong></h3>
+<ul>
+<li value="1">Shredders are now added to all maps (only during certain map conditions on Dam Battlegrounds).</li>
+<li value="2">Fixed an instance where players could go out of bounds in the tutorial.</li>
+</ul>
+<h4><strong>Dam Battlegrounds</strong></h4>
+<ul>
+<li value="1">Added more Sentinel spawn points.</li>
+<li value="2">Adjusted area coverage for Leapers, Bombardiers, and Bastions to improve navigation.</li>
+<li value="3">Fixed various clipping, floating objects, and terrain gaps.</li>
+</ul>
+<h4><strong>Buried City</strong></h4>
+<ul>
+<li value="1">Fixed multiple spots where players could get stuck.</li>
+<li value="2">Added more Sentinel spawn points and made spawns more consistent.</li>
+<li value="3">Opened up navigation on some Old Town streets for ARC to move more freely.</li>
+<li value="4">Adjusted area coverage for Leapers, Bombardiers and Bastions to improve navigation and variety.</li>
+<li value="5">Increased the variety of Leaper, Bombardier, Bastion and Rocketeer distribution during the Night Raid map condition.</li>
+</ul>
+<h4><strong>Blue Gate</strong></h4>
+<ul>
+<li value="1">Added more Sentinel spawn points.</li>
+<li value="2">Adjusted area coverage for certain big enemies to improve navigation.</li>
+<li value="3">Reduced the number of Comets during the Hurricane map condition.</li>
+<li value="4">Locked Gate:</li>
+<li value="5">
+<ul>
+<li value="1">Some side entrances now unlock with the main gate,</li>
+<li value="2">Security Codes now come from Code Printers instead of containers,</li>
+<li value="3">Security Codes expire upon extraction.</li>
+</ul>
+</li>
+</ul>
+<h4><strong>Spaceport</strong></h4>
+<ul>
+<li value="1">Resolved several instances of floating objects and clipping.</li>
+<li value="2">Added more Sentinel spawn points.</li>
+<li value="3">Fixed players getting stuck in elevator shafts.</li>
+<li value="4">Added more mushroom spawn locations to improve resource availability.</li>
+<li value="5">Increased chances for high-tier loot from completing the rooftop activity during the Launch Tower Loot map condition.</li>
+<li value="6">Added a delay after the final antenna is activated before the bunker opens during Hidden Bunker map condition.</li>
+</ul>
+<h4><strong>Stella Montis</strong></h4>
+<ul>
+<li value="1">Fixed a missing wall in the Security Lobby.</li>
+</ul>
+<h3><strong>Movement</strong></h3>
+<ul>
+<li value="1">Fixed an issue where characters did not immediately face ladders when aligning to climb.</li>
+<li value="2">Fixed an issue where sprint could be retriggered and canceled when holding fire and sprint together.</li>
+</ul>
+<h3><strong>Performance</strong></h3>
+<ul>
+<li value="1">Improved texture streaming to reduce stalls and make streaming more responsive on lower-spec systems; corrected streaming calculations to respect component scale.</li>
+<li value="2">Optimized texture streaming calculations to improve performance and reduce stuttering.</li>
+<li value="3">Optimized CPU performance.</li>
+</ul>
+<h3><strong>Rendering</strong></h3>
+<ul>
+<li value="1">Reduced shadow popping.</li>
+<li value="2">Reduced popping from vegetation and debris.</li>
+<li value="3">Fixed flickering shadows from vegetation.</li>
+<li value="4">Upgraded Intel XeSS to SDK version 2.1.1.</li>
+<li value="5">Upgraded AMD FSR to SDK version 2.1.0.</li>
+<li value="6">Tweaked AMD FSR for improved responsiveness and image clarity.</li>
+</ul>
+<h3><strong>Quests</strong></h3>
+<ul>
+<li value="1">Fixed items being incorrectly consumed during interactions in the “After Rain Comes” quest.</li>
+<li value="2">Fixed effect syncing issues in the quest “A Dead End”.</li>
+<li value="3">Reworked quest tracking to prevent an issue that could block quest progression in some cases, and to improve visualization. Progress bars now indicate what progress may be lost if you fail to extract.</li>
+</ul>
+<h3><strong>Stability</strong></h3>
+<ul>
+<li value="1">Resolved a crash that could occur in the tutorial.</li>
+<li value="2">Fixed a rare crash that could occur when loading into a Practice Range session.</li>
+</ul>
+<h3><strong>UI</strong></h3>
+<ul>
+<li value="1">Crafting improvements:</li>
+<li value="2">
+<ul>
+<li value="1">Quickly acquire missing materials directly from the crafting view.</li>
+<li value="2">Recycling, refining, or purchasing missing materials is now available in the same window to complete crafting.</li>
+</ul>
+</li>
+<li value="1">All party members can now see active map conditions while in Speranza. Members can also ping destinations they’d like to depart to.</li>
+<li value="2">Checking one matchmaking option (Fill Squad or Solo vs. Squad) now disables the other.</li>
+<li value="3">Matchmaking timer is now shown at the bottom of all screens next to the selected destination.</li>
+<li value="4">Fixed an issue where stash overflow could be shown incorrectly when detaching mods from the inspect screen.</li>
+<li value="5">The store tab now shows a new items marker when the store rotation changes.</li>
+<li value="6">Fixed inverted gamepad camera zoom on Decks and Store screens.</li>
+<li value="7">Fixed missing action text for several throwable items; prompts now display correctly.</li>
+<li value="8">Added an option to change HUD visibility mode in Gameplay Options for console (also available via F10 on PC).</li>
+<li value="9">
+<ul>
+<li value="1">These HUD options are:</li>
+<li value="2">
+<ul>
+<li value="1">Visible</li>
+<li value="2">Crosshair and Interactions Only</li>
+<li value="3">Crosshair Only</li>
+<li value="4">Hidden</li>
+</ul>
+</li>
+</ul>
+</li>
+<li value="9">The inventory screen now shows stash value.</li>
+<li value="10">Pinging a Barricade now shows the ping by the crosshair instead of offset.</li>
+<li value="11">Emote tiles in character customization now show a wheel icon indicating which slot each emote is equipped in.</li>
+<li value="12">Purchase preview dialog now displays a detailed breakdown of bundle contents.</li>
+<li value="13">The customization screen now shows a small preview of the bundle.</li>
+</ul>
+<h3><strong>VFX</strong></h3>
+<ul>
+<li value="1">Fixed an issue where Sentinel’s laser was shorter than its sight range in some cases.</li>
+<li value="2">Fixed ARC damage visual effects sometimes being visible through walls under certain circumstances.</li>
+</ul>
+<h2><strong>Known Issues</strong></h2>
+<ul>
+<li value="1">The Firefly may sometimes disappear after going idle and drop an incendiary grenade.</li>
+<li value="2">The persistent sound of a destroyed Comet can be heard occasionally.</li>
+<li value="3">Shredders float to the ceiling in some rooms of the Hidden Bunker</li>
+<li value="4">ARC may spawn inside the geometry on The Dam.</li>
+<li value="5">There is an invisible collision under the Turret at a few locations on Buried City and Spaceport.</li>
+<li value="6">Flying ARC may sometimes appear stuck in idle.</li>
+<li value="7">Helmet visors become transparent after the first extraction.</li>
+<li value="8">‘Purchase Raider Tokens’ page may appear in front of the inbox and profile page when switching between them.</li>
+<li value="9">Player animations may appear broken when interrupting a search of the Baron Husk.</li>
+<li value="10">Pressing fire with an empty mag triggers a reload, and once the reload is complete, the weapon automatically fires a shot without an additional trigger press.</li>
+<li value="11">When equipping quick-use items, clicking too rapidly may prevent them from activating – you need to release and press again for the input to register.</li>
+<li value="12">The top stairs in Grandioso apartments are not visible even though the collision is there.</li>
+</ul>
+<p><em>Source: <a href="https://arcraiders.com/news/patch-notes-1-22-0">Flashpoint – Patch Notes 1.22.0 | ARC Raiders</a></em></p>
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div></div><br/><br/>https://www.thesixthaxis.com/2026/03/31/arc-raiders-update-1-22-brings-along-flashpoint/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Warhorse Rumored to Be Working on New The Lord of the Rings Open World Game]]></title>
+            <link>https://wccftech.com/warhorse-the-lord-of-the-rings-open-world-game/</link>
+            <guid>1478215</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			<div data-nosnippet="">
+		
+		<ul>
+			<li>0-20%: Unlikely - Lacks credible sources</li>
+			<li>21-40%: Questionable - Some concerns remain</li>
+			<li>41-60%: Plausible - Reasonable evidence</li>
+			<li>61-80%: Probable - Strong evidence</li>
+			<li>81-100%: Highly Likely - Multiple reliable sources</li>
+		</ul>
+	</div>
+
+
+			
+			
+			
+			<p><strong>Warhorse Studios</strong>, the Czech team behind the <strong>Kingdom Come: Deliverance</strong> series, might be working on the previously rumored <strong>The Lord of the Rings</strong> open world game. The news comes from Ryszard ‘RYSŁAW’ Chojnowski, a Polish translator, creator, journalist, and lecturer on gaming who was featured <span><a href="https://www.youtube.com/watch?v=ahJxI4pVzE4&amp;t=15260s" target="_blank">on the Tolkien Polska Podcast last week</a></span>.</p>
+
+
+
+<p>Chojnowski claims to have heard the rumor a couple of months ago. He did not believe it at first, but there have been more whispers about it recently. This should be the third-person The Lord of the Rings action game that was first <a href="https://wccftech.com/new-lord-of-the-rings-third-person-action-game-in-development-rumor/" type="link" id="https://wccftech.com/new-lord-of-the-rings-third-person-action-game-in-development-rumor/" target="_blank" rel="noreferrer noopener">unveiled</a> by Insider Gaming back in September 2025. According to that report, the project was partially funded by the <strong>Abu Dhabi Investment Office</strong> (ADIO) with around <strong>$100 million</strong>. Its goal is apparently to compete directly with the likes of Hogwarts Legacy, which was the best-selling game in 2023, and multiple studios are said to be involved in its development.</p>
+
+
+
+<p>In truth, Internet sleuths <a href="https://www.reddit.com/r/GamingLeaksAndRumours/comments/1q57w71/warhorse_is_currently_working_on_a_game_in_ue/" type="link" id="https://www.reddit.com/r/GamingLeaksAndRumours/comments/1q57w71/warhorse_is_currently_working_on_a_game_in_ue/" target="_blank" rel="noreferrer noopener">had already discovered</a> earlier this year that Warhorse might be working on a separate project beyond the inevitable <strong>Kingdom Come: Deliverance 3</strong>. There are job postings seeking experience with Unreal Engine, and the studio's historical RPG series is notoriously powered by CryEngine. It is unlikely that that will change for the new installment, as it would mean abandoning an established workflow. However, it makes perfect sense to use Unreal Engine for a brand new project, especially if the studio needed to quickly recruit more developers for a separate, dedicated team. </p>
+
+
+
+<p>Warhorse has definitely proven its chops on open world games with the first and second Kingdom Come: Deliverance. The latter in particular earned rave reviews (including <strong><a href="https://wccftech.com/review/kingdom-come-deliverance-ii/" type="link" id="https://wccftech.com/review/kingdom-come-deliverance-ii/" target="_blank" rel="noreferrer noopener">a perfect score from our own Chris Wray</a></strong>) and <strong><a href="https://wccftech.com/kingdom-come-deliverance-ii-5-million-units-sold/" type="link" id="https://wccftech.com/kingdom-come-deliverance-ii-5-million-units-sold/" target="_blank" rel="noreferrer noopener">sold five million units in its first year</a></strong>. With the exception of CD Projekt RED, which is already busy with The Witcher IV, it's hard to imagine a more suitable developer.</p>
+
+
+
+<p>Weirdly enough, there has never been an open world single player action RPG set in Tolkien's world. <strong>Monolith</strong>'s <strong>Shadow of Mordor/War</strong> titles were action/adventure games, and prior games were not open world, unless you count <strong>Turbine's The Lord of the Rings Online</strong>, which is, of course, an MMORPG. Another MMORPG was in development at Amazon Game Studios but <a href="https://wccftech.com/amazon-game-studios-lord-of-the-rings-mmo-cancelled-again-amidst-mass-layoffs/" type="link" id="https://wccftech.com/amazon-game-studios-lord-of-the-rings-mmo-cancelled-again-amidst-mass-layoffs/" target="_blank" rel="noreferrer noopener">was quietly canceled</a> after Amazon decided to wind down most of its gaming investments.</p>
+
+
+
+<p>This project, if it is indeed real, is likely to be still years away from completion. Even so, we'll keep our ear to the ground for any further rumors and leaks.</p>
+
+			
+			
+			
+			<p data-nosnippet="">
+				Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.
+			</p>
+			
+
+
+		</div></div><br/><br/>https://wccftech.com/warhorse-the-lord-of-the-rings-open-world-game/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Close Scrutiny Map Condition In ARC Raiders—ARC Operations, Explained]]></title>
+            <link>https://insider-gaming.com/close-scrutiny-map-condition-in-arc-raiders-arc-operations-explained/</link>
+            <guid>1478212</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+        
+<p>Flashpoint has brought a lot of new content to ARC Raiders, but one of the highlights is undoubtedly the new Close Scrutiny Major Map Condition. It’s the first ARC Operation, which is set to be an entirely unique set of Map Conditions going forwards. </p>
+
+
+
+<p>Whilst some Map Conditions can alter the environment, like the <a href="https://insider-gaming.com/hurricane-map-condition-in-arc-raiders-shrouded-sky-explained/" id="https://insider-gaming.com/hurricane-map-condition-in-arc-raiders-shrouded-sky-explained/" target="_blank" rel="noreferrer noopener">Hurricanes</a>, it seems that these ARC Operations will revolve around unique ARC encounters, with Close Scrutiny being the first. However, with more ARC comes an especially difficult Map Condition, so it’s not for the faint of heart. </p>
+
+
+
+
+
+
+
+<p>Here’s what maps you can find the new Close Scrutiny Map Condition, as well as what changes it brings to <a href="https://insider-gaming.com/tag/arc-raiders/" id="790" target="_blank" rel="noreferrer noopener">ARC Raiders</a>. </p>
+
+
+
+<h2 id="h-what-maps-are-close-scrutiny-on-in-arc-raiders">What Maps Are ‘Close Scrutiny’ On In ARC Raiders?</h2>
+
+
+
+<figure><figcaption>It’s pretty regular. Image by Insider Gaming.</figcaption></figure>
+
+
+
+<p><strong>Close Scrutiny is the first ARC Operation in ARC Raiders, and it’s available on four out of the five currently available maps.</strong></p>
+
+
+
+<ul>
+<li><strong>More Insider Gaming: </strong><a href="https://insider-gaming.com/arc-raiders-high-gain-antenna-project-guide-all-requirements-rewards-explained/">ARC Raiders High Gain Antenna Project Guide</a></li>
+</ul>
+
+
+
+<p>A few of the maps were teased in the build-up to the <a href="https://insider-gaming.com/arc-raiders-flashpoint-update-1-22-0-full-patch-notes/" id="https://insider-gaming.com/arc-raiders-flashpoint-update-1-22-0-full-patch-notes/" target="_blank" rel="noreferrer noopener">Flashpoint update</a>, with the Dam Battlegrounds Swamp the most notable location. Thankfully, it’s not just exclusive to that map, as it’ll show up on the following: </p>
+
+
+
+<ul>
+<li>Dam Battlegrounds</li>
+
+
+
+<li>The Blue Gate</li>
+
+
+
+<li>Spaceport</li>
+
+
+
+<li>Buried City</li>
+</ul>
+
+
+
+<p>Considering the major aspect of Close Scrutiny is the Assessors (they’ll be explained soon), it makes sense that the Major Map Condition won’t appear on Stella Montis, considering it’s an indoor bunker. However, it is high time that Stella Montis received an interesting Map Condition, since it only has access to Night Raid.</p>
+
+
+
+
+
+
+
+<h2 id="h-what-changes-will-the-close-scrutiny-map-condition-make-in-arc-raiders">What Changes Will The Close Scrutiny Map Condition Make In ARC Raiders? </h2>
+
+
+
+<figure><figcaption>Follow the light! Image by Insider Gaming.</figcaption></figure>
+
+
+
+<p><strong>During the Close Scrutiny ARC Operation, Assessors will spawn across the map, though they’ll be protected by Vaporizers, a terrifyingly strong ARC.</strong></p>
+
+
+
+<p>Assessors are essentially giant ARC probes that land across the map, and you can find them pretty easily thanks to the large red beam that shoots off of them and into the sky. You’ll quickly realise that they’re heavily guarded, but if you can defeat the surrounding ARC (good luck with the Vaporizers), you’ll get a chance to breach one of the three probes. </p>
+
+
+
+<ul>
+<li><strong>More Insider Gaming:</strong> <a href="https://insider-gaming.com/arc-raiders-third-expedition-project-guide-exact-expedition-window-project-requirements/">ARC Raiders Third Expedition Project Guide</a></li>
+</ul>
+
+
+
+<p>However, once you start, loud sounds will be emitted, attracting more ARC, making it practically essential to destroy the surrounding enemies first—or at least get somebody to distract them. </p>
+
+
+
+<figure><figcaption>Be quick! Image by Insider Gaming.</figcaption></figure>
+
+
+
+<p>It’s worth the hassle, as inside these Assessors is where you can find the Blueprint for the brand-new Legendary Energy shotgun, the Dolabra. It’s going to be rare, so be ready to search plenty of Assessors, but it’s bound to be worth it for one of the new weapons. </p>
+
+
+
+<p>The ARC Operation does come with its downsides, though, as the overall map is heavily nerfed. Locked Doors are disabled, and the overall loot across the map is diminished in favour of increased ARC loot. If you’re playing during Close Scrutiny, you’ll want to focus on ARC, as that’s where the best rewards are. </p>
+
+
+
+<hr>
+
+
+
+<p>Will you be playing during the Close Scrutiny Map Condition? Share your thoughts in the official <a href="https://discord.com/channels/1433093283558719611/1433112738133180426" id="https://discord.com/channels/1433093283558719611/1433112738133180426" target="_blank" rel="noreferrer noopener">Insider Gaming Discord Server</a>.</p>
+
+
+
+<p>For more ARC Raiders content, check out Insider Gaming’s <a href="https://insider-gaming.com/arc-raiders-event-tracker-every-map-condition-schedule/" id="https://insider-gaming.com/arc-raiders-event-tracker-every-map-condition-schedule/" target="_blank" rel="noreferrer noopener">Map Condition Tracker</a>.</p>
+
+
+        
+            
+
+    <div id="ig-app-cta">
+          <p><i></i> MOBILE APP</p>
+          <h2>Level Up Your Gaming News</h2>
+          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
+          
+          <p><i></i> Available on iOS &amp; Android</p>
+        </div>
+
+    
+    
+    </div></div><br/><br/>https://insider-gaming.com/close-scrutiny-map-condition-in-arc-raiders-arc-operations-explained/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Rec Room will be shutting down on June 1st]]></title>
+            <link>https://www.thesixthaxis.com/2026/03/31/rec-room-will-be-shutting-down-on-june-1st/</link>
+            <guid>1478203</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>Developer Rec Room has announced that it will be shutting down its social and gaming title Rec Room, where players could hang out, create games, and make things in both standard and VR modes. The game will be shutting down on June 1st, which is also Rec Room’s 10th anniversary since launch. After that date, players will no longer be able to access the game or the website. From today, no new accounts can be created, friends cannot be added, RR+ membership sign ups are closed, Room Rewards program has been ended, and monetised items cannot be created.</p>
+<p><iframe title="Farewell to Rec Room: 2016 - 2026" width="780" height="439" src="https://www.youtube.com/embed/IV_MnwHPpqk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+
+
+<p>In a statement the development team wrote, <em>“Over the past decade, Rec Room grew into something amazing, reaching over 150 million players and creators along the way. Players made over half a billion friends on the platform. In total, people all around the world spent a cumulative 68 thousand years in Rec Room. The top UGC rooms saw over 500 years of play time each. That’s a lot of people having a lot of fun. What this community built together is incredible, and something we’ll always be proud of. Even today, millions of people are showing up to spend time in this fun and welcoming place every month.</em></p>
+<p><em>Despite this popularity, we never quite figured out how to make Rec Room a sustainably profitable business. Our costs always ended up overwhelming the revenue we brought in. We spent a long time trying to find a way to make the numbers work. But with the recent shift in the VR market, along with broader headwinds in gaming, the path to profitability has gotten tough enough that we’ve made the difficult decision to shut things down. We’re making this decision now, while we still have the ability to wind things down thoughtfully and do right by the people who built this with us.”</em></p>
+
+<p>As a thank you to players the Rec Room team all first party content is being discounted by 80%, and some of the Rec Room+ items will be available to all players. Players will also be able to download their photos and final report cards. To download photos from the game Rec Room has <a href="https://recroom.zendesk.com/hc/en-us/articles/39239520954903-Exporting-Rec-net-Photos">provided instructions here.</a> To get your final report card you can <a href="https://recroom.zendesk.com/hc/en-us/articles/39240723191703-Saving-your-Report-Card">follow the instructions here</a>. Creators will be able to download their room and invention data through formats that can then be opened using other tools like Unity, but this can only be done through Steam and the function will go live next week. Working copies of rooms cannot be downloaded as it will not be possible to run them without the Rec Room servers.</p>
+<p><em>Source: <a href="https://blog.recroom.com/posts/schools-out-for-rec-room">Rec Room</a></em></p>
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div></div><br/><br/>https://www.thesixthaxis.com/2026/03/31/rec-room-will-be-shutting-down-on-june-1st/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[NYT Mini Crossword Hints Today—Answers For Tuesday, March 31]]></title>
+            <link>https://insider-gaming.com/nyt-mini-crossword-hints-march-31-2026/</link>
+            <guid>1478200</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+        
+<p>The NYT Mini Crossword is a popular, quick-to-complete word game to test yourself daily, but some of the puzzles can be difficult to complete, so here are some hints.</p>
+
+
+
+<p>If you’ve found yourself stuck on today’s&nbsp;<a href="https://insider-gaming.com/tag/nyt-mini/">NYT Mini</a>, Insider Gaming has some helpful hints and all the answers for the NYT Mini Crossword on Tuesday, March 31, 2026.</p>
+
+
+
+<p id="block-a3d47262-a89d-4341-93f0-34626756e4b3"><em><strong>IMPORTANT:</strong>&nbsp;The following information includes spoilers on today’s edition of the NYT Mini Crossword. If you don’t want the answer given to you, stop scrolling.</em></p>
+
+
+
+
+
+
+
+<h2 id="h-how-to-play-nyt-mini-crossword">How to Play NYT Mini Crossword</h2>
+
+
+
+<figure><figcaption>Daily challenge. Image via NYT</figcaption></figure>
+
+
+
+<p>The NYT Mini Crossword is available to play on the New York Times Games app or website, but, as of September 2025, a New York Times Game subscription is required.</p>
+
+
+
+<p>The NYT Games Subscription is priced at $6.95 per month, but there are introductory offers available for other NYT subscriptions that include games access, which might be worth considering.</p>
+
+
+
+<p>Without a Games subscription, access to the NYT Mini Crossword is blocked.</p>
+
+
+
+<h2 id="h-nyt-mini-crossword-clues-march-30">NYT Mini Crossword Clues (March 30)</h2>
+
+
+
+<p>Here are all the clues provided for the NYT Mini Crossword for March 31, 2026.</p>
+
+
+
+<h3 id="h-across">Across</h3>
+
+
+
+<p>1 – ‘Paradise’ or ‘Lost’</p>
+
+
+
+<p>5 – Hawaiian island with the famous Road to Hana</p>
+
+
+
+<p>6 – ___Zeneca (pharma company)</p>
+
+
+
+<p>8 – “Stainless” metal</p>
+
+
+
+<p>9 – One half of a centaur</p>
+
+
+
+<h3 id="h-down">Down</h3>
+
+
+
+<p>1 – Massive success</p>
+
+
+
+<p>2 – Must</p>
+
+
+
+<p>3 – ___ borough (term for the non-Manhattan parts of New York City)</p>
+
+
+
+<p>4 – Electrician’s speciality</p>
+
+
+
+<p>7 – Bar beverage</p>
+
+
+
+<h2 id="h-additional-clues-for-nyt-mini-march-31">Additional Clues For NYT Mini (March 31)</h2>
+
+
+
+<p>Here are some additional clues to help you solve the NYT Mini Crossword on March 31, 2026.</p>
+
+
+
+<h3 id="h-across-0">Across</h3>
+
+
+
+<p>1 – School activity, ___ and tell</p>
+
+
+
+<p>5 – Dwayne ‘The Rock’ Johnson’s character in Moana</p>
+
+
+
+<p>6 – Vauxhall/Opel model</p>
+
+
+
+<p>8 – 2011 film starring Hugh Jackman, ___ Steel</p>
+
+
+
+<p>9 – Cowboy’s animal</p>
+
+
+
+<h3 id="h-down-0">Down</h3>
+
+
+
+<p>1 – Popular internet game, ___ or pass?</p>
+
+
+
+<p>2 – Necessary, obligation, or duty</p>
+
+
+
+<p>3 – ___ space, beyond Earth’s atmosphere</p>
+
+
+
+<p>4 – Miscommunication, ‘___ crossed’</p>
+
+
+
+<p>7 – Popular style of beer</p>
+
+
+
+<h2 id="h-all-nyt-mini-crossword-answers-march-31">All NYT Mini Crossword Answers (March 31)</h2>
+
+
+
+<p>Here are all the answers for the NYT Mini Crossword on March 31, 2026.</p>
+
+
+
+<h3 id="h-across-1">Across</h3>
+
+
+
+<p>1 – SHOW</p>
+
+
+
+<p>5 – MAUI</p>
+
+
+
+<p>6 – ASTRA</p>
+
+
+
+<p>8 – STEEL</p>
+
+
+
+<p>9 – HORSE</p>
+
+
+
+<h3 id="h-down-1">Down</h3>
+
+
+
+<p>1 – SMASH</p>
+
+
+
+<p>2 – HASTO</p>
+
+
+
+<p>3 – OUTER</p>
+
+
+
+<p>4 – WIRES</p>
+
+
+
+<p>7 – ALE</p>
+
+
+
+<h2 id="h-when-is-the-next-game">When is The Next Game?</h2>
+
+
+
+<p>The NYT Mini Crossword refreshes daily at 10 PM ET on weekdays and Saturdays, and at 6 PM ET on Sundays.</p>
+
+
+
+<p>As such, the next NYT Mini Crossword will be available at 7 PM PT/9 PM CT/10 PM ET/3 AM GMT/2 PM AET.</p>
+
+
+
+<h2 id="h-what-is-the-nyt-mini-crossword">What is The NYT Mini Crossword?</h2>
+
+
+
+<p>The NYT Mini Crossword was introduced in 2014 as a shorter and quicker-to-complete game to accompany the main New York Times Crossword, which was initially released in 1942.</p>
+
+
+
+<p>Until September 2025, the NYT Mini Crossword was free, but it has now been consolidated into a monthly NYT Games Subscription alongside several other popular games.</p>
+
+
+
+<hr>
+
+
+
+<p>Did you struggle with the NYT Mini Crossword today? Share your thoughts in the&nbsp;<a href="https://discord.com/invite/vwj7zdWxaW" target="_blank" rel="noreferrer noopener">Insider Gaming Discord</a>.</p>
+
+
+
+<p>For more word game guides, check out hits to <a href="https://insider-gaming.com/todays-contexto-hints-answer-for-march-31-2026/" target="_blank" rel="noreferrer noopener">today’s Contexto</a>, and take a look at the <a href="https://insider-gaming.com/todays-wordle-1746-hints-answer-march-31-2026/" target="_blank" rel="noreferrer noopener">hints and answer for today’s Wordle</a>.</p>
+
+
+        
+            
+
+    <div id="ig-app-cta">
+          <p><i></i> MOBILE APP</p>
+          <h2>Level Up Your Gaming News</h2>
+          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
+          
+          <p><i></i> Available on iOS &amp; Android</p>
+        </div>
+
+    
+    
+    </div></div><br/><br/>https://insider-gaming.com/nyt-mini-crossword-hints-march-31-2026/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Rec Room shutting down after failing to become 'sustainability profitable']]></title>
+            <link>https://www.gamedeveloper.com/business/rec-room-shutting-down-after-failing-to-become-sustainability-profitable-</link>
+            <guid>1478191</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-testid="article-base-contributors"><div data-component="contributors"><a data-testid="contributor-name" href="https://www.gamedeveloper.com/author/chris-kerr" target="_self" data-discover="true">Chris Kerr<!-- -->,</a><p><span data-testid="contributor-title">Senior Editor, News<!-- -->,</span><span data-testid="contributor-title">GameDeveloper.com</span></p><p data-testid="contributors-date">March 31, 2026</p></div><p><span data-component="icon" data-name="Clock"></span><span data-testid="article-read-time-text">2 Min<!-- --> <!-- -->Read</span></p></div><div data-module="content" data-testid="article-base-body-content"><p data-testid="content-paragraph"><span data-testid="content-text">VR chat and game platform </span><span data-testid="content-text"><span>Rec Room</span></span><span data-testid="content-text"> is shutting down on June 1, 2026. The closure will come precisely a decade after the title launched.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Eponymous </span><span data-testid="content-text"><span>Rec Room</span></span><span data-testid="content-text"> developer Rec Room explained it never figured out how to effectively monetize the experience, which was available on numerous VR platforms including Meta Quest, PlayStation VR, and Pico.&nbsp;</span></p><p data-testid="content-paragraph"><span data-testid="content-text">The title could also be played without a VR headset on console and PC platforms, and featured a suite of UGC tools that enabled players to create their own play experiences called 'Rooms.'&nbsp;</span></p><p data-testid="content-paragraph"><span data-testid="content-text"><span>Rec Room</span></span><span data-testid="content-text"> was freely accessible but featured purchasable in-game currency in the form of tokens that could be spent on items such as cosmetics. An optional paid membership called Rec Room Plus was also introduced for $7.99/month and offered unique benefits such as discounts, exclusive items, and a monthly token allowance.&nbsp;</span></p><p data-testid="content-paragraph"><span data-testid="content-text">"The top UGC rooms saw over 500 years of play time each. That’s a lot of people having a lot of fun. What this community built together is incredible, and something we'll always be proud of. Even today, millions of people are showing up to spend time in this fun and welcoming place every month," </span><span data-testid="content-text"><a rel="noreferrer" target="_blank" href="https://blog.recroom.com/posts/schools-out-for-rec-room">reads a blog post announcing the shutdown</a></span><span data-testid="content-text">.&nbsp;</span></p><p data-component="related-article"><span data-testid="related-article-title">Related:</span><a href="https://www.gamedeveloper.com/business/embracer-has-laid-off-124-employees-at-eidos-montreal" target="_self" data-discover="true">Embracer Group has laid off 124 employees at Eidos Montreal</a></p><p data-testid="content-paragraph"><span data-testid="content-text">"Despite this popularity, we never quite figured out how to make </span><span data-testid="content-text"><span>Rec Room</span></span><span data-testid="content-text"> a sustainably profitable business. Our costs always ended up overwhelming the revenue we brought in. We spent a long time trying to find a way to make the numbers work. But with the recent shift in the VR market, along with broader headwinds in gaming, the path to profitability has gotten tough enough that we've made the difficult decision to shut things down."</span></p><p data-testid="content-paragraph"><span data-testid="content-text">Rec Room previously </span><span data-testid="content-text"><a href="https://www.gamedeveloper.com/business/developer-rec-room-lays-off-about-half-its-staff" target="_self" data-discover="true">laid off roughly half of its workforce</a></span><span data-testid="content-text"> in August 2025—again citing a need to adjust based on the "financial trajectory of the company."&nbsp;</span></p><p data-testid="content-paragraph"><span data-testid="content-text">The studio </span><span data-testid="content-text"><a href="https://www.gamedeveloper.com/game-platforms/social-app-rec-room-raises-145-million" target="_self" data-discover="true">raised $145 million</a></span><span data-testid="content-text"> at a valuation of $3.5 billion in 2021. It secured around $300 million in funding across its lifetime.&nbsp;</span></p></div><div><h2>About the Author</h2><div data-component="contributor-summary"><p data-testid="contributor-summary-subtitle">Senior Editor, News, GameDeveloper.com</p><div><p data-testid="content-paragraph"><span data-testid="content-text">Game Developer news editor Chris Kerr is an award-winning reporter with over a decade of experience in the game industry. His byline has appeared in notable print and digital publications including Edge, Stuff, Wireframe, International Business Times, and&nbsp;PocketGamer.biz. Throughout his career, Chris has covered major industry events including GDC, PAX Australia, Gamescom, Paris Games Week, and Develop Brighton.&nbsp;</span></p></div></div></div></div><br/><br/>https://www.gamedeveloper.com/business/rec-room-shutting-down-after-failing-to-become-sustainability-profitable-]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Several years later The Long Dark story is finally complete, but "this isn't the end of meaningful development", Hinterland says]]></title>
+            <link>https://www.eurogamer.net/long-dark-wintermute-episode-five-release</link>
+            <guid>1478188</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
+
+
+<header data-component="article-header">
+  
+
+    
+
+
+  <p>
+
+  <figure>
+      <picture>
+        <source srcset="https://assetsio.gnwcdn.com/long-dark_EfBYngP.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/long-dark_EfBYngP.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/long-dark_EfBYngP.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/long-dark_EfBYngP.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/long-dark_EfBYngP.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/long-dark_EfBYngP.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/long-dark_EfBYngP.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/long-dark_EfBYngP.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/long-dark_EfBYngP.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
+        
+      </picture>
+
+        <figcaption>
+          <span>Image credit: <cite>Hinterland</cite></span>
+        </figcaption>
+  </figure>
+  </p>
+
+    
+
+</header>
+  <div data-component="article-content">
+
+
+            <p><a href="https://www.eurogamer.net/games/the-long-dark">The Long Dark</a> developer Hinterland has said the conclusion of the multi-year Wintermute storyline won't mark the end of "meaningful development" of the first-person Arctic survival game.</p>
+<p>Episode Five: The Light at the End of All Things launches today, 31st March, for The Long Dark, finishing a storyline that's been unravelling episodically for several years. The first two episodes were released alongside the game's 1.0 launch back in 2017, so this Story mode conclusion has been a long time coming.</p>
+<p><a href="https://www.linkedin.com/posts/rvanlierop_on-tuesday-a-long-journey-comes-to-an-end-activity-7444045130724118528-5eSd?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAAUoxGIBcYD7dzkEFna_Jwj_cI4OhPmSEjo">On LinkedIn, Hinterland boss Raphael van Lierop</a> characterised the release of Episode Five by saying "a long journey comes to an end". He added, in <a href="https://store.steampowered.com/news/app/305620/view/525370449274601699?l=english">a developer diary for March</a>, "The end of Wintermute and the completion of Episode Five is the end of an era for Hinterland. Finally, we will be able to talk more freely about our plans and ambitions for the future. Some of those plans relate to ongoing TLD development. Some of those plans relate to our work on Blackfrost. Some of those plans relate to other unannounced projects."</p>
+<p>It was against this backdrop I contacted van Lierop to clarify whether this was an end of sorts for The Long Dark development, because as he mentioned, the studio has <a href="https://www.eurogamer.net/snowy-survival-game-the-long-dark-is-heading-to-the-city-in-sequel-blackfrost">a sequel, Blackfrost, in development</a>. An early access launch of that sequel was touted for early this year, but didn't happen. Perhaps <a href="https://www.eurogamer.net/first-person-wilderness-survival-sim-the-long-dark-braves-kickstarter">13 years after The Long Dark was crowdfunded</a>, the studio is ready to move on.</p><p>"This isn't the end of meaningful development for The Long Dark," van Lierop told me in an email, "but it's the end of this part of development and we see it as a major milestone as well as the completion and delivery of what we promised our fans years ago. So, not <em>the </em>end, but also <em>an</em> end." He added in a subsequent email: "We'll have more specifics to share about what comes after Episode Five, after Episode Five launches."</p>
+
+<figure>
+<p>
+<a aria-label="THE LONG DARK -- WINTERMUTE -- Our Story So Far...." data-platform="youtube" href="https://www.youtube.com/embed/SyLk7rIMJkA?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
+<span>THE LONG DARK -- WINTERMUTE -- Our Story So Far....</span>
+<template>
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/SyLk7rIMJkA?autoplay=1" frameborder="0" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/SyLk7rIMJkA?autoplay=1" title="THE LONG DARK -- WINTERMUTE -- Our Story So Far....">
+</iframe> </template>
+</a>
+</p>
+<figcaption>The Long Dark story so far.<a href="https://www.youtube.com/watch?v=SyLk7rIMJkA" rel="noopener" target="_blank">Watch on YouTube</a></figcaption></figure>
+
+
+<p>Story mode is separate to the game's Survival mode, by the way, which pits you against the perils of a frozen North. Also note that Episode Five won't launch on Switch today, alongside other platforms, as "the Switch certification process is so much slower than the other platforms", van Lierop wrote in the developer diary linked above. "Our hope is to have Episode Five out on Switch by the end of April, but depending on external timings, it could take longer."</p>
+<p>Additionally, van Lierop explained that Episode Five might feel different to the game's other episodes in that it's more linear, in order to bring the story to an end. Despite that, it boasts 12-15 hours of adventure so it's substantial compared to the combined 30+ hours the other four episodes offer.</p><p>Oh and if you're playing through the story for the first time, "please keep in mind that each episode reflects the period during which it was created by the team", van Lierop wrote. "Our tools and our skill with them has improved over the years." He added: "We hope you can play the earlier episodes with their age consideration in mind and be gentle in your assessments."</p>
+</div>
+
+  
+      </article>
+
+
+
+  
+
+
+
+  
+
+  <section>
+    <span>Related topics</span>
+
+    
+  </section>
+  </div></div><br/><br/>https://www.eurogamer.net/long-dark-wintermute-episode-five-release]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[The Super Mario Galaxy Movie is set to stomp the global box office this week with the biggest debut of 2026 so far, say analysts]]></title>
+            <link>https://www.eurogamer.net/the-super-mario-galaxy-movie-opening-weekend-box-office-predictions-aim-high</link>
+            <guid>1478182</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
+
+
+<header data-component="article-header">
+  
+
+    
+
+
+  <p>
+
+  <figure>
+      <picture>
+        <source srcset="https://assetsio.gnwcdn.com/Mario-Galaxy-Movie-stonks-custom.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Mario-Galaxy-Movie-stonks-custom.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Mario-Galaxy-Movie-stonks-custom.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Mario-Galaxy-Movie-stonks-custom.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Mario-Galaxy-Movie-stonks-custom.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Mario-Galaxy-Movie-stonks-custom.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Mario-Galaxy-Movie-stonks-custom.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Mario-Galaxy-Movie-stonks-custom.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/Mario-Galaxy-Movie-stonks-custom.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
+        
+      </picture>
+
+        <figcaption>
+          <span>Image credit: <cite>Eurogamer/Special Meme Fresh/Universal Pictures</cite></span>
+        </figcaption>
+  </figure>
+  </p>
+
+    
+
+</header>
+  <div data-component="article-content">
+
+
+            <p><a href="https://www.eurogamer.net/movies/the-super-mario-galaxy-movie-2026">The Super Mario Galaxy Movie</a> finally arrives tomorrow, 1st April, and box office tracking is already looking out of this world. With a five-day weekend ahead of it across the US, Canada, and other international territories enjoying Easter holidays this week, it was easy to see it as the go-to family movie of the early spring season - and fresh data suggests it could be bigger than many expected.</p> <figure>
+<p>
+<a aria-label="The Super Mario Galaxy Movie - Official Teaser | Nintendo Direct" data-platform="youtube" href="https://www.youtube.com/embed/_RpeLk6jJrg?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
+<span>The Super Mario Galaxy Movie - Official Teaser | Nintendo Direct</span>
+<template>
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/_RpeLk6jJrg?autoplay=1" frameborder="0" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/_RpeLk6jJrg?autoplay=1" title="The Super Mario Galaxy Movie - Official Teaser | Nintendo Direct">
+</iframe> </template>
+</a>
+</p>
+<a href="https://www.youtube.com/watch?v=_RpeLk6jJrg" rel="noopener" target="_blank">Watch on YouTube</a></figure>
+<p>Via <a href="https://deadline.com/2026/03/super-mario-galaxy-movie-box-office-projection-1236769157/">Deadline</a>, we're hearing Nintendo, Universal, and Illumination's giant sequel could likely land around the $350m mark worldwide. That's slightly below the $377m that <a href="https://www.ign.com/movies/the-super-mario-bros-movie">The Super Mario Bros. Movie</a> grabbed three years ago during its opening weekend, but the expected domestic gross this time around ($175m) should be a notable 1-up over the original's $146m opening. Similar numbers are expected from the rest of the world (but Japan won't be watching the animated flick until 24th April).</p>
+<p>Traditionally, sequels exhibit moderate-to-sharp drops regardless of reviews, so it's particularly impressive to read The Super Mario Galaxy Movie is barely seeing any dips, at least during its first few days out. We'll have to wait until early next week to get the final reports on its performance, and then a couple more weeks to see if this behemoth has real legs, but so far, it'll be 2026's first jumbo-sized hit, beating <a href="https://www.ign.com/articles/project-hail-mary-review-ryan-gosling">Project Hail Mary</a> ($141m) and Pegasus 3's ($152) global openings by a lot.</p>
+<p>Recent online teases and reveals, like the appearance of <a href="https://www.eurogamer.net/glen-powel-voicing-fox-mccloud-starfox-in-super-mario-galaxy-movie">Fox McCloud (voiced by Glen Powell)</a>, straight from Nintendo and Universal Pictures' socials may be boosting interest in the sequel, which seems to be relying a lot on references to Nintendo IPs and Minions-like comedy. Like it or not, the formula clearly worked in 2023 <a href="https://www.rottentomatoes.com/m/the_super_mario_bros_movie">despite the lukewarm reception from critics</a>, so we can't really blame the powers that be for chasing all those golden coins by playing things safe and nostalgic at a time when theatrical audiences are harder to entice.</p>
+
+        </div>
+
+  
+      </article>
+
+
+
+  
+
+
+
+  
+
+  <section>
+    <span>Related topics</span>
+
+    
+  </section>
+  </div></div><br/><br/>https://www.eurogamer.net/the-super-mario-galaxy-movie-opening-weekend-box-office-predictions-aim-high]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[Mario Kart World gets Bob-omb Blast in update 1.6.0]]></title>
             <link>https://www.thesixthaxis.com/2026/03/31/mario-kart-world-gets-bob-omb-blast-in-update-1-6-0/</link>
@@ -1435,10 +2313,10 @@
 </blockquote>
 <p>Roger most recently voiced Sonic in the release of <a href="https://www.nintendolife.com/games/nintendo-switch-2/sonic-racing-crossworlds-nintendo-switch-2-edition">Sonic Racing: CrossWorlds</a>, which arrived on the Switch last September. It's also received a Switch 2 version since then and multiple free and paid character DLC updates.</p>
 <p>This update from Sonic's voice actor follows Sega officially announcing the 35th anniversary celebrations in January. Fans can also expect partnerships, collectibles, fan experiences and more surprises throughout the year. Last week, a rating for a 'Definitive Edition' of <a href="https://www.nintendolife.com/games/nintendo-switch/sonic_frontiers">Sonic Frontiers</a> surfaced online.</p>
-<!-- cache: html:nintendolife.com/ssl/sonic/related-articles:196276,199057,199153 @ 1774950876 -->
+<!-- cache: html:nintendolife.com/ssl/sonic/related-articles:196276,199057,199153 @ 1774954535 -->
 <p>What announcements would you like to see for Sonic's 35th anniversary? <em>Let us know in the comments.</em></p></section>
 <p>[source <a title="External Link: https://variety.com/2026/gaming/news/sonic-voice-actor-roger-craig-smith-35th-anniversary-say-yes-to-the-dress-1236701566/" rel="noopener" href="https://variety.com/2026/gaming/news/sonic-voice-actor-roger-craig-smith-35th-anniversary-say-yes-to-the-dress-1236701566/">variety.com</a>]</p>
-<!-- cache: html:nintendolife.com/ssl/sonic/related-info/877bf42dde43fd9c571de711bafb68de @ 1774951286 --></div></article><div><p>Liam is a news writer and reviewer on Nintendo Life. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
+<!-- cache: html:nintendolife.com/ssl/sonic/related-info/877bf42dde43fd9c571de711bafb68de @ 1774954896 --></div></article><div><p>Liam is a news writer and reviewer on Nintendo Life. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
 </div></div></div><br/><br/>https://www.nintendolife.com/news/2026/03/theres-exciting-stuff-coming-sonics-voice-actor-teases-35th-anniversary-celebrations]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
@@ -1475,7 +2353,7 @@
 <p>This latest update to the Nintendo Music app follows an update last week, which added 31 tracks from Super Mario Bros. Wonder's new DLC <a href="https://www.nintendolife.com/games/nintendo-switch-2/super-mario-bros-wonder-nintendo-switch-2-edition-plus-meetup-in-bellabel-park">Meetup in Bellabel Park</a>. To access these tracks on this app, you'll need to have an active Switch Online subscription.</p>
 <p>If you haven't tried out the Animal Crossing: New Horizons 3.0 update yet, it also includes expanded home storage, new movement options, improved crafting &amp; cooking, and much more. There's a paid Switch 2 update as well that comes with improved resolution and graphics, mouse controls and expanded online features.</p>
 
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:198946,193215,196069,173865 @ 1774949070 -->
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:198946,193215,196069,173865 @ 1774952782 -->
 <p>What do you think of the latest update for Nintendo Music? What other albums would you like to see added? <em>Sound off in the comments below.</em></p></section></article><div><p>Liam is a news writer and reviewer on Nintendo Life. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
 </div></div></div><br/><br/>https://www.nintendolife.com/news/2026/03/new-animal-crossing-songs-have-been-added-to-nintendo-music-today]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
@@ -1623,10 +2501,10 @@
 <p>The Bob-omb Blast mode joins the Balloon Battle and Coin Runners Battle mode options in Mario Kart World. Here are some additional screenshots and video footage of this returning mode, direct from Nintendo's official Japanese website:</p>
 
 
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:198347 @ 1774949769 -->
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:198347 @ 1774953465 -->
 <p>Will you be giving Bob-omb Blast a go? What do you think of the latest game update for Mario Kart World? <em>Let us know in the comments.</em></p></section>
 <p>[source <a title="External Link: https://en-americas-support.nintendo.com/app/answers/detail/a_id/68580/~/how-to-update-mario-kart-world" rel="noopener" href="https://en-americas-support.nintendo.com/app/answers/detail/a_id/68580/~/how-to-update-mario-kart-world">en-americas-support.nintendo.com</a>]</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-info/3e5b133501685c0a2330646cb7ca4830 @ 1774950529 --></div></article><div><p>Liam is a news writer and reviewer on Nintendo Life. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-info/3e5b133501685c0a2330646cb7ca4830 @ 1774954570 --></div></article><div><p>Liam is a news writer and reviewer on Nintendo Life. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
 </div></div></div><br/><br/>https://www.nintendolife.com/news/2026/03/mario-kart-world-has-been-updated-to-version-1-6-0-here-are-the-full-patch-notes]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
@@ -1645,7 +2523,7 @@
 <p>You'll also want to apparently hang around for the credits, as there are two post-credit scenes included. This second movie sees Chris Pratt, Jack Black and various other cast members reprise their roles. And they're joined by news faces such as Brie Larson as Rosalina, and Benny Safdie as Bowser's son.</p>
 <p>This brings us to our question and poll - will you be watching the Super Mario Galaxy Movie at some point while it's in cinemas, or are you going to hold out for the home cinema release. <em>As always, let us know in the comments.</em></p>
 
-<!-- cache: html:nintendolife.com/ssl/super-mario/related-articles:164056 @ 1774950554 --></section></article><div><p>Liam is a news writer and reviewer on Nintendo Life. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
+<!-- cache: html:nintendolife.com/ssl/super-mario/related-articles:164056 @ 1774954254 --></section></article><div><p>Liam is a news writer and reviewer on Nintendo Life. He's been writing about games for more than 15 years and is a lifelong fan of many iconic video game characters.</p><ul><li><a href="https://www.nintendolife.com/authors/Liam_Doolan"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/liamdoolan.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Liam_Doolan');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
 </div></div></div><br/><br/>https://www.nintendolife.com/news/2026/03/so-will-you-be-watching-the-super-mario-galaxy-movie]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
@@ -1654,174 +2532,6 @@
             <link>https://www.theverge.com/games/903885/150-million-users-later-roblox-competitor-rec-room-is-shutting-down</link>
             <guid>1478041</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><div><p><span aria-expanded="false" aria-haspopup="true" role="button" tabindex="0"><span id="follow-author-standard_article_details-dmcyOmF1dGhvclByb2ZpbGU6MTIz"><span><span><svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Follow"><path d="M5 0H4V4H0V5H4V9H5V5H9V4H5V0Z"></path></svg></span></span><span>Jay Peters</span></span></span></p> <p><span>is a senior reporter covering technology, gaming, and more. He joined The Verge in 2019 after nearly two years at Techmeme.</span></p></div><div id="zephr-anchor"><p>Rec Room, a Roblox-like social gaming platform that lets users create games and experiences for others to play, is shutting down on June 1st. Despite reaching more than 150 million players and creators and, at one point, being valued <a href="https://www.geekwire.com/2021/seattle-vr-startup-rec-room-hits-3-5b-valuation-with-new-145m-round/">at $3.5 billion</a>, the company says <a href="https://blog.recroom.com/posts/schools-out-for-rec-room">in a blog post</a> that “we never quite figured out how to make Rec Room a sustainably profitable business” and that “our costs always ended up overwhelming the revenue we brought in.”</p><p>The company also notes that “with the recent shift in the VR market, along with broader headwinds in gaming, the path to profitability has gotten tough enough that we’ve made the difficult decision to shut things down.” Rec Room laid off <a href="https://blog.recroom.com/posts/2025/8/25/rec-room-update-august-2025">half of its staff in August</a>, and a few days after the cuts were announced, Rec Room CEO and co-founder Nick Fajt <a href="https://blog.recroom.com/posts/2025/8/28/rec-room-finances-and-ugc-revenue">said that</a> that doing the layoffs when it did “gave us the ability to take care of people, while still setting up Rec Room for years, not months of funding.”</p><p>Rec Room isn’t the only social gaming platform that’s struggled as of late. Starting in June, Meta’s Horizon Worlds <a href="https://www.theverge.com/tech/897396/meta-vr-horizon-worlds-metaverse-andrew-bosworth">won’t get new VR experiences</a> as the company shifts the focus of the platform to mobile. Last week, Epic Games <a href="https://www.theverge.com/games/899529/epic-games-layoffs-fortnite">laid off more than 1,000 employees</a> due to a “downturn in Fortnite engagement” that meant the company was “spending significantly more than we’re making,” <a href="https://go.skimresources.com/?id=1025X1701640&amp;xs=1&amp;url=https%3A%2F%2Fwww.epicgames.com%2Fsite%2Fen-US%2Fnews%2Ftodays-layoffs" rel="sponsored">according to CEO Tim Sweeney</a>.</p><div><p><span><strong>Follow topics and authors</strong> from this story to see more like this in your personalized homepage feed and to receive email updates.</span></p><ul><li id="follow-author-article_footer-dmcyOmF1dGhvclByb2ZpbGU6MTIz"><span aria-expanded="false" aria-haspopup="true" role="button" tabindex="0"><span><span><svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Follow"><path d="M5 0H4V4H0V5H4V9H5V5H9V4H5V0Z"></path></svg></span><span>Jay Peters</span></span></span></li><li></li><li></li><li></li></ul></div></div></div></div><br/><br/>https://www.theverge.com/games/903885/150-million-users-later-roblox-competitor-rec-room-is-shutting-down]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Pokémon Legends: Z-A Is Discounted in Target's Switch 2 Sale, But There's a Catch]]></title>
-            <link>https://www.ign.com/articles/pokemon-legends-z-a-is-discounted-in-targets-switch-2-sale-2026</link>
-            <guid>1477966</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p data-cy="page-header"><h2 data-cy="article-sub-headline">Buy 2, get $30 off.</h2></p><div><section data-cy="article-content" data-autopogo="true"><p data-cy="paragraph">Target is offering a rare <a data-cy="styled-link" href="https://www.ign.com/articles/nintendo-switch-2-game-sale-is-live-at-target-buy-2-save-30-for-a-limited-time-only">'Buy 2, Save $30' sale</a> on popular new Switch games. The promotion is running from now until April 4 and includes quite a few first-party Switch 2 games like Donkey Kong Bananza, Metroid Prime 4: Beyond, and my personal top pick: Pokémon Legends: Z-A. To get the discount, you just need to add two eligible items to your cart and be a Target Circle member (which is free).</p><p data-cy="paragraph">Pokémon Legends: Z-A came out in October of 2025 and was a day one purchase for me. I've been a fan of Pokémon games since back in the Game Boy days and have played <a data-cy="styled-link" href="https://www.ign.com/playlist/igneditorial/lists/pokemon-all-mainline-games">every mainline entry</a> so far. Legends: Z-A was my favorite new Pokémon game in the Switch generation when it first came out, though admittedly it's been overshadowed by <a data-cy="styled-link" href="https://www.ign.com/articles/pokemon-pokopia-review">Pokémon Pokopia</a> for me this year. Unfortunately, that game is only <a href="https://zdcs.link/QV5lwO?object_uuid=dbb2d86e-a15a-4377-9549-1f8b0f126c7d&amp;t=article" data-cy="styled-link" target="_blank" rel="nofollow">included in Target's sale as a digital copy</a>.</p><h2 data-cy="title2">Pokémon Legends: Z-A - Nintendo Switch 2 Edition Sale</h2><div id="237248"><p><span data-cy="productcard-view-trigger"><div id="237248" data-cy="solo-product-card"><p data-cy="solo-product-name"><h3>Pokémon Legends: Z-A - Nintendo Switch 2 Edition</h3></p></div></span></p><p data-cy="paragraph">Both the Switch 2 and Switch 1 versions of the game are included in this sale, with the latter being $10 cheaper. IGN had the chance to <a data-cy="styled-link" href="https://www.ign.com/videos/is-pokemon-legends-z-a-on-switch-2-that-much-better-than-switch-1">compare performance on both versions</a> when the game first came out and found the Switch 1 version surprisingly palatable. And now that the latest Switch 2 update added <a data-cy="styled-link" href="https://www.ign.com/articles/huge-nintendo-switch-2-update-adds-handheld-mode-boost-for-switch-1-titles">Handheld Mode Boost for Switch 1 titles</a>, you may want to consider picking up that version for the added savings.</p><h2 data-cy="title2">More Physical Switch 2 Games Included in the Sale</h2><p data-cy="paragraph">You do need to purchase two games to get the $30 off, but thankfully there are some great options available that haven't really been discounted since launch. Donkey Kong Bananza is included here, which was actually the only game <a data-cy="styled-link" href="https://www.ign.com/articles/donkey-kong-bananza-review">IGN gave a perfect 10 out of 10</a> last year. </p><p data-cy="paragraph"><em>Jacob Kienlen is a Senior Audience Development Strategist and Writer for IGN. Born and raised in Portland, Oregon, he has considered the Northwest his home for his entire life. With a bachelor's degree in communication and 10 years of professional writing experience, his expertise is spread across a variety of different pop culture topics -- from TV series to </em><a data-cy="styled-link" href="https://www.ign.com/wikis/books"><em>books</em></a><em> and the latest </em><a data-cy="styled-link" href="https://www.ign.com/articles/all-pokemon-games-on-nintendo-switch"><em>Pokémon games</em></a><em>.</em></p></div></section><div><h3 data-cy="title3"><svg data-cy="icon-logo" viewBox="0 0 76 24" title="IGN"><title>IGN Logo</title><path fill="currentColor" stroke="none" d="M5.38 7.65a7.85 7.85 0 0 1 2.26-2.26c.13-1.18.31-2.26.52-3.21a10.605 10.605 0 0 0-6 6c.95-.22 2.03-.39 3.21-.52M16.34 5.36v.02c.9.59 1.67 1.37 2.27 2.27 1.18.13 2.26.31 3.21.52a10.627 10.627 0 0 0-6.02-6.01c.22.95.4 2.02.54 3.2M7.64 18.62c-.9-.59-1.67-1.37-2.27-2.27h-.03c-1.19-.14-2.26-.32-3.19-.54 1.07 2.75 3.26 4.95 6.01 6.02-.22-.95-.39-2.03-.52-3.21M18.64 16.35h-.03c-.59.9-1.37 1.67-2.27 2.27v.03c-.14 1.17-.32 2.25-.54 3.19a10.59 10.59 0 0 0 6.03-6.03c-.94.22-2 .4-3.19.54M10.04 0h3.9c.85 1.85 1.2 4.59 1.3 5.52.04.22.06.43.06.63L12 9.11 8.7 6.15c0-.17.02-.35.05-.55.1-.95.43-3.75 1.29-5.61M8.7 17.83c0 .17.02.35.05.55.1.95.43 3.75 1.29 5.61h3.9c.85-1.84 1.2-4.59 1.3-5.52.04-.22.06-.43.06-.64L12 14.87l-3.3 2.96ZM6.16 8.68c-.17 0-.35.02-.55.05-.95.12-3.75.45-5.61 1.31v3.9c1.84.85 4.59 1.19 5.52 1.3.22.04.43.06.64.06L9.11 12 6.16 8.7ZM24 10.02c-1.86-.86-4.66-1.19-5.61-1.29-.2-.03-.38-.05-.55-.05l-2.96 3.3 2.96 3.3c.2 0 .41-.02.64-.06.93-.11 3.68-.45 5.52-1.3v-3.9Z"></path><path fill="currentColor" stroke="none" d="M42.83 13.9V10h10.45c1.06 0 1.93.86 1.93 1.92v4.63c0 2.38-1.91 4.36-4.33 4.36h-6.69c-4.96 0-8.97-4-8.97-8.94s4.04-8.95 8.98-8.95h10.36v4.11H44.2c-2.67 0-4.86 2.17-4.86 4.84s2.16 4.83 4.86 4.83h6.91v-2.91h-8.27ZM33.86 3h-4.07v16.02c0 1.05.86 1.91 1.91 1.91h2.15V3M74.37 3.01h-2.18v13.81s0 .08-.03.11a.29.29 0 0 1-.24.14c-.09 0-.16-.04-.25-.15L64.83 4.93a4.347 4.347 0 0 0-3.72-2.11h-.07c-2.39 0-4.32 1.93-4.32 4.32v11.88c0 1.05.86 1.91 1.91 1.91h2.17V7.14s.02-.09.04-.13a.29.29 0 0 1 .24-.14c.09 0 .18.03.24.14l6.88 12.07c.76 1.27 2.12 2.05 3.69 2.05h.07c2.39 0 4.32-1.93 4.32-4.32V4.92c0-1.05-.85-1.91-1.91-1.91"></path></svg>Recommends</h3></div></div><div><h3 data-cy="object-summary-embed-title">In This Article</h3></div></div><br/><br/>https://www.ign.com/articles/pokemon-legends-z-a-is-discounted-in-targets-switch-2-sale-2026]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Ninja Gaiden Sigma 2 Plus Player Becomes First to Achieve Platinum Trophy]]></title>
-            <link>https://www.ign.com/articles/ninja-gaiden-sigma-2-plus-player-becomes-first-to-achieve-platinum-trophy</link>
-            <guid>1477963</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-cy="page-header"><h2 data-cy="article-sub-headline">All it took was a little bit of luck.</h2></div><div><section data-cy="article-content" data-autopogo="true"><p data-cy="paragraph">No one has ever truly unlocked the Platinum trophy for Ninja Gaiden Sigma 2 Plus on the PlayStation Vita – until recently.</p><p data-cy="paragraph">User Tqvry made PlayStation history when they became the first person to ever earn the Dynamic Duo Gold Trophy for the <a data-cy="styled-link" href="https://www.ign.com/games/ninja-gaiden-sigma-2">Ninja Gaiden Sigma 2</a> port last week. Third-party tracker website PSNProfiles has already recorded the achievement, <a href="https://psnprofiles.com/trophy/1855-ninja-gaiden-%CF%832-plus/41-dynamic-duo" data-cy="styled-link" target="_blank" rel="noopener noreferrer"><u>listing</u></a> Tqvry as the first and only player ever to earn the Trophy through legitimate means.</p><output data-cy="article-video"></output><p data-cy="paragraph">Considering Ninja Gaiden Sigma 2 Plus launched for the Vita more than 13 years ago, the obvious question is: What took so long? Dynamic Duo – and by extension the Platinum Trophy – has long been considered by die-hard Trophy hunters to be one of the most difficult Trophies to achieve. Although notorious for its difficulty, unlocking it asks players to team up with another player and “successfully complete all missions on Turbo difficulty.”</p><p data-cy="paragraph">Gold Trophies and high-level Achievements have been known to require players to complete similar tasks in the past, so for the uninitiated, Dynamic Duo might not seem all that bad. Unlike the original PlayStation 3 version, though, Ninja Gaiden Sigma 2 Plus doesn’t support proper online co-op. So, instead of a real-world player to help plow through some already demanding missions, you’re stuck with an AI bot companion who can’t fend for themselves and needs to be constantly watched over.</p><p data-cy="paragraph">It’s…a lot. So much, in fact, that Ninja Gaiden Sigma 2 Plus went without anyone grabbing its Platinum Trophy until Tqvry proved their accomplishment by <a href="https://www.youtube.com/watch?v=jK6IZm1mj_E" data-cy="styled-link" target="_blank" rel="noopener noreferrer"><u>capturing it on video</u></a> March 27, 2026. The 10-hour broadcast covers just one mission, which sees Ryu and his not-so-trusty bot sidekick fighting three bosses simultaneously. Most of the footage shows failed attempt after failed attempt until about the 9:25:00 mark, when one of the enemies unintentionally glitches into the ground.</p><p data-cy="paragraph">It’s lucky, to say the least, and gives Tqvry the space they need to win as the fight turns into a 2v1. A boss bugging out to the degree they become immobilized probably isn’t the kind of thing many (if any) players got to benefit from in the 13 years it took for the Trophy to be completed, but Tqvry clearly made the most of it.</p><output data-cy="article-video"></output><p data-cy="paragraph">"You’re bats**t insane in the best way, and legend," one user commented on YouTube. "Super congrats on the impossible feat and being the world’s first."</p><p data-cy="paragraph">"This is easily one of the most insane achievements I’ve ever seen in gaming," another said. "It could end up being the peak of trophy hunting for years to come. Other legit achievers will come, but being the first to conquer something everyone thought was impossible is legendary. Enjoy it, you’ve earned it!"</p><p data-cy="paragraph">Elsewhere in the world of Ninja Gaiden, developer Team Ninja released an updated take on a classic action game with <a data-cy="styled-link" href="https://www.ign.com/games/ninja-gaiden-2-black"><u>Ninja Gaiden 2 Black</u></a> early last year. October then saw the launch of <a data-cy="styled-link" href="https://www.ign.com/games/ninja-gaiden-4"><u>Ninja Gaiden 4</u></a>, a game that we gave an <a data-cy="styled-link" href="https://www.ign.com/articles/ninja-gaiden-4-review"><u>8/10 review</u></a>.</p><p data-cy="paragraph"><em>Michael Cripe is a freelance writer with IGN. He's best known for his work at sites like The Pitch, The Escapist, and OnlySP. Be sure to give him a follow on Bluesky (@mikecripe.bsky.social) and Twitter (@MikeCripe).</em></p></section><div><h3 data-cy="title3"><svg data-cy="icon-logo" viewBox="0 0 76 24" title="IGN"><title>IGN Logo</title><path fill="currentColor" stroke="none" d="M5.38 7.65a7.85 7.85 0 0 1 2.26-2.26c.13-1.18.31-2.26.52-3.21a10.605 10.605 0 0 0-6 6c.95-.22 2.03-.39 3.21-.52M16.34 5.36v.02c.9.59 1.67 1.37 2.27 2.27 1.18.13 2.26.31 3.21.52a10.627 10.627 0 0 0-6.02-6.01c.22.95.4 2.02.54 3.2M7.64 18.62c-.9-.59-1.67-1.37-2.27-2.27h-.03c-1.19-.14-2.26-.32-3.19-.54 1.07 2.75 3.26 4.95 6.01 6.02-.22-.95-.39-2.03-.52-3.21M18.64 16.35h-.03c-.59.9-1.37 1.67-2.27 2.27v.03c-.14 1.17-.32 2.25-.54 3.19a10.59 10.59 0 0 0 6.03-6.03c-.94.22-2 .4-3.19.54M10.04 0h3.9c.85 1.85 1.2 4.59 1.3 5.52.04.22.06.43.06.63L12 9.11 8.7 6.15c0-.17.02-.35.05-.55.1-.95.43-3.75 1.29-5.61M8.7 17.83c0 .17.02.35.05.55.1.95.43 3.75 1.29 5.61h3.9c.85-1.84 1.2-4.59 1.3-5.52.04-.22.06-.43.06-.64L12 14.87l-3.3 2.96ZM6.16 8.68c-.17 0-.35.02-.55.05-.95.12-3.75.45-5.61 1.31v3.9c1.84.85 4.59 1.19 5.52 1.3.22.04.43.06.64.06L9.11 12 6.16 8.7ZM24 10.02c-1.86-.86-4.66-1.19-5.61-1.29-.2-.03-.38-.05-.55-.05l-2.96 3.3 2.96 3.3c.2 0 .41-.02.64-.06.93-.11 3.68-.45 5.52-1.3v-3.9Z"></path><path fill="currentColor" stroke="none" d="M42.83 13.9V10h10.45c1.06 0 1.93.86 1.93 1.92v4.63c0 2.38-1.91 4.36-4.33 4.36h-6.69c-4.96 0-8.97-4-8.97-8.94s4.04-8.95 8.98-8.95h10.36v4.11H44.2c-2.67 0-4.86 2.17-4.86 4.84s2.16 4.83 4.86 4.83h6.91v-2.91h-8.27ZM33.86 3h-4.07v16.02c0 1.05.86 1.91 1.91 1.91h2.15V3M74.37 3.01h-2.18v13.81s0 .08-.03.11a.29.29 0 0 1-.24.14c-.09 0-.16-.04-.25-.15L64.83 4.93a4.347 4.347 0 0 0-3.72-2.11h-.07c-2.39 0-4.32 1.93-4.32 4.32v11.88c0 1.05.86 1.91 1.91 1.91h2.17V7.14s.02-.09.04-.13a.29.29 0 0 1 .24-.14c.09 0 .18.03.24.14l6.88 12.07c.76 1.27 2.12 2.05 3.69 2.05h.07c2.39 0 4.32-1.93 4.32-4.32V4.92c0-1.05-.85-1.91-1.91-1.91"></path></svg>Recommends</h3></div></div><div><h3 data-cy="object-summary-embed-title">In This Article</h3></div></div><br/><br/>https://www.ign.com/articles/ninja-gaiden-sigma-2-plus-player-becomes-first-to-achieve-platinum-trophy]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[DREADMOOR Preview: A Macabre Fishing Adventure]]></title>
-            <link>https://techraptor.net/gaming/previews/dreadmoor-preview-macabre-fishing-adventure</link>
-            <guid>1477954</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><p>There's no shortage of life-sim games that focus on crafting, fishing, and maintaining your equipment, but <em>DREADMOOR</em> offers these elements against the backdrop of a macabre, swampy environment. During my <em>DREADMOOR</em> preview at PAX East, I saw a lot of shared DNA with <a href="https://techraptor.net/games/dredge" rel="nofollow"><em>Dredge</em></a>, making this a great experience for those looking for a more hands-on fishing adventure.</p><p>This game is a spooky and compelling take on the fishing and adventure genre – read on to see my full thoughts from my <em>DREADMOOR </em>preview at PAX East!</p><picture>
-                  <source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/dreadmoor-boat-and-tentacle.JPG?itok=AtrtGHAi 1x" media="(min-width: 992px)" type="image/jpeg" width="1920" height="1078">
-              <source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/dreadmoor-boat-and-tentacle.JPG?itok=qiK9h_np 1x" media="(max-width: 991px)" type="image/jpeg" width="1200" height="674">
-                  
-
-  </picture><h2>DREADMOOR Preview: For Those Who Want to Make Fishing More Stressful</h2><p>Growing up, my dad would take me fishing pretty often. And not just to cast a line from the shore (though we'd do that, too). We'd be out on lakes in boats and, when winter's chill would freeze the New Hampshire lakes, we'd hike out onto the frozen waters for one of man's most hubris undertakings: ice fishing.</p><p>I share this because there can be a misconception among the non-fishing population that fishing is a relaxing activity. I assure you, it is not. And <em>DREADMOOR</em> elevates those stressors of dealing with the elements and limited resources by adding actual monsters that can drown you.</p><p>During my <em>DREADMOOR</em> preview, the progression was straight forward: find a fishing rod, find fuel for the boat, plot a course so you don't run out of fuel, and go out to one of the highlighted fishing spots. Catch some fish, bring them to a Fishmonger named Gill, and you can craft new types of bait to catch even more fish.</p><p>So far, so good. Except, at one point, I guess I sailed my boat too far out of bounds and a giant, grotesque tentacle came up from the swampy depths and dragged my boat under. Alright, lesson learned: Only fish in the designated areas.</p><p>At another point, I was trying to refuel my boat and ended up jumping over the side by accident. That killed me instantly, which was another valuable lesson: The water is not a friendly place. To progress, materials need to be gathered to craft upgrades and get your boat to a more seaworthy condition so that you may challenge the depths that lie ahead.</p><picture>
-                  <source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/dreadmoor-crafting-table.JPG?itok=R75FyBwx 1x" media="(min-width: 992px)" type="image/jpeg" width="1920" height="1081">
-              <source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/dreadmoor-crafting-table.JPG?itok=LiBuAjC3 1x" media="(max-width: 991px)" type="image/jpeg" width="1200" height="676">
-                  
-
-  </picture><p>Is a modern video game really a game if there isn't a crafting element to it? While maybe overplayed, the crafting mechanics are oddly satisfying in <em>DREADMOOR</em>. Going to a work stable to lay out your fish guts, scrap metal, and other materials to make new types of bait was both visually cool and a nice way to get more familiar with the materials I was collecting.</p><p>After crafting a new type of lure, I was able to refuel my boat, sail out to one of the fishing spots, and catch a new type of fish. The fishing mechanics themselves are easy enough: move your rod in the opposite direction the fish is moving, slowly reel in the line, and monitor the tension gauge to make sure the line doesn't snap on you.</p><p>The initial goals are: get new lures, upgrade your gear, and eventually bring your boat into a dry dock to get upgrades for it to make it more durable. While my <em>DREADMOOR </em>preview was focused on the early stages of the game, it's easy to see how you can unlock new areas to explore and be locked to them until your boat is ready to sail into deeper waters.</p><p>While spending too much time crafting gear in any game can be a bit of a slog, <em>DREADMOOR </em>strikes a nice balance and doesn't keep you clicking through menus longer than it needs to. This keeps the adventure moving and ensures you'll be back out on the water to reel in your next haul in no time.<br><picture>
-                  <source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/dreadmoor-exploring-in-boat.JPG?itok=x-NHjmoD 1x" media="(min-width: 992px)" type="image/jpeg" width="1911" height="1071">
-              <source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/dreadmoor-exploring-in-boat.JPG?itok=aUT-qRp_ 1x" media="(max-width: 991px)" type="image/jpeg" width="1200" height="673">
-                  
-
-  </picture></p><h2><em>DREADMOOR</em> Preview: Final Thoughts</h2><p>With a beautifully macabre atmosphere and a touch of Lovecraftian horror, <em>DREADMOOR</em> is a great experience for those wishing to explore the watery parts of the world. There's even some elements of cozy gaming in here with beautiful scenery to enjoy, so long as you can look past the fact that a tentacle might sink your boat at any moment.</p><p>While no <em>DREADMOOR</em> release date is confirmed yet, developer Dream Dock is aiming for a fall 2026 release.</p><hr><p><em><strong>DREADMOOR</strong> was previewed at PAX East on PC.</em></p></div><div><p><span><div>
-       
-    <p>Dan is a Boston-based writer who has been with TechRaptor since the end of 2020. He has been working in the online writing, editing and SEO space for nearly… <a href="https://techraptor.net/author/dan-rockwood">More about Dan</a></p>
-  </div></span></p></div></div><br/><br/>https://techraptor.net/gaming/previews/dreadmoor-preview-macabre-fishing-adventure]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[OpenAI’s Video Plagiarism App Sora Was Reportedly Losing $1 Million A Day]]></title>
-            <link>https://kotaku.com/openais-video-plagiarism-app-sora-was-reportedly-losing-1-million-a-day-2000683277</link>
-            <guid>1477951</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-              
-              <p>OpenAI’s video app Sora launched last September. In no time, users started sharing generative slop, ripping off <a href="https://kotaku.com/openai-sora-2-videos-pokemon-spongebob-dragon-ball-2000631137">everything from<em> Dragon Ball Z</em> to <em>SpongeBob</em></a>. It’s now shutting down and a new <em>Wall Street Journal</em> report reveals why. It was shedding active users and costing the company a fortune. Allegedly $1 million a day, to be precise.</p>
-
- <p>According to <a href="https://www.wsj.com/tech/ai/the-sudden-fall-of-openais-most-hyped-product-since-chatgpt-64c730c9">the <em>Wall Street Journal</em></a>, the platform peaked at 1 million daily users before eventually dwindling to less than 500,000. Still, making videos of CEO Sam Altman <a href="https://kotaku.com/sora-2-update-pokemon-nintendo-openai-sam-altman-ai-2000632089">grilling Pikachu</a> and <a href="https://variety.com/2025/digital/news/studio-ghibli-openai-sora2-japanese-trade-group-coda-letter-1236568751/">Studio Ghibli-fying other copyrighted IP</a> didn’t come cheap. “Sora was losing roughly a million dollars a day, according to a person familiar with the matter,” reads the report.</p> <p>The AI-generated video sharing platform was meant to help OpenAI win over customers and convince a general public that’s rapidly becoming hostile toward LLMs that slop could be fun and cool. <a href="https://kotaku.com/disney-open-ai-sora-deal-star-wars-frozen-2000652583">Disney was so on board</a> it agreed to pay the company $1 billion for services to help Mickey hitch a ride aboard Altman’s AI express.</p>
-
- <p>Outgoing Disney CEO Bob Iger was telling investors in February that Sora-made videos would become part of a new short-form video offering on the streaming service Disney+. There were reportedly even plans for special versions of the tools to be licensed to the company so Disney executives could storyboard their own live-action remakes and god knows what else.</p>
-
- <p>So it’s extra funny that Disney apparently had no idea OpenAI was about to pull the plug on its whole AI video thing until <a href="https://kotaku.com/openai-sora-2-app-disney-shut-down-deal-ai-bubble-2000681803">just an hour before the move was announced</a>. Disney is left scrambling to find new AI partners and Altman’s slop factory is betting on robotics for its eventual payday instead.</p>
-                          </div></div><br/><br/>https://kotaku.com/openais-video-plagiarism-app-sora-was-reportedly-losing-1-million-a-day-2000683277]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Baseball Players Are Using A New Robo-Judge To Instantly Humiliate Umpires And Crowds Love It]]></title>
-            <link>https://kotaku.com/baseball-players-are-using-a-new-robo-judge-to-instantly-humiliate-shame-umpires-and-crowds-are-going-wild-2000683267</link>
-            <guid>1477948</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-              
-              <p>We’re only a few days into the <a href="https://www.mlb.com/news/abs-challenge-system-mlb-2026">2026 Major League Baseball season, and the new robo-judges</a>, which players can use to overturn calls, have already led to some incredible moments, an ejection, and a lot of crowd cheering as umpires get called out for being wrong.</p>
-
- <p><a href="https://www.404media.co/you-cant-defeat-the-robots-baseballs-mlb-abs-ai-strike-zone-is-must-watch-television/">As reported by <em>404 Media</em></a>, the MLB has a player-controlled Automated Ball-Strike system (ABS) this season that lets a player tap on their hat shortly after a call to challenge the umpire. How it works is that a batter gets ready, the pitcher throws a pitch, and the umpire calls a strike or ball like usual. But it’s here that things differ from a century of play, as the batter, catcher, or hitter can point to their head to signal to the umpire that they want the call reviewed. At this point, an AI-powered robot judge kicks in and quickly displays an easy-to-understand screen showing the strike zone and the pitch location on TV for the audience at home, as well as on the in-stadium jumbotron for everyone at the ballgame.</p> <blockquote data-width="500" data-dnt="true"> <p lang="en" dir="ltr">Randy Arozarena was so confident in his ABS challenge that he started running to first base knowing it was ball 4 😭<a href="https://t.co/OWJuxgCeOD">pic.twitter.com/OWJuxgCeOD</a></p> <p>— js9innings (@js9inningsmedia) <a href="https://twitter.com/js9inningsmedia/status/2038078396215783503?ref_src=twsrc%5Etfw">March 29, 2026</a></p></blockquote>  <p>This all takes seconds, and the result it shows is final. If the call is overturned, the team that asked for the challenge can challenge again. If they ask for a robo-review and fail, and then fail again, that team can’t challenge for the rest of the game.</p>
-
- <p>In practice, this means that batters who don’t swing can now immediately turn around after an ump calls a strike and demand a robo-review, and seconds later get the call overturned as a ball while the audience cheers on the umpire being proven wrong in real-time. It’s amazing to watch. In this clip below, we get to watch notoriously inaccurate umpire C.B. Bucknor get challenged twice in a row. In both cases, he is proven wrong by the robo-judge in front of thousands.</p>
-
- <blockquote data-width="500" data-dnt="true"> <p lang="en" dir="ltr">C.B. Bucknor tried to ring up Eugenio Suárez on back-to-back pitches. </p> <p>Suárez challenged both and won both challenges.</p> <p>(H/T: <a href="https://twitter.com/tylermilliken_?ref_src=twsrc%5Etfw">@tylermilliken_</a>) <a href="https://t.co/erzchAXPw0">pic.twitter.com/erzchAXPw0</a></p> <p>— Foul Territory (@FoulTerritoryTV) <a href="https://twitter.com/FoulTerritoryTV/status/2038021628542832868?ref_src=twsrc%5Etfw">March 28, 2026</a></p></blockquote>  <p>After years of getting away with bad calls, umpires in the MLB like Bucknor are finally being humiliated, and I love it. I’m just really sad that legendarily horrible umpire <a href="https://www.si.com/fannation/mlb/fastball/news/umpire-angel-hernandez-finishes-regular-season-with-worst-rating-in-mlb">Angel Hernandez</a> retired before the ABS was added to the MLB. Can you imagine his horrid calls getting overturned night after night? Would have been amazing. <a href="https://www.cbssports.com/mlb/news/cb-bucknor-umpire-abs-system-mlb-reds-red-sox/">At least I can enjoy watching Bucknor get six of his bad calls overturned in one game</a>. Wonderful stuff.</p> <p>Of course, adding something like the ABS into a sport as old as baseball is going to lead to some problems. Minnesota Twins manager Derek Shelton made history during a game on Sunday after the Orioles’ pitcher challenged an ump’s call and got a ball overturned as a strike. Shelton was furious, not at the call but at the fact that he believed the pitcher waited too long to tap his hat to signal for the review. He got so angry that he was ejected, marking the first time someone has been tossed over an ABS-challenged play.</p>
-
- <blockquote data-width="500" data-dnt="true"> <p lang="en" dir="ltr">Twins manager Derek Shelton was LIVID as he argued that Ryan Helsley didn't challenge this call fast enough <a href="https://t.co/NnsgUb3iap">pic.twitter.com/NnsgUb3iap</a></p> <p>— Jomboy Media (@JomboyMedia) <a href="https://twitter.com/JomboyMedia/status/2038358447087906913?ref_src=twsrc%5Etfw">March 29, 2026</a></p></blockquote>  <p>While it might not be a perfect system and will likely be tweaked over the next few months and years, the fans are very excited to watch umps get embarrassed in real time over and over.</p> <p>“It happened in Cincinnati, they said it was the biggest cheers of the game. Not the homers, but the overturned calls,” said retired baseball player Trevor Plouffe <a href="https://www.youtube.com/watch?v=10EffhbkOmM&amp;ref=404media.co" rel="noreferrer">on a podcast</a>.</p> <p>Some might argue that this is removing a human element from baseball, but I disagree. <a href="https://www.404media.co/you-cant-defeat-the-robots-baseballs-mlb-abs-ai-strike-zone-is-must-watch-television/">As<em> 404 Media</em> suggests</a>, this system doesn’t remove humans from the equation, but instead adds a new bit of human-powered, but robo-judged drama to the sport. Umps can be proven wrong and overturned in seconds. At the same time, players can trigger reviews over good calls and screw their team for the rest of the game. That’s exciting, and it might help bring more viewers to baseball this year.</p>
-                          </div></div><br/><br/>https://kotaku.com/baseball-players-are-using-a-new-robo-judge-to-instantly-humiliate-shame-umpires-and-crowds-are-going-wild-2000683267]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Project Hail Mary Writer Apologizes For Calling Star Trek Shows ‘Shit’]]></title>
-            <link>https://kotaku.com/project-hail-mary-writer-apologizes-for-calling-star-trek-shows-shit-2000683268</link>
-            <guid>1477945</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-              
-              <p><em>Project Hail Mary</em> has received rave reviews and proved Ryan Gosling can still turn a movie that’s not a part of any existing franchise into an opening-weekend box office hit. So novelist Andy Weir, who wrote the book it was based on, should be taking a victory lap. Instead, he’s apologizing for being a dumbass.</p>
-
- <p>He recently appeared on the <a href="https://www.youtube.com/watch?v=ezZ_QGBpaDo">Critical Drinker podcast</a> and pitched his brand of hard-nosed science fiction as a remedy for what’s currently ailing modern <em>Star Trek</em>. The latest <em>Trek </em>series, <em>Starfleet Academy</em>, has proved divisive among fans. While critics have generally approved of the show, season 1 only has a 51 percent score on Rotten Tomatoes among average viewers. There will be a second season, but Paramount <a href="https://variety.com/2026/tv/news/star-trek-starfleet-academy-canceled-season-2-1236696816/">has already confirmed</a> it won’t continue the show beyond that.</p> <p>“And here’s another thing: I pitched a&nbsp;<em>Star Trek</em> show to Paramount, and I was in Zoom with the showrunners with all the shows and spent a lot of time talking to [executive producer Alex Kurtzman],” Weir said at one point in the recent episode. “I don’t like a lot of the new <em>Trek</em>. He, as a person, is a really nice guy. But at the same time, those shows are shit. He is a nice guy. But they didn’t accept my pitch, so, you know, fuck ’em.”</p>
-
- <p>This has also led to people resurfacing <a href="https://vocal.media/futurism/in-the-author-s-universe-interview-with-sci-fi-author-andy-weir">a 2018 interview</a> Weir gave in which he argued against always weaving political and social commentary into science fiction. That included <em>Star Trek</em>, a show many associate specifically with that kind of thing.</p>
-
- <p>“I put no politics or social commentary into my stories at all,” he said at the time. He later added, “For instance, as a lifelong <em>Star Trek</em> fan, it’s always bothered me that there is a presumed ‘responsibility’ within <em>Star Trek</em> shows to talk about social issues. I just want to watch Romulans and the Federation shoot at each other.”</p> <p>A backlash has been bubbling up as a result, and Weir is now trying to turn the temperature down on it. He <a href="https://www.facebook.com/AndyWeirAuthor/posts/pfbid02wqPnfK7QSEk65hYvaQDxE6D1CasQYoAcBn23jnhP4wknKA6oTx55bp3MiFYxtKR3l">went on Facebook</a> earlier today to apologize to Paramount, whom I’m guessing he still definitely wants to write a <em>Star Trek</em> script for. “I was trying to be funny, but in retrospect it comes off as disrespectful and mean,” he wrote. “So I’m sorry for that. I was also trying to be self-deprecating when I said ‘But they didn’t like my pitch so fuck ’em!’ but out of context it can read like I actually meant it.”</p> <div> <p>He continued, “I’m a blunt person – always have been. And it’s been 10 years since the media cared what I had to say about anything so I kind of forgot to watch my words when I have a film in theaters. In a couple months I’ll be back in my cave writing novels and no one will care again. Anyway, if you want to talk about it in real time – even if it’s just to rip me a new one – I’m happy to hop on the phone or zoom.”</p> </div>
-                          </div></div><br/><br/>https://kotaku.com/project-hail-mary-writer-apologizes-for-calling-star-trek-shows-shit-2000683268]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Kingdom Come Developer Warhorse Studios Allegedly Fired Its Translator, Claiming Their Position Was Made “Obsolete” by AI]]></title>
-            <link>https://wccftech.com/kingdom-come-developer-warhorse-allegedly-fired-translator-says-role-is-obsolete-ai/</link>
-            <guid>1477927</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			
-			<p><strong>Kingdom Come: Deliverance 2</strong> developer <strong>Warhorse Studios</strong> has allegedly fired its in-house voice-over director and Czech to English translator and editor, <strong>Max Hejtmánek</strong>, suddenly, and without warning, after telling him that his role was made "<em>obsolete in favor of using AI for all translations going forward</em>."</p>
-
-
-
-<p>Hejtmánek shared his story on the <a href="https://www.reddit.com/r/kingdomcome/comments/1s5vgt9/other_fired_from_warhorse_studios_and_replaced/">Kingdom Come Reddit page</a>, saying he joined Warhorse Studios back in 2022 and has primarily worked on Kingdom Come: Deliverance 2 and its DLCs. He describes the firing as something that came "<em>with no forewarning</em>" and says he was in the middle of a project when he was let go.</p>
-
-
-
-<p>"<em>March 27, 2026, with no forewarning, I was invited to a meeting and promptly that, in an effort to 'make the company more effective' and 'save finances,' as of next month, my position at the company would become 'obsolete' in favour of using AI for all translations going forward</em>," Hejtmánek wrote. "<em>This came as a huge shock to me, as though the discussion about using AI for translating had frequently come up in the past, something I was always strongly and vocally against, but never to the extent that it might actually cost me my job in the future. It had, of course, crossed my mind many times, but I naively thought my work at WHS was valued enough that I might not be at immediate risk</em>."</p>
-
-
-
-<p>Hejtmánek goes on to say that he feels "<em>incredibly betrayed by the mangement</em>" and is <em>"heartbroken</em>" to be leaving a team and colleagues he worked with every day.</p>
-
-
-
-<p>In response, when asked to comment on the situation, Warhorse Studios told <a href="https://kotaku.com/kingdom-come-2-translator-gen-ai-fired-warhorse-2000682854">Kotaku</a> in a statement that "<em>Warhorse Studios has always been a talent-driven studio, and we deeply value the people who shape our work. Out of respect for the privacy and dignity of both current and former colleagues, we will not discuss individual situations publicly</em>."</p>
-
-
-
-<p>Hejtmánek added that his comment was not meant to cause a wave of backlash towards Warhorse Studios by way of review bombing its games or harassment towards the developers, reiterating that all they want "<em>is for people to be more informed about what's going on</em>" within the video game industry "<em>behind closed doors</em>."</p>
-
-
-
-<p>AI, and more specifically, Generative AI (GenAI) tools, and their place in video games (or lack thereof) has been a hotly contested topic in recent years. It's <a href="https://wccftech.com/that-is-egregious-players-have-already-found-whats-believed-to-be-ai-generated-art-in-crimson-desert/">consistently been</a> a point of <a href="https://wccftech.com/larian-studios-ceo-says-a-lot-has-become-lost-in-translation-over-genai-backlash/">controversy </a>when <a href="https://wccftech.com/the-expanse-osiris-reborn-studio-owlcat-uses-gen-ai-to-iterate-faster/">developers are caught</a> having used GenAI without disclosing it to players, including one case that impacted <strong><a href="https://wccftech.com/the-alters-generative-ai-assets/">The Alters,</a></strong> which did include developer <strong>11 Bit Studios</strong> admitting to using GenAI for translations.</p>
-
-
-
-<p>Mistakes in the translations was one of the ways players were tipped off that the studio had used GenAI, though 11 Bit maintained that it only used the tech as a placeholder while it sorted getting professional translations done by a human team. </p>
-
-
-
-<p>It's also worth noting that Warhorse Studios' founder, <a href="https://wccftech.com/larian-said-they-were-doing-something-absolutely-everyone-is-doing-ai-hysteria/"><strong>Daniel Vávra</strong>, was someone who stood up in defense of <strong>Larian Studios</strong> </a>following the wave of backlash it received when it admitted to experimenting with GenAI tools. </p>
-
-
-
-<p>In the <a href="https://wccftech.com/ai-is-theft-i-have-to-use-it-otherwise-ill-get-fired-gdc-reports-one-third-of-game-workers-are-using-genai-for-daily-tasks/"><strong>GDC State of the Game Industry Report 2026,</strong></a> a majority of respondents said their studio was using GenAI tools, with more studios using the technology and writing new policies for how it is to be used. That said, a majority of respondents also said they believe GenAI is having a <strong>negative impact on the video game industry.</strong></p>
-
-
-
-<p>As far as we're aware, Warhorse Studios did not use GenAI tools to create Kingdom Come: Deliverance 2 or any of its DLCs, though last year, on the topic of GenAI, Vávra did say, "<em>AI is here to stay with us. As frightening as it may be, that's the way it is.</em>"</p>
-
-
-
-<p>"<em>If AI can help me make an epic game in a year with a smaller team like in the old days, I'm all for it. That game will still have an art director, writers, programmers, graphic designers, but they won't have to do the tiresome and boring tasks, they'll have to focus on the essentials. I have ideas for lots of games, but I'm fifty years old and so far it's taken me seven years on average to make one game. If AI helps me realize those ideas faster, I'm all for it.</em>"</p>
-
-			
-			
-			
-			<p data-nosnippet="">
-				Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.
-			</p>
-			
-
-
-		</div></div><br/><br/>https://wccftech.com/kingdom-come-developer-warhorse-allegedly-fired-translator-says-role-is-obsolete-ai/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Esoteric Ebb Took 8 Years, 4 Attempts, And 1 Disco Elysium]]></title>
-            <link>https://aftermath.site/esoteric-ebb-interview-post-games-podcast/</link>
-            <guid>1477918</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><article>
-      <p><em>This post originally appeared on 3/30/26 at </em><a href="https://postgame.substack.com/p/2026s-fantasy-masterpiece-took-8?ref=aftermath.site" rel="noreferrer"><em>Post Games</em></a><em>, a weekly podcast by Chris Plante about why and how we love video games. You can support Post Games on </em><a href="https://www.patreon.com/cw/PostGames?ref=aftermath.site" rel="noreferrer"><em>Patreon</em></a><em>.</em></p><p>I’m going to say a word, and I will ask you not to roll your eyes. Ready? “<em>Disco</em>-like.” Let’s use it in a sentence. The 2026 fantasy game <em>Esoteric Ebb</em> is the best <em>Disco</em>-like game since<em> Disco Elysium</em>. I know. I feel it, too. Something’s a bit off.</p><p>As you, a gamer with refined taste, know, <em>Disco Elysium</em>’s creators released their unique twist on role-playing games in 2019. Its emphasis on conversation over combat, along with timely progressive politics, inspired a variety of copycats and homages. But nothing – including projects from the original game developers – has recreated the original’s magic. Can <em>Disco</em>-likes exist if nothing is quite <em>Disco</em>-like?</p><p><em>This post originally appeared 3/30/26 on </em><a href="https://postgame.substack.com/?ref=aftermath.site" rel="noreferrer"><em>Post Games</em></a><em>, a weekly podcast about why and how we love video games, each episode digging into an important, surprising, or underreported topic. If you like what you hear, consider </em><a href="https://www.patreon.com/cw/PostGames?ref=aftermath.site" rel="noreferrer"><em>subscribing</em></a><em>.</em></p><p>Obviously, I’m here to tell you, definitively, yes. <em>Esoteric Ebb</em> is a game that proves just that, and its creator accomplished the feat not by accident but with a scientific method-esque rigour. But I’m also here to serve as a verbal antacid for the nausea that comes when I say that word. “<em>Disco</em>-like.” Yuck.</p><p>Every new video game genre comes with skepticism.</p><p>Plastic instruments proved to be a landfill-filling fad. Hero shooters, extraction shooters, and battle royale convinced gullible executives to redirect a generation of talented game designers onto projects that would take years to make and weeks to shut down. I’ve lived through booms and busts for MMOs, FPS UGC, and MOBAs.</p><figure></figure><p>But the thing about new genres is that eventually they become old genres. Consider the <em>Souls</em>-like, a genre that for a time belonged exclusively to a single developer, then infected every corner of games, and now is just another type of game to choose from.</p><p>A new genre is like an active volcano.</p><p>One moment, the status quo. Then, boom, the New spews onto the surface. First, spectacular! Then, destabilizing. Decades-old structures collapse. Its plume blocks out the sun and everything else. Its lava oozes across the earth, incinerating all it touches.</p><p>The volcano can’t be controlled, and those who try get burned. But over the years, the lava cools into rock. New structures are built. The air clears, and the volcano becomes just another cool mountain. Just another part of the landscape.</p><p>New genres, led by a standard bearer or two, redirect rivers of players from one trend to the next. And following that player base comes a mix of inspired game developers and cynical publishers, chasing the new and the profitable. More often than not, their money combusts into flames.</p><p>It takes time for genres to cool, for them to be understood, for them to become something not to be imitated but built upon. Today’s guest, Christoffer Bodegard, is the first game developer I’ve ever spoken with who has a graduate and master’s degree in player agency, who has had the gumption to spend years reverse engineering a single game, and for years after, constructing something new upon that foundation.</p><p>These days, people say rogue-like without having played <em>Rogue </em>– or even knowing <em>Rogue </em>exists. But it takes decades for genres to become so familiar, so diverse, so rock-solid that they blend into the background. At first, they’re awkward. “<em>Disco</em>-like.”</p><p>It’s growing on me.</p><p>This week on Post Games, I talk with the person who cracked the <em>Disco</em>-like subgenre, Christoffer Bodegard, about his brilliant new fantasy game Esoteric Ebb.</p><ul><li><strong>Act 1:</strong> Dissecting <em>Disco Elysium</em>, Organ by Organ</li><li><strong>Act 2:</strong> Converting Tabletop RPGs into Video Game Nirvana</li><li><strong>Patreon Bonus:</strong> Step 1 - Write a Million Words</li><li><strong>Act 3:</strong> The News of the Week with Aftermath’s Nathan Grayson</li></ul><p>Plus, a banger new song from <em>Dosa Divas</em>. It is a huge episode, so let’s get to it.</p><p>Listen to Post Games on <a href="https://podcasts.apple.com/us/podcast/post-games/id1815131711?ref=aftermath.site"><u>Apple Podcasts</u></a>, <a href="https://open.spotify.com/show/4bn8CFHz9RRWrYfTyWSnFx?ref=aftermath.site"><u>Spotify</u></a>, or your <a href="https://rss.art19.com/post-games?ref=aftermath.site"><u>podcast app of choice</u></a>. Subscribe to the free newsletter at <a href="http://www.post.games/?ref=aftermath.site"><u>Post.Games</u></a> for weekly show notes.</p><h2 id="recommended">Recommended</h2><figure><a href="https://aftermath.site/esoteric-ebb-concept-art-illustrations/"><div><p>The Art Of Esoteric Ebb</p><p>A look at the art behind one of the best-looking video games of 2026</p><p><span>Luke Plunkett</span></p></div></a></figure>
-    </article></div><br/><br/>https://aftermath.site/esoteric-ebb-interview-post-games-podcast/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>

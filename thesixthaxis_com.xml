@@ -4,9 +4,268 @@
         <title>maGaming RSS Feed - www.thesixthaxis.com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/thesixthaxis_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for www.thesixthaxis.com</description>
-        <lastBuildDate>Tue, 31 Mar 2026 10:22:11 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 31 Mar 2026 11:19:19 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[ARC Raiders update 1.22 brings along Flashpoint]]></title>
+            <link>https://www.thesixthaxis.com/2026/03/31/arc-raiders-update-1-22-brings-along-flashpoint/</link>
+            <guid>1478221</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>ARC Raiders latest update is upon us with update 1.22 marking the start of Flashpoint, which is a new chapter to sink your time into. One of the major additions is the ARC Operation called Close Scrutiny. In this event, the map contains less loot but the new ARC Assessor may hold ample riches while also providing new insights into the general ARC threat. Players will need to watch out for the new ARC Vaporizer, a flying enemy type that fires lasers. There’s also a new project where players need to build a high gain antenna. The full patch notes are below.</p>
+<p><iframe title="Flashpoint Update | ARC Raiders" width="780" height="439" src="https://www.youtube.com/embed/g-eeA32ap-w?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+
+
+
+<h2><strong>What’s New?</strong></h2>
+<ul>
+<li value="1">Map Condition Close Scrutiny – ARC Operation</li>
+<li value="2">ARC – Vaporizer</li>
+<li value="3">Legendary Energy shotgun – Dolabra</li>
+<li value="4">Rare Medium Ammo SMG – Canto</li>
+<li value="5">Rare Deployable – Surge Coil</li>
+<li value="6">High-Gain Antenna Player Project</li>
+<li value="7">Shredders added to all maps</li>
+<li value="8">Scrappy Feeding Boost</li>
+<li value="9">Wasp Hunter Set</li>
+<li value="10">The Brigade Set</li>
+</ul>
+<h2><strong>Patch Highlights</strong></h2>
+<ul>
+<li value="1">Increased loot value in all locked rooms with a scaled increase depending on the key rarity.</li>
+<li value="2">Players who build their own loadout are more likely to join fresh servers.</li>
+<li value="3">Crafting Improvements.</li>
+<li value="4">Hide HUD on Console.</li>
+</ul>
+<h2><strong>Balance Changes</strong></h2>
+<h3><strong>ARC</strong></h3>
+<ul>
+<li value="1">Rocketeers will now take less damage from collisions, and will no longer be instantly destroyed upon impact when stunned.</li>
+<li value="2">Reduced the chance for multiple Fireflies to spawn together.</li>
+<li value="3">Decreased the time it takes for ARC to identify players that are very close in-front of them.</li>
+</ul>
+<h3><strong>Items</strong></h3>
+<ul>
+<li value="1">Free Augments can now be recycled into 6 plastic and 6 rubber parts.</li>
+<li value="2">The Firefly Burner has a new extra-spicy functionality.</li>
+</ul>
+<h3><strong>Maps</strong></h3>
+<ul>
+<li value="1">Increased loot value in all locked rooms with a scaled increase depending on the key rarity.</li>
+<li value="2">Increased loot spawns from Baron Husks.</li>
+<li value="3">Players who build their own loadout are more likely to join fresh servers.</li>
+</ul>
+<p><strong>Dev note:&nbsp;</strong>As part of an ongoing look at free loadout usage and how it impacts the game, we’re going to bias the matchmaking to put players with custom loadouts into fresh servers. This won’t be a guarantee, as map choice, time of day, and region will still affect the number of players available to matchmake. This does have an effect on overall matchmaking times so we’ll be keeping a close eye on it. Free Loadouts are primarily meant as a safety net for a player’s personal economy. With these kits, those who play carefully should have enough to build themselves back up, accomplish a few tasks, or make a bit of progress.</p>
+<h2><strong>Content and Bug Fixes</strong></h2>
+<h3><strong>Animation</strong></h3>
+<ul>
+<li value="1">Reduced pose popping when starting to sprint, improved sprint transitions, and refined animations when starting movement from idle.</li>
+<li value="2">Fixed Comet head jitter.</li>
+<li value="3">Fixed an issue where the weapon mesh is misplaced during the automatically triggered animation of re-equipping it after breaching doors.</li>
+<li value="4">Fixed an issue where fire damage would trigger bullet hit reactions.</li>
+</ul>
+<h3><strong>Audio</strong></h3>
+<ul>
+<li value="1">Improved stability of proximity voice chat.</li>
+<li value="2">Removed indoor wind reaction sounds to avoid confusion with player-generated sounds like looting.</li>
+<li value="3">Fixed missing secondary-use audio for the ARC Power Core and restored the use sound when repairing another player’s armor.</li>
+<li value="4">Improved positional audio clarity for other players.</li>
+<li value="5">Opening and closing doors can be heard from farther away.</li>
+<li value="6">Improved directional audio for flying ARC.</li>
+<li value="7">Adjusted directional filtering of sounds increasing clarity of sounds coming from behind the player.</li>
+<li value="8">Improved long-range hit feedback by adding distant variations to bullet impact indicator sounds.</li>
+<li value="9">Considerably reduced weapon audio latency. Windows: Only applies on systems with at least 16 GB RAM.</li>
+<li value="10">Improved responsiveness of continuous-fire weapon audio, reducing delay and desync when releasing the trigger.</li>
+<li value="11">Fixed missing tab navigation sounds in the UI when using a gamepad.</li>
+</ul>
+<h3><strong>ARC</strong></h3>
+<ul>
+<li value="1">Improved behaviour for stunned Comets.</li>
+<li value="2">Improved the ARC target selection to allow switching targets more freely and to “zero in” less on the first target.</li>
+<li value="3">Fixed an issue where flying ARC (especially Fireflies) would spawn inside walls and attack players from outside the walls and floors in Stella Montis.</li>
+<li value="4">All interactions are now disabled when grabbed by a Tick except the interaction to fight it off.</li>
+</ul>
+<h3><strong>Customization</strong></h3>
+<ul>
+<li value="1">Fixed an issue where parts of the Low Bun and Curly Mullet were not animated.</li>
+<li value="2">Fixed an issue where beards would disappear with some headgear.</li>
+</ul>
+<h3><strong>Gameplay</strong></h3>
+<ul>
+<li value="1">Fixed an issue that allowed players to use ziplines or ladders while carrying items (e.g. Field Crate). Carryables are now dropped when grabbing a zipline or ladder.</li>
+<li value="2">Fixed an issue where players who joined near the end of the late-join window could have ARC spawn on them immediately.</li>
+<li value="3">Added gamepad aim assist to Leaper legs and core.</li>
+<li value="4">Fixed an issue where you could take fall damage when attempting to vault on Comets.</li>
+<li value="5">Remote Raider Flares can now be disarmed with the Mine Sweeper skill.</li>
+<li value="6">Fixed an issue where using LMB/RMB while unarmed could delay or prevent equipping a weapon, tool, or quick-use item.</li>
+<li value="7">Fixed an issue where eliminations with Trailblazer or Shrapnel Grenade did not count toward the “Horseshoes and Hand Grenades” achievement.</li>
+</ul>
+<h3><strong>Maps</strong></h3>
+<ul>
+<li value="1">Shredders are now added to all maps (only during certain map conditions on Dam Battlegrounds).</li>
+<li value="2">Fixed an instance where players could go out of bounds in the tutorial.</li>
+</ul>
+<h4><strong>Dam Battlegrounds</strong></h4>
+<ul>
+<li value="1">Added more Sentinel spawn points.</li>
+<li value="2">Adjusted area coverage for Leapers, Bombardiers, and Bastions to improve navigation.</li>
+<li value="3">Fixed various clipping, floating objects, and terrain gaps.</li>
+</ul>
+<h4><strong>Buried City</strong></h4>
+<ul>
+<li value="1">Fixed multiple spots where players could get stuck.</li>
+<li value="2">Added more Sentinel spawn points and made spawns more consistent.</li>
+<li value="3">Opened up navigation on some Old Town streets for ARC to move more freely.</li>
+<li value="4">Adjusted area coverage for Leapers, Bombardiers and Bastions to improve navigation and variety.</li>
+<li value="5">Increased the variety of Leaper, Bombardier, Bastion and Rocketeer distribution during the Night Raid map condition.</li>
+</ul>
+<h4><strong>Blue Gate</strong></h4>
+<ul>
+<li value="1">Added more Sentinel spawn points.</li>
+<li value="2">Adjusted area coverage for certain big enemies to improve navigation.</li>
+<li value="3">Reduced the number of Comets during the Hurricane map condition.</li>
+<li value="4">Locked Gate:</li>
+<li value="5">
+<ul>
+<li value="1">Some side entrances now unlock with the main gate,</li>
+<li value="2">Security Codes now come from Code Printers instead of containers,</li>
+<li value="3">Security Codes expire upon extraction.</li>
+</ul>
+</li>
+</ul>
+<h4><strong>Spaceport</strong></h4>
+<ul>
+<li value="1">Resolved several instances of floating objects and clipping.</li>
+<li value="2">Added more Sentinel spawn points.</li>
+<li value="3">Fixed players getting stuck in elevator shafts.</li>
+<li value="4">Added more mushroom spawn locations to improve resource availability.</li>
+<li value="5">Increased chances for high-tier loot from completing the rooftop activity during the Launch Tower Loot map condition.</li>
+<li value="6">Added a delay after the final antenna is activated before the bunker opens during Hidden Bunker map condition.</li>
+</ul>
+<h4><strong>Stella Montis</strong></h4>
+<ul>
+<li value="1">Fixed a missing wall in the Security Lobby.</li>
+</ul>
+<h3><strong>Movement</strong></h3>
+<ul>
+<li value="1">Fixed an issue where characters did not immediately face ladders when aligning to climb.</li>
+<li value="2">Fixed an issue where sprint could be retriggered and canceled when holding fire and sprint together.</li>
+</ul>
+<h3><strong>Performance</strong></h3>
+<ul>
+<li value="1">Improved texture streaming to reduce stalls and make streaming more responsive on lower-spec systems; corrected streaming calculations to respect component scale.</li>
+<li value="2">Optimized texture streaming calculations to improve performance and reduce stuttering.</li>
+<li value="3">Optimized CPU performance.</li>
+</ul>
+<h3><strong>Rendering</strong></h3>
+<ul>
+<li value="1">Reduced shadow popping.</li>
+<li value="2">Reduced popping from vegetation and debris.</li>
+<li value="3">Fixed flickering shadows from vegetation.</li>
+<li value="4">Upgraded Intel XeSS to SDK version 2.1.1.</li>
+<li value="5">Upgraded AMD FSR to SDK version 2.1.0.</li>
+<li value="6">Tweaked AMD FSR for improved responsiveness and image clarity.</li>
+</ul>
+<h3><strong>Quests</strong></h3>
+<ul>
+<li value="1">Fixed items being incorrectly consumed during interactions in the “After Rain Comes” quest.</li>
+<li value="2">Fixed effect syncing issues in the quest “A Dead End”.</li>
+<li value="3">Reworked quest tracking to prevent an issue that could block quest progression in some cases, and to improve visualization. Progress bars now indicate what progress may be lost if you fail to extract.</li>
+</ul>
+<h3><strong>Stability</strong></h3>
+<ul>
+<li value="1">Resolved a crash that could occur in the tutorial.</li>
+<li value="2">Fixed a rare crash that could occur when loading into a Practice Range session.</li>
+</ul>
+<h3><strong>UI</strong></h3>
+<ul>
+<li value="1">Crafting improvements:</li>
+<li value="2">
+<ul>
+<li value="1">Quickly acquire missing materials directly from the crafting view.</li>
+<li value="2">Recycling, refining, or purchasing missing materials is now available in the same window to complete crafting.</li>
+</ul>
+</li>
+<li value="1">All party members can now see active map conditions while in Speranza. Members can also ping destinations they’d like to depart to.</li>
+<li value="2">Checking one matchmaking option (Fill Squad or Solo vs. Squad) now disables the other.</li>
+<li value="3">Matchmaking timer is now shown at the bottom of all screens next to the selected destination.</li>
+<li value="4">Fixed an issue where stash overflow could be shown incorrectly when detaching mods from the inspect screen.</li>
+<li value="5">The store tab now shows a new items marker when the store rotation changes.</li>
+<li value="6">Fixed inverted gamepad camera zoom on Decks and Store screens.</li>
+<li value="7">Fixed missing action text for several throwable items; prompts now display correctly.</li>
+<li value="8">Added an option to change HUD visibility mode in Gameplay Options for console (also available via F10 on PC).</li>
+<li value="9">
+<ul>
+<li value="1">These HUD options are:</li>
+<li value="2">
+<ul>
+<li value="1">Visible</li>
+<li value="2">Crosshair and Interactions Only</li>
+<li value="3">Crosshair Only</li>
+<li value="4">Hidden</li>
+</ul>
+</li>
+</ul>
+</li>
+<li value="9">The inventory screen now shows stash value.</li>
+<li value="10">Pinging a Barricade now shows the ping by the crosshair instead of offset.</li>
+<li value="11">Emote tiles in character customization now show a wheel icon indicating which slot each emote is equipped in.</li>
+<li value="12">Purchase preview dialog now displays a detailed breakdown of bundle contents.</li>
+<li value="13">The customization screen now shows a small preview of the bundle.</li>
+</ul>
+<h3><strong>VFX</strong></h3>
+<ul>
+<li value="1">Fixed an issue where Sentinel’s laser was shorter than its sight range in some cases.</li>
+<li value="2">Fixed ARC damage visual effects sometimes being visible through walls under certain circumstances.</li>
+</ul>
+<h2><strong>Known Issues</strong></h2>
+<ul>
+<li value="1">The Firefly may sometimes disappear after going idle and drop an incendiary grenade.</li>
+<li value="2">The persistent sound of a destroyed Comet can be heard occasionally.</li>
+<li value="3">Shredders float to the ceiling in some rooms of the Hidden Bunker</li>
+<li value="4">ARC may spawn inside the geometry on The Dam.</li>
+<li value="5">There is an invisible collision under the Turret at a few locations on Buried City and Spaceport.</li>
+<li value="6">Flying ARC may sometimes appear stuck in idle.</li>
+<li value="7">Helmet visors become transparent after the first extraction.</li>
+<li value="8">‘Purchase Raider Tokens’ page may appear in front of the inbox and profile page when switching between them.</li>
+<li value="9">Player animations may appear broken when interrupting a search of the Baron Husk.</li>
+<li value="10">Pressing fire with an empty mag triggers a reload, and once the reload is complete, the weapon automatically fires a shot without an additional trigger press.</li>
+<li value="11">When equipping quick-use items, clicking too rapidly may prevent them from activating – you need to release and press again for the input to register.</li>
+<li value="12">The top stairs in Grandioso apartments are not visible even though the collision is there.</li>
+</ul>
+<p><em>Source: <a href="https://arcraiders.com/news/patch-notes-1-22-0">Flashpoint – Patch Notes 1.22.0 | ARC Raiders</a></em></p>
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div></div><br/><br/>https://www.thesixthaxis.com/2026/03/31/arc-raiders-update-1-22-brings-along-flashpoint/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Rec Room will be shutting down on June 1st]]></title>
+            <link>https://www.thesixthaxis.com/2026/03/31/rec-room-will-be-shutting-down-on-june-1st/</link>
+            <guid>1478203</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>Developer Rec Room has announced that it will be shutting down its social and gaming title Rec Room, where players could hang out, create games, and make things in both standard and VR modes. The game will be shutting down on June 1st, which is also Rec Room’s 10th anniversary since launch. After that date, players will no longer be able to access the game or the website. From today, no new accounts can be created, friends cannot be added, RR+ membership sign ups are closed, Room Rewards program has been ended, and monetised items cannot be created.</p>
+<p><iframe title="Farewell to Rec Room: 2016 - 2026" width="780" height="439" src="https://www.youtube.com/embed/IV_MnwHPpqk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+
+
+<p>In a statement the development team wrote, <em>“Over the past decade, Rec Room grew into something amazing, reaching over 150 million players and creators along the way. Players made over half a billion friends on the platform. In total, people all around the world spent a cumulative 68 thousand years in Rec Room. The top UGC rooms saw over 500 years of play time each. That’s a lot of people having a lot of fun. What this community built together is incredible, and something we’ll always be proud of. Even today, millions of people are showing up to spend time in this fun and welcoming place every month.</em></p>
+<p><em>Despite this popularity, we never quite figured out how to make Rec Room a sustainably profitable business. Our costs always ended up overwhelming the revenue we brought in. We spent a long time trying to find a way to make the numbers work. But with the recent shift in the VR market, along with broader headwinds in gaming, the path to profitability has gotten tough enough that we’ve made the difficult decision to shut things down. We’re making this decision now, while we still have the ability to wind things down thoughtfully and do right by the people who built this with us.”</em></p>
+
+<p>As a thank you to players the Rec Room team all first party content is being discounted by 80%, and some of the Rec Room+ items will be available to all players. Players will also be able to download their photos and final report cards. To download photos from the game Rec Room has <a href="https://recroom.zendesk.com/hc/en-us/articles/39239520954903-Exporting-Rec-net-Photos">provided instructions here.</a> To get your final report card you can <a href="https://recroom.zendesk.com/hc/en-us/articles/39240723191703-Saving-your-Report-Card">follow the instructions here</a>. Creators will be able to download their room and invention data through formats that can then be opened using other tools like Unity, but this can only be done through Steam and the function will go live next week. Working copies of rooms cannot be downloaded as it will not be possible to run them without the Rec Room servers.</p>
+<p><em>Source: <a href="https://blog.recroom.com/posts/schools-out-for-rec-room">Rec Room</a></em></p>
+
+
+<!-- CONTENT END 1 -->
+
+		
+	</div></div><br/><br/>https://www.thesixthaxis.com/2026/03/31/rec-room-will-be-shutting-down-on-june-1st/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[Mario Kart World gets Bob-omb Blast in update 1.6.0]]></title>
             <link>https://www.thesixthaxis.com/2026/03/31/mario-kart-world-gets-bob-omb-blast-in-update-1-6-0/</link>
