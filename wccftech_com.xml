@@ -4,13 +4,13 @@
         <title>maGaming RSS Feed - wccftech.com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech.com</description>
-        <lastBuildDate>Sat, 04 Apr 2026 18:09:46 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 04 Apr 2026 21:08:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Starfield PS5 Pro Specs Revealed: PSSR Supported, DualSense’s Adaptive Triggers Available]]></title>
-            <link>https://wccftech.com/starfield-ps5pro-specs-pssr-adaptive-triggers/</link>
-            <guid>1482559</guid>
+            <title><![CDATA[NVIDIA Shows Neural Texture Compression Cutting VRAM by 85% or Boosting Quality for the Same Budget]]></title>
+            <link>https://wccftech.com/nvidia-neural-texture-compression-vram-saving/</link>
+            <guid>1482823</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
 
 			
@@ -19,57 +19,63 @@
 			
 			
 			
-			<p><strong>Bethesda Game Studios</strong> has revealed the specifications of <strong>Starfield</strong>'s imminent <strong>PlayStation 5</strong> release. Owners of the <strong>PS5 Pro</strong> hardware will be able to choose from two modes:</p>
+			<p>During a <strong>GTC 2026</strong> session <span>titled&nbsp;<em><strong>"<a href="https://www.youtube.com/watch?v=-H0TZUCX8JI" type="link" id="https://www.youtube.com/watch?v=-H0TZUCX8JI" target="_blank" rel="noreferrer noopener">Introduction to Neural Rendering</a></strong></em>,"</span> <strong>NVIDIA</strong> showcased its <strong>Neural Texture Compression (NTC)</strong> technique once again.</p>
+
+
+
+<p>Neural Texture Compression was <a href="https://wccftech.com/nvidia-neural-compression-technique-unlocks-16x-texture-detail/" type="link" id="https://wccftech.com/nvidia-neural-compression-technique-unlocks-16x-texture-detail/" target="_blank" rel="noreferrer noopener">showcased for the first time nearly three years ago</a> and <a href="https://wccftech.com/nvidia-dlss-4-5-streamline-plugin-rtx-neural-texture-compression-sdk-available-game-devs/" type="link" id="https://wccftech.com/nvidia-dlss-4-5-streamline-plugin-rtx-neural-texture-compression-sdk-available-game-devs/" target="_blank" rel="noreferrer noopener">has been available via an SDK since early 2026</a>, but so far, no game developers have used it. Perhaps that is why NVIDIA has once again taken the chance to explain its potential benefits. </p>
+
+
+
+<p>Senior DevTech Engineer <strong>Alexey Bekin</strong> described Neural Texture Compression as a <strong>machine learning approach for storing textures more efficiently</strong>. Instead of storing every texel directly, NTC compresses the texture into compact learned latent features that capture its essential visual information. At runtime, a small neural network running on the GPU reconstructs texel values from these features, computing them on demand instead of loading large textures from memory. Critically, <strong>NTC is not generative; it's deterministic</strong>. That means it reconstructs the same texture each and every time.</p>
+
+
+
+<p>The system has two components. The&nbsp;<strong>latent texture</strong>&nbsp;<strong>is a dramatically smaller representation of the original asset</strong>, where each texel stores a feature vector describing material properties rather than a final color. To ensure fine detail is recoverable,&nbsp;<strong>positional encoding</strong>&nbsp;is applied to the UV coordinates before they reach the decoder, thus injecting high-frequency spatial information that helps the network accurately reconstruct sharp details and repeating patterns that would otherwise be lost in a compressed representation.</p>
+
+
+
+<p>Training works as a <strong>standard neural optimization loop</strong>: the network takes positionally encoded UV coordinates plus a latent code, produces a reconstruction, compares it against the original texture as ground truth, computes a reconstruction loss, and iteratively updates both the MLP weights and the latent code until the output converges to an accurate reproduction of the source material.</p>
+
+
+
+<p>NVIDIA's Neural Texture Compression offers three structural advantages over traditional formats like the widely used BCN:</p>
 
 
 
 <ul>
-<li><strong>Pro Visual</strong>, which targets a 4K resolution output to maximize visual fidelity at 30 frames per second</li>
+<li><strong>Higher compression ratios</strong>: significantly more texture data fits in the same amount of video memory</li>
 
 
 
-<li><strong>Pro Performance Mode</strong>, which targets 60 frames per second for a smoother gameplay experience</li>
+<li><strong>High channel count support</strong>: complex assets with many packed material channels (normals, roughness, albedo, AO, and more in a single material set) compress cleanly without requiring the data to be split or simplified.</li>
+
+
+
+<li><strong>Practical storage and bandwidth savings</strong>: smaller on-disk footprints mean smaller game installs, smaller patches, and faster downloads.</li>
 </ul>
-
-
-
-<p>Both modes integrate PS5 Pro's <strong>PlayStation Spectral Super Resolution</strong> (PSSR) upscaler. Bethesda didn't clarify whether it's the first or <a href="https://wccftech.com/pssr-2-out-today-supports-12-games-at-launch-big-improvement-over-pssr-1-justifies-ps5-pro-existence/" type="link" id="https://wccftech.com/pssr-2-out-today-supports-12-games-at-launch-big-improvement-over-pssr-1-justifies-ps5-pro-existence/" target="_blank" rel="noreferrer noopener">newly released iteration of the upscaler</a>, but it doesn't matter that much, as <strong>there is a system toggle that PS5 Pro users can enable</strong> to upgrade PSSR-supported games like Starfield to the latest version of the algorithm.</p>
-
-
-
-<p>All PlayStation 5 consoles, including the base model, support SSD optimization, Trophies, and the full suite of <strong>DualSense</strong> controller features.</p>
-
-
-
-<ul>
-<li><strong>Adaptive Triggers: </strong>These adaptive triggers provide the controller's L2 and R2 buttons with physical resistance and feedback, giving different types of weapons (both ground-based and starship-based) their own unique feel.</li>
-
-
-
-<li><strong>Light Bar:</strong> The DualSense light bar keeps pace with the action in Starfield, changing color to reflect the player character's health on the ground or the starship's status in space, pulsing red when there's imminent danger and returning to white once health is recovered.</li>
-
-
-
-<li><strong>Touchpad:</strong> Quick presses and swipes make it easier to stay in the flow while exploring. Players can switch POVs by pressing the left side; open the map by pressing the right side; press and hold the right side to activate your hand scanner; and swipe in different directions to access key menus such as Inventory, Missions, and Skills.</li>
-
-
-
-<li><strong>Controller speaker: </strong>Audio logs and ship intercom chatter play directly through the DualSense controller speaker, boosting immersion by making the players feel as if they're truly receiving the communications via radio.</li>
-</ul>
-
-
-
-<p>It is currently unclear whether the DualSense features will also be available on the PC version of Starfield when using the controller. </p>
 
 
 
 <figure><p>
-<iframe title="Starfield: Official PS5® Features Trailer" width="500" height="281" src="https://www.youtube.com/embed/WhfHnKmcXAE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+<iframe title="Introduction to Neural Rendering" width="500" height="281" src="https://www.youtube.com/embed/-H0TZUCX8JI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
 </p></figure>
 
 
 
-<p>Starfield is out for PlayStation 5 on <strong>Monday, April 6</strong>. At the same time, Bethesda will release the <strong>Free Lanes</strong> update and the <strong>Terrain Armada</strong> DLC; you can learn all about them <strong><a href="https://wccftech.com/starfield-freelanes-terran-armada-ps5-april-7-everything-new/" type="link" id="https://wccftech.com/starfield-freelanes-terran-armada-ps5-april-7-everything-new/" target="_blank" rel="noreferrer noopener">in an overview plus developer interview with Tim Lamb available here</a></strong>.</p>
+<p>Bekin showed a Tuscan Villa demo scene where NTC enabled an <strong>85% reduction in VRAM usage</strong> (<strong>970MB</strong>) over the textures compressed with regular BCN (which consumed <strong>6.5GB VRAM</strong>). That's going to be very useful for games with scenes that are heavy on VRAM usage, but Neural Texture Compression can also be used to <strong>increase texture quality while maintaining the same VRAM budget</strong>, avoiding the typical compression artifacts caused by BCN.</p>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/04/NVIDIA-NTC-Quality-scaled.jpg"></a></figure>
+
+
+
+<p><a href="https://wccftech.com/ps6-1tb-ssd-no-disc-drive-neural-texture-compression/" type="link" id="https://wccftech.com/ps6-1tb-ssd-no-disc-drive-neural-texture-compression/" target="_blank" rel="noreferrer noopener">According to leaker Kepler_L2</a>, <strong>Sony</strong> might use Neural Texture Compression (which, despite being engineered by NVIDIA, is also supported on <strong>AMD</strong> and <strong>Intel</strong> hardware) to reduce <strong>PlayStation 6</strong> game install sizes while keeping costs down with a 1TB SSD.</p>
+
+
+
+<p>The NTC SDK, currently in beta, can be accessed <a href="https://github.com/NVIDIA-RTX/RTXNTC" type="link" id="https://github.com/NVIDIA-RTX/RTXNTC" target="_blank" rel="noreferrer noopener">on this GitHub page</a>.</p>
 
 			
 			
@@ -90,7 +96,7 @@ His passion for technology also makes him knowledgeable when it comes to gaming 
 			
 
 
-		</div></div><br/><br/>https://wccftech.com/starfield-ps5pro-specs-pssr-adaptive-triggers/]]></content:encoded>
+		</div></div><br/><br/>https://wccftech.com/nvidia-neural-texture-compression-vram-saving/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
