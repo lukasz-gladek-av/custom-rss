@@ -4,13 +4,13 @@
         <title>maGaming RSS Feed - wccftech.com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech.com</description>
-        <lastBuildDate>Sun, 05 Apr 2026 17:10:19 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 06 Apr 2026 09:29:20 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[NVIDIA Shows Neural Texture Compression Cutting VRAM by 85% or Boosting Quality for the Same Budget]]></title>
-            <link>https://wccftech.com/nvidia-neural-texture-compression-vram-saving/</link>
-            <guid>1482823</guid>
+            <title><![CDATA[New Divinity Game Is Coming Alive, Says Larian CEO Swen Vincke]]></title>
+            <link>https://wccftech.com/new-divinity-game-is-alive-says-larian-ceo/</link>
+            <guid>1483342</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
 
 			
@@ -19,63 +19,39 @@
 			
 			
 			
-			<p>During a <strong>GTC 2026</strong> session <span>titled&nbsp;<em><strong>"<a href="https://www.youtube.com/watch?v=-H0TZUCX8JI" type="link" id="https://www.youtube.com/watch?v=-H0TZUCX8JI" target="_blank" rel="noreferrer noopener">Introduction to Neural Rendering</a></strong></em>,"</span> <strong>NVIDIA</strong> showcased its <strong>Neural Texture Compression (NTC)</strong> technique once again.</p>
+			<p>After a few months of silence, <strong>Larian Studios</strong> CEO <strong>Swen Vincke</strong> has shared a brief development update on the new <strong>Divinity</strong> game, revealing to fans that it is starting to "come alive", even though a lot of it is still "rough and missing". <a href="https://x.com/LarAtLarian/status/2039096376743882884" type="link" id="https://x.com/LarAtLarian/status/2039096376743882884" target="_blank" rel="noreferrer noopener">In his X post</a>, he wrote:</p>
 
 
 
-<p>Neural Texture Compression was <a href="https://wccftech.com/nvidia-neural-compression-technique-unlocks-16x-texture-detail/" type="link" id="https://wccftech.com/nvidia-neural-compression-technique-unlocks-16x-texture-detail/" target="_blank" rel="noreferrer noopener">showcased for the first time nearly three years ago</a> and <a href="https://wccftech.com/nvidia-dlss-4-5-streamline-plugin-rtx-neural-texture-compression-sdk-available-game-devs/" type="link" id="https://wccftech.com/nvidia-dlss-4-5-streamline-plugin-rtx-neural-texture-compression-sdk-available-game-devs/" target="_blank" rel="noreferrer noopener">has been available via an SDK since early 2026</a>, but so far, no game developers have used it. Perhaps that is why NVIDIA has once again taken the chance to explain its potential benefits. </p>
+<p><em>I had a good day today. I realized I was having a good dev day when Adam, our writing director, started discussing the new Divinity game with me.</em></p>
 
 
 
-<p>Senior DevTech Engineer <strong>Alexey Bekin</strong> described Neural Texture Compression as a <strong>machine learning approach for storing textures more efficiently</strong>. Instead of storing every texel directly, NTC compresses the texture into compact learned latent features that capture its essential visual information. At runtime, a small neural network running on the GPU reconstructs texel values from these features, computing them on demand instead of loading large textures from memory. Critically, <strong>NTC is not generative; it's deterministic</strong>. That means it reconstructs the same texture each and every time.</p>
+<p><em>He just spent a week running through various permutations of one particular situation, tweaking the words, and had plenty of ideas. The things he said made sense, but it wasn’t that which struck me. He often has good ideas. Instead, it was the energy level he was at. It made me happy because it felt like I had returned to a good place after being away for a while, seeing that all my favorite people and spots were still there together with a whole bunch of new ones, waiting for me to explore.</em></p>
 
 
 
-<p>The system has two components. The&nbsp;<strong>latent texture</strong>&nbsp;<strong>is a dramatically smaller representation of the original asset</strong>, where each texel stores a feature vector describing material properties rather than a final color. To ensure fine detail is recoverable,&nbsp;<strong>positional encoding</strong>&nbsp;is applied to the UV coordinates before they reach the decoder, thus injecting high-frequency spatial information that helps the network accurately reconstruct sharp details and repeating patterns that would otherwise be lost in a compressed representation.</p>
+<p><em>I’m talking about being in that stage of development where there is a lot that is still rough or missing, but where you sense that <strong>a game is coming alive</strong>. Something was created out of nothing and you now get to experience what it feels like, knowing that things are still very moldable and that from here onwards, it can only improve. <strong>It’s a good moment in the life of any game</strong>. And it’s one I expect many developers recognize.</em></p>
 
 
 
-<p>Training works as a <strong>standard neural optimization loop</strong>: the network takes positionally encoded UV coordinates plus a latent code, produces a reconstruction, compares it against the original texture as ground truth, computes a reconstruction loss, and iteratively updates both the MLP weights and the latent code until the output converges to an accurate reproduction of the source material.</p>
+<p><em>As our discussion flowed in the direction of the arcs of one of our antagonists and we started discussing micro-details, <strong>I was saying to myself - yeah, this is good</strong>. Days like this really are why I love doing what I do.</em></p>
 
 
 
-<p>NVIDIA's Neural Texture Compression offers three structural advantages over traditional formats like the widely used BCN:</p>
+<p>Following the incredibly successful release of <strong>Baldur's Gate 3</strong> in August 2023, Larian famously <strong>decided to return to its own Divinity IP</strong> <a href="https://wccftech.com/baldurs-gate-3-no-sequel-dlc-larian-dropping-dungeons-and-dragons/" type="link" id="https://wccftech.com/baldurs-gate-3-no-sequel-dlc-larian-dropping-dungeons-and-dragons/" target="_blank" rel="noreferrer noopener">rather than make Baldur's Gate 4</a>. The official announcement of the game <a href="https://wccftech.com/larian-studios-announces-divinity-the-game-awards-2025/" type="link" id="https://wccftech.com/larian-studios-announces-divinity-the-game-awards-2025/" target="_blank" rel="noreferrer noopener">took place during The Game Awards 2025</a>, following an elaborate marketing campaign that <a href="https://wccftech.com/new-divinity-game-is-likely-that-mystery-tga-demonic-statue-announcement/" type="link" id="https://wccftech.com/new-divinity-game-is-likely-that-mystery-tga-demonic-statue-announcement/" target="_blank" rel="noreferrer noopener">included a mysterious statue placed in the Mojave Desert</a>.</p>
 
 
 
-<ul>
-<li><strong>Higher compression ratios</strong>: significantly more texture data fits in the same amount of video memory</li>
+<p>Right away, the developer said the game would be even bigger than Baldur's Gate 3, which was already gargantuan. Later, they <a href="https://wccftech.com/divinity-is-a-turn-based-rpg-will-be-way-better-than-baldurs-gate-3-says-larian/" type="link" id="https://wccftech.com/divinity-is-a-turn-based-rpg-will-be-way-better-than-baldurs-gate-3-says-larian/" target="_blank" rel="noreferrer noopener">clarified</a> that <strong>it will indeed be a turn-based RPG</strong> like <strong>Divinity: Original Sin 2</strong>, and Vincke also <a href="https://wccftech.com/divinity-will-address-the-weakest-part-of-previous-games-in-the-franchise/" type="link" id="https://wccftech.com/divinity-will-address-the-weakest-part-of-previous-games-in-the-franchise/" target="_blank" rel="noreferrer noopener">admitted</a> they're taking extra care to build a more solid universe than in previous franchise installments.</p>
 
 
 
-<li><strong>High channel count support</strong>: complex assets with many packed material channels (normals, roughness, albedo, AO, and more in a single material set) compress cleanly without requiring the data to be split or simplified.</li>
+<p>The studio also <a href="https://wccftech.com/larian-studios-ceo-responds-backlash-over-genai-use-divinity-baldurs-gate-3/" type="link" id="https://wccftech.com/larian-studios-ceo-responds-backlash-over-genai-use-divinity-baldurs-gate-3/" target="_blank" rel="noreferrer noopener">got embroiled <strong>in a controversy over the </strong></a><span><a href="https://wccftech.com/larian-studios-ceo-responds-backlash-over-genai-use-divinity-baldurs-gate-3/" target="_blank"><strong>use of generative AI</strong></a>, eventually confirming they wouldn't use it for concept art, but that</span> genAI tools would still help them in other departments.</p>
 
 
 
-<li><strong>Practical storage and bandwidth savings</strong>: smaller on-disk footprints mean smaller game installs, smaller patches, and faster downloads.</li>
-</ul>
-
-
-
-<figure><p>
-<iframe title="Introduction to Neural Rendering" width="500" height="281" src="https://www.youtube.com/embed/-H0TZUCX8JI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-</p></figure>
-
-
-
-<p>Bekin showed a Tuscan Villa demo scene where NTC enabled an <strong>85% reduction in VRAM usage</strong> (<strong>970MB</strong>) over the textures compressed with regular BCN (which consumed <strong>6.5GB VRAM</strong>). That's going to be very useful for games with scenes that are heavy on VRAM usage, but Neural Texture Compression can also be used to <strong>increase texture quality while maintaining the same VRAM budget</strong>, avoiding the typical compression artifacts caused by BCN.</p>
-
-
-
-<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/04/NVIDIA-NTC-Quality-scaled.jpg"></a></figure>
-
-
-
-<p><a href="https://wccftech.com/ps6-1tb-ssd-no-disc-drive-neural-texture-compression/" type="link" id="https://wccftech.com/ps6-1tb-ssd-no-disc-drive-neural-texture-compression/" target="_blank" rel="noreferrer noopener">According to leaker Kepler_L2</a>, <strong>Sony</strong> might use Neural Texture Compression (which, despite being engineered by NVIDIA, is also supported on <strong>AMD</strong> and <strong>Intel</strong> hardware) to reduce <strong>PlayStation 6</strong> game install sizes while keeping costs down with a 1TB SSD.</p>
-
-
-
-<p>The NTC SDK, currently in beta, can be accessed <a href="https://github.com/NVIDIA-RTX/RTXNTC" type="link" id="https://github.com/NVIDIA-RTX/RTXNTC" target="_blank" rel="noreferrer noopener">on this GitHub page</a>.</p>
+<p>The new Divinity game is expected to debut in early access next year, with a full release possibly in <strong>2028-2029</strong>.</p>
 
 			
 			
@@ -96,7 +72,7 @@ His passion for technology also makes him knowledgeable when it comes to gaming 
 			
 
 
-		</div></div><br/><br/>https://wccftech.com/nvidia-neural-texture-compression-vram-saving/]]></content:encoded>
+		</div></div><br/><br/>https://wccftech.com/new-divinity-game-is-alive-says-larian-ceo/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
