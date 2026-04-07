@@ -4,109 +4,27 @@
         <title>maGaming RSS Feed - arstechnica.com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica.com</description>
-        <lastBuildDate>Thu, 02 Apr 2026 08:22:42 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Apr 2026 23:13:46 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Nvidia rolls out its fix for PC gaming's "compiling shaders" wait times]]></title>
-            <link>https://arstechnica.com/gaming/2026/04/nvidias-new-app-lets-you-precompile-gaming-shaders-during-machine-idle-time/</link>
-            <guid>1480363</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="main">
-            <article data-id="2148323">
-  
-  <header>
-  <div>
-    <div>
-      
-
-      
-
-      <p>
-        Microsoft, Intel are also working on their own solutions for the issue.
-      </p>
-
-              
-          </div>
-
-    <div>
-    
-    <p>
-      When your computer isn't doing anything else, Nvidia thinks it might as well compile some shaders for your games.
-
-          </p>
-  </div>
-  </div>
-</header>
-
-
-  
-
-  
-      
-    
-    <div>
+            <title><![CDATA[Valve brings native Steam Link app to Apple's Vision Pro]]></title>
+            <link>https://arstechnica.com/gaming/2026/04/valve-brings-native-steam-link-app-to-apples-vision-pro/</link>
+            <guid>1484926</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
                       
                       
-          <p>PC gamers who are tired of waiting for their games to “compile shaders” during some load times may want to dig into <a href="https://www.nvidia.com/en-us/geforce/news/nvidia-app-dlss-4-5-dynamic-multi-frame-generation-available-now/">the latest beta version of the Nvidia App</a>. Alongside new DLSS 4.5 Multi Frame Generation features, the app includes the beta rollout of a feature that allows your machine to automatically compile new shaders while it’s idle.</p>
-<p>Nvidia’s new Auto Shader Compilation system promises to “reduc[e] the frequency of game runtime compilation after driver updates” for users running <a href="https://www.nvidia.com/en-us/drivers/details/265874/">Nvidia’s GeForce Game Ready Driver 595.97 WHQL</a> or later. When the feature is active and your machine is idle, the app will automatically start rebuilding DirectX drivers for your games so they’re all set to roll the next time they launch.</p>
-<p>While the feature defaults to being turned off when the Nvidia App is first downloaded, users can activate it by going to the Graphics Tab &gt; Global Settings &gt; Shader Cache. There, they can set aside disk space for precompiled shaders and decide how many system resources the compilation process should use. App users can also manually force shader recompilation through the app rather than waiting for the machine to go idle.</p>
+          <p>Valve is bringing Steam Link, its local network game-streaming app, to Apple’s Vision Pro mixed reality headset, allowing Vision Pro users to play traditional games from their Steam library wirelessly from a nearby Mac or PC.</p>
+<p>We say “traditional games” because it’s important to clarify that this does not stream VR games—only the sorts of games you would play on a traditional 2D display like a computer monitor or a TV. That said, this could lay some groundwork for VR games sometime in the future. But to be clear, Valve has not made any announcements about supporting SteamVR games on the Vision Pro.</p>
+<p>There were previously Steam Link apps for the Mac, iPhone, iPad, and Apple TV. Users could sync controllers with those devices and play Steam games over the local network—not just games from other Apple devices, but also from Windows or Linux gaming PCs.</p>
+<p>It has been possible to do this on the Vision Pro using third-party tools like ALVR, but this is a much more straightforward, tried-and-true path to the same destination.</p>
+<p>If you want to try it, you can sign up <a href="https://testflight.apple.com/join/Cye7Gfyy">via TestFlight</a>, Apple’s platform for distributing pre-release apps before they are listed on the App Store. Valve <a href="https://steamcommunity.com/app/353380/discussions/7/806847328212494915/">says</a> the current version of the app “allows streaming up to 4K resolutions, and allows you to dynamically adjust the curve of the display in panoramic mode.”</p>
+<p>We <a href="https://arstechnica.com/gadgets/2024/02/can-a-3500-headset-replace-your-tv-we-tried-vision-pro-to-find-out/">complained</a> about the Vision Pro’s limited ability to connect to external gaming and media devices or access mixed reality content outside Apple’s walled garden when we reviewed it at launch a couple of years ago. Since then, that situation has markedly <a href="https://arstechnica.com/gadgets/2025/11/where-apples-vision-pro-stands-today-post-m5-refresh/">improved</a>, though it’s still not always as straightforward as it is on competing headsets.</p>
+
 
           
                       
-                  </div>
-                    
-        
-            
-    
-    <div>
-
-        
-        <div>
-          
-          
-<p>Unfortunately, Nvidia warns that users will still have to generate shaders in-game after downloading a title for the first time. The Auto Shader Compiler system only generates the new shaders needed after subsequent driver updates following that first run of a new title.</p>
-<p>Nvidia’s Auto Shader Compiler is distinct from <a href="https://arstechnica.com/gaming/2026/03/microsoft-is-working-to-eliminate-pc-gamings-compiling-shaders-wait-times/">Microsoft’s Advanced Shader Delivery system</a>, which lets developers generate databases of precompiled shaders that can be downloaded ahead of time to align with a player’s specific system. Nvidia said earlier this month that it is “working closely with Microsoft” to add Advanced Shader Delivery support to its GeForce RTX line “later this year.”</p>
-<p>Intel has also recently started <a href="https://www.techpowerup.com/347496/intel-enables-precompiled-shader-delivery-for-up-to-3x-faster-game-loading-times">rolling out its Precompiled Shader Delivery system</a> while promising to integrate compatibility with Microsoft’s shader delivery system later in the year.</p>
-
-
-          
-                  </div>
-
-                  
-          
-
-
-
-
-
-
-  <div>
-    
-
-    <p>
-      Kyle Orland has been the Senior Gaming Editor at Ars Technica since 2012, writing primarily about the business, tech, and culture behind video games. He has journalism and computer science degrees from University of Maryland. He once <a href="https://bossfightbooks.com/collections/books/products/minesweeper-by-kyle-orland">wrote a whole book about <em>Minesweeper</em></a>.
-    </p>
-  </div>
-
-
-  <p>
-    <a href="https://arstechnica.com/gaming/2026/04/nvidias-new-app-lets-you-precompile-gaming-shaders-during-machine-idle-time/#comments" title="47 comments">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><defs><clipPath id="bubble-zero_svg__a"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath><clipPath id="bubble-zero_svg__b"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath></defs><g clip-path="url(#bubble-zero_svg__a)"><g fill="currentColor" clip-path="url(#bubble-zero_svg__b)"><path d="M80 40c0 22.09-17.91 40-40 40S0 62.09 0 40 17.91 0 40 0s40 17.91 40 40"></path><path d="M40 40 .59 76.58C-.67 77.84.22 80 2.01 80H40z"></path></g></g></svg>
-    47 Comments
-  </a>
-      </p>
-              </div>
-  </article>
-
-
-  
-
-
-  
-
-
-  
-  </div></div><br/><br/>https://arstechnica.com/gaming/2026/04/nvidias-new-app-lets-you-precompile-gaming-shaders-during-machine-idle-time/]]></content:encoded>
+                  </div></div><br/><br/>https://arstechnica.com/gaming/2026/04/valve-brings-native-steam-link-app-to-apples-vision-pro/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
