@@ -4,9 +4,453 @@
         <title>maGaming RSS Feed - wccftech.com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech.com</description>
-        <lastBuildDate>Tue, 07 Apr 2026 18:19:48 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Apr 2026 19:26:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[PSSR Games List for PS5 Pro: Native 2.0 and Upgradeable 1.0 Titles]]></title>
+            <link>https://wccftech.com/pssr-games-list-ps5-pro/</link>
+            <guid>1484695</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			
+			<p>Following the recent release of <strong>PlayStation Spectral Super Resolution</strong> (<strong>PSSR</strong>) <strong>2.0</strong>, owners of a <strong>PlayStation 5 Pro</strong> console may be wondering exactly which of the games they own support the new upscaler. You'll find the full list, updated as much as possible to the latest games, below. </p>
+
+
+
+<p>For now, there's only a relatively small number of games that use the new algorithm natively. However, the good news is that <strong>there is a system-level toggle</strong> that can upgrade PSSR 1.0 games to version 2.0, improving image quality. Notably, PS5 Pro System Architect <strong>Mark Cerny</strong> <a href="https://wccftech.com/playstation-5-pro-enhance-pssr-image-quality-toggle-not-updated/" type="link" id="https://wccftech.com/playstation-5-pro-enhance-pssr-image-quality-toggle-not-updated/" target="_blank" rel="noreferrer noopener">has stated</a> that 'the current strategy is that it will be fixed', meaning the toggle will always refer to PSSR 2.0 for now, though the phrasing leaves room for this policy to change with future algorithm versions.</p>
+
+
+
+<h2 id="h-in-this-article">In this article:</h2>
+
+
+
+<ul>
+<li><a href="#what-is-pssr"><strong>What Is PlayStation Spectral Super Resolution (PSSR)?</strong></a></li>
+
+
+
+<li><a href="#native-pssr-2"><strong>Native PSSR 2.0 Games</strong></a></li>
+
+
+
+<li><a href="#pssr-1-upgradeable"><strong>PSSR 1.0 (Upgradeable to 2.0 via System Toggle)</strong></a></li>
+
+
+
+<li><a href="#future-updates-frame-generation"><strong>Future Updates: Frame Generation?</strong></a></li>
+</ul>
+
+
+
+<h2 id="what-is-pssr">What Is PlayStation Spectral Super Resolution (PSSR)?</h2>
+
+
+
+<p>First of all, though, what is PlayStation Spectral Super Resolution? It's an <strong>AI-driven upscaling system</strong> powered by <strong>machine learning based technology</strong>, not unlike NVIDIA DLSS and the latest version of AMD FSR. Rather than rendering a game natively at 4K, which is extremely GPU-intensive, the hardware renders at a lower resolution (typically 1080p or 1440p) and then uses machine learning to reconstruct missing pixels, producing a sharp 4K image. This frees up GPU headroom that developers can redirect toward <strong>better frame rates, ray tracing, or higher-quality effects</strong>.</p>
+
+
+
+<p>What makes PSSR distinct from simple spatial upscaling is that <strong>it uses a trained neural network rather than a purely mathematical approach</strong>. Spatial upscalers like AMD's FSR 1.0, which basically stretched the image using a spatial algorithm with no temporal or AI component, are fast and hardware-agnostic <strong>but can produce noticeable blurring and loss of edge detail</strong>. PSSR, like DLSS and later FSR versions, adds temporal data (information from previous frames) and machine learning to reconstruct detail far more convincingly. The result <strong>preserves fine detail</strong>, especially for texture edges, fine geometry, and foliage, that spatial upscalers would smear or lose.</p>
+
+
+
+<p>PSSR 1.0 shipped <a href="https://wccftech.com/review/playstation-5-pro-hardware-the-next-gen-graphics-upgrade/" type="link" id="https://wccftech.com/review/playstation-5-pro-hardware-the-next-gen-graphics-upgrade/" target="_blank" rel="noreferrer noopener">alongside the PS5 Pro console in November 2024</a> and <strong>was based on Sony's own proprietary model</strong>. It received strong adoption among game developers right away, but <strong>it also had a few weaknesses</strong>, such as <strong>shimmering and temporal instability</strong>: fine details like chain-link fences, hair, and foliage would shimmer or flicker during motion. Additionally, a certain <strong>graininess</strong> was particularly visible under certain lighting conditions, resulting in a slightly noisier look than DLSS or FSR 4 on PC.</p>
+
+
+
+<p>PSSR 2.0, <a href="https://wccftech.com/pssr-2-out-today-supports-12-games-at-launch-big-improvement-over-pssr-1-justifies-ps5-pro-existence/" type="link" id="https://wccftech.com/pssr-2-out-today-supports-12-games-at-launch-big-improvement-over-pssr-1-justifies-ps5-pro-existence/" target="_blank" rel="noreferrer noopener">released on <strong>March 16, 2026</strong></a>, <strong>marks a significant step forward in image quality</strong>. The new version <strong><a href="https://wccftech.com/new-pssr-ps5pro-unveiled-resident-evil-requiem-first-game/" type="link" id="https://wccftech.com/new-pssr-ps5pro-unveiled-resident-evil-requiem-first-game/" target="_blank" rel="noreferrer noopener">is based on a fork of AMD FSR 4</a></strong>, optimized specifically for the PS5 Pro, and is the result of the ongoing machine learning collaboration between AMD and Sony, known as <strong><a href="https://wccftech.com/amd-fsr4-ps5-pro-2026-rdna5/" type="link" id="https://wccftech.com/amd-fsr4-ps5-pro-2026-rdna5/" target="_blank" rel="noreferrer noopener">Project Amethyst</a></strong>.</p>
+
+
+
+<p>Its main enhancements are <strong>improved temporal stability</strong> <strong>and image clarity</strong>, therefore directly addressing the shortcomings of the first version. Indeed, according to experts like Digital Foundry, this is <strong>a major improvement over PSSR 1.0</strong> and, in some cases, even compares favorably to AMD FSR 4.</p>
+
+
+
+<figure><p>
+<iframe title="Original/New PSSR Comparison - Silent Hill f" width="500" height="281" src="https://www.youtube.com/embed/eKufP1vEw4Q?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+<h2 id="native-pssr-2">Native PSSR 2.0 Games</h2>
+
+
+
+<p>The following PS5 Pro games have been developer-patched specifically for the new algorithm:</p>
+
+
+
+<ul>
+<li><a href="https://wccftech.com/playstation-5-pro-pssr-2-0-alan-wake-2-control/" type="link" id="https://wccftech.com/playstation-5-pro-pssr-2-0-alan-wake-2-control/" target="_blank" rel="noreferrer noopener">Alan Wake 2</a></li>
+
+
+
+<li>Assassin's Creed: Shadows</li>
+
+
+
+<li>Control: Ultimate Edition</li>
+
+
+
+<li><a href="https://wccftech.com/crimson-desert-gets-detailed-pc-console-mac-specs/" type="link" id="https://wccftech.com/crimson-desert-gets-detailed-pc-console-mac-specs/" target="_blank" rel="noreferrer noopener">Crimson Desert</a></li>
+
+
+
+<li>Cyberpunk 2077 (<em>soon</em>)</li>
+
+
+
+<li>Dragon Age: The Veilguard</li>
+
+
+
+<li>Dragon's Dogma 2</li>
+
+
+
+<li>Final Fantasy VII Rebirth</li>
+
+
+
+<li>Monster Hunter Wilds</li>
+
+
+
+<li>Nioh 3</li>
+
+
+
+<li>Resident Evil: Requiem (the first title to use the new algorithm)</li>
+
+
+
+<li>Rise of the Ronin</li>
+
+
+
+<li><a href="https://wccftech.com/senuas-saga-hellblade-ii-unreal-engine-5-updated-playstation-5-pro-exclusive/" type="link" id="https://wccftech.com/senuas-saga-hellblade-ii-unreal-engine-5-updated-playstation-5-pro-exclusive/" target="_blank" rel="noreferrer noopener">Senua's Saga: Hellblade II</a></li>
+
+
+
+<li>Silent Hill 2</li>
+
+
+
+<li>Silent Hill f</li>
+
+
+
+<li><a href="https://wccftech.com/starfield-ps5pro-specs-pssr-adaptive-triggers/" type="link" id="https://wccftech.com/starfield-ps5pro-specs-pssr-adaptive-triggers/" target="_blank" rel="noreferrer noopener">Starfield</a></li>
+</ul>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/04/3345b3ae0b1ca23290ec9cb7e11b9e76dd93a251-scaled-HD-2-scaled.jpeg"></a></figure>
+
+
+
+<h2 id="pssr-1-upgradeable">PSSR 1.0 (Upgradeable to 2.0 via System Toggle)</h2>
+
+
+
+<p>Here's the list of confirmed PSSR 1.0 titles; all can benefit from PSSR 2.0 with the PS5 Pro system-wide setting available in&nbsp;<em>Settings &gt; Enhance PSSR Image Quality</em>. However, Sony warns that <strong>some games may exhibit visual issues when upgraded to version 2.0</strong>; if so, you can always turn off the toggle and return to version 1.0.</p>
+
+
+
+<ul>
+<li>007: First Light<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Albatroz<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Alien: Rogue Incursion<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Apex Legends<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li><a href="https://wccftech.com/ark-gets-ps5-pro-patch-with-pssr-support-ue5-5-upgrade-and-10-year-anniversary/" target="_blank" rel="noreferrer noopener">Ark: Survival Ascended</a><a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Arma Reforger<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Assassin's Creed: Mirage<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Astro Bot<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Avatar: Frontiers of Pandora<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Baldur's Gate 3<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Battlefield VI<a href="https://www.reddit.com/r/PS5pro/comments/1rjpuzd/list_of_ps5_pro_games_that_will_support_the_newly/" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Black Myth: Wukong<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Blades of Fire<a href="https://www.reddit.com/r/PS5pro/comments/1rjpuzd/list_of_ps5_pro_games_that_will_support_the_newly/" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Call of Duty: Black Ops VI<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Call of Duty: Black Ops VII<a href="https://www.reddit.com/r/PS5pro/comments/1rjpuzd/list_of_ps5_pro_games_that_will_support_the_newly/" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Days Gone Remastered<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Demon's Souls<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Enlisted<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>F1 24<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>F1 25<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>FBC: Firebreak<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Ghost of Yotei<a href="https://tech.sportskeeda.com/gaming-news/all-games-pssr-support-ps5-pro" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>God of War Ragnarök<a href="https://www.techradar.com/gaming/ps5/ps5-pro-games-list" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Gran Turismo 7<a href="https://www.techradar.com/gaming/ps5/ps5-pro-games-list" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Hogwarts Legacy<a href="https://www.techradar.com/gaming/ps5/ps5-pro-games-list" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Horizon Forbidden West<a href="https://www.techradar.com/gaming/ps5/ps5-pro-games-list" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Indiana Jones and the Great Circle<a href="https://www.techradar.com/gaming/ps5/ps5-pro-games-list" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Kingdom Come: Deliverance 2<a href="https://www.techradar.com/gaming/ps5/ps5-pro-games-list" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Lies of P<a href="https://www.techradar.com/gaming/ps5/ps5-pro-games-list" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Lords of the Fallen<a href="https://www.techradar.com/gaming/ps5/ps5-pro-games-list" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Marvel's Spider-Man Remastered<a href="https://www.techradar.com/gaming/ps5/ps5-pro-games-list" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Marvel's Spider-Man: Miles Morales<a href="https://www.techradar.com/gaming/ps5/ps5-pro-games-list" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Marvel's Spider-Man 2<a href="https://www.techradar.com/gaming/ps5/ps5-pro-games-list" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Metal Gear Solid Delta: Snake Eater<a href="https://x.com/VisualFidelity/status/2033953273565295099" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Naraka: Bladepoint<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>NBA 2K25<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Ninja Gaiden 4<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>No Man's Sky<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Off the Grid<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Outbreak: Shades of Horror – Chromatic Split<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Paladin's Passage<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Path of Exile 2<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Ratchet &amp; Clank: Rift Apart<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Resident Evil 4 Remake<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Resident Evil Village<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Retrieval<a href="https://www.reddit.com/r/PS5pro/comments/1rjpuzd/list_of_ps5_pro_games_that_will_support_the_newly/" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Returnal<a href="https://www.techradar.com/gaming/ps5/ps5-pro-games-list" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Slitterhead<a href="https://www.techradar.com/gaming/ps5/ps5-pro-games-list" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>STALKER 2: Heart of Chernobyl<a href="https://www.techradar.com/gaming/ps5/ps5-pro-games-list" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Star Wars Jedi: Survivor<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Star Wars: Outlaws<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Stellar Blade<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>The Crew Motorfest<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>The First Descendant<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>The Last of Us Part I<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>The Last of Us Part II Remastered<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>The Seven Deadly Sins: Origin<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Tides of Annihilation<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>War Thunder<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Warframe<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Warhammer 40,000: Darktide<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Warhammer 40,000: Space Marine 2<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Where Winds Meet<a href="https://mp1st.com/news/list-ps5-pro-games-support-newly-upgraded-pssr" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li>Ys X: Proud Nordics</li>
+</ul>
+
+
+
+<h2 id="future-updates-frame-generation">Future Updates: Frame Generation?</h2>
+
+
+
+<p>In the future, PSSR <strong>might be upgraded to support frame generation</strong>. Mark Cerny <a href="https://wccftech.com/playstation-architect-confirms-fsr-redstone-frame-generation/" type="link" id="https://wccftech.com/playstation-architect-confirms-fsr-redstone-frame-generation/" target="_blank" rel="noreferrer noopener">confirmed</a> that a version of <strong>AMD's FSR Frame Generation</strong> is coming to PlayStation consoles in the future. When it does, it's likely to be customized for Sony's system and may therefore be part of the PSSR suite.</p>
+
+			
+			
+						<div>
+									<p>
+					<strong>About the <a href="https://wccftech.com/author/alessio/">author</a>: </strong> With over two decades of experience in gaming journalism, Alessio Palumbo has led the gaming vertical at Wccftech since August 2015. He started working at a young age for Italian websites like Everyeye.it, Gamestar.it, Nextgame.it, and Multiplayer.it before kickstarting the indie English-language publication Worlds Factory as its founder and Editor in Chief. 
+
+In the last decade, he has coordinated the overall output of Wccftech's <a href="https://wccftech.com/topic/games/">gaming</a> section, managed PR relations, assigned reviews, produced daily news coverage, edited gaming content as needed, and delivered game reviews.  
+
+Arguably, his trademark content is the long series of exclusive developer interviews that have been cited by Wikipedia and by the biggest news media and gaming publications. 
+
+His passion for technology also makes him knowledgeable when it comes to gaming hardware and tech. His favorite genres include RPGs, MMORPGs, and action/adventure games.				</p>				
+			</div>
+			
+			<p data-nosnippet="">
+				Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.
+			</p>
+			
+
+
+		</div></div><br/><br/>https://wccftech.com/pssr-games-list-ps5-pro/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[One of Marathon’s Strongest Weapons Gets a Much-Needed Nerf to Allow for “More Meaningful Buildcrafting”]]></title>
             <link>https://wccftech.com/marathon-strongest-weapons-gets-much-needed-nerf-for-more-meaningful-buildcrafting/</link>
@@ -79,78 +523,6 @@
 
 
 		</div></div><br/><br/>https://wccftech.com/marathon-strongest-weapons-gets-much-needed-nerf-for-more-meaningful-buildcrafting/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Return of the Obra Dinn and Papers, Please Creator Doesn’t Share What He’s Working on Fearing It Will “Get Slurped Up by AI”]]></title>
-            <link>https://wccftech.com/return-of-obra-dinn-papers-please-lucas-pope-doesnt-want-to-share-work-fears-it-will-get-slurped-up-by-ai-genai/</link>
-            <guid>1484560</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			
-			<p><strong>Return of the Obra Dinn</strong> and <strong>Paper, Please</strong> are two incredibly iconic indie games, both <a href="https://wccftech.com/dice-awards-2019-god-of-war-spider-man/">critically acclaimed</a>, and both of them come from the same creator, <strong>Lucas Pope.</strong> He's worked on several other titles since, either in small ways, resulting in a 'Special Thanks' on titles like <strong>Twelve Minutes</strong>, or his recent work as a designer on a <strong>Playdate</strong> game, <strong>Mars After Midnight</strong>. He is currently working on something, but it's doubtful he'll share what it is before it's ready to release because he fears it will "<em>get slurped up by AI</em>" in our new <strong>Generative AI (GenAI)</strong> world.</p>
-
-
-
-<p>This comes from Pope's <a href="https://www.youtube.com/watch?v=_4tmVdKPgUA">recent appearance on a podcast</a> (via<a href="https://www.videogameschronicle.com/news/papers-please-creator-lucas-pope-says-he-no-longer-reveals-what-hes-working-on-in-case-its-stolen-or-slurped-up-by-ai/"> VGC</a>) hosted by fellow indie developers, <strong>Mike Rose</strong> and <strong>Rami Ismail</strong>, where the three talk about Pope's games, how he works, and the current state of the video game industry across a number of topics. On the topic of AI/GenAI, Pope first explains why those tools are not for him with an answer that is fairly typical for anyone who has made creating things their bread and butter.</p>
-
-
-
-<p>"<em>People talk about using AI for programming or art or something like that,</em>" Pope begins.<em> "And that's the kind of thing where it would probably make things faster for me, but <strong>that's not what I'm interested in</strong>. I'm not interested just in the end product. I want to enjoy working on it. And, a lot of times, I don't even know what I would tell someone else to do."</em></p>
-
-
-
-<p>"<em>AI is kind of like you had a bunch of people working for you, basically, and I work alone, so I'm already not set up to be telling other people what to do. And a lot of times, I don't even know what I'm doing, and it takes the programming, and the design and the art, and all that stuff kind of mixed together to get me to where I need to be. So if someone else is doing it, I lose all that context. I lose that sort of ingredients in this stew to actually come up with something."</em></p>
-
-
-
-<p>Again, it's not surprising and fairly typical to see someone who likes to make things isn't a fan of pressing the 'make something for me' button that is GenAI. It's later on in the podcast that Pope gets into his concerns about the tech, and why he's reluctant, to say the least, about sharing his work online.</p>
-
-
-
-<figure><p>
-<iframe title="Lucas Pope Wants Buttering Up" width="500" height="281" src="https://www.youtube.com/embed/_4tmVdKPgUA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-</p></figure>
-
-
-
-<p>"<em>I have this kind of curse that I really want to finish things, actually. I'm very production-focused in the sense that I want the production to work. I want it to be efficient, I want to finish it</em>. <em>I want to actually produce something at the end</em>," Pope says.</p>
-
-
-
-<p>"<em>But I also like to talk about the stuff I'm working on, and I think now the situation just feels different to me that you don't</em> <em>really talk about stuff when you're working on it, because <strong>I don't know it's going to get slurped up by AI </strong>or people are going to copy it or something else like that. And it's not a hard rule, it's just got the kind of feeling about that and I just didn't feel like I'm as comfortable talking about the stuff I was working on again."</em></p>
-
-
-
-<p>Pope also shared that part of his reluctance towards releasing anything new comes from fears that he won't be able to top what he's already accomplished with Return of the Obra Dinn and Papers, Please. He shares how the success of those games has allowed him to live and work in Japan, on his own, just creating things that he wants to create, as he is still "<em>100% obsessed</em>" with making games and spending his time doing that.</p>
-
-
-
-<p>That's what makes it unfortunate, to say the least, to learn that Pope is uncomfortable sharing his work, but his fears aren't exactly unfounded. It's well-documented that popular GenAI tools and LLMs were trained on data that is essentially just ripped from other people's work online. </p>
-
-
-
-<p>In <strong><a href="https://wccftech.com/ai-is-theft-i-have-to-use-it-otherwise-ill-get-fired-gdc-reports-one-third-of-game-workers-are-using-genai-for-daily-tasks/">GDC's State of the Game Industry 2026</a></strong> report, on the topic of GenAI, one of the respondents who is made to use these tools at their job made the rock-and-a-hard-place issue quite clear, saying, <strong>"<em>AI is theft, I have to use it, otherwise I'll get fired</em>."</strong> And while it's easy to see that and say, 'find another job then,' but that's far easier said than done, and <a href="https://wccftech.com/i-cant-fully-trust-anywhere-now-gdc-reports-1-in-4-devs-have-been-laid-off-in-last-2-years/">not exactly an option for anyone lucky enough to be employed in today's video game industry.</a></p>
-
-			
-			
-						<div>
-									<p>
-					<strong>About the <a href="https://wccftech.com/author/davidcarcasole/">author</a>: </strong> David has been writing about videogames, technology, and culture since 2020, with a focus on reporting daily news across multiple publications, including GameDaily.Biz, GameSkinny, and PlayStation Universe before joining Wccftech in 2025. David started contributing as Canada/US reporter for Wccftech's <a href="https://wccftech.com/topic/games/">gaming</a> section in 2025. Besides being up-to-date on the industry's movements, he loves interviewing developers, reviewing games, and writing intricate essays about the symbolism and layered meanings to be found in rich narratives as he's done for publications like GamesIndustry.Biz, LostInCult, and others. Outside of games he loves movies, music, theatre, his hometown, and his family, though not necessarily in that order.				</p>				
-			</div>
-			
-			<p data-nosnippet="">
-				Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.
-			</p>
-			
-
-
-		</div></div><br/><br/>https://wccftech.com/return-of-obra-dinn-papers-please-lucas-pope-doesnt-want-to-share-work-fears-it-will-get-slurped-up-by-ai-genai/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
