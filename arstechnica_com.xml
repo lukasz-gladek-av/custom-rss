@@ -4,27 +4,23 @@
         <title>maGaming RSS Feed - arstechnica.com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica.com</description>
-        <lastBuildDate>Wed, 08 Apr 2026 10:23:55 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 Apr 2026 17:25:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Valve brings native Steam Link app to Apple's Vision Pro]]></title>
-            <link>https://arstechnica.com/gaming/2026/04/valve-brings-native-steam-link-app-to-apples-vision-pro/</link>
-            <guid>1484926</guid>
+            <title><![CDATA[Steam client files point to "framerate estimator" feature in the works]]></title>
+            <link>https://arstechnica.com/gaming/2026/04/steam-client-files-point-to-framerate-estimator-feature-in-the-works/</link>
+            <guid>1485685</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
                       
                       
-          <p>Valve is bringing Steam Link, its local network game-streaming app, to Apple’s Vision Pro mixed reality headset, allowing Vision Pro users to play traditional games from their Steam library wirelessly from a nearby Mac or PC.</p>
-<p>We say “traditional games” because it’s important to clarify that this does not stream VR games—only the sorts of games you would play on a traditional 2D display like a computer monitor or a TV. That said, this could lay some groundwork for VR games sometime in the future. But to be clear, Valve has not made any announcements about supporting SteamVR games on the Vision Pro.</p>
-<p>There were previously Steam Link apps for the Mac, iPhone, iPad, and Apple TV. Users could sync controllers with those devices and play Steam games over the local network—not just games from other Apple devices, but also from Windows or Linux gaming PCs.</p>
-<p>It has been possible to do this on the Vision Pro using third-party tools like ALVR, but this is a much more straightforward, tried-and-true path to the same destination.</p>
-<p>If you want to try it, you can sign up <a href="https://testflight.apple.com/join/Cye7Gfyy">via TestFlight</a>, Apple’s platform for distributing pre-release apps before they are listed on the App Store. Valve <a href="https://steamcommunity.com/app/353380/discussions/7/806847328212494915/">says</a> the current version of the app “allows streaming up to 4K resolutions, and allows you to dynamically adjust the curve of the display in panoramic mode.”</p>
-<p>We <a href="https://arstechnica.com/gadgets/2024/02/can-a-3500-headset-replace-your-tv-we-tried-vision-pro-to-find-out/">complained</a> about the Vision Pro’s limited ability to connect to external gaming and media devices or access mixed reality content outside Apple’s walled garden when we reviewed it at launch a couple of years ago. Since then, that situation has markedly <a href="https://arstechnica.com/gadgets/2025/11/where-apples-vision-pro-stands-today-post-m5-refresh/">improved</a>, though it’s still not always as straightforward as it is on competing headsets.</p>
-
+          <p>Back in February, Valve gave Steam client beta users the option to <a href="https://store.steampowered.com/news/group/4397053?emclan=103582791433918461&amp;emgid=505101717860253962">share anonymized framerate data and hardware information</a> with the company to “help us learn about game compatibility and improve Steam.” Now, new text buried in a recent Steam client update suggests Valve is preparing to use this data to power a “framerate estimator” tool in the future.</p>
+<p>As noted in <a href="https://github.com/SteamTracking/SteamTracking/commit/5633dc3b5344269340a49b4b4f1e3a7b59c08c9a">SteamTracking’s automated Steam client change notes</a> (and picked up by some <a href="https://www.resetera.com/threads/apparently-soon-you-will-be-able-to-get-estimated-fps-for-games-on-steam-store-based-on-your-specs.1482319/">forum</a> and <a href="https://x.com/LambdaGen/status/2040459980805914805">social media</a> users), the April 3 Steam client update contains explicit references to a “Framerate Estimator” in a store UI JSON file. A subheader listed in that file describes the ability to “Select an App and a PC config to get a chart of estimated framerates, based on the framerates of other Steam users.”</p>
+<p>Based on the inputs referenced in the JSON data, it looks like generated framerate estimates will be based on CPU, GPU, and system RAM levels selected by the user (or saved as a hardware configuration in the Steam client) rather than any sort of automated system scanning software. Users will be able to see per-game frame rate estimates as well as the “Number of matching training… entries” those estimates are based on for that game and/or the applicable CPU/GPU.</p>
 
           
                       
-                  </div></div><br/><br/>https://arstechnica.com/gaming/2026/04/valve-brings-native-steam-link-app-to-apples-vision-pro/]]></content:encoded>
+                  </div></div><br/><br/>https://arstechnica.com/gaming/2026/04/steam-client-files-point-to-framerate-estimator-feature-in-the-works/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
