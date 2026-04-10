@@ -4,9 +4,154 @@
         <title>maGaming RSS Feed - wccftech.com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech.com</description>
-        <lastBuildDate>Fri, 10 Apr 2026 18:18:10 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Apr 2026 19:19:53 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Intel Presents Its Own Texture Set Neural Compression SDK: Up to 18x Smaller Textures]]></title>
+            <link>https://wccftech.com/intel-texture-set-neural-compression-sdk-tsnc-18x-smaller-textures/</link>
+            <guid>1488226</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			
+			<p>At GDC 2026, <strong>Intel</strong> graphics engineer <strong>Marissa Dubois</strong> <a href="https://www.youtube.com/watch?v=3w4hEgCR2vE" type="link" id="https://www.youtube.com/watch?v=3w4hEgCR2vE" target="_blank" rel="noreferrer noopener">took the stage</a> to present Intel's version of neural texture compression, very similar to <strong><a href="https://wccftech.com/nvidia-neural-texture-compression-vram-saving/" type="link" id="https://wccftech.com/nvidia-neural-texture-compression-vram-saving/" target="_blank" rel="noreferrer noopener">NVIDIA's NTC</a></strong> in that both technologies are deterministic. The presentation was a follow-up to the original R&amp;D prototype shown at GDC 2025, with the key news being that Intel has now productized that research into a standalone SDK.</p>
+
+
+
+<p><strong>Texture Set Neural Compression</strong> (TSNC) is essentially a smarter way to store game textures. Traditional GPU block compression formats (BC1 through BC7) use fixed mathematical rules to reduce texture size, and while they're fast and universally supported, <strong>they leave significant compression potential on the table</strong>. TSNC takes a fundamentally different approach: it trains a small neural network using stochastic gradient descent to learn to encode and decode the specific textures in a given set. The result is a compact <strong>latent space representation</strong> that a tiny multi-layer perceptron can reconstruct at runtime into the original diffuse, normal, roughness, metallics, ambient occlusion, and emissive data. </p>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/04/Neural-Compression-101-HD-scaled.jpeg"></a></figure>
+
+
+
+<p>The key insight is that a texture set (all the PBR maps for a single material) has a lot of redundant structure across its channels. TSNC exploits that shared structure in ways that generic block compression simply cannot.</p>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/04/Feature-Pyramid-Comparisons-HD-scaled.jpeg"></a></figure>
+
+
+
+<h2 id="h-feature-pyramids-the-two-tiers">Feature Pyramids: The Two Tiers</h2>
+
+
+
+<p>At the heart of TSNC's compression scheme is the <strong>feature pyramid</strong>, a set of four BC1-encoded latent-space textures arranged across different resolution configurations. Intel currently offers two variants with different quality/compression trade-offs:</p>
+
+
+
+<ul>
+<li><strong>Variant A</strong> uses two full-resolution latent images and two half-resolution ones. For 4K input textures, this means two 4K and two 2K latent images, totaling around 26.8 MB versus the original 256 MB of uncompressed bitmaps. That works out to <strong>over 9x compression</strong>, nearly double the 4.8x you'd get from standard BC block compression alone. Perceptual quality loss, measured via NVIDIA's FLIP analysis tool, sits at roughly 5%, which in practice shows up as minor precision loss in normal maps but little else.</li>
+
+
+
+<li><strong>Variant B</strong> is the aggressive option. It cascades the latent images down to 1/2, 1/4, and 1/8 of the original resolution, <span>achieving <strong>over 17x compression</strong></span>, more than twice as much as Variant A. The quality hit, however, is more noticeable: BC1 block artifacts start appearing in normal maps and AO/roughness channels, and FLIP clocks perceptual error at around 6–7%. That might sound small in absolute terms, but Intel acknowledges it's "enough to be noticeable to a viewer." Variant B is, therefore, probably best suited for distant or secondary materials where quality loss is less likely to be scrutinized.</li>
+</ul>
+
+
+<figure>
+<div>
+
+<figure>
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/04/Compression-Ratio-Variant-A-HD-scaled.jpeg"></a></figure>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/04/Compression-Ratio-Variant-B-HD-scaled.jpeg"></a></figure>
+</figure>
+<div>
+				    		
+				    		
+					    	<p><span>2 of 9</span>
+				    	</p></div>
+</div>
+</figure>
+
+
+
+<p>Since last year's R&amp;D prototype, originally built on PyTorch, the entire Texture Set Neural Compression compressor has been rewritten from scratch using <strong>Slang compute shaders</strong>. Also, whether a developer is working in Unreal, a custom engine, or running decompression on the CPU, the same decompressor code can target the right backend.</p>
+
+
+
+<p>On the GPU side, Intel now supports&nbsp;<strong>Microsoft's DirectX 12 Cooperative Vectors API</strong>, leveraging Intel Arc's XMX matrix cores (present on both A-series and B-series GPUs) for hardware-accelerated matrix inference. For hardware without XMX support, a standard FMA (fused multiply-and-add) fallback works on both CPUs and non-Intel GPUs.</p>
+
+
+
+<p>Intel's Marissa Dubois broke down <strong>four different deployment strategies</strong>, each with a different trade-off between disk space savings and memory usage:</p>
+
+
+
+<ul>
+<li><strong>At install time</strong> — ship compressed, decompress locally during installation. Textures live uncompressed on the user's drive. Savings are mainly on distribution bandwidth.</li>
+
+
+
+<li><strong>At load time</strong> — textures stay compressed on disk; decompression happens into VRAM as the game loads. Reduces both install size and VRAM pressure during loading.</li>
+
+
+
+<li><strong>At stream time</strong> — combined with texture streaming, textures decompress on demand. Best of both worlds for disk and memory, but adds runtime inference load.</li>
+
+
+
+<li><strong>At sample time</strong> — textures remain compressed in VRAM permanently and decode per-pixel in the shader. The most aggressive option for VRAM reduction, with constant inference cost.</li>
+</ul>
+
+
+
+<p>Developers will have to pick one depending on their particular use case and underlying engine.</p>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/04/TSNC-Inference-Estimates-HD-scaled.jpeg"></a></figure>
+
+
+
+<p>Intel benchmarked inference on a <strong>Panther Lake laptop using B390 integrated graphics</strong> at a full 1080p compute shader workload. The results were:</p>
+
+
+
+<ul>
+<li>FMA path: <strong>0.661 nanoseconds per pixel</strong></li>
+
+
+
+<li>XMX linear algebra path: <strong>0.194 nanoseconds per pixel</strong></li>
+</ul>
+
+
+
+<p>That's a <strong>3.4x speedup</strong> from hardware-accelerated matrix math, and the fact that these numbers hold up on integrated graphics makes the per-pixel sample-time deployment scenario look more viable than it might have seemed. For discrete GPUs, the overhead would be even lower. Intel plans to release <strong>an Alpha version of the Texture Set Neural Compression</strong> <strong>SDK</strong> later this year, followed by a beta and a public release, though those dates are not yet set in stone.</p>
+
+			
+			
+						<div>
+									<p>
+					<strong>About the <a href="https://wccftech.com/author/alessio/">author</a>: </strong> With over two decades of experience in gaming journalism, Alessio Palumbo has led the gaming vertical at Wccftech since August 2015. He started working at a young age for Italian websites like Everyeye.it, Gamestar.it, Nextgame.it, and Multiplayer.it before kickstarting the indie English-language publication Worlds Factory as its founder and Editor in Chief. 
+
+In the last decade, he has coordinated the overall output of Wccftech's <a href="https://wccftech.com/topic/games/">gaming</a> section, managed PR relations, assigned reviews, produced daily news coverage, edited gaming content as needed, and delivered game reviews.  
+
+Arguably, his trademark content is the long series of exclusive developer interviews that have been cited by Wikipedia and by the biggest news media and gaming publications. 
+
+His passion for technology also makes him knowledgeable when it comes to gaming hardware and tech. His favorite genres include RPGs, MMORPGs, and action/adventure games.				</p>				
+			</div>
+			
+			<p data-nosnippet="">
+				Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.
+			</p>
+			
+
+
+		</div></div><br/><br/>https://wccftech.com/intel-texture-set-neural-compression-sdk-tsnc-18x-smaller-textures/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[A New Metro Game is Now Rumored to Be Revealed Next Week]]></title>
             <link>https://wccftech.com/new-metro-game-rumored-to-be-revealed-next-week/</link>
@@ -142,68 +287,6 @@
 
 
 		</div></div><br/><br/>https://wccftech.com/valor-mortis-release-window-ps-ps5-xbox-triple-i-showcase/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Amazon Gives Players Another Reason Not to Use Amazon Luna by Removing Games and Subscriptions Bought From Third-Party Stores]]></title>
-            <link>https://wccftech.com/amazon-luna-removes-third-party-game-store-purchases-and-subscriptions/</link>
-            <guid>1487989</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			
-			<p><strong>Amazon</strong> <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=TY9Z4zZ7vgVwLA0b7C">announced more changes</a> to its gaming-focused service, <strong>Amazon Luna</strong> today, after it <a href="https://wccftech.com/amazon-luna-re-launch-later-this-year-prime-subs-library-cloud-games/">re-launched the brand last year</a> with a renewed focus on social and casual experiences like an "<em>AI-powered improv courtroom game</em>" featuring the rapper <strong>Snoop Dogg</strong>. Starting today, <strong>April 10, 2026,</strong> the platform will no longer let players purchase games from third-party stores or purchase subscriptions from third-party platforms. It will also stop supporting its Bring Your Own Library service, and no, you can't get a refund for any of your third-party purchases.</p>
-
-
-
-<p>In case you weren't already aware, Amazon Luna had previously allowed players to purchase games from third-party game stores on its platform, including <strong>Ubisoft, EA,</strong> and <strong>GOG</strong> digital storefronts. You could also purchase subscriptions for third-party services, like a <strong>Ubisoft+</strong> subscription or a <strong>Jackbox Games</strong> subscription. </p>
-
-
-
-<p>Not anymore after today, as Amazon is seemingly trying to get its users to live only within Amazon's ecosystem. To be clear, the changes don't actually impact your library of games. If you bought a game on, say GOG, through Amazon Luna, you'll still be able to just use the GOG launcher to play that game, but after <strong>June 10, 2026,</strong> you won't be able to launch that game through Amazon Luna.</p>
-
-
-
-<p>The same goes for the subscriptions, though you'll have to jump through more hoops in that case. If you pay for a Ubisoft+ subscription through your Amazon account and Amazon Luna, that subscription will be <strong>cancelled</strong> at the end of your next billing period. Which just means you'll now have to pay for Ubisoft+ directly instead of through your Amazon account, to keep using it.</p>
-
-
-
-<p>"<em>At Amazon, we're always looking for ways to better serve our players. Your feedback has been clear: you want easy access to great games, more social experiences, and a steady flow of new content from developers you know and love</em>," the company writes in a statement. "<em>As our library continues to grow, more of that content is available to Prime members - and that's where we're focusing our future. Starting April 10, 2026, Amazon Luna will no longer offer game stores, individual game purchases or third-party subscriptions."</em></p>
-
-
-
-<p>Even though Amazon isn't removing your full access to the games you bought on third-party storefronts on its platform, since, as previously mentioned, that game you bought for GOG can just be played on GOG, the wrinkle here is that Amazon Luna is a <strong>cloud streaming service</strong>. </p>
-
-
-
-<p>If you were using Amazon Luna as your place to buy and play games, that's likely because you opted to go for a cloud streaming solution over having hardware that could run all of the games you're looking to play. If you suddenly can't play those games through cloud streaming and have to rely on whatever hardware you own to play them, you're essentially losing those games from your library.</p>
-
-
-
-<p>Say you bought <strong><a href="https://wccftech.com/cyberpunk-2077-pssr-2-ps5-pro-update/">Cyberpunk 2077</a></strong> on GOG, and because you already had access to Amazon Luna through your Amazon Prime subscription, you decided to just play it through Luna's cloud streaming. After these changes, you're stuck with having to either upgrade your PC, which will likely cost hundreds, if not thousands of dollars, or you have to buy another copy of a game you already own. At least Cyberpunk 2077 <a href="https://wccftech.com/cyberpunk-2077-edgerunners-update-1-6-notes/">supports cross-progression</a>, so you could likely pick up where you left off, but it still doesn't leave you in a good place.</p>
-
-
-
-<p>Ultimately, that kind of hypothetical is not what Amazon is concerned about. It wants to keep players within the Amazon Luna ecosystem, so if you want to play something on Luna, you buy it through Luna. At least these changes won't impact the free games Amazon gives out to Prime subscribers each month.</p>
-
-			
-			
-						<div>
-									<p>
-					<strong>About the <a href="https://wccftech.com/author/davidcarcasole/">author</a>: </strong> David has been writing about videogames, technology, and culture since 2020, with a focus on reporting daily news across multiple publications, including GameDaily.Biz, GameSkinny, and PlayStation Universe before joining Wccftech in 2025. David started contributing as Canada/US reporter for Wccftech's <a href="https://wccftech.com/topic/games/">gaming</a> section in 2025. Besides being up-to-date on the industry's movements, he loves interviewing developers, reviewing games, and writing intricate essays about the symbolism and layered meanings to be found in rich narratives as he's done for publications like GamesIndustry.Biz, LostInCult, and others. Outside of games he loves movies, music, theatre, his hometown, and his family, though not necessarily in that order.				</p>				
-			</div>
-			
-			<p data-nosnippet="">
-				Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.
-			</p>
-			
-
-
-		</div></div><br/><br/>https://wccftech.com/amazon-luna-removes-third-party-game-store-purchases-and-subscriptions/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>

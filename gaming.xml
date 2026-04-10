@@ -4,9 +4,613 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Fri, 10 Apr 2026 18:18:10 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Apr 2026 19:19:53 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Intel Presents Its Own Texture Set Neural Compression SDK: Up to 18x Smaller Textures]]></title>
+            <link>https://wccftech.com/intel-texture-set-neural-compression-sdk-tsnc-18x-smaller-textures/</link>
+            <guid>1488226</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			
+			<p>At GDC 2026, <strong>Intel</strong> graphics engineer <strong>Marissa Dubois</strong> <a href="https://www.youtube.com/watch?v=3w4hEgCR2vE" type="link" id="https://www.youtube.com/watch?v=3w4hEgCR2vE" target="_blank" rel="noreferrer noopener">took the stage</a> to present Intel's version of neural texture compression, very similar to <strong><a href="https://wccftech.com/nvidia-neural-texture-compression-vram-saving/" type="link" id="https://wccftech.com/nvidia-neural-texture-compression-vram-saving/" target="_blank" rel="noreferrer noopener">NVIDIA's NTC</a></strong> in that both technologies are deterministic. The presentation was a follow-up to the original R&amp;D prototype shown at GDC 2025, with the key news being that Intel has now productized that research into a standalone SDK.</p>
+
+
+
+<p><strong>Texture Set Neural Compression</strong> (TSNC) is essentially a smarter way to store game textures. Traditional GPU block compression formats (BC1 through BC7) use fixed mathematical rules to reduce texture size, and while they're fast and universally supported, <strong>they leave significant compression potential on the table</strong>. TSNC takes a fundamentally different approach: it trains a small neural network using stochastic gradient descent to learn to encode and decode the specific textures in a given set. The result is a compact <strong>latent space representation</strong> that a tiny multi-layer perceptron can reconstruct at runtime into the original diffuse, normal, roughness, metallics, ambient occlusion, and emissive data. </p>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/04/Neural-Compression-101-HD-scaled.jpeg"></a></figure>
+
+
+
+<p>The key insight is that a texture set (all the PBR maps for a single material) has a lot of redundant structure across its channels. TSNC exploits that shared structure in ways that generic block compression simply cannot.</p>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/04/Feature-Pyramid-Comparisons-HD-scaled.jpeg"></a></figure>
+
+
+
+<h2 id="h-feature-pyramids-the-two-tiers">Feature Pyramids: The Two Tiers</h2>
+
+
+
+<p>At the heart of TSNC's compression scheme is the <strong>feature pyramid</strong>, a set of four BC1-encoded latent-space textures arranged across different resolution configurations. Intel currently offers two variants with different quality/compression trade-offs:</p>
+
+
+
+<ul>
+<li><strong>Variant A</strong> uses two full-resolution latent images and two half-resolution ones. For 4K input textures, this means two 4K and two 2K latent images, totaling around 26.8 MB versus the original 256 MB of uncompressed bitmaps. That works out to <strong>over 9x compression</strong>, nearly double the 4.8x you'd get from standard BC block compression alone. Perceptual quality loss, measured via NVIDIA's FLIP analysis tool, sits at roughly 5%, which in practice shows up as minor precision loss in normal maps but little else.</li>
+
+
+
+<li><strong>Variant B</strong> is the aggressive option. It cascades the latent images down to 1/2, 1/4, and 1/8 of the original resolution, <span>achieving <strong>over 17x compression</strong></span>, more than twice as much as Variant A. The quality hit, however, is more noticeable: BC1 block artifacts start appearing in normal maps and AO/roughness channels, and FLIP clocks perceptual error at around 6–7%. That might sound small in absolute terms, but Intel acknowledges it's "enough to be noticeable to a viewer." Variant B is, therefore, probably best suited for distant or secondary materials where quality loss is less likely to be scrutinized.</li>
+</ul>
+
+
+<figure>
+<div>
+
+<figure>
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/04/Compression-Ratio-Variant-A-HD-scaled.jpeg"></a></figure>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/04/Compression-Ratio-Variant-B-HD-scaled.jpeg"></a></figure>
+</figure>
+<div>
+				    		
+				    		
+					    	<p><span>2 of 9</span>
+				    	</p></div>
+</div>
+</figure>
+
+
+
+<p>Since last year's R&amp;D prototype, originally built on PyTorch, the entire Texture Set Neural Compression compressor has been rewritten from scratch using <strong>Slang compute shaders</strong>. Also, whether a developer is working in Unreal, a custom engine, or running decompression on the CPU, the same decompressor code can target the right backend.</p>
+
+
+
+<p>On the GPU side, Intel now supports&nbsp;<strong>Microsoft's DirectX 12 Cooperative Vectors API</strong>, leveraging Intel Arc's XMX matrix cores (present on both A-series and B-series GPUs) for hardware-accelerated matrix inference. For hardware without XMX support, a standard FMA (fused multiply-and-add) fallback works on both CPUs and non-Intel GPUs.</p>
+
+
+
+<p>Intel's Marissa Dubois broke down <strong>four different deployment strategies</strong>, each with a different trade-off between disk space savings and memory usage:</p>
+
+
+
+<ul>
+<li><strong>At install time</strong> — ship compressed, decompress locally during installation. Textures live uncompressed on the user's drive. Savings are mainly on distribution bandwidth.</li>
+
+
+
+<li><strong>At load time</strong> — textures stay compressed on disk; decompression happens into VRAM as the game loads. Reduces both install size and VRAM pressure during loading.</li>
+
+
+
+<li><strong>At stream time</strong> — combined with texture streaming, textures decompress on demand. Best of both worlds for disk and memory, but adds runtime inference load.</li>
+
+
+
+<li><strong>At sample time</strong> — textures remain compressed in VRAM permanently and decode per-pixel in the shader. The most aggressive option for VRAM reduction, with constant inference cost.</li>
+</ul>
+
+
+
+<p>Developers will have to pick one depending on their particular use case and underlying engine.</p>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/04/TSNC-Inference-Estimates-HD-scaled.jpeg"></a></figure>
+
+
+
+<p>Intel benchmarked inference on a <strong>Panther Lake laptop using B390 integrated graphics</strong> at a full 1080p compute shader workload. The results were:</p>
+
+
+
+<ul>
+<li>FMA path: <strong>0.661 nanoseconds per pixel</strong></li>
+
+
+
+<li>XMX linear algebra path: <strong>0.194 nanoseconds per pixel</strong></li>
+</ul>
+
+
+
+<p>That's a <strong>3.4x speedup</strong> from hardware-accelerated matrix math, and the fact that these numbers hold up on integrated graphics makes the per-pixel sample-time deployment scenario look more viable than it might have seemed. For discrete GPUs, the overhead would be even lower. Intel plans to release <strong>an Alpha version of the Texture Set Neural Compression</strong> <strong>SDK</strong> later this year, followed by a beta and a public release, though those dates are not yet set in stone.</p>
+
+			
+			
+						<div>
+									<p>
+					<strong>About the <a href="https://wccftech.com/author/alessio/">author</a>: </strong> With over two decades of experience in gaming journalism, Alessio Palumbo has led the gaming vertical at Wccftech since August 2015. He started working at a young age for Italian websites like Everyeye.it, Gamestar.it, Nextgame.it, and Multiplayer.it before kickstarting the indie English-language publication Worlds Factory as its founder and Editor in Chief. 
+
+In the last decade, he has coordinated the overall output of Wccftech's <a href="https://wccftech.com/topic/games/">gaming</a> section, managed PR relations, assigned reviews, produced daily news coverage, edited gaming content as needed, and delivered game reviews.  
+
+Arguably, his trademark content is the long series of exclusive developer interviews that have been cited by Wikipedia and by the biggest news media and gaming publications. 
+
+His passion for technology also makes him knowledgeable when it comes to gaming hardware and tech. His favorite genres include RPGs, MMORPGs, and action/adventure games.				</p>				
+			</div>
+			
+			<p data-nosnippet="">
+				Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.
+			</p>
+			
+
+
+		</div></div><br/><br/>https://wccftech.com/intel-texture-set-neural-compression-sdk-tsnc-18x-smaller-textures/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[YouTuber Who Lost Lawsuit To Donkey Kong High Score Contender Billy Mitchell Is Now Suing Him For ‘Emotional Distress’]]></title>
+            <link>https://kotaku.com/billy-mitchell-karl-jobst-lawsuit-defamation-donkey-kong-apollo-legend-2000686713</link>
+            <guid>1488220</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+              
+              <p><span>For some reason, the worst legal drama on streaming platforms is getting a second season, as YouTuber Karl Jobst has filed a lawsuit with the United States District Court for the Southern District of Florida against former&nbsp;<em>Donkey Kong&nbsp;</em>high score record holder Billy Mitchell, accusing the gamer and <a href="https://rickeyssauce.com/pages/our-story">hot sauce manufacturer</a> of “unauthorized appropriation of name or likeness,” “defamation,” and “intentional infliction of emotional distress.”</span></p>
+
+ <p><span>As spotted by </span><a href="https://www.dexerto.com/youtube/youtuber-karl-jobst-sues-billy-mitchell-for-defamation-3349334/"><i><span>Dexerto</span></i></a><span>, the suit was filed against Mitchell on April 6. The lawsuit also refers to Jobst as a “Pro Se Plaintiff,” meaning he is representing himself without legal counsel. For context,</span><span>&nbsp;</span><a href="https://kotaku.com/donkey-kong-billy-mitchell-karl-jobst-apollo-lawsuit-1851773993"><span>Mitchell won his defamation suit against Jobst</span></a><span> in the Australian District Court of Queensland on April 1, 2025.</span></p> <p><span>However, losing the defamation suit against Mitchell was just the start of Jobst’s worries. As the headlines that followed its conclusion revealed, contrary to the many claims Jobst had made through his YouTube videos and his “Legal Defence Fund” GoFundMe, Mitchell wasn’t actually suing Jobst for accusing him of cheating his way to attaining video game world records.</span></p>
+
+ <p><span>Instead, Mitchell launched his defamation suit against Jobst because the content creator had stated that the suicide of YouTuber Apollo Legend was due in part to a separate lawsuit that Mitchell lodged against him. Following this revelation, Jobst’s credibility took an immediate nosedive, as some </span><a href="https://www.reddit.com/r/Games/comments/1joixt4/billy_mitchell_wins_lawsuit_against_youtuber_karl/"><span>fans believed</span></a><span> that he had intentionally misled them regarding the nature of the lawsuit.</span></p>
+
+ <p><span>Curiously, the basis of Jobst’s argument in the latest suit in the Southern District of Florida uses several of Mitchell’s posts on X as evidence of defamation, including one in which Mitchell states Jobst “SCAMMED $200,000, WENT BANKRUPT, AND LOST EVERY SHRED OF CREDIBILITY…” The curious part here is that Jobst uses these posts as evidence that Mitchell accused him of misleading his GoFundMe donors, but the suit itself seemingly doesn’t mention Apollo Legend a single time.</span></p> <blockquote data-width="500" data-dnt="true"> <p lang="en" dir="ltr">I LIED FOR FOUR YEARS, SCAMMED $200,000, WENT BANKRUPT, AND LOST EVERY SHRED OF CREDIBILITY TO MY NAME BUT AT LEAST I’M PROBABLY TOO MUCH OF A LAZY, BROKE, AND UNETHICAL SCUMBAG TO EVER FULLY PAY KING BILLY’S $1,000,000 AHHHHHHH I WIN! <a href="https://t.co/3WqEfZ0yd1">pic.twitter.com/3WqEfZ0yd1</a></p> <p>— Billy Mitchell (@BillyPacMan) <a href="https://twitter.com/BillyPacMan/status/1954993324491935862?ref_src=twsrc%5Etfw">August 11, 2025</a></p></blockquote>  <p><span>The suit closes by stating that Jobst “suffered severe emotional distress, including mental anguish, humiliation, embarrassment, and ongoing emotional harm” as a “direct proximate result of Mitchell’s conduct.”</span></p>
+
+ <p><span>Mitchell seemingly indirectly referred to the latest lawsuit in a post on </span><a href="https://x.com/BillyPacMan/status/2042460716071039381?s=20"><span>X</span></a><span> earlier this morning, in which he stated: “I look forward to winning Best Supporting Actor again.” This appears to be a reference to </span><a href="https://x.com/KiwiFarmsDotNet/status/2009738428586299594?s=20"><span>Kiwi Farms</span></a><span>’ “Lowcow of the Year Awards 2025,” during which Mitchell was awarded the win in the “Best Supporting Actor” category.</span></p>
+                          </div></div><br/><br/>https://kotaku.com/billy-mitchell-karl-jobst-lawsuit-defamation-donkey-kong-apollo-legend-2000686713]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Today’s Wordle #1757: Hints and Answer for April 11, 2026]]></title>
+            <link>https://insider-gaming.com/todays-wordle-1757-hints-answer-april-11-2026/</link>
+            <guid>1488217</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+        
+<p>Today’s tips and strategies can help you solve it faster and maintain your streak—if you’re open to a little extra help. So, if you’ve found yourself stuck with today’s Wordle, don’t worry, below you’ll find some <strong>helpful hints and even the answer for Wordle Game #<strong><strong>1757</strong></strong></strong> <strong>for April 11, 2026</strong></p>
+
+
+
+<p id="block-672014a9-ce75-4ea0-b98d-12b9214dbb53">To play today’s Wordle, <a href="https://www.nytimes.com/games/wordle/index.html" target="_blank" rel="noreferrer noopener">head to the game’s website.</a> If you want to go right to today’s answer without any tips or tricks, you <strong><a href="#h-today-s-wordle-answer-for-game-1757-on-april-11-2026">can click right here</a>.</strong></p>
+
+
+
+
+
+
+
+<p id="block-a3d47262-a89d-4341-93f0-34626756e4b3"><em><strong>IMPORTANT:</strong> The following information includes spoilers on today’s and yesterday’s editions of Wordle. If you don’t want the answer given to you, stop scrolling.</em></p>
+
+
+
+<figure id="block-5f20defe-2f05-4eb9-b880-6af2f94b324d"></figure>
+
+
+
+<h2 id="block-e2995432-719e-4ed6-8fad-a1db37670203">How To Play Wordle</h2>
+
+
+
+<p id="block-da980997-0420-4527-946e-b66c49bf3d07">Wordle is a simple but addictive word puzzle. Each day, players have to guess a five-letter word answer in no more than six attempts. After each guess:</p>
+
+
+
+<ul id="block-d0bea02d-4b9f-4991-b9db-3b35778ff3bf">
+<li>Green letters are correct and in the right position.</li>
+
+
+
+<li>Yellow letters are correct, but in the wrong position.</li>
+
+
+
+<li>Gray letters are not in the word at all.</li>
+</ul>
+
+
+
+<p id="block-5e597b53-af1c-4c06-a00c-6c5a4694e9e0">The goal is to guess the word in as few tries as possible. Daily puzzles keep players coming back for more, making it a fun brain exercise and a popular online trend.</p>
+
+
+
+<p id="block-cd7aaa7f-9491-4ad0-b994-72d0102c5bed">Wordle can only be played on the New York Times website. There is currently no app for you to download the official game.</p>
+
+
+
+<h2 id="block-c6d4979d-f8eb-4473-a011-33019cb8da2c">Wordle Hints For Today, April 11, 2026</h2>
+
+
+
+<p id="block-23b6a5a9-2c25-47c2-a0ea-e23a99c87abd">Today’s Wordle answer for game #1757 is an easier puzzle than the last few. According to the <a href="https://www.nytimes.com/2026/04/10/crosswords/wordle-review-1757.html" target="_blank" rel="noreferrer noopener nofollow">NY Times Wordle review</a>, today’s answer takes an average of 4 out of 6 guesses. That makes it a full guess harder than the 5.3-guess average from April 10.</p>
+
+
+
+<h3 id="block-6777813b-1426-4c21-b507-3024542b4683">General Wordle Hints For April 11</h3>
+
+
+
+<p id="block-b36e160d-6e5e-4dc8-aae9-5352ee681266">Without giving today’s Wordle answer completely away, here are a few helpful hints for today to get you started:</p>
+
+
+
+<ul id="block-5c9f7d28-537c-424b-92c3-2a9906b57178">
+<li><strong>Hint 1:</strong> It describes someone who is easily offended by certain types of behavior.</li>
+
+
+
+<li><strong>Hint 2:</strong> Often associated with being overly modest or conservative.</li>
+
+
+
+<li><strong>Hint 3:</strong> The term can sometimes be used in a slightly critical or teasing way.</li>
+
+
+
+<li><strong>Hint 4:</strong> It relates more to attitude and personality than actions</li>
+</ul>
+
+
+
+<p id="block-7fb794eb-0d89-4f8d-a7cf-082d0148b796">Use these clues to narrow down your guesses and increase your chances of solving <strong>Wordle #1757</strong> <strong>for April 11, 2026.</strong></p>
+
+
+
+<h3 id="block-73a1d2f5-fc2b-49b7-9c10-539e38a2b946">Starter Words For April 11, 2026</h3>
+
+
+
+<p id="block-0853e28e-417e-4720-9526-9f2808a268be">If you want help getting started without having today’s Wordle answer given to you, there are a few starter words worth trying that will help you figure out some included letters. A few starter words that may help are:</p>
+
+
+
+<ul id="block-2ca8fb79-d1a4-43e4-8764-e4d238a3cc97">
+<li>PRIDE</li>
+
+
+
+<li>ERUPT</li>
+
+
+
+<li>PURGE</li>
+
+
+
+<li>DRUPE</li>
+</ul>
+
+
+
+<h2 id="h-today-s-wordle-answer-for-game-1757-on-april-11-2026">Today’s Wordle Answer For Game #1757 On April 11, 2026</h2>
+
+
+
+<p id="block-4ee7c8b7-21fe-4613-8d40-bdf10f8881d0">If you’ve tried everything, including using the above hints, and are still stuck, you can find the answer to today’s Wordle below.</p>
+
+
+
+<p id="block-b76151ef-98f3-4c71-a60b-a98dd0409997"><strong>Answer: </strong>PRUDE</p>
+
+
+
+<p id="block-0e0094cc-40a6-49a3-a98c-ee90172006ac">If you solved today’s Wordle without our answer, congratulations! If not, take note of the best tips above for tomorrow’s puzzle, and check back daily for more hints.</p>
+
+
+
+<h2 id="block-533370cc-a013-4a5a-896a-c5f325907fa7">What Does Today’s Wordle Answer Mean?</h2>
+
+
+
+<p>PRUDE <a href="https://www.dictionary.com/browse/prude?q=PRUDE" target="_blank" rel="noreferrer noopener nofollow">is a noun</a> that means “a person who is excessively proper or modest in speech, conduct, dress, etc.”</p>
+
+
+
+
+
+
+
+<h2 id="block-f2e30ac8-1612-450a-823c-335ce7bed157">Yesterday’s Wordle Answer</h2>
+
+
+
+<p id="block-f109cc5e-d6d4-415d-8d6d-08f0f34fc10b">If you missed the previous game, here’s yesterday’s Wordle answer for <strong>Game #1756 on April 10, 2026</strong></p>
+
+
+
+<p id="block-d4bfa5bc-7b25-45b4-b4ce-faa1410603ee"><strong>Answer:</strong> CAROM</p>
+
+
+
+<p id="block-284127ec-83a6-447c-acf6-16238986a1d4">While not always the case, looking at previous words can sometimes give you insight into common patterns or letter usage in Wordle puzzles.</p>
+
+
+
+<h2 id="block-44882c9d-d6a6-4e4f-9b1a-8312ae0b3036">When Is The Next Wordle Game After #1757?</h2>
+
+
+
+<p id="block-bc42def5-af74-42a4-abf5-f31a34e53dd6">Wordle games are <strong>updated daily at 12 am or Midnight in your respective time zone</strong>. Information about the next game is often available in the hours before to give players a heads up. The game on <strong>April 12 </strong>will be <strong>Wordle Game #1758.</strong></p>
+
+
+
+<h2 id="block-96ac6df0-5b63-4788-9eff-98ceece739ee">What Is Wordle?</h2>
+
+
+
+<p id="block-cde2c274-bfd9-4d27-a0d9-3ebe6f1ff7f2">Wordle is a daily word puzzle created by Josh Wardle. Initially developed as a prototype in 2013, it wasn’t fully released until 2021. The game challenges players to guess a five-letter word in six tries or fewer, using hints from each attempt to narrow down the answer. Its straightforward concept, accessibility, and the thrill of solving a new puzzle each day helped it surge in popularity by late 2021. The success of Wordle inspired numerous spin-offs and social media challenges, leading to its acquisition by The New York Times in early 2022.</p>
+
+
+
+<hr id="block-ef203a26-29c4-4ff2-9120-b9bbe59cd966">
+
+
+
+<p>For even more Insider Gaming delivered straight to your inbox, <a href="https://insider-gaming.com/subscribe" target="_blank" rel="noreferrer noopener">sign up for our weekly newsletter</a></p>
+
+
+        <div>
+                  <p>
+                    Mike has been covering the gaming industry since 2012, and has reported on some of the largest events in the industry while also working as an investigative reporter. Outside of…                  </p>
+                  <p><a href="https://insider-gaming.com/author/mike-straw/">
+                    More from Mike Straw                  </a>
+                </p></div>
+            
+
+    <div id="ig-app-cta">
+          <p><i></i> MOBILE APP</p>
+          <h2>Level Up Your Gaming News</h2>
+          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
+          
+          <p><i></i> Available on iOS &amp; Android</p>
+        </div>
+
+    
+    
+    </div></div><br/><br/>https://insider-gaming.com/todays-wordle-1757-hints-answer-april-11-2026/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Google Play Store Removes Doki Doki Literature Club Four Months After Launch]]></title>
+            <link>https://gameinformer.com/2026/04/10/google-play-store-removes-doki-doki-literature-club-four-months-after-launch</link>
+            <guid>1488214</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div property="schema:text"><p>Doki Doki Literature Club, the dating sim-themed horror game, has been removed from the Google Play store. <a href="https://bsky.app/profile/serenityforge.com/post/3mj3r4nbiws2t">According to publisher Serenity Forge</a>, the reasoning provided was that the game violated the storefront's terms of service with its "depiction of sensitive themes."</p><p>Doki Doki Literature Club was first released on Steam in 2017, and is notorious for its deceptively disturbing story. While it initially appears to be a traditional dating sim, following a high school boy as he joins an after school writing club and falls in love with the other members, dramatic plot twists give the game a dark turn. It includes, among other things, graphic depictions of suicide.</p><p>That said, the game has many content warnings, both on store pages and in the opening moments of the game. On iOS, the game is rated 17+ and its description includes the sentence "This game is not suitable for children or those who are easily disturbed" at both the beginning and the end.</p><p>Publisher Serenity Forge issued the following statement on its various social media platforms:</p>
+
+
+
+<article alt="Click the image to enlarge." title="Click the image to enlarge." data-entity-type="file" data-entity-uuid="811ad56d-9e54-4e68-abfa-a23d727184d5" data-embed-button="image_browser_uploader" data-entity-embed-display="image:responsive_image" data-entity-embed-display-settings="{&quot;responsive_image_style&quot;:&quot;content_body&quot;,&quot;image_loading&quot;:{&quot;attribute&quot;:&quot;lazy&quot;},&quot;image_link&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;,&quot;link_target&quot;:1,&quot;link_original&quot;:1,&quot;image_source&quot;:&quot;&quot;,&quot;embed_source&quot;:0,&quot;image_caption&quot;:&quot;Click the image to enlarge.&quot;,&quot;embed_caption&quot;:0,&quot;content_warning&quot;:0}" data-langcode="en">
+
+  
+      <a data-featherlight="image" href="" target="_blank">
+          <picture>
+                  <source srcset="https://gameinformer.com/sites/default/files/styles/body_default/public/2026/04/10/238c2644/ddlc_removal_statment.jpg.webp 1x" media="all and (min-width: 851px)" type="image/webp" width="480" height="600">
+              <source srcset="https://gameinformer.com/sites/default/files/styles/content_default_mobile_/public/2026/04/10/238c2644/ddlc_removal_statment.jpg.webp 1x" media="all and (min-width: 315px) and (max-width: 450px)" type="image/webp" width="320" height="400">
+              <source srcset="https://gameinformer.com/sites/default/files/styles/content_default_mobile_/public/2026/04/10/238c2644/ddlc_removal_statment.jpg.webp 1x" media="all and (max-width: 314px)" type="image/webp" width="320" height="400">
+                  
+
+  </picture>
+
+
+    </a>
+  
+  
+      <p>Click the image to enlarge.</p>
+  
+</article>
+
+<p>Yesterday, Google chose to remove Doki Doki Literature Club from the Google Play Store. Their explanation is that the game’s content violates their Terms of Service in its depiction of sensitive themes.</p><p>DDLC is widely celebrated for portraying mental health in a way that meaningfully connects deeply with players around the world, helping them feel heard, understood, and less alone on their journey. Managing to achieve that—making a truly meaningful difference by using the power of fiction to connect to others—is what I’m most grateful for. It inspires me every day to keep making cool new things, things that can really reach others, especially those in need of connection.</p><p>DDLC is available on many different major platforms, including iOS, Nintendo Switch, PlayStation, and more. We’re continuing to do everything we can to find a path forward for getting DDLC reinstated on the Google Play Store. Meanwhile, we’re also looking into potential options for alternate methods of distribution on Android devices.</p><p>We worked hard to bring DDLC to Android, and we’ve gotten to see so much love and enthusiasm from passionate Android users over these past few months. Thank you so much to the community for continuing to express your love and support for DDLC through the years. We’ll keep you updated on the future of DDLC for Android.</p><p>- Dan Salvato and the Serenity Forge Team</p><p>For now, it's unclear if or when the game might return to the Google Play Store, but it remains on other platforms.</p></div></div><br/><br/>https://gameinformer.com/2026/04/10/google-play-store-removes-doki-doki-literature-club-four-months-after-launch]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Gallery: Fangamer's UFO 50 Deluxe Edition Is Packed With Nostalgic Goodness]]></title>
+            <link>https://www.nintendolife.com/news/2026/04/gallery-fangamers-ufo-50-deluxe-edition-is-packed-with-nostalgic-goodness</link>
+            <guid>1488181</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><section>
+<figure data-uuid="11a1126c2c5e1"><a title="UFO 50 Deluxe Edition" href="https://images.nintendolife.com/11a1126c2c5e1/ufo-50-deluxe-edition.large.jpg"></a><figcaption><em><span></span> Image: Jim Norman / Nintendo Life</em></figcaption></figure><p>Mossmouth's excellent retro compilation <a href="https://www.nintendolife.com/games/switch-eshop/ufo_50">UFO 50</a> was one of our games of the year when it finally arrived on Switch back in August 2025. The 50 games of the fictional LX system have gobbled up hours (and <em>hours</em>) of our time in the months since, and just when we thought we were free from its clutches, Fangamer had to go and drag us in all over again.</p>
+<p>You see, the outlet recently launched the <a href="https://www.fangamer.com/products/ufo-50-game-nintendo-switch-deluxe-edition">UFO 50 'Deluxe Edition'</a>, a long-awaited physical release for Switch which, alongside a boxed copy of the game, throws in a bunch of tie-in merchandise to boot.</p><div><figure data-videoid="fP9LUp_ViPU" data-start="0" data-src="https://www.youtube.com/embed/fP9LUp_ViPU?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><div><iframe id="ytfP9LUp_ViPU" title="YouTube Video" data-src-fallback="https://www.youtube-nocookie.com/embed/fP9LUp_ViPU?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/fP9LUp_ViPU?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed5f7b22grztml&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><p>Subscribe to <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1">Nintendo Life</a> on <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1"><span>YouTube</span><span>845k</span></a></p>
+</div></figure></div>
+<p>However, the Deluxe Edition extras aren't your usual 'Collector's Edition' paraphernalia of trading cards and pin badges, waiting to be lost in an office drawer within weeks of opening. No, UFO 50's bonus goodies are every bit as nostalgia-inducing as you would hope.</p>
+<p>The good folk over at Fangamer were kind enough to send us a copy of this very Deluxe Edition, and we thought it only right to show you lovely folks some of the goodies contained within.</p>
+<p>So, join us on this unboxing tour! We'll start with the DE box itself, which is modelled on the game's LX home console, for a touch of world-building right from the jump.</p>
+
+<p>Aside from the physical copy itself (more on that in just a second), the pièce de résistance of this release is the 'UFO Companion', an official, 116-page guide to the collection, packed with tutorials and secrets for each and every game.</p>
+<p>Like the in-game menus and reference materials, everything in here is entirely dedicated to the bit. There's no tongue-in-cheek 'we know this console isn't actually real' winking to be found in here. If historians stumbled across this book hundreds of years from now, they'd assume it was a real guide for real games from the '80s — albeit one in phenomenally good condition, god bless modern printing.</p>
+
+<figure data-uuid="79e1453cb8b19"><a title="UFO 50 Deluxe Edition" href="https://images.nintendolife.com/79e1453cb8b19/ufo-50-deluxe-edition.large.jpg"></a><figcaption><em><span></span> Image: Jim Norman / Nintendo Life</em></figcaption></figure>
+<p>If it's even more world-building you're after, the bundle also throws in physical copies of one of the game's 'design documents', an excerpt of the LX Star Newsletter (mentioned briefly in-game), a promo poster for the console itself, and a paper copy of the <strong>Bug Hunter</strong> disk.</p>
+<p>Fangamer has kept the contents of both the design doc and newsletter a secret online, and since both contain details that not <em>everyone</em> is going to want to see, we've adopted a similar approach in the pictures below. Nothing's getting spoiled on our watch!</p>
+
+<p>Then we have the main event: the physical case. It's quite the looker, we're sure you'll agree, but the real kicker here is a <em>reversible</em> <em>cover</em>, featuring the LX staple, <strong>Barbuta</strong>. This flip-side even features authentic 'crease' marks printed on the reverse to really up the nostalgia. Talk about attention to detail, eh?</p>
+
+
+<p>And finally, what kind of self-respecting Deluxe Edition would launch without a boatload of stickers? UFO 50 is no exception, of course. Aside from individual stickers for each of the compilation games (perfect for marking your progress in the guide), the release also comes with the following <em>adorable</em> sets.</p>
+<figure data-uuid="1cdf0932fe26e"><a title="UFO 50 Deluxe Edition" href="https://images.nintendolife.com/1cdf0932fe26e/ufo-50-deluxe-edition.large.jpg"></a><figcaption><em><span></span> Image: Jim Norman / Nintendo Life</em></figcaption></figure>
+<p>There you have it! It's quite the collection, no? The UFO 50 Deluxe Edition is now available on the <a href="https://www.fangamer.com/products/ufo-50-game-nintendo-switch-deluxe-edition">North American</a> Fangamer website for $59. Alternatively, you can pick up both the standard physical release and the Companion Guide separately on the <a href="https://www.fangamer.eu/products/ufo-50-game-nintendo-switch-pegi">European store</a> for €39/€26, respectively.</p>
+<hr>
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch/related-articles:186206 @ 1775845803 -->
+<p><em>Our thanks to Fangamer for sending a copy of the UFO 50 Deluxe Edition!</em></p>
+<p><em>Have you picked up a copy of your own? Let us know in the comments.</em></p></section></div><br/><br/>https://www.nintendolife.com/news/2026/04/gallery-fangamers-ufo-50-deluxe-edition-is-packed-with-nostalgic-goodness]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Crimson Desert Devs Are Giving Fans Everything They Want With A Promising New Roadmap]]></title>
+            <link>https://kotaku.com/crimson-desert-updates-roadmap-controls-outfits-storage-pearl-abyss-2000686741</link>
+            <guid>1488172</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+              
+              <p><span>It’s been roughly three weeks since </span><i><span>Crimson Desert</span></i><span> dropped, and it seems like developer Pearl Abyss is still </span><a href="https://kotaku.com/crimson-desert-patch-101-controls-stamina-2000682947"><span>hard at work</span></a><span> fixing problems that emerged during its less than stellar launch week. Now, the team has shared a roadmap for the game’s next few months, showing off both quality-of-life changes as well as some pretty significant changes to gameplay.</span></p>
+
+ <p><span>On Friday, Pearl Abyss shared </span><a href="https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=82"><span>a blog post</span></a><span> detailing some changes coming to the game between April and June, and man, there are a </span><i><span>lot.&nbsp;</span></i></p> <p><span>The post confirms that locations will now be able to be recaptured by enemies, which should be a relief for the players who have spent hundreds of hours clearing out the map only to realize that the map felt static and lonely without opponents bombarding them at every turn. Bosses will also be able to respawn for rematches instead of just…disappearing forever.&nbsp;</span></p> <p><span>Possibly the most exciting feature, however, is a boost to Damiane and Oongka, the game’s two non-Kliff playable characters (who you might not even know about because it’s currently impossible to get through a lot of story content with them). Pearl Abyss is finally giving them better abilities to hopefully make them as viable as Kliff, who has a massive skill tree with abilities that can—and often have to—be used to complete puzzles and other challenges.</span></p>
+
+ <p><span>Other features inbound at some point this spring are difficulty settings, new outfits, specialized storage systems for things like cooking ingredients and clothes, new pets and mounts, UI accessibility options, and visual improvements to distant background scenery. Players will also be able to hide weapons on characters’ backs, which should hopefully make things feel a bit less awkward.</span></p>
+
+ <p><span>The blog post also teases more customizable controls. </span><i><span>Crimson Desert</span></i><span> has a notoriously weird control scheme (I still can’t get over </span><a href="https://bsky.app/profile/lexluddy.xyz/post/3mgaxuzuhnc2y"><span>this post that shows off possibly the most convoluted input chain in all of gaming</span></a><span>), so allowing players to customize these further is a promising start, although I wish they’d just make them more intuitive to begin with.&nbsp;</span></p> <p><i><span>Crimson Desert</span></i><span> obviously did not have a fantastic launch, but it seems like Pearl Abyss is pretty earnestly dedicated to rectifying that and making it a game worth picking up. Let’s just hope they patch out </span><a href="https://kotaku.com/crimson-desert-ai-art-peal-abyss-2000680884"><span>that ugly AI art</span></a><span> soon, too.</span></p>
+                          </div></div><br/><br/>https://kotaku.com/crimson-desert-updates-roadmap-controls-outfits-storage-pearl-abyss-2000686741]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[ESL Updates Co-Streaming Rules For CS2 and Dota 2]]></title>
+            <link>https://insider-gaming.com/esl-updates-co-streaming-rules-for-cs2-and-dota-2/</link>
+            <guid>1488169</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+        
+<p>In what could be a significant change to the esports ecosystems of Dota 2 and <a href="https://insider-gaming.com/category/esports/games/counter-strike/" target="_blank" rel="noreferrer noopener">Counter-Strike</a> 2 (CS2), ESL FACEIT Group has updated its co-streaming guidelines.</p>
+
+
+
+<p>And in doing so, the esports tournament organiser and broadcaster has made some pretty significant changes to the rules for content creators hoping to co-stream its events on Twitch.</p>
+
+
+
+
+
+
+
+<p>The guidelines state streamers, such as Mark ‘OhnePixel’ Zimmermann, will have to commit to watching the full broadcast uninterrupted without swapping away to something else during breaks.</p>
+
+
+
+<p>This is to support ESL’s official broadcast talent and to ensure that sponsors still appear in front of the audiences they paid for.</p>
+
+
+
+<h2 id="h-esl-ask-co-streamers-to-commit-to-full-broadcasts">ESL Ask Co-Streamers to Commit to Full Broadcasts</h2>
+
+
+
+<figure></figure>
+
+
+
+<p>The guidelines now have a new section titled “Always-On Coverage”, which states the following:</p>
+
+
+
+<ul>
+<li><strong>Uninterrupted Experience:</strong>&nbsp;Your co-stream must be a continuous experience from start to finish of the broadcast. Switching away to other streams, gameplay, or “Just Chatting” while the ESL tournament is live is strictly prohibited. The broadcast consists of:
+<ul>
+<li><strong>Gameplay:</strong>&nbsp;Defined as the start of Map 1 until the match concludes
+<ul>
+<li><strong>Audio:</strong>&nbsp;ESL broadcast audio must remain audible at a reasonable volume</li>
+
+
+
+<li><strong>Visuals:</strong>&nbsp;Strict 5% Picture-in-Picture (PIP) limit (see Section 4)</li>
+</ul>
+</li>
+
+
+
+<li><strong>Interstitials:</strong>&nbsp;Includes desk segments, walkouts, and interviews
+<ul>
+<li><strong>Audio:</strong>&nbsp;ESL audio must remain audible</li>
+
+
+
+<li><strong>Visuals:</strong>&nbsp;Overlay mortises may occupy a maximum of 33% of on-screen space</li>
+</ul>
+</li>
+
+
+
+<li><strong>Pre/Post-Show:</strong>&nbsp;Anything occurring before the countdown clock hits zero or after the final legal lines/trophy ceremony</li>
+</ul>
+</li>
+</ul>
+
+
+
+<p>ESL states that this rule change has been made to “eliminate audience leakage and maintain narrative integrity.”</p>
+
+
+
+<p>This will stop streamers from making content during breaks and will ensure that all desk segments/interviews will be aired during co-streams.</p>
+
+
+
+<h2 id="h-other-major-esl-co-streaming-changes">Other Major ESL Co-Streaming Changes</h2>
+
+
+
+<figure><div><blockquote data-width="500" data-dnt="true"><div lang="en" dir="ltr"><p>Likeness License:&nbsp;You grant ESL a perpetual, royalty-free license to use your likeness, voice, and excerpts from your Broadcast for marketing and promotional purposes.</p><p>Forever rights are always fun… <a href="https://t.co/5qcGAqa8aj">https://t.co/5qcGAqa8aj</a></p></div>— Scott Smith (@SirScoots) <a href="https://twitter.com/SirScoots/status/2042608027992481979?ref_src=twsrc%5Etfw">April 10, 2026</a></blockquote></div></figure>
+
+
+
+<p>Another significant update is that ESL is demanding the rights to co-streamers’ footage and likeness.</p>
+
+
+
+<p>The “Likeness License” means co-streamers grant ESL a royalty-free license to use their likeness, voice, and excerpts from their streams for marketing and promotional purposes.</p>
+
+
+
+<p>Additionally, ESL has forbidden co-streamers from talking about Skin Gambling/Trading/Marketplaces, which could particularly impact some CS2 streamers significantly with the game’s extensive trading market.</p>
+
+
+
+
+
+
+
+<p>Do you think these changes are fair to protect esports tournament broadcasts? Share your thoughts on the <a href="https://discord.com/invite/vwj7zdWxaW)" target="_blank" rel="noreferrer noopener">Insider Gaming Discord</a>.</p>
+
+
+
+<p>We’ll see how this impacts future tournaments like the upcoming <a href="https://insider-gaming.com/iem-cologne-2026-major-all-qualified-teams/" target="_blank" rel="noreferrer noopener">IEM Cologne</a> CS2 event.</p>
+
+
+        
+            
+
+    <div id="ig-app-cta">
+          <p><i></i> MOBILE APP</p>
+          <h2>Level Up Your Gaming News</h2>
+          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
+          
+          <p><i></i> Available on iOS &amp; Android</p>
+        </div>
+
+    
+    
+    </div></div><br/><br/>https://insider-gaming.com/esl-updates-co-streaming-rules-for-cs2-and-dota-2/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Karl Jobst Files Defamation Lawsuit Against Donkey Kong Record Holder Billy Mitchell]]></title>
+            <link>https://www.ign.com/articles/karl-jobst-files-defamation-lawsuit-against-donkey-kong-record-holder-billy-mitchell</link>
+            <guid>1488166</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><section data-cy="article-content" data-autopogo="true"><p data-cy="paragraph">Australian YouTube content creator Karl Jobst is suing Donkey Kong <a data-cy="styled-link" href="https://www.ign.com/articles/billy-mitchells-donkey-kong-records-reinstated-twin-galaxies">record holder</a> Billy Mitchell for defamation following the conclusion of a previous dispute between the two last year.</p><p data-cy="paragraph"><a href="https://storage.courtlistener.com/recap/gov.uscourts.flsd.711378/gov.uscourts.flsd.711378.1.0.pdf" data-cy="styled-link" target="_blank" rel="noopener noreferrer"><u>Filed</u></a> in the United States District Court for the Southern District of Florida (via <a href="https://www.dexerto.com/youtube/youtuber-karl-jobst-sues-billy-mitchell-for-defamation-3349334/" data-cy="styled-link" target="_blank" rel="noopener noreferrer"><u>Dexerto</u></a>), the lawsuit alleges Mitchell engaged in the “unauthorized appropriation of name or likeness and intentional infliction of emotional distress.” Jobst’s complaint notes his status as a creator with more than 1 million subscribers on YouTube, suggesting that damage to his “reputation for credibility and trustworthiness” has negatively affected his earnings.</p><p data-cy="paragraph">The filing follows a previous defamation suit Mitchell filed against Jobst related to comments made in a video titled “The Biggest Conmen in Video Game History Strike Again!” which he posted in 2021. Following a years-long battle, the court <a data-cy="styled-link" href="https://www.ign.com/articles/billy-the-king-of-kong-mitchell-wins-237000-in-defamation-lawsuit-victory-over-youtuber-karl-jobst"><u>sided with Mitchell</u></a> in April 2025, ordering the content creator pay the arcade gamer a total of around $240,000 (AU$340,000).</p><output><figure><a href="https://assets-prd.ignimgs.com/2026/04/10/billy-mitchell-1775839789648.png" target="_blank" rel="noopener noreferrer"></a><figcaption data-cy="caption">Billy Mitchell. Photo by David Greedy/Getty Images.</figcaption></figure></output><p data-cy="paragraph">Now, Jobst alleged public comments made by Mitchell related to the former’s bankruptcy process and crowdfunding campaigns are false, clarifying that he made these statements “with knowledge of their falsity or with reckless disregard for the truth.” Jobst claimed these statements caused him to suffer presumed damages and actual injury related to insult, pain, embarrassment, emotional suffering, harm to his relationship with his audience, lost future earnings, and more.</p><p data-cy="paragraph">One example included in the filing shows an X/Twitter post from Mitchell that claimed Jobst “engaged in serious illegal activity before and during” the bankruptcy process. Another involved claims Jobst created a GoFundMe “with the knowledge and intent to fund the existing lawsuit on false premises.” The filing also points to a separate statement from Mitchell shared during an August 2025 livestream that claimed Jobst “scammed his viewers out of 200,000,” adding, “He actually scammed his viewers out of more than $500,000.” Jobst denied these allegations.</p><p data-cy="paragraph">Mitchell has published <a href="https://x.com/BillyPacMan/status/2042460716071039381?s=20" data-cy="styled-link" target="_blank" rel="noopener noreferrer"><u>an X post</u></a> since the complaint was filed April 8. Replies to the post mostly revolve around Jobst and Mitchell’s previous, infamous dispute. “I look forward to winning Best Supporting Actor again,” Mitchell said.</p><p data-cy="paragraph"><em>Photo by David Greedy/Getty Images.</em></p><p data-cy="paragraph"><em>Michael Cripe is a freelance writer with IGN. He's best known for his work at sites like The Pitch, The Escapist, and OnlySP. Be sure to give him a follow on Bluesky (@mikecripe.bsky.social) and Twitter (@MikeCripe).</em></p></section></div><br/><br/>https://www.ign.com/articles/karl-jobst-files-defamation-lawsuit-against-donkey-kong-record-holder-billy-mitchell]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Resident Evil Requiem Denuvo DRM Fully Cracked, Making It the First 2026 Game to Have Its Copy Protection Bypassed]]></title>
+            <link>https://www.ign.com/articles/resident-evil-requiem-denuvo-drm-fully-cracked-making-it-the-first-2026-game-to-have-its-copy-protection-bypassed</link>
+            <guid>1488160</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-cy="page-header"><h2 data-cy="article-sub-headline">The water in the high seas is getting rougher.</h2></div><div><section data-cy="article-content" data-autopogo="true"><p data-cy="paragraph">It's getting harder every year to fully crack Denuvo, but it's still not impossible, and now <a data-cy="styled-link" href="https://www.ign.com/games/resident-evil-requiem">Resident Evil Requiem</a> has been cracked by <a href="https://www.reddit.com/user/voices38/" data-cy="styled-link" target="_blank" rel="noopener noreferrer">voices38</a> (via <a href="https://www.thegamer.com/resident-evil-requiem-cracked/" data-cy="styled-link" target="_blank" rel="noopener noreferrer">TheGamer</a>).</p><p data-cy="paragraph">Resident Evil Requiem has been around for about six weeks, and while pirates were technically able to get around the Denuvo DRM by running a virtual machine, or hypervisor, it was risky and complicated, requiring you to completely disable Windows security and Secure Boot. With voices38's crack, though, you just have to modify the game's .exe file, making it much safer to actually run. </p><p data-cy="paragraph">In the past, Denuvo cracks came a lot faster, but the DRM has been getting harder to patch out of a game's files. These traditional cracks are still coming, but they're much slower, with last year's <a data-cy="styled-link" href="https://www.ign.com/articles/doom-the-dark-ages-review">Doom: The Dark Ages</a> only getting its crack about a month ago, according to <a href="https://www.thegamer.com/doom-the-dark-ages-cracked-on-pc/" data-cy="styled-link" target="_blank" rel="noopener noreferrer">TheGamer.</a></p><output data-cy="article-video"></output><p data-cy="paragraph">While Resident Evil Requiem's crack came a lot closer to its launch than Doom: The Dark Ages, future games might take a longer time. There is a constant battle between pirates and Denuvo, and it's very likely that future implementations of the DRM will patch out the vulnerabilities that allowed for Requiem to be cracked. </p><p data-cy="paragraph">On the other hand, the hypervisor 'cracks' will continue to be the quickest workaround for DRM-loaded games, but they carry a ton of risks. After all, with all of the safeguards you have to disable, it'll make your system <em>very</em> vulnerable to hackers and rootkits, even if the VM you're running isn't itself infected with malware. </p><p data-cy="paragraph">The safest and fastest way that you can play new games is still just buying the game and running it normally, even if Denuvo impacts <a data-cy="styled-link" href="https://www.ign.com/articles/resident-evil-requiem-ps5-vs-pc-performance-analysis">game performance</a>. If anything, maybe the DRM being cracked so quickly this time will persuade some developers to opt for less invasive and heavy copy protection methods. That's probably just wishful thinking, though.  </p><p data-cy="paragraph"><em>Jackie Thomas is the Hardware and Buying Guides Editor at IGN and the PC components queen. You can follow her </em><a href="https://twitter.com/jackiecobra" data-cy="styled-link" target="_blank" rel="noopener noreferrer"><em>@Jackiecobra</em></a></p></section><div><h3 data-cy="title3"><svg data-cy="icon-logo" viewBox="0 0 76 24" title="IGN"><title>IGN Logo</title><path fill="currentColor" stroke="none" d="M5.38 7.65a7.85 7.85 0 0 1 2.26-2.26c.13-1.18.31-2.26.52-3.21a10.605 10.605 0 0 0-6 6c.95-.22 2.03-.39 3.21-.52M16.34 5.36v.02c.9.59 1.67 1.37 2.27 2.27 1.18.13 2.26.31 3.21.52a10.627 10.627 0 0 0-6.02-6.01c.22.95.4 2.02.54 3.2M7.64 18.62c-.9-.59-1.67-1.37-2.27-2.27h-.03c-1.19-.14-2.26-.32-3.19-.54 1.07 2.75 3.26 4.95 6.01 6.02-.22-.95-.39-2.03-.52-3.21M18.64 16.35h-.03c-.59.9-1.37 1.67-2.27 2.27v.03c-.14 1.17-.32 2.25-.54 3.19a10.59 10.59 0 0 0 6.03-6.03c-.94.22-2 .4-3.19.54M10.04 0h3.9c.85 1.85 1.2 4.59 1.3 5.52.04.22.06.43.06.63L12 9.11 8.7 6.15c0-.17.02-.35.05-.55.1-.95.43-3.75 1.29-5.61M8.7 17.83c0 .17.02.35.05.55.1.95.43 3.75 1.29 5.61h3.9c.85-1.84 1.2-4.59 1.3-5.52.04-.22.06-.43.06-.64L12 14.87l-3.3 2.96ZM6.16 8.68c-.17 0-.35.02-.55.05-.95.12-3.75.45-5.61 1.31v3.9c1.84.85 4.59 1.19 5.52 1.3.22.04.43.06.64.06L9.11 12 6.16 8.7ZM24 10.02c-1.86-.86-4.66-1.19-5.61-1.29-.2-.03-.38-.05-.55-.05l-2.96 3.3 2.96 3.3c.2 0 .41-.02.64-.06.93-.11 3.68-.45 5.52-1.3v-3.9Z"></path><path fill="currentColor" stroke="none" d="M42.83 13.9V10h10.45c1.06 0 1.93.86 1.93 1.92v4.63c0 2.38-1.91 4.36-4.33 4.36h-6.69c-4.96 0-8.97-4-8.97-8.94s4.04-8.95 8.98-8.95h10.36v4.11H44.2c-2.67 0-4.86 2.17-4.86 4.84s2.16 4.83 4.86 4.83h6.91v-2.91h-8.27ZM33.86 3h-4.07v16.02c0 1.05.86 1.91 1.91 1.91h2.15V3M74.37 3.01h-2.18v13.81s0 .08-.03.11a.29.29 0 0 1-.24.14c-.09 0-.16-.04-.25-.15L64.83 4.93a4.347 4.347 0 0 0-3.72-2.11h-.07c-2.39 0-4.32 1.93-4.32 4.32v11.88c0 1.05.86 1.91 1.91 1.91h2.17V7.14s.02-.09.04-.13a.29.29 0 0 1 .24-.14c.09 0 .18.03.24.14l6.88 12.07c.76 1.27 2.12 2.05 3.69 2.05h.07c2.39 0 4.32-1.93 4.32-4.32V4.92c0-1.05-.85-1.91-1.91-1.91"></path></svg>Recommends</h3></div></div><div><h3 data-cy="object-summary-embed-title">In This Article</h3></div></div><br/><br/>https://www.ign.com/articles/resident-evil-requiem-denuvo-drm-fully-cracked-making-it-the-first-2026-game-to-have-its-copy-protection-bypassed]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[This Hardcover Skyrim Library Set Includes Every Book From the Game, Now 45% Off]]></title>
+            <link>https://www.ign.com/articles/skyrim-library-amazon-deal-april-2026</link>
+            <guid>1488157</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p data-cy="page-header"><h2 data-cy="article-sub-headline">Lore. Lore never changes. </h2></p><div><section data-cy="article-content" data-autopogo="true"><p data-cy="paragraph">We’re still talking about Skyrim in 2026. While Bethesda continues (or maybe <a data-cy="styled-link" href="https://www.ign.com/articles/the-elder-scrolls-6-dev-says-were-going-to-take-our-time-and-as-long-as-it-needs-to-be-great-points-to-gta-6-delay-as-the-smartest-thing-they-could-do">even starts</a>) to chug along on Elder Scrolls 6, I am one of many who find themselves going back to the <a data-cy="styled-link" href="https://www.ign.com/articles/2011/11/10/the-elder-scrolls-v-skyrim-review">2011 classic</a>. Or, at the very least, still watching video essays about it. </p><p data-cy="paragraph">Bethesda quickly caught on to the power of its own lore, releasing a series of hardcover ‘Skyrim Library’ books between 2015 and 2017. The full set of all three volumes normally costs $110, but a new Amazon deal has dropped that price by 45%, <a href="https://zdcs.link/Ly0eX?object_uuid=f908efcb-b26b-479c-955d-ee5bbca5613b&amp;t=article" data-cy="styled-link" target="_blank" rel="nofollow">down to just $68</a>. </p><h2 data-cy="title2"><strong>Skyrim Library Drops to Lowest Price This Year</strong></h2><div id="164016"><div><p><span data-cy="productcard-view-trigger"><div id="164016" data-cy="solo-product-card"><p data-cy="solo-product-name"><h3>The Skyrim Library - Volumes I, II &amp; III (Box Set)</h3></p></div></span></p></div><p data-cy="paragraph">The Skyrim Library collects pretty much every single <a data-cy="styled-link" href="https://www.ign.com/wikis/the-elder-scrolls-5-skyrim/books">book in the game</a>. Yes, even The Lusty Argonian Maid. The texts themselves are complemented by concept art and original illustrations, providing a beautiful one-stop shop for tons of Skyrim lore. </p><p data-cy="paragraph">The books are organized across three hardcover volumes by theme: </p><ul data-cy="list"><li><strong>Volume I: The Histories</strong></li><li><strong>Volume II: Man, Mer, and Beast</strong></li><li><strong>Volume III: The Arcane</strong></li></ul><p data-cy="paragraph">Volume 1 collects most of the historical lore books from the province of Skyrim, with some context from across Tamriel. Volume 2 digs deeper into the province’s creatures, races, and factions, while Volume 3 is all about the magic. </p><p data-cy="paragraph">For the decor-minded, all three volumes are beautiful on their own, with simple artwork reminiscent of the books you find throughout the game. As a package, however, they come in a “deluxe” slipcover case, with stone-textured art that opens to reveal an illustration of Alduin. </p><p data-cy="paragraph">Amazon isn’t shy about discounting these books, but this is still the lowest price we’ve seen since the retailer's <a data-cy="styled-link" href="https://www.ign.com/articles/skyrim-library-on-sale-amazon-spring-sale-2025">last Spring Sale</a>. </p><h3 data-cy="title3">What's Going on With Elder Scrolls 6? </h3><p data-cy="paragraph">On the Elder Scrolls 6 front, Bethesda technically announced the sequel <a data-cy="styled-link" href="https://www.ign.com/articles/2018/06/11/e3-2018-the-elder-scrolls-vi-announced-at-bethesda-press-conference">all the way back in 2018</a>. However, Todd Howard kind of wants you to <a data-cy="styled-link" href="https://www.ign.com/articles/the-elder-scrolls-6-has-made-todd-howard-more-conscious-of-what-he-announces-just-pretend-we-didnt-announce-it">forget about that</a>. The studio has been primarily focused on Starfield and Fallout for the past couple of years, and most of the team was only moved to Elder Scrolls <a data-cy="styled-link" href="https://www.ign.com/articles/the-elder-scrolls-6-will-return-to-bethesdas-classic-style-after-detours-with-skyrim-fallout-76-says-todd-howard">as of February 2026</a>. That said, Howard <a data-cy="styled-link" href="https://www.ign.com/articles/im-preaching-patience-the-elder-scrolls-6-is-still-a-long-way-off-todd-howard-warns-fans-teases-potential-shadowdrop">did claim</a> the game was playable, though "still a long way off.” </p><p data-cy="paragraph">In the meantime, The Elder Scrolls Online has continued to get plenty of new updates, having recently kicked off <a data-cy="styled-link" href="https://www.ign.com/videos/the-elder-scrolls-online-official-season-zero-trailer">Season Zero: Dawn and Dusk</a>. </p><p data-cy="paragraph"><em>Blythe (she/her) is an Audience Development Coordinator at IGN who spends way too much time in character customization screens and tracking down collectibles. </em></p></div></section><div><h3 data-cy="title3"><svg data-cy="icon-logo" viewBox="0 0 76 24" title="IGN"><title>IGN Logo</title><path fill="currentColor" stroke="none" d="M5.38 7.65a7.85 7.85 0 0 1 2.26-2.26c.13-1.18.31-2.26.52-3.21a10.605 10.605 0 0 0-6 6c.95-.22 2.03-.39 3.21-.52M16.34 5.36v.02c.9.59 1.67 1.37 2.27 2.27 1.18.13 2.26.31 3.21.52a10.627 10.627 0 0 0-6.02-6.01c.22.95.4 2.02.54 3.2M7.64 18.62c-.9-.59-1.67-1.37-2.27-2.27h-.03c-1.19-.14-2.26-.32-3.19-.54 1.07 2.75 3.26 4.95 6.01 6.02-.22-.95-.39-2.03-.52-3.21M18.64 16.35h-.03c-.59.9-1.37 1.67-2.27 2.27v.03c-.14 1.17-.32 2.25-.54 3.19a10.59 10.59 0 0 0 6.03-6.03c-.94.22-2 .4-3.19.54M10.04 0h3.9c.85 1.85 1.2 4.59 1.3 5.52.04.22.06.43.06.63L12 9.11 8.7 6.15c0-.17.02-.35.05-.55.1-.95.43-3.75 1.29-5.61M8.7 17.83c0 .17.02.35.05.55.1.95.43 3.75 1.29 5.61h3.9c.85-1.84 1.2-4.59 1.3-5.52.04-.22.06-.43.06-.64L12 14.87l-3.3 2.96ZM6.16 8.68c-.17 0-.35.02-.55.05-.95.12-3.75.45-5.61 1.31v3.9c1.84.85 4.59 1.19 5.52 1.3.22.04.43.06.64.06L9.11 12 6.16 8.7ZM24 10.02c-1.86-.86-4.66-1.19-5.61-1.29-.2-.03-.38-.05-.55-.05l-2.96 3.3 2.96 3.3c.2 0 .41-.02.64-.06.93-.11 3.68-.45 5.52-1.3v-3.9Z"></path><path fill="currentColor" stroke="none" d="M42.83 13.9V10h10.45c1.06 0 1.93.86 1.93 1.92v4.63c0 2.38-1.91 4.36-4.33 4.36h-6.69c-4.96 0-8.97-4-8.97-8.94s4.04-8.95 8.98-8.95h10.36v4.11H44.2c-2.67 0-4.86 2.17-4.86 4.84s2.16 4.83 4.86 4.83h6.91v-2.91h-8.27ZM33.86 3h-4.07v16.02c0 1.05.86 1.91 1.91 1.91h2.15V3M74.37 3.01h-2.18v13.81s0 .08-.03.11a.29.29 0 0 1-.24.14c-.09 0-.16-.04-.25-.15L64.83 4.93a4.347 4.347 0 0 0-3.72-2.11h-.07c-2.39 0-4.32 1.93-4.32 4.32v11.88c0 1.05.86 1.91 1.91 1.91h2.17V7.14s.02-.09.04-.13a.29.29 0 0 1 .24-.14c.09 0 .18.03.24.14l6.88 12.07c.76 1.27 2.12 2.05 3.69 2.05h.07c2.39 0 4.32-1.93 4.32-4.32V4.92c0-1.05-.85-1.91-1.91-1.91"></path></svg>Recommends</h3></div></div></div><br/><br/>https://www.ign.com/articles/skyrim-library-amazon-deal-april-2026]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[The Force Unleashed Star Sam Witwer Says He'd be 'Very Happy' to Shave His Head for Starkiller Return]]></title>
+            <link>https://www.ign.com/articles/the-force-unleashed-star-sam-witwer-says-hed-be-very-happy-to-shave-his-head-for-starkiller-return</link>
+            <guid>1488151</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-cy="page-header"><h2 data-cy="article-sub-headline">Somehow Starkiller hasn't returned.</h2></div><div><section data-cy="article-content" data-autopogo="true"><p data-cy="paragraph"><a data-cy="styled-link" href="https://www.ign.com/games/star-wars-the-force-unleashed">Star Wars: The Force Unleashed</a> star Sam Witwer says he would be “very happy” to shave his head if Lucasfilm were to ever ask him to return as Starkiller.</p><p data-cy="paragraph">The actor, who is also known for portraying many versions of Darth Maul in the galaxy far, far away, touched on his interest in returning as the powerful Force user during an interview with <a href="https://www.polygon.com/star-wars-starkiller-canon-sam-witwer/" data-cy="styled-link" target="_blank" rel="noopener noreferrer">Polygon</a>. Not only does he say he’d love to spend more time wielding his lightsaber, but he’d be up for the hairstyle change that would come with it, too.</p><p data-cy="paragraph">“I would shave my head in an instant. Very happy to do so,” Witwer said. “I love that character, and he's really the reason I'm here.”</p><output data-cy="article-video"></output><p data-cy="paragraph">Starkiller, whose real name is Galen Marek, first appeared in The Force Unleashed for the Wii, DS, PlayStation Portable, PlayStation 2, PlayStation 3, and Xbox 360 in 2008 and is known as the secret apprentice of Darth Vader. Originally born under the wing of the Jedi order, he’s eventually taken by the infamous Sith Lord and trained to be a powerful tool for the Empire.</p><p data-cy="paragraph">Following the first release and its 2010 sequel, Starkiller falls into the “Legends” category of Star Wars. It means that, although the character, as well as other The Force Unleashed characters like Juno Eclipse and Proxy, isn’t currently considered canon, a reintroduction isn’t exactly off the table.</p><p data-cy="paragraph">Witwer is a well-known Star Wars fan who has also gone on to voice Emperor Palpatine and other minor characters across the series’ wide universe. Aside from Starkiller, most fans will probably recognize him as the voice of Darth Maul in a variety of spinoffs, including Solo: A Star Wars Story and the recently released <a data-cy="styled-link" href="https://www.ign.com/tv/star-wars-maul-shadow-lord">Maul – Shadow Lord</a>. However, it’s his role in The Force Unleashed that kicked off his Star Wars journey, and it’s the part he may be most interested in returning to.</p><output data-cy="article-slideshow"><span data-cy="slideshow-view-trigger"><div data-cy="slideshow-preview"><h3 data-cy="slideshow-preview-title">Star Wars: Maul - Shadow Lord Images</h3></div></span></output><p data-cy="paragraph">In the past, Witwer has <a data-cy="styled-link" href="https://www.ign.com/articles/2017/08/14/star-wars-the-force-unleasheds-protagonist-starkiller-could-have-became-canon"><u>teased that his beloved secret apprentice nearly appeared in the animated Rebels spinoff show</u></a>, though plans for his surprise return ultimately never materialized. For now, Disney has shown no sign of official plans to bring Starkiller back in a video game or even a live-action project. While we wait to see if the star may reprise his role as the character that started his Star Wars journey, you can read our original <a data-cy="styled-link" href="https://www.ign.com/articles/2008/09/15/star-wars-the-force-unleashed-review-2">7.3/10 The Force Unleashed review</a>.</p><p data-cy="paragraph"><em>Michael Cripe is a freelance writer with IGN. He's best known for his work at sites like The Pitch, The Escapist, and OnlySP. Be sure to give him a follow on Bluesky (@mikecripe.bsky.social) and Twitter (@MikeCripe).</em></p></section><div><h3 data-cy="title3"><svg data-cy="icon-logo" viewBox="0 0 76 24" title="IGN"><title>IGN Logo</title><path fill="currentColor" stroke="none" d="M5.38 7.65a7.85 7.85 0 0 1 2.26-2.26c.13-1.18.31-2.26.52-3.21a10.605 10.605 0 0 0-6 6c.95-.22 2.03-.39 3.21-.52M16.34 5.36v.02c.9.59 1.67 1.37 2.27 2.27 1.18.13 2.26.31 3.21.52a10.627 10.627 0 0 0-6.02-6.01c.22.95.4 2.02.54 3.2M7.64 18.62c-.9-.59-1.67-1.37-2.27-2.27h-.03c-1.19-.14-2.26-.32-3.19-.54 1.07 2.75 3.26 4.95 6.01 6.02-.22-.95-.39-2.03-.52-3.21M18.64 16.35h-.03c-.59.9-1.37 1.67-2.27 2.27v.03c-.14 1.17-.32 2.25-.54 3.19a10.59 10.59 0 0 0 6.03-6.03c-.94.22-2 .4-3.19.54M10.04 0h3.9c.85 1.85 1.2 4.59 1.3 5.52.04.22.06.43.06.63L12 9.11 8.7 6.15c0-.17.02-.35.05-.55.1-.95.43-3.75 1.29-5.61M8.7 17.83c0 .17.02.35.05.55.1.95.43 3.75 1.29 5.61h3.9c.85-1.84 1.2-4.59 1.3-5.52.04-.22.06-.43.06-.64L12 14.87l-3.3 2.96ZM6.16 8.68c-.17 0-.35.02-.55.05-.95.12-3.75.45-5.61 1.31v3.9c1.84.85 4.59 1.19 5.52 1.3.22.04.43.06.64.06L9.11 12 6.16 8.7ZM24 10.02c-1.86-.86-4.66-1.19-5.61-1.29-.2-.03-.38-.05-.55-.05l-2.96 3.3 2.96 3.3c.2 0 .41-.02.64-.06.93-.11 3.68-.45 5.52-1.3v-3.9Z"></path><path fill="currentColor" stroke="none" d="M42.83 13.9V10h10.45c1.06 0 1.93.86 1.93 1.92v4.63c0 2.38-1.91 4.36-4.33 4.36h-6.69c-4.96 0-8.97-4-8.97-8.94s4.04-8.95 8.98-8.95h10.36v4.11H44.2c-2.67 0-4.86 2.17-4.86 4.84s2.16 4.83 4.86 4.83h6.91v-2.91h-8.27ZM33.86 3h-4.07v16.02c0 1.05.86 1.91 1.91 1.91h2.15V3M74.37 3.01h-2.18v13.81s0 .08-.03.11a.29.29 0 0 1-.24.14c-.09 0-.16-.04-.25-.15L64.83 4.93a4.347 4.347 0 0 0-3.72-2.11h-.07c-2.39 0-4.32 1.93-4.32 4.32v11.88c0 1.05.86 1.91 1.91 1.91h2.17V7.14s.02-.09.04-.13a.29.29 0 0 1 .24-.14c.09 0 .18.03.24.14l6.88 12.07c.76 1.27 2.12 2.05 3.69 2.05h.07c2.39 0 4.32-1.93 4.32-4.32V4.92c0-1.05-.85-1.91-1.91-1.91"></path></svg>Recommends</h3></div></div><div><h3 data-cy="object-summary-embed-title">In This Article</h3></div></div><br/><br/>https://www.ign.com/articles/the-force-unleashed-star-sam-witwer-says-hed-be-very-happy-to-shave-his-head-for-starkiller-return]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[A New Metro Game is Now Rumored to Be Revealed Next Week]]></title>
             <link>https://wccftech.com/new-metro-game-rumored-to-be-revealed-next-week/</link>
@@ -563,11 +1167,11 @@
 <h3 id="snack-world-reloaded-switch-2-tba">Snack World: Reloaded (Switch 2) - TBA</h3>
 
 <p>The 2017 RPG (or its 2020 Switch version) is getting a remake on Switch 2 in the shape of <a href="https://www.nintendolife.com/games/nintendo-switch-2/snack-world-reloaded">Snack World: Reloaded</a>, complete with new visuals and storylines.</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch/related-articles:199742 @ 1775844163 -->
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch/related-articles:199742 @ 1775847795 -->
 <h3 id="inazuma-eleven-re-decapolice-holy-horror-mansion-switch-1-andamp-2-in-development">Inazuma Eleven RE, DECAPOLICE, Holy Horror Mansion (Switch 1 &amp; 2) - "In Development"</h3>
 
 <p><a href="https://www.nintendolife.com/games/nintendo-switch-2/inazuma-eleven-re">Inazuma Eleven RE</a>, <a href="https://www.nintendolife.com/games/nintendo-switch-2/decapolice">DECAPOLICE</a> and <strong>Holy Horror Mansion</strong> were announced at various points over the last few years and, well, they're still in development. Perhaps not the most concrete news (we barely got a glimpse of the first two), but at least there's some new Holy Horror gameplay.</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch/related-articles:199738 @ 1775844163 -->
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch/related-articles:199738 @ 1775847795 -->
 <h3 id="inazuma-eleven-cross-mobile-june-2026">Inazuma Eleven: Cross (Mobile) - June 2026</h3>
 
 <p>Another day, another Japan-exclusive Inazuma Eleven mobile title. Will this one come West? Probably not.</p>
@@ -580,7 +1184,7 @@
 <p>Hey, remember <a href="https://www.nintendolife.com/games/nintendo-switch-2/professor-layton-and-the-new-world-of-steam">Professor Layton and The New World of Steam</a>? Yep, it's <em>still</em> on its way!</p>
 <p>The new trailer introduced us to a bunch of Steam Bison residents that Layton and Luke will meet in the upcoming title, showcasing a little more gameplay and revealing that legendary composer Joe Hisaishi is behind the new theme.</p>
 <p>The Japanese voice cast has now finished recording, and Level-5 has released a special <a href="https://www.youtube.com/watch?v=ts_YV4oh3hw">Q&amp;A</a> with them, discussing their work on The New World of Steam and the series at large.</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch/related-articles:199737 @ 1775844151 -->
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch/related-articles:199737 @ 1775847795 -->
 <hr>
 <p><em>Which title from the Vision 2026 April showcase are you looking forward to the most? You can let us know in the following poll, then take to the comments to share your thoughts on the presentation as a whole.</em></p>
 </section></div><br/><br/>https://www.nintendolife.com/features/round-up-everything-announced-in-the-level-5-vision-2026-april-showcase]]></content:encoded>
@@ -645,387 +1249,17 @@
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
         <item>
-            <title><![CDATA[Phantom Blade Zero Dev Comes Out Against AI Slopface That Could ‘Alter Our Artists’ Original Creative Intent’ After DLSS 5 Drama]]></title>
-            <link>https://kotaku.com/phantom-blade-zero-ai-dlss5-nvidia-2000686687</link>
-            <guid>1488022</guid>
+            <title><![CDATA[Pokémon Champions May Have The Hardest Shiny Hunting In The Series]]></title>
+            <link>https://kotaku.com/pokemon-champions-shiny-hunting-recruit-quick-coupons-2000686716</link>
+            <guid>1488025</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
               
-              <p><a href="https://kotaku.com/phantom-blade-zero-boss-fight-trailer-release-date-ps5-1851744823"><em>Phantom Blade Zero</em> is out later this year</a>, and Chinese developer S-Game Studio is trying to distance itself from the genAI debate after the action-RPG appeared on a list of games supporting Nvidia’s controversial new DLSS 5 upscaling tech. The studio declared it won’t be using AI that could get in the way of artistic intent after DLSS 5 was widely mocked by players for <a href="https://kotaku.com/new-nvidia-dlss-tech-gives-characters-ai-slop-faces-2000679199">giving NPCs yassified “slopface</a>.”</p>
+              <p><span>Every time a new </span><i><span>Pokémon </span></i><span>game comes out, Shiny Hunters ask if you can find </span><a href="https://kotaku.com/pokemon-shiny-odds-scarlet-violet-ivs-red-gyarados-1850248457"><span>rare monsters sporting color variations</span></a><span>. Folks were even asking about Shiny monsters in </span><i><span>Pokémon Sleep</span></i><span>, a sleep tracking app that lets you collect Pokémon when you go to bed on time. Well, it looks like a brand new way of hunting for these variants is about to pop up, as players have discovered </span><a href="https://kotaku.com/pokemon-champions-incineroar-best-most-used-stats-ranking-2000686691"><i><span>Pokémon Champions</span></i></a><span> will sometimes give you a Shiny Pokémon to recruit. But please, if you’re going to grind for these, do it in any other game.</span></p>
 
- <p>“We are fully aware that a profound technological revolution is unfolding around us,” the <em>Phantom Blade Zero</em> <a href="https://x.com/pbzero_official/status/2042420654960738477?s=20">account wrote in a statement on X</a> on April 10. “However, to this day, every single piece of content in our game has been crafted by the hands of real artists. We will not use AI visual tech that could alter our artists’ original creative intent.”</p> <p>S-Game outlined details of <em>Phantom Blade</em>‘s development that ground it in the real world rather than AI hallucinations. That includes character models built upon 3D scans of the game’s cast, “meticulously refined” voice acting in Chinese and English, and even weapon replicas forged by actual blacksmiths.</p>
+ <p><span>Getting new Pokémon in </span><i><span>Champions</span></i> <a href="https://kotaku.com/pokemon-champions-release-date-switch-overview-trailer-2000681452"><span>isn’t as simple</span></a><span> as running into a patch of tall grass and crossing your fingers that you find the one you want like in the RPGs. Each day, you’re able to “recruit” a Pokémon from a random line-up. You can temporarily recruit them for free, or use in-game currency to add them to your team permanently. Fans have found that yes, some of these choosable Pokémon can show up in their Shiny form.&nbsp;</span></p>   <p><span>For reference, the odds of a Pokémon spawning in this alternate form is one in 4096, with some items and tricks that can increase that rate being added over the course of the series. </span><i><span>Champions</span></i><span>, meanwhile, doesn’t have any of those helpful tools, and you can’t even “hunt” for a specific monster, as the ones you’re allowed to recruit are mostly random, unless you redeem tickets that make certain types more likely to show up. So not only are the Shiny odds themselves at play, you’re rolling the dice on whether the specific monster you want is even going to show up.</span></p>
 
- <p><em>Phantom Blade Zero</em> looks on the surface like just another grimdark Souls-like, but part of what’s helped it capture the imagination of players leading up to its September 6 launch is an emphasis on arcade action based around “authentic kung fu techniques” and traditional swordplay. The result is a big arsenal of weapons and bespoke combos for each.</p>
-
- <p>While G-Studio doesn’t call out Nvidia or DLSS 5 by name, it’s hard to interpret the statement as anything but the team distancing itself from a recent tech demo that caused <a href="https://kotaku.com/we-spoke-to-game-devs-and-all-of-them-hate-dlss-5-what-the-f-nvidia-2000680059">a massive backlash online</a>. While <em>Phantom Blade Zero</em> wasn’t shown off using DLSS 5 by Nvidia, it was listed in a blog post as one of the upcoming games that would support it. The feature is planned to eventually be available to anyone with a GeForce RTX 5090 graphics card.</p> <p>“We firmly believe that human artistry is not merely a means for creating value; it is the value itself. S-GAME didn’t just hire a group of developers to make a game; rather, in our pursuit of continuously building an exceptional, passionate team, we decided to make a game that everyone here could be deeply proud of,” its statement continued.</p>
-                          </div></div><br/><br/>https://kotaku.com/phantom-blade-zero-ai-dlss5-nvidia-2000686687]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[What is "SteamGPT"? Leaked files point to AI-powered Valve security review system.]]></title>
-            <link>https://arstechnica.com/gaming/2026/04/what-is-steamgpt-leaked-files-point-to-ai-powered-valve-security-review-system/</link>
-            <guid>1488019</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-                      
-                      
-          <p>These days, it seems like every tech company and their corporate parent is looking to squeeze AI tools and features into their products, whether they’re wanted or not. So when files with names and functions referencing a “SteamGPT” appeared in a recent Steam client update, Valve watchers <a href="https://x.com/gabefollower/status/2041616788178256245#m">took quick notice</a>.</p>
-<p>From the outside, it’s hard to tell precisely what form any such “SteamGPT” would take. But looking through variable names and references in the files themselves suggests that Valve may be looking to use AI tools to streamline internal evaluations of in-game incidents and sift through potentially suspicious accounts.</p>
-<h2>Looking at the variables</h2>
-<p>As tracked by <a href="https://github.com/SteamTracking/SteamTracking/tree/a376b60d49bdd00f18391c17ceb82a8a53c5276b">the automated SteamTracking GitHub project</a>, the term “SteamGPT” appears multiple times in <a href="https://github.com/SteamTracking/SteamTracking/blob/a376b60d49bdd00f18391c17ceb82a8a53c5276b/ProtobufsWebui/service_steamgptrenderfarm.proto">three</a> <a href="https://github.com/SteamTracking/SteamTracking/blob/a376b60d49bdd00f18391c17ceb82a8a53c5276b/ProtobufsWebui/service_steamgptsummary.proto">separate</a> <a href="https://github.com/SteamTracking/SteamTracking/blob/a376b60d49bdd00f18391c17ceb82a8a53c5276b/ProtobufsWebui/service_steamgpt.proto">files</a> added in the April 7 Steam client update. In addition to the SteamGPT naming convention—a seemingly obvious reference to the <a href="https://www.ibm.com/think/topics/gpt">generative pre-trained transformers</a> popularized by ChatGPT and its ilk—the files include mentions of terms like multi-category inference, fine-tuning, and “upstream models” that point to some sort of generative AI system.</p>
-<p>What might that AI be used for? Well, the files contain multiple references to a labeler and “labeling tasks,” working with arguments identifying a “problem” and “subproblem” and looking at an “evaluation_evidence_log” related to a specific “matchid.” Together with mentions of a “logs_to_inference” metamodel, that sounds like it could be a hook into a system for automatically generating labels to categorize the <a href="https://help.steampowered.com/en/faqs/view/2F3F-25EE-2AC6-30E7">various incident reports</a> made in Steam multiplayer games.</p>
-<figure>
-    <div id="caption-2149497"><p>
-              A SteamGPT function makes references to numerous security features.
-                              </p>
-                          </div>
-          <figcaption>
-        <div>
-    
-    <p>
-      A SteamGPT function makes references to numerous security features.
-
-              <span>
-          Credit:
-
-                      <a href="https://github.com/SteamTracking/SteamTracking/blob/a376b60d49bdd00f18391c17ceb82a8a53c5276b/ProtobufsWebui/service_steamgptsummary.proto#L3" target="_blank">
-          
-          SteamTracking / Github
-
-                      </a>
-                  </span>
-          </p>
-  </div>
-      </figcaption>
-      </figure>
-
-<p>Another portion of the SteamGPT files hints that Valve might use AI tools to summarize suspicious activity history or patterns in potentially fraudulent Steam accounts. A number of “SteamGPTSummary” functions include references to <a href="https://help.steampowered.com/en/faqs/view/571A-97DA-70E9-FF74">VAC bans</a>, <a href="https://help.steampowered.com/en/faqs/view/06B0-26E6-2CF8-254C">Steam Guard</a>, and <a href="https://help.steampowered.com/en/faqs/view/01DE-9E83-B094-313B">account lockdowns</a>. These functions also seem to look at evidence such as email addresses (“high_fraud_email”), use of advanced security features (“two_factor”), and where a linked phone number originates (“phone_country”) to help determine whether an account is on the up-and-up. There are also a few references here to an account’s <a href="https://help.steampowered.com/en/faqs/view/00EF-D679-C76A-C185">trust score</a>, which is already used to help secure matchmaking in games like <em>Counter-Strike 2</em>.</p>
-
-          
-                      
-                  </div></div><br/><br/>https://arstechnica.com/gaming/2026/04/what-is-steamgpt-leaked-files-point-to-ai-powered-valve-security-review-system/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Another Switch 1 Release Might Be Ditching The "Cloud Version" Label On Switch 2]]></title>
-            <link>https://www.nintendolife.com/news/2026/04/another-switch-1-release-might-be-ditching-the-cloud-version-label-on-switch-2</link>
-            <guid>1487992</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="body">
-<article id="article">
-<header><section>
-<p>Guardians of the Galaxy has been rated for the console</p>
-</section></header><div><section>
-<figure data-uuid="96dcc913e6254"><a title="Marvel's Guardians of the Galaxy" href="https://images.nintendolife.com/96dcc913e6254/marvels-guardians-of-the-galaxy.large.jpg"></a><figcaption><em><span></span> Image: Eidos Montreal</em></figcaption></figure><p>We've been hoping to see more Switch 1 games lumbered with the Cloud Version label ditch that format and make the jump to Switch 2. And it looks like <a href="https://www.nintendolife.com/games/switch-eshop/marvels_guardians_of_the_galaxy_cloud_version">Marvel's Guardians of the Galaxy</a> might be the next one to come.</p>
-<p>Earlier today, <a href="https://www.reddit.com/r/GamingLeaksAndRumours/comments/1shh8b9/marvel_guardians_of_the_galaxy_rated_for_switch_2/">r/GamingLeaksAndRumours</a> (spotted via Gematsu) shared that a rating for the game on Switch 2 had popped up on the <a href="https://www.gamerating.org.tw/Search/GameList">Taiwan Digital Game Rating Committee website</a>.</p>
-<p>Eidos Montreal's action game came out back in 2021, and while it was extremely warmly received on other platforms, the game was <a href="https://www.nintendolife.com/reviews/switch-eshop/marvels-guardians-of-the-galaxy-cloud-version">a bit of a mess on Switch</a> because of its Cloud Version shackles.</p><div><figure data-videoid="8i2vvu-qeBQ" data-start="0" data-src="https://www.youtube.com/embed/8i2vvu-qeBQ?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><div><iframe id="yt8i2vvu-qeBQ" title="YouTube Video" data-src-fallback="https://www.youtube-nocookie.com/embed/8i2vvu-qeBQ?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/8i2vvu-qeBQ?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed4c3af8iphsxy&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><p>Subscribe to <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1">Nintendo Life</a> on <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1"><span>YouTube</span><span>845k</span></a></p>
-</div></figure></div>
-<p>Now, the link to the ratings board doesn't technically work, but you can view a screenshot taken by u/venom_daemon via the link below:</p>
-
-<p>So, if this rating is true, that'd hopefully mean Guardians of the Galaxy will be getting a true "native" version on a Nintendo system for the first time. As it rightfully deserves.</p>
-<p><a href="https://www.nintendolife.com/games/nintendo-switch-2/hitman-world-of-assassination-signature-edition">Hitman: World of Assassination</a>, <a href="https://www.nintendolife.com/games/nintendo-switch-2/resident-evil-7-biohazard-gold-edition">Resident Evil 7</a>, and <a href="https://www.nintendolife.com/games/nintendo-switch-2/resident-evil-village-gold-edition">Resident Evil 8</a> are a handful of games that have shedded their Cloud Version labels in favour of improved, native Switch 2 ports. So we hope these beloved Marvel heroes can make the jump, too.</p>
-<p>We certainly don't recommend the Switch 1 version as it is now, so if you've been holding off on the game until a better handheld version comes to light, we can at least point you towards <a href="https://www.pushsquare.com/reviews/ps5/marvels-guardians-of-the-galaxy">our sister site Push Square's review</a> so you get a good idea of what the game is like on PS5.</p>
-<hr>
-<p><em>Do you want to see Guardians of the Galaxy on Switch 2? Let us know in the comments</em>.</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch/related-articles:122615,122796 @ 1775842418 --></section>
-<p>[source <a title="External Link: https://www.reddit.com/r/GamingLeaksAndRumours/comments/1shh8b9/marvel_guardians_of_the_galaxy_rated_for_switch_2/" rel="noopener" href="https://www.reddit.com/r/GamingLeaksAndRumours/comments/1shh8b9/marvel_guardians_of_the_galaxy_rated_for_switch_2/">reddit.com</a>, via <a title="External Link: https://www.gematsu.com/2026/04/marvels-guardians-of-the-galaxy-rated-for-switch-2-in-taiwan" rel="noopener" href="https://www.gematsu.com/2026/04/marvels-guardians-of-the-galaxy-rated-for-switch-2-in-taiwan">gematsu.com</a>]</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch/related-info/45b45ab5b001c7a4b413a51388ab2cda @ 1775844158 --></div></article><div><p>Alana has been with Nintendo Life since 2022, and while RPGs are her first love, Nintendo is a close second. She enjoys nothing more than overthinking battle strategies, characters, and stories. She also wishes she was a Sega air pirate.</p><ul><li><a href="https://www.nintendolife.com/authors/AlanaHagues"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/alanahagues.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('AlanaHagues');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
-</div></div></div><br/><br/>https://www.nintendolife.com/news/2026/04/another-switch-1-release-might-be-ditching-the-cloud-version-label-on-switch-2]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Amazon Gives Players Another Reason Not to Use Amazon Luna by Removing Games and Subscriptions Bought From Third-Party Stores]]></title>
-            <link>https://wccftech.com/amazon-luna-removes-third-party-game-store-purchases-and-subscriptions/</link>
-            <guid>1487989</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			
-			<p><strong>Amazon</strong> <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=TY9Z4zZ7vgVwLA0b7C">announced more changes</a> to its gaming-focused service, <strong>Amazon Luna</strong> today, after it <a href="https://wccftech.com/amazon-luna-re-launch-later-this-year-prime-subs-library-cloud-games/">re-launched the brand last year</a> with a renewed focus on social and casual experiences like an "<em>AI-powered improv courtroom game</em>" featuring the rapper <strong>Snoop Dogg</strong>. Starting today, <strong>April 10, 2026,</strong> the platform will no longer let players purchase games from third-party stores or purchase subscriptions from third-party platforms. It will also stop supporting its Bring Your Own Library service, and no, you can't get a refund for any of your third-party purchases.</p>
-
-
-
-<p>In case you weren't already aware, Amazon Luna had previously allowed players to purchase games from third-party game stores on its platform, including <strong>Ubisoft, EA,</strong> and <strong>GOG</strong> digital storefronts. You could also purchase subscriptions for third-party services, like a <strong>Ubisoft+</strong> subscription or a <strong>Jackbox Games</strong> subscription. </p>
-
-
-
-<p>Not anymore after today, as Amazon is seemingly trying to get its users to live only within Amazon's ecosystem. To be clear, the changes don't actually impact your library of games. If you bought a game on, say GOG, through Amazon Luna, you'll still be able to just use the GOG launcher to play that game, but after <strong>June 10, 2026,</strong> you won't be able to launch that game through Amazon Luna.</p>
-
-
-
-<p>The same goes for the subscriptions, though you'll have to jump through more hoops in that case. If you pay for a Ubisoft+ subscription through your Amazon account and Amazon Luna, that subscription will be <strong>cancelled</strong> at the end of your next billing period. Which just means you'll now have to pay for Ubisoft+ directly instead of through your Amazon account, to keep using it.</p>
-
-
-
-<p>"<em>At Amazon, we're always looking for ways to better serve our players. Your feedback has been clear: you want easy access to great games, more social experiences, and a steady flow of new content from developers you know and love</em>," the company writes in a statement. "<em>As our library continues to grow, more of that content is available to Prime members - and that's where we're focusing our future. Starting April 10, 2026, Amazon Luna will no longer offer game stores, individual game purchases or third-party subscriptions."</em></p>
-
-
-
-<p>Even though Amazon isn't removing your full access to the games you bought on third-party storefronts on its platform, since, as previously mentioned, that game you bought for GOG can just be played on GOG, the wrinkle here is that Amazon Luna is a <strong>cloud streaming service</strong>. </p>
-
-
-
-<p>If you were using Amazon Luna as your place to buy and play games, that's likely because you opted to go for a cloud streaming solution over having hardware that could run all of the games you're looking to play. If you suddenly can't play those games through cloud streaming and have to rely on whatever hardware you own to play them, you're essentially losing those games from your library.</p>
-
-
-
-<p>Say you bought <strong><a href="https://wccftech.com/cyberpunk-2077-pssr-2-ps5-pro-update/">Cyberpunk 2077</a></strong> on GOG, and because you already had access to Amazon Luna through your Amazon Prime subscription, you decided to just play it through Luna's cloud streaming. After these changes, you're stuck with having to either upgrade your PC, which will likely cost hundreds, if not thousands of dollars, or you have to buy another copy of a game you already own. At least Cyberpunk 2077 <a href="https://wccftech.com/cyberpunk-2077-edgerunners-update-1-6-notes/">supports cross-progression</a>, so you could likely pick up where you left off, but it still doesn't leave you in a good place.</p>
-
-
-
-<p>Ultimately, that kind of hypothetical is not what Amazon is concerned about. It wants to keep players within the Amazon Luna ecosystem, so if you want to play something on Luna, you buy it through Luna. At least these changes won't impact the free games Amazon gives out to Prime subscribers each month.</p>
-
-			
-			
-						<div>
-									<p>
-					<strong>About the <a href="https://wccftech.com/author/davidcarcasole/">author</a>: </strong> David has been writing about videogames, technology, and culture since 2020, with a focus on reporting daily news across multiple publications, including GameDaily.Biz, GameSkinny, and PlayStation Universe before joining Wccftech in 2025. David started contributing as Canada/US reporter for Wccftech's <a href="https://wccftech.com/topic/games/">gaming</a> section in 2025. Besides being up-to-date on the industry's movements, he loves interviewing developers, reviewing games, and writing intricate essays about the symbolism and layered meanings to be found in rich narratives as he's done for publications like GamesIndustry.Biz, LostInCult, and others. Outside of games he loves movies, music, theatre, his hometown, and his family, though not necessarily in that order.				</p>				
-			</div>
-			
-			<p data-nosnippet="">
-				Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.
-			</p>
-			
-
-
-		</div></div><br/><br/>https://wccftech.com/amazon-luna-removes-third-party-game-store-purchases-and-subscriptions/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Upgrades For MTG Silverquill Influence Commander Deck]]></title>
-            <link>https://techraptor.net/gaming/features/upgrades-for-mtg-silverquill-influence-commander-deck</link>
-            <guid>1487986</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><p>Ring! Class is back in session at Strixhaven with the <em>Secrets of Strixhaven </em>set, and today we’re attending Silverquill. In particular, we’ll be studying Silverquill Influence and looking at how we can upgrade the curriculum/deck for even more fun.</p><h2>How does Silverquill Influence play?</h2><p>Silverquill Influence is a control-ish goading enchantress style of deck that makes heavy use of auras to manipulate the board. It relies a fair amount on its commander <a href="https://scryfall.com/card/soc/4/killian-decisive-mentor" rel="nofollow">Killian, Decisive Mentor </a>to keep cards flowing and to force opponents into attacking each other until you suit up one of your creatures to win the 1v1 duel at the end that you have carefully arranged.</p><h2>Silverquill Influence Commanders</h2><picture>
-                  <source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/killian-and-scriv-silverquill-influence-commanders.jpg?itok=pR-MegOz 1x" media="(min-width: 992px)" type="image/jpeg" width="860" height="600">
-              <source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/killian-and-scriv-silverquill-influence-commanders.jpg?itok=Y-fPKvOf 1x" media="(max-width: 991px)" type="image/jpeg" width="860" height="600">
-                  
-
-  </picture><p>While there may be an alternative commander in <a href="https://scryfall.com/card/soc/9/scriv-the-obligator" rel="nofollow">Scriv, the Obligator</a>, make no question that this is <a href="https://scryfall.com/card/soc/4/killian-decisive-mentor" rel="nofollow">Killian, Decisive Mentor</a>'s deck. He is really the second Orzhov enchantment focused commander, and he takes the deck down somewhat different paths than Eriette of the Charmed Apple, who is in the deck and really a better alternative commander choice for it.</p><p>Killian wants you to be dropping consistent enchantments to get goad on opposing creatures. Additionally, whenever enchanted creatures attack, you draw so you want to lean in on auras that you put on opposing creatures. Scriv is good at supporting this plan, but isn’t much for leading a deck on his own.</p><h2>Upgrading Silverquill Influence</h2><p><a href="https://scryfall.com/card/fic/44/eye-of-nidhogg" rel="nofollow"><strong>Eye of Nidhogg</strong></a></p><picture>
-                  <source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/eye-of-nidhogg.jpg?itok=1KzoDOoI 1x" media="(min-width: 992px)" type="image/jpeg" width="860" height="600">
-              <source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/eye-of-nidhogg.jpg?itok=1KU98ZMX 1x" media="(max-width: 991px)" type="image/jpeg" width="860" height="600">
-                  
-
-  </picture><p>From <a href="https://techraptor.net/tabletop/features/ranking-all-of-magic-gathering-final-fantasy-legendary-creatures-part-1" data-entity-type="node" data-entity-uuid="3e7196f0-a46a-4ecc-9455-8248303dae54" data-entity-substitution="canonical" rel="nofollow"><em>Final Fantasy </em>Commander</a>, the Eye of Nidhogg is a powerful goading enchantment similar to <a href="https://scryfall.com/card/soc/24/coercive-impetus" rel="nofollow">Coercive Impetus</a>, and <a href="https://scryfall.com/card/soc/214/ghoulish-impetus" rel="nofollow">Ghoulish Impetus</a>, both of which are already in the deck. This will pump a smaller creature, give it evasion, and force it to attack your opponents, drawing you cards with Killian, and as a cherry on top when it gets put into a graveyard, it comes back to your hand to do it again.</p><p><a href="https://scryfall.com/card/dsc/104/sphere-of-safety" rel="nofollow"><strong>Sphere of Safety</strong></a></p><picture>
-                  <source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/sphere-of-safety.jpg?itok=tU1bOyvJ 1x" media="(min-width: 992px)" type="image/jpeg" width="860" height="600">
-              <source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/sphere-of-safety.jpg?itok=WPeHT6Zo 1x" media="(max-width: 991px)" type="image/jpeg" width="860" height="600">
-                  
-
-  </picture><p>While <a href="https://scryfall.com/card/soc/146/ghostly-prison" rel="nofollow">Ghostly Prison </a>is already in Silverquill Influence, a bit more attack deterrence that isn’t goad would be good to include, and Sphere of Safety is very good at that. It scales the cost of attack to the number of enchantments you have, meaning your opponents will often be forced to pay 4, 5 or more mana to attack you with a single creature. You might also consider <a href="https://scryfall.com/card/fic/28/summon:-yojimbo" rel="nofollow">Summon: Yojimbo </a>from <em>Final Fantasy </em>for another effect of this type, though it is limited by being a saga.</p><p><a href="https://scryfall.com/card/inv/37/shackles" rel="nofollow"><strong>Shackles</strong></a></p><picture>
-                  <source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/shackles.jpg?itok=bUK_jz1W 1x" media="(min-width: 992px)" type="image/jpeg" width="860" height="600">
-              <source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/shackles.jpg?itok=evPjdhKJ 1x" media="(max-width: 991px)" type="image/jpeg" width="860" height="600">
-                  
-
-  </picture><p>Going back in time, I’m pulling up a card that I used to play casually when I started with <em>Magic: The Gathering </em>as <em>Invasion</em> was still around (I started with <em>Onslaught </em>block). Yes, I’m old, and no I’m not taking any questions about it.</p><div><p>None of that changes that Shackles is perfect for this deck as it provides a consistently returning enchantment that can also lockdown a creature if you need to do that. Because it doesn’t prevent attacks like a pacifism type, it can even go on the creature you want to goad, and then lock it down if need be. Alternatively, it can hop around on utility creatures that tap, while goading attackers, as it gives a consistent goad trigger, and card advantage with Killian.</p><p><a href="https://scryfall.com/card/ogw/81/visions-of-brutality" rel="nofollow"><strong>Visions of Brutality</strong></a></p></div><picture>
-                  <source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/visions-of-brutality.jpg?itok=HhMSe2ON 1x" media="(min-width: 992px)" type="image/jpeg" width="860" height="600">
-              <source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/visions-of-brutality.jpg?itok=15wl0Y-m 1x" media="(max-width: 991px)" type="image/jpeg" width="860" height="600">
-                  
-
-  </picture><p>Sometimes, what you want is to make things really painful for your opponents. Visions of Brutality is an option to do just that as you goad an opponent’s creature and they take damage for all the damage it does. Putting this on an opposing green stompy monster like <a href="https://scryfall.com/card/fdn/222/ghalta-primal-hunger" rel="nofollow">Ghalta</a> or an <a href="https://scryfall.com/card/inr/5/emrakul-the-promised-end" rel="nofollow">Eldrazi</a> is a way to make two of your opponents suffer massively all at once while you pull your little strings and make the game do what you want.</p><p><a href="https://scryfall.com/card/40k/45/nurgles-rot" rel="nofollow"><strong>Nurgle's Rot</strong></a></p><picture>
-                  <source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/nurgles-rot.jpg?itok=I6hBMI_J 1x" media="(min-width: 992px)" type="image/jpeg" width="860" height="600">
-              <source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/nurgles-rot.jpg?itok=Ymr6BfTe 1x" media="(max-width: 991px)" type="image/jpeg" width="860" height="600">
-                  
-
-  </picture><p>Cheap, efficient auras are at a premium in Silverquill Influence, and Nurgle’s Rot is as cheap as it gets at 1 mana. It doesn’t make the opposing creature deadlier, but it will give all the Killian, Decisive Mentor triggers, and if its designated target gets killed, you get a small chump blocker and the enchantment is back in your hand to do it again.</p><p>—<br>That’s all for this class about Silverquill Influence upgrades, but for continuing education about <em>Secrets of Strixhaven </em>commander decks, take a look at our course on the <a href="https://techraptor.net/tabletop/features/lorehold-spirit-review-and-upgrades" data-entity-type="node" data-entity-uuid="f5977267-99e5-4970-8838-8f6f7a18b027" data-entity-substitution="canonical" rel="nofollow">Lorehold Spirit upgrades</a>.</p></div><div><p><span><div>
-       
-    <p>A longtime lover of speculative fiction, in almost all its forms, Don joined TechRaptor in 2014 on a whim sending in an application as he was looking for… <a href="https://techraptor.net/author/don-parsons">More about Don</a></p>
-  </div></span></p></div></div><br/><br/>https://techraptor.net/gaming/features/upgrades-for-mtg-silverquill-influence-commander-deck]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Tiny Little Pills]]></title>
-            <link>https://remapradio.com/articles/tin/</link>
-            <guid>1487983</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-		<p><em>Bodies are weird. Nothing shocking there.</em></p><p><em>What is shocking, or at least revealing, is the way they reveal their inner weirdness over time. Things that are in your control, things that are out of your control. Things that can be in your control for a time, then out of your control later, or you can keep some part of it in your control, but all told, it's random? Is that comforting?</em></p><p><em>Prompting by Patrick having a doctor visit where he was told all the running and salads in the world won't fix his genetics, Patrick and Rob share a few stories from the pharmaceutical front lines.</em></p><hr><p><strong>Patrick: </strong>I often joke that while the sudden heart attack of my father has made me acutely nervous about the state of my heart and everything surrounding it, the fact that I care about it <em>at all </em>when my dad rarely could be bothered to give it a second thought means I’m far more likely to be taken out by, well, <em>literally anything else</em>. But that literally anything else is unknowable, while the prospect of any number of heart disease complications because of a nasty history on both sides of my family means I just keep throwing darts at heart disease and let the chips fall.</p><p>The part that frustrates me, my brother, and my mom in the years since he passed, though, is what you can control and can’t control. Heart attacks nab seemingly healthy people out of nowhere all the time. Sometimes, your number is up and shit happens. But you can also stack the deck against your favor, which is basically what my dad did when he was repeatedly warned by his doctor about taking various things more seriously. He would say the right things, of course, but when it came to making serious life-changing decisions, he’d err on the side of enjoying his life, rather than upending it. (With distance, I can respect <em>some</em> of that approach.)</p><p>I bring all of this up because while I do not deny myself a good burger or a third (or fourth) beer when the mood strikes me, I do work out regularly, emphasize salads over other meals during the week, and take other basic steps towards being whatever metrics one is told is healthy or healthy-ish as I push into my 40s. But I also had a doctor appointment in the past week where one of my cholesterol-related tests spiked enough that my doctor’s response was to immediately start me on the kind of medication that is something you’re taking daily not just today, tomorrow, or whenever the numbers look better, but this is one you’re taking <em>forever</em>.</p><p>The text accompanying the recommendation in my patient portal was almost comforting, repeatedly insisting that “this isn’t your fault” and “you are doing everything in your power” as it adds up to letting you know that, in this specific instance, the genetics gods have cursed you.</p><p>Cursed is a strong word, I guess. We all have our genetic burdens. And, in theory, this tiny pill that I’ll start taking every night brings a number on a mysterious blood test down and basically nothing in my life changes. I keep running. I keep trying to eat salads. And I keep joking to other people that something else is gonna take me out before my ticker stops going. But it is weird to be hitting an age where you start hitting markers where it’s like “well, it’s no longer about doing the good or better thing, there are just new markers in the road and the choices are limited.”</p><p>The real annoying thing is that I’m supposed to take this pill at night, right before bed. I take all my other pills—multi-vitamins and the like—in the morning, as I leave the shower. I’m already pre-emptively annoyed at how often I’m going to forget taking this, even with a phone reminder!</p><p>Anything bugging you like this these days?</p><figure><figcaption><span>Photo by </span><a href="https://unsplash.com/@hudsoncrafted?ref=remapradio.com"><span>Debby Hudson</span></a><span> / </span><a href="https://unsplash.com/?utm_source=ghost&amp;utm_medium=referral&amp;utm_campaign=api-credit"><span>Unsplash</span></a></figcaption></figure><p><strong>Rob: </strong>I had two cholesterol tests show up as mildly elevated on two tests like six months apart and my doctor put me on a statin inhibitor and that took care of the problem… <em>for now</em>. But I cannot tell you how much it changed me when my back went out about fifteen years ago now. Slipped disc that started as a slight twinge. "Hey what the hell is that? Feels like I need to pop my back but, no, that's not it. Hmm. Maybe I'll go lie down." And then three hours later, screaming in pain as I tried to get out of bed. And I'm lying there, debating the merits of simply pissing myself and the bed rather than trying to stand again because honestly it sounds less awful than that lightning bolt of pain I felt through my body and the pain is not abating so I feel like whenever I do move it's going to be worse. And for a minute I'm like, "What if this is it? What if life had a 'before' that I was living in and now I'm in the 'after?'"</p><p>And you know, once my wife called a friend of ours who was a nurse in a hospital inpatient PT wing, we got some good advice and I started to crawl out of that dark well of despair. Turns out when you have back pain like that you have to get your ass on your feet ASAP and stay on your feet as much as humanly possible, that sitting or lying down will just cause everything to stiffen up and <em>that's </em>the part that hurts so terribly. That disc was locked in place against a bundle of nerves and it was going to work itself into a better position if I kept moving around, but my instinct was to make the pain stop by getting off my feet. However, even after I recovered, I now had a cool new chronic back issue. I could manage it, I could do things that lowered the odds of it recurring, but I could not do anything to make it disappear. There really was no going back to "before" but the "after" could have been far, far worse. And someday, it probably will be.</p><p>Before I moved out to Boston I heard this interview with <a href="https://www.npr.org/transcripts/102517146?ref=remapradio.com"><u>John Mellencamp on Fresh Air</u></a> and that's where I first heard his song "Longest Days". This one verse hit me as hard as that spear of back pain a few years later:</p><p>"Nothing lasts forever</p><p>And your best efforts don't always pay</p><p>Sometimes you get sick and you don't get better</p><p>That's when life is short even in its longest days"</p><p>Now he was in his fifties when he gave this interview, and the song was inspired by something his grandmother said in her last years. But he also made the point that this wasn't new territory for him, that this wasn't a song he only wrote because he was getting up there in years. It's always been a part of his work. "Jack &amp; Diane" sounds like a poppy anthem, but the chorus is built around, "Ooh yeah life goes on / long after the thrill / of living is gone".</p><p>Cut to a few years later we're at a wedding and MK's grandmother is there and we make our greetings and ask, "How are you doing?" And she was always prickly I guess, but that day she was just a little tired of the question and the way people want older folks to perform when they ask it. To reassure us that they're doing well, that they're still with us and not going anywhere.&nbsp; So she spits us with a look and says, "I'm dying, if I'm lucky." Then she softens and explains, "At this age, honey, you're never doing well. Something happens and you just stop fully recovering and then there's something else. But it's okay. Because you also stop worrying about dying and you start wishing it would hurry up."</p><p>Now I'm on a few different medications for this, that, and the other thing. Here's the pill that helps me find the energy to get my shoes on and get the dogs out the door. Here's the pill that keeps the cholesterol at bay. Here's the thing for my reflux. But here's the thing: time was you just didn't test or treat this stuff. You'd just white-knuckle a lot of this stuff or you'd assume that you were in good shape, taking care of yourself, and you were good for another thirty years without much of a fuss and your doctor would look at you say, "Yeah nothing to worry about, Patrick! In fact you could stand to gain a few pounds!"</p><p>We're cursed with greater awareness of our mortality and infirmity because medical science is better at detecting and treating a lot of things before they land you in the back of an ambulance that's going to turn off its lights and siren as soon as it's two blocks from your house and family. But despite the fact that we're more acutely aware that the hands of the clock are sweeping towards midnight, we're incredibly lucky that in that awareness we might be able to slow their progression. But the cost is that you can't live in denial about the process of aging. You're closer to that point where life is short but the days are long. There was a time before you needed a pill, now you're in the after. If that's all you need? Brother you're going to look back at these years and say, "Damn, maybe <em>those </em>were my prime." Enjoy them.</p><figure><figcaption><span>Photo by </span><a href="https://unsplash.com/@diana_pole?ref=remapradio.com"><span>Diana Polekhina</span></a><span> / </span><a href="https://unsplash.com/?utm_source=ghost&amp;utm_medium=referral&amp;utm_campaign=api-credit"><span>Unsplash</span></a></figcaption></figure><p><strong>Patrick:</strong> The first time something like this happened, I was <em>so</em> excited because my mom was old enough to quality for the first wave of COVID-19 vaccine shots. Like, the ones where you drove out to a giant warehouse and the military was involved. </p><p>My mom has never been a confident driver and the spot was 45 minutes away, so my mom asked if I could drive her. About halfway there, I noticed that I couldn't really feel my left leg. I mean, I could <em>feel</em> it, but imagine if your foot fell asleep—except it was your whole leg. That semi-numbness was up and down my leg.</p><p>Concerning, right? <em>Concerning</em>. But we were headed to my mom's first COVID shot, so she was already anxious. Not in an anti-vaxxer sort of way, but in a pretty understandable "this is yet another set of extraordinary circumstances and it feels weird" sort of way. The last thing I was going to do was pipe up and say "hey, isn't it weird I can't feel my leg?" We didn't need the drive to get any weirder, honestly.</p><p>I dropped her off, walked around the parking lot, and the tingling sensation went away. Hooray! Except it came back when I was in the car on the drive back. I kept quiet, told my wife what was going on, and she immediately clocked it; she'd had something similar happened when she was recovering from her first pregnancy: a herniated disc. All she had to do was a few exercises, though, and the discomfort vanished entirely. When I went to a physical therapist, they were pretty clear with me: none of this is concerning now, but if you don't take physical therapy and upkeep seriously, you will eventually probably have back surgery and <em>no one </em>has a single back surgery, it's always the start of a long journey towards your next one.</p><p>Fortunately, a month of physical therapy later and it was gone. Once a year, I can feel a tightness in my back and it's time for another month of exercises, at which point it vanishes again. One time, though, I ignored the tightness and the pain I felt while trying to stand up—either out of a car or out of my chair—was so bad that it was honestly easier to fall on the floor and slowly pull myself up. Lesson learned.</p><p>Sadly, no tiny little pill for that one.</p>
-		<p><em>Patrick Klepek (he/him) is an editor at Remap. In another life, he worked on horror movie sets, but instead, he also runs&nbsp;<a href="https://crossplay.news/?ref=remap.ghost.io" rel="noreferrer"><em>Crossplay</em></a>, a newsletter about parenting and video games. You can follow him on&nbsp;<a href="https://www.twitter.com/patrickklepek?ref=remap.ghost.io" rel="noreferrer"><em>Twitter</em></a>,&nbsp;<a href="https://www.threads.net/@patrickklepek?ref=remap.ghost.io" rel="noreferrer"><em>Threads</em></a>,&nbsp;<a href="https://mastodon.social/@patrickklepek?ref=remap.ghost.io" rel="noreferrer"><em>Mastodon</em></a>, and&nbsp;<a href="https://bsky.app/profile/patrickklepek.bsky.social?ref=remap.ghost.io" rel="noreferrer"><em>Bluesky</em></a>.</em></p>
-			</div></div><br/><br/>https://remapradio.com/articles/tin/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Professor Layton and the New World of Steam gets a release window and adds PS5 and PC versions]]></title>
-            <link>https://www.eurogamer.net/professor-layton-and-the-new-world-of-steam-pc-ps5-release-window</link>
-            <guid>1487968</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
-
-
-<header data-component="article-header">
-  
-
-    
-
-
-  <p>
-
-  <figure>
-      <picture>
-        <source srcset="https://assetsio.gnwcdn.com/Professor-Layton-and-the-New-World-of-Steam_reveal-cutscene.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Professor-Layton-and-the-New-World-of-Steam_reveal-cutscene.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Professor-Layton-and-the-New-World-of-Steam_reveal-cutscene.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Professor-Layton-and-the-New-World-of-Steam_reveal-cutscene.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Professor-Layton-and-the-New-World-of-Steam_reveal-cutscene.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Professor-Layton-and-the-New-World-of-Steam_reveal-cutscene.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Professor-Layton-and-the-New-World-of-Steam_reveal-cutscene.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Professor-Layton-and-the-New-World-of-Steam_reveal-cutscene.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Professor-Layton-and-the-New-World-of-Steam_reveal-cutscene.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>Level-5</cite></span>
-        </figcaption>
-  </figure>
-  </p>
-
-    
-
-</header>
-  <div data-component="article-content">
-
-
-            <p>After an <a href="https://www.eurogamer.net/professor-laytons-new-adventure-turns-him-into-lukes-protege">early 2023 reveal</a>, <a href="https://www.eurogamer.net/games/professor-layton-and-the-new-world-of-steam">Professor Layton and the New World of Steam</a> - the next entry in the long-running puzzle adventure series - hasn't been making much noise. Today's <a href="https://www.level5.co.jp/vision2026/en/">Level-5 showcase event</a> has changed that with a new in-depth look at the game.</p> <figure>
-<p>
-<a aria-label="Professor Layton and the New World of Steam – Trailer (LEVEL5 VISION 2026 Ver.)" data-platform="youtube" href="https://www.youtube.com/embed/cP05Iaq_eP8?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
-<span>Professor Layton and the New World of Steam – Trailer (LEVEL5 VISION 2026 Ver.)</span>
-<template>
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/cP05Iaq_eP8?autoplay=1" frameborder="0" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/cP05Iaq_eP8?autoplay=1" title="Professor Layton and the New World of Steam – Trailer (LEVEL5 VISION 2026 Ver.)">
-</iframe> </template>
-</a>
-</p>
-<a href="https://www.youtube.com/watch?v=cP05Iaq_eP8" rel="noopener" target="_blank">Watch on YouTube</a></figure>
-<p>But the juiciest bits of information come from an accompanying press release. First: the game is on its way to release later in 2026. And second: many players will be happy to learn Professor Layton and the New World of Steam will also launch on PS5 and PC (Steam), alongside the previously revealed Nintendo Switch 1 &amp; 2 versions.</p>
-<p>The shift to multiplatform doesn't exactly come as a shock after <a href="https://x.com/AkihiroHino/status/2005589797172400550?s=20">Fantasy Life i: The Girl Who Steals Time delivered a huge win for Level-5 last year</a>, with more than 1.5m sales across PC, PS4/5, Xbox Series X/S, and Nintendo Switch 1/2. Also, the Professor Layton games are traditionally associated with Nintendo's handhelds and mobile phones, so PlayStation and PC versions an exciting development.</p>
-<p>Key features in New World of Steam include puzzle design by the riddles and quizzes experts of <a href="https://www.youtube.com/c/quizknock">QuizKnock</a>, a full world map, updated movement, "puzzles that help the town grow", new companions, full 3D cutscenes, <a href="https://www.eurogamer.net/platforms/switch-2">Switch 2</a> mouse support, and a "coin radar" mode. The new setting is Steam Bison, a town in America powered by revolutionary steam technology that rivals the development seen in London. There, Layton and Luke team up one year after the events of <a href="https://www.eurogamer.net/games/professor-layton-lost-future">Professor Layton and the Unwound Future</a>.</p><p>Level-5 also confirmed language support has been expanded, with English, French, Italian, German, Spanish, Japanese, Korean, Traditional Chinese, and Simplified Chinese available at launch. No word yet on a possible English dub, but <a href="https://www.gematsu.com/2026/04/professor-layton-and-the-new-world-of-steam-adds-ps5-and-pc-versions-launches-in-late-2026">the Japanese voice cast was revealed today</a> too.</p>
-
-        </div>
-
-  
-      </article>
-
-
-
-  
-
-
-
-  
-
-  <section>
-    <span>Related topics</span>
-
-    
-  </section>
-  </div></div><br/><br/>https://www.eurogamer.net/professor-layton-and-the-new-world-of-steam-pc-ps5-release-window]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Amazon Luna Drops Game Purchases, Stores, and Third-Party Subscriptions]]></title>
-            <link>https://techraptor.net/gaming/news/amazon-luna-games-stores-subscriptions</link>
-            <guid>1487953</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><p>Amazon Luna will be losing certain elements of its service going forward, the company has announced, and that includes third-party subscriptions and game purchases.</p><p>As spotted by <a href="https://x.com/Wario64/status/2042598151756849643" target="_blank" rel="nofollow">Wario64 on social media</a>, Amazon Luna's service is changing starting from today; a subscription no longer offers "game stores, individual game purchases, or third-party subscriptions". This includes signups for Ubisoft+ and Jackbox's subscription service, as well as any games you've bought from storefronts like EA Play or GOG.</p><p>If you've bought games via Luna already, you'll still be able to play them up until June 10th, at which point the games will disappear. That's right; even if you've made the purchase, you won't be able to access the games you've picked up anymore.</p><figure role="group">
-<picture>
-                  <source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/amazon-luna-stores-games-controller.jpg?itok=hUuEt-IH 1x" media="(min-width: 992px)" type="image/jpeg" width="1920" height="1080">
-              <source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/amazon-luna-stores-games-controller.jpg?itok=lAz9WidD 1x" media="(max-width: 991px)" type="image/jpeg" width="1200" height="675">
-                  
-
-  </picture>
-<figcaption>Amazon Luna's services are changing pretty dramatically.</figcaption>
-</figure>
-<p>It's not all doom and gloom, though. Depending on which platform you bought the games from, you can still access them on that platform, so if you purchased a game through EA Play, you'll just need to download the app and grab the game that way instead.</p><p>Amazon says that in place of the services that are departing, Luna is "doubling down on a broad range of gaming experiences", including third-party titles for streaming and the new Game Night feature.</p><p>It looks like some users are being offered Luna Premium subscriptions by way of "a thank you for being part of Amazon Luna", so if that's you, you'll get an email around June 10th with instructions on how to redeem your new membership.</p><p>All of this follows on from <a href="https://techraptor.net/gaming/news/amazon-luna-rework-later-this-year" rel="nofollow">a major rebrand</a> for Amazon Luna that saw the service pivot towards party games like the upcoming <a href="https://techraptor.net/gaming/news/masters-of-universe-movie-tie-in" data-entity-type="node" data-entity-uuid="5ea7cccf-36db-4f2f-8c48-6d6640663ff6" data-entity-substitution="canonical" rel="nofollow"><em>Masters of the Universe </em>tie-in</a>, as well as more casual fare rather than the core titles on which it previously focused (although many of those are still available with a membership).</p>
-<p>You can sign up for Amazon Luna via <a href="https://luna.amazon.co.uk/home?g=s" target="_blank" rel="nofollow">the service's official website</a> (but be aware it no longer offers third-party subscriptions or game purchases).</p></div><div><p><span><div>
-       
-    <p>Joe has been writing for TechRaptor for several years, and in those years has learned a lot about the gaming industry and its foibles. He’s originally an… <a href="https://techraptor.net/author/joseph-allen">More about Joseph</a></p>
-  </div></span></p></div></div><br/><br/>https://techraptor.net/gaming/news/amazon-luna-games-stores-subscriptions]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[While it plays its roguelike autobattling safe, Skull Horde does put a smile on my flaming skeleton head]]></title>
-            <link>https://www.rockpapershotgun.com/while-it-plays-its-roguelike-autobattling-safe-skull-horde-does-put-a-smile-on-my-flaming-skeleton-head</link>
-            <guid>1487950</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
-
-
-<header data-component="article-header">
-  
-
-    
-
-
-  <p>
-
-  <figure>
-        <picture>
-        <source srcset="https://assetsio.gnwcdn.com/Skull-Horde-team-spawn.jpeg?width=380&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Skull-Horde-team-spawn.jpeg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Skull-Horde-team-spawn.jpeg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Skull-Horde-team-spawn.jpeg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Skull-Horde-team-spawn.jpeg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Skull-Horde-team-spawn.jpeg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Skull-Horde-team-spawn.jpeg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Skull-Horde-team-spawn.jpeg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Skull-Horde-team-spawn.jpeg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>Rock Paper Shotgun/8BitSkull</cite></span>
-        </figcaption>
-
-  </figure>
-  </p>
-
-    
-
-</header>
-  <div data-component="article-content">
-
-
-            <p><a href="https://www.rockpapershotgun.com/games/skull-horde">Skull Horde</a>, the dungeon-crawling, minion-raising autobattler from <a href="https://www.rockpapershotgun.com/games/bore-blasters">Bore Blasters</a> devs 8BitSkull, is out today. I like, it, mostly – maybe not as much as Alice B (RPS in peace) <a href="https://www.rockpapershotgun.com/bore-blasters-review">appreciated</a> its predecessor’s helicopter-mining, but then there’s enough meat on Skull Horde’s magic bones to distinguish it as more than just another <a href="https://www.rockpapershotgun.com/games/vampire-survivors">Vampire Survivors</a> reanimation.</p>
-<p>As the decapitated head of an expired necromancer, you won’t be doing the monsterslaying yourself: that’s what your growing army of equally gross minions is for. On each stage of a run, you’ll invest in new underlings (with trios of each type combining into single, more powerful units) who’ll automatically start poking pikes and flinging arrows at nearby enemies, while you focus on gathering upgrade-o-loot and trying to find the portal to the next stage before an ever-rising threat level sends in more demons than your skelly squad can handle.</p>
-<p>I’m a couple of hours in at the moment, and so far Skull Horde does appear happy to simply be the sum of its influences. Besides the structural similarities to any given <a href="https://www.rockpapershotgun.com/games/diablo-ii">Diablo II</a> Necromancer playthrough, the pixelly baddie waves and rapid onslaught of upgrade pickups are pure VampSurvs, and its roguelike tendencies are conventionally presented through heavily randomised runs and the fallback of permanent talent trees for each of its skull variants. Even the heavy metal soundtrack has more than a whiff of <a href="https://www.rockpapershotgun.com/games/hades">Hades</a> to it.</p>
-<figure>
- 
-
-
-<figcaption><span>Image credit: <cite>Rock Paper Shotgun/8BitSkull</cite></span></figcaption>
-</figure>
-<p>Even if this is familiar ground, mind, there’s plenty of space to tread. Countless minion combinations and pick-and-mix item builds do, genuinely, make each run feel distinct, and the fact that these are your only means of survival – you can’t compensate for a dodgy loadout with any fighting or movement skills of your own – encourages you to engage with, and appreciate, the systems’ depth. I’ve completed or near-missed multiple runs (easier ones can be cleared in under 15 minutes) and I’m still nowhere near to having a favourite item strat or team composition, given how much experimentation there’s left to be done. Except damage-returning Thorn builds, actually. Thorn builds rock.</p><p>Not all convention is dull, either. I’m not sure that Skull Horde achieves the same level of brain-massaging SFX dingfests as the true autobattler/autoshooter greats, but it’s still a fast-past, high-output producer of positive feedback pops and chimes, while never taking more than a few seconds to feed you some tasty new upgrade or minion recruit. Oh, Skull Horde, you know just what I like. It’s out now on <a href="https://store.steampowered.com/app/3199360/Skull_Horde/">Steam</a>.</p>
-</div>
-
-      </article>
-
-  
-
-
-
-        
-  </div></div><br/><br/>https://www.rockpapershotgun.com/while-it-plays-its-roguelike-autobattling-safe-skull-horde-does-put-a-smile-on-my-flaming-skeleton-head]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[MOUSE: P.I. for Hire ‘Meet the Cast’ trailer]]></title>
-            <link>https://www.gematsu.com/2026/04/mouse-p-i-for-hire-meet-the-cast-trailer</link>
-            <guid>1487944</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-    <ul>
-    <li><a href="https://www.gematsu.com/platforms/pc">PC</a></li><li><a href="https://www.gematsu.com/platforms/playstation/ps4">PS4</a></li><li><a href="https://www.gematsu.com/platforms/playstation/ps5">PS5</a></li><li><a href="https://www.gematsu.com/platforms/nintendo/switch">Switch</a></li><li><a href="https://www.gematsu.com/platforms/nintendo/switch-2">Switch 2</a></li><li><a href="https://www.gematsu.com/platforms/xbox/xbox-one">Xbox One</a></li><li><a href="https://www.gematsu.com/platforms/xbox/xbox-series">Xbox Series</a></li>    </ul>
-
-    
-    <p><span>Troy Baker, Wanda Fuller, Tammy Tumbler, and more.</span>
-      </p></div><div><p><a title="Companies > PlaySide Publishing [8 articles]" href="https://www.gematsu.com/companies/playside-studios/playside-publishing">PlaySide Publishing</a> and developer <a title="Companies > Fumi Games [8 articles]" href="https://www.gematsu.com/companies/fumi-games">Fumi Games</a> have released a new trailer for&nbsp;noir cartoon-inspired <a title="Genres > First-Person Shooter [2,868 articles]" href="https://www.gematsu.com/genres/shooter/fps">first-person shooter</a> <em><a title="Games > MOUSE: P.I. for Hire [9 articles]" href="https://www.gematsu.com/games/mouse-pi-for-hire">MOUSE: P.I. for Hire</a></em> introducing the game’s voice cast. <span id="more-1040094"></span></p><p>The cast includes:</p><blockquote><ul><li>Troy Baker leads the charge as the extra sharp main protagonist Jack Pepper, a former war hero-turned-detective taking on the most foolish of cases to pay off his debts.</li><li>Wanda Fuller, played by Florian Clare, is Mouseburg’s resident journalist always hunting for a story and readying to expose the corruption festering in the city.</li><li>The intelligent and resourceful Tammy Tumbler stars Camryn Grimes, serving as Jack’s right-hand by tinkering with inventions and helping upgrade his weapons.</li><li>Fred Tatasciore plays John Brown, local proprietor of the Little &amp; Big pub in the heart of Mouseburg and overall titan of hard work.</li><li>Frank Todaro as Cornelius <a title="Games > Stilt" href="https://www.gematsu.com/games/stilt">Stilt</a>on, a calculating mouse who found his natural home as a politician, leveraging his connections to provide Jack with essential information throughout the story.</li></ul></blockquote><p><em>MOUSE: P.I. for Hire</em> is due out for <a title="Platforms > PS5 [11,514 articles]" href="https://www.gematsu.com/platforms/playstation/ps5">PlayStation 5</a>, <a title="Platforms > Xbox Series [8,796 articles]" href="https://www.gematsu.com/platforms/xbox/xbox-series">Xbox Series</a>, <a title="Platforms > Switch 2 [1,049 articles]" href="https://www.gematsu.com/platforms/nintendo/switch-2">Switch 2</a>, and <a title="Platforms > PC [25,613 articles]" href="https://www.gematsu.com/platforms/pc">PC</a> via <a href="https://store.steampowered.com/app/2416450/MOUSE/" target="_blank" rel="noopener">Steam</a>, <a href="https://www.xbox.com/en-us/games/store/mouse-pi-for-hire/9p7522hwd0nh" target="_blank" rel="noopener">Microsoft Store</a> on April 16, followed by <a title="Platforms > PS4 [28,737 articles]" href="https://www.gematsu.com/platforms/playstation/ps4">PlayStation 4</a>, <a title="Platforms > Xbox One [14,418 articles]" href="https://www.gematsu.com/platforms/xbox/xbox-one">Xbox One</a>, and <a title="Platforms > Switch [18,382 articles]" href="https://www.gematsu.com/platforms/nintendo/switch">Switch</a> at a later date.</p><!-- AD: content -->
-        <p>Watch the trailer below.</p><h2><span>Meet the Cast</span></h2><p><iframe title="MOUSE: P.I. For Hire | Meet The Cast" width="500" height="281" src="https://www.youtube.com/embed/WMiyuijF2rs?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p></div></div><br/><br/>https://www.gematsu.com/2026/04/mouse-p-i-for-hire-meet-the-cast-trailer]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[The Long Dark's Final Episode Brings Story And Survival Together]]></title>
-            <link>https://aftermath.site/long-dark-wintermute-episode-5-review/</link>
-            <guid>1487938</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><article>
-      <p>Wintermute, the narrative part of survival game <em>The Long Dark</em>, released its fifth and final episode last week, nearly <a href="https://kotaku.com/the-long-darks-new-story-has-problems-but-the-game-is-1797685109?ref=aftermath.site"><u>10 years</u></a> after the beginning of the story first premiered. This week, I received a Kickstarter update for the game, which I backed in 2013, telling me that studio Hinterland “now consider our promise to deliver the game complete.” I was surprised both to receive an update for a Kickstarter I’d honestly forgotten about, and to imagine a world where <em>The Long Dark </em>could ever be considered finished.</p><p>Wintermute’s story episodes might have been far between, but Hinterland has been consistently adding new things to the survival sandbox, including a small narrative as part of paid DLC. The studio hasn’t said what, if anything, from the latest story episode will make its way to survival, but I and many other players assume it will be <em>something</em>, because it feels like there’s always <em>something </em>coming to the game: a new area, a new mechanic, some tweak that puts wolves where you wish there weren’t wolves or makes the snow look nicer. Hinterland is working on a multiplayer sequel, but even then it’s hard to imagine the book being fully closed on a game that’s been a staple of my game-playing life for the last 13 years, even as I think it’d be more than fair for the developers to be ready to move on to new things.&nbsp;</p><p>I’ve never been the biggest fan of Wintermute: I was first drawn to <em>The Long Dark</em> for its promises of cold weather and granular survival mechanics rather than any story set in that world. I’ve called the story a good place for newcomers to learn some of the game’s maps and mechanics, which can be difficult to wrap your head around against the requirements of survival. But Wintermute<em> </em>also does a good job explaining some of survival’s place-names and giving you context for the geomagnetic storm that sets up its premise. And it’s largely risen to the challenge of merging survival gameplay with its narrative, telling a story that still has the unique, slow feel that I love about <em>The Long Dark</em>.</p><p>The core premise of the five episodes is that doctor Astrid Greenwood asks her ex-husband Will Mackenzie to fly her to a remote location called Perseverance Mills to deliver some medicine secreted in a hard case, when their plane comes down during an aurora and they’re separated. Will has to find Astrid, while Astrid continues on her mysterious mission, all while the both of them face the harsh environment of the northern Canadian wilderness and threats from various other survivors. The first two episodes, released in 2017, were heavy on Will being sent on fetch-and-gather quests for NPCs that sometimes felt at odds with the game’s survival needs and pace, and players chafed against it so much that in 2018, Hinterland <a href="https://www.thelongdark.com/news/episodes-one-and-two-redux-survival-mode-update/?ref=aftermath.site"><u>overhauled</u></a> the two episodes and released a “redux” version to address some of their complaints. This was followed by a <a href="https://kotaku.com/the-long-darks-third-episode-gives-you-people-to-live-f-1839268049?ref=aftermath.site"><u>third episode</u></a> in 2019 starring Astrid, which felt to me like it really got the balance of story and survival right, and a fourth in <a href="https://thelongdark.fandom.com/wiki/Episode_4:_Fury,_Then_Silence?ref=aftermath.site"><u>2021</u></a> where you play as Will again.</p><p>I’ll be honest that I haven’t played episode 4, opting instead to watch a <a href="https://www.youtube.com/watch?v=mgcdR12Xnds&amp;ref=aftermath.site"><u>playthrough</u></a> right before the release of episode 5. This was partly due to time constraints, and partly because episode 4’s antagonists are escaped convicts from the game’s Blackrock prison. As someone who’s worked with incarcerated people and as a chaplain in a Boston jail, I’ve never felt totally comfortable with narratives like this, even if the game sets up that people in Blackrock have committed particularly heinous crimes. Convict ringleader Mathis is played immensely well by Elias Toufexis, and the convicts drive a lot of episode 5’s urgency.</p><p><strong>(Spoilers for Wintermute<em> </em>episode 5 follow, though I try to keep it vague.)</strong></p><figure><iframe width="200" height="113" src="https://www.youtube.com/embed/Y4zYI5MyQQU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="" title="THE LONG DARK-- WINTERMUTE, Episode Five -- &quot;THE LIGHT AT THE END OF ALL THINGS&quot; -- Launch Trailer"></iframe></figure><p>Luckily for me, while the convicts play a big role in episode 5’s story, much of the actual gameplay doesn’t have a ton to do with them, or features them without focusing on them too much. You begin the story as Astrid finally arriving at Perseverance Mills, and you’re swiftly sent out into a big new wilderness that’s tense to explore. The next part of this section features another new, creepy environment, and it all feels like the blend of exploration and story that Wintermute<em> </em>is uniquely challenged with but often gets right.&nbsp;</p><p>When you’re Will again, you navigate a mine with some puzzles that call back to episode 4, and even if I had to start this chapter again due to <a href="https://aftermath.site/video-game-save-files/"><u>bad save choices</u></a>, and then a few more times in the mine due to <a href="https://www.reddit.com/r/thelongdark/comments/1sg9h6f/episode_five_hotfix_1_just_dropped_and_its_a_big/?ref=aftermath.site"><u>technical issues that are now patched</u></a>, it’s an interesting section, further developing Will’s relationship with another scientist and giving you a companion to explore the game’s world with. It’s all pretty linear, and that linearity defines much of the rest of the episode, where Will and then Astrid are essentially funneled down corridors full of uniquely nasty enemies. I found these sections tough in a good way, with their own particular pressures and challenges that forced me to rely on my own decision-making even if most everything was set out for me. But they also tamper with some of <em>The Long Dark</em>’s essential mechanics and rhythms in a way that has rankled some players, who see them as counter to the core, open spirit of the game.</p><p>Hinterland was clear that <a href="https://www.thelongdark.com/news/dev-diary-march-2026/?ref=aftermath.site"><u>episode 5 would be focused on wrapping up the story</u></a>; it knows what it wants to tell you, and has designed the episode to make sure you experience that rather than letting you get there in the personal, freeform way players define for themselves in survival. It feels <em>different </em>from what I expect <em>The Long Dark </em>to be, but this has always been one of the tricky things about handing a narrative to players who might have tens to thousands of hours of doing whatever they want in a survival sandbox. There’s a vocal number of players on the subreddit who feel angry and betrayed by some of the things episode 5 does, and this conflict touches on one of the interesting things the game has <a href="https://kotaku.com/inside-the-long-dark-1840052958?ref=aftermath.site"><u>long grappled with</u></a>: how to navigate the line between what players want and the game and story Hinterland wants to create, whether that’s how the story episodes work or what’s present in survival. How does a game that promises so much freedom, whose sandbox is predicated on players forging their own objectives and being (<a href="https://thelongdark.fandom.com/wiki/Trader?ref=aftermath.site"><u>more or less</u></a>) the only person in the world, adequately prepare players for the <em>opposite</em> experience, one where the developers are doing their own thing and it’s the player who’s along for the ride?&nbsp;&nbsp;&nbsp;</p><p>I’ve been surprised by some of the ire I’ve seen on the game’s subreddit, even as I don’t disagree with some of the criticism. This kind of discourse is nothing new in games, but it feels to me like it takes a particular tenor around <em>The Long Dark</em>. The game had a long early access period, and the episodes 1 and 2 redux and the constant updates to the survival sandbox have all, not totally incorrectly, given some players a sense of ownership over the game. But how far does a player community’s feedback extend? How does, and how much should, a developer please a playerbase that has, impressively, helped keep an indie studio with one relatively niche game in business for 13 years while still staying true to its own vision?&nbsp;&nbsp;</p><p>I think <em>The Long Dark </em>itself plays with this tension in the sandbox, casting you as a lone survivor as many similar games do but then bucking the trend of letting you come to dominate the natural world. The most common advice to new players is to get comfortable with dying a lot. You can’t build shelter outside of temporary snow huts from cloth and sticks; your gear degrades and your food goes bad and wounded animals run off with your arrows; it’s possible for a blizzard or wild animal attack to end your run no matter how well-equipped you are. There are plenty of high-level players who can survive forever, but it’s through their own skill and knowledge rather than through any increasing power the game gives you. <em>The Long Dark </em>is about doing what you can with the situation in front of you; it’s not a power fantasy, despite its setup. You can survive in its world, but that world will never belong to you.&nbsp;</p><p>So on the one hand you’d think players who felt the story didn’t do what they wanted it to would be primed to engage with it on its on own terms, but on the other hand I can see how years of making their own game-within-the-game and of developers responding to their feedback would give them a personal-feeling stake in how things play out. It’s another sign of the challenge Hinterland set itself by creating these two vastly different pieces of the game, and of releasing them at such a different pace.&nbsp;</p><p>This conflict between survival and story also feels present in the note episode 5 ends on. It takes a bit of a logic-defying leap to get there that’s been the focus of some players’ disappointment, though I saw this as not so out of step with how plenty of media deals with challenges that are more practical than they are narrative. The final note the story hits is about how its characters will come together or not to face the future, focusing more on their relationships than the game’s frozen setting, and leaving Wintermute<em> </em>on a question for the player about their own behavior in times of crisis.&nbsp;</p><p>“How will we survive? As individuals, as a species? Will we? Should we?” the game’s final voiceover asks. “When push came to shove and we were tested, was this really the best we could do?”</p><p>It’s a different embodiment of the question asked of players in survival, where their “best” is a question about living in the natural world rather than the human one. But while <em>The Long Dark </em>is on its face a man-versus-nature tale, the survival sandbox doesn’t cast nature as an enemy in the way the story characters do the convicts. You find your place in nature in survival; in Wintermute’s ending, characters find their places in the new society that’s forming.</p><p>This question of human togetherness is an interesting one for a game whose practical bulk is about being alone. I’ve written before that one of the reasons I bounce off Wintermute<em> </em>is that it just feels weird to have <em>people </em>in the places I’m so used to being alone in. But even as the only human character, people are always present in the survival game: in their actual bodies frozen in the snow, in the things they left behind, in the names of places that pop up on your screen when you discover them. Even before people lived in the Pleasant Valley town of Thomson’s Crossing in Wintermute<em> </em>episode 3, they felt present to me in survival as I set up a solo existence in a place designed for multiple people. Abandoned canneries and mines hint at lost work; deer blinds and hunting cabins hint at recreation that I now use for my own survival. The solitude of the sandbox counter-intuitively makes people feel closer, and, for me, Wintermute’s ending brought into focus this feeling that I often have in survival but rarely look directly at.</p><p>In my real life, I’ve had this same feeling on my solo bike trips: the way traveling alone on a road made for cars makes me more aware of the man-made contours of civilization, the way social interactions take on new meaning when I encounter strangers without the mediation of society. The size and speed of the world changes when I’m navigating it under my own power, and I become aware of how much I depend on others but also how much I can do on my own, how the rhythms of train schedules or the price of gas are just human things layered atop the actual rocks and grass of the Earth. But I’ve also been rescued by friends and strangers when my own abilities failed me, or encountered people on their own adventures or living in the margins that gave me bigger insight into the human world. Both are different experiences of how people live and how we live together, a reminder of the unlikeliness and fragility of all of us being here at the same time.&nbsp;</p><p>Both Wintermute<em> </em>and survival capture different notes of this. <em>The Long Dark </em>is a game I go to when I’m feeling overwhelmed by people or life and just want to feel <em>alone </em>somewhere. But it’s also a game I go to when I’m lonely, where its rhythms and solitude help me reconnect with the fundamentals all people share living in the world. In its ending, Wintermute brings together both these feelings, exploring how the line between being alone and being together can be thinner than we sometimes think.</p><p>Wintermute’s ending feels like an obvious setup for upcoming sequel <a href="https://store.steampowered.com/app/1586260/BLACKFROST_The_Long_Dark_2/?ref=aftermath.site"><em><u>Blackfrost</u></em></a>, which the studio says will feature both solo and co-op play. But it also doesn’t feel like the end of <em>The Long Dark</em>– studio founder Raphael van Lierop told <a href="https://www.eurogamer.net/long-dark-wintermute-episode-five-release?ref=aftermath.site"><u>Eurogamer</u></a> that episode 5’s release is “not <em>the</em> end, but also <em>an</em> end.” It feels strange to me to be able to look at the game as some kind of whole, even if just last night I was watching videos about in-game areas I’ve yet to see despite my hundreds of hours in its world. It’s a game I don’t imagine ever being done with, even if its story is finally complete.&nbsp; </p>
-    </article></div><br/><br/>https://aftermath.site/long-dark-wintermute-episode-5-review/]]></content:encoded>
+ <p><span>The roster of recruitable Pokémon changes each day, unless you use Quick Coupons or Victory Points to re-roll. So not only is </span><a href="https://kotaku.com/pokemon-shiny-hunting-odds-red-blue-moltres-crystal-2000669729"><span>Shiny hunting</span></a><span> time-consuming in </span><i><span>Champions</span></i><span>, it’s expensive if you want to cycle through more than one group of Pokémon a day. The wrinkle to all of this is that, should you find a Shiny Pokémon in </span><i><span>Champions</span></i><span>, you can’t take them to other games. Pokémon you recruit in the game are nontransferable to </span><i><span>Pokémon Home</span></i><span>, which means that they will be stuck in the battle sim forever, unless Game Freak and company patch that restriction out. So while you should probably grab any Shiny that shows up in your recruitment cycles, because they do seem to be as rare as they’ve ever been, maybe save yourself the headache of making </span><i><span>Champions</span></i><span> your primary Shiny hunting game. Still, I would not be surprised if we hear that some very determined player has completed a Shiny Pokédex in </span><i><span>Champions</span></i><span> years down the line. Shiny collectors remain </span><a href="https://kotaku.com/pokemon-battle-revolution-shiny-hunting-costumes-kyogre-2000667344"><span>the sickest among us</span></a><span>.</span></p>
+                          </div></div><br/><br/>https://kotaku.com/pokemon-champions-shiny-hunting-recruit-quick-coupons-2000686716]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
