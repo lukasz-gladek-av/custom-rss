@@ -4,23 +4,51 @@
         <title>maGaming RSS Feed - arstechnica.com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica.com</description>
-        <lastBuildDate>Wed, 08 Apr 2026 19:30:49 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Apr 2026 17:18:03 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Steam client files point to "framerate estimator" feature in the works]]></title>
-            <link>https://arstechnica.com/gaming/2026/04/steam-client-files-point-to-framerate-estimator-feature-in-the-works/</link>
-            <guid>1485685</guid>
+            <title><![CDATA[What is "SteamGPT"? Leaked files point to AI-powered Valve security review system.]]></title>
+            <link>https://arstechnica.com/gaming/2026/04/what-is-steamgpt-leaked-files-point-to-ai-powered-valve-security-review-system/</link>
+            <guid>1488019</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
                       
                       
-          <p>Back in February, Valve gave Steam client beta users the option to <a href="https://store.steampowered.com/news/group/4397053?emclan=103582791433918461&amp;emgid=505101717860253962">share anonymized framerate data and hardware information</a> with the company to “help us learn about game compatibility and improve Steam.” Now, new text buried in a recent Steam client update suggests Valve is preparing to use this data to power a “framerate estimator” tool in the future.</p>
-<p>As noted in <a href="https://github.com/SteamTracking/SteamTracking/commit/5633dc3b5344269340a49b4b4f1e3a7b59c08c9a">SteamTracking’s automated Steam client change notes</a> (and picked up by some <a href="https://www.resetera.com/threads/apparently-soon-you-will-be-able-to-get-estimated-fps-for-games-on-steam-store-based-on-your-specs.1482319/">forum</a> and <a href="https://x.com/LambdaGen/status/2040459980805914805">social media</a> users), the April 3 Steam client update contains explicit references to a “Framerate Estimator” in a store UI JSON file. A subheader listed in that file describes the ability to “Select an App and a PC config to get a chart of estimated framerates, based on the framerates of other Steam users.”</p>
-<p>Based on the inputs referenced in the JSON data, it looks like generated framerate estimates will be based on CPU, GPU, and system RAM levels selected by the user (or saved as a hardware configuration in the Steam client) rather than any sort of automated system scanning software. Users will be able to see per-game frame rate estimates as well as the “Number of matching training… entries” those estimates are based on for that game and/or the applicable CPU/GPU.</p>
+          <p>These days, it seems like every tech company and their corporate parent is looking to squeeze AI tools and features into their products, whether they’re wanted or not. So when files with names and functions referencing a “SteamGPT” appeared in a recent Steam client update, Valve watchers <a href="https://x.com/gabefollower/status/2041616788178256245#m">took quick notice</a>.</p>
+<p>From the outside, it’s hard to tell precisely what form any such “SteamGPT” would take. But looking through variable names and references in the files themselves suggests that Valve may be looking to use AI tools to streamline internal evaluations of in-game incidents and sift through potentially suspicious accounts.</p>
+<h2>Looking at the variables</h2>
+<p>As tracked by <a href="https://github.com/SteamTracking/SteamTracking/tree/a376b60d49bdd00f18391c17ceb82a8a53c5276b">the automated SteamTracking GitHub project</a>, the term “SteamGPT” appears multiple times in <a href="https://github.com/SteamTracking/SteamTracking/blob/a376b60d49bdd00f18391c17ceb82a8a53c5276b/ProtobufsWebui/service_steamgptrenderfarm.proto">three</a> <a href="https://github.com/SteamTracking/SteamTracking/blob/a376b60d49bdd00f18391c17ceb82a8a53c5276b/ProtobufsWebui/service_steamgptsummary.proto">separate</a> <a href="https://github.com/SteamTracking/SteamTracking/blob/a376b60d49bdd00f18391c17ceb82a8a53c5276b/ProtobufsWebui/service_steamgpt.proto">files</a> added in the April 7 Steam client update. In addition to the SteamGPT naming convention—a seemingly obvious reference to the <a href="https://www.ibm.com/think/topics/gpt">generative pre-trained transformers</a> popularized by ChatGPT and its ilk—the files include mentions of terms like multi-category inference, fine-tuning, and “upstream models” that point to some sort of generative AI system.</p>
+<p>What might that AI be used for? Well, the files contain multiple references to a labeler and “labeling tasks,” working with arguments identifying a “problem” and “subproblem” and looking at an “evaluation_evidence_log” related to a specific “matchid.” Together with mentions of a “logs_to_inference” metamodel, that sounds like it could be a hook into a system for automatically generating labels to categorize the <a href="https://help.steampowered.com/en/faqs/view/2F3F-25EE-2AC6-30E7">various incident reports</a> made in Steam multiplayer games.</p>
+<figure>
+    <div id="caption-2149497"><p>
+              A SteamGPT function makes references to numerous security features.
+                              </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      A SteamGPT function makes references to numerous security features.
+
+              <span>
+          Credit:
+
+                      <a href="https://github.com/SteamTracking/SteamTracking/blob/a376b60d49bdd00f18391c17ceb82a8a53c5276b/ProtobufsWebui/service_steamgptsummary.proto#L3" target="_blank">
+          
+          SteamTracking / Github
+
+                      </a>
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>Another portion of the SteamGPT files hints that Valve might use AI tools to summarize suspicious activity history or patterns in potentially fraudulent Steam accounts. A number of “SteamGPTSummary” functions include references to <a href="https://help.steampowered.com/en/faqs/view/571A-97DA-70E9-FF74">VAC bans</a>, <a href="https://help.steampowered.com/en/faqs/view/06B0-26E6-2CF8-254C">Steam Guard</a>, and <a href="https://help.steampowered.com/en/faqs/view/01DE-9E83-B094-313B">account lockdowns</a>. These functions also seem to look at evidence such as email addresses (“high_fraud_email”), use of advanced security features (“two_factor”), and where a linked phone number originates (“phone_country”) to help determine whether an account is on the up-and-up. There are also a few references here to an account’s <a href="https://help.steampowered.com/en/faqs/view/00EF-D679-C76A-C185">trust score</a>, which is already used to help secure matchmaking in games like <em>Counter-Strike 2</em>.</p>
 
           
                       
-                  </div></div><br/><br/>https://arstechnica.com/gaming/2026/04/steam-client-files-point-to-framerate-estimator-feature-in-the-works/]]></content:encoded>
+                  </div></div><br/><br/>https://arstechnica.com/gaming/2026/04/what-is-steamgpt-leaked-files-point-to-ai-powered-valve-security-review-system/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
