@@ -4,13 +4,13 @@
         <title>maGaming RSS Feed - wccftech.com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech.com</description>
-        <lastBuildDate>Wed, 15 Apr 2026 15:28:19 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Apr 2026 19:31:41 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Todd Howard Defends Starfield: “The Beginnings of Elder Scrolls and Fallout Were a Little Bit the Same”]]></title>
-            <link>https://wccftech.com/todd-howard-defends-starfield-elder-scrolls-fallout-divisive/</link>
-            <guid>1491883</guid>
+            <title><![CDATA[RE Engine Path Tracing Deep Dive: SER, ReSTIR GI, and DLSS RR Integration in Resident Evil Requiem & PRAGMATA]]></title>
+            <link>https://wccftech.com/re-engine-path-tracing-ser-restir-gi-dlss-rr/</link>
+            <guid>1492327</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
 
 			
@@ -19,23 +19,123 @@
 			
 			
 			
-			<p>In a roundtable interview <a href="https://www.gamesradar.com/games/rpg/todd-howard-agrees-starfield-is-creatively-different-than-bethesdas-usual-rpgs-but-says-the-elder-scrolls-and-fallout-were-also-divisive-early-on/" type="link" id="https://www.gamesradar.com/games/rpg/todd-howard-agrees-starfield-is-creatively-different-than-bethesdas-usual-rpgs-but-says-the-elder-scrolls-and-fallout-were-also-divisive-early-on/" target="_blank" rel="noreferrer noopener">attended by Gamesradar</a>, <strong>Bethesda Game Studios' Todd Howard</strong> defended the developer's latest titles, <strong>Starfield</strong> and <strong>Fallout 76</strong>. When one of the interviewers pointed out that they were more divisive among gamers than all-time classics like <strong>The Elder Scrolls V: Skyrim</strong>, Howard suggested that even the early stages of now-acclaimed franchises like Elder Scrolls and Fallout were a bit divisive, until the franchises found their groove and a dedicated audience. The game designer also noted that both Starfield and Fallout 76, <strong>the studio's first sci-fi game and first multiplayer game</strong>, have eventually found their niches.</p>
+			<p>Following the recent debut of <strong><a href="https://wccftech.com/roundup/pragmata-everything-we-know-about-capcoms-new-sci-fi-action-game/" type="link" id="https://wccftech.com/roundup/pragmata-everything-we-know-about-capcoms-new-sci-fi-action-game/" target="_blank" rel="noreferrer noopener">PRAGMATA</a></strong> and <strong><a href="https://wccftech.com/roundup/resident-evil-requiem-everything-we-know-about-the-new-game-in-capcoms-beloved-horror-franchise/" type="link" id="https://wccftech.com/roundup/resident-evil-requiem-everything-we-know-about-the-new-game-in-capcoms-beloved-horror-franchise/" target="_blank" rel="noreferrer noopener">Resident Evil Requiem</a></strong>, the first two <strong>RE Engine</strong> games to support path tracing, <strong>CAPCOM's GDC 2026</strong> presentation titled '<strong><em>Real-Time Path Tracing in RE ENGINE for Resident Evil Requiem and PRAGMATA</em></strong>' is well worth exploring.</p>
 
 
 
-<p><em>If you look back at the beginning of Elder Scrolls, the beginning of Fallout, they're a little bit the same. And then, you find an audience that loves that. So, I think it's true that Fallout 76 and Starfield, clearly, they're creatively different than what we had done. And we really wanted to do that. When you're doing a certain type of thing for, in my case, 20 years, we want to try some other things and learn from that. We have ideas that we want to get out there. We're fortunate those games have found, in the scheme of things, giant audiences that let us keep doing things in them.</em></p>
+<p>The presentation is available <a href="https://www.youtube.com/watch?v=Gq1QdlQSzn0" type="link" id="https://www.youtube.com/watch?v=Gq1QdlQSzn0" target="_blank" rel="noreferrer noopener">on the NVIDIA Game Developer YouTube channel</a>, and that's no coincidence: NVIDIA helped a great deal with the addition of path tracing to CAPCOM's engine. Indeed, the two speakers were <strong>Hitoshi Mishima</strong> from CAPCOM's RE Engine team, who covered the architectural and artistic implementation, and <strong>Calvin Shu</strong>, a NVIDIA GeForce developer technology engineer who covered the low-level GPU performance optimization for Resident Evil Requiem and PRAGMATA.</p>
 
 
 
-<p><em>Even though they (Starfield and Fallout 76) are a bit off the core path of the single-player games that we have been doing, we're just fortunate to have the success that we've had with them.</em></p>
+<p>On CAPCOM's side, the implementation was handled primarily by <strong>Kenta Nakamoto</strong> and <strong>Kosuke Nabata</strong>, <span>who completed it in approximately&nbsp;<strong>one and a half years</strong></span>. The system is tightly integrated with <strong>NVIDIA DLSS Ray Reconstruction</strong>, which handles denoising and is essential for achieving acceptable real-time performance, which effectively limits path tracing to NVIDIA GeForce RTX hardware in these two games.</p>
 
 
 
-<p>Starfield recently <a href="https://wccftech.com/starfield-freelanes-terran-armada-ps5-april-7-everything-new/" type="link" id="https://wccftech.com/starfield-freelanes-terran-armada-ps5-april-7-everything-new/" target="_blank" rel="noreferrer noopener">received</a> the Free Lanes update and Terran Armada DLC, which helped it <a href="https://steamdb.info/app/1716740/charts/#1m" type="link" id="https://steamdb.info/app/1716740/charts/#1m" target="_blank" rel="noreferrer noopener">more than triple the concurrent user peak on Steam</a> compared to the previous week. However, probably due to the PS5 crash and freeze issues that several players have reported, it has <a href="https://wccftech.com/starfield-ps5-launch-estimated-140k-copies-sold/" type="link" id="https://wccftech.com/starfield-ps5-launch-estimated-140k-copies-sold/" target="_blank" rel="noreferrer noopener">seemingly sold fewer copies than anticipated</a> for such a big (albeit late) release.</p>
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/04/RE-Engine-PT-Pipeline-scaled.jpg"></a></figure>
 
 
 
-<p>As for Fallout 76, that game <a href="https://wccftech.com/fallout-76-reaches-21-million-players-asks-for-labor-of-love-nominations/" type="link" id="https://wccftech.com/fallout-76-reaches-21-million-players-asks-for-labor-of-love-nominations/" target="_blank" rel="noreferrer noopener">has indeed grown over the past few years</a>, between the solid post-launch support and the popularity of Amazon Prime Video's TV show. The latest update, titled '<strong><a href="https://wccftech.com/fallout-76-update-66-backwoods-bigfoot-party-crashers-event-overhaul/" type="link" id="https://wccftech.com/fallout-76-update-66-backwoods-bigfoot-party-crashers-event-overhaul/" target="_blank" rel="noreferrer noopener">The Backwoods</a></strong>', added Bigfoot as a boss and a major event overhaul.</p>
+<p>The RE Engine already supported ray tracing since the previous Resident Evil game, 2021's <strong>Village</strong>, which featured ray traced global illumination, ambient occlusion, and reflections. However, it still used rasterization for&nbsp;<strong>direct lighting</strong>&nbsp;and ray tracing only for&nbsp;<strong>indirect lighting</strong>. Full path tracing differs in that it handles both direct and indirect lighting through a single path-tracing pipeline, resulting in more detailed shadows, sharper reflections, more stable denoising, and stricter ambient occlusion than traditional ray tracing. BVH (Bounding Volume Hierarchy) construction runs as&nbsp;<strong>asynchronous compute</strong>, and both ray tracing and path tracing share the same ray query and material shader infrastructure.</p>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/04/RE-Engine-RT-vs-PT-scaled.jpg"></a></figure>
+
+
+
+<p>At this point, the presentation got quite technical. CAPCOM used a&nbsp;<strong>streaming RIS</strong>&nbsp;approach to efficiently select the most important lights. Key design choices include:<a href="https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/63806653/3d8b06b0-546c-46c4-a175-407880de013c/Real-Time-Path-Tracing-in-RE-ENGINE-for-Resident-Evil-Requiem-and-PRAGMATA-English-auto-generated-DownloadYoutubeSubtitles.com.txt?AWSAccessKeyId=ASIA2F3EMEYEQ2GS6TLN&amp;Signature=%2BzOn0P8cxg3BM3ITI7cKxbKNqOU%3D&amp;x-amz-security-token=IQoJb3JpZ2luX2VjEOD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIA5OruUtY160BWpcJuEZS3Brx5pax4PRhiDnXXgMf%2FR%2FAiEAz5ZcPzIUOkCniGxmoDo1FB3Z3ghO3O1PUOim03zJO5kq%2FAQIqf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARABGgw2OTk3NTMzMDk3MDUiDEKUx1n7hqnJy9be%2FirQBOmHZpXfohW5R%2BGxQL8nFznGZRrDduJWLhP4%2BJrkJRudQ7aMqs9esLpv7rnAgLGgS9yZ3x%2FKuAxfy34j83tcaBkg9keNIBsCdOptrAAb2eLzng8roKbmTue5iLCw0c8fLDA%2BUZuMIHJHcYK9M6Pr8meAcvzh7MZ%2ByCNBxx8W5yPBTxNqpDHSuGDLHGL9CBoXAd8owLOE0OWWFRbJMifMLT1WMJqDq6%2F5%2B1vu6%2FmqEenLPKWN0qi%2BYEsFxTe8EeuaPkuVeM2zBXK7FSrb%2F%2Ft1Sac87itO%2BXNh%2BfKfrCMw07wMmCnLsag%2By9U8HrlZtKeVJOv%2BH%2FkVLL0XIpXYjK2Cz15SXc8M0kG%2FUa3iAVPpYtRXZDTFJFf2inDMP9W3I76c4ejMBppNN0RH5sAaaMNdnq57QjlDQ4Cgw4%2F7lE7huSWh7KORxxS9IgRmesKljzIA1XNwDhYtaNLt7wz2VOxVSdQlbPE4xOi1XTWCH%2FWJi%2FFzl844Q%2FjCi9OJ8csWp6XEgl4eKkMbUTOPqVbfVYCvOqbJmkf4UxOI24b7dVjA6m1JzonfUXMkV2%2BZ2zMmE5PYLukWr0ahDpFeegL2jiAaz1tCYWr92ij6sNu7x0VTBOgo80k3bn%2BX1pBW%2BmLNFNXB4fQ4U5eTWpRQuoUnLeLlh5tz8L7aIEKWOI7qr%2BxAD5Z8S%2BLDfeB%2FEVtJZIvq2fwove24UsCRvBCFXF1I6uYIhwRn47Ow352I3PpITwcCgAMCBq4cxfFVGNJ0QzRdrLXhEe3wpIU125I9xOl1wS%2FSbKEwzuv%2BzgY6mAEnsMP0ettStM49ksNWm4vJPHBfebzxGvqCy1WfvSd0QqMAi5i6oJmS5T7DMt1oihxHOTgeKlk0wZrDtatZpYqiy%2B6zsFwm8VVlJKCcbWyojaCVHqtG2awbg8Hgpj8yw3Pe5%2BQFKORv75qp4PyHl7ZyC3uNDZuMM7qiNiCxkl%2FR%2FlqZZ7A5lx4yq1MxSclQWlAUBo4G3yN83g%3D%3D&amp;Expires=1776270254" target="_blank" rel="noreferrer noopener"></a></p>
+
+
+
+<ul>
+<li><strong>Brightness compensation</strong>&nbsp;was introduced to fix darkening artifacts in spotlight-lit regions instead of standard luminance as the reservoir update weight, camera exposure and an adjustment coefficient are used.</li>
+
+
+
+<li>A&nbsp;<strong>simplified BSDF</strong>&nbsp;(Lambertian diffuse + single-lobe specular) is used during candidate generation rather than the full BSDF, to reduce ALU cost.</li>
+
+
+
+<li><strong>IBL (Image-Based Lighting) is excluded</strong>&nbsp;from the candidate set in indoor settings with high-intensity IBL, because those samples are almost always occluded and cause high variance and DLSS Ray Reconstruction degradation.</li>
+
+
+
+<li><strong>Emissive polygons</strong>&nbsp;are added as explicit NEE samples using&nbsp;<strong>Walker's Alias Method</strong>, enabling O(1) triangle sampling weighted by area and intensity on the GPU.</li>
+</ul>
+
+
+
+<p>RE Engine defines a&nbsp;<strong>3D grid (AABB)</strong>&nbsp;around each punctual light, with dimensions of 16×128×128 cells, each storing a light ID bitmask. Streaming RIS references this structure at each shading point to evaluate only the lights that actually contribute to that hit position, which is the single biggest performance win for punctual light sampling. </p>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/04/RE-Engine-ReSTIR-GI-scaled.jpg"></a></figure>
+
+
+
+<p>The development team then implemented the <strong><a href="https://wccftech.com/nvidia-researchers-demonstrate-new-raytracing-algorithm-that-can-render-direct-lighting-from-millions-of-dynamic-light-sources/" type="link" id="https://wccftech.com/nvidia-researchers-demonstrate-new-raytracing-algorithm-that-can-render-direct-lighting-from-millions-of-dynamic-light-sources/" target="_blank" rel="noreferrer noopener">ReSTIR GI</a></strong> technique specifically to stabilize DLSS Ray Reconstruction quality by reducing noise in indirect lighting. The system reuses path samples across frames; current frame paths are stored per pixel, and previous frame samples are also resampled over time. </p>
+
+
+
+<p>To avoid high correlation with Ray Reconstruction (which would be unfavorable), samples are drawn from&nbsp;<strong>slightly offset positions</strong>&nbsp;relative to the previous frame's pixels rather than exact matches. A key benefit in both Resident Evil Requiem and PRAGMATA was that many scenes could be lit <span>solely with&nbsp;<strong>IBL,</strong></span> dramatically reducing noise.</p>
+
+
+
+<p>A significant portion of the presentation then focused on how Capcom used the&nbsp;<strong>DLSS Ray Reconstruction guide buffer</strong>&nbsp;to resolve specific visual artifacts, such as:<a href="https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/63806653/3d8b06b0-546c-46c4-a175-407880de013c/Real-Time-Path-Tracing-in-RE-ENGINE-for-Resident-Evil-Requiem-and-PRAGMATA-English-auto-generated-DownloadYoutubeSubtitles.com.txt?AWSAccessKeyId=ASIA2F3EMEYEQ2GS6TLN&amp;Signature=%2BzOn0P8cxg3BM3ITI7cKxbKNqOU%3D&amp;x-amz-security-token=IQoJb3JpZ2luX2VjEOD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIA5OruUtY160BWpcJuEZS3Brx5pax4PRhiDnXXgMf%2FR%2FAiEAz5ZcPzIUOkCniGxmoDo1FB3Z3ghO3O1PUOim03zJO5kq%2FAQIqf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARABGgw2OTk3NTMzMDk3MDUiDEKUx1n7hqnJy9be%2FirQBOmHZpXfohW5R%2BGxQL8nFznGZRrDduJWLhP4%2BJrkJRudQ7aMqs9esLpv7rnAgLGgS9yZ3x%2FKuAxfy34j83tcaBkg9keNIBsCdOptrAAb2eLzng8roKbmTue5iLCw0c8fLDA%2BUZuMIHJHcYK9M6Pr8meAcvzh7MZ%2ByCNBxx8W5yPBTxNqpDHSuGDLHGL9CBoXAd8owLOE0OWWFRbJMifMLT1WMJqDq6%2F5%2B1vu6%2FmqEenLPKWN0qi%2BYEsFxTe8EeuaPkuVeM2zBXK7FSrb%2F%2Ft1Sac87itO%2BXNh%2BfKfrCMw07wMmCnLsag%2By9U8HrlZtKeVJOv%2BH%2FkVLL0XIpXYjK2Cz15SXc8M0kG%2FUa3iAVPpYtRXZDTFJFf2inDMP9W3I76c4ejMBppNN0RH5sAaaMNdnq57QjlDQ4Cgw4%2F7lE7huSWh7KORxxS9IgRmesKljzIA1XNwDhYtaNLt7wz2VOxVSdQlbPE4xOi1XTWCH%2FWJi%2FFzl844Q%2FjCi9OJ8csWp6XEgl4eKkMbUTOPqVbfVYCvOqbJmkf4UxOI24b7dVjA6m1JzonfUXMkV2%2BZ2zMmE5PYLukWr0ahDpFeegL2jiAaz1tCYWr92ij6sNu7x0VTBOgo80k3bn%2BX1pBW%2BmLNFNXB4fQ4U5eTWpRQuoUnLeLlh5tz8L7aIEKWOI7qr%2BxAD5Z8S%2BLDfeB%2FEVtJZIvq2fwove24UsCRvBCFXF1I6uYIhwRn47Ow352I3PpITwcCgAMCBq4cxfFVGNJ0QzRdrLXhEe3wpIU125I9xOl1wS%2FSbKEwzuv%2BzgY6mAEnsMP0ettStM49ksNWm4vJPHBfebzxGvqCy1WfvSd0QqMAi5i6oJmS5T7DMt1oihxHOTgeKlk0wZrDtatZpYqiy%2B6zsFwm8VVlJKCcbWyojaCVHqtG2awbg8Hgpj8yw3Pe5%2BQFKORv75qp4PyHl7ZyC3uNDZuMM7qiNiCxkl%2FR%2FlqZZ7A5lx4yq1MxSclQWlAUBo4G3yN83g%3D%3D&amp;Expires=1776270254" target="_blank" rel="noreferrer noopener"></a></p>
+
+
+
+<ul>
+<li><strong>Subsurface scattering:</strong>&nbsp;RE Engine's SSS blur pass caused ghost artifacts in hair regions when fed into DLSS Ray Reconstruction. The fix was to encode the luminance delta before and after scattering into the guide buffer, allowing RR to account for it.<a href="https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/63806653/3d8b06b0-546c-46c4-a175-407880de013c/Real-Time-Path-Tracing-in-RE-ENGINE-for-Resident-Evil-Requiem-and-PRAGMATA-English-auto-generated-DownloadYoutubeSubtitles.com.txt?AWSAccessKeyId=ASIA2F3EMEYEQ2GS6TLN&amp;Signature=%2BzOn0P8cxg3BM3ITI7cKxbKNqOU%3D&amp;x-amz-security-token=IQoJb3JpZ2luX2VjEOD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIA5OruUtY160BWpcJuEZS3Brx5pax4PRhiDnXXgMf%2FR%2FAiEAz5ZcPzIUOkCniGxmoDo1FB3Z3ghO3O1PUOim03zJO5kq%2FAQIqf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARABGgw2OTk3NTMzMDk3MDUiDEKUx1n7hqnJy9be%2FirQBOmHZpXfohW5R%2BGxQL8nFznGZRrDduJWLhP4%2BJrkJRudQ7aMqs9esLpv7rnAgLGgS9yZ3x%2FKuAxfy34j83tcaBkg9keNIBsCdOptrAAb2eLzng8roKbmTue5iLCw0c8fLDA%2BUZuMIHJHcYK9M6Pr8meAcvzh7MZ%2ByCNBxx8W5yPBTxNqpDHSuGDLHGL9CBoXAd8owLOE0OWWFRbJMifMLT1WMJqDq6%2F5%2B1vu6%2FmqEenLPKWN0qi%2BYEsFxTe8EeuaPkuVeM2zBXK7FSrb%2F%2Ft1Sac87itO%2BXNh%2BfKfrCMw07wMmCnLsag%2By9U8HrlZtKeVJOv%2BH%2FkVLL0XIpXYjK2Cz15SXc8M0kG%2FUa3iAVPpYtRXZDTFJFf2inDMP9W3I76c4ejMBppNN0RH5sAaaMNdnq57QjlDQ4Cgw4%2F7lE7huSWh7KORxxS9IgRmesKljzIA1XNwDhYtaNLt7wz2VOxVSdQlbPE4xOi1XTWCH%2FWJi%2FFzl844Q%2FjCi9OJ8csWp6XEgl4eKkMbUTOPqVbfVYCvOqbJmkf4UxOI24b7dVjA6m1JzonfUXMkV2%2BZ2zMmE5PYLukWr0ahDpFeegL2jiAaz1tCYWr92ij6sNu7x0VTBOgo80k3bn%2BX1pBW%2BmLNFNXB4fQ4U5eTWpRQuoUnLeLlh5tz8L7aIEKWOI7qr%2BxAD5Z8S%2BLDfeB%2FEVtJZIvq2fwove24UsCRvBCFXF1I6uYIhwRn47Ow352I3PpITwcCgAMCBq4cxfFVGNJ0QzRdrLXhEe3wpIU125I9xOl1wS%2FSbKEwzuv%2BzgY6mAEnsMP0ettStM49ksNWm4vJPHBfebzxGvqCy1WfvSd0QqMAi5i6oJmS5T7DMt1oihxHOTgeKlk0wZrDtatZpYqiy%2B6zsFwm8VVlJKCcbWyojaCVHqtG2awbg8Hgpj8yw3Pe5%2BQFKORv75qp4PyHl7ZyC3uNDZuMM7qiNiCxkl%2FR%2FlqZZ7A5lx4yq1MxSclQWlAUBo4G3yN83g%3D%3D&amp;Expires=1776270254" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li><strong>Frosted/blurry glass:</strong>&nbsp;The same subsurface scattering guide buffer approach was applied to handle blur effects on glass, which caused identical artifact types.<a href="https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/63806653/3d8b06b0-546c-46c4-a175-407880de013c/Real-Time-Path-Tracing-in-RE-ENGINE-for-Resident-Evil-Requiem-and-PRAGMATA-English-auto-generated-DownloadYoutubeSubtitles.com.txt?AWSAccessKeyId=ASIA2F3EMEYEQ2GS6TLN&amp;Signature=%2BzOn0P8cxg3BM3ITI7cKxbKNqOU%3D&amp;x-amz-security-token=IQoJb3JpZ2luX2VjEOD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIA5OruUtY160BWpcJuEZS3Brx5pax4PRhiDnXXgMf%2FR%2FAiEAz5ZcPzIUOkCniGxmoDo1FB3Z3ghO3O1PUOim03zJO5kq%2FAQIqf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARABGgw2OTk3NTMzMDk3MDUiDEKUx1n7hqnJy9be%2FirQBOmHZpXfohW5R%2BGxQL8nFznGZRrDduJWLhP4%2BJrkJRudQ7aMqs9esLpv7rnAgLGgS9yZ3x%2FKuAxfy34j83tcaBkg9keNIBsCdOptrAAb2eLzng8roKbmTue5iLCw0c8fLDA%2BUZuMIHJHcYK9M6Pr8meAcvzh7MZ%2ByCNBxx8W5yPBTxNqpDHSuGDLHGL9CBoXAd8owLOE0OWWFRbJMifMLT1WMJqDq6%2F5%2B1vu6%2FmqEenLPKWN0qi%2BYEsFxTe8EeuaPkuVeM2zBXK7FSrb%2F%2Ft1Sac87itO%2BXNh%2BfKfrCMw07wMmCnLsag%2By9U8HrlZtKeVJOv%2BH%2FkVLL0XIpXYjK2Cz15SXc8M0kG%2FUa3iAVPpYtRXZDTFJFf2inDMP9W3I76c4ejMBppNN0RH5sAaaMNdnq57QjlDQ4Cgw4%2F7lE7huSWh7KORxxS9IgRmesKljzIA1XNwDhYtaNLt7wz2VOxVSdQlbPE4xOi1XTWCH%2FWJi%2FFzl844Q%2FjCi9OJ8csWp6XEgl4eKkMbUTOPqVbfVYCvOqbJmkf4UxOI24b7dVjA6m1JzonfUXMkV2%2BZ2zMmE5PYLukWr0ahDpFeegL2jiAaz1tCYWr92ij6sNu7x0VTBOgo80k3bn%2BX1pBW%2BmLNFNXB4fQ4U5eTWpRQuoUnLeLlh5tz8L7aIEKWOI7qr%2BxAD5Z8S%2BLDfeB%2FEVtJZIvq2fwove24UsCRvBCFXF1I6uYIhwRn47Ow352I3PpITwcCgAMCBq4cxfFVGNJ0QzRdrLXhEe3wpIU125I9xOl1wS%2FSbKEwzuv%2BzgY6mAEnsMP0ettStM49ksNWm4vJPHBfebzxGvqCy1WfvSd0QqMAi5i6oJmS5T7DMt1oihxHOTgeKlk0wZrDtatZpYqiy%2B6zsFwm8VVlJKCcbWyojaCVHqtG2awbg8Hgpj8yw3Pe5%2BQFKORv75qp4PyHl7ZyC3uNDZuMM7qiNiCxkl%2FR%2FlqZZ7A5lx4yq1MxSclQWlAUBo4G3yN83g%3D%3D&amp;Expires=1776270254" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li><strong>Raindrops and transparent decals:</strong>&nbsp;DLSS Ray Reconstruction's disocclusion handling made raindrops nearly invisible. The fix used the&nbsp;<strong>disocclusion mask</strong>&nbsp;in the guide buffer, with normals before/after decal application used to compute the mask selectively. The presenters said that overuse of the mask reintroduces noise, so it must be applied conservatively.<a href="https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/63806653/3d8b06b0-546c-46c4-a175-407880de013c/Real-Time-Path-Tracing-in-RE-ENGINE-for-Resident-Evil-Requiem-and-PRAGMATA-English-auto-generated-DownloadYoutubeSubtitles.com.txt?AWSAccessKeyId=ASIA2F3EMEYEQ2GS6TLN&amp;Signature=%2BzOn0P8cxg3BM3ITI7cKxbKNqOU%3D&amp;x-amz-security-token=IQoJb3JpZ2luX2VjEOD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIA5OruUtY160BWpcJuEZS3Brx5pax4PRhiDnXXgMf%2FR%2FAiEAz5ZcPzIUOkCniGxmoDo1FB3Z3ghO3O1PUOim03zJO5kq%2FAQIqf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARABGgw2OTk3NTMzMDk3MDUiDEKUx1n7hqnJy9be%2FirQBOmHZpXfohW5R%2BGxQL8nFznGZRrDduJWLhP4%2BJrkJRudQ7aMqs9esLpv7rnAgLGgS9yZ3x%2FKuAxfy34j83tcaBkg9keNIBsCdOptrAAb2eLzng8roKbmTue5iLCw0c8fLDA%2BUZuMIHJHcYK9M6Pr8meAcvzh7MZ%2ByCNBxx8W5yPBTxNqpDHSuGDLHGL9CBoXAd8owLOE0OWWFRbJMifMLT1WMJqDq6%2F5%2B1vu6%2FmqEenLPKWN0qi%2BYEsFxTe8EeuaPkuVeM2zBXK7FSrb%2F%2Ft1Sac87itO%2BXNh%2BfKfrCMw07wMmCnLsag%2By9U8HrlZtKeVJOv%2BH%2FkVLL0XIpXYjK2Cz15SXc8M0kG%2FUa3iAVPpYtRXZDTFJFf2inDMP9W3I76c4ejMBppNN0RH5sAaaMNdnq57QjlDQ4Cgw4%2F7lE7huSWh7KORxxS9IgRmesKljzIA1XNwDhYtaNLt7wz2VOxVSdQlbPE4xOi1XTWCH%2FWJi%2FFzl844Q%2FjCi9OJ8csWp6XEgl4eKkMbUTOPqVbfVYCvOqbJmkf4UxOI24b7dVjA6m1JzonfUXMkV2%2BZ2zMmE5PYLukWr0ahDpFeegL2jiAaz1tCYWr92ij6sNu7x0VTBOgo80k3bn%2BX1pBW%2BmLNFNXB4fQ4U5eTWpRQuoUnLeLlh5tz8L7aIEKWOI7qr%2BxAD5Z8S%2BLDfeB%2FEVtJZIvq2fwove24UsCRvBCFXF1I6uYIhwRn47Ow352I3PpITwcCgAMCBq4cxfFVGNJ0QzRdrLXhEe3wpIU125I9xOl1wS%2FSbKEwzuv%2BzgY6mAEnsMP0ettStM49ksNWm4vJPHBfebzxGvqCy1WfvSd0QqMAi5i6oJmS5T7DMt1oihxHOTgeKlk0wZrDtatZpYqiy%2B6zsFwm8VVlJKCcbWyojaCVHqtG2awbg8Hgpj8yw3Pe5%2BQFKORv75qp4PyHl7ZyC3uNDZuMM7qiNiCxkl%2FR%2FlqZZ7A5lx4yq1MxSclQWlAUBo4G3yN83g%3D%3D&amp;Expires=1776270254" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li><strong>Animated projection texture lights:</strong>&nbsp;Ray Reconstruction struggled with rapidly changing animated light patterns on surfaces, like wave effects on the ground. RIS animation weights were compared against overall streaming RIS weights to estimate per-shading-point contribution, and the disocclusion mask was applied proportionally.<a href="https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/63806653/3d8b06b0-546c-46c4-a175-407880de013c/Real-Time-Path-Tracing-in-RE-ENGINE-for-Resident-Evil-Requiem-and-PRAGMATA-English-auto-generated-DownloadYoutubeSubtitles.com.txt?AWSAccessKeyId=ASIA2F3EMEYEQ2GS6TLN&amp;Signature=%2BzOn0P8cxg3BM3ITI7cKxbKNqOU%3D&amp;x-amz-security-token=IQoJb3JpZ2luX2VjEOD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIA5OruUtY160BWpcJuEZS3Brx5pax4PRhiDnXXgMf%2FR%2FAiEAz5ZcPzIUOkCniGxmoDo1FB3Z3ghO3O1PUOim03zJO5kq%2FAQIqf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARABGgw2OTk3NTMzMDk3MDUiDEKUx1n7hqnJy9be%2FirQBOmHZpXfohW5R%2BGxQL8nFznGZRrDduJWLhP4%2BJrkJRudQ7aMqs9esLpv7rnAgLGgS9yZ3x%2FKuAxfy34j83tcaBkg9keNIBsCdOptrAAb2eLzng8roKbmTue5iLCw0c8fLDA%2BUZuMIHJHcYK9M6Pr8meAcvzh7MZ%2ByCNBxx8W5yPBTxNqpDHSuGDLHGL9CBoXAd8owLOE0OWWFRbJMifMLT1WMJqDq6%2F5%2B1vu6%2FmqEenLPKWN0qi%2BYEsFxTe8EeuaPkuVeM2zBXK7FSrb%2F%2Ft1Sac87itO%2BXNh%2BfKfrCMw07wMmCnLsag%2By9U8HrlZtKeVJOv%2BH%2FkVLL0XIpXYjK2Cz15SXc8M0kG%2FUa3iAVPpYtRXZDTFJFf2inDMP9W3I76c4ejMBppNN0RH5sAaaMNdnq57QjlDQ4Cgw4%2F7lE7huSWh7KORxxS9IgRmesKljzIA1XNwDhYtaNLt7wz2VOxVSdQlbPE4xOi1XTWCH%2FWJi%2FFzl844Q%2FjCi9OJ8csWp6XEgl4eKkMbUTOPqVbfVYCvOqbJmkf4UxOI24b7dVjA6m1JzonfUXMkV2%2BZ2zMmE5PYLukWr0ahDpFeegL2jiAaz1tCYWr92ij6sNu7x0VTBOgo80k3bn%2BX1pBW%2BmLNFNXB4fQ4U5eTWpRQuoUnLeLlh5tz8L7aIEKWOI7qr%2BxAD5Z8S%2BLDfeB%2FEVtJZIvq2fwove24UsCRvBCFXF1I6uYIhwRn47Ow352I3PpITwcCgAMCBq4cxfFVGNJ0QzRdrLXhEe3wpIU125I9xOl1wS%2FSbKEwzuv%2BzgY6mAEnsMP0ettStM49ksNWm4vJPHBfebzxGvqCy1WfvSd0QqMAi5i6oJmS5T7DMt1oihxHOTgeKlk0wZrDtatZpYqiy%2B6zsFwm8VVlJKCcbWyojaCVHqtG2awbg8Hgpj8yw3Pe5%2BQFKORv75qp4PyHl7ZyC3uNDZuMM7qiNiCxkl%2FR%2FlqZZ7A5lx4yq1MxSclQWlAUBo4G3yN83g%3D%3D&amp;Expires=1776270254" target="_blank" rel="noreferrer noopener"></a></li>
+
+
+
+<li><strong>Holograms:</strong>&nbsp;Hologram patterns expressed as emissive color animations were not reflected in the DLSS Ray Reconstruction guide buffer, causing blurring. The fix replaced diffuse and specular albedo in the guide buffer with the emissive color, making the pattern visible and stable.</li>
+</ul>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/04/RE-Engine-Hybrid-Strand-Hair-scaled.jpg"></a></figure>
+
+
+
+<p>Both Resident Evil Requiem and PRAGMATA use CAPCOM's <strong>proprietary strand hair tech</strong> that debuted in <strong>Resident Evil 4 Remake</strong> (2023) and has been iterated on since. It uses a <strong>hybrid hardware + software rasterizer pipeline</strong>: hair clumps go through classification and culling, then hardware rasterization for opaque strands, followed by a software semi-transparency pass for the finer wisps. For ray tracing purposes, a fallback mesh substitutes for the full strand geometry in the BVH. PRAGMATA is the first game to upgrade this to a proper strand BVH, because Diana's long, flowing hair diverged too far from the proxy mesh.</p>
+
+
+
+<p>Finally, NVIDIA's Calvin Shu went on stage to outline the optimization journey using a test scene from PRAGMATA with DLSS Ray Reconstruction, DLAA, and RTX 5090 at 4K resolution and default clocks. The scene featured <strong>73 analytical lights</strong> and <strong>32 emissive samples</strong> from a 4K array.</p>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/04/RE-Engine-PRAGMATA-Test-Scene-scaled.jpg"></a></figure>
+
+
+
+<figure><table><thead><tr><th data-align="left">Stage</th><th data-align="left">Frame Time</th><th data-align="left">Notes</th></tr></thead><tbody><tr><td data-align="left">Baseline CS wavefront </td><td data-align="left">21ms</td><td data-align="left">13.7 avg threads/warp, 43% coherence; most time spent in punctual + emissive light sampling loops</td></tr><tr><td data-align="left">Simplified RIS BRDF</td><td data-align="left">17.7ms</td><td data-align="left">15% saving; switched to world-space vanilla GGX, factored out rand calls, split UInt32 rand into two floats</td></tr><tr><td data-align="left">Naïve SER port (no compaction)</td><td data-align="left">23.5ms</td><td data-align="left">Worse than baseline — expected without SER reordering enabled; 12% active threads/warp, 38% coherence</td></tr><tr><td data-align="left">SER enabled</td><td data-align="left">20.8ms</td><td data-align="left">Coherence improved to 57% but instruction cache stalls dominated (35% of time waiting on instruction loads)</td></tr><tr><td data-align="left">SER + bindless resources</td><td data-align="left">~16.9ms</td><td data-align="left">Static SRV references caused compiler to duplicate instructions (~24k); converting to bindless dropped count back to ~12k, resolved stalls</td></tr><tr><td data-align="left">Driver optimizations</td><td data-align="left">13.3ms</td><td data-align="left">Not shipped at the time of the GDC 2026 talk</td></tr></tbody></table></figure>
+
+
+
+<p>As you can clearly see, the path tracing optimization in RE Engine was not linear at all. There were two regression points caused by a sub-optimal implementation of <strong><a href="https://wccftech.com/ser-improves-ue5-lumens-hardware-rt-performance-says-nvidia/" type="link" id="https://wccftech.com/ser-improves-ue5-lumens-hardware-rt-performance-says-nvidia/" target="_blank" rel="noreferrer noopener">Shader Execution Reordering (SER)</a></strong>. Eventually, the key discovery in the SER investigation was that <strong>combining two separate compute shader passes</strong> (which used different static SRV bindings for direct vs. indirect light info) into a single dispatch ray call caused the compiler to <strong>duplicate instructions</strong>, doubling the instruction count to 24K and causing severe instruction cache stalls (35% of time). Converting static SRV references to <strong>bindless</strong> reduced instruction count back to 12K and resolved the bottleneck.</p>
+
+
+
+<p>Closing down the presentation, Calvin Shu stressed that DXR 1.2 with Shader Execution Reordering is NVIDIA's recommendation for path traced games going forward, as it can achieve "<strong>Speed of Light</strong>" throughput (NVIDIA's term for the theoretical GPU performance ceiling) with "less plumbing". He also announced that NVIDIA will be releasing a <strong>2.0 version of the DLSS Ray Reconstruction Disocclusion Mask,</strong> which should hopefully polish the edge cases that were encountered in the Resident Evil Requiem and PRAGMATA implementations.</p>
+
+
+
+
 
 			
 			
@@ -56,53 +156,7 @@ His passion for technology also makes him knowledgeable when it comes to gaming 
 			
 
 
-		</div></div><br/><br/>https://wccftech.com/todd-howard-defends-starfield-elder-scrolls-fallout-divisive/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[PlayStation 5 Sales Hit 2026 High in The US With Pre-Price Hike Buying Rush]]></title>
-            <link>https://wccftech.com/playstation-5-sales-hit-2026-high-in-the-us-with-pre-price-hike-buying-rush/</link>
-            <guid>1491880</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			
-			<p id="p-rc_c85dd9389d3e5620-172">Right before the <strong>PlayStation 5</strong>'s <a href="https://wccftech.com/ps5-ps5-pro-ps-portal-price-increase-confirmed/"><strong>latest price increase</strong></a> went into effect on <strong>April 2</strong>, sales of the <strong>Sony</strong> current-generation console peaked in the <strong>United States</strong> according to data provided by <strong>Circana's Matt Piscatella</strong>, indicating how real the fear of price increases is for consumers in the <strong>US</strong>.</p>
-
-
-
-<p id="p-rc_c85dd9389d3e5620-173"><em>“US weekly unit and $ sales of PlayStation 5 hardware reached 2026 highs during the week ending April 4th, as price increases loomed,”</em> wrote <strong>Piscatella</strong> on <a href="https://bsky.app/profile/matpiscatella.bsky.social/post/3mjheli4u7c2p" target="_blank" rel="noreferrer noopener">Bluesky</a>. <em>“US spending on video game hardware for the week nearly doubled when compared to the same week a year ago.”</em></p>
-
-
-
-<p>Unfortunately, <strong>Circana's Video Game Industry Advisor</strong> did not specify if these sales include both the base <strong>PlayStation 5</strong> and the <strong>PlayStation 5 Pro</strong> models, or are limited to the base models. Considering that, despite a big price jump, the <strong>PlayStation 5 Pro</strong> is becoming a more enticing system for higher-end gaming amidst <strong>significant price increases of PC hardware</strong>, it will be interesting to see how many systems were sold before the price increase. It will also be very interesting to see how the&nbsp;<strong>PlayStation 5 units&nbsp;will sell this month and beyond</strong>, and whether reduced sales will push&nbsp;Sony&nbsp;to <strong>change its strategy going forward.</strong></p>
-
-
-
-<p>The constant price increases <span>in the current console generation have made both the&nbsp;<strong>PlayStation 5</strong>&nbsp;and the&nbsp;<strong>Xbox Series X|S</strong>&nbsp;more expensive than they were at launch in&nbsp;<strong>November 2020</strong>, casting a looming shadow over the next-generation systems' pricing</span>. While the <a href="https://wccftech.com/roundup/xbox-next-gen-console-project-helix-everything-we-know/"><strong>Xbox Project Helix</strong></a>'s higher price could be justified by its hybrid console/PC design, the <a href="https://wccftech.com/roundup/playstation-6-everything-we-know-release-date-specs-price-games/"><strong>PlayStation 6</strong></a> will continue to target pure console gaming. Even if <strong>Sony</strong> releases the system with a price in the <a href="https://wccftech.com/playstation-6-price-699-still-possible/"><strong>$700 range</strong></a>, it may have a hard time <a href="https://wccftech.com/playstation-6-significant-upgrade-problem-alderon-games-founder/"><strong>convincing users to upgrade</strong></a>, according to <strong>Alderon Games</strong> founder <strong>Matthew Cassells</strong>.</p>
-
-			
-			
-						<div>
-									<p>
-					<strong>About the <a href="https://wccftech.com/author/francesco/">author</a>: </strong> Francesco De Meo has been covering video games and technology since 2012, starting his career at small outlets like Gamersyndrome and GeekSnack. 
-
-After joining Wccftech <a href="https://wccftech.com/topic/games/">gaming</a> section in 2015, he quickly expanded his video gaming coverage with in-depth reporting, interviews with iconic industry figures such as Grasshopper Manufacture founder and No More Heroes creator Goichi "Suda51" Suda, Resident Evil series creator Shinji Mikami, Team NINJA's president and Nioh series director Fumihiko Yasuda, and Silent Hill creator Keiichiro Toyama, reviews and on-the-ground coverage of major industry events such as Gamescom and E3.
-
-When he's not reporting or reviewing, Francesco can be found playing the genres he loves most, spending time with his six cats, reading, writing music, playing guitar and drumming for his progressive rock band.				</p>				
-			</div>
-			
-			<p data-nosnippet="">
-				Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.
-			</p>
-			
-
-
-		</div></div><br/><br/>https://wccftech.com/playstation-5-sales-hit-2026-high-in-the-us-with-pre-price-hike-buying-rush/]]></content:encoded>
+		</div></div><br/><br/>https://wccftech.com/re-engine-path-tracing-ser-restir-gi-dlss-rr/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
