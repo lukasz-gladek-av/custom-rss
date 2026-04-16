@@ -4,135 +4,265 @@
         <title>maGaming RSS Feed - www.nintendolife.com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/nintendolife_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for www.nintendolife.com</description>
-        <lastBuildDate>Thu, 16 Apr 2026 14:36:26 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Apr 2026 15:33:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Feature: "A Huge Balancing Act" - Playtonic Spills The Beans On Yooka-Replaylee's Massive Switch 2 Update]]></title>
-            <link>https://www.nintendolife.com/features/a-huge-balancing-act-playtonic-spills-the-beans-on-yooka-replaylees-massive-switch-2-update</link>
-            <guid>1493059</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><section>
-
-<p><a href="https://www.nintendolife.com/games/nintendo-switch-2/yooka-replaylee">Yooka-Replaylee</a> is a <a href="https://www.nintendolife.com/reviews/nintendo-switch-2/yooka-replaylee">great reimagining</a> of the enjoyable yet flawed <a href="https://www.nintendolife.com/games/switch-eshop/yooka-laylee">2017 original</a>, yet for many <a href="https://www.nintendolife.com/news/2025/09/yooka-replaylee-runs-at-30fps-on-switch-2-team-investigating-performance-mode">the lack of a 60fps performance mode</a> on Switch 2 was disappointing.</p>
-<p>Well, the good news is that it's finally here! After months of painstaking work to optimise the game, Playtonic has dropped a new 60fps mode for all owners on Switch 2, and it's legit <em>great</em>. How do I know? Well, the studio kindly invited me over recently to test it out and speak with the game's Software Lead, <strong>Simon Gerges</strong>.</p>
-<p>I spent roughly an hour and a half with the new performance mode, hopping between several levels to see whether it could hold up under varying conditions – it absolutely does. Though there may be minuscule dips now and then, it certainly wasn't noticeable to the naked eye in both docked and handheld. This is a game that — at least from my time with it so far — has been optimised to near perfection on Switch 2, delivering a smooth gameplay experience with minimal alterations to the visuals.</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:199808 @ 1776348507 -->
-<p>That's not to say that the presentation has been completely untouched, mind. Shadows have slightly less clarity while assets in the far distance look slightly fuzzier. That said, I really had to study the visuals closely to notice any differences, flipping between fidelity and performance modes in the pause menu a few times to pick anything out.</p>
-<figure data-uuid="b55791f8baca2"><a title="Yooka-Replaylee 5" href="https://images.nintendolife.com/b55791f8baca2/yooka-replaylee-5.large.jpg"></a><figcaption><em><span></span> Image: Playtonic Games</em></figcaption></figure>
-<p>Playtonic's done a cracking job, then. To find out a bit more, I spoke with Simon, the mastermind behind the new performance mode. We touch on why 60fps wasn't available at launch, what visual changes needed to be made, and the size of the update. Give it a read before you run off to download the update.</p>
-<p><strong>Nintendo Life: Could you give us an overview of the work/process of building this S2 performance mode, and why it wasn't part of the original plan for the Switch 2 version?</strong></p>
-<p><strong>Simon Gerges:</strong> Although it’s flattering to be compared with some of the major studios out there, I think people forget we’re a relatively small indie team. We’re proud of simultaneously delivering Yooka-Replaylee across all major platforms on day one, and that this included a great-looking version on Switch 2.</p>
-<p>It’s easy to underestimate the challenge it is to get a game like this to run at higher frame rates. Yooka-Replaylee’s worlds are large and full of life, and the player has completely free rein to move wherever they want, and face the camera in any direction they want. This can mean we have thousands of objects that need to be drawn at any one time, as well as all the new graphical effects we have brought to the remake, this is all very costly both on the CPU and GPU.</p>
-<p>The process to provide a performance mode is a long one, painstakingly profiling problem areas of each level, not only diagnosing noticeably costly areas for optimisation, but also requiring tackling countless smaller optimisations that all add up to something that helps. It’s a very time-consuming process. We have had to restructure much of the backgrounds, as well as making many optimisations that set us back a long way in terms of stability, which takes time to regain.</p>
-<figure data-uuid="f58dd42127ffa"><a title="Yooka-Replaylee 2" href="https://images.nintendolife.com/f58dd42127ffa/yooka-replaylee-2.large.jpg"></a><figcaption><em><span></span> Image: Playtonic Games</em></figcaption></figure>
-<p><strong>Following launch in October last year, when did work on the update begin?</strong></p>
-<p>Optimisation began before launch, we of course would have loved to have had it ready by then, but when a game is in its final stages, it’s not possible to make some of the changes that were necessary whilst maintaining the stability required to release the game. Therefore, much of it had to occur after the launch period.</p>
-<p><strong>Hindsight is great, but did you anticipate negative player reaction to the S2 version being 30fps prior to release?</strong></p>
-<blockquote>
-<p>We have chosen to use FSR for our performance mode, and are now using Unity’s impressive Spatial Temporal Postprocessing for our Fidelity mode.</p>
-</blockquote>
-<p>Of course, we are all gamers too! For some of us it’s not an issue at all, but for others, they’d love to play the game at 60fps.</p>
-<p>It often comes down to what you’re used to. We knew to expect some negative reaction, but similarly we knew that even more would have been upset to have to wait a further six months to play the game when they were more than happy to play the fidelity mode at launch.</p>
-<p><strong>Have you utilised any of Nintendo's own brand of DLSS in order to achieve this 60fps goal?</strong></p>
-<p>We haven’t been able to yet, with new technologies, sometimes these things take time to become available in different engines and renderers. We have chosen to use FSR for our performance mode, and are now using Unity’s impressive Spatial Temporal Postprocessing for our Fidelity mode.</p>
-<p>DLSS and Nintendo’s upscaler are becoming available now and we look forward to seeing what they can do for us in future.</p>
-<figure data-uuid="31d6c9db517d2"><a title="Yooka-Replaylee 3" href="https://images.nintendolife.com/31d6c9db517d2/yooka-replaylee-3.large.jpg"></a><figcaption><em><span></span> Image: Playtonic Games</em></figcaption></figure>
-<p><strong>Is there a challenge or obstacle you've overcome while building this that you're particularly proud of?</strong></p>
-<p>It would have been easy for us when setting out on this goal to chop and change the levels drastically, removing many incidental props and reducing the quantity of enemies, but we adamant we didn’t want the game to be any different at all.</p>
-<p>We’re very happy that we’re offering the exact same game and level setup that any other version or quality mode the game has, on any platform.</p>
-<p><strong>I noticed some minor visual adjustments in the new performance mode – for example, shadows have slightly less clarity. How did you decide which aspects of the visuals to adjust to achieve 60fps?</strong></p>
-<p>This is a huge balancing act, and one that has been a big challenge across all the versions of the game across all platforms. This is where the tech team and art team come together, and we discuss the cost of each of our options and weigh up and decide what we think gives the best bang for buck.</p>
-<p>There are so many variables at play; resolution, render scale, post effects, shadow quality, grass, water, lighting, and fog settings, to name a few, that all need to be considered and evaluated. And these can’t be fully finalised until we know we have optimised as much of the game as possible.</p>
-<p>We’re pleased in that many of our optimisations have allowed us to provide a great-looking performance mode at 60fps, and it has also meant we’ve been able to improve our fidelity mode further, too.</p>
-<figure data-uuid="c4ab394b18cb5"><a title="Yooka-Replaylee 4" href="https://images.nintendolife.com/c4ab394b18cb5/yooka-replaylee-4.large.jpg"></a><figcaption><em><span></span> Image: Playtonic Games</em></figcaption></figure>
-<p><strong>Performance seems very similar across both docked and handheld. Were there any additional challenges to get it running at 60fps in handheld mode?</strong></p>
-<p>Actually, I’d say it’s the opposite. The Variable Refresh Rate of the Switch 2 is fantastic, and it means if you drop from 60 to, for example, 57 momentarily, you almost never notice.</p>
-<p>It’s when it’s docked that we are more particular about any drops in frame rate, as these are much more noticeable. Not many games like this are perfect, but we’re really pleased that the experience is very similar in both docked and handheld.</p>
-<p><strong>What is the size of the download for this update?</strong></p>
-<p>We have had to touch so much of the game to bring you this, that this is a well-worth-it nearly 5GB patch!</p>
-<p><strong>Beyond the frame rate, will there be any other changes/tweaks in this update?</strong></p>
-<p>Yes many, there has been numerous bug fixes and stability improvements made since launch, and they will be included in this update, too.</p>
-<p><strong>Will there be changes to any of the other platform versions?</strong></p>
-<p>Yes, this patch is coming to all platforms, and we’re looking forward to seeing if we can make use of some of the optimisations we have made to increase the fidelity on those platforms, too!</p>
-<p><strong>Is this the final chapter for Yooka-Replaylee? If so, what's next from Playtonic?</strong></p>
-<p>Not necessarily, we’re still listening to fans and watching how the game does from here on out and there’s a lot of ideas within the studio for the game.</p>
-<p>Beyond this there are other things happening and there is a chance you can see much more from us very soon, watch this space, and thank you for the support.</p>
-<figure data-uuid="1119bcf4f399a"><a title="Yooka-Replaylee 1" href="https://images.nintendolife.com/1119bcf4f399a/yooka-replaylee-1.large.jpg"></a><figcaption><em><span></span> Image: Ollie Reynolds / Nintendo Life</em></figcaption></figure>
+            <title><![CDATA[Japanese Charts: Combined PS5 Sales Can't Even Beat Switch Lite]]></title>
+            <link>https://www.nintendolife.com/news/2026/04/japanese-charts-combined-ps5-sales-cant-even-beat-switch-lite</link>
+            <guid>1493110</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><section>
+<figure data-uuid="2a141a9c61df7"><a title="Switch Lite" href="https://images.nintendolife.com/2a141a9c61df7/switch-lite.large.jpg"></a><figcaption><em><span></span> Image: Gemma Smith / Nintendo Life</em></figcaption></figure><p>The latest Japanese charts are here thanks to <a href="https://www.famitsu.com/article/202604/72113">Famitsu</a>, and yet again, we can see that <a href="https://www.nintendolife.com/games/nintendo-switch-2/pokemon-pokopia">Pokémon Pokopia</a> has beaten the competition to take the top spot with 23,738 sales. It's inching toward that 1 million milestone!</p>
+<p><a href="https://www.pushsquare.com/games/ps5/starfield">Starfield</a> also makes its debut on PS5 at number 3, selling 4,094 copies, but this isn't enough to compete with <a href="https://www.nintendolife.com/games/nintendo-switch-2/mario-kart-world">Mario Kart World</a>, which managed to shift 7,238 copies.</p>
+<p>Otherwise, it's a pretty standard week for software. Hopefully some new releases in the coming weeks will spice things up a bit. Yes, we see you <a href="https://www.nintendolife.com/games/nintendo-switch-2/yoshi-and-the-mysterious-book">Yoshi</a>, waiting in the wings.</p><div><figure data-videoid="8i2vvu-qeBQ" data-start="0" data-src="https://www.youtube.com/embed/8i2vvu-qeBQ?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><div><iframe id="yt8i2vvu-qeBQ" title="YouTube Video" data-src-fallback="https://www.youtube-nocookie.com/embed/8i2vvu-qeBQ?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/8i2vvu-qeBQ?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed4c3af8qpinro&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><p>Subscribe to <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1">Nintendo Life</a> on <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1"><span>YouTube</span><span>845k</span></a></p>
+</div></figure></div>
+<p>Here's the top ten in for the bigger picture:</p>
+<table>
+<thead>
+<tr>
+<th>Position</th>
+<th>Game</th>
+<th>Platform</th>
+<th><strong>Unit Sales</strong> <strong>(6th - 12th Apr)</strong></th>
+<th>Total Unit Sales</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>
+<p>Pokémon Pokopia</p>
+</td>
+<td>
+<p>Switch 2</p>
+</td>
+<td>23,738</td>
+<td>890,909</td>
+</tr>
+<tr>
+<td>2</td>
+<td>
+<p>Mario Kart World</p>
+</td>
+<td>
+<p>Switch 2</p>
+</td>
+<td>7,238</td>
+<td>
+<p>2,895,712</p>
+</td>
+</tr>
+<tr>
+<td>3</td>
+<td>
+<p>Starfield</p>
+</td>
+<td>
+<p>PS5</p>
+</td>
+<td>4,094</td>
+<td>NEW</td>
+</tr>
+<tr>
+<td>4<br></td>
+<td>
+<p>Minecraft</p>
+</td>
+<td>
+<p>Switch</p>
+</td>
+<td>
+<p>4,956</p>
+</td>
+<td>4,186,601<br></td>
+</tr>
+<tr>
+<td>5<br></td>
+<td>
+<p>Animal Crossing: New Horizons</p>
+</td>
+<td>
+<p>Switch</p>
+</td>
+<td>
+<p>3,831</p>
+</td>
+<td>
+<p>8,419,664</p>
+</td>
+</tr>
+<tr>
+<td>6<br></td>
+<td>
+<p>Animal Crossing: New Horizons - Nintendo Switch 2 Edition</p>
+</td>
+<td>
+<p>Switch 2</p>
+</td>
+<td>3,064<br></td>
+<td>101,850<br></td>
+</tr>
+<tr>
+<td>7<br></td>
+<td>
+<p>Pokémon FireRed &amp; LeafGreen (Download Card)</p>
+</td>
+<td>
+<p>Switch 2</p>
+</td>
+<td>2,757<br></td>
+<td>18,049<br></td>
+</tr>
+<tr>
+<td>8<br></td>
+<td>
+<p>Super Smash Bros. Ultimate</p>
+</td>
+<td>
+<p>Switch</p>
+</td>
+<td>2,346<br></td>
+<td>5,899,833<br></td>
+</tr>
+<tr>
+<td>9<br></td>
+<td>
+<p>Mario Tennis Fever</p>
+</td>
+<td>
+<p>Switch 2</p>
+</td>
+<td>2,429<br></td>
+<td>
+<p>101,590</p>
+</td>
+</tr>
+<tr>
+<td>10<br></td>
+<td>
+<p>Crimson Desert</p>
+</td>
+<td>
+<p>PS5</p>
+</td>
+<td>2,408<br></td>
+<td>
+<p>42,593</p>
+</td>
+</tr>
+</tbody>
+</table>
 <hr>
-<p><em>Thank you to Simon for taking the time to speak with us about Yooka-Replaylee's new performance mode, and to Mark Boam for hosting our early playtest. The update is available now for all Switch 2 owners, so what are you waiting for? Get it downloaded.</em></p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:188719,194917 @ 1776348203 --></section></div><br/><br/>https://www.nintendolife.com/features/a-huge-balancing-act-playtonic-spills-the-beans-on-yooka-replaylees-massive-switch-2-update]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Boom! Yooka-Replaylee's 60fps Switch 2 Performance Mode Is Finally Here]]></title>
-            <link>https://www.nintendolife.com/news/2026/04/boom-yooka-replaylees-60fps-switch-2-performance-mode-is-finally-here</link>
-            <guid>1493056</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="body">
-<article id="article">
-<header><section>
-<p>Yooka-So-Smoothy</p>
-</section></header><div><section>
-
-<p>After its release in October 2025, <a href="https://www.nintendolife.com/games/nintendo-switch-2/yooka-replaylee">Yooka-Replaylee</a> is finally playable at 60fps on Switch 2 thanks to a new update from Playtonic Games.</p>
-<p>Many were understandably disappointed when the Switch 2 version launched with its performance capped at 30fps (heck, it was one of just two 'cons' in our <a href="https://www.nintendolife.com/reviews/nintendo-switch-2/yooka-replaylee">8/10 review</a>), so this will no doubt prove to be a welcome new update for fans of the 3D platformer.</p>
-<p>The good news is that Playtonic Games has retained the previous fidelity mode if you do happen to value higher resolution visuals; you can simply toggle between the two options via the pause menu.</p>
-<p>As for how much space you'll need for the update, Playtonic says that it comes in at nearly 5GB. Quite a hefty one, then, and probably something that fans of physical editions might not be too chuffed about. Still, this is something that's clearly been a labour of love for the team, and not merely a switch that can be flicked on to increase the frame rate.</p>
-<p>So if you're keen to see how the game plays at a higher frame rate, then go ahead and get it downloaded now. Better late than never, huh? You can also bag a 20% discount to celebrate the new update, bringing the price down to <strong>£19.99 / $23.99</strong>.</p>
-<p>And if you're still on the fence, Playtonic also confirmed that the free demo on Switch 2 will also sport the new 60fps performance mode, so you can try before you buy.</p>
-<p>And if you're after some hands-on impressions, we took it for a spin last week - check out <a href="https://www.nintendolife.com/features/a-huge-balancing-act-playtonic-spills-the-beans-on-yooka-replaylees-massive-switch-2-update">our interview and impressions feature</a> for more details.</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:199796,188719 @ 1776348003 -->
-<p><em>What do you make of Yooka-Replaylee's new performance mode? Will you be taking it for a spin? Let us know with a comment in the usual place.</em></p>
-<p>https://www.youtube.com/watch?v=k9TWDL4p0uY<em><br></em></p></section>
-<p>[source <a title="External Link: https://www.youtube.com/watch?v=pOIbeF3WMh4" rel="noopener" href="https://www.youtube.com/watch?v=pOIbeF3WMh4">youtube.com</a>]</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-info/7124d34772d6d91385d63b31f17dc351 @ 1776348496 --></div></article><div><p>Nintendo Life’s resident horror fanatic, when he’s not knee-deep in Resident Evil and Silent Hill lore, Ollie likes to dive into a good horror book while nursing a lovely cup of tea. He also enjoys long walks and listens to everything from TOOL to Chuck Berry.</p><ul><li><a href="https://www.nintendolife.com/authors/Olliemar28"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/ollie-nl.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Olliemar28');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
-</div></div></div><br/><br/>https://www.nintendolife.com/news/2026/04/boom-yooka-replaylees-60fps-switch-2-performance-mode-is-finally-here]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Rumour: Red Dead Redemption May Be Getting A Rubbish 'Code-In-A-Box' Release]]></title>
-            <link>https://www.nintendolife.com/news/2026/04/rumour-red-dead-redemption-may-be-getting-a-rubbish-code-in-a-box-release</link>
-            <guid>1493008</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="body">
-<article id="article">
-<header><section>
-<p>Out to pasture</p>
-</section></header><div><section>
-<figure data-uuid="3ebaf2fc2b405"><a title="Red Dead" href="https://images.nintendolife.com/3ebaf2fc2b405/red-dead.large.jpg"></a><figcaption><em><span></span> Image: Rockstar Games</em></figcaption></figure><p><a href="https://www.nintendolife.com/games/nintendo-switch-2/red-dead-redemption-nintendo-switch-2-edition">Red Dead Redemption</a> got a sweet Nintendo Switch 2 Edition back in December 2025, but according to a new rumour from <a href="https://www.dealabs.com/magazine/red-dead-redemption-plusieurs-editions-physiques-en-approche-voici-leurs-prix-61260">Dealabs Magazine</a>, it might soon be getting a 'physical' release.</p>
-<p>Don't get too excited though, because it sounds like the Switch 2 version will be a 'code-in-a-box' monstrosity, meaning no cartridge will be included, only a poxy sheet of paper with a download code printed. Boo.</p>
-<p>It's apparently not too far off either, with writer billbil-kun stating that the release date for the retail edition is <strong>7th May 2026</strong>. A physical PS5 release will also supposedly launch on the same day, with both priced at <strong>€34.99</strong>.</p><div><figure data-videoid="hm2_k5F4Bcw" data-start="0" data-src="https://www.youtube.com/embed/hm2_k5F4Bcw?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><div><iframe id="ythm2_k5F4Bcw" title="YouTube Video" data-src-fallback="https://www.youtube-nocookie.com/embed/hm2_k5F4Bcw?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/hm2_k5F4Bcw?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed773614lmqtuo&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><p>Subscribe to <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1">Nintendo Life</a> on <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1"><span>YouTube</span><span>845k</span></a></p>
-</div></figure></div>
-<p>Naturally, just like the digital versions, the retail release will package the main game alongside the <strong>Undead Nightmare</strong> DLC, which remains to this day one of our favourite expansions. Chuck zombies into a game and we're happy, y'know?</p>
-<p>Whether you go for the code-in-a-box release or just a bog-standard eShop download, we reckon Red Dead Redemption is will worth a shot on Switch 2. We awarded it a score of <a href="https://www.nintendolife.com/reviews/nintendo-switch-2/red-dead-redemption-nintendo-switch-2-edition">9/10</a> and said "With slick controls, DLSS, HDR, volumetric effects, options to personalise mouse mode, 60fps that felt flawless, and a resolution bump that's got it looking super sharp, this is a gem that <em>still</em> feels modern, immediate, and relentlessly replayable on Switch 2".</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:195124,194651 @ 1776346738 -->
-<p><em>What do you make of this, dear reader? Are you tempted, or is a code-in-a-box release just one step too far for you? Let us know.</em></p></section>
-<p>[source <a title="External Link: https://www.dealabs.com/magazine/red-dead-redemption-plusieurs-editions-physiques-en-approche-voici-leurs-prix-61260" rel="noopener" href="https://www.dealabs.com/magazine/red-dead-redemption-plusieurs-editions-physiques-en-approche-voici-leurs-prix-61260">dealabs.com</a>]</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-info/360bf95cd3f59529c0877bbda3bbef83 @ 1776349164 --></div></article><div><p>Nintendo Life’s resident horror fanatic, when he’s not knee-deep in Resident Evil and Silent Hill lore, Ollie likes to dive into a good horror book while nursing a lovely cup of tea. He also enjoys long walks and listens to everything from TOOL to Chuck Berry.</p><ul><li><a href="https://www.nintendolife.com/authors/Olliemar28"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/ollie-nl.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Olliemar28');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
-</div></div></div><br/><br/>https://www.nintendolife.com/news/2026/04/rumour-red-dead-redemption-may-be-getting-a-rubbish-code-in-a-box-release]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Pokémon Legends: Z-A Ranked Battle Season 10 Start Date And Rewards Revealed]]></title>
-            <link>https://www.nintendolife.com/news/2026/04/pokemon-legends-z-a-ranked-battle-season-10-start-date-and-rewards-revealed</link>
-            <guid>1492903</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="body">
-<article id="article">
-<header><section>
-<p>Hop in next week</p>
-</section></header><div><section>
-<figure data-uuid="852d6e730b85d"><a title="Pokémon Legends: Z-A" href="https://images.nintendolife.com/852d6e730b85d/pokemon-legends-z-a.large.jpg"></a><figcaption><em><span></span> Image: Nintendo</em></figcaption></figure><p>If you can believe it, we're almost in the <em>tenth</em> season of Ranked Battles in <a href="https://www.nintendolife.com/games/nintendo-switch/pokemon_legends_z-a">Pokémon Legends: Z-A</a>. What is time?</p>
-<p>The Pokémon Company has today <a href="https://www.pokemon.com/uk/pokemon-news/earn-mega-stones-in-pokemon-legends-z-a-ranked-battles-season-10">revealed</a> that Season 10 will get underway next week on <strong>23rd April</strong> at <strong>6am UTC</strong>, and will be hanging around until <strong>14th May</strong>.</p>
-<p>As was the case with the last season, there's no big Mega Stone reward up for grabs this time, though you will once again unlock all previous Mega Stone rewards as you progress up the ranks. That means Greninjite, Delphoxite, Chesnaughtite, Baxcalibrite, Sceptilite, Swampertite, and Blazikenite are returning as promotion gifts from Ranks Y through to S.</p><div><figure data-videoid="Ty8h-8gLSNk" data-start="0" data-src="https://www.youtube.com/embed/Ty8h-8gLSNk?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1"><div><iframe id="ytTy8h-8gLSNk" title="YouTube Video" data-src-fallback="https://www.youtube-nocookie.com/embed/Ty8h-8gLSNk?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-src="https://www.youtube.com/embed/Ty8h-8gLSNk?rel=0&amp;hd=1&amp;showinfo=0&amp;modestbranding=0&amp;autohide=1" data-consent="targeting" frameborder="0" allowfullscreen="allowfullscreen" width="890" height="501" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" data-src-primis="https://live.primis.tech/live/liveView.php?s=117114&amp;vp_content=embed63b0c7oqgwjt&amp;schain=1.0,1!ziffdavis.com,22392450815,1"></iframe><p>Subscribe to <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1">Nintendo Life</a> on <a rel="noopener" href="https://www.youtube.com/nintendolife?sub_confirmation=1"><span>YouTube</span><span>845k</span></a></p>
-</div></figure></div>
-<p>Here's the exact time that Z-A's Ranked Battle Season 10 will get underway in your region:</p>
-<ul><li><strong>North America:</strong> 11pm (Wed) PDT / 12am MDT / 1am CDT / 2am EDT</li><li><strong>UK/Ire:</strong> 7am BST</li><li><strong>Europe:</strong> 8am CEST / 9am EEST</li><li><strong>Asia/Oceania:</strong> 3pm JST / 2pm AWST / 4pm AEST</li></ul>
-
-<p>Again, you'll only be able to participate in this season with Pokémon numbered 001–227 and 231 in the Lumiose Pokédex, and 001–127, 131, and 132 in the Hyperspace Pokédex, all of which will automatically be set to Level 50 for battling.</p>
-<p>Of course, this all means that there is one week left of Ranked Battle Season Nine. For the complete rundown of everything up for grabs in the current season, check out our full guide below.</p>
-<!-- cache: html:nintendolife.com/ssl/pokemon/related-articles:192564 @ 1776348496 -->
-<p><em>Will you be taking part in Z-A's Ranked Battle Season 10? Let us know in the comments.</em></p></section>
-<p>[source <a title="External Link: https://www.pokemon.com/uk/pokemon-news/earn-mega-stones-in-pokemon-legends-z-a-ranked-battles-season-10" rel="noopener" href="https://www.pokemon.com/uk/pokemon-news/earn-mega-stones-in-pokemon-legends-z-a-ranked-battles-season-10">pokemon.com</a>]</p>
-<!-- cache: html:nintendolife.com/ssl/pokemon/related-info/3d0fa29f1d21f03e21c85b616ff9bc1a @ 1776349050 --></div></article><div><p>Jim came to Nintendo Life in 2022 and, despite his insistence that The Minish Cap is the best Zelda game and his unwavering love for the Star Wars prequels (yes, really), he has continued to write news and features on the site ever since.</p><ul><li><a href="https://www.nintendolife.com/authors/JimNorman"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/jimnormann.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('JimNorman');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
-</div></div></div><br/><br/>https://www.nintendolife.com/news/2026/04/pokemon-legends-z-a-ranked-battle-season-10-start-date-and-rewards-revealed]]></content:encoded>
+<p>Hardware this week continues to highlight the Switch 2 as an exceptionally popular device over in Japan, with the console shifting a further 52,058 units. As for the PS5, combined sales for all three SKUs totals 8,673, which doesn't even beat sales for the Switch Lite on its own.</p>
+<p>It's clear that the recent price hikes for the PS5 are really starting to have an impact. The language-locked Digital Edition is still doing <em>okay</em>, but sales for the PS5 and PS5 Pro have absolutely tanked. Sony can't keep this up, surely.</p>
+<p>Here's the charts in full:</p>
+<table>
+<thead>
+<tr>
+<th>Position</th>
+<th>Console<br></th>
+<th><strong>Unit Sales</strong> <strong>(6th - 12th Apr)</strong><br></th>
+<th>Lifetime Unit Sales<br></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1<br></td>
+<td>Switch 2<br></td>
+<td>
+<p>52,058</p>
+</td>
+<td>5,063,117<br></td>
+</tr>
+<tr>
+<td>2<br></td>
+<td>
+<p>Switch Lite</p>
+</td>
+<td>10,630<br></td>
+<td>
+<p>6,914,594</p>
+</td>
+</tr>
+<tr>
+<td>3<br></td>
+<td>
+<p>Switch OLED</p>
+</td>
+<td>7,042<br></td>
+<td>9,533,371<br></td>
+</tr>
+<tr>
+<td>4<br></td>
+<td>PlayStation 5 Digital Edition<br></td>
+<td>6,426<br></td>
+<td>1,254,941<br></td>
+</tr><tr><td colspan="100%"></td></tr>
+<tr>
+<td>5<br></td>
+<td>
+<p>Switch</p>
+</td>
+<td>
+<p>3,462</p>
+</td>
+<td>20,274,507<br></td>
+</tr>
+<tr>
+<td>6<br></td>
+<td>
+<p>PlayStation 5</p>
+</td>
+<td>1,219<br></td>
+<td>5,911,693<br></td>
+</tr>
+<tr>
+<td>7<br></td>
+<td>
+<p>PlayStation 5 Pro</p>
+</td>
+<td>1,028<br></td>
+<td>342,576<br></td>
+</tr>
+<tr>
+<td>8<br></td>
+<td>
+<p>Xbox Series X Digital Edition</p>
+</td>
+<td>
+<p>502</p>
+</td>
+<td>29,864<br></td>
+</tr>
+<tr>
+<td>9<br></td>
+<td>
+<p>Xbox Series X</p>
+</td>
+<td>
+<p>110</p>
+</td>
+<td>
+<p>326,062</p>
+</td>
+</tr>
+<tr>
+<td>10<br></td>
+<td>
+<p>Xbox Series S</p>
+</td>
+<td>
+<p>73</p>
+</td>
+<td>341,695<br></td>
+</tr>
+</tbody>
+</table>
+<p><a href="https://www.nintendolife.com/news/2026/04/japanese-charts-switch-2-hits-another-milestone-as-pokemon-pokopias-reign-continues">&lt; Previous charts</a></p>
+<hr>
+<p><em>What do you make of the current hardware situation over in Japan? Let us know your thoughts on the Japanese Charts below.</em></p></section>
+<p>[source <a title="External Link: https://www.famitsu.com/article/202604/72113" rel="noopener" href="https://www.famitsu.com/article/202604/72113">famitsu.com</a>]</p>
+<!-- cache: html:nintendolife.com/ssl/nintendo-switch/related-info/0cafcdd7980df7d2201dfb7a9cfa2992 @ 1776350383 --></div></div><br/><br/>https://www.nintendolife.com/news/2026/04/japanese-charts-combined-ps5-sales-cant-even-beat-switch-lite]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
