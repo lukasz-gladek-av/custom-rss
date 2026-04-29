@@ -4,9 +4,44 @@
         <title>Eurogamer.net RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/eurogamer_net_full.xml</link>
         <description>Full article content from Eurogamer.net</description>
-        <lastBuildDate>Wed, 29 Apr 2026 12:33:50 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 29 Apr 2026 13:35:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Fears mount that PlayStation has "re-armed the CBOMB" issue which stops you playing purchased games, amid 30-day DRM and AI chat bot confusion]]></title>
+            <link>https://www.eurogamer.net/playstation-digital-games-30-day-online-drm</link>
+            <guid>https://www.eurogamer.net/playstation-digital-games-30-day-online-drm</guid>
+            <content:encoded><![CDATA[https://www.eurogamer.net/playstation-digital-games-30-day-online-drm<br/><br/><div id="readability-page-1" class="page"><div data-component="article-content">
+
+
+            <p>PlayStation users have discovered an issue whereby some digital games become unplayable unless an online connection is made every 30 days - although further community digging suggests it seems to be only a one-off, temporary form of digital rights management (commonly known as DRM).</p>
+<p>The 30-day countdown appears to have been first discovered on 25 April by <a href="https://www.youtube.com/watch?v=YIPuXAd6KCA">YouTuber Modded Warfare</a>, who noticed its presence next to newly bought PlayStation 4 games. The initial suspicion was that this was a new form of DRM suddenly added by Sony, which required an internet connection at least once every 30 days for purchased games to be playable.</p>
+<figure>
+<div>
+<p><span data-type="targeting">
+<span>To see this content please enable targeting cookies.</span>
+</span> </p>
+</div>
+<figcaption>Here are some PlayStation 5 games coming out soon.<a href="https://www.youtube.com/watch?v=so29Sguz6Y4" rel="noopener" target="_blank">Watch on YouTube</a></figcaption>
+</figure>
+<p>This was the suspicion because, as discovered by subsequent testers of this new validity countdown such as <a href="https://www.youtube.com/watch?v=dR_MPkTlrN8&amp;t=4s">Spawn Wave on YouTube</a>, if it reached zero before an internet connection was established, access to purchased games was locked off. This DRM does not impact physical games, nor games bought in the past.</p><p>On the PlayStation 5, this problem exists as well, though with a few interesting differences. For one, the aforementioned timer is not viewable. In addition, an error message pops up when starting a game if not verified with an online connection.</p>
+<p>This also impacts consoles with a dead CMOS battery, which is a non-rechargeable power source for a system's internal clock. With this issue, if your console CMOS battery dies, digital games on the PS4 from then on could be rendered unplayable.</p>
+<p>Some of you might remember those: dead CMOS batteries were a source of fear surrounding the <a href="https://www.eurogamer.net/sony-has-quietly-fixed-playstation-4s-dead-battery-issue">"CBOMB" problem a few years back</a>. Players found they were locked out of digital games if their CMOS battery died, and <a href="https://www.eurogamer.net/sony-has-quietly-fixed-ps5s-dead-battery-issue">while this was quickly fixed</a> by Sony, a digital timer to validate digital games would essentially replicate this problem.</p>
+<p>Following the discovery of this latest digital timer, the initial suggestions were that its implementation was a bug. <a href="https://bsky.app/profile/doesitplay.org/post/3mkd3mlk3jt2q">Video game preservation outlet Does it Play</a> claims to have been informed by an anonymous insider that this DRM issue was "unintentional", and that Sony had "accidentally broke something while fixing an exploit".</p><p>Even if this was implemented unintentionally, the fact this sort of online validity check exists is an eyebrow-raiser. That's doubly true amid ongoing consumer rights debates <a href="https://www.eurogamer.net/stop-killing-games-european-parliament">such as the Stop Killing Games movement</a>, which has spoken in EU parliament in recent weeks. Being denied access to games due to a lack of internet connection has historically not been popular in video games, for obvious reasons.</p>
+<p>Others, such as <a href="https://www.resetera.com/threads/sonys-digital-drm-issue-of-mandatory-activation-every-30-days-reason-potentially-found.1501771/page-7#post-154305715">a user who goes by Andshrew on ResetEra</a>, have done some deeper digging, and discovered another wrinkle. According to Andshrew, it appears newly acquired games are given a temporary 30-day offline license. Then, once players connect to the internet after the 15th day of ownership, this transitions into an infinite offline play license - in other words, one which no longer requires you to connect to the internet every 30 days to maintain access. In the past, players were given this infinite license indefinitely.</p>
+<p>So why has this been implemented? Some are looking at the transition from limited license to infinite license on the 15th day - coincidentally right after the refund window cutoff - as a sign this DRM is some sort of response from Sony to potential exploits. As Andshrew put it: "I am speculating that perhaps people were exploiting the fact that you could purchase a game, grab the indefinite license file for the thing off of an exploitable PS4 and then refund the purchase - and Sony is currently mitigating this issue by time limiting the initial license that you are issued."</p>
+<p>In the meantime, in lieu of any public acknowledgement from Sony, some PlayStation owners have decided to raise the issue with Sony customer support, and it's here things get interesting. <a href="https://bsky.app/profile/doesitplay.org/post/3mkjxhz4jhd2f">Screenshots</a> of Sony customer support bots confirming the existence and apparent intentionality of the 30-day online checks have emerged online.</p><p>However, the validity of these screenshots have been called into question, thanks to both the proliferation of generative AI for faking images of this kind, and a lack of official response from Sony. Eurogamer tried using Sony's PlayStation AI support bot to replicate these conversations as seen in the apparent screenshots, but had no luck.</p>
+<p>On top of those doubts, these support chat bots are also powered by generative AI themselves. As such, if the screenshots of support conversations are indeed valid, another question arises: whether the information passed along by those bots is true, or instead merely a regurgitation of the already existing public speculation online.</p>
+<p>So, why should a regular PlayStation owner care about this stuff? Eurogamer contacted Does it Play for insight into how this could affect the run-of-the-mill Sony fan.</p>
+<p>"As with every DRM, it represents an additional hurdle for customers to access their purchases," Does it Play said. "That on principle is an annoyance, although you can understand that Sony wanted to close the refund exploit. The problems now are that, for one, they didn't communicate any of these changes, and for two, that makes for a bad surprise for people who thought they were fine after purchasing the game.</p><p>"Previously, setting your console to primary let you play your digital games indefinitely without additional checks. Now, everyone who doesn't actively look for the timer on PS4, and every user on PS5 (since there is no timer visible) will be surprised by another mandatory online check and be locked out of their games, if they went offline after the purchase.</p>
+<p>"There are of course countless reasons why you would want to be offline (not being harassed by automatic updates, not being forced to download updates you don't want, etc.) and reasons why people might not be able to go online (ISP outages, missing infrastructure in remote areas, etc.)."</p>
+<p>For Does it Play, the CMOS battery issue is a particular concern, one that Sony doesn't yet appear to have an acceptable solution for. "The bigger issue is that this DRM update re-armed the CBOMB for new purchases. If your CMOS battery dies, the system can't track time and therefore [cannot] verify licenses. We need to see what happens for games when the 14 day period expires and they are supposed to get the eternal license after the additional online check.</p>
+<p>"In general, adding to the fact that you rely on Sony to keep the downloads available for the games to have access to them, you now also need them to keep the authentication available or mitigate it at End of Life (EOL) for a console. Otherwise, you might lose access to your purchased games. Likely a short window at the end of a console's life, but it is a concern."</p>
+<p>Eurogamer has contacted PlayStation for comment on why this was implemented, and how dead CMOS battery concerns will be addressed.</p>
+
+        </div></div>]]></content:encoded>
+            <dc:creator>Connor Makar</dc:creator>
+        </item>
         <item>
             <title><![CDATA[In the wake of $100 GTA 6 rumours, Take-Two still won't give an actual price, but says "our job is to charge way, way, way less of the value"]]></title>
             <link>https://www.eurogamer.net/gta-6-rockstar-take-two-price-expectation-player-experience</link>
@@ -617,7 +652,7 @@ See 1 more              <span></span>
 
 <p>But The Blood of Dawnwalker gets more exciting when you consider its differences. The most obvious of these is that we're playing as a vampire, a Dawnwalker, who presents as a human by day and turns into a vampire at night - state changes that, naturally, bestow us with varying gameplay opportunities. But perhaps the biggest point of difference is in the game's structure. <a href="https://www.eurogamer.net/the-witcher-3-directors-new-rpg-the-blood-of-dawnwalker-is-different-to-that-classic-cd-projekt-red-game-in-one-big-way-it-doesnt-have-a-main-quest">We're not led through this world by a main quest</a>.</p><p>Instead, we have a "narrative sandbox" - a phrase heard a lot over the course of my day at Rebel Wolves - where we make our own story, picking our path through the open-world playing area. There's an overarching goal to rescue our family from the vampires in 30 days and 30 nights, but even that's a soft goal: we can absolutely fail to do it, I'm told. Governing all of this is the game's deliberate control of time, whereby every quest (barring some bandit camp clear-out activities) will have a time cost associated with it, which you'll see denoted by an hourglass symbol. You are in control of time here - it won't passively slip through your fingers - and it's crucially important to everything you do.</p>
 <p>This has caused some concern among players, who fear they won't be able to vacuum clean the game's map and complete quests as they can in other RPGs. While it's true that, yes, The Blood of Dawnwalker has been designed specifically to make you choose a path and therefore write your own distinct story in the game - not the same one as everyone else - there is still a lot you are able to do.</p>
-<p>"It would be super harsh if you would miss out on like 70 percent of the content," game director Mateusz Tomaszkiewicz tells me, coincidentally Konrad's brother. "I think people would be rightly annoyed with it. It's the other way around: we made it quite liberal, so on an average playthrough, if you do most things and don't limit yourself, you're able to do around 80 percent of the content before the clock runs out."</p>
+<p>"It would be super harsh if you would miss out on like 70 percent of the content," creative director Mateusz Tomaszkiewicz tells me, coincidentally Konrad's brother. "I think people would be rightly annoyed with it. It's the other way around: we made it quite liberal, so on an average playthrough, if you do most things and don't limit yourself, you're able to do around 80 percent of the content before the clock runs out."</p>
 <figure>
  
 
@@ -8193,124 +8228,6 @@ See 1 more              <span></span>
 
 
 </div>
-
-  <section>
-    <span>Related topics</span>
-
-    
-  </section>
-  </div></div>]]></content:encoded>
-            <dc:creator>Victoria Phillips Kennedy</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Former The Last of Us developer teases yet-to-be-explored plot points which, if realised, will have major ramifications for the series]]></title>
-            <link>https://www.eurogamer.net/naughty-dog-the-last-of-us-leak-rumour-ellie-joel</link>
-            <guid>https://www.eurogamer.net/naughty-dog-the-last-of-us-leak-rumour-ellie-joel</guid>
-            <content:encoded><![CDATA[https://www.eurogamer.net/naughty-dog-the-last-of-us-leak-rumour-ellie-joel<br/><br/><div id="readability-page-1" class="page"><div>
-      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
-
-
-<header data-component="article-header">
-  
-
-    
-
-
-  <p>
-
-  <figure>
-      <picture>
-        <source srcset="https://assetsio.gnwcdn.com/Ellie-in-The-Last-of-Us-holds-out-her-arm.-She-has-her-sleeve-rolled-up-and-there-is-a-bite-shaped-mark-on-her-arm.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Ellie-in-The-Last-of-Us-holds-out-her-arm.-She-has-her-sleeve-rolled-up-and-there-is-a-bite-shaped-mark-on-her-arm.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Ellie-in-The-Last-of-Us-holds-out-her-arm.-She-has-her-sleeve-rolled-up-and-there-is-a-bite-shaped-mark-on-her-arm.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Ellie-in-The-Last-of-Us-holds-out-her-arm.-She-has-her-sleeve-rolled-up-and-there-is-a-bite-shaped-mark-on-her-arm.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Ellie-in-The-Last-of-Us-holds-out-her-arm.-She-has-her-sleeve-rolled-up-and-there-is-a-bite-shaped-mark-on-her-arm.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Ellie-in-The-Last-of-Us-holds-out-her-arm.-She-has-her-sleeve-rolled-up-and-there-is-a-bite-shaped-mark-on-her-arm.jpg?width=570&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Ellie-in-The-Last-of-Us-holds-out-her-arm.-She-has-her-sleeve-rolled-up-and-there-is-a-bite-shaped-mark-on-her-arm.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Ellie-in-The-Last-of-Us-holds-out-her-arm.-She-has-her-sleeve-rolled-up-and-there-is-a-bite-shaped-mark-on-her-arm.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/Ellie-in-The-Last-of-Us-holds-out-her-arm.-She-has-her-sleeve-rolled-up-and-there-is-a-bite-shaped-mark-on-her-arm.jpg?width=570&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>Naughty Dog</cite></span>
-        </figcaption>
-  </figure>
-  </p>
-
-    
-
-</header>
-  <div data-component="article-content">
-
-
-            <p>A former <a href="https://www.eurogamer.net/companies/naughty-dog">Naughty Dog</a> developer who worked on The Last of Us has let slip a rather surprising conversation he had with series creator Neil Druckmann, which could have major implications for any future games.</p>
-<p><strong>Please be aware of major spoilers for The Last of Us below.</strong></p>
-
-<figure>
-<p>
-<a aria-label="The Last of Us Part 1 - Official PC Launch Trailer" data-platform="youtube" href="https://www.youtube.com/embed/7MIv2mNPohE?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
-<span>The Last of Us Part 1 - Official PC Launch Trailer</span>
-<template>
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/7MIv2mNPohE?autoplay=1" frameborder="0" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/7MIv2mNPohE?autoplay=1" title="The Last of Us Part 1 - Official PC Launch Trailer">
-</iframe> </template>
-</a>
-</p>
-<figcaption>The Last of Us Part 1 - Official PC Launch Trailer. <a href="https://www.youtube.com/watch?v=7MIv2mNPohE" rel="noopener" target="_blank">Watch on YouTube</a></figcaption></figure>
-
-
-<p>As those who have played The Last of Us and its sequel The Last of Us Part 2 will know, Ellie is immune to the Cordyceps infection which has devastated humanity. Much of the first game is Joel escorting Ellie across America to get to the Fireflies, who plan to use Ellie's immunity to create a cure for the infection. Ellie is seen as being the answer to humanity's salvation, and a lot is riding on Joel delivering her safely to the Fireflies. However, when it becomes apparent that in order to make a cure Ellie will die, Joel massacres the Fireflies to save her, and in doing so kills off any chance of a cure being created.</p><p>Or, did he? In an interview with YouTuber Kiwi Talkz, former Naughty Dog lighting artist Gabriel Betancourt claimed that when he was still at the studio, Druckmann told him that "several people" in this world are actually immune to Cordyceps, and that there is "a whole congregation of that kind of person".</p>
-<p>According to Betancourt, Druckmann wanted to tell a "more sophisticated story", with "multiple characters and kind of expand on that". Though, as Betancourt also said during the conversation, this would surely dilute the impact of Joel's decision at the end of The Last of Us.</p>
-<figure>
- 
-
-
-<figcaption><span>Image credit: <cite>Naughty Dog</cite></span></figcaption>
-</figure>
-<p>"I felt like the pillar of the story was Ellie being the only person with the cure," Betancourt said. "And so protecting her, and making sure she got to where she needs to go to save humanity - because without the cure life is hopeless - that's what created the gravity of that world. That was the context that made The Last of Us special."</p><p>It is unclear if Druckmann and Naughty Dog may still explore the possibility of more immune survivors in a potential third series entry - after all, this conversation happened many years ago, and Betancourt is no longer at the studio, so plans may have changed. That being said, earlier this year, <a href="https://www.eurogamer.net/the-last-of-us-creator-neil-druckmann-teases-a-few-stops-left-for-its-post-apocalyptic-series">Druckmann teased a "few stops" still left on the series' "road ahead"</a>, though a third The Last of Us game is yet to be announced. Personally, if we do get another entry, I hope Ellie remains the only person immune to Cordyceps.</p>
-<p>You can check out the full conversation with Betancourt below.</p>
-
-<figure>
-<p>
-<a aria-label="#206 - Gabriel Betancourt Interview On Naughty Dog, Last Of Us, Neil Druckmann, Lighting, Nintendo" data-platform="youtube" href="https://www.youtube.com/embed/GLK-QXpStiY?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
-<span>#206 - Gabriel Betancourt Interview On Naughty Dog, Last Of Us, Neil Druckmann, Lighting, Nintendo</span>
-<template>
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/GLK-QXpStiY?autoplay=1" frameborder="0" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/GLK-QXpStiY?autoplay=1" title="#206 - Gabriel Betancourt Interview On Naughty Dog, Last Of Us, Neil Druckmann, Lighting, Nintendo">
-</iframe> </template>
-</a>
-</p>
-<figcaption>Gabriel Betancourt Interview On Naughty Dog, Last Of Us, Neil Druckmann, Lighting, Nintendo. <a href="https://www.youtube.com/watch?v=GLK-QXpStiY" rel="noopener" target="_blank">Watch on YouTube</a></figcaption></figure>
-
-
-<p>Naughty Dog is currently working on Intergalactic: The Heretic Prophet, which is the start of an all new franchise for the studio. The game was first announced at the end of 2024, with a trailer <a href="https://www.eurogamer.net/naughty-dog-announces-all-new-ip-intergalactic-the-heretic-prophet">featuring a retro futuristic energy that introduced us to Tati Gabrielle's bounty hunter</a>, Jordan A Mun.</p>
-<p>While we still don't know a huge amount about Naughty Dog's upcoming release, <a href="https://www.eurogamer.net/after-the-hate-directed-at-the-last-of-us-part-2-naughty-dog-boss-says-next-game-about-the-entirely-uncontroversial-topics-of-faith-and-religion">Druckmann revealed last March that Intergalactic: The Heretic Prophecy explores the topics of "faith and religion"</a>.</p>
-
-        </div>
-
-  
-      </article>
-
-
-
-  
-
-
-
-  <section>
-        
-
-
-    
-
-      <details>
-        <summary>
-See 1 more              <span></span>
-
-        </summary>
-
-        
-      </details>
-  </section>
 
   <section>
     <span>Related topics</span>
