@@ -4,9 +4,540 @@
         <title>maGaming RSS Feed - insider-gaming.com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/insider-gaming_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for insider-gaming.com</description>
-        <lastBuildDate>Thu, 14 May 2026 12:38:12 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 May 2026 13:35:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Gray Zone Warfare Gets New ‘Player Visibility’ Mechanics in Latest Update]]></title>
+            <link>https://insider-gaming.com/gray-zone-warfare-new-player-visibility-mechanics-update/</link>
+            <guid>1520032</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+        
+<p>MADFINGER Games has unveiled the 0.4.2.0 update for Gray Zone Warfare, introducing some promised mechanics as part of a fast-paced, iterative upgrade path. Following the deployment of the <a href="https://insider-gaming.com/reviews/gray-zone-warfare-review-0-4-welcome-to-the-jungle/" id="184123" target="_blank" rel="noreferrer noopener">massive 0.4 overhaul</a>, the team pledged to produce rapid, small-form updates, and 0.4.2.0 brings about the second batch of changes.</p>
+
+
+
+<p>At the heart of 0.4.2.0 is a slew of new player visibility mechanics, centered around the <strong>new HUD widget</strong>, which the team at MADFINGER talked about when rolling out 0.4 in March.</p>
+
+
+
+
+
+
+
+<h2 id="h-understanding-visibility-in-gray-zone-warfare">Understanding Visibility in Gray Zone Warfare</h2>
+
+
+
+<p>Gray Zone Warfare’s latest change comes courtesy of a community-wide desire to better understand <strong>player visibility</strong>. It’s not always easy to know when the enemy is more likely to spot you in the jungle of Lamang, and in the 0.4.2.0 update, MADFINGER Games has answered that concern directly.</p>
+
+
+
+<p>The team has introduced a player visibility HUD widget, which represents how visible you are to AI NPCs. It takes data from all kinds of inputs: position, lighting, cover, and stance. It then feeds that into the widget to let you know how likely you are to be spotted and gunned down with reckless abandon.</p>
+
+
+
+<p>It’s linked closely to the new, darker nights, which were already oppressive enough, but are now downright gnarly. If you’re in the dark, you’re <strong>in the dark</strong>, and that reflects in how well enemies can see you, of course.</p>
+
+
+
+<p>The update also adds further tweaks to enemy AI behavior, such as how combatants react to injuries, which in turn impacts their tactics and decision-making mechanics.</p>
+
+
+
+<p>Elsewhere, a <strong>stack </strong>of bug fixes was applied by MADFINGER in the 0.4.2.0 update:</p>
+
+
+
+<p><strong>AI</strong></p>
+
+
+
+<ul>
+<li>Fixed an issue where AI NPCs could engage players from longer distances than intended</li>
+
+
+
+<li>Fixed an issue where AI patrols failed to react to players and remained unresponsive</li>
+
+
+
+<li>Adjusted AI NPCs’ behavior to reposition more frequently and reposition to smaller cover positions more frequently</li>
+
+
+
+<li>Added additional AI NPCs in areas between points of interest (POI)</li>
+
+
+
+<li>Added additional AI NPCs to late-game areas</li>
+
+
+
+<li>Increased the overall AI difficulty in the late-game areas</li>
+
+
+
+<li>Increased AI NPCs’ accuracy in all areas</li>
+</ul>
+
+
+
+<p><strong>Gameplay</strong></p>
+
+
+
+<ul>
+<li>Fixed an issue where vomiting or fainting interrupted healing actions</li>
+
+
+
+<li>Fixed an issue where grenades could fail to throw when switching stances during the throw animation</li>
+
+
+
+<li>Fixed an issue where military miscellaneous loot could be placed into a wallet</li>
+
+
+
+<li>Fixed an issue where placing a task item into an admin pouch could cause it to disappear during handover</li>
+
+
+
+<li>Fixed an issue where some keys could not be placed in the Admin Pouch or Kombat Folder</li>
+
+
+
+<li>Adjusted the loot distribution in Ban Pa to better match the area’s difficulty</li>
+</ul>
+
+
+
+<p><strong>Weapons and weapon parts</strong></p>
+
+
+
+<ul>
+<li>Fixed an issue where the repair cost of the M-201C pistol was affected incorrectly by front and rear sight durability</li>
+
+
+
+<li>Fixed an issue where players could not buy the&nbsp;magazine&nbsp;for&nbsp;Buran’s boss weapon&nbsp;after completing the required task</li>
+
+
+
+<li>Fixed an issue where weapon part compatibility settings were ignored during part swapping</li>
+
+
+
+<li>Fixed an issue that prevented weapon parts from swapping if they were placed in pockets</li>
+</ul>
+
+
+
+<p><strong>Visual and Rendering</strong></p>
+
+
+
+<ul>
+<li>Fixed an issue where the IR laser’s impact point was visible without night vision goggles (NVGs) at certain distances</li>
+
+
+
+<li>Fixed an issue where low-detail vegetation models were visible at incorrect distances</li>
+
+
+
+<li>Adjusted the visual effects of hits at longer distances</li>
+
+
+
+<li>Reduced the muzzle flash effect on suppressors</li>
+</ul>
+
+
+
+<p><strong>Tasks</strong>&nbsp;<strong>and Tutorial</strong></p>
+
+
+
+<ul>
+<li>Fixed an issue where players could not hand in the task item for the task “In the right hands”</li>
+
+
+
+<li>Fixed an issue where task progression did not reset after force-closing the game while in a coma</li>
+
+
+
+<li>Fixed an issue where some tasks could be blocked from activating due to other tasks being too close</li>
+
+
+
+<li>Fixed an issue where players were able to perform actions before receiving the tutorial prompt during the shooting range tutorial</li>
+
+
+
+<li>Fixed an issue where a player might get stuck in the tutorial by completing tasks too quickly</li>
+
+
+
+<li>Fixed an issue where tutorial hints were displayed over the open field manual or settings screen</li>
+
+
+
+<li>Changed the location of the MCX Chameleon magazine to another part of the hotel lobby</li>
+</ul>
+
+
+
+<p><strong>User Interface</strong></p>
+
+
+
+<ul>
+<li>Fixed an issue where the Complete button was hidden behind the task panel on the map screen</li>
+
+
+
+<li>Fixed an issue where the loot window closed unexpectedly while looting</li>
+
+
+
+<li>Fixed an issue where splitting stacks of money or ammo in a dropped backpack did not update the value on the original stack</li>
+
+
+
+<li>Fixed an issue where online status notifications were displayed incorrectly</li>
+
+
+
+<li>Fixed an issue where pressing the drop key while hovering over overlapping items triggered a critical failure error message</li>
+
+
+
+<li>Fixed an issue where a previously used character name could sometimes appear in the user interface after a character wipe</li>
+
+
+
+<li>Adjusted the ban duration display on the ban screen to better reflect the remaining time</li>
+</ul>
+
+
+
+<p><strong>World</strong></p>
+
+
+
+<ul>
+<li>Fixed an issue where some vegetation did not react properly to bullets and remained static</li>
+
+
+
+<li>Fixed an issue where some windows in Midnight Sapphire were impenetrable</li>
+
+
+
+<li>Fixed an issue where players were unable to walk over a fallen fence near Pha Lang Airfield</li>
+
+
+
+<li>Fixed an issue where the third cache in the “Cache Report” task was a box instead of a cache</li>
+
+
+
+<li>Fixed the position of a misplaced jewelry box in Hidden Rock POI</li>
+</ul>
+
+
+
+<p><strong>Other fixes and tweaks</strong></p>
+
+
+
+<ul>
+<li>Adjusted the sell price for the ATM hacking tool</li>
+
+
+
+<li>Reduced the drop chance of grenades for selected AI NPCs</li>
+
+
+
+<li>Fixed an issue where inactive light sources increased players’ visibility as if they were active</li>
+
+
+
+<li>Fixed a minor animation glitch when switching from a primary weapon to a grenade</li>
+
+
+
+<li>Fixed an issue where players could be kicked from a server after joining a squad and then connecting to a new server</li>
+
+
+
+<li>Various text tweaks</li>
+
+
+
+<li>Various server and client crash fixes</li>
+</ul>
+
+
+
+<p><strong>Fixed the following locations where players could get stuck:</strong></p>
+
+
+
+<p><strong>Starter Town areas</strong></p>
+
+
+
+<ul>
+<li>between rocks overlooking the Criminal Hideout</li>
+
+
+
+<li>at two spots near the Criminal Hideout</li>
+
+
+
+<li>in a corner of the garden of the Criminal Hideout</li>
+
+
+
+<li>next to a wall near the Criminal Hideout</li>
+
+
+
+<li>in rocks near Hilltop Villas</li>
+
+
+
+<li>on a curb near Hilltop Villas</li>
+
+
+
+<li>in an empty building in the center</li>
+
+
+
+<li>in various street food shops at the Marketplace</li>
+
+
+
+<li>between a fence and a tree near the Warehouse</li>
+
+
+
+<li>on a blocked staircase in a house near the Marketplace</li>
+
+
+
+<li>between a wall and a tree near the Warehouse</li>
+
+
+
+<li>in the collision gap near the Lumberyard</li>
+
+
+
+<li>underneath the house near Small Marketplace, west of Khonwan Village (180, 121)</li>
+
+
+
+<li>between a fence and a tree near Kiu Vongsa (145, 161)</li>
+
+
+
+<li>between rocks and trees near Nam Thaven Viewpoint (162, 116)</li>
+</ul>
+
+
+
+<p><strong>Base Camp areas</strong></p>
+
+
+
+<ul>
+<li>between a bench and a table at Motel locations near base camps</li>
+
+
+
+<li>when going prone under tables at Restaurant locations near base camps</li>
+</ul>
+
+
+
+<p><strong>Tiger Bay area</strong></p>
+
+
+
+<ul>
+<li>in a tree near Tiger Bay shopping center (200, 128)</li>
+</ul>
+
+
+
+<p><strong>Ban Pa area</strong></p>
+
+
+
+<ul>
+<li>at two spots at the base of the Elder house (205, 137)</li>
+
+
+
+<li>between a mountain and a palm tree (191, 136)</li>
+
+
+
+<li>between boxes on the ground below a house (205, 137)</li>
+</ul>
+
+
+
+<p><strong>Blue Lagoon area</strong></p>
+
+
+
+<ul>
+<li>in rocks with a missing collision near the Kapu Boat Rental (209, 122)</li>
+</ul>
+
+
+
+<p><strong>Pha Lang Airfield area</strong></p>
+
+
+
+<ul>
+<li>under an airplane in Remote Hangars (176, 158)</li>
+</ul>
+
+
+
+<p><strong>Fort Narith (FN) area</strong></p>
+
+
+
+<ul>
+<li>in a hole near FN-3 Base (150, 135)</li>
+</ul>
+
+
+
+<p><strong>Hunter’s Paradise area</strong></p>
+
+
+
+<ul>
+<li>at two spots near the Leuod Waterfalls (157, 167)</li>
+
+
+
+<li>between rocks near Sunset Chalet (167, 157)</li>
+</ul>
+
+
+
+<p><strong>Midnight Sapphire area</strong></p>
+
+
+
+<ul>
+<li>at Villa Petra entrance (174, 165)</li>
+</ul>
+
+
+
+<p><strong>YBL-1 area</strong></p>
+
+
+
+<ul>
+<li>between rocks near YBL-1 W (138, 120)</li>
+
+
+
+<li>between rocks in Ban Suk (159, 125)</li>
+
+
+
+<li>between rocks and a tree in Ban Nong (150, 120)</li>
+</ul>
+
+
+
+<p><strong>Sawmill area</strong></p>
+
+
+
+<ul>
+<li>between rocks near Phousai Village (145, 146)</li>
+
+
+
+<li>at two spots between rocks near the ROMEO 1 landing zone (144, 151)</li>
+
+
+
+<li>in the wooden shed near the ATLAS COP (140, 154)</li>
+
+
+
+<li>behind barrels in the trenches (130, 149)</li>
+</ul>
+
+
+
+
+
+
+
+<p>Does this update sound like something you want to check out? Let us know if you’re playing Gray Zone Warfare on the <a href="https://discord.com/invite/vwj7zdWxaW">Insider Gaming Discord server</a>.</p>
+
+
+
+<hr>
+
+
+
+<p>For more Insider Gaming coverage, check out the news that <a href="https://insider-gaming.com/next-major-arc-raiders-update-october-embark-slow-down/">ARC Raiders updates have been cut down</a></p>
+
+
+        <div>
+              <!-- Row 1: Avatar + Name/Title + Socials -->
+              <div>
+                  
+
+                  <p>
+                      Senior Editor and Esports Lead                    </p>
+                                  </div>
+
+              <!-- Row 2: Bio + CTA -->
+                              <div>
+                  <p>
+                    Grant has been gaming for 30+ years and in the industry for 10+. You'll probably find him playing a post-apocalyptic game or an extraction shooter somewhere.                  </p>
+                  <p><a href="https://insider-gaming.com/author/grant-taylor-hill/">
+                    More from Grant Taylor-Hill                  </a>
+                </p></div>
+                          </div>
+            
+
+    <div id="ig-app-cta">
+          <p><i></i> MOBILE APP</p>
+          <h2>Level Up Your Gaming News</h2>
+          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
+          
+          <p><i></i> Available on iOS &amp; Android</p>
+        </div>
+
+    
+    
+    </div></div><br/><br/>https://insider-gaming.com/gray-zone-warfare-new-player-visibility-mechanics-update/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[Forza Horizon 6 Treasure Hunter: All FH6 Treasure Cars & Exact Locations]]></title>
             <link>https://insider-gaming.com/forza-horizon-6-treasure-hunter-treasure-cars/</link>
@@ -746,293 +1277,6 @@
     
     
     </div></div><br/><br/>https://insider-gaming.com/iem-atlanta-playoff-preview-navi-vs-vitality/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[ARC Raiders Hits 16 Million Sales and Secures ‘Exceptionally High’ Engagement]]></title>
-            <link>https://insider-gaming.com/arc-raiders-sales-exceptionally-high-engagement/</link>
-            <guid>1519846</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-        
-<p><a href="https://insider-gaming.com/tag/nexon/" id="1212" target="_blank" rel="noreferrer noopener">Nexon</a> has published a massive financial report that digs into Q1 2026 results, which naturally includes the performance of Embark Studios and, by association, ARC Raiders. It turns out that ARC Raiders is still exceeding expectations, despite a recent downturn in sentiment.</p>
-
-
-
-<p>ARC Raiders, the revolutionary extraction adventure game released in October, has hit a whopping 16 million sales, making it the best-selling game in Nexon’s history. It shipped a massive 4.6 million units in Q1 2026 alone, and is maintaining stunning engagement figures, the gaming titan confirmed.</p>
-
-
-
-
-
-
-
-<h2 id="h-arc-raiders-isn-t-going-anywhere">ARC Raiders Isn’t Going Anywhere</h2>
-
-
-
-<p>Despite recent complaints about Embark Studios’ pivot away from monthly updates, the ARC Raiders ecosystem is going nowhere anytime soon. The game continues to sell like hot cakes, and Nexon has sung the title’s praises in a recent financial update.</p>
-
-
-
-<p>It was confirmed that <a href="https://pdf.irpocket.com/C3659/WUpy/qICh/qPCH.pdf" target="_blank" rel="noreferrer noopener nofollow">ARC Raiders has sold</a> through 16 million copies, and more than half of active players have logged more than 100 hours of playtime, which the company dubbed ‘exceptionally high engagement.’</p>
-
-
-
-<p>The team also confirmed that an ISBN license has been obtained in China and that multiple closed beta tests are coming this year, which will introduce the title to a massive new market, bolstering sales further.</p>
-
-
-
-<p>Later this year, ARC Raiders will undergo a monumental update, named Frozen Trail, which will introduce the largest map yet, multiple new ARC enemies, a massive ARC operation, and new ways to progress. This was announced yesterday, along with confirmation that Embark Studios is slowing down on iteration to keep things fresher, but with longer gaps between major updates.</p>
-
-
-
-
-
-
-
-<p>Are you eager to see where ARC Raiders goes from here? Let us know your thoughts on the <a href="https://discord.com/invite/vwj7zdWxaW">Insider Gaming Discord server</a>.</p>
-
-
-
-<hr>
-
-
-
-<p>For more Insider Gaming coverage, check out the news that <a href="https://insider-gaming.com/amazon-lord-of-the-rings-mmo-game-not-done/">Amazon isn’t done with The Lord of the Rings</a></p>
-
-
-        <div>
-              <!-- Row 1: Avatar + Name/Title + Socials -->
-              <div>
-                  
-
-                  <p>
-                      Senior Editor and Esports Lead                    </p>
-                                  </div>
-
-              <!-- Row 2: Bio + CTA -->
-                              <div>
-                  <p>
-                    Grant has been gaming for 30+ years and in the industry for 10+. You'll probably find him playing a post-apocalyptic game or an extraction shooter somewhere.                  </p>
-                  <p><a href="https://insider-gaming.com/author/grant-taylor-hill/">
-                    More from Grant Taylor-Hill                  </a>
-                </p></div>
-                          </div>
-            
-
-    <div id="ig-app-cta">
-          <p><i></i> MOBILE APP</p>
-          <h2>Level Up Your Gaming News</h2>
-          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
-          
-          <p><i></i> Available on iOS &amp; Android</p>
-        </div>
-
-    
-    
-    </div></div><br/><br/>https://insider-gaming.com/arc-raiders-sales-exceptionally-high-engagement/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Amazon Isn’t Done With Lords of the Rings Games, Despite MMO Cancelation]]></title>
-            <link>https://insider-gaming.com/amazon-lord-of-the-rings-mmo-game-not-done/</link>
-            <guid>1519843</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-        
-<p>Late last year, it was suspected that Amazon had done away with the developing <a href="https://insider-gaming.com/tag/the-lord-of-the-rings/" id="410" target="_blank" rel="noreferrer noopener">Lord of the Rings</a> MMO. The belief that the game had been axed came after news surfaced on social media regarding layoffs at Amazon Games, which impacted the ‘fledgling Lord of the Rings game’.</p>
-
-
-
-<p>It was never <strong>explicitly confirmed </strong>that it had been canceled, but a new comment from Amazon’s Head of Games, Jeff Grattis, seems to align with that notion. It’s not all bad, as the team is still working on <strong>a </strong>Lord of the Rings game, even if it’s not an MMO.</p>
-
-
-
-
-
-
-
-<h2 id="h-what-s-happening-with-lord-of-the-rings-games">What’s Happening With Lord of the Rings Games?</h2>
-
-
-
-<p>In a new report from <a href="https://www.eurogamer.net/amazon-cancelled-lord-of-the-rings-mmo-new-game-experience" target="_blank" rel="noreferrer noopener nofollow">Eurogamer</a>, Jeff Grattis explained what the state of play is with Lord of the Rings at Amazon Games. The head honcho in the gaming space at the tech titan played it safe and didn’t use definitive terms, but suggested that <strong>something </strong>LOTR-related is still in the works:</p>
-
-
-
-<blockquote>
-<p>Our creative team continues to explore a compelling new game experience that does justice to Tolkien’s world; we are working closely with Middle-earth and remain excited about the IP.</p>
-</blockquote>
-
-
-
-<p>This was in response to a question directly asking if the LOTR MMO had been shelved.</p>
-
-
-
-<p>It was back in 2023 that the Lord of the Rings MMO was first announced, but Amazon Games fell into radio silence. Even when layoffs became apparent across social media, the team declined to make any clear statements about the future of the title, which, <a href="https://insider-gaming.com/amazons-the-lord-of-the-rings-mmo-may-have-been-canceled/" target="_blank" rel="noreferrer noopener">according to dismissed former employees</a>, would have been something special.</p>
-
-
-
-<p>Months ago, a paradigm shift took place at Amazon Games, with hundreds of developers moving away from New World, which is <a href="https://insider-gaming.com/new-world-aeternum-to-be-taken-offline-next-year/" target="_blank" rel="noreferrer noopener">going offline next year</a>. They were shifted onto Lord of the Rings, which was subsequently canceled (but not confirmed), hence <strong>further </strong>layoffs landed at the firm.</p>
-
-
-
-<p>According to Eurogamer’s source, the only developers left standing at Amazon Games in the MMO space are working on Lost Ark, Throne and Liberty, and New World, but all of them could be staring down temporary gigs.</p>
-
-
-
-
-
-
-
-<p>Would you have liked to see the Lord of the Rings MMO materialize? Let us know your thoughts on the <a href="https://discord.com/invite/vwj7zdWxaW">Insider Gaming Discord server</a>.</p>
-
-
-
-<hr>
-
-
-
-<p>For more Insider Gaming coverage, check out the news that <a href="https://insider-gaming.com/new-arc-raiders-trader-coming-next-week/">ARC Raiders is getting a new trader</a></p>
-
-
-        <div>
-              <!-- Row 1: Avatar + Name/Title + Socials -->
-              <div>
-                  
-
-                  <p>
-                      Senior Editor and Esports Lead                    </p>
-                                  </div>
-
-              <!-- Row 2: Bio + CTA -->
-                              <div>
-                  <p>
-                    Grant has been gaming for 30+ years and in the industry for 10+. You'll probably find him playing a post-apocalyptic game or an extraction shooter somewhere.                  </p>
-                  <p><a href="https://insider-gaming.com/author/grant-taylor-hill/">
-                    More from Grant Taylor-Hill                  </a>
-                </p></div>
-                          </div>
-            
-
-    <div id="ig-app-cta">
-          <p><i></i> MOBILE APP</p>
-          <h2>Level Up Your Gaming News</h2>
-          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
-          
-          <p><i></i> Available on iOS &amp; Android</p>
-        </div>
-
-    
-    
-    </div></div><br/><br/>https://insider-gaming.com/amazon-lord-of-the-rings-mmo-game-not-done/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[ARC Raiders’ First New Trader Since Launch is Coming Next Week]]></title>
-            <link>https://insider-gaming.com/new-arc-raiders-trader-coming-next-week/</link>
-            <guid>1519816</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-        
-<p><a href="https://insider-gaming.com/tag/embark-studios/" id="1161" target="_blank" rel="noreferrer noopener">Embark Studios</a> has announced some drastic changes coming to the <a href="https://insider-gaming.com/tag/arc-raiders/" id="790" target="_blank" rel="noreferrer noopener">ARC Raiders</a> operating model, specifically around how regularly updates will be deployed across the ecosystem. Unfortunately, the cadence is being slowed massively, reducing major updates to just twice a year, much to the chagrin of the game’s most avid players.</p>
-
-
-
-<p>On a more positive note, the team also revealed that the game’s first <strong>new trader </strong>is entering the game next week, bringing with him some fresh mechanics to help the endgame lull. This is something that needed to be addressed, so it’s good to see Embark doing something about the rut that late-game players find themselves in.</p>
-
-
-
-
-
-
-
-<h2 id="h-new-arc-raiders-trader-changes-the-endgame">New ARC Raiders Trader Changes The Endgame</h2>
-
-
-
-<p>The <a href="https://arcraiders.com/news/development-update" target="_blank" rel="noreferrer noopener nofollow">new ARC Raiders trader</a>, who is unnamed at the moment but <strong>suspected </strong>to be Bilguun, enters the game from a nomadic tribe of surface-dwelling folk, which is interesting in itself. That suggests that there are more people on the surface than we first thought, and that Speranza isn’t the last bastion of humanity.</p>
-
-
-
-<p>Next week, this mysterious new trader arrives in ARC Raiders, and he’s coming specifically to help out late-game players who have progressed to a point of potentially having a packed stash and nothing to do about it.</p>
-
-
-
-<p>The unnamed trader will offer unique rewards, rare items, and cosmetics in exchange for high-value items. Additionally, he’ll offer sporadic quests that require players to venture into the wasteland, bringing back specific items to exchange for exclusive rewards.</p>
-
-
-
-<p>To unlock the new ARC Raiders trader, you’ll need to be at least level 25, and this is where the whole ‘endgame’ concept comes into play.</p>
-
-
-
-<p>This trader will allow players to unlock two key benefits:</p>
-
-
-
-<ul>
-<li>Extra stash space to give you more room to store your loot</li>
-
-
-
-<li>An Expedition Vault that permits the ‘carrying over’ of five items when you wipe your account every two months or so</li>
-</ul>
-
-
-
-<p>Embark Studios stated that this trader is part of a bid to improve the progression model in ARC Raiders. Later, players will unlock a new skill path system and more ways to flesh out their Raider in this ambitious extraction adventure game.</p>
-
-
-
-<p>Of course, the bulk of these changes won’t arrive until the <a href="https://insider-gaming.com/next-major-arc-raiders-update-october-embark-slow-down/" id="197213" target="_blank" rel="noreferrer noopener">next major update</a> lands in <strong>October</strong>, which is a sensitive point for die-hard fans.</p>
-
-
-
-
-
-
-
-<p>Are you looking forward to leaning on the new ARC Raiders trader? Let us know what you’re thinking on the <a href="https://discord.com/invite/vwj7zdWxaW">Insider Gaming Discord server</a>.</p>
-
-
-
-<hr>
-
-
-
-<p>For more Insider Gaming coverage, check out the news that <a href="https://insider-gaming.com/gta-6-pre-order-date-has-allegedly-leaked-via-best-buy/">GTA 6’s pre-order date might have leaked</a></p>
-
-
-        <div>
-              <!-- Row 1: Avatar + Name/Title + Socials -->
-              <div>
-                  
-
-                  <p>
-                      Senior Editor and Esports Lead                    </p>
-                                  </div>
-
-              <!-- Row 2: Bio + CTA -->
-                              <div>
-                  <p>
-                    Grant has been gaming for 30+ years and in the industry for 10+. You'll probably find him playing a post-apocalyptic game or an extraction shooter somewhere.                  </p>
-                  <p><a href="https://insider-gaming.com/author/grant-taylor-hill/">
-                    More from Grant Taylor-Hill                  </a>
-                </p></div>
-                          </div>
-            
-
-    <div id="ig-app-cta">
-          <p><i></i> MOBILE APP</p>
-          <h2>Level Up Your Gaming News</h2>
-          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
-          
-          <p><i></i> Available on iOS &amp; Android</p>
-        </div>
-
-    
-    
-    </div></div><br/><br/>https://insider-gaming.com/new-arc-raiders-trader-coming-next-week/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
