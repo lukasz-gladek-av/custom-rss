@@ -7,6 +7,7 @@ const {
   buildItemFromExisting,
   createHostRequestLimiter,
   createRssParser,
+  fetchAndParseFeed,
   fetchWithRetry,
   getFetchConcurrency,
   getPerHostConcurrency,
@@ -40,7 +41,7 @@ const runWithHostLimit = createHostRequestLimiter({ perHostConcurrency });
 async function fetchAndProcessFeed() {
   console.log(`Fetching ${feedTitle} from ${originalFeedUrl}...`);
   const existingArticles = await loadExistingItems(outputFile);
-  const parsedFeed = await rssParser.parseURL(originalFeedUrl);
+  const parsedFeed = await fetchAndParseFeed(originalFeedUrl, rssParser);
   const parsedItems = parsedFeed.items || [];
 
   console.log(`Processing ${parsedItems.length} items with concurrency=${fetchConcurrency}, perHostConcurrency=${perHostConcurrency}`);
