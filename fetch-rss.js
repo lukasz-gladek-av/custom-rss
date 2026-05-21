@@ -8,6 +8,7 @@ const {
   buildItemFromExisting,
   createHostRequestLimiter,
   createRssParser,
+  fetchAndParseFeed,
   fetchWithRetry,
   getFetchConcurrency,
   getPerHostConcurrency,
@@ -43,7 +44,7 @@ function extractHrefFromContent(htmlContent) {
 
 async function fetchAndProcessFeed() {
   const existingArticles = await loadExistingItems('gaming.xml');
-  const parsedFeed = await rssParser.parseURL(originalFeedUrl);
+  const parsedFeed = await fetchAndParseFeed(originalFeedUrl, rssParser);
   const parsedItems = parsedFeed.items || [];
 
   console.log(`Processing ${parsedItems.length} items with concurrency=${fetchConcurrency}, perHostConcurrency=${perHostConcurrency}`);
