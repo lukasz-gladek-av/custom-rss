@@ -4,9 +4,23 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Tue, 26 May 2026 23:26:03 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 27 May 2026 00:42:18 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[007 First Light PC Settings Guide]]></title>
+            <link>https://www.ign.com/articles/007-first-light-pc-settings-guide</link>
+            <guid>1530619</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><section data-cy="article-subtitle" data-autopogo="true"><p data-cy="paragraph">While <a data-cy="styled-link" href="https://www.ign.com/articles/007-first-light-review">007 First Light</a> is the first actually good James Bond game in quite some time, developer IO Interactive has been making well-optimized <a data-cy="styled-link" href="https://www.ign.com/articles/best-pc-games">PC games</a> for years. It’s not surprising, then, that 007 First Light runs extremely well, at least once you clear its somewhat steep system requirements. </p><p data-cy="paragraph">The game requires just an <a data-cy="styled-link" href="https://www.ign.com/articles/2019/07/07/amd-radeon-rx-5700-aa-review-and-benchmarks">AMD Radeon RX 5700</a> or a <a data-cy="styled-link" href="https://www.ign.com/tech/geoforce-gtx-1660">GeForce GTX 1660</a> to run, but its recommended spec is an <a data-cy="styled-link" href="https://www.ign.com/articles/nvidia-geforce-rtx-3060-ti-founders-edition-review">RTX 3060 Ti</a> or a <a data-cy="styled-link" href="https://www.ign.com/articles/amd-radeon-rx-6700-xt-review">6700 XT</a>. That’s quite a difference, but I will say that after testing the 3060 Ti at 1080p, it runs incredibly well, although the low VRAM means you’ll probably want to turn down the texture quality a bit, even at that lower resolution. </p><span data-cy="poll-view-trigger"></span><p data-cy="paragraph">In fact, the textures in this game are like a little sponge for video memory, and if you want to max it out at any resolution, you’re going to want to make sure you’re packing a <a data-cy="styled-link" href="https://www.ign.com/articles/best-graphics-card">GPU</a> with at least 12GB of the stuff. And, at higher resolutions, you’re probably going to want to bump that requirement up to 16GB if you really want to avoid any stuttering. </p><a href="https://assets-prd.ignimgs.com/2026/05/24/007-first-light-1-1779638838516.png" data-cy="styled-link" target="_blank" rel="noopener noreferrer"><output><figure><span></span></figure></output></a><h2 data-cy="title2">No Presets</h2><p data-cy="paragraph">Unlike a lot of PC games these days, 007 First Light doesn’t have graphics presets. There is a button in the settings menu that’ll set everything to default, but at least on the pre-release build I was testing, this just set everything down to its minimum setting. </p><p data-cy="paragraph">While this isn’t a huge deal for anyone that’s going to be tinkering with the settings anyways, it does mean you can’t just pick an option and start playing right out of the gate. Or at least you can’t if you don’t want to be staring at aliased handrails for 20 hours (or <a href="https://howlongtobeat.com/game/85276" data-cy="styled-link" target="_blank" rel="noopener noreferrer"><u>however long this game is</u></a>, I didn’t finish it yet). </p><p data-cy="paragraph">There really aren’t that many individual settings to tweak, though, so finding the sweet spot for your PC shouldn’t take <em>too </em>much time. And, for most people who meet the recommended setting, it mostly comes down to setting most things to high and then just deciding if you want to prioritize frame rate or a higher base resolution. </p><output data-cy="article-video"></output><p id="the-settings"><h2 data-cy="title2" data-toc-title="The Settings">The Settings</h2></p><p data-cy="paragraph">Just like with Forza Horizon 6’s PC settings, I set out to make 007 First Light run as quickly as possible on the RTX 5070 at 4K. Unlike Forza, though, getting to 60 fps at a native 4K in First Light with the RTX 5070 is basically impossible. Even with everything set to low, I got around 40-45 fps. That might be enough for some people, but this is one of those games where I’d recommend upscaling for pretty much everyone. The game looks <em>incredible</em> with higher quality settings, and as long as you have some kind of upscaling, a GPU like the RTX 5070 or the Radeon 9070 can easily run at 60-70 fps. </p><p data-cy="paragraph">Even the much-weaker RTX 3060 Ti can easily hit a high frame rate at 1080p, just as long as you use DLSS at the Quality preset. The 3060 Ti can even stretch up to 1440p, but it will be much harder to maintain 60 fps. Just get ready to turn things down a bit if you want to move up to a higher resolution. </p><p data-cy="paragraph">007 First LIght will run on the Steam Deck, too, but I wouldn’t <em>really</em> recommend it. You can get the game running at around 30 fps most of the time, but it comes with some pretty severe stuttering problems, especially when you’re playing it on battery power. More powerful handhelds like the Xbox Ally X will fare a bit better, but this is a game that is definitely intended more for fully-fledged gaming PCs than handhelds. </p><p data-cy="paragraph">While 007 First Light does run well on modern hardware, you’re going to want to dial in the settings to find the perfect balance between image quality and performance. And, well, I went ahead and found that sweet spot for both the RTX 5070 and the RTX 3060 Ti. </p><p data-cy="paragraph" id="settings"><strong>Transfer Function:</strong> This just affects how image data is encoded for your monitor. For most people, I’d recommend setting it to 2.2 and forgetting about it. If you run into visual glitches, you can set it to sRGB to troubleshoot, but you’ll get lighter blacks. And since this is a stealth game, you’ll be looking at dark scenes a lot. <strong>Mid-Range PC and Handheld: 2.2</strong></p><p data-cy="paragraph"><strong>Resolution Scaling:</strong> These are just upscaling methods. As of right now only two are selected, DLSS and FSR. For Nvidia users, use DLSS, everyone else should use FSR. Hopefully IO Interactive adds XeSS sometime soon. </p><p data-cy="paragraph"><strong>DLSS Super Resolution and AMD FSR Upscaling resolution: </strong>This is simply the upscaling factor for whichever method you’re using. As a general rule of thumb, I’d recommend Performance for 4K, Balanced for 1440p and Quality for 1080p. However, if you have enough breathing room, you can turn it up to make the game look a bit nicer. </p><p data-cy="paragraph"><strong>DLSS Frame Generation:</strong> It seems like the only type of frame gen that’s supported here is Nvidia’s version of the tech. Whether or not you use it is entirely up to you, but it can unlock extremely high frame rates at the cost of latency and some minor visual artifacts. Luckily, 007 First Light supports Dynamic Multi Frame Generation right out of the box, so you won’t even need to mess with the Nvidia app to use it. </p><p data-cy="paragraph"><strong>Texture Quality:</strong> Texture Quality changes the resolution of all the textures in the game. In my testing, this is by far the biggest impact on VRAM. If you’re running up against the limit, and luckily there’s a handy little bar in the lower right corner of the screen that’ll tell you that, I’d lower this setting first. But for the most part, you’re probably going to be GPU limited before you’re VRAM limited. <strong>Mid-Range PC: Ultra, Handheld: Low</strong></p><p data-cy="paragraph"><strong>Texture Filter: </strong>No matter what game I’m playing, texture filtering is one of the last things I touch. Even maxing this out won’t affect performance that much, and the game will start looking very flat once you start turning it down. <strong>Mid-Range PC: 16x, Handheld: 4x</strong></p><p data-cy="paragraph"><strong>Level of Detail:</strong> This affects model resolution, and in 007 First Light IO Interactive has worked some kind of magic to make this setting barely affect performance. Going from Low to Ultra barely touches the VRAM meter, and only made for a difference of 2 fps on the RTX 5070. <strong>Mid-Range PC: Ultra, Handheld: Medium</strong></p><p data-cy="paragraph"><strong>Terrain Quality: </strong>007 First Light is full of beautiful environments, and this setting mostly affects how good the ground looks at any time. This will affect some scenes more than others, but I will say that there are plenty of driving scenes in this game where having this setting cranked up really improves how the game looks. And because it barely impacts VRAM or your GPU performance, just leave this cranked until you’re running into performance issues. <strong>Mid-Range PC: Ultra Handheld: Low</strong></p><p data-cy="paragraph"><strong>Shadow Quality: </strong>The lighting engine in 007 First Light is where most people are going to run into performance issues. Shadows are ray traced, and maxing them out will have a huge impact on both your performance and your VRAM consumption. I’d leave this at high for the most part, but if you’re on a weaker GPU, this (along with the next few settings) are the first things I’d cut. <strong>Mid-Range PC: High Handheld: Low</strong></p><p data-cy="paragraph"><strong>Volumetric Fog Quality: </strong>This makes fog thicker and more realistic, but it can impact performance quite a bit in particularly foggy scenes – like the opening mission. Volumetric Fog makes certain scenes look incredible, but this should be one of the first things you cut if you’re falling short of 60 fps, especially if there are a lot of atmospheric effects going on when your fps drops. <strong>Mid-Range PC: High Handheld: Low</strong></p><p data-cy="paragraph"><strong>Volumetric Effects Quality: </strong>You’d think that Volumetric Fog would be a Volumetric Effect, but it's separate for some reason. Instead, this mostly affects volumetric lighting and smoke. This does look great maxed out, what with all the explosions in the game, but it does come with a pretty high performance cost. <strong>Mid-Range PC: High, Handheld: Low</strong></p><p data-cy="paragraph"><strong>Reflection Quality: </strong>This is just me, but one of my favorite ray traced effects is reflections. Even 7 years after I first saw the noisy reflections in Battlefield 5, I’m still blown away by really nice reflections. And 007 First Light has some absolutely gorgeous reflections. This is one of the last lighting effects I’d turn down from a purely aesthetic perspective, but it does come with a high enough performance cost that I’d recommend turning it down a bit anyways. <strong>Mid-Range PC: High (Ultra if you’re adventurous) Handheld: Low</strong></p><p data-cy="paragraph">What follows all of these is a bunch of toggles for post-processing effects, and none of them really impact performance all that much. In the descriptions for some of them, developer IO Interactive warns that turning off fullscreen blur effects and radial blur effects will make certain gameplay states harder to distinguish. I’ve spent about 8 hours with this game, and all this means is that it’ll be harder to tell when you’re low on life. That’s enough for me to keep these settings on but if you <em>really </em>hate the effect, you can at least turn it off. </p><p data-cy="paragraph">Out of all the games I’ve tested so far this year, 007 First Light is probably the most demanding. That’s not to say that it’s not well optimised, though. Even on the RTX 5070, you can get an average of around 63-70 fps throughout most of the game following these settings, and that number will only go up if you use frame generation – though that will come with a bit of a bump to latency. </p><p data-cy="paragraph">As long as you have a recent graphics card, you should have no problem running at high settings with a decent frame rate. But unlike games like Crimson Desert and Resident Evil Requiem, upscaling is a necessity for 4K, unless you’re packing something like an RTX 5080 or a Radeon RX 9070 XT. </p></section></div><br/><br/>https://www.ign.com/articles/007-first-light-pc-settings-guide]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Sonic Racing: CrossWorlds ‘Puyo Puyo Content Drop’ update launches May 27]]></title>
+            <link>https://www.gematsu.com/2026/05/sonic-racing-crossworlds-puyo-puyo-content-drop-update-launches-may-27</link>
+            <guid>1530616</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><p>The “<em>Puyo Puyo</em> Content Drop” update for <em>Sonic Racing: CrossWorlds</em> will launch on <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20260528T0000" target="_blank" rel="noopener">May 27 at 5:00 p.m. PT / 8:00 p.m. ET</a>, SEGA <a href="https://x.com/CrossWorldsJPN/status/2059409245032915304" target="_blank" rel="noopener">announced</a>. <span id="more-1050064"></span></p><p>The update will include the following content:</p><ul><li>Arle from <em>Puyo Puyo</em> as a playable character</li><li>Twinkle Bayoen vehicle</li></ul><p>An in-game “<em>Puyo Puyo</em> Festival” will also run from <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20260529T0000" target="_blank" rel="noopener">May 28 at 5:00 p.m. PT / 8:00 p.m. ET</a> until <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20260531T2359" target="_blank" rel="noopener">May 31 at 4:59 pm. PT / 7:59 p.m. ET</a>.</p><p><em><a title="Games > Sonic Racing: CrossWorlds [26 articles]" href="https://www.gematsu.com/games/sonic-racing-crossworlds">Sonic Racing: CrossWorlds</a></em> is available now for <a title="Platforms > PS5 [11,514 articles]" href="https://www.gematsu.com/platforms/playstation/ps5">PlayStation 5</a>, <a title="Platforms > Xbox Series [8,796 articles]" href="https://www.gematsu.com/platforms/xbox/xbox-series">Xbox Series</a>, <a title="Platforms > Switch 2 [1,049 articles]" href="https://www.gematsu.com/platforms/nintendo/switch-2">Switch 2</a>, <a title="Platforms > PS4 [28,737 articles]" href="https://www.gematsu.com/platforms/playstation/ps4">PlayStation 4</a>, <a title="Platforms > Xbox One [14,418 articles]" href="https://www.gematsu.com/platforms/xbox/xbox-one">Xbox One</a>, <a title="Platforms > Switch [18,382 articles]" href="https://www.gematsu.com/platforms/nintendo/switch">Switch</a>, and <a title="Platforms > PC [25,613 articles]" href="https://www.gematsu.com/platforms/pc">PC</a> via <a href="https://store.steampowered.com/app/2486820/Sonic_Racing_CrossWorlds/" target="_blank" rel="noopener">Steam</a> and <a href="https://store.epicgames.com/p/sonic-racing-crossworlds" target="_blank" rel="noopener">Epic Games Store</a>.</p></div></div><br/><br/>https://www.gematsu.com/2026/05/sonic-racing-crossworlds-puyo-puyo-content-drop-update-launches-may-27]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[Marathon Goes Full Survival Horror Mode In New Nightfall Trailer And I Can’t Believe I’m About To Get Sucked In All Over Again]]></title>
             <link>https://kotaku.com/marathon-goes-full-survival-horror-mode-in-new-nightfall-trailer-and-i-cant-believe-im-about-to-get-sucked-in-all-over-again-2000699604</link>
@@ -173,7 +187,7 @@ Of course, the biggest question isn't around what the current season will be lik
             <title><![CDATA[PlayStation Delists and Shuts Down Servers for Destruction AllStars]]></title>
             <link>https://www.ign.com/articles/playstation-delists-and-shuts-down-servers-for-destruction-allstars</link>
             <guid>1530562</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><section data-cy="article-subtitle" data-autopogo="true"><p data-cy="paragraph">PlayStation has unexpectedly pulled the plug on <a data-cy="styled-link" href="https://www.ign.com/games/destruction-allstars">Destruction AllStars</a>, a live-service game released during the PS5's launch window. The game is no longer available for sale and its servers have been shut down. Those who still own the game can still play the game's arcade mode, going up against bots offline. </p><p data-cy="paragraph">Typically, these kinds of shutdowns are announced ahead of time to give players a chance to buy the game or rally others together for some final online matches, but Destruction AllStars was delisted and shut down seemingly simultaneously. Players were notified via PlayStation notifications. (The game's <a href="https://x.com/PlayDestruction" data-cy="styled-link" target="_blank" rel="noopener noreferrer">social media account</a> hasn't been active since 2022, when X was still Twitter.)</p><p data-cy="paragraph">Destruction AllStars came out in 2021 and received a mixed reception. Despite releasing during a drought of games, early PS5 adopters largely rejected the game, even after PlayStation Plus subscribers were given two free months. We <a data-cy="styled-link" href="https://www.ign.com/articles/destruction-allstars-review">gave the game a 6/10</a> in our review, noting that although the game had some decent fundamentals, it failed to rise to the occasion as a compelling package. </p><p data-cy="paragraph">"Destruction AllStars can provide short bursts of action-packed chaos that are at their most fun when kept simple," reads our review. "The driving and vehicle-to-vehicle combat are highly enjoyable when you’re slamming into other cars at high speed, but they wear thin quickly and offer very little else on closer inspection and the on-foot gameplay you’re forced into too often feels pointless. There’s the basis of a great party game here too, but at launch it's far too shallow an experience for Destruction AllStars to be considered one right now."</p><output data-cy="article-slideshow"><span data-cy="slideshow-view-trigger"><div data-cy="slideshow-preview"><h3 data-cy="slideshow-preview-title">Destruction: All-Stars PlayStation 5 Screenshots</h3></div></span></output><p data-cy="paragraph">Destruction AllStars was developed by Lucid Games, a studio formed by ex-Bizarre Creations developers after Activision tried to sell the studio but failed to find a suitable buyer. The team has a background in vehicle-based games, such as Project Gotham Racing and Blur. Destruction AllStars was different from those games, opting to be more of a destruction derby-style game with on-foot gameplay. Lucid hasn't released its own game since Destruction AllStar's release in 2021, but has helped out with other games such as Sea of Thieves. </p><p data-cy="paragraph">The news comes just days after <a data-cy="styled-link" href="https://www.ign.com/articles/bungie-walks-away-from-destiny-2-final-content-update-coming-in-june">Bungie announced it was winding down support on Destiny 2</a> and reports that <a data-cy="styled-link" href="https://www.ign.com/articles/bungie-is-reportedly-planning-significant-layoffs-destiny-3-not-in-the-works">Bungie would suffer "significant" layoffs</a>. Although the two instances don't appear to be directly related, it does signal that PlayStation's live-service efforts haven't been a success. Helldivers 2 and Gran Turismo 7 appear to be PlayStation's only successful live-service games to date. <a data-cy="styled-link" href="https://www.ign.com/articles/sony-files-trademark-for-new-game-called-break-in">Fairgames is heavily speculated to be getting a re-reveal with a new name</a> very soon. </p><p data-cy="paragraph"><em>Cade Onder is a freelancer for IGN's news team. He covers all things entertainment, including gaming, film, and more. You can find him on Twitter @Cade_Onder.</em></p></section></div><br/><br/>https://www.ign.com/articles/playstation-delists-and-shuts-down-servers-for-destruction-allstars]]></content:encoded>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><section data-cy="article-content" data-autopogo="true"><p data-cy="paragraph">PlayStation has unexpectedly pulled the plug on <a data-cy="styled-link" href="https://www.ign.com/games/destruction-allstars">Destruction AllStars</a>, a live-service game released during the PS5's launch window. The game is no longer available for sale and its servers have been shut down. Those who still own the game can still play the game's arcade mode, going up against bots offline. </p><p data-cy="paragraph">Typically, these kinds of shutdowns are announced ahead of time to give players a chance to buy the game or rally others together for some final online matches, but Destruction AllStars was delisted and shut down seemingly simultaneously. Players were notified via PlayStation notifications. (The game's <a href="https://x.com/PlayDestruction" data-cy="styled-link" target="_blank" rel="noopener noreferrer">social media account</a> hasn't been active since 2022, when X was still Twitter.)</p><p data-cy="paragraph">Destruction AllStars came out in 2021 and received a mixed reception. Despite releasing during a drought of games, early PS5 adopters largely rejected the game, even after PlayStation Plus subscribers were given two free months. We <a data-cy="styled-link" href="https://www.ign.com/articles/destruction-allstars-review">gave the game a 6/10</a> in our review, noting that although the game had some decent fundamentals, it failed to rise to the occasion as a compelling package. </p><p data-cy="paragraph">"Destruction AllStars can provide short bursts of action-packed chaos that are at their most fun when kept simple," reads our review. "The driving and vehicle-to-vehicle combat are highly enjoyable when you’re slamming into other cars at high speed, but they wear thin quickly and offer very little else on closer inspection and the on-foot gameplay you’re forced into too often feels pointless. There’s the basis of a great party game here too, but at launch it's far too shallow an experience for Destruction AllStars to be considered one right now."</p><output data-cy="article-slideshow"><span data-cy="slideshow-view-trigger"><div data-cy="slideshow-preview"><h3 data-cy="slideshow-preview-title">Destruction: All-Stars PlayStation 5 Screenshots</h3></div></span></output><p data-cy="paragraph">Destruction AllStars was developed by Lucid Games, a studio formed by ex-Bizarre Creations developers after Activision tried to sell the studio but failed to find a suitable buyer. The team has a background in vehicle-based games, such as Project Gotham Racing and Blur. Destruction AllStars was different from those games, opting to be more of a destruction derby-style game with on-foot gameplay. Lucid hasn't released its own game since Destruction AllStar's release in 2021, but has helped out with other games such as Sea of Thieves. </p><p data-cy="paragraph">The news comes just days after <a data-cy="styled-link" href="https://www.ign.com/articles/bungie-walks-away-from-destiny-2-final-content-update-coming-in-june">Bungie announced it was winding down support on Destiny 2</a> and reports that <a data-cy="styled-link" href="https://www.ign.com/articles/bungie-is-reportedly-planning-significant-layoffs-destiny-3-not-in-the-works">Bungie would suffer "significant" layoffs</a>. Although the two instances don't appear to be directly related, it does signal that PlayStation's live-service efforts haven't been a success. Helldivers 2 and Gran Turismo 7 appear to be PlayStation's only successful live-service games to date. <a data-cy="styled-link" href="https://www.ign.com/articles/sony-files-trademark-for-new-game-called-break-in">Fairgames is heavily speculated to be getting a re-reveal with a new name</a> very soon. </p><p data-cy="paragraph"><em>Cade Onder is a freelancer for IGN's news team. He covers all things entertainment, including gaming, film, and more. You can find him on Twitter @Cade_Onder.</em></p></section><div><h3 data-cy="title3"><svg data-cy="icon-logo" viewBox="0 0 76 24" title="IGN"><title>IGN Logo</title><path fill="currentColor" stroke="none" d="M5.38 7.65a7.85 7.85 0 0 1 2.26-2.26c.13-1.18.31-2.26.52-3.21a10.605 10.605 0 0 0-6 6c.95-.22 2.03-.39 3.21-.52M16.34 5.36v.02c.9.59 1.67 1.37 2.27 2.27 1.18.13 2.26.31 3.21.52a10.627 10.627 0 0 0-6.02-6.01c.22.95.4 2.02.54 3.2M7.64 18.62c-.9-.59-1.67-1.37-2.27-2.27h-.03c-1.19-.14-2.26-.32-3.19-.54 1.07 2.75 3.26 4.95 6.01 6.02-.22-.95-.39-2.03-.52-3.21M18.64 16.35h-.03c-.59.9-1.37 1.67-2.27 2.27v.03c-.14 1.17-.32 2.25-.54 3.19a10.59 10.59 0 0 0 6.03-6.03c-.94.22-2 .4-3.19.54M10.04 0h3.9c.85 1.85 1.2 4.59 1.3 5.52.04.22.06.43.06.63L12 9.11 8.7 6.15c0-.17.02-.35.05-.55.1-.95.43-3.75 1.29-5.61M8.7 17.83c0 .17.02.35.05.55.1.95.43 3.75 1.29 5.61h3.9c.85-1.84 1.2-4.59 1.3-5.52.04-.22.06-.43.06-.64L12 14.87l-3.3 2.96ZM6.16 8.68c-.17 0-.35.02-.55.05-.95.12-3.75.45-5.61 1.31v3.9c1.84.85 4.59 1.19 5.52 1.3.22.04.43.06.64.06L9.11 12 6.16 8.7ZM24 10.02c-1.86-.86-4.66-1.19-5.61-1.29-.2-.03-.38-.05-.55-.05l-2.96 3.3 2.96 3.3c.2 0 .41-.02.64-.06.93-.11 3.68-.45 5.52-1.3v-3.9Z"></path><path fill="currentColor" stroke="none" d="M42.83 13.9V10h10.45c1.06 0 1.93.86 1.93 1.92v4.63c0 2.38-1.91 4.36-4.33 4.36h-6.69c-4.96 0-8.97-4-8.97-8.94s4.04-8.95 8.98-8.95h10.36v4.11H44.2c-2.67 0-4.86 2.17-4.86 4.84s2.16 4.83 4.86 4.83h6.91v-2.91h-8.27ZM33.86 3h-4.07v16.02c0 1.05.86 1.91 1.91 1.91h2.15V3M74.37 3.01h-2.18v13.81s0 .08-.03.11a.29.29 0 0 1-.24.14c-.09 0-.16-.04-.25-.15L64.83 4.93a4.347 4.347 0 0 0-3.72-2.11h-.07c-2.39 0-4.32 1.93-4.32 4.32v11.88c0 1.05.86 1.91 1.91 1.91h2.17V7.14s.02-.09.04-.13a.29.29 0 0 1 .24-.14c.09 0 .18.03.24.14l6.88 12.07c.76 1.27 2.12 2.05 3.69 2.05h.07c2.39 0 4.32-1.93 4.32-4.32V4.92c0-1.05-.85-1.91-1.91-1.91"></path></svg>Recommends</h3></div></div><div><h3 data-cy="object-summary-embed-title">In This Article</h3></div></div><br/><br/>https://www.ign.com/articles/playstation-delists-and-shuts-down-servers-for-destruction-allstars]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
         <item>
@@ -625,177 +639,6 @@ The only conceptual knock on it right now is that the joy of Portal is the simpl
               
               <p>Thirsty? How would you like some unidentified red juice delivered via a person’s foot? That’ll be $15, please.</p> <p>This is the deal being offered, report Spanish-language <a href="https://x.com/FujiNews_/status/2058726005095764106">Fuji News on X</a>, by two cosplayers at a U.S. convention. It appears to have taken place at an unofficial Park Con event as part of FanimeCon, which took place over the weekend in San Jose. The big annual anime-themed convention has been running since 1994, and attracts around 30,000 people.</p> <blockquote data-width="500" data-dnt="true"> <p lang="en" dir="ltr">Yeah America isn’t real <a href="https://t.co/gdtfIU3sWI">https://t.co/gdtfIU3sWI</a> <a href="https://t.co/RFgZkCztAu">pic.twitter.com/RFgZkCztAu</a></p> <p>— Jeyjey₊ ⊹₍ᐢᐢ₎ ᰔᩚ (@pantsu_waifu) <a href="https://twitter.com/pantsu_waifu/status/2059170473037136079?ref_src=twsrc%5Etfw">May 26, 2026</a></p></blockquote>  <p>At an outdoor location, two cosplayers were photographed holding signs that read, “FRESH FEET JUICE,” while sitting above coolers containing both a mysterious red liquid and their feet. For $5 people could have a “swig,” and reportedly for $10 to $15 you could instead just lick the juice directly from their feet.</p> <figure id="attachment_2000699500" aria-describedby="caption-attachment-2000699500"><figcaption id="caption-attachment-2000699500">© Fuji News / Kotaku</figcaption></figure> <p>The photos and videos show that they received at least a few willing customers, and that at least one passerby was not enticed: check out this dude’s reaction.</p> <p>We’re currently in the middle of an unprecedented May heat wave here in the UK, with the hottest-ever temperatures being recorded for this time of year, and right now I’m writing this with an air conditioner offering a futile fight against the heat in my office. And you know, even now this still wouldn’t be my first choice of a way to get a drink. But kudos to the pair for making an easy buck from those more inclined.</p>
                           </div></div><br/><br/>https://kotaku.com/cosplay-fanimecon-fresh-feet-juice-anime-convention-2000699493]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[The Blood of Dawnwalker Can Be Beaten in Minutes Like Breath of the Wild, but You’d Skip a 70-Hour Story]]></title>
-            <link>https://wccftech.com/blood-of-dawnwalker-beaten-in-minutes-breath-of-the-wild-70-hour-story/</link>
-            <guid>1530397</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			
-			<p>The upcoming third-person action RPG <strong>The Blood of Dawnwalker</strong> is now just over three months away from its launch date, and developer <strong>Rebel Wolves</strong> is already marketing the game through a Game Informer cover story. The magazine went to Warsaw, Poland, to <a href="https://gameinformer.com/preview/2026/05/25/just-how-choice-driven-is-rebel-wolves-debut-game" type="link" id="https://gameinformer.com/preview/2026/05/25/just-how-choice-driven-is-rebel-wolves-debut-game" target="_blank" rel="noreferrer noopener">speak with a few key developers</a> from the team, most of whom previously worked on The Witcher III: Wild Hunt at CD Projekt RED.</p>
-
-
-
-<p>One of the game's distinguishing features is the dual nature of protagonist Coen, who is the titular Dawnwalker, a rare breed of vampire that, after his turning, can still walk in the sunlight during the day. Even so, <strong>players will still have to carefully manage Coen's vampiric hunger</strong>, lest he lose control and drain dry even friendly NPCs. The Blood of Dawnwalker Creative Director Mateusz Tomaszkiewicz noted that it was important to keep this downside of being a vampire, who otherwise would just feel like a kind of superhero:</p>
-
-
-
-<p><em>We have this narrative sandbox structure of the game where we let you out into the world, you have the main goal, and then you have all these different quests and activities – on purpose, we don’t call them main or side quests, just quests – some of them are bigger, some of them are smaller, and they can chain together, or not. If you don’t watch for Coen’s hunger, you might cut off some stuff or kill off some NPC that you actually care about. It can be controversial, but at the same time, what’s really important to us is to make you feel like you actually have to deal with this vampiric hunger all the time. It’s always present with him, and I feel, without it, you’re basically kind of just a superhero with some special traits. </em></p>
-
-
-
-<p><em>I think it adds an additional layer of weight and darkness to his adventure.</em> <em>There is plenty of wiggle room for you to shape him in the way you want him to be. You can choose how far he goes in terms of the vampire corruption. You can choose to make choices that kind of desensitize him to violence, for example. Or, you can stay true to, 'No, I want this to be a character that stays true to the human side. I want to do good things. I want to avoid delving into this darker side of things.</em></p>
-
-
-
-<p>The Blood of Dawnwalker is also peculiar because, like The Legend of Zelda: Breath of the Wild, <strong>it can technically be completed right away</strong> by simply storming the antagonist's castle and rescuing Coen's family. However, the developers recommend taking it slow, diving into all the stories they've created, exploring the world, and unlocking many more options to make Coen's mission much more feasible. The game <strong><a href="https://wccftech.com/blood-of-dawnwalker-playtime-40-70-hours/" type="link" id="https://wccftech.com/blood-of-dawnwalker-playtime-40-70-hours/" target="_blank" rel="noreferrer noopener">is expected to last up to 70 hours</a></strong> for those who want to discover everything in it.</p>
-
-
-
-<p>The Blood of Dawnwalker will be released on September 3 for PC, PlayStation 5, and Xbox Series S and X.</p>
-
-			
-			
-						<div>
-									<p>
-					<strong>About the <a href="https://wccftech.com/author/alessio/">author</a>: </strong> With over two decades of experience in gaming journalism, Alessio Palumbo has led the gaming vertical at Wccftech since August 2015. He started working at a young age for Italian websites like Everyeye.it, Gamestar.it, Nextgame.it, and Multiplayer.it before kickstarting the indie English-language publication Worlds Factory as its founder and Editor in Chief. 
-
-In the last decade, he has coordinated the overall output of Wccftech's <a href="https://wccftech.com/topic/games/">gaming</a> section, managed PR relations, assigned reviews, produced daily news coverage, edited gaming content as needed, and delivered game reviews.  
-
-Arguably, his trademark content is the long series of exclusive developer interviews that have been cited by Wikipedia and by the biggest news media and gaming publications. 
-
-His passion for technology also makes him knowledgeable when it comes to gaming hardware and tech. His favorite genres include RPGs, MMORPGs, and action/adventure games.				</p>				
-			</div>
-			
-			<p data-nosnippet="">
-				Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.
-			</p>
-			
-
-
-		</div></div><br/><br/>https://wccftech.com/blood-of-dawnwalker-beaten-in-minutes-breath-of-the-wild-70-hour-story/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Oner Shockingly Won’t Appeal His Asian Games Omission]]></title>
-            <link>https://insider-gaming.com/oner-shockingly-wont-appeal-his-asian-games-omission/</link>
-            <guid>1530394</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-        
-<p>T1 jungler Mun ‘Oner’ Hyeon-jun has revealed he will not try to appeal South Korea’s Asia Games roster decision.</p>
-
-
-
-<p>The three-time League of Legends World Champion was a surprise omission from KeSPA’s chosen squad, with Gen.G’s Kim ‘Canyon’ Geon-bu selected instead.</p>
-
-
-
-
-
-
-
-<p>Despite Canyon getting picked, <a href="https://insider-gaming.com/gen-g-ceo-criticises-kespa-for-asia-games-lol-team-selection/" target="_blank" rel="noreferrer noopener">Gen.G’s CEO criticised KeSPA’s Asian Games team selection</a> method for using stats out of context.</p>
-
-
-
-<p>For Korean pros, competing at the Asian Games not only means representing their country but also receiving exemption from mandatory military service should they win gold.</p>
-
-
-
-<figure><div><blockquote data-width="500" data-dnt="true"><p lang="en" dir="ltr">Oner: “In a previous interview, I once said that I would keep working until I could be selected for the national team while receiving broad support and without any controversy or criticism surrounding it. Even though Canyon was selected instead of me, I think he’s an incredibly… <a href="https://t.co/3C1RXzblLR">pic.twitter.com/3C1RXzblLR</a></p>— Yujin Ha (@YujinnieHa) <a href="https://twitter.com/YujinnieHa/status/2059168486165979146?ref_src=twsrc%5Etfw">May 26, 2026</a></blockquote></div></figure>
-
-
-
-<p><a href="https://insider-gaming.com/asian-games-2026-league-of-legends-south-korea/">Korea’s Asia Games 2026 LoL roster</a> features three players who have already won gold medals with the full line-up as follows:</p>
-
-
-
-<ul>
-<li>Choi ‘Zeus’ Woo-je</li>
-
-
-
-<li>Canyon</li>
-
-
-
-<li>Kim ‘Zeka’ Geon-woo and Lee ‘Faker’ Sang-hyeok</li>
-
-
-
-<li>Lee ‘Gumayusi’ Min-hyeong</li>
-
-
-
-<li>Ryu ‘Keria’ Min-seok</li>
-</ul>
-
-
-
-<p>Zeus, Faker, and Keria were on the LoL team that won gold at the Hangzhou Asian Games in 2022.</p>
-
-
-
-<p>And apart from the jungle, every role features a player that Oner has played with on T1. He is the only omission from the legendary ‘ZOFGK’ roster.</p>
-
-
-
-<h2 id="h-oner-won-t-appeal-kespa-s-decision">Oner Won’t Appeal KeSPA’s Decision</h2>
-
-
-
-<p>Oner revealed in a recent <a href="https://m.sports.naver.com/esports/article/109/0005540907?sid3=79e&amp;spi_ref=m_sports_x" target="_blank" rel="noreferrer noopener nofollow">interview with OSEN</a> that he will not be appealing KeSPA’s decision and decided so rather quickly.</p>
-
-
-
-<p>“I think I reached my decision about an hour after the final list of candidates for the national team was announced. After making the decision, I informed my colleagues, team, and even my agent,” Oner said.</p>
-
-
-
-<p>While those surrounding Oner advised him to think about it a little longer and consider filing an objection, Oner says his mind was made up:</p>
-
-
-
-<p>“Personally, I didn’t feel comfortable about the process of filing an objection, so I informed them of my decision again, stating that I would not be filing one.”</p>
-
-
-
-<p>Oner will have to wait until the 2030 Asian Games for his next chance to try and earn a gold medal for Korea.</p>
-
-
-
-
-
-
-
-<p>Though, he may get to represent his country later this year as <a href="https://insider-gaming.com/kespa-returns-to-esports-nations-cup-as-national-team-manager/" target="_blank" rel="noreferrer noopener">KeSPA has agreed to return to the Esports Nations Cup</a> after an initial disagreement.</p>
-
-
-
-<p>What LoL roster would you field as Korea in the Asian Games? Let us know on the <a href="https://discord.com/invite/vwj7zdWxaW)" target="_blank" rel="noreferrer noopener">Insider Gaming Discord</a>.</p>
-
-
-        
-            
-
-    <div id="ig-app-cta">
-          <p><i></i> MOBILE APP</p>
-          <h2>Level Up Your Gaming News</h2>
-          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
-          
-          <p><i></i> Available on iOS &amp; Android</p>
-        </div>
-
-    
-    
-    </div></div><br/><br/>https://insider-gaming.com/oner-shockingly-wont-appeal-his-asian-games-omission/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
