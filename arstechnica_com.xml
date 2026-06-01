@@ -4,24 +4,26 @@
         <title>maGaming RSS Feed - arstechnica.com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica.com</description>
-        <lastBuildDate>Fri, 29 May 2026 01:41:22 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 01 Jun 2026 16:52:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Intel makes a bid for handheld gaming PCs with new Arc G3 processors]]></title>
-            <link>https://arstechnica.com/gadgets/2026/05/intel-makes-a-bid-for-handheld-gaming-pcs-with-new-arc-g3-processors/</link>
-            <guid>1532911</guid>
+            <title><![CDATA[Nvidia RTX Spark comes to Windows PCs with Arm CPU, RTX GPU, and unified memory]]></title>
+            <link>https://arstechnica.com/gadgets/2026/06/nvidia-gets-into-the-arm-pc-business-with-new-high-end-rtx-spark-processor/</link>
+            <guid>1535548</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
                       
                       
-          <p>Most of the Steam Deck imitators on the market right now use AMD silicon, specifically the Ryzen Z-series chips. These are the same chips AMD makes for regular laptops, but with different power settings better suited to a compact handheld system. There are handhelds based on Intel silicon (<a href="https://www.msi.com/Handheld/Claw-8-AI-Plus-Glacier-Blue-Edition-A2VMX">MSI’s Claw</a> is the main one), but Intel hasn’t yet tried making silicon marketed specifically for that purpose.</p>
-<p>Today, the company is throwing its hat in the ring with two Intel Arc G-series processors, which will allow gaming handhelds to leverage the company’s <a href="https://arstechnica.com/gadgets/2026/02/intel-panther-lake-core-ultra-review-intels-best-laptop-cpu-in-a-very-long-time/">genuinely quite good</a> Arc B-series integrated GPUs. Intel says that several Arc G-series handhelds will arrive “starting in June 2026, with broader availability throughout the year.” These systems will include a new MSI Claw model, a <a href="https://news.acer.com/acer-expands-gaming-portfolio-with-predator-atlas-8-handheld-powered-by-intel">Predator Atlas 8</a> from Acer, and a device from <a href="https://onexplayerstore.com/">OneXPlayer</a>.</p>
-<p>Intel normally uses its “Arc” branding for integrated and dedicated GPUs, but in this case, the “Arc” brand encompasses the entire chip, including the CPU, GPU, NPU, and other components.</p>
-<p>The G-series chips are similar in many ways to <a href="https://arstechnica.com/gadgets/2026/01/intel-launches-core-ultra-series-3-cpus-made-using-its-long-awaited-18a-process/">the Core Ultra Series 3 chips</a> (codenamed Panther Lake) that Intel is currently shipping in high-end thin-and-light laptops. They use the same CPU and GPU architectures and make use of Intel’s 18A manufacturing process (among others). But they ship with a slightly different combination of CPU and GPU cores that doesn’t quite match up with any of the Core Ultra processors.</p>
+          
+<p>These days, Nvidia primarily sells AI data center products, and its traditional consumer devices feel like more of a side project. But the company occasionally still releases something designed for consumers. After a couple of years of rumors, Nvidia has announced an Arm-based chip designed to power Windows PCs. Dubbed RTX Spark, the new chip combines a 20-core Nvidia Grace CPU co-developed with MediaTek, up to 6,144 Blackwell-based GPU cores (the same architecture as the RTX 50-series GPUs), and support for up to 128GB of unified LPDDR5x memory.</p>
+<p>Nvidia and its partners offered nothing about expected pricing, but both “slim Windows laptops with all-day battery life and premium displays” and “compact desktop PCs” are slated to be “available this fall” from partners including Asus, Dell, HP, Lenovo, Microsoft, MSI, Acer, and Gigabyte.</p>
+<p>This isn’t Nvidia’s first chip for Windows PCs; earlier chips in the Tegra series powered several of the <a href="https://arstechnica.com/gadgets/2012/10/my-kingdom-for-some-apps-the-asus-vivo-tab-rt-review/">short-lived Windows RT tablets</a>. But Tegra chips largely stopped appearing in consumer devices following the Tegra X1 in the late 2010s (variants power the original Nintendo Switch and the <a href="https://arstechnica.com/gadgets/2026/01/inside-nvidias-10-year-effort-to-make-the-shield-tv-the-most-updated-android-device-ever/">apparently unkillable Nvidia Shield TV box</a>). Modern Arm-based PCs in the Windows 10 and Windows 11 eras have all used processors from Qualcomm.</p>
+<p>Nvidia stands to benefit from <a href="https://arstechnica.com/gadgets/2024/04/is-the-arm-version-of-windows-ready-for-its-close-up/">the years of progress</a> made on the Arm version of Windows since the Windows RT days. Microsoft’s x86-to-Arm code translation layer, codenamed Prism, has gotten better and faster. Many major apps now ship Arm-native versions that can run without the performance and responsiveness penalties that still crop up in translated apps. <em>Most</em> of the time, at least for productivity work and general computing, an Arm-based PC and an Intel or AMD-based PC look and feel indistinguishable.</p>
+<p>And Nvidia’s entry into the market may help improve the gaming experience, one area where the Arm version of Windows still falls short. Translated games often play, but they can show lag or responsiveness issues even when running at a reasonable frame rate; many games that require kernel-level anti-cheat software to be installed still don’t run at all. Nvidia and Microsoft <a href="https://www.theverge.com/tech/940589/nvidia-rtx-spark-n1-n1x-laptop-desktop-pc-cpu-gpu-ai-release-date">told The Verge</a> that they were actively working with Riot Games to support <em>League of Legends</em> and&nbsp;<em>Valorant</em> on Arm PCs; with Krafton to support&nbsp;<em>PUBG</em>; and with the developers of Easy Anti-Cheat, BattlEye, and Denuvo.</p>
 
           
                       
-                  </div></div><br/><br/>https://arstechnica.com/gadgets/2026/05/intel-makes-a-bid-for-handheld-gaming-pcs-with-new-arc-g3-processors/]]></content:encoded>
+                  </div></div><br/><br/>https://arstechnica.com/gadgets/2026/06/nvidia-gets-into-the-arm-pc-business-with-new-high-end-rtx-spark-processor/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
