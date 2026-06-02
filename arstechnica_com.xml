@@ -4,23 +4,51 @@
         <title>maGaming RSS Feed - arstechnica.com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica.com</description>
-        <lastBuildDate>Mon, 01 Jun 2026 23:31:43 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 02 Jun 2026 17:34:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[AMD extends Socket AM5 support through at least 2029; AM4 refuses to die]]></title>
-            <link>https://arstechnica.com/gadgets/2026/06/amd-extends-socket-am5-support-through-at-least-2029-am4-refuses-to-die/</link>
-            <guid>1535875</guid>
+            <title><![CDATA[Why a Neo Geo port of Doom is functionally impossible]]></title>
+            <link>https://arstechnica.com/gaming/2026/06/why-a-neo-geo-port-of-doom-is-functionally-impossible/</link>
+            <guid>1536787</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-                      
-                      
-          <p>One of the benefits of building an AMD PC is that the company has historically supported its processor sockets for longer than Intel does, allowing the same motherboard (and RAM kit, if you want) to power your PC through multiple CPU upgrades. Today at Computex, AMD <a href="https://www.amd.com/en/blogs/2026/amd-computex-2026-10-years-of-am4-am5-support-through.html">announced</a> chips for the current AM5 socket and the improbably-still-around AM4 socket that will help extend their lives a little further, a nod to just how expensive it has become to build a new PC or perform a major upgrade these days.</p>
-<p>The first of these announcements is something we <a href="https://arstechnica.com/gadgets/2026/05/amd-reportedly-plans-ryzen-5800x3d-re-release-for-upgraders-on-a-budget/">knew about already</a>: the relaunch of <a href="https://arstechnica.com/gadgets/2022/04/review-ryzen-7-5800x3d-is-an-interesting-tech-demo-thats-hard-to-recommend/">2022’s Ryzen 7 5800X3D</a>, the first of AMD’s commercially available 3D V-Cache processors. Dubbed a “10th Anniversary Edition” in reference to how long Socket AM4 has been around, the re-released chip is slower than regular 8-core Ryzen 5000-series CPUs in general productivity tasks but comes with 64MB of extra L3 cache that disproportionately benefits games. If you’re trying to use a high-end GPU with an AM4 motherboard, it could help keep your CPU from being a performance bottleneck. The 5800X3D (re-)releases on June 25 for a suggested retail price of $349, which is less than it currently costs to buy secondhand.</p>
-<p>As for the current AM5 socket, AMD officially announced that it was extending its support to at least 2029—it was originally planned to last <a href="https://arstechnica.com/gadgets/2022/09/everything-you-need-to-know-about-zen-4-socket-am5-and-amds-newest-chipsets/">until 2025</a>, then until “<a href="https://arstechnica.com/gadgets/2024/07/amd-makes-improved-efficiency-a-core-part-of-the-pitch-for-its-ryzen-9000-cpus/">2027+</a>,” so that means between two and four years of additional support, depending on how you’re counting.</p>
+          
+          
+<h2>Neo Wolfenstein</h2>
+<p>While those limitations might hold back a Neo Geo <em>Doom</em> port, the system may still be able to handle a simpler FPS like <em>Wolfenstein 3D</em>. Modern Vintage Gamer put together a simple Neo Geo raycasting demo for a video that approximates that game’s 90-degree walls, flat floors, and ceilings.</p>
+<figure>
+    <div id="caption-2157473"><p>
+              The “walls” in this raycasting demo are simply 4-pixel-wide sprites that have been scaled up by the Neo Geo hardware.
+                              </p>
+                          </div>
+          <figcaption>
+        <div>
+    
+    <p>
+      The “walls” in this raycasting demo are simply 4-pixel-wide sprites that have been scaled up by the Neo Geo hardware.
+
+              <span>
+          Credit:
+
+                      <a href="https://www.youtube.com/watch?v=4f1-7c6WX10" target="_blank">
+          
+          Modern Vintage Gamer
+
+                      </a>
+                  </span>
+          </p>
+  </div>
+      </figcaption>
+      </figure>
+
+<p>The raycaster works by sending out rays from the player’s position to detect the distance to the first wall the player can see in that line. That data then determines the heights and colors for each of a set of 80 4-pixel-wide sprites arranged horizontally across the display, which act as pieces of wall. Since the Neo Geo’s scaling hardware can efficiently stretch those sprites vertically without much overhead, the raycasting data can be quickly converted into a chunky approximation of a first-person view.</p>
+<p>MVG’s simple, unoptimized Neo Geo raycaster currently runs at just eight frames per second via emulation without any of <em>Wolfenstein 3D</em>‘s enemies or game logic. And the raycasting system would still be wildly insufficient for <em>Doom</em> elements like raised platforms, staircases, elevators, textured walls and ceilings, etc.</p>
+<p>For all those reasons, MVG believes the only practical way to get <em>Doom</em> running on a Neo Geo is to pack additional hardware into the cartridge, much like the Super FX2 chip that powered <a href="https://www.youtube.com/watch?v=9fTKGsq5Oa4">the limited SNES port of the game</a>. Failing that kind of extra processing power, he wagers that the system will likely remain <em>Doom-</em>free for the foreseeable future.</p>
+<p>“I don’t want to say it’s impossible because as soon as you say that something is impossible, the gauntlet has been thrown down,” MVG added.</p>
+
 
           
-                      
-                  </div></div><br/><br/>https://arstechnica.com/gadgets/2026/06/amd-extends-socket-am5-support-through-at-least-2029-am4-refuses-to-die/]]></content:encoded>
+                  </div></div><br/><br/>https://arstechnica.com/gaming/2026/06/why-a-neo-geo-port-of-doom-is-functionally-impossible/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
