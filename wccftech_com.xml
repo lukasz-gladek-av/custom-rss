@@ -4,9 +4,294 @@
         <title>maGaming RSS Feed - wccftech.com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech.com</description>
-        <lastBuildDate>Thu, 04 Jun 2026 21:33:13 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 04 Jun 2026 22:31:31 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Why PC Game System Requirements Are Often Misleading]]></title>
+            <link>https://wccftech.com/why-pc-game-system-requirements-are-often-misleading/</link>
+            <guid>1539841</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			
+			<p>PC system requirements should be simple. You look at the minimum, recommended, and potentially higher-tier specs, compare them to your rig, and get a solid idea of what to expect. Easy enough, right?</p>
+
+
+
+<p>Well, not anymore, sadly. Over the last decade or so, PC game system requirements (or PC specs) have become incredibly messy, inconsistent, and sometimes borderline useless. We are dealing with vague targets, aggressive temporal upscaling hidden behind an inconspicuous “1080p” or “4K” label, and "60 FPS" targets that incredibly rely on frame generation, which is absolutely not the same thing as actually rendering 60 full game frames per second. Heck, now and then, publishers even list hardware that doesn’t actually exist!</p>
+
+
+
+<p>To be clear, this isn't just a lazy rant about games getting harder to run. Some titles genuinely push visuals, simulation, geometric complexity, and lighting fidelity hard enough to justify heavy specs. Remedy's <em data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed">Alan Wake 2, </em>for example, is an incredibly ambitious game visually, and it is completely fair for a game like that to ask more from your GPU than a less visually impressive title.</p>
+
+
+
+<p>The real problems in our view are <strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed">proper communication and accuracy</strong>. If a game needs temporal upscaling, <strong data-dracula_secondary_bg_finder="rgba(38, 42, 43, 0.2)" data-dracula_alpha_bg="rgba(38, 42, 43, 0.2)" data-dracula_preserved_classes="dracula-style-all dracula-processed">then its specs sheet should say so clearly</strong>. If you, as a game developer, are unsure about a certain piece of hardware, <strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)">then make sure it actually exists before slapping it into a PC specs infographic for your game.</strong> Right now, a lot of PC system requirements feel less like tested and useful guidance and more like vibes with a hardware list attached.</p>
+
+
+
+<h2 id="h-minimum-and-recommended-specs-often-don-t-mean-much-without-proper-context"><strong>“Minimum” And “Recommended” Specs Often Don’t Mean Much Without Proper Context</strong></h2>
+
+
+
+<p>The oldest problem with PC system requirements is also the simplest one: <strong>minimum and recommended specs are not standardized across the industry.</strong></p>
+
+
+
+<p>One developer’s “minimum” might mean 720p@30 FPS on the absolute lowest settings. Another’s might mean a decent “1080p@60 FPS on medium settings” experience. And for some, it basically means "the game boots and technically runs, good luck". "Recommended" is not much better. It could mean 1080p@60 FPS, 1440p@60 FPS, 4K@30 FPS, High settings, Medium settings, ray tracing enabled, upscaling disabled, or some obscure, internal test scenario that is never actually disclosed to the player.</p>
+
+
+
+<p>That is a major issue, because a CPU/GPU list by itself does not tell you what the game will actually feel like. <strong data-dracula_secondary_bg_finder="rgba(38, 42, 43, 0.2)" data-dracula_alpha_bg="rgba(38, 42, 43, 0.2)" data-dracula_preserved_classes="dracula-style-all dracula-processed">A requirement sheet should answer a few basic questions: What resolution is this targeting? What graphics preset? What average FPS? What about 1% lows and shader compilation stutters? Was the benchmark done in a quiet corridor, a busy city hub, or a worst-case scenario combat sequence?</strong> Most PC game requirements sheets still leave us guessing, and when they do include extra notes, those notes sometimes make the whole thing look worse, not better.</p>
+
+
+<p>
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/06/Control-Resonant-PC-Specs.jpg"></a><figcaption><em>The recently announced <a href="https://wccftech.com/control-resonant-pc-system-requirements/">CONTROL Resonant</a> PC requirements perfectly showcase the problem of system requirements without proper context.</em></figcaption></figure>
+</p>
+
+
+<h2 id="h-temporal-upscaling-is-fine-but-not-so-much-at-lower-resolution-s"><strong data-dracula_secondary_bg_finder="rgba(38, 42, 43, 0.2)" data-dracula_alpha_bg="rgba(38, 42, 43, 0.2)" data-dracula_preserved_classes="dracula-style-all dracula-processed">Temporal Upscaling Is Fine, But Not So Much At Lower Resolution</strong><strong>s</strong></h2>
+
+
+
+<p>The biggest modern offender is probably temporal upscaling, which the overwhelming majority of modern AAA games rely on to achieve their visuals and performance targets, especially on game consoles. Let's be fair here: <strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)">temporal upscaling itself is not bad</strong>. NVIDIA DLSS Super Resolution, AMD FSR upscaling, and Intel XeSS Super Resolution can be genuinely excellent performance-enhancing tools when implemented properly and used correctly. In many modern PC games, DLSS 4/4.5 SR and FSR 4/4.1 upscaling in Quality mode at 1440p and 4K oftentimes look cleaner and sharper than native resolution rendering with your average temporal anti-aliasing (TAA) implementation. <strong data-dracula_secondary_bg_finder="rgba(38, 42, 43, 0.2)" data-dracula_alpha_bg="rgba(38, 42, 43, 0.2)">Nobody serious is pretending that the use of temporal reconstruction technologies is automatically a bad thing.</strong></p>
+
+
+
+<p><strong>The issue is when system requirements use the output resolution as the big headline while hiding the internal rendering resolution in the fine print.</strong></p>
+
+
+
+<p><em data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed"><a data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-style-link dracula-processed" href="https://wccftech.com/roundup/star-wars-outlaws-everything-you-need-to-know-about-the-first-open-world-game-in-the-far-far-away-galaxy/">Star Wars Outlaws</a></em> did something similar across its whole PC specs chart. Ubisoft listed almost every tier with the temporal upscaler set to "Quality" mode, which would correspond to an internal rendering resolution of 720p for NVIDIA DLSS SR and AMD FSR upscaling (with XeSS SR Ultra Quality mode being the equivalent mode for Intel Arc GPUs). Here's the thing: upscaling from 1440p to 4K will look great with modern temporal upscaling technologies, <strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed">but upscaling from 720p (or worse, 540p AKA “Performance mode” upscaling) to 1080p is incredibly fragile.</strong> <strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)">It often leads to heavy visual artifacting, blurry visuals, and shimmering edges, yet it's increasingly becoming normalized as baseline specs.</strong></p>
+
+
+<p>
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/06/Star-Wars-Outlaws-PC-Specs-scaled.jpg"></a><figcaption><em data-dracula_alpha_bg="rgba(0, 0, 0, 0)">While the Star Wars Outlaws PC specs are actually very decent and detailed by modern standards, the heavy reliance on temporal upscaling — even at a relatively low resolution of 1080p — is a sore point that we feel is worth calling out.</em></figcaption></figure>
+</p>
+
+
+<h2 id="h-frame-generation-should-never-be-used-to-define-a-baseline-fps-target"><strong>Frame Generation Should <em>Never</em> Be Used To Define A Baseline FPS Target</strong></h2>
+
+
+
+<p>Frame generation is even more problematic than temporal upscaling when used in PC game system requirements. Again, the technology can work really well in the right scenario and the right game. If you are already running at a solid base frame rate (at least 50-60 FPS is recommended by most GPU vendors) in a game that’s not overly sensitive to input latency (like story-heavy single-player games, for example), then it can make a game look dramatically smoother, at the cost of higher input latency and some potentially visible visual artifacts.</p>
+
+
+
+<p><strong>But generated frames are not the same as rendered frames.</strong> NVIDIA’s own documentation makes this clear: frame generation inserts interpolated frames between game-rendered ones. That means the game is not actually simulating, rendering, and responding to your input at that displayed FPS number. <strong>It looks smoother, but the underlying base frame rate still dictates your input latency, animation cadence, and overall responsiveness.</strong></p>
+
+
+
+<p><strong data-dracula_secondary_bg_finder="rgba(38, 42, 43, 0.2)" data-dracula_alpha_bg="rgba(38, 42, 43, 0.2)">That is why using frame generation to advertise a 60 FPS recommended target simply feels wrong.</strong> <em data-dracula_alpha_bg="rgba(0, 0, 0, 0)"><a data-dracula_alpha_bg="rgba(0, 0, 0, 0)" href="https://wccftech.com/monster-hunter-wilds-pc-performance-patch-significant-performance-improvements/">Monster Hunter Wilds</a>,</em> unfortunately, pioneered this trend, targeting 1080p@60 FPS at Medium settings but noting that this target requires frame generation. In plain English, that system isn't running a true 60 FPS baseline; it's a 30 FPS baseline with interpolated frames that are inserted between the rendered ones. Frame generation works best when performance is already high. As such, if<strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)"> the baseline performance is poor or stuttery, then generating extra frames just puts lipstick on a pig — the FPS counter would look nicer, but the game would still feel sluggish, unresponsive, and look highly artifact-ridden.</strong></p>
+
+
+<p>
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/06/Monster-Hunter-Wilds-PC-Specs.jpg"></a><figcaption><em>The Monster Hunter Wilds PC specs started the highly unfortunate trend of game developers relying on frame generation technologies to achieve playable framerates.</em></figcaption></figure>
+</p>
+
+
+<h2 id="h-higher-resolutions-do-not-automatically-justify-much-faster-cpus"><strong>Higher Resolutions Do Not Automatically Justify Much Faster CPUs</strong></h2>
+
+
+
+<p>Another weird habit on these charts is scaling CPU requirements in ways that do not make technical sense. Generally speaking, raising your resolution increases GPU load far more than CPU load. Going from 1080p to 1440p or 4K makes the graphics card work harder because it has to shade more pixels, which places more strain on its compute and memory bandwidth resources. The CPU still matters for simulation, physics, and streaming/decompressing assets, but resolution itself is a wholly GPU-side burden.</p>
+
+
+
+<p>That is why some PC game requirements charts look bizarre when the CPU tier rises sharply alongside resolution, without any change to the framerate target or game complexity. There are valid exceptions, like a higher framerate target, heavier NPC density, expensive physics simulations, or more complex ray tracing <a data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-style-link dracula-processed" href="https://en.wikipedia.org/wiki/Bounding_volume_hierarchy">BVHs (bounding volume hierarchies)</a>. But a resolution jump from 1080p to 4K should not automatically imply that you suddenly need a much stronger processor. <strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed">PC game specs charts need to stop treating CPU and GPU scaling as interchangeable and start telling us if a game is specifically CPU-limited in CPU-heavy areas.</strong></p>
+
+
+
+<p>Recent Steam Early Access sensation <em data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed"><a href="https://wccftech.com/subnautica-2-reportedly-brought-in-an-estimated-100m-with-over-4m-copies-sold-in-less-than-a-week/">Subnautica 2</a></em> is a neat example of how CPU scaling can look weird on modern PC specs sheets. Its four-tier chart goes from a Core i5-8400/Ryzen 5 2600 at 1080p@30 FPS Low, to a Core i7-13700/Ryzen 7 7700X at 1440p@60 FPS, then all the way to a Core i9-14900K/Ryzen 9 7900X3D for 4K@60 FPS High. Maybe there is a valid simulation or streaming-related reason for that jump, but at 4K@60 FPS, <strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)">the overwhelming majority of PC games are usually far more GPU-limited than CPU-limited, so asking for flagship-class CPUs without explaining the bottleneck just makes the chart look arbitrary and nonsensical.</strong></p>
+
+
+<p>
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/06/Subnautica-2-PC-Specs.jpeg"></a><figcaption><em>The above Subnautica 2 PC specs showcase one of the main gripes we have with modern PC game requirements: CPU requirements that inexplicably scale with resolution.</em></figcaption></figure>
+</p>
+
+
+<h2 id="h-sometimes-the-gpu-and-cpu-pairings-do-not-even-make-sense"><strong data-dracula_secondary_bg_finder="rgba(26, 87, 132, 0.2)" data-dracula_alpha_bg="rgba(26, 87, 132, 0.2)">Sometimes</strong><strong>,</strong><strong data-dracula_secondary_bg_finder="rgba(26, 87, 132, 0.2)" data-dracula_alpha_bg="rgba(26, 87, 132, 0.2)"> The GPU And CPU Pairings Do Not Even Make Sense</strong></h2>
+
+
+
+<p>Beyond scaling, the actual hardware pairings often look like they were pulled out of a hat rather than matched based on real-world performance.</p>
+
+
+
+<p><em data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed"><a href="https://wccftech.com/silent-hill-2-remake-surpassed-5-million-players/">Silent Hill 2 Remake</a></em> is a prime example of this. Its recommended specs inexplicably paired an NVIDIA GeForce RTX 2080 with an AMD Radeon RX 6800 XT. This is a bizarre comparison. I<strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed">n traditional rasterized performance, the RX 6800 XT is not even in the same league as an RTX 2080; it's much closer to an RTX 3080.</strong> When a PC game specs sheet lists those two GPUs side by side, it leaves players asking: which one is the real target? Is the game well-optimized for NVIDIA, or did the AMD side just get massively over-specced?</p>
+
+
+
+<p><em>Star Wars Outlaws</em> had similar weirdness, pairing an RTX 3060 8GB with an RX 6700 XT 12GB for its 1080p@60 FPS High preset, despite the 6700 XT being a significantly faster card. To be fair, there can be reasons for this — maybe an engine favors one architecture, or maybe VRAM capacity is forcing the jump. But if that's the case, <strong>then the chart should explain it</strong>. Otherwise, it just looks like guesswork rather than science.</p>
+
+
+<p>
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/06/Silent-Hill-2-Remake-PC-Specs.jpg"></a><figcaption><em data-dracula_secondary_bg_finder="rgba(38, 42, 43, 0.2)" data-dracula_alpha_bg="rgba(38, 42, 43, 0.2)" data-dracula_preserved_classes="dracula-style-all dracula-processed">Silent Hill 2 Remake’s recommended GPU specs contain two GPUs that are in different performance tiers, as the AMD Radeon RX 6800 XT often outperforms the NVIDIA GeForce RTX 2080 by around 60-70% on average, with the exclusion of gaming scenarios that involve hardware ray/path tracing.</em></figcaption></figure>
+</p>
+
+
+<h2 id="h-sometimes-the-specs-are-just-flat-out-wrong"><strong>Sometimes The Specs Are Just Flat-Out Wrong</strong></h2>
+
+
+
+<p>Then we get to the funniest and most embarrassing category: PC specs that contain straight-up false information.</p>
+
+
+
+<p><em data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed"><a href="https://wccftech.com/007-first-light-sales-amazon-sequel/">007 First Light</a></em> is a very recent example. IO Interactive’s original PC requirements listed an Intel Core i5-9500K as a minimum CPU. The problem? <strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)">That CPU does not exist.</strong> They later corrected it to the non-K Core i5-9500, which thankfully actually exists!</p>
+
+
+
+<p>The same original chart also had mismatched memory info, calling for 12GB of VRAM while naming the GeForce RTX 3060 Ti, which is a GPU that famously only has 8 GB of VRAM. They also eventually lowered the recommended system memory amount from 32 GB to 16 GB. Mistakes happen, and credit to IO Interactive for fixing it quickly, but it shows why players are right to be skeptical<strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed">. If a publisher can't bother to proofread basic hardware names and VRAM capacities, then how much confidence should we have in the rest of their performance data?</strong></p>
+
+
+<p>
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/06/007-First-Light-Original-PC-Specs-scaled.jpg"></a><figcaption><em>The original 007 First Light PC specs contained some frankly embarrassing mistakes. Thankfully, they were eventually updated to accurate specs by IO Interactive, so huge kudos to them for that!</em></figcaption></figure>
+</p>
+
+
+<h2 id="h-system-ram-and-vram-requirements-are-often-poorly-communicated"><strong>System RAM And VRAM Requirements Are Often Poorly Communicated</strong></h2>
+
+
+
+<p>System DRAM (<a data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-style-link dracula-processed" href="https://en.wikipedia.org/wiki/Dynamic_random-access_memory">Dynamic Random-Access Memory</a>) and GPU VRAM (<a data-dracula_alpha_bg="rgba(0, 0, 0, 0)" href="https://en.wikipedia.org/wiki/Video_random-access_memory">video RAM</a>) requirements have become a massive talking point, and for good reason. Modern PC games are thirsty for memory capacity, as higher-resolution textures, <a data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-style-link dracula-processed" href="https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-acceleration-structure/introduction.html">ray tracing acceleration structures</a>, and seamless open worlds often mean 16 GB of system DRAM is the new minimum, and 8 GB GPUs are being pushed to their absolute limits.</p>
+
+
+
+<p>But PC game requirements sheets rarely explain what those memory targets actually mean. Does a 12 GB VRAM recommendation assume Ultra textures? If you run it on an 8 GB card, will the game gracefully stream lower-quality assets, or will it stutter into oblivion?</p>
+
+
+
+<p>This is where the <em data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed">007 First Light</em> chart looked so odd initially. Recommending 32 GB of system DRAM for a 1080p@60 FPS target sounded incredibly inflated before they brought it back down to 16 GB. In our view,<strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed"> memory requirements need to be explicitly tied to specific settings (e.g., "8 GB VRAM for Medium textures, 12 GB for Ultra") rather than just throwing out a single, unexplained number.</strong></p>
+
+
+
+<p>A better example is <em data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed"><a href="https://wccftech.com/review/indiana-jones-and-the-great-circle-indiana-at-his-finest/">Indiana Jones and the Great Circle</a></em>. Whether one agrees with its heavy requirements or not, the game at least gives players a clearer reason for why memory and GPU feature support matter: hardware ray tracing is required because the game’s global illumination relies on it, and higher-end modes naturally become more VRAM-intensive. That is the kind of context many PC game specs sheets are missing. If a game needs more VRAM because of ray-traced/path-traced lighting, higher texture resolutions, or overly detailed models, <strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)">then its specs sheet should just say so plainly instead of throwing out a vague “8 GB” or “12 GB” number and expecting players to guess what setting actually needs it.</strong></p>
+
+
+<p>
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/06/Indiana-Jones-And-The-Great-Circle-PC-Specs-scaled.jpg"></a><figcaption><em>Indiana Jones And The Great Circle’s PC specs are detailed enough to make it clear to the player why GPUs with higher VRAM amounts are required, depending on the used graphics settings/preset.</em></figcaption></figure>
+</p>
+
+
+<h2 id="h-the-ultra-preset-problem"><strong>The “Ultra” Preset Problem</strong></h2>
+
+
+
+<p>Another reason these charts mislead is that graphics presets themselves are completely arbitrary. “High” in one game might perform like “Medium” in another. "Ultra" can mean a modest visual bump over High, or it can mean a brutal, future-facing screenshot mode that tanks your framerate by 40% for visual gains you need a magnifying glass to see.</p>
+
+
+
+<p>This makes PC game requirements charts incredibly hard to interpret. If a game lists specs for "1440p@60 FPS on High", then that may sound reasonable. But if that "High" preset includes heavy ray-traced effects, then it isn't comparable to another game's High preset at all. <strong>This is exactly why optimized graphics settings guides exist.</strong> Most games have one or two settings that destroy performance for almost no visual reward. <strong>A PC game requirements chart that only lists blanket presets completely misses that nuance.</strong></p>
+
+
+<figure>
+<div>
+
+<figure>
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/06/Fatekeeper-1440p-Medium.jpg"></a><figcaption><em>The “Medium” preset of a game that we recently tested — the visually impressive Unreal Engine 5 Steam Early Access game </em><a href="https://store.steampowered.com/app/2186990/Fatekeeper/"><em>Fatekeeper</em></a><em>— looks objectively better than the maxed-out visuals of another game that we recently tested, which is the Steam demo of CAPCOM’s upcoming Samurai action-RPG: </em><a href="https://store.steampowered.com/app/2638890/Onimusha_Way_of_the_Sword/"><em>Onimusha: Way of the Sword</em></a><em>.</em></figcaption></figure>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/06/Onimusha-1440p-Maxed-out.jpg"></a><figcaption><em>The “Medium” preset of a game that we recently tested — the visually impressive Unreal Engine 5 Steam Early Access game </em><a href="https://store.steampowered.com/app/2186990/Fatekeeper/"><em>Fatekeeper</em></a><em>— looks objectively better than the maxed-out visuals of another game that we recently tested, which is the Steam demo of CAPCOM’s upcoming Samurai action-RPG: </em><a href="https://store.steampowered.com/app/2638890/Onimusha_Way_of_the_Sword/"><em>Onimusha: Way of the Sword</em></a><em>.</em></figcaption></figure>
+</figure>
+<div>
+				    		
+				    		
+					    	<p><span>2 of 9</span>
+				    	</p></div>
+</div>
+</figure>
+
+
+
+<h2 id="h-what-good-pc-game-system-requirements-should-look-like"><strong>What Good PC Game System Requirements Should Look Like</strong></h2>
+
+
+
+<p>The solution to this mess isn't rocket science. Publishers just need to stop pretending that two vague boxes labeled “Minimum” and “Recommended” are cutting it anymore. A modern, useful PC game requirements sheet should, in our view, explicitly include:</p>
+
+
+
+<ul>
+<li><strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)">Resolution target:</strong> Separating output vs internal rendering resolutions.</li>
+
+
+
+<li><strong>Framerate target:</strong> Listing both average FPS and a note on 1% lows.</li>
+
+
+
+<li><strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed">Graphics preset:</strong> Clarifying exactly what features (like ray tracing) are enabled.</li>
+
+
+
+<li><strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed">Temporal upscaling and frame generation status:</strong> Clearly stating the temporal upscaling mode used (e.g., Quality, Performance, Off, etc.) and whether frame generation is relied upon to hit the target framerates.</li>
+
+
+
+<li><strong>Hardware bottlenecks:</strong> Warning players if specific areas are heavily CPU-bound.</li>
+
+
+
+<li><strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed">Memory breakdown:</strong> Tying VRAM requirements directly to texture quality tiers, and advising players to use a dual-channel instead of a single-channel system DRAM setup.</li>
+</ul>
+
+
+
+<p>And instead of a vague marketing slide, a real performance target should, in our view, look like this:</p>
+
+
+
+<ul>
+<li><em data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed">1080p / Medium Preset (with Ray Tracing disabled) / Native Resolution with TAA / 60 FPS Target with 50+ FPS in 1% Lows</em> /<em data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed"> 8 GB of VRAM or higher</em> /<em> 16 GB of system DRAM or higher.</em></li>
+
+
+
+<li><em data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed">4K / Ultra Preset (with Ray Tracing enabled) / DLSS Super Resolution in Performance mode + 2X DLSS Frame Generation / 120 FPS Target with 100+ FPS in 1% Lows</em> /<em data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed"> 16 GB of VRAM or higher</em> /<em> 32 GB of system DRAM or higher.</em></li>
+</ul>
+
+
+<p>
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/06/Forza-Horizon-6-PC-Specs.jpg"></a><figcaption><em data-dracula_secondary_bg_finder="rgba(38, 42, 43, 0.2)" data-dracula_alpha_bg="rgba(38, 42, 43, 0.2)" data-dracula_preserved_classes="dracula-style-all dracula-processed">In our view, the Forza Horizon 6 PC specs sheet is as close as it gets to our ideal PC specs, as it includes accurate information about the hardware required, the used presets, the performance targets, upscaling/frame generation use, and supported technologies, etc.</em></figcaption></figure>
+</p>
+
+
+<h2 id="h-final-words"><strong>Final Words</strong></h2>
+
+
+
+<p>PC system requirements are supposed to help players make informed purchasing decisions, but too many modern charts now require a technical translator to decipher. Between hidden temporal upscaling, inappropriate use of frame generation, unstandardized presets, and lopsided hardware pairings, the traditional format has outlived its usefulness.</p>
+
+
+
+<p><strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed">In our opinion, PC game developers simply need to do better in this regard.</strong> Temporal upscaling should be disclosed transparently and used properly, frame generation should never be treated as real performance, and official PC specs charts should, at the very least, get the names of real-world hardware right. Modern PC games are highly complex beasts, and that’s fine, but figuring out if you can run them properly shouldn't be.</p>
+
+
+
+
+
+			
+			
+						<div>
+									<p>
+					<strong>About the <a href="https://wccftech.com/author/sebastian/">author</a>: </strong> Sebastian Castellanos is a data scientist by education and training. He's also deeply passionate about PC gaming hardware and software. He has recently started writing technical articles and guides Wccftech about PC <a href="https://wccftech.com/topic/hardware/">hardware</a>, games and mods.				</p>				
+			</div>
+			
+			<p data-nosnippet="">
+				Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.
+			</p>
+			
+
+
+		</div></div><br/><br/>https://wccftech.com/why-pc-game-system-requirements-are-often-misleading/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[Crate Entertainment Opens Up on Grim Dawn: Fangs of Asterkarn’s Massive Scope, Long Development, and What Comes Next]]></title>
             <link>https://wccftech.com/grim-dawn-fangs-of-asterkarn-scope-development-next/</link>
@@ -49,7 +334,7 @@
 
 
 
-<p>The decision to do one more expansion actually <strong>started during the development of our not-so- secret RTS, which is set in the Grim Dawn universe</strong>. We were fleshing out the lore and history of the world. Things we mentioned in passing inside of Grim Dawn now had names, people, and historic events. We got that itch to come back to Grim Dawn for one more big adventure.</p>
+<p>The decision to do one more expansion actually started during the development of our not-so- secret RTS, which is set in the Grim Dawn universe. We were fleshing out the lore and history of the world. Things we mentioned in passing inside of Grim Dawn now had names, people, and historic events. We got that itch to come back to Grim Dawn for one more big adventure.</p>
 
 
 
@@ -93,11 +378,7 @@
 
 
 
-<p>Awakening Epic items is something we have come up with to take all of the itemization, and beautiful item art, that has fallen into obsolescence over the years. <strong>It allows us to take items that are ok while leveling/gearing but are unviable in the endgame and bring them up to par with our Legendary items</strong>. Thanks to this system, we will be able to regularly introduce new Legendary-tier equipment with our balance patches as we now have a pool of hundreds of items with unrealized potential to tap into. </p>
-
-
-
-<p>Awakening Epic items costs crafting materials, so it will not trivialize the value of existing loot. As with any other item in the game, Awakened Epics can have their seed, which determines the attribute values on an item, rerolled using Affix Transmutation.</p>
+<p>Awakening Epic items is something we have come up with to take all of the itemization, and beautiful item art, that has fallen into obsolescence over the years. <strong>It allows us to take items that are ok while leveling/gearing but are unviable in the endgame and bring them up to par with our Legendary items</strong>. Thanks to this system, we will be able to regularly introduce new Legendary-tier equipment with our balance patches as we now have a pool of hundreds of items with unrealized potential to tap into. Awakening Epic items costs crafting materials, so it will not trivialize the value of existing loot.<br>As with any other item in the game, Awakened Epics can have their seed, which determines the<br>attribute values on an item, rerolled using Affix Transmutation.</p>
 
 
 
@@ -239,52 +520,6 @@ His passion for technology also makes him knowledgeable when it comes to gaming 
 
 
 		</div></div><br/><br/>https://wccftech.com/subnautica-2-players-get-stompy-unknown-worlds-teases-leviathans-home-region/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Gabe Newell Fights Steam Monopoly Claims, Says “Customers Have Enormous Choice” Across Consoles and PC]]></title>
-            <link>https://wccftech.com/valve-gabe-newell-fights-steam-monopoly-claims/</link>
-            <guid>1539574</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			
-			<p><strong>Valve's</strong> digital storefront and <a href="https://wccftech.com/egs-is-a-shop-steam-is-a-home-developer-explains-why-pc-users-attached-valves-platform/">quintessential home</a> for PC gamers, <strong>Steam</strong>, is currently under fire from multiple lawsuits. One aimed at <a href="https://wccftech.com/new-york-sues-valve-claims-counter-strike-developers-loot-boxes-are-quintessential-gambling/">microtransaction practices in games like <strong>Counter-Strike</strong></a>, and two more, both aimed at the <strong>30% cut</strong> Valve takes with every purchase made on Steam, <a href="https://wccftech.com/valve-is-clearly-not-cooperating-fairly-says-ceo-leading-656m-lawsuit-against-steams-30-cut-of-game-sales/">one in the UK</a> and another in <a href="https://wccftech.com/wolfire-and-dark-catts-antitrust-lawsuit-against-valve-given-class-action-status/">the US</a>. It's the latter of the two that we have an update on, as a deposition of boss <strong>Gabe Newell</strong> reveals how Newell is trying to argue against Steam being a monopoly, claiming that players have "<em>enormous choice</em>" when it comes to buying their PC games.</p>
-
-
-
-<p>That comes from a new report from <a href="https://www.bloomberg.com/news/features/2026-06-01/valve-s-antitrust-reckoning-over-steam-has-echoes-of-apple-google-app-store-sui">Bloomberg</a>, which dives into the <a href="https://wccftech.com/wolfire-and-dark-catts-antitrust-lawsuit-against-valve-given-class-action-status/">class-action antitrust lawsuit launched by <strong>Wolfire</strong> and <strong>Dark Catt</strong>.</a> The report also reveals incidents where Valve allegedly threatened other developers if they tried to price their games cheaper than their price on Steam. One such high-profile situation, according to the report, was Valve allegedly threatening to remove <strong>Rainbow Six Siege</strong> from Steam if <strong>Ubisoft</strong> didn't stop offering a cheaper price for the game's Starter Pack on its own Ubisoft Connect launcher.</p>
-
-
-
-<p>Newell, for his part, denies that Valve has any such practices or policies. "<em>Valve does not have a policy or practice of dictating prices to third-party software developers on other platforms,</em>" Newell said in a deposition from 2023 that was only now made public thanks to Bloomberg's report. </p>
-
-
-
-<p>"<em>Customers have enormous choice,</em>" Newell said in the deposition. "<em>Where they purchase their products, whether they buy the game on an Xbox, whether they buy it on Steam, whether they buy it on Epic Games Store or whether they buy it directly from software developers.</em>"</p>
-
-
-
-<p>Whether you believe Steam has a monopoly on the PC market, <a href="https://wccftech.com/epic-games-store-gm-admits-steam-wont-be-toppled/">its biggest competitors know it can't be beat</a> after years and years of Steam dominance. If this lawsuit and the one in the UK don't go Valve's way, then that could mean immense changes for the industry and how players buy their games. Though, considering how many players are so entrenched in Steam's ecosystem, it would be interesting to see how many would stick with Steam, even if it meant paying a marginally higher price.</p>
-
-			
-			
-						<div>
-									<p>
-					<strong>About the <a href="https://wccftech.com/author/davidcarcasole/">author</a>: </strong> David has been writing about videogames, technology, and culture since 2020, with a focus on reporting daily news across multiple publications, including GameDaily.Biz, GameSkinny, and PlayStation Universe before joining Wccftech in 2025. David started contributing as Canada/US reporter for Wccftech's <a href="https://wccftech.com/topic/games/">gaming</a> section in 2025. Besides being up-to-date on the industry's movements, he loves interviewing developers, reviewing games, and writing intricate essays about the symbolism and layered meanings to be found in rich narratives as he's done for publications like GamesIndustry.Biz, LostInCult, and others. Outside of games he loves movies, music, theatre, his hometown, and his family, though not necessarily in that order.				</p>				
-			</div>
-			
-			<p data-nosnippet="">
-				Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.
-			</p>
-			
-
-
-		</div></div><br/><br/>https://wccftech.com/valve-gabe-newell-fights-steam-monopoly-claims/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>

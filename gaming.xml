@@ -4,9 +4,526 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Thu, 04 Jun 2026 21:33:13 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 04 Jun 2026 22:31:31 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Why PC Game System Requirements Are Often Misleading]]></title>
+            <link>https://wccftech.com/why-pc-game-system-requirements-are-often-misleading/</link>
+            <guid>1539841</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+			
+
+			
+			
+			
+			
+			<p>PC system requirements should be simple. You look at the minimum, recommended, and potentially higher-tier specs, compare them to your rig, and get a solid idea of what to expect. Easy enough, right?</p>
+
+
+
+<p>Well, not anymore, sadly. Over the last decade or so, PC game system requirements (or PC specs) have become incredibly messy, inconsistent, and sometimes borderline useless. We are dealing with vague targets, aggressive temporal upscaling hidden behind an inconspicuous “1080p” or “4K” label, and "60 FPS" targets that incredibly rely on frame generation, which is absolutely not the same thing as actually rendering 60 full game frames per second. Heck, now and then, publishers even list hardware that doesn’t actually exist!</p>
+
+
+
+<p>To be clear, this isn't just a lazy rant about games getting harder to run. Some titles genuinely push visuals, simulation, geometric complexity, and lighting fidelity hard enough to justify heavy specs. Remedy's <em data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed">Alan Wake 2, </em>for example, is an incredibly ambitious game visually, and it is completely fair for a game like that to ask more from your GPU than a less visually impressive title.</p>
+
+
+
+<p>The real problems in our view are <strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed">proper communication and accuracy</strong>. If a game needs temporal upscaling, <strong data-dracula_secondary_bg_finder="rgba(38, 42, 43, 0.2)" data-dracula_alpha_bg="rgba(38, 42, 43, 0.2)" data-dracula_preserved_classes="dracula-style-all dracula-processed">then its specs sheet should say so clearly</strong>. If you, as a game developer, are unsure about a certain piece of hardware, <strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)">then make sure it actually exists before slapping it into a PC specs infographic for your game.</strong> Right now, a lot of PC system requirements feel less like tested and useful guidance and more like vibes with a hardware list attached.</p>
+
+
+
+<h2 id="h-minimum-and-recommended-specs-often-don-t-mean-much-without-proper-context"><strong>“Minimum” And “Recommended” Specs Often Don’t Mean Much Without Proper Context</strong></h2>
+
+
+
+<p>The oldest problem with PC system requirements is also the simplest one: <strong>minimum and recommended specs are not standardized across the industry.</strong></p>
+
+
+
+<p>One developer’s “minimum” might mean 720p@30 FPS on the absolute lowest settings. Another’s might mean a decent “1080p@60 FPS on medium settings” experience. And for some, it basically means "the game boots and technically runs, good luck". "Recommended" is not much better. It could mean 1080p@60 FPS, 1440p@60 FPS, 4K@30 FPS, High settings, Medium settings, ray tracing enabled, upscaling disabled, or some obscure, internal test scenario that is never actually disclosed to the player.</p>
+
+
+
+<p>That is a major issue, because a CPU/GPU list by itself does not tell you what the game will actually feel like. <strong data-dracula_secondary_bg_finder="rgba(38, 42, 43, 0.2)" data-dracula_alpha_bg="rgba(38, 42, 43, 0.2)" data-dracula_preserved_classes="dracula-style-all dracula-processed">A requirement sheet should answer a few basic questions: What resolution is this targeting? What graphics preset? What average FPS? What about 1% lows and shader compilation stutters? Was the benchmark done in a quiet corridor, a busy city hub, or a worst-case scenario combat sequence?</strong> Most PC game requirements sheets still leave us guessing, and when they do include extra notes, those notes sometimes make the whole thing look worse, not better.</p>
+
+
+<p>
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/06/Control-Resonant-PC-Specs.jpg"></a><figcaption><em>The recently announced <a href="https://wccftech.com/control-resonant-pc-system-requirements/">CONTROL Resonant</a> PC requirements perfectly showcase the problem of system requirements without proper context.</em></figcaption></figure>
+</p>
+
+
+<h2 id="h-temporal-upscaling-is-fine-but-not-so-much-at-lower-resolution-s"><strong data-dracula_secondary_bg_finder="rgba(38, 42, 43, 0.2)" data-dracula_alpha_bg="rgba(38, 42, 43, 0.2)" data-dracula_preserved_classes="dracula-style-all dracula-processed">Temporal Upscaling Is Fine, But Not So Much At Lower Resolution</strong><strong>s</strong></h2>
+
+
+
+<p>The biggest modern offender is probably temporal upscaling, which the overwhelming majority of modern AAA games rely on to achieve their visuals and performance targets, especially on game consoles. Let's be fair here: <strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)">temporal upscaling itself is not bad</strong>. NVIDIA DLSS Super Resolution, AMD FSR upscaling, and Intel XeSS Super Resolution can be genuinely excellent performance-enhancing tools when implemented properly and used correctly. In many modern PC games, DLSS 4/4.5 SR and FSR 4/4.1 upscaling in Quality mode at 1440p and 4K oftentimes look cleaner and sharper than native resolution rendering with your average temporal anti-aliasing (TAA) implementation. <strong data-dracula_secondary_bg_finder="rgba(38, 42, 43, 0.2)" data-dracula_alpha_bg="rgba(38, 42, 43, 0.2)">Nobody serious is pretending that the use of temporal reconstruction technologies is automatically a bad thing.</strong></p>
+
+
+
+<p><strong>The issue is when system requirements use the output resolution as the big headline while hiding the internal rendering resolution in the fine print.</strong></p>
+
+
+
+<p><em data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed"><a data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-style-link dracula-processed" href="https://wccftech.com/roundup/star-wars-outlaws-everything-you-need-to-know-about-the-first-open-world-game-in-the-far-far-away-galaxy/">Star Wars Outlaws</a></em> did something similar across its whole PC specs chart. Ubisoft listed almost every tier with the temporal upscaler set to "Quality" mode, which would correspond to an internal rendering resolution of 720p for NVIDIA DLSS SR and AMD FSR upscaling (with XeSS SR Ultra Quality mode being the equivalent mode for Intel Arc GPUs). Here's the thing: upscaling from 1440p to 4K will look great with modern temporal upscaling technologies, <strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed">but upscaling from 720p (or worse, 540p AKA “Performance mode” upscaling) to 1080p is incredibly fragile.</strong> <strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)">It often leads to heavy visual artifacting, blurry visuals, and shimmering edges, yet it's increasingly becoming normalized as baseline specs.</strong></p>
+
+
+<p>
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/06/Star-Wars-Outlaws-PC-Specs-scaled.jpg"></a><figcaption><em data-dracula_alpha_bg="rgba(0, 0, 0, 0)">While the Star Wars Outlaws PC specs are actually very decent and detailed by modern standards, the heavy reliance on temporal upscaling — even at a relatively low resolution of 1080p — is a sore point that we feel is worth calling out.</em></figcaption></figure>
+</p>
+
+
+<h2 id="h-frame-generation-should-never-be-used-to-define-a-baseline-fps-target"><strong>Frame Generation Should <em>Never</em> Be Used To Define A Baseline FPS Target</strong></h2>
+
+
+
+<p>Frame generation is even more problematic than temporal upscaling when used in PC game system requirements. Again, the technology can work really well in the right scenario and the right game. If you are already running at a solid base frame rate (at least 50-60 FPS is recommended by most GPU vendors) in a game that’s not overly sensitive to input latency (like story-heavy single-player games, for example), then it can make a game look dramatically smoother, at the cost of higher input latency and some potentially visible visual artifacts.</p>
+
+
+
+<p><strong>But generated frames are not the same as rendered frames.</strong> NVIDIA’s own documentation makes this clear: frame generation inserts interpolated frames between game-rendered ones. That means the game is not actually simulating, rendering, and responding to your input at that displayed FPS number. <strong>It looks smoother, but the underlying base frame rate still dictates your input latency, animation cadence, and overall responsiveness.</strong></p>
+
+
+
+<p><strong data-dracula_secondary_bg_finder="rgba(38, 42, 43, 0.2)" data-dracula_alpha_bg="rgba(38, 42, 43, 0.2)">That is why using frame generation to advertise a 60 FPS recommended target simply feels wrong.</strong> <em data-dracula_alpha_bg="rgba(0, 0, 0, 0)"><a data-dracula_alpha_bg="rgba(0, 0, 0, 0)" href="https://wccftech.com/monster-hunter-wilds-pc-performance-patch-significant-performance-improvements/">Monster Hunter Wilds</a>,</em> unfortunately, pioneered this trend, targeting 1080p@60 FPS at Medium settings but noting that this target requires frame generation. In plain English, that system isn't running a true 60 FPS baseline; it's a 30 FPS baseline with interpolated frames that are inserted between the rendered ones. Frame generation works best when performance is already high. As such, if<strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)"> the baseline performance is poor or stuttery, then generating extra frames just puts lipstick on a pig — the FPS counter would look nicer, but the game would still feel sluggish, unresponsive, and look highly artifact-ridden.</strong></p>
+
+
+<p>
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/06/Monster-Hunter-Wilds-PC-Specs.jpg"></a><figcaption><em>The Monster Hunter Wilds PC specs started the highly unfortunate trend of game developers relying on frame generation technologies to achieve playable framerates.</em></figcaption></figure>
+</p>
+
+
+<h2 id="h-higher-resolutions-do-not-automatically-justify-much-faster-cpus"><strong>Higher Resolutions Do Not Automatically Justify Much Faster CPUs</strong></h2>
+
+
+
+<p>Another weird habit on these charts is scaling CPU requirements in ways that do not make technical sense. Generally speaking, raising your resolution increases GPU load far more than CPU load. Going from 1080p to 1440p or 4K makes the graphics card work harder because it has to shade more pixels, which places more strain on its compute and memory bandwidth resources. The CPU still matters for simulation, physics, and streaming/decompressing assets, but resolution itself is a wholly GPU-side burden.</p>
+
+
+
+<p>That is why some PC game requirements charts look bizarre when the CPU tier rises sharply alongside resolution, without any change to the framerate target or game complexity. There are valid exceptions, like a higher framerate target, heavier NPC density, expensive physics simulations, or more complex ray tracing <a data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-style-link dracula-processed" href="https://en.wikipedia.org/wiki/Bounding_volume_hierarchy">BVHs (bounding volume hierarchies)</a>. But a resolution jump from 1080p to 4K should not automatically imply that you suddenly need a much stronger processor. <strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed">PC game specs charts need to stop treating CPU and GPU scaling as interchangeable and start telling us if a game is specifically CPU-limited in CPU-heavy areas.</strong></p>
+
+
+
+<p>Recent Steam Early Access sensation <em data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed"><a href="https://wccftech.com/subnautica-2-reportedly-brought-in-an-estimated-100m-with-over-4m-copies-sold-in-less-than-a-week/">Subnautica 2</a></em> is a neat example of how CPU scaling can look weird on modern PC specs sheets. Its four-tier chart goes from a Core i5-8400/Ryzen 5 2600 at 1080p@30 FPS Low, to a Core i7-13700/Ryzen 7 7700X at 1440p@60 FPS, then all the way to a Core i9-14900K/Ryzen 9 7900X3D for 4K@60 FPS High. Maybe there is a valid simulation or streaming-related reason for that jump, but at 4K@60 FPS, <strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)">the overwhelming majority of PC games are usually far more GPU-limited than CPU-limited, so asking for flagship-class CPUs without explaining the bottleneck just makes the chart look arbitrary and nonsensical.</strong></p>
+
+
+<p>
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/06/Subnautica-2-PC-Specs.jpeg"></a><figcaption><em>The above Subnautica 2 PC specs showcase one of the main gripes we have with modern PC game requirements: CPU requirements that inexplicably scale with resolution.</em></figcaption></figure>
+</p>
+
+
+<h2 id="h-sometimes-the-gpu-and-cpu-pairings-do-not-even-make-sense"><strong data-dracula_secondary_bg_finder="rgba(26, 87, 132, 0.2)" data-dracula_alpha_bg="rgba(26, 87, 132, 0.2)">Sometimes</strong><strong>,</strong><strong data-dracula_secondary_bg_finder="rgba(26, 87, 132, 0.2)" data-dracula_alpha_bg="rgba(26, 87, 132, 0.2)"> The GPU And CPU Pairings Do Not Even Make Sense</strong></h2>
+
+
+
+<p>Beyond scaling, the actual hardware pairings often look like they were pulled out of a hat rather than matched based on real-world performance.</p>
+
+
+
+<p><em data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed"><a href="https://wccftech.com/silent-hill-2-remake-surpassed-5-million-players/">Silent Hill 2 Remake</a></em> is a prime example of this. Its recommended specs inexplicably paired an NVIDIA GeForce RTX 2080 with an AMD Radeon RX 6800 XT. This is a bizarre comparison. I<strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed">n traditional rasterized performance, the RX 6800 XT is not even in the same league as an RTX 2080; it's much closer to an RTX 3080.</strong> When a PC game specs sheet lists those two GPUs side by side, it leaves players asking: which one is the real target? Is the game well-optimized for NVIDIA, or did the AMD side just get massively over-specced?</p>
+
+
+
+<p><em>Star Wars Outlaws</em> had similar weirdness, pairing an RTX 3060 8GB with an RX 6700 XT 12GB for its 1080p@60 FPS High preset, despite the 6700 XT being a significantly faster card. To be fair, there can be reasons for this — maybe an engine favors one architecture, or maybe VRAM capacity is forcing the jump. But if that's the case, <strong>then the chart should explain it</strong>. Otherwise, it just looks like guesswork rather than science.</p>
+
+
+<p>
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/06/Silent-Hill-2-Remake-PC-Specs.jpg"></a><figcaption><em data-dracula_secondary_bg_finder="rgba(38, 42, 43, 0.2)" data-dracula_alpha_bg="rgba(38, 42, 43, 0.2)" data-dracula_preserved_classes="dracula-style-all dracula-processed">Silent Hill 2 Remake’s recommended GPU specs contain two GPUs that are in different performance tiers, as the AMD Radeon RX 6800 XT often outperforms the NVIDIA GeForce RTX 2080 by around 60-70% on average, with the exclusion of gaming scenarios that involve hardware ray/path tracing.</em></figcaption></figure>
+</p>
+
+
+<h2 id="h-sometimes-the-specs-are-just-flat-out-wrong"><strong>Sometimes The Specs Are Just Flat-Out Wrong</strong></h2>
+
+
+
+<p>Then we get to the funniest and most embarrassing category: PC specs that contain straight-up false information.</p>
+
+
+
+<p><em data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed"><a href="https://wccftech.com/007-first-light-sales-amazon-sequel/">007 First Light</a></em> is a very recent example. IO Interactive’s original PC requirements listed an Intel Core i5-9500K as a minimum CPU. The problem? <strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)">That CPU does not exist.</strong> They later corrected it to the non-K Core i5-9500, which thankfully actually exists!</p>
+
+
+
+<p>The same original chart also had mismatched memory info, calling for 12GB of VRAM while naming the GeForce RTX 3060 Ti, which is a GPU that famously only has 8 GB of VRAM. They also eventually lowered the recommended system memory amount from 32 GB to 16 GB. Mistakes happen, and credit to IO Interactive for fixing it quickly, but it shows why players are right to be skeptical<strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed">. If a publisher can't bother to proofread basic hardware names and VRAM capacities, then how much confidence should we have in the rest of their performance data?</strong></p>
+
+
+<p>
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/06/007-First-Light-Original-PC-Specs-scaled.jpg"></a><figcaption><em>The original 007 First Light PC specs contained some frankly embarrassing mistakes. Thankfully, they were eventually updated to accurate specs by IO Interactive, so huge kudos to them for that!</em></figcaption></figure>
+</p>
+
+
+<h2 id="h-system-ram-and-vram-requirements-are-often-poorly-communicated"><strong>System RAM And VRAM Requirements Are Often Poorly Communicated</strong></h2>
+
+
+
+<p>System DRAM (<a data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-style-link dracula-processed" href="https://en.wikipedia.org/wiki/Dynamic_random-access_memory">Dynamic Random-Access Memory</a>) and GPU VRAM (<a data-dracula_alpha_bg="rgba(0, 0, 0, 0)" href="https://en.wikipedia.org/wiki/Video_random-access_memory">video RAM</a>) requirements have become a massive talking point, and for good reason. Modern PC games are thirsty for memory capacity, as higher-resolution textures, <a data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-style-link dracula-processed" href="https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-acceleration-structure/introduction.html">ray tracing acceleration structures</a>, and seamless open worlds often mean 16 GB of system DRAM is the new minimum, and 8 GB GPUs are being pushed to their absolute limits.</p>
+
+
+
+<p>But PC game requirements sheets rarely explain what those memory targets actually mean. Does a 12 GB VRAM recommendation assume Ultra textures? If you run it on an 8 GB card, will the game gracefully stream lower-quality assets, or will it stutter into oblivion?</p>
+
+
+
+<p>This is where the <em data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed">007 First Light</em> chart looked so odd initially. Recommending 32 GB of system DRAM for a 1080p@60 FPS target sounded incredibly inflated before they brought it back down to 16 GB. In our view,<strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed"> memory requirements need to be explicitly tied to specific settings (e.g., "8 GB VRAM for Medium textures, 12 GB for Ultra") rather than just throwing out a single, unexplained number.</strong></p>
+
+
+
+<p>A better example is <em data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed"><a href="https://wccftech.com/review/indiana-jones-and-the-great-circle-indiana-at-his-finest/">Indiana Jones and the Great Circle</a></em>. Whether one agrees with its heavy requirements or not, the game at least gives players a clearer reason for why memory and GPU feature support matter: hardware ray tracing is required because the game’s global illumination relies on it, and higher-end modes naturally become more VRAM-intensive. That is the kind of context many PC game specs sheets are missing. If a game needs more VRAM because of ray-traced/path-traced lighting, higher texture resolutions, or overly detailed models, <strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)">then its specs sheet should just say so plainly instead of throwing out a vague “8 GB” or “12 GB” number and expecting players to guess what setting actually needs it.</strong></p>
+
+
+<p>
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/06/Indiana-Jones-And-The-Great-Circle-PC-Specs-scaled.jpg"></a><figcaption><em>Indiana Jones And The Great Circle’s PC specs are detailed enough to make it clear to the player why GPUs with higher VRAM amounts are required, depending on the used graphics settings/preset.</em></figcaption></figure>
+</p>
+
+
+<h2 id="h-the-ultra-preset-problem"><strong>The “Ultra” Preset Problem</strong></h2>
+
+
+
+<p>Another reason these charts mislead is that graphics presets themselves are completely arbitrary. “High” in one game might perform like “Medium” in another. "Ultra" can mean a modest visual bump over High, or it can mean a brutal, future-facing screenshot mode that tanks your framerate by 40% for visual gains you need a magnifying glass to see.</p>
+
+
+
+<p>This makes PC game requirements charts incredibly hard to interpret. If a game lists specs for "1440p@60 FPS on High", then that may sound reasonable. But if that "High" preset includes heavy ray-traced effects, then it isn't comparable to another game's High preset at all. <strong>This is exactly why optimized graphics settings guides exist.</strong> Most games have one or two settings that destroy performance for almost no visual reward. <strong>A PC game requirements chart that only lists blanket presets completely misses that nuance.</strong></p>
+
+
+<figure>
+<div>
+
+<figure>
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/06/Fatekeeper-1440p-Medium.jpg"></a><figcaption><em>The “Medium” preset of a game that we recently tested — the visually impressive Unreal Engine 5 Steam Early Access game </em><a href="https://store.steampowered.com/app/2186990/Fatekeeper/"><em>Fatekeeper</em></a><em>— looks objectively better than the maxed-out visuals of another game that we recently tested, which is the Steam demo of CAPCOM’s upcoming Samurai action-RPG: </em><a href="https://store.steampowered.com/app/2638890/Onimusha_Way_of_the_Sword/"><em>Onimusha: Way of the Sword</em></a><em>.</em></figcaption></figure>
+
+
+
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/06/Onimusha-1440p-Maxed-out.jpg"></a><figcaption><em>The “Medium” preset of a game that we recently tested — the visually impressive Unreal Engine 5 Steam Early Access game </em><a href="https://store.steampowered.com/app/2186990/Fatekeeper/"><em>Fatekeeper</em></a><em>— looks objectively better than the maxed-out visuals of another game that we recently tested, which is the Steam demo of CAPCOM’s upcoming Samurai action-RPG: </em><a href="https://store.steampowered.com/app/2638890/Onimusha_Way_of_the_Sword/"><em>Onimusha: Way of the Sword</em></a><em>.</em></figcaption></figure>
+</figure>
+<div>
+				    		
+				    		
+					    	<p><span>2 of 9</span>
+				    	</p></div>
+</div>
+</figure>
+
+
+
+<h2 id="h-what-good-pc-game-system-requirements-should-look-like"><strong>What Good PC Game System Requirements Should Look Like</strong></h2>
+
+
+
+<p>The solution to this mess isn't rocket science. Publishers just need to stop pretending that two vague boxes labeled “Minimum” and “Recommended” are cutting it anymore. A modern, useful PC game requirements sheet should, in our view, explicitly include:</p>
+
+
+
+<ul>
+<li><strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)">Resolution target:</strong> Separating output vs internal rendering resolutions.</li>
+
+
+
+<li><strong>Framerate target:</strong> Listing both average FPS and a note on 1% lows.</li>
+
+
+
+<li><strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed">Graphics preset:</strong> Clarifying exactly what features (like ray tracing) are enabled.</li>
+
+
+
+<li><strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed">Temporal upscaling and frame generation status:</strong> Clearly stating the temporal upscaling mode used (e.g., Quality, Performance, Off, etc.) and whether frame generation is relied upon to hit the target framerates.</li>
+
+
+
+<li><strong>Hardware bottlenecks:</strong> Warning players if specific areas are heavily CPU-bound.</li>
+
+
+
+<li><strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed">Memory breakdown:</strong> Tying VRAM requirements directly to texture quality tiers, and advising players to use a dual-channel instead of a single-channel system DRAM setup.</li>
+</ul>
+
+
+
+<p>And instead of a vague marketing slide, a real performance target should, in our view, look like this:</p>
+
+
+
+<ul>
+<li><em data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed">1080p / Medium Preset (with Ray Tracing disabled) / Native Resolution with TAA / 60 FPS Target with 50+ FPS in 1% Lows</em> /<em data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed"> 8 GB of VRAM or higher</em> /<em> 16 GB of system DRAM or higher.</em></li>
+
+
+
+<li><em data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed">4K / Ultra Preset (with Ray Tracing enabled) / DLSS Super Resolution in Performance mode + 2X DLSS Frame Generation / 120 FPS Target with 100+ FPS in 1% Lows</em> /<em data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed"> 16 GB of VRAM or higher</em> /<em> 32 GB of system DRAM or higher.</em></li>
+</ul>
+
+
+<p>
+<figure><a href="https://cdn.wccftech.com/wp-content/uploads/2026/06/Forza-Horizon-6-PC-Specs.jpg"></a><figcaption><em data-dracula_secondary_bg_finder="rgba(38, 42, 43, 0.2)" data-dracula_alpha_bg="rgba(38, 42, 43, 0.2)" data-dracula_preserved_classes="dracula-style-all dracula-processed">In our view, the Forza Horizon 6 PC specs sheet is as close as it gets to our ideal PC specs, as it includes accurate information about the hardware required, the used presets, the performance targets, upscaling/frame generation use, and supported technologies, etc.</em></figcaption></figure>
+</p>
+
+
+<h2 id="h-final-words"><strong>Final Words</strong></h2>
+
+
+
+<p>PC system requirements are supposed to help players make informed purchasing decisions, but too many modern charts now require a technical translator to decipher. Between hidden temporal upscaling, inappropriate use of frame generation, unstandardized presets, and lopsided hardware pairings, the traditional format has outlived its usefulness.</p>
+
+
+
+<p><strong data-dracula_alpha_bg="rgba(0, 0, 0, 0)" data-dracula_preserved_classes="dracula-style-txt-border dracula-processed">In our opinion, PC game developers simply need to do better in this regard.</strong> Temporal upscaling should be disclosed transparently and used properly, frame generation should never be treated as real performance, and official PC specs charts should, at the very least, get the names of real-world hardware right. Modern PC games are highly complex beasts, and that’s fine, but figuring out if you can run them properly shouldn't be.</p>
+
+
+
+
+
+			
+			
+						<div>
+									<p>
+					<strong>About the <a href="https://wccftech.com/author/sebastian/">author</a>: </strong> Sebastian Castellanos is a data scientist by education and training. He's also deeply passionate about PC gaming hardware and software. He has recently started writing technical articles and guides Wccftech about PC <a href="https://wccftech.com/topic/hardware/">hardware</a>, games and mods.				</p>				
+			</div>
+			
+			<p data-nosnippet="">
+				Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.
+			</p>
+			
+
+
+		</div></div><br/><br/>https://wccftech.com/why-pc-game-system-requirements-are-often-misleading/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Lexispell is Balatro for people that love spelling bees and hate gambling]]></title>
+            <link>https://www.rockpapershotgun.com/lexispell-is-balatro-for-people-that-love-spelling-bees-and-hate-gambling</link>
+            <guid>1539838</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
+
+
+<header data-component="article-header">
+  
+
+    <div id="main-content">
+  
+
+        <p>The one where Oisin calls a game the Dark Souls of Wordle</p>
+
+    </div>
+
+
+  <p>
+
+  <figure>
+        <picture>
+        <source srcset="https://assetsio.gnwcdn.com/lexispell.jpg?width=380&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/lexispell.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/lexispell.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/lexispell.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/lexispell.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/lexispell.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/lexispell.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/lexispell.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
+        <source srcset="https://assetsio.gnwcdn.com/lexispell.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
+        
+      </picture>
+
+        <figcaption>
+          <span>Image credit: <cite>MrEliptik</cite></span>
+        </figcaption>
+
+  </figure>
+  </p>
+
+    
+
+</header>
+  <div data-component="article-content">
+
+
+            <p>
+Game gets popular, games gets clones, that's just how the cookie crumbles. <a href="https://www.rockpapershotgun.com/games/vampire-survivors">Vampire Survivors</a>, <a href="https://www.rockpapershotgun.com/games/buckshot-roulette">Buckshot Roulette</a>, <a href="https://www.rockpapershotgun.com/games/lethal-company">Lethal Company</a>; as soon as those games blew up, derivatives were a guarantee. This is true of <a href="https://www.rockpapershotgun.com/games/balatro">Balatro</a> too of course, a game which has produced so many clones that wildly swing between dealing with gambling in a tactful manner and outright just saying that it's good, actually. So how about a Balatro-like that forgoes the gambling, and asks you to whip out a dictionary instead?
+</p>
+<p>
+That game is Lexispell, a roguelike word game with a dash of physics thrown into the mix. The name doesn't have great mouthfeel, a tad ironic for a game about words, but the magic is in the spelling. Lexispell positions you as a witch of sorts, one where you fill your cauldron up with letters in a <a href="https://www.rockpapershotgun.com/games/suika-game">Suika Game</a> sort of fashion. Each letter is worth a certain amount of points, which vary depending on the rarity of the letter, though you can also get fancier ones that are worth more. They can also fuse if multiple of the same letter type land next to one another.
+</p>
+<p>
+Upon spelling a word, their value is tallied up, and your multiplier goes up for every letter the word contains. When you finish a round, you can then buy scrolls, which are like Balatro's Jokers, each netting you a different bonus. One of them gives you an extra five points for every letter that looks the same when flipped the other way. Another will add 15 points to your multiplier if you manage to spell a word that's an anadrome, which is a word that when spelled backwards is a different word altogether.
+</p>
+<p>
+Lexispell is also a lot slower a game than Balatro, namely because you'll be spending a lot of time searching for the longest word you can. As it turns out, it's not that easy to think of words on the fly based on a selection of random letters. Yes, I'll say it: Lexispell is the Dark Souls of Wordle and no, this is not a hill I will die on because I value my time much too much for that. It is neat, though, and you can <a href="https://store.steampowered.com/app/4053960/Lexispell/">check it out on Steam</a> now.
+
+</p>
+
+        </div>
+
+      </article>
+
+
+
+
+        
+  </div></div><br/><br/>https://www.rockpapershotgun.com/lexispell-is-balatro-for-people-that-love-spelling-bees-and-hate-gambling]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Valve Confirms Steam Machine Will Ship This Summer]]></title>
+            <link>https://kotaku.com/valve-confirms-steam-machine-will-ship-this-summer-2000702624</link>
+            <guid>1539832</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+              
+              <p>Valve is committing to shipping the <a href="https://kotaku.com/16-cool-details-valve-new-steam-machine-console-controller-vr-headset-2000643572">Steam Machine</a>, its console-like PC, and the Steam Frame VR headset this summer. The company confirmed this release window via a new post that also shared new details on how Valve is updating its Verified program for these new devices.</p> <p>“Today, we are expanding the Verified program to include Steam Machine and Steam Frame, both of which are shipping this summer,” said <a href="https://steamcommunity.com/groups/steamworks/announcements/detail/716780409378048028">Valve in a blog post on the official Steam website</a>. The company behind games like <em>Half-Life</em> and <em>Portal</em> didn’t provide any other details on specifically when the devices will ship or, more importantly, how much they will cost at launch.</p> <p>Price is going to be a very important factor in the success of the Steam Machine (and the Steam Frame.) After Valve recently increased the price of its popular handheld PC, the Steam Deck, by over $200, a lot of people are nervous about just how much a Steam Machine will cost. Valve says the Steam Machine is six times as powerful as a Steam Deck, which sounds great as it will mean more games can be played on it, but it also sounds like it is going to be vastly more expensive than the <a href="https://kotaku.com/valve-just-massively-increased-the-price-of-a-steam-deck-2000699901">Steam Deck, which now costs nearly $800 for the base OLED model</a>.</p> <p>The rest of the blog post is dedicated to Valve sharing details on how its Verified program, which shows people if a game is playable on the Steam Deck via a green check mark, will work on Steam Machine and Steam Frame.</p>
+
+ <p>No surprises here, as the program will work basically the same way. Games will be tested by Valve, and if they pass, they’ll get a green check mark. Valve says that if a developer’s game wasn’t running well on Steam Deck, it will be checked again to see if it runs better on Steam Machine. If so, it will get a Steam Machine Verified badge. The same process will play out for Steam Frame. <a href="https://kotaku.com/steam-deck-verified-valve-ff7r-avowed-ninja-gaiden-2000637741">Let’s hope Valve is a bit more careful with how it hands out green check marks.&nbsp;</a></p> <p>That’s all well and good, but the real question is how much will this damn thing cost? Some are estimating that the <a href="https://kotaku.com/will-price-hikes-make-the-steam-machine-dead-on-arrival-2000700191">Steam Machine could cost $1,200 or more.</a> That number sounds hard to believe, but when you factor in the<a href="https://kotaku.com/tag/ram"> ongoing RAM shortages</a> as well as other factors, the idea of a <a href="https://kotaku.com/steam-machine-valve-console-price-ps5-pro-2000643554">$1,200 Steam Machine sounds not only plausible</a>, but perhaps the best case scenario. It’s possible the price is higher than that. Place your bets now, folks. And good luck out there.</p>
+                          </div></div><br/><br/>https://kotaku.com/valve-confirms-steam-machine-will-ship-this-summer-2000702624]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[The Internet Is Convinced Guy Fieri Has Never Swallowed Food On Camera]]></title>
+            <link>https://kotaku.com/the-internet-is-convinced-guy-fieri-has-never-swallowed-food-on-camera-2000702608</link>
+            <guid>1539829</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+              
+              <p>I’ve watched more hours of the Guy Fieri-hosted Food Network show <em>Diners, Drive-Ins, and Dives</em> than I’d ever admit in public. And if you asked me, “Hey, did Fieri, famous for his bleached hair and catchphrases, ever eat any of the food on that series?” well, I’d go “Of course, silly.” But, according to many online sources, the famous cook has never swallowed any of the food showcased on the long-running series.</p> <p><a href="https://www.wired.com/story/this-streamer-has-convinced-the-internet-guy-fieri-never-swallows-food-on-diners-driveins-dives/">As reported by<em> Wired,</em></a> over the last few weeks a conspiracy theory has bubbled up across <a href="https://www.tiktok.com/@downseteat/video/7645412175800012046">TikTok and social media</a> that alleges that the Mayor of Flavortown doesn’t actually consume the food he encounters as he travels the country visiting different small diners and restaurants. Oh, you can find many clips and videos of him putting food into his mouth and even chewing, but conspiracy-minded online users claim that if you watch carefully, the show is always editing around him actually swallowing. It’s a claim that those who work with Fieri deny, but online users can’t help but get invested in.</p> <blockquote data-width="500" data-dnt="true"> <p lang="en" dir="ltr">There’s a new conspiracy theory that Guy Fieri doesn’t actually eat anything on Diners Drive-Ins and Dives <a href="https://t.co/ofbjqnwUEx">pic.twitter.com/ofbjqnwUEx</a></p> <p>— 🏛 𝐒𝐭𝐞𝐯𝐞𝐧 🏛 (@nonregemesse) <a href="https://x.com/nonregemesse/status/2060128734552699340?ref_src=twsrc%5Etfw">May 28, 2026</a></p></blockquote>  <p>One content creator and <a href="https://www.instagram.com/docspaghetti/">Twitch streamer, Doctor Spaghetti,</a> has become one of the biggest investigators in the “Guy Fieri doesn’t eat food on camera” conspiracy. He told <em>Wired</em> that, at first, he didn’t believe it when someone in his chat mentioned the strange claim.</p> <p>“My initial thought was that it’s too dumb to have any credibility, but also too dumb to ignore,” said the streamer. However, when he started watching episodes of the show to find video proof of Fieri swallowing food in an effort to debunk the silly theory, he discovered a lot of “suspicious” cuts and trickery.</p>
+
+ <p>For example, he slowed down a moment from an episode where it looks like Fieri lifts empty chopsticks to his nose, vaguely opens his mouth for a moment, and then lowers the utensils. Combined with an earlier shot of the chopsticks holding food, it looks like he ate it, but watching it back… hmmm..</p>   <p>Look around and you’ll find some critics of the theory who point out the fact that filming a TV show involves many hours and lots of takes. It’s possible that he does eat the food, but more takes are needed to get the right beat, and those takes are used in the edit. Also, editing is another part of the process, and it’s likely the show edits around Fieri just chewing away on some steak burrito drenched in yogurt to keep things moving.</p>
+
+ <p>As <a href="https://www.wired.com/story/this-streamer-has-convinced-the-internet-guy-fieri-never-swallows-food-on-diners-driveins-dives/"><em>Wired</em> </a>pointed out, a chef who worked with Fieri in the past on a different show directly countered the theories in the comments of a Doctor Spaghetti video, saying, “Not true. I’ve filmed plenty of shows with him. He eats EVERYTHING.”</p> <p>Doctor Spaghetti isn’t convinced. He told the outlet he has spent many, many hours at this point watching <em>Diners, Drive-Ins, and Dives</em> and has yet to find a clip that shows Fieri swallowing food. He points to the fact that it is very easy to find clips of Gordon Ramsey and other TV chefs eating and swallowing food as evidence that something fishy is going on.</p> <p>“I understand that some shots will get redone for any number of reasons,” explained Doctor Spaghetti. “I get that if he swallowed everything, he’d be wildly unhealthy. I’m just asking him to swallow <em>something</em>.”</p>
+                          </div></div><br/><br/>https://kotaku.com/the-internet-is-convinced-guy-fieri-has-never-swallowed-food-on-camera-2000702608]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Nintendo Switch 2 Sales Fall Sharply in Japan Following Price Hike]]></title>
+            <link>https://insider-gaming.com/nintendo-switch-2-sales-fall-sharply-in-japan-following-price-hike/</link>
+            <guid>1539826</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+        
+<p>In the week following the Nintendo Switch 2’s price hike in Japan, the console sold fewer than 40,000 units in the region.</p>
+
+
+
+<p>Western countries have until September 1 to get their hands on a Nintendo Switch 2 before the price increases. However, in Japan, the price increase took effect on May 25, raising the price from nearly ¥50,000 to approximately ¥60,000. Almost immediately, console sales were affected.</p>
+
+
+
+<p><a href="https://www.famitsu.com/article/202606/77027" target="_blank" rel="noreferrer noopener nofollow">Famitsu’s</a> hardware sales charts for Japan reported that the system sold only 31,751 units in the week of May 25 to May 31. This was a decrease from the previously reported 247,880 units sold the week prior. The original Nintendo Switch also saw a big decrease. Last week, the OG Switch sold only 229 units. The week prior, the console had moved 2,731 units.</p>
+
+
+
+
+
+
+
+<h2 id="h-what-s-next-for-nintendo-switch-2">What’s Next for Nintendo Switch 2?</h2>
+
+
+
+<p>The <a href="https://insider-gaming.com/tag/nintendo-switch-2/" id="908">Nintendo Switch 2</a> was released a year ago this week. With a rumored Nintendo Direct presentation next week, many are hoping that the gaming juggernaut will begin announcing some of the tentpole releases that will anchor this gaming generation not only next year but also for the rest of the life cycle.</p>
+
+
+
+<p>It is rumored that a remake of The Legend of Zelda: Ocarina of Time will be released this year, potentially as the major holiday game. However, as everyone continues to wait for the announcement of the next 3D Mario, nearly 10 years since the launch of Super Mario Odyssey, that game is not expected until at least 2027. Learn more <a href="https://insider-gaming.com/next-3d-mario-game-not-coming-until-2027-its-claimed/" id="187105">here</a>.</p>
+
+
+
+
+
+
+
+<p>Learn more about the potential Nintendo Direct coming next week <a href="https://insider-gaming.com/nintendo-direct-june-2026/" id="199486">here</a>. Insider Gaming will continue to monitor the story and report any updates on the official announcement of the Direct.</p>
+
+
+
+<hr>
+
+
+
+<p>Sound off about this story and all others in our official <a href="https://discord.com/invite/vwj7zdWxaW">Discord server.</a> Also, don’t forget to <a href="https://insider-gaming.com/subscribe">sign up for our weekly newsletter</a>.<br></p>
+
+
+        
+            
+
+    <div id="ig-app-cta">
+          <p><i></i> MOBILE APP</p>
+          <h2>Level Up Your Gaming News</h2>
+          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
+          
+          <p><i></i> Available on iOS &amp; Android</p>
+        </div>
+
+    
+    
+    </div></div><br/><br/>https://insider-gaming.com/nintendo-switch-2-sales-fall-sharply-in-japan-following-price-hike/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Hell Clock for PS5, Xbox Series launches July 14 alongside ‘Cursed War’ expansion]]></title>
+            <link>https://www.gematsu.com/2026/06/hell-clock-for-ps5-xbox-series-launches-july-14-alongside-cursed-war-expansion</link>
+            <guid>1539820</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+    <ul>
+    <li><a href="https://www.gematsu.com/platforms/pc">PC</a></li><li><a href="https://www.gematsu.com/platforms/playstation/ps5">PS5</a></li><li><a href="https://www.gematsu.com/platforms/xbox/xbox-series">Xbox Series</a></li>    </ul>
+
+    
+    <p><span>Latest trailer introduces new skills.</span>
+      </p></div><div><p>The <a title="Platforms > PS5 [11,514 articles]" href="https://www.gematsu.com/platforms/playstation/ps5">PlayStation 5</a> and <a title="Platforms > Xbox Series [8,796 articles]" href="https://www.gematsu.com/platforms/xbox/xbox-series">Xbox Series</a> versions of roguelike action RPG <em><a title="Games > Hell Clock [2 articles]" href="https://www.gematsu.com/games/hell-clock">Hell Clock</a></em> will launch on July 14 alongside the game’s first major expansion, “Cursed War,” publisher <a title="Companies > Mad Mushroom [2 articles]" href="https://www.gematsu.com/companies/mad-mushroom">Mad Mushroom</a> and developer <a title="Companies > Rogue Snail [5 articles]" href="https://www.gematsu.com/companies/rogue-snail">Rogue Snail</a> announced. <span id="more-1053566"></span></p><p><em>Hell Clock</em> first launched for <a title="Platforms > PC [25,613 articles]" href="https://www.gematsu.com/platforms/pc">PC</a> via <a href="https://store.steampowered.com/app/1782460/Hell_Clock/" target="_blank" rel="noopener">Steam</a> on June 18, 2025.</p><p>Here is an overview of the game, via Mad Mushroom:</p><blockquote><p><strong>About the Base Game</strong></p><p><em>Hell Clock</em> is a combination of action RPG depth and roguelike speed, and a dark retelling of Brazil’s late 19th century War of Canudos. Play as Pajeu and descend into Purgatory and Hell, equipping Blessed Gear, Unique Relics, and powerful Skills in a fight against the demons of Brazil’s past, present, and future. The magical Hell Clock ticks, restricting how much time Pajeu can spend in the depths and reviving him each time he falls.</p><p><strong>About the Expansion “Cursed War”</strong></p><!-- AD: content -->
+        <p>The “Cursed War” expansion explores another chapter in Brazilian history: the Paraguayan War, a conflict between Paraguay and the Triple Alliance of Brazil, Argentina, and Uruguay fought from 1864 to 1870. Relive Pajeu’s fateful past as a soldier, before the events of the base game and his return to Canudos.</p><ul><li><strong>New Story Act</strong> – Pajeu’s campaign in Paraguay adds an all-new Act to the <em>Hell Clock</em> campaign.</li><li><strong>New Maps and Biomes to Explore</strong> – Fight through over 10 new environments, including Swamp, Blood River, and Campo Grande biomes.</li><li><strong>More Powerful Builds</strong> – A slew of new Skills to create devastating builds around, and dozens of new Relics to optimize them.</li><li><strong>Mettle-Testing Boss Fights</strong> – New areas include new bosses to take down, some of the most difficult yet faced in <em>Hell Clock</em>.</li><li><strong>New Endgame Systems</strong> – Extend the adventure even further with new Endgame Systems to truly test your build: Endless Nightmares and the full version of Ascension.</li><li><strong>Another Chance to Rewrite HistoryMore Brazilian History</strong> – Cursed War continues <em>Hell Clock</em>‘s tradition of exploring one of the darker times in real Brazilian history, with a prequel story around Pajeu’s part in a dark fantasy version of the Paraguayan War.</li></ul></blockquote><p>Watch a new trailer below.</p><h2><span>Consoles and “Cursed War” Release Date Trailer</span></h2><p><iframe title="Hell Clock: Cursed War | Skills Trailer | Launching July 14!" width="500" height="281" src="https://www.youtube.com/embed/cUWtDLd_u6Y?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p></div></div><br/><br/>https://www.gematsu.com/2026/06/hell-clock-for-ps5-xbox-series-launches-july-14-alongside-cursed-war-expansion]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Grab Octopath Traveler 2, Citizen Sleeper 2, and Six More Games in June’s Humble Choice]]></title>
+            <link>https://www.ign.com/articles/humble-choice-june-2026</link>
+            <guid>1539802</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p data-cy="page-header"><h2 data-cy="article-sub-headline">Add some new PC games to your online library for summer.</h2></p><div><section data-cy="article-content" data-autopogo="true"><p data-cy="paragraph">Summertime is right around the corner, but if you're hoping to avoid hot weather by hanging out inside, Humble Bundle is here to help keep you busy with some PC games. A brand new <a href="https://zdcs.link/Qd8jkZ?object_uuid=c7e6c64a-73ed-4d06-b541-4be23dccf183&amp;t=article" data-cy="styled-link" target="_blank" rel="nofollow">Humble Choice lineup</a> has dropped for the month of June, and it's filled with some excellent games to add to your online library.</p><p data-cy="paragraph"><a data-cy="styled-link" href="https://www.ign.com/games/octopath-traveler-ii">Octopath Traveler II</a>, <a data-cy="styled-link" href="https://www.ign.com/games/the-riftbreaker">The Riftbreaker</a>, and <a data-cy="styled-link" href="https://www.ign.com/games/life-is-strange-double-exposure">Life is Strange: Double Exposure</a> are just a few of the PC games included in this month's drop, but you'll also get five more. As for how much all eight of these games cost? <strong>Just $14.99 when you </strong><a href="https://zdcs.link/Qd8jkZ?object_uuid=c7e6c64a-73ed-4d06-b541-4be23dccf183&amp;t=article" data-cy="styled-link" target="_blank" rel="nofollow"><strong>sign up for a Humble Choice membership</strong></a>. That's a fantastic deal compared to grabbing them all at their retail prices, and that's not even the end of it.</p><p data-cy="paragraph">A free month of <a data-cy="styled-link" href="https://www.ign.com/plus">IGN Plus</a> is also thrown in the mix, which allows you to get rid of ads on the site, score some free games, and more. Check out the full lineup of games below, and head to the link to sign up.</p><h2 data-cy="title2">Humble Choice June 2026</h2><div id="239146"><div><p><span data-cy="productcard-view-trigger"><div id="239146" data-cy="solo-product-card"><p data-cy="solo-product-name"><h3>Humble Choice Games - June 2026</h3></p></div></span></p></div><p data-cy="paragraph">This is a pretty solid lineup of games to add to your library, too. Life is Strange: Double Exposure, for example, earned a glowing 9/10 score from us in its <a data-cy="styled-link" href="https://www.ign.com/articles/life-is-strange-double-exposure-review">review</a>. Writer Nick Maillet said: "With its excellent writing, exceptional characters, and fun-to-use new powers, Life is Strange: Double Exposure is a worthy sequel to the 2015 original."</p><p data-cy="paragraph">Citizen Sleeper 2: Starward Vector is another from the list that earned a high score from us. 8/10, to be exact. Our <a data-cy="styled-link" href="https://www.ign.com/articles/citizen-sleeper-2-starward-vector-review">review</a> from Jarrett Green said it, "fine tunes the slow-paced, dice-heavy gameplay of the original with its new and aptly named stress system and multi-stage, multi-character missions."</p><p data-cy="paragraph">The praise certainly doesn't end there, though. We found a lot to love in <a data-cy="styled-link" href="https://www.ign.com/articles/the-riftbreaker-review">The Riftbreaker</a> and <a data-cy="styled-link" href="https://www.ign.com/articles/octopath-traveler-2-review">Octopath Traveler 2</a> as well, with each earning an 8 and 7 in their respective reviews. And Indika is quite a fun and delightfully strange indie to have in your library, in my opinion. Overall, there's a very nice variety to play here.</p><p data-cy="paragraph">Alongside all this, Humble Choice members get an added perk of up to 20% off in the Humble store, too. And on top of that, 5% of your Humble Choice membership goes to support a charity each month, and June's is <a href="https://itgetsbetter.org/" data-cy="styled-link" target="_blank" rel="noopener noreferrer">It Gets Better</a>.</p><p data-cy="paragraph"><em>Hannah Hoolihan is a freelancer who writes with the guides and commerce teams here at IGN.</em></p></div></section><div><h3 data-cy="title3"><svg data-cy="icon-logo" viewBox="0 0 76 24" title="IGN"><title>IGN Logo</title><path fill="currentColor" stroke="none" d="M5.38 7.65a7.85 7.85 0 0 1 2.26-2.26c.13-1.18.31-2.26.52-3.21a10.605 10.605 0 0 0-6 6c.95-.22 2.03-.39 3.21-.52M16.34 5.36v.02c.9.59 1.67 1.37 2.27 2.27 1.18.13 2.26.31 3.21.52a10.627 10.627 0 0 0-6.02-6.01c.22.95.4 2.02.54 3.2M7.64 18.62c-.9-.59-1.67-1.37-2.27-2.27h-.03c-1.19-.14-2.26-.32-3.19-.54 1.07 2.75 3.26 4.95 6.01 6.02-.22-.95-.39-2.03-.52-3.21M18.64 16.35h-.03c-.59.9-1.37 1.67-2.27 2.27v.03c-.14 1.17-.32 2.25-.54 3.19a10.59 10.59 0 0 0 6.03-6.03c-.94.22-2 .4-3.19.54M10.04 0h3.9c.85 1.85 1.2 4.59 1.3 5.52.04.22.06.43.06.63L12 9.11 8.7 6.15c0-.17.02-.35.05-.55.1-.95.43-3.75 1.29-5.61M8.7 17.83c0 .17.02.35.05.55.1.95.43 3.75 1.29 5.61h3.9c.85-1.84 1.2-4.59 1.3-5.52.04-.22.06-.43.06-.64L12 14.87l-3.3 2.96ZM6.16 8.68c-.17 0-.35.02-.55.05-.95.12-3.75.45-5.61 1.31v3.9c1.84.85 4.59 1.19 5.52 1.3.22.04.43.06.64.06L9.11 12 6.16 8.7ZM24 10.02c-1.86-.86-4.66-1.19-5.61-1.29-.2-.03-.38-.05-.55-.05l-2.96 3.3 2.96 3.3c.2 0 .41-.02.64-.06.93-.11 3.68-.45 5.52-1.3v-3.9Z"></path><path fill="currentColor" stroke="none" d="M42.83 13.9V10h10.45c1.06 0 1.93.86 1.93 1.92v4.63c0 2.38-1.91 4.36-4.33 4.36h-6.69c-4.96 0-8.97-4-8.97-8.94s4.04-8.95 8.98-8.95h10.36v4.11H44.2c-2.67 0-4.86 2.17-4.86 4.84s2.16 4.83 4.86 4.83h6.91v-2.91h-8.27ZM33.86 3h-4.07v16.02c0 1.05.86 1.91 1.91 1.91h2.15V3M74.37 3.01h-2.18v13.81s0 .08-.03.11a.29.29 0 0 1-.24.14c-.09 0-.16-.04-.25-.15L64.83 4.93a4.347 4.347 0 0 0-3.72-2.11h-.07c-2.39 0-4.32 1.93-4.32 4.32v11.88c0 1.05.86 1.91 1.91 1.91h2.17V7.14s.02-.09.04-.13a.29.29 0 0 1 .24-.14c.09 0 .18.03.24.14l6.88 12.07c.76 1.27 2.12 2.05 3.69 2.05h.07c2.39 0 4.32-1.93 4.32-4.32V4.92c0-1.05-.85-1.91-1.91-1.91"></path></svg>Recommends</h3></div></div><div><h3 data-cy="object-summary-embed-title">In This Article</h3></div></div><br/><br/>https://www.ign.com/articles/humble-choice-june-2026]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[2.5D action adventure and colony building hybrid GHOSTLESS announced for PS5, Xbox Series, and PC]]></title>
+            <link>https://www.gematsu.com/2026/06/2-5d-action-adventure-and-colony-building-hybrid-ghostless-announced-for-ps5-xbox-series-and-pc</link>
+            <guid>1539799</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+    <ul>
+    <li><a href="https://www.gematsu.com/platforms/pc">PC</a></li><li><a href="https://www.gematsu.com/platforms/playstation/ps5">PS5</a></li><li><a href="https://www.gematsu.com/platforms/xbox/xbox-series">Xbox Series</a></li>    </ul>
+
+    
+    <p><span>Who can you trust as you lead an uprising?</span>
+      </p></div><div><p><a title="Companies > Coffeenauts [1 article]" href="https://www.gematsu.com/companies/coffeenauts">Coffeenauts</a> has announced 2.5D action adventure and colony building hybrid <em><a title="Games > GHOSTLESS [1 article]" href="https://www.gematsu.com/games/ghostless">GHOSTLESS</a></em> for <a title="Platforms > PS5 [11,514 articles]" href="https://www.gematsu.com/platforms/playstation/ps5">PlayStation 5</a>, <a title="Platforms > Xbox Series [8,796 articles]" href="https://www.gematsu.com/platforms/xbox/xbox-series">Xbox Series</a>, and <a title="Platforms > PC [25,613 articles]" href="https://www.gematsu.com/platforms/pc">PC</a> (<a href="https://store.steampowered.com/app/2506520/GHOSTLESS/" target="_blank">Steam</a>). A release date was not announced. <span id="more-1051448"></span></p><p>“<em>GHOSTLESS</em> originally came out of the idea of figuring out a scenario for a game where we could capture the paranoia of classic 80s movie <em>The Thing</em>,” said Coffeenauts creative director Fabio Rosa in a press release. “Along the way, it’s taken on a lot of other aspects and we think we’ve created something of a unique hybrid that combines elements of exploration and survival games, colony-sims, detective games and action-platformers. We are really excited to offer a first look at it with our debut trailer and can’t wait to share more!”</p><div id="carousel_1051449"><ul><li><span>❮</span></li><li><span>❯</span></li></ul></div><blockquote><p><strong>About</strong></p><p>Lead an uprising against AI in a post-apocalyptic world where you must root out machine infiltrators disguised as humans. Venture into a dangerous world to find survivors to grow your base, then lead your comrades into “incursions” against your android oppressors and their machine hivemind.</p><p><em>GHOSTLESS</em> is set in an alternate 20th century, 15 years after a Cold War US cyber attack unwittingly caused an experimental Soviet AI super-intelligence to turn against humanity. You take on the role of the Envoy, sent to investigate rumors of a facility where AI is creating a new secret weapon. Your mission will set you on the path to uncovering the truth about what happened to this world in a dark sci-fi plot about humanity, creation and survival.</p><!-- AD: content -->
+        <p>Exploration, platforming and combat come to the fore when you head out into the rubble-laden streets and abandoned buildings of a ruined city. Venture through sewers, metro tunnels, cold war bunkers and laboratories as you scavenge for resources and search for survivors. But beware! Your machine oppressors have eyes everywhere, with a variety of robotic adversaries roaming the land in search of human resistors. You can take down these dangerous foes with melee weapons and guns, but your adventure will also lead you to enemy strongholds that are too much for one man alone.</p><p>That’s where your base comes in: the heart of the resistance. Expanding your colony and assigning new recruits to crafting stations will allow you to build better gear and weapons for your next excursion, but it is also necessary to break through the strongholds that stand in your way. Manage the size, health and status of your base camp to reach the strength required, then lead your comrades on “incursions” to take the strongholds down. Issue orders and fight together against significant enemy forces in these exciting set-piece battles. Victory rewards you by opening up a new area of the map.</p><p>Your base camp is the source of your strength, which is exactly why the enemy will try and undermine it. Not only will you have to defend your camp against sporadic attacks—you also have to deal with the more insidious threat of paranoia-inducing android infiltrators, or the “Ghostless,” who pretend to be human to penetrate your defenses. After returning from robot-infested territory with new resources, you might find a weapon-station sabotaged, or a comrade murdered. Investigate, identify and eliminate impostors by analyzing clues, observing behaviors, and interviewing recruits through a dynamic contextual dialogue system. Get it wrong and execute an innocent person and the weight lies on your conscience.</p><p><strong>Key Features</strong></p><ul><li><strong>Rise Up</strong> – Lead the human resistance against AI in a post-apocalyptic world where you can never be sure who is human and who is machine</li><li><strong>Genre Hybrid</strong> – Unique blend of survival, exploration, colony-sim, investigation and action</li><li><strong>Build the Resistance</strong> – Recruit survivors, expand and manage your base camp, craft new weapons and equipment</li><li><strong>Root Out Infiltrators</strong> – Investigate acts of sabotage through dialogue and contextual clues to try and identify the machines hiding among you</li><li><strong>Incursions</strong> – Lead your comrades into big set-piece battles to take down enemy strongholds and unlock new areas of the map</li><li><strong>Scavenge and Survive</strong> – Head out into a ruined city to scavenge for resources, fight androids and find survivors</li><li><strong>Hi-Fi Pixel Art</strong> – A moody 2.5D art style that blends retro pixel graphics and modern 3D lighting and visual effects.</li><li><strong>Science-Fiction Paranoia Thriller</strong> – Uncover the truth in a dark sci-fi plot about humanity, creation and survival.</li></ul></blockquote><p>Watch the announcement trailer below. View the first screenshots <a href="https://www.gematsu.com/gallery/ghostless/june-4-2026/">at the gallery</a>.</p><h2><span>Announce Trailer</span></h2><p><iframe title="GHOSTLESS - Announce Trailer" width="500" height="281" src="https://www.youtube.com/embed/QfqYpyOsysk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p></div></div><br/><br/>https://www.gematsu.com/2026/06/2-5d-action-adventure-and-colony-building-hybrid-ghostless-announced-for-ps5-xbox-series-and-pc]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Kernel Hearts launches in September]]></title>
+            <link>https://www.gematsu.com/2026/06/kernel-hearts-launches-in-september</link>
+            <guid>1539796</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+
+    <ul>
+    <li><a href="https://www.gematsu.com/platforms/pc">PC</a></li><li><a href="https://www.gematsu.com/platforms/playstation/ps5">PS5</a></li><li><a href="https://www.gematsu.com/platforms/nintendo/switch-2">Switch 2</a></li><li><a href="https://www.gematsu.com/platforms/xbox/xbox-series">Xbox Series</a></li>    </ul>
+
+    
+    <p><span>New PC demo out on June 15.</span>
+      </p></div><div><p><em><a title="Games > Kernel Hearts [3 articles]" href="https://www.gematsu.com/games/kernel-hearts">Kernel Hearts</a></em> will launch for <a title="Platforms > PS5 [11,514 articles]" href="https://www.gematsu.com/platforms/playstation/ps5">PlayStation 5</a>, <a title="Platforms > Xbox Series [8,796 articles]" href="https://www.gematsu.com/platforms/xbox/xbox-series">Xbox Series</a>, <a title="Platforms > Switch 2 [1,049 articles]" href="https://www.gematsu.com/platforms/nintendo/switch-2">Switch 2</a>, and <a title="Platforms > PC [25,613 articles]" href="https://www.gematsu.com/platforms/pc">PC</a> via <a href="https://store.steampowered.com/app/2902170/Kernel_Hearts/" target="_blank" rel="noopener">Steam</a> in September, publisher <a title="Companies > Whitethorn Games [51 articles]" href="https://www.gematsu.com/companies/whitethorn-games">Whitethorn Games</a> and developer <a title="Companies > Ephemera [2 articles]" href="https://www.gematsu.com/companies/ephemera">Ephemera</a> announced. A new demo will be available as part of Steam Next Fest: June 2026 Edition on June 15. <span id="more-1048821"></span></p><figure><a data-featherlight="image" href="https://www.gematsu.com/wp-content/uploads/2026/05/Kernel-Hearts-Date_06-04-26_002.jpg"></a></figure><p>Here is an overview of the game, via its <a href="https://store.steampowered.com/app/2902170/Kernel_Hearts/" target="_blank" rel="noopener">Steam page</a>:</p><blockquote><p><strong>About</strong></p><p><em>Kernel Hearts</em> is a unique blend of action RPG and roguelike elements with multiplayer cooperative play. As part of the M.A.H.O.U Unit, you are tasked with climbing the Tower of Babel, eliminating the angelic creatures in your path as you dethrone God and save a world drowning in ashes.</p><p><strong>Key Features</strong></p><!-- AD: content -->
+        <ul><li><strong>One More God Rejected</strong> – Mix and match your attacks, spells, and movement with unique powers during each run to unleash devastating combos on the enemies you encounter. Punch biblical monsters in the face with up to four friends. Each level culminates in an intense boss fight against the domain’s guardian</li><li><strong>Equip and Customize Your Units</strong> – After each expedition, you will return to the last memory backup in a laboratory located on the outskirts of humanity’s last holdout. Spend the rewards from each run to unlock and equip up to 256KB of chips onto your Unit MAHOU.OS, and customize them as you see fit.</li><li><strong>Transform Into a Magical Girl</strong> – Harness the strength of the tower to dispel the Heavenly Curse from yourself, unleashing a devastating attack on nearby foes and attaining your true form for a short period.</li><li><strong>Bond With Your Allies</strong> – Interact with the tower’s unique inhabitants and give them gifts to deepen your bond.</li></ul></blockquote><p>Watch a new trailer below.</p><h2><span>Release Window Trailer</span></h2><p><iframe title="Kernel Hearts - Release Window Annoucement" width="500" height="281" src="https://www.youtube.com/embed/YxEIkrFywys?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p></div></div><br/><br/>https://www.gematsu.com/2026/06/kernel-hearts-launches-in-september]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[The Adventures of Elliot: The Millennium Tales ‘Making of’ video]]></title>
+            <link>https://www.gematsu.com/2026/06/the-adventures-of-elliot-the-millennium-tales-making-of-video</link>
+            <guid>1539790</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><p>Publisher and developer <a title="Companies > Square Enix [5,450 articles]" href="https://www.gematsu.com/companies/square-enix">Square Enix</a>, and developer <a title="Companies > Claytechworks [18 articles]" href="https://www.gematsu.com/companies/claytechworks">Claytechworks</a> have a 13-minute behind the scenes “making of” video for <a title="Series > HD-2D [85 articles]" href="https://www.gematsu.com/series/hd-2d">HD-2D</a> action RPG <em><a title="Games > The Adventures of Elliot: The Millennium Tales [8 articles]" href="https://www.gematsu.com/games/the-adventures-of-elliot-the-millennium-tales">The Adventures of Elliot: The Millennium Tales</a></em>. <span id="more-1053875"></span></p><p>The video features producer Naofumi Matsushita, director Shota Fukebaru, and Tomoya Asano, who share their insights on the production process, the challenges faced during development, and the passion they poured into the game systems and characters.</p><p><em>The Adventures of Elliot: The Millennium Tales</em> is due out for <a title="Platforms > PS5 [11,514 articles]" href="https://www.gematsu.com/platforms/playstation/ps5">PlayStation 5</a>, <a title="Platforms > Xbox Series [8,796 articles]" href="https://www.gematsu.com/platforms/xbox/xbox-series">Xbox Series</a>, <a title="Platforms > Switch 2 [1,049 articles]" href="https://www.gematsu.com/platforms/nintendo/switch-2">Switch 2</a>, and <a title="Platforms > PC [25,613 articles]" href="https://www.gematsu.com/platforms/pc">PC</a> via <a href="https://store.steampowered.com/app/3483510/The_Adventures_of_Elliot_The_Millennium_Tales/" target="_blank">Steam</a> and <a href="https://www.xbox.com/en-US/games/store/the-adventures-of-elliot-the-millennium-tales/9NLVWPMQBP3G/0010" target="_blank">Microsoft Store</a> on June 18. A “Prologue” demo is available now.</p><p>Watch the video below.</p><h2><span>The Making of <em>The Adventures of Elliot: The Millennium Tales</em></span></h2><p><iframe title="The Making of The Adventures of Elliot: The Millennium Tales" width="500" height="281" src="https://www.youtube.com/embed/haGCZCoxb_Q?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p><!-- AD: content -->
+        </div></div><br/><br/>https://www.gematsu.com/2026/06/the-adventures-of-elliot-the-millennium-tales-making-of-video]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Gunny Ascend launches this fall]]></title>
+            <link>https://www.gematsu.com/2026/06/gunny-ascend-launches-this-fall</link>
+            <guid>1539787</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><p>Roguelite puzzle game <em><a title="Games > Gunny Ascend [1 article]" href="https://www.gematsu.com/games/gunny-ascend">Gunny Ascend</a></em> will launch for <a title="Platforms > PC [25,613 articles]" href="https://www.gematsu.com/platforms/pc">PC</a> via <a href="https://store.steampowered.com/app/2886300/Gunny_Ascend/" target="_blank">Steam</a> this fall, publisher and developer <a title="Companies > Sunna Entertainment [1 article]" href="https://www.gematsu.com/companies/sunna-entertainment">Sunna Entertainment</a>, and publisher <a title="Companies > Outersloth [4 articles]" href="https://www.gematsu.com/companies/innersloth/outersloth">Outersloth</a> announced. <span id="more-1048865"></span></p><p>The companies also announced that the game will feature characters from <em>The Stanley Parable</em>, <em><a title="Games > A Short Hike [4 articles]" href="https://www.gematsu.com/games/a-short-hike">A Short Hike</a></em>, <em>Ultimate Chicken Horse</em>, <em>Little Inferno</em>, <em><a title="Games > Pizza Tower [1 article]" href="https://www.gematsu.com/games/pizza-tower">Pizza Tower</a></em>, <em>Shovel Knight: Pocket Dungeon</em>, and PE<em>AK.</em></p><p><em>Here is an overview of the game, via its <a href="https://store.steampowered.com/app/2886300/Gunny_Ascend/" target="_blank">Steam page</a>:</em></p><blockquote><p><em><strong>About</strong></em></p><p><em>A roguelite puzzle game that reinvents a timeless formula.</em></p><p><em>What if falling blocks met a jump button and a rebellion?</em></p><!-- AD: content --><em>
+        <p><em>Gunny Ascend</em> transforms the classic block-stacking puzzle formula into a fast-paced, genre-bending experience. Blending roguelite progression, adaptive platforming, and a dimension-hopping story full of chaos, charm, and surprise.</p><p><strong>Stack. Plan. Fight Back.</strong></p><p>Blocks fall. You adapt. And now, you fight.</p><p>Play as Gunny, a quiet but determined construction worker caught in a dimensional conflict. After being captured by The Collectors, interdimensional beings obsessed with preserving stories. He escapes with the help of his mentor Wako, steals a portal-controlling truck, making it their mission to free all those who the Collectors have captured and build a team to bring an end to them once and for all.</p><p><strong>A New Kind of Roguelite</strong></p><p>Reimagine the falling-block formula with real-time movement, tactical platforming, and roguelite unpredictability. Each run brings new hazards, enemies, and item combinations—challenging you to evolve your approach every time.</p><p><strong>A Celebration of Indie Spirit</strong></p><p>At its core, <em>Gunny Ascend</em> is a tribute to the creativity and surprise that define the indie gaming world.</p><p>Unlock unexpected characters, encounter homages to beloved indie titles, and experience a story that honors originality and the joy of discovery—both in gameplay and in the heroes you meet along the way.</p><p><strong>Key Features</strong></p><ul><li>Roguelite story mode.</li><li>Over 30 unique characters and worlds.</li><li>Seven bosses with uniquely distinct mechanics.</li><li>40 items to unlock, combine and equip.</li><li>Player-versus-player online multiplayer battles.</li><li>Full controller compatibility.</li><li>Original soundtrack and sound design by Cactus Bear.</li></ul></em></blockquote><p><em>Watch a new trailer below.</em></p><h2><em><span>Recruitment Trailer</span></em></h2><p><iframe title="RECRUITMENT TRAILER | Gunny Ascend Characters Crossover" width="500" height="281" src="https://www.youtube.com/embed/aE93AlNXDAw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p></div></div><br/><br/>https://www.gematsu.com/2026/06/gunny-ascend-launches-this-fall]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[I Wish Big Corporations Would Leave The Lord Of The Rings Alone Already (They Won’t)]]></title>
             <link>https://kotaku.com/amazon-embracer-leave-the-lord-of-the-rings-alone-2000702588</link>
@@ -603,7 +1120,7 @@ There's a whole bunch more going on in this update too, all of which you can rea
 
 
 
-<p>The decision to do one more expansion actually <strong>started during the development of our not-so- secret RTS, which is set in the Grim Dawn universe</strong>. We were fleshing out the lore and history of the world. Things we mentioned in passing inside of Grim Dawn now had names, people, and historic events. We got that itch to come back to Grim Dawn for one more big adventure.</p>
+<p>The decision to do one more expansion actually started during the development of our not-so- secret RTS, which is set in the Grim Dawn universe. We were fleshing out the lore and history of the world. Things we mentioned in passing inside of Grim Dawn now had names, people, and historic events. We got that itch to come back to Grim Dawn for one more big adventure.</p>
 
 
 
@@ -647,11 +1164,7 @@ There's a whole bunch more going on in this update too, all of which you can rea
 
 
 
-<p>Awakening Epic items is something we have come up with to take all of the itemization, and beautiful item art, that has fallen into obsolescence over the years. <strong>It allows us to take items that are ok while leveling/gearing but are unviable in the endgame and bring them up to par with our Legendary items</strong>. Thanks to this system, we will be able to regularly introduce new Legendary-tier equipment with our balance patches as we now have a pool of hundreds of items with unrealized potential to tap into. </p>
-
-
-
-<p>Awakening Epic items costs crafting materials, so it will not trivialize the value of existing loot. As with any other item in the game, Awakened Epics can have their seed, which determines the attribute values on an item, rerolled using Affix Transmutation.</p>
+<p>Awakening Epic items is something we have come up with to take all of the itemization, and beautiful item art, that has fallen into obsolescence over the years. <strong>It allows us to take items that are ok while leveling/gearing but are unviable in the endgame and bring them up to par with our Legendary items</strong>. Thanks to this system, we will be able to regularly introduce new Legendary-tier equipment with our balance patches as we now have a pool of hundreds of items with unrealized potential to tap into. Awakening Epic items costs crafting materials, so it will not trivialize the value of existing loot.<br>As with any other item in the game, Awakened Epics can have their seed, which determines the<br>attribute values on an item, rerolled using Affix Transmutation.</p>
 
 
 
@@ -918,367 +1431,6 @@ His passion for technology also makes him knowledgeable when it comes to gaming 
             <guid>1539661</guid>
             <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-cy="page-header"><h2 data-cy="article-headline">PlayStation Promises 'Many More Stories to Tell' With Kratos in Future, After God of War Laufey</h2><h2 data-cy="article-sub-headline">While Laufey is "part of the larger tapestry."</h2></div><div><section data-cy="article-content" data-autopogo="true"><p data-cy="paragraph">God of War developer Santa Monica Studio has discussed Kratos' future as the figurehead of its flagship franchise, following <a data-cy="styled-link" href="https://www.ign.com/articles/god-of-war-laufey-revealed-at-state-of-play">the reveal of its Faye-starring next chapter, God of War Laufey</a>.</p><p data-cy="paragraph">Speaking in an interview uploaded to PlayStation's <a href="https://www.youtube.com/watch?v=jm43XdyL9gc&amp;rco=1" data-cy="styled-link" target="_blank" rel="noopener noreferrer">YouTube</a> channel, Santa Monica Studio head of creative Cory Barlog said that "there's always going to be Kratos games" — a position backed up by a later post from the company's official social media account, which stated that the studio had "many more stories to tell with him."</p><p data-cy="paragraph"><a data-cy="styled-link" href="https://www.ign.com/articles/the-internet-reacts-to-god-of-war-laufey">Early reaction to God of War Laufey has been mixed</a>, with some fans praising the game's combat and visuals, while others have been criticizing the simplistic gameplay seen in Laufey's opening section — and, predictably, the fact that fan-favorite Kratos wasn't center stage. (For a full catch-up, we’ve got <a data-cy="styled-link" href="https://www.ign.com/articles/fayes-story-so-far-and-why-you-wont-be-playing-as-kratos-in-god-of-war-laufey">an explainer on Faye herself</a> for more on her story.)</p><p data-cy="paragraph">"Faye is, while it's a different thing, it's still part of the larger tapestry of what we truly really want to explore, all of these different characters in there," Barlog said of the new game. "But there's always going to be Kratos games, like, throughout the whole history. We're super excited about that."</p><p data-cy="paragraph">"Oh for sure," added <a data-cy="styled-link" href="https://www.ign.com/games/god-of-war-laufey">God of War Laufey</a> director Ariel Lawrence. "We can't not tell stories about the big guy."</p><output data-cy="article-slideshow"><span data-cy="slideshow-view-trigger"><div data-cy="slideshow-preview"><h3 data-cy="slideshow-preview-title">God Of War Laufey Reveal </h3></div></span></output><p data-cy="paragraph">Our first glimpse at God of War Laufey, seen in a 20-minute gameplay segment aired at the end of this week's PlayStation State of Play showcase, began with Kratos and Atreus burning Faye's body — as seen in 2018's God of War. Kratos then pops up again shortly after, aiding Faye while she's briefly imprisoned. It remains unclear if Kratos will make any other appearances before Laufey's credits roll, or if these brief glimpses of the hero are it, as he's then busy with the events of God of War Ragnarök.</p><p data-cy="paragraph">"Kratos is the God of War – we have many more stories to tell with him," Santa Monica Studio's official X/Twitter account wrote in a <a href="https://x.com/SonySantaMonica/status/2062209539806802341" data-cy="styled-link" target="_blank" rel="noopener noreferrer">post</a> issued last night. "For now, we're excited to take fans on a journey into the afterlife of the gods with Faye and hope you’ll come along for the ride!"</p><p data-cy="paragraph">Of course, <a data-cy="styled-link" href="https://www.ign.com/articles/god-of-war-sons-of-sparta-side-scrolling-spin-off-out-today-and-god-of-war-trilogy-remake-announced-sony-state-of-play">Santa Monica Studio has also announced a remake of the God of War Greek trilogy remake</a> — which, of course, will see Kratos back in the spotlight. The original God of War launched back in 2005 for PS2, with its sequel arriving two years later. God of War 3, for PS3, then debuted in 2010. No release date for the God of War Trilogy Remake was announced, and work is still in its "early stages."</p><p data-cy="paragraph">"We'll always tell stories about Kratos, but I think for us, it was just a chance to talk about somebody who was so pivotal to the beginning," <a data-cy="styled-link" href="https://www.ign.com/articles/godofwarlaufeyreveal">Barlog told IGN previously in an exclusive interview</a>, which discussed why Faye was chosen as the protagonist. "For us, it's not a departure; it's more of an expansion," he added.</p><p data-cy="paragraph">Here's<a data-cy="styled-link" href="https://www.ign.com/articles/playstation-state-of-play-june-2026-everything-announced"> <u>everything announced at State of Play June 2026</u></a> if you need a catch up on what else PlayStation has in store.<br>
 </p><p data-cy="paragraph"><em>Tom Phillips is IGN's News Editor. You can reach Tom at tom_phillips@ign.com or find him on Bluesky </em><a href="https://bsky.app/profile/tomphillipseg.bsky.social" data-cy="styled-link" target="_blank" rel="noopener noreferrer">@tomphillipseg.bsky.social</a></p></section><div><h3 data-cy="title3"><svg data-cy="icon-logo" viewBox="0 0 76 24" title="IGN"><title>IGN Logo</title><path fill="currentColor" stroke="none" d="M5.38 7.65a7.85 7.85 0 0 1 2.26-2.26c.13-1.18.31-2.26.52-3.21a10.605 10.605 0 0 0-6 6c.95-.22 2.03-.39 3.21-.52M16.34 5.36v.02c.9.59 1.67 1.37 2.27 2.27 1.18.13 2.26.31 3.21.52a10.627 10.627 0 0 0-6.02-6.01c.22.95.4 2.02.54 3.2M7.64 18.62c-.9-.59-1.67-1.37-2.27-2.27h-.03c-1.19-.14-2.26-.32-3.19-.54 1.07 2.75 3.26 4.95 6.01 6.02-.22-.95-.39-2.03-.52-3.21M18.64 16.35h-.03c-.59.9-1.37 1.67-2.27 2.27v.03c-.14 1.17-.32 2.25-.54 3.19a10.59 10.59 0 0 0 6.03-6.03c-.94.22-2 .4-3.19.54M10.04 0h3.9c.85 1.85 1.2 4.59 1.3 5.52.04.22.06.43.06.63L12 9.11 8.7 6.15c0-.17.02-.35.05-.55.1-.95.43-3.75 1.29-5.61M8.7 17.83c0 .17.02.35.05.55.1.95.43 3.75 1.29 5.61h3.9c.85-1.84 1.2-4.59 1.3-5.52.04-.22.06-.43.06-.64L12 14.87l-3.3 2.96ZM6.16 8.68c-.17 0-.35.02-.55.05-.95.12-3.75.45-5.61 1.31v3.9c1.84.85 4.59 1.19 5.52 1.3.22.04.43.06.64.06L9.11 12 6.16 8.7ZM24 10.02c-1.86-.86-4.66-1.19-5.61-1.29-.2-.03-.38-.05-.55-.05l-2.96 3.3 2.96 3.3c.2 0 .41-.02.64-.06.93-.11 3.68-.45 5.52-1.3v-3.9Z"></path><path fill="currentColor" stroke="none" d="M42.83 13.9V10h10.45c1.06 0 1.93.86 1.93 1.92v4.63c0 2.38-1.91 4.36-4.33 4.36h-6.69c-4.96 0-8.97-4-8.97-8.94s4.04-8.95 8.98-8.95h10.36v4.11H44.2c-2.67 0-4.86 2.17-4.86 4.84s2.16 4.83 4.86 4.83h6.91v-2.91h-8.27ZM33.86 3h-4.07v16.02c0 1.05.86 1.91 1.91 1.91h2.15V3M74.37 3.01h-2.18v13.81s0 .08-.03.11a.29.29 0 0 1-.24.14c-.09 0-.16-.04-.25-.15L64.83 4.93a4.347 4.347 0 0 0-3.72-2.11h-.07c-2.39 0-4.32 1.93-4.32 4.32v11.88c0 1.05.86 1.91 1.91 1.91h2.17V7.14s.02-.09.04-.13a.29.29 0 0 1 .24-.14c.09 0 .18.03.24.14l6.88 12.07c.76 1.27 2.12 2.05 3.69 2.05h.07c2.39 0 4.32-1.93 4.32-4.32V4.92c0-1.05-.85-1.91-1.91-1.91"></path></svg>Recommends</h3></div></div><div><h3 data-cy="object-summary-embed-title">In This Article</h3></div></div><br/><br/>https://www.ign.com/articles/playstation-promises-many-more-stories-to-tell-with-kratos-in-future-after-god-of-war-laufey]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Development on Prologue: Go Wayback is ending as PlayerUnknown Productions lays off an unspecified amount of staff]]></title>
-            <link>https://www.rockpapershotgun.com/development-on-prologue-go-wayback-is-ending-as-playerunknown-productions-lays-off-an-unspecified-amount-of-staff</link>
-            <guid>1539634</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-component="article-header">
-  
-
-    <div id="main-content">
-  
-
-        <p>The game is also going free to play</p>
-
-    </div>
-
-
-  <p>
-
-  <figure>
-        <picture>
-        <source srcset="https://assetsio.gnwcdn.com/prologue-go-wayback-map.jpg?width=380&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/prologue-go-wayback-map.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/prologue-go-wayback-map.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/prologue-go-wayback-map.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/prologue-go-wayback-map.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/prologue-go-wayback-map.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/prologue-go-wayback-map.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/prologue-go-wayback-map.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/prologue-go-wayback-map.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>PlayerUnknown Productions</cite></span>
-        </figcaption>
-
-  </figure>
-  </p>
-
-    
-
-</div><div data-component="article-content">
-
-
-            <p>
-I guess we're not going to find out what comes after the prologue after all. By that I mean, some bad news came out of PlayerUnknown Productions yesterday. The studio shared a statement on their Dwitter account to share that development on <a href="https://www.rockpapershotgun.com/games/prologue-go-wayback">Prologue: Go Wayback</a> is ending, as PlayerUnknown himself Brendan Greene says that he has "reached the limits of how far I can continue to fund this journey in its current form."
-</p>
-<p>
-"As a result, I have made the hard decision to restructure the studio," the statement continues. By this he means that an undisclosed number of staff members have been laid off, with only a "smaller team" now working on Melba, the studio's in-development game engine. "Our immediate priority is to support our affected employees to the best of our abilities during this difficult transition." For those that don't know what Melba is, it's essentially Greene's attempt at making a game engine that <a href="https://playerunknownproductions.net/news/melba-philosophy-and-architecture-or-why-we-are-building-a-new-engine">theoretically allows for making "true earth-sized" games</a>, which is achieved with "machine learning agents" that run on your own system. 
-</p> 
-<p>
-What this means for Prologue: Go Wayback, which was released as an early access game, is that it will be released for free with its next update. Those that bought the game on Steam or Epic may also be able to get a refund, as PlayerUnknown Productions are apparently seeking a way to make this possible. On <a href="https://store.steampowered.com/news/app/2943740/view/685255846151585929?l=english">Steam</a>, more or less the same details were offered, but it did also note that they "hope the studio can return to Go Wayback at a future point in time."
-</p>
-<p>
-Prologue: Go Wayback only launched back in November of last year, but didn't seem to make too much of an impact in the months since. Our own Edwin had a look at it in early 2025, coming away with some apprehension towards the machine learning aspect while still finding some intrigue within it, <a href="https://www.rockpapershotgun.com/playerunknowns-prologue-go-wayback-is-an-enchanting-exploration-sim-tossed-on-a-sea-of-metaverse-imagineering">writing</a>, "In the demo I played, each run began inside a randomly placed forest cabin, with a pan of water bubbling on a stove ring nearby. I like that pan of water. It's a pleasing little designer's goad: was somebody making tea, before you arrived? Sterilising ground water? You hear a generator throbbing outside and you think, ah, I should probably turn off the stove to avoid wasting power, and then you discover that each ring on the stove can be flicked on or off individually. Nice.""
-
-</p>
-
-        </div></div><br/><br/>https://www.rockpapershotgun.com/development-on-prologue-go-wayback-is-ending-as-playerunknown-productions-lays-off-an-unspecified-amount-of-staff]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[As Another Game Delays An Xbox Port Due To Series S Memory Issues, Some Think Microsoft Should Change Its Parity Rule]]></title>
-            <link>https://kotaku.com/as-another-game-delays-an-xbox-port-due-to-series-s-memory-issues-some-think-microsoft-should-change-its-parity-rule-2000702496</link>
-            <guid>1539604</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-              
-              <p>As revealed earlier this week during Sony’s recent State of Play, Moon Studios’ top-down action RPG <em>No Rest for the Wicked</em> is making the leap to PlayStation 5 after an extended early access period on PC. But Xbox fans wanting to play the next game from the studio behind<em> Ori and the Will of the Wisps</em> will have to wait while the studio optimizes the game more so it can run on the tiny Xbox Series S.</p> <p>On June 2, Moon Studios CEO Thomas Mahler responded to a fan asking about the lack of an Xbox port despite <em>Wicked</em> coming to PS5 in October. Mahler, who in the past has had issues with the media quoting his Discord messages, provided an honest and blunt reply that laid some of the blame on the Xbox Series S:</p> <p>“Series S is making that rough,” said Mahler when talking about porting the game. “We’ll ship it after in a good way once it’s optimized like crazy for Switch 2 and Xbox.”</p>  <p>As a reminder, Xbox requires all games that ship on Xbox Series X to also be playable on Series S and has strict parity rules, too. This has caused issues before. A big example involved <em>Baldur’s Gate 3</em> and the devs wanting to ship without split-screen on Series S, something Xbox wouldn’t allow. <a href="https://kotaku.com/baldurs-gate-3-xbox-series-x-s-split-screen-co-op-rpg-1850770513">Eventually, Xbox and Larian worked it out</a>, and <em>Baldur’s Gate 3</em> shipped on Series S without split screen.</p>
-
- <p>That Discord comment started to spread around the wider web and led to Mahler, <a href="https://kotaku.com/ori-no-rest-wicked-console-port-souls-rpg-xbox-ps5-1851786659">who previously suggested Xbox would not be a priority for the studio</a>, replying to a different fan on Twitter with a more detailed response denying any kind of exclusivity deal and again blaming the Series S for the Xbox port being delayed.</p> <p>“There’s no exclusivity deal. We just wanted to get <em>Wicked</em> into the hands of console players as quickly as we possibly can since the console crowd overwhelmingly got frustrated with us only supporting Steam / Steam Deck so far,” <a href="https://x.com/thomasmahler/status/2062086752106393925">said Mahler.</a></p>
-
- <p>“Shipping on Xbox wouldn’t have been a problem if we’d only be [sic] talking Xbox Series X. But Series S is a requirement to ship, and the biggest issue there is memory. On Series S, we only have 8 gigs, and since we’re constantly streaming massive amounts of data in and out, we’re not quite there yet to hit that spec, and we won’t be until October. That pass to hit Switch 2 and Xbox Series S specs will have to come afterwards cause it requires even more hardcore optimizations. And none of you would want a bad port – you’d want <em>Wicked</em> to feel awesome to play wherever you play it. And that just takes time.”</p> <h2>Xbox Series S holding back games?</h2> <p>In response to the news that <em>No Rest for the Wicked</em> would be delayed due to Series S, game developer and former Valve writer Chet Faliszek said that he wished Xbox would let devs not ship on Series S, claiming that he and his team had to do “so much stupid stuff” to get co-op shooter <em>The </em><em>Anacrusis</em> running on the weaker machine.</p> <p>Another game dev, <a href="https://bsky.app/profile/nicweyand.com/post/3mnhymiciu22a">Nic Weyand, said on Bluesky</a> that the “parity issue between S and X sucks.” And he’s not alone in struggling to get games running on Xbox’s weaker, cheaper machine. <a href="https://kotaku.com/battlefield-6-devs-struggled-xbox-series-s-60-fps-switch-2-2000625487">The devs behind <em>Battlefield 6</em></a> told me they struggled to get the FPS running well on the smaller console. <a href="https://kotaku.com/black-myth-wukong-xbox-series-x-s-release-delay-1851731006">Other games have faced similar Series S problems.</a></p>
-
- <p>It’s wild to think that later this year, assuming no last-minute delays happen, Rockstar Games will release <em>Grand Theft Auto 6</em> on Xbox Series S. What will that look like? What will it run like? Or is it possible that, under new leadership, Xbox lets Rockstar break the parity rule and ship <em>GTA 6</em> exclusively on Series X? If any game could force Xbox to make that change, it would be <em>GTA 6</em>. We’ll find out later this year.</p>
-                          </div></div><br/><br/>https://kotaku.com/as-another-game-delays-an-xbox-port-due-to-series-s-memory-issues-some-think-microsoft-should-change-its-parity-rule-2000702496]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Nintendo to debut a Switch 2 model with replaceable batteries in the EU]]></title>
-            <link>https://www.gamedeveloper.com/business/nintendo-to-debut-a-switch-2-model-with-replaceable-batteries-in-the-eu</link>
-            <guid>1539601</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-module="content" data-testid="article-base-body-content"><p data-testid="content-paragraph"><span data-testid="content-text">There's a new version of the Switch 2 headed to Europe. Nintendo has stated it will comply with new EU regulations regarding replaceable batteries, due to take hold in February of next year.&nbsp;</span></p><p data-testid="content-paragraph"><span data-testid="content-text">According to a </span><span data-testid="content-text"><a rel="noreferrer" target="_blank" href="https://www.nintendo.com/en-gb/Corporate/Consumer-Information/Compliance-with-EU-Directives-and-Regulations/Compliance-with-EU-Directives-and-Regulations-625942.html">notice on its corporate site</a></span><span data-testid="content-text">, the company is ready to go along with a new rule that batteries "...integrated into certain appliances and sold in the EU must be easily replaceable by end-users at any time during the lifetime of the product."&nbsp;</span></p><p data-testid="content-paragraph"><span data-testid="content-text">To that end, Nintendo is working on a version of the console that allows players to "easily replace" a Switch 2 battery in order to comply with the regulation. Those new models will bear an additional "OSM" code on their packaging to show that they are in compliance. There's no word on when these new, compliant consoles will make their debut, but the regulation requirements impact any device sold in the EU after February 18, 2026.</span></p><p data-testid="content-paragraph"><span data-testid="content-text">The new regulation is intended to cut down on waste and overall detrimental environmental impact.</span></p><p data-component="related-article"><span data-testid="related-article-title">Related:</span><a href="https://www.gamedeveloper.com/business/amazon-suggests-io-interactive-might-not-return-for-007-first-light-sequel" target="_self" data-discover="true">Amazon suggests IO Interactive might not return for 007 First Light sequel</a></p></div><div><h2>About the Author</h2><div data-component="contributor-summary"><p data-testid="contributor-summary-subtitle">Editor-in-Chief, GameDeveloper.com</p><div><p data-testid="content-paragraph"><span data-testid="content-text">Danielle is the editor-in-chief of Game Developer, with previous editorial posts at Fanbyte, VICE, and Polygon. She’s also a lecturer in game design at the Berklee College of Music, and a hobbyist game developer in her spare time.</span></p></div></div></div></div><br/><br/>https://www.gamedeveloper.com/business/nintendo-to-debut-a-switch-2-model-with-replaceable-batteries-in-the-eu]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Why]]></title>
-            <link>https://aftermath.site/wwe-2k26-strauss-zelnick-take-two-dlc/</link>
-            <guid>1539592</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="main">
-      
-    <div data-post-hero="fullwidth-image">
-
-    <div data-post-hero-content="">
-          
-
-      
-
-        <p>Baw gawd, that's... Take-Two CEO Strauss Zelnick's music?</p>
-
-        
-    </div>
-
-      <figure>
-          <picture>
-  <source srcset="https://storage.ghost.io/c/30/f5/30f5b1bb-84ee-4c26-b446-fb9a5e512994/content/images/size/w320/format/webp/2026/06/strauss2.png 320w, https://storage.ghost.io/c/30/f5/30f5b1bb-84ee-4c26-b446-fb9a5e512994/content/images/size/w640/format/webp/2026/06/strauss2.png 600w, https://storage.ghost.io/c/30/f5/30f5b1bb-84ee-4c26-b446-fb9a5e512994/content/images/size/w960/format/webp/2026/06/strauss2.png 960w, https://storage.ghost.io/c/30/f5/30f5b1bb-84ee-4c26-b446-fb9a5e512994/content/images/size/w1280/format/webp/2026/06/strauss2.png 1200w" sizes="(max-width: 1023px) 90vw, 1200px" type="image/webp">
-  
-</picture>
-        <figcaption><span>2K / YouTube</span></figcaption>
-      </figure>
-
-  </div>
-
-<div data-post-date-group="" data-post-info="">
-      <p><span>Published:</span>
-        <time datetime="2026-06-04T01:34:11">June 04, 2026, 1:34 pm</time>
-      </p>
-    </div>
-    <article>
-      <p>Take-Two CEO Strauss Zelnick is now <a href="https://www.youtube.com/watch?v=YsWoNBW6HuI&amp;ref=aftermath.site"><u>a playable character in <em>WWE 2K26</em></u></a>. I have some questions.&nbsp;</p><p>Principally, of course, I’d like to know why 2K added one of gaming’s most <a href="https://aftermath.site/take-two-strauss-zelnick-ai-grand-theft-auto/"><u>AI-confused</u></a>, <a href="https://aftermath.site/take-two-interactive-strauss-zelnick-ftc-grand-theft-auto/"><u>money-hungry</u></a> executives at all. I mean, it’s not like he has some enormous cult of personality beyond his position at Take-Two and the odd vaguely spicy interview quote. He did <a href="https://www.hollywoodreporter.com/news/general-news/cbs-new-board-chief-is-60-has-8-percent-body-fat-1156294/?ref=aftermath.site"><u>release a fitness book</u></a> and go around promoting it by showing off shirtless pictures of himself with eight percent body fat, but that was back in 2018. Plus, he’s not even shirtless in the game.&nbsp;</p><figure><iframe width="200" height="113" src="https://www.youtube.com/embed/sMy0VXTR_uQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="" title="WWE 2K26 Strauss Zelnick Entrance "></iframe></figure><p>Beyond that, I’m also curious as to why he was added to <em>WWE 2K26</em> with essentially no fanfare. 2K just <a href="https://wwe.2k.com/2k26/ringside-report/season-3/?ref=aftermath.site"><u>published a blog</u></a> about the game’s new season spotlighting four other new wrestlers—complete with <a href="https://www.youtube.com/watch?v=fb0IVa1tgts&amp;ref=aftermath.site"><u>a splashy trailer</u></a>—but Zelnick, added at the same time, received no such red carpet. He’s not even mentioned in <a href="https://support.wwe2k.com/hc/en-us/articles/52152408177939-WWE-2K26-Patch-Notes-1-12?ref=aftermath.site"><u>the patch notes</u></a>! (He’s also not listed on <a href="https://wwe.2k.com/2k26/roster/?ref=aftermath.site"><u>the game’s official roster page</u></a>, but neither are the other new additions.) Did 2K want this to function as an easter egg? Because easter eggs are supposed to feel almost intimate, like a secret shared between friends. A multimillionaire CEO is… not that.</p><p>And why are Zelnick’s stats high enough that he’s <a href="https://www.reddit.com/r/WWEGames/comments/1tvui2y/comment/opkcds5/?ref=aftermath.site"><u>above some well-respected real-life wrestlers</u></a>? I mean, I guess you can’t portray the boss as a hapless, bumbling clown—and it’s better than the time UFC president Dana White got <a href="https://kotaku.com/ea-puts-dana-white-in-ufc-3-makes-him-inexplicably-pow-1823815623?ref=aftermath.site"><u>added to<em> EA UFC</em> with inexplicably god-tier stats</u></a>—but still.&nbsp;&nbsp;&nbsp;</p><p>Most of all, why is “My Way” by Frank Sinatra Zelnick’s entrance theme? Does it hold some special significance to him personally? Or did the developers just pick it because of his whole vibe? And why does it appear to be confined only to Zelnick, meaning that it can’t be applied to other characters?&nbsp;</p><p><a href="https://www.reddit.com/r/WWEGames/comments/1tvui2y/why_is_strauss_zelnick_in_the_game_now/?ref=aftermath.site"><u><em>WWE 2K26</em>’s player base</u></a> is as confused as I am. Oh well, at least Zelnick—the character, not the man—isn’t costing anyone any money.</p><h2 id="recommended">Recommended</h2><figure><a href="https://aftermath.site/take-two-layoffs-strauss-zelnick-gta/"><div><p>Company With ‘No Current Layoff Plans’ Announces Layoffs - Aftermath</p><p>600 people are being laid off, while “several projects in development” have been cancelled</p><p><span>Luke Plunkett</span></p></div></a></figure><figure><a href="https://aftermath.site/take-two-zelnick-layoffs-roll7-intercept/"><div><p>CEO Of Take-Two, Reportedly Closing Two Studios, Denies Closing Two Studios - Aftermath</p><p>‘We didn’t shutter those studios’, says man who clearly appears to have shuttered two studios</p><p><span>Aftermath</span><span>Luke Plunkett</span></p></div></a></figure><figure><a href="https://aftermath.site/take-two-interactive-strauss-zelnick-ftc-grand-theft-auto/"><div><p>Fresh Off Closing Two Studios, Take-Two CEO Expresses Excitement About ‘More Sensible’ FTC Under Trump - Aftermath</p><p>It was a rough time to be a guy who makes tens of millions of dollars per year, but things are looking up</p><p><span>Aftermath</span><span>Nathan Grayson</span></p></div></a></figure><figure><a href="https://aftermath.site/take-two-strauss-zelnick-ai-grand-theft-auto/"><div><p>As A Principled Video Game Executive, I Believe AI Is ‘Metadata’ Mixed With A ‘Parlor Trick,’ And We Should Be Skeptical Of It. Then Again, Counterpoint: Never Mind</p><p>Life comes at you fast</p><p><span>Aftermath</span><span>Nathan Grayson</span></p></div></a></figure>
-    </article>
-
-        <div data-author-box="">
-            <a href="https://aftermath.site/author/nathangrayson7/">
-              <figure role="none">
-                <picture>
-  <source srcset="https://storage.ghost.io/c/30/f5/30f5b1bb-84ee-4c26-b446-fb9a5e512994/content/images/size/w100/format/webp/2025/10/Nathan1.png 100w, https://storage.ghost.io/c/30/f5/30f5b1bb-84ee-4c26-b446-fb9a5e512994/content/images/size/w320/format/webp/2025/10/Nathan1.png 320w, https://storage.ghost.io/c/30/f5/30f5b1bb-84ee-4c26-b446-fb9a5e512994/content/images/size/w640/format/webp/2025/10/Nathan1.png 600w" sizes="80px" type="image/webp">
-  
-</picture>
-              </figure>
-            </a>
-          <div>
-            <h3><a href="https://aftermath.site/author/nathangrayson7/">Nathan Grayson</a></h3>
-
-              <p>Co-owner of the good website Aftermath. Reporter interested in labor and livestreaming. Send tips to nathan@aftermath.site or nathangrayson.666 on Signal.</p>
-
-            <p><a href="https://aftermath.site/author/nathangrayson7/">
-              <span>All articles</span>
-              <i role="presentation">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M9 6l6 6l-6 6"></path></svg>
-</i>            </a>
-          </p></div>
-        </div>
-
-      
-
-          
-
-        
-
-        <div data-related="author">
-              <article data-post-card="vertical">
-    <a href="https://aftermath.site/september-video-game-releases-wolverine-onimusha-control/">
-      <figure role="none">
-        <picture>
-  <source srcset="https://storage.ghost.io/c/30/f5/30f5b1bb-84ee-4c26-b446-fb9a5e512994/content/images/size/w320/format/webp/2026/06/ctrl.jpg 320w, https://storage.ghost.io/c/30/f5/30f5b1bb-84ee-4c26-b446-fb9a5e512994/content/images/size/w640/format/webp/2026/06/ctrl.jpg 600w, https://storage.ghost.io/c/30/f5/30f5b1bb-84ee-4c26-b446-fb9a5e512994/content/images/size/w960/format/webp/2026/06/ctrl.jpg 960w" sizes="(max-width: 767px) 90vw, (max-width: 1200px) 50vw, 600px" type="image/webp">
-  
-</picture>
-      </figure>
-          </a>
-
-  
-</article>              <article data-post-card="vertical">
-    <a href="https://aftermath.site/god-of-war-laufey-cube-ps5/">
-      <figure role="none">
-        <picture>
-  <source srcset="https://storage.ghost.io/c/30/f5/30f5b1bb-84ee-4c26-b446-fb9a5e512994/content/images/size/w320/format/webp/2026/06/cube.png 320w, https://storage.ghost.io/c/30/f5/30f5b1bb-84ee-4c26-b446-fb9a5e512994/content/images/size/w640/format/webp/2026/06/cube.png 600w, https://storage.ghost.io/c/30/f5/30f5b1bb-84ee-4c26-b446-fb9a5e512994/content/images/size/w960/format/webp/2026/06/cube.png 960w" sizes="(max-width: 767px) 90vw, (max-width: 1200px) 50vw, 600px" type="image/webp">
-  
-</picture>
-      </figure>
-          </a>
-
-  
-</article>              <article data-post-card="vertical">
-    <a href="https://aftermath.site/project-zomboid-patch-battle-milk/">
-      <figure role="none">
-        <picture>
-  <source srcset="https://storage.ghost.io/c/30/f5/30f5b1bb-84ee-4c26-b446-fb9a5e512994/content/images/size/w320/format/webp/2026/06/battlemilk.png 320w, https://storage.ghost.io/c/30/f5/30f5b1bb-84ee-4c26-b446-fb9a5e512994/content/images/size/w640/format/webp/2026/06/battlemilk.png 600w, https://storage.ghost.io/c/30/f5/30f5b1bb-84ee-4c26-b446-fb9a5e512994/content/images/size/w960/format/webp/2026/06/battlemilk.png 960w" sizes="(max-width: 767px) 90vw, (max-width: 1200px) 50vw, 600px" type="image/webp">
-  
-</picture>
-      </figure>
-          </a>
-
-  <div data-post-card-content="">
-
-    
-      <h3 data-post-card-title="">
-        <a href="https://aftermath.site/project-zomboid-patch-battle-milk/">
-          <span>RIP Battle Milk</span>
-        </a>
-      </h3>
-
-      <p data-post-card-excerpt="">
-        "We had battle grog literally on tap. This is so disappointing”
-      </p>
-
-        
-  </div>
-</article>              <article data-post-card="vertical">
-    <a href="https://aftermath.site/hasan-piker-uk-ban-sxsw-speakers-withdraw/">
-      <figure role="none">
-        <picture>
-  <source srcset="https://storage.ghost.io/c/30/f5/30f5b1bb-84ee-4c26-b446-fb9a5e512994/content/images/size/w320/format/webp/2026/06/hasan7.png 320w, https://storage.ghost.io/c/30/f5/30f5b1bb-84ee-4c26-b446-fb9a5e512994/content/images/size/w640/format/webp/2026/06/hasan7.png 600w, https://storage.ghost.io/c/30/f5/30f5b1bb-84ee-4c26-b446-fb9a5e512994/content/images/size/w960/format/webp/2026/06/hasan7.png 960w" sizes="(max-width: 767px) 90vw, (max-width: 1200px) 50vw, 600px" type="image/webp">
-  
-</picture>
-      </figure>
-          </a>
-
-  
-</article>          </div>
-
-  
-    </div></div><br/><br/>https://aftermath.site/wwe-2k26-strauss-zelnick-take-two-dlc/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Gabe Newell Fights Steam Monopoly Claims, Says “Customers Have Enormous Choice” Across Consoles and PC]]></title>
-            <link>https://wccftech.com/valve-gabe-newell-fights-steam-monopoly-claims/</link>
-            <guid>1539574</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			
-			<p><strong>Valve's</strong> digital storefront and <a href="https://wccftech.com/egs-is-a-shop-steam-is-a-home-developer-explains-why-pc-users-attached-valves-platform/">quintessential home</a> for PC gamers, <strong>Steam</strong>, is currently under fire from multiple lawsuits. One aimed at <a href="https://wccftech.com/new-york-sues-valve-claims-counter-strike-developers-loot-boxes-are-quintessential-gambling/">microtransaction practices in games like <strong>Counter-Strike</strong></a>, and two more, both aimed at the <strong>30% cut</strong> Valve takes with every purchase made on Steam, <a href="https://wccftech.com/valve-is-clearly-not-cooperating-fairly-says-ceo-leading-656m-lawsuit-against-steams-30-cut-of-game-sales/">one in the UK</a> and another in <a href="https://wccftech.com/wolfire-and-dark-catts-antitrust-lawsuit-against-valve-given-class-action-status/">the US</a>. It's the latter of the two that we have an update on, as a deposition of boss <strong>Gabe Newell</strong> reveals how Newell is trying to argue against Steam being a monopoly, claiming that players have "<em>enormous choice</em>" when it comes to buying their PC games.</p>
-
-
-
-<p>That comes from a new report from <a href="https://www.bloomberg.com/news/features/2026-06-01/valve-s-antitrust-reckoning-over-steam-has-echoes-of-apple-google-app-store-sui">Bloomberg</a>, which dives into the <a href="https://wccftech.com/wolfire-and-dark-catts-antitrust-lawsuit-against-valve-given-class-action-status/">class-action antitrust lawsuit launched by <strong>Wolfire</strong> and <strong>Dark Catt</strong>.</a> The report also reveals incidents where Valve allegedly threatened other developers if they tried to price their games cheaper than their price on Steam. One such high-profile situation, according to the report, was Valve allegedly threatening to remove <strong>Rainbow Six Siege</strong> from Steam if <strong>Ubisoft</strong> didn't stop offering a cheaper price for the game's Starter Pack on its own Ubisoft Connect launcher.</p>
-
-
-
-<p>Newell, for his part, denies that Valve has any such practices or policies. "<em>Valve does not have a policy or practice of dictating prices to third-party software developers on other platforms,</em>" Newell said in a deposition from 2023 that was only now made public thanks to Bloomberg's report. </p>
-
-
-
-<p>"<em>Customers have enormous choice,</em>" Newell said in the deposition. "<em>Where they purchase their products, whether they buy the game on an Xbox, whether they buy it on Steam, whether they buy it on Epic Games Store or whether they buy it directly from software developers.</em>"</p>
-
-
-
-<p>Whether you believe Steam has a monopoly on the PC market, <a href="https://wccftech.com/epic-games-store-gm-admits-steam-wont-be-toppled/">its biggest competitors know it can't be beat</a> after years and years of Steam dominance. If this lawsuit and the one in the UK don't go Valve's way, then that could mean immense changes for the industry and how players buy their games. Though, considering how many players are so entrenched in Steam's ecosystem, it would be interesting to see how many would stick with Steam, even if it meant paying a marginally higher price.</p>
-
-			
-			
-						<div>
-									<p>
-					<strong>About the <a href="https://wccftech.com/author/davidcarcasole/">author</a>: </strong> David has been writing about videogames, technology, and culture since 2020, with a focus on reporting daily news across multiple publications, including GameDaily.Biz, GameSkinny, and PlayStation Universe before joining Wccftech in 2025. David started contributing as Canada/US reporter for Wccftech's <a href="https://wccftech.com/topic/games/">gaming</a> section in 2025. Besides being up-to-date on the industry's movements, he loves interviewing developers, reviewing games, and writing intricate essays about the symbolism and layered meanings to be found in rich narratives as he's done for publications like GamesIndustry.Biz, LostInCult, and others. Outside of games he loves movies, music, theatre, his hometown, and his family, though not necessarily in that order.				</p>				
-			</div>
-			
-			<p data-nosnippet="">
-				Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.
-			</p>
-			
-
-
-		</div></div><br/><br/>https://wccftech.com/valve-gabe-newell-fights-steam-monopoly-claims/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Amazon’s new plan for games: James Bond and AI Snoop Dogg]]></title>
-            <link>https://www.theverge.com/games/943147/amazon-gaming-strategy-james-bond-snoop-dogg-luna</link>
-            <guid>1539571</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="zephr-anchor"><p>Amazon’s gaming strategy has never really been clear. It’s been very active in the space: <a href="https://www.theverge.com/2014/8/25/6066861/amazon-gaming-timeline">acquiring Twitch</a>, launching its Luna cloud gaming service <a href="https://www.theverge.com/2020/9/24/21451371/amazon-luna-cloud-gaming-service-twitch-alexa-controller">nearly six years ago</a>, investing heavily in MMOs during the peak of live-service wave, and having access to a huge slate of franchises through Prime Video and <a href="https://www.theverge.com/2022/3/17/22979800/amazon-mgm-merger-completed-prime-studios">the MGM Studios library</a>. Late last year, the company announced a major pivot, relaunching <a href="https://www.theverge.com/news/789658/amazon-luna-cloud-relaunch-gamenight-social-gaming">Luna with a focus on party games</a> you can play with just your phone as a controller — including an AI-powered game starring Snoop Dogg as a judge — and basically <a href="https://www.theverge.com/news/808332/amazon-gaming-layoffs-mmo-aaa-first-party-games">jumping ship on MMOs</a>.</p><p>At the time, it looked like a retreat, but Amazon says that isn’t the case. “The reality is nothing could be further from the truth, but we haven’t really got out and said that,” Jeff Gattis, the GM of Amazon Games, tells <em>The Verge</em>. And while the company says it has a new, more focused strategy in place, its gaming efforts are still spread across several different pillars.</p><p>Part of that newfound focus comes from a structural change, as the company now has what it believes is a simpler approach. “Luna is our gaming platform, Amazon Game Studios is our development and publishing platform,” Gattis says. He acknowledges that it’s not “entirely unlike” the approach at Xbox, which has an Xbox platform division and Xbox Game Studios. And given Amazon’s push for cloud-streamed party games you can play on just a phone, Gattis is aware of the similarities to Netflix’s strategy, too — which has <a href="https://www.theverge.com/column/926250/netflix-tv-games-strategy">also had its twists and turns</a>. Until recently, Amazon has tried to go after “core” gamers, but Gattis says that part of the market is “well-served” by things like PlayStation, Xbox, and Steam. Amazon isn’t abandoning that group, but it also sees an opportunity to appeal to a more casual audience.</p><p>Gattis joined Amazon in March 2025 after many years as an exec at Xbox. Gattis says he came to Amazon because he saw a lot of opportunity. “I, for one, fail to accept that Amazon, as one of the largest consumer entertainment companies in the world, can’t break into the number-one revenue segment of consumer entertainment,” he says. Since he joined, Amazon consolidated its three separate gaming groups — Prime Gaming, Amazon Game Studios, and Luna — into one organization. “None of these groups were working with one another,” Gattis says.</p><p>For Luna, a select batch of games are included with an Amazon Prime subscription (including its GameNite party games) and you can pay $9.99 per month for Luna Premium, which has a bigger selection of titles. As for Amazon Game Studios, its biggest known games in the works are the remake <em>Tomb Raider: Legacy of Atlantis</em> and <em>Tomb Raider: Catalyst</em>, a new entry in the series. Both are currently set to launch in 2027. And Amazon’s involvement with games extends to <a href="https://www.theverge.com/news/856476/the-tomb-has-all-its-raiders">a live-action <em>Tomb Raider</em> show for Prime Video</a> starring <a href="https://www.theverge.com/news/770357/amazon-lara-croft-tomb-raider-sophie-turner-series">Sophie Turner as Lara Croft</a>.</p><p>Amazon’s bet on putting <em>Tomb Raider</em> everywhere — there are also a handful of titles available through Luna — indicates where the company sees things going. “We really believe that this line between TV and video games is increasingly coming together” such that “I think every major IP is going to have to have a video game story” as part of its go-to-market strategy, Gattis says. He also points to Amazon’s rights deals with sports leagues like the NBA and the NFL, saying there are “all kinds” of “companion-type games” that it can make.</p><p>Now that Amazon has <a href="https://www.theverge.com/news/616488/amazon-now-has-creative-control-over-the-james-bond-franchise">creative control over James Bond</a>, that seems like another obvious franchise for the company to build more games around, especially after <a href="https://www.instagram.com/p/DY5EMCYD8yk/">the success</a> of <a href="https://www.theverge.com/entertainment/937984/007-first-light-review-james-bond-ps5-xbox">IO Interactive’s recently-released <em>007 First Light</em></a>. IO Interactive self-published <em>First Light</em> because of a deal worked out before Amazon took over the franchise, though Amazon has a “stake in the game” and the company is talking with IO about when to bring it to Luna, according to Gattis.</p><p>“That is exhibit A of going to Prime Video, seeing the Bond films, playing the video game, buying merchandise on [Amazon].com,” Gattis says. Amazon has the rights to “all future Bond titles” and that “I think you can expect [the next Bond game to be] an Amazon Game Studios-published game,” Gattis says. He won’t confirm yet whether IO will be the developer of any potential sequel. “As the dust settles on this one, we’ll start to pop our heads up and figure out, okay, what does [the next Bond game] look like? Who’s the right developer for it? What’s the right storyline? All those things.”</p><p>Right now, Amazon has 10 to 15 games in development, according to Gattis, who says that “probably 33 to 40 percent” are AAA titles. But those big-budget games aren’t necessary for the new audience Amazon is after with its new Luna games. The Snoop Dogg game came together in “under a year,” Gattis says. Amazon is also “big believers” in generative AI both for AI-powered games like the Snoop Dogg title but also how it can help with development more broadly. “To be clear, these are human-made games, but using AI as tools,” he says. “We haven’t cut any people because of AI. We’re just using it to try to accelerate and try to make different types of games.” (Crystal Dynamics, which is developing the <em>Tomb Raider</em> reboot, <a href="https://www.theverge.com/games/942677/crystal-dynamics-used-ai-assisted-tools-while-developing-the-tomb-raider-reboot#comments">has admitted</a> that it used “AI-assisted tools” during development.)</p><p>Scale is in no way a guarantee of success. Netflix has the biggest subscription business in streaming but hasn’t made much of a dent in games. And even though Amazon seems more focused than before, it still seems to be trying a bunch of different things to see what sticks, and that’s going to take time to play out. Gattis, however, is confident in Amazon’s approach. “Don’t sleep on Amazon in this space.”</p><div><p><span><strong>Follow topics and authors</strong> from this story to see more like this in your personalized homepage feed and to receive email updates.</span></p><ul><li id="follow-author-article_footer-dmcyOmF1dGhvclByb2ZpbGU6MTIz"><span aria-expanded="false" aria-haspopup="true" role="button" tabindex="0"><span><span><svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Follow"><path d="M5 0H4V4H0V5H4V9H5V5H9V4H5V0Z"></path></svg></span><span>Jay Peters</span></span></span></li><li></li><li></li><li></li></ul></div></div></div><br/><br/>https://www.theverge.com/games/943147/amazon-gaming-strategy-james-bond-snoop-dogg-luna]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Unknown Worlds outline a bunch of incoming small Subnautica 2 updates including predator behaviour adjustments and proximity chat]]></title>
-            <link>https://www.rockpapershotgun.com/unknown-worlds-outline-a-bunch-of-incoming-small-subnautica-2-updates-including-predator-behaviour-adjustments-and-proximity-chat</link>
-            <guid>1539568</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-component="article-header">
-  
-
-    <div id="main-content">
-  
-
-        <p>Plus some other smaller bits</p>
-
-    </div>
-
-
-  <p>
-
-  <figure>
-        <picture>
-        <source srcset="https://assetsio.gnwcdn.com/subnautica-2-creature-tweaks-coming-killable-fish-response-01.jpg?width=380&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/subnautica-2-creature-tweaks-coming-killable-fish-response-01.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/subnautica-2-creature-tweaks-coming-killable-fish-response-01.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/subnautica-2-creature-tweaks-coming-killable-fish-response-01.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/subnautica-2-creature-tweaks-coming-killable-fish-response-01.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/subnautica-2-creature-tweaks-coming-killable-fish-response-01.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/subnautica-2-creature-tweaks-coming-killable-fish-response-01.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/subnautica-2-creature-tweaks-coming-killable-fish-response-01.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/subnautica-2-creature-tweaks-coming-killable-fish-response-01.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>Unknown Worlds</cite></span>
-        </figcaption>
-
-  </figure>
-  </p>
-
-    
-
-</div><div data-component="article-content">
-
-
-            <p>
-How about a little look ahead at what's apparently coming to <a href="https://www.rockpapershotgun.com/games/subnautica-2">Subnautica 2</a>? Following the game's incredibly strong launch that is probably going to <a href="https://www.rockpapershotgun.com/krafton-have-reportedly-agreed-to-pay-subnautica-2s-devs-that-250-million-bonus-following-strong-early-sales">force Krafton to pay out that $250 million bonus after all</a>, Unknown Worlds have released another dev log outlining a few details about future updates.
-</p>
-<p>
-First up are a couple of hotfixes. These will apparently see to crashes, add in more silver deposits and troilite, plus things like adjusting predator attack frequency, damage and avoidance when you deter them (an issue which has been <a href="https://www.rockpapershotgun.com/the-demand-for-weapons-in-subnautica-2-reveals-the-difficulty-of-separating-open-worlds-from-conquest">a bit of a sticking point for some</a>). Performance improvements will continue too, with a particular highlight placed on epic settings, which should run a bit better in the coming updates. You can expect more bug fixes too.
-</p>
-
-<figure>
-<p>
-<a aria-label="Subnautica 2 Dev Vlog - Swimming Forward" data-platform="youtube" href="https://www.youtube.com/embed/TnnucBrqeKQ?autoplay=1" onclick="((e) => { e.preventDefault(); e.currentTarget.closest('.video_wrapper').innerHTML = e.currentTarget.querySelector('template').innerHTML; enableElements(); })(event)" title="Click to play video from YouTube">
-<span>Subnautica 2 Dev Vlog - Swimming Forward</span>
-<template>
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/TnnucBrqeKQ?autoplay=1" frameborder="0" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/TnnucBrqeKQ?autoplay=1" title="Subnautica 2 Dev Vlog - Swimming Forward">
-</iframe> </template>
-</a>
-</p>
-<a href="https://www.youtube.com/watch?v=TnnucBrqeKQ" rel="noopener" target="_blank">Watch on YouTube</a></figure>
-
-
-<p>
-There are some smaller updates planned too. The biomods system will also see some improvements with the ability to unlock several passive slots, alongside adding in a few more biomod options in the early game. Wrecks are also getting "gameplay improvements," and that's all you're getting out of that detail.
-</p><p>
-Blight encounters will apparently feel more obvious re: parasite aggression too, and the devs are working on a priority system for voice over, making sure you hear the important bits when you need to. You'll be able to replay voice logs from the PDA on top of this. A number of additions are on the way for the co-op side of things like emotes and proximity voice chat, the latter of which will be added in "as soon as possible."
-</p>
-<p>
-The dev log also teased the return of the prawn suit from the first game, which should arrive as part of the game's next new region update. This new region will have new creatures and resources, and you'll apparently be able to jump in wherever you are in your current save file. Lots of little bits promised in this one, but hey ho, it'll come with time.
-
-</p>
-
-        </div></div><br/><br/>https://www.rockpapershotgun.com/unknown-worlds-outline-a-bunch-of-incoming-small-subnautica-2-updates-including-predator-behaviour-adjustments-and-proximity-chat]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Subnautica 2 Devs Promise It’s About To Get Way Scarier]]></title>
-            <link>https://kotaku.com/subnautica-2-devs-promise-its-about-to-get-way-scarier-2000702526</link>
-            <guid>1539562</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><p id="featured-image">
-                              <figure id="attachment_featured" aria-describedby="featured-caption">
-                                                                          <figcaption id="featured-caption">
-                    <span>A fishy-wishy swims past the camera.</span> © Unknown Worlds / Kotaku
-                  </figcaption>
-                </figure>
-                                                      </p><div>
-              
-              <p><em>Subnautica 2</em> has been rolling out hotfixes since it originally launched into Early Access on May 14, including most recently <a href="https://kotaku.com/subnautica-2-hotfix-patch-fish-damage-balance-steam-early-access-2000701459">lowering the aggression levels</a> of some of its most frustrating fish. But today we get the first glimpse of what developers Unknown Worlds have planned for future, larger updates, including a whole new region below the Collector Leviathan’s realm. And <a href="https://store.steampowered.com/news/app/1962700/view/705520776093106209">like other recent statements</a>, it feels like it’s all being delivered from under the shadow of some recent reputational damage after members of the dev team were…less than diplomatic in occasional responses to players.</p> <p><em>Subnautica 2</em> is, in the main (clever joke alert), <a href="https://kotaku.com/should-i-play-subnautica-2-in-early-access-or-wait-unknown-worlds-2000697371">a strong start</a> for a game that intends to be in Early Access for at least three years. There’s a solid 20 hours of exploration available, mysteries to dig into, and so very many things to scan on an all-new alien ocean world. And while a lot of the response has been well-received by the developers, <a href="https://www.eurogamer.net/subnautica-2-combat-response-update">things did get a little spicy</a> when it came to player demands to be able to use weapons against the sealife. Unknown Worlds has fallen over itself to apologize for said spiciness, but it’s certainly left <a href="https://www.reddit.com/r/subnautica/comments/1tggvcj/is_the_dont_like_it_play_something_else_response/">sections of the game’s community</a> feeling like they were asked for their feedback and then told, quite literally, to go play something else if they don’t like it. It’s from under this shadow that the first few patches have arrived, and you can still feel the effects in this first update video from the team.</p> <p>As such Anthony Gallegos, design lead on <em>Subnautica 2</em>, begins with a little speech about just how valuable player feedback has been. That done, we get some more concrete news on what we can expect next.</p>  <p>Along with obvious improvements to performance and bug fixes, there’s the excellent news that the Biomod System will now allow us to unlock multiple passive slots, with more mods earlier in the game to put in them. Alongside this, wrecks are getting “improvements,” although there are no details on exactly what these will be—my hope would be clearer pathing to prevent drowning after you’ve gone through five different doors and then absolutely cannot find your way back in time.</p>
-
- <p>Another great-sounding improvement is to “blight encounters.” If you’ve played&nbsp;<em>Sub 2</em>, you’ll know that these are under-explained and too easy to miss, then made worse by deeply frustrating fishy irritants. Upcoming updates will, we’re promised, make them visually clearer and balance fish aggression better. There’s also a plan to deal with a recurring issue where voiceover dialogue will crash, one line interrupting another and the former lost, even if it were plot critical.</p> <p>Multiplayer fans, meanwhile, will soon be getting emotes and proximity voice chat—a much-requested feature.</p>
-
- <p>Then, rather importantly, there’s a new content drop in the works. This, it seems, will flesh out that big gap where the Collector Leviathan lives, and re-introduce a stompy chassis option for your Tadpole. It’ll also feature new creatures and add a bunch more story, and they promise it’ll be the scariest bit yet. This! More story! Quickly!</p> <p>No actual dates have been announced for these updates, but presumably the plan is to introduce the tweaks and fixes via the regular hotfixes as they’re finished. As for more content, that’s anyone’s guess, but the fact that we were shown concept art of a new creature rather than anything in-game might suggest it’s nothing imminent.</p>
-                          </div></div><br/><br/>https://kotaku.com/subnautica-2-devs-promise-its-about-to-get-way-scarier-2000702526]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
