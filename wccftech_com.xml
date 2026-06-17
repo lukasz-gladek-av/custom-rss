@@ -4,7 +4,7 @@
         <title>maGaming RSS Feed - wccftech.com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/wccftech_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for wccftech.com</description>
-        <lastBuildDate>Wed, 17 Jun 2026 20:44:23 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 17 Jun 2026 21:39:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -179,80 +179,6 @@
 
 
 		</div></div><br/><br/>https://wccftech.com/dispatch-nintendo-switch-censorship-hr-violations-update/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Gears of War: E-Day Was Rebuilt from Scratch in UE5 with Hundreds of Shadow-Casting Lights at 60fps on Xbox]]></title>
-            <link>https://wccftech.com/gears-of-war-e-day-ue5-shadow-casting-lights-60fps-xbox/</link>
-            <guid>1553914</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-
-			
-
-			
-			
-			
-			
-			<p>During the <a href="https://wccftech.com/unreal-engine-5-8-lumen-lite-60-fps-switch-2/" type="link" id="https://wccftech.com/unreal-engine-5-8-lumen-lite-60-fps-switch-2/" target="_blank" rel="noreferrer noopener"><strong>State of Unreal</strong> presentation</a> in Chicago, Illinois, <strong>The Coalition</strong>'s Studio Technical Director <strong>Kate Rayner</strong> presented the studio's technical objectives for <strong>Gears of War: E-Day</strong>.</p>
-
-
-
-<p>The team reportedly "<strong>rebuilt everything from scratch</strong>" to achieve the desired believability of a city thrown into chaos by the devastating surprise attack launched by the Locust Horde against humanity. That perhaps explains why it took so long: their previous game, Gears 5, <a href="https://wccftech.com/review/gears-of-war-5-the-best-gears-yet/" type="link" id="https://wccftech.com/review/gears-of-war-5-the-best-gears-yet/" target="_blank" rel="noreferrer noopener">launched in September 2019</a>.</p>
-
-
-
-<p>Visually, for such a dark event in the Gears universe, The Coalition returned to a <strong>dark, gritty visual style</strong> where light and shadow play a major role. Thanks to <strong>Unreal Engine 5</strong>, the studio was able to elevate the visuals to the next level. Rayner showed a scene from the Pay ’n Save superstore in downtown Kalona, the city where protagonists Marcus Fenix and Dom Santiago are located when the invasion strikes. In previous games, a space like this was limited to three shadow casters in view, but The Coalition is leveraging the <strong>MegaLights</strong> feature that <a href="https://wccftech.com/unreal-engine-5-7-out-now-with-nanite-foliage-and-megalights-powered-stunning-dynamic-shadow-casting-lights/" type="link" id="https://wccftech.com/unreal-engine-5-7-out-now-with-nanite-foliage-and-megalights-powered-stunning-dynamic-shadow-casting-lights/" target="_blank" rel="noreferrer noopener">shipped late last year with Unreal Engine 5.7</a> to add <strong>hundreds of light sources</strong>, all casting shadows at 60 frames per second on Xbox Series X.</p>
-
-
-
-<p>The store's TV display walls use animated area lights with light functions driven by the video itself, fully rendered on the GPU. Each TV casts eerie and unsettling <strong>dynamic shadows</strong> with soft penumbras across the scene. All these freezers have <strong>multiple area lights</strong> inside them to simulate the realistic lighting effect of the frozen food section of a grocery store.</p>
-
-
-
-<p>Rayner then turned on a debug view, highlighting the hundreds of lights featured in the scene, from the small lights on Marcus' armor to the large spotlights on the ceiling. The Technical Director added that <strong>it would have been impossible to create a similar effect on current-generation hardware without MegaLights</strong>.</p>
-
-
-
-<p>The environments in Gears of War: E-Day have been built with <strong>Geometry Collection</strong> destructible assets; these dynamic objects cast and receive light correctly, so destruction stays visually grounded the way you expect in the real world. During combat, bullets create a dynamic shatter point in the glass, and when it shatters, <strong>all the pieces collide with the environment using hardware ray-traced collisions with physically accurate translucent reflections</strong>.</p>
-
-
-
-<figure><p>
-<iframe title="Gears of War: E-Day Tech Demo | State of Unreal 2026" width="500" height="281" src="https://www.youtube.com/embed/ZjcJ_evu-04?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-</p></figure>
-
-
-
-<p>Rayner also revealed that Gears of War: E-Day is the first game in the series to feature <strong>dynamic shadows on every single one of our muzzle flashes</strong>. Throughout the entire city of Kalona, players will encounter <strong>tens of thousands of shadow-casting lights</strong>.</p>
-
-
-
-<p>Delivering E-Day with this level of visual fidelity has not been easy, the developer said, <strong>but iteration is much faster with hardware ray-traced Lumen</strong> compared to the baked lighting of yore. And with MegaLights, the lighters are no longer constrained by the number of real-time shadow casters, giving them the freedom to light the game with the same complexity as the real world. Lastly, Rayner <a href="https://wccftech.com/the-coalition-shows-stunning-ue5-demo-running-on-xbox-series-x-nanite-allows-100x-detail-lumen-is-a-total-game-changer/" type="link" id="https://wccftech.com/the-coalition-shows-stunning-ue5-demo-running-on-xbox-series-x-nanite-allows-100x-detail-lumen-is-a-total-game-changer/" target="_blank" rel="noreferrer noopener">reiterated</a> that <strong>Nanite's micro-polygon rendering enables 100 times the geometric detail in the game's assets</strong>.</p>
-
-
-
-<p>In case you were worried about PC specs, <a href="https://wccftech.com/gears-of-war-e-day-pc-requirements-12gb-ram-rtx-2060/" type="link" id="https://wccftech.com/gears-of-war-e-day-pc-requirements-12gb-ram-rtx-2060/" target="_blank" rel="noreferrer noopener">the ones shared last week</a> do not appear particularly daunting. Indeed, the presentation ended with Rayner boasting the studio's "<strong>highly scalable engine</strong>" across Xbox Series S, X, and PC. The game is out <a href="https://wccftech.com/gears-of-war-e-day-release-date-xbox-console-exclusive/" type="link" id="https://wccftech.com/gears-of-war-e-day-release-date-xbox-console-exclusive/" target="_blank" rel="noreferrer noopener">on <strong>October 6, 2026</strong></a>.</p>
-
-			
-			
-						<div>
-									<p>
-					<strong>About the <a href="https://wccftech.com/author/alessio/">author</a>: </strong> With over two decades of experience in gaming journalism, Alessio Palumbo has led the gaming vertical at Wccftech since August 2015. He started working at a young age for Italian websites like Everyeye.it, Gamestar.it, Nextgame.it, and Multiplayer.it before kickstarting the indie English-language publication Worlds Factory as its founder and Editor in Chief. 
-
-In the last decade, he has coordinated the overall output of Wccftech's <a href="https://wccftech.com/topic/games/">gaming</a> section, managed PR relations, assigned reviews, produced daily news coverage, edited gaming content as needed, and delivered game reviews.  
-
-Arguably, his trademark content is the long series of exclusive developer interviews that have been cited by Wikipedia and by the biggest news media and gaming publications. 
-
-His passion for technology also makes him knowledgeable when it comes to gaming hardware and tech. His favorite genres include RPGs, MMORPGs, and action/adventure games.				</p>				
-			</div>
-			
-			<p data-nosnippet="">
-				Follow <a id="google_preferred_source_link_single" href="https://profile.google.com/cp/Cg0vZy8xMWM3NDB2MmIyGgA">Wccftech on Google</a> to get more of our news coverage in your feeds.
-			</p>
-			
-
-
-		</div></div><br/><br/>https://wccftech.com/gears-of-war-e-day-ue5-shadow-casting-lights-60fps-xbox/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
