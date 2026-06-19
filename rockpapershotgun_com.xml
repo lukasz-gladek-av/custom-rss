@@ -4,7 +4,7 @@
         <title>maGaming RSS Feed - www.rockpapershotgun.com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/rockpapershotgun_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for www.rockpapershotgun.com</description>
-        <lastBuildDate>Fri, 19 Jun 2026 21:25:52 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 19 Jun 2026 22:21:17 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -83,73 +83,6 @@
 
         
   </div></div><br/><br/>https://www.rockpapershotgun.com/the-outer-worlds-2-studio-obsidian-accused-of-violating-state-wage-and-hour-laws-for-profit-in-california-lawsuit]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Slay the Spire 2 gets a patch for broken RNG after player turns in gruelling eight hour video exposé]]></title>
-            <link>https://www.rockpapershotgun.com/slay-the-spire-2-gets-a-patch-for-broken-rng-after-player-turns-in-gruelling-eight-hour-video-expose</link>
-            <guid>1555756</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div data-component="article-header">
-  
-
-    <div id="main-content">
-  
-
-        <p>Also adds a new boss, Bestiary and Steam Workshop support</p>
-
-    </div>
-
-
-  <p>
-
-  <figure>
-        <picture>
-        <source srcset="https://assetsio.gnwcdn.com/slay-the-spire-2-early-access.jpg?width=380&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/slay-the-spire-2-early-access.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/slay-the-spire-2-early-access.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/slay-the-spire-2-early-access.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/slay-the-spire-2-early-access.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/slay-the-spire-2-early-access.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/slay-the-spire-2-early-access.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/slay-the-spire-2-early-access.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/slay-the-spire-2-early-access.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>Mega Crit</cite></span>
-        </figcaption>
-
-  </figure>
-  </p>
-
-    
-
-</div><div data-component="article-content">
-
-
-            <p><a href="https://www.rockpapershotgun.com/games/slay-the-spire-2">Slay the Spire 2</a> has received a major update that adds Steam Workshop support for mods alongside a proper monster bestiary for the Compendium. It also introduces a new boss, Aeonglass, <a href="https://www.rockpapershotgun.com/rejoice-doormaker-haters-for-mega-crit-have-removed-him-from-slay-the-spire-2-in-favour-of-a-brand-new-boss">in place of the much-berated Doormaker</a>. These are pretty juicy changes, and yet, the most intriguing part of the patch is a deceptively dry question of disobedient mathematics.</p><!--more-->
-<p>In brief, a lot of you have been narked about Neow's Bones, an ancient relic that bestows two other relics on pick-up, alongside a random curse. The curses can be brutal. Debt, in particular, filches 10 gold from your pocket whenever you end a turn with the card in your hand.</p>
-<p>A few players have been complaining about receiving Debt too often. One player, tckmn, went to the trouble of creating <a href="https://www.twitch.tv/videos/2794202198">an eight hour video</a> to support their case, roughly calculating that there's actually <a href="https://tck.mn/blog/correlated-randomness-sts2/">a 54% chance</a> of being saddled with Debt when you pick up Neow's Bones. Mega Crit have now given their RNG systems a once-over and concluded that, yes, tckmn is right.</p>
-<p>"Most games, including STS2, use pseudo-random number generators (PRNGs)," explains Mega Crit's programmer Ed Lu in a changelog. "A PRNG is fed a seed value, and given the same seed value, a PRNG will always generate the same sequence of random numbers.</p><p>"Each run has one primary 'run seed', a sequence of twelve numbers and letters," he continues. "However, a run actually contains multiple PRNGs that individually influence your deck draw, your combat rewards, your event choices, and the rest of the random elements in the run. Each one uses a seed derived from the run seed.</p><p>
-"Since we fed different seeds to each PRNG, we expected their results to be completely unrelated. But we were wrong, and it turns out that our strategy allowed players to predict outcomes given knowledge of unrelated parts of the game."
-</p><p>Lu illustrates this with a couple of graphs, which I've embedded below. The one with the parallel diagonal lines is the old PRNG implementation. The one that looks like white noise is the new version, "exhibiting no human-detectable correlation".</p>
-<figure data-count="2" role="group">
-<figure>
- 
-
-
-</figure>
-<figure>
- 
-
-
-</figure>
-<figcaption><span>Image credit: <cite>Mega Crit</cite></span></figcaption>
-</figure>
-<p>Lu further observes that, balance ramifications aside, "once knowledge of this exploit is out there, players are naturally incentivized to use it to play optimally. We don’t want to encourage rote memorization of correlation tables, as it is tedious and unfun."</p><p>You can find the full patch notes on <a href="https://store.steampowered.com/news/app/2868840/view/710026912607505280">Steam</a>. I have a passing interest in the art of randomisation, myself. I've got a couple of card game prototypes that rely on luck of the draw, and I'm trying to work out how to structure the chaos as I add more and more to the deck. I am not yet at the level of creating graphs. Mostly, I just try to gauge how annoyed I feel at the end of each playtest. Have you read anything cool on the subject? Or played any particular games that do highly excellent things with randomisation?</p>
-
-        </div></div><br/><br/>https://www.rockpapershotgun.com/slay-the-spire-2-gets-a-patch-for-broken-rng-after-player-turns-in-gruelling-eight-hour-video-expose]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
