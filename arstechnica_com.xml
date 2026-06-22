@@ -4,155 +4,26 @@
         <title>maGaming RSS Feed - arstechnica.com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/arstechnica_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for arstechnica.com</description>
-        <lastBuildDate>Fri, 12 Jun 2026 13:09:35 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 22 Jun 2026 21:01:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Pokémon Go players unwittingly contributed to tech with military drone uses]]></title>
-            <link>https://arstechnica.com/ai/2026/06/pokemon-go-players-unwittingly-contributed-to-tech-with-military-drone-uses/</link>
-            <guid>1549411</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="app">
-    <p><a href="#main">
-  Skip to content
-</a></p>
-  
-
-
-<main id="main">
-            <article data-id="2159066">
-  
-  <header>
-  <div>
-    <div>
-      
-
-      
-
-      <p>
-        The repurposing of <em>Pokémon Go</em> data for AI training continues to draw scrutiny.
-      </p>
-
-              
-          </div>
-
-    <div>
-    
-    <p>
-      A player wearing a hat decorated with Pokemon characters and trading cards plays Pokemon GO on a smartphone during the in-person Pokemon GO Tour: Kalos Los Angeles 2026 event on February 20, 2026.
-
-              <span>
-          Credit:
-
-                      <a href="https://www.gettyimages.com/detail/news-photo/player-wearing-a-hat-decorated-with-pokemon-characters-and-news-photo/2262175351?adppopup=true" target="_blank">
-          
-          Patrick T. Fallon / AFP via Getty Images
-
-                      </a>
-                  </span>
-          </p>
-  </div>
-  </div>
-</header>
-
-
-  
-
-  
-      
-    
-    <div>
-                      
-                      
-          
-<p>A decade after the global craze for<em> Pokémon Go</em> peaked, an AI company has been using billions of real-world images captured by millions of players to develop navigation technologies for delivery robots and possibly military drones. That represents an intriguing but potentially discomfiting legacy for an augmented reality mobile game that has incentivized gamers to capture short smartphone videos of physical neighborhoods and landmarks.</p>
-<p>The AI company, Niantic Spatial, was spun out of <em>Pokémon Go</em> <a href="https://arstechnica.com/gaming/2019/02/niantic-poised-to-settle-pokemon-go-trespassing-complaints/">game developer Niantic</a> in May 2025, after Niantic separately sold its licensed games such as <em>Pokémon Go</em> to the <a href="https://www.pif.gov.sa/en/news-and-insights/newswire/2023/savvy-games-group-completes-acquisition-of-scopely-for-fourty-nine-billion/#:~:text=PIF-owned%20games,for%20%244.9%20billion.">Saudi-backed</a> video game publisher Scopely. But before that deal, Niantic publicly announced plans to use <a href="https://arstechnica.com/ai/2024/11/niantic-uses-pokemon-go-player-data-to-build-ai-navigation-system/">scans from millions of <em>Pokémon Go</em> players</a> along with data captured by users of the company’s Scaniverse app to train and develop a “large geospatial model”—a 3D model of the physical world trained on the geolocated images provided by app users scanning real-world locations.</p>
-<p>“Ground scans were one component to help train Niantic Spatial’s real-world foundation models —AI systems that learn to recognize and interpret physical spaces,” a Niantic Spatial spokesperson told Ars. “The models are the product of that training, not a copy of or a means of accessing the underlying scans, which were of public points of interest such as statues and fountains.”</p>
-<p>After Niantic Spatial spun out as a standalone company, it trained its model on 30 billion images mostly clustered around urban environment locations that game players were incentivized to visit, according to <a href="https://www.technologyreview.com/2026/03/10/1134099/how-pokemon-go-is-helping-robots-deliver-pizza-on-time/">MIT Technology Review</a>. The images often captured the same location from many different angles under different lighting and weather conditions, and came with valuable metadata showing the location and orientation of user phones when they were capturing such images.</p>
-<p>Such ground scans “were an entirely optional feature in games, where users created a short video of a public location,” the Niantic Spatial spokesperson said. “We’ve been transparent about the fact that the scans would improve our technology platform since 2019 in our privacy policy and public announcements.”</p>
-
-          
-                      
-                  </div>
-                    
-        
-            
-    
-    <div>
+            <title><![CDATA[Valve's Steam Machine ships June 29 for $1,049, but you probably won't be able to buy one yet]]></title>
+            <link>https://arstechnica.com/gaming/2026/06/valves-steam-machine-ships-june-29-for-1049-but-you-probably-wont-be-able-to-buy-one-yet/</link>
+            <guid>1557733</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
           
           
-<p>That allowed Niantic Spatial to develop its own visual positioning system—a type of technology that can provide a device’s position and orientation by comparing visual data from cameras with reference data from detailed 3D maps of environments. Such a system can be especially helpful indoors, in city environments where GPS and other global navigation satellite systems’ signals are unreliable, or in regions where there is <a href="https://arstechnica.com/space/2026/06/tests-suggest-russian-satellites-can-jam-gps-on-a-continental-scale/">active GPS jamming</a>.</p>
-<p>MIT Technology Review highlighted Niantic Spatial’s technology in March 2026, when the company <a href="https://www.nianticspatial.com/en/blog/coco-robotics">announced a new partnership</a> with Coco Robotics. The robotics company aimed to use Niantic Spatial’s AI model and visual positioning system to help its fleet of four-wheeled delivery robots navigate city streets.</p>
-<p>But in December 2025, Niantic Spatial had also announced a <a href="https://www.nianticspatial.com/en/blog/vantor">deal with the spatial intelligence company Vantor</a> to develop a positioning system that could help both flying drones and ground vehicles navigate <a href="https://www.nianticspatial.com/blog/gps-denied-environments">GPS-denied environments</a>. Vantor, <a href="https://spacenews.com/maxar-retires-its-name-rebrands-as-vantor-and-lanteris/">formerly known</a> as the space and satellite company Maxar Intelligence, has multiple US government contracts with the <a href="https://vantor.com/blog/nga-awards-vantor-dollar70m-option-year-contract-to-operate-and-enhance-governments-primary-commercial-geoint-platform/">National Geospace-Intelligence Agency</a>, <a href="https://vantor.com/blog/vantor-awarded-contract-worth-up-to-217m-to-power-immersive-global-3d-terrain-for-us-army-training-and-mission-rehearsal/">various</a> <a href="https://vantor.com/blog/vantor-awarded-us-space-force-space-domain-awareness-contract-for-continuous-tracking-of-high-interest-space-objects/">branches</a> of the US military, and the <a href="https://www.hstoday.us/industry/industry-news/vantor-secures-dhs-falcon-analytics-support-contract-for-cbp-and-coast-guard-missions/">Department of Homeland Security</a>.</p>
-
-<h2>The new military-industrial complex</h2>
-<p>The “comprehensive positioning system” aimed to integrate Niantic Spatial’s visual positioning system with Vantor’s 3D terrain data and Raptor software. During the Defence Geospatial Intelligence (DGI) conference held in London in February 2026, Tory Smith, director of product management at Niantic Spatial, <a href="https://www.nianticspatial.com/en/blog/building-a-shared-coordinate-system-for-gps-denied-operations">described early testing</a> of the integrated system as leading to a 70 percent reduction in positioning error with accuracy to within 1.5 meters in many scenarios.</p>
-<p>The partnership between Niantic Spatial and Vantor received more public attention through a recent <a href="https://www.trouw.nl/binnenland/hoe-pokemon-go-spelers-onbewust-militaire-drones-trainden-ik-was-gewoon-een-spelletje-aan-het-spelen~b49d67b7/">story by Trouw</a>, a Dutch news publication. “Without the large number of scans from all those gamers, the development of this system would never have progressed so quickly,” said <a href="https://www.tudelft.nl/tbm/onze-faculteit/afdelingen/waarden-technologie-innovatie/mensen/hoogleraren/profdr-jeroen-van-den-hoven">Jeroen van den Hoven</a>, professor of ethics and technology at Delft University of Technology in the Netherlands, in an interview with Trouw. “The players have indirectly, in a perhaps minimal but still effective way, made a contribution to military applications.”</p>
-
-          
-                  </div>
-                    
-        
-            
-    
-    <div>
-
-        
-        <div>
-          
-          
-<p>Visual positioning systems are not necessarily fraught with ethical problems, even in a military scenario. For example, the Ukrainian military has been deploying <a href="https://arstechnica.com/ai/2026/04/ukraines-military-robot-surge-aims-to-offset-drone-risks-to-humans/">battlefield robots</a> and drones with their <a href="https://www.pbs.org/newshour/show/ukraines-drone-defense-tech-reshapes-combat-as-warfare-evolves">own visual positioning systems</a> to survive the prevalence of GPS jamming in the ongoing Russo-Ukrainian war. “If the Ukrainians can win the just war against aggressor Russia with this, it is a good development,” Van den Hoven told Trouw.</p>
-<p>But the Dutch newspaper also interviewed Floris De Hingh, a longtime <em>Pokémon Go</em> player who expressed concern about his gameplay data supporting US military systems. De Hingh specifically described himself as “strongly opposed to the <a href="https://arstechnica.com/gadgets/2026/06/cheap-iranian-drone-downed-25-million-us-army-helicopter-maybe-by-chance/">war Trump is currently waging against Iran</a>.”</p>
-<p>“The training data came from people who thought they were catching Pikachu, under a license most never read, sold up a chain that ends at a sovereign wealth fund and a defense prime,” wrote <a href="https://dronexl.co/author/kesteloo/">Haye Kesteloo</a>, editor in chief and founder of the <a href="https://dronexl.co/2026/06/09/pokemon-go-scans-niantic-vantor-military-drone-navigation/">news website DroneXL</a>. “Consent obtained for a game is not consent for a weapons program, even if the end use turns out to be defensible.”</p>
-<p>A Vantor spokesperson told Ars that the company “is not using any <em>Pokémon Go</em> data, nor do we have access to any information from the <em>Pokémon Go</em> dataset.” Similarly, Niantic Spatial’s spokesperson said that the agreement between the companies does not include direct sharing of game data.</p>
-<p>But some <em>Pokémon Go</em> players, such as De Hingh, will probably be uncomfortable with the idea that their gameplay data helped train Niantic Spatial’s models in the first place—especially when the company’s visual positioning system may be used for military applications. Vantor acknowledged that it is “exploring adapting Niantic Spatial’s ground-based visual positioning system” to work alongside Vantor’s existing “GPS-denied positioning capabilities,” which currently rely on satellite imagery.</p>
-<p>Niantic Spatial told Ars that it has no ongoing access to data from current <a href="https://arstechnica.com/gaming/2024/05/pokemon-go-players-are-altering-public-map-data-to-catch-rare-pokemon/"><em>Pokémon Go</em> players</a>, because the game license has belonged to video game publisher Scopely since May 2025. But players may still want to stay on top of the game’s Terms of Service agreement and privacy policy to understand how their data is currently being used—or may otherwise be used in the future. It’s a lesson that goes well beyond <em>Pokémon Go</em>.</p>
+<h2>Pray to RNG gods</h2>
+<p>According to Valve, the worldwide shortage of memory and storage isn’t just a problem for prices. The company was, at times, unable to get the parts it needed to build Steam Machines at <em>any</em> price, which has impacted the number of machines it has available. That won’t be a surprise to anyone who has been <a href="https://arstechnica.com/gaming/2026/05/despite-price-hike-steam-deck-is-already-sold-out-in-north-america/">trying to snag a Steam Deck in 2026</a>, but it means you won’t be able to just buy a Steam Machine on a whim.</p>
+<p>To combat resellers and keep things fair, Valve will use a randomized reservation setup. There’s no way for anyone to guarantee they will get a Steam Machine in the first batch, but this ensures people with super-fast connections and bot armies won’t be able to vacuum up all the units.</p>
+<p>If you want to try your luck, just <a href="https://store.steampowered.com/hardware/steammachine">sign up for a reservation</a> before Thursday, June 25, at 10 am Pacific. Valve says anyone with a valid Steam account who has made any purchase before April 27, 2026, is allowed to place a reservation, but there’s a limit of one per household.</p>
+<p>Once reservations close, all the sign-ups will undergo a one-time randomization to create the final waitlist order. Later on June 25, Valve will send out emails to all reservation holders with the results. If the RNG gods are kind, the email will report you’re in the “Reservation queue,” meaning a Steam Machine in the initial batch is allocated and will ship as soon as it’s ready. Alternatively, the email will tell you that you’ve been added to the waitlist, and Valve will get in touch when future batches are manufactured.</p>
+<p>The lucky winners of Valve’s lottery will have the privilege of paying $1,049 for a Steam Machine, but even then, you may have to wait. Valve says the first orders should go out on June 29, and it will continue shipping them as units are ready.</p>
 
 
           
-                  </div>
-
-                  
-          
-
-
-
-
-
-
-  <div>
-    
-
-    <p>
-      Jeremy Hsu is a reporter exploring a wide range of topics across deep tech and AI. He has previously written for New Scientist, Scientific American, IEEE Spectrum, Wired, Undark Magazine and MIT Tech Review, among many other publications, about topics such as deepfakes, data centers, drones, battery tech, robotics, and GPS jamming. He also has a Master of Arts in Journalism from NYU, and a bachelor's degree from University of Pennsylvania in History and Sociology of Science, with a minor in English.
-
-    </p>
-  </div>
-
-
-  <p>
-    <a href="https://arstechnica.com/ai/2026/06/pokemon-go-players-unwittingly-contributed-to-tech-with-military-drone-uses/#comments" title="20 comments">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><defs><clipPath id="bubble-zero_svg__a"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath><clipPath id="bubble-zero_svg__b"><path fill="none" stroke-width="0" d="M0 0h80v80H0z"></path></clipPath></defs><g clip-path="url(#bubble-zero_svg__a)"><g fill="currentColor" clip-path="url(#bubble-zero_svg__b)"><path d="M80 40c0 22.09-17.91 40-40 40S0 62.09 0 40 17.91 0 40 0s40 17.91 40 40"></path><path d="M40 40 .59 76.58C-.67 77.84.22 80 2.01 80H40z"></path></g></g></svg>
-    20 Comments
-  </a>
-      </p>
-              </div>
-  </article>
-
-
-  
-
-
-  
-
-
-  
-  </main>
-
-
-
-  
-
-  </div></div><br/><br/>https://arstechnica.com/ai/2026/06/pokemon-go-players-unwittingly-contributed-to-tech-with-military-drone-uses/]]></content:encoded>
+                  </div></div><br/><br/>https://arstechnica.com/gaming/2026/06/valves-steam-machine-ships-june-29-for-1049-but-you-probably-wont-be-able-to-buy-one-yet/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
