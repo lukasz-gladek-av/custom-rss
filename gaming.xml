@@ -4,9 +4,301 @@
         <title>maGaming RSS Feed</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/gaming.xml</link>
         <description>A cleaned-up version of the original gaming feed</description>
-        <lastBuildDate>Mon, 29 Jun 2026 19:34:10 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 29 Jun 2026 20:37:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Assetto Corsa Rally now has online multiplayer as update 0.5 releases]]></title>
+            <link>https://www.thesixthaxis.com/2026/06/29/assetto-corsa-rally-now-has-online-multiplayer-as-update-0-5-releases/</link>
+            <guid>1564249</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>Assetto Corsa Rally has received its 0.5 update as its early access release rolls along, and the big part of this update is the introduction of online multiplayer. The online multiplayer adds both official lobbies and custom lobbies that players can customise. In addition, the Assetto Corsa Rally update 0.5 also adds Greece as a new location, which has two special stages, and 12 layout variants. Check out the trailer to get the overview, and the changelog following it.</p>
+<p>https://youtu.be/6flguQeWVk4?si=-jePoispTFU4lWm-</p>
+<h2>Assetto Corsa Rally update 0.5 patch notes</h2>
+
+<ul>
+<li>New Location: Rally Greece
+<ul>
+<li>Features 2 brand-new, unique Special Stages with 12 total layout variants.</li>
+<li>Includes 22 km of high-fidelity, laser-scanned roads spanning 509 meters of elevation change.</li>
+</ul>
+</li>
+<li>Added dedicated “Rally Weekend” presets tailored specifically for Greece.</li>
+<li>New Multiplayer Online Mode featuring both official and user-generated custom lobbies.</li>
+<li>Core Physics Overhaul: Deployed a major physics update for all vehicles and terrains, highlighted by the introduction of the gravel bulldozing effect.</li>
+<li>Assetto Corsa Rally Events:
+<ul>
+<li>Added 2 new event groups featuring 24 fresh events to explore the new locations.</li>
+<li>Added 8 new snow-condition events for the Alsace and Wales regions.</li>
+</ul>
+</li>
+<li>New official partners added to the drivers’ profile sections.</li>
+</ul>
+
+<ul>
+<li>Cockpit Dynamics: Added realistic vibrations to interior cockpit elements for enhanced immersion.</li>
+<li>Bug Fixes: Resolved various vehicle-specific issues and bugs.</li>
+</ul>
+
+<ul>
+<li>New Ideal Line Feature: Supports multiple corner widths to enhance realism. The line now dynamically widens through turns. This is currently active in Greece and will expand to other stages in future updates.</li>
+<li>Comprehensive Tire Model Improvements:<br>
+Revised Peak Slip Angle Formula: Adjusted as a function of load to narrow the variation range. This increases the performance impact of the inner tire, ensuring it acts as a functional gripping tire rather than just a dragging scrub tire.</li>
+<li>Revised Load Sensitivity Formula: Enhanced stability under high loads. The formula now dynamically scales based on tire pressure and actual contact patch dimensions.</li>
+<li>Refactored Surface Recognition: Every tire now utilizes a dedicated parameter set for each surface type. Individual surfaces can also apply unique modifier overrides to these baseline sets.</li>
+<li>Revised Camber Properties: Both camber angle and camber thrust effects are now dynamically load-dependent.</li>
+<li>Revised Contact Patch Calculation: Increased sensitivity to camber angles. Excessive camber will now actively reduce longitudinal grip.</li>
+<li>Added Bulldozing Effects: Introduced longitudinal and lateral bulldozing physics on soft surfaces. Lateral bulldozing increases with tire slip and decreases with excessive camber. The overall effect scales with specific surface conditions.</li>
+<li>Experimental Stick-Slip Vibrations: Re-introduced high-grip surface vibrations.</li>
+<li>Experimental Dig-Dependent Vibrations: Re-introduced low-grip surface vibrations.</li>
+<li>Global Tuning Pass: Rebalanced all surface properties, car physics, and setup presets to align with the new physics architecture.</li>
+</ul>
+
+<ul>
+<li>Launch of Phase One: The initial phase of the online multiplayer mode is now live, introducing several core features for players.</li>
+<li>Lobby Browsing and Creation: Players can browse the active lobby list, create personal custom lobbies, or join official ACR lobbies.</li>
+<li>Game Modes: Lobbies currently support single-stage events with a maximum capacity of 16 players.</li>
+<li>Vehicle and Weather Options: Hosts can restrict car selection to all cars, the same category, or the exact same car, and freely select the weather during lobby creation.</li>
+<li>Spectating and Management: Players can join ongoing lobbies mid-match to spectate and view live results, while lobby owners can modify track and weather parameters between races.</li>
+</ul>
+
+<ul>
+<li>Community Spaces: Official Lobbies are persistent, developer-managed rooms created by Supernova that are always visible in the server browser.</li>
+<li>Dynamic Scaling: These official rooms utilize multiple active instances, ensuring there are always open slots for the community.</li>
+<li>Version 0.5 Rotation Schedule: The multiplayer launch features a rotating event calendar consisting of two weekly events and one weekend-exclusive event.</li>
+<li>Weekly Event Structure: Two standard ACR events will refresh every week, each backed by five or more active lobby instances.</li>
+<li>Weekend Event Structure: One premium ACR event will run strictly from Friday to Sunday each week, supported by five or more active lobby instances.</li>
+</ul>
+
+<ul>
+<li>Weekly Event 1: Rally 2 Greece Special Stages. Features a selection of 4 Greek tracks under clear weather conditions, restricted to Rally 2 category cars.</li>
+<li>Weekly Event 2: Mini Tarmac Festival. Features a selection of 8 tarmac tracks under clear weather conditions, restricted to the Mini Cooper S.</li>
+<li>Weekend Event: Impreza S3 Wales Light Rain. Features a selection of 4 Welsh tracks under wet and light rain conditions, restricted to the Subaru Impreza S3.</li>
+</ul>
+
+<ul>
+<li>Weekly Event 1: Alfa GTA Greece Stages. Features a selection of 4 Greek tracks under clear, sunny weather conditions, restricted to the Alfa Romeo GTA 1300 Junior.</li>
+<li>Weekly Event 2: Rally 2 Gravel Festival. Features a selection of 8 gravel tracks under clear weather conditions, restricted to Rally 2 category cars.</li>
+<li>Weekend Event: Lancia Delta Col de Turini Light Snow. Features the 2 full-length Col de Turini stages under mild snow conditions, restricted to the Lancia Delta Integrale Evo.</li>
+<li>Future Rotations: The official event schedule for the following weeks will be announced at a later date.</li>
+</ul>
+
+<ul>
+<li>Impreza S3 engine/exhaust audio updated, with improved after fire triggering.</li>
+<li>Peugeot 306 engine remixed with more induction character.</li>
+<li>Helmet mic audio option added, with further cabin camera tweaks.</li>
+<li>Removed wheels and suspension from side speakers in 7.1.</li>
+<li>Added a small amount of smoothing to engine RPM. 306 was slightly glitchy previously.</li>
+<li>More general 3d spatialization and mix improvements.</li>
+</ul>
+
+<ul>
+<li>Camera Configuration Sync: Added a global option to apply your gameplay camera layout to all vehicles simultaneously or strictly to the currently active car.</li>
+<li>Field of View (FOV) Adjustments: Increased the default FOV setting for the Cockpit and Gauge cameras across all vehicles. Note: Please double-check and readjust your custom camera configurations following this update.</li>
+</ul>
+
+<ul>
+<li>Enhanced Ideal Line Visuals: The ideal line now features realistic skid marks that flow naturally across the stage.</li>
+<li>Particle Systems: Introduced advanced particle mechanics for highly detailed, dusty gravel surfaces.</li>
+<li>Improved Particle Lighting: Refined the global lighting model to blend dust and debris particles more naturally with environmental light.</li>
+<li>Asymmetric Ideal Trajectory: Upgraded the line technology to support asymmetrical paths, allowing precise control over visual intensity and track placement. This feature is currently exclusive to the Greece stages.</li>
+</ul>
+
+<ul>
+<li>Improved streaming performance</li>
+<li>&nbsp;High-Resolution Crowds: Added new updated spectator models to the start and end zones of Munster.</li>
+<li>New Greek Content: Added the Elatia Special Stage, Loutraki Special Stage, and the Greece Service Park.</li>
+<li>Service Park Fixes: Resolved terrain flickering issues across multiple service parks.</li>
+<li>Tree Collision Fixes: Fixed missing collision data on several miscellaneous trees across various stages.</li>
+<li>Tree Duplication Fix: Removed overlapping duplicate trees, resulting in a minor performance boost.</li>
+<li>Floating Vegetation Fix: Adjusted placement data to eliminate floating grass, bushes, and trees across multiple levels.</li>
+<li>Improvements to the stages’ ideal line/trajectory: Every stage in Assetto Corsa Rally has been configured with an ideal line or trajectory, providing improved grip when driving on it than when off the line.However up until this point, this ideal line had been a fixed width, often leading to situations in corners where only one of the car’s two axles would be on the ideal line when sliding through a corner.Now, though, we have improved the system to allow for different widths.This allows corners to have a wider ideal trajectory and, in turn, widening the area of improved grip through corners.Not only that, but the visuals of this have also been improved where the skid marks and tram tracks follow the ideal line through the stage.This will be more noticeable on gravel and snow surfaces as the loose surfaces get swept, compacted and churned up, but tarmac will also feature darker areas, skid marks in tighter turns and in the braking zones where rubber is laid down by other cars. Whilst the physics account for the variance in width of the ideal line, the visuals currently remain at a more fixed width. So don’t worry if you’re dipping wheels on the inside or just off the outside of the visual line; you’re still likely going to be on that grippier part of the track. This new improved ideal line is only present currently on the new Greece stages; however this will be rolled out onto Wales, Alsace and Livigno where their ideal trajectories widths in the corners will be widened in future updates.</li>
+<li>Parked Car Variety: Expanded the model pool for ambient parked cars to increase visual diversity in the environment.</li>
+</ul>
+
+<ul>
+<li>Vehicle Database Fix: Corrected inaccurate technical information in the Subaru Impreza S3 car profile menu.</li>
+<li>Interface Polish: Fixed minor text typos and layout inconsistencies across various UI screens.</li>
+<li>Object Reset Fix: Resolved a bug where dynamic, movable track objects would fail to reset to their starting positions after a stage restart.</li>
+</ul>
+<p><em>Source: <a href="https://store.steampowered.com/news/app/3917090/view/697642648593237462">Steam</a></em></p>
+
+		
+	</div></div><br/><br/>https://www.thesixthaxis.com/2026/06/29/assetto-corsa-rally-now-has-online-multiplayer-as-update-0-5-releases/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Large Man Blows In Cartridge, Sticks It In An NES, And Smashes Another Man’s Face With It]]></title>
+            <link>https://kotaku.com/aew-wrestling-nintendo-entertainment-system-forbidden-door-2000711483</link>
+            <guid>1564246</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+              
+              <p>What do you take with you into a cage fight? You only get one backpack. Do you bring thumb tacks? A bomb? A snack? Another wrestler scrunched up real small? A Nintendo Entertainment System?</p> <p>How about…all of the above?</p> <p>That’s what one team did last night at Forbidden Door, All Elite Wrestling’s latest PPV event, during a 12-man steel cage match between two teams of six guys each, both of which consisted of several different smaller teams smashed together in various alliances of convenience. To understand what happened, all you really need to know is that Kyle Fletcher, Kazuchika Okada, and Kevin Knight are on one team, and Kyle O’Reilly (sorry, yeah, it’s two Kyles), Mark Briscoe, and Orange Cassidy are on the other team.</p>   <p>Orange Cassidy (my personal favorite wrestler) is known for, among other things, lugging a Jansport backpack around with him, in which he tends to store any championship belts he’s recently won. Occasionally, he puts other things in it. For this match, he appears to have convinced his entire team to bring Jansport backpacks loaded up with useful items for the fight. Orange, for example, let his friend Willow pack his bag, and she provided a Ziploc full of orange slices as a snack for the team. Mark Briscoe brought thumb tacks: useful. And Kyle O’Reilly had a Nintendo Entertainment System complete with controllers and a “game.”</p> <p>This whole sequence is great. O’Reilly appears delighted to have found the classic console. He passes one controller (like a good buddy) to Briscoe, and proceeds to wallop Okada with a second controller while Briscoe goes for Knight in the back corner. Over on commentary, Tony Schiavone remarks that it might be worth a lot of money (probably not, and certainly not in the state it’s about to be in), while the villainous Don Callis (also on commentary) coolly calls O’Reilly a nerd.</p> <p>Briscoe and O’Reilly then regroup in the middle, which gives Fletcher the opportunity to get in a few kicks, but it doesn’t last long. The two teammates stretch a controller cable between them and use it to clothesline Fletcher directly onto the NES on the floor (giving Callis an opportunity to call the NES a “piece of garbage”…shut up Don Callis!!). O’Reilly produces a cartridge for the NES—it’s unclear what game it&nbsp;<em>really</em> is (Pro Wrestling?) but it seems to just be labeled “AEW”—and loads it in. Unfortunately, he blows on it first, which suggests to me that someone needs to pull all these men aside for a conversation about caring for retro tech. Then, after pondering it respectfully for a moment, he smacks Fletcher upside the head with it. Fantastic!</p>   <p>The presence of an NES in the ring isn’t really a normal thing, but it also doesn’t shock me. Many wrestlers are massive nerds, and I have almost no doubt that the NES was the delighted idea of one of those gentlemen involved in that altercation. O’Reilly and Briscoe seem genuinely gleeful about the violent nostalgia trip, though I do think they could have done more damage to Fletcher if they had brought a GameCube instead. Heck, I got into AEW originally because I kept seeing pictures of incredible video game-themed signs held up at events, a robust tradition that continues at AEW to this day including at yesterday’s PPV:</p>   <p>Man, I love wrestling.</p>
+                          </div></div><br/><br/>https://kotaku.com/aew-wrestling-nintendo-entertainment-system-forbidden-door-2000711483]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Report Claims State of Decay 3 Developer Undead Labs Could Be Shut Down]]></title>
+            <link>https://insider-gaming.com/report-claims-state-of-decay-3-developer-undead-labs-could-be-shut-down/</link>
+            <guid>1564243</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+        
+<p>State of Decay 3 is one of Microsoft’s most anticipated first-party games. Unfortunately, its developer might not be around much longer to see it through to release.</p>
+
+
+
+<p>With rumors and reports circulating regarding the future of studios like Double Fine, Ninja Theory, and Compulsion Games, another studio can be added to that list.</p>
+
+
+
+
+
+
+
+<h2 id="h-undead-labs-could-also-be-shut-down">Undead Labs Could Also Be Shut Down</h2>
+
+
+
+<p>According to a new report from <a href="https://gamesbeat.com/cwa-represented-workers-at-xbox-criticize-microsoft-management-and-pending-layoffs/" target="_blank" rel="noreferrer noopener nofollow">Gamesbeat</a>, State of Decay 3 developer Undead Labs is another Xbox studio that could be shut down. It’s said that Microsoft continues to look for a buyer for the 17-year-old studio. However, should one not be found, 110 jobs could be lost.</p>
+
+
+
+<p>State of Decay 3 was announced during the Xbox Games Showcase in 2020. It took six years before its first gameplay trailer was revealed during the 2026 Xbox Games Showcase. </p>
+
+
+
+<figure><p>
+<iframe title="State of Decay 3 Official Gameplay Reveal | XBOX Games Showcase 2026" width="500" height="281" src="https://www.youtube.com/embed/eoLOzgHvKxQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</p></figure>
+
+
+
+
+
+
+
+<p>As of publishing, it’s scheduled to release on Xbox, PlayStation 5, and PC sometime in 2027.</p>
+
+
+
+<p>Microsoft has not commented on any of the rumored layoffs. It’s also unknown exactly how large this latest round will be, though it’s believed that hundreds of people are set to be let go.</p>
+
+
+
+<p>What do you think of Undead Labs potentially being closed by Xbox? Leave your thoughts in the comments below, or join the discussion in the official&nbsp;<a href="https://discord.com/invite/vwj7zdWxaW" target="_blank" rel="noreferrer noopener">Insider Gaming Discord</a>.</p>
+
+
+
+<hr>
+
+
+
+<p>In other news, read about&nbsp;<a href="https://insider-gaming.com/ufl-developer-strikerz-lays-off-more-than-half-the-company/" target="_blank" rel="noreferrer noopener">UFL developer Strikerz laying off over half of the company</a>. And for even more Insider Gaming delivered directly to your inbox,&nbsp;<a href="https://insider-gaming.com/subscribe" target="_blank" rel="noreferrer noopener">sign up for our newsletter</a>.<a href="https://insider-gaming.com/author/mike-straw/"></a><a href="https://insider-gaming.com/author/mike-straw/"></a></p>
+
+
+        <div>
+                  <p>
+                    Mike has been covering the gaming industry since 2012, and has reported on some of the largest events in the industry while also working as an investigative reporter. Outside of…                  </p>
+                  <p><a href="https://insider-gaming.com/author/mike-straw/">
+                    More from Mike Straw                  </a>
+                </p></div>
+            
+
+    <div id="ig-app-cta">
+          <p><i></i> MOBILE APP</p>
+          <h2>Level Up Your Gaming News</h2>
+          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
+          
+          <p><i></i> Available on iOS &amp; Android</p>
+        <!-- <div class="ig-note"><i class="fa-solid fa-bolt"></i> Available on Android</div> -->
+
+        </div>
+
+    
+    
+    </div></div><br/><br/>https://insider-gaming.com/report-claims-state-of-decay-3-developer-undead-labs-could-be-shut-down/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[The New Magic The Gathering Star Trek Crossover Set Will Beam Down to STLV]]></title>
+            <link>https://techraptor.net/tabletop/news/new-magic-gathering-star-trek-crossover-set-will-beam-down-to-stlv</link>
+            <guid>1564225</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><p>Dedicated Star Trek fans may get an early look at the upcoming <a href="https://techraptor.net/games/magic-the-gathering" rel="nofollow"><em>Magic: The Gathering</em></a> crossover set. Those attending the STLV or Trek to Las Vegas convention this Summer, will have a chance to play the new Star Trek crossover set in Wizards of the Coast's popular card game.</p><p>The news of <em>Star Trek</em> crossover set appearing at STLV was made on the convention's <a href="https://creationent.com/events/stlv-26/creation-entertainment-presents-stlv-trek-to-vegas-sponsored-by-magic-the-gathering/" rel="nofollow">official website</a>. The group behind the convention, Creation Entertainment, announced that tabletop giant Wizards of the Coast would be sponsoring the convention, which is celebrating its 60th anniversary this year.</p><picture>
+                  <source srcset="https://techraptor.net/sites/default/files/styles/content_inline_desktop/public/images/magic-the-gathering-star-trek-captain-kirk-artwork.jpg?itok=DDuddYUF 1x" media="(min-width: 992px)" type="image/jpeg" width="1000" height="563">
+              <source srcset="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/magic-the-gathering-star-trek-captain-kirk-artwork.jpg?itok=MnMYS9_3 1x" media="(max-width: 991px)" type="image/jpeg" width="1000" height="563">
+                  
+
+  </picture><p>Thanks to this sponsorship and in recognition of such a milestone, this year's STLV will be packed with events and giveaways to all trekkies who attend. This will include special panels, photo opps, and meet and greet opportunities with several iconic actors from the Star Trek franchise including William Shatner, George Takei, Walter Koenig, Michael Dorn, Jonathan Frakes, Brent, Spiner, Scott Bakula, and more.</p><p>Lastly, if you're a tabletop fan, one of those events will be an opportunity to play <em>Magic: The Gathering</em>. There will be tables at the event where you can learn the basics of the game and play a couple of rounds with fans at the convention. The twist is the cards featured will be from the <em>Star Trek Welcome Decks</em> crossover set. This is huge since the set will not be available elsewhere until November.</p><blockquote><p>STLV will mark the first time fans can play with Magic: The Gathering | Star Trek™ Welcome Decks ahead of its release in November. In this brand-new set, your favorite characters from across the Star Trek galaxy come to life in exciting ways, with art that captures iconic moments and more. This set will be available for pre-order at the convention.</p></blockquote><p>The choice by Wizards of the Coast to showcase their latest <a href="https://techraptor.net/tabletop/news/new-magic-gathering-marvel-crossover-details-revealed-including-new-secret-lair-and" rel="nofollow">crossover set</a> at STLV is a stroke of business savvy. <em>Star Trek</em> is a pop culture multimedia institution spanning decades of TV shows, comics, novels, even <a href="https://techraptor.net/tabletop/news/modiphius-announces-star-trek-adventures-allies-and-adversaries-sourcebook-adding-new" rel="nofollow">licensed TTRPGs</a>.</p><p>It is a nerd staple that pioneered the fan convention circuit. It was thanks to coordinated fan movements that kept the original series going, after all. If this new set spoke to this group of fans, it would only drive hype further for this set.</p><p>This year's STLV will be hosted at Las Vegas' Rio Hotel and Casino and will span five days from August 5-9.</p></div><div><p><span><div>
+       
+    <p>Ever since he was small, Tyler Chancey has had a deep, abiding love for video games and a tendency to think and overanalyze everything he enjoyed. This… <a href="https://techraptor.net/author/tyler-chancey">More about Tyler</a></p>
+  </div></span></p></div></div><br/><br/>https://techraptor.net/tabletop/news/new-magic-gathering-star-trek-crossover-set-will-beam-down-to-stlv]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Sony’s next-gen PlayStation will go ‘beyond the living room’]]></title>
+            <link>https://www.theverge.com/games/959191/sony-next-generation-playstation-ps6-beyond-the-living-room</link>
+            <guid>1564222</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><div><p><span aria-expanded="false" aria-haspopup="true" role="button" tabindex="0"><span id="follow-author-standard_article_details-dmcyOmF1dGhvclByb2ZpbGU6MTIz"><span><span><svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Follow"><path d="M5 0H4V4H0V5H4V9H5V5H9V4H5V0Z"></path></svg></span></span><span>Jay Peters</span></span></span></p> <p><span>is a senior reporter covering technology, gaming, and more. He joined The Verge in 2019 after nearly two years at Techmeme.</span></p></div><div id="zephr-anchor"><p>Sony hinted in a recent Q&amp;A with investors that the next generation PlayStation will offer some kind of experience that lets you play games outside of your living room.</p><div><p>Here’s the relevant portion <a href="https://www.sony.com/en/SonyInfo/IR/library/presen/business_segment_meeting/pdf/2026/GNS_QA_E.pdf">from the transcript</a>, <strong>emphasis mine</strong>:</p></div><div><blockquote><p>Q: How can you bring back to the PlayStation platform users who migrated to gaming PCs during the COVID period? In aiming for profit growth, are there limitations on what can be done in the short term, or do you see the potential for more significant changes with the next-generation platform?</p><p>A: PlayStation has long been strongly associated with the idea of playing in the living room. However, in recent years, more users globally have been using personal monitors. In response, we are selling peripherals such as monitors and speakers to break away from the fixed perception that “PlayStation equals the living room” and to broaden usage scenarios. <strong>For the next-generation platform, rather than simply serving as an alternative to PCs, we aim to deliver value that is unique to PlayStation. This includes not only technological advancements but also an expansion of usage styles, enabling a seamless experience that can be enjoyed naturally beyond the living room.</strong></p></blockquote></div><p>It’s worth noting that Sony already lets you play PS5 games on the go thanks to things like Remote Play and the PlayStation Portal streaming handheld. However, <em>Bloomberg</em> reported <a href="https://www.bloomberg.com/news/articles/2024-11-25/sony-working-on-new-handheld-console-for-ps5-games-to-rival-nintendo-s-switch?cmpid%3D=socialflow-twitter-tech&amp;utm_campaign=socialflow-organic&amp;utm_content=tech&amp;utm_source=twitter&amp;utm_medium=social">in 2024</a> that Sony is working on a new <a href="https://www.theverge.com/2024/11/25/24305337/sony-handheld-gaming-console-playstation-nintendo-microsoft">handheld gaming console</a>, and it has added a Power Saver mode to some PS5 games that would <a href="https://www.theverge.com/news/712212/sony-ps5-power-saver-handheld-rumors">make them ideal for handheld play</a>. Given all that and this response from Sony, perhaps the next PlayStation console generation will include a more prominent handheld experience of some kind.</p><p>The phrase “beyond the living room” also shows up in a response to a question about Sony’s thinking on hardware pricing, including for its next generation. That answer includes Sony saying that “we do not intend to sell hardware at significant losses,” which, given the already-high prices of hardware like the <a href="https://www.theverge.com/games/902224/sony-ps5-playstation-price-hike">PS5 Pro ($899.99)</a>, <a href="https://www.theverge.com/news/837022/valve-steam-machine-price-release-date">the Steam Machine ($1,049)</a>, and the upcoming <a href="https://www.theverge.com/games/957042/xbox-price-increase-memory-shortage">new prices of the Xbox Series X (starting at $749.99)</a>, could point to an expensive price tag for Sony’s next generation PlayStation hardware.</p><p>Here’s what Sony said there:</p><div><blockquote><p>Q: Considering consumer behavior, could you update us on your current thinking regarding hardware pricing and profitability? For the next-generation platform, is it reasonable to assume that your pricing will continue to prioritize profitability of the hardware, as it does today?</p><p>A: First, we regard hardware as the base for providing the gaming experience, and by offering products such as the PlayStation Portal Remote Player (PS Portal), we aim to provide experiences tailored to users’ play styles beyond the living room, which has traditionally been considered the primary usage environment. As for pricing, it is not realistic for us to absorb all component cost increases, and we have already implemented some price increases outside Japan. At present, however, sales are proceeding as planned, and we do not believe this has led to a decline in customer demand. As a principle, we do not intend to sell hardware at significant losses. At the same time, we are carefully monitoring the market and continuing to evaluate our approach. We believe it is important for us to make every effort to ensure that customers fully understand the value we provide in relation to pricing.</p></blockquote></div><p>Sony hasn’t said when it plans to release its next-generation PlayStation hardware. The PS5 <a href="https://www.theverge.com/21550146/sony-playstation-5-ps5-review">initially launched in 2020</a>, and Sony historically has released a new console generation every six or seven years. If that pattern followed, there would be a launch this year or next, but the company has reportedly considered <a href="https://www.theverge.com/tech/879668/sony-playstation-nintendo-switch-2-console-memory-shortage">pushing back its next console launch to 2028 or 2029</a> due to RAMaggedon.</p><div><p><span><strong>Follow topics and authors</strong> from this story to see more like this in your personalized homepage feed and to receive email updates.</span></p><ul><li id="follow-author-article_footer-dmcyOmF1dGhvclByb2ZpbGU6MTIz"><span aria-expanded="false" aria-haspopup="true" role="button" tabindex="0"><span><span><svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Follow"><path d="M5 0H4V4H0V5H4V9H5V5H9V4H5V0Z"></path></svg></span><span>Jay Peters</span></span></span></li><li></li><li></li><li></li><li></li></ul></div></div></div></div><br/><br/>https://www.theverge.com/games/959191/sony-next-generation-playstation-ps6-beyond-the-living-room]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Tekken 8′s Roger Jr DLC Trailer References Infamous Kangaroo Punching Tekken 7 Meme]]></title>
+            <link>https://kotaku.com/tekken-8s-roger-jr-dlc-trailer-references-the-same-kangaroo-punching-meme-that-led-to-him-being-cut-from-tekken-7-2000711390</link>
+            <guid>1564210</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
+              
+              <p><span>During yesterday’s EVO livestream in Las Vegas, Roger Jr. and fan-favorite character Bob were revealed as two of </span><i><span>Tekken 8’s</span></i><span> upcoming season 3 DLC fighters. Fans were quick to point out that Roger Jr.’s announcement trailer references a 10-year-old viral video of an Australian man punching a kangaroo, but few noticed that said reference is actually twofold, as former <em>Tekken</em> director and executive producer Katsuhiro Harada stated in 2017 that the same viral video led to Roger Jr. being cut from </span><i><span>Tekken 7</span></i><span> over “animal activist” concerns.</span></p> <p><span>In case it wasn’t already obvious, Roger Jr. is a kangaroo. While the genetically engineered marsupial is a beloved character in the Tekken franchise, both Roger Jr. and his father, Roger, failed to make an appearance in </span><i><span>Tekken 7</span></i><span>. As you can tell based on the cries of joy from EVO’s crowd in the background of the teaser trailer below, fans have clearly missed the little guy, as he hasn’t been included as a playable character in a </span><i><span>Tekken </span></i><span>game for almost 20 years.</span></p>  <p><span>And, yes, the bizarre trailer is indeed referencing the viral 2016 </span><a href="https://www.youtube.com/watch?v=FIRT7lf8byw"><span>video</span></a><span> of a man punching a kangaroo in a bid to save his pet dog. In </span><i><span>Tekken 8’s</span></i><span> iteration of the video, the Australian man and his dog are replaced by Leroy and his American Bully, Sugar. While it’s a funny reference in itself, the deeper context behind the trailer seems to have gone over most fans’ heads.</span></p> <p><span>In 2017, Katsuhiro Harada stated in an interview with </span><a href="https://www.vg247.com/tekken-7-roger-the-kangaroo-cut-due-to-animal-activists-kuma-the-bear-still-in-because-hes-stronger-than-a-human-being"><i><span>VG247</span></i></a> <span>that the same viral kangaroo punching video led to Roger Jr. being cut from </span><i><span>Tekken 7’s</span></i><span> roster: “There was a video of a man’s dog being headlocked by a kangaroo, and he punched it in the face…It turned into a big problem. People were complaining about him punching a kangaroo. It seems that in the last few years there’s a lot more animal activists—even though they probably wouldn’t play our game they would still hear about that, about a kangaroo in our game being punched, and would complain about it.”</span></p>
+
+ <p><span>So, what’s changed in the last ten years? Have the animal activists Harada alluded to suddenly decided that punching kangaroos is completely fair game? Or is it because most of the senior team members who worked on both </span><i><span>Tekken 7</span></i><span> and </span><i><span>Tekken 8</span></i><span>, </span><a href="https://kotaku.com/tekken-director-bandai-namco-katsuhiro-harada-leaves-2000651368"><span>including Katsuhiro Harada</span></a><span> and </span><a href="https://kotaku.com/the-tekken-8-exodus-continues-with-another-big-departure-worrying-fans-2000701072"><i><span>Tekken 8’s</span></i><span> director Kohei Ikeda</span></a><span>, have parted ways with Bandai Namco in the past year?</span></p> <blockquote data-width="500" data-dnt="true"> <p lang="en" dir="ltr">Umm, I’ve explained this before several times, but I still think it’s being misunderstood.<br>There was a time—quite a while ago—when videos involving animals, or actions involving certain animal-related organizations, became major news topics.<br>Around that time, I was interviewed by… <a href="https://t.co/yp4E8LxQLL">https://t.co/yp4E8LxQLL</a></p> <p>— Katsuhiro Harada (@Harada_TEKKEN) <a href="https://x.com/Harada_TEKKEN/status/1933518505405788374?ref_src=twsrc%5Etfw">June 13, 2025</a></p></blockquote>  <p><span>Well, according to Harada, it’s because his “comments got twisted a bit during translation into English.” When asked about his previous statement regarding Roger Jr., Harada stated in a post on X that his quote had seemingly been taken out of context, or that the interviewer had completely misunderstood him.</span></p>
+
+ <p><span>“Then, a few years after that interview was published, this idea started circulating that Roger was removed from the game due to protests from some organization. But I never said we had actually received a protest, and I certainly never said we couldn’t include Roger because of that. It’s possible that the tone of my comments got twisted a bit during translation into English…”</span></p> <p><span>Harada also stated that he only brought up Roger Jr. as he was being “interviewed by the media in the Oceania region.” Indeed, the interviewer in question, James O’Connor, is Australian, so it sounds like Harada just shoehorned an anecdote about a kangaroo into the conversation because he was talking to someone from Down Under.</span></p>
+                          </div></div><br/><br/>https://kotaku.com/tekken-8s-roger-jr-dlc-trailer-references-the-same-kangaroo-punching-meme-that-led-to-him-being-cut-from-tekken-7-2000711390]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Japanese government grant projects reveals oriental-style action game FUJI from Koei Tecmo, more]]></title>
+            <link>https://www.gematsu.com/2026/06/japanese-government-grant-projects-reveals-oriental-style-action-game-fuji-from-koei-tecmo-more</link>
+            <guid>1564207</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div role="main">
+  
+  <article>
+
+    
+<header>
+
+  <div>
+
+    <ul>
+        </ul>
+
+    
+    <p><span>New titles from Applibot, Arc System Works, and Konami.</span>
+      </p></div>
+
+  
+
+</header>  
+
+<!-- Moved from templates/posts/default.php -->
+
+    <div><p>The Japanese Ministry of Economy, Trade, and Industry <a href="https://www.meti.go.jp/policy/mono_info_service/contents/2026/saitaku/list.html" target="_blank" rel="noopener">recently announced</a> the results of its “IP360” project—which provides large-scale, long-term, and strategic support to achieve the goal of increasing overseas sales of Japanese content to 20 trillion yen by 2033—including new game projects from companies like Koei Tecmo and others. <span id="more-1061762"></span></p><p>Notable projects receiving government funding include:</p><ul><li><strong>Applibot</strong> – A new action game intellectual property called <em>Project Needle</em>, with a unique world based on Japanese history, for consoles and <a title="Platforms > PC [25,613 articles]" href="https://www.gematsu.com/platforms/pc">PC</a>, fully localized in several languages.</li><li><strong><a title="Companies > Arc System Works [1,340 articles]" href="https://www.gematsu.com/companies/arc-system-works">Arc System Works</a></strong> – A new fighting game intellectual property utilizing Arc System Works’ unique cel-shaded animation style, simultaneously released for all major platforms and fully localized in several languages.</li><li><strong><a title="Companies > Koei Tecmo Games [3,129 articles]" href="https://www.gematsu.com/companies/koei-tecmo-games">Koei Tecmo Games</a></strong> – A new intellectual property titled <em>FUJI</em> (working title), leveraging Koei Tecmo Games’ know-how in oriental expression and action games, with the goal of becoming a global hit.</li><li><strong><a title="Companies > Konami Digital Entertainment [1,169 articles]" href="https://www.gematsu.com/companies/konami">Konami Digital Entertainment</a></strong> – A new console game project meant to appeal to players both in Japan and worldwide.</li><li><strong>Yokozuna Games</strong> – A cooperative online game that blends turn-based strategy and roguelike dungeon crawling, called <em>Tactful Tactics</em>, due out for consoles and PC worldwide.</li></ul><p>Thanks, <a href="https://automaton-media.com/en/news/koei-tecmo-is-working-on-a-brand-new-ip-codenamed-fuji-as-revealed-through-japanese-government-subsidy-program/" target="_blank" rel="noopener">Automaton West</a>.</p></div>
+
+        
+    
+  </article>
+</div></div><br/><br/>https://www.gematsu.com/2026/06/japanese-government-grant-projects-reveals-oriental-style-action-game-fuji-from-koei-tecmo-more]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
+        <item>
+            <title><![CDATA['Big Three' Chip Makers Set Up 'Coordinated Scheme' To Fix Memory Pricing, According To New Lawsuit]]></title>
+            <link>https://aftermath.site/samsung-micron-antitrust-price-fixing-lawsuit/</link>
+            <guid>1564204</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><article>
+      <p>A global memory shortage is pushing computer components, and, subsequently, consumer electronics, to extraordinary prices. All major video game console makers have increased prices—<a href="https://aftermath.site/xbox-price-increase-again-and-again/"><u>some as many as three times</u></a>—as the cost of putting together these devices keeps rising. The shortage of dynamic random-access memory (DRAM) is often tied to how much memory the data centers that power artificial intelligence need. Now, a group of consumers are suing the big three chip makers—Samsung, Micron, and SK Hynix—for what they call a "coordinated scheme" to raise the price of hardware. More so, these companies have been sued under similar price fixing allegations multiple times in the past. One of those lawsuits failed, but the earlier of the two led to hundreds of millions of dollars in fines, and several executives in jail.&nbsp;</p><p>The <a href="https://storage.courtlistener.com/recap/gov.uscourts.cand.472931/gov.uscourts.cand.472931.1.0.pdf?ref=aftermath.site"><u>proposed class action lawsuit</u></a>, <a href="https://www.law360.com/articles/2493985/major-chipmakers-sued-for-price-fixing-amid-rampocalypse-?ref=aftermath.site"><u>reported first by Law360</u></a>, was filed on June 25 in the United States District Court's Northern District of California for alleged violations of the Sherman Act, the Cartwright Act, the Florida Deceptive and Unfair Trade Practices Act, the Minnesota Antrust Law, the Wisconsin Antitrust Act, and the New York Donnelly Act. All of this legislation is designed to prevent monopolization and anticompetitive business strategies.</p><p>Samsung, Micron, and SK Hynix make up 91% of DRAM revenue, per the complaint. Lawyers allege that these three companies are price fixing "through a series of parallel actions that, taken together, constitute a comprehensive program of supply management by agreement."&nbsp;</p><p>The scheme, they say, is a supply restriction that began in 2022. All three companies cut production in 2022 and 2023 when demand dropped; the companies wanted to decrease inventory. In 2023, the companies shifted resources from DRAM to high bandwidth memory (HBM), used to support AI. The availability of "commodity DRAM" for consumer electronics, in response, was reduced.&nbsp;</p><p>The complaint also alleges that Samsung, Micron, and SK Hynix also stopped producing DDR3 and limited DDR4, which is a type of RAM that's older and therefore used for cheaper, entry-level computers. Prices rose in response. It's coordinated, lawyers say, because all of these companies did this in the same time frame.</p><p>"TrendForce further forecast that data centers will consume approximately 70% of all memory chips produced in 2026, creating supply shortfalls that will spread to consumer, smartphone, automotive, and other segments," lawyers write in the complaint. "The remaining 30% of global memory output must serve billions of devices and hundreds of millions of users worldwide—a structural deficit that guarantees supracompetitive pricing for the foreseeable future."</p><p>Lawyers pointed out that these three companies (or its predecessors and subsidiaries), which the government called cartels, were found guilty of price fixing in the early 2000s. That shortage was often linked to "a surge in demand for wireless phones and handheld computers," <a href="http://www.nytimes.com/2000/08/11/business/mattel-says-chip-shortage-may-cause-lost-sales.html?ref=aftermath.site"><u>according to the New York Times</u></a>. The chip shortage impacted technology companies, but also toymakers like Mattel, <a href="http://www.nytimes.com/2000/08/11/business/mattel-says-chip-shortage-may-cause-lost-sales.html?ref=aftermath.site"><u>who made talking dolls</u></a>.</p><p>Both Samsung and SK Hynix pled guilty; <a href="https://www.justice.gov/archive/opa/pr/2005/October/05_at_540.html?ref=aftermath.site"><u>Samsung paid a $300 million fine</u></a>. Several Samsung executives were also <a href="https://www.justice.gov/archive/opa/pr/2007/April/07_at_263.html?ref=aftermath.site"><u>found guilty and served prison sentences</u></a>. SK Hynix <a href="https://www.justice.gov/archive/opa/pr/2005/April/05_at_207.htm?ref=aftermath.site"><u>paid a $185 million fine</u></a>. Some executives <a href="https://www.justice.gov/archive/atr/public/press_releases/2006/214843.htm?ref=aftermath.site"><u>served jail time, too</u></a>. Micron avoided fines and jail time by "reporting the cartel and cooperating with the Department of Justice," according to the complaint. Infineon Technologies and Elpida Memory were the other two companies charged. <a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_10_586?ref=aftermath.site"><u>The European Commission also fined</u></a> the companies in 2010.</p><p>Another class action lawsuit was filed against Samsung, Micron, and SK Hynix in 2018 for alleged price fixing from 2016 to 2017. At that time, the companies controlled <a href="https://cdn.ca9.uscourts.gov/datastore/opinions/2022/03/07/21-15125.pdf?ref=aftermath.site"><u>96% of the market</u></a>. The judge awarded in favor of the three companies, <a href="https://cdn.ca9.uscourts.gov/datastore/opinions/2022/03/07/21-15125.pdf?ref=aftermath.site"><u>a decision that was reinforced by the United States Court of Appeals for the Ninth Circuit in 2022</u></a>. The judge said in the decision that the claims were conceivable, but that the plaintiffs did not "allege additional facts that push their theory over 'the line between possibility and plausibility.'" The judge said that the companies stockpiled DRAM leading into 2016, then had too much as DRAM prices declined. They all cut production in response. Demand increased, creating the shortage.</p><p>In 2025, Micron announced its exit from the consumer market entirely. The shortage is expected to last for several more years, <a href="https://www.tomshardware.com/pc-components/dram/sk-group-chairman-says-memory-chip-shortage-will-last-until-2030?ref=aftermath.site"><u>according to SK Group chairman Chey Tae-won</u></a>. It's touching all sorts of industries; anything that needs memory. A Microsoft Series X console now costs $800, up from its launch price of $500. Both Sony and Nintendo have raised their prices, as has Apple, which increased MacBook and iPad prices up to 20%.</p><p>"The consumer electronics industry is facing an unprecedented challenge,” <a href="https://www.cnbc.com/2026/06/25/apple-macbook-ipad-price-hike-memory.html??ref=aftermath.site"><u>an Apple representative said in a statement to press</u></a>. “The rapid expansion of AI data centers has created an extraordinary surge in demand for memory and storage.</p><p>Valve's new Steam Machine will launch at a price over $1,000, thanks to the shortage. <a href="https://youtu.be/66QzlDewigE?si=5wDI8hdkY0JWqD6w&amp;t=788&amp;ref=aftermath.site"><u>A Valve employee told Gamers Nexus</u></a> in June that the DRAM producers give Valve a price and it must take it or leave it.&nbsp;</p><p>"It's yes or no," the Valve employee said. "And if we say no, then they never talk to us again."</p><p>The next major step for the current lawsuit is for the plaintiffs to argue for class action status. A judge must first certify a class of consumers before moving forward.</p>
+    </article></div><br/><br/>https://aftermath.site/samsung-micron-antitrust-price-fixing-lawsuit/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[Uncharted PS5 remake scrapped by Naughty Dog, it’s claimed]]></title>
             <link>https://www.thesixthaxis.com/2026/06/29/uncharted-ps5-remake-scrapped-by-naughty-dog-its-claimed/</link>
@@ -205,7 +497,7 @@
             <title><![CDATA['60fps Feels Like a Bridge Too far' — Tech Experts Cast Doubt on Those GTA 6 Quality and Performance Mode 'Leaks']]></title>
             <link>https://www.ign.com/articles/60fps-feels-like-a-bridge-too-far-tech-experts-cast-doubt-on-those-gta-6-quality-and-performance-mode-leaks</link>
             <guid>1564168</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><section data-cy="article-content" data-autopogo="true"><p data-cy="paragraph">You might have seen reports doing the rounds that <a data-cy="styled-link" href="https://www.ign.com/games/grand-theft-auto-vi">GTA 6</a> will come with a mode that lets you play it at 60 frames per second, based on retailer listings that have emerged online. Well, like so many things around Rockstar’s upcoming gaming behemoth, do not believe everything you read.</p><p data-cy="paragraph">The tech experts at <a href="https://www.digitalfoundry.net/news/2026/06/df-weekly-the-gta-6-60fps-debate-returns-is-there-a-route-forward-on-current-gen-consoles-like-series-x-ps5-or-ps5-pro" data-cy="styled-link" target="_blank" rel="noopener noreferrer">Digital Foundry</a> have said there’s nothing they’ve seen of GTA 6 so far — including the recently released screenshots and brief video clips — that suggests a 60fps mode is possible on the current generation of consoles, although of course Rockstar has yet to make anything official.</p><p data-cy="paragraph">“Unfortunately, the level of detail evident in the trailer, preorder screenshots and other, more recent footage seems extremely challenging to scale down in a way that allows for a 60fps mode,” DF’s Will Judd said.</p><output data-cy="article-slideshow"><span data-cy="slideshow-view-trigger"><div data-cy="slideshow-preview"><h3 data-cy="slideshow-preview-title">GTA 6 Ultimate Edition Screenshots</h3></div></span></output><p data-cy="paragraph">That assessment is based on the established demands that games heavy on simulation have on the CPUs of the nearly six-year-old consoles (“the GTA 6 world looks another level of magnitude more challenging than the likes of Dragon's Dogma 2 or Baldur's Gate 3”). With GTA 6 this is an even tougher challenge because of the speed you can move around the open world. DF predicts 30fps for GTA 6 across the consoles, saying “60fps feels like a bridge too far.”</p><p data-cy="paragraph">Even the more powerful PS5 Pro would struggle to output GTA 6 at 60fps, DF suggests, because it only offers “a fractional CPU performance bump” over base PS5 (the Pro is more more about improved Ray Tracing and support for PSSR upscaling than it is higher framerate). At best, DF suggests a 40fps mode could be possible on PS5 Pro, but again, that’s unconfirmed for now.</p><p data-cy="paragraph">And it's worth noting Rockstar’s own release history suggests 60fps isn’t happening for GTA 6. GTA 4, GTA 5 and Red Dead Redemption 2 all launched at 60fps on console, with the focus on fidelity at 30fps. The developer just doesn't tend to release games built around delivering 60fps.</p><output data-cy="article-video"></output><p data-cy="paragraph">A supposed quality and performance mode isn't the only questionable gta 6 rumor doing the rounds. Over the weekend, we reported on <a data-cy="styled-link" href="https://www.ign.com/articles/no-there-is-no-gta-6-physical-disc-coming-out-at-launch-or-the-months-after-those-reports-and-social-media-posts-are-incorrect">viral social media posts and articles that claimed a physical disc copy of GTA 6 was in the works</a>, all of which turned out to be untrue. Why has Rockstar decided not to go with a disc version of GTA 6, risking angering core gamers in the process? There are a number of reasons, analysts told IGN this week, <a data-cy="styled-link" href="https://www.ign.com/articles/no-gta-6-disc-decision-will-make-some-gamers-angry-but-analysts-say-commercially-it-just-makes-sense">and they all make commercial sense</a>. Meanwhile, <a data-cy="styled-link" href="https://www.ign.com/articles/some-retailers-are-refusing-to-sell-gta-6-due-to-the-lack-of-a-disc">some retailers are refusing to sell GTA 6 because the physical version lacks a disc</a>.</p><p data-cy="paragraph">Last week, <a data-cy="styled-link" href="https://www.ign.com/articles/ign-poll-reveals-70-plan-to-buy-the-gta-6-ultimate-edition-over-the-standard-edition-which-begs-the-question-is-gta-6-effectively-the-first-100-video-game">IGN reported on the results of our own poll</a> where we asked if you’re going to buy the $100 Ultimate Edition or the $80 Standard Edition. Somewhat surprisingly, over 70% of you intend to buy the more expensive version.</p><p data-cy="paragraph">GTA 6 releases on PS5 and Xbox Series X and S on November 19, 2026.</p><span data-cy="poll-view-trigger"></span><p data-cy="paragraph"><em>Wesley is Director, News at IGN. Find him on Twitter at @wyp100. You can reach Wesley at wesley_yinpoole@ign.com or confidentially at wyp100@proton.me.</em></p></section><div><h3 data-cy="title3"><svg data-cy="icon-logo" viewBox="0 0 76 24" title="IGN"><title>IGN Logo</title><path fill="currentColor" stroke="none" d="M5.38 7.65a7.85 7.85 0 0 1 2.26-2.26c.13-1.18.31-2.26.52-3.21a10.605 10.605 0 0 0-6 6c.95-.22 2.03-.39 3.21-.52M16.34 5.36v.02c.9.59 1.67 1.37 2.27 2.27 1.18.13 2.26.31 3.21.52a10.627 10.627 0 0 0-6.02-6.01c.22.95.4 2.02.54 3.2M7.64 18.62c-.9-.59-1.67-1.37-2.27-2.27h-.03c-1.19-.14-2.26-.32-3.19-.54 1.07 2.75 3.26 4.95 6.01 6.02-.22-.95-.39-2.03-.52-3.21M18.64 16.35h-.03c-.59.9-1.37 1.67-2.27 2.27v.03c-.14 1.17-.32 2.25-.54 3.19a10.59 10.59 0 0 0 6.03-6.03c-.94.22-2 .4-3.19.54M10.04 0h3.9c.85 1.85 1.2 4.59 1.3 5.52.04.22.06.43.06.63L12 9.11 8.7 6.15c0-.17.02-.35.05-.55.1-.95.43-3.75 1.29-5.61M8.7 17.83c0 .17.02.35.05.55.1.95.43 3.75 1.29 5.61h3.9c.85-1.84 1.2-4.59 1.3-5.52.04-.22.06-.43.06-.64L12 14.87l-3.3 2.96ZM6.16 8.68c-.17 0-.35.02-.55.05-.95.12-3.75.45-5.61 1.31v3.9c1.84.85 4.59 1.19 5.52 1.3.22.04.43.06.64.06L9.11 12 6.16 8.7ZM24 10.02c-1.86-.86-4.66-1.19-5.61-1.29-.2-.03-.38-.05-.55-.05l-2.96 3.3 2.96 3.3c.2 0 .41-.02.64-.06.93-.11 3.68-.45 5.52-1.3v-3.9Z"></path><path fill="currentColor" stroke="none" d="M42.83 13.9V10h10.45c1.06 0 1.93.86 1.93 1.92v4.63c0 2.38-1.91 4.36-4.33 4.36h-6.69c-4.96 0-8.97-4-8.97-8.94s4.04-8.95 8.98-8.95h10.36v4.11H44.2c-2.67 0-4.86 2.17-4.86 4.84s2.16 4.83 4.86 4.83h6.91v-2.91h-8.27ZM33.86 3h-4.07v16.02c0 1.05.86 1.91 1.91 1.91h2.15V3M74.37 3.01h-2.18v13.81s0 .08-.03.11a.29.29 0 0 1-.24.14c-.09 0-.16-.04-.25-.15L64.83 4.93a4.347 4.347 0 0 0-3.72-2.11h-.07c-2.39 0-4.32 1.93-4.32 4.32v11.88c0 1.05.86 1.91 1.91 1.91h2.17V7.14s.02-.09.04-.13a.29.29 0 0 1 .24-.14c.09 0 .18.03.24.14l6.88 12.07c.76 1.27 2.12 2.05 3.69 2.05h.07c2.39 0 4.32-1.93 4.32-4.32V4.92c0-1.05-.85-1.91-1.91-1.91"></path></svg>Recommends</h3></div></div><div><h3 data-cy="object-summary-embed-title">In This Article</h3></div></div><br/><br/>https://www.ign.com/articles/60fps-feels-like-a-bridge-too-far-tech-experts-cast-doubt-on-those-gta-6-quality-and-performance-mode-leaks]]></content:encoded>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><section data-cy="article-subtitle" data-autopogo="true"><p data-cy="paragraph">You might have seen reports doing the rounds that <a data-cy="styled-link" href="https://www.ign.com/games/grand-theft-auto-vi">GTA 6</a> will come with a mode that lets you play it at 60 frames per second, based on retailer listings that have emerged online. Well, like so many things around Rockstar’s upcoming gaming behemoth, do not believe everything you read.</p><p data-cy="paragraph">The tech experts at <a href="https://www.digitalfoundry.net/news/2026/06/df-weekly-the-gta-6-60fps-debate-returns-is-there-a-route-forward-on-current-gen-consoles-like-series-x-ps5-or-ps5-pro" data-cy="styled-link" target="_blank" rel="noopener noreferrer">Digital Foundry</a> have said there’s nothing they’ve seen of GTA 6 so far — including the recently released screenshots and brief video clips — that suggests a 60fps mode is possible on the current generation of consoles, although of course Rockstar has yet to make anything official.</p><p data-cy="paragraph">“Unfortunately, the level of detail evident in the trailer, preorder screenshots and other, more recent footage seems extremely challenging to scale down in a way that allows for a 60fps mode,” DF’s Will Judd said.</p><output data-cy="article-slideshow"><span data-cy="slideshow-view-trigger"><div data-cy="slideshow-preview"><h3 data-cy="slideshow-preview-title">GTA 6 Ultimate Edition Screenshots</h3></div></span></output><p data-cy="paragraph">That assessment is based on the established demands that games heavy on simulation have on the CPUs of the nearly six-year-old consoles (“the GTA 6 world looks another level of magnitude more challenging than the likes of Dragon's Dogma 2 or Baldur's Gate 3”). With GTA 6 this is an even tougher challenge because of the speed you can move around the open world. DF predicts 30fps for GTA 6 across the consoles, saying “60fps feels like a bridge too far.”</p><p data-cy="paragraph">Even the more powerful PS5 Pro would struggle to output GTA 6 at 60fps, DF suggests, because it only offers “a fractional CPU performance bump” over base PS5 (the Pro is more more about improved Ray Tracing and support for PSSR upscaling than it is higher framerate). At best, DF suggests a 40fps mode could be possible on PS5 Pro, but again, that’s unconfirmed for now.</p><p data-cy="paragraph">And it's worth noting Rockstar’s own release history suggests 60fps isn’t happening for GTA 6. GTA 4, GTA 5 and Red Dead Redemption 2 all launched at 60fps on console, with the focus on fidelity at 30fps. The developer just doesn't tend to release games built around delivering 60fps.</p><output data-cy="article-video"></output><p data-cy="paragraph">A supposed quality and performance mode isn't the only questionable gta 6 rumor doing the rounds. Over the weekend, we reported on <a data-cy="styled-link" href="https://www.ign.com/articles/no-there-is-no-gta-6-physical-disc-coming-out-at-launch-or-the-months-after-those-reports-and-social-media-posts-are-incorrect">viral social media posts and articles that claimed a physical disc copy of GTA 6 was in the works</a>, all of which turned out to be untrue. Why has Rockstar decided not to go with a disc version of GTA 6, risking angering core gamers in the process? There are a number of reasons, analysts told IGN this week, <a data-cy="styled-link" href="https://www.ign.com/articles/no-gta-6-disc-decision-will-make-some-gamers-angry-but-analysts-say-commercially-it-just-makes-sense">and they all make commercial sense</a>. Meanwhile, <a data-cy="styled-link" href="https://www.ign.com/articles/some-retailers-are-refusing-to-sell-gta-6-due-to-the-lack-of-a-disc">some retailers are refusing to sell GTA 6 because the physical version lacks a disc</a>.</p><p data-cy="paragraph">Last week, <a data-cy="styled-link" href="https://www.ign.com/articles/ign-poll-reveals-70-plan-to-buy-the-gta-6-ultimate-edition-over-the-standard-edition-which-begs-the-question-is-gta-6-effectively-the-first-100-video-game">IGN reported on the results of our own poll</a> where we asked if you’re going to buy the $100 Ultimate Edition or the $80 Standard Edition. Somewhat surprisingly, over 70% of you intend to buy the more expensive version.</p><p data-cy="paragraph">GTA 6 releases on PS5 and Xbox Series X and S on November 19, 2026.</p><span data-cy="poll-view-trigger"></span><p data-cy="paragraph"><em>Wesley is Director, News at IGN. Find him on Twitter at @wyp100. You can reach Wesley at wesley_yinpoole@ign.com or confidentially at wyp100@proton.me.</em></p></section></div><br/><br/>https://www.ign.com/articles/60fps-feels-like-a-bridge-too-far-tech-experts-cast-doubt-on-those-gta-6-quality-and-performance-mode-leaks]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
         <item>
@@ -584,7 +876,7 @@
 
 
 
-<p><strong>On a related note, what's the sentiment inside Moon Studios on <a href="https://wccftech.com/roundup/nvidia-dlss-5/" type="link" id="https://wccftech.com/roundup/nvidia-dlss-5/" target="_blank" rel="noreferrer noopener">NVIDIA DLSS 5</a>? Would you use it once available?</strong></p>
+<p><strong>On a related note, what's the sentiment inside Moon Studios on NVIDIA DLSS 5? Would you use it once available?</strong></p>
 
 
 
@@ -729,239 +1021,6 @@ His passion for technology also makes him knowledgeable when it comes to gaming 
 
         
   </div></div><br/><br/>https://www.rockpapershotgun.com/valve-dropped-that-steam-machine-companion-cube-case-down-the-legal-incinerator-after-its-makers-neglected-to-get-their-permission]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Dave the Diver iOS and Android Release Confirmed]]></title>
-            <link>https://insider-gaming.com/dave-the-diver-ios-and-android-release-confirmed/</link>
-            <guid>1564048</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-        
-<p>Dave the Diver’s developers have confirmed that the title will be available on mobile soon; pre-registrations are now live. </p>
-
-
-
-<p>Fans of Dave the Diver have been treated to numerous surprises this month. The new DLC, In the Jungle, was released, and Dave has also made his way into Fortnite. But that’s not all; the developers have one final announcement regarding a platform expansion for this popular title.</p>
-
-
-
-
-
-
-
-<h2 id="h-dave-the-diver-ios-listing-seemingly-reveals-mobile-release-date">Dave the Diver iOS Listing Seemingly Reveals Mobile Release Date</h2>
-
-
-
-<p>The iOS and Android <a href="https://apps.apple.com/us/app/dave-the-diver/id6759962259" target="_blank" rel="noreferrer noopener nofollow">listings</a> for Dave the Diver are already out for players to pre-register for the game. However, it seems the game’s release date has been revealed in the iOS listing, as it states that the game is ‘Expected’ on August 27, 2026. The game will be available to download for free, but the full version will cost $9.99. </p>
-
-
-
-<p>The iOS listing also provides several other details for the game, such as the size, which will be 3.3 GB. Players have also been informed of the compatibility requirements: for iPhone, iPad, and iPod, they will need iOS 13.0 or later. Mac users would require macOS 11.0 with the Apple M1 chip or later, and it’s also supported on the Apple Vision headset, which requires visionOS 1.0 or later. </p>
-
-
-
-<p>For those unaware, in Dave the Diver, players dive and explore the depths of Blue Hole during the day and run an exotic sushi restaurant at night. The Blue Hole depths are filled with a variety of mysteries, along with several fish to catch and creatures to encounter. You will also have several weapons at your disposal, but keep an eye on the oxygen meter, as once it runs out, all collected items will be left behind. </p>
-
-
-
-<p>The title features some intriguing characters that accompany a story filled with jokes, spoofs, and other humor. It features a pixel-based art style with over 200 kinds of sea creatures. There are also minigames, side quests, and multiple storylines that players can explore in the game. </p>
-
-
-
-<figure><p>
-<iframe title="DAVE THE DIVER | Official Launch Trailer" width="500" height="281" src="https://www.youtube.com/embed/p85VHMpE0to?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-</p></figure>
-
-
-
-
-
-
-
-<p>What are your thoughts on Dave the Diver coming to Android and iOS? Leave your thoughts down in the comments, and join the official&nbsp;<a href="https://discord.com/invite/vwj7zdWxaW" target="_blank" rel="noreferrer noopener">Insider Gaming Discord server</a>.</p>
-
-
-
-<hr>
-
-
-
-<p>For more information from Insider Gaming, read about&nbsp;<a href="https://insider-gaming.com/new-cyberpunk-edgerunners-2-teaser-reveals-release-window/" target="_blank" rel="noreferrer noopener">the new Cyberpunk Edgerunners 2 teaser revealing the release window</a>.&nbsp;Don’t forget to&nbsp;<a href="https://insider-gaming.com/subscribe" target="_blank" rel="noreferrer noopener">sign up for our weekly newsletter</a>.</p>
-
-
-        
-            
-
-    <div id="ig-app-cta">
-          <p><i></i> MOBILE APP</p>
-          <h2>Level Up Your Gaming News</h2>
-          <p>Real-time news, exclusive podcasts, push alerts, and a better reading experience.</p>
-          
-          <p><i></i> Available on iOS &amp; Android</p>
-        <!-- <div class="ig-note"><i class="fa-solid fa-bolt"></i> Available on Android</div> -->
-
-        </div>
-
-    
-    
-    </div></div><br/><br/>https://insider-gaming.com/dave-the-diver-ios-and-android-release-confirmed/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Sentimental Graffiti Re announced]]></title>
-            <link>https://www.gematsu.com/2026/06/sentimental-graffiti-re-announced</link>
-            <guid>1564045</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div role="main">
-  
-  <article>
-
-    
-<header>
-
-  <div>
-
-    <ul>
-        </ul>
-
-    
-    <p><span>A remake of the 1998 dating simulation game.</span>
-      </p></div>
-
-  
-
-</header>  
-
-<!-- Moved from templates/posts/default.php -->
-
-    <div><p><a title="Companies > Entergram [209 articles]" href="https://www.gematsu.com/companies/entergram">Entergram</a> has <a href="https://twitter.com/entergram_info/status/2071194399766438339" target="_blank" rel="noopener">announced</a> <em><a title="Games > Sentimental Graffiti Re" href="https://www.gematsu.com/games/sentimental-graffiti-re">Sentimental Graffiti Re</a></em>, a remake of the 1998-released Saturn dating simulation game <em>Sentimental Graffiti</em>. Platforms and a release date were not announced. <span id="more-1061735"></span></p><p>The game’s currently revealed cast is as follows:</p><ul><li>Honoka Sawatari (voiced by Mirai Tachibana)</li><li>Emiru Nagakura (voiced by Tsubaki Makino)</li><li>Wakana Ayasaki (voiced by Koharu Miyazawa)</li><li>Kaho Morii (voiced by Moka Hinata)</li><li>Manami Sugihara (voiced by Kokona <a title="Companies > Natsume [123 articles]" href="https://www.gematsu.com/companies/natsume">Natsume</a>)</li><li>Chie Matsuoka (voiced by Kanata Aikawa)</li></ul><p>Voice actors for Taeko Adachi, Asuka Hoshino, Miyuki Hosaka, Rurika Yamamoto, Akira Endou, and Yuu Nanase will be determined via audition.</p></div>
-
-        
-    
-  </article>
-</div></div><br/><br/>https://www.gematsu.com/2026/06/sentimental-graffiti-re-announced]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[PlayStation Will Remove Hundreds Of Purchased Movies And TV Shows From User Libraries In September]]></title>
-            <link>https://gameinformer.com/2026/06/29/playstation-will-remove-hundreds-of-purchased-movies-and-tv-shows-from-user-libraries-in</link>
-            <guid>1564042</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div property="schema:text"><p>Sony has announced it is removing hundreds of purchased movies and TV Shows by Studio Canal from players' digital libraries. This will begin September 1, with Sony citing seemingly expiring content licensing agreements as the reason.</p><p>You can view the full, lengthy list of content being removed from players’ PlayStation digital libraries by checking out <a href="https://www.playstation.com/en-gb/legal/psvideocontent/">Sony’s announcement post</a> published on Friday, June 26, which succintly reads "From September 1, 2026, due to our content licensing agreements, you will no longer be able to access your previously purchased content from Studio Canal, and it will be removed from your video library." The news first attracted attention thanks to a social media post by user <a href="https://x.com/somatyk/status/2069938884973117549">somatyk</a>, who shared a message sent by the PlayStation Store to users notifying them that their purchased content would soon become unavailable.&nbsp;</p><p>Notable films listed include <em>Apocalypse Now: The Final Cut</em>, <em>The Evil Dead</em>, <em>Evil Dead 2</em>, <em>From Dusk Till Dawn</em>, <em>Hot Fuzz</em>, <em>Inside Llewyn Davis</em>, <em>Moonrise Kingdom</em>, <em>Paddington 2</em>, <em>Pan’s Labyrinth</em>, the first three First Blood/Rambo films, <em>Sharknado</em>, <em>Silver Linings Playbook</em>, <em>Terminator 2: Judgment Day</em>, <em>This Is Spinal Tap</em>, and <em>Train to Busan</em>.&nbsp;TV shows include <em>American Gods</em>,<em> The Young Pope</em>, and <em>Trust Me.&nbsp;</em></p><p>The post makes no mention of refunds, so players will not be compensated for losing access to films/shows they paid for. PlayStation <a href="https://gameinformer.com/2021/03/02/playstation-store-will-no-longer-offer-movie-and-tv-sales-or-rentals">ceased the sale and rental of movies/TV shows</a> in 2021, so while players have been unable to buy or rent such media for years now, they could still access previously purchased content. However, as noted by <a href="https://www.videogameschronicle.com/news/sony-is-deleting-over-550-purchased-movies-from-ps5-users-digital-libraries/"><em>Video Games Chronicle</em></a>, PlayStation’s End User Agreement, as with most digital storefronts, states that users purchase licenses to view content, which can be removed upon the expiry of licensing agreements.&nbsp;</p></div></div><br/><br/>https://gameinformer.com/2026/06/29/playstation-will-remove-hundreds-of-purchased-movies-and-tv-shows-from-user-libraries-in]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[It's Looking Likely That Switch 2 Will Have A Handheld PS6 Competitor]]></title>
-            <link>https://www.nintendolife.com/news/2026/06/its-looking-likely-that-switch-2-will-have-a-handheld-ps6-competitor</link>
-            <guid>1564021</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="body">
-<article id="article">
-<header><section>
-<p>That'll be $1 bajillion, please</p>
-</section></header><div><section>
-<figure data-uuid="6853a9937691a"><a title="Switch 2 / Vita" href="https://images.nintendolife.com/6853a9937691a/switch-2-vita.large.jpg"></a><figcaption><em><span></span> Image: Ollie Reynolds / Nintendo Life</em></figcaption></figure><p>Despite component prices ramping up globally and consoles receiving unsavoury price hikes as a result, rumours persist of a potential PlayStation 6 in the next couple of years.</p>
-<p>Now, in a new <a href="https://shop-links.co/link/?url=https%3A%2F%2Fwww.sony.com%2Fen%2FSonyInfo%2FIR%2Flibrary%2Fpresen%2Fbusiness_segment_meeting%2Fpdf%2F2026%2FGNS_QA_E.pdf&amp;publisher_slug=nintendolife&amp;article_name=It%27s+Looking+Likely+That+Switch+2+Will+Have+A+Handheld+PS6+Competitor&amp;article_url=https%3A%2F%2Fwww.nintendolife.com%2Fnews%2F2026%2F06%2Fits-looking-likely-that-switch-2-will-have-a-handheld-ps6-competitor&amp;exclusive=1" rel="sponsored noopener">Q&amp;A session</a> with Sony Interactive Entertainment president and CEO, Hideaki Nishino (thanks, <a href="https://www.ign.com/articles/will-ps6-be-like-a-nintendo-switch-sony-says-its-next-gen-console-will-enable-a-seamless-experience-that-can-be-enjoyed-naturally-beyond-the-living-room">IGN</a>), it's sounding more likely than ever that the company's next-gen system will have some sort of handheld format.</p>
-<p>When asked how PlayStation can bring back players who have migrated over to PC, Nishino-san stated that Sony's goal with the PS6 is to provide "a seamless experience that can be enjoyed naturally beyond the living room". It's a pretty vague statement, to be sure, but with all of the rumours surrounding a potential new handheld PlayStation, it makes perfect sense to us.</p>
-<p>Here's his comment in full:</p>
-<blockquote>
-<p>"PlayStation has long been strongly associated with the idea of playing in the living room. However, in recent years, more users globally have been using personal monitors. In response, we are selling peripherals such as monitors and speakers to break away from the fixed perception that “PlayStation equals the living room” and to broaden usage scenarios.</p>
-<p>"For the next-generation platform, rather than simply serving as an alternative to PCs, we aim to deliver value that is unique to PlayStation. This includes not only technological advancements but also an expansion of usage styles, enabling a seamless experience that can be enjoyed naturally beyond the living room."</p>
-</blockquote>
-<p>As Nishiro-san mentions, Sony is already offering a <a href="https://sonyps.prf.hn/click/camref:1011l3Z2A4/[p_id:1100l521034]/destination:https%3A%2F%2Fdirect.playstation.com%2Fen-us%2Fbuy-accessories%2F27-gaming-monitor-with-dualsense-charging-hook%3Fsmcid%3Dpdc%3Aus-en%3Aweb-pdc-accessories-27-inch-gaming-monitor%3Abuttonblock-pre-order-now" rel="sponsored noopener">gaming monitor</a> for pre-order to try and capture the interest of the PC market, but it's really that last part that's got people talking. Considering the surprise success of the PlayStation Portal, it really wouldn't surprise us if Sony is looking to compete more directly with the Switch 2 with its own handheld.</p>
-<p>We'll have to wait and see for sure. Even if it does come to fruition, we shudder to think of how much it will cost. <a href="https://www.pushsquare.com/news/2026/06/rumour-ps6-costs-sony-almost-usd1000-to-make-right-now">Recent rumours</a> suggest that the PS6 is currently costing Sony around $1,000 to assemble, so even if it's sold at a loss at launch, we're looking at some pretty gross prices.</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-articles:193767,187208 @ 1782758744 -->
-<p><em>Would you be interested in a handheld PS6? Could it potentially encroach on the Switch 2's territory? Let us know with a comment.</em></p>
-<p>Please note that some external links on this page are affiliate links, which means if you click them and make a purchase we may receive a small percentage of the sale. Please read our <a rel="nofollow" href="https://www.nintendolife.com/advertising">FTC Disclosure</a> for more information.</p></section>
-<p>[source <a title="External Link: https://www.sony.com/en/SonyInfo/IR/library/presen/business_segment_meeting/pdf/2026/GNS_QA_E.pdf" rel="noopener" href="https://shop-links.co/link/?url=https%3A%2F%2Fwww.sony.com%2Fen%2FSonyInfo%2FIR%2Flibrary%2Fpresen%2Fbusiness_segment_meeting%2Fpdf%2F2026%2FGNS_QA_E.pdf&amp;publisher_slug=nintendolife&amp;article_name=It%27s+Looking+Likely+That+Switch+2+Will+Have+A+Handheld+PS6+Competitor&amp;article_url=https%3A%2F%2Fwww.nintendolife.com%2Fnews%2F2026%2F06%2Fits-looking-likely-that-switch-2-will-have-a-handheld-ps6-competitor&amp;exclusive=1">sony.com</a>]</p>
-<!-- cache: html:nintendolife.com/ssl/nintendo-switch-2/related-info/d41d8cd98f00b204e9800998ecf8427e @ 1782760849 --></div></article><div><p>Nintendo Life’s resident horror fanatic, when he’s not knee-deep in Resident Evil and Silent Hill lore, Ollie likes to dive into a good horror book while nursing a lovely cup of tea. He also enjoys long walks and listens to everything from TOOL to Chuck Berry.</p><ul><li><a href="https://www.nintendolife.com/authors/Olliemar28"><span></span> Author Profile</a></li><li><a href="https://bsky.app/profile/ollie-nl.bsky.social"><span></span> Bluesky</a></li><li><a onclick="return replyTo('Olliemar28');" href="https://www.nintendolife.com/#"> Reply</a></li></ul>
-</div></div></div><br/><br/>https://www.nintendolife.com/news/2026/06/its-looking-likely-that-switch-2-will-have-a-handheld-ps6-competitor]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Dbrand cancels Companion Cube because it didn’t actually ask Valve for permission]]></title>
-            <link>https://www.theverge.com/games/959056/dbrand-steam-machine-companion-cube-valve-take-down-canceled</link>
-            <guid>1564018</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div><div><p><span aria-expanded="false" aria-haspopup="true" role="button" tabindex="0"><span id="follow-author-standard_article_details-dmcyOmF1dGhvclByb2ZpbGU6MTIz"><span><span><svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Follow"><path d="M5 0H4V4H0V5H4V9H5V5H9V4H5V0Z"></path></svg></span></span><span>Jay Peters</span></span></span></p> <p><span>is a senior reporter covering technology, gaming, and more. He joined The Verge in 2019 after nearly two years at Techmeme.</span></p></div><div id="zephr-anchor"><p>Dbrand <a href="https://www.reddit.com/r/dbrand/comments/1uivg8m/rip_companion_cube/">announced Monday</a> that it’s refunding everyone who bought its Steam Machine Companion Cube, which it said it made “without a license from Valve.” Dbrand announced the <em>Portal</em>-themed Steam Machine accessory <a href="https://www.theverge.com/news/819863/dbrand-companion-cube-valve-steam-machine-skin">in November</a> and took preorders for it <a href="https://www.theverge.com/games/953400/dbrand-just-opened-preorders-for-its-steam-machine-companion-cube">last Monday</a>. But a few days later, the product <a href="https://www.theverge.com/games/958369/where-did-dbrands-steam-machine-companion-cube-go">had disappeared</a> from the company’s website and the teaser video promoting it had been made private after Valve contacted the company.</p><p>Dbrand says that the Companion Cube became “the second-fastest selling product in our 15-year history, behind only the Switch 2 Killswitch” after it opened preorders on June 22nd. However, Valve’s legal team reached out to Dbrand and “requested we take down the product and launch film immediately. This was entirely within their rights, and they were direct, fair, and respectful throughout.”</p><p>Dbrand says it complied and made an appeal to be able to make an officially licensed version, but Valve said no. “Given our backwards approach of building first and asking permission later, it was a fair answer,” according to Dbrand.</p><p>Refunds will be issued starting today. “To Valve: thank you for Portal, and sorry for the headache,” Dbrand says. “We should’ve asked first.”</p><div><p><span><strong>Follow topics and authors</strong> from this story to see more like this in your personalized homepage feed and to receive email updates.</span></p><ul><li id="follow-author-article_footer-dmcyOmF1dGhvclByb2ZpbGU6MTIz"><span aria-expanded="false" aria-haspopup="true" role="button" tabindex="0"><span><span><svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Follow"><path d="M5 0H4V4H0V5H4V9H5V5H9V4H5V0Z"></path></svg></span><span>Jay Peters</span></span></span></li><li></li><li></li><li></li><li></li></ul></div></div></div></div><br/><br/>https://www.theverge.com/games/959056/dbrand-steam-machine-companion-cube-valve-take-down-canceled]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA["Everybody got the rug pulled out from under them": Xbox are putting third-party Game Pass deals "on pause", claims publishing veteran]]></title>
-            <link>https://www.rockpapershotgun.com/everybody-got-the-rug-pulled-out-from-under-them-xbox-are-putting-third-party-game-pass-deals-on-pause-claims-publishing-veteran</link>
-            <guid>1564015</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-      <article data-ads="true" data-article-type="news" data-article-group="news" data-paywalled="false" data-premium="false" data-sponsored="false" data-type="article">
-
-
-<header data-component="article-header">
-  
-
-    <div id="main-content">
-  
-
-        <p>Former Splash Damage and Modern Wolf exec shares some tradeshow gossip</p>
-
-    </div>
-
-
-  <p>
-
-  <figure>
-        <picture>
-        <source srcset="https://assetsio.gnwcdn.com/gamepass_uqupgst.jpg?width=380&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/gamepass_uqupgst.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/gamepass_uqupgst.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/gamepass_uqupgst.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 2dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/gamepass_uqupgst.jpg?width=380&amp;quality=85&amp;format=jpg&amp;dpr=3&amp;auto=webp" media="(max-width: 549px) and (max-resolution: 3dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/gamepass_uqupgst.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/gamepass_uqupgst.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.5&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.5dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/gamepass_uqupgst.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=1.75&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 1.75dppx)">
-        <source srcset="https://assetsio.gnwcdn.com/gamepass_uqupgst.jpg?width=690&amp;quality=85&amp;format=jpg&amp;dpr=2&amp;auto=webp" media="(min-width: 550px) and (max-resolution: 2dppx)">
-        
-      </picture>
-
-        <figcaption>
-          <span>Image credit: <cite>Microsoft</cite></span>
-        </figcaption>
-
-  </figure>
-  </p>
-
-    
-
-</header>
-  <div data-component="article-content">
-
-
-            <p>Microsoft are easing off on third-party game deals for the Xbox Game Pass subscription service, according to one fairly seasoned industry figure, while they "figure out" <a href="https://www.rockpapershotgun.com/we-have-found-ourselves-over-extended-new-xbox-ceo-says-amid-reports-of-plans-for-major-job-cuts">what to do with their gaming business in general</a>.</p>
-<p>The seasoned industry figure in question is Fernando Rizo - partner at London-based consultancy Caboodle Games, former CEO of publishers Modern Wolf, and former director of marketing and business development at venerable shooter outfit Splash Damage. Rizo <a href="https://thebusinessofvideogamespodcast.podbean.com/e/episode-59-basically-institutionalized-crunch/">co-hosts a podcast</a> with Shams Jorjani, CEO of <a href="https://www.rockpapershotgun.com/games/helldivers">Helldivers</a> developers Arrowhead. During the pod's latest episode, he offered a summary of conversations with unnamed devs at Italy's <a href="https://iideassociation.com/en/events/first-playable/">First Playable</a> trade show.</p>
-<p>"I was at a trade show in Italy, had some nice lunches, some nice dinners with industry colleagues," Rizo expounded, "and word on the street was that loads of people who were in the frame for Game Pass deals - i.e., you know, nothing was inked yet, but the deals were in advanced discussions - everybody got the rug pulled out from under them."</p>
-<p>Assuming the scuttlebutt is on the money, it could be a routine suspension of negotiations ahead of a round of larger business decisions and announcements - the end of Microsoft's financial year is tomorrow, 30th June. It could also represent a longer-term policy shift. Game Pass has been Microsoft's great hope these past few years, a widely touted 'Netflix of gaming' offering access to both first-party games and a range of more eccentric projects from smaller third-party teams.</p><p>While <a href="https://x.com/Chris_Dring/status/1942469649423052857">reportedly profitable</a> with millions of subscribers, Game Pass doesn't appear to be as popular as Microsoft would like. And certainly, not as popular as they would like in the context of <a href="https://www.rockpapershotgun.com/is-microsofts-69-billion-activision-blizzard-deal-paying-off-xbox-boss-asha-sharma-says-its-hard-to-say-how-to-think-about-those-decisions">some exorbitant studio acquisitions</a>, and a commercial landscape distorted by <a href="https://www.rockpapershotgun.com/cd-projekt-boss-knows-for-a-fact-a-surge-of-games-made-purely-with-generative-ai-are-coming-but-doubts-whether-this-is-really-the-path-to-follow">enormous investment in generative AI</a>. Recently, Microsoft decided to <a href="https://www.rockpapershotgun.com/call-of-duty-wont-hit-xbox-game-pass-at-launch-going-forwards-as-microsofts-subscription-service-gets-a-price-cut">stop offering Call of Duty games via Game Pass at launch</a>, while lowering the price - a sign that whatever they're getting from Game Pass isn't enough to offset potential lost direct sales from the rampaging manshoot series.</p>
-<p>Rizo himself doesn't think "Game Pass is over", but he does think there will be a hiatus on new third party games for the subscription service, while Microsoft busy themselves <a href="https://www.rockpapershotgun.com/south-of-midnight-studio-compulsion-games-are-allowing-staff-to-openly-seek-new-jobs-ahead-of-possible-xbox-layoffs-according-to-report">laying people off</a> and potentially, <a href="https://www.rockpapershotgun.com/another-xbocalypse-begins-microsoft-are-reportedly-closing-or-spinning-off-double-fine-ninja-theory-and-compulsion">closing</a> or <a href="https://www.rockpapershotgun.com/microsoft-reportedly-only-announced-ninja-theorys-new-game-at-summer-game-fest-to-try-and-attract-a-buyer-for-the-studio">selling</a> whole studios. "I think they're on pause," he said. "I think they’re figuring it out. That’s my read anyway. But yeah, for the time being, it seems like Game Pass deals – like, we just did one at Caboodle earlier in the year, and I get the feeling that it might have been one of the last ones [anyone] did."</p>
-<p>I'd be very surprised if Microsoft don't take an axe to parts of their Game Pass programme in the course of their wider corpobutchery. The executives have made clear that nothing is off the table. That said, it's worth noting that this is all secondhand gossip. I got in touch with a few relatively senior people off the record at different videogame companies, after reading the news this morning. I've yet to receive any corroboration that MS are putting new third-party deals on ice en masse. It's possible that whoever Rizo spoke to just failed to convince MS about their game in particular.</p>
-<p>Again, Microsoft's latest financials are coming shortly. We will presumably hear more about their business "reset" then, together with the impact on Game Pass. In other news, Microsoft continue to be <a href="https://www.rockpapershotgun.com/a-culture-of-intimidation-retaliation-and-oppression-how-microsofts-gaza-stance-fuelled-an-industry-spanning-boycott">the subject of a boycott</a> in response to their business relationship with the Israeli military during the current invasion of Gaza.</p>
-
-        </div>
-
-      </article>
-
-
-
-
-        
-  </div></div><br/><br/>https://www.rockpapershotgun.com/everybody-got-the-rug-pulled-out-from-under-them-xbox-are-putting-third-party-game-pass-deals-on-pause-claims-publishing-veteran]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Unionized Workers At Xbox Respond To Layoff Reports, Say They ‘Will Not Be Treated As Disposable’]]></title>
-            <link>https://kotaku.com/unionized-workers-xbox-respond-layoff-reports-will-not-be-treated-disposable-2000711455</link>
-            <guid>1564009</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div>
-              
-              <p>Today, the Communications Workers of America (CWA) held a press conference with members of various Microsoft Xbox unions in response to <a href="https://kotaku.com/xbox-reportedly-major-layoffs-next-month-2000705023">recent reports that mass layoffs are about to hit the company</a>, where several employees from across multiple Xbox unions and different studios spoke out against both the prospect of mass layoffs themselves as well as the uncertain environment currently at the company.</p> <p>The conference was opened by the vice president for CWA District 9, Frank Arce, who condemned mass layoffs both past and potential, saying Microsoft workers “will not be treated as disposable.”</p> <p>Multiple individuals on the call argued that the layoffs were unnecessary in the first place. Arce pointed out Xbox’s recent console price hikes, saying that “The money is there, leadership is simply choosing where it goes and who pays.”</p> <p>Sherveen Uduwana, a representative of United Video Game Workers speaking in solidarity with the group, pointed out the<a href="https://www.cnbc.com/2025/10/21/microsoft-ceo-satya-nadellas-total-comp-rises-to-96point5-million.html"> $96.5 million dollar salary collected by Microsoft CEO Satya Nadella last year</a>. Mahreen Fatima, a senior environment artist on <em>Diablo 4</em>, also pointed out the <a href="https://news.microsoft.com/source/asia/2026/04/01/microsoft-announces-5-5-billion-spend-and-new-microsoft-elevate-programs-to-support-every-tertiary-student-educator-and-nonprofit-to-power-singapores-ai-future/">billions Microsoft has invested in artificial intelligence in recent years</a>, and demanded proof the company was short on money. “They’re just choosing not to protect us.”</p>
-
- <p>Microsoft Xbox has a number of different unions across its game studios, many of which have emerged since Microsoft <a href="https://cwa-union.org/news/releases/cwa-microsoft-announce-labor-neutrality-agreement">agreed to a “labor neutrality agreement”</a> back in 2022. Due to the staggering of when these unions were formed, some unions within Microsoft already have signed contracts that include layoff stipulations, but many others are still in the bargaining process. Several union members called out management for dragging its feet on contracts, particularly where it concerned cementing layoff protections. On the call, CWA members mentioned that the <em>World of Warcraft</em> union bargaining team had recently seen positive movement from management on layoff protections, which they praised. However, Zenimax union members said Microsoft has sat on their proposal for layoff protections for months with no response, while an Activision Publishing union member said their bargaining group had 20 proposals for which they were currently waiting on Microsoft’s response.</p> <p>They also emphasized that they wanted layoff protections cemented for all workers, not just the unionized ones, including advanced notice of layoffs, two years of recall rights, and hiring freezes to give existing employees chances to find new opportunities across Xbox. Andrew Snell, a QA tester in Activision Publishing, said that Xbox unions would be joining forces across their disparate teams and units to fight back against future layoffs. “We’re done paying for executives’ failures,” he said.</p>
-
- <p>While no layoffs have officially been confirmed as of yet, Xbox is <a href="https://kotaku.com/xbox-reportedly-major-layoffs-next-month-2000705023">expected to undergo a significant restructuring</a> including major personnel cuts in the coming days, after the end of its fiscal year tomorrow. Previously, we had reported that the company is <a href="https://kotaku.com/xbox-shuttering-south-of-midnight-peabody-award-compulsion-games-2000706065">preparing to shutter Compulsion Games</a>, with <a href="https://kotaku.com/psychonauts-hellblade-south-of-midnight-studios-negotiating-xbox-closure-2000706718">other reports coming in</a> about similar looming shutdowns of Double Fine and Ninja Theory, though all three studios appear to have been given the opportunity to negotiate other exit strategies. As these reports came out, we also learned that the <a href="https://kotaku.com/the-head-of-xbox-game-studios-resigns-ahead-of-mass-layoffs-2000706634">head of Xbox Game Studios, Craig Duncan, had resigned</a>.</p>
-                          </div></div><br/><br/>https://kotaku.com/unionized-workers-xbox-respond-layoff-reports-will-not-be-treated-disposable-2000711455]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>

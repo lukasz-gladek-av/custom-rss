@@ -4,9 +4,130 @@
         <title>maGaming RSS Feed - www.thesixthaxis.com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/thesixthaxis_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for www.thesixthaxis.com</description>
-        <lastBuildDate>Mon, 29 Jun 2026 19:34:10 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 29 Jun 2026 20:37:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Assetto Corsa Rally now has online multiplayer as update 0.5 releases]]></title>
+            <link>https://www.thesixthaxis.com/2026/06/29/assetto-corsa-rally-now-has-online-multiplayer-as-update-0-5-releases/</link>
+            <guid>1564249</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>Assetto Corsa Rally has received its 0.5 update as its early access release rolls along, and the big part of this update is the introduction of online multiplayer. The online multiplayer adds both official lobbies and custom lobbies that players can customise. In addition, the Assetto Corsa Rally update 0.5 also adds Greece as a new location, which has two special stages, and 12 layout variants. Check out the trailer to get the overview, and the changelog following it.</p>
+<p>https://youtu.be/6flguQeWVk4?si=-jePoispTFU4lWm-</p>
+<h2>Assetto Corsa Rally update 0.5 patch notes</h2>
+
+<ul>
+<li>New Location: Rally Greece
+<ul>
+<li>Features 2 brand-new, unique Special Stages with 12 total layout variants.</li>
+<li>Includes 22 km of high-fidelity, laser-scanned roads spanning 509 meters of elevation change.</li>
+</ul>
+</li>
+<li>Added dedicated “Rally Weekend” presets tailored specifically for Greece.</li>
+<li>New Multiplayer Online Mode featuring both official and user-generated custom lobbies.</li>
+<li>Core Physics Overhaul: Deployed a major physics update for all vehicles and terrains, highlighted by the introduction of the gravel bulldozing effect.</li>
+<li>Assetto Corsa Rally Events:
+<ul>
+<li>Added 2 new event groups featuring 24 fresh events to explore the new locations.</li>
+<li>Added 8 new snow-condition events for the Alsace and Wales regions.</li>
+</ul>
+</li>
+<li>New official partners added to the drivers’ profile sections.</li>
+</ul>
+
+<ul>
+<li>Cockpit Dynamics: Added realistic vibrations to interior cockpit elements for enhanced immersion.</li>
+<li>Bug Fixes: Resolved various vehicle-specific issues and bugs.</li>
+</ul>
+
+<ul>
+<li>New Ideal Line Feature: Supports multiple corner widths to enhance realism. The line now dynamically widens through turns. This is currently active in Greece and will expand to other stages in future updates.</li>
+<li>Comprehensive Tire Model Improvements:<br>
+Revised Peak Slip Angle Formula: Adjusted as a function of load to narrow the variation range. This increases the performance impact of the inner tire, ensuring it acts as a functional gripping tire rather than just a dragging scrub tire.</li>
+<li>Revised Load Sensitivity Formula: Enhanced stability under high loads. The formula now dynamically scales based on tire pressure and actual contact patch dimensions.</li>
+<li>Refactored Surface Recognition: Every tire now utilizes a dedicated parameter set for each surface type. Individual surfaces can also apply unique modifier overrides to these baseline sets.</li>
+<li>Revised Camber Properties: Both camber angle and camber thrust effects are now dynamically load-dependent.</li>
+<li>Revised Contact Patch Calculation: Increased sensitivity to camber angles. Excessive camber will now actively reduce longitudinal grip.</li>
+<li>Added Bulldozing Effects: Introduced longitudinal and lateral bulldozing physics on soft surfaces. Lateral bulldozing increases with tire slip and decreases with excessive camber. The overall effect scales with specific surface conditions.</li>
+<li>Experimental Stick-Slip Vibrations: Re-introduced high-grip surface vibrations.</li>
+<li>Experimental Dig-Dependent Vibrations: Re-introduced low-grip surface vibrations.</li>
+<li>Global Tuning Pass: Rebalanced all surface properties, car physics, and setup presets to align with the new physics architecture.</li>
+</ul>
+
+<ul>
+<li>Launch of Phase One: The initial phase of the online multiplayer mode is now live, introducing several core features for players.</li>
+<li>Lobby Browsing and Creation: Players can browse the active lobby list, create personal custom lobbies, or join official ACR lobbies.</li>
+<li>Game Modes: Lobbies currently support single-stage events with a maximum capacity of 16 players.</li>
+<li>Vehicle and Weather Options: Hosts can restrict car selection to all cars, the same category, or the exact same car, and freely select the weather during lobby creation.</li>
+<li>Spectating and Management: Players can join ongoing lobbies mid-match to spectate and view live results, while lobby owners can modify track and weather parameters between races.</li>
+</ul>
+
+<ul>
+<li>Community Spaces: Official Lobbies are persistent, developer-managed rooms created by Supernova that are always visible in the server browser.</li>
+<li>Dynamic Scaling: These official rooms utilize multiple active instances, ensuring there are always open slots for the community.</li>
+<li>Version 0.5 Rotation Schedule: The multiplayer launch features a rotating event calendar consisting of two weekly events and one weekend-exclusive event.</li>
+<li>Weekly Event Structure: Two standard ACR events will refresh every week, each backed by five or more active lobby instances.</li>
+<li>Weekend Event Structure: One premium ACR event will run strictly from Friday to Sunday each week, supported by five or more active lobby instances.</li>
+</ul>
+
+<ul>
+<li>Weekly Event 1: Rally 2 Greece Special Stages. Features a selection of 4 Greek tracks under clear weather conditions, restricted to Rally 2 category cars.</li>
+<li>Weekly Event 2: Mini Tarmac Festival. Features a selection of 8 tarmac tracks under clear weather conditions, restricted to the Mini Cooper S.</li>
+<li>Weekend Event: Impreza S3 Wales Light Rain. Features a selection of 4 Welsh tracks under wet and light rain conditions, restricted to the Subaru Impreza S3.</li>
+</ul>
+
+<ul>
+<li>Weekly Event 1: Alfa GTA Greece Stages. Features a selection of 4 Greek tracks under clear, sunny weather conditions, restricted to the Alfa Romeo GTA 1300 Junior.</li>
+<li>Weekly Event 2: Rally 2 Gravel Festival. Features a selection of 8 gravel tracks under clear weather conditions, restricted to Rally 2 category cars.</li>
+<li>Weekend Event: Lancia Delta Col de Turini Light Snow. Features the 2 full-length Col de Turini stages under mild snow conditions, restricted to the Lancia Delta Integrale Evo.</li>
+<li>Future Rotations: The official event schedule for the following weeks will be announced at a later date.</li>
+</ul>
+
+<ul>
+<li>Impreza S3 engine/exhaust audio updated, with improved after fire triggering.</li>
+<li>Peugeot 306 engine remixed with more induction character.</li>
+<li>Helmet mic audio option added, with further cabin camera tweaks.</li>
+<li>Removed wheels and suspension from side speakers in 7.1.</li>
+<li>Added a small amount of smoothing to engine RPM. 306 was slightly glitchy previously.</li>
+<li>More general 3d spatialization and mix improvements.</li>
+</ul>
+
+<ul>
+<li>Camera Configuration Sync: Added a global option to apply your gameplay camera layout to all vehicles simultaneously or strictly to the currently active car.</li>
+<li>Field of View (FOV) Adjustments: Increased the default FOV setting for the Cockpit and Gauge cameras across all vehicles. Note: Please double-check and readjust your custom camera configurations following this update.</li>
+</ul>
+
+<ul>
+<li>Enhanced Ideal Line Visuals: The ideal line now features realistic skid marks that flow naturally across the stage.</li>
+<li>Particle Systems: Introduced advanced particle mechanics for highly detailed, dusty gravel surfaces.</li>
+<li>Improved Particle Lighting: Refined the global lighting model to blend dust and debris particles more naturally with environmental light.</li>
+<li>Asymmetric Ideal Trajectory: Upgraded the line technology to support asymmetrical paths, allowing precise control over visual intensity and track placement. This feature is currently exclusive to the Greece stages.</li>
+</ul>
+
+<ul>
+<li>Improved streaming performance</li>
+<li>&nbsp;High-Resolution Crowds: Added new updated spectator models to the start and end zones of Munster.</li>
+<li>New Greek Content: Added the Elatia Special Stage, Loutraki Special Stage, and the Greece Service Park.</li>
+<li>Service Park Fixes: Resolved terrain flickering issues across multiple service parks.</li>
+<li>Tree Collision Fixes: Fixed missing collision data on several miscellaneous trees across various stages.</li>
+<li>Tree Duplication Fix: Removed overlapping duplicate trees, resulting in a minor performance boost.</li>
+<li>Floating Vegetation Fix: Adjusted placement data to eliminate floating grass, bushes, and trees across multiple levels.</li>
+<li>Improvements to the stages’ ideal line/trajectory: Every stage in Assetto Corsa Rally has been configured with an ideal line or trajectory, providing improved grip when driving on it than when off the line.However up until this point, this ideal line had been a fixed width, often leading to situations in corners where only one of the car’s two axles would be on the ideal line when sliding through a corner.Now, though, we have improved the system to allow for different widths.This allows corners to have a wider ideal trajectory and, in turn, widening the area of improved grip through corners.Not only that, but the visuals of this have also been improved where the skid marks and tram tracks follow the ideal line through the stage.This will be more noticeable on gravel and snow surfaces as the loose surfaces get swept, compacted and churned up, but tarmac will also feature darker areas, skid marks in tighter turns and in the braking zones where rubber is laid down by other cars. Whilst the physics account for the variance in width of the ideal line, the visuals currently remain at a more fixed width. So don’t worry if you’re dipping wheels on the inside or just off the outside of the visual line; you’re still likely going to be on that grippier part of the track. This new improved ideal line is only present currently on the new Greece stages; however this will be rolled out onto Wales, Alsace and Livigno where their ideal trajectories widths in the corners will be widened in future updates.</li>
+<li>Parked Car Variety: Expanded the model pool for ambient parked cars to increase visual diversity in the environment.</li>
+</ul>
+
+<ul>
+<li>Vehicle Database Fix: Corrected inaccurate technical information in the Subaru Impreza S3 car profile menu.</li>
+<li>Interface Polish: Fixed minor text typos and layout inconsistencies across various UI screens.</li>
+<li>Object Reset Fix: Resolved a bug where dynamic, movable track objects would fail to reset to their starting positions after a stage restart.</li>
+</ul>
+<p><em>Source: <a href="https://store.steampowered.com/news/app/3917090/view/697642648593237462">Steam</a></em></p>
+
+		
+	</div></div><br/><br/>https://www.thesixthaxis.com/2026/06/29/assetto-corsa-rally-now-has-online-multiplayer-as-update-0-5-releases/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[Uncharted PS5 remake scrapped by Naughty Dog, it’s claimed]]></title>
             <link>https://www.thesixthaxis.com/2026/06/29/uncharted-ps5-remake-scrapped-by-naughty-dog-its-claimed/</link>
