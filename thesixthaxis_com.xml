@@ -4,17 +4,82 @@
         <title>maGaming RSS Feed - www.thesixthaxis.com</title>
         <link>https://lukasz-gladek-av.github.io/custom-rss/thesixthaxis_com.xml</link>
         <description>A cleaned-up version of the original gaming feed for www.thesixthaxis.com</description>
-        <lastBuildDate>Tue, 30 Jun 2026 07:18:54 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 30 Jun 2026 09:07:31 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Is SteamOS ready to replace Windows? I installed it so you don’t have to]]></title>
+            <link>https://www.thesixthaxis.com/2026/06/30/is-steamos-ready-to-replace-windows-i-installed-it-so-you-dont-have-to/</link>
+            <guid>1564441</guid>
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
+	
+		<p>The release of Steam Machine has been a strange one, to say the least. Even at its announcement it was met with scepticism over its price, which has only worsened now with <a href="https://www.thesixthaxis.com/2026/06/22/steam-machine-price/">the $1049 / £879 starting price as it goes on sale</a>, but the launch of this new hardware has brought with it a shining silver lining for Valve as more and more people are curious about <a href="https://www.thesixthaxis.com/2026/06/22/you-can-now-install-steamos-3-8-on-your-standard-gaming-pc-with-amd-gpu/">installing SteamOS on their own systems instead</a>. So, is SteamOS ready to replace Windows for PC gaming? I decided to try it for myself and find out.</p>
+<p>And what did I find out? Well, to be quite blunt, no it’s not. Even from Valve’s standpoint, <a href="https://www.thesixthaxis.com/tag/steamos">SteamOS</a> is in beta for all but the <a href="https://www.thesixthaxis.com/tag/steam-deck">Steam Deck</a>, <a href="https://www.thesixthaxis.com/tag/steam-machine">Steam Machine</a> and <a href="https://www.thesixthaxis.com/2025/01/08/the-lenovo-legion-go-s-will-be-the-first-third-party-steamos-handheld/">Lenovo Legion Go S</a>, and even with that, they only note that a clutch of other handhelds and PCs with AMD GPUs are compatible. <a href="https://store.steampowered.com/hwsurvey/En">At the last count</a> just 19.13% of the Steam userbase has an AMD GPU of some description, with the market still dominated by Nvidia at 72.42%.</p>
+
+<p>A big part of this is how GPU manufacturers handle Linux. There’s broad support for AMD with open source drivers, which Valve has been working on and contributing to so that they’re good enough for gaming, but for shipping Nvidia support, they’re having to work more closely on the proprietary driver stack. Other Linux distros, such as <a href="https://bazzite.gg/">Bazzite</a>, have their own workarounds for this, but a company like Valve really needs to work directly with Nvidia.</p>
+<p>Luckily for me, I land within that 19%. My main PC has a Ryzen 5900X and Radeon RX 6800, and the other has a Ryzen 5700X3D and Radeon RX 9060 XT, which lives next to the TV and would be most ideal for a big screen SteamOS experience. So, I quickly downloaded the SteamOS bootable recovery installer and, as instructed, used Rufus to zap it onto one of the thousands of USB sticks I have in my house.</p>
+<p>But while I was doing this I read up and discovered another quirk of SteamOS as it stands. Yes, Valve has always given tacit support for dual booting on Steam Deck, but any new install of SteamOS using their installer insists on completely wiping the NVMe SSD first. Valve’s support documentation also seems <a href="https://help.steampowered.com/en/faqs/view/1180-0BA6-4A75-B7CA">far too minimal and sparse</a> or their own devices, let alone custom SteamOS installs. For something that “just works” it will help weed out basic issues before contacting support, but not great for DIY PC gamers who just want to dip a little toe in and see if this is for you.</p>
+<p>Thankfully, there’s been enough people already tinkering with SteamOS over the past few years, both with other handheld gaming PCs and with their own desktop PCs, that this is a solved problem. Following <a href="https://github.com/Josh5/steamos_dual_boot_installer_patch">Josh5’s github guide</a>, I was able to quickly run through tweaking BIOS and Windows settings for compatibility, to then shrink my Windows installs, and then to boot into the USB flash drive (it’s just a portable version of their Linux OS, has a bunch of full utilities and features) and use Josh5’s command line scripts to install SteamOS.</p>
+<p><iframe title="DIY Steam Machine Dual Boot: SteamOS GUI Installer Without Wiping Windows" width="780" height="439" src="https://www.youtube.com/embed/8_6u0za39JA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+<p>Josh5 has now created a GUI utility to run the script in the last few days, though I found the command line worked more consistently for me…. once I learnt the different copy &amp; paste keystrokes – to confound you these seem to be application dependent. And upon the next reboot, I was shunted, not into Windows, but into SteamOS and its setup utility. Nice and easy, I thought.</p>
+<p>But then, after selecting language and time zone, the downstairs PC didn’t display any networks for me to join. Strange since, firstly, it had internet through the USB flash drive installer, and secondly, it’s connected via Ethernet and doesn’t have WiFi built in.</p>
+<p>My other PC seemed to fare better, showing both the wired Ethernet and WiFi networks, and was able to start a small SteamOS update… only to fail and complain about lacking network connectivity right at the last second.</p>
+<p>We’re already further down the rabbit hole than 95% of PC gamers would likely want to travel. Partitioning drives? Tweaking BIOS settings like “Secure Boot”? Command line scripts? Potentially deleting Windows outright? This isn’t really for your average John or Jane Gamer, and it’s proof enough that something like the Steam Machine is a valuable part of the PC gaming community. I can absolutely see the likes of Lenovo or Asus producing direct Steam Machine rivals, while boutique PC builders can sell semi-customised SteamOS boxes using MicroATX boards and cases (just without the lower power consumption and whisper quiet fans). French retailer LDLC has already revealed <a href="https://videocardz.com/newz/french-retailer-mocks-e1039-steam-machine-with-stim-machine-rx-9060-xt-pc-for-e999">the “Stim Machine”</a> which offers a much better GPU, for example.</p>
+<p>Back to the networking problems at hand, I was able to overcome them both, with a bit of persistent DuckDuckGo-ing – no AI was used in my scouring of the internet for solutions. Sure, I had to claw through some of the Steam Deck specific support, and past resolutions related merely to OS updates as opposed to fresh installs, and skim past queries and forum posts from the original SteamOS era, but I eventually found the key solutions I needed.</p>
+<p>Let me break it down what my issues were:</p>
+<p>For the upstairs PC, I simply needed to push through a SteamOS update via the command line. For the TV PC, the lack of a Wi-Fi card on the base B450 Tomahawk Max causes issues such that the network stack doesn’t load…. which can also be fixed via the command line.</p>
+
+<p>And here’s what I had to do:</p>
+<p>Access the command line with ctrl-alt-F4 –&nbsp;switching back to Steam’s main GUI uses ctrl-alt-F1.</p>
+<p>Within the command line, it will request a user, which defaults to ‘deck’. There is no password here (you would need to set that separately if you need superuser access), so just type in ‘deck’ and hit return.</p>
+<p>To force an update, simply run the following command:</p>
+<p><em>steamos-update</em></p>
+<p>When this is done, revert to the Steam UI with ctrl-alt-F1 and carry on.</p>
+<p>With the “No Network Found” error, check the networking status with:</p>
+<p><em>systemctl status NetworkManager</em></p>
+<p>Look in the readout to see if the device is reported as ‘inactive (dead), and if the logs finish by saying the system ‘Stopped Network Manager’. In this case I could simply run the following to restart the process:</p>
+<p><em>systemctl start NetworkManager</em></p>
+<p>Recheck the status, and with an active network I would suggest then running steamos-update from the commandline as well.</p>
+<p><em>Thanks to <a href="https://old.reddit.com/r/SteamOS/comments/1uhqznr/i_cant_install_steamos_now_update_error/">BabarasBartBarbier for the steamos-update fix</a>, and <a href="https://github.com/ValveSoftware/SteamOS/issues/2345">to niekez and julienchabanon</a> for helping strangers on the internet with Network Manager.</em></p>
+
+<p>Since getting SteamOS installed, I’ve only just started to explore what it can do as a gaming platform. For my living room, though, SteamOS has immediately injected a more console-like element to gaming on PC. I can push a couple power buttons, pick up a pad and sit on my sofa and immediately have a gamepad-friendly UI to interact with.</p>
+<p>The Steam Machine can go further than this with HDMI-CEC, and you can jury rig Windows with an isolated local account (for security reasons) to do the same, but it’s nicer to have this be the intended way for a gaming machine to run. Straight to the games, not to a login screen.</p>
+
+<p>So, is SteamOS ready to replace your Windows install? It might be for a certain kind of gamer, but it’s still fraught with concerns and worries if you’re not a confirmed tinkerer and DIY PC builder, and aren’t sure if you want to completely ditch Microsoft. Command lines bring the unfamiliarities of 1980s computing to the 2020s, and there were some hiccups along the way that needed researching, but really the “scariest” part of all this is if you decide to go back to Windows and need to delete half a dozen partitions to do so.</p>
+
+		
+	</div></div><br/><br/>https://www.thesixthaxis.com/2026/06/30/is-steamos-ready-to-replace-windows-i-installed-it-so-you-dont-have-to/]]></content:encoded>
+            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
+        </item>
         <item>
             <title><![CDATA[Assetto Corsa Rally now has online multiplayer as update 0.5 releases]]></title>
             <link>https://www.thesixthaxis.com/2026/06/29/assetto-corsa-rally-now-has-online-multiplayer-as-update-0-5-releases/</link>
             <guid>1564249</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
+            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div id="gp-content-wrapper">
+					
+						
+<article itemscope="" itemtype="http://schema.org/Article">
+
+	<meta itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemscope="" content="https://www.thesixthaxis.com/2026/06/29/assetto-corsa-rally-now-has-online-multiplayer-as-update-0-5-releases/">
+		<meta itemprop="headline" content="Assetto Corsa Rally now has online multiplayer as update 0.5 releases">			
+		
+		<meta itemprop="author" content="Aran Suddi">			
+		<meta itemprop="datePublished" content="2026-06-29">
+		<meta itemprop="dateModified" content="2026-06-29">
+		
+	
+							
+
+		
+	
+		
+
+		
+															
+	<div itemprop="text">
 	
 		<p>Assetto Corsa Rally has received its 0.5 update as its early access release rolls along, and the big part of this update is the introduction of online multiplayer. The online multiplayer adds both official lobbies and custom lobbies that players can customise. In addition, the Assetto Corsa Rally update 0.5 also adds Greece as a new location, which has two special stages, and 12 layout variants. Check out the trailer to get the overview, and the changelog following it.</p>
-<p>https://youtu.be/6flguQeWVk4?si=-jePoispTFU4lWm-</p>
+<p><iframe title="Assetto Corsa Rally - Update 0.5 OUT NOW Trailer" width="780" height="439" src="https://www.youtube.com/embed/6flguQeWVk4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
 <h2>Assetto Corsa Rally update 0.5 patch notes</h2>
 
 <ul>
@@ -125,25 +190,37 @@ Revised Peak Slip Angle Formula: Adjusted as a function of load to narrow the va
 <p><em>Source: <a href="https://store.steampowered.com/news/app/3917090/view/697642648593237462">Steam</a></em></p>
 
 		
-	</div></div><br/><br/>https://www.thesixthaxis.com/2026/06/29/assetto-corsa-rally-now-has-online-multiplayer-as-update-0-5-releases/]]></content:encoded>
-            <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[Uncharted PS5 remake scrapped by Naughty Dog, it’s claimed]]></title>
-            <link>https://www.thesixthaxis.com/2026/06/29/uncharted-ps5-remake-scrapped-by-naughty-dog-its-claimed/</link>
-            <guid>1564183</guid>
-            <content:encoded><![CDATA[<div id="readability-page-1" class="page"><div itemprop="text">
-	
-		<p>A <a href="http://thesixthaxis.com/tag/playstation">PlayStation</a> 5 remake of the original <a href="http://thesixthaxis.com/tag/uncharted">Uncharted</a> was shelved in favour of <a href="http://thesixthaxis.com/tag/the-last-of-us-part-i">The Last of Us: Part I</a>. That’s according to Martin Kemp (<a href="https://www.youtube.com/channel/UCVtFZekHPK09OKz_mBJHy3g">“Thekempy” on YouTube</a>) who recently uploaded an excellent, exhaustive deep dive into Naughty Dog’s original version of Uncharted 4: A Thief’s End before the departure of its director, Amy Hennig. Honestly, it’s a fascinating watch.</p>
-<p><iframe title="Uncovering Amy Hennig's Uncharted 4" width="780" height="439" src="https://www.youtube.com/embed/qJ7RN3wBr94?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
-<p>Kemp was recently on <a href="https://www.youtube.com/watch?v=fJVIOBvF2KM">episode 517 of the Sacred Symbols podcast</a>, hosted by former IGN editor Colin Moriarty. He tells how an attempt to remake Uncharted: Drake’s Fortune for the PS5 was underway at N<a href="http://thesixthaxis.com/tag/naughty-dog">aughty Dog</a> several years ago, with the assistance of PlayStation’s Visual Arts Service Group.</p>
-<p>Apparently, the team remade a section of Nathan Drake’s first adventure with Uncharted 4’s level of graphics. However, after realising the sheer scope of what a full-blown remake would entail, Naughty Dog switched its focus, developing The Last of Us: Part I instead.</p>
-<p>Was it the right choice? Despite Naughty Dog’s track record for rehashing TLOU, there’s no denying that Part I offers an incredible upgrade over the PS3 original, and was deployed at just the right time, scooping up new fans who had watched HBO’s hit television series. In <a href="https://www.thesixthaxis.com/2022/08/31/the-last-of-us-part-i-review-ps5/">our review</a> we called it “an impressively gorgeous remake of a bonafide masterpiece. Just don’t expect that hefty price tag to bring much more than cosmetic feeling changes to this emotional narrative.”</p>
-<p>Drake’s Fortune is an all-time great, though it’s hard to imagine a remake topping the combined excellence of Uncharted 4 and its standalone spin-off, The Lost Legacy. Still, we’re not completely against the idea of Naughty Dog revisiting that first game, especially if it gives the team an opportunity to expand and explore some deeper Uncharted lore.</p>
-<p>For now, the series’ future is still a mystery with rumours suggesting that it’s been handed off to another first party studio – namely Bend Studio of Days Gone fame. As for Naughty Dog, it’s been a while since we’ve had a substantive update on the team’s upcoming sci-fi adventure game, Intergalactic. Although it may have missed the recent State of Play broadcast, we’re hoping it will resurface sooner rather than later.</p>
+	</div>
 
+				
+			
 		
-	</div></div><br/><br/>https://www.thesixthaxis.com/2026/06/29/uncharted-ps5-remake-scrapped-by-naughty-dog-its-claimed/]]></content:encoded>
+	
+
+				
+	
+		
+
+	
+				
+		<div>
+
+			<h3>Related stories from TSA			
+			</h3>
+			
+				
+				
+		</div>
+
+	
+	
+	
+ 
+	
+	
+
+</article>						
+					</div></div><br/><br/>https://www.thesixthaxis.com/2026/06/29/assetto-corsa-rally-now-has-online-multiplayer-as-update-0-5-releases/]]></content:encoded>
             <dc:creator>invalid@example.com (ResetEra_Newsbot</dc:creator>
         </item>
     </channel>
